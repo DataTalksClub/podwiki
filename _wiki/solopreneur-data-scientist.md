@@ -21,7 +21,7 @@ A solopreneur is an entrepreneur who chooses to run a small business, usually
 without building a large employee team.
 
 For how DataTalks.Club guests use the term, start with
-[Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}). The path here's for
+[[Solopreneur]]. The path here's for
 data and AI professionals.
 
 For data and AI professionals, that can mean several kinds of work:
@@ -36,31 +36,31 @@ escape from employment.
 
 Three interviews anchor this article:
 
-- [Noah Gift](https://datatalks.club/people/noahgift.html) frames solopreneurship as intentional smallness and diversified
+- [[person:noahgift|Noah Gift]] frames solopreneurship as intentional smallness and diversified
   income in
-  [Becoming a Solopreneur in Data](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html).
-- [Marianna Diachuk](https://datatalks.club/people/mariannadiachuk.html) shows the operating discipline needed when one person owns
+  [[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]].
+- [[person:mariannadiachuk|Marianna Diachuk]] shows the operating discipline needed when one person owns
   data science inside a startup in
-  [Introducing Data Science in Startups](https://datatalks.club/podcast/solopreneur-data-scientist.html).
-- [Dimitri Visnadi's](https://datatalks.club/people/dimitrivisnadi.html) freelance interviews add positioning, client discovery,
+  [[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]].
+- [[person:dimitrivisnadi|Dimitri Visnadi's]] freelance interviews add positioning, client discovery,
   pricing, and financial risk in
-  [Become a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html)
+  [[podcast:becoming-data-freelancer|Become a Data Freelancer]]
   and
-  [Taking Your Freelance Career to the Next Level](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html).
+  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]].
 
 These podcast discussions connect solopreneurship with these topics:
 
-- [freelance]({{ '/wiki/freelance/' | relative_url }})
-- [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
-- [startups]({{ '/wiki/startups/' | relative_url }})
-- [technical writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+- [[freelance]]
+- [[entrepreneurship]]
+- [[startups]]
+- [[technical writing]]
+- [[open source and developer relations]]
 
 ## Solopreneur Meaning
 
-[Noah Gift](https://datatalks.club/people/noahgift.html) defines
+[[person:noahgift|Noah Gift]] defines
 solopreneurship as a choice to stay small on purpose in
-[Becoming a Solopreneur in Data](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html).
+[[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]].
 At 6:42 and 16:27, he explains why he isn't trying to raise venture money,
 hire a large team, or chase the biggest possible company. At 25:05 and 42:56,
 he connects independence to diversified income and the ability to say no to
@@ -78,17 +78,17 @@ work and teaching. It can also include writing and software. Some data
 solopreneurs also build repeatable packages or open-source services.
 
 At 46:27 in
-[Becoming a Solopreneur in Data](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html),
+[[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]],
 Noah combines consulting and books with courses. He also includes university
 teaching, software projects, and other income sources.
 
 ## Solopreneur vs Freelancer vs Startup Founder
 
 A freelancer sells time or a scoped project to clients.
-[Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html) treats
+[[person:dimitrivisnadi|Dimitri Visnadi]] treats
 this as running a business, not simply doing the same job without an employer.
 In
-[Become a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html),
+[[podcast:becoming-data-freelancer|Become a Data Freelancer]],
 he explains that independent work adds marketing, positioning, and pricing to
 the technical work. It also adds contracts, payment risk, and client management.
 
@@ -96,19 +96,19 @@ A startup founder usually builds a company that can grow beyond the founder.
 That may involve employees and investors. It may also involve product teams and
 a larger market bet.
 DataTalks.Club
-[startups]({{ '/wiki/startups/' | relative_url }}) discussions often revolve
+[[startups]] discussions often revolve
 around company readiness, product constraints, and team building.
 
 A solopreneur sits between those paths. You can take client work like a
 freelancer and build assets like a founder. You don't have to turn every idea
 into a venture-backed company. That distinction is close to the DataTalks.Club
-[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) thread:
+[[entrepreneurship]] thread:
 business ownership can mean useful, profitable, intentionally small work.
 
 ## The Solo Data Scientist Version
 
-[Marianna Diachuk's](https://datatalks.club/people/mariannadiachuk.html)
-[solo data scientist episode](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+[[person:mariannadiachuk|Marianna Diachuk's]]
+[[podcast:solopreneur-data-scientist|solo data scientist episode]]
 is useful because "solo data scientist" maps to many solopreneur constraints
 inside a company. She describes the freedom of being the only data scientist in
 a startup, but she also stresses the responsibility.
@@ -156,14 +156,14 @@ Good first offers are narrow:
 - training, workshops, and internal enablement for a team adopting data or AI
 
 At 30:11 in
-[Marianna's solo data scientist episode](https://datatalks.club/podcast/solopreneur-data-scientist.html),
+[[podcast:solopreneur-data-scientist|Marianna's solo data scientist episode]],
 her churn example starts with analysis, then moves toward a model and marketing
 collaboration. Use that as a guardrail. Start with the smallest analysis that
 can change a decision before you sell a larger model.
 
-[Dimitri Visnadi's](https://datatalks.club/people/dimitrivisnadi.html) later
+[[person:dimitrivisnadi|Dimitri Visnadi's]] later
 freelance episode adds another guardrail. At 10:50 and 23:51 in
-[Taking Your Freelance Career to the Next Level](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]],
 he separates selling skills from selling expertise. If you sell a skill, the
 buyer already knows the task and needs capacity. If you sell expertise, the
 buyer expects you to define the problem. A solopreneur can sell either, but the
@@ -171,7 +171,7 @@ offer has to make that clear.
 
 ## Income Streams Beyond Client Work
 
-In [Becoming a Solopreneur in Data](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html),
+In [[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]],
 Noah's core advice is to avoid depending on one source of income.
 
 For a data or AI professional, realistic streams usually repackage the same
@@ -187,15 +187,15 @@ expertise for different buyers:
 - support around open-source or developer tools
 
 This is where
-[technical writing]({{ '/wiki/technical-writing/' | relative_url }}) and
-[open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+[[technical writing]] and
+[[open source and developer relations]]
 matter. Writing turns expertise into a reusable asset. Open-source and DevRel
 work turn technical skill into adoption, examples, documentation, and user
 feedback. Those activities can support consulting, teaching, product work, and
 audience building without pretending that every post is a sales page.
 
-[Admond Lee Kin Lim's](https://datatalks.club/people/admondleekinlim.html)
-[Personal Branding](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+[[person:admondleekinlim|Admond Lee Kin Lim's]]
+[[podcast:personal-brand-for-data-professionals|Personal Branding]]
 episode adds a useful correction. He doesn't define personal brand as follower
 count. He frames it as sharing expertise, experience, knowledge, and mistakes so
 people know what you can help with. For a solopreneur, that's not vanity. It's
@@ -206,11 +206,11 @@ the work.
 
 Noah and Dimitri are conservative about quitting. Noah recommends building the
 tunnel while still employed at 53:49 in
-[Becoming a Solopreneur in Data](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html).
+[[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]].
 Lower expenses where possible, save money, build side streams, and avoid
 betting the whole career on one new offer. Dimitri gives a similar version from
 the freelance side. At 14:13 and 56:47 in
-[Taking Your Freelance Career to the Next Level](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]],
 he talks about testing demand and managing financial risk.
 
 That gives data and AI professionals a staged path:
@@ -225,7 +225,7 @@ That gives data and AI professionals a staged path:
 
 Dimitri warns against assuming that technical credentials automatically command
 high prices. At 1:01:02 in
-[Taking Your Freelance Career to the Next Level](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]],
 he ties pricing to market validation and positioning.
 A PhD or a strong model still needs positioning. A new AI skill still needs a
 buyer, a recognized problem, a paid outcome, and a removed risk.
@@ -234,7 +234,7 @@ buyer, a recognized problem, a paid outcome, and a removed risk.
 
 AI tools can increase a solopreneur's output, but they don't remove the need
 for positioning and judgment. In
-[Dimitri's later freelance interview](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Dimitri's later freelance interview]],
 he discusses using tools such as Claude, ChatGPT, and Cursor for productivity.
 Use that in the business as support, not as the whole offer.
 
@@ -246,7 +246,7 @@ The stronger AI-solopreneur offer is still specific:
 - "I help founders evaluate whether an LLM feature is useful, risky, or early."
 
 Marianna's
-[startup advice](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+[[podcast:solopreneur-data-scientist|startup advice]]
 applies here. Sometimes the right answer is a dashboard, query, or experiment,
 not a model. Sometimes the model should run in silent mode before it affects
 users. A data or AI solopreneur earns trust by choosing the smaller, safer
@@ -256,13 +256,13 @@ intervention when that's what the evidence supports.
 
 The common failure mode is selling independence before selling value. These
 practical mistakes come from Noah's
-[solopreneur interview](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html),
+[[podcast:solopreneur-developer-and-data-professional|solopreneur interview]],
 Dimitri's
-[freelance strategy episode](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|freelance strategy episode]],
 Marianna's
-[solo startup role episode](https://datatalks.club/podcast/solopreneur-data-scientist.html),
+[[podcast:solopreneur-data-scientist|solo startup role episode]],
 and Admond's
-[personal branding episode](https://datatalks.club/podcast/personal-brand-for-data-professionals.html).
+[[podcast:personal-brand-for-data-professionals|personal branding episode]].
 
 - quitting before testing demand or saving enough runway
 - describing yourself as a general data or AI expert without a buyer problem
@@ -279,28 +279,28 @@ buyer, explain the result clearly, and reuse what you learned.
 
 Start with these interviews:
 
-- [Noah Gift's](https://datatalks.club/people/noahgift.html)
-  [solopreneur interview](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- [[person:noahgift|Noah Gift's]]
+  [[podcast:solopreneur-developer-and-data-professional|solopreneur interview]]
   for the business philosophy and income mix.
-- [Marianna Diachuk's](https://datatalks.club/people/mariannadiachuk.html)
-  [solo data scientist interview](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+- [[person:mariannadiachuk|Marianna Diachuk's]]
+  [[podcast:solopreneur-data-scientist|solo data scientist interview]]
   for the first 90 days as a solo data scientist.
-- [Dimitri Visnadi's](https://datatalks.club/people/dimitrivisnadi.html)
-  [first freelance interview](https://datatalks.club/podcast/becoming-data-freelancer.html)
+- [[person:dimitrivisnadi|Dimitri Visnadi's]]
+  [[podcast:becoming-data-freelancer|first freelance interview]]
   and
-  [follow-up freelance strategy interview](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|follow-up freelance strategy interview]]
   for client acquisition, pricing, positioning, and risk.
-- [Admond Lee Kin Lim's](https://datatalks.club/people/admondleekinlim.html)
-  [personal branding interview](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- [[person:admondleekinlim|Admond Lee Kin Lim's]]
+  [[podcast:personal-brand-for-data-professionals|personal branding interview]]
   to turn your expertise into public proof.
 
 For adjacent topic maps, continue with these pages:
 
-- [freelance]({{ '/wiki/freelance/' | relative_url }})
-- [solopreneur]({{ '/wiki/solopreneur/' | relative_url }})
-- [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
-- [startups]({{ '/wiki/startups/' | relative_url }})
-- [technical writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [consultant or freelancer to data product founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+- [[freelance]]
+- [[solopreneur]]
+- [[entrepreneurship]]
+- [[startups]]
+- [[technical writing]]
+- [[open source and developer relations]]
+- [[consultant or freelancer to data product founder]]
 

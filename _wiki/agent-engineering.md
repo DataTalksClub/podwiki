@@ -23,27 +23,27 @@ assistants, coding agents, and enterprise search assistants. They also discuss
 multi-agent support systems and workflow automation.
 
 The clearest definition comes from
-[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) in
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
+[[person:ranjithakulkarni|Ranjitha Kulkarni]] in
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
 At 11:00, she frames an agent around autonomy and objectives. She ties that
 definition to LLM reasoning. At 12:31, she adds orchestration and tool use. She
 also adds memory and knowledge stores.
 
 Agent engineering therefore sits next to
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
-and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
+[[LLM Production Patterns]],
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+and [[LLM Evaluation Workflows]].
 
 ## Key Agent Episodes
 
 The agent discussions in the podcast cluster around six recurring threads:
 
-- [Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html) with [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
-- [The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html) with [Aditya Gautam](https://datatalks.club/people/adityagautam.html) for enterprise adoption, specialized models, guardrails, and data lineage. He also covers multi-tenant evaluation, human-label alignment, and deployment risk.
-- [From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html) with [Micheal Lanham](https://datatalks.club/people/micheallanham.html) for the lineage from game AI and multi-agent systems to LLM agents. He also covers task decomposition, orchestration designs, SDKs, MCP integration, coding agents, and monitoring.
-- [Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html) with [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) for generator-evaluator loops, embedded workflow assistants, and RAG-to-agent progression. His examples include email assistants, agent memory, and small-start evaluation.
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html) with [Paul Iusztin](https://datatalks.club/people/pauliusztin.html) for agents inside the wider AI engineering skill stack.
-- [Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html) with [Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) for security risks that become sharper when an LLM can retrieve data or take actions.
+- [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]] with [[person:ranjithakulkarni|Ranjitha Kulkarni]] for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
+- [[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]] with [[person:adityagautam|Aditya Gautam]] for enterprise adoption, specialized models, guardrails, and data lineage. He also covers multi-tenant evaluation, human-label alignment, and deployment risk.
+- [[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]] with [[person:micheallanham|Micheal Lanham]] for the lineage from game AI and multi-agent systems to LLM agents. He also covers task decomposition, orchestration designs, SDKs, MCP integration, coding agents, and monitoring.
+- [[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]] with [[person:hugobowneanderson|Hugo Bowne-Anderson]] for generator-evaluator loops, embedded workflow assistants, and RAG-to-agent progression. His examples include email assistants, agent memory, and small-start evaluation.
+- [[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]] with [[person:pauliusztin|Paul Iusztin]] for agents inside the wider AI engineering skill stack.
+- [[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]] with [[person:mariasukhareva|Maria Sukhareva]] for security risks that become sharper when an LLM can retrieve data or take actions.
 
 ## Agents as Workflow Actors
 
@@ -57,21 +57,21 @@ retrieved context. They also define permissions, evaluation, observability, and
 fallback behavior.
 
 Ranjitha and Hugo also keep a strong boundary between
-[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and agents. In Ranjitha's episode, the
+[[retrieval-augmented-generation|RAG]] and agents. In Ranjitha's episode, the
 37:39 section separates cases where retrieval is enough from cases that need an
 agent. At 36:11, she describes retrieval as one tool an agent can call.
 
 In
-[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
+[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
+[[person:hugobowneanderson|Hugo Bowne-Anderson]]
 makes the same progression. His 44:26 section starts with chunking and
 embeddings for quick RAG wins. At 50:19, he discusses when teams should add
 tool calls and agent behavior.
 
 Paul's episode places agent engineering inside the
-[AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). In
-[Paul Iusztin's AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
-[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) places agents
+[[AI Engineer Role]]. In
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|Paul Iusztin's AI engineering episode]],
+[[person:pauliusztin|Paul Iusztin]] places agents
 inside a broader AI product stack. His 22:29 chapter covers the full-stack AI
 engineer skill set. His 29:12 chapter emphasizes RAG and knowledge management.
 The 42:28 chapter moves from techniques to shipping AI products.
@@ -82,30 +82,30 @@ Guests agree that agents need tool use, context, and evaluation. They differ on
 the first design constraint. It may be operational reliability, adoption path,
 orchestration style, or enterprise governance.
 
-[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) starts
+[[person:ranjithakulkarni|Ranjitha Kulkarni]] starts
 from production workflows. Her
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
 episode uses on-call automation and SRE workflows as examples. The 22:50
 section covers logs, metrics, and remediation. The 24:59 section shows that
 agents need usable integrations before they can help with operational work.
 
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) starts
+[[person:hugobowneanderson|Hugo Bowne-Anderson]] starts
 from practical adoption. In
-[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
+[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
 his 56:21 framework begins with the problem, starts small, then adds data and
 evaluation. His 53:34 email assistant example shows a concrete path from Gmail
 API access and RAG to a useful assistant.
 
-[Micheal Lanham](https://datatalks.club/people/micheallanham.html) starts from
+[[person:micheallanham|Micheal Lanham]] starts from
 workflow design and multi-agent history. In
-[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
+[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
 the 20:57 section emphasizes minimalism and task decomposition. At 23:48, he
 compares sequential flows with manager-agent orchestration. At 31:31, he brings
 in OpenAI Agent SDK and MCP integration.
 
-[Aditya Gautam](https://datatalks.club/people/adityagautam.html) starts from
+[[person:adityagautam|Aditya Gautam]] starts from
 enterprise risk. In
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
 the 19:16 section links specialized models to agent governance. At 30:26, he
 discusses guardrails and data lineage. At 43:30 and 50:18, he ties evaluation
 to multi-tenancy, scale, and alignment with human labels.
@@ -122,7 +122,7 @@ Micheal's episode adds a practical design warning: start with the smallest
 workflow that solves the task. The 20:57 section favors minimalism and task
 decomposition. The 23:48 section distinguishes a sequential pipeline from
 manager-agent orchestration. That distinction matters for
-[Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
+[[Software Engineering]]
 because a linear workflow is easier to test and debug than an open-ended
 multi-agent system.
 
@@ -141,7 +141,7 @@ inputs, traceable outputs, and enforceable permissions.
 Ranjitha's 18:23 section covers prompts, SDKs, and tool wrappers, while the
 24:59 section discusses integration abstractions for diverse tools. At 48:00,
 she links agent marketplaces and MCP-style protocols to the problem of making
-tools discoverable and callable. These are [Tools]({{ '/wiki/tools/' | relative_url }})
+tools discoverable and callable. These are [[Tools]]
 questions, but the agent page keeps the workflow-specific part. Tools should
 match the decisions the agent is allowed to make.
 
@@ -151,9 +151,9 @@ separate integration layer. The agent may need private reasoning state or task
 state that isn't shown directly to the user. That state should be observable
 enough for debugging, but it shouldn't replace tests.
 
-[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) adds a
+[[person:bartoszmikulski|Bartosz Mikulski]] adds a
 production AI view in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 At 41:04, he walks through a browser extension architecture with a backend AI
 integration. At 47:19, he discusses search-focused assistants and tool
 selection. Those examples keep agent engineering close to normal application
@@ -174,7 +174,7 @@ retrieval backends. She also covers chunking, metadata, and wrappers so
 retrieved information fits the agent's job.
 
 For the broader retrieval architecture, see
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
+[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
 
 Hugo's 48:20 section compares chunking strategies, including fixed length and
 sliding windows. His 57:41 section distinguishes retrieval-based memory from
@@ -198,8 +198,8 @@ Ranjitha's 51:17 section recommends custom datasets and system benchmarks. At
 53:20, she discusses mocked tools, integration tests, and regression tests. At
 56:02, she emphasizes goal-based evaluation and outcome assertions over exact
 paths. Those evaluation choices belong with
-[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-and [Testing]({{ '/wiki/testing/' | relative_url }}).
+[[LLM Evaluation Workflows]]
+and [[Testing]].
 
 Hugo's 13:56 section introduces a generator-evaluator loop for automated
 quality control. At 23:00, he discusses gold test sets, cost, and
@@ -222,16 +222,16 @@ Cost and latency controls matter because tool calls, retrieval, and multi-step
 reasoning can multiply runtime.
 
 Aditya's
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]
 episode is the strongest governance source. The 13:13 section covers reliability
 in legal and healthcare settings. The 30:26 section links guardrails and data
 lineage to Agent MLOps. At 36:55, he discusses user feedback loops. At 56:40,
 he names infrastructure and deployment risks.
 
 Those controls overlap with security work from
-[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
+[[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]].
 At 13:20 in that episode,
-[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) discusses
+[[person:mariasukhareva|Maria Sukhareva]] discusses
 prompt overload and knowledge-base retrieval attacks. For agents, the same
 retrieval risk can become an action risk. That matters when the system can call
 tools, write data, send messages, or trigger workflows. Across these
@@ -239,18 +239,18 @@ discussions, teams keep agents governed by narrowing tool permissions and
 tracing the data used for each answer or action. They also keep human review
 around high-impact decisions and test failures repeatedly. Practical agent work
 therefore draws on
-[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[Production]({{ '/wiki/production/' | relative_url }}).
+[[AI Red Teaming]],
+[[Responsible AI and Governance]],
+[[Data Governance]], and
+[[Production]].
 
 These discussions place agent engineering beside
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-and [Production]({{ '/wiki/production/' | relative_url }}).
+[[Responsible AI and Governance]]
+and [[Production]].
 
 The operational discipline of monitoring, governing, and deploying agents in
 production is covered as
-[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}).
+[[Agent Ops]].
 
 Bartosz's production AI episode adds cost and performance mechanics through
 prompt evaluation and cost tradeoffs at 28:16. At 30:00 and 31:45, he treats
@@ -268,15 +268,15 @@ against that workflow.
 These pages cover the role, retrieval layer, evaluation work, and production
 constraints around agent systems.
 
-- [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }})
-- [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Tools]({{ '/wiki/tools/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [Agent Ops]({{ '/wiki/agent-ops/' | relative_url }})
+- [[AI Engineer Role]]
+- [[AI Engineering Roadmap]]
+- [[LLM Production Patterns]]
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[retrieval-augmented-generation|RAG]]
+- [[LLM Evaluation Workflows]]
+- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+- [[Tools]]
+- [[Production]]
+- [[Responsible AI and Governance]]
+- [[Agent Ops]]

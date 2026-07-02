@@ -20,7 +20,7 @@ related_wiki:
 Moving from data analyst to data engineer is a shift from using prepared data
 to owning the path that makes data usable. A data analyst already brings SQL,
 business context, dashboard experience, and metric judgment
-([Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})).
+([[Data Analyst Role]]).
 
 The data engineering move adds backend work:
 
@@ -30,12 +30,12 @@ The data engineering move adds backend work:
 - orchestration, testing, and recovery
 
 Those responsibilities sit inside the
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
+[[Data Engineer Role]].
 
 Jeff Katz gives a direct answer about this transition.
-[Jeff Katz](https://datatalks.club/people/jeffkatz.html) answers the analyst-to-data
+[[person:jeffkatz|Jeff Katz]] answers the analyst-to-data
 engineer question at 40:42-41:41 in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 
 His answer isn't "learn every data tool."
 For analysts and BI professionals, he says the main gaps are backend
@@ -46,10 +46,10 @@ too.
 
 This roadmap focuses on the analyst-to-engineer transition. The broader
 learning sequence is covered in
-[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
-and [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
+[[data-engineer-roadmap|Data Engineering Roadmap]]
+and [[Data Engineer Roadmap]].
 Proof of readiness belongs in
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+[[Data Engineering Portfolio Projects]].
 
 ## Translate The Analyst Advantage
 
@@ -58,11 +58,11 @@ how business users consume data. They know where metric definitions become
 ambiguous, which dashboard fields trigger questions, and which source issues
 break trust. Data engineering isn't just moving bytes. It builds dependable data
 paths for analysts, data scientists, product teams, and operations teams
-([Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})).
+([[Data Engineering]]).
 
-[Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html) gives the clearest
+[[person:eddyzulkifly|Eddy Zulkifly]] gives the clearest
 analyst foundation in
-[FinOps for Data Engineers](https://datatalks.club/podcast/finops-for-data-engineers.html).
+[[podcast:finops-for-data-engineers|FinOps for Data Engineers]].
 At 6:33-8:00, he describes moving from a business analyst role focused on
 dashboards into data engineering. He says analyst experience made the transition
 easier because reporting, dashboards, interpreting data, and business needs
@@ -82,9 +82,9 @@ Turn current analyst work into engineering evidence:
   need.
 
 This translation connects the roadmap to
-[Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }}),
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [Job Search]({{ '/wiki/job-search/' | relative_url }}).
+[[Data Analyst Careers]],
+[[Data Quality and Observability]],
+and [[Job Search]].
 
 ## Choose The Target Data Engineering Direction
 
@@ -94,9 +94,9 @@ close to business questions, metrics, marts, and stakeholder needs. Platform
 data engineering is possible too, but it asks for more infrastructure,
 deployment, and systems work.
 
-[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) separates the
+[[person:slawomirtulski|Slawomir Tulski]] separates the
 role at 10:47-12:11 in
-[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
 
 Platform data engineers build shared warehouses and infrastructure while taking
 on DevOps practices, standards, and reliability. Product data engineers work
@@ -108,10 +108,10 @@ Pick the first target deliberately:
 
 - If your strongest work is metrics, dashboards, marts, dbt, BI, and product
   analytics, aim first at product data engineering or
-  [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+  [[analytics engineering]].
 - If your strongest work is scripting, automation, cloud, Docker, command line,
   and systems debugging, aim toward platform data engineering and
-  [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+  [[data engineering platforms]].
 - If your current role sits between dashboard consumers and source systems,
   build one portfolio project that moves upstream from dashboard to ingestion,
   raw storage, modeled tables, and quality checks.
@@ -128,7 +128,7 @@ inside repeatable transformations. The first stage is therefore not "learn SQL."
 It's "make your SQL reviewable, modular, and model-aware."
 
 At 41:41 in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
 Jeff Katz says dbt can be navigated quickly for interviews. The harder
 on-the-job part is knowing staging and integration. Marts, CTEs, and modular
 SQL matter too.
@@ -146,20 +146,20 @@ Practice with analyst-friendly material:
 - compare a normalized source schema with an analytical star or wide table
 - document which stakeholder question each final table answers
 
-[Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html) gives the
+[[person:nikolamaksimovic|Nikola Maksimovic]] gives the
 internal-mobility version in
-[Marketing to Analytics Engineering](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]].
 At 9:53-11:02, her BI team named SQL, pipeline understanding, and Python
 familiarity as the skills needed to move closer to the data team. At 41:50, she
 recommends practicing SQL against real team queries when possible because local
 style, data models, and business context matter more than isolated exercises.
 
 For adjacent role context, use
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[[Data Analyst vs Analytics Engineer]]
 and
-[Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
-For modeling context, use [dbt]({{ '/wiki/dbt/' | relative_url }}) and
-[Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}).
+[[Analytics Engineering Portfolio Projects]].
+For modeling context, use [[dbt]] and
+[[Data Warehouse]].
 
 ## Stage 2: Add Python And Backend Habits
 
@@ -170,7 +170,7 @@ runs, and write tests. That code should be small enough for another engineer to
 review.
 
 At 1:20 in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
 Jeff Katz names backend engineering. He also names cloud computing and
 pipelines.
 At 1:49-2:22, he warns that many portfolios list tools but show too little
@@ -189,13 +189,13 @@ Build Python habits in the order they'll appear in pipeline work:
 
 This stage is where the transition starts feeling less like analytics and more
 like engineering. Eddy Zulkifly describes the same discomfort at 8:06-8:17 in
-[FinOps for Data Engineers](https://datatalks.club/podcast/finops-for-data-engineers.html).
+[[podcast:finops-for-data-engineers|FinOps for Data Engineers]].
 He came from low-code and UI tools, so the command line, Docker, and Terraform
 felt overwhelming at first. Those tools became manageable once the concepts
 clicked.
 
-Use [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) as
+Use [[Data Engineering Tools]]
+and [[Modern Data Stack]] as
 context, but don't let the tool list replace code depth.
 
 ## Stage 3: Move Upstream From Dashboard To Pipeline
@@ -217,9 +217,9 @@ A good analyst-to-engineer project includes:
 - a repeatable run path with a script, scheduler, or orchestrator
 - quality checks and a short recovery note for late, missing, or malformed data
 
-[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) shows the
+[[person:gloriaquiceno|Gloria Quiceno]] shows the
 project version in her
-[data engineering job episode](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
+[[podcast:get-data-analytics-and-data-engineering-job|data engineering job episode]].
 At 42:38-43:37, she says interviewers valued her recognition of clean data and
 data quality checks. Those checks were essential for reports.
 
@@ -236,9 +236,9 @@ existing reporting process. If you need a public project, adapt the same
 structure with open data. Show a consumer-driven data path, not a generic stack
 diagram.
 
-Use [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
-[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
+Use [[Data Pipelines]],
+[[ETL vs ELT]], and
+[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]]
 for implementation patterns.
 
 ## Stage 4: Add Cloud, Docker, Orchestration, And Operations
@@ -249,7 +249,7 @@ engineering, this doesn't mean mastering every platform. It means showing a
 repeatable environment, a scheduled or triggerable job, logs, and basic recovery.
 
 Jeff Katz's advice in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]
 keeps this stage focused. At 57:36-58:48, he says most of the skill set should
 remain Python and SQL. Cloud computing, Docker, and AWS are safe bets, and
 Airflow code should still depend mainly on Python rather than hiding weak
@@ -266,16 +266,16 @@ Add the minimum useful operating layer:
 - a short runbook for the most likely failure
 
 Gloria's work example at 8:00-8:55 and 15:15-17:49 in
-[Gloria Quiceno's data engineering job episode](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
+[[podcast:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job episode]]
 is useful here. Business reporting work became more engineering-heavy when SQL
 scripts moved into R or Python, Docker, AWS, and automated reports. Many
 analysts can take the same route. Automate the recurring reporting pain first,
 then turn the automation into pipeline evidence.
 
 For reliability context, use
-[DataOps]({{ '/wiki/dataops/' | relative_url }}),
-[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
-[Orchestration]({{ '/wiki/orchestration/' | relative_url }}).
+[[DataOps]],
+[[data-quality-and-observability|Data Observability]], and
+[[Orchestration]].
 
 ## Stage 5: Package The Portfolio For Hiring
 
@@ -295,7 +295,7 @@ In the README, answer these questions:
 - What would you simplify, scale, or change next?
 
 Jeff Katz sets this portfolio standard in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 
 At 1:49-2:46, he asks for these signals:
 
@@ -307,7 +307,7 @@ At 1:49-2:46, he asks for these signals:
 - open-source contribution where possible
 
 Slawomir Tulski gives the outcome-framing version at 57:35-1:00:50 in
-[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
 Real work is strongest, side projects still count, and candidates should frame
 side projects around outcomes instead of apologizing for them.
 
@@ -322,9 +322,9 @@ For analyst candidates, the strongest framing is usually specific:
   backend and cloud depth.
 
 Use
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
-and [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+[[Data Engineering Portfolio Projects]],
+[[Open Source Portfolio Evidence]],
+and [[Career Transitions in Data]]
 to refine the proof.
 
 ## Prepare The Interview Story
@@ -346,7 +346,7 @@ Prepare examples for four interview surfaces:
   background and which engineering gaps you have already closed.
 
 At 48:00 in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
 Jeff Katz outlines likely interview checks. Screening may ask about data
 engineering concepts, OLTP versus OLAP, pipelines, and tools. A later stage
 often includes SQL, and he warns candidates not to
@@ -354,7 +354,7 @@ let one failed interview derail the learning path. Keep building the pipeline,
 improving SQL, and practicing Python.
 
 For job search, don't self-filter too aggressively. In
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
 Jeff Katz says at 16:23 that hiring teams often accept candidates with gaps.
 Job descriptions describe an ideal candidate. The actual hire often has gaps.
 Your job is to make the strongest relevant evidence visible.
@@ -363,21 +363,21 @@ Your job is to make the strongest relevant evidence visible.
 
 The roadmap connects to these transition, role, and portfolio topics:
 
-- [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
-- [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
-- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
-- [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
-- [How to Become a Data Engineer With No Experience]({{ '/wiki/how-to-become-a-data-engineer-with-no-experience/' | relative_url }})
-- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+- [[Data Analyst Role]]
+- [[Data Analyst Careers]]
+- [[Data Analyst vs Analytics Engineer]]
+- [[Data Engineer Role]]
+- [[Data Engineering]]
+- [[data-engineer-roadmap|Data Engineering Roadmap]]
+- [[Data Engineer Roadmap]]
+- [[How to Become a Data Engineer With No Experience]]
+- [[Data Engineering Portfolio Projects]]
+- [[Analytics Engineering]]
+- [[Analytics Engineering Portfolio Projects]]
+- [[Data Pipelines]]
+- [[Data Quality and Observability]]
+- [[DataOps]]
+- [[Modern Data Stack]]
+- [[Job Search]]
+- [[Career Transitions in Data]]
 

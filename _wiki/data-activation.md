@@ -20,14 +20,14 @@ customer data, or modeled warehouse data moving into operational workflows.
 Sales and support are common examples. Marketing, onboarding, and engagement
 show the same need on the growth side.
 The topic sits between
-[event tracking]({{ '/wiki/event-tracking/' | relative_url }}),
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
-[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}), and
-[data products]({{ '/wiki/data-products/' | relative_url }}).
+[[event tracking]],
+[[product analytics]],
+[[reverse ETL]], and
+[[data products]].
 
-[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
+[[person:arpitchoudhury|Arpit Choudhury]] gives the
 clearest podcast definition in
-[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
 At 22:50, he lays out a sequence from collection to storage and analysis, then
 activation. At 30:03, he defines activation through support and sales tools.
 Engagement tools and product experiences use the same event data instead of
@@ -42,10 +42,10 @@ only after they trust it enough to affect a workflow.
 At that point, a support agent sees product usage while answering a ticket. A
 salesperson sees a product-qualified account in a CRM. A growth team sends a
 segment to an email or onboarding tool
-([Arpit Choudhury at 30:03-33:41](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Arpit Choudhury at 30:03-33:41]]).
 
 This makes data activation narrower than general
-[data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}). Growth can
+[[data-led-growth|data-led growth]]. Growth can
 include strategy, experimentation, channel decisions, and product loops.
 Activation is the part where a modeled signal crosses into an operational
 surface. It's also broader than reverse ETL because a customer data platform,
@@ -56,30 +56,30 @@ activate data.
 
 Guests differ mostly on where they place the center of gravity. Arpit starts
 from growth and customer workflows, so he starts the stack with
-[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}), then moves
+[[tracking plans]], then moves
 toward warehouses and BI. Product analytics, reverse ETL, and customer data
 platforms come later. He treats activation as the point where product data
 improves support, sales, personalization, and onboarding
-([data-led growth at 13:34-24:43 and 30:03-44:24](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth at 13:34-24:43 and 30:03-44:24]]).
 
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) starts from the
-[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). In
-[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
+[[person:nataliekwong|Natalie Kwong]] starts from the
+[[modern data stack]]. In
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
 she describes reverse ETL as pushing modeled warehouse tables back into source
 systems or business tools. At 35:42-39:06, the activation problem is less about
 growth strategy and more about letting business users act on warehouse outputs
 without custom scripts.
 
-[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) frames the
+[[person:caitlinmoorman|Caitlin Moorman]] frames the
 same idea as last-mile delivery. In
-[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html),
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]],
 she argues at 8:48-13:24 that data work is unfinished until it reaches the
 decision point. Her version includes dashboards and experiments. It also
 includes meetings and productized analytics, not only syncs into external tools.
 
 ## Reverse ETL As Activation Plumbing
 
-[Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) is the most explicit
+[[Reverse ETL]] is the most explicit
 activation mechanism in these episodes. Arpit places it after warehouse storage
 and transformation. At 37:25-38:20, he names Census and Hightouch as tools for
 sending modeled warehouse data to operational systems. Grouparoo appears in the
@@ -87,14 +87,14 @@ same comparison.
 
 The destinations include sales and marketing systems. They also include
 advertising, support, and product analytics tools
-([data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 Natalie gives the data engineering version of the same workflow. In the Airbyte
 episode, she says teams used to write custom scripts to push data into systems
 such as Salesforce. At 36:14-38:01, she describes reverse ETL tools as low-code
 ways for sales or marketing users to copy warehouse outputs. The data goes into
 the systems where those users work
-([modern data stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)).
+([[podcast:data-engineering-tools-modern-data-stack|modern data stack episode]]).
 
 Arpit and Natalie therefore treat reverse ETL as operational plumbing, not as a
 replacement for modeling. The business logic still needs clear tables,
@@ -111,7 +111,7 @@ invoices, and activation moments. At 24:43-30:03, those events feed analysis.
 At 30:03-33:41, the same events become context for support and sales. They also
 feed engagement and product experience workflows.
 
-This is where [product analytics]({{ '/wiki/product-analytics/' | relative_url }})
+This is where [[product analytics]]
 and activation meet. Product analytics helps teams understand funnels,
 retention, segmentation, and user behavior. Activation sends the selected
 signal into a workflow. That can mean a lifecycle campaign, a product-qualified
@@ -120,21 +120,21 @@ a personalized product path.
 
 Arpit connects this to product-led growth at 56:08-1:00:29. In that discussion,
 the product uses activation signals and personalized onboarding to drive growth
-([data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 Caitlin adds the adoption test. At 34:00-38:15 in the last-mile episode, she
 recommends starting from the decision the data should enable, then working
 backward into the product or report. That matters for activation because a sync
 or dashboard isn't useful unless a real user changes a decision or action
-([last-mile data delivery episode](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
+([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery episode]]).
 
 ## Customer Data Platforms As A Bundled Path
 
-[Customer data platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
+[[Customer data platforms]]
 are another activation path. Arpit describes CDPs at 38:20-41:30 as all-in-one
 systems that collect customer data and help define segments. Those systems can
 then activate the segments for marketing or growth users
-([data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 A CDP can be faster when a team needs bundled collection, segmentation, and
 campaign activation. In a warehouse-centric path, analytics engineers keep
@@ -150,9 +150,9 @@ Activation raises the cost of bad data. Stale segments can trigger the wrong
 campaign, and broken identity rules can send support teams the wrong customer
 history. Ambiguous events can make sales teams prioritize the wrong account. For
 that reason, activation depends on
-[data governance]({{ '/wiki/data-governance/' | relative_url }}),
-[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}), and
-[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+[[data governance]],
+[[tracking plans]], and
+[[data-quality-and-observability|data observability]].
 
 Arpit ties this back to event ownership and source awareness. At 13:34-23:27,
 he discusses tracking plans, event definitions, and event properties. Anomaly
@@ -161,30 +161,30 @@ investigation comes before activation too.
 At 46:13-56:08, he discusses the team structure around the stack. The work
 involves data engineers, analysts, analytics engineers, and product operations.
 It also involves documentation and data literacy
-([data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 Caitlin's last-mile framing adds ownership from the consumer side. At
 26:21-28:42, she recommends treating data as a product and doing user research
 when adoption is weak. At 38:15-39:32, she connects activation to meetings and
 decision processes. The owner of an activation workflow therefore needs to know
 both the upstream model and the downstream decision
-([last-mile data delivery episode](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
+([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery episode]]).
 
 ## Adjacent Activation Concepts
 
 These pages cover the adjacent concepts that activation depends on or feeds.
 
-- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}) for the
+- [[data-led-growth|Data-Led Growth]] for the
   growth-stack framing around event tracking, analytics, and activation.
-- [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for warehouse-to-tool
+- [[Reverse ETL]] for warehouse-to-tool
   syncs into operational systems.
-- [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
+- [[Customer Data Platforms]]
   for bundled collection, segmentation, and activation tools.
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) for
+- [[Product Analytics]] for
   behavior analysis before activation.
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}) for event
+- [[Tracking Plans]] for event
   definitions and ownership.
-- [Data Products]({{ '/wiki/data-products/' | relative_url }}) for productized
+- [[Data Products]] for productized
   analytics and last-mile adoption.
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
+- [[Modern Data Stack]] for the
   data stack around warehouse-centered activation.

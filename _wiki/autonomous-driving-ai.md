@@ -15,33 +15,33 @@ related:
 Autonomous driving AI applies machine learning, computer vision, and sensor
 fusion to make a vehicle perceive its surroundings, predict the behavior of
 other agents, and plan safe motion. DataTalks.Club guests who have worked at
-[Tesla](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Tesla]]
 and
-[Waymo](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Waymo]]
 describe it as an engineering discipline rather than a single model. The vehicle
 runs a stack of perception, prediction, and planning systems, each validated and
 released in stages.
 
 The clearest end-to-end account comes from
-[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html), a Machine
+[[person:aishwaryajadhav|Aishwarya Jadhav]], a Machine
 Learning Engineer at Waymo and former Tesla Autopilot team member, in
-[Lessons from Applied AI: Tesla, Waymo, and Beyond](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html).
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI: Tesla, Waymo, and Beyond]].
 Her career moved from finance data engineering at Morgan Stanley, through
-[computer vision]({{ '/wiki/computer-vision/' | relative_url }}) research at
+[[computer vision]] research at
 Carnegie Mellon, into perception and video understanding at Tesla, and then to
 gesture and pedestrian semantics at Waymo. That arc places autonomous driving
 AI next to
-[deep learning]({{ '/wiki/deep-learning/' | relative_url }}),
-[model optimization]({{ '/wiki/model-optimization/' | relative_url }}), and
-[production]({{ '/wiki/production/' | relative_url }}) ML systems.
+[[deep learning]],
+[[model optimization]], and
+[[production]] ML systems.
 
-[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) adds an earlier-career
+[[person:pauliusztin|Paul Iusztin]] adds an earlier-career
 perspective. In
-[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]],
 he describes his first AI research job doing deep learning on autonomous driving
 from day zero: 3D object detection, 3D tracking, and fusing multimodal data from
 images, radar, and LiDAR. That background shaped his later move into
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}).
+[[AI engineering]].
 
 ## Sensor Tradeoffs: Cameras, LiDAR, and Radar
 
@@ -91,7 +91,7 @@ The perception pipeline fuses these detections across sensors and time to build
 a coherent world model.
 
 The perception layer connects to broader
-[multimodal LLMs]({{ '/wiki/multimodal-llms/' | relative_url }}) research. At
+[[multimodal LLMs]] research. At
 52:53 in Aishwarya's episode, the discussion turns to whether multimodal LLMs
 can be applied to self-driving. She notes that some companies are already using
 multimodal LLMs for end-to-end self-driving because LLMs are pretrained on
@@ -102,7 +102,7 @@ for real-time inference.
 
 A car has limited compute, limited power, and hard real-time constraints.
 Models that work in the cloud may be too slow or too large for on-vehicle
-deployment. This is where [model optimization]({{ '/wiki/model-optimization/' | relative_url }})
+deployment. This is where [[model optimization]]
 becomes critical.
 
 At 22:17 in Aishwarya's episode, the discussion covers on-vehicle inference and
@@ -132,8 +132,8 @@ improves both speed and accuracy, and the team constantly refines labeling
 quality to ensure models learn from the best data possible.
 
 This data pipeline is itself a production system. It connects to
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-and the broader [production]({{ '/wiki/production/' | relative_url }}) discipline.
+[[machine learning system design]]
+and the broader [[production]] discipline.
 
 ## Validation: Simulation, Closed Tracks, and On-Road Testing
 
@@ -166,8 +166,8 @@ across the system. Building autonomous driving technology requires expertise in
 software, hardware, sensors, and safety.
 
 This staged deployment discipline connects autonomous driving to the broader
-[production]({{ '/wiki/production/' | relative_url }}) and
-[MLOps]({{ '/wiki/llmops/' | relative_url }}) conversations in the podcast.
+[[production]] and
+[[llmops|MLOps]] conversations in the podcast.
 
 ## Perception vs Reinforcement Learning
 
@@ -217,7 +217,7 @@ transfers to other domains. Aishwarya notes that perception, prediction, and
 planning models have applications beyond autonomous driving. Similar approaches
 can be used in robotics, drones, and industrial automation. This makes the
 autonomous driving pipeline relevant to anyone building
-[computer vision]({{ '/wiki/computer-vision/' | relative_url }}) or perception
+[[computer vision]] or perception
 systems for physical agents.
 
 ## Career Entry into Self-Driving AI
@@ -232,8 +232,8 @@ At 38:03, she recommends building a strong foundation in machine learning and
 computer vision, getting hands-on experience with data and simulation, and
 learning about safety-critical systems because reliability is key in this field.
 These entry points connect to the broader
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and
-[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) discussions
+[[AI engineering]] and
+[[career-transitions-in-data|career transition]] discussions
 in the podcast.
 
 Paul's career arc at 7:08 offers another route. His deep learning work on
@@ -244,10 +244,10 @@ validation. That breadth translates well to other AI engineering roles.
 
 ## Related Pages
 
-- [Computer Vision]({{ '/wiki/computer-vision/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Model Optimization]({{ '/wiki/model-optimization/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Deep Learning]({{ '/wiki/deep-learning/' | relative_url }})
-- [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }})
-- [Multimodal LLMs]({{ '/wiki/multimodal-llms/' | relative_url }})
+- [[Computer Vision]]
+- [[Machine Learning System Design]]
+- [[Model Optimization]]
+- [[Production]]
+- [[Deep Learning]]
+- [[AI Engineering]]
+- [[Multimodal LLMs]]

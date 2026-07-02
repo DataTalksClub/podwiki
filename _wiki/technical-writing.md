@@ -25,8 +25,8 @@ understand the work or run the project. They may also need to review a decision
 or continue independently.
 
 The strongest writing-specific discussion is
-[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
-[Eugene Yan](https://datatalks.club/people/eugeneyan.html) starts from early blog
+[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
+[[person:eugeneyan|Eugene Yan]] starts from early blog
 posts and meetups at 6:00, then frames writing as learning, sharing, and being
 useful to future readers at 9:30. At 14:00, he narrows the audience from
 "everyone" to a peer, future teammate, or hiring manager. At 16:30, he treats
@@ -34,14 +34,14 @@ writing like a product because reader experience determines whether the article
 works.
 
 Use this page for technical writing as a
-[data science]({{ '/wiki/data-science/' | relative_url }}) and
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) skill. Use
-[documentation]({{ '/wiki/documentation/' | relative_url }}) for project docs
+[[data science]] and
+[[machine learning]] skill. Use
+[[documentation]] for project docs
 and team memory. Use
-[developer relations]({{ '/wiki/developer-relations/' | relative_url }}) for
+[[developer relations]] for
 adoption and demos. Use
-[open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-for public proof, and [career growth]({{ '/wiki/career-growth/' | relative_url }})
+[[open source portfolio evidence]]
+for public proof, and [[career growth]]
 for visibility and seniority signals.
 
 ## Reader-Centered Explanation
@@ -52,21 +52,21 @@ understand a tradeoff or decide what to try next. Structure and examples make
 the explanation usable rather than merely polished. Code, screenshots, and
 diagrams can add the context a reader needs.
 
-[Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html) makes that
+[[person:angelicaloduca|Angelica Lo Duca]] makes that
 boundary explicit in
-[Practical Data Journalism](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html).
+[[podcast:data-journalism-python-visualization-storytelling|Practical Data Journalism]].
 At 7:43 and 8:01, she defines data journalism as data-driven news and
 general-audience storytelling. At 24:35, she separates technical writing as a
 how-to form built around clarity and audience. At 40:47, she structures
 articles around the problem, the solution, and the result. She adds code
 repositories when the reader needs to reproduce the work.
 
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) applies
+[[person:hugobowneanderson|Hugo Bowne-Anderson]] applies
 the same reader-first standard to tutorials in
-[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
+[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
 At 43:14, he starts tutorial design with audience and goals. Technical writing
-therefore sits beside [communication]({{ '/wiki/communication/' | relative_url }})
-and [developer experience]({{ '/wiki/developer-experience/' | relative_url }}).
+therefore sits beside [[communication]]
+and [[developer experience]].
 The writer has to know what the reader is trying to accomplish before deciding
 how much setup belongs in the piece. Code, context, and conceptual explanation
 depend on that reader.
@@ -74,7 +74,7 @@ depend on that reader.
 ## Audience, Outline, and Cadence
 
 Eugene gives the clearest reusable writing workflow in
-[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
+[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
 At 20:00, he describes a weekly cadence. At 25:00, he starts with an outline so
 ideas can be selected, ordered, and tested before drafting. At 29:00, he talks
 about time budget and avoiding endless editing. At 33:00, he discusses idea
@@ -82,7 +82,7 @@ sources and topic prioritization, while 37:00 covers titles and article length.
 
 The method matters for technical topics because the audience determines the
 level of detail. A
-[data scientist]({{ '/wiki/data-scientist-role/' | relative_url }}) may need
+[[data-scientist-role|data scientist]] may need
 dataset assumptions, baselines, evaluation, and code. A platform engineer may
 need interfaces, failure modes, and operational notes. A hiring manager may care
 more about scope, tradeoffs, ownership, and impact.
@@ -96,7 +96,7 @@ despite friction. At 43:30, he compares blogging platforms. His examples include
 Medium, Substack, WordPress, and Jekyll on GitHub Pages. At 46:00, he describes
 morning writing reps and weekend deep work. At 48:30, he discusses distribution
 through Twitter and LinkedIn, which makes writing part of
-[career growth]({{ '/wiki/career-growth/' | relative_url }}) without reducing it
+[[career growth]] without reducing it
 to personal branding.
 
 ## Technical Writing for Data and ML
@@ -109,22 +109,22 @@ model. They should also see when it's about a pipeline, production system, or
 business decision.
 
 At 56:30 in
-[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html),
+[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]],
 Eugene turns the guidance toward portfolios. He recommends a README and
 quickstart, plus a repo tour. Those artifacts should let
 another person understand the project without private context. The same guidance
-also fits [portfolio projects]({{ '/wiki/portfolio-projects/' | relative_url }}).
+also fits [[portfolio projects]].
 It appears again in
-[machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-and [open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
+[[machine learning portfolio projects]]
+and [[open source portfolio evidence]].
 
 A polished article with no technical choices is weak evidence. A plain README
 can be stronger when it names the problem, shows the run path, and explains
 tradeoffs.
 
 Tool education has the same requirement. In
-[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
-[Will Russell](https://datatalks.club/people/willrussell.html) describes Learn with
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
+[[person:willrussell|Will Russell]] describes Learn with
 Kestra at 57:22. His examples include Docker, Postgres, and Git. A reader often
 needs the surrounding setup as much as the main product.
 
@@ -134,7 +134,7 @@ Technical writing also lives inside teams. In Eugene's episode, the 51:00
 chapter covers writing at work through press releases, working-backwards
 documents, and design docs. The 54:00 chapter discusses decision logs,
 rationales, and team memory. That makes writing part of
-[software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+[[software engineering]],
 not only a public-content habit.
 
 Internal writing solves a different problem from blog posts. A design doc helps
@@ -145,12 +145,12 @@ work because pipelines, models, dashboards, and metrics often outlive the person
 who first built them.
 
 The open-source documentation checklist from
-[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) maps well
+[[person:vincentwarmerdam|Vincent Warmerdam]] maps well
 to internal projects too. In
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
 the 22:20 chapter names README material and guides. It also names API reference
 and examples.
-For an internal [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
+For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
 to "how do I use it safely?"
 
@@ -163,18 +163,18 @@ tours. A hiring reader can use that material to judge clarity, scope, and
 ownership.
 
 Technical writing belongs with
-[career growth]({{ '/wiki/career-growth/' | relative_url }}) and
-[communication]({{ '/wiki/communication/' | relative_url }}) because a post
+[[career growth]] and
+[[communication]] because a post
 about a pipeline or model evaluation is stronger when it shows the problem. It
 should also show the tradeoffs. The same is true for a tool integration that
 shows the code path and result. A polished article with no technical choices
 gives less evidence than a plain README that lets someone run the project.
 
 Vincent makes public proof concrete in two open-source episodes. In
-[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
+[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
 the 23:29 chapter discusses open-source work as a hiring signal. At 27:24, he
 connects video production with communication practice. In
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
 the 34:00 chapter links talks and blogs to career growth. He also names meetups
 and open-source visibility.
 
@@ -183,9 +183,9 @@ and open-source visibility.
 Technical writing overlaps with DevRel, open source, and marketing because all
 three use public explanation. A useful piece should still help the reader
 succeed technically. In
-[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
+[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]],
 Hugo names technical fluency, writing, and community building as core
-[developer relations]({{ '/wiki/developer-relations/' | relative_url }}) skills
+[[developer relations]] skills
 at 31:41. At 37:21, he discusses writing improvement through practice,
 collaboration, and editorial feedback.
 
@@ -194,7 +194,7 @@ talk, video, or conference session can all work when the format matches the goal
 and audience.
 
 Will's demo-first episode shows the same boundary from practice. In
-[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
 the 49:14 chapter ties developer advocacy to documentation, demos, and outreach.
 At 51:49, he describes a flow that starts with bullet points and demos. Writers
 then help turn the material into public teaching.
@@ -207,9 +207,9 @@ behavior.
 ## Open-Source Contribution Writing
 
 Open-source writing adds maintainer trust. In
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
 Vincent treats documentation as part of
-[open source]({{ '/wiki/open-source/' | relative_url }}) stewardship. At 22:20,
+[[open source]] stewardship. At 22:20,
 he covers README material and guides. He also covers API reference and examples.
 
 At 24:10, he covers contribution guides and respectful interaction. At 25:50, he
@@ -221,6 +221,6 @@ includes issue reports and contribution guides. It also includes examples, API
 reference, and project tours that let users and maintainers trust the work.
 Technical writing
 overlaps with
-[open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+[[open source and developer relations]]
 when adoption depends on examples, clear setup, and a contribution path that
 respects maintainer time.

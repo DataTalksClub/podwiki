@@ -31,31 +31,31 @@ related_wiki:
 The best data engineering course isn't the one with the longest tool list. A
 useful data engineer course, bootcamp, or training cohort helps you build proof
 for the
-[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}).
+[[data engineer role]].
 
 That proof should include SQL and Python depth, plus a working pipeline. It
 should also include modeled data, repeatable runs, quality checks, and a clear
 explanation of who uses the output.
 
 In
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
-[Jeff Katz](https://datatalks.club/people/jeffkatz.html) describes a bootcamp
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
+[[person:jeffkatz|Jeff Katz]] describes a bootcamp
 curriculum built around employer validation and repeated labs. The same
 discussion centers Python and SQL. It also covers cloud basics and
 orchestration.
 
 In
-[Gloria Quiceno's data engineering job story](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
-[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) shows the
+[[podcast:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job story]],
+[[person:gloriaquiceno|Gloria Quiceno]] shows the
 learner side. A bootcamp helped her with Python and Docker. Airflow, AWS, and
 networking also mattered. The stronger signal was a custom capstone pipeline
 she could explain in interviews.
 
 Use this page with the main learning paths:
 
-- [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
-- [How to Become a Data Engineer With No Experience]({{ '/wiki/how-to-become-a-data-engineer-with-no-experience/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+- [[Data Engineer Roadmap]]
+- [[How to Become a Data Engineer With No Experience]]
+- [[data-engineer-roadmap|Data Engineering Roadmap]]
 
 If you're comparing data engineer courses, a data engineer bootcamp, or a free
 cohort, filter each option by curriculum sequence. Then check the feedback and
@@ -71,7 +71,7 @@ transformation, orchestration, quality checks, and documentation. Tools matter,
 but they should appear because the project needs them.
 
 Jeff Katz gives the clearest benchmark in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 At 23:35, he names Python and SQL as core junior skills. He also adds cloud
 fundamentals and orchestration. Around 38:05, he explains why a junior
 curriculum can postpone Spark, Kafka, and Kubernetes. Around 56:46, he frames
@@ -92,9 +92,9 @@ When you review a syllabus, ask whether it teaches:
   and recovery steps
 
 The same sequence matches
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+[[Data Engineering Portfolio Projects]]
 and
-[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
+[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]].
 If a course spends most of its time on vendor demos before learners can query
 and model data, it's probably teaching vocabulary faster than judgment.
 
@@ -107,7 +107,7 @@ for realistic labs, career support, and interview practice. It's weaker when it
 sells the certificate as the main outcome.
 
 Jeff Katz's bootcamp discussion gives a useful buyer checklist. Around 9:58 in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
 he describes curriculum development through market research and employer
 validation. Around 11:44, he talks about syllabi, labs, and reinforcement
 cycles. Around 16:58-20:18, the discussion covers affordability and part-time
@@ -124,17 +124,17 @@ Before you pay, check for these promises:
 - internships, employer projects, nonprofit work, or community projects as
   experience bridges
 
-[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) gives the
+[[person:gloriaquiceno|Gloria Quiceno]] gives the
 career-change reality check in
-[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
+[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]].
 At 16:14, she discusses the job search after graduating. At 22:57, she explains
 how she tracked roughly 130 applications. At 27:55, she covers interview
 hurdles such as live coding and take-home challenges. A bootcamp helps most
 when it prepares you for that full loop, not only for graduation day.
 
 Pair bootcamp evaluation with
-[Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
-and [Job Search]({{ '/wiki/job-search/' | relative_url }}). The credential is
+[[Data Engineering Certification]]
+and [[Job Search]]. The credential is
 supporting evidence. The repository, interview story, and application process
 matter more.
 
@@ -153,8 +153,8 @@ This page focuses on how to judge and use a course; that guide catalogs the
 options.
 
 The DataTalksClub course model appears in
-[Inside Scaling DataTalksClub](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
-with the [DataTalksClub founder](https://datatalks.club/people/alexeygrigorev.html).
+[[podcast:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalksClub]]
+with the [[person:alexeygrigorev|DataTalksClub founder]].
 At 5:07, the discussion covers the course portfolio across machine learning and
 data engineering. It also covers MLOps, LLMs, and stock analytics.
 
@@ -163,9 +163,9 @@ At 8:13, the Data Engineering Zoomcamp's growth is tied to word of mouth. At
 learner outcomes and community support.
 
 The three-year community discussion adds the operating model. In
-[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html),
-[Johanna Bayer](https://datatalks.club/people/johannabayer.html) and the
-[DataTalksClub founder](https://datatalks.club/people/alexeygrigorev.html) cover
+[[podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary|Building a Sustainable Data Community]],
+[[person:johannabayer|Johanna Bayer]] and the
+[[person:alexeygrigorev|DataTalksClub founder]] cover
 Slack participation and TAs around 14:56-20:23. They also cover webinars,
 Project of the Week, competitions, and portfolio outcomes.
 
@@ -182,12 +182,12 @@ Choose a free course when you can commit to:
 - turning the finished work into a portfolio and interview story
 
 For the DataTalksClub path, start with the
-[Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+[[Data Engineer Roadmap]]
 and use
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html)
 as the course entry point. Then connect the project work to
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-and [Teaching]({{ '/wiki/teaching/' | relative_url }}), where the same
+[[Data Engineering Portfolio Projects]]
+and [[Teaching]], where the same
 discussions frame learning through labs and feedback. Reproducible work and
 community practice matter there too.
 
@@ -199,7 +199,7 @@ pipeline. A stronger project changes the source or consumer. It can also change
 the data model, failure mode, or operating story.
 
 Gloria's capstone is a good standard. Around 50:15 in
-[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
+[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]],
 she discusses a Twitter data pipeline with Docker containers and a Slack bot.
 Around 51:42, she explains why custom projects stand out. Around 53:34, she
 adds data quality concerns such as bot detection, cleaning, and sentiment bias.
@@ -216,9 +216,9 @@ A course or bootcamp project should leave you with:
 - tests or checks for freshness, schema, counts, nulls, uniqueness, and joins
 - setup docs plus a data dictionary and a short runbook for failures
 
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) helps evaluate
+[[person:nataliekwong|Natalie Kwong]] helps evaluate
 the architecture choices in
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
 At 3:46, she explains ETL, and at 7:57 she discusses ELT flexibility. At 15:30
 and 17:55, she separates data marts from warehouses and ingestion layers.
 
@@ -227,11 +227,11 @@ she covers CDC and schema evolution.
 
 Use those ideas to place the project next to the right topic:
 
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [[ETL vs ELT]]
+- [[Modern Data Stack]]
+- [[Data Pipelines]]
+- [[Data Quality and Observability]]
+- [[DataOps]]
 
 A course project should teach enough architecture to explain its tradeoffs
 without pretending every beginner pipeline needs every production tool.
@@ -248,9 +248,9 @@ A useful course teaches four decisions:
 - how the workflow fails
 - which consumer needs the output
 
-[Orell Garten](https://datatalks.club/people/orellgarten.html) gives that
+[[person:orellgarten|Orell Garten]] gives that
 problem-first version in
-[From Academic Research to Data Engineering Freelancing](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html).
+[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Data Engineering Freelancing]].
 At 9:42, he discusses the lesson of problem-first versus technology-first
 thinking. Around 13:20, he describes minimal viable data work. Around 39:00,
 he discusses manual extraction, CSVs, and local analysis as part of an MVP
@@ -263,10 +263,10 @@ path that forces real design choices. Decide what to automate now and what to
 keep manual. Also decide what to test, document, and postpone.
 
 For career changers, this also fits
-[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
-[Data Scientist to Data Engineer]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }}),
+[[Career Transitions in Data]],
+[[Data Scientist to Data Engineer]],
 and
-[Data Analyst to Data Engineer]({{ '/wiki/data-analyst-to-data-engineer/' | relative_url }}).
+[[Data Analyst to Data Engineer]].
 Your previous domain experience becomes useful when the course project turns it
 into a concrete data problem.
 
@@ -283,16 +283,16 @@ Match the course to your starting point:
 
 The decision should end in a build plan:
 
-- Use the [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+- Use the [[Data Engineer Roadmap]]
   to sequence fundamentals, projects, operations, and interviews.
 - Use
-  [How to Become a Data Engineer With No Experience]({{ '/wiki/how-to-become-a-data-engineer-with-no-experience/' | relative_url }})
+  [[How to Become a Data Engineer With No Experience]]
   if you need a beginner transition path.
 - Use
-  [Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
+  [[Data Engineering Certification]]
   when you're deciding whether a paid credential adds value.
 - Use
-  [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+  [[Data Engineering Portfolio Projects]]
   to audit the project before applying.
 - Follow DataTalks.Club's
   [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)

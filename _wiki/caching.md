@@ -15,13 +15,13 @@ doing the same expensive step on every request. In the DataTalks.Club podcast
 discussions, the clearest example is prompt caching for LLM systems. When many
 calls share the same prompt prefix or model computation, teams can reduce
 per-request cost and latency. Guests discuss caching alongside
-[prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}),
-[LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
+[[prompt engineering]],
+[[LLM production patterns]],
+and [[AI infrastructure]].
 
-[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) gives the
+[[person:bartoszmikulski|Bartosz Mikulski]] gives the
 main podcast discussion in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 At 28:16-31:45, he moves from examples and prompt evaluation to prompt
 compression and prompt caching. He treats caching as a later efficiency tactic,
 not a magic quality fix. Teams can use it after they understand which prompt content helps.
@@ -37,7 +37,7 @@ this to reduce repeated computation while preserving the behavior that tests and
 evaluation already approved.
 
 The LLM version appears at 29:33 in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+[[podcast:production-ready-ai-engineering|Production AI Engineering]],
 where bigger prompts cost more because each extra example adds tokens. At
 30:00, Bartosz recommends collecting evaluation data and stopping when more
 examples no longer improve results. At 31:04, prompt compression and prompt
@@ -55,19 +55,19 @@ provider implementation.
 
 Two adjacent podcast discussions place caching inside broader production
 decisions. In
-[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
-[Meryem Arik](https://datatalks.club/people/meryemarik.html) discusses model
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[person:meryemarik|Meryem Arik]] discusses model
 compression and serving efficiency at 25:26. At 51:35-52:57, she turns to
 hardware, latency, and cost.
 
 In
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
-[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) explains
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[person:ranjithakulkarni|Ranjitha Kulkarni]] explains
 context engineering and RAG preprocessing at 28:17-36:41. Her 30:27 chapter
 names latency and cost as reasons to reduce context before an LLM call. Together,
-these episodes connect caching to [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
-[AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}), and
-[production]({{ '/wiki/production/' | relative_url }}) work rather than to a
+these episodes connect caching to [[AI engineering]],
+[[AI tooling]], and
+[[production]] work rather than to a
 standalone cache layer.
 
 ## Prompt Caching and Model Efficiency
@@ -77,14 +77,14 @@ are the example in the Bartosz discussion: the same project context may appear
 again and again, while the final instruction changes. If the provider or serving
 layer can reuse the stable prefix, the request may need less processing. It may
 also cost less
-([Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+([[podcast:production-ready-ai-engineering|Production AI Engineering]],
 31:45-33:29).
 
 Prompt caching connects directly to
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) because the
+[[AI engineering]] because the
 engineer chooses prompt structure, examples, and context boundaries.
 At 25:13-28:16 in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+[[podcast:production-ready-ai-engineering|Production AI Engineering]],
 Bartosz explains in-context learning through examples and JSON formatting. At
 28:16-30:00, he ties those examples to evaluation and cost. A cache-friendly
 prompt still has to be a good prompt: repeated wrong context only makes wrong
@@ -104,16 +104,16 @@ Caching belongs in the application and serving path around the model.
 
 Teams use it in three layers:
 
-- [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}) when a team uses
+- [[AI tooling]] when a team uses
   provider prompt caching or prompt templates.
-- [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) when a
+- [[AI infrastructure]] when a
   team owns serving, batching, hardware, or model runtime optimization.
-- [Production]({{ '/wiki/production/' | relative_url }}) when cached results
+- [[Production]] when cached results
   affect reliability, freshness, rollback, or user-facing latency.
 
 Meryem Arik's deployment episode supports that placement even though it isn't
 primarily a caching episode. At 25:26 in
-[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
 she describes serving large models as difficult and connects model compression
 to needing fewer GPUs. At 51:35-52:57, she compares API speed with self-hosted
 models. She also compares hardware choices, cost, privacy, and long-term
@@ -122,15 +122,15 @@ performance.
 Caching is one request-level tool in that serving-efficiency problem.
 Compression, faster inference servers, and hardware choices sit beside it.
 
-Caching also belongs near [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
-[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+Caching also belongs near [[retrieval-augmented-generation|RAG]] and
+[[retrieval-augmented-generation|retrieval-augmented generation]]
 because retrieved context can dominate prompt size and latency. Ranjitha
 Kulkarni doesn't frame her 29:30-32:48 discussion as caching. Her context
 engineering section gives the architectural reason caching often appears in RAG
 systems.
 
 Stuffing too much context into the model increases latency, cost, and noise
-([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)).
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 Teams first reduce and structure context with retrieval, chunking, metadata,
 and wrappers. They can then cache stable retrieval results or stable context
 blocks when the product can tolerate their freshness rules.
@@ -153,7 +153,7 @@ workflow architecture. They all connect efficiency to latency, cost, and
 reliability, but they optimize different layers.
 
 Bartosz's tradeoff is prompt quality versus repeated token spend. At 30:00 in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+[[podcast:production-ready-ai-engineering|Production AI Engineering]],
 he says teams should gather evaluation data and stop adding examples when
 quality stops improving. Caching helps after that point because the team has
 identified reusable prompt content that improves the result.
@@ -162,12 +162,12 @@ Meryem's tradeoff is speed of adoption versus long-term control. Teams can move
 quickly with hosted APIs, but open-source or self-hosted models become
 important when cost and privacy matter. They also matter when teams need
 different performance or hardware choices
-([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
 51:35-52:57). In that framing, caching isn't the first decision. It's one
 optimization among several once a team knows where the model runs.
 
 Ranjitha's tradeoff is context quantity versus context usefulness. At 30:27 in
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
 she names latency, cost, and garbage-in/garbage-out as reasons not to overload
 the LLM context. Caching and retrieval meet here. Caching a large noisy context
 is less useful than preprocessing and caching the smaller context the model can
@@ -184,11 +184,11 @@ stale or wrong context.
 Bartosz, Ranjitha, and Meryem support a practical rule: make cost and latency
 visible before optimizing. Bartosz ties prompt examples to cost at 29:33 and
 evaluation at 30:00 in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 Ranjitha ties long context to latency, cost, and noisy outputs at 30:27 in
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
 Meryem ties deployment choices to hardware, cost, and performance at 51:35 in
-[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
 
 Together, these discussions treat caching as a production control rather than a
 shortcut. A useful cache has a clear unit of reuse, a freshness boundary, and
@@ -201,10 +201,10 @@ more dependable.
 These pages extend the caching discussion into production LLM systems, tooling,
 and infrastructure:
 
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }})
-- [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
-- [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
-- [LLM Tools]({{ '/wiki/llm-tools/' | relative_url }})
+- [[LLM Production Patterns]]
+- [[AI Engineering]]
+- [[AI Infrastructure]]
+- [[AI Tooling]]
+- [[Production]]
+- [[Prompt Engineering]]
+- [[LLM Tools]]

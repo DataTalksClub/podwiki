@@ -20,18 +20,18 @@ look at. The proof can include code and reports. It can also include evaluation
 choices, collaboration, and domain learning. They're weaker when they only
 produce a rank.
 
-[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) separates
+[[person:tatianagabruseva|Tatiana Gabruseva]] separates
 learning value from career value in
-[Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html).
+[[podcast:s24e01-competitions-beyond-kaggle-leaderboard|Competitions: Beyond the Kaggle Leaderboard]].
 Around 9:13, she describes Kaggle as a fast feedback loop with community
 notebooks, discussions, and postmortems. Around 28:54 and 35:24, she separates
 rank from career value. The value came from turning competition work into a
 clean repository and interview discussion, not from the Kaggle Master title.
 
 Use this guide with
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
-and [Evaluation]({{ '/wiki/evaluation/' | relative_url }}). A competition can
+[[Machine Learning Portfolio Projects]],
+[[Open Source Portfolio Evidence]],
+and [[Evaluation]]. A competition can
 be one strong portfolio project. The writeup still needs to explain the
 problem, baseline, and metric. It should also cover data assumptions, result,
 and limits. Otherwise it's just a score on someone else's task.
@@ -42,7 +42,7 @@ Competitions help when you need a real problem before you have a job or client.
 They also help before you have an internal dataset.
 
 In the
-[competition episode](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html),
+[[podcast:s24e01-competitions-beyond-kaggle-leaderboard|competition episode]],
 Tatiana says around 10:05 that competitions can build skill. The best learning
 comes from changing domains rather than repeating one narrow recipe.
 She gives examples across time series and NLP around 10:53. She also names
@@ -58,12 +58,12 @@ warns around 30:20 to ignore the leaderboard at first.
 
 Read discussion threads and strong notebooks for learning. For a portfolio,
 document that path in the same style as
-[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}). Show
+[[Portfolio Projects]]. Show
 what you tried, what failed, and what improved the metric. Then explain what you
 would change for a real system.
 
 Competitions also help when the target evidence is closer to
-[applied research]({{ '/wiki/applied-research/' | relative_url }}) than product
+[[applied research]] than product
 delivery. Tatiana describes an astronomy competition where a number 13
 leaderboard solution became an arXiv report and later a journal publication
 around 32:08-33:47. The key signal wasn't first place. It was a technical
@@ -101,9 +101,9 @@ competitions when you need reproducibility evidence. Use academic and
 conference challenges when the target role values research communication,
 domain expertise, or workshop participation. For computer-vision-heavy paths,
 pair those choices with
-[Computer Vision]({{ '/wiki/computer-vision/' | relative_url }}) and the
+[[Computer Vision]] and the
 computer vision section of
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+[[Machine Learning Portfolio Projects]].
 
 ## Leaderboard Limits
 
@@ -124,7 +124,7 @@ whether the same complexity would survive a production budget. If the solution
 used external data, state whether the competition allowed it.
 
 Those details align with the broader
-[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) standard. A model score
+[[Evaluation]] standard. A model score
 only matters when it maps to a decision, baseline, and operating boundary.
 
 Tatiana's own examples show why rank isn't the whole story. Around 32:45, a
@@ -158,8 +158,8 @@ For a portfolio writeup, include a short evaluation note:
 5. The production or research question the competition didn't answer.
 
 This keeps the competition connected to
-[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+[[Evaluation]] and
+[[Machine Learning Portfolio Projects]]
 instead of turning it into a medal list. It also helps in interviews because the
 reviewer can ask about false positives, false negatives, and data drift. They
 can also ask about compute cost or serving constraints and see whether you
@@ -183,8 +183,8 @@ agent's changes, and a clear boundary between assisted work and personal
 understanding.
 
 For agent-heavy projects, connect the writeup to
-[Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}). Show the task harness and
+[[Agent Engineering]] and
+[[agent-engineering|AI Agents]]. Show the task harness and
 tool permissions. Include the submission budget, regression tests, and failure
 cases. A competition can then prove evaluation design for an agentic system, not only
 prompting skill.
@@ -209,8 +209,8 @@ The minimum portfolio package should include:
 Tatiana recommends this artifact-first strategy around 37:28 and 42:34. She
 also recommends using blog posts, LinkedIn, and simpler explanations when the
 technical report is too dense for a general audience. Competitions sit
-near [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-and [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}).
+near [[Open Source Portfolio Evidence]]
+and [[Technical Writing]].
 Public code and clear explanation make the work easier to evaluate.
 
 ## Collaboration and Code Quality
@@ -233,8 +233,8 @@ small modules and setup instructions. Add tests where practical, and keep a clea
 separation between exploration and reusable pipeline code.
 
 That standard overlaps with
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-and [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}).
+[[Open Source Portfolio Evidence]]
+and [[Software Engineering]].
 The portfolio claim is stronger when the repository shows maintainable work
 under competition pressure, not only a final notebook.
 
@@ -242,7 +242,7 @@ under competition pressure, not only a final notebook.
 
 Competitions are the wrong proof when the role requires evidence they can't
 show. Tatiana says around 42:34-49:29 in
-[Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
+[[podcast:from-physics-to-computer-vision-career-transition|Switch to Computer Vision and Deep Learning]]
 that Kaggle gives the task, data, and metric. It doesn't prove data collection
 or labeling. It also doesn't prove deployment, Docker, or an end-to-end project.
 
@@ -262,9 +262,9 @@ proof. Monitoring needs broader proof too. Maintainability in a live system
 needs broader proof too.
 
 For those cases, start from
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
-Use [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) and the
-[Data Scientist Interview Prep guide]({{ '/wiki/data-scientist-interview/' | relative_url }})
+[[Machine Learning Portfolio Projects]].
+Use [[Evaluation]] and the
+[[data-scientist-interview|Data Scientist Interview Prep guide]]
 to place the competition inside a broader project set.
 
 The practical test is whether a reviewer can look at the work and learn how you
@@ -272,5 +272,5 @@ think. If the only visible fact is a leaderboard place, the proof is thin. If
 the competition produced a repository and evaluation note, the proof gets
 stronger. Add a writeup and collaboration trail. Honest limits also help the
 work become strong evidence for
-[career growth]({{ '/wiki/career-growth/' | relative_url }}) and hiring.
+[[career growth]] and hiring.
 

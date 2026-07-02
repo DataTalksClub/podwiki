@@ -18,19 +18,19 @@ That work can improve acquisition and activation. It also supports retention,
 sales, and support.
 
 On DataTalks.Club, the clearest definition comes from
-[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) in
-[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
+[[person:arpitchoudhury|Arpit Choudhury]] in
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
 At 10:45, he defines a data-led professional as someone who knows where data
 comes from and what it looks like. They question its accuracy and use it to
 build data-powered experiences.
 
 That definition makes data-led growth broader than dashboard reporting. Teams
-need [event tracking]({{ '/wiki/event-tracking/' | relative_url }}),
-[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}),
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
+need [[event tracking]],
+[[tracking plans]],
+[[product analytics]], and
 warehouse modeling. They also need
-[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) and
-[data activation]({{ '/wiki/data-activation/' | relative_url }}) so product
+[[reverse ETL]] and
+[[data activation]] so product
 data reaches the tools where teams send messages, onboard users, prioritize
 accounts, and help customers.
 
@@ -45,9 +45,9 @@ Arpit describes this sequence in the growth-stack episode between 22:50 and
 it in a product analytics or BI tool. Then they send useful segments or
 attributes back into operational tools.
 
-[Lior Barak](https://datatalks.club/people/liorbarak.html) adds the organizational
+[[person:liorbarak|Lior Barak]] adds the organizational
 side in
-[Data Strategist Guide](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html).
+[[podcast:data-translator-role-and-data-strategy|Data Strategist Guide]].
 At 17:33, he talks about using data to improve recruitment, marketing, and
 operations. At 23:54, he frames delivery as iterative. Teams prove value with
 small working versions before they invest in a larger system.
@@ -69,21 +69,21 @@ experience. They also need to know how the data was collected.
 
 Other guests put more weight on experimentation, stakeholder alignment, or
 analytics foundations. In
-[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) focuses on causality.
+[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]],
+[[person:jakobgraff|Jakob Graff]] focuses on causality.
 Randomization, metric design, A/A tests, and power analysis decide whether an
 observed change should guide a product decision.
 
 In
-[Designing FinTech Data Analytics Curriculum](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html),
-[Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) discusses cohort
+[[podcast:teaching-mentoring-data-analytics-fintech|Designing FinTech Data Analytics Curriculum]],
+[[person:irinabrudaru|Irina Brudaru]] discusses cohort
 analysis and retention at 31:50. Teams can use that product analytics method to
 study whether users keep getting value.
 
 In
-[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) explains why
-[ELT]({{ '/wiki/elt/' | relative_url }}) and warehouse layers matter. They give
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
+[[person:nataliekwong|Natalie Kwong]] explains why
+[[ELT]] and warehouse layers matter. They give
 analysts flexible access to raw and modeled data, and downstream syncs can push
 that data back into operational tools.
 
@@ -109,9 +109,9 @@ cleanup. At 18:27, he uses fake signups as an anomaly example. If the event has
 the right properties, a team can look at the source and decide whether the
 spike reflects real demand or low-quality traffic. Growth teams therefore depend
 on
-[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[data governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}).
+[[data quality and observability]],
+[[data governance]], and
+[[DataOps]].
 
 ## Behavior Analysis and Experiments
 
@@ -132,8 +132,8 @@ metric stability and seasonality.
 
 These details matter for data-led growth. A growth team can collect the right
 events and still make a bad decision if the test design is weak. See
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) for the
+[[a-b-testing|A/B Testing]] and
+[[Product Analytics]] for the
 adjacent analytics details.
 
 Teams also use cohort analysis for product analytics. Irina's fintech analytics
@@ -154,7 +154,7 @@ steps. Sales teams can prioritize accounts that reached meaningful product
 milestones. Marketing teams can avoid sending onboarding emails for features a
 user already used.
 
-[Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) supports this flow. At
+[[Reverse ETL]] supports this flow. At
 37:25, Arpit names Census, Hightouch, and Grouparoo as tools that send
 warehouse data back into downstream tools. Those destinations include sales and
 marketing tools. They can also include advertising, support, and product
@@ -164,7 +164,7 @@ Natalie makes a similar point from the data engineering side in the Airbyte
 episode at 35:42. She describes operational reverse data flows from warehouse
 tables back to source systems.
 
-[Customer data platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
+[[Customer data platforms]]
 offer a different tradeoff. At 38:20, Arpit says CDPs can bundle tracking,
 audience creation, and activation for marketers and growth teams. CDPs can help
 early teams move faster. A warehouse-centric stack gives data teams more control
@@ -184,7 +184,7 @@ tasks. Once the team knows whether an account reached that point, it can change
 the next product prompt or email. It can also change the sales touch or support
 response.
 
-This is also a [data products]({{ '/wiki/data-products/' | relative_url }})
+This is also a [[data products]]
 problem. A useful output can be a product or operational experience that changes
 based on trustworthy data, not only a report.
 
@@ -193,9 +193,9 @@ based on trustworthy data, not only a report.
 Teams split data-led growth across several roles. In the growth-stack episode
 at 46:13, Arpit says early startups may start with a backend or frontend
 engineer. Event pipelines eventually need a
-[data engineer]({{ '/wiki/data-engineer-role/' | relative_url }}) to maintain
+[[data-engineer-role|data engineer]] to maintain
 collection and data flows. Analysts help make the data usable in BI and product
-analytics tools. [Analytics engineers]({{ '/wiki/analytics-engineering/' | relative_url }})
+analytics tools. [[analytics-engineering|Analytics engineers]]
 fit between the two by modeling warehouse data, often with dbt-style workflows.
 
 Product operations teams may own tools and prototypes when the company doesn't
@@ -212,13 +212,13 @@ look precise but reflect the wrong user action.
 
 These pages cover the adjacent concepts and implementation choices:
 
-- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
-- [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
+- [[Event Tracking]]
+- [[Tracking Plans]]
+- [[Product Analytics]]
+- [[a-b-testing|A/B Testing]]
+- [[Reverse ETL]]
+- [[Data Activation]]
+- [[Customer Data Platforms]]
+- [[Modern Data Stack]]
+- [[DataOps]]
+- [[Data Products]]

@@ -19,13 +19,13 @@ LLMs across several contexts: autonomous driving perception, cross-modal search
 and retrieval, and the future trajectory of AI agents.
 
 The core idea is that different data types can share a representation space.
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) map text and images into
+[[Embeddings]] map text and images into
 the same vector space, so a text query can find a matching image, or a model can
 reason about a scene from both its visual and linguistic content. This connects
-multimodal LLMs to [LLMs]({{ '/wiki/llms/' | relative_url }}),
-[computer vision]({{ '/wiki/computer-vision/' | relative_url }}),
-[generative AI]({{ '/wiki/generative-ai/' | relative_url }}), and
-[vector databases]({{ '/wiki/vector-databases/' | relative_url }}).
+multimodal LLMs to [[LLMs]],
+[[computer vision]],
+[[generative AI]], and
+[[vector databases]].
 
 ## CLIP and Cross-Modal Embeddings
 
@@ -34,8 +34,8 @@ The most concrete multimodal architecture discussed in the podcast is CLIP
 and images into a shared vector space.
 
 In
-[Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html),
-[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) explains CLIP at
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing]],
+[[person:danielsvonava|Daniel Svonava]] explains CLIP at
 33:11. The model turns text into vectors and images into vectors in such a way
 that you can use text to look for images. Writing "black cat" returns images of
 black cats. This is cross-modal retrieval: the query and the target live in
@@ -47,8 +47,8 @@ images, replacing the embedding model and re-indexing the entire pipeline is
 expensive. The architecture choice at the embedding layer determines how easily
 the system can incorporate new modalities later.
 
-This is a [vector databases]({{ '/wiki/vector-databases/' | relative_url }})
-and [search]({{ '/wiki/search/' | relative_url }}) question, not only a model
+This is a [[vector databases]]
+and [[search]] question, not only a model
 question. The multimodal embedding pipeline must handle ingestion for both text
 and images, maintain consistency across modalities, and support fast query-time
 retrieval across all of them.
@@ -76,9 +76,9 @@ multimodal retrieval systems.
 
 ## Multimodal LLMs in Autonomous Driving
 
-[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html) addresses
+[[person:aishwaryajadhav|Aishwarya Jadhav]] addresses
 multimodal LLMs in the context of self-driving in
-[Lessons from Applied AI: Tesla, Waymo, and Beyond](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html).
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI: Tesla, Waymo, and Beyond]].
 
 At 52:53, she notes that there have been many attempts to use multimodal LLMs
 for autonomous driving. Some companies are using them for end-to-end
@@ -94,16 +94,16 @@ adapt to different geographic driving cultures. Aishwarya suggests that LLMs
 might already know differences between, for example, Italian and German driving
 patterns from their training data, which could make it easier to tune systems
 for global use. This connects multimodal LLMs to
-[autonomous driving AI]({{ '/wiki/autonomous-driving-ai/' | relative_url }})
+[[autonomous driving AI]]
 and the broader
-[model optimization]({{ '/wiki/model-optimization/' | relative_url }}) challenge
+[[model optimization]] challenge
 of running large models under hard latency constraints.
 
 ## Visual Language Models and Agent Infrastructure
 
-[Aditya Gautam](https://datatalks.club/people/adityagautam.html) discusses the
+[[person:adityagautam|Aditya Gautam]] discusses the
 multimodal shift in the context of AI agents in
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html).
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]].
 
 At 21:57, he describes a shift away from text-only interactions. Infrastructure
 tooling is getting better, and there is a multimodality shift where visual
@@ -133,8 +133,8 @@ generative AI capability that requires deep integration of vision, language, and
 temporal reasoning.
 
 These predictions connect multimodal LLMs to
-[generative AI]({{ '/wiki/generative-ai/' | relative_url }}) and
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}). Building systems
+[[generative AI]] and
+[[AI engineering]]. Building systems
 that can take a photo gallery as input and produce coherent video output is not
 only a model problem. It requires data pipelines, memory management, retrieval,
 and evaluation across modalities.
@@ -142,7 +142,7 @@ and evaluation across modalities.
 ## Deployment and Evaluation Challenges
 
 Multimodal LLMs face the same production pressures as text-only
-[LLMs]({{ '/wiki/llms/' | relative_url }}), but amplified. More input types mean
+[[LLMs]], but amplified. More input types mean
 more preprocessing, larger payloads, and more failure modes.
 
 In Daniel's search episode, the multimodal embedding pipeline must handle the
@@ -157,8 +157,8 @@ Aishwarya's autonomous driving context at 53:20 adds the real-time inference
 constraint. A vehicle cannot wait seconds for a multimodal model to process a
 scene. The model must be compressed, quantized, and optimized to run on
 on-vehicle hardware within milliseconds. These are
-[model optimization]({{ '/wiki/model-optimization/' | relative_url }}) and
-[production]({{ '/wiki/production/' | relative_url }}) challenges that apply to
+[[model optimization]] and
+[[production]] challenges that apply to
 any multimodal system deployed under latency constraints.
 
 For the search and retrieval side, Daniel's episode at 34:00 covers hybrid
@@ -169,10 +169,10 @@ semantic relevance and product requirements.
 
 ## Related Pages
 
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Computer Vision]({{ '/wiki/computer-vision/' | relative_url }})
-- [Autonomous Driving AI]({{ '/wiki/autonomous-driving-ai/' | relative_url }})
-- [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }})
+- [[LLMs]]
+- [[Generative AI]]
+- [[Embeddings]]
+- [[Vector Databases]]
+- [[Computer Vision]]
+- [[Autonomous Driving AI]]
+- [[AI Engineering]]

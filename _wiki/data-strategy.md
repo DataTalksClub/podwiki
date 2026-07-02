@@ -19,8 +19,8 @@ In DataTalks.Club podcast discussions, data strategy isn't a static plan or a
 tool shopping list. Guests describe it through domain ownership, self-service
 platforms, and governance scope. They also discuss event tracking, DataOps,
 vendor selection, and adoption. The strategy matters only when teams ship trusted
-[data products]({{ '/wiki/data-products/' | relative_url }}), dependable
-[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[[data products]], dependable
+[[data engineering platforms]],
 and useful business workflows.
 
 ## Business-First Choices
@@ -30,9 +30,9 @@ and operating choices. Teams start from business questions and constraints, then
 work backward into data collection and platform design. They also define
 ownership, quality, governance, and delivery.
 
-[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
+[[person:arpitchoudhury|Arpit Choudhury]] gives the
 growth-stack version in
-[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
 At 13:34, he starts with tracking plans. Teams document events, properties, and
 ownership before they rely on product data. At 22:50, the stack moves from
 collection to storage, analysis, and activation.
@@ -41,22 +41,22 @@ At 41:30, the modern growth stack includes collection and product analytics
 alongside a warehouse and reverse ETL. The sequence keeps the strategy tied to
 questions and workflows instead of isolated tools.
 
-[Jessi Ashdown](https://datatalks.club/people/jessiashdown.html) and
-[Uri Gilad](https://datatalks.club/people/urigilad.html) give the governance
+[[person:jessiashdown|Jessi Ashdown]] and
+[[person:urigilad|Uri Gilad]] give the governance
 version in
-[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html).
+[[podcast:cloud-data-governance|Cloud Data Governance]].
 At 23:00, they tell teams to start with the reason for governance. At 53:21,
 they describe minimum viable governance that can expand later. Their guidance
-puts [data governance]({{ '/wiki/data-governance/' | relative_url }}) inside
+puts [[data governance]] inside
 data strategy because the right policy depends on risk, use case, data
 sensitivity, and business value.
 
-[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) gives the
+[[person:christopherbergh|Christopher Bergh]] gives the
 operating-model version in
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
+[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
 At 6:42, he names error reduction, deployment cycle time, and productivity as
 core targets. At 28:14, he pushes teams to optimize the whole value stream
-across silos and governance. [DataOps]({{ '/wiki/dataops/' | relative_url }})
+across silos and governance. [[DataOps]]
 turns data strategy into daily engineering work. Without that operating layer,
 teams get a backlog of fragile pipelines.
 
@@ -65,16 +65,16 @@ teams get a backlog of fragile pipelines.
 Guests agree that data strategy should produce value, but they start from
 different failure modes.
 
-[Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html) starts from
+[[person:zhamakdehghani|Zhamak Dehghani]] starts from
 centralized bottlenecks. In
-[Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html),
+[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
 the 7:35 and 9:56 sections describe enterprise data friction and a
 socio-technical shift toward autonomy plus interoperability. At 16:34, she
 connects ownership to business domains. At 49:25, federated governance becomes
 the strategy for keeping domain autonomy from turning into fragmentation. Her
 argument puts data strategy close to
-[Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}), domain-owned
-[data products]({{ '/wiki/data-products/' | relative_url }}), and shared
+[[Data Mesh]], domain-owned
+[[data products]], and shared
 platform standards.
 
 Arpit Choudhury starts from growth and activation. His strategy is less about
@@ -83,9 +83,9 @@ marketing teams can act on trusted events. At 30:03, he discusses sending event
 data into support, sales, and engagement tools. At 56:08, activation events and
 personalized onboarding make the data useful outside dashboards. His
 growth-and-activation strategy belongs with
-[data activation]({{ '/wiki/data-activation/' | relative_url }}),
-[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-and [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+[[data activation]],
+[[analytics engineering]],
+and [[data product management]].
 
 Jessi Ashdown and Uri Gilad start from governability. Their 15:33 section moves
 from governance definition into classification and policy. Their 50:19 section
@@ -93,9 +93,9 @@ asks how catalog usage, cost, and compliance value can show return on
 investment. Their version matters when a company has many datasets, many
 consumers, and unclear sensitivity or ownership.
 
-[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) starts from scale-up
+[[person:mehdiouazza|Mehdi OUAZZA]] starts from scale-up
 pressure. In
-[Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
+[[podcast:scaling-data-engineering-teams-self-service-platforms|Scale Data Engineering Teams]],
 the 12:30 section frames the platform as self-service infrastructure for
 onboarding and scale. At 17:22, he explains that an Airflow cluster isn't
 enough. Conventions, playbooks, and best practices make the platform usable.
@@ -115,9 +115,9 @@ owns changes. A signup event, invoice event, or project creation event matters
 because teams can use it in product analytics and support context. The same
 event can also drive lifecycle messaging or personalization.
 
-[Alexander Hendorf](https://datatalks.club/people/alexanderhendorf.html) adds the
+[[person:alexanderhendorf|Alexander Hendorf]] adds the
 enterprise AI version in
-[Scale Enterprise AI](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html).
+[[podcast:scaling-enterprise-ai-mlops-data-first-strategy|Scale Enterprise AI]].
 At 31:18, he discusses aligning AI initiatives, experiments, and company goals.
 At 36:50, he warns against hype-driven experimentation without evaluation and
 transparency. At 46:03, he favors impact and "good enough" engineering over
@@ -125,8 +125,8 @@ perfection.
 
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
-overlaps with [MLOps]({{ '/wiki/mlops/' | relative_url }}) and the
-[machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
+overlaps with [[MLOps]] and the
+[[machine learning engineer role]].
 
 Different strategic problems need different success measures. Christopher
 Bergh's DataOps discussion at 6:42 uses error reduction, cycle time, and
@@ -150,7 +150,7 @@ For Zhamak, domain ownership and shared standards have to exist together.
 
 Mehdi OUAZZA gives the scale-up platform version. The 12:30 section presents
 the platform as an enablement layer. The 52:55 section splits work between
-platform engineering and use-case pipelines. [Data teams]({{ '/wiki/data-teams/' | relative_url }})
+platform engineering and use-case pipelines. [[Data teams]]
 need that balance because a platform-only team may lose contact with business
 needs, while a request-only team may never create reusable capabilities.
 
@@ -175,9 +175,9 @@ policies keep governance tied to decisions the team can explain.
 Zhamak's federated governance section adds the distributed version. At 49:25,
 governance is shared policy with automated enforcement across domain-owned data
 products. At 53:02, retention, metadata, and validation become governance
-primitives. In [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}), governance
+primitives. In [[Data Mesh]], governance
 and
-[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+[[data quality and observability]]
 serve the same consumer need: guarantees people can look at and trust.
 
 Alexander Hendorf extends risk into AI and ML. At 52:12, production systems
@@ -201,13 +201,13 @@ Mehdi's scale-up episode shows when platform tools need conventions around
 them. Airflow appears at 17:22, but the lesson is broader than orchestration.
 Reusable templates, playbooks, and naming practices help engineers onboard
 quickly and keep pipelines understandable. Kafka schemas and contracts at 23:26
-serve the same purpose for event-driven systems. [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
-and [streaming]({{ '/wiki/streaming/' | relative_url }}) cover those platform
+serve the same purpose for event-driven systems. [[Apache Airflow]]
+and [[streaming]] cover those platform
 choices in more detail.
 
-[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) gives the
+[[person:adrianbrudaru|Adrian Brudaru]] gives the
 modern-stack caution in
-[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering]].
 At 14:32, he critiques packaged modern data stacks and points toward
 open-source alternatives. At 18:17 and 21:27, Apache Iceberg and catalogs
 separate storage from compute. Access, metadata, and lineage sit in the catalog
@@ -234,9 +234,9 @@ a product means consumer-first guarantees and KPIs. At 39:36, contracts cover
 quality, service levels, and ownership. The strategy has to describe the
 consumer and the guarantee, not just the pipeline that produces the dataset.
 
-[Parvathy Krishnan](https://datatalks.club/people/parvathykrishnan.html) brings
+[[person:parvathykrishnan|Parvathy Krishnan]] brings
 the same logic into the nonprofit sector. In
-[Analytics for Nonprofits](https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html),
+[[podcast:data-science-and-analytics-for-nonprofits-tech-for-good|Analytics for Nonprofits]],
 she maps data maturity across people, process, and technology dimensions.
 Discovery workshops assess where a nonprofit actually stands before tools are
 chosen. The episode covers descriptive-to-prescriptive curriculum progression,

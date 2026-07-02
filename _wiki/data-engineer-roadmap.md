@@ -28,24 +28,24 @@ The next layer is modeling and orchestration. The final layer is quality
 checks, documentation, cloud basics, and interview-ready projects.
 
 DataTalks.Club guests are consistent on this point. In
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
-[Jeff Katz](https://datatalks.club/people/jeffkatz.html) names the junior core at
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
+[[person:jeffkatz|Jeff Katz]] names the junior core at
 23:35: Python and SQL, plus cloud fundamentals and orchestration. At 38:05 and
 56:46, he explains why a beginner path can focus on Python and SQL while
 postponing Spark, Kafka, and Kubernetes. In
-[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
-[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) gives the same
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering]],
+[[person:adrianbrudaru|Adrian Brudaru]] gives the same
 modern version at 41:06. Learn SQL and Python, capture business requirements,
 and build a portfolio before chasing a vendor checklist.
 
 This roadmap gives the practical learning sequence, while
 For the role scope, start with
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}).
+[[Data Engineer Role]] and
+[[Data Engineering]].
 If you already work in analytics, use the
-[Data Analyst to Data Engineer Roadmap]({{ '/wiki/data-analyst-to-data-engineer/' | relative_url }}).
+[[data-analyst-to-data-engineer|Data Analyst to Data Engineer Roadmap]].
 If you already work in data science, use the
-[Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }}).
+[[data-scientist-to-data-engineer|Data Scientist to Data Engineer Roadmap]].
 Both translate existing skills into the data engineering path.
 
 ## Start With The Role
@@ -62,8 +62,8 @@ A junior roadmap should show four abilities:
 
 That role boundary matters because "data engineer" can mean different things.
 In
-[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html),
-[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) separates
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]],
+[[person:slawomirtulski|Slawomir Tulski]] separates
 platform data engineering from product-facing data work around 11:54. Later, at
 42:08, he describes a tougher market for junior roles and recommends reusing
 existing domain experience rather than applying blindly to every data title.
@@ -77,8 +77,8 @@ Match the path to your starting point:
 - If you're closer to software or DevOps, build toward ingestion,
   orchestration, testing, cloud deployment, and platform operations.
 
-[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-and [Job Search]({{ '/wiki/job-search/' | relative_url }}) connect the roadmap
+[[Career Transitions in Data]]
+and [[Job Search]] connect the roadmap
 to your background.
 
 ## Stage 1: SQL, Python, And Modeling
@@ -96,7 +96,7 @@ For SQL, practice:
 - validation queries
 
 Jeff Katz makes this concrete in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html):
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]:
 at 44:21 he recommends SQL depth beyond joins and aggregates, including window
 functions. At 45:14, he highlights data modeling practice such as OLTP versus
 OLAP.
@@ -110,7 +110,7 @@ For Python, practice:
 - writing data into storage
 
 Code readability matters in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 Jeff warns at 1:49 that many projects list tools while showing too little
 Python and SQL. At 2:22, he asks for small functions and useful names. He also
 asks for targeted classes and tests.
@@ -118,9 +118,9 @@ asks for targeted classes and tests.
 The modeling layer turns data movement into data engineering. Name the grain of
 each table, separate raw and modeled layers, and write a data dictionary for
 final tables. For deeper context, use
-[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}), and
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+[[Data Pipelines]],
+[[Data Warehouse]], and
+[[Analytics Engineering]].
 
 ## Stage 2: Build One End-To-End Batch Pipeline
 
@@ -143,21 +143,21 @@ The first pipeline should include:
 - documentation for setup, tables, quality checks, failure modes, and recovery
 
 This project should show substantial SQL and Python, not only a stack diagram.
-[Santona Tuli](https://datatalks.club/people/santonatuli.html) describes an
+[[person:santonatuli|Santona Tuli]] describes an
 end-to-end pipeline that moves from ingestion and orchestration into modeled
 marts and dashboards, with production ML handoffs, in
-[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]
 around 10:48-18:44 and 32:57-44:57. Use that episode to see how source
 modeling, declarative transformations, and serving layers connect in one
 pipeline story.
 In
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
 Jeff connects portfolio work to Python and SQL at 1:20. He also covers Docker,
 Airflow, and warehouse fundamentals there. At 2:46, he says personal projects
 and open-source contributions help create credible proof. Use
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+[[Data Engineering Portfolio Projects]]
 as the review standard, and use
-[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
+[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]]
 for a single-project blueprint.
 
 ## Stage 3: Choose Storage, ETL, And ELT Deliberately
@@ -165,9 +165,9 @@ for a single-project blueprint.
 Once the first pipeline runs, learn where data should land and why. Start with
 storage and transformation patterns before memorizing product names.
 
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) gives the clearest
+[[person:nataliekwong|Natalie Kwong]] gives the clearest
 podcast introduction in
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
 At 3:46 she explains ETL, at 7:57 she covers ELT's flexibility, and at 10:00
 she discusses transformations from type casting to SQL joins. At 15:30 and
 17:55, she distinguishes data marts, warehouses, and raw ingestion layers. At
@@ -184,11 +184,11 @@ choice:
 - what would become expensive, slow, or hard to maintain at larger scale
 
 For deeper reading, connect this stage to
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
-[ELT]({{ '/wiki/elt/' | relative_url }}). Then add
-[Data Lake]({{ '/wiki/data-lake/' | relative_url }}),
-[Data Warehouse vs Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}),
-and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+[[ETL vs ELT]] and
+[[ELT]]. Then add
+[[Data Lake]],
+[[data-warehouse-vs-data-lakehouse|Data Warehouse vs Lakehouse]],
+and [[Modern Data Stack]].
 
 ## Stage 4: Add Orchestration, Quality, And DataOps
 
@@ -206,10 +206,10 @@ For orchestration, learn:
 - parameters and configuration
 
 Natalie Kwong describes Airflow's orchestration role at 30:59 in
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
-[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) goes deeper
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
+[[person:larsalbertsson|Lars Albertsson]] goes deeper
 in
-[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html):
+[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]:
 at 30:34 he breaks a data platform into storage, compute, and workflow engine.
 At 46:52, he discusses data quality measurements and schema automation as part
 of DataOps maturity.
@@ -229,9 +229,9 @@ For quality checks, protect the consumer:
 - referential integrity: facts join to dimensions as expected
 - distribution: important measures don't shift without explanation
 
-[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) adds the
+[[person:christopherbergh|Christopher Bergh]] adds the
 operational standard in
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
+[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
 At 6:42, he ties DataOps to error reduction, deployment cycle time, and team
 productivity.
 
@@ -244,9 +244,9 @@ At 33:47 and 48:25, he uses practical reliability tools:
 - Great Expectations
 - SQL tests
 
-Use [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
-[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) for the
+Use [[Data Quality and Observability]],
+[[DataOps]], and
+[[data-quality-and-observability|Data Observability]] for the
 deeper version.
 
 ## Stage 5: Make The Portfolio Interview-Ready
@@ -269,13 +269,13 @@ An interview-ready data engineering portfolio should include:
 - a short explanation of what you would simplify or change next
 
 This matches the hiring advice across these episodes. Jeff Katz's
-[job-prep episode](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
+[[podcast:get-data-engineering-job-prep-and-interview|job-prep episode]]
 asks for readable code and tests at 2:22. Slawomir Tulski's
-[2026 career episode](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|2026 career episode]]
 pushes portfolio framing at 57:35 and suggests a small end-to-end platform at
 1:04:42, even if the implementation is simple. In
-[Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
-[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) recommends writing
+[[podcast:scaling-data-engineering-teams-self-service-platforms|Scale Data Engineering Teams]],
+[[person:mehdiouazza|Mehdi OUAZZA]] recommends writing
 and open-source work at 46:44. Blogs and videos can also create feedback and
 make work visible.
 
@@ -292,9 +292,9 @@ Build projects in this order:
 
 Keep one project small enough to finish and one project deep enough to defend.
 For project review, use
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
-[Documentation]({{ '/wiki/documentation/' | relative_url }}), and
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}).
+[[Data Engineering Portfolio Projects]],
+[[Documentation]], and
+[[CV Screening]].
 
 ## Stage 6: Prepare For Interviews While You Build
 
@@ -320,10 +320,10 @@ Prepare for these areas:
   improvements
 
 In
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
 Jeff says technical interviews include SQL, Python, and take-home work at 7:46.
 In
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
 he also discusses SQL tests and on-site expectations at 48:00. That means the
 roadmap should end with practice under constraints. Explain your pipeline out
 loud, redesign one part on a whiteboard, and solve SQL without searching for
@@ -340,7 +340,7 @@ Add advanced tools only when the constraint is real:
   Spark-specific job experience.
 - Add Kafka when delayed answers lose value and event ordering, replay, or late
   events become central, using
-  [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+  [[Batch vs Streaming]]
   to decide whether the latency need justifies streaming.
 - Add Kubernetes when deployment and platform ownership are part of the role.
 - Add Iceberg, Delta Lake, or a catalog when lakehouse metadata and schema
@@ -349,13 +349,13 @@ Add advanced tools only when the constraint is real:
   become the problem.
 
 DataTalks.Club guests repeatedly warn against tool-first roadmaps. Adrian Brudaru's
-[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering]]
 covers Iceberg at 18:17 and DuckDB at 25:58. He covers orchestration choices at
 35:37 and streaming patterns at 51:19. He still returns to requirements and
 portfolio work at 41:06. At 44:42, he returns to vendor caution.
 
 Slawomir Tulski makes the same point in
-[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
 At 30:56, he warns about over-engineered platforms. At 38:01, he says Kafka
 belongs where real-time needs justify it.
 
@@ -368,10 +368,10 @@ The practical sequence is:
 5. Explain what became easier and what became harder.
 
 This keeps the roadmap connected to
-[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),
-and [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}).
+[[Data Engineering Tools]],
+[[Data Engineering Platforms]],
+[[self-service-data-platforms|Self-Service Data Platforms]],
+and [[Platform Engineering]].
 
 ## A Practical 12-Week Roadmap
 ## Courses, Bootcamps, and Training Projects
@@ -386,9 +386,9 @@ then ingest data, keep raw records, and transform into modeled tables before
 scheduling and testing the work. The first useful project should include a real
 failure mode, not only a happy-path demo.
 
-[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) shows the
+[[person:gloriaquiceno|Gloria Quiceno]] shows the
 learner side of this in
-[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
+[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]].
 Her path included a bootcamp, a four-month search, volunteer practice, and
 tracked applications. Her Twitter data pipeline capstone used Docker
 containers and a Slack bot. She found that custom projects stand out more than
@@ -397,7 +397,7 @@ repeated course projects (16:14-18:21, 36:20-37:25, and 50:15-53:34).
 The same rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
 which the DataTalks.Club podcast frames as free project-based learning
-([Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
+([[podcast:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club]]
 5:07-9:22). A learner should finish with a pipeline they can explain instead of
 only a completed syllabus.
 
@@ -406,27 +406,27 @@ only a completed syllabus.
 Entry-level readiness means you can write SQL and Python. You can explain table
 grain, model basic entities, and run one orchestrated job with tests. Jeff
 Katz's two episodes map this level to coding, orchestration, and interviews
-([Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]
 23:35-40:42 and
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]
 1:20-11:24).
 
 Mid-level readiness means you can own a production pipeline. You can talk with
 downstream users about freshness and quality, handle backfills, and review
 transformation code. Natalie Kwong covers stack tradeoffs and Santona Tuli
 covers pipeline architecture at this level
-([ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]
 30:59-49:32 and
-[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]
 37:10-44:57).
 
 Senior readiness means you can set platform conventions and define ownership
 boundaries. You can decide whether governance or self-service work is worth the
 operational burden. Slawomir Tulski links senior value to cost-aware
 engineering and portfolio framing
-([Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
+([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]
 25:33-38:01). At that level,
-[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+[[FinOps for Data Engineers]]
 begins to matter because cloud spend becomes a shared responsibility.
 
 Use this as a pacing guide, not a promise. Move faster if you already know SQL,
@@ -438,39 +438,39 @@ and portfolio proof comes before certificate collecting.
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
 Katz's SQL and modeling advice in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]
 is the benchmark for this stage.
 
 Weeks 3-4 cover Python ingestion through scripts that call an API or read files.
 Handle bad records, configuration, retries, and raw data preservation. Use
 Jeff's code-quality guidance from
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]
 as the review bar.
 
 Weeks 5-6 cover storage in a warehouse, lake, or local analytical database.
 Create raw, staging, modeled, and serving layers. Add a data dictionary and
 document table grain. Natalie Kwong's
-[ETL vs ELT episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT episode]]
 is the stack vocabulary for this stage.
 
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
 retries, logs, and rerun behavior. Connect the work to
-[Apache Airflow: Workflow Orchestration for Data Pipelines]({{ '/wiki/orchestration/' | relative_url }})
+[[orchestration|Apache Airflow: Workflow Orchestration for Data Pipelines]]
 and Lars Albertsson's DataOps discussion of workflow engines in
-[DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
+[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]].
 
 Weeks 9-10 cover quality and failures through freshness, volume, schema, and
 null checks. They should also cover uniqueness, accepted values, and business
 rules. Then break the pipeline on purpose and write recovery notes.
 Christopher Bergh's
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
+[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]
 is the reliability model for this stage.
 
 Weeks 11-12 cover portfolio and interviews. Clean the README, document setup,
 and add a project walkthrough. Practice SQL, Python, and take-home scenarios.
 Link your project story to the
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) you're
-targeting, then use [Job Search]({{ '/wiki/job-search/' | relative_url }}) to
+[[Data Engineer Role]] you're
+targeting, then use [[Job Search]] to
 turn the project into applications.
 
 After that, choose one specialization based on your target role:
@@ -488,11 +488,11 @@ After that, choose one specialization based on your target role:
 You're ready to apply for junior data engineering roles when you can do most
 of this without following a tutorial step by step:
 
-Start with [Jeff Katz](https://datatalks.club/people/jeffkatz.html)'s core-skill
+Start with [[person:jeffkatz|Jeff Katz]]'s core-skill
 bar. He covers it in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]
 and
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 
 Use that junior bar to check that you can:
 
@@ -503,12 +503,12 @@ Use that junior bar to check that you can:
 - explain your code and data model under interview questioning
 
 Then prove you can turn those skills into a pipeline.
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
+[[person:nataliekwong|Natalie Kwong]]
 describes the raw-to-modeled structure in
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
-[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
+[[person:adrianbrudaru|Adrian Brudaru]]
 recommends tool restraint in
-[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering]].
 
 Use those interviews to check that you can:
 
@@ -519,12 +519,12 @@ Use those interviews to check that you can:
 - know when not to use Spark or streaming systems
 
 Make the pipeline operable, not only impressive.
-[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html)
+[[person:larsalbertsson|Lars Albertsson]]
 frames the workflow engine, storage, and compute pieces in
-[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
-[Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
+[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
+[[person:christopherbergh|Christopher Bergh]]
 connects DataOps to version control, CI/CD, and automated data tests in
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
+[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
 
 Use that DataOps evidence to check that you can:
 
@@ -536,9 +536,9 @@ Use that DataOps evidence to check that you can:
 Finally, make the work reviewable.
 Jeff's interview episode asks for visible Python and SQL depth, readable code,
 and tests.
-[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) recommends a
+[[person:slawomirtulski|Slawomir Tulski]] recommends a
 small end-to-end platform in
-[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
 
 Use that portfolio evidence to check that you can:
 
@@ -547,10 +547,10 @@ Use that portfolio evidence to check that you can:
 - describe one failure, rerun, or backfill from your own project
 
 For the full topic map, continue with
-[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }}).
+[[Data Pipelines]],
+[[Data Engineering Platforms]],
+and [[FinOps for Data Engineers]].
 Then use
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
-[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
-[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+[[Data Engineering Portfolio Projects]],
+[[DataOps]], and
+[[Modern Data Stack]].

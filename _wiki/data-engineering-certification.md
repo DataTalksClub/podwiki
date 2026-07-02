@@ -13,7 +13,7 @@ related:
 
 A data engineering certification can help you organize study and learn platform
 vocabulary. It can also show recruiters that you're working toward the
-[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}). It
+[[data engineer role]]. It
 doesn't prove job readiness. Employers still need to see whether you can write
 SQL and Python. They also need to see whether you can build a pipeline, debug
 data quality problems, and explain the tradeoffs in your project.
@@ -21,15 +21,15 @@ data quality problems, and explain the tradeoffs in your project.
 The DataTalks.Club podcast archive treats certificates as supporting evidence.
 Use a certificate as a study plan that leads to a reviewable project. Don't use
 it as a substitute for the project. For the broader learning sequence, use the
-[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+[[data-engineer-roadmap|Data Engineering Roadmap]]
 and
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+[[Data Engineering Portfolio Projects]].
 
 ## Employer Evidence
 
-[Jeff Katz](https://datatalks.club/people/jeffkatz.html) gives the clearest
+[[person:jeffkatz|Jeff Katz]] gives the clearest
 hiring standard in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
+[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 At 21:56, he answers a direct question about using pipeline-monitoring
 experience plus Python and data engineering certificates to move into a data
 engineering job. By 22:36, he has moved the discussion back to whether the
@@ -89,7 +89,7 @@ won't help much in a technical screen.
 ## Start With The Role, Not The Badge
 
 Choose a certification by asking whether it teaches the work behind
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
+[[data engineering]].
 
 A useful program should connect several parts of the job:
 
@@ -102,7 +102,7 @@ engineers. For some programs, it should also show the handoff to ML teams and
 product teams.
 
 In
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
 Jeff Katz gives a practical curriculum benchmark. Around 23:35, he describes
 junior data engineering as a more defined path than many data science paths.
 He names Python and SQL. He also names cloud basics and orchestration.
@@ -131,7 +131,7 @@ Evaluate a certification program by this order:
 7. Advanced tools only when the project creates a real need.
 
 For the longer learning path, compare this page with the
-[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
+[[data-engineer-roadmap|Data Engineering Roadmap]].
 
 ## Prefer Project-Based Certificates
 
@@ -140,9 +140,9 @@ at. The project should run outside a notebook and include setup instructions.
 It should show what happens when data arrives late, duplicates appear, or a
 schema changes.
 
-[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) gives the
+[[person:gloriaquiceno|Gloria Quiceno]] gives the
 career-change version in
-[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
+[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]].
 Around 16:14-18:21, she describes searching for a role after finishing a
 bootcamp. Around 36:20-37:25, she says Python and SQL from the program became
 useful in her work, along with Docker and Airflow.
@@ -180,17 +180,17 @@ Certification programs often use platform names to sound job-ready.
 
 You still need to understand the categories behind those platforms:
 
-- [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
-- [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }})
-- [data lakes]({{ '/wiki/data-lake/' | relative_url }})
-- [dbt]({{ '/wiki/dbt/' | relative_url }})
-- [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
+- [[data pipelines]]
+- [[ETL vs ELT]]
+- [[modern data stack]]
+- [[data-warehouse|data warehouses]]
+- [[data-lake|data lakes]]
+- [[dbt]]
+- [[Apache Airflow]]
 
-[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) gives that
+[[person:nataliekwong|Natalie Kwong]] gives that
 vocabulary in
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
 Around 4:30, she breaks ETL into source extraction, business-specific
 transformation, and loading data for use. Around 10:22, she describes
 transformations from type casting to joins across sources. Around 28:07, she
@@ -203,9 +203,9 @@ name tools. It should explain what each tool category does and when it's too
 much for the problem. It should also explain how data moves from source systems
 to trusted outputs.
 
-[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) adds the same
+[[person:adrianbrudaru|Adrian Brudaru]] adds the same
 practical constraint in
-[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering]].
 Around 41:06, he recommends SQL and Python for beginners. He also recommends
 requirements gathering and portfolio building. Around 44:42, he ties tool
 choice to the end user. He also warns against vendor-led stack decisions.
@@ -222,7 +222,7 @@ Different certificates solve different problems.
 
 A course certificate helps when it proves that you finished assignments and
 built a project. It helps less when it only marks attendance. Compare the
-[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+[[data-engineer-roadmap|Data Engineering Roadmap]]
 when you need course-specific criteria.
 
 A cloud or vendor certificate helps when your target jobs mention that
@@ -235,12 +235,12 @@ A bootcamp or cohort certificate helps when the program gives structure and
 feedback. It should also give peer review, interview practice, and a capstone
 you can customize.
 It's weaker when every student leaves with the same template project. Use
-[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+[[data-engineer-roadmap|Data Engineering Roadmap]]
 for the bootcamp version of this decision.
 
 Open-source work isn't a certification, but it can be stronger evidence. In
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
-[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) explains
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
+[[person:vincentwarmerdam|Vincent Warmerdam]] explains
 around 26:44-29:55 how new contributors can start from real tool use and
 reproducible issues. He also mentions documentation, tests, formatting, and CI.
 That advice applies beyond ML.
@@ -248,7 +248,7 @@ That advice applies beyond ML.
 A merged pull request or well-documented issue shows that you can work in a
 shared codebase and accept feedback. It also shows that you can leave something
 useful behind. See
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+[[Open Source Portfolio Evidence]]
 for that path.
 
 ## Put It On Your Resume Carefully
@@ -273,9 +273,9 @@ Add the validation checks, scheduler, and backfill notes. The certificate
 explains the study path, and the pipeline proves the claim.
 
 This framing also helps with
-[job search]({{ '/wiki/job-search/' | relative_url }}),
-[CV screening]({{ '/wiki/cv-screening/' | relative_url }}), and
-[job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}). Recruiters
+[[job search]],
+[[CV screening]], and
+[[job descriptions]]. Recruiters
 may notice the credential. Hiring teams still evaluate the code, SQL, project
 explanation, and role fit.
 

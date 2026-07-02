@@ -17,14 +17,14 @@ A data analyst career is a path into decision-facing data work. Analysts use SQL
 and dashboards to look at data. They use metrics, product context, and
 communication to help teams understand what happened and what to do next. The
 role sits next to
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}),
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-and the [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}).
+[[Product Analytics]],
+[[Analytics Engineering]],
+and the [[Data Analyst Role]].
 The career question is how people enter the role, show evidence, and grow from
 it.
 
 At 7:51-10:39 in
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 analysts are framed as people who know company data and build dashboards. They
 define KPIs and quantify product problems. Analysts also check whether shipped
 work changed user behavior.
@@ -35,15 +35,15 @@ learn how data maps to product and operations. They also learn how data maps to
 growth, finance, and customer decisions.
 
 In
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
-[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) says around
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]],
+[[person:alicjanotowska|Alicja Notowska]] says around
 54:09-59:30 that companies use "data analyst" for BI reporting and business
 analysis. They also use it for product analytics or light data science.
 Candidates need to read the responsibilities, not only the title. Those role
 boundaries explain why
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[[Data Analyst vs Analytics Engineer]]
 and
-[Product Analyst vs Data Analyst]({{ '/wiki/product-analyst-vs-data-analyst/' | relative_url }})
+[[Product Analyst vs Data Analyst]]
 matter for analyst careers.
 
 ## Entry Routes
@@ -54,8 +54,8 @@ the work visible. The route differs by background, but the evidence needs to
 show analysis, communication, and a decision.
 
 In
-[How to Break into Data Analytics](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html),
-[Juan Pablo](https://datatalks.club/people/juanpablo.html) describes a practical
+[[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]],
+[[person:juanpablo|Juan Pablo]] describes a practical
 route from math graduate to analytics roles. Around 8:24, he talks about
 discovering SQL after earlier work with biostatistics, R, and SAS. Around
 24:23-28:19, he turns portfolio work into a career asset through exploratory
@@ -63,27 +63,27 @@ analysis and visualizations. He also uses basic ML projects and public
 presentation. Around 49:34, he narrows interview prep to SQL, Python, and
 visualization rather than a tool list with no order.
 
-[Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html) gives another
+[[person:ksenialegostay|Ksenia Legostay]] gives another
 entry route in
-[From Project Manager to Data Scientist](https://datatalks.club/podcast/project-manager-to-data-scientist.html).
+[[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]].
 Around 22:32, she connects project management experience to stakeholder
 communication and business KPIs. Around 32:43-36:47, she recommends starting
 with analysis inside work you already understand. She then moves through
 spreadsheets, BI tools, Python, and community learning. That path is important
 for
-[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+[[Career Transitions in Data]]
 because an internal business problem can become stronger evidence than a
 standalone certificate.
 
-[Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html) shows the same
+[[person:eddyzulkifly|Eddy Zulkifly]] shows the same
 route from a later career stage in
-[FinOps for Data Engineers](https://datatalks.club/podcast/finops-for-data-engineers.html).
+[[podcast:finops-for-data-engineers|FinOps for Data Engineers]].
 Around 2:14-8:18, he describes moving from industrial engineering and supply
 chain work through Excel macros and business analyst work. He then used Tableau
 and Alteryx. At 7:48, he says analyst skills helped him move toward data
 engineering because reporting, dashboards, and interpreting data transfer to
 pipeline and platform work. Analyst work can become a credible base for the
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}), not only
+[[Data Engineer Role]], not only
 a dashboard role.
 
 These routes put different weight on market access and technical depth. Juan
@@ -103,41 +103,41 @@ as part of the career move.
 Around 41:07, she extends the path toward Git and testing. Docker, deployment,
 and clean code appear in the same transition. That technical layer matters when
 an analyst wants to move toward
-[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
+[[Data Science Careers]]
 or
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+[[Machine Learning Portfolio Projects]].
 
 ## Skill Stack
 
-[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) puts the
+[[person:rishabhbhargava|Rishabh Bhargava]] puts the
 role boundary in team context in
-[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
+[[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
 Around 18:39-24:23, analysts own dashboards, reports, and ad hoc SQL. They also
 own recommendations around 18:39-24:23. Around 24:23, he emphasizes that
 analysts often know where the data lives because they work with the tables every
 day.
 
 Around 39:04, he connects SQL and Python notebooks to bridge roles such as
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+[[Analytics Engineering]].
 SQL is the career anchor because analysts answer ad hoc questions, build
 reports, and turn table knowledge into recommendations. Juan Pablo's
 interview-prep discussion around 49:34 puts SQL first, with Python and
 visualization close behind. SQL also transfers into the
-[Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
+[[Analytics Engineering Roadmap]]
 when the work moves from one-off queries to tested models.
 
 Visualization and dashboarding matter because analysts communicate evidence.
 At 7:51-10:39 in the role discussion, dashboards connect to KPIs and product
 decisions. In
-[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
-with [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html), the
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]
+with [[person:arpitchoudhury|Arpit Choudhury]], the
 product analytics side appears. Around 22:50-30:03, he walks through
 collection, storage, and analysis. He then connects analysis to activation.
 
 Around 46:13, Arpit separates analysts from data engineers and analytics
 engineers from product operations. Analyst skills therefore connect directly to
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and the
-[Product Analyst]({{ '/wiki/product-analyst/' | relative_url }}) article.
+[[Product Analytics]] and the
+[[Product Analyst]] article.
 
 Statistics and experimentation become important when the analyst supports
 launches and growth decisions. Rishabh discusses A/B testing, shadow mode,
@@ -164,9 +164,9 @@ documentation and organized repos.
 
 Around 59:59-1:01:06, Juan Pablo explains that project impact and version
 control help a hiring manager understand the work. The same evidence supports
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+[[Open Source Portfolio Evidence]]
 and
-[Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
+[[Analytics Engineering Portfolio Projects]].
 
 A useful analyst project has a business question, a dataset, and a SQL or
 Python analysis path. It should also have a visualization and a recommendation.
@@ -179,12 +179,12 @@ Portfolio work can also come from non-traditional experience. Ksenia's episode
 uses work data and BI practice as an entry point around 32:43. Juan Pablo talks
 about nonprofit projects around 38:12. Those examples are useful for people who
 are aiming for an analyst job without a previous analyst title, especially in
-[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) paths.
+[[career-transitions-in-data|Career Transition]] paths.
 
 ## Hiring Signals
 
 Hiring evidence needs to match the role's real scope. In
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]],
 Alicja explains the screening funnel around 4:44-11:34. She then discusses job
 specs and hiring-manager collaboration around 7:09-18:28.
 
@@ -202,8 +202,8 @@ Courses help when they show usable work, but they're weaker when they replace
 examples of analysis or dashboards. SQL and business impact matter too.
 
 The recruiting side is covered in more detail in
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and
-[Job Search]({{ '/wiki/job-search/' | relative_url }}). For an analyst
+[[CV Screening]] and
+[[Job Search]]. For an analyst
 candidate, those pages matter because the resume has to show the same work that
 the interview will test. The resume needs SQL and stakeholder context. It also
 needs dashboard or analysis examples, plus enough business detail for the hiring
@@ -214,7 +214,7 @@ team to evaluate scope.
 Analyst careers can branch in several directions. Rishabh links analyst work to
 experimentation and production ML teams. Arpit links it to growth, activation,
 and the modern data stack. Eddy's episode shows a route toward
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). Ksenia's
+[[Data Engineering]]. Ksenia's
 episode shows a route toward data science.
 
 The career question isn't whether "analyst" is below another title. The better

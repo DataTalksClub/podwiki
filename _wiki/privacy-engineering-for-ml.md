@@ -15,42 +15,42 @@ Privacy engineering for ML is the work of turning privacy obligations into
 system design. It asks what data a product should collect and what data a model
 should see. It also asks who may access that data, how long the team should
 retain it, and which controls apply in production. In these podcast
-discussions, it sits between [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-and [Security]({{ '/wiki/security/' | relative_url }}). It also connects to
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
-[Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
+discussions, it sits between [[Data Governance]]
+and [[Security]]. It also connects to
+[[Responsible AI and Governance]],
+[[Machine Learning]], and
+[[LLM Production Patterns]].
 
 This topic is centered on ML and AI systems, not privacy law in the abstract.
-[Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html) gives the
+[[person:katharinejarmul|Katharine Jarmul]] gives the
 clearest definition in
-[Data Privacy Engineering, GDPR, and Machine Learning](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html).
+[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]].
 At 22:38, she describes privacy engineering as translation between legal,
 social, and technical views. At 30:15 and 47:00, privacy becomes part of normal
 product and architecture work rather than a late compliance check.
 Mario Lazo and Justin Ryan's
-[AI Data Privacy and Protection](https://datatalks.club/books/20240715-ai-data-privacy-and-protection.html)
+[[book:20240715-ai-data-privacy-and-protection|AI Data Privacy and Protection]]
 provides a structured reference for the same legal-to-technical translation:
 data classification, access controls, and privacy-by-design patterns for AI
 systems.
 
 Across these episodes, guests converge on a practical rule. Useful AI systems
 shouldn't create avoidable privacy, security, or compliance risk.
-[Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
+[[person:bartvandekerckhove|Bart Vandekerckhove]]
 adds the operating layer in
-[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html),
+[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
 where access requests and reviews turn privacy rules into daily controls.
 Masking and revocation do the same.
 
-[Supreet Kaur](https://datatalks.club/people/supreetkaur.html)
-ties PII handling to [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+[[person:supreetkaur|Supreet Kaur]]
+ties PII handling to [[Responsible AI and Governance]]
 in
-[Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html).
-[Meryem Arik](https://datatalks.club/people/meryemarik.html) and
-[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) extend the
-same topic into [LLMs]({{ '/wiki/llms/' | relative_url }}),
-[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
-and [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}).
+[[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]].
+[[person:meryemarik|Meryem Arik]] and
+[[person:mariasukhareva|Maria Sukhareva]] extend the
+same topic into [[LLMs]],
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+and [[AI Red Teaming]].
 
 ## Privacy as System Design
 
@@ -61,12 +61,12 @@ unintended exposure.
 
 Katharine grounds that work in regulation and user
 experience. At 11:33 and 14:35 in
-[her privacy episode](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html),
+[[podcast:data-privacy-engineering-gdpr-machine-learning|her privacy episode]],
 she discusses GDPR, CCPA, and CPRA. She also covers cookie-consent defaults
 and one-click rejection.
 
 Katharine also covers browser fingerprinting at 16:24 and re-identification at
-25:12. Those examples matter for [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
+25:12. Those examples matter for [[Machine Learning]]
 systems. Training data and feature tables can preserve identity even after the
 obvious personal fields are removed. Event logs, embeddings, and retrieval
 indexes can do the same.
@@ -83,7 +83,7 @@ retention, local inference, or a less identifying representation may be enough.
 Katharine's session-based personalization example at 30:15 shows the design.
 Teams can infer intent from the current session where possible instead of
 accumulating permanent user histories
-([Katharine's privacy episode](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)).
+([[podcast:data-privacy-engineering-gdpr-machine-learning|Katharine's privacy episode]]).
 
 A personalization model or churn model may improve when it sees more user
 history. A fraud model or support assistant may improve too. The improvement
@@ -102,7 +102,7 @@ a forced trade for basic functionality.
 Privacy engineering fails when sensitive data becomes the default across
 notebooks, feature stores, and production jobs.
 
-[Bart's access-governance episode](https://datatalks.club/podcast/data-governance-data-access-management.html)
+[[podcast:data-governance-data-access-management|Bart's access-governance episode]]
 shows the practical controls at 8:58 / 11:20 / 13:34 / 27:49. At 11:20, he
 links modern cloud data consolidation to access management. At 8:58 and 13:34,
 he explains how catalogs and lineage connect datasets to owners. At 27:49,
@@ -114,8 +114,8 @@ should also cover labels, experiment datasets, and model-debugging samples.
 Embeddings, retrieval indexes, logs, and annotation queues need coverage too.
 The same customer email can appear in several derived forms. A support message
 can too, so privacy reviews need
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+[[Data Governance]] and
+[[Data Quality and Observability]]
 signals, not only a policy document.
 
 Bart's privilege-creep discussion at 32:08 is especially relevant to model
@@ -130,7 +130,7 @@ operations.
 
 Supreet treats privacy as part of responsible AI review, not as a separate
 legal checklist. At 14:39 in
-[Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html),
+[[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]],
 PII handling and masking become product choices. At 17:20, feature necessity
 becomes a subject-matter and compliance decision. Product owners, domain
 experts, and compliance stakeholders should decide whether a sensitive feature
@@ -140,16 +140,16 @@ For production ML, teams should review both model quality and whether the
 inputs are justified. A model can be accurate and still use data it doesn't
 need. A feature can be predictive and still create privacy, fairness, or
 regulatory risk. Supreet's framing links privacy engineering to
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
-Teams also need [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}) because the review depends on
+[[Responsible AI and Governance]].
+Teams also need [[Data Quality and Observability]]
+and [[MLOps]] because the review depends on
 evidence about the data, the model behavior, and the approval record.
 
 ## Privacy-Enhancing Technologies
 
 Katharine describes privacy-enhancing technologies as architectural choices,
 not magic add-ons. At 33:08 in
-[her privacy episode](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html),
+[[podcast:data-privacy-engineering-gdpr-machine-learning|her privacy episode]],
 she discusses encrypted ML, federated learning, and privacy-aware architecture.
 At 40:50, she introduces differential privacy as a formal way to reason about
 privacy loss.
@@ -165,14 +165,14 @@ federated-learning design still needs participant consent, update controls,
 evaluation, and incident handling. Differential privacy still needs a privacy
 budget and a decision about utility loss. Teams still need to own encrypted
 computation in production. The technical technique works only when it's
-embedded in [MLOps]({{ '/wiki/mlops/' | relative_url }}), governance, and
+embedded in [[MLOps]], governance, and
 security practice.
 
 ## Regulated and High-Impact Deployment
 
 High-impact deployment changes privacy engineering from a model-building
 concern into cross-functional approval. Supreet's
-[responsible-AI episode](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
+[[podcast:responsible-explainable-ai-bias-detection|responsible-AI episode]]
 is useful here because it treats feature necessity, PII handling, fairness, and
 compliance as connected decisions. Human oversight belongs in that same review.
 At 17:20, product owners should help decide whether to use a feature.
@@ -184,7 +184,7 @@ security teams appear too, along with engineers. Separation of concerns matters.
 
 Privacy and security may need to approve the same dataset. Domain owners may
 need to approve it for different reasons
-([Bart's access-governance episode](https://datatalks.club/podcast/data-governance-data-access-management.html),
+([[podcast:data-governance-data-access-management|Bart's access-governance episode]],
 35:35, 37:19).
 
 For production ML, the approval record should state which sensitive fields are
@@ -192,9 +192,9 @@ used and why they're necessary. It should state whether those fields are
 masked, transformed, or excluded. It should also state who approved access, how
 long access lasts, what gets logged in production, and how the team handles
 deletion or incident-response requests. Those checks link privacy engineering
-to [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
-[Security]({{ '/wiki/security/' | relative_url }}), and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+to [[Responsible AI and Governance]],
+[[Security]], and
+[[MLOps]].
 
 ## LLM Privacy and Security Tradeoffs
 
@@ -205,13 +205,13 @@ box. They may paste medical details, code, or proprietary documents too.
 Katharine's generative-AI discussion turns retention and deletion into product
 requirements. Training reuse and consent belong there. Incident notification
 does too
-([Katharine's privacy episode](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)).
+([[podcast:data-privacy-engineering-gdpr-machine-learning|Katharine's privacy episode]]).
 
 Meryem's production LLM episode adds the infrastructure tradeoff. API models
 are fast for prototyping, while open-source or self-hosted models can give
 teams more control over privacy and fine-tuning. They can also give teams more
 control over latency and cost
-([Meryem's LLM deployment episode](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Meryem's LLM deployment episode]],
 16:48). API drift at 18:46 adds another operational risk. When a provider
 changes model behavior, the privacy review and the evaluation results may no
 longer describe the system that's running.
@@ -221,7 +221,7 @@ private data, but a vector index can still leak it. A document chunk, prompt
 template, or log can leak it too. Maria's chatbot-security episode shows this
 through knowledge-base exfiltration at 13:20. She then argues for layered
 defenses at 16:15 and 17:00
-([Maria's chatbot-security episode](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)).
+([[podcast:generative-ai-chatbots-in-production-security|Maria's chatbot-security episode]]).
 
 The guests share the same production rule: include privacy in the
 prototype-to-production decision. Teams should decide where prompts are stored,
@@ -229,5 +229,5 @@ whether user inputs can train future models, and how retrieval permissions are
 enforced. They should also decide what appears in logs and what tests catch
 prompt injection or data exfiltration. Cost and latency belong in the same
 review as evaluation and privacy on
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+[[LLM Production Patterns]]
 systems.

@@ -16,21 +16,21 @@ Contributing means doing useful work that improves a project or community for
 other people. In DataTalks.Club podcast discussions, it's code and more than
 code. It also includes documentation, examples, teaching, and community support.
 
-[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) gives
+[[person:vincentwarmerdam|Vincent Warmerdam]] gives
 the most direct starting point in
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html).
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
 Around 25:50 he treats a clear, reproducible issue as a real contribution.
 Around 27:40 he connects first code pull requests to tests, CI, packaging, and
 pre-commit. Vincent treats contribution as a practical part of
-[open source]({{ '/wiki/open-source/' | relative_url }}) and
-[software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+[[open source]] and
+[[software engineering]],
 not a separate prestige activity.
 
 ## Small Work That Reduces Maintainer Load
 
 A useful contribution reduces work for maintainers or helps users succeed. In
 Vincent's
-[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html)
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]
 episode, contributors start by using the tool and noticing friction. They can
 then make a small, scoped improvement. Common first contributions include
 README changes, API examples, contribution notes, and narrow pull requests.
@@ -40,7 +40,7 @@ work. Around 24:10 he links contribution guides with polite
 interaction.
 
 Vincent also describes contribution from the maintainer side in
-[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html).
+[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]].
 Vincent discusses contributor growth around 16:43 and maintainer handoff around
 18:11. Around 23:29, he treats open-source work as a hiring signal.
 Maintainers value work they can review, test, and hand off more than a large
@@ -53,25 +53,25 @@ emphasizes maintainer fit: start small and reproduce the problem before asking
 maintainers to review something large.
 
 In
-[Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html),
-[Merve Noyan](https://datatalks.club/people/mervenoyan.html) emphasizes
+[[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]],
+[[person:mervenoyan|Merve Noyan]] emphasizes
 structured onboarding. Around 6:30 and 10:31 she describes Hugging Face
 contribution sprints, good-first issues, and confidence building. Around 25:09
 she includes documentation and non-code contributions.
 
-[Will Russell](https://datatalks.club/people/willrussell.html) puts more weight
+[[person:willrussell|Will Russell]] puts more weight
 on programs and mentorship. In
-[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
 he connects hackathons to Git, teamwork, and projects around 11:46. Around
 35:43 and 39:02 he talks about mentorship, pull request quality, Git skills,
 and onboarding into large repositories. Around 41:16 he adds environment setup
 and maintainer collaboration, which makes contribution partly a
-[developer relations]({{ '/wiki/developer-relations/' | relative_url }})
+[[developer relations]]
 problem.
 
-[Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html) broadens the idea
+[[person:saraelateif|Sara EL-ATEIF]] broadens the idea
 beyond repository work. In
-[Open Source and Volunteering](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html),
+[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering]],
 she frames volunteering as a way to build AI projects with community impact.
 Around 23:44 she compares collaboration models. Around 48:42 she discusses
 pitching relevant skills for volunteer projects. Around 51:21 she connects
@@ -84,32 +84,32 @@ enough to review and concrete enough to verify:
 
 - Reproducible issues: include versions, environment, input, expected behavior,
   actual behavior, and a minimal reproduction. Vincent recommends this first in
-  [Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html)
+  [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]
   around 25:50.
 - Documentation fixes: improve a README, quickstart, guide, or error message.
   Vincent names documentation assets around 22:20. Around 25:09, Merve includes
   documentation as a valid first contribution in
-  [Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html).
+  [[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]].
 - Small code pull requests: fix one bug or add one narrow behavior with tests.
   Vincent links this to CI and packaging around 27:40. Will adds PR quality and
   Git skills around 39:02 in
-  [Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html).
+  [[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]].
 - Examples and demos: publish a notebook, app, video, or tutorial that helps a
   user do the first useful task. Merve discusses Hugging Face Spaces and
   Streamlit or Gradio demos around 17:37 and 51:12, which connects
   contribution work to
-  [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+  [[machine learning portfolio projects]].
 - Maintainer support: triage issues, improve templates, clarify contribution
   guides, or reduce CI friction. Vincent's maintainer handoff discussion around
   18:11 in
-  [Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
+  [[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]
   shows why this work matters for project sustainability.
 
 ## Community and Volunteer Contributions
 
 Community contribution is the non-repository side of the same idea. It helps
 other people learn, ship, or stay engaged. This comes up in
-[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html).
+[[podcast:datatalksclub-building-scaling-data-community|DataTalks.Club Behind the Scenes]].
 
 The episode covers these community formats around 24:38 and 55:07:
 
@@ -122,31 +122,31 @@ The episode covers these community formats around 24:38 and 55:07:
 Around 42:49, the episode frames community participation as career advice about
 joining communities, answering questions, and finding mentors.
 
-[Community building]({{ '/wiki/community-building/' | relative_url }}) can be
+[[Community building]] can be
 a contribution path, not only a background activity. Answering questions in
 Slack and mentoring learners can create practical proof. So can reviewing
 projects, joining Project of the Week, or organizing office hours. Visible,
 useful community work can play the same evidence role as a small pull request.
 
 Sara's volunteer project discussion around 51:21 in
-[Open Source and Volunteering](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
+[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering]]
 adds another version. Group projects can build referrals and collaboration
 evidence when contributors take clear roles.
 
 ## Documentation and Teaching Contributions
 
 Documentation and teaching count because they lower the cost of adoption.
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
+[[person:hugobowneanderson|Hugo Bowne-Anderson]]
 defines DevRel through education, documentation, and a "wisdom layer" around
 18:03 in
-[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
+[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
 Around 25:17 he connects developer collaboration to feedback loops,
 documentation, and dogfooding. Around 43:14 he talks about audience, goals, and
 outlines for tutorials.
 
-[Elle O'Brien](https://datatalks.club/people/elleobrien.html) makes the same link
+[[person:elleobrien|Elle O'Brien]] makes the same link
 from a data science tool perspective in
-[DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html).
+[[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]].
 Around 12:20 she describes product work and docs as part of the DevRel scope.
 Elle also discusses PRs, videos, and hiring in the same segment. Around 52:06
 and 54:46, she connects teaching and curriculum design with reusable videos and
@@ -160,7 +160,7 @@ see judgment. Merve's Hugging Face episode connects open-source experience to
 hiring around 23:26 and 30:21. GitHub activity can show that a candidate can
 work with large codebases, PR workflows, tests, and project conventions.
 Vincent makes a similar point around 23:29 in
-[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
+[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
 where open-source work demonstrates quality.
 
 Contributors make this evidence stronger when they can reference specific work:
@@ -171,21 +171,21 @@ Contributors make this evidence stronger when they can reference specific work:
 - one demo that shows how a tool solves a real problem
 
 Use
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+[[Open Source Portfolio Evidence]]
 for this hiring focus. Connect contribution work to
-[job search]({{ '/wiki/job-search/' | relative_url }}),
-[career growth]({{ '/wiki/career-growth/' | relative_url }}), and
-[data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+[[job search]],
+[[career growth]], and
+[[data engineering portfolio projects]]
 when the work needs to prove employability.
 
 ## Contribution Across Open Source, Community, and Careers
 
 Contribution work connects to several archive topics:
 
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Community]({{ '/wiki/community/' | relative_url }})
-- [Community Building]({{ '/wiki/community-building/' | relative_url }})
-- [Documentation]({{ '/wiki/documentation/' | relative_url }})
-- [Practices]({{ '/wiki/practices/' | relative_url }})
-- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
+- [[Open Source and Developer Relations]]
+- [[Open Source Portfolio Evidence]]
+- [[Community]]
+- [[Community Building]]
+- [[Documentation]]
+- [[Practices]]
+- [[Career Growth]]
