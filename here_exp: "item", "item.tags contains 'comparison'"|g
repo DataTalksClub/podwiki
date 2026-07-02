@@ -1,1 +1,0 @@
-{% assign comparisons = site.wiki  | sort: "title" %}
