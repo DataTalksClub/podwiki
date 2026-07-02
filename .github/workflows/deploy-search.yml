@@ -33,7 +33,7 @@ jobs:
       - name: Build exploration search index
         working-directory: podwiki
         run: |
-          python scripts/build_search_index.py
+          python scripts/build_search_index.py --stemmer porter
           python scripts/prepare_lambda_package.py
 
       - name: Build SAM app

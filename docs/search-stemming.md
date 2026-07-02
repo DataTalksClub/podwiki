@@ -1,15 +1,22 @@
-# Search stemming (wired, OFF by default)
+# Search stemming (Porter)
 
-The exploration search can stem tokens so singular/plural and other word forms
+The exploration search stems tokens so singular/plural and other word forms
 match (e.g. a search for `startups` also finds `startup`). It is implemented in
-the shared [`stemlite`](https://github.com/DataTalksClub/stemlite) library and
+the shared [`stemlite`](https://github.com/alexeygrigorev/stemlite) library and
 exposed by `zerosearch` via `Index(stemmer="porter")`. zerosearch imports
-`stemlite` lazily, so it stays a zero-required-dependency library.
+`stemlite` lazily and declares it as the optional `stemming` extra, so it stays
+zero-required-dependency.
 
-It is **off in the committed/deployed build** on purpose: turning it on requires
-`stemlite` and the stemming-enabled `zerosearch` to be available to the Lambda,
-plus a browser-search parity fix. Local development already works (both siblings
-are added to `sys.path`).
+Enabled in the deployed Lambda:
+
+- `requirements.txt` pins `zerosearch[stemming]>=0.5.0`, so the SAM build installs
+  the stemming-enabled `zerosearch` and the tiny `stemlite` from PyPI.
+- `.github/workflows/deploy-search.yml` builds the index with `--stemmer porter`.
+  The stemmer name is baked into the `.zsx` and restored automatically when the
+  Lambda loads it, so queries stem without extra config.
+
+The browser fallback search uses `zerosearch-node`, which has a Porter port
+verified to match the Python output word-for-word, so both paths agree.
 
 ## Verify locally
 
@@ -21,20 +28,12 @@ python scripts/build_search_index.py --stemmer porter --index /tmp/idx.zsx \
 Singular and plural queries return the same top pages. The stemmer name is baked
 into the `.zsx` and restored automatically on load.
 
-## To enable in production
+## Changing the stemmer
 
-1. **stemlite** must be importable in the Lambda. Either publish it to PyPI and
-   add `stemlite>=0.1.0` to `requirements.txt`, or rely on the vendored copy:
-   `prepare_lambda_package.py` already copies `../stemlite/stemlite` into the
-   package when present.
-2. **zerosearch** in the Lambda must be the stemming-enabled version. The Lambda
-   installs `zerosearch` from PyPI (`requirements.txt`), so publish the updated
-   zerosearch (with the `stemmer=` support) and bump the pin — or vendor it too.
-3. Build the index with the stemmer: `make index STEMMER=porter` (or pass
-   `--stemmer porter`). Then `make lambda-package` and deploy.
-4. **Browser parity:** the browser fallback search (`assets/search.js`, backed by
-   `zerosearch-node`) must apply the *same* stemmer to the query and corpus, or
-   plural queries won't bridge in the fallback. Port stemming to `zerosearch-node`
-   before enabling, so the Lambda and browser paths agree.
+Build locally with a different stemmer via `make index STEMMER=snowball` (or
+`--stemmer`). To turn stemming off, build without the flag; the `.zsx` then
+records no stemmer and the Lambda serves unstemmed results. Keep the CI flag in
+`deploy-search.yml` in sync with what you want deployed.
 
-Until steps 1-4 are done, leave the build unstemmed (the default).
+Dependencies: `stemlite` and the stemming-enabled `zerosearch` (>=0.5.0) are on
+PyPI and pulled by the `zerosearch[stemming]` pin in `requirements.txt`.
