@@ -271,9 +271,44 @@ changes. Rebuild search after content changes: `python scripts/build_search_inde
 
 - Every content section should include actual podcast references when it makes a
   claim about the topic.
-- Prefer transcript clips and timestamped episode links over generic claims.
+- Prefer specific, grounded claims over generic advice; cite the source
+  episode/book/person with a chip (see Prose Style below).
 - Do not cite a guest as supporting a claim unless the transcript evidence is
   present in the episode page.
-- If pages disagree, preserve the disagreement instead of smoothing it away.
+- If pages disagree, preserve the disagreement instead of smoothing it away —
+  but state it factually ("approaches differ: X vs Y"), not as narration.
 - Avoid shallow topic labels. A page must explain the actual mechanism,
   workflow, tradeoff, or pattern discussed in the archive.
+
+## Prose Style (fact-first, no narration)
+
+Wiki pages are encyclopedic reference, not episode recaps. State the idea, then
+cite the source with a chip. Do NOT narrate who said it or when.
+
+**No inline timestamps.** Never write `at 30:38`, `Around 14:31`, `~22:14`, or
+`(8:13)` in prose. If a specific clip moment truly matters, put the time on the
+podcast chip instead: `[[podcast:<slug>|Label|MM:SS]]`. Default to no timestamp.
+
+**No indirect-speech attribution.** Drop `she says`, `he explains`, `the guest
+argues`, `in her episode`, `podcast guests treat X as`, `the DataTalks.Club
+founder`, and similar scaffolding. Write the fact directly and attach the
+citation as a chip at the end of the statement. Cite the *episode* by default;
+name a `[[person:...]]` only when the attribution itself adds value (a named
+framework, a notable disagreement), not as sentence filler.
+
+Examples:
+
+- Before: `Around 14:31 in [[podcast:freelance-...|Freelance Playbook]],
+  [[person:adrianbrudaru|Adrian Brudaru]] says the warehouse took two weeks but
+  alignment took months.`
+- After: `A warehouse build can take two weeks while aligning stakeholders on
+  what to measure takes months ([[podcast:freelance-...|Freelance Playbook]]).`
+
+- Before: `At 38:24 she turns podcast transcripts into chunks, embeddings, and
+  vectorized context. At 48:09 she brings evaluation and human review back in.`
+- After: `Transcripts are chunked, embedded, and supplied as vectorized context,
+  with evaluation and human review folded back into the loop
+  ([[podcast:<slug>|Modern Search Systems]]).`
+
+Keep every claim grounded (the citation stays); only the timestamps and the
+"who-said-it-when" narration are removed. Do not invent facts to replace them.
