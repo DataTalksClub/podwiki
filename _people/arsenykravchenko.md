@@ -63,8 +63,8 @@ definition of realism versus visual appeal.
 Arseny used edge ML as a system-design problem, not only a model-compression
 problem. That discussion links naturally to
 [ML system design documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}),
-[MLOps architecture]({{ '/guides/mlops-architecture/' | relative_url }}), and
-[batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[MLOps architecture]({{ '/wiki/mlops-architecture/' | relative_url }}), and
+[batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 because serving mode changes what the system has to guarantee.
 
 ## Design Docs Turn Unknowns Into Decisions
@@ -144,7 +144,7 @@ That view matches pages that place ML engineering between modeling, software,
 and operations. Those pages include
 [machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
-[machine learning for software engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
+[machine learning for software engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }}).
 Arseny's contribution is the constraint-driven version. The engineer should
 write down what the system must do and where it will run. They should also
 write down how the system will be measured and which data or runtime

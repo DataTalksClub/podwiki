@@ -53,7 +53,7 @@ around 30:59-32:11, she places Airflow at the scheduling and orchestration
 layer. Airbyte handles extract-load work, while dbt handles warehouse-side SQL
 transformations once the data is present. Her discussion connects orchestration
 to [ETL]({{ '/wiki/etl/' | relative_url }}),
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}),
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}),
 and the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 Albertsson makes the same boundary from the platform side. In his DataOps
@@ -195,7 +195,7 @@ Batch processing is where this model is most explicit. Around 45:11,
 Albertsson distinguishes batch from streaming by the programmer's ability to
 name batches and dependencies directly. That explicit dependency management
 makes batch workflows more forgiving when a team needs reruns, retries, or
-recovery. Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+recovery. Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 for the latency tradeoff. Use orchestration when the main question is how runs
 depend on each other and how the team recovers from missed or failed work.
 
@@ -410,7 +410,7 @@ become part of the problem. Run history belongs in that decision too.
 Local Docker Compose fits that learning path. Use it to run the Airflow web UI,
 scheduler, and metadata database. Add mounted DAG files, logs, and workers when
 a local project needs them. The
-[Airflow Docker Compose how-to]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+[Airflow Docker Compose how-to]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 keeps the local setup workflow separate from this concept page.
 
 Running those pieces locally helps a learner see the scheduler and UI. It also

@@ -36,8 +36,8 @@ use SQL and dbt-style workflows instead of waiting on a platform engineering
 team for every business change
 ([7:57-15:03]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 For role comparisons, her explanation belongs beside
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) and
-[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}).
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}).
 
 ## Raw Layers, Marts, and Trusted Business Tables
 

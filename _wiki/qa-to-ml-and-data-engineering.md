@@ -39,13 +39,13 @@ Choose the target role before choosing a project. QA-to-ML should route toward
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 the
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}),
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }}),
 and the
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 QA-to-data-engineering should route toward
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-the [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}),
+the [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 and
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 Alvaro separates math-heavy ML from tooling-focused data engineering near the
@@ -59,7 +59,7 @@ testing experience visible and proves the new role with concrete work. The
 target-role evidence belongs in
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-[Data Roles]({{ '/guides/data-roles/' | relative_url }}), and
+[Data Roles]({{ '/wiki/data-roles/' | relative_url }}), and
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}).
 
 Alvaro's QA work wasn't a vague "attention to detail" claim. He describes
@@ -112,7 +112,7 @@ This ML route fits QA engineers who already have strong programming or test
 automation experience. Relevant pages are
 [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
 and
-[Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
+[Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }}).
 
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) defines the
 data-engineering route around fundamentals first. In
@@ -130,7 +130,7 @@ Airflow. Clean code, tests, portfolio projects, and technical interview formats
 matter too.
 This version of the transition points toward the
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
+and [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 rather than model research
 ([Jeff's data-engineering job-prep scope at 1:20-9:41]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
 
@@ -224,7 +224,7 @@ fundamentals are strong
 
 This data-engineering route belongs with
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}).
+[Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 
 The production-ML route needs testing and operations beyond a notebook. Wilson
 describes ML work as iterative and executable. His example includes feature
@@ -237,7 +237,7 @@ A QA engineer can use that as a bridge into
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) or
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) work when their portfolio
 proves system ownership rather than only model training. The
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 comparison helps separate those two paths.
 
 ## Portfolio and Public Notes
@@ -263,7 +263,7 @@ Use [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) for
 the cross-role standard and
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 for reproducible training, deployment, monitoring, and rollback criteria. The
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 turns the same evidence into a learning sequence. QA discipline becomes a
 visible ML asset when the project explains what can fail and how the candidate
 checked it.
@@ -316,5 +316,5 @@ the episode context for Android QA and ML/data-engineering courses. The
 candidate should present QA work as evidence of validation and communication.
 They can then present ML or data engineering projects as evidence of the target
 role. Use [Job Search]({{ '/wiki/job-search/' | relative_url }}) for hiring
-context and [Data Roles]({{ '/guides/data-roles/' | relative_url }}) for role
+context and [Data Roles]({{ '/wiki/data-roles/' | relative_url }}) for role
 selection.

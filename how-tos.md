@@ -1,20 +1,19 @@
 ---
 layout: default
 title: How-Tos
-permalink: /how-tos/
+permalink: /how-tos-page/
 ---
 
 # How-Tos
 
-Podcast-backed procedural pages for building, setting up, or operating a
-specific workflow.
+Procedural guides for building, setting up, and operating data and AI systems.
 
-{% assign pages = site.how_tos | sort: "title" %}
-{% if pages.size > 0 %}
-<div class="grid">
-{% for item in pages %}
+{% assign items = site.wiki | where_exp: "item", "item.tags contains 'how-to'" | sort: "title" %}
+{% if items.size > 0 %}
+<div class="list">
+{% for item in items %}
   {% unless item.redirect_to %}
-  <a class="card" href="{{ item.url | relative_url }}">
+  <a class="row" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>

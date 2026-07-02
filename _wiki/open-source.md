@@ -53,7 +53,7 @@ Open source also creates public evidence. A contribution can support
 [data engineering portfolio]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 or [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 For the step-by-step path, use the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 For hiring evidence, use
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 For open-source adoption work, use
@@ -73,7 +73,7 @@ solves a real problem first, then makes the solution reusable. In Warmerdam's
 examples, open source is about
 [contributing]({{ '/wiki/contributing/' | relative_url }}),
 [documentation]({{ '/wiki/documentation/' | relative_url }}), and the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 more than to repository publishing alone.
 
 [Will McGugan]({{ '/people/willmcgugan/' | relative_url }}) gives a similar
@@ -295,7 +295,7 @@ framing, use
 and
 [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 For an ordered learning path, use the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 
 ## Community, Onboarding, and Maintainer Load
 
@@ -503,7 +503,7 @@ These pages cover adjacent contribution, adoption, tool, and company paths.
   [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}),
   and [Community Building]({{ '/wiki/community-building/' | relative_url }}).
 - Contribution and career evidence:
-  [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+  [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
   and
   [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
   [Contributing]({{ '/wiki/contributing/' | relative_url }}),

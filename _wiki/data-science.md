@@ -79,7 +79,7 @@ pipeline knowledge to collaborate with engineers.
 
 ETL, storage, and Spark performance sit closer to data engineering. Schema work
 and platform reliability do too. The dedicated
-[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 page goes deeper into that overlap.
 
 [Data Science Job Red Flags]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
@@ -164,7 +164,7 @@ When the question shifts from doing data science to running models, the topic
 changes. These pages route model operations toward
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and data-flow reliability toward
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 handles that boundary, and
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 goes deeper on architecture choices.

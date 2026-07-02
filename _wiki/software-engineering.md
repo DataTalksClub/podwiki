@@ -168,7 +168,7 @@ practical ways to persist work for downstream use. At 42:48, he links metadata
 and lineage to reproducibility. Artifact logging and tracking also matter.
 
 This is where the
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 boundary matters. DataOps keeps inputs reliable, while MLOps keeps experiments
 and artifacts traceable. It also tracks deployment and monitoring. Software
 engineering ties both sides together through code structure, tests, interfaces,

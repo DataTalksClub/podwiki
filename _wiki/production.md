@@ -78,7 +78,7 @@ He separates batch inference from online serving, then covers orchestration and
 production workflows.
 A nightly scoring job, a real-time API, and a feature pipeline need different
 controls. Production architecture often starts with
-[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[batch vs streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 rather than with a single deployment tool.
 
 [Theofilos Papapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
@@ -222,7 +222,7 @@ roles that production systems depend on.
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
@@ -230,7 +230,7 @@ roles that production systems depend on.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 - [Testing]({{ '/wiki/testing/' | relative_url }})
 - [Caching]({{ '/wiki/caching/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})

@@ -39,7 +39,7 @@ workflow that Victoria describes here.
 ## Warehouse-Side Transformation
 
 dbt belongs most naturally to warehouse-side transformation in the
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) discussion.
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) discussion.
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains that
 move in
 [ETL vs ELT and the Modern Data Stack at 7:57-12:39]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
@@ -198,7 +198,7 @@ See
 [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 for that transition path. Analysts using dbt as the bridge into model ownership
 can also use the
-[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
+[Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 Perafan is more careful about tool identity. At 49:50-55:42 in
 [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
@@ -215,7 +215,7 @@ an alternative and argues for requirements-led tool selection.
 
 dbt is influential, but teams still choose storage layers and catalogs around
 it. They also choose orchestration and observability tools. Use
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the warehouse and lakehouse boundary.
 
 ## dbt Fit

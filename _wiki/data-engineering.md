@@ -77,7 +77,7 @@ dbt-style transformation and contrasts warehouses with lakes
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 3:46-12:39 and 30:59-49:32). Those choices connect directly to
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}),
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}),
 [CDC]({{ '/wiki/cdc/' | relative_url }}), and
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}).
 
@@ -146,9 +146,9 @@ those signals into operating discipline. His DataOps episodes connect data
 engineering to tests, CI/CD, realistic test data, and deployment automation.
 They also connect observability to recovery behavior
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-15:52-18:46 and 30:55-54:05). [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+15:52-18:46 and 30:55-54:05). [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 separates that operating layer from the broader engineering role.
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 covers incidents where a model failure may start with upstream data delivery
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
 18:46-26:13, and
@@ -164,7 +164,7 @@ event-driven work to show where streaming can support growth
 23:26). Production ML examples also use Kafka and cloud queues when models
 depend on live production paths
 ([Production ML Pipelines with AWS and Kafka]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
-15:11). Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+15:11). Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 when the question is latency, ordering, replay, and operational cost.
 
 Albertsson warns about the cost of real-time systems

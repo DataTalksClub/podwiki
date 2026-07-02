@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["roadmap"]
 title: "MLOps Roadmap"
 summary: "A podcast-backed roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
 related:
@@ -480,7 +481,7 @@ observability matter too, along with foundational tools.
 
 Use [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) when the question
 is tool selection, and use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) when
 the boundary is unclear. Use
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 when turning the roadmap into a deliverable.

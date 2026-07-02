@@ -32,9 +32,9 @@ That puts the transition inside
 [data products]({{ '/wiki/data-products/' | relative_url }}), and
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}). For the
 title boundary, use
-[Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+[Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
 and
-[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }}).
+[Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }}).
 
 ## From Design Discovery to Data Product Ownership
 
@@ -130,11 +130,11 @@ One person may wear both hats
 ([Anna Hannemann's role-boundary discussion at 15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
 
 So the transition should focus on responsibilities. Use
-[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+[Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }})
 and
-[Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+[Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
 when the title boundary is the main question.
-[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
+[Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }})
 is the closer comparison when the question is ownership of data products
 inside data teams.
 
@@ -148,7 +148,7 @@ effort
 ([Greg Coquillo's discovery and roadmap discussion at 14:03-51:11]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
 Cost, SMART goals, and operating metrics belong in that same roadmap work. Use
-[Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+[Data Product Manager Roadmap]({{ '/wiki/data-product-manager-roadmap/' | relative_url }})
 for the learning path version.
 Those metrics can include pipeline failures, SLAs, and data quality
 ([Greg Coquillo's operating-metrics discussion at 47:18-55:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
@@ -193,7 +193,7 @@ help engineers build empathy.
 A designer moving into data product management should show that they can turn
 interviews into durable product context, not only mockups. That same evidence
 also helps when mapping the transition against broader
-[data roles]({{ '/guides/data-roles/' | relative_url }}).
+[data roles]({{ '/wiki/data-roles/' | relative_url }}).
 
 ## Add Data Lifecycle and Quality Literacy
 
@@ -288,7 +288,7 @@ references are
 [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}), and
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}). For a product
 analytics-specific portfolio focus, use
-[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}).
+[Product Analyst]({{ '/wiki/product-analyst/' | relative_url }}).
 
 ## Find Sponsorship, Mentorship, and First PM Scope
 
@@ -341,12 +341,12 @@ These pages cover adjacent role, product, and analytics topics.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-- [Data Roles]({{ '/guides/data-roles/' | relative_url }})
-- [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+- [Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})
+- [Data Roles]({{ '/wiki/data-roles/' | relative_url }})
+- [Data Product Manager Roadmap]({{ '/wiki/data-product-manager-roadmap/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
+- [Product Analyst]({{ '/wiki/product-analyst/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
@@ -354,6 +354,6 @@ These pages cover adjacent role, product, and analytics topics.
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-- [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
-- [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
-- [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
+- [Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }})
+- [Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
+- [Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }})

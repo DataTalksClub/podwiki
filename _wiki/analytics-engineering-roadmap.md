@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["roadmap"]
 title: "Analytics Engineering Roadmap"
 summary: "How DataTalks.Club guests describe analytics engineering: SQL modeling, dbt-style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
 related:
@@ -57,10 +58,10 @@ analytics engineers then transform it with SQL and dbt-style workflows
 ([modern stack episode at 7:57-15:30]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
 This ownership model connects the roadmap to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}),
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}),
 [dbt]({{ '/wiki/dbt/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 The specific analyst transition path is
-[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
+[Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 ## Role Boundaries and Tool Choices
 
@@ -294,8 +295,8 @@ and adjacent domains.
 
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
-- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})

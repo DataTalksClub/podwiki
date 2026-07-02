@@ -16,10 +16,10 @@ and podcast-backed content.
 <div class="quick-actions">
   <a class="button" href="{{ '/graph.html' | relative_url }}">Open podcast graph</a>
   <a class="button secondary" href="{{ '/wiki/' | relative_url }}">Read wiki</a>
-  <a class="button secondary" href="{{ '/guides/' | relative_url }}">Browse guides</a>
-  <a class="button secondary" href="{{ '/comparisons/' | relative_url }}">Browse comparisons</a>
-  <a class="button secondary" href="{{ '/roadmaps/' | relative_url }}">Browse roadmaps</a>
-  <a class="button secondary" href="{{ '/how-tos/' | relative_url }}">Browse how-tos</a>
+  <a class="button secondary" href="{{ '/guides-page/' | relative_url }}">Browse guides</a>
+  <a class="button secondary" href="{{ '/comparisons-page/' | relative_url }}">Browse comparisons</a>
+  <a class="button secondary" href="{{ '/roadmaps-page/' | relative_url }}">Browse roadmaps</a>
+  <a class="button secondary" href="{{ '/how-tos-page/' | relative_url }}">Browse how-tos</a>
   <a class="button secondary" href="{{ '/podcasts/' | relative_url }}">Browse summaries</a>
   <a class="button secondary" href="{{ '/books-page/' | relative_url }}">Browse books</a>
   <a class="button secondary" href="{{ '/people/' | relative_url }}">Browse people</a>
@@ -46,7 +46,7 @@ and podcast-backed content.
 
 ## Guides
 
-{% assign guides = site.guides | sort: "title" %}
+{% assign guides = site.wiki  | sort: "title" %}
 {% if guides.size > 0 %}
 <div class="list">
 {% for item in guides limit: 8 %}
@@ -62,7 +62,7 @@ and podcast-backed content.
 
 ## Comparisons
 
-{% assign comparisons = site.comparisons | sort: "title" %}
+{% assign comparisons = site.wiki  | sort: "title" %}
 {% if comparisons.size > 0 %}
 <div class="list">
 {% for item in comparisons limit: 6 %}
@@ -80,7 +80,7 @@ and podcast-backed content.
 
 ## Roadmaps
 
-{% assign roadmaps = site.roadmaps | sort: "title" %}
+{% assign roadmaps = site.wiki  | sort: "title" %}
 {% if roadmaps.size > 0 %}
 <div class="list">
 {% for item in roadmaps limit: 6 %}
@@ -96,7 +96,7 @@ and podcast-backed content.
 
 ## How-Tos
 
-{% assign howtos = site.how_tos | sort: "title" %}
+{% assign howtos = site.wiki  | sort: "title" %}
 {% if howtos.size > 0 %}
 <div class="list">
 {% for item in howtos limit: 6 %}

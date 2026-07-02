@@ -96,8 +96,8 @@ Snowflake, Databricks, and lakehouse designs.
 Joe's Q&A advice fits the same habit because it asks readers to decide what the
 system needs before choosing the stack. For more tradeoffs, use
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}),
-and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }}),
+and [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}).
 
 ## Modeling, Quality, and Platform Practices
 

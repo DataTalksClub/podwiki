@@ -28,9 +28,9 @@ event-driven pipelines.
 
 This topic covers the transform-before-load side of the pipeline. Use
 [ELT]({{ '/wiki/elt/' | relative_url }}) for load-first warehouse modeling and
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the reference
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the reference
 comparison. Use the shorter
-[ETL vs ELT decision guide]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+[ETL vs ELT decision guide]({{ '/wiki/etl-vs-elt/' | relative_url }})
 when the choice is the question. ETL
 also sits close to [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).

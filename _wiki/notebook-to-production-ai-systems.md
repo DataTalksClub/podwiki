@@ -95,7 +95,7 @@ Andreas's pipeline episode links that path to
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [orchestration]({{ '/wiki/orchestration/' | relative_url }}), and
-[batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
+[batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
 His examples use queues, cloud jobs, and Dockerized services. He also compares
 streaming and batch architecture
 ([From Notebooks to Production, 9:47-25:36]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})).

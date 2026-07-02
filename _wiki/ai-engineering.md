@@ -88,13 +88,13 @@ Nasser adds orchestration at 45:50, then discusses latency at 56:10 and
 fine-tuning at 1:01:20
 ([Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }})).
 
-AI engineering is broader than [LLM tools]({{ '/guides/llm-tools/' | relative_url }})
+AI engineering is broader than [LLM tools]({{ '/wiki/llm-tools/' | relative_url }})
 or a framework choice. The engineer has to choose where to put knowledge and
 which model behavior to trust. They also need to look at failures and operate
 the feature after launch. The [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }}) by Paul Iusztin and Maxime Labonne covers the same production stack, from RAG ingestion to LLMOps and deployment. For related production work, see
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}), and
-[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).
+[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}).
 
 Mariano's notebook-to-production discussion adds the product and deployment
 concerns. He moves from product-driven AI at 7:18 to end-to-end ownership at
@@ -105,7 +105,7 @@ modern stack with FastAPI, UV, and Arize
 For those topics, see
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-and [machine learning for software engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
+and [machine learning for software engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }}).
 
 ## Context, RAG, and Knowledge Systems
 
@@ -123,8 +123,8 @@ rather than a hidden implementation detail
 For deeper retrieval and knowledge-system work, start with
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 and [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
-Then compare [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
-and [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}).
+Then compare [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+and [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}).
 Use retrieval when a product needs grounded, changing, or auditable knowledge.
 Then evaluate retrieval and generation together rather than treating the prompt
 as the whole system.
@@ -184,7 +184,7 @@ preprocessing and fine-tuning data to AI work at 18:38
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})).
 For adjacent data work, see [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
-[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }}).
+[How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }}).
 
 Mariano shows the deployment side through end-to-end AI systems. His chapters
 cover ownership at 17:27, requirements at 37:39, and system architecture at
@@ -216,5 +216,5 @@ Use [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 for project sequencing. The
-[AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }})
+[AI Engineer Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
 turns that sequencing into concrete build stages with portfolio milestones.

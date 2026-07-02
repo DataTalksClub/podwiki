@@ -25,7 +25,7 @@ ingestion, chunking, metadata filters, and reranking. It also handles
 citations, permissions, and evaluation. That boundary appears throughout
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 and matters for
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
 entry point in
@@ -93,7 +93,7 @@ specialized vector index. Existing search engines can reduce operational sprawl
 when they already serve production traffic. A dedicated vector database can
 make vector search easier to prototype, scale, or isolate from a legacy search
 stack. That tradeoff belongs with
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 and [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
 
 ## RAG and Context Retrieval
@@ -115,7 +115,7 @@ context, but the application still needs source selection and permissions. It
 also needs citations and
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
-In [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
+In [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}),
 retrieval fits changing facts and source-backed answers while fine-tuning fits
 behavior, style, or task adaptation. Vector databases help with the retrieval
 side of that decision, but they don't choose the model behavior.
@@ -162,9 +162,9 @@ Her 33:43 and 39:56 discussions in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
 show a different retrieval design. She combines LLM grounding with knowledge
 graphs and Cypher-driven retrieval. That makes
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 and
-[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 architecture choices about evidence structure. Some systems need similar text or
 images. Others need entities, paths, report structure, or domain relationships.
 

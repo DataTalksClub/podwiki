@@ -59,9 +59,9 @@ Doug's relevance context is useful here because classical search work doesn't
 disappear when teams adopt embeddings. Mature search systems still own query
 analysis and filters. They also own exact-match behavior, ranking signals, and
 operational debugging. Use
-[Vector Search vs Keyword Search]({{ '/comparisons/vector-search-vs-keyword-search/' | relative_url }})
+[Vector Search vs Keyword Search]({{ '/wiki/vector-search-vs-keyword-search/' | relative_url }})
 for the retrieval-method tradeoff and
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 for the infrastructure boundary.
 
 ## Evaluation Makes Search Defensible
@@ -76,7 +76,7 @@ and RAG products. A search product needs judgments, test cases, and product
 metrics before a team can say whether results improved.
 
 For implementation-oriented follow-up, use
-[RAG Evaluation Workflow]({{ '/how-tos/rag-evaluation-workflow/' | relative_url }})
+[RAG Evaluation Workflow]({{ '/wiki/rag-evaluation-workflow/' | relative_url }})
 for measurement steps. Use
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 and [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})

@@ -135,7 +135,7 @@ architecture. Many production systems fail when the team can't compute the right
 features at prediction time. That concern connects ML system design to
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
+and [batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
 
 Nadia's episode adds a software-engineering warning. At 10:54 and 29:42, she
 names data access, unmet requirements, and deployment failures as common reasons
@@ -289,9 +289,9 @@ These pages expand the system-design decisions above.
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Machine Learning System Design Interview guide]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Machine Learning System Design Interview guide]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})

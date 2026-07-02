@@ -52,7 +52,7 @@ Her architectural move decouples pipelines into smaller units. Each unit
 includes data and metadata, plus computation and sharing APIs. At 13:20, she
 contrasts that with a warehouse or lake full of tables, where producer and
 consumer are tied by a fragile interface. This is why her interview anchors
-[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }}):
+[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }}):
 the difference isn't whether a warehouse exists. It's whether ownership,
 interfaces, and change are arranged around domain-owned products or a central
 team.
@@ -93,10 +93,10 @@ data product owner or data product manager talks with consumers, learns whether
 they need low-latency events or higher-integrity aggregates. The owner then
 decides whether the producer team, a middle team, or the consumer should build
 the next product version. That makes her episode useful for
-[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }}),
-[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }}),
+[Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }}),
+[Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }}),
 and the
-[Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }}).
+[Data Product Manager Roadmap]({{ '/wiki/data-product-manager-roadmap/' | relative_url }}).
 
 ## Platforms Should Hide Undifferentiated Complexity
 

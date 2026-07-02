@@ -31,7 +31,7 @@ software projects and revenue streams, so one bad client or one failed product
 doesn't own the whole business.
 
 For a practical data and AI career path, use
-[Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }}).
+[Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }}).
 For client work, use [Freelance]({{ '/wiki/freelance/' | relative_url }}).
 
 ## Intentional Smallness

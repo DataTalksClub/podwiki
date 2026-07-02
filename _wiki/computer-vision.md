@@ -168,7 +168,7 @@ A CLIP demo can show text-to-image retrieval, but a product search system still
 needs generated vectors and storage. It also needs refresh logic, filtering,
 ranking, and evaluation. That places vision retrieval next to
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
-[knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}),
+[knowledge graph vs vector search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}),
 and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
 ## Career and Project Work

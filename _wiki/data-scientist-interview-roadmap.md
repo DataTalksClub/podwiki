@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["roadmap"]
 title: "Data Scientist Interview Roadmap"
 summary: "A podcast-backed roadmap for data scientist interview preparation: role targeting, CV evidence, recruiter screens, technical rounds, case studies, behavioral stories, and offer readiness."
 related:
@@ -382,5 +383,5 @@ Use these pages for adjacent role, project, and hiring context:
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }})
-- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Data Scientist Interview Prep]({{ '/wiki/data-scientist-interview/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})

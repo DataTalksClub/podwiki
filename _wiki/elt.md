@@ -32,7 +32,7 @@ often. Source detail stays available, and analysts can write new SQL
 transformations. Data engineers don't need to re-extract a source every time a
 new field or question appears. The contrast with transform-before-load work is
 covered in [ETL]({{ '/wiki/etl/' | relative_url }}) and the
-[ETL vs ELT comparison]({{ '/comparisons/etl-vs-elt/' | relative_url }}).
+[ETL vs ELT comparison]({{ '/wiki/etl-vs-elt/' | relative_url }}).
 
 ## Load-First Model
 

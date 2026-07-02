@@ -150,7 +150,7 @@ and data movement. Simon discusses Airflow and pipelines around 31:51 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 He places them inside production workflows, which links ML infrastructure to
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
 Some models need scheduled batch scoring, while others need online inference or
 streaming features.
 

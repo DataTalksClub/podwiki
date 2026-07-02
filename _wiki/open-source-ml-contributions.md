@@ -34,7 +34,7 @@ He moves from useful side projects and scikit-lego design to documentation and
 issues. Then he covers tests, CI, packaging, and polite interaction.
 
 Use the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 for a step-by-step path. Use
 [the portfolio proof page]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 when the same work needs to support hiring or career change.
@@ -268,7 +268,7 @@ Adjacent pages cover the broader system around this contribution topic:
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Portfolio proof from open source]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+- [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})
 - [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})

@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["roadmap"]
 title: "Data Engineering Roadmap"
 summary: "A podcast-backed roadmap for becoming useful as a data engineer: fundamentals, project sequence, platform judgment, role milestones, and when to stop studying and build."
 related:
@@ -32,9 +33,9 @@ for job scope and
 for proof of skill.
 
 If you already work in analytics, use the
-[Data Analyst to Data Engineer Roadmap]({{ '/roadmaps/data-analyst-to-data-engineer/' | relative_url }}).
+[Data Analyst to Data Engineer Roadmap]({{ '/wiki/data-analyst-to-data-engineer/' | relative_url }}).
 If you already work in data science, use the
-[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
+[Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }}).
 Both pages translate existing skills into the data engineering path.
 
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and

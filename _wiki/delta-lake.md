@@ -32,9 +32,9 @@ similar Iceberg support. At 49:42 he compares Delta Lake, Hudi, and Iceberg as
 related table-format options.
 
 For architecture decisions, use
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 beside this page. For the direct format comparison, use
-[Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }}).
+[Delta Lake vs Apache Iceberg]({{ '/wiki/delta-lake-vs-apache-iceberg/' | relative_url }}).
 
 ## Lakehouse Table Layer
 

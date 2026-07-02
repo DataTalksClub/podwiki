@@ -233,7 +233,7 @@ and [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for the
 training-to-handoff layer. Use [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 for production behavior and [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 for the internal product view. Use
-[MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}) when the
+[MLOps Frameworks]({{ '/wiki/mlops-frameworks/' | relative_url }}) when the
 question is how to choose conventions, managed services, open-source stacks, or
 platform templates by failure mode.
 

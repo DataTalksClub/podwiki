@@ -91,7 +91,7 @@ He separates candidate retrieval from ranking at 12:45 and explains embeddings
 at 21:55. At 34:00, he covers hybrid search with filters and recency.
 
 Use
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 when the project compares a standalone vector store with an existing search
 stack. Use
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
@@ -103,7 +103,7 @@ for this baseline work in
 At 40:46, she favors retrieval when knowledge changes too often for repeated
 fine-tuning. At 42:02 and 46:42, she describes document indexing, retrieved
 sections, and summarization for grounding. That boundary belongs with
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
@@ -172,9 +172,9 @@ knowledge graphs with LLM grounding at 33:43. At 38:10, she contrasts text
 chunking and embeddings with graph semantics. At 39:56, she discusses prompt
 templates that use Cypher-style graph queries for retrieval context.
 
-Use [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+Use [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 or
-[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 when questions depend on explicit relationships, provenance paths, entities, or
 domain semantics.
 
@@ -205,4 +205,4 @@ and
 A production-minded LLM project should connect retrieval decisions to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 and the
-[LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }}).
+[LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }}).

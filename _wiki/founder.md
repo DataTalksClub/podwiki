@@ -23,7 +23,7 @@ the business demands it and deciding how the company earns money.
 For the startup cluster, use [Startup]({{ '/wiki/startup/' | relative_url }})
 for the end-to-end playbook and [Startups]({{ '/wiki/startups/' | relative_url }})
 for the cross-episode map. Use
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
 when the founder question is whether ML belongs in the product.
 [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) covers the
 broader choice to build independent work.

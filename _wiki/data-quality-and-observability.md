@@ -259,5 +259,5 @@ Adjacent topics cover the narrower operating disciplines and platform areas:
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})

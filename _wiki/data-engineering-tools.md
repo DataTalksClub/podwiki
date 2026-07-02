@@ -90,7 +90,7 @@ data from sources such as ads APIs into warehouses such as Snowflake. Around
 instead of reloading a whole source each time. That makes CDC useful when
 database changes matter and full reloads are too slow or too expensive.
 
-The [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) choice shapes the
+The [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) choice shapes the
 rest of the stack. ETL transforms before loading, which can fit compliance,
 source constraints, or large enterprise staging needs. Kwong still gives ETL a
 place around 41:30 when enterprise systems need complex staging. ELT loads
@@ -137,7 +137,7 @@ around 6:42. Around 33:47-51:21, he names version control, tests, and CI/CD.
 He also covers runbooks and automation. Later in the same stretch, he discusses
 dbt and Great Expectations alongside SQL tests and end-to-end versioning. Tools
 need a release path and recovery process.
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) covers the
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}) covers the
 practical stack categories behind that operating layer.
 
 ## Warehouses, Lakes, And Lakehouses
@@ -169,7 +169,7 @@ Iceberg.
 Those tools matter when a team wants open storage, multiple compute engines,
 better cost control, or less vendor lock-in. They also add platform complexity,
 so compare them with
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}),
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}),
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}), and
 [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}).
 
@@ -317,9 +317,9 @@ The main tool categories connect to these pages:
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})

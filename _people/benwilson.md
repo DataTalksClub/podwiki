@@ -57,7 +57,7 @@ more testable pieces so another engineer can improve the system later.
 Other pages use his episode as a bridge into
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
 The same maintainability argument supports
-[Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
+[Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }})
 and
 [Data Scientist to Machine Learning Engineer]({{ '/wiki/data-scientist-to-machine-learning-engineer/' | relative_url }}).
 For Ben, production readiness includes code structure, debuggability, and team
@@ -80,7 +80,7 @@ scale the company can't afford.
 For everyday production work, his 44:23 advice is to try SQL or statistics
 first. Rules or conventional models also fit when they solve the business
 problem with less maintenance. That production-cost argument connects directly to
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) and
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 
 ## Business Collaboration and Explainability
@@ -118,7 +118,7 @@ automated tuning, unit tests for feature engineering, and integration tests from
 ingest to prediction. That makes his guidance a practical bridge between
 [testing]({{ '/wiki/testing/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and the
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}).
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }}).
 
 ## Related Production ML Voices
 
@@ -137,4 +137,4 @@ isn't "which model is most advanced?" but "which system can the team explain,
 test, operate, and improve?" It's the same boundary used in
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 and
-[Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
+[Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }}).

@@ -244,12 +244,12 @@ has to move those predictions into a product or operational system.
 These pages cover the role, adjacent responsibilities, and learning paths.
 
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-- [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+- [Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
-- [Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})

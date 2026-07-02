@@ -16,7 +16,7 @@ Victoria Perez Mola was born in Argentina and studied Systems Engineering. She m
 
 ## Analytics Engineering Between Analysts and Engineers
 
-Victoria framed [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}) as the role between [data analysts and analytics engineers]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}) on one side and data engineers on the other. Analysts bring business context and should spend more time analyzing data than cleaning it. Data engineers bring infrastructure and software engineering practices. They may still lack the domain context needed to model business data.
+Victoria framed [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}) as the role between [data analysts and analytics engineers]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}) on one side and data engineers on the other. Analysts bring business context and should spend more time analyzing data than cleaning it. Data engineers bring infrastructure and software engineering practices. They may still lack the domain context needed to model business data.
 
 The analytics engineer connects those sides by turning raw or semi-raw data into reliable tables and views. Victoria said companies added the role because analysts spent too much time on data cleaning. Engineers, meanwhile, focused on infrastructure and [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) ([episode]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 

@@ -117,7 +117,7 @@ relevance evaluation. Daniel covers dense representations, embedding pipelines,
 vector storage, and multimodal retrieval at 11:29-33:13 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
 Use those sections with
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 when deciding where vector retrieval fits. Nearest-neighbor search is only one
 part of a production search system.
 
@@ -155,7 +155,7 @@ retrieved context, and refusal behavior. Formatting and user feedback belong in
 the same review.
 
 The comparison in
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) is
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) is
 an evaluation question. If the failure is missing or stale knowledge, retrieval
 and source preparation are likely the right levers. If the failure is behavior
 or style, the fix may belong in prompting or fine-tuning. Formatting and task
@@ -253,6 +253,6 @@ When the search system returns generated answers, move to
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
 and [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}).
 For infrastructure choices, compare
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 with
-[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}).
+[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}).

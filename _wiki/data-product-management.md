@@ -128,9 +128,9 @@ broader strategy. A domain owner may align data science work across product and
 business areas
 ([15:11-22:08]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
 The dedicated comparisons are
-[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
+[Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }})
 and
-[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }}).
+[Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }}).
 
 ## Centers of Gravity
 
@@ -177,9 +177,9 @@ partnership have to balance adoption and quality. User feedback, governance,
 and stakeholder value matter too
 ([15:19-23:28 and 31:28-37:48]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
 
-The [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+The [Data Product Manager Roadmap]({{ '/wiki/data-product-manager-roadmap/' | relative_url }})
 uses these responsibilities as a learning path, while the
-[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+[Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})
 guide focuses on the role. It covers discovery, metrics, technical literacy,
 and roadmaps. It also covers adoption and portfolio evidence.
 

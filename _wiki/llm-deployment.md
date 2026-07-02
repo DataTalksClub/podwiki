@@ -28,7 +28,7 @@ performance reasons.
 This topic connects to
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}),
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and the [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+and the [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 comparison.
 
 ## Open-Source vs API Models
@@ -145,6 +145,6 @@ though a human in the loop remains essential for production systems.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
 - [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})

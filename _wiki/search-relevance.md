@@ -96,9 +96,9 @@ discusses vector similarity alongside filters and recency. He also covers
 metadata and query-time weights
 ([Building Production Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})).
 Use
-[Vector Search vs Keyword Search]({{ '/comparisons/vector-search-vs-keyword-search/' | relative_url }})
+[Vector Search vs Keyword Search]({{ '/wiki/vector-search-vs-keyword-search/' | relative_url }})
 for the retrieval-method boundary and
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 for the storage and serving boundary.
 
 ## Filters, Freshness, And Business Rules

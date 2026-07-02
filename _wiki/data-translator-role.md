@@ -97,7 +97,7 @@ report downloads or process friction can also turn into an MVP
 
 That discovery style sits near [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 Both roles start from user problems and business workflows, but their scope
-differs. A [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
+differs. A [data product manager]({{ '/wiki/data-product-manager/' | relative_url }})
 usually owns roadmap tradeoffs, product lifecycle, and adoption metrics for a
 data capability. A data translator may discover the mismatch, frame the value,
 explain constraints, and help the right owner move the work forward

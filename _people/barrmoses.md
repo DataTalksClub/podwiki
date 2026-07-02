@@ -68,7 +68,7 @@ Around 21:57, she names this the "good pipelines, bad data" problem. A healthy
 orchestrator run still needs
 [testing]({{ '/wiki/testing/' | relative_url }}), data quality checks, and
 runtime observability. The practical checklist version appears in
-[DataOps Checks for Data Pipelines]({{ '/how-tos/dataops-checks-for-data-pipelines/' | relative_url }}).
+[DataOps Checks for Data Pipelines]({{ '/wiki/dataops-checks-for-data-pipelines/' | relative_url }}).
 
 ## Monitoring, Diagnosis, and Lineage
 
@@ -86,7 +86,7 @@ dashboards, models, and reports need notice. Around 26:04 and 58:51, she returns
 to the same idea for root cause analysis and upstream or downstream impact.
 
 That makes her episode a useful companion to
-[Model Monitoring vs Data Observability]({{ '/comparisons/model-monitoring-vs-data-observability/' | relative_url }}).
+[Model Monitoring vs Data Observability]({{ '/wiki/model-monitoring-vs-data-observability/' | relative_url }}).
 When a model behaves badly, the model owner may see the symptom. Lineage may
 then show that the cause started in an upstream dataset, feature table, or
 schema change.
@@ -127,7 +127,7 @@ expectations. Those checks help, but teams still need monitoring and
 observability for changes they didn't know to encode as tests. That boundary
 connects her episode to [dbt]({{ '/wiki/dbt/' | relative_url }}) and the
 practical guide
-[Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }}).
+[Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }}).
 
 Her platform advice is similarly pragmatic. Around 47:00, she argues that a
 strong observability solution needs end-to-end visibility across warehouses and

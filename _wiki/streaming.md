@@ -23,7 +23,7 @@ search ranking.
 The episodes treat streaming as a design choice inside
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), not as the
 default architecture. Streaming sits beside
-[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[batch vs streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also sits beside
 schema ownership, [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [search]({{ '/wiki/search/' | relative_url }}) when a delayed result loses
@@ -141,7 +141,7 @@ The streaming decision starts with the action that consumes the result. Fraud
 blocking and operational alerts can justify low latency. Online features, search
 freshness, and traffic response can justify it too. Reports, backfills,
 training-set construction, and many warehouse models often fit batch. The
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 page covers that broader tradeoff.
 
 ## Stream Engines and IoT Research

@@ -208,7 +208,7 @@ model artifacts and serving paths. It also supports monitoring and retraining
 decisions
 ([MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}),
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})).
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})).
 
 The boundary with DevOps or SRE is model-specific uncertainty because MLOps
 borrows Git, CI/CD, containers, and observability while incident response and
@@ -217,7 +217,7 @@ deployment discipline still apply.
 It then adds training-data references, feature freshness, and model versions.
 Offline versus online metrics matter too, as do drift, delayed labels, and
 retraining decisions.
-[MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }}) explains
+[MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}) explains
 this boundary, while
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
 [MLOps Architect Guide at 27:35]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
@@ -345,7 +345,7 @@ These pages cover the role's adjacent practices and boundaries:
   discipline.
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) gives a staged
   learning sequence.
-- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
   maps the system design.
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) covers stack
   categories.
@@ -355,8 +355,8 @@ These pages cover the role's adjacent practices and boundaries:
   [Model Registry]({{ '/wiki/model-registry/' | relative_url }}), and
   [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
   cover core MLOps components.
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
-  [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }}) define
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) and
+  [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}) define
   nearby boundaries.
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
   and [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})

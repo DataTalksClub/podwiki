@@ -54,7 +54,7 @@ quality expectations and consumer needs
 ([From IoT Data Engineering to Data Architecture - lakehouse layers and quality
 29:56-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 That lakehouse work belongs next to the
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 comparison.
 
 [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) extends the

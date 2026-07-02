@@ -54,7 +54,7 @@ It can still fail if the path from source data to user value is brittle.
 Use Bergh's DataOps view with
 [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) and the
 practical tool categories in
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}). The operating
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}). The operating
 layer matters when it makes changes reviewable and testable. It also needs to
 make those changes observable and recoverable.
 

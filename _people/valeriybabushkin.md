@@ -39,7 +39,7 @@ he says large tech companies use this round for machine learning engineers.
 Interviewers want to see full-system reasoning.
 
 Use his episode with the
-[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+[Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})
 guide for ML-heavy roles. The
 [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 uses the same distinction.
@@ -51,7 +51,7 @@ change the whole design. Around 29:09, he recommends sketching a baseline first.
 
 Then the candidate can iterate deeper if the interviewer wants more detail. The
 same answer style supports the broader
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}),
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }}),
 where production reasoning matters more as a candidate moves beyond junior work.
 
 ## Fraud Detection, Metrics, and A/B Testing
@@ -71,7 +71,7 @@ afterthought.
 The discussion feeds the
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 page and the
-[Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
+[Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }})
 guide.
 
 Valerii repeatedly brings the design back to product validation. At 24:28, he
@@ -175,8 +175,8 @@ the integration and growth part of the design.
 A team may need a weaker model, a few rules, or even a constant placeholder when
 the preferred model or data path fails. Use these episodes beside
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
-[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}), and
-[Model Monitoring vs Data Observability]({{ '/comparisons/model-monitoring-vs-data-observability/' | relative_url }}).
+[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}), and
+[Model Monitoring vs Data Observability]({{ '/wiki/model-monitoring-vs-data-observability/' | relative_url }}).
 
 ## Related Pages
 
@@ -186,7 +186,7 @@ These pages expand the main threads from Valerii's two DataTalks.Club episodes.
 - [ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})

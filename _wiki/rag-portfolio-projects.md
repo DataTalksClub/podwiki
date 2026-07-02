@@ -45,7 +45,7 @@ and the
 Use
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 and the
-[LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }})
+[LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }})
 when the project needs evaluation, deployment, and operations evidence.
 
 ## Reviewable RAG Project
@@ -122,7 +122,7 @@ depends on model drift, latency, and cost. Privacy and hosting choices matter
 too.
 
 RAG portfolio work should therefore cover
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
@@ -133,7 +133,7 @@ she argues at 33:43-42:42 that relationship-heavy domains can need
 knowledge-graph retrieval and Cypher queries. They can also need graph
 semantics in addition to nearest-neighbor text chunks. That's the project
 boundary covered by
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}).
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}).
 
 ## Source-Cited Knowledge Assistant
 
@@ -256,7 +256,7 @@ Anahita adds paper parsing and graph visualization. She also covers PageRank
 and references.
 
 A strong
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 portfolio project can test both retrieval paths against the same questions. It
 can show text similarity for passages. It can show graph traversal for
 relationships.
@@ -304,9 +304,9 @@ embedding and model versions it uses, and how latency and cost would be
 handled. Name privacy limits and hosted API risks too. These constraints connect
 the project to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}),
 and the
-[LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }}).
+[LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }}).
 
 Ranjitha's RAG reality check at 29:30-37:39 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
@@ -323,11 +323,11 @@ These pages cover the concepts and project standards around RAG portfolio work.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) for retrieval architecture and knowledge-system tradeoffs.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, traces, and failure analysis.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for deployment, latency, cost, observability, and model-risk context.
-- [LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }}) for a build sequence from bounded workflows to production controls.
-- [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}) for explaining retrieval, evaluation, and production tradeoffs in interviews.
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
+- [LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }}) for a build sequence from bounded workflows to production controls.
+- [LLM System Design Interview]({{ '/wiki/llm-system-design-interview/' | relative_url }}) for explaining retrieval, evaluation, and production tradeoffs in interviews.
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) for retrieval infrastructure choices.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for projects where retrieval becomes one tool inside a multi-step system.
-- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
+- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for the broader project-evidence standard.
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and [Job Search]({{ '/wiki/job-search/' | relative_url }}) for turning the project into hiring evidence.

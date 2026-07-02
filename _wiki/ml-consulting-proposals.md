@@ -368,9 +368,9 @@ Sell a smaller next step:
 - prototype feasibility study
 
 The
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
 guide expands the startup version of this rule.
-[Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }})
+[Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }})
 uses Diachuk's episode to show how solo data work starts with small evidence
 and stakeholder alignment before larger ML commitments.
 
@@ -384,5 +384,5 @@ These pages cover adjacent service, product, metric, and startup decisions.
 - [Startup]({{ '/wiki/startup/' | relative_url }})
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
 - [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }})
-- [Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
-- [Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }})
+- [Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
+- [Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }})

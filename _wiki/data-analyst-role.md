@@ -170,9 +170,9 @@ Victoria's episode connects analytics engineering to data modeling, pipelines,
 and data quality. She also links the role to Looker, `dbt`, and version
 control. Tests and DAGs also appear around 4:05-6:49.
 
-[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 defines the adjacent boundary. The
-[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+[Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 covers the transition when analysts want to own reusable models.
 
 The boundary with the
@@ -200,8 +200,8 @@ explain experiment outcomes and tradeoffs. The role therefore overlaps strongly 
 These pages connect the analyst role to adjacent skills and career paths.
 
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
-- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})

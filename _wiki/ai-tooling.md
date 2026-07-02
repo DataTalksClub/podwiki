@@ -21,7 +21,7 @@ includes actions, tests, traces, and production ownership.
 
 For the whole role, use the
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). Use
-[LLM Tools]({{ '/guides/llm-tools/' | relative_url }}) for practical stack
+[LLM Tools]({{ '/wiki/llm-tools/' | relative_url }}) for practical stack
 selection around model APIs, RAG, and evaluation. It also covers agents,
 observability, and cost.
 Use
@@ -142,7 +142,7 @@ specialized behavior, domain adaptation, or tone. At 42:02-48:01 she covers
 grounding answers with indexed documents and retrieval-augmented responses. She
 also covers embeddings and vector databases. That distinction is the same
 decision boundary covered in
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
 
 Hugo turns RAG tooling into an iteration cycle in

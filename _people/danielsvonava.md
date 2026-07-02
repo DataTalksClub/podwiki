@@ -42,7 +42,7 @@ query or product objective. That split is why search quality work has to debug
 recall and ranking separately.
 
 It also explains why
-[Vector Search vs Keyword Search]({{ '/comparisons/vector-search-vs-keyword-search/' | relative_url }})
+[Vector Search vs Keyword Search]({{ '/wiki/vector-search-vs-keyword-search/' | relative_url }})
 is a matching-method question, while the full system still needs ranking,
 latency work, and evaluation.
 
@@ -89,7 +89,7 @@ low-latency query paths, and consistency across the vector space.
 
 That boundary is useful when comparing a dedicated vector database with a
 broader search engine in
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
 
 At 45:11, Daniel adds a design principle for complex objectives. Normalize
 components during indexing, then postpone signal weights until query time when
@@ -115,7 +115,7 @@ and ranking faster while still checking the business result. That thread also
 supports the build sequence in
 [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
 and the production path in
-[LLM RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }}).
+[LLM RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }}).
 
 ## Related Search Practitioners
 

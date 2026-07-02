@@ -31,7 +31,7 @@ operating role, see [founder]({{ '/wiki/founder/' | relative_url }}). For the
 broader choice to build independent work, see
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}). For a
 startup-specific ML implementation view, see
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }}).
+[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }}).
 
 ## Start With the Problem
 
@@ -271,5 +271,5 @@ cover service paths that reveal startup ideas.
 and [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }}) cover product
 strategy and data feasibility. [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}), and
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
 cover startup ML systems and implementation tradeoffs.

@@ -22,7 +22,7 @@ storage and compute from access, metadata, and lineage in the same discussion
 18:17-23:41).
 
 Apache Iceberg belongs in the
-[data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 conversation. Use [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the
 broader storage concept. Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
 for the adjacent table format and
@@ -42,7 +42,7 @@ Lineage and catalogs matter too
 18:17-23:41).
 
 Iceberg fits the
-[lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 idea when teams need table behavior on lake storage instead of a single
 vendor-owned surface. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 describes the lakehouse as warehouse features layered onto a data lake after
@@ -143,7 +143,7 @@ Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the adjacent
 topic node, but keep the comparison tied to the requirement. Ask which table
 format best supports the engines, catalog, governance, and cost model the team
 actually needs. For the dedicated comparison, use
-[Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }}).
+[Delta Lake vs Apache Iceberg]({{ '/wiki/delta-lake-vs-apache-iceberg/' | relative_url }}).
 
 ## DLT, DuckDB, and Headless Tables
 
@@ -219,7 +219,7 @@ same split
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41).
 
-That puts Iceberg beside [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}).
+That puts Iceberg beside [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}).
 It also belongs beside [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) rather
 than above them.
@@ -234,14 +234,14 @@ remove the platform work around the table.
 
 Continue with these adjacent topics:
 
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
-- [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
+- [Delta Lake vs Apache Iceberg]({{ '/wiki/delta-lake-vs-apache-iceberg/' | relative_url }})
 - [DuckDB]({{ '/wiki/duckdb/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

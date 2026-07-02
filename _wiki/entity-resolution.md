@@ -172,7 +172,7 @@ implementation. She also describes a Python interface plus integrations with
 Databricks notebooks and dbt. Those choices put entity resolution inside
 existing data pipelines rather than beside them as a separate manual cleanup
 project. That makes it a practical fit for
-[how to build data pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+[how to build data pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 when identity work becomes part of production pipeline design.
 
 ## Open Source Product Strategy
@@ -253,4 +253,4 @@ These pages cover the adjacent stack, governance, and product questions.
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}) cover the warehouses, pipelines, and integrations that entity-resolution tools plug into.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) covers reliability questions around identity errors, while [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) covers ownership.
 - [Open Source]({{ '/wiki/open-source/' | relative_url }}), [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}), and [Startups]({{ '/wiki/startups/' | relative_url }}) cover the product and distribution side of Zingg's open-source route.
-- [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }}) and [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }}) cover adjacent implementation and reliability work.
+- [How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }}) and [Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }}) cover adjacent implementation and reliability work.

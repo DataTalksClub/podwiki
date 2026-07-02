@@ -35,7 +35,7 @@ Software engineering becomes ML system building in
 [software-to-ML episode]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
 Data science becomes data engineering when the person turns analysis cleanup
 and modeling-adjacent data work into shared pipelines
-([Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})).
+([Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }})).
 
 QA becomes testing and project discipline in
 [Alvaro Navas Peire's]({{ '/people/alvaronavaspeire/' | relative_url }})
@@ -241,7 +241,7 @@ role-specific interview preparation matter as well
 1:15-13:32 and 47:39-56:11). These routes connect to
 [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
-[MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }}).
+[MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}).
 
 Academic transitions require the same translation but often start with stronger
 statistics and domain-data evidence.
@@ -285,7 +285,7 @@ ingestion and storage. It also includes modeling and serving, with a useful
 personal or analytical consumer.
 
 For data scientists moving into that work, the
-[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})
+[Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }})
 turns notebook cleanup and feature work into a pipeline portfolio path.
 
 [Merve Noyan's]({{ '/people/mervenoyan/' | relative_url }}) Hugging Face
@@ -458,7 +458,7 @@ Candidates then need target-role proof:
 For named source-to-target moves, start from the transition that matches the
 candidate's previous identity:
 
-- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
 - [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})

@@ -83,7 +83,7 @@ failures and production constraints at 7:08. He returns to pragmatic confidence
 checks at 1:02:28.
 
 Those checks aren't a full observability system. They still show the same
-principle behind [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+principle behind [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 and [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}). Production
 data work needs signals beyond "the job finished."
 
@@ -106,7 +106,7 @@ shows how profiles can summarize behavior over time. His 55:50 comparison of
 WhyLogs and WhyLabs separates open-source profiling from managed observability.
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) covers that tooling
 layer, while pipeline checks live closer to
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}).
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}).
 
 ## Lineage and Diagnosis
 

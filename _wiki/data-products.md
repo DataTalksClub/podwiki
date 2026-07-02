@@ -124,7 +124,7 @@ governance in the same platform layer
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-This is also where [data mesh vs centralized data platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+This is also where [data mesh vs centralized data platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
 becomes a real design question. A centralized platform can provide storage,
 lineage, access control, and workflow tooling. Data Mesh asks domain teams to
 own the product meaning and consumer commitments while the platform removes
@@ -144,7 +144,7 @@ products. She also includes Slack help, pairing, and knowledge bases
 (49:37-56:08 in
 [How to Transition from Design to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
 Product ownership also links data products to the
-[data product manager]({{ '/guides/data-product-manager/' | relative_url }})
+[data product manager]({{ '/wiki/data-product-manager/' | relative_url }})
 role.
 
 Hannemann adds a useful distinction for ML-heavy data products. A product owner
@@ -241,10 +241,10 @@ These pages cover the main adjacent topics:
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})

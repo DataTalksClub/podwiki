@@ -155,7 +155,7 @@ That stack view links directly to these graph nodes:
 
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [ETL]({{ '/wiki/etl/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
@@ -258,7 +258,7 @@ See also:
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})
+- [LLM Tools]({{ '/wiki/llm-tools/' | relative_url }})
 
 ## Open Source and Developer Experience
 
@@ -348,7 +348,7 @@ These pages cover the main neighboring graph nodes for tool choices:
 
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+- [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})

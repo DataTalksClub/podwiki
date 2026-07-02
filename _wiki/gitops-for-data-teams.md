@@ -141,7 +141,7 @@ teams don't rebuild the same delivery machinery
 ([Pragmatic and Standardized MLOps at 12:42 and 29:55-33:24]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
 
 The same operating model appears in
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}).
 Both disciplines use automation, review, and standard paths to make production
 work less fragile.
 

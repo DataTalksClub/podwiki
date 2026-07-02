@@ -218,7 +218,7 @@ has to explain the choices
 ([side projects and hiring signals at 48:48-57:39]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
 Project planning links naturally to the
 [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
-[AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }}),
+[AI Engineer Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 and [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 

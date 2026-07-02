@@ -149,7 +149,7 @@ Hugo gives the product-building version in
 At 44:26, he frames RAG as a quick path to business wins. At 48:20, he compares
 chunking strategies such as fixed length and sliding windows. At 50:19, he
 draws the boundary between RAG and agent tool calls. Use
-[RAG vs fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for that
+[RAG vs fine-tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for that
 tradeoff in more detail.
 
 ## Production Engineering
@@ -235,7 +235,7 @@ Bartosz discusses coding assistants in
 At 42:05 and 44:38, he compares Cursor, GitHub Copilot, and alternatives. At
 47:19, he discusses search-focused assistants and tool selection.
 
-These examples belong with [LLM tools]({{ '/guides/llm-tools/' | relative_url }}).
+These examples belong with [LLM tools]({{ '/wiki/llm-tools/' | relative_url }}).
 The choice is often less about the model and more about where the tool fits in
 the developer's work.
 
@@ -260,7 +260,7 @@ often.
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})

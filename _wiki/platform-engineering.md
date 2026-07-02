@@ -185,12 +185,12 @@ The data-platform version appears in
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 Use
-[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
 when the platform question is whether domain teams or a shared platform own the
 data-product path.
 The ML version appears in [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}), and
-[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).
+[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}).
 The shared platform decision is whether a repeated path is mature enough to
 turn into a supported product.
 
@@ -272,6 +272,6 @@ These pages cover the adjacent platform and operations topics.
   covers the data-platform version of supported autonomy.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   covers platform work for data pipelines and shared data products.
-- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
   covers the architecture decisions that connect MLOps tools to platform
   ownership.

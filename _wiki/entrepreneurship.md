@@ -39,7 +39,7 @@ Around 7:23, she warns technical founders not to begin with "I want to build a
 machine learning startup." The starting point should be a painful workflow. Her
 grocery example shows why. The apparent forecasting problem may be an
 inventory-data problem. The
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
 guide expands that startup-specific version of the same rule.
 
 [Noah Gift]({{ '/people/noahgift/' | relative_url }}) gives a different path in
@@ -252,5 +252,5 @@ open-source paths.
   licensing, community, and adoption.
 - [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
   for the service-to-product transition.
-- [Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+- [Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
   for startup-specific ML problem selection and implementation.

@@ -31,7 +31,7 @@ for architecture, serving modes, fallbacks, and design documents. When models
 already need release or ownership paths, use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). Use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) when
 the operations boundary matters.
 
 Use [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})

@@ -39,7 +39,7 @@ Use
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
 for role-specific project selection. Use
 [Open Source]({{ '/wiki/open-source/' | relative_url }}) and the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 
 ## Reviewable Public Work
 
@@ -376,7 +376,7 @@ link won't help. Review comments and failure modes need the same clarity.
 Adjacent role, contribution, and portfolio topics:
 
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
-- [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+- [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})

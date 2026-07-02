@@ -56,7 +56,7 @@ real gap is team development or business translation
 ([30:37-34:04]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
 For a broader role map, use [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
-and [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
+and [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
 ## Hiring for the Team's Stage
 
@@ -81,7 +81,7 @@ career frameworks
 
 These role boundaries are close to
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-and [Product Analyst vs Data Analyst]({{ '/comparisons/product-analyst-vs-data-analyst/' | relative_url }}).
+and [Product Analyst vs Data Analyst]({{ '/wiki/product-analyst-vs-data-analyst/' | relative_url }}).
 Managers use them when deciding whether the next hire should analyze or model.
 They may instead need someone to engineer data assets or support product
 decisions.
@@ -97,7 +97,7 @@ Managers should therefore write job descriptions around problems, ownership,
 and success criteria rather than a long list of tools. See
 [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}),
 [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), and
-[Data Science Recruiter]({{ '/guides/data-science-recruiter/' | relative_url }})
+[Data Science Recruiter]({{ '/wiki/data-science-recruiter/' | relative_url }})
 for adjacent hiring detail.
 
 ## Scoping Work Before Modeling
@@ -126,7 +126,7 @@ subject-matter input and maintainable solutions before the team chooses complex
 methods
 ([21:39-32:03 and 44:23-55:41]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 Those habits link manager scoping to
-[Machine Learning for Business]({{ '/guides/machine-learning-for-business/' | relative_url }}),
+[Machine Learning for Business]({{ '/wiki/machine-learning-for-business/' | relative_url }}),
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 and [Data Product Intake and Prioritization]({{ '/wiki/data-product-intake-and-prioritization/' | relative_url }}).
 

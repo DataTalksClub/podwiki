@@ -155,7 +155,7 @@ At 33:25 he covers sequential thinking servers and scratchpads.
 
 Those discussions connect this topic to
 [Tools]({{ '/wiki/tools/' | relative_url }}) and
-[LLM Tools]({{ '/guides/llm-tools/' | relative_url }}). A tool's existence
+[LLM Tools]({{ '/wiki/llm-tools/' | relative_url }}). A tool's existence
 isn't enough. Teams also need to know whether the tool is safe for the agent to
 call without human review. They need traceable results and a known workflow
 state after a failed call.
@@ -240,7 +240,7 @@ Agent work usually crosses these neighboring topics:
 
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for implementation practice around tool design, retrieval, tests, and deployment.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for model choice, serving, cost, latency, guardrails, and production constraints.
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for grounding and knowledge-update choices before adding agent behavior.
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for grounding and knowledge-update choices before adding agent behavior.
 - [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) for manager agents, parallel collaboration, and older multi-agent design ideas.
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) for testing prompt injection, retrieval abuse, and action risks.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, evaluator loops, traces, and regression checks.

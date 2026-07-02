@@ -92,7 +92,7 @@ discussion asks when decentralization creates governance risks and
 reproducibility risks
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 57:46-1:04:18). Use
-[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
 for that ownership comparison.
 
 Teams also need to decide how much infrastructure to buy or build.
@@ -155,7 +155,7 @@ updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
 metadata, and lineage. Headless table formats are part of the same update
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-30:31 and 49:42). Use
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 and [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) for those
 storage patterns.
 
@@ -198,7 +198,7 @@ governance are part of the same interface
 A centralized platform can publish those guarantees. A Data Mesh
 approach asks domains to own them on top of shared platform
 capabilities
-([Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})).
+([Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})).
 
 [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) provides the
 adoption test for data products. A platform output isn't finished when a table
@@ -269,7 +269,7 @@ Kafka, and he also names SQS with Flink for specific requirements
 explicitly warns against the real-time myth and against over-engineered modern
 data stacks
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
-30:56-38:01). Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+30:56-38:01). Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 and [Streaming]({{ '/wiki/streaming/' | relative_url }}) when latency is the
 main design question.
 
@@ -333,6 +333,6 @@ Use these pages for adjacent platform, governance, and delivery topics.
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})

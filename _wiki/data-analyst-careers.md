@@ -41,9 +41,9 @@ In
 analysis. They also use it for product analytics or light data science.
 Candidates need to read the responsibilities, not only the title. Those role
 boundaries explain why
-[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 and
-[Product Analyst vs Data Analyst]({{ '/comparisons/product-analyst-vs-data-analyst/' | relative_url }})
+[Product Analyst vs Data Analyst]({{ '/wiki/product-analyst-vs-data-analyst/' | relative_url }})
 matter for analyst careers.
 
 ## Entry Routes
@@ -137,7 +137,7 @@ collection, storage, and analysis. He then connects analysis to activation.
 Around 46:13, Arpit separates analysts from data engineers and analytics
 engineers from product operations. Analyst skills therefore connect directly to
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and the
-[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article.
+[Product Analyst]({{ '/wiki/product-analyst/' | relative_url }}) article.
 
 Statistics and experimentation become important when the analyst supports
 launches and growth decisions. Rishabh discusses A/B testing, shadow mode,

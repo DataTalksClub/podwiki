@@ -134,7 +134,7 @@ In a smaller company, a VP or head of data may own a broader context. A titled
 CDO elsewhere may own less
 ([multiple VPs and reporting lines, 24:55-27:01]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
 The useful distinction is scope, not title. The
-[data roles guide]({{ '/guides/data-roles/' | relative_url }}) places that
+[data roles guide]({{ '/wiki/data-roles/' | relative_url }}) places that
 distinction next to analyst, engineer, and scientist roles. It also covers team
 lead, head of data, and VP of Data.
 
@@ -251,7 +251,7 @@ The CDO role connects [leadership]({{ '/wiki/leadership/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}). Readers
 comparing role levels can use the
 [data team lead role]({{ '/wiki/data-team-lead-role/' | relative_url }}) and
-[data roles guide]({{ '/guides/data-roles/' | relative_url }}). CDOs rely on
+[data roles guide]({{ '/wiki/data-roles/' | relative_url }}). CDOs rely on
 [data teams]({{ '/wiki/data-teams/' | relative_url }}),
 [team building]({{ '/wiki/team-building/' | relative_url }}), and
 [communication]({{ '/wiki/communication/' | relative_url }}) to turn executive

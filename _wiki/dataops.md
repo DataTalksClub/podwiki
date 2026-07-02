@@ -33,8 +33,8 @@ DataOps operates upstream datasets, transformations, and feature pipelines. The
 boundary matters most when a model incident may have started in data delivery.
 
 See
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) and
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 when the boundary question is ownership, not tool choice.
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives a
@@ -130,7 +130,7 @@ self-service conventions, while an infrastructure-heavy team may need GitOps
 for data access and environments. Across all three versions, teams still check
 whether data changes can be reviewed and tested, then observed and recovered.
 For stack choices behind those entry points, see
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) and
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}) and
 [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}).
 
 ## Pipeline Delivery and CI/CD
@@ -193,7 +193,7 @@ For the monitoring layer, see
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
 For the tooling layer across checks, alerts, and runbooks, see
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}).
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}).
 
 ## Platform and Self-Service
 
@@ -223,7 +223,7 @@ domain teams.
 
 ## DataOps vs Data Engineering
 
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 covers the full boundary. Data engineering builds the data path, and DataOps
 makes changes to that path safer to review and run. It also makes those
 changes easier to observe and recover.
@@ -272,14 +272,14 @@ DataOps responders investigate data delivery. MLOps responders investigate the
 model lifecycle.
 
 The ownership version of that production ML boundary belongs in
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}).
 
 ## Related Pages
 
 Adjacent practices, platform topics, and comparison boundaries:
 
 - [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
-- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+- [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
@@ -288,5 +288,5 @@ Adjacent practices, platform topics, and comparison boundaries:
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})

@@ -45,7 +45,7 @@ At 13:56, she ties data science to data cleaning and feature engineering. She
 also covers model cycles and deployment awareness. Her framing keeps data
 science connected to upstream pipelines and downstream use. Data scientists
 therefore work near
-[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 Product-facing episodes define the role through decisions rather than only
@@ -246,14 +246,14 @@ Continue with adjacent roles, career paths, and project patterns:
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
-- [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Communication]({{ '/wiki/communication/' | relative_url }})
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
-- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Data Scientist Guide]({{ '/guides/data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist comparison]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Scientist Interview Prep]({{ '/wiki/data-scientist-interview/' | relative_url }})
+- [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }})

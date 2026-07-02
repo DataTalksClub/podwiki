@@ -91,7 +91,7 @@ deployment. Approval flows and governance processes matter too
 
 Those positions aren't contradictory because ownership pays off only when the
 constraint is real. A startup may lack the people to operate a cluster, so
-[Lean MLOps for Startups]({{ '/roadmaps/lean-mlops-for-startups/' | relative_url }})
+[Lean MLOps for Startups]({{ '/wiki/lean-mlops-for-startups/' | relative_url }})
 leans toward SaaS-first choices. A bank may already have platform teams and
 firewall processes. It may also have regulated release paths.
 
@@ -250,7 +250,7 @@ its data, a leak can destroy the company
 ([Lean MLOps for Startups, 40:01-41:27]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})).
 
 Read this with [Startups]({{ '/wiki/startups/' | relative_url }}) and
-[Lean MLOps for Startups]({{ '/roadmaps/lean-mlops-for-startups/' | relative_url }}).
+[Lean MLOps for Startups]({{ '/wiki/lean-mlops-for-startups/' | relative_url }}).
 
 ## Enterprise and Regulated Constraints
 

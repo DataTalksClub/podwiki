@@ -308,7 +308,7 @@ manager, senior IC, coaching, and stakeholder side of team building.
 
 For platform-heavy teams, use [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and the
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 comparison. For the enablement surface, use
 [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}),
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),

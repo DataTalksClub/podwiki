@@ -61,7 +61,7 @@ with
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 Use
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 when separating the role from the operating practices a team applies to
 pipelines.
 
@@ -113,7 +113,7 @@ signals. That version of the role is close to
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 For data scientists, the transition version of this entry path is the
-[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
+[Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }}).
 It uses Ellen König's data-science-to-data-engineering episode to connect
 feature work and data intuition to the role. It also connects collaborative
 coding, CI/CD, and pipeline projects to the role.
@@ -218,7 +218,7 @@ title split. Data engineers build and maintain pipelines, datasets,
 orchestration, and platforms. DataOps names the review and testing practices
 teams use to operate that work reliably. It also covers deployment,
 observability, and recovery. The full comparison lives in
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}).
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }}).
 
 The boundary with a
 [data scientist]({{ '/wiki/data-scientist-role/' | relative_url }}) is about
@@ -231,7 +231,7 @@ In
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
 Roksolana keeps ETL and storage on the engineering side at 4:26. At 6:38, she
 adds Spark performance to the same side
-([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
+([Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
 
 The boundary with
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
@@ -272,9 +272,9 @@ and role boundaries.
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 - [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})
 - [Fundamentals of Data Engineering]({{ '/books/20220815-fundamentals-of-data-engineering/' | relative_url }})

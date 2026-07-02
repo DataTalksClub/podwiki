@@ -1,18 +1,17 @@
 ---
 layout: default
 title: Guides
-permalink: /guides/
+permalink: /guides-page/
 ---
 
 # Guides
 
-Practical, podcast-backed pages for editorial questions that need synthesis
-rather than a dictionary-style topic page.
+Practical, keyword-driven guides grounded in DataTalks.Club podcast episodes.
 
-{% assign pages = site.guides | sort: "title" %}
-{% if pages.size > 0 %}
+{% assign items = site.wiki | where_exp: "item", "item.tags contains 'guide'" | sort: "title" %}
+{% if items.size > 0 %}
 <div class="grid">
-{% for item in pages %}
+{% for item in items %}
   {% unless item.redirect_to %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
@@ -22,5 +21,5 @@ rather than a dictionary-style topic page.
 {% endfor %}
 </div>
 {% else %}
-<p class="muted">Guide pages are being grouped from podcast-backed content.</p>
+<p class="muted">Guides are being grouped from podcast-backed content.</p>
 {% endif %}

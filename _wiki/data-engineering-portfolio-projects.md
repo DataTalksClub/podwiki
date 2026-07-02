@@ -37,7 +37,7 @@ For a build blueprint, use
 For learning order, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 or the broader
-[Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}).
+[Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 
 The boundary with analytics engineering is consumer-facing modeling. If the
 project is mainly metric definitions, BI tables, and dashboard semantics, use
@@ -45,7 +45,7 @@ project is mainly metric definitions, BI tables, and dashboard semantics, use
 If the project is mainly public contribution proof, pair this page with
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 and the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 
 ## Reviewable Data Pipeline Project
 
@@ -140,9 +140,9 @@ and
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
 make over-built portfolios risky. Spark, Kafka, or streaming only help when the
 source behavior and consumer need justify them. That boundary also belongs in
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 and
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 Open-source guests add a public-product route, and Kwong uses Airbyte to
 discuss connectors and extraction. She also covers community breadth and cloud
@@ -188,7 +188,7 @@ Tuli covers those modeling details in
 Kwong's mart and modern-stack discussion in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
 connects this to
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) and
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 The code should show SQL and Python depth. Katz criticizes projects that check
@@ -216,7 +216,7 @@ Tuli's modeling and dashboard discussion does the same
 A visible consumer beats a large stack with no user story.
 
 The implementation can follow
-[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+[How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 or the
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 
@@ -264,9 +264,9 @@ Their tool-judgment discussions support this restraint.
 The project should explain when it would graduate from local execution to
 Spark or Kafka. It can also name when a managed warehouse becomes useful. A
 lakehouse may become useful under different requirements, using
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 and
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 as decision context.
 
 ## Operations and Interview Story
@@ -279,7 +279,7 @@ support environment setup and deployment or scheduling notes
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})).
 If the project uses Airflow, the DAG should have real dependencies, checks, and
 rerun behavior. The local setup can use the
-[Airflow Docker Compose portfolio project]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+[Airflow Docker Compose portfolio project]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 once the pipeline is already meaningful.
 
 The interview story should explain one or two tradeoffs. Katz describes the
@@ -307,7 +307,7 @@ Tulski frame modern data engineering around fit, cost, and specialization
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 That makes streaming a requirements choice, not a portfolio decoration
-([Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})).
+([Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
 
 ## Open Source Portfolio Evidence
 
@@ -345,7 +345,7 @@ That matches
 Katz's hiring standard for public, professional-level work
 ([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}))
 and the contribution path in the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 
 ## Related Pages
 
@@ -353,20 +353,20 @@ Use these pages to follow the role, architecture, and portfolio routes:
 
 - [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
+- [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
-- [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+- [How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [CDC]({{ '/wiki/cdc/' | relative_url }})
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
-- [Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})
+- [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
+- [Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

@@ -91,9 +91,9 @@ detection, catalog cross-matching, and curated datasets. His later project work
 adds cloud notebooks, Spark, and warehouse pipelines
 ([radio-astronomy-to-data-engineering discussion at 10:39-26:58 and 42:48-45:15]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
 The boundary between these targets connects to
-[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 and
-[Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
+[Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
 Some transitions point toward consulting or open-source proof instead of the
 classic data-scientist funnel. [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
@@ -132,7 +132,7 @@ wanted to see whether she knew the modeling concepts
 That version of the transition maps to
 [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}),
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}), and
-the [Data Scientist Guide]({{ '/guides/data-scientist/' | relative_url }}).
+the [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }}).
 
 Researchers whose work centers on pipelines, instruments, or large scientific
 datasets may have a stronger path through data engineering or ML engineering.
@@ -145,9 +145,9 @@ Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt
 ([industrial data-integration discussion at 34:22-43:27 and 58:29]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }})).
 Those paths connect to the
-[Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
+[Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}).
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }}).
 
 ## Translating Research into Hiring Evidence
 
@@ -178,7 +178,7 @@ Prepare project stories that show personal contribution
 That makes this topic adjacent to
 [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}),
 [Job Search]({{ '/wiki/job-search/' | relative_url }}), and the
-[Data Scientist Interview Guide]({{ '/guides/data-scientist-interview/' | relative_url }}).
+[Data Scientist Interview Guide]({{ '/wiki/data-scientist-interview/' | relative_url }}).
 
 ## Production and Collaboration Skills
 
@@ -240,7 +240,7 @@ These examples connect to
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}), and
-the [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+the [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }}).
 
 Interview proof should match the role and level. CJ's first technical interview
 included a case study in R. It also included a Python-code walkthrough where she
@@ -274,15 +274,15 @@ Use these pages for adjacent roles, portfolios, interviews, and learning paths.
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Applied Research]({{ '/wiki/applied-research/' | relative_url }})
 - [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
-- [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Data Scientist Guide]({{ '/guides/data-scientist/' | relative_url }})
-- [Data Scientist Interview Guide]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
-- [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+- [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }})
+- [Data Scientist Interview Guide]({{ '/wiki/data-scientist-interview/' | relative_url }})
+- [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+- [Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})

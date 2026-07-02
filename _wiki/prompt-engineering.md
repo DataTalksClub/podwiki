@@ -29,7 +29,7 @@ sees and how the team constrains the answer. It also covers how they test prompt
 changes and when they stop trying to fix the system with wording alone.
 
 Use
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 when the decision is whether a system needs better prompts, retrieved context,
 or model adaptation.
 Michael Taylor and James Phoenix's
@@ -110,7 +110,7 @@ preference.
 Bartosz says at 29:33-30:00 that each extra example adds tokens and money. The
 team should prepare evaluation inputs and expected outputs so it can stop adding
 examples when quality stops improving. The broader
-[LLM system design]({{ '/guides/llm-system-design-interview/' | relative_url }})
+[LLM system design]({{ '/wiki/llm-system-design-interview/' | relative_url }})
 material uses the same cost-aware framing. Model calls, context size, and
 reliability belong to one design decision.
 

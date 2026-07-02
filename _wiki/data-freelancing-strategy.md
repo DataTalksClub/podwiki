@@ -107,7 +107,7 @@ freelance version of the broader [career growth]({{ '/wiki/career-growth/' | rel
 lesson: the next move needs market evidence, not just personal preference.
 
 The same conservative logic appears in
-[Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }}),
+[Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }}),
 where client services are one possible independent income stream. Freelancing can
 be a staged transition through weekend work, part-time work, recruiter channels,
 or an employer-to-client conversion rather than a dramatic resignation.
@@ -290,7 +290,7 @@ These pages cover the adjacent business models and career paths:
 - [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }})
   for the broader client-work playbook.
 - [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) and
-  [Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }})
+  [Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }})
   for intentionally small independent data businesses.
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) and
   [Startup]({{ '/wiki/startup/' | relative_url }}) for the service, product, and

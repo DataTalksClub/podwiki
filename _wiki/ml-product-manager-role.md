@@ -101,7 +101,7 @@ discovery, MLOps prioritization, and SMART goals. SLAs, data quality, and
 pipeline failures also matter
 ([AI data product research prioritization and metrics at 23:20-55:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 In that version, the ML product manager may look like a
-[data product manager]({{ '/guides/data-product-manager/' | relative_url }})
+[data product manager]({{ '/wiki/data-product-manager/' | relative_url }})
 who works on AI capabilities.
 
 Sara centers the role on product craft and transition skills. Her version is
@@ -203,9 +203,9 @@ A model, pipeline, platform investment, or manual workflow improvement may be
 the right next step
 ([AI data product roadmap decisions at 31:45-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-[Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+[Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
 and
-[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+[Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }})
 separate the title boundaries.
 
 ## Roadmaps and Backlog Decisions

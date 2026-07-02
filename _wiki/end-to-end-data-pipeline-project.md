@@ -89,7 +89,7 @@ Kwong's ETL and ELT discussion gives the vocabulary for this split. At 3:46 and
 10:00, transformations become their own layer. At 15:30, she separates marts
 from warehouses
 ([ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
-Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the
+Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the
 project needs that tradeoff, and use
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
 boundaries.
@@ -115,7 +115,7 @@ Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
 [Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) when the dependencies
 justify it. Use the
-[Airflow Docker Compose setup]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+[Airflow Docker Compose setup]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 when a local reviewer should look at the Airflow UI, task logs, and rerun
 behavior. [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
 describes Docker and reproducibility at 21:25 in
@@ -129,7 +129,7 @@ places scheduling around the modern stack
 ([ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 Use [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for the
 dependency model and
-[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+[How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 for an implementation path.
 
 ## Quality and Recovery
@@ -188,7 +188,7 @@ calls this the real-time myth at 38:01 in
 At 30:56, he warns against overbuilt modern stacks. At 57:35 and 1:04:42, he
 frames portfolio work around side projects and end-to-end platforms.
 
-Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 when the project needs the tradeoff. Use
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
 boundaries and [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for

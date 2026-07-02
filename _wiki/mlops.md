@@ -35,7 +35,7 @@ management.
 
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the separate
 discipline around data pipelines and analytical delivery. Use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) when
 the boundary between model operations and data operations matters. The MLOps
 side adds model artifacts and experiment capture. It also adds drift,
 retraining, and model governance.
@@ -208,8 +208,8 @@ These pages cover adjacent MLOps concepts:
 
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
-- [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }})
+- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
+- [MLOps Frameworks]({{ '/wiki/mlops-frameworks/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})

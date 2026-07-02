@@ -145,7 +145,7 @@ For model systems, this work belongs to
 
 For data pipelines, it sits next to
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [DataOps tools]({{ '/guides/dataops-tools/' | relative_url }}).
+and [DataOps tools]({{ '/wiki/dataops-tools/' | relative_url }}).
 
 For open source, Warmerdam shows the same habit through contribution guides and
 tests. Packaging checks and pre-commit hooks help too
@@ -201,4 +201,4 @@ interpretation stay with the same owner, as Graff explains in
 
 Those differences matter for role pages such as
 [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}) and for
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}).

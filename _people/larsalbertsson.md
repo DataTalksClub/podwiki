@@ -41,8 +41,8 @@ Around 16:42, he connects data platform design with functional architecture.
 Around 20:12, he contrasts reproducible immutable paths with mutable ETL jobs
 that overwrite outputs and make debugging harder.
 
-This is why wiki pages cite him when they discuss [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}),
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}),
+This is why wiki pages cite him when they discuss [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}),
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }}),
 and [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 For Lars, a pipeline should let the team rerun work and look at versions. The
 team should also understand which code produced which data. Reproducibility is
@@ -71,8 +71,8 @@ Around 45:11, he discusses micro-batching and dependency management. Around
 1:07:52, he describes lakehouse architecture as warehouse-like capabilities
 layered on a data lake.
 
-These sections support [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}),
+These sections support [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}),
 and [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}). The practical rule
 is to choose the architecture that matches latency, dependency, governance, and
 recovery needs.
@@ -87,8 +87,8 @@ requirements. Around 57:46 and 1:03:02, he covers
 platform ownership before the organization can support it.
 
 That makes Lars a useful source for
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}),
-[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }}),
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}),
+[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }}),
 and [data strategy]({{ '/wiki/data-strategy/' | relative_url }}).
 
 ## Concepts Connected

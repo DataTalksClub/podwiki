@@ -137,7 +137,7 @@ lifecycle, data drift, and inference monitoring. It also covers retraining
 triggers, metadata, and automated pipelines
 ([3:30-15:29 and 27:01-46:58]({{ '/podcasts/mlops-kubeflow-model-monitoring/' | relative_url }})).
 That branch is closest to
-[MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }}).
+[MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}).
 
 ## Transferable Engineering Skills
 
@@ -344,6 +344,6 @@ Use these pages for adjacent roles, practices, and transition evidence.
 - [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-- [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }})
+- [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [Applied Research]({{ '/wiki/applied-research/' | relative_url }})

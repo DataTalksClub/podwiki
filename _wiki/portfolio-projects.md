@@ -203,7 +203,7 @@ Packaging and maintainer discussion matter too
 25:50 / 27:40 / 29:30).
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 and the
-[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+[Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 cover that path.
 
 ## Role-Specific Project Evidence
@@ -228,9 +228,9 @@ platform warning appears at 26:05, 26:22, 28:30, and 30:33.
 
 The same rule applies to AI projects. Start with a reliable retrieval or model
 baseline before adding agents, long-context tricks, or fine-tuning.
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 and
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 cover those design choices.
 
 Production awareness is stronger than model novelty. [Ben Wilson]({{ '/people/benwilson/' | relative_url }})

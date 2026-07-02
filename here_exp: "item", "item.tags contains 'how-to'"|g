@@ -1,0 +1,1 @@
+{% assign howtos = site.wiki  | sort: "title" %}

@@ -41,7 +41,7 @@ extract-load work, while [dbt]({{ '/wiki/dbt/' | relative_url }}) handles
 warehouse-side SQL transformations. That makes Airflow adjacent to
 [ETL]({{ '/wiki/etl/' | relative_url }}),
 [ELT]({{ '/wiki/elt/' | relative_url }}), and the
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) decision.
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) decision.
 
 ## Scheduling and Dependency State
 
@@ -128,7 +128,7 @@ Thin DAGs also make review easier. A reviewer can read the DAG to understand
 the order of steps, then look at the actual transformation code in the
 repository. That links Airflow to
 [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-and the [Airflow Docker Compose how-to]({{ '/how-tos/airflow-docker-compose/' | relative_url }}).
+and the [Airflow Docker Compose how-to]({{ '/wiki/airflow-docker-compose/' | relative_url }}).
 Use the Compose page for local setup. Use this wiki page for the concept and
 operating boundary.
 
@@ -150,7 +150,7 @@ add edge-case checks and data assertions before they trust the result.
 
 Teams need this boundary when they add
 [data observability]({{ '/wiki/data-observability/' | relative_url }}) and
-[DataOps tools]({{ '/guides/dataops-tools/' | relative_url }}), because the
+[DataOps tools]({{ '/wiki/dataops-tools/' | relative_url }}), because the
 orchestrator can preserve task state and logs. Observability tells the team
 whether freshness or volume failed, and it can also flag schema issues or
 downstream consumer problems.
@@ -168,7 +168,7 @@ Albertsson connects this to batch processing and recovery in
 Around 45:11, he contrasts batch and streaming through explicit dependency
 management. Batch workflows are easier to rerun when the team can name the
 inputs and dependencies. Airflow fits batch pipelines with backfills especially
-well, while [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+well, while [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 covers the broader processing tradeoff.
 
 Machine learning pipelines use the same structure. In
@@ -197,7 +197,7 @@ He discusses course projects with Airflow, MinIO, Spark, and MySQL. The setup
 also includes Docker Compose and the Airflow web server. He uses environment
 variables and a warehouse path in the same project.
 
-Use the [Airflow Docker Compose]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+Use the [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 how-to for a local development or portfolio environment. Keep Compose small by
 using one DAG and a few real pipeline steps. Mount the code, keep logs visible,
 and add one data check that can fail.
@@ -211,11 +211,11 @@ retention, and alerts can also justify the platform work. Backfills can too.
 These pages cover the concepts and comparisons used above.
 
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Airflow Docker Compose]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+- [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})

@@ -48,7 +48,7 @@ documents and grounding responses. At 46:42, she describes retrieved passages,
 summarizers, and grounding layers before the final answer.
 
 Those timestamps mark the distinction in
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 In that comparison, retrieval fits changing knowledge plus citation,
 permission, and source-review needs. Fine-tuning fits tasks that need different
 model behavior, domain-specific style, or performance that retrieval and
@@ -130,7 +130,7 @@ stack with using a standalone vector database.
 
 The right choice depends on the current search system and migration risk.
 Filters, ranking requirements, and operational maturity matter too.
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 covers that retrieval-stack choice in more detail.
 
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
@@ -148,7 +148,7 @@ structured-retrieval alternative in
 At 33:43, she connects knowledge graphs with LLM grounding and RAG. At 38:10,
 she contrasts text chunking and embeddings with graph semantics. At 39:56, she
 discusses prompt templates and Cypher-driven retrieval. Those examples belong with
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 because some domains need nearest-neighbor text chunks while others need
 explicit relationships.
 

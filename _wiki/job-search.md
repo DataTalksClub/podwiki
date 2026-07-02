@@ -229,7 +229,7 @@ Transferable experience from software and BI roles matters at 20:57.
 Junior-to-senior expectations differ at 22:55. For career switchers, focused
 skills plus projects matter at 30:39. This candidate-side view complements
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-[Data Engineering Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}),
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 and [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 

@@ -144,7 +144,7 @@ The DataOps engineer doesn't replace that design work. They make the change
 path and tests consistent across many such pipelines. They standardize
 deployment, monitoring, and recovery too.
 
-Use [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+Use [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 for the broader comparison.
 
 The boundary with a platform engineer is the served workflow. A platform
@@ -171,7 +171,7 @@ the overlap explicit in
 [MLOps Architect Guide at 25:04-27:35]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
 Model monitoring can trace failures back into ETL, data pipelines, and
 upstream root causes. Use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) when
 the ownership question is about model incidents.
 
 ## Automation, CI/CD, and GitOps
@@ -283,12 +283,12 @@ These pages cover the role's neighboring practices and boundaries:
 
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})

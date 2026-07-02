@@ -148,10 +148,10 @@ gives that product-owner judgment in [Product Owners in Data Science]({{ '/podca
 The right next step may be manual cleanup, an MVP, or staged investment rather
 than a model
 ([44:48-53:09]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
-Use [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
+Use [Data Product Owner vs Data Product Manager]({{ '/wiki/data-product-owner-vs-data-product-manager/' | relative_url }})
 when the scope question is about who owns the delivery and product
 decision. For a role-focused learning path, the
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 shows how this scope work connects to production ML responsibilities.
 
 ## Stakeholders and Decision Rights

@@ -243,5 +243,5 @@ The adjacent topics are:
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
+- [Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})
+- [Product Analyst]({{ '/wiki/product-analyst/' | relative_url }})

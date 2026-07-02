@@ -196,8 +196,8 @@ measurement practices:
 
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-- [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+- [Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})
+- [Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
 - [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Communication]({{ '/wiki/communication/' | relative_url }})

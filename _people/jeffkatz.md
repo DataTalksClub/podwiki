@@ -27,7 +27,7 @@ he explains that building a course meant checking employer demand and student
 interest. It also meant studying competitor curricula and graduate outcomes
 before writing lessons.
 That makes his episode a useful companion to
-[data engineering courses]({{ '/guides/data-engineering-courses/' | relative_url }})
+[data engineering courses]({{ '/wiki/data-engineering-courses/' | relative_url }})
 and the [data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}).
 
 His teaching method emphasizes active learning. Around 3:56-5:44, he says good
@@ -51,15 +51,15 @@ Jigsaw Labs course was roughly 85% Python/SQL. Tools were the smaller layer.
 That same argument appears in
 [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
 Around 1:20-2:22, Jeff says projects should show hundreds of lines of useful
-[Python]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}#stage-1-sql-python-and-modeling)
+[Python]({{ '/wiki/data-engineer-roadmap/' | relative_url }}#stage-1-sql-python-and-modeling)
 and
-[SQL]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}#stage-1-sql-python-and-modeling),
+[SQL]({{ '/wiki/data-engineer-roadmap/' | relative_url }}#stage-1-sql-python-and-modeling),
 not just a checklist of services. He still treats
 [Airflow]({{ '/wiki/apache-airflow/' | relative_url }}),
 warehouses, and
 [Docker/tools]({{ '/wiki/data-engineering-tools/' | relative_url }}) as important,
 but the tools should reveal engineering ability rather than hide weak code.
-The [Airflow Docker Compose]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+The [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 how-to follows the same principle: keep most pipeline logic in normal code and
 let Airflow coordinate it.
 

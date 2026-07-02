@@ -93,7 +93,7 @@ warehouse-like behavior and reduce lock-in
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41 and 49:42). Teams choosing between managed warehouse trust and an
 open table-format platform can start with [Data Warehouse vs Data
-Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 For storage engine internals that sit beneath both warehouses and lakehouses, Alex Petrov's [Database Internals]({{ '/books/20210315-database-internals/' | relative_url }}) Book of the Week covers transaction logs, B-trees, replication, and consensus protocols.
 
@@ -251,10 +251,10 @@ and how to measure adoption
 Warehouse work in these episodes connects to [data engineering
 platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) choices.
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) choices.
 For storage boundaries, compare the warehouse with [data
 lakes]({{ '/wiki/data-lake/' | relative_url }}) and [data warehouse vs data
-lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 The modeled layer connects most directly to [analytics
 engineering]({{ '/wiki/analytics-engineering/' | relative_url }}) and

@@ -95,7 +95,7 @@ look at the distribution before deciding which test result to trust.
 
 ## Product Analyst Practice
 
-Jakob's episode is also a practical source for [product analyst]({{ '/guides/product-analyst/' | relative_url }})
+Jakob's episode is also a practical source for [product analyst]({{ '/wiki/product-analyst/' | relative_url }})
 work. Around 18:06, he describes experiments as a way to de-risk features and
 build organizational learning. Around 30:05, he recommends keeping a first test
 simple with two groups. Around 59:08, he discusses multi-arm tests and the

@@ -55,7 +55,7 @@ At 48:01, she describes vector databases through embeddings, indexing, and
 semantic search. In the surrounding discussion, retrieval fits changing
 knowledge, while fine-tuning changes model behavior or style. The same boundary
 is expanded in
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
 ## Semantic Search
 
@@ -82,7 +82,7 @@ Atita makes the architecture choice explicit in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 17:01 and 20:27, she compares plug-and-play vector search with vector support
 inside existing search systems. That decision is the same boundary covered in
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
 Teams can choose the embedding model, vector storage, and search application
 behavior as separate design decisions.
 

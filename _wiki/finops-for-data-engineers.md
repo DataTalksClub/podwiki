@@ -106,7 +106,7 @@ spend. Zulkifly's warehouse framing connects FinOps to
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}),
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 The cost model shouldn't sit apart from the business model. At
 [27:50]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
@@ -184,8 +184,8 @@ dataset validation, and downstream-dashboard checks help teams see whether a
 data change also changes cost behavior.
 
 The boundary is why FinOps belongs beside
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
-and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}),
+[DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
+and [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}),
 not inside them. A platform can be reliable and still too expensive. It can
 also be cheap because it under-serves the business. The FinOps work is to make
 that tradeoff visible.

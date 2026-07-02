@@ -134,7 +134,7 @@ landing page and a category page may need different weights over the same
 indexed data. A personalized page may need different weights again.
 
 The comparison with
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 comes from the same boundary. A vector database can return nearest neighbors,
 but an information retrieval system still has to choose mandatory filters and
 soft ranking features. Teams also choose which reranker to run and how to keep
@@ -161,7 +161,7 @@ sensitive tasks.
 Her point isn't that retrieval makes the model smarter in general. It grounds
 the answer in the current documentation, which is different from fine-tuning the
 model to imitate a style or task format. That retrieval boundary is central to
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
 Ranjitha sets the boundary for long-context and agentic systems. Around
 30:27-32:48 in

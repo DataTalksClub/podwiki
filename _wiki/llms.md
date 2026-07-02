@@ -140,7 +140,7 @@ also discusses tone and format control. At 40:46 and 42:02, she recommends retri
 knowledge. The team can index documents and retrieve relevant passages without
 retraining the model for every fact update.
 
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) uses the
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) uses the
 same split. Retrieval helps when the system needs fresh documents, citations,
 proprietary knowledge, or reviewable evidence. Fine-tuning helps when the model
 should behave differently. It can also help with a repeated output style or a
@@ -254,7 +254,7 @@ These pages cover the surrounding techniques, roles, and production concerns.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [RAG]({{ '/wiki/rag/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
@@ -265,5 +265,5 @@ These pages cover the surrounding techniques, roles, and production concerns.
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
-- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})
-- [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }})
+- [LLM Tools]({{ '/wiki/llm-tools/' | relative_url }})
+- [LLM System Design Interview]({{ '/wiki/llm-system-design-interview/' | relative_url }})

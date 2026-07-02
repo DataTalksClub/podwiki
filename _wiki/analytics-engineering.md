@@ -113,7 +113,7 @@ engineers, and BI developers. The practical boundary is that analytics
 engineers encode reusable definitions and quality checks. Analysts focus more
 on questions, interpretation, and stakeholder recommendations
 ([Analytics Engineer Skills and Tools at 14:34-20:19]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
-[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})).
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})).
 
 The boundary with data engineering is platform ownership. Data engineers often
 own ingestion and orchestration, plus raw storage and system reliability.
@@ -325,7 +325,7 @@ Modeling practice was another requirement
 ([Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }}),
 [From Marketing to Analytics Engineering at 7:18-14:14 and 38:27-41:50]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 Analysts who already own dashboards and KPI explanations can use the
-[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+[Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 for the same move into model ownership.
 
 Jeff Katz's data engineering curriculum places analytics engineering early in a
@@ -418,9 +418,9 @@ request becomes repeated team work. Documentation does the same
 
 These pages cover role boundaries, platform context, and career paths.
 
-- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
-- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})

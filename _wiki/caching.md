@@ -207,4 +207,4 @@ and infrastructure:
 - [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
-- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})
+- [LLM Tools]({{ '/wiki/llm-tools/' | relative_url }})

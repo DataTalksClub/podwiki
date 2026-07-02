@@ -43,7 +43,7 @@ It also draws on
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For a side-by-side boundary
 view, use
-[Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
+[Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
 ## Role Shift
 
@@ -93,7 +93,7 @@ on the data scientist side. It then moves MLflow, Kubeflow, Kubernetes, and
 pipeline infrastructure toward ML engineering and MLOps
 ([Roksolana Diachuk's data-scientist and ML-engineering boundary discussion at 13:56-24:49]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
 That boundary also connects to
-[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 when the transition is about pipelines and infrastructure rather than
 model serving.
 
@@ -113,9 +113,9 @@ deployed end-to-end systems also belong in that version
 
 For a data scientist planning the move, the practical question is which
 responsibility is missing from current work. For product ML delivery, use the
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}).
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }}).
 For pipeline depth, use the
-[Data Scientist to Data Engineer]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})
+[Data Scientist to Data Engineer]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }})
 roadmap. For platform or deployment ownership, use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
@@ -138,7 +138,7 @@ deployment. Monitoring, APIs, Docker, and cloud providers complete that surface
 Data scientists moving into ML engineering need the same production surface
 even if they already know modeling. This is where
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
-[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}) turn
+[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}) turn
 from background topics into delivery requirements.
 
 The third gap is system design. A model has to fit latency, freshness, and
@@ -160,7 +160,7 @@ For a transitioning data scientist, model intuition has to become written
 design decisions with explicit
 [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
 The interview version of the same practice is covered in
-[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
+[Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }}).
 
 ## Concrete Transition Moves
 
@@ -231,7 +231,7 @@ These projects should link modeling decisions to product or operational needs.
 That's the main difference between this transition and a general
 [data science portfolio]({{ '/wiki/portfolio-projects/' | relative_url }}).
 Use the
-[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+[Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 for sequencing when the project work exposes gaps in Python, system design,
 deployment, or monitoring.
 
@@ -241,7 +241,7 @@ Adjacent role, comparison, and portfolio topics include:
 
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+- [Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
@@ -253,6 +253,6 @@ Adjacent role, comparison, and portfolio topics include:
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
-- [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
+- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

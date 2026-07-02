@@ -98,7 +98,7 @@ Teams may choose batch scoring or streaming features, online serving or offline
 analysis. Each serving choice creates different design obligations. Teams often
 need the same vocabulary used in
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
+[batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
 and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
@@ -124,7 +124,7 @@ feature data that must be fresh. They can also check the dependency that can
 fail and whether the system can answer from a cached or batch result. Those
 questions link the design doc to
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
-and [MLOps architecture]({{ '/guides/mlops-architecture/' | relative_url }}).
+and [MLOps architecture]({{ '/wiki/mlops-architecture/' | relative_url }}).
 
 ## Review and Production Readiness
 

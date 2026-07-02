@@ -227,7 +227,7 @@ Her distinction between mathematical expertise and engineering skills helps
 employers choose among model researcher, applied data scientist, and ML
 engineer roles. Some roles bridge delivery and operations
 ([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }})).
-The [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+The [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 comparison helps separate model-delivery responsibilities from data-platform
 responsibilities.
 

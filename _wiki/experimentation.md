@@ -193,7 +193,7 @@ That learning role makes experimentation part of
 [data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}) and
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 The same product-facing responsibilities appear in the
-[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }}) article.
+[Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }}) article.
 
 ## Randomization and Causal Boundaries
 

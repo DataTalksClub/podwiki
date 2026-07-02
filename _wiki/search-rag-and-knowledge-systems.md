@@ -125,7 +125,7 @@ deployment. In
 she draws the boundary between retrieval for changing knowledge and
 fine-tuning for behavior, style, or task adaptation at 40:46-46:42. That
 boundary anchors
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
 ## Search-First Architecture
 
@@ -201,7 +201,7 @@ then moves to vector compute at 29:00, hybrid search at 34:00, and operational
 search metrics at 1:01:25.
 
 This is why
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 is an architecture decision. It isn't a slogan about newer tools replacing
 older search engines. A vector database can retrieve nearest neighbors. The
 knowledge system still decides which metadata is mandatory, which signals are
@@ -222,9 +222,9 @@ Graph retrieval doesn't remove grounding work. Anahita's hallucination and
 verification discussion at 42:42 in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
 shows why graph facts still need validation, traceability, and review. Use
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 and
-[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 when deciding whether the context should be similar text, graph paths, or both.
 
 ## Evaluation and Operations
@@ -264,7 +264,7 @@ Use RAG when the system mostly answers from a changing knowledge base and needs
 sources, citations, or reviewable evidence. Meryem's
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
 discussion at 40:46-46:42 supports retrieval for changing knowledge, while
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) captures
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) captures
 the boundary with model adaptation.
 
 Use agents for planning and tool calls when the workflow needs API queries,
@@ -336,15 +336,15 @@ Meryem covers changing knowledge as a reason to prefer retrieval at
 These pages cover the neighboring retrieval, search, and LLM topics.
 
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
 - [Search]({{ '/wiki/search/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
-- [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
-- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})

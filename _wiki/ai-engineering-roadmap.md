@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["roadmap"]
 title: "AI Engineering Roadmap"
 summary: "A podcast-backed roadmap for learning AI engineering through software foundations, LLM applications, RAG, evaluation, agents, LLMOps, and production ownership."
 related:
@@ -34,7 +35,7 @@ applications in
 7:51-23:19. For the role boundary, use
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). For the
 broader discipline, use [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}).
-The editorial [AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }})
+The editorial [AI Engineer Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
 turns this sequence into concrete build stages with portfolio milestones.
 
 ## Roadmap Boundary
@@ -138,7 +139,7 @@ an application structure and context-management behavior, not only a model call
 7:51-10:41). For this stage, use
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}), and
-[Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
+[Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }}).
 
 ## Stage 2: Add LLM Calls and Structured Outputs
 
@@ -155,7 +156,7 @@ cases. Ruslan's daily-life project advice and hiring
 signals support that project-first standard
 ([Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}),
 48:48-57:39). For tool choices, connect this stage to
-[LLM Tools]({{ '/guides/llm-tools/' | relative_url }}) and
+[LLM Tools]({{ '/wiki/llm-tools/' | relative_url }}) and
 [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }}).
 
 ## Stage 3: Build Evaluation Before More Architecture
@@ -196,7 +197,7 @@ human-in-the-loop evaluation in
 A good roadmap project at this stage includes ingestion, chunking, and
 metadata. It also includes embeddings, retrieval, citations, and retrieval
 failure analysis. Compare the choices through
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}),
 [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}),
 and [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
 
@@ -386,7 +387,7 @@ Continue with these roadmap and reference pages:
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
 - [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }})

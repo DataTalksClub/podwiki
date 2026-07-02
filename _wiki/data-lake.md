@@ -74,7 +74,7 @@ Events and application data may need that too
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 24:24-27:39).
 
-That makes [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) part of the
+That makes [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) part of the
 same decision. ELT loads source data first. The team then transforms it in an
 analytical destination.
 
@@ -84,7 +84,7 @@ lakehouse can also be the first durable landing zone
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 7:57-18:47).
 
-Teams enter the [data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+Teams enter the [data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 comparison when they want warehouse-like behavior on lake storage. Albertsson
 describes a lakehouse as something that technically looks like a data lake. It
 adds interactive exploration and warehouse-style use
@@ -232,7 +232,7 @@ versioning
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 16:42-35:57 and 57:46-1:03:02). The same boundary makes
 [data mesh]({{ '/wiki/data-mesh/' | relative_url }}) and
-[data mesh vs centralized data platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+[data mesh vs centralized data platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
 lake questions when ownership moves closer to domain teams.
 
 Brudaru's table-format discussion adds the tool-selection boundary. A team
@@ -258,14 +258,14 @@ all participate
 
 Use [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) for the
 warehouse side of the storage vocabulary. Use
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the architecture tradeoff. Use
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) and
 [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for table-format
 choices over lake storage.
 
 Use [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for ingestion and
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for ingestion and
 transformation boundaries. Use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and

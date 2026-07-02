@@ -30,7 +30,7 @@ practical. If only 10% of rows changed, CDC avoids reading and writing the other
 CDC isn't a replacement for [ETL]({{ '/wiki/etl/' | relative_url }}),
 [ELT]({{ '/wiki/elt/' | relative_url }}), or
 [streaming]({{ '/wiki/streaming/' | relative_url }}). It's an ingestion method
-that can feed any of them. [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+that can feed any of them. [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 covers the transformation boundary. [DataOps]({{ '/wiki/dataops/' | relative_url }})
 and [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 cover the reliability work around the feed.

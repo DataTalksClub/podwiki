@@ -106,7 +106,7 @@ acquisition, activation, retention, and engagement
 ([collection-to-analysis flow]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
 Product analysts often work at that boundary. The
-[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) guide links
+[Product Analyst]({{ '/wiki/product-analyst/' | relative_url }}) guide links
 tracking plans with funnels, experiments, and product behavior. A product
 analyst may review event semantics, check whether a funnel step reflects the
 intended behavior, and explain a metric change. Users may have changed

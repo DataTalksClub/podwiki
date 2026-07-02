@@ -42,7 +42,7 @@ That answer fits the way DataTalks.Club episodes discuss
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 Infrastructure becomes valuable when scale creates operating pressure. It also
 complements
-[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }}).
+[How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }}).
 A practical pipeline design starts from source systems and consumers. It then
 adds orchestration and quality checks rather than a tool-first stack.
 
@@ -89,7 +89,7 @@ operations, not a label to paste onto a whole system. Enqueue and dequeue
 operations can be linearizable even if other operations have different
 guarantees. That precision is useful for DataTalks.Club pages on
 [streaming]({{ '/wiki/streaming/' | relative_url }}),
-[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
+[batch vs streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
 [CDC]({{ '/wiki/cdc/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 Those pages need the same guarantee check for each pipeline.

@@ -141,9 +141,9 @@ general infrastructure. The platform needs versioned pipeline code, repeatable
 transforms, dependency management, and schema checks. It also needs a way to
 handle changed source data. Use [ETL]({{ '/wiki/etl/' | relative_url }}),
 [ELT]({{ '/wiki/elt/' | relative_url }}), and
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the main
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the main
 question is where transformation happens. Use
-[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) for tool
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}) for tool
 categories.
 
 Storage and compute belong in the platform because downstream consumers depend
@@ -258,7 +258,7 @@ also need centralized observability, lineage, access workflows, and support
 processes. Either path is a DataOps platform when it provides a supported,
 repeatable way to operate data changes across many pipelines and users.
 
-Keep the boundary with [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+Keep the boundary with [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 clear. DataOps platforms operate upstream data delivery, including ingestion
 and transformations. Datasets and schemas also belong there. So do lineage,
 access, and pipeline recovery.
@@ -276,11 +276,11 @@ They also cover observability, governance, and boundaries:
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
-- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+- [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})

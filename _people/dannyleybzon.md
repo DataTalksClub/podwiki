@@ -34,7 +34,7 @@ Around 10:32, he adds that the "architect" title came from helping customers
 and partners understand the MLOps tooling landscape. He also uses that context
 inside WhyLabs.
 
-Use Danny's discussion for [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+Use Danny's discussion for [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 and [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}). He doesn't present
 architecture as a fixed reference stack, but as a set of tradeoffs. Teams need
 to know which tools interoperate and which choices are swappable. They also need
@@ -52,7 +52,7 @@ self-hosted APIs, and other deployment paths.
 Use his production-first framing with these pages:
 
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }})
+- [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 
 He treats monitoring as a production responsibility, not a final dashboard added
@@ -75,7 +75,7 @@ Use this section with the data reliability pages:
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 
 Use Danny's framing when a model alert might come from a feature pipeline or
 schema change. It might also come from a missing value spike or distribution
@@ -94,7 +94,7 @@ WhyLogs is open source profiling. WhyLabs is the SaaS layer that tracks changes
 over time.
 
 Danny's profile-based framing fits
-[Model Monitoring vs Data Observability]({{ '/comparisons/model-monitoring-vs-data-observability/' | relative_url }})
+[Model Monitoring vs Data Observability]({{ '/wiki/model-monitoring-vs-data-observability/' | relative_url }})
 because the same summaries can help different teams. Danny says data scientists
 can catch model performance degradation, model failure, and data drift. Data
 engineers can catch data quality issues such as null spikes or breaking schema
@@ -114,7 +114,7 @@ that can run Python or Java. By the time teams want monitoring, they usually
 already chose an inference architecture. Danny can still help during later
 architectural reviews. He has broad exposure to many tools, even when the
 customer has deeper experience with a single stack. Use this part of the
-episode with [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}) and
+episode with [MLOps Frameworks]({{ '/wiki/mlops-frameworks/' | relative_url }}) and
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
 ## Fairness, Bias, and Segmentation
@@ -142,7 +142,7 @@ Continue from Danny's page into the main episode and topic pages:
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
-- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
-- [Model Monitoring vs Data Observability]({{ '/comparisons/model-monitoring-vs-data-observability/' | relative_url }})
+- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
+- [Model Monitoring vs Data Observability]({{ '/wiki/model-monitoring-vs-data-observability/' | relative_url }})

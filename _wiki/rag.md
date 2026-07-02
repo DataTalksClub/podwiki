@@ -20,7 +20,7 @@ Use this common-name page for practical RAG implementation choices around
 retrieval chunks, [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}). It also
 covers citation and evaluation choices, plus security and graph variants. For
-the boundary with [fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+the boundary with [fine-tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 and [agents]({{ '/wiki/agent-engineering/' | relative_url }}), continue to the
 final section.
 
@@ -106,7 +106,7 @@ helps the model answer from documentation, but the application still owns source
 selection and permissions. It also owns citations and evaluation.
 
 For the storage choice, use
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 Those pages connect RAG to indexing, ranking, filters, and metadata. They also
 keep freshness and product metrics in view.
@@ -179,8 +179,8 @@ order, parent-child links, simulation relationships, and domain semantics.
 Anahita also warns at 42:42 that LLM-extracted graph knowledge still needs
 verification, so teams still have to construct and validate the graph.
 
-Use [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
-and [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+Use [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+and [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 when the model may need similar passages or structured relationships. Those
 pages also cover designs that use both.
 
@@ -192,7 +192,7 @@ answers, while fine-tuning fits style and tone. It also fits domain adaptation
 and repeated task behavior
 ([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
 26:30-31:38 and 40:46-46:42). Use
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for that
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for that
 comparison.
 
 Long context also doesn't make RAG disappear. [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})
@@ -219,7 +219,7 @@ planning and multiple data sources. They also fit tool calls and API
 integrations.
 
 For interview-style system design, the same tradeoffs appear in
-[LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}):
+[LLM System Design Interview]({{ '/wiki/llm-system-design-interview/' | relative_url }}):
 first name the user task and source of truth. Then choose the repair path based
 on the system failure. That may be retrieval or fine-tuning. It may also be long
 context, tools, or agents.

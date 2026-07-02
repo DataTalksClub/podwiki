@@ -20,7 +20,7 @@ products. It turns the broader
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) discipline into roles and
 release paths. It also defines checks, observability, and recovery habits. Use
 it beside the pipeline-level checklist in
-[DataOps Checks for Data Pipelines]({{ '/how-tos/dataops-checks-for-data-pipelines/' | relative_url }})
+[DataOps Checks for Data Pipelines]({{ '/wiki/dataops-checks-for-data-pipelines/' | relative_url }})
 and the monitoring-focused pages
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
@@ -92,7 +92,7 @@ A useful path has four gates:
   downstream behavior remain healthy after release.
 
 For the check catalogue, use
-[DataOps Checks for Data Pipelines]({{ '/how-tos/dataops-checks-for-data-pipelines/' | relative_url }}).
+[DataOps Checks for Data Pipelines]({{ '/wiki/dataops-checks-for-data-pipelines/' | relative_url }}).
 
 ## Tests and Data Checks
 

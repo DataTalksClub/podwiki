@@ -96,9 +96,9 @@ Production search rarely optimizes only semantic similarity, because it also
 ranks against inventory, permissions, and freshness. Popularity and business
 rules may become ranking inputs too.
 
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 compares where vector retrieval belongs in a search stack.
-[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 is the sharper comparison when retrieval depends on explicit relationships
 rather than only text or embedding distance.
 
@@ -149,7 +149,7 @@ search system. A team still has to choose indexes and filters. It also needs
 ranking signals, evaluation metrics, and reindexing jobs.
 
 When retrieval feeds an LLM,
-[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 marks another boundary. Dense chunks help semantic similarity, while graph
 retrieval helps when relationships define the answer.
 

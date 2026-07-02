@@ -109,7 +109,7 @@ separating reliable loading from warehouse-side modeling.
 Teams also decide how much source detail to preserve during ingestion. Kwong's
 ELT discussion argues for loading first when teams need flexibility (7:57-10:00 in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
-The same choice matters in the [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+The same choice matters in the [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 tradeoff because loading first preserves flexibility when business logic
 changes later. ETL can still fit large enterprises or complex staging needs,
 which Kwong covers at 41:30.
@@ -147,7 +147,7 @@ Brudaru explains Apache Iceberg as a table format over Parquet at 18:17 in
 At 21:27, he separates storage, compute, and access through the catalog
 discussion. He also includes metadata and lineage. The storage tradeoff sits
 between [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) and
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 because teams choose between warehouse-first modeling, lakehouse table formats,
 and mixed architectures.
 

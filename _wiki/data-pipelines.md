@@ -31,7 +31,7 @@ ingestion and orchestration come before modeling. Transformation, analytics
 outputs, and production ML handoffs belong in the same conversation.
 
 This topic covers pipeline design. Use
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the transformation
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the transformation
 boundary, while [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 and [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) cover
 scheduling and dependencies. Use
@@ -138,9 +138,9 @@ shows the fraud-prevention version in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
 Daily jobs compute stable fraud features, while live transaction signals feed
 real-time decisions at checkout. That hybrid design appears around 8:24 and
-34:46. Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+34:46. Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 for the latency decision and
-[ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) for the
+[ML pipelines]({{ '/wiki/mlops-architecture/' | relative_url }}) for the
 larger model lifecycle.
 
 ## Orchestration and Publication
@@ -155,7 +155,7 @@ tangle of tasks. The pipeline remains easier to review when ingestion,
 transformation, checks, and publication each have an explicit role.
 
 For a local Airflow project, the
-[Airflow Docker Compose local stack]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+[Airflow Docker Compose local stack]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 keeps the scheduler, UI, and metadata database visible. It also keeps the DAG
 folder and logs visible.
 
@@ -220,7 +220,7 @@ production outcomes.
 
 ## Batch, Streaming, and CDC
 
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) is a
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) is a
 latency and operating decision. Kretz introduces events and queues around 15:11
 in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
@@ -287,7 +287,7 @@ DataTalks.Club discussions converge on the same pipeline lifecycle, but design
 pressure changes by use case. Kwong's
 [modern stack discussion]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
 puts the extraction and loading boundary first. That makes
-[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) a pipeline
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) a pipeline
 decision rather than only a tooling label.
 
 Tuli's
@@ -321,7 +321,7 @@ Visualization and serving come next, and his practical line is to keep the
 first production version simple enough to operate. Ramirez's
 [fraud-prevention pipeline]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
 uses daily feature jobs beside live checkout decisions, so
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 depends on the decision that consumes the data.
 
 Mehdi OUAZZA's
@@ -343,7 +343,7 @@ ingestion, transformation, serving — across data system generations.
 
 ## Adjacent Topics
 
-Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the question is
+Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the question is
 where transformations should run. Use [CDC]({{ '/wiki/cdc/' | relative_url }})
 when the source data changes incrementally and full reloads are wasteful. Use
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
@@ -361,9 +361,9 @@ Use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 when the same conventions have to support many teams and many pipelines.
 
-Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) when
+Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) when
 latency and replay drive the design. It also covers cost and operations. Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) when the
+[ML pipelines]({{ '/wiki/mlops-architecture/' | relative_url }}) when the
 pipeline publishes features, training data, or model artifacts. They also
 apply when the pipeline publishes online predictions or feedback data.

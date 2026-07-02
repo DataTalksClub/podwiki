@@ -81,7 +81,7 @@ Flink and Spark can each play a part, while Parquet and S3 appear with databases
 in her example. Production recommendation systems depend on
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
+and [batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
 
 Daniel gives the retrieval-and-ranking definition. In
 [Building Search Systems at 12:45]({{ '/podcasts/building-production-search-systems/' | relative_url }}),

@@ -306,7 +306,7 @@ Use [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | 
 for fairness, explainability, human oversight, and post-launch review.
 
 For implementation details, use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
+[MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) and
 [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for release
 controls. Use
 [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})

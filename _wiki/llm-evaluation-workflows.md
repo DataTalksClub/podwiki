@@ -56,7 +56,7 @@ change becomes more expensive to check. Hugo's 24:18-25:25 discussion in
 therefore treats size as a cost and coverage tradeoff. The set should be large
 enough to avoid overfitting to a few examples, but small enough that teams
 actually run it. Use
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) when the
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) when the
 eval result is deciding whether to change prompts and retrieval or change model
 behavior through fine-tuning.
 
