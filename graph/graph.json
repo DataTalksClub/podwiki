@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 134,
     "nodes": 1152,
-    "links": 13026
+    "links": 13025
   },
   "nodes": [
     {
@@ -7599,7 +7599,7 @@
       "label": "Career Transition",
       "title": "Career Transition",
       "url": "/search.html?q=Career%20Transition",
-      "count": 64,
+      "count": 63,
       "search": "Career Transition"
     },
     {
@@ -38338,12 +38338,6 @@
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:career-transitions-in-data",
-      "target": "topic:career-transition",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:career-transitions-in-data",

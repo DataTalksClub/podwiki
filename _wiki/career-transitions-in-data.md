@@ -3,7 +3,6 @@ layout: wiki
 title: "Career Transitions in Data"
 summary: "How DataTalks.Club guests describe moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
 related:
-  - Career Transition
   - Job Search
   - Career Growth
   - Data Scientist Role
@@ -54,7 +53,6 @@ open-source contributions help too.
 
 Freelancers need client-facing offers and trust signals. Because proof changes
 by role, candidates need the broad framing from
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) and
 [job search]({{ '/wiki/job-search/' | relative_url }}) alongside
 target-specific role and portfolio evidence.
 
@@ -474,7 +472,6 @@ evidence. The broad transition and hiring hubs are
 [Job Search]({{ '/wiki/job-search/' | relative_url }}),
 [Career Growth]({{ '/wiki/career-growth/' | relative_url }}), and
 [Hiring]({{ '/wiki/hiring/' | relative_url }}).
-  - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 
 Candidates then need target-role proof:
 
