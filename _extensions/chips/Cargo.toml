@@ -1,0 +1,24 @@
+# Standalone crate (its own empty [workspace] table) so it is NOT pulled into
+# any surrounding cargo workspace. It targets wasm and is built separately (see
+# README.md / .github/workflows/build-chips-wasm.yml). The resulting
+# `chips.wasm` is committed at `_extensions/chips.wasm` so the deploy build needs
+# no Rust toolchain.
+[workspace]
+
+[package]
+name = "podwiki-chips"
+version = "0.1.0"
+edition = "2021"
+description = "rustkyll WASM extension: rewrite [[...]] entity tokens into typed chip anchors"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+extism-pdk = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = "s"
+lto = true

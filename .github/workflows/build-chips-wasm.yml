@@ -1,0 +1,53 @@
+name: Build chips.wasm
+
+# Rebuild the committed `_extensions/chips.wasm` whenever the plugin source
+# changes, and commit the fresh artifact back to the branch. This keeps the
+# main deploy workflow free of any Rust toolchain: it just consumes the
+# committed `_extensions/chips.wasm`.
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "_extensions/chips/**"
+      - ".github/workflows/build-chips-wasm.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "build-chips-wasm"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install Rust + wasm target
+        run: |
+          rustup toolchain install stable --profile minimal
+          rustup target add wasm32-wasip1
+          rustup default stable
+
+      - name: Build chips.wasm
+        working-directory: _extensions/chips
+        run: |
+          cargo test
+          cargo build --release --target wasm32-wasip1
+          cp target/wasm32-wasip1/release/podwiki_chips.wasm ../chips.wasm
+
+      - name: Commit updated artifact
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- _extensions/chips.wasm; then
+            echo "chips.wasm unchanged; nothing to commit."
+            exit 0
+          fi
+          git add _extensions/chips.wasm
+          git commit -m "CI: rebuild _extensions/chips.wasm"
+          git push
