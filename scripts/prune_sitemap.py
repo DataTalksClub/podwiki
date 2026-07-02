@@ -65,7 +65,7 @@ def prune(sitemap: Path, site: Path, baseurl: str) -> tuple[int, int, int]:
                     stamped += 1
                     return block.replace(
                         loc.group(0),
-                        f"{loc.group(0)}<lastmod>{dates['last_modified_at']}</lastmod>",
+                        f"{loc.group(0)}<lastmod>{dates['modified']}</lastmod>",
                     )
         return block
 

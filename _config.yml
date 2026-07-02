@@ -5,6 +5,8 @@ title: DataTalks.Club Podcast Wiki
 description: Topic hubs, guides, people pages, and exploration search for the DataTalks.Club podcast archive.
 permalink: pretty
 search_api_url: "https://2zoro3dw5xu4jk6uo4u3q2dfim0nhdgb.lambda-url.eu-west-1.on.aws/"
+og_image: "/assets/og-default.png"
+logo: "/assets/og-default.png"
 
 exclude:
   - .bin/

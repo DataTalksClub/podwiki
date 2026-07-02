@@ -15,6 +15,23 @@
     {% elsif page.source_url and page.collection == "books" %}
       {% assign canonical_url = page.source_url %}
     {% endif %}
+    {% assign og_image = page.image | default: site.og_image %}
+    {% if og_image %}
+      {% unless og_image contains '://' %}
+        {% assign og_image = site.url | append: site.baseurl | append: og_image %}
+      {% endunless %}
+    {% endif %}
+    {% assign logo_url = site.logo %}
+    {% if logo_url %}
+      {% unless logo_url contains '://' %}
+        {% assign logo_url = site.url | append: site.baseurl | append: logo_url %}
+      {% endunless %}
+    {% endif %}
+    {% if page.collection == "wiki" %}
+      {% assign wiki_slug = page.url | replace: '/wiki/', '' | replace: '/', '' %}
+      {% assign wiki_date = site.data.wiki_dates[wiki_slug] %}
+      {% assign wiki_keywords = page.tags | default: page.related %}
+    {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -36,11 +53,17 @@
     <meta property="og:description" content="{{ page_description | escape }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ canonical_url }}">
-    <meta name="twitter:card" content="summary">
+    {% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+    {% if wiki_date %}<meta property="article:modified_time" content="{{ wiki_date.modified }}">
+    <meta property="article:published_time" content="{{ wiki_date.published }}">{% endif %}
+    <meta name="twitter:card" content="{% if og_image %}summary_large_image{% else %}summary{% endif %}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
     <meta name="twitter:description" content="{{ page_description | escape }}">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    {% if og_image %}<meta name="twitter:image" content="{{ og_image }}">{% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/pagecss/listings.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/pagecss/content.css' | relative_url }}">
@@ -48,6 +71,58 @@
     <link rel="stylesheet" href="{{ '/assets/pagecss/chips.css' | relative_url }}">
     <script>
       window.PODWIKI_BASE_URL = "{{ site.baseurl }}";
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+          "url": "{{ site.url }}{{ site.baseurl }}/",
+          "name": {{ site.title | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "inLanguage": "en",
+          "publisher": { "@id": "https://datatalks.club/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site.url }}{{ site.baseurl }}/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://datatalks.club/#organization",
+          "name": "DataTalks.Club",
+          "url": "https://datatalks.club/"{% if logo_url %},
+          "logo": "{{ logo_url }}"{% endif %}
+        }{% if page.collection == "wiki" %},
+        {
+          "@type": "TechArticle",
+          "@id": "{{ canonical_url }}#article",
+          "headline": {{ page.title | jsonify }},
+          "description": {{ page_description | jsonify }},
+          "url": "{{ canonical_url }}",
+          "mainEntityOfPage": "{{ canonical_url }}",
+          "isPartOf": { "@id": "{{ site.url }}{{ site.baseurl }}/#website" },
+          "author": { "@id": "https://datatalks.club/#organization" },
+          "publisher": { "@id": "https://datatalks.club/#organization" }{% if og_image %},
+          "image": "{{ og_image }}"{% endif %}{% if wiki_keywords %},
+          "keywords": {{ wiki_keywords | join: ", " | jsonify }}{% endif %}{% if wiki_date %},
+          "datePublished": "{{ wiki_date.published }}",
+          "dateModified": "{{ wiki_date.modified }}"{% endif %}
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "{{ canonical_url }}#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}{{ site.baseurl }}/" },
+            { "@type": "ListItem", "position": 2, "name": "Wiki", "item": "{{ site.url }}{{ site.baseurl }}/wiki/" },
+            { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ canonical_url }}" }
+          ]
+        }{% endif %}
+      ]
+    }
     </script>
   </head>
   <body>
