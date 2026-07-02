@@ -9,8 +9,6 @@ related:
   - Data Engineering Portfolio Projects
 ---
 
-# Freelance Data Engineering and Consulting
-
 DataTalks.Club guests treat freelance data engineering, data consulting, and
 consultant-style AI work as more than a career-label change. They describe a
 small services business around data problems. The work includes client

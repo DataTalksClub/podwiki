@@ -12,8 +12,6 @@ related:
   - Open Source and Developer Relations
 ---
 
-# Solopreneur
-
 A solopreneur is an [entrepreneur]({{ '/wiki/entrepreneurship/' | relative_url }})
 who chooses an intentionally small business. In the DataTalks.Club podcast,
 solopreneurship usually means independent [data science]({{ '/wiki/data-science/' | relative_url }}),

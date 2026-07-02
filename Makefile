@@ -40,6 +40,9 @@ links: build ## Check generated internal links
 content-audit: ## Report wiki/article pages that need citation and link cleanup
 	python scripts/audit_content_quality.py
 
+seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
+	python scripts/audit_seo.py
+
 check: lambda-package links ## Build search index/package, static HTML, and link check
 
 clean: ## Remove generated build artifacts
