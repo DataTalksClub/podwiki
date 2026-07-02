@@ -127,9 +127,10 @@ steps while tests stay close to the code that owns the logic.
 Thin DAGs also make review easier. A reviewer can read the DAG to understand
 the order of steps, then look at the actual transformation code in the
 repository. That links Airflow to
-[data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-and the [Airflow Docker Compose how-to]({{ '/wiki/airflow-docker-compose/' | relative_url }}).
-Use the Compose page for local setup. Use this wiki page for the concept and
+[data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
+is the canonical local setup guide. Use this wiki page for the concept and
 operating boundary.
 
 ## Data Quality Boundary
@@ -197,8 +198,9 @@ He discusses course projects with Airflow, MinIO, Spark, and MySQL. The setup
 also includes Docker Compose and the Airflow web server. He uses environment
 variables and a warehouse path in the same project.
 
-Use the [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
-how-to for a local development or portfolio environment. Keep Compose small by
+Follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
+for a local development or portfolio environment. Keep Compose small by
 using one DAG and a few real pipeline steps. Mount the code, keep logs visible,
 and add one data check that can fail.
 
@@ -211,7 +213,6 @@ retention, and alerts can also justify the platform work. Backfills can too.
 These pages cover the concepts and comparisons used above.
 
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

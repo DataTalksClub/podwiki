@@ -130,8 +130,8 @@ jobs. Tools such as Airbyte focus on the extract-load part, while dbt handles
 warehouse transformations
 ([Airflow Airbyte and dbt roles at 30:59-33:45](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)).
 
-For a local learning or portfolio setup, use
-[Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+For a local learning or portfolio setup, follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 to run the scheduler, UI, and metadata database. It also keeps the DAG folder
 and logs in one reviewable environment.
 

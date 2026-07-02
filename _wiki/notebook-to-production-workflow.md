@@ -179,7 +179,7 @@ For the broader pipeline sequence, use
 and [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}). Use
 [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 when freshness changes the architecture. Use
-[Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
 only after your workflow needs scheduling, dependencies, retries,
 or backfills.
 

@@ -154,8 +154,8 @@ can also sequence checks, but it shouldn't hide the business logic inside a
 tangle of tasks. The pipeline remains easier to review when ingestion,
 transformation, checks, and publication each have an explicit role.
 
-For a local Airflow project, the
-[Airflow Docker Compose local stack]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+For a local Airflow project, DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 keeps the scheduler, UI, and metadata database visible. It also keeps the DAG
 folder and logs visible.
 

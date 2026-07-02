@@ -173,7 +173,8 @@ Add schema checks for:
 6. Schema agreement changes that need consumer approval before publication.
 
 For orchestration practice, keep schema checks close to the code that reads or
-publishes the data. [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+publishes the data. DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 shows one local setup. The check should usually live in a test layer such as SQL
 or dbt. Python, Great Expectations, and Soda can serve the same role.
 
@@ -362,8 +363,8 @@ For Airflow projects, make checks visible as tasks or task groups:
 6. Notify consumers or quarantine output when checks fail.
 7. Trigger a retry, rollback, or backfill path when the runbook allows it.
 
-For a local Airflow setup, use
-[Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }}).
+For a local Airflow setup, follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html).
 This rule is broader than Airflow: a green orchestrator run should mean the
 data agreement passed, not merely that the Python task exited.
 

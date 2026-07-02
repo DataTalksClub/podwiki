@@ -213,8 +213,8 @@ in
 at 30:34 he breaks a data platform into storage, compute, and workflow engine.
 At 46:52, he discusses data quality measurements and schema automation as part
 of DataOps maturity.
-Use the
-[Airflow Docker Compose how-to]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+Follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 when you need a local Airflow project that a reviewer can start, break, look
 at, and rerun.
 

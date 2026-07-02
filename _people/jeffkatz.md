@@ -59,8 +59,8 @@ not just a checklist of services. He still treats
 warehouses, and
 [Docker/tools]({{ '/wiki/data-engineering-tools/' | relative_url }}) as important,
 but the tools should reveal engineering ability rather than hide weak code.
-The [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
-how-to follows the same principle: keep most pipeline logic in normal code and
+The [orchestration]({{ '/wiki/orchestration/' | relative_url }}) boundary
+follows the same principle: keep most pipeline logic in normal code and
 let Airflow coordinate it.
 
 ## Portfolio Projects and Code Quality

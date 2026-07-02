@@ -294,8 +294,8 @@ The decision should end in a build plan:
 - Use
   [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
   to audit the project before applying.
-- Use
-  [Airflow Docker Compose]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+- Follow DataTalks.Club's
+  [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
   if your course project needs a local orchestration setup reviewers can run.
 
 Use the course as the support system. Leave with a project you can run, debug,

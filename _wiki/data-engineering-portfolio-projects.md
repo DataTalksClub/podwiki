@@ -278,8 +278,8 @@ support environment setup and deployment or scheduling notes
 ([DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 [Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)).
 If the project uses Airflow, the DAG should have real dependencies, checks, and
-rerun behavior. The local setup can use the
-[Airflow Docker Compose portfolio project]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+rerun behavior. The local setup can follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 once the pipeline is already meaningful.
 
 The interview story should explain one or two tradeoffs. Katz describes the

@@ -114,8 +114,8 @@ Spark, Kafka, and Kubernetes.
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
 [Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) when the dependencies
-justify it. Use the
-[Airflow Docker Compose setup]({{ '/wiki/airflow-docker-compose/' | relative_url }})
+justify it. Follow DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 when a local reviewer should look at the Airflow UI, task logs, and rerun
 behavior. [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html)
 describes Docker and reproducibility at 21:25 in
