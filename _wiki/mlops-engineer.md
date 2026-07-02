@@ -8,6 +8,7 @@ related:
   - ML Platforms
   - Machine Learning Engineer Role
   - Data Engineer Role
+  - DataOps Engineer Role
   - Platform Engineering
   - Model Monitoring
   - Model Registry
@@ -205,7 +206,8 @@ sit in the same ownership area.
 
 MLOps engineers use that data foundation for
 model artifacts and serving paths. It also supports monitoring and retraining
-decisions
+decisions. The mirror role on the data side, which owns that upstream operating
+path, is the [[dataops-engineer-role|DataOps engineer]]
 ([[MLOps]],
 [[DataOps]],
 [[MLOps vs DataOps]]).

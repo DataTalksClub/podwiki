@@ -7,6 +7,7 @@ related_wiki:
   - DataOps
   - Data Engineering
   - Data Engineer Role
+  - DataOps Engineer Role
   - Data Engineering Platforms
   - DataOps Platforms
   - Data Engineering Tools
@@ -146,7 +147,8 @@ He puts DataOps closer to support, communication, and onboarding. Monitoring
 and cross-team education belong there too. That doesn't remove engineering
 work. It explains why
 DataOps often shows up as enablement around the engineers who write and operate
-pipelines.
+pipelines. When that enablement work is owned as a dedicated job rather than a
+shared habit, see the [[dataops-engineer-role|DataOps engineer role]].
 
 ## Shared Pipeline Work
 

@@ -9,6 +9,7 @@ related:
   - MLOps
   - Platform Adoption
   - Self-Service Data Platforms
+  - DataOps Engineer Role
 ---
 
 Platform engineering is the work of building shared internal systems. Those
@@ -222,7 +223,9 @@ asset. [[Data Engineering Platforms]]
 and [[DataOps]] focus on reliable data
 movement, contracts, conventions, and quality. Platform engineering is the
 operating model that can support both sides, but the artifact being served is
-different.
+different. When a data team owns that operating path as a dedicated job, the
+role is the [[dataops-engineer-role|DataOps engineer]],
+the data-side counterpart to this platform work.
 
 ## Reliability
 

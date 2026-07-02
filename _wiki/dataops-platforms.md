@@ -4,6 +4,8 @@ title: "DataOps Platforms"
 summary: "How DataTalks.Club podcast guests discuss DataOps platforms as the operating layer for reliable pipelines, CI/CD, observability, governance, and self-service data delivery."
 related:
   - DataOps
+  - DataOps Tools
+  - DataOps Engineer Role
   - Data Engineering Platforms
   - Self-Service Data Platforms
   - Data Quality and Observability
@@ -25,7 +27,9 @@ They describe it as the practical overlap between
 [[DataOps]] and
 [[Data Engineering Platforms]].
 The platform makes repeatable data work easier for many teams. DataOps
-practices make that platform reviewable, testable, observable, and recoverable.
+practices make that platform reviewable, testable, observable, and recoverable,
+and the person who owns that operating path across teams is the
+[[dataops-engineer-role|DataOps engineer]].
 Use [[self-service-data-platforms|Self-Service Data Platforms]]
 when the main question is enablement for analysts, data scientists, software
 engineers, or domain teams.
@@ -155,9 +159,10 @@ Object storage, governance, and self-service SQL sit in that discussion too.
 [[person:adrianbrudaru|Adrian Brudaru]] updates that
 layer in
 [[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
-Around 18:17-23:41, he explains Iceberg and the storage-compute split. Around
-35:37, he compares Airflow and Prefect. He also covers Dagster and GitHub
-Actions as workflow choices.
+Around 18:17-23:41, he explains Iceberg and the storage-compute split, the
+platform-architecture decision this page cares about. The orchestrator and
+workflow-tool choices that sit on top of it (Airflow, Prefect, Dagster, and
+CI-based workflows) belong in [[DataOps Tools]].
 
 The platform boundary is broader than a scheduler and narrower than "all data
 infrastructure." It coordinates storage, compute, and workflow for recurring
@@ -190,6 +195,9 @@ configuration and reproducibility. Around 26:21, he describes the branch and
 merge-request flow, with Atlantis dry runs and applies completing the release
 path. In a DataOps platform, the same review habit should cover pipeline code,
 dependencies, and secrets. Environments and access workflows need review too.
+The CI/CD, testing, and deployment tool categories that fill this path are
+covered in [[DataOps Tools]]; this page
+stays on how they harden into a shared release layer.
 
 ## Observability and Recovery
 

@@ -8,6 +8,7 @@ related:
   - Data Engineer vs Data Scientist
   - Analytics Engineering
   - DataOps
+  - DataOps Engineer Role
   - Data Engineer Roadmap
   - Self-Service Data Platforms
   - Data Engineering Portfolio Projects
@@ -218,7 +219,9 @@ title split. Data engineers build and maintain pipelines, datasets,
 orchestration, and platforms. DataOps names the review and testing practices
 teams use to operate that work reliably. It also covers deployment,
 observability, and recovery. The full comparison lives in
-[[DataOps vs Data Engineering]].
+[[DataOps vs Data Engineering]],
+and the operating job itself is the
+[[dataops-engineer-role|DataOps engineer role]].
 
 The boundary with a
 [[data-scientist-role|data scientist]] is about

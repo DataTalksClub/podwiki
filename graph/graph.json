@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 135,
     "nodes": 1147,
-    "links": 5248
+    "links": 5255
   },
   "nodes": [
     {
@@ -9763,7 +9763,7 @@
       "title": "DataOps Engineer Role",
       "url": "/wiki/dataops-engineer-role/",
       "count": 1,
-      "search": "DataOps Engineer Role Reference for the DataOps engineer role across ownership, role boundaries, CI/CD, observability, orchestration, quality, and team design."
+      "search": "DataOps Engineer Role Reference for the DataOps engineer role: whether it should be a dedicated job or a shared practice, when to hire one, and how it differs from the data engineer, platform engineer, and MLOps engineer roles."
     },
     {
       "id": "wiki:dataops-platforms",
@@ -33046,6 +33046,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
@@ -35182,6 +35188,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:dataops-platforms",
       "kind": "wiki-related",
       "weight": 3
@@ -35236,12 +35248,6 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
-      "target": "wiki:ci-cd",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-related",
       "weight": 3
@@ -35249,12 +35255,6 @@
     {
       "source": "wiki:dataops-engineer-role",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35272,13 +35272,25 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
       "target": "wiki:mlops-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:dataops-engineer-role",
-      "target": "wiki:orchestration",
+      "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35321,6 +35333,18 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:dataops-tools",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35429,6 +35453,12 @@
     {
       "source": "wiki:dataops-vs-data-engineering",
       "target": "wiki:dataops",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-vs-data-engineering",
+      "target": "wiki:dataops-engineer-role",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -39340,6 +39370,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
@@ -40523,6 +40559,12 @@
     {
       "source": "wiki:platform-adoption",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "wiki:dataops-engineer-role",
       "kind": "wiki-related",
       "weight": 3
     },

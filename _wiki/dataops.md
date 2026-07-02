@@ -4,6 +4,7 @@ title: "DataOps"
 summary: "How DataTalks.Club podcast guests describe and practice DataOps: the operating discipline that makes changes to data pipelines, analytics workflows, and data platforms reviewable, testable, observable, and recoverable."
 related:
   - DataOps Platforms
+  - DataOps Engineer Role
   - Data Engineering Platforms
   - Data Engineering Tools
   - Data Quality and Observability
@@ -49,7 +50,9 @@ DataOps isn't a new job title or a synonym for
 [[Data Engineering]]. It's the
 operating model around data changes. Version control, tests, and CI/CD guide
 release work. Observability, ownership, and recovery keep pipelines and data
-products reliable after release.
+products reliable after release. When that operating model has to be owned
+across teams rather than adopted inside one, it can become a dedicated
+[[dataops-engineer-role|DataOps engineer role]].
 
 [[book:20210913-dataops-for-dummies|DataOps for Dummies]]
 by Justin Mullen and Guy Adams gives a short overview of the same operating
