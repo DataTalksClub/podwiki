@@ -13,13 +13,13 @@ related:
 
 Sensor ML with personal baselines uses longitudinal sensor history to learn what
 is normal for one subject. The system can then raise alerts about deviations. In
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]],
-[[person:sofyayulpatova|Sofya Yulpatova]] describes
+[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
+[[person:sofyayulpatova=>Sofya Yulpatova]] describes
 Fit Tails as a pet-health device. It treats dog behavior as an individual
 anomaly-detection problem rather than a generic activity classifier.
 
 Treat this as a concrete
-[[machine-learning-portfolio-projects|machine learning portfolio project]].
+[[machine-learning-portfolio-projects=>machine learning portfolio project]].
 A project version should collect sensor history, create simple labels, build a
 personal baseline, and explain the product action. The topic sits near
 [[Machine Learning System Design]],
@@ -32,7 +32,7 @@ context changes, and make alerts useful to an owner or vet.
 
 Sofya's core framing is that early health signals appear as behavior changes
 over time. Around 29:39 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]],
+[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
 she names sleep fragmentation and restlessness as useful signals. She also
 includes movement variability, movement quality, and movement quantity. She
 argues that this is closer to anomaly detection than classification because the
@@ -43,7 +43,7 @@ activity needs, and sleep. A global
 "normal dog" can hide the signal that matters for one animal.
 
 The baseline isn't available on day one. Around 43:35,
-[[person:sofyayulpatova|Sofya]] says Fit Tails needs
+[[person:sofyayulpatova=>Sofya]] says Fit Tails needs
 two or three weeks to learn normal behavior. People, weather, new family
 members, and changed routines can disturb a dog's routine
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|episode]]).
@@ -56,7 +56,7 @@ the individual baseline.
 ## Sleep and IMU Signals
 
 The sensor data in Sofya's example comes from an IMU collar. Around 34:42 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]],
+[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
 she explains that the device uses gyroscope, accelerometer, and magnetometer
 readings across axes. It tracks orientation and movement to infer activity
 states such as walking, playing, running, and sleeping. Around 37:05, she
@@ -65,7 +65,7 @@ sleep, and whether the dog moves during sleep.
 
 The sleep focus matters because the product isn't trying to duplicate a human
 wearable feature list. Around 41:27,
-[[person:sofyayulpatova|Sofya]] says sleep is the
+[[person:sofyayulpatova=>Sofya]] says sleep is the
 second-most important metric after weight for Fit Tails. Weight is visible but
 often too late. Sleep changes can reveal pain or other issues before activity
 changes appear
@@ -78,8 +78,8 @@ tests are needed.
 ## Long-Term History as Product Feedback
 
 The product loop starts with a real owner problem. Around 26:48-28:40 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]],
-[[person:sofyayulpatova|Sofya]] describes anxiety over
+[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
+[[person:sofyayulpatova=>Sofya]] describes anxiety over
 her dog's health condition and frequent vet visits. She also describes
 frustration that existing trackers showed steps or calories without deeper
 behavioral insight. A useful product lesson follows for
@@ -112,7 +112,7 @@ In a README, explain which tasks work immediately. Also explain which tasks
 require weeks of history and what contextual changes can invalidate an alert.
 
 The system-design version should include a small
-[[data-pipelines|data pipeline]] for raw IMU
+[[data-pipelines=>data pipeline]] for raw IMU
 events, derived activity and sleep features, and per-subject baseline storage.
 It should also produce alert outputs and include a
 [[model monitoring]] story. Watch
@@ -145,5 +145,5 @@ contexts.
 - [[Model Monitoring]]
 - [[AI Product Feedback Loops]]
 - [[Startups]]
-- [[person:sofyayulpatova|Sofya Yulpatova]]
-- [[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech: ML, Sensors, and Dog Behavior Data]]
+- [[person:sofyayulpatova=>Sofya Yulpatova]]
+- [[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech: ML, Sensors, and Dog Behavior Data]]

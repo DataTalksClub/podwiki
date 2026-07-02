@@ -19,7 +19,7 @@ related:
 QA to ML and data engineering is the transition from testing work into
 model-backed systems, data pipelines, or adjacent data-quality roles. The direct
 DataTalks.Club example is
-[[person:alvaronavaspeire|Alvaro Navas Peire]]. He
+[[person:alvaronavaspeire=>Alvaro Navas Peire]]. He
 moved from Android-phone QA and field testing into machine-learning study,
 data-engineering coursework, and ML/NLP project work
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's Android QA starting point at 1:15-3:56]]).
@@ -30,7 +30,7 @@ learning and role-shaped projects with cloud practice and public notes. His
 interview framing connects testing discipline to the target role
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's structured learning, projects, and interview prep at 13:32-45:28]]).
 That places the page inside
-[[career-transitions-in-data|Career Transition]],
+[[career-transitions-in-data=>Career Transition]],
 [[Career Transitions in Data]],
 [[Testing]], and
 [[Job Search]].
@@ -47,7 +47,7 @@ QA-to-data-engineering should route toward
 [[Data Engineer Role]],
 the [[Data Engineer Roadmap]],
 and
-[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]].
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
 Alvaro separates math-heavy ML from tooling-focused data engineering near the
 end of his interview
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's target-role discussion at 47:39-59:51]]).
@@ -100,9 +100,9 @@ background helps for high-level model experimentation. Data engineering depends
 more on Spark, Kafka, Docker, and Kubernetes on top of programming foundations
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's target-role distinction at 47:39-59:51]]).
 
-[[person:svpino|Santiago Valdarrama]] uses coding and
+[[person:svpino=>Santiago Valdarrama]] uses coding and
 shipped projects to set the software-to-ML boundary.
-[[podcast:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning]]
+[[podcast:from-software-engineer-to-machine-learning=>From Software Engineering to Machine Learning]]
 treats coding as a core ML skill. Santiago recommends building projects before
 overpreparing on theory. His ML engineering path includes Python, Pandas, and
 scikit-learn. It also includes deployment, Docker, APIs, and cloud providers
@@ -114,9 +114,9 @@ automation experience. Relevant pages are
 and
 [[Machine Learning for Software Engineers]].
 
-[[person:jeffkatz|Jeff Katz]] defines the
+[[person:jeffkatz=>Jeff Katz]] defines the
 data-engineering route around fundamentals first. In
-[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 he emphasizes Python and SQL. He also emphasizes cloud fundamentals, backend
 engineering, ETL, and codebase navigation. He explains why junior curricula
 shouldn't over-prioritize Spark, Kafka, and Kubernetes before the fundamentals
@@ -124,19 +124,19 @@ are strong
 ([[podcast:data-engineering-career-path-and-skills|Jeff's data-engineering fundamentals at 23:35-38:05]]).
 
 In
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
 Jeff adds Python/SQL depth and warehouse fundamentals. He also adds Docker and
 Airflow. Clean code, tests, portfolio projects, and technical interview formats
 matter too.
 This version of the transition points toward the
-[[data-engineer-roadmap|Data Engineering Roadmap]]
+[[data-engineer-roadmap=>Data Engineering Roadmap]]
 and [[Data Engineer Roadmap]]
 rather than model research
 ([[podcast:get-data-engineering-job-prep-and-interview|Jeff's data-engineering job-prep scope at 1:20-9:41]]).
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]] makes
+[[person:juanmanuelperafan=>Juan Manuel Perafan]] makes
 testing part of the data-role boundary. In
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 he separates testing data from testing code. He shows how a manual dashboard
 checklist can become dbt generic tests, singular tests, unit tests, and CI
 checks
@@ -146,9 +146,9 @@ His example makes
 and [[Analytics Engineering]]
 natural adjacent paths for QA people who want to stay close to validation.
 
-[[person:benwilson|Ben Wilson]] gives the production-ML
+[[person:benwilson=>Ben Wilson]] gives the production-ML
 version of the boundary. In
-[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]],
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]],
 he frames ML work as iterative, executable, maintainable code.
 His example includes feature engineering and placeholder models. It also
 includes unit tests and integration tests from ingest to prediction. Monitoring
@@ -167,13 +167,13 @@ validation, field routes, and written reports
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's QA validation routines at 3:56-8:18]]).
 
 For ML work, the QA habit should become evaluation and failure analysis.
-[[person:svpino|Santiago Valdarrama]] presents ML as
+[[person:svpino=>Santiago Valdarrama]] presents ML as
 building working systems, not only studying algorithms.
-[[person:benwilson|Ben Wilson]] emphasizes
+[[person:benwilson=>Ben Wilson]] emphasizes
 unit-tested feature engineering plus integration tests from ingest to
 prediction
 ([[podcast:from-software-engineer-to-machine-learning|Santiago's deployed-project guidance at 33:10-51:21]],
-[[podcast:machine-learning-engineering-production-best-practices|Ben's ingest-to-prediction test example at 52:14-59:27]]).
+[[podcast:machine-learning-engineering-production-best-practices=>Ben's ingest-to-prediction test example at 52:14-59:27]]).
 
 Alvaro's image-classification project and cloud deployment are useful because
 they're concrete evidence. The interview story becomes stronger when the
@@ -272,16 +272,16 @@ For QA-to-data-engineering candidates, a useful portfolio project should show
 ingestion and transformation. It should also show SQL depth, data quality
 tests, and orchestration. Recovery behavior belongs in the project too
 ([[Data Engineering Portfolio Projects]],
-[[podcast:get-data-engineering-job-prep-and-interview|Jeff's data-engineering job-prep scope at 1:20-9:41]]).
+[[podcast:get-data-engineering-job-prep-and-interview=>Jeff's data-engineering job-prep scope at 1:20-9:41]]).
 
-[[person:santonatuli|Santona Tuli]] and
-[[person:nataliekwong|Natalie Kwong]] show the pipeline
+[[person:santonatuli=>Santona Tuli]] and
+[[person:nataliekwong=>Natalie Kwong]] show the pipeline
 version through ingestion and transformation. They also cover marts,
 orchestration, and consumer-facing outputs
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Santona pipeline structure at 37:10-43:05]],
-[[podcast:data-engineering-tools-modern-data-stack|Natalie modern stack details at 15:30-30:59]]).
+[[podcast:data-engineering-tools-modern-data-stack=>Natalie modern stack details at 15:30-30:59]]).
 Use
-[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]]
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]
 when the transition project needs one concrete data-engineering blueprint.
 A QA background strengthens the story when the README explains what can break,
 which tests catch it, and how to rerun the pipeline.
@@ -311,7 +311,7 @@ The CV should make the bridge obvious. Alvaro's episode includes CV and
 portfolio tips near the end
 ([[podcast:how-to-transition-into-ml-and-data-engineering-from-qa|Alvaro's CV and portfolio tips at 1:00:26-1:02:11]]).
 
-[[person:alvaronavaspeire|Alvaro Navas Peire]] gives
+[[person:alvaronavaspeire=>Alvaro Navas Peire]] gives
 the episode context for Android QA and ML/data-engineering courses. The
 candidate should present QA work as evidence of validation and communication.
 They can then present ML or data engineering projects as evidence of the target

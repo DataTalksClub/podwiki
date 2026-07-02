@@ -22,19 +22,19 @@ may also be a production tool or infrastructure system. The model is only one
 part of the system. The useful work is to turn messy signals into decisions that
 operators, customers, or embedded systems can trust.
 
-[[person:dashelruizperez|Dashel Ruiz Perez]] describes
+[[person:dashelruizperez=>Dashel Ruiz Perez]] describes
 semiconductor yield work where fab tools produce millisecond-level logs. In that
 setting, predictive maintenance is measured by fewer wafers at risk
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning, 8:49-25:35]]).
-[[person:sofyayulpatova|Sofya Yulpatova]] describes pet
+[[person:sofyayulpatova=>Sofya Yulpatova]] describes pet
 health ML as sensor-based anomaly detection around each dog's long-term baseline
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech, 29:39-43:35]]).
 
-[[person:abouzarabbaspour|Abouzar Abbaspour]] describes
+[[person:abouzarabbaspour=>Abouzar Abbaspour]] describes
 theme-park crowd routing through queue prediction and capacity modeling.
 Next-best-action recommendations depend on app adoption and live measurement
 ([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling, 12:32-17:50]]).
-[[person:aishwaryajadhav|Aishwarya Jadhav]] adds the
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] adds the
 safety-critical version in autonomous driving. Sensor data, simulation,
 closed-track tests, and labeling define what "production" means. Release staging
 belongs to that same production boundary
@@ -178,9 +178,9 @@ That's the safety-critical version of the same [[evaluation]]
 principle. Offline model quality isn't enough when the model acts in a physical
 world.
 
-[[person:rosonaeldred|Rosona]] broadens the industrial
+[[person:rosonaeldred=>Rosona]] broadens the industrial
 data picture beyond semiconductors. In
-[[podcast:industrial-data-small-data-production-machine-learning|Industrial Data and Small-Data Production ML]],
+[[podcast:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]],
 she describes paint and chemical production where ingredients, infrared spectra,
 and material properties form a "tiny data" regime. Neural nets rarely fit: the
 answer is statistical methods, transfer learning, and domain experts who hold

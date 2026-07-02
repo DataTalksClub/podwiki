@@ -34,7 +34,7 @@ for production design and
 [[AI Engineer Role]] for the role
 boundary.
 Use
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 for retrieval architecture.
 [[LLM Evaluation Workflows]]
 covers the tests that keep a RAG system from becoming a demo with no regression
@@ -83,7 +83,7 @@ and the
 
 ## Add RAG For Changing Knowledge
 
-[[retrieval-augmented-generation|RAG]] is useful when the answer depends on
+[[retrieval-augmented-generation=>RAG]] is useful when the answer depends on
 external, changing, or inspectable knowledge. Don't describe it as model memory.
 It's a retrieval and context-packaging system.
 
@@ -160,8 +160,8 @@ for monitoring controls.
 Adjacent production-system topics:
 
 - [[LLM Production Patterns]]
-- [[retrieval-augmented-generation|RAG]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>RAG]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[Search]]
 - [[LLM Evaluation Workflows]]
 - [[Production Search Evaluation]]
@@ -170,6 +170,6 @@ Adjacent production-system topics:
 - [[AI Engineering Roadmap]]
 - [[RAG Portfolio Projects]]
 - [[Search and RAG Project Checklist]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[AI Red Teaming]]
 

@@ -14,17 +14,17 @@ Event tracking records product and customer actions as named events. Teams add
 properties, owners, and collection context to those events. In DataTalks.Club
 discussions, teams use those events for
 [[product analytics]] and
-[[data-led-growth|data-led growth]]. They also use
+[[data-led-growth=>data-led growth]]. They also use
 them for [[data activation]] and
-[[a-b-testing|A/B testing]].
+[[a-b-testing=>A/B testing]].
 
 The same events can feed dashboards and experiments. They can also feed support
 views, sales prioritization, onboarding messages, and personalized product
 experiences.
 
-[[person:arpitchoudhury|Arpit Choudhury]] gives the
+[[person:arpitchoudhury=>Arpit Choudhury]] gives the
 clearest product-growth framing in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 At 13:34, he starts with
 [[tracking plans]]. Teams document
 event names and properties before engineers instrument the product. They also
@@ -34,15 +34,15 @@ flow from collection to storage and analysis.
 At 30:03, event data reaches support and sales as well as engagement tools and
 product experiences.
 
-[[person:nataliekwong|Natalie Kwong]] gives the
+[[person:nataliekwong=>Natalie Kwong]] gives the
 warehouse-centered view in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 Her discussion of raw storage, warehouse layers, transformations, and
 guardrails explains why product events need clear definitions after collection
 too. Her operational reverse data flow discussion extends the same idea to
 business tools. [[person:jakobgraff|Jakob Graff]] adds
 the experiment boundary in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
 Event tracking can describe behavior, but causal product decisions also need
 randomization and assignment tracking. They also need stable metrics, A/A
@@ -152,7 +152,7 @@ recurring analysis
 ([[podcast:data-engineering-tools-modern-data-stack|modern data stack at 43:02-45:59]]).
 That puts event tracking near
 [[data quality and observability]],
-[[data-quality-and-observability|data observability]],
+[[data-quality-and-observability=>data observability]],
 [[data governance]], and
 [[modern data stack]] work.
 
@@ -210,5 +210,5 @@ Together, those discussions put event tracking at the junction of
 [[product analytics]]. They also
 tie it to [[data activation]] and
 [[reverse ETL]].
-[[experimentation-and-causal-inference|Experimentation]]
+[[experimentation-and-causal-inference=>Experimentation]]
 belongs in the same measurement surface.

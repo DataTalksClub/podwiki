@@ -30,10 +30,10 @@ sepsis prediction and pediatric monitoring in Malawi, alongside medical imaging,
 annotation scarcity, regulatory sensitivity, and low-resource deployment
 ([[podcast:building-healthcare-machine-learning-systems|Building Healthcare ML Systems]]).
 
-[[person:mariabruckert|Maria Bruckert]] adds the digital clinic and telemedicine
+[[person:mariabruckert=>Maria Bruckert]] adds the digital clinic and telemedicine
 adoption view
 ([[podcast:building-ai-digital-health-startups|Building Digital Health Startups]]).
-[[person:stefangudmundsson|Stefan Gudmundsson]] shows how digital therapeutics
+[[person:stefangudmundsson=>Stefan Gudmundsson]] shows how digital therapeutics
 use analytics and A/B testing, where safeguards, privacy, and experimentation
 platforms matter
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
@@ -160,7 +160,7 @@ reconstruction all show how clinical imaging data and domain expertise constrain
 what a model can learn
 ([[podcast:building-healthcare-machine-learning-systems|Building Healthcare ML Systems]]).
 
-[[person:saraelateif|Sara EL-ATEIF]] adds an adjacent
+[[person:saraelateif=>Sara EL-ATEIF]] adds an adjacent
 [[computer vision]] example from
 medical imaging projects: multimodal learning for COVID-19 and medical imaging,
 cervical spine segmentation, and creative data sourcing and MVP work under data,

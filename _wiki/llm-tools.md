@@ -99,7 +99,7 @@ covers embedding models, vectorization, prompt context, and citations
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 That places RAG in
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 It also connects to [[embeddings]] and
 [[vector databases]], not only to
 model selection.
@@ -165,7 +165,7 @@ editorial curation belong together
 ([[podcast:practical-llm-use-cases-and-product-patterns|LLM Value Creation]]), and
 human review also belongs in RAG and generative evaluation
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 For sensitive systems, connect tool selection to
 [[Responsible AI and Governance]]
 and [[Security]], not only to model
@@ -189,24 +189,24 @@ This order isn't a universal recipe.
 
 The DataTalks.Club LLM episodes show the same structure from several directions:
 
-- [[person:meryemarik|Meryem Arik]] starts with
+- [[person:meryemarik=>Meryem Arik]] starts with
   deployment tradeoffs in
-  [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
-- [[person:hugobowneanderson|Hugo Bowne-Anderson]]
+  [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+- [[person:hugobowneanderson=>Hugo Bowne-Anderson]]
   starts with evaluation and RAG in
-  [[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-- [[person:atitaarora|Atita Arora]] starts with
+  [[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+- [[person:atitaarora=>Atita Arora]] starts with
   search quality in
-  [[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
-- [[person:ranjithakulkarni|Ranjitha Kulkarni]]
+  [[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+- [[person:ranjithakulkarni=>Ranjitha Kulkarni]]
   starts with agent workflows in
-  [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-- [[person:sandrakublik|Sandra Kublik]] starts with
+  [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+- [[person:sandrakublik=>Sandra Kublik]] starts with
   business use cases and review in
-  [[podcast:practical-llm-use-cases-and-product-patterns|LLM Value Creation]].
-- [[person:bartoszmikulski|Bartosz Mikulski]]
+  [[podcast:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]].
+- [[person:bartoszmikulski=>Bartosz Mikulski]]
   starts with production engineering constraints in
-  [[podcast:production-ready-ai-engineering|Production AI Engineering]].
+  [[podcast:production-ready-ai-engineering=>Production AI Engineering]].
 
 Pick tools that make one workflow grounded, testable, and observable. Keep that
 workflow affordable before you add more automation.

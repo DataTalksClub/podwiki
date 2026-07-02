@@ -30,7 +30,7 @@ starts from data science workflows before moving into self-service compute,
 [[model registry]], serving, and
 orchestration
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 ## Reusable Internal Paths
 
@@ -44,7 +44,7 @@ build-versus-buy and standardization as responses to team-level repetition.
 There is also room for incremental SaaS components instead of a single large
 internal platform
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 The same idea appears through a centralized enabling team: an MLOps team
 supports product teams and ML engineers, and that support becomes concrete
@@ -52,7 +52,7 @@ through CI, repository structure, parameterization, and tests. Data versioning
 and traceability come next, drawing on a skill mix across data science, SRE,
 DevOps, and platform engineering
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]] in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Platform engineering is therefore narrower than "all infrastructure" and broader
 than a tool portal. A platform gives teams a supported way to do common work. It
@@ -66,7 +66,7 @@ remote diagnostics and context for sensor data, turning raw signals into
 business value through a shared pipeline rather than ad-hoc per-project
 integrations
 ([[person:josemaria|José Figueiredo]] in
-[[podcast:remote-data-engineering-work-and-building-iot-platforms|Remote Data Engineering and IoT Platforms]]).
+[[podcast:remote-data-engineering-work-and-building-iot-platforms=>Remote Data Engineering and IoT Platforms]]).
 
 ## Build Timing and Product Discipline
 
@@ -79,13 +79,13 @@ value, and repeated needs before they build heavy platform layers, keeping
 [[machine learning infrastructure]]
 close to actual workflow evidence
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 A contrasting emphasis starts from adoption and ties platform success to
 feedback loops, pain-point discovery, quick wins, and value measurement. The
 platform team earns standards by solving visible problems first
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]] in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 An internal product-management lens treats internal platform users as customers,
 weighs usability costs, and moves to outcome-driven problem definition and user
@@ -93,14 +93,14 @@ research for internal platforms. That makes
 [[platform adoption]] a product
 problem, not only an engineering rollout
 ([[person:geojolly|Geo Jolly]] in
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]).
 
 The tooling and integration boundary casts the MLOps architect as a
 technical-business bridge, weighing tooling tradeoffs, build-versus-buy
 decisions, and platform-agnostic integrations. That's the platform problem from
 the buyer and integration side
 ([[person:dannyleybzon|Danny Leybzon]] in
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
 ## Platform Ownership
 
@@ -116,7 +116,7 @@ own their ML use cases.
 
 Simon makes ownership dependent on workload and operational burden. At 13:50
 and 15:34 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 he discusses specialist versus generalist skill balance, team size, and
 on-call. Platform ownership therefore includes support capacity. A service that
 teams rely on in production needs owners who can maintain it.
@@ -124,7 +124,7 @@ teams rely on in production needs owners who can maintain it.
 Geo's episode shows why ownership also needs roadmap discipline. Internal
 platform teams balance stakeholders and backlog, while compliance and rollout
 governance sit with adoption. He covers those responsibilities throughout
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 from 9:50 through 35:18. Without that product discipline, platform work can
 become a pile of useful infrastructure that nobody adopts consistently.
 
@@ -136,15 +136,15 @@ engineer. The platform is working when that user can complete the standard path
 without learning every infrastructure detail first.
 
 Simon starts platform design from data science workflows. At 10:47 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 he talks about understanding how data scientists work with notebooks. At 38:40,
 he discusses thin abstraction layers over cloud providers. The useful layer
 doesn't hide everything. It removes unnecessary friction while preserving the
 cloud choices that matter.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]]
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]]
 extends the same idea through education and tool adoption in
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 At 13:52, he discusses Metaflow integrations with AWS, Kubernetes, and Argo. At
 18:03, he defines DevRel around education, documentation, and a wisdom layer.
 
@@ -176,7 +176,7 @@ can move without opening tickets for routine work, and the platform team can
 focus on reusable improvements instead of one-off fixes.
 
 The data-platform version appears in
-[[self-service-data-platforms|self-service data platforms]]
+[[self-service-data-platforms=>self-service data platforms]]
 and [[data engineering platforms]].
 Use
 [[Data Mesh vs Centralized Data Platform]]
@@ -227,7 +227,7 @@ platform engineers need to think about on-call and observability. They also need
 dependency management, release paths, and incident response.
 
 Simon brings reliability into the team-design discussion at 15:34 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 where on-call and operational support affect staffing. Later, at 39:54 through
 45:50, he connects platform design to regulatory constraints and metadata.
 Lineage, artifact logging, and governance make
@@ -244,7 +244,7 @@ belong there, along with serving and monitoring
 [[production]].
 
 Danny adds the operational monitoring focus. At 27:35 and 30:39 in
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]],
 he connects model observability to upstream ETL and the shift from "why
 monitor" to "how to monitor." At 31:50 and 36:47, he discusses profiling
 architecture and platform-agnostic integrations. Platform reliability therefore
@@ -264,7 +264,7 @@ These pages cover the adjacent platform and operations topics.
   covers usability, docs, templates, and adoption friction.
 - [[Platform Adoption]] covers
   rollout, internal users, and value measurement.
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
   covers the data-platform version of supported autonomy.
 - [[Data Engineering Platforms]]
   covers platform work for data pipelines and shared data products.

@@ -1,6 +1,6 @@
 /* Entity chips in wiki prose. Colours match the graph legend. Calm by design:
-   type-coloured label inside a faint type-coloured outline that strengthens on
-   hover, a small trailing type emoji, no bullet dot, never underlined.
+   type-coloured label with a faint top/bottom rule that strengthens on hover,
+   a small trailing type emoji, no bullet dot, never underlined.
    Renderer: build-time rustkyll `chips` extension.
 
    NOTE: the theme colours/underlines prose links via `.knowledge-page p a`
@@ -13,8 +13,10 @@
   display: inline;
   font-weight: 500;
   border: 1px solid color-mix(in srgb, var(--chip) 12%, transparent);
-  border-radius: 0.4em;
-  padding: 0.02em 0.3em;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  padding: 0.02em 0.08em;
   transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 

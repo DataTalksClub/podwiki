@@ -17,12 +17,12 @@ Embeddings sit behind
 [[search]] and
 [[vector databases]], and they also
 appear in
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 systems. Recommendation systems and multimodal retrieval use them too.
 
 In
 weak-supervision workflows and production
-[[machine-learning-system-design|ML systems]],
+[[machine-learning-system-design=>ML systems]],
 they're a representation layer, not the whole product. Embedding generation
 stays separate from storage and ranking, and from evaluation, citations, and
 business logic.
@@ -40,7 +40,7 @@ transcript-chatbot example, where chunks with overlap are embedded and stored as
 vectors for retrieval
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 The embedding model creates the representation and the
-[[vector-databases|vector database]] retrieves nearby vectors, while the
+[[vector-databases=>vector database]] retrieves nearby vectors, while the
 application still needs prompts, references, and evaluation.
 
 In production LLM systems, vector databases work through embeddings, indexing,
@@ -48,7 +48,7 @@ and semantic search
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 Retrieval fits changing knowledge, while fine-tuning changes model behavior or
 style, a boundary expanded in
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]].
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
 
 ## Semantic Search
 
@@ -102,7 +102,7 @@ Chunking and embeddings are a practical first step for useful LLM systems
 Fixed-size chunks, sliding windows, and context quality determine what the
 embedding model can retrieve, so embeddings help only when the chunks preserve
 the information an answer needs. The broader
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 page treats retrieval as search with generation attached.
 
 ## Recommendations and Multimodal Retrieval

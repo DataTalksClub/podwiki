@@ -157,7 +157,7 @@ when identity work becomes part of production pipeline design.
 ## Open Source Product Strategy
 
 Entity resolution is also a product and
-[[open-source|open-source]] strategy. Zingg came
+[[open-source=>open-source]] strategy. Zingg came
 from repeated consulting problems, then took about 18 months to reach a public
 release
 ([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).

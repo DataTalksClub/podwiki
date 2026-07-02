@@ -38,15 +38,15 @@ The reliability background lives in
 [[DataOps Platforms]], and
 [[Data Observability for Data Engineering]].
 
-[[person:barrmoses|Barr Moses]] gives the main runtime
+[[person:barrmoses=>Barr Moses]] gives the main runtime
 signals in
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]].
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Her framework starts with freshness and volume. It also uses distribution,
 schema, and lineage. She warns that engineering jobs can succeed while the data
 is still wrong
 ([[podcast:data-quality-data-observability-data-reliability|21:57|good pipelines and bad data]]).
 
-[[person:christopherbergh|Christopher Bergh]] adds the
+[[person:christopherbergh=>Christopher Bergh]] adds the
 delivery path through version control, automated tests, and CI/CD. He connects
 those release practices to monitoring, runbooks, and end-to-end deployment
 automation
@@ -123,9 +123,9 @@ Volume asks whether the amount of data is plausible, catching empty outputs and
 partial extracts. It also catches duplicated loads, broken filters, and missing
 CDC windows.
 
-[[person:tomaszhinc|Tomasz Hinc]] gives the simplest
+[[person:tomaszhinc=>Tomasz Hinc]] gives the simplest
 failure case in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]]:
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]]:
 Airflow jobs can be green while zero records are inserted. A scheduler success
 state only proves that the task completed. It doesn't prove that useful data
 arrived
@@ -158,7 +158,7 @@ fields disappear, or a source adds a breaking value structure.
 Moses treats schema as one of the five observability pillars. She ties it to
 downstream breakage after a missed schema-change notification
 ([[podcast:data-quality-data-observability-data-reliability|19:10|schema case study]]).
-[[person:larsalbertsson|Lars Albertsson]] puts schema
+[[person:larsalbertsson=>Lars Albertsson]] puts schema
 automation into the DataOps maturity ladder. He says teams should automate
 schema management so incompatible changes don't flow into production unnoticed
 ([[podcast:dataops-principles-and-scalable-data-platforms|46:52|schema automation]]).
@@ -228,7 +228,7 @@ The check should state the grain in the same language as the consumer:
 Put this beside [[analytics engineering]]
 and [[data pipelines]] because the
 check protects meaning, not only mechanics. In the pipeline build guide,
-[[person:santonatuli|Santona Tuli]] emphasizes keys and
+[[person:santonatuli=>Santona Tuli]] emphasizes keys and
 foreign keys. She also emphasizes business entities and the question the
 pipeline must answer
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|modeled entities at 39:23-43:05]]).
@@ -304,7 +304,7 @@ quarantine, or consumer communication.
 DataOps checks should run before production when the failure is predictable.
 That means checking SQL models and Python code. Check DAG definitions, config
 files, schema agreements, and infrastructure changes in
-[[ci-cd|CI/CD]].
+[[ci-cd=>CI/CD]].
 
 In Bergh's newer DataOps episode, he recommends robust CI/CD pipelines and
 realistic test data. He also recommends infrastructure as code and low-risk

@@ -24,7 +24,7 @@ community notebooks, discussions, and postmortems, but rank and career value
 diverge: the payoff came from turning competition work into a clean repository
 and interview discussion, not from a Kaggle Master title
 ([[person:tatianagabruseva|Tatiana Gabruseva]],
-[[podcast:s24e01-competitions-beyond-kaggle-leaderboard|Competitions: Beyond the Kaggle Leaderboard]]).
+[[podcast:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]).
 
 Use this guide with [[Machine Learning Portfolio Projects]],
 [[Open Source Portfolio Evidence]], and [[Evaluation]]. A competition can be one
@@ -166,7 +166,7 @@ experiment loop, a validation strategy, a critique of the agent's changes, and a
 clear boundary between assisted work and personal understanding.
 
 For agent-heavy projects, connect the writeup to [[Agent Engineering]] and
-[[agent-engineering|AI Agents]]. Show the task harness and tool permissions, and
+[[agent-engineering=>AI Agents]]. Show the task harness and tool permissions, and
 include the submission budget, regression tests, and failure cases. A competition
 can then prove evaluation design for an agentic system, not only prompting skill.
 
@@ -238,7 +238,7 @@ maintainability in a live system all need broader proof.
 
 For those cases, start from [[Machine Learning Portfolio Projects]]. Use
 [[Evaluation]] and the
-[[data-scientist-interview|Data Scientist Interview Prep guide]] to place the
+[[data-scientist-interview=>Data Scientist Interview Prep guide]] to place the
 competition inside a broader project set.
 
 The practical test is whether a reviewer can look at the work and learn how you

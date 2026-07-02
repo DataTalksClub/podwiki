@@ -28,7 +28,7 @@ behavior. The handoff matters most when a model, metric, or data product needs
 both reliable inputs and clear interpretation.
 
 Start with
-[[podcast:data-team-roles|Data Team Roles Explained]].
+[[podcast:data-team-roles=>Data Team Roles Explained]].
 At 11:17, the episode separates data scientists from analysts through
 prediction and product integration. At 13:58, data engineers appear as the
 people who make product data usable without burdening production systems. At
@@ -73,22 +73,22 @@ Choose data engineering when a team can't trust the supply of data. Late data,
 slow data, and expensive data point toward data engineering ownership.
 The same is true for undocumented tables, schema drift, and hard reprocessing.
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] gives the
+[[person:roksolanadiachuk=>Roksolana Diachuk]] gives the
 direct comparison in
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 At 4:26 and 6:38, data engineering includes ETL and HDFS or S3. At 7:18,
 Impala, Spark optimization, and cluster resources belong there too. At 39:09
 and 43:37, monitoring and schema governance enter the same work.
 
-[[person:jeffkatz|Jeff Katz]] gives the junior-skill
+[[person:jeffkatz=>Jeff Katz]] gives the junior-skill
 version in
-[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 At 23:35, the foundation is Python, SQL, and cloud fundamentals. Orchestration
 belongs in that foundation too. At 44:21 and 45:14, SQL depth and data modeling
 matter before a candidate chases every distributed system tool.
 
 Portfolio evidence should show a working data path. In
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]],
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 Jeff asks for Python, SQL, and Docker around 1:20 and 2:22. Airflow and
 warehouses appear around 2:46 and 7:46. He also asks for code quality, tests,
 and working pipelines.
@@ -106,16 +106,16 @@ deployment awareness and pipeline input-output literacy appear in the same
 role. That doesn't make the data scientist the pipeline owner. It means the
 data scientist needs enough engineering literacy to collaborate.
 
-[[person:olegnovikov|Oleg Novikov]] gives the interview
+[[person:olegnovikov=>Oleg Novikov]] gives the interview
 version in
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
+[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 At 15:29, he separates product data science from
 machine-learning-engineering-heavy roles. At 32:03 and 36:38, interviews test
 business goals, metrics, and ML knowledge. SQL and coding still matter.
 
-[[person:ksenialegostay|Ksenia Legostay]] shows the
+[[person:ksenialegostay=>Ksenia Legostay]] shows the
 transition path in
-[[podcast:project-manager-to-data-scientist|Project Manager to Data Scientist]].
+[[podcast:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 At 7:30 and 13:00, her path combines programming and statistics. At 30:20 and
 41:07, domain expertise, CRISP-DM framing, and production awareness appear in
 the same transition.
@@ -129,9 +129,9 @@ batch-versus-streaming choices. At 22:51 and 23:40, feature pipelines, MLflow,
 and Kubeflow appear in the same example. Kubernetes and ML engineer handoffs
 appear there too.
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 shows the platform version in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 At 21:03, he names the data science path from exploration to training and
 evaluation. At 29:41 and 30:32, experiment tracking and a model registry make
 that work reproducible. At 31:15 and 54:15, batch inference, online serving,
@@ -160,15 +160,15 @@ Jeff's interview-prep episode covers SQL and Python at 7:46 and 9:41.
 Take-homes, database concepts, and Airflow appear later in the same path.
 Candidates also need object-oriented code and project explanation.
 
-[[person:nicolasrassam|Nicolas Rassam]] adds cloud
+[[person:nicolasrassam=>Nicolas Rassam]] adds cloud
 fundamentals and project storytelling in
-[[podcast:hiring-for-data-engineering-jobs-in-europe|Hiring Data Engineers in Europe]]
+[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 at 31:16 and 39:41. At 44:35 and 54:25, he adds portfolio or GitHub evidence.
 At 55:53 and 58:05, he adds domain fit.
 
-[[person:slawomirtulski|Slawomir Tulski]] adds a newer
+[[person:slawomirtulski=>Slawomir Tulski]] adds a newer
 data-engineering split in
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 At 11:54, platform data engineering and product-facing data engineering need
 different evidence. At 25:33-30:56, cost awareness and avoiding overbuilt
 platforms become senior signals.
@@ -178,9 +178,9 @@ episode asks candidates to tailor the story to the role spectrum. Product data
 science, ML-heavy data science, and analytics-heavy data science don't test the
 same evidence.
 
-[[person:terezaiofciu|Tereza Iofciu]] gives the title
+[[person:terezaiofciu=>Tereza Iofciu]] gives the title
 warning in
-[[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Job Red Flags]].
+[[podcast:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]].
 At 20:06 and 23:01, she recommends checking team structure and objectives
 before trusting the job title. At 27:18 and 30:20, responsibilities, data
 infrastructure, and analytics or engineering support matter too.

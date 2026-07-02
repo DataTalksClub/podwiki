@@ -130,7 +130,7 @@ orchestration
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 It extends to metadata, lineage, artifact logging, and tracking, which makes
 [[reproducibility]], [[experiment tracking]], and
-[[model-registry|model registries]] operating concerns rather than optional
+[[model-registry=>model registries]] operating concerns rather than optional
 documentation.
 
 MLOps also adds model-specific monitoring. DevOps monitoring can show that a
@@ -138,8 +138,8 @@ service is available and fast, but a healthy endpoint can still return bad
 predictions. Drift, fairness, and retraining triggers fall to model monitoring
 ([[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]).
 
-[[model monitoring|Model monitoring]] often reaches upstream into
-[[data-quality-and-observability|data observability]]: it connects to ETL and
+[[model monitoring=>Model monitoring]] often reaches upstream into
+[[data-quality-and-observability=>data observability]]: it connects to ETL and
 pipelines, with profiling and data drift part of the same investigation
 ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 
@@ -223,7 +223,7 @@ familiar to DevOps and platform teams, but the adoption metric is not just "can
 we deploy software?" It's "can teams keep models deployed, monitored,
 maintained, and useful as data changes?"
 
-[[person:agitajaunzeme|Agita Jaunzeme]]'s DevOps transition moved from
+[[person:agitajaunzeme=>Agita Jaunzeme]]'s DevOps transition moved from
 configuration management and automation into data and open-source work
 ([[podcast:from-devops-to-data-engineering-automation-open-source-volunteering|From DevOps to Data Engineering]]).
 The same transfer logic applies to MLOps. Automation habits help, but the target
@@ -249,9 +249,9 @@ MLOps controls. Training runs and experiments belong there too. Metrics, model
 artifacts, and approval history also matter.
 
 This reproducibility boundary appears in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]], linked to
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]], linked to
 metadata and lineage in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 Ask what can fail silently. If uptime and logs cover the risk, the monitoring
 problem is mostly DevOps. Deployment status and error rates stay in that same
@@ -260,9 +260,9 @@ the monitoring problem is MLOps. Fairness checks, data profiles, and retraining
 triggers belong there too.
 
 Drift and retraining appear in
-[[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]. Model monitoring
+[[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]. Model monitoring
 connects to upstream data-pipeline diagnosis in
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]].
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Use both terms when a production ML system depends on a software service. A
 fraud model API or recommender system still needs DevOps discipline. So does a
@@ -280,12 +280,12 @@ comparison:
 - [[Platform Engineering]]
 - [[ML Platforms]]
 - [[Machine Learning Infrastructure]]
-- [[ci-cd|CI/CD]]
+- [[ci-cd=>CI/CD]]
 - [[Reproducibility]]
 - [[Experiment Tracking]]
 - [[Model Registry]]
 - [[Model Monitoring]]
-- [[data-quality-and-observability|Data Observability]]
+- [[data-quality-and-observability=>Data Observability]]
 - [[DataOps]]
 - [[MLOps Engineer]]
 - [[Software Engineer to Machine Learning]]

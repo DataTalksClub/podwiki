@@ -16,20 +16,20 @@ Those outputs can be text, code, images, or structured data. They can also be
 summaries, translations, recommendations, or actions. DataTalks.Club guests
 mostly discuss the term through [[LLMs]] and
 chatbots. It also appears through
-[[retrieval-augmented-generation|retrieval-augmented generation]],
+[[retrieval-augmented-generation=>retrieval-augmented generation]],
 coding assistants, workflow automation, and
-[[agent-engineering|AI agents]].
+[[agent-engineering=>AI agents]].
 
-[[person:meryemarik|Meryem Arik]] gives the clearest model-level distinction:
+[[person:meryemarik=>Meryem Arik]] gives the clearest model-level distinction:
 generative models separate from non-generative models, and that distinction
 drives model selection for classification and generation tasks
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 Not every AI product needs a generator; some problems still fit classifiers,
 retrieval systems, or deterministic software better.
-[[book:20241017-build-large-language-model-from-scratch|Build a Large Language Model (From Scratch)]]
+[[book:20241017-build-large-language-model-from-scratch=>Build a Large Language Model (From Scratch)]]
 by Sebastian Raschka shows the internals of the transformer architectures that
 power these generative models.
-[[book:20211108-generative-ai-with-python-and-tensorflow-2|Generative AI with Python and TensorFlow 2]]
+[[book:20211108-generative-ai-with-python-and-tensorflow-2=>Generative AI with Python and TensorFlow 2]]
 by Joseph Babcock and Raghav Bali is a practitioner reference for the underlying deep learning architectures (GANs, VAEs, transformers) behind generative systems.
 
 ## From Model Output to Product Systems
@@ -38,7 +38,7 @@ The term is often used more narrowly than the market does, as a product or
 engineering capability. The model generates an output, and teams add retrieval
 and tools around it, along with validation, monitoring, and human review.
 
-[[person:bartoszmikulski|Bartosz Mikulski]] makes this engineering view
+[[person:bartoszmikulski=>Bartosz Mikulski]] makes this engineering view
 explicit: invisible AI sits inside workflows such as augmented generation and
 review analysis, and prompt work moves from examples to evaluation, with
 formatting, quality, and cost part of it
@@ -51,7 +51,7 @@ In [[Business Intelligence]],
 the same production boundary appears when teams add natural-language querying
 and text-to-SQL. Retrieval and LLM summaries sit on top of governed metrics.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] gives a similar working
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives a similar working
 definition: everyday LLM use cases such as summaries, translation, and CSV
 workflows; a generator-evaluator check for quality control; and a shift from
 prompting to evaluation sets, failure analysis, and retrieval fixes
@@ -62,7 +62,7 @@ prompting to evaluation sets, failure analysis, and retrieval fixes
 Guests differ less on whether generative AI is useful and more on where teams
 should put the trust boundary.
 
-[[person:mariasukhareva|Maria Sukhareva]] treats the chatbot as a risky
+[[person:mariasukhareva=>Maria Sukhareva]] treats the chatbot as a risky
 interface, drawing on findings from a large chatbot hacking exercise:
 hallucinations, legal exposure, financial incidents, and data exfiltration
 through prompts and knowledge-base retrieval
@@ -81,7 +81,7 @@ matter
 That version of generative AI depends on control, privacy, latency, cost, and
 the team's ability to run the model reliably.
 
-[[person:micheallanham|Micheal Lanham]] connects generative AI to agent systems
+[[person:micheallanham=>Micheal Lanham]] connects generative AI to agent systems
 through task decomposition, sequential flows, and manager agents, and applies it
 to games via generated levels and replayability
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]). The
@@ -119,7 +119,7 @@ inconsistent.
 
 ## RAG and Grounding
 
-[[retrieval-augmented-generation|Retrieval-augmented generation]]
+[[retrieval-augmented-generation=>Retrieval-augmented generation]]
 is the default answer when the model needs changing or private knowledge.
 
 The deployment argument favors retrieval over continuous retraining when
@@ -213,10 +213,10 @@ the developer's work.
 
 On the agent side, embedded Slack agents, actions beyond chat, and a four-step
 framework for agents appear in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
 while the OpenAI Agents SDK, MCP integration, sequential thinking servers, and
 coding agents in game development appear in
-[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]].
+[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 
 Use [[Agent Engineering]] for
 workflow design and tool calls, plus memory, orchestration, and evaluation.
@@ -229,8 +229,8 @@ often.
 - [[LLMs]]
 - [[NLP]]
 - [[Prompt Engineering]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[LLM Production Patterns]]
 - [[LLM Evaluation Workflows]]
 - [[Agent Engineering]]

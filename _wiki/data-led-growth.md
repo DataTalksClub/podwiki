@@ -20,7 +20,7 @@ sales, and support.
 A data-led professional knows where data comes from and what it looks like,
 questions its accuracy, and uses it to build data-powered experiences
 ([[person:arpitchoudhury|Arpit Choudhury]],
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
 That definition makes data-led growth broader than dashboard reporting. Teams
 need [[event tracking]],
@@ -126,7 +126,7 @@ and seasonality affect the read
 
 These details matter for data-led growth. A growth team can collect the right
 events and still make a bad decision if the test design is weak. See
-[[a-b-testing|A/B Testing]] and
+[[a-b-testing=>A/B Testing]] and
 [[Product Analytics]] for the
 adjacent analytics details.
 
@@ -188,7 +188,7 @@ based on trustworthy data, not only a report.
 
 Teams split data-led growth across several roles. Early startups may start with
 a backend or frontend engineer, but event pipelines eventually need a
-[[data-engineer-role|data engineer]] to maintain
+[[data-engineer-role=>data engineer]] to maintain
 collection and data flows
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 Analysts help make the data usable in BI and product
@@ -212,7 +212,7 @@ These pages cover the adjacent concepts and implementation choices:
 - [[Event Tracking]]
 - [[Tracking Plans]]
 - [[Product Analytics]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Reverse ETL]]
 - [[Data Activation]]
 - [[Customer Data Platforms]]

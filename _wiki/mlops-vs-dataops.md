@@ -33,9 +33,9 @@ incidents. A model alert may come from the model artifact or the serving path.
 It may also come from a feature job, a late table, or a schema change. MLOps and
 DataOps are related reliability practices, but different teams own different
 failure modes:
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 covers model lifecycle practice, and
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 covers pipeline delivery practice.
 
 ## Quick Comparison
@@ -55,11 +55,11 @@ On the MLOps side, the practice runs through CI, repository structure,
 parameterization, and testing, plus reproducibility, data versioning,
 traceability, and experiment capture
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). On the
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]). On the
 DataOps side, reliable data delivery runs through automation, observability, and
 productivity, then CI/CD pipelines, regression tests, and realistic test data
 ([[person:christopherbergh|Christopher Bergh]],
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]).
 
 ## Ownership Boundary
 
@@ -69,7 +69,7 @@ model registries hold approved artifacts, and batch inference is separate from
 online serving; metadata and lineage tie back to reproducible model operations,
 with data governance layered on top
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 - training code and parameters
 - experiment tracking
@@ -84,11 +84,11 @@ DataOps owns data-delivery assets because data teams need to make pipelines
 reviewable and recoverable. DataOps ties to people alignment and immutable
 pipeline architecture, plus reproducibility, quality, and schema automation
 ([[person:larsalbertsson|Lars Albertsson]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]). In
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]). In
 practical delivery work, that means version control, tests, CI/CD, runbooks, and
 automated playbooks
 ([[person:christopherbergh|Christopher Bergh]],
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]).
 
 - ingestion jobs
 - raw, staged, and modeled datasets
@@ -114,7 +114,7 @@ freshness, schema, distribution, and lineage.
 Production model monitoring focuses on the model, but the observability scope
 includes ETL, data pipelines, and upstream root causes
 ([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 That's the clearest reason not to blur the terms. A model alert can start in the
 model layer while root-cause analysis moves upstream into data.
 
@@ -136,14 +136,14 @@ Standardization pressure is a trigger for platform work, and thin abstractions
 over cloud providers are a developer-experience choice, not a reason to hide the
 underlying platform
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 DataOps platform work gives data teams a repeatable path for ingestion,
 transformation, and orchestration, and also covers tests, observability, and
 recovery. Self-service analytics connects to workflow engines and offline
 processing, plus storage, compute, and embedded engineering support
 ([[person:larsalbertsson|Lars Albertsson]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]).
 Self-service helps only when the platform still preserves ownership,
 reproducibility, and quality.
 
@@ -154,7 +154,7 @@ team didn't expect. Model reliability and on-call readiness connect to CI/CD,
 regression tests, and test data, and DataOps, MLOps, and LLMs sit as related
 terms
 ([[person:christopherbergh|Christopher Bergh]],
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]). Teams
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]). Teams
 still apply the delivery practices to pipelines, tests, observability, and
 production monitoring.
 
@@ -178,13 +178,13 @@ In practice, teams can split responsibility this way:
   artifact approval, and registry handoff. It also includes serving, prediction
   logging, and model monitoring, plus rollback and retraining
   ([[person:simonstiebellehner|Simon Stiebellehner]],
-  [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+  [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - DataOps owns the data release path from ingestion through transformations and
   orchestration, including tests, observability, and recovery work such as
   runbooks and backfills
   ([[person:christopherbergh|Christopher Bergh]],
-  [[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-  [[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+  [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]],
+  [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]).
 - Shared incidents need a joint triage path. MLOps decides whether the deployed
   model, serving system, or retraining plan changed. DataOps decides whether
   the upstream schema, freshness, or lineage changed. The team

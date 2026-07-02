@@ -34,7 +34,7 @@ still helps users after launch.
 
 An AI product feedback loop ties a product action to an observed signal, plus a
 decision rule and an owner who changes the system.
-[[person:marianosemelman|Mariano Semelman]]
+[[person:marianosemelman=>Mariano Semelman]]
 separates explicit user feedback from implicit behavior. His e-commerce examples
 cover generated media and listing workflows, so the useful signal isn't only
 whether a model produced a fluent answer; the team also needs to know whether
@@ -60,7 +60,7 @@ evaluation, deployment, and monitoring all belong to the same AI product system
 ([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
 That view keeps product signals close to [[AI engineering]]
 and [[MLOps]].
-[[book:20211122-building-machine-learning-powered-applications|Building Machine Learning Powered Applications]]
+[[book:20211122-building-machine-learning-powered-applications=>Building Machine Learning Powered Applications]]
 by Emmanuel Ameisen structures the same feedback-driven approach to shipping ML products: prototype, evaluate against user behavior, and iterate before and after launch.
 
 Anusha Akkina starts earlier, with user research and workflow pain. The finance
@@ -70,13 +70,13 @@ decision support
 That makes the first useful signal qualitative: what finance teams can't do
 with current ERP and spreadsheet workarounds.
 
-[[person:sofyayulpatova|Sofya Yulpatova]] starts from
+[[person:sofyayulpatova=>Sofya Yulpatova]] starts from
 longitudinal sensor behavior. The pet-health product uses sleep patterns, cycle
 tracking, anomaly detection, and each dog's normal baseline, watching for a
 change from an individual baseline rather than a global average
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
 
-[[person:aishwaryajadhav|Aishwarya Jadhav]] starts from
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] starts from
 safety and staged validation. Autonomous-driving validation uses simulation,
 closed tracks, and on-road testing, plus sensor-data management, labeling, and
 release cadence. Product learning is constrained by safety checks and inherited

@@ -32,7 +32,7 @@ The strongest podcast examples pair model choice with
 [[MLOps]], and
 [[production]] decisions.
 
-[[book:20220214-a-visual-introduction-to-deep-learning|A Visual Introduction to Deep Learning]]
+[[book:20220214-a-visual-introduction-to-deep-learning=>A Visual Introduction to Deep Learning]]
 by Meor Amer is an accessible primer on how neural networks learn from image,
 text, and sensor data before the engineering tradeoffs set in.
 
@@ -83,7 +83,7 @@ Vector databases, latency and cost, and human evaluation round out the same
 discussion. Those topics place deep learning beside
 [[AI engineering]],
 [[LLM production patterns]],
-[[retrieval-augmented-generation|retrieval-augmented generation]],
+[[retrieval-augmented-generation=>retrieval-augmented generation]],
 and [[vector databases]].
 
 That view extends from models to shipped products, linking deep learning and
@@ -119,7 +119,7 @@ That standard links the topic to
 [[machine learning system design]],
 and [[evaluation|model evaluation]].
 
-[[book:20210118-deep-learning-structured-data|Deep Learning with Structured Data]] by Mark Ryan is a practitioner reference for applying neural networks to tabular and relational data where simpler models often serve as the baseline.
+[[book:20210118-deep-learning-structured-data=>Deep Learning with Structured Data]] by Mark Ryan is a practitioner reference for applying neural networks to tabular and relational data where simpler models often serve as the baseline.
 
 ## Data, Labels, and Error Analysis
 

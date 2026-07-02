@@ -22,12 +22,12 @@ would have happened under a different intervention
 
 Teams use [[experimentation]] when
 they can test a live change or product direction. That test can be an
-[[a-b-testing|A/B test]], an A/A check, or a
+[[a-b-testing=>A/B test]], an A/A check, or a
 prototype. Teams use
 [[causal inference]] when they
 need to name the intervention, outcome, population, and counterfactual
 comparison. Both practices turn a
-[[metrics|metric]] into evidence for rolling out a
+[[metrics=>metric]] into evidence for rolling out a
 feature, targeting a campaign, changing a recommender, or validating a model
 policy.
 
@@ -41,7 +41,7 @@ settings where it didn't control assignment.
 
 On the experimental side, experiments establish causality in noisy product
 conditions through traffic splitting, assignment tracking, and monitoring.
-[[a-a-testing|A/A testing]] checks whether the system can split traffic and
+[[a-a-testing=>A/A testing]] checks whether the system can split traffic and
 measure outcomes before an A/B result is trusted
 ([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
 
@@ -73,7 +73,7 @@ Operationally, teams need stable assignment, exposure logging, monitoring, and
 debuggable metrics.
 
 Teams also need system checks before they trust randomized evidence.
-[[a-a-testing|A/A testing]] validates randomization, tracking, and metric
+[[a-a-testing=>A/A testing]] validates randomization, tracking, and metric
 calculation before interpreting an A/B result, and
 [[power analysis]] plans duration from baseline rates, variance, traffic, and
 detectable effect
@@ -189,8 +189,8 @@ The adjacent topics are:
 
 - [[Experimentation]]
 - [[Causal Inference]]
-- [[a-b-testing|A/B Testing]]
-- [[a-a-testing|A/A Testing]]
+- [[a-b-testing=>A/B Testing]]
+- [[a-a-testing=>A/A Testing]]
 - [[Power Analysis]]
 - [[Metrics]]
 - [[Product Analytics]]

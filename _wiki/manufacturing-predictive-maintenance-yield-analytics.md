@@ -16,13 +16,13 @@ telemetry to decide when a tool needs attention and how much product is at
 risk. In semiconductor manufacturing, the decision isn't only whether a
 [[machine learning]] model can
 predict an error. The model has to fit an
-[[industrial-ml-applications|industrial ML application]]
+[[industrial-ml-applications=>industrial ML application]]
 where wafers and tools define part of the context. Quals, engineers, and
 production staff define the operating constraints.
 
 This pattern comes from semiconductor production work at Microchip
 ([[person:dashelruizperez|Dashel Ruiz Perez]],
-[[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]]).
+[[podcast:from-semiconductor-data-to-applied-machine-learning=>From Semiconductor Data to Applied Machine Learning]]).
 The example starts on the fab floor and moves through yield analytics and
 [[data engineering]] to a practical boundary. A prediction is useful only if
 supervisors and engineers can understand it and act on it in
@@ -129,7 +129,7 @@ processing has stopped
 
 These patterns extend to chemical and coating production
 ([[person:rosonaeldred|Rosona]],
-[[podcast:industrial-data-small-data-production-machine-learning|Industrial Data and Small-Data Production ML]]).
+[[podcast:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]]).
 Quality control here monitors input-output ratios — one kilo in, one kilo out —
 and flags anomalies that trigger a technician visit. Packing-peanut and
 blue-paint production show that predictive maintenance in process industries

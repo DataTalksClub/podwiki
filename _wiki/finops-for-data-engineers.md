@@ -25,7 +25,7 @@ the cost signal. They also own orchestration jobs, storage choices, and
 dashboards.
 
 The main DataTalks.Club treatment comes from
-[[person:eddyzulkifly|Eddy Zulkifly]]
+[[person:eddyzulkifly=>Eddy Zulkifly]]
 ([[podcast:finops-for-data-engineers|FinOps for Data Engineers]]). Staff data
 engineering FinOps work is both technical and strategic: data engineers build
 pipelines and data quality checks, and they define unit economics and business
@@ -61,12 +61,12 @@ for fixed capacity or usage-based services
 ([[podcast:finops-for-data-engineers|FinOps for Data Engineers]]).
 
 Other guests use the same cost lens without always using the FinOps label.
-[[person:slawomirtulski|Slawomir Tulski]] treats cost awareness as senior data
+[[person:slawomirtulski=>Slawomir Tulski]] treats cost awareness as senior data
 engineering judgment, arguing against overbuilt real-time platforms when batch
 or managed systems fit the business better
 ([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
 
-[[person:andreycheptsov|Andrey Cheptsov]] gives the AI infrastructure version,
+[[person:andreycheptsov=>Andrey Cheptsov]] gives the AI infrastructure version,
 where cloud and on-prem GPUs become architecture choices and teams have to
 account for distributed training and total cost of ownership
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|AI Infrastructure]]).

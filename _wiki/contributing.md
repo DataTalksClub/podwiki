@@ -41,25 +41,25 @@ Contributors start in different ways.
 
 Maintainer fit: start small and reproduce the problem before asking maintainers
 to review something large ([[person:vincentwarmerdam|Vincent Warmerdam]],
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Structured onboarding: Hugging Face contribution sprints, good-first issues, and
 confidence building, with documentation and non-code contributions included
 ([[person:mervenoyan|Merve Noyan]],
-[[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
+[[podcast:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]]).
 
 Programs and mentorship: hackathons build Git, teamwork, and project skills;
 mentorship, pull request quality, Git skills, and onboarding into large
 repositories matter, as does environment setup and maintainer collaboration,
 which makes contribution partly a [[developer relations]] problem
 ([[person:willrussell|Will Russell]],
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 Volunteering beyond repository work: volunteering builds AI projects with
 community impact, spanning collaboration models, pitching relevant skills for
 volunteer projects, and connecting volunteering to practical experience,
 referrals, and soft skills ([[person:saraelateif|Sara EL-ATEIF]],
-[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering]]).
+[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]]).
 
 ## Reviewable Open-Source Contributions
 
@@ -72,11 +72,11 @@ review and concrete enough to verify:
 - Documentation fixes: improve a README, quickstart, guide, or error message;
   documentation is a valid first contribution
   ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-  [[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
+  [[podcast:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]]).
 - Small code pull requests: fix one bug or add one narrow behavior with tests,
   linked to CI and packaging, with attention to PR quality and Git skills
   ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-  [[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+  [[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 - Examples and demos: publish a notebook, app, video, or tutorial that helps a
   user do the first useful task; Hugging Face Spaces and Streamlit or Gradio
   demos connect contribution work to [[machine learning portfolio projects]]

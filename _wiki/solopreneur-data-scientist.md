@@ -36,16 +36,16 @@ Solopreneurship is not a quick escape from employment.
 Three interviews anchor this article:
 
 - Solopreneurship as intentional smallness and diversified income, from
-  [[person:noahgift|Noah Gift]] in
-  [[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]].
+  [[person:noahgift=>Noah Gift]] in
+  [[podcast:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]].
 - The operating discipline needed when one person owns data science inside a
   startup, from [[person:mariannadiachuk|Marianna Diachuk]] in
-  [[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]].
+  [[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]].
 - Positioning, client discovery, pricing, and financial risk, from
-  [[person:dimitrivisnadi|Dimitri Visnadi's]] freelance interviews in
-  [[podcast:becoming-data-freelancer|Become a Data Freelancer]]
+  [[person:dimitrivisnadi=>Dimitri Visnadi's]] freelance interviews in
+  [[podcast:becoming-data-freelancer=>Become a Data Freelancer]]
   and
-  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]].
+  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]].
 
 Solopreneurship connects with these topics:
 
@@ -61,7 +61,7 @@ Solopreneurship is a choice to stay small on purpose: not raising venture money,
 not hiring a large team, and not chasing the biggest possible company.
 Independence ties to diversified income and the ability to say no to bad-fit
 work ([[person:noahgift|Noah Gift]],
-[[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]]).
+[[podcast:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]).
 
 For data and AI professionals, that definition matters because the obvious first
 offer is usually expertise. A data scientist can sell churn modeling, dashboard
@@ -85,7 +85,7 @@ business, not simply doing the same job without an employer: independent work
 adds marketing, positioning, and pricing to the technical work, along with
 contracts, payment risk, and client management
 ([[person:dimitrivisnadi|Dimitri Visnadi]],
-[[podcast:becoming-data-freelancer|Become a Data Freelancer]]).
+[[podcast:becoming-data-freelancer=>Become a Data Freelancer]]).
 
 A startup founder usually builds a company that can grow beyond the founder.
 That may involve employees and investors. It may also involve product teams and
@@ -102,7 +102,7 @@ business ownership can mean useful, profitable, intentionally small work.
 
 The "solo data scientist" role maps to many solopreneur constraints inside a
 company ([[person:mariannadiachuk|Marianna Diachuk's]]
-[[podcast:solopreneur-data-scientist|solo data scientist episode]]). Being the
+[[podcast:solopreneur-data-scientist=>solo data scientist episode]]). Being the
 only data scientist in a startup brings freedom, but also responsibility.
 
 One person may have to understand the product, talk to stakeholders, and explore
@@ -157,7 +157,7 @@ decision before you sell a larger model.
 
 Another guardrail separates selling skills from selling expertise
 ([[person:dimitrivisnadi|Dimitri Visnadi's]] later freelance episode,
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]]).
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]]).
 If you sell a skill, the buyer already knows the task and needs capacity. If you
 sell expertise, the buyer expects you to define the problem. A solopreneur can
 sell either, but the offer has to make that clear.
@@ -190,7 +190,7 @@ audience building without pretending that every post is a sales page.
 Personal brand is not follower count. It is sharing expertise, experience,
 knowledge, and mistakes so people know what you can help with
 ([[person:admondleekinlim|Admond Lee Kin Lim's]]
-[[podcast:personal-brand-for-data-professionals|Personal Branding]] episode).
+[[podcast:personal-brand-for-data-professionals=>Personal Branding]] episode).
 For a solopreneur, that's not vanity. It's how buyers, collaborators, conference
 organizers, and course students discover the work.
 
@@ -246,13 +246,13 @@ intervention when that's what the evidence supports.
 
 The common failure mode is selling independence before selling value. These
 recurring mistakes come from the
-[[podcast:solopreneur-developer-and-data-professional|solopreneur interview]],
+[[podcast:solopreneur-developer-and-data-professional=>solopreneur interview]],
 the
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|freelance strategy episode]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>freelance strategy episode]],
 the
-[[podcast:solopreneur-data-scientist|solo startup role episode]],
+[[podcast:solopreneur-data-scientist=>solo startup role episode]],
 and the
-[[podcast:personal-brand-for-data-professionals|personal branding episode]].
+[[podcast:personal-brand-for-data-professionals=>personal branding episode]].
 
 - quitting before testing demand or saving enough runway
 - describing yourself as a general data or AI expert without a buyer problem
@@ -269,19 +269,19 @@ buyer, explain the result clearly, and reuse what you learned.
 
 Start with these interviews:
 
-- [[person:noahgift|Noah Gift's]]
-  [[podcast:solopreneur-developer-and-data-professional|solopreneur interview]]
+- [[person:noahgift=>Noah Gift's]]
+  [[podcast:solopreneur-developer-and-data-professional=>solopreneur interview]]
   for the business philosophy and income mix.
-- [[person:mariannadiachuk|Marianna Diachuk's]]
-  [[podcast:solopreneur-data-scientist|solo data scientist interview]]
+- [[person:mariannadiachuk=>Marianna Diachuk's]]
+  [[podcast:solopreneur-data-scientist=>solo data scientist interview]]
   for the first 90 days as a solo data scientist.
-- [[person:dimitrivisnadi|Dimitri Visnadi's]]
-  [[podcast:becoming-data-freelancer|first freelance interview]]
+- [[person:dimitrivisnadi=>Dimitri Visnadi's]]
+  [[podcast:becoming-data-freelancer=>first freelance interview]]
   and
-  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|follow-up freelance strategy interview]]
+  [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>follow-up freelance strategy interview]]
   for client acquisition, pricing, positioning, and risk.
-- [[person:admondleekinlim|Admond Lee Kin Lim's]]
-  [[podcast:personal-brand-for-data-professionals|personal branding interview]]
+- [[person:admondleekinlim=>Admond Lee Kin Lim's]]
+  [[podcast:personal-brand-for-data-professionals=>personal branding interview]]
   to turn your expertise into public proof.
 
 For adjacent topic maps, continue with these pages:

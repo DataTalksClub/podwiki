@@ -26,22 +26,22 @@ prioritization, rollout, and adoption. The role often sits on top of
 [[Data Products]]. Internal data
 scientists, ML engineers, analysts, or business teams may be the users.
 
-[[person:geojolly|Geo Jolly]] gives the clearest role
+[[person:geojolly=>Geo Jolly]] gives the clearest role
 definition in
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]].
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 He describes a technical PM responsible for ML platform strategy, stakeholder
 requirements, roadmap decisions, and adoption. Observability and release
 governance also sit in that role.
 
-[[person:gregcoquillo|Greg Coquillo]] broadens the role
+[[person:gregcoquillo=>Greg Coquillo]] broadens the role
 in
-[[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]
+[[podcast:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
 by treating AI data products as customer-facing or internal products. Those
 products need research, prioritization, SMART goals, and operational metrics.
 
-[[person:saramenefee|Sara Menefee]] adds the
+[[person:saramenefee=>Sara Menefee]] adds the
 data-product transition path in
-[[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]].
+[[podcast:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 The PM still practices discovery and launch discipline. They also need SQL,
 data quality judgment, documentation habits, and enough lifecycle knowledge to
 ask better technical questions.
@@ -61,7 +61,7 @@ adoption constraints, and productivity costs belong in the roadmap
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform users and adoption constraints at 11:24-18:25]]).
 That makes the role close to
 [[Platform Adoption]] and
-[[self-service-data-platforms|Self-Service Data Platforms]]:
+[[self-service-data-platforms=>Self-Service Data Platforms]]:
 the product is successful only when teams can actually use it.
 
 Greg gives the AI data-product version. He starts with customer needs and
@@ -152,7 +152,7 @@ downstream.
 ## ML Engineer Boundary
 
 The boundary with a
-[[machine-learning-engineer-role|Machine Learning Engineer]]
+[[machine-learning-engineer-role=>Machine Learning Engineer]]
 is ownership of the solution path. The ML product manager defines the user
 problem, desired outcome, and roadmap priority. They also define the rollout
 plan and measurement system.

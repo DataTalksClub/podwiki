@@ -12,8 +12,8 @@ related:
 
 Bioinformatics data science is [[data science]]
 applied to biological data. In
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 defines the work as taking information generated in the lab. Bioinformatics
 then uses exploration, analysis, and modeling to interpret results and make
 predictions around biological systems.
@@ -27,8 +27,8 @@ package ecosystems make those workflows usable beyond one lab.
 ## Wet Lab and Dry Lab Boundaries
 
 The boundary starts with where the data comes from. At 6:27 in
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 contrasts biotechnology experiments with bioinformatics analysis. Lab teams test
 vaccines, compounds, or biological mechanisms. Computational analysis can reduce
 the number of experiments by proposing better candidates for the lab to try.
@@ -43,9 +43,9 @@ Bioinformatics data science sits near
 [[data pipelines]]. Its biological
 context shapes the data model, validation, and interpretation.
 
-[[person:aaishamuhammad|Aaisha Muhammad]] gives the
+[[person:aaishamuhammad=>Aaisha Muhammad]] gives the
 self-taught entry path in
-[[podcast:learning-machine-learning-self-taught-bioinformatics|Teaching Yourself Bioinformatics and ML]].
+[[podcast:learning-machine-learning-self-taught-bioinformatics=>Teaching Yourself Bioinformatics and ML]].
 She used the OSSU open curriculum, ML Zoomcamp, and a project-first approach to
 build both bioinformatics and machine learning skills without formal coursework.
 The episode covers resource evaluation, dataset-first project ideation through
@@ -57,8 +57,8 @@ self-directed learner can bridge biological questions with ML pipelines.
 
 Sequencing is the input side of many bioinformatics workflows. In the 12:35 and
 15:30 parts of
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 explains genomic data as DNA sequences made from four nucleotides. The four are
 adenine, guanine, cytosine, and thymine. A sequencing workflow reads DNA from an
 environmental or biological sample. It breaks the DNA into small pieces, decodes
@@ -78,8 +78,8 @@ traits or organisms observed in a mixed sample.
 
 Metagenomics is the episode's clearest pipeline example because it turns raw
 biological material into analytical tables. At 17:56 in
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 describes metagenomics as studying DNA from environmental samples rather than
 from one organism. Environmental samples may come from a lake, soil, or a
 wastewater treatment plant. They may contain many microorganisms, so the
@@ -96,8 +96,8 @@ and analyzed for patterns across samples.
 ## Microbiome Network Inference
 
 The microbiome project moves from tabular analysis into graph analysis. In
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 explains at 20:10 that microbial association networks are inferred from
 co-abundance patterns. If two microorganisms often appear together in similar
 abundance, the workflow creates a possible association between them.
@@ -122,8 +122,8 @@ and run graph algorithms such as clustering or centrality analysis.
 
 The tooling discussion shows why [[open source]]
 is part of the bioinformatics data science workflow rather than an add-on. In
-[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
+[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
 uses MCW2 Graph and VueGen as examples. He also names VueCore and Viewer. These
 tools make biological data easier to explore, report, and visualize.
 

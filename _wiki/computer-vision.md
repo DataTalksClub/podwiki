@@ -23,14 +23,14 @@ It is less a model family than applied perception. A team collects and labels
 visual data, trains a [[deep learning]] model,
 validates edge cases, and ships the result where someone acts on it.
 
-[[person:aishwaryajadhav|Aishwarya Jadhav]] gives the clearest
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the clearest
 autonomous-driving version in
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Building Production-Ready AI Systems]],
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]],
 moving from sensor tradeoffs into on-vehicle inference and sensor data
 management, plus labeling, simulation, closed-track testing, and staged
 releases. [[person:tanyabergerwolf|Tanya Berger-Wolf]] applies the same
 visual-decision frame to camera traps, drone imagery, and remote sensing in
-[[podcast:ai-for-ecology-biodiversity-and-conservation|AI for Ecology, Biodiversity, and Conservation]],
+[[podcast:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]],
 adding citizen science, sparse labels, and field deployment.
 
 ## Visual Decision Systems
@@ -77,9 +77,9 @@ quality review inside the vision system instead of treating it as cleanup after
 modeling
 ([[podcast:ai-for-ecology-biodiversity-and-conservation|AI for Ecology, Biodiversity, and Conservation]]).
 
-[[person:andreyshtylenko|Andrey Shtylenko]] adds the
+[[person:andreyshtylenko=>Andrey Shtylenko]] adds the
 enterprise version in
-[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building and Scaling Data Science Practice in Industrial Enterprises]].
+[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]].
 Smart sensors, computer vision, and robotics rely on shared services for
 experiment tracking, annotation, and procurement. For industrial computer
 vision, labels and tooling become part of
@@ -96,7 +96,7 @@ closed-track validation, staged releases, and geography or edge-case complexity
 Those topics put computer vision inside
 [[machine learning system design]],
 [[production]], and
-[[notebook-to-production-ai-systems|notebook-to-production AI systems]].
+[[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 
 Field deployment has different constraints. Low-power devices, real-time
 alerts, local partners, and capacity building shape conservation systems
@@ -158,24 +158,24 @@ and [[production search evaluation]].
 ## Career and Project Work
 
 Computer vision portfolios need the full lifecycle at a smaller scale.
-[[person:tatianagabruseva|Tatiana Gabruseva]] frames her move from physics into
+[[person:tatianagabruseva=>Tatiana Gabruseva]] frames her move from physics into
 computer vision and deep learning in
-[[podcast:from-physics-to-computer-vision-career-transition|Switch to Computer Vision and Deep Learning]],
+[[podcast:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]],
 where end-to-end project work covers data collection and labeling plus
 deployment and Docker. The surrounding advice covers Kaggle teams, mentors, and
 interviews, plus Python and ML or DL courses, with SQL, algorithms, and system
 design rounding out the roadmap.
 
-[[person:isabellabicalho|Isabella Bicalho]] shows an
+[[person:isabellabicalho=>Isabella Bicalho]] shows an
 open-source route in
-[[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML]]:
+[[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]:
 Hugging Face computer vision contributions, open-source opportunities,
 green-space segmentation with Sentinel-2 imagery, and portfolio-building value.
 A project can compare CNNs and transformers while still documenting data,
 constraints, and collaboration.
 
-[[person:pauliusztin|Paul Iusztin]] broadens the career frame in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]],
+[[person:pauliusztin=>Paul Iusztin]] broadens the career frame in
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]],
 connecting deep learning and autonomous driving to the full-stack AI engineer
 skill stack and shipping AI products. For computer vision, that means a reviewer
 should see the data source and label strategy.

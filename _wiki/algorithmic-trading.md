@@ -23,8 +23,8 @@ related:
 Algorithmic trading uses code to turn market data and trading rules into
 repeatable buy, sell, or hold decisions. Some systems also use
 [[machine learning]] predictions. In
-[[podcast:algorithmic-trading-with-python-and-machine-learning|Algorithmic Trading with Python]],
-[[person:ivanbrigida|Ivan Brigida]] treats stock market
+[[podcast:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]],
+[[person:ivanbrigida=>Ivan Brigida]] treats stock market
 analysis with Python as an end-to-end data project. You collect market data and
 prepare features. Then you define a trading rule, backtest it, add risk and
 cost controls, and decide how much automation belongs in deployment.
@@ -57,7 +57,7 @@ describes PythonInvest as a way to test ideas and teach retail learners. He
 then walks through data quality, time ordering, and realistic simulation. He
 also covers stop-loss rules, fees, and discipline after deployment
 ([[person:ivanbrigida|Ivan Brigida]],
-[[podcast:algorithmic-trading-with-python-and-machine-learning|Algorithmic Trading with Python]]).
+[[podcast:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
 For a comprehensive reference, Stefan Jansen's [[book:20210222-ml-algotrading-2ed|Machine Learning for Algorithmic Trading]] Book of the Week covers end-to-end market data pipelines, feature engineering, model training, and backtesting in Python.
 
@@ -114,7 +114,7 @@ networks and handcrafted indicators. Feature importance then helps the team
 debug strong features. They can separate plausible signals from leakage and
 misleading shortcuts
 ([[person:ivanbrigida|Ivan Brigida]],
-[[podcast:algorithmic-trading-with-python-and-machine-learning|Algorithmic Trading with Python]]).
+[[podcast:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
 ## Backtesting Without Leakage
 
@@ -260,4 +260,4 @@ future operating path. Ivan supports that with walk-forward simulation and
 realistic costs. He also covers stop-loss and position sizing rules, execution
 choices, and monitoring-friendly deployment options
 ([[person:ivanbrigida|Ivan Brigida]],
-[[podcast:algorithmic-trading-with-python-and-machine-learning|Algorithmic Trading with Python]]).
+[[podcast:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).

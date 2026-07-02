@@ -115,7 +115,7 @@ transition:
 - [[Freelance]]
 - [[Entrepreneurship]]
 - [[Founder]]
-- [[startups|Startup]]
+- [[startups=>Startup]]
 - [[Data Products]]
 - [[Data Product Management]]
 - [[Data Product Adoption]]

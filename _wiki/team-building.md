@@ -22,16 +22,16 @@ teams use data work.
 
 Data teams need craft, context, and enablement. [[person:dattran|Dat Tran]]
 frames early ML team building around the product vision and company maturity in
-[[podcast:building-data-team|Building a Data Science Team]].
-[[person:tammyliang|Tammy Liang]] shows the business
+[[podcast:building-data-team=>Building a Data Science Team]].
+[[person:tammyliang=>Tammy Liang]] shows the business
 analytics version in
-[[podcast:building-and-scaling-data-team|Building and Leading Data Teams]].
+[[podcast:building-and-scaling-data-team=>Building and Leading Data Teams]].
 In that story, dashboards and data engineering come before forecasting and
 adoption work.
 
-[[person:lisacohen|Lisa Cohen]] adds the org
+[[person:lisacohen=>Lisa Cohen]] adds the org
 design layer in
-[[podcast:data-science-team-structure-and-org-design|Designing a Data Science Organization]].
+[[podcast:data-science-team-structure-and-org-design=>Designing a Data Science Organization]].
 She compares centralized, embedded, and hybrid teams.
 
 ## First Hires and Role Order
@@ -78,7 +78,7 @@ foundation they'll need next.
 
 Team building breaks when a company hires for the wrong role. [[person:barbarasobkowiak|Barbara
 Sobkowiak]] explains this in
-[[podcast:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
+[[podcast:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
 She sees job descriptions that ask for a data science manager but mostly list
 expert-level tools. Managers need broad technical literacy, strategy,
@@ -101,9 +101,9 @@ communication because the budget and scope force one person to cover more ground
 The risk is hiring a lone expert when the real need is team building, stakeholder
 translation, and strategy.
 
-[[person:katiebauer|Katie Bauer]] adds the manager hiring
+[[person:katiebauer=>Katie Bauer]] adds the manager hiring
 bar in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
 Manager interviews should test team-building judgment, stakeholder management,
 and career development. They should also test strategy, measurement, and
 tradeoffs, not only technical fluency
@@ -130,9 +130,9 @@ recommends helping juniors talk with those people and prepare questions. They
 also need to ask for help when they're stuck
 ([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|32:43-38:04 and 52:43-55:44]]).
 
-[[person:marianosemelman|Mariano Semelman]] gives the
+[[person:marianosemelman=>Mariano Semelman]] gives the
 manager onboarding version in
-[[podcast:data-science-leadership-hiring-mlops|Data Science Leadership]].
+[[podcast:data-science-leadership-hiring-mlops=>Data Science Leadership]].
 When he took over a team, he used the first part of his 30-60-90 plan to meet
 people and listen. He learned the projects and domain before giving stronger
 feedback. He also treats one-on-ones and feedback as a growth environment rather
@@ -186,7 +186,7 @@ and [[communication]].
 Data and ML team building eventually becomes platform work. [[person:larsalbertsson|Lars
 Albertsson]] describes the shift
 at Spotify in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 The core data team was swamped with internal requests, so it stopped acting only
 as an implementation bottleneck. It built tooling and workflows that let other
 teams deploy and fix their own data pipelines. Early success came from embedding
@@ -201,9 +201,9 @@ mix those competencies, they remove the wall between requesters and platform
 builders
 ([[podcast:dataops-principles-and-scalable-data-platforms|11:50-11:57 and 50:13-57:16]]).
 
-[[person:mehdiouazza|Mehdi OUAZZA]] gives the scale-up
+[[person:mehdiouazza=>Mehdi OUAZZA]] gives the scale-up
 version in
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]].
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 A data platform team may serve dozens of analysts and data scientists whose
 numbers and use cases are growing quickly. The platform team has to stop being a
 dependency. It can do that with onboarding sessions, support channels, and
@@ -219,7 +219,7 @@ As the organization grows, general data engineering work may split into platform
 and warehouse roles. Streaming and services may become separate roles too
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|20:13 and 50:17-54:55]]).
 Those team splits affect the operating model for [[DataOps]],
-[[self-service-data-platforms|self-service data platforms]],
+[[self-service-data-platforms=>self-service data platforms]],
 and [[platform adoption]].
 
 ## MLOps Teams and Production AI
@@ -227,7 +227,7 @@ and [[platform adoption]].
 MLOps teams need a different skill mix because they support models after the
 notebook stage. [[person:raphaelhoogvliets|Raphael Hoogvliets]]
 describes an MLOps team as a centralized enabling team in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 His team supports product teams and embedded ML engineers with infrastructure
 and best practices. It also covers deployment, maintenance, monitoring, and
 reusable tools
@@ -242,9 +242,9 @@ engineering also belong in the mix.
 Not everyone needs the same background, but the team needs the full mix
 ([[podcast:mlops-at-scale-reproducibility-adoption|16:58-20:33 and 45:10-48:15]]).
 
-[[person:simonstiebellehner|Simon Stiebellehner]] adds
+[[person:simonstiebellehner=>Simon Stiebellehner]] adds
 the platform trigger in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Teams shouldn't build a heavy ML platform before there's repeated model work and
 clear business value. When the need exists, useful platform pieces include
 self-service compute, experiment tracking, and a model registry. They also
@@ -283,9 +283,9 @@ after data errors by adding playbooks and dbt tests. Her team also added regular
 checks
 ([[podcast:building-and-scaling-data-team|35:38-40:09]]).
 
-[[person:16rahuljain|Rahul Jain]] makes a related point
+[[person:16rahuljain=>Rahul Jain]] makes a related point
 from data engineering leadership in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 He ties management to stakeholder prioritization, quality standards, data
 reconciliation, and access controls. He also ties it to data culture
 ([[podcast:data-engineering-leadership-and-modern-data-platforms|4:52-13:15 and 25:04-30:50]]).
@@ -311,5 +311,5 @@ For platform-heavy teams, use [[DataOps]],
 [[MLOps vs DataOps]]
 comparison. For the enablement surface, use
 [[platform adoption]],
-[[self-service-data-platforms|self-service data platforms]],
+[[self-service-data-platforms=>self-service data platforms]],
 and [[platform engineering]].

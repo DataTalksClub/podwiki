@@ -21,11 +21,11 @@ technical project with other people watching. Reproducible issues and
 documentation are valid contribution work, and tests, packaging, and maintainer
 etiquette count too
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 Open-source projects also serve as hiring proof because review pressure exposes
 Python and SQL along with testing and code-structure habits
 ([[person:jeffkatz|Jeff Katz]] in
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
 Open-source portfolio evidence belongs inside the broader
 [[Portfolio Projects]] topic.
@@ -59,7 +59,7 @@ README material and guides are important project surfaces, along with API
 reference, examples, contribution guides, and polite interaction on issue lists.
 A reproducible issue is a valid first contribution
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Code pull requests bring tests into view, and CI, packaging, and pre-commit
 hooks enter the contribution too
@@ -71,19 +71,19 @@ descriptive names, and tests — is what reviewers look for. Personal and
 open-source projects help because review pressure makes the work closer to
 professional practice
 ([[person:jeffkatz|Jeff Katz]] in
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
 Data-tool episodes show where those signals appear in practice. Airbyte's
 connector ecosystem covers the long tail of business tools
 ([Natalie Kwong](https://datatalks.club/people/nataliekwong.html) in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 DLT used workshops and documentation to validate a Python-first pipeline library
 ([[person:adrianbrudaru|Adrian Brudaru]] in
-[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]]).
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 Zingg made identity resolution, licensing, community feedback, and integrations
 visible
 ([[person:sonalgoyal|Sonal Goyal]] in
-[[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
+[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 
 Open-source portfolio evidence is therefore narrower than "I use open source"
 and broader than "I merged a feature." The strongest proof shows that someone
@@ -97,21 +97,21 @@ come first, discussion should precede large features, and a package shouldn't be
 published to PyPI before a project has enough tests, examples, and maintenance
 clarity
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 An employability lens asks for repositories that prove Python and SQL, plus
 Docker, Airflow, code organization, and tests. Open-source work is useful there
 because maintainers and teams impose reliability expectations that a private
 tutorial repo may not
 ([[person:jeffkatz|Jeff Katz]] in
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
 A [[developer relations]]
 and [[developer experience]]
 lens frames DevRel through education, documentation, and dogfooding, with
 community building and product feedback part of the same work
 ([[person:hugobowneanderson|Hugo Bowne-Anderson]] in
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 A presentable GitHub repository, blog posts, meetup talks, and small experiments
 all support DevRel work, which makes demos and tutorials credible when they
@@ -122,7 +122,7 @@ From an investor's outside view, open source is weighed on team, market need,
 community understanding, active engagement, and the path from value creation to
 value capture
 ([[person:belawiertz|Bela Wiertz]] in
-[[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]]).
+[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 For a portfolio, stars and badges are weak proof unless candidates also show who
 used the work, what feedback appeared, and why the project mattered.
 
@@ -130,7 +130,7 @@ Visibility and narrative matter too: open-source work and self-marketing build
 recognition, and learning in public means showing honest progress, corrections,
 and earned expertise
 ([[person:swyx|Shawn Swyx Wang]] in
-[[podcast:developer-personal-brand-learn-in-public|Learn in Public]]).
+[[podcast:developer-personal-brand-learn-in-public=>Learn in Public]]).
 Public work becomes stronger when readers can see iteration, not only finished
 polish.
 
@@ -163,7 +163,7 @@ Public learning, corrections, and reusable knowledge build recognition
 interviews, project walkthroughs test ownership, impact framing, and defensible
 technical claims
 ([[person:nicksingh|Nick Singh]] in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
 ## Contribution Paths
 
@@ -189,7 +189,7 @@ DLT makes this documentation path especially concrete for data engineering.
 Without docs the product was unusable, and it took months of work before people
 could use the docs and then call them good
 ([[person:adrianbrudaru|Adrian Brudaru]] in
-[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]]).
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 A portfolio contribution to a pipeline library can therefore be a setup guide,
 source example, or destination example, and a workshop fix can help another
 Python user build the pipeline successfully.
@@ -208,7 +208,7 @@ Airbyte gives a connector-specific version of this path. Closed-source ingestion
 tools struggle with the long tail of connectors, and custom connectors can be
 built through Airbyte's connector development kit
 ([[person:nataliekwong|Natalie Kwong]] in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 A connector fix or connector example is strong in a data-engineering portfolio
 when it shows API handling, schema behavior, tests, and a clear review trail.
@@ -250,17 +250,17 @@ Airbyte, DLT, and Zingg show three useful data-engineering contribution shapes:
   destinations, CDC behavior, and the boundary between open connectors and cloud
   features
   ([[person:nataliekwong|Natalie Kwong]] in
-  [[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+  [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 - DLT makes library and documentation work legible. A developer can contribute
   examples, workshop corrections, or source integrations. Docs can show how
   Python users build pipelines
   ([[person:adrianbrudaru|Adrian Brudaru]] in
-  [[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]]).
+  [[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 - Zingg makes productized data-quality work legible. Identity resolution needs
   entity modeling and training data. Spark-compatible sources, licensing
   judgment, and community support also matter
   ([[person:sonalgoyal|Sonal Goyal]] in
-  [[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
+  [[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 
 For machine learning, the contribution should prove maintainable ML work. Good
 examples include reproducible examples, evaluation helpers, scikit-learn
@@ -285,7 +285,7 @@ For founder, product, or developer-tools portfolios, an investor lens helps:
 open source as community trust and bottom-up developer adoption, with vanity
 metrics separated from active engagement and commercialization understanding
 ([[person:belawiertz|Bela Wiertz]] in
-[[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]]).
+[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
 The portfolio should therefore show active users and issue discussion. It can
 also show repeated use, community learning, or a credible boundary between the
@@ -303,7 +303,7 @@ An open-source contribution isn't self-explanatory in an interview. Project
 walkthroughs test whether the candidate can explain the work, and leading with
 impact beats burying the result
 ([[person:nicksingh|Nick Singh]] in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
 Candidates should translate technical work into business or product context and
 present only technical claims they can defend
@@ -366,7 +366,7 @@ Adjacent role, contribution, and portfolio topics:
 - [[Developer Experience]]
 - [[Job Search]]
 - [[CV Screening]]
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]
 - [[Data Engineering Portfolio Projects]]
 - [[Machine Learning Portfolio Projects]]
 - [[RAG Portfolio Projects]]

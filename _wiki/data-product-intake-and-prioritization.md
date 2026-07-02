@@ -29,9 +29,9 @@ real decisions. Intake narrows the scope to request framing and Definition of
 Done documents. It also covers exploratory checks, pilots, and production
 handoffs.
 
-[[person:ioannismesionis|Ioannis Mesionis]] gives the
+[[person:ioannismesionis=>Ioannis Mesionis]] gives the
 clearest operating model in
-[[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]].
+[[podcast:building-data-products-lead-data-scientist=>Building Data Products at Scale]].
 His easyJet example starts with embedded stakeholder observation. It then moves
 through a "single front door" and Definition of Done. The same workflow
 continues through inception and EDA. R&D, pilot testing, and production rollout
@@ -58,9 +58,9 @@ That makes intake a prioritization mechanism for
 [[data science project management]],
 not only a form.
 
-[[person:caitlinmoorman|Caitlin Moorman]] adds the
+[[person:caitlinmoorman=>Caitlin Moorman]] adds the
 adoption boundary in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 For her, the request should be framed around the decision the product will
 enable. A data team may build a dashboard or A/B testing tool. Success is
 whether a product manager can use it at the moment of decision. The same rule
@@ -89,9 +89,9 @@ won't be adopted
 That shifts prioritization toward high-value decisions and low-friction
 interfaces.
 
-[[person:liorbarak|Lior Barak]] focuses on translation
+[[person:liorbarak=>Lior Barak]] focuses on translation
 and proof. In
-[[podcast:data-translator-role-and-data-strategy|Data Strategist Guide]],
+[[podcast:data-translator-role-and-data-strategy=>Data Strategist Guide]],
 he argues that data people should sit with business users and see their
 workflow. They can identify small automations or prototypes before committing
 to heavier development. A quick MVP can prove that a problem matters and create the
@@ -238,4 +238,4 @@ practices around intake:
 - [[Metrics]]
 - [[KPIs]]
 - [[Evaluation]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]

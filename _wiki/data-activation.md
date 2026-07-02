@@ -38,7 +38,7 @@ segment to an email or onboarding tool
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 
 This makes data activation narrower than general
-[[data-led-growth|data-led growth]], which can include strategy, experimentation,
+[[data-led-growth=>data-led growth]], which can include strategy, experimentation,
 channel decisions, and product loops. Activation is the part where a modeled
 signal crosses into an operational surface. It is also broader than reverse ETL,
 because a customer data platform, embedded product experience, support
@@ -53,19 +53,19 @@ then moves toward warehouses and BI, with product analytics, reverse ETL, and
 customer data platforms coming later; activation is the point where product data
 improves support, sales, personalization, and onboarding
 ([[person:arpitchoudhury|Arpit Choudhury]],
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
 A [[modern data stack]] view treats reverse ETL as pushing modeled warehouse
 tables back into source systems or business tools; the activation problem is less
 about growth strategy and more about letting business users act on warehouse
 outputs without custom scripts ([[person:nataliekwong|Natalie Kwong]],
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 A last-mile-delivery view holds that data work is unfinished until it reaches the
 decision point, and includes dashboards and experiments, meetings, and
 productized analytics, not only syncs into external tools
 ([[person:caitlinmoorman|Caitlin Moorman]],
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 
 ## Reverse ETL As Activation Plumbing
 
@@ -131,7 +131,7 @@ Activation raises the cost of bad data. Stale segments can trigger the wrong
 campaign, broken identity rules can send support teams the wrong customer
 history, and ambiguous events can make sales teams prioritize the wrong account.
 Activation therefore depends on [[data governance]], [[tracking plans]], and
-[[data-quality-and-observability|data observability]].
+[[data-quality-and-observability=>data observability]].
 
 Event ownership and source awareness come first: tracking plans, event
 definitions, event properties, and anomaly investigation all precede activation.
@@ -149,7 +149,7 @@ both the upstream model and the downstream decision
 
 These pages cover the adjacent concepts that activation depends on or feeds.
 
-- [[data-led-growth|Data-Led Growth]] for the
+- [[data-led-growth=>Data-Led Growth]] for the
   growth-stack framing around event tracking, analytics, and activation.
 - [[Reverse ETL]] for warehouse-to-tool
   syncs into operational systems.

@@ -79,7 +79,7 @@ industry signal. CJ's path fits the
 her research background maps to statistics, experiments, and credit-risk
 modeling
 ([[podcast:postdoc-to-data-science-lead-career-transition|Postdoc to Data Science Lead]]).
-[[person:danielegbo|Daniel Egbo]] moves radio astronomy
+[[person:danielegbo=>Daniel Egbo]] moves radio astronomy
 toward applied ML and data engineering because MEERKAT work depends on source
 detection, catalog cross-matching, and curated datasets, with later project work
 adding cloud notebooks, Spark, and warehouse pipelines
@@ -164,7 +164,7 @@ project stories that show personal contribution
 That makes this topic adjacent to
 [[CV Screening]],
 [[Job Search]], and the
-[[data-scientist-interview|Data Scientist Interview Guide]].
+[[data-scientist-interview=>Data Scientist Interview Guide]].
 
 ## Production and Collaboration Skills
 
@@ -251,7 +251,7 @@ and [[Staff AI Engineer]].
 Use these pages for adjacent roles, portfolios, interviews, and learning paths.
 
 - [[Academia]]
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]
 - [[Career Transitions in Data]]
 - [[Data Science]]
 - [[Data Scientist Role]]
@@ -263,8 +263,8 @@ Use these pages for adjacent roles, portfolios, interviews, and learning paths.
 - [[Machine Learning Portfolio Projects]]
 - [[Data Engineering Portfolio Projects]]
 - [[Open Source Portfolio Evidence]]
-- [[data-scientist-role|Data Scientist Guide]]
-- [[data-scientist-interview|Data Scientist Interview Guide]]
+- [[data-scientist-role=>Data Scientist Guide]]
+- [[data-scientist-interview=>Data Scientist Interview Guide]]
 - [[Data Engineer Roadmap]]
 - [[Machine Learning Engineer Roadmap]]
 - [[Data Scientist Interview Roadmap]]

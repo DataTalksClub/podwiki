@@ -180,7 +180,7 @@ shouldn't act alone
 Those controls connect responsible AI to
 [[AI Red Teaming]],
 [[Security]], and
-[[llm-production-patterns|LLM production]].
+[[llm-production-patterns=>LLM production]].
 
 Agents widen the control surface further. Legal and healthcare reliability serve
 as high-stakes examples, specialized models and agent governance enter the

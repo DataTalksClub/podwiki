@@ -20,13 +20,13 @@ DataTalks.Club interviews, the lead chooses the first data priorities and hires
 the team around those priorities. They also set quality standards and make data
 useful inside business decisions. Team model choices belong there too.
 
-[[person:tammyliang|Tammy Liang]] gives the most
+[[person:tammyliang=>Tammy Liang]] gives the most
 concrete early-team version. As Chief of Data, she starts with business health
 monitoring and dashboards. She then grows the team toward warehouse work,
 forecasting, and governance repairs. dbt tests and adoption workshops follow
 ([[podcast:building-and-scaling-data-team|How to Build & Scale a Data Team: chief-of-data scope through adoption workshops at 4:07-50:52]]).
 
-[[person:lisacohen|Lisa Cohen]] gives the org-design
+[[person:lisacohen=>Lisa Cohen]] gives the org-design
 version. Her discussion compares centralized, decentralized, and hybrid data
 science teams. She then ties structure to OKRs, cross-functional rituals,
 staffing, and experimentation. Product partnership sits in the same structure
@@ -54,7 +54,7 @@ senior hires can matter earlier because early decisions create long-lived
 patterns
 ([[podcast:building-and-scaling-data-team|Building data team: hiring order at 15:04-26:26]]).
 
-[[person:marcodesa|Marco De Sa]] gives the executive
+[[person:marcodesa=>Marco De Sa]] gives the executive
 version in his chief data officer discussion. That role works backward from
 business goals into strategy, KPIs, and accountability. Org design, governance,
 and data culture belong there too
@@ -77,14 +77,14 @@ issues. Dashboard skepticism has to be handled before more advanced work can
 land
 ([[podcast:building-and-scaling-data-team|How to Build & Scale a Data Team: trust repair at 8:51-12:00 and 35:38-41:42]]).
 
-[[person:katiebauer|Katie Bauer]] adds a manager's
+[[person:katiebauer=>Katie Bauer]] adds a manager's
 view from B2B SaaS. Her episode connects data science management to matrix
 work, mentorship, documentation, and stakeholder expectations. Career systems
 belong in the same management work
 ([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS data science team management: matrix work through culture building at 8:33-56:20]]).
 That version makes people development more explicit than the early-team buildout.
 
-[[person:barbarasobkowiak|Barbara Sobkowiak]] separates
+[[person:barbarasobkowiak=>Barbara Sobkowiak]] separates
 manager and expert paths. Her discussion says a manager needs strategy, team
 development, and stakeholder work. Prioritization and impact judgment also
 matter. A deep expert role can remain separate in larger organizations
@@ -108,7 +108,7 @@ Tammy describes workshops and Q&A sessions as part of leadership. Delegation,
 ownership, and team empowerment belong there too
 ([[podcast:building-and-scaling-data-team|How to Build & Scale a Data Team: data product adoption and leadership habits at 47:08-56:19]]).
 
-[[person:caitlinmoorman|Caitlin Moorman]] gives the
+[[person:caitlinmoorman=>Caitlin Moorman]] gives the
 last-mile version of the same point. Analytics outputs need discoverability,
 interpretability, trust, and a place in the actual decision workflow
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery: trust and decision workflow design at 24:13-38:15]]).
@@ -132,7 +132,7 @@ the same planning layer. Product partnership belongs in that layer as well
 That makes the lead responsible for how data scientists and engineers work with
 product managers. Designers and analysts belong in that operating model too.
 
-[[person:terezaiofciu|Tereza Iofciu]] adds the
+[[person:terezaiofciu=>Tereza Iofciu]] adds the
 leadership-transition view. Moving from IC to lead changes the work from direct
 execution to feedback culture, visibility, and product mindset. KPIs and
 influence without authority matter too. Stakeholder framing and empathy matter
@@ -140,7 +140,7 @@ as well
 ([[podcast:data-leadership-coaching|Data Leadership Coaching: IC-to-lead transition and stakeholder influence at 6:17-50:23]]).
 
 The boundary with a
-[[data-architect-role|data architect]] is that the
+[[data-architect-role=>data architect]] is that the
 architect owns durable system structure. The data team lead owns the people,
 priorities, and operating habits that make the architecture useful. In small
 teams, one person may hold both responsibilities.

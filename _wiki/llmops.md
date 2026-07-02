@@ -31,8 +31,8 @@ The topic sits at the intersection of
 ## Technical Pillars for Shipping AI Products
 
 In
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]],
-[[person:pauliusztin|Paul Iusztin]] frames LLMOps as part
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]],
+[[person:pauliusztin=>Paul Iusztin]] frames LLMOps as part
 of the core skills for AI engineers. At 42:28 he names creating and evaluating
 agents, building data pipelines for RAG ingestion, and knowing how to make data
 available to agents. At 46:31 he recommends LLMOps tools like Arize Phoenix for
@@ -50,8 +50,8 @@ orchestrators for data and agents, one tool can handle both.
 ## Agent MLOps: Guardrails and Data Lineage
 
 In
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
-[[person:adityagautam|Aditya Gautam]] connects agent
+[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]],
+[[person:adityagautam=>Aditya Gautam]] connects agent
 governance directly to MLOps. At 30:26 he links guardrails and data lineage to
 what he calls Agent MLOps. He explains that companies need to understand what
 each agent is doing and how user data is processed. You need to ensure retention
@@ -69,8 +69,8 @@ machines.
 ## Monitoring and Debuggable MVPs
 
 In
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] covers
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] covers
 monitoring practices that make LLM systems debuggable. At 13:56 he introduces
 the generator-evaluator loop for automated quality control, where one model
 generates output and another evaluates it with pass/fail scoring. At 23:00 he
@@ -86,8 +86,8 @@ is really happening before adding complexity.
 ## Evaluation Strategy and Testing Agents
 
 In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] treats
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] treats
 evaluation as a core LLMOps practice. At 51:17 she recommends custom datasets and
 system benchmarks over public benchmarks like SQuAD, which evaluate model
 capability rather than your specific system. At 53:20 she discusses mocking tools,
@@ -103,8 +103,8 @@ This connects to [[Evaluation]] and
 ## Prompt Caching, Compression, and Cost Optimization
 
 In
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
-[[person:bartoszmikulski|Bartosz Mikulski]] discusses
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
+[[person:bartoszmikulski=>Bartosz Mikulski]] discusses
 prompt evaluation and cost tradeoffs at 28:16. He recommends gathering data from
 tests: prepare an evaluation dataset with inputs and expected outputs, then
 measure how well the model performs. At some point, adding more examples stops
@@ -121,7 +121,7 @@ makes coding tasks cheaper. The [[book:20241104-llm-engineer-s-handbook|LLM Engi
 ## Feedback Loops and Human-in-the-Loop
 
 Aditya covers feedback collection as an LLMOps practice in
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]].
+[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 At 36:55 he discusses user feedback loops, where implicit signals like repeated
 queries or reframed questions indicate frustration. Companies collect these gaps
 from bad user feedback, generate synthetic data or use human labeling teams, and
@@ -138,8 +138,8 @@ ground truth.
 ## Open-Source Models and Production Deployment
 
 In
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
-[[person:meryemarik|Meryem Arik]] frames the deployment
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
+[[person:meryemarik=>Meryem Arik]] frames the deployment
 choice between API and open-source models as a core LLMOps decision. At 49:57 she
 recommends using API-based models like GPT-3.5 or GPT-4 for prototyping because
 you can get to demos within a day or two. In the long term, businesses move to

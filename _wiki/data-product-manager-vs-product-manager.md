@@ -160,7 +160,7 @@ libraries, and UIs until users no longer know where to start
 
 Use [[Data Product Adoption]]
 for the deeper adoption work. Use
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 when the product is a platform that data teams or business teams use directly.
 
 ## Metrics And Roadmaps
@@ -189,7 +189,7 @@ time or measuring whether the platform improves deployment speed
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 
 A decision metric applies to
-[[a-b-testing|A/B Testing]] and
+[[a-b-testing=>A/B Testing]] and
 [[Experimentation and Causal Inference]].
 An A/B testing reporting product shouldn't show every statistical detail by
 default; it should help a product manager decide whether to roll out a feature

@@ -24,13 +24,13 @@ Feature stores sit inside
 [[MLOps]],
 [[ML platforms]], and
 [[machine learning infrastructure]].
- [[book:20210920-python-feature-engineering-cookbook|Python Feature Engineering Cookbook]]
+ [[book:20210920-python-feature-engineering-cookbook=>Python Feature Engineering Cookbook]]
  by Soledad Galli covers the upstream engineering of the features that flow
  into a store like this.
 They aren't a generic replacement for a
 [[data warehouse]],
 [[data lake]], catalog, or
-[[data-pipelines|data pipeline]]. Their special
+[[data-pipelines=>data pipeline]]. Their special
 job is to bridge feature creation, training data construction, and low-latency
 serving for production ML.
 
@@ -81,7 +81,7 @@ quality, efficient storage, processing, lineage, and early error detection
 A feature store can support those needs for ML features, but it doesn't remove
 the broader need for reliable
 [[data engineering]] and
-[[data-quality-and-observability|data quality]]
+[[data-quality-and-observability=>data quality]]
 work upstream.
 
 ## Online and Offline Consistency
@@ -193,7 +193,7 @@ specific data to look at.
 ## Feast and Tecton
 
 Feast and Tecton compare through scope rather than a generic vendor ranking.
-[[person:willempienaar|Willem Pienaar]] created
+[[person:willempienaar=>Willem Pienaar]] created
 Feast at Gojek and later worked on it at Tecton
 ([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
 

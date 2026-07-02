@@ -29,7 +29,7 @@ Terraform, managed compute, batch inference, online serving, and orchestration
 Infrastructure is therefore broader than model serving but narrower than the
 whole platform product.
 
-[[book:20210927-effective-data-science-infrastructure|Effective Data Science Infrastructure]]
+[[book:20210927-effective-data-science-infrastructure=>Effective Data Science Infrastructure]]
 by Ville Tuulos covers the same compute, orchestration, and serving layers
 from the data science side, built around his Metaflow experience.
 

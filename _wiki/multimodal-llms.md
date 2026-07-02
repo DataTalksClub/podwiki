@@ -34,8 +34,8 @@ The most concrete multimodal architecture discussed in the podcast is CLIP
 and images into a shared vector space.
 
 In
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing]],
-[[person:danielsvonava|Daniel Svonava]] explains CLIP at
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing]],
+[[person:danielsvonava=>Daniel Svonava]] explains CLIP at
 33:11. The model turns text into vectors and images into vectors in such a way
 that you can use text to look for images. Writing "black cat" returns images of
 black cats. This is cross-modal retrieval: the query and the target live in
@@ -76,9 +76,9 @@ multimodal retrieval systems.
 
 ## Multimodal LLMs in Autonomous Driving
 
-[[person:aishwaryajadhav|Aishwarya Jadhav]] addresses
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] addresses
 multimodal LLMs in the context of self-driving in
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI: Tesla, Waymo, and Beyond]].
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI: Tesla, Waymo, and Beyond]].
 
 At 52:53, she notes that there have been many attempts to use multimodal LLMs
 for autonomous driving. Some companies are using them for end-to-end
@@ -101,9 +101,9 @@ of running large models under hard latency constraints.
 
 ## Visual Language Models and Agent Infrastructure
 
-[[person:adityagautam|Aditya Gautam]] discusses the
+[[person:adityagautam=>Aditya Gautam]] discusses the
 multimodal shift in the context of AI agents in
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]].
+[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 
 At 21:57, he describes a shift away from text-only interactions. Infrastructure
 tooling is getting better, and there is a multimodality shift where visual

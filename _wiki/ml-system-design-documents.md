@@ -13,7 +13,7 @@ related:
 ---
 
 An ML system design document is the written specification for a
-[[machine-learning-system-design|machine learning system]]
+[[machine-learning-system-design=>machine learning system]]
 before a team commits to an architecture. Teams use it to name the product
 decision, users, goals, and non-goals. They also record assumptions, data
 paths, and baselines.
@@ -22,17 +22,17 @@ They keep evaluation plans and serving mode in the same
 document. Monitoring, fallback behavior, and owners belong there too. Teams
 review it like an engineering design doc, not a research report.
 
-[[person:valeriybabushkin|Valerii Babushkin]] frames the
+[[person:valeriybabushkin=>Valerii Babushkin]] frames the
 design doc as a way to fail fast in
-[[podcast:ml-system-design|ML System Design Playbook]].
+[[podcast:ml-system-design=>ML System Design Playbook]].
 At 7:06 and 8:39, he compares it to a blueprint that exposes weak assumptions
 before the team spends months implementing them. At 14:36, he ties the design
 doc to stakeholder feedback and simplicity. At 19:01, he says teams should
 update it after the system changes.
 
-[[person:arsenykravchenko|Arseny Kravchenko]] uses a
+[[person:arsenykravchenko=>Arseny Kravchenko]] uses a
 similar problem-first frame in
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]].
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 In his framing, teams write goals, constraints, and assumptions before model
 choice. Metrics and data flow come early too. Both guests place design docs
 inside
@@ -61,9 +61,9 @@ and data strategy belong there too.
 By writing the problem before the solution, teams keep the document from
 becoming a model wish list.
 
-[[person:nadianahar|Nadia Nahar]] adds the software
+[[person:nadianahar=>Nadia Nahar]] adds the software
 engineering warning in
-[[podcast:software-engineering-for-machine-learning|Software Engineering for Machine Learning]].
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
 At 10:54 and 29:42, she names weak requirements and unrealistic expectations as
 recurring causes of ML project failure. Poor data access and deployment gaps
 matter too.
@@ -98,7 +98,7 @@ Teams may choose batch scoring or streaming features, online serving or offline
 analysis. Each serving choice creates different design obligations. Teams often
 need the same vocabulary used in
 [[data pipelines]],
-[[batch-vs-streaming|batch versus streaming]],
+[[batch-vs-streaming=>batch versus streaming]],
 and
 [[data quality and observability]].
 
@@ -106,7 +106,7 @@ Teams should keep evaluation in the same document because offline model quality
 and product quality can diverge. They should record the offline metric, business
 metric, validation data, and cohort or slice checks. The error analysis plan and
 rollout method belong there too. User-facing systems may need an
-[[a-b-testing|A/B test]], shadow deployment,
+[[a-b-testing=>A/B test]], shadow deployment,
 manual-review queue, or staged launch rather than a single offline score.
 
 ## Constraints, Diagrams, and Serving

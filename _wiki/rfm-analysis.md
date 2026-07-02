@@ -49,7 +49,7 @@ to product-team support, cohort sizing, A/B testing, and data-model updates
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]]).
 That makes RFM adjacent to
 [[metrics]] and
-[[a-b-testing|A/B testing]], because the segments
+[[a-b-testing=>A/B testing]], because the segments
 should feed decisions about product changes, campaigns, and retention
 interventions.
 
@@ -232,9 +232,9 @@ concepts:
 - [[dbt]]
 - [[Event Tracking]]
 - [[Tracking Plans]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Data Activation]]
 - [[Reverse ETL]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Metrics]]
 - [[Marketing to Analytics Engineering]]

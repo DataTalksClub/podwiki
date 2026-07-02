@@ -23,8 +23,8 @@ CDPs are one way to solve
 only reporting on customer behavior and starts using that behavior in the tools
 where customers and internal teams act.
 
-[[person:arpitchoudhury|Arpit Choudhury]] gives the clearest CDP framing in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]].
+[[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest CDP framing in
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth, Event Tracking, and Reverse ETL]].
 A CDP is a bundled system where teams can track data, send it to other tools,
 and create audiences, and where they can build models or segments inside the
 platform. CDPs are limited compared with warehouse modeling, but they can still
@@ -70,9 +70,9 @@ have a dedicated data engineer, so a CDP can give marketers and growth teams
 usable customer data quickly
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
 
-[[person:sonalgoyal|Sonal Goyal]] approaches the same space from the identity
+[[person:sonalgoyal=>Sonal Goyal]] approaches the same space from the identity
 side in
-[[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]].
+[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]].
 The core problem is deciding whether several warehouse records refer to the
 same real-world customer. CDPs and master data management systems sometimes
 include identity-resolution capabilities, but a dedicated identity-resolution
@@ -188,8 +188,8 @@ For a CDP, governance covers several decisions:
 - how teams monitor downstream syncs
 
 CDPs aren't a substitute for governance. They're a place where
-[[data-quality-and-observability|data observability]],
-[[privacy-engineering-for-ml|privacy engineering]],
+[[data-quality-and-observability=>data observability]],
+[[privacy-engineering-for-ml=>privacy engineering]],
 and ownership become more visible because customer data starts affecting real
 interactions.
 
@@ -200,7 +200,7 @@ also depend on operational syncs, identity matching, and governance.
 
 - [[Data Activation]]
 - [[Reverse ETL]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Product Analytics]]
 - [[Event Tracking]]
 - [[Tracking Plans]]

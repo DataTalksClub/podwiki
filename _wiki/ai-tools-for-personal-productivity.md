@@ -83,8 +83,8 @@ constraints.
 The same drafting habit can become a personal knowledge habit: LLMs can convert
 messy input such as transcripts and automated content into searchable notes. For
 more reliable knowledge work, connect the habit to
-[[retrieval-augmented-generation|RAG]] and
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>RAG]] and
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 Store the original source, ask the model to cite the relevant passage or file,
 and keep a small set of examples where you know the right answer.
 

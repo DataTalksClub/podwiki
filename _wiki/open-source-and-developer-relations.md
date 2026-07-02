@@ -218,7 +218,7 @@ be a reviewed pull request or a visible portfolio signal
 The same discussions lead into
 [[machine learning tools]],
 [[modern data stack]],
-[[scikit-learn|scikit-learn]], and
+[[scikit-learn=>scikit-learn]], and
 [[Metaflow]]. Those tool pages cover the
 technical ecosystems that make open-source DevRel useful rather than merely
 promotional.

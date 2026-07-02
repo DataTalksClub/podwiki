@@ -18,7 +18,7 @@ and still publish stale partitions, missing rows, broken schemas, or shifted
 values. This is a production reliability problem for [[data engineering]],
 [[DataOps]], analytics, and ML systems.
 
-[[person:barrmoses|Barr Moses]] defines data downtime as the gap between when
+[[person:barrmoses=>Barr Moses]] defines data downtime as the gap between when
 bad data appears and when the team notices it
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
 Silent quality failures and model drift fall into the same category, and a good
@@ -136,7 +136,7 @@ table, an experiment readout can use incomplete events, and a product team can
 optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
 right. That consumer-facing pressure is the same adoption problem covered in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 The same risk shows up as silent failures and good-pipeline/bad-data cases
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
 
@@ -163,9 +163,9 @@ In those cases data observability is part of product reliability, not just
 analytics hygiene.
 
 Reverse-flow delivery from the warehouse back to business tools appears in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]],
 and reverse ETL delivery in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
 ## Implementation Path
 
@@ -174,11 +174,11 @@ data would change a business decision or customer experience. Include ML outputs
 and operational workflows when they depend on the same sources.
 
 Ownership, SLAs, runbooks, thresholds, and alert fatigue are covered in
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]].
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Consumer-first pipeline design appears in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
 and DataOps playbook guidance in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 For a data engineering team, a practical first pass is:
 

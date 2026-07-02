@@ -19,15 +19,15 @@ the model lifecycle repeatable for the team running it.
 
 DataTalks.Club guests treat [[MLOps]] as an
 operating discipline, not a shopping category. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 frames MLOps around people, processes, and technology. The discussion covers
 experiment tracking and registries, deployment and serving, plus orchestration.
 It also connects metadata, lineage, governance, and developer experience.
 
 In
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]],
-[[person:mariavechtomova|Maria Vechtomova]] warns that
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]],
+[[person:mariavechtomova=>Maria Vechtomova]] warns that
 new tools don't solve organizational problems by themselves. Large companies
 often already have Kubernetes plus existing version control, CI/CD,
 orchestration, and deployment infrastructure.
@@ -56,15 +56,15 @@ A practical MLOps stack should cover seven jobs:
    without hiding the production constraints they're responsible for.
 
 Several episodes ground that coverage. In
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]]
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]
 starts with version control, CI/CD, and containerization. His toolbelt also
 includes experiment tracking and a model registry. It adds package and container
 registries, compute, serving, and monitoring.
 
 In
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]],
-[[person:nemanjaradojkovic|Nemanja Radojkovic]]
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]],
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]]
 starts a minimal regulated setup with dev, test, and production environments.
 He adds a DevOps platform plus monitoring, a model registry, data versioning,
 and reproducible pipelines.
@@ -74,7 +74,7 @@ and reproducible pipelines.
 [[Experiment tracking]] is often
 the first MLOps tool category because it fixes a common failure mode. Without
 it, nobody can recover which run produced a promising model. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 Simon calls experiment tracking an early win for teams that still keep
 run history in spreadsheets. Tracking should capture metrics and parameters,
 but it should also connect runs to code and data references. Artifacts and
@@ -100,7 +100,7 @@ links back to training and deployment evidence.
 ## Pipelines, Deployment, and Serving
 
 MLOps tools should separate training pipelines from serving choices. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 Simon distinguishes batch inference from online serving. A batch scoring job may
 look like training infrastructure. It prepares data and loads a model. It writes
 predictions to a table.
@@ -133,7 +133,7 @@ questions that an early team may not be ready to absorb.
 ## CI/CD and Platform Defaults
 
 CI/CD is the MLOps tool category that guests most often connect to adoption. In
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
 Raphaël says a team should start from concrete pain points, but CI/CD is usually
 his first early win. If deployment takes months, CI/CD and repository structure
 create visible value. Tests, packaging, and deployment automation do too.
@@ -164,8 +164,8 @@ category is mandatory on day one.
 
 [[Model monitoring]] is what makes
 the stack operational after deployment. In
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
-[[person:dannyleybzon|Danny Leybzon]] prioritizes the
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]],
+[[person:dannyleybzon=>Danny Leybzon]] prioritizes the
 late lifecycle. He focuses on inference, deployment, and whether a model in
 production is still operating effectively.
 
@@ -183,7 +183,7 @@ lineage, but the MLOps stack still owns the model lifecycle. That lifecycle
 includes artifacts, serving, and prediction logging. It also includes
 monitoring, feedback, and retraining decisions.
 
-[[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]
+[[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]
 with [[person:theofilospapapanagiotou|Theofilos Papapanagiotou]]
 adds the maturity view, covering drift and fairness, including retraining
 triggers. It also discusses infrastructure monitoring with Prometheus and
@@ -239,10 +239,10 @@ platform templates by failure mode.
 
 The strongest podcast path for this keyword:
 
-- [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]
-- [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]
-- [[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]
-- [[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]
-- [[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]
-- [[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]
-- [[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]
+- [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+- [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+- [[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+- [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+- [[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]
+- [[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
+- [[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]]

@@ -39,8 +39,8 @@ change caused an outcome, where metric choice shapes the conclusion through
 metric stability, seasonality, and power analysis
 ([[podcast:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]]).
 Those concerns connect directly to
-[[a-b-testing|A/B Testing]],
-[[a-a-testing|A/A Testing]], and
+[[a-b-testing=>A/B Testing]],
+[[a-a-testing=>A/A Testing]], and
 [[Power Analysis]].
 
 The causal version needs refutation tests and estimator checks, but the final
@@ -144,7 +144,7 @@ Production evaluation checks whether the earlier judgment still holds after
 data changes. It also has to account for users, infrastructure, and upstream
 pipelines. This is where
 [[MLOps]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[model monitoring]] become part
 of evaluation.
 
@@ -184,13 +184,13 @@ Reviewers still need to judge whether the answer is useful, grounded, and safe.
 These pages cover adjacent evaluation decisions in more detail.
 
 - [[Metrics]]
-- [[a-b-testing|A/B Testing]]
-- [[a-a-testing|A/A Testing]]
+- [[a-b-testing=>A/B Testing]]
+- [[a-a-testing=>A/A Testing]]
 - [[Power Analysis]]
 - [[Causal Inference]]
 - [[Experimentation]]
 - [[Machine Learning System Design]]
 - [[MLOps]]
 - [[Model Monitoring]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[Agent Engineering]]

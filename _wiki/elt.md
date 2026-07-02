@@ -24,15 +24,15 @@ stack, an ingestion tool writes raw source data to storage.
 [[dbt]] or plain SQL builds models. BI tools
 consume governed tables.
 
-[[person:nataliekwong|Natalie Kwong]] gives the clearest
+[[person:nataliekwong=>Natalie Kwong]] gives the clearest
 definition in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 At 7:57-14:54, she explains why teams load first when business logic changes
 often. Source detail stays available, and analysts can write new SQL
 transformations. Data engineers don't need to re-extract a source every time a
 new field or question appears. The contrast with transform-before-load work is
 covered in [[ETL]] and the
-[[etl-vs-elt|ETL vs ELT comparison]].
+[[etl-vs-elt=>ETL vs ELT comparison]].
 
 ## Load-First Model
 
@@ -53,9 +53,9 @@ it reliable.
 
 Guests don't treat ELT as "load everything and forget about it."
 Kwong separates raw ingestion from data marts at 15:30-18:47.
-[[person:16rahuljain|Rahul Jain]] describes the same
+[[person:16rahuljain=>Rahul Jain]] describes the same
 move at platform scale in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 His team moved from tightly coupled ETL models to ELT. They could then load
 data first, transform it later, and keep the model resilient as use cases grew
 (30:50-33:15).
@@ -70,9 +70,9 @@ product teams. After transformation, business users can pull metrics from a
 mart because the team has added guardrails and consistent definitions
 ([[podcast:data-engineering-tools-modern-data-stack|modern stack episode at 15:30-18:47]]).
 
-[[person:santonatuli|Santona Tuli]] adds a more
+[[person:santonatuli=>Santona Tuli]] adds a more
 pipeline-oriented version in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]].
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 At 32:57-39:23, she describes staging as a holding area between source systems
 and the warehouse or lakehouse. Some tools hide that stage, but the boundary
 still matters. Data may be staged and checked. The ingestion tool may also
@@ -83,14 +83,14 @@ The modeled layer is where ELT becomes useful to the business. Tuli frames this
 as mapping keys, entities, and business questions after data arrives in the
 warehouse or lakehouse (39:23-43:05).
 
-[[person:nikolamaksimovic|Nikola Maksimovic]] shows the
+[[person:nikolamaksimovic=>Nikola Maksimovic]] shows the
 analytics version in
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]].
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]].
 His team used dbt to model a domain and migrate transformation work. They also
 made decisions about wide and narrow tables plus incremental strategies
 (18:34-33:46).
 
-[[person:16rahuljain|Rahul Jain]] shows the same layer
+[[person:16rahuljain=>Rahul Jain]] shows the same layer
 question at platform scale. His team moved away from fixed target models that
 became too tightly coupled as use cases grew. They kept traditional and flat
 models alongside lineage, a data lake, and consumer-facing exposure paths
@@ -104,16 +104,16 @@ the extract-load step and connects it with dbt after warehouse load
 Airbyte is an ingestion tool in this page's vocabulary, while the warehouse
 transformation layer belongs to SQL, dbt, or another modeling system.
 
-[[person:victoriaperezmola|Victoria Perez Mola]] explains
+[[person:victoriaperezmola=>Victoria Perez Mola]] explains
 the transformation side in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
+[[podcast:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]].
 At 4:05-10:04, she describes dbt as the place where analytics engineers write
 SQL models, documentation, and tests. dbt also tracks model dependencies.
 Snowflake runs the queries in her example stack, while Looker consumes the
 modeled result. Perez Mola gives the clearest link in these episodes between
 ELT and [[analytics engineering]].
 
-[[apache-airflow|Airflow]] belongs at the scheduling
+[[apache-airflow=>Airflow]] belongs at the scheduling
 and dependency boundary. Kwong says Airflow is an orchestrator that can run
 Airbyte jobs. It isn't the transformation layer
 ([[podcast:data-engineering-tools-modern-data-stack|modern stack episode at 30:59-31:31]]).
@@ -123,9 +123,9 @@ Prefect, or another orchestrator may coordinate work. Ingestion engines,
 warehouses, dbt, and modeling tools still own the work they run
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|pipeline architecture episode at 7:08-10:48 and 26:43-29:16]]).
 
-[[person:adrianbrudaru|Adrian Brudaru]] widens the tool
+[[person:adrianbrudaru=>Adrian Brudaru]] widens the tool
 choice in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 He places dbt next to newer workflow options and open table formats. He also
 places it next to catalogs, metadata, and lineage.
 
@@ -202,9 +202,9 @@ incrementalization choices matter too
 That's why an ELT stack can use dbt, a homegrown SQL runner, or another
 warehouse modeling layer and still face the same modeling questions.
 
-[[person:gloriaquiceno|Gloria Quiceno]] brings in the
+[[person:gloriaquiceno=>Gloria Quiceno]] brings in the
 career and project side in
-[[podcast:get-data-analytics-and-data-engineering-job|her data engineering job story]].
+[[podcast:get-data-analytics-and-data-engineering-job=>her data engineering job story]].
 Her discussion ties pipelines to Docker and Airflow. It also covers AWS runs,
 warehouse-specific SQL, clean data, and quality checks. The episode is less
 about the ELT acronym. It focuses on the operational skills that make a

@@ -182,7 +182,7 @@ can't explain why the company or product interests them
 The CV therefore has two jobs. It gets the candidate into the call, and it gives
 the recruiter a script for the first questions. Weak bullets create vague
 questions. Specific bullets create useful conversations about
-[[career-transitions-in-data|career transition]], role fit,
+[[career-transitions-in-data=>career transition]], role fit,
 technical depth, and next interview steps.
 
 ## Hiring and Portfolio Connections

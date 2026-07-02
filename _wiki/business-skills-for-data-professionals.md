@@ -24,20 +24,20 @@ The individual-contributor version centers on learning what stakeholders mean by
 core words, mapping who owns decisions, and choosing the simplest analysis that
 can move the business
 ([[person:lorismarini|Loris Marini]],
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]]).
 
 The management version adds team design, mentorship, maintainability, and
 stakeholder conversations
 ([[person:katiebauer|Katie Bauer]],
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
-[[book:20210823-business-skills-for-data-scientists|Business Skills for Data Scientists]]
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]).
+[[book:20210823-business-skills-for-data-scientists=>Business Skills for Data Scientists]]
 by David Stephenson expands the same stakeholder and communication practices into a structured playbook for analytics teams.
 
 In the [[data architect role]], architects turn department needs into shared
 models for finance and supply chain, so sales, analysts, and engineers can use
 the same models
 ([[person:loicmagnien|Loïc Magnien]],
-[[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]]).
+[[podcast:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Leading Data Architect]]).
 
 ## Shared Meaning Before Metrics
 

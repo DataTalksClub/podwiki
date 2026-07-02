@@ -16,26 +16,26 @@ acquisition, pricing risk, scope control, and delivery. It also includes
 decisions about whether to stay independent, grow an agency, or turn repeated
 pain into a product.
 
-[[person:adrianbrudaru|Adrian Brudaru]] gives the most
+[[person:adrianbrudaru=>Adrian Brudaru]] gives the most
 direct data engineering version in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]].
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 He moved from startup and corporate work into freelancing through a recruiter.
 His projects included legacy cleanup,
-[[apache-airflow|Airflow]] implementation, data
+[[apache-airflow=>Airflow]] implementation, data
 science work, and a warehouse build that later led to hiring an internal data
 team.
 
-[[person:dimitrivisnadi|Dimitri Visnadi]] adds the
+[[person:dimitrivisnadi=>Dimitri Visnadi]] adds the
 analytics and strategy side in
-[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]]
+[[podcast:becoming-data-freelancer=>Becoming a Data Freelancer]]
 and
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]].
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 He treats freelancing as a business that needs market research, outreach, rate
 benchmarking, and client retention.
 
-[[person:orellgarten|Orell Garten]] shows the
+[[person:orellgarten=>Orell Garten]] shows the
 engineering-transition path in
-[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]],
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 where research and simulation experience led to startup work. A later LinkedIn
 lead helped him move into freelance data engineering.
 
@@ -48,7 +48,7 @@ and built a warehouse. He also helped define what the company should measure,
 then helped hire people to own the work internally.
 
 Around 14:31 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 he says the warehouse took two weeks, while alignment on what to look at took
 months. That distinction matters for
 [[data engineering]],
@@ -56,9 +56,9 @@ months. That distinction matters for
 and consulting work. The technical setup may be smaller than the stakeholder
 alignment around definitions and ownership.
 
-[[person:aleksanderkruszelnicki|Aleksander Kruszelnicki]]
+[[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]]
 reaches a similar conclusion in
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]].
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
 His team first tried a "data stack as a service" product. Around 5:20, he
 argues that stitching tools together isn't the hard part. Teams still need to
 map the business into useful tables and entities.
@@ -67,7 +67,7 @@ after understanding the business.
 
 Orell's consulting examples make the same point from the industrial data side.
 Around 34:35 in
-[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]],
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he describes custom integration work for industrial clients with many machines,
 formats, and vendor systems. Around 39:00, he starts by looking at what's in the
 data and documenting it. Around 42:16, he pulls a small slice of data onto a
@@ -90,7 +90,7 @@ vague promise to "modernize the data stack" gives the client less to evaluate.
 Guests treat client acquisition as relationship work before it becomes a sales
 tactic. Adrian's first freelance contracts came through a recruiter. Around
 23:19 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 he compares large staffing agencies with direct work. Agencies can find projects
 for a new freelancer, but they take margin and may not negotiate the best rate
 for the freelancer. Around 26:27, he says he moved away from low agency rates
@@ -105,7 +105,7 @@ point was simple: by the end of a conversation, each person should know what the
 other needs and remember it later.
 
 Dimitri uses a more market-research-heavy path. In
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 he says recruiters had already contacted him about freelance projects before he
 quit. That helped him see freelancing as possible. He also built a data
 freelancer job board. He used job titles and rate signals to understand the
@@ -117,7 +117,7 @@ engineering, analytics, or AI.
 
 Aleksander adds positioning discipline for consultancy-style work. Around 28:33
 in
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]],
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]],
 he says consulting and contractual work are network-based. You still need to
 help the network by telling people what you do.
 
@@ -141,7 +141,7 @@ better uses of the same time.
 
 Freelance pricing starts with risk, not with a salary divided by working days.
 Around 7:06 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 Adrian explains occupancy: a freelancer doesn't bill every available hour in a
 year. He suggests thinking in terms of roughly 75% occupancy, or about 1,500
 billable hours out of about 2,000. Around 53:02, he connects underpricing to
@@ -159,7 +159,7 @@ support higher rates.
 
 Aleksander frames consulting prices around value and market comparison. Around
 45:44 in
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]],
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]],
 he says a service shouldn't be priced only from the cost of producing it. Around
 47:42, he adds that clients pay external consultants because they have seen
 similar situations before and can navigate uncertainty the client hasn't seen.
@@ -167,7 +167,7 @@ They also pay a premium because an external contractor can be released more
 easily than a full-time employee.
 
 Dimitri adds the packaging tradeoff. Around 56:47 in
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 he agrees that project packages can have better margins than hourly work. That
 depends on the freelancer controlling delivery efficiency. He still defends hourly work for
 new freelancers, trusted clients, and unclear requirements.
@@ -177,7 +177,7 @@ project pricing fits repeatable work with clear boundaries, and subscriptions
 or retainers fit ongoing access after trust exists.
 
 Orell also treats cash flow as part of pricing. Around 25:33 in
-[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]],
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 Orell describes a three- or four-month drought after an early project. Around
 27:43, he lists operating costs such as accounting, hardware, and software.
 Occasional travel can matter too. He also notes the 30- to 45-day delay between
@@ -192,7 +192,7 @@ find a job if it wasn't.
 ## Scoping and Delivery
 
 Adrian's scoping advice starts by making uncertainty explicit. Around 31:43 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 Adrian treats "something is broken and we don't know what to do" as a valid
 starting point. Around 32:10, he suggests a two-week spike to identify problems
 and decide next steps. The client and freelancer can then reassess whether to
@@ -207,7 +207,7 @@ instead of a long open-ended engagement. In
 [[data engineering]] consulting,
 this often means mapping sources, owners, and consumers. It also means mapping
 access constraints, stakeholder expectations, and the
-[[business-skills-for-data-professionals|business skills]]
+[[business-skills-for-data-professionals=>business skills]]
 needed to keep scope visible.
 
 Known incidents, freshness targets, and correctness targets belong in the same
@@ -215,7 +215,7 @@ first pass.
 
 Orell's lean consulting examples show a small discovery or prototype. Around
 36:24 in
-[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]],
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he says some clients know the implementation they want. Others only know they
 have data and want analysis. Around 42:16, he starts with a small local
 analysis before scheduling or streaming anything. Around 42:58, he warns that
@@ -224,7 +224,7 @@ overengineering.
 
 Aleksander's user-interview advice adds a buyer-discovery layer. Around 13:07
 in
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]],
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]],
 he recommends asking what people do all day and where their time goes. He also
 asks when a problem last happened, what the consequences were, and how often it
 happens. Those questions matter because a dashboard issue, pipeline issue, and
@@ -241,7 +241,7 @@ client assumes instant response times.
 
 Agencies can be useful at the beginning because they already have client demand.
 Adrian's first projects came through an agency. Around 25:21 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 he recommends staffing agencies as one starting path for autonomy. The tradeoff
 is margin and control.
 
@@ -271,7 +271,7 @@ group, meet people, and build personal relationships before creating a narrow
 freelance-only channel.
 
 Dimitri tried the agency path and chose not to continue it. Around 33:53 in
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 he says he subcontracted four freelancers for one project and nine for another.
 Team management, follow-up, and maintenance were painful for him. He now
 prefers a one-person lifestyle business with a handful of good clients, while
@@ -281,14 +281,14 @@ still collaborating when the opportunity fits.
 
 Freelance work can stay a services business. Several guests also show how
 repeated client pain can become reusable assets. Around 46:29 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]],
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]],
 Adrian recommends building a portfolio of products that can be reused for other
 customers. A normal project portfolio may help with agencies and technical
 screening. Direct business clients often care more about trust, the problem you
 can solve, and whether you can deliver quickly.
 
 Adrian later turns that repeated pain into a startup story. In
-[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]],
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]],
 he connects consulting work to repeated warehouse setup and JSON ingestion. He
 also connects it to relational modeling problems. Around 17:51 and 19:38,
 Adrian frames DLT as a response to repeated JSON pain. Teams were dumping
@@ -300,7 +300,7 @@ connector template or dbt starter. A runbook, quality-check checklist, or
 repeatable discovery format can serve the same role.
 
 Dimitri takes a different productized path. Around 48:51 in
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 he describes moving from mostly hourly work toward a subscription model. He uses
 it with small founder-led ecommerce clients. The clients pay for ongoing access
 to his
@@ -315,7 +315,7 @@ data-stack product warns against treating one early customer as proof of a
 market.
 
 Around 18:18 and 19:22 in
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]],
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]],
 he says the team got excited after selling the first version. They then spent
 months trying to acquire more customers before returning to validation. A
 reusable service or product is strongest when several clients show the same
@@ -352,7 +352,7 @@ financial deadline.
 Notice periods and current employment also affect the transition.
 
 Around 1:01:02 in
-[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 Dimitri suggests asking whether the current employer can become the first
 freelance client. If that isn't possible, he recommends early
 research. Contact recruiters before resigning and share a profile. Ask for
@@ -374,7 +374,7 @@ trust, client understanding, scope, and handoff at the center.
 Freelancing fits people who can tolerate uncertain demand. They also need to
 talk to clients before everything is clear and price the risk honestly. Around
 53:02 in
-[[podcast:freelance-data-engineering-pricing-and-clients|Freelance Data Engineering Playbook]]
+[[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]]
 Adrian says people fail when they don't put themselves out there. They also fail
 when they ask for rates too close to salary while taking freelance risk. Around
 55:58, he says proactive people who care about outcomes get access to better

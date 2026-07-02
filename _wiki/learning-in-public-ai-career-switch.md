@@ -29,14 +29,14 @@ posts while moving from medicine and freelance statistics into machine learning.
 His capstones and community mentoring made the switch easier to evaluate
 ([[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning|his public-learning discussion at 27:27-51:52]]).
 
-[[person:revathyramalingam|Revathy Ramalingam]] used
+[[person:revathyramalingam=>Revathy Ramalingam]] used
 community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
 after a seven-year career break. Her GitHub evidence then became part of the
 hiring conversation
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|her career-break discussion at 11:00-30:34]]).
 The topic sits inside [[career-transitions-in-data|career transition]],
 [[job search]], and
-[[open-source-portfolio-evidence|open-source portfolio evidence]],
+[[open-source-portfolio-evidence=>open-source portfolio evidence]],
 not a separate social-media habit.
 
 ## Visible Course Progress
@@ -117,7 +117,7 @@ retrieval work
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Revathy's interview-project discussion]]).
 
 
-[[person:ruslanshchuchkin|Ruslan Shchuchkin]] extends
+[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] extends
 the project route into the modern [[AI engineer role]].
 At 7:51-8:38, his BranchGPT side project required a web app, backend, and
 context management. It also required end-to-end product thinking.
@@ -173,7 +173,7 @@ individual branding.
 
 ## Events Turn Visibility Into Trust
 
-[[person:leonidkholkine|Leonid Kholkine]] shows the
+[[person:leonidkholkine=>Leonid Kholkine]] shows the
 larger-community path. In the Data Makers Fest episode, he describes years of
 student leadership and meetups. He also covers DSPT events, World Data League,
 Data Lead Club, and Data Makers Fest as work that brought practitioners

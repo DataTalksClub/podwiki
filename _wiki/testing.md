@@ -19,11 +19,11 @@ DataTalks.Club podcast discussions, guests treat testing as production
 discipline rather than unit tests around application code.
 
 Testing links [[DataOps]] and
-[[ci-cd|CI/CD]] with
+[[ci-cd=>CI/CD]] with
 [[data quality and observability]].
 It also sits next to [[evaluation]],
 [[production]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[model monitoring]]. Tests
 encode expectations a team knows before release. Monitoring catches behavior
 the team didn't know how to encode yet.
@@ -41,9 +41,9 @@ failures reach a user. A test can assert that a dbt column isn't null. Another
 test can check that a pipeline produces an expected snapshot or that an agent
 calls the right tool with the right parameters.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
+[[person:victoriaperezmola=>Victoria Perez Mola]]
 describes the analytics-engineering version in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
+[[podcast:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]].
 At 6:59, she explains how dbt brings software development habits into
 [[analytics engineering]].
 SQL files live with YAML documentation, version control, and tests. At 39:04,
@@ -51,9 +51,9 @@ she describes dbt tests as queries that return failing rows. A non-null test
 passes when the query returns nothing, and a failure can become a warning or an
 error before dependent models build.
 
-[[person:bartoszmikulski|Bartosz Mikulski]] gives the
+[[person:bartoszmikulski=>Bartosz Mikulski]] gives the
 production AI version in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]].
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
 At 10:44, he says a team needs tests to prove a data pipeline works before it
 can defend a dashboard number. At 11:53-14:04, he prefers making the pipeline
 run, observing acceptable outputs, and turning those examples into tests. For
@@ -70,33 +70,33 @@ Those tests run before downstream models build.
 She also says at 40:19 that teams rarely reach a point where every future
 data-quality problem is covered.
 
-[[person:barrmoses|Barr Moses]] makes that limit
+[[person:barrmoses=>Barr Moses]] makes that limit
 explicit in
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]].
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 At 51:33-53:26 she argues that data teams need both tests and monitoring.
 Tests cover expected failures while observability catches unknown unknowns.
 
-[[person:christopherbergh|Christopher Bergh]] starts
+[[person:christopherbergh=>Christopher Bergh]] starts
 from operating discipline rather than one testing tool. In
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]],
 he ties testing to the definition of "done": a pipeline isn't done merely
 because a stakeholder saw a dashboard. Around 21:02, he says the system should
 tell the team when something is wrong while it runs and should let someone make
 a change quickly. In
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]],
 he connects that idea to CI/CD and regression tests at 30:55 and 42:39. He also
 includes realistic test data, version control, and automated checks.
 
 LLM and agent guests use the word evaluation more often than testing. They
 describe the same production discipline. [[person:hugobowneanderson|Hugo Bowne-Anderson]]
 argues in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 that teams eventually need representative gold test sets for reliable software
 at 23:35-24:59.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]]
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
 adds in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 that public benchmarks measure model capability, not the deployed
 [[agent engineering]] system.
 At 53:20-56:02, she frames agent checks as software tests with mocked tools.
@@ -120,7 +120,7 @@ guidelines, and review practices to the analytics engineer role at 42:27-44:12.
 
 Mikulski adds another data-pipeline check: run representative input through the
 pipeline and compare the output with an expected snapshot. At 13:32-14:04 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 he says unit tests are less useful for whole pipelines than integration-style
 checks. Those tests can be named after the business rule they protect, which
 makes failures easier to understand during debugging.
@@ -129,7 +129,7 @@ makes failures easier to understand during debugging.
 
 Testing becomes more valuable when it runs automatically, and Bergh's DataOps
 episodes make automation the core operating point. In
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]],
 the 30:55 discussion ties safe change to regression tests and automated
 deployment. It also includes monitoring, realistic test data, and
 infrastructure as code. At 42:39, he warns that Git alone isn't enough. Teams
@@ -154,7 +154,7 @@ failure.
 Some systems need evaluation sets rather than pass/fail data checks. For ML or
 search applications, teams ask whether the system performs well enough against
 representative cases and a meaningful baseline. [[retrieval-augmented-generation|RAG]],
-[[retrieval-augmented-generation|retrieval-augmented generation]],
+[[retrieval-augmented-generation=>retrieval-augmented generation]],
 and LLM applications need the same question with language-specific checks.
 
 Bowne-Anderson's LLM engineering episode gives a practical LLM testing
@@ -170,14 +170,14 @@ Failure analysis turns evaluation into engineering work. At 26:43 in the same
 episode, Bowne-Anderson recommends categorizing errors and ranking the largest
 failure classes. If most failures come from retrieval, teams should fix
 retrieval before polishing formatting. Testing for these systems belongs with
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 and [[production search evaluation]].
 
 ## Agent and Tool Tests
 
 Agent systems add tool behavior to answer quality. In Kulkarni's discussion,
 model benchmarks and system benchmarks are separate. At 51:42 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 she says teams need datasets that represent real users. Public benchmarks
 measure model capability, not the product system.
 
@@ -196,7 +196,7 @@ intermediate step.
 ## Monitoring After Tests Pass
 
 Tests don't remove the need for production monitoring. In
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]],
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]],
 Moses frames that gap by naming freshness and volume alongside distribution,
 schema, and lineage at 16:38. At 21:57, she distinguishes a successful pipeline
 run from good data. A job can complete while publishing late, incomplete,
@@ -222,14 +222,14 @@ control.
 These episodes treat production readiness as the point where tests and
 evaluation meet monitoring and ownership. Bergh's "done versus good" discussion
 in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 gives the operating version. A team should be able to run the system, know when
 something is wrong, make changes safely, and onboard another person into the
 work.
 
 Mikulski's production AI discussion makes the same point through trust. At
 9:51-11:31 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 he says the phrase "this number doesn't look correct" is damaging because trust
 is hard to regain. Tests don't prove perfection, but they give the team
 something concrete to rely on during debugging.

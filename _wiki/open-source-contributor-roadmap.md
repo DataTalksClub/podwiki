@@ -106,8 +106,8 @@ too. Collaborative docs and cheat sheets help others evaluate what happened, as
 do demos and brag documents
 ([[person:swyx|Shawn Swyx Wang]], [[podcast:developer-personal-brand-learn-in-public|Developer Personal Brand and Learn in Public]]).
 
-[[person:saraelateif|Sara El-Ateif]] and
-[[person:isabellabicalho|Isabella Bicalho]] show the
+[[person:saraelateif=>Sara El-Ateif]] and
+[[person:isabellabicalho=>Isabella Bicalho]] show the
 career-switcher path. For Sara, collaboration, referrals, and beginner roles
 connect to practical experience
 ([[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering in AI]]).
@@ -119,7 +119,7 @@ public project evidence
 
 Later roadmap stages require maintainer empathy. Large projects have release
 cycles, plugin boundaries, CI costs, and governance constraints. In
-[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools, Strategy, and Business Models]],
+[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools, Strategy, and Business Models]],
 Vincent discusses governance at 10:28 and plugins versus core at 14:01. At
 18:11 and 21:51, he adds maintainer handoff and volunteer motivation. CI cost
 appears at 31:42.

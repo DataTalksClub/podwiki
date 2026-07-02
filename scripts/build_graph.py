@@ -59,6 +59,24 @@ def slugify(value: str) -> str:
     return value.strip("-")
 
 
+def humanize_chip_target(value: str) -> str:
+    value = value.split(":", 1)[-1]
+    value = value.rsplit("@", 1)[0]
+    return re.sub(r"[-_]+", " ", value).strip()
+
+
+def chip_label(inner: str) -> str:
+    inner = inner.replace("=&gt;", "=>")
+    if "=>" in inner and "|" not in inner:
+        return inner.split("=>", 1)[1].strip()
+    parts = [part.strip() for part in inner.split("|") if part.strip()]
+    if len(parts) > 1:
+        non_time = [part for part in parts[1:] if not re.fullmatch(r"\d{1,2}:\d{2}(?::\d{2})?", part)]
+        if non_time:
+            return non_time[-1]
+    return humanize_chip_target(parts[0] if parts else inner)
+
+
 def source_slug(path: Path) -> str:
     slug = path.stem
     if slug.endswith(".md"):
@@ -130,6 +148,7 @@ def plain_text(markdown: str) -> str:
     markdown = re.sub(r"`([^`]*)`", r"\1", markdown)
     markdown = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", markdown)
     markdown = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", markdown)
+    markdown = re.sub(r"\[\[([^\]]+)\]\]", lambda m: chip_label(m.group(1)), markdown)
     markdown = re.sub(r"\{\{.*?\}\}", " ", markdown)
     markdown = re.sub(r"<[^>]+>", " ", markdown)
     markdown = re.sub(r"^#+\s*", "", markdown, flags=re.M)

@@ -25,7 +25,7 @@ extracts data, transforms it, and loads the prepared result. In
 transform then happens inside a
 [[data warehouse]],
 [[data lake]], or
-[[data-warehouse-vs-data-lakehouse|lakehouse]].
+[[data-warehouse-vs-data-lakehouse=>lakehouse]].
 
 The practical choice is about ownership, risk, and future modeling flexibility.
 ETL organizes source data before loading it, while ELT preserves source detail
@@ -171,7 +171,7 @@ can become data swamps, and ownership matters when teams collect unused data
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 That ties ELT to
 [[data governance]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[GitOps for data teams]],
 not only faster modeling.
 

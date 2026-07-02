@@ -33,7 +33,7 @@ beside marts and lakes with orchestration, CDC, and reverse flows on the same
 map
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 Joyce Kay Avila's
-[[book:20230123-snowflake-definitive-guide|Snowflake: The Definitive Guide]]
+[[book:20230123-snowflake-definitive-guide=>Snowflake: The Definitive Guide]]
 covers the same warehouse platform: virtual warehouses, cloud-native scaling,
 data sharing, and the SQL modeling layer that dbt and analytics engineering
 build on.
@@ -72,7 +72,7 @@ cast types, join sources, and build models closer to the business question,
 with governance kept in view through data swamps, unused-data ownership, and
 cleanup
 ([[person:nataliekwong|Natalie Kwong]],
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 A contrasting view pushes toward lakehouse architecture, where Apache Iceberg
 and Delta Lake are more than storage buzzwords: table formats sit on Parquet,
@@ -98,7 +98,7 @@ A different test applies once the data is modeled: a warehouse hasn't succeeded
 just because the tables exist. People still need to find it, trust it,
 understand it, and connect it to a decision
 ([[person:caitlinmoorman|Caitlin Moorman]],
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 That turns the warehouse from a storage question into a
 [[data product adoption]]
 question.
@@ -115,7 +115,7 @@ collect events, store them, transform them for BI, and send selected data back
 to sales, support, or engagement tools
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth Stack]]).
 
-[[data-lake|Data lakes]] preserve broader raw or
+[[data-lake=>Data lakes]] preserve broader raw or
 semi-structured storage, useful for files, logs, media, and less structured
 data. Without governance, a lake turns into a swamp
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
@@ -153,7 +153,7 @@ Domain knowledge becomes reusable structure, not just runnable queries
 ## Warehouse Cost, Governance, and Reliability
 
 Warehouses concentrate compute and storage, so teams need
-[[finops-for-data-engineers|cost discipline]]. BigQuery and dbt are parts of a
+[[finops-for-data-engineers=>cost discipline]]. BigQuery and dbt are parts of a
 digital warehouse, alongside orchestration, monitoring, and tests, and cloud
 cost becomes engineering work: tagging, accountability, cost reporting, capacity
 planning, vendor negotiation, and reservation choices
@@ -197,7 +197,7 @@ Those warehouse habits belong in
 [[analytics engineering portfolio projects]]
 and the [[analytics engineering roadmap]]
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]];
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
 
 A final hiring signal: a good warehouse practitioner can connect tables to
 decisions by asking who uses a model, what decision it supports, whether people

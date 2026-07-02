@@ -16,29 +16,29 @@ needs to know what data exists, who owns it, who can use it, and what it means.
 It also needs to know whether the data is fit for use. In the DataTalks.Club
 podcast discussions, guests don't treat governance as only
 security or compliance. They connect it to [[data engineering platforms]],
-[[data-quality-and-observability|data quality]],
-[[privacy-engineering-for-ml|privacy engineering]],
+[[data-quality-and-observability=>data quality]],
+[[privacy-engineering-for-ml=>privacy engineering]],
 and the operating model around [[DataOps]].
 
-[[book:20210524-data-governance-the-definitive-guide|Data Governance: The Definitive Guide]] by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance foundations, covering catalogs, classification, access controls, and policy automation.
+[[book:20210524-data-governance-the-definitive-guide=>Data Governance: The Definitive Guide]] by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance foundations, covering catalogs, classification, access controls, and policy automation.
 
-[[person:jessiashdown|Jessi Ashdown]] and
-[[person:urigilad|Uri Gilad]] make the broadest
+[[person:jessiashdown=>Jessi Ashdown]] and
+[[person:urigilad=>Uri Gilad]] make the broadest
 definition in
-[[podcast:cloud-data-governance|Cloud Data Governance]].
+[[podcast:cloud-data-governance=>Cloud Data Governance]].
 At 6:40, they define governance beyond PII and credit card numbers. It's also
 more than monitoring access. At 7:47, Jessi adds the practical reason. A company
 that doesn't know what data it has can't decide how to use, secure, retain or
 remove that data.
 
-[[person:bartvandekerckhove|Bart Vandekerckhove]] gives
+[[person:bartvandekerckhove=>Bart Vandekerckhove]] gives
 the access-management version in
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]].
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]].
 At 5:20, he defines governance as the activities that create trust in data for
 analysts, data scientists, and customers. In that framing, teams govern data
 through operating practice, not through documentation alone.
 Andrew Jones's
-[[book:20230807-driving-data-quality-with-data-contracts|Driving Data Quality with Data Contracts]]
+[[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality with Data Contracts]]
 develops that operating-practice idea into the data-contract pattern, where
 producers and consumers agree on schema and quality obligations before the
 pipeline runs.
@@ -88,7 +88,7 @@ sensitive the data is and which policies should apply
 cloud storage systems, and consumers who need self-service access.
 
 Bart Vandekerckhove starts with access friction and privilege creep. In
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
 he describes older governance as centralized and top-down at 6:52. He then
 pushes toward scalable access management.
 
@@ -99,9 +99,9 @@ control set.
 His version is useful when a team already has sensitive data in shared cloud
 systems and informal permission handling no longer works.
 
-[[person:zhamakdehghani|Zhamak Dehghani]] starts from a
+[[person:zhamakdehghani=>Zhamak Dehghani]] starts from a
 different organizational problem in
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]].
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 At 49:25, she describes federated governance as shared policies with automated
 enforcement across domain-owned data products. That places governance close to
 [[Data Mesh]]. Domains can own data
@@ -112,9 +112,9 @@ Use
 [[Data Mesh vs Centralized Data Platform]]
 for the ownership boundary behind that governance choice.
 
-[[person:katharinejarmul|Katharine Jarmul]] moves the
+[[person:katharinejarmul=>Katharine Jarmul]] moves the
 boundary toward privacy risk in
-[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]].
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 At 22:38, she discusses the translation work between legal and technical teams.
 At 47:00, she connects privacy to consent, data minimization, and workflow
 practices. Her privacy framing matters when a team uses governance to decide
@@ -124,7 +124,7 @@ whether data should be collected or centralized at all.
 
 Governance starts with inventory because teams can't govern unknown data.
 Jessi Ashdown says this directly in
-[[podcast:cloud-data-governance|Cloud Data Governance]]
+[[podcast:cloud-data-governance=>Cloud Data Governance]]
 at 7:47. The team needs to know what data exists before it can secure, analyze,
 retain, or delete it. That inventory work relies on catalogs because catalogs
 expose datasets and metadata. They also expose owners, descriptions, and
@@ -149,7 +149,7 @@ instead of cataloging every field before anyone gets value.
 Catalogs help people find data, but these guests don't treat a catalog as the
 whole governance program. Jessi and Uri compare tools with spreadsheets at 27:48
 in
-[[podcast:cloud-data-governance|Cloud Data Governance]].
+[[podcast:cloud-data-governance=>Cloud Data Governance]].
 At 54:37, they list the catalog contents that matter. Technical metadata,
 lineage, and a business glossary all belong there.
 
@@ -157,7 +157,7 @@ At 57:46, they make the boundary explicit because governance extends beyond the
 catalog.
 
 Bart Vandekerckhove gives the same boundary from the access side. At 8:58 in
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
 he separates data catalogs, data dictionaries, and lineage. Those tools help
 people understand data, but they don't decide who should get access, who should
 approve it, or when access should expire.
@@ -165,7 +165,7 @@ approve it, or when access should expire.
 Ownership connects discovery to accountability. Bart discusses data teams,
 governance teams, and Data Mesh ownership at 13:34. Zhamak Dehghani
 adds the domain version in
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]]:
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]:
 at 16:34, she connects data ownership to business domains. At 39:36, she
 ties data product contracts to quality, service levels, and ownership
 decisions. A useful catalog should therefore name the team that can answer
@@ -175,7 +175,7 @@ questions, approve changes, and fix broken assumptions.
 
 Access governance decides who can use data, and it records the purpose plus
 duration. Bart's
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]]
 episode is the clearest podcast example for this. At 11:20, he connects cloud
 consolidation and "Chinese wall" constraints to access management. At 25:05, he
 argues that sensitive data needs access controls early.
@@ -206,13 +206,13 @@ Governance breaks down when every decision becomes a manual queue. These
 episodes therefore connect governance to automation and
 [[DataOps]].
 In
-[[podcast:cloud-data-governance|Cloud Data Governance]],
+[[podcast:cloud-data-governance=>Cloud Data Governance]],
 Jessi and Uri discuss automation at 48:50 for tagging, requests, and reducing
 manual effort. At 45:04, they compare enforcement through catalog interfaces
 with enforcement at the storage control plane.
 
 Bart makes the automation path more explicit. At 46:42 in
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
 he connects governance in DataOps to active metadata, automated tagging, and
 pipelines. At 50:08, he discusses access-as-code through Terraform, IAM, and
 early patterns.
@@ -223,7 +223,7 @@ revocation rules also fit.
 
 Automation doesn't remove judgment because Jessi and Uri still put data
 stewards, producers, and decision makers in the review at 33:03 of
-[[podcast:cloud-data-governance|Cloud Data Governance]].
+[[podcast:cloud-data-governance=>Cloud Data Governance]].
 Bart also separates privacy and security stakeholders at 37:19. A data
 protection officer, a security team, and a domain owner may all care about the
 same dataset for different reasons. A data engineer may care about it for a
@@ -234,7 +234,7 @@ fourth reason, so metadata can route the decision without replacing it.
 Data quality is part of governance because bad data can make a governed system
 unsafe or useless. Jessi and Uri discuss trust signals, source quality, and
 measurable checks at 34:59 in
-[[podcast:cloud-data-governance|Cloud Data Governance]].
+[[podcast:cloud-data-governance=>Cloud Data Governance]].
 That links data governance to
 [[Data Quality and Observability]].
 
@@ -247,7 +247,7 @@ access the data. It also asks whether it should collect or centralize the data
 at all.
 
 Katharine Jarmul's
-[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 episode covers GDPR and related privacy regulation awareness at 11:33.
 
 At 25:12, she discusses
@@ -256,9 +256,9 @@ privacy-enhancing technologies, federated learning, and differential privacy.
 Those choices belong next to governance because policy may need an architecture.
 A permission rule isn't enough.
 
-[[person:supreetkaur|Supreet Kaur]] extends governance
+[[person:supreetkaur=>Supreet Kaur]] extends governance
 into model decisions in
-[[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]].
+[[podcast:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 Her episode covers feature necessity, PII handling, fairness checks, and human
 oversight. That belongs on
 [[Responsible AI and Governance]],

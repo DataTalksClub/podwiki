@@ -20,7 +20,7 @@ paths, monitoring, rollback plans, and enough data awareness to fail
 predictably.
 
 The early role framing comes from
-[[podcast:data-team-roles|Data Team Roles Explained]].
+[[podcast:data-team-roles=>Data Team Roles Explained]].
 At 17:04, machine learning engineers are defined as the people who help data
 scientists scale model-backed services and apply engineering practices.
 
@@ -38,9 +38,9 @@ capability. The job includes model packaging and inference interfaces.
 It also includes data dependencies, tests, deployment, and observability. The
 role requires close work with the people who own the product decision.
 
-[[person:benwilson|Ben Wilson]] gives the clearest
+[[person:benwilson=>Ben Wilson]] gives the clearest
 maintainability version of the role in
-[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 At 8:49, the episode moves from monolithic data science code to modular,
 testable components. At 44:23, Ben argues for solving with SQL or statistics
 before using deep learning. That makes the role less about novelty and more
@@ -49,8 +49,8 @@ simplest model-backed system that can be tested, explained, operated, and
 changed.
 
 The system-design version is tied to
-[[person:arsenykravchenko|Arseny Kravchenko]] and
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]].
+[[person:arsenykravchenko=>Arseny Kravchenko]] and
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]].
 At 7:54 and 20:21, the practical sequence is goals, constraints, and then a
 design document before solution work.
 
@@ -67,7 +67,7 @@ and [[machine learning infrastructure]].
 The guests agree that machine learning engineers need software discipline, but
 they attach the role to different production surfaces.
 
-[[podcast:data-team-roles|Data Team Roles Explained]]
+[[podcast:data-team-roles=>Data Team Roles Explained]]
 centers the product service. In that version, the machine learning engineer
 turns predictions into something users or internal teams can use. The model has
 to sit behind a service, endpoint, batch job, or application workflow.
@@ -83,9 +83,9 @@ energy use. The 29:01 section turns product requirements into metrics,
 non-goals, and assumptions. Here the role looks like applied systems engineering
 for model-backed products.
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 pushes the role toward platforms in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 At 8:11 and 13:25, the platform skill set includes cloud infrastructure,
 Kubernetes, and Terraform. Software engineering is part of that same skill set.
 At 29:41 and 30:32, experiment tracking and model registries connect to the
@@ -104,7 +104,7 @@ inference or online serving. It may also need streaming inference, edge
 deployment, or a simpler scheduled job.
 
 Serving decisions aren't only infrastructure choices. In
-[[podcast:data-team-roles|Data Team Roles Explained]],
+[[podcast:data-team-roles=>Data Team Roles Explained]],
 the 40:10 section makes batch scoring a shared surface with data engineering.
 In Simon's platform episode, the 31:15 section puts batch inference and online
 serving inside the platform discussion. The same decision affects latency and
@@ -118,7 +118,7 @@ drift checks, data freshness checks, and incident paths.
 Simon's 54:15 section discusses unified prediction schemas for monitoring and
 analytics. Those schemas make
 [[model monitoring]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[production]] part of the role's
 day-to-day work.
 
@@ -133,14 +133,14 @@ before building the full system.
 Software engineering is the durable base. Machine learning engineers need
 Python, tests, modular code, and configuration. They also need packaging, APIs,
 dependency management, and code review. Debugging is part of the same base.
-[[book:20220117-machine-learning-engineering-with-python|Machine Learning Engineering with Python]]
+[[book:20220117-machine-learning-engineering-with-python=>Machine Learning Engineering with Python]]
 by Andrew McMahon builds on the same production ML engineering practices in Python.
-[[book:20210301-ml-engineering|Machine Learning Engineering in Action]] by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
+[[book:20210301-ml-engineering=>Machine Learning Engineering in Action]] by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
 Ben's 8:49 section makes modular, testable code a production requirement.
 
 In
-[[podcast:software-engineering-for-machine-learning|Software Engineering for ML]],
-[[person:nadianahar|Nadia Nahar]] frames software
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]],
+[[person:nadianahar=>Nadia Nahar]] frames software
 engineering for ML as a system problem at 6:58 and 10:12. Her 29:42 section
 ties production failures to unmet requirements, poor data, and deployment
 problems, which is exactly where ML engineering has to operate.
@@ -161,14 +161,14 @@ registries, experiment tracking, artifact storage, and monitoring.
 Simon's 8:11 and 29:41 sections make cloud infrastructure and experiment
 tracking visible platform skills.
 Roksolana Diachuk's
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 episode adds MLflow, Kubeflow, and Kubernetes at 23:40 when the discussion
 turns to model deployment.
 
 Debugging and communication are part of the skill set, not add-ons.
-[[person:krzysztofszafanek|Krzysztof Szafanek]] describes
+[[person:krzysztofszafanek=>Krzysztof Szafanek]] describes
 ML platform work at Zalando in
-[[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career]].
+[[podcast:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]].
 At 13:25 and 15:59, the work includes pipeline architecture and onboarding. It
 also includes training and support.
 
@@ -179,7 +179,7 @@ expertise also keep their value across tools.
 ## Boundaries With Nearby Roles
 
 The boundary with a
-[[data-scientist-role|data scientist]] is about
+[[data-scientist-role=>data scientist]] is about
 ownership. Data scientists usually own problem framing, exploratory analysis,
 feature reasoning, and model selection. They also own evaluation. Machine
 learning engineers usually own production structure. That includes packaging,
@@ -192,7 +192,7 @@ feature engineering, and the model cycle on the data scientist side. Her 23:40
 section moves deployment tooling toward ML engineering and MLOps.
 
 The boundary with a
-[[software-engineering|software engineer]] is
+[[software-engineering=>software engineer]] is
 model-specific uncertainty. Both roles need clean code, tests, APIs, and
 operational habits. Machine learning engineers also have to reason about data
 quality and feature freshness. They reason about model evaluation and drift
@@ -216,7 +216,7 @@ large platform on day one. See also the
 [[MLOps roadmap]].
 
 The boundary with an
-[[ai-engineer-role|AI engineer]] has become more
+[[ai-engineer-role=>AI engineer]] has become more
 visible in newer episodes. Machine learning engineers work across classic ML,
 custom models, and features. Training pipelines and model serving are part of
 that scope too.
@@ -229,7 +229,7 @@ The roles overlap when an LLM application needs production infrastructure,
 evaluation, monitoring, and cost control.
 
 The boundary with a
-[[data-engineer-role|data engineer]] appears
+[[data-engineer-role=>data engineer]] appears
 around features, batch inference, and prediction delivery. Data engineers own
 reliable data movement, storage, and orchestration. They also own upstream
 quality. Machine learning engineers own model-specific code and model

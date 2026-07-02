@@ -31,7 +31,7 @@ category belongs at a given stage of machine learning work.
 
 That range starts with Python and scikit-learn, then moves through
 [[experiment tracking]] and
-[[podcast:mlops-feature-stores-feature-stores-feast-tecton|feature stores]].
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton=>feature stores]].
 It also includes open-source contribution,
 [[model monitoring]], fairness
 checks, and [[AI tooling]].

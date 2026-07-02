@@ -18,9 +18,9 @@ so that product actions have a shared meaning. The same definitions can then
 reach [[product analytics]],
 dashboards, experiments, and activation tools.
 
-[[person:arpitchoudhury|Arpit Choudhury]] gives the most
+[[person:arpitchoudhury=>Arpit Choudhury]] gives the most
 direct DataTalks.Club definition in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 At 13:34, he starts the growth stack with a tracking plan. Teams document each
 event and event property before they collect the data. They also document user
 and account properties, data types, semantics, and ownership.
@@ -47,18 +47,18 @@ context to investigate a signup spike. Real users and fake accounts are
 different signals. So are a client-side button click and a server-side
 completion event, even when a dashboard labels all of them as signup.
 
-[[person:nataliekwong|Natalie Kwong]] explains the
+[[person:nataliekwong=>Natalie Kwong]] explains the
 warehouse reason in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 At 17:55-21:22, she discusses raw storage, ingestion guardrails, and governance.
 Product events need enough meaning to support warehouse layers, dbt models,
 data marts, and BI work. Her cleanup discussion at 43:02-43:45 makes stale or
 unused data a quality concern, which is why tracking-plan decisions shouldn't
 stop at the collection tool.
 
-[[person:mehdiouazza|Mehdi OUAZZA]] gives the platform
+[[person:mehdiouazza=>Mehdi OUAZZA]] gives the platform
 analogy in
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]].
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 At 23:26, he discusses Kafka schemas and schema registries. He also covers
 allowed changes and change review. Tracking plans apply the same discipline to
 product analytics. Teams need explicit agreements before event data becomes a
@@ -119,8 +119,8 @@ can't use the documented event to build a funnel, cohort, or activation metric,
 the event definition is still too vague.
 
 Tracking plans also sit behind experimentation. In
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]],
-[[person:jakobgraff|Jakob Graff]] explains that
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
+[[person:jakobgraff=>Jakob Graff]] explains that
 experiments need randomization and assignment tracking. They also need stable
 metrics and power analysis.
 
@@ -128,7 +128,7 @@ At 24:44-37:44, those concerns depend on knowing which events mark assignment
 and exposure. Teams also need clear outcome events. A tracking plan doesn't
 replace experiment design, but it gives experiment metrics a cleaner event
 base. The related measurement pages are
-[[a-b-testing|A/B Testing]] and
+[[a-b-testing=>A/B Testing]] and
 [[Experimentation and Causal Inference]].
 
 ## Data Quality Control
@@ -142,7 +142,7 @@ Natalie's modern-stack discussion shows what happens after collection: at
 recommends cleanup of unused data. Product events therefore need front-door
 documentation through the tracking plan. Later,
 [[data quality and observability]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[DataOps]] keep the modeled data usable
 ([[podcast:data-engineering-tools-modern-data-stack|modern data stack discussion]]).
 
@@ -203,7 +203,7 @@ models, funnels, experiments, or reverse ETL syncs depend on the event.
 
 Tracking plans are a small page in a larger measurement system. They define the
 event layer for [[event tracking]],
-[[data-led-growth|data-led growth]], and
+[[data-led-growth=>data-led growth]], and
 [[product analytics]]. They also
 support [[data activation]],
 [[reverse ETL]], and
@@ -211,13 +211,13 @@ support [[data activation]],
 when product behavior reaches operational tools.
 
 - [[Event Tracking]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Product Analytics]]
 - [[Data Activation]]
 - [[Reverse ETL]]
 - [[Customer Data Platforms]]
 - [[Data Governance]]
 - [[Data Quality and Observability]]
-- [[data-quality-and-observability|Data Observability]]
-- [[a-b-testing|A/B Testing]]
+- [[data-quality-and-observability=>Data Observability]]
+- [[a-b-testing=>A/B Testing]]
 - [[Streaming]]

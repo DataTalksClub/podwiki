@@ -21,8 +21,8 @@ change. That makes causal inference different from ordinary
 the model result can change the behavior that creates the next data point.
 
 In
-[[podcast:causal-inference-for-machine-learning|Causal Inference for Real-World ML]],
-[[person:aleksandermolak|Aleksander Molak]]
+[[podcast:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]],
+[[person:aleksandermolak=>Aleksander Molak]]
 starts from this difference. Around 7:31, he separates association from
 causation. Around 12:41 and 15:36, he uses prediction, marketing, and
 recommendation examples to show why a team often needs a counterfactual answer.
@@ -30,7 +30,7 @@ The team needs to know what would have happened under another action.
 
 Causal inference therefore sits next to
 [[experimentation and causal inference]],
-[[a-b-testing|A/B testing]], and
+[[a-b-testing=>A/B testing]], and
 [[product analytics]]. Each
 field has to separate a change caused by the team from the baseline that would
 have happened anyway.
@@ -56,9 +56,9 @@ treatment changes the outcome for a given person or segment. CATE makes
 causal inference depend on [[metrics]]:
 the outcome has to match the product or business decision.
 
-[[person:jakobgraff|Jakob Graff]] gives the randomized
+[[person:jakobgraff=>Jakob Graff]] gives the randomized
 version of the same idea in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 Around 8:13, he explains A/B testing through the clinical-trial setup. Teams
 randomly assign people, expose one group to the change, keep another as control,
 and compare outcomes. Around 11:48, he frames the goal as causality in a noisy
@@ -81,16 +81,16 @@ size, and trust in the platform. Around 27:52, he recommends A/A tests to check
 whether the machinery can split traffic and measure outcomes without inventing
 a difference.
 
-[[person:juanorduz|Juan Orduz]] starts from marketing
+[[person:juanorduz=>Juan Orduz]] starts from marketing
 measurement in
-[[podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling|Marketing Data Science]].
+[[podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]].
 Around 13:36 and 14:58, he describes media mix modeling and time-series
 counterfactuals for estimating campaign impact. Around 29:13 and 30:54, he
 connects uplift modeling with treatment/control design and data pitfalls.
 
-[[person:liesbethdingemans|Liesbeth Dingemans]] uses a
+[[person:liesbethdingemans=>Liesbeth Dingemans]] uses a
 broader product-design lens in
-[[podcast:ai-ml-product-design-and-experimentation|AI Product Design]].
+[[podcast:ai-ml-product-design-and-experimentation=>AI Product Design]].
 Around 16:02 and 23:16, she discusses parallel experiments, proofs of concept,
 and design sprints. These aren't always causal estimates, but they reduce
 uncertainty before a team invests in a full AI or ML product.
@@ -135,7 +135,7 @@ duration. It also uses the baseline rate and traffic.
 
 These concerns connect causal inference to
 [[experimentation]] and
-[[a-b-testing|A/B testing]]. A causal answer is
+[[a-b-testing=>A/B testing]]. A causal answer is
 only useful if the experiment answers the decision the team actually faces. A
 test with broken assignment or unclear triggering can still produce a p-value.
 The same is true for a test with a proxy metric that nobody trusts, but it
@@ -155,9 +155,9 @@ when they match the decision. Around 38:54 and 41:14, he also warns that causal
 models are worth the added complexity only when they change a valuable decision.
 One example is reducing wasted marketing spend.
 
-[[person:valeriybabushkin|Valerii Babushkin]] connects
+[[person:valeriybabushkin=>Valerii Babushkin]] connects
 this to production ML validation in
-[[podcast:machine-learning-system-design-interview|ML System Design Interviews]].
+[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]].
 Around 24:28, he treats metrics, baselines, and A/B tests as part of the
 end-to-end ML pipeline. Around 57:23, he discusses production validation through
 A/B tests, causality, and human labels. This is where
@@ -198,7 +198,7 @@ work:
 
 - [[Experimentation and Causal Inference]]
 - [[Experimentation]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Product Analytics]]
 - [[Evaluation]]
 - [[Metrics]]

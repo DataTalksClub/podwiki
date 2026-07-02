@@ -26,7 +26,7 @@ early and avoid technical scope that outruns the business.
 
 This page maps the end-to-end founder playbook and the repeated lessons across
 these episodes. It links startup discussions to
-[[founder|founders]],
+[[founder=>founders]],
 [[entrepreneurship]], and
 [[open source]]. It also keeps
 [[freelance]],
@@ -40,7 +40,7 @@ founders should not begin with "I want to build a machine learning startup";
 the better starting point is a painful workflow, with the question of whether
 machine learning is needed at all
 ([[person:elenasamuylova|Elena Samuylova]],
-[[podcast:building-mlops-startup|How to Build a Successful ML Startup]]). An
+[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]]). An
 obvious grocery forecasting idea may fail if the store can't collect basic
 inventory data.
 
@@ -50,13 +50,13 @@ accounting for weather, events, and empty-shelf risk. The startup moved from a
 narrower computer-vision idea toward a retail operating system because the
 workflow, not the first technical idea, set the product boundary
 ([[person:carminepaolino|Carmine Paolino]],
-[[podcast:launch-and-build-retail-startup|Build a Grocery Retail OS to Cut Supermarket Food Waste]]).
+[[podcast:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]).
 
 The consulting version is the same: a "data stack as a service" idea was
 dropped after interviews showed clients needed help translating business
 questions into usable data models
 ([[person:aleksanderkruszelnicki|Aleksander Kruszelnicki]],
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]]).
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]]).
 Startups succeed when the team lets customer evidence change the product.
 
 Product discovery matters because data products fail when the team automates
@@ -94,8 +94,8 @@ FreshFlow is a vertical retail AI company with pilots, store operations, and
 domain-specific sales cycles
 ([[podcast:launch-and-build-retail-startup|Build a Grocery Retail OS to Cut Supermarket Food Waste]]).
 
-[[person:sonalgoyal|Sonal Goyal]] and
-[[person:adrianbrudaru|Adrian Brudaru]] both start from
+[[person:sonalgoyal=>Sonal Goyal]] and
+[[person:adrianbrudaru=>Adrian Brudaru]] both start from
 repeated data engineering pain but package it differently. Goyal turns identity
 resolution into an open-source ML product, using AGPL licensing to protect the
 business from simple SaaS rehosting
@@ -113,7 +113,7 @@ translation and delivery
 Indie hacking bootstraps side products while keeping a day job, spanning
 landing pages, legal setup, payments, pricing, costs, and niche marketing
 ([[person:paulineclavelloux|Pauline Clavelloux]],
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]]).
+[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]).
 
 ## Product Strategy in High-Risk Domains
 
@@ -123,7 +123,7 @@ useful signals, frame the problem before the solution, and test parallel
 options before scaling, connecting roadmaps to prioritization, evidence, and
 investment cases
 ([[person:liesbethdingemans|Liesbeth Dingemans]],
-[[podcast:ai-ml-product-design-and-experimentation|AI Product Design]]).
+[[podcast:ai-ml-product-design-and-experimentation=>AI Product Design]]).
 
 The health-tech version starts with industry immersion before product
 structure: cold outreach, accelerators, and clinical meetings surface pharmacy
@@ -132,7 +132,7 @@ diagnosis into consultation and treatment while covering pharmacies and
 prescriptions, and the app needs sensitive messaging, inclusive design, and
 fallbacks when the model shouldn't decide alone
 ([[person:mariabruckert|Maria Bruckert]],
-[[podcast:building-ai-digital-health-startups|Building Digital Health Startups]]).
+[[podcast:building-ai-digital-health-startups=>Building Digital Health Startups]]).
 In high-risk domains, product strategy includes what the system should refuse
 or defer, and what it should hand to a human.
 
@@ -145,12 +145,12 @@ Small teams should use SaaS and managed cloud services when that saves team
 capacity, while watching for vendor lock-in and migration friction when managed
 ML platforms hide too much of the system
 ([[person:nemanjaradojkovic|Nemanja Radojkovic]],
-[[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+[[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 The CTO version from FreshFlow moved away from Kubeflow complexity toward
 managed cloud choices
 ([[person:carminepaolino|Carmine Paolino]],
-[[podcast:launch-and-build-retail-startup|Build a Grocery Retail OS to Cut Supermarket Food Waste]]).
+[[podcast:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]).
 
 This is not an argument against MLOps but for enough deployment, observability,
 and data reliability to learn safely.
@@ -163,7 +163,7 @@ From an employee and freelancer perspective, lean startup habits connect with
 model monitoring, illustrated by an MLOps course project using MLflow, Prefect,
 and Grafana
 ([[person:antonisstellas|Antonis Stellas]],
-[[podcast:from-startup-engineering-to-freelance-data-science|Freelance Data Scientist Playbook]]).
+[[podcast:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist Playbook]]).
 For small teams, production skill often grows through monitoring and deployment
 work before a formal platform team exists.
 
@@ -182,7 +182,7 @@ supplier, patient, and product records
 ([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]]).
 Startup distribution belongs with
 [[open source]] and
-[[open-source-and-developer-relations|open-source developer relations]].
+[[open-source-and-developer-relations=>open-source developer relations]].
 Repository adoption, documentation, examples, and community feedback become
 part of the sales path.
 
@@ -190,7 +190,7 @@ The investor view treats open source as community-driven distribution and
 bottom-up adoption, while still weighing the team, the market need,
 commercialization, user interviews, and real engagement
 ([[person:belawiertz|Bela Wiertz]],
-[[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]]).
+[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
 GitHub stars can help discovery, but they don't replace proof that developers
 use the tool. They also don't prove that a business can capture value.
@@ -224,7 +224,7 @@ four-person team the job required communicating, learning the business, and
 self-organizing. Open-source contribution and freelance projects became ways to
 broaden data work beyond the startup
 ([[person:antonisstellas|Antonis Stellas]],
-[[podcast:from-startup-engineering-to-freelance-data-science|Freelance Data Scientist Playbook]]).
+[[podcast:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist Playbook]]).
 
 For data professionals, a startup can be an employer or client. It can also be
 a product lab or future company.
@@ -236,7 +236,7 @@ and distribution. Use
 independent-work paths across products, consulting, and solo work.
 
 Use [[open source]] and
-[[open-source-and-developer-relations|open-source developer relations]]
+[[open-source-and-developer-relations=>open-source developer relations]]
 for repository-led adoption, licensing, community, and developer trust. Use
 [[freelance]] for service businesses
 that can reveal product ideas or fund early startup work.

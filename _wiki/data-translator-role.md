@@ -13,7 +13,7 @@ related:
 
 The data translator role sits between business decisions and technical data
 delivery. In [[person:liorbarak|Lior Barak's]]
-[[podcast:data-translator-role-and-data-strategy|data translator and data strategy discussion]],
+[[podcast:data-translator-role-and-data-strategy=>data translator and data strategy discussion]],
 the role isn't a reporting layer that forwards requests. It keeps
 [[data engineering]],
 [[data science]], and business teams
@@ -104,8 +104,8 @@ explain constraints, and help the right owner move the work forward
 ([[podcast:data-translator-role-and-data-strategy|14:20-17:33 and 29:19-32:42]]).
 
 Thom Ives gives a useful boundary in
-[[podcast:feature-engineering-model-monitoring-and-data-governance|Practical Data Science and ML]].
-[[person:thomives|Thom Ives]] warns data scientists not
+[[podcast:feature-engineering-model-monitoring-and-data-governance=>Practical Data Science and ML]].
+[[person:thomives=>Thom Ives]] warns data scientists not
 to pretend to be the company's domain expert. Instead, they should ask leaders
 what worries them and map business needs against current data assets. That
 matrix shows where data can help now or where collection needs to improve
@@ -165,7 +165,7 @@ translator doesn't need executive scope. Marco's CDO role decomposes data
 strategy across people, pillars, and long-term goals. Barak's translator role
 works closer to daily friction, trust repair, and handover
 ([[podcast:chief-data-officer-data-strategy-and-org-design|11:40-23:13]],
-[[podcast:data-translator-role-and-data-strategy|14:20-32:42]]).
+[[podcast:data-translator-role-and-data-strategy=>14:20-32:42]]).
 
 ## Communication Without Silos
 

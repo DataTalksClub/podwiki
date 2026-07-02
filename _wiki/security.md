@@ -14,7 +14,7 @@ Security prevents unauthorized access and data leakage. It also reduces misuse,
 unsafe model behavior, and unreviewed changes in systems that handle data or
 make decisions. DataTalks.Club podcast discussions repeatedly touch
 [[data governance]] and
-[[privacy-engineering-for-ml|privacy engineering]].
+[[privacy-engineering-for-ml=>privacy engineering]].
 They also touch [[MLOps]] and
 [[LLM production patterns]].
 
@@ -173,7 +173,7 @@ and deployment topics:
 - [[Privacy Engineering for ML]]
 - [[Responsible AI and Governance]]
 - [[AI Red Teaming]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[LLM Production Patterns]]
 - [[Production]]
 - [[MLOps]]

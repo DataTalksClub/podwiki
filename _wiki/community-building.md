@@ -54,7 +54,7 @@ learners move through
 Community work needs consistency, but different communities use different systems
 for sustaining that consistency.
 
-[[person:demetriosbrinkmann|Demetrios Brinkmann]]
+[[person:demetriosbrinkmann=>Demetrios Brinkmann]]
 emphasizes member activation: speaker recruiting, advisory groups, member
 connections, and sprints
 ([[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]).
@@ -68,7 +68,7 @@ work, and community longevity
 DataTalks.Club treats community
 as a learning platform, an events program, and a network of people who teach.
 
-[[person:willrussell|Will Russell]] centers community
+[[person:willrussell=>Will Russell]] centers community
 building on developer enablement: hackathons connect to Git, teamwork, and
 project building, and a mentorship model supports contributing to large
 repositories
@@ -90,7 +90,7 @@ course contributors, or speakers
 The course portfolio connects to the product work behind scaled courses, so
 community building includes
 [[teaching]],
-[[data-engineer-roadmap|data engineering learning paths]],
+[[data-engineer-roadmap=>data engineering learning paths]],
 and course design
 ([[podcast:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club]]).
 A course can attract people, but the community helps learners finish because
@@ -119,7 +119,7 @@ members it's supposed to help.
 ## Open Source and Developer Relations
 
 Community building overlaps with
-[[open-source-and-developer-relations|open-source and developer relations]]
+[[open-source-and-developer-relations=>open-source and developer relations]]
 when a group organizes around tools, contributions, demos, and technical
 education.
 
@@ -173,4 +173,4 @@ For individual participation, see
 For learning communities and career outcomes, see
 [[Teaching]],
 [[Career Growth]], and
-[[data-engineer-roadmap|Data Engineering Roadmap]].
+[[data-engineer-roadmap=>Data Engineering Roadmap]].

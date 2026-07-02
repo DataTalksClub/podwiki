@@ -18,20 +18,20 @@ An AI engineering roadmap gives learners a sequence for building software
 around models and proving that the software behaves well enough for real users.
 DataTalks.Club guests start with product and software ownership, then add
 [[LLMs]] and
-[[retrieval-augmented-generation|retrieval-augmented generation]].
+[[retrieval-augmented-generation=>retrieval-augmented generation]].
 Later stages add
 [[LLM evaluation workflows]],
 [[agent engineering]], and
 production operation.
 
-[[person:pauliusztin|Paul Iusztin]] puts full-stack
+[[person:pauliusztin=>Paul Iusztin]] puts full-stack
 product work and [[retrieval-augmented-generation|RAG]] in one skill stack.
 He also includes agents, evaluation, and LLMOps in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his AI engineering episode]],
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>his AI engineering episode]],
 especially 22:29-42:28. [[person:ruslanshchuchkin|Ruslan Shchuchkin]]
 frames the same role around product discovery, context management, and usable
 applications in
-[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]],
+[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]],
 7:51-23:19. For the role boundary, use
 [[AI Engineer Role]]. For the
 broader discipline, use [[AI Engineering]].
@@ -47,17 +47,17 @@ managing context, evaluating outputs, and operating the resulting product.
 Paul describes this as a full-stack AI engineer skill stack. His stack spans
 frontend, backend, and database work. It then adds RAG and agents. Deployment,
 evaluation, and LLMOps come next in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his skill-stack discussion]],
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>his skill-stack discussion]],
 22:29-42:28.
 
 The shared sequence treats AI engineering as applied product work, not only
 prompt writing. Ruslan's BranchGPT example combines a web application, context
 management, and user behavior in
-[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|his role episode]],
+[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>his role episode]],
 7:51-10:41. [[person:nasserqadri|Nasser Qadri]] keeps
 precision, recall, and accuracy in view when generative AI systems replace older
 ML workflows in
-[[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]],
+[[podcast:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]],
 7:45-7:55.
 
 Learners need more than a list of tools. You learn
@@ -97,27 +97,27 @@ constraint
 ([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]],
 7:45-10:12).
 
-[[person:revathyramalingam|Revathy Ramalingam]]
+[[person:revathyramalingam=>Revathy Ramalingam]]
 shows a career-break path where learning in public and a telecom ML capstone
 become evidence of readiness. She also used AI-assisted prototypes, interview
 practice, and a PDF Q&A assistant
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|How to Become an AI Engineer After a Career Break]],
 11:00-44:30).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] starts
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts
 from practical LLM engineering. His path covers prompts, structured outputs,
 gold tests, and traces. The same discussion later covers RAG and failure
 analysis
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
 13:56-27:38 and 44:26-56:21).
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]]
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
 starts from agentic systems. Tools and memory define that work, while context
 engineering and outcome-based tests matter too
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
 11:00-37:39 and 51:17-57:23).
 
-[[person:bartoszmikulski|Bartosz Mikulski]]
+[[person:bartoszmikulski=>Bartosz Mikulski]]
 starts from production AI. His version combines data trust, pipeline tests, and
 prompt evaluation. It also covers caching, compression, and latency control
 ([[podcast:production-ready-ai-engineering|Production AI Engineering]],
@@ -147,7 +147,7 @@ After the application shell works, add model calls and make the model output
 inspectable. Hugo uses everyday LLM tasks and role prompts as an early
 practical path. He also covers transcript workflows, structured outputs, and
 traces in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
 13:56-27:38.
 
 Build a narrow product, not a generic chatbot. The learner should show the user
@@ -182,22 +182,22 @@ evaluation mechanics.
 Add [[retrieval-augmented-generation|RAG]] when the product needs changing
 knowledge, private documents, citations, or auditable source context. Paul puts
 RAG and knowledge management inside the AI engineer stack at 29:12 in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his skill-stack episode]].
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>his skill-stack episode]].
 
-[[person:meryemarik|Meryem Arik]] draws the production
+[[person:meryemarik=>Meryem Arik]] draws the production
 boundary between retrieval and fine-tuning. She also compares open-source models
 with hosted APIs in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 16:48-51:35. [[person:atitaarora|Atita Arora]] explains
 RAG as retrieval plus generation. She then covers chunking, citations, and
 human-in-the-loop evaluation in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
 30:38-48:09.
 
 A good roadmap project at this stage includes ingestion, chunking, and
 metadata. It also includes embeddings, retrieval, citations, and retrieval
 failure analysis. Compare the choices through
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]],
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 [[Search and RAG Project Checklist]],
 and [[RAG Portfolio Projects]].
 
@@ -208,17 +208,17 @@ also fit tasks that need memory or multi-step action. Ranjitha defines agents
 through autonomy and objectives. She then adds tools, memory, and knowledge
 stores. Her discussion also covers context engineering, planning, and
 outcome-based tests in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 11:00-37:39 and 51:17-57:23.
 
-[[person:micheallanham|Micheal Lanham]] gives a more
+[[person:micheallanham=>Micheal Lanham]] gives a more
 minimal engineering rule. Decompose the task and avoid unnecessary complexity
 when a simpler workflow works
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to Modern AI Agents]],
 20:57-33:25). For this stage, use
 [[Agent Engineering]],
-[[agent-engineering|AI Agents]], and
-[[multi-agent-systems|Multi-Agent Systems]].
+[[agent-engineering=>AI Agents]], and
+[[multi-agent-systems=>Multi-Agent Systems]].
 
 An agent project should show tool contracts, typed inputs, and permissions. It
 should also show timeouts, traces, mocked-tool tests, and outcome assertions.
@@ -234,17 +234,17 @@ Add monitoring, feedback capture, and cost checks when the product has users.
 Add latency work, safety tests, and rollback paths too. Bartosz connects
 production AI to data pipeline tests and prompt evaluation. He also covers
 compression, caching, and latency in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 9:05-31:45.
 
-[[person:marianosemelman|Mariano Semelman]] ties
+[[person:marianosemelman=>Mariano Semelman]] ties
 end-to-end AI ownership to requirements and deployment. He also covers
 monitoring and feedback in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]],
+[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
 17:27-49:55. [[person:adityagautam|Aditya Gautam]]
 adds agent guardrails and data lineage. He also covers feedback iteration and
 LLM judge alignment in
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
+[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]],
 30:26-50:18. For this stage, use
 [[AI Red Teaming]],
 [[Security]], and
@@ -255,34 +255,34 @@ LLM judge alignment in
 Start with a focused model-backed task assistant for a specific user task.
 Include deployment, logs, structured input and output, and tests. Paul's
 full-stack framing makes this the first portfolio step in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his AI engineering episode]],
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>his AI engineering episode]],
 22:29-42:28. Ruslan's BranchGPT example shows the same choice in
-[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|his role episode]],
+[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>his role episode]],
 7:51-10:41.
 
 Then build an evaluation harness with representative examples and pass/fail
 criteria. Add failure categories, cost notes, and latency notes. Hugo's
 gold-test workflow anchors this stage in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
 13:56-27:38. Nasser's metric discipline adds precision, recall, and accuracy in
-[[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]],
+[[podcast:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]],
 7:45-7:55.
 
 Next, build a RAG assistant with ingestion, chunking, and metadata. Add
 embeddings, retrieval, citations, and failure analysis. Meryem's deployment
 tradeoffs define the retrieval and fine-tuning boundary in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 16:48-51:35. Atita's search-grounded RAG discussion adds chunking, citations,
 and human review in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
 30:38-48:09.
 
 After that, build a constrained tool-using workflow with permissions, timeouts,
 and traces. Add mocked tools and outcome assertions. Ranjitha's agent testing
 guidance explains why outcome assertions belong in the project in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 51:17-57:23. Micheal's minimal workflow advice keeps the project constrained in
-[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to Modern AI Agents]],
+[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to Modern AI Agents]],
 20:57-33:25.
 
 Build the capstone as a production-style AI product with versioned prompts and
@@ -291,10 +291,10 @@ caching, rollback notes, and an operating note.
 
 Bartosz's production AI episode ties the capstone to pipeline tests and prompt
 evaluation. It also covers latency in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 9:05-31:45. Mariano's notebook-to-production framing adds requirements and
 deployment. He also covers monitoring and feedback in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]],
+[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
 17:27-49:55.
 
 Nasser's domain-knowledge discussion supports domain-specific projects. A
@@ -302,7 +302,7 @@ learner should explain user context, data limits, and evaluation criteria
 instead of shipping a generic demo
 ([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]],
 8:26-10:12). Revathy's telecom capstone supports the same standard in
-[[podcast:s23e04-how-to-become-ai-engineer-after-career-break|How to Become an AI Engineer After a Career Break]],
+[[podcast:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]],
 15:37-44:30.
 
 ## Study-Build Boundary
@@ -313,7 +313,7 @@ around expected behavior. Paul and Ruslan both describe AI engineering through
 shipped applications rather than passive study
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|Paul's skill-stack episode]],
 22:29-42:28). Ruslan's BranchGPT discussion gives the same signal in
-[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]],
+[[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]],
 7:51-10:41.
 
 Study the next technique when the project exposes that constraint. Add RAG when
@@ -323,11 +323,11 @@ the task needs tools, planning, and multi-step action.
 Add LLMOps and platform work when releases or traces become necessary. Cost
 controls, monitoring, and rollback paths can justify the same move. Meryem
 covers retrieval and deployment tradeoffs in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 40:46-51:35. Ranjitha covers the agent-readiness boundary in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 29:30-37:39. Bartosz covers production constraints in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 9:05-31:45.
 
 ## Career Readiness Milestones
@@ -383,13 +383,13 @@ Continue with these roadmap and reference pages:
 - [[Prompt Engineering]]
 - [[LLM Evaluation Workflows]]
 - [[Evaluation]]
-- [[retrieval-augmented-generation|RAG]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>RAG]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[RAG Portfolio Projects]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[Agent Engineering]]
-- [[agent-engineering|AI Agents]]
-- [[multi-agent-systems|Multi-Agent Systems]]
+- [[agent-engineering=>AI Agents]]
+- [[multi-agent-systems=>Multi-Agent Systems]]
 - [[AI Infrastructure]]
 - [[AI Red Teaming]]
 - [[Security]]

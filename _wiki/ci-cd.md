@@ -24,7 +24,7 @@ rollback paths still work after a change.
 CI/CD takes several forms across the archive. As the delivery spine of DataOps
 it centers on version control, automated tests, and automated deployment
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]). As a
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]). As a
 standardized MLOps platform it adds shared infrastructure and reusable pipelines
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
 It also drives adoption, repository design, and package management
@@ -64,7 +64,7 @@ Data-reliability waste is one entry point: after teams lose time to errors,
 rework, unclear ownership, and fragile handoffs, the fix is to automate delivery
 and then prove the data system with realistic data before any change is called
 done ([[person:christopherbergh|Christopher Bergh]],
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]).
 
 Organizational standardization is another. Large companies often already run
 Kubernetes plus systems for version control, orchestration, and CI/CD, and
@@ -72,14 +72,14 @@ reusing those systems can save years of integration work. The real question is
 whether product teams can use the path through templates, guardrails, and
 deployment conventions, not whether the company owns another CI tool
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 
 Adoption itself is a third. Platform teams lose buy-in when standards block
 merges without showing value. CI/CD is still the usual starting point, but only
 after the team understands the pain: unknown production behavior may call for
 monitoring first, and slow model releases may call for deployment automation
 first ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 See [[Platform Adoption]] and [[Developer Experience]] for the same adoption
 tradeoff in wider platform work.
@@ -89,7 +89,7 @@ but trust improves after reviewers see repeated safe changes. ML pipelines and
 CI/CD adapt to existing DevOps rules rather than replacing corporate release
 rules, which links CI/CD to [[Governance]] and [[Security]]
 ([[person:nemanjaradojkovic|Nemanja Radojkovic]],
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 ## Tests and Test Data
 
@@ -120,7 +120,7 @@ unchanged and version the code that acts on it. Related code, models, and
 visualizations should move together, and governance and catalog changes should
 move with them when they belong to the same production change
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]).
 
 MLOps practice puts more emphasis on model and data lineage. Artifactory and S3
 can serve as artifact stores, and MLflow-like systems work too, provided teams

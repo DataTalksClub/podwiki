@@ -121,7 +121,7 @@ For manager-agent orchestration, the manager often needs requirements and
 state. It may also need summaries, while the worker agent needs task-specific
 inputs and tool results.
 
-[[retrieval-augmented-generation|RAG]] is one tool an agent can choose, not the
+[[retrieval-augmented-generation=>RAG]] is one tool an agent can choose, not the
 whole system. Agents move beyond a fixed retrieval workflow by deciding when to
 use search, tables, MongoDB queries, or other tools
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).

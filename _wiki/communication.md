@@ -32,12 +32,12 @@ signals. [[person:eugeneyan|Eugene Yan]] treats writing
 as reusable technical work. [[person:lorismarini|Loris Marini]]
 focuses on business language and metric semantics.
 
-[[person:aleksanderkruszelnicki|Aleksander Kruszelnicki]]
+[[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]]
 puts communication inside consulting discovery and pricing. [Marijn
 Markus](https://datatalks.club/people/marijnmarkus.html) uses it for influence,
 domain credibility, and differentiation.
 Angelica Lo Duca's
-[[book:20240902-data-storytelling-with-altair-and-ai|Data Storytelling with Altair and AI]]
+[[book:20240902-data-storytelling-with-altair-and-ai=>Data Storytelling with Altair and AI]]
 extends the same evidence-presentation idea into visual narratives: how to use
 Python charting libraries and LLM assistance to turn analysis into a
 communicable story.
@@ -51,21 +51,21 @@ open-source maintainer, or future reader of a README.
 
 Nick Singh makes the hiring version explicit. Behavioral interviews test more
 than whether a candidate has done technical work. At 8:58 and 13:20 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]],
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]],
 he frames behavioral prep around what interviewers seek and how candidates plan
 STAR stories. At 25:13, 27:50, and 31:06, project walkthroughs move from
 ownership to impact and business context. The candidate has to make the work
 easy to evaluate.
 
 Oleg Novikov gives the same rule for applications. At 18:28 in
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
+[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
 he treats the CV as a landing page. At 25:51, he asks candidates to highlight
 personal contribution and remove noise. At 32:03, case-study preparation starts
 from business goals and evaluation metrics. Technical skill matters, but the
 candidate still has to guide the reader or interviewer toward the signal.
 
 In day-to-day work, Loris Marini gives the stakeholder version. At 12:19 in
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]],
 he starts with shared meanings for terms such as customer. At 18:00, he adds
 cross-functional context. At 21:46, he connects data storytelling to memorable
 communication. At 25:53, active listening and business literacy become trust
@@ -75,36 +75,36 @@ Nick Singh and Oleg Novikov focus on hiring. They care about concise stories
 and clear CVs, along with defensible project claims, case-interview structure,
 and outreach.
 Nick's advice at 27:50 and 33:59 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 pushes candidates to lead with impact and control pacing. Oleg's advice at
 29:32 and 39:10 in
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]
+[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 pushes candidates to prepare past-project narratives and respond to rejection
 without burning relationships.
 
 Eugene focuses on writing as reusable communication. At 51:00 and 54:00 in
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]],
+[[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]],
 he connects writing at work to working-backwards documents and design docs. He
 also covers decision logs, rationales, and team memory. His portfolio advice at
 56:30 makes a README part of the project. Future readers need a quick start and
 a repo tour before they can judge the work.
 
 Loris focuses on organizational translation. In
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]],
 he spends time on metric semantics and stakeholder mapping. He also covers
 meeting immersion and note systems. At 27:55, 35:20, and 37:51, the data
 professional learns the business by mapping stakeholders. They also record
 roles and context, then join meetings where teams use their own language.
 
 Aleksander focuses on client communication. In
-[[podcast:data-consulting-business-pricing-and-client-acquisition|Data Consulting Business]],
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Data Consulting Business]],
 he treats user interviews and positioning as communication about value.
 Outreach and pricing belong to the same work. At 12:53 and 15:55, he covers
 interview questions and note-taking.
 At 37:03 and 45:19, he moves into service messaging and value-based pricing.
 
 Marijn focuses on differentiation and influence. In
-[[podcast:how-to-stand-out-in-data-science|Data Science Career Playbook]],
+[[podcast:how-to-stand-out-in-data-science=>Data Science Career Playbook]],
 he connects communication to domain knowledge and constructive pushback. He also
 connects it to sensitive findings and personal presence. At 19:12 and 23:25,
 he discusses explaining risky insights and challenging hierarchy with
@@ -118,7 +118,7 @@ professional has to learn what words mean inside the business, which decisions
 matter, and which stakeholders can change the outcome.
 
 Loris Marini gives the clearest operating model. In
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]],
 he treats shared semantics as the first problem. At 12:19, teams have to define
 customer and core metrics before analytics can guide action. At 15:46, lead
 indicators and churn require causal thinking.
@@ -148,7 +148,7 @@ Candidates have to explain what they did, why it mattered, what tradeoffs they
 made, and how they would reason through a new problem.
 
 Nick Singh's behavioral-interview advice in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 starts with intent. At 8:58, the interviewer looks for signals beyond tool
 knowledge. At 13:20, grid planning and STAR stories help candidates prepare
 without improvising every answer. At 18:47, practiced delivery matters because
@@ -191,9 +191,9 @@ Those details connect directly to [[open-source-portfolio-evidence|open-source p
 where public work is stronger when readers can reproduce, review, and
 understand the contribution.
 
-[[person:admondleekinlim|Admond Lee Kin Lim]] adds the
+[[person:admondleekinlim=>Admond Lee Kin Lim]] adds the
 public-audience version in
-[[podcast:personal-brand-for-data-professionals|Personal Brand for Data Professionals]].
+[[podcast:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
 At 6:00, he defines personal brand through purpose and positioning. At 13:00,
 he discusses publishing on Medium and LinkedIn. At 31:00, conference speaking
 adds preparation, submission, and delivery.
@@ -233,7 +233,7 @@ Portfolio work only helps when the viewer can understand what the project proves
 Nick, Oleg, and Marijn repeatedly warn against treating a project as self-explanatory.
 
 Nick Singh's portfolio guidance in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 asks candidates to show ownership at 25:13 and lead with impact at 27:50. At
 31:06, he asks them to connect technical work to product value. At 37:18, they
 should present only technical claims they can defend. At 39:42, he discusses
@@ -242,13 +242,13 @@ a famous production system, but they do need a credible story about why the
 work mattered.
 
 Oleg Novikov gives the application version. In
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
+[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
 he opens with a project built to show skills at 2:42. At 27:51, he treats
 take-home projects as a time-investment and return-on-investment decision. At
 29:32, behavioral stories should make past-project impact clear.
 
 Marijn Markus adds the differentiation focus in
-[[podcast:how-to-stand-out-in-data-science|Data Science Career Playbook]].
+[[podcast:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 At 37:49, he argues for unique projects instead of only doing Kaggle. His
 examples at 30:47 and 31:18 use home automation and plant sensors. At 34:31 and
 36:21, data pipelines and a coffee-machine time series make curiosity visible.

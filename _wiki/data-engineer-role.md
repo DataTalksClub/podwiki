@@ -23,12 +23,12 @@ access, monitoring, and documentation as part of the job.
 The same role also requires engineering judgment. A data engineer has to know
 when a team needs a full platform and when a smaller pipeline is enough.
 
-[[podcast:data-team-roles|Data Team Roles Explained]]
+[[podcast:data-team-roles=>Data Team Roles Explained]]
 sets the baseline at 13:58. Data engineers make user-generated data available
 in a usable form for analysts and data scientists. This keeps the role close to
 [[data engineering]], but it also
 connects it to
-[[data-scientist-role|data scientist work]],
+[[data-scientist-role=>data scientist work]],
 [[machine learning]], and
 [[MLOps]]. Guests return to the same
 practical point. Dashboards, notebooks, models, and activation systems all
@@ -43,17 +43,17 @@ transform that data, then test and document it so other teams can use it without
 reverse-engineering every source system.
 
 In
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]],
-[[person:roksolanadiachuk|Roksolana Diachuk]] describes
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
+[[person:roksolanadiachuk=>Roksolana Diachuk]] describes
 the big-data version of the job through ETL pipelines and HDFS or S3 storage.
 She also covers Impala, Parquet, and Spark optimization. Kubernetes,
 Prometheus, and Grafana appear in the same tooling discussion. The 4:26 and
 7:18 sections show the role as infrastructure plus data flow, not just SQL
 transformation.
 
-[[person:arpitchoudhury|Arpit Choudhury]] shows the
+[[person:arpitchoudhury=>Arpit Choudhury]] shows the
 product-growth version in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 At 22:50, the stack moves from collection to storage, analysis, and activation.
 At 46:13, data engineers sit with analysts, analytics engineers, and product
 operations around tracking and reverse ETL. In that setting, the role overlaps
@@ -67,14 +67,14 @@ when separating the role from the operating practices a team applies to
 pipelines.
 
 In the scale-up setting,
-[[person:mehdiouazza|Mehdi OUAZZA]] describes data
+[[person:mehdiouazza=>Mehdi OUAZZA]] describes data
 engineering as a way to make other teams productive, not only as pipeline
 delivery. In
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]],
 the 12:30 and 17:22 sections connect the role to self-service onboarding,
 Airflow conventions, and playbooks. The 23:26 section adds Kafka, schemas,
 schema registries, and data contracts. That places the role near
-[[self-service-data-platforms|self-service data platforms]]
+[[self-service-data-platforms=>self-service data platforms]]
 and [[DataOps]].
 
 ## Role Variants
@@ -85,7 +85,7 @@ product-facing data engineers, and analytics-adjacent engineers. A hiring
 screen has to say which version it means.
 
 The split becomes explicit in
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 At 11:54, [[person:slawomirtulski|Slawomir Tulski]]
 describes a data identity crisis between platform engineering and
 product-facing data engineering. Platform data engineers build shared
@@ -103,18 +103,18 @@ when pipelines feed models at scale.
 
 Jeff Katz's career episodes describe the entry-level hiring version.
 In
-[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 the 23:35 section centers Python, SQL, and cloud fundamentals. At 38:05,
-[[person:jeffkatz|Jeff Katz]] argues that junior
+[[person:jeffkatz=>Jeff Katz]] argues that junior
 programs can delay Spark, Kafka, and Kubernetes until the core is solid. In
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]],
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
 the 1:20 section adds Docker, Airflow, and warehouses as visible hiring
 signals. That version of the role is close to
-[[data-engineer-roadmap|data engineering learning paths]]
+[[data-engineer-roadmap=>data engineering learning paths]]
 and [[data engineering portfolio projects]].
 
 For data scientists, the transition version of this entry path is the
-[[data-scientist-to-data-engineer|Data Scientist to Data Engineer Roadmap]].
+[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
 It uses Ellen König's data-science-to-data-engineering episode to connect
 feature work and data intuition to the role. It also connects collaborative
 coding, CI/CD, and pipeline projects to the role.
@@ -135,7 +135,7 @@ lakes, lakehouses, or operational stores. They transform raw events and source
 tables into stable datasets with names, schemas, ownership, and documentation.
 
 The role episode ties this work to team flow. In
-[[podcast:data-team-roles|Data Team Roles Explained]],
+[[podcast:data-team-roles=>Data Team Roles Explained]],
 the 13:58 section separates analytical workloads from product systems. Data
 engineers prepare data for analysts and data scientists. At 40:10, batch
 scoring shows the handoff between data engineering and machine learning. A
@@ -155,9 +155,9 @@ and governance. Arpit's 13:34 section adds tracking plans for product data.
 Teams need documented events, properties, and ownership before dashboards or
 activation workflows can be trusted.
 
-[[person:16rahuljain|Rahul Jain]] adds the manager and
+[[person:16rahuljain=>Rahul Jain]] adds the manager and
 platform-lead view in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
 At 25:04, he talks about data culture, consumers served, and data quality
 metrics. At 30:50, he connects data engineering to ETL-to-ELT migration, data
 lakes, and lineage. At 57:29, he walks through an end-to-end pipeline from
@@ -170,14 +170,14 @@ and [[DataOps]], not just individual jobs.
 SQL and data modeling are core because data engineers have to understand joins
 and window functions. They also need OLTP versus OLAP, table design, warehouse
 behavior, and query performance. Jeff's
-[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 episode names SQL at 23:35. At 44:21 and 45:14, he points candidates toward
 window functions, OLTP versus OLAP, and sample databases for practice.
 
 Python is the default programming language in many current data engineering
 roles. Jeff names it together with SQL and cloud fundamentals at 23:35. He adds
 code quality, object-oriented design, and tests in
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 at 2:22. Roksolana's big-data discussion adds Scala, Java, Spark, and JVM
 awareness for teams that work on large distributed systems.
 
@@ -185,7 +185,7 @@ Cloud and infrastructure knowledge matter because data engineers operate
 systems, not only queries. Jeff's job-prep episode names Docker, Airflow, and
 warehouses at 1:20. Roksolana's 36:07 section adds Docker, cloud services, and
 introductory Kubernetes. Slawomir's 25:33 section adds
-[[finops-for-data-engineers|cost-aware engineering]],
+[[finops-for-data-engineers=>cost-aware engineering]],
 which becomes important when platform teams scale shared compute.
 
 Data quality and documentation aren't optional extras. At 39:09, Roksolana
@@ -201,9 +201,9 @@ chasing every named tool.
 Arpit's growth-stack episode adds the product-data version. It covers tracking
 plans at 13:34, then data literacy and self-serve analytics at 51:40.
 
-[[person:gloriaquiceno|Gloria Quiceno]] shows how those
+[[person:gloriaquiceno=>Gloria Quiceno]] shows how those
 skills can be demonstrated by a career switcher.
-[[podcast:get-data-analytics-and-data-engineering-job|Gloria Quiceno's career-transition episode]]
+[[podcast:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's career-transition episode]]
 uses Docker and AWS for reproducible collaborative scripts at 21:25. At 36:20,
 she names Python, Docker, Airflow and networking as bootcamp outcomes. The
 50:15 section turns a Twitter data pipeline into portfolio evidence. That
@@ -221,17 +221,17 @@ teams use to operate that work reliably. It also covers deployment,
 observability, and recovery. The full comparison lives in
 [[DataOps vs Data Engineering]],
 and the operating job itself is the
-[[dataops-engineer-role|DataOps engineer role]].
+[[dataops-engineer-role=>DataOps engineer role]].
 
 The boundary with a
-[[data-scientist-role|data scientist]] is about
+[[data-scientist-role=>data scientist]] is about
 ownership. Data engineers own reliable data movement, storage, transformation,
 and pipeline operations. Data scientists own modeling, feature reasoning,
 experimentation, and decision quality. At 13:56, Roksolana puts data cleaning
 and feature engineering on the data science side.
 
 In
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]],
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
 Roksolana keeps ETL and storage on the engineering side at 4:26. At 6:38, she
 adds Spark performance to the same side
 ([[Data Engineer vs Data Scientist]]).
@@ -248,15 +248,15 @@ growth stack. That's why the distinction matters in product and marketing
 analytics teams.
 
 The boundary with a
-[[machine-learning-engineer-role|machine learning engineer]]
+[[machine-learning-engineer-role=>machine learning engineer]]
 appears around production handoffs. The 40:10 batch-scoring section in
-[[podcast:data-team-roles|Data Team Roles Explained]]
+[[podcast:data-team-roles=>Data Team Roles Explained]]
 shows the shared surface. Predictions have to move from a model into a product
 or database. A data engineer may own the batch path and feature datasets. An ML
 engineer owns model packaging, serving, scaling, and model-specific monitoring.
 
 The boundary with an
-[[ai-engineer-role|AI engineer]] has become more
+[[ai-engineer-role=>AI engineer]] has become more
 visible as teams build RAG and agent systems. AI engineers build the model-backed
 application. Data engineers still own corpus ingestion, data freshness,
 metadata, and permissions. They also own the retrieval substrate. This links the
@@ -272,7 +272,7 @@ and role boundaries.
 
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]
-- [[data-engineer-roadmap|Data Engineering Roadmap]]
+- [[data-engineer-roadmap=>Data Engineering Roadmap]]
 - [[Data Engineering Portfolio Projects]]
 - [[Data Engineering Tools]]
 - [[Data Engineer vs Data Scientist]]
@@ -280,4 +280,4 @@ and role boundaries.
 - [[DataOps]]
 - [[DataOps vs Data Engineering]]
 - [[DevOps to Data Engineering]]
-- [[book:20220815-fundamentals-of-data-engineering|Fundamentals of Data Engineering]]
+- [[book:20220815-fundamentals-of-data-engineering=>Fundamentals of Data Engineering]]

@@ -24,18 +24,18 @@ close to [[analytics engineering]],
 [[event tracking]], and
 [[tracking plans]].
 
-[[person:arpitchoudhury|Arpit Choudhury]] gives the
+[[person:arpitchoudhury=>Arpit Choudhury]] gives the
 clearest definition in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth, Event Tracking, and Reverse ETL]].
 At 37:25, he describes reverse ETL, or operational analytics, as sending
 warehouse data into tools such as Salesforce and HubSpot. Intercom,
 advertising platforms, and product analytics tools appear in the same
 discussion. He names Census and Hightouch as examples, with Grouparoo in the
 same category.
 
-[[person:nataliekwong|Natalie Kwong]] gives the data
+[[person:nataliekwong=>Natalie Kwong]] gives the data
 engineering version in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 At 35:42, she describes reverse operational data flows as pushing warehouse
 tables back to source systems or business tools. At 36:14-38:01, she contrasts
 custom scripts with low-code reverse ETL tools that let sales or marketing
@@ -53,7 +53,7 @@ activation at 30:03, warehouse-first analytics at 35:27, and reverse ETL at
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 Arpit starts from
-[[data-led-growth|data-led growth]], so reverse
+[[data-led-growth=>data-led growth]], so reverse
 ETL follows [[tracking plans]],
 product events, and warehouse-backed BI. The sync layer turns customer behavior
 into support context, sales prioritization, onboarding, and personalization
@@ -91,9 +91,9 @@ it. Arpit ties this to product-led growth at 56:08, where activation events and
 personalized onboarding use product behavior directly
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
-[[person:caitlinmoorman|Caitlin Moorman]] doesn't
+[[person:caitlinmoorman=>Caitlin Moorman]] doesn't
 center the term reverse ETL, but
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 gives the adoption test for a sync. At 8:48-13:24, she argues that data work is
 unfinished until it reaches the decision point. At 34:00-38:15, she recommends
 starting from the decision a team needs to make. A reverse ETL field passes
@@ -129,7 +129,7 @@ after the wrong account. A broken identity rule can show support the wrong
 customer history. An ambiguous event can trigger a campaign for users who never
 completed the action. Those risks connect reverse ETL to
 [[data governance]],
-[[data-quality-and-observability|data observability]], and
+[[data-quality-and-observability=>data observability]], and
 [[data quality and observability]].
 
 Arpit places reverse ETL after warehousing, transformation, and BI. At 28:52,
@@ -151,7 +151,7 @@ back into business systems
 Reverse ETL sends warehouse fields into customer-facing workflows and makes
 unclear definitions more expensive. Arpit recommends at 13:34 that teams
 document event definitions and properties in a
-[[tracking-plans|tracking plan]]. The same plan
+[[tracking-plans=>tracking plan]]. The same plan
 records user and account properties plus data types, capture locations, and
 owners. He uses anomaly investigation at 18:27 for the same point. Teams need
 to know where an event came from before they act on it
@@ -174,7 +174,7 @@ product and doing user research when adoption is weak
 
 Reverse ETL depends on upstream modeling and downstream activation. For the
 growth framing, see
-[[data-led-growth|Data-Led Growth]],
+[[data-led-growth=>Data-Led Growth]],
 [[Product Analytics]], and
 [[Customer Data Platforms]].
 For the data engineering framing, see
@@ -184,4 +184,4 @@ and [[ETL]]. For operating controls around
 activated warehouse data, see
 [[Tracking Plans]],
 [[Data Governance]], and
-[[data-quality-and-observability|Data Observability]].
+[[data-quality-and-observability=>Data Observability]].

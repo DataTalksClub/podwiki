@@ -73,7 +73,7 @@ That view fits teams with large AI workloads. Generic cloud ML services or
 plain Kubernetes may no longer match the way engineers schedule nodes and GPUs
 for distributed training.
 
-[[person:nemanjaradojkovic|Nemanja Radojkovic]] starts from team capacity: for
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]] starts from team capacity: for
 startups, four-to-ten-person companies should usually buy SaaS and managed cloud
 services, which avoids hiring people to maintain BI tools, servers, or internal
 infrastructure
@@ -194,7 +194,7 @@ treatment
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 This makes [[Reproducibility]],
 [[Model Registry]], and
-[[ci-cd|CI/CD]] cost-control mechanisms, not only
+[[ci-cd=>CI/CD]] cost-control mechanisms, not only
 engineering hygiene.
 
 ## Operations Burden and Platform Ownership

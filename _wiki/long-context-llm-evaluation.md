@@ -23,9 +23,9 @@ The practical question is whether a system should put more material in the
 prompt. The alternatives are to retrieve a smaller set of passages, summarize
 first, or redesign the task.
 
-[[person:lavanyagupta|Lavanya Gupta]] gives the
+[[person:lavanyagupta=>Lavanya Gupta]] gives the
 clearest long-context research source in
-[[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth]].
+[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
 At 10:15, she describes financial-domain benchmarking. Long context is one
 capability beside NLU, code, math, and multimodal tests. At 12:36, she
 describes a performance drop around the 32k-plus range in that setting. At
@@ -70,9 +70,9 @@ better. Pushing toward large windows exposes capability drops
 Her answer isn't to reject long context. It's to test where it works
 and then chunk when the document crosses the reliable range (14:54).
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] starts
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts
 from production context design. In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 she says context engineering means choosing information deliberately instead of
 stuffing everything into the model input (28:17-29:30). At 30:27, she names
 latency, cost, and noisy context as reasons to reduce the input even when a
@@ -80,10 +80,10 @@ large window is available. Her view keeps long context inside
 [[LLM production patterns]],
 not outside normal engineering tradeoffs.
 
-[[person:atitaarora|Atita Arora]] starts from
-[[search]] and [[retrieval-augmented-generation|RAG]].
+[[person:atitaarora=>Atita Arora]] starts from
+[[search]] and [[retrieval-augmented-generation=>RAG]].
 In
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
 she argues that RAG quality depends on chunking and overlap. It also depends on
 embedding models and retrieval strategy. Prompt design, citations, and human
 review also matter (38:24-48:09).
@@ -91,9 +91,9 @@ review also matter (38:24-48:09).
 Her framing says the context window is only one component. The system still has
 to decide which material deserves to enter that window.
 
-[[person:bartoszmikulski|Bartosz Mikulski]] starts
+[[person:bartoszmikulski=>Bartosz Mikulski]] starts
 from prompt economics. In
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
 he treats examples as a strong prompt-engineering tool. He also ties them to an
 evaluation dataset and expected outputs (28:16-30:00). At 30:00-33:03, prompt
 compression and prompt caching appear as cost and efficiency tactics.
@@ -115,10 +115,10 @@ the model.
 
 Large windows also change the engineering budget. Ranjitha's 30:27 discussion
 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 puts latency, cost, and garbage-in-garbage-out into the same decision as
 context size. Bartosz's 29:33-30:00 prompt-cost discussion in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]]
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]]
 adds the prompt-design version. More examples or more context can help until
 the evaluation curve flattens. After that, extra tokens add cost without
 quality gain.
@@ -171,7 +171,7 @@ whether to change the model, retrieval pipeline, chunking rule, or prompt.
 Retrieval beats blind expansion when the task needs a small amount of evidence
 from a large corpus. Atita defines [[retrieval-augmented-generation|RAG]] as
 retrieval plus generation at 30:51 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 She then shows how a transcript chatbot retrieves chunks before prompting the model
 (38:24-42:49). The value isn't only shorter context. The value is relevance and
@@ -217,7 +217,7 @@ same checks. The evaluation should also check whether the answer paraphrases the
 right source section.
 
 This keeps long-context evaluation close to
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 and [[embeddings]], because source
 selection and provenance remain first-class product behavior.
 

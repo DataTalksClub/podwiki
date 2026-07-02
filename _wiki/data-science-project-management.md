@@ -40,11 +40,11 @@ Data science project management is both technical work and organizational work.
 Teams start by understanding the business and preparing data, model and evaluate
 next, and deploy when the result is ready to leave analysis
 ([[podcast:crisp-dm|CRISP-DM]]).
-[[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series|Why Data Science Projects Fail]]
+[[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series=>Why Data Science Projects Fail]]
 by Evan Shellshear and Douglas Gray grounds the same failure modes the podcast
 returns to repeatedly: misaligned business framing, over-scoped pilots, and
 projects that never reach production adoption.
-[[book:20221010-managing-machine-learning-projects|Managing Machine Learning Projects]]
+[[book:20221010-managing-machine-learning-projects=>Managing Machine Learning Projects]]
 by Simon Thompson covers the same project lifecycle from the delivery side: scoping, risk management, and stakeholder alignment for ML-specific work.
 
 Planning, stakeholder communication, and KPI work stay useful after the work

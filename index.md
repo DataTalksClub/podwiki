@@ -26,6 +26,7 @@ title: Podcast Wiki
 
 <form class="home-search" action="{{ '/search.html' | relative_url }}" method="get" role="search">
   <input name="q" type="search" aria-label="Search the wiki" placeholder="Search RAG, career transitions, feature stores..." />
+  <button class="home-search-button" type="submit">Search</button>
 </form>
 
 {% if c_total > 0 %}
@@ -83,21 +84,12 @@ title: Podcast Wiki
 {%- endcapture -%}
 {% assign featured_cards = featured_cards | strip %}
 {% if featured_cards != "" %}
-<h2 class="wiki-section-head">Start here</h2>
-<p class="wiki-section-lede">Foundational topic hubs that anchor the rest of the wiki.</p>
+<h2 class="wiki-section-head">Wiki pages</h2>
+<p class="wiki-section-lede">Foundational topic hubs that anchor the rest of the wiki. <a class="wiki-catalog-inline" href="{{ '/wiki/' | relative_url }}">Browse full catalog ({{ c_total }} topics A-Z)</a></p>
 <div class="wiki-grid">
 {{ featured_cards }}
 </div>
 {% endif %}
-
-{%- comment -%} ---------- Browse the full catalog ---------- {%- endcomment -%}
-<a class="wiki-catalog-cta" href="{{ '/wiki/' | relative_url }}">
-  <span class="wiki-catalog-cta-text">
-    <span class="wiki-catalog-cta-title">Browse the full catalog</span>
-    <span class="wiki-catalog-cta-sub">Search across all {{ c_total }} topics A-Z.</span>
-  </span>
-  <span class="wiki-catalog-cta-arrow" aria-hidden="true">&rarr;</span>
-</a>
 
 {% else %}
 <p class="muted">Wiki pages are being drafted from the archive analysis.</p>

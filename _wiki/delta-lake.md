@@ -16,12 +16,12 @@ Delta Lake appears in DataTalks.Club podcast discussions as an open lakehouse
 table format, not as a complete architecture. It sits above files in a
 [[data lake]] and gives teams table
 behavior on open storage. The surrounding
-[[data-engineering-platforms|data engineering platform]]
+[[data-engineering-platforms=>data engineering platform]]
 still owns compute and catalogs. It also owns access, lineage, orchestration,
 and cost.
 
-[[person:adrianbrudaru|Adrian Brudaru]] frames the table-format choice in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+[[person:adrianbrudaru=>Adrian Brudaru]] frames the table-format choice in
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[Apache Iceberg]] is a table format over Parquet storage, and storage and
 compute separate from access, metadata, and lineage. DLT already serves headless
 Delta Lake and is working on similar Iceberg support, and Delta Lake, Hudi, and
@@ -36,7 +36,7 @@ beside this page. For the direct format comparison, use
 ## Lakehouse Table Layer
 
 The lakehouse stack is covered end to end in
-[[book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse|Data Engineering with Apache Spark, Delta Lake, and Lakehouse]]
+[[book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse=>Data Engineering with Apache Spark, Delta Lake, and Lakehouse]]
 by Manoj Kukreja, which treats Delta Lake as the table format above Spark and
 open storage.
 
@@ -49,7 +49,7 @@ That placement keeps Delta Lake close to
 format can support table semantics but doesn't assign dataset ownership,
 permissions, or trust.
 
-[[person:larsalbertsson|Lars Albertsson]] offers an older platform version of the
+[[person:larsalbertsson=>Lars Albertsson]] offers an older platform version of the
 same idea: raw lake storage and object storage, ingress, egress, and
 self-service SQL, with workflow engines and lakehouse architecture appearing
 alongside lineage and versioning
@@ -81,13 +81,13 @@ comparison, where Delta is the most mature of the three options.
 
 That distinction matters for reuse across the wiki. Claims about open storage,
 catalogs, metadata, and lock-in should usually point readers to the
-[[apache-iceberg|Iceberg page]]. Claims about
+[[apache-iceberg=>Iceberg page]]. Claims about
 Delta Lake should stay tied to tool support, Spark-oriented versioning, and
 existing Delta-oriented lakehouse environments.
 
 ## Spark Versioning and Historical Reruns
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] gives a Delta-specific operating
+[[person:roksolanadiachuk=>Roksolana Diachuk]] gives a Delta-specific operating
 example: deduplication, month-old data mistakes, risky production rewrites, and
 resource-heavy historical reruns. Delta Lake with Spark tracks data versions and
 travels back to earlier data states

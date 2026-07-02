@@ -304,9 +304,12 @@
   cursor: pointer;
 }
 
-.graph-reroll:hover {
+.graph-reroll:hover,
+.graph-reroll:focus {
   border-color: var(--line-strong);
-  background: var(--panel);
+  background: var(--panel-soft);
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 /* The home-page ego graph sits after the primary navigation blocks. */

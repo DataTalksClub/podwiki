@@ -110,7 +110,7 @@ Explanations, conformal prediction, and model trust shape how stakeholders
 understand model behavior
 ([[podcast:interpretable-machine-learning|Interpretable Machine Learning]]).
 Together these connect the role to [[interpretability]] and
-[[responsible-ai-and-governance|responsible AI]].
+[[responsible-ai-and-governance=>responsible AI]].
 
 In smaller companies, a data scientist may also prototype a service, batch job,
 or dashboard until a dedicated engineer can harden it. Python, SQL, Flask, and
@@ -187,14 +187,14 @@ work
 ## Boundaries With Nearby Roles
 
 The boundary with a
-[[data-analyst-role|data analyst]] is fuzzy. A data
+[[data-analyst-role=>data analyst]] is fuzzy. A data
 scientist usually does more predictive modeling, experiment design, and product
 integration. Analyst and scientist hiring processes can look similar
 ([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]),
 so the actual responsibilities matter more than the title.
 
 The boundary with a
-[[data-engineer-role|data engineer]] depends on
+[[data-engineer-role=>data engineer]] depends on
 ownership. A data scientist owns the decision logic and the model or analysis.
 The data engineer owns reliable data movement, storage, orchestration, and
 platform quality. ETL, Spark performance, and storage sit on the engineering
@@ -206,7 +206,7 @@ roles meet around feature pipelines, batch scoring, monitoring, and
 reproducibility.
 
 The boundary with a
-[[machine-learning-engineer-role|machine learning engineer]]
+[[machine-learning-engineer-role=>machine learning engineer]]
 often shows up in production work. A data scientist usually owns problem
 framing, modeling logic, and evaluation. The ML engineer usually owns packaging,
 serving, CI/CD, scalability, and production reliability. The interview split
@@ -229,8 +229,8 @@ Continue with adjacent roles, career paths, and project patterns:
 Ask what decisions the team expects the data scientist to improve, and ask how
 success will be measured. That keeps the role tied to business or product
 outcomes, which is the same framing used in
-[[podcast:crisp-dm|CRISP-DM Methodology]] and
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
+[[podcast:crisp-dm=>CRISP-DM Methodology]] and
+[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Ask whether the team needs product analytics or experimentation. Then ask
 whether it needs applied ML, research, data engineering support, or a mix.
@@ -255,6 +255,6 @@ is the deeper role-boundary reference.
 - [[Data Products]]
 - [[Communication]]
 - [[Technical Writing]]
-- [[data-engineer-vs-data-scientist|Data Engineer vs Data Scientist comparison]]
-- [[data-scientist-interview|Data Scientist Interview Prep]]
+- [[data-engineer-vs-data-scientist=>Data Engineer vs Data Scientist comparison]]
+- [[data-scientist-interview=>Data Scientist Interview Prep]]
 - [[Data Science]]

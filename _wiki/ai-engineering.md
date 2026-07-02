@@ -17,7 +17,7 @@ related:
 AI engineering turns foundation models into usable software. It is product
 engineering around models rather than prompt writing alone: one skill stack
 covers full-stack product work,
-[[retrieval-augmented-generation|RAG]],
+[[retrieval-augmented-generation=>RAG]],
 agents, evaluation, and LLMOps
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 
@@ -36,7 +36,7 @@ evaluation, and deployment are all needed to ship a working product
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 That puts AI engineering near
 [[software engineering]],
-[[machine-learning-engineer-role|machine learning engineering]],
+[[machine-learning-engineer-role=>machine learning engineering]],
 and [[data-engineer-role|data engineering]].
 AI engineers increasingly build with
 [[AI Coding Tools]] like Cursor
@@ -106,7 +106,7 @@ That context management work is the practice of
 [[Context Engineering]].
 
 For deeper retrieval and knowledge-system work, start with
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 Then compare [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
 and [[Graph RAG vs Vector RAG]].
 Use retrieval when a product needs grounded, changing, or auditable knowledge,
@@ -149,8 +149,8 @@ Agents are software systems, not magic prompts. An AI engineer has to define
 tool contracts and permissions, plus retries, traces, latency limits, and
 outcome tests. Use
 [[Agent Engineering]],
-[[agent-engineering|AI Agents]], and
-[[multi-agent-systems|Multi-Agent Systems]] for
+[[agent-engineering=>AI Agents]], and
+[[multi-agent-systems=>Multi-Agent Systems]] for
 deeper agent-specific work. Running agents in production adds monitoring,
 governance, and evaluation concerns covered under
 [[Agent Ops]].
@@ -191,6 +191,6 @@ Use [[AI Engineering Roadmap]],
 [[RAG Portfolio Projects]],
 and [[Open Source Portfolio Evidence]]
 for project sequencing. The
-[[ai-engineering-roadmap|AI Engineer Roadmap]]
+[[ai-engineering-roadmap=>AI Engineer Roadmap]]
 turns that sequencing into concrete build stages with portfolio milestones.
 </content>

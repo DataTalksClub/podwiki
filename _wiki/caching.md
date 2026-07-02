@@ -100,7 +100,7 @@ Caching is one request-level tool in that serving-efficiency problem, beside
 compression, faster inference servers, and hardware choices.
 
 Caching also belongs near [[retrieval-augmented-generation|RAG]] and
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 because retrieved context can dominate prompt size and latency. Context
 engineering gives the architectural reason caching often appears in RAG systems:
 stuffing too much context into the model increases latency, cost, and noise

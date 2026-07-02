@@ -29,12 +29,12 @@ semantic retrieval, moving from classical information retrieval to NLP query
 matching, then to Qdrant-style vector search and vectors inside existing search
 infrastructure
 ([[person:atitaarora|Atita Arora]],
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Another framing comes from production relevance, separating candidate retrieval
 from ranking, vector storage from vector compute, and adding hybrid constraints
 ([[person:danielsvonava|Daniel Svonava]],
-[[podcast:building-production-search-systems|Building Search Systems]]).
+[[podcast:building-production-search-systems=>Building Search Systems]]).
 
 [[Knowledge Graph vs Vector Search]]
 and [[Graph RAG vs Vector RAG]]
@@ -52,13 +52,13 @@ The dedicated-vector-database path fits teams that want semantic search around
 embeddings, while existing search infrastructure stays in scope, since search
 teams may already run Solr, Lucene, Elasticsearch, or OpenSearch
 ([[person:atitaarora|Atita Arora]],
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 The same split is operational: inverted indexes and ranking stay central, and
 vector databases store embeddings and support nearest-neighbor search but don't
 replace the rest of the relevance system
 ([[person:danielsvonava|Daniel Svonava]],
-[[podcast:building-production-search-systems|Building Search Systems]]).
+[[podcast:building-production-search-systems=>Building Search Systems]]).
 
 Use a dedicated vector database when semantic nearest-neighbor retrieval needs
 a separate retrieval path or fast iteration. Keep the existing search engine
@@ -72,7 +72,7 @@ constraints, recency, normalization, and query-time weights
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
 This comparison belongs inside
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 not a replacement story where vector search simply supersedes classical
 [[information retrieval]].
 The architecture should improve retrieval and ranking together. It also has to
@@ -109,9 +109,9 @@ From the production LLM deployment angle, retrieval is often better than
 repeated fine-tuning when knowledge changes, and vector databases act as an
 indexing and semantic-search layer
 ([[person:meryemarik|Meryem Arik]],
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 That boundary connects this page to
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]] and
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] and
 [[LLM Production Patterns]].
 
 The vector database is useful because it updates the knowledge path. It doesn't
@@ -120,10 +120,10 @@ solve all LLM production concerns.
 A third retrieval boundary contrasts chunks in a vector database with graph
 semantics
 ([[person:anahitapakiman|Anahita Pakiman]],
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]).
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]).
 That episode doesn't decide between search engines and vector databases
 directly. It shows when relationship-heavy retrieval may need a
-[[knowledge-graph-vs-vector-search|knowledge graph]] instead of
+[[knowledge-graph-vs-vector-search=>knowledge graph]] instead of
 only nearest-neighbor chunks.
 
 ## Retrieval and Ranking
@@ -253,8 +253,8 @@ comparison:
 - [[Search]]
 - [[Vector Databases]]
 - [[Embeddings]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[Production Search Evaluation]]
 - [[Knowledge Graph vs Vector Search]]
 - [[Graph RAG vs Vector RAG]]

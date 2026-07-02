@@ -26,12 +26,12 @@ advanced modeling. It's stronger modeling judgment inside software-engineered
 systems. That means modular code and tests. It also means deployment habits,
 monitoring, serving choices, and operational tradeoff judgment.
 
-[[person:dannyma|Danny Ma]] gives the career framing
+[[person:dannyma=>Danny Ma]] gives the career framing
 through his ABC model. His builder path moves data science toward ML
 engineering, MLOps, production systems, and technical-debt ownership
 ([[podcast:data-science-career-abc-framework|Danny Ma's Builder-path discussion at 25:53-36:46]]).
 
-[[person:benwilson|Ben Wilson]] gives the clearest
+[[person:benwilson=>Ben Wilson]] gives the clearest
 production bar. He moves from monolithic data science code to modular,
 testable components. He also argues for simple, maintainable solutions before
 complex models
@@ -52,20 +52,20 @@ Data scientists moving into machine learning engineering usually keep their
 data intuition and problem framing. They also keep feature reasoning and
 evaluation. They add software foundations and production habits so a model can
 run as part of a service or a scheduled pipeline. In
-[[podcast:data-team-roles|Data Team Roles Explained]],
+[[podcast:data-team-roles=>Data Team Roles Explained]],
 machine learning engineers help data scientists scale model-backed services and
 apply engineering practices. The same discussion separates online serving from
 batch scoring
 ([[podcast:data-team-roles|machine-learning-engineer role boundary at 17:04-20:54 and serving discussion at 38:52-43:24]]).
 
-[[person:mihaileric|Mihail Eric]] gives the
+[[person:mihaileric=>Mihail Eric]] gives the
 research-to-production version of the same shift. He defines ML engineering
 around the full ML lifecycle and production systems. He names PyTorch, Docker,
 cloud, and web frameworks as practical tooling. He also warns against throwing
 work over the wall between research and engineering
 ([[podcast:research-to-production-ml-systems-roadmap|Mihail Eric's full-lifecycle ML engineering discussion at 17:35-44:36]]).
 
-[[person:ellenkonig|Ellen Koenig]] gives a useful
+[[person:ellenkonig=>Ellen Koenig]] gives a useful
 adjacent transition from data science toward data engineering leadership. Her
 episode names transferable strengths such as pipelines, stakeholder
 communication, and exploration. It then names collaborative coding, CI/CD, and
@@ -87,7 +87,7 @@ ML, where the model-backed system has to be maintainable and testable. It also
 has to be explainable to the people who depend on it
 ([[podcast:machine-learning-engineering-production-best-practices|Ben Wilson's maintainability and explainability discussion at 21:39-29:06]]).
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] gives the
+[[person:roksolanadiachuk=>Roksolana Diachuk]] gives the
 role-boundary version. Her big data engineer versus data scientist discussion
 puts data cleaning, feature engineering, the model cycle, and some deployment
 on the data scientist side. It then moves MLflow, Kubeflow, Kubernetes, and
@@ -98,7 +98,7 @@ That boundary also connects to
 when the transition is about pipelines and infrastructure rather than
 model serving.
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 pushes the transition toward platform work. His ML platform episode covers
 cloud infrastructure, Kubernetes, and Terraform. Data science workflows,
 experiment tracking, and model registries also belong there. Serving, metadata,
@@ -150,7 +150,7 @@ design, then connects deployment tooling to ML engineering roles
 
 The fourth gap is written system design. [[person:arsenykravchenko|Arseny Kravchenko]]
 argues for constraints and design-document planning before implementation in
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]].
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]].
 
 He starts with goals and constraints before moving into design documents and
 assumptions. Baselines, data strategy, dependencies, and
@@ -230,7 +230,7 @@ Strong transition projects include:
 
 These projects should link modeling decisions to product or operational needs.
 That's the main difference between this transition and a general
-[[portfolio-projects|data science portfolio]].
+[[portfolio-projects=>data science portfolio]].
 Use the
 [[Machine Learning Engineer Roadmap]]
 for sequencing when the project work exposes gaps in Python, system design,

@@ -27,16 +27,16 @@ count too.
 Use [[Open Source]] for the broad
 topic, and use this page for contribution work.
 
-[[person:vincentwarmerdam|Vincent Warmerdam]] gives the
+[[person:vincentwarmerdam=>Vincent Warmerdam]] gives the
 clearest tactical version in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]].
 He moves from useful side projects and scikit-lego design to documentation and
 issues. Then he covers tests, CI, packaging, and polite interaction.
 
 Use the
 [[Open Source Contributor Roadmap]]
 for a step-by-step path. Use
-[[open-source-portfolio-evidence|the portfolio proof page]]
+[[open-source-portfolio-evidence=>the portfolio proof page]]
 when the same work needs to support hiring or career change.
 
 ## Contribution Scope
@@ -56,10 +56,10 @@ For related mechanics, use
 [[Contributing]] and
 [[Documentation]], while
 [[Testing]] and
-[[ci-cd|CI/CD]] cover review and automation.
+[[ci-cd=>CI/CD]] cover review and automation.
 
 Vincent names practical entry points in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]:
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]:
 
 - open a reproducible issue at 25:50
 - add a small code change with tests at 27:40
@@ -81,10 +81,10 @@ new dependency costs, benchmark costs, and maintenance costs
 ([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
 10:28 and 14:01).
 
-[[person:elleobrien|Elle O'Brien]] looks at open-source
+[[person:elleobrien=>Elle O'Brien]] looks at open-source
 data tooling from a [[developer relations]]
 seat. In
-[[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]],
+[[podcast:devrel-data-science-open-source-tools=>DevRel for Data Science]],
 her Iterative work includes product work, CML, and docs at 12:20. She also
 mentions pull requests, videos, and hiring. At 23:51, she describes
 community-facing work as a product signal channel.
@@ -92,9 +92,9 @@ community-facing work as a product signal channel.
 From that view, a tutorial or support answer can become a contribution. A video
 or docs fix can do the same when it reveals where users get stuck.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] gives
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
 the Metaflow and ML-infrastructure version in
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 At 18:03, he defines DevRel through education, documentation, and a "wisdom
 layer" around tools. At 25:17 and 36:27, he connects dogfooding,
 reproducibility, and developer feedback. His view complements Vincent's
@@ -168,7 +168,7 @@ For ML libraries, a test should cover the behavior inside the expected API, not
 only the happy-path function call. The same discipline belongs with
 [[Software Engineering]],
 [[Testing]], and
-[[ci-cd|CI/CD]].
+[[ci-cd=>CI/CD]].
 
 ## Small Utility Packages and API Fit
 
@@ -185,7 +185,7 @@ Vincent uses scikit-lego to show how custom transformers and estimators can live
 inside normal pipelines at 17:15 and 19:00
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 In
-[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
+[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]],
 he returns to the plugin boundary at 14:01 and later uses Skrub at 48:31-50:27
 as a pragmatic tabular-data example. A contribution can be valuable without
 belonging in core scikit-learn.
@@ -196,7 +196,7 @@ conventions include fit/transform behavior and pipeline compatibility. Sparse
 data, data frames, examples, and version constraints matter too.
 
 Vincent's StandardScaler discussion at 44:30 in
-[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]
+[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]
 shows how simple APIs hide many edge cases. Good contributors make those edge
 cases visible through tests, examples, or docs before adding surface area.
 
@@ -256,7 +256,7 @@ For a portfolio, don't present the contribution as a detached badge. Link the
 issue and pull request. Add the docs page, tutorial, CI result, and maintainer
 discussion when they exist. Then explain the tool, user problem, tradeoff, and
 follow-up. Use
-[[open-source-portfolio-evidence|the portfolio proof page]]
+[[open-source-portfolio-evidence=>the portfolio proof page]]
 for the hiring lens and
 [[Developer Relations]] when
 the proof comes through demos, support, docs, or community feedback.
@@ -266,11 +266,11 @@ the proof comes through demos, support, docs, or community feedback.
 Adjacent pages cover the broader system around this contribution topic:
 
 - [[Open Source]]
-- [[open-source-portfolio-evidence|Portfolio proof from open source]]
+- [[open-source-portfolio-evidence=>Portfolio proof from open source]]
 - [[Open Source and Developer Relations]]
 - [[Open Source Contributor Roadmap]]
 - [[Contributing]]
 - [[Documentation]]
 - [[Developer Relations]]
-- [[scikit-learn|Scikit-Learn]]
+- [[scikit-learn=>Scikit-Learn]]
 - [[Machine Learning Tools]]

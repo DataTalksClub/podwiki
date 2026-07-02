@@ -49,7 +49,7 @@ detailed change events instead of periodic snapshots
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
 The two views converge on the same boundary, but their emphasis differs.
-[[person:nataliekwong|Kwong]] emphasizes analytics connectors in the
+[[person:nataliekwong=>Kwong]] emphasizes analytics connectors in the
 [[modern data stack]], with CDC centered on cloud cost and sync speed, deletes,
 and schema growth. [[person:larsalbertsson|Albertsson]] emphasizes
 [[DataOps]], immutability, dependency management, and the platform cost of

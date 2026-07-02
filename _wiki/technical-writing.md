@@ -30,7 +30,7 @@ readers. It narrows the audience from "everyone" to a peer, future teammate, or
 hiring manager, and treats writing like a product because reader experience
 determines whether the article works
 ([[person:eugeneyan|Eugene Yan]],
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
+[[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
 
 Use this page for technical writing as a
 [[data science]] and
@@ -56,12 +56,12 @@ technical writing is a how-to form built around clarity and audience. A how-to
 article is structured around the problem, the solution, and the result, adding
 code repositories when the reader needs to reproduce the work
 ([[person:angelicaloduca|Angelica Lo Duca]],
-[[podcast:data-journalism-python-visualization-storytelling|Practical Data Journalism]]).
+[[podcast:data-journalism-python-visualization-storytelling=>Practical Data Journalism]]).
 
 The same reader-first standard applies to tutorials: tutorial design starts
 with audience and goals
 ([[person:hugobowneanderson|Hugo Bowne-Anderson]],
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 Technical writing therefore sits beside [[communication]]
 and [[developer experience]].
 The writer has to know what the reader is trying to accomplish before deciding
@@ -78,7 +78,7 @@ prioritization, titles, and article length
 
 The method matters for technical topics because the audience determines the
 level of detail. A
-[[data-scientist-role|data scientist]] may need
+[[data-scientist-role=>data scientist]] may need
 dataset assumptions, baselines, evaluation, and code. A platform engineer may
 need interfaces, failure modes, and operational notes. A hiring manager may care
 more about scope, tradeoffs, ownership, and impact.
@@ -120,7 +120,7 @@ Tool education has the same requirement. Learn with Kestra draws on examples
 like Docker, Postgres, and Git, because a reader often needs the surrounding
 setup as much as the main product
 ([[person:willrussell|Will Russell]],
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 ## Documentation and Team Memory
 
@@ -141,7 +141,7 @@ who first built them.
 An open-source documentation checklist maps well to internal projects too,
 naming README material, guides, API reference, and examples
 ([[person:vincentwarmerdam|Vincent Warmerdam]],
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
 to "how do I use it safely?"
@@ -176,7 +176,7 @@ succeed technically. Technical fluency, writing, and community building are core
 [[developer relations]] skills, and
 writing improves through practice, collaboration, and editorial feedback
 ([[person:hugobowneanderson|Hugo Bowne-Anderson]],
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 Writing goals and media choices come next: a blog post, talk, video, or
 conference session can all work when the format matches the goal and audience
@@ -186,7 +186,7 @@ A demo-first practice shows the same boundary: developer advocacy ties to
 documentation, demos, and outreach, and a flow that starts with bullet points
 and demos lets writers turn the material into public teaching
 ([[person:willrussell|Will Russell]],
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 Video strategy needs a defined goal, useful pacing, and complete walkthroughs,
 and a workflow-notification demo shows how a tutorial can teach a specific

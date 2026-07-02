@@ -22,7 +22,7 @@ engineering base. The engineer keeps
 habits and adds [[machine learning]]
 practice around data, modeling, deployment, and monitoring.
 
-[[person:svpino|Santiago Valdarrama]]
+[[person:svpino=>Santiago Valdarrama]]
 frames machine learning as something software engineers can add to an existing
 skill set, with coding as a core advantage for the move
 ([[podcast:from-software-engineer-to-machine-learning|From Software Engineer to Machine Learning]]).
@@ -35,19 +35,19 @@ testing, and team alignment
 ([[podcast:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
 
 For adjacent transition context, see
-[[career-transitions-in-data|Career Transition]] and
+[[career-transitions-in-data=>Career Transition]] and
 [[Machine Learning Engineer Role]].
 For project scope, see
 [[Machine Learning Portfolio Projects]],
 [[Notebook to Production AI Systems]],
 and [[MLOps]].
 Vadim Smolyakov's
-[[book:20250908-machine-learning-algorithms-in-depth|Machine Learning Algorithms in Depth]]
+[[book:20250908-machine-learning-algorithms-in-depth=>Machine Learning Algorithms in Depth]]
 is a useful companion for that algorithm-learning phase of the transition:
 it walks through the math and implementation of core algorithms from linear
 regression through Bayesian methods and deep learning.
 
-[[book:20210215-math-for-programmers|Math for Programmers]] by Paul Orland is a gentler on-ramp to the same mathematical foundations, building linear algebra, calculus, and probability through code rather than proofs.
+[[book:20210215-math-for-programmers=>Math for Programmers]] by Paul Orland is a gentler on-ramp to the same mathematical foundations, building linear algebra, calculus, and probability through code rather than proofs.
 
 ## From Software Reliability to ML Lifecycle
 
@@ -80,7 +80,7 @@ while engineers need experimental rigor, paper reading, model reproduction, and
 comfort with uncertain results
 ([[podcast:research-to-production-ml-systems-roadmap|From Research to Production]]).
 That's why the transition usually targets
-[[machine-learning-engineer-role|machine learning engineering]],
+[[machine-learning-engineer-role=>machine learning engineering]],
 [[MLOps]], or
 [[Machine Learning System Design]]
 before it targets research-heavy roles.
@@ -113,8 +113,8 @@ For a software engineer, this means the gap isn't only algorithms. It's also
 requirements and data quality. Collaboration, documentation, and product-facing
 accountability matter too.
 
-[[person:simonstiebellehner|Simon Stiebellehner]] and
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]] push the
+[[person:simonstiebellehner=>Simon Stiebellehner]] and
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]] push the
 route toward [[machine learning infrastructure]]
 and MLOps. Simon's platform view centers on cloud infrastructure, Kubernetes,
 Terraform, self-service compute, and experiment tracking, with registries,
@@ -128,7 +128,7 @@ serving as support for developer experience, with monitoring connecting the work
 to impact
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
-[[person:theofilospapapanagiotou|Theofilos Papapanagiotou]]
+[[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]]
 adds a systems-engineer branch. Starting from a Unix and ML engineering
 background, it contrasts DevOps and MLOps through model lifecycle, data drift,
 and inference monitoring, and covers retraining triggers, metadata, and
@@ -234,7 +234,7 @@ A strong transition artifact should answer four questions:
 That standard combines Santiago's project-first route with Nadia's warnings
 about requirements, data, testing, and deployment gaps
 ([[podcast:from-software-engineer-to-machine-learning|From Software Engineer to Machine Learning]],
-[[podcast:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]).
 
 Add production structure after the baseline works. APIs, Docker, cloud
 providers, and monitoring are part of the transition from project work to MLOps
@@ -314,7 +314,7 @@ Production ML decisions involve platform adoption, developer experience, and
 governance, and deployment frequency, traceability, serving choices, and
 monitoring are part of the same design discussion
 ([[podcast:building-production-ml-platform-and-mlops-team|Building a Production ML Platform]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 For research-adjacent interviews, use Mihail's branch by showing paper reading,
 model reproduction, and experiments through working artifacts, plus
@@ -325,7 +325,7 @@ collaboration with researchers
 
 Use these pages for adjacent roles, practices, and transition evidence.
 
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]
 - [[Software Engineering]]
 - [[Machine Learning]]
 - [[Machine Learning Engineer Role]]

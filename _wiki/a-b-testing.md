@@ -49,7 +49,7 @@ dashboard." The test needs stable assignment and logged exposure. It needs a
 control group, a treatment group, a primary metric, and an agreed decision
 rule.
 That definition connects directly to
-[[a-a-testing|A/A Testing]],
+[[a-a-testing=>A/A Testing]],
 [[Power Analysis]], and
 [[Metrics]].
 
@@ -185,7 +185,7 @@ changes can include pricing tests, onboarding flows, recommendation models, and
 messaging experiments.
 
 This topic links closely to
-[[data-led-growth|Data-Led Growth]],
+[[data-led-growth=>Data-Led Growth]],
 [[Product Analytics]], and the
 [[Product Analyst]] guide.
 It also gives
@@ -254,13 +254,13 @@ These pages cover the adjacent concepts used throughout the A/B testing
 episodes:
 
 - [[Experimentation]]
-- [[a-a-testing|A/A Testing]]
+- [[a-a-testing=>A/A Testing]]
 - [[Power Analysis]]
 - [[Metrics]]
 - [[Event Tracking]]
 - [[Causal Inference]]
 - [[Product Analytics]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Data Product Management]]
 - [[Evaluation]]
 - [[Production]]

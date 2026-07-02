@@ -23,18 +23,18 @@ useful question isn't "which one is better?" It's which table format fits the
 team's platform constraints. Those constraints include storage, compute,
 catalog design, and governance.
 
-[[person:adrianbrudaru|Adrian Brudaru]] gives the
+[[person:adrianbrudaru=>Adrian Brudaru]] gives the
 strongest direct comparison in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 He first explains [[Apache Iceberg]]
 as a table format above Parquet storage. He then separates storage and compute
 from access, metadata, and lineage. Later, he compares Delta Lake, Hudi, and
 Iceberg as table-format options
 ([[podcast:trends-in-modern-data-engineering|18:17-23:41 and 49:42]]).
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] adds a
+[[person:roksolanadiachuk=>Roksolana Diachuk]] adds a
 more concrete Delta Lake operating example in
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 She connects Delta Lake with Spark-based version tracking, time travel, and
 reprocessing or auditing work
 ([[podcast:big-data-engineer-vs-data-scientist|1:00:25]]).
@@ -93,7 +93,7 @@ and [[Data Engineering Platforms]].
 Iceberg doesn't remove platform work. [[person:larsalbertsson|Lars Albertsson]]
 puts object storage and compute engines inside the broader
 [[DataOps]] platform discussion in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 ([[podcast:dataops-principles-and-scalable-data-platforms|30:34-35:57 and 1:04:18-1:07:52]]).
 He also connects workflow engines, lakehouse architecture, lineage, and
 versioning.
@@ -112,7 +112,7 @@ can operate across ingestion, transformation, catalog work, and compute.
 Delta Lake also fits when Spark versioning and recovery are already part of the
 team's mental model. Roksolana discusses historical reprocessing and risk
 management in
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 She then names Delta Lake as a way to track data versions and travel back to
 previous states
 ([[podcast:big-data-engineer-vs-data-scientist|58:05-1:00:25]]).
@@ -129,7 +129,7 @@ In the podcast evidence, Delta Lake appears through DLT support and the
 Hudi/Iceberg comparison
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
 30:31 and 49:42).
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 covers the Spark versioning example at 1:00:25.
 
 That thinner evidence is important. If a page or roadmap claims a Delta Lake
@@ -152,10 +152,10 @@ how each one fits their catalog and governance path.
 
 Catalog choices affect who can find, trust, and own each table.
 
-[[person:nataliekwong|Natalie Kwong]] warns that data
+[[person:nataliekwong=>Natalie Kwong]] warns that data
 lakes become data swamps when ownership and governance are weak. She makes that
 point in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 ([[podcast:data-engineering-tools-modern-data-stack|19:50-21:22]]).
 That warning applies to either format. Delta Lake and Iceberg add table
 structure, but they don't automatically create trusted datasets.
@@ -185,7 +185,7 @@ still wants open table semantics.
 
 The portability question should include orchestration. Brudaru compares
 Airflow, Prefect, Dagster, and GitHub Actions at 35:37 in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 Albertsson places workflow engines inside the scalable platform architecture
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 30:34-35:57). A table format is easier to justify when the workflow and
@@ -202,17 +202,17 @@ Start with the platform requirement, not the table-format name.
   cleanly.
 - Choose Delta Lake when the concrete requirement is Spark-oriented versioning
   and time travel for auditing or historical reprocessing, as in
-  [[person:roksolanadiachuk|Roksolana Diachuk's]]
+  [[person:roksolanadiachuk=>Roksolana Diachuk's]]
   big-data engineering example
   ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]],
   58:05-1:00:25).
 - Keep either choice tied to
-  [[data-governance|governance]] because
-  [[person:nataliekwong|Natalie Kwong's]]
+  [[data-governance=>governance]] because
+  [[person:nataliekwong=>Natalie Kwong's]]
   data-swamp warning shows the ownership risk
   ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
   19:50-21:22).
-  [[person:larsalbertsson|Lars Albertsson's]]
+  [[person:larsalbertsson=>Lars Albertsson's]]
   DataOps platform chapters add why quality and lineage matter
   ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
   16:42-35:57 and 1:04:18-1:07:52).
@@ -221,7 +221,7 @@ Start with the platform requirement, not the table-format name.
   need repeatable work around table ingestion, transformation, testing, and
   recovery. [[person:adrianbrudaru|Adrian Brudaru]]
   discusses this through workflow tools such as Airflow and Dagster in
-  [[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+  [[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
   Albertsson places workflow engines inside scalable platform architecture
   ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
   30:34-35:57).

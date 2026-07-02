@@ -19,12 +19,12 @@ event definitions. Add ingestion and storage. Then add transformation and
 orchestration. Finish with quality checks, observability, and last-mile
 delivery.
 
-[[person:santonatuli|Santona Tuli]] frames pipeline design as a sequence. Data
+[[person:santonatuli=>Santona Tuli]] frames pipeline design as a sequence. Data
 starts with raw arrival, then moves to cleaned ingestion and modeled business
 entities, and the pipeline finally produces answers for dashboards or ML systems
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
-[[person:nataliekwong|Natalie Kwong]] makes the same point through ELT: teams
+[[person:nataliekwong=>Natalie Kwong]] makes the same point through ELT: teams
 keep raw data separate from business-facing marts so they don't invent
 inconsistent transformations downstream
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
@@ -42,8 +42,8 @@ transformations matter
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 For product and growth data, that consumer-first work begins even earlier.
-[[person:arpitchoudhury|Arpit Choudhury]] recommends a
-[[tracking-plans|tracking plan]] before
+[[person:arpitchoudhury=>Arpit Choudhury]] recommends a
+[[tracking-plans=>tracking plan]] before
 instrumentation: teams define events, properties, data types, and ownership, so
 product and growth teams know what an event means before it reaches analytics or
 activation tools
@@ -132,14 +132,14 @@ Make dependencies visible and repeatable, and don't rename
 the whole pipeline after the scheduler.
 
 At team scale, teams need orchestration conventions.
-[[person:mehdiouazza|Mehdi OUAZZA]] notes that a platform is more than an Airflow
+[[person:mehdiouazza=>Mehdi OUAZZA]] notes that a platform is more than an Airflow
 cluster: teams need naming conventions, sequence practices, playbooks, support
 channels, and onboarding, so other data users can build without turning the
 platform team into a bottleneck
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
 
 See
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 for that operating model.
 
 Streaming adds stricter schema agreements. Teams can grow from a few Kafka
@@ -153,7 +153,7 @@ covers the latency decision.
 ## Add Tests, Observability, And Recovery
 
 A pipeline can finish successfully and still deliver bad data.
-[[person:barrmoses|Barr Moses]] names freshness and volume first, then
+[[person:barrmoses=>Barr Moses]] names freshness and volume first, then
 distribution, schema, and lineage
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability]]).
 Teams use those signals to see whether data is up to date and complete, whether
@@ -169,7 +169,7 @@ Link those expectations to
 [[Data Quality and Observability]]
 and [[data-quality-and-observability|Data Observability]].
 
-[[person:christopherbergh|Christopher Bergh]] turns the same reliability problem
+[[person:christopherbergh=>Christopher Bergh]] turns the same reliability problem
 into [[DataOps]]. Teams use automation and tests to reduce errors, while
 monitoring and observability show what broke, and version control and CI/CD make
 deployments safer. Teams also need realistic test data and infrastructure as

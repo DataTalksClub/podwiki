@@ -34,7 +34,7 @@ work when the emphasis is the independent business of finding clients, pricing
 risk, controlling scope, and earning repeat work.
 
 For the broader career and business path, use
-[[freelance|Freelance Data Engineering and Consulting]]
+[[freelance=>Freelance Data Engineering and Consulting]]
 and
 [[Data Freelancing Strategy]].
 For the engineering substrate, use
@@ -62,7 +62,7 @@ conversation. Brudaru's examples make the buyer problem concrete before the
 tool choice. Legacy cleanup, Airflow adoption, warehouse delivery, and metric
 alignment can all sit inside one client relationship.
 
-[[person:aleksanderkruszelnicki|Aleksander Kruszelnicki]]
+[[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]]
 reaches the same conclusion from a consultancy-building story. His team first
 explored a "data stack as a service" idea. They then learned that stitching
 together Airbyte, dbt, a warehouse, and Metabase wasn't the hard part. The
@@ -76,7 +76,7 @@ in company systems. That places consulting close to
 as well as engineering.
 
 The buying trigger can also be a narrow industrial integration problem.
-[[person:orellgarten|Orell Garten]] focuses on the
+[[person:orellgarten=>Orell Garten]] focuses on the
 software side of data engineering for industrial clients. He builds pipelines,
 custom integrations, and transformations for machines. Vendor formats and
 analytics needs set the project boundary.
@@ -137,7 +137,7 @@ Brudaru uses the written agreement to name what's included and what's excluded.
 He also covers timelines, working style, and expectations, so the client and
 consultant can refer back to the same agreement.
 
-[[person:mikiobraun|Mikio Braun]] describes a similar
+[[person:mikiobraun=>Mikio Braun]] describes a similar
 proposal habit from ML consulting. Before sending an offer, he writes down what
 he understood about the client problem. He adds what he's offering and the fee
 structure. The written summary gives the client a chance to correct the problem
@@ -192,7 +192,7 @@ client can end the relationship more easily than an employment agreement
 
 Consultants therefore price risk transfer, not only days worked.
 
-[[person:dimitrivisnadi|Dimitri Visnadi]] adds market
+[[person:dimitrivisnadi=>Dimitri Visnadi]] adds market
 signals from a data-freelancer job board. He segments listings for data
 analysts, data engineers, and data architects. He also tracks AI specialists,
 web analysts, and adjacent roles. Then he uses rates and project counts to
@@ -223,7 +223,7 @@ reusable data loading framework
 
 The consultant learns from bespoke work, then packages the repeatable part.
 
-[[person:sonalgoyal|Sonal Goyal]] shows a larger
+[[person:sonalgoyal=>Sonal Goyal]] shows a larger
 version of the same path. Her data consultancy repeatedly encountered identity
 resolution problems across warehousing, pipelines, and customer or supplier
 records. Parts of Zingg began as custom consulting work. She later stopped
@@ -249,7 +249,7 @@ repeatability, and the kind of risk they want to accept.
 These pages cover the adjacent career, platform, proposal, and transition
 questions:
 
-- [[freelance|Freelance Data Engineering and Consulting]]
+- [[freelance=>Freelance Data Engineering and Consulting]]
 - [[Data Freelancing Strategy]]
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]

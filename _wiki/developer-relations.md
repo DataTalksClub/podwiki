@@ -70,7 +70,7 @@ A third view pushes the role closer to open-source engineering, combining DevRel
 with core development responsibilities in a developer-relations engineer role at
 :probabl tied to interactive scikit-learn content and videos
 ([[person:vincentwarmerdam|Vincent Warmerdam]],
-[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 A more demo-first version describes developer advocacy at Kestra through
 documentation, demos, and outreach, starting with bullet points, building demos,
@@ -151,7 +151,7 @@ supporting contribution paths and long-term trust.
 These examples link DevRel closely to
 [[open source and developer relations]],
 [[contributing]], and
-[[open-source-portfolio-evidence|open-source portfolio evidence]].
+[[open-source-portfolio-evidence=>open-source portfolio evidence]].
 Docs fixes and examples can be real technical contributions when they remove
 adoption friction. The same is true for reproducible issues, workshops, and demo
 repos.

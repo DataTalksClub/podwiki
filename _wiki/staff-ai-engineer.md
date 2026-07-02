@@ -19,9 +19,9 @@ cross-team product and platform decisions. The role still needs technical depth,
 but the podcast discussions don't frame it as a title for the person who writes the most
 model code.
 
-[[person:tatianagabruseva|Tatiana Gabruseva]]
+[[person:tatianagabruseva=>Tatiana Gabruseva]]
 summarizes the role as being "paid for my opinion" in
-[[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|Transitioning from Academia to Industry as a Staff AI Engineer]]
+[[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Transitioning from Academia to Industry as a Staff AI Engineer]]
 at 7:30. She then describes roadmap definition and machine learning design.
 Code review, mentoring, and production delivery appear in the same discussion.
 She also describes cross-functional
@@ -56,8 +56,8 @@ was mostly reviews, documents, roadmaps and decisions
 ([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff archetypes]],
 11:04-14:23).
 
-[[person:geojolly|Geo Jolly]] draws a useful boundary in
-[[podcast:ml-product-manager-and-mlops-platform-strategy|Become an ML Product Manager]].
+[[person:geojolly=>Geo Jolly]] draws a useful boundary in
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>Become an ML Product Manager]].
 He says product managers define the problem, outcome, rollout, and stakeholder
 path. Lead or staff engineers help define the solution, architecture, code
 quality, and technical decisions. Staff AI engineers therefore sit between
@@ -82,12 +82,12 @@ several teams choose
 between [[retrieval-augmented-generation|RAG]], fine-tuning, agents, and
 non-AI product logic. A hands-on multiplier may build examples, review
 architecture, and teach teams how to use
-[[llm-production-patterns|LLMOps]] and
+[[llm-production-patterns=>LLMOps]] and
 [[MLOps]] practices.
 
-[[person:pauliusztin|Paul Iusztin]] gives the modern AI
+[[person:pauliusztin=>Paul Iusztin]] gives the modern AI
 engineering version in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his AI engineering skill-stack episode]].
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>his AI engineering skill-stack episode]].
 He describes AI engineers as people who take models and build the software
 around them. That software includes UI, backend, and infrastructure. Agents and
 RAG matter too. Monitoring, queues, and retries also matter.
@@ -105,9 +105,9 @@ hadn't previously shipped
 ([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|onboarding and stack ramp-up]],
 3:24-7:30).
 
-[[person:marianosemelman|Mariano Semelman]] supports the
+[[person:marianosemelman=>Mariano Semelman]] supports the
 same standard from the production side in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
+[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 He says his most successful AI and data science projects were the ones where he
 was involved end to end. He named requirements, data, model or model-backed
 application, and deployment. He also named operation, monitoring, and learning
@@ -116,9 +116,9 @@ drift awareness even when they now use model endpoints instead of training every
 model
 (17:27-23:38).
 
-[[person:bartoszmikulski|Bartosz Mikulski]] adds a
+[[person:bartoszmikulski=>Bartosz Mikulski]] adds a
 production AI lens in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]].
+[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
 He connects trust to tests and verification. If a team can't prove that a data
 pipeline works, it can't confidently defend a model output or dashboard number.
 His examples include snapshot and integration tests for data pipelines. He also
@@ -137,9 +137,9 @@ Modern staff AI engineering often includes
 tool-using systems spread across product and infrastructure. They also cross
 data and evaluation boundaries.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]]
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
 defines agents in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 as software that completes a task with objectives, LLMs, and tools. Memory and
 knowledge stores are part of that system too. Her on-call automation example shows why staff-level judgment
 matters. The system must read logs, metrics, deployment state, and source code.
@@ -163,7 +163,7 @@ execution. He also names operational pieces such as traces and data pipelines
 42:28-51:11).
 
 Staff AI engineering therefore overlaps with
-[[agent-engineering|AI agents]],
+[[agent-engineering=>AI agents]],
 [[LLM evaluation workflows]],
 and [[production search evaluation]].
 
@@ -301,7 +301,7 @@ These related pages cover the adjacent role, production, and platform topics:
   for model choice and retrieval. It also covers agents and evaluation, plus
   cost and latency.
 - [[Agent Engineering]] and
-  [[agent-engineering|AI Agents]] for tool-using AI
+  [[agent-engineering=>AI Agents]] for tool-using AI
   systems.
 - [[MLOps]] and
   [[ML Platforms]] for deployment,

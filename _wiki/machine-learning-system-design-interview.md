@@ -23,7 +23,7 @@ idea into a product system. The round is built around assumptions and
 baselines, connecting labels and metrics to A/B tests, monitoring, fallbacks,
 and MLOps ownership
 ([[person:valeriybabushkin|Valerii Babushkin]],
-[[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]]).
 The maintained
 [[Machine Learning System Design]]
 page covers the same interview structure in more detail.
@@ -53,7 +53,7 @@ human-review path.
 Production designs start with goals and non-goals, writing assumptions,
 constraints, and metrics before model architecture
 ([[person:arsenykravchenko|Arseny Kravchenko]],
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
 That habit helps in interviews because it shows the interviewer what problem
 you're solving before you draw boxes.
 
@@ -98,7 +98,7 @@ keeps deep learning behind the product need. Use feature stores only when the
 feature path requires them. Teams should prefer modular systems and prove value
 before adding complexity, keeping systems maintainable and business-aligned
 ([[person:benwilson|Ben Wilson]],
-[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
 
 ## Practice Fraud Detection
 
@@ -119,7 +119,7 @@ The production data-engineering view covers retail fraud use cases, feature
 pipelines, daily batch computation, and real-time scoring, plus graph features,
 monitoring, runbooks, and data quality checks
 ([[person:angelaramirez|Angela Ramirez]],
-[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
+[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
 That makes fraud a good prompt for testing whether you can connect model design
 to data operations.
 
@@ -143,7 +143,7 @@ product may send the case to a fraud specialist instead of automatically
 blocking the customer. That choice follows the threshold and loss framing and
 front-end decisioning covered in both episodes
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]],
-[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
+[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
 
 Stating your assumptions about label delay and letting the interviewer steer is
 especially useful
@@ -165,7 +165,7 @@ It also needs ranking, cold-start handling, and feedback.
 The search and ranking version separates candidate generation from ranking and
 covers hybrid retrieval, filters, and recency
 ([[person:danielsvonava|Daniel Svonava]],
-[[podcast:building-production-search-systems|Building Search Systems]]).
+[[podcast:building-production-search-systems=>Building Search Systems]]).
 Its business metrics, A/B tests, and operational metrics apply when an
 interviewer asks you to rank products and jobs. The same framing works for
 videos, ads, and documents.
@@ -185,7 +185,7 @@ imbalance, feature tradeoffs, and validation connect in the interview episode
 Data availability, processing, feature needs, data lakes, and system diagrams
 add the production view
 ([[person:arsenykravchenko|Arseny Kravchenko]],
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
 
 Ask these questions out loud:
 
@@ -244,7 +244,7 @@ assignment tracking, and power analysis
 Serving mode should follow the decision. Batch inference and online serving are
 distinct paths
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Batch inference often fits a scheduled scoring job. Online serving needs
 latency budgets and API contracts. It also needs prediction logging, rollback,
 and operational support.
@@ -269,7 +269,7 @@ includes monitoring, distribution shift, fallbacks, serving, and MLOps roles
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 The upstream view matters too
 ([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]):
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]):
 model problems can start in ETL jobs or schemas. They can also start in
 transformations, source systems, or data profiles.
 
@@ -328,14 +328,14 @@ the model
 A search or recommendation project can do the same by showing candidate
 generation and ranking metrics. Cold starts, online feedback, and guardrails
 can come from the
-[[production-search-evaluation|production search]]
+[[production-search-evaluation=>production search]]
 page.
 
 Prepare the project story as an interview walkthrough, not as a repository tour.
 Project walkthroughs test ownership, model choice, metrics, validation, and
 impact
 ([[person:nicksingh|Nick Singh]],
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 That makes a portfolio project useful for both the ML system design round and
 the broader interview loop.
 

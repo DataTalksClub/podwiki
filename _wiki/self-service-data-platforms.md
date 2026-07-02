@@ -36,14 +36,14 @@ The data platform role serves analysts and data scientists, and software
 engineers can use the same tools. The platform team makes those tools simple
 enough for users to build with less direct support
 ([[person:mehdiouazza|Mehdi OUAZZA]],
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 12:30]]).
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms, 12:30]]).
 
 The DataOps version comes from Spotify, where the platform team moved from
 handling requests centrally toward enabling teams to build their own data
 flows. That shift ties together workflow engines and immutable data: storage,
 compute, and repeatable pipeline definitions sit in the same platform view
 ([[person:larsalbertsson|Lars Albertsson]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms, 7:52-30:34]]).
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms, 7:52-30:34]]).
 
 Self-service is both technical and organizational because a data platform isn't
 a single tool. It can include Airflow and Kafka as well as warehouses, lakes,
@@ -59,14 +59,14 @@ where central platform ownership ends and domain ownership begins. One approach
 keeps the center of gravity in a platform team that creates Airflow practices
 and Kafka schema rules, along with onboarding paths and shared services for many
 internal consumers ([[person:mehdiouazza|Mehdi OUAZZA]],
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 12:30-23:26]]).
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms, 12:30-23:26]]).
 
 A data mesh approach pushes the boundary toward domain-owned data products,
 built on self-serve platform abstractions, data product contracts, and
 metadata. Identity, authorization, and federated governance let domains publish
 useful data without centralizing every pipeline decision
 ([[person:zhamakdehghani|Zhamak Dehghani]],
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation, 31:05-53:02]]).
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation, 31:05-53:02]]).
 Use [[Data Mesh vs Centralized Data Platform]]
 for that ownership comparison.
 
@@ -79,13 +79,13 @@ Enterprise platform leadership frames the same boundary as consumer groups grow:
 the team must prioritize stakeholders and improve data culture, and it has to
 expose useful data formats, measure quality, and count consumers served
 ([[person:16rahuljain|Rahul Jain]],
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 4:52 and 25:04]]).
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms, 4:52 and 25:04]]).
 
 The product-management view from ML platforms treats internal platform users as
 customers, so the team needs roadmap discipline and adoption planning. User
 research and observability metrics belong in the same product loop
 ([[person:geojolly|Geo Jolly]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy, 11:24-18:25 and 55:44]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy, 11:24-18:25 and 55:44]]).
 
 ## From Bespoke Pipelines to Enablement
 
@@ -151,8 +151,8 @@ The enablement side of governance starts with classification, policies, and
 catalogs. Access workflows, automation, and ROI measurement then make
 democratized data access usable rather than chaotic
 ([[person:jessiashdown|Jessi Ashdown]],
-[[person:urigilad|Uri Gilad]],
-[[podcast:cloud-data-governance|Cloud Data Governance, 14:04-18:33 and 42:04-54:37]]).
+[[person:urigilad=>Uri Gilad]],
+[[podcast:cloud-data-governance=>Cloud Data Governance, 14:04-18:33 and 42:04-54:37]]).
 
 For self-service platforms, governance should make the default path clearer.
 It should show who owns the data, who can access it, what policy applies, and

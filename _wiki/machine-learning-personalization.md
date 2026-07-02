@@ -20,7 +20,7 @@ content recommendation. It may also be a next-best action, onboarding message,
 or clinical nudge. It sits between
 [[recommendation systems]],
 [[product analytics]],
-[[a-b-testing|A/B testing]], and
+[[a-b-testing=>A/B testing]], and
 [[model monitoring]].
 
 Personalization isn't only a model choice. Teams need reliable user events and
@@ -90,7 +90,7 @@ A recommendation model may not be necessary yet. A reliable activation event can
 already change the next email, support response, or product prompt.
 
 This is why ML personalization belongs near
-[[data-led-growth|data-led growth]],
+[[data-led-growth=>data-led growth]],
 [[event tracking]], and
 [[data activation]]. A model trained
 on ambiguous events can personalize the wrong behavior with more confidence.
@@ -208,8 +208,8 @@ work:
 
 - [[Recommendation Systems]]
 - [[Product Analytics]]
-- [[data-led-growth|Data-Led Growth]]
-- [[a-b-testing|A/B Testing]]
+- [[data-led-growth=>Data-Led Growth]]
+- [[a-b-testing=>A/B Testing]]
 - [[Production Search Evaluation]]
 - [[Privacy Engineering for ML]]
 - [[Healthcare ML Validation and Adoption]]

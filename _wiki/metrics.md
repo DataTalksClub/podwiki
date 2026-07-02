@@ -23,15 +23,15 @@ also overlaps with [[a-b-testing|A/B testing]],
 [[causal inference]],
 [[model monitoring]], and
 [[data product management]].
-[[person:adamsroka|Adam Sroka]] frames KPI design as a
+[[person:adamsroka=>Adam Sroka]] frames KPI design as a
 cost-and-impact comparison in
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy at 12:06-30:30]].
-[[person:jakobgraff|Jakob Graff]] shows why an
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy at 12:06-30:30]].
+[[person:jakobgraff=>Jakob Graff]] shows why an
 experiment metric has to match the rollout decision in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics & A/B Testing at 14:27-37:44]].
-[[person:linaweichbrodt|Lina Weichbrodt]] ties KPIs,
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics & A/B Testing at 14:27-37:44]].
+[[person:linaweichbrodt=>Lina Weichbrodt]] ties KPIs,
 service levels, feedback, and feature drift together in
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring at 4:50-29:23 and 46:28-49:28]].
+[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring at 4:50-29:23 and 46:28-49:28]].
 
 ## Metrics as Decision Rules
 
@@ -41,7 +41,7 @@ account-level monthly revenue. Another may use user-level daily conversion. A
 third may use a delayed label after a support case closes.
 
 Sroka makes this practical in
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy at 12:06-30:30]].
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy at 12:06-30:30]].
 He moves from "measurement matters" into merit functions and comparable units.
 He also covers sales pipeline metrics, professional services metrics, vanity
 metrics, and competing KPIs.
@@ -50,7 +50,7 @@ A revenue KPI can be valid. So can an operational burn-down, margin-aware
 composite, or safety threshold. They don't answer the same question.
 
 Graff gives the experimentation version of the same rule. In
-[[podcast:ab-testing-and-product-experimentation|Product Analytics & A/B Testing at 14:27-18:06]],
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics & A/B Testing at 14:27-18:06]],
 a subscription-versus-points change can look different under revenue per user
 than under conversion. Retention and long-term value can favor a different
 rollout choice. The metric is part of the product choice, not a reporting
@@ -71,13 +71,13 @@ instead of impact.
 
 Graff worries about statistical reliability. He warns against noisy metrics,
 too many primary metrics, seasonality, and underpowered experiments in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics & A/B Testing at 30:05-40:23]].
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics & A/B Testing at 30:05-40:23]].
 For an [[a-b-testing|A/B test]], the metric fails
 when it can't support a causal rollout decision.
 
-[[person:aleksandermolak|Aleksander Molak]] adds an
+[[person:aleksandermolak=>Aleksander Molak]] adds an
 intervention boundary in
-[[podcast:causal-inference-for-machine-learning|Causal Inference for Real-World ML at 32:40-43:25]].
+[[podcast:causal-inference-for-machine-learning=>Causal Inference for Real-World ML at 32:40-43:25]].
 A model can predict an outcome well and still be the wrong tool for deciding who
 receives a treatment, discount, recommendation, or marketing message. Teams
 need policy metrics, refutation tests, and sometimes A/B validation before they
@@ -100,7 +100,7 @@ conversion, retention, and engagement. They also cover churn, revenue, and usage
 depth. They depend on consistent event definitions, so they overlap with
 [[event tracking]],
 [[tracking plans]], and
-[[data-led-growth|data-led growth]].
+[[data-led-growth=>data-led growth]].
 
 Graff's monetization example shows why product teams choose the metric before
 interpreting an experiment. One change can support one conclusion under
@@ -127,10 +127,10 @@ also shapes whether an uplift number is believable
 
 Metric distributions also affect the statistical test. Graff discusses
 histograms and tails in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics & A/B Testing at 40:23-59:08]].
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics & A/B Testing at 40:23-59:08]].
 He also covers nonparametric options, p-values, Bayesian intervals, and multiple
 comparisons. That's where experiment metrics meet
-[[a-a-testing|A/A testing]],
+[[a-a-testing=>A/A testing]],
 [[experimentation and causal inference]],
 and [[evaluation]].
 
@@ -142,26 +142,26 @@ and ranking quality need that context. So do calibration, uplift, latency, and
 cost. A higher offline score matters only
 when it improves the decision the system supports.
 
-[[person:arsenykravchenko|Arseny Kravchenko]]
+[[person:arsenykravchenko=>Arseny Kravchenko]]
 describes [[machine learning system design]]
 as problem-first work in
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems at 29:01-32:37]].
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems at 29:01-32:37]].
 He places goals, non-goals, assumptions, and baselines before implementation
 detail. Metrics, data strategy, and pipeline components come next. Teams define
 the product scenario first. They then choose offline and online metrics before
 they design serving and monitoring around those metrics.
 
-[[person:rishabhbhargava|Rishabh Bhargava]] connects ML
+[[person:rishabhbhargava=>Rishabh Bhargava]] connects ML
 metrics to live business analysis in
-[[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML at 28:42-32:47]].
+[[podcast:production-ml-mlops-and-data-team-building=>From Analytics to Production ML at 28:42-32:47]].
 He discusses model experiments, A/B testing, and shadow mode. He then connects
 segmentation, uplift, and root-cause analysis to live results. The model metric
 isn't enough. Analysts still need to explain which segments moved and whether
 the model changed the business outcome.
 
-[[person:benwilson|Ben Wilson]] adds a cost-benefit
+[[person:benwilson=>Ben Wilson]] adds a cost-benefit
 constraint in
-[[podcast:machine-learning-engineering-production-best-practices|Machine Learning Engineering Best Practices at 32:03-55:41]].
+[[podcast:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Best Practices at 32:03-55:41]].
 He emphasizes timeboxed bake-offs, simple baselines, feature engineering, and
 testing. ML teams should compare model metrics against maintainability, cloud
 cost, and delivery risk instead of treating a higher offline score as the only
@@ -203,7 +203,7 @@ explain why a technically correct dashboard, model, or pipeline deserves
 continued investment.
 
 Sroka's KPI episode is the strongest business-metrics discussion. In
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy at 15:11-51:12]],
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy at 15:11-51:12]],
 he covers merit functions, project prioritization, and comparable units. He also
 covers sales pipeline metrics, professional services metrics, and top-down KPI
 alignment. Competing KPIs and composite metrics appear in the same discussion.
@@ -217,7 +217,7 @@ because the impact story has to survive prioritization, funding, and adoption
 decisions.
 
 Molak adds that business metrics aren't automatically causal metrics. In
-[[podcast:causal-inference-for-machine-learning|Causal Inference for Real-World ML at 32:40-43:25]],
+[[podcast:causal-inference-for-machine-learning=>Causal Inference for Real-World ML at 32:40-43:25]],
 teams compare policies on the same business metric. They still need estimator
 checks and sometimes experimental validation before trusting the intervention
 claim.
@@ -227,8 +227,8 @@ claim.
 These pages cover adjacent metric decisions in more detail.
 
 - [[Evaluation]]
-- [[a-b-testing|A/B Testing]]
-- [[a-a-testing|A/A Testing]]
+- [[a-b-testing=>A/B Testing]]
+- [[a-a-testing=>A/A Testing]]
 - [[Power Analysis]]
 - [[Experimentation]]
 - [[Experimentation and Causal Inference]]
@@ -236,7 +236,7 @@ These pages cover adjacent metric decisions in more detail.
 - [[Product Analytics]]
 - [[Analytics Engineering]]
 - [[Dashboard and Metric Layer Project Checklist]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Event Tracking]]
 - [[Model Monitoring]]
 - [[Machine Learning System Design]]

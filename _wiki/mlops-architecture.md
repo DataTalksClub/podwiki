@@ -27,13 +27,13 @@ not a vendor diagram. MLOps rests on people, process, and technology, and
 experiment tracking and registries connect to batch inference, online serving,
 and orchestration
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 Operationally, a useful stack starts with version control and CI/CD, with
 registries, a model registry, and monitoring following before the work becomes a
 large platform program
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
 
 For the broader discipline, start with
 [[MLOps]]. Use
@@ -64,7 +64,7 @@ This is a maturity progression: manual training gives way to pipeline
 automation, then data-driven triggers, automated retraining, and monitoring as a
 source of new training data
 ([[person:theofilospapapanagiotou|Theofilos Papapanagiotou]],
-[[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]).
+[[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
 The return path explains how a deployed model keeps learning from the world
 without hiding responsibility behind automation.
 
@@ -79,7 +79,7 @@ On the data pipeline side, ML pipelines and analytics data pipelines differ, and
 MLOps separates from DataOps by the kind of production system being operated;
 feature engineering, model training, and serving are ML pipeline steps
 ([[person:santonatuli|Santona Tuli]],
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 Use those boundaries when deciding which parts of the system belong to
 [[DataOps]], [[MLOps]], or both.
 
@@ -97,7 +97,7 @@ coexist.
 The upstream dependency is explicit: model problems tie back to ETL and data
 pipelines, and drift and quality belong in the same monitoring view
 ([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 If the monitoring view stops at the endpoint, the team can miss the
 source-system or feature-pipeline change that caused the model to fail.
 
@@ -114,12 +114,12 @@ Experiment tracking is a low-hanging platform win — a move away from spreadshe
 run logs toward transparent model history — and metadata and lineage connect to
 [[reproducibility]], artifacts, and tracking
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 The same requirement broadens to CI and repository structure, plus
 parameterization, testing, data versioning, and traceability
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 A team shouldn't treat training output as production-ready until another person
 can reproduce it and understand the evidence behind it.
 
@@ -142,7 +142,7 @@ choices include artifact stores and MLflow-style alternatives, and for early
 teams reproducibility, versioning, and traceability come ahead of more elaborate
 tooling
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
 
 For a small team, object storage plus a structured promotion convention may be
 enough if everyone follows the same rule. For a larger or regulated team, access
@@ -151,7 +151,7 @@ deployment-system integration usually follow.
 
 Registries connect to downstream consumption
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 The registry's architectural job is to turn a training output into a model
 another job, service, or team can depend on.
 
@@ -167,18 +167,18 @@ A concrete component set covers version control, CI/CD, and containerization,
 model registry, experiment tracking, and monitoring, plus compute, serving, and
 package registry
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Standardization work includes cookie-cutter repositories, service principals,
 Databricks workflows, and moving logic out of notebooks into packages and CI/CD
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
 
 The startup version is a minimal stack with Python, CI/CD orchestration, and
 Dagster; managed services can accelerate a young team while creating migration
 and lock-in tradeoffs
 ([[person:nemanjaradojkovic|Nemanja Radojkovic]],
-[[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+[[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 That matters for [[MLOps]]: the simplest repeatable release path usually beats a
 broad platform that the team can't yet operate.
 
@@ -192,7 +192,7 @@ business logic inside scheduler callbacks.
 
 Batch inference and online serving separate in the architecture
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Batch serving looks similar to training: a job loads data, preprocesses it, runs
 inference, and stores output.
 
@@ -207,7 +207,7 @@ badly.
 In a Kubernetes-native view, Kubeflow Pipelines and KFServing appear as
 production options, along with Feast, Katib, and TFX-style orchestration
 ([[person:theofilospapapanagiotou|Theofilos Papapanagiotou]],
-[[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]).
+[[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
 Treat those as architecture options, not default requirements. Use them when the
 team needs pipeline automation, model serving, metadata, or platform integration
 at that level of complexity.
@@ -226,12 +226,12 @@ tying observability back to ETL and data pipelines; profiling architecture and
 summary profiles can support monitoring without moving every raw row into the
 monitoring system
 ([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
 On the maintenance side, production models need monitoring for data drift,
 concept drift, and maintenance
 ([[person:thomives|Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance|Feature Engineering, Model Monitoring, and Data Governance]]).
+[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering, Model Monitoring, and Data Governance]]).
 The practical release rule is to avoid automatic retraining until the
 architecture names the trigger, owner, and approval path.
 
@@ -244,12 +244,12 @@ to someone who can choose the right response.
 On the human-centered side, live test sets and small A/B tests support
 monitoring, alongside root-cause debugging and feedback channels
 ([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]]).
+[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
 A monitoring architecture is stronger when it supports incident response, not
 only dashboards.
 
 For the data side of the same problem, see
-[[data-quality-and-observability|Data Observability]] and
+[[data-quality-and-observability=>Data Observability]] and
 [[DataOps]].
 
 ## Governance, Lineage, and Ownership
@@ -271,14 +271,14 @@ At the architecture level, governance usually means:
 Regulatory constraints tie security and compliance to metadata, lineage, and
 GDPR implications
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Data governance is also a maturity concern
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 Reusable CI/CD, repository templates, service principals, and deployment
 standards make governance easier because they reduce one-off paths
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
 
 For adjacent pages, use
 [[Data Governance]],
@@ -292,9 +292,9 @@ offline training data and online low-latency feature serving. It can also
 provide point-in-time correctness, feature reuse, feature definitions, and
 monitoring around feature freshness or distributions.
 
-[[person:willempienaar|Willem Pienaar]] defines the
+[[person:willempienaar=>Willem Pienaar]] defines the
 core problem around 6:30 in
-[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
 He then separates transformations and retrieval between 11:00 and 14:30. He
 also covers on-demand computation. Around 16:30, he uses real-time fraud
 detection to show why online feature lookup matters.
@@ -328,16 +328,16 @@ part of the platform.
 
 Simon and Raphaël are consistent on this tradeoff. Simon warns against heavy platform
 investment before model value exists around 47:08 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Around 49:19, he favors building minimal platform pieces alongside real use.
 
 Raphaël frames a centralized MLOps team as an enabling layer in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 In that discussion, adoption depends on feedback loops and quick wins. Developer
 experience matters because adoption is part of the architecture.
 
 Nemanja adds the startup constraint in
-[[podcast:lean-mlops-for-startups|Lean MLOps for Startups]].
+[[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]].
 Use managed tools when they buy speed. Keep an eye on lock-in, technical debt,
 security, and future portability.
 
@@ -365,8 +365,8 @@ Start from the failure mode instead of the framework name.
 8. If the organization is regulated or high-risk, add governance metadata,
    approvals, lineage, and audit trails early.
 
-[[person:geojolly|Geo Jolly]] adds the product lens in
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]].
+[[person:geojolly=>Geo Jolly]] adds the product lens in
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 Around 8:41, the episode discusses in-house MLOps platform strategy and vendor
 evaluation. Around 18:25, it connects observability and KPIs to platform impact.
 Use that as the standard for framework selection. Choose tools and conventions

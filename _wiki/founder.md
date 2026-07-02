@@ -34,9 +34,9 @@ covers the service-to-product path.
 
 ## Problem Selection
 
-[[person:elenasamuylova|Elena Samuylova]] gives the
+[[person:elenasamuylova=>Elena Samuylova]] gives the
 clearest warning in
-[[podcast:building-mlops-startup|How to Build a Successful ML Startup]].
+[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]].
 Around 7:23, she warns technical founders. Don't start with the wish to build a
 machine learning startup. Start with a painful workflow. Then ask whether
 [[machine learning]] is the right
@@ -46,18 +46,18 @@ In her grocery-store example, a team may think the problem is forecasting.
 Customer conversations may reveal that the store can't collect basic inventory
 data yet.
 
-[[person:carminepaolino|Carmine Paolino]] shows the
+[[person:carminepaolino=>Carmine Paolino]] shows the
 same move in retail. In
-[[podcast:launch-and-build-retail-startup|Build a Grocery Retail OS to Cut Supermarket Food Waste]],
+[[podcast:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]],
 FreshFlow started with a computer-vision idea, then watched fresh-product
 managers work in supermarkets. Around 5:46-13:16, Paolino describes shelf
 checks and stockroom counts as part of ordering. Weather, local events, and the
 fear of empty shelves also shaped the order. Around 24:47, the product moved
 toward a broader retail operating system because store work set the boundary.
 
-[[person:mariabruckert|Maria Bruckert]] adds the
+[[person:mariabruckert=>Maria Bruckert]] adds the
 regulated-market version in
-[[podcast:building-ai-digital-health-startups|Building Digital Health Startups]].
+[[podcast:building-ai-digital-health-startups=>Building Digital Health Startups]].
 SQIN began with healthcare as a domain that needed technology help. Around
 2:05-6:11 and 12:20-24:08, she describes industry immersion, cold outreach, and
 accelerators. The founders also used clinical meetings and conversations with
@@ -76,9 +76,9 @@ failures that no one noticed. Evidently validated
 [[model monitoring]] as a
 business problem because practitioners kept naming the same operational pain.
 
-[[person:sonalgoyal|Sonal Goyal]] gives the
+[[person:sonalgoyal=>Sonal Goyal]] gives the
 consulting-to-product version in
-[[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]].
+[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]].
 Around 2:58 and 11:09, she traces Zingg to repeated identity-resolution
 problems across customer and supplier records. She also saw the gap in patient
 records and product catalogs. Around 21:51 and 23:00, proof-of-concept work
@@ -86,9 +86,9 @@ turned into a full-time product build and then a public release. The founder
 signal was repetition: several clients exposed the same gap in the modern data
 stack.
 
-[[person:adrianbrudaru|Adrian Brudaru]] validates
+[[person:adrianbrudaru=>Adrian Brudaru]] validates
 through teaching in
-[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
 Around 36:00-42:01, the DLT team ran a three-day workshop where about 60 Python
 users built an incremental pipeline. The team added checkpoints, live support,
 and a shared Codespaces setup. Participants learned the tool, and the founders
@@ -135,9 +135,9 @@ and AGPL licensing as part of the business model. The founder has to decide
 what stays public, what protects the company, and how users move from
 open-source adoption to a sustainable product.
 
-[[person:belawiertz|Bela Wiertz]] gives the investor
+[[person:belawiertz=>Bela Wiertz]] gives the investor
 view in
-[[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]].
+[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]].
 Around 13:42-16:40, he frames open source as community-driven distribution and
 bottom-up developer adoption. Around 32:31-39:01, he says investors still look
 at the team and market need. They also check commercialization, user
@@ -216,9 +216,9 @@ scalable company.
 ## Indie and Small-Business Paths
 
 Not every founder path in these episodes points to a venture-backed company.
-[[person:paulineclavelloux|Pauline Clavelloux]] covers
+[[person:paulineclavelloux=>Pauline Clavelloux]] covers
 the indie version. In
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]],
+[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]],
 around 7:23-18:45, she describes bootstrapping while keeping a day job. She
 splits time and builds crypto alerts from her own trading need. She also covers
 company setup, landing pages, legal work, and payments.

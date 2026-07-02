@@ -20,7 +20,7 @@ the platform
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 27:56-36:55]]).
 
 [[Platform engineering]],
-[[self-service-data-platforms|self-service data platforms]],
+[[self-service-data-platforms=>self-service data platforms]],
 and [[developer experience]]
 cover the architecture around adoption, but adoption is behavioral. A team can
 expose compute and orchestration, then add a model registry or data contracts.
@@ -28,7 +28,7 @@ The rollout still fails when data scientists and data engineers don't know when
 to use the platform. Analysts and product teams also need a clear reason to
 change their work
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 10:47-20:04]],
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery, 20:02-26:21]]).
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery, 20:02-26:21]]).
 
 ## Adoption in Practice
 
@@ -39,7 +39,7 @@ scientists and ML engineers. The same team improves developer experience
 through feedback
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-32:46]]).
 
-[[person:geojolly|Geo Jolly]] uses the product-management
+[[person:geojolly=>Geo Jolly]] uses the product-management
 language directly. Even an internal ML platform has customers and user
 journeys. It also needs a roadmap, rollout strategy, and feedback surveys
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy, 11:24-16:44 and 55:44]]).
@@ -66,7 +66,7 @@ The first useful signal is often friction in CI and repository structure. It
 may also appear in deployment, dependency management, or monitoring
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 39:06-53:08]]).
 
-[[person:caitlinmoorman|Caitlin Moorman]] makes the same
+[[person:caitlinmoorman=>Caitlin Moorman]] makes the same
 argument from [[data product adoption]].
 When people don't use a dashboard or analytical product, she recommends user
 research, decision mapping, and low-fidelity prototypes before building the
@@ -88,7 +88,7 @@ to a cloud provider. Data scientists shouldn't have to think about every
 infrastructure detail to use the platform
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 34:01-38:40]]).
 
-[[person:mehdiouazza|Mehdi OUAZZA]] gives the data
+[[person:mehdiouazza=>Mehdi OUAZZA]] gives the data
 engineering version. In a scale-up, a data platform team has many consumers. It
 must make routine work possible without the platform team's direct help. Mehdi
 includes onboarding sessions and support channels in the platform surface. He
@@ -128,7 +128,7 @@ it earns influence by solving visible problems. The team also maintains
 feedback with its users
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-36:55]]).
 
-[[person:larsalbertsson|Lars Albertsson]] describes a
+[[person:larsalbertsson=>Lars Albertsson]] describes a
 similar sequence from Spotify. The core team embedded with early adopters, then
 worked on infrastructure and tools. Other teams could then build and deploy
 their own data flows
@@ -154,7 +154,7 @@ to stakeholders". The product manager needs to know who will adopt a platform
 capability and when
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy, 9:50-16:44 and 45:18-48:10]]).
 
-[[person:linaweichbrodt|Lina Weichbrodt]] adds the human
+[[person:linaweichbrodt=>Lina Weichbrodt]] adds the human
 side of MLOps buy-in. Before building, teams should clarify the business case
 and KPIs. They should also clarify the user story and alternatives. They may
 need someone from the business available for demos and questions. They also
@@ -214,7 +214,7 @@ and users choosing the standard path without being forced.
 ## Failure Modes
 
 Guests warn that a team can build a technically coherent
-[[ml-platforms|ML platform]]
+[[ml-platforms=>ML platform]]
 too early. It may not yet have repeated model work or clear business value
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 47:08-49:19]]).
 It can also build self-service without conventions. Users may then break

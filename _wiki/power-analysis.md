@@ -16,7 +16,7 @@ Power analysis estimates how many observations an experiment needs before a team
 can detect a meaningful effect with acceptable error risk. In the
 DataTalks.Club podcast discussions, it sits between experiment planning and
 product measurement. It links
-[[a-b-testing|A/B testing]],
+[[a-b-testing=>A/B testing]],
 [[experimentation]], and
 [[metrics]] to the
 [[product analytics]] work that
@@ -57,7 +57,7 @@ the team can't read the result after one day.
 Power analysis answers one planning question inside a larger experimentation
 stack. Different guests focus on different risks around that calculation.
 
-[[person:jakobgraff|Jakob Graff]] focuses on product
+[[person:jakobgraff=>Jakob Graff]] focuses on product
 experimentation, where teams launch tests without enough traffic, too many
 variants, or a metric that can't support a causal decision. Simple first tests
 with one main metric, metric-stability checks, duration planned before launch,
@@ -65,13 +65,13 @@ and [[a-a-testing|A/A testing]] catch assignment or
 tracking problems before a team trusts an A/B result
 ([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
 
-[[person:aleksandermolak|Aleksander Molak]] focuses on
+[[person:aleksandermolak=>Aleksander Molak]] focuses on
 causal structure, treating randomized experiments as one route to unconfounded
 evidence. Even a well-powered test answers only the intervention the team
 randomized and the outcome it chose
 ([[podcast:causal-inference-for-machine-learning|Causal Inference for Real-World ML]]).
 
-[[person:rishabhbhargava|Rishabh Bhargava]] connects
+[[person:rishabhbhargava=>Rishabh Bhargava]] connects
 experiments to live ML validation through A/B testing and shadow mode, plus
 uplift, segmentation, and root-cause analysis after a model reaches production.
 This work starts after the power calculation: teams still need to explain where
@@ -143,7 +143,7 @@ distribution and choose a test that fits the metric
 ([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
 That choice connects power analysis with
 [[evaluation]] and
-[[metrics|experiment metrics]].
+[[metrics=>experiment metrics]].
 
 ## Sample Size and Practical Significance
 
@@ -192,8 +192,8 @@ still has to explain the result in business and product terms.
 These pages cover the experiment and analytics concepts that power analysis
 depends on.
 
-- [[a-b-testing|A/B Testing]]
-- [[a-a-testing|A/A Testing]]
+- [[a-b-testing=>A/B Testing]]
+- [[a-a-testing=>A/A Testing]]
 - [[Experimentation]]
 - [[Experimentation and Causal Inference]]
 - [[Causal Inference]]

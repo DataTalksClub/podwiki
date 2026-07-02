@@ -39,8 +39,8 @@ AI capability.
 
 The AI engineer role is defined through full-stack ownership: UI and backend
 work, database design, and agent work all matter, and
-[[retrieval-augmented-generation|RAG]], deployment, and
-[[llm-production-patterns|LLMOps]] belong in the shipping path
+[[retrieval-augmented-generation=>RAG]], deployment, and
+[[llm-production-patterns=>LLMOps]] belong in the shipping path
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 
 The same standard holds from a side-project path. BranchGPT mattered because it
@@ -63,7 +63,7 @@ durable workflows, traces, and deployment all belong in the AI engineer skill
 stack
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 
-[[person:revathyramalingam|Revathy Ramalingam]] had interviewers check her GitHub
+[[person:revathyramalingam=>Revathy Ramalingam]] had interviewers check her GitHub
 profile and run her projects, asking about dataset choices, REST output,
 chunking, retrieval accuracy, and efficiency
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]]).
@@ -73,14 +73,14 @@ chunking, retrieval accuracy, and efficiency
 The guests agree that portfolio work should be public and explainable, but they
 value different proof first.
 
-[[person:pauliusztin|Paul Iusztin]] starts from end-to-end ownership: the project
+[[person:pauliusztin=>Paul Iusztin]] starts from end-to-end ownership: the project
 should show the surrounding software and knowledge modeling, with data pipelines,
 agent behavior, monitoring, and deployment. Serious projects may need custom
 logic around a specific data problem, because a framework's abstractions can get
 in the way
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 
-[[person:ruslanshchuchkin|Ruslan Shchuchkin]] starts from product discovery and
+[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] starts from product discovery and
 speed: AI engineers validate what works with real users first, then optimize
 prompts, latency, cost, model choice, and context once the use case is proven
 ([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
@@ -88,7 +88,7 @@ prompts, latency, cost, model choice, and context once the use case is proven
 That makes a quick demo valuable only when it's followed by user observation,
 structured outputs, and feedback. Product iteration has to follow.
 
-[[person:revathyramalingam|Revathy Ramalingam]] starts from career proof. A
+[[person:revathyramalingam=>Revathy Ramalingam]] starts from career proof. A
 telecom capstone worked because it used prior domain knowledge, exposed a
 data-leakage-like full-accuracy problem, and forced an explanation of dataset
 selection and deployment during interviews
@@ -98,7 +98,7 @@ A PDF Q&A assignment shows the AI-specific version, where chunking strategy,
 retrieval accuracy, and efficiency mattered more than a polished interface
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]]).
 
-[[person:tatianagabruseva|Tatiana Gabruseva]] starts from competitions, treating
+[[person:tatianagabruseva=>Tatiana Gabruseva]] starts from competitions, treating
 the leaderboard as a learning and feedback loop but separating leaderboard rank
 from portfolio value. The reusable proof is a clean GitHub repository and a
 readable writeup; code, publication or presentation artifacts, and public
@@ -169,7 +169,7 @@ in a business RAG setting
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]]).
 That places the project beside
 [[LLM Evaluation Workflows]],
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 and [[LLM Production Patterns]].
 
 The same approach can use code repositories instead of PDFs. A Q&A assistant over
@@ -206,7 +206,7 @@ context management
 ([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
 For architecture vocabulary, connect the project to
 [[Agent Engineering]] and
-[[agent-engineering|AI Agents]].
+[[agent-engineering=>AI Agents]].
 
 ## Evaluation, Deployment, and Feedback
 
@@ -241,7 +241,7 @@ include what changed and what remains out of scope.
 Hiring proof lives in public artifacts. A recruiter asked for the GitHub profile,
 then scheduled an interview after seeing the portfolio projects. In the
 face-to-face interview,
-[[person:revathyramalingam|Revathy Ramalingam]] ran a project on her laptop and
+[[person:revathyramalingam=>Revathy Ramalingam]] ran a project on her laptop and
 explained the dataset and source, her choices, REST service, and output
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]]).
 

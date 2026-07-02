@@ -19,24 +19,24 @@ Git so another person can review them before automation applies them. The
 changed object might be a cloud resource, an IAM permission, a deployment
 template, or a repository standard. GitOps sits inside
 [[DataOps]]. It overlaps with
-[[ci-cd|CI/CD]],
+[[ci-cd=>CI/CD]],
 [[data governance]], and
 [[security]]. It also belongs near
 [[data engineering platforms]],
 [[MLOps]], and
 [[ML platforms]].
 
-[[person:tomaszhinc|Tomasz Hinc]] gives the clearest
+[[person:tomaszhinc=>Tomasz Hinc]] gives the clearest
 GitOps example. In
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps Best Practices for Data Teams at 12:40-26:21]],
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams at 12:40-26:21]],
 data workers open merge requests for infrastructure instead of waiting for a
 platform-team ticket. [[person:bartvandekerckhove|Bart Vandekerckhove]]
 uses the same review model for access management in
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management at 50:08-55:56]].
-[[person:mariavechtomova|Maria Vechtomova]] places Git
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management at 50:08-55:56]].
+[[person:mariavechtomova=>Maria Vechtomova]] places Git
 and CI/CD inside a standardized MLOps foundation. She also includes registries
 and deployment paths in
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps at 16:27-18:41]].
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps at 16:27-18:41]].
 
 ## Reviewable Desired State
 
@@ -56,7 +56,7 @@ adds monitoring and deployment templates
 The guests describe guided self-service rather than unmanaged self-service. A
 data scientist, analyst, or data engineer learns enough Git and cloud to
 propose a useful change. They also learn enough IAM and
-[[ci-cd|CI/CD]] to make the change reviewable.
+[[ci-cd=>CI/CD]] to make the change reviewable.
 
 Platform, SRE, security, or [[DataOps]]
 reviewers keep the shared platform coherent. Tomasz makes this boundary explicit
@@ -83,9 +83,9 @@ change into a private ticket queue. It also gives analysts, data scientists, and
 data engineers a safer route into platform work than running Terraform locally
 with unclear credentials.
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 describes the wider platform version of the same boundary in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms at 8:11-10:47]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms at 8:11-10:47]].
 He names cloud infrastructure, Kubernetes, and Terraform as core platform
 skills. He then argues that platform teams need to understand data-science
 workflows.
@@ -103,7 +103,7 @@ access instead of buckets or deployments.
 
 Cloud lakes and warehouses weaken old walls between systems and consumers, as
 Bart describes at
-[[podcast:data-governance-data-access-management|11:20 in Data Governance and Data Access Management]].
+[[podcast:data-governance-data-access-management=>11:20 in Data Governance and Data Access Management]].
 As more teams reach shared data, dataset-level access management becomes a
 platform responsibility.
 
@@ -152,14 +152,14 @@ work less fragile.
 GitOps only helps when the code path is reproducible. Tomasz ties GitOps to
 fixed dependency versions and Docker images. He also links it to GitLab CI and
 production data checks in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps Best Practices for Data Teams at 58:26-1:02:28]].
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams at 58:26-1:02:28]].
 He warns that a green orchestrator status isn't enough when a job inserts zero
 records. The platform needs versioned code, known environments, and checks that
 match real data outcomes.
 
-[[person:christopherbergh|Christopher Bergh]] makes the
+[[person:christopherbergh=>Christopher Bergh]] makes the
 same [[DataOps]] reliability argument in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps at 6:42 and 33:47-34:37]].
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps at 6:42 and 33:47-34:37]].
 He frames DataOps around reducing production errors, shortening deployment
 cycles, and improving team productivity. Version control and tests belong in
 the same reliability system as CI/CD. Runbooks, automation, and observability
@@ -197,4 +197,4 @@ Simon discusses user-centered platform design at 10:47, while Maria discusses
 centralized MLOps teams at 27:06-38:01. Together, those episodes show that
 balance
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).

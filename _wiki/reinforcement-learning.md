@@ -23,28 +23,28 @@ Business teams often choose simpler optimization or experimentation methods
 when they don't have a reliable simulator.
 
 For a structured introduction to the topic, the [[book:20210111-reinforcement-learning|Reinforcement Learning]] Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
-[[book:20210517-grokking-deep-reinforcement-learning|Grokking Deep Reinforcement Learning]]
+[[book:20210517-grokking-deep-reinforcement-learning=>Grokking Deep Reinforcement Learning]]
 by Miguel Morales is a complementary learning path: it builds intuition for Q-learning, policy gradients, and actor-critic methods through annotated code and visual walkthroughs.
 
 Start with
-[[person:micheallanham|Micheal Lanham]] in
-[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]
+[[person:micheallanham=>Micheal Lanham]] in
+[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 for the historical path from game AI and reinforcement learning to modern
 agents. Pair that with
-[[person:danbecker|Dan Becker]] in
-[[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]]
+[[person:danbecker=>Dan Becker]] in
+[[podcast:machine-learning-decision-optimization=>Optimize Decisions with ML]]
 for the practical boundary. Reinforcement learning needs an environment where
 you can try actions and observe outcomes. For deployed physical systems, use
-[[person:aishwaryajadhav|Aishwarya Jadhav]] in
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research]]
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] in
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 to separate perception from behavior in robotics and self-driving systems.
 
 ## Agents, Objectives, and Modern Agent Language
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] gives the
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] gives the
 cleanest bridge between older reinforcement-learning agents and current
-[[agent-engineering|AI agents]]. In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[agent-engineering=>AI agents]]. In
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 the conversation compares current agent language with reinforcement-learning
 courses from the early 2010s. At 12:01, Ranjitha says the older agent was
 tasked with completing a goal or objective. Teams tuned it to improve
@@ -65,21 +65,21 @@ that distinction visible instead of treating every autonomous workflow as
 reinforcement learning.
 
 Lanham adds the historical arc. At 8:01 in
-[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
+[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]],
 he describes moving from sound design and waveform work into reinforcement
 learning. He names the University of Alberta as an important research center.
 
 At 9:09, he says he wrote reinforcement-learning and deep-learning books before
 returning to [[evolutionary algorithms]].
 That path explains why his later discussion of
-[[multi-agent-systems|multi-agent systems]]
+[[multi-agent-systems=>multi-agent systems]]
 doesn't start from chatbots. It starts from games, simulation, search, and
 agents that act inside a constrained world.
 
 ## Simulators Decide What Is Feasible
 
 Becker sets the strongest practical boundary for reinforcement learning. In
-[[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]],
+[[podcast:machine-learning-decision-optimization=>Optimize Decisions with ML]],
 he contrasts prediction with deciding what to do next. At 21:58, he describes
 reinforcement learning as optimizing an objective in a complex environment. He
 also says the best-known breakthroughs, including game systems such as AlphaGo
@@ -97,9 +97,9 @@ A deployed system may contain predictions and rules. It may also include
 constraints and a simulator-like evaluation layer even when no reinforcement
 learner is trained.
 
-[[person:adamsroka|Adam Sroka]] makes the same
+[[person:adamsroka=>Adam Sroka]] makes the same
 constraint concrete from the metrics side. In
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]],
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
 he says at 56:35 that reinforcement learning is useful when a team has a good,
 cheap simulator. He adds that this case is rare. When historical data is useful
 and the team's actions don't strongly change the world, he uses backtesting as
@@ -112,7 +112,7 @@ decision evaluation rather than treating it as a universal optimizer.
 
 Sroka's laser-design story shows why reward design isn't separate from
 measurement. At 2:22 in
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]],
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
 he says he used reinforcement learning while designing laser components during
 his computational physics doctorate. At 9:00, he explains the setup. He had
 ray-tracing software and MATLAB automation, then attached a rudimentary
@@ -130,9 +130,9 @@ reinforcement learner can search for a system that hits those thresholds.
 The harder problem is comparing many acceptable solutions and weighting the
 metrics into a merit function.
 
-[[person:lorismarini|Loris Marini]] adds a second
+[[person:lorismarini=>Loris Marini]] adds a second
 research example in
-[[podcast:data-professionals-business-skills-in-saas|Practical Skills for Data Professionals in SaaS]].
+[[podcast:data-professionals-business-skills-in-saas=>Practical Skills for Data Professionals in SaaS]].
 At 8:30, he describes using reinforcement learning for a hard optimization
 problem. Actors took competing actions until a network converged to a
 near-optimal solution in a small number of iterations.
@@ -145,7 +145,7 @@ learn from.
 ## Robotics and Autonomous Driving Need Constraints
 
 Jadhav separates the perception and behavior parts of autonomous systems. In
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research]],
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]],
 she says at 45:37 that her first interaction with reinforcement learning was
 through college robotics. Reinforcement learning remains important in robotics.
 At 45:55, she defines the split. Computer vision helps the agent understand the
@@ -171,8 +171,8 @@ staged validation before it can act around people.
 
 Guests also describe simpler methods when the problem only needs a
 limited version of reinforcement-learning thinking. In
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
-[[person:dannyleybzon|Danny Leybzon]] discusses the
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]],
+[[person:dannyleybzon=>Danny Leybzon]] discusses the
 explore-exploit tradeoff at 45:49. He brings up Thompson sampling for the
 multi-armed bandit problem and calls it much simpler to implement than a full
 reinforcement-learning neural network.
@@ -191,8 +191,8 @@ For the broader machine-learning context, use
 [[Machine Learning]]. For
 production agents that use LLMs and tools, use
 [[Agent Engineering]] and
-[[agent-engineering|AI Agents]]. Those pages also cover
+[[agent-engineering=>AI Agents]]. Those pages also cover
 retrieval and memory. For game-derived agent design and collaboration
 structures, use
-[[multi-agent-systems|Multi-Agent Systems]] and
+[[multi-agent-systems=>Multi-Agent Systems]] and
 [[Evolutionary Algorithms]].

@@ -20,16 +20,16 @@ The role gives model builders a repeatable path from experiment to artifact and
 from release to repair. It sits inside
 [[MLOps]] and often overlaps with
 [[ML platforms]],
-[[machine-learning-engineer-role|machine learning engineering]],
-[[data-engineer-role|data engineering]], and
+[[machine-learning-engineer-role=>machine learning engineering]],
+[[data-engineer-role=>data engineering]], and
 [[platform engineering]].
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 frames MLOps as people, workflow, and technology at 4:42 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-[[person:mariavechtomova|Maria Vechtomova]] gives a
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+[[person:mariavechtomova=>Maria Vechtomova]] gives a
 similar practical definition at 11:10 in
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 Her version enables data scientists with reproducible practices and teaching.
 It also relies on reusable infrastructure and clear standards.
 
@@ -43,10 +43,10 @@ retraining decisions do too
 [[Production]]).
 
 Simon's platform discussion in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 moves from self-service compute at 28:20 into
 [[experiment tracking]] and
-[[model-registry|model registries]] at 30:32.
+[[model-registry=>model registries]] at 30:32.
 Batch inference and online serving appear at 31:15, orchestration at 31:51, and
 metadata and lineage at 42:48. Prediction logging appears at 54:15. Developer
 experience and governance round out the platform surface.
@@ -66,29 +66,29 @@ there too
 ## Different Starting Points
 
 Podcast guests agree on enablement, but they start in different places.
-[[person:raphaelhoogvliets|Raphael Hoogvliets]]
+[[person:raphaelhoogvliets=>Raphael Hoogvliets]]
 describes centralized MLOps as an enabling team at 23:01 in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 His version starts with product-team pain at 33:13, quick wins at 32:46, and
 adoption signals such as deployment frequency at 36:55.
 
 Maria starts from existing engineering primitives. In
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]],
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
 she names Git and CI/CD at 16:27 and 18:41. She also names registries and
 Kubernetes. She includes standardized repositories and monitoring in the same
 discussion.
-[[person:dannyleybzon|Danny Leybzon]]
+[[person:dannyleybzon=>Danny Leybzon]]
 pulls the role toward production observability and customer architecture at
 8:11 and 25:04 in
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]].
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
-[[person:linaweichbrodt|Lina Weichbrodt]] adds the
+[[person:linaweichbrodt=>Lina Weichbrodt]] adds the
 human side in
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 Her version centers incident preparation, stakeholder trust, debugging, and
 feedback channels. [[person:nemanjaradojkovic|Nemanja Radojkovic]]
 shows that finance and startup environments create different constraints in
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 and [[podcast:lean-mlops-for-startups|Lean MLOps for Startups]].
 
 ## Responsibilities
@@ -100,44 +100,44 @@ role prevents:
   run parameters, metrics, and data references with artifacts and environment
   details
   ([[Reproducibility]] and
-  [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 42:31]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale, 42:31]]).
 - Create a model handoff path with artifact storage and registry metadata. The
   handoff should name the owner, version, evaluation result, and approval state.
   It should also record deployment target and rollback notes
   ([[Model Registry]],
-  [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+  [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - Standardize CI/CD, packaging, tests, and repository layout. Add dependency
   management and deployment checks so releases don't depend on manual handoffs
   ([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps, 29:55 and 33:24]],
-  [[ci-cd|CI/CD]]).
+  [[ci-cd=>CI/CD]]).
 - Support the right serving mode for the use case. Common choices include batch
   scoring, online APIs, managed endpoints, and scheduled jobs. Containers or
   platform-specific serving may fit too
   ([[Machine Learning System Design]],
-  [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+  [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - Monitor service health, input quality, and feature distributions. Prediction
   distributions and drift signals belong there too. Track latency and errors
   alongside feedback and business outcomes where they can be observed
   ([[Model Monitoring]],
-  [[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps, 46:28 and 49:28]]).
+  [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps, 46:28 and 49:28]]).
 - Build reusable templates, deployment guides, and logging standards. Add
   support paths and self-service workflows where repeated team pain justifies
   platform work
   ([[ML Platforms]],
-  [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 - Add lineage, access control, validation, and approvals. Add retention and
   audit trails when the domain requires governance
   ([[Governance]],
-  [[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance, 21:21 and 31:57]]).
+  [[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance, 21:21 and 31:57]]).
 
 Start from a concrete failure. If a team can't reproduce old experiments, start
 with tracking and artifact discipline. Simon calls experiment tracking a
 low-hanging platform win at 29:41 in
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 When models can't be deployed safely, use one release path and CI/CD.
 Raphael names those tangible pain points at 48:41 in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 For invisible production behavior, start with logging and monitoring. Add
 response ownership
 ([[Model Monitoring]],
@@ -161,32 +161,32 @@ strongest modeler on the team. Training versus inference still affects useful
 release paths. Features, labels, and metrics matter too. Artifacts and drift
 affect monitoring paths alongside error analysis
 ([[Machine Learning Engineer Role]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 45:10]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale, 45:10]]).
 
 Data engineering awareness isn't optional. Danny connects model monitoring to
 upstream ETL and data pipelines at 27:35. Profiling and data observability sit
 in the same discussion in
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]].
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 A model may look broken because a source schema changed, labels arrived late,
 or features shifted. It may also fail because a pipeline stopped producing fresh
 data
 ([[Data Quality and Observability]],
-[[data-quality-and-observability|Data Observability]]).
+[[data-quality-and-observability=>Data Observability]]).
 
 Communication belongs in the role because MLOps is an adoption function. Lina
 ties monitoring to business cases at 4:50. She covers stakeholder buy-in at
 12:22, service levels at 24:34, debugging, and user feedback. Post-mortems and
 incident response also sit in
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 Raphael's enabling-team discussion adds internal-user feedback and quick wins as
 operating skills, not soft extras
 ([[Developer Experience]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 ## Role Boundaries
 
 The boundary with a
-[[machine-learning-engineer-role|machine learning engineer]]
+[[machine-learning-engineer-role=>machine learning engineer]]
 depends on ownership. A machine learning engineer often owns a specific
 model-backed product capability. Serving code, latency, scalability,
 and maintainability sit there. Product integration belongs there too.
@@ -199,7 +199,7 @@ Self-service infrastructure belongs there too
 [[ML Platforms]]).
 
 The boundary with a
-[[data-engineer-role|data engineer]] is the
+[[data-engineer-role=>data engineer]] is the
 handoff from reliable data to reliable models. Data engineers own ingestion and
 storage. Transformations and orchestration sit there too. Schemas and freshness
 sit in the same ownership area.
@@ -222,7 +222,7 @@ retraining decisions.
 [[MLOps vs DevOps]] explains
 this boundary, while
 [[Model Monitoring]] and
-[[podcast:mlops-model-monitoring-data-observability|27:35|MLOps Architect Guide]]
+[[podcast:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]
 cover the monitoring side.
 
 The boundary with
@@ -240,7 +240,7 @@ Treat tools as coverage areas before treating them as a shopping list. The
 podcast discussions repeatedly favor standard engineering habits and adopted
 workflows over broad tool collections
 ([[MLOps Tools]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 
 A practical MLOps engineer stack should cover:
 
@@ -265,14 +265,14 @@ A practical MLOps engineer stack should cover:
   ([[ML Platforms]]).
 
 Nemanja shows why the stack changes by context. In
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]],
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]],
 the minimum expands at 31:57 toward dev/test/prod environments, monitoring, and
 CI/CD. Model versioning, data versioning, governance, and release controls
 matter too. At 21:21 he also stresses release management and exact builds.
 Approvals, rollback procedures, and knowing what's in production also matter.
 
 In
-[[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
+[[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]],
 Nemanja argues at 11:54 for SaaS-first choices. At 44:10, he argues for a
 leaner stack while still keeping enough automation to avoid unmaintainable MVPs.
 
@@ -303,8 +303,8 @@ Maria starts with version control, CI/CD, registries, and monitoring at 18:41.
 Raphael starts from team pain and adoption, then uses quick wins before broad
 standardization
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 ## Portfolio and Interview Signals
 

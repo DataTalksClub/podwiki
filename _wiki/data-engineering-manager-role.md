@@ -23,9 +23,9 @@ management with platform prioritization and stakeholder negotiation. Hiring and
 quality standards also sit with the manager. They need technical judgment about
 the systems that move data into analytical and operational use.
 
-[[person:16rahuljain|Rahul Jain]] gives the clearest
+[[person:16rahuljain=>Rahul Jain]] gives the clearest
 example in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
 He describes the role through stakeholder management, prioritization,
 hands-on technical credibility, and quality metrics. Data culture sits in the
 same discussion. GDPR controls, lineage, and hiring do too. His episode makes the
@@ -51,7 +51,7 @@ access controls. At the same time, his time-allocation discussion shows the
 shift away from owning every technical task directly
 ([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 7:27-11:09]]).
 
-[[person:ellenkonig|Ellen König]] adds the engineering
+[[person:ellenkonig=>Ellen König]] adds the engineering
 leadership version. Her data engineering transition episode treats collaborative
 coding, CI/CD, testing, and DevOps practices as part of the craft. Stakeholder
 communication belongs there too. She also says team structure depends on
@@ -79,9 +79,9 @@ That makes the role a practical owner of
 [[Data Pipelines]], and
 [[Data Governance]].
 
-[[person:mehdiouazza|Mehdi OUAZZA]] shows the scale-up
+[[person:mehdiouazza=>Mehdi OUAZZA]] shows the scale-up
 version in
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]].
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 The data platform helps analysts and data scientists build or use data
 workflows without bespoke support each time. Software engineers can use the same
 path. Mehdi doesn't reduce that platform to an Airflow cluster. He names
@@ -96,7 +96,7 @@ they build shared capabilities
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 52:55]]).
 
 That's the management tradeoff behind
-[[self-service-data-platforms|Self-Service Data Platforms]].
+[[self-service-data-platforms=>Self-Service Data Platforms]].
 Too little platform work traps the team in ticket handling. Too much abstract
 platform work can drift away from current business needs.
 
@@ -118,7 +118,7 @@ also includes required delivery and code-quality expectations. Stretch goals
 still have room
 ([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 16:32-23:15]]).
 
-[[person:loicmagnien|Loïc Magnien]] gives the adjacent
+[[person:loicmagnien=>Loïc Magnien]] gives the adjacent
 architecture view. He says data architecture creates team alignment among data
 producers, processors, and consumers. His stakeholder discussions turn business
 questions into shared models with metrics, dimensions, and facts
@@ -135,9 +135,9 @@ managers should ask for context and alternatives before they accept tool
 buzzwords. Real use cases matter too
 ([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 38:36-49:35]]).
 
-[[person:nicolasrassam|Nicolas Rassam]] adds the talent
+[[person:nicolasrassam=>Nicolas Rassam]] adds the talent
 market lens in
-[[podcast:hiring-for-data-engineering-jobs-in-europe|Hiring Data Engineers in Europe]].
+[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
 He says titles hide relevant experience. Software engineers and BI engineers
 may already have pipeline or modeling experience. Analysts and data scientists
 may have it too.
@@ -172,9 +172,9 @@ Those concerns sit beside
 [[Data Quality and Observability]]
 and [[DataOps]].
 
-[[person:christopherbergh|Christopher Bergh]] gives the
+[[person:christopherbergh=>Christopher Bergh]] gives the
 operating model for that reliability. His
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 discussion frames automation, observability, CI/CD, and regression tests as
 ways to reduce fear and rework. Test data, version control, and monitoring
 support the same goal. He also links weak delivery habits to burnout and
@@ -243,7 +243,7 @@ and hiring questions around data engineering management.
 - [[Data Engineering]]
 - [[Data Engineer Role]]
 - [[Data Engineering Platforms]]
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
 - [[DataOps]]
 - [[Data Quality and Observability]]
 - [[Data Team Lead Role]]

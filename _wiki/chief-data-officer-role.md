@@ -21,9 +21,9 @@ infrastructure, and organization design. It's adjacent to the
 [[data team lead role]], but
 it works at a wider business scope.
 
-[[person:marcodesa|Marco De Sa]] gives the clearest
+[[person:marcodesa=>Marco De Sa]] gives the clearest
 DataTalks.Club explanation in
-[[podcast:chief-data-officer-data-strategy-and-org-design|Mastering the Chief Data Officer Role]].
+[[podcast:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
 
 The CDO is responsible for broad data strategy, owning infrastructure,
 governance, and future data needs, with analytics, accessibility, and machine
@@ -56,14 +56,14 @@ An earlier-stage "chief of data" version has the first data leader owning
 dashboards and trust repair, with warehouse work, forecasting, governance, and
 adoption also in the role
 ([[podcast:building-and-scaling-data-team|Building and Leading Data Teams]],
-[[person:tammyliang|Tammy Liang]],
-[[podcast:building-and-scaling-data-team|7:22-29:20]]).
+[[person:tammyliang=>Tammy Liang]],
+[[podcast:building-and-scaling-data-team=>7:22-29:20]]).
 An org-design layer adds centralized, embedded, and hybrid data science teams
 that change the leadership job, where data leaders manage context, craft
 standards, and manage product partnership
 ([[podcast:data-science-team-structure-and-org-design|Designing High-Impact Data Science Teams]],
-[[person:lisacohen|Lisa Cohen]],
-[[podcast:data-science-team-structure-and-org-design|6:27-30:52]]).
+[[person:lisacohen=>Lisa Cohen]],
+[[podcast:data-science-team-structure-and-org-design=>6:27-30:52]]).
 
 ## Role Boundaries by Company Stage
 
@@ -93,11 +93,11 @@ executive data strategy, not the whole role.
 Governance shifts the emphasis. One focus is knowing what data exists,
 classifying it, and designing policy
 ([[podcast:cloud-data-governance|Cloud Data Governance]],
-[[person:jessiashdown|Jessi Ashdown]],
-[[person:urigilad|Uri Gilad]]). Another focus is access requests, approvals,
+[[person:jessiashdown=>Jessi Ashdown]],
+[[person:urigilad=>Uri Gilad]]). Another focus is access requests, approvals,
 reviews, and revocation
 ([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
-[[person:bartvandekerckhove|Bart Vandekerckhove]]). The CDO mandate includes
+[[person:bartvandekerckhove=>Bart Vandekerckhove]]). The CDO mandate includes
 those concerns but treats governance as one pillar inside a wider business,
 product, and AI scope.
 
@@ -115,7 +115,7 @@ view of the future to the CEO and help the other executives deliver it, and a
 company may need to collect data now for products it can't yet build — making
 the proactive part of the role important
 ([[podcast:chief-data-officer-data-strategy-and-org-design|future data needs, 10:19]] and
-[[podcast:chief-data-officer-data-strategy-and-org-design|executive proactivity, 31:00]]).
+[[podcast:chief-data-officer-data-strategy-and-org-design=>executive proactivity, 31:00]]).
 
 The boundary with a VP or head of data depends on company size. In a large
 company, the CDO may have several VP-level leaders. Those leaders may own
@@ -126,7 +126,7 @@ In a smaller company, a VP or head of data may own a broader context. A titled
 CDO elsewhere may own less
 ([[podcast:chief-data-officer-data-strategy-and-org-design|multiple VPs and reporting lines, 24:55-27:01]]).
 The useful distinction is scope, not title. The
-[[data-roles|data roles guide]] places that
+[[data-roles=>data roles guide]] places that
 distinction next to analyst, engineer, and scientist roles. It also covers team
 lead, head of data, and VP of Data.
 
@@ -184,13 +184,13 @@ platforms, and product choices. The role ties to artificial intelligence and
 machine learning: the CDO asks how the company can use data to build better
 products, what data it needs next, and how teams can collect it safely
 ([[podcast:chief-data-officer-data-strategy-and-org-design|CDO scope, 6:15]] and
-[[podcast:chief-data-officer-data-strategy-and-org-design|future data, 10:19]]).
+[[podcast:chief-data-officer-data-strategy-and-org-design=>future data, 10:19]]).
 
 This matches the wider [[AI]] page. Useful AI
 is system work, not just a model call. Enterprise AI connects to company goals,
 evaluation, transparency, and production discipline
 ([[podcast:scaling-enterprise-ai-mlops-data-first-strategy|Scale Enterprise AI]],
-[[person:alexanderhendorf|Alexander Hendorf]]). For a CDO, AI strategy should
+[[person:alexanderhendorf=>Alexander Hendorf]]). For a CDO, AI strategy should
 include data quality and platform investment, governance, evaluation, and the
 business workflow the model is meant to change.
 
@@ -232,7 +232,7 @@ The CDO role connects [[leadership]],
 [[data governance]]. Readers
 comparing role levels can use the
 [[data team lead role]] and
-[[data-roles|data roles guide]]. CDOs rely on
+[[data-roles=>data roles guide]]. CDOs rely on
 [[data teams]],
 [[team building]], and
 [[communication]] to turn executive

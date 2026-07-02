@@ -51,7 +51,7 @@ For a broader operating frame, use
 [[Dashboard and Metric Layer Project Checklist]].
 Those pages keep AI-powered BI close to business questions instead of treating
 it as a separate interface project.
-[[book:20220606-ai-powered-business-intelligence|AI-Powered Business Intelligence]]
+[[book:20220606-ai-powered-business-intelligence=>AI-Powered Business Intelligence]]
 by Tobias Zwingmann expands this same use-case-first approach: where generative
 AI usefully augments BI workflows and where governed metrics must stay the
 foundation.
@@ -85,7 +85,7 @@ Use
 [[Analytics Engineering]],
 [[Event Tracking]],
 [[Tracking Plans]], and
-[[data-led-growth|Data-Led Growth]].
+[[data-led-growth=>Data-Led Growth]].
 
 ## AI Assistance in BI
 
@@ -214,6 +214,6 @@ These pages cover the adjacent BI, governance, and AI production concepts:
 - [[Data Governance]]
 - [[Data Quality and Observability]]
 - [[Metrics]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[AI Engineering]]
 </content>

@@ -33,7 +33,7 @@ infrastructure
 ([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
 AI-ready data is a distinct thread in modern data engineering
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
-[[book:20220815-fundamentals-of-data-engineering|Fundamentals of Data Engineering]]
+[[book:20220815-fundamentals-of-data-engineering=>Fundamentals of Data Engineering]]
 by Joe Reis and Matthew Housley expands this same lifecycle and generation
 model for data systems into a full reference.
 
@@ -51,7 +51,7 @@ Data collection and preparation can decide whether modeling can begin at all
 infrastructure, orchestration, access, and shared conventions. Product data
 engineers work closer to domain use cases, data products, and stakeholder needs
 ([[person:slawomirtulski|Slawomir Tulski]],
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 Data engineering overlaps with
 [[Data Product Management]]
 when product-facing engineers help teams publish owned data products with clear
@@ -99,7 +99,7 @@ At team scale, data engineering becomes platform work. Storage and compute are
 shared foundations for data teams, along with workflow engines and automation
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 Teams pursue
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 so analysts and data scientists don't have to rebuild the same foundation.
 Software engineers and domain teams can use the supported path too.
 
@@ -134,7 +134,7 @@ separates that operating layer from the broader engineering role.
 [[MLOps vs DataOps]]
 covers incidents where a model failure may start with upstream data delivery
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]] and
-[[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
+[[podcast:production-ready-ai-engineering=>Production-Ready AI Engineering]]).
 
 ## Batch, Streaming, and Cost
 
@@ -150,14 +150,14 @@ when the question is latency, ordering, replay, and operational cost.
 
 Real-time systems carry real cost
 ([[person:larsalbertsson|Lars Albertsson]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]),
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]),
 which pushes back toward requirement-led architecture
 ([[person:adrianbrudaru|Adrian Brudaru]],
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
 Batch or managed systems may fit many businesses better than a custom real-time
 stack
 ([[person:slawomirtulski|Slawomir Tulski]],
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
 Teams also choose tools under cost and governance constraints. Data platforms
 work like digital warehouses that need tagging, capacity planning, and spend

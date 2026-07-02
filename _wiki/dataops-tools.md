@@ -29,7 +29,7 @@ reviewed through Atlantis
 
 For tool selection, treat DataOps as an operating model for
 [[data engineering]] and
-[[data-engineering-platforms|data platforms]].
+[[data-engineering-platforms=>data platforms]].
 
 That model grounds in scalable platform components
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
@@ -38,7 +38,7 @@ inside the
 [[modern data stack]]
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and Modern Data Stack]]).
 The same framing connects DataOps to
-[[data-quality-and-observability|data quality]]
+[[data-quality-and-observability=>data quality]]
 and production analytics. Teams use DataOps tools to shorten the distance
 from change review to tests, deployments, alerts, and fixes.
 
@@ -113,7 +113,7 @@ The exact tools can vary, but infrastructure should stay declarative and
 reviewable. It should also stay reproducible and auditable.
 
 For data teams, that GitOps way of working belongs with
-[[ci-cd|CI/CD]] and
+[[ci-cd=>CI/CD]] and
 [[platform engineering]].
 Data teams need a paved path for changes, not a private script on someone's
 laptop.
@@ -147,7 +147,7 @@ Small teams can start with GitHub Actions, GitLab CI, or a managed build tool.
 Larger platform teams may standardize templates so every data project doesn't
 invent its own release path. That standardization matters when a company moves
 from individual pipelines to a shared
-[[data-engineering-platforms|data engineering platform]].
+[[data-engineering-platforms=>data engineering platform]].
 
 ## Orchestration
 

@@ -125,7 +125,7 @@ One transition is instructive because the same person had done both: data scienc
 work was sometimes too black-box, and data engineering better matched an
 engineering skill set and working environment
 ([[person:ellenkonig|Ellen Koenig]],
-[[podcast:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]]).
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]).
 That does not mean everyone should switch, because the day-to-day work differs:
 one side rewards durable systems and collaboration practices, the other modeling
 judgment and problem framing.
@@ -165,5 +165,5 @@ Use these pages when the decision needs a narrower lens:
 - [[Machine Learning Engineer vs Data Scientist]]
 - [[DataOps vs Data Engineering]]
 - [[MLOps vs DataOps]]
-- [[data-scientist-to-data-engineer|Data Scientist to Data Engineer Roadmap]]
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]]
 - [[Data Engineer Roadmap]]

@@ -23,7 +23,7 @@ why acquisition, conversion, retention, and experiments matter. The
 side adds SQL models, tested transformations, metric definitions, and BI-ready
 tables.
 
-[[person:nikolamaksimovic|Nikola Maksimovic]] gives the
+[[person:nikolamaksimovic=>Nikola Maksimovic]] gives the
 clearest example. At Ecosia, performance marketing led into marketing reporting
 during a Tableau-to-Looker migration
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's performance-marketing and Looker migration discussion at 2:53-7:18]]).
@@ -39,9 +39,9 @@ context, user-journey context, and campaign pressure. Analytics engineering
 changes the output. A repeated campaign report becomes a maintained model.
 Funnel intuition becomes
 [[product analytics]] or
-[[data-led-growth|data-led growth]] work
+[[data-led-growth=>data-led growth]] work
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's dbt migration and modeling discussion at 18:34-33:46]],
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Choudhury's tracking-plan and growth-stack discussion at 13:34-30:03]]).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's tracking-plan and growth-stack discussion at 13:34-30:03]]).
 
 ## Turn Marketing Questions Into Shared Data Products
 
@@ -56,12 +56,12 @@ main gap. Pipeline understanding, Python basics, and practice with larger data
 models followed
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's marketing-to-BI pivot discussion at 7:18-12:50]]).
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
+[[person:victoriaperezmola=>Victoria Perez Mola]]
 defines the target role through SQL transformations and [[dbt]]
 tests. She also names documentation, DAGs, Looker, and Snowflake. The role
 works with analysts, data scientists, and backend teams
 ([[podcast:analytics-engineer-skills-tools|Perez Mola's role and dbt workflow discussion at 4:05-11:48]],
-[[podcast:analytics-engineer-skills-tools|Perez Mola's collaboration discussion at 33:02-36:44]]).
+[[podcast:analytics-engineer-skills-tools=>Perez Mola's collaboration discussion at 33:02-36:44]]).
 
 This puts the transition next to
 [[Data Analyst vs Analytics Engineer]],
@@ -78,7 +78,7 @@ analytics-engineer title. The work overlapped BI analyst, data analyst, and
 analytics-engineer responsibilities because the team was small
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's analyst-versus-analytics-engineer discussion at 25:06-28:40]]).
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
+[[person:juanmanuelperafan=>Juan Manuel Perafan]]
 pushes against defining analytics engineering only as a role between analyst
 and engineer. He starts from messy business reality, then connects that work to
 safer data systems and software engineering practice
@@ -93,7 +93,7 @@ still separates the role from the tool. Data modeling theory matters more than
 simply using dbt
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's dbt influence and modeling-theory discussion at 28:40-33:46]]).
 
-[[person:nataliekwong|Natalie Kwong]] places dbt inside
+[[person:nataliekwong=>Natalie Kwong]] places dbt inside
 a broader [[modern data stack]]
 with ingestion and warehouse storage. Orchestration, CDC, and reverse flows
 remain part of the same system
@@ -103,7 +103,7 @@ She later connects Airbyte and dbt to orchestration
 CDC and schema evolution belong to the same system
 ([[podcast:data-engineering-tools-modern-data-stack|Kwong's CDC and schema-evolution discussion at 45:59-49:32]]).
 
-[[person:arpitchoudhury|Arpit Choudhury]] adds a
+[[person:arpitchoudhury=>Arpit Choudhury]] adds a
 growth-data boundary. In his data-led-growth episode, marketing-adjacent data
 work extends beyond dashboards. It includes
 [[event tracking]] and
@@ -191,7 +191,7 @@ Her analytics-engineering work then extended into growth, retention, and RFM
 analysis. It also included NLP experiments and dashboards. A/B testing support
 was part of the same work
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's product-support and A/B testing discussion at 14:14-18:34]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's growth, retention, and RFM discussion at 38:27-39:36]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's growth, retention, and RFM discussion at 38:27-39:36]]).
 
 That makes [[a-b-testing|A/B Testing]] and
 [[Experiment Tracking]]
@@ -215,11 +215,11 @@ an external analytics-engineering role. Marketing reporting and the Looker
 migration showed the transition in the same organization. BI-team
 conversations, BI projects, and product analytics work also mattered
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's BI pathway and side-project discussion at 7:18-14:14]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's Looker reporting discussion at 23:12-24:51]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's Looker reporting discussion at 23:12-24:51]]).
 
 An external [[analytics-engineering-portfolio-projects|analytics-engineering portfolio]]
 should make the same evidence visible, especially for readers following a
-[[career-transitions-in-data|career transition]] path.
+[[career-transitions-in-data=>career transition]] path.
 
 Project examples include:
 
@@ -249,7 +249,7 @@ work. Maksimovic describes conversations with a BI colleague and a BI analyst
 who helped her learn Looker. Later teammates served as mentors once she joined
 the BI team
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's BI-team conversations discussion at 9:53-11:02]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's mentorship and sponsorship discussion at 45:09-50:23]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's mentorship and sponsorship discussion at 45:09-50:23]]).
 That makes dashboard migration, dbt adoption, and product analytics support
 useful openings for marketers already inside companies with reporting needs.
 
@@ -257,12 +257,12 @@ Small teams can blur role boundaries. Maksimovic's BI team was small enough
 that people did both analysis and analytics-engineering work
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Maksimovic's small-team role-boundary discussion at 25:06-28:40]]).
 
-[[person:tammyliang|Tammy Liang]] gives a related team
+[[person:tammyliang=>Tammy Liang]] gives a related team
 growth example for marketers already near business reporting. Dashboards and
 business-health monitoring grew into warehouse and dbt work. Data Studio and
 Notion documentation came next. Testing and monitoring followed
 ([[podcast:building-and-scaling-data-team|Liang's dashboards-to-warehouse discussion at 7:22-18:41]],
-[[podcast:building-and-scaling-data-team|Liang's dbt, documentation, and monitoring discussion at 22:32-41:42]]).
+[[podcast:building-and-scaling-data-team=>Liang's dbt, documentation, and monitoring discussion at 22:32-41:42]]).
 
 ## Related Pages
 
@@ -271,16 +271,16 @@ on:
 
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Analytics Engineering Portfolio Projects]]
 - [[Dashboard and Metric Layer Project Checklist]]
 - [[Data Analyst vs Analytics Engineer]]
 - [[Business Intelligence]]
 - [[Product Analytics]]
-- [[a-b-testing|A/B Testing]]
-- [[data-led-growth|Data-Led Growth]]
+- [[a-b-testing=>A/B Testing]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Event Tracking]]
 - [[Metrics]]
 - [[Modern Data Stack]]
 - [[Data Quality and Observability]]
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]

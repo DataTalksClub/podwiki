@@ -34,7 +34,7 @@ Modern recommenders also use
 retrieves similar items before ranking them. Teams need
 [[data pipelines]] so the model can
 learn from behavior. They use
-[[a-b-testing|A/B testing]] and
+[[a-b-testing=>A/B testing]] and
 [[product analytics]] to prove
 that the ranked output helped. [[MLOps]]
 covers the release and retraining path.
@@ -42,10 +42,10 @@ covers the release and retraining path.
 A recommender is a system that needs data pipelines, candidate generation, and
 ranking. It also needs product constraints, evaluation, and monitoring.
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] frames a Netflix-like
+[[person:roksolanadiachuk=>Roksolana Diachuk]] frames a Netflix-like
 recommendation project as a streaming and batch data problem
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
-[[person:danielsvonava|Daniel Svonava]] connects recommenders to search
+[[person:danielsvonava=>Daniel Svonava]] connects recommenders to search
 architecture and ranking, to vector retrieval, and to business metrics
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 In healthcare, recommendations become personalized interventions that need
@@ -90,13 +90,13 @@ The guests differ less on the definition than on the boundary they start from.
 Some start from data movement, some from retrieval and ranking, and some from
 the product outcome the recommendation should change.
 
-[[person:roksolanadiachuk|Roksolana Diachuk]] starts from the data engineering
+[[person:roksolanadiachuk=>Roksolana Diachuk]] starts from the data engineering
 boundary. This recommender example depends on events and historical storage,
 plus cleaned training data. Deployment handoffs among data engineers, data
 scientists, and machine learning engineers also matter
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 
-[[person:danielsvonava|Daniel Svonava]] starts from ranking architecture,
+[[person:danielsvonava=>Daniel Svonava]] starts from ranking architecture,
 treating recommender systems and personalized search as neighboring problems.
 Both need candidate generation, ranking, contextual signals, and business
 metrics
@@ -106,18 +106,18 @@ That view ties recommender design to
 [[Embeddings]], and
 [[Machine Learning System Design]].
 
-[[person:atitaarora|Atita Arora]] starts from modern retrieval infrastructure,
+[[person:atitaarora=>Atita Arora]] starts from modern retrieval infrastructure,
 using vector databases for session-based recommendations and contrasting that
 with collaborative filtering. These recommendations update from clicks during
 the current session
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
-[[person:abouzarabbaspour|Abouzar Abbaspour]] centers product intent in a
+[[person:abouzarabbaspour=>Abouzar Abbaspour]] centers product intent in a
 theme-park setting, and [[person:stefangudmundsson|Stefan Gudmundsson]] does the
 same in healthcare. The theme-park system recommended the next best move for
 each group, with the product goal of reducing waiting time and redistributing
 visitors. It joined prediction with an operational
-[[data-products|data product]]
+[[data-products=>data product]]
 ([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling]]).
 
 The healthcare example recommends content, exercises, and behavior changes, but
@@ -128,7 +128,7 @@ past preferences
 ## Candidate Generation, Ranking, and Retrieval
 
 Recommendation systems share much of their structure with
-[[search|production search]]. A team needs to find
+[[search=>production search]]. A team needs to find
 plausible items quickly. It then ranks them using signals that match the product
 decision. [[person:danielsvonava|Daniel Svonava]]'s candidate-generation and
 ranking split is the clearest architecture anchor
@@ -194,7 +194,7 @@ that can react to the current click path
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 Next-best-action systems add an operational goal.
-[[person:abouzarabbaspour|Abouzar Abbaspour]]'s Efteling example recommended the
+[[person:abouzarabbaspour=>Abouzar Abbaspour]]'s Efteling example recommended the
 next attraction for a group using queue predictions, ride capacity, transaction
 signals, and route preferences
 ([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling]]).
@@ -278,7 +278,7 @@ misleading aggregate metrics need guardrails too.
 Recommendation systems become production systems when teams need repeatable
 training and serving. They also need retraining, monitoring, and rollback.
 
-[[person:sadatanwar|Sadat Anwar]]'s word2vec recommendation project included data
+[[person:sadatanwar=>Sadat Anwar]]'s word2vec recommendation project included data
 engineering, data gathering, production hosting on AWS, and a retraining job
 ([[podcast:from-software-engineering-to-leading-data-science-teams|From Software Engineering to Leading Data Science Teams]]).
 
@@ -319,7 +319,7 @@ details.
 - [[Search]]
 - [[Production Search Evaluation]]
 - [[Machine Learning System Design]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Vector Databases]]
 - [[Embeddings]]
 - [[Data Pipelines]]

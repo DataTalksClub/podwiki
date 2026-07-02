@@ -20,13 +20,13 @@ platform as broader than a warehouse or scheduler. It combines ingestion,
 storage, compute, and workflow coordination. Access, monitoring, governance,
 and support practices belong there too.
 
-[[person:larsalbertsson|Lars Albertsson]] starts from
+[[person:larsalbertsson=>Lars Albertsson]] starts from
 storage, compute, and workflow engines in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 He then connects those primitives to reproducibility and self-service.
-[[person:nataliekwong|Natalie Kwong]] maps the modern
+[[person:nataliekwong=>Natalie Kwong]] maps the modern
 stack version through extraction, loading, transformation, and orchestration in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 She also brings CDC and reverse data flows into the same discussion.
 
 The platform question is which capabilities belong in the shared foundation,
@@ -36,7 +36,7 @@ architecture. Use
 broader discipline. Use [[DataOps]] and
 [[DataOps Platforms]] for the
 operating model. Use
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 for the enablement subset.
 
 ## Shared Platform Foundation
@@ -48,7 +48,7 @@ those primitives to self-service analytics, reproducible pipelines, and lineage
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 16:42-35:57 and 50:13-1:04:18).
 
-[[person:nataliekwong|Natalie Kwong]]
+[[person:nataliekwong=>Natalie Kwong]]
 describes the same platform from the modern-stack side. Extraction and loading
 come before warehouse transformation. Natalie also covers data marts and lakes.
 She then places orchestration and CDC in the same platform map. Schema
@@ -56,7 +56,7 @@ evolution and reverse flows appear there too
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
 3:46-49:32).
 
-[[person:mehdiouazza|Mehdi OUAZZA]] treats the
+[[person:mehdiouazza=>Mehdi OUAZZA]] treats the
 platform as an organizational product for self-service and onboarding during
 hypergrowth. Teams reuse Airflow conventions and playbooks. In streaming work,
 they also reuse Kafka schemas and schema registries. Contracts make the
@@ -64,7 +64,7 @@ interface explicit
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
 12:30-23:26).
 
-[[person:caitlinmoorman|Caitlin Moorman]]
+[[person:caitlinmoorman=>Caitlin Moorman]]
 adds that a modern stack isn't valuable unless the last mile makes data
 trusted and discoverable. It must also be interpretable and tied to decisions
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]],
@@ -86,7 +86,7 @@ abstractions, and federated governance sit in the same design
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
 13:20-53:02).
 
-[[person:larsalbertsson|Lars Albertsson]]
+[[person:larsalbertsson=>Lars Albertsson]]
 is more cautious about splitting responsibilities too early. His DataOps
 discussion asks when decentralization creates governance risks and
 reproducibility risks
@@ -96,20 +96,20 @@ reproducibility risks
 for that ownership comparison.
 
 Teams also need to decide how much infrastructure to buy or build.
-[[person:nataliekwong|Natalie Kwong]] explains the
+[[person:nataliekwong=>Natalie Kwong]] explains the
 best-of-breed modern analytics stack through connectors, dbt, and warehouses.
 She also places Airflow and reverse ETL in the stack
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
 30:59-35:42).
 
-[[person:adrianbrudaru|Adrian Brudaru]] pushes back
+[[person:adrianbrudaru=>Adrian Brudaru]] pushes back
 from a newer open-source and cost-aware view. He discusses Iceberg and DuckDB.
 He also discusses catalogs and SQLMesh. Simpler orchestration can fit when the
 requirements support it
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
 14:32-35:37 and 44:42-51:19).
 
-[[person:slawomirtulski|Slawomir Tulski]]
+[[person:slawomirtulski=>Slawomir Tulski]]
 adds the career and hiring version of the same warning. Teams should avoid
 over-engineered platforms and avoid treating real-time tools as proof of
 maturity
@@ -121,7 +121,7 @@ ownership and latency, but it also depends on cost, governance, and adoption.
 Those requirements appear in specific episodes rather than in tool labels
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
 52:55 and
-[[podcast:finops-for-data-engineers|FinOps for Data Engineers]],
+[[podcast:finops-for-data-engineers=>FinOps for Data Engineers]],
 31:40-48:01).
 
 ## Platform Capabilities
@@ -146,11 +146,11 @@ discussion
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 21:29-30:34 and 1:07:52).
 
-[[book:20210308-designing-data-intensive-applications|Designing Data-Intensive Applications]]
+[[book:20210308-designing-data-intensive-applications=>Designing Data-Intensive Applications]]
 by Martin Kleppmann grounds these same storage and platform tradeoffs in the
 underlying distributed-systems principles.
 
-[[person:adrianbrudaru|Adrian Brudaru]]
+[[person:adrianbrudaru=>Adrian Brudaru]]
 updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
 metadata, and lineage. Headless table formats are part of the same update
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
@@ -183,11 +183,11 @@ schemas and schema registries. Data contracts make the interface explicit
 12:30-23:26).
 
 This is why self-service belongs with
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 and [[Data Governance]], not only
 with tool installation.
 
-[[person:zhamakdehghani|Zhamak Dehghani]] makes the
+[[person:zhamakdehghani=>Zhamak Dehghani]] makes the
 interface more explicit by calling data a product. In her episode, useful data
 products need consumer-first guarantees and ownership decisions. They also need
 quality, SLAs, contracts, and metadata. Identity, authorization, and automated
@@ -200,7 +200,7 @@ approach asks domains to own them on top of shared platform
 capabilities
 ([[Data Mesh vs Centralized Data Platform]]).
 
-[[person:caitlinmoorman|Caitlin Moorman]] provides the
+[[person:caitlinmoorman=>Caitlin Moorman]] provides the
 adoption test for data products. A platform output isn't finished when a table
 or dashboard exists. Users still need trust and discoverability. They also need
 interpretability, personas, and simple abstractions. The platform output should
@@ -226,7 +226,7 @@ Use
 [[Data Quality and Observability]]
 for the monitoring layer.
 
-[[person:larsalbertsson|Lars Albertsson]] ties
+[[person:larsalbertsson=>Lars Albertsson]] ties
 reliability back to platform design through immutable pipelines and
 reproducibility. He also covers workflow engines, schema automation, and
 quality practices
@@ -238,7 +238,7 @@ episodes. He also links DataOps to deployment confidence and recovery
 15:52-54:05). [[DataOps]] covers that
 delivery discipline in more detail.
 
-[[person:16rahuljain|Rahul Jain]] shows what reliability
+[[person:16rahuljain=>Rahul Jain]] shows what reliability
 looks like from platform leadership. His platform work includes quality
 metrics, reconciliation, and GDPR strategies. It also includes dynamic masking,
 role-based access control, and data lineage. He closes with an end-to-end
@@ -261,7 +261,7 @@ than a maturity ladder
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 41:53-45:11).
 
-[[person:adrianbrudaru|Adrian Brudaru]] repeats that
+[[person:adrianbrudaru=>Adrian Brudaru]] repeats that
 warning in a newer episode. He places streaming beside micro-batching and
 Kafka, and he also names SQS with Flink for specific requirements
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
@@ -279,7 +279,7 @@ Platform cost is a design concern, not a finance afterthought. Use
 [[FinOps for Data Engineers]]
 for the cloud-cost, tagging, reporting, and capacity-planning layer.
 
-[[person:eddyzulkifly|Eddy Zulkifly]] compares data
+[[person:eddyzulkifly=>Eddy Zulkifly]] compares data
 platforms to digital warehouses. He connects the modern stack to ELT, dbt,
 BigQuery, and orchestration. He then links platform work to monitoring, tests,
 and cost tagging
@@ -290,12 +290,12 @@ Reservations and cloud cost modeling complete the FinOps view, while standard
 reporting and accountability matter too. That makes cost part of platform
 ownership alongside reliability and governance.
 
-[[person:adrianbrudaru|Adrian Brudaru]] argues for
+[[person:adrianbrudaru=>Adrian Brudaru]] argues for
 requirements-led architecture in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]],
 27:40-44:42. [[person:slawomirtulski|Slawomir Tulski]]
 makes the same point in
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]],
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
 25:33-38:01.
 
 Iceberg and DuckDB can be right in context, and cloud warehouses can be right
@@ -324,7 +324,7 @@ credibility. They also need quality standards and business impact
 Use these pages for adjacent platform, governance, and delivery topics.
 
 - [[Data Engineering]]
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
 - [[DataOps]]
 - [[Modern Data Stack]]
 - [[FinOps for Data Engineers]]

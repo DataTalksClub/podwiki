@@ -38,6 +38,7 @@ duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
 	python scripts/find_duplicates.py
 
 links: build ## Check generated internal links
+	python scripts/check_html_chips.py
 	python scripts/check_links.py
 
 content-audit: ## Report wiki/article pages that need citation and link cleanup

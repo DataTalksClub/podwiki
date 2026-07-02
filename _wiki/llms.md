@@ -35,7 +35,7 @@ The practical definition is simple: an LLM is a general language model that
 teams can prompt for many language tasks, then adapt with context, examples, and
 retrieval, and further tune with fine-tuning or tools when prompting isn't
 enough.
-[[book:20241017-build-large-language-model-from-scratch|Build a Large Language Model (From Scratch)]]
+[[book:20241017-build-large-language-model-from-scratch=>Build a Large Language Model (From Scratch)]]
 by Sebastian Raschka walks through implementing a transformer-based model
 from the ground up, which grounds the same capabilities discussed below.
 
@@ -49,7 +49,7 @@ can produce useful behavior from a prompt instead of a task-specific training
 pipeline
 ([[podcast:nlp-team-hiring-and-production-mlops|Lead NLP Teams]]).
 The
-[[book:20230306-gpt-3|GPT-3]]
+[[book:20230306-gpt-3=>GPT-3]]
 book by Sandra Kublik and Shubham Saboo collects the early practitioner stories
 behind that prompt-driven shift.
 
@@ -104,7 +104,7 @@ Agents combine autonomy, objectives, and LLMs with tools, memory, and knowledge
 stores
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 That's why the
-[[agent-engineering|AI agents]] page separates agent
+[[agent-engineering=>AI agents]] page separates agent
 workflow design from ordinary prompting.
 
 ## RAG and Fine-Tuning
@@ -118,7 +118,7 @@ and retrieves relevant passages without retraining the model for every fact
 update
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]] uses the
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] uses the
 same split. Retrieval helps when the system needs fresh documents, citations,
 proprietary knowledge, or reviewable evidence. Fine-tuning helps when the model
 should behave differently. It can also help with a repeated output style or a
@@ -213,12 +213,12 @@ for high-risk workflows.
 These pages cover the surrounding techniques, roles, and production concerns.
 
 - [[LLM Production Patterns]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[retrieval-augmented-generation|RAG]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>RAG]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[LLM Evaluation Workflows]]
 - [[Agent Engineering]]
-- [[agent-engineering|AI Agents]]
+- [[agent-engineering=>AI Agents]]
 - [[Prompt Engineering]]
 - [[Vector Databases]]
 - [[Generative AI]]

@@ -29,7 +29,7 @@ need [[data governance]],
 [[security]], and
 [[privacy engineering for ML]].
 ML platforms add [[MLOps]],
-[[model-registry|model registries]], and release
+[[model-registry=>model registries]], and release
 controls. AI products add [[responsible-ai-and-governance|responsible AI]],
 evaluation, human review, and guardrails for LLM or agent behavior.
 
@@ -87,16 +87,16 @@ viable governance
 ([[podcast:cloud-data-governance|Cloud Data Governance]]).
 
 [[data governance]] connects to
-[[self-service-data-platforms|self-service data platforms]]:
+[[self-service-data-platforms=>self-service data platforms]]:
 a governed catalog should expose meaning and policy to data consumers instead of
 making them rely on private knowledge.
 
 Ownership turns metadata into accountability. Data teams separate from
 governance teams, and domain ownership models follow
 ([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
-[[person:zhamakdehghani|Zhamak Dehghani]]
+[[person:zhamakdehghani=>Zhamak Dehghani]]
 gives the domain-owned version in
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]].
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 
 Domain ownership links to data product contracts, service levels, and quality
 expectations, with federated governance, identity, and authorization as shared
@@ -154,7 +154,7 @@ Privacy changes the access question: whether data should be collected or
 centralized at all, plus retention and exposure rules. GDPR and CCPA/CPRA
 connect to consent UX
 ([[person:katharinejarmul|Katharine Jarmul]],
-[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]).
 
 Privacy-risk translation, fingerprinting, and re-identification follow
 ([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
@@ -229,11 +229,11 @@ override decisions.
 Governance also needs evidence that the explanation fits the audience.
 Interpretability works as model debugging and uncertainty evidence
 ([[person:christophmolnar|Christoph Molnar]],
-[[podcast:interpretable-machine-learning|Interpretable Machine Learning]]).
+[[podcast:interpretable-machine-learning=>Interpretable Machine Learning]]).
 Fairness metrics still require product and domain judgment, organizational
 responsibility, and human review
 ([[person:tamaraatanasoska|Tamara Atanasoska]],
-[[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+[[podcast:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 A fairness dashboard or a SHAP value
 becomes governance evidence only when someone
 uses it to decide, monitor, or override a system.
@@ -280,7 +280,7 @@ For implementation details, use
 [[MLOps vs DataOps]] and
 [[Model Registry]] for release
 controls. Use
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 and [[GitOps for Data Teams]]
 for governed platform work. Use
 [[AI Red Teaming]] and

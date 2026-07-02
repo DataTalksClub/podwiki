@@ -20,7 +20,7 @@ tutorials, API references, and examples. They also discuss contribution guides,
 design docs, and decision logs. Model cards and datasheets belong in the same
 family as runbooks, onboarding notes, and portfolio repo tours.
 
-[[person:vincentwarmerdam|Vincent Warmerdam]] frames the open-source essentials
+[[person:vincentwarmerdam=>Vincent Warmerdam]] frames the open-source essentials
 in [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]: README
 material, guides, API reference, and examples. Contribution guides connect with
 community etiquette, and reproducible issues and small documentation fixes count
@@ -38,14 +38,14 @@ Across these episodes, documentation is useful when it lowers coordination cost.
 helps a user run a tool. It helps a teammate understand a decision, an operator
 recover from failure, or a hiring manager look at a project.
 
-[[person:eugeneyan|Eugene Yan]] expands the definition in
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
+[[person:eugeneyan=>Eugene Yan]] expands the definition in
+[[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
 Working-backwards documents, press releases, and design docs sit alongside
 decision logs, rationales, and team memory. Portfolio READMEs, quickstarts, and
 repo tours let another person understand the work without private context.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] covers the adoption role in
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] covers the adoption role in
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 DevRel works through education, documentation, and a "wisdom layer" around tools,
 and documentation feedback connects with dogfooding and developer collaboration.
 Documentation isn't only text after the product ships; teams also use it to find
@@ -60,22 +60,22 @@ Vincent focuses on open-source users and maintainers. Docs explain the project,
 set contribution expectations, and reduce maintainer load. First code pull
 requests link to tests, CI, and packaging, and pre-commit makes documentation
 part of the review system
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 Eugene focuses on future teammates and future readers. The approach starts from
 audience choice, uses an outline-first method, and treats decision records as a
 way to keep reasoning available after the meeting ends
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
+[[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
 
 Hugo and [[person:willrussell|Will Russell]] focus on developers trying to adopt
 tools. For Hugo, tutorials should start from audience and goals. Will covers
 developer advocacy through documentation, demos, and outreach, with a content
 workflow based on bullet points, demos, and collaboration with writers
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]].
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
-[[person:nadianahar|Nadia Nahar]] adds a software engineering and accountability
+[[person:nadianahar=>Nadia Nahar]] adds a software engineering and accountability
 lens in
-[[podcast:software-engineering-for-machine-learning|Software Engineering for ML]].
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]].
 Documentation appears with shared vocabulary and expectation setting. Model
 cards, datasheets, factsheets, and checklists are documentation for ML products,
 not just communication material.
@@ -87,7 +87,7 @@ and requirements. Ownership and operating context matter too. Code alone rarely
 shows those assumptions.
 
 The
-[[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]]
 episode is the strongest ML-system reference. ML products carry hidden technical
 debt, and failure modes include unmet requirements, poor data, and deployment
 issues. Documentation sits next to workshops and shared vocabularies as part of
@@ -117,8 +117,8 @@ evaluation. They also include serving, monitoring, fallbacks, and ownership.
 Runbooks make documentation part of operations. They explain what to check, who
 owns the system, how to recover, and when to escalate.
 
-[[person:christopherbergh|Christopher Bergh]] gives the operational version in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
+[[person:christopherbergh=>Christopher Bergh]] gives the operational version in
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Version control, tests, and CI/CD are practical steps for healthier data
 pipelines, and runbooks extend into automated playbooks. Handoffs and
 documentation connect to replaceability and reduced on-call load.
@@ -133,7 +133,7 @@ and owners. Rollback options and tradeoffs matter too.
 
 Technical writing becomes documentation when it preserves a decision or makes a
 workflow reproducible. Eugene's
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]
+[[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 episode links public writing and workplace writing. At 20:00, he describes a
 repeatable writing cadence. At 25:00, he starts from an outline. At 51:00 and
 54:00, the same habits apply to design docs, rationales, and decision logs.
@@ -158,13 +158,13 @@ verification path.
 
 Documentation is part of [[developer experience]]
 because first use is often where adoption fails. Hugo's
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 episode makes that explicit. At 36:27, he connects teaching reproducibility to
 dogfooding and simplified workflows. At 43:14, he discusses tutorial structure
 through audience and goals.
 
 Will's
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 episode adds the demo side. At 53:40, he recommends videos with a clear goal,
 useful pace, and full walkthroughs. At 57:22, his "Learn with Kestra" examples
 include adjacent tools such as Docker, Postgres, and Git. That matters because
@@ -189,7 +189,7 @@ At 24:10, he covers contribution guides and polite interaction. At 25:50, he
 treats reproducible issues and docs fixes as contribution paths.
 
 Will gives the mentorship side in
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]
+[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 episode. Around 35:43 and 39:02, he discusses mentorship and pull request
 quality. He also covers Git skills and onboarding into large repositories.
 Around 41:16, he adds environment setup and maintainer collaboration.
@@ -217,4 +217,4 @@ Use these pages for adjacent documentation topics:
 - [[Open Source Portfolio Evidence]]
 - [[ML System Design Documents]]
 - [[DataOps]]
-- [[data-quality-and-observability|Data Observability]]
+- [[data-quality-and-observability=>Data Observability]]

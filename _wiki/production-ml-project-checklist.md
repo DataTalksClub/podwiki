@@ -20,7 +20,7 @@ framing and baseline from
 [[Machine Learning Portfolio Projects]].
 It should add the [[MLOps]] evidence that
 matters for [[ML platforms]] and
-[[machine-learning-engineer-role|machine learning engineering]].
+[[machine-learning-engineer-role=>machine learning engineering]].
 That evidence includes tracked runs and artifact promotion. It also includes
 deployment, monitoring, and a rollback or retraining rule.
 
@@ -171,5 +171,5 @@ The surrounding topic pages cover each piece of the project:
 - [[Model Registry]]
 - [[Model Monitoring]]
 - [[Reproducibility]]
-- [[ci-cd|CI/CD]]
+- [[ci-cd=>CI/CD]]
 - [[Production]]

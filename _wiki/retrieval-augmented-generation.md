@@ -15,7 +15,7 @@ where the system searches external knowledge before asking the model to answer.
 RAG isn't model memory. It combines [[search]] and
 [[information retrieval]]
 with context packaging, generation, citation, and
-[[llm-evaluation-workflows|LLM evaluation]].
+[[llm-evaluation-workflows=>LLM evaluation]].
 
 RAG is retrieval plus generation for reducing unsupported LLM answers. The idea
 applies to sources such as podcast transcripts, and the pipeline covers chunking
@@ -41,7 +41,7 @@ answer
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
 This distinction is central to
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]].
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
 In that comparison, retrieval fits changing knowledge plus citation,
 permission, and source-review needs. Fine-tuning fits tasks that need different
 model behavior, domain-specific style, or performance that retrieval and
@@ -50,27 +50,27 @@ prompting don't fix.
 ## Boundaries and Escalation
 
 The guests differ most on how much engineering should surround retrieval.
-[[person:atitaarora|Atita Arora]] starts from search engineering, emphasizing
+[[person:atitaarora=>Atita Arora]] starts from search engineering, emphasizing
 retrieval quality, context design, citations, and human review. In that framing,
 RAG extends production search instead of replacing it
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] starts from practical LLM
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts from practical LLM
 engineering, presenting RAG as a quick business win that depends on a knowledge
 base, chunking, and embeddings that fit the task
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 Teams move from RAG to tools or
-[[agent-engineering|agents]] when the application
+[[agent-engineering=>agents]] when the application
 must take actions, query APIs, or coordinate multiple steps.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] is more cautious about treating RAG
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] is more cautious about treating RAG
 as solved, pushing back on the idea that RAG is dead: latency, cost, noisy
 context, and garbage-in-garbage-out still matter. Retrieval sits inside agentic
 systems as one tool among others, and knowledge lookup that RAG can handle is
 separate from workflows that need planning or actions
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
-[[person:lavanyagupta|Lavanya Gupta]] adds the long-context research view: long
+[[person:lavanyagupta=>Lavanya Gupta]] adds the long-context research view: long
 context can still degrade on specialized documents, so chunking, retrieval, and
 summarization remain useful even when a model advertises a large context window
 ([[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]).
@@ -106,7 +106,7 @@ polishing prompts
 ## Embeddings, Search, and Knowledge Graphs
 
 RAG often uses vector search, but RAG isn't reducible to a
-[[vector-databases|vector database]]. Vector databases such as Qdrant provide
+[[vector-databases=>vector database]]. Vector databases such as Qdrant provide
 plug-and-play vector search infrastructure, and putting vectors into an existing
 search stack is one option against using a standalone vector database
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
@@ -116,7 +116,7 @@ Filters, ranking requirements, and operational maturity matter too.
 [[Vector Database vs Search Engine]]
 covers that retrieval-stack choice in more detail.
 
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]],
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]],
 with [[person:reemmahmoud|Reem Mahmoud]], adds the broader search architecture.
 Vector search works through shared embedding representations, and hybrid search
 brings in more: vector similarity still has to work with filters, recency,
@@ -126,7 +126,7 @@ Vector database selection is its own decision, comparing monolithic search
 systems with specialized vector databases
 ([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
 
-[[person:anahitapakiman|Anahita Pakiman]] adds a structured-retrieval alternative,
+[[person:anahitapakiman=>Anahita Pakiman]] adds a structured-retrieval alternative,
 connecting knowledge graphs with LLM grounding and RAG, contrasting text chunking
 and embeddings with graph semantics, and using prompt templates and Cypher-driven
 retrieval
@@ -156,7 +156,7 @@ public model benchmarks, plus tests that mock tools and check integration
 behavior
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 That applies when retrieval is one tool inside a larger
-[[agent-engineering|AI agent]] workflow.
+[[agent-engineering=>AI agent]] workflow.
 
 ## Production Constraints
 
@@ -167,7 +167,7 @@ models change. RAG can reduce hallucination risk, but it creates new failure
 modes when the retriever misses the right document or returns noisy context.
 
 RAG decisions sit inside broader
-[[llm-production-patterns|LLM production]]
+[[llm-production-patterns=>LLM production]]
 tradeoffs. Prototypes that use hosted APIs contrast with production cases that
 may need open-source models for control, and latency and cost tradeoffs surround
 self-hosting, hardware, and serving

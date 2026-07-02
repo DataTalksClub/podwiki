@@ -74,7 +74,7 @@ Learn these pieces in order:
 - add tests, logging, and deployment notes
 - monitor drift, quality, and business impact
 
-[[podcast:crisp-dm|CRISP-DM]] gives the project
+[[podcast:crisp-dm=>CRISP-DM]] gives the project
 sequence behind that list: it starts with a measurable business problem and
 connects baselines and evaluation to the business objective. For a
 software-heavy starting point, pair this stage with

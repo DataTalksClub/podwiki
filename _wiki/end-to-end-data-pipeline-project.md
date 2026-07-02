@@ -34,17 +34,17 @@ read [[DataOps]] and
 A clear pipeline structure moves from ingestion prep into source handling, then
 transformation and modeling, then marts and dashboards that lead back to the
 people who use the data
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]].
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 The modern-stack boundary separates ETL and ELT, treats transformations as their
 own layer, and distinguishes marts from warehouses, with raw ingestion
 guardrails and orchestration around that split
-[[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
 
 The hiring standard is blunt: many projects list tools but show too little Python
 and SQL, and professional code quality, tests, and clear structure are what
 prove readiness
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]].
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
 ## Source and Consumer
 
@@ -102,13 +102,13 @@ Kubernetes
 
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
-[[apache-airflow|Airflow]] when the dependencies
+[[apache-airflow=>Airflow]] when the dependencies
 justify it. Follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 when a local reviewer should look at the Airflow UI, task logs, and rerun
 behavior. Docker supports reproducibility, and a Twitter pipeline capstone combines Docker
 with a project that can be explained and run
-[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]].
+[[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
 
 A reviewer should be able to run the pipeline, look at a failed task, and rerun
 the job without private instructions. Scheduling sits around the modern stack
@@ -166,7 +166,7 @@ Prefer batch for a first end-to-end project unless a low-latency decision
 requires streaming. [[person:slawomirtulski|Slawomir Tulski]]
 calls this the real-time myth and warns against overbuilt modern stacks, framing
 portfolio work around side projects and end-to-end platforms
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 Use [[Batch vs Streaming]]
 when the project needs the tradeoff. Use

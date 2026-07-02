@@ -56,7 +56,7 @@ This ownership model connects the roadmap to
 [[dbt]], and
 [[Data Quality and Observability]].
 The specific analyst transition path is
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]].
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
 
 ## Role Boundaries and Tool Choices
 
@@ -74,7 +74,7 @@ How much Python belongs near the beginning also differs: Python is useful but
 not central, most modeling work is still SQL, and Python helps with adjacent
 work such as ingestion, orchestration, APIs, testing, and tool glue
 ([[podcast:analytics-engineer-skills-tools|role episode]],
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|foundations episode]]).
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]).
 
 For a learner, that disagreement leads to a practical sequence: become SQL-first
 and Python-aware, then add Python when ingestion, orchestration, API work, or
@@ -103,7 +103,7 @@ The first roadmap milestone isn't "finish SQL." It's one source-to-mart model
 where you can defend grain, keys, joins, and the business definition. That same
 milestone becomes useful portfolio evidence when you show the model, tests,
 documentation, and BI surface in an
-[[analytics-engineering-portfolio-projects|analytics engineering portfolio project]].
+[[analytics-engineering-portfolio-projects=>analytics engineering portfolio project]].
 
 ## dbt, Tests, and Review
 
@@ -171,7 +171,7 @@ Build projects in the order the work becomes more durable.
    ([[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]]).
 
 These projects should produce
-[[analytics-engineering-portfolio-projects|portfolio evidence]]
+[[analytics-engineering-portfolio-projects=>portfolio evidence]]
 a hiring manager can inspect: the model, its tests, its docs, lineage, a
 dashboard or semantic surface, and a short explanation of the business question.
 
@@ -182,7 +182,7 @@ one source-to-mart path, document columns, and add basic tests. SQL and data
 modeling are must-haves, and Excel, SQL practice, access to real BI queries, and
 dashboard building form the early path
 ([[podcast:analytics-engineer-skills-tools|role episode]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|marketing transition episode]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>marketing transition episode]]).
 
 Mid-level readiness means you can own a domain model and handle source changes,
 review SQL or dbt changes, align metric definitions with stakeholders, and debug
@@ -197,7 +197,7 @@ treat BI or semantic layers as product surfaces. That level is anchored in
 robustness, testability, CI, and documentation, with governance, orchestration,
 and reverse data flows as stack-level concerns
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|foundations episode]],
-[[podcast:data-engineering-tools-modern-data-stack|modern stack episode]]).
+[[podcast:data-engineering-tools-modern-data-stack=>modern stack episode]]).
 
 ## Specialization Paths
 
@@ -242,7 +242,7 @@ missing event properties, freshness, cost, governance, and stakeholder
 disagreement. Balance tool knowledge with the concept, and avoid choosing tools
 without requirements, cost, and architecture in mind
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|foundations episode]],
-[[podcast:trends-in-modern-data-engineering|trends episode]]).
+[[podcast:trends-in-modern-data-engineering=>trends episode]]).
 The practical boundary is simple: learn enough to build the next reliable model,
 then let the model reveal the next topic.
 
@@ -254,7 +254,7 @@ and adjacent domains.
 - [[Analytics Engineering]]
 - [[Analytics Engineering Portfolio Projects]]
 - [[Data Analyst vs Analytics Engineer]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Marketing to Analytics Engineering]]
 - [[Modern Data Stack]]
 - [[Product Analytics]]

@@ -31,7 +31,7 @@ In DataTalks.Club podcast discussions, the warehouse usually appears inside the
 close to ELT and dbt-style modeling. Orchestration and activation sit nearby
 too.
 
-[[person:nataliekwong|Natalie Kwong]]
+[[person:nataliekwong=>Natalie Kwong]]
 places warehouses and marts in that same map. She also connects them to
 transformations and reverse data flows
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
@@ -46,7 +46,7 @@ SQL. Ingress and egress are part of the same platform discussion
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 21:29-30:34 and 1:07:52).
 
-[[person:adrianbrudaru|Adrian Brudaru]]
+[[person:adrianbrudaru=>Adrian Brudaru]]
 updates that vocabulary through [[Apache Iceberg]],
 Parquet-backed table formats, and catalogs. Metadata and lineage sit there too
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
@@ -60,7 +60,7 @@ integration sit close to that system.
 A lakehouse preserves open storage and multiple compute paths, so the team must
 still operate table formats and catalogs. Lineage, quality checks, and access
 controls are part of the same
-[[data-engineering-platforms|data engineering platform]]
+[[data-engineering-platforms=>data engineering platform]]
 and [[DataOps]] responsibility.
 
 ## Decision Boundary
@@ -73,7 +73,7 @@ stack
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
 15:30-18:47 and 30:59-35:42).
 
-[[person:arpitchoudhury|Arpit Choudhury]] uses the same
+[[person:arpitchoudhury=>Arpit Choudhury]] uses the same
 warehouse-first path for growth data. He starts with event collection and
 warehouse storage. He then moves into dbt transformations, BI, and
 [[data activation]] through reverse ETL
@@ -95,7 +95,7 @@ engines. Governance and self-service SQL come before lakehouse architecture
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 23:29-35:57 and 1:07:52).
 
-[[person:adrianbrudaru|Adrian Brudaru]] adds the table
+[[person:adrianbrudaru=>Adrian Brudaru]] adds the table
 format version of that boundary. In his [[Apache Iceberg]]
 discussion, files and tables are separate from compute engines. Catalogs,
 metadata, and access become explicit platform layers. Lineage does too
@@ -111,12 +111,12 @@ warehouse, or both depending on users and data shapes
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
 24:24-27:39). Treat the boundary as a consumer and operating-model question.
 Ask who reads the data, which engines need it, who owns governance, and where
-[[finops-for-data-engineers|FinOps]] visibility
+[[finops-for-data-engineers=>FinOps]] visibility
 lives.
 
 ## Practitioner Decision Lines
 
-[[person:nataliekwong|Natalie Kwong]] draws the line
+[[person:nataliekwong=>Natalie Kwong]] draws the line
 from the [[modern data stack]].
 Her warehouse case is strongest when ELT lets teams load first and transform
 later in the warehouse. Analysts can use SQL and dbt-style workflows without
@@ -147,7 +147,7 @@ His requirements-led tool guidance makes the lakehouse choice a catalog and
 cost decision. Lock-in and operating model matter too, not the brand alone
 (44:42).
 
-[[person:santonatuli|Santona Tuli]] draws the line from
+[[person:santonatuli=>Santona Tuli]] draws the line from
 the pipeline and the consuming persona. She compares Snowflake, Databricks, and
 Upsolver before discussing build-vs-buy choices. Staging and lakehouse patterns
 come next
@@ -158,7 +158,7 @@ Her ingestion sections make the early platform work visible. Teams may need
 deduplication and ordering guarantees before data becomes useful for analytics
 or ML. PII masking may need to happen before that point too (37:10).
 
-[[person:eddyzulkifly|Eddy Zulkifly]] draws the line
+[[person:eddyzulkifly=>Eddy Zulkifly]] draws the line
 through cost accountability. His [[FinOps for Data Engineers]]
 discussion places BigQuery and dbt inside a digital warehouse. Orchestration,
 monitoring, and tests sit nearby. He then moves into reservation planning and
@@ -305,14 +305,14 @@ attention too.
 Cost can go either way, though Brudaru and Albertsson don't give a single
 warehouse-versus-lakehouse cost formula. A warehouse can be the cheaper choice
 when one managed SQL system serves the consumers and
-[[finops-for-data-engineers|FinOps]] practices
+[[finops-for-data-engineers=>FinOps]] practices
 control usage. A lakehouse can be the better choice when open storage, multiple
 engines, or long-lived raw history avoids expensive copying or product lock-in.
 Together, the episodes support making that call from requirements rather than
 from architecture labels
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
 44:42 and
-[[podcast:finops-for-data-engineers|FinOps for Data Engineers]],
+[[podcast:finops-for-data-engineers=>FinOps for Data Engineers]],
 40:18-46:17).
 
 ## Migration Triggers
@@ -327,10 +327,10 @@ If BI and dbt models already serve the business, the better move may be
 improving the warehouse path. Warehouse permissions and reverse ETL belong in
 that improvement path. Cost controls and documentation belong there too.
 Orchestration and
-[[finops-for-data-engineers|FinOps]] do as well
+[[finops-for-data-engineers=>FinOps]] do as well
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
 30:59-43:02 and
-[[podcast:finops-for-data-engineers|FinOps for Data Engineers]],
+[[podcast:finops-for-data-engineers=>FinOps for Data Engineers]],
 40:18-46:17).
 
 A stronger lakehouse trigger is a concrete need for open storage and multiple
@@ -371,7 +371,7 @@ Brudaru's catalog split grounds the metadata and lineage checks. Zulkifly's
 FinOps framing adds the cost side
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
 21:27-23:41 and
-[[podcast:finops-for-data-engineers|FinOps for Data Engineers]],
+[[podcast:finops-for-data-engineers=>FinOps for Data Engineers]],
 34:15-44:41).
 
 ## Related Pages

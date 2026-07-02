@@ -25,12 +25,12 @@ engineers turn that data into reusable business definitions and decision-ready
 models.
 
 The role isn't only "SQL plus dashboards."
-[[person:victoriaperezmola|Victoria Perez Mola]] grounds the job in
+[[person:victoriaperezmola=>Victoria Perez Mola]] grounds the job in
 data modeling and quality checks, plus metric definitions, event semantics, the
 warehouse, and the BI stack, with workflow examples that include SQL tests and
 DAGs
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
-[[person:juanmanuelperafan|Juan Manuel Perafan]] frames
+[[person:juanmanuelperafan=>Juan Manuel Perafan]] frames
 the role as translating business reality into clean data systems with software
 engineering discipline
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
@@ -54,7 +54,7 @@ rebuilding joins and reconciling dashboards. Data engineers often own ingestion,
 orchestration, cloud infrastructure, and platform reliability. Analytics
 engineers work between those groups by making business-facing data reusable
 ([[podcast:data-engineering-career-path-and-skills|Data Engineering Career Path and Skills]],
-[[podcast:data-engineering-tools-modern-data-stack|Modern Data Stack episode]]).
+[[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]]).
 
 That reusable layer feeds
 [[Business Intelligence]]
@@ -76,18 +76,18 @@ existed before teams gave them a separate title.
 The title helps when it clarifies who owns modeling and testing. It's less
 useful as a rigid job boundary
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 The same flexibility shows up in tool choices. dbt is the clearest recurring
 symbol of analytics engineering because it made SQL transformations visible as a
 DAG, versioned, and testable.
-[[person:nikolamaksimovic|Nikola Maksimovic]] adds
+[[person:nikolamaksimovic=>Nikola Maksimovic]] adds
 Looker migration, product analytics, A/B testing, and table design.
 
 Natalie Kwong places dbt inside a broader ELT flow with ingestion and
 warehouses, connected to orchestration, CDC, and reverse data flows
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]],
-[[podcast:data-engineering-tools-modern-data-stack|Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack]]).
 
 Team size can move the boundary again. In Tammy Liang's small-team story, early
 analytics work started with business-health monitoring and dashboard adoption.
@@ -169,7 +169,7 @@ familiarity, and dbt also matter. So does business-facing data quality.
 Perafan uses the same role logic. Models make messy business reality visible
 through tables, columns, and relationships
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 The second cluster is software practice applied to SQL. Perez Mola's dbt
 discussion puts SQL files in version control. It also links transformations
@@ -178,7 +178,7 @@ through a DAG and keeps tests beside transformation code.
 Perafan extends that into generic tests and singular SQL tests. Unit tests and
 CI checks stop broken assumptions before they reach users
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[dbt]]).
 
 Communication isn't a soft extra because models have to match the business.
@@ -221,7 +221,7 @@ A product mart may need event names, properties, account identity, and
 activation definitions. Retention and
 experiment exposure definitions often follow.
 
-[[person:arpitchoudhury|Arpit Choudhury]] gives the
+[[person:arpitchoudhury=>Arpit Choudhury]] gives the
 clearest product-data version. A tracking plan records events,
 properties, types, and owners before instrumentation. Without that plan,
 product analytics inherits inconsistent semantics. So do growth reporting and
@@ -257,7 +257,7 @@ The useful signal isn't the vendor list. It's
 the migration from duplicated dashboard and BI work into modeled layers. LookML,
 product analytics, and experiment support came with that migration
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
 
 The podcast discussions don't reduce the discipline to dbt. Kwong situates dbt after
 ingestion and storage, alongside Airbyte and warehouses. Orchestration, CDC, and
@@ -288,7 +288,7 @@ safety.
 The push is to stop manually validating dashboards and apply engineering rigor
 to data workflows
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 Christopher Bergh's DataOps episode gives the operating model behind those
 practices. It covers version control, tests, CI/CD, and observability. It also
@@ -320,9 +320,9 @@ The missing skills weren't abstract data skills but SQL and BI projects.
 Pipeline literacy and Python basics also mattered, along with Looker and dbt.
 Modeling practice was another requirement
 ([[Marketing to Analytics Engineering]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
 Analysts who already own dashboards and KPI explanations can use the
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 for the same move into model ownership.
 
 Jeff Katz's data engineering curriculum places analytics engineering early in a
@@ -371,7 +371,7 @@ work. Maksimovic's dbt migration and product-analytics story support this
 portfolio signal. Kwong's ELT episode supports the same
 source-to-warehouse-to-mart structure
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]],
-[[podcast:data-engineering-tools-modern-data-stack|Modern Data Stack episode]]).
+[[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]]).
 
 Hiring signals are the reasoning behind the model. A strong resume or project
 writeup names the decision owner and source semantics. It also names the model
@@ -417,7 +417,7 @@ These pages cover role boundaries, platform context, and career paths.
 
 - [[Data Analyst vs Analytics Engineer]]
 - [[Analytics Engineering Roadmap]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Analytics Engineering Portfolio Projects]]
 - [[Marketing to Analytics Engineering]]
 - [[Modern Data Stack]]

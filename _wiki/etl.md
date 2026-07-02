@@ -16,9 +16,9 @@ systems and apply business logic or operational preparation before the
 destination receives it, then load the curated result into a warehouse or mart.
 ETL breaks into source-specific extraction, organization-specific business
 logic, and destination-specific loading routines
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 Matt Palmer's
-[[book:20240415-understanding-etl|Understanding ETL]]
+[[book:20240415-understanding-etl=>Understanding ETL]]
 expands on that same extract-transform-load lifecycle: source extraction,
 staging, transformation logic, and loading patterns across batch and
 event-driven pipelines.
@@ -27,7 +27,7 @@ This topic covers the transform-before-load side of the pipeline. Use
 [[ELT]] for load-first warehouse modeling and
 [[ETL vs ELT]] for the reference
 comparison. Use the shorter
-[[etl-vs-elt|ETL vs ELT decision guide]]
+[[etl-vs-elt=>ETL vs ELT decision guide]]
 when the choice is the question. ETL
 also sits close to [[data pipelines]]
 and [[data engineering platforms]].
@@ -91,9 +91,9 @@ what data a target can receive and expose.
 ## Operating ETL Reliably
 
 The strongest reliability warning is reproducibility.
-[[person:larsalbertsson|Lars Albertsson]] argues for
+[[person:larsalbertsson=>Lars Albertsson]] argues for
 immutable inputs and functional transformations
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 In a mutable ETL run, rows can change between a 6:00 run and a 12:00 run, so the
 same sequence of steps can produce different results
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).

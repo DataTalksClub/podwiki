@@ -18,15 +18,15 @@ work changed the business. In the DataTalks.Club discussions, KPIs aren't just
 dashboard numbers. They're decision metrics with an owner, a time window, a
 known audience, and a behavior they're meant to influence.
 
-[[person:adamsroka|Adam Sroka]] gives the most direct
+[[person:adamsroka=>Adam Sroka]] gives the most direct
 KPI treatment in
-[[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+[[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 He starts from merit functions and comparable units at 12:06-16:51, then
 defines KPIs as top-down executive decision metrics at 22:41-25:56. Other
 episodes show where KPI work meets [[data strategy]],
 [[product analytics]],
 [[model monitoring]], and
-[[a-b-testing|A/B testing]].
+[[a-b-testing=>A/B testing]].
 
 ## Executive Decision Metrics
 
@@ -55,10 +55,10 @@ He later discusses a North Star metric at 44:59-46:34 as a single guiding
 indicator for strategy. Not every team needs one universal number. A KPI still
 has to say what direction matters when choices compete.
 
-[[person:liorbarak|Lior Barak]] makes a similar
+[[person:liorbarak=>Lior Barak]] makes a similar
 alignment argument from the [[data strategy]]
 side. In
-[[podcast:mindful-data-strategy-for-business-impact|Mindful Data Strategy for Business Impact]],
+[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]],
 Barak uses core KPI diagnosis at 20:50-23:26. It shows how dashboard
 inaccuracies force teams to look at ingestion and SQL logic. The same diagnosis
 also covers lineage and ownership.
@@ -115,9 +115,9 @@ In those systems, accuracy and AUC matter most when the team can say which KPI
 they protect or improve. Latency and pipeline freshness need the same business
 link.
 
-[[person:linaweichbrodt|Lina Weichbrodt]] makes the
+[[person:linaweichbrodt=>Lina Weichbrodt]] makes the
 same point during project intake in
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 At 4:50-10:26, she starts with the business case, KPIs, and alternatives before
 modeling. At 18:29-24:34, stakeholder fears become mitigations, service levels,
 and impact assessment. KPI design therefore happens before model selection, and
@@ -142,8 +142,8 @@ KPI that nobody can act on is only a status label.
 ## Experimentation and Search Impact
 
 KPIs also decide whether experiments and search changes ship.
-[[person:jakobgraff|Jakob Graff]] explains in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]
+[[person:jakobgraff=>Jakob Graff]] explains in
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 that a product experiment can imply different choices. The choice changes when
 the primary metric is revenue or conversion. It changes again when the team
 prioritizes retention or long-term value
@@ -154,9 +154,9 @@ He also covers seasonality and underpowered tests. KPI choice therefore belongs
 before [[power analysis]] and
 rollout decisions, not after a dashboard is already built.
 
-[[person:danielsvonava|Daniel Svonava]] gives the
+[[person:danielsvonava=>Daniel Svonava]] gives the
 search-system version in
-[[podcast:building-production-search-systems|Building Search Systems]].
+[[podcast:building-production-search-systems=>Building Search Systems]].
 At 1:01:25, he ties search impact to business metrics, A/B tests, and revenue.
 At 1:03:50, he separates operational metrics from offline evaluation. Search
 KPIs therefore bridge [[information retrieval]],

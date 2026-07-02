@@ -151,7 +151,7 @@ Python, ML platforms, and LLM experiments, with SQL, Git, shell skills,
 debugging, problem decomposition, and T-shaped expertise as recurring themes
 ([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career]]).
 
-[[person:jackblandin|Jack Blandin]] moved from
+[[person:jackblandin=>Jack Blandin]] moved from
 full-stack engineering into applied ML leadership. ML work keeps asking for
 product context, demos, stakeholder language, and full-stack delivery, including
 stakeholder communication, fast POCs, and full-stack ML
@@ -300,7 +300,7 @@ and KPIs, and risk communication that warns against explaining models only
 through accuracy
 ([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML]]).
 A baseline-first stance matches the simplicity advice in
-[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 and gives software engineers a product reason to start with heuristics or manual
 checks.
 
@@ -311,7 +311,7 @@ you build a ranking model, explain what product metric could improve and what
 guardrail metric could get worse. Link that work back to
 [[Machine Learning]],
 [[Evaluation]], and
-[[career-transitions-in-data|Career Transition]] so the
+[[career-transitions-in-data=>Career Transition]] so the
 project reads as applied ML, not only software packaging.
 
 ## Production Judgment
@@ -394,11 +394,11 @@ and what they would learn next.
 Use this plan if you already write production software and want to synthesize
 five discussions:
 
-- a project-first transition path ([[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]])
-- maintainability advice ([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]])
-- ML system-design interview guidance ([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]])
-- stakeholder and fast-POC guidance ([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML]])
-- MLOps lifecycle practices ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]])
+- a project-first transition path ([[podcast:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]])
+- maintainability advice ([[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]])
+- ML system-design interview guidance ([[podcast:machine-learning-system-design-interview=>Machine Learning System Design Interview]])
+- stakeholder and fast-POC guidance ([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]])
+- MLOps lifecycle practices ([[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]])
 
 Months 1-2 focus on projects, data, metrics, and leakage. Month 3 follows a
 research-to-production roadmap
@@ -486,4 +486,4 @@ sit next to this guide.
 - [[Data Pipelines]]
 - [[Production ML Project Checklist]]
 - [[ML System Design Documents]]
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]

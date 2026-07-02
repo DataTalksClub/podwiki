@@ -11,7 +11,9 @@
 //! - Per-entry config under the well-known key `config` (JSON string); we read
 //!   `scope` (default `wiki`) — the collection this transform applies to.
 //!
-//! Token grammar (`[[type:target|field|field]]`):
+//! Token grammar (`[[type:target|field|field]]`; `[[target=>label]]` and
+//! `[[podcast:target@M:SS=>label]]` are pipe-free alias forms for Markdown lines
+//! where `|` would otherwise trigger table parsing):
 //! - `[[Topic]]` / `[[topic-slug]]`               -> type `wiki`
 //! - `[[person:x]]` (also `author:`/`guest:`)      -> type `person`
 //! - `[[book:x]]`                                   -> type `book`
@@ -199,7 +201,75 @@ where
         }
     }
 
-    (out, warnings)
+    (unwrap_chip_tables(&out), warnings)
+}
+
+/// The markdown renderer sometimes treats aliased wikilinks (`[[target|label]]`)
+/// as one-cell pipe tables before this extension sees the HTML. Token scanning
+/// above can still render the chip, but the accidental table wrapper must be
+/// removed so prose remains prose.
+fn unwrap_chip_tables(html: &str) -> String {
+    let mut out = String::with_capacity(html.len());
+    let mut i = 0;
+
+    while let Some(rel) = html[i..].find("<table>") {
+        let start = i + rel;
+        out.push_str(&html[i..start]);
+        if let Some((inner, end)) = parse_single_cell_chip_table(html, start) {
+            out.push_str("<p>");
+            out.push_str(inner.trim());
+            out.push_str("</p>");
+            i = end;
+        } else {
+            out.push_str("<table>");
+            i = start + "<table>".len();
+        }
+    }
+
+    out.push_str(&html[i..]);
+    out
+}
+
+fn parse_single_cell_chip_table(html: &str, start: usize) -> Option<(&str, usize)> {
+    let mut pos = start;
+    pos = consume(html, pos, "<table>")?;
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "<tbody>")?;
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "<tr>")?;
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "<td>")?;
+
+    let inner_start = pos;
+    let rel_end = html[pos..].find("</td>")?;
+    let inner_end = pos + rel_end;
+    let inner = &html[inner_start..inner_end];
+    if !inner.contains("class=\"chip ") {
+        return None;
+    }
+
+    pos = inner_end + "</td>".len();
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "</tr>")?;
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "</tbody>")?;
+    pos = skip_ws(html, pos);
+    pos = consume(html, pos, "</table>")?;
+    Some((inner, pos))
+}
+
+fn consume(html: &str, pos: usize, needle: &str) -> Option<usize> {
+    html[pos..].starts_with(needle).then_some(pos + needle.len())
+}
+
+fn skip_ws(html: &str, mut pos: usize) -> usize {
+    while let Some(ch) = html[pos..].chars().next() {
+        if !ch.is_whitespace() {
+            break;
+        }
+        pos += ch.len_utf8();
+    }
+    pos
 }
 
 /// Whether `bytes[at..]` starts with `needle` (needle is ASCII).
@@ -393,12 +463,22 @@ fn render_chip<F>(inner: &str, baseurl: &str, _resolve: &F, warnings: &mut Vec<S
 where
     F: Fn(&str) -> Option<String>,
 {
-    let mut parts = inner.split('|');
+    let (head_src, arrow_label) = match inner
+        .split_once("=&gt;")
+        .or_else(|| inner.split_once("=>"))
+    {
+        Some((head, label)) if !inner.contains('|') => (head, Some(label.trim())),
+        _ => (inner, None),
+    };
+    let mut parts = head_src.split('|');
     let head = parts.next().unwrap_or("").trim();
-    let extras: Vec<&str> = parts.map(|p| p.trim()).collect();
+    let mut extras: Vec<&str> = parts.map(|p| p.trim()).collect();
+    if let Some(label) = arrow_label {
+        extras.push(label);
+    }
 
     // Determine type + target from the head.
-    let (chip_type, target) = match head.split_once(':') {
+    let (chip_type, mut target) = match head.split_once(':') {
         Some((prefix, rest)) => match ChipType::from_prefix(prefix.trim()) {
             Some(t) => (t, rest.trim()),
             // Unrecognized prefix -> treat the whole head as a wiki target.
@@ -409,6 +489,14 @@ where
 
     // Extract label + time from the extra fields.
     let mut time: Option<&str> = None;
+    if chip_type == ChipType::Podcast {
+        if let Some((base, suffix)) = target.rsplit_once('@') {
+            if is_timestamp(suffix.trim()) {
+                target = base.trim();
+                time = Some(suffix.trim());
+            }
+        }
+    }
     let mut label: Option<&str> = None;
     if chip_type == ChipType::Podcast {
         for field in &extras {
@@ -774,8 +862,50 @@ mod tests {
             html.contains("<span class=\"chip-label\">A/A Testing</span>"),
             "got: {html}"
         );
+        assert!(!html.contains("<table>"), "chip table wrapper leaked: {html}");
         assert!(!html.contains("[["), "no literal token should leak: {html}");
         assert!(!html.contains("]]"), "no literal token should leak: {html}");
+    }
+
+    #[test]
+    fn arrow_alias_renders_without_pipe() {
+        let (html, _) = run("<p>[[a-b-testing=>A/B Testing]]</p>");
+        assert!(html.contains("href=\"/wiki/a-b-testing/\""), "got: {html}");
+        assert!(
+            html.contains("<span class=\"chip-label\">A/B Testing</span>"),
+            "got: {html}"
+        );
+    }
+
+    #[test]
+    fn escaped_arrow_alias_renders_without_pipe() {
+        let (html, _) = run("<p>[[a-b-testing=&gt;A/B Testing]]</p>");
+        assert!(html.contains("href=\"/wiki/a-b-testing/\""), "got: {html}");
+        assert!(
+            html.contains("<span class=\"chip-label\">A/B Testing</span>"),
+            "got: {html}"
+        );
+    }
+
+    #[test]
+    fn podcast_arrow_alias_preserves_timestamp() {
+        let (html, _) = run(
+            "<p>[[podcast:ab-testing-and-product-experimentation@27:52=&gt;A/B Testing]]</p>",
+        );
+        assert!(
+            html.contains(
+                "href=\"https://datatalks.club/podcast/ab-testing-and-product-experimentation.html\""
+            ),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">A/B Testing</span>"),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-time\">27:52</span>"),
+            "got: {html}"
+        );
     }
 
     #[test]
@@ -798,7 +928,24 @@ mod tests {
             html.contains("<span class=\"chip-label\">A/B Testing</span>"),
             "got: {html}"
         );
+        assert!(!html.contains("<table>"), "chip table wrapper leaked: {html}");
         assert!(!html.contains("[["), "no literal token should leak: {html}");
+    }
+
+    #[test]
+    fn accidental_one_cell_chip_table_is_unwrapped() {
+        let (html, _) = run(
+            "<p>The same failures connect to tests \
+([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],</p>\n\
+<table>\n<tbody>\n<tr>\n<td>[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).</td>\n</tr>\n</tbody>\n</table>",
+        );
+        assert!(html.contains("DataOps for Data Engineering"), "got: {html}");
+        assert!(html.contains("Mastering DataOps"), "got: {html}");
+        assert!(!html.contains("<table>"), "chip table wrapper leaked: {html}");
+        assert!(
+            html.contains("<p><a class=\"chip chip--podcast\""),
+            "second chip should become prose again: {html}"
+        );
     }
 
     #[test]

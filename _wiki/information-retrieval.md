@@ -16,7 +16,7 @@ DataTalks.Club podcast discussions, retrieval sits behind
 [[search]] and
 [[vector databases]]. It also
 shapes
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 recommendations, and agent tools.
 
 Search is fundamentally a relevance decision problem: isolating relevant data
@@ -27,9 +27,9 @@ and personalized search, and it borders recommender systems and RAG
 For product search systems and user-facing relevance, start with
 [[Search]]. For generation, citations, and
 answer quality after retrieval, use
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 For the broader map across retrieval systems and LLM applications, use
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 ## Candidate Generation and Ranking
 
@@ -147,7 +147,7 @@ tasks.
 Retrieval doesn't make the model smarter in general. It grounds the answer in
 the current documentation, which is different from fine-tuning the model to
 imitate a style or task format. That retrieval boundary is central to
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]].
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
 
 Large context windows don't remove retrieval work, because latency, cost, and
 noisy context still matter
@@ -193,7 +193,7 @@ retrieval or agent system. Teams need their own representative datasets,
 integration tests, mocked tools, and assertions over outcomes. That applies
 when retrieval is one step inside
 [[Agent Engineering]] or
-[[agent-engineering|AI Agents]], not a standalone search
+[[agent-engineering=>AI Agents]], not a standalone search
 endpoint.
 
 ## System Boundaries

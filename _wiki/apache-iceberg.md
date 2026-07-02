@@ -13,7 +13,7 @@ related:
 ---
 
 Apache Iceberg is a table-format answer to a specific
-[[data-engineering-platforms|data engineering platform]]
+[[data-engineering-platforms=>data engineering platform]]
 problem: teams want lake-style storage without giving up table behavior,
 metadata, or catalogs, and they want multiple compute paths. Iceberg is a table
 format over Parquet storage, which separates storage and compute from access,
@@ -37,7 +37,7 @@ catalogs
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
 Iceberg fits the
-[[data-warehouse-vs-data-lakehouse|lakehouse]]
+[[data-warehouse-vs-data-lakehouse=>lakehouse]]
 idea when teams need table behavior on lake storage instead of a single
 vendor-owned surface. The lakehouse is warehouse features layered onto a data
 lake, on top of separated raw storage, aggregates, and object storage, with
@@ -52,7 +52,7 @@ quality, and workflow choices belong with those tables too. Those layers are
 explicit in the catalog discussion, and lakehouse usefulness ties to
 reproducibility, versioning, and platform operation
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]).
 
 ## Table Format, Governance, and Platform Views
 
@@ -137,7 +137,7 @@ to a larger lakehouse platform.
 Iceberg still needs orchestration and DataOps: Airflow compares with peer
 orchestration tools, and workflow engines are core platform components
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]).
 Iceberg can keep tables open, but the team still needs a reliable path for
 loading, transforming, and testing them.
 

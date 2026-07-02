@@ -19,7 +19,7 @@ Machine learning system design decides how an ML system should support a product
 or business decision before teams commit to a model. A design names the decision
 and data. It also names labels and the feature path. Then it names serving,
 evaluation, monitoring, and ownership after release.
-[[book:20220627-designing-machine-learning-systems|Designing Machine Learning Systems]]
+[[book:20220627-designing-machine-learning-systems=>Designing Machine Learning Systems]]
 by Chip Huyen is the canonical reference for this discipline: it covers the full stack from problem framing and data engineering through serving, monitoring, and continuous improvement.
 
 Fraud detection, recommendations, feature work, and metrics connect as design
@@ -236,7 +236,7 @@ outputs.
 Those questions work as a readiness test: the team should understand the business
 problem before it chooses a model
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]],
-[[podcast:ml-system-design|ML System Design Playbook]]).
+[[podcast:ml-system-design=>ML System Design Playbook]]).
 
 The review should also cover:
 
@@ -291,6 +291,6 @@ These pages expand the system-design decisions above.
 - [[MLOps Architecture]]
 - [[Model Monitoring]]
 - [[Evaluation]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Data Engineering Platforms]]
-- [[machine-learning-system-design-interview|Machine Learning System Design Interview guide]]
+- [[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]]

@@ -23,16 +23,16 @@ That project
 tracks dependencies and version control. It also keeps tests, documentation,
 and macros with the SQL models.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
+[[person:victoriaperezmola=>Victoria Perez Mola]]
 gives the most direct explanation in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools at 6:49-10:04]].
+[[podcast:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools at 6:49-10:04]].
 She describes dbt as the tool her team uses for modeling data after it arrives
 in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
 code workflow and manages model dependencies. It builds a DAG, runs tests, and
 exposes documentation. DataTalks.Club therefore treats dbt as a practical
 bridge between analytics work and software engineering habits.
 Rui Machado and Helder Russa's
-[[book:20231106-analytics-engineering-with-sql-and-dbt|Analytics Engineering with SQL and DBT]]
+[[book:20231106-analytics-engineering-with-sql-and-dbt=>Analytics Engineering with SQL and DBT]]
 covers the same warehouse-side SQL modeling, testing, and DAG-based project
 workflow that Victoria describes here.
 
@@ -40,9 +40,9 @@ workflow that Victoria describes here.
 
 dbt belongs most naturally to warehouse-side transformation in the
 [[ETL vs ELT]] discussion.
-[[person:nataliekwong|Natalie Kwong]] explains that
+[[person:nataliekwong=>Natalie Kwong]] explains that
 move in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack at 7:57-12:39]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack at 7:57-12:39]].
 She contrasts transforming before load with loading first and transforming in
 analytical storage. ELT gives analysts and analytics engineers more room to
 adjust business logic after raw data is available.
@@ -54,9 +54,9 @@ data marts. She also places it near orchestration, CDC, and reverse data flows
 ([[Modern Data Stack]],
 [[Reverse ETL]]).
 
-[[person:santonatuli|Santona Tuli]] draws the same
+[[person:santonatuli=>Santona Tuli]] draws the same
 boundary from the pipeline side in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture at 10:48 and 24:57]].
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture at 10:48 and 24:57]].
 Her Upsolver comparison separates ingestion-focused pipeline authoring from
 dbt-style SQL modeling. dbt can author transformations, but another system
 still loads data, handles streaming or ordering guarantees, and may provide the
@@ -70,9 +70,9 @@ dependencies between models and renders the DAG. Teams can see what a change
 will affect before it reaches dashboards or downstream tables
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools at 6:49-10:04]]).
 
-[[person:nikolamaksimovic|Nikola Maksimovic]] shows the
+[[person:nikolamaksimovic=>Nikola Maksimovic]] shows the
 implementation side in
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering at 18:34-22:08]].
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering at 18:34-22:08]].
 His transition from marketing into BI and analytics engineering included a dbt
 migration and data modeling. It also included Looker work, product analytics,
 and A/B testing support.
@@ -82,9 +82,9 @@ out of scattered reports and into modeled transformation layers. His later
 discussion of wide and narrow tables at 30:28 keeps the focus on model design,
 not tool adoption alone.
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
+[[person:juanmanuelperafan=>Juan Manuel Perafan]]
 pushes the same point in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role at 11:03 and 49:50-55:42]].
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role at 11:03 and 49:50-55:42]].
 He treats dbt as one way to put analytics engineering into practice, not as the
 definition of the job. The craft is still translating business reality into
 clean data systems. dbt helps when the team needs those systems to be tested,
@@ -117,13 +117,13 @@ He describes generic tests and singular SQL tests as ways to make analytics
 work safer. Unit-test style checks belong in the same testing conversation
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role at 38:41-46:34]]).
 His argument lines up with
-[[ci-cd|CI/CD]] and
+[[ci-cd=>CI/CD]] and
 [[DataOps]]: tests should run before bad
 changes reach consumers, not only after a stakeholder reports a broken metric.
 
-[[person:christopherbergh|Christopher Bergh]] puts the
+[[person:christopherbergh=>Christopher Bergh]] puts the
 same testing habit inside a broader DataOps operating model in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps at 33:47 and 48:25]].
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps at 33:47 and 48:25]].
 He names version control and automated tests among the ways data teams reduce
 fragile releases. CI/CD, SQL tests, and dbt belong in that same toolkit.
 
@@ -167,7 +167,7 @@ dbt builds a model DAG, but that doesn't make it the whole orchestrator for a
 data platform. Perez Mola notes that dbt Cloud can schedule runs. Kwong places
 Airflow around the broader flow of ingestion and transformation at
 30:59-31:31 in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Tuli brings the same boundary from her Airflow and pipeline background. Modern
 data pipelines still need orchestration, ingestion, and staging. They also need
@@ -188,7 +188,7 @@ Guests agree that dbt made SQL transformation more engineerable, but they don't
 treat it as the whole discipline.
 
 Perez Mola links dbt closely to the rise of analytics engineering at 30:06 in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
+[[podcast:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]].
 She presents it as the everyday tool for modeling, tests, DAGs, and docs.
 Maksimovic shows how learning dbt can anchor a career move from business or
 marketing work into analytics engineering. That path still requires SQL, BI,
@@ -198,17 +198,17 @@ See
 [[Marketing to Analytics Engineering]]
 for that transition path. Analysts using dbt as the bridge into model ownership
 can also use the
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]].
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
 
 Perafan is more careful about tool identity. At 49:50-55:42 in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 he says dbt helps teams practice analytics engineering. dbt alone doesn't make
 someone an analytics engineer. Tuli separates dbt from ingestion and
 execution-engine concerns. Kwong situates it inside ELT and the modern stack.
 
-[[person:adrianbrudaru|Adrian Brudaru]] adds the 2025
+[[person:adrianbrudaru=>Adrian Brudaru]] adds the 2025
 tooling perspective in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends at 31:29 and 44:42]].
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends at 31:29 and 44:42]].
 He credits dbt with changing how people think about data engineering by
 reducing boilerplate and improving project quality. He also names SQLMesh as
 an alternative and argues for requirements-led tool selection.

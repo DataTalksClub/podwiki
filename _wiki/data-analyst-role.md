@@ -49,23 +49,23 @@ team time ([[podcast:data-team-roles|Data Team Roles Explained]]). The boundary
 can also extend toward experimentation, with analysts explaining uplift, segment
 differences, and root causes when online experiment results differ from model
 expectations ([[person:rishabhbhargava|Rishabh Bhargava]],
-[[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]).
+[[podcast:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]).
 
 The title is unstable, which is a real hiring problem: a job called "data
 analyst" may mean BI reporting, product analytics, light data science, or
 business analysis, so responsibilities matter more than the title
 ([[person:alicjanotowska|Alicja Notowska]],
-[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]).
+[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
 
 Analytics engineering moves part of the old analyst workload into a more
 engineered role, contrasting with both data analyst and data engineering work and
 reducing analysts' cleaning workload
 ([[person:victoriaperezmola|Victoria Perez Mola]],
-[[podcast:analytics-engineer-skills-tools|Master Analytics Engineering]]). The
+[[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]]). The
 overlap between data analyst and analytics engineer work appears when dashboard
 logic, metric definitions, and transformation code need stronger ownership
 ([[person:nikolamaksimovic|Nikola Maksimovic]],
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]).
 
 ## Decision-Support Responsibilities
 
@@ -144,7 +144,7 @@ engineering connects to data modeling, pipelines, and data quality, and to
 Looker, `dbt`, version control, tests, and DAGs
 ([[podcast:analytics-engineer-skills-tools|Master Analytics Engineering]]).
 [[Data Analyst vs Analytics Engineer]] defines the adjacent boundary, and the
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 covers the transition when analysts want to own reusable models.
 
 The boundary with the [[data engineer role]] is about data paths and operations.
@@ -168,7 +168,7 @@ These pages connect the analyst role to adjacent skills and career paths.
 
 - [[Data Analyst Careers]]
 - [[Data Analyst vs Analytics Engineer]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Product Analytics]]
 - [[Analytics Engineering]]
 - [[Metrics]]

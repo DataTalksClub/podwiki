@@ -10,14 +10,14 @@ related:
 
 LLM evaluation workflows are the repeatable checks teams use before they ship
 prompts, [[retrieval-augmented-generation|RAG]] pipelines,
-[[agent-engineering|agents]], and AI product
+[[agent-engineering=>agents]], and AI product
 behavior. Evaluation is engineering work: teams collect examples, define pass
 criteria, and review failures, then feed production behavior back into the next
 test set.
 
 LLM evaluation connects [[Evaluation]]
 with [[LLM Production Patterns]],
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 and [[Model Monitoring]]. A good
 workflow tells the team what failed and where the next fix belongs. The fix may
 belong in prompting or retrieval. It may also belong in data preparation, tool
@@ -51,7 +51,7 @@ tradeoff: large enough to avoid overfitting to a few examples, but small enough
 that teams actually run it
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 Use
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]] when the
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the
 eval result is deciding whether to change prompts and retrieval or change model
 behavior through fine-tuning.
 
@@ -107,7 +107,7 @@ Retrieval strategy, answer quality, and citations belong in the same evaluation
 workflow, as does human-in-the-loop evaluation
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 LLM eval is therefore part of
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 and [[Production Search Evaluation]],
 not only model scoring.
 

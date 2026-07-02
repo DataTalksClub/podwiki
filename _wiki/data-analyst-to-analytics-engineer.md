@@ -29,16 +29,16 @@ Experiment readouts can move the same way.
 Those analyst skills become more valuable when they're backed by reusable
 models.
 
-[[person:juanpablo|Juan Pablo]] moved from teaching mathematics into analytics
+[[person:juanpablo=>Juan Pablo]] moved from teaching mathematics into analytics
 roles, then worked at Amazon in a BI and data engineering team. That path
 connects the transition to SQL, portfolio proof, networking, and communication,
 and clarifies the boundary between analyst, BI engineer, and analytics engineer
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 The practical boundary is ownership. A
-[[data-analyst-role|data analyst]] usually owns the
+[[data-analyst-role=>data analyst]] usually owns the
 question, interpretation, dashboard, and recommendation. An
-[[analytics-engineering|analytics engineer]] owns
+[[analytics-engineering=>analytics engineer]] owns
 the reusable model layer that makes those answers safer to repeat. The role
 boundary is covered in
 [[Data Analyst vs Analytics Engineer]].
@@ -67,18 +67,18 @@ a shipped change improved behavior
 That context transfers directly into
 [[metrics]],
 [[product analytics]], and
-[[a-b-testing|A/B testing]].
+[[a-b-testing=>A/B testing]].
 
-[[person:victoriaperezmola|Victoria Perez Mola]] sets the analytics-engineering
+[[person:victoriaperezmola=>Victoria Perez Mola]] sets the analytics-engineering
 standard in
-[[podcast:analytics-engineer-skills-tools|Master Analytics Engineering]]:
+[[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]]:
 modeling data for analysts and data scientists, maintaining pipelines, checking
 quality, and building Looker-facing models. The dbt workflow includes SQL
 files, YAML docs, GitHub version control, and tests, and the DAG makes model
 dependencies visible.
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]] adds the conceptual boundary in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]:
+[[person:juanmanuelperafan=>Juan Manuel Perafan]] adds the conceptual boundary in
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]:
 analytics engineering turns business reality into data models, then applies
 software-engineering habits so the work becomes reproducible and robust.
 
@@ -100,11 +100,11 @@ Choose the target from the work you already do:
   [[analytics engineering roadmap]]
   as the skills map.
 - If the current work comes from campaign reporting or funnel analysis, the
-  [[marketing-to-analytics-engineering|marketing-to-analytics-engineering]]
+  [[marketing-to-analytics-engineering=>marketing-to-analytics-engineering]]
   path is the closest archive example.
 
-[[person:nikolamaksimovic|Nikola Maksimovic]] shows why this choice matters in
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]].
+[[person:nikolamaksimovic=>Nikola Maksimovic]] shows why this choice matters in
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 That path moved through marketing reporting and BI-team collaboration, then
 added SQL and Looker, and later included a dbt migration, product analytics, and
 A/B testing. The title mattered less than the growing ownership of modeled
@@ -127,7 +127,7 @@ search took nine months, so the transition needed both skills and visibility
 The [[marketing-to-analytics-engineering|marketing-to-analytics-engineering transition]]
 shows the same transfer from another business role: business and BI experience
 moved toward analytics engineering, expanding into product support and
-[[a-b-testing|A/B testing]], with data modeling, a dbt migration, Looker, and
+[[a-b-testing=>A/B testing]], with data modeling, a dbt migration, Looker, and
 LookML becoming part of the path
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]]).
 
@@ -161,8 +161,8 @@ and [[DataOps]], not only to dashboards.
 
 Learn enough of the [[modern data stack]]
 to know where your models sit.
-[[person:nataliekwong|Natalie Kwong]] describes the modern stack in
-[[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]]:
+[[person:nataliekwong=>Natalie Kwong]] describes the modern stack in
+[[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]:
 ELT loads raw data first, and analysts and analytics engineers then transform it
 in the warehouse with SQL and dbt-style workflows.
 
@@ -172,9 +172,9 @@ Analytics engineering gets more valuable when the modeled data supports product
 decisions. Analysts already see funnels, cohorts, and experiment readouts. The
 transition adds ownership of the event and metric models behind those analyses.
 
-[[person:arpitchoudhury|Arpit Choudhury]] connects tracking plans and event
+[[person:arpitchoudhury=>Arpit Choudhury]] connects tracking plans and event
 properties to warehouse transformations in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth Stack]].
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 BI and activation depend on the same event semantics, and event ownership is a
 system that starts before analysis and continues into downstream growth tools.
 
@@ -208,20 +208,20 @@ Good project choices include:
 - a dashboard query refactored into dbt-style staging, intermediate, and mart
   models
 - a governed metric definition with grain, tests, documentation, and a dashboard
-- a funnel, retention, or [[a-b-testing|A/B testing]]
+- a funnel, retention, or [[a-b-testing=>A/B testing]]
   mart built from event data and a tracking plan
 - a data quality improvement that explains user impact and the test that catches
   the failure
-- a small semantic layer or [[data-products|data product]]
+- a small semantic layer or [[data-products=>data product]]
   for one stakeholder decision
 
-[[person:christopherbergh|Christopher Bergh]] grounds the reliability side in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]:
+[[person:christopherbergh=>Christopher Bergh]] grounds the reliability side in
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]:
 version control, automated tests, CI/CD, runbooks, documentation, and
 end-to-end versioning.
 
-[[person:gloriaquiceno|Gloria Quiceno]] adds the transition-project standard in
-[[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]]:
+[[person:gloriaquiceno=>Gloria Quiceno]] adds the transition-project standard in
+[[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]:
 a custom capstone and data quality thinking. A custom project stands out more
 than a repeated course project when it explains why the data and checks matter.
 
@@ -279,7 +279,7 @@ These pages cover the adjacent roles, skills, and portfolio patterns.
 - [[dbt]]
 - [[Metrics]]
 - [[Product Analytics]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Data Products]]
 - [[Event Tracking]]
 - [[Tracking Plans]]

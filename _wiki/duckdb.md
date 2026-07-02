@@ -17,7 +17,7 @@ formats and connecting to catalogs and cheaper orchestration options
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
 This places DuckDB inside the
-[[data-engineering-platforms|data engineering platform]]
+[[data-engineering-platforms=>data engineering platform]]
 conversation, not only beside laptop analytics. It also belongs beside
 [[Apache Iceberg]],
 [[Data Lake]], and the
@@ -47,22 +47,22 @@ warehouse-centered stack DuckDB is often compared with.
 ## Key Episodes
 
 The main DuckDB episode is
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 with [[person:adrianbrudaru|Adrian Brudaru]]. It covers
 [[Apache Iceberg]]
 as a Parquet-backed table format, catalogs, metadata, and lineage, DuckDB as
 embeddable local OLAP, and GitHub Actions as a low-cost workflow option.
 
-[[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]]
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 adds the practitioner version. Local analysis and CSV-first discovery come
 before automated ingestion and processing, and DuckDB serves both prototyping
 and actual pipelines because it integrates with Python.
 
 Two older episodes explain why this local and file layer matters.
-[[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]
+[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 covers Parquet on S3 and Docker jobs, and recommends simple proof-of-concept
 work before heavier infrastructure. In
-[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]],
+[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
 data engineers and data scientists collaborate through files; Parquet can serve
 that boundary even when the teams use different languages or tools.
 

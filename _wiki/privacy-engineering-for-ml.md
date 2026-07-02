@@ -22,34 +22,34 @@ and [[Security]]. It also connects to
 [[LLM Production Patterns]].
 
 This topic is centered on ML and AI systems, not privacy law in the abstract.
-[[person:katharinejarmul|Katharine Jarmul]] gives the
+[[person:katharinejarmul=>Katharine Jarmul]] gives the
 clearest definition in
-[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]].
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 At 22:38, she describes privacy engineering as translation between legal,
 social, and technical views. At 30:15 and 47:00, privacy becomes part of normal
 product and architecture work rather than a late compliance check.
 Mario Lazo and Justin Ryan's
-[[book:20240715-ai-data-privacy-and-protection|AI Data Privacy and Protection]]
+[[book:20240715-ai-data-privacy-and-protection=>AI Data Privacy and Protection]]
 provides a structured reference for the same legal-to-technical translation:
 data classification, access controls, and privacy-by-design patterns for AI
 systems.
 
 Across these episodes, guests converge on a practical rule. Useful AI systems
 shouldn't create avoidable privacy, security, or compliance risk.
-[[person:bartvandekerckhove|Bart Vandekerckhove]]
+[[person:bartvandekerckhove=>Bart Vandekerckhove]]
 adds the operating layer in
-[[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
 where access requests and reviews turn privacy rules into daily controls.
 Masking and revocation do the same.
 
-[[person:supreetkaur|Supreet Kaur]]
+[[person:supreetkaur=>Supreet Kaur]]
 ties PII handling to [[Responsible AI and Governance]]
 in
-[[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]].
-[[person:meryemarik|Meryem Arik]] and
-[[person:mariasukhareva|Maria Sukhareva]] extend the
+[[podcast:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
+[[person:meryemarik=>Meryem Arik]] and
+[[person:mariasukhareva=>Maria Sukhareva]] extend the
 same topic into [[LLMs]],
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 and [[AI Red Teaming]].
 
 ## Privacy as System Design
@@ -61,7 +61,7 @@ unintended exposure.
 
 Katharine grounds that work in regulation and user
 experience. At 11:33 and 14:35 in
-[[podcast:data-privacy-engineering-gdpr-machine-learning|her privacy episode]],
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>her privacy episode]],
 she discusses GDPR, CCPA, and CPRA. She also covers cookie-consent defaults
 and one-click rejection.
 
@@ -102,7 +102,7 @@ a forced trade for basic functionality.
 Privacy engineering fails when sensitive data becomes the default across
 notebooks, feature stores, and production jobs.
 
-[[podcast:data-governance-data-access-management|Bart's access-governance episode]]
+[[podcast:data-governance-data-access-management=>Bart's access-governance episode]]
 shows the practical controls at 8:58 / 11:20 / 13:34 / 27:49. At 11:20, he
 links modern cloud data consolidation to access management. At 8:58 and 13:34,
 he explains how catalogs and lineage connect datasets to owners. At 27:49,
@@ -130,7 +130,7 @@ operations.
 
 Supreet treats privacy as part of responsible AI review, not as a separate
 legal checklist. At 14:39 in
-[[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]],
+[[podcast:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]],
 PII handling and masking become product choices. At 17:20, feature necessity
 becomes a subject-matter and compliance decision. Product owners, domain
 experts, and compliance stakeholders should decide whether a sensitive feature
@@ -149,7 +149,7 @@ evidence about the data, the model behavior, and the approval record.
 
 Katharine describes privacy-enhancing technologies as architectural choices,
 not magic add-ons. At 33:08 in
-[[podcast:data-privacy-engineering-gdpr-machine-learning|her privacy episode]],
+[[podcast:data-privacy-engineering-gdpr-machine-learning=>her privacy episode]],
 she discusses encrypted ML, federated learning, and privacy-aware architecture.
 At 40:50, she introduces differential privacy as a formal way to reason about
 privacy loss.
@@ -172,7 +172,7 @@ security practice.
 
 High-impact deployment changes privacy engineering from a model-building
 concern into cross-functional approval. Supreet's
-[[podcast:responsible-explainable-ai-bias-detection|responsible-AI episode]]
+[[podcast:responsible-explainable-ai-bias-detection=>responsible-AI episode]]
 is useful here because it treats feature necessity, PII handling, fairness, and
 compliance as connected decisions. Human oversight belongs in that same review.
 At 17:20, product owners should help decide whether to use a feature.

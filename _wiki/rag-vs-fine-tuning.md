@@ -20,12 +20,12 @@ related_wiki:
 ---
 
 RAG and fine-tuning change different parts of an LLM system.
-[[retrieval-augmented-generation|RAG]] changes the context the model sees at
+[[retrieval-augmented-generation=>RAG]] changes the context the model sees at
 answer time. Fine-tuning changes model behavior through examples, weights, or
 adapters.
 
 Before choosing a technique, ask where the failure lives. Use
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 when the model lacks current, reviewable source context. Use fine-tuning when
 examples show a stable gap in tone, domain language, task behavior, or output
 format.
@@ -81,7 +81,7 @@ layers on another dataset
 
 The systems boundary matters because the same user complaint can require
 different fixes. Missing source context belongs with
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 Unstable answer style or repeated formatting mistakes may need fine-tuning,
 prompt instructions, or task-specific examples. Missing workflow execution may
 need
@@ -214,8 +214,8 @@ interact
 The surrounding topics cover retrieval mechanics, production operations, and
 evaluation:
 
-- [[retrieval-augmented-generation|RAG]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>RAG]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[LLM Production Patterns]]
 - [[LLM Evaluation Workflows]]
 - [[Embeddings]]

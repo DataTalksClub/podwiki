@@ -32,12 +32,12 @@ use a hybrid model with shared standards.
 
 Jesse Anderson's [[book:20210201-data-teams|Data Teams]] Book of the Week expands on these organizational models, covering data science, data engineering, and analytics team structures and how they scale.
 
-[[person:lisacohen|Lisa Cohen]] frames that choice in
-[[podcast:data-science-team-structure-and-org-design|Designing a Data Science Organization]].
+[[person:lisacohen=>Lisa Cohen]] frames that choice in
+[[podcast:data-science-team-structure-and-org-design=>Designing a Data Science Organization]].
 She compares centralized teams, decentralized teams, and hybrid models.
-[[person:zhamakdehghani|Zhamak Dehghani]]
+[[person:zhamakdehghani=>Zhamak Dehghani]]
 makes the same question architectural in
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh 101]].
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh 101]].
 In that model, domain teams own data products. Platform and governance work
 keeps those products discoverable and interoperable.
 
@@ -51,7 +51,7 @@ early teams that still need common definitions, data quality discipline, and
 shared engineering craft.
 
 It also matches Tammy Liang's early buildout in
-[[podcast:building-and-scaling-data-team|Building and Leading Data Teams]],
+[[podcast:building-and-scaling-data-team=>Building and Leading Data Teams]],
 where she starts with business health dashboards. As the team matures, she adds
 a warehouse and forecasting. She also adds quality checks and adoption work.
 
@@ -60,8 +60,8 @@ be product, marketing, operations, or finance. Cohen describes the tradeoff at
 25:48. They gain domain context and faster decision paths. They may lose peer
 learning and career structure if the organization doesn't protect data craft.
 
-[[person:katiebauer|Katie Bauer]] makes this concrete in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
+[[person:katiebauer=>Katie Bauer]] makes this concrete in
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
 Data science managers work in matrix organizations, and data scientists partner
 with PMs and senior leaders. The manager still has to preserve maintainable
 analytics and documentation. They also need peer review, mentorship, and growth
@@ -72,9 +72,9 @@ structures around 10:41 and Twitter's division-level setup around 24:53. The
 company can keep data people close to product areas while still preserving a
 data leadership chain and shared planning cadence.
 
-[[person:andreyshtylenko|Andrey Shtylenko]]
+[[person:andreyshtylenko=>Andrey Shtylenko]]
 gives an industrial AI version in
-[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building Data Science Practice]].
+[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building Data Science Practice]].
 Central teams standardize tooling and MLOps. Teams embedded in business units
 earn trust locally. A hub-and-spoke model balances autonomy with shared services
 for experiment tracking, annotation, and procurement.
@@ -82,7 +82,7 @@ for experiment tracking, annotation, and procurement.
 ## Roles and Interfaces
 
 Data teams work when people make the interfaces explicit.
-[[podcast:data-team-roles|Data Team Roles Explained]]
+[[podcast:data-team-roles=>Data Team Roles Explained]]
 separates roles by the work each person owns in an ML product. Product managers
 keep the team close to the user. Data scientists test whether the problem
 should become a project.
@@ -104,9 +104,9 @@ The same interface logic links data teams to
 when someone owns the user, the data interface, the quality bar, and the
 decision the output supports.
 
-[[person:caitlinmoorman|Caitlin Moorman]] pushes this
+[[person:caitlinmoorman=>Caitlin Moorman]] pushes this
 interface view hardest in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Conquering the Last Mile in Data]].
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Conquering the Last Mile in Data]].
 Around 26:21, she recommends treating analytics outputs as products and doing
 user research when adoption is poor. Around 34:00 and 38:15, she starts data
 work from the decision it should enable, then embeds metrics in the meetings
@@ -120,8 +120,8 @@ platform team should give other teams paved paths for orchestration, data
 movement, and testing. It should also cover deployment, observability,
 permissions, and documentation.
 
-[[person:mehdiouazza|Mehdi OUAZZA]] describes this in
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Growing a Data Engineering Team in a Scale-Up]].
+[[person:mehdiouazza=>Mehdi OUAZZA]] describes this in
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Growing a Data Engineering Team in a Scale-Up]].
 Self-service platforms help teams onboard, follow conventions, reuse Airflow
 practices, and adopt playbooks without waiting on a central bottleneck. Around
 52:55, he describes a work split of roughly half platform engineering and half
@@ -130,7 +130,7 @@ use-case pipelines.
 Data product ownership asks who's accountable for a data asset once other
 people depend on it. Dehghani's data mesh discussion grounds that answer in
 [[data mesh]],
-[[self-service-data-platforms|self-service data platforms]],
+[[self-service-data-platforms=>self-service data platforms]],
 and [[data engineering platforms]].
 
 Around 16:34, she ties ownership to domains. Around 34:36 and 39:36, she
@@ -141,8 +141,8 @@ shared standards.
 
 Rahul Jain's data engineering leadership episode takes the platform view from a
 manager's seat. In
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms]],
-[[person:16rahuljain|Rahul Jain]] links management to
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]],
+[[person:16rahuljain=>Rahul Jain]] links management to
 stakeholder prioritization, technical credibility, and quality standards. He
 also covers data culture and data reconciliation. The same discussion includes
 access controls, lineage, and the move from ETL to ELT.
@@ -154,8 +154,8 @@ people who rely on it.
 ## Scaling Risks
 
 Small data teams usually start with generalists. In
-[[podcast:building-data-team|Building a Data Science Team]],
-[[person:dattran|Dat Tran]] argues for T-shaped
+[[podcast:building-data-team=>Building a Data Science Team]],
+[[person:dattran=>Dat Tran]] argues for T-shaped
 engineers in early startups, then a shift toward specialists as maturity grows.
 He also ties hiring to product uncertainty. Build the prototype, learn what the
 MVP needs, and then hire around the product vision rather than fashionable
@@ -182,39 +182,39 @@ pipelines while making the platform harder to trust.
 
 Podcast discussions agree that data teams need ownership, communication, and
 trustworthy delivery. They differ on where authority should sit.
-[[person:lisacohen|Cohen]] and
-[[person:katiebauer|Bauer]] focus on reporting lines
+[[person:lisacohen=>Cohen]] and
+[[person:katiebauer=>Bauer]] focus on reporting lines
 and careers in data science teams. Cohen weighs centralization against
 embedded domain context in
-[[podcast:data-science-team-structure-and-org-design|Designing a Data Science Organization]].
+[[podcast:data-science-team-structure-and-org-design=>Designing a Data Science Organization]].
 
 Bauer focuses on manager expectations and craft quality. She also emphasizes
 mentorship and cross-functional work in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS]].
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS]].
 Their shared concern is that data people shouldn't become isolated ticket
 takers, whether they sit in a central team or a matrixed product organization.
 
 Dehghani and Mehdi put more weight on architecture and platform interfaces.
-[[person:zhamakdehghani|Dehghani]] gives domain teams
+[[person:zhamakdehghani=>Dehghani]] gives domain teams
 ownership of interoperable [[data products]]
 with federated governance and self-serve platforms around them in
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh 101]].
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh 101]].
 
-[[person:mehdiouazza|Mehdi OUAZZA]] keeps the scale-up
+[[person:mehdiouazza=>Mehdi OUAZZA]] keeps the scale-up
 platform team in view in
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Growing a Data Engineering Team in a Scale-Up]].
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Growing a Data Engineering Team in a Scale-Up]].
 He names conventions and playbooks. He also names senior hiring, Kafka schemas,
 and schema guarantees. His work split separates shared platform work from
 use-case delivery.
 
 Moorman and Liang both center adoption, but they start from different problems.
-[[person:caitlinmoorman|Moorman]] starts from last-mile
+[[person:caitlinmoorman=>Moorman]] starts from last-mile
 decisions, personas, prototypes, and measurable wins in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Conquering the Last Mile in Data]].
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Conquering the Last Mile in Data]].
 
-[[person:tammyliang|Liang]] starts from business
+[[person:tammyliang=>Liang]] starts from business
 operations and trust repair in
-[[podcast:building-and-scaling-data-team|Building and Leading Data Teams]].
+[[podcast:building-and-scaling-data-team=>Building and Leading Data Teams]].
 She uses dashboards and a warehouse as examples. She also adds forecasting,
 quality checks, and team workshops. A data team isn't healthy just because its
 stack works. People have to use its outputs in real decisions.
@@ -228,10 +228,10 @@ internal data assets. It overlaps with
 [[analytics engineering]]
 when the organization needs tested models, governed metrics, documentation, and
 BI-ready datasets. Liang's
-[[podcast:building-and-scaling-data-team|data team buildout]]
+[[podcast:building-and-scaling-data-team=>data team buildout]]
 shows both: dashboards and forecasting need analytical modeling, while adoption
 work needs the product habits Moorman describes in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 
 [[Data Team Lead Role]] covers
 hiring order, trust repair, adoption, and head-of-data scope. It also covers
@@ -242,4 +242,4 @@ and [[communication]] become part of
 data team design when managers translate stakeholder demand into priorities.
 They also help managers handle career growth and operating standards, as Rahul
 Jain describes in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].

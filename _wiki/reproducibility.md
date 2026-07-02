@@ -32,12 +32,12 @@ The [[MLOps]] version runs through
 lineage, connecting reproducibility to data references, containers, and
 deployment records
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 That makes reproducibility a bridge across engineering, operations, and
 platform work. The engineering side includes
 [[Software Engineering]],
-[[ci-cd|CI/CD]], and
+[[ci-cd=>CI/CD]], and
 [[Testing]]. The operating side includes
 [[Data Quality and Observability]],
 [[Data Governance]], and
@@ -202,7 +202,7 @@ stack.
 - Code and workflow definitions, including reports, transformations, model
   code, infrastructure code, and orchestration dependencies
   ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-  [[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
+  [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]).
 - Inputs or input references. Teams may use immutable raw data, versioned
   datasets, query metadata, or controlled-access data depending on privacy and
   scale
@@ -210,15 +210,15 @@ stack.
 - Environment and dependency records, including package versions, Docker
   images, requirements files, and package registries
   ([[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]],
-  [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 - Run metadata, experiment logs, parameters, metrics, and model registry
   entries
   ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]],
-  [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+  [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - Tests and checks, including data transformation tests, end-to-end tests,
   production data quality checks, and development regression checks
   ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-  [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 - Governance and downstream artifacts, including model outputs,
   visualizations, catalogs, and data governance changes when those artifacts
   change together
@@ -241,6 +241,6 @@ These related pages cover the operating layers around reproducibility.
 - [[Data Lake]]
 - [[Data Governance]]
 - [[Data Quality and Observability]]
-- [[ci-cd|CI/CD]]
+- [[ci-cd=>CI/CD]]
 - [[Testing]]
 - [[Software Engineering]]

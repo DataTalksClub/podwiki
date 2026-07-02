@@ -26,7 +26,7 @@ The title still moves by company. A data scientist may sit close to product
 analytics or
 [[machine learning]]. They may
 also work near
-[[experimentation-and-causal-inference|experimentation]],
+[[experimentation-and-causal-inference=>experimentation]],
 [[data engineering]], or
 first-data-hire responsibilities.
 

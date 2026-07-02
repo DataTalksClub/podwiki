@@ -69,13 +69,13 @@ assessment style varies with them. [[person:katiebauer|Katie Bauer]] treats
 "data scientist" as a broad organizational label whose meaning comes from
 product area, team structure, and company maturity
 ([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]]).
-[[person:terezaiofciu|Tereza Iofciu]] is more skeptical of vague labels:
+[[person:terezaiofciu=>Tereza Iofciu]] is more skeptical of vague labels:
 candidates can discover too late that the job is data engineering, dashboard
 delivery, or unsupported startup exploration
 ([[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Jobs]]).
 
 The manager-versus-expert boundary is sharper.
-[[person:barbarasobkowiak|Barbara Sobkowiak]] separates two roles: a data
+[[person:barbarasobkowiak=>Barbara Sobkowiak]] separates two roles: a data
 science manager needs broad technical literacy, stakeholder communication, team
 development, strategy, and business translation, while a data science expert
 needs deep technical and domain skill in a specific problem area
@@ -151,7 +151,7 @@ must-haves
 ([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]).
 
 Hiring mirrors
-[[career-transitions-in-data|Career Transition]] because
+[[career-transitions-in-data=>Career Transition]] because
 employers need evidence of relevant work. Candidates need to make transferable
 work easy to recognize.
 
@@ -257,7 +257,7 @@ hire for domain context and maintainability, and documentation, peer review, and
 cross-functional communication matter too.
 
 Manager hiring also includes learning and translation.
-[[person:marianosemelman|Mariano Semelman]] moved into managing a new
+[[person:marianosemelman=>Mariano Semelman]] moved into managing a new
 advertising domain with a 30-60-90 plan and many questions, relying on
 transferable data science practices such as problem framing and feature
 thinking, plus evaluation and monitoring with KPIs as the business link

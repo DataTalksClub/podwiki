@@ -13,16 +13,16 @@ related:
 
 Astroinformatics applies data work to astronomy problems where observations
 come from many instruments. The data is large and tied to physical measurement.
-[[person:danielegbo|Daniel Egbo]] grounds the topic in
+[[person:danielegbo=>Daniel Egbo]] grounds the topic in
 radio astronomy rather than generic space-data analytics in
-[[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Applied ML]].
+[[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Applied ML]].
 
 MEERKAT scans the galactic plane. Daniel looks for radio-emitting stars, so the
 work depends on source detection and catalog matching. It also depends on
 uncertainty checks and domain verification.
 
 Daniel's example puts astroinformatics inside
-[[data-pipelines|data pipeline]] work. His
+[[data-pipelines=>data pipeline]] work. His
 pipeline doesn't start with a CSV or end with a dashboard. It starts with
 telescope observations and turns images into candidate sources. It then
 compares those candidates against optical and infrared catalogs. Astronomy
@@ -134,13 +134,13 @@ plans dbt for the analytics layer
 ([[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering|Airflow, MinIO, Spark, and warehouse discussion at 42:48-46:52]]).
 
 Daniel's path also gives a practical route for an
-[[academic-researcher-to-data-science|academic researcher moving into data science]].
+[[academic-researcher-to-data-science=>academic researcher moving into data science]].
 The route keeps domain judgment and adds reusable code, orchestration, storage
 and production-style project habits.
 
-[[person:daynancrull|Daynan]] extends astroinformatics
+[[person:daynancrull=>Daynan]] extends astroinformatics
 into asteroid characterization and resource detection. In
-[[podcast:machine-learning-for-asteroid-mining-and-water-detection|Machine Learning for Asteroid Mining and Water Detection]],
+[[podcast:machine-learning-for-asteroid-mining-and-water-detection=>Machine Learning for Asteroid Mining and Water Detection]],
 he describes using hyperspectral spectroscopy and infrared signatures to
 identify water on near-Earth asteroids. The team combines photometry, light
 curves, and polarimetry as features, and uses a Bayesian framework to fuse

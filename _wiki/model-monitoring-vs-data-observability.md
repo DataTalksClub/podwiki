@@ -16,7 +16,7 @@ deployed model and the production system around it. It asks whether predictions,
 input features, service behavior, and model performance still match the use case
 after deployment.
 
-[[data-quality-and-observability|Data observability]] watches
+[[data-quality-and-observability=>Data observability]] watches
 the health of the data path that feeds analytics and products. Models may depend
 on that path too. It asks whether data is fresh and complete. It also asks
 whether schema, distribution, and lineage still make sense.
@@ -173,7 +173,7 @@ rather than substitutes. DataOps and MLOps adapt the same DevOps and Lean
 principles to different surfaces, with production monitoring the model-specific
 surface for those principles
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
 ## Healthcare and Regulated Safeguards
 
@@ -225,7 +225,7 @@ upstream system changed. It also shows impact and recovery paths.
 Read the underlying topic pages for more detail:
 
 - [[Model Monitoring]]
-- [[data-quality-and-observability|Data Observability]]
+- [[data-quality-and-observability=>Data Observability]]
 - [[Data Quality and Observability]]
 - [[MLOps]]
 - [[DataOps]]

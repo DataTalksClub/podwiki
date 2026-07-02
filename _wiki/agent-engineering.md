@@ -27,19 +27,19 @@ extended with orchestration, tool use, memory, and knowledge stores
 
 Agent engineering therefore sits next to
 [[LLM Production Patterns]],
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 and [[LLM Evaluation Workflows]].
 
 ## Key Agent Episodes
 
 The agent discussions in the podcast cluster around six recurring threads:
 
-- [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]] with [[person:ranjithakulkarni|Ranjitha Kulkarni]] for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
-- [[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]] with [[person:adityagautam|Aditya Gautam]] for enterprise adoption, specialized models, guardrails, and data lineage. It also covers multi-tenant evaluation, human-label alignment, and deployment risk.
-- [[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]] with [[person:micheallanham|Micheal Lanham]] for the lineage from game AI and multi-agent systems to LLM agents. It also covers task decomposition, orchestration designs, SDKs, MCP integration, coding agents, and monitoring.
-- [[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]] with [[person:hugobowneanderson|Hugo Bowne-Anderson]] for generator-evaluator loops, embedded workflow assistants, and RAG-to-agent progression. Examples include email assistants, agent memory, and small-start evaluation.
-- [[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]] with [[person:pauliusztin|Paul Iusztin]] for agents inside the wider AI engineering skill stack.
-- [[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]] with [[person:mariasukhareva|Maria Sukhareva]] for security risks that become sharper when an LLM can retrieve data or take actions.
+- [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]] with [[person:ranjithakulkarni=>Ranjitha Kulkarni]] for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
+- [[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]] with [[person:adityagautam=>Aditya Gautam]] for enterprise adoption, specialized models, guardrails, and data lineage. It also covers multi-tenant evaluation, human-label alignment, and deployment risk.
+- [[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]] with [[person:micheallanham=>Micheal Lanham]] for the lineage from game AI and multi-agent systems to LLM agents. It also covers task decomposition, orchestration designs, SDKs, MCP integration, coding agents, and monitoring.
+- [[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]] with [[person:hugobowneanderson=>Hugo Bowne-Anderson]] for generator-evaluator loops, embedded workflow assistants, and RAG-to-agent progression. Examples include email assistants, agent memory, and small-start evaluation.
+- [[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]] with [[person:pauliusztin=>Paul Iusztin]] for agents inside the wider AI engineering skill stack.
+- [[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]] with [[person:mariasukhareva=>Maria Sukhareva]] for security risks that become sharper when an LLM can retrieve data or take actions.
 
 ## Agents as Workflow Actors
 
@@ -53,7 +53,7 @@ retrieved context. They also define permissions, evaluation, observability, and
 fallback behavior.
 
 There is a strong boundary between
-[[retrieval-augmented-generation|RAG]] and agents. Some cases need only
+[[retrieval-augmented-generation=>RAG]] and agents. Some cases need only
 retrieval, while others need an agent, with retrieval treated as one tool an
 agent can call
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
@@ -75,25 +75,25 @@ Guests agree that agents need tool use, context, and evaluation. They differ on
 the first design constraint. It may be operational reliability, adoption path,
 orchestration style, or enterprise governance.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] starts from production workflows,
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts from production workflows,
 using on-call automation and SRE workflows as examples that cover logs, metrics,
 and remediation. Agents need usable integrations before they can help with
 operational work
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] starts from practical adoption
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts from practical adoption
 with a framework that begins with the problem, starts small, then adds data and
 evaluation. An email assistant example shows a concrete path from Gmail API
 access and RAG to a useful assistant
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-[[person:micheallanham|Micheal Lanham]] starts from workflow design and
+[[person:micheallanham=>Micheal Lanham]] starts from workflow design and
 multi-agent history, emphasizing minimalism and task decomposition, comparing
 sequential flows with manager-agent orchestration, and bringing in the OpenAI
 Agent SDK and MCP integration
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
-[[person:adityagautam|Aditya Gautam]] starts from enterprise risk, linking
+[[person:adityagautam=>Aditya Gautam]] starts from enterprise risk, linking
 specialized models to agent governance, guardrails, and data lineage, and tying
 evaluation to multi-tenancy, scale, and alignment with human labels
 ([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
@@ -164,7 +164,7 @@ information fits the agent's job
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
 For the broader retrieval architecture, see
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 Chunking strategies include fixed length and sliding windows, and retrieval-based
 memory is distinct from multi-turn conversation memory
@@ -262,9 +262,9 @@ constraints around agent systems.
 - [[AI Engineer Role]]
 - [[AI Engineering Roadmap]]
 - [[LLM Production Patterns]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
-- [[retrieval-augmented-generation|RAG]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
+- [[retrieval-augmented-generation=>RAG]]
 - [[LLM Evaluation Workflows]]
 - [[Tools]]
 - [[Production]]

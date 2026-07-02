@@ -20,16 +20,16 @@ the data the model sees. Where prompt engineering asks how to write instructions
 context engineering asks what context to provide and how to shape it so the model
 can use it well.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] introduces
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] introduces
 the term in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 At 27:59, she calls it "more of a rephrasing or rewording of the whole thing so
 that you look at it from a different perspective." At 28:52, she frames context
 engineering as a subfield of prompt engineering focused on being "more deliberate
 about what information you give the LLM rather than stuffing everything in."
 
 The topic sits at the intersection of
-[[retrieval-augmented-generation|RAG]],
+[[retrieval-augmented-generation=>RAG]],
 [[Embeddings]], and
 [[Agent Engineering]]. Every
 retrieval pipeline, agent memory design, and production prompt strategy touches
@@ -45,9 +45,9 @@ models have become more capable and can fill a 32k context window, but "beyond
 that, many models don't do very well." Reducing the context window so the LLM
 isn't burdened with runtime processing is the starting point.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] makes
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] makes
 the same point through the concept of context rot in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 At 46:39, he references Jeff Huber and the Chroma team's essay on context rot:
 "giving too much context can reduce precision and relevance." He illustrates it
 with a concrete observation: when processing a long transcript, the model
@@ -57,9 +57,9 @@ your prompt and repeat it at the end."
 
 ## Context Window Limits and the 32k-64k Performance Drop
 
-[[person:lavanyagupta|Lavanya Gupta]] provides empirical
+[[person:lavanyagupta=>Lavanya Gupta]] provides empirical
 evidence on context window performance in
-[[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research & Career Growth]].
+[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research & Career Growth]].
 Her team at JP Morgan benchmarked long-context LLMs on financial concepts. At
 12:36, she reports "a clear dip" around the 32k token boundary. They split
 evaluations into less than 32k tokens and greater than 32k tokens. She adds that
@@ -116,7 +116,7 @@ A key context engineering decision is whether to retrieve at all. Hugo's 44:26
 section gives a practical example. An edtech company wanted an all-purpose AI
 tutor, but their support tickets revealed that 20% were simple questions like
 "which class is this lesson in?" A simple
-[[retrieval-augmented-generation|RAG]] bot with good chunking and embeddings
+[[retrieval-augmented-generation=>RAG]] bot with good chunking and embeddings
 could solve one in five support tickets immediately. That is less flashy than a
 moonshot tutor but delivers real business value. The lesson is that context
 engineering should match the actual information need, not the aspirational one.
@@ -132,9 +132,9 @@ orchestration.
 ## Related Pages
 
 - [[Agent Engineering]]
-- [[retrieval-augmented-generation|RAG]]
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[retrieval-augmented-generation=>RAG]]
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]
 - [[Embeddings]]
-- [[long-context-llm-evaluation|Long-Context LLM Evaluation]]
+- [[long-context-llm-evaluation=>Long-Context LLM Evaluation]]

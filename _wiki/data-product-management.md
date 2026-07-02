@@ -22,15 +22,15 @@ which covers the artifact, and
 [[Data Product Adoption]],
 which covers whether people trust and use the work. It also overlaps with
 [[Product Analytics]],
-[[a-b-testing|A/B Testing]], and
+[[a-b-testing=>A/B Testing]], and
 [[Experimentation and Causal Inference]]
 when a data product changes customer behavior. Internal technical products put
 the role near [[MLOps]],
 [[Data Engineering Platforms]],
-[[self-service-data-platforms|Self-Service Data Platforms]],
+[[self-service-data-platforms=>Self-Service Data Platforms]],
 and [[Data Mesh]].
 
-[[person:saramenefee|Sara Menefee]]'s move from product design into the role
+[[person:saramenefee=>Sara Menefee]]'s move from product design into the role
 illustrates data product management as regular product work with data-specific
 literacy ([[Product Designer to Data Product Manager]]).
 
@@ -131,7 +131,7 @@ release governance and rollout timing matter too
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 That platform version sits close to
 [[Model Monitoring]] and
-[[self-service-data-platforms|Self-Service Data Platforms]].
+[[self-service-data-platforms=>Self-Service Data Platforms]].
 
 The same product boundary appears inside a lead data scientist role. Intake,
 Definition of Done, KPIs, and feasibility checks structure the work, and pilots,
@@ -173,7 +173,7 @@ lifecycle includes rollout, monitoring, demos, and stakeholder feedback
 
 When a data product changes a customer or product workflow, success often needs
 [[Product Analytics]],
-[[a-b-testing|A/B Testing]], and causal thinking.
+[[a-b-testing=>A/B Testing]], and causal thinking.
 In A/B testing reporting, decision-makers need interpretation and a usable
 choice, not only statistical output
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
@@ -208,7 +208,7 @@ stakeholder feedback
 
 This operating ownership puts data product management near
 [[Data Quality and Observability]],
-[[data-quality-and-observability|Data Observability]],
+[[data-quality-and-observability=>Data Observability]],
 [[Model Monitoring]], and
 [[Production]]. The product manager
 doesn't replace the people who build those systems. They keep the product

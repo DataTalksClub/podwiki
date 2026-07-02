@@ -37,7 +37,7 @@ collecting more tool names. Stable engineering fundamentals sit at the center of
 long-lived growth: SQL and Git stay useful as stacks change, and shell work,
 debugging, and problem decomposition travel too
 ([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career]],
-[[person:krzysztofszafanek|Krzysztof Szafanek]]).
+[[person:krzysztofszafanek=>Krzysztof Szafanek]]).
 
 The T-shaped model keeps depth as the source of credibility, while breadth lets a
 person move across web and game work as well as platform and LLM work
@@ -65,7 +65,7 @@ Visibility helps, but the kind that matters is contested. Self-marketing and
 open-source adoption can change recognition outcomes, and internal persuasion,
 brag documents, and signature initiatives connect to promotion outcomes
 ([[podcast:developer-personal-brand-learn-in-public|Learn in Public]],
-[[person:swyx|Shawn Swyx Wang]]).
+[[person:swyx=>Shawn Swyx Wang]]).
 
 A quieter boundary treats early writing as mainly a way to clarify thinking and
 help future teammates, rather than a way to chase a large public audience
@@ -99,7 +99,7 @@ The through-line isn't one framework; it's the ability to debug, use the
 terminal, reason about data, and divide problems into smaller tests.
 
 That view is especially important for
-[[machine-learning-engineer-role|machine learning engineering]]
+[[machine-learning-engineer-role=>machine learning engineering]]
 and [[MLOps]], where seniority often shows
 up as system diagnosis rather than model selection alone. The adjacent
 [[ML platform engineer role]]
@@ -173,7 +173,7 @@ relationship: useful sessions need goals and agendas, expectations, and a
 decision about what the mentee will do next
 ([[podcast:mentoring-in-tech-how-to-find-and-become-a-mentor|mentoring episode]]).
 For someone navigating a
-[[career-transitions-in-data|career transition]] or
+[[career-transitions-in-data=>career transition]] or
 [[career development]],
 mentoring makes the path more structured.
 
@@ -213,7 +213,7 @@ It also connects to role-specific project pages such as
 ## Adjacent Career Topics
 
 Career growth usually follows a
-[[career-transitions-in-data|career transition]] or broader
+[[career-transitions-in-data=>career transition]] or broader
 [[career development]] question,
 then turns into concrete evidence for
 [[job search]] and

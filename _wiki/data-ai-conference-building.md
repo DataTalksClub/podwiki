@@ -17,7 +17,7 @@ between talks. Data Makers Fest followed earlier Portuguese data meetups and
 community initiatives such as DSPT Day, World Data League, and Data Lead Club
 ([[podcast:s23e09-starting-data-conference-data-makers-fest-story|Starting a Data Conference: The Data Makers Fest Story]]).
 The conference is bigger than a stage program and serves as a
-[[community-building|community-building]] system
+[[community-building=>community-building]] system
 for practitioners and managers as well as students, sponsors, and speakers.
 
 The topic stays close to operations. Venue deposits and calendar timing sit
@@ -134,7 +134,7 @@ production are costly too
 The career benefit comes from real responsibility over people and sponsors. It
 also includes vendors, speakers, and community expectations
 ([[podcast:s23e09-starting-data-conference-data-makers-fest-story|Starting a Data Conference]],
-[[person:leonidkholkine|Leonid Kholkine]]).
+[[person:leonidkholkine=>Leonid Kholkine]]).
 
 ## Related Pages
 
@@ -145,6 +145,6 @@ Use these pages for nearby community, leadership, career, and team context.
 - [[Leadership]]
 - [[Career Growth]]
 - [[Data Teams]]
-- [[person:leonidkholkine|Leonid Kholkine]]
-- [[podcast:s23e09-starting-data-conference-data-makers-fest-story|Starting a Data Conference: The Data Makers Fest Story]]
+- [[person:leonidkholkine=>Leonid Kholkine]]
+- [[podcast:s23e09-starting-data-conference-data-makers-fest-story=>Starting a Data Conference: The Data Makers Fest Story]]
 </content>

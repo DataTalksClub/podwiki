@@ -31,7 +31,7 @@ user-facing system.
 Data scientists and ML engineers need to adopt it, and so do product teams and
 governance stakeholders
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]).
 
 ## Reusable Path from Experiment to Production
 
@@ -41,25 +41,25 @@ path begins with self-service compute and notebooks, adds
 extends to batch inference, online serving, and orchestration, with metadata,
 lineage, and governance in the same path
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 A similar path runs through a centralized MLOps team that supports product teams
 with CI, repository structure, parameterization, and tests, then data versioning
 and experiment capture, then serving and monitoring, with package registries and
 container choices following
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 In this definition, a platform is broader than one tool and narrower than the
 whole engineering organization.
-[[book:20221107-machine-learning-on-kubernetes|Machine Learning on Kubernetes]]
+[[book:20221107-machine-learning-on-kubernetes=>Machine Learning on Kubernetes]]
 by Ross Brigoli and Faisal Masood covers the Kubernetes-native implementation of this platform surface: from training and serving operators to model registries and monitoring on shared infrastructure.
 
 A pragmatic MLOps stack starts with Git, CI/CD, registries, and model
 registries, with reproducibility and reusable repositories coming before more
 specialized layers
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 That makes an ML platform close to
 [[Platform Engineering]] and
 [[Developer Experience]]:
@@ -73,13 +73,13 @@ pays off when repeated training, serving, deployment, or governance problems
 appear across teams, but building a heavy platform before the organization has
 real models and business needs is a mistake
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 Enablement and adoption matter as much as infrastructure. A platform team earns
 trust by collecting pain points and delivering quick wins, improves developer
 experience, and measures itself by deployment frequency and impact
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 That view connects ML platforms to
 [[Platform Adoption]] as much as
 to infrastructure.
@@ -88,7 +88,7 @@ An internal ML platform is a product with users, roadmap choices, specs, and
 rollout governance, and its usability carries real costs; observability metrics,
 surveys, and quality gates are part of the same platform product work
 ([[person:geojolly|Geo Jolly]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]).
 That pushes the boundary toward
 [[ML Product Manager Role]]
 and [[self-service-data-platforms|Self-Service Data Platforms]].
@@ -98,7 +98,7 @@ training, along with PyTorch and NCCL. Communication bottlenecks, Kubernetes
 limits, Slurm-like scheduling, and bare-metal provisioning are infrastructure
 concerns too
 ([[person:andreycheptsov|Andrey Cheptsov]],
-[[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
+[[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 
 For large-model teams, the ML platform overlaps heavily with
 [[AI Infrastructure]]. For
@@ -113,7 +113,7 @@ cloud resources. Experiment tracking, model registries, batch jobs, and online
 serving form the path from exploration to production, and orchestration ties
 that path together
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Thin abstractions over cloud providers help when they reduce repetitive
 infrastructure work without hiding every detail
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
@@ -124,12 +124,12 @@ platform. Poor tooling usability has a productivity cost, so roadmap work needs
 user interviews and workshops, and adoption plans and rollout sequencing matter
 too
 ([[person:geojolly|Geo Jolly]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]).
 
 A platform team should gather pain points, deliver visible improvements, and
 keep feedback loops open with product teams
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 For ML platforms, [[Developer Experience]]
 isn't a polish layer. It's how notebooks and CI templates become usable, and
@@ -153,7 +153,7 @@ testing, plus data versioning and serving, with monitoring and package
 registries in the same path; Docker, Kubernetes, and Databricks tradeoffs affect
 deployment
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Feature stores are a specialized lifecycle service when teams need reliable
 real-time features. They reduce duplicated feature logic, training-serving skew,
@@ -161,7 +161,7 @@ and slow production handoffs, and sit inside the ML lifecycle alongside
 materialization, serving, and validation, with registries and monitoring part of
 that feature platform architecture
 ([[person:willempienaar|Willem Pienaar]],
-[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
 That makes feature platforms useful for online tabular use cases, but not a
 default requirement for every ML platform.
 
@@ -173,13 +173,13 @@ existing infrastructure, Kubernetes, Git, CI/CD, and registries form the base
 layer, and cookie-cutter repositories, service principals, and packaged notebook
 logic are part of the same standardized path
 ([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 
 The same warning holds from the adoption side: standards land better after a
 team has found tangible pain and delivered quick wins, and deployment frequency
 and impact measures help show value
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 The platform should therefore standardize where teams repeatedly struggle. That
 can include repository layout, release paths, and artifact storage. Dependency
@@ -196,7 +196,7 @@ Enterprise ML platforms need more than convenience tooling. Platform design ties
 to metadata, lineage, artifact logging, and security, and GDPR implications,
 dataset retention, and unified prediction schemas guide monitoring and analytics
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Those requirements connect ML platforms directly to
 [[Reproducibility]],
 [[Governance]], and
@@ -207,7 +207,7 @@ realistic experimentation, retraining, and feedback loops; MLOps automation,
 standardization, and CI/CD follow from that readiness work, as do governance,
 reproducibility, and long-term platform selection
 ([[person:alexanderhendorf|Alexander Hendorf]],
-[[podcast:scaling-enterprise-ai-mlops-data-first-strategy|Scaling Enterprise AI]]).
+[[podcast:scaling-enterprise-ai-mlops-data-first-strategy=>Scaling Enterprise AI]]).
 Governance is part of the release path for production models, not a separate
 compliance step after deployment.
 
@@ -216,7 +216,7 @@ timing are platform work when the platform controls how models reach users, and
 model validation, shadowing, and release checklists belong in the same rollout
 path
 ([[person:geojolly|Geo Jolly]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]).
 
 ## Compute and Orchestration
 
@@ -225,13 +225,13 @@ orchestration. The ML platform skill set includes cloud infrastructure,
 Kubernetes, Terraform, and managed compute, along with notebooks, batch jobs,
 online serving, and pipeline orchestration
 ([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 On the reproducibility side, dependency compatibility, package registries, and
 Docker images affect whether teams can deploy models, and Kubernetes and
 Databricks choices can prevent or create integration problems
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Modern large-model work pushes this further. Cloud versus on-prem economics and
 GPU allocation become platform design concerns, teams need distributed training,
@@ -239,7 +239,7 @@ communication overhead, and DeepSpeed-style optimization, and Kubernetes
 limitations, Slurm-like schedulers, and bare-metal automation enter the same
 design space when teams train or serve large models
 ([[person:andreycheptsov|Andrey Cheptsov]],
-[[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
+[[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 That's where ML platforms meet
 [[AI Infrastructure]] and
 [[Machine Learning System Design]].
@@ -260,5 +260,5 @@ These pages cover narrower lifecycle, product, and infrastructure topics.
 - [[Reproducibility]]
 - [[Governance]]
 - [[AI Infrastructure]]
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
 - [[ML Product Manager Role]]

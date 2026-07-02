@@ -32,7 +32,7 @@ serving, orchestration, and governance
 Experiment tracking for ML and AI work centers on run capture and
 reproducibility. It also preserves team memory and connects runs to the wider
 platform. It doesn't cover general product
-[[a-b-testing|A/B testing]] or broader
+[[a-b-testing=>A/B testing]] or broader
 [[experimentation]]. For adjacent
 topics, use
 [[Evaluation]] for judging runs and
@@ -71,19 +71,19 @@ sector requirements determine how heavy the practice must become.
 ## Adoption Timing
 
 Guests differ on when teams should add tracking.
-[[person:simonstiebellehner|Simon Stiebellehner]] starts early, because tracking
+[[person:simonstiebellehner=>Simon Stiebellehner]] starts early, because tracking
 gives teams a quick reproducibility and collaboration win before the full
 release path
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-[[person:raphaelhoogvliets|Raphael Hoogvliets]] starts from team pain points
+[[person:raphaelhoogvliets=>Raphael Hoogvliets]] starts from team pain points
 instead of a fixed tool sequence: the first MLOps move depends on the
 organization
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). A team
 might start with CI/CD, deployment, monitoring, or another visible bottleneck,
 then add experiment capture as part of the operating system for ML.
 
-[[person:johannabayer|Johanna Bayer]] gives the research version: a stack of
+[[person:johannabayer=>Johanna Bayer]] gives the research version: a stack of
 Git, environments, formatting, versioning, and MLflow
 ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]]).
 The project uses sensitive clinical data that can't simply be pushed to a
@@ -147,7 +147,7 @@ design mattering too
 Experiment tracking sits inside broader MLOps tooling, near version control,
 CI/CD, containers, registries, serving, and monitoring
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
-[[person:mariavechtomova|Maria Vechtomova]] makes a related standardization point
+[[person:mariavechtomova=>Maria Vechtomova]] makes a related standardization point
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
 
 Version control, CI/CD, registries, documentation, reproducibility, and

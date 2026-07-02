@@ -39,7 +39,7 @@ The DataOps version of the same move puts tests under version control to reduce
 data-pipeline fear and rework, then adds CI/CD and monitoring, with runbooks
 tied to deployment automation
 ([[podcast:dataops-automation-and-reliable-data-pipelines|DataOps Automation]],
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]).
 That makes DataOps the most direct bridge between DevOps practice and production
 data engineering.
 
@@ -169,7 +169,7 @@ inputs, transforms those inputs into useful tables, reports failures, and
 supports a rerun or backfill path. That mirrors the automation route and the
 advice to build around a concrete platform problem
 ([[podcast:from-devops-to-data-engineering-automation-open-source-volunteering|From DevOps to Data Engineering]],
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
 Build the first project as a small data platform rather than a tutorial clone.
 A worked portfolio stack includes DuckDB, dbt, Superset, and orchestration, plus
@@ -185,7 +185,7 @@ behavior, alerts, and an incident or recovery story. CI/CD, regression tests,
 observability, deployment automation, versioning, and runbooks all belong in
 that proof
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
-[[podcast:dataops-automation-and-reliable-data-pipelines|DataOps Automation]]).
+[[podcast:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]).
 
 Use open source when the current job can't provide data projects. A return to
 corporate technical work can run through open-source and community work,
@@ -209,7 +209,7 @@ analytics-engineering role but avoids SQL and data modeling. Those roles sit
 closer to modeled business data and metrics, and require stakeholder definitions
 and warehouse-side transformations
 ([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]],
-[[podcast:data-engineering-tools-modern-data-stack|Modern Data Stack]],
+[[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
 [[Data Analyst vs Analytics Engineer]]).
 
 Narrow the target before building proof. For platform data engineering, build a
@@ -223,14 +223,14 @@ consumer-facing data products
 The transition is easiest to compare against nearby role, stack, portfolio, and
 reliability topics.
 
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]
 - [[Career Transitions in Data]]
 - [[Data Engineering]]
-- [[data-engineer-roadmap|Data Engineering Roadmap]]
+- [[data-engineer-roadmap=>Data Engineering Roadmap]]
 - [[Data Engineering Platforms]]
 - [[Data Engineering Portfolio Projects]]
 - [[DataOps]]
-- [[data-quality-and-observability|Data Observability]]
+- [[data-quality-and-observability=>Data Observability]]
 - [[Data Quality and Observability]]
 - [[Modern Data Stack]]
 - [[MLOps vs DevOps]]

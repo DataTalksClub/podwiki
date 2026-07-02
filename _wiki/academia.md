@@ -33,7 +33,7 @@ too.
 
 That's why this page overlaps with
 [[Academic Researcher to Data Science]],
-[[career-transitions-in-data|Career Transition]], and
+[[career-transitions-in-data=>Career Transition]], and
 [[Notebook to Production AI Systems]].
 
 ## Academic Training as Data Practice
@@ -237,7 +237,7 @@ selection, internships, and trial research before committing to a PhD
 Continue through these pages for narrower podcast-backed views:
 
 - [[Academic Researcher to Data Science]]
-- [[career-transitions-in-data|Career Transition]]
+- [[career-transitions-in-data=>Career Transition]]
 - [[Career Growth]]
 - [[Job Search]]
 - [[Hiring]]

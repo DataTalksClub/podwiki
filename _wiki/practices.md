@@ -19,18 +19,18 @@ after the first demo. DataTalks.Club guests use the term most often in
 work repeatable and visible to others. It must change how a team ships,
 reviews, or recovers.
 
-[[person:christopherbergh|Christopher Bergh]] gives
+[[person:christopherbergh=>Christopher Bergh]] gives
 the DataOps version in
-[[podcast:dataops-automation-and-reliable-data-pipelines|6:42|Mastering DataOps]].
+[[podcast:dataops-automation-and-reliable-data-pipelines@6:42=>Mastering DataOps]].
 Teams reduce errors, shorten deployment cycle time, and improve productivity.
-[[person:mariavechtomova|Maria Vechtomova]] gives the
+[[person:mariavechtomova=>Maria Vechtomova]] gives the
 MLOps version in
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps at 11:10 and 12:42]].
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps at 11:10 and 12:42]].
 Teams enable reproducible model delivery with shared infrastructure, reusable
 CI/CD, and standard repositories. Registries and monitoring complete that
 baseline.
 Nikolay Smorchkov's
-[[book:20251006-software-development-at-rocket-speed|Software Development at Rocket Speed]]
+[[book:20251006-software-development-at-rocket-speed=>Software Development at Rocket Speed]]
 addresses the same delivery-speed question from the software side: how
 requirements decomposition, estimation, and incremental delivery keep teams
 shipping rather than stuck in analysis.
@@ -44,16 +44,16 @@ observability, and environment management support the same path
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps at 33:47 / 34:37 / 56:32]]).
 
 Vechtomova starts with the infrastructure a company already has. In
-[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps at 16:27 and 18:41]],
+[[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps at 16:27 and 18:41]],
 she names Git, Kubernetes, and CI/CD before more specialized platform work. She
 also includes registries, object storage, and model registry options.
 
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]] puts
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]] puts
 developer experience and trust first. His MLOps team collects pain points and
 delivers quick wins. It watches deployment frequency and standardizes only
 after teams see value
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale at 27:56 / 32:46 / 36:55]]).
-[[person:nadianahar|Nadia Nahar]] puts shared
+[[person:nadianahar=>Nadia Nahar]] puts shared
 vocabulary and requirements alignment near the center. Documentation matters
 for her because ML systems fail through organizational ambiguity as well as code
 defects
@@ -87,8 +87,8 @@ Those concerns overlap with [[ci-cd|CI/CD]],
 
 Testing changes by domain because data pipelines need data quality checks plus
 snapshot, SQL, Spark, and integration coverage. In
-[[podcast:production-ready-ai-engineering|Production AI Engineering at 9:05 / 11:47 / 13:14]],
-[[person:bartoszmikulski|Bartosz Mikulski]] compares
+[[podcast:production-ready-ai-engineering=>Production AI Engineering at 9:05 / 11:47 / 13:14]],
+[[person:bartoszmikulski=>Bartosz Mikulski]] compares
 tools such as Great Expectations and Soda with SQL-based and Spark-based tests.
 He treats testing as a way to stop the familiar "this number doesn't look
 correct" failure before it reaches users.
@@ -99,8 +99,8 @@ quality discussion
 ([[podcast:production-ready-ai-engineering|Production AI Engineering at 28:16 / 30:00 / 31:45]]).
 
 Product experiments need different gates. In
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing at 8:13 and 24:44]],
-[[person:jakobgraff|Jakob Graff]] focuses on
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing at 8:13 and 24:44]],
+[[person:jakobgraff=>Jakob Graff]] focuses on
 randomization, traffic assignment, and assignment tracking. Monitoring belongs
 with the same experimental gate. He also links reliable experiments to A/A
 tests and metric stability. Power analysis, statistical tests, and distribution
@@ -108,13 +108,13 @@ checks round out the practice
 ([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing at 27:52 / 33:23 / 37:44 / 40:23 / 44:39]]).
 
 Those practices belong with [[a-b-testing|A/B Testing]],
-[[a-a-testing|A/A Testing]], and
+[[a-a-testing=>A/A Testing]], and
 [[Causal Inference]] rather than
 generic software unit testing.
 
 Open source projects expose the social side of testing. In
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML at 25:50 and 27:40]],
-[[person:vincentwarmerdam|Vincent Warmerdam]] connects
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML at 25:50 and 27:40]],
+[[person:vincentwarmerdam=>Vincent Warmerdam]] connects
 good issues and pull requests to reproducible examples, tests, and CI.
 Packaging and pre-commit hooks help maintainers review faster because the
 failure is easy to reproduce. That makes testing part of
@@ -197,7 +197,7 @@ environments, quality, and recovery. MLOps covers model release, monitoring,
 reproducibility, and support for product teams. Experimentation ownership stays
 close to metric design and assignment tracking. Power analysis and
 interpretation stay with the same owner, as Graff explains in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing at 14:27 / 24:44 / 37:44 / 47:44]].
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing at 14:27 / 24:44 / 37:44 / 47:44]].
 
 Those differences matter for role pages such as
 [[MLOps Engineer]] and for

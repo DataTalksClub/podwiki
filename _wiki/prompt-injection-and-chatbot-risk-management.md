@@ -33,7 +33,7 @@ problem inside the prompt.
 ## Production Boundary
 
 Prompt injection is an attack against the instruction boundary of an
-[[llms|LLM]] application. In one data-exfiltration case, users overloaded the
+[[llms=>LLM]] application. In one data-exfiltration case, users overloaded the
 chatbot with irrelevant instructions and dense characters, and some used
 crafted API requests or code-like retrieval attempts. The model ignored the
 original restriction and exposed hidden knowledge-base content
@@ -198,6 +198,6 @@ retrieval, and governance.
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]
 - [[Responsible AI and Governance]]
-- [[retrieval-augmented-generation|RAG]]
+- [[retrieval-augmented-generation=>RAG]]
 - [[LLM Evaluation Workflows]]
 - [[Data Governance]]

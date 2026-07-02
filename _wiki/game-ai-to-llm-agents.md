@@ -12,11 +12,11 @@ related:
 ---
 
 Game AI to LLM agents links older game and simulation ideas to modern
-[[agent-engineering|AI agents]]. It also brings search
+[[agent-engineering=>AI agents]]. It also brings search
 and optimization ideas into agent workflows. The grounding episode is
-[[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]].
+[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 In it,
-[[person:micheallanham|Micheal Lanham]] traces that
+[[person:micheallanham=>Micheal Lanham]] traces that
 lineage from game-like cognitive testing and evolutionary methods to current
 work on multi-agent support assistants.
 
@@ -100,7 +100,7 @@ the workflow into tasks for individual agents
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
 20:49-20:57). [[person:micheallanham|Lanham's]]
 advice makes this topic a concrete companion to
-[[multi-agent-systems|Multi-Agent Systems]] and
+[[multi-agent-systems=>Multi-Agent Systems]] and
 [[Agent Engineering]].
 
 He distinguishes three coordination designs. In a flow, requirements agents pass
@@ -176,7 +176,7 @@ systems need feedback mechanisms to assess performance consistency and
 understand output variance
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
 57:39). For production applications,
-[[person:micheallanham|Lanham]] emphasizes evaluation
+[[person:micheallanham=>Lanham]] emphasizes evaluation
 pipelines and variable control. He also emphasizes behavior explanation and
 monitoring tools such as Arize Phoenix
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],

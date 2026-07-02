@@ -18,11 +18,11 @@ An ML platform engineer builds the shared path that model builders use to
 train, deploy, monitor, and govern machine learning systems. The role sits
 between [[MLOps]],
 [[platform engineering]], and
-[[machine-learning-engineer-role|machine learning engineering]].
+[[machine-learning-engineer-role=>machine learning engineering]].
 It's less about owning one model and more about making many model teams faster
 and safer.
 
-[[person:simonstiebellehner|Simon Stiebellehner]]
+[[person:simonstiebellehner=>Simon Stiebellehner]]
 describes that platform version directly. His discussion starts with deployment
 blockers, then moves through cloud infrastructure and Terraform on Kubernetes.
 It follows data science workflows into experiment tracking and model registries.
@@ -84,7 +84,7 @@ These responsibilities put the role near
 [[governance]], and
 [[reproducibility]].
 
-[[person:mariavechtomova|Maria Vechtomova]] describes
+[[person:mariavechtomova=>Maria Vechtomova]] describes
 pragmatic standardization with Git, CI/CD, registries, and Kubernetes.
 Reusable repositories and existing engineering primitives come before more
 platform layers
@@ -100,7 +100,7 @@ and business needs. He recommends looking for standardization triggers, then
 growing small platform pieces alongside actual use
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 16:52-20:04 and 47:08-49:19]]).
 
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]]
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]
 describes an enabling-team version of the role. His centralized MLOps team
 supports product teams, gathers pain points, and earns adoption through quick
 wins
@@ -110,7 +110,7 @@ In that version of the role,
 [[developer experience]] are
 core concerns rather than polish work after the platform exists.
 
-[[person:geojolly|Geo Jolly]] makes the product
+[[person:geojolly=>Geo Jolly]] makes the product
 management layer explicit. In his ML platform strategy episode, internal data
 scientists and analysts are customers. User feedback and platform usability
 guide the roadmap. Observability KPIs and release governance set priorities
@@ -123,7 +123,7 @@ still depends on understanding what internal users do every week.
 
 ## Enablement and Support
 
-[[person:krzysztofszafanek|Krzysztof Szafanek]] gives
+[[person:krzysztofszafanek=>Krzysztof Szafanek]] gives
 the engineer-as-consultant version from Zalando. His ML platform work includes
 the `zflow` library and pipeline architecture. Onboarding, training, and user
 support also belong in the role
@@ -156,7 +156,7 @@ Krzysztof frames the useful profile as T-shaped
 ([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career, 35:23]]).
 
 Ownership separates the role from a
-[[machine-learning-engineer-role|machine learning engineer]].
+[[machine-learning-engineer-role=>machine learning engineer]].
 Machine learning engineers often own one model-backed capability, while ML
 platform engineers own the paved paths that many such capabilities use. The
 boundary with [[MLOps]] is narrower: MLOps

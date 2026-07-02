@@ -19,21 +19,21 @@ related_wiki:
 Teams can choose grounding context for an LLM with graph RAG or vector RAG.
 Vector RAG retrieves semantically similar text or records with
 [[embeddings]] and often a
-[[vector-databases|vector database]]. Graph RAG
+[[vector-databases=>vector database]]. Graph RAG
 retrieves entities and typed relationships from a knowledge graph. It can also
 retrieve paths, neighborhoods, and structured facts before the model writes an
 answer.
 
-[[person:atitaarora|Atita Arora]] gives the vector RAG
+[[person:atitaarora=>Atita Arora]] gives the vector RAG
 side in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 at 38:24-42:49. [[person:anahitapakiman|Anahita Pakiman]]
 gives the graph side in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 at 33:43-39:56.
 
 DataTalks.Club guests treat both approaches as complementary retrieval designs inside
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 and the broader
 [[Search]]
 stack. [[retrieval-augmented-generation|RAG]] covers implementation mechanics,
@@ -56,9 +56,9 @@ query and places nearby chunks or records into the prompt. That puts
 center of the implementation. The retrieval layer still needs chunking,
 metadata, citations, and evaluation.
 
-[[person:atitaarora|Atita Arora]] uses a
+[[person:atitaarora=>Atita Arora]] uses a
 podcast-transcript chatbot as the clearest example in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 At 30:38 she defines RAG as retrieval plus generation. At 38:24-42:49, the
 pipeline chunks transcripts and chooses overlap. It embeds the chunks,
 retrieves relevant pieces, and asks the LLM to answer with prompt instructions
@@ -66,9 +66,9 @@ and citations.
 
 Graph RAG starts from modeled relationships, so teams can retrieve entities and
 edges. They can also retrieve paths, neighborhoods, or query results.
-[[person:anahitapakiman|Anahita Pakiman]] connects
+[[person:anahitapakiman=>Anahita Pakiman]] connects
 knowledge graphs with LLM grounding at 33:43 in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]].
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
 
 At 38:10 she contrasts text chunks in a vector database with graph semantics.
 The graph can preserve chapters, containment, and parent-child links. It can
@@ -85,7 +85,7 @@ neighborhoods, and facts.
 ## Text Similarity, Relationships, or Both
 
 Atita's vector RAG framing starts from user-facing retrieval quality. In
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
 she emphasizes chunk size, overlap, and embedding models at 38:24-48:09. She
 also covers retrieval count and prompt context. References, offline checks, and
 human-in-the-loop evaluation matter too.
@@ -101,7 +101,7 @@ examples need relationships between simulations and chapters. They also need
 links across reports, parts, and engineering concepts.
 
 At 15:58-20:32 in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]],
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]],
 knowledge graphs support semantic reporting and simulation comparison. They
 also support clustering and load-path detection. Around 42:42, she warns that
 LLM-extracted graph content still needs verification. Graph RAG adds modeling
@@ -110,7 +110,7 @@ the answer fails because the system loses relationships, order, constraints, or
 traceable facts.
 
 Production-search discussions add a third pressure: relevance in a product.
-[[podcast:building-production-search-systems|Building Search Systems]]
+[[podcast:building-production-search-systems=>Building Search Systems]]
 shows that vector similarity often has to work with filters, recency, and
 popularity at 34:00-45:11. Metadata, behavior, and query-time weights matter
 too. That doesn't make the system graph RAG, but it pushes teams away from a
@@ -181,7 +181,7 @@ validated facts, dependency paths, or provenance. The prompt can then include
 text evidence and structured context.
 
 Use
-[[retrieval-augmented-generation|RAG]] and
+[[retrieval-augmented-generation=>RAG]] and
 [[Search]]
 for the wider retrieval architecture. Use
 [[vector databases]],
@@ -232,7 +232,7 @@ hallucination from the answer layer into the retrieval layer
 ([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]).
 
 Production search adds product-level evaluation. In
-[[podcast:building-production-search-systems|Building Search Systems]],
+[[podcast:building-production-search-systems=>Building Search Systems]],
 the 12:45 candidate-generation discussion and the 34:00 hybrid-search section
 make the same point. Teams should judge retrieval by relevance, latency,
 filters, and ranking quality. User behavior matters too. A plausible
@@ -242,7 +242,7 @@ nearest-neighbor result isn't enough.
 
 These pages cover the surrounding retrieval, search, and LLM-system topics:
 
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] and [[retrieval-augmented-generation|RAG]] cover broader RAG structure, chunking, citations, and evaluation.
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover broader RAG structure, chunking, citations, and evaluation.
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.
 - [[Vector Databases]] and [[Embeddings]] cover the vector side of the architecture.
 - [[Search and RAG Project Checklist]] turns the comparison into implementation and evaluation checks.

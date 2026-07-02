@@ -218,11 +218,11 @@ Use data product manager when the missing work is product direction:
 That fit is strongest for early discovery and roadmap formation. It also fits
 internal platform strategy, adoption repair, and cross-functional
 prioritization. Discovery and product lifecycle work appear in
-[[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]],
+[[podcast:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]],
 business-first roadmaps and success metrics in
-[[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]],
+[[podcast:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]],
 and the internal ML platform version in
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]].
+[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 
 If you have neither role, don't start by debating titles. Start by naming the
 missing decisions. If nobody owns guarantees and release quality, you need the

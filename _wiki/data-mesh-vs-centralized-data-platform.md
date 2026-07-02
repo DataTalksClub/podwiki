@@ -24,28 +24,28 @@ Data Mesh and a centralized data platform answer different parts of the same
 operating decision. The decision assigns ownership for data meaning and
 quality. It also assigns ownership for access, reliability, and consumer
 support. In
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
-[[person:zhamakdehghani|Zhamak Dehghani]] frames
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]],
+[[person:zhamakdehghani=>Zhamak Dehghani]] frames
 [[Data Mesh]] as a decentralized
 socio-technical model where business domains publish data as products.
 
 In
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-[[person:larsalbertsson|Lars Albertsson]] frames the
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+[[person:larsalbertsson=>Lars Albertsson]] frames the
 central platform around storage, compute, and workflow engines. Self-service
 analytics, lineage, and versioning sit in the same platform discussion.
 
 These episodes frame the choice as an ownership boundary, not as modern versus
 old. A Data Mesh moves product accountability toward domains that understand
 the data. A centralized
-[[data-engineering-platforms|Data Engineering Platform]]
+[[data-engineering-platforms=>Data Engineering Platform]]
 keeps more implementation, governance, and operating discipline in a shared
 team.
 
 Both models still need [[Data Products]]
 and [[Data Governance]].
 They also need [[DataOps]] and
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 when many consumers depend on the same outputs.
 
 ## Model Assignment
@@ -79,7 +79,7 @@ same interface
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
 31:05-39:36).
 
-[[person:caitlinmoorman|Caitlin Moorman]]
+[[person:caitlinmoorman=>Caitlin Moorman]]
 adds the adoption test because users need to discover and trust data outputs.
 They also need to interpret and apply them before the platform or mesh has
 created value
@@ -98,7 +98,7 @@ also include quality signals, service levels, and consumer support
 She still keeps a strong shared layer through self-serve
 platforms, identity, and authorization. Platform federation and automated
 governance remain shared concerns. That keeps
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 and [[Platform Engineering]]
 inside the Data Mesh decision rather than outside it
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
@@ -112,7 +112,7 @@ distribute platform responsibility
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 46:52 and 57:46-1:04:18).
 
-[[person:mehdiouazza|Mehdi OUAZZA]] approaches the same
+[[person:mehdiouazza=>Mehdi OUAZZA]] approaches the same
 boundary from scale-up platform work. His self-service platform depends on
 onboarding and Airflow conventions. Playbooks, senior engineering judgment, and
 Kafka schemas belong to the same path. Schema registry practice and data
@@ -121,7 +121,7 @@ contracts make that path explicit
 12:30-23:26). That supports domain autonomy only when the shared platform gives
 teams a reliable way to build.
 
-[[person:bartvandekerckhove|Bart Vandekerckhove]] shifts
+[[person:bartvandekerckhove=>Bart Vandekerckhove]] shifts
 the comparison toward access governance. His episode separates catalogs and
 dictionaries from lineage and access controls. It then ties ownership models
 to requests, approval, and review. Revocation, masking, and filtering belong
@@ -162,7 +162,7 @@ Moorman's last-mile discussion both point away from that state. Useful data
 needs discoverability and trust. It also needs interpretation and a named owner
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
 31:05-39:36,
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]],
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]],
 24:13-34:00).
 
 Move meaning, quality expectations, prioritization, and consumer support to
@@ -180,7 +180,7 @@ standards. Domains don't rebuild identity and authorization. They also
 shouldn't rebuild metadata, validation, and deployment paths
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
 41:58 and 47:35). This is why the comparison belongs beside
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 and [[Platform Engineering]].
 
 A centralized platform can also be self-service. Lars Albertsson describes
@@ -228,7 +228,7 @@ Revocation, masking, and filtering complete the control set
 ([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
 8:58-42:20).
 
-[[person:16rahuljain|Rahul Jain]] adds a
+[[person:16rahuljain=>Rahul Jain]] adds a
 platform-leadership version through GDPR and role-based access control.
 Dynamic masking and data lineage belong to that platform view. Quality metrics
 and stakeholder prioritization belong there too
@@ -296,7 +296,7 @@ conventions and schema practices belong there too. Data contracts and support
 complete the same path
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 57:46-1:03:02,
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]],
 12:30-23:26).
 
 The synthesis from these episodes is hybrid. Decentralize accountability where
@@ -327,7 +327,7 @@ threads in this comparison.
 
 - [[Data Mesh]]
 - [[Data Engineering Platforms]]
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
 - [[Data Products]]
 - [[Data Governance]]
 - [[DataOps]]

@@ -25,18 +25,18 @@ scientists and ML engineers need to use the path in normal delivery work.
 Product teams and governance stakeholders need to trust it too
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-38:44]]).
 
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]]
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]
 describes a centralized MLOps team that helps product teams with tooling and
 deployment. The same team supports maintenance, monitoring, and best practices
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-25:20]]).
 
-[[person:nemanjaradojkovic|Nemanja Radojkovic]]
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]]
 shows the regulated finance version, where ML workflows must fit existing
 DevOps and approval flows. On-premises platforms and governance also constrain
 the path
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance, 14:57-24:22]]).
 
-[[person:christopherbergh|Christopher Bergh]] adds the
+[[person:christopherbergh=>Christopher Bergh]] adds the
 [[DataOps]] operating lens. Teams need
 testing and monitoring after the first model reaches production. They also need
 automation and safe deployment paths
@@ -108,7 +108,7 @@ tools, and improve deployment paths. The team also has to stay flexible enough
 that product teams don't reject the standards
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-25:20]]).
 That makes the team close to an internal
-[[ml-platforms|ML platform]] group. It owns the
+[[ml-platforms=>ML platform]] group. It owns the
 paved road, while product teams still own the models and business use cases.
 
 Centralization doesn't remove embedded support. Raphaël describes a centralized

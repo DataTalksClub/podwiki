@@ -55,7 +55,7 @@ Metaflow can interoperate with them
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
 The sandbox links Metaflow to related
-[[open-source-and-developer-relations|open-source and developer relations]]
+[[open-source-and-developer-relations=>open-source and developer relations]]
 pages. Setup for the whole infrastructure stack can take days, while educational
 sandboxes let people spin up an environment quickly and learn the concepts first
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
@@ -84,7 +84,7 @@ Iceberg, and Metaflow
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 That puts Metaflow beside [[experiment tracking]].
 It also belongs beside
-[[data-engineering-platforms|data platforms]].
+[[data-engineering-platforms=>data platforms]].
 Its value comes partly from fitting into the surrounding stack.
 
 ## Developer Experience
@@ -93,7 +93,7 @@ The Metaflow discussion keeps returning to teaching and adoption. Scientists who
 know data and modeling still need help with compute and orchestration, plus code
 and model versioning, and DevRel gives those practitioners the information and
 resources they need to learn and implement the tools.
-[[person:villetuulos|Ville Tuulos]] described a
+[[person:villetuulos=>Ville Tuulos]] described a
 "wisdom layer" around Metaflow and treated that layer as equally important to
 the software
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
@@ -123,7 +123,7 @@ and experiment trackers, which is why a platform team or tool company has to car
 about education and developer experience, not only infrastructure.
 
 Here, Metaflow works best as an
-[[machine-learning-infrastructure|ML infrastructure]]
+[[machine-learning-infrastructure=>ML infrastructure]]
 example for the path from experiments to production. It also fits the
 [[platform engineering]]
 problem of hiding routine cloud setup without hiding real operating choices.

@@ -25,23 +25,23 @@ properties, and neighborhoods. Vector search stores
 [[embeddings]] and retrieves nearby
 items by similarity.
 
-[[person:anahitapakiman|Anahita Pakiman]] gives the
+[[person:anahitapakiman=>Anahita Pakiman]] gives the
 graph-side example in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]].
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
 Automotive R&D teams use Neo4j for semantic reporting and simulation
 comparison. They also use it for clustering, load-path detection, and
 Cypher-driven retrieval.
 
-[[person:atitaarora|Atita Arora]] gives the vector-side RAG example in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+[[person:atitaarora=>Atita Arora]] gives the vector-side RAG example in
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Teams chunk podcast transcripts and embed them. Then they retrieve matching
 chunks and pass them to an LLM with citations. [[person:danielsvonava|Daniel Svonava]]
 anchors the production vector-search side in
-[[podcast:building-production-search-systems|Building Search Systems]],
+[[podcast:building-production-search-systems=>Building Search Systems]],
 where vector similarity becomes one signal inside candidate generation and
 ranking. Filters, recency, and business evaluation matter too.
 
-[[book:20210405-the-practitioners-guide-to-graph-data|The Practitioner's Guide to Graph Data]]
+[[book:20210405-the-practitioners-guide-to-graph-data=>The Practitioner's Guide to Graph Data]]
 by Denise Gosnell gives the graph-data engineering side of this comparison,
 from graph database modeling to query-driven retrieval.
 
@@ -58,8 +58,8 @@ retrieval choices package context for an LLM. [Vector Database vs Search
 Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 covers whether vector retrieval belongs in a dedicated vector store or an
 existing [[search]] stack.
-[[retrieval-augmented-generation|RAG]] and
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>RAG]] and
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 cover the broader answer-generation design.
 
 ## Representation and Retrieval Unit
@@ -67,12 +67,12 @@ cover the broader answer-generation design.
 Vector search first turns a query and candidate items into vectors. It then
 retrieves nearby vectors. Daniel explains this as a shared representation space
 at 21:55 in
-[[podcast:building-production-search-systems|Building Search Systems]].
+[[podcast:building-production-search-systems=>Building Search Systems]].
 The embedding model has to encode the properties the product cares about before
 nearest-neighbor retrieval can work.
 
 Atita shows the RAG version at 38:24-42:49 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Teams chunk transcripts and choose overlap. They embed the chunks, retrieve
 relevant pieces for a question, and ask the LLM to answer with prompt
 instructions and citations. Because the system retrieves chunks, chunk size and
@@ -127,7 +127,7 @@ uses the same split for LLM context packaging.
 Atita starts from classical
 [[information retrieval]].
 In
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
 she discusses Qdrant and vector databases at 17:01 when the use case needs
 vectors. Around 20:27, she still keeps Solr and Lucene in the architecture
 conversation. Elasticsearch and OpenSearch stay in scope too. Vector search can
@@ -135,7 +135,7 @@ live in a standalone vector database or inside an existing search stack.
 
 Daniel starts from production search as candidate generation plus ranking. His
 29:00-30:22 discussion in
-[[podcast:building-production-search-systems|Building Search Systems]]
+[[podcast:building-production-search-systems=>Building Search Systems]]
 separates vector compute from vector storage. A vector database doesn't remove
 ingestion work. Teams still need embedding-model consistency, reindexing, and
 query-time encoding.
@@ -154,7 +154,7 @@ Anahita starts from domain semantics, so her comparison isn't only about
 relevance. The system has to preserve relationships across simulations and
 reports. It also has to preserve relationships across sections, entities, and
 engineering concepts. At 42:42 in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]],
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]],
 she warns that LLM-extracted graph content needs verification. Graph systems
 move trust work into modeling and validation rather than eliminating it.
 
@@ -184,9 +184,9 @@ them
 ([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]],
 39:56-42:42).
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] adds the
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] adds the
 agent boundary. At 29:30-37:39 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
 she treats RAG and search as tools with latency and cost constraints. Metadata
 and garbage-in-garbage-out constraints matter too. Retrieval is enough when it
 reduces a large search space to useful context.
@@ -202,22 +202,22 @@ entities, while a graph can add neighborhoods and paths. It can also add
 constraints, provenance, or section hierarchy before the final answer.
 
 Anahita describes that combined direction at 33:43-39:56 in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]].
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
 Knowledge graphs and LLMs ground answers together. Graph semantics compensate
 for relations that chunk-only retrieval can miss.
 
 Daniel makes the same point from the ranking side. At 34:00-45:11 in
-[[podcast:building-production-search-systems|Building Search Systems]],
+[[podcast:building-production-search-systems=>Building Search Systems]],
 vector similarity works with filters and recency. Behavior, popularity,
 metadata, and query-time weights influence the served result.
 
-[[person:meryemarik|Meryem Arik]] frames retrieval as
+[[person:meryemarik=>Meryem Arik]] frames retrieval as
 the better fit for changing knowledge in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 40:46-48:01. [[person:hugobowneanderson|Hugo Bowne-Anderson]]
 treats chunking and RAG as useful only when the retrieved context can support
 the answer in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
 44:26-53:34. Together, those episodes put vector search and graph lookup inside
 the same retrieval design space rather than competing slogans.
 
@@ -233,14 +233,14 @@ and retrieval count. Prompt design, citations, and human review matter too
 Daniel adds business KPIs and A/B tests. He also covers offline tests and
 revenue attribution at
 1:01:25-1:03:50 in
-[[podcast:building-production-search-systems|Building Search Systems]].
+[[podcast:building-production-search-systems=>Building Search Systems]].
 For vector search, check retrieval, ranking, and filters. Check citations and
 business outcomes before judging the generated answer.
 
 Graph systems fail when they encode wrong relations, miss important relations,
 or become stale as the domain changes. Brittle schemas and unverified LLM
 extraction create graph failures too. Anahita's 42:42 warning in
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]
+[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 matters because a graph can expose provenance, relation types, and paths.
 Incorrect nodes or edges still corrupt downstream RAG and analysis.
 
@@ -260,7 +260,7 @@ Use these pages for the surrounding retrieval, search, and LLM-system decisions:
 
 - [[Graph RAG vs Vector RAG]] for LLM context packaging.
 - [[Vector Database vs Search Engine]] for retrieval-stack ownership.
-- [[Search]] and [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for the broader architecture.
+- [[Search]] and [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the broader architecture.
 - [[Vector Databases]] and [[Embeddings]] for the vector side.
 - [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] for evaluation.
 - [[Agent Engineering]] for systems where retrieval becomes one tool inside a multi-step agent.

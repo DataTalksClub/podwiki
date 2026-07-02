@@ -79,19 +79,19 @@ boundary differently. For some guests, the proof is a distinct
 analytics-engineer role. For others, it's business modeling,
 career-transition evidence, or activation work.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
+[[person:victoriaperezmola=>Victoria Perez Mola]]
 describes a recognizable analytics-engineer role with modeling and quality.
 Looker and dbt are part of that role. So is collaboration with analysts, data
 scientists, and backend engineers
 ([[podcast:analytics-engineer-skills-tools|14:34-20:52 and 33:02]]).
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
+[[person:juanmanuelperafan=>Juan Manuel Perafan]]
 is more cautious about defining the role only by the gap between analysts and
 engineers. His evidence points portfolio builders toward modeling business
 reality, testing dashboards, and bringing rigor to data workflows
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|7:56-11:03 and 38:41-46:34]]).
 
-[[person:nikolamaksimovic|Nikola Maksimovic]] shows a
+[[person:nikolamaksimovic=>Nikola Maksimovic]] shows a
 transition version of the portfolio, and the proof didn't start as a public
 repository. It started with marketing reporting and BI-team conversations.
 Looker work, SQL practice, and BI projects happened alongside marketing work.
@@ -102,10 +102,10 @@ That supports portfolios that turn domain knowledge into modeled metrics
 instead of treating domain context as background.
 
 Analysts can use the
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 to turn dashboard and KPI work into this kind of portfolio.
 
-[[person:arpitchoudhury|Arpit Choudhury]] widens the
+[[person:arpitchoudhury=>Arpit Choudhury]] widens the
 project boundary toward [[Data Activation]].
 His episode connects tracking plans and event collection with warehouse
 transformations and BI. Reverse ETL then sends modeled data to support, sales,
@@ -140,7 +140,7 @@ also show how another analyst finds the definitions.
 The project should answer these review questions:
 
 - Business question: name the decision and metric owner. This follows
-  [[person:nikolamaksimovic|Nikola Maksimovic]] from
+  [[person:nikolamaksimovic=>Nikola Maksimovic]] from
   performance marketing into BI and product analytics. Funnels, retention, RFM
   analysis, and A/B testing gave modeling work a target
   ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|2:53 and 38:27-41:50]]).
@@ -165,11 +165,11 @@ duplicated dashboard logic, or spreadsheet-defined metrics. Refactor the logic
 into model layers and add tests, docs, lineage, and a deployment note. Use
 reusable macros only where they remove duplication.
 
-[[person:nikolamaksimovic|Nikola Maksimovic]]
+[[person:nikolamaksimovic=>Nikola Maksimovic]]
 grounds this in a real dbt migration and LookML reporting. He also discusses
 wide-versus-narrow tables and incrementalization tradeoffs
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|18:34-33:46]]).
-[[person:christopherbergh|Christopher Bergh]] adds the
+[[person:christopherbergh=>Christopher Bergh]] adds the
 [[DataOps]] standard for version control
 and tests. He also covers CI/CD, runbooks, documentation, and end-to-end
 versioning
@@ -180,7 +180,7 @@ old query or dashboard calculation, the new
 [[dbt]] model structure, the tests that catch
 broken assumptions, and a reconciliation note for stakeholders. That
 reconciliation belongs in the portfolio because
-[[person:barrmoses|Barr Moses]] connects schema
+[[person:barrmoses=>Barr Moses]] connects schema
 changes, lineage, ownership, and SLAs to data reliability
 ([[podcast:data-quality-data-observability-data-reliability|19:10-35:24 and 58:51]]).
 
@@ -190,12 +190,12 @@ A product analytics project should start with events, not charts. Write a
 tracking plan, then simulate or instrument events. Model user journeys and
 publish activation, retention, funnel, or experiment metrics.
 
-[[person:arpitchoudhury|Arpit Choudhury]]
+[[person:arpitchoudhury=>Arpit Choudhury]]
 names signup and project-created events as SaaS examples. Invite and invoice
 events fit there too. He then connects collection and storage with
 transformation, analysis, and activation
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|13:34-30:03]]).
-[[person:nikolamaksimovic|Nikola Maksimovic]] shows why
+[[person:nikolamaksimovic=>Nikola Maksimovic]] shows why
 marketing and product domain knowledge matter for funnels, retention, RFM, and
 A/B testing
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|38:27-41:50]]).
@@ -203,11 +203,11 @@ A/B testing
 This project should connect
 [[Event Tracking]],
 [[Product Analytics]], and
-[[a-b-testing|A/B Testing]] through modeled
+[[a-b-testing=>A/B Testing]] through modeled
 tables. Document event owners and required properties. Also explain
 late-arriving events, user identity rules, and which modeled metrics feed the
 dashboard or experiment readout. That source-semantics work follows
-[[person:arpitchoudhury|Arpit Choudhury]] on tracking
+[[person:arpitchoudhury=>Arpit Choudhury]] on tracking
 plans with events, properties, and ownership
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|13:34-20:47]]).
 
@@ -219,12 +219,12 @@ Then push it to a mock CRM, support tool, or marketing destination. Document
 ownership, refresh cadence, and privacy assumptions. Also explain the
 consequence of a wrong segment.
 
-[[person:arpitchoudhury|Arpit Choudhury]] covers
+[[person:arpitchoudhury=>Arpit Choudhury]] covers
 reverse ETL and product-led activation in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth Stack at 37:25-56:08]].
-[[person:nataliekwong|Natalie Kwong]] covers warehouse
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack at 37:25-56:08]].
+[[person:nataliekwong=>Natalie Kwong]] covers warehouse
 tables flowing back into operational systems in
-[[podcast:data-engineering-tools-modern-data-stack|35:42|ETL, ELT, and the Modern Data Stack]].
+[[podcast:data-engineering-tools-modern-data-stack@35:42=>ETL, ELT, and the Modern Data Stack]].
 
 For analytics engineering, the important proof isn't the connector. It's that
 a trusted modeled segment can safely leave the warehouse. Link the segment to
@@ -268,18 +268,18 @@ accepted-values checks where they match the data rules. Add relationship checks
 and freshness checks where they protect consumers. Use custom tests when the
 business rule is specific.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
+[[person:victoriaperezmola=>Victoria Perez Mola]]
 discusses dbt tests and upstream checks. She also covers warnings, errors,
 docs, and profiling tools
 ([[podcast:analytics-engineer-skills-tools|36:44-38:53 and 50:46]]).
-[[person:barrmoses|Barr Moses]] frames freshness,
+[[person:barrmoses=>Barr Moses]] frames freshness,
 volume, distribution, and schema as reliability signals. She then ties lineage,
 ownership, and SLAs to data trust
 ([[podcast:data-quality-data-observability-data-reliability|16:38-35:24 and 58:51]]).
 
 Documentation should make owners and purpose visible. It should also make
 caveats, columns, dependencies, and example queries findable.
-[[person:tammyliang|Tammy Liang]]
+[[person:tammyliang=>Tammy Liang]]
 uses a Notion wiki plus dashboard checks, and she connects workshops to data
 adoption outside the data team
 ([[podcast:building-and-scaling-data-team|22:32 and 49:00]]).
@@ -299,7 +299,7 @@ Avoid a dbt repository with many models but no business definitions, tests,
 owners, or BI consumer. [[person:juanmanuelperafan|Juan Manuel Perafan]]
 argues that the work should map business reality and make the data safer
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|11:03 and 46:34]]).
-[[person:tammyliang|Tammy Liang]] shows that adoption,
+[[person:tammyliang=>Tammy Liang]] shows that adoption,
 documentation, and trust matter after the models exist
 ([[podcast:building-and-scaling-data-team|22:32 and 49:00]]).
 
@@ -318,9 +318,9 @@ Ownership matters too when teams only look at the final output
 Avoid treating analytics engineering as "SQL plus dashboard." The podcast
 discussions return to software practices and tests, then to docs and lineage.
 They also cover version control, warehouse transformations, and adoption. See
-[[podcast:analytics-engineer-skills-tools|Victoria Perez Mola on dbt tests, documentation, and role fit]]
+[[podcast:analytics-engineer-skills-tools=>Victoria Perez Mola on dbt tests, documentation, and role fit]]
 for the role view. See
-[[podcast:dataops-automation-and-reliable-data-pipelines|Christopher Bergh on DataOps automation and reliable pipelines]]
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Christopher Bergh on DataOps automation and reliable pipelines]]
 and [[Analytics Engineering]]
 for the workflow view.
 
@@ -330,7 +330,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]
-- [[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 - [[Data Analysis]]
 - [[Data Analyst vs Analytics Engineer]]
 - [[Marketing to Analytics Engineering]]

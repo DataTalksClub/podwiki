@@ -20,7 +20,7 @@ analysis behave as if nothing changed.
 In DataTalks.Club podcast discussions, A/A testing sits between
 [[event tracking]],
 [[product analytics]], and
-[[a-b-testing|A/B testing]]. It doesn't answer
+[[a-b-testing=>A/B testing]]. It doesn't answer
 whether a feature works. It answers whether the experiment system is trustworthy
 enough to test a feature.
 
@@ -45,7 +45,7 @@ sensible assignment. Bad connection handling can bias the test if offline users
 all fall into the same default group.
 
 That makes A/A testing the trust check before
-[[a-b-testing|A/B Testing]]. An A/B test asks
+[[a-b-testing=>A/B Testing]]. An A/B test asks
 whether a product change caused a metric change. An A/A test checks whether the
 assignment, exposure, and measurement system can produce a sane no-change
 comparison first.
@@ -117,7 +117,7 @@ can't make an unstable metric suitable for a high-stakes rollout decision.
 ## Tracking Plans and Event Semantics
 
 A/A testing depends on the same event discipline as a good
-[[tracking-plans|Tracking Plan]]. The team needs
+[[tracking-plans=>Tracking Plan]]. The team needs
 named assignment events, exposure events, and outcome events with clear
 properties and owners. It also needs to know whether an event fires on the
 client side, the server side, or both.
@@ -144,14 +144,14 @@ the no-treatment system already creates unexplained differences, those later
 answers are weak.
 
 Later stages come after the experiment system is trusted.
-[[person:rishabhbhargava|Rishabh Bhargava]] connects A/B tests with shadow mode
+[[person:rishabhbhargava=>Rishabh Bhargava]] connects A/B tests with shadow mode
 and production ML rollout, then moves on to uplift, segments, and root-cause
 investigation
 ([[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]).
 That work assumes the team can trust assignment and metrics
 before analysts explain why one cohort moved more than another.
 
-[[person:aleksandermolak|Aleksander Molak]] places randomized experiments inside
+[[person:aleksandermolak=>Aleksander Molak]] places randomized experiments inside
 a broader [[causal inference]] toolkit
 ([[podcast:causal-inference-for-machine-learning|Causal Inference for Machine Learning]]),
 which asks what evidence supports an intervention. The A/A point comes earlier
@@ -162,7 +162,7 @@ a sane null result.
 
 Use these adjacent pages to place A/A testing in the broader experiment stack:
 
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Experimentation]]
 - [[Metrics]]
 - [[Power Analysis]]

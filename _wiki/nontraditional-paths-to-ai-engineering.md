@@ -41,7 +41,7 @@ pretending her prior work was irrelevant
 That made the project legible as both machine learning practice and domain
 translation.
 
-[[person:pastorsoto|Pastor Soto]] shows the medical and
+[[person:pastorsoto=>Pastor Soto]] shows the medical and
 criminology version. His background spans criminology statistics, medical
 school, and freelance data work, with a role progression through statistician,
 data analyst, data scientist, and data engineering work
@@ -52,7 +52,7 @@ deployed as services on AWS.
 The useful transfer wasn't the biography alone. It was clinical context plus
 statistical reasoning plus deployed inference examples.
 
-[[person:dashelruizperez|Dashel Ruiz Perez]] gives the
+[[person:dashelruizperez=>Dashel Ruiz Perez]] gives the
 factory-floor route. He moved from music and production work into semiconductor
 data by understanding fab operations, wafer flow, and manual calculations, then
 learned yield data, Oracle access, and who to ask for missing context
@@ -75,7 +75,7 @@ showed it the next day
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Revathy's interview path]]).
 For someone returning after a break, the proof wasn't a certificate alone. It
 was a portfolio, a running service, and a take-home that resembled
-[[retrieval-augmented-generation|RAG]] work.
+[[retrieval-augmented-generation=>RAG]] work.
 
 The same point comes from ML and MLOps: notebook-only work versus packaged
 services. Dashel's examples include Flask applications, REST APIs, cloud

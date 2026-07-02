@@ -16,7 +16,7 @@ related:
 A data architect designs how an organization turns source systems into trusted
 data products and analytical models. The role is senior and end-to-end, combining
 [[data engineering]], [[analytics engineering]],
-[[data-quality-and-observability|data quality]], and stakeholder discovery. It
+[[data-quality-and-observability=>data quality]], and stakeholder discovery. It
 gives technical leadership to data-system structure, not only to pipeline
 delivery.
 
@@ -49,9 +49,9 @@ comparison.
 [[Data Mesh]] extends the definition by treating architecture as ownership
 design, where domain teams own data products and metadata, discoverability, and
 quality guarantees make those products usable by other teams;
-[[self-service-data-platforms|self-service data platforms]] and federated
+[[self-service-data-platforms=>self-service data platforms]] and federated
 governance sit in the same design ([[person:zhamakdehghani|Zhamak Dehghani]],
-[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]]).
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]).
 A mesh version differs from a centralized architecture team, but both ask who owns
 the data product, which guarantees make it usable, and how teams discover it.
 
@@ -68,7 +68,7 @@ alignment, and standards than an individual pipeline owner.
 The leadership side of the same boundary ties technical credibility to stakeholder
 prioritization, quality standards, access controls, lineage, and data culture
 ([[person:16rahuljain|Rahul Jain]],
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership]]).
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
 That version overlaps with [[Leadership]] and data engineering management; the
 architect is more focused on system structure and durable technical choices.
 
@@ -76,7 +76,7 @@ Centralization is another fault line: domain-owned data products versus more
 authority in central teams. A central [[DataOps]] platform can fit teams where
 reproducibility, governance, or onboarding are still weak
 ([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]).
 
 ## Modeling and Consumer Alignment
 
@@ -105,7 +105,7 @@ project-specific solutions
 ([[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Data Architecture]]).
 
 The tradeoff belongs with
-[[self-service-data-platforms|self-service data platforms]] and [[DataOps]]. Reuse
+[[self-service-data-platforms=>self-service data platforms]] and [[DataOps]]. Reuse
 is valuable when it reduces duplicated decisions and helps teams follow standards,
 and costly when the abstraction hides too much or blocks a project with unusual
 requirements.
@@ -122,7 +122,7 @@ Governance belongs in the same architecture discussion because access and lineag
 affect whether teams can reuse data safely. Classification and catalogs set
 discovery rules, and ownership review, automation, revocation, and masking all
 matter ([[podcast:data-governance-data-access-management|Access Management]],
-[[podcast:cloud-data-governance|Cloud Governance]]). Those controls put the data
+[[podcast:cloud-data-governance=>Cloud Governance]]). Those controls put the data
 architect close to [[Governance]] and [[Data Governance]].
 
 Federated governance gives the decentralized version: domain teams keep

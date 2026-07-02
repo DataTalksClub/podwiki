@@ -26,7 +26,7 @@ In older conversations that often means
 [[NLP]]. In newer conversations it often means
 [[LLMs]],
 [[generative AI]],
-[[retrieval-augmented-generation|retrieval-augmented generation]],
+[[retrieval-augmented-generation=>retrieval-augmented generation]],
 and [[agent-engineering|AI agents]].
 
 The useful boundary isn't "does it call a model?" It's whether the system
@@ -36,11 +36,11 @@ part of AI delivery, and agents sit inside normal software engineering
 discipline
 ([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
 Janna Lipenkova's
-[[book:20240205-creating-intelligent-products|Creating Intelligent Products]]
+[[book:20240205-creating-intelligent-products=>Creating Intelligent Products]]
 develops the same product-focused view: it treats AI as an end-to-end product
 discipline covering market research, UX, and business model fit, not just model
 development.
-[[book:20220509-artificial-intelligence-with-python|Artificial Intelligence with Python]]
+[[book:20220509-artificial-intelligence-with-python=>Artificial Intelligence with Python]]
 by Prateek Joshi covers the broader toolkit that underlies these product systems, from search and optimization through ML, deep learning, and reinforcement learning.
 
 ## AI as Product Engineering
@@ -56,7 +56,7 @@ That makes
 shipping a [[data-products|data product]] than to
 only training a model.
 
-[[person:ruslanshchuchkin|Ruslan Shchuchkin]] gives the
+[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] gives the
 role version of the same idea: the AI engineer is a generalist who combines
 product discovery, backend delivery, LLM tooling, and enough judgment to decide
 what should be automated, with built projects and skill proof mattering more
@@ -67,7 +67,7 @@ That's why the AI page connects to both the
 [[AI Engineering Roadmap]].
 
 AI product thinking also shows up before the LLM era.
-[[person:gregcoquillo|Greg Coquillo]] treats AI work as
+[[person:gregcoquillo=>Greg Coquillo]] treats AI work as
 roadmaps, customer research, business metrics, and MLOps priorities, pushing
 teams to work backward from business problems and add success metrics, SLAs, and
 data quality
@@ -101,7 +101,7 @@ Use that episode to move from general AI into
 
 [[Generative AI]] covers systems that
 produce text, code, summaries, answers, translations, images, or plans.
-[[person:mariasukhareva|Maria Sukhareva]] uses chatbot
+[[person:mariasukhareva=>Maria Sukhareva]] uses chatbot
 failures to show that generated outputs need controls, covering large-scale
 chatbot probing, knowledge-base exfiltration patterns, output validation, query
 analysis, and layered defenses
@@ -122,7 +122,7 @@ embeddings, citations, prompt design, and human-in-the-loop evaluation
 
 That makes [[search]] and
 [[embeddings]] central AI topics, and
-[[retrieval-augmented-generation|RAG]]
+[[retrieval-augmented-generation=>RAG]]
 covers the broader architecture. [[person:ranjithakulkarni|Ranjitha Kulkarni]]
 adds the operational side: RAG systems inherit latency, cost, and data-quality
 problems, and retrieval can be a tool inside an agent rather than the whole
@@ -131,16 +131,16 @@ system
 
 ## Agents and Action-Oriented AI
 
-[[agent-engineering|AI agents]] extend AI systems from
+[[agent-engineering=>AI agents]] extend AI systems from
 answer generation into planning and tool use. They also add memory and action.
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] defines
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] defines
 agents through objectives, tools, memory, and stores, then moves toward context
 design and argues for custom evaluations and mocked tools, with checks that are
 outcome-based rather than exact-path tests
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
-[[person:micheallanham|Micheal Lanham]] places current
+[[person:micheallanham=>Micheal Lanham]] places current
 agents inside a longer AI lineage, linking reinforcement learning and
 evolutionary algorithms to early NLP and prompt optimization. He favors minimal
 task decomposition before manager-agent orchestration, and covers tool
@@ -148,14 +148,14 @@ integration and monitoring
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 For design details, use
 [[agent engineering]] and
-[[multi-agent-systems|multi-agent systems]].
+[[multi-agent-systems=>multi-agent systems]].
 
 ## Evaluation, Reliability, and Cost
 
 AI systems need [[evaluation]] because
 the output is probabilistic, context-dependent, and tied to user trust.
 
-[[person:bartoszmikulski|Bartosz Mikulski]] starts with
+[[person:bartoszmikulski=>Bartosz Mikulski]] starts with
 data trust and pipeline tests, then moves to prompt engineering and prompt
 evaluation, and adds prompt compression, prompt caching, token use, latency, and
 model efficiency
@@ -164,11 +164,11 @@ A useful AI feature must survive
 [[production]] traffic, not only a demo.
 
 LLM and RAG evaluation have their own patterns.
-[[person:meryemarik|Meryem Arik]] ties gold-standard
+[[person:meryemarik=>Meryem Arik]] ties gold-standard
 examples and output-driven metrics together and separates classification
 metrics, generative metrics, and human judgment
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
-[[person:atitaarora|Atita Arora]] adds retrieval-level
+[[person:atitaarora=>Atita Arora]] adds retrieval-level
 and answer-level checks
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 Those discussions belong with
@@ -181,7 +181,7 @@ and [[data-quality-and-observability|Data Observability]].
 
 Infrastructure-heavy AI work asks who controls compute, data, and models, and
 who owns latency, privacy, and operating cost.
-[[person:andreycheptsov|Andrey Cheptsov]] compares
+[[person:andreycheptsov=>Andrey Cheptsov]] compares
 cloud and on-prem economics, connects privacy and control to decentralization,
 and adds distributed training and GPU coordination, including PyTorch and NCCL
 communication bottlenecks, Kubernetes limits, SLURM, and open-source
@@ -189,7 +189,7 @@ orchestration
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
 That infrastructure view complements the model-deployment view in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 where open-source models and hosted APIs sit alongside fine-tuning, serving
 optimization, and latency tradeoffs. For deeper implementation work, use
 [[AI Infrastructure]],
@@ -202,14 +202,14 @@ AI needs [[governance]] when it affects
 people, regulated decisions, or private data. Safety-critical workflows need the
 same discipline. Material business outcomes do too.
 
-[[person:supreetkaur|Supreet Kaur]] defines responsible
+[[person:supreetkaur=>Supreet Kaur]] defines responsible
 AI through trust and fairness, and includes explainability, stakeholder
 collaboration, and compliance. The work runs from data-level fairness checks and
 PII handling to cross-functional governance and human-in-the-loop oversight
 ([[podcast:responsible-explainable-ai-bias-detection|Responsible & Explainable AI]]).
 
 For LLM systems, governance also has a security layer.
-[[person:mariasukhareva|Maria Sukhareva]] connects
+[[person:mariasukhareva=>Maria Sukhareva]] connects
 prompt injection and data exfiltration, adds hallucinations and controls, and
 covers ROI and hybrid human review
 ([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
@@ -226,8 +226,8 @@ Use these pages for narrower AI topics and implementation details.
 
 - [[AI Engineering]] and [[AI Engineer Role]] cover the builder role and skill stack.
 - [[Generative AI]], [[LLMs]], and [[Prompt Engineering]] cover model behavior and generated outputs.
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] and [[retrieval-augmented-generation|RAG]] cover context and retrieval.
-- [[agent-engineering|AI Agents]], [[Agent Engineering]], and [[multi-agent-systems|Multi-Agent Systems]] cover action-oriented AI systems.
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover context and retrieval.
+- [[agent-engineering=>AI Agents]], [[Agent Engineering]], and [[multi-agent-systems=>Multi-Agent Systems]] cover action-oriented AI systems.
 - [[Data Products]], [[MLOps]], and [[Production]] cover delivery and operations.
 - [[Evaluation]], [[LLM Evaluation Workflows]], and [[Production Search Evaluation]] cover measurement.
 - [[AI Infrastructure]] and [[Machine Learning Infrastructure]] cover compute, orchestration, and deployment choices.

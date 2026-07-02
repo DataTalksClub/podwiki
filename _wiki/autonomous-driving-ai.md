@@ -18,9 +18,9 @@ other agents, and plan safe motion. It is an engineering discipline rather than
 a single model: the vehicle runs a stack of perception, prediction, and planning
 systems, each validated and released in stages
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Tesla]],
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai|Waymo]]).
+[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Waymo]]).
 
-[[person:aishwaryajadhav|Aishwarya Jadhav]], a Machine Learning Engineer at
+[[person:aishwaryajadhav=>Aishwarya Jadhav]], a Machine Learning Engineer at
 Waymo and former Tesla Autopilot team member, has worked across the full pipeline
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI]]).
 Her career moved from finance data engineering at Morgan Stanley, through
@@ -32,7 +32,7 @@ AI next to
 [[model optimization]], and
 [[production]] ML systems.
 
-[[person:pauliusztin|Paul Iusztin]]'s first AI research job did deep learning on
+[[person:pauliusztin=>Paul Iusztin]]'s first AI research job did deep learning on
 autonomous driving from day zero: 3D object detection, 3D tracking, and fusing
 multimodal data from images, radar, and LiDAR
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering]]).
@@ -168,7 +168,7 @@ requires expertise in software, hardware, sensors, and safety
 
 This staged deployment discipline connects autonomous driving to the broader
 [[production]] and
-[[llmops|MLOps]] conversations in the podcast.
+[[llmops=>MLOps]] conversations in the podcast.
 
 ## Perception vs Reinforcement Learning
 
@@ -178,7 +178,7 @@ learning comes in when teaching an agent how to behave in the world. These are
 two separate parts of the stack
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI]]).
 
-[[person:aishwaryajadhav|Aishwarya Jadhav]] has never worked on the
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] has never worked on the
 reinforcement learning side despite working in the self-driving industry, having
 skipped RL courses in college as too hard
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI]]).
@@ -238,7 +238,7 @@ because reliability is key in this field
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Lessons from Applied AI]]).
 These entry points connect to the broader
 [[AI engineering]] and
-[[career-transitions-in-data|career transition]] discussions
+[[career-transitions-in-data=>career transition]] discussions
 in the podcast.
 
 Deep learning work on autonomous driving offers another route into AI, even as a

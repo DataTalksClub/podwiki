@@ -25,11 +25,11 @@ data product management with customer discovery and hypotheses about user
 problems
 ([[podcast:product-designer-to-data-product-manager|7:04-11:38]]).
 
-[[person:geojolly|Geo Jolly]] gives the internal
+[[person:geojolly=>Geo Jolly]] gives the internal
 platform version. The product manager defines the problem and desired outcome,
 while engineers and technical leads design the solution
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|16:44-21:06]]).
-[[person:caitlinmoorman|Caitlin Moorman]] adds the
+[[person:caitlinmoorman=>Caitlin Moorman]] adds the
 adoption test. Data has to reach the meeting, workflow, or person making the
 decision
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|8:48-26:36]]).
@@ -102,7 +102,7 @@ transformation jobs, joins, and dashboard design
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|26:21-40:53]]).
 
 This is why a data product manager needs fluency in
-[[a-b-testing|A/B testing]] and
+[[a-b-testing=>A/B testing]] and
 [[experimentation and causal inference]]
 when the data product supports product decisions. The manager doesn't need to
 be the statistician for every test, but they need enough judgment to connect

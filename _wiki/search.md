@@ -15,7 +15,7 @@ relevant information for a query or task. DataTalks.Club guests discuss search
 through [[information retrieval]]
 and lexical matching. They then add semantic retrieval and vector search.
 Hybrid search, personalization, and
-[[retrieval-augmented-generation|retrieval-augmented generation]]
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 appear as product patterns.
 
 The search discussions treat search as an application system rather than a
@@ -27,7 +27,7 @@ Search may need
 [[embeddings]],
 [[vector databases]], and LLM
 context construction. In
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 the same retrieval layer becomes the evidence layer for answers and citations.
 It also supports knowledge workflows.
 
@@ -48,7 +48,7 @@ mode is still retrieval because the system may not find the right evidence.
 
 Product relevance moves from inverted indexes and Lucene to dense
 representations and hybrid search, then adds recency, business rules, and
-[[a-b-testing|A/B testing]]
+[[a-b-testing=>A/B testing]]
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
 Architecture choices compare vectors inside an existing search stack with a
@@ -103,7 +103,7 @@ citations
 RAG fails at retrieval time when chunks are wrong, missing, too broad, or
 missing source metadata. It fails at generation time when the model ignores the
 retrieved evidence, invents unsupported claims, or drops citations. That's why
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 and [[LLM Evaluation Workflows]]
 need to be read together. The practical build path in
 [[Search and RAG Project Checklist]]
@@ -174,7 +174,7 @@ if it improves the actual retrieval and ranking problem
 
 Search therefore sits across
 [[Machine Learning System Design]],
-[[llm-production-patterns|LLM production work]],
+[[llm-production-patterns=>LLM production work]],
 and [[MLOps]]. The core question isn't
 which retrieval technology is newest. The question is which search design gives
 the product relevant, explainable, and measurable results.

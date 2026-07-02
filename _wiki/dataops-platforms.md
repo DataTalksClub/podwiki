@@ -29,14 +29,14 @@ They describe it as the practical overlap between
 The platform makes repeatable data work easier for many teams. DataOps
 practices make that platform reviewable, testable, observable, and recoverable,
 and the person who owns that operating path across teams is the
-[[dataops-engineer-role|DataOps engineer]].
+[[dataops-engineer-role=>DataOps engineer]].
 Use [[self-service-data-platforms|Self-Service Data Platforms]]
 when the main question is enablement for analysts, data scientists, software
 engineers, or domain teams.
 
-[[person:larsalbertsson|Lars Albertsson]] gives the
+[[person:larsalbertsson=>Lars Albertsson]] gives the
 clearest platform framing in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 He connects immutable pipelines and reproducibility to storage, compute, and
 workflow engines. He then adds quality automation, lineage, and versioning. The
 same platform has to support self-service without turning every data change
@@ -54,7 +54,7 @@ Data delivery then depends on a supported operating model instead of one
 person's memory of how a pipeline, table, or dashboard is supposed to work.
 
 Albertsson starts from architecture in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Around 16:42-20:12, he explains immutable pipeline design and reproducibility
 problems. Around 30:34, he separates storage, compute, and workflow engines as
 platform components.
@@ -63,9 +63,9 @@ Around 46:52 and 1:04:18, he connects quality automation with schema handling
 and lineage. Versioning sits in the same reliability story. Those capabilities
 turn DataOps from team advice into reusable infrastructure.
 
-[[person:christopherbergh|Christopher Bergh]] defines
+[[person:christopherbergh=>Christopher Bergh]] defines
 the same platform from the delivery side. In
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]],
 he ties DataOps to error reduction and shorter deployment cycles around 6:42.
 Productivity is part of the same goal. Around 33:47, he connects version
 control, tests, and CI/CD.
@@ -95,13 +95,13 @@ plus CI/CD and monitoring. Teams also need automated playbooks because manual
 checks and tribal knowledge don't scale
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
 6:42-38:01). His newer
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 episode keeps the focus on deployment automation, test data, production
 monitoring, and on-call readiness.
 
-[[person:tomaszhinc|Tomasz Hinc]] starts from
+[[person:tomaszhinc=>Tomasz Hinc]] starts from
 infrastructure enablement. In
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]],
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
 he contrasts waiting on a platform team with making an infrastructure change
 through a merge request around 12:40. Around 20:56-26:21, he discusses SQL and
 secrets.
@@ -110,9 +110,9 @@ Terraform and Terragrunt handle the infrastructure layer, while Atlantis dry
 runs and apply flows complete the example. His DataOps platform makes
 infrastructure and access changes reviewable too.
 
-[[person:mehdiouazza|Mehdi OUAZZA]] starts from
+[[person:mehdiouazza=>Mehdi OUAZZA]] starts from
 scale-up pressure. In
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]],
 he frames the data platform role around self-service and onboarding at 12:30.
 Around 17:22, he explains why an Airflow cluster alone isn't a platform. Teams
 also need conventions and playbooks.
@@ -130,10 +130,10 @@ when it reduces coordination cost while preserving reliability.
 ## Pipeline and Platform Capabilities
 
 A DataOps platform has to cover the path from source change to trusted output.
-[[person:nataliekwong|Natalie Kwong]] maps that path
+[[person:nataliekwong=>Natalie Kwong]] maps that path
 from the [[Modern Data Stack]]
 side in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 
 She covers raw ingestion and guardrails around 17:55. Warehouse transformations
 follow around 18:47, and orchestration appears around 30:59. Airbyte and dbt
@@ -153,12 +153,12 @@ categories.
 Storage and compute belong in the platform because downstream consumers depend
 on shared data contracts. Albertsson discusses raw data lakes and warehouses
 around 21:29-30:34 in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]].
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 Object storage, governance, and self-service SQL sit in that discussion too.
 
-[[person:adrianbrudaru|Adrian Brudaru]] updates that
+[[person:adrianbrudaru=>Adrian Brudaru]] updates that
 layer in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 Around 18:17-23:41, he explains Iceberg and the storage-compute split, the
 platform-architecture decision this page cares about. The orchestrator and
 workflow-tool choices that sit on top of it (Airflow, Prefect, Dagster, and
@@ -181,7 +181,7 @@ warehouse can look modern while the operating model still depends on manual
 coordination.
 
 Bergh's
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 episode connects CI/CD pipelines, regression tests, and realistic test data
 around 30:55. Around 42:39, he ties deployment automation to version control
 and tests. That makes [[ci-cd|CI/CD]] part of the
@@ -189,7 +189,7 @@ DataOps platform, not a separate concern owned only by application or
 infrastructure engineers.
 
 Hinc adds the infrastructure version in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 Around 23:42, he defines infrastructure as code through declarative
 configuration and reproducibility. Around 26:21, he describes the branch and
 merge-request flow, with Atlantis dry runs and applies completing the release
@@ -204,7 +204,7 @@ stays on how they harden into a shared release layer.
 A DataOps platform must tell teams when the data is wrong, not only when a job
 failed. [[person:barrmoses|Barr Moses]] makes that
 distinction in
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]].
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Around 13:40, she describes silent failures. Around 16:38, she names freshness
 and volume as observability pillars. Distribution, schema, and lineage belong
 in the same framework.
@@ -218,7 +218,7 @@ appears around 58:51, and false-positive reduction appears around 1:00:27.
 Alerts without owners, lineage, and runbooks don't produce reliable recovery.
 
 Bergh ties those signals back into the delivery loop. In
-[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]],
 he recommends starting from production monitoring around 50:29 because real
 failures show which process gaps matter. The platform should connect tests,
 monitors, owners, and lineage. Recovery paths help incidents improve the next
@@ -227,23 +227,23 @@ release instead of becoming isolated firefighting.
 ## Self-Service and Governance
 
 Self-service is useful only when the supported path is safe. OUAZZA's
-[[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]]
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 episode frames the platform team as an enablement team for analysts and data
 scientists. Software engineers and other consumers use the same supported path.
 Around 17:22, Airflow
 conventions and playbooks turn a scheduler into a usable platform surface. At
 23:26, Kafka schemas and data contracts make shared interfaces clearer.
 
-[[person:16rahuljain|Rahul Jain]] adds the leadership
+[[person:16rahuljain=>Rahul Jain]] adds the leadership
 and governance lens in
-[[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms]].
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
 Around 25:04, he discusses data culture and data quality metrics. Around
 28:04-30:50, he covers reconciliation and GDPR strategies. Dynamic masking and
 role-based access control sit in the same leadership discussion. ELT
 modernization, data lakes, and lineage do too.
 
 That's why DataOps platforms sit between
-[[self-service-data-platforms|Self-Service Data Platforms]]
+[[self-service-data-platforms=>Self-Service Data Platforms]]
 and [[Data Governance]]. The
 platform should make routine work easier while preserving privacy, ownership,
 quality checks, and lineage. Recovery accountability belongs in the same path.
@@ -252,7 +252,7 @@ quality checks, and lineage. Recovery accountability belongs in the same path.
 
 These DataOps discussions don't require a dedicated vendor before a team can
 practice DataOps. In
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]],
 Bergh mentions dbt tests, Great Expectations, and SQL tests around 48:25. He
 then describes platform support for environments, tests, and observability
 around 56:32. Teams can assemble DataOps capabilities from existing tools. They
@@ -283,12 +283,12 @@ They also cover observability, governance, and boundaries:
 
 - [[DataOps]]
 - [[Data Engineering Platforms]]
-- [[self-service-data-platforms|Self-Service Data Platforms]]
+- [[self-service-data-platforms=>Self-Service Data Platforms]]
 - [[DataOps Tools]]
 - [[Data Quality and Observability]]
-- [[data-quality-and-observability|Data Observability]]
+- [[data-quality-and-observability=>Data Observability]]
 - [[Orchestration]]
-- [[ci-cd|CI/CD]]
+- [[ci-cd=>CI/CD]]
 - [[Data Governance]]
 - [[Modern Data Stack]]
 - [[MLOps vs DataOps]]

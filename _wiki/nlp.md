@@ -25,7 +25,7 @@ another is prompt injection, hallucinations, and output validation
 Older NLP work connects to modern
 [[LLMs]],
 [[embeddings]], and
-[[retrieval-augmented-generation|RAG]]. NLP teams are production teams, not only
+[[retrieval-augmented-generation=>RAG]]. NLP teams are production teams, not only
 research groups
 ([[podcast:nlp-team-hiring-and-production-mlops|Lead NLP Teams]]), and later
 episodes use the same production frame for
@@ -42,7 +42,7 @@ and LLM-powered assistants also appear across these episodes.
 One definition is role-oriented. NLP engineers need skills such as tokenization
 and linguistic judgment, plus task framing and model deployment. NLP engineering
 differs from general
-[[machine-learning-engineer-role|ML engineering]]
+[[machine-learning-engineer-role=>ML engineering]]
 through inference optimization, deployment, and
 [[MLOps]], and forms a chain of annotation, task engineering, testing, and
 production work
@@ -60,7 +60,7 @@ as well as Streamlit, Gradio, and Hugging Face Spaces. For career and portfolio
 work, NLP is a set of reproducible projects that other people can run
 ([[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
 
-[[book:20211213-mastering-spacy|Mastering spaCy]]
+[[book:20211213-mastering-spacy=>Mastering spaCy]]
 by Duygu Altinok is a practical reference for the spaCy NLP library, a
 recommended learning entry point.
 
@@ -126,7 +126,7 @@ skill more clearly than a notebook that no one can reproduce
 ## Transformers and LLMs
 
 The transformer architecture behind this shift is covered in depth by
-[[book:20220425-natural-language-processing-with-transformers|Natural Language Processing with Transformers]]
+[[book:20220425-natural-language-processing-with-transformers=>Natural Language Processing with Transformers]]
 by Leandro von Werra, Lewis Tunstall, and Thomas Wolf, built around the
 Hugging Face library that recurring NLP episodes rely on.
 
@@ -148,7 +148,7 @@ versioning constraints
 Retrieval keeps language systems grounded in changing knowledge, contrasted with
 retraining, and vector databases work through embeddings, indexing, and semantic
 search. This belongs next to
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
 For a practitioner-oriented reference on the transformer architecture behind these models, [[book:20210419-transformers-for-natural-language-processing|Transformers for Natural Language Processing]] by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.

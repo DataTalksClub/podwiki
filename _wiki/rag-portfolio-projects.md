@@ -32,15 +32,15 @@ Read this page with
 broader
 [[Machine Learning Portfolio Projects]]
 standard. For architecture and review criteria, use
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 with
-[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 and the
 [[Search and RAG Project Checklist]].
 Use
 [[LLM Evaluation Workflows]]
 and the
-[[llm-rag-production-roadmap|LLM and RAG Production Roadmap]]
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
 when the project needs evaluation, deployment, and operations evidence.
 
 ## Reviewable RAG Project
@@ -78,12 +78,12 @@ chunking, and metadata, along with vector search choices, prompt context,
 citations, and multi-level evaluation
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 That view treats a
-[[vector-databases|vector database]] as one
+[[vector-databases=>vector database]] as one
 retrieval component, not the whole project.
 
 A practical-shipping standard treats RAG as a quick business win when the
 knowledge base and chunking strategy fit the task, adding tools or
-[[agent-engineering|agents]] only when lookup is
+[[agent-engineering=>agents]] only when lookup is
 not enough; the examples move from RAG into tool calls, memory, and agentic
 workflows when the system must coordinate steps
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
@@ -101,7 +101,7 @@ privacy, and hosting choices
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
 RAG portfolio work should therefore cover
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 and
 [[LLM Production Patterns]].
 
@@ -171,7 +171,7 @@ Feedback, failure class, and next fix turn
 into visible project evidence rather than a claim in the README.
 
 The same idea extends when retrieval becomes one tool inside a larger
-[[agent-engineering|AI agent]] workflow, where agent
+[[agent-engineering=>AI agent]] workflow, where agent
 evaluation uses custom datasets, mocked tools, integration tests, and outcome
 assertions
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
@@ -228,7 +228,7 @@ The RAG project still needs the same evidence bar as the search and LLM
 engineering material. Show corpus choice, chunking plan, retrieval baselines,
 and citations. Show tests, logs, and deployment boundaries too. Pair this
 project type with
-[[career-transitions-in-data|Career Transition]] and
+[[career-transitions-in-data=>Career Transition]] and
 [[Job Search]] when the page is used
 for hiring preparation.
 
@@ -253,9 +253,9 @@ embedding and model versions it uses, and how latency and cost would be
 handled. Name privacy limits and hosted API risks too. These constraints connect
 the project to
 [[LLM Production Patterns]],
-[[rag-vs-fine-tuning|RAG vs Fine-Tuning]],
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 and the
-[[llm-rag-production-roadmap|LLM and RAG Production Roadmap]].
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 Another production boundary: long context, agents, and vector databases do not
 remove the need to manage source quality and noisy context, and teams still need
@@ -266,15 +266,15 @@ to manage chunk metadata, latency, and cost
 
 These pages cover the concepts and project standards around RAG portfolio work.
 
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for the core RAG architecture.
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the core RAG architecture.
 - [[Search and RAG Project Checklist]] for a practical review checklist.
 - [[LLM Evaluation Workflows]] for gold sets, traces, and failure analysis.
 - [[LLM Production Patterns]] for deployment, latency, cost, observability, and model-risk context.
-- [[llm-rag-production-roadmap|LLM and RAG Production Roadmap]] for a build sequence from bounded workflows to production controls.
+- [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for a build sequence from bounded workflows to production controls.
 - [[LLM System Design Interview]] for explaining retrieval, evaluation, and production tradeoffs in interviews.
-- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]] for deciding whether changing knowledge belongs in retrieval or model adaptation.
+- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] for deciding whether changing knowledge belongs in retrieval or model adaptation.
 - [[Vector Databases]] and [[Embeddings]] for retrieval infrastructure choices.
 - [[Agent Engineering]] for projects where retrieval becomes one tool inside a multi-step system.
 - [[Graph RAG vs Vector RAG]] for projects where relationships matter as much as text similarity.
 - [[Machine Learning Portfolio Projects]] for the broader project-evidence standard.
-- [[career-transitions-in-data|Career Transition]] and [[Job Search]] for turning the project into hiring evidence.
+- [[career-transitions-in-data=>Career Transition]] and [[Job Search]] for turning the project into hiring evidence.

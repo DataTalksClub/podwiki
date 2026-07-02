@@ -120,7 +120,7 @@ loading, preprocessing, feature engineering, inference, and output writing
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 That structure is easy to reason about with
 [[experiment tracking]],
-[[model-registry|model registries]], and
+[[model-registry=>model registries]], and
 [[data quality and observability]].
 
 Streaming fits actions tied to event arrival: fraud checks, recommendations,

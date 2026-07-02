@@ -48,6 +48,13 @@
   function normalizePath(path) {
     const base = baseUrl();
     let value = path || "/";
+    if (/^https?:\/\//i.test(value)) {
+      try {
+        value = new URL(value).pathname;
+      } catch (_) {
+        value = "/";
+      }
+    }
     if (base && value.startsWith(base)) value = value.slice(base.length) || "/";
     value = value.split("#", 1)[0].split("?", 1)[0];
     if (!value.startsWith("/")) value = `/${value}`;
@@ -259,8 +266,9 @@
       const center0 = placed[0];
       if (!center0) return;
       const dark = isDark();
-      const labelText = dark ? "#f0f7f3" : "#1a1a1a";
-      const chipBg = dark ? "rgba(16, 24, 21, 0.82)" : "rgba(255, 255, 255, 0.85)";
+      const labelText = dark ? "#ffffff" : "#1a1a1a";
+      const chipBg = dark ? "rgba(240, 247, 243, 0.12)" : "rgba(255, 255, 255, 0.85)";
+      const chipBorder = dark ? "rgba(240, 247, 243, 0.30)" : "rgba(0, 0, 0, 0.08)";
       const baseEdge = dark ? "rgba(142, 216, 173, 0.30)" : "rgba(120, 130, 140, 0.35)";
       const hoverActive = Boolean(hover);
       const k = anim;
@@ -347,6 +355,9 @@
         ctx.globalAlpha = isCenter ? 1 : k * dim;
         ctx.fillStyle = chipBg;
         ctx.fillRect(tx - 3, ty - 12, tw + 6, 16);
+        ctx.strokeStyle = chipBorder;
+        ctx.lineWidth = 1;
+        ctx.strokeRect(tx - 3.5, ty - 12.5, tw + 7, 17);
         if (isH && !isCenter) {
           ctx.fillStyle = nodeColor(item.node);
           ctx.fillText(text, tx, ty);

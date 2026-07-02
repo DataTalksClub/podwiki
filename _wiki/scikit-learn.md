@@ -32,7 +32,7 @@ when the hard part is deep learning infrastructure, large language model
 serving, or product experimentation without a predictive model.
 
 Scikit-learn is also a mature
-[[open-source|open-source]] ecosystem. Its API
+[[open-source=>open-source]] ecosystem. Its API
 conventions govern plugins, fairness tools, teaching material, and contribution
 paths. It has governance and careful inclusion standards, NumFOCUS ties,
 sponsorship, and a boundary between core features and compatible packages

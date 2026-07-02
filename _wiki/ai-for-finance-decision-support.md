@@ -29,7 +29,7 @@ adds explainability, human oversight, and auditability to the product design.
 
 ## Augmented Finance Workflows
 
-[[person:anushaakkina|Anusha Akkina]] built Auralytix,
+[[person:anushaakkina=>Anusha Akkina]] built Auralytix,
 an AI-driven finance platform that gives CFOs and finance teams clarity and
 speed without adding complexity. The framing is AI that augments finance rather
 than automates it, with compliance, explainability, and trust in scope
@@ -157,7 +157,7 @@ human to review and act.
 That puts the product near [[LLM Production Patterns]]
 only where AI behavior and integration serve the finance decision workflow.
 Evaluation and monitoring need the same constraint in the workflow described in
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making]].
+[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 ## Related Topics
 

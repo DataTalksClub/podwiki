@@ -84,7 +84,7 @@ The role summary should describe product decisions, not only reporting. A
 product analyst partners with cross-functional teams to measure user behavior
 and define product metrics. The role analyzes experiments and turns product
 data into recommendations. That scope matches the analyst work in
-[[podcast:data-team-roles|Data Team Roles Explained]].
+[[podcast:data-team-roles=>Data Team Roles Explained]].
 
 The segment also covers KPI dashboards, problem sizing, and A/B-test
 evaluation.
@@ -100,7 +100,7 @@ Responsibilities in the job description:
 - Validate instrumentation by checking event sources, properties, timing, and
   known edge cases.
 - Design or analyze
-  [[a-b-testing|A/B tests]] with clear assignment,
+  [[a-b-testing=>A/B tests]] with clear assignment,
   primary metrics, guardrail metrics, and interpretation.
 - Present insights, caveats, and recommendations to product stakeholders.
 - Collaborate with analytics engineers on modeled tables, metric definitions,
@@ -199,7 +199,7 @@ interpretation that the test wasn't designed to support.
 ## Product Analyst vs Data Analyst, Analytics Engineer, and Product Manager
 
 A product analyst is a specialized
-[[data-analyst-role|data analyst]] focused on
+[[data-analyst-role=>data analyst]] focused on
 product decisions. The broader analyst role covers SQL, dashboards, KPIs, and
 experiments. It also covers stakeholder work and recommendations. The product
 analyst applies that toolkit to product journeys, activation, retention, and
@@ -259,13 +259,13 @@ behavior, and to pricing, marketplace dynamics, content discovery, or any other
 product domain where metric movement needs context.
 
 This skill mix appears across four episodes.
-[[podcast:data-team-roles|Data Team Roles Explained]]
+[[podcast:data-team-roles=>Data Team Roles Explained]]
 grounds analyst and product-manager collaboration.
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]
+[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 grounds tracking and event semantics.
-[[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]
+[[podcast:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 grounds experiment interpretation.
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 grounds product analytics context.
 
 ## Hiring Signals and Portfolio Projects
@@ -301,7 +301,7 @@ Strong portfolio examples can draw on these episodes:
   reasoning
   ([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 - A tracking-plan review should use event definitions and ownership from
-  [[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]].
+  [[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]].
 - A practical project signal is to use a real business question and explain the
   data choices behind the work
   ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
@@ -313,11 +313,11 @@ Use these pages for deeper product analytics context:
 - [[Product Analytics]]
 - [[Event Tracking]]
 - [[Tracking Plans]]
-- [[a-b-testing|A/B Testing]]
+- [[a-b-testing=>A/B Testing]]
 - [[Experimentation]]
 - [[Metrics]]
 - [[Power Analysis]]
-- [[data-led-growth|Data-Led Growth]]
+- [[data-led-growth=>Data-Led Growth]]
 - [[Analytics Engineering]]
 - [[Data Analyst Role]]
 - [[Product Analyst vs Data Analyst]]

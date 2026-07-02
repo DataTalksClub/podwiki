@@ -35,9 +35,9 @@ run short on money, time, and people
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
 Use this roadmap when a [[startups|startup]] or
-[[startups|startup team]] already has a model or
+[[startups=>startup team]] already has a model or
 data product idea and needs a production path.
-[[person:nemanjaradojkovic|Nemanja Radojkovic]]'s lean approach favors choosing
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]]'s lean approach favors choosing
 managed services and mature components first, then protecting future
 flexibility with portable choices, repeatable deployment, and observability,
 while keeping technical debt visible
@@ -161,7 +161,7 @@ was produced
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 
 A startup doesn't need a large release-management department for
-[[ci-cd|CI/CD]]. It does need a repeatable path
+[[ci-cd=>CI/CD]]. It does need a repeatable path
 from code and model artifact to production. A minimal startup stack starts with
 Python and CI/CD-driven orchestration. Tools such as Dagster or MLflow fit when
 they solve an immediate orchestration or tracking problem
@@ -185,7 +185,7 @@ can also work. The requirement isn't tool purity. The team needs to compare
 runs. It also needs to recover why a model changed before customers experience
 the change
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 Evaluate with the smallest set of checks that can block a bad release. Keep the
 offline metric, a baseline comparison, and a data-quality check. Add one
@@ -245,7 +245,7 @@ A framework becomes useful when similar projects repeat over two or three years.
 The scale-up version is an enabling MLOps team that helps product teams deploy
 models, and maintain and monitor those models
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Use [[platform adoption]] rules
 before introducing a heavier [[ml-platforms|ML platform]].
@@ -284,7 +284,7 @@ matter when model changes must fit existing
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 
 Scale-up MLOps moves adoption and shared-team design earlier.
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]]'s scale-up model treats
+[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]'s scale-up model treats
 centralized MLOps as an enabling team that works with product teams and ML
 engineers, owning developer experience and deployment support as well as
 maintenance, monitoring, and adoption metrics
@@ -302,7 +302,7 @@ and repo structure. It also borrows testing, monitoring, and reproducibility.
 It delays centralized platform work until repeated projects or repeated pain
 justify the investment
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]],
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 ## The Roadmap Checkpoint
 
@@ -318,7 +318,7 @@ five checks:
 The startup and finance perspectives make the same control point visible: a
 simple end-to-end process is better than a sophisticated partial stack
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 After that checkpoint, choose the next constraint deliberately. For a product
 startup, continue with
@@ -335,4 +335,4 @@ bring in
 [[Governance]]. Do that before a
 shortcut becomes customer-facing risk
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).

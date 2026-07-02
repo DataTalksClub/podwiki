@@ -13,7 +13,7 @@ related:
 Evolutionary algorithms are search methods for trying many candidate solutions
 when the target can be scored but not directly derived. They span game AI,
 numerical optimization, evolutionary deep learning, prompt search, and modern
-[[agent-engineering|AI agents]]
+[[agent-engineering=>AI agents]]
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 Evolutionary algorithms sit near
@@ -66,13 +66,13 @@ simulated annealing, and genetic algorithms for permutation problems
 
 The combined picture is narrow but useful: evolutionary algorithms aren't a
 replacement for mainstream
-[[machine-learning|ML]]. They're search techniques
+[[machine-learning=>ML]]. They're search techniques
 for cases where teams can score candidates and afford repeated trials.
 
 ## Evolutionary Deep Learning
 
 The book "Evolutionary Deep Learning" by
-[[person:micheallanham|Micheal Lanham]]
+[[person:micheallanham=>Micheal Lanham]]
 combines deep learning with evolutionary algorithms, with concrete uses in
 hyperparameter search and network architecture modification, especially for
 convolutional neural networks
@@ -158,7 +158,7 @@ evolutionary algorithms
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 The comparison should stay modest. The episode doesn't say every
-[[multi-agent-systems|multi-agent system]] is an
+[[multi-agent-systems=>multi-agent system]] is an
 evolutionary algorithm. It says collaboration can resemble evolutionary search
 when agents generate candidate outputs, exchange feedback, and refine a result.
 

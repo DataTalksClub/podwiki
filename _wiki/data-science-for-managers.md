@@ -31,8 +31,8 @@ stage. They also protect learning time, create feedback loops, and judge
 whether the work changed a real decision.
 
 In
-[[podcast:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]],
-[[person:barbarasobkowiak|Barbara Sobkowiak]] separates
+[[podcast:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]],
+[[person:barbarasobkowiak=>Barbara Sobkowiak]] separates
 managerial work from deep expert work. The manager owns strategy, stakeholder
 communication, and team development. They also own feasibility checks and
 impact judgment
@@ -61,8 +61,8 @@ and [[Machine Learning Engineer vs Data Scientist]].
 ## Hiring for the Team's Stage
 
 Managers should hire for the work the team can actually absorb. In
-[[podcast:building-data-team|How to Build and Scale ML Teams]],
-[[person:dattran|Dat Tran]] argues that early startups
+[[podcast:building-data-team=>How to Build and Scale ML Teams]],
+[[person:dattran=>Dat Tran]] argues that early startups
 often need T-shaped generalists. Prototype and MVP uncertainty make narrow
 specialization premature. Feature uncertainty creates the same pressure.
 
@@ -70,9 +70,9 @@ As the product and operating model mature, the team may hire ML engineers and
 data engineers. It may also add product managers or designers
 ([[podcast:building-data-team|28:57-33:35]]).
 
-[[person:katiebauer|Katie Bauer]] gives the scale-up
+[[person:katiebauer=>Katie Bauer]] gives the scale-up
 version in her
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS data team episode]].
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS data team episode]].
 Her team hires across product analysis, analytics engineering, and marketing
 science. Managers preserve craft quality through maintainable analytics,
 documentation, and peer review. They also preserve craft through mentorship and
@@ -87,8 +87,8 @@ They may instead need someone to engineer data assets or support product
 decisions.
 
 Recruiting also needs market reality. In
-[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]],
-[[person:alicjanotowska|Alicja Notowska]] describes how
+[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]],
+[[person:alicjanotowska=>Alicja Notowska]] describes how
 recruiters collaborate with hiring managers on job specifications. They manage
 expectations with market data and screen for actual responsibilities rather than
 buzzwords
@@ -110,17 +110,17 @@ data availability, define success metrics, compare against baselines, and ask
 whether machine learning is necessary
 ([[podcast:data-science-manager-vs-expert-hiring-guide|50:12-53:57]]).
 
-[[person:shirmeirlador|Shir Meir Lador]] adds a delivery
+[[person:shirmeirlador=>Shir Meir Lador]] adds a delivery
 approach in
-[[podcast:data-science-management-and-agile-machine-learning|Data Science Management and Agile Machine Learning]].
+[[podcast:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]].
 She treats AI project uncertainty as a management problem. Data risks and
 unknowns become exploration tasks, design stories, and iterative milestones
 rather than fixed promises copied from ordinary software delivery
 ([[podcast:data-science-management-and-agile-machine-learning|41:06-45:36]]).
 
 Business-facing managers often need to decide what's good enough.
-[[person:benwilson|Ben Wilson]] argues in
-[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]
+[[person:benwilson=>Ben Wilson]] argues in
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 for timeboxed experiments and simple baselines. He also argues for
 subject-matter input and maintainable solutions before the team chooses complex
 methods
@@ -175,7 +175,7 @@ inputs that make later evaluation meaningful
 ([[podcast:data-science-manager-vs-expert-hiring-guide|46:14-53:57]]).
 Managers should connect these questions to [[Evaluation]],
 [[Metrics]],
-[[a-b-testing|A/B Testing]], and
+[[a-b-testing=>A/B Testing]], and
 [[Model Monitoring]].
 
 Evaluation should also include adoption and maintainability. Wilson warns that
@@ -205,14 +205,14 @@ specialist in the room:
 - Measure business impact, adoption, maintainability, and model or data health
   after release.
 
-[[person:dattran|Tran]] covers startup hiring, and
-[[person:katiebauer|Bauer]] covers B2B SaaS team
+[[person:dattran=>Tran]] covers startup hiring, and
+[[person:katiebauer=>Bauer]] covers B2B SaaS team
 practices.
-[[person:barbarasobkowiak|Sobkowiak]] separates the
+[[person:barbarasobkowiak=>Sobkowiak]] separates the
 manager role from the expert role, while
-[[person:shirmeirlador|Meir Lador]] covers agile ML
+[[person:shirmeirlador=>Meir Lador]] covers agile ML
 management.
-[[person:alicjanotowska|Notowska]] covers recruiting,
+[[person:alicjanotowska=>Notowska]] covers recruiting,
 and [[person:benwilson|Wilson]] covers production
 pragmatism. Together, their episodes tell managers to make the problem clear
 and hire for the bottleneck. Managers also need to protect learning loops and

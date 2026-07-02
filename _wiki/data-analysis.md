@@ -19,7 +19,7 @@ Data analysis is the work of turning data into evidence for a decision. Analysts
 first find the right data and check what the
 numbers mean. They choose metrics, build dashboards or written readouts, and
 explain what a team should do next. It's close to
-[[data-analyst-role|data analyst work]], but the
+[[data-analyst-role=>data analyst work]], but the
 practice also appears in [[product analytics]]
 and [[analytics engineering]].
 It also appears in experimentation and data leadership.
@@ -65,7 +65,7 @@ they can explain what happened. They use SQL to join data, filter records,
 aggregate rows, and check assumptions.
 
 In
-[[podcast:data-team-roles|Data Team Roles Explained]],
+[[podcast:data-team-roles=>Data Team Roles Explained]],
 SQL and dashboarding sit next to KPI definition and product problem sizing.
 
 SQL and data visualization are analyst fundamentals, alongside cohort analysis
@@ -201,7 +201,7 @@ For analysts who want to move toward analytics engineering, add reusable data
 models, tests, and documentation. That direction ties to SQL transformations,
 version control, tests, and dependency graphs
 ([[podcast:analytics-engineer-skills-tools|Master Analytics Engineering]]). The
-[[data-analyst-to-analytics-engineer|Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 turns that move into a learning and project sequence.
 
 For analysts who want to move toward data science, add prediction, evaluation,

@@ -30,17 +30,17 @@ shifted
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
 
 Andy Petrella's
-[[book:20240429-fundamentals-of-data-observability|Fundamentals of Data Observability]]
+[[book:20240429-fundamentals-of-data-observability=>Fundamentals of Data Observability]]
 develops the same signal set into a full reference covering metadata
 collection, anomaly detection, and incident triage.
-[[book:20210621-cleaning-data-for-effective-data-science|Cleaning Data for Effective Data Science]]
+[[book:20210621-cleaning-data-for-effective-data-science=>Cleaning Data for Effective Data Science]]
 by David Mertz covers the same data preparation and quality discipline that
 underlies reliable analytics and ML.
 
 The same failures connect to tests and CI/CD, and reliability ties to version
 control, observability, runbooks, and automated playbooks
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]],
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]).
 
 Use this page for the combined reliability concept. For narrower topics, follow
 [[DataOps]] for data pipeline delivery,
@@ -70,7 +70,7 @@ drift and concept drift
 Production AI systems inherit reliability problems from data pipelines, prompt
 inputs, and evaluation checks, which is why testing comes first
 ([[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
-[[book:20210621-cleaning-data-for-effective-data-science|Cleaning Data for Effective Data Science]]
+[[book:20210621-cleaning-data-for-effective-data-science=>Cleaning Data for Effective Data Science]]
 by David Mertz covers the same data preparation and quality discipline that
 underlies reliable analytics and ML.
 

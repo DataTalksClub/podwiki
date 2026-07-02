@@ -22,13 +22,13 @@ That flexibility creates the main risk. The team needs ownership, catalogs,
 quality checks, access rules and reproducible transformations. Without those
 controls, a lake becomes a place where people dump data and stop trusting it.
 
-[[person:nataliekwong|Natalie Kwong]]
+[[person:nataliekwong=>Natalie Kwong]]
 uses the data lake versus [[data warehouse]]
 comparison to explain that risk in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]],
 19:50-27:39. [[person:larsalbertsson|Lars Albertsson]]
 then gives the platform version in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 16:42-30:34. He argues that raw storage works when the platform keeps data
 immutable, governed, and reproducible.
 
@@ -91,9 +91,9 @@ adds interactive exploration and warehouse-style use
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 1:07:52).
 
-[[person:adrianbrudaru|Adrian Brudaru]]
+[[person:adrianbrudaru=>Adrian Brudaru]]
 updates that vocabulary through open table formats. In
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]],
 he explains [[Apache Iceberg]] as a
 table format over Parquet storage. He then separates storage and compute. He
 also separates access, metadata, and lineage (18:17-23:41).
@@ -127,9 +127,9 @@ curated datasets people actually consume
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 23:29-28:22).
 
-[[person:christopherbergh|Christopher Bergh]] adds a
+[[person:christopherbergh=>Christopher Bergh]] adds a
 delivery warning in
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 At 31:23, he criticizes data lake and cloud projects that postpone the question
 of who gets value. In his DataOps framing, teams should optimize the whole
 value stream. That stream includes data engineers and warehouse or lake teams.
