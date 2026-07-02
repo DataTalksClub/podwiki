@@ -8,6 +8,7 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 	python scripts/sync_people_pages.py
 	python scripts/sync_book_pages.py
 	python scripts/rewrite_to_canonical.py
+	python scripts/stamp_wiki_dates.py
 	python scripts/extract_podcast_sources.py
 	python scripts/build_podcast_archive_summary.py
 
