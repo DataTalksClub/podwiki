@@ -228,14 +228,11 @@
   background: color-mix(in srgb, var(--panel-soft) 55%, transparent);
 }
 
-/* ---- "See Also in the Graph" (populated by page-graph.js) --- */
-/* page-graph.js fills this element but leaves the [hidden] attribute in
-   place; reveal it only once it actually has rendered content so an empty
-   node stays hidden. Then give it room and an on-brand card treatment. */
-.graph-connections:not(:empty) {
-  display: block;
-}
-
+/* ---- "Explore the graph" embed (built by page-graph.js) ---- */
+/* page-graph.js starts this element as [hidden] and removes the attribute
+   once it has an ego-graph to show (an unconnected page stays hidden). It
+   renders an interactive ego-graph on a <canvas>: the current page in the
+   centre, its connections around it, click a neighbour to navigate. */
 .graph-connections {
   margin-top: 3.25rem;
   padding: 1.35rem 1.5rem 1.5rem;
@@ -245,37 +242,96 @@
 }
 
 .graph-connections > h2 {
-  margin: 0 0 1.1rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--line);
+  margin: 0 0 0.5rem;
   font-size: 1.2rem;
   text-align: center;
 }
 
-.graph-connection-group {
-  margin-top: 1.25rem;
+.graph-embed-intro {
+  margin: 0 auto 1rem;
+  max-width: 34rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  text-align: center;
 }
 
-.graph-connection-group:first-of-type {
-  margin-top: 0;
+.graph-embed-intro strong {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.graph-embed {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.graph-embed-canvas {
+  display: block;
+  width: 100%;
+  height: 420px;
+  touch-action: manipulation;
+}
+
+.graph-open {
+  margin: 1rem 0 0;
+  text-align: center;
+}
+
+.graph-open a {
+  font-weight: 600;
+}
+
+/* Accessible / crawlable fallback: the full grouped connection list. */
+.graph-embed-fallback {
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+
+.graph-embed-fallback > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  list-style-position: inside;
+}
+
+.graph-embed-fallback > summary:hover {
+  color: var(--heading);
+}
+
+.graph-connection-group {
+  margin-top: 1.1rem;
 }
 
 .graph-connection-group h3 {
-  margin: 0 0 0.55rem;
-  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
   letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .graph-connection-list {
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   display: grid;
-  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.4rem;
 }
 
 .graph-connection {
-  padding: 0.6rem 0.8rem;
-  border-radius: 0.45rem;
-  line-height: 1.35;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--panel);
+  font-size: 0.92rem;
+  line-height: 1.3;
   transition: border-color 0.12s ease, box-shadow 0.12s ease;
 }
 
@@ -284,22 +340,6 @@
   border-color: var(--accent);
   box-shadow: var(--shadow);
   text-decoration: none;
-}
-
-/* The group heading already names the type, so the per-card type label
-   (rendered by page-graph.js) is redundant here — hide it for calmer cards. */
-.graph-connection span {
-  display: none;
-}
-
-.graph-open {
-  margin-top: 1.35rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
-}
-
-.graph-open a {
-  font-weight: 600;
 }
 
 /* ---- Responsive ------------------------------------------- */
@@ -317,6 +357,10 @@
 
   .crosslink-panel .meta {
     justify-content: center;
+  }
+
+  .graph-embed-canvas {
+    height: 340px;
   }
 
   .graph-connection-list {
