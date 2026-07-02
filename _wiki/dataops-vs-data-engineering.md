@@ -1,12 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "DataOps vs Data Engineering"
-keyword: "dataops vs data engineering"
-secondary_keywords:
-  - data engineering vs dataops
-  - data ops vs data engineering
-summary: "Podcast-grounded comparison of DataOps and data engineering: what each owns, where they overlap, and how teams should separate pipeline building from pipeline operating discipline."
+title: "DataOps vs Data Engineering: Who Owns What Day-to-Day"
+summary: "How DataTalks.Club podcast guests split day-to-day ownership between data engineering (building pipelines, models, and checks) and DataOps (making changes safe to review, run, observe, and recover), grounded in Tomasz Hinc, Christopher Bergh, and Lars Albertsson interviews."
 related_wiki:
   - DataOps
   - Data Engineering
@@ -19,21 +15,22 @@ related_wiki:
   - CI/CD
 ---
 
-[[Data engineering]] builds the
-data paths that other teams use. It owns ingestion, storage, and
-transformation. It also owns orchestration and the interfaces that make data
-usable for analytics, machine learning, product systems, and operations.
-
-[[DataOps]] is the operating discipline
-around those paths. It gives teams a way to review and test data changes, then
-observe and recover them. A data engineer may do DataOps work, but the two
-terms don't mean the same thing.
-
-The distinction matters when a team asks whether it needs a data engineer or a
-better operating model. Some teams need both. For a plain-language comparison of
-DataOps with data engineering and data science, see
+For the general definitional comparison of DataOps with data engineering and
+data science, see the DataTalks.Club article
 [DataOps: Similarities and Differences with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
-This page adds the podcast-grounded version of that boundary.
+This page takes a narrower angle: what data engineering and DataOps each own
+day-to-day, based on how DataTalks.Club podcast guests describe the split.
+
+[[Data engineering]] owns building the
+data paths other teams use. Day-to-day that means ingestion, storage, and
+transformation, plus orchestration and the interfaces that make data usable for
+analytics, machine learning, product systems, and operations. The output is
+pipelines, models, and schedules.
+
+[[DataOps]] owns making changes to those
+paths safe to run. Day-to-day that means review and testing, deployment,
+observability, onboarding, and recovery more than writing every pipeline. A
+data engineer may do DataOps work, but the two jobs don't fill the same hours.
 
 [[person:nataliekwong|Natalie Kwong]] grounds the
 engineering side in ETL, ELT, and orchestration in

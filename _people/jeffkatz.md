@@ -26,8 +26,8 @@ isn't a list of fashionable tools. Around 9:58 in
 he explains that building a course meant checking employer demand and student
 interest. It also meant studying competitor curricula and graduate outcomes
 before writing lessons.
-That makes his episode a useful companion to
-[data engineering courses]({{ '/wiki/data-engineering-courses/' | relative_url }})
+That makes his episode a useful companion to DataTalks.Club's
+[free data engineering courses guide](https://datatalks.club/blog/free-data-engineering-courses.html)
 and the [data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}).
 
 His teaching method emphasizes active learning. Around 3:56-5:44, he says good
