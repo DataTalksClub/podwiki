@@ -35,8 +35,22 @@ ROOT = Path(__file__).resolve().parents[1]
 SIBLING_ZEROSEARCH = ROOT.parent / "zerosearch"
 if SIBLING_ZEROSEARCH.exists():
     sys.path.insert(0, str(SIBLING_ZEROSEARCH))
+SIBLING_STEMLITE = ROOT.parent / "stemlite"
+if SIBLING_STEMLITE.exists():
+    sys.path.insert(0, str(SIBLING_STEMLITE))
 
 from zerosearch import Index  # noqa: E402
+
+# Optional stemmer (bridges plural/synonym forms so duplicate detection matches
+# the stemming-enabled production search). Set via --stemmer; None = off.
+STEMMER = None
+
+
+def _stem_fn():
+    if not STEMMER:
+        return lambda w: w
+    from stemlite import get_stemmer
+    return get_stemmer(STEMMER)
 
 # Reuse the exact frontmatter/plaintext parsing the real index uses.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -139,6 +153,7 @@ def build_index(pages: list[Page]) -> Index:
     index = Index(
         text_fields=["title", "summary", "text"],
         keyword_fields=["id"],
+        stemmer=STEMMER,
     )
     index.fit(docs)
     return index
@@ -216,7 +231,8 @@ def cross_site_report(pages: list[Page], posts: list[Page], threshold: float,
 def _content_tokens(text: str) -> list[str]:
     stop = set("the a an and or of to in for on with vs is are how what your you "
                "this that as be it its from by at data".split())
-    return [t for t in __import__("re").findall(r"[a-z0-9]+", text.lower())
+    stem = _stem_fn()
+    return [stem(t) for t in __import__("re").findall(r"[a-z0-9]+", text.lower())
             if len(t) > 2 and t not in stop]
 
 
@@ -288,8 +304,14 @@ def main() -> None:
     parser.add_argument("--cross-threshold", type=float, default=5.0)
     parser.add_argument("--min-pct", type=float, default=25.0, help="min overlap %% to report")
     parser.add_argument("--top-k", type=int, default=6)
+    parser.add_argument("--stemmer", default=None,
+                        help="stem terms (porter/snowball/lancaster) via stemlite, "
+                             "matching production search; bridges plural/synonym forms")
     parser.add_argument("--json", type=Path, default=None)
     args = parser.parse_args()
+
+    global STEMMER
+    STEMMER = args.stemmer
 
     # --overlap is standalone; otherwise internal+cross run by default.
     run_overlap = args.overlap
