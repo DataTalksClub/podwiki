@@ -14,9 +14,9 @@ related_wiki:
  - DataOps
  - Modern Data Stack
  - Job Search
-  - FinOps for Data Engineers
-  - Data Analyst to Data Engineer
-  - Data Scientist to Data Engineer
+ - FinOps for Data Engineers
+ - Data Analyst to Data Engineer
+ - Data Scientist to Data Engineer
 ---
 
 A useful data engineer roadmap starts with the work a data engineer owns. Data
