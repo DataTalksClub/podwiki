@@ -285,6 +285,30 @@
   font-weight: 600;
 }
 
+/* subtle secondary button to re-seed the home ego-graph */
+.graph-reroll {
+  min-height: 0;
+  margin-right: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.35rem;
+  background: transparent;
+  color: var(--link);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.graph-reroll:hover {
+  border-color: var(--line-strong);
+  background: var(--panel);
+}
+
+/* the ego-graph embedded on the home page sits near the top, not after
+   a long article, so it needs less breathing room above it */
+.home-graph {
+  margin-top: 1.5rem;
+}
+
 /* Accessible / crawlable fallback: the full grouped connection list. */
 .graph-embed-fallback {
   margin-top: 1.1rem;

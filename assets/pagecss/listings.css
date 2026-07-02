@@ -36,6 +36,26 @@
   color: var(--link);
 }
 
+/* compact page header (catalog) — understated, left-aligned, no big hero */
+.wiki-pagehead {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.wiki-pagehead-title {
+  margin: 0;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.wiki-pagehead-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
 /* ---------- Landing page ---------- */
 
 .wiki-section-head {

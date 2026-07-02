@@ -22,21 +22,13 @@ title: Podcast Wiki
   {%- endunless -%}
 {%- endfor -%}
 
-<div class="wiki-hero">
-  <h1>DataTalks.Club Podcast Wiki</h1>
-  <p class="wiki-lede">Evidence-backed guides synthesized from the DataTalks.Club podcast archive — {{ c_total }} topic hubs on data, ML, and AI, grounded in what practitioners actually said.</p>
-</div>
+<h1 class="sr-only">DataTalks.Club Podcast Wiki</h1>
 
-<form class="home-search" action="{{ '/search.html' | relative_url }}" method="get">
-  <input name="q" type="search" placeholder="Search RAG, career transitions, feature stores..." />
-  <button type="submit">Search</button>
+<form class="home-search" action="{{ '/search.html' | relative_url }}" method="get" role="search">
+  <input name="q" type="search" aria-label="Search the wiki" placeholder="Search RAG, career transitions, feature stores..." />
 </form>
 
-<div class="quick-actions">
-  <a class="button" href="{{ '/wiki/' | relative_url }}">Browse the catalog</a>
-  <a class="button secondary" href="{{ '/graph.html' | relative_url }}">Open the graph</a>
-  <a class="button secondary" href="{{ '/special-pages/' | relative_url }}">Special pages</a>
-</div>
+<section class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
 
 {% if c_total > 0 %}
 
@@ -112,3 +104,7 @@ title: Podcast Wiki
 {% else %}
 <p class="muted">Wiki pages are being drafted from the archive analysis.</p>
 {% endif %}
+
+<p class="home-more">Also see the <a href="{{ '/special-pages/' | relative_url }}">special pages</a>.</p>
+
+<script src="{{ '/assets/page-graph.js' | relative_url }}"></script>

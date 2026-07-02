@@ -98,6 +98,17 @@
       .sort((a, b) => typeRank(a.type) - typeRank(b.type))[0];
   }
 
+  // A well-connected wiki node makes for a rich starting ego view.
+  function pickRandomCenter(graph, degreeById) {
+    const nodes = graph.nodes || [];
+    const rich = nodes.filter(
+      (node) => typeKey(node) === "wiki" && (degreeById.get(node.id) || 0) >= 4
+    );
+    const pool = rich.length ? rich : nodes;
+    if (!pool.length) return null;
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+
   function linkedNodes(graph, node, degreeById) {
     const nodes = new Map((graph.nodes || []).map((item) => [item.id, item]));
     const linked = new Map();
@@ -162,22 +173,33 @@
   }
 
   // ---- the interactive ego-graph ------------------------------
-  function buildEgo(root, center, linked, degreeById) {
+  function buildEgo(root, center, linked, degreeById, opts) {
     const allShown = diverseNeighbors(linked, CANVAS_MAX);
+    const random = !!(opts && opts.random);
 
     root.hidden = false;
     root.innerHTML = `
-      <h2>Explore the graph</h2>
-      <p class="graph-embed-intro">See how <strong>${escapeHtml(
-        center.label || center.title
-      )}</strong> connects to other pages. Hover to focus a link, click to open it.</p>
+      <h2>${random ? "Explore the wiki as a graph" : "Explore the graph"}</h2>
+      <p class="graph-embed-intro">${
+        random
+          ? `Starting from <strong>${escapeHtml(
+              center.label || center.title
+            )}</strong> — hover a connection, click to open it, or show another topic.`
+          : `See how <strong>${escapeHtml(
+              center.label || center.title
+            )}</strong> connects to other pages. Hover to focus a link, click to open it.`
+      }</p>
       <div class="graph-embed" data-embed>
         <canvas class="graph-embed-canvas" role="img" aria-label="Connection graph for ${escapeHtml(
           center.label || center.title
         )}"></canvas>
       </div>
       <p class="graph-open">
-        <a href="${escapeHtml(graphUrl(center))}">Open in the full graph &rarr;</a>
+        ${
+          random
+            ? `<button type="button" class="graph-reroll" data-graph-reroll>Show another topic &rarr;</button> `
+            : ""
+        }<a href="${escapeHtml(graphUrl(center))}">Open in the full graph &rarr;</a>
       </p>
       <details class="graph-embed-fallback">
         <summary>All ${linked.length} connection${linked.length === 1 ? "" : "s"}</summary>
@@ -201,6 +223,16 @@
           .join("")}
       </details>
     `;
+
+    if (random && opts.onReroll) {
+      const rerollBtn = root.querySelector("[data-graph-reroll]");
+      if (rerollBtn) {
+        rerollBtn.addEventListener("click", (event) => {
+          event.preventDefault();
+          opts.onReroll();
+        });
+      }
+    }
 
     const canvas = root.querySelector(".graph-embed-canvas");
     const ctx = canvas.getContext("2d");
@@ -474,7 +506,7 @@
     }
   }
 
-  function render(root, graph, node, degreeById) {
+  function render(root, graph, node, degreeById, opts) {
     if (!node) {
       root.hidden = true;
       return;
@@ -484,7 +516,7 @@
       root.hidden = true;
       return;
     }
-    buildEgo(root, node, linked, degreeById);
+    buildEgo(root, node, linked, degreeById, opts);
   }
 
   fetch(siteUrl("/graph/graph.json"))
@@ -501,8 +533,19 @@
         set.add(link.source);
       }
       for (const [id, set] of seen) degreeById.set(id, set.size);
-      const node = currentNode(graph);
-      for (const root of roots) render(root, graph, node, degreeById);
+      const currentPageNode = currentNode(graph);
+      for (const root of roots) {
+        if (root.hasAttribute("data-graph-random")) {
+          const reroll = () =>
+            render(root, graph, pickRandomCenter(graph, degreeById), degreeById, {
+              random: true,
+              onReroll: reroll,
+            });
+          reroll();
+        } else {
+          render(root, graph, currentPageNode, degreeById, { random: false });
+        }
+      }
     })
     .catch(() => {
       for (const root of roots) root.hidden = true;

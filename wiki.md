@@ -24,10 +24,9 @@ permalink: /wiki/
   {%- endunless -%}
 {%- endfor -%}
 
-<div class="wiki-hero">
+<div class="wiki-pagehead">
   <p class="wiki-back"><a href="{{ '/' | relative_url }}">&larr; Home</a></p>
-  <h1>Wiki Catalog</h1>
-  <p class="wiki-lede">Browse all {{ c_total }} topics — search, filter by type, or jump to a letter.</p>
+  <h1 class="wiki-pagehead-title">Wiki Catalog <span class="wiki-pagehead-count">{{ c_total }} topics</span></h1>
 </div>
 
 {% if c_total > 0 %}
