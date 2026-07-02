@@ -72,7 +72,7 @@ context and the full data pipeline.
 
 Use this section with the data reliability pages:
 
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
@@ -141,7 +141,7 @@ Continue from Danny's page into the main episode and topic pages:
 - [MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 - [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})

@@ -191,7 +191,7 @@ paths leaves teams reacting to incidents one by one.
 
 For the monitoring layer, see
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 For the tooling layer across checks, alerts, and runbooks, see
 [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}).
 
@@ -284,7 +284,7 @@ Adjacent practices, platform topics, and comparison boundaries:
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})

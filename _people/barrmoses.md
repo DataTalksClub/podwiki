@@ -22,7 +22,7 @@ tried to become data-driven but still learned about broken data from executives,
 customers, or downstream teams.
 
 Her contribution sits at the center of
-[data observability]({{ '/wiki/data-observability/' | relative_url }}),
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). Use her page when the
 question is how a data team detects unhealthy data, routes the incident, and

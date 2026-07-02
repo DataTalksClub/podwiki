@@ -171,7 +171,7 @@ Production evaluation checks whether the earlier judgment still holds after
 data changes. It also has to account for users, infrastructure, and upstream
 pipelines. This is where
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) become part
 of evaluation.
 

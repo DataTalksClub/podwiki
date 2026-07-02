@@ -24,7 +24,7 @@ and [DataOps]({{ '/wiki/dataops/' | relative_url }}), with overlap in
 Those overlaps help, but DevOps experience becomes data engineering evidence
 only when it shows data delivery. Repeatable ingestion, tested transformations,
 and scheduled pipelines show one side of that evidence. Recovery paths,
-cost-aware cloud choices, and [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+cost-aware cloud choices, and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 show the operations side.
 
 ## DevOps Skills That Transfer
@@ -91,7 +91,7 @@ Moses starts with data downtime, silent failures, and schema changes. He then
 connects lineage, ownership, SLAs, and runbooks to data reliability
 ([13:40-41:03]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
 Together they show that DevOps monitoring knowledge transfers only after the
-candidate expands it from service health into [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+candidate expands it from service health into [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Platform Habits in Data Work
 
@@ -249,7 +249,7 @@ reliability topics.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})

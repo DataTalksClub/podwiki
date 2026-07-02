@@ -191,7 +191,7 @@ Good project choices include:
 - an analytics mart for model monitoring, with raw predictions, labels,
   slices, drift checks, and documented table grain
   ([Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-  [Data Observability]({{ '/wiki/data-observability/' | relative_url }}))
+  [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}))
 - a backfill and schema-change project that starts with a working pipeline,
   breaks it with late data, and shows detection plus recovery
   ([DataOps]({{ '/wiki/dataops/' | relative_url }}))

@@ -177,7 +177,7 @@ freshness incidents matter first, instead of treating every late table as equal
 ([freshness SLAs at 35:24-40:43]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
 Link those expectations to
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) turns the
 same reliability problem into [DataOps]({{ '/wiki/dataops/' | relative_url }}).

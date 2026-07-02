@@ -139,7 +139,7 @@ signals into recovery inputs
 ([Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 16:38-29:00 and 35:24-43:00). Those signals belong with
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) turns
 those signals into operating discipline. His DataOps episodes connect data

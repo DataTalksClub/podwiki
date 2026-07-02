@@ -152,7 +152,7 @@ recurring analysis
 ([modern data stack at 43:02-45:59]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 That puts event tracking near
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}),
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}) work.
 

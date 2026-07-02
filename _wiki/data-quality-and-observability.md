@@ -4,12 +4,12 @@ title: "Data Quality and Observability"
 summary: "How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
 related:
   - DataOps
-  - Data Observability
   - Data Engineering Platforms
   - Data Governance
   - Model Monitoring
   - MLOps
   - Data Product Management
+  - Data Observability for Data Engineering
 ---
 
 Teams call data high-quality when it fits the downstream decision, product,
@@ -17,7 +17,7 @@ pipeline, or model that depends on it. They use data observability to notice
 when that fitness changes and diagnose the cause. The closest adjacent wiki
 pages are
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+[Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }}).
 Platform and governance links include
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
@@ -31,6 +31,14 @@ as "data downtime." Analytics teams, ML models, and business workflows can
 receive data that exists but is late or incomplete. The data may also be
 malformed or shifted.
 
+Andy Petrella's
+[Fundamentals of Data Observability]({{ '/books/20240429-fundamentals-of-data-observability/' | relative_url }})
+develops the same signal set into a full reference covering metadata
+collection, anomaly detection, and incident triage.
+[Cleaning Data for Effective Data Science]({{ '/books/20210621-cleaning-data-for-effective-data-science/' | relative_url }})
+by David Mertz covers the same data preparation and quality discipline that
+underlies reliable analytics and ML.
+
 Across the DataOps episodes,
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) connects
 the same failures to tests and CI/CD. He also ties reliability to version
@@ -40,10 +48,11 @@ and
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
 
 Use this page for the combined reliability concept. For narrower topics, follow
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) for
-monitoring and diagnosis, [DataOps]({{ '/wiki/dataops/' | relative_url }}) for
-data pipeline delivery, and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for
-deployed model failures.
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) for data pipeline delivery,
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) for deployed model failures, and
+[Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }})
+for practical implementation guidance including stack placement, ownership
+metadata, and rollout steps.
 
 ## Reliable Data Work
 
@@ -175,6 +184,18 @@ between uncommon data and bad data. A spike or drop may be intentional. A
 schema change may be intentional too, but teams still need context because a
 downstream dashboard, customer report, or ML model can break anyway.
 
+For ML systems, distribution monitoring sits next to model monitoring.
+[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) links model
+monitoring to upstream ETL and data-pipeline causes at 27:35 in the
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+A model incident may begin with feature data or delayed labels rather than
+model code. His 31:50 discussion of data profiling architecture shows how
+profiles can summarize behavior over time. At 55:50, he compares WhyLogs and
+WhyLabs, separating open-source profiling from managed observability.
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) covers that tooling
+layer, while pipeline checks live closer to
+[DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }}).
+
 ## Ownership, SLAs, and Triage
 
 Observability only helps when the right team can act. In
@@ -200,6 +221,19 @@ Runbooks matter, but Bergh treats them as a step toward automation. At
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) describes
 the move from manual checklists to automated playbooks. A useful alert should
 name an owner, a diagnosis path, and a remediation path.
+
+Moses lays out a maturity curve at 43:00 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+Teams move from reactive work toward proactive, automated, and scalable
+recovery. She also describes operational runbooks at 41:03. Bergh's DataOps
+episodes add the operating discipline: in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+he discusses the operational lifecycle at 23:56 and on-call readiness for data
+science at 26:13. Versioning should cover code, models, visualizations, and
+governance together, as he argues at 51:21 in
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+That makes incident response more than a tool — it requires clear ownership,
+automation, and post-incident improvements.
 
 ## ML and AI Reliability
 
@@ -253,7 +287,6 @@ incidents hard to debug.
 
 Adjacent topics cover the narrower operating disciplines and platform areas:
 
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

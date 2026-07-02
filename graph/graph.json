@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 279,
+    "wikis": 278,
     "articles": 0,
     "guides": 0,
     "comparisons": 0,
@@ -9,9 +9,9 @@
     "how_tos": 0,
     "podcasts": 202,
     "persons": 438,
-    "topics": 134,
+    "topics": 135,
     "nodes": 1152,
-    "links": 13025
+    "links": 12969
   },
   "nodes": [
     {
@@ -7756,6 +7756,15 @@
       "search": "data modeling"
     },
     {
+      "id": "topic:data-observability",
+      "type": "topic",
+      "label": "Data Observability",
+      "title": "Data Observability",
+      "url": "/search.html?q=Data%20Observability",
+      "count": 13,
+      "search": "Data Observability"
+    },
+    {
       "id": "topic:data-privacy",
       "type": "topic",
       "label": "data privacy",
@@ -9436,16 +9445,6 @@
       "count": 1,
       "search": "Data Mesh vs Centralized Data Platform How DataTalks.Club podcast guests compare domain owned data products with centralized platform ownership through architecture, governance, self service, reliability, and organizational maturity.",
       "keyword": "data mesh vs centralized data platform"
-    },
-    {
-      "id": "wiki:data-observability",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Observability",
-      "title": "Data Observability",
-      "url": "/wiki/data-observability/",
-      "count": 1,
-      "search": "Data Observability How DataTalks.Club guests define data observability through reliability signals, ownership, SLAs, and incident response."
     },
     {
       "id": "wiki:data-observability-for-data-engineering",
@@ -14299,6 +14298,12 @@
     },
     {
       "source": "person:barrmoses",
+      "target": "topic:data-observability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
       "target": "topic:data-quality",
       "kind": "person-expertise",
       "weight": 2
@@ -14312,18 +14317,6 @@
     {
       "source": "person:barrmoses",
       "target": "wiki:data-engineering-platforms",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:barrmoses",
-      "target": "wiki:data-observability",
-      "kind": "person-expertise",
-      "weight": 2
-    },
-    {
-      "source": "person:barrmoses",
-      "target": "wiki:data-observability",
       "kind": "person-link",
       "weight": 1
     },
@@ -15037,6 +15030,12 @@
     },
     {
       "source": "person:christopherbergh",
+      "target": "topic:data-observability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
       "target": "topic:mlops-and-dataops-overlap",
       "kind": "person-expertise",
       "weight": 2
@@ -15058,12 +15057,6 @@
       "target": "wiki:data-engineering",
       "kind": "person-link",
       "weight": 1
-    },
-    {
-      "source": "person:christopherbergh",
-      "target": "wiki:data-observability",
-      "kind": "person-expertise",
-      "weight": 2
     },
     {
       "source": "person:christopherbergh",
@@ -15541,6 +15534,12 @@
     },
     {
       "source": "person:dannyleybzon",
+      "target": "topic:data-observability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dannyleybzon",
       "target": "wiki:data-engineering",
       "kind": "person-expertise",
       "weight": 2
@@ -15548,18 +15547,6 @@
     {
       "source": "person:dannyleybzon",
       "target": "wiki:data-engineering",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:dannyleybzon",
-      "target": "wiki:data-observability",
-      "kind": "person-expertise",
-      "weight": 2
-    },
-    {
-      "source": "person:dannyleybzon",
-      "target": "wiki:data-observability",
       "kind": "person-link",
       "weight": 1
     },
@@ -17384,12 +17371,6 @@
     {
       "source": "person:joereis",
       "target": "wiki:data-governance",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:joereis",
-      "target": "wiki:data-observability",
       "kind": "person-link",
       "weight": 1
     },
@@ -24373,7 +24354,7 @@
     },
     {
       "source": "podcast:data-quality-data-observability-data-reliability",
-      "target": "wiki:data-observability",
+      "target": "topic:data-observability",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -31687,12 +31668,6 @@
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
       "weight": 1
@@ -36028,12 +36003,6 @@
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:apache-airflow",
@@ -40633,12 +40602,6 @@
     },
     {
       "source": "wiki:customer-data-platforms",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:customer-data-platforms",
       "target": "wiki:data-products",
       "kind": "wiki-link",
       "weight": 1
@@ -41161,12 +41124,6 @@
     },
     {
       "source": "wiki:data-activation",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-activation",
       "target": "wiki:data-products",
       "kind": "wiki-link",
       "weight": 1
@@ -41176,6 +41133,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-activation",
@@ -42421,12 +42384,6 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:data-pipelines",
       "kind": "wiki-link",
       "weight": 1
@@ -43208,12 +43165,6 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:data-lake",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-roadmap",
-      "target": "wiki:data-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -44054,12 +44005,6 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering",
-      "target": "wiki:data-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -46057,12 +46002,6 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
       "target": "wiki:data-pipelines",
       "kind": "wiki-link",
       "weight": 1
@@ -47166,162 +47105,6 @@
       "weight": 5
     },
     {
-      "source": "wiki:data-observability",
-      "target": "book:20240429-fundamentals-of-data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "person:barrmoses",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:apache-airflow",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:dataops-tools",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:governance",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:leadership",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:mlops-tools",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:production",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:production",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:testing",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
       "source": "wiki:data-observability-for-data-engineering",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
@@ -47330,18 +47113,6 @@
     {
       "source": "wiki:data-observability-for-data-engineering",
       "target": "person:barrmoses",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability-for-data-engineering",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability-for-data-engineering",
-      "target": "person:christopherbergh",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -47407,12 +47178,6 @@
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
-      "target": "podcast:production-ready-ai-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability-for-data-engineering",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
       "weight": 1
@@ -47452,18 +47217,6 @@
       "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:data-observability-for-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-observability-for-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "wiki-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
@@ -47833,12 +47586,6 @@
     },
     {
       "source": "wiki:data-product-adoption",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-adoption",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
       "weight": 1
@@ -47872,6 +47619,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-adoption",
@@ -48214,12 +47967,6 @@
       "target": "wiki:data-mesh",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-product-management",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:data-product-management",
@@ -49345,12 +49092,6 @@
     },
     {
       "source": "wiki:data-products",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
       "target": "wiki:data-product-adoption",
       "kind": "wiki-link",
       "weight": 1
@@ -49435,6 +49176,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "book:20240429-fundamentals-of-data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -49454,6 +49201,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:dannyleybzon",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -49501,6 +49254,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-link",
       "weight": 1
@@ -49543,24 +49302,18 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-quality-and-observability",
-      "target": "wiki:data-observability",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-observability-for-data-engineering",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
       "weight": 1
@@ -49585,6 +49338,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 1
@@ -49594,6 +49353,12 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -52471,12 +52236,6 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -54379,6 +54138,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "topic:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
@@ -54428,18 +54193,6 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:data-engineering-tools",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54583,6 +54336,12 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "topic:data-observability",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:airflow-docker-compose",
       "kind": "wiki-link",
       "weight": 1
@@ -54602,12 +54361,6 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:ci-cd",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "wiki:data-observability",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -54775,6 +54528,12 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
+      "target": "topic:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 1
@@ -54806,18 +54565,6 @@
     {
       "source": "wiki:dataops-engineer-role",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "wiki:data-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54961,6 +54708,12 @@
     },
     {
       "source": "wiki:dataops-operating-model",
+      "target": "topic:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 1
@@ -54980,18 +54733,6 @@
     {
       "source": "wiki:dataops-operating-model",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55219,12 +54960,6 @@
     },
     {
       "source": "wiki:dataops-platforms",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
       "target": "wiki:data-pipelines",
       "kind": "wiki-link",
       "weight": 1
@@ -55435,6 +55170,12 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "topic:data-observability",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 1
@@ -55480,12 +55221,6 @@
       "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:dataops-tools",
-      "target": "wiki:data-observability",
-      "kind": "wiki-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:dataops-tools",
@@ -55738,12 +55473,6 @@
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
@@ -57181,12 +56910,6 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -57337,7 +57060,7 @@
     },
     {
       "source": "wiki:documentation",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -58735,12 +58458,6 @@
     },
     {
       "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:etl-vs-elt",
       "target": "wiki:data-pipelines",
       "kind": "wiki-link",
       "weight": 1
@@ -58993,7 +58710,7 @@
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -59164,12 +58881,6 @@
       "target": "wiki:data-led-growth",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:event-tracking",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:event-tracking",
@@ -62656,12 +62367,6 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
@@ -67765,7 +67470,7 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -72847,7 +72552,7 @@
     },
     {
       "source": "wiki:mlops-architecture",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -73090,12 +72795,6 @@
       "target": "wiki:data-engineer-role",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-engineer",
@@ -74011,6 +73710,12 @@
     },
     {
       "source": "wiki:mlops-vs-devops",
+      "target": "topic:data-observability",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-devops",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 1
@@ -74023,15 +73728,9 @@
     },
     {
       "source": "wiki:mlops-vs-devops",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:data-observability",
-      "kind": "wiki-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -74287,6 +73986,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "topic:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
       "weight": 1
@@ -74302,18 +74007,6 @@
       "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "wiki:data-observability",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:model-monitoring",
@@ -74455,13 +74148,7 @@
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring-vs-data-observability",
-      "target": "wiki:data-observability",
+      "target": "topic:data-observability",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -75079,6 +74766,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "topic:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 1
@@ -75124,18 +74817,6 @@
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "wiki:data-observability",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:modern-data-stack",
@@ -84031,12 +83712,6 @@
     },
     {
       "source": "wiki:reverse-etl",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reverse-etl",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -88483,12 +88158,6 @@
     },
     {
       "source": "wiki:testing",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -89110,12 +88779,6 @@
       "target": "wiki:data-led-growth",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:tracking-plans",

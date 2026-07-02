@@ -101,7 +101,7 @@ he connects observability to ETL and data pipelines. He also connects it to
 upstream root causes.
 
 That link is why model monitoring and
-[data observability]({{ '/wiki/data-observability/' | relative_url }}) overlap.
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) overlap.
 The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
 break the model too.
@@ -241,7 +241,7 @@ Use these pages for adjacent MLOps, platform, and observability concepts.
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 - [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})

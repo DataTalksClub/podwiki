@@ -185,7 +185,7 @@ Pipelines and services should show reuse too
 ([KPI design and metrics strategy, 51:12-1:00:02]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
 
 Teams that measure adoption connect [data teams]({{ '/wiki/data-teams/' | relative_url }})
-to [data observability]({{ '/wiki/data-observability/' | relative_url }}) and
+to [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) and
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). The product
 has to work, stay trusted, and leave evidence that it changed behavior.
 

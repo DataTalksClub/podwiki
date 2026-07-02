@@ -200,7 +200,7 @@ and answer-level checks at 48:09. Those discussions belong with
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Infrastructure and Model Control
 

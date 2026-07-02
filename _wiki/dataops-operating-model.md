@@ -23,7 +23,7 @@ it beside the pipeline-level checklist in
 [DataOps Checks for Data Pipelines]({{ '/wiki/dataops-checks-for-data-pipelines/' | relative_url }})
 and the monitoring-focused pages
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) frames
 the model as a middle path between fear-driven process and unsustainable

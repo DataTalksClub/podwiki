@@ -219,7 +219,7 @@ cause analysis, data SLAs, accountability, and runbooks.
 
 Those ideas connect directly to
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}). A freshness
 check, schema test, or lineage graph isn't a decorative platform feature. It
 helps the team decide whether a dashboard, reverse ETL sync, or ML feature
@@ -307,7 +307,7 @@ operating cost in
 [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 Bergh and Moses add the reliability layer through
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
-[data observability]({{ '/wiki/data-observability/' | relative_url }}).
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Related Reading
 

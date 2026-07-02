@@ -190,7 +190,7 @@ For a CDP, governance covers several decisions:
 
 Arpit and Sonal don't frame CDPs as a substitute for governance. They frame
 CDPs as a place where
-[data observability]({{ '/wiki/data-observability/' | relative_url }}),
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
 and ownership become more visible because customer data starts affecting real
 interactions.

@@ -152,7 +152,7 @@ history. Ambiguous events can make sales teams prioritize the wrong account. For
 that reason, activation depends on
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
 [tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}), and
-[data observability]({{ '/wiki/data-observability/' | relative_url }}).
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 Arpit ties this back to event ownership and source awareness. At 13:34-23:27,
 he discusses tracking plans, event definitions, and event properties. Anomaly

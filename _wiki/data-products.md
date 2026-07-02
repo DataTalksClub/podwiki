@@ -227,7 +227,7 @@ Bergh's DataOps framing also exposes a common failure mode. A product can have
 users and a strong business case. It can still lose trust if pipelines fail
 silently, dashboards show stale numbers, or nobody owns remediation. That's why data
 products sit near [DataOps]({{ '/wiki/dataops/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Adjacent Product Practices

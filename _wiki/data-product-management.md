@@ -240,7 +240,7 @@ demos and stakeholder feedback
 
 This operating ownership puts data product management near
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}),
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [Production]({{ '/wiki/production/' | relative_url }}). The product manager
 doesn't replace the people who build those systems. They keep the product

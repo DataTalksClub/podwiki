@@ -137,7 +137,7 @@ playbooks. At 38:01, he connects handoffs and documentation to replaceability.
 He also connects them to reduced on-call load.
 
 That makes runbooks part of [DataOps]({{ '/wiki/dataops/' | relative_url }})
-and [data observability]({{ '/wiki/data-observability/' | relative_url }}), not
+and [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), not
 just a support artifact. A runbook is weak when it only documents the happy
 path. It becomes useful when it captures failure signals, recovery steps,
 and owners. Rollback options and tradeoffs matter too.
@@ -230,4 +230,4 @@ Use these pages for adjacent documentation topics:
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

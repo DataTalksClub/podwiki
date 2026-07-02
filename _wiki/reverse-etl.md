@@ -129,7 +129,7 @@ after the wrong account. A broken identity rule can show support the wrong
 customer history. An ambiguous event can trigger a campaign for users who never
 completed the action. Those risks connect reverse ETL to
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 Arpit places reverse ETL after warehousing, transformation, and BI. At 28:52,
@@ -184,4 +184,4 @@ and [ETL]({{ '/wiki/etl/' | relative_url }}). For operating controls around
 activated warehouse data, see
 [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).

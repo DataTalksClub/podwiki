@@ -6,7 +6,6 @@ keyword: "data observability for data engineering"
 summary: "A podcast-backed guide to data observability for data engineering teams: freshness, volume, schema, distribution, lineage, ownership, runbooks, and downstream impact."
 search_intent: "People searching for data observability for data engineering usually want to know which checks belong in a data platform, how observability differs from orchestration monitoring, and how to connect alerts to ownership, SLAs, and downstream impact."
 related_wiki:
-  - Data Observability
   - Data Quality and Observability
   - DataOps
   - Data Engineering
@@ -35,72 +34,36 @@ asks whether the output still satisfies the consumer expectation.
 
 ## Observability Role
 
-DataTalks.Club guests define data observability in practical terms. It helps
-data engineers detect an issue and diagnose the likely cause. It also shows the
-downstream impact before a dashboard user, model owner, or product team finds
-the problem first.
-
-Moses separates monitoring from observability at 24:31 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
-Monitoring detects a symptom. Observability helps the team understand why the
-symptom happened. At 26:04 she connects diagnosis to correlation, logs, and
-lineage. At 58:51 she returns to automatic lineage for upstream and downstream
-impact analysis.
-
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) adds the
-operating model in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
-At 15:52 he groups automation, observability, and productivity as core DataOps
-practices. At 50:29 he argues for starting with production monitoring because
-real incidents show where the delivery workflow needs to change.
-
-For data engineers, observability isn't a dashboard at the end of the stack. It
-belongs in ingestion and transformation work. It also supports serving,
-backfills, and incident response.
+The concept, signals, and ownership theory live in
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+This page focuses on what data engineering teams do with those ideas: where to
+place checks in the stack, how to connect alerts to ownership and SLAs, how to
+protect downstream consumers, and how to roll out observability without alert
+fatigue.
 
 ## Core Signals
 
-At 16:38 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
-Moses names five core signals:
+The five core signals (freshness, volume, distribution, schema, lineage) are
+defined in [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+Each signal maps to a different data engineering failure mode:
 
-- freshness
-- volume
-- distribution
-- schema
-- lineage
-
-Each signal maps to a different data engineering failure mode.
-
-Freshness checks whether data arrived when consumers expected it. That matters
-for daily dashboards, hourly operational tables, and feature pipelines. It also
-matters for reverse ETL syncs and product-facing data feeds. A successful task
-isn't enough if the latest partition is missing.
-
-Volume checks whether row counts or event counts changed unexpectedly. It
-catches missing files, duplicated loads, failed CDC windows, and partial
-extracts. It also helps separate a business event from an ingestion problem.
-
-Schema checks whether the structure still matches downstream expectations.
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) covers schema
-evolution at 48:58 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-Earlier, at 17:55, she explains ingestion guardrails. At 21:22 she connects
-governance to avoiding data swamps. This is where data observability meets
-schema agreements and
-[data governance]({{ '/wiki/data-governance/' | relative_url }}).
-
-Distribution checks whether values still look plausible. Null spikes, extreme
-values, and new categories can break metrics without breaking jobs. Sudden
-shifts in country, device, or product mix can do the same. For ML, the same
-failure mode appears as feature drift or label drift.
-
-Lineage shows upstream changes and downstream impact, and Moses uses it for
-diagnosis and impact mapping. In
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) also puts
-metadata and lineage inside the platform layer at 21:27. He places them
-alongside storage, compute, access, and catalogs.
+- **Freshness**: missing partitions in daily dashboards, hourly operational
+  tables, feature pipelines, and reverse ETL syncs.
+- **Volume**: missing files, duplicated loads, failed CDC windows, and partial
+  extracts. Also separates business events from ingestion problems.
+- **Schema**: [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+  covers schema evolution at 48:58 in
+  [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+  with ingestion guardrails at 17:55 and governance-to-swamp avoidance at 21:22.
+  This is where observability meets schema agreements and
+  [data governance]({{ '/wiki/data-governance/' | relative_url }}).
+- **Distribution**: null spikes, extreme values, new categories, and shifts in
+  country/device/product mix that break metrics without breaking jobs. For ML,
+  the same mode appears as feature drift or label drift.
+- **Lineage**: [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+  puts metadata and lineage inside the platform layer at 21:27 in
+  [Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+  alongside storage, compute, access, and catalogs.
 
 ## Stack Placement
 
@@ -142,17 +105,12 @@ impact
 
 ## Ownership And Response
 
-An alert is only useful when it reaches the team that can act. Moses connects
-observability to accountability at 29:00 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
-using RACI-style ownership and communication. At 35:24 she discusses data SLAs,
-and at 41:03 she covers operational runbooks.
-
-For data engineering teams, ownership metadata should live close to the asset.
-It should name the producing team, main consumers, and freshness expectation.
-It should also name the on-call path, recovery action, and escalation route.
-That makes a freshness alert on a critical feature table different from a
-row-count anomaly on an unused scratch table.
+The concept page covers the RACI ownership and SLA framework. For data
+engineering teams, ownership metadata should live close to the asset: it
+should name the producing team, main consumers, freshness expectation, on-call
+path, recovery action, and escalation route. That makes a freshness alert on a
+critical feature table different from a row-count anomaly on an unused scratch
+table.
 
 Bergh's
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
@@ -173,29 +131,12 @@ A useful observability runbook should tell a data engineer how to:
 
 ## Tests, SLAs, And DataOps
 
-Observability complements tests instead of replacing them.
-
-Bergh discusses CI/CD pipelines, regression tests, and realistic test data at
-30:55 in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
-In [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-he names dbt, Great Expectations, and SQL tests at 48:25. Those tools encode
-known assumptions. Observability watches running systems for unexpected
-changes.
-
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) gives the
-same lesson from production AI in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
-At 9:05 he talks about data trust and the familiar "this number doesn't look
-correct" moment. At 11:47 he covers snapshot and integration testing for data
-pipelines. At 13:14 he compares Great Expectations, Soda, SQL tests, and Spark
-tests. The AI context is different, but the engineering rule is the same:
-production outputs depend on trustworthy upstream data.
-
-Use tests for expected assumptions, SLAs for consumer expectations, and
-observability for runtime behavior and diagnosis. Together they support
-[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-without turning every incident into manual archaeology.
+The concept page covers the testing tool landscape and guest discussions in
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+For data engineering teams, the operating rule is simple: use tests for
+expected assumptions, SLAs for consumer expectations, and observability for
+runtime behavior and diagnosis. Those three layers should cover different
+failure modes without overlap.
 
 ## Downstream Impact
 
@@ -301,10 +242,8 @@ than a large anomaly in an unused table. Barr's
 is useful here because it connects incidents to affected consumers.
 
 For adjacent context, use
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }})
 cover the platform and role boundaries.
-

@@ -254,7 +254,7 @@ feedback channels. A monitoring architecture is stronger when it supports
 incident response, not only dashboards.
 
 For the data side of the same problem, see
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
 ## Governance, Lineage, and Ownership

@@ -23,7 +23,7 @@ Testing links [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 It also sits next to [evaluation]({{ '/wiki/evaluation/' | relative_url }}),
 [production]({{ '/wiki/production/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). Tests
 encode expectations a team knows before release. Monitoring catches behavior
 the team didn't know how to encode yet.
@@ -248,7 +248,7 @@ it fails.
 Testing supports production confidence alongside [DataOps]({{ '/wiki/dataops/' | relative_url }})
 and [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}), which cover the delivery
 machinery around tests. [Data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [data observability]({{ '/wiki/data-observability/' | relative_url }})
+and [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 cover the gap between known assertions and new production failures. For models,
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})

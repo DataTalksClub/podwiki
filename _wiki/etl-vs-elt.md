@@ -195,7 +195,7 @@ teams collect unused data
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 21:22 and 43:02). That ties ELT to
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [GitOps for data teams]({{ '/wiki/gitops-for-data-teams/' | relative_url }}),
 not only faster modeling.
 

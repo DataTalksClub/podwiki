@@ -170,7 +170,7 @@ A model may look broken because a source schema changed, labels arrived late,
 or features shifted. It may also fail because a pipeline stopped producing fresh
 data
 ([Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }})).
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
 
 Communication belongs in the role because MLOps is an adoption function. Lina
 ties monitoring to business cases at 4:50. She covers stakeholder buy-in at

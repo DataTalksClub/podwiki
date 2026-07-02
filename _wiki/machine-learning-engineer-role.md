@@ -118,7 +118,7 @@ drift checks, data freshness checks, and incident paths.
 Simon's 54:15 section discusses unified prediction schemas for monitoring and
 analytics. Those schemas make
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}) part of the role's
 day-to-day work.
 

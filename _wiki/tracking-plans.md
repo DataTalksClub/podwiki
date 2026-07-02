@@ -142,7 +142,7 @@ Natalie's modern-stack discussion shows what happens after collection: at
 recommends cleanup of unused data. Product events therefore need front-door
 documentation through the tracking plan. Later,
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) keep the modeled data usable
 ([modern data stack discussion]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
@@ -218,6 +218,6 @@ when product behavior reaches operational tools.
 - [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})

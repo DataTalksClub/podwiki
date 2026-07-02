@@ -149,7 +149,7 @@ The run status looked successful, but the data product was wrong. Teams should
 add edge-case checks and data assertions before they trust the result.
 
 Teams need this boundary when they add
-[data observability]({{ '/wiki/data-observability/' | relative_url }}) and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) and
 [DataOps tools]({{ '/wiki/dataops-tools/' | relative_url }}), because the
 orchestrator can preserve task state and logs. Observability tells the team
 whether freshness or volume failed, and it can also flag schema issues or

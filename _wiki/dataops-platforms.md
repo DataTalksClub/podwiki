@@ -278,7 +278,7 @@ They also cover observability, governance, and boundaries:
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 - [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

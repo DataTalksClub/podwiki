@@ -37,7 +37,7 @@ The same map reaches [data warehouses]({{ '/wiki/data-warehouse/' | relative_url
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also covers
 [reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}),
 [data activation]({{ '/wiki/data-activation/' | relative_url }}), and
-[data observability]({{ '/wiki/data-observability/' | relative_url }}).
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Stack Boundaries
 
@@ -241,7 +241,7 @@ says something changed, and observability helps the team diagnose why.
 Teams need those signals across modern-stack tools. Ingestion jobs,
 transformations, orchestration runs, and reverse ETL syncs all need checks that
 match their consumers.
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 cover the operating layer in more detail.
 

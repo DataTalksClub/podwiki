@@ -118,7 +118,7 @@ That sequence makes Joe's modeling view practical. Data engineers structure
 data so analysts, dashboard builders, data scientists, and ML systems can
 consume it reliably. Use
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), and
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}).
 
 ## Career Development and Stakeholder Work

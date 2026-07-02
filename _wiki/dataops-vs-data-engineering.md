@@ -159,7 +159,7 @@ That shared surface includes
 [orchestration]({{ '/wiki/orchestration/' | relative_url }}),
 [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}),
 [data quality]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [data observability]({{ '/wiki/data-observability/' | relative_url }}).
+and [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 It also includes ownership and documentation.
 
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) shows why the operating
@@ -228,7 +228,7 @@ These pages cover the concepts and neighboring comparisons behind this boundary:
 - [DataOps Tools]({{ '/wiki/dataops-tools/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})

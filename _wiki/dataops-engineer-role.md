@@ -290,7 +290,7 @@ These pages cover the role's neighboring practices and boundaries:
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
 - [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})

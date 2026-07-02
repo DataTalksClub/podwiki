@@ -158,7 +158,7 @@ around 11:17-15:29. He covers retraining triggers too.
 
 [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
 shows why [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-often reaches upstream into [data observability]({{ '/wiki/data-observability/' | relative_url }})
+often reaches upstream into [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 in
 [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
 Around 25:04-31:50, model monitoring connects to ETL and pipelines. Profiling
@@ -321,7 +321,7 @@ comparison:
 - [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})

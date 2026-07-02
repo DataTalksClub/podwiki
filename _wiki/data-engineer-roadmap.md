@@ -246,7 +246,7 @@ At 33:47 and 48:25, he uses practical reliability tools:
 
 Use [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) for the
+[Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) for the
 deeper version.
 
 ## Stage 5: Make The Portfolio Interview-Ready
