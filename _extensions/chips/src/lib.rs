@@ -413,11 +413,17 @@ where
 
     // Resolve label text. Podcast bare-time (a time but no explicit label) has
     // no label span at all.
+    //
+    // The transform runs on already-rendered HTML, so a label taken from the
+    // token (`Some(l)`) is ALREADY HTML-escaped (e.g. `R&D` arrives as
+    // `R&amp;D`) — re-escaping it would double-encode. A label we build from the
+    // slug (`humanized`) is raw text and still needs escaping. `bool` = "already
+    // escaped".
     let humanized = humanize(target);
-    let label_text: Option<String> = match label {
-        Some(l) => Some(l.to_string()),
+    let label_text: Option<(String, bool)> = match label {
+        Some(l) => Some((l.to_string(), true)),
         None if chip_type == ChipType::Podcast && time.is_some() => None,
-        None => Some(humanized.clone()),
+        None => Some((humanized.clone(), false)),
     };
 
     let original = format!("[[{inner}]]");
@@ -435,24 +441,26 @@ where
         Some(href) => {
             // Tooltip is the human label (falls back to the humanized target for
             // a bare-time podcast chip that has no label span).
-            let title = label_text.as_deref().unwrap_or(&humanized);
+            let (title, title_pre) = match &label_text {
+                Some((t, pre)) => (t.as_str(), *pre),
+                None => (humanized.as_str(), false),
+            };
             let mut s = format!(
                 "<a class=\"chip chip--{ty}\" data-chip=\"{ty}\" href=\"{href}\" title=\"{title}\">",
                 ty = chip_type.as_str(),
                 href = escape_attr(&href),
-                title = escape_attr(title),
+                title = if title_pre { escape_attr_pre(title) } else { escape_attr(title) },
             );
-            if let Some(l) = &label_text {
+            if let Some((l, pre)) = &label_text {
                 s.push_str(&format!(
                     "<span class=\"chip-label\">{}</span>",
-                    escape_text(l)
+                    if *pre { l.clone() } else { escape_text(l) }
                 ));
             }
             if let Some(t) = time {
-                s.push_str(&format!(
-                    "<span class=\"chip-time\">{}</span>",
-                    escape_text(t)
-                ));
+                // `t` came from the token (already escaped); timestamps have no
+                // special chars anyway.
+                s.push_str(&format!("<span class=\"chip-time\">{t}</span>"));
             }
             s.push_str("</a>");
             s
@@ -461,12 +469,13 @@ where
             // Only reachable for a `wiki` resolve miss.
             warnings.push(format!("chips: unresolved {original}"));
             // Always show something visible for a broken link.
-            let display = label_text
-                .or_else(|| time.map(|t| t.to_string()))
-                .unwrap_or(humanized);
+            let (display, display_pre) = label_text
+                .map(|(t, pre)| (t, pre))
+                .or_else(|| time.map(|t| (t.to_string(), true)))
+                .unwrap_or((humanized, false));
             format!(
                 "<span class=\"broken-link\">{}</span>",
-                escape_text(&display)
+                if display_pre { display } else { escape_text(&display) }
             )
         }
     }
@@ -504,6 +513,22 @@ fn escape_attr(s: &str) -> String {
             '&' => out.push_str("&amp;"),
             '<' => out.push_str("&lt;"),
             '>' => out.push_str("&gt;"),
+            '"' => out.push_str("&quot;"),
+            '\'' => out.push_str("&#39;"),
+            _ => out.push(c),
+        }
+    }
+    out
+}
+
+/// Escape an already-HTML-escaped string (taken from the rendered token, so
+/// `&`/`<`/`>` are already entities) for use in a double-quoted attribute. Only
+/// the attribute delimiters still need escaping — touching `&` again would
+/// double-encode.
+fn escape_attr_pre(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    for c in s.chars() {
+        match c {
             '"' => out.push_str("&quot;"),
             '\'' => out.push_str("&#39;"),
             _ => out.push(c),
@@ -622,6 +647,23 @@ mod tests {
             "got: {html}"
         );
         assert!(html.contains("title=\"A/B Testing\""), "got: {html}");
+    }
+
+    #[test]
+    fn preescaped_label_is_not_double_encoded() {
+        // The transform runs post-render, so `R&D` in the source arrives here as
+        // `R&amp;D`. It must NOT be re-escaped to `R&amp;amp;D`.
+        let (html, _) = run(
+            "<p>[[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&amp;D]]</p>",
+        );
+        assert!(
+            html.contains(
+                "<span class=\"chip-label\">Knowledge Graphs and LLMs for Automotive R&amp;D</span>"
+            ),
+            "got: {html}"
+        );
+        assert!(!html.contains("&amp;amp;"), "double-encoded: {html}");
+        assert!(html.contains("title=\"Knowledge Graphs and LLMs for Automotive R&amp;D\""), "got: {html}");
     }
 
     #[test]
