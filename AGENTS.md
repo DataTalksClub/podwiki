@@ -9,9 +9,14 @@ files from this repo unless the user explicitly asks to prepare a website PR.
 
 The wiki is a compounding artifact. When you answer a meaningful research question,
 categorize an episode, or synthesize a theme, file the useful result back into
-`_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`,
-`_podcast_summaries/`, or `_people/` so future sessions do not rediscover the
-same knowledge from scratch.
+`_wiki/`, `_podcast_summaries/`, or `_people/` so future sessions do not
+rediscover the same knowledge from scratch.
+
+All topic content lives in the single `_wiki/` collection, typed by `tags:`
+(comparison, guide, roadmap, transition, how-to; untagged = bare concept hub).
+There are no `_guides/`, `_comparisons/`, `_roadmaps/`, or `_how_tos/`
+collections and no redirect pages. See `CONTENT_GUIDE.md` for the tag model, the
+no-redirects rule, and the deduplication/link-check maintenance process.
 
 ## Layers
 
@@ -21,12 +26,9 @@ same knowledge from scratch.
 - `_podcast_summaries/`: compact episode summaries for agents. Do not copy full
   transcripts here; link to the original source episode.
 - `_people/`: guest/contributor exploration pages.
-- `_wiki/`: human/LLM-authored archive-derived wiki pages. Do not overwrite
-  with generated stubs.
-- `_guides/`: keyword-driven practical guides.
-- `_comparisons/`: X vs Y pages and role or architecture tradeoffs.
-- `_roadmaps/`: learning paths, transitions, and "how to get into" pages.
-- `_how_tos/`: procedural build, setup, and operations pages.
+- `_wiki/`: the single content collection — human/LLM-authored archive-derived
+  pages, typed by `tags:` (comparison, guide, roadmap, transition, how-to;
+  untagged = concept hub). Do not overwrite with generated stubs.
 - `search/` and `artifacts/search/`: generated exploration-page search corpora
   and packed Zerosearch artifacts.
 - `graph/graph.json`: generated podcast graph data for the static visualization.
@@ -78,8 +80,7 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 1. Read `CONTENT_GUIDE.md`.
 2. For broad topic work, read `sources/podcast-topic-inventory.md` after running
    `make sources`.
-3. Inspect existing pages in `_wiki/`, `_guides/`, `_comparisons/`,
-   `_roadmaps/`, `_how_tos/`, `_podcast_summaries/`, and `_people/`.
+3. Inspect existing pages in `_wiki/`, `_podcast_summaries/`, and `_people/`.
 4. Open raw source episode files in `../datatalksclub.github.io/_podcast` only
    when you need evidence, clips, guests, or transcript context.
 5. Update the target exploration page with synthesized takeaways, not just lists
@@ -124,9 +125,9 @@ They should include evidence links, timestamped examples, tradeoffs, and related
 wiki pages. Podcast summaries are a separate agent index and should stay compact.
 
 Editorial pages are SEO-informed pages created only after the user supplies
-target keywords. They live in `_guides/`, `_comparisons/`, `_roadmaps/`, or
-`_how_tos/`, with public URLs under `/guides/`, `/comparisons/`, `/roadmaps/`,
-and `/how-tos/`. Bare concepts belong in `_wiki/`.
+target keywords. They live in `_wiki/` with a type `tag:` (guide, comparison,
+roadmap, transition, or how-to) and are served under `/wiki/<slug>/` like every
+other page. Bare concepts are untagged wiki pages.
 
 ## Taxonomy Guidelines
 
@@ -145,8 +146,7 @@ Avoid topic proliferation. Merge near-duplicates such as `LLM`, `LLMs`, and
 
 When answering a user question about podcast content:
 
-1. Search `_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`,
-   `_podcast_summaries/`, and `_people/` with `rg`.
+1. Search `_wiki/`, `_podcast_summaries/`, and `_people/` with `rg`.
 2. Read the most relevant exploration pages.
 3. Open raw episode files for direct transcript verification when quoting or making
    fine-grained claims.
@@ -171,12 +171,10 @@ stable through graph URL hashes. `graph/graph.json` is generated from collection
 frontmatter and internal links by `scripts/build_graph.py`; do not maintain it
 as separate editorial content. Run `make sources` to sync source-derived
 podcast and people pages before graph generation. The source documents are
-`_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`, `_people/`,
-and `_podcast_summaries/`. Episode nodes
+`_wiki/`, `_people/`, and `_podcast_summaries/`. Episode nodes
 should link to local podcast pages, which then link to the original
-DataTalks.Club podcast pages. The graph may still treat guides, comparisons,
-roadmaps, and how-tos internally as article/content nodes; keep that separate
-from public collection naming.
+DataTalks.Club podcast pages. The graph may still treat tagged wiki pages
+internally as article/content nodes; that is an implementation detail.
 
 Run `python scripts/check_links.py` after a static build to validate generated
 internal links. GitHub Pages runs the same checker with the deployed base path.
