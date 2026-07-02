@@ -726,3 +726,52 @@ code {
     height: 440px;
   }
 }
+
+/* Special Pages filter */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.tag-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border, #d0d0d0);
+  background: transparent;
+  color: var(--muted, #666);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+
+.tag-btn:hover {
+  border-color: var(--accent, #2563eb);
+  color: var(--accent, #2563eb);
+}
+
+.tag-btn.active {
+  background: var(--accent, #2563eb);
+  border-color: var(--accent, #2563eb);
+  color: #fff;
+}
+
+.special-card .card-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+
+.special-card .card-tags em {
+  font-style: normal;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted, #888);
+  background: var(--bg-alt, #f4f4f4);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}

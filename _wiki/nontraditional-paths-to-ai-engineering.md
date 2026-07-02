@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "Nontraditional Paths to AI Engineering"
 summary: "How people entering AI engineering from career breaks, medicine, criminology, pet-health startups, semiconductor work, freelancing, and nonlinear learning paths can turn prior context into credible proof."
 related:

@@ -1,6 +1,6 @@
 ---
 layout: article
-tags: ["roadmap"]
+tags: [transition, "roadmap"]
 title: "Data Scientist to Data Engineer Roadmap"
 keyword: "data scientist to data engineer"
 summary: "A DataTalks.Club podcast-backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning."

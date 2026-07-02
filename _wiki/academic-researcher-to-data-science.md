@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "Academic Researcher to Data Science"
 summary: "How academic researchers, PhDs, postdocs, and research software practitioners translate research work into data science, applied ML, data engineering, and related industry roles."
 related:

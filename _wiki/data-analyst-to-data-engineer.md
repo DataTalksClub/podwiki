@@ -1,6 +1,6 @@
 ---
 layout: article
-tags: ["roadmap"]
+tags: [transition, "roadmap"]
 title: "Data Analyst to Data Engineer Roadmap"
 keyword: "data analyst to data engineer"
 summary: "A practical roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning."

@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "Data Scientist to Machine Learning Engineer"
 summary: "How data scientists move toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
 related:

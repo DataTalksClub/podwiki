@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "Marketing to Analytics Engineering"
 summary: "How marketers can move into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
 related:

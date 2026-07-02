@@ -1,6 +1,6 @@
 ---
 layout: article
-tags: ["roadmap"]
+tags: [transition, "roadmap"]
 title: "Data Analyst to Analytics Engineer Roadmap"
 keyword: "data analyst to analytics engineer"
 summary: "A podcast-backed roadmap for analysts moving into analytics engineering through SQL modeling, dbt-style workflows, metric ownership, tests, documentation, and portfolio evidence."

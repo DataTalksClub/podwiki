@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "Consultant or Freelancer to Data Product Founder"
 summary: "How podcast guests turn repeated consulting and freelance data problems into reusable data products, open-source products, and startup paths."
 related:

@@ -1,5 +1,6 @@
 ---
 layout: wiki
+tags: ["transition"]
 title: "DevOps to Data Engineering"
 summary: "Podcast-backed transition notes for DevOps, SRE, cloud, and platform engineers moving into data engineering through automation, DataOps, pipelines, cloud platforms, and portfolio proof."
 related:
