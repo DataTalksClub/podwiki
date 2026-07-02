@@ -6,26 +6,11 @@ permalink: /wiki/
 
 {% assign pages = site.wiki | sort_natural: "title" %}
 
-{%- comment -%} Count tagged topics for the filter pills {%- endcomment -%}
+{%- comment -%} Count public wiki topics for the catalog header {%- endcomment -%}
 {% assign c_total = 0 %}
-{% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_howto = 0 %}{% assign c_transition = 0 %}
 {%- for item in pages -%}
   {%- unless item.redirect_to -%}
-    {%- assign L = item.title | slice: 0 | upcase -%}
-    {%- assign letter_token = "|" | append: L | append: "|" -%}
-    {%- unless page_letters contains letter_token -%}
-      {%- assign page_letters = page_letters | append: letter_token -%}
-    {%- endunless -%}
     {% assign c_total = c_total | plus: 1 %}
-    {%- if item.tags -%}
-      {%- for t in item.tags -%}
-        {%- if t == "guide" -%}{% assign c_guide = c_guide | plus: 1 %}{%- endif -%}
-        {%- if t == "comparison" -%}{% assign c_comparison = c_comparison | plus: 1 %}{%- endif -%}
-        {%- if t == "roadmap" -%}{% assign c_roadmap = c_roadmap | plus: 1 %}{%- endif -%}
-        {%- if t == "how-to" -%}{% assign c_howto = c_howto | plus: 1 %}{%- endif -%}
-        {%- if t == "transition" -%}{% assign c_transition = c_transition | plus: 1 %}{%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
   {%- endunless -%}
 {%- endfor -%}
 
@@ -45,19 +30,7 @@ permalink: /wiki/
       <input id="wiki-filter" type="search" autocomplete="off" placeholder="Filter {{ c_total }} topics by name or keyword…" aria-label="Filter topics">
       <button class="wiki-search-clear" type="button" aria-label="Clear filter" hidden>&times;</button>
     </div>
-    <div class="wiki-tags" role="group" aria-label="Filter by type">
-      <button class="wiki-tag is-active" type="button" data-tag="all" aria-pressed="true">All</button>
-      {% if c_guide > 0 %}<button class="wiki-tag" type="button" data-tag="guide" aria-pressed="false">Guides<span class="wiki-tag-count">{{ c_guide }}</span></button>{% endif %}
-      {% if c_comparison > 0 %}<button class="wiki-tag" type="button" data-tag="comparison" aria-pressed="false">Comparisons<span class="wiki-tag-count">{{ c_comparison }}</span></button>{% endif %}
-      {% if c_roadmap > 0 %}<button class="wiki-tag" type="button" data-tag="roadmap" aria-pressed="false">Roadmaps<span class="wiki-tag-count">{{ c_roadmap }}</span></button>{% endif %}
-      {% if c_transition > 0 %}<button class="wiki-tag" type="button" data-tag="transition" aria-pressed="false">Transitions<span class="wiki-tag-count">{{ c_transition }}</span></button>{% endif %}
-      {% if c_howto > 0 %}<button class="wiki-tag" type="button" data-tag="how-to" aria-pressed="false">How-to<span class="wiki-tag-count">{{ c_howto }}</span></button>{% endif %}
-    </div>
   </div>
-  <nav class="wiki-az" aria-label="Jump to letter">
-    {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
-    {% for L in alphabet %}{% assign letter_token = "|" | append: L | append: "|" %}{% if page_letters contains letter_token %}<a href="#letter-{{ L }}" data-letter="{{ L }}">{{ L }}</a>{% endif %}{% endfor %}
-  </nav>
 </div>
 
 <p class="wiki-count">Showing <b id="wiki-count">{{ c_total }}</b> of {{ c_total }} topics</p>
@@ -90,21 +63,18 @@ permalink: /wiki/
   </section>
 </div>
 
-<p class="wiki-empty" hidden>No topics match your filter. Try a different keyword or reset the type filter.</p>
+<p class="wiki-empty" hidden>No topics match your filter. Try a different keyword.</p>
 
 <script>
 (function () {
   var input = document.getElementById('wiki-filter');
   var clear = document.querySelector('.wiki-search-clear');
-  var tagBtns = Array.prototype.slice.call(document.querySelectorAll('.wiki-tag'));
   var cards = Array.prototype.slice.call(document.querySelectorAll('.wiki-card'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('.wiki-section'));
-  var azLinks = Array.prototype.slice.call(document.querySelectorAll('.wiki-az a'));
   var countEl = document.getElementById('wiki-count');
   var emptyEl = document.querySelector('.wiki-empty');
   if (!cards.length) return;
 
-  var activeTag = 'all';
   var query = '';
 
   function apply() {
@@ -113,19 +83,13 @@ permalink: /wiki/
     var lettersShown = {};
     for (var i = 0; i < cards.length; i++) {
       var c = cards[i];
-      var tags = (c.getAttribute('data-tags') || '').split(' ');
-      var matchTag = activeTag === 'all' || tags.indexOf(activeTag) !== -1;
       var matchQuery = !q || (c.getAttribute('data-search') || '').indexOf(q) !== -1;
-      var show = matchTag && matchQuery;
+      var show = matchQuery;
       c.hidden = !show;
       if (show) { visible++; lettersShown[c.getAttribute('data-letter')] = true; }
     }
     for (var s = 0; s < sections.length; s++) {
       sections[s].hidden = !lettersShown[sections[s].getAttribute('data-letter')];
-    }
-    for (var a = 0; a < azLinks.length; a++) {
-      var has = !!lettersShown[azLinks[a].getAttribute('data-letter')];
-      azLinks[a].classList.toggle('is-disabled', !has);
     }
     countEl.textContent = visible;
     emptyEl.hidden = visible !== 0;
@@ -140,25 +104,6 @@ permalink: /wiki/
       query = ''; if (input) { input.value = ''; input.focus(); } apply();
     });
   }
-  tagBtns.forEach(function (b) {
-    b.addEventListener('click', function () {
-      activeTag = b.getAttribute('data-tag');
-      tagBtns.forEach(function (x) {
-        var on = x === b;
-        x.classList.toggle('is-active', on);
-        x.setAttribute('aria-pressed', on ? 'true' : 'false');
-      });
-      apply();
-    });
-  });
-  azLinks.forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
-      if (link.classList.contains('is-disabled')) return;
-      var target = document.getElementById('letter-' + link.getAttribute('data-letter'));
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
 
   apply();
 })();

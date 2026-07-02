@@ -132,19 +132,17 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin: 2.4rem 0 0.5rem;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid var(--line-strong);
-  border-radius: 0.7rem;
-  background: var(--panel-tint);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  margin: 2rem 0 0.25rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  transition: border-color 0.15s ease;
 }
 
 .wiki-catalog-cta:hover,
 .wiki-catalog-cta:focus-visible {
-  border-color: var(--link);
-  box-shadow: var(--shadow);
-  transform: translateY(-2px);
+  border-color: var(--line-strong);
   text-decoration: none;
 }
 
@@ -156,8 +154,8 @@
 
 .wiki-catalog-cta-title {
   font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 650;
   color: var(--heading);
 }
 
@@ -168,13 +166,13 @@
 
 .wiki-catalog-cta-sub {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 
 .wiki-catalog-cta-arrow {
   flex: none;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 1;
   color: var(--link);
   transition: transform 0.15s ease;
@@ -185,7 +183,7 @@
   transform: translateX(4px);
 }
 
-/* ---- Sticky control bar (search + tag filters + A–Z jump) ---- */
+/* ---- Sticky control bar (search) ---- */
 
 .wiki-controls {
   position: sticky;
@@ -279,88 +277,6 @@
 .wiki-search-clear:hover {
   background: var(--panel-soft);
   color: var(--heading);
-}
-
-/* tag filter pills */
-.wiki-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.wiki-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.42rem 0.85rem;
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  background: var(--panel);
-  color: var(--text);
-  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 700;
-  line-height: 1;
-  cursor: pointer;
-  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
-}
-
-.wiki-tag:hover {
-  border-color: var(--link);
-  color: var(--link);
-}
-
-.wiki-tag.is-active {
-  background: var(--btn-bg);
-  border-color: var(--btn-bg);
-  color: #fff;
-}
-
-.wiki-tag.is-active:hover {
-  background: var(--btn-bg-hover);
-  border-color: var(--btn-bg-hover);
-  color: #fff;
-}
-
-.wiki-tag-count {
-  margin-left: 0.4rem;
-  font-weight: 700;
-  opacity: 0.6;
-}
-
-/* A–Z jump bar */
-.wiki-az {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.15rem;
-  margin-top: 0.7rem;
-}
-
-.wiki-az a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 1.7rem;
-  height: 1.7rem;
-  padding: 0 0.15rem;
-  border-radius: 0.35rem;
-  color: var(--link);
-  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.12s ease, color 0.12s ease;
-}
-
-.wiki-az a:hover {
-  background: var(--panel-tint);
-  color: var(--link-hover);
-  text-decoration: none;
-}
-
-.wiki-az a.is-disabled {
-  color: var(--muted);
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 /* result count */
@@ -520,21 +436,6 @@
     gap: 0.6rem;
   }
 
-  .wiki-tags {
-    width: 100%;
-  }
-
-  .wiki-az {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-    padding-bottom: 0.25rem;
-  }
-
-  .wiki-az::-webkit-scrollbar {
-    display: none;
-  }
-
   .wiki-grid {
     grid-template-columns: 1fr;
   }
@@ -548,7 +449,7 @@
   }
 
   .wiki-catalog-cta {
-    padding: 1.1rem 1.15rem;
+    padding: 0.85rem 0;
   }
 }
 

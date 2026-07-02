@@ -94,7 +94,7 @@ title: Podcast Wiki
 <a class="wiki-catalog-cta" href="{{ '/wiki/' | relative_url }}">
   <span class="wiki-catalog-cta-text">
     <span class="wiki-catalog-cta-title">Browse the full catalog</span>
-    <span class="wiki-catalog-cta-sub">Search, filter by type, and jump A–Z across all {{ c_total }} topics.</span>
+    <span class="wiki-catalog-cta-sub">Search across all {{ c_total }} topics A-Z.</span>
   </span>
   <span class="wiki-catalog-cta-arrow" aria-hidden="true">&rarr;</span>
 </a>
@@ -102,8 +102,6 @@ title: Podcast Wiki
 {% else %}
 <p class="muted">Wiki pages are being drafted from the archive analysis.</p>
 {% endif %}
-
-<p class="home-more">Also see the <a href="{{ '/special-pages/' | relative_url }}">special pages</a>.</p>
 
 <section class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
 
