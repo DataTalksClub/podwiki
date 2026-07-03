@@ -191,7 +191,7 @@ failure modes are predictable:
 - AI-generated insights can create more work for analysts if people treat every
   answer as a new ad hoc request.
 
-These risks appear across the archive: hallucinations and dashboard trust
+These risks appear across several podcast discussions: hallucinations and dashboard trust
 ([[podcast:mindful-data-strategy-for-business-impact|Mindful Data Strategy for Business Impact]]);
 production AI starting from data trust and tests
 ([[podcast:production-ready-ai-engineering|Production AI Engineering]]);

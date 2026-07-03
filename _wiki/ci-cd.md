@@ -21,7 +21,7 @@ A green build is not enough. Teams also need evidence that data transformations
 and training code still work, and that deployment targets, monitoring, and
 rollback paths still work after a change.
 
-CI/CD takes several forms across the archive. As the delivery spine of DataOps
+CI/CD takes several forms in podcast discussions. As the delivery spine of DataOps
 it centers on version control, automated tests, and automated deployment
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
 [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]). As a

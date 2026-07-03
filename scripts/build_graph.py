@@ -231,6 +231,20 @@ def markdown_targets(body: str) -> list[str]:
     return targets
 
 
+def chip_parts(inner: str) -> tuple[str, str | None]:
+    """Return the chip target and optional prefix from ``[[...]]`` markup."""
+    inner = inner.replace("=&gt;", "=>").strip()
+    target = re.split(r"\||=>", inner, maxsplit=1)[0].strip()
+    prefix = None
+    if ":" in target:
+        maybe_prefix, rest = target.split(":", 1)
+        if re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]*", maybe_prefix):
+            prefix = maybe_prefix.lower()
+            target = rest.strip()
+    target = target.rsplit("@", 1)[0].strip()
+    return target, prefix
+
+
 def build_graph() -> dict[str, object]:
     pages = read_pages()
     nodes = []
@@ -290,6 +304,22 @@ def build_graph() -> dict[str, object]:
                     return str(candidate["id"])
         return str(candidates[0]["id"])
 
+    def chip_targets(body: str, source_collection: str | None = None) -> list[str]:
+        targets: list[str] = []
+        for inner in re.findall(r"\[\[([^\]]+)\]\]", body):
+            target, prefix = chip_parts(inner)
+            if not target:
+                continue
+            if prefix in {"podcast", "cite"}:
+                targets.append(node_id("podcast", "podcast", target))
+            elif prefix == "person":
+                targets.append(node_id("person", "person", target))
+            elif prefix == "book":
+                targets.append(node_id("book", "book", target))
+            elif prefix in {"wiki", "topic", None}:
+                targets.append(target_for_label(target, source_collection, prefer_wiki=True))
+        return targets
+
     for page in pages:
         node = {
             "id": page["id"],
@@ -329,6 +359,8 @@ def build_graph() -> dict[str, object]:
             add_link(source, f"podcast:{episode}", "person-podcast", 4)
         for target in sorted(set(markdown_targets(str(page["body"])))):
             add_link(source, target, f"{page_type}-link", 1)
+        for target in sorted(set(chip_targets(str(page["body"]), collection))):
+            add_link(source, target, f"{page_type}-chip", 1)
 
     for slug, label in sorted(topic_labels.items()):
         nodes.append(

@@ -71,7 +71,7 @@ pipelines without depending on heroics or tribal knowledge
 
 ## Dedicated Role or Shared Practice
 
-The sharpest role question in the archive is whether DataOps deserves a
+The sharpest role question is whether DataOps deserves a
 dedicated title at all. Guests agree on the reliability goal but split on the
 staffing answer, and the split is the most useful thing on this page.
 
