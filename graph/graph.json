@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11069
+    "links": 11075
   },
   "nodes": [
     {
@@ -28682,6 +28682,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "wiki-chip",
       "weight": 1
@@ -41996,6 +42002,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "podcast:get-data-scientist-job",
       "kind": "wiki-chip",
       "weight": 1
@@ -54081,7 +54093,7 @@
     {
       "source": "wiki:learning-in-public-ai-career-switch",
       "target": "person:pastorsoto",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -54093,6 +54105,12 @@
     {
       "source": "wiki:learning-in-public-ai-career-switch",
       "target": "person:ruslanshchuchkin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56216,6 +56234,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "person:marianosemelman",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "person:nadianahar",
       "kind": "wiki-chip",
       "weight": 1
@@ -56283,6 +56307,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "podcast:crisp-dm",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59235,6 +59265,12 @@
     {
       "source": "wiki:machine-learning-tools",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "wiki-chip",
       "weight": 1
     },

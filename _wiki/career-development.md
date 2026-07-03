@@ -115,6 +115,15 @@ Swyx also treats unsolicited redesigns, product clones, and case studies as
 visibility signals. Open knowledge projects, collaborative docs, and cheat
 sheets serve the same role.
 
+The DataTalks.Club community-building discussion adds a workflow practice to
+that public proof. In
+[[cite:datatalksclub-building-scaling-data-community|Building and Scaling DataTalks.Club]],
+public deadlines, accountability, and batching help keep community work moving.
+For career development, the same practice can make learning and publishing more
+consistent than private intention alone. A planned post, project demo, course
+milestone, or community session gives peers a reason to expect progress and
+gives the learner a cadence for shipping.
+
 Swyx's [[book:20210510-the-coding-career-handbook|The Coding Career Handbook]]
 expands on these themes, covering career growth, learning in public, and
 compounding proof of expertise.

@@ -41,9 +41,9 @@ for trackers, platforms, and libraries. Use
 for LLM applications, RAG, and agents.
 Mark Ryan and Luca Massaron's
 [[book:20250505-machine-learning-for-tabular-data=>Machine Learning for Tabular Data]]
-covers the classical modeling workflow that anchors much of this discussion:
-feature engineering, gradient-boosted trees, and cross-validation for
-structured business data.
+covers the classical modeling workflow that anchors much of this discussion.
+It includes feature engineering, gradient-boosted trees, and cross-validation
+for structured business data.
 
 ## Applied Modeling, Not Model Selection
 
@@ -79,11 +79,11 @@ direction: probabilistic and [[a-b-testing|Bayesian modeling]]
 as a composable alternative to the scikit-learn model-selection mindset. In
 [[podcast:bayesian-modeling-workflows-and-tools=>Bayesian Modeling Workflows and Tools]],
 he argues that the distribution-in/distribution-out structure of Bayesian
-inference makes analysis incrementally extensible — you can add data and
+inference makes analysis incrementally extensible. Teams can add data and
 variables to an existing posterior rather than starting over. He contrasts this
-with frequentist point estimates that often require throwing away prior work, and
-connects it to probabilistic programming languages that automate sampler
-generation from model specifications.
+with frequentist point estimates that often require throwing away prior work.
+He also connects the workflow to probabilistic programming languages that
+automate sampler generation from model specifications.
 
 ## Problem Framing and Baselines
 
@@ -91,7 +91,10 @@ generation from model specifications.
 by Marcello La Rocca covers the algorithmic foundations that underpin
 efficient ML feature engineering and retrieval at scale.
 
-[[book:20210208-ml-design-patterns=>Machine Learning Design Patterns]] by Valliappa Lakshmanan, Sara Robinson, and Michael Munn catalogues reusable patterns for data representation, model training, and serving that recur across the production ML episodes below.
+[[book:20210208-ml-design-patterns=>Machine Learning Design Patterns]] by
+Valliappa Lakshmanan and coauthors catalogues reusable patterns for data
+representation, model training, and serving. Those patterns recur across
+production ML episodes.
 
 DataTalks.Club guests start ML with the decision instead of the model. In
 [[podcast:crisp-dm=>CRISP-DM Methodology for Data Science Projects]],
@@ -130,6 +133,12 @@ In
 [[podcast:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
 Arseny adds data availability and system diagrams. He also treats real-time
 versus batch data flow as a design question.
+
+[[person:marianosemelman=>Mariano Semelman]] connects the same
+discipline to model debugging. If a model underperforms, practitioners need to
+ask whether it's overfitting first. They also need to separate bad data from
+weak features and wrong problem framing before they change algorithms
+[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
 
 ML overlaps here with
 [[Data Engineering]] and
