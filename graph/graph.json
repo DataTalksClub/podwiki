@@ -10112,11 +10112,11 @@
       "id": "wiki:marketing-to-analytics-engineering",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Marketing to Analytics Engineering",
-      "title": "Marketing to Analytics Engineering",
+      "label": "Marketer to Analytics Engineer",
+      "title": "Marketer to Analytics Engineer",
       "url": "/wiki/marketing-to-analytics-engineering/",
       "count": 1,
-      "search": "Marketing to Analytics Engineering How marketers can move into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
+      "search": "Marketer to Analytics Engineer How marketers can move into analytics engineering with SQL, BI, dbt, product analytics, dashboards, and metric ownership."
     },
     {
       "id": "wiki:metaflow",
@@ -10190,6 +10190,17 @@
       "url": "/wiki/machine-learning-infrastructure/",
       "count": 1,
       "search": "ML Infrastructure Compute, storage, orchestration, serving, monitoring, and platform foundations for production machine learning systems."
+    },
+    {
+      "id": "wiki:model-monitoring-vs-data-observability",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Monitoring vs Observability",
+      "title": "ML Monitoring vs Observability",
+      "url": "/wiki/model-monitoring-vs-data-observability/",
+      "count": 1,
+      "search": "ML Monitoring vs Observability How model monitoring and data observability split drift, data quality, profiling, ownership, and incident response across MLOps and DataOps.",
+      "keyword": "model monitoring vs data observability"
     },
     {
       "id": "wiki:machine-learning-personalization",
@@ -10327,11 +10338,11 @@
       "id": "wiki:mlops-vs-dataops",
       "type": "wiki",
       "collection": "wiki",
-      "label": "MLOps vs DataOps: Separate Concepts, Shared Reliability Practices",
-      "title": "MLOps vs DataOps: Separate Concepts, Shared Reliability Practices",
+      "label": "MLOps vs DataOps",
+      "title": "MLOps vs DataOps",
       "url": "/wiki/mlops-vs-dataops/",
       "count": 1,
-      "search": "MLOps vs DataOps: Separate Concepts, Shared Reliability Practices Podcast grounded comparison of MLOps and DataOps: what each discipline owns, where they overlap, and how teams should separate model incidents from data incidents.",
+      "search": "MLOps vs DataOps Compare MLOps and DataOps ownership, monitoring, platforms, and incident handoffs for production ML systems that depend on data pipelines.",
       "keyword": "mlops vs dataops"
     },
     {
@@ -10353,17 +10364,6 @@
       "url": "/wiki/model-monitoring/",
       "count": 1,
       "search": "Model Monitoring How teams watch deployed models, diagnose drift, and assign ownership for production ML behavior."
-    },
-    {
-      "id": "wiki:model-monitoring-vs-data-observability",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Model Monitoring vs Data Observability",
-      "title": "Model Monitoring vs Data Observability",
-      "url": "/wiki/model-monitoring-vs-data-observability/",
-      "count": 1,
-      "search": "Model Monitoring vs Data Observability Comparison of model monitoring and data observability: what each watches, where upstream data quality and profiling overlap, and how MLOps and DataOps teams divide incident response.",
-      "keyword": "model monitoring vs data observability"
     },
     {
       "id": "wiki:model-optimization",
@@ -10450,21 +10450,21 @@
       "id": "wiki:nontraditional-paths-to-ai-engineering",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Nontraditional Paths to AI Engineering",
-      "title": "Nontraditional Paths to AI Engineering",
+      "label": "Nontraditional AI Engineering",
+      "title": "Nontraditional AI Engineering",
       "url": "/wiki/nontraditional-paths-to-ai-engineering/",
       "count": 1,
-      "search": "Nontraditional Paths to AI Engineering How people entering AI engineering from career breaks, medicine, criminology, pet health startups, semiconductor work, freelancing, and nonlinear learning paths can turn prior context into credible proof."
+      "search": "Nontraditional AI Engineering How career breaks, medicine, freelancing, semiconductors, and startups can become credible AI engineering proof."
     },
     {
       "id": "wiki:notebook-to-production-ai-systems",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Notebook to Production AI Systems",
-      "title": "Notebook to Production AI Systems",
+      "label": "Notebook to Production AI",
+      "title": "Notebook to Production AI",
       "url": "/wiki/notebook-to-production-ai-systems/",
       "count": 1,
-      "search": "Notebook to Production AI Systems How DataTalks.Club guests frame the path from notebooks and experiments to end to end AI systems in production."
+      "search": "Notebook to Production AI How DataTalks.Club guests describe moving from notebooks and experiments to reliable AI systems, with evaluation, monitoring, and ownership."
     },
     {
       "id": "wiki:open-source",

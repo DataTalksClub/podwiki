@@ -1,8 +1,8 @@
 ---
 layout: wiki
 tags: ["transition"]
-title: "Marketing to Analytics Engineering"
-summary: "How marketers can move into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
+title: "Marketer to Analytics Engineer"
+summary: "How marketers can move into analytics engineering with SQL, BI, dbt, product analytics, dashboards, and metric ownership."
 related:
   - Career Transitions in Data
   - Analytics Engineering
@@ -16,9 +16,9 @@ related:
   - Data Warehouse
 ---
 
-Marketing to analytics engineering is the move from using campaign and funnel
-metrics to owning reusable analytical data products. The marketer already knows
-why acquisition, conversion, retention, and experiments matter. The
+Marketers move into analytics engineering by turning campaign and funnel
+metrics into reusable analytical data products. They already know why
+acquisition, conversion, retention, and experiments matter. The
 [[analytics engineering]]
 side adds SQL models, tested transformations, metric definitions, and BI-ready
 tables.

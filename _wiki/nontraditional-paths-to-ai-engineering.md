@@ -1,8 +1,8 @@
 ---
 layout: wiki
 tags: ["transition"]
-title: "Nontraditional Paths to AI Engineering"
-summary: "How people entering AI engineering from career breaks, medicine, criminology, pet-health startups, semiconductor work, freelancing, and nonlinear learning paths can turn prior context into credible proof."
+title: "Nontraditional AI Engineering"
+summary: "How career breaks, medicine, freelancing, semiconductors, and startups can become credible AI engineering proof."
 related:
   - Career Transitions in Data
   - AI Engineer Role
@@ -11,18 +11,17 @@ related:
   - AI Engineering Roadmap
 ---
 
-Nontraditional paths to AI engineering are transitions where the candidate
-doesn't start from a standard computer-science-to-software route. In
-DataTalks.Club episodes, the durable move isn't reinvention. It's translation.
-People turn prior domain judgment, stakeholder work, production experience,
-and freelance delivery into evidence that they can build useful AI systems.
-Public learning can make that evidence visible.
+Nontraditional AI engineering paths start outside the standard
+computer-science-to-software route. DataTalks.Club guests show that the useful
+move is translation. They turn prior domain judgment, stakeholder work,
+production experience, and freelance delivery into evidence that they can build
+useful AI systems. Public learning can make that evidence visible.
 
 The target role still matters. [[AI engineer role]]
 episodes describe AI engineers as people who build applications around users
 and model behavior. They manage context, retrieval, and evaluation. The role
-centers on end-to-end product work and context management. It also requires
-fast product discovery and enough full-stack range to kickstart a usable system
+centers on end-to-end product work. It also requires fast product discovery and
+enough full-stack range to kickstart a usable system
 ([[person:ruslanshchuchkin|Ruslan Shchuchkin]], [[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
 
 That's why transition proof has to show more than interest in models. It has to

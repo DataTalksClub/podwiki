@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Notebook to Production AI Systems"
-summary: "How DataTalks.Club guests frame the path from notebooks and experiments to end-to-end AI systems in production."
+title: "Notebook to Production AI"
+summary: "How DataTalks.Club guests describe moving from notebooks and experiments to reliable AI systems, with evaluation, monitoring, and ownership."
 related:
   - Production
   - Machine Learning System Design
@@ -10,10 +10,9 @@ related:
   - AI Engineering
 ---
 
-Notebook-to-production AI systems turn exploratory work into behavior people
-can rely on. The starting point may be a notebook, model experiment, prompt, or
-research prototype. DataTalks.Club guests usually describe the transition as a
-change in ownership. Someone has to define the product decision, run the code
+Notebook-to-production AI work usually starts in a notebook, model experiment,
+prompt, or research prototype. DataTalks.Club guests describe the transition as
+a change in ownership. Someone has to define the product decision, run the code
 again, evaluate output quality, and monitor behavior after launch. The team
 also has to change the system without breaking users.
 
