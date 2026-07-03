@@ -66,6 +66,30 @@ explains vector search through shared embedding representations. The same
 episode extends that idea to multimodal retrieval and personalization, where
 different signals have to live in a comparable vector space.
 
+## Approximate Nearest-Neighbor Indexes
+
+Vector databases need specialized indexes because exact nearest-neighbor search
+becomes expensive. Each query would compare one vector with many
+high-dimensional items. Classic tree structures don't remove that problem
+automatically.
+
+Binary search trees fit one-dimensional ordering. KD-trees work only up to a
+certain dimensionality and handle dynamic sets poorly.
+[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+
+Approximate nearest-neighbor search accepts a close result when the product can
+tolerate it. Examples include choosing between two warehouses with nearly the
+same distance or recommending items that are close enough to a user vector.
+[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+
+R-trees and SS-trees extend the search-tree idea to spatial and similarity
+search. The index narrows the candidate set before distance comparisons finish
+the retrieval. That's the data-structure reason vector databases are more than
+simple vector storage. They combine [[embeddings]], distance metrics, and
+approximate indexing so [[Information Retrieval]] systems can search millions of
+items without brute-force scans on every request.
+[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+
 ## Adoption Boundaries
 
 Teams differ most on where a vector database belongs in the stack. Atita starts
@@ -167,7 +191,10 @@ and
 architecture choices about evidence structure. Some systems need similar text or
 images. Others need entities, paths, report structure, or domain relationships.
 
-For the underlying graph database technology, [[book:20210614-graph-databases-in-action|Graph Databases in Action]] by Dave Bechberger and Josh Perryman covers property graph models, query patterns, and when graph storage fits a domain better than relational or vector stores.
+For the underlying graph database technology,
+[[book:20210614-graph-databases-in-action|Dave Bechberger and Josh Perryman's graph database book]]
+covers property graph models and query patterns. It also covers when graph
+storage fits a domain better than relational or vector stores.
 
 ## Evaluation and Operations
 

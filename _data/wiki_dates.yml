@@ -4,7 +4,7 @@ a-a-testing:
   modified: "2026-07-02"
 a-b-testing:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 academia:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -19,7 +19,7 @@ agent-ops:
   modified: "2026-07-02"
 ai-coding-tools:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 ai-engineer-role:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -76,7 +76,7 @@ analytics-engineering:
   modified: "2026-07-02"
 annotation-quality-workflows:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 apache-airflow:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -226,7 +226,7 @@ data-engineering:
   modified: "2026-07-02"
 data-freelancing-strategy:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 data-governance:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -592,7 +592,7 @@ ml-system-design-documents:
   modified: "2026-07-02"
 mlops-adoption-at-scale:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 mlops-architecture:
   published: "2026-06-29"
   modified: "2026-07-02"

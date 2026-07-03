@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 10966
+    "links": 10976
   },
   "nodes": [
     {
@@ -41432,6 +41432,12 @@
     },
     {
       "source": "wiki:data-scientist-interview",
+      "target": "podcast:algorithms-data-structures-for-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -47090,6 +47096,12 @@
     },
     {
       "source": "wiki:embeddings",
+      "target": "podcast:algorithms-data-structures-for-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:embeddings",
       "target": "podcast:building-open-source-nlp-tool",
       "kind": "wiki-chip",
       "weight": 1
@@ -51965,6 +51977,12 @@
       "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "podcast:algorithms-data-structures-for-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
@@ -57122,6 +57140,12 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:algorithms-data-structures-for-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -57146,6 +57170,12 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -57164,14 +57194,32 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -57321,6 +57369,12 @@
     {
       "source": "wiki:machine-learning-for-software-engineers",
       "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76671,6 +76725,12 @@
     {
       "source": "wiki:vector-databases",
       "target": "person:meryemarik",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "podcast:algorithms-data-structures-for-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },

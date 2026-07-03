@@ -42,14 +42,14 @@ mean relevance or click probability. It can also mean purchase probability or
 another product signal.
 
 The practical search-quality question is matching the right content with the
-right query, and teams need to measure search quality against business goals
+right query. Teams need to measure search quality against business goals
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
-The same retrieval discipline carries into RAG inside LLM systems: the model can
+The same retrieval discipline applies to RAG inside LLM systems: the model can
 only answer from the context the retriever finds.
 
 ## Candidate Generation and Indexing
 
-Retrieval stays distinct from storage, spanning query rewriting, synonyms,
+Retrieval stays distinct from storage. It spans query rewriting, synonyms,
 ingestion, and indexes
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
@@ -57,16 +57,28 @@ A search system prepares the query and corpus before matching. Latency is why
 retrieval rarely means scanning every document. Teams need an index or another
 data structure for user-facing latency.
 
+Bloom filters answer a narrower retrieval question.
+They check whether an item might be present before a heavier lookup.
+
+They use memory-efficient probabilistic containment and can return false
+positives.
+
+Common retrieval-adjacent uses include crawler URL deduplication and
+routing-table containment checks.
+Adtech systems can use them for device-ID or returning-user checks before
+ranking or personalization begins
+[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+
 In lexical search, an inverted index links terms to the documents or positions
-where they appear. This makes exact-word lookup efficient, but handcrafted
-dictionaries are brittle, and query rewrites, synonym rules, and normalization
+where they appear. This makes exact-word lookup efficient. Manual dictionaries
+are brittle. Query rewrites, synonym rules, and normalization
 choices add more brittleness.
 
 Candidate generation sets the upper bound for later ranking. If the
-retriever misses the relevant item, a reranker can't recover it. A
-podcast-transcript RAG example makes this concrete: teams chunk transcripts and
-embed the chunks, and the retriever returns a small number of relevant pieces
-before the LLM answers from that context
+retriever misses the relevant item, a reranker can't recover it. In a
+podcast-transcript RAG system, teams chunk transcripts and embed the chunks.
+The retriever returns a small number of relevant pieces before the LLM answers
+from that context
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 Chunk size, overlap, embedding model, and the number of retrieved chunks all
 affect what the generator can see.
@@ -74,10 +86,10 @@ affect what the generator can see.
 ## Lexical and Semantic Retrieval
 
 Lexical retrieval matches query terms against indexed text. It's still valuable
-when the task depends on exact words, filters, domain terminology, or
+for exact words and filters, and it also helps with domain terminology or
 predictable matching behavior. Solr and Lucene sat at the center of practical
-search work before the current vector wave, alongside full-text search and
-NLP-based query-content matching
+search work before the current vector wave. Full-text search and NLP-based
+query-content matching belonged to that same practical search work
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 Semantic retrieval compares representations rather than only matching terms,
@@ -95,8 +107,8 @@ during ingestion and at query time, and both paths must land in the same vector
 space. When documents change or embedding models change, teams may need to
 recompute vectors or rebuild indexes.
 
-The architecture choice comes next: teams don't always need to dump an existing
-Solr, Elasticsearch, or OpenSearch stack when they add vectors
+When teams add vectors, they don't always need to dump an existing Solr,
+Elasticsearch, or OpenSearch stack
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 A standalone vector database can sit beside the current search system when
 reindexing the production stack is risky.
@@ -106,10 +118,11 @@ reindexing the production stack is risky.
 Hybrid retrieval combines semantic similarity with filters, recency, and
 popularity. It can also include personalization and business rules. A news
 search result for "car" may need to be both relevant and fresh
-([[podcast:building-production-search-systems|Building Search Systems]]):
-a hard one-month filter can remove a highly relevant article older than 30 days,
-while pure vector similarity may ignore freshness. The retrieval system has to
-balance signals instead of treating every condition as an all-or-nothing filter.
+([[podcast:building-production-search-systems|Building Search Systems]]).
+
+A hard one-month filter can remove a highly relevant article older than 30 days.
+Pure vector similarity may ignore freshness. The retrieval system has to balance
+signals instead of treating every condition as an all-or-nothing filter.
 
 That balancing act is where retrieval and ranking meet. Lucene-style `must` and
 `should` constraints contrast with vector-query approaches that encode or weight
