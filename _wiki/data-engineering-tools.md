@@ -74,6 +74,10 @@ cloud service, or scheduler becomes another operational surface. Tool breadth
 only helps when the team can monitor, debug, secure, and hand off the whole
 path under failure.
 
+Hiring conversations apply the same rule to cloud and BI tools. Platform
+experience transfers better when candidates understand how a category is used
+and why, instead of presenting a checklist of named products.[[cite:hiring-for-data-engineering-jobs-in-europe|Recruiting Data Engineers|39:41]]
+
 Katz's career guidance gives the same ordering. In
 [[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 [[person:jeffkatz=>Jeff Katz]] treats Python, SQL, and

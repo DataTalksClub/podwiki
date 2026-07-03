@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11181
+    "links": 11186
   },
   "nodes": [
     {
@@ -30800,6 +30800,12 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
+      "target": "podcast:interpretable-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
       "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
       "kind": "wiki-chip",
       "weight": 1
@@ -36338,6 +36344,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "wiki-chip",
       "weight": 1
@@ -36657,6 +36669,12 @@
     {
       "source": "wiki:data-engineering-tools",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46965,6 +46983,12 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76749,6 +76773,12 @@
     {
       "source": "wiki:technical-writing",
       "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:interpretable-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },

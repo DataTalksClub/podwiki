@@ -300,6 +300,18 @@ application funnel and behavioral interviews in
 He also covers technical interviews and take-home projects. SQL tests, Python
 problems, and portfolio review are part of the same hiring path.
 
+Recruiter-facing evidence can be a concise project story as much as a public
+repository. Early ownership of a startup's first data pipelines is strong
+evidence. So is a pipeline or dataset tied to a specific business need. Privacy
+work is useful evidence when it covers GDPR workflow remodeling or
+private-data deletion systems
+[[cite:hiring-for-data-engineering-jobs-in-europe|Hiring for Data Engineering Jobs in Europe|54:25]].
+
+GitHub links help when candidates choose to share them, but the interview still
+depends on a clear project explanation. It should name the candidate's own part
+and include enough engineering detail for follow-up questions
+[[cite:hiring-for-data-engineering-jobs-in-europe|Hiring for Data Engineering Jobs in Europe|55:53]].
+
 A strong walkthrough says what the source did and why the model grain fits the
 consumer. It also names what failed and how the pipeline was tested. Larger
 volume or lower latency may change the design. Stricter governance or more

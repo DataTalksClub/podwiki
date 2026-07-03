@@ -62,6 +62,13 @@ document that path in the same style as [[Portfolio Projects]]. Show what you
 tried, what failed, and what improved the metric. Then explain what you would
 change for a real system.
 
+Competitions can also keep an expert practitioner close to real data problems.
+A non-Kaggle river-flow forecasting challenge gave Christoph Molnar a hands-on
+project after a long stretch of writing about machine learning. The useful
+practice came from handling messy data and modeling choices. Experiment logs and
+communication work kept that practice connected to the challenge
+([[cite:interpretable-machine-learning|Interpretable Machine Learning|11:59]] [[cite:interpretable-machine-learning|Interpretable Machine Learning|33:07]]).
+
 Competitions also help when the target evidence is closer to [[applied research]]
 than product delivery. In one astronomy competition, a number 13 leaderboard
 solution became an arXiv report. It later became a journal publication. That
