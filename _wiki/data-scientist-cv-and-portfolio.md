@@ -126,6 +126,22 @@ A reusable project description should cover these points:
 - The candidate's personal contribution.
 - The method, metric, result, and tradeoff.
 
+[[person:misraturp=>Misra Turp]] adds a useful beginner standard in
+[[cite:how-to-break-into-data-science|Data Science Career Playbook|57:09]].
+Hiring managers aren't only looking for an impressive model. They want to see
+whether the candidate understands how data behaves and notices data problems.
+They also want to see how the candidate handles failure modes such as
+overfitting and explains what they would try next.
+
+That makes a messy, realistic dataset stronger than another polished starter
+dataset when the work shows judgment. Misra recommends NYC Open Data, including
+taxi-ride data, as a source with enough real-world dirt to support a good
+beginner project
+[[cite:how-to-break-into-data-science|Data Science Career Playbook|58:14]].
+Use [[Portfolio Projects]] and [[Machine Learning Portfolio Projects]] to turn
+that kind of dataset into a project brief, baseline, evaluation, and follow-up
+story.
+
 That structure follows Nick's impact-first walkthrough at 27:50 in
 [[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 It also follows Oleg's case-study advice at 32:03 in

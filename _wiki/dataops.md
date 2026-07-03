@@ -18,14 +18,13 @@ related:
   - MLOps vs DevOps
 ---
 
-For the authoritative, plain-language definition of the term, see the
-DataTalks.Club article
-[What is DataOps exactly?](https://datatalks.club/blog/what-dataops-exactly.html).
-This page is the concept hub for how DataTalks.Club podcast guests actually
-describe and practice DataOps: the operating discipline that makes changes to
-data pipelines, analytics workflows, and shared data platforms reviewable,
-testable, observable, and recoverable. Teams use it to review and test data
-changes, then deploy, monitor, and repair them.
+For the authoritative plain-language definition, see the
+[DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
+DataTalks.Club podcast guests describe and practice DataOps as the operating
+discipline for safer changes to data pipelines, analytics workflows, and shared
+data platforms. Teams use it to make those changes reviewable and testable. They
+also keep changes observable and recoverable before they deploy, monitor, and
+repair them.
 
 The term sits beside [[Data Engineering]]
 and [[MLOps]], but it doesn't replace
@@ -70,7 +69,7 @@ They may also include features or data products.
 
 Version control and tests connect DataOps directly to [[ci-cd|CI/CD]]
 [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Automated playbooks and runbook thinking extend the same operating model
+Automation playbooks and runbook thinking extend the same operating model
 [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 The same idea extends to regression tests and realistic test data, framed
@@ -96,7 +95,7 @@ failure modes.
 [[person:larsalbertsson=>Lars Albertsson]] starts from platform architecture,
 emphasizing immutable pipeline design and reproducibility
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Storage and compute become platform concerns, and workflow engines, quality
+Storage and compute become platform concerns. Workflow engines, quality
 automation, and schema handling matter in the same platform view
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
@@ -110,8 +109,8 @@ This framing begins with Git and tests, while CI/CD, monitors, and playbooks
 complete the delivery view.
 
 [[person:tomaszhinc=>Tomasz Hinc]] starts from infrastructure enablement,
-covering SQL, secrets, and Infrastructure as Code, with Terraform, Terragrunt,
-and Atlantis completing the GitOps example
+covering SQL, secrets, and Infrastructure as Code. Terraform, Terragrunt,
+and Atlantis complete the GitOps example
 [[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 This version of DataOps makes access, infrastructure, and environment changes
 reviewable through merge requests and dry runs.
@@ -148,6 +147,13 @@ appear together, and test data and deployment automation belong in the same
 release path
 [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
+For [[Data Strategy]] work, the same delivery layer turns planned
+[[Data Products]] and AI-powered use cases into managed releases instead of a
+static deck. DataOps combines Lean and Agile habits with CI/CD practices. That
+combination helps the team reduce waste, handle changing requirements, and ship
+data products through repeatable delivery practices
+[[cite:data-strategy-and-dataops-for-ai-powered-products|Data Strategy and DataOps for AI-Powered Products|24:57]].
+
 This is where [[Orchestration]],
 [[ci-cd=>CI/CD]], and
 [[Data Engineering Platforms]]
@@ -155,14 +161,18 @@ connect to DataOps. Another person should be able to review a data change,
 test it, and deploy it. They should also be able to observe its outputs and
 rerun it after failure without reverse-engineering the whole pipeline.
 
-A practical way to make that concrete is to require every change to a pipeline,
-dbt model, notebook-turned-job, or infrastructure definition to pass four gates:
-reviewable (owner, consumer impact, and expected output are visible), testable
-(regression tests and realistic test data exercise the code and data
-assumptions), deployable (an automated path rather than a manual checklist), and
-observable (freshness, schema, lineage, and downstream behavior stay visible
-after release). The supported path works only when the whole team uses it, so
-newer members can change production without relying on private knowledge
+Teams can make that concrete by requiring every change to a pipeline, dbt model,
+notebook-turned-job, or infrastructure definition to pass four gates:
+
+- reviewable: owner, consumer impact, and expected output are visible
+- testable: regression tests and realistic test data exercise the code and data
+  assumptions
+- deployable: an automated path replaces a manual checklist
+- observable: freshness, schema, lineage, and downstream behavior stay visible
+  after release
+
+The supported path works only when the whole team uses it. Then newer members can
+change production without relying on private knowledge
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
 
 ## Observability and Recovery
@@ -198,15 +208,14 @@ For the tooling layer across checks, alerts, and runbooks, see
 DataOps becomes shared platform infrastructure when many teams change or
 consume data. It connects to self-service analytics
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Offline processing and storage are platform foundations, with compute and
-workflow engines beside them, and embedded engineering support completes the
-picture
+Offline processing and storage are platform foundations. Compute and workflow
+engines sit beside them, and embedded engineering support completes the picture
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Self-service only helps when the supported path preserves ownership,
 reproducibility, and quality. An Airflow cluster alone doesn't create a
-platform; teams also need naming conventions and sequencing rules, and schema
-contracts, onboarding habits, and playbooks make the supported path clearer
+platform. Teams also need naming conventions and sequencing rules, and schema
+contracts. Onboarding habits and playbooks make the supported path clearer
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]]).
 
 [[DataOps Platforms]] covers the
@@ -222,9 +231,9 @@ covers the full boundary. Data engineering builds the data path, and DataOps
 makes changes to that path safer to review and run. It also makes those
 changes easier to observe and recover.
 
-The modern-stack discussion shows the [[Data Engineering]] side: ETL, ELT, and
-dbt-style warehouse modeling alongside Airflow orchestration, with CDC and
-schema evolution in the same discussion
+The modern-stack discussion shows the [[Data Engineering]] side through ETL,
+ELT, and dbt-style warehouse modeling alongside Airflow orchestration. It also
+covers CDC and schema evolution
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 Those choices define how data moves, where business logic lives, and how
 consumers receive the output.
@@ -252,16 +261,16 @@ decisions and model behavior belong on the MLOps side.
 
 DataOps and MLOps share a DevOps inheritance
 [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Shared principles separate from ML-specific requirements
+They separate shared principles from ML-specific requirements
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The incident overlap shows up when model monitoring includes ETL, data
 pipelines, and upstream root causes
 [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
-A model alert may come from model drift, but it may also come from a late table,
-a changed schema, a broken feature pipeline, or a missing label. DataOps
-responders investigate data delivery, while MLOps responders investigate the
-model lifecycle.
+A model alert may come from model drift. It may also come from a late table, a
+changed schema, a broken feature pipeline, or a missing label. DataOps responders
+investigate data delivery, while MLOps responders investigate the model
+lifecycle.
 
 The ownership version of that production ML boundary belongs in
 [[MLOps vs DataOps]].

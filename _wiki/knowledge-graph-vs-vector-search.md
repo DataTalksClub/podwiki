@@ -92,9 +92,9 @@ serving as metadata around a text chunk
 Teams choose architecture around the unit they retrieve, because vector search
 retrieves nearby chunks and records. Those records can represent products,
 images, users, or sessions. A graph retrieves nodes and edges, then returns
-neighborhoods, paths, or query results. [Retrieval-Augmented
-Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) puts
-both choices inside the broader search and knowledge-system stack.
+neighborhoods, paths, or query results. The [Retrieval-Augmented
+Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) page
+puts both choices inside the broader search and knowledge-system stack.
 
 ## Question Fit
 
@@ -115,6 +115,18 @@ engineering concepts. Those questions need order and containment. They also
 need paths and typed relations, not only semantically similar text
 ([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]],
 20:32 and 38:10).
+
+Fraud detection gives the same graph-side lesson outside RAG. [[person:angelaramirez=>Angela Ramirez]]
+uses Wikidata and SPARQL to explain why graph databases make entity relations
+queryable. She then maps the idea to retail fraud. Members, transactions, and
+products become connected nodes. Suspicious member-transaction-product
+neighborhoods can become additional model features or analyst signals
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection|Angela Ramirez|23:04]]
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection|Angela Ramirez|29:15]].
+
+That connects this comparison to [[entity-resolution]] and [[Graph Data Science]].
+The value isn't a nearby text chunk. It's the relationship structure around an
+entity.
 
 The practical split is failure-driven. Choose vector search when the system
 misses semantically related material. Choose a knowledge graph when the system
@@ -184,6 +196,15 @@ warns that teams need to check LLM-extracted nodes and relations before trusting
 them
 ([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]],
 39:56-42:42).
+
+Graph production work can also include human investigation interfaces. Angela
+says Neo4j fit her fraud use case because end users could visualize and explore
+the network instead of reading only tables. Fraud specialists can traverse
+connected users, transactions, and products when they decide whether something
+looks suspicious
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection|Angela Ramirez|38:11]].
+This adds a product requirement beyond vector search latency or nearest
+neighbors. The graph has to make relationships inspectable.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] adds the
 agent boundary. At 29:30-37:39 in
