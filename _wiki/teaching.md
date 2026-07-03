@@ -99,14 +99,15 @@ Around 50:10, the episode discusses dual evaluation across model quality
 and technical execution. Competition-style learning becomes useful when the
 curriculum also teaches maintainable systems and collaboration.
 
-[[person:davidbader=>David Bader]] brings curriculum
-design to the university-program scale. In
+[[person:davidbader=>David Bader]] brings curriculum design to the
+university-program scale. In
 [[podcast:building-data-science-programs-and-democratizing-high-performance-computing=>Building Data Science Programs]],
 he describes founding data science schools and degree programs at Georgia Tech
 and NJIT. His approach aligns curricula with regional workforce needs and
 industry partnerships (NSF, Accenture, NVIDIA). He treats the research lab like
-a startup that ships open-source code — Arkouda — rather than only publishing
-papers, and emphasizes mentoring from high school through PhD students.
+a startup that ships open-source code such as Arkouda rather than only
+publishing papers. He also emphasizes mentoring from high school through PhD
+students.
 
 ## Use Feedback and Mentoring as Teaching Infrastructure
 
@@ -130,6 +131,17 @@ connects communities to skill discovery and faster learning. DataTalks.Club's
 own community episode adds the same structure. Events, office hours, answered
 questions, and mentors make learning more durable than a course watched
 alone.
+
+Community accelerates software-to-ML learning.[[cite:from-software-engineer-to-machine-learning|Software to ML|20:38]]
+
+Peer groups keep long-term progress from becoming solitary work because ML
+peers give learners a place to test ideas and get feedback.
+
+Teaching becomes part of the same feedback loop. Writing about a new topic,
+explaining it in public, and taking questions forces the learner to check what
+they understand. That work can become
+[[machine-learning-portfolio-projects=>portfolio evidence]] or a
+[[career-transitions-in-data=>career transition]] signal.[[cite:from-software-engineer-to-machine-learning|Software to ML|23:44]]
 
 Teaching in those episodes is community work, so it belongs with
 [[Community]] and

@@ -249,6 +249,27 @@ Hugging Face work, model cards, demos, and community contributions create NLP
 portfolio evidence in
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions and NLP Portfolio]].
 
+AI-for-Good adds a first-experience route when the work has real users, domain
+constraints, and a project team. A geospatial AI-for-Good project gave
+[[person:isabellabicalho=>Isabella Bicalho]] enough applied experience for her
+first freelance client. Open-source ML projects filled the practical
+[[machine learning]] gap before paid work arrived
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|23:39]].
+That makes [[open source]] and [[computer vision]] useful portfolio routes for
+early contributors when the repository shows data, model choices, and a
+concrete result.
+
+Project work becomes job-ready when it resembles a team project for an external
+problem. It's weaker when it reads like a solo toy app. A green-space
+segmentation project used open satellite imagery and [[computer vision]]. It
+compared CNN and transformer benchmarks. The design also tested whether other
+cities could replicate the workflow
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|42:24]].
+
+Collaboration and repeatable implementation create the portfolio signal. A few
+hours a week can still support [[job search]] evidence when the work is public
+and reviewable.
+
 Kaggle and competitions count when they're repackaged as engineering evidence.
 [[person:andradaolteanu=>Andrada Olteanu]] connects
 Kaggle work to an analytics-to-data-science transition in

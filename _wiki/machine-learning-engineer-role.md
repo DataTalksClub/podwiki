@@ -103,6 +103,13 @@ services. They also choose the serving approach. A use case may need batch
 inference or online serving. It may also need streaming inference, edge
 deployment, or a simpler scheduled job.
 
+Machine learning engineers scope the problem and work through [[data
+pipelines|data pipeline]] tasks before modeling. They then deploy, maintain,
+and monitor the system. That makes modeling one stage in a larger system rather
+than the whole role. Engineers have to decide whether machine learning is
+needed. They then move and transform the data, build the model, and operate the
+deployed system through [[MLOps]] and [[model monitoring]].[[cite:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning|46:39]]
+
 Serving decisions aren't only infrastructure choices. In
 [[podcast:data-team-roles=>Data Team Roles Explained]],
 the 40:10 section makes batch scoring a shared surface with data engineering.
@@ -133,9 +140,12 @@ before building the full system.
 Software engineering is the durable base. Machine learning engineers need
 Python, tests, modular code, and configuration. They also need packaging, APIs,
 dependency management, and code review. Debugging is part of the same base.
+
 [[book:20220117-machine-learning-engineering-with-python=>Machine Learning Engineering with Python]]
 by Andrew McMahon builds on the same production ML engineering practices in Python.
-[[book:20210301-ml-engineering=>Machine Learning Engineering in Action]] by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
+[[book:20210301-ml-engineering=>Ben Wilson's ML engineering book]] covers the
+same production discipline from prototype to deployment, including
+reproducibility and maintainability.
 Ben's 8:49 section makes modular, testable code a production requirement.
 
 In
@@ -157,6 +167,14 @@ system diagram becomes credible.
 Infrastructure skill depends on the team. Guests mention Docker and cloud
 services alongside Kubernetes and orchestration. They also bring up model
 registries, experiment tracking, artifact storage, and monitoring.
+
+For software engineers moving into machine learning, DevOps skills transfer
+directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
+containers for the application or inference API. Enough AWS, Google Cloud,
+Azure, or serverless experience helps expose the system to clients. Those skills
+move software engineers from [[software engineering]] toward [[machine learning
+infrastructure]]. Teams can add specialized platform engineering
+later.[[cite:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning|49:23]]
 
 Simon's 8:11 and 29:41 sections make cloud infrastructure and experiment
 tracking visible platform skills.

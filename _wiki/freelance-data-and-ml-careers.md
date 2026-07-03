@@ -95,6 +95,20 @@ momentum once work started. Around 57:47, he adds that networking can be
 exhausting for introverts. Avoiding it still makes client acquisition harder
 ([[person:orellgarten|Orell Garten]]).
 
+A third path is direct CV visibility. After leaving a PhD track, Isabella
+Bicalho weighed job search and freelancing. She made her CV discoverable in
+multiple places. She optimized LinkedIn. A first freelance call converted within
+a week [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Bio to ML|22:22]].
+
+For [[CV Screening]] and [[Job Search]], the profile made existing proof
+reachable. The call worked because prior AI-for-good geospatial work and
+open-source ML projects gave her relevant experience to reference
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Bio to ML|23:39]].
+For [[Machine Learning Portfolio Projects]] and
+[[Open Source Portfolio Evidence]], use visibility plus evidence. Put the CV and
+profile where clients search. Make public work strong enough that a networking
+lead can become a paid project.
+
 Pastor's acquisition path moves from a marketplace to public reputation. Around
 41:03-46:43 in
 [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],

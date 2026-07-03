@@ -113,6 +113,23 @@ signals. That version of the role is close to
 [[data-engineer-roadmap=>data engineering learning paths]]
 and [[data engineering portfolio projects]].
 
+Hiring screens separate junior execution, mid-level ownership, and senior
+influence.[[cite:hiring-for-data-engineering-jobs-in-europe|Hiring DE Europe|22:55]].
+
+This progression links the role to
+[[data-engineer-roadmap=>roadmaps]]
+and [[data engineering portfolio projects=>portfolio projects]]. Evidence
+should mature from scoped fundamentals to ownership and influence.
+
+Interview evidence should mirror that level. Interviews move through recruiter
+intro, project discussion, data-oriented coding, and practical analysis.[[cite:hiring-for-data-engineering-jobs-in-europe|Hiring DE Europe|26:38]].
+
+Assessment depth changes from junior fundamentals to senior tradeoff
+reasoning.[[cite:hiring-for-data-engineering-jobs-in-europe|Hiring DE Europe|26:38]].
+
+This ties interviews to [[data engineering platforms]] and [[DataOps]] when
+the work involves operational tradeoffs rather than one isolated pipeline.
+
 For data scientists, the transition version of this entry path is the
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
 It uses Ellen König's data-science-to-data-engineering episode to connect
@@ -220,7 +237,7 @@ orchestration, and platforms. DataOps names the review and testing practices
 teams use to operate that work reliably. It also covers deployment,
 observability, and recovery. The full comparison lives in
 [[DataOps vs Data Engineering]],
-and the operating job itself is the
+and the operating job is the
 [[dataops-engineer-role=>DataOps engineer role]].
 
 The boundary with a

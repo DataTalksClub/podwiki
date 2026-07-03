@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11170
+    "links": 11181
   },
   "nodes": [
     {
@@ -34394,6 +34394,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "wiki-chip",
       "weight": 1
@@ -50378,6 +50384,12 @@
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
       "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -50405,6 +50417,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
@@ -50463,6 +50481,18 @@
     {
       "source": "wiki:freelance-data-and-ml-careers",
       "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57146,6 +57176,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -57183,6 +57219,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67772,6 +67814,12 @@
     },
     {
       "source": "wiki:portfolio-projects",
+      "target": "person:isabellabicalho",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
       "target": "person:jeffkatz",
       "kind": "wiki-chip",
       "weight": 1
@@ -67881,6 +67929,12 @@
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -68021,6 +68075,12 @@
       "target": "wiki:career-development",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:portfolio-projects",
@@ -76203,6 +76263,12 @@
     {
       "source": "wiki:teaching",
       "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
