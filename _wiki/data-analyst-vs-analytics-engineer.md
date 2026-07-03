@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Analyst vs Analytics Engineer"
+title: "Analyst vs Analytics Engineer"
 keyword: "data analyst vs analytics engineer"
 secondary_keywords:
   - analytics engineer vs data analyst
@@ -408,4 +408,3 @@ These role definitions, adjacent workflows, and learning paths go deeper:
 - [[Modern Data Stack]]
 - [[Data Quality and Observability]]
 - [[Data Products]]
-

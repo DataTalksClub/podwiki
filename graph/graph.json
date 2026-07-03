@@ -8500,6 +8500,17 @@
       "keyword": "data analyst to analytics engineer"
     },
     {
+      "id": "wiki:data-analyst-vs-analytics-engineer",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Analyst vs Analytics Engineer",
+      "title": "Analyst vs Analytics Engineer",
+      "url": "/wiki/data-analyst-vs-analytics-engineer/",
+      "count": 1,
+      "search": "Analyst vs Analytics Engineer A role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
+      "keyword": "data analyst vs analytics engineer"
+    },
+    {
       "id": "wiki:analytics-engineering-portfolio-projects",
       "type": "wiki",
       "collection": "wiki",
@@ -8833,6 +8844,16 @@
       "search": "Data Activation How podcast discussions describe data activation as moving trusted product and customer data into operational tools and decision workflows."
     },
     {
+      "id": "wiki:data-ai-conference-building",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data AI Conference Building",
+      "title": "Data AI Conference Building",
+      "url": "/wiki/data-ai-conference-building/",
+      "count": 1,
+      "search": "Data AI Conference Building How Data Makers Fest organizers handle venues, speakers, timetables, sponsors, pricing, networking, and career benefits."
+    },
+    {
       "id": "wiki:data-analysis",
       "type": "wiki",
       "collection": "wiki",
@@ -8867,33 +8888,12 @@
       "id": "wiki:data-analyst-to-data-engineer",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Analyst to Data Engineer Roadmap",
-      "title": "Data Analyst to Data Engineer Roadmap",
+      "label": "Data Analyst to Data Engineer",
+      "title": "Data Analyst to Data Engineer",
       "url": "/wiki/data-analyst-to-data-engineer/",
       "count": 1,
-      "search": "Data Analyst to Data Engineer Roadmap A practical roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning.",
+      "search": "Data Analyst to Data Engineer A focused path from data analyst to data engineer: transferable SQL and business skills, Python and cloud gaps, portfolio projects, and interviews.",
       "keyword": "data analyst to data engineer"
-    },
-    {
-      "id": "wiki:data-analyst-vs-analytics-engineer",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Analyst vs Analytics Engineer",
-      "title": "Data Analyst vs Analytics Engineer",
-      "url": "/wiki/data-analyst-vs-analytics-engineer/",
-      "count": 1,
-      "search": "Data Analyst vs Analytics Engineer A role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
-      "keyword": "data analyst vs analytics engineer"
-    },
-    {
-      "id": "wiki:data-ai-conference-building",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data and AI Conference Building",
-      "title": "Data and AI Conference Building",
-      "url": "/wiki/data-ai-conference-building/",
-      "count": 1,
-      "search": "Data and AI Conference Building Conference and community event operations for data and AI practitioners, grounded in Data Makers Fest."
     },
     {
       "id": "wiki:data-architect-role",
@@ -8930,11 +8930,11 @@
       "id": "wiki:data-engineer-vs-data-scientist",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Engineer vs Data Scientist",
-      "title": "Data Engineer vs Data Scientist",
+      "label": "Data Engineer/Data Scientist",
+      "title": "Data Engineer/Data Scientist",
       "url": "/wiki/data-engineer-vs-data-scientist/",
       "count": 1,
-      "search": "Data Engineer vs Data Scientist A comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
+      "search": "Data Engineer/Data Scientist Decide whether a team needs data engineering, data science, or both by comparing ownership, hiring signals, and shared project handoffs.",
       "keyword": "data engineer vs data scientist"
     },
     {
@@ -8946,17 +8946,6 @@
       "url": "/wiki/data-engineering/",
       "count": 1,
       "search": "Data Engineering Data engineering across pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI ready data systems."
-    },
-    {
-      "id": "wiki:data-engineering-and-data-science",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Engineering and Data Science",
-      "title": "Data Engineering and Data Science",
-      "url": "/wiki/data-engineering-and-data-science/",
-      "count": 1,
-      "search": "Data Engineering and Data Science A comparison page for how data engineering and data science cooperate, where their responsibilities split, and how teams should choose projects and career paths across the boundary.",
-      "keyword": "data engineering and data science"
     },
     {
       "id": "wiki:data-engineering-certification",
@@ -9020,6 +9009,17 @@
       "url": "/wiki/data-engineering-tools/",
       "count": 1,
       "search": "Data Engineering Tools A practical guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
+    },
+    {
+      "id": "wiki:data-engineering-and-data-science",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Engineering/Data Science",
+      "title": "Data Engineering/Data Science",
+      "url": "/wiki/data-engineering-and-data-science/",
+      "count": 1,
+      "search": "Data Engineering/Data Science How data engineering and data science split ownership, share workflows, and choose projects, handoffs, and career paths.",
+      "keyword": "data engineering and data science"
     },
     {
       "id": "wiki:data-freelancing-strategy",

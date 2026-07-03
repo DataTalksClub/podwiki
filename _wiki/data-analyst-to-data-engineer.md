@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: [transition, "roadmap"]
-title: "Data Analyst to Data Engineer Roadmap"
+title: "Data Analyst to Data Engineer"
 keyword: "data analyst to data engineer"
-summary: "A practical roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning."
+summary: "A focused path from data analyst to data engineer: transferable SQL and business skills, Python and cloud gaps, portfolio projects, and interviews."
 search_intent: "People searching for data analyst to data engineer want a practical transition path: which analyst skills transfer, what engineering gaps to close, what projects prove readiness, and how to explain the move in interviews."
 related_wiki:
   - Data Analyst Role
@@ -32,8 +32,8 @@ The data engineering move adds backend work:
 Those responsibilities sit inside the
 [[Data Engineer Role]].
 
-For analysts and BI professionals, the main gaps are backend engineering and
-cloud computing, with Python as the other main gap
+For analysts and BI professionals, backend engineering and cloud computing are
+the main gaps. Python is another core gap
 ([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
 The answer isn't "learn every data tool." Tools such as Fivetran and dbt are
 easier to learn than the deeper work behind staging and integration. Marts,
@@ -375,4 +375,3 @@ The roadmap connects to these transition, role, and portfolio topics:
 - [[Modern Data Stack]]
 - [[Job Search]]
 - [[Career Transitions in Data]]
-

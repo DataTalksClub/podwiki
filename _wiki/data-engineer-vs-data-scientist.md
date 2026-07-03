@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Engineer vs Data Scientist"
+title: "Data Engineer/Data Scientist"
 keyword: "data engineer vs data scientist"
 secondary_keywords:
   - data scientist vs data engineer
   - data engineering vs data science
   - data engineering and data science
-summary: "A comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together."
+summary: "Decide whether a team needs data engineering, data science, or both by comparing ownership, hiring signals, and shared project handoffs."
 related_wiki:
   - Data Engineer Role
   - Data Scientist Role
@@ -196,4 +196,3 @@ Start with these role definitions and adjacent comparisons:
 - [[Machine Learning Engineer vs Data Scientist]]
 - [[Machine Learning Engineer Role]]
 - [[MLOps]]
-
