@@ -162,6 +162,13 @@ positives, and alerts connect to runbooks and remediation
 ([[person:barrmoses|Barr Moses]],
 [[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
 
+Sabina Firtala's domestic-risk assessment episode adds the high-stakes version
+of the same rule. After a risk-scoring tool enters frontline workflows,
+monitoring has to watch for drift and trigger maintenance alerts. The response
+path still needs human review because the served population may change after
+release. Source data and operational workflows can change too
+[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
+
 Model alerts have the same problem. If every distribution shift pages a team,
 people stop trusting the monitoring system. The incident-response view adds the
 human test: post-mortem evidence and investigation steps become action items and

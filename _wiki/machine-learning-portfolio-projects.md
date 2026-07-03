@@ -72,11 +72,12 @@ online evaluation.
 Around 46:02, he brings in distribution shift, class imbalance, and monitoring.
 He also covers broken models and fallbacks. This makes a portfolio project
 closer to a small system design exercise than to a notebook leaderboard entry.
-For project-driven learning, Alexey Grigorev's [[book:20201214-ml-bookcamp|Machine Learning Bookcamp]]
-structures a path through real ML projects rather than isolated exercises, and
+For project-driven learning,
+[[book:20201214-ml-bookcamp|Machine Learning Bookcamp]]
+structures a path through real ML projects rather than isolated exercises.
 [[book:20220919-kaggle-book=>The Kaggle Book]]
-by Luca Massaron and Konrad Banachewicz compiles competition-winning approaches
-that translate into portfolio-grade work.
+compiles competition-winning approaches that translate into portfolio-grade
+work.
 
 Recruiting and interview episodes apply the same standard to presentation.
 In [[podcast:get-data-scientist-job|Land Data Scientist Roles]],
@@ -99,6 +100,17 @@ solution blueprint includes the baseline and metrics. It also includes pipeline
 components and data strategy. Around 37:15, it adds diagrams, dependencies, and
 the batch-versus-real-time choice. A portfolio README can use the same
 structure at smaller scale.
+
+A social-impact project can make that full arc especially visible. The
+[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]]
+discussion starts with problem framing and mixed-source data cleaning and
+linking. It continues through risk modeling and evaluation. The later work
+covers privacy and legal constraints. It also covers deployment into frontline
+decision support, monitoring, and stakeholder adoption.
+
+As portfolio evidence, the strongest version isn't just a model score. It shows
+how the project links data, evaluation, governance, and workflow integration
+around a decision that matters.
 
 ## Review Signals
 

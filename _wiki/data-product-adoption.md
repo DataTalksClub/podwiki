@@ -95,6 +95,13 @@ For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents
 ([[podcast:human-centered-mlops-and-model-monitoring|human-centered MLOps]]).
 
+High-stakes decision-support products make the trust requirement sharper. In a
+domestic risk assessment tool, the product has to fit frontline workflows and
+earn stakeholder confidence before people will rely on its scores. Training,
+trust-building, and ongoing engagement are adoption work, not separate rollout
+tasks
+([[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]]).
+
 ## Decision-First Design
 
 Start from the decision rather than the dataset. For an A/B testing reporting

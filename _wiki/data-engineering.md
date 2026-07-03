@@ -26,9 +26,10 @@ overloading operational databases
 ([[podcast:data-team-roles|Data Team Roles Explained]]). Later interviews split
 that broad role across
 [[Data Engineering Platforms]]
-and [[Data Pipelines]], separate
+and [[Data Pipelines]]. They separate
 [[Analytics Engineering]]
-from [[DataOps]], and add AI-ready
+from [[DataOps]]
+and add AI-ready
 infrastructure
 ([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
 AI-ready data is a distinct thread in modern data engineering
@@ -76,17 +77,18 @@ Those choices connect directly to
 [[CDC]], and
 [[Orchestration]].
 
-End-to-end design extends the map from tool categories: ML pipelines compared
-with analytics pipelines, the work followed through orchestration and
-distributed systems, and staging concerns such as deduplication and PII masking.
+End-to-end design extends the map beyond tool categories. It compares ML
+pipelines with analytics pipelines, follows work through orchestration and
+distributed systems, and includes staging concerns such as deduplication and PII
+masking.
 Ordering guarantees and entity modeling affect the marts that consumers use
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 Tools are choices, not badges. For beginners, SQL, Python, and modeling come
 before distributed systems
 ([[podcast:data-engineering-career-path-and-skills|Data Engineering Career Path and Skills]]).
-Python and SQL depth sit alongside Docker, Airflow, and warehouses, with code
-quality and interview practice as proof points
+Python and SQL depth sit alongside Docker, Airflow, and warehouses. Code quality
+and interview practice act as proof points
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
 
 The senior version of the same argument: teams should choose platforms and
@@ -103,9 +105,9 @@ Teams pursue
 so analysts and data scientists don't have to rebuild the same foundation.
 Software engineers and domain teams can use the supported path too.
 
-On the team-growth side, self-service links to onboarding and playbooks, plus
-naming conventions and sequencing rules, and senior engineers turn repeated work
-into shared capabilities
+Growing teams connect self-service to onboarding and playbooks. They also
+connect it to naming conventions and sequencing rules. Senior engineers turn
+repeated work into shared capabilities
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
 Domain teams need reliable interfaces and ownership before data products become
 useful
@@ -113,6 +115,13 @@ useful
 The adoption problem appears after a platform has already produced tables or
 models
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+
+Pipelines and warehouses aren't enough on their own. Engineers also need
+metadata and lineage, plus a shared glossary or taxonomy and catalog workflows.
+Those pieces help teams find data, understand meaning and origin, and govern
+access without falling back to ad hoc spreadsheets
+([[Data Governance]],
+[[cite:cloud-data-governance|Cloud Data Governance]]).
 
 ## Reliability and DataOps
 
@@ -125,9 +134,9 @@ Those signals belong with
 [[Data Quality and Observability]]
 and [[data-quality-and-observability|Data Observability]].
 
-Those signals become operating discipline through DataOps: data engineering
-connects to tests, CI/CD, realistic test data, and deployment automation, and
-observability connects to recovery behavior
+Those signals become operating discipline through DataOps. Data engineering
+connects to tests, CI/CD, realistic test data, and deployment automation.
+Observability connects to recovery behavior
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
 [[DataOps vs Data Engineering]]
 separates that operating layer from the broader engineering role.
@@ -138,7 +147,7 @@ covers incidents where a model failure may start with upstream data delivery
 
 ## Batch, Streaming, and Cost
 
-Streaming helps when latency matters, but real-time systems are not a maturity
+Streaming helps when latency matters, but real-time systems aren't a maturity
 badge. Kafka, schemas, and event-driven work show where streaming can support
 growth
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
@@ -148,7 +157,7 @@ live production paths
 Use [[Batch vs Streaming]]
 when the question is latency, ordering, replay, and operational cost.
 
-Real-time systems carry real cost
+Real-time systems have real cost
 ([[person:larsalbertsson|Lars Albertsson]],
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]),
 which pushes back toward requirement-led architecture
@@ -188,26 +197,26 @@ can look like a model problem from the outside.
 ## Career Skills
 
 Data engineering is applied engineering, not a memorized tool list. Python, SQL,
-and data modeling come before advanced distributed systems, with dbt and
-Snowflake as early exposure to production data work
+and data modeling come before advanced distributed systems. Learners can use dbt
+and Snowflake for early exposure to production data work
 ([[podcast:data-engineering-career-path-and-skills|Data Engineering Career Path and Skills]]).
 The [[data-engineer-roadmap|Data Engineering Roadmap]]
 and [[Data Engineering Portfolio Projects]]
 turn that skill sequence into practice paths.
 
-The same skills translate into hiring signals: Python and SQL, Docker and
-Airflow, warehouse experience, and code quality, with portfolio projects and
-technical interview practice rounding out the signal
+The same skills translate into hiring signals. Python and SQL, Docker and
+Airflow, warehouse experience, and code quality form the base. Portfolio
+projects and technical interview practice round out the signal
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
 
 On the market side, senior candidates are valued for business judgment, cost
-awareness, and the ability to avoid over-engineering; AI automation makes
+awareness, and the ability to avoid over-engineering. AI automation makes
 strategic builders more valuable than people who only operate one narrow tool
 ([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]]).
 
 A path from business analysis to data engineering shows why domain understanding
-and stakeholder translation can become engineering advantages, especially when
-paired with cloud, Python, and cost discipline
+and stakeholder translation can become engineering advantages. They matter more
+when paired with cloud, Python, and cost discipline
 ([[podcast:finops-for-data-engineers|FinOps for Data Engineers]]).
 Many data engineering paths start near
 [[Data Analyst Careers]]
@@ -215,10 +224,12 @@ or [[Data Science]]. The role often
 sits between business questions, analytical modeling, and production systems.
 
 An IoT and remote-work dimension covers building an "operating system" for
-sensor data: a platform that handles how data comes in, how it is stored, and
-how it flows out to internal stakeholders. The ETL process starts with
-exploration — understanding what is inside the data and why the pipeline exists —
-before writing code. A data engineering newsletter doubles as personal branding
-and communication practice, and remote work in Norway constrains the hiring
-market to a few cities despite a remote-first setup
+sensor data. The platform handles how data comes in, how it's stored, and how it
+flows out to internal stakeholders. The ETL process starts with exploration.
+Engineers first understand what's inside the data and why the pipeline exists
+before writing code.
+
+A data engineering newsletter doubles as personal branding and communication
+practice. Remote work in Norway constrains the hiring market to a few cities
+despite a remote-first setup
 ([[podcast:remote-data-engineering-work-and-building-iot-platforms|Remote Data Engineering and IoT Platforms]]).

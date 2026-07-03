@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11047
+    "links": 11054
   },
   "nodes": [
     {
@@ -34688,6 +34688,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "podcast:cloud-data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "podcast:crisp-dm",
       "kind": "wiki-chip",
       "weight": 1
@@ -34863,6 +34869,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38108,6 +38120,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -40724,7 +40742,19 @@
     },
     {
       "source": "wiki:data-science-for-managers",
+      "target": "person:terezaiofciu",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
       "target": "podcast:building-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58448,6 +58478,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -63027,6 +63063,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "person:thomives",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "wiki-chip",
       "weight": 1
     },

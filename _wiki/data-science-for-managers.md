@@ -191,6 +191,14 @@ Managers should connect these questions to [[Evaluation]],
 [[a-b-testing=>A/B Testing]], and
 [[Model Monitoring]].
 
+[[person:terezaiofciu=>Tereza Iofciu]] adds that managers need to make
+foundation work visible because reliable data, product framing, and stakeholder
+communication can look slower than customer-facing delivery. In
+[[cite:data-leadership-coaching|Data Leadership Coaching]], she connects that
+visibility problem to the right KPIs and a product mindset. Data teams shouldn't
+be judged only by hidden technical effort, and managers should help explain how
+foundation work supports users, other teams, and company goals.
+
 Evaluation should also include adoption and maintainability. Wilson warns that
 production failures often come from weak business buy-in or overcomplicated
 solutions, not only from poor model scores
