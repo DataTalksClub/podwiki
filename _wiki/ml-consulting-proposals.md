@@ -24,28 +24,19 @@ Use this page for the proposal work. It covers what to learn before making a
 promise, how to write scope down, and when to avoid selling a model.
 
 Sometimes the useful answer is a dashboard, workshop, feasibility study, or
-mentoring engagement.
-Proposal mechanics are anchored in
-[[podcast:freelancing-in-machine-learning=>Freelancing in Machine Learning]]
-([[person:mikiobraun|Mikio Braun]]). The business case and feasibility-gate
-view come from
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
-([[person:vinvashishta|Vin Vashishta]]). Startup-readiness and prototype
-discipline come from
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]]
-([[person:mariannadiachuk|Marianna Diachuk]]).
+mentoring engagement. [[person:mikiobraun|Mikio Braun]] anchors the proposal mechanics [[cite:freelancing-in-machine-learning|Freelancing in Machine Learning]]. The business-case and feasibility-gate view comes from [[person:vinvashishta|Vin Vashishta]] [[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]. Startup readiness and prototype discipline come from [[person:mariannadiachuk|Marianna Diachuk]] [[cite:solopreneur-data-scientist|Introducing Data Science in Startups]].
 
 ## Proposal Definition
 
 Across these episodes, a strong ML consulting proposal is a decision document,
 not merely a model spec. It starts from a technical problem and asks what the
 real problem is
-([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
 That question often uncovers organizational and product work behind the ML
 request.
 
 The ML product manager translates user needs and strategy into a business case
-([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
 The same proposal has to stay legible to research, architecture, and funding
 stakeholders. For outside consultants, the proposal should frame the problem
 before it names the model.
@@ -54,7 +45,7 @@ Consultants should also define what evidence would justify moving forward.
 Teams should ask how they'll measure whether a solution works before the work
 begins. They can use silent-mode or A/B-style rollout before exposing all users
 to a risky model
-([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 Consultants should bring
 [[metrics]],
 [[data product management]],
@@ -67,17 +58,17 @@ Guests agree on problem-first scoping but focus on different buyer risks. One
 emphasis is trust and scope alignment before a paid engagement. Braun uses
 unpaid intro meetings, trust building, problem discovery, and a written summary
 that clients can comment on
-([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
 
 Another emphasis is executive value and funding gates. The proposal has to show
 whether the business case justifies more research, architecture work, or
 production investment
-([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
 
 A third emphasis is readiness and execution constraints. Missing support can
 force the data scientist into prerequisite work instead of ML. Pipelines,
 infrastructure, and analysts are part of that support
-([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 
 Those emphases change the proposal. A mentoring proposal may sell access to a
 senior ML practitioner and team judgment. A feasibility proposal may sell a
@@ -91,7 +82,7 @@ In discovery, the consultant checks fit and premature solution requests. Several
 unpaid meetings may happen before a
 decision. Trust and fit matter when the engagement may last weeks or months.
 Braun grounds this trust sequence
-([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
 
 Separating what clients want from what they need matters too. A client may ask
 for deep learning while the useful answer could be a simpler model.
@@ -99,15 +90,15 @@ for deep learning while the useful answer could be a simpler model.
 In a good discovery call, ask for the workflow and the decision. Also identify
 the user, data owner, business consequence, and current workaround. ML
 product management supports that translation layer
-([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]):
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]):
 users often can't express requirements in ML terms. Executives care about
 revenue, cost savings, and strategy.
 
 The consultant has to translate both directions before proposing work.
 
 For startup clients, discovery must also test whether the organization knows
-what it expects from data science, asking about four things
-([[podcast:solopreneur-data-scientist|50:38-55:00]]).
+what it expects from data science. Diachuk asks about four things
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|50:38]]).
 
 The questions are:
 
@@ -126,7 +117,7 @@ before ML scope. It may also need
 ML feasibility starts with data access, data meaning, and organizational
 readiness. Companies should ideally have pipelines, infrastructure, supporting
 engineers or DevOps, and analysts
-([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 Without usable data, the consultant can't honestly sell a model-focused project.
 
 The proposal should name the required inputs before it names an algorithm:
@@ -139,14 +130,14 @@ The proposal should name the required inputs before it names an algorithm:
 Feasibility also includes whether ML is a better intervention than a simpler
 one. Starting with exploratory analysis lets the consultant check whether a
 dashboard, query, or simpler analytics step solves the problem
-([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 That belongs in ML consulting proposals because it gives the client a cheaper
 path when
 [[machine learning]] is premature.
 
 The funding-gate version has a proposal that receives limited exploratory
 funding, then returns as a feasibility study
-([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
 The ML architect then evaluates production path, support burden, infrastructure,
 and cost. A consultant can use the same structure.
 
@@ -157,23 +148,22 @@ known at kickoff.
 ## Prototype Scope
 
 Prototypes are useful when they're scoped as learning, not as disguised
-production commitments. Braun says around 49:21 in
-[[podcast:freelancing-in-machine-learning=>Freelancing in Machine Learning]]
-that some data science consultants start with companies that lack data science
-capability. They discuss what the company wants to work on, get data produced,
-and build a first prototype to decide whether to continue. For proposal writing,
-prototype deliverables should include what will be learned, which data will be
-used, and what decision the prototype enables.
+production commitments. Some data science consultants start with companies that
+lack data science capability. They discuss what the company wants to work on
+and get data produced. Then they build a first prototype to decide whether to continue
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|49:21]]).
+For proposal writing, prototype deliverables should include what will be
+learned, which data will be used, and what decision the prototype enables.
 
 Diachuk's 90-day startup plan gives a more operational version. In the first
 week, she talks to people and explores data with a problem in mind
-([[podcast:solopreneur-data-scientist|21:31]]). In the
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|21:31]]). In the
 first month, she tries to produce research, insights, or a draft model
-([[podcast:solopreneur-data-scientist|22:49]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|22:49]]).
 
 By the first quarter, she expects reusable methodology and pipelines. Possible
 deployment and A/B-style evaluation belong in the same phase
-([[podcast:solopreneur-data-scientist|24:07]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|24:07]]).
 A consulting proposal can compress or extend that timeline, but it should keep
 the same progression from problem and data toward a tested prototype.
 
@@ -187,10 +177,9 @@ These deliverables create different commitments:
 - silent-mode trial
 - production rollout
 
-Diachuk's silent-mode example around 55:43 in
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]]
-shows why. Fraud or credit-scoring models can affect users, so the first live
-step may be shadow evaluation before A/B rollout.
+Diachuk's silent-mode example shows why. Fraud or credit-scoring models can
+affect users, so the first live step may be shadow evaluation before A/B rollout
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|55:43]]).
 
 Proposals for
 [[production]] work need a separate
@@ -198,10 +187,9 @@ deployment, monitoring, and rollback plan.
 
 ## Written Proposal
 
-The written proposal is where scope becomes checkable. Braun says around
-22:45-23:40 in
-[[podcast:freelancing-in-machine-learning=>Freelancing in Machine Learning]]
-that he writes a summary of what he understood.
+The written proposal is where scope becomes checkable. Braun writes a summary
+of what he understood
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|22:45]]).
 
 The summary covers:
 
@@ -222,25 +210,27 @@ For ML work, that written scope should include:
 - communication cadence
 - success metrics and the next decision point
 
-Measurement belongs in that written scope. Around 34:41 in
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]]
-Diachuk supports putting measurement in the beginning. Vashishta's gated-process
-discussion around 46:49-47:45 in
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
-supports explicit continuation gates. The proposal should make it possible to
+Measurement belongs in that written scope. Diachuk supports putting measurement
+in the beginning
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|34:41]]).
+Vashishta's gated-process discussion supports explicit continuation gates
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning|46:49]]).
+The proposal should make it possible to
 say "continue," "change data," "ship a simpler solution," or "stop."
 
 ## Pricing and Trust
 
 Pricing is part of scope because each model allocates uncertainty differently.
-Braun describes hourly work around 24:15 in
-[[podcast:freelancing-in-machine-learning=>Freelancing in Machine Learning]]
-as transparent. It still has a weak incentive: the consultant earns more by
-working more hours, not necessarily by helping the client more. Around 25:19-28:07, he
-discusses value-based and fixed-price alternatives, but notes that ML outcomes
-are uncertain and some clients still reason in salary-like terms. Around
-29:51-30:02, he says fixed rates can let the consultant focus on the work while
-also giving the client a budget.
+Braun describes hourly work as transparent
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|24:15]]).
+It still has a weak incentive: the consultant earns more by working more hours,
+not necessarily by helping the client more. He discusses value-based and
+fixed-price alternatives, but notes that ML outcomes are uncertain and some
+clients still reason in salary-like terms
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|25:19]]).
+A fixed rate can let the consultant focus on the work while also giving the
+client a budget
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|29:51]]).
 
 The proposal should match pricing to uncertainty:
 
@@ -248,23 +238,24 @@ The proposal should match pricing to uncertainty:
 - Fixed-price prototypes fit when data access, deliverable, and evaluation are narrow.
 - Value-based pricing needs a credible business metric and a shared attribution story.
 
-Vashishta's monetization framing around 8:14-11:49 in
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
-explains why executives care. ML is expensive, and teams need a strategy for
-revenue, cost savings, or product value.
+Vashishta's monetization framing explains why executives care. ML is expensive,
+and teams need a strategy for revenue, cost savings, or product value
+([[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning|08:14]]).
 
-Aleksander Kruszelnicki gives the data-consulting version in
-[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
-Around 45:44, he says the price should come from the value the service creates,
-not only from the consultant's delivery cost. He also describes competitor and
-community benchmarking as a way to find the market rate before enough client
-data exists. Consultants can use that benchmark to keep value-based pricing
-tied to buyer alternatives instead of detached from what similar data
-consultants charge.
+Aleksander Kruszelnicki gives the data-consulting version in [[cite:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business]].
+He says the price should come from the value the service creates, not only from
+the consultant's delivery cost
+([[cite:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business|45:44]]).
+He also describes competitor and community benchmarking as a way to find the
+market rate before enough client data exists. Consultants can use that benchmark
+to keep value-based pricing tied to buyer alternatives instead of detached from
+what similar data consultants charge.
 
-Around 52:38, Kruszelnicki acknowledges the day-rate incentive to extend work.
-He also warns that project pricing can force the consultant to estimate effort
-before seeing the client's data, stakeholders, and communication constraints.
+Kruszelnicki acknowledges the day-rate incentive to extend work. He also warns
+that project pricing can force the consultant to estimate effort too early. The
+consultant may not yet have seen the client's data, stakeholders, or
+communication constraints
+([[cite:data-consulting-business-pricing-and-client-acquisition|Build a Data Consulting Business|52:38]]).
 For [[freelance=>freelance data consulting]], consultants should treat pricing
 as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when
@@ -272,22 +263,23 @@ new information appears.
 
 Trust is built before and during pricing. Braun treats unpaid intro meetings as
 part of building trust and fit
-([[podcast:freelancing-in-machine-learning|20:15]]).
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|20:15]]).
 Diachuk treats continuous expectation management as part of data science work,
 especially because ML isn't deterministic
-([[podcast:solopreneur-data-scientist|26:20-27:35]]).
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|26:20]]).
 For a proposal, the trust move isn't to promise certainty. It's to explain
 which parts are known, which parts require exploration, and how the client will
 know whether the next investment is justified.
 
 ## Workshops and Mentoring Work
 
-Not every ML consulting proposal should sell implementation. Braun says around
-7:24 in
-[[podcast:freelancing-in-machine-learning=>Freelancing in Machine Learning]]
-that he chose not to be hands-on and works more on mentoring. This lets him help
-several projects in parallel. Around 48:50-49:21, he describes longer
-engagements where the output is what the team accomplishes.
+Not every ML consulting proposal should sell implementation. Braun chose not to
+be hands-on and works more on mentoring, which lets him help several projects
+in parallel
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|07:24]]).
+He also describes longer engagements where the output is what the team
+accomplishes
+([[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|48:50]]).
 
 Concepts and written analysis can be part of that output. For productionizing
 work, the consultant may run workshops, analyze the current situation, and tell
@@ -297,8 +289,7 @@ Generative AI consulting can use the same scoped-offer structure. Workshops and
 use-case discovery help a client decide where GenAI belongs before
 implementation starts. The pitch deck and rates still have to tie the offer to
 client value. The consultant's favorite technology isn't enough
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|32:07]]
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|39:03]].
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|32:07]], [[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|39:03]]).
 
 That consulting structure is closer to
 [[data product management]]
@@ -315,9 +306,8 @@ The deliverables can include:
 - team decisions
 
 Mentoring proposals should still have outcomes. Diachuk's communication section
-around 41:46-43:54 in
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]]
-supports several delivery formats.
+supports several delivery formats
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|41:46]]).
 
 These delivery formats are useful:
 
@@ -337,13 +327,14 @@ It can measure success through team decisions and reduced delivery risk.
 
 ## Delivery Risks
 
-ML proposals should name delivery risks explicitly because discovery often
-changes the work. Diachuk says around 14:25-16:54 in
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]]
-that initial requests can be vague and priorities become clearer over time.
-Feasibility, impact, and stakeholder alignment decide what should be done first.
-Around 48:27-49:30, she recommends switching away from a project when it's no
-longer the most important or effective way to deliver insight.
+Consulting proposals should name delivery risks because discovery often changes
+the work. Diachuk says initial requests can be vague
+([[cite:solopreneur-data-scientist|Startup episode|14:25]]).
+Priorities become clearer over time. Feasibility, impact, and stakeholder
+alignment decide what comes first.
+She also recommends switching away from a project when it's no longer the most
+important or effective way to deliver insight
+([[cite:solopreneur-data-scientist|Startup episode|48:27]]).
 
 Common proposal risks include:
 
@@ -354,24 +345,19 @@ Common proposal risks include:
 - unrealistic deadlines
 - no deployment path or monitoring owner
 
-Diachuk's readiness questions around 50:38-55:00 cover many of these risks.
-Vashishta's architecture discussion around 48:59-51:20 adds production cost,
-support burden, and ROI. Braun's written-scope advice around 22:45-23:40 adds
-the practical fix: write the assumptions down so the client can correct them
-before work begins.
+Diachuk's readiness questions cover many of these risks [[cite:solopreneur-data-scientist|Introducing Data Science in Startups|50:38]]. Vashishta's architecture discussion adds production cost, support burden, and ROI [[cite:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning|48:59]]. Braun's written-scope advice adds the practical fix: write the assumptions down so the client can correct them before work begins [[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|22:45]].
 
 ## Bad ML Sales
 
-The strongest proposal may reject ML when evidence points elsewhere. In
-[[podcast:solopreneur-data-scientist=>the startup episode]],
-Diachuk says around 20:21 that data science isn't the first step.
+The strongest proposal may reject ML when evidence points elsewhere. In [[cite:solopreneur-data-scientist|the startup episode]], Diachuk says data science isn't the first step ([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|20:21]]).
 
 Companies may need dashboards and simple analytics before automated models.
-Around 28:35, she recommends starting with exploratory analysis and simpler
-approaches before focusing on model building. Braun gives the consulting version
-around 21:37-21:59 in
-[[podcast:freelancing-in-machine-learning=>his freelancing episode]].
-A request for deep learning may hide a simpler problem.
+Diachuk recommends starting with exploratory analysis and simpler approaches
+before focusing on model building
+([[cite:solopreneur-data-scientist|Introducing Data Science in Startups|28:35]]).
+Braun gives the consulting version: a request for deep learning may hide a
+simpler problem
+([[cite:freelancing-in-machine-learning|his freelancing episode|21:37]]).
 
 Don't sell an ML implementation when the buyer can't supply usable data. The
 same caution applies when there's no decision owner, measurable success
