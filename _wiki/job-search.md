@@ -85,6 +85,18 @@ learn from each attempt. That balance sits between [[career-transitions-in-data|
 and [[hiring]], because the candidate has
 to learn how recruiters and teams describe fit.
 
+For entry-level data science candidates, a smart broad search means applying
+even when a posting lists some unfamiliar tools. Rejection and interview
+questions then become market feedback.
+
+The search should still point toward a target company or industry. Find
+practitioners in that company or nearby roles. Ask for a short conversation.
+Make the request specific enough to answer
+quickly.[[cite:how-to-break-into-data-science|Playbook|50:32]]
+That makes [[Data Science Careers]] and
+[[Data Scientist CV and Portfolio]] part of the same loop. Choose a direction,
+build evidence, test it with the market, then refine the next application.
+
 ## CV Evidence
 
 Across the job-search episodes, the CV acts as a proof surface. Luke starts
@@ -157,6 +169,16 @@ Cold emails work better when they include project links and specific evidence.
 Lindsay adds LinkedIn informational outreach at 58:30 in
 [[podcast:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]],
 which is especially useful for juniors who can't rely on recruiters.
+
+Recruiter attention is easier to earn when outreach shows company research.
+Before contacting a company or employee, candidates should understand the
+industry and product well enough to ask interesting questions. They should also
+know the likely technical challenges. A couple of relevant projects give the
+conversation a concrete proof surface. Personal Streamlit apps on top of
+machine learning work can be enough when they match the role.[[cite:how-to-break-into-data-science|Playbook|54:31]]
+
+Use [[Machine Learning Portfolio Projects]] when that proof needs a clearer
+project brief, baseline, evaluation, and follow-up story.
 
 ## Interviews and Assessments
 

@@ -116,6 +116,13 @@ A managed endpoint product may work well for online inference but be awkward for
 large batch scoring. A workflow orchestrator may be enough for offline scoring
 but insufficient for low-latency services.
 
+Interoperability standards belong in the serving discussion. They matter when
+teams train models across different libraries or need to move artifacts between
+toolchains. ONNX is useful for that cross-tool boundary, but it's less central
+when a small or mid-market team standardizes on one modeling stack and
+deployment path.
+[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide|38:01]]
+
 The rule from these podcast discussions is simple. Choose tools based on the
 workflow you need to operate. Don't choose them just because the product says
 it's an end-to-end MLOps platform.
@@ -220,6 +227,17 @@ should use existing infrastructure before buying more tools. Simon's platform
 episode explains when repeated patterns justify a managed platform layer.
 Nemanja's finance and startup episodes show the two ends of the constraint
 spectrum.
+
+Danny adds the procurement version of the same choice. Build-versus-buy is an
+early architecture decision because engineering time and vendor spend both
+matter. So do KPIs, business risk, and manager-facing justification. A team
+comparing open-source components with commercial monitoring or platform products
+should make that case in business terms, not only as a tool preference.
+
+That connects MLOps tool selection to [[Machine Learning Infrastructure]] and
+[[MLOps Architecture]]. Ownership, cost, integration burden, and lock-in define
+the stack.
+[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide|34:25]]
 
 In regulated teams, governance and auditability matter most. In startups, speed,
 portability, and controlled technical debt matter more.

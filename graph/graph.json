@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11000
+    "links": 11007
   },
   "nodes": [
     {
@@ -30686,6 +30686,12 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
+      "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
       "kind": "wiki-chip",
       "weight": 1
@@ -52592,6 +52598,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "podcast:how-to-break-into-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
       "kind": "wiki-chip",
       "weight": 1
@@ -52659,6 +52671,18 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-scientist-cv-and-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60530,7 +60554,19 @@
     },
     {
       "source": "wiki:ml-product-manager-role",
+      "target": "person:vinvashishta",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "podcast:make-money-with-machine-learning-roles-skills",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60555,6 +60591,12 @@
     {
       "source": "wiki:ml-product-manager-role",
       "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62285,6 +62327,12 @@
       "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",
@@ -66597,12 +66645,6 @@
     {
       "source": "wiki:platform-engineering",
       "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:josemaria",
       "kind": "wiki-chip",
       "weight": 1
     },

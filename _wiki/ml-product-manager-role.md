@@ -46,6 +46,12 @@ The PM still practices discovery and launch discipline. They also need SQL,
 data quality judgment, documentation habits, and enough lifecycle knowledge to
 ask better technical questions.
 
+[[person:vinvashishta=>Vin Vashishta]] adds the
+monetization and strategy version in
+[[podcast:make-money-with-machine-learning-roles-skills=>Make Money with Machine Learning: Roles and Skills]].
+The ML PM connects executive strategy, user requirements, research questions,
+and production feasibility before a model becomes a funded product bet.
+
 ## Product Ownership for ML Work
 
 Across these episodes, guests converge on one definition. An ML product manager
@@ -187,6 +193,11 @@ managers own technology. They both start from the user problem and the business
 outcome. ML changes the feasibility, reliability, measurement, and adoption
 questions the PM has to manage.
 
+The strategic version of the role turns business planning into researchable ML
+use cases. The PM listens for problems and goals, then reframes them as
+requirements and an initial business case. Researchers test whether ML can solve
+the problem better than the current approach.[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles|43:28]]
+
 For a conventional product manager, the hardest question may be which customer
 problem to solve or which feature to launch. For an ML product manager, the same
 question can depend on data availability, model quality, and serving
@@ -217,6 +228,15 @@ workshops and interviews
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform roadmap ownership and problem breakdown at 9:50-21:06]]).
 A PM should avoid jumping from a stakeholder request directly to a technical
 solution.
+
+Vin makes that sequence a gated investment process. Research and architecture
+inputs become feasibility studies, production-path estimates, and ROI
+checks.[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles|48:54]].
+The PM can stop weak bets or fund more research. Strong candidates move into
+the product roadmap.
+That puts the role close to
+[[Data Product Intake and Prioritization]]
+when teams have more model-backed ideas than delivery capacity.
 
 Greg turns the same idea into a roadmap structure built around problems and
 possible solutions. Metrics and impact come next. He also adds effort, cost,

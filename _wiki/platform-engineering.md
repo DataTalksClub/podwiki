@@ -24,9 +24,9 @@ The platform team isn't only an infrastructure team. It owns paved paths and
 templates along with tooling integrations and documentation. It also owns
 support models and operating standards.
 
-Platform work spans cloud infrastructure, Kubernetes, and Terraform, and it
-starts from data science workflows before moving into self-service compute,
-[[experiment tracking]],
+Platform work spans cloud infrastructure, Kubernetes, and Terraform. It starts
+from data science workflows before moving into self-service compute and
+[[experiment tracking]]. It also includes
 [[model registry]], serving, and
 orchestration
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
@@ -41,16 +41,16 @@ path for publishing data products.
 
 Platform work answers repeated deployment and governance problems, with
 build-versus-buy and standardization as responses to team-level repetition.
-There is also room for incremental SaaS components instead of a single large
+There's also room for incremental SaaS components instead of a single large
 internal platform
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
 [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
-The same idea appears through a centralized enabling team: an MLOps team
-supports product teams and ML engineers, and that support becomes concrete
-through CI, repository structure, parameterization, and tests. Data versioning
-and traceability come next, drawing on a skill mix across data science, SRE,
-DevOps, and platform engineering
+The same idea appears through a centralized enabling team. In that model, the
+MLOps team supports product teams and ML engineers. The team makes that support
+concrete through CI and tests, with repository structure and parameterization.
+Data versioning and traceability come next. The team draws on data science,
+SRE, DevOps, and platform engineering skills
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]] in
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
@@ -59,14 +59,11 @@ than a tool portal. A platform gives teams a supported way to do common work. It
 also gives the organization a place to encode standards, security, and
 reliability without turning every project into a custom consulting job.
 
-The same pattern appears in the IoT domain as an "operating system for
-sensors" — a platform layer that standardizes sensor onboarding, real-time
-processing, storage, and data delivery to internal stakeholders. It handles
-remote diagnostics and context for sensor data, turning raw signals into
-business value through a shared pipeline rather than ad-hoc per-project
-integrations
-([[person:josemaria|José Figueiredo]] in
-[[podcast:remote-data-engineering-work-and-building-iot-platforms=>Remote Data Engineering and IoT Platforms]]).
+In IoT, the platform can act as an "operating system for sensors." It
+standardizes project-data flow across storage, intake, and output.[[cite:remote-data-engineering-work-and-building-iot-platforms|IoT Platforms|12:29]]
+That architecture extends into sensor onboarding. The system registers each
+sensor, then collects and processes its data in real time for internal sensor
+operators.[[cite:remote-data-engineering-work-and-building-iot-platforms|IoT Platforms|31:04]]
 
 ## Build Timing and Product Discipline
 
@@ -74,8 +71,8 @@ Guests diverge most on timing and product discipline. They differ on when a
 platform should exist, how productized it should be, and how much infrastructure
 the platform team should own.
 
-One caution is against starting too early: teams need real models, business
-value, and repeated needs before they build heavy platform layers, keeping
+One caution is against starting too early. Teams need real models, business
+value, and repeated needs before they build heavy platform layers. That keeps
 [[machine learning infrastructure]]
 close to actual workflow evidence
 ([[person:simonstiebellehner|Simon Stiebellehner]] in
