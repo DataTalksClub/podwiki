@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Camera-First vs LiDAR in Autonomous Driving"
+title: "Camera-First vs LiDAR"
 keyword: "camera-first vs lidar autonomous driving"
 secondary_keywords:
   - camera-first vs lidar
   - lidar vs cameras self-driving cars
   - autonomous driving sensor tradeoffs
-summary: "A podcast-grounded comparison of camera-first perception, LiDAR, radar, driver assistance, driverless ride-hailing, edge cases, and production tradeoffs in autonomous driving."
+summary: "Compare camera-first and LiDAR-heavy autonomous driving by product scope, cost, redundancy, edge cases, and production tradeoffs."
 related_wiki:
   - Computer Vision
   - Machine Learning System Design
@@ -16,8 +16,8 @@ related_wiki:
   - AI Infrastructure
 ---
 
-Camera-first and LiDAR-heavy autonomous-driving stacks differ less as abstract
-sensor philosophies. The practical contrast is product scope, cost, and
+Camera-first and LiDAR-heavy autonomous-driving stacks aren't just competing
+sensor philosophies. They also reflect product scope, cost, and
 production-system design. In
 [[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Aishwarya Jadhav's autonomous-driving episode]],
 [[person:aishwaryajadhav=>Aishwarya Jadhav]] compares
@@ -181,4 +181,3 @@ use
 source interview is
 [[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Aishwarya Jadhav's autonomous-driving episode]]
 with [[person:aishwaryajadhav|Aishwarya Jadhav]].
-

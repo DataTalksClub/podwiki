@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "AI for Finance Decision Support"
-summary: "How AI can help finance teams turn ERP, CRM, expense, and spreadsheet context into trusted decision insight without replacing finance judgment."
+title: "AI Finance Decision Support"
+summary: "Finance teams can use AI to turn ERP, CRM, expense, and spreadsheet context into reviewable insight while keeping judgment."
 related:
   - Data Products
   - Data Strategy

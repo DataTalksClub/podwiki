@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "AI Infrastructure Cost and Ownership"
-summary: "How DataTalks.Club guests reason about cloud, on-prem, hybrid, open-source, GPU, privacy, control, and operations tradeoffs in AI infrastructure."
+title: "AI Infrastructure Ownership"
+summary: "Cloud, on-prem, GPU, privacy, and operations tradeoffs that shape who pays for, runs, and controls AI infrastructure."
 related:
   - AI Infrastructure
   - Machine Learning Infrastructure

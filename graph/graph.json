@@ -8391,11 +8391,11 @@
       "id": "wiki:ai-for-finance-decision-support",
       "type": "wiki",
       "collection": "wiki",
-      "label": "AI for Finance Decision Support",
-      "title": "AI for Finance Decision Support",
+      "label": "AI Finance Decision Support",
+      "title": "AI Finance Decision Support",
       "url": "/wiki/ai-for-finance-decision-support/",
       "count": 1,
-      "search": "AI for Finance Decision Support How AI can help finance teams turn ERP, CRM, expense, and spreadsheet context into trusted decision insight without replacing finance judgment."
+      "search": "AI Finance Decision Support Finance teams can use AI to turn ERP, CRM, expense, and spreadsheet context into reviewable insight while keeping judgment."
     },
     {
       "id": "wiki:ai-for-social-good",
@@ -8431,11 +8431,11 @@
       "id": "wiki:ai-infrastructure-cost-and-ownership",
       "type": "wiki",
       "collection": "wiki",
-      "label": "AI Infrastructure Cost and Ownership",
-      "title": "AI Infrastructure Cost and Ownership",
+      "label": "AI Infrastructure Ownership",
+      "title": "AI Infrastructure Ownership",
       "url": "/wiki/ai-infrastructure-cost-and-ownership/",
       "count": 1,
-      "search": "AI Infrastructure Cost and Ownership How DataTalks.Club guests reason about cloud, on prem, hybrid, open source, GPU, privacy, control, and operations tradeoffs in AI infrastructure."
+      "search": "AI Infrastructure Ownership Cloud, on prem, GPU, privacy, and operations tradeoffs that shape who pays for, runs, and controls AI infrastructure."
     },
     {
       "id": "wiki:ai-product-feedback-loops",
@@ -8487,6 +8487,17 @@
       "count": 1,
       "search": "Algorithmic Trading How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk forward validation, risk controls, and deployment.",
       "keyword": "algorithmic trading"
+    },
+    {
+      "id": "wiki:data-analyst-to-analytics-engineer",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Analyst to Analytics Engineer",
+      "title": "Analyst to Analytics Engineer",
+      "url": "/wiki/data-analyst-to-analytics-engineer/",
+      "count": 1,
+      "search": "Analyst to Analytics Engineer A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof.",
+      "keyword": "data analyst to analytics engineer"
     },
     {
       "id": "wiki:analytics-engineering-portfolio-projects",
@@ -8562,11 +8573,11 @@
       "id": "wiki:astroinformatics-scientific-data-pipelines",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Astroinformatics and Scientific Data Pipelines",
-      "title": "Astroinformatics and Scientific Data Pipelines",
+      "label": "Astroinformatics Pipelines",
+      "title": "Astroinformatics Pipelines",
       "url": "/wiki/astroinformatics-scientific-data-pipelines/",
       "count": 1,
-      "search": "Astroinformatics and Scientific Data Pipelines Radio astronomy data pipelines as source detection, catalog cross matching, uncertainty checks, physics based verification, and transferable data engineering practice."
+      "search": "Astroinformatics Pipelines How radio astronomy pipelines connect source detection, catalog matching, uncertainty checks, and physics based verification."
     },
     {
       "id": "wiki:autonomous-driving-ai",
@@ -8633,11 +8644,11 @@
       "id": "wiki:camera-first-vs-lidar-autonomous-driving",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Camera-First vs LiDAR in Autonomous Driving",
-      "title": "Camera-First vs LiDAR in Autonomous Driving",
+      "label": "Camera-First vs LiDAR",
+      "title": "Camera-First vs LiDAR",
       "url": "/wiki/camera-first-vs-lidar-autonomous-driving/",
       "count": 1,
-      "search": "Camera First vs LiDAR in Autonomous Driving A podcast grounded comparison of camera first perception, LiDAR, radar, driver assistance, driverless ride hailing, edge cases, and production tradeoffs in autonomous driving.",
+      "search": "Camera First vs LiDAR Compare camera first and LiDAR heavy autonomous driving by product scope, cost, redundancy, edge cases, and production tradeoffs.",
       "keyword": "camera-first vs lidar autonomous driving"
     },
     {
@@ -8851,17 +8862,6 @@
       "url": "/wiki/data-analyst-role/",
       "count": 1,
       "search": "Data Analyst Role DataTalks.Club podcast guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
-    },
-    {
-      "id": "wiki:data-analyst-to-analytics-engineer",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Analyst to Analytics Engineer Roadmap",
-      "title": "Data Analyst to Analytics Engineer Roadmap",
-      "url": "/wiki/data-analyst-to-analytics-engineer/",
-      "count": 1,
-      "search": "Data Analyst to Analytics Engineer Roadmap A podcast backed roadmap for analysts moving into analytics engineering through SQL modeling, dbt style workflows, metric ownership, tests, documentation, and portfolio evidence.",
-      "keyword": "data analyst to analytics engineer"
     },
     {
       "id": "wiki:data-analyst-to-data-engineer",

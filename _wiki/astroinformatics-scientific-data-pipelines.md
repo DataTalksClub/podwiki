@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Astroinformatics and Scientific Data Pipelines"
-summary: "Radio astronomy data pipelines as source detection, catalog cross-matching, uncertainty checks, physics-based verification, and transferable data engineering practice."
+title: "Astroinformatics Pipelines"
+summary: "How radio astronomy pipelines connect source detection, catalog matching, uncertainty checks, and physics-based verification."
 related:
   - Data Pipelines
   - Applied Research
@@ -11,22 +11,18 @@ related:
   - Academic Researcher to Data Science
 ---
 
-Astroinformatics applies data work to astronomy problems where observations
-come from many instruments. The data is large and tied to physical measurement.
-[[person:danielegbo=>Daniel Egbo]] grounds the topic in
-radio astronomy rather than generic space-data analytics in
+Astroinformatics applies data work to astronomy observations from many
+instruments. Those observations are large and tied to physical measurement.
+[[person:danielegbo=>Daniel Egbo]]'s MEERKAT work connects source detection and
+catalog matching with uncertainty checks and domain verification. The
+radio-astronomy discussion appears in
 [[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Applied ML]].
 
-MEERKAT scans the galactic plane. Daniel looks for radio-emitting stars, so the
-work depends on source detection and catalog matching. It also depends on
-uncertainty checks and domain verification.
-
-Daniel's example puts astroinformatics inside
-[[data-pipelines=>data pipeline]] work. His
-pipeline doesn't start with a CSV or end with a dashboard. It starts with
-telescope observations and turns images into candidate sources. It then
-compares those candidates against optical and infrared catalogs. Astronomy
-knowledge helps decide whether a match is credible
+The MEERKAT example puts astroinformatics inside
+[[data-pipelines=>data pipeline]] work. The pipeline doesn't start with a CSV or
+end with a dashboard. It starts with telescope observations and turns images
+into candidate sources. It then compares those candidates against optical and
+infrared catalogs. Astronomy knowledge helps decide whether a match is credible
 ([[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering|radio-astronomy discussion at 5:08-17:54]]).
 
 ## Radio Astronomy as a Scientific Pipeline
@@ -142,10 +138,12 @@ and production-style project habits.
 into asteroid characterization and resource detection. In
 [[podcast:machine-learning-for-asteroid-mining-and-water-detection=>Machine Learning for Asteroid Mining and Water Detection]],
 he describes using hyperspectral spectroscopy and infrared signatures to
-identify water on near-Earth asteroids. The team combines photometry, light
-curves, and polarimetry as features, and uses a Bayesian framework to fuse
-independent models for albedo, orbital elements, and spectral classification
-into an evolving posterior over asteroid properties. Ground truth is scarce:
+identify water on near-Earth asteroids.
+
+The team combines photometry, light curves, and polarimetry as features. A
+Bayesian framework fuses independent models for albedo, orbital elements, and
+spectral classification into an evolving posterior over asteroid properties.
+Ground truth is scarce:
 returned samples and meteorite analogs are the main validation anchors, which
 makes this a small-data science problem despite large imagery volumes. Open
 datasets from the Minor Planet Center, JPL Horizons, and NEOWISE feed orbit

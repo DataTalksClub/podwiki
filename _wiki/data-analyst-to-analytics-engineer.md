@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: [transition, "roadmap"]
-title: "Data Analyst to Analytics Engineer Roadmap"
+title: "Analyst to Analytics Engineer"
 keyword: "data analyst to analytics engineer"
-summary: "A podcast-backed roadmap for analysts moving into analytics engineering through SQL modeling, dbt-style workflows, metric ownership, tests, documentation, and portfolio evidence."
+summary: "A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof."
 search_intent: "People searching for data analyst to analytics engineer usually want a practical transition path: which analyst skills transfer, what modeling and dbt skills to add, and what project evidence proves readiness."
 related_wiki:
   - Data Analyst Role
@@ -20,19 +20,15 @@ related_wiki:
   - Business Intelligence
 ---
 
-Moving from data analyst to analytics engineer means moving upstream from
-analysis into reusable analytical data. The analyst skill set still matters.
-SQL and dashboard work transfer. KPI explanations and stakeholder context
-become stronger when the analyst turns repeated logic into tested models.
-Experiment readouts can move the same way.
-
-Those analyst skills become more valuable when they're backed by reusable
-models.
+Keep analyst judgment over questions, dashboards, KPIs, and experiments as you
+move from data analyst to analytics engineer. Then move the repeated logic
+upstream into reusable analytical data. SQL, stakeholder context, and metric
+explanations become stronger when they live in tested models.
 
 [[person:juanpablo=>Juan Pablo]] moved from teaching mathematics into analytics
 roles, then worked at Amazon in a BI and data engineering team. That path
-connects the transition to SQL, portfolio proof, networking, and communication,
-and clarifies the boundary between analyst, BI engineer, and analytics engineer
+connects the transition to SQL, portfolio proof, networking, and communication.
+It also clarifies the boundary between analyst, BI engineer, and analytics engineer
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 The practical boundary is ownership. A
@@ -60,9 +56,9 @@ puts the transition between the
 [[analytics engineering]],
 and BI-facing [[data products]].
 
-The analyst role sits close to company data, KPIs, and dashboards, with reports
-and product evaluation, and analysts size product problems and evaluate whether
-a shipped change improved behavior
+The analyst role sits close to company data and KPIs through dashboards, reports,
+and product evaluation. Analysts size product problems and evaluate whether a
+shipped change improved behavior
 ([[podcast:data-team-roles|Data Team Roles Explained]]).
 That context transfers directly into
 [[metrics]],
@@ -71,15 +67,15 @@ That context transfers directly into
 
 [[person:victoriaperezmola=>Victoria Perez Mola]] sets the analytics-engineering
 standard in
-[[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]]:
-modeling data for analysts and data scientists, maintaining pipelines, checking
-quality, and building Looker-facing models. The dbt workflow includes SQL
-files, YAML docs, GitHub version control, and tests, and the DAG makes model
-dependencies visible.
+[[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+She describes modeling data for analysts and data scientists. She also describes
+maintaining pipelines, checking quality, and building Looker-facing models. In
+the dbt workflow, SQL files and YAML docs sit with GitHub version control and
+tests in a visible model DAG.
 
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] adds the conceptual boundary in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]:
-analytics engineering turns business reality into data models, then applies
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
+Analytics engineering turns business reality into data models. It then applies
 software-engineering habits so the work becomes reproducible and robust.
 
 ## Choose the Right Transition Target
@@ -106,7 +102,7 @@ Choose the target from the work you already do:
 [[person:nikolamaksimovic=>Nikola Maksimovic]] shows why this choice matters in
 [[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 That path moved through marketing reporting and BI-team collaboration, then
-added SQL and Looker, and later included a dbt migration, product analytics, and
+added SQL and Looker. It later included a dbt migration, product analytics, and
 A/B testing. The title mattered less than the growing ownership of modeled
 tables, dashboard definitions, and product metrics.
 
@@ -118,17 +114,17 @@ which metric caveats change a decision. That's the domain context an
 analytics engineer needs before modeling a trusted table.
 
 Juan Pablo's path started with statistics and hypothesis testing, then moved
-through SAS, R, and portfolio work, and SQL turned out to be the core skill he
-used most often. A bootcamp gave him a practical map of SQL, Tableau, Power BI,
-and dashboards and exposed missing skills, but it didn't give him a job; the
-search took nine months, so the transition needed both skills and visibility
+through SAS, R, and portfolio work. SQL turned out to be the core skill he used
+most often. A bootcamp gave him a practical map of SQL, Tableau, Power BI, and
+dashboards. It exposed missing skills, but it didn't give him a job. The search
+took nine months, so the transition needed both skills and visibility
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 The [[marketing-to-analytics-engineering|marketing-to-analytics-engineering transition]]
-shows the same transfer from another business role: business and BI experience
-moved toward analytics engineering, expanding into product support and
-[[a-b-testing=>A/B testing]], with data modeling, a dbt migration, Looker, and
-LookML becoming part of the path
+shows the same transfer from another business role. Business and BI experience
+moved toward analytics engineering and expanded into product support and
+[[a-b-testing=>A/B testing]]. Data modeling, a dbt migration, Looker, and LookML
+became part of the path
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]]).
 
 Those examples show the same rule: keep the analyst context, but move the
@@ -148,12 +144,12 @@ SQL, fact tables, and dimension tables are core preparation, and Kimball-style
 modeling and Snowflake familiarity also matter
 ([[podcast:analytics-engineer-skills-tools|Master Analytics Engineering]]).
 [[dbt]] makes SQL transformations reviewable,
-documented, testable, and visible as lineage; it packages engineering habits
+documented, testable, and visible as lineage. It packages engineering habits
 around analytical models.
 
-The review bar rises with tests: generic tests and singular SQL tests stop
-broken assumptions before they reach users, and unit tests and CI checks belong
-in that workflow too
+The review bar rises with tests. Generic tests and singular SQL tests stop
+broken assumptions before they reach users. Unit tests and CI checks belong in
+that workflow too
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
 That links the transition to
 [[data quality and observability]]
@@ -163,8 +159,8 @@ Learn enough of the [[modern data stack]]
 to know where your models sit.
 [[person:nataliekwong=>Natalie Kwong]] describes the modern stack in
 [[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]:
-ELT loads raw data first, and analysts and analytics engineers then transform it
-in the warehouse with SQL and dbt-style workflows.
+ELT loads raw data first. Analysts and analytics engineers then transform it in
+the warehouse with SQL and dbt-style workflows.
 
 ## Build Product and Event Context
 
@@ -195,9 +191,9 @@ one-off analysis.
 
 Portfolio evidence should show the move from one-off analysis to reusable data
 work. Juan Pablo's first portfolio used R projects for data wrangling,
-exploratory analysis, and visualizations, with maps, heat maps, and basic
-models. For entry-level roles, three projects are enough, and any public
-portfolio is better than waiting for a perfect one
+exploratory analysis, and visualizations. It included maps, heat maps, and basic
+models. For entry-level roles, three projects are enough. Any public portfolio is
+better than waiting for a perfect one
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 For analytics engineering, the strongest project starts with analyst work and
@@ -216,9 +212,9 @@ Good project choices include:
   for one stakeholder decision
 
 [[person:christopherbergh=>Christopher Bergh]] grounds the reliability side in
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]:
-version control, automated tests, CI/CD, runbooks, documentation, and
-end-to-end versioning.
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+The reliability side includes version control, automated tests, CI/CD, and
+runbooks. Documentation and end-to-end versioning are part of that work too.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] adds the transition-project standard in
 [[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]:
@@ -229,7 +225,7 @@ The scope should match
 [[Analytics Engineering Portfolio Projects]]
 and the
 [[Dashboard and Metric Layer Project Checklist]].
-Make the project easy to look at: GitHub and GitHub Pages can work, and RPubs,
+Make the project easy to look at. GitHub and GitHub Pages can work. RPubs,
 WordPress, and Hashnode can work too as long as the project has a clear
 description and README
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
@@ -244,8 +240,8 @@ call similar work Analytics Engineer
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 His first job also separates analyst work from analytics-engineering work. The
-title was data scientist, but the work was mostly SQL and dashboards; without
-pipelines, it was really data analyst or data analyst consultant work
+title was data scientist, but the work was mostly SQL and dashboards. Without
+pipelines, it was data analyst or data analyst consultant work
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 That supports a pragmatic job search. Look for analytics engineer, BI engineer,
@@ -255,13 +251,13 @@ modeler roles can fit the same path.
 Visibility matters when the candidate lacks the exact title. Juan Pablo's first
 offer came through repeated meetup attendance and a resume that reached the
 hiring founder twice. Active LinkedIn use, an obvious portfolio link, and a
-resume link ready to send all help, and short-term roles, nonprofit projects,
-and small-company trial work can create the first credible experience
+resume link ready to send all help. Short-term roles, nonprofit projects, and
+small-company trial work can create the first credible experience
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
-Communication is part of the hiring signal: concise project communication and
-STAR framing, plus repo hygiene, where a clean README and organized repository
-help reviewers understand the work without reverse-engineering the code
+Communication is part of the hiring signal. Concise project communication, STAR
+framing, and repo hygiene help reviewers understand the work without
+reverse-engineering the code. A clean README and organized repository matter
 ([[podcast:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]).
 
 ## Related Pages
@@ -285,5 +281,3 @@ These pages cover the adjacent roles, skills, and portfolio patterns.
 - [[Tracking Plans]]
 - [[Business Intelligence]]
 - [[Data Quality and Observability]]
-
-</content>
