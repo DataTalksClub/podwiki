@@ -50,12 +50,12 @@ The same proposal has to stay legible to research, architecture, and funding
 stakeholders. For outside consultants, the proposal should frame the problem
 before it names the model.
 
-The proposal should also define what evidence would justify moving forward.
+Consultants should also define what evidence would justify moving forward.
 Teams should ask how they'll measure whether a solution works before the work
-begins, and use silent-mode or A/B-style rollout before exposing all users to a
-risky model
+begins. They can use silent-mode or A/B-style rollout before exposing all users
+to a risky model
 ([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
-That puts
+Consultants should bring
 [[metrics]],
 [[data product management]],
 and [[model monitoring]] inside
@@ -64,17 +64,18 @@ proposal thinking before delivery.
 ## Different Buyer Risks
 
 Guests agree on problem-first scoping but focus on different buyer risks. One
-emphasis is trust and scope alignment before a paid engagement: unpaid intro
-meetings, trust building, problem discovery, and a written summary that clients
-can comment on
+emphasis is trust and scope alignment before a paid engagement. Braun uses
+unpaid intro meetings, trust building, problem discovery, and a written summary
+that clients can comment on
 ([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
 
-Another emphasis is executive value and funding gates: whether more research,
-architecture, or production investment is justified by the business case
+Another emphasis is executive value and funding gates. The proposal has to show
+whether the business case justifies more research, architecture work, or
+production investment
 ([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
 
-A third emphasis is readiness and execution constraints: missing support can
-force the data scientist into prerequisite work instead of ML, since pipelines,
+A third emphasis is readiness and execution constraints. Missing support can
+force the data scientist into prerequisite work instead of ML. Pipelines,
 infrastructure, and analysts are part of that support
 ([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 
@@ -86,19 +87,20 @@ proposal may need architecture, monitoring, and ROI assumptions up front.
 
 ## Discovery Call
 
-The discovery call has two jobs: qualify whether the consultant can help and
-test whether the client is asking for a solution too early. There may be several
-unpaid meetings before a decision, and trust and fit matter when the engagement
-may last weeks or months
+In discovery, the consultant checks fit and premature solution requests. Several
+unpaid meetings may happen before a
+decision. Trust and fit matter when the engagement may last weeks or months.
+Braun grounds this trust sequence
 ([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
-Separating what clients want from what they need matters too: a client may ask
+
+Separating what clients want from what they need matters too. A client may ask
 for deep learning while the useful answer could be a simpler model.
 
-A good discovery call asks for the workflow and the decision. It should also
-identify the user, data owner, business consequence, and current workaround. ML
+In a good discovery call, ask for the workflow and the decision. Also identify
+the user, data owner, business consequence, and current workaround. ML
 product management supports that translation layer
 ([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]):
-users often can't express requirements in ML terms, and executives care about
+users often can't express requirements in ML terms. Executives care about
 revenue, cost savings, and strategy.
 
 The consultant has to translate both directions before proposing work.
@@ -250,6 +252,23 @@ Vashishta's monetization framing around 8:14-11:49 in
 [[podcast:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
 explains why executives care. ML is expensive, and teams need a strategy for
 revenue, cost savings, or product value.
+
+Aleksander Kruszelnicki gives the data-consulting version in
+[[podcast:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
+Around 45:44, he says the price should come from the value the service creates,
+not only from the consultant's delivery cost. He also describes competitor and
+community benchmarking as a way to find the market rate before enough client
+data exists. Consultants can use that benchmark to keep value-based pricing
+tied to buyer alternatives instead of detached from what similar data
+consultants charge.
+
+Around 52:38, Kruszelnicki acknowledges the day-rate incentive to extend work.
+He also warns that project pricing can force the consultant to estimate effort
+before seeing the client's data, stakeholders, and communication constraints.
+For [[freelance=>freelance data consulting]], consultants should treat pricing
+as part of proposal design. They should explain which uncertainty the client
+keeps, which uncertainty they accept, and how both sides will revisit scope when
+new information appears.
 
 Trust is built before and during pricing. Braun treats unpaid intro meetings as
 part of building trust and fit

@@ -21,8 +21,7 @@ A solopreneur is an entrepreneur who chooses to run a small business, usually
 without building a large employee team.
 
 For how DataTalks.Club guests use the term, start with
-[[Solopreneur]]. The path here is for
-data and AI professionals.
+[[Solopreneur]]. Data and AI professionals need a narrower path.
 
 For data and AI professionals, that can mean several kinds of work:
 
@@ -31,7 +30,7 @@ For data and AI professionals, that can mean several kinds of work:
 - courses, books, and technical writing
 - open-source tooling or small software products
 
-Solopreneurship is not a quick escape from employment.
+Solopreneurship isn't a quick escape from employment.
 
 Three interviews anchor this article:
 
@@ -46,6 +45,9 @@ Three interviews anchor this article:
   [[podcast:becoming-data-freelancer=>Become a Data Freelancer]]
   and
   [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]].
+- Bootstrapped side products, from
+  [[person:paulineclavelloux=>Pauline Clavelloux]] in
+  [[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]].
 
 Solopreneurship connects with these topics:
 
@@ -54,11 +56,12 @@ Solopreneurship connects with these topics:
 - [[startups]]
 - [[technical writing]]
 - [[open source and developer relations]]
+- [[portfolio projects]]
 
 ## Solopreneur Meaning
 
-Solopreneurship is a choice to stay small on purpose: not raising venture money,
-not hiring a large team, and not chasing the biggest possible company.
+Solopreneurship is a choice to stay small on purpose. The person doesn't raise
+venture money, hire a large team, or chase the biggest possible company.
 Independence ties to diversified income and the ability to say no to bad-fit
 work ([[person:noahgift|Noah Gift]],
 [[podcast:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]).
@@ -74,15 +77,24 @@ work is often the first cash-flow stream. The wider business can include client
 work and teaching. It can also include writing and software. Some data
 solopreneurs also build repeatable packages or open-source services.
 
+In this path, indie hacking means building small software products and
+monetizing them without outside funding. The cost base stays low enough that the
+work can start alongside a full-time data role
+([[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]]).
+Cryptopy started as a crypto-alerting tool for personal trading before it became
+a public offer. UnrealMe turned a DreamBooth-style image idea into a small
+generative AI service and launched in weeks
+([[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]]).
+
 Consulting and books combine with courses, university teaching, software
 projects, and other income sources
 ([[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]]).
 
 ## Solopreneur vs Freelancer vs Startup Founder
 
-A freelancer sells time or a scoped project to clients. That is running a
-business, not simply doing the same job without an employer: independent work
-adds marketing, positioning, and pricing to the technical work, along with
+A freelancer sells time or a scoped project to clients. That's running a
+business, not simply doing the same job without an employer. Independent work
+adds marketing, positioning, and pricing to the technical work. It also adds
 contracts, payment risk, and client management
 ([[person:dimitrivisnadi|Dimitri Visnadi]],
 [[podcast:becoming-data-freelancer=>Become a Data Freelancer]]).
@@ -109,8 +121,8 @@ One person may have to understand the product, talk to stakeholders, and explore
 data. The same person may also define the problem, train or evaluate a model,
 and help move the work toward production.
 
-Readiness comes first. A company should ideally have data pipelines before it
-asks one person to introduce data science, and engineering, DevOps, or analyst
+Readiness comes first, so a company should ideally have data pipelines before it
+asks one person to introduce data science. Engineering, DevOps, or analyst
 support helps
 ([[podcast:solopreneur-data-scientist|solo data scientist episode]]).
 
@@ -179,6 +191,15 @@ expertise for different buyers:
 - speaking, teaching, or university work
 - support around open-source or developer tools
 
+A bootstrapped product can also be a learning asset, not only a revenue bet.
+Side projects such as Cryptopy and UnrealMe force work across product launch,
+payments, and pricing. They also bring infrastructure and cloud work into the
+same project. GCP, web development, data engineering, and marketing become part
+of the operating surface. That makes them close to [[portfolio projects]] when
+the public proof
+matters as much as the income
+([[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]]).
+
 This is where
 [[technical writing]] and
 [[open source and developer relations]]
@@ -187,7 +208,7 @@ work turn technical skill into adoption, examples, documentation, and user
 feedback. Those activities can support consulting, teaching, product work, and
 audience building without pretending that every post is a sales page.
 
-Personal brand is not follower count. It is sharing expertise, experience,
+Personal brand isn't follower count. It's sharing expertise, experience,
 knowledge, and mistakes so people know what you can help with
 ([[person:admondleekinlim|Admond Lee Kin Lim's]]
 [[podcast:personal-brand-for-data-professionals=>Personal Branding]] episode).
@@ -196,15 +217,21 @@ organizers, and course students discover the work.
 
 ## Transition Without Blind Risk
 
-Quitting deserves caution. Build the tunnel while still employed: lower expenses
-where possible, save money, build side streams, and avoid betting the whole
-career on one new offer
+Quitting deserves caution, so build the tunnel while still employed. Lower
+expenses where possible and save money. Build side streams, and avoid a bet on
+one new offer
 ([[podcast:solopreneur-developer-and-data-professional|Becoming a Solopreneur in Data]]).
+
+The indie-hacker version keeps the day job as the operating base. Product work
+happens after work, on weekends, and during available breaks. Without investors,
+the launch can wait until the product is ready
+([[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]]).
+
 The freelance side gives a similar version around testing demand and managing
 financial risk
 ([[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]]).
 
-That gives data and AI professionals a staged path:
+Data and AI professionals can use a staged path:
 
 1. Keep the full-time job while you choose one problem you can credibly solve.
 2. Publish useful proof: a case study, tutorial, talk, open-source contribution,
@@ -214,7 +241,7 @@ That gives data and AI professionals a staged path:
 4. Turn the first repeated problem into a clearer package.
 5. Build financial runway before making the full-time switch.
 
-Technical credentials don't automatically command high prices; pricing ties to
+Technical credentials don't automatically command high prices. Pricing ties to
 market validation and positioning
 ([[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Taking Your Freelance Career to the Next Level]]).
 A PhD or a strong model still needs positioning. A new AI skill still needs a
@@ -280,6 +307,10 @@ Start with these interviews:
   and
   [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>follow-up freelance strategy interview]]
   for client acquisition, pricing, positioning, and risk.
+- [[person:paulineclavelloux=>Pauline Clavelloux's]]
+  [[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects=>indie-hacking interview]]
+  for bootstrapped side products, Cryptopy, UnrealMe, and the day-job operating
+  model.
 - [[person:admondleekinlim=>Admond Lee Kin Lim's]]
   [[podcast:personal-brand-for-data-professionals=>personal branding interview]]
   to turn your expertise into public proof.
@@ -293,3 +324,4 @@ For adjacent topic maps, continue with these pages:
 - [[technical writing]]
 - [[open source and developer relations]]
 - [[consultant or freelancer to data product founder]]
+- [[portfolio projects]]

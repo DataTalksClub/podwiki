@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 10976
+    "links": 10986
   },
   "nodes": [
     {
@@ -29066,6 +29066,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "person:andradaolteanu",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "person:cjjenkins",
       "kind": "wiki-chip",
       "weight": 1
@@ -29157,6 +29163,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "person:xiahebleinagel",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59600,6 +59612,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "person:lorismarini",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "person:rishabhbhargava",
       "kind": "wiki-chip",
       "weight": 1
@@ -59619,6 +59637,12 @@
     {
       "source": "wiki:metrics",
       "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:data-professionals-business-skills-in-saas",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59667,6 +59691,12 @@
     {
       "source": "wiki:metrics",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59817,6 +59847,12 @@
     {
       "source": "wiki:ml-consulting-proposals",
       "target": "person:vinvashishta",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62685,6 +62721,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "person:thomives",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "podcast:building-mlops-startup",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74012,6 +74054,12 @@
     },
     {
       "source": "wiki:solopreneur-data-scientist",
+      "target": "person:paulineclavelloux",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
       "target": "podcast:becoming-data-freelancer",
       "kind": "wiki-chip",
       "weight": 1
@@ -74019,6 +74067,12 @@
     {
       "source": "wiki:solopreneur-data-scientist",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
+      "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74099,6 +74153,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:solopreneur-data-scientist",

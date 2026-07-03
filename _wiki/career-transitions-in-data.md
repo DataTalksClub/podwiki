@@ -128,6 +128,15 @@ includes formal data-analysis study and a part-time learning plan in her route
 ([[podcast:project-manager-to-data-scientist|Project Manager to Data Scientist]],
 11:10 and 54:09).
 
+[[person:andradaolteanu=>Andrada Olteanu]] gives the analyst-to-data-science
+version. She kept analyst strengths in data validation, exploratory analysis
+and domain knowledge. Her self-paced pivot into data science took about a year
+and combined Udemy courses with Kaggle notebooks and YouTube
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Olteanu|52:54]].
+Analysts can link [[Data Analyst Role]] experience to
+[[Data Scientist Role]] expectations through practical notebooks and public
+project work.
+
 [[person:svpino=>Santiago Valdarrama]] argues for a
 problem-first route where software engineers start building before they feel
 mathematically complete
@@ -164,14 +173,15 @@ dev tools and take-home RAG-style assignments add current proof
 0:00-44:30).
 
 A community-driven entry route runs from film and coffee roasting into ML
-through Codecademy, Andrew Ng's course, and FreeCodeCamp, supported by a German
-Bildungsgutschein
+through Codecademy, Andrew Ng's course, and FreeCodeCamp. A German
+Bildungsgutschein supported that path
 ([[person:jessicagreene|Jessica Greene]],
 [[podcast:how-to-switch-to-ml-tech-without-experience=>How to Switch to ML Tech Without Experience]]).
+
 PyLadies meetups and Rails Girls Summer of Code provided structured pair
 programming and mentorship. Community organizing at those events created
 networking, leadership, and management skills that led directly to an
-internship at Ecosia. Public speaking works as a career accelerator — start
+internship at Ecosia. Public speaking works as a career accelerator. Start
 small, do dry runs, and craft a personal edge.
 
 Freelance transitions add a different disagreement. The proof isn't only
@@ -243,23 +253,28 @@ role-specific interview preparation matter as well
 [[Data Engineering]], and
 [[MLOps vs DevOps]].
 
-Academic transitions require the same translation but often start with stronger
-statistics and domain-data evidence.
+Academic transitions require the same translation, but they often start with
+stronger statistics and domain-data evidence.
 [[person:cjjenkins=>CJ Jenkins']] postdoc route
-includes population dynamics, GLMs, genomics files, and Bash. Data cleaning is
-part of the same research bridge. Her later gaps were deployment, APIs, Docker
-and Python production practice
+includes population dynamics and GLMs. She also worked with genomics files and
+Bash. Data cleaning is part of the same research bridge.
+
+Her later gaps included deployment and API work. Docker practice mattered, as
+did Python production practice
 ([[podcast:postdoc-to-data-science-lead-career-transition|Postdoc to Data Science Lead]],
 1:28-6:10).
+
 Senior academic transitions add a leadership boundary.
 [[person:tatianagabruseva=>Tatiana Gabruseva]]'s route
 in
 [[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>From Academia to Staff AI Engineer]]
-shows that physics and healthcare research became a base for ML leadership, but
-the industry move still required onboarding into Scala, Spark, and Kubernetes.
-It also required large-scale recommender systems, quarterly planning, faster
-decisions, and referrals. The hiring side required coding prep, ML design
-practice, system design, mock interviews, and mentorship. That's why
+shows that physics and healthcare research became a base for ML leadership. The
+industry move still required onboarding into Scala, Spark, and Kubernetes. It
+also required large-scale recommender systems, quarterly planning, and faster
+decisions. Referrals mattered too.
+
+Gabruseva also needed coding prep and ML design practice. For interviews, she
+also needed system design, mock interviews, and mentorship. That's why
 [[Staff AI Engineer]] and
 [[Academia]] are adjacent pages rather
 than synonyms.
@@ -275,6 +290,14 @@ Portfolio proof works when it's specific to the role and easy to look at.
 engineers to build and share real projects
 ([[podcast:from-software-engineer-to-machine-learning|Software Engineering to Machine Learning]],
 17:25-22:18).
+
+Analysts moving into data science need public proof. Andrada Olteanu says hiring
+reviewers can look at Kaggle notebooks and GitHub project writeups as portfolio
+evidence [[cite:analytics-to-data-science-with-kaggle-portfolio|Olteanu|32:14]].
+Kaggle is most useful when it sits inside a visible
+[[Machine Learning Portfolio Projects|machine-learning portfolio]]. Candidates
+can use the notebook to show data exploration, modeling choices and what they
+learned from the work.
 
 [[person:alvaronavaspeire=>Alvaro Navas Peire's]]
 Zoomcamp projects and cloud exercises become job-search evidence. GitHub notes
@@ -310,37 +333,29 @@ public demos add more signals
 [[Machine Learning Portfolio Projects]],
 and [[Open Source Portfolio Evidence]].
 
-Interview story is part of the proof, not a separate soft layer.
+Candidates need an interview story as part of the proof, not a separate soft layer.
 [[person:olegnovikov=>Oleg Novikov]] frames the CV as a
 landing page and asks candidates to show personal contribution. He treats
-take-home projects and behavioral stories as part of the same funnel. Case
-studies, SQL, coding and role targeting matter too
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
-13:24-39:10).
-[[person:nicksingh=>Nick Singh]] adds that project
-walkthroughs should show ownership, impact, business context, and defensible
-technical claims. He puts those signals before case interviews and
-product-sense questions
-([[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]],
-25:13-45:30). These episodes show why candidates have to treat a transition as
-both a skills problem and a communication problem.
-Good transition evidence usually has four parts: a role-shaped problem, a
-reproducible artifact, a plain explanation of tradeoffs, and a link from old
-experience to new work.
-[[person:olegnovikov=>Oleg Novikov]] frames the CV as a
-landing page and asks candidates to show personal contribution. He treats
-take-home projects and behavioral stories as part of the same funnel. Case
-studies, SQL, coding and role targeting matter too
+take-home projects and behavioral stories as part of the same funnel. The same
+interview treats case studies as part of the screen. SQL, coding, and role
+targeting matter too
 ([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
 13:24-39:10).
 
 [[person:nicksingh=>Nick Singh]] adds that project
-walkthroughs should show ownership, impact, business context, and defensible
-technical claims. He puts those signals before case interviews and
-product-sense questions
+walkthroughs should show ownership and impact. They should also show business
+context and defensible technical claims. He puts those signals before case
+interviews and product-sense questions
 ([[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]],
 25:13-45:30). These episodes show why candidates have to treat a transition as
 both a skills problem and a communication problem.
+
+Strong transition evidence usually has four parts:
+
+- a role-shaped problem
+- a reproducible artifact
+- a plain explanation of tradeoffs
+- a link from old experience to new work
 
 ## Internal Mobility and Community Routes
 
@@ -385,12 +400,13 @@ and [[Developer Relations]].
 [[person:xiahebleinagel=>Xia He Bleinagel]] gives a
 career-break-to-leadership version. In
 [[podcast:s22e07-reinventing-career-in-tech=>Reinventing a Career in Tech]],
-she describes going from full-time parent to head of data and cloud through a
-second master's in data science, frequent job changes to gain experience, and
-internal community building — she started a cross-team data knowledge group
-that positioned her to step into the head-of-data role when it opened. Her
-story shows how career-break transitions can compound into leadership roles
-when technical skills meet visible internal initiative.
+she describes going from full-time parent to head of data and cloud. A second
+master's in data science and frequent job changes helped her gain experience.
+
+She also started a cross-team data knowledge group. That work positioned her to
+step into the head-of-data role when it opened. Her story shows how career-break
+transitions can compound into leadership roles when technical skills meet
+visible internal initiative.
 
 ## Choosing the Target Role
 

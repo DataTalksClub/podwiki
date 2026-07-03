@@ -34,16 +34,15 @@ business outcomes. They may track user or stakeholder feedback too. The
 monitoring system needs to help the team diagnose a problem after an alert
 fires.
 
-In the data-science version, data drift is separate from concept drift, and
-both tie to ongoing maintenance
+In the data-science version, Thom Ives separates data drift from concept drift
 ([[person:thomives|Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]):
-the training data may stop matching the current world, or the relationship
-between features and outcomes may change.
+[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]).
+The training data may stop matching the current world. The relationship between
+features and outcomes may change too.
 
 In the human-centered version, live test sets and small A/B tests detect model
-issues, input distributions, unit changes, and feature drift get watched, and
-logging, feature stores, and reproducibility support the work
+issues. Teams watch input distributions, unit changes, and feature drift.
+Logging, feature stores, and reproducibility support the work
 ([[person:linaweichbrodt|Lina Weichbrodt]],
 [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
 Monitoring is useful only when teams can debug and respond.
@@ -51,31 +50,38 @@ Monitoring is useful only when teams can debug and respond.
 ## Monitoring Priorities
 
 Production models need monitoring, but guests prioritize different operating
-problems. From the production-pain angle, teams that already have production
-models are distinct from teams still before deployment, and the market
+problems. Danny Leybzon focuses on production pain. Teams that already have
+production models are distinct from teams still before deployment. The market
 conversation shifts from why monitoring matters to how teams should monitor
 ([[person:dannyleybzon|Danny Leybzon]],
 [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
-From the people and incident-response angle, service levels and impact
-assessment happen with stakeholders, and ML incidents connect to post-mortems
+Lina Weichbrodt focuses on people and incident response, so service levels and
+impact assessment happen with stakeholders. ML incidents connect to post-mortems
 and recovery steps
 ([[person:linaweichbrodt|Lina Weichbrodt]],
 [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
 That monitoring system needs a human response path, not only metrics.
 
-From the standardization angle, monitoring is part of the minimum MLOps stack
-and a roadmap priority, and it may need to fit existing observability tools
-rather than forcing a separate ML-only stack
+Maria Vechtomova treats monitoring as part of the minimum MLOps stack and a
+roadmap priority. It may need to fit existing observability tools rather than
+forcing a separate ML-only stack
 ([[person:mariavechtomova|Maria Vechtomova]],
 [[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 
-From the adoption angle, the core challenge is keeping models deployed,
-monitored, and maintained; solving tangible pain points comes first, and
-monitoring sits alongside experiment tracking, registries, and serving in the
+Raphaël Hoogvliets focuses on adoption. The core challenge is keeping deployed
+models monitored and maintained. Solving tangible pain points comes first.
+Monitoring sits alongside experiment tracking, registries, and serving in the
 MLOps toolset
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+
+For startup validation, Evidently began with customer discovery around
+post-production model failures. Models can break without anyone noticing.
+Monitoring can disappear after data scientists leave
+[[cite:building-mlops-startup|MLOps Startup|43:59]].
+Evidently treated monitoring as both an [[MLOps]] operating practice and a
+product pain for an MLOps startup.
 
 ## Data Drift
 
@@ -99,8 +105,9 @@ The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
 break the model too.
 
-The broader data-observability view covers silent data incidents and model
-drift, plus freshness, volume, distribution, schema, and lineage
+Barr Moses covers silent data incidents and model drift. She also covers
+freshness, volume, and distribution as data reliability signals. Schema and
+lineage matter too
 ([[person:barrmoses|Barr Moses]],
 [[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
 For model monitoring, those signals help explain whether drift came from the
@@ -114,14 +121,14 @@ others, teams watch proxy metrics and human review. Customer complaints,
 business KPIs, or small experiments may provide earlier signals.
 
 Tying monitoring to real response paths covers live test sets and small
-[[a-b-testing=>A/B tests]], user feedback channels and internal bug reports, and
-prioritizing widespread user complaints
+[[a-b-testing=>A/B tests]]. It also covers user feedback channels, internal bug
+reports, and widespread user complaints
 ([[person:linaweichbrodt|Lina Weichbrodt]],
 [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
 Those signals matter when labels are late or incomplete.
 
-The maintenance view covers model selection and accuracy, variance and
-generalizability, and the move from selecting a model to maintaining it
+Ives covers model selection, accuracy, variance, and generalizability. He also
+covers the move from selecting a model to maintaining it
 ([[person:thomives|Thom Ives]],
 [[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]).
 A model can be good at release and still become the wrong model later.
@@ -129,10 +136,10 @@ A model can be good at release and still become the wrong model later.
 ## Observability
 
 Monitoring detects that something may be wrong, and observability helps a team
-explain why. The distinction is concrete through profiles, pipelines, and
-integrations: data profiling architecture with WhyLogs and a backend for storing
-profiles, plus platform-agnostic integrations because production models run
-through many serving tools
+explain why. Danny Leybzon makes the distinction concrete through profiles,
+pipelines, and integrations. His example uses data profiling architecture with
+WhyLogs and a backend for storing profiles. It also uses platform-agnostic
+integrations because production models run through many serving tools
 ([[person:dannyleybzon|Danny Leybzon]],
 [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
@@ -180,15 +187,15 @@ support
 But the product or feature team still needs to understand the model and its
 users.
 
-A similar adoption model has the MLOps team acting as an enabling platform team
-that supports product teams and ML engineers
+Hoogvliets describes the MLOps team as an enabling platform team. That team
+supports product teams and ML engineers
 ([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]). Monitoring
 belongs in that shared ownership boundary: the platform can provide the tools,
 but the model owner must interpret the business impact.
 
-Stakeholder ownership turns stakeholder concerns into mitigations and metrics,
-and uses service levels and impact assessment to decide what kind of incident
+Stakeholder ownership turns stakeholder concerns into mitigations and metrics.
+Teams use service levels and impact assessment to decide what kind of incident
 response a model needs
 ([[person:linaweichbrodt|Lina Weichbrodt]],
 [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
@@ -204,14 +211,15 @@ recreate training conditions. Alerts also need
 [[production]] practices for
 deployment, rollback, and incident response.
 
-That platform sequence runs through experiment tracking, model registries, batch
-inference, online serving, and orchestration, then metadata and lineage
+Stiebellehner's platform sequence starts with experiment tracking and model
+registries. It then runs through batch inference and online serving.
+Orchestration, metadata, and lineage come next
 ([[person:simonstiebellehner|Simon Stiebellehner]],
 [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Monitoring uses those pieces after release.
 
-The stack boundary places version control, CI/CD, and registries in one stack,
-with model registry, deployment, and monitoring in that same stack
+Vechtomova places version control, CI/CD, and registries in the same stack.
+Model registry, deployment, and monitoring belong there too
 ([[person:mariavechtomova|Maria Vechtomova]],
 [[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 Standardizing monitoring can come after teams have already solved earlier

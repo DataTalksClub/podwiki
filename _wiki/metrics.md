@@ -40,6 +40,14 @@ can mislead teams when each team measures it differently. One team may use
 account-level monthly revenue. Another may use user-level daily conversion. A
 third may use a delayed label after a support case closes.
 
+[[person:lorismarini=>Loris Marini]] makes that semantic problem explicit in
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS at 12:19-21:23]].
+His SaaS example starts with customer-success and data teams using the same
+words while picturing different product realities. Before analyzing usage, the
+team had to agree what "good usage," "customer," and "churn" meant across
+functions. Teams should treat metric design as part of
+[[business skills for data professionals]], not only SQL or dashboard work.
+
 Sroka makes this practical in
 [[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy at 12:06-30:30]].
 He moves from "measurement matters" into merit functions and comparable units.
@@ -101,6 +109,18 @@ depth. They depend on consistent event definitions, so they overlap with
 [[event tracking]],
 [[tracking plans]], and
 [[data-led-growth=>data-led growth]].
+
+Marini's SaaS example shows the product version of that dependency. A usage
+metric only became useful after the team discussed what product success meant.
+The team could define product success through feature depth, graph complexity,
+advanced feature use, or integration into customer workflows.
+
+Marini treats embedded integrations as a possible lead indicator for
+stickiness. Those integrations can connect to lower churn and higher lifetime value
+([[podcast:data-professionals-business-skills-in-saas|14:17-16:42]]).
+A leading indicator is useful only with a causal direction. The team needs to
+explain which action or condition likely moves the customer toward the next
+state.
 
 Graff's monetization example shows why product teams choose the metric before
 interpreting an experiment. One change can support one conclusion under
