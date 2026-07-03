@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Data Engineering Portfolio Projects"
-summary: "Podcast-backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
+title: "Data Engineering Portfolio"
+summary: "Build portfolio projects that show useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
 related:
   - Portfolio Projects
   - Data Engineering
@@ -16,8 +16,8 @@ related:
 ---
 
 A data engineering portfolio project turns messy source data into a reliable
-data product. The useful signal isn't the number of tools in the README. It's
-source understanding and modeled tables. It also shows SQL and Python depth,
+data product. Strong projects show source understanding and modeled tables,
+not just a long tool list in the README. They also show SQL and Python depth,
 tests, and a believable operating story.
 
 [[person:jeffkatz=>Jeff Katz]] makes that hiring screen explicit in
@@ -25,12 +25,11 @@ tests, and a believable operating story.
 where he asks for Python and SQL depth. He also asks for clean code, tests, and
 public project evidence.
 
-Use this page for the data-engineering branch of
-[[Portfolio Projects]]. The
-topic sits next to
+This is the data-engineering branch of
+[[Portfolio Projects]], connected to
 [[Data Engineering]],
-[[Data Pipelines]],
-[[DataOps]], and
+[[Data Pipelines]] and
+[[DataOps]]. It also belongs near
 [[Data Quality and Observability]].
 For a build blueprint, use
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].

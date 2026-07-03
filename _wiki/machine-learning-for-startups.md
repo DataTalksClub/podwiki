@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["guide"]
-title: "Machine Learning for Startups: Build Useful AI Without Overbuilding"
+title: "Machine Learning for Startups"
 keyword: "machine learning for startups"
 secondary_keywords:
   - "machine learning startup"
@@ -10,7 +10,7 @@ secondary_keywords:
   - "ml startups"
   - "ai and ml for startups"
   - "machine learning startup ideas"
-summary: "A startup-focused guide to applying machine learning pragmatically, with problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product-market fit."
+summary: "A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product-market fit."
 related_wiki:
   - Startups
   - Founder

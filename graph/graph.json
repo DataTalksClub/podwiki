@@ -8586,7 +8586,7 @@
       "title": "Autonomous Driving AI",
       "url": "/wiki/autonomous-driving-ai/",
       "count": 1,
-      "search": "Autonomous Driving AI How DataTalks.Club guests describe the autonomous driving AI pipeline: sensor tradeoffs, perception models, on vehicle inference, model compression, validation methodology, staged deployment, and the boundary between perception and reinforcement learning."
+      "search": "Autonomous Driving AI Autonomous driving AI across sensor choices, perception, on vehicle inference, validation, staged rollout, and career entry."
     },
     {
       "id": "wiki:batch-vs-streaming",
@@ -8993,11 +8993,11 @@
       "id": "wiki:data-engineering-manager-role",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Engineering Manager Role",
-      "title": "Data Engineering Manager Role",
+      "label": "Data Engineering Manager",
+      "title": "Data Engineering Manager",
       "url": "/wiki/data-engineering-manager-role/",
       "count": 1,
-      "search": "Data Engineering Manager Role The data engineering manager role, also searched as data engineer manager, across team scope, platform ownership, hiring, stakeholder work, architecture, reliability, and boundaries with nearby data leadership roles.",
+      "search": "Data Engineering Manager What data engineering managers own: platform priorities, stakeholder work, hiring, reliability, and boundaries with nearby data roles.",
       "keyword": "data engineering manager"
     },
     {
@@ -9015,11 +9015,11 @@
       "id": "wiki:data-engineering-portfolio-projects",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Engineering Portfolio Projects",
-      "title": "Data Engineering Portfolio Projects",
+      "label": "Data Engineering Portfolio",
+      "title": "Data Engineering Portfolio",
       "url": "/wiki/data-engineering-portfolio-projects/",
       "count": 1,
-      "search": "Data Engineering Portfolio Projects Podcast backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
+      "search": "Data Engineering Portfolio Build portfolio projects that show useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
     },
     {
       "id": "wiki:data-engineering-tools",
@@ -10113,22 +10113,22 @@
       "id": "wiki:machine-learning-for-business",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Machine Learning for Business: Where ML Helps and Where It Does Not",
-      "title": "Machine Learning for Business: Where ML Helps and Where It Does Not",
+      "label": "Machine Learning for Business",
+      "title": "Machine Learning for Business",
       "url": "/wiki/machine-learning-for-business/",
       "count": 1,
-      "search": "Machine Learning for Business: Where ML Helps and Where It Does Not A guide for business leaders and data teams deciding where machine learning can improve decisions, workflows, revenue, cost, risk, and production operations.",
+      "search": "Machine Learning for Business How to choose business ML use cases, compare baselines, check data readiness, define metrics, and plan adoption and ownership.",
       "keyword": "machine learning business"
     },
     {
       "id": "wiki:machine-learning-for-startups",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
-      "title": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
+      "label": "Machine Learning for Startups",
+      "title": "Machine Learning for Startups",
       "url": "/wiki/machine-learning-for-startups/",
       "count": 1,
-      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup focused guide to applying machine learning pragmatically, with problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
+      "search": "Machine Learning for Startups A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
     },
     {
