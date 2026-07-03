@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Mesh vs Centralized Data Platform"
+title: "Data Mesh vs Central Platform"
 keyword: "data mesh vs centralized data platform"
 secondary_keywords:
   - centralized data platform vs data mesh
   - data mesh versus centralized data platform
   - data mesh vs central data team
-summary: "How DataTalks.Club podcast guests compare domain-owned data products with centralized platform ownership through architecture, governance, self-service, reliability, and organizational maturity."
+summary: "How DataTalks.Club guests compare domain-owned data products with central platform ownership across governance, reliability, and adoption."
 related_wiki:
   - Data Mesh
   - Data Engineering Platforms
@@ -20,10 +20,10 @@ related_wiki:
   - Platform Adoption
 ---
 
-Data Mesh and a centralized data platform answer different parts of the same
-operating decision. The decision assigns ownership for data meaning and
-quality. It also assigns ownership for access, reliability, and consumer
-support. In
+Data Mesh and a centralized data platform split ownership differently. Data
+Mesh moves data meaning and quality toward domain teams. A centralized platform
+keeps more access, reliability, and consumer support in a shared platform team.
+In
 [[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]],
 [[person:zhamakdehghani=>Zhamak Dehghani]] frames
 [[Data Mesh]] as a decentralized
@@ -35,9 +35,9 @@ In
 central platform around storage, compute, and workflow engines. Self-service
 analytics, lineage, and versioning sit in the same platform discussion.
 
-These episodes frame the choice as an ownership boundary, not as modern versus
-old. A Data Mesh moves product accountability toward domains that understand
-the data. A centralized
+Together, these episodes frame the choice as an ownership boundary, not as
+modern versus old. A Data Mesh moves product accountability toward domains that
+understand the data. A centralized
 [[data-engineering-platforms=>Data Engineering Platform]]
 keeps more implementation, governance, and operating discipline in a shared
 team.
@@ -335,4 +335,3 @@ threads in this comparison.
 - [[Platform Adoption]]
 - [[Platform Engineering]]
 - [[Modern Data Stack]]
-

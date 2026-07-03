@@ -9065,22 +9065,22 @@
       "id": "wiki:data-mesh-vs-centralized-data-platform",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Mesh vs Centralized Data Platform",
-      "title": "Data Mesh vs Centralized Data Platform",
+      "label": "Data Mesh vs Central Platform",
+      "title": "Data Mesh vs Central Platform",
       "url": "/wiki/data-mesh-vs-centralized-data-platform/",
       "count": 1,
-      "search": "Data Mesh vs Centralized Data Platform How DataTalks.Club podcast guests compare domain owned data products with centralized platform ownership through architecture, governance, self service, reliability, and organizational maturity.",
+      "search": "Data Mesh vs Central Platform How DataTalks.Club guests compare domain owned data products with central platform ownership across governance, reliability, and adoption.",
       "keyword": "data mesh vs centralized data platform"
     },
     {
       "id": "wiki:data-observability-for-data-engineering",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Observability for Data Engineering",
-      "title": "Data Observability for Data Engineering",
+      "label": "Data Observability Guide",
+      "title": "Data Observability Guide",
       "url": "/wiki/data-observability-for-data-engineering/",
       "count": 1,
-      "search": "Data Observability for Data Engineering A podcast backed guide to data observability for data engineering teams: freshness, volume, schema, distribution, lineage, ownership, runbooks, and downstream impact.",
+      "search": "Data Observability Guide How data engineering teams use freshness, volume, schema, lineage, ownership, and runbooks to reduce data downtime.",
       "keyword": "data observability for data engineering"
     },
     {
@@ -9092,6 +9092,17 @@
       "url": "/wiki/data-pipelines/",
       "count": 1,
       "search": "Data Pipelines Podcast grounded guide to data pipelines as movement, transformation, publication, and operations across ingestion, orchestration, testing, recovery, batch, streaming, CDC, and ML handoffs."
+    },
+    {
+      "id": "wiki:data-product-manager-vs-product-manager",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data PM vs Product Manager",
+      "title": "Data PM vs Product Manager",
+      "url": "/wiki/data-product-manager-vs-product-manager/",
+      "count": 1,
+      "search": "Data PM vs Product Manager How product managers and data PMs differ on ownership, technical literacy, metrics, data quality, governance, and adoption.",
+      "keyword": "data product manager vs product manager"
     },
     {
       "id": "wiki:data-product-adoption",
@@ -9107,11 +9118,11 @@
       "id": "wiki:data-product-intake-and-prioritization",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Product Intake and Prioritization",
-      "title": "Data Product Intake and Prioritization",
+      "label": "Data Product Intake",
+      "title": "Data Product Intake",
       "url": "/wiki/data-product-intake-and-prioritization/",
       "count": 1,
-      "search": "Data Product Intake and Prioritization How DataTalks.Club guests turn stakeholder requests into scoped data products through intake, KPI framing, feasibility checks, pilots, and production handoff."
+      "search": "Data Product Intake How teams scope data product requests with KPI framing, feasibility checks, pilots, and production handoff before committing delivery."
     },
     {
       "id": "wiki:data-product-management",
@@ -9146,25 +9157,14 @@
       "keyword": "data product manager roadmap"
     },
     {
-      "id": "wiki:data-product-manager-vs-product-manager",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Product Manager vs Product Manager",
-      "title": "Data Product Manager vs Product Manager",
-      "url": "/wiki/data-product-manager-vs-product-manager/",
-      "count": 1,
-      "search": "Data Product Manager vs Product Manager A comparison of product manager and data product manager responsibilities, role boundaries, technical literacy, metrics, and adoption work.",
-      "keyword": "data product manager vs product manager"
-    },
-    {
       "id": "wiki:data-product-owner-vs-data-product-manager",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Product Owner vs Data Product Manager",
-      "title": "Data Product Owner vs Data Product Manager",
+      "label": "Data Product Owner vs Manager",
+      "title": "Data Product Owner vs Manager",
       "url": "/wiki/data-product-owner-vs-data-product-manager/",
       "count": 1,
-      "search": "Data Product Owner vs Data Product Manager A podcast grounded comparison of data product owner and data product manager responsibilities, decision rights, guarantees, roadmaps, technical literacy, and adoption work.",
+      "search": "Data Product Owner vs Manager Compare data product owner and data product manager responsibilities, decision rights, guarantees, roadmaps, technical literacy, and adoption work.",
       "keyword": "data product owner vs data product manager"
     },
     {

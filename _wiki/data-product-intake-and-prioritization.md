@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Data Product Intake and Prioritization"
-summary: "How DataTalks.Club guests turn stakeholder requests into scoped data products through intake, KPI framing, feasibility checks, pilots, and production handoff."
+title: "Data Product Intake"
+summary: "How teams scope data product requests with KPI framing, feasibility checks, pilots, and production handoff before committing delivery."
 related:
   - Data Product Management
   - Data Products
@@ -13,15 +13,13 @@ related:
   - A/B Testing
 ---
 
-Data product intake and prioritization is the operating layer between an
-unstructured stakeholder request and a committed [[data-products|data product]].
-It decides what problem enters the funnel and which
-[[KPIs]] or
-[[metrics]] define success. It also sets
-the feasibility checks before delivery and gives the team a way to say no,
-defer, or run a smaller experiment.
+Data product intake turns an unstructured stakeholder request into a scoped
+[[data-products|data product]] commitment. Teams decide which problem enters
+the funnel and which [[KPIs]] or [[metrics]] define success. They also set the
+feasibility checks and choose when to say no, defer, or run a smaller
+experiment.
 
-Use this page with [[Data Product Management]],
+For role and artifact context, use this page with [[Data Product Management]],
 [[Data Products]], and
 [[Data Product Adoption]].
 Those pages cover the product role, the maintained artifact, and adoption in
