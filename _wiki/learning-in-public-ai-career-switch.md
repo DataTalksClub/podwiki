@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Learning in Public for AI Career Switches"
-summary: "How public learning turns course progress, notes, side projects, meetups, and community participation into career infrastructure for AI and ML transitions."
+title: "Public Learning for AI Careers"
+summary: "Use course notes, projects, meetups, and community work to make AI and ML career switches visible to peers, recruiters, and mentors."
 related:
   - Community Building
   - Open Source Portfolio Evidence
@@ -14,11 +14,11 @@ related:
   - AI Engineering Portfolio Projects
 ---
 
-Learning in public for AI career switches makes the switch visible while it's
-still in progress. In the DataTalks.Club episodes here, it doesn't mean posting
-polished thought leadership after the fact. The infrastructure includes
-coursework and notes. It also includes small projects, Slack answers, meetups,
-and conference participation. That work supports a move toward
+Learning in public for an AI career switch means making the switch visible
+while it's still in progress. Guests in these DataTalks.Club episodes make
+progress visible through coursework and notes. They also use small projects,
+Slack answers, meetups, and conference participation. They aren't posting
+polished thought leadership after the fact. That visible work supports a move toward
 [[AI engineering]],
 [[machine learning]], or adjacent
 data roles.

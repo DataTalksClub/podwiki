@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Freelance Data Engineering and Consulting"
-summary: "DataTalks.Club guest guidance for freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+title: "Freelance Data Consulting"
+summary: "How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products."
 related:
   - Career Transitions in Data
   - Business Skills for Data Professionals
@@ -9,15 +9,14 @@ related:
   - Data Engineering Portfolio Projects
 ---
 
-DataTalks.Club guests treat freelance data engineering, data consulting, and
-consultant-style AI work as more than a career-label change. They describe a
-small services business around data problems. The work includes client
-acquisition, pricing risk, scope control, and delivery. It also includes
-decisions about whether to stay independent, grow an agency, or turn repeated
-pain into a product.
+Freelance data engineering, data consulting, and consultant-style AI work are
+small services businesses built around client data problems. Freelancers still
+need to find clients, price risk, control scope, and deliver the work. They
+also decide whether to stay independent, grow an agency, or turn repeated pain
+into a product.
 
-[[person:adrianbrudaru=>Adrian Brudaru]] gives the most
-direct data engineering version in
+The clearest data engineering example is
+[[person:adrianbrudaru=>Adrian Brudaru]]'s
 [[podcast:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 He moved from startup and corporate work into freelancing through a recruiter.
 His projects included legacy cleanup,
@@ -25,16 +24,16 @@ His projects included legacy cleanup,
 science work, and a warehouse build that later led to hiring an internal data
 team.
 
-[[person:dimitrivisnadi=>Dimitri Visnadi]] adds the
-analytics and strategy side in
+The analytics and strategy examples come from
+[[person:dimitrivisnadi=>Dimitri Visnadi]] in
 [[podcast:becoming-data-freelancer=>Becoming a Data Freelancer]]
 and
 [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 He treats freelancing as a business that needs market research, outreach, rate
 benchmarking, and client retention.
 
-[[person:orellgarten=>Orell Garten]] shows the
-engineering-transition path in
+The engineering-transition path comes from
+[[person:orellgarten=>Orell Garten]] in
 [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 where research and simulation experience led to startup work. A later LinkedIn
 lead helped him move into freelance data engineering.

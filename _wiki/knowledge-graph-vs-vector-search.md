@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Knowledge Graph vs Vector Search"
+title: "Graph vs Vector Search"
 keyword: "knowledge graph vs vector search"
 secondary_keywords:
   - knowledge graph versus vector search
   - vector search vs knowledge graph
   - knowledge graph vs vector database
-summary: "How DataTalks.Club podcast guests compare explicit graph relationships with embedding-based retrieval for search, RAG, and domain knowledge systems."
+summary: "Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design."
 related_wiki:
   - Search
   - Retrieval-Augmented Generation
@@ -53,9 +53,8 @@ constraints, provenance, or lineage.
 Use hybrid retrieval when semantic recall finds candidates and graph structure
 adds the relationships or constraints that make the answer trustworthy.
 
-Start here when choosing the retrieval substrate.
-[[Graph RAG vs Vector RAG]] covers how those
-retrieval choices package context for an LLM. [Vector Database vs Search
+[[Graph RAG vs Vector RAG]] covers how graph and vector retrieval choices
+package context for an LLM. [Vector Database vs Search
 Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 covers whether vector retrieval belongs in a dedicated vector store or an
 existing [[search]] stack.

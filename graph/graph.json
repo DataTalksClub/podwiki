@@ -9699,11 +9699,11 @@
       "id": "wiki:freelance",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Freelance Data Engineering and Consulting",
-      "title": "Freelance Data Engineering and Consulting",
+      "label": "Freelance Data Consulting",
+      "title": "Freelance Data Consulting",
       "url": "/wiki/freelance/",
       "count": 1,
-      "search": "Freelance Data Engineering and Consulting DataTalks.Club guest guidance for freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+      "search": "Freelance Data Consulting How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products."
     },
     {
       "id": "wiki:game-ai-to-llm-agents",
@@ -9767,14 +9767,25 @@
       "keyword": "graph rag vs vector rag"
     },
     {
+      "id": "wiki:knowledge-graph-vs-vector-search",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Graph vs Vector Search",
+      "title": "Graph vs Vector Search",
+      "url": "/wiki/knowledge-graph-vs-vector-search/",
+      "count": 1,
+      "search": "Graph vs Vector Search Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design.",
+      "keyword": "knowledge graph vs vector search"
+    },
+    {
       "id": "wiki:healthcare-ml-validation-and-adoption",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Healthcare ML Validation and Adoption",
-      "title": "Healthcare ML Validation and Adoption",
+      "label": "Healthcare ML Validation",
+      "title": "Healthcare ML Validation",
       "url": "/wiki/healthcare-ml-validation-and-adoption/",
       "count": 1,
-      "search": "Healthcare ML Validation and Adoption How DataTalks.Club podcast discussions frame healthcare ML around clinical validation, workflow adoption, explainability, regulation, scarce labels, low resource deployment, monitoring, and feedback."
+      "search": "Healthcare ML Validation Clinical validation, workflow adoption, explainability, privacy, scarce labels, deployment, and monitoring for healthcare ML."
     },
     {
       "id": "wiki:hiring",
@@ -9881,17 +9892,6 @@
       "search": "Job Search DataTalks.Club guest tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
     },
     {
-      "id": "wiki:knowledge-graph-vs-vector-search",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Knowledge Graph vs Vector Search",
-      "title": "Knowledge Graph vs Vector Search",
-      "url": "/wiki/knowledge-graph-vs-vector-search/",
-      "count": 1,
-      "search": "Knowledge Graph vs Vector Search How DataTalks.Club podcast guests compare explicit graph relationships with embedding based retrieval for search, RAG, and domain knowledge systems.",
-      "keyword": "knowledge graph vs vector search"
-    },
-    {
       "id": "wiki:kpis",
       "type": "wiki",
       "collection": "wiki",
@@ -9921,16 +9921,6 @@
       "count": 1,
       "search": "Lean MLOps for Startups A startup stage roadmap for lean MLOps: SaaS first choices, portable foundations, manual controls, versioning, evaluation, monitoring, and the point where shared infrastructure starts to pay off.",
       "keyword": "lean mlops for startups"
-    },
-    {
-      "id": "wiki:learning-in-public-ai-career-switch",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Learning in Public for AI Career Switches",
-      "title": "Learning in Public for AI Career Switches",
-      "url": "/wiki/learning-in-public-ai-career-switch/",
-      "count": 1,
-      "search": "Learning in Public for AI Career Switches How public learning turns course progress, notes, side projects, meetups, and community participation into career infrastructure for AI and ML transitions."
     },
     {
       "id": "wiki:llm-rag-production-roadmap",
@@ -10044,17 +10034,6 @@
       "url": "/wiki/machine-learning/",
       "count": 1,
       "search": "Machine Learning How DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
-    },
-    {
-      "id": "wiki:machine-learning-engineer-roadmap",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning Engineer Roadmap",
-      "title": "Machine Learning Engineer Roadmap",
-      "url": "/wiki/machine-learning-engineer-roadmap/",
-      "count": 1,
-      "search": "Machine Learning Engineer Roadmap A roadmap for becoming a machine learning engineer, from problem framing and baselines to production ML systems, monitoring, and MLOps.",
-      "keyword": "machine learning engineer roadmap"
     },
     {
       "id": "wiki:machine-learning-engineer-role",
@@ -10209,6 +10188,17 @@
       "url": "/wiki/ml-consulting-proposals/",
       "count": 1,
       "search": "ML Consulting Proposals How DataTalks.Club guests scope machine learning consulting work: discovery calls, feasibility checks, written proposals, pricing, trust, prototypes, workshops, mentoring, delivery risk, and cases where ML should not be sold."
+    },
+    {
+      "id": "wiki:machine-learning-engineer-roadmap",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Engineer Roadmap",
+      "title": "ML Engineer Roadmap",
+      "url": "/wiki/machine-learning-engineer-roadmap/",
+      "count": 1,
+      "search": "ML Engineer Roadmap Build an ML engineer path through baselines, Python and SQL, production projects, system design, MLOps, monitoring, and incident habits.",
+      "keyword": "machine learning engineer roadmap"
     },
     {
       "id": "wiki:machine-learning-for-software-engineers",
@@ -10699,6 +10689,16 @@
       "url": "/wiki/prompt-injection-and-chatbot-risk-management/",
       "count": 1,
       "search": "Prompt Injection and Chatbot Risk Management How production chatbot teams manage prompt injection, retrieval abuse, data exfiltration, hallucinations, legal exposure, layered defenses, red team evaluation, and non LLM safety classifiers."
+    },
+    {
+      "id": "wiki:learning-in-public-ai-career-switch",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Public Learning for AI Careers",
+      "title": "Public Learning for AI Careers",
+      "url": "/wiki/learning-in-public-ai-career-switch/",
+      "count": 1,
+      "search": "Public Learning for AI Careers Use course notes, projects, meetups, and community work to make AI and ML career switches visible to peers, recruiters, and mentors."
     },
     {
       "id": "wiki:qa-to-ml-and-data-engineering",
