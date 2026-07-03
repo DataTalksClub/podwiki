@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Entity Resolution"
-summary: "How DataTalks.Club podcast discussions explain entity resolution, identity resolution, matching, record linkage, and the data product tradeoffs behind trusted customer, supplier, fraud, and public-data views."
+summary: "Entity resolution connects matching, identity resolution, record linkage, and trusted data products across customer and public-data use cases."
 related:
   - Customer Data Platforms
   - Data Products

@@ -9532,7 +9532,7 @@
       "title": "DuckDB",
       "url": "/wiki/duckdb/",
       "count": 1,
-      "search": "DuckDB How DataTalks.Club podcast guests place DuckDB in local OLAP, Parquet analytics, cost aware pipelines, GitHub Actions workflows, headless table formats, and practical data engineering prototypes."
+      "search": "DuckDB How podcast guests use DuckDB for local OLAP, Parquet analytics, lean discovery, low cost batch jobs, and lakehouse experiments."
     },
     {
       "id": "wiki:elt",
@@ -9562,7 +9562,7 @@
       "title": "Entity Resolution",
       "url": "/wiki/entity-resolution/",
       "count": 1,
-      "search": "Entity Resolution How DataTalks.Club podcast discussions explain entity resolution, identity resolution, matching, record linkage, and the data product tradeoffs behind trusted customer, supplier, fraud, and public data views."
+      "search": "Entity Resolution Entity resolution connects matching, identity resolution, record linkage, and trusted data products across customer and public data use cases."
     },
     {
       "id": "wiki:entrepreneurship",
@@ -9623,7 +9623,7 @@
       "title": "Evolutionary Algorithms",
       "url": "/wiki/evolutionary-algorithms/",
       "count": 1,
-      "search": "Evolutionary Algorithms How DataTalks.Club podcast discussions connect evolutionary algorithms to game AI, evolutionary deep learning, prompt search, optimization, and modern agent systems."
+      "search": "Evolutionary Algorithms How podcast discussions connect evolutionary algorithms to game AI, evolutionary deep learning, prompt search, optimization, and agent systems."
     },
     {
       "id": "wiki:experiment-tracking",
@@ -9723,7 +9723,7 @@
       "title": "Game AI to LLM Agents",
       "url": "/wiki/game-ai-to-llm-agents/",
       "count": 1,
-      "search": "Game AI to LLM Agents How Micheal Lanham connects game AI, reinforcement learning, evolutionary algorithms, multi agent workflows, NPC behavior, support assistants, and modern LLM agents."
+      "search": "Game AI to LLM Agents How Micheal Lanham connects game AI, reinforcement learning, multi agent workflows, support assistants, and modern LLM agents."
     },
     {
       "id": "wiki:generative-ai",
@@ -9753,7 +9753,7 @@
       "title": "Governance",
       "url": "/wiki/governance/",
       "count": 1,
-      "search": "Governance How DataTalks.Club guests connect governance across data, ML, and AI systems through ownership, access, review, release controls, privacy, security, and accountability."
+      "search": "Governance Governance ties ownership, access, review, release controls, privacy, security, and accountability across data, ML, and AI systems."
     },
     {
       "id": "wiki:graph-data-science",
@@ -9763,7 +9763,7 @@
       "title": "Graph Data Science",
       "url": "/wiki/graph-data-science/",
       "count": 1,
-      "search": "Graph Data Science Graph data science uses nodes, edges, paths, similarity, clustering, centrality, and graph aware machine learning to analyze relationship heavy systems such as crash simulations, microbiomes, scientific papers, and knowledge grounded LLM workflows."
+      "search": "Graph Data Science Graph data science applies graph algorithms and ML to relationship heavy podcast cases: crash simulation, microbiome networks, entity links, and Graph RAG."
     },
     {
       "id": "wiki:graph-rag-vs-vector-rag",

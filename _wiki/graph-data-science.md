@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Graph Data Science"
-summary: "Graph data science uses nodes, edges, paths, similarity, clustering, centrality, and graph-aware machine learning to analyze relationship-heavy systems such as crash simulations, microbiomes, scientific papers, and knowledge-grounded LLM workflows."
+summary: "Graph data science applies graph algorithms and ML to relationship-heavy podcast cases: crash simulation, microbiome networks, entity links, and Graph RAG."
 related:
   - Knowledge Graph vs Vector Search
   - Graph RAG vs Vector RAG

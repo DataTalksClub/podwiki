@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DuckDB"
-summary: "How DataTalks.Club podcast guests place DuckDB in local OLAP, Parquet analytics, cost-aware pipelines, GitHub Actions workflows, headless table formats, and practical data engineering prototypes."
+summary: "How podcast guests use DuckDB for local OLAP, Parquet analytics, lean discovery, low-cost batch jobs, and lakehouse experiments."
 related:
   - Data Engineering Platforms
   - Apache Iceberg
@@ -12,8 +12,8 @@ related:
 ---
 
 DuckDB is an embeddable local OLAP engine. It can run close to files and Python
-code without requiring a separate warehouse service, sitting next to open table
-formats and connecting to catalogs and cheaper orchestration options
+code without requiring a separate warehouse service. Podcast discussions place
+it next to open table formats, catalogs, and cheaper orchestration options
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
 This places DuckDB inside the
@@ -22,8 +22,8 @@ conversation, not only beside laptop analytics. It also belongs beside
 [[Apache Iceberg]],
 [[Data Lake]], and the
 [[Data Warehouse vs Data Lakehouse]]
-comparison, as a portable access layer over files, lakes, and table-format
-experiments.
+comparison. There it works as a portable access layer over files, lakes, and
+table-format experiments.
 
 ## Definition
 
@@ -50,8 +50,9 @@ The main DuckDB episode is
 [[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 with [[person:adrianbrudaru|Adrian Brudaru]]. It covers
 [[Apache Iceberg]]
-as a Parquet-backed table format, catalogs, metadata, and lineage, DuckDB as
-embeddable local OLAP, and GitHub Actions as a low-cost workflow option.
+as a Parquet-backed table format with catalogs, metadata, and lineage. It also
+covers DuckDB as embeddable local OLAP, plus GitHub Actions as a low-cost
+workflow option.
 
 [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 adds the practitioner version. Local analysis and CSV-first discovery come
@@ -63,7 +64,7 @@ Two older episodes explain why this local and file layer matters.
 covers Parquet on S3 and Docker jobs, and recommends simple proof-of-concept
 work before heavier infrastructure. In
 [[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
-data engineers and data scientists collaborate through files; Parquet can serve
+data engineers and data scientists collaborate through files. Parquet can serve
 that boundary even when the teams use different languages or tools.
 
 For a tool-category overview, the
@@ -98,14 +99,14 @@ table format over Parquet storage, where catalogs map that data to compute
 DuckDB then becomes one compute path over local or lake-backed data, rather than
 the data owner.
 
-An older collaboration model shows big data engineers often working with Avro,
-Parquet, and ProtoBuf rather than only JSON or CSV, while data scientists
+An older collaboration model shows big data engineers working with Avro,
+Parquet, and ProtoBuf rather than only JSON or CSV. Data scientists can then
 consume Parquet files from Python without entering the data engineering codebase
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 DuckDB makes that file boundary easier to query with SQL, especially when the
 work starts on one machine.
 
-Cloud storage adds context through Parquet files on S3 and Docker jobs that read
+Cloud storage adds context through Parquet files on S3. Docker jobs can read
 from a data lake and write results elsewhere
 ([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]).
 DuckDB can be part of that family of bounded processors when the data size,
@@ -128,9 +129,8 @@ serve as one compute engine for small transformations. It can also fit
 validation, local exploration, and cost-sensitive batch jobs
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
-DuckDB also connects to headless table formats, providing a local access layer
-that's useful for data pipelines, alongside DLT work on headless Delta Lake and
-Iceberg
+DuckDB also connects to headless table formats. It provides a local access layer
+for data pipelines, alongside DLT work on headless Delta Lake and Iceberg
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 In that design, storage and table metadata stay open while compute can move
 between local jobs, GitHub Actions, and larger engines.
@@ -140,8 +140,8 @@ between local jobs, GitHub Actions, and larger engines.
 Consulting practice gives the clearest reason not to overbuild around DuckDB.
 Client work starts by figuring out what data exists, how to access it, and what
 problem the client wants solved. Pulling one day or one period of files onto a
-computer for local analysis comes first; automated ingestion and scheduled
-processing come only after
+computer for local analysis comes first. The team adds automated ingestion and
+scheduled processing only after that
 ([[podcast:from-academic-research-to-data-engineering-freelancing|From Academic Research to Lean Data Consulting]]).
 
 DuckDB fits that lean discovery phase because it's easy to try and needs no
@@ -167,14 +167,14 @@ and [[Data Warehouse vs Data Lakehouse]].
 The same is true when teams need catalog discovery, role-based permissions, and
 BI integration.
 
-Catalogs make that boundary explicit: they map data to compute and manage access
-control, and some also handle metadata and lineage
+Catalogs make that boundary explicit because they map data to compute and manage
+access control. Some also handle metadata and lineage
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
 DuckDB is also not a reason to skip pipeline discipline. Learners shouldn't start
-with Kubernetes and Airflow on huge datasets, but production work still runs
-through ingestion and processing, along with storage, visualization, scheduling,
-and serving decisions
+with Kubernetes and Airflow on huge datasets. Production work still has to cover
+ingestion and processing. It also has to cover storage, visualization,
+scheduling, and serving decisions
 ([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]).
 
 DuckDB can simplify one processing layer. It doesn't remove the need to test
@@ -182,7 +182,7 @@ outputs, rerun jobs, and explain who consumes the result.
 
 DuckDB is also not automatically the right answer for strict streaming or
 large distributed workloads. It's a downstream processing option next to tools
-such as Flink, and streaming is often micro-batching unless strict SLAs require a
+such as Flink. Streaming is often micro-batching unless strict SLAs require a
 stricter architecture
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
