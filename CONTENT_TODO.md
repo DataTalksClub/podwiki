@@ -356,7 +356,7 @@ Start with this batch when expanding the content set.
   Slack, or generic navigation queries.
 - The 2026-07-01 five-agent keyword-gap batch strengthened
   `_wiki/data-engineer-roadmap.md`,
-  `_wiki/data-engineering-consulting.md`,
+  `_wiki/freelance.md`,
   `_wiki/data-science-for-managers.md`, and
   `_wiki/ai-powered-business-intelligence.md`, and improved
   `_wiki/machine-learning-for-startups.md`. Future work should extend these
@@ -371,7 +371,7 @@ Start with this batch when expanding the content set.
   families.
 - The 2026-07-01 keyword-alias improvement batch strengthened
   `_wiki/data-engineer-roadmap.md`,
-  `_wiki/data-engineering-consulting.md`,
+  `_wiki/freelance.md`,
   `_wiki/data-science-recruiter.md`,
   `_wiki/machine-learning-for-software-engineers.md`, and
   `_wiki/dataops.md` for existing Ubersuggest variants. Future work should

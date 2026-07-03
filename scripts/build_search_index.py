@@ -24,6 +24,14 @@ from zerosearch import Index  # noqa: E402
 DEFAULT_CORPUS = ROOT / "artifacts" / "search" / "search-corpus.json"
 DEFAULT_BROWSER_CORPUS = ROOT / "search" / "search-corpus.json"
 DEFAULT_INDEX = ROOT / "artifacts" / "search" / "search-index.zsx"
+TAGGED_WIKI_LEVELS = {
+    "comparison": "comparison",
+    "guide": "guide",
+    "roadmap": "roadmap",
+    "transition": "transition",
+    "how-to": "how_to",
+    "how_to": "how_to",
+}
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/"),
     "_guides": ("guide", "/guides/"),
@@ -33,6 +41,20 @@ COLLECTIONS = {
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
     "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),
+}
+
+BOILERPLATE_SECTION_HEADINGS = {
+    "related pages",
+    "related topics",
+    "related pages and next steps",
+    "chapter headers",
+    "source",
+    "source file",
+    "source files",
+    "source pointers",
+    "key concepts",
+    "useful for",
+    "probably skip if",
 }
 
 
@@ -138,6 +160,27 @@ def as_list(value: object) -> list[str]:
     return []
 
 
+def tagged_wiki_level(meta: dict[str, object]) -> str | None:
+    for tag in as_list(meta.get("tags")):
+        normalized = tag.strip().lower()
+        if normalized in TAGGED_WIKI_LEVELS:
+            return TAGGED_WIKI_LEVELS[normalized]
+    return None
+
+
+def canonical_url(level: str, slug: str, source_url: str = "") -> str:
+    source_url = source_url.strip()
+    if source_url:
+        return source_url
+    if level == "podcast_summary":
+        return f"https://datatalks.club/podcast/{slug}.html"
+    if level == "person":
+        return f"https://datatalks.club/people/{slug}.html"
+    if level == "book":
+        return f"https://datatalks.club/books/{slug}.html"
+    return ""
+
+
 def metadata_text(meta: dict[str, object], level: str) -> str:
     fields = ["keyword", "collection", "source_episode"]
     list_fields = [
@@ -166,6 +209,8 @@ def section_docs(body: str, base: dict, url: str, external: bool = False) -> lis
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(body)
         heading = plain_text(match.group(2))
+        if heading.strip().lower() in BOILERPLATE_SECTION_HEADINGS:
+            continue
         text = plain_text(body[start:end])
         if not heading or len(text) < 80:
             continue
@@ -190,7 +235,7 @@ def section_docs(body: str, base: dict, url: str, external: bool = False) -> lis
 
 def build_docs() -> list[dict]:
     docs: list[dict] = []
-    for directory, (level, prefix) in COLLECTIONS.items():
+    for directory, (base_level, prefix) in COLLECTIONS.items():
         collection_dir = ROOT / directory
         if not collection_dir.exists():
             continue
@@ -202,13 +247,16 @@ def build_docs() -> list[dict]:
             if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
                 continue
             slug = source_slug(path)
+            level = tagged_wiki_level(meta) if directory == "_wiki" else None
+            if not level:
+                level = base_level
             title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
             # podcast/book/person pages are not published locally; point search
             # results at the canonical main-site URL from front matter.
             canonical = str(meta.get("source_url") or "").strip()
-            external = level in {"podcast_summary", "book", "person"} and bool(canonical)
-            url = canonical if external else f"{prefix}{slug}/"
+            external = level in {"podcast_summary", "book", "person"}
+            url = canonical_url(level, slug, canonical) if external else f"{prefix}{slug}/"
             related_terms = metadata_text(meta, level)
             base = {
                 "id": f"{level}:{slug}",

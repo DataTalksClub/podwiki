@@ -29,6 +29,7 @@
     guide: "Guide",
     comparison: "Comparison",
     roadmap: "Roadmap",
+    transition: "Transition",
     how_to: "How-To",
   };
   const LEGEND = [

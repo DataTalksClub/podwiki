@@ -7,9 +7,9 @@ permalink: /graph.html
 # Podcast Graph
 
 Start from any page and explore what it connects to across the DataTalks.Club
-podcast archive — wiki topics, guides, comparisons, roadmaps, how-tos, people,
-topics, podcasts, and books. Click any connection to move to it and keep
-exploring.
+podcast archive. The graph includes wiki topics and typed content pages. It
+also includes people, podcasts, and books. Click any connection to move to it
+and keep exploring.
 
 <section class="graph-controls" aria-label="Graph controls">
   <div class="graph-search">

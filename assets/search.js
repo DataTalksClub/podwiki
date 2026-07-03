@@ -39,9 +39,20 @@
   }
 
   function badgeFor(item) {
+    const labels = {
+      wiki: "Wiki",
+      guide: "Guide",
+      comparison: "Comparison",
+      roadmap: "Roadmap",
+      transition: "Transition",
+      how_to: "How-To",
+      podcast_summary: "Podcast",
+      person: "Person",
+      book: "Book",
+    };
     if (item.level === "segment") return "Segment";
     if (item.document_type === "section" || item.level === "section") return "Section";
-    return String(item.level || "page").replaceAll("_", " ");
+    return labels[item.level] || String(item.level || "page").replaceAll("_", " ");
   }
 
   function metaFor(item) {

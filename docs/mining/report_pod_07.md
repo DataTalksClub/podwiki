@@ -59,7 +59,7 @@ Cited in 8 pages (consulting/freelance/solopreneur).
 | Customer validation & user interviews before building | data-product-management, machine-learning-for-startups | CONNECTION | machine-learning-for-startups.md | 9:08, 12:53, 15:55 |
 | Lesson from a failed product: premature build, market-size misjudgment | founder, machine-learning-for-startups | CONNECTION | founder.md | 18:01 |
 | Network-first client acquisition; positioning/messaging | data-freelancing-strategy (cites), freelance | already covered | data-freelancing-strategy.md | 27:59, 37:03 |
-| Consulting over product to capture data-modeling value | data-engineering-consulting (cites) | already covered | data-engineering-consulting.md | 21:39, 22:42 |
+| Consulting over product to capture data-modeling value | freelance (cites) | already covered | freelance.md | 21:39, 22:42 |
 
 ## data-professionals-business-skills-in-saas (Loris Marini, S12E2)
 Cited in 6 pages.

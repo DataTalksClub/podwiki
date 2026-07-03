@@ -1,7 +1,7 @@
 ---
 layout: wiki
 tags: ["roadmap"]
-title: "Data Scientist Interview Prep"
+title: "Data Scientist Interview Plan"
 summary: "Prepare for data scientist interviews by targeting the right role, proving CV and project impact, and practicing screens, cases, stories, and offers."
 related:
   - Data Scientist Role
@@ -9,6 +9,7 @@ related:
   - Job Search
   - Hiring
   - CV Screening
+  - Data Scientist CV and Portfolio
   - Machine Learning System Design
   - Machine Learning Portfolio Projects
 ---

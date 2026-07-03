@@ -14,6 +14,15 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "graph" / "graph.json"
 
+TAGGED_WIKI_COLLECTIONS = {
+    "comparison": "comparison",
+    "guide": "guide",
+    "roadmap": "roadmap",
+    "transition": "transition",
+    "how-to": "how_to",
+    "how_to": "how_to",
+}
+
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/", "wiki"),
     "_guides": ("article", "/guides/", "guide"),
@@ -162,6 +171,27 @@ def node_id(node_type: str, id_scope: str, slug: str) -> str:
     return f"{node_type}:{slug}"
 
 
+def tagged_wiki_collection(meta: dict[str, object]) -> str | None:
+    for tag in as_list(meta.get("tags")):
+        normalized = tag.strip().lower()
+        if normalized in TAGGED_WIKI_COLLECTIONS:
+            return TAGGED_WIKI_COLLECTIONS[normalized]
+    return None
+
+
+def canonical_url(node_type: str, slug: str, source_url: str = "") -> str:
+    source_url = source_url.strip()
+    if source_url:
+        return source_url
+    if node_type == "podcast":
+        return f"https://datatalks.club/podcast/{slug}.html"
+    if node_type == "person":
+        return f"https://datatalks.club/people/{slug}.html"
+    if node_type == "book":
+        return f"https://datatalks.club/books/{slug}.html"
+    return ""
+
+
 def read_pages() -> list[dict[str, object]]:
     pages = []
     for directory, (node_type, prefix, id_scope) in COLLECTIONS.items():
@@ -176,18 +206,29 @@ def read_pages() -> list[dict[str, object]]:
             if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
                 continue
             slug = source_slug(path)
+            page_type = node_type
+            collection = id_scope
+            page_id = node_id(page_type, collection, slug)
+            if directory == "_wiki":
+                tagged_collection = tagged_wiki_collection(meta)
+                if tagged_collection:
+                    page_type = "article"
+                    collection = tagged_collection
+                    # Tagged pages are still served from /wiki/<slug>/, so keep
+                    # stable wiki-style ids for existing internal graph links.
+                    page_id = node_id("wiki", "wiki", slug)
             title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
             canonical = str(meta.get("source_url") or "").strip()
-            if node_type in CANONICAL_NODE_TYPES and canonical:
-                url = canonical
+            if page_type in CANONICAL_NODE_TYPES:
+                url = canonical_url(page_type, slug, canonical)
             else:
                 url = f"{prefix}{slug}/"
             pages.append(
                 {
-                    "id": node_id(node_type, id_scope, slug),
-                    "type": node_type,
-                    "collection": id_scope,
+                    "id": page_id,
+                    "type": page_type,
+                    "collection": collection,
                     "slug": slug,
                     "title": title,
                     "label": title,
@@ -392,6 +433,7 @@ def build_graph() -> dict[str, object]:
             "guides": article_counts["guide"],
             "comparisons": article_counts["comparison"],
             "roadmaps": article_counts["roadmap"],
+            "transitions": article_counts["transition"],
             "how_tos": article_counts["how_to"],
             "podcasts": counts["podcast"],
             "persons": counts["person"],

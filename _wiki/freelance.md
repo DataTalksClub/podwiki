@@ -1,6 +1,15 @@
 ---
 layout: wiki
 title: "Freelance Data Consulting"
+keyword: "data engineering consulting"
+secondary_keywords:
+  - "data engineer consulting"
+  - "data engineer consultant"
+  - "data engineering consultant"
+  - "freelancing data engineer"
+  - "freelance data engineering"
+  - "freelance data engineers"
+  - "data engineer freelance"
 summary: "How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products."
 related:
   - Career Transitions in Data
@@ -236,6 +245,16 @@ and rates with caring about the client's outcome. Around 58:53, he says a
 freelancer with multiple clients must set availability expectations before the
 client assumes instant response times.
 
+For [[ml-consulting-proposals=>ML consulting]],
+[[person:mikiobraun=>Mikio Braun]] uses a similar written-alignment habit. He
+writes down the client problem, the work he can provide, and the fee structure
+before sending an offer. The client can then correct the problem statement
+before work starts
+[[cite:freelancing-in-machine-learning|Freelancing in Machine Learning|21:37]].
+Data engineering consultants can use the same written alignment when the client
+asks for a tool. The real need may be data access, modeling, quality, or
+stakeholder agreement.
+
 ## Agencies, Direct Clients, and Cooperatives
 
 Agencies can be useful at the beginning because they already have client demand.
@@ -319,6 +338,15 @@ he says the team got excited after selling the first version. They then spent
 months trying to acquire more customers before returning to validation. A
 reusable service or product is strongest when several clients show the same
 painful problem. One client accepting a one-off solution isn't enough.
+
+[[person:sonalgoyal=>Sonal Goyal]] took a larger path from consulting to product.
+Her data consultancy saw repeated identity-resolution problems across warehouses,
+pipelines, customer records, and supplier records. Parts of Zingg began as
+custom consulting work. She later stopped consulting and built an open-source
+ML-powered identity-resolution product
+[[cite:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool|2:06]].
+When a repeated problem is broad enough to become a product, freelance data work
+can connect to [[Open Source]], [[Startups]], and [[Machine Learning]].
 
 ## Career Transitions
 
