@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11153
+    "links": 11170
   },
   "nodes": [
     {
@@ -28028,6 +28028,12 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "person:isabellabicalho",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "person:sebastianayalaruano",
       "kind": "wiki-chip",
       "weight": 1
@@ -28040,12 +28046,24 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -28079,6 +28097,12 @@
       "target": "wiki:graph-data-science",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:bioinformatics-data-science",
@@ -32570,6 +32594,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "podcast:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -32595,6 +32625,12 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32693,6 +32729,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:llms",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
@@ -50018,6 +50060,12 @@
     },
     {
       "source": "wiki:founder",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -50036,6 +50084,18 @@
     },
     {
       "source": "wiki:founder",
+      "target": "wiki:community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:community-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-chip",
       "weight": 1
@@ -50045,6 +50105,12 @@
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:founder",
@@ -50129,6 +50195,12 @@
       "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:founder",
@@ -53054,6 +53126,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -53111,6 +53189,12 @@
       "target": "wiki:academia",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -66470,6 +66554,12 @@
     },
     {
       "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -66483,6 +66573,12 @@
     {
       "source": "wiki:open-source-ml-contributions",
       "target": "podcast:fairness-in-ai-ml-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66509,6 +66605,12 @@
       "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-ml-contributions",

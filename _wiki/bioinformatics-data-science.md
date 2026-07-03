@@ -54,6 +54,23 @@ PubMed and Google Scholar, and the transition from notebooks toward Docker and
 deployment. Her capstone work on frog-toxicity prediction shows how a
 self-directed learner can bridge biological questions with ML pipelines.
 
+[[person:isabellabicalho=>Isabella Bicalho]] adds the
+biology-to-ML route in
+[[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]].
+She started from biological science and a master's in bioinformatics.
+Statistics then became her gateway into
+[[machine learning]] and later transformer work
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|8:29]].
+
+At INRIA, that bridge became a concrete
+[[healthcare ml validation and adoption]] case. She worked on models that
+predicted lung-cancer patient response to immunotherapy from a blood draw
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|11:14]].
+The example connects this page to broader
+[[career transitions in data]]. The useful signal wasn't only model training.
+It was the ability to translate biology into features, outcomes, and validation
+questions.
+
 ## From Sequencing to Analysis
 
 Sequencing is the input side of many bioinformatics workflows. In the 12:35 and

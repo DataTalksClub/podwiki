@@ -95,6 +95,13 @@ and a shared Codespaces setup. Participants learned the tool, and the founders
 saw where people understood the abstraction and where the tool blocked them.
 For developer products, docs and workshops can become product research.
 
+Community founders can validate demand before a conventional product exists.
+DataTalks.Club's first event worked because participant conversations exposed a
+specific audience need, matched a speaker to that need, and drew about 100
+attendees. That's early product-market fit for [[community-building]] and
+[[teaching]] work: the founder understands the audience well enough that the
+format pulls people in.[[cite:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club|33:40]]
+
 ## Product Boundaries
 
 Founders decide what the product is and what it refuses to become. Brudaru
@@ -150,6 +157,13 @@ Brudaru describes the day-to-day version of founder-led distribution. Around
 spent time, and identifying adjacent tool communities. He also worked on
 ecosystem partnerships. A developer library needs a path into notebooks, demos,
 docs, and communities before enterprise buyers will care.
+
+DataTalks.Club adds the free-course version of founder-led distribution. A
+course such as Data Engineering Zoomcamp can spread outside the cohort.
+Learners recommend it to each other in public recommendation threads without
+referral incentives. That puts [[community]], [[teaching]], and
+[[Data Engineering]] in the distribution loop: usefulness creates the
+word-of-mouth channel.[[cite:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club|08:13]]
 
 ## Roles, Hiring, and Runway
 

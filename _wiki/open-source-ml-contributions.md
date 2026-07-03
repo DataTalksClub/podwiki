@@ -154,6 +154,21 @@ Hugo's 43:14 tutorial discussion says the content should start from audience
 and goals. That makes a docs contribution stronger than a cosmetic rewrite
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
+Community courses can turn docs and examples into open-source ML contributions.
+Platform work can count too. In the DataTalks.Club scaling discussion,
+open-source Python projects and the Django course-management platform keep
+coding skills connected to free courses
+[[cite:datatalksclub-scaling-and-free-courses|Scaling Free Courses|26:43]].
+
+The Hugging Face [[computer vision]] community course shows the review version.
+The contribution path starts in Discord and a contributor spreadsheet. The work
+then becomes evening writing, course material, and pull-request review with
+others
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Biology to Machine Learning|26:30]].
+That makes course contribution part of [[Documentation]],
+[[Developer Relations]], and reviewable collaboration, not only standalone model
+code.
+
 Fairlearn shows a structured version of the same entry path. Tamara Atanasoska
 points new contributors toward the project's community channels, good-first
 issues, and contribution sprints. Those entry points make a fairness-tooling

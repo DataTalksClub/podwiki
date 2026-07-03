@@ -126,6 +126,19 @@ visualization close behind. SQL also transfers into the
 [[Analytics Engineering Roadmap]]
 when the work moves from one-off queries to tested models.
 
+Automation changes the work surface rather than removing the career path.
+AutoML already made it possible to upload a CSV and get a usable baseline
+model. That didn't eliminate
+[[Data Science Careers]]
+because the job still includes problem framing, result judgment, and production
+choices. The same logic applies to
+[[LLMs]]
+and
+[[AI-Powered Business Intelligence]]
+for analysts. Assistants can reduce time spent on complex SQL and debugging,
+but metric definition still depends on stakeholder conversations and domain
+judgment.[[cite:datatalksclub-scaling-and-free-courses|Scaling DataTalks.Club|39:14]]
+
 Visualization and dashboarding matter because analysts communicate evidence.
 At 7:51-10:39 in the role discussion, dashboards connect to KPIs and product
 decisions. In

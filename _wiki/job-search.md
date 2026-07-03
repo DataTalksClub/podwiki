@@ -242,6 +242,15 @@ nonprofits, paid projects, and internships at 39:49 in
 Oleg gives PhD and cold-start candidates a project, synthetic-data, and
 blogging path at 45:46 in
 [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+
+[[AI Tooling]] doesn't block starting in [[Data Science Careers]] now. It can
+help beginners get started faster. Junior hiring creates the harder constraint
+because companies may still prefer senior candidates.[[cite:datatalksclub-scaling-and-free-courses|Scaling Free Courses|58:47]]
+
+The long-term [[Hiring]] pyramid still needs juniors to replace seniors who
+move up or leave for other jobs and self-employment.
+That pushes junior search toward targeted role choice, portfolio evidence, and
+translated prior expertise instead of course completion alone.
 For fuller transition routes, use
 [[career-transitions-in-data=>Career Transition]],
 [[Career Transitions in Data]],

@@ -105,7 +105,7 @@ Under-connected (3 pages).
 | Building Django course platform to scale | none | BORDERLINE | data-led-growth | Product work to scale courses (26:43); connect not new page |
 | Junior hiring realities / starting in DS now | job-search.md | CONNECTION | job-search | Junior hiring realities (58:47) |
 
-## from-biology-to-machine-learning-...-computer-vision-transformers (Isabella Bicalho)
+## from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers (Isabella Bicalho)
 
 Cited on 5 pages; two clear gaps.
 
