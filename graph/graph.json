@@ -10749,7 +10749,7 @@
       "title": "Reinforcement Learning",
       "url": "/wiki/reinforcement-learning/",
       "count": 1,
-      "search": "Reinforcement Learning How DataTalks.Club podcast guests discuss reinforcement learning through agents, rewards, simulators, games, robotics, autonomous driving, optimization, and practical limits."
+      "search": "Reinforcement Learning How podcast guests connect reinforcement learning to agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
     },
     {
       "id": "wiki:reproducibility",
@@ -10809,7 +10809,7 @@
       "title": "RFM Analysis",
       "url": "/wiki/rfm-analysis/",
       "count": 1,
-      "search": "RFM Analysis How DataTalks.Club podcast discussions place recency, frequency, and monetary analysis inside customer segmentation, retention, analytics engineering, product analytics, and warehouse modeling."
+      "search": "RFM Analysis How podcast discussions ground RFM analysis in customer segmentation, retention decisions, analytics engineering, and warehouse modeled product data."
     },
     {
       "id": "wiki:salary-negotiation",
@@ -10819,7 +10819,7 @@
       "title": "Salary Negotiation",
       "url": "/wiki/salary-negotiation/",
       "count": 1,
-      "search": "Salary Negotiation How DataTalks.Club guests discuss salary conversations in data and AI hiring: ranges, current salary, market research, competing offers, recruiter transparency, and freelance pricing."
+      "search": "Salary Negotiation How DataTalks.Club guests approach salary negotiation in data and AI hiring: ranges, anchors, market evidence, offers, and freelance pricing."
     },
     {
       "id": "wiki:scikit-learn",
@@ -10829,7 +10829,7 @@
       "title": "Scikit-Learn",
       "url": "/wiki/scikit-learn/",
       "count": 1,
-      "search": "Scikit Learn DataTalks.Club guide to scikit learn as a practical toolkit for classic ML workflows, baselines, experimentation, interpretability, contribution, and production boundaries."
+      "search": "Scikit Learn DataTalks.Club guide to scikit learn for classic ML baselines, pipelines, interpretability, open source contribution, and production boundaries."
     },
     {
       "id": "wiki:search",
@@ -10859,7 +10859,7 @@
       "title": "Search Relevance",
       "url": "/wiki/search-relevance/",
       "count": 1,
-      "search": "Search Relevance How production search teams turn candidate generation, ranking, lexical and vector retrieval, filters, evaluation, experiments, and business goals into useful results."
+      "search": "Search Relevance How production search teams combine retrieval, ranking, filters, evaluation, experiments, and business goals into useful results."
     },
     {
       "id": "wiki:security",

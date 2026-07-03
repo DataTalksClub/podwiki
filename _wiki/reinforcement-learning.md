@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Reinforcement Learning"
-summary: "How DataTalks.Club podcast guests discuss reinforcement learning through agents, rewards, simulators, games, robotics, autonomous driving, optimization, and practical limits."
+summary: "How podcast guests connect reinforcement learning to agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
 related:
   - Machine Learning
   - Agent Engineering
@@ -22,9 +22,11 @@ They also use it to show why robotics and autonomous driving need constraints.
 Business teams often choose simpler optimization or experimentation methods
 when they don't have a reliable simulator.
 
-For a structured introduction to the topic, the [[book:20210111-reinforcement-learning|Reinforcement Learning]] Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
+For a structured introduction to the topic, use the [[book:20210111-reinforcement-learning|Reinforcement Learning]] Book of the Week by Phil Winder.
+It covers industrial applications and the practical boundary between simulated environments and real-world deployment.
 [[book:20210517-grokking-deep-reinforcement-learning=>Grokking Deep Reinforcement Learning]]
-by Miguel Morales is a complementary learning path: it builds intuition for Q-learning, policy gradients, and actor-critic methods through annotated code and visual walkthroughs.
+by Miguel Morales is a complementary learning path.
+It builds intuition for Q-learning, policy gradients, and actor-critic methods through annotated code and visual walkthroughs.
 
 Start with
 [[person:micheallanham=>Micheal Lanham]] in

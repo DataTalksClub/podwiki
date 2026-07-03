@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search Relevance"
-summary: "How production search teams turn candidate generation, ranking, lexical and vector retrieval, filters, evaluation, experiments, and business goals into useful results."
+summary: "How production search teams combine retrieval, ranking, filters, evaluation, experiments, and business goals into useful results."
 related:
   - Search
   - Information Retrieval
