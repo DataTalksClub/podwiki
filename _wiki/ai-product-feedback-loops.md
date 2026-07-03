@@ -113,6 +113,13 @@ That puts AI feedback loops close to [[event tracking]],
 [[Machine Learning Personalization]]. The interface has to collect product
 signals the model can learn from.
 
+Agent feedback includes repeated or reframed queries, weak responses,
+missing-data gaps, and human labeling for new evaluation sets
+[[cite:s23e03-future-of-ai-agents|Agent Feedback|36:55]].
+
+That puts agent iteration near [[agent-engineering=>AI Agents]],
+[[LLM Evaluation Workflows]], and product analytics.
+
 Implicit signals are necessary when users don't give ratings or when ratings
 are too sparse. Behavior can reveal whether the AI output helped even when the
 user never submits a thumbs-up or thumbs-down

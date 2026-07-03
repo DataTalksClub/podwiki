@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11203
+    "links": 11212
   },
   "nodes": [
     {
@@ -25292,7 +25292,19 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -25349,6 +25361,12 @@
       "target": "wiki:experimentation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-product-feedback-loops",
@@ -29402,6 +29420,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:academia",
       "kind": "wiki-chip",
       "weight": 1
@@ -29627,6 +29651,12 @@
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -54776,6 +54806,12 @@
     },
     {
       "source": "wiki:llm-cost-optimization",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "wiki-link",
       "weight": 1
@@ -54845,6 +54881,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-cost-optimization",
@@ -76340,6 +76382,12 @@
     },
     {
       "source": "wiki:teaching",
+      "target": "person:noahgift",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
       "target": "person:swyx",
       "kind": "wiki-chip",
       "weight": 1
@@ -76389,6 +76437,12 @@
     {
       "source": "wiki:teaching",
       "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-chip",
       "weight": 1
     },

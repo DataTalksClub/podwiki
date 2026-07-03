@@ -12,13 +12,13 @@ related:
 
 LLM cost optimization covers the engineering techniques that reduce the expense
 of running language models in production. It includes token optimization, prompt
-compression, prompt caching, model size selection, and the broader discipline of
-cost-aware platform design. As LLM usage scales, cost becomes a competitive
-differentiator rather than just a budget concern.
+compression, prompt caching, and model size selection. It also includes the
+broader discipline of cost-aware platform design. As LLM usage scales, cost
+becomes a competitive differentiator rather than just a budget concern.
 
 Prompt evaluation, cost tradeoffs, prompt compression, and prompt caching are
-standard parts of production AI engineering, treated as model-efficiency tools
-alongside prompt testing
+standard parts of production AI engineering. They sit alongside prompt testing as
+model-efficiency tools
 ([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
 This topic connects to
@@ -48,63 +48,69 @@ money while degrading output quality.
 ## Prompt Caching and Model Efficiency
 
 Prompt caching reuses previously computed attention states for repeated prompt
-prefixes, reducing both latency and cost; Claude's caching mechanism is one
+prefixes, reducing both latency and cost. Claude's caching mechanism is one
 implementation ([[podcast:production-ready-ai-engineering|Production AI
 Engineering]]). This is especially valuable for agents and multi-turn systems
 where the same system prompt or context is sent repeatedly.
 
 [[Caching]] as a concept appears across
-the podcast, but LLM prompt caching is more specific: it caches the model's
-internal computation, not just the final output. This makes it relevant for
-systems that send long, stable prompts with varying user queries appended.
+the podcast. LLM prompt caching is more specific: it caches the model's internal
+computation, not just the final output. This makes it relevant for systems that
+send long, stable prompts with varying user queries appended.
 
 ## Latency and Cost Tradeoffs
 
-Self-hosted open-source models on smaller GPUs or CPUs can be much faster than
-API calls. API models are fast because they run on expensive hardware, but
-self-hosted models on comparable hardware can match or exceed that speed at lower
-cost ([Deploying LLMs in
-Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)).
+Open-source models that teams self-host on smaller GPUs or CPUs can be much
+faster than API calls. API models are fast because they run on expensive
+hardware. Teams that self-host models on comparable hardware can match or exceed that
+speed at lower cost ([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)).
 
-This is a prototyping-versus-production decision. During prototyping, API speed
-and ease of use win. Once the business case is proven, migrating to open-source
+The tradeoff depends on the system's maturity, so API speed and ease of use win
+during prototyping. Once the business case is proven, migrating to open-source
 models reduces both cost and latency. The migration requires more engineering
 effort, but tools like TitanML's Takeoff server and other inference servers make
 it easier.
 
+High-volume enterprises can fine-tune smaller models
+[[cite:s23e03-future-of-ai-agents|Future of AI Agents|24:58]]. They trade ML
+staffing and infrastructure for lower cost, lower latency, and better task fit.
+Small or generic workloads can stay on standard APIs. The switch has to justify
+ML engineers, infrastructure, and evaluation work.
+That threshold links LLM cost optimization to [[Model Optimization]] and
+[[LLM Production Patterns]] rather than only prompt-level token reduction.
+
 Groq as a low-latency provider offers 1-2 second response times compared to 4-5
-seconds for GPT-4 ([From Game AI to LLM
-Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)).
+seconds for GPT-4 ([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)).
 Latency directly affects cost because longer inference times consume more compute
 resources and limit throughput.
 
 ## The Competitive Advantage of Cost-Aware Engineering
 
-Being cost aware gives engineers "a big competitive advantage." Cloud bills
-skyrocketing is a common industry problem because "people are not cost aware. We
-have this thing that our cloud is cheap and storage is cheap but then we quickly
-realize it is not that cheap as you think" ([Data Engineer Career in
-2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)).
+Being cost aware gives engineers "a big competitive advantage," especially when
+cloud bills skyrocket because teams lack cost awareness. Teams may assume cloud
+and storage are cheap, then learn they aren't as cheap as expected ([Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)).
 
-Overengineering is the opposite failure: companies build "behemoth platforms"
-before they need them — "we are now ready for real time and batch and we have
-this lakehouse thing. Now what are we going to do with that? We are going to
-ingest CSVs." The lesson applies directly to LLM cost optimization: match the
-model and infrastructure to the actual need, not the aspirational one.
+The opposite failure is overengineering, where companies build "behemoth
+platforms" before they need them. Teams in that example prepare for real time,
+batch, and a lakehouse, then use the platform only to ingest CSVs. For LLM cost
+optimization, teams should match the model and infrastructure to the actual need,
+not the aspirational one.
 
-Cost awareness also carries into hiring, where candidates who proactively built
-something to reduce cost stand out. Cost-awareness is not just a technical skill
+Cost awareness also affects hiring, where candidates who proactively built
+something to reduce cost stand out. Cost-awareness isn't just a technical skill
 but a signal of engineering judgment.
 
 ## Cost Considerations in Product Patterns
 
 In the proprietary-versus-open-source decision, cost sits alongside latency, IP,
-and data risk as a key trade-off ([Practical LLM Use
-Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
+and data risk as a key trade-off ([Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
 For enterprise deployment, cost compounds at scale, making model choice and
 optimization a product-level concern rather than only an engineering detail.
 
 ## Related Pages
+
+These pages connect LLM cost optimization to infrastructure, deployment, and
+prompt-level engineering choices:
 
 - [[AI Infrastructure Cost and Ownership]]
 - [[LLM Production Patterns]]

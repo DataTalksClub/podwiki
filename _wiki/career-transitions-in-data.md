@@ -477,6 +477,15 @@ capacity management matter too
 ([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]],
 19:09-45:15).
 
+A safer [[Solopreneur|solopreneur]] transition keeps the job while building a
+side gig in stages. The path starts with lower expenses and a cash reserve,
+then tests consulting work. Books, courses, apps and investments can become
+additional small streams before leaving. The quitting threshold is financial
+readiness rather than impatience. Independent work should already prove earning
+power, and leaving shouldn't create financial jeopardy.
+[[cite:solopreneur-developer-and-data-professional|Side-gig tunnel|46:27]]
+[[cite:solopreneur-developer-and-data-professional|When to quit|53:49]]
+
 The consulting route also changes what counts as a portfolio.
 [[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki's]]
 data-consulting story moves from product ideas to consulting after customer

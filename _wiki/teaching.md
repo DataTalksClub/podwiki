@@ -229,6 +229,15 @@ need cloud basics and interview practice.
 Alexander's learner moving into ML needs problem framing, validation, system
 design, and engineering quality.
 
+University teaching can also become part of an independent practitioner income
+mix when expertise is visible enough to create course, curriculum, training, and
+consulting opportunities. The path into a university classroom depends on deep
+subject expertise, professor relationships, and written credibility such as a
+book. That makes university teaching adjacent to [[technical writing]],
+[[developer relations]], and
+[[career transitions in data]]
+[[cite:solopreneur-developer-and-data-professional|Solopreneur teaching path|58:24]].
+
 Guests don't tell learners to take more courses. They ask learners to study a
 focused concept and apply it in a realistic project. Then learners explain the
 work clearly, ask for feedback, and publish enough for another person to evaluate.
@@ -246,6 +255,7 @@ Start with these teaching-focused episodes:
 - [[podcast:devrel-data-science-open-source-tools=>DevRel for Data Science]] with [[person:elleobrien=>Elle O'Brien]] for teaching, reproducibility, content, documentation, and developer relations.
 - [[podcast:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]] with [[person:eugeneyan=>Eugene Yan]] for writing as learning, documentation, and portfolio explanation.
 - [[podcast:developer-personal-brand-learn-in-public=>Learn in Public]] with [[person:swyx=>Shawn Swyx Wang]] for public learning, feedback, open knowledge projects, and career visibility.
+- [[podcast:solopreneur-developer-and-data-professional=>Solopreneur Developer and Data Professional]] with [[person:noahgift=>Noah Gift]] for university teaching, written credibility, courses, consulting, and diversified independent work.
 - [[podcast:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]] for project-based courses, public deadlines, office hours, and community-supported learning.
 
 Use these adjacent pages for deeper work:
