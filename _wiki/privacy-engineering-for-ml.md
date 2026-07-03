@@ -29,11 +29,12 @@ clearest definition in
 At 22:38, she describes privacy engineering as translation between legal,
 social, and technical views. At 30:15 and 47:00, privacy becomes part of normal
 product and architecture work rather than a late compliance check.
+
 Mario Lazo and Justin Ryan's
 [[book:20240715-ai-data-privacy-and-protection=>AI Data Privacy and Protection]]
-provides a structured reference for the same legal-to-technical translation:
-data classification, access controls, and privacy-by-design patterns for AI
-systems.
+provides a structured reference for the same legal-to-technical translation. It
+covers data classification, access controls, and privacy-by-design patterns for
+AI systems.
 
 Across these episodes, guests converge on a practical rule. Useful AI systems
 shouldn't create avoidable privacy, security, or compliance risk.
@@ -182,6 +183,14 @@ Subject-matter experts and compliance stakeholders belong in that decision too.
 Bart adds the access-control operating model for regulated data. In his
 episode, data owners and governance teams appear in the approval flow. DPOs and
 security teams appear too, along with engineers. Separation of concerns matters.
+
+Stefan Gudmundsson's digital-therapeutics example adds the healthcare version
+of that review. When an ML product works with sensitive health context,
+de-identification is necessary but not sufficient. Activity, heart-rate
+variability, and mental-health signals all need explicit consent and privacy
+boundaries. Teams also need HIPAA/GDPR expectations and empathy for users who
+may be sharing vulnerable information
+[[cite:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]].
 
 Privacy and security may need to approve the same dataset. Domain owners may
 need to approve it for different reasons

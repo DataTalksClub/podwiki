@@ -256,6 +256,13 @@ Mariano's later AI-system example shows a modern service stack. Around
 he moves away from notebooks toward services and observability tools. In that
 stack discussion, he names FastAPI, `uv`, and Arize.
 
+Sabina Firtala's domestic risk assessment work adds the high-stakes version of
+the same boundary. A model leaves research only when frontline users can work
+with it as a decision-support workflow. That production surface includes UI,
+training, trust-building, and explicit operational limits. It's not only
+scoring code
+[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
+
 Keep control boundaries explicit:
 
 1. Put deterministic transformations, business rules, validation, and routing
@@ -352,4 +359,3 @@ This sequence keeps the notebook useful without pretending it's the system.
 It also connects the production work to the responsibilities Mariano and
 Andreas describe. Ben, Mihail, and Lina extend the same production AI and MLOps
 thread.
-

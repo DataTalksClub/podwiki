@@ -48,6 +48,15 @@ two or three weeks to learn normal behavior. People, weather, new family
 members, and changed routines can disturb a dog's routine
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|episode]]).
 
+Human self-tracking follows the same baseline-first order. In
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers|Biohacking Productivity for Data Scientists and ML Engineers]],
+Ruslan Shchuchkin describes using logs and Notion dashboards to reflect on his
+own routines. He also tracks simple habit metrics such as steps, exercise, and
+hydration.
+Those measurements aren't an ML system by themselves. They're the personal
+history that makes later modeling or alerting useful because the system has
+something individual to compare against.
+
 Around 45:41, she separates population models from personal anomaly detection.
 Initial models can use breed and age. They can use weight too. Those tasks
 include steps, calories, and broad activity labels. Useful health alerts require

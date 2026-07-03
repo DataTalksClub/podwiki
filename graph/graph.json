@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11042
+    "links": 11047
   },
   "nodes": [
     {
@@ -47618,6 +47618,12 @@
     },
     {
       "source": "wiki:entity-resolution",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
       "kind": "wiki-chip",
       "weight": 1
@@ -47625,7 +47631,7 @@
     {
       "source": "wiki:entity-resolution",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -64844,6 +64850,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-chip",
       "weight": 1
@@ -67923,6 +67935,12 @@
     {
       "source": "wiki:privacy-engineering-for-ml",
       "target": "person:supreetkaur",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -71606,6 +71624,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "wiki-chip",
       "weight": 1
@@ -73497,6 +73521,12 @@
     {
       "source": "wiki:sensor-ml-personal-baselines",
       "target": "person:sofyayulpatova",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:biohacking-productivity-for-data-scientists-and-ml-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },

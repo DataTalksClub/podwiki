@@ -388,7 +388,7 @@ end-to-end-data-pipeline-project:
   modified: "2026-07-02"
 entity-resolution:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 entrepreneurship:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -649,7 +649,7 @@ notebook-to-production-ai-systems:
   modified: "2026-07-03"
 notebook-to-production-workflow:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 open-source-and-developer-relations:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -739,7 +739,7 @@ reproducibility:
   modified: "2026-07-02"
 responsible-ai-and-governance:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 retrieval-augmented-generation:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -772,7 +772,7 @@ self-service-data-platforms:
   modified: "2026-07-02"
 sensor-ml-personal-baselines:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 simulation-and-digital-twins:
   published: "2026-07-03"
   modified: "2026-07-03"
