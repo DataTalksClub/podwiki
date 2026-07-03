@@ -16,6 +16,15 @@ PUBLIC_CONTENT_FOLDERS = {"_wiki"}
 CANONICAL_PODCAST_RE = re.compile(r"https://datatalks\.club/podcast/[^)\s\"']+\.html")
 CANONICAL_PEOPLE_RE = re.compile(r"https://datatalks\.club/people/[^)\s\"']+\.html")
 PODCAST_CHIP_RE = re.compile(r"\[\[(?:podcast|cite):", re.IGNORECASE)
+PODCAST_MARKER_RE = re.compile(r"\[\[podcast:[^\]]+\]\]", re.IGNORECASE)
+OLD_TIMESTAMPED_PODCAST_RE = re.compile(r"\[\[podcast:[^\]]*@[0-9]", re.IGNORECASE)
+VISIBLE_TIMESTAMP_PROSE_RE = re.compile(
+    r"\b(?:At|Around|at|around|~)\s*\d{1,2}:\d{2}\b|\(\d{1,2}:\d{2}\)"
+)
+PODCAST_LABEL_TIMESTAMP_RE = re.compile(
+    r"(?:\||=>)[^\]]*(?:\b(?:at|around)\s+\d{1,2}:\d{2}\b|\b\d{1,2}:\d{2}\b)",
+    re.IGNORECASE,
+)
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
@@ -112,7 +121,19 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
     archive_headings = ARCHIVE_HEADING_RE.findall(text)
     archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
-    score = generic * 3 + (len(forbidden) + len(archive_headings)) * 10 + len(archive_scaffolding)
+    old_timestamped_podcast = len(OLD_TIMESTAMPED_PODCAST_RE.findall(body))
+    visible_timestamp_prose = len(VISIBLE_TIMESTAMP_PROSE_RE.findall(body))
+    podcast_label_timestamps = sum(
+        1 for marker in PODCAST_MARKER_RE.findall(body) if PODCAST_LABEL_TIMESTAMP_RE.search(marker)
+    )
+    score = (
+        generic * 3
+        + (len(forbidden) + len(archive_headings)) * 10
+        + len(archive_scaffolding)
+        + old_timestamped_podcast * 8
+        + visible_timestamp_prose * 5
+        + podcast_label_timestamps * 3
+    )
     if is_public_content and links["podcasts"] == 0:
         score += 5
     return {
@@ -120,6 +141,9 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
         "generic_podcast_links": generic,
         "forbidden_headings": len(forbidden) + len(archive_headings),
         "archive_scaffolding": len(archive_scaffolding),
+        "old_timestamped_podcast": old_timestamped_podcast,
+        "visible_timestamp_prose": visible_timestamp_prose,
+        "podcast_label_timestamps": podcast_label_timestamps,
         "podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
@@ -149,6 +173,9 @@ def main() -> None:
             row["generic_podcast_links"]
             or row["forbidden_headings"]
             or row["archive_scaffolding"]
+            or row["old_timestamped_podcast"]
+            or row["visible_timestamp_prose"]
+            or row["podcast_label_timestamps"]
             or row["podcast_links"] == 0
         )
     ]
@@ -158,6 +185,9 @@ def main() -> None:
     print(f"generic_podcast_links: {sum(int(row['generic_podcast_links']) for row in rows)}")
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
+    print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
+    print(f"visible_timestamp_prose: {sum(int(row['visible_timestamp_prose']) for row in rows)}")
+    print(f"podcast_label_timestamps: {sum(int(row['podcast_label_timestamps']) for row in rows)}")
     print(f"pages_without_podcast_links: {sum(1 for row in rows if int(row['podcast_links']) == 0)}")
     print("")
 
@@ -166,6 +196,9 @@ def main() -> None:
             f"{row['path']}: score={row['score']} "
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
             f"archive_scaffolding={row['archive_scaffolding']} "
+            f"old_podcast_ts={row['old_timestamped_podcast']} "
+            f"visible_ts={row['visible_timestamp_prose']} "
+            f"podcast_label_ts={row['podcast_label_timestamps']} "
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} book_links={row['book_links']}"
         )

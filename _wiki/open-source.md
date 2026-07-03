@@ -24,18 +24,19 @@ related:
 
 Open source means public software that other people can use, discuss, and
 improve. DataTalks.Club guests usually discuss it through data and ML tools.
-[[podcast:open-source-ml-contributions=>Vincent Warmerdam's contribution episode]]
-covers scikit-learn ecosystem libraries, and
-[[podcast:hugging-face-contributions-and-nlp-portfolio=>Merve Noyan's NLP portfolio episode]]
-covers Hugging Face work.
-[[podcast:data-engineering-tools-modern-data-stack=>Natalie Kwong's modern data stack episode]]
-covers Airbyte,
-[[podcast:from-data-freelancer-to-startup-open-source-products=>Adrian Brudaru's founder episode]]
-covers DLT, and
-[[podcast:building-mlops-startup=>Elena Samuylova's MLOps startup episode]]
-covers Evidently.
-Other episodes cover terminal UI tools, reproducibility tools, and open-source
-NLP tooling.
+
+ML examples include scikit-learn ecosystem libraries
+[[cite:open-source-ml-contributions|Contribute to Open Source ML]] and Hugging
+Face work
+[[cite:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]].
+Data engineering examples include Airbyte
+[[cite:data-engineering-tools-modern-data-stack|ETL vs ELT and Data Lake vs Warehouse]]
+and DLT
+[[cite:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
+Evidently adds the founder-led MLOps version
+[[cite:building-mlops-startup|How to Build a Successful ML Startup]]. Other
+episodes cover terminal UI tools, reproducibility tools, and open-source NLP
+tooling.
 
 The podcast discussions treat open source as practical rather than ideological.
 Public code isn't enough because useful projects also need docs and examples.
@@ -64,7 +65,7 @@ For open-source adoption work, use
 A practical definition frames open source through pragmatism and reciprocity.
 Vincent uses `whatlies`, `clumper`, `memo`, and scikit-lego as small tools that
 started from concrete needs
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The important point isn't that every idea becomes a famous package. The author
 solves a real problem first, then makes the solution reusable. In those examples,
@@ -78,7 +79,7 @@ A similar builder-centered definition comes from PyFilesystem, Rich, and Textual
 which grew out of their author's own needs and experiments. New authors should
 solve their own problem first, which keeps open source attached to useful
 software rather than GitHub visibility
-([[podcast:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]]).
+([[cite:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]]).
 
 For data and ML tools, usefulness also depends on ecosystem fit. Not every useful
 idea should enter core scikit-learn. Plugins such as UMAP and scikit-lego are a
@@ -87,7 +88,7 @@ adding maintenance burden to the main project. That links open source to
 [[machine learning tools]]
 and [[software engineering]],
 not only to public repositories
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
 
 ## Contribution, Adoption, and Company Lenses
 
@@ -97,7 +98,7 @@ the system.
 One lens centers small libraries, maintainability, and project boundaries. It
 covers scikit-learn governance and plugin strategy, plus maintainer transition,
 volunteer motivation, and CI costs
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
 It treats open source as an operating system for shared software, not only a
 publishing format. That view sits close to
 [[machine learning tools]],
@@ -110,7 +111,7 @@ ambiguous. Spaces with Streamlit or Gradio demos turn model work into something
 other people can look at. This links directly to
 [[Open Source Portfolio Evidence]]
 and [[machine learning portfolio projects]]
-([[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
+([[cite:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
 
 A third lens centers education, feedback, and company support around projects
 such as Metaflow. DevRel appears as education and documentation around tools,
@@ -119,25 +120,25 @@ examples next to
 [[developer relations]],
 [[documentation]], and
 [[Open Source and Developer Relations]]
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
 Founders and investors add a different lens, and Evidently illustrates open core,
 cloud, and on-prem adoption. Its sequence starts before the repository with
 customer discovery, product validation, and founder work around content and
 community
-([[podcast:building-mlops-startup|How to Build a Successful ML Startup]]). Use
+([[cite:building-mlops-startup|How to Build a Successful ML Startup]]). Use
 [[startups=>startup]] and
 [[founder]] for that operating lens.
 
 Zingg shows why open source can be both giving back and distribution. The product
 took about 18 months before public release. Sonal's hindsight connects cofounder
 search, earlier open source, use-case validation, and distribution channels
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]]).
+([[cite:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]]).
 
 An investor lens treats open source as developer-tool go-to-market, and Bela
 warns that GitHub stars need interpretation. Active users, engagement, and
 problem validity matter more than vanity metrics
-([[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]]).
+([[cite:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]]).
 For startup distribution, that lens pairs open source with
 [[startups=>startup]] work and
 [[open-source-portfolio-evidence=>open-source portfolio evidence]]
@@ -156,10 +157,10 @@ support.
 
 scikit-learn shows the library route: scikit-lego demonstrates
 ecosystem-compatible components and low-maintenance APIs
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]), while
+([[cite:open-source-ml-contributions|Contribute to Open Source ML]]), while
 :probabl. stays separate from scikit-learn and governance sits with the project
 and NumFOCUS, keeping company support separate from project ownership
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
 
 Hugging Face shows a platform route. Dataset scripts and Hub features appear next
 to Spaces, with community tabs and forum support nearby. That turns open source
@@ -168,14 +169,14 @@ much as code. It also connects open source to
 [[NLP]],
 [[model-registry=>model registries]], and
 [[developer experience]]
-([[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
+([[cite:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
 
 Airbyte gives the data engineering connector route. Its open-source strategy
 depends on the long tail of connector needs. Custom connectors and enterprise
 features sit closer to the cloud offering. Cloud competition and license choices
 affect the business. The same discussion links Airbyte to ELT, dbt, CDC, and the
 modern data stack
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Data Lake vs Warehouse]]).
+([[cite:data-engineering-tools-modern-data-stack|ETL vs ELT and Data Lake vs Warehouse]]).
 
 This is why open source sits next to
 [[data engineering tools]],
@@ -188,7 +189,7 @@ The open-source decision affects adoption, licensing, integrations, and growth.
 For complex matching systems, public software also helps buyers
 evaluate the logic before they commit to a tool. That matters when the product
 touches customer identity, fraud, or data quality
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]]).
+([[cite:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]]).
 
 The topic connects open source to
 [[data products]],
@@ -200,7 +201,7 @@ data and evolves through user feedback. Workshops validate the product, docs
 become a productive asset, and ecosystem demos support bottom-up adoption. This
 route differs from a connector platform because the library helps Python users
 build pipelines directly
-([[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]]).
+([[cite:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]]).
 
 ## Contribution Work and Career Proof
 
@@ -217,7 +218,7 @@ pre-commit hooks. Those details connect the page to
 [[software engineering]],
 [[ci-cd=>CI/CD]], and
 [[testing]]
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The Hugging Face version includes contribution sprints and dataset scripts. CI
 learning and good-first issues belong to that same contribution surface. Forum
@@ -225,28 +226,28 @@ support and non-code contributions do too. Hiring managers can see
 large-codebase experience, pull requests, tests, and maintainer feedback in
 GitHub work. PR rejection becomes design alignment when contributors open a
 discussion and add tests for compatibility
-([[podcast:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
+([[cite:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]]).
 
 The data-engineering hiring bar expects Python and SQL depth, code structure, and
 tests. It values open-source contributions because review pressure makes the work
 closer to professional practice
-([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+([[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
 
 The interview framing requires a project walkthrough that shows ownership and
 leads with impact. Candidates should defend the technical claims they put in
 front of interviewers. An open-source link still needs a clear explanation of the
 problem and setup, plus quality controls, maintainer interaction, and the result
-([[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
+([[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
 
 The learn-in-public mechanism includes progress and corrections. Collaborative
 docs, cheat sheets, demos, and brag documents make the work easier for others to
 understand
-([[podcast:developer-personal-brand-learn-in-public|Learn in Public]]).
+([[cite:developer-personal-brand-learn-in-public|Learn in Public]]).
 
 On the founder and hiring view, open-source work gives a hiring manager a visible
 body of work, though good developers can exist without public contributions. Open
 source is therefore a strong signal, not a universal requirement
-([[podcast:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]]).
+([[cite:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]]).
 
 For the focused career page, see
 [[Open Source Portfolio Evidence]]
@@ -264,92 +265,82 @@ Open-source communities work best when they help contributors while protecting
 maintainer time. Vincent's advice around contribution guides and polite issue
 interaction isn't only etiquette. Smaller repositories matter, and tests and CI
 matter too
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-24:10-29:30). These habits help maintainers review work without turning every
+([[cite:open-source-ml-contributions|Contribute to Open Source ML]]). These
+habits help maintainers review work without turning every
 issue into a support queue.
 
 In the later scikit-learn conversation, Vincent returns to the same concern
 through maintainer transition and volunteer motivation. He also talks about CI
 cost control
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
-18:11 / 21:51 / 31:42). Public code still needs operating discipline.
+([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+Public code still needs operating discipline.
 
 [[person:willrussell=>Will Russell]] shows how structured
-programs can make the first contribution less confusing. In
-[[podcast:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]],
-he describes hackathons, the MLH Fellowship, and Git practice. He also covers
-environment setup and mentorship for large repositories. Around 35:43, 39:02,
-and 41:16, contributors need project context and setup help. Small scopes and
-review expectations help them make useful pull requests.
+programs can make the first contribution less confusing. Hackathons and the MLH
+Fellowship reduce ambiguity for newcomers to large repositories. Git practice,
+environment setup, and mentorship serve the same onboarding goal
+[[cite:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]].
+Setup is part of the contribution barrier when projects require local services
+or extra memory before a beginner can make a useful change. Hardware, GPUs,
+Colab, or VMs can add another layer.
 
-At 41:16-44:12, setup becomes part of the contribution barrier. Large projects
-may require local services, memory, or hardware before a beginner can make a
-useful change. Some projects need GPUs, Colab, or VMs.
-
-Hugo connects this community work to product feedback in
-[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
-Around 18:03 and 25:17, he describes DevRel through education and
-documentation. Around 36:27, he adds dogfooding and feedback from developers
-using the tool. In an open-source project, tutorials and demos aren't side work.
-Docs issues, Slack, and forum conversations show where the software is hard to
-understand.
+Community work also becomes product feedback. DevRel work around education,
+documentation, dogfooding, and feedback from tool users makes tutorials and demos
+part of the product surface. Docs issues, Slack, and forum conversations show
+where the software is hard to understand
+[[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
 
 ## Governance and Project Boundaries
 
 Open-source governance decides what the project can support and what should live
-nearby. Hugo discusses company support for Dask and Metaflow at 10:47 in
-[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
-He distinguishes company involvement from project ownership, which matters when
-a company wants community trust without taking over the project.
+nearby. Company support for Dask and Metaflow can coexist with community trust
+when company involvement stays separate from project ownership
+[[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
 
-Vincent discusses :probabl., scikit-learn, and company naming in
-[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
-Around 8:33, he explains why the company name should stay separate from the
-open-source project. Around 10:28, he discusses scikit-learn governance,
-NumFOCUS, and project history. Around 14:01, he argues for plugins when new
-ideas don't belong in core scikit-learn.
+The same boundary appears in :probabl. and scikit-learn, where company naming
+stays separate from the open-source project. Governance can sit with the project
+and NumFOCUS. Plugins give useful new methods a path without forcing every idea
+into core scikit-learn
+[[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]].
 
-Governance also includes technical operations. Vincent's CI cost example at
-31:42 shows that maintainers still pay attention to infrastructure cost and
-reliability. Maintainers may need custom GitHub Actions runners or caching. They
-may also need cheaper compute.
+Governance also includes technical operations. Maintainers still need to manage
+infrastructure cost and reliability through choices such as custom GitHub
+Actions runners, caching, or cheaper compute
+[[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]].
 
-Merve's
-[[podcast:hugging-face-contributions-and-nlp-portfolio@33:23=>Hugging Face discussion]]
-treats pull-request rejection, tests, and design discussion as normal parts of
-contribution. Public code doesn't remove review. It makes review norms visible.
+Pull-request rejection, tests, and design discussion are normal parts of
+contribution. Public code doesn't remove review. It makes review norms visible
+[[cite:hugging-face-contributions-and-nlp-portfolio|Contribute to Hugging Face and Build an NLP Portfolio]].
 
 ## Licensing, Open Core, and Monetization
 
 Several founders use open source because data and ML buyers need trust before
 they adopt infrastructure. That doesn't replace customer discovery. Elena
 explains this for Evidently in
-[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]].
+[[cite:building-mlops-startup|How to Build a Successful ML Startup]].
 
-At 42:15 and 43:59, the Evidently story starts with interviews and validation
-around model monitoring. At 48:11 and 49:29, she describes open core, cloud, and
-licensing concerns. Engineers and data scientists can try a
+The Evidently story starts with interviews and validation around model
+monitoring, then moves into open core, cloud, and licensing concerns. Engineers
+and data scientists can try a
 [[model-monitoring=>model-monitoring]] tool before
 the company sells hosting, scaling, security, or support.
 
-At 51:48 and 56:17, she connects the model to bottom-up adoption and on-prem
-use when teams don't want to send data away.
+The model also supports bottom-up adoption and on-prem use when teams don't want
+to send data away.
 
 Sonal gives the identity-resolution version in
-[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]].
-At 23:00, Zingg took about 18 months before public release. At 24:14, she says
-open source was both a way to give back and a way for Zingg to reach more
-companies. At 27:00, she discusses AGPL as a licensing choice to reduce the
-risk of another company rehosting the product as SaaS. At 31:10, she still
-treats discoverability and growth as major reasons to open source the product.
+[[cite:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]].
+Zingg took about 18 months before public release. Open source was both a way to
+give back and a way for Zingg to reach more companies. AGPL reduced the risk of
+another company rehosting the product as SaaS, while discoverability and growth
+remained major reasons to open source the product.
 
 [[person:nataliekwong=>Natalie Kwong]] shows the same
 tradeoff for data connectors in
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]].
-At 43:45, she explains why Airbyte is open source. A broad connector community
-helps cover sources that a closed team may not prioritize. At 46:52, the cloud
-and enterprise offering sits around that project. At 48:26 and 49:32, she
-discusses competition and license choices.
+[[cite:data-engineering-tools-modern-data-stack|ETL vs ELT and Data Lake vs Warehouse]].
+A broad connector community helps cover sources that a closed team may not
+prioritize. The cloud and enterprise offering sits around that project, while
+competition and license choices affect the business.
 
 She uses the Elasticsearch example and Airbyte's MIT license at the time of the
 episode. Open source can help with
@@ -365,24 +356,21 @@ technical practice from
 ## Open Source as Distribution
 
 Bela adds the investor view in
-[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]].
-At 13:42 and 16:40, he treats open source as go-to-market through community
-trust and bottom-up developer adoption. At 32:31 and 36:27, it still needs a
-team, market need, and problem validity. At 39:01, he warns that GitHub stars
-need interpretation. Active engagement matters more than vanity metrics.
+[[cite:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]].
+Open source can act as go-to-market through community trust and bottom-up
+developer adoption, but the company still needs a team, market need, and problem
+validity. GitHub stars need interpretation because active engagement matters more
+than vanity metrics.
 
-At 49:28 and 51:09, he discusses open-core licensing and hosted services. At
-54:47, support-only revenue looks less attractive because it scales with
-headcount.
+Open-core licensing and hosted services can support the commercial model, while
+support-only revenue looks less attractive because it scales with headcount.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] shows the
 library-to-startup path for DLT in
-[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
-Around 36:00, his team uses workshops as product feedback. Around 41:23, he
-treats documentation as a productive asset. Around 47:56 and 50:53, he explains
-bottom-up go-to-market through personas, ecosystem partnerships, and demos.
-Around 55:10, DLT's roadmap includes a paid complement to the open-source
-library.
+[[cite:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
+Workshops become product feedback, and documentation becomes a productive asset.
+Bottom-up go-to-market moves through personas, ecosystem partnerships, and demos.
+DLT's roadmap includes a paid complement to the open-source library.
 
 This route came from freelancing, savings, consulting, and design partners.
 Product validation mattered too, so it's a services-to-product route rather than
@@ -390,24 +378,20 @@ only an open-source launch.
 
 [[person:johanneshotter=>Johannes Hötter]] gives a
 similar story for open-source NLP tooling in
-[[podcast:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
-Around 26:22 and 28:11, he discusses why Kern chose open source and how the team
-weighed distribution against revenue. Around 31:47, he describes open core,
-multi-user SaaS, and services. Around 36:00 and 40:21, Discord support and
-workarounds become part of sales because developer teams need trust before
-adopting a labeling and weak-supervision tool.
+[[cite:building-open-source-nlp-tool|Build Open-Source NLP Tools]].
+Kern weighed distribution against revenue, then combined open core, multi-user
+SaaS, and services. Discord support and workarounds become part of sales because
+developer teams need trust before adopting a labeling and weak-supervision tool.
+Open source builds trust and sends a signal to investors, but it isn't the whole
+business model.
 
-At 56:03 and 57:02, open source builds trust and sends a signal to investors.
-It isn't the whole business model.
-
-Will's Textualize path adds the solo-maintainer-to-company version. Around
-28:08 and 31:40 in
-[[podcast:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]],
-he describes fundraising and building in public after Rich and Textual gained
-attention. This attention wasn't a scripted fundraising funnel. At 38:32 and
-40:28, the planned model is web hosting and add-on features for terminal apps
-with a generous free tier. At 49:37, GitHub Discussions, Discord, and
-contribution channels become part of the product's community surface.
+Will's Textualize path adds the solo-maintainer-to-company version. Fundraising
+and building in public followed attention around Rich and Textual, but that
+attention wasn't a scripted fundraising funnel. The planned model is web hosting
+and add-on features for terminal apps with a generous free tier. GitHub
+Discussions, Discord, and contribution channels become part of the product's
+community surface
+[[cite:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]].
 
 ## Developer Relations and Feedback Loops
 
@@ -419,17 +403,17 @@ project norms, contribution surface, and governance constraints.
 
 Hugo's Metaflow discussion places tutorials and docs in one role. Dogfooding and
 developer feedback sit there too
-([[podcast:devrel-open-source-machine-learning|18:03-36:27]]).
-At 43:14 and 54:31, GitHub portfolios and talks become career signals. Meetups
-and audience-centered tutorials support adoption too.
+([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+GitHub portfolios and talks become career signals. Meetups and audience-centered
+tutorials support adoption too.
 
 [[person:elleobrien=>Elle O'Brien]] adds the data-science
 version in
-[[podcast:devrel-data-science-open-source-tools=>DevRel for Data Science]].
-Her path starts with a visible StyleGAN project at 9:33, then moves into DVC
-and CML. Documentation, pull requests, and videos come next. Community support
-and product signal appear in the same work
-([[podcast:devrel-data-science-open-source-tools|12:20-23:51]]).
+[[cite:devrel-data-science-open-source-tools|DevRel for Data Science]].
+Her path starts with a visible StyleGAN project, then moves into DVC and CML.
+Documentation, pull requests, and videos come next. Community support and
+product signal appear in the same work
+([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
 
 For the full adoption, education, and feedback-loop treatment, use
 [[Open Source and Developer Relations]].
@@ -442,17 +426,17 @@ every part of a paid role. It also doesn't remove the need for governance,
 support, security, or licensing decisions. Teams still need commercial
 strategy.
 
-Bela's investor discussion makes this explicit. At 32:31 and 36:27 in
-[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]],
-he looks for the team, market need, and problem validity behind the repository.
-At 39:01, he warns against reading GitHub stars without engagement context. At
-49:28 and 51:09, he still needs a commercialization model.
+Bela's investor discussion makes this explicit. The team, market need, and
+problem validity behind the repository matter more than the repository alone.
+GitHub stars need engagement context, and the company still needs a
+commercialization model
+[[cite:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]].
 
 Will McGugan gives the career version in
-[[podcast:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
-Open-source work can give a recruiter a body of work at 44:38, but he also says
-good developers can exist without public contributions. Treat open source as
-reviewable evidence, not as the only evidence.
+[[cite:open-source-turned-into-career-and-startup-creation|From Developer to Startup Founder]].
+Open-source work can give a recruiter a body of work, but good developers can
+exist without public contributions. Treat open source as reviewable evidence,
+not as the only evidence.
 
 ## Related Pages
 
