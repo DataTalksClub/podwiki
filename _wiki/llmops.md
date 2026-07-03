@@ -8,165 +8,151 @@ related:
   - AI Engineering
   - Model Monitoring
   - Agent Engineering
+  - Agent Ops
   - Evaluation
+  - LLM Evaluation Workflows
   - LLM Deployment
+  - LLM Cost Optimization
+  - Caching
   - DataOps
   - GitOps for Data Teams
   - MLOps vs DevOps
 ---
 
-LLMOps is the operational discipline for production LLM-based systems and their
-deployment, monitoring, evaluation, and ongoing maintenance. DataTalks.Club
-guests discuss LLMOps as the LLM-specific analogue of [[MLOps]], with concerns
-around prompt caching and trace observability. It also covers LLM-as-judge
-evaluation and human-in-the-loop quality control.
+LLMOps is the operating discipline for production systems built with
+[[llms=>large language models]]. It extends [[MLOps]] into prompts and
+retrieval. It also covers agent traces and evaluation datasets. Provider choice,
+cost controls, guardrails, and human feedback belong in the same operating
+layer.
 
-The topic sits at the intersection of
-[[LLM Production Patterns]],
-[[AI Engineering]], and
-[[Agent Engineering]].
+The topic sits between
+[[LLM Production Patterns]], [[AI Engineering]], and [[Agent Engineering]].
+It also connects to [[Model Monitoring]] and [[Evaluation]].
 
-## Technical Pillars for Shipping AI Products
+The operating boundary is wider than model deployment because LLM systems need
+ingestion pipelines for [[retrieval-augmented-generation=>RAG]]. They also need
+durable workflows for agent or retrieval steps, observability for
+multi-call responses, and evaluation loops. Those loops must survive changing
+prompts, tools, and model versions. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]
 
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
-includes [[person:pauliusztin=>Paul Iusztin]]'s framing of LLMOps as core AI
-engineering work. At 42:28 he names creating and evaluating agents as one skill.
-He also names building data pipelines for RAG ingestion and making data
-available to agents.
+## Shipping Boundary
 
-At 46:31 he recommends Arize Phoenix for monitoring code and storing traces. He
-also mentions LangSmith, BrainTrust, and LangFuse. At 49:08 he explains that a
-trace captures everything that happens between a request and response. A thread
-is a collection of user inputs and outputs.
+Production LLM work combines product code, data pipelines, and model behavior.
+The AI engineering stack includes creating and evaluating agents, ingesting data
+for RAG, and making knowledge accessible to those agents. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]
 
-Paul also recommends durable workflows like Prefect or Dagster for orchestrating
-agent pipelines at 45:49. These provide queues and retries, making code
-resilient during ingestion and retrieval. This bridges
-[[MLOps]] and LLMOps: instead of separate
-orchestrators for data and agents, one tool can handle both.
+Durable workflow tools such as Prefect or Dagster appear in this operating
+layer because ingestion and retrieval need queues, retries, and resilient
+execution. The same workflow layer can coordinate data jobs and agentic steps
+instead of splitting them across unrelated orchestrators. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]
 
-## Agent MLOps: Guardrails and Data Lineage
+## Traces and Debugging
 
-In
-[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]],
-[[person:adityagautam=>Aditya Gautam]] connects agent
-governance directly to MLOps. At 30:26 he links guardrails and data lineage to
-what he calls Agent MLOps. He explains that companies need to understand what
-each agent is doing and how user data is processed. You need to ensure retention
-and data lineage.
+LLMOps observability starts with traces rather than only aggregate metrics. A
+trace records what happens between a request and response. A thread groups the
+conversation-level sequence of user inputs and outputs. That makes it possible
+to sample whole conversations, look at function calls, and debug failures
+inside the chain rather than only judging the final answer. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]
 
-At 35:58 he emphasizes that cost isn't the only concern. Teams also need to
-understand where user data has gone. One entry point agent may send it to
-another agent, put it into a database, or pass it to an external offline
-workflow. Lineage and visibility are essential for regulated environments.
+The tooling examples vary by stack. Arize Phoenix and Logfire appear as trace
+or monitoring tools. LangSmith, Braintrust, and LangFuse appear in the same
+tooling category. The operating habit matters more than the vendor: log the
+intermediate calls early and keep the MVP debuggable. Use those traces for
+failure analysis before adding more architecture. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]] [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
 
-Aditya also covers infrastructure and deployment risks at 56:40. He notes that
-agents are microservices with non-deterministic LLMs, so they should be
-replicable on Kubernetes clusters. At 57:47 he says there's no reason agent
-deployment can't be done on Kubernetes, which handles managing services and
-machines.
+## Evaluation and Regression
 
-## Monitoring and Debuggable MVPs
+LLMOps treats evaluation as a production workflow, not a one-time model score.
+A generator-evaluator loop can have one model create an output and another
+score it with pass/fail feedback. Representative gold tests keep prompt and RAG
+changes measurable, while failure analysis shows whether the next fix belongs
+in retrieval or formatting. It can also show whether model choice or prompt
+design needs to change. [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
 
-In
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]] covers
-monitoring practices that make LLM systems debuggable. At 13:56 he introduces
-the generator-evaluator loop for automated quality control, where one model
-generates output and another evaluates it with pass/fail scoring. At 23:00 he
-discusses gold test sets, cost, and representativeness for evaluation. At 26:43
-he uses failure analysis to decide whether retrieval needs to change.
+Agentic systems add tool calls, parameters, memory, and variable execution
+paths. Public benchmarks like SQuAD test model capability, but
+production agents need system-specific datasets. Tests can mock tools, separate
+integration checks from regression tests, and assert successful outcomes rather
+than one exact tool-call sequence. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
 
-Hugo recommends Braintrust, Arize, and Logfire for evaluation at 51:10. He also
-describes building debuggable MVPs with logging and traces. When something goes
-wrong, teams can look at the steps rather than guessing from the final output.
-At 52:06 he suggests vibe coding some things first to see what's happening
-before adding complexity.
+That makes [[LLM Evaluation Workflows]] a core LLMOps dependency. The
+evaluation set, trace logs, and production feedback need to evolve together as
+the product changes.
 
-## Evaluation Strategy and Testing Agents
+## Guardrails, Lineage, and Human Review
 
-In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] treats
-evaluation as a core LLMOps practice. At 51:17 she recommends custom datasets and
-system benchmarks over public benchmarks like SQuAD, which evaluate model
-capability rather than your specific system. At 53:20 she discusses mocking tools,
-integration tests, and regression tests for agents. She frames the agentic system
-as a software system: input gives predictable output, and you test it accordingly.
+Enterprise LLMOps includes governance around where data goes, what an agent is
+allowed to do, and how teams prove the system behaved correctly. Agent MLOps
+discussions connect guardrails and auditability to regulated use cases. They
+also connect retention and data lineage to finance, legal, and healthcare
+workflows. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-At 56:02 Ranjitha emphasizes outcome assertions rather than exact paths. LLMs
-can reach a goal through different paths. Evaluation should focus on the outcome
-rather than the exact tool-call sequence.
-This connects to [[Evaluation]] and
-[[LLM Evaluation Workflows]].
+Lineage matters because one entry-point agent can send user data to another
+agent, write it to a database, or pass it into an offline workflow. Cost and
+latency are visible symptoms, but data movement and retention determine whether
+the system can satisfy governance requirements. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-## Prompt Caching, Compression, and Cost Optimization
+Human review remains part of the loop even when LLM judges scale evaluation.
+For sensitive systems, golden datasets and LLM-as-judge checks work together.
+Production sampling and human annotators protect the ground truth when judges
+drift or encode bias. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-In
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
-[[person:bartoszmikulski=>Bartosz Mikulski]] discusses
-prompt evaluation and cost tradeoffs at 28:16. He recommends gathering data from
-tests: prepare an evaluation dataset with inputs and expected outputs, then
-measure how well the model performs. At some point, adding more examples stops
-improving results.
+## Feedback Loops
 
-At 30:00 Bartosz introduces prompt compression. The method creates a shorter
-prompt by dropping parts of words or reducing token count. At 31:45
-he discusses prompt caching, where providers like Anthropic cache the shared
-beginning of prompts so you don't resend the entire codebase every time. This
-makes coding tasks cheaper.
+Feedback loops turn production behavior into new evaluation examples. Explicit
+signals such as thumbs up or thumbs down are useful, but implicit signals also
+matter. Users repeat a query, reframe a question, ask why an agent did
+something, or show frustration. Those gaps can become synthetic examples,
+human-labeled examples, fine-tuning data, or new regression tests. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-The
-[[book:20241104-llm-engineer-s-handbook|LLM Engineer's Handbook]] by Paul
-Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These
-techniques connect to
-[[LLM Cost Optimization]] and
-[[Caching]].
+This is where [[Agent Ops]] overlaps with LLMOps. Agents take actions, so
+feedback must cover answer quality and tool use. It must also cover
+permissions, lineage, and human escalation.
 
-## Feedback Loops and Human-in-the-Loop
+## Cost and Model Ownership
 
-Aditya covers feedback collection as an LLMOps practice in
-[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]].
-At 36:55 he discusses user feedback loops, where implicit signals like repeated
-queries or reframed questions indicate frustration. Companies collect these gaps
-from bad user feedback, generate synthetic data or use human labeling teams, and
-fine-tune the LLM to address edge cases. Over time, this iterative process
-improves the evaluation dataset and the model.
+Cost control includes both prompt efficiency and serving choices. Prompt
+compression creates a shorter prompt intended to preserve behavior while
+reducing tokens. Prompt caching reuses the shared part of repeated prompts so
+large context can be reused. A codebase, for example, doesn't have to be
+processed the same way on every request. [[cite:production-ready-ai-engineering|Production AI Engineering]]
 
-At 50:18 Aditya emphasizes aligning LLM judges with human labels. The judge is
-trained on human-annotated data, and you need the judge to correlate above 90%
-or 95% with human ideology. Even ten years down the line, he says, you still want
-humans in the loop as a confidence check. At 59:37 he warns that relying only on
-LLMs is a scary scenario: if any bias is replicated in production, you lose your
-ground truth.
+Teams choose a model-ownership boundary when they deploy. Teams can use
+API-based models for fast prototypes because they can produce a demo quickly.
+Longer-term production
+systems may move toward open-source or self-hosted models for control, privacy,
+and predictable model versions. Latency and cost can push the same choice.
+Hidden provider-side model changes are an operational risk because product
+behavior can shift without the application team changing its own code. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]
 
-## Open-Source Models and Production Deployment
+These tradeoffs connect [[LLM Deployment]], [[LLM Cost Optimization]],
+[[Caching]], and [[AI Infrastructure]].
 
-[[person:meryemarik=>Meryem Arik]] frames the deployment choice between API and
-open-source models as a core LLMOps decision in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-At 49:57 she recommends using API-based models like GPT-3.5 or GPT-4 for
-prototyping because you can get to demos within a day or two. In the long term,
-businesses move to open-source models for control and data privacy. They also
-seek lower cost and more predictable performance.
+## Operating Tradeoffs
 
-At 18:51 she discusses model drift as an API risk: when providers change models
-under the hood, production behavior shifts unexpectedly. That risk pushes some
-teams toward self-hosted open-source models. At 51:35 she explains that
-self-hosting on smaller GPUs or even CPUs can be faster than hosted APIs because
-you control the inference stack. This connects to
-[[LLM Deployment]].
+LLMOps discussions start from different failure modes. One starting point is the
+serving boundary, where teams compare API speed with self-hosting control.
+Another starting point is debugging, where traces and evaluation tools come
+before the system grows. A third is governance, where guardrails and lineage
+control agents that touch sensitive workflows.
+
+The shared operating requirement is ownership. Production LLM teams need to
+know what context was supplied and which tools or models were called. They also
+need cost data, output evaluations, and feedback that can change the next
+version.
 
 ## Related Pages
 
-Continue with these connected LLMOps topics:
+Useful follow-up pages:
 
 - [[MLOps]]
 - [[LLM Production Patterns]]
 - [[AI Engineering]]
-- [[Model Monitoring]]
 - [[Agent Engineering]]
+- [[Agent Ops]]
 - [[Evaluation]]
+- [[LLM Evaluation Workflows]]
+- [[Model Monitoring]]
 - [[LLM Deployment]]
 - [[LLM Cost Optimization]]
 - [[Caching]]

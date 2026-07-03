@@ -334,6 +334,13 @@ Source hints:
 
 Start with this batch when expanding the content set.
 
+- The 2026-07-03 recent-topic gap audit verified and quality-audited the v1
+  recent-topic gap pages: `_wiki/context-engineering.md`,
+  `_wiki/ai-coding-tools.md`, `_wiki/llmops.md`, `_wiki/agent-ops.md`,
+  `_wiki/model-optimization.md`, `_wiki/autonomous-driving-ai.md`, and
+  `_wiki/multimodal-llms.md`. Do not recreate these pages from the stale
+  `.tmp/topic-gap-analysis.md` report. Future work should add narrower subpages
+  only when a new keyword or recurring podcast theme supports them.
 - Resolve the 689-row content gaps export. The local file
   `.tmp/next-actions-done-datatalks.club.xlsx` currently has the expected tabs
   but only header rows, so replace it with the populated export before creating

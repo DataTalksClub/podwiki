@@ -11,103 +11,90 @@ related:
   - Machine Learning System Design
 ---
 
-Model optimization covers techniques for making machine learning models smaller,
-faster, and cheaper to serve in production. These include quantization, knowledge
-distillation, pruning, and on-device inference optimization. These techniques
-apply in contexts from autonomous driving to LLM serving, where general-purpose
-models are often too slow or expensive for real-world deployments.
+Model optimization makes machine learning models smaller, faster, and cheaper
+to serve in production. It includes quantization, distillation, and pruning. It
+also includes fine-tuning, specialized serving, and on-device inference.
+DataTalks.Club discussions place the topic where model quality has to meet hard
+constraints from [[LLM Deployment]], [[AI Infrastructure]], [[Production]], and
+[[Machine Learning System Design]].
 
-The topic connects to
-[[LLM Deployment]],
-[[AI Infrastructure]], and
-[[Production]].
+Optimization follows the deployment target rather than a blanket demand for
+smaller models. Vehicle hardware and phones impose different limits from
+enterprise servers and private GPUs.
 
-## On-Vehicle Inference Constraints
+## Deployment Constraints
 
-On-vehicle inference faces extreme performance constraints. Models running in a
-car must process camera feeds with near-zero latency. You can't wait seconds for
-an LLM to decide whether a pedestrian is in view. The system must react within
-milliseconds, which rules out large general-purpose models for real-time perception
-([[podcast:from-computer-vision-research-to-autonomous-driving-ai|From Computer Vision Research to Autonomous Driving AI]]).
+Autonomous vehicles can't route sensor signals through slow agents or wait
+seconds before reacting. Latency is the constraint.[[cite:s23e07-understanding-ai-engineer-role|AI Engineer Role]]
 
-Model compression techniques include quantization and other speedups. Teams
-reduce model size while maintaining accuracy, so models fit the compute budget
-of automotive hardware. Teams stage deployment, and every release goes through
-multiple safety checks and real-world validation before it reaches vehicles.
-Some improvements roll out every few weeks, while major updates take longer
-([[podcast:from-computer-vision-research-to-autonomous-driving-ai|From Computer Vision Research to Autonomous Driving AI]]).
+In self-driving systems, in-car models run many times per second on vehicle
+hardware. The deployed networks may differ from the training-time networks.[[cite:from-computer-vision-research-to-autonomous-driving-ai|Autonomous Driving]]
 
-## Distillation and Fine-Tuning Priorities
+For production LLMs, hardware cost and privacy matter alongside version control
+and user-facing latency. API models are useful for fast prototyping, but
+business-critical systems may need self-hosted or fine-tuned open-source models.
+That gives teams control over versions, data handling, and performance.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]
 
-Fine-tuning and distillation are active practice, not just theory. As
-you start to productionize what you build, or want lower latency, you may want
-smaller models that run on a phone. At that point, these techniques matter more
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+## Compression and Quantization
 
-Teams will discover patterns in agent solutions and ask whether they can convert
-them into structured data science exercises. Low-latency traditional ML models
-can be a better fit. For example, instead of using an LLM for search at high
-latency, you could use the data the model generates to train an XGBoost model.
-That model is fast and deployable
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
-This connects to [[Machine Learning System Design]].
+Quantization is one public example of model compression in autonomous driving:
+it makes models smaller and faster, alongside other internal optimizations.
+That matters because the vehicle has to understand the world in real time using
+limited onboard compute.[[cite:from-computer-vision-research-to-autonomous-driving-ai|Autonomous Driving AI|23:28]]
 
-Once you have a big enough use case, distillation and fine-tuning become
-necessary. While learning, theoretical awareness is sufficient. Once you deploy
-to a self-driving car, you need to learn about distillation
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+Compression is also a serving concern for language models. TitanML started from
+deep-learning compression, and its deployment value comes from reducing the GPU
+requirements for large models. The stack includes model fine-tuning, significant
+compression for BERT-style models, and an optimized inference server for
+on-premise or CPU-backed LLMs.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]
 
-## Serving Challenges: Model Size and Compression
+## Distillation, Fine-Tuning, and Smaller Models
 
-Model compression is a deployment necessity. Serving challenges center on model
-size, compression, and inference optimization. TitanML focuses on making LLMs
-smaller and cheaper to deploy.
+Fine-tuning and distillation are practical production techniques, but they're
+not the first thing a beginner needs to master. They become important when a
+prototype has to run faster or fit constrained hardware. They also help when the
+model must become cheaper or better adapted to a task.[[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
 
-API providers can serve models quickly because they run on expensive hardware.
-Most businesses deploy on smaller GPUs or CPUs. On that hardware, compression
-and optimization tools can deliver comparable or faster speeds at much lower cost
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Two optimization moves recur in these episodes: fine-tuning specializes a model,
+while distillation and related compression techniques reduce serving cost or
+latency. Both are most useful after the team knows what the system has to do in
+production.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]][[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
 
-TitanML frames the work as Train, Optimize, and Takeoff, with optimization
-reducing model size for target hardware. Shifting from API to self-hosted models
-gives teams control over model versioning. Model drift is a risk when API
-providers change models under the hood. Production behavior shifts, and
-self-hosting optimized open-source models avoids this
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+## Replacing General LLM Calls
 
-## Local Models and Smaller Task-Focused LLMs
+Some optimization is architectural rather than numeric because an LLM can help a
+team structure unstructured data. The deployed system might later use those
+generated labels or features to train a lower-latency traditional ML model. For
+search, a slow LLM-based workflow can become an XGBoost-style model when the
+task is stable enough.[[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
 
-People increasingly run LLMs locally on private GPUs because hosted models and
-bandwidth get expensive. GPUs are becoming affordable enough for people to run
-models themselves
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to Modern AI Agents]]).
+That tradeoff belongs with [[Machine Learning System Design]]. The production
+model is chosen for latency, reliability, and maintainability, not for novelty.
 
-Smaller, task-focused models will emerge. Current models are huge and
-general-purpose, but future models will be more efficient and specialized.
-Speakers cite capable 120-billion-parameter open-source models paired with
-low-latency providers. Those providers can offer one-to-two-second response
-times compared to four or five seconds for larger models
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to Modern AI Agents]]).
-This connects to [[LLMs]] and
-[[LLM Deployment]].
+## Local and Specialized LLMs
 
-## Specialized Models for Cost and ROI
+Local serving is another optimization path. Teams may find hosted model calls
+and bandwidth expensive, while private GPUs make local models more plausible.
+The same discussion points toward smaller task-focused models. They can replace
+some general-purpose calls when the narrower model does the same work more
+efficiently.[[cite:from-game-ai-to-modern-ai-agents|From Game AI to Modern AI Agents]]
 
-Model optimization connects to enterprise economics. Rather than paying high
-costs and latency with a general-purpose LLM API, enterprises fine-tune models
-and bring them to a smaller scale. They do this to save cost and improve ROI.
-Companies also develop agents for specific purposes in finance or marketing
-using smaller, optimized models
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+A separate agent discussion frames specialization as enterprise economics.
+High-volume finance, marketing, and legal use cases may justify fine-tuned or
+smaller-scale models. The investment depends on API call volume, latency,
+governance, and long-term ROI.[[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-Enterprises also use specialized models for agent governance. The move toward
-fine-tuned, smaller models isn't just about cost. It also improves control over
-what the agent does, which matters for regulated industries
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+## Version Control and Drift
+
+Optimization can also mean controlling the model artifact. API providers may
+change models behind the scenes, which can shift product behavior without the
+application team choosing a release. Teams that self-host open-source models can
+pin versions. They decide when to distill, prune, or upgrade under their own
+release process.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]
 
 ## Related Pages
 
-For more deployment and infrastructure context, see:
+More deployment and infrastructure context:
 
 - [[LLM Deployment]]
 - [[AI Infrastructure]]

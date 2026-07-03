@@ -5,130 +5,117 @@ summary: "AgentOps: orchestration, guardrails, data lineage, deployment risks, a
 related:
   - Agent Engineering
   - Multi-Agent Systems
+  - LLMOps
   - LLM Production Patterns
+  - LLM Evaluation Workflows
+  - Model Monitoring
   - MLOps
   - AI Engineering
+  - Responsible AI and Governance
+  - AI Red Teaming
 ---
 
-Agent Ops is the operational discipline for deploying, monitoring, and governing
-AI agents in production. It applies the lessons of
-[[MLOps]] to agentic systems, adding concerns
-specific to autonomous tool use, multi-step reasoning, and the non-deterministic
-behavior of LLM-backed systems.
+Agent Ops is the operating discipline for deploying, monitoring, evaluating,
+and governing AI agents in production. It applies [[MLOps]] habits to
+LLM-backed systems that plan, call tools, route work to other agents, and take
+actions in user or business workflows.
 
-The field of agent ops "will continue to evolve," a direct parallel to how data
-science matured into MLOps. The trajectory runs from experimentation to
-engineering rigor, with monitoring and evaluation becoming standard practice
-([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
+The topic sits inside [[Agent Engineering]] and next to [[LLMOps]]. LLMOps
+covers the broader production layer for LLM systems. Agent Ops narrows the
+focus to autonomous tool use and orchestration. It also covers data lineage,
+human escalation, and production feedback for agents.
 
-Agent Ops builds on
-[[Agent Engineering]],
-[[LLM Production Patterns]],
-and [[agent-engineering|AI Agents]].
+## Orchestration and Services
 
-## Orchestration and the Rise of Agent Ops
+Agents create an orchestration problem beyond a single model call. The system
+has to decide when to invoke tools and how to pass work to sub-agents or other
+models. Evaluation output then needs to feed back into changes in the agent. [[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
 
-Orchestration is a core AI engineer skill that distinguishes agent work from
-simple API calls. Agents must decide when to invoke tools, how to route decisions
-between tools or sub-agents, and how to incorporate evaluation feedback into
-improvements. Starting with one orchestration framework and developing depth
-before experimenting with alternatives works better than sampling many at once,
-like a gym routine that starts with one exercise before trying all fifteen
-([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
+Framework depth matters more than tool sampling at the learning stage. One
+discussion recommends starting with one known orchestration tool, developing
+depth, and only then comparing alternatives for a specific use case. [[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
 
-Agent ops descends from the data science lineage. MLOps brought monitoring of
-data drift and concept drift to machine learning models, and agents follow the
-same path. The field "oscillates" between being a statistical exercise and an
-engineering exercise, and agent ops is where those two modes meet
-([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
+Infrastructure can look familiar because an agent may be a service that talks
+to an LLM inference service. CPU and GPU workloads may run as separate services,
+and customer replicas can be configured independently. Kubernetes is discussed
+as a reasonable deployment layer when the organization already uses it. Agents
+still need service management, replication, and machine coordination. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
 ## Guardrails and Data Lineage
 
-Guardrails and data lineage form part of what is called Agent MLOps. Sensitive
-industries like healthcare and legal require handcrafted automation with a human
-in the loop to ensure correctness. Even with sophisticated
-[[retrieval-augmented-generation=>RAG]] and vector databases, "this is a field
-where you cannot mess up"
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+Agent Ops adds governance because an agent can move data or call sensitive
+tools. Guardrails, auditability, retention, and data lineage become operating
+requirements when an agent processes user data. They also matter when an agent
+sends data to another agent, writes it to a database, or sends it to an offline
+workflow. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-Guardrails constrain agent actions. For an airline customer service agent,
-guardrails might require a human in the loop for refunds above a certain amount.
-Red teaming stress-tests adverse scenarios, and guardrails wrap sensitive tool
-calls like Stripe API payments. Performance thresholds determine whether an
-agent can deploy, but edge cases still route to a human queue
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+Action guardrails set boundaries around tool calls. An airline support agent
+might handle routine booking questions but route high-value refunds to a human
+queue. A payment workflow might require guardrails around a Stripe API call,
+plus red-team tests for adverse scenarios before deployment. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-## Agent Infrastructure and Deployment Risks
+These concerns connect Agent Ops to [[Responsible AI and Governance]] and
+[[AI Red Teaming]] because the operating question covers more than answer
+quality. It also covers authorized actions and explainable data paths.
 
-Kubernetes suits agent deployment, since every agent is "basically a simplistic
-microservice with a fancy non-deterministic LLM." Nothing prevents agent
-deployment on Kubernetes, though GPU and CPU workload mixing may require separate
-services. Over-reliance on agents is a risk: "do not be too reliant on agents.
-They might get consciousness at certain point in time"
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+## Evaluation and Human Labels
 
-The ground truth problem remains. Even if an LLM-as-judge reaches high accuracy,
-human-in-the-loop sampling is still needed; without it, there is no way to detect
-bias that replicates in production over time. Agents should never operate
-completely autonomously, regardless of their measured accuracy
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+Agent evaluation needs system-specific datasets. Public model benchmarks test
+model capability, but agents need examples that represent real users and
+expected tool behavior. The examples also need to represent the product's goal.
+For a calendar assistant, tests can mock external tools and run integration
+checks. They can assert that a valid invite was created instead of demanding one
+exact reasoning path. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
 
-## Evaluation Strategy for Agents
+Multi-tenant systems repeat this work per customer. Each tenant may need
+its own golden dataset, pass thresholds, red-team cases, and human-labeling
+budget because data can't always be pooled across customers. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-Custom datasets and system benchmarks beat public benchmarks like SQuAD, which
-evaluate model capability rather than system quality. Agent testing mirrors
-software engineering testing: mocked tools, integration tests, and regression
-tests with 200-300 test cases for a calendar agent
-([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)).
+LLM-as-judge can scale evaluation, but it doesn't remove the need for human
+labels. Human labels calibrate the judge, and production samples detect gaps.
+Ongoing human checks protect against judge drift or bias being replicated in
+production. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-Goal-based evaluation checks whether the goal was achieved rather than the exact
-tool-call path. Finding a skip-level manager directly or by traversing an org
-chart are both valid approaches; the assertion checks the outcome, not the path.
-This is a key distinction from traditional software testing
-([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)).
+## Monitoring and Feedback
 
-The generator-evaluator pattern runs a loop where one model generates output and
-another evaluates it, scoring pass or fail with feedback. Gold test sets, cost,
-and representativeness shape the evaluation set, and failure analysis decides
-whether retrieval needs to change. These evaluation habits become more important
-when systems start calling tools and taking actions
-([Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)).
+Agent monitoring needs traces, prompts, tool calls, and outcome feedback. Arize
+Phoenix appears as one example for monitoring LLM communication
+and prompts. Other LLMOps discussions mention Braintrust, Logfire, LangSmith,
+and LangFuse as evaluation or trace tools. [[cite:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]] [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]
 
-## Aligning LLM Judges with Human Labels
+Production agent feedback includes explicit signals such as thumbs up or down.
+It also includes implicit signals when users repeat queries or reframe
+questions. Frustration and "why did it do that?" messages identify missing
+cases too. Those gaps can become evaluation examples, synthetic data,
+human-labeled data, or fine-tuning inputs. [[cite:s23e03-future-of-ai-agents|The Future of AI Agents]]
 
-Aligning LLM judges with human labels matters at scale. In a multi-tenancy
-scenario, each customer needs a golden dataset, and evaluation must reach more
-than 95% accuracy, with critical cases at 100%. An LLM-as-judge fine-tuned on
-human data within the use case may still carry bias, so the judge's correlation
-with human annotators should stay above 90-95%. Sampling from production traffic
-and sending it to human annotators is how teams understand gaps and detect drift
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+Debuggable MVPs matter because agent failures are hard to infer from final
+answers alone. Logging traces and function calls early gives teams a way to see
+what happened before they add more tools or autonomy. [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
 
-## Evaluation and Monitoring Tools
+## Agent Ops Versus LLMOps
 
-Evaluation connects to production monitoring. Evaluation pipelines and tools like
-Arize Phoenix monitor LLM communication and prompts, applying data science
-techniques for success metrics: controlling variables and explaining agent
-behavior for production applications
-([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)).
-For a broader comparison of open-source and free options such as Arize Phoenix,
-LangSmith, DeepEval, and Ragas, see
-[Open Source and Free AI Agent Evaluation Tools](https://datatalks.club/blog/open-source-free-ai-agent-evaluation-tools.html).
+General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.
+Agent Ops has to operate decisions. The production surface includes which tool
+was chosen, which data source was accessed, whether escalation happened, and
+whether the final outcome satisfied the task.
 
-At enterprise scale, feedback intelligence tools analyze production logs to
-identify where users are frustrated, feed that into evaluations, and support
-fine-tuning, much as cloud providers made databases easier through managed
-services like MongoDB and Redis. Agent evaluation infrastructure is becoming a
-similar standardized layer
-([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
+That changes the reliability model. Tests need to cover tool availability,
+parameters, permissions, and goal completion. Monitoring needs to preserve
+intermediate steps. Governance needs to explain data movement and action
+boundaries. Feedback needs to update both the model-facing evaluation set and
+the workflow rules around the agent.
 
 ## Related Pages
 
+Useful follow-up pages:
+
 - [[Agent Engineering]]
-- [[agent-engineering=>AI Agents]]
-- [[multi-agent-systems=>Multi-Agent Systems]]
+- [[Multi-Agent Systems]]
+- [[LLMOps]]
 - [[LLM Production Patterns]]
-- [[MLOps]]
 - [[LLM Evaluation Workflows]]
-- [[Production]]
+- [[MLOps]]
+- [[Model Monitoring]]
 - [[Responsible AI and Governance]]
+- [[AI Red Teaming]]

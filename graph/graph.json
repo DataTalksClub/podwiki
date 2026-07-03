@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11211
+    "links": 11220
   },
   "nodes": [
     {
@@ -22624,31 +22624,37 @@
     {
       "source": "wiki:agent-ops",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
       "target": "podcast:practical-llm-engineering-and-rag",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
       "target": "podcast:s23e03-future-of-ai-agents",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
       "target": "podcast:s23e07-understanding-ai-engineer-role",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -22671,12 +22677,30 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -22684,6 +22708,18 @@
     {
       "source": "wiki:agent-ops",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:llmops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:llmops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -22701,6 +22737,18 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -22710,12 +22758,6 @@
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:agent-ops",
-      "target": "wiki:production",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:agent-ops",
@@ -22725,9 +22767,9 @@
     },
     {
       "source": "wiki:agent-ops",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-chip",
-      "weight": 1
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:ai",
@@ -23145,6 +23187,36 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:krzysztofszafanek",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:marianosemelman",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:revathyramalingam",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -23244,6 +23316,12 @@
       "target": "wiki:ai-tooling",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-coding-tools",
@@ -27678,18 +27756,6 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:autonomous-driving-ai",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:autonomous-driving-ai",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:autonomous-driving-ai",
@@ -56115,48 +56181,6 @@
     },
     {
       "source": "wiki:llmops",
-      "target": "book:20241104-llm-engineer-s-handbook",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:adityagautam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llmops",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -56205,6 +56229,18 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -56217,9 +56253,21 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
       "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:caching",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llmops",
@@ -56253,6 +56301,12 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
       "target": "wiki:llm-deployment",
       "kind": "wiki-chip",
       "weight": 1
@@ -56271,6 +56325,12 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -56280,6 +56340,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llms",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llmops",
@@ -56310,6 +56376,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llms",
@@ -64834,24 +64906,6 @@
     {
       "source": "wiki:multi-agent-systems",
       "target": "wiki:tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:multimodal-llms",
-      "target": "person:adityagautam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:multimodal-llms",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:multimodal-llms",
-      "target": "person:danielsvonava",
       "kind": "wiki-chip",
       "weight": 1
     },

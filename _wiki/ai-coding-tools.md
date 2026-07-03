@@ -13,146 +13,134 @@ related:
 ---
 
 AI coding tools are IDE-integrated or terminal-based assistants that use large
-language models to generate, complete, refactor, and review code. Cursor,
-GitHub Copilot, Claude Code, and web-based prototyping tools like Lovable all
-belong here. They're a practical shift in how AI engineers build products, not a
-replacement for engineering judgment. They bring productivity gains, workflow
-changes, and the risk of building systems you don't understand.
+language models to generate, complete, refactor, and review code. Cursor, GitHub
+Copilot, Claude Code, and web-based prototyping tools like Lovable all belong
+here. In DataTalks.Club episodes, guests describe these tools as a practical
+shift in [[AI Engineering]] and [[Software Engineering]]. They speed up
+prototypes and help developers move across stacks. They also make review
+discipline more important.
 
-The topic spans [[AI Engineering]] and [[Agent Engineering]]. Coding assistants
-are both a daily tool and an example of agents embedded inside developer
-environments.
+The topic also overlaps with [[Agent Engineering]] and [[Prompt Engineering]].
+Coding assistants are daily development tools, but they're also examples of
+agents embedded in IDEs and terminals. Some also run in Slack, pull requests,
+and notebook-adjacent work.
 
-## The Cursor Workflow
+## Cursor and Copilot in Daily Coding
 
-Cursor can serve as a primary coding assistant for professional work. It doesn't
-generate an entire application from one prompt, but it helps with smaller
-functions. Given a function signature and docstring, it can generate the rest
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+In [[podcast:production-ready-ai-engineering=>Production AI Engineering]],
+[[person:bartoszmikulski=>Bartosz Mikulski]] describes Cursor as useful for
+professional coding when it's applied to bounded work. It may not generate an
+entire application from one prompt, but it can fill in a function from a
+signature and docstring. It also sped up his Chrome extension work, even when
+the generated code needed correction [[cite:production-ready-ai-engineering|Production AI Engineering|42:05]].
 
-Against GitHub Copilot, Cursor's key advantage is referencing files directly
-without copy-paste. Its composer can edit multiple files or run command-line
-commands. Copilot was strong when it first came out, but Cursor is now
-considered much better
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+Cursor fit Bartosz's workflow because it referenced files directly and avoided
+copy-paste. Its composer could edit multiple files and run commands [[cite:production-ready-ai-engineering|Production AI Engineering|45:24]].
 
-For non-coders, Cursor is recommended because it's more visual. For coders,
-specialized tools give you a lot for twenty dollars a month. GitHub Copilot at
-ten dollars a month provides far more than ten dollars in value
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+In [[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]],
+[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] recommends Cursor for non-coders
+because it's visual [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside AI Engineer Role|1:02:16]].
+He also says specialized coding tools and GitHub Copilot can offer strong value
+for working developers.
 
-## Agentic Coding and Notebook Replacement
+## Prototypes and Vibe Coding
 
-The shift from notebooks to agentic coding tools changes how AI engineers
-organize their work. Creating Streamlit applications or CLI tools has become
-cheap enough that a Streamlit app can explore a new model instead of relying on
-notebooks. Notebooks are becoming less relevant for production work, partly
-because agentic coding tools make other approaches more practical
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
+Vibe coding means prompting an AI dev tool to turn an idea into a prototype. In
+the career-break episode, Revathy's version includes a UI plus a backend and
+database.
+[[person:revathyramalingam=>Revathy Ramalingam]] describes starting with
+Lovable for the UI. She then used prompts to assemble a project called Vigilance
+AI. That gave her confidence that an idea could become a working artifact [[cite:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer|22:15]].
 
-With agentic coding, keep report notebooks small. Put any code not intended for
-the report in `.py` files next to the notebook. Then use the notebook mostly
-for imports and helper calls, while the scripts stay reusable. Claude Code can
-strip JSON out of Jupyter notebooks entirely, producing plain Python notebooks
-in about an hour
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
+This use is mostly prototyping and learning.
+In [[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
+[[person:marianosemelman=>Mariano Semelman]] gives the caution.
 
-## Vibe Coding and Prototyping with AI Dev Tools
-
-Vibe coding means prompting AI tools to build applications instead of writing
-code manually. An AI Dev Tools bootcamp taught it by starting with Lovable to
-create a UI
-([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]]).
-It then prompted for a front end, back end, and database before integrating
-them. Building Vigilance AI this way gave the confidence to convert an idea into
-a working project.
-
-The natural tendency is to let the AI write code without understanding it. For
-production systems, every single line should be understood. For personal
-projects, less depth is acceptable. When using AI-generated code, ask what's
-happening on every line. Rename things for clarity and treat the generated code
-as a learning opportunity
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+Agentic coding can turn an idea into working code and help with bugs. But he
+warns that sustainability is questionable when the developer has no
+expertise in the area and relies only on the agent [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|Notebook to Production|29:06]].
+That keeps the page's center of gravity on engineering judgment rather than
+generic "AI can build anything" advice.
 
 ## LLMs as Sparring Partners, Accelerators, and Review Targets
 
-LLMs can start code from a blank screen. They can also pressure-test
-architecture questions about platforms, permissions, and pipeline design. The
-caveat is that confident answers still need an engineer who can validate the
-details. That matters most when the answer is hard to check with a normal search
-[[cite:how-to-grow-your-ml-engineering-career|Growing an ML Engineering Career]].
+LLMs help with more than code generation. In the ML engineering career episode,
+[[person:krzysztofszafanek=>Krzysztof Szafanek]] describes using them to get
+unstuck and draft code. He also uses them to pressure-test architecture
+questions, while still validating platform, permission, and pipeline details
+himself [[cite:how-to-grow-your-ml-engineering-career|Growing an ML Engineering Career|22:01]].
 
-This connects [[Prompt Engineering]] to [[Software Engineering]]. The prompt can
-produce a useful draft, but tests, review, and architecture judgment decide
-whether generated code belongs in the system.
+That links [[Prompt Engineering]] to [[Software Engineering]] because the prompt
+can produce a useful draft. Tests, debugging, and architecture review decide
+whether it belongs in the system.
 
-LLM assistance can compress multi-day coding work
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling to Tesla Data Engineering]].
-It helps most with code generation and refactoring. It also helps with
-documentation and platform support. The risk is treating that speed as proof
-that AI can solve every engineering problem.
+Abouzar Abbaspour makes the same point. LLM assistance can compress coding and
+refactoring work [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park to Tesla|41:43]].
+But speed doesn't remove responsibility for understanding the product,
+deployment path, and data behavior.
 
-Code needs review before shipping
-[[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]].
-A prototype can seem to work while hiding data, migration, or architecture
-mistakes. For production-facing systems, responsible use means asking the tool
-for the patch. Then check access paths and tests. Also check operating impact
-and long-term code quality.
-
-Depth matters before breadth in [[AI Tooling]] and [[Agent Engineering]]
-[[cite:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]].
-
-Start with one known framework or code assistant. Build enough judgment to
-compare alternatives later for a specific use case or vendor constraint. Coding
-assistants follow the same approach. Broad tool awareness is useful, but the
-productivity gain comes from knowing how one tool edits files. It also comes
-from knowing how that tool uses context, runs commands, and fails.
+Nasser Qadri's AI engineer discussion makes the production bar explicit.
+Code generated by AI still sits inside software systems. Those systems need
+engineering rigor, not just API calls or a working demo [[cite:s23e07-understanding-ai-engineer-role|AI Engineer Role|42:05]].
 
 ## Token Management and Prompting Strategies
 
-Running out of tokens is a practical constraint. Plan mode avoids burning
-tokens, and starting from templates rather than generating a frontend from
-scratch saves many tokens. A Next.js template avoids generating every file.
-Thinking clearly about what to build before prompting also reduces waste. Figma
-mockups or brainstorm mode can narrow scope
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+Ruslan treats token limits as a design constraint in coding sessions. He uses
+plan mode, starts from templates, and passes Figma mockups or screenshots. He
+also thinks through the build before asking the model to generate files [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role|1:01:07]].
 
-Voice mode can dump a brain-worth of context into the AI over five minutes,
-looking at the problem from several perspectives. The AI then generates a
-structured summary that becomes the prompt, instead of requiring careful phrasing
-by hand
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+This is the coding-tools version of [[context-engineering=>Context Engineering]].
+The assistant performs better when the developer supplies clear scope, existing
+files, and reusable starting points. It performs worse when asked to invent the
+whole application from scratch.
 
-## Embedded Agents in IDEs and Workflows
+Voice mode is another way to gather context. Ruslan uses it to dump several
+minutes of problem context. The model's structured summary then becomes the
+working prompt [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role|1:01:07]].
+The value isn't magic phrasing. The value is getting enough relevant project
+state into the assistant.
 
-Some agents live inside normal interfaces, and Cursor and Devon can run in
-Slack. An assistant can be tagged to update documentation or perform tasks
-directly. The progression starts with copy-pasting between ChatGPT and the IDE.
-It moves through code completion and agents in IDEs or terminals. Background
-agents now do code reviews and continuous integration
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+## Notebooks, CLI Tools, and Streamlit
+
+Agentic coding changes how some data teams organize exploratory work. Mariano
+still uses notebooks for quick exploration or reports. Main pipelines or large
+evaluations often belong in CLI tools or production scripts. Because agentic
+coding makes Streamlit apps and CLIs cheaper to create, teams can move some
+notebook work into reusable interfaces [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production|54:23]].
+
+For notebooks, keep report notebooks small. Put analysis logic or functionality
+into `.py` files next to the notebook. Then the notebook mostly imports helpers
+and shows output [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production|56:37]].
+The episode also gives a concrete Claude Code example. Claude Code removed
+Jupyter JSON and produced a plain Python notebook format in about an hour [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production|56:10]].
+
+## Embedded Agents in Developer Workflows
+
+Some agents live inside normal interfaces. Hugo mentions Cursor and Devon in
+Slack, where a tagged assistant can update documentation or perform tasks. The
+sequence starts with copy-pasting between ChatGPT and the IDE. It then moves
+through code completion and agents in IDEs or terminals. Background agents now
+do code reviews and continuous integration [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|31:56]].
 
 A GitHub issue can be assigned to Copilot and come back as a pull request within
 half an hour. Proactive agents extend this by flagging production events or
 organizing a schedule. Multiplayer agents remain a problem. When multiple people
 ping the same agent it gets confused, and models may need fine-tuning for
-multiplayer conversations
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+multiplayer conversations [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|33:14]].
 
-## Learning with AI Instead of Just Coding
+## Learning from AI-Generated Code
 
-Coding tools double as learning tools. Notebooks become a place for quick
-exploration or reports, while the main pipeline runs as a CLI tool built with
-agentic coding. LLMs plus coding agents can replace notebooks with Streamlit
-apps when reproducibility matters
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
+Across these episodes, the strongest learning lesson is active review. Ruslan warns that
+people tend to let the tool write code without understanding it. For production
+systems, he says the developer should understand every line. They should ask
+what's happening and rename things until the code is clear [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role|1:03:37]].
 
-Reading everything the AI generates builds knowledge. Engineers who use Claude
-over time see more TypeScript and SQL code elements. That shifts attention
-toward how code should look and scale rather than syntax details like semicolons
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
-This connects to [[Software Engineering]] and [[Prompt Engineering]], where the
-engineer's role shifts toward architecture and review.
+Paul Iusztin gives the same lesson from the AI engineer skill stack. He reads
+the code generated by Claude or Cursor. He says repeated exposure expanded his
+TypeScript and SQL knowledge. That shifted his attention from syntax details to
+how code should look and scale [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack|32:17]].
+Used this way, coding assistants become review targets and learning surfaces,
+not just code printers.
 
 ## Related Pages
 

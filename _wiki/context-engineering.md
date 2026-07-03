@@ -13,127 +13,107 @@ related:
 ---
 
 Context engineering is the deliberate design of what information goes into an
-LLM prompt. It is a reframing of
-[[Prompt Engineering]] that shifts
-attention from instruction phrasing to the selection, structure, and packaging of
-the data the model sees. Where prompt engineering asks how to write instructions,
-context engineering asks what context to provide and how to shape it so the model
-can use it well.
-
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] introduces
-the term in
+LLM prompt. It extends [[Prompt Engineering]] beyond instruction phrasing. The
+work is choosing and packaging the data the model sees.
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] defines the shift in
 [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-At 27:59, she calls it "more of a rephrasing or rewording of the whole thing so
-that you look at it from a different perspective." At 28:52, she frames context
-engineering as a subfield of prompt engineering focused on being "more deliberate
-about what information you give the LLM rather than stuffing everything in."
+Context engineering means being deliberate about which information reaches the
+model instead of "stuffing everything in" [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|28:52]].
 
-The topic sits at the intersection of
-[[retrieval-augmented-generation=>RAG]],
-[[Embeddings]], and
-[[Agent Engineering]]. Every
-retrieval pipeline, agent memory design, and production prompt strategy touches
-it.
+The topic connects [[retrieval-augmented-generation=>RAG]], [[Embeddings]],
+[[Agent Engineering]], and [[LLM Production Patterns]]. Retrieval pipelines
+engineer context by selecting passages. Agents engineer context by exposing
+tools, memory, examples, and state only when the task needs them.
 
-## The Noise Problem and Garbage-In, Garbage-Out
+## Reducing Noise
 
-The core motivation for context engineering is that LLMs degrade when given too
-much irrelevant information. Ranjitha's 29:30 section makes this explicit: "it
-is latency, it is cost, and it is also garbage in, garbage out. If you put a lot
-of noise in, then your model only has so much to work with." She notes that
-models have become more capable and can fill a 32k context window, but "beyond
-that, many models don't do very well." Reducing the context window so the LLM
-isn't burdened with runtime processing is the starting point.
+Recent LLM episodes keep returning to the same constraint: larger context
+windows don't remove the need for selection. Ranjitha argues that noisy prompts
+increase latency and cost. They also create a garbage-in/garbage-out failure
+mode. Even with 32k-token windows, she recommends preprocessing and sending a
+smaller context when reliability matters [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|30:27]].
 
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]] makes
-the same point through the concept of context rot in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-At 46:39, he references Jeff Huber and the Chroma team's essay on context rot:
-"giving too much context can reduce precision and relevance." He illustrates it
-with a concrete observation: when processing a long transcript, the model
-reformats things nicely at the start but "by the end it gets sloppy." His advice
-at 47:26 is practical: "if something is really important, say it at the start of
-your prompt and repeat it at the end."
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] makes a similar point in
+[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+through context rot. Long prompts can reduce precision and relevance. Important
+instructions may need prominent placement at both the beginning and end of the
+prompt [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|46:39]].
+For context engineering, "more context" isn't automatically safer. The useful
+work is deciding what deserves attention.
 
-## Context Window Limits and the 32k-64k Performance Drop
+## Long-Context Boundaries
 
-[[person:lavanyagupta=>Lavanya Gupta]] provides empirical
-evidence on context window performance in
-[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research & Career Growth]].
-Her team at JP Morgan benchmarked long-context LLMs on financial concepts. At
-12:36, she reports "a clear dip" around the 32k token boundary. They split
-evaluations into less than 32k tokens and greater than 32k tokens. She adds that
-public benchmarks tend to use artificially simplified tasks, but real-world
-specialized domains like finance and healthcare expose the pitfalls of longer
-contexts more sharply.
+[[person:lavanyagupta=>Lavanya Gupta]] adds evaluation evidence from financial
+LLM benchmarking. In
+[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research & Career Growth]],
+she says her team split long-context tests below and above 32k tokens. They saw
+a clear dip around that boundary. Those specialized domains also exposed
+pitfalls that public benchmarks can hide [[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research & Career Growth|12:36]].
 
-This finding aligns with Ranjitha's practical observation that many production
-use cases stay within 32k tokens and that pushing the boundary to 128k degrades
-reliability. Lavanya's published work at EMNLP, "Long Context LLMs on Financial
-Concepts," documents this systematically.
+At the bank, the practical response was still to chunk large inputs before
+downstream processing. The team kept doing this even when they used models
+advertised with much larger windows [[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research & Career Growth|14:54]].
 
-## Chunking Strategies
+This supports the same production instinct as Ranjitha's RAG discussion.
+Long-context models can help, but teams still need retrieval or preprocessing
+when the material is large. Summarization can help when the material is
+specialized or hard to verify.
 
-Chunking is the most direct context engineering technique: breaking documents
-into pieces that fit the model's attention and the retrieval pipeline.
+## Chunking and Source Structure
 
-Hugo's 45:01 section in his episode gives a data-driven approach. He says
-chunking "depends entirely on the structure of the content." For a podcast
-transcript, chunking by question-and-answer pairs or speaker turns makes sense.
-For five-person conversations, chunking by topic might be better. He advises
-studying the raw data: Zoom provides closed captions without names and a full
-transcript with speaker names, and the richer version is more useful for
-chunking. His practical starting point at 48:57 is "fixed character-length
-chunks" refined from there, noting that "more complex methods often
-overcomplicate things."
+Chunking is the most visible context engineering technique, but Hugo stresses
+that it depends on the data structure. For podcast transcripts, he suggests
+question-and-answer pairs or speaker turns. For multi-person conversations,
+topic-based chunks may work better. For unfamiliar material, the first step is
+to look at the raw source rather than assume one universal split [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|45:01]].
+His pragmatic starting point is fixed-length chunks, then refinement based on
+observed failures [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|48:57]].
 
-Ranjitha's 32:48 section adds the metadata layer. She explains that breaking a
-document into 200-line chunks is "almost always lossy." The engineering work is
-embedding context into each chunk: which document it comes from, what question
-it tries to answer, and what has been learned so far. She also describes
-wrappers that present information in a way that is "more conducive for the LLM to
-understand." At 34:02, she adds that agents can be influenced by showing
-available tools and past problem-solving examples, all of which shape the output
-through context rather than instructions.
+Ranjitha adds that length-based chunking is often lossy unless each chunk has
+the surrounding context. The model needs the source document, the question the
+chunk helps answer, and what the system has already learned [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|32:48]].
+That connects chunking to [[Embeddings]] and [[retrieval-augmented-generation=>RAG]]:
+retrieval quality depends not only on vector similarity. It also depends on
+whether the retrieved unit is self-contained enough for the model to use.
 
-## Metadata, Wrappers, and Context Shaping
+## Metadata, Wrappers, and Tools
 
-Beyond chunking, context engineering includes the structures that frame the
-retrieved information for the model. Ranjitha's 32:48 section names three
-elements: the chunk itself, metadata about the chunk, and a wrapper that
-presents the information. The wrapper might format retrieved passages with
-headers, indicate source documents, or add task-specific context.
+Context engineering also includes the wrapper around retrieved information.
+Ranjitha describes wrappers as structures that present chunks in a form the LLM
+can use. She also treats tool lists and prior problem-solving examples as
+context that influences the output [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|34:02]].
 
-This connects to [[Agent Engineering]]
-because agents use context engineering not only for retrieval results but also
-for tool descriptions, past examples, and reasoning traces. Ranjitha at 35:09
-frames search and information retrieval as tools themselves, used when needed
-rather than applied everywhere.
+For [[Agent Engineering]], context can include tools, API affordances and memory
+alongside source metadata, user state and similar-problem history.
 
-## When to Retrieve and When to Avoid It
+That framing also explains why search isn't always the whole answer. Ranjitha
+describes search and information retrieval as tools an agent may use when needed,
+not a flow to apply everywhere [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|35:09]].
 
-A key context engineering decision is whether to retrieve at all. Hugo's 44:26
-section gives a practical example. An edtech company wanted an all-purpose AI
-tutor, but their support tickets revealed that 20% were simple questions like
-"which class is this lesson in?" A simple
-[[retrieval-augmented-generation=>RAG]] bot with good chunking and embeddings
-could solve one in five support tickets immediately. That is less flashy than a
-moonshot tutor but delivers real business value. The lesson is that context
-engineering should match the actual information need, not the aspirational one.
+## RAG, Agents, and Scope
 
-Ranjitha's 38:13 section adds the boundary between RAG and agents. RAG works
-well when the search space is large and the task is simple, like finding an
-answer in millions of documents. It is less good when context matters
-dynamically, like time of day or current state. When problems involve multiple
-data sources, dynamic planning, or multiple API integrations, the system moves
-toward agents, and context engineering becomes part of tool selection and
-orchestration.
+The boundary between RAG and agents is a context decision. Hugo's edtech example
+shows a restrained RAG use case. Instead of building an all-purpose tutor, a
+team could use a simple RAG bot with good chunking and embeddings.
+
+That bot could answer common support questions and solve a meaningful share of
+tickets quickly. One example was "which class contained a lesson" [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|44:26]].
+
+Ranjitha draws the line similarly. RAG fits large search spaces and simple
+question answering over many documents. When the task depends on current state
+or dynamic planning, context engineering becomes part of agent orchestration.
+The same shift happens when the system needs multiple data sources or API
+integrations [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems|38:13]].
+
+Hugo's advice is to add tool calls only when the simpler RAG path can't answer
+the user's question. Tools increase both power and system complexity [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG|51:10]].
 
 ## Related Pages
 
+These pages cover the surrounding LLM engineering topics.
+
 - [[Agent Engineering]]
 - [[retrieval-augmented-generation=>RAG]]
-- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]
 - [[Embeddings]]
