@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Search and RAG Project Checklist"
-summary: "Archive-backed checklist for a search or RAG portfolio project that proves retrieval quality, context design, citations, evaluation, tracing, and production tradeoffs."
+title: "Search and RAG Checklist"
+summary: "Checklist for search or RAG projects: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs from podcasts."
 related:
   - Portfolio Projects
   - RAG Portfolio Projects

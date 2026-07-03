@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: ["roadmap"]
-title: "Open Source Contributor Roadmap"
+title: "Open Source Contributor Path"
 keyword: "open source contributor roadmap"
-summary: "A roadmap for becoming an open-source contributor through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence."
+summary: "A practical roadmap for contributing through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence."
 search_intent: "People searching for an open source contributor roadmap usually need a practical path from first issue to credible public contribution evidence."
 related_wiki:
   - Open Source
@@ -22,8 +22,8 @@ maintainer can review. That work may be code, docs, or tests. It can also be a
 reproducible issue, a demo, a forum answer, or a tutorial.
 
 Contribution quality includes documentation, contribution guides, and polite
-interaction. Reproducible issues and tests reduce maintainer work, and CI,
-packaging, and pre-commit matter too
+interaction. Reproducible issues and tests reduce maintainer work, and CI keeps
+contributions reviewable with packaging and pre-commit
 ([[person:vincentwarmerdam|Vincent Warmerdam]], [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The broad concept lives in [[Open Source]],
@@ -43,8 +43,8 @@ includes documentation, examples, onboarding, and support. Demos and community
 feedback count too.
 
 Good-first issues, docs, and non-code work are valid entry points. Spaces demos
-and GitHub work become portfolio signals, and large codebases and PR
-workflow—along with tests and rejection—become part of the learning path
+and GitHub work become portfolio signals. Large codebases and PR workflow become
+part of the learning path, along with tests and rejection
 ([[person:mervenoyan|Merve Noyan]], [[podcast:hugging-face-contributions-and-nlp-portfolio|Hugging Face Contributions and NLP Portfolio]]).
 
 The same contribution surface connects to [[Contributing]],
@@ -57,9 +57,9 @@ Start with a project you can run locally. Open one issue that explains the
 problem and gives reproduction steps. Then choose a small fix or documentation
 change. The first goal is to show that you can follow project norms.
 
-PR quality and Git skills matter, and so do environment setup and maintainer
-collaboration. Docs and demos help users finish a real task, as do Docker,
-Postgres, and Git tutorials
+PR quality, Git skills, environment setup, and maintainer collaboration all
+matter. Docs and demos help users finish a real task, including tutorials for
+Docker, Postgres and Git
 ([[person:willrussell|Will Russell]], [[podcast:practical-devrel-demofirst-education-and-open-source|Demo-First DevRel and Open Source Education]]).
 
 The first contribution sequence can be:
@@ -79,11 +79,11 @@ That's why docs work belongs with [[Documentation]],
 [[Developer Relations]], not
 only with README cleanup.
 
-Writing starts with audience and outline. Design docs and decision logs become
-career evidence, and README files, quickstarts, and repo tours count too
+Writing starts with audience and outline, then turns design docs and decision
+logs into career evidence. README files, quickstarts, and repo tours count too
 ([[person:eugeneyan|Eugene Yan]], [[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
-Education and tutorials should start from audience goals, while dogfooding and
+Education and tutorials should start from audience goals. Dogfooding and
 reproducibility create feedback for the project
 ([[person:hugobowneanderson|Hugo Bowne-Anderson]], [[podcast:devrel-open-source-machine-learning|DevRel for Machine Learning and Open Source]]).
 
@@ -101,9 +101,9 @@ of sitting as an unexplained GitHub link. For pipeline work, connect it to
 For model or ML-tool work, connect it to
 [[Machine Learning Portfolio Projects]].
 
-Public progress and corrections make work discoverable, and an owned blog helps
-too. Collaborative docs and cheat sheets help others evaluate what happened, as
-do demos and brag documents
+Public progress, corrections, and an owned blog make work discoverable.
+Collaborative docs and cheat sheets help others evaluate the contribution
+context. Demos and brag documents support the same public evidence for reviewers
 ([[person:swyx|Shawn Swyx Wang]], [[podcast:developer-personal-brand-learn-in-public|Developer Personal Brand and Learn in Public]]).
 
 [[person:saraelateif=>Sara El-Ateif]] and
@@ -140,4 +140,3 @@ Adjacent contribution, portfolio, and community topics:
 - [[Technical Writing]]
 - [[Developer Relations]]
 - [[Developer Experience]]
-

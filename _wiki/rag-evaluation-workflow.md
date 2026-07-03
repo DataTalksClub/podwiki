@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["how-to"]
-title: "How to Run a RAG Evaluation Workflow"
+title: "RAG Evaluation Workflow"
 keyword: "rag evaluation workflow"
 secondary_keywords:
   - "rag evaluation"
@@ -9,7 +9,7 @@ secondary_keywords:
   - "rag evaluation framework"
   - "llm rag evaluation"
   - "retrieval augmented generation evaluation"
-summary: "A practical workflow for evaluating RAG systems with user tasks, gold examples, retrieval checks, answer checks, citations, human review, traces, and production feedback."
+summary: "A practical workflow for RAG eval: user tasks, gold examples, retrieval checks, answer checks, citations, review, traces, and feedback."
 search_intent: "Help readers who search for a RAG evaluation workflow understand how to test retrieval, answer grounding, citations, human review, logs, and production feedback using DataTalks.Club podcast evidence."
 related_wiki:
   - Retrieval-Augmented Generation
@@ -317,4 +317,3 @@ If the project is still being scoped, pair this workflow with the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
 and the
 [[Search and RAG Project Checklist]].
-

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Algorithmic Trading"
-summary: "How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk-forward validation, risk controls, and deployment."
+summary: "How DataTalks.Club frames algorithmic trading as a Python workflow for market data, backtesting, validation, risk controls, and deployment."
 keyword: "algorithmic trading"
 secondary_keywords:
   - "data science stock market"
@@ -59,7 +59,10 @@ also covers stop-loss rules, fees, and discipline after deployment
 ([[person:ivanbrigida|Ivan Brigida]],
 [[podcast:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
-For a comprehensive reference, Stefan Jansen's [[book:20210222-ml-algotrading-2ed|Machine Learning for Algorithmic Trading]] Book of the Week covers end-to-end market data pipelines, feature engineering, model training, and backtesting in Python.
+For a comprehensive reference, see Stefan Jansen's
+[[book:20210222-ml-algotrading-2ed|Machine Learning for Algorithmic Trading]]
+Book of the Week. It covers end-to-end market data pipelines, feature
+engineering, model training, and backtesting in Python.
 
 ## Data Sourcing and Market Data
 

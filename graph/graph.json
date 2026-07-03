@@ -8305,7 +8305,7 @@
       "title": "Academia",
       "url": "/wiki/academia/",
       "count": 1,
-      "search": "Academia How DataTalks.Club podcast discussions connect academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
+      "search": "Academia How DataTalks.Club guests connect academic research, PhDs, postdocs, open science, research software, and data or AI career transitions."
     },
     {
       "id": "wiki:agent-engineering",
@@ -8315,7 +8315,7 @@
       "title": "Agent Engineering",
       "url": "/wiki/agent-engineering/",
       "count": 1,
-      "search": "Agent Engineering How DataTalks.Club guests define AI agents and engineer them through workflow design, tools, retrieval, evaluation, guardrails, security, and production constraints."
+      "search": "Agent Engineering DataTalks.Club guests explain agent engineering through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
     },
     {
       "id": "wiki:agent-ops",
@@ -8345,7 +8345,7 @@
       "title": "AI Coding Tools",
       "url": "/wiki/ai-coding-tools/",
       "count": 1,
-      "search": "AI Coding Tools How DataTalks.Club guests use AI powered coding assistants like Cursor, Copilot, and Claude Code, the shift from notebooks to agentic workflows, and what vibe coding means for AI engineering practice."
+      "search": "AI Coding Tools How guests use Cursor, Copilot, Claude Code, notebook to agent workflows, and human review for AI generated code."
     },
     {
       "id": "wiki:ai-engineer-role",
@@ -8465,7 +8465,7 @@
       "title": "AI Tooling",
       "url": "/wiki/ai-tooling/",
       "count": 1,
-      "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, observability, and deployment."
+      "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, and deployment."
     },
     {
       "id": "wiki:ai-tools-for-personal-productivity",
@@ -8485,7 +8485,7 @@
       "title": "Algorithmic Trading",
       "url": "/wiki/algorithmic-trading/",
       "count": 1,
-      "search": "Algorithmic Trading How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk forward validation, risk controls, and deployment.",
+      "search": "Algorithmic Trading How DataTalks.Club frames algorithmic trading as a Python workflow for market data, backtesting, validation, risk controls, and deployment.",
       "keyword": "algorithmic trading"
     },
     {
@@ -8730,7 +8730,7 @@
       "title": "CI/CD",
       "url": "/wiki/ci-cd/",
       "count": 1,
-      "search": "CI/CD Reference page for CI/CD in data, ML, and AI systems."
+      "search": "CI/CD CI/CD for data, ML, and AI teams: tests, deployment paths, traceability, rollback, and platform adoption."
     },
     {
       "id": "wiki:communication",
@@ -9830,28 +9830,6 @@
       "keyword": "hire data engineers"
     },
     {
-      "id": "wiki:rag-evaluation-workflow",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "How to Run a RAG Evaluation Workflow",
-      "title": "How to Run a RAG Evaluation Workflow",
-      "url": "/wiki/rag-evaluation-workflow/",
-      "count": 1,
-      "search": "How to Run a RAG Evaluation Workflow A practical workflow for evaluating RAG systems with user tasks, gold examples, retrieval checks, answer checks, citations, human review, traces, and production feedback.",
-      "keyword": "rag evaluation workflow"
-    },
-    {
-      "id": "wiki:notebook-to-production-workflow",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "How to Take an AI Notebook to Production",
-      "title": "How to Take an AI Notebook to Production",
-      "url": "/wiki/notebook-to-production-workflow/",
-      "count": 1,
-      "search": "How to Take an AI Notebook to Production A procedural guide for turning an AI or ML notebook into a production system with scoped business requirements, reproducible code, data paths, evaluation, serving, monitoring, and feedback.",
-      "keyword": "notebook to production AI systems"
-    },
-    {
       "id": "wiki:industrial-ml-applications",
       "type": "wiki",
       "collection": "wiki",
@@ -10457,6 +10435,17 @@
       "search": "Nontraditional AI Engineering How career breaks, medicine, freelancing, semiconductors, and startups can become credible AI engineering proof."
     },
     {
+      "id": "wiki:notebook-to-production-workflow",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Notebook to Production",
+      "title": "Notebook to Production",
+      "url": "/wiki/notebook-to-production-workflow/",
+      "count": 1,
+      "search": "Notebook to Production A podcast grounded workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring.",
+      "keyword": "notebook to production AI systems"
+    },
+    {
       "id": "wiki:notebook-to-production-ai-systems",
       "type": "wiki",
       "collection": "wiki",
@@ -10477,25 +10466,25 @@
       "search": "Open Source How DataTalks.Club podcast guests discuss open source across ML and data tools, contribution work, governance, licensing, developer relations, and startup distribution."
     },
     {
-      "id": "wiki:open-source-and-developer-relations",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Open Source and Developer Relations",
-      "title": "Open Source and Developer Relations",
-      "url": "/wiki/open-source-and-developer-relations/",
-      "count": 1,
-      "search": "Open Source and Developer Relations How DataTalks.Club podcast guests connect open source stewardship with DevRel and adoption."
-    },
-    {
       "id": "wiki:open-source-contributor-roadmap",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Open Source Contributor Roadmap",
-      "title": "Open Source Contributor Roadmap",
+      "label": "Open Source Contributor Path",
+      "title": "Open Source Contributor Path",
       "url": "/wiki/open-source-contributor-roadmap/",
       "count": 1,
-      "search": "Open Source Contributor Roadmap A roadmap for becoming an open source contributor through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence.",
+      "search": "Open Source Contributor Path A practical roadmap for contributing through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence.",
       "keyword": "open source contributor roadmap"
+    },
+    {
+      "id": "wiki:open-source-and-developer-relations",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Open Source DevRel",
+      "title": "Open Source DevRel",
+      "url": "/wiki/open-source-and-developer-relations/",
+      "count": 1,
+      "search": "Open Source DevRel How podcast guests connect open source stewardship, DevRel, documentation, community trust, and adoption."
     },
     {
       "id": "wiki:open-source-ml-contributions",
@@ -10599,17 +10588,6 @@
       "keyword": "product analyst job description"
     },
     {
-      "id": "wiki:product-analyst-vs-data-analyst",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Product Analyst vs Data Analyst",
-      "title": "Product Analyst vs Data Analyst",
-      "url": "/wiki/product-analyst-vs-data-analyst/",
-      "count": 1,
-      "search": "Product Analyst vs Data Analyst A podcast grounded role comparison for deciding whether a team needs product focused analytics, broader business analysis, or one analyst who covers both.",
-      "keyword": "product analyst vs data analyst"
-    },
-    {
       "id": "wiki:product-analytics",
       "type": "wiki",
       "collection": "wiki",
@@ -10623,22 +10601,33 @@
       "id": "wiki:product-designer-to-data-product-manager",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Product Designer to Data Product Manager",
-      "title": "Product Designer to Data Product Manager",
+      "label": "Product Designer to Data PM",
+      "title": "Product Designer to Data PM",
       "url": "/wiki/product-designer-to-data-product-manager/",
       "count": 1,
-      "search": "Product Designer to Data Product Manager How product designers can move into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
+      "search": "Product Designer to Data PM How product designers can move into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
     },
     {
       "id": "wiki:product-owner-vs-product-manager",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Product Owner vs Product Manager: Data Product Role Boundaries",
-      "title": "Product Owner vs Product Manager: Data Product Role Boundaries",
+      "label": "Product Owner vs PM",
+      "title": "Product Owner vs PM",
       "url": "/wiki/product-owner-vs-product-manager/",
       "count": 1,
-      "search": "Product Owner vs Product Manager: Data Product Role Boundaries A podcast grounded comparison of product owner, product manager, and domain owner responsibilities in data product and production ML teams.",
+      "search": "Product Owner vs PM Compare product owner, product manager, and domain owner roles in data product and ML teams, grounded in podcast discussions.",
       "keyword": "data product owner"
+    },
+    {
+      "id": "wiki:product-analyst-vs-data-analyst",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Product vs Data Analyst",
+      "title": "Product vs Data Analyst",
+      "url": "/wiki/product-analyst-vs-data-analyst/",
+      "count": 1,
+      "search": "Product vs Data Analyst A podcast grounded comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
+      "keyword": "product analyst vs data analyst"
     },
     {
       "id": "wiki:production",
@@ -10654,11 +10643,11 @@
       "id": "wiki:production-ml-project-checklist",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Production ML Project Checklist",
-      "title": "Production ML Project Checklist",
+      "label": "Production ML Checklist",
+      "title": "Production ML Checklist",
       "url": "/wiki/production-ml-project-checklist/",
       "count": 1,
-      "search": "Production ML Project Checklist Checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
+      "search": "Production ML Checklist Checklist for a production ML portfolio project with reproducible training, tracked runs, registry handoff, deployment, monitoring, and rollback criteria."
     },
     {
       "id": "wiki:production-search-evaluation",
@@ -10684,11 +10673,11 @@
       "id": "wiki:prompt-injection-and-chatbot-risk-management",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Prompt Injection and Chatbot Risk Management",
-      "title": "Prompt Injection and Chatbot Risk Management",
+      "label": "Prompt Injection Risks",
+      "title": "Prompt Injection Risks",
       "url": "/wiki/prompt-injection-and-chatbot-risk-management/",
       "count": 1,
-      "search": "Prompt Injection and Chatbot Risk Management How production chatbot teams manage prompt injection, retrieval abuse, data exfiltration, hallucinations, legal exposure, layered defenses, red team evaluation, and non LLM safety classifiers."
+      "search": "Prompt Injection Risks How chatbot teams manage prompt injection, retrieval abuse, data leaks, hallucinations, legal exposure, red team tests, and layered defenses."
     },
     {
       "id": "wiki:learning-in-public-ai-career-switch",
@@ -10709,6 +10698,17 @@
       "url": "/wiki/qa-to-ml-and-data-engineering/",
       "count": 1,
       "search": "QA to ML and Data Engineering Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
+    },
+    {
+      "id": "wiki:rag-evaluation-workflow",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "RAG Evaluation Workflow",
+      "title": "RAG Evaluation Workflow",
+      "url": "/wiki/rag-evaluation-workflow/",
+      "count": 1,
+      "search": "RAG Evaluation Workflow A practical workflow for RAG eval: user tasks, gold examples, retrieval checks, answer checks, citations, review, traces, and feedback.",
+      "keyword": "rag evaluation workflow"
     },
     {
       "id": "wiki:rag-portfolio-projects",
@@ -10845,11 +10845,11 @@
       "id": "wiki:search-and-rag-project-checklist",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Search and RAG Project Checklist",
-      "title": "Search and RAG Project Checklist",
+      "label": "Search and RAG Checklist",
+      "title": "Search and RAG Checklist",
       "url": "/wiki/search-and-rag-project-checklist/",
       "count": 1,
-      "search": "Search and RAG Project Checklist Archive backed checklist for a search or RAG portfolio project that proves retrieval quality, context design, citations, evaluation, tracing, and production tradeoffs."
+      "search": "Search and RAG Checklist Checklist for search or RAG projects: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs from podcasts."
     },
     {
       "id": "wiki:search-relevance",
@@ -10885,11 +10885,11 @@
       "id": "wiki:sensor-ml-personal-baselines",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Sensor ML with Personal Baselines",
-      "title": "Sensor ML with Personal Baselines",
+      "label": "Sensor ML Personal Baselines",
+      "title": "Sensor ML Personal Baselines",
       "url": "/wiki/sensor-ml-personal-baselines/",
       "count": 1,
-      "search": "Sensor ML with Personal Baselines A portfolio project pattern for sensor machine learning where anomaly detection depends on each subject's long term baseline rather than a global average."
+      "search": "Sensor ML Personal Baselines A sensor ML portfolio pattern: use individual history for anomaly detection, product alerts, and baseline aware health signals."
     },
     {
       "id": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -10915,11 +10915,11 @@
       "id": "wiki:software-engineer-to-machine-learning",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Software Engineer to Machine Learning",
-      "title": "Software Engineer to Machine Learning",
+      "label": "Software Engineer to ML",
+      "title": "Software Engineer to ML",
       "url": "/wiki/software-engineer-to-machine-learning/",
       "count": 1,
-      "search": "Software Engineer to Machine Learning A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
+      "search": "Software Engineer to ML A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
     },
     {
       "id": "wiki:software-engineering",
@@ -10945,11 +10945,11 @@
       "id": "wiki:solopreneur-data-scientist",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Solopreneur Data Scientist: A Data and AI Career Guide",
-      "title": "Solopreneur Data Scientist: A Data and AI Career Guide",
+      "label": "Solopreneur Data Scientist",
+      "title": "Solopreneur Data Scientist",
       "url": "/wiki/solopreneur-data-scientist/",
       "count": 1,
-      "search": "Solopreneur Data Scientist: A Data and AI Career Guide A podcast backed guide to solopreneur careers for data and AI professionals: what a solopreneur is, how solo data work differs from freelancing, and how to build income without losing focus.",
+      "search": "Solopreneur Data Scientist A podcast backed guide to solo data and AI work: offers, income streams, risks, and when solopreneurship differs from freelancing.",
       "keyword": "solopreneur"
     },
     {
@@ -11063,17 +11063,6 @@
       "search": "Tracking Plans How the podcast archive frames tracking plans as shared event instrumentation rules for product, growth, analytics, and engineering teams."
     },
     {
-      "id": "wiki:vector-database-vs-search-engine",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Vector Database vs Search Engine",
-      "title": "Vector Database vs Search Engine",
-      "url": "/wiki/vector-database-vs-search-engine/",
-      "count": 1,
-      "search": "Vector Database vs Search Engine How DataTalks.Club podcast guests compare dedicated vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
-      "keyword": "vector database vs search engine"
-    },
-    {
       "id": "wiki:vector-databases",
       "type": "wiki",
       "collection": "wiki",
@@ -11084,14 +11073,25 @@
       "search": "Vector Databases How DataTalks.Club podcast guests discuss vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
     },
     {
+      "id": "wiki:vector-database-vs-search-engine",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Vector DB vs Search Engine",
+      "title": "Vector DB vs Search Engine",
+      "url": "/wiki/vector-database-vs-search-engine/",
+      "count": 1,
+      "search": "Vector DB vs Search Engine How podcast guests compare vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
+      "keyword": "vector database vs search engine"
+    },
+    {
       "id": "wiki:vector-search-vs-keyword-search",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Vector Search vs Keyword Search",
-      "title": "Vector Search vs Keyword Search",
+      "label": "Vector vs Keyword Search",
+      "title": "Vector vs Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
+      "search": "Vector vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
     },
     {

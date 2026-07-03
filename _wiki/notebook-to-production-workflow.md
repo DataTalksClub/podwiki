@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["how-to"]
-title: "How to Take an AI Notebook to Production"
+title: "Notebook to Production"
 keyword: "notebook to production AI systems"
 secondary_keywords:
   - "AI notebook to production"
@@ -9,7 +9,7 @@ secondary_keywords:
   - "Jupyter notebook to production"
   - "productionize machine learning notebook"
   - "notebook to production workflow"
-summary: "A procedural guide for turning an AI or ML notebook into a production system with scoped business requirements, reproducible code, data paths, evaluation, serving, monitoring, and feedback."
+summary: "A podcast-grounded workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring."
 search_intent: "Help readers searching for notebook to production AI systems understand the practical sequence for moving an AI or ML notebook into production, using DataTalks.Club podcast evidence."
 related_wiki:
   - Notebook to Production AI Systems

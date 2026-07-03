@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Vector Search vs Keyword Search"
+title: "Vector vs Keyword Search"
 keyword: "vector search vs keyword search"
 summary: "A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation."
 related_wiki:
@@ -290,4 +290,3 @@ For representation and storage, use
 [[Vector Databases]] and
 [[Embeddings]]. For measurement, use
 [[Production Search Evaluation]].
-

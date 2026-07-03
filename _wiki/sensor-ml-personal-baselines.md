@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Sensor ML with Personal Baselines"
-summary: "A portfolio-project pattern for sensor machine learning where anomaly detection depends on each subject's long-term baseline rather than a global average."
+title: "Sensor ML Personal Baselines"
+summary: "A sensor ML portfolio pattern: use individual history for anomaly detection, product alerts, and baseline-aware health signals."
 related:
   - Machine Learning Portfolio Projects
   - Model Monitoring

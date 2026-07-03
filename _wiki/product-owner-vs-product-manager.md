@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Product Owner vs Product Manager: Data Product Role Boundaries"
+title: "Product Owner vs PM"
 keyword: "data product owner"
 secondary_keywords:
   - product owner vs product manager
   - data science product owner
   - product owner vs data product manager
-summary: "A podcast-grounded comparison of product owner, product manager, and domain owner responsibilities in data product and production ML teams."
+summary: "Compare product owner, product manager, and domain owner roles in data product and ML teams, grounded in podcast discussions."
 related_wiki:
   - Data Product Management
   - Data Products
@@ -299,4 +299,3 @@ These pages cover the surrounding roles, topics, and comparisons:
 - [[Data Teams]]
 - [[Data Engineering Platforms]]
 - [[MLOps]]
-

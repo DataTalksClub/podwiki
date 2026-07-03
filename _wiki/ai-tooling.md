@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI Tooling"
-summary: "How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open-source LLMs, RAG, prompts, agents, evaluation, observability, and deployment."
+summary: "How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open-source LLMs, RAG, prompts, agents, evaluation, and deployment."
 related:
   - Tools
   - LLM Production Patterns

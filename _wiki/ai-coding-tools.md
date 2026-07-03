@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI Coding Tools"
-summary: "How DataTalks.Club guests use AI-powered coding assistants like Cursor, Copilot, and Claude Code, the shift from notebooks to agentic workflows, and what vibe coding means for AI engineering practice."
+summary: "How guests use Cursor, Copilot, Claude Code, notebook-to-agent workflows, and human review for AI-generated code."
 related:
   - AI Engineering
   - Agent Engineering

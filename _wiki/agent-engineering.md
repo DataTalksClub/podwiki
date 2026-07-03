@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Agent Engineering"
-summary: "How DataTalks.Club guests define AI agents and engineer them through workflow design, tools, retrieval, evaluation, guardrails, security, and production constraints."
+summary: "DataTalks.Club guests explain agent engineering through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
 related:
   - AI Engineer Role
   - AI Engineering Roadmap
@@ -16,13 +16,13 @@ related:
 
 Agent engineering is the practice of building AI systems that can pursue a
 goal and act inside a workflow. These systems may use tools, retrieve
-information, and keep task state. Agents in these discussions aren't chatbots
-with longer prompts; they include on-call assistants, email assistants, coding
-agents, and enterprise search assistants, along with multi-agent support systems
-and workflow automation.
+information, and keep task state. In these discussions, agents aren't chatbots
+with longer prompts. The examples include on-call assistants, email assistants,
+and coding agents. They also include enterprise search assistants, multi-agent
+support systems, and workflow automation.
 
-An agent is defined around autonomy and objectives, tied to LLM reasoning, and
-extended with orchestration, tool use, memory, and knowledge stores
+Guests define agents around autonomy and objectives. LLM reasoning is extended
+with orchestration, tool use, memory, and knowledge stores
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
 Agent engineering therefore sits next to
@@ -52,22 +52,21 @@ Beyond prompts, engineers define task decomposition, tool interfaces, and
 retrieved context. They also define permissions, evaluation, observability, and
 fallback behavior.
 
-There is a strong boundary between
+There's a strong boundary between
 [[retrieval-augmented-generation=>RAG]] and agents. Some cases need only
-retrieval, while others need an agent, with retrieval treated as one tool an
-agent can call
+retrieval, while other cases need an agent that can call retrieval as one tool
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
-The same progression appears in practical LLM work: start with chunking and
-embeddings for quick RAG wins, then add tool calls and agent behavior once teams
-need them
+The same progression appears in practical LLM work. Teams start with chunking
+and embeddings for quick RAG wins. They add tool calls and agent behavior once
+they need them
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 Agent engineering also sits inside the
-[[AI Engineer Role]] and a broader AI product stack: the full-stack AI engineer
-skill set, RAG and knowledge management, and the move from techniques to shipping
-AI products
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]]).
+[[AI Engineer Role]] and a broader AI product stack. Paul Iusztin links it to
+the full-stack AI engineer skill set. He also connects it to RAG, knowledge
+management, and the move from techniques to shipping AI products
+([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 
 ## Reliability, Adoption, and Governance
 
@@ -88,14 +87,14 @@ access and RAG to a useful assistant
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 [[person:micheallanham=>Micheal Lanham]] starts from workflow design and
-multi-agent history, emphasizing minimalism and task decomposition, comparing
-sequential flows with manager-agent orchestration, and bringing in the OpenAI
-Agent SDK and MCP integration
+multi-agent history. He emphasizes minimalism and task decomposition, compares
+sequential flows with manager-agent orchestration, and discusses the OpenAI
+Agent SDK. He also brings in MCP integration
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
-[[person:adityagautam=>Aditya Gautam]] starts from enterprise risk, linking
-specialized models to agent governance, guardrails, and data lineage, and tying
-evaluation to multi-tenancy, scale, and alignment with human labels
+[[person:adityagautam=>Aditya Gautam]] starts from enterprise risk. He links
+specialized models to agent governance, guardrails, and data lineage. He also
+ties evaluation to multi-tenancy, scale, and alignment with human labels
 ([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
 
 ## Agent Design
@@ -107,18 +106,18 @@ or self-reflection
 A planning agent also needs limits on how long it can plan, which tools it can
 call, and when it should stop.
 
-A practical design warning is to start with the smallest workflow that solves
-the task, favoring minimalism and task decomposition and distinguishing a
+Micheal Lanham warns teams to start with the smallest workflow that solves the
+task. He favors minimalism and task decomposition, and he distinguishes a
 sequential pipeline from manager-agent orchestration
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]). That
-distinction matters for
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+That distinction matters for
 [[Software Engineering]]
 because a linear workflow is easier to test and debug than an open-ended
 multi-agent system.
 
-The product reason to use agents is that value appears when the system acts on
-documents, APIs, and workflow state, not only when it chats. Embedded agents fit
-Slack-style workflows and proactive assistants
+Agents create value when they act on documents, APIs, and workflow state, not
+only when they chat. Hugo Bowne-Anderson uses embedded agents for Slack-style
+workflows and proactive assistants
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 That makes agent design a product workflow question as much as a model question.
 
@@ -129,19 +128,19 @@ noisy context and unsafe actions. Good tools expose constrained actions, typed
 inputs, traceable outputs, and enforceable permissions.
 
 Prompts, SDKs, and tool wrappers pair with integration abstractions for diverse
-tools, and agent marketplaces and MCP-style protocols address making tools
-discoverable and callable
+tools. Agent marketplaces and MCP-style protocols make tools discoverable and
+callable
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 These are [[Tools]]
 questions, but the agent page keeps the workflow-specific part. Tools should
 match the decisions the agent is allowed to make.
 
 The OpenAI Agent SDK and MCP integration appear again alongside scratchpads and
-internal reasoning servers as a separate integration layer
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]). The
-agent may need private reasoning state or task state that isn't shown directly to
-the user. That state should be observable enough for debugging, but it shouldn't
-replace tests.
+internal reasoning servers
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+The agent may need private reasoning state or task state that isn't shown
+directly to the user. That state should be observable enough for debugging, but
+it shouldn't replace tests.
 
 A production AI view covers a browser extension architecture with a backend AI
 integration, plus search-focused assistants and tool selection
@@ -158,8 +157,8 @@ external state. Guests don't treat retrieval as automatic. They discuss
 chunking, metadata, wrappers, and failure analysis.
 
 Context engineering is the design of effective LLM inputs. The RAG reality check
-is that latency, cost, and noisy context can break a system; retrieval backends
-often need reworking, along with chunking, metadata, and wrappers so retrieved
+is that latency, cost, and noisy context can break a system. Teams often need to
+rework retrieval backends, chunking, metadata, and wrappers so retrieved
 information fits the agent's job
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
@@ -175,10 +174,10 @@ repository context and task state. A short conversation memory isn't enough for
 either system.
 
 RAG and knowledge management connect to the AI engineer skill stack
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]]).
+([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
 That link matters because many agent failures are knowledge-system failures. If
-the source documents lack metadata, ownership, or a refresh cadence, the agent
-will act on weak context.
+teams don't give source documents metadata, ownership, or a refresh cadence, the
+agent will act on weak context.
 
 ## Evaluation and Testing
 
@@ -186,23 +185,23 @@ Agent evaluation checks whether the system accomplished the goal under realistic
 conditions. It can't only compare one final string to a reference answer
 because multiple valid tool-call paths may exist.
 
-Agent evaluation uses custom datasets and system benchmarks, mocked tools,
-integration tests, and regression tests, and emphasizes goal-based evaluation and
-outcome assertions over exact paths
+Agent evaluation uses custom datasets, system benchmarks, and mocked tools.
+Teams also use integration tests and regression tests. The focus is goal-based
+evaluation and outcome assertions over exact paths
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 Those evaluation choices belong with
 [[LLM Evaluation Workflows]]
 and [[Testing]].
 
-A generator-evaluator loop provides automated quality control, with gold test
-sets weighed against cost and representativeness, and failure analysis deciding
-whether retrieval needs to change
+A generator-evaluator loop helps teams automate quality control. They still
+weigh gold test sets against cost and representativeness. Failure analysis then
+decides whether retrieval needs to change
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 Those evaluation habits are useful before a system becomes agentic, then become
 more important when the system starts calling tools.
 
-The enterprise version adds evals for multi-tenancy and scale and aligning LLM
-judges with human labels
+The enterprise version adds evals for multi-tenancy, scale, and alignment
+between LLM judges and human labels
 ([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]). Evaluation and
 monitoring tools such as Arize Phoenix round it out
 ([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
@@ -217,8 +216,8 @@ Cost and latency controls matter because tool calls, retrieval, and multi-step
 reasoning can multiply runtime.
 
 The strongest governance source covers reliability in legal and healthcare
-settings, links guardrails and data lineage to Agent MLOps, and names user
-feedback loops along with infrastructure and deployment risks
+settings. It links guardrails and data lineage to Agent MLOps. It also names
+user feedback loops, infrastructure risks, and deployment risks
 ([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
 
 Those controls overlap with security work on prompt overload and knowledge-base
@@ -226,6 +225,7 @@ retrieval attacks
 ([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
 For agents, the same retrieval risk can become an action risk. That matters when
 the system can call tools, write data, send messages, or trigger workflows.
+
 Teams keep agents governed by narrowing tool permissions and tracing the data
 used for each answer or action. They also keep human review around high-impact
 decisions and test failures repeatedly. Practical agent work therefore draws on

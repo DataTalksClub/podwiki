@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Open Source and Developer Relations"
-summary: "How DataTalks.Club podcast guests connect open-source stewardship with DevRel and adoption."
+title: "Open Source DevRel"
+summary: "How podcast guests connect open-source stewardship, DevRel, documentation, community trust, and adoption."
 related:
   - Open Source
   - Developer Relations

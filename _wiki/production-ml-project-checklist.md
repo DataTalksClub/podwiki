@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Production ML Project Checklist"
-summary: "Checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
+title: "Production ML Checklist"
+summary: "Checklist for a production ML portfolio project with reproducible training, tracked runs, registry handoff, deployment, monitoring, and rollback criteria."
 related:
   - Portfolio Projects
   - Machine Learning Portfolio Projects
@@ -29,23 +29,23 @@ Use this page with the broader
 when the project is meant to prove production readiness rather than only model
 quality. The lifecycle runs from training and evaluation to
 [[experiment tracking]] and the
-[[model registry]], separates batch and
-online deployment, and ties lineage metadata to prediction APIs and logs
+[[model registry]]. It separates batch and
+online deployment. It also ties lineage metadata to prediction APIs and logs
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 ## Lifecycle Proof
 
 The project should turn a decision problem into a maintained model artifact. A
-credible implementation records the code version, data reference, parameters,
-and dependencies. It also records the evaluation result and saved artifact. The
-same record should name the deployment target, monitoring signals, and owner
-action for rollback or retraining — the same lifecycle scaled down to a
+credible implementation records the code version and data reference. It also
+records parameters, dependencies, the evaluation result, and the saved artifact.
+The same record should name the deployment target, monitoring signals, and owner
+action for rollback or retraining. That's the full lifecycle scaled down to a
 reviewable portfolio repository
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-The lightweight standard puts Git and CI/CD in the essential stack, along with
-artifact storage, registries, documentation, reproducibility, code quality, and
-testing
+The lightweight standard puts Git and CI/CD in the essential stack. The same
+stack includes artifact storage and registries. It also needs documentation,
+reproducibility, code quality, and testing
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
 
 Notebook logic should move into packages and CI/CD
@@ -53,8 +53,8 @@ Notebook logic should move into packages and CI/CD
 A portfolio project can stay small, but it shouldn't hide weak delivery behind a
 long tool list.
 
-Scale and adoption add CI and repository structure, parameterization and tests,
-and data versioning, traceability, and experiment capture
+Scale and adoption add CI, repository structure, parameterization, and tests.
+They also add data versioning, traceability, and experiment capture
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The
 portfolio version should expose those same checkpoints even if it uses a local
 dataset snapshot rather than a full platform.
@@ -70,8 +70,8 @@ training job and compare the result.
 
 This bar rests on repository structure, tests, data traceability, and experiment
 capture
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]), and the
-same project structure moves notebook code into packages and CI/CD
+([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The same
+project structure moves notebook code into packages and CI/CD
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
 
 ## Experiment Records and Registry Handoff
@@ -81,7 +81,7 @@ dataset reference and parameters. It should also store metric values and the
 artifact path. Keep failure notes with the run record before promoting one
 artifact with a registry record.
 
-The handoff from experimentation to deployment should be explicit, linking
+The handoff from experimentation to deployment should be explicit. Link
 [[experiment tracking]] to the
 [[model registry]] so the registry
 becomes a release boundary rather than a storage folder
@@ -89,8 +89,8 @@ becomes a release boundary rather than a storage folder
 
 A simple interim registry is an acceptable lightweight version
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]). The record
-still needs model version, data version, environment, evaluation result,
-approval state, and deployment target. For a portfolio project, a table or YAML
+still needs model and data versions. It also needs the environment, evaluation
+result, approval state, and deployment target. In a portfolio project, a table or YAML
 manifest can satisfy that requirement when it gives reviewers the exact
 artifact and approval state.
 
@@ -103,8 +103,8 @@ Batch and online deployment are separate modes
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]),
 so the README should name which serving mode it implements and why.
 
-Simple, maintainable systems with modular, testable code are the priority;
-production ML capstones include tests, monitoring, A/B testing, and CI/CD
+Simple, maintainable systems with modular, testable code are the priority.
+Production ML capstones include tests, monitoring, A/B testing, and CI/CD
 ([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
 Use [[ci-cd|CI/CD]] and
 [[Production]] when the project needs a
@@ -115,7 +115,7 @@ release note, a deployment command, or a rollback path.
 Monitoring should cover service health, input quality, and prediction
 distributions. It should also cover business outcomes and name upstream causes
 that could break the model. [[model monitoring]]
-connects to upstream ETL and data pipeline causes, making data profiling and
+connects to upstream ETL and data pipeline causes. That makes data profiling and
 root-cause visibility part of the project rather than an optional dashboard
 ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 

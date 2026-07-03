@@ -1,12 +1,12 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Product Analyst vs Data Analyst"
+title: "Product vs Data Analyst"
 keyword: "product analyst vs data analyst"
 secondary_keywords:
   - data analyst vs product analyst
   - product analyst and data analyst
-summary: "A podcast-grounded role comparison for deciding whether a team needs product-focused analytics, broader business analysis, or one analyst who covers both."
+summary: "A podcast-grounded comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries."
 related_wiki:
   - Product Analytics
   - Data Analyst Role
@@ -239,4 +239,3 @@ Use these related pages for adjacent roles, methods, and evidence trails:
 - [[Data Product Adoption]]
 - [[Analytics Engineering]]
 - [[Data Analyst vs Analytics Engineer]]
-
