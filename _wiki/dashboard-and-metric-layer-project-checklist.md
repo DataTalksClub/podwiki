@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Dashboard and Metric Layer Project Checklist"
-summary: "Checklist for a dashboard or metric-layer portfolio project that proves stakeholder decisions, event definitions, metric ownership, tested models, BI consumption, and adoption."
+title: "Dashboard Metric Checklist"
+summary: "Build a dashboard and metric-layer project around one decision, with metric specs, lineage, tests, BI use, and adoption evidence."
 related:
   - Analytics Engineering Portfolio Projects
   - Analytics Engineering
@@ -15,10 +15,10 @@ related:
 
 ## Dashboard Project Definition
 
-A dashboard and metric-layer project proves that analytical data helps people
-make a specific decision. It starts with one stakeholder decision. Then it
-traces the metric from source events or tables through tested transformations,
-a BI surface, and evidence that people use the result.
+Use a dashboard and metric-layer project to show how a team decides with a
+metric, not just how a chart looks. Start with one stakeholder decision. Then
+trace the metric from source events or tables through tested transformations, a
+BI surface, and evidence that people use the result.
 
 Use this checklist with
 [[Analytics Engineering Portfolio Projects]]

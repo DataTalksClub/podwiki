@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Business Skills for Data Professionals"
-summary: "How DataTalks.Club guests connect analytics impact to stakeholder trust, metric definitions, business literacy, prioritization, and communication."
+title: "Business Skills for Data Pros"
+summary: "How data professionals earn trust, define metrics, prioritize work, and connect analysis to business decisions."
 related:
   - Communication
   - Metrics
@@ -12,21 +12,20 @@ related:
   - Career Growth
 ---
 
-Business skills for data professionals connect technical work to decisions and
-trust. The skill is less about polishing a finished chart than about learning
-the business language early enough to guide the analysis or model. The same
-skill also guides team habits and shared data models. It sits close to
-[[Communication]],
+Business skills help data professionals turn analysis, models, and metrics into
+decisions people trust. Data professionals start by learning the business
+language early enough to guide the work. They use that language when they set
+team habits and shared data models.
+The topic sits close to [[Communication]],
 [[Metrics]], [[Product Analytics]],
 and [[Data Strategy]].
 
-The individual-contributor version centers on learning what stakeholders mean by
-core words, mapping who owns decisions, and choosing the simplest analysis that
-can move the business
+Individual contributors learn what stakeholders mean by core words and map who
+owns decisions. They choose the simplest analysis that can move the business
 ([[person:lorismarini|Loris Marini]],
 [[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]]).
 
-The management version adds team design, mentorship, maintainability, and
+Managers add team design and mentorship. They also add maintainability and
 stakeholder conversations
 ([[person:katiebauer|Katie Bauer]],
 [[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]).
@@ -34,8 +33,8 @@ stakeholder conversations
 by David Stephenson expands the same stakeholder and communication practices into a structured playbook for analytics teams.
 
 In the [[data architect role]], architects turn department needs into shared
-models for finance and supply chain, so sales, analysts, and engineers can use
-the same models
+models for finance and supply chain. Sales, analysts, and engineers can then
+use the same models
 ([[person:loicmagnien|Loïc Magnien]],
 [[podcast:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Leading Data Architect]]).
 
@@ -65,8 +64,9 @@ shared model that many teams reuse.
 ## Stakeholder Trust
 
 Trust starts before the presentation. It rests on active listening, business
-literacy, and explicit stakeholder mapping: recording names, roles, and context,
-and joining meetings where teams use their business language in real decisions
+literacy, and explicit stakeholder mapping. Data professionals record names,
+roles, and context. They also join meetings where teams use their business
+language in real decisions
 ([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 
 The same habit becomes [[Career Growth]] advice: prepared conversations with
@@ -85,8 +85,8 @@ room.
 ## Method Choice
 
 Business skill also means matching the method to the decision. Even alongside
-production ML and marketing automation, a simpler rule holds: diagnose the
-business problem first, then use the smallest tool that answers it
+production ML and marketing automation, data professionals still diagnose the
+business problem first. They use the smallest tool that answers it
 ([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 For some decisions, a conversation or pivot table may matter more than a model,
 and exploratory analysis or storytelling may matter more too.
@@ -101,8 +101,8 @@ handover, onboarding, and team growth.
 
 Business skills change when the data professional manages the work of others.
 Data science managers work through matrix organizations and cross-functional
-teams, hiring across product analytics, analytics engineering, marketing science,
-and data science
+teams. They hire across product analytics, analytics engineering, marketing
+science, and data science
 ([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
 Managers then coach juniors to practice stakeholder conversations rather than
 leaving that skill to chance.

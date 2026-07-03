@@ -8308,16 +8308,6 @@
       "search": "Academia How DataTalks.Club podcast discussions connect academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
     },
     {
-      "id": "wiki:academic-researcher-to-data-science",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Academic Researcher to Data Science",
-      "title": "Academic Researcher to Data Science",
-      "url": "/wiki/academic-researcher-to-data-science/",
-      "count": 1,
-      "search": "Academic Researcher to Data Science How academic researchers, PhDs, postdocs, and research software practitioners translate research work into data science, applied ML, data engineering, and related industry roles."
-    },
-    {
       "id": "wiki:agent-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -8381,11 +8371,11 @@
       "id": "wiki:ai-engineering-portfolio-projects",
       "type": "wiki",
       "collection": "wiki",
-      "label": "AI Engineering Portfolio Projects",
-      "title": "AI Engineering Portfolio Projects",
+      "label": "AI Engineering Portfolios",
+      "title": "AI Engineering Portfolios",
       "url": "/wiki/ai-engineering-portfolio-projects/",
       "count": 1,
-      "search": "AI Engineering Portfolio Projects Podcast backed guidance for AI engineering portfolio projects that prove product ownership, RAG, agents, evaluation, deployment, feedback, and public proof."
+      "search": "AI Engineering Portfolios Projects that show AI engineering skill through RAG, agents, evaluation, deployment, feedback, and public proof."
     },
     {
       "id": "wiki:ai-engineering-roadmap",
@@ -8416,6 +8406,16 @@
       "url": "/wiki/ai-for-social-good/",
       "count": 1,
       "search": "AI for Social Good How DataTalks.Club podcast guests apply AI and analytics to conservation, nonprofit operations, public policy, accessibility, and social impact programs."
+    },
+    {
+      "id": "wiki:ai-powered-business-intelligence",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI in Business Intelligence",
+      "title": "AI in Business Intelligence",
+      "url": "/wiki/ai-powered-business-intelligence/",
+      "count": 1,
+      "search": "AI in Business Intelligence How AI changes BI dashboards, metrics, semantic layers, governance, and decision support without replacing trusted data products."
     },
     {
       "id": "wiki:ai-infrastructure",
@@ -8476,16 +8476,6 @@
       "url": "/wiki/ai-tools-for-personal-productivity/",
       "count": 1,
       "search": "AI Tools Workflow Guide How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks."
-    },
-    {
-      "id": "wiki:ai-powered-business-intelligence",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "AI-Powered Business Intelligence",
-      "title": "AI-Powered Business Intelligence",
-      "url": "/wiki/ai-powered-business-intelligence/",
-      "count": 1,
-      "search": "AI Powered Business Intelligence How AI powered business intelligence changes dashboards, analytics, semantic layers, governance, and decision support without replacing trusted metrics and data products."
     },
     {
       "id": "wiki:algorithmic-trading",
@@ -8623,11 +8613,11 @@
       "id": "wiki:business-skills-for-data-professionals",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Business Skills for Data Professionals",
-      "title": "Business Skills for Data Professionals",
+      "label": "Business Skills for Data Pros",
+      "title": "Business Skills for Data Pros",
       "url": "/wiki/business-skills-for-data-professionals/",
       "count": 1,
-      "search": "Business Skills for Data Professionals How DataTalks.Club guests connect analytics impact to stakeholder trust, metric definitions, business literacy, prioritization, and communication."
+      "search": "Business Skills for Data Pros How data professionals earn trust, define metrics, prioritize work, and connect analysis to business decisions."
     },
     {
       "id": "wiki:caching",
@@ -8815,11 +8805,11 @@
       "id": "wiki:dashboard-and-metric-layer-project-checklist",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Dashboard and Metric Layer Project Checklist",
-      "title": "Dashboard and Metric Layer Project Checklist",
+      "label": "Dashboard Metric Checklist",
+      "title": "Dashboard Metric Checklist",
       "url": "/wiki/dashboard-and-metric-layer-project-checklist/",
       "count": 1,
-      "search": "Dashboard and Metric Layer Project Checklist Checklist for a dashboard or metric layer portfolio project that proves stakeholder decisions, event definitions, metric ownership, tested models, BI consumption, and adoption."
+      "search": "Dashboard Metric Checklist Build a dashboard and metric layer project around one decision, with metric specs, lineage, tests, BI use, and adoption evidence."
     },
     {
       "id": "wiki:data-activation",
@@ -10781,6 +10771,16 @@
       "url": "/wiki/reproducibility/",
       "count": 1,
       "search": "Reproducibility How DataTalks.Club podcast guests make data science, ML, research, and data pipeline work rerunnable, reviewable, and explainable."
+    },
+    {
+      "id": "wiki:academic-researcher-to-data-science",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Researcher to Data Science",
+      "title": "Researcher to Data Science",
+      "url": "/wiki/academic-researcher-to-data-science/",
+      "count": 1,
+      "search": "Researcher to Data Science How researchers and PhDs translate academic data work into data science, applied ML, data engineering, and research software roles."
     },
     {
       "id": "wiki:responsible-ai-and-governance",
@@ -32583,6 +32583,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "person:alicjanotowska",
       "kind": "wiki-chip",
       "weight": 1
@@ -32662,12 +32668,6 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:project-manager-to-data-scientist",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76173,6 +76173,18 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-chip",
       "weight": 1
@@ -76188,18 +76200,6 @@
       "target": "podcast:urban-data-science",
       "kind": "wiki-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:synthetic-data",
-      "target": "wiki:ai-powered-business-intelligence",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:synthetic-data",
-      "target": "wiki:ai-powered-business-intelligence",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:synthetic-data",
@@ -77277,6 +77277,18 @@
     },
     {
       "source": "wiki:text-to-sql",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
       "target": "person:bartoszmikulski",
       "kind": "wiki-chip",
       "weight": 1
@@ -77310,18 +77322,6 @@
       "target": "podcast:urban-data-science",
       "kind": "wiki-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "wiki:ai-powered-business-intelligence",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "wiki:ai-powered-business-intelligence",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:text-to-sql",
