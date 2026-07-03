@@ -18,12 +18,12 @@ related:
 
 Open-source portfolio evidence is public proof that someone can improve a real
 technical project with other people watching. Reproducible issues and
-documentation are valid contribution work, and tests, packaging, and maintainer
+documentation are valid contribution work. Tests, packaging, and maintainer
 etiquette count too
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
 [[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 Open-source projects also serve as hiring proof because review pressure exposes
-Python and SQL along with testing and code-structure habits
+Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz|Jeff Katz]] in
 [[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
@@ -55,8 +55,8 @@ Public context comes from maintainer comments and review changes. Test results,
 user feedback, or a clear explanation of what the contribution fixed can also
 provide that context.
 
-README material and guides are important project surfaces, along with API
-reference, examples, contribution guides, and polite interaction on issue lists.
+README material and guides are important project surfaces. API reference,
+examples, contribution guides, and polite interaction on issue lists matter too.
 A reproducible issue is a valid first contribution
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
 [[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
@@ -66,8 +66,8 @@ hooks enter the contribution too
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 On the hiring side, many portfolios list the right tools while showing too
-little Python and SQL. Professional code structure — small functions, classes,
-descriptive names, and tests — is what reviewers look for. Personal and
+little Python and SQL. Reviewers look for professional code structure. That
+means small functions, classes, descriptive names, and tests. Personal and
 open-source projects help because review pressure makes the work closer to
 professional practice
 ([[person:jeffkatz|Jeff Katz]] in
@@ -92,42 +92,48 @@ made a project easier to use, maintain, evaluate, or trust.
 ## Review Signals
 
 Guests agree that public proof matters, but they don't value the same signal
-first. One view starts from maintainer load: reproducible issues and small fixes
-come first, discussion should precede large features, and a package shouldn't be
+first. One view starts from maintainer load. Reproducible issues and small fixes
+come first, and discussion should precede large features. A package shouldn't be
 published to PyPI before a project has enough tests, examples, and maintenance
 clarity
 ([[person:vincentwarmerdam|Vincent Warmerdam]] in
 [[podcast:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
-An employability lens asks for repositories that prove Python and SQL, plus
-Docker, Airflow, code organization, and tests. Open-source work is useful there
+An employability lens asks for repositories that prove Python and SQL. Docker,
+Airflow, code organization, and tests matter too. Open-source work is useful
 because maintainers and teams impose reliability expectations that a private
 tutorial repo may not
 ([[person:jeffkatz|Jeff Katz]] in
 [[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
+That same public trail matters for [[Job Search]] and [[CV Screening]].
+Open-source contributions let a recruiter or hiring team look at a candidate's
+body of work before an interview. They also show public pull-request and issue
+interactions, making OSS experience a useful checklist signal rather than a hard
+requirement
+[[cite:open-source-turned-into-career-and-startup-creation|OSS hiring signal|44:38]].
+
 A [[developer relations]]
 and [[developer experience]]
-lens frames DevRel through education, documentation, and dogfooding, with
-community building and product feedback part of the same work
+lens frames DevRel through education, documentation, and dogfooding. Community
+building and product feedback are part of the same work
 ([[person:hugobowneanderson|Hugo Bowne-Anderson]] in
 [[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 A presentable GitHub repository, blog posts, meetup talks, and small experiments
-all support DevRel work, which makes demos and tutorials credible when they
-reduce developer friction
+all support DevRel work. Demos and tutorials become credible when they reduce
+developer friction
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
-From an investor's outside view, open source is weighed on team, market need,
-community understanding, active engagement, and the path from value creation to
-value capture
+From an investor's outside view, open source is weighed on team and market need.
+Community understanding, active engagement, and value capture matter too
 ([[person:belawiertz|Bela Wiertz]] in
 [[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 For a portfolio, stars and badges are weak proof unless candidates also show who
 used the work, what feedback appeared, and why the project mattered.
 
-Visibility and narrative matter too: open-source work and self-marketing build
-recognition, and learning in public means showing honest progress, corrections,
+Visibility and narrative matter too, because open-source work and self-marketing
+build recognition. Learning in public means showing honest progress, corrections,
 and earned expertise
 ([[person:swyx|Shawn Swyx Wang]] in
 [[podcast:developer-personal-brand-learn-in-public=>Learn in Public]]).
@@ -142,8 +148,8 @@ Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 connects public work to documentation and demos. It also connects community
 education with product feedback.
 
-For day-to-day signals, useful issues and contribution guides count, and so do
-docs, tests, packaging, and polite maintainer interaction
+For day-to-day signals, useful issues and contribution guides count. Docs, tests,
+packaging, and polite maintainer interaction count too
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The visible work often appears through
@@ -167,8 +173,8 @@ technical claims
 
 ## Contribution Paths
 
-A reproducible issue can be a strong first contribution: use a tool, find a
-confusing error or failure, then open a clear GitHub issue with a reproduction
+A reproducible issue can be a strong first contribution. Use a tool and find a
+confusing error or failure. Then open a clear GitHub issue with a reproduction
 and suggested direction
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
@@ -186,27 +192,28 @@ A strong documentation PR shows that the contributor understood the tool well
 enough to make the first run, common failure, or advanced use case clearer.
 
 DLT makes this documentation path especially concrete for data engineering.
-Without docs the product was unusable, and it took months of work before people
+Without docs, the product was unusable. It took months of work before people
 could use the docs and then call them good
 ([[person:adrianbrudaru|Adrian Brudaru]] in
 [[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 A portfolio contribution to a pipeline library can therefore be a setup guide,
-source example, or destination example, and a workshop fix can help another
-Python user build the pipeline successfully.
+source example, or destination example. A workshop fix can help another Python
+user build the pipeline successfully.
 
-A small code fix becomes credible when reviewers can look at it quickly, which
-means learning the repo's ecosystem basics: Git and GitHub workflow, packaging,
-`pytest`, `flake8`, `black`, pre-commit hooks, and CI.
+A small code fix becomes credible when reviewers can look at it quickly. That
+means learning the repo's ecosystem basics. These include Git and GitHub workflow,
+packaging, and CI. They also include `pytest`, `flake8`, `black`, and pre-commit
+hooks.
 
 Smaller projects are better targets when large libraries have heavy traffic and
 governance constraints
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
-For portfolio use, link the issue and pull request, and include tests, CI
-results, and maintainer feedback.
+For portfolio use, link the issue and pull request. Include tests, CI results,
+and maintainer feedback.
 
 Airbyte gives a connector-specific version of this path. Closed-source ingestion
-tools struggle with the long tail of connectors, and custom connectors can be
-built through Airbyte's connector development kit
+tools struggle with the long tail of connectors. Custom connectors can be built
+through Airbyte's connector development kit
 ([[person:nataliekwong|Natalie Kwong]] in
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
@@ -232,9 +239,9 @@ after user or maintainer feedback.
 
 ## Role-Specific Signals
 
-For data engineering, the contribution should expose engineering fundamentals:
-Python and SQL first, then Docker and Airflow, with data warehouses, OOP habits,
-and tests also mattering
+For data engineering, the contribution should expose engineering fundamentals,
+with Python and SQL first. Docker, Airflow, and data warehouses also matter, as
+do OOP habits and tests
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
 
 Good open-source examples include connector fixes,
@@ -273,17 +280,18 @@ than inventing a one-off interface
 when it shows baselines, evaluation, reproducibility, or production awareness.
 
 For DevRel and developer advocacy, the portfolio signal is adoption work plus
-technical depth: technical fluency, writing, community building, and a presence
-across GitHub, blog posts, and meetups
+technical depth. It includes technical fluency and writing. Community building
+and a presence across GitHub, blog posts, and meetups matter too
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
 The artifact can be a demo, docs PR, tutorial, or workshop repo. A meetup talk
 or community support thread also works when it shows what developer friction it
 removed and what feedback reached the project.
 
-For founder, product, or developer-tools portfolios, an investor lens helps:
-open source as community trust and bottom-up developer adoption, with vanity
-metrics separated from active engagement and commercialization understanding
+For founder, product, or developer-tools portfolios, an investor lens helps.
+Open source can signal community trust and bottom-up developer adoption. Vanity
+metrics need to be separated from active engagement and commercialization
+understanding
 ([[person:belawiertz|Bela Wiertz]] in
 [[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
@@ -322,7 +330,7 @@ For open-source work, the interview story should cover these points:
   tutorial repo.
 
 Learning-in-public framing adds one more ingredient: make the learning trail
-visible. A closed PR or corrected blog post can still be good evidence, and a
+visible. A closed PR or corrected blog post can still be good evidence. A
 rejected feature can work too when it shows honest progress, feedback handling,
 and a better next attempt
 ([[podcast:developer-personal-brand-learn-in-public|Learn in Public]]).
@@ -343,8 +351,8 @@ For hiring, a small issue that shows care and review can be stronger than a
 flashy repository nobody used.
 
 Avoid large unsolicited feature PRs. Discuss ideas with maintainers before
-investing in a major change, which matters most in large projects with
-governance and long-term maintenance concerns
+investing in a major change. This matters most in large projects with governance
+and long-term maintenance concerns
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 Avoid project stories that can't survive a walkthrough. Project questions test

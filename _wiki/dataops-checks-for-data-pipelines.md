@@ -260,6 +260,19 @@ values. He also names regression impact. For tooling, he names dbt tests and
 Great Expectations. SQL checks can automate the same assertions
 ([[podcast:dataops-automation-and-reliable-data-pipelines|48:25|automated production tests at 33:47 and tooling]]).
 
+[[person:bartoszmikulski=>Bartosz Mikulski]] adds a practical
+strategy for [[data pipelines]]: get the pipeline running first, then observe
+outputs and decide what's acceptable. Those accepted outputs become checks, and
+sample data can run through the flow so the result can be compared with
+expected snapshots. In that frame, [[Testing]] for pipelines leans more on
+integration and snapshot tests than isolated unit tests
+([[cite:production-ready-ai-engineering|pipeline test cases|11:47]]).
+
+Great Expectations and Soda can run after each pipeline step. SQL checks and
+Spark tests can enforce column counts and null rules. Teams can use templated
+test tables for joins and business-rule expectations
+([[cite:production-ready-ai-engineering|integration and data checks|13:14]]).
+
 Don't try to encode every edge case. Hinc argues for pragmatic edge-case checks
 because company data flows constantly and perfection isn't realistic. Focus on
 cases that would make a leadership report, customer workflow, or model output
@@ -437,4 +450,3 @@ Use the checklist as the practical overlap between
 [[Data Quality and Observability]],
 and [[DataOps]]. Run checks before release,
 observe data after release, and recover when the data isn't fit for use.
-

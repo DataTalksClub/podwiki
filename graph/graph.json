@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11192
+    "links": 11203
   },
   "nodes": [
     {
@@ -36908,6 +36908,18 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -44828,6 +44840,12 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "person:christopherbergh",
       "kind": "wiki-chip",
       "weight": 1
@@ -44883,6 +44901,12 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44975,6 +44999,12 @@
       "target": "wiki:orchestration",
       "kind": "wiki-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:testing",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-engineer-role",
@@ -50324,6 +50354,12 @@
     },
     {
       "source": "wiki:freelance",
+      "target": "podcast:open-source-turned-into-career-and-startup-creation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -50397,6 +50433,18 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66956,6 +67004,12 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:open-source-turned-into-career-and-startup-creation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -76833,6 +76887,18 @@
     {
       "source": "wiki:technical-writing",
       "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -343,6 +343,21 @@ that proof can come from
 open-source contributions or internal projects. A small paid engagement can
 serve the same purpose.
 
+Independent work doesn't always mean short projects or constant client churn. A
+first paid engagement can become a long-running anchor client. Smaller projects
+can still preserve the legal and practical independence of freelancing.
+[[cite:open-source-turned-into-career-and-startup-creation|Open source founder path|15:07]]
+
+In that setup, [[Open Source]] can also act as a separate creative outlet.
+Client work may be shaped by business requirements and existing systems. Side
+projects give the freelancer room to choose architecture and direction.
+[[cite:open-source-turned-into-career-and-startup-creation|Open source as creative outlet|17:48]]
+
+That connects freelance independence with
+[[Open Source Portfolio Evidence]] and the later
+[[Consultant or Freelancer to Data Product Founder]]
+path.
+
 Adrian relies heavily on reputation and repeat relationships. Orell's first paid
 request came through a startup contact who already knew his work. Dimitri's
 first transition involved market research, outreach to established freelancers,

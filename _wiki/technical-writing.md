@@ -95,6 +95,14 @@ through Twitter and LinkedIn makes writing part of
 to personal branding
 ([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
+Using AI to draft can lower the cost of turning rough notes into a post, but it
+doesn't remove the writer's voice problem. The bounded uses are sentence
+rewrites, structure from dumped notes, and drafts from bullet points. The author
+still edits the result back into their style. For free drafting, a plain editor
+can be better than autocomplete when the writer needs imperfect but intentional
+text
+[[cite:production-ready-ai-engineering|AI-assisted writing|56:17]].
+
 ## Technical Writing for Data and ML
 
 Data and ML writing needs enough technical detail for the reader to judge the
@@ -145,6 +153,21 @@ beta-reader batches let the author incorporate feedback into a new version
 before inviting the next group. Conflicting reader comments still require an
 editorial decision
 [[cite:interpretable-machine-learning|Beta-reader feedback loops|44:51]].
+
+Book projects can also start from publishing constraints. Traditional publishers
+add editorial support and accountability, and they create a more intentional
+production path. Self-publishing fits existing work that can become an
+"accidental product"
+[[cite:solopreneur-developer-and-data-professional|Publishing options|35:44]].
+
+A project-first workflow starts with an outline. The author then builds chapter
+projects, often in GitHub, and turns those projects and prior documentation
+into explanation
+[[cite:solopreneur-developer-and-data-professional|Book workflow|38:08]].
+
+The marathon analogy frames the work as repeated training. Book writing gets
+less intimidating when the author treats the process as discipline and feedback
+[[cite:solopreneur-developer-and-data-professional|Book discipline|41:34]].
 
 ## Documentation and Team Memory
 
