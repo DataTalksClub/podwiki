@@ -3,9 +3,9 @@
 Status note: this worklist was written before the category split in commit
 `473dd0e`. Article retirement is complete: the public `_articles/` collection
 and `/articles/` URLs are no longer the active editorial surface. Surviving
-editorial content now lives under `_guides/`, `_comparisons/`, `_roadmaps/`, and
-`_how_tos/`, with public URLs under `/guides/`, `/comparisons/`, `/roadmaps/`,
-and `/how-tos/`.
+editorial content now lives in `_wiki/` with type tags such as `guide`,
+`comparison`, `roadmap`, `transition`, and `how-to`, with public URLs under
+`/wiki/<slug>/`.
 
 This file is now a historical/current decision record for the 71 retired
 article pages. Its purpose is to preserve why the Ubersuggest keyword swarm was
@@ -52,9 +52,9 @@ official course or podcast pages there when useful.
 ### B1 → wiki `data-engineering-roadmap` ("how to learn / become a DE")
 Status: the duplicate guide pages for data engineering course, courses,
 bootcamp, and training variants were removed from podwiki on 2026-07-01. Useful
-selection guidance belongs in `_wiki/data-engineering-roadmap.md`. Keep the
-roadmap-category pages `_roadmaps/data-engineer-roadmap.md` and
-`_roadmaps/how-to-become-a-data-engineer-with-no-experience.md` for their
+selection guidance belongs in `_wiki/data-engineer-roadmap.md`. Keep the
+roadmap-tagged pages `_wiki/data-engineer-roadmap.md` and
+`_wiki/how-to-become-a-data-engineer-with-no-experience.md` for their
 specific roadmap intents.
 
 best-data-engineering-course · free-data-engineering-course · data-engineer-course ·
@@ -83,8 +83,8 @@ data-engineering-consulting · data-engineering-freelance · freelance-data-engi
 
 ### B4 → KEEP-NEW interview-prep pages (see §D)
 Status: `ml-system-design-interview` was folded into
-`_guides/machine-learning-system-design-interview.md` on 2026-07-01. Keep
-`_guides/llm-system-design-interview.md` as a separate guide because the query
+`_wiki/machine-learning-system-design-interview.md` on 2026-07-01. Keep
+`_wiki/llm-system-design-interview.md` as a separate guide because the query
 has distinct LLM/RAG/agent/evaluation intent.
 
 machine-learning-system-design-interview · ml-system-design-interview → canonical
@@ -96,8 +96,7 @@ Status: exact guide/wiki slug collisions were merged into the wiki layer and
 the duplicate guide files were removed on 2026-06-30. Rows marked **keep** are
 the surviving editorial pages now maintained in the split collections. The
 Airflow/apache-airflow concept pages were consolidated into
-`_wiki/orchestration.md` on 2026-07-01, while `airflow-docker-compose` now has a
-standalone procedural how-to in `_how_tos/airflow-docker-compose.md`. The
+`_wiki/orchestration.md` on 2026-07-01. The
 analytics-engineer guide variant was consolidated into
 `_wiki/analytics-engineering.md` on 2026-07-01. The
 data-engineering-manager/data-engineer-manager cluster was consolidated into
@@ -107,9 +106,9 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 |---|---|---|
 | airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`** |
 | apache-airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`; dup of airflow** |
-| airflow-docker-compose | orchestration | **done: standalone procedural how-to in `_how_tos/airflow-docker-compose.md`; concept context remains in `_wiki/orchestration.md`** |
+| airflow-docker-compose | orchestration | **done: folded into `_wiki/orchestration.md`; rebuild a separate how-to only if future podcast evidence supports a distinct procedure** |
 | analytics-engineer | analytics-engineering | **done: consolidated into `_wiki/analytics-engineering.md`** |
-| data-engineering-and-data-science | data-engineer-vs-data-scientist | **done: consolidated into `_comparisons/data-engineer-vs-data-scientist.md`** |
+| data-engineering-and-data-science | data-engineer-vs-data-scientist | **done: consolidated into `_wiki/data-engineer-vs-data-scientist.md`** |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |
 | data-engineering-manager | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-engineer-manager | leadership | **done: consolidated into `_wiki/leadership.md`; dup of data-engineering-manager** |
@@ -119,16 +118,16 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-observability-for-data-engineering | data-observability | **keep: practical guide for the data-engineering-specific observability query** |
 | dataops | dataops | **done: slug collision removed** |
 | dataops-tools | dataops | **keep: guide for practical DataOps stack/tool selection** |
-| dataops-vs-data-engineering | dataops | **done: comparison lives in `_comparisons/dataops-vs-data-engineering.md`; concept context remains in `_wiki/dataops.md`** |
+| dataops-vs-data-engineering | dataops | **done: comparison lives in `_wiki/dataops-vs-data-engineering.md`; concept context remains in `_wiki/dataops.md`** |
 | data-product-manager | data-product-management | **keep: short role guide linked to canonical wiki page** |
-| data-product-manager-role | data-product-management | **done: duplicate removed; links retargeted to `_guides/data-product-manager.md`** |
+| data-product-manager-role | data-product-management | **done: duplicate removed; links retargeted to `_wiki/data-product-manager.md`** |
 | data-science-for-managers | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-scientist-interview | data-scientist-interview-roadmap | **keep: keyword guide; roadmap remains `_wiki/data-scientist-interview-roadmap.md`** |
 | data-scientist | data-scientist-role | **keep: keyword guide linked to canonical role page** |
-| data-scientist-to-data-engineer | career-transition | **done: moved to `_roadmaps/data-scientist-to-data-engineer.md`** |
+| data-scientist-to-data-engineer | career-transition | **done: moved to `_wiki/data-scientist-to-data-engineer.md`** |
 | designing-machine-learning-systems | machine-learning-system-design | **done: book-title guide folded into `_wiki/machine-learning-system-design.md`** |
-| fundamentals-of-data-engineering | data-engineering | **done: book-title guide folded into `_wiki/data-engineering.md`, `_wiki/data-pipelines.md`, and `_wiki/data-engineering-roadmap.md`** |
-| how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_how_tos`** |
+| fundamentals-of-data-engineering | data-engineering | **done: book-title guide folded into `_wiki/data-engineering.md`, `_wiki/data-pipelines.md`, and `_wiki/data-engineer-roadmap.md`** |
+| how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_wiki` with a `how-to` tag** |
 | interpretable-machine-learning | interpretability | **done: guide folded into `_wiki/interpretability.md`** |
 | llm-tools | llms | **keep: guide for practical LLM stack selection; crosslink to LLMs and AI Tooling** |
 | machine-learning-for-software-engineers | software-engineer-to-machine-learning | **keep: practical software-engineer-to-ML keyword guide linked to canonical wiki page** |
@@ -139,7 +138,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | mlops-frameworks | mlops-tools | **keep: guide for framework/convention selection by failure mode** |
 | mlops | mlops | **done: slug collision removed** |
 | mlops-tools | mlops-tools | **done: slug collision merged** |
-| mlops-vs-dataops | mlops-vs-dataops | **done: comparison lives in `_comparisons/mlops-vs-dataops.md`; removed combined wiki bridge** |
+| mlops-vs-dataops | mlops-vs-dataops | **done: comparison lives in `_wiki/mlops-vs-dataops.md`; removed combined wiki bridge** |
 | product-analyst | product-analytics | **keep: role/job-description guide** |
 | software-engineer-to-machine-learning | software-engineer-to-machine-learning | **done: slug collision removed** |
 | solopreneur-data-scientist | entrepreneurship | **keep: practical data/AI career guide** |
@@ -149,7 +148,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 
 | New page | Absorbs | Why it's additive |
 |---|---|---|
-| **ML system-design interview prep** | B4 (`machine-learning-system-design-interview`, `ml-system-design-interview`) | **done: canonical guide is `_guides/machine-learning-system-design-interview.md`; short variant removed** |
+| **ML system-design interview prep** | B4 (`machine-learning-system-design-interview`, `ml-system-design-interview`) | **done: canonical guide is `_wiki/machine-learning-system-design-interview.md`; short variant removed** |
 | **LLM system-design interview prep** | B4 (`llm-system-design-interview`) | **keep: distinct guide for RAG, agents, evaluation, safety, latency, and operations** |
 | **Business Intelligence** | ai-powered-business-intelligence | **done: moved into `_wiki/business-intelligence.md` with AI-powered BI as one section** |
 
@@ -159,8 +158,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 
 - 71 articles → **0 standalone keyword pages.**
 - The public `_articles/` collection is retired.
-- Surviving content: existing wiki topics (enriched), split editorial pages in
-  `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`, canonical ML and
+- Surviving content: existing wiki topics (enriched), tagged editorial wiki pages, canonical ML and
   LLM interview-prep guides, and the `business-intelligence` wiki topic.
 
 ## Archived execution order

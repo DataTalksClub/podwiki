@@ -4,15 +4,14 @@ How `DataTalksClub/podwiki` (served at `datatalks.club/podwiki/`) should be
 integrated with the main site (`datatalksclub.github.io`, served at
 `datatalks.club/`) for maximum SEO benefit.
 
-_Last updated: 2026-07-01._
+_Last updated: 2026-07-03._
 
-Status note: this analysis was written before the category split in commit
-`473dd0e`. The public `_articles/` collection and `/articles/` URLs have now
-been retired. Editorial content lives under `_guides/`, `_comparisons/`,
-`_roadmaps/`, and `_how_tos/`, with public URLs under `/guides/`,
-`/comparisons/`, `/roadmaps/`, and `/how-tos/`. Keep the notes below as
-historical SEO rationale and as a consolidation checklist for the migrated
-editorial surface.
+Status note: this analysis predates the final one-collection content model. The
+public `_articles/` collection and `/articles/` URLs have been retired.
+Editorial content now lives in `_wiki/` with type tags such as `guide`,
+`comparison`, `roadmap`, `transition`, and `how-to`. Public URLs are
+`/wiki/<slug>/`. Keep the notes below as historical SEO rationale and as a
+consolidation checklist for the migrated editorial surface.
 
 ---
 
@@ -28,12 +27,11 @@ authority stay consolidated on one host. A subdomain would split them. **Keep it
 
 ## 2. URL structure — fine, no action
 
-Wiki/editorial/podcast/people URLs are ~3 segments deep
-(`/podwiki/wiki/rag/`, `/podwiki/guides/data-roles/`,
-`/podwiki/comparisons/mlops-vs-dataops/`). **URL/folder depth is not a ranking
-factor** — click depth and internal linking are. Slugs are descriptive,
-lowercase, hyphenated, with consistent trailing-slash pretty permalinks. Only
-rule: **keep slugs stable once indexed.**
+Wiki URLs are ~3 segments deep, for example `/podwiki/wiki/rag/` and
+`/podwiki/wiki/mlops-vs-dataops/`. **URL/folder depth is not a ranking factor**
+— click depth and internal linking are. Slugs are descriptive, lowercase,
+hyphenated, with consistent trailing-slash pretty permalinks. Only rule:
+**keep slugs stable once indexed.**
 
 ## 3. The real problems
 
@@ -102,9 +100,9 @@ consolidated into topics.
    collapsed into topics and a small number of genuinely additive editorial
    formats.
 3. **One canonical owner per query.** Branded/course terms (zoomcamps) →
-   main site always wins. Concept terms → podwiki wiki topic wins. Comparison
-   and decision queries → `_comparisons/` wins. Never two live competitors for
-   the same query.
+   main site always wins. Concept terms → untagged podwiki wiki topic wins.
+   Comparison, roadmap, guide, transition, and how-to queries → the relevant
+   tagged `_wiki/` page wins. Never two live competitors for the same query.
 
 ## 5. What replaced `articles/`
 
@@ -119,14 +117,15 @@ already cover:
   engineer") that link OUT to topics + episodes. Additive, not a keyword clone.
 - **Q&A / "ask the archive".** Question-shaped pages backed by exploration
   search — a format the main site lacks entirely.
-- **Comparison / "vs" pages** (e.g. `mlops-vs-dataops`) — keep these in
-  `_comparisons/` where the comparison is real and link to both topic hubs;
-  drop the rest.
+- **Comparison / "vs" pages** (e.g. `mlops-vs-dataops`) — keep these as
+  `comparison`-tagged `_wiki/` pages where the comparison is real and link to
+  both topic hubs; drop the rest.
 
 Net: 71 keyword articles → 0 standalone keyword pages. Surviving editorial
-content now lives as focused guides, comparisons, roadmaps, and how-tos; the
-rest was absorbed into wiki topics or removed. Each remaining editorial page
-must target a query no main-site or wiki page already owns.
+content now lives as focused tagged wiki pages: guides, comparisons, roadmaps,
+transitions, and how-tos. The rest was absorbed into wiki topics or removed.
+Each remaining editorial page must target a query no main-site or wiki page
+already owns.
 
 ## 6. Action checklist
 
@@ -139,8 +138,8 @@ must target a query no main-site or wiki page already owns.
   to the main podcast page
 - [x] Remove branded Zoomcamp guide pages from podwiki so the main site owns
   those course queries
-- [x] Retire the public `_articles/` collection and split surviving editorial
-  content into `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`
+- [x] Retire the public `_articles/` collection and keep surviving editorial
+  content in `_wiki/` with type tags
 - [x] Consolidate the article keyword swarm into topics + editorial formats (§5)
 - [x] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
   - [x] Remove exact guide/wiki slug collisions and move useful guide material
@@ -153,8 +152,9 @@ must target a query no main-site or wiki page already owns.
   - [x] Consolidate freelance and consulting guide variants into
     `_wiki/freelance.md`
   - [x] Consolidate Airflow and Apache Airflow variants into
-    `_wiki/orchestration.md`; keep Airflow Docker Compose as an additive
-    `_how_tos/airflow-docker-compose.md` procedural page
+    `_wiki/orchestration.md`; keep procedural Airflow material on the
+    canonical Airflow/orchestration pages unless a future distinct how-to is
+    rebuilt from podcast evidence
   - [x] Consolidate analytics-engineer into
     `_wiki/analytics-engineering.md`
   - [x] Consolidate data-engineering-manager and data-engineer-manager into

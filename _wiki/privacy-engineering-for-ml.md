@@ -9,6 +9,7 @@ related:
   - LLM Production Patterns
   - LLMs
   - Machine Learning
+  - Synthetic Data
 ---
 
 Privacy engineering for ML is the work of turning privacy obligations into

@@ -7,6 +7,7 @@ related:
   - Computer Vision
   - AI
   - Generative AI
+  - Synthetic Data
   - MLOps
   - Production
   - AI Engineering

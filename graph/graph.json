@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 272,
+    "wikis": 277,
     "articles": 0,
     "guides": 0,
     "comparisons": 0,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 97,
-    "nodes": 1108,
-    "links": 10804
+    "nodes": 1113,
+    "links": 10933
   },
   "nodes": [
     {
@@ -8408,6 +8408,16 @@
       "search": "AI for Finance Decision Support How AI can help finance teams turn ERP, CRM, expense, and spreadsheet context into trusted decision insight without replacing finance judgment."
     },
     {
+      "id": "wiki:ai-for-social-good",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI for Social Good",
+      "title": "AI for Social Good",
+      "url": "/wiki/ai-for-social-good/",
+      "count": 1,
+      "search": "AI for Social Good How DataTalks.Club podcast guests apply AI and analytics to conservation, nonprofit operations, public policy, accessibility, and social impact programs."
+    },
+    {
       "id": "wiki:ai-infrastructure",
       "type": "wiki",
       "collection": "wiki",
@@ -9767,6 +9777,16 @@
       "search": "Governance How DataTalks.Club guests connect governance across data, ML, and AI systems through ownership, access, review, release controls, privacy, security, and accountability."
     },
     {
+      "id": "wiki:graph-data-science",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Graph Data Science",
+      "title": "Graph Data Science",
+      "url": "/wiki/graph-data-science/",
+      "count": 1,
+      "search": "Graph Data Science Graph data science uses nodes, edges, paths, similarity, clustering, centrality, and graph aware machine learning to analyze relationship heavy systems such as crash simulations, microbiomes, scientific papers, and knowledge grounded LLM workflows."
+    },
+    {
       "id": "wiki:graph-rag-vs-vector-rag",
       "type": "wiki",
       "collection": "wiki",
@@ -10882,6 +10902,16 @@
       "search": "Sensor ML with Personal Baselines A portfolio project pattern for sensor machine learning where anomaly detection depends on each subject's long term baseline rather than a global average."
     },
     {
+      "id": "wiki:simulation-and-digital-twins",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Simulation and Digital Twins",
+      "title": "Simulation and Digital Twins",
+      "url": "/wiki/simulation-and-digital-twins/",
+      "count": 1,
+      "search": "Simulation and Digital Twins How DataTalks.Club podcast guests connect physics based simulation, digital twin style representations, synthetic data, HPC pipelines, autonomous driving validation, and ML bridges."
+    },
+    {
       "id": "wiki:software-engineer-to-machine-learning",
       "type": "wiki",
       "collection": "wiki",
@@ -10953,6 +10983,16 @@
       "search": "Streaming How DataTalks.Club guests discuss event streaming with Kafka, real time pipelines, schemas, feature stores, fraud systems, and search."
     },
     {
+      "id": "wiki:synthetic-data",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Synthetic Data",
+      "title": "Synthetic Data",
+      "url": "/wiki/synthetic-data/",
+      "count": 1,
+      "search": "Synthetic Data How DataTalks.Club podcast discussions frame synthetic data generation for scarce, sensitive, or underrepresented data, with examples from medical imaging, speech recognition, and urban data."
+    },
+    {
       "id": "wiki:teaching",
       "type": "wiki",
       "collection": "wiki",
@@ -10991,6 +11031,16 @@
       "url": "/wiki/testing/",
       "count": 1,
       "search": "Testing How DataTalks.Club guests test data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
+    },
+    {
+      "id": "wiki:text-to-sql",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Text-to-SQL",
+      "title": "Text-to-SQL",
+      "url": "/wiki/text-to-sql/",
+      "count": 1,
+      "search": "Text to SQL How podcast discussions frame text to SQL and conversational data access as a BI interface built on metadata, governed data, query safety, and production AI testing."
     },
     {
       "id": "wiki:tools",
@@ -24293,6 +24343,180 @@
       "weight": 3
     },
     {
+      "source": "wiki:ai-for-social-good",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "person:christinecepelak",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "person:parvathykrishnan",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "person:tanyabergerwolf",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "podcast:ai-for-ecology-biodiversity-and-conservation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:ai-infrastructure",
       "target": "book:20210628-data-science-on-aws",
       "kind": "wiki-chip",
@@ -27144,9 +27368,21 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "wiki:software-engineering",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
@@ -27361,6 +27597,18 @@
     {
       "source": "wiki:autonomous-driving-ai",
       "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -27642,6 +27890,18 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "wiki:machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -27853,6 +28113,18 @@
     {
       "source": "wiki:business-intelligence",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "wiki:text-to-sql",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "wiki:text-to-sql",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -30480,6 +30752,30 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -30597,6 +30893,18 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:computer-vision",
@@ -42300,6 +42608,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -45243,6 +45557,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:deep-learning",
@@ -50081,6 +50401,96 @@
       "weight": 1
     },
     {
+      "source": "wiki:graph-data-science",
+      "target": "podcast:bioinformatics-worflows-tools-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:bioinformatics-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:bioinformatics-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:graph-rag-vs-vector-rag",
       "target": "person:anahitapakiman",
       "kind": "wiki-chip",
@@ -50119,6 +50529,12 @@
     {
       "source": "wiki:graph-rag-vs-vector-rag",
       "target": "wiki:embeddings",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:graph-data-science",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -52135,6 +52551,12 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:embeddings",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:graph-data-science",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -67001,6 +67423,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:privacy-engineering-for-ml",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:product-analyst",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
@@ -72521,6 +72949,150 @@
       "weight": 3
     },
     {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "person:anahitapakiman",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "person:orellgarten",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:academia",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:academia",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:applied-research",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:applied-research",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "book:20210215-math-for-programmers",
       "kind": "wiki-chip",
@@ -74003,6 +74575,150 @@
       "weight": 3
     },
     {
+      "source": "wiki:synthetic-data",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "podcast:human-centered-ai-automatic-speech-recognition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "podcast:urban-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:llmops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:llmops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:teaching",
       "target": "person:alexanderguschin",
       "kind": "wiki-chip",
@@ -74901,6 +75617,114 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "person:liorbarak",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "person:rachellim",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "podcast:urban-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:metrics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:tools",

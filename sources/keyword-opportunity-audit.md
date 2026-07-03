@@ -11,8 +11,9 @@ Input files:
 ## Extraction Result
 
 - Ubersuggest CSV rows extracted: 1000
-- Existing editorial pages checked: 49
-  (`_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`)
+- Existing tagged wiki/editorial pages checked: 49
+  (`_wiki/` pages with `guide`, `comparison`, `roadmap`, `transition`, or
+  `how-to` tags)
 - Existing wiki pages checked: 183
 - Excel workbook tabs checked in the local file:
   `Quick-wins`, `Competitor Gaps`, `Code Fix`
@@ -39,16 +40,16 @@ The CSV is the source for editorial keywords. We should not create one page per
 keyword row. We should group related keyword variants into one content target
 when they express the same search intent.
 
-Editorial targets live in `_guides/`, `_comparisons/`, `_roadmaps/`, or
-`_how_tos/`, with public URLs under `/guides/`, `/comparisons/`, `/roadmaps/`,
-and `/how-tos/`. Before publication, each page should cross-link relevant wiki
-pages, people pages, local podcast pages, and the podcast evidence that grounds
-its claims.
+Editorial targets live in `_wiki/` with a type tag such as `guide`,
+`comparison`, `roadmap`, `transition`, or `how-to`. Public URLs are
+`/wiki/<slug>/`. Before publication, each page should cross-link relevant wiki
+pages, canonical podcast evidence, and the podcast discussions that ground its
+claims.
 
-The normalized keyword artifacts in `artifacts/keywords/` now use
-`covered_by_editorial` / `editorial_file` for the split editorial collections,
-plus `covered_by_wiki` / `wiki_file` for exact wiki matches. They should not
-refer to retired `_articles/` paths.
+The normalized keyword artifacts in `artifacts/keywords/` are historical
+analysis artifacts. If regenerated, they should map editorial coverage to
+`_wiki/` files and type tags, not retired `_articles/` or split editorial
+collections.
 
 Rows such as `slack`, `download"`, unrelated book/PDF queries, and misspellings
 without a DataTalks.Club angle are kept in the raw extraction but excluded from
@@ -60,46 +61,46 @@ These keyword groups already have editorial coverage:
 
 | Group | Existing content | Covered keyword variants |
 |---|---|---|
-| Data engineering courses | `_wiki/data-engineering-roadmap.md` | data engineering course, data engineering courses, best data engineering course, free data engineering course |
-| Data engineering bootcamps | `_wiki/data-engineering-roadmap.md` | data engineering bootcamp, data engineer bootcamp |
-| Data engineering roadmaps | `_roadmaps/data-engineer-roadmap.md` | data engineer roadmap |
-| Data pipeline projects | `_wiki/end-to-end-data-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
+| Data engineering courses | `_wiki/data-engineer-roadmap.md` | data engineering course, data engineering courses, best data engineering course, free data engineering course |
+| Data engineering bootcamps | `_wiki/data-engineer-roadmap.md` | data engineering bootcamp, data engineer bootcamp |
+| Data engineering roadmaps | `_wiki/data-engineer-roadmap.md` | data engineer roadmap |
+| Data pipeline projects | `_wiki/end-to-end-data-pipeline-project.md`, `_wiki/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_wiki/freelance.md` | data engineering consulting, data engineering consultant, data engineer consulting, data engineer consultant |
 | Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
 | Portfolio projects | `_wiki/portfolio-projects.md`, `_wiki/data-engineering-portfolio-projects.md`, `_wiki/machine-learning-portfolio-projects.md`, `_wiki/analytics-engineering-portfolio-projects.md`, `_wiki/rag-portfolio-projects.md`, `_wiki/open-source-portfolio-evidence.md` | portfolio projects, data engineering portfolio projects, machine learning portfolio projects, analytics engineering portfolio projects, rag portfolio projects |
-| MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
-| DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/mlops-vs-dataops.md`, `_comparisons/dataops-vs-data-engineering.md` | dataops, data ops, dataops tools, mlops vs dataops, dataops vs data engineering |
-| Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
-| LLM system design | `_guides/llm-system-design-interview.md` | llm system design interview |
+| MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_wiki/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
+| DataOps core terms | `_wiki/dataops.md`, `_wiki/dataops-tools.md`, `_wiki/mlops-vs-dataops.md`, `_wiki/dataops-vs-data-engineering.md` | dataops, data ops, dataops tools, mlops vs dataops, dataops vs data engineering |
+| Machine learning system design | `_wiki/machine-learning-system-design.md`, `_wiki/machine-learning-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
+| LLM system design | `_wiki/llm-system-design-interview.md` | llm system design interview |
 | Business Intelligence | `_wiki/business-intelligence.md` | ai powered business intelligence, business intelligence |
-| Machine learning for software engineers | `_guides/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
-| Machine learning startups | `_guides/machine-learning-for-startups.md` | machine learning for startups |
-| Data scientist interview | `_guides/data-scientist-interview.md` | data scientist interview |
-| Data product roles | `_guides/data-product-manager.md`, `_wiki/data-product-management.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
-| Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md`, `_comparisons/data-product-owner-vs-data-product-manager.md` | data product owner, data science product owner, data product owner vs data product manager |
+| Machine learning for software engineers | `_wiki/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
+| Machine learning startups | `_wiki/machine-learning-for-startups.md` | machine learning for startups |
+| Data scientist interview | `_wiki/data-scientist-interview.md` | data scientist interview |
+| Data product roles | `_wiki/data-product-manager.md`, `_wiki/data-product-management.md`, `_wiki/product-analyst.md` | data product manager, data product management, product analyst |
+| Product owner vs product manager | `_wiki/product-owner-vs-product-manager.md`, `_wiki/data-product-owner-vs-data-product-manager.md` | data product owner, data science product owner, data product owner vs data product manager |
 | Data engineering management | `_wiki/leadership.md` | data engineering manager, data engineer manager |
-| Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md`, `_how_tos/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
+| Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md` | airflow, apache airflow |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
 | Machine Learning Zoomcamp | main DataTalks.Club course page | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
 | LLM Zoomcamp | main DataTalks.Club course page | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp |
 | Data Science for Managers | `_wiki/leadership.md` | data science for managers |
-| Data Roles | `_guides/data-roles.md` | data roles |
-| Data Analysis | `_guides/data-analysis.md` | data analysis |
-| Hire Data Engineers | `_guides/hire-data-engineers.md` | hire data engineers |
-| Data Science Recruiter | `_guides/data-science-recruiter.md` | data science headhunter, data scientist headhunter |
-| AI Tools for Personal Productivity | `_guides/ai-tools-for-personal-productivity.md` | ai tools for personal productivity, ai for personal productivity |
-| Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
-| ETL vs ELT | `_comparisons/etl-vs-elt.md`; old wiki URL redirects | etl vs elt, elt vs etl, etl and elt |
+| Data Roles | `_wiki/data-roles.md` | data roles |
+| Data Analysis | `_wiki/data-analysis.md` | data analysis |
+| Hire Data Engineers | `_wiki/hire-data-engineers.md` | hire data engineers |
+| Data Science Recruiter | `_wiki/data-science-recruiter.md` | data science headhunter, data scientist headhunter |
+| AI Tools for Personal Productivity | `_wiki/ai-tools-for-personal-productivity.md` | ai tools for personal productivity, ai for personal productivity |
+| Delta Lake vs Apache Iceberg | `_wiki/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
+| ETL vs ELT | `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
-| DataOps Engineer Role | `_wiki/dataops-engineer-role.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | data ops engineer, dataops engineer, dataops engineer vs data engineer |
+| DataOps Engineer Role | `_wiki/dataops-engineer-role.md`, `_wiki/dataops-vs-data-engineering.md`, `_wiki/mlops-vs-dataops.md` | data ops engineer, dataops engineer, dataops engineer vs data engineer |
 | Chief Data Officer Role | `_wiki/chief-data-officer-role.md`, `_wiki/leadership.md`, `_wiki/data-team-lead-role.md` | chief data officer skills, chief data officer interview questions |
 | A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`, `_wiki/power-analysis.md` | a/b testing podcast, ab testing, product experimentation |
 | Recommendation Systems | `_wiki/recommendation-systems.md`, `_wiki/search.md`, `_wiki/vector-databases.md`, `_wiki/machine-learning-system-design.md` | machine learning personalization, personalization machine, practical recommender systems |
 | Entity Resolution | `_wiki/entity-resolution.md`, `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md` | open source entity resolution, entity resolution use cases, identity resolution vs entity resolution, zingg entity resolution |
 | RFM Analysis | `_wiki/rfm-analysis.md`, `_wiki/product-analytics.md`, `_wiki/analytics-engineering.md` | rfm analysis, rfm segmentation, rfm analysis for customer segmentation |
-| Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects |
-| Tech Startups | `_wiki/startups.md`, `_wiki/startup.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_guides/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
+| Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_wiki/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects |
+| Tech Startups | `_wiki/startups.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_wiki/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
 
 ## Conditional CSV Items
 
@@ -135,23 +136,22 @@ The first content batches from this audit created the following durable podwiki
 coverage. The four branded Zoomcamp guide pages were later removed because the
 main DataTalks.Club site owns those course queries.
 
-1. `_wiki/leadership.md` (consolidated from `_guides/data-science-for-managers.md`)
-2. `_guides/data-roles.md`
-3. `_guides/data-analysis.md`
-4. `_guides/hire-data-engineers.md`
-5. `_guides/data-science-recruiter.md`
-6. `_guides/ai-tools-for-personal-productivity.md`
-7. `_comparisons/product-owner-vs-product-manager.md`
-8. `_comparisons/data-product-owner-vs-data-product-manager.md`
-9. `_comparisons/delta-lake-vs-apache-iceberg.md`
-10. `_comparisons/etl-vs-elt.md`
+1. `_wiki/leadership.md`
+2. `_wiki/data-roles.md`
+3. `_wiki/data-analysis.md`
+4. `_wiki/hire-data-engineers.md`
+5. `_wiki/data-science-recruiter.md`
+6. `_wiki/ai-tools-for-personal-productivity.md`
+7. `_wiki/product-owner-vs-product-manager.md`
+8. `_wiki/data-product-owner-vs-data-product-manager.md`
+9. `_wiki/delta-lake-vs-apache-iceberg.md`
+10. `_wiki/etl-vs-elt.md`
 11. `_wiki/dataops-platforms.md`
 12. `_wiki/open-source.md`
 13. `_wiki/startups.md`
-14. `_wiki/startup.md`
-15. `_wiki/founder.md`
-16. `_wiki/entrepreneurship.md`
-17. `_guides/machine-learning-for-startups.md`
+14. `_wiki/founder.md`
+15. `_wiki/entrepreneurship.md`
+16. `_wiki/machine-learning-for-startups.md`
 18. `_wiki/apache-airflow.md`
 19. `_wiki/recommendation-systems.md`
 20. `_wiki/entity-resolution.md`
@@ -161,9 +161,9 @@ main DataTalks.Club site owns those course queries.
 
 The duplicate data engineering course, courses, bootcamp, and training guide
 variants were later removed. Their useful guidance belongs in
-`_wiki/data-engineering-roadmap.md`, with roadmap-specific intents still covered
-by `_roadmaps/data-engineer-roadmap.md` and
-`_roadmaps/how-to-become-a-data-engineer-with-no-experience.md`.
+`_wiki/data-engineer-roadmap.md`, with roadmap-specific intents still covered
+by `_wiki/data-engineer-roadmap.md` and
+`_wiki/how-to-become-a-data-engineer-with-no-experience.md`.
 
 The duplicate MLOps course, courses, certification, machine learning bootcamp,
 and machine learning engineer certification guide variants were later removed.
@@ -191,7 +191,7 @@ The 2026-07-01 follow-up audit confirmed that the local workbook still contains
 only headers. The strongest remaining CSV-backed candidates are now:
 
 1. `machine learning business`, `machine learning for small business`, and
-   related variants. Candidate: `_guides/machine-learning-for-business.md`,
+   related variants. Candidate: `_wiki/machine-learning-for-business.md`,
    grounded in data products, ML strategy, startup, adoption, metrics, and
    production ML episodes.
 2. `data science project management`, `project management for data science`,

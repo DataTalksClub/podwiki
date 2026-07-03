@@ -6,6 +6,7 @@ related:
   - Computer Vision
   - Machine Learning System Design
   - Model Optimization
+  - Simulation and Digital Twins
   - Production
   - Deep Learning
   - AI Engineering
@@ -253,6 +254,7 @@ other AI engineering roles.
 - [[Computer Vision]]
 - [[Machine Learning System Design]]
 - [[Model Optimization]]
+- [[Simulation and Digital Twins]]
 - [[Production]]
 - [[Deep Learning]]
 - [[AI Engineering]]

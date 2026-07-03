@@ -8,6 +8,7 @@ related:
   - Data Governance
   - Data Products
   - Data Teams
+  - AI for Social Good
 ---
 
 Data strategy links data work to business goals. Teams use it to choose which

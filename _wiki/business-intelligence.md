@@ -9,6 +9,7 @@ related:
   - Data Products
   - Data Product Adoption
   - Product Analytics
+  - Text-to-SQL
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - Data Governance
@@ -24,7 +25,8 @@ meetings where people act on the numbers.
 The newer BI interface can use AI, but the podcast discussions treat that as an
 interface change rather than a replacement for analytics fundamentals. Natural
 language can help people ask better questions and find governed data. It can
-also draft first-pass analysis.
+also draft first-pass analysis. [[text-to-sql|Text-to-SQL]] is the structured
+query version of that interface.
 
 It can also turn unclear definitions and fragile pipelines into
 confident-sounding answers. Useful BI still depends on owned

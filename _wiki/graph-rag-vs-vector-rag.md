@@ -13,6 +13,7 @@ related_wiki:
   - Vector Databases
   - Embeddings
   - Knowledge Graph vs Vector Search
+  - Graph Data Science
   - Search and RAG Project Checklist
 ---
 
@@ -246,4 +247,3 @@ These pages cover the surrounding retrieval, search, and LLM-system topics:
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.
 - [[Vector Databases]] and [[Embeddings]] cover the vector side of the architecture.
 - [[Search and RAG Project Checklist]] turns the comparison into implementation and evaluation checks.
-

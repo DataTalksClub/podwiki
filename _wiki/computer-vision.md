@@ -6,6 +6,9 @@ related:
   - AI
   - Machine Learning
   - Deep Learning
+  - AI for Social Good
+  - Autonomous Driving AI
+  - Simulation and Digital Twins
   - MLOps
   - Production
   - Notebook to Production AI Systems
@@ -197,6 +200,7 @@ use [[MLOps]],
 [[machine learning system design]]
 and [[notebook-to-production-ai-systems|notebook-to-production AI systems]].
 For retrieval, use [[embeddings]] and
-[[vector databases]].
-</content>
-</invoke>
+[[vector databases]]. For field and safety-heavy examples, use
+[[ai-for-social-good=>AI for Social Good]],
+[[autonomous-driving-ai=>Autonomous Driving AI]], and
+[[simulation-and-digital-twins=>Simulation and Digital Twins]].

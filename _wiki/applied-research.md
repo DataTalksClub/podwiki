@@ -6,6 +6,8 @@ related:
   - Machine Learning
   - Production
   - Machine Learning System Design
+  - Simulation and Digital Twins
+  - Synthetic Data
   - Academic Researcher to Data Science
   - Experimentation
   - MLOps

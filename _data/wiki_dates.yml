@@ -43,7 +43,7 @@ ai-infrastructure:
   modified: "2026-07-02"
 ai-powered-business-intelligence:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 ai-product-feedback-loops:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -109,7 +109,7 @@ camera-first-vs-lidar-autonomous-driving:
   modified: "2026-07-02"
 career-development:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 career-growth:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -127,7 +127,7 @@ chief-data-officer-role:
   modified: "2026-07-02"
 ci-cd:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 communication:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -334,7 +334,7 @@ dataops-checks-for-data-pipelines:
   modified: "2026-07-02"
 dataops-engineer-role:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 dataops-platforms:
   published: "2026-06-30"
   modified: "2026-07-02"
@@ -481,7 +481,7 @@ kpis:
   modified: "2026-07-02"
 leadership:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 lean-mlops-for-startups:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -562,7 +562,7 @@ manufacturing-predictive-maintenance-yield-analytics:
   modified: "2026-07-02"
 marketing-to-analytics-engineering:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 metaflow:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -595,7 +595,7 @@ mlops-engineer:
   modified: "2026-07-02"
 mlops-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 mlops-tools:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -670,7 +670,7 @@ platform-engineering:
   modified: "2026-07-02"
 portfolio-projects:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 power-analysis:
   published: "2026-06-29"
   modified: "2026-07-02"

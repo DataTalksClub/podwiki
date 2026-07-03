@@ -7,6 +7,7 @@ related:
   - Machine Learning
   - Open Source
   - Reproducibility
+  - Graph Data Science
   - Data Pipelines
 ---
 
@@ -158,5 +159,7 @@ Use these pages for the neighboring concepts named in the workflow.
   package ecosystems, documentation, and contribution work.
 - [[Reproducibility]] for rerunnable
   analysis, reports, environments, and metadata.
+- [[Graph Data Science]] for microbial
+  networks, graph algorithms, and knowledge-graph enrichment.
 - [[Data Pipelines]] for movement,
   transformation, publication, and rerun patterns behind biological analysis.

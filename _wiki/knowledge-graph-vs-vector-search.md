@@ -14,6 +14,7 @@ related_wiki:
   - Vector Databases
   - Embeddings
   - Graph RAG vs Vector RAG
+  - Graph Data Science
   - Vector Database vs Search Engine
   - Agent Engineering
   - Production Search Evaluation
@@ -264,4 +265,3 @@ Use these pages for the surrounding retrieval, search, and LLM-system decisions:
 - [[Vector Databases]] and [[Embeddings]] for the vector side.
 - [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] for evaluation.
 - [[Agent Engineering]] for systems where retrieval becomes one tool inside a multi-step agent.
-

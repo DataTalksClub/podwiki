@@ -114,7 +114,7 @@ Existing pages:
 - `_wiki/analytics-engineering.md` owns the Analytics Engineer role vocabulary.
 - `_wiki/data-roles.md`
 - `_wiki/data-product-manager.md`
-- `_wiki/data-scientist.md`
+- `_wiki/data-scientist-role.md`
 - `_wiki/product-analyst.md`
 - `_wiki/developer-relations.md` owns the Developer Advocate / DevRel Engineer
   role vocabulary unless a future keyword brief needs a separate role page.
@@ -227,7 +227,8 @@ recommendation.
 
 Existing pages:
 
-- `_wiki/airflow-docker-compose.md`
+- `_wiki/apache-airflow.md`
+- `_wiki/orchestration.md`
 - `_wiki/how-to-build-data-pipelines.md`
 
 Candidate pages:
@@ -250,7 +251,6 @@ podcast-grounded, not generic course lists.
 
 Existing pages:
 
-- `_wiki/data-engineering-roadmap.md`
 - `_wiki/data-engineer-roadmap.md`
 - `_wiki/how-to-become-a-data-engineer-with-no-experience.md`
 - `_wiki/analytics-engineering-roadmap.md`
@@ -259,7 +259,7 @@ Existing pages:
 - `_wiki/data-scientist-interview-roadmap.md`
 - `_wiki/machine-learning-system-design.md`
 - `_wiki/llm-production-patterns.md`
-- `_wiki/search-rag-and-knowledge-systems.md`
+- `_wiki/search-and-rag-project-checklist.md`
 - `_wiki/dataops-platforms.md`
 - `_wiki/machine-learning-engineer-roadmap.md`
 - `_wiki/data-product-manager-roadmap.md`
@@ -313,8 +313,9 @@ Existing pages:
 Candidate pages:
 
 - Improve existing comparison pages as new interviews add evidence.
-- Remaining real comparison pages were moved from `_wiki/` to `_wiki/`
-  on 2026-07-01. The old wiki URLs now redirect to the comparison URLs.
+- Remaining real comparison pages were normalized into tagged `_wiki/` pages
+  on 2026-07-01. There are no redirect pages; incoming links should point
+  directly to the canonical `_wiki/<slug>.md` file.
 - No known `X vs Y` migration candidates remain in `_wiki/`.
 - Keep `_wiki/data-engineer-vs-data-scientist.md` as the canonical
   comparison page. Put role and concept material in `_wiki/data-engineer-role.md`
@@ -346,8 +347,8 @@ Start with this batch when expanding the content set.
   `_wiki/algorithmic-trading.md`. Create them only with podcast-grounded
   evidence and internal links; do not create pages for book/PDF/download,
   Slack, or generic navigation queries.
-- The 2026-07-01 five-agent keyword-gap batch added
-  `_wiki/data-engineering-courses.md`,
+- The 2026-07-01 five-agent keyword-gap batch strengthened
+  `_wiki/data-engineer-roadmap.md`,
   `_wiki/data-engineering-consulting.md`,
   `_wiki/data-science-for-managers.md`, and
   `_wiki/ai-powered-business-intelligence.md`, and improved
@@ -362,7 +363,7 @@ Start with this batch when expanding the content set.
   extend these pages rather than adding duplicate pages for the same keyword
   families.
 - The 2026-07-01 keyword-alias improvement batch strengthened
-  `_wiki/data-engineering-courses.md`,
+  `_wiki/data-engineer-roadmap.md`,
   `_wiki/data-engineering-consulting.md`,
   `_wiki/data-science-recruiter.md`,
   `_wiki/machine-learning-for-software-engineers.md`, and
@@ -382,8 +383,8 @@ Start with this batch when expanding the content set.
   evaluation workflows were strengthened on 2026-07-01; future how-tos should
   cover distinct procedures or add new podcast evidence to those canonical
   pages.
-- Do not prioritize people-page cleanup. People documents are now redirect/node
-  records for canonical main-site profiles, not public content targets. When a
+- Do not prioritize people-page cleanup. People documents are node records for
+  canonical main-site profiles, not public content targets. When a
   guest contribution matters, add it to the relevant wiki, guide, comparison,
   roadmap, transition, or how-to page with an inline podcast citation.
 - Improve the published transition pages for marketing to analytics
