@@ -9084,6 +9084,16 @@
       "keyword": "data observability for data engineering"
     },
     {
+      "id": "wiki:end-to-end-data-pipeline-project",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Pipeline Project",
+      "title": "Data Pipeline Project",
+      "url": "/wiki/end-to-end-data-pipeline-project/",
+      "count": 1,
+      "search": "Data Pipeline Project Plan an end to end data pipeline project with ingestion, modeling, orchestration, checks, recovery, and consumer facing output."
+    },
+    {
       "id": "wiki:data-pipelines",
       "type": "wiki",
       "collection": "wiki",
@@ -9362,17 +9372,6 @@
       "search": "Data Warehouse Podcast backed notes on data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
     },
     {
-      "id": "wiki:data-warehouse-vs-data-lakehouse",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Warehouse vs Data Lakehouse",
-      "title": "Data Warehouse vs Data Lakehouse",
-      "url": "/wiki/data-warehouse-vs-data-lakehouse/",
-      "count": 1,
-      "search": "Data Warehouse vs Data Lakehouse How DataTalks.Club podcast guests compare warehouse centered analytics with lakehouse architectures built from object storage, table formats, catalogs, compute engines, and governance.",
-      "keyword": "data warehouse vs data lakehouse"
-    },
-    {
       "id": "wiki:data-led-growth",
       "type": "wiki",
       "collection": "wiki",
@@ -9393,17 +9392,6 @@
       "search": "DataOps How DataTalks.Club podcast guests describe and practice DataOps: the operating discipline that makes changes to data pipelines, analytics workflows, and data platforms reviewable, testable, observable, and recoverable."
     },
     {
-      "id": "wiki:dataops-checks-for-data-pipelines",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "DataOps Checks for Data Pipelines",
-      "title": "DataOps Checks for Data Pipelines",
-      "url": "/wiki/dataops-checks-for-data-pipelines/",
-      "count": 1,
-      "search": "DataOps Checks for Data Pipelines A practical checklist for adding DataOps checks to data pipelines: freshness, volume, schema, distribution, uniqueness, business rules, CI/CD, runbooks, and recovery.",
-      "keyword": "dataops checks for data pipelines"
-    },
-    {
       "id": "wiki:dataops-engineer-role",
       "type": "wiki",
       "collection": "wiki",
@@ -9412,6 +9400,17 @@
       "url": "/wiki/dataops-engineer-role/",
       "count": 1,
       "search": "DataOps Engineer Role Reference for the DataOps engineer role: whether it should be a dedicated job or a shared practice, when to hire one, and how it differs from the data engineer, platform engineer, and MLOps engineer roles."
+    },
+    {
+      "id": "wiki:dataops-checks-for-data-pipelines",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "DataOps Pipeline Checks",
+      "title": "DataOps Pipeline Checks",
+      "url": "/wiki/dataops-checks-for-data-pipelines/",
+      "count": 1,
+      "search": "DataOps Pipeline Checks Checklist for DataOps pipeline checks: freshness, volume, schema, distribution, business rules, CI/CD, runbooks, and recovery.",
+      "keyword": "dataops checks for data pipelines"
     },
     {
       "id": "wiki:dataops-platforms",
@@ -9427,11 +9426,11 @@
       "id": "wiki:dataops-tools",
       "type": "wiki",
       "collection": "wiki",
-      "label": "DataOps Tools: What Your Stack Should Cover",
-      "title": "DataOps Tools: What Your Stack Should Cover",
+      "label": "DataOps Tools Guide",
+      "title": "DataOps Tools Guide",
       "url": "/wiki/dataops-tools/",
       "count": 1,
-      "search": "DataOps Tools: What Your Stack Should Cover A podcast backed guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, incident response, and lightweight starts.",
+      "search": "DataOps Tools Guide A guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, and recovery.",
       "keyword": "dataops tools"
     },
     {
@@ -9556,16 +9555,6 @@
       "search": "Embeddings How DataTalks.Club guests explain embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
     },
     {
-      "id": "wiki:end-to-end-data-pipeline-project",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "End-to-End Data Pipeline Project",
-      "title": "End-to-End Data Pipeline Project",
-      "url": "/wiki/end-to-end-data-pipeline-project/",
-      "count": 1,
-      "search": "End to End Data Pipeline Project A DataTalks.Club podcast backed blueprint for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer facing output."
-    },
-    {
       "id": "wiki:entity-resolution",
       "type": "wiki",
       "collection": "wiki",
@@ -9660,11 +9649,11 @@
       "id": "wiki:experimentation-and-causal-inference",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Experimentation and Causal Inference",
-      "title": "Experimentation and Causal Inference",
+      "label": "Experiments and Causality",
+      "title": "Experiments and Causality",
       "url": "/wiki/experimentation-and-causal-inference/",
       "count": 1,
-      "search": "Experimentation and Causal Inference How DataTalks.Club podcast guests connect randomized experiments, causal reasoning, metric design, uplift modeling, and product decisions."
+      "search": "Experiments and Causality How experiments and causal reasoning connect metrics, uplift modeling, and product decisions in DataTalks.Club interviews."
     },
     {
       "id": "wiki:feature-stores",
@@ -11104,6 +11093,17 @@
       "count": 1,
       "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
+    },
+    {
+      "id": "wiki:data-warehouse-vs-data-lakehouse",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Warehouse vs Lakehouse",
+      "title": "Warehouse vs Lakehouse",
+      "url": "/wiki/data-warehouse-vs-data-lakehouse/",
+      "count": 1,
+      "search": "Warehouse vs Lakehouse Compare warehouse analytics with lakehouse designs built on object storage, table formats, catalogs, compute, and governance.",
+      "keyword": "data warehouse vs data lakehouse"
     }
   ],
   "links": [

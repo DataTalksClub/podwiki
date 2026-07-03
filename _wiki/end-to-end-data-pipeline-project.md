@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "End-to-End Data Pipeline Project"
-summary: "A DataTalks.Club podcast-backed blueprint for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer-facing output."
+title: "Data Pipeline Project"
+summary: "Plan an end-to-end data pipeline project with ingestion, modeling, orchestration, checks, recovery, and consumer-facing output."
 related:
   - Portfolio Projects
   - Data Engineering Portfolio Projects
@@ -13,10 +13,10 @@ related:
   - Modern Data Stack
 ---
 
-An end-to-end data pipeline project proves that a person can move data from a
-source to a trusted output. A strong version captures raw source data and
-builds modeled tables. It also shows orchestration and quality checks. Recovery
-behavior, the consumer, and the supported decision should be visible too.
+Use an end-to-end data pipeline project to show that you can move data from a
+source to a trusted output. Capture raw source data, build modeled tables, and
+show orchestration and quality checks. Make recovery behavior, the consumer,
+and the supported decision visible too.
 
 Use this page with the broader
 [[Portfolio Projects]] and

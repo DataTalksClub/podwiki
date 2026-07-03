@@ -1,13 +1,13 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Warehouse vs Data Lakehouse"
+title: "Warehouse vs Lakehouse"
 keyword: "data warehouse vs data lakehouse"
 secondary_keywords:
   - data warehouse versus data lakehouse
   - data lakehouse vs data warehouse
   - warehouse vs lakehouse
-summary: "How DataTalks.Club podcast guests compare warehouse-centered analytics with lakehouse architectures built from object storage, table formats, catalogs, compute engines, and governance."
+summary: "Compare warehouse analytics with lakehouse designs built on object storage, table formats, catalogs, compute, and governance."
 related_wiki:
   - Data Engineering Platforms
   - Modern Data Stack
@@ -21,15 +21,13 @@ related_wiki:
   - FinOps for Data Engineers
 ---
 
-A [[data warehouse]] is modeled
-analytical storage for governed SQL work. It supports ingestion and
-transformations. It also supports business-facing tables, BI metrics, and
-operational syncs.
+A [[data warehouse]] stores modeled analytical data for governed SQL work.
+Teams use it for ingestion and transformations. They also use it for
+business-facing tables, BI metrics, and operational syncs.
 
-In DataTalks.Club podcast discussions, the warehouse usually appears inside the
-[[modern data stack]]. It sits
-close to ELT and dbt-style modeling. Orchestration and activation sit nearby
-too.
+In DataTalks.Club podcast discussions, warehouses usually sit inside the
+[[modern data stack]]. They stay close to ELT and dbt-style modeling.
+Orchestration and activation sit nearby.
 
 [[person:nataliekwong=>Natalie Kwong]]
 places warehouses and marts in that same map. She also connects them to
@@ -391,4 +389,3 @@ vocabulary around the comparison.
 - [[Product Analytics]]
 - [[Data Activation]]
 - [[Data Quality and Observability]]
-

@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["how-to"]
-title: "DataOps Checks for Data Pipelines"
+title: "DataOps Pipeline Checks"
 keyword: "dataops checks for data pipelines"
 secondary_keywords:
   - "data quality checks"
@@ -9,7 +9,7 @@ secondary_keywords:
   - "dataops checks"
   - "data quality checks for data pipelines"
   - "pipeline data quality checks"
-summary: "A practical checklist for adding DataOps checks to data pipelines: freshness, volume, schema, distribution, uniqueness, business rules, CI/CD, runbooks, and recovery."
+summary: "Checklist for DataOps pipeline checks: freshness, volume, schema, distribution, business rules, CI/CD, runbooks, and recovery."
 search_intent: "People searching for DataOps checks for data pipelines usually want concrete checks they can add to batch or streaming data workflows, plus guidance on how those checks fit CI/CD, observability, runbooks, and recovery."
 related_wiki:
   - DataOps
@@ -30,13 +30,11 @@ runs. Also define what it blocks and who acts when it fails. A freshness check
 that only sends a vague alert is weaker than one that stops publication. It
 should also name the affected dashboard or model and link to a backfill step.
 
-Use this page after the basic pipeline is clear. The build sequence lives in
-[[How to Build Data Pipelines]].
-The reliability background lives in
-[[DataOps]],
-[[Data Quality and Observability]],
-[[DataOps Platforms]], and
-[[Data Observability for Data Engineering]].
+Start with a clear pipeline design before adding these checks. For the build
+sequence, use [[How to Build Data Pipelines]].
+For reliability context, use [[DataOps]] and
+[[Data Quality and Observability]]. For platform and observability context, use
+[[DataOps Platforms]] and [[Data Observability for Data Engineering]].
 
 [[person:barrmoses=>Barr Moses]] gives the main runtime
 signals in
