@@ -71,6 +71,18 @@ data people to gain domain context and faster product decisions. Hybrid models
 try to keep both benefits
 ([[podcast:data-science-team-structure-and-org-design|Designing High-Impact Data Science Teams: centralized to hybrid models at 6:27-30:52]]).
 
+[[person:stefangudmundsson=>Stefan Gudmundsson]]
+adds the cross-domain version. He describes building AI work at King and
+helping H&M structure an early machine learning function. At Sidekick Health,
+the assignment became building the data science and AI team. The same buildout
+work appears in different domains
+([[cite:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+
+For the lead, the lesson isn't to copy one org chart across gaming, retail, and
+healthcare. It's to adapt team structure to the product context. The role also
+organizes data engineering, machine learning engineering, analytics, and data
+science capacity.
+
 Tammy's episode puts less emphasis on reporting lines and more emphasis on
 business trust. Her team has to overcome spreadsheet habits and data accuracy
 issues. Dashboard skepticism has to be handled before more advanced work can

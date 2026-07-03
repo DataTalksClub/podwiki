@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11054
+    "links": 11062
   },
   "nodes": [
     {
@@ -28856,6 +28856,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "podcast:data-leadership-coaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "wiki-chip",
       "weight": 1
@@ -43160,6 +43166,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "person:stefangudmundsson",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "person:tammyliang",
       "kind": "wiki-chip",
       "weight": 1
@@ -43167,6 +43179,12 @@
     {
       "source": "wiki:data-team-lead-role",
       "target": "person:terezaiofciu",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57116,6 +57134,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "person:marianosemelman",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "person:nadianahar",
       "kind": "wiki-chip",
       "weight": 1
@@ -57189,6 +57213,12 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67988,6 +68018,12 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
       "target": "podcast:data-governance-data-access-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -75764,6 +75800,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "person:terezaiofciu",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -75783,6 +75825,12 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
     },

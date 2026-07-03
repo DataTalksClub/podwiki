@@ -108,6 +108,15 @@ person acts differently, the team probably has a reporting problem before it has
 an ML problem. A system action needs the same clarity. The team may have a
 discovery problem too.
 
+[[person:marianosemelman=>Mariano Semelman]] gives the data science leadership
+version of that product-first rule: a model matters when it helps the final
+user solve a problem. Technical interest isn't enough.
+
+Modeling time is only a small part of the work. Teams should start from the
+user problem and business outcome. The first version should be the simplest
+viable connection to the product. Optimize model choices after that
+[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
+
 [[person:gregcoquillo=>Greg Coquillo]] gives the AI data
 product version in
 [[podcast:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]].
@@ -367,4 +376,3 @@ The podcast discussions support this sequence:
 
 That sequence helps leaders and data teams use ML as a business capability
 instead of treating it as a standalone model project.
-

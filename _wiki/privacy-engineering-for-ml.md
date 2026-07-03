@@ -180,6 +180,14 @@ compliance as connected decisions. Human oversight belongs in that same review.
 At 17:20, product owners should help decide whether to use a feature.
 Subject-matter experts and compliance stakeholders belong in that decision too.
 
+Sabina Firtala describes the same privacy engineering work inside a frontline
+scoring system. The tool combines case-management data with public records and
+surveys to support risk triage. In that setting, teams need to justify which
+fields enter the model and minimize unnecessary data. They also need access
+controls for sensitive public and social-service records. Legal compliance and
+governance have to stay tied to the scoring workflow
+[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
+
 Bart adds the access-control operating model for regulated data. In his
 episode, data owners and governance teams appear in the approval flow. DPOs and
 security teams appear too, along with engineers. Separation of concerns matters.

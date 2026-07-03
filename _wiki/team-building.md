@@ -139,6 +139,13 @@ feedback. He also treats one-on-ones and feedback as a growth environment rather
 than a manager monologue
 ([[podcast:data-science-leadership-hiring-mlops|12:52-17:26 and 40:25-48:13]]).
 
+[[person:terezaiofciu=>Tereza Iofciu]] extends that point from leadership
+coaching in [[cite:data-leadership-coaching|Data Leadership Coaching]]. Healthy
+data teams need feedback habits that people can practice before conflict is
+high-stakes. They also need psychological safety. Managers help by making it
+normal to surface blocked work, relationship tension, or unclear priorities
+before those problems become delivery failures.
+
 Liang adds the scaling leadership example. As her team grew, she moved away from
 holding every project herself and gave ownership to the people doing the work. Her
 role became direction, resource support, and troubleshooting when the team could
