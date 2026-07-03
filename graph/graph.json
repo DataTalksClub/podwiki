@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11195
+    "links": 11193
   },
   "nodes": [
     {
@@ -62502,12 +62502,6 @@
     },
     {
       "source": "wiki:mlops-engineer",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
       "target": "person:nemanjaradojkovic",
       "kind": "wiki-chip",
       "weight": 1
@@ -62515,12 +62509,6 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "person:simonstiebellehner",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -23,24 +23,19 @@ and the [[Data Analyst Role]].
 The career question is how people enter the role, show evidence, and grow from
 it.
 
-At 7:51-10:39 in
-[[podcast:data-team-roles=>Data Team Roles Explained]],
-analysts are framed as people who know company data and build dashboards. They
-define KPIs and quantify product problems. Analysts also check whether shipped
-work changed user behavior.
+Data Team Roles frames analysts as people who know company data and build
+dashboards. They define KPIs, quantify product problems, and check whether
+shipped work changed user behavior. Analyst writing is aimed at management and
+decision makers, so a strong analyst learns more than a BI tool. They learn how
+data maps to product and operations. They also learn how it maps to growth,
+finance, and customer decisions.[[cite:data-team-roles|Data Team Roles Explained]]
 
-Around 18:17-19:08 in the same episode, analyst writing is aimed at management
-and decision makers. A strong analyst therefore learns more than a BI tool. They
-learn how data maps to product and operations. They also learn how data maps to
-growth, finance, and customer decisions.
+[[person:alicjanotowska=>Alicja Notowska]] says companies use "data analyst" for
+BI reporting and business analysis, but also for product analytics or light data
+science. Candidates need to read the responsibilities, not only the title.
+[[cite:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 
-In
-[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]],
-[[person:alicjanotowska=>Alicja Notowska]] says around
-54:09-59:30 that companies use "data analyst" for BI reporting and business
-analysis. They also use it for product analytics or light data science.
-Candidates need to read the responsibilities, not only the title. Those role
-boundaries explain why
+Those role boundaries explain why
 [[Data Analyst vs Analytics Engineer]]
 and
 [[Product Analyst vs Data Analyst]]
@@ -53,36 +48,33 @@ domain, learn enough SQL and visualization to answer real questions, then make
 the work visible. The route differs by background, but the evidence needs to
 show analysis, communication, and a decision.
 
-In
-[[podcast:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]],
 [[person:juanpablo=>Juan Pablo]] describes a practical
-route from math graduate to analytics roles. Around 8:24, he talks about
-discovering SQL after earlier work with biostatistics, R, and SAS. Around
-24:23-28:19, he turns portfolio work into a career asset through exploratory
-analysis and visualizations. He also uses basic ML projects and public
-presentation. Around 49:34, he narrows interview prep to SQL, Python, and
-visualization rather than a tool list with no order.
+route from math graduate to analytics roles. He discovered SQL after earlier
+work with biostatistics, R, and SAS. His career evidence came from exploratory
+analysis, visualizations, basic ML projects, and public presentation.
+For interview prep, he narrows the stack to SQL, Python, and visualization
+rather than a tool list with no order.[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]
 
 [[person:ksenialegostay=>Ksenia Legostay]] gives another
-entry route in
-[[podcast:project-manager-to-data-scientist=>From Project Manager to Data Scientist]].
-Around 22:32, she connects project management experience to stakeholder
-communication and business KPIs. Around 32:43-36:47, she recommends starting
-with analysis inside work you already understand. She then moves through
-spreadsheets, BI tools, Python, and community learning. That path is important
+entry route from project management. She connects project management experience
+to stakeholder communication and business KPIs. She recommends starting with
+analysis inside work you already understand. From there, she adds spreadsheets,
+BI tools, and Python through community learning.
+[[cite:project-manager-to-data-scientist|From Project Manager to Data Scientist]]
+
+That path is important
 for
 [[Career Transitions in Data]]
 because an internal business problem can become stronger evidence than a
 standalone certificate.
 
-[[person:eddyzulkifly=>Eddy Zulkifly]] shows the same
-route from a later career stage in
-[[podcast:finops-for-data-engineers=>FinOps for Data Engineers]].
-Around 2:14-8:18, he describes moving from industrial engineering and supply
-chain work through Excel macros and business analyst work. He then used Tableau
-and Alteryx. At 7:48, he says analyst skills helped him move toward data
-engineering because reporting, dashboards, and interpreting data transfer to
-pipeline and platform work. Analyst work can become a credible base for the
+[[person:eddyzulkifly=>Eddy Zulkifly]] shows the same route from a later career
+stage, moving from industrial engineering and supply chain work into business
+analyst work. He used Excel macros, Tableau, and Alteryx.
+Analyst skills helped him move toward data engineering because reporting,
+dashboards, and interpreting data transfer to pipeline and platform work.
+[[cite:finops-for-data-engineers|FinOps for Data Engineers]] Analyst work can
+become a credible base for the
 [[Data Engineer Role]], not only
 a dashboard role.
 
@@ -91,38 +83,39 @@ Pablo gives market-facing advice. He tells candidates to meet people, show
 projects, and keep a resume ready. He also tells them to make the portfolio easy
 for a hiring manager to understand.
 
-Around 16:12-23:47, he gives networking and meetups as much importance as
-coursework. He also discusses LinkedIn activity and on-the-spot resume sharing.
-Around 38:12, he mentions nonprofit and pro bono work as a way to create real
-experience when a first analyst job is hard to reach.
+He gives networking and meetups as much importance as coursework. He also
+discusses LinkedIn activity and on-the-spot resume sharing. Nonprofit or pro
+bono work can create real experience when a first analyst job is hard to reach.
+[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]
 
 Ksenia starts from strengths and gaps. She then adds programming, statistics,
-and domain expertise in order. Around 8:33-13:00, she treats the learning plan
-as part of the career move.
+and domain expertise in order, treating the learning plan as part of the career
+move.[[cite:project-manager-to-data-scientist|From Project Manager to Data Scientist]]
 
-Around 41:07, she extends the path toward Git and testing. Docker, deployment,
-and clean code appear in the same transition. That technical layer matters when
-an analyst wants to move toward
+She extends the path toward Git and testing, with Docker, deployment, and clean
+code appearing in the same transition. That technical layer matters when an
+analyst wants to move toward
 [[Data Science Careers]]
 or
-[[Machine Learning Portfolio Projects]].
+[[Machine Learning Portfolio Projects]].[[cite:project-manager-to-data-scientist|From Project Manager to Data Scientist]]
 
 ## Skill Stack
 
 [[person:rishabhbhargava=>Rishabh Bhargava]] puts the
-role boundary in team context in
-[[podcast:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
-Around 18:39-24:23, analysts own dashboards, reports, and ad hoc SQL. They also
-own recommendations around 18:39-24:23. Around 24:23, he emphasizes that
-analysts often know where the data lives because they work with the tables every
-day.
+role boundary in team context: analysts own dashboards and reports, plus ad hoc
+SQL and recommendations. They often know where the data lives because they work
+with the tables every day.[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]
 
-Around 39:04, he connects SQL and Python notebooks to bridge roles such as
+He connects SQL and Python notebooks to bridge roles such as
 [[Analytics Engineering]].
-SQL is the career anchor because analysts answer ad hoc questions, build
-reports, and turn table knowledge into recommendations. Juan Pablo's
-interview-prep discussion around 49:34 puts SQL first, with Python and
-visualization close behind. SQL also transfers into the
+For analysts, SQL is the career anchor. They use it to answer ad hoc questions
+and build reports. Table knowledge also becomes recommendations.
+[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]
+
+Juan Pablo's interview-prep advice puts SQL first, with Python and visualization
+close behind.[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]].
+
+SQL also transfers into the
 [[Analytics Engineering Roadmap]]
 when the work moves from one-off queries to tested models.
 
@@ -137,69 +130,83 @@ and
 [[AI-Powered Business Intelligence]]
 for analysts. Assistants can reduce time spent on complex SQL and debugging,
 but metric definition still depends on stakeholder conversations and domain
-judgment.[[cite:datatalksclub-scaling-and-free-courses|Scaling DataTalks.Club|39:14]]
+judgment.[[cite:datatalksclub-scaling-and-free-courses|Scaling DataTalks.Club]]
 
 Visualization and dashboarding matter because analysts communicate evidence.
-At 7:51-10:39 in the role discussion, dashboards connect to KPIs and product
-decisions. In
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
-with [[person:arpitchoudhury|Arpit Choudhury]], the
-product analytics side appears. Around 22:50-30:03, he walks through
-collection, storage, and analysis. He then connects analysis to activation.
+In the role discussion, dashboards connect to KPIs and product decisions.
+[[cite:data-team-roles|Data Team Roles Explained]]
 
-Around 46:13, Arpit separates analysts from data engineers and analytics
-engineers from product operations. Analyst skills therefore connect directly to
+With
+[[person:arpitchoudhury|Arpit Choudhury]], the product analytics side appears.
+He walks through collection, storage, and analysis, then connects that work to
+activation.
+[[cite:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]
+
+Arpit separates analysts from data engineers and analytics engineers from
+product operations. Analyst skills therefore connect directly to
 [[Product Analytics]] and the
-[[Product Analyst]] article.
+[[Product Analyst]] article.[[cite:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]
 
 Statistics and experimentation become important when the analyst supports
-launches and growth decisions. Rishabh discusses A/B testing, shadow mode,
-uplift, and segment differences around 28:42-33:30. He also covers root-cause
-analysis. An analyst doesn't need to become a full-time model builder to use
-these skills. They need enough statistics to explain whether a metric moved,
-whether the movement is trustworthy, and which segment changed.
+launches and growth decisions. Rishabh discusses A/B testing, shadow mode, and
+uplift. He also covers segment differences and root-cause analysis.
+[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]
+
+An analyst doesn't need to become a full-time model builder to use these skills.
+They need enough statistics to explain whether a metric moved, whether the
+movement is trustworthy, and which segment changed.
 
 Communication is part of the technical work. In the first role episode, analyst
-writing is aimed at management and decision makers around 18:17-19:08. Alicja's
-CV advice around 28:41-32:40 reinforces the same point from hiring. Candidates
-should describe responsibilities, dates, tools, and concrete examples. Vague
-phrases make it hard for recruiters and hiring managers to see the work.
+writing is aimed at management and decision makers.
+[[cite:data-team-roles|Data Team Roles Explained]]
+
+Alicja's CV advice reinforces the same hiring point: candidates should describe
+concrete work. Responsibilities, dates, tools, and examples make the work easier
+to evaluate. Vague phrases make it hard for recruiters and hiring managers to
+see the work.
+[[cite:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 
 ## Portfolio Evidence
 
 A data analyst portfolio should show the path from question to decision. It
 shouldn't be a gallery of charts without context.
 
-Juan Pablo gives the clearest portfolio advice. Around 24:23-28:19, he talks
-about exploratory analysis, visualizations, and public work. Around
-45:18-48:19, he discusses hosting options and clear READMEs. He also stresses
-documentation and organized repos.
+Juan Pablo gives the clearest portfolio advice. He recommends exploratory
+analysis, visualizations, public work, and hosting options. He also stresses
+clear READMEs, documentation, and organized repos.
+[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]
 
-Around 59:59-1:01:06, Juan Pablo explains that project impact and version
-control help a hiring manager understand the work. The same evidence supports
+He also explains that project impact and version control help a hiring manager
+understand the work. The same evidence supports
 [[Open Source Portfolio Evidence]]
 and
-[[Analytics Engineering Portfolio Projects]].
+[[Analytics Engineering Portfolio Projects]].[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]
 
 A useful analyst project has a business question, a dataset, and a SQL or
 Python analysis path. It should also have a visualization and a recommendation.
-For product analytics, Arpit's tracking-plan discussion around 13:34-18:27 adds
-a missing piece: define events and properties before trusting a funnel. For
-operations or finance, Eddy's metric-tree discussion around 27:50 shows how an
-analyst can translate business requirements into measurable structure.
+For product analytics, Arpit's tracking-plan discussion adds a missing piece:
+define events and properties before trusting a funnel.
+[[cite:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]
 
-Portfolio work can also come from non-traditional experience. Ksenia's episode
-uses work data and BI practice as an entry point around 32:43. Juan Pablo talks
-about nonprofit projects around 38:12. Those examples are useful for people who
-are aiming for an analyst job without a previous analyst title, especially in
+For operations or finance, Eddy's metric-tree discussion shows how an analyst
+can translate business requirements into measurable structure.
+[[cite:finops-for-data-engineers|FinOps for Data Engineers]]
+
+Non-traditional experience can also become portfolio evidence. Ksenia's episode
+uses work data and BI practice as an entry point. Juan Pablo talks about
+nonprofit projects as another way to create evidence.
+[[cite:project-manager-to-data-scientist|From Project Manager to Data Scientist]]
+[[cite:from-math-graduate-to-data-analytics|How to Break into Data Analytics]]
+
+Those examples are useful for people who are aiming for an analyst job without a
+previous analyst title. They're especially relevant in
 [[career-transitions-in-data=>Career Transition]] paths.
 
 ## Hiring Signals
 
-Hiring evidence needs to match the role's real scope. In
-[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]],
-Alicja explains the screening funnel around 4:44-11:34. She then discusses job
-specs and hiring-manager collaboration around 7:09-18:28.
+Hiring evidence needs to match the role's real scope. Alicja explains the
+screening funnel, then discusses job specs and hiring-manager collaboration.
+[[cite:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 
 For candidates, the job description is evidence. A role asking for dashboard
 ownership, stakeholder communication, and SQL differs from a role asking for
@@ -207,12 +214,14 @@ modeling and deployment. A KPI-heavy analyst role also differs from a role
 asking for MLOps.
 
 For CVs, concrete responsibilities matter because Alicja checks experience and
-education in the 21:32-32:40 segment. She also checks responsibilities and dates
-in the same screen, and clear examples matter too.
+education in the same screen. She also checks responsibilities and dates. Clear
+examples matter too.
+[[cite:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 
-Around 59:30, she discusses portfolio projects and online courses on CVs.
-Courses help when they show usable work, but they're weaker when they replace
-examples of analysis or dashboards. SQL and business impact matter too.
+She also discusses portfolio projects and online courses on CVs. Courses help
+when they show usable work, but they're weaker when they replace examples of
+analysis or dashboards. SQL and business impact matter too.
+[[cite:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 
 The recruiting side is covered in more detail in
 [[CV Screening]] and
@@ -225,10 +234,13 @@ team to evaluate scope.
 ## Next Moves
 
 Analyst careers can branch in several directions. Rishabh links analyst work to
-experimentation and production ML teams. Arpit links it to growth, activation,
-and the modern data stack. Eddy's episode shows a route toward
-[[Data Engineering]]. Ksenia's
-episode shows a route toward data science.
+experimentation and production ML teams.[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]
+
+Arpit links it to growth and activation through the modern data stack.[[cite:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+Eddy's episode shows a route toward
+[[Data Engineering]].[[cite:finops-for-data-engineers|FinOps for Data Engineers]]
+Ksenia's episode shows a route toward data science.
+[[cite:project-manager-to-data-scientist|From Project Manager to Data Scientist]]
 
 The career question isn't whether "analyst" is below another title. The better
 question is which decisions, systems, and stakeholders you want to own next.
