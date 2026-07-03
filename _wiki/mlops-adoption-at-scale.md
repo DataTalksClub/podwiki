@@ -56,6 +56,16 @@ testing, observability, and automation. New team members should be able to make
 changes without putting production at risk
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering, 26:54-30:55]]).
 
+Industrial AI teams can use a crawl, walk, and run maturity path. In the crawl
+stage, they should prove one complete path from data collection to experiments.
+They should also cover infrastructure change, productionization, monitoring,
+and retraining before the organization spreads effort across many pilots. A
+single end-to-end POC gives the team an adoption wedge for the later
+centralized or hybrid operating model. For the project checklist behind that
+wedge, use the
+[[production-ml-project-checklist=>production ML project checklist]]
+([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops|Industrial AI and MLOps Practice]]).
+
 Teams adopt at workflow level, not one model at a time. Raphaël talks about
 supporting dozens of product teams while ML engineers stay embedded near them
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-25:20]]).
@@ -83,6 +93,13 @@ Bergh starts from operating quality. DataOps reduces fear-based work while
 lowering errors through automation plus testing. Monitoring and observability
 support the same goal
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering, 11:53-16:10]]).
+
+Industrial AI teams may have to work before the MLOps platform exists.
+Traditional industrial companies can be blocked by missing sensorization,
+disconnected equipment, or data that hasn't yet moved into cloud processing.
+In those cases, teams first have to make the physical process measurable enough
+for [[industrial-ml-applications=>industrial ML applications]]
+([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops|Industrial AI and MLOps Practice]]).
 
 Those starting points change the first move, so Raphaël starts with CI/CD when
 deployment takes too long. He starts with
@@ -120,6 +137,13 @@ with data scientists on repository structure and CI/CD. Deployment and code
 review also happen inside the collaboration, rather than after a handoff
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance, 16:24 and 42:45]]).
 Both models keep platform work close enough to users to find friction early.
+
+Industrial AI teams can avoid a binary choice between one central team and
+fully decentralized teams. In a hub-and-spoke model, a central function owns
+practice, tooling, and shared services while embedded teams own work near
+business units. Use [[data-teams=>data team]] design for that operating-model
+choice, not only MLOps tooling
+([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops|Industrial AI and MLOps Practice]]).
 
 ## Support and Value
 

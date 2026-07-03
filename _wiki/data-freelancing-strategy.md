@@ -10,6 +10,8 @@ related:
   - Startups
   - Consultant or Freelancer to Data Product Founder
   - Solopreneur
+  - Generative AI
+  - ML Consulting Proposals
 ---
 
 Data freelancing strategy turns independent data work from "can I do the
@@ -30,6 +32,9 @@ and
 It extends the growth fork through
 [[person:adrianbrudaru=>Adrian Brudaru's]]
 [[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
+Later freelancing episodes add two missing strategy views. One covers Upwork
+profile work and proposal iteration. Another covers [[generative AI]]
+consulting as an independent practice.
 The topic sits near
 [[entrepreneurship]],
 [[career growth]],
@@ -60,6 +65,13 @@ For data practitioners, that brings strategy close to
 [[data strategy]]. The work has to
 name the business problem and data consumer. It also has to name the delivery
 boundary and value created.
+
+Generative AI consulting keeps the same boundary discipline. Workshops and
+use-case discovery can be the first paid product. The offer still has to explain
+who benefits, what evidence supports the consultant's claim, and how the rate
+maps to client value. That puts GenAI freelance work next to
+[[ml consulting proposals]], not only next to model building
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Practical Generative AI Consulting]].
 
 ## Strategic Forks
 
@@ -134,6 +146,13 @@ learning time, buyer demand, and proof. The strategic question isn't "which
 topic is hot?" It's "which buyer problem can I credibly solve, and which market
 already pays for it?"
 
+Antonis makes that specialization work visible in a marketplace setting. Upwork
+rejections aren't only failed bids. They're feedback on whether the profile,
+attachments, proposal framing, and skill focus match the projects buyers post.
+That makes rejection a market signal alongside job boards, recruiter messages,
+and community conversations
+[[cite:from-startup-engineering-to-freelance-data-science|Startup Engineering to Freelance Data Science]].
+
 Dimitri also warns against weak positioning around 55:01 in
 [[podcast:becoming-data-freelancer=>Becoming a Data Freelancer]].
 Strong credentials don't automatically justify high prices. A PhD, rare model
@@ -156,16 +175,36 @@ In
 around 16:27, Dimitri says recruiters contacted him with freelance projects
 before he quit. That made independent work feel possible.
 
-The channel determines the first strategic constraint. On platforms such as
+Antonis treats the Upwork profile as the selling surface. Buyers judge trust
+from projects, portfolio material, attachments, and proposal rewrites.
+Proposal rejection then becomes a reason to adjust the offer. It can push the
+freelancer to narrow the skill focus or improve proof instead of only sending
+more bids
+[[cite:from-startup-engineering-to-freelance-data-science|Startup Engineering to Freelance Data Science]].
+
+Each channel creates a different strategic constraint. On platforms such as
 Upwork, a new profile may need lower prices to build ratings and proof. Scarce
 skills can support higher rates because the buyer has fewer alternatives.
 Dimitri explains that tradeoff around 25:24-27:30 in
 [[podcast:becoming-data-freelancer=>Becoming a Data Freelancer]].
 
-Recruiter channels can validate demand and create fast access to projects.
-They also add middlemen, duplicated submissions, and less direct control.
-Network-driven work requires public proof, a portfolio, writing, or repeated
-conversations so people remember what the freelancer does.
+Antonis adds the time-value side of pricing. Hourly rates depend on client type,
+project duration, learning value, and the freelancer's willingness to protect
+non-client time
+[[cite:from-startup-engineering-to-freelance-data-science|Startup Engineering to Freelance Data Science]].
+
+Recruiter channels can validate demand and create fast access to projects. They
+also add middlemen, duplicated submissions, and less direct control.
+Network-driven work requires public proof. A portfolio, writing, and repeated
+conversations help people remember what the freelancer does.
+
+For GenAI consultants, those conversations can start with existing network
+contacts and mentorship circles. Professional events, LinkedIn visibility, and
+referrals add more warm paths. That puts client acquisition close to
+[[data scientist cv and portfolio]], [[community building]], and
+[[consultant or freelancer to data product founder]]. Public proof and warm
+introductions lower the trust cost before a proposal is written
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Practical Generative AI Consulting]].
 
 Referrals become more strategic after delivery. In
 [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
@@ -210,6 +249,13 @@ dependent-contractor or "fake freelancer" risk, where one client behaves like an
 employer while avoiding employer obligations. His practical rule is to avoid
 depending on one client and to understand local tax declarations and legal
 definitions.
+
+Antonis adds registration and invoicing to the setup work
+[[cite:from-startup-engineering-to-freelance-data-science|Startup Engineering to Freelance Data Science]].
+Verena's GenAI consulting transition adds the same self-employment reality.
+Taxes and health insurance have to be planned alongside admin
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Practical Generative AI Consulting]].
+Positioning, pitch decks, and rates are only part of the setup work.
 
 For broader pricing and scoping context, use
 [[freelance=>Freelance Data Engineering and Consulting]].

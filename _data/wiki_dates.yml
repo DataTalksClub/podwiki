@@ -35,6 +35,9 @@ ai-engineering:
 ai-for-finance-decision-support:
   published: "2026-07-01"
   modified: "2026-07-02"
+ai-for-social-good:
+  published: "2026-07-03"
+  modified: "2026-07-03"
 ai-infrastructure-cost-and-ownership:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -82,22 +85,22 @@ apache-iceberg:
   modified: "2026-07-02"
 applied-research:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 astroinformatics-scientific-data-pipelines:
   published: "2026-07-01"
   modified: "2026-07-02"
 autonomous-driving-ai:
   published: "2026-07-02"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 batch-vs-streaming:
   published: "2026-06-29"
   modified: "2026-07-02"
 bioinformatics-data-science:
   published: "2026-07-01"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 business-intelligence:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 business-skills-for-data-professionals:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -142,7 +145,7 @@ competitions-beyond-kaggle:
   modified: "2026-07-02"
 computer-vision:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 consultant-or-freelancer-to-data-product-founder:
   published: "2026-06-30"
   modified: "2026-07-02"
@@ -310,7 +313,7 @@ data-scientist-to-machine-learning-engineer:
   modified: "2026-07-02"
 data-strategy:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 data-team-lead-role:
   published: "2026-06-30"
   modified: "2026-07-02"
@@ -352,7 +355,7 @@ dbt:
   modified: "2026-07-02"
 deep-learning:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 delta-lake-vs-apache-iceberg:
   published: "2026-06-30"
   modified: "2026-07-02"
@@ -440,9 +443,12 @@ gitops-for-data-teams:
 governance:
   published: "2026-06-29"
   modified: "2026-07-02"
+graph-data-science:
+  published: "2026-07-03"
+  modified: "2026-07-03"
 graph-rag-vs-vector-rag:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 healthcare-ml-validation-and-adoption:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -475,7 +481,7 @@ job-search:
   modified: "2026-07-02"
 knowledge-graph-vs-vector-search:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 kpis:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -679,7 +685,7 @@ practices:
   modified: "2026-07-02"
 privacy-engineering-for-ml:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 product-analyst-vs-data-analyst:
   published: "2026-06-30"
   modified: "2026-07-02"
@@ -767,6 +773,9 @@ self-service-data-platforms:
 sensor-ml-personal-baselines:
   published: "2026-07-01"
   modified: "2026-07-02"
+simulation-and-digital-twins:
+  published: "2026-07-03"
+  modified: "2026-07-03"
 software-engineer-to-machine-learning:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -788,6 +797,9 @@ startups:
 streaming:
   published: "2026-06-29"
   modified: "2026-07-02"
+synthetic-data:
+  published: "2026-07-03"
+  modified: "2026-07-03"
 teaching:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -800,6 +812,9 @@ technical-writing:
 testing:
   published: "2026-06-29"
   modified: "2026-07-02"
+text-to-sql:
+  published: "2026-07-03"
+  modified: "2026-07-03"
 tools:
   published: "2026-06-29"
   modified: "2026-07-02"

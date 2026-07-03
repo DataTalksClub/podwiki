@@ -4,6 +4,8 @@ title: "Annotation Quality Workflows"
 summary: "How DataTalks.Club guests turn annotation from one-off labeling into a measurable NLP data workflow with guidebooks, human baselines, model assistance, agreement checks, privacy controls, and production feedback."
 related:
   - NLP
+  - LLMs
+  - Generative AI
   - Data Quality and Observability
   - Testing
   - MLOps
@@ -17,6 +19,9 @@ tooling. Those labels then support
 [[evaluation]],
 [[testing]], and production
 [[MLOps]].
+Weak supervision, [[LLMs]], and model-in-the-loop review extend the same
+workflow when teams treat generated labels as evidence to check rather than
+truth to accept.
 
 In
 [[podcast:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]],
@@ -32,9 +37,9 @@ the start of an NLP pipeline at 34:57-36:50. His pipeline begins with data
 annotation and data quality. It then moves into task engineering, model
 testing, deployment, and observability.
 [[book:20240408-data-centric-machine-learning-with-python=>Data-Centric Machine Learning with Python]]
-by Nakul Bajaj, Jonas Christensen, and Manmohan Gosada extends that pipeline
-view: it treats data quality and label improvement as the primary lever for
-model performance, not architecture tuning.
+extends that pipeline view. Nakul Bajaj, Jonas Christensen, and Manmohan Gosada
+treat data quality and label improvement as the primary lever for model
+performance, not architecture tuning.
 
 ## Task Framing and Guidebooks
 
@@ -105,6 +110,13 @@ he describes pre-labeling and interpretability layers that let annotators agree
 or disagree with a model. He also warns that unlabeled items can become less
 likely to be noticed when the interface pre-fills predictions.
 
+Model-in-the-loop annotation narrows the annotator's job when the model output is
+already close to useful. In a large-scale NLU setting, annotators saw the model's
+suggested interpretation and corrected it instead of labeling each utterance
+from scratch. That reduced annotation volume and made repeated annotations more
+consistent
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Practical Generative AI Consulting]].
+
 Active learning is similarly useful but bounded. At 42:51-43:18 in
 [[podcast:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]],
 Swart describes selecting low-confidence or decision-boundary examples for
@@ -112,6 +124,12 @@ annotation. He reports that it can reduce data needs, but in his experience it
 was sometimes closer to a 20% improvement than a complete transformation. That
 keeps active learning tied to experiment design and [[evaluation]],
 not hype.
+
+For [[LLMs]], the same review rule applies. ChatGPT can label a first batch or
+act as one heuristic among active-learning signals and crowd labels. The
+annotation workflow still has to combine, review, and test those signals before
+training on them
+[[cite:building-open-source-nlp-tool|Building Open Source NLP Tool]].
 
 [[person:ivanbilan=>Ivan Bilan]] adds a production
 boundary in
@@ -130,6 +148,12 @@ he describes distant supervision as programmatic weak-label creation, with
 Snorkel-style labeling functions combining heuristics and model signals. He
 uses the example of sampling vulnerable complaints from a semi-supervised topic
 model and says that approach reduced the amount of required hand labeling.
+
+Refinery and Bricks turn the same idea into tools. Teams can turn GPT prompts
+and tools such as TextBlob or Vader into labeling functions. They can also add
+crowd labels and task rules to the ensemble. Refinery helps teams look at the
+data, and Bricks works as a recipe library for reusable heuristics
+[[cite:building-open-source-nlp-tool|Building Open Source NLP Tool]].
 
 The same episode makes the quality caveat explicit. At 48:24, Swart discusses
 entity rules, verb rules, and other bio-NLP-style labeling functions. He then
@@ -150,7 +174,11 @@ Prodigy and Snorkel. He also names Docanno, Label Studio, and Rubrics as other
 starting points.
 
 He looks at proof-of-concept speed, open-source access, and annotator
-experience. He also looks at active-learning and weak-supervision support.
+experience. He also looks at active-learning support and weak-supervision
+support. For [[open source]] workflows, Refinery adds data visualization and
+labeling around automated heuristics. Bricks packages reusable heuristic recipes
+for NLP projects
+[[cite:building-open-source-nlp-tool|Building Open Source NLP Tool]].
 
 The tool decision should follow the task. A simple binary classification
 portfolio project may not need the same system as a compliance-sensitive

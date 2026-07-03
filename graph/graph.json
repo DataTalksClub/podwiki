@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 10933
+    "links": 10966
   },
   "nodes": [
     {
@@ -21590,6 +21590,12 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "wiki:a-a-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -21617,6 +21623,12 @@
       "target": "wiki:data-led-growth",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:a-b-testing",
@@ -21693,6 +21705,18 @@
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -21788,6 +21812,30 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "wiki:search",
       "kind": "wiki-chip",
       "weight": 1
@@ -21795,6 +21843,18 @@
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -23084,6 +23144,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "podcast:how-to-grow-your-ml-engineering-career",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -23114,12 +23180,24 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -23127,6 +23205,18 @@
     {
       "source": "wiki:ai-coding-tools",
       "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-engineer-role",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -26684,6 +26774,12 @@
     },
     {
       "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:building-open-source-nlp-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
       "target": "podcast:nlp-dataset-creation-annotation-tools-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -26696,6 +26792,12 @@
     },
     {
       "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -26715,6 +26817,24 @@
     {
       "source": "wiki:annotation-quality-workflows",
       "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:llms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:llms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -26741,6 +26861,12 @@
       "target": "wiki:nlp",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:open-source",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:annotation-quality-workflows",
@@ -36542,6 +36668,18 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:from-startup-engineering-to-freelance-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -36563,6 +36701,12 @@
       "target": "wiki:career-growth",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:community-building",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-freelancing-strategy",
@@ -36596,6 +36740,12 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -36621,6 +36771,30 @@
     {
       "source": "wiki:data-freelancing-strategy",
       "target": "wiki:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60812,6 +60986,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -60848,6 +61028,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -60863,6 +61049,12 @@
       "target": "wiki:governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
@@ -60929,6 +61121,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
