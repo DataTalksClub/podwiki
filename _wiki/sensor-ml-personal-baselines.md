@@ -57,6 +57,14 @@ Those measurements aren't an ML system by themselves. They're the personal
 history that makes later modeling or alerting useful because the system has
 something individual to compare against.
 
+Healthcare wearables make the same point in a clinical product context. In
+[[cite:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]],
+Stefan Gudmundsson describes remote monitoring signals such as activity and
+heart-rate variability. Those signals become more useful when the product can
+compare them with the person's own baseline and care context. That context keeps
+a low-activity day or HRV change from being treated as the same event for
+everyone.
+
 Around 45:41, she separates population models from personal anomaly detection.
 Initial models can use breed and age. They can use weight too. Those tasks
 include steps, calories, and broad activity labels. Useful health alerts require

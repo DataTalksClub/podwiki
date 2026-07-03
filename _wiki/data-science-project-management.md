@@ -40,12 +40,15 @@ Data science project management is both technical work and organizational work.
 Teams start by understanding the business and preparing data, model and evaluate
 next, and deploy when the result is ready to leave analysis
 ([[podcast:crisp-dm|CRISP-DM]]).
+
 [[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series=>Why Data Science Projects Fail]]
 by Evan Shellshear and Douglas Gray grounds the same failure modes the podcast
-returns to repeatedly: misaligned business framing, over-scoped pilots, and
-projects that never reach production adoption.
+returns to repeatedly. Teams misframe the business problem, over-scope pilots,
+or never reach production adoption.
 [[book:20221010-managing-machine-learning-projects=>Managing Machine Learning Projects]]
-by Simon Thompson covers the same project lifecycle from the delivery side: scoping, risk management, and stakeholder alignment for ML-specific work.
+by Simon Thompson covers the same project lifecycle from the delivery side. It
+focuses on scoping, risk management, and stakeholder alignment for ML-specific
+work.
 
 Planning, stakeholder communication, and KPI work stay useful after the work
 moves into analytics and machine learning
@@ -55,17 +58,26 @@ moves into analytics and machine learning
 
 Project management for data science starts before modeling and ends after the
 first analysis or model result. The manager or lead asks what business objective
-the work serves and whether the problem is measurable, what data exists, which
-baseline is good enough, how the result will be used, and what operational owner
-receives the handoff. The problem should be important, measurable, and connected
-to a way to measure success, with baselines, evaluation, and business objectives
-kept together rather than treating modeling as an isolated phase
+the work serves. They also ask whether the problem is measurable and what data
+exists. Then they ask which baseline is good enough, how the result will be
+used, and what operational owner receives the handoff.
+
+The problem should be important,
+measurable, and connected to a way to measure success. Teams should keep
+baselines, evaluation, and business objectives together rather than treating
+modeling as an isolated phase
 ([[podcast:crisp-dm|CRISP-DM]]).
 
-The same definition appears in data product work: an operating model with
-intake, prioritization, and Definition of Done, where KPIs and feasibility
-checks come before pilots, later work includes A/B tests and rollout, and
-monitoring, demos, and stakeholder feedback stay in the lifecycle
+Mariano Semelman's product-first view adds the delivery constraint. CRISP-DM is
+useful framing, but project planning also needs a deployment path. Product
+feedback has to be part of that path. So do stakeholder decisions and the
+operational handoff that keeps the work usable after modeling
+([[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]]).
+
+Data product work uses the same definition. The operating model starts with
+intake, prioritization, and Definition of Done. KPIs and feasibility checks come
+before pilots. Later work includes A/B tests and rollout, while monitoring,
+demos, and stakeholder feedback stay in the lifecycle
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 That project structure links data science management to [[Data Products]],
@@ -77,23 +89,25 @@ That project structure links data science management to [[Data Products]],
 Data science projects need structure, and different risks are the focus.
 
 The first is transferable project-management craft. Planning, stakeholder
-communication, and business KPIs transfer into data work; CRISP-DM is a useful
-project framework; and Git, testing, Docker, deployment, and clean code matter
-because a project that affects other people can't remain only a notebook
+communication, and business KPIs transfer into data work. CRISP-DM is a useful
+project framework. Projects that affect other people need Git and testing. They
+also need Docker, deployment, and clean code because they can't remain only
+notebooks
 ([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
 
 The second is lifecycle control. A lead data scientist embedded with marketing
 stakeholders still runs work through a single front door, Definition of Done, and
-feasibility checks, then through sprint or Kanban delivery, pilots, A/B testing,
-and production rollout
+feasibility checks. Delivery then moves through sprint or Kanban delivery,
+pilots, A/B testing, and production rollout
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 That view is close to [[Data Product Management]].
 The project isn't complete until the product can be used, measured, and
 operated.
 
-The third is uncertainty management: roadmaps, debrief culture, and business
-impact, plus cross-functional partnerships, exploration sprints, design stories,
-and incremental movement from POC to production
+The third is uncertainty management. Teams use roadmaps, debrief culture, and
+business impact to steer the work. They also use cross-functional partnerships,
+exploration sprints, design stories, and incremental movement from POC to
+production
 ([[podcast:data-science-management-and-agile-machine-learning|Data Science Management and Agile Machine Learning]]).
 That focus belongs with [[Data Teams]]
 and [[Data Team Lead Role]].
@@ -101,11 +115,11 @@ The project manager protects learning speed and delivery discipline at the same
 time.
 
 A concrete failure case makes the point. After a BERT-based proofreading
-classifier reached only 60% precision and was prematurely advertised internally,
-the recommendation was to convene all stakeholders and drop the project rather
-than burn months on an under-resourced team. Customer development and rapid
-validation should precede ML work, and interview candidates should ask whether a
-company has active revenue-producing ML in production
+classifier reached only 60% precision, the team advertised it internally too
+early. The recommendation was to convene all stakeholders and drop the project
+rather than burn months on an under-resourced team. Customer development and
+rapid validation should precede ML work. Interview candidates should ask whether
+a company has active revenue-producing ML in production
 ([[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]]).
 
 ## Framing and Scope
@@ -122,11 +136,11 @@ model
 
 Project managers should include non-goals and a smallest useful path. For
 [[ML System Design Documents]],
-design documents help teams fail early and align stakeholders, and the document
-remains alive as the system changes
+teams use design documents to fail early and align stakeholders. Teams keep the
+design document current as the system changes
 ([[podcast:ml-system-design|ML System Design Playbook]]).
-Scope isn't a fixed wish list; it's a written agreement about the decision,
-assumptions, risks, and next review point.
+Teams don't treat scope as a fixed wish list. They treat it as a written
+agreement about the decision, assumptions, risks, and next review point.
 
 The team also decides whether the answer should be analysis, analytics
 engineering, a model, or a productized ML system. The right next step may be
@@ -142,15 +156,15 @@ shows how this scope work connects to production ML responsibilities.
 
 Data science projects fail when stakeholders agree to a title but not to a
 decision path. It starts with shared meaning for words such as customer, usage,
-and churn, and trust ties to active listening, stakeholder mapping, and recording
+and churn. Trust ties to active listening, stakeholder mapping, and recording
 roles and context. That's project infrastructure, not presentation polish
 ([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 
 The delivery version uses weekly embedded meetings and stakeholder observation
-before formal intake, then invites stakeholders to demos rather than daily
-stand-ups and simplifies technical results for non-technical audiences. The demos
-keep stakeholders close to direction and feedback while the delivery team keeps
-space for exploration and technical work
+before formal intake. It invites stakeholders to demos rather than daily
+stand-ups, and it simplifies technical results for non-technical audiences. The
+demos keep stakeholders close to direction and feedback while the delivery team
+keeps space for exploration and technical work
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 For managers, decision rights are part of team design. A data science manager
@@ -178,14 +192,14 @@ alignment with executive decisions, with vanity metrics and KPI gaming as the
 main hazards
 ([[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]]).
 For managed projects, [[Metrics]]
-aren't only dashboard numbers; they're acceptance criteria, guardrails, and
+aren't only dashboard numbers. They're acceptance criteria, guardrails, and
 review triggers.
 
-Definition of Done makes that concrete: define KPIs and success criteria before
-deep delivery work, plus fail-fast checks
+Definition of Done names KPIs and success criteria before deep delivery work. It
+also includes fail-fast checks
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
-The same project can need an offline metric, an A/B test, stakeholder feedback,
-monitoring, and a production support plan.
+The same project can need an offline metric and an A/B test. It can also need
+stakeholder feedback, monitoring, and a production support plan.
 
 The [[Production ML Project Checklist]]
 is the closer checklist when the project changes a live system.
@@ -193,14 +207,14 @@ is the closer checklist when the project changes a live system.
 ## Delivery Under Uncertainty
 
 Data science work is hard to estimate because data access, labels, model
-behavior, and stakeholder needs can change the plan. Agile ML practice names that
-uncertainty directly: data risks and unknowns, exploration tasks and design
-stories to manage ML work, plus grooming practices and iterative milestones that
-keep the work from pretending it behaves like ordinary feature delivery
+behavior, and stakeholder needs can change the plan. Agile ML practice names
+data risks and unknowns directly. Teams use exploration tasks and design stories
+to manage ML work. Grooming practices and iterative milestones keep the work
+from pretending it behaves like ordinary feature delivery
 ([[podcast:data-science-management-and-agile-machine-learning|Data Science Management and Agile Machine Learning]]).
 
-Kanban plans sprints and estimates work, while demos keep stakeholder feedback in
-the lifecycle, alongside feasibility assessment, MVPs, and fail-fast checks
+Kanban plans sprints and estimates work. Demos keep stakeholder feedback in the
+lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 That matches the [[Machine Learning System Design]]
@@ -226,24 +240,25 @@ separate a real rollout decision from a promising internal score.
 ## Evaluation, Adoption, and Handoff
 
 Evaluation is where project management checks whether the work should continue,
-change, ship, or stop. Production ML is experimental: offline experiments, shadow
-mode, and A/B tests bridge model work to product impact, and segment analysis and
-root-cause work explain live results
+change, ship, or stop. Because production ML is experimental, offline
+experiments, shadow mode, and A/B tests bridge model work to product impact.
+Segment analysis and root-cause work explain live results
 ([[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]]).
 That's why [[Evaluation]]
 belongs in the project plan, not only in the modeling phase.
 
-Adoption is also part of completion. Data products can fail when users don't know
-they exist, don't understand or trust them, or don't see how the product fits the
-decision
+Adoption is also part of completion. Data products can fail when users don't
+know they exist. They can also fail when users don't understand or trust them, or
+when users don't see how the product fits the decision
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
-For project management, adoption work includes discoverability, interpretability,
-workflow placement, documentation, and feedback loops.
+For project management, adoption work includes discoverability and
+interpretability. It also includes workflow placement, documentation, and
+feedback loops.
 
 Production handoff should name the owner of data quality and model behavior, plus
-owners for alerts, rollback, and stakeholder communication. Project intake, KPIs,
-stakeholder fears, and service levels connect to post-mortems, drift, and user
-feedback in the same operating model
+owners for alerts, rollback, and stakeholder communication. In the same operating
+model, project intake and KPIs connect to post-mortems and drift. Stakeholder
+fears and service levels connect to user feedback
 ([[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
 
 That handoff links [[MLOps]],

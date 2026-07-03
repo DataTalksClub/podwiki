@@ -68,6 +68,15 @@ alternative solutions and problem specificity before modeling. Around
 those conversations to define success and failure before any production code
 exists.
 
+Mariano's earlier leadership and MLOps discussion makes the same boundary
+product-first. He connects the "Rules of ML" to experiments and deployment. His
+start-simple/fail-fast advice puts product feedback and fast learning before
+heavier model or platform complexity
+[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
+The first production version should be the smallest baseline that can touch the
+workflow. It should show whether users and KPIs move before the team adds
+complexity.
+
 Write a one-page production brief before you extract code:
 
 1. Who uses the output?

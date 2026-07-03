@@ -23,9 +23,8 @@ The recommendation may be an item or content card. It may also be an action or
 next step.
 
 The topic uses [[machine learning system design]]
-vocabulary. It shares retrieval and ranking problems with
-[[search]]. It also borrows measurement
-discipline from
+vocabulary, shares retrieval and ranking problems with
+[[search]], and borrows measurement discipline from
 [[production search evaluation]].
 
 Modern recommenders also use
@@ -62,8 +61,8 @@ which signals must stay fresh and which outcome proves that the recommendation
 helped.
 
 In the data-platform view, user information, ratings, and search history are
-inputs to streaming and batch pipelines, and data scientists train the model
-after those pipelines prepare the data
+inputs to streaming and batch pipelines. Data scientists train the model after
+those pipelines prepare the data
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 Streaming updates stay separate from historical batch data.
 
@@ -76,6 +75,12 @@ and [[batch-vs-streaming|batch versus streaming]].
 In the retrieval-and-ranking view, search systems split into candidate
 generation and ranking, and that same split fits recommendations
 ([[podcast:building-production-search-systems|Building Search Systems]]).
+
+[[person:marianosemelman=>Mariano Semelman]] extends that ranking mindset beyond
+search and recommender systems. Real-time bidding and campaign optimization
+also ask which option to show, price, or fund next. The common test is whether
+the product goal and feedback signal make the ranking useful
+[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
 
 First, narrow the item universe to plausible candidates. Then score and reorder
 the list through the same path that handles filters and serving.
@@ -138,14 +143,14 @@ machine learning.
 
 That ranking layer can combine text, behavior, freshness, and popularity.
 Business rules belong there too. A strict waterfall of constraints can
-overconstrain results: the user may want a compromise among relevance, recency,
+overconstrain results. A person may want a compromise among relevance, recency,
 popularity, and "popular for people like me"
 ([[podcast:building-production-search-systems|Building Search Systems]]). Custom
 embeddings and custom ranking models connect to the MLOps work that follows.
 
-The vector-database view adds the session-based version: recommendations can
-update per session based on clicks rather than being precomputed once per user,
-with context as the important signal
+The vector-database view adds the session-based version. Recommendations can
+update per session based on clicks rather than being precomputed once per user.
+Context becomes the important signal
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 Session context brings recommendation systems close to [[vector databases]],
 [[production search evaluation]],
@@ -154,8 +159,8 @@ and [[information retrieval]].
 ## Data Pipelines and Feature Freshness
 
 Recommendations depend on current and historical data at the same time. A
-Netflix-style example uses streaming data for new ratings and behavior and batch
-storage for history
+Netflix-style example uses streaming data for new ratings and behavior, plus
+batch storage for history
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 
 That mix lets data scientists train on cleaned history while the product keeps
@@ -168,8 +173,8 @@ content, and images belong alongside behavioral signals
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
 Timestamp encoding lets teams represent recency without recomputing everything
-naively, and query-time weights help because the right balance can differ by
-page type
+naively. Query-time weights help because the right balance can differ by page
+type
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
 This is why recommender work belongs near
@@ -186,8 +191,8 @@ Guests describe several personalization modes rather than one universal
 recommender design.
 
 Collaborative filtering is the familiar user-item starting point, explained
-through Spotify and Netflix: people similar to you liked content you haven't seen
-yet
+through Spotify and Netflix. People similar to you liked content you haven't
+seen yet
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 The same matrix-and-vectors idea contrasts with session-aware recommendations
 that can react to the current click path
@@ -198,7 +203,7 @@ Next-best-action systems add an operational goal.
 next attraction for a group using queue predictions, ride capacity, transaction
 signals, and route preferences
 ([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling]]).
-The recommendation wasn't only "people like you liked this"; it was a routing
+The recommendation wasn't only "people like you liked this." It was a routing
 decision meant to reduce waiting and improve the park experience.
 
 Agenda-driven personalization adds a normative goal. At Sidekick Health, the
@@ -206,8 +211,8 @@ recommender nudges people toward healthier behavior rather than only reinforcing
 past preferences
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
-The item catalog includes educational content, cards, and exercises, making the
-recommendation problem closer to a treatment plan than a media feed
+The item catalog includes educational content, cards, and exercises. That makes
+the recommendation problem closer to a treatment plan than a media feed
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 It links recommender design to [[data products]]
 and [[data product management]].
@@ -217,28 +222,28 @@ and [[data product management]].
 Guests repeatedly treat evaluation as the hard part of recommendation systems
 ([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|Theme Park Crowd Modeling]]).
 In the Bol.com favorite-brand project, likely favorite brands were tested before
-releasing the new product surface, using an employee swiping game for that check,
-which reached about 85 percent accuracy in that validation setup.
+the new product surface was released. An employee swiping game provided that
+check, and the validation setup reached about 85 percent accuracy.
 
 In the business-metric version, a team replaced a recommendation SaaS provider
-with a word2vec-based internal model, then used A/B tests and saw a 2-3 percent
-transaction lift from recommendations
+with a word2vec-based internal model. The team then used A/B tests and saw a
+2-3 percent transaction lift from recommendations
 ([[podcast:from-software-engineering-to-leading-data-science-teams|From Software Engineering to Leading Data Science Teams]]).
 The project also included training, data gathering, production hosting, and a
-retraining job, so the result wasn't only a model comparison. At that point,
+retraining job. That project wasn't only a model comparison. At that point,
 recommendation systems become
 [[machine learning system design]]
 problems rather than only modeling problems.
 
-In the staged-experimentation version, teams should avoid jumping directly into
-collaborative filtering or deep learning for recommenders. The approach starts
-with A/B tests and variant availability, then uses segments and accumulated data
-to move toward clustering or collaborative filtering, treating analytics and good
-data as prerequisites for machine learning
+The staged-experimentation version warns teams not to jump directly into
+collaborative filtering or deep learning for recommenders. Teams start with A/B
+tests and variant availability. They then use segments and accumulated data to
+move toward clustering or collaborative filtering. Analytics and good
+data remain prerequisites for machine learning
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
 In the search-recommender metric discipline, teams get more support when
-recommender or search metrics connect to business performance, and offline tests,
+recommender or search metrics connect to business performance. Offline tests,
 A/B tests, and engineer-facing metrics speed up iteration
 ([[podcast:building-production-search-systems|Building Search Systems]]). Use
 [[evaluation]],
@@ -249,22 +254,21 @@ measurement discipline.
 
 ## Safety, Product Constraints, and Guardrails
 
-Recommendation quality isn't only click-through rate; healthcare adds a safety
-boundary. Hydration advice for heart-failure patients is an example: a suggestion
-that helps most people may be unsafe for a specific medical group
+Recommendation quality isn't only click-through rate because healthcare adds a
+safety boundary. Hydration advice for heart-failure patients shows the risk. A
+suggestion that helps most people may be unsafe for a specific medical group
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 The team needs medical review before testing risky recommendations, even if the
 product can test low-risk features quickly.
 
-Product constraints are lower risk but still important: freshness, relevance, and
-popularity are constraints that teams must balance, and prototyping e-commerce
+Product constraints are lower risk but still important because teams must
+balance freshness, relevance, and popularity. Prototyping e-commerce
 personalization with embeddings and product images is a practical starting point
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
-Descriptions, behavior and frequent queries can guide that prototype too. The
-guardrail is practical: prove that the new results differ usefully
-from the current production system before committing to a larger build.
-
+Descriptions, behavior, and frequent queries can guide that prototype too. The
+practical guardrail is to prove that the new results differ usefully from the
+current production system before committing to a larger build.
 
 These examples connect recommendation systems to
 [[evaluation]], [[product analytics]],
@@ -278,25 +282,26 @@ misleading aggregate metrics need guardrails too.
 Recommendation systems become production systems when teams need repeatable
 training and serving. They also need retraining, monitoring, and rollback.
 
-[[person:sadatanwar=>Sadat Anwar]]'s word2vec recommendation project included data
-engineering, data gathering, production hosting on AWS, and a retraining job
+[[person:sadatanwar=>Sadat Anwar]]'s word2vec recommendation project included
+data engineering and data gathering. It also included production hosting on AWS
+and a retraining job
 ([[podcast:from-software-engineering-to-leading-data-science-teams|From Software Engineering to Leading Data Science Teams]]).
 
-The same ownership question appears from the data engineering side: deployment
-may sit with machine learning engineers, data scientists, or data engineers
-depending on the team
+The same ownership question appears from the data engineering side. Depending on
+the team, deployment may sit with machine learning engineers, data scientists,
+or data engineers
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 
 In the MLOps platform view, monitoring and A/B testing were important next
-standardization areas, with demand forecasting and recommendation engines as use
-cases that fit into standard monitoring tools, and personalization and loyalty
-programs as common retail problems across brands
+standardization areas. Demand forecasting and recommendation engines fit into
+standard monitoring tools. Personalization and loyalty programs appeared as
+common retail problems across brands
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
 
 In the product-ownership version, a METRO recommender uses API-first design and
-scaling as the operating frame, connects production ML hiring to data scientists,
-machine learning engineers, and MLOps, and relies on collaborative filtering and
-Word2Vec variants
+scaling as the operating frame. The same discussion connects production ML
+hiring to data scientists, machine learning engineers, and MLOps. The
+recommender relies on collaborative filtering and Word2Vec variants
 ([[podcast:building-data-products-product-owner-vs-product-manager|Building Data Products at Scale]]).
 That makes the recommender a [[data-products|data product]] with an API, owners,
 metrics, and production staffing.

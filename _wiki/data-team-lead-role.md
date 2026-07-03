@@ -151,6 +151,14 @@ influence without authority matter too. Stakeholder framing and empathy matter
 as well
 ([[podcast:data-leadership-coaching|Data Leadership Coaching: IC-to-lead transition and stakeholder influence at 6:17-50:23]]).
 
+[[person:marianosemelman=>Mariano Semelman]] frames
+new-manager onboarding as deliberate learning before intervention. A new data
+science lead needs an explicit first month of relationship-building, team
+diagnosis, and delivery expectation-setting before trying to change the team.
+That makes a realistic 30/60/90 plan part of the lead's responsibilities, not
+just a personal productivity exercise
+([[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]]).
+
 The boundary with a
 [[data-architect-role=>data architect]] is that the
 architect owns durable system structure. The data team lead owns the people,
