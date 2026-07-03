@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11204
+    "links": 11195
   },
   "nodes": [
     {
@@ -58347,60 +58347,6 @@
       "target": "wiki:software-engineering",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:carminepaolino",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:dattran",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:elenasamuylova",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:mariabruckert",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:mariannadiachuk",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:marianosemelman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:paulineclavelloux",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-startups",
-      "target": "person:vinvashishta",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-startups",

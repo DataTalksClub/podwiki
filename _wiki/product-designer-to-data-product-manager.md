@@ -23,7 +23,7 @@ measurement. [[person:saramenefee|Sara Menefee]]
 shows the path clearly. She moved from technical support and product design
 into product management at Meroxa. Her episode connects user research and
 customer discovery to SQL, data quality, documentation, and empathy for data teams
-([[podcast:product-designer-to-data-product-manager|Sara Menefee's transition path at 1:27-28:30]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee's transition]]).
 
 The move is broader than learning SQL because a designer keeps customer
 research, prototyping, and usability judgment. They also add lifecycle and
@@ -42,7 +42,7 @@ and
 Sara's design background mattered because product design already included
 requirements and research. It also covered user testing plus customer
 expectations and interface iteration.
-[[podcast:product-designer-to-data-product-manager@5:23=>Sara Menefee's product-design description]]
+[[cite:product-designer-to-data-product-manager|Sara Menefee on product design]]
 says strong product designers care deeply about solving customer problems.
 That becomes a bridge into data PM work when the customer is a data
 professional. The product might be a data platform, dashboard, workflow, or
@@ -57,11 +57,11 @@ It also has to account for quality constraints, metrics, and engineering
 tradeoffs.
 
 Sara defines data PM work in
-[[podcast:product-designer-to-data-product-manager@7:09=>her customer-discovery explanation]]:
+[[cite:product-designer-to-data-product-manager|Sara Menefee on customer discovery]]:
 she talks with data professionals about responsibilities and problems. They
 also discuss workarounds, requirements, and tooling. She then aligns internal
 stakeholders on whether the team is solving the right problem. In
-[[podcast:product-designer-to-data-product-manager@10:29=>her discovery comparison]],
+[[cite:product-designer-to-data-product-manager|Sara Menefee on discovery]],
 she connects that work back to product discovery. Designers and PMs both get
 close to customers and validate assumptions before committing to a solution.
 
@@ -69,12 +69,12 @@ Beyond discovery, Sara describes stakeholder alignment and engineering
 partnership. The lifecycle also covers rough prototypes, confidence checks, and
 success metrics. It continues through demos, implementation surprises, launch,
 and go-to-market coordination
-([[podcast:product-designer-to-data-product-manager|Sara Menefee's product lifecycle discussion at 11:51-15:03]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee on product lifecycle]]).
 The transition becomes real when the designer wants ownership across that whole
 product lifecycle, not only the early discovery and interface stages.
 
-Data adds constraints that interface design alone doesn't cover. At
-[[podcast:product-designer-to-data-product-manager@19:44=>Sara Menefee's data-quality discussion]],
+Data adds constraints that interface design alone doesn't cover. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on data quality]],
 Sara says people across roles make decisions with data. Non-data teams often
 lack access or know-how.
 
@@ -95,8 +95,8 @@ platforms, adoption, role boundaries, or roadmap discipline. Product designers
 can use that difference to identify which version of data PM work the target
 team needs before shaping the portfolio or first role.
 
-Sara centers discovery and empathy. At
-[[podcast:product-designer-to-data-product-manager@24:44=>Sara Menefee's traits discussion]],
+Sara centers discovery and empathy. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on data PM traits]],
 she says a data PM needs curiosity about how data works. The role also needs
 empathy for data engineers and downstream data consumers. She adds
 documentation literacy because data-tooling documentation can be hard to use.
@@ -107,7 +107,7 @@ product work. In
 he treats data scientists and analysts as platform customers. Roadmap choices,
 observability KPIs, release governance, and rollout timing become product
 management work
-([[podcast:ml-product-manager-and-mlops-platform-strategy|Geo Jolly's platform PM discussion at 11:24-57:20]]).
+([[cite:ml-product-manager-and-mlops-platform-strategy|Geo Jolly on platform PM]]).
 That path is close to
 [[ML Platform Engineer Role]]
 and [[platform engineering]],
@@ -119,7 +119,7 @@ adoption in
 Users need to find a data product, understand it, trust it, and use it where
 decisions happen. Designers often have an advantage here because they already
 think in personas, journeys, friction, and decision context
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Caitlin Moorman's adoption discussion at 8:48-40:53]]).
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Caitlin Moorman on adoption]]).
 That adoption lens connects this transition to
 [[data product adoption]].
 
@@ -128,7 +128,7 @@ caveat. In
 [[podcast:building-data-products-product-owner-vs-product-manager=>Building Data Products]],
 she explains that product owner and product manager boundaries vary by company.
 One person may wear both hats
-([[podcast:building-data-products-product-owner-vs-product-manager|Anna Hannemann's role-boundary discussion at 15:11-21:45]]).
+([[cite:building-data-products-product-owner-vs-product-manager|Anna Hannemann on role boundaries]]).
 
 So the transition should focus on responsibilities. Use
 [[Product Owner vs Product Manager]]
@@ -146,38 +146,38 @@ His data product manager starts from customer journeys and business-partner
 interviews. Five Whys and hypothesis testing come before roadmap options. For
 product designers, the next skill is translating discovery into impact and
 effort
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Greg Coquillo's discovery and roadmap discussion at 14:03-51:11]]).
+([[cite:building-and-scaling-ai-data-products-with-mlops|Greg Coquillo on discovery and roadmaps]]).
 
 Cost, SMART goals, and operating metrics belong in that same roadmap work. Use
 [[Data Product Manager Roadmap]]
 for the learning path version.
 Those metrics can include pipeline failures, SLAs, and data quality
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Greg Coquillo's operating-metrics discussion at 47:18-55:32]]).
+([[cite:building-and-scaling-ai-data-products-with-mlops|Greg Coquillo on operating metrics]]).
 
 ## Transfer Design Discovery Into Data Product Work
 
 The transferable design skill is structured discovery. Sara's design work
 included product requirements, UX work, and interface design. It also included
 user research, user testing, customer expectations, and iteration
-([[podcast:product-designer-to-data-product-manager|Sara Menefee's product-design responsibilities at 5:23-6:14]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee on design responsibilities]]).
 Those habits transfer when the designer can ask data professionals better
 questions about requirements, workarounds, decision points, and tooling.
 
 In
-[[podcast:product-designer-to-data-product-manager@16:26=>Sara Menefee's transition motivation]],
+[[cite:product-designer-to-data-product-manager|Sara Menefee on transition motivation]],
 Sara explains why she wanted broader scope. She wanted to work with engineering,
 understand the systems behind the experience, and measure whether launches
 worked. She also wanted to analyze funnel drop-off, form hypotheses, and return
 to customers. In
-[[podcast:product-designer-to-data-product-manager@18:24=>her experimentation discussion]],
+[[cite:product-designer-to-data-product-manager|Sara Menefee on experiments]],
 she describes advocating for experiments and asking what data the team had to
 measure a hypothesis. That's the practical bridge to
 [[a-b-testing=>A/B Testing]],
 [[metrics]], and
 [[product analytics]].
 
-Customer development turns that design habit into data-product work. At
-[[podcast:product-designer-to-data-product-manager@49:58=>Sara Menefee's customer-development questions]],
+Customer development turns that design habit into data-product work. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on customer development]],
 Sara asks data practitioners about responsibilities and focus areas. She also
 asks about tooling, blockers, current workarounds, and whether they can
 accomplish the job. That's a stronger transition signal
@@ -185,7 +185,7 @@ than a generic design portfolio because it shows that the candidate can
 understand data teams as users.
 
 Sara's
-[[podcast:product-designer-to-data-product-manager@56:30=>documentation workflow]]
+[[cite:product-designer-to-data-product-manager|Sara Menefee on documentation]]
 discussion makes documentation part of the same discovery system. She names
 product docs, PRDs, and one-pagers. She also mentions customer-development
 notes, recorded notes, and weekly product updates. Customer-note databases can
@@ -198,17 +198,17 @@ also helps when mapping the transition against broader
 
 ## Add Data Lifecycle and Quality Literacy
 
-SQL is a real skill gap in Sara's framing. At
-[[podcast:product-designer-to-data-product-manager@23:14=>Sara Menefee's SQL skill-floor discussion]],
+SQL is a real skill gap in Sara's framing. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on SQL]],
 she calls it a hard requirement to know how to get data and check the work. A
 PM also has to confirm that an output matches expectations. She learned SQL and data
 engineering fundamentals, and she used SQL often
-([[podcast:product-designer-to-data-product-manager|24:26|Sara Menefee's technical-learning discussion]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee on technical learning]]).
 Python can help, but her route makes SQL and data context the first technical
 bridge.
 
-The next gap is data lifecycle, and at
-[[podcast:product-designer-to-data-product-manager@26:58=>Sara Menefee's data-lifecycle explanation]]
+The next gap is data lifecycle, and in
+[[cite:product-designer-to-data-product-manager|Sara Menefee on data lifecycle]]
 Sara references sources, transformations, and warehouses. Data lakes and data
 applications are part of the same context too.
 
@@ -222,7 +222,7 @@ Quality literacy matters because user decisions can break when the data is
 wrong. Sara's HR-data example includes PII, compliance, and storage. Security
 is part of the same risk. Data correctness also matters when work spans multiple
 sources or human-entered data
-([[podcast:product-designer-to-data-product-manager|Sara Menefee's HR-data risk discussion at 19:44-22:21]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee on HR data risk]]).
 
 A data PM doesn't need to become the data engineer, but they need enough
 literacy to ask whether the data product is safe and useful. They also need to
@@ -239,18 +239,18 @@ metadata, quality expectations, access paths, and SLAs. Ownership and
 governance policies belong there too.
 
 For a designer moving into data PM, quality becomes part of the user promise
-([[podcast:data-mesh-architecture-decentralized-data-products|Zhamak Dehghani's data-product guarantee discussion at 31:05-41:58]]).
+([[cite:data-mesh-architecture-decentralized-data-products|Zhamak Dehghani on data products]]).
 
 ## Prove the Transition With Portfolio Cases
 
-Sara recommends data-product case studies as the main portfolio proof. At
-[[podcast:product-designer-to-data-product-manager@33:00=>Sara Menefee's portfolio-case advice]],
+Sara recommends data-product case studies as the main portfolio proof. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on portfolio cases]],
 she suggests case studies around data projects that show how the person worked
 through a data product. The case should show design, development, and problem
 solving. Public datasets can work when internal work can't be shared.
 
-The case study should be end to end. At
-[[podcast:product-designer-to-data-product-manager@36:00=>Sara Menefee's case-study structure]],
+The case study should be end to end. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on case structure]],
 Sara says it starts with the problem and research, then adds the data. It then
 shows opportunities and prototypes. It also covers outcome, customer follow-up,
 and what could improve.
@@ -261,12 +261,12 @@ data-product operating template in
 A strong case study can show intake, a Definition of Done, and KPIs. It can
 also show feasibility checks and pilot or A/B-test design. Stakeholder demos
 and post-launch monitoring belong in the same operating model
-([[podcast:building-data-products-lead-data-scientist|Ioannis Mesionis's data-product operating model at 15:23-41:33]]).
+([[cite:building-data-products-lead-data-scientist|Ioannis Mesionis on data products]]).
 That makes the portfolio look like data-product operating work, not only design
 discovery plus screenshots.
 
-At
-[[podcast:product-designer-to-data-product-manager@37:57=>Sara Menefee's publishing advice]],
+In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on publishing]],
 she says candidates can publish case studies on a personal website, blog, or
 Medium. A PDF or slidedoc can also work, depending on the audience.
 
@@ -294,25 +294,25 @@ analytics-specific portfolio focus, use
 ## Find Sponsorship, Mentorship, and First PM Scope
 
 Sara's move happened through proximity to data-tool work and people in the data
-space. At
-[[podcast:product-designer-to-data-product-manager@29:13=>Sara Menefee's transition-strategy discussion]],
+space. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on transition strategy]],
 she describes designing and developing data tools, learning from engineering
 teams, and talking with data professionals. She also worked with a CEO she
 already knew from developer-tool work. In
-[[podcast:product-designer-to-data-product-manager@32:05=>her hindsight advice]],
+[[cite:product-designer-to-data-product-manager|Sara Menefee on hindsight]],
 she says she learned SQL and data engineering after the switch and would have
 started earlier in hindsight.
 
-Mentorship is part of the route. At
-[[podcast:product-designer-to-data-product-manager@43:02=>Sara Menefee's mentorship advice]],
+Mentorship is part of the route. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on mentorship]],
 Sara recommends talking with product managers who work in data companies.
 Mentors can review case studies and explain missing context. That
 matters because data product managers are rarer than general product managers,
 so a designer may need to find the role through data companies. Internal
 transfers and adjacent platform work can also create the opening.
 
-The first PM scope may still include design and analysis. At
-[[podcast:product-designer-to-data-product-manager@46:10=>Sara Menefee's day-to-day workflow]],
+The first PM scope may still include design and analysis. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on day-to-day work]],
 Sara's day-to-day includes standups and connector questions. It can include
 transformation questions, quick analysis for marketing, and direct queries
 against a platform API database. It also includes design critique, customer
@@ -321,8 +321,8 @@ development, and product analytics instrumentation.
 That mix is common in early-stage data-product work. It lets a designer prove
 PM scope before the title boundary is perfectly clean.
 
-Data teams also need organizational education. At
-[[podcast:product-designer-to-data-product-manager@51:55=>Sara Menefee's organizational-education point]],
+Data teams also need organizational education. In
+[[cite:product-designer-to-data-product-manager|Sara Menefee on organizational education]],
 Sara observes that data teams spend a lot of time teaching other teams how to
 use data. A designer's empathy and communication skill can help there. It only
 works when that empathy is paired with enough data literacy to avoid creating
@@ -330,7 +330,7 @@ another vague request for the data team.
 
 Sara also says data product management can include data science and ML. She
 hadn't yet reached that stage in her own role
-([[podcast:product-designer-to-data-product-manager|Sara Menefee's analytics-and-ML role boundary at 1:00:40-1:01:34]]).
+([[cite:product-designer-to-data-product-manager|Sara Menefee on analytics and ML]]).
 When the product surface moves beyond analytics and data engineering, this
 transition can lead toward the
 [[ML Product Manager Role]].

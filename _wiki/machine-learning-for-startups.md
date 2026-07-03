@@ -42,23 +42,16 @@ The founders in these episodes test customers, trust, and distribution before
 they scale modeling. Several [[startups]]
 episodes use that product-first order.
 
-[[person:elenasamuylova=>Elena Samuylova]] describes
-ML startup ideas as
-[[podcast:building-mlops-startup@7:23=>problem-first work]]
-and returns to
-[[podcast:building-mlops-startup@42:15=>customer discovery and product-market fit signals]].
+ML startup ideas work best as problem-first work. The team keeps returning to
+customer discovery and product-market fit signals.[[cite:building-mlops-startup|ML Startup]]
+
 For the broader revenue and operating model question, use
 [[Machine Learning for Business]]
 alongside this startup-specific guide.
 
-[[person:carminepaolino=>Carmine Paolino]]
-grounds the same idea in grocery retail. FreshFlow shadowed store teams and did
-customer research through
-[[podcast:launch-and-build-retail-startup@5:46=>fresh-product problem discovery]]
-and
-[[podcast:launch-and-build-retail-startup@7:13=>store-team shadowing]].
-The team then narrowed the product from a computer vision idea into
-[[podcast:launch-and-build-retail-startup@24:47=>an ordering system]].
+FreshFlow grounds the same idea in grocery retail. The team used fresh-product
+problem discovery and store-team shadowing before narrowing the product from a
+computer vision idea into an ordering system.[[cite:launch-and-build-retail-startup|FreshFlow]]
 
 ## Start With the Workflow, Not the Model
 
@@ -67,53 +60,47 @@ Treat that as [[data product management]]
 before modeling. The team needs to know who uses the output, what changes in
 their work, and which signal proves the change helped.
 
-[[person:mariabruckert=>Maria Bruckert]] says SQIN
-began with industry immersion and MVP work. The team had to work around
-healthcare constraints before treating AI diagnosis as a product capability.
+SQIN began with industry immersion and MVP work. The team had to work around
+healthcare constraints before treating AI diagnosis as a product capability.[[cite:building-ai-digital-health-startups|Digital Health]]
 
-She describes an
-[[podcast:building-ai-digital-health-startups@12:55=>AR lipstick try-on MVP]]
-that collected engagement and skin health signals before SQIN moved deeper into
-diagnosis and telemedicine.
+An AR lipstick try-on MVP collected engagement and skin health signals before
+SQIN moved deeper into diagnosis and telemedicine.[[cite:building-ai-digital-health-startups|Digital Health]]
 
-[[person:dattran=>Dat Tran]] makes the same point from
-team-building work in
-[[podcast:building-data-team@23:19=>Priceloop's white-box AI pricing product]].
-He emphasizes
-[[podcast:building-data-team@24:52=>augmenting pricing managers]]
-rather than replacing them. For startup ML, define the human decision your
-model supports before you hire around algorithms or infrastructure.
+Priceloop's white-box AI pricing product made the same point from the
+team-building side. The model augmented pricing managers rather than replacing
+them.[[cite:building-data-team|Data Team]]
+
+For startup ML, define the human decision your model supports before you hire
+around algorithms or infrastructure.
 
 ## Validate Demand Before You Industrialize
 
-Early teams can often validate demand with a manual service, a rule-based
-prototype, a dashboard, or a lightweight model. Samuylova explicitly covers
-no-code MVPs and service productization in
-[[podcast:building-mlops-startup@38:08=>no-code MVP advice]]
-and
-[[podcast:building-mlops-startup@39:25=>service productization]].
+Early teams can often validate demand without a heavy model.
+
+A manual service, rule-based prototype, dashboard, or lightweight model can be
+enough.
+
+No-code MVPs and service productization can test the market before the team
+commits to a heavier ML build.[[cite:building-mlops-startup|ML Startup]]
+
 That advice fits ML startups because a trained model is rarely the fastest way
 to learn whether customers will pay, share data, or change behavior.
 
-[[person:paulineclavelloux=>Pauline Clavelloux]] gives
-the bootstrapped side-project version in
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]].
-She frames indie hacking as
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects@7:23=>building without external funding]]
-and uses concrete product work to validate ideas. Her examples range from
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects@15:09=>landing pages, legal setup, and payments]]
-to
-[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects@28:41=>launch channels and early sales]].
+The bootstrapped side-project version appears in
+[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking]].
+
+Indie hacking validates ideas without external funding through concrete product
+work. That work can include landing pages and legal setup. It can also include
+payments, launch channels, and early sales.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking]]
+
 For a small ML product, those checks can matter before model quality because
 they test whether the team can reach buyers at all.
 
-Paolino's FreshFlow story shows why the first version can be deliberately
-small. After customer discovery, the team moved from a computer vision app
-toward a grocery ordering system. Pilots with Volg and Edeka then gave the team
-real retail operations to learn from. That path runs from
-[[podcast:launch-and-build-retail-startup@24:47=>the computer-vision-to-ordering pivot]]
-to
-[[podcast:launch-and-build-retail-startup@33:24=>Volg and Edeka pilot work]].
+FreshFlow shows why the first version can be deliberately small. Customer
+discovery moved the team from a computer vision app toward a grocery ordering
+system. Pilots with Volg and Edeka gave the team real retail operations to learn
+from.[[cite:launch-and-build-retail-startup|FreshFlow]]
+
 The model idea became valuable only after the startup understood the retailer's
 fresh-product problem, sales cycle, and roadmap toward a broader retail OS.
 
@@ -125,36 +112,29 @@ using the product. That makes ML startup validation close to
 [[data product adoption]]
 and [[metrics]], not only model quality.
 
-Samuylova discusses
-[[podcast:building-mlops-startup@42:15=>interview counts and product-market fit signals]].
-She then explains how Evidently validated model monitoring as
-[[podcast:building-mlops-startup@43:59=>a business opportunity]].
+Interview counts and product-market fit signals helped Evidently validate model
+monitoring as a business opportunity.[[cite:building-mlops-startup|ML Startup]]
 
-[[person:vinvashishta=>Vin Vashishta]] adds the
-business-metric version in
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]].
-He translates ML work into
-[[podcast:make-money-with-machine-learning-roles-skills@12:07=>ARR and MRR]]
-and compares revenue with
-[[podcast:make-money-with-machine-learning-roles-skills@15:59=>cost-savings business models]].
+The business-metric version appears in
+[[podcast:make-money-with-machine-learning-roles-skills|Monetize ML]].
+
+ML work can be translated into ARR and MRR. The same work can then be compared
+with cost-savings business models.[[cite:make-money-with-machine-learning-roles-skills|Monetize ML]]
+
 That framing keeps startup ML tied to a business model rather than an offline
 model score.
 
 ## Keep the Early Stack Boring
 
-Lean startup ML still needs [[MLOps]], but
-it needs the amount that protects learning without slowing it down.
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]]
-argues for
-[[podcast:lean-mlops-for-startups@11:54=>a SaaS-first MVP stack]].
-He then walks through
-[[podcast:lean-mlops-for-startups@12:54=>cloud credits and migration friction]]
-and
-[[podcast:lean-mlops-for-startups@19:19=>vendor lock-in tradeoffs]].
-His
-[[podcast:lean-mlops-for-startups@44:10=>minimal stack discussion]]
-includes Python, CI/CD, orchestration, and Dagster rather than a custom
-platform.
+Lean startup ML still needs [[MLOps]]. It needs the amount that protects
+learning without slowing it down.
+
+A SaaS-first MVP stack can use cloud credits.
+The team still needs to account for migration friction and vendor lock-in
+tradeoffs.[[cite:lean-mlops-for-startups|Lean MLOps]]
+
+A minimal stack can include Python, CI/CD, orchestration, and Dagster rather
+than a custom platform.[[cite:lean-mlops-for-startups|Lean MLOps]]
 
 That doesn't mean ignoring engineering quality.
 
@@ -167,17 +147,14 @@ It means sequencing enough discipline for the stage:
 - clear ownership
 
 Startups usually don't need to build a full ML platform before they have
-repeatable users. Radojkovic's
-[[podcast:lean-mlops-for-startups@40:01=>technical debt discussion]]
-is useful here. Teams can take shortcuts, but they need to record the debt,
-understand the security implications, and know which shortcuts will block later
-migration.
+repeatable users. Teams can take shortcuts, but they need to record the debt.
+They also need to understand the security implications and know which shortcuts
+will block later migration.[[cite:lean-mlops-for-startups|Lean MLOps]]
 
-FreshFlow faced the same stack tradeoff. Paolino describes Kubeflow challenges
-and
-[[podcast:launch-and-build-retail-startup@53:09=>the move toward managed cloud choices]].
-For an early CTO, managed services can be the practical choice because the
-startup needs customer learning more than infrastructure ownership.
+FreshFlow faced the same stack tradeoff. Kubeflow challenges pushed the team
+toward managed cloud choices.[[cite:launch-and-build-retail-startup|FreshFlow]]
+Managed services can be the practical choice for an early CTO. The startup
+needs customer learning more than infrastructure ownership.
 
 ## Build a Data Strategy While You Build the Product
 
@@ -187,99 +164,82 @@ the right data and permission to use it. It also needs a way to label or verify
 that data, plus a feedback path from production behavior back into product
 decisions.
 
-Bruckert's digital health episode is the clearest example. SQIN faced healthcare
-data gaps, rural access issues, and legacy workflows. The team also had to
-handle ethics and sensitive user messaging.
+Digital health is the clearest example. SQIN faced healthcare data gaps, rural
+access issues, and legacy workflows. The team also had to handle ethics and
+sensitive user messaging.[[cite:building-ai-digital-health-startups|Digital Health]]
 
-Bruckert links those constraints to product design in three places. Community
-reach helped
-[[podcast:building-ai-digital-health-startups@29:43=>bootstrap datasets]].
-User support became
-[[podcast:building-ai-digital-health-startups@38:05=>a feedback channel]].
-Inclusive UX mattered because the AI handled skin health rather than a low-risk
-consumer recommendation
-([[podcast:building-ai-digital-health-startups|24:08|ethics and sensitive AI messaging]]).
+Those constraints shaped product design. Community reach helped bootstrap
+datasets, and user support became a feedback channel. Inclusive UX mattered
+because the AI handled skin health rather than a low-risk consumer
+recommendation.[[cite:building-ai-digital-health-startups|Digital Health]]
+
 For startup ML in sensitive domains, trust and
 [[privacy engineering for ML]]
 belong in the product design from the beginning.
 
-Samuylova adds the developer-tools version of the same data problem. In the
-Evidently discussion, she covers data safety and on-premise deployment. She
-also covers the work needed to persuade clients to share data through
-[[podcast:building-mlops-startup@53:09=>value demonstrations]]
-and
-[[podcast:building-mlops-startup@56:17=>on-premise deployment options]].
+Developer-tool startups face another version of the same data problem.
+
+Evidently had to account for data safety and on-premise deployment. It also
+needed to persuade clients to share data through value demonstrations.[[cite:building-mlops-startup|ML Startup]]
+
 For B2B ML startups, the data strategy is part of sales and trust, not only a
 technical pipeline.
 
 ## Hire for Ownership Before Specialization
 
-Startup ML teams usually need generalists before specialists. Tran says early
+Startup ML teams usually need generalists before specialists because early
 hiring should match prototype and MVP uncertainty. Cross-functional roles
 matter, and T-shaped engineers are useful before the team shifts toward
-specialists. He grounds that shift in
-[[podcast:building-data-team@28:57=>startup hiring under prototype uncertainty]]
-and
-[[podcast:building-data-team@33:35=>mid-stage specialization]].
+specialists.[[cite:building-data-team|Data Team]]
+
 For ML startups, hiring is [[team building]]
 rather than a fixed list of job titles.
 
 Company size changes the manager-versus-expert tradeoff. Larger companies can
-split work across a manager role and an expert role.[[cite:data-science-manager-vs-expert-hiring-guide|Manager vs Expert Hiring|30:37]]
+split work across a manager role and an expert role.[[cite:data-science-manager-vs-expert-hiring-guide|Manager Hiring]]
 
 The manager owns stakeholder alignment and [[team building]] while the expert
 covers technical depth. Early startups usually can't fund both roles. Their
 first ML hire needs domain focus and communication plus [[data strategy]]. That
 hire also needs enough [[machine learning]] depth to ship the first useful
-models.[[cite:data-science-manager-vs-expert-hiring-guide|Manager vs Expert Hiring|38:37]]
+models.[[cite:data-science-manager-vs-expert-hiring-guide|Manager Hiring]]
 
 That startup "unicorn" hire is a tradeoff, not a universal ideal. It buys speed
 and fewer handoffs while accepting less algorithmic depth than a dedicated
 expert. Once the product workflow, data access, and customer problem stabilize,
 the same team can move from broad ownership toward specialist hiring.
 
-Radojkovic describes the same constraint from the MLOps side. Startups create
-[[podcast:lean-mlops-for-startups@27:30=>end-to-end ownership]]
-because fewer people cover more of the product and infrastructure surface. He
-then frames
-[[podcast:lean-mlops-for-startups@35:48=>the startup learning-curve tradeoff]].
+Startups create end-to-end ownership because fewer people cover more of the
+product and infrastructure surface. That creates a learning-curve tradeoff for
+the team.[[cite:lean-mlops-for-startups|Lean MLOps]]
 That's productive when the team has enough senior judgment. It's risky when
-junior people have no mentorship, which is why he later recommends pairing and
-mentorship for
-[[podcast:lean-mlops-for-startups@43:12=>early-career engineers]].
+junior people have no mentorship, which is why pairing and mentorship matter
+for early-career engineers.[[cite:lean-mlops-for-startups|Lean MLOps]]
 
-Samuylova adds another hiring boundary for founders. Bring in domain or
-technical expertise when the current team can't validate or deliver the product
-safely
-([[podcast:building-mlops-startup|40:13|domain or technical help]]).
+Another hiring boundary appears when the current team can't validate or deliver
+the product safely. Founders then need domain or technical expertise. That help
+keeps product risk from becoming larger than the modeling problem.[[cite:building-mlops-startup|ML Startup]]
+
 Missing expertise can break the product before model accuracy becomes the main
 issue in healthcare, finance, pricing, or infrastructure tools.
 
-[[person:mariannadiachuk=>Marianna Diachuk]] shows the
-single-data-scientist version of that ownership problem in
-[[podcast:solopreneur-data-scientist=>Introducing Data Science in Startups]].
-She recommends checking for
-[[podcast:solopreneur-data-scientist@8:13=>pipelines, engineers, and analytics readiness]]
-before a startup expects one data scientist to deliver production ML. Her
-[[podcast:solopreneur-data-scientist@24:07=>first-quarter roadmap]]
-includes pipelines and methodology. It also includes deployment and A/B testing,
-which is closer to product ownership than isolated modeling.
+The single-data-scientist version of that ownership problem appears in
+[[podcast:solopreneur-data-scientist|Introducing Data Science]].
+A startup should check pipelines, engineers, and analytics readiness before it
+expects one data scientist to deliver production ML. A first-quarter roadmap can
+include pipelines and methodology. It can also include deployment and A/B
+testing, which is closer to product ownership than isolated modeling.[[cite:solopreneur-data-scientist|Solo DS]]
 
 ## Monitor What Customers Depend On
 
 Once customers rely on a model, [[model monitoring]]
-becomes part of the product promise. Samuylova's Evidently story centers on
-[[podcast:building-mlops-startup@43:59=>validating model monitoring as a business]].
-The company then used [[open source]],
-[[podcast:building-mlops-startup@51:48=>bottom-up adoption]],
-and
-[[podcast:building-mlops-startup@56:17=>on-premise options]]
-to reach teams that needed to watch model behavior.
+becomes part of the product promise. Evidently validated model monitoring as a
+business. It then used [[open source]], bottom-up adoption, and on-premise
+options to reach teams that needed to watch model behavior.[[cite:building-mlops-startup|ML Startup]]
 
-Radojkovic gives the startup-scale version through
-[[podcast:lean-mlops-for-startups@45:55=>observability choices such as Logfire, Prometheus/Grafana, and Streamlit]].
-He treats reliability as part of
-[[podcast:lean-mlops-for-startups@55:43=>data quality, lineage, and the extra unpredictability of LLM systems]].
+The startup-scale version includes observability choices such as Logfire,
+Prometheus/Grafana, and Streamlit. Reliability also includes data quality,
+lineage, and the extra unpredictability of LLM systems.[[cite:lean-mlops-for-startups|Lean MLOps]]
 
 Monitoring should follow the failure modes customers will notice:
 
@@ -296,38 +256,27 @@ jobs are product failures too, not only internal engineering issues.
 
 In product-led ML teams, monitoring also supports prioritization.
 
-[[person:marianosemelman=>Mariano Semelman]] ties data
-science work to user impact and experiments in
-[[podcast:data-science-leadership-hiring-mlops@29:29=>a product-first discussion]].
-He ties that work to deployment, fail-fast iteration, and
-[[podcast:data-science-leadership-hiring-mlops@36:50=>where modeling time delivers impact]].
+Data science work should tie user impact and experiments to deployment and
+fail-fast iteration. It should also focus on the places where modeling time
+delivers impact.[[cite:data-science-leadership-hiring-mlops|DS Leadership]]
+
 Startup teams should spend modeling time where the next improvement changes a
 product metric or customer workflow, not where it only improves an offline
 score.
 
 ## Use Stricter Rules in Regulated or Sensitive Domains
 
-Digital health shows why some startups need more rigor earlier. Bruckert covers
-[[podcast:building-ai-digital-health-startups@5:07=>healthcare data gaps and rural access]]
-and
-[[podcast:building-ai-digital-health-startups@6:11=>legacy infrastructure]].
-She also covers
-[[podcast:building-ai-digital-health-startups@24:08=>ethics and sensitive AI messaging]].
-Later in the same episode, she discusses
-[[podcast:building-ai-digital-health-startups@43:44=>investor credibility]].
+Digital health shows why some startups need more rigor earlier. Healthcare data
+gaps, rural access, and legacy infrastructure all affect the product path.
+Ethics, sensitive AI messaging, and investor credibility do too.[[cite:building-ai-digital-health-startups|Digital Health]]
 
 In that setting, a rough MVP can test a workflow. The product still has to
 respect clinical trust, inclusive UX, and data constraints from the beginning.
 
 Infrastructure and developer-tool startups face a different version of the same
-rule. Samuylova separates
-[[podcast:building-mlops-startup@21:34=>vertical AI products from MLOps infrastructure]].
-She explains
-[[podcast:building-mlops-startup@24:33=>developer-tools adoption and open source strategy]],
-covers
-[[podcast:building-mlops-startup@49:29=>licensing risks]],
-and describes
-[[podcast:building-mlops-startup@51:48=>bottom-up adoption]].
+rule. Vertical AI products differ from MLOps infrastructure. Developer-tools
+adoption often depends on open source strategy, licensing risks, and bottom-up
+adoption.[[cite:building-mlops-startup|ML Startup]]
 
 An [[open-source|open-source]] ML tool can reduce
 adoption friction, but it also forces the founders to think about community and
