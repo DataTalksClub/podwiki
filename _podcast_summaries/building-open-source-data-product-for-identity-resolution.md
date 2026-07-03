@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-
 
 # Episode: Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=lpjffCOPxlY)
 - [Listen on Spotify](https://open.spotify.com/episode/54DufG1ZVj0GMSoWTbJsen?si=d7XNSW2_Tfa4qKJxmFQpIA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-sonal-goyal/id1541710331?i=1000584270745)
 
-## Episode Overview
-
-This episode covers Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack.
-
-## Episode Value
-
-This episode covers Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack.
-
-Agents should consider this episode when working on machine learning, MLOps, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Sonal Goyal](https://datatalks.club/people/sonalgoyal.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - open-source
 - product management
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lpjffCOPxlY&t=0)
 - 1:11 - [Guest Overview: Sonal Goyal and Zingg identity resolution](https://www.youtube.com/watch?v=lpjffCOPxlY&t=71)
@@ -88,16 +71,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:07 - [Founder Advice: Validate use cases, distribution channels, and conviction](https://www.youtube.com/watch?v=lpjffCOPxlY&t=3367)
 - 59:26 - [Recommended Reading: Creative Selection on product design](https://www.youtube.com/watch?v=lpjffCOPxlY&t=3566)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, data engineering, open-source, product management.
-- First pass reading starts with Guest Overview: Sonal Goyal and Zingg identity resolution, Career Overview: 24 years in tech, data consulting background, Origin Story: Consulting projects reveal recurring identity gaps, Modern Data Stack: Centralized data exposing identity challenges.
-- Source file: `datatalksclub.github.io/_podcast/building-open-source-data-product-for-identity-resolution.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, data engineering, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-open-source-data-product-for-identity-resolution.md`

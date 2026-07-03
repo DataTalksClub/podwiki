@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-
 
 # Episode: Build a Data Consulting Business: Customer Validation, User Interviews & Pricing Strategy
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rh_pE35m3vE)
 - [Listen on Spotify](https://open.spotify.com/episode/2Y0mKRHq6wVfr25HJ5Ji3Y?si=kUkmMW2AT6-FeRd6SpXWlg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-data-space/id1541710331?i=1000604682286)
 
-## Episode Overview
-
-This episode covers Build a Data Consulting Business - Customer Validation, User Interviews & Pricing Strategy.
-
-## Episode Value
-
-This episode covers Build a Data Consulting Business - Customer Validation, User Interviews & Pricing Strategy.
-
-Agents should consider this episode when working on consulting, entrepreneurship, freelance.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - consulting
 - entrepreneurship
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - career growth
 - startups
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:10 - [Podcast Introduction](https://www.youtube.com/watch?v=rh_pE35m3vE&t=70)
 - 1:47 - [Career Journey & Archaeology Origin Story](https://www.youtube.com/watch?v=rh_pE35m3vE&t=107)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:58 - [Legal & Administrative: Registering a Consultancy in Germany](https://www.youtube.com/watch?v=rh_pE35m3vE&t=3478)
 - 59:29 - [Recommended Reading: Decision-Making and Interviewing Books](https://www.youtube.com/watch?v=rh_pE35m3vE&t=3569)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around consulting, entrepreneurship, freelance, data strategy, business development, career growth.
-- First pass reading starts with Career Journey & Archaeology Origin Story, Data Stack as a Service: Market and Technical Limits, Transition to Consulting: Early Projects and First Customer, Customer Validation Techniques for Pre-Product Ideas.
-- Source file: `datatalksclub.github.io/_podcast/data-consulting-business-pricing-and-client-acquisition.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve consulting, entrepreneurship, freelance, data strategy, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-consulting-business-pricing-and-client-acquisition.md`

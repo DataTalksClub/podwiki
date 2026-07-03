@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-in-machine-learnin
 
 # Episode: Freelancing in Machine Learning: Pricing, Client Acquisition & Proposals
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HfF791e0HR8)
 - [Listen on Spotify](https://open.spotify.com/episode/2oE13mUEa9k4AO5qogYdqv)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/freelancing-in-machine-learning-mikio-braun/id1541710331?i=1000532612872)
 
-## Episode Overview
-
-This episode covers Freelancing in Machine Learning - Pricing, Client Acquisition & Proposals.
-
-## Episode Value
-
-This episode covers Freelancing in Machine Learning - Pricing, Client Acquisition & Proposals.
-
-Agents should consider this episode when working on freelance, consulting, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Mikio Braun](https://datatalks.club/people/mikiobraun.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - freelance
 - consulting
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - entrepreneurship
 - strategy
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview (Freelancing in Machine Learning)](https://www.youtube.com/watch?v=HfF791e0HR8&t=0)
 - 1:59 - [Guest Background - Academic Research to Industry Roles (TU Berlin → Zalando](https://www.youtube.com/watch?v=HfF791e0HR8&t=119)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:59 - [Global Market Dynamics - Remote Work, Competition, and Differentiation](https://www.youtube.com/watch?v=HfF791e0HR8&t=3539)
 - 1:01:02 - [Starter Advice - Trying Freelancing with a Safety Net](https://www.youtube.com/watch?v=HfF791e0HR8&t=3662)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around freelance, consulting, machine learning, career growth, entrepreneurship, strategy.
-- First pass reading starts with Episode Introduction & Topic Overview (Freelancing in Machine Learning), Guest Background - Academic Research to Industry Roles (TU Berlin → Zalando, Consulting Scope - Advising on ML Production, Infrastructure, and Teams, Freelance Launch - First Clients and Early Momentum.
-- Source file: `datatalksclub.github.io/_podcast/freelancing-in-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve freelance, consulting, machine learning, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/freelancing-in-machine-learning.md`

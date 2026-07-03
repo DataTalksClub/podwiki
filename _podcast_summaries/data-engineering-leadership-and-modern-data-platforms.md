@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-ma
 
 # Episode: Data Engineering Leadership: Scale ETL to ELT, Build Robust Data Platforms & Teams
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=FljnbUQ796w)
 - [Listen on Spotify](https://open.spotify.com/episode/4nWP18woLTt4a7Wm0CQwhM)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-manager-rahul-jain/id1541710331?i=1000552953646)
 
-## Episode Overview
-
-This episode covers Data Engineering Leadership - Scale ETL to ELT, Build Robust Data Platforms & Teams.
-
-## Episode Value
-
-This episode covers Data Engineering Leadership - Scale ETL to ELT, Build Robust Data Platforms & Teams.
-
-Agents should consider this episode when working on data engineering, career growth, career switch.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Rahul Jain](https://datatalks.club/people/16rahuljain.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - career growth
 - career switch
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=FljnbUQ796w&t=0)
 - 1:56 - [Rahul''s Career Path: From ETL Developer to IoT Data Platform Lead](https://www.youtube.com/watch?v=FljnbUQ796w&t=116)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:34 - [Advice for Students: Master DBMS, SQL, and Fundamentals Over Specific Tools](https://www.youtube.com/watch?v=FljnbUQ796w&t=3274)
 - 57:29 - [End-to-End Data Pipeline Overview: Ingestion, Central Hub, Exposure, Monitoring](https://www.youtube.com/watch?v=FljnbUQ796w&t=3449)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, career growth, career switch.
-- First pass reading starts with Rahul''s Career Path: From ETL Developer to IoT Data Platform Lead, ETL Foundations to Big Data and Open Source Tooling, Data Engineering Leadership: Stakeholder Management & Prioritization, Technical Credibility: Hands-on Management and Code-Level Involvement.
-- Source file: `datatalksclub.github.io/_podcast/data-engineering-leadership-and-modern-data-platforms.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, career growth, career switch, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-engineering-leadership-and-modern-data-platforms.md`

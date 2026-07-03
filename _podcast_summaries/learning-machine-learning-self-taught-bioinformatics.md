@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-self-learning-in-mac
 
 # Episode: How to Teach Yourself Bioinformatics & ML: Project-First Learning, Resources, and MLOps
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Kc3Puh3UCRQ)
 - [Listen on Spotify](https://open.spotify.com/episode/2XdKHrmVuytXd5kzLVSbFn?si=ETbkUdT2Q1yJlKCI-d9Rcg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/mastering-self-learning-in-machine-learning-aaisha/id1541710331?i=1000607892159)
 
-## Episode Overview
-
-This episode covers How to Teach Yourself Bioinformatics & ML - Project-First Learning, Resources, and MLOps.
-
-## Episode Value
-
-This episode covers How to Teach Yourself Bioinformatics & ML - Project-First Learning, Resources, and MLOps.
-
-Agents should consider this episode when working on bioinformatics, machine learning, self-learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Aaisha Muhammad](https://datatalks.club/people/aaishamuhammad.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - bioinformatics
 - machine learning
 - self-learning
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=0)
 - 1:14 - [Guest Overview: Aaisha - self-taught bioinformatician, ML engineer, scientific](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=74)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:29 - [Recommended Resources: Python for Everybody, ML Zoomcamp, further reading](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3509)
 - 59:53 - [Closing Remarks and Final Thoughts](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3593)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around bioinformatics, machine learning, self-learning.
-- First pass reading starts with Guest Overview: Aaisha - self-taught bioinformatician, ML engineer, scientific, Early Learning & Homeschooling: Python, web development, and flexible study, Choosing What to Learn: prioritization, filtering, and avoiding FOMO, Open Curricula: OSSU pathway for bioinformatics.
-- Source file: `datatalksclub.github.io/_podcast/learning-machine-learning-self-taught-bioinformatics.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve bioinformatics, machine learning, self-learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/learning-machine-learning-self-taught-bioinformatics.md`

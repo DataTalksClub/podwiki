@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamar
 
 # Episode: Fairness in AI/ML Engineering: Interpretability, Metrics and Sociotechnical Design
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=sXU9vMDBjmk)
 - [Listen on Spotify](https://open.spotify.com/episode/6S4a85iiRzl7NU1HykXeKT?si=FNoDtj74T2ujQKzKdDWwzA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamara-atanasoska/id1541710331?i=1000684411354)
 
-## Episode Overview
-
-This episode covers Fairness in AI/ML Engineering - Interpretability, Metrics and Sociotechnical Design.
-
-## Episode Value
-
-This episode covers Fairness in AI/ML Engineering - Interpretability, Metrics and Sociotechnical Design.
-
-Agents should consider this episode when working on machine learning, LLMs, open-source.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - LLMs
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - data governance
 - fairness
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=0)
 - 2:31 - [Guest Introduction: Tamara's Open-Source Roles (Fairlearn, scikit-learn,](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=151)
@@ -89,16 +72,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:22 - [Practical Quirk: Tokenization Issues Breaking "Fairlearn" in Transcripts](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=3442)
 - 58:14 - [Closing Remarks, Contact Info, and Final Thoughts](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=3494)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, LLMs, open-source, tools, data governance, fairness.
-- First pass reading starts with Guest Introduction: Tamara's Open-Source Roles (Fairlearn, scikit-learn,, Career Overview: Software Engineering to Computational Linguistics, Music Tech Experience: Ableton and Push 2 Instrument Design, Device Architecture: Laptop Computation vs Standalone Hardware.
-- Source file: `datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, LLMs, open-source, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`

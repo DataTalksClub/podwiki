@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-a
 
 # Episode: Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven Communication
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vXbMUfHE1OE)
 - [Listen on Spotify](https://open.spotify.com/episode/4Lt785S38GuK0W2m7naRKt)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-advocacy-will-russel/id1541710331?i=1000709634418)
 
-## Episode Overview
-
-This episode covers Developer Advocacy Through Community Impact - Technical Leadership, Open Source Mentorship & Demo-Driven Communication.
-
-## Episode Value
-
-This episode covers Developer Advocacy Through Community Impact - Technical Leadership, Open Source Mentorship & Demo-Driven Communication.
-
-Agents should consider this episode when working on open-source, computer vision, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Will Russell](https://datatalks.club/people/willrussell.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - open-source
 - computer vision
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - software engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Overview](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=0)
 - 3:21 - [Video Production Setup: Camera, Lens & Webcam Workflow](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=201)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:22 - [Learn with Kestra Series: Tool Tutorials (Docker, Postgres, Git)](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3442)
 - 59:59 - [Leadership & Team Empowerment Recommendation: "Turn the Ship Around"](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3599)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around open-source, computer vision, tools, MLOps, software engineering.
-- First pass reading starts with Episode Opening & Guest Overview, Video Production Setup: Camera, Lens & Webcam Workflow, Audio Setup: Microphone, Preamp & Pop Filtering, Lighting Strategy: 45° Key Light & Background Separation.
-- Source file: `datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve open-source, computer vision, tools, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`

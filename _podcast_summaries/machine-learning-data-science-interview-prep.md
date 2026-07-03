@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-i
 
 # Episode: Master Machine Learning & Data Science Interviews: Recruiter-Proven Stages, Prep & Resources
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=NnZjlMowkWA)
 - [Listen on Spotify](https://open.spotify.com/episode/3JAmnWie8pS58Kok9Sjr2V?si=FDpX4O74Qi2kqzMGumqMpw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-interview-luke-whipps/id1541710331?i=1000596975225)
 
-## Episode Overview
-
-This episode covers Master Machine Learning & Data Science Interviews - Recruiter-Proven Stages, Prep & Resources.
-
-## Episode Value
-
-This episode covers Master Machine Learning & Data Science Interviews - Recruiter-Proven Stages, Prep & Resources.
-
-Agents should consider this episode when working on job search, career growth, hiring.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Luke Whipps](https://datatalks.club/people/lukewhipps.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - job search
 - career growth
 - hiring
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=NnZjlMowkWA&t=0)
 - 1:41 - [Guest Introduction: Luke Whipps & Neural AI](https://www.youtube.com/watch?v=NnZjlMowkWA&t=101)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:05 - [Practice Resources: LeetCode, HackerRank, Codeforces, Educative](https://www.youtube.com/watch?v=NnZjlMowkWA&t=3605)
 - 1:01:43 - [Supplemental Material: Luke's interview prep document (show notes)](https://www.youtube.com/watch?v=NnZjlMowkWA&t=3703)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around job search, career growth, hiring, data science.
-- First pass reading starts with Episode Introduction, Guest Introduction: Luke Whipps & Neural AI, Recruitment Career Overview: ML focus, startups, Germany, Remote Work & Client Geography: UK base serving German market.
-- Source file: `datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve job search, career growth, hiring, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-adoption-of-a
 
 # Episode: How to Build & Scale a Data Science Community: Diversity, ML Deployment & Career Growth
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SRUwwvk_YCk)
 - [Listen on Spotify](https://open.spotify.com/episode/6pRkAK9Zo2QrXZCAzh2veV?si=ixEmGK5-RemknBcHrChMNA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/accelerating-the-adoption-of-ai-through-diversity/id1541710331?i=1000601491838)
 
-## Episode Overview
-
-This episode covers How to Build & Scale a Data Science Community - Diversity, ML Deployment & Career Growth.
-
-## Episode Value
-
-This episode covers How to Build & Scale a Data Science Community - Diversity, ML Deployment & Career Growth.
-
-Agents should consider this episode when working on data science, machine learning, community building.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Dânia Meira](https://datatalks.club/people/daniameira.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - diversity
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=0)
 - 1:34 - [Guest Introduction: Dania - AI Guild co-founder, machine learning background](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=94)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:11 - [Recommended Resources: Weapons of Math Destruction and Coded Bias](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=3551)
 - 1:00:42 - [Datalift Summit 2023: Call for speakers, workshops, and production use cases](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=3642)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, machine learning, community building, diversity, career growth.
-- First pass reading starts with Guest Introduction: Dania - AI Guild co-founder, machine learning background, Early Career: Applied math, Spark vs Hadoop thesis and marketing analytics, Move to Berlin: Startup roles and building end-to-end data skills, Role Evolution: Data scientist generalist to specialized career paths.
-- Source file: `datatalksclub.github.io/_podcast/building-ml-communities-diversity-and-career-growth.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, machine learning, community building, diversity, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-ml-communities-diversity-and-career-growth.md`

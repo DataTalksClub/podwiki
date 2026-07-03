@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-k
 
 # Episode: Build a Data Engineering Career: Bootcamp Curriculum, SQL Mastery & Interview Prep
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=dFo10l8B6Go)
 - [Listen on Spotify](https://open.spotify.com/episode/0Fo6Y62xaWPy7C24eZKfJw?si=lnjgqHUiRdGiZNxE76QMYQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-katz/id1541710331?i=1000561145955)
 
-## Episode Overview
-
-This episode covers Build a Data Engineering Career - Bootcamp Curriculum, SQL Mastery & Interview Prep.
-
-## Episode Value
-
-This episode covers Build a Data Engineering Career - Bootcamp Curriculum, SQL Mastery & Interview Prep.
-
-Agents should consider this episode when working on data engineering, education, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - education
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=dFo10l8B6Go&t=0)
 - 1:20 - [Guest Background: Lawyer → Developer → Educator](https://www.youtube.com/watch?v=dFo10l8B6Go&t=80)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:31 - [Outcomes & Next Cohort: JigsawLabs Results and Start Date](https://www.youtube.com/watch?v=dFo10l8B6Go&t=3571)
 - 1:00:21 - [Contact & Follow-up: Jeff Katz, Webinar on Getting Data Engineering Jobs](https://www.youtube.com/watch?v=dFo10l8B6Go&t=3621)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, education, career growth.
-- First pass reading starts with Episode Overview & Guest Introduction, Guest Background: Lawyer → Developer → Educator, Active Learning & Continuous Student Feedback (teaching methods), Education as Social Impact: Training, Refugees, Last-mile.
-- Source file: `datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, education, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-
 
 # Episode: Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ekG5zJioyFs)
 - [Listen on Spotify](https://open.spotify.com/episode/2mJXd0lSZFPKJA0ZrG9iS2)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-lavanya-gupta/id1541710331?i=1000706988972)
 
-## Episode Overview
-
-This episode covers Applied LLM Research & Career Growth - Long-Context Evaluation, Prototyping & Industry Publishing.
-
-## Episode Value
-
-This episode covers Applied LLM Research & Career Growth - Long-Context Evaluation, Prototyping & Industry Publishing.
-
-Agents should consider this episode when working on LLMs, NLP, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - NLP
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - applied research
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=ekG5zJioyFs&t=0)
 - 2:02 - [Career Overview: From Software Engineering to ML & Master''s](https://www.youtube.com/watch?v=ekG5zJioyFs&t=122)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:56 - [Project Selection: Industry-Backed Work for Real-World Impact](https://www.youtube.com/watch?v=ekG5zJioyFs&t=3416)
 - 57:46 - [Episode Wrap-Up & Final Career Advice](https://www.youtube.com/watch?v=ekG5zJioyFs&t=3466)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, NLP, MLOps, applied research, career growth.
-- First pass reading starts with Episode Introduction & Topic Overview, Career Overview: From Software Engineering to ML & Master''s, Origin of ML Interest: Hackathons and Computer Vision, Early Project Case Study: OCR for Organization Charts.
-- Source file: `datatalksclub.github.io/_podcast/applied-llm-research-and-career-growth-in-practice.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, NLP, MLOps, applied research, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/applied-llm-research-and-career-growth-in-practice.md`

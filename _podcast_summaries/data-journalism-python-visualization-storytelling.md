@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/technical-writing-and-data-jou
 
 # Episode: Practical Data Journalism: Sourcing, Storytelling, Visualization & Tools (Python, Tableau)
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=uO_lk12q02A)
 - [Listen on Spotify](https://open.spotify.com/episode/38b2Y9KgxSFlIHPZ3jqheK?si=SPiURO1bTamVKrKV_laVDQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/technical-writing-and-data-journalism-angelica-lo-duca/id1541710331?i=1000587507530)
 
-## Episode Overview
-
-This episode covers Practical Data Journalism - Sourcing, Storytelling, Visualization & Tools (Python, Tableau).
-
-## Episode Value
-
-This episode covers Practical Data Journalism - Sourcing, Storytelling, Visualization & Tools (Python, Tableau).
-
-Agents should consider this episode when working on data journalism, data science, data visualization.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data journalism
 - data science
 - data visualization
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uO_lk12q02A&t=0)
 - 1:53 - [Guest Introduction: Angelica Lo Duca, researcher & professor](https://www.youtube.com/watch?v=uO_lk12q02A&t=113)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:17 - [Market Research & Audience: proposal, state-of-the-art, and level targeting](https://www.youtube.com/watch?v=uO_lk12q02A&t=3257)
 - 1:00:09 - [Editing & Reviews: reviewer feedback, overlapping revisions, and organization](https://www.youtube.com/watch?v=uO_lk12q02A&t=3609)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data journalism, data science, data visualization, tools.
-- First pass reading starts with Guest Introduction: Angelica Lo Duca, researcher & professor, Career Journey: Cryptography to Web Applications and Data Science, Data Engineering Research Interests: security and data integrity, Writing Portfolio: novels, technical articles, and Comet for Data Science.
-- Source file: `datatalksclub.github.io/_podcast/data-journalism-python-visualization-storytelling.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data journalism, data science, data visualization, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-journalism-python-visualization-storytelling.md`

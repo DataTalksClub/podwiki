@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-market-yourself-without
 
 # Episode: Learn in Public: Personal Branding & Career Marketing for Developers
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tkBCPqWKCL8)
 - [Listen on Spotify](https://open.spotify.com/episode/6uLyKxpVZv0wItCNyGPdAN)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-market-yourself-without-being-celebrity-shawn/id1541710331?i=1000522670386)
 
-## Episode Overview
-
-This episode covers Learn in Public - Personal Branding & Career Marketing for Developers.
-
-## Episode Value
-
-This episode covers Learn in Public - Personal Branding & Career Marketing for Developers.
-
-Agents should consider this episode when working on personal brand, career growth, career transition.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Shawn Swyx Wang](https://datatalks.club/people/swyx.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - personal brand
 - career growth
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=0)
 - 1:09 - [Guest Overview: Swyx and the learn in public movement](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=69)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:04 - [Public Speaking: creating reusable talks and practicing communication](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=3544)
 - 1:01:57 - [Book & Resources: The Coding Career Handbook, newsletter, and discount](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=3717)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around personal brand, career growth, career transition.
-- First pass reading starts with Guest Overview: Swyx and the learn in public movement, Career Journey: finance to coding, Netlify, AWS, Temporal, Why Self-Marketing Matters: recognition, promotions, opportunities, Marketing Beyond Job Hunting: open source and internal persuasion.
-- Source file: `datatalksclub.github.io/_podcast/developer-personal-brand-learn-in-public.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve personal brand, career growth, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/developer-personal-brand-learn-in-public.md`

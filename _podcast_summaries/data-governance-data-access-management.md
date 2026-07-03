@@ -15,40 +15,23 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-access-management-bart-va
 
 # Episode: Data Governance & Data Access Management: Access Controls, Data Catalogs & Access-as-Code
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-governance-data-access-management.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-governance-data-access-management.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IiPOIiUy5b4)
 - [Listen on Spotify](https://open.spotify.com/episode/5PDgK1FsGNtKAAyiXOppRs?si=QZDP8k38Q0e4LaZtl4lCMA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-access-management-bart-vandekerckhove/id1541710331?i=1000615456026)
 
-## Episode Overview
-
-This episode covers Data Governance & Data Access Management - Access Controls, Data Catalogs & Access-as-Code.
-
-## Episode Value
-
-This episode covers Data Governance & Data Access Management - Access Controls, Data Catalogs & Access-as-Code.
-
-Agents should consider this episode when working on data governance.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data governance
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=0)
 - 1:27 - [Episode Overview: Data Access Management & Guest Summary](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=87)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:42 - [Gradual Adoption Strategy: Visibility-first onboarding and automation](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=3282)
 - 55:56 - [Open Source Options: Raito CLI, Terraform patterns and limitations](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=3356)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data governance.
-- First pass reading starts with Episode Overview: Data Access Management & Guest Summary, Guest Introduction & Career Path, Consulting Background: Banks, BCBS 239 and data trauma, Early Data Governance Pain: Manual tools and outdated lineage.
-- Source file: `datatalksclub.github.io/_podcast/data-governance-data-access-management.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data governance, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-governance-data-access-management.md`

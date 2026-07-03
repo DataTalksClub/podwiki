@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/shifting-career-from-analytics
 
 # Episode: Career Transition from Analytics to Data Science: Build a Kaggle Notebook Portfolio, Learn Python & Get Hired
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ixmTewD5Waw)
 - [Listen on Spotify](https://open.spotify.com/episode/1GVuHJzqbcf2BvaLBTgsAL)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/shifting-career-from-analytics-to-data-science-andrada/id1541710331?i=1000517426368)
 
-## Episode Overview
-
-This episode covers Career Transition from Analytics to Data Science - Build a Kaggle Notebook Portfolio, Learn Python & Get Hired.
-
-## Episode Value
-
-This episode covers Career Transition from Analytics to Data Science - Build a Kaggle Notebook Portfolio, Learn Python & Get Hired.
-
-Agents should consider this episode when working on career transition, analytics, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Andrada Olteanu](https://datatalks.club/people/andradaolteanu.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - career transition
 - analytics
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ixmTewD5Waw&t=0)
 - 1:37 - [Episode Overview: Transitioning from Analytics to Data Science](https://www.youtube.com/watch?v=ixmTewD5Waw&t=97)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:01 - [Kaggle Ecosystem: Notebooks, Datasets and Community Discussions](https://www.youtube.com/watch?v=ixmTewD5Waw&t=3421)
 - 1:01:00 - [Networking Strategy: Use LinkedIn & Twitter to Showcase Projects and Build](https://www.youtube.com/watch?v=ixmTewD5Waw&t=3660)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, analytics, data science.
-- First pass reading starts with Episode Overview: Transitioning from Analytics to Data Science, Career Path: Statistics Degree → Avon Data Analyst → Master's → Data Scientist, Recommended Course: Python for Data Science & Machine Learning (Jose Portilla,, Kaggle Introduction: First Encounters and Community Motivation.
-- Source file: `datatalksclub.github.io/_podcast/analytics-to-data-science-with-kaggle-portfolio.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, analytics, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/analytics-to-data-science-with-kaggle-portfolio.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on
 
 # Episode: Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bT7-HRNCltk)
 - [Listen on Spotify](https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=a99463e34ffb48f1)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on-investment-and-future/id1541710331?i=1000679505962)
 
-## Episode Overview
-
-This episode covers Hardening Generative AI Chatbots - Prevent Prompt Injection, Data Exfiltration & Hallucinations.
-
-## Episode Value
-
-This episode covers Hardening Generative AI Chatbots - Prevent Prompt Injection, Data Exfiltration & Hallucinations.
-
-Agents should consider this episode when working on AI, LLMs, NLP.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - LLMs
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - AI red teaming
 - security
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=bT7-HRNCltk&t=0)
 - 2:13 - [Career Path: From Linguist to Computational Linguistics and Industry](https://www.youtube.com/watch?v=bT7-HRNCltk&t=133)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:28 - [Industry Trade-offs: Research Innovation vs. ROI and Operational Needs](https://www.youtube.com/watch?v=bT7-HRNCltk&t=3448)
 - 59:14 - [Episode Wrap-Up: Key Takeaways on AI Trust, Safety, and Future Directions](https://www.youtube.com/watch?v=bT7-HRNCltk&t=3554)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, LLMs, NLP, MLOps, production, AI red teaming.
-- First pass reading starts with Episode Introduction & Guest Overview, Career Path: From Linguist to Computational Linguistics and Industry, Role Definition: Principal Key Expert in AI - Advising on Technology and, Democratization of Generative AI: Rise of Prompting and New "AI Experts".
-- Source file: `datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, LLMs, NLP, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`

@@ -1,18 +1,8 @@
 ---
 layout: person
 title: "Sara Menefee"
-summary: "Sara Menefee's DataTalks.Club podcast discussions, organized for topic exploration."
+summary: "Sara Menefee's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/saramenefee.html"
 podcast_episodes: ["product-designer-to-data-product-manager"]
 linkedin: "saramenefee"
 ---
-
-# Sara Menefee
-
-## Background
-
-Sara is a product manager at Meroxa, a company building a data platform that helps software teams orchestrate and integrate data into their data-driven applications. In a past life, she worked as a product designer for companies including Sora, Checkr, Change.org, and Zendesk.
-
-## Podcast Discussions
-
-- [How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality](https://datatalks.club/podcast/product-designer-to-data-product-manager.html). Discussed: Career Path: From Technical Support to Product Design; Product Design: User Research, Prototyping & UX; Data Product Management: Customer Discovery & Hypothesis Formation; Product Lifecycle: Discovery, Planning, Engineering & Launch. Related topics: career transition, product design, product management.

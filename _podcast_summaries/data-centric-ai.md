@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkel
 
 # Episode: Data-Centric AI: Improve Label Quality & Edit Datasets to Boost Model Performance
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-centric-ai.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-centric-ai.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=t3HDdVWQzNM)
 - [Listen on Spotify](https://open.spotify.com/episode/6q1yago5iyMt8OmCX1abG3?si=-OaRAwjaRfOfyQ7_QZEbBw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkels/id1541710331?i=1000592911172)
 
-## Episode Overview
-
-This episode covers Data-Centric AI - Improve Label Quality & Edit Datasets to Boost Model Performance.
-
-## Episode Value
-
-This episode covers Data-Centric AI - Improve Label Quality & Edit Datasets to Boost Model Performance.
-
-Agents should consider this episode when working on machine learning, data science, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Marysia Winkels](https://datatalks.club/people/marysiawinkels.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - data science
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - data governance
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:26 - [Podcast Introduction](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=86)
 - 2:03 - [AI education & geometric deep learning in medical imaging](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=123)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:56 - [PyData involvement: organizing meetups, tutorials, and global events](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=3056)
 - 56:01 - [PyData vs PyCon: data focus, language inclusivity, and NumFOCUS support](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=3361)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, data science, MLOps, tools, data governance.
-- First pass reading starts with AI education & geometric deep learning in medical imaging, Data science education and course development, Building a community of practice and improving product maturity, Data-Centric AI: shifting focus from Big Data to Good Data.
-- Source file: `datatalksclub.github.io/_podcast/data-centric-ai.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, data science, MLOps, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-centric-ai.md`

@@ -1,5 +1,5 @@
 ---
-layout: "person"
+layout: person
 title: "Matthew Housley"
 summary: "Matthew Housley's DataTalks.Club profile."
 source_url: "https://datatalks.club/people/matthewhousley.html"
@@ -7,9 +7,3 @@ podcast_episodes: []
 twitter: "doctorhousley"
 linkedin: "housleymatthew"
 ---
-
-# Matthew Housley
-
-## Background
-
-Matt Housley is a data engineering consultant and cloud specialist. After some early programming experience with Logo, Basic and 6502 assembly, he completed a PhD in mathematics at the University of Utah. Matt then began working in data science, eventually specializing in cloud based data engineering. He co-founded Ternary Data with Joe Reis, where he leverages his teaching experience to train future data engineers and advise teams on robust data architecture. Matt and Joe also pontificate on all things data on The Monday Morning Data Chat.

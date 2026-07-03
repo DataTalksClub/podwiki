@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-and-consulting-wit
 
 # Episode: Freelance Data Engineering Playbook: Pricing, Client Acquisition & Tools
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=9DTTrN-khCk)
 - [Listen on Spotify](https://open.spotify.com/episode/5M9HFWt8xmqf5HyGu40RmJ?si=C95h0CMkRiazs_ft8Z_gRg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/freelancing-and-consulting-with-data-engineering/id1541710331?i=1000566841525)
 
-## Episode Overview
-
-This episode covers Freelance Data Engineering Playbook - Pricing, Client Acquisition & Tools.
-
-## Episode Value
-
-This episode covers Freelance Data Engineering Playbook - Pricing, Client Acquisition & Tools.
-
-Agents should consider this episode when working on data engineering, freelance, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data engineering
 - freelance
 - career growth
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=9DTTrN-khCk&t=0)
 - 1:40 - [Guest Overview: Adrian's Move to Freelancing](https://www.youtube.com/watch?v=9DTTrN-khCk&t=100)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:23 - [Multiple Clients: Balancing Focus, Risk, and Side Gigs](https://www.youtube.com/watch?v=9DTTrN-khCk&t=3443)
 - 59:09 - [Freelance Cooperative: Slack Group for Collaboration & Referrals](https://www.youtube.com/watch?v=9DTTrN-khCk&t=3549)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, freelance, career growth, tools.
-- First pass reading starts with Episode Introduction, Guest Overview: Adrian's Move to Freelancing, Career Journey: Economics & Marketing to Data Engineering, Becoming a Freelancer: Leaving Corporate Life & First Contract.
-- Source file: `datatalksclub.github.io/_podcast/freelance-data-engineering-pricing-and-clients.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, freelance, career growth, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/freelance-data-engineering-pricing-and-clients.md`

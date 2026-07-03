@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-career-developmen
 
 # Episode: How to Hire, Manage, and Grow a Data Science Team in B2B SaaS
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=i1NHRroQClQ)
 - [Listen on Spotify](https://open.spotify.com/episode/0sm5qB1Cj4EJlbQ2giLtHR)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-science-career-development-katie-bauer/id1541710331?i=1000582680396)
 
-## Episode Overview
-
-This episode covers How to Hire, Manage, and Grow a Data Science Team in B2B SaaS.
-
-## Episode Value
-
-This episode covers How to Hire, Manage, and Grow a Data Science Team in B2B SaaS.
-
-Agents should consider this episode when working on data science, career development, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Katie Bauer](https://datatalks.club/people/katiebauer.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - career development
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - team building
 - mentorship
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=i1NHRroQClQ&t=0)
 - 1:33 - [Introduction: Episode focus on data science career development (Katie Bauer)](https://www.youtube.com/watch?v=i1NHRroQClQ&t=93)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:20 - [Head of data challenges: prioritization, data literacy, and culture building](https://www.youtube.com/watch?v=i1NHRroQClQ&t=3380)
 - 59:09 - [Closing advice: careers as direction and guiding team growth](https://www.youtube.com/watch?v=i1NHRroQClQ&t=3549)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, career development, career growth, hiring, management, team building.
-- First pass reading starts with Career trajectory: linguistics to data science; Reddit and Twitter experience, GlossGenius product and head of data responsibilities (B2B SaaS), Current hiring needs: product analysts, analytics engineers, marketing scientists, Data scientist role: broad definition and varied responsibilities.
-- Source file: `datatalksclub.github.io/_podcast/hiring-and-managing-data-science-teams-in-b2b-saas.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, career development, career growth, hiring, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/hiring-and-managing-data-science-teams-in-b2b-saas.md`

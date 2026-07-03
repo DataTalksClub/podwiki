@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-owners-in-data-science
 
 # Episode: Building Data Products at Scale: Recommenders, Domain Ownership, and Hiring for Production ML
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rTRTjB6cGng)
 - [Listen on Spotify](https://open.spotify.com/episode/5deNrH5E6802ClwVt2Re4A?si=Xdg7qlT1TPCrH318MvS2RA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/product-owners-in-data-science-anna-hannemann/id1541710331?i=1000585888321)
 
-## Episode Overview
-
-This episode covers Building Data Products at Scale - Recommenders, Domain Ownership, and Hiring for Production ML.
-
-## Episode Value
-
-This episode covers Building Data Products at Scale - Recommenders, Domain Ownership, and Hiring for Production ML.
-
-Agents should consider this episode when working on data products, product owners, product managers.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Anna Hannemann](https://datatalks.club/people/annahannemann.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data products
 - product owners
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - machine learning
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=rTRTjB6cGng&t=0)
 - 1:32 - [Guest & METRO overview and customer data completeness](https://www.youtube.com/watch?v=rTRTjB6cGng&t=92)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:21 - [Community leadership: organizing ProductTank meetups](https://www.youtube.com/watch?v=rTRTjB6cGng&t=3261)
 - 57:48 - [Recommended resource: "Data Science for Business" for data product roles](https://www.youtube.com/watch?v=rTRTjB6cGng&t=3468)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data products, product owners, product managers, data science, machine learning, MLOps.
-- First pass reading starts with Episode Introduction, Guest & METRO overview and customer data completeness, Anna's academic and career background (PhD, web science, logistics), Value of technical expertise for data product leads.
-- Source file: `datatalksclub.github.io/_podcast/building-data-products-product-owner-vs-product-manager.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data products, product owners, product managers, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-data-products-product-owner-vs-product-manager.md`

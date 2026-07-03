@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineer-career-in-2026-r
 
 # Episode: Data Engineer Career in 2026: Roles, Specializations, and What Companies Look for
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bTHhvKMursI)
 - [Listen on Spotify](https://open.spotify.com/episode/2aVzaqVuBzpf10LW9jWTCF?si=f7zy5l7ETlC8jIJ9WJAlPQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-engineer-career-in-2026-roles-specializations/id1541710331?i=1000757764073)
 
-## Episode Overview
-
-This episode covers Data Engineer Career in 2026 - Roles, Specializations, and What Companies Look for.
-
-## Episode Value
-
-This episode covers Data Engineer Career in 2026 - Roles, Specializations, and What Companies Look for.
-
-Agents should consider this episode when working on data engineering, portfolio.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - portfolio
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [From Measuring Glaciers to London's Tech Scene](https://www.youtube.com/watch?v=bTHhvKMursI&t=0)
 - 6:47 - [Hadoop vs. AI: Lessons from the Original Big Data Hype](https://www.youtube.com/watch?v=bTHhvKMursI&t=407)
@@ -64,16 +47,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:04:42 - [The Ultimate Portfolio Project: Building End-to-End Platforms](https://www.youtube.com/watch?v=bTHhvKMursI&t=3882)
 - 1:07:49 - [Networking Advice and Local Gdansk Culture](https://www.youtube.com/watch?v=bTHhvKMursI&t=4069)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, portfolio.
-- First pass reading starts with From Measuring Glaciers to London's Tech Scene, Hadoop vs. AI: Lessons from the Original Big Data Hype, The Data Identity Crisis: Platform vs. Product Engineering, Tech-Native vs. Tech-by-Necessity Company Cultures.
-- Source file: `datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, portfolio, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`

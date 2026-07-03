@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/biohacking-for-data-scientists
 
 # Episode: Actionable Biohacks to Boost Productivity: Sleep, Circadian Light, Dopamine & Habits
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=uyxUBADZYpU)
 - [Listen on Spotify](https://open.spotify.com/episode/6IuHKMK4CJdcVJNq9uQ9lm?si=PgXZHBCNSu21Nma1ToxGyQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/biohacking-for-data-scientists-and-ml-engineers/id1541710331?i=1000603633848)
 
-## Episode Overview
-
-This episode covers Actionable Biohacks to Boost Productivity - Sleep, Circadian Light, Dopamine & Habits.
-
-## Episode Value
-
-This episode covers Actionable Biohacks to Boost Productivity - Sleep, Circadian Light, Dopamine & Habits.
-
-Agents should consider this episode when working on biohacking, productivity.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - biohacking
 - productivity
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uyxUBADZYpU&t=0)
 - 1:27 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=uyxUBADZYpU&t=87)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:21 - [Overcoming Perfectionism: Self-Compassion and Temporal Perspective](https://www.youtube.com/watch?v=uyxUBADZYpU&t=3321)
 - 57:23 - [Resources for Learning Biohacking: Huberman Lab Podcast & Top Episodes](https://www.youtube.com/watch?v=uyxUBADZYpU&t=3443)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around biohacking, productivity.
-- First pass reading starts with Episode Overview & Guest Introduction, Career Journey: From Business/Marketing to Data Science, Procrastination & Perfectionism: Acceptance and Deadline Effects, Biohacking Defined: Behavioral Approaches vs. Chemical Interventions.
-- Source file: `datatalksclub.github.io/_podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve biohacking, productivity, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.md`

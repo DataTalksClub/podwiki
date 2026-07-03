@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/cracking-the-code-machine-lear
 
 # Episode: Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/interpretable-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=LBuGzyOkx7c)
 - [Listen on Spotify](https://open.spotify.com/episode/3SjDB0E2of9IS9TXn2Fof3?si=FwWH99FGTgmL1OGI3-sLAg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/cracking-the-code-machine-learning-made/id1541710331?i=1000636448000)
 
-## Episode Overview
-
-This episode covers Interpretable Machine Learning - SHAP, Conformal Prediction and Model Trust.
-
-## Episode Value
-
-This episode covers Interpretable Machine Learning - SHAP, Conformal Prediction and Model Trust.
-
-Agents should consider this episode when working on machine learning, data science, practices.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Christoph Molnar](https://datatalks.club/people/christophmolnar.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - data science
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - interpretability
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=0)
 - 0:42 - [Guest Intro: Christoph Molnar, Interpretable ML Author](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=42)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:49 - [Publishing Logistics: Leanpub, Amazon KDP, and Print-on-Demand](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=3229)
 - 56:16 - [Where to Find Christoph: Website, Newsletter, and Socials](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=3376)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, data science, practices, tools, career transition, interpretability.
-- First pass reading starts with Guest Intro: Christoph Molnar, Interpretable ML Author, Career Journey: From Statistics to Tech Writing, Becoming a Full-Time Technical Writer, Kaggle Beginnings: Linear Models to Practical ML.
-- Source file: `datatalksclub.github.io/_podcast/interpretable-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, data science, practices, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/interpretable-machine-learning.md`

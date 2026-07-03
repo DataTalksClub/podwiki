@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/community-building-and-teachin
 
 # Episode: Community Building and Teaching in AI & Tech: Project-to-Course Model for AI Education
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7SLd5V7z3xQ)
 - [Listen on Spotify](https://open.spotify.com/episode/4iAvz4Qu0l28fxXvaHdAPj?si=7MdKKu1fTrqxIGPQBT61Ag)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/community-building-and-teaching-in-ai-tech-erum-afzal/id1541710331?i=1000655187649)
 
-## Episode Overview
-
-This episode covers Community Building and Teaching in AI & Tech - Project-to-Course Model for AI Education.
-
-## Episode Value
-
-This episode covers Community Building and Teaching in AI & Tech - Project-to-Course Model for AI Education.
-
-Agents should consider this episode when working on AI, NLP, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Erum Afzal](https://datatalks.club/people/erumafzal.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - NLP
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - community building
 - teaching
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=0)
 - 1:25 - [Guest Introduction: Erum Afzal - AI for education & Omdena Academy](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=85)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:49 - [Access & Scholarship Resources: Courses, GitHub projects, and women-focused](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=3289)
 - 56:39 - [Recommended Readings: AI ethics newsletter and curated resources](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=3399)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, NLP, data science, career growth, leadership, community building.
-- First pass reading starts with Guest Introduction: Erum Afzal - AI for education & Omdena Academy, Background: Journey from Pakistan to PhD & community teaching, Omdena Academy: Evolution from projects to structured courses, Omdena Projects: Global collaborators solving real-world AI problems.
-- Source file: `datatalksclub.github.io/_podcast/community-building-and-teaching-in-ai-tech.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, NLP, data science, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/community-building-and-teaching-in-ai-tech.md`

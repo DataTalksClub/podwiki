@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimit
 
 # Episode: Becoming a Data Freelancer: Pricing, Client Acquisition and Contract Strategy
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/becoming-data-freelancer.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/becoming-data-freelancer.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=R_EnSa9aZtE)
 - [Listen on Spotify](https://open.spotify.com/episode/5OJfRiQ64JtLUmIkvadohg?si=uUEdvZwARN2hVGEfz73URg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimitri-visnadi/id1541710331?i=1000637962993)
 
-## Episode Overview
-
-This episode covers Becoming a Data Freelancer - Pricing, Client Acquisition and Contract Strategy.
-
-## Episode Value
-
-This episode covers Becoming a Data Freelancer - Pricing, Client Acquisition and Contract Strategy.
-
-Agents should consider this episode when working on freelance, consulting, data analytics.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - freelance
 - consulting
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - career growth
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:31 - [Podcast Introduction](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=91)
 - 2:20 - [Career Path: From Marketing to Data](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=140)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:34 - [Learning Resources: Marketing Courses, Mentors & Newsletters](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=3454)
 - 1:00:51 - [Follow-Up: The Data Freelancer Newsletter & Contact Channels](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=3651)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around freelance, consulting, data analytics, career transition, career growth, data science.
-- First pass reading starts with Career Path: From Marketing to Data, Startup Experience: Translation, SQL & User Analysis, Corporate Analytics: Hewlett Packard Sales BI & KPIs, Education & Transition: UCL Master''s to Data Scientist.
-- Source file: `datatalksclub.github.io/_podcast/becoming-data-freelancer.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve freelance, consulting, data analytics, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/becoming-data-freelancer.md`

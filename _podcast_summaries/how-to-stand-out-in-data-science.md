@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/hacking-your-data-career-marij
 
 # Episode: Data Science Career Playbook: Build Unique IoT Portfolios, Explainable AI, OSINT & LinkedIn Growth
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=RhSg8ill1So)
 - [Listen on Spotify](https://open.spotify.com/episode/6oJsS0vhvAQasLNv3IklQ6)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/hacking-your-data-career-marijn-markus/id1541710331?i=1000555977653)
 
-## Episode Overview
-
-In this episode, Marijn Markus-AI Lead and Managing Data Scientist at Capgemini-shares how to stand out in data science by combining curiosity, courage, and creativity. From his unconventional background in sociology and criminology, Marijn explains how diverse teams outperform homogeneous ones, why proactive problem-solving matters, and how to challenge hierarchy with data-driven insights.
-
-## Episode Value
-
-In this episode, Marijn Markus-AI Lead and Managing Data Scientist at Capgemini-shares how to stand out in data science by combining curiosity, courage, and creativity. From his unconventional background in sociology and criminology, Marijn explains how diverse teams outperform homogeneous ones, why proactive problem-solving matters, and how to challenge.
-
-Agents should consider this episode when working on data science, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Marijn Markus](https://datatalks.club/people/marijnmarkus.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data science
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Welcome](https://www.youtube.com/watch?v=RhSg8ill1So&t=0)
 - 1:10 - [From Sociology to Data Science: Election Models, Social Media & Crime Research](https://www.youtube.com/watch?v=RhSg8ill1So&t=70)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:30 - [LinkedIn Growth Strategy: Timing, Content Mix, Hashtags and Comments](https://www.youtube.com/watch?v=RhSg8ill1So&t=3450)
 - 1:02:24 - [Personal Branding Examples: Memes, Authenticity and Content Types](https://www.youtube.com/watch?v=RhSg8ill1So&t=3744)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, career growth.
-- First pass reading starts with Episode Introduction & Guest Welcome, From Sociology to Data Science: Election Models, Social Media & Crime Research, Diverse Backgrounds as a Competitive Advantage in Data Science, Hiring Pitfalls: Keyword-Driven Recruitment and Role Mismatch.
-- Source file: `datatalksclub.github.io/_podcast/how-to-stand-out-in-data-science.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/how-to-stand-out-in-data-science.md`

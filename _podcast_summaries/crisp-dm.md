@@ -13,40 +13,23 @@ youtube_url: "https://www.youtube.com/watch?v=SesVTDklFYQ"
 
 # Episode: CRISP-DM Methodology for Data Science Projects: Business Understanding, Data Preparation, Modeling, Evaluation & Deployment
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/crisp-dm.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/crisp-dm.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SesVTDklFYQ)
-
-## Episode Overview
-
-Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering business understanding, data preparation, modeling, evaluation, and deployment
-
-## Episode Value
-
-Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering business understanding, data preparation, modeling, evaluation, and deployment
-
-Agents should consider this episode when working on data science, machine learning, project management.
 
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data science
 - machine learning
 - project management
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Transcript checkpoint 1: I will start with an introduction. Thank you much for coming to this](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
 - 2:34 - [Transcript checkpoint 2: Thanks again for joining. Today we will talk about processes in a machine](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
@@ -61,16 +44,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 33:04 - [Transcript checkpoint 11: If you want to ask a question, go to Slido.com or use the QR code and enter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1984)
 - 36:03 - [Transcript checkpoint 12: See you, and thanks for attending. Goodbye.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=2163)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, machine learning, project management.
-- First pass reading starts with I will start with an introduction. Thank you much for coming to this, Thanks again for joining. Today we will talk about processes in a machine, Back then data science was called data mining and things were different, but, Imagine we have an online classified website where people sell items they.
-- Source file: `datatalksclub.github.io/_podcast/crisp-dm.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, machine learning, project management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/crisp-dm.md`

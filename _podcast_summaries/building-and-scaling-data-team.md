@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-and-leading-data-team
 
 # Episode: How to Build & Scale a Data Team: Hiring, Production ML, Forecasting & Driving Adoption
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-and-scaling-data-team.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kI4V2iBbaH0)
 - [Listen on Spotify](https://open.spotify.com/episode/3hlzKwORlOsCPKrawuW4YQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-and-leading-data-teams-tammy-liang/id1541710331?i=1000537994433)
 
-## Episode Overview
-
-This episode covers How to Build & Scale a Data Team - Hiring, Production ML, Forecasting & Driving Adoption.
-
-## Episode Value
-
-This episode covers How to Build & Scale a Data Team - Hiring, Production ML, Forecasting & Driving Adoption.
-
-Agents should consider this episode when working on team building, data teams, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tammy Liang](https://datatalks.club/people/tammyliang.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - team building
 - data teams
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - data analytics
 - leadership
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=0)
 - 1:14 - [Guest Background: Tammy Liang's career path into data](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=74)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:19 - [Supporting Stuck Team Members: Google, communities, and networks](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=3379)
 - 58:57 - [Closing Remarks & Where to Find Tammy (LinkedIn, dataforfuture.org)](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=3537)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around team building, data teams, data engineering, data analytics, leadership.
-- First pass reading starts with Guest Background: Tammy Liang's career path into data, Chief of Data Responsibilities: Marketing, e-commerce, and operations, Data Challenges for Sensitive Products: Social media restrictions & creative, First Project: Business health monitoring and dashboards.
-- Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-team.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve team building, data teams, data engineering, data analytics, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-and-scaling-data-team.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/defining-success-metrics-and-k
 
 # Episode: KPI Design & Metrics Strategy: Prioritize Impact, Avoid Vanity Metrics, and Prove ROI
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=H4P2RfKvXGs)
 - [Listen on Spotify](https://open.spotify.com/episode/5kTD7LjoXos1fm2LPD7nJc)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/defining-success-metrics-and-kpis-adam-sroka/id1541710331?i=1000535667935)
 
-## Episode Overview
-
-This episode covers KPI Design & Metrics Strategy - Prioritize Impact, Avoid Vanity Metrics, and Prove ROI.
-
-## Episode Value
-
-This episode covers KPI Design & Metrics Strategy - Prioritize Impact, Avoid Vanity Metrics, and Prove ROI.
-
-Agents should consider this episode when working on machine learning, leadership, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Adam Sroka](https://datatalks.club/people/adamsroka.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - leadership
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - metrics
 - communication
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=0)
 - 1:30 - [Guest Introduction & Career Path](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=90)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:35 - [Model Validation Techniques: Randomization, Backtesting, and Uplift](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3395)
 - 1:00:02 - [Timeboxing Data Work: Two-Week Spikes and Accelerate Metrics](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3602)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, leadership, data science, product management, strategy, metrics.
-- First pass reading starts with Guest Introduction & Career Path, From Physics PhD to Data Science and Reinforcement Learning, Moving into Consultancy: BI, Dashboards, and Client Workshops, Laser Research, Ray-Tracing Tools, and Early RL Experiments.
-- Source file: `datatalksclub.github.io/_podcast/ml-engineering-kpis-and-metrics-strategy.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, leadership, data science, product management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ml-engineering-kpis-and-metrics-strategy.md`

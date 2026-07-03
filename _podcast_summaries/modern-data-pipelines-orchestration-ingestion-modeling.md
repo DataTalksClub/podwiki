@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-
 
 # Episode: Modern Data Pipeline Architecture: Ingestion, Orchestration, Transformation & MLOps Systems
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kSTfhQ_SZgc)
 - [Listen on Spotify](https://open.spotify.com/episode/0inhE28kLI4T1AsSjgwnL8?si=WeFES7dXRxqSK_SKonBejw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-tuli/id1541710331?i=1000618121008)
 
-## Episode Overview
-
-This episode covers Modern Data Pipeline Architecture - Ingestion, Orchestration, Transformation & MLOps Systems.
-
-## Episode Value
-
-This episode covers Modern Data Pipeline Architecture - Ingestion, Orchestration, Transformation & MLOps Systems.
-
-Agents should consider this episode when working on data engineering, MLOps, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Santona Tuli](https://datatalks.club/people/santonatuli.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - MLOps
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=0)
 - 1:30 - [Career journey: CERN researcher → NLP, ML engineering, Python, Astronomer,](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=90)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:49 - [Learning strategy: vetting sources, networking, and engineering blogs](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=3409)
 - 59:16 - [Recommended resources: Fundamentals of Data Engineering, Airflow guides,](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=3556)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, MLOps, tools.
-- First pass reading starts with Episode Introduction, Career journey: CERN researcher → NLP, ML engineering, Python, Astronomer,, Transition to workflow authoring and orchestration (Airflow, Astronomer), Upsolver vs DBT: pipeline authoring, execution engine, and ingestion focus.
-- Source file: `datatalksclub.github.io/_podcast/modern-data-pipelines-orchestration-ingestion-modeling.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, MLOps, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/modern-data-pipelines-orchestration-ingestion-modeling.md`

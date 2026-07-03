@@ -15,35 +15,20 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-behind-the-scen
 
 # Episode: DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IxTyq96juVE)
 - [Listen on Spotify](https://open.spotify.com/episode/3ltAxUsCE8EAf0pRb9zxDK)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/datatalks-club-behind-the-scenes-eugene-yan-alexey/id1541710331?i=1000548608967)
 
-## Episode Overview
-
-This episode covers DataTalks.Club Behind the Scenes - Alexey Grigorev on Scaling and Growing the Community.
-
-## Episode Value
-
-This episode covers DataTalks.Club Behind the Scenes - Alexey Grigorev on Scaling and Growing the Community.
-
-Agents should consider this episode when working on community building, machine learning, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Eugene Yan](https://datatalks.club/people/eugeneyan.html)
 - [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - community building
 - machine learning
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - data engineering
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IxTyq96juVE&t=0)
 - 0:09 - [Career Transition: Java to Machine Learning (Coursera, Andrew Ng)](https://www.youtube.com/watch?v=IxTyq96juVE&t=9)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:56 - [Community Thanks & Future Plans](https://www.youtube.com/watch?v=IxTyq96juVE&t=3356)
 - 56:50 - [Podcast Closing](https://www.youtube.com/watch?v=IxTyq96juVE&t=3410)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around community building, machine learning, data science, data engineering, MLOps.
-- First pass reading starts with Career Transition: Java to Machine Learning (Coursera, Andrew Ng), Freelancing, Master's, and first data-science roles; building data pipelines, Career Lessons: step outside comfort zone; product mindset; prefer simple, Principal Data Scientist Role: internal consulting, architecture, mentoring.
-- Source file: `datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve community building, machine learning, data science, data engineering, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`

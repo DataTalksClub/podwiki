@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job
 
 # Episode: Data Engineering Job Prep & Interview Guide: Python, SQL, Portfolio & Job Search Tips
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=asnt7xlyZXQ)
 - [Listen on Spotify](https://open.spotify.com/episode/1SaZ0QXAIhcdH1gfaNoN4Z?si=OvvNFdTpSu2MCCDOWdYgJQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job-summary-and-q-a-jeff-katz/id1541710331?i=1000566005592)
 
-## Episode Overview
-
-This episode covers Data Engineering Job Prep & Interview Guide - Python, SQL, Portfolio & Job Search Tips.
-
-## Episode Value
-
-This episode covers Data Engineering Job Prep & Interview Guide - Python, SQL, Portfolio & Job Search Tips.
-
-Agents should consider this episode when working on data engineering, job search, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - job search
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=0)
 - 0:36 - [Webinar Recap: Hiring Demand and Skill Gaps](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=36)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 46:16 - [Solution Engineer Pathway: Pre-/Post-Sales Roles as Transition Options](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=2776)
 - 47:26 - [Episode Wrap-Up and Further Resources](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=2846)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, job search, tools.
-- First pass reading starts with Webinar Recap: Hiring Demand and Skill Gaps, Core Skills & Tools: Python, SQL, Docker, Airflow, Data Warehouses, Python & SQL Depth: Project Volume and Emphasis, Code Quality & OOP: Small Functions, Classes, Tests.
-- Source file: `datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, job search, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`

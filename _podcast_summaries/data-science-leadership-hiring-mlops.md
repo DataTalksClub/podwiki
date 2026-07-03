@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-science-manage
 
 # Episode: Data Science Leadership: Product-First ML, Recommenders & RTB, MLOps, Hiring & Mentoring
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qOLR84-KHoY)
 - [Listen on Spotify](https://open.spotify.com/episode/28Sy4owRwvSJRFTeKAamz2)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/becoming-a-data-science-manager-mariano-semelman/id1541710331?i=1000547222296)
 
-## Episode Overview
-
-This episode covers Data Science Leadership - Product-First ML, Recommenders & RTB, MLOps, Hiring & Mentoring.
-
-## Episode Value
-
-This episode covers Data Science Leadership - Product-First ML, Recommenders & RTB, MLOps, Hiring & Mentoring.
-
-Agents should consider this episode when working on data science, machine learning, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - machine learning
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - team building
 - hiring
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qOLR84-KHoY&t=0)
 - 1:26 - [Guest Intro: Mariano Semelman, Head of Data Science at OLX](https://www.youtube.com/watch?v=qOLR84-KHoY&t=86)
@@ -86,16 +69,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:37 - [Staying Current: MLOps, NLP, and Engineering Best Practices](https://www.youtube.com/watch?v=qOLR84-KHoY&t=3697)
 - 1:05:47 - [Key Takeaways and Follow-Up Opportunities](https://www.youtube.com/watch?v=qOLR84-KHoY&t=3947)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, machine learning, MLOps, leadership, career growth, team building.
-- First pass reading starts with Guest Intro: Mariano Semelman, Head of Data Science at OLX, Passion for Product Applications in Data Science, Career Journey: Software Dev to Data Science Leadership, Daily Responsibilities: Meetings, Mentoring & Planning.
-- Source file: `datatalksclub.github.io/_podcast/data-science-leadership-hiring-mlops.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, machine learning, MLOps, leadership, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-leadership-hiring-mlops.md`

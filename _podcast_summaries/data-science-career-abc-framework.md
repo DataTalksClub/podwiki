@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny
 
 # Episode: Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-career-abc-framework.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HVQ0DZOQcts)
 - [Listen on Spotify](https://open.spotify.com/episode/5T1Nm3HvrS9oIMH6C2AWcf)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny-ma/id1541710331?i=1000510794953)
 
-## Episode Overview
-
-This episode covers Data Science Career Guide - ABC Framework (Analyst, Builder, Consultant) & Transition Tips.
-
-## Episode Value
-
-This episode covers Data Science Career Guide - ABC Framework (Analyst, Builder, Consultant) & Transition Tips.
-
-Agents should consider this episode when working on career transition, data science, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Danny Ma](https://datatalks.club/people/dannyma.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - career transition
 - data science
 - machine learning
 - data analysis
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=0)
 - 0:49 - [LinkedIn Memes & Creative Editing for Data Audiences](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=49)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:19:05 - [Data Science Roadmap: SQL → Visualization → ML → Deep Learning](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4745)
 - 1:23:04 - [Advanced Degrees: When Master''s/PhD Matter in Data Science Roles](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4984)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, data science, machine learning, data analysis.
-- First pass reading starts with LinkedIn Memes & Creative Editing for Data Audiences, Career Journey: Analytics to Data Science, Transition to Python, Kaggle & Self-Directed Learning, Early Tools: SQL, SAS and Excel Workflows.
-- Source file: `datatalksclub.github.io/_podcast/data-science-career-abc-framework.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, data science, machine learning, data analysis, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-career-abc-framework.md`

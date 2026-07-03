@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-f
 
 # Episode: From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vOpEQiCsaLw)
 - [Listen on Spotify](https://open.spotify.com/episode/7wBmJHSXPHoW0mEIbNDgqr?si=z7klLtveT1ioGi6bg8hR7Q)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-from-freelancing-to/id1541710331?i=1000638715212)
 
-## Episode Overview
-
-This episode covers From Data Freelancer to Startup - Open-Source Products and Bottom-Up Adoption.
-
-## Episode Value
-
-This episode covers From Data Freelancer to Startup - Open-Source Products and Bottom-Up Adoption.
-
-Agents should consider this episode when working on entrepreneurship, freelance, startups.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - entrepreneurship
 - freelance
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - career growth
 - consulting
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=0)
 - 1:53 - [Episode Overview: Building an Open-Source Data Company](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=113)
@@ -86,16 +69,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:11 - [Positioning vs Platforms: Library-First vs Airbyte/Fivetran](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3491)
 - 1:00:41 - [Recommended Reading: "From Survival to Thrival" on PMF](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3641)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around entrepreneurship, freelance, startups, business development, leadership, career growth.
-- First pass reading starts with Episode Overview: Building an Open-Source Data Company, Career Origins: 2012 Berlin Startups and Corporate Exit, Freelancing Experience: Autonomy, Savings, Diverse Projects, From Hourly Billing to Project-Based Work and Subcontracting.
-- Source file: `datatalksclub.github.io/_podcast/from-data-freelancer-to-startup-open-source-products.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve entrepreneurship, freelance, startups, business development, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-data-freelancer-to-startup-open-source-products.md`

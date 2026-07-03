@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-strategy-key-principles-a
 
 # Episode: Actionable Data Strategy & DataOps for AI-Powered Products: Pitch, Measure, Use GPT
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=jGbfeYdlCiQ)
 - [Listen on Spotify](https://open.spotify.com/episode/7tITQ4nLypogRLUjjK75mx?si=722BlhoLSGuxZlE9ia7VhA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-strategy-key-principles-and-best-practices-boyan/id1541710331?i=1000614629229)
 
-## Episode Overview
-
-This episode covers Actionable Data Strategy & DataOps for AI-Powered Products - Pitch, Measure, Use GPT.
-
-## Episode Value
-
-This episode covers Actionable Data Strategy & DataOps for AI-Powered Products - Pitch, Measure, Use GPT.
-
-Agents should consider this episode when working on data strategy, dataops, AI.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Boyan Angelov](https://datatalks.club/people/boyanangelov.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data strategy
 - dataops
 - AI
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=0)
 - 1:53 - [Guest Introduction & Current Role](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=113)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:32 - [Baselines & Measurement: Pre- and Post-Implementation Metrics](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3332)
 - 56:56 - [Recommended Reading: Data Strategy, DataOps & Infonomics](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3416)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data strategy, dataops, AI.
-- First pass reading starts with Guest Introduction & Current Role, Guest Background & Career Path, Becoming a Data Strategist: Accidental Transition, Defining Data Strategy: Actionable, Flexible Plans.
-- Source file: `datatalksclub.github.io/_podcast/data-strategy-and-dataops-for-ai-powered-products.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data strategy, dataops, AI, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-strategy-and-dataops-for-ai-powered-products.md`

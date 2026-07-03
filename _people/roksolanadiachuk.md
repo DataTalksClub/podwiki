@@ -1,7 +1,7 @@
 ---
 layout: person
 title: "Roksolana Diachuk"
-summary: "Roksolana Diachuk's DataTalks.Club podcast discussions, organized for topic exploration."
+summary: "Roksolana Diachuk's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/roksolanadiachuk.html"
 podcast_episodes: ["big-data-engineer-vs-data-scientist"]
 github: "roksolana-d"
@@ -9,13 +9,3 @@ twitter: "dead_flowers22"
 linkedin: "roksolanadiachuk"
 web: "https://roksolanadiachuk.wixsite.com/roksolana-d"
 ---
-
-# Roksolana Diachuk
-
-## Background
-
-Roksolana works as a Big Data Engineer at Captify and Diversity & Inclusion ambassador in the Ukrainian region. Also, she is a speaker, one of the Women Who Code Kyiv leads and mentors. She is passionate about Big Data, Scala, and Kubernetes -- those are the topics she often chooses for her talks. Other topics of interest for her are diversity & inclusion and women in tech. Her hobbies include building technical topics around fairytales and discovering new cities.
-
-## Podcast Discussions
-
-- [Big Data Engineer vs Data Scientist: Skills, Tools, and Career Paths](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html). Discussed: Episode Overview & Guest Introduction; Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify); Core Responsibilities: Building ETL Data Pipelines, HDFS/S3, Impala; Performance Focus: Spark Job Optimization & Cluster Resource Planning. Related topics: career transition, [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}).

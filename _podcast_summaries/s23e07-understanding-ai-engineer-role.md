@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-
 
 # Episode: Understanding the AI Engineer Role
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=5Xfbk_en8e8)
 - [Listen on Spotify](https://open.spotify.com/episode/1YIEpklIbwSQAS7EmmXsBr?si=4__wD7HjR8aq-KeWsuFkmg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-role-nasser-qadri/id1541710331?i=1000760703188)
 
-## Episode Overview
-
-This episode covers Understanding the AI Engineer Role.
-
-## Episode Value
-
-This episode covers Understanding the AI Engineer Role.
-
-Agents should consider this episode when working on software engineering, generative ai, ai engineer.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nasser Qadri](https://datatalks.club/people/nasserqadri.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - software engineering
 - generative ai
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - orchestration
 - search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Transitioning from Social Science to Software Engineering](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=0)
 - 7:45 - [Applying Statistical Rigor to Generative AI Evaluation](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=465)
@@ -68,16 +51,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:10 - [The Future of Latency and Traditional ML Integration](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=3370)
 - 1:01:20 - [When to Prioritize Model Distillation and Fine-Tuning](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=3680)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around software engineering, generative ai, ai engineer, llms, orchestration, search.
-- First pass reading starts with Transitioning from Social Science to Software Engineering, Applying Statistical Rigor to Generative AI Evaluation, Balancing Research Mindsets with Engineering Speed, Comparing AI Roles in Big Tech vs Startups.
-- Source file: `datatalksclub.github.io/_podcast/s23e07-understanding-ai-engineer-role.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve software engineering, generative ai, ai engineer, llms, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/s23e07-understanding-ai-engineer-role.md`

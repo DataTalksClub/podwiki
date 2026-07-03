@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-product-manage
 
 # Episode: How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=nt__pVuuC-k)
 - [Listen on Spotify](https://open.spotify.com/episode/3NZhd5kgQFpGckyxTQH9bF)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/becoming-a-data-product-manager-sara-menefee/id1541710331?i=1000543165093)
 
-## Episode Overview
-
-This episode covers How to Transition from Design to Data Product Manager - SQL, Customer Discovery & Data Quality.
-
-## Episode Value
-
-This episode covers How to Transition from Design to Data Product Manager - SQL, Customer Discovery & Data Quality.
-
-Agents should consider this episode when working on career transition, product design, product management.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Sara Menefee](https://datatalks.club/people/saramenefee.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - career transition
 - product design
 - product management
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=nt__pVuuC-k&t=0)
 - 1:27 - [Career Path: From Technical Support to Product Design](https://www.youtube.com/watch?v=nt__pVuuC-k&t=87)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:24 - [Idea Flow: Sources, Validation & Backlog Prioritization](https://www.youtube.com/watch?v=nt__pVuuC-k&t=3504)
 - 1:00:40 - [Analytics vs Data Science: Where ML Fits in the PM Role](https://www.youtube.com/watch?v=nt__pVuuC-k&t=3640)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, product design, product management.
-- First pass reading starts with Career Path: From Technical Support to Product Design, Product Design: User Research, Prototyping & UX, Data Product Management: Customer Discovery & Hypothesis Formation, Product Lifecycle: Discovery, Planning, Engineering & Launch.
-- Source file: `datatalksclub.github.io/_podcast/product-designer-to-data-product-manager.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, product design, product management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/product-designer-to-data-product-manager.md`

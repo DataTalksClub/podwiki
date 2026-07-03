@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/human-centered-ai-for-disorder
 
 # Episode: Human-Centered Speech Recognition: ASR for Disordered Speech and Accents
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=yTZ4cddD7DU)
 - [Listen on Spotify](https://open.spotify.com/show/0pck8zuiXdI0OrCg86DAPy?si=ac857db69d484277)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/human-centered-ai-for-disordered-speech-recognition/id1541710331?i=1000671805368)
 
-## Episode Overview
-
-This episode covers Human-Centered Speech Recognition - ASR for Disordered Speech and Accents.
-
-## Episode Value
-
-This episode covers Human-Centered Speech Recognition - ASR for Disordered Speech and Accents.
-
-Agents should consider this episode when working on AI, NLP, LLMs.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - NLP
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - machine learning
 - data governance
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction: Human-Centered AI for Disordered Speech](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=0)
 - 8:06 - [Guest Introduction & Career Highlights (Katarzyna Foremniak)](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=486)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:03:27 - [Notable Failure Examples: Elevator/Car Voice Recognition Humor](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=3807)
 - 1:04:13 - [Closing Reflections: Human-Centered AI Priorities & Further Reading](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=3853)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, NLP, LLMs, machine learning, data governance.
-- First pass reading starts with Episode Introduction: Human-Centered AI for Disordered Speech, Guest Introduction & Career Highlights (Katarzyna Foremniak), From Linguistics to Computational Linguistics: Transition & Skills, Linguistics Meets Computer Science: Data-driven Approaches.
-- Source file: `datatalksclub.github.io/_podcast/human-centered-ai-automatic-speech-recognition.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, NLP, LLMs, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/human-centered-ai-automatic-speech-recognition.md`

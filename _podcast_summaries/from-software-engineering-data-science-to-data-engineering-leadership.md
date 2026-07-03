@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-data-engi
 
 # Episode: How to Become a Data Engineer: Skills, MLOps, Pipelines, SQL, CI/CD & Cloud
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=3TTu-hYzxeg)
 - [Listen on Spotify](https://open.spotify.com/episode/4R9F5B4f8vf5r5yQEmwYiu)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-data-science-to-data-engineering-ellen-k%C3%B6nig/id1541710331?i=1000553736781)
 
-## Episode Overview
-
-In this episode, Ellen König-Head of Engineering at alcemy-shares her journey from software and data science to data engineering leadership. She explains why many professionals make the switch, the skills that matter most (from DevOps and CI/CD to collaboration), and how to prepare through side projects and software fundamentals.
-
-## Episode Value
-
-In this episode, Ellen König-Head of Engineering at alcemy-shares her journey from software and data science to data engineering leadership. She explains why many professionals make the switch, the skills that matter most (from DevOps and CI/CD to collaboration), and how to prepare through side projects and software fundamentals.
-
-Agents should consider this episode when working on data science, data engineering, career transition.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ellen König](https://datatalks.club/people/ellenkonig.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - data engineering
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=0)
 - 1:51 - [Career Narrative: From Backend Developer to Data Engineering Lead](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=111)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:46 - [Career Acceleration: Benefits of Consultancies and Large Companies](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=3346)
 - 58:36 - [Cloud Choice: Practical Differences, Local Demand, and Free Tiers](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=3516)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, data engineering, career transition, MLOps, tools.
-- First pass reading starts with Episode Introduction & Guest Overview, Career Narrative: From Backend Developer to Data Engineering Lead, Motivation to Switch: Blackbox Models, Code Quality, and Professional Fit, Role Overlap: Data Science Tasks That Are Data Engineering Work.
-- Source file: `datatalksclub.github.io/_podcast/from-software-engineering-data-science-to-data-engineering-leadership.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, data engineering, career transition, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-software-engineering-data-science-to-data-engineering-leadership.md`

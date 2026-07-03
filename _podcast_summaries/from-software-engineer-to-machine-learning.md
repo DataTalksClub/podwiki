@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineering-to-m
 
 # Episode: From Software Engineering to Machine Learning: 7 Lessons, Tools, MLOps & Project Roadmap
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xVYOdRrN7hw)
 - [Listen on Spotify](https://open.spotify.com/episode/0PHDZPGyXgyDM9HH7QzVdZ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-software-engineering-to-machine-learning-santiago/id1541710331?i=1000526870384)
 
-## Episode Overview
-
-This episode covers From Software Engineering to Machine Learning - 7 Lessons, Tools, MLOps & Project Roadmap.
-
-## Episode Value
-
-This episode covers From Software Engineering to Machine Learning - 7 Lessons, Tools, MLOps & Project Roadmap.
-
-Agents should consider this episode when working on machine learning, MLOps, software engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Santiago Valdarrama](https://datatalks.club/people/svpino.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=0)
 - 2:39 - [Guest Overview: Santiago - Director of Computer Vision](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=159)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:37 - [Conquering Math: Intuition, Translate Formulas to Code](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=3397)
 - 59:54 - [Episode Resources: Santiago's Twitter, Course Links](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=3594)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, software engineering, career transition, tools.
-- First pass reading starts with Guest Overview: Santiago - Director of Computer Vision, Adding Machine Learning to a Software Engineering Skillset, Personal & Academic Background: Cuba, Bachelor's, Georgia Tech MS, Software Engineers' Advantage: Coding as a Core ML Skill.
-- Source file: `datatalksclub.github.io/_podcast/from-software-engineer-to-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, software engineering, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-software-engineer-to-machine-learning.md`

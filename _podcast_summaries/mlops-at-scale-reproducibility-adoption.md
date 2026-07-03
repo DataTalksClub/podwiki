@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-h
 
 # Episode: MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 - [Watch on YouTube](https://youtube.com/watch?v=rMq63r3zi4c)
 - [Listen on Spotify](https://open.spotify.com/episode/0Dl372MFGvN0zDa1YQx7oe?si=eCy-a4fkRtOaEe21-KDHXQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-hoogvliets/id1541710331?i=1000676238840)
 
-## Episode Overview
-
-This episode covers MLOps at Scale - CI/CD, Reproducibility, Model Monitoring & Adoption Strategies.
-
-## Episode Value
-
-This episode covers MLOps at Scale - CI/CD, Reproducibility, Model Monitoring & Adoption Strategies.
-
-Agents should consider this episode when working on MLOps, data science, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - data science
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - data governance
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://youtube.com/watch?v=rMq63r3zi4c&t=0)
 - 1:21 - [Guest Overview: Raphaël Hoogvliets and Eneco role](https://youtube.com/watch?v=rMq63r3zi4c&t=81)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:58 - [Core Challenge: keeping models deployed, monitored, and maintained](https://youtube.com/watch?v=rMq63r3zi4c&t=3718)
 - 1:02:42 - [Closing Remarks and next steps](https://youtube.com/watch?v=rMq63r3zi4c&t=3762)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, data science, machine learning, tools, data governance.
-- First pass reading starts with Guest Overview: Raphaël Hoogvliets and Eneco role, Career Path: From agriculture to data science and MLOps, Agriculture technology, scale, and sustainability trade-offs, Design Choices and Long-Term Tradeoffs in ML projects.
-- Source file: `datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, data science, machine learning, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`

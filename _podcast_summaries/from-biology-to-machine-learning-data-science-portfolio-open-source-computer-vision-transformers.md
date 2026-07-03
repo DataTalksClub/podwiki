@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-advice-learning-and-fea
 
 # Episode: From Biology to ML: Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=GifY8Zn-pnU)
 - [Listen on Spotify](https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=rx69Xf98QZqGqgpEQgzX2w)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/career-advice-learning-and-featuring-women-in-ml-and/id1541710331?i=1000680294201)
 
-## Episode Overview
-
-This episode covers From Biology to ML - Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers.
-
-## Episode Value
-
-This episode covers From Biology to ML - Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers.
-
-Agents should consider this episode when working on machine learning, computer vision, open-source.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - computer vision
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - bioinformatics
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction: Continuous Learning in Data Science (guest Isabella](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=0)
 - 7:01 - [Career Overview: Transition from Biology to Machine Learning](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=421)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:27 - [Featured Interviews: Bioinformatics, Fake News Detection, AI Ethics](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=3447)
 - 1:02:16 - [Connecting with Isabella: LinkedIn and Substack Contact Info](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=3736)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, computer vision, open-source, bioinformatics, career transition.
-- First pass reading starts with Episode Introduction: Continuous Learning in Data Science (guest Isabella, Career Overview: Transition from Biology to Machine Learning, Statistics as Gateway to Machine Learning; Progression to Transformers, Education: University of Maranhão and University of Marseille.
-- Source file: `datatalksclub.github.io/_podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, computer vision, open-source, bioinformatics, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.md`

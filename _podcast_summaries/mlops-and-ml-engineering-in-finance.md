@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-engineering-i
 
 # Episode: MLOps in Finance: Regulated Deployment, CI/CD and Model Governance
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Nl4aibeFwiI)
 - [Listen on Spotify](https://open.spotify.com/episode/3yQtA8EAndau1yhCFPfwtj?si=ZutO4mLlRfOz_Zgw4GujiQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/machine-learning-engineering-in-finance-nemanja-radojkovic/id1541710331?i=1000643322929)
 
-## Episode Overview
-
-This episode covers MLOps in Finance - Regulated Deployment, CI/CD and Model Governance.
-
-## Episode Value
-
-This episode covers MLOps in Finance - Regulated Deployment, CI/CD and Model Governance.
-
-Agents should consider this episode when working on MLOps, machine learning, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=0)
 - 1:35 - [Guest Introduction: Nemanja's journey from Belgrade to ML Ops in Europe](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=95)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:51 - [Beginner Tech Stack: Python, SQL, Pandas/Polars, cloud basics, and job-market](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=3171)
 - 56:19 - [Learn by Building: End-to-end projects, web apps, and scraping job postings](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=3379)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, machine learning, data engineering, production, career transition.
-- First pass reading starts with Episode Introduction, Guest Introduction: Nemanja's journey from Belgrade to ML Ops in Europe, Guest Background: Electrical engineering, PhD experience, and early career, Early Data Roles: PhD, Deloitte, and first paid Python work.
-- Source file: `datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, machine learning, data engineering, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`

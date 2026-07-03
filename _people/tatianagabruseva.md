@@ -1,37 +1,11 @@
 ---
-layout: "person"
+layout: person
 title: "Tatiana Gabruseva"
-source_person: "../datatalksclub.github.io/_people/tatianagabruseva.md"
-person_id: "tatianagabruseva"
-summary: "Computer vision and deep learning engineer connecting Kaggle practice, academia-to-industry transition, and staff-level AI career growth."
-expertise: ["computer vision", "deep learning", "machine learning", "career transition", "career growth", "MLOps"]
-podcast_episodes: ["from-physics-to-computer-vision-career-transition", "from-academia-to-staff-ai-engineer-interviews-and-career-growth", "s24e01-competitions-beyond-kaggle-leaderboard"]
+summary: "Tatiana Gabruseva's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/tatianagabruseva.html"
+podcast_episodes: ["from-physics-to-computer-vision-career-transition", "from-academia-to-staff-ai-engineer-interviews-and-career-growth", "s24e01-competitions-beyond-kaggle-leaderboard"]
+github: "tatigabru"
+twitter: "tatigabru"
+linkedin: "tatigabru"
+web: "http://tatigabru.com/"
 ---
-
-## Background
-
-Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Competitions Master. Her source bio notes her role as a Senior ML Engineer at Cork University Hospital.
-
-## Podcast Contributions
-
-- [Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html) connects physics, Kaggle projects, mentorship, and interview preparation.
-- [Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html) extends the competition-learning thread beyond rankings.
-- [Transitioning from Academia to Industry as a Staff AI Engineer](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html) contributes evidence on staff-level interviews, onboarding, MLOps, and career growth.
-
-## Concepts Connected
-
-- [computer vision]({{ '/wiki/computer-vision/' | relative_url }}), [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), and [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the technical arc.
-- [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [academia]({{ '/wiki/academia/' | relative_url }}) for moving into industry roles.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}) for senior-practitioner expectations.
-
-## Source Links
-
-- Person source: `../datatalksclub.github.io/_people/tatianagabruseva.md`
-- Podcast sources: `../datatalksclub.github.io/_podcast/from-physics-to-computer-vision-career-transition.md`, `../datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`, `../datatalksclub.github.io/_podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.md`
-
-## Podcast Discussions
-
-- [Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
-- [Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html). Related topics: [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), physics, [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), mentorship.
-- [Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html).

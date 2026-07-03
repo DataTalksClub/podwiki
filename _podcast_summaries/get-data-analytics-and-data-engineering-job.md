@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-academia-to-data-analytic
 
 # Episode: How I Landed a Data Engineering Job: Bootcamp, Docker, Airflow, AWS & Interview Tips
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0wANfIvum4U)
 - [Listen on Spotify](https://open.spotify.com/episode/1kDpXugcmDdVJ6qUAiNnHQ?si=aa62cc4dce5f41b2)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-academia-to-data-analytics-and-engineering/id1541710331?i=1000562898040)
 
-## Episode Overview
-
-This episode covers How I Landed a Data Engineering Job - Bootcamp, Docker, Airflow, AWS & Interview Tips.
-
-## Episode Value
-
-This episode covers How I Landed a Data Engineering Job - Bootcamp, Docker, Airflow, AWS & Interview Tips.
-
-Agents should consider this episode when working on career switch, data engineering, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - career switch
 - data engineering
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0wANfIvum4U&t=0)
 - 1:58 - [Background: Transition from Neuroscience Research to Industry](https://www.youtube.com/watch?v=0wANfIvum4U&t=118)
@@ -74,16 +57,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:34 - [Data Quality: Detecting Bots, Cleaning Twitter Data and Sentiment Bias](https://www.youtube.com/watch?v=0wANfIvum4U&t=3214)
 - 56:48 - [Cohort Diversity: Varied Backgrounds and Cross-disciplinary Strengths](https://www.youtube.com/watch?v=0wANfIvum4U&t=3408)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career switch, data engineering, career growth.
-- First pass reading starts with Background: Transition from Neuroscience Research to Industry, Lab Automation & Scripting: Igor, C-style Code and Data Collection, Learning Curve: MATLAB, R and Falling in Love with Programming, First Industry Role: Business Data Analyst Duties and SQL Reporting.
-- Source file: `datatalksclub.github.io/_podcast/get-data-analytics-and-data-engineering-job.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career switch, data engineering, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/get-data-analytics-and-data-engineering-job.md`

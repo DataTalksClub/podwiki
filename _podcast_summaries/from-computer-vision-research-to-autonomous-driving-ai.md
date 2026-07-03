@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-
 
 # Episode: Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vK_SxyqIfwk)
 - [Listen on Spotify](https://open.spotify.com/episode/0h9eX7m6H2TPqOjUwb3Jw6?si=I4rKrHXpQTmS7cJBMJbUMA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-waymo-and-beyond/id1541710331?i=1000731200298)
 
-## Episode Overview
-
-This episode covers Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment.
-
-## Episode Value
-
-This episode covers Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment.
-
-Agents should consider this episode when working on computer vision, academia, autonomous driving.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - computer vision
 - academia
@@ -53,9 +38,7 @@ Use these concepts for topic routing and graph connections.
 - career growth
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=0)
 - 1:33 - [Guest Bio & Career Overview: Finance to Self-Driving AI](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=93)
@@ -86,16 +69,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:24 - [Practical Projects & Tools: Vision Apps, LLMs, and Coding Agents](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=3384)
 - 58:35 - [Closing Remarks and Final Advice](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=3515)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around computer vision, academia, autonomous driving, MLOps, LLMs, production.
-- First pass reading starts with Guest Bio & Career Overview: Finance to Self-Driving AI, Morgan Stanley: Big Data Engineering & Transition to ML, Carnegie Mellon: Research Focus & Computer Vision Projects, AI Guide Dog: Mobile Navigation for the Visually Impaired.
-- Source file: `datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve computer vision, academia, autonomous driving, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`

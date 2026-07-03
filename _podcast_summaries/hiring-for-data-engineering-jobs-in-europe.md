@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nico
 
 # Episode: Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=hylxiu4VGTo)
 - [Listen on Spotify](https://open.spotify.com/episode/5ldkzYiHFvJCKoEyfAlvDs?si=WFJzcZ7fRCi1dzwapNGfzA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nicolas-rassam/id1541710331?i=1000559128813)
 
-## Episode Overview
-
-This episode covers Hiring Data Engineers in Europe - Nicolas Rassam on Interviews, Skills & Career Switches.
-
-## Episode Value
-
-This episode covers Hiring Data Engineers in Europe - Nicolas Rassam on Interviews, Skills & Career Switches.
-
-Agents should consider this episode when working on data engineering, career transition, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - career transition
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Welcome](https://www.youtube.com/watch?v=hylxiu4VGTo&t=0)
 - 1:15 - [Guest Background and Career Path](https://www.youtube.com/watch?v=hylxiu4VGTo&t=75)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:59 - [Follow-up Resources: Webinars and Further Reading](https://www.youtube.com/watch?v=hylxiu4VGTo&t=3659)
 - 1:01:38 - [Episode Close and Final Tips](https://www.youtube.com/watch?v=hylxiu4VGTo&t=3698)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, career transition, career growth.
-- First pass reading starts with Episode Opening & Guest Welcome, Guest Background and Career Path, Onfido Role & European Hiring Footprint, Roles Recruited: Data, ML & Research Spectrum.
-- Source file: `datatalksclub.github.io/_podcast/hiring-for-data-engineering-jobs-in-europe.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, career transition, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/hiring-for-data-engineering-jobs-in-europe.md`

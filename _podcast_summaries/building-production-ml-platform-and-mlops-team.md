@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-scratch-to-success-buildi
 
 # Episode: Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=CB1YIsxQRtc)
 - [Listen on Spotify](https://open.spotify.com/episode/0raudIf9XsKdUfr5m2YlUE?si=x1PuaBqwTVyMlfNlGape2A)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-scratch-to-success-building-an-mlops-team-and/id1541710331?i=1000618899065)
 
-## Episode Overview
-
-This episode covers Building Production ML Platforms - Infrastructure, Workflows, Teams & Governance That Scale.
-
-## Episode Value
-
-This episode covers Building Production ML Platforms - Infrastructure, Workflows, Teams & Governance That Scale.
-
-Agents should consider this episode when working on MLOps, machine learning, leadership.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - machine learning
 - leadership
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:14 - [Episode Introduction: MLOps & ML platform conversation with Simon](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=74)
 - 2:00 - [Career & Transition: Research to industry, early platform work and management](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=120)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:15 - [API Design & Logging: Unified prediction schemas for monitoring and analytics](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=3255)
 - 57:32 - [Learning Resources: Books, practical projects, and MLOps training](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=3452)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, machine learning, leadership, career growth.
-- First pass reading starts with Episode Introduction: MLOps & ML platform conversation with Simon, Career & Transition: Research to industry, early platform work and management, MLOps Definition: People, processes, and technology, Deployment Challenges: Early blockers that launched MLOps work.
-- Source file: `datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, machine learning, leadership, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`

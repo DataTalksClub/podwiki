@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/moving-from-academia-to-indust
 
 # Episode: From Postdoc to Data Science Lead: ML Foundations, Docker Deployment & Hiring Tips
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=m4F651BpUFk)
 - [Listen on Spotify](https://open.spotify.com/episode/5Jvo53ibSoX6rfkfdGq5pJ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/moving-from-academia-to-industry-cj-jenkins/id1541710331?i=1000544589971)
 
-## Episode Overview
-
-This episode covers From Postdoc to Data Science Lead - ML Foundations, Docker Deployment & Hiring Tips.
-
-## Episode Value
-
-This episode covers From Postdoc to Data Science Lead - ML Foundations, Docker Deployment & Hiring Tips.
-
-Agents should consider this episode when working on career transition, machine learning, academia.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [CJ Jenkins](https://datatalks.club/people/cjjenkins.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - career transition
 - machine learning
 - academia
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=m4F651BpUFk&t=0)
 - 0:58 - [Career Journey: Postdoc to Data Science Lead](https://www.youtube.com/watch?v=m4F651BpUFk&t=58)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:45 - [Long-Term Learning: NLP, Kaggle as a Learning Resource](https://www.youtube.com/watch?v=m4F651BpUFk&t=3165)
 - 55:28 - [Academic Output: Writing a Textbook on Parasitology](https://www.youtube.com/watch?v=m4F651BpUFk&t=3328)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, machine learning, academia, career growth.
-- First pass reading starts with Career Journey: Postdoc to Data Science Lead, Evolutionary Biology: Statistics & Population Dynamics, Academic Research as Data Science Practice: Genomics & Bash, Statistical Machine Learning: GLMs and Foundations.
-- Source file: `datatalksclub.github.io/_podcast/postdoc-to-data-science-lead-career-transition.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, machine learning, academia, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/postdoc-to-data-science-lead-career-transition.md`

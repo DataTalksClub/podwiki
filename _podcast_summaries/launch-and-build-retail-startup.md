@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/launching-a-startup-from-idea-
 
 # Episode: Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=s-w8_GDgIlU)
 - [Listen on Spotify](https://open.spotify.com/episode/2zlqwEOamFD8YVGkf4VsFW)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/launching-a-startup-from-idea-to-first-hire-carmine-paolino/id1541710331?i=1000531945076)
 
-## Episode Overview
-
-This episode covers Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup.
-
-## Episode Value
-
-This episode covers Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup.
-
-Agents should consider this episode when working on startup, founder, leadership.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Carmine Paolino](https://datatalks.club/people/carminepaolino.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - startup
 - founder
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - product management
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:46 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=106)
 - 2:16 - [Early Career: Programming, Academia, and Data Science](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=136)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:05:57 - [Validating Pre-Existing Ideas: Why EF Helps Even with a Clear Idea](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=3957)
 - 1:07:06 - [Prototype Before Pitch: Banana Ripeness Demo and Early Technical Traction](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=4026)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around startup, founder, leadership, entrepreneurship, product management, tools.
-- First pass reading starts with Episode Introduction & Guest Overview, Early Career: Programming, Academia, and Data Science, FreshFlow Overview: CTO Role and Ordering System Mission, Problem Discovery: Supermarket Fresh-Product Challenges & Edeka Pilot.
-- Source file: `datatalksclub.github.io/_podcast/launch-and-build-retail-startup.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve startup, founder, leadership, entrepreneurship, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/launch-and-build-retail-startup.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/innovation-and-design-for-mach
 
 # Episode: AI Product Design: Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tcqBfZw41FM)
 - [Listen on Spotify](https://open.spotify.com/episode/4vhTQJ6Aj9z5VHm9UsHspv)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/innovation-and-design-for-machine-learning-liesbeth/id1541710331?i=1000556693861)
 
-## Episode Overview
-
-This episode covers AI Product Design - Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps.
-
-## Episode Value
-
-This episode covers AI Product Design - Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps.
-
-Agents should consider this episode when working on machine learning, design thinking, strategy.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - design thinking
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - ai
 - practices
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=tcqBfZw41FM&t=0)
 - 1:18 - [Guest Background: Strategy, Product and AI Trajectory](https://www.youtube.com/watch?v=tcqBfZw41FM&t=78)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:36 - [Measurement Mindset: Data-Guided Product Decisions (Citrix)](https://www.youtube.com/watch?v=tcqBfZw41FM&t=3396)
 - 58:20 - [Skill Building: Learnable Design & Innovation Practices](https://www.youtube.com/watch?v=tcqBfZw41FM&t=3500)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, design thinking, strategy, ai, practices.
-- First pass reading starts with Episode Introduction & Guest Overview, Guest Background: Strategy, Product and AI Trajectory, Interdisciplinary Perspective: Physics Meets Humanities, Design as a User-Centered Product Process.
-- Source file: `datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, design thinking, strategy, ai, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`

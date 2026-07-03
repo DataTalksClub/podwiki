@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-and-mentoring-in-data
 
 # Episode: Designing FinTech Data Analytics Curriculum: Fraud Detection, BigQuery Labs & Mentoring
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=saaRRzgHsmE)
 - [Listen on Spotify](https://open.spotify.com/episode/0ES2N4yIu61bUB3dY9oxgQ?si=_KFHPXOUQVap8oSBp6AJgA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/teaching-and-mentoring-in-data-analytics-irina-brudaru/id1541710331?i=1000588551445)
 
-## Episode Overview
-
-This episode covers Designing FinTech Data Analytics Curriculum - Fraud Detection, BigQuery Labs & Mentoring.
-
-## Episode Value
-
-This episode covers Designing FinTech Data Analytics Curriculum - Fraud Detection, BigQuery Labs & Mentoring.
-
-Agents should consider this episode when working on data analytics, fintech, mentoring.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data analytics
 - fintech
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - teaching
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=saaRRzgHsmE&t=0)
 - 1:08 - [Guest Overview: Irina Brudaru - teacher, curriculum developer, mentor in](https://www.youtube.com/watch?v=saaRRzgHsmE&t=68)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:08 - [Core Analyst Fundamentals: SQL, data visualization, soft skills, and product](https://www.youtube.com/watch?v=saaRRzgHsmE&t=3488)
 - 1:00:32 - [Community Partnerships: collaborating with Women in Tech groups and volunteer](https://www.youtube.com/watch?v=saaRRzgHsmE&t=3632)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data analytics, fintech, mentoring, teaching, data science.
-- First pass reading starts with Guest Overview: Irina Brudaru - teacher, curriculum developer, mentor in, Career Origins: early computing, Romania education, Max Planck research, Industry Transition: data consulting, BI, Google and product analytics experience, International Roles & Management: San Francisco, Netherlands, Berlin; leading.
-- Source file: `datatalksclub.github.io/_podcast/teaching-mentoring-data-analytics-fintech.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data analytics, fintech, mentoring, teaching, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/teaching-mentoring-data-analytics-fintech.md`

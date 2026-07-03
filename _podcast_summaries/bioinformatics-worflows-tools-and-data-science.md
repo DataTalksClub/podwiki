@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinfor
 
 # Episode: Bioinformatics Workflows in Practice: Sequencing, Metagenomics, and Open-Source Tools
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ZFrcrTtnB1Q)
 - [Listen on Spotify](https://open.spotify.com/episode/3CohNIXZdooLYoIyIbr6EF)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinformatics-software-sebastian/id1541710331?i=1000733347636)
 
-## Episode Overview
-
-This episode covers Bioinformatics Workflows in Practice - Sequencing, Metagenomics, and Open-Source Tools.
-
-## Episode Value
-
-This episode covers Bioinformatics Workflows in Practice - Sequencing, Metagenomics, and Open-Source Tools.
-
-Agents should consider this episode when working on bioinformatics, LLMs, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - bioinformatics
 - LLMs
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - open-source
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=0)
 - 1:09 - [Career Transition: Biotechnology to Bioinformatics Software](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=69)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:17 - [Remote Work & Field Life: Working from Ecuador and Nature Notes](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=3197)
 - 54:10 - [Episode Wrap-up: Open-Source Encouragement and Closing Remarks](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=3250)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around bioinformatics, LLMs, MLOps, open-source, tools.
-- First pass reading starts with Career Transition: Biotechnology to Bioinformatics Software, Master's Thesis Overview: Wastewater Microbiome Knowledge Graph, Bioinformatics Role: Reducing Lab Experiments with Computational Analysis, Wet Lab vs Dry Lab: Experimental Work vs Computational Pipelines.
-- Source file: `datatalksclub.github.io/_podcast/bioinformatics-worflows-tools-and-data-science.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve bioinformatics, LLMs, MLOps, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/bioinformatics-worflows-tools-and-data-science.md`

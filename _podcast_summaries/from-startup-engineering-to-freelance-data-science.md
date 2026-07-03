@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-from-freelanci
 
 # Episode: Freelance Data Scientist Playbook: MLOps, Model Monitoring, Upwork & Startup Skills
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-Gj7SaI-QW4)
 - [Listen on Spotify](https://open.spotify.com/episode/4ehGduC0p734UtwPr5HANq?si=rEC_XP-4RSKYh0TtSQBtlw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/lessons-learned-from-freelancing-and-working-in-a/id1541710331?i=1000616311575)
 
-## Episode Overview
-
-This episode covers Freelance Data Scientist Playbook - MLOps, Model Monitoring, Upwork & Startup Skills.
-
-## Episode Value
-
-This episode covers Freelance Data Scientist Playbook - MLOps, Model Monitoring, Upwork & Startup Skills.
-
-Agents should consider this episode when working on freelance, startups, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Antonis Stellas](https://datatalks.club/people/antonisstellas.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - freelance
 - startups
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - remote work
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction: guest Antonis and episode themes](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=0)
 - 2:28 - [Early Education: applied mathematics, physics and nanotechnology](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=148)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:41 - [Portfolio Advice: choose projects you enjoy and prioritize exploration](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=3401)
 - 58:11 - [Recommended Reading: The Lean Startup, Lean Analytics, Designing ML Systems](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=3491)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around freelance, startups, career growth, remote work, MLOps.
-- First pass reading starts with Early Education: applied mathematics, physics and nanotechnology, Professional Doctorate: industry projects and consultancy in the Netherlands, Nanometrisis Focus: nanoscale inspection for chips, razors and cosmetics, Career Choice: choosing a startup over a corporation.
-- Source file: `datatalksclub.github.io/_podcast/from-startup-engineering-to-freelance-data-science.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve freelance, startups, career growth, remote work, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-startup-engineering-to-freelance-data-science.md`

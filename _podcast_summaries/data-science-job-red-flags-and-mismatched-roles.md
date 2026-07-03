@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/decoding-data-science-job-desc
 
 # Episode: Data Science Jobs: How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bqxBiIwtmX4)
 - [Listen on Spotify](https://open.spotify.com/episode/4v6h48B0c0Je8xLMo5zMs5?si=hcMUqpPPQYm2vrdi2py1UQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/decoding-data-science-job-descriptions-tereza-iofciu/id1541710331?i=1000575150345)
 
-## Episode Overview
-
-This episode covers Data Science Jobs - How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams.
-
-## Episode Value
-
-This episode covers Data Science Jobs - How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams.
-
-Agents should consider this episode when working on data science, data engineering, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - data engineering
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - team building
 - job search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=0)
 - 1:41 - [Guest Bio: Tereza's multidisciplinary data roles & community work](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=101)
@@ -85,16 +68,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:21 - [Tech Stack Signals: Modern vs legacy tools and what they reveal](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=3381)
 - 58:19 - [Community Visibility: Talks and knowledge sharing as healthy-team signals](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=3499)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, data engineering, career growth, hiring, data teams, team building.
-- First pass reading starts with Guest Bio: Tereza's multidisciplinary data roles & community work, Academic Background: PhD, information retrieval, recommender systems, Industry Transition: XING to mytaxi/FREE NOW and evolving responsibilities, Technical Practices at XING: Scala, Elasticsearch, product-driven engineering.
-- Source file: `datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, data engineering, career growth, hiring, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`

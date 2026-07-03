@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-o
 
 # Episode: Post-ChatGPT AI Infrastructure: Open Source Orchestration, On-Prem Economics & Distributed Training at Scale
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=1aMuynlLM3o)
 - [Listen on Spotify](https://open.spotify.com/episode/5MIc1pAXPxVYSr0E4pndU4)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-open-source-chips-and/id1541710331?i=1000687565459)
 
-## Episode Overview
-
-This episode covers Post-ChatGPT AI Infrastructure - Open Source Orchestration, On-Prem Economics & Distributed Training at Scale.
-
-## Episode Value
-
-This episode covers Post-ChatGPT AI Infrastructure - Open Source Orchestration, On-Prem Economics & Distributed Training at Scale.
-
-Agents should consider this episode when working on AI infrastructure, MLOps, LLMs.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Andrey Cheptsov](https://datatalks.club/people/andreycheptsov.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI infrastructure
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - open-source
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Kickoff & Guest Introduction](https://www.youtube.com/watch?v=1aMuynlLM3o&t=0)
 - 2:46 - [Career Background: JetBrains, DataSpell, and Move into AI](https://www.youtube.com/watch?v=1aMuynlLM3o&t=166)
@@ -76,16 +59,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:51 - [Closing Pick: Science-Fiction Recommendation - The Three-Body Problem](https://www.youtube.com/watch?v=1aMuynlLM3o&t=3771)
 - 1:05:38 - [Episode Wrap-Up & Links to DStack and Guest Resources](https://www.youtube.com/watch?v=1aMuynlLM3o&t=3938)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI infrastructure, MLOps, LLMs, open-source, tools.
-- First pass reading starts with Episode Kickoff & Guest Introduction, Career Background: JetBrains, DataSpell, and Move into AI, Origins of DStack: Reducing AI Infrastructure Cost of Ownership, Cloud vs On-Prem Costs and MLOps Limitations (SageMaker example).
-- Source file: `datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI infrastructure, MLOps, LLMs, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`

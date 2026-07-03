@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-
 
 # Episode: How to Build Data Governance in the Cloud: Classification, Catalogs, Policies & ROI
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/cloud-data-governance.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/cloud-data-governance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tJ3v8h7A7RY)
 - [Listen on Spotify](https://open.spotify.com/episode/2zaLMrgbIgVkVEWY09b1Wn)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-uri-gilad/id1541710331?i=1000525176805)
 
-## Episode Overview
-
-This episode covers How to Build Data Governance in the Cloud - Classification, Catalogs, Policies & ROI.
-
-## Episode Value
-
-This episode covers How to Build Data Governance in the Cloud - Classification, Catalogs, Policies & ROI.
-
-Agents should consider this episode when working on data governance, data compliance, cloud.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html)
 - [Uri Gilad](https://datatalks.club/people/urigilad.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data governance
 - data compliance
 - cloud
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=0)
 - 3:29 - [Guest Background - Jessi: UX Researcher & Data Governance at Google Cloud](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=209)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:46 - [Governance Scope: Why It Extends Beyond the Catalog](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=3466)
 - 59:04 - [Closing Remarks, Contact Links and Next Steps](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=3544)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data governance, data compliance, cloud.
-- First pass reading starts with Guest Background - Jessi: UX Researcher & Data Governance at Google Cloud, Guest Background - Uri: Product Management & Data Governance Experience, Defining Data Governance: Beyond Security and PII, Cloud & Regulation Driving Governance Adoption (GDPR, Cambridge Analytica).
-- Source file: `datatalksclub.github.io/_podcast/cloud-data-governance.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data governance, data compliance, cloud, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/cloud-data-governance.md`

@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/why-machine-learning-design-is
 
 # Episode: ML System Design Playbook: Fail-Fast Design Docs, Modular Architecture & Data Drift Monitoring
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ml-system-design.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ml-system-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6YBMU6475KQ)
 - [Listen on Spotify](https://open.spotify.com/episode/3KfKptkWIa1hW1hSOvBQaO)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/why-machine-learning-design-is-broken-valerii-babushkin/id1541710331?i=1000621176183)
 
-## Episode Overview
-
-This episode covers ML System Design Playbook - Fail-Fast Design Docs, Modular Architecture & Data Drift Monitoring.
-
-## Episode Value
-
-This episode covers ML System Design Playbook - Fail-Fast Design Docs, Modular Architecture & Data Drift Monitoring.
-
-Agents should consider this episode when working on machine learning, system design.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - system design
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=6YBMU6475KQ&t=0)
 - 2:06 - [Guest Introduction: Valerii Babushkin background](https://www.youtube.com/watch?v=6YBMU6475KQ&t=126)
@@ -70,16 +53,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:15 - [Resources & Tools: Book Discount, Evidently AI, and Templates](https://www.youtube.com/watch?v=6YBMU6475KQ&t=3495)
 - 1:00:44 - [Contact: Connect with Valerii on LinkedIn](https://www.youtube.com/watch?v=6YBMU6475KQ&t=3644)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, system design.
-- First pass reading starts with Guest Introduction: Valerii Babushkin background, Book Announcement: Machine Learning System Design, Design Document Purpose: Fail-Fast Principle, Blueprint Analogy: Preventing Waste with Early Design.
-- Source file: `datatalksclub.github.io/_podcast/ml-system-design.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, system design, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ml-system-design.md`

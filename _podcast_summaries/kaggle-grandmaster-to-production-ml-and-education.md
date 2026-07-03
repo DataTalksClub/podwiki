@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitive-machine-leaning-an
 
 # Episode: From Kaggle Grandmaster to Production ML: Competition Rigor, System Design & Large-Scale Education
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=NfAJAr7FvyY&t)
 - [Listen on Spotify](https://open.spotify.com/episode/6xsov9a1US8D8w5xKcjkNm)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/competitive-machine-leaning-and-teaching-alexander/id1541710331?i=1000692309866)
 
-## Episode Overview
-
-This episode covers From Kaggle Grandmaster to Production ML - Competition Rigor, System Design & Large-Scale Education.
-
-## Episode Value
-
-This episode covers From Kaggle Grandmaster to Production ML - Competition Rigor, System Design & Large-Scale Education.
-
-Agents should consider this episode when working on machine learning, MLOps, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Alexander Guschin](https://datatalks.club/people/alexanderguschin.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - teaching
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Start](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=0)
 - 3:50 - [Guest Introduction & Kaggle Grandmaster Credentials](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=230)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:03:11 - [Generative AI & AutoML: Productivity vs. Winning Solutions](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3791)
 - 1:05:13 - [Career Reflections: Current Activity and Kaggle Legacy](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3913)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, data science, open-source, tools, teaching.
-- First pass reading starts with Episode Start, Guest Introduction & Kaggle Grandmaster Credentials, Early Industry Roles & Open-Source Contributions, MLEM Story & Tooling Anecdotes.
-- Source file: `datatalksclub.github.io/_podcast/kaggle-grandmaster-to-production-ml-and-education.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, data science, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/kaggle-grandmaster-to-production-ml-and-education.md`

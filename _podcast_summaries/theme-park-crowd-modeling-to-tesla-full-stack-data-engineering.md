@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-buil
 
 # Episode: From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gXvVMvhfrIY)
 - [Listen on Spotify](https://open.spotify.com/episode/5dpBs4xr3zMkBDw6cTYHQE?si=pivilqeDTHOiNCBb1bFHdA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-building-data-products-that-work/id1541710331?i=1000731198436)
 
-## Episode Overview
-
-This episode covers From Theme Parks to Tesla - Building Data Products Through Applied ML and Full-Stack Engineering.
-
-## Episode Value
-
-This episode covers From Theme Parks to Tesla - Building Data Products Through Applied ML and Full-Stack Engineering.
-
-Agents should consider this episode when working on machine learning, MLOps, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Abouzarabbaspour](https://datatalks.club/people/abouzarabbaspour.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - LLMs
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Event Info](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=0)
 - 1:17 - [Early Career: Software Engineering to Data Science](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=77)
@@ -76,16 +59,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:43 - [Career Strategy: Prioritization, Learning Opportunities, Underpromise & Overdeliver](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=3463)
 - 1:00:10 - [Episode Closing & Key Takeaways](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=3610)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, data engineering, LLMs, data science.
-- First pass reading starts with Early Career: Software Engineering to Data Science, Academic Path: Professional Doctorate & TU Berlin, Research Partnerships: Industry Projects and Applied Research, Efteling Insights: Theme Park Tech and Experience Design.
-- Source file: `datatalksclub.github.io/_podcast/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, data engineering, LLMs, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.md`

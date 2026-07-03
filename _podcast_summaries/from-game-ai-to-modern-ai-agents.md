@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai
 
 # Episode: From Game AI to LLM Agents: 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DSxqUlumM3A)
 - [Listen on Spotify](https://open.spotify.com/episode/7uhe5ZysRi07S6mb14nnox)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai-micheal-lanham/id1541710331?i=1000728604349)
 
-## Episode Overview
-
-This episode covers From Game AI to LLM Agents - 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling.
-
-## Episode Value
-
-This episode covers From Game AI to LLM Agents - 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling.
-
-Agents should consider this episode when working on LLMs, AI, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Micheal Lanham](https://datatalks.club/people/micheallanham.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - AI
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - software engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DSxqUlumM3A&t=0)
 - 1:07 - [Career Snapshot: Two Decades from Game AI to AI Agents](https://www.youtube.com/watch?v=DSxqUlumM3A&t=67)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:50 - [Publishing Details: Second Edition and Availability](https://www.youtube.com/watch?v=DSxqUlumM3A&t=3530)
 - 1:00:23 - [Closing Remarks and Links](https://www.youtube.com/watch?v=DSxqUlumM3A&t=3623)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, AI, machine learning, MLOps, software engineering.
-- First pass reading starts with Career Snapshot: Two Decades from Game AI to AI Agents, Early Research: Games for Cognitive Testing & Neural Networks, Industry Experience: Consulting, Product Development, Leadership, Evolutionary Algorithms in Industry Optimization.
-- Source file: `datatalksclub.github.io/_podcast/from-game-ai-to-modern-ai-agents.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, AI, machine learning, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-game-ai-to-modern-ai-agents.md`

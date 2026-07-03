@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-a
 
 # Episode: From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IrZPAG6OBqo)
 - [Listen on Spotify](https://open.spotify.com/episode/0fFRCAYFCReMxEiq2RDVak)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-andreas-kretz/id1541710331?i=1000527643914)
 
-## Episode Overview
-
-This episode covers From Notebooks to Production - Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming).
-
-## Episode Value
-
-This episode covers From Notebooks to Production - Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming).
-
-Agents should consider this episode when working on data engineering, machine learning, production.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Andreas Kretz](https://datatalks.club/people/andreaskretz.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data engineering
 - machine learning
 - production
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:56 - [Episode Introduction & Andreas Kretz - "Plumber of Data Science](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=116)
 - 3:19 - [Guest Bio: Andreas's path from software to big data and data engineering](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=199)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:33 - [Learning Advice: Avoid huge datasets; start small and iterate](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=3453)
 - 58:56 - [Convincing Stakeholders: Build a $0 proof-of-concept and quantify ROI](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=3536)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, machine learning, production, tools.
-- First pass reading starts with Episode Introduction & Andreas Kretz - "Plumber of Data Science, Guest Bio: Andreas's path from software to big data and data engineering, Market Trend: Why data engineering demand is rising, Hiring Strategy: Hire a data scientist and engineer early.
-- Source file: `datatalksclub.github.io/_podcast/production-ml-pipelines-with-aws-and-kafka.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, machine learning, production, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/production-ml-pipelines-with-aws-and-kafka.md`

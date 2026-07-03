@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-career-changes-in-m
 
 # Episode: How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=cUxZBXQgZaU)
 - [Listen on Spotify](https://open.spotify.com/episode/1mDlJi7vfLeJgIZStQ4G90?si=Spd04VwmSh2zZCgZzLIPbA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/navigating-career-changes-in-machine-learning-chris/id1541710331?i=1000597921745)
 
-## Episode Overview
-
-This episode covers How to Grow Your ML Engineering Career - Platform Work, LLM Workflows & Debugging Skills.
-
-## Episode Value
-
-This episode covers How to Grow Your ML Engineering Career - Platform Work, LLM Workflows & Debugging Skills.
-
-Agents should consider this episode when working on machine learning, career transitions, LLMs.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Krzysztof Szafanek](https://datatalks.club/people/krzysztofszafanek.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - career transitions
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - hiring
 - career strategy
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=0)
 - 2:12 - [Career Overview: Web, Game Development, and Python](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=132)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:22 - [Prioritization Techniques: To-Do Lists, Deadlines, and Focus](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3382)
 - 58:11 - [Learning Resources: Books, Documentation, YouTube, and Practical Learning](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3491)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, career transitions, LLMs, hiring, career strategy.
-- First pass reading starts with Career Overview: Web, Game Development, and Python, Mobile & Game Development: HTML5, Objective-C, Swift, and Unity, Career Transitions: Adapting Between Stacks and Roles, Tech Radar & Language Freedom at Zalando.
-- Source file: `datatalksclub.github.io/_podcast/how-to-grow-your-ml-engineering-career.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, career transitions, LLMs, hiring, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/how-to-grow-your-ml-engineering-career.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-production-search-sys
 
 # Episode: Building Search Systems: Dense Embeddings, MLOps and Evaluation Metrics
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-production-search-systems.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-production-search-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gEmSrknGKDE)
 - [Listen on Spotify](https://open.spotify.com/episode/19R0rLA8hULTBZi9FhZuTs?si=xggb0OzfRHCFSmXtJWm7bA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-production-search-systems-daniel-svonava/id1541710331?i=1000650138905)
 
-## Episode Overview
-
-This episode covers Building Search Systems - Dense Embeddings, MLOps and Evaluation Metrics.
-
-## Episode Value
-
-This episode covers Building Search Systems - Dense Embeddings, MLOps and Evaluation Metrics.
-
-Agents should consider this episode when working on information retrieval, vector databases, embeddings.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Daniel Svonava](https://datatalks.club/people/danielsvonava.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - information retrieval
 - vector databases
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gEmSrknGKDE&t=0)
 - 1:47 - [Guest Introduction: Daniel Svonava, Superlinked & VectorHub](https://www.youtube.com/watch?v=gEmSrknGKDE&t=107)
@@ -91,16 +74,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:25 - [Measuring Search Impact: Business Metrics, A/B Testing, and USD](https://www.youtube.com/watch?v=gEmSrknGKDE&t=3685)
 - 1:03:50 - [Operational Metrics, Offline Evaluation, and Empowering Engineers](https://www.youtube.com/watch?v=gEmSrknGKDE&t=3830)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around information retrieval, vector databases, embeddings, MLOps, evaluation metrics, production.
-- First pass reading starts with Guest Introduction: Daniel Svonava, Superlinked & VectorHub, Career Highlights: Internships, YouTube Ads, and Startups, Competitive Programming Influence on Engineering, Framing Search: Decision Problem & Relevance.
-- Source file: `datatalksclub.github.io/_podcast/building-production-search-systems.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve information retrieval, vector databases, embeddings, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-production-search-systems.md`

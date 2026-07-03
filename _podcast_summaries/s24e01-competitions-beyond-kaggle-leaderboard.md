@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle
 
 # Episode: Competitions: Beyond the Kaggle Leaderboard
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=oRxT4AWkQVM)
 - [Listen on Spotify](https://open.spotify.com/episode/3IXYBgX5e9NHQ8nIZejiNy?si=0b5722c8a59841e7)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle-leaderboard-tatiana/id1541710331?i=1000765636887)
 
-## Episode Overview
-
-This episode covers Competitions - Beyond the Kaggle Leaderboard.
-
-## Episode Value
-
-This episode covers Competitions - Beyond the Kaggle Leaderboard.
-
-Agents should consider this episode when working on machine learning, portfolio, search.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - portfolio
 - search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Tatiana's journey from academia to staff software engineer](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=0)
 - 6:01 - [Machine learning applications in physics and signal processing](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=361)
@@ -67,16 +50,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:46 - [First submission strategies for beginners](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=3466)
 - 1:00:56 - [Asynchronous collaboration and competition team dynamics](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=3656)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, portfolio, search.
-- First pass reading starts with Tatiana's journey from academia to staff software engineer, Machine learning applications in physics and signal processing, Skill development and domain diversification on Kaggle, Agentic AI benchmarks and automated competition entries.
-- Source file: `datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, portfolio, search, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`

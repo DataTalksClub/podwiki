@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-manager-to-data-arch
 
 # Episode: From Hands-On IoT Data Engineering to Leading Data Architecture: Pipelines, Cloud Adaptation & Analytics Modeling
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qWG--iYO2uc)
 - [Listen on Spotify](https://open.spotify.com/episode/7twXPni1q2RJQU2jjbCGty?si=KNCEy-0ZRrWDVchFsDCHjQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-data-manager-to-data-architect-lo%C3%AFc-magnien/id1541710331?i=1000629678056)
 
-## Episode Overview
-
-This episode covers From Hands-On IoT Data Engineering to Leading Data Architecture - Pipelines, Cloud Adaptation & Analytics Modeling.
-
-## Episode Value
-
-This episode covers From Hands-On IoT Data Engineering to Leading Data Architecture - Pipelines, Cloud Adaptation & Analytics Modeling.
-
-Agents should consider this episode when working on data engineering, career transition, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Loïc Magnien](https://datatalks.club/people/loicmagnien.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - career transition
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qWG--iYO2uc&t=0)
 - 1:45 - [Career overview: From data manager to data lead](https://www.youtube.com/watch?v=qWG--iYO2uc&t=105)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:34 - [Design tradeoffs: reusable components vs project-specific solutions](https://www.youtube.com/watch?v=qWG--iYO2uc&t=3574)
 - 1:00:51 - [Follow-up: guest contact and LinkedIn connection](https://www.youtube.com/watch?v=qWG--iYO2uc&t=3651)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, career transition, MLOps.
-- First pass reading starts with Career overview: From data manager to data lead, Early role: Sensor data aggregation & structural health monitoring, Data management vs analyst: responsibilities and data discovery, Automation to data engineering: ETL, scripting, and process automation.
-- Source file: `datatalksclub.github.io/_podcast/from-iot-data-engineering-to-leading-data-architect.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, career transition, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-iot-data-engineering-to-leading-data-architect.md`

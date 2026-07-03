@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-challenges-and-inno
 
 # Episode: Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=_fbe1QyJ1PY)
 - [Listen on Spotify](https://open.spotify.com/episode/7mUMvxP4Efyeh0lhF5CvT6?si=7qqKrsMfQxaZy435s3XIEA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/navigating-challenges-and-innovations-in-search/id1541710331?i=1000639476594)
 
-## Episode Overview
-
-This episode covers Modern Search Systems - Vector Databases, LLMs and Semantic Retrieval.
-
-## Episode Value
-
-This episode covers Modern Search Systems - Vector Databases, LLMs and Semantic Retrieval.
-
-Agents should consider this episode when working on NLP, LLMs, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Atita Arora](https://datatalks.club/people/atitaarora.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - NLP
 - LLMs
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - machine learning
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:55 - [Episode Introduction: search focus and guest overview](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=115)
 - 2:38 - [Background & career beginnings in information retrieval](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=158)
@@ -73,16 +56,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:54 - [Personalization approaches: session-based vs collaborative filtering](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3294)
 - 57:50 - [Learning resources: Intro to Information Retrieval, Relevant Search, Vector](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3470)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around NLP, LLMs, MLOps, machine learning, data engineering.
-- First pass reading starts with Episode Introduction: search focus and guest overview, Background & career beginnings in information retrieval, Early search stack: Solr, Lucene and the Semantic Web era, NLP and search: matching queries to content.
-- Source file: `datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve NLP, LLMs, MLOps, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`

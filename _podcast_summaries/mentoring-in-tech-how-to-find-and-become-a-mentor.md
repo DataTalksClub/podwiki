@@ -13,32 +13,17 @@ youtube_url: "https://www.youtube.com/watch?v=LQvwTNQbPg4"
 
 # Episode: How to Find a Mentor and Become One: Mentoring Strategies for Tech Careers
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=LQvwTNQbPg4)
-
-## Episode Overview
-
-This episode covers How to Find a Mentor and Become One - Mentoring Strategies for Tech Careers.
-
-## Episode Value
-
-This episode covers How to Find a Mentor and Become One - Mentoring Strategies for Tech Careers.
-
-Agents should consider this episode when working on mentoring, career development, career transition.
 
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Rahul Jain](https://datatalks.club/people/rahuljain.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - mentoring
 - career development
@@ -46,9 +31,7 @@ Use these concepts for topic routing and graph connections.
 - leadership
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=0)
 - 1:20 - [Career Journey: From Mining Engineering to Data Engineering & Leadership](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=80)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:50 - [Managing Overwhelm: Diagnosing Causes and Practical Steps](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=3290)
 - 56:30 - [Audience Q&A Highlights](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=3390)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around mentoring, career development, career transition, leadership, data engineering.
-- First pass reading starts with Episode Introduction, Career Journey: From Mining Engineering to Data Engineering & Leadership, Defining Mentoring: Purpose, Scope, and Types, Early Mentoring Experience: Thoughtworks Model and Sponsorship.
-- Source file: `datatalksclub.github.io/_podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve mentoring, career development, career transition, leadership, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.md`

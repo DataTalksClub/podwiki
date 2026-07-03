@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-machine-learning-prod
 
 # Episode: Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=m45tNY-8gY8)
 - [Listen on Spotify](https://open.spotify.com/episode/4jNredXndQ2b2evgfSmD2G?si=gU2kT-zXSX27hDPgLtwMgQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-machine-learning-products-reem-mahmoud/id1541710331?i=1000649393833)
 
-## Episode Overview
-
-This episode covers Production ML Search - Embeddings, Hybrid Architectures and Scalable Indexing.
-
-## Episode Value
-
-This episode covers Production ML Search - Embeddings, Hybrid Architectures and Scalable Indexing.
-
-Agents should consider this episode when working on LLMs, NLP, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - NLP
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:47 - [Guest Introduction: Daniel, Superlinked, and VectorHub](https://www.youtube.com/watch?v=m45tNY-8gY8&t=107)
 - 2:29 - [Career Journey: Competitive programming, startups, and YouTube Ads](https://www.youtube.com/watch?v=m45tNY-8gY8&t=149)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:25 - [Search Metrics: Business KPIs, A/B tests, and revenue attribution](https://www.youtube.com/watch?v=m45tNY-8gY8&t=3685)
 - 1:03:50 - [Operationalization: Enabling engineers, offline tests, and fast iteration](https://www.youtube.com/watch?v=m45tNY-8gY8&t=3830)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, NLP, machine learning, MLOps, data engineering.
-- First pass reading starts with Guest Introduction: Daniel, Superlinked, and VectorHub, Career Journey: Competitive programming, startups, and YouTube Ads, Competitive Programming to Infrastructure: relevance of algorithms, Defining Search: Information retrieval as a decision problem.
-- Source file: `datatalksclub.github.io/_podcast/production-ml-search-vector-search-embeddings-hybrid-search.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, NLP, machine learning, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/production-ml-search-vector-search-embeddings-hybrid-search.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai
 
 # Episode: Responsible & Explainable AI: Practical Guide to Bias Detection, Fairness & Governance
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=8Eb5mG-pC3o)
 - [Listen on Spotify](https://open.spotify.com/episode/0xCSjSCG6tTiMSGfUJrMmO)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai-supreet-kaur/id1541710331?i=1000581178150)
 
-## Episode Overview
-
-This episode covers Responsible & Explainable AI - Practical Guide to Bias Detection, Fairness & Governance.
-
-## Episode Value
-
-This episode covers Responsible & Explainable AI - Practical Guide to Bias Detection, Fairness & Governance.
-
-Agents should consider this episode when working on responsible AI, explainable AI, bias detection.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Supreet Kaur](https://datatalks.club/people/supreetkaur.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - responsible AI
 - explainable AI
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - governance
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction: Responsible and Explainable AI](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=0)
 - 2:14 - [Career Journey: Master''s, Consulting, and Founding DataBuzz](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=134)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:50 - [Data Career Landscape: Analyst, MLOps, Consultant, and Strategist Roles](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=3230)
 - 56:44 - [Ethics Training: Professional Responsibility for Data Practitioners](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=3404)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around responsible AI, explainable AI, bias detection, fairness, governance, tools.
-- First pass reading starts with Episode Introduction: Responsible and Explainable AI, Career Journey: Master''s, Consulting, and Founding DataBuzz, Data Strategy Role: Building AI Products at Morgan Stanley, Responsible AI: Definition, Trust, and Stakeholder Collaboration.
-- Source file: `datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve responsible AI, explainable AI, bias detection, fairness, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`

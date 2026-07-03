@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/visualising-machine-learning-m
 
 # Episode: Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=OuCuk-7RHjM)
 - [Listen on Spotify](https://open.spotify.com/episode/032NhEphm5QDdDFDUIypOL)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/visualising-machine-learning-meor-amer/id1541710331?i=1000555246590)
 
-## Episode Overview
-
-This episode covers Using Visualizations to Explain Machine Learning - Build Intuition with kDimensions, Figma & Templates.
-
-## Episode Value
-
-This episode covers Using Visualizations to Explain Machine Learning - Build Intuition with kDimensions, Figma & Templates.
-
-Agents should consider this episode when working on machine learning, education.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Meor Amer](https://datatalks.club/people/meoramer.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - education
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Visual ML Overview](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=0)
 - 1:56 - [Posting Cadence & Visuals on LinkedIn](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=116)
@@ -74,16 +57,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:01 - [Book Overview: Visual Introduction to Deep Learning (Neuron-by-Neuron)](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=3361)
 - 58:56 - [Book Workflow: Visual-first Layout with Concise Text](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=3536)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, education.
-- First pass reading starts with Episode Introduction & Visual ML Overview, Posting Cadence & Visuals on LinkedIn, Career Journey: Bioengineering → Telecom Analytics → Self-employment, kDimensions: Name & Visual Dimensionality Reduction.
-- Source file: `datatalksclub.github.io/_podcast/visualizing-machine-learning-concepts-to-explain-ml.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, education, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/visualizing-machine-learning-concepts-to-explain-ml.md`

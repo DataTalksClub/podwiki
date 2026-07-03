@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/
 
 # Episode: MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=p1gVaS4Zx5M)
 - [Listen on Spotify](https://open.spotify.com/episode/5gz5lnS7onwRUtbcmpOSuU?si=8cbe799f284c4623)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/id1541710331?i=1000575901051)
 
-## Episode Overview
-
-This episode covers MLOps Architect Guide - Production Model Monitoring, Data Observability & Tooling.
-
-## Episode Value
-
-This episode covers MLOps Architect Guide - Production Model Monitoring, Data Observability & Tooling.
-
-Agents should consider this episode when working on MLOps, tools, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - MLOps
 - tools
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=0)
 - 1:56 - [Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=116)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:23 - [Skillset Advice: Coding, communication, and being an effective Googler](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3023)
 - 55:50 - [WhyLogs vs WhyLabs: Open-source profiling vs SaaS observability](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3350)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, tools, data engineering.
-- First pass reading starts with Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs, Career Journey: From paralegal ambitions to statistics and machine learning, Prior Role: Field Engineer / Solutions Engineer experience, Role Definition: MLOps Architect as technical-business bridge.
-- Source file: `datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, tools, data engineering, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-physics-to-machine-learni
 
 # Episode: Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=wJPi6Ip9PX0)
 - [Listen on Spotify](https://open.spotify.com/episode/4Kk7xXfD5t2VHnLDHpdW1y)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-physics-to-machine-learning-tatiana-gabruseva/id1541710331?i=1000521740775)
 
-## Episode Overview
-
-This episode covers Switch to Computer Vision & Deep Learning - Roadmap, Kaggle Projects, Mentors & Interview Prep.
-
-## Episode Value
-
-This episode covers Switch to Computer Vision & Deep Learning - Roadmap, Kaggle Projects, Mentors & Interview Prep.
-
-Agents should consider this episode when working on career transition, physics, deep learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - career transition
 - physics
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - academia
 - mentorship
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=0)
 - 1:57 - [Career origin: physics PhD to computer vision deep learning](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=117)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:33 - [Leaving academia: lab constraints, maternity leaves and cloud credits](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=3753)
 - 1:04:34 - [Interview preparation: LeetCode, mock interviews and system design prep](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=3874)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, physics, deep learning, machine learning, career growth, academia.
-- First pass reading starts with Career origin: physics PhD to computer vision deep learning, Transition catalyst: maternity leave, online courses and internship, Career-change summary: sharing a Twitter thread of practical lessons, Network makeover: building supportive data science circles.
-- Source file: `datatalksclub.github.io/_podcast/from-physics-to-computer-vision-career-transition.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, physics, deep learning, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-physics-to-computer-vision-career-transition.md`

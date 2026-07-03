@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/can-you-quit-your-job-and-stil
 
 # Episode: Building a Sustainable Data Freelancing Career: Market Validation, Client Acquisition & Strategic Positioning
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=S93V8RgwBig)
 - [Listen on Spotify](https://open.spotify.com/episode/3BknrKqhLggx1G5ZbrfgFc)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/can-you-quit-your-job-and-still-succeed-as-a-data-freelancer/id1541710331?i=1000718997257)
 
-## Episode Overview
-
-This episode covers Building a Sustainable Data Freelancing Career - Market Validation, Client Acquisition & Strategic Positioning.
-
-## Episode Value
-
-This episode covers Building a Sustainable Data Freelancing Career - Market Validation, Client Acquisition & Strategic Positioning.
-
-Agents should consider this episode when working on Freelance, Career Growth, Consulting.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - Freelance
 - Career Growth
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - Remote Work
 - Business Development
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Opening & Dimitri's Data Journey](https://www.youtube.com/watch?v=S93V8RgwBig&t=0)
 - 5:41 - [Job Tenure Trends & Freelancer Types](https://www.youtube.com/watch?v=S93V8RgwBig&t=341)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:47 - [Pricing Strategies: Hourly, Project Packages, and Transitioning](https://www.youtube.com/watch?v=S93V8RgwBig&t=3407)
 - 1:01:02 - [Notice Periods & Transition Planning for Freelancers](https://www.youtube.com/watch?v=S93V8RgwBig&t=3662)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around Freelance, Career Growth, Consulting, Personal Branding, Entrepreneurship, Remote Work.
-- First pass reading starts with Episode Opening & Dimitri's Data Journey, Job Tenure Trends & Freelancer Types, Expertise vs Problem-Solving in Freelance Work, Validating Freelance Viability: Financial Targets.
-- Source file: `datatalksclub.github.io/_podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve Freelance, Career Growth, Consulting, Personal Branding, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.md`

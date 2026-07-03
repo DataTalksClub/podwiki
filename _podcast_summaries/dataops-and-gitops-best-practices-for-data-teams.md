@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-t
 
 # Episode: DataOps & GitOps for Data Teams: Onboarding, IaC, Reproducibility & Production Best Practices
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=lem7knxqNzg)
 - [Listen on Spotify](https://open.spotify.com/episode/6jLgdl59sVCdVNJezdIqJY?si=NXasnXtFQVO0KAcCFbvUtQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-tomasz-hinc/id1541710331?i=1000583457504)
 
-## Episode Overview
-
-This episode covers DataOps & GitOps for Data Teams - Onboarding, IaC, Reproducibility & Production Best Practices.
-
-## Episode Value
-
-This episode covers DataOps & GitOps for Data Teams - Onboarding, IaC, Reproducibility & Production Best Practices.
-
-Agents should consider this episode when working on DataOps, GitOps, data teams.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - DataOps
 - GitOps
 - data teams
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lem7knxqNzg&t=0)
 - 1:40 - [Guest Introduction & Episode Overview](https://www.youtube.com/watch?v=lem7knxqNzg&t=100)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:27 - [Reproducibility & Dependencies: Fixed Versions, Docker, Silent Failures](https://www.youtube.com/watch?v=lem7knxqNzg&t=3687)
 - 1:02:28 - [Confidence in Data: Pragmatic Edge-Case Checks & Airflow Caveats](https://www.youtube.com/watch?v=lem7knxqNzg&t=3748)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around DataOps, GitOps, data teams, tools.
-- First pass reading starts with Guest Introduction & Episode Overview, Career Journey: Econometrics → ML Trainee → Data Roles, Early Experience: OLX, Government Statistics, Academia, ML Education: Multi-Dimensional Analysis to Machine Learning.
-- Source file: `datatalksclub.github.io/_podcast/dataops-and-gitops-best-practices-for-data-teams.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve DataOps, GitOps, data teams, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/dataops-and-gitops-best-practices-for-data-teams.md`

@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-s
 
 # Episode: Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=eC3RNuI6ow0)
 - [Listen on Spotify](https://open.spotify.com/episode/2RD2qXaYa2ZjKjuIE7Aj6O)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-systems-in-the-age-of/id1541710331?i=1000733350691)
 
-## Episode Overview
-
-This episode covers Practical LLM Engineering and RAG - Prompting, Evaluation and Real-World Workflows.
-
-## Episode Value
-
-This episode covers Practical LLM Engineering and RAG - Prompting, Evaluation and Real-World Workflows.
-
-Agents should consider this episode when working on LLMs, NLP, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - NLP
 - MLOps
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Kickoff & Hugo Bowne-Anderson Background](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=0)
 - 1:12 - [Vanishing Gradients vs High Signal: Podcast Formats & Audiences](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=72)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:41 - [Memory Design: Retrieval-Based Memory vs Multi-Turn Conversation Memory](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3461)
 - 1:00:55 - [Episode Wrap-Up: Key Takeaways, Courses, and Next Steps](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3655)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, NLP, MLOps, tools.
-- First pass reading starts with Podcast Kickoff & Hugo Bowne-Anderson Background, Vanishing Gradients vs High Signal: Podcast Formats & Audiences, From Academia to Industry: Biology Research, Python, and PyData, Early Industry Work: DataCamp Curriculum and Product Roles.
-- Source file: `datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, NLP, MLOps, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`

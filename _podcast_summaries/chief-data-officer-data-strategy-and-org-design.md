@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa
 
 # Episode: Mastering the Chief Data Officer Role: Build Data Strategy, Org Design & AI
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IdaZOD46FEw)
 - [Listen on Spotify](https://open.spotify.com/episode/64lEB0Wv0a6DfkDi672Ulk)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa/id1541710331?i=1000533326308)
 
-## Episode Overview
-
-This episode covers Mastering the Chief Data Officer Role - Build Data Strategy, Org Design & AI.
-
-## Episode Value
-
-This episode covers Mastering the Chief Data Officer Role - Build Data Strategy, Org Design & AI.
-
-Agents should consider this episode when working on data strategy, data governance, AI.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Marco De Sa](https://datatalks.club/people/marcodesa.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data strategy
 - data governance
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - communication
 - team building
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IdaZOD46FEw&t=0)
 - 1:18 - [Guest Overview: Marco''s Career & Roles](https://www.youtube.com/watch?v=IdaZOD46FEw&t=78)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:36 - [Interviewing for CDO: Demonstrating Strategic Thinking](https://www.youtube.com/watch?v=IdaZOD46FEw&t=3396)
 - 59:40 - [Overcoming Resistance: Persuasion, Evidence, and Constraints](https://www.youtube.com/watch?v=IdaZOD46FEw&t=3580)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data strategy, data governance, AI, leadership, career growth, communication.
-- First pass reading starts with Guest Overview: Marco''s Career & Roles, Industry Experience: Yahoo, Facebook, Twitter, Spotify, Transition to OLX Group and CDO Appointment, Chief Data Officer Scope: Data Strategy, Governance, AI.
-- Source file: `datatalksclub.github.io/_podcast/chief-data-officer-data-strategy-and-org-design.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data strategy, data governance, AI, leadership, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/chief-data-officer-data-strategy-and-org-design.md`

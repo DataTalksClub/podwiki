@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-digital-marketing-to-anal
 
 # Episode: Marketing to Analytics Engineering: DBT, SQL, Data Modeling & Career Playbook
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=GawJ7mG5ElQ)
 - [Listen on Spotify](https://open.spotify.com/episode/5VwS6ijaToirTzR7Xd5Phw?si=OsOVLOzBSt2sIgvbRS3krg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-digital-marketing-to-analytics-engineering-nikola/id1541710331?i=1000586740912)
 
-## Episode Overview
-
-This episode covers Marketing to Analytics Engineering - DBT, SQL, Data Modeling & Career Playbook.
-
-## Episode Value
-
-This episode covers Marketing to Analytics Engineering - DBT, SQL, Data Modeling & Career Playbook.
-
-Agents should consider this episode when working on data science, analytics engineering, career transition.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - analytics engineering
 - career transition
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Overview: Switching from Marketing to Analytics Engineering](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=0)
 - 0:32 - [Early Career & Startup Experience: London, Berlin, Movinga](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=32)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:10 - [Reading List: Analytics Newsletters & Blogs (DBT roundup, Lenny's, Locally](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3130)
 - 53:46 - [Contact & Wrap-Up: Finding Nikola on LinkedIn and Episode Close](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3226)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, analytics engineering, career transition, tools.
-- First pass reading starts with Episode Overview: Switching from Marketing to Analytics Engineering, Early Career & Startup Experience: London, Berlin, Movinga, Marketing Role at Ecosia: Generalist Tasks and Responsibility Growth, Performance Marketing: Rapid Feedback Loops and Data-Driven Optimization.
-- Source file: `datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, analytics engineering, career transition, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`

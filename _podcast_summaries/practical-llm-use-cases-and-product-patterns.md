@@ -15,40 +15,23 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-good-the-bad-and-the-ugly-
 
 # Episode: LLM Value Creation: GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bM6AR4A-f98)
 - [Listen on Spotify](https://open.spotify.com/episode/5fZ89re1YLiVZ7QNxdoKVH?si=pD96Dv_tRvaHci5N8PZv9g)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-good-the-bad-and-the-ugly-of-gpt-sandra-kublik/id1541710331?i=1000623464507)
 
-## Episode Overview
-
-This episode covers LLM Value Creation - GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications.
-
-## Episode Value
-
-This episode covers LLM Value Creation - GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications.
-
-Agents should consider this episode when working on LLMs.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Sandra Kublik](https://datatalks.club/people/sandrakublik.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - LLMs
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bM6AR4A-f98&t=0)
 - 1:15 - [Guest Introduction: Sandra Kublik, AI entrepreneur and GPT-3 author](https://www.youtube.com/watch?v=bM6AR4A-f98&t=75)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:30 - [Contact & Social: Where to find Sandra online (YouTube, X, LinkedIn)](https://www.youtube.com/watch?v=bM6AR4A-f98&t=3630)
 - 1:01:04 - [Episode Wrap-Up and Next Steps](https://www.youtube.com/watch?v=bM6AR4A-f98&t=3664)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs.
-- First pass reading starts with Guest Introduction: Sandra Kublik, AI entrepreneur and GPT-3 author, LLM Landscape: Why GPT and large language models are everywhere, Career Journey: Nextgrid, Lablab.AI and YouTube entry into AI, Early GPT Community: Gaining access and demo-driven growth.
-- Source file: `datatalksclub.github.io/_podcast/practical-llm-use-cases-and-product-patterns.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/practical-llm-use-cases-and-product-patterns.md`

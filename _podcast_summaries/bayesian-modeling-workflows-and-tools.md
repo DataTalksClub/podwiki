@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabil
 
 # Episode: Bayesian Modeling: PyMC, Stan and Probabilistic Programming Workflows
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kcKvUSInm-M)
 - [Listen on Spotify](https://open.spotify.com/episode/5WUKDcTYv8ZvnqeHSQT7FF?si=K10siPBHQwmegCCXJ1VpIA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabilistic-programming-rob/id1541710331?i=1000642253191)
 
-## Episode Overview
-
-This episode covers Bayesian Modeling - PyMC, Stan and Probabilistic Programming Workflows.
-
-## Episode Value
-
-This episode covers Bayesian Modeling - PyMC, Stan and Probabilistic Programming Workflows.
-
-Agents should consider this episode when working on probabilistic programming, bayesian statistics, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Rob Zinkov](https://datatalks.club/people/robzinkov.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - probabilistic programming
 - bayesian statistics
 - machine learning
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=kcKvUSInm-M&t=0)
 - 1:44 - [Guest Introduction: Rob Zinkov and the Hakaru probabilistic programming project](https://www.youtube.com/watch?v=kcKvUSInm-M&t=104)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:47 - [Learning Resources: PyMC book, Statistical Rethinking course, and tutorials](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3647)
 - 1:05:53 - [Consulting & Contact: Rob's statistical consulting and email](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3953)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around probabilistic programming, bayesian statistics, machine learning, tools.
-- First pass reading starts with Episode Introduction & Topic Overview, Guest Introduction: Rob Zinkov and the Hakaru probabilistic programming project, Career Journey: From software engineering to machine learning research, Industry vs Academia: Applying Bayesian tools in real problems.
-- Source file: `datatalksclub.github.io/_podcast/bayesian-modeling-workflows-and-tools.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve probabilistic programming, bayesian statistics, machine learning, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/bayesian-modeling-workflows-and-tools.md`

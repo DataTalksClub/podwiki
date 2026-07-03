@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-a
 
 # Episode: Launching a Freelance Generative AI Business: NLP Services and Client Acquisition
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=4RargY8iOaE)
 - [Listen on Spotify](https://open.spotify.com/episode/7gJI3ds3k1vXd3m3W9iRj9?si=oG6A7BuTSjaEoH6FhvEVug)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-amazon-to-a/id1541710331?i=1000634411188)
 
-## Episode Overview
-
-This episode covers Launching a Freelance Generative AI Business - NLP Services and Client Acquisition.
-
-## Episode Value
-
-This episode covers Launching a Freelance Generative AI Business - NLP Services and Client Acquisition.
-
-Agents should consider this episode when working on AI, LLMs, NLP.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Verena Weber](https://datatalks.club/people/verenaweber.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - LLMs
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=4RargY8iOaE&t=0)
 - 1:46 - [Early Education: From Economics & Chinese to Statistics](https://www.youtube.com/watch?v=4RargY8iOaE&t=106)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:06 - [Educational Foundation: Statistics, Probability, and Reading Papers](https://www.youtube.com/watch?v=4RargY8iOaE&t=3306)
 - 57:53 - [Recommended Resources: Books and Podcasts](https://www.youtube.com/watch?v=4RargY8iOaE&t=3473)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, LLMs, NLP, freelance, production, career transition.
-- First pass reading starts with Episode Introduction, Early Education: From Economics & Chinese to Statistics, Discovering Data Science During Master's Studies, Career Progression: Consulting, In-house Roles, and Platform Data.
-- Source file: `datatalksclub.github.io/_podcast/practical-generative-ai-consulting-from-expertise-to-impact.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, LLMs, NLP, freelance, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/practical-generative-ai-consulting-from-expertise-to-impact.md`

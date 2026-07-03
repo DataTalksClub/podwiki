@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-
 
 # Episode: Practical Algorithms for Engineers: Bloom Filters, Approximate Nearest-Neighbor & Performance
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=RiQa-9LguW8)
 - [Listen on Spotify](https://open.spotify.com/episode/5IM2Des1sjVIwrvB3dGoJN)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-structures-marcello-la/id1541710331?i=1000534241523)
 
-## Episode Overview
-
-This episode covers Practical Algorithms for Engineers - Bloom Filters, Approximate Nearest-Neighbor & Performance.
-
-## Episode Value
-
-This episode covers Practical Algorithms for Engineers - Bloom Filters, Approximate Nearest-Neighbor & Performance.
-
-Agents should consider this episode when working on algorithms, data structures, software engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - algorithms
 - data structures
 - software engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=RiQa-9LguW8&t=0)
 - 1:51 - [Guest Intro: Marcello La Rocca and book announcement](https://www.youtube.com/watch?v=RiQa-9LguW8&t=111)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:53 - [Hands-on Learning: LeetCode, contests, open-source projects](https://www.youtube.com/watch?v=RiQa-9LguW8&t=3533)
 - 1:00:39 - [Language Trade-offs: Python vs C++ and using Cython for performance](https://www.youtube.com/watch?v=RiQa-9LguW8&t=3639)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around algorithms, data structures, software engineering.
-- First pass reading starts with Guest Intro: Marcello La Rocca and book announcement, Career Path: web development to Twitter, Microsoft, Apple, Tundra, Learning Philosophy: focus on applications over formal proofs, Anecdote: mathematical proof vs practical innovation.
-- Source file: `datatalksclub.github.io/_podcast/algorithms-data-structures-for-engineers.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve algorithms, data structures, software engineering, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/algorithms-data-structures-for-engineers.md`

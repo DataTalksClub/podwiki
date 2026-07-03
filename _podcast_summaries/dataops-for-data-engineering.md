@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-observability-and-the-
 
 # Episode: DataOps for Data Engineering: Automation, Observability, CI/CD & Reliable ML Deployments
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-for-data-engineering.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/dataops-for-data-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HzGpIxV8HtA)
 - [Listen on Spotify](https://open.spotify.com/episode/02VoOk5UkMcvfq7VkSOegb)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/dataops-observability-and-the-cure-for-data-team/id1541710331?i=1000665429770)
 
-## Episode Overview
-
-This episode covers DataOps for Data Engineering - Automation, Observability, CI/CD & Reliable ML Deployments.
-
-## Episode Value
-
-This episode covers DataOps for Data Engineering - Automation, Observability, CI/CD & Reliable ML Deployments.
-
-Agents should consider this episode when working on DataOps, MLOps, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - DataOps
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - practices
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=0)
 - 2:12 - [Guest Introduction: Christopher Bergh & DataKitchen](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=132)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:34 - [Practical Starting Steps for Individual Contributors](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=3514)
 - 1:01:20 - [Closing Summary and Next Steps](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=3680)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around DataOps, MLOps, data engineering, production, practices.
-- First pass reading starts with Guest Introduction: Christopher Bergh & DataKitchen, Career Journey: From Software Engineering to Data Entrepreneurship, Pre-cloud Data Engineering Challenges (SQL Server, scaling), DevOps Adoption Timeline and Early Lessons.
-- Source file: `datatalksclub.github.io/_podcast/dataops-for-data-engineering.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve DataOps, MLOps, data engineering, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/dataops-for-data-engineering.md`

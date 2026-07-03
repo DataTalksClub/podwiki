@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data
 
 # Episode: Solopreneur Guide: Diversify Income with Courses, Consulting, Books & Side-Gigs
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gCLUY37HGtw)
 - [Listen on Spotify](https://open.spotify.com/episode/264kr8rkSV71NwlU3kphHm)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data-noah-gift/id1541710331?i=1000540908616)
 
-## Episode Overview
-
-This episode covers Solopreneur Guide - Diversify Income with Courses, Consulting, Books & Side-Gigs.
-
-## Episode Value
-
-This episode covers Solopreneur Guide - Diversify Income with Courses, Consulting, Books & Side-Gigs.
-
-Agents should consider this episode when working on solopreneurship, entrepreneurship, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Noah Gift](https://datatalks.club/people/noahgift.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - solopreneurship
 - entrepreneurship
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - consulting
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gCLUY37HGtw&t=0)
 - 1:14 - [Episode Topic & Guest Overview: Becoming a Solopreneur with Noah Gift](https://www.youtube.com/watch?v=gCLUY37HGtw&t=74)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:24 - [University Teaching Path: Leverage Expertise, Professors, and Written Work](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3504)
 - 1:00:00 - [Contact & Resources: NoahGift.com and LinkedIn](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3600)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around solopreneurship, entrepreneurship, career growth, career transition, consulting.
-- First pass reading starts with Episode Topic & Guest Overview: Becoming a Solopreneur with Noah Gift, Early Career: TV, Caltech, Disney and Film Pipeline Experience, Transition to Independent Work: Solopreneur Since 2017, Defining Solopreneurship: Intentional Smallness and Revenue Diversification.
-- Source file: `datatalksclub.github.io/_podcast/solopreneur-developer-and-data-professional.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve solopreneurship, entrepreneurship, career growth, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/solopreneur-developer-and-data-professional.md`

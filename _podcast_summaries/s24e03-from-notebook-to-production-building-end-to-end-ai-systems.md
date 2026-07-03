@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-notebook-to-production-bu
 
 # Episode: From Notebook to Production: Building End-to-End AI Systems
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=nsekJOwU2tY)
 - [Listen on Spotify](https://open.spotify.com/episode/6RJ1b1iUk595w1LScQIWR6?si=a6bb80971196466b)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-notebook-to-production-building-end-to-end-ai/id1541710331?i=1000770208010)
 
-## Episode Overview
-
-This episode covers From Notebook to Production - Building End-to-End AI Systems.
-
-## Episode Value
-
-This episode covers From Notebook to Production - Building End-to-End AI Systems.
-
-Agents should consider this episode when working on data science, llms.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data science
 - llms
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Community Introduction and Slack Engagement](https://www.youtube.com/watch?v=nsekJOwU2tY&t=0)
 - 4:17 - [Career Journey: From Argentina to Barcelona](https://www.youtube.com/watch?v=nsekJOwU2tY&t=257)
@@ -67,16 +50,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:28 - [The Declining Role of Notebooks in Production](https://www.youtube.com/watch?v=nsekJOwU2tY&t=3328)
 - 1:02:53 - [The Modern Tech Stack: Fast API, UV, and Arize](https://www.youtube.com/watch?v=nsekJOwU2tY&t=3773)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, llms.
-- First pass reading starts with Community Introduction and Slack Engagement, Career Journey: From Argentina to Barcelona, Product-Driven AI vs. Traditional Reporting, AI Media Solutions for E-Commerce Sellers.
-- Source file: `datatalksclub.github.io/_podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, llms, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.md`

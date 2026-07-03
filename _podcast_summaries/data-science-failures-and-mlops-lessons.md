@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-data-scientists-dont-ment
 
 # Episode: Turn Data Science Project Failures into Career Wins: Production Lessons, MLOps Fixes & Framing Failures on LinkedIn
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=c6dK1LWpv4g)
 - [Listen on Spotify](https://open.spotify.com/episode/3KR6zErxqeDuQ2jo8NDvNx)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/what-data-scientists-dont-mention-in-their-linkedin/id1541710331?i=1000524260842)
 
-## Episode Overview
-
-This episode covers Turn Data Science Project Failures into Career Wins - Production Lessons, MLOps Fixes & Framing Failures on LinkedIn.
-
-## Episode Value
-
-This episode covers Turn Data Science Project Failures into Career Wins - Production Lessons, MLOps Fixes & Framing Failures on LinkedIn.
-
-Agents should consider this episode when working on machine learning, MLOps, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Yury Kashnitsky](https://datatalks.club/people/yurykashnitsky.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
 - career growth
 - communication
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=0)
 - 1:30 - [Episode Theme: Failures and LinkedIn Omissions](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=90)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:36 - [Closing Thoughts: Embracing Failures and Building Resilience](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=3516)
 - 1:00:24 - [Contact & Resources: Open Course and Social Links](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=3624)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, career growth, communication.
-- First pass reading starts with Episode Introduction, Episode Theme: Failures and LinkedIn Omissions, Guest Opening: Background Snapshot, Career Journey: Aviation, Academia, and Transition to NLP.
-- Source file: `datatalksclub.github.io/_podcast/data-science-failures-and-mlops-lessons.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, career growth, communication, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-failures-and-mlops-lessons.md`

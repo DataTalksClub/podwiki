@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id
 
 # Episode: DataOps 101 for Scaling Data Platforms: Immutable Pipelines, Self-Service Lakehouse & Reproducibility
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vyF3yGsF6UY)
 - [Listen on Spotify](https://open.spotify.com/episode/5c2m4FVq4KPCfSXndCAzNd)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id1541710331?i=1000514542438)
 
-## Episode Overview
-
-This episode covers DataOps 101 for Scaling Data Platforms - Immutable Pipelines, Self-Service Lakehouse & Reproducibility.
-
-## Episode Value
-
-This episode covers DataOps 101 for Scaling Data Platforms - Immutable Pipelines, Self-Service Lakehouse & Reproducibility.
-
-Agents should consider this episode when working on DataOps, date engineering, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lars Albertsson](https://datatalks.club/people/larsalbertsson.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - DataOps
 - date engineering
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 2:39 - [Episode Opening & Guest Introduction](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=159)
 - 3:38 - [Career Journey: Google, Spotify, Consulting and Scling](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=218)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:07:52 - [Lakehouse Architecture: Warehouse Features Layered on Data Lake](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=4072)
 - 1:11:01 - [Further Resources: Scling Reading List & Presentations](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=4261)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around DataOps, date engineering, MLOps.
-- First pass reading starts with Episode Opening & Guest Introduction, Career Journey: Google, Spotify, Consulting and Scling, Scaling Data Teams: Building Self-Service at Spotify, Orchestration Spotlight: Luigi as a Data Build System.
-- Source file: `datatalksclub.github.io/_podcast/dataops-principles-and-scalable-data-platforms.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve DataOps, date engineering, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/dataops-principles-and-scalable-data-platforms.md`

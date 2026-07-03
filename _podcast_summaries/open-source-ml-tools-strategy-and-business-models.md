@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/working-in-open-source-probabl
 
 # Episode: Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=UPlIETGwTg8)
 - [Listen on Spotify](https://open.spotify.com/episode/0HT3IQOaTXTMH0OdEBnw9s?si=HrLtx7QKT_amZyUbZuqRzQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/working-in-open-source-probabl-ai-and-sklearn-vincent/id1541710331?i=1000654481795)
 
-## Episode Overview
-
-This episode covers Open Source ML Tools - Scikit-Learn Governance, Sustainability and Business Models.
-
-## Episode Value
-
-This episode covers Open Source ML Tools - Scikit-Learn Governance, Sustainability and Business Models.
-
-Agents should consider this episode when working on open-source, machine learning, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - open-source
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - developer relations
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Overview - Open Source Focus](https://www.youtube.com/watch?v=UPlIETGwTg8&t=0)
 - 1:40 - [Guest Reintroduction & Vincent's Open Source Profile](https://www.youtube.com/watch?v=UPlIETGwTg8&t=100)
@@ -85,16 +68,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:17 - [Live Experiments: Converting Tree Models to SQL and Streaming Work](https://www.youtube.com/watch?v=UPlIETGwTg8&t=3497)
 - 1:00:27 - [Live Stream Format: Preparation, Live Coding, and Demos](https://www.youtube.com/watch?v=UPlIETGwTg8&t=3627)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around open-source, machine learning, data science, tools, developer relations.
-- First pass reading starts with Episode Overview - Open Source Focus, Guest Reintroduction & Vincent's Open Source Profile, Early Community Work & PyLadies Code Sprint, Scikit Lego Origin, Adoption, and Career Impact.
-- Source file: `datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve open-source, machine learning, data science, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`

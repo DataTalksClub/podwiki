@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-started-with-open-sour
 
 # Episode: Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-ml-contributions.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/open-source-ml-contributions.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IxV9EH-tphQ)
 - [Listen on Spotify](https://open.spotify.com/episode/1dsbDeVncfsEg3m3cYB927)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/getting-started-with-open-source-vincent-warmerdam/id1541710331?i=1000507024598)
 
-## Episode Overview
-
-This episode covers Contribute to Open Source ML - scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI.
-
-## Episode Value
-
-This episode covers Contribute to Open Source ML - scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI.
-
-Agents should consider this episode when working on open-source, data science, career development.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - open-source
 - data science
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - machine learning
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction and Episode Overview](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=0)
 - 1:10 - [Guest Background: From Design Student to Data Scientist](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=70)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 36:40 - [Future Focus: Building Personal Automation with Rasa](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=2200)
 - 37:30 - [Resources: calmcode.io, Project Repositories, and Contribution Paths](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=2250)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around open-source, data science, career development, contributing, machine learning, tools.
-- First pass reading starts with Guest Background: From Design Student to Data Scientist, Career Pivot: Teaching, Consulting, and Early AI Courses, Role Explained: Research Advocate Responsibilities, Company Overview: Rasa''s Open Source Conversational AI.
-- Source file: `datatalksclub.github.io/_podcast/open-source-ml-contributions.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve open-source, data science, career development, contributing, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/open-source-ml-contributions.md`

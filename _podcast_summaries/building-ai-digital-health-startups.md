@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-digital-health-maria-br
 
 # Episode: Building Digital Health Startups: MVP Strategy, AI Diagnosis and Telemedicine
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=whpkDmVVGUE)
 - [Listen on Spotify](https://open.spotify.com/episode/2NE0vbiYwXxOuqychHIqBR?si=QdRyuJvSRE2V3bLwHaEv-Q)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-for-digital-health-maria-bruckert/id1541710331?i=1000637212773)
 
-## Episode Overview
-
-This episode covers Building Digital Health Startups - MVP Strategy, AI Diagnosis and Telemedicine.
-
-## Episode Value
-
-This episode covers Building Digital Health Startups - MVP Strategy, AI Diagnosis and Telemedicine.
-
-Agents should consider this episode when working on AI, computer vision, data strategy.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Maria Bruckert](https://datatalks.club/people/mariabruckert.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - computer vision
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - startups
 - healthcare
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=whpkDmVVGUE&t=0)
 - 0:49 - [Career Journey: From Electrical Engineering to Founding SQIN](https://www.youtube.com/watch?v=whpkDmVVGUE&t=49)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 51:07 - [Cultural Upside: Entrepreneurial Mindset Passed to Children](https://www.youtube.com/watch?v=whpkDmVVGUE&t=3067)
 - 52:18 - [Closing Remarks and Next Steps](https://www.youtube.com/watch?v=whpkDmVVGUE&t=3138)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, computer vision, data strategy, product management, startups, healthcare.
-- First pass reading starts with Career Journey: From Electrical Engineering to Founding SQIN, Founder Approach: Industry Immersion, MVP Development, Why Healthcare: Digitization Opportunity in Medical Systems, Healthcare Challenges: Data Gaps, Rural Access, and Legacy Workflows.
-- Source file: `datatalksclub.github.io/_podcast/building-ai-digital-health-startups.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, computer vision, data strategy, product management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-ai-digital-health-startups.md`

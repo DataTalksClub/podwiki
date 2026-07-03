@@ -1,18 +1,8 @@
 ---
 layout: person
 title: "Leonid Kholkine"
-summary: "Leonid Kholkine's DataTalks.Club podcast discussions, organized for topic exploration."
+summary: "Leonid Kholkine's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/leonidkholkine.html"
 podcast_episodes: ["s23e09-starting-data-conference-data-makers-fest-story"]
 linkedin: "kholkine"
 ---
-
-# Leonid Kholkine
-
-## Background
-
-Leonid Kholkine is Head of R&D at DareData and co-founder of Data Makers Fest, a conference for data practitioners focused on practical knowledge and real-world experience.
-
-## Podcast Discussions
-
-- [Starting a Data Conference: The Data Makers Fest Story](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html). Discussed: Community Building in Data and AI; Computer Engineering and International Leadership Roots; Machine Learning Research in Sports Physiology; Data Lead Club and Executive Networking Retreats. Related topics: [community building]({{ '/wiki/community-building/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [leadership]({{ '/wiki/leadership/' | relative_url }}), [search]({{ '/wiki/search/' | relative_url }}), community building data, building data ai.

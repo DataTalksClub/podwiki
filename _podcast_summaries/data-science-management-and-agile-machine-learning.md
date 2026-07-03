@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-scien
 
 # Episode: Master Data Science Management: Agile ML, Debrief Culture, Metrics & Scale to Production
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gcxP0qRO-MY)
 - [Listen on Spotify](https://open.spotify.com/episode/4kzcUCVPVN1Opq7XI1Dibd?si=f7GlEOs-TFiC9dxTJlXVyw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-science-management-shir-meir-lador/id1541710331?i=1000606790142)
 
-## Episode Overview
-
-This episode covers Master Data Science Management - Agile ML, Debrief Culture, Metrics & Scale to Production.
-
-## Episode Value
-
-This episode covers Master Data Science Management - Agile ML, Debrief Culture, Metrics & Scale to Production.
-
-Agents should consider this episode when working on management, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Shir Meir Lador](https://datatalks.club/people/shirmeirlador.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - management
 - machine learning
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:40 - [Episode Introduction: The Secret Sauce of Data Science Management](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=100)
 - 2:40 - [Career Background: Electrical Engineering to Document Intelligence at Intuit](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=160)
@@ -71,16 +54,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:59 - [POC to Production: Customer-focused Metrics, A/B Testing and Incremental](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=3299)
 - 58:18 - [Resources & Further Reading: Shir's Talks and Blog Posts](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=3498)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around management, machine learning.
-- First pass reading starts with Episode Introduction: The Secret Sauce of Data Science Management, Career Background: Electrical Engineering to Document Intelligence at Intuit, Military Leadership Lessons: Pilot Training & Debrief Culture Origins, Debriefing Practice: Pre/post Focus Areas for Continuous Improvement.
-- Source file: `datatalksclub.github.io/_podcast/data-science-management-and-agile-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve management, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-management-and-agile-machine-learning.md`

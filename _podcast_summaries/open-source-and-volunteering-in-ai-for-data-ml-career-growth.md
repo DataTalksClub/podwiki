@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/make-an-impact-through-volunte
 
 # Episode: Open Source and Volunteering: Building AI Projects and Career Momentum
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=aHdaIwOEI8Q)
 - [Listen on Spotify](https://open.spotify.com/episode/7tZSSgv1yAlnoMyB4ggQmb?si=AqDaME2QS26usoZjOEWNtQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/make-an-impact-through-volunteering-open-source-work/id1541710331?i=1000646627892)
 
-## Episode Overview
-
-This episode covers Open Source and Volunteering - Building AI Projects and Career Momentum.
-
-## Episode Value
-
-This episode covers Open Source and Volunteering - Building AI Projects and Career Momentum.
-
-Agents should consider this episode when working on computer vision, machine learning, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - computer vision
 - machine learning
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - mentorship
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=0)
 - 1:43 - [Episode Overview: Volunteering, Open Source & Community Impact](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=103)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:05 - [Roles for Data Engineers: Data Preparation, Pipelines, and Dashboards](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3365)
 - 58:17 - [Opportunity Sources: WIML, Conference Feeds, and Newsletters](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3497)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around computer vision, machine learning, data engineering, open-source, career development, mentorship.
-- First pass reading starts with Episode Overview: Volunteering, Open Source & Community Impact, Career Origins: Early AI Interest and Education Path, Academic Focus: Big Data Specialization and Computer Vision, PhD Research: Multimodal Learning for COVID-19 & Medical Imaging.
-- Source file: `datatalksclub.github.io/_podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve computer vision, machine learning, data engineering, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/
 
 # Episode: Deploying LLMs in Production: Fine-Tuning, Retrieval & Open-Source vs API Tradeoffs
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6dn6uZFkk04)
 - [Listen on Spotify](https://open.spotify.com/episode/0tmi2ytNk1bEPldcbhkvhN?si=DtU2OM3RTFmPBdY8sFCv5g)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/id1541710331?i=1000622675129)
 
-## Episode Overview
-
-This episode covers Deploying LLMs in Production - Fine-Tuning, Retrieval & Open-Source vs API Tradeoffs.
-
-## Episode Value
-
-This episode covers Deploying LLMs in Production - Fine-Tuning, Retrieval & Open-Source vs API Tradeoffs.
-
-Agents should consider this episode when working on LLMs, MLOps, open-source.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Meryem Arik](https://datatalks.club/people/meryemarik.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - retrieval-augmented generation
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction: LLMs for Everyone](https://www.youtube.com/watch?v=6dn6uZFkk04&t=0)
 - 1:07 - [Guest Introduction: Meryem Arik and TitanML](https://www.youtube.com/watch?v=6dn6uZFkk04&t=67)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:39 - [Evaluation & Benchmarking: classification vs generative metrics and human](https://www.youtube.com/watch?v=6dn6uZFkk04&t=3399)
 - 59:08 - [Learning Resources: Hugging Face, Cohere LLM University, community content](https://www.youtube.com/watch?v=6dn6uZFkk04&t=3548)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, MLOps, open-source, production, retrieval-augmented generation.
-- First pass reading starts with Episode Introduction: LLMs for Everyone, Guest Introduction: Meryem Arik and TitanML, Career Journey: Theoretical Physics → Banking → Tech, Founding TitanML: pivot from computer vision to LLM deployability.
-- Source file: `datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, MLOps, open-source, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`

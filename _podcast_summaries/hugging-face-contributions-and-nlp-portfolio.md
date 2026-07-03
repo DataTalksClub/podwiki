@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-fo
 
 # Episode: Contribute to Hugging Face & Build an NLP Portfolio: Open Source, Datasets, Spaces
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SnEYvF-Ztb8)
 - [Listen on Spotify](https://open.spotify.com/episode/5k60LWIwnMpvaIbTaryRv4?si=liHqmXVYT-uB1PO4uB65OQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-for-open-source-merve-noyan/id1541710331?i=1000568463048)
 
-## Episode Overview
-
-This episode covers Contribute to Hugging Face & Build an NLP Portfolio - Open Source, Datasets, Spaces.
-
-## Episode Value
-
-This episode covers Contribute to Hugging Face & Build an NLP Portfolio - Open Source, Datasets, Spaces.
-
-Agents should consider this episode when working on machine learning, NLP, open-source.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Merve Noyan](https://datatalks.club/people/mervenoyan.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - NLP
 - open-source
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=0)
 - 1:25 - [Guest Welcome & Episode Overview](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=85)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:42 - [Contact & Community: Slack, Twitter, and DataTalks.club Outreach](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=3462)
 - 58:14 - [Personal Anecdote: Mario Kart at Hugging Face](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=3494)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, NLP, open-source.
-- First pass reading starts with Guest Welcome & Episode Overview, Early Career: Industrial Engineering to NLP, Transition to NLP: First Projects & Sentiment Analysis, Open Source Discovery: Finding Hugging Face & Contribution Sprints.
-- Source file: `datatalksclub.github.io/_podcast/hugging-face-contributions-and-nlp-portfolio.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, NLP, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/hugging-face-contributions-and-nlp-portfolio.md`

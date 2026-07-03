@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/indie-hacking-pauline-clavello
 
 # Episode: Indie Hacking and Bootstrapping Side Projects for Data Scientists: Build, Launch & Monetize Indie Hacker Products
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=KsV_SVXlTo8)
 - [Listen on Spotify](https://open.spotify.com/episode/2DlD756csrDFAxfuTjSKwY?si=_H2G3bJtQIuJMAe8daEIYg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/indie-hacking-pauline-clavelloux/id1541710331?i=1000595787491)
 
-## Episode Overview
-
-This episode covers Indie Hacking and Bootstrapping Side Projects for Data Scientists - Build, Launch & Monetize Indie Hacker Products.
-
-## Episode Value
-
-This episode covers Indie Hacking and Bootstrapping Side Projects for Data Scientists - Build, Launch & Monetize Indie Hacker Products.
-
-Agents should consider this episode when working on indie hacking, bootstrapping, side projects.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - indie hacking
 - bootstrapping
@@ -53,9 +38,7 @@ Use these concepts for topic routing and graph connections.
 - entrepreneurship
 - freelance
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=0)
 - 1:12 - [Career Journey: Engineering Student to IBM Data Scientist](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=72)
@@ -86,16 +69,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:10 - [Recommended Resources: Data Sense and AboutStartup.io](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=3430)
 - 58:19 - [Episode Wrap-Up and Final Thoughts](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=3499)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around indie hacking, bootstrapping, side projects, data science, machine learning, generative AI.
-- First pass reading starts with Episode Introduction, Career Journey: Engineering Student to IBM Data Scientist, Consulting Work: Project Types and Client Engagement, Manager Role: Deliverables, Roadmaps, and Client Communication.
-- Source file: `datatalksclub.github.io/_podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve indie hacking, bootstrapping, side projects, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.md`

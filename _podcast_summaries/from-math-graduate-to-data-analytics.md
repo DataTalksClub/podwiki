@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-math-teacher-to-analytics
 
 # Episode: How to Break into Data Analytics: Networking, Portfolio, SQL & Interview Prep
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qh6-HDhw2xY)
 - [Listen on Spotify](https://open.spotify.com/episode/153XI6DvtNWHYzSAv2UTqw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-math-teacher-to-analytics-engineer-juan-pablo/id1541710331?i=1000554506607)
 
-## Episode Overview
-
-This episode covers How to Break into Data Analytics - Networking, Portfolio, SQL & Interview Prep.
-
-## Episode Value
-
-This episode covers How to Break into Data Analytics - Networking, Portfolio, SQL & Interview Prep.
-
-Agents should consider this episode when working on career transition, data analytics, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Juan Pablo](https://datatalks.club/people/juanpablo.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - career transition
 - data analytics
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=0)
 - 1:51 - [Background & Motivation: Math Graduate to Data Analytics](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=111)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:31 - [Personal Branding & Contact Info](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=3751)
 - 1:03:13 - [Episode Closing](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=3793)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, data analytics, career growth.
-- First pass reading starts with Background & Motivation: Math Graduate to Data Analytics, Early Roles & Mentoring: Consulting, T-Mobile, Amazon Path, Community & Resources: Amplifying Learning Platforms, Math Foundations & Machine Learning Relevance.
-- Source file: `datatalksclub.github.io/_podcast/from-math-graduate-to-data-analytics.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, data analytics, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-math-graduate-to-data-analytics.md`

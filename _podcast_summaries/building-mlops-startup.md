@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-lear
 
 # Episode: How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-mlops-startup.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-mlops-startup.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DiDs5aMjEWg)
 - [Listen on Spotify](https://open.spotify.com/episode/7fwbqo5tDrtakuqWaIuEjc)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-learning-startup-elena-samuylova/id1541710331?i=1000529106923)
 
-## Episode Overview
-
-This episode covers How to Build a Successful ML Startup - MLOps, Model Monitoring, Open Source & Founder Fit.
-
-## Episode Value
-
-This episode covers How to Build a Successful ML Startup - MLOps, Model Monitoring, Open Source & Founder Fit.
-
-Agents should consider this episode when working on startup, machine learning, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Elena Samuylova](https://datatalks.club/people/elenasamuylova.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - startup
 - machine learning
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - entrepreneurship
 - founder
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=0)
 - 2:01 - [Guest Background: Elena Samuylova's ML & Startup Journey](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=121)
@@ -87,16 +70,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:14 - [Market Intelligence: Following Startups, Investors, and Trends](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3494)
 - 59:32 - [Final Advice: Build from Genuine Interest, Not Just Hype](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=3572)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around startup, machine learning, MLOps, open-source, entrepreneurship, founder.
-- First pass reading starts with Guest Background: Elena Samuylova's ML & Startup Journey, Career Highlights: Yandex, Data Factory, and Industrial AI, Motivations: Startup vs. Employee Trade-offs, Sourcing Ideas: Problem-First Approach for ML Startups.
-- Source file: `datatalksclub.github.io/_podcast/building-mlops-startup.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve startup, machine learning, MLOps, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-mlops-startup.md`

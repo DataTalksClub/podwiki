@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 # Episode: Designing High-Impact Data Science Teams: Centralized vs Embedded Models, Experimentation & Staffing
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=F_rJ4fg5ZEA)
 - [Listen on Spotify](https://open.spotify.com/episode/62ZzHBEuOLbm6ft0u9dlh7?si=182bea5ac49243af)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/designing-a-data-science-organization-lisa-cohen/id1541710331?i=1000569172916)
 
-## Episode Overview
-
-This episode covers Designing High-Impact Data Science Teams - Centralized vs Embedded Models, Experimentation & Staffing.
-
-## Episode Value
-
-This episode covers Designing High-Impact Data Science Teams - Centralized vs Embedded Models, Experimentation & Staffing.
-
-Agents should consider this episode when working on data science, data teams, leadership.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lisa Cohen](https://datatalks.club/people/lisacohen.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - data teams
 - leadership
 - machine learning
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:17 - [Guest Introduction: Lisa Cohen, Director of Data Science at Twitter](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=77)
 - 1:42 - [Career Background: Applied Math, Microsoft telemetry, Azure to Twitter](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=102)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:31 - [Qualitative Research Collaboration: Bridging user studies with quantitative](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=3451)
 - 59:38 - [Contact & Resources: Lisa on Twitter, LinkedIn, and Medium](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=3578)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, data teams, leadership, machine learning.
-- First pass reading starts with Guest Introduction: Lisa Cohen, Director of Data Science at Twitter, Career Background: Applied Math, Microsoft telemetry, Azure to Twitter, Org Models Overview: Centralized vs decentralized data science organization, Embedding Explained: Reporting lines vs day-to-day integration with feature.
-- Source file: `datatalksclub.github.io/_podcast/data-science-team-structure-and-org-design.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, data teams, leadership, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-team-structure-and-org-design.md`

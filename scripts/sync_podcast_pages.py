@@ -101,18 +101,13 @@ def chapter_labels(podcast: dict[str, object], limit: int = 5) -> list[str]:
 def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) -> str:
     slug = str(podcast["slug"])
     title = clean_text(podcast.get("title") or slug.replace("-", " ").title())
-    intro = clean_text(podcast.get("intro") or podcast.get("description") or "")
-    overview = intro if intro and "?" not in intro else f"This episode covers {title.replace(':', ' -')}."
     concepts = concept_labels(podcast)
-    chapters_for_routing = chapter_labels(podcast)
     lines = [
         f"# Episode: {title}",
         "",
-        "## Original Episode",
+        "## Source",
         "",
-        "Use these links for the canonical episode and media sources.",
-        "",
-        f"- [Open the original DataTalks.Club podcast page]({podcast['source_url']})",
+        f"- [DataTalks.Club episode]({podcast['source_url']})",
     ]
 
     links = podcast.get("links")
@@ -124,32 +119,9 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
         if links.get("apple") and links["apple"] != "TODO":
             lines.append(f"- [Listen on Apple Podcasts]({links['apple']})")
 
-    if overview:
-        lines.extend(["", "## Episode Overview", "", overview])
-
-    why = sentence(overview) or sentence(podcast.get("short")) or sentence(title)
-    if why == title:
-        why = f"This episode covers {why.replace(':', ' -')}."
-    if why:
-        lines.extend(
-            [
-                "",
-                "## Episode Value",
-                "",
-                why,
-            ]
-        )
-        if concepts:
-            lines.append("")
-            lines.append(
-                "Agents should consider this episode when working on "
-                + ", ".join(concepts[:3])
-                + "."
-            )
-
     guests = podcast.get("guests")
     if isinstance(guests, list) and guests:
-        lines.extend(["", "## People", "", "Use these links to connect the episode to guest notes."])
+        lines.extend(["", "## People", ""])
         lines.append("")
         for guest in guests:
             slug = str(guest or "").strip()
@@ -158,7 +130,7 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
                     f"- [{person_label(slug, people)}](https://datatalks.club/people/{slug}.html)"
                 )
 
-    lines.extend(["", "## Key Concepts", "", "Use these concepts for topic routing and graph connections.", ""])
+    lines.extend(["", "## Key Concepts", ""])
     if concepts:
         for concept in concepts:
             lines.append(f"- {concept}")
@@ -166,10 +138,8 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
         lines.append("- No explicit topic metadata is available; use the chapter summary before relying on this episode.")
 
     chapters = podcast.get("chapters")
-    lines.extend(["", "## Chapter Summary", ""])
+    lines.extend(["", "## Chapter Headers", ""])
     if isinstance(chapters, list) and chapters:
-        lines.append("Use these checkpoints to decide whether to open the source transcript.")
-        lines.append("")
         for chapter in chapters:
             if not isinstance(chapter, dict):
                 continue
@@ -189,26 +159,7 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
             "open the original episode transcript before making fine-grained claims."
         )
 
-    lines.extend(["", "## Useful For Agents", "", "Use this section to decide whether to open the full source episode.", ""])
-    if concepts or chapters_for_routing:
-        if concepts:
-            lines.append("- Use for topic routing around " + ", ".join(concepts[:6]) + ".")
-        if chapters_for_routing:
-            lines.append("- First pass reading starts with " + ", ".join(chapters_for_routing[:4]) + ".")
-        lines.append(f"- Source file: `{podcast.get('source_episode')}`.")
-    else:
-        lines.append("- Use this page only as a routing stub; open the source transcript before citing it.")
-        lines.append(f"- Source file: `{podcast.get('source_episode')}`.")
-
-    lines.extend(["", "## Probably Skip If", "", "Skip this episode when the task is outside the episode scope.", ""])
-    if concepts:
-        lines.append(
-            "- Your task doesn't involve "
-            + ", ".join(concepts[:4])
-            + ", the listed guests, or the chapter topics above."
-        )
-    else:
-        lines.append("- Your task needs a topic-specific episode with explicit metadata.")
+    lines.extend(["", "## Source File", "", f"- `{podcast.get('source_episode')}`"])
 
     return "\n".join(lines) + "\n"
 

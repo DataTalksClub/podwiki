@@ -15,40 +15,23 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquad
 
 # Episode: Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=_U8GrYJvmJM)
 - [Listen on Spotify](https://open.spotify.com/episode/3jMRuqU3ZEcSeoizuOU5q1)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquade/id1541710331?i=1000550822996)
 
-## Episode Overview
-
-This episode covers Land Junior Data Jobs - CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome.
-
-## Episode Value
-
-This episode covers Land Junior Data Jobs - CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome.
-
-Agents should consider this episode when working on career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lindsay McQuade](https://datatalks.club/people/lindsaymcquade.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:08 - [Guest Introduction & Career Journey](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=68)
 - 5:02 - [Spiced Academy Programs Overview (Full-Stack & Data Science)](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=302)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:20 - [Working with Recruiters: When They Help Juniors & Seniors](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=3320)
 - 58:30 - [LinkedIn Networking: Credible Informational Outreach](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=3510)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career growth.
-- First pass reading starts with Guest Introduction & Career Journey, Spiced Academy Programs Overview (Full-Stack & Data Science), Career Coaching Services: CVs, Interview Prep, Negotiation, Defining Ideal Job Environment & Career Experiments.
-- Source file: `datatalksclub.github.io/_podcast/get-junior-data-job-and-transferable-skills.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/get-junior-data-job-and-transferable-skills.md`

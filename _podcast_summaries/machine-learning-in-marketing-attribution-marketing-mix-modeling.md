@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 
 # Episode: Marketing Data Science: Attribution, Media Mix Modeling, Uplift & Cookieless Tracking
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=jsAxUd_bZpw)
 - [Listen on Spotify](https://open.spotify.com/episode/0rc8zZjdxr5ncxqH9RDqBV?si=49feb89374554f65)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-juan-orduz/id1541710331?i=1000564219176)
 
-## Episode Overview
-
-This episode covers Marketing Data Science - Attribution, Media Mix Modeling, Uplift & Cookieless Tracking.
-
-## Episode Value
-
-This episode covers Marketing Data Science - Attribution, Media Mix Modeling, Uplift & Cookieless Tracking.
-
-Agents should consider this episode when working on marketing, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Juan Orduz](https://datatalks.club/people/juanorduz.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - marketing
 - machine learning
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=0)
 - 1:42 - [Introduction: Juan Orduz - mathematician and data scientist](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=102)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:02 - [Marketing Domain Knowledge: Stakeholder alignment and explainability](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=3422)
 - 58:48 - [Find Juan Online: Blog, GitHub and contact links](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=3528)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around marketing, machine learning.
-- First pass reading starts with Career Path: From geometric analysis to industry data science, Geometric Analysis Overview & connections to Bayesian sampling, Machine Learning in Marketing: Key use cases (acquisition, retention, NLP), Attribution Basics: Multi-channel user journeys and ambiguity.
-- Source file: `datatalksclub.github.io/_podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve marketing, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.md`

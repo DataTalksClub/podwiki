@@ -15,6 +15,7 @@ PUBLIC_COLLECTIONS = ("podcasts", "wiki", "people", "books")
 PUBLIC_CONTENT_FOLDERS = {"_wiki"}
 CANONICAL_PODCAST_RE = re.compile(r"https://datatalks\.club/podcast/[^)\s\"']+\.html")
 CANONICAL_PEOPLE_RE = re.compile(r"https://datatalks\.club/people/[^)\s\"']+\.html")
+PODCAST_CHIP_RE = re.compile(r"\[\[(?:podcast|cite):", re.IGNORECASE)
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
@@ -95,6 +96,7 @@ def link_counts(text: str) -> dict[str, int]:
             if target.startswith(f"{collection}/"):
                 counts[collection] += 1
     counts["podcasts"] += len(CANONICAL_PODCAST_RE.findall(text))
+    counts["podcasts"] += len(PODCAST_CHIP_RE.findall(text))
     counts["people"] += len(CANONICAL_PEOPLE_RE.findall(text))
     return counts
 
@@ -121,10 +123,7 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
         "podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
-        "guide_links": links["guides"],
-        "comparison_links": links["comparisons"],
-        "roadmap_links": links["roadmaps"],
-        "how_to_links": links["how-tos"],
+        "book_links": links["books"],
         "score": score,
     }
 
@@ -168,9 +167,7 @@ def main() -> None:
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
             f"archive_scaffolding={row['archive_scaffolding']} "
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
-            f"people_links={row['people_links']} guide_links={row['guide_links']} "
-            f"comparison_links={row['comparison_links']} roadmap_links={row['roadmap_links']} "
-            f"how_to_links={row['how_to_links']}"
+            f"people_links={row['people_links']} book_links={row['book_links']}"
         )
 
 

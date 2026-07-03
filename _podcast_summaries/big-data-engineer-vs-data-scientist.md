@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scie
 
 # Episode: Big Data Engineer vs Data Scientist: Skills, Tools, and Career Paths
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=yg3d1lFd7Uo)
 - [Listen on Spotify](https://open.spotify.com/episode/08Mb5JOOo6sWOFgsXILVsj)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scientist-roksolana-diachuk/id1541710331?i=1000528386609)
 
-## Episode Overview
-
-This episode covers Big Data Engineer vs Data Scientist - Skills, Tools, and Career Paths.
-
-## Episode Value
-
-This episode covers Big Data Engineer vs Data Scientist - Skills, Tools, and Career Paths.
-
-Agents should consider this episode when working on career transition, software engineering, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - career transition
 - software engineering
 - data engineering
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:52 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=112)
 - 2:28 - [Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify)](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=148)
@@ -84,16 +67,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:25 - [Data Versioning & Time Travel: Delta Lake for Reprocessing and Auditing](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3625)
 - 1:00:40 - [Learning Recommendations: Coursera Big Data Specialization; Spark & Data](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3640)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, software engineering, data engineering, data science.
-- First pass reading starts with Episode Overview & Guest Introduction, Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify), Core Responsibilities: Building ETL Data Pipelines, HDFS/S3, Impala, Performance Focus: Spark Job Optimization & Cluster Resource Planning.
-- Source file: `datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, software engineering, data engineering, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`

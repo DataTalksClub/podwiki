@@ -13,10 +13,10 @@ Use it before opening full podcast source files.
 
 ### Data Team Roles Explained: Skills, Responsibilities, and How Teams Ship ML Products
 
-- Local page: [/podcasts/data-team-roles/](/podcasts/data-team-roles/)
+- Local page: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html)
 - Original episode: https://datatalks.club/podcast/data-team-roles.html
 - Source file: `datatalksclub.github.io/_podcast/data-team-roles.md`
-- Guests: [Alexey Grigorev](/people/alexeygrigorev/)
+- Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: team building, data teams, data science, machine learning, data analysis, data engineering, MLOps, product management, leadership
 - Topic candidates: machine learning, team building, data teams, data science, data analysis, data engineering, mlops, product management, leadership
 - Short summary: Chapter-derived summary: Transcript checkpoint 1: Thank you for joining. I will start with the introduction, and maybe more; Transcript checkpoint 2: A product manager is responsible for the product and for making sure the team; Transcript checkpoint 3: The product manager exists to keep the team close to the user. They speak; Transcript checkpoint 4: Together with the product manager they decide if the problem is worth solving..
@@ -36,10 +36,10 @@ Use it before opening full podcast source files.
 
 ### CRISP-DM Methodology for Data Science Projects: Business Understanding, Data Preparation, Modeling, Evaluation & Deployment
 
-- Local page: [/podcasts/crisp-dm/](/podcasts/crisp-dm/)
+- Local page: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
 - Original episode: https://datatalks.club/podcast/crisp-dm.html
 - Source file: `datatalksclub.github.io/_podcast/crisp-dm.md`
-- Guests: [Alexey Grigorev](/people/alexeygrigorev/)
+- Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: data science, machine learning, project management
 - Topic candidates: data science, machine learning, project management
 - Short summary: Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering business understanding, data preparation, modeling, evaluation, and deployment
@@ -59,10 +59,10 @@ Use it before opening full podcast source files.
 
 ### How to Build and Scale ML Teams: Hiring, MLOps & Product-Driven AI for Startups
 
-- Local page: [/podcasts/building-data-team/](/podcasts/building-data-team/)
+- Local page: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html)
 - Original episode: https://datatalks.club/podcast/building-data-team.html
 - Source file: `datatalksclub.github.io/_podcast/building-data-team.md`
-- Guests: [Dat Tran](/people/dattran/)
+- Guests: [Dat Tran](https://datatalks.club/people/dattran.html)
 - Source topics: leadership, team building, machine learning, MLOps, startup
 - Topic candidates: machine learning, team building, leadership, mlops, startup, open source, career transition, data teams, data science, hiring
 - Short summary: How do you build and scale an ML team that delivers product-driven AI without getting bogged down by tech debt or false promises? In this episode, Dat Tran — Partner & CTO at DATANOMIQ and former AI lead at Axel Springer, idealo, and Pivotal — walks through practical strategies for hiring, MLOps, and shaping data teams for startups.
@@ -85,10 +85,10 @@ Use it before opening full podcast source files.
 
 ### Land Data Scientist Roles: Resumes, Portfolios, Interviews & Recruiter Workflow
 
-- Local page: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/)
+- Local page: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
 - Original episode: https://datatalks.club/podcast/get-data-scientist-job.html
 - Source file: `datatalksclub.github.io/_podcast/get-data-scientist-job.md`
-- Guests: [Luke Whipps](/people/lukewhipps/)
+- Guests: [Luke Whipps](https://datatalks.club/people/lukewhipps.html)
 - Source topics: data science, career growth, job search
 - Topic candidates: data science, career growth, job search, machine learning, hiring, portfolio, search, data scientist, luke whipps recruiter, decade data analytics
 - Short summary: How do you actually land a data scientist role — from a resume that passes screening to a portfolio that wins interviews and an offer that closes? In this episode Luke Whipps, co-founder of Neural.AI and host of the AI Game Changer podcast with 8+ years recruiting experience, walks through the recruiter workflow and practical steps data scientists can use to improve hiring outcomes.
@@ -111,10 +111,10 @@ Use it before opening full podcast source files.
 
 ### How to Find a Mentor and Become One: Mentoring Strategies for Tech Careers
 
-- Local page: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
+- Local page: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
 - Original episode: https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html
 - Source file: `datatalksclub.github.io/_podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.md`
-- Guests: [Rahul Jain](/people/rahuljain/)
+- Guests: [Rahul Jain](https://datatalks.club/people/rahuljain.html)
 - Source topics: mentoring, career development, career transition, leadership, data engineering
 - Topic candidates: data engineering, leadership, mentoring, career development, career transition, cold outreach, career journey mining, journey mining engineering, mining engineering data, engineering data engineering
 - Short summary: Struggling to find a mentor — or wondering how to become one — in a fast-moving tech career? In this episode, Rahul Jain, a senior solutions engineer and data/AI leader with 15+ years driving enterprise data transformations and a career arc from mining engineering to data engineering and leadership, walks through practical mentoring strategies for tech professionals. We define mentoring (purpose, scope, types), explore early models like Thoughtworks’ sponsorship, and show how to find mentors through networks,.
@@ -137,10 +137,10 @@ Use it before opening full podcast source files.
 
 ### Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career
 
-- Local page: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/)
+- Local page: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
 - Original episode: https://datatalks.club/podcast/technical-writing-for-data-scientists.html
 - Source file: `datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`
-- Guests: [Eugene Yan](/people/eugeneyan/)
+- Guests: [Eugene Yan](https://datatalks.club/people/eugeneyan.html)
 - Source topics: software engineering, tools, practices, communication, career transition
 - Topic candidates: career transition, software engineering, tools, practices, communication, technical writing, career growth, data science, portfolio, career transition psychology
 - Short summary: How can technical writing accelerate your data science career in just one week? In this episode, Eugene Yan — an Applied Scientist at Amazon who previously led data science teams at Lazada and uCare.ai and writes about ML in production and career growth — walks through a practical, repeatable 7-day workflow for technical writing tailored to data scientists.
@@ -163,10 +163,10 @@ Use it before opening full podcast source files.
 
 ### DevRel for Data Science: Build Community, Create Content, and Grow Your Career
 
-- Local page: [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/)
+- Local page: [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
 - Original episode: https://datatalks.club/podcast/devrel-data-science-open-source-tools.html
 - Source file: `datatalksclub.github.io/_podcast/devrel-data-science-open-source-tools.md`
-- Guests: [Elle O'Brien](/people/elleobrien/)
+- Guests: [Elle O'Brien](https://datatalks.club/people/elleobrien.html)
 - Source topics: developer relations, data science, machine learning, open-source
 - Topic candidates: data science, developer relations, machine learning, open source, career growth, hiring, portfolio, rag, reproducibility, search
 - Short summary: How do you practice developer relations for data science while balancing reproducibility, community growth, and content strategy? In this episode, Elle O’Brien — a data scientist at Iterative (working on DVC and CML) and a lecturer at the University of Michigan with a PhD in neuroscience and computational modeling from UW — walks through practical DevRel for data-focused tools and teaching.
@@ -189,10 +189,10 @@ Use it before opening full podcast source files.
 
 ### Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI
 
-- Local page: [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/)
+- Local page: [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html)
 - Original episode: https://datatalks.club/podcast/open-source-ml-contributions.html
 - Source file: `datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
-- Guests: [Vincent Warmerdam](/people/vincentwarmerdam/)
+- Guests: [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 - Source topics: open-source, data science, career development, contributing, machine learning, tools
 - Topic candidates: open source, data science, career development, contributing, machine learning, tools, career growth, hiring, rag, search
 - Short summary: How do you start contributing to open source ML projects like scikit-learn pipelines—or move from curious user to confident contributor on Rasa’s conversational AI stack? In this episode, Vincent Warmerdam, Research Advocate at Rasa and creator of The Algorithm Whiteboard and calmcode.io, walks through practical, hands-on advice for contributing to open source ML.
@@ -215,10 +215,10 @@ Use it before opening full podcast source files.
 
 ### Mastering MLOps: Kubeflow Pipelines, Model Monitoring & Automated Retraining
 
-- Local page: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/)
+- Local page: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
 - Original episode: https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-kubeflow-model-monitoring.md`
-- Guests: [Theofilos Papapanagiotou](/people/theofilospapapanagiotou/)
+- Guests: [Theofilos Papapanagiotou](https://datatalks.club/people/theofilospapapanagiotou.html)
 - Source topics: MLOps, machine learning, production, tools
 - Topic candidates: mlops, machine learning, production, tools, ml engineering, open source, dataops, model monitoring, orchestration, search
 - Short summary: How do you build reliable, production-ready ML pipelines that detect model drift, monitor fairness, and trigger automated retraining? In this episode, Theofilos Papapanagiotou — a systems engineer with 20 years’ experience (from Unix engineering to ML engineering) now helping companies run ML workloads and a Kubeflow enthusiast — walks through practical MLOps strategies and tooling.
@@ -241,10 +241,10 @@ Use it before opening full podcast source files.
 
 ### Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide
 
-- Local page: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
+- Local page: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
 - Original episode: https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-feature-stores-feature-stores-feast-tecton.md`
-- Guests: [Willem Pienaar](/people/willempienaar/)
+- Guests: [Willem Pienaar](https://datatalks.club/people/willempienaar.html)
 - Source topics: machine learning, MLOps, feature stores, tools
 - Topic candidates: feature stores, mlops, machine learning, tools, feature store, ml platform, rag, retrieval, use cases, feature stores mlops
 - Short summary: How do you reliably build and serve real-time features for production ML without rework, duplication, or training/serving skew? In this episode, Willem Pienaar — engineering lead at Tecton and creator of Feast — walks through what feature stores solve in MLOps and how they enable real-time feature engineering. We define feature stores, compare feature creation vs retrieval (SQL, Python, APIs, on-demand transforms), and illustrate a production real-time fraud detection lookup. Willem separates hype from value,.
@@ -267,10 +267,10 @@ Use it before opening full podcast source files.
 
 ### Optimize Decisions with ML: Prescriptive & Robust Optimization for Supply Chain and Pricing
 
-- Local page: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
+- Local page: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-decision-optimization.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-decision-optimization.md`
-- Guests: [Dan Becker](/people/danbecker/)
+- Guests: [Dan Becker](https://datatalks.club/people/danbecker.html)
 - Source topics: machine learning, decision optimization
 - Topic candidates: machine learning, decision optimization, data science, software engineering, search, use case, dan becker decision, becker decision optimization, gap machine learning, machine learning predictions
 - Short summary: How do you turn machine learning predictions into better real-world decisions—especially under uncertainty in supply chains and pricing? In this episode, Dan Becker, Founder & CEO of Decision AI and former Google data scientist and Product Director at DataRobot, walks through prescriptive analytics and decision optimization for practical business impact. With a background that includes top Kaggle performance and contributions to TensorFlow and Keras, Dan explains how to formulate optimization problems, choose.
@@ -293,10 +293,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips
 
-- Local page: [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/)
+- Local page: [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
 - Original episode: https://datatalks.club/podcast/data-science-career-abc-framework.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-career-abc-framework.md`
-- Guests: [Danny Ma](/people/dannyma/)
+- Guests: [Danny Ma](https://datatalks.club/people/dannyma.html)
 - Source topics: career transition, data science, machine learning, data analysis
 - Topic candidates: data science, machine learning, career transition, data analysis, ml engineering, data engineering, experimentation, leadership, mlops, portfolio
 - Short summary: How do you pick the right data science path—and actually make the transition? In this episode, Danny Ma, a recovering data scientist now focused on ML and data engineering, walks through his ABC Framework (Analyst, Builder, Consultant) and pragmatic steps for career moves. Danny, who runs the #DataWithDanny community (4,500+ members) and specializes in analytics, supervised ML, data architecture and digital customer experiments, traces his own shift from SQL/SAS/Excel workflows to Python, Kaggle projects and.
@@ -319,10 +319,10 @@ Use it before opening full podcast source files.
 
 ### Build a Personal Brand: Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses
 
-- Local page: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
+- Local page: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
 - Original episode: https://datatalks.club/podcast/personal-brand-for-data-professionals.html
 - Source file: `datatalksclub.github.io/_podcast/personal-brand-for-data-professionals.md`
-- Guests: [Admond Lee Kin Lim](/people/admondleekinlim/)
+- Guests: [Admond Lee Kin Lim](https://datatalks.club/people/admondleekinlim.html)
 - Source topics: personal brand, career growth, monetization
 - Topic candidates: personal brand, career growth, monetization, data science, personal brand defined, brand defined purpose, defined purpose positioning, online presence first, presence first steps, first steps mindset
 - Short summary: How do you build a personal brand that actually attracts an audience and turns into revenue? In this episode, Admond Lee Kin Lim — data scientist, writer, speaker, and Data Science Instructor at Hackwagon Academy — breaks down a practical path from first posts to monetizing with online courses. Drawing on his experience at Micron and as an independent consultant and communicator featured in KDnuggets and Medium, Admond defines personal brand purpose and positioning, then walks through the first steps and mindset.
@@ -345,10 +345,10 @@ Use it before opening full podcast source files.
 
 ### Monetize Machine Learning: Convert Models to ARR/MRR with ML Product & MLOps Strategy
 
-- Local page: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
+- Local page: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
 - Original episode: https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html
 - Source file: `datatalksclub.github.io/_podcast/make-money-with-machine-learning-roles-skills.md`
-- Guests: [Vin Vashishta](/people/vinvashishta/)
+- Guests: [Vin Vashishta](https://datatalks.club/people/vinvashishta.html)
 - Source topics: machine learning, monetization, product management, strategy
 - Topic candidates: machine learning, product management, monetization, strategy, data science, experimentation, mlops, search, ml strategy, ml product
 - Short summary: How do you turn machine learning models into recurring revenue—ARR and MRR—rather than just a cost center? In this episode, Vin Vashishta, an applied ML practitioner and engineer strategist who has brought products to market with ARR in the $100’s of millions, breaks down practical steps to monetize machine learning.
@@ -371,10 +371,10 @@ Use it before opening full podcast source files.
 
 ### Public Speaking for Data Scientists: Master AI Evangelism, Storytelling & Keynotes
 
-- Local page: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
+- Local page: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
 - Original episode: https://datatalks.club/podcast/public-speaking-for-data-scientists.html
 - Source file: `datatalksclub.github.io/_podcast/public-speaking-for-data-scientists.md`
-- Guests: [Ben Taylor](/people/bentaylor/)
+- Guests: [Ben Taylor](https://datatalks.club/people/bentaylor.html)
 - Source topics: developer relations, public speaking, career growth
 - Topic candidates: career growth, public speaking, developer relations, data science, ai evangelism, ben taylor ai, taylor ai evangelist, ai evangelist datarobot, mindset improvement practice, improvement practice public
 - Short summary: How do data scientists move from technical deep dives to memorable keynotes and effective AI evangelism? In this episode, Ben Taylor, Chief AI Evangelist at DataRobot, breaks down the public speaking playbook for data practitioners who want to persuade, teach, and scale their talks.
@@ -397,10 +397,10 @@ Use it before opening full podcast source files.
 
 ### DataOps 101 for Scaling Data Platforms: Immutable Pipelines, Self-Service Lakehouse & Reproducibility
 
-- Local page: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
+- Local page: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
 - Original episode: https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html
 - Source file: `datatalksclub.github.io/_podcast/dataops-principles-and-scalable-data-platforms.md`
-- Guests: [Lars Albertsson](/people/larsalbertsson/)
+- Guests: [Lars Albertsson](https://datatalks.club/people/larsalbertsson.html)
 - Source topics: DataOps, date engineering, MLOps
 - Topic candidates: dataops, mlops, date engineering, data mesh, data teams, orchestration, rag, reproducibility, data lake, use cases
 - Short summary: How do you scale a data platform that supports self-service analytics while keeping pipelines reproducible and maintainable? In this episode, Lars Albertsson, founder of Scling and former Google, Spotify and Schibsted engineer, walks through pragmatic DataOps principles for building scalable data platforms.
@@ -423,10 +423,10 @@ Use it before opening full podcast source files.
 
 ### MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors
 
-- Local page: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
+- Local page: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
 - Original episode: https://datatalks.club/podcast/mlops-community-building-and-meetups.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-community-building-and-meetups.md`
-- Guests: [Demetrios Brinkmann](/people/demetriosbrinkmann/)
+- Guests: [Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 - Source topics: MLOps, community building
 - Topic candidates: mlops, community building, origin story launching, story launching mlops, launching mlops community, pivot meetups turning, meetups turning events, early hosting lessons, hosting lessons interview, lessons interview craft
 - Short summary: How do you launch, grow, and retain an MLOps community that moves from meetups to a sustainable, contributor-led ecosystem? In this episode, Demetrios Brinkmann — who has led the MLOps community since April 2020 and now runs the largest active group with 2,500+ Slack members and 25k YouTube views — walks through a practical community playbook for MLOps meetups, members, and contributors.
@@ -449,10 +449,10 @@ Use it before opening full podcast source files.
 
 ### From Project Manager to Data Scientist: Skills, Tools, ML Courses & Job Search
 
-- Local page: [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
+- Local page: [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - Original episode: https://datatalks.club/podcast/project-manager-to-data-scientist.html
 - Source file: `datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`
-- Guests: [Ksenia Legostay](/people/ksenialegostay/)
+- Guests: [Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html)
 - Source topics: career transition, project management, data science, career growth, job search, tools, production
 - Topic candidates: data science, job search, project management, career transition, career growth, tools, production, machine learning, portfolio, search
 - Short summary: How do you move from project management into a data science career — and what skills, tools, and courses actually matter? In this episode, Ksenia Legostay, Manager/Data Scientist at momox GmbH, walks through her transition after four years as a project manager into three years researching fraud and anomaly detection and earning a degree in data analysis. We cover career foundations, the difference between analytics and data science, and a concrete learning strategy: assess strengths, target gaps, and build core.
@@ -475,10 +475,10 @@ Use it before opening full podcast source files.
 
 ### Career Transition from Analytics to Data Science: Build a Kaggle Notebook Portfolio, Learn Python & Get Hired
 
-- Local page: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
+- Local page: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
 - Original episode: https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html
 - Source file: `datatalksclub.github.io/_podcast/analytics-to-data-science-with-kaggle-portfolio.md`
-- Guests: [Andrada Olteanu](/people/andradaolteanu/)
+- Guests: [Andrada Olteanu](https://datatalks.club/people/andradaolteanu.html)
 - Source topics: career transition, analytics, data science
 - Topic candidates: data science, career transition, analytics, job search, machine learning, hiring, portfolio, search, kaggle notebooks, transitioning analytics data
 - Short summary: How do you move from analytics into a hireable data science role by building a Kaggle notebook portfolio and learning Python fast? In this episode, Andrada Olteanu — Data Scientist at Endava, Kaggle Notebooks Master, and Z by HP & NVIDIA Data Science Ambassador — walks through her path from a statistics degree and data analyst role at Avon to a master’s in DS and a practical, project-driven transition.
@@ -501,10 +501,10 @@ Use it before opening full podcast source files.
 
 ### Data Observability Explained: 5 Pillars to Prevent Downtime, Drift & False Positives
 
-- Local page: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
+- Local page: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 - Original episode: https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html
 - Source file: `datatalksclub.github.io/_podcast/data-quality-data-observability-data-reliability.md`
-- Guests: [Barr Moses](/people/barrmoses/)
+- Guests: [Barr Moses](https://datatalks.club/people/barrmoses.html)
 - Source topics: MLOps, data observability
 - Topic candidates: data observability, mlops, data quality, open source, data engineering, reducing false positives, bad data, reducing false, false positives, profile barr moses
 - Short summary: How do you prevent data downtime, drift, and false positives before they break analytics and models? In this episode, Barr Moses, CEO and co-founder of Monte Carlo and former VP of Customer Operations at Gainsight, walks through a practical framework for data observability grounded in real-world incidents and DevOps principles.
@@ -527,10 +527,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Interview Guide: CV Optimization, Take-Home Projects, Mock Interviews & Negotiation
 
-- Local page: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
+- Local page: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
 - Original episode: https://datatalks.club/podcast/data-science-interview-and-cv-guide.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`
-- Guests: [Oleg Novikov](/people/olegnovikov/)
+- Guests: [Oleg Novikov](https://datatalks.club/people/olegnovikov.html)
 - Source topics: data science, software engineering, machine learning, career growth, career transition, job search
 - Topic candidates: data science, machine learning, software engineering, career growth, career transition, job search, hiring, product data, career path engineer, path engineer recommenders
 - Short summary: How do you make your data science application stand out, ace take-home projects, and negotiate an offer without leaving money on the table? In this episode, Oleg Novikov — creator of NextRound and former data science manager at Uber with a background in data and software engineering — walks through a practical data science interview guide covering CV optimization, take-home projects, mock interviews, and negotiation.
@@ -553,10 +553,10 @@ Use it before opening full podcast source files.
 
 ### Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth
 
-- Local page: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
+- Local page: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
 - Original episode: https://datatalks.club/podcast/data-translator-role-and-data-strategy.html
 - Source file: `datatalksclub.github.io/_podcast/data-translator-role-and-data-strategy.md`
-- Guests: [Lior Barak](/people/liorbarak/)
+- Guests: [Lior Barak](https://datatalks.club/people/liorbarak.html)
 - Source topics: data strategy, communication, project management, leadership, data teams
 - Topic candidates: data strategy, data teams, communication, project management, leadership, theme bridging data, bridging data management, lior data product, data product journey, role defined data
 - Short summary: How do you bridge the gap between data teams and management so analytics actually drives growth? In this episode, Lior Barak — author of Data is Like a Plate of Hummus, co-host of WHAT the Data?! and founder of Tale About Data with 12+ years building data teams — lays out the role of a data translator: a product-minded strategist who converts technical outputs into business-aligned action.
@@ -579,10 +579,10 @@ Use it before opening full podcast source files.
 
 ### Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep
 
-- Local page: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/)
+- Local page: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
 - Original episode: https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html
 - Source file: `datatalksclub.github.io/_podcast/from-physics-to-computer-vision-career-transition.md`
-- Guests: [Tatiana Gabruseva](/people/tatianagabruseva/)
+- Guests: [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 - Source topics: career transition, physics, deep learning, machine learning, career growth, academia, mentorship
 - Topic candidates: machine learning, deep learning, career transition, physics, career growth, academia, mentorship, computer vision, data science, team building
 - Short summary: How do you switch into computer vision and deep learning from a non-industry background — and build a portfolio that lands interviews? In this episode, Tatiana Gabruseva, a Computer Vision/Deep Learning engineer and Kaggle Competitions Master now working as a Senior ML Engineer at Cork University Hospital, maps a practical career-change roadmap. Drawing on her move from a physics PhD during maternity leave, Tatiana covers learning paths (Python, ML/DL courses, SQL, algorithms, system design), hands-on projects.
@@ -605,10 +605,10 @@ Use it before opening full podcast source files.
 
 ### Learn in Public: Personal Branding & Career Marketing for Developers
 
-- Local page: [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/)
+- Local page: [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
 - Original episode: https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html
 - Source file: `datatalksclub.github.io/_podcast/developer-personal-brand-learn-in-public.md`
-- Guests: [Shawn Swyx Wang](/people/swyx/)
+- Guests: [Shawn Swyx Wang](https://datatalks.club/people/swyx.html)
 - Source topics: personal brand, career growth, career transition
 - Topic candidates: career transition, personal brand, career growth, open source, hiring, portfolio, rag, search, learn public, social media
 - Short summary: How do developers build visibility, earn promotions, and steer their careers by learning in public? In this episode, Shawn Swyx Wang — Senior Developer Advocate for AWS Amplify, author of The Coding Career Handbook, and former engineer at Netlify and Temporal — walks through a practical framework for personal branding and career marketing for developers. We unpack why self-marketing matters beyond job hunting and the five-part personal marketing framework: brand, domain, value, skills, and channel.
@@ -631,10 +631,10 @@ Use it before opening full podcast source files.
 
 ### How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL
 
-- Local page: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
+- Local page: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
 - Original episode: https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html
 - Source file: `datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`
-- Guests: [Arpit Choudhury](/people/arpitchoudhury/)
+- Guests: [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html)
 - Source topics: data engineering, tools
 - Topic candidates: data engineering, tools, a/b testing, product analytics, experimentation, rag, dataled academy free, academy free learning, free learning repository, career trajectory integrations
 - Short summary: How do you design a data-led growth stack that reliably powers personalization, activation, and operational workflows? In this episode, Arpit Choudhury, founder of Data-led Academy, walks through the practical steps of building a data-led growth stack focused on event tracking, documented tracking plans, and reverse ETL.
@@ -657,10 +657,10 @@ Use it before opening full podcast source files.
 
 ### Turn Data Science Project Failures into Career Wins: Production Lessons, MLOps Fixes & Framing Failures on LinkedIn
 
-- Local page: [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/)
+- Local page: [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
 - Original episode: https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-failures-and-mlops-lessons.md`
-- Guests: [Yury Kashnitsky](/people/yurykashnitsky/)
+- Guests: [Yury Kashnitsky](https://datatalks.club/people/yurykashnitsky.html)
 - Source topics: machine learning, MLOps, career growth, communication
 - Topic candidates: mlops, machine learning, career growth, communication, data product, data science, product management, hiring, search, theme failures linkedin
 - Short summary: How do you turn data science project failures into tangible career wins — and how should you talk about them on LinkedIn? In this episode, Yury Kashnitsky, Ph.D. in applied math, Kaggle Master and Senior ML Scientist at Elsevier who also leads the open course mlcourse.ai, walks through real production ML lessons and MLOps fixes learned across academia, startups and industry.
@@ -683,10 +683,10 @@ Use it before opening full podcast source files.
 
 ### How to Build Data Governance in the Cloud: Classification, Catalogs, Policies & ROI
 
-- Local page: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
+- Local page: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
 - Original episode: https://datatalks.club/podcast/cloud-data-governance.html
 - Source file: `datatalksclub.github.io/_podcast/cloud-data-governance.md`
-- Guests: [Jessi Ashdown](/people/jessiashdown/), [Uri Gilad](/people/urigilad/)
+- Guests: [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html), [Uri Gilad](https://datatalks.club/people/urigilad.html)
 - Source topics: data governance, data compliance, cloud
 - Topic candidates: data governance, data compliance, cloud, data quality, product management, rag, search, data catalog, researcher data governance, data governance google
 - Short summary: How do you build data governance in the cloud that enables access, meets regulation, and demonstrates ROI? In this episode, Jessi Ashdown, Senior UX Researcher for Google Cloud, and Uri Gilad, Product Manager for Data Governance at Google Cloud, walk through practical approaches to data governance in the cloud—grounded in real user research and product experience.
@@ -709,10 +709,10 @@ Use it before opening full podcast source files.
 
 ### Master Analytics Engineering: Skills, Toolstack, Career Roadmap
 
-- Local page: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
+- Local page: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
 - Original episode: https://datatalks.club/podcast/analytics-engineer-skills-tools.html
 - Source file: `datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`
-- Guests: [Victoria Perez Mola](/people/victoriaperezmola/)
+- Guests: [Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 - Source topics: analytics engineering
 - Topic candidates: analytics engineering, data quality, analytics engineer, victoria perez mola, career journey systems, journey systems engineering, systems engineering erp, engineering erp finance, erp finance reporting, daily responsibilities data
 - Short summary: How do you become an effective analytics engineer and what skills, tools, and career steps matter most? In this episode, Victoria Perez Mola—born in Argentina, trained as a Systems Engineer and now an Analytics Engineer at Tier in Berlin—walks us through her move from ERP and finance reporting into analytics engineering. We cover daily responsibilities like data modeling, pipelines, data quality and Looker; the DBT workflow (SQL transformations, version control, tests, DAG); and a practical analytics toolstack.
@@ -735,10 +735,10 @@ Use it before opening full podcast source files.
 
 ### From Software Engineering to Machine Learning: 7 Lessons, Tools, MLOps & Project Roadmap
 
-- Local page: [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/)
+- Local page: [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/from-software-engineer-to-machine-learning.md`
-- Guests: [Santiago Valdarrama](/people/svpino/)
+- Guests: [Santiago Valdarrama](https://datatalks.club/people/svpino.html)
 - Source topics: machine learning, MLOps, software engineering, career transition, tools
 - Topic candidates: machine learning, software engineering, mlops, career transition, tools, computer vision, data science, ml engineering, rag, software engineers
 - Short summary: How do you move from software engineering into practical machine learning without getting stuck on theory or math? In this episode, Santiago Valdarrama — Director of Computer Vision and a computer scientist with two decades of software experience — walks through a pragmatic roadmap for software engineers transitioning to machine learning.
@@ -761,10 +761,10 @@ Use it before opening full podcast source files.
 
 ### From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)
 
-- Local page: [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/)
+- Local page: [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
 - Original episode: https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html
 - Source file: `datatalksclub.github.io/_podcast/production-ml-pipelines-with-aws-and-kafka.md`
-- Guests: [Andreas Kretz](/people/andreaskretz/)
+- Guests: [Andreas Kretz](https://datatalks.club/people/andreaskretz.html)
 - Source topics: data engineering, machine learning, production, tools
 - Topic candidates: data engineering, machine learning, production, tools, data science, hiring, orchestration, rag, data scientist, message queues
 - Short summary: How do you move models out of notebooks and into reliable production data pipelines using AWS, Kafka, and streaming architectures? In this episode, Andreas Kretz — the “Plumber of Data Science” — walks through the practical steps engineers and data scientists need to productionize notebooks and deploy ML systems.
@@ -787,10 +787,10 @@ Use it before opening full podcast source files.
 
 ### Big Data Engineer vs Data Scientist: Skills, Tools, and Career Paths
 
-- Local page: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
+- Local page: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
 - Original episode: https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html
 - Source file: `datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`
-- Guests: [Roksolana Diachuk](/people/roksolanadiachuk/)
+- Guests: [Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html)
 - Source topics: career transition, software engineering, data engineering, data science
 - Topic candidates: data engineering, software engineering, data science, career transition, data quality, big data, reproducibility, search, data engineer, streaming batch
 - Short summary: How do the day-to-day responsibilities and skill sets really differ between a Big Data Engineer and a Data Scientist—and what should you learn to move between those roles? In this episode, Roksolana Diachuk, a Big Data Engineer at Captify, Women Who Code Kyiv lead and speaker on Scala and Kubernetes, walks through her career transition from backend Java into big data engineering and R&D.
@@ -813,10 +813,10 @@ Use it before opening full podcast source files.
 
 ### How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit
 
-- Local page: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/)
+- Local page: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html)
 - Original episode: https://datatalks.club/podcast/building-mlops-startup.html
 - Source file: `datatalksclub.github.io/_podcast/building-mlops-startup.md`
-- Guests: [Elena Samuylova](/people/elenasamuylova/)
+- Guests: [Elena Samuylova](https://datatalks.club/people/elenasamuylova.html)
 - Source topics: startup, machine learning, MLOps, open-source, entrepreneurship, founder
 - Topic candidates: open source, machine learning, mlops, startup, entrepreneurship, founder, model monitoring, hiring, search, market fit
 - Short summary: What does it take to build a successful ML startup—especially around MLOps, model monitoring, open source, and founder fit? Elena Samuylova, Co-founder & CEO of Evidently AI, joins to answer that question drawing on her applied machine learning experience since 2014, including roles at Yandex Data Factory and an industrial AI startup.
@@ -839,10 +839,10 @@ Use it before opening full podcast source files.
 
 ### Practical Machine Learning Engineering for Production: Ship Maintainable Models, Avoid Complexity
 
-- Local page: [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/)
+- Local page: [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`
-- Guests: [Ben Wilson](/people/benwilson/)
+- Guests: [Ben Wilson](https://datatalks.club/people/benwilson.html)
 - Source topics: machine learning, career growth, production
 - Topic candidates: machine learning, career growth, production, data science, ml engineering, experimentation, leadership, rag, reproducibility, search
 - Short summary: Are your ML projects collapsing under their own complexity—or never making it to production at all? In this episode, Ben Wilson, Practice Lead Resident Solutions Architect at Databricks and author of an upcoming Manning book, walks through practical machine learning engineering strategies for shipping maintainable models and avoiding needless complexity. Drawing on 12 years across industries, Ben emphasizes prioritizing maintainability over novelty: refactoring monolithic code into modular, testable components,.
@@ -865,10 +865,10 @@ Use it before opening full podcast source files.
 
 ### Master Human-Centered MLOps: Stakeholder Buy-In, Monitoring, Debugging & Incident Response
 
-- Local page: [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
+- Local page: [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
 - Original episode: https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html
 - Source file: `datatalksclub.github.io/_podcast/human-centered-mlops-and-model-monitoring.md`
-- Guests: [Lina Weichbrodt](/people/linaweichbrodt/)
+- Guests: [Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html)
 - Source topics: MLOps, machine learning, production, tools, communication
 - Topic candidates: mlops, machine learning, production, tools, communication, community building, ml engineering, model monitoring, feature store, reproducibility
 - Short summary: How do you make MLOps human-centered so stakeholders actually trust models and teams can monitor, debug, and respond to incidents? In this episode, Lina Weichbrodt — a generalist machine learning developer who prototypes data-driven products end-to-end (design, implementation, A/B tests, operations) — walks through practical MLOps strategies that prioritize people as much as pipelines.
@@ -891,10 +891,10 @@ Use it before opening full podcast source files.
 
 ### Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup
 
-- Local page: [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/)
+- Local page: [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 - Original episode: https://datatalks.club/podcast/launch-and-build-retail-startup.html
 - Source file: `datatalksclub.github.io/_podcast/launch-and-build-retail-startup.md`
-- Guests: [Carmine Paolino](/people/carminepaolino/)
+- Guests: [Carmine Paolino](https://datatalks.club/people/carminepaolino.html)
 - Source topics: startup, founder, leadership, entrepreneurship, product management, tools
 - Topic candidates: startup, founder, leadership, entrepreneurship, product management, tools, computer vision, data science, freelance, hiring
 - Short summary: How do you build a grocery retail OS that actually cuts supermarket food waste while scaling a startup? In this episode, Carmine Paolino — CTO and co-founder of FreshFlow and former programmer/researcher in academia and data science — walks through translating technical expertise into a product that solves fresh-product challenges for retailers.
@@ -917,10 +917,10 @@ Use it before opening full podcast source files.
 
 ### Freelancing in Machine Learning: Pricing, Client Acquisition & Proposals
 
-- Local page: [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/)
+- Local page: [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/freelancing-in-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/freelancing-in-machine-learning.md`
-- Guests: [Mikio Braun](/people/mikiobraun/)
+- Guests: [Mikio Braun](https://datatalks.club/people/mikiobraun.html)
 - Source topics: freelance, consulting, machine learning, career growth, entrepreneurship, strategy
 - Topic candidates: machine learning, freelance, consulting, career growth, entrepreneurship, strategy, academic research, hiring, ml engineering, search
 - Short summary: How do you move from academic research or in-house ML engineering to a sustainable freelance career in machine learning — getting clients, pricing your work, and delivering production systems? In this episode, Mikio Braun, who transitioned from TU Berlin into ML roles at Zalando and GetYourGuide and now consults on machine learning production, infrastructure, and teams, walks through that path step by step.
@@ -943,10 +943,10 @@ Use it before opening full podcast source files.
 
 ### Mastering the Chief Data Officer Role: Build Data Strategy, Org Design & AI
 
-- Local page: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
+- Local page: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
 - Original episode: https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html
 - Source file: `datatalksclub.github.io/_podcast/chief-data-officer-data-strategy-and-org-design.md`
-- Guests: [Marco De Sa](/people/marcodesa/)
+- Guests: [Marco De Sa](https://datatalks.club/people/marcodesa.html)
 - Source topics: data strategy, data governance, AI, leadership, career growth, communication, team building
 - Topic candidates: data strategy, leadership, career growth, data governance, ai, communication, team building, olx group, marco career roles, industry experience yahoo
 - Short summary: How do you move from head of data to an effective Chief Data Officer who builds strategy, designs the org, and delivers AI? In this episode, Marco De Sa — CDO at OLX Group with prior data leadership roles at Yahoo, Facebook, Twitter, and Spotify — lays out what modern data leadership really requires.
@@ -969,10 +969,10 @@ Use it before opening full podcast source files.
 
 ### Practical Algorithms for Engineers: Bloom Filters, Approximate Nearest-Neighbor & Performance
 
-- Local page: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
+- Local page: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
 - Original episode: https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html
 - Source file: `datatalksclub.github.io/_podcast/algorithms-data-structures-for-engineers.md`
-- Guests: [Marcello La Rocca](/people/marcellolarocca/)
+- Guests: [Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html)
 - Source topics: algorithms, data structures, software engineering
 - Topic candidates: data structures, algorithms, software engineering, embeddings, search, bloom filters, use cases, bloom filter, rocca book announcement, career path web
 - Short summary: How do engineers choose and implement the right algorithm for memory, latency, and scale? In this episode, Marcello La Rocca — senior software engineer at Tundra.com and author of Algorithms and Data Structures in Action, with experience at Twitter, Microsoft and Apple — walks through practical algorithmic solutions engineers can actually use in production. We focus on Bloom filters for memory-efficient containment checks (and real-world uses like crawlers, routing tables, and adtech device-ID targeting), and on.
@@ -995,10 +995,10 @@ Use it before opening full podcast source files.
 
 ### ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering
 
-- Local page: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
+- Local page: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 - Original episode: https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html
 - Source file: `datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`
-- Guests: [Natalie Kwong](/people/nataliekwong/)
+- Guests: [Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
 - Source topics: data engineering, tools
 - Topic candidates: data engineering, tools, data quality, open source, orchestration, rag, search, decoding data engineering, data engineering acronyms, career journey marketing
 - Short summary: How do you decide between ETL and ELT, or when to keep a data lake versus a warehouse—and where do tools like Airbyte, dbt, and CDC fit into a modern data stack? In this episode, Natalie Kwong, Growth Product Manager at Airbyte with prior analytics and ops roles at Harness, KeepTruckin, and AppDynamics, pulls from hands-on experience scaling analytics teams and systems to unpack these trade-offs.
@@ -1021,10 +1021,10 @@ Use it before opening full podcast source files.
 
 ### KPI Design & Metrics Strategy: Prioritize Impact, Avoid Vanity Metrics, and Prove ROI
 
-- Local page: [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
+- Local page: [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
 - Original episode: https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html
 - Source file: `datatalksclub.github.io/_podcast/ml-engineering-kpis-and-metrics-strategy.md`
-- Guests: [Adam Sroka](/people/adamsroka/)
+- Guests: [Adam Sroka](https://datatalks.club/people/adamsroka.html)
 - Source topics: machine learning, leadership, data science, product management, strategy, metrics, communication
 - Topic candidates: data science, machine learning, leadership, product management, strategy, metrics, communication, a/b testing, experimentation, search
 - Short summary: How do you design KPIs that prioritize real impact, avoid vanity metrics, and actually prove ROI? In this episode, Dr. Adam Sroka — Head of Machine Learning Engineering at Origami Energy, with a background from a Physics PhD to data science, reinforcement learning, and consultancy — walks through a practical metrics strategy for data and product teams.
@@ -1047,10 +1047,10 @@ Use it before opening full podcast source files.
 
 ### Solo Data Scientist Playbook: 90-Day Roadmap, Pipelines, A/B Tests & Prioritization
 
-- Local page: [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/)
+- Local page: [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html)
 - Original episode: https://datatalks.club/podcast/solopreneur-data-scientist.html
 - Source file: `datatalksclub.github.io/_podcast/solopreneur-data-scientist.md`
-- Guests: [Marianna Diachuk](/people/mariannadiachuk/)
+- Guests: [Marianna Diachuk](https://datatalks.club/people/mariannadiachuk.html)
 - Source topics: data science, startups, career transition, software engineering, communication, career growth
 - Topic candidates: data science, startups, career transition, software engineering, communication, career growth, a/b testing, machine learning, search, career path data
 - Short summary: How can a solo data scientist deliver measurable impact in the first 90 days? In this episode, Marianna Diachuk — data scientist at Restream, former DataRobot engineer and fintech team lead, and Data Science Lead/mentor with Women Who Code — walks through a practical Solo Data Scientist playbook. You''ll hear a clear 90-day roadmap covering first-week stakeholder interviews and data exploration, first-month research and proofs-of-concept, and first-quarter priorities: building data pipelines, deployment,.
@@ -1073,10 +1073,10 @@ Use it before opening full podcast source files.
 
 ### From Research to Production: Build Reproducible, Deployable Full-Stack ML Systems
 
-- Local page: [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/)
+- Local page: [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
 - Original episode: https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html
 - Source file: `datatalksclub.github.io/_podcast/research-to-production-ml-systems-roadmap.md`
-- Guests: [Mihail Eric](/people/mihaileric/)
+- Guests: [Mihail Eric](https://datatalks.club/people/mihaileric.html)
 - Source topics: machine learning, MLOps, academia, production, career growth
 - Topic candidates: mlops, machine learning, academia, production, career growth, data science, leadership, reproducibility, search, skills swap
 - Short summary: How do you move ML work from research notebooks to reproducible, deployable full-stack systems? In this episode, Mihail Eric — founder of Pametan Data Innovation and Confetti.ai, former Stanford NLP researcher with industry experience at RideOS and Amazon Alexa, and author of papers in ACL, AAAI, and NeurIPS — tackles that exact challenge. We trace Mihail’s path from academic NLP to self-driving and conversational AI, then into hybrid roles that blend hypothesis-driven research with production engineering.
@@ -1099,10 +1099,10 @@ Use it before opening full podcast source files.
 
 ### How to Build & Scale a Data Team: Hiring, Production ML, Forecasting & Driving Adoption
 
-- Local page: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
+- Local page: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
 - Original episode: https://datatalks.club/podcast/building-and-scaling-data-team.html
 - Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-team.md`
-- Guests: [Tammy Liang](/people/tammyliang/)
+- Guests: [Tammy Liang](https://datatalks.club/people/tammyliang.html)
 - Source topics: team building, data teams, data engineering, data analytics, leadership
 - Topic candidates: data teams, leadership, team building, data engineering, data analytics, machine learning, data product, hiring, building data, business alignment
 - Short summary: How do you build and scale a data team that moves beyond dashboards to production ML, reliable forecasting, and real adoption across the business? In this episode Tammy Liang, Chief of Data at Platanomelón and co-host of Data for Future, walks through her journey building data capabilities for marketing, e-commerce, and operations at a mission-driven consumer brand.
@@ -1125,10 +1125,10 @@ Use it before opening full podcast source files.
 
 ### From Analytics to Production ML: Team Building, Experiments, MLOps & Fraud Detection
 
-- Local page: [/podcasts/production-ml-mlops-and-data-team-building/](/podcasts/production-ml-mlops-and-data-team-building/)
+- Local page: [https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html)
 - Original episode: https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html
 - Source file: `datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`
-- Guests: [Rishabh Bhargava](/people/rishabhbhargava/)
+- Guests: [Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html)
 - Source topics: machine learning, production, data analytics, MLOps, team building, data teams, leadership, career growth
 - Topic candidates: machine learning, mlops, team building, data teams, production, data analytics, leadership, career growth, a/b testing, analytics engineering
 - Short summary: How do teams move beyond dashboards to reliable production ML—while organizing people, running experiments, and tackling use cases like fraud detection? In this episode Rishabh Bhargava (7+ years in analytics and ML, former Sales Engineering lead at Datacoral—acquired by Cloudera—and early Primer.ai engineer; MS CS Stanford) walks through the practical bridge from analytics to ML in production.
@@ -1151,10 +1151,10 @@ Use it before opening full podcast source files.
 
 ### Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption
 
-- Local page: [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
+- Local page: [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
 - Original episode: https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html
 - Source file: `datatalksclub.github.io/_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md`
-- Guests: [Caitlin Moorman](/people/caitlinmoorman/)
+- Guests: [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html)
 - Source topics: data analytics, tools, product management, leadership
 - Topic candidates: data analytics, tools, product management, leadership, a/b testing, data quality, data product, rag, search, locally optimistic community
 - Short summary: How do you turn a powerful modern data stack into analytics people actually use? In this episode, Caitlin Moorman, VP of Data and Business Operations at Trove Recommerce and former data lead in crowdfunding and self-publishing, walks through the last-mile data delivery challenges that block adoption and offers practical approaches to build data products that drive decisions.
@@ -1177,10 +1177,10 @@ Use it before opening full podcast source files.
 
 ### Practical Data Science & ML: Feature Engineering, Model Monitoring, Data Governance & Storytelling
 
-- Local page: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
+- Local page: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
 - Original episode: https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html
 - Source file: `datatalksclub.github.io/_podcast/feature-engineering-model-monitoring-and-data-governance.md`
-- Guests: [Thom Ives](/people/thomives/)
+- Guests: [Thom Ives](https://datatalks.club/people/thomives.html)
 - Source topics: data science, machine learning, ai, data engineering
 - Topic candidates: machine learning, data science, ai, data engineering, community building, data governance, model monitoring, concept-focused learning vs., learning vs. detail, vs. detail specialization
 - Short summary: How do you move from models that look good on paper to reliable machine learning in production—while keeping data clean and stakeholders aligned? In this episode Thom Ives, founder of Integrated Machine Learning & AI and a veteran data scientist, walks through practical approaches to feature engineering, model monitoring, data governance, and data storytelling. Thom draws on a career spanning industry roles and mentoring to contrast concept-focused learning versus specialist detail work, and to explain why.
@@ -1203,10 +1203,10 @@ Use it before opening full podcast source files.
 
 ### Solopreneur Guide: Diversify Income with Courses, Consulting, Books & Side-Gigs
 
-- Local page: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
+- Local page: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
 - Original episode: https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html
 - Source file: `datatalksclub.github.io/_podcast/solopreneur-developer-and-data-professional.md`
-- Guests: [Noah Gift](/people/noahgift/)
+- Guests: [Noah Gift](https://datatalks.club/people/noahgift.html)
 - Source topics: solopreneurship, entrepreneurship, career growth, career transition, consulting
 - Topic candidates: solopreneurship, entrepreneurship, career growth, career transition, consulting, data science, machine learning, rag, university teaching, topic becoming solopreneur
 - Short summary: How do you build a sustainable solopreneur business that doesn't rely on VC funding—while diversifying income across courses, consulting, books, and side-gigs? In this episode, Noah Gift, founder of Pragmatic AI Labs and a lecturer on machine learning and data science at Northwestern, Duke MIDS, UC Berkeley, UC Davis, and UNC Charlotte, walks through his transition to solo work (since 2017) and a repeatable income mix for intentional small-business ownership.
@@ -1229,10 +1229,10 @@ Use it before opening full podcast source files.
 
 ### Ace Data Interviews: Behavioral STARs, Case Strategy, Portfolios & Cold Emails
 
-- Local page: [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
+- Local page: [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
 - Original episode: https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html
 - Source file: `datatalksclub.github.io/_podcast/data-interview-behavioral-and-portfolio-prep-guide.md`
-- Guests: [Nick Singh](/people/nicksingh/)
+- Guests: [Nick Singh](https://datatalks.club/people/nicksingh.html)
 - Source topics: data science, machine learning, MLOps, product management, job search
 - Topic candidates: data science, machine learning, mlops, product management, job search, hiring, portfolio, search, nick singh career, singh career book
 - Short summary: Master behavioral interviews & prep to break into data roles: build an impact portfolio, use STAR stories, nail case interviews and cold emails.
@@ -1255,10 +1255,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Manager vs Expert: Hiring Strategy, Skills, Team Building & When to Use ML
 
-- Local page: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
+- Local page: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
 - Original episode: https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-manager-vs-expert-hiring-guide.md`
-- Guests: [Barbara Sobkowiak](/people/barbarasobkowiak/)
+- Guests: [Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html)
 - Source topics: data science, machine learning, leadership, team building
 - Topic candidates: data science, machine learning, team building, leadership, data quality, model monitoring, hiring, data science manager, data science expert, science manager
 - Short summary: When should you hire a data science manager versus a deep technical expert, and how do you decide whether machine learning is actually the right solution? In this episode Barbara Sobkowiak — data scientist by training, GIS specialist by education, and manager by passion — walks through her career from GIS → SQL → BI to leading teams, and tackles hiring strategy, role design, and practical ML use cases like mental health monitoring and demand forecasting.
@@ -1281,10 +1281,10 @@ Use it before opening full podcast source files.
 
 ### How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality
 
-- Local page: [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/)
+- Local page: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
 - Original episode: https://datatalks.club/podcast/product-designer-to-data-product-manager.html
 - Source file: `datatalksclub.github.io/_podcast/product-designer-to-data-product-manager.md`
-- Guests: [Sara Menefee](/people/saramenefee/)
+- Guests: [Sara Menefee](https://datatalks.club/people/saramenefee.html)
 - Source topics: career transition, product design, product management
 - Topic candidates: product management, product design, career transition, data engineering, data product, data quality, data science, data teams, portfolio, search
 - Short summary: How do you move from product design into a data product manager role — and which technical and discovery skills will make that transition practical and persuasive? Sara Menefee, a product manager at Meroxa and former product designer at Sora, Checkr, Change.org, and Zendesk, walks through her path and the concrete steps designers can take to become data-focused PMs.
@@ -1307,10 +1307,10 @@ Use it before opening full podcast source files.
 
 ### Master Spatial Big Data Analytics: Nebula Stream Systems, Postdoc Mentoring & PhD Tips
 
-- Local page: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
+- Local page: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
 - Original episode: https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html
 - Source file: `datatalksclub.github.io/_podcast/big-data-analytics-and-postdoc-research.md`
-- Guests: [Eleni Tzirita Zacharatou](/people/elenitziritazacharatou/)
+- Guests: [Eleni Tzirita Zacharatou](https://datatalks.club/people/elenitziritazacharatou.html)
 - Source topics: academia, big data analytics, tools, data engineering
 - Topic candidates: big data analytics, academia, tools, data engineering, academic research, leadership, search, nebula stream, eleni tzirita-zacharatou postdoctoral, tzirita-zacharatou postdoctoral researcher
 - Short summary: How do you master spatial big data analytics while navigating the demands of postdoc research, systems building, and preparing for a PhD? In this episode, Eleni Tzirita-Zacharatou — a postdoctoral researcher at the DIMA Group, TU Berlin, with a PhD from EPFL and award-winning work in data management — breaks down practical approaches to spatial big data analytics (GPS traces, trajectories, satellite imagery) and robust stream processing for IoT. We cover systems-driven research like the Nebula Stream and Agora.
@@ -1333,10 +1333,10 @@ Use it before opening full podcast source files.
 
 ### From Postdoc to Data Science Lead: ML Foundations, Docker Deployment & Hiring Tips
 
-- Local page: [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/)
+- Local page: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
 - Original episode: https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html
 - Source file: `datatalksclub.github.io/_podcast/postdoc-to-data-science-lead-career-transition.md`
-- Guests: [CJ Jenkins](/people/cjjenkins/)
+- Guests: [CJ Jenkins](https://datatalks.club/people/cjjenkins.html)
 - Source topics: career transition, machine learning, academia, career growth
 - Topic candidates: machine learning, career transition, academia, career growth, data science, academic research, hiring, portfolio, search, career journey postdoc
 - Short summary: How do you go from a postdoc to a data science lead while mastering machine learning foundations and deployment? In this episode, CJ Jenkins — a PhD-turned-data science lead working on credit risk modeling, with published research and a textbook used in academia — walks through that transition. We trace CJ’s roots in evolutionary biology and genomics, the statistical ML foundations (GLMs, population dynamics), and practical tools like Bash, R, Python, and SQL. Key topics include Docker deployment and bridging the.
@@ -1359,10 +1359,10 @@ Use it before opening full podcast source files.
 
 ### Become an ML Product Manager: MLOps Platforms, Observability & Adoption
 
-- Local page: [/podcasts/ml-product-manager-and-mlops-platform-strategy/](/podcasts/ml-product-manager-and-mlops-platform-strategy/)
+- Local page: [https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)
 - Original episode: https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html
 - Source file: `datatalksclub.github.io/_podcast/ml-product-manager-and-mlops-platform-strategy.md`
-- Guests: [Geo Jolly](/people/geojolly/)
+- Guests: [Geo Jolly](https://datatalks.club/people/geojolly.html)
 - Source topics: product management, machine learning, MLOps, leadership, career growth
 - Topic candidates: product management, machine learning, mlops, leadership, career growth, data science, ml platform, product manager, rag, search
 - Short summary: How do you become an ML product manager and build MLOps platforms that teams actually use? In this episode, Geo Jolly, a Technical PM at Glovo with a background from web/dev to data science and product management, walks through the practical skills and decisions that define the role.
@@ -1385,10 +1385,10 @@ Use it before opening full podcast source files.
 
 ### Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)
 
-- Local page: [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/)
+- Local page: [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html)
 - Original episode: https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html
 - Source file: `datatalksclub.github.io/_podcast/nlp-team-hiring-and-production-mlops.md`
-- Guests: [Ivan Bilan](/people/ivanbilan/)
+- Guests: [Ivan Bilan](https://datatalks.club/people/ivanbilan.html)
 - Source topics: NLP, machine learning, MLOps, data teams, LLMs, leadership, career growth, production
 - Topic candidates: mlops, nlp, machine learning, data teams, llms, leadership, career growth, production, computer vision, hiring
 - Short summary: How do you structure an NLP team and build reliable production pipelines while weighing the tradeoffs between GPT-3 and in-house models? In this episode, Ivan Bilan, Engineering Manager at Personio working on Identity and Access Management, walks through practical answers from his transition from linguistics to production NLP and MLOps.
@@ -1411,10 +1411,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Leadership: Product-First ML, Recommenders & RTB, MLOps, Hiring & Mentoring
 
-- Local page: [/podcasts/data-science-leadership-hiring-mlops/](/podcasts/data-science-leadership-hiring-mlops/)
+- Local page: [https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
 - Original episode: https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-leadership-hiring-mlops.md`
-- Guests: [Mariano Semelman](/people/marianosemelman/)
+- Guests: [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 - Source topics: data science, machine learning, MLOps, leadership, career growth, team building, hiring
 - Topic candidates: data science, mlops, leadership, hiring, machine learning, career growth, team building, search, mariano semelman head, semelman head data
 - Short summary: How do you lead a data science team that prioritizes product impact while building recommender systems, real-time bidding (RTB) solutions, and maintainable MLOps? In this episode, Mariano Semelman, Head of Data Science at OLX Group with over 13 years of experience, walks through practical leadership decisions that bridge models and products.
@@ -1437,10 +1437,10 @@ Use it before opening full podcast source files.
 
 ### DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community
 
-- Local page: [/podcasts/datatalksclub-building-scaling-data-community/](/podcasts/datatalksclub-building-scaling-data-community/)
+- Local page: [https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 - Original episode: https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html
 - Source file: `datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`
-- Guests: [Eugene Yan](/people/eugeneyan/), [Alexey Grigorev](/people/alexeygrigorev/)
+- Guests: [Eugene Yan](https://datatalks.club/people/eugeneyan.html), [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: community building, machine learning, data science, data engineering, MLOps
 - Topic candidates: machine learning, data science, community building, data engineering, mlops, career transition, open source, career transition java, transition java machine, java machine learning
 - Short summary: How do you scale a grassroots machine learning community from a few forum posts to thousands of active members? In this episode, Alexey Grigorev — founder of DataTalks.Club — sits down with Eugene Yan to walk through the real-world steps behind scaling and growing a machine learning community. Alexey shares his origins (forums, landing page, early events), the growth inflection that led to ~9k members, and practical event formats that work: Open Source Spotlight, Minis, Book of the Week, live coding and office.
@@ -1463,10 +1463,10 @@ Use it before opening full podcast source files.
 
 ### Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips
 
-- Local page: [/podcasts/hiring-data-scientists-and-analysts/](/podcasts/hiring-data-scientists-and-analysts/)
+- Local page: [https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
 - Original episode: https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html
 - Source file: `datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`
-- Guests: [Alicja Notowska](/people/alicjanotowska/)
+- Guests: [Alicja Notowska](https://datatalks.club/people/alicjanotowska.html)
 - Source topics: data science, data analytics, job search, career transition, hiring
 - Topic candidates: hiring, data science, data analytics, job search, career transition, portfolio, search, current role embedded, role embedded talent, embedded talent agency
 - Short summary: How do you consistently find and hire the right data scientists and analysts in a competitive market? In this episode, Alicja Notowska — a talent acquisition specialist with 10+ years recruiting at Google, Zalando and now with embedded agency WeAreKeen — breaks down practical recruiting tactics for hiring data scientists and data analysts.
@@ -1489,10 +1489,10 @@ Use it before opening full podcast source files.
 
 ### Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics
 
-- Local page: [/podcasts/building-and-scaling-ai-data-products-with-mlops/](/podcasts/building-and-scaling-ai-data-products-with-mlops/)
+- Local page: [https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
 - Original episode: https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html
 - Source file: `datatalksclub.github.io/_podcast/building-and-scaling-ai-data-products-with-mlops.md`
-- Guests: [Greg Coquillo](/people/gregcoquillo/)
+- Guests: [Greg Coquillo](https://datatalks.club/people/gregcoquillo.html)
 - Source topics: product management, MLOps, data engineering, data science
 - Topic candidates: product management, mlops, data engineering, data science, data product, data quality, search, working backwards, transition ai products, role responsibilities data
 - Short summary: How do you move from proofs-of-concept to scalable AI data products that deliver measurable business value? In this episode, Greg Coquillo, a Technology Manager at Amazon who builds AI roadmaps for Private Brands’ product safety and compliance, walks through practical approaches for building and scaling data products, MLOps, customer research, and metrics.
@@ -1515,10 +1515,10 @@ Use it before opening full podcast source files.
 
 ### Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome
 
-- Local page: [/podcasts/get-junior-data-job-and-transferable-skills/](/podcasts/get-junior-data-job-and-transferable-skills/)
+- Local page: [https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html](https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html)
 - Original episode: https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html
 - Source file: `datatalksclub.github.io/_podcast/get-junior-data-job-and-transferable-skills.md`
-- Guests: [Lindsay McQuade](/people/lindsaymcquade/)
+- Guests: [Lindsay McQuade](https://datatalks.club/people/lindsaymcquade.html)
 - Source topics: career growth
 - Topic candidates: career growth, data science, job search, search, career coach, finding career, imposter syndrome, spiced academy programs, academy programs full-stack, programs full-stack data
 - Short summary: Struggling to land a junior data job—how do you turn non-linear experience into a recruiter-ready CV, prepare for interviews, and push past imposter syndrome? In this episode, Lindsay McQuade, a transformational coach with 20+ years across management consulting, higher education and tech and former Senior Career & Development Coach at SPICED Academy, guides listeners through practical steps for junior data roles. Lindsay draws on her work designing programs for hundreds of learners (SPICED training rated 94% “very.
@@ -1541,10 +1541,10 @@ Use it before opening full podcast source files.
 
 ### ML System Design Interviews: Production ML, Fraud Detection, Features, A/B Testing & MLOps
 
-- Local page: [/podcasts/machine-learning-system-design-interview/](/podcasts/machine-learning-system-design-interview/)
+- Local page: [https://datatalks.club/podcast/machine-learning-system-design-interview.html](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-system-design-interview.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`
-- Guests: [Valerii Babushkin](/people/valeriybabushkin/)
+- Guests: [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 - Source topics: machine learning, career growth
 - Topic candidates: machine learning, career growth, system design, a/b testing, data science, embeddings, hiring, leadership, mlops, privacy
 - Short summary: How do you approach ML system design interviews that probe production constraints, fraud detection trade-offs, and MLOps realities? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through what interviewers look for and how candidates should structure answers for real-world ML problems.
@@ -1567,10 +1567,10 @@ Use it before opening full podcast source files.
 
 ### Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests
 
-- Local page: [/podcasts/ab-testing-and-product-experimentation/](/podcasts/ab-testing-and-product-experimentation/)
+- Local page: [https://datatalks.club/podcast/ab-testing-and-product-experimentation.html](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 - Original episode: https://datatalks.club/podcast/ab-testing-and-product-experimentation.html
 - Source file: `datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`
-- Guests: [Jakob Graff](/people/jakobgraff/)
+- Guests: [Jakob Graff](https://datatalks.club/people/jakobgraff.html)
 - Source topics: data science, practices
 - Topic candidates: data science, practices, a/b testing, career transition, product analytics, experimentation, hiring, leadership, duration power, career transition data
 - Short summary: How do you design product experiments that truly establish causality and avoid costly false conclusions? In this episode, Jakob Graff — Director of Data Science and Data Analytics at diconium, with prior analytics leadership at Inkitt, Babbel, King and a background in econometrics — walks through practical product analytics and A/B testing strategies focused on causality and reliable metrics.
@@ -1593,10 +1593,10 @@ Use it before opening full podcast source files.
 
 ### Data Engineering Leadership: Scale ETL to ELT, Build Robust Data Platforms & Teams
 
-- Local page: [/podcasts/data-engineering-leadership-and-modern-data-platforms/](/podcasts/data-engineering-leadership-and-modern-data-platforms/)
+- Local page: [https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)
 - Original episode: https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html
 - Source file: `datatalksclub.github.io/_podcast/data-engineering-leadership-and-modern-data-platforms.md`
-- Guests: [Rahul Jain](/people/16rahuljain/)
+- Guests: [Rahul Jain](https://datatalks.club/people/16rahuljain.html)
 - Source topics: data engineering, career growth, career switch
 - Topic candidates: data engineering, career growth, career switch, data quality, open source, hiring, leadership, rahul career path, career path etl, path etl developer
 - Short summary: How do you lead a data engineering team to scale ETL into ELT, build a robust data platform, and maintain data quality as you grow? In this episode, Rahul Jain — a data engineering manager at Siemens with 12+ years in data and three years in management — walks through that transition from ETL developer to IoT data platform lead and what leadership looks like in practice.
@@ -1619,10 +1619,10 @@ Use it before opening full podcast source files.
 
 ### How to Become a Data Engineer: Skills, MLOps, Pipelines, SQL, CI/CD & Cloud
 
-- Local page: [/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/](/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/)
+- Local page: [https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html)
 - Original episode: https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html
 - Source file: `datatalksclub.github.io/_podcast/from-software-engineering-data-science-to-data-engineering-leadership.md`
-- Guests: [Ellen König](/people/ellenkonig/)
+- Guests: [Ellen König](https://datatalks.club/people/ellenkonig.html)
 - Source topics: data science, data engineering, career transition, MLOps, tools
 - Topic candidates: data engineering, data science, mlops, career transition, tools, leadership, portfolio, search, data engineers, career narrative backend
 - Short summary: In this episode, Ellen König—Head of Engineering at alcemy—shares her journey from software and data science to data engineering leadership. She explains why many professionals make the switch, the skills that matter most (from DevOps and CI/CD to collaboration), and how to prepare through side projects and software fundamentals.
@@ -1645,10 +1645,10 @@ Use it before opening full podcast source files.
 
 ### How to Break into Data Analytics: Networking, Portfolio, SQL & Interview Prep
 
-- Local page: [/podcasts/from-math-graduate-to-data-analytics/](/podcasts/from-math-graduate-to-data-analytics/)
+- Local page: [https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
 - Original episode: https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html
 - Source file: `datatalksclub.github.io/_podcast/from-math-graduate-to-data-analytics.md`
-- Guests: [Juan Pablo](/people/juanpablo/)
+- Guests: [Juan Pablo](https://datatalks.club/people/juanpablo.html)
 - Source topics: career transition, data analytics, career growth
 - Topic candidates: data analytics, career transition, career growth, job search, machine learning, freelance, hiring, portfolio, search, hiring managers
 - Short summary: How do you actually break into data analytics — and what combination of networking, portfolio work, SQL skills, and interview prep gets you hired? In this episode, Juan Pablo Murillo, an AI and data professional now at Google with prior roles as an Amazon Business Intelligence Engineer and data scientist at T-Mobile, walks through a practical path from math grad to analytics roles.
@@ -1671,10 +1671,10 @@ Use it before opening full podcast source files.
 
 ### Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates
 
-- Local page: [/podcasts/visualizing-machine-learning-concepts-to-explain-ml/](/podcasts/visualizing-machine-learning-concepts-to-explain-ml/)
+- Local page: [https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html)
 - Original episode: https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html
 - Source file: `datatalksclub.github.io/_podcast/visualizing-machine-learning-concepts-to-explain-ml.md`
-- Guests: [Meor Amer](/people/meoramer/)
+- Guests: [Meor Amer](https://datatalks.club/people/meoramer.html)
 - Source topics: machine learning, education
 - Topic candidates: machine learning, education, developer relations, posting cadence visuals, cadence visuals linkedin, career journey bioengineering, journey bioengineering telecom, bioengineering telecom analytics, telecom analytics self-employment, kdimensions name visual
 - Short summary: How do you teach machine learning so people build intuition before diving into math? In this episode, Meor Amer—educator, author, and Developer Relations at Cohere—walks through a visual-first approach to machine learning that makes concepts accessible and actionable. Drawing on his journey from bioengineering and telecom analytics to founding kDimensions and writing A Visual Introduction to Deep Learning, Meor explains why visual machine learning and dimensionality reduction matter and how templates can scale.
@@ -1697,10 +1697,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Career Playbook: Build Unique IoT Portfolios, Explainable AI, OSINT & LinkedIn Growth
 
-- Local page: [/podcasts/how-to-stand-out-in-data-science/](/podcasts/how-to-stand-out-in-data-science/)
+- Local page: [https://datatalks.club/podcast/how-to-stand-out-in-data-science.html](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
 - Original episode: https://datatalks.club/podcast/how-to-stand-out-in-data-science.html
 - Source file: `datatalksclub.github.io/_podcast/how-to-stand-out-in-data-science.md`
-- Guests: [Marijn Markus](/people/marijnmarkus/)
+- Guests: [Marijn Markus](https://datatalks.club/people/marijnmarkus.html)
 - Source topics: data science, career growth
 - Topic candidates: data science, career growth, hiring, portfolio, rag, search, social media, sociology data science, data science election, science election models
 - Short summary: In this episode, Marijn Markus—AI Lead and Managing Data Scientist at Capgemini—shares how to stand out in data science by combining curiosity, courage, and creativity. From his unconventional background in sociology and criminology, Marijn explains how diverse teams outperform homogeneous ones, why proactive problem-solving matters, and how to challenge hierarchy with data-driven insights.
@@ -1723,10 +1723,10 @@ Use it before opening full podcast source files.
 
 ### AI Product Design: Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps
 
-- Local page: [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/)
+- Local page: [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
 - Original episode: https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html
 - Source file: `datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`
-- Guests: [Liesbeth Dingemans](/people/liesbethdingemans/)
+- Guests: [Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html)
 - Source topics: machine learning, design thinking, strategy, ai, practices
 - Topic candidates: machine learning, design thinking, strategy, ai, practices, experimentation, rag, search, data scientists, strategy product ai
 - Short summary: How do you design products that are “algorithm-ready” while running rapid experiments and building data-driven roadmaps? In this episode, Liesbeth Dingemans—strategy and AI leader, founder of Dingemans Consulting, former VP of Revenue at Source.ag and Head of AI Strategy at Prosus—walks through pragmatic approaches to AI product design that bridge vision and execution.
@@ -1749,10 +1749,10 @@ Use it before opening full podcast source files.
 
 ### AI in Healthcare & Digital Therapeutics: Building Data Teams, Personalization, A/B Testing & Ethics
 
-- Local page: [/podcasts/ai-in-healthcare-and-digital-therapeutics/](/podcasts/ai-in-healthcare-and-digital-therapeutics/)
+- Local page: [https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html)
 - Original episode: https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html
 - Source file: `datatalksclub.github.io/_podcast/ai-in-healthcare-and-digital-therapeutics.md`
-- Guests: [Stefan Gudmundsson](/people/stefangudmundsson/)
+- Guests: [Stefan Gudmundsson](https://datatalks.club/people/stefangudmundsson.html)
 - Source topics: machine learning, healthcare
 - Topic candidates: machine learning, healthcare, a/b testing, data teams, experimentation, hiring, privacy, sidekick health, career snapshot developer, snapshot developer ai
 - Short summary: How can AI power effective digital therapeutics while balancing personalization, rapid experimentation, and patient safety? In this episode, Stefan Gudmundsson — Director of Data, Analytics, and AI with a track record building ML and data teams at Sidekick Health, King, H&M, and CCP Games — walks through practical approaches for AI in healthcare and digital therapeutics.
@@ -1775,10 +1775,10 @@ Use it before opening full podcast source files.
 
 ### Mastering DataOps: Automation, Observability & CI/CD for Reliable Data Pipelines
 
-- Local page: [/podcasts/dataops-automation-and-reliable-data-pipelines/](/podcasts/dataops-automation-and-reliable-data-pipelines/)
+- Local page: [https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 - Original episode: https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html
 - Source file: `datatalksclub.github.io/_podcast/dataops-automation-and-reliable-data-pipelines.md`
-- Guests: [Christopher Bergh](/people/christopherbergh/)
+- Guests: [Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
 - Source topics: dataops, practices
 - Topic candidates: dataops, practices, data observability, data quality, data teams, leadership, mlops, search, opening banter father, banter father dataops
 - Short summary: How do you build reliable data pipelines that move fast without breaking production? In this episode, Christopher Bergh — CEO and Head Chef at DataKitchen, co-author of the DataOps Cookbook and Manifesto, and a 25+-year veteran across research, engineering, analytics, and leadership — walks through practical approaches to mastering DataOps: automation, observability, and CI/CD for dependable data delivery.
@@ -1801,10 +1801,10 @@ Use it before opening full podcast source files.
 
 ### Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches
 
-- Local page: [/podcasts/hiring-for-data-engineering-jobs-in-europe/](/podcasts/hiring-for-data-engineering-jobs-in-europe/)
+- Local page: [https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
 - Original episode: https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html
 - Source file: `datatalksclub.github.io/_podcast/hiring-for-data-engineering-jobs-in-europe.md`
-- Guests: [Nicolas Rassam](/people/nicolasrassam/)
+- Guests: [Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html)
 - Source topics: data engineering, career transition, career growth
 - Topic candidates: data engineering, career transition, career growth, data quality, data science, hiring, portfolio, privacy, search, onfido role european
 - Short summary: How do you hire data engineers in Europe today — and what should candidates and hiring managers actually focus on during interviews? In this episode, Nicolas Rassam, a Senior Talent Acquisition Partner at Helsing with 10+ years scaling AI and engineering teams at Onfido and Criteo, walks through the practical realities of hiring data engineers across Europe's competitive, borderless market.
@@ -1827,10 +1827,10 @@ Use it before opening full podcast source files.
 
 ### How to Switch to Tech: Community Meetups, Open Source Fellowships & Landing an Ecosia Internship
 
-- Local page: [/podcasts/how-to-switch-to-ml-tech-without-experience/](/podcasts/how-to-switch-to-ml-tech-without-experience/)
+- Local page: [https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html](https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html)
 - Original episode: https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html
 - Source file: `datatalksclub.github.io/_podcast/how-to-switch-to-ml-tech-without-experience.md`
-- Guests: [Jessica Greene](/people/jessicagreene/)
+- Guests: [Jessica Greene](https://datatalks.club/people/jessicagreene.html)
 - Source topics: career switch, machine learning, job search, career growth
 - Topic candidates: machine learning, career switch, job search, career growth, open source, leadership, search, career origin film, origin film coffee, film coffee roasting
 - Short summary: How do you switch to tech from a completely different career and actually land an internship at a mission-driven company? In this episode, Jessica Greene — Senior Machine Learning Engineer at Ecosia and co-organizer of PyLadies Berlin — walks through her journey from film and coffee roasting to machine learning, sharing concrete steps for a career change to tech. We cover the learning path Jessica used (Codecademy, Andrew Ng, FreeCodeCamp), funding and study time via Germany’s Bildungsgutschein, and hands-on.
@@ -1853,10 +1853,10 @@ Use it before opening full podcast source files.
 
 ### Build a Data Engineering Career: Bootcamp Curriculum, SQL Mastery & Interview Prep
 
-- Local page: [/podcasts/data-engineering-career-path-and-skills/](/podcasts/data-engineering-career-path-and-skills/)
+- Local page: [https://datatalks.club/podcast/data-engineering-career-path-and-skills.html](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
 - Original episode: https://datatalks.club/podcast/data-engineering-career-path-and-skills.html
 - Source file: `datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`
-- Guests: [Jeff Katz](/people/jeffkatz/)
+- Guests: [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 - Source topics: data engineering, education, career growth
 - Topic candidates: data engineering, education, career growth, analytics engineering, data science, search, engineering module, lawyer developer educator, active learning continuous, learning continuous student
 - Short summary: How do you build a data engineering career from zero — what should you learn, how do you master SQL, and how do you pass the interviews? In this episode, Jeff Katz — former lawyer turned developer, founder of Jigsaw Labs, and current ML engineer at AppFolio — walks through practical paths into data engineering and how to design bootcamp curriculum that actually leads to hires.
@@ -1879,10 +1879,10 @@ Use it before opening full podcast source files.
 
 ### How I Landed a Data Engineering Job: Bootcamp, Docker, Airflow, AWS & Interview Tips
 
-- Local page: [/podcasts/get-data-analytics-and-data-engineering-job/](/podcasts/get-data-analytics-and-data-engineering-job/)
+- Local page: [https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
 - Original episode: https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html
 - Source file: `datatalksclub.github.io/_podcast/get-data-analytics-and-data-engineering-job.md`
-- Guests: [Gloria Quiceno](/people/gloriaquiceno/)
+- Guests: [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html)
 - Source topics: career switch, data engineering, career growth
 - Topic candidates: data engineering, career switch, career growth, data quality, job search, portfolio, reproducibility, search, twitter data, transition neuroscience research
 - Short summary: How do you go from neuroscience research to a data engineering role — and what practical steps and skills actually get you hired? In this episode, Gloria Quiceno, Senior Analytics Engineer at ICE, walks through her transition from neuroscience labs to rebuilding enterprise data platforms (including a BI rebuild that saved €250K), and the concrete tools and tactics that landed her a data engineering job. We cover her early lab automation and scripting experience, learning MATLAB/R and Python, a first industry role.
@@ -1905,10 +1905,10 @@ Use it before opening full podcast source files.
 
 ### Marketing Data Science: Attribution, Media Mix Modeling, Uplift & Cookieless Tracking
 
-- Local page: [/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/](/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/)
+- Local page: [https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.md`
-- Guests: [Juan Orduz](/people/juanorduz/)
+- Guests: [Juan Orduz](https://datatalks.club/people/juanorduz.html)
 - Source topics: marketing, machine learning
 - Topic candidates: machine learning, marketing, a/b testing, data quality, data science, privacy, geometric analysis, offline channels, juan orduz mathematician, orduz mathematician data
 - Short summary: How can marketing teams reliably measure ad impact, allocate budget across channels, and adapt to a cookieless world? In this episode, Juan Orduz — a Berlin-based mathematician and data scientist specializing in statistical learning, time series, Bayesian and geometric methods — walks through practical marketing data science approaches for attribution, media mix modeling (MMM), uplift modeling, and cookieless tracking.
@@ -1931,10 +1931,10 @@ Use it before opening full podcast source files.
 
 ### Asteroid Mining: Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU
 
-- Local page: [/podcasts/machine-learning-for-asteroid-mining-and-water-detection/](/podcasts/machine-learning-for-asteroid-mining-and-water-detection/)
+- Local page: [https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html](https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-for-asteroid-mining-and-water-detection.md`
-- Guests: [Daynan Crull](/people/daynancrull/)
+- Guests: [Daynan Crull](https://datatalks.club/people/daynancrull.html)
 - Source topics: machine learning, astronomy
 - Topic candidates: machine learning, astronomy, data engineering, data science, rag, reproducibility, search, career data science, data science pivot, science pivot astronomy
 - Short summary: How can we reliably detect water on near-Earth asteroids using machine learning and hyperspectral spectroscopy to enable in-situ resource utilization (ISRU)? In this episode Daynan Crull—co-founder of Karman+ and lead of its science and technology effort—walks through the science and engineering needed to find and characterize asteroid water for space missions. Drawing on his background in remote sensing and ML, Daynan explains hyperspectral infrared signatures for water detection, spectral classification.
@@ -1957,10 +1957,10 @@ Use it before opening full podcast source files.
 
 ### Data Engineering Job Prep & Interview Guide: Python, SQL, Portfolio & Job Search Tips
 
-- Local page: [/podcasts/get-data-engineering-job-prep-and-interview/](/podcasts/get-data-engineering-job-prep-and-interview/)
+- Local page: [https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
 - Original episode: https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html
 - Source file: `datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`
-- Guests: [Jeff Katz](/people/jeffkatz/)
+- Guests: [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 - Source topics: data engineering, job search, tools
 - Topic candidates: data engineering, job search, tools, open source, hiring, machine learning, portfolio, rag, search, python sql
 - Short summary: How do you actually get a data engineering job today — and which skills hiring teams care about most? In this episode, Jeff Katz, a Machine Learning Engineer at AppFolio and longtime instructor/founder of Jigsaw Labs and Flatiron School curriculum lead, distills a webinar on hiring demand into practical advice for job seekers. Drawing on applied AI and data engineering experience plus open-source contributions, Jeff walks through the core data engineering skills employers expect: deep Python and SQL, Docker,.
@@ -1983,10 +1983,10 @@ Use it before opening full podcast source files.
 
 ### Freelance Data Engineering Playbook: Pricing, Client Acquisition & Tools
 
-- Local page: [/podcasts/freelance-data-engineering-pricing-and-clients/](/podcasts/freelance-data-engineering-pricing-and-clients/)
+- Local page: [https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html)
 - Original episode: https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html
 - Source file: `datatalksclub.github.io/_podcast/freelance-data-engineering-pricing-and-clients.md`
-- Guests: [Adrian Brudaru](/people/adrianbrudaru/)
+- Guests: [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 - Source topics: data engineering, freelance, career growth, tools
 - Topic candidates: data engineering, freelance, career growth, tools, data science, hiring, open source, portfolio, adrian move freelancing, career journey economics
 - Short summary: How do you price freelance data engineering work, win steady clients, and pick the right tools for messy production problems? In this episode, Adrian Brudaru — an economist-turned-business analyst who moved to Berlin, left corporate/startup cycles to freelance for five years, and now co-founds a data company releasing open source tooling — walks through a practical playbook for freelance data engineers.
@@ -2009,10 +2009,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Career Playbook: Job Hunt, Portfolios, DALL·E 2 & Overcoming FOMO
 
-- Local page: [/podcasts/how-to-break-into-data-science/](/podcasts/how-to-break-into-data-science/)
+- Local page: [https://datatalks.club/podcast/how-to-break-into-data-science.html](https://datatalks.club/podcast/how-to-break-into-data-science.html)
 - Original episode: https://datatalks.club/podcast/how-to-break-into-data-science.html
 - Source file: `datatalksclub.github.io/_podcast/how-to-break-into-data-science.md`
-- Guests: [Mısra Turp](/people/misraturp/)
+- Guests: [Mısra Turp](https://datatalks.club/people/misraturp.html)
 - Source topics: data science, career growth, job search
 - Topic candidates: data science, career growth, job search, data engineering, freelance, hiring, portfolio, search, data scientists, misra career path
 - Short summary: How do you actually break into data science, build a portfolio that gets interviews, and stay sane while every new AI model vies for your attention? In this episode Mısra Turp — data scientist, content creator, and developer advocate at AssemblyAI (founder of “So you want to be a data scientist?”) — walks through a practical career playbook for job hunting, portfolio building, and coping with FOMO and imposter syndrome.
@@ -2035,10 +2035,10 @@ Use it before opening full podcast source files.
 
 ### Contribute to Hugging Face & Build an NLP Portfolio: Open Source, Datasets, Spaces
 
-- Local page: [/podcasts/hugging-face-contributions-and-nlp-portfolio/](/podcasts/hugging-face-contributions-and-nlp-portfolio/)
+- Local page: [https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
 - Original episode: https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html
 - Source file: `datatalksclub.github.io/_podcast/hugging-face-contributions-and-nlp-portfolio.md`
-- Guests: [Merve Noyan](/people/mervenoyan/)
+- Guests: [Merve Noyan](https://datatalks.club/people/mervenoyan.html)
 - Source topics: machine learning, NLP, open-source
 - Topic candidates: open source, machine learning, nlp, hugging face, data science, hiring, portfolio, reproducibility, projects sentiment analysis, projects sentiment
 - Short summary: How do you go from beginner projects to contributing to Hugging Face and building an visible NLP portfolio? In this episode, Merve Noyan — Google Developer Expert in Machine Learning, grad student in Data Science, and NLP-focused ML engineer — walks through practical steps for contributing to open source, datasets, and Hugging Face Spaces.
@@ -2061,10 +2061,10 @@ Use it before opening full podcast source files.
 
 ### Designing High-Impact Data Science Teams: Centralized vs Embedded Models, Experimentation & Staffing
 
-- Local page: [/podcasts/data-science-team-structure-and-org-design/](/podcasts/data-science-team-structure-and-org-design/)
+- Local page: [https://datatalks.club/podcast/data-science-team-structure-and-org-design.html](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
 - Original episode: https://datatalks.club/podcast/data-science-team-structure-and-org-design.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-team-structure-and-org-design.md`
-- Guests: [Lisa Cohen](/people/lisacohen/)
+- Guests: [Lisa Cohen](https://datatalks.club/people/lisacohen.html)
 - Source topics: data science, data teams, leadership, machine learning
 - Topic candidates: data science, data teams, leadership, machine learning, data quality, experimentation, search, knowledge sharing, product engineering, lisa cohen director
 - Short summary: How should you structure a data science organization to maximize product impact: centralized, embedded, or a hybrid of both? In this episode, Lisa Cohen, Director of Data Science at Twitter who leads 70 data scientists and previously led Azure Customer Growth Analytics at Microsoft, walks through practical tradeoffs and implementation patterns for designing high-impact data science orgs.
@@ -2087,10 +2087,10 @@ Use it before opening full podcast source files.
 
 ### From Developer to Startup Founder: Building a Career Through Open Source
 
-- Local page: [/podcasts/open-source-turned-into-career-and-startup-creation/](/podcasts/open-source-turned-into-career-and-startup-creation/)
+- Local page: [https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
 - Original episode: https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html
 - Source file: `datatalksclub.github.io/_podcast/open-source-turned-into-career-and-startup-creation.md`
-- Guests: [Will McGugan](/people/willmcgugan/)
+- Guests: [Will McGugan](https://datatalks.club/people/willmcgugan.html)
 - Source topics: open-source, startups, career growth, entrepreneurship
 - Topic candidates: open source, startups, career growth, entrepreneurship, freelance, hiring, will mcgugan python, mcgugan python open, python open source, open source maintainer
 - Short summary: How do you turn open source work into a sustainable career and even a startup? In this episode Will McGugan — a Python open source maintainer and creator of PyFilesystem, Rich, and Textual — walks through his path from video game developer to founder of Textualize. We trace his early projects (BBCode parser, chess libraries), the design of PyFilesystem and S3 integrations, and how solving personal needs led to learning by building.
@@ -2113,10 +2113,10 @@ Use it before opening full podcast source files.
 
 ### How to Hire Data Scientists: Interview Questions, MLOps, AutoML Limits & Inclusive Hiring
 
-- Local page: [/podcasts/hiring-for-data-science-jobs-interview-questions-skills/](/podcasts/hiring-for-data-science-jobs-interview-questions-skills/)
+- Local page: [https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html)
 - Original episode: https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html
 - Source file: `datatalksclub.github.io/_podcast/hiring-for-data-science-jobs-interview-questions-skills.md.md`
-- Guests: [Olga Ivina](/people/olgaivina/)
+- Guests: [Olga Ivina](https://datatalks.club/people/olgaivina.html)
 - Source topics: data science, career growth, hiring, MLOps
 - Topic candidates: data science, hiring, mlops, career growth, career transition, rag, search, career beginnings applied, beginnings applied mathematics, applied mathematics forecasting
 - Short summary: How do you hire the right data scientists today—balancing algorithmic depth, MLOps skills, and inclusive hiring practices? In this episode, Olga Ivina, Delivery Data Science Director at Microsoft and former Deloitte consultant with a Ph.D. and 16+ years in AI, walks through practical strategies for recruiting strong data science talent.
@@ -2139,10 +2139,10 @@ Use it before opening full podcast source files.
 
 ### Data Science for Public Policy — Ethical AI, Climate Justice & Impact Projects
 
-- Local page: [/podcasts/data-science-for-public-policy-ethical-ai-social-impact/](/podcasts/data-science-for-public-policy-ethical-ai-social-impact/)
+- Local page: [https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html)
 - Original episode: https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-for-public-policy-ethical-ai-social-impact.md`
-- Guests: [Christine Cepelak](/people/christinecepelak/)
+- Guests: [Christine Cepelak](https://datatalks.club/people/christinecepelak.html)
 - Source topics: data science, public policy, ethical AI, social impact
 - Topic candidates: data science, public policy, social impact, ethical ai, computer vision, data strategy, hiring, search, data science public, science public policy
 - Short summary: How can data science meaningfully shape public policy without becoming a tech-first solution or creating new ethical harms? In this episode, Christine Cepelak, a writer and researcher of tech and social issues who’s studying Data Science for Public Policy and has years of experience managing social programs, walks through the practical realities of data science for public policy. We cover career paths and sector differences, a community organizing case study on electronics recycling, and real-world use cases like.
@@ -2165,10 +2165,10 @@ Use it before opening full podcast source files.
 
 ### Data Science Jobs: How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams
 
-- Local page: [/podcasts/data-science-job-red-flags-and-mismatched-roles/](/podcasts/data-science-job-red-flags-and-mismatched-roles/)
+- Local page: [https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html)
 - Original episode: https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`
-- Guests: [Tereza Iofciu](/people/terezaiofciu/)
+- Guests: [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
 - Source topics: data science, data engineering, career growth, hiring, data teams, team building, job search
 - Topic candidates: data engineering, data science, hiring, data teams, career growth, team building, job search, leadership, retrieval, search
 - Short summary: How can you tell if a data scientist job is really a data engineering role — or a mismatched hire waiting to happen? In this episode, Tereza Iofciu, PhD and seasoned data practitioner, walks through practical ways to spot misleading data job titles, hiring red flags, and how to build clearer, healthier data teams. Tereza brings experience across data science manager, data scientist, data engineer and product manager roles, plus teaching and community leadership (neuefische, PyLadies Hamburg, PSF community award),.
@@ -2191,10 +2191,10 @@ Use it before opening full podcast source files.
 
 ### MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling
 
-- Local page: [/podcasts/mlops-model-monitoring-data-observability/](/podcasts/mlops-model-monitoring-data-observability/)
+- Local page: [https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
 - Original episode: https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`
-- Guests: [Danny Leybzon](/people/dannyleybzon/)
+- Guests: [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 - Source topics: MLOps, tools, data engineering
 - Topic candidates: mlops, tools, data engineering, machine learning, model monitoring, data observability, hiring, search, mlops architect, danny leybzon mlops
 - Short summary: How do you keep machine learning models reliable in production — what should you monitor, where do upstream failures originate, and which tooling decisions actually matter? In this episode, Danny Leybzon, MLOps Architect at WhyLabs and computational statistics alum of UCLA, walks through the practical challenges of production model monitoring, data observability, and tooling trade-offs. Drawing on his path from analyst and product roles at Qubole to field engineering at Imply and now advising customers on.
@@ -2217,10 +2217,10 @@ Use it before opening full podcast source files.
 
 ### Scale Enterprise AI: Data-First Strategies, MLOps Best Practices & Realistic Experiments
 
-- Local page: [/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/](/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/)
+- Local page: [https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html)
 - Original episode: https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html
 - Source file: `datatalksclub.github.io/_podcast/scaling-enterprise-ai-mlops-data-first-strategy.md`
-- Guests: [Alexander Hendorf](/people/alexanderhendorf/)
+- Guests: [Alexander Hendorf](https://datatalks.club/people/alexanderhendorf.html)
 - Source topics: MLOps, AI, machine learning, data engineering, open-source
 - Topic candidates: machine learning, open source, mlops, ai, data engineering, experimentation, leadership, rag, reproducibility, deep learning
 - Short summary: How do you move from proof-of-concept to scaled enterprise AI without over-investing in hype? In this episode, Alexander Hendorf — head of data and AI at KÖNIGSWEG, PyData chair and Python Software Foundation/EuroPython fellow — walks through pragmatic, data-first strategies for scaling AI across organizations.
@@ -2243,10 +2243,10 @@ Use it before opening full podcast source files.
 
 ### Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka
 
-- Local page: [/podcasts/scaling-data-engineering-teams-self-service-platforms/](/podcasts/scaling-data-engineering-teams-self-service-platforms/)
+- Local page: [https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)
 - Original episode: https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html
 - Source file: `datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`
-- Guests: [Mehdi OUAZZA](/people/mehdiouazza/)
+- Guests: [Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html)
 - Source topics: data engineering, data governance, tools, open-source, career development
 - Topic candidates: data engineering, open source, data governance, tools, career development, hiring, orchestration, data platform, growing data engineering, data engineering team
 - Short summary: How do you scale data engineering teams during hypergrowth without sacrificing quality or developer velocity? In this episode, Mehdi OUAZZA — a data engineer and entrepreneur with 7+ years working on streaming and batch pipelines, data modeling, orchestration, infrastructure and analytics — walks through practical approaches to scale data engineering teams, build self-service data platforms, hire senior engineers and adopt Kafka-based event streaming.
@@ -2269,10 +2269,10 @@ Use it before opening full podcast source files.
 
 ### Data Mesh Implementation: Build Decentralized Data Products, Contracts & Federated Governance
 
-- Local page: [/podcasts/data-mesh-architecture-decentralized-data-products/](/podcasts/data-mesh-architecture-decentralized-data-products/)
+- Local page: [https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)
 - Original episode: https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html
 - Source file: `datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`
-- Guests: [Zhamak Dehghani](/people/zhamakdehghani/)
+- Guests: [Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html)
 - Source topics: data mesh, data engineering
 - Topic candidates: data mesh, data engineering, data product, data quality, firmware distributed systems, distributed systems career, systems career highlights, consulting practice building, practice building data, building data platforms
 - Short summary: How do you scale data architecture so teams deliver value without centralized bottlenecks? In this episode, Zhamak Dehghani — director of technology at Thoughtworks and founder of the Data Mesh concept — walks through practical steps for Data Mesh implementation: building decentralized data products, defining data contracts, and establishing federated governance.
@@ -2295,10 +2295,10 @@ Use it before opening full podcast source files.
 
 ### Practical Guide to Dataset Creation & Annotation for NLP: Active Learning, Weak Supervision, Tools
 
-- Local page: [/podcasts/nlp-dataset-creation-annotation-tools-workflows/](/podcasts/nlp-dataset-creation-annotation-tools-workflows/)
+- Local page: [https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html)
 - Original episode: https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html
 - Source file: `datatalksclub.github.io/_podcast/nlp-dataset-creation-annotation-tools-workflows.md`
-- Guests: [Christiaan Swart](/people/christiannswart/)
+- Guests: [Christiaan Swart](https://datatalks.club/people/christiannswart.html)
 - Source topics: NLP, data
 - Topic candidates: nlp, data, portfolio, privacy, dataset creation, dataset creation curation, creation curation annotation, career nlp bio-nlp, comtura origin sales, origin sales call
 - Short summary: How do you create high-quality NLP datasets without breaking the budget? In this episode Christiaan Swart — an NLP practitioner with six years’ experience across email, complaints, pharma, and sales who cofounded Comtura (born from sales call transcription and CRM integration) — walks through practical methods for dataset creation and annotation.
@@ -2321,10 +2321,10 @@ Use it before opening full podcast source files.
 
 ### Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda
 
-- Local page: [/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/](/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/)
+- Local page: [https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html](https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html)
 - Original episode: https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html
 - Source file: `datatalksclub.github.io/_podcast/building-data-science-programs-and-democratizing-high-performance-computing.md`
-- Guests: [David Bader](/people/davidbader/)
+- Guests: [David Bader](https://datatalks.club/people/davidbader.html)
 - Source topics: data science, data analytics, tools
 - Topic candidates: data science, data analytics, tools, open source, leadership, search, njit data science, vs. industry, njit data, david bader njit
 - Short summary: How do you build effective data science programs, democratize high-performance computing, and scale graph analytics so researchers and practitioners can solve real-world problems? In this episode, David Bader — Director of the Institute for Data Science at NJIT, founder of NJIT’s Department of Data Science, and a distinguished professor with deep expertise in HPC, big data, and analytics — walks through his career, leadership in launching academic units, and practical lessons for curriculum design and regional.
@@ -2347,10 +2347,10 @@ Use it before opening full podcast source files.
 
 ### Responsible & Explainable AI: Practical Guide to Bias Detection, Fairness & Governance
 
-- Local page: [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/)
+- Local page: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
 - Original episode: https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html
 - Source file: `datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`
-- Guests: [Supreet Kaur](/people/supreetkaur/)
+- Guests: [Supreet Kaur](https://datatalks.club/people/supreetkaur.html)
 - Source topics: responsible AI, explainable AI, bias detection, fairness, governance, tools
 - Topic candidates: responsible ai, explainable ai, bias detection, fairness, governance, tools, data quality, data strategy, hiring, leadership
 - Short summary: How do you detect bias, enforce fairness, and govern AI systems in production without sacrificing business outcomes? In this episode, Supreet Kaur — AVP on Morgan Stanley’s Data Strategy and Products team, founder of DataBuzz, and mentor at Columbia and Rutgers — walks through a practical roadmap for responsible AI and explainable AI grounded in real-world examples.
@@ -2373,10 +2373,10 @@ Use it before opening full podcast source files.
 
 ### Transition from QA to Machine Learning & Data Engineering: Projects, Cloud & Interview Prep
 
-- Local page: [/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/](/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/)
+- Local page: [https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html](https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html)
 - Original episode: https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html
 - Source file: `datatalksclub.github.io/_podcast/how-to-transition-into-ml-and-data-engineering-from-qa.md`
-- Guests: [Alvaro Navas Peire](/people/alvaronavaspeire/)
+- Guests: [Alvaro Navas Peire](https://datatalks.club/people/alvaronavaspeire.html)
 - Source topics: QA, machine learning, data engineering, career transition, job search
 - Topic candidates: machine learning, data engineering, job search, qa, career transition, hiring, portfolio, search, soft skills, google cloud
 - Short summary: How do you move from a QA role into machine learning and data engineering—what projects, cloud skills, and interview prep actually make a difference? In this episode Alvaro Navas Peire walks through his journey from testing Android phones and QA checklists to quitting the industry, taking a gap year, and retraining in machine learning and data engineering. With an informatics engineering background and hands-on experience from postgraduate courses, Neuromatch, and DataTalks’ ML & DE Zoomcamps, Alvaro explains the.
@@ -2399,10 +2399,10 @@ Use it before opening full podcast source files.
 
 ### How to Hire, Manage, and Grow a Data Science Team in B2B SaaS
 
-- Local page: [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/)
+- Local page: [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
 - Original episode: https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html
 - Source file: `datatalksclub.github.io/_podcast/hiring-and-managing-data-science-teams-in-b2b-saas.md`
-- Guests: [Katie Bauer](/people/katiebauer/)
+- Guests: [Katie Bauer](https://datatalks.club/people/katiebauer.html)
 - Source topics: data science, career development, career growth, hiring, management, team building, mentorship
 - Topic candidates: data science, career growth, hiring, career development, management, team building, mentorship, leadership, data science manager, head data
 - Short summary: How do you hire, manage, and grow a high-impact data science team inside a B2B SaaS company? In this episode, Katie Bauer — Head of Data at GlossGenius and former data leader at Twitter and Reddit — walks through practical career frameworks and team-building strategies for product analysts, analytics engineers, marketing scientists, and data scientists. Katie traces her own trajectory from linguistics to analytics and explains what “craft” looks like in analytics: maintainability, documentation, and peer review..
@@ -2425,10 +2425,10 @@ Use it before opening full podcast source files.
 
 ### DataOps & GitOps for Data Teams: Onboarding, IaC, Reproducibility & Production Best Practices
 
-- Local page: [/podcasts/dataops-and-gitops-best-practices-for-data-teams/](/podcasts/dataops-and-gitops-best-practices-for-data-teams/)
+- Local page: [https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)
 - Original episode: https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html
 - Source file: `datatalksclub.github.io/_podcast/dataops-and-gitops-best-practices-for-data-teams.md`
-- Guests: [Tomasz Hinc](/people/tomaszhinc/)
+- Guests: [Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html)
 - Source topics: DataOps, GitOps, data teams, tools
 - Topic candidates: dataops, data teams, gitops, tools, data engineering, machine learning, product analytics, data science, rag, reproducibility
 - Short summary: How do you make data work less fragile and easier to onboard while keeping production safe and reproducible? In this episode, Tomasz Hinc, a DataOps practitioner from Poznań with roots in econometrics, product analytics, data engineering and ML, walks through practical DataOps and GitOps patterns for data teams. We cover platform onboarding (requesting infra vs. merge requests), Infrastructure as Code with Terraform, Terragrunt and Atlantis, and a GitOps workflow from branch to Atlantis dry-run and apply. Tomasz.
@@ -2451,10 +2451,10 @@ Use it before opening full podcast source files.
 
 ### Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack
 
-- Local page: [/podcasts/building-open-source-data-product-for-identity-resolution/](/podcasts/building-open-source-data-product-for-identity-resolution/)
+- Local page: [https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
 - Original episode: https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html
 - Source file: `datatalksclub.github.io/_podcast/building-open-source-data-product-for-identity-resolution.md`
-- Guests: [Sonal Goyal](/people/sonalgoyal/)
+- Guests: [Sonal Goyal](https://datatalks.club/people/sonalgoyal.html)
 - Source topics: machine learning, MLOps, data engineering, open-source, product management
 - Topic candidates: open source, machine learning, mlops, data engineering, product management, data governance, identity resolution, data product, hiring, use cases
 - Short summary: How do you build an open-source, ML-powered identity resolution tool that becomes the single source of truth in a modern data stack? In this episode Sonal Goyal—founder of Zingg and a 23-year data product veteran—walks through the practical challenges of identity resolution and entity resolution across industries like investment banking, telecom, gaming, and insurance. Sonal explains why ML-powered approaches matter, how an open-source framework like Zingg can fit into your modern data stack, and what it takes to.
@@ -2477,10 +2477,10 @@ Use it before opening full podcast source files.
 
 ### Building and Scaling Data Science Practice in Industrial Enterprises: AI Adoption, MLOps Maturity & Career Growth
 
-- Local page: [/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/](/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/)
+- Local page: [https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
 - Original episode: https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html
 - Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.md`
-- Guests: [Andrey Shtylenko](/people/andreyshtylenko/)
+- Guests: [Andrey Shtylenko](https://datatalks.club/people/andreyshtylenko.html)
 - Source topics: data science, industrial AI, ai adoption, ai, MLOps
 - Topic candidates: data science, mlops, ai adoption, industrial ai, ai, computer vision, data teams, machine learning, career growth, search
 - Short summary: How do industrial enterprises move from pilots to production-ready AI—and what team structures, MLOps practices, and career moves make that possible? In this episode Andrey Shtylenko, Director of Engineering at Honeywell and leader of its Advanced Technology Group and AI practice, walks through practical approaches for building and scaling data science teams in industrial enterprises. Drawing on Honeywell use cases—smart sensors, computer vision, and robotics—Andrey explains the data and machine learning practices.
@@ -2503,10 +2503,10 @@ Use it before opening full podcast source files.
 
 ### Building Data Products at Scale: Recommenders, Domain Ownership, and Hiring for Production ML
 
-- Local page: [/podcasts/building-data-products-product-owner-vs-product-manager/](/podcasts/building-data-products-product-owner-vs-product-manager/)
+- Local page: [https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)
 - Original episode: https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html
 - Source file: `datatalksclub.github.io/_podcast/building-data-products-product-owner-vs-product-manager.md`
-- Guests: [Anna Hannemann](/people/annahannemann/)
+- Guests: [Anna Hannemann](https://datatalks.club/people/annahannemann.html)
 - Source topics: data products, product owners, product managers, data science, machine learning, MLOps
 - Topic candidates: data science, mlops, data products, product owners, product managers, machine learning, data product, hiring, leadership, portfolio
 - Short summary: How do you scale recommender systems, hire for production ML, and model price markdowns to reduce waste—and who should own those decisions? In this episode, Anna Hannemann, Domain Owner for Data Science at Metro.digital, walks through practical answers informed by her PhD in Data Science and prior leadership of recommender and robotics/smart logistics teams.
@@ -2529,10 +2529,10 @@ Use it before opening full podcast source files.
 
 ### Marketing to Analytics Engineering: DBT, SQL, Data Modeling & Career Playbook
 
-- Local page: [/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/](/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/)
+- Local page: [https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)
 - Original episode: https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html
 - Source file: `datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`
-- Guests: [Nikola Maksimovic](/people/nikolamaksimovic/)
+- Guests: [Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html)
 - Source topics: data science, analytics engineering, career transition, tools
 - Topic candidates: analytics engineering, data science, career transition, tools, a/b testing, product analytics, data modeling, switching marketing analytics, marketing analytics engineering, early career startup
 - Short summary: How do you transition from digital marketing into analytics engineering—and master DBT, SQL, and data modeling in the process? In this episode, Nikola Maksimovic shares his complete career transformation journey, from startup marketing roles in London and Berlin to growth marketing at Ecosia, and ultimately his pandemic-driven pivot into BI and analytics engineering. Nikola reveals the step-by-step learning path that worked for him—SQL fundamentals, hands-on BI projects, strategic conversations with internal data.
@@ -2555,10 +2555,10 @@ Use it before opening full podcast source files.
 
 ### Practical Data Journalism: Sourcing, Storytelling, Visualization & Tools (Python, Tableau)
 
-- Local page: [/podcasts/data-journalism-python-visualization-storytelling/](/podcasts/data-journalism-python-visualization-storytelling/)
+- Local page: [https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
 - Original episode: https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html
 - Source file: `datatalksclub.github.io/_podcast/data-journalism-python-visualization-storytelling.md`
-- Guests: [Angelica Lo Duca](/people/angelicaloduca/)
+- Guests: [Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html)
 - Source topics: data journalism, data science, data visualization, tools
 - Topic candidates: data science, data journalism, data visualization, tools, data engineering, technical writing, portfolio, search, duca researcher professor, career journey cryptography
 - Short summary: How do you transform raw data into compelling, trustworthy journalism that readers can understand and act upon? In this episode, Angelica Lo Duca—researcher at the Institute of Informatics and Telematics (CNR) and Data Journalism professor at the University of Pisa—shares practical frameworks for data journalism covering sourcing, storytelling, visualization, and essential tools like Python and Tableau.
@@ -2581,10 +2581,10 @@ Use it before opening full podcast source files.
 
 ### Designing FinTech Data Analytics Curriculum: Fraud Detection, BigQuery Labs & Mentoring
 
-- Local page: [/podcasts/teaching-mentoring-data-analytics-fintech/](/podcasts/teaching-mentoring-data-analytics-fintech/)
+- Local page: [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 - Original episode: https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html
 - Source file: `datatalksclub.github.io/_podcast/teaching-mentoring-data-analytics-fintech.md`
-- Guests: [Irina Brudaru](/people/irinabrudaru/)
+- Guests: [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html)
 - Source topics: data analytics, fintech, mentoring, teaching, data science
 - Topic candidates: data science, data analytics, fintech, mentoring, teaching, product analytics, career transition, data engineering, search, irina brudaru teacher
 - Short summary: How do you design a FinTech data analytics curriculum that teaches fraud detection, chargeback modeling, and real-world cloud skills while also mentoring diverse learners? In this episode, Irina Brudaru — Head of Data & Analytics at Finlex, former Google data leader, and long-time mentor and teacher — walks through building practical FinTech courses informed by industry experience across Berlin, Amsterdam and the Bay Area.
@@ -2607,10 +2607,10 @@ Use it before opening full podcast source files.
 
 ### Transitioning from Software Engineer to Data Science Manager: Search, ML & Leadership
 
-- Local page: [/podcasts/from-software-engineering-to-leading-data-science-teams/](/podcasts/from-software-engineering-to-leading-data-science-teams/)
+- Local page: [https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html](https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html)
 - Original episode: https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html
 - Source file: `datatalksclub.github.io/_podcast/from-software-engineering-to-leading-data-science-teams.md`
-- Guests: [Sadat Anwar](/people/sadatanwar/)
+- Guests: [Sadat Anwar](https://datatalks.club/people/sadatanwar.html)
 - Source topics: career transition, software engineering, data science, machine learning, leadership, team building
 - Topic candidates: data science, software engineering, machine learning, leadership, career transition, team building, computer vision, data engineering, experimentation, hiring
 - Short summary: How do you move from hands-on software engineering into leading data science teams while staying effective on search and machine learning projects? In this episode Sadat Anwar — a people-centric Data Science Manager and former software engineer fluent in Java, Scala and Python — maps his path from an electronics and informatics background to research in computer vision at Fraunhofer and production search work at OLX.
@@ -2633,10 +2633,10 @@ Use it before opening full podcast source files.
 
 ### Practical Skills for Data Professionals in SaaS: Bridging the Gap between Data and Business
 
-- Local page: [/podcasts/data-professionals-business-skills-in-saas/](/podcasts/data-professionals-business-skills-in-saas/)
+- Local page: [https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html)
 - Original episode: https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html
 - Source file: `datatalksclub.github.io/_podcast/data-professionals-business-skills-in-saas.md`
-- Guests: [Loris Marini](/people/lorismarini/)
+- Guests: [Loris Marini](https://datatalks.club/people/lorismarini.html)
 - Source topics: data science, MLOps, communication, tools, career transition
 - Topic candidates: data science, mlops, communication, tools, career transition, community building, rag, search, discovering data, physics data science
 - Short summary: How do you move data science from experiments to measurable impact in a SaaS business? In this episode, Loris Marini — CEO and founder of Discovering Data and host of the Discovering Data podcast — walks through practical approaches to deploying models, building marketing automation, and turning metrics into persuasive stories.
@@ -2659,10 +2659,10 @@ Use it before opening full podcast source files.
 
 ### Data-Centric AI: Improve Label Quality & Edit Datasets to Boost Model Performance
 
-- Local page: [/podcasts/data-centric-ai/](/podcasts/data-centric-ai/)
+- Local page: [https://datatalks.club/podcast/data-centric-ai.html](https://datatalks.club/podcast/data-centric-ai.html)
 - Original episode: https://datatalks.club/podcast/data-centric-ai.html
 - Source file: `datatalksclub.github.io/_podcast/data-centric-ai.md`
-- Guests: [Marysia Winkels](/people/marysiawinkels/)
+- Guests: [Marysia Winkels](https://datatalks.club/people/marysiawinkels.html)
 - Source topics: machine learning, data science, MLOps, tools, data governance
 - Topic candidates: data science, machine learning, mlops, tools, data governance, embeddings, search, ai education geometric, education geometric deep, geometric deep learning
 - Short summary: How much can improving label quality and editing your dataset actually boost model performance? In this episode, Marysia Winkels — Lead Data Scientist at GoDataDriven with a Master’s in Artificial Intelligence and a focus on data-efficient deep learning, and co-organizer of PyData Amsterdam/Global — walks through a practical, data-centric approach to that question.
@@ -2685,10 +2685,10 @@ Use it before opening full podcast source files.
 
 ### Teaching Open Science & Reproducible Research: Research Software Engineering Practices for Academia
 
-- Local page: [/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/](/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/)
+- Local page: [https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html)
 - Original episode: https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html
 - Source file: `datatalksclub.github.io/_podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.md`
-- Guests: [Johanna Bayer](/people/johannabayer/)
+- Guests: [Johanna Bayer](https://datatalks.club/people/johannabayer.html)
 - Source topics: open science, software engineering, academia, teaching
 - Topic candidates: software engineering, open science, academia, teaching, open source, machine learning, reproducibility, search, curriculum reproducible, johanna bayer psychology
 - Short summary: How do you teach reproducible research and practical research software engineering (RSE) skills to neuroimaging students and researchers? In this episode, Johanna Bayer — a psychologist-turned-computational neuroscientist completing a PhD in machine learning for clinical neuroimaging at the University of Melbourne and an open science advocate — walks through concrete approaches for teaching reproducible research. We cover course design (Carpentries-style curricula, Git introductions, and reproducible manuscripts.
@@ -2711,10 +2711,10 @@ Use it before opening full podcast source files.
 
 ### Indie Hacking and Bootstrapping Side Projects for Data Scientists: Build, Launch & Monetize Indie Hacker Products
 
-- Local page: [/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/](/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/)
+- Local page: [https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
 - Original episode: https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html
 - Source file: `datatalksclub.github.io/_podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.md`
-- Guests: [Pauline Clavelloux](/people/paulineclavelloux/)
+- Guests: [Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html)
 - Source topics: indie hacking, bootstrapping, side projects, data science, machine learning, generative AI, entrepreneurship, freelance
 - Topic candidates: data science, generative ai, indie hacking, side projects, bootstrapping, machine learning, entrepreneurship, freelance, data engineering, career journey engineering
 - Short summary: How do you build, launch, and actually monetize indie-hacker products in crypto alerts and generative AI while keeping a day job? In this episode, Pauline Clavelloux — an IBM data science manager and consultant with eight years’ experience who also ships side projects like Cryptopy (crypto alerts) and UnrealMe (a DreamBooth-inspired selfie-to-art tool) — walks through the practical steps.
@@ -2737,10 +2737,10 @@ Use it before opening full podcast source files.
 
 ### Master Machine Learning & Data Science Interviews: Recruiter-Proven Stages, Prep & Resources
 
-- Local page: [/podcasts/machine-learning-data-science-interview-prep/](/podcasts/machine-learning-data-science-interview-prep/)
+- Local page: [https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html](https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html)
 - Original episode: https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html
 - Source file: `datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`
-- Guests: [Luke Whipps](/people/lukewhipps/)
+- Guests: [Luke Whipps](https://datatalks.club/people/lukewhipps.html)
 - Source topics: job search, career growth, hiring, data science
 - Topic candidates: hiring, data science, job search, career growth, machine learning, search, interview prep, luke whipps neural, whipps neural ai, recruitment career ml
 - Short summary: How do you reliably prepare for ML and data science technical interviews — from the initial recruiter screen to coding and scenario-based rounds? In this episode Luke Whipps, co-founder of Neural.AI and host of the AI Game Changer podcast, draws on 8+ years recruiting data scientists and AI professionals to lay out recruiter-proven interview stages and practical prep tactics.
@@ -2763,10 +2763,10 @@ Use it before opening full podcast source files.
 
 ### How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills
 
-- Local page: [/podcasts/how-to-grow-your-ml-engineering-career/](/podcasts/how-to-grow-your-ml-engineering-career/)
+- Local page: [https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html)
 - Original episode: https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html
 - Source file: `datatalksclub.github.io/_podcast/how-to-grow-your-ml-engineering-career.md`
-- Guests: [Krzysztof Szafanek](/people/krzysztofszafanek/)
+- Guests: [Krzysztof Szafanek](https://datatalks.club/people/krzysztofszafanek.html)
 - Source topics: machine learning, career transitions, LLMs, hiring, career strategy
 - Topic candidates: machine learning, llms, hiring, career transitions, career strategy, career transition, ml engineering, ml platform, game development, career web game
 - Short summary: How do you move from web and game development into building machine learning platforms and working with LLMs—and what practical skills carry over? In this episode Krzysztof Szafanek, a seasoned engineer with 17 years across pharma, geo services, gaming and online retail, and currently an ML Platform engineer and internal consultant at Zalando, answers that question through concrete examples and career lessons.
@@ -2789,10 +2789,10 @@ Use it before opening full podcast source files.
 
 ### The Journey of a Data Generalist: From Bioinformatics to Freelancing
 
-- Local page: [/podcasts/s12e08/](/podcasts/s12e08/)
+- Local page: [https://datatalks.club/podcast/s12e08.html](https://datatalks.club/podcast/s12e08.html)
 - Original episode: https://datatalks.club/podcast/s12e08.html
 - Source file: `datatalksclub.github.io/_podcast/_s12e08.md`
-- Guests: [Jekaterina Kokatjuhha](/people/jekaterinakokatjuhha/)
+- Guests: [Jekaterina Kokatjuhha](https://datatalks.club/people/jekaterinakokatjuhha.html)
 - Source topics: No source topics.
 - Topic candidates: jekaterina started freelancing, jekaterina initial ways, initial ways getting, ways getting freelancing, getting freelancing clients, being generalist helped, generalist helped jekaterina, helped jekaterina career, connecting business data, jekaterina linkedin posts
 - Short summary: Chapter-derived summary: Jekaterina’s background; How Jekaterina started freelancing; Jekaterina’s initial ways of getting freelancing clients; How being a generalist helped Jekaterina’s career.
@@ -2815,10 +2815,10 @@ Use it before opening full podcast source files.
 
 ### Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding
 
-- Local page: [/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/](/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/)
+- Local page: [https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html)
 - Original episode: https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html
 - Source file: `datatalksclub.github.io/_podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.md`
-- Guests: [Tatiana Gabruseva](/people/tatianagabruseva/)
+- Guests: [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 - Source topics: machine learning, career transition, MLOps, staff AI engineer, career growth
 - Topic candidates: machine learning, career growth, mlops, staff ai engineer, career transition, ai engineer, computer vision, hiring, leadership, search
 - Short summary: How do you transition from academia into a Staff AI Engineer role while nailing interview prep, MLOps, and onboarding? In this episode, Tatiana Gabruseva — a computer vision/deep learning engineer, Kaggle Competitions Master, and Senior ML Engineer at Cork University Hospital — walks through her shift from physics and healthcare research into industry engineering leadership.
@@ -2841,10 +2841,10 @@ Use it before opening full podcast source files.
 
 ### How to Build & Scale a Data Science Community: Diversity, ML Deployment & Career Growth
 
-- Local page: [/podcasts/building-ml-communities-diversity-and-career-growth/](/podcasts/building-ml-communities-diversity-and-career-growth/)
+- Local page: [https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html](https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html)
 - Original episode: https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html
 - Source file: `datatalksclub.github.io/_podcast/building-ml-communities-diversity-and-career-growth.md`
-- Guests: [Dânia Meira](/people/daniameira/)
+- Guests: [Dânia Meira](https://datatalks.club/people/daniameira.html)
 - Source topics: data science, machine learning, community building, diversity, career growth
 - Topic candidates: machine learning, data science, career growth, community building, diversity, freelance, hiring, leadership, rag, datalift summit
 - Short summary: How do you build and scale a data science community that actually advances diversity, supports machine learning deployment, and accelerates career growth? In this episode, Dânia Meira — AI Guild co-founder, data scientist, teacher and speaker with a Master’s in Computer Science (AI) — walks through her journey from applied math and marketing analytics to founding a global data science community in Berlin.
@@ -2867,10 +2867,10 @@ Use it before opening full podcast source files.
 
 ### Analytics for Nonprofits: Build Data Maturity, Teams, Tools & Optimization Strategies
 
-- Local page: [/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/](/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/)
+- Local page: [https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html](https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html)
 - Original episode: https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-and-analytics-for-nonprofits-tech-for-good.md`
-- Guests: [Parvathy Krishnan](/people/parvathykrishnan/)
+- Guests: [Parvathy Krishnan](https://datatalks.club/people/parvathykrishnan.html)
 - Source topics: nonprofit, data maturity, data science, analytics
 - Topic candidates: data science, data maturity, nonprofit, analytics, data engineering, data governance, privacy, search, analytics better world, better world mission
 - Short summary: How can nonprofits move from basic reporting to optimization using analytics while building the right teams, tools, and governance? In this episode, Parvathy Krishnan, CTO at Analytics for a Better World and professional doctorate in data science, walks through practical steps for building data maturity in the social sector. Drawing on discovery workshops, fellowship pilots (including a waste-collection optimization project in Nairobi), and partnerships with academic and industry groups, Parvathy explains how to.
@@ -2893,10 +2893,10 @@ Use it before opening full podcast source files.
 
 ### Actionable Biohacks to Boost Productivity: Sleep, Circadian Light, Dopamine & Habits
 
-- Local page: [/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/](/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/)
+- Local page: [https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html)
 - Original episode: https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html
 - Source file: `datatalksclub.github.io/_podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.md`
-- Guests: [Ruslan Shchuchkin](/people/ruslanshchuchkin/)
+- Guests: [Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html)
 - Source topics: biohacking, productivity
 - Topic candidates: biohacking, productivity, data science, career journey business/marketing, journey business/marketing data, business/marketing data science, procrastination perfectionism acceptance, perfectionism acceptance deadline, acceptance deadline effects, biohacking defined behavioral
 - Short summary: How do small, science-aligned biohacks actually move the needle on focus and productivity? In this episode, Ruslan Shchuchkin, a Berlin-based data scientist who transitioned from business/marketing into data science after experimenting with many techniques to stay focused, walks through practical, evidence-minded strategies for improving performance. We cover the root causes of procrastination and perfectionism, behavioral biohacking versus chemical interventions, and how dopamine-driven problem-solving fuels.
@@ -2919,10 +2919,10 @@ Use it before opening full podcast source files.
 
 ### Build a Data Consulting Business: Customer Validation, User Interviews & Pricing Strategy
 
-- Local page: [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/)
+- Local page: [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
 - Original episode: https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html
 - Source file: `datatalksclub.github.io/_podcast/data-consulting-business-pricing-and-client-acquisition.md`
-- Guests: [Aleksander Kruszelnicki](/people/aleksanderkruszelnicki/)
+- Guests: [Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html)
 - Source topics: consulting, entrepreneurship, freelance, data strategy, business development, career growth, startups
 - Topic candidates: consulting, entrepreneurship, freelance, data strategy, business development, career growth, startups, career journey archaeology, journey archaeology origin, archaeology origin story
 - Short summary: How do you validate customers, run effective user interviews, and set pricing to build a sustainable data consulting business? In this episode, Aleksander Kruszelnicki — ex-Delivery Hero product manager turned co-founder of leukos, a boutique data analytics agency in Berlin — walks through the practical steps he took shifting from product ideas to a consulting model after early startup failures.
@@ -2945,10 +2945,10 @@ Use it before opening full podcast source files.
 
 ### Software Engineering for ML: Prevent Hidden Technical Debt with MLOps, Documentation & Team Alignment
 
-- Local page: [/podcasts/software-engineering-for-machine-learning/](/podcasts/software-engineering-for-machine-learning/)
+- Local page: [https://datatalks.club/podcast/software-engineering-for-machine-learning.html](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/software-engineering-for-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/software-engineering-for-machine-learning.md`
-- Guests: [Nadia Nahar](/people/nadianahar/)
+- Guests: [Nadia Nahar](https://datatalks.club/people/nadianahar.html)
 - Source topics: software engineering, machine learning, MLOps
 - Topic candidates: software engineering, machine learning, mlops, search, open-source ml, ml products, responsible ai, nadia nahar phd, nahar phd software, phd software engineering
 - Short summary: How do teams prevent hidden technical debt in ML systems before it derails production? In this episode, Nadia Nahar, a PhD student in Software Engineering at Carnegie Mellon University, walks through the software-engineering challenges unique to machine learning and practical steps to reduce long-term costs.
@@ -2971,10 +2971,10 @@ Use it before opening full podcast source files.
 
 ### Master Data Science Management: Agile ML, Debrief Culture, Metrics & Scale to Production
 
-- Local page: [/podcasts/data-science-management-and-agile-machine-learning/](/podcasts/data-science-management-and-agile-machine-learning/)
+- Local page: [https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/data-science-management-and-agile-machine-learning.md`
-- Guests: [Shir Meir Lador](/people/shirmeirlador/)
+- Guests: [Shir Meir Lador](https://datatalks.club/people/shirmeirlador.html)
 - Source topics: management, machine learning
 - Topic candidates: management, machine learning, a/b testing, data science, experimentation, leadership, secret sauce data, sauce data science, data science management, electrical engineering document
 - Short summary: How do you run data science teams so experiments become reliable, measurable products? In this episode, Shir Meir Lador, a data science group manager at Intuit who builds machine and deep learning models for document intelligence in TurboTax and QuickBooks, walks through practical approaches to data science management and agile ML.
@@ -2997,10 +2997,10 @@ Use it before opening full podcast source files.
 
 ### How to Teach Yourself Bioinformatics & ML: Project-First Learning, Resources, and MLOps
 
-- Local page: [/podcasts/learning-machine-learning-self-taught-bioinformatics/](/podcasts/learning-machine-learning-self-taught-bioinformatics/)
+- Local page: [https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html)
 - Original episode: https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html
 - Source file: `datatalksclub.github.io/_podcast/learning-machine-learning-self-taught-bioinformatics.md`
-- Guests: [Aaisha Muhammad](/people/aaishamuhammad/)
+- Guests: [Aaisha Muhammad](https://datatalks.club/people/aaishamuhammad.html)
 - Source topics: bioinformatics, machine learning, self-learning
 - Topic candidates: machine learning, bioinformatics, self-learning, mlops, search, ml zoomcamp, aaisha self-taught bioinformatician, self-taught bioinformatician ml, bioinformatician ml engineer, ml engineer scientific
 - Short summary: How do you teach yourself bioinformatics and machine learning in a way that leads to real projects and deployable models? In this episode, Aaisha Muhammad — a self-taught bioinformatician, machine learning engineer and scientific illustrator from Johannesburg and a Datatalks.Club ML Zoomcamp graduate — walks through a project-first path for learning bioinformatics and ML. We cover prioritization and avoiding FOMO, open curricula like OSSU, skill mapping with ML Zoomcamp, and practical resource evaluation (free vs.
@@ -3023,10 +3023,10 @@ Use it before opening full podcast source files.
 
 ### Master Industrial Data: Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps
 
-- Local page: [/podcasts/industrial-data-small-data-production-machine-learning/](/podcasts/industrial-data-small-data-production-machine-learning/)
+- Local page: [https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html](https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/industrial-data-small-data-production-machine-learning.md`
-- Guests: [Rosona Eldred](/people/rosonaeldred/)
+- Guests: [Rosona Eldred](https://datatalks.club/people/rosonaeldred.html)
 - Source topics: industrial data, synthetic tabular data, MLOps
 - Topic candidates: industrial data, mlops, synthetic tabular data, machine learning, search, tabular data focus, career pivot phd, pivot phd algebraic, phd algebraic topology, algebraic topology industry
 - Short summary: How do you build reliable machine learning when your datasets are generated by production lines, tiny R&D campaigns, or long-running quality tests instead of millions of web events? In this episode, Rosona Eldred — a mathematician-turned-machine learning engineer leading synthetic tabular data work in an AI Innovation team — walks us through mastering industrial data, from sensors and traceability to small-data modeling and MLOps trade-offs.
@@ -3049,10 +3049,10 @@ Use it before opening full podcast source files.
 
 ### Build Open-Source NLP Tools: Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy
 
-- Local page: [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/)
+- Local page: [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html)
 - Original episode: https://datatalks.club/podcast/building-open-source-nlp-tool.html
 - Source file: `datatalksclub.github.io/_podcast/building-open-source-nlp-tool.md`
-- Guests: [Johannes Hötter](/people/johanneshotter/)
+- Guests: [Johannes Hötter](https://datatalks.club/people/johanneshotter.html)
 - Source topics: NLP, machine learning, strategy, entrepreneurship, founder
 - Topic candidates: nlp, machine learning, strategy, entrepreneurship, founder, open source, developer relations, embeddings, weak supervision, nlp challenges
 - Short summary: How can teams scale high-quality NLP labeling without hand-labeling every example? In this episode, Johannes Hötter, data scientist, engineer, and co-founder of kern, explains practical approaches to that problem using weak supervision, heuristics, and open-source tooling. We walk through demos of Refinery and Bricks, with a close look at Refinery’s weak supervision and labeling workflows, and why Jupyter widgets leave a gap for NLP tooling.
@@ -3075,10 +3075,10 @@ Use it before opening full podcast source files.
 
 ### Build Scalable, Reliable ML Systems (MLOps): Design Docs, Data Strategy & Edge Constraints
 
-- Local page: [/podcasts/building-scalable-and-reliable-machine-learning-systems/](/podcasts/building-scalable-and-reliable-machine-learning-systems/)
+- Local page: [https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)
 - Original episode: https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html
 - Source file: `datatalksclub.github.io/_podcast/building-scalable-and-reliable-machine-learning-systems.md`
-- Guests: [Arseny Kravchenko](/people/arsenykravchenko/)
+- Guests: [Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html)
 - Source topics: machine learning, MLOps, data strategy, data engineering, system design, MLOps
 - Topic candidates: mlops, machine learning, data strategy, system design, data engineering, software engineering, computer vision, search, learning system design, learning system
 - Short summary: How do you design machine learning systems that scale, stay reliable in production, and meet tight edge and mobile constraints? In this episode, Arseny Kravchenko — a seasoned ML engineer focused on computer vision, active in ML since 2015 and a former Kaggle Master — walks through practical MLOps patterns for turning models into production systems.
@@ -3101,10 +3101,10 @@ Use it before opening full podcast source files.
 
 ### Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX
 
-- Local page: [/podcasts/data-privacy-engineering-gdpr-machine-learning/](/podcasts/data-privacy-engineering-gdpr-machine-learning/)
+- Local page: [https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/data-privacy-engineering-gdpr-machine-learning.md`
-- Guests: [Katharine Jarmul](/people/katharinejarmul/)
+- Guests: [Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html)
 - Source topics: data governance, data privacy, machine learning, federated learning
 - Topic candidates: machine learning, data privacy, federated learning, data governance, generative ai, privacy, cookie consent, privacy risk, katharine jarmul privacy, jarmul privacy activist
 - Short summary: How can teams build useful machine learning while respecting user privacy, compliance, and re-identification risk? In this episode, Katharine Jarmul — privacy activist and Principal Data Scientist at ThoughtWorks Germany — walks through a practical Data Privacy Playbook focused on differential privacy, federated learning, privacy-enhancing technologies (PETs) and consent UX.
@@ -3127,10 +3127,10 @@ Use it before opening full podcast source files.
 
 ### Actionable Data Strategy & DataOps for AI-Powered Products: Pitch, Measure, Use GPT
 
-- Local page: [/podcasts/data-strategy-and-dataops-for-ai-powered-products/](/podcasts/data-strategy-and-dataops-for-ai-powered-products/)
+- Local page: [https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
 - Original episode: https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html
 - Source file: `datatalksclub.github.io/_podcast/data-strategy-and-dataops-for-ai-powered-products.md`
-- Guests: [Boyan Angelov](/people/boyanangelov/)
+- Guests: [Boyan Angelov](https://datatalks.club/people/boyanangelov.html)
 - Source topics: data strategy, dataops, AI, data strategy
 - Topic candidates: data strategy, dataops, ai, data product, portfolio, data strategist, use case, becoming data strategist, data strategist accidental, strategist accidental transition
 - Short summary: How do you turn AI ambitions into measurable, deliverable data products? In this episode Boyan Angelov — author of Elements of Data Strategy and leader of data strategy at Exxeta AG — walks through practical steps to make data strategy actionable for AI-powered products. Drawing on a decade across bioinformatics, clinical trials, HRTech, LegalTech and consulting, Boyan reframes data strategy as a flexible, outcome-focused plan and explains the due diligence needed to align business goals with feasible use cases.
@@ -3153,10 +3153,10 @@ Use it before opening full podcast source files.
 
 ### Data Governance & Data Access Management: Access Controls, Data Catalogs & Access-as-Code
 
-- Local page: [/podcasts/data-governance-data-access-management/](/podcasts/data-governance-data-access-management/)
+- Local page: [https://datatalks.club/podcast/data-governance-data-access-management.html](https://datatalks.club/podcast/data-governance-data-access-management.html)
 - Original episode: https://datatalks.club/podcast/data-governance-data-access-management.html
 - Source file: `datatalksclub.github.io/_podcast/data-governance-data-access-management.md`
-- Guests: [Bart Vandekerckhove](/people/bartvandekerckhove/)
+- Guests: [Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 - Source topics: data governance
 - Topic candidates: data governance, data mesh, data teams, open source, dataops, privacy, data access management, access management, access requests, data access
 - Short summary: How do you scale data access management—from access controls and data catalogs to access-as-code—without slowing innovation? In this episode, Bart Vandekerckhove, co-founder and CEO at Raito and former PM of Privacy at Collibra, walks through practical approaches born from consulting with banks (BCBS 239) and tackling early data governance pain.
@@ -3179,10 +3179,10 @@ Use it before opening full podcast source files.
 
 ### Freelance Data Scientist Playbook: MLOps, Model Monitoring, Upwork & Startup Skills
 
-- Local page: [/podcasts/from-startup-engineering-to-freelance-data-science/](/podcasts/from-startup-engineering-to-freelance-data-science/)
+- Local page: [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html)
 - Original episode: https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html
 - Source file: `datatalksclub.github.io/_podcast/from-startup-engineering-to-freelance-data-science.md`
-- Guests: [Antonis Stellas](/people/antonisstellas/)
+- Guests: [Antonis Stellas](https://datatalks.club/people/antonisstellas.html)
 - Source topics: freelance, startups, career growth, remote work, MLOps
 - Topic candidates: freelance, mlops, startups, career growth, remote work, data engineering, model monitoring, open source, data science, llms
 - Short summary: How do you transition from startup engineering to a sustainable freelance data science practice while handling MLOps, model monitoring, and client work on Upwork? In this episode, Antonis Stellas — a freelance data scientist at Nanometrisis with a background in applied mathematics, physics and a professional doctorate working on industry consultancy — lays out a practical playbook.
@@ -3205,10 +3205,10 @@ Use it before opening full podcast source files.
 
 ### DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow
 
-- Local page: [/podcasts/devrel-open-source-machine-learning/](/podcasts/devrel-open-source-machine-learning/)
+- Local page: [https://datatalks.club/podcast/devrel-open-source-machine-learning.html](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/devrel-open-source-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- Guests: [Hugo Bowne-Anderson](/people/hugobowneanderson/)
+- Guests: [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 - Source topics: developer relations, machine learning, open-source
 - Topic candidates: machine learning, developer relations, open source, data science, community building, generative ai, portfolio, reproducibility, search, hugo bowne-anderson outerbounds
 - Short summary: How do you build effective developer relations for machine learning ecosystems while navigating open-source governance and enhancing developer experience? In this episode, Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds, longtime educator and podcast host — demonstrates Metaflow's capabilities and shares practical guidance for building reproducible ML workflows. Drawing on his background at Coiled and DataCamp and his experience teaching and creating courses, Hugo explores ML ecosystem.
@@ -3231,10 +3231,10 @@ Use it before opening full podcast source files.
 
 ### Modern Data Pipeline Architecture: Ingestion, Orchestration, Transformation & MLOps Systems
 
-- Local page: [/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/](/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/)
+- Local page: [https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
 - Original episode: https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html
 - Source file: `datatalksclub.github.io/_podcast/modern-data-pipelines-orchestration-ingestion-modeling.md`
-- Guests: [Santona Tuli](/people/santonatuli/)
+- Guests: [Santona Tuli](https://datatalks.club/people/santonatuli.html)
 - Source topics: data engineering, MLOps, tools
 - Topic candidates: data engineering, mlops, tools, analytics engineering, ml engineering, dataops, feature store, orchestration, search, modern data
 - Short summary: How do you build a modern data pipeline that reliably moves raw events through ingestion, dbt transformations, Airflow orchestration and into production ML and analytics? In this episode, Santona Tuli — a former CERN researcher turned ML and data engineering lead at Upsolver — walks through practical patterns and trade-offs for end-to-end pipelines. Drawing on experience from particle-physics event analysis to NLP and workflow authoring with Airflow, Santona explains where ingestion engines and declarative SQL.
@@ -3257,10 +3257,10 @@ Use it before opening full podcast source files.
 
 ### Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale
 
-- Local page: [/podcasts/building-production-ml-platform-and-mlops-team/](/podcasts/building-production-ml-platform-and-mlops-team/)
+- Local page: [https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 - Original episode: https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html
 - Source file: `datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- Guests: [Simon Stiebellehner](/people/simonstiebellehner/)
+- Guests: [Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 - Source topics: MLOps, machine learning, leadership, career growth
 - Topic candidates: mlops, machine learning, leadership, career growth, data science, ml platform, data governance, software engineering, llms, orchestration
 - Short summary: How do you design an ML platform that reliably deploys models, tracks experiments, and meets regulatory constraints? In this episode, Simon Stiebellehner — Lead MLOps Engineer at Transaction Monitoring Netherlands and university lecturer in Data Mining & Data Warehousing — walks through practical MLOps platform design grounded in real-world deployment challenges.
@@ -3283,10 +3283,10 @@ Use it before opening full podcast source files.
 
 ### Build Explainable and Actionable AI/ML Systems: Industrial PhD, Trust Theory & Production Deployment
 
-- Local page: [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/)
+- Local page: [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
 - Original episode: https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html
 - Source file: `datatalksclub.github.io/_podcast/building-explainable-and-actionable-ai-ml-systems.md`
-- Guests: [Polina Mosolova](/people/polinamosolova/)
+- Guests: [Polina Mosolova](https://datatalks.club/people/polinamosolova.html)
 - Source topics: machine learning, AI, MLOps, explainable AI, interpretability
 - Topic candidates: mlops, explainable ai, machine learning, ai, interpretability, academic research, computer vision, llms, search, full-stack data scientist
 - Short summary: How do you build ML systems that business teams trust and can act on? In this episode, Polina Mosolova — a data scientist at SAP who completed an industrial PhD building end-to-end ML pipelines — demonstrates how to bridge research and production through explainable AI grounded in organizational trust theory. Drawing from her churn prediction research, Polina shows how the ABI framework (Ability, Benevolence, Integrity) transforms model explanations into actionable business interventions.
@@ -3309,10 +3309,10 @@ Use it before opening full podcast source files.
 
 ### ML System Design Playbook: Fail-Fast Design Docs, Modular Architecture & Data Drift Monitoring
 
-- Local page: [/podcasts/ml-system-design/](/podcasts/ml-system-design/)
+- Local page: [https://datatalks.club/podcast/ml-system-design.html](https://datatalks.club/podcast/ml-system-design.html)
 - Original episode: https://datatalks.club/podcast/ml-system-design.html
 - Source file: `datatalksclub.github.io/_podcast/ml-system-design.md`
-- Guests: [Valerii Babushkin](/people/valeriybabushkin/)
+- Guests: [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 - Source topics: machine learning, system design
 - Topic candidates: machine learning, system design, design docs, book announcement machine, announcement machine learning, machine learning system, learning system design, design document purpose, document purpose fail-fast, purpose fail-fast principle
 - Short summary: How do you design ML systems that fail fast, scale with modular architecture, and survive data drift in production? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through a practical playbook for ML system design.
@@ -3335,10 +3335,10 @@ Use it before opening full podcast source files.
 
 ### Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models
 
-- Local page: [/podcasts/investing-in-open-source-developer-tools/](/podcasts/investing-in-open-source-developer-tools/)
+- Local page: [https://datatalks.club/podcast/investing-in-open-source-developer-tools.html](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html)
 - Original episode: https://datatalks.club/podcast/investing-in-open-source-developer-tools.html
 - Source file: `datatalksclub.github.io/_podcast/investing-in-open-source-developer-tools.md`
-- Guests: [Bela Wiertz](/people/belawiertz/)
+- Guests: [Bela Wiertz](https://datatalks.club/people/belawiertz.html)
 - Source topics: open source, tools, investing, fundraising, early-stage startups
 - Topic candidates: open source, early-stage startups, tools, investing, fundraising, community building, leadership, bela role family, role family office, career path business
 - Short summary: How do early-stage investors evaluate open-source developer tools — and what signals actually predict commercial success? In this episode, Bela Wiertz — who invests in early-stage open-source startups at a German family office focused on Data, AI & Developer Tooling — breaks down the investor playbook for sourcing, evaluating, and funding OSS companies. Drawing from hands-on deal flow and due diligence experience, Bela reveals how investors screen GitHub repositories, conduct developer interviews, and assess.
@@ -3361,10 +3361,10 @@ Use it before opening full podcast source files.
 
 ### Deploying LLMs in Production: Fine-Tuning, Retrieval & Open-Source vs API Tradeoffs
 
-- Local page: [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/)
+- Local page: [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 - Original episode: https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html
 - Source file: `datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`
-- Guests: [Meryem Arik](/people/meryemarik/)
+- Guests: [Meryem Arik](https://datatalks.club/people/meryemarik.html)
 - Source topics: LLMs, MLOps, open-source, production, retrieval-augmented generation
 - Topic candidates: llms, mlops, open source, production, retrieval-augmented generation, computer vision, data quality, vector databases, embeddings, privacy
 - Short summary: How do you take large language models from experiment to reliable production—balancing fine-tuning, retrieval strategies, and the tradeoffs between open-source models and API services? In this episode, Meryem Arik, a recovering physicist and co-founder of TitanML, walks through practical choices for LLM deployment based on her pivot from computer vision to building tools that make models smaller, cheaper, and easier to run in production.
@@ -3387,10 +3387,10 @@ Use it before opening full podcast source files.
 
 ### LLM Value Creation: GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications
 
-- Local page: [/podcasts/practical-llm-use-cases-and-product-patterns/](/podcasts/practical-llm-use-cases-and-product-patterns/)
+- Local page: [https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)
 - Original episode: https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html
 - Source file: `datatalksclub.github.io/_podcast/practical-llm-use-cases-and-product-patterns.md`
-- Guests: [Sandra Kublik](/people/sandrakublik/)
+- Guests: [Sandra Kublik](https://datatalks.club/people/sandrakublik.html)
 - Source topics: LLMs
 - Topic candidates: llms, community building, generative ai, open source, embeddings, retrieval, search, language models, building llm, sandra kublik ai
 - Short summary: How do you create real business value with LLMs — from early GPT communities to production applications that actually work? In this episode, Sandra Kublik — AI entrepreneur, community builder, and author on GPT — shares a practical, entrepreneurial perspective on building LLM-powered products that deliver results.
@@ -3413,10 +3413,10 @@ Use it before opening full podcast source files.
 
 ### Remote Data Engineering Life: Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth
 
-- Local page: [/podcasts/remote-data-engineering-work-and-building-iot-platforms/](/podcasts/remote-data-engineering-work-and-building-iot-platforms/)
+- Local page: [https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html)
 - Original episode: https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html
 - Source file: `datatalksclub.github.io/_podcast/remote-data-engineering-work-and-building-iot-platforms.md`
-- Guests: [José María Sánchez Salas](/people/josemaria/)
+- Guests: [José María Sánchez Salas](https://datatalks.club/people/josemaria.html)
 - Source topics: data engineering, remote work, personal brand, career growth
 - Topic candidates: data engineering, remote work, career growth, personal brand, career transition, job search, hiring, rag, search, iot platform
 - Short summary: What does it take to thrive as a remote data engineer — building IoT platforms, navigating international career moves, and leveraging writing for professional growth? In this episode, José María Sánchez Salas — a computer scientist turned data engineer and newsletter author — shares his journey from Spain to Norway and the realities of remote IoT platform work.
@@ -3439,10 +3439,10 @@ Use it before opening full podcast source files.
 
 ### Causal Inference for Real-World ML: Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration
 
-- Local page: [/podcasts/causal-inference-for-machine-learning/](/podcasts/causal-inference-for-machine-learning/)
+- Local page: [https://datatalks.club/podcast/causal-inference-for-machine-learning.html](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/causal-inference-for-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`
-- Guests: [Aleksander Molak](/people/aleksandermolak/)
+- Guests: [Aleksander Molak](https://datatalks.club/people/aleksandermolak.html)
 - Source topics: causal inference, LLMs, machine learning
 - Topic candidates: causal inference, llms, machine learning, a/b testing, embeddings, rag, search, molak book, causal models, aleksander molak book
 - Short summary: How do you move from correlation to actionable decisions — using counterfactuals, uplift modeling, treatment effect estimation, and LLMs — without falling into confounding traps or biased estimators? In this episode, Aleksander Molak, an independent ML researcher, author and educator specializing in causality, NLP and AI strategy, walks through practical causal inference techniques for real-world machine learning applications.
@@ -3465,10 +3465,10 @@ Use it before opening full podcast source files.
 
 ### Pragmatic MLOps: Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices
 
-- Local page: [/podcasts/pragmatic-and-standardized-mlops/](/podcasts/pragmatic-and-standardized-mlops/)
+- Local page: [https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 - Original episode: https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html
 - Source file: `datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`
-- Guests: [Maria Vechtomova](/people/mariavechtomova/)
+- Guests: [Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html)
 - Source topics: MLOps
 - Topic candidates: mlops, a/b testing, data engineering, data quality, machine learning, ml engineering, software engineering, team building, orchestration, rag
 - Short summary: How do you build pragmatic, standardized MLOps across teams without chasing every new tool? In this episode, Maria Vechtomova — an MLOps tech lead and manager with roots in econometrics and early work moving from R to Python — tackles MLOps as an organizational challenge, not just a technology problem.
@@ -3491,10 +3491,10 @@ Use it before opening full podcast source files.
 
 ### From Hands-On IoT Data Engineering to Leading Data Architecture: Pipelines, Cloud Adaptation & Analytics Modeling
 
-- Local page: [/podcasts/from-iot-data-engineering-to-leading-data-architect/](/podcasts/from-iot-data-engineering-to-leading-data-architect/)
+- Local page: [https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
 - Original episode: https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html
 - Source file: `datatalksclub.github.io/_podcast/from-iot-data-engineering-to-leading-data-architect.md`
-- Guests: [Loïc Magnien](/people/loicmagnien/)
+- Guests: [Loïc Magnien](https://datatalks.club/people/loicmagnien.html)
 - Source topics: data engineering, career transition, MLOps
 - Topic candidates: data engineering, career transition, mlops, data quality, hiring, llms, career data manager, data manager data, manager data lead, early role sensor
 - Short summary: What does it take to evolve from hands-on IoT data engineering to leading data architecture — building scalable pipelines, adapting to cloud platforms, and designing analytics models that serve entire organizations? In this episode, Loïc Magnien, Lead Data at Mylight150 with a decade spanning database management, data engineering, product ownership and architecture, shares his real-world journey from managing sensor data to architecting enterprise-scale data systems.
@@ -3517,10 +3517,10 @@ Use it before opening full podcast source files.
 
 ### Build and Scale Data Engineering Systems for Fraud Detection: Feature Pipelines, Real-Time Inference, Graph Databases & Production Debugging
 
-- Local page: [/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/](/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/)
+- Local page: [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 - Original episode: https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html
 - Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.md`
-- Guests: [Angela Ramirez](/people/angelaramirez/)
+- Guests: [Angela Ramirez](https://datatalks.club/people/angelaramirez.html)
 - Source topics: data engineering, MLOps, fraud detection, graph databases, software engineering
 - Topic candidates: data engineering, software engineering, mlops, fraud detection, graph databases, career transition, data quality, machine learning, search, data engineers
 - Short summary: How do you build data infrastructure that stops stolen-card transactions and return abuse in real time? In this episode, Angela Ramirez, a Sam’s Club data engineer who moved from Sephora and specializes in machine learning for fraud prevention, walks through the engineering behind retail fraud detection. Drawing on her background in NLP and four years as a data engineer, Angela explains pipelines, feature engineering workflows that combine daily batches with real-time scoring, and the MLOps responsibilities for.
@@ -3543,10 +3543,10 @@ Use it before opening full podcast source files.
 
 ### Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution
 
-- Local page: [/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/](/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/)
+- Local page: [https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html)
 - Original episode: https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html
 - Source file: `datatalksclub.github.io/_podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.md`
-- Guests: [Alexey Grigorev](/people/alexeygrigorev/), [Johanna Bayer](/people/johannabayer/)
+- Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html), [Johanna Bayer](https://datatalks.club/people/johannabayer.html)
 - Source topics: community building, machine learning, data science, data engineering, MLOps
 - Topic candidates: machine learning, community building, data science, data engineering, mlops, hiring, llms, portfolio, search, opening datatalks.club 3rd
 - Short summary: How do you build a sustainable data community that endures beyond meetup hype and founder energy? In this episode Alexey Grigorev, founder of DataTalks.Club, and Johanna Bayer, a researcher about to complete her PhD in machine learning for clinical neuroimaging at the University of Melbourne, discuss three years of community growth and evolution.
@@ -3569,10 +3569,10 @@ Use it before opening full podcast source files.
 
 ### Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment
 
-- Local page: [/podcasts/building-healthcare-machine-learning-systems/](/podcasts/building-healthcare-machine-learning-systems/)
+- Local page: [https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html)
 - Original episode: https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html
 - Source file: `datatalksclub.github.io/_podcast/building-healthcare-machine-learning-systems.md`
-- Guests: [Eleni Stamatelou](/people/elenistamatelou/)
+- Guests: [Eleni Stamatelou](https://datatalks.club/people/elenistamatelou.html)
 - Source topics: machine learning, data science, MLOps, data engineering, data governance, healthcare
 - Topic candidates: data science, machine learning, mlops, data engineering, data governance, healthcare, data quality, search, philips healthcare, healthcare data
 - Short summary: How do you build machine learning systems that can predict sepsis and actually work in low-resource clinical settings? In this episode Eleni Stamatelou, a machine learning researcher and educator focused on using data science to improve healthcare, walks through the technical and practical steps of turning models into deployed clinical tools. With expertise in signal processing, deep learning, and data-driven design, Eleni frames the core challenges of healthcare ML: data quality and preprocessing, model.
@@ -3595,10 +3595,10 @@ Use it before opening full podcast source files.
 
 ### Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization
 
-- Local page: [/podcasts/building-data-products-lead-data-scientist/](/podcasts/building-data-products-lead-data-scientist/)
+- Local page: [https://datatalks.club/podcast/building-data-products-lead-data-scientist.html](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
 - Original episode: https://datatalks.club/podcast/building-data-products-lead-data-scientist.html
 - Source file: `datatalksclub.github.io/_podcast/building-data-products-lead-data-scientist.md`
-- Guests: [Ioannis Mesionis](/people/ioannismesionis/)
+- Guests: [Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html)
 - Source topics: MLOps, machine learning, data science, tools, product management
 - Topic candidates: data science, mlops, machine learning, tools, product management, a/b testing, model monitoring, data product, search, lead data scientist
 - Short summary: How do you prioritize data product work, validate models in production, and keep them monitored without overwhelming stakeholders? In this episode, Ioannis Mesionis, Lead Data Scientist at easyJet and head of their MLOps efforts, walks through a practical data product operating model for tackling those challenges.
@@ -3621,10 +3621,10 @@ Use it before opening full podcast source files.
 
 ### Launching a Freelance Generative AI Business: NLP Services and Client Acquisition
 
-- Local page: [/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/](/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/)
+- Local page: [https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
 - Original episode: https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html
 - Source file: `datatalksclub.github.io/_podcast/practical-generative-ai-consulting-from-expertise-to-impact.md`
-- Guests: [Verena Weber](/people/verenaweber/)
+- Guests: [Verena Weber](https://datatalks.club/people/verenaweber.html)
 - Source topics: AI, LLMs, NLP, freelance, production, career transition
 - Topic candidates: freelance, ai, llms, nlp, production, career transition, generative ai, data science, hiring, leadership
 - Short summary: How do you move from research scientist to running a freelance generative AI business focused on NLP—and actually win clients? In this episode Verena Weber, a former Research Scientist at Alexa AI with 7+ years in machine learning and a background in statistics, walks through that transition and what it takes to offer NLP services as a freelancer. Verena's mission is to help companies prepare for the GenAI shift, and she draws on deep NLP expertise to explain which service offerings make sense, how to position.
@@ -3647,10 +3647,10 @@ Use it before opening full podcast source files.
 
 ### From Software Engineer to VP of Machine Learning: Stakeholder Buy-In, Rapid POCs and Full-Stack Skills
 
-- Local page: [/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/](/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/)
+- Local page: [https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
 - Original episode: https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html
 - Source file: `datatalksclub.github.io/_podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.md`
-- Guests: [Jack Blandin](/people/jackblandin/)
+- Guests: [Jack Blandin](https://datatalks.club/people/jackblandin.html)
 - Source topics: machine learning, MLOps, tools, career transition, leadership, software engineering
 - Topic candidates: software engineering, machine learning, leadership, mlops, tools, career transition, data science, hiring, jack career arc, career arc software
 - Short summary: How do you move from a hands-on software engineer to a VP of Machine Learning while getting stakeholders to say “yes,” delivering rapid POCs, and building the full-stack skills teams need? In this episode Jack Blandin walks through that transition. Jack began as a Software Engineer in 2015, shifted into Data Science and Machine Learning in 2017, and has held ML and leadership roles at Fi, Wayfair, Trunk Club, and GoHealth—managing teams of 2 to 15. He’s now VP of Data Science & Machine Learning at Fi, finishing a.
@@ -3673,10 +3673,10 @@ Use it before opening full podcast source files.
 
 ### Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust
 
-- Local page: [/podcasts/interpretable-machine-learning/](/podcasts/interpretable-machine-learning/)
+- Local page: [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/interpretable-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/interpretable-machine-learning.md`
-- Guests: [Christoph Molnar](/people/christophmolnar/)
+- Guests: [Christoph Molnar](https://datatalks.club/people/christophmolnar.html)
 - Source topics: machine learning, data science, practices, tools, career transition, interpretability
 - Topic candidates: machine learning, data science, practices, tools, career transition, interpretability, interpretable machine learning, interpretable ml, becoming full-time, interpretable machine
 - Short summary: How can you reliably trust a machine learning model’s predictions in real-world settings? In this episode Christoph Molnar — statistician, machine learner, and author of Interpretable Machine Learning — walks through practical approaches for building model trust. Drawing on his experience from Kaggle competitions to authoring a technical book, Christoph explains the trade-offs between interpretability and accuracy and shows how interpretability techniques help debug models.
@@ -3699,10 +3699,10 @@ Use it before opening full podcast source files.
 
 ### Building Digital Health Startups: MVP Strategy, AI Diagnosis and Telemedicine
 
-- Local page: [/podcasts/building-ai-digital-health-startups/](/podcasts/building-ai-digital-health-startups/)
+- Local page: [https://datatalks.club/podcast/building-ai-digital-health-startups.html](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
 - Original episode: https://datatalks.club/podcast/building-ai-digital-health-startups.html
 - Source file: `datatalksclub.github.io/_podcast/building-ai-digital-health-startups.md`
-- Guests: [Maria Bruckert](/people/mariabruckert/)
+- Guests: [Maria Bruckert](https://datatalks.club/people/mariabruckert.html)
 - Source topics: AI, computer vision, data strategy, product management, startups, healthcare
 - Topic candidates: data strategy, ai, computer vision, product management, startups, healthcare, experimentation, hiring, leadership, rag
 - Short summary: How do you build a digital health startup that ships a focused MVP, uses AI for diagnosis, and delivers care via telemedicine while overcoming data gaps and legacy workflows? In this episode Maria-Liisa Bruckert, Co-Founder and Co-CEO of SQIN and recipient of the Google Play Best of 2020 award and Google Female Founder Immersion 2020, walks through her transition from electrical engineering to health tech and the practical playbook she uses to de-risk product development.
@@ -3725,10 +3725,10 @@ Use it before opening full podcast source files.
 
 ### Becoming a Data Freelancer: Pricing, Client Acquisition and Contract Strategy
 
-- Local page: [/podcasts/becoming-data-freelancer/](/podcasts/becoming-data-freelancer/)
+- Local page: [https://datatalks.club/podcast/becoming-data-freelancer.html](https://datatalks.club/podcast/becoming-data-freelancer.html)
 - Original episode: https://datatalks.club/podcast/becoming-data-freelancer.html
 - Source file: `datatalksclub.github.io/_podcast/becoming-data-freelancer.md`
-- Guests: [Dimitri Visnadi](/people/dimitrivisnadi/)
+- Guests: [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html)
 - Source topics: freelance, consulting, data analytics, career transition, career growth, data science
 - Topic candidates: freelance, consulting, data analytics, career transition, career growth, data science, search, career path marketing, path marketing data, startup experience translation
 - Short summary: How do you move from corporate analytics to independent data consulting while pricing services fairly, finding steady clients, and avoiding contract pitfalls? In this episode Dimitri Visnadi — an independent data consultant who has advised brands like Unilever, Ferrero, Heineken and Red Bull and who trained at UCL and HP — walks through the practical realities of becoming a data freelancer.
@@ -3751,10 +3751,10 @@ Use it before opening full podcast source files.
 
 ### From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption
 
-- Local page: [/podcasts/from-data-freelancer-to-startup-open-source-products/](/podcasts/from-data-freelancer-to-startup-open-source-products/)
+- Local page: [https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
 - Original episode: https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html
 - Source file: `datatalksclub.github.io/_podcast/from-data-freelancer-to-startup-open-source-products.md`
-- Guests: [Adrian Brudaru](/people/adrianbrudaru/)
+- Guests: [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 - Source topics: entrepreneurship, freelance, startups, business development, leadership, career growth, consulting
 - Topic candidates: freelance, entrepreneurship, startups, business development, leadership, career growth, consulting, data product, open-source data company, career origins 2012
 - Short summary: How do you move from freelancing to building an open-source data company that wins via bottom-up adoption? In this episode Adrian Brudaru — an economics graduate who pivoted to business analysis in Berlin, then spent years freelancing before co-founding a data startup — walks through that transition and the practical tradeoffs he encountered.
@@ -3777,10 +3777,10 @@ Use it before opening full podcast source files.
 
 ### Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval
 
-- Local page: [/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/](/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/)
+- Local page: [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 - Original episode: https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html
 - Source file: `datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`
-- Guests: [Atita Arora](/people/atitaarora/)
+- Guests: [Atita Arora](https://datatalks.club/people/atitaarora.html)
 - Source topics: NLP, LLMs, MLOps, machine learning, data engineering
 - Topic candidates: llms, nlp, mlops, machine learning, data engineering, vector databases, embeddings, orchestration, rag, retrieval
 - Short summary: How do modern search systems combine vector databases, LLMs, and semantic retrieval to deliver relevant, reliable results—and when should you adopt each component? In this episode Atita Arora walks through that question from both historical and practical angles. A long-time contributor to information retrieval projects (including Apache OpenNLP and Quepid) and author of posts on vectors in e-commerce and the open-source Chorus implementation, Atita brings hands-on experience plus ongoing research into evaluating.
@@ -3803,10 +3803,10 @@ Use it before opening full podcast source files.
 
 ### Algorithmic Trading with Python: Backtesting, Risk Management and Deployment
 
-- Local page: [/podcasts/algorithmic-trading-with-python-and-machine-learning/](/podcasts/algorithmic-trading-with-python-and-machine-learning/)
+- Local page: [https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html](https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/algorithmic-trading-with-python-and-machine-learning.md`
-- Guests: [Ivan Brigida](/people/ivanbrigida/)
+- Guests: [Ivan Brigida](https://datatalks.club/people/ivanbrigida.html)
 - Source topics: machine learning, data science, MLOps, algorithmic trading, tools
 - Topic candidates: machine learning, mlops, data science, algorithmic trading, tools, community building, data quality, portfolio, ivan brigida analytics, brigida analytics lead
 - Short summary: How do you turn a trading idea into a robust, risk-managed algorithm in Python? In this episode Ivan Brigida — analytics lead behind PythonInvest with 10+ years in statistical modeling, forecasting, econometrics and finance — walks through practical steps for algorithmic trading with Python, from data sourcing to deployment (and a clear reminder this is educational, not investment advice).
@@ -3829,10 +3829,10 @@ Use it before opening full podcast source files.
 
 ### Bayesian Modeling: PyMC, Stan and Probabilistic Programming Workflows
 
-- Local page: [/podcasts/bayesian-modeling-workflows-and-tools/](/podcasts/bayesian-modeling-workflows-and-tools/)
+- Local page: [https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html](https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html)
 - Original episode: https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html
 - Source file: `datatalksclub.github.io/_podcast/bayesian-modeling-workflows-and-tools.md`
-- Guests: [Rob Zinkov](/people/robzinkov/)
+- Guests: [Rob Zinkov](https://datatalks.club/people/robzinkov.html)
 - Source topics: probabilistic programming, bayesian statistics, machine learning, tools
 - Topic candidates: machine learning, probabilistic programming, bayesian statistics, tools, software engineering, search, rob zinkov hakaru, zinkov hakaru probabilistic, hakaru probabilistic programming, probabilistic programming project
 - Short summary: How do you move from point estimates to full uncertainty-aware models and choose the right tools and workflows for Bayesian modeling? In this episode Rob Zinkov, a machine learning engineer and former Indiana University research scientist who led development of the Hakaru probabilistic programming language, walks through practical Bayesian workflows and tool choices. We cover the core challenge of encoding priors, likelihoods, and posteriors; why integrals become intractable and how numerical integration and.
@@ -3855,10 +3855,10 @@ Use it before opening full podcast source files.
 
 ### MLOps in Finance: Regulated Deployment, CI/CD and Model Governance
 
-- Local page: [/podcasts/mlops-and-ml-engineering-in-finance/](/podcasts/mlops-and-ml-engineering-in-finance/)
+- Local page: [https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html)
 - Original episode: https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`
-- Guests: [Nemanja Radojkovic](/people/nemanjaradojkovic/)
+- Guests: [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 - Source topics: MLOps, machine learning, data engineering, production, career transition
 - Topic candidates: career transition, mlops, machine learning, data engineering, production, ml engineering, rag, electrical engineering, cloud basics, nemanja journey belgrade
 - Short summary: How do you deploy machine learning in heavily regulated finance environments while keeping CI/CD pipelines, model governance, and operational risk under control? In this episode Nemanja Radojkovic—an electrical engineer turned data scientist and MLOps practitioner who moved from Belgrade to Leuven—walks through real-world constraints and pragmatic solutions for MLOps in finance.
@@ -3881,10 +3881,10 @@ Use it before opening full podcast source files.
 
 ### Tech Job Search Strategy: Portfolio Projects, Resume Tips and Networking
 
-- Local page: [/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/](/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/)
+- Local page: [https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html)
 - Original episode: https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html
 - Source file: `datatalksclub.github.io/_podcast/job-search-strategy-in-tech-projects-skills-cv-networking.md`
-- Guests: [Sarah Mestiri](/people/sarahmestiri/)
+- Guests: [Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html)
 - Source topics: MLOps, data engineering, machine learning, career transition, job search
 - Topic candidates: data engineering, job search, mlops, machine learning, career transition, data science, ml engineering, portfolio, search, informational interview
 - Short summary: How do you turn portfolio projects, a sharper resume, and targeted networking into a successful tech job search? In this episode Sarah Mestiri — Data Scientist and Certified Career & Interview Coach with 6+ years in tech across startups, international firms and financial services (FIS) — walks through a practical job search strategy for career changers and return-to-work professionals. Sarah outlines a four-pillar framework (goals, networking, CV, strategy) and shows how to define your ideal role, choose a.
@@ -3907,10 +3907,10 @@ Use it before opening full podcast source files.
 
 ### Open Source and Volunteering: Building AI Projects and Career Momentum
 
-- Local page: [/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/](/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/)
+- Local page: [https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
 - Original episode: https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html
 - Source file: `datatalksclub.github.io/_podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.md`
-- Guests: [Sara EL-ATEIF](/people/saraelateif/)
+- Guests: [Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html)
 - Source topics: computer vision, machine learning, data engineering, open-source, career development, mentorship, career growth
 - Topic candidates: computer vision, open source, machine learning, data engineering, career development, mentorship, career growth, generative ai, portfolio, search
 - Short summary: How can volunteering in open source AI projects accelerate your career while delivering tangible community impact? In this episode Sara El-Ateif — Google Developer Expert in Machine Learning, Google PhD Fellow, co-founder of AI Wonder Girls and Evercoach-certified business coach — walks through practical ways to build skills and momentum through volunteering and open source work.
@@ -3933,10 +3933,10 @@ Use it before opening full podcast source files.
 
 ### Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing
 
-- Local page: [/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/](/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/)
+- Local page: [https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
 - Original episode: https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html
 - Source file: `datatalksclub.github.io/_podcast/production-ml-search-vector-search-embeddings-hybrid-search.md`
-- Guests: [Reem Mahmoud](/people/reemmahmoud/)
+- Guests: [Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html)
 - Source topics: LLMs, NLP, machine learning, MLOps, data engineering
 - Topic candidates: llms, machine learning, nlp, mlops, data engineering, data science, embeddings, rag, retrieval, search
 - Short summary: How do you move from prototypes to production ML search that scales and stays relevant? In this episode Reem Mahmoud, Director of Data Science at intervu.ai, breaks down practical approaches to building production ML search systems—focusing on embeddings, hybrid architectures, and scalable indexing.
@@ -3959,10 +3959,10 @@ Use it before opening full podcast source files.
 
 ### Building Search Systems: Dense Embeddings, MLOps and Evaluation Metrics
 
-- Local page: [/podcasts/building-production-search-systems/](/podcasts/building-production-search-systems/)
+- Local page: [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html)
 - Original episode: https://datatalks.club/podcast/building-production-search-systems.html
 - Source file: `datatalksclub.github.io/_podcast/building-production-search-systems.md`
-- Guests: [Daniel Svonava](/people/danielsvonava/)
+- Guests: [Daniel Svonava](https://datatalks.club/people/danielsvonava.html)
 - Source topics: information retrieval, vector databases, embeddings, MLOps, evaluation metrics, production, search
 - Topic candidates: vector databases, embeddings, mlops, search, information retrieval, evaluation metrics, production, a/b testing, retrieval, daniel svonava superlinked
 - Short summary: How do you build search systems that balance dense embeddings, MLOps, and meaningful evaluation metrics? In this episode Daniel Svonava — an entrepreneurial technologist with 20 years of experience (from competitive programming and research internships to leading ML infrastructure at YouTube Ads) and co-founder of Superlinked/VectorHub — walks through practical design and operational decisions for modern search and retrieval.
@@ -3985,10 +3985,10 @@ Use it before opening full podcast source files.
 
 ### Data Leadership Coaching: Transition to Manager, Stakeholder Skills and Team Impact
 
-- Local page: [/podcasts/data-leadership-coaching/](/podcasts/data-leadership-coaching/)
+- Local page: [https://datatalks.club/podcast/data-leadership-coaching.html](https://datatalks.club/podcast/data-leadership-coaching.html)
 - Original episode: https://datatalks.club/podcast/data-leadership-coaching.html
 - Source file: `datatalksclub.github.io/_podcast/data-leadership-coaching.md`
-- Guests: [Tereza Iofciu](/people/terezaiofciu/)
+- Guests: [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
 - Source topics: leadership, career transition, communication, team building, data strategy
 - Topic candidates: leadership, career transition, communication, team building, data strategy, open source, data science, rag, re-introduction inclusive data, inclusive data leadership
 - Short summary: How do you move from a strong individual contributor into a data leader who can influence stakeholders, grow team impact, and build inclusive practices? In this episode Tereza Iofciu—data science manager, data scientist, data engineer, product manager, coach and community organizer—walks through her transition from a PhD in computer science to leading teams and running data leadership coaching.
@@ -4011,10 +4011,10 @@ Use it before opening full podcast source files.
 
 ### Using Knowledge Graphs & LLMs for Automotive R&D: RAG, Graph ML & Crash Simulation
 
-- Local page: [/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/](/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/)
+- Local page: [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 - Original episode: https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html
 - Source file: `datatalksclub.github.io/_podcast/knowledge-graphs-and-llms-for-automotive-rnd.md`
-- Guests: [Anahita Pakiman](/people/anahitapakiman/)
+- Guests: [Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html)
 - Source topics: LLMs, knowledge graphs, graph ML, retrieval-augmented generation, embeddings, vector databases
 - Topic candidates: knowledge graphs, vector databases, llms, embeddings, graph ml, retrieval-augmented generation, career transition, data science, machine learning, rag
 - Short summary: How can knowledge graphs and large language models (LLMs) be combined to accelerate automotive R&D — from crash simulation insights to reproducible reports? In this episode Anahita Pakiman, a data scientist-engineer who moved from mechanical engineering and finite element analysis (FEA) into applied AI and now works as Senior Knowledge Graph-Data Scientist Consultant at brox IT-Solutions, walks through practical strategies and tradeoffs.
@@ -4037,10 +4037,10 @@ Use it before opening full podcast source files.
 
 ### AI for Ecology, Biodiversity, and Conservation: Computer Vision, Remote Sensing and Citizen Science
 
-- Local page: [/podcasts/ai-for-ecology-biodiversity-and-conservation/](/podcasts/ai-for-ecology-biodiversity-and-conservation/)
+- Local page: [https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html](https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html)
 - Original episode: https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html
 - Source file: `datatalksclub.github.io/_podcast/ai-for-ecology-biodiversity-and-conservation.md`
-- Guests: [Tanya Berger-Wolf](/people/tanyabergerwolf/)
+- Guests: [Tanya Berger-Wolf](https://datatalks.club/people/tanyabergerwolf.html)
 - Source topics: AI, computer vision, remote sensing, MLOps, data engineering
 - Topic candidates: computer vision, remote sensing, ai, mlops, data engineering, machine learning, llms, reproducibility, search, ai ecology biodiversity
 - Short summary: How can AI help close critical data gaps in biodiversity monitoring and turn images and sensor data into actionable conservation decisions? In this episode Tanya Berger-Wolf, a computational ecologist, director of TDAI@OSU, and co-founder of the Wildbook project (Wild Me), walks through practical applications of AI for ecology, biodiversity monitoring, and conservation.
@@ -4063,10 +4063,10 @@ Use it before opening full podcast source files.
 
 ### Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models
 
-- Local page: [/podcasts/open-source-ml-tools-strategy-and-business-models/](/podcasts/open-source-ml-tools-strategy-and-business-models/)
+- Local page: [https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
 - Original episode: https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html
 - Source file: `datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`
-- Guests: [Vincent Warmerdam](/people/vincentwarmerdam/)
+- Guests: [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 - Source topics: open-source, machine learning, data science, tools, developer relations
 - Topic candidates: open source, developer relations, machine learning, data science, tools, hiring, rag, search, calm code, scikit lego
 - Short summary: How can open source ML tools stay healthy, useful, and financially sustainable while serving both researchers and industry? In this episode Vincent Warmerdam — Research Advocate at Rasa, author of the Koaning blog, creator of the Algorithm Whiteboard playlist, and cofounder of Calm Code — walks through the real-world tradeoffs of scikit-learn governance, sustainability, and business models for ML tooling.
@@ -4089,10 +4089,10 @@ Use it before opening full podcast source files.
 
 ### Community Building and Teaching in AI & Tech: Project-to-Course Model for AI Education
 
-- Local page: [/podcasts/community-building-and-teaching-in-ai-tech/](/podcasts/community-building-and-teaching-in-ai-tech/)
+- Local page: [https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html)
 - Original episode: https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html
 - Source file: `datatalksclub.github.io/_podcast/community-building-and-teaching-in-ai-tech.md`
-- Guests: [Erum Afzal](/people/erumafzal/)
+- Guests: [Erum Afzal](https://datatalks.club/people/erumafzal.html)
 - Source topics: AI, NLP, data science, career growth, leadership, community building, teaching
 - Topic candidates: data science, leadership, community building, ai, nlp, career growth, teaching, hiring, search, omdena academy
 - Short summary: How can communities turn real-world AI projects into repeatable courses that scale learning and careers? In this episode Erum Afzal — lead ML engineer, PhD researcher in AI for teacher training, and head of Omdena Academy — walks through a project-to-course model for AI education rooted in community collaboration.
@@ -4115,10 +4115,10 @@ Use it before opening full podcast source files.
 
 ### Building a Domestic Risk Assessment Tool: Data Cleaning, Risk Scoring Models and Privacy Compliance
 
-- Local page: [/podcasts/building-domestic-risk-assessment-tool/](/podcasts/building-domestic-risk-assessment-tool/)
+- Local page: [https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html](https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html)
 - Original episode: https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html
 - Source file: `datatalksclub.github.io/_podcast/building-domestic-risk-assessment-tool.md`
-- Guests: [Sabina Firtala](/people/sabinafirtala/)
+- Guests: [Sabina Firtala](https://datatalks.club/people/sabinafirtala.html)
 - Source topics: data science, machine learning, data engineering, data governance, MLOps
 - Topic candidates: data governance, data science, machine learning, data engineering, mlops, privacy, reproducibility, search, risk assessment, building domestic risk
 - Short summary: How do you build an accurate, privacy-compliant domestic risk assessment tool that frontline teams can actually use? In this episode Sabina Firtala — who leads Frontline''s AI product development and brings experience in data wrangling, model validation, and applied analytics from finance, SaaS, and mission-driven projects — walks through a practical roadmap.
@@ -4141,10 +4141,10 @@ Use it before opening full podcast source files.
 
 ### DataOps for Data Engineering: Automation, Observability, CI/CD & Reliable ML Deployments
 
-- Local page: [/podcasts/dataops-for-data-engineering/](/podcasts/dataops-for-data-engineering/)
+- Local page: [https://datatalks.club/podcast/dataops-for-data-engineering.html](https://datatalks.club/podcast/dataops-for-data-engineering.html)
 - Original episode: https://datatalks.club/podcast/dataops-for-data-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/dataops-for-data-engineering.md`
-- Guests: [Christopher Bergh](/people/christopherbergh/)
+- Guests: [Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
 - Source topics: DataOps, MLOps, data engineering, production, practices
 - Topic candidates: data engineering, dataops, mlops, production, practices, data science, data teams, software engineering, leadership, llms
 - Short summary: How do you transform fragile data pipelines and unreliable ML deployments into automated, observable, production-ready systems? In this episode Christopher Bergh, CEO of DataKitchen and co-author of the DataOps Cookbook and DataOps Manifesto, walks through practical DataOps for data engineering—drawing on 25+ years across research, software engineering, and analytics.
@@ -4167,10 +4167,10 @@ Use it before opening full podcast source files.
 
 ### Urban Data Science: Transport Analytics, Sensors and Liveable Cities
 
-- Local page: [/podcasts/urban-data-science/](/podcasts/urban-data-science/)
+- Local page: [https://datatalks.club/podcast/urban-data-science.html](https://datatalks.club/podcast/urban-data-science.html)
 - Original episode: https://datatalks.club/podcast/urban-data-science.html
 - Source file: `datatalksclub.github.io/_podcast/urban-data-science.md`
-- Guests: [Rachel Lim](/people/rachellim/)
+- Guests: [Rachel Lim](https://datatalks.club/people/rachellim.html)
 - Source topics: data engineering, LLMs, computer vision, data science
 - Topic candidates: data engineering, computer vision, llms, data science, generative ai, data quality, privacy, rag, search, fare card
 - Short summary: How can cities use transport analytics, sensors and AI to become more liveable? In this episode Rachel Lim, an urban data scientist with a geography background and a master''s in urban data science, walks through practical ways data informs transport planning and placemaking. We cover core data sources—GPS, sensors, fare card systems, ride-hailing logs and computer vision for passenger flow—plus travel demand forecasting, real-time monitoring (including event analytics like F1), and operational responses such as.
@@ -4193,10 +4193,10 @@ Use it before opening full podcast source files.
 
 ### Human-Centered Speech Recognition: ASR for Disordered Speech and Accents
 
-- Local page: [/podcasts/human-centered-ai-automatic-speech-recognition/](/podcasts/human-centered-ai-automatic-speech-recognition/)
+- Local page: [https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
 - Original episode: https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html
 - Source file: `datatalksclub.github.io/_podcast/human-centered-ai-automatic-speech-recognition.md`
-- Guests: [Katarzyna Foremniak](/people/katarzynaforemniak/)
+- Guests: [Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html)
 - Source topics: AI, NLP, LLMs, machine learning, data governance
 - Topic candidates: ai, nlp, llms, machine learning, data governance, rag, disordered speech, human-centered ai, speech disorders, voice recognition
 - Short summary: How can automatic speech recognition (ASR) better serve people with disordered speech and diverse accents? In this episode Katarzyna Foremniak, a computational linguist with over 10 years in NLP who has built language models for Audi and Porsche and teaches at the University of Warsaw, examines human-centered ASR for atypical and accented speech. We trace her move from linguistics to computational approaches and cover core phonetics and morpho-syntax concepts that matter for speech recognition.
@@ -4219,10 +4219,10 @@ Use it before opening full podcast source files.
 
 ### Inside Scaling DataTalks.Club: How We Built Free Data Engineering, MLOps & LLM Courses
 
-- Local page: [/podcasts/datatalksclub-scaling-and-free-courses/](/podcasts/datatalksclub-scaling-and-free-courses/)
+- Local page: [https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 - Original episode: https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html
 - Source file: `datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
-- Guests: [Alexey Grigorev](/people/alexeygrigorev/)
+- Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: MLOps, LLMs, data engineering, machine learning, career transition, community building, teaching
 - Topic candidates: data engineering, machine learning, mlops, llms, career transition, community building, teaching, data science, hiring, portfolio
 - Short summary: How do you scale a volunteer-run learning community into a sustainable platform offering free data engineering, MLOps, and LLM courses? In this episode Alexey Grigorev, founder of DataTalks.Club, walks through the origin story of the project, the leap to running it full-time, and the practical tradeoffs of building free data engineering courses at scale.
@@ -4245,10 +4245,10 @@ Use it before opening full podcast source files.
 
 ### MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies
 
-- Local page: [/podcasts/mlops-at-scale-reproducibility-adoption/](/podcasts/mlops-at-scale-reproducibility-adoption/)
+- Local page: [https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 - Original episode: https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html
 - Source file: `datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- Guests: [Raphaël Hoogvliets](/people/raphaelhoogvliets/)
+- Guests: [Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
 - Source topics: MLOps, data science, machine learning, tools, data governance
 - Topic candidates: data science, machine learning, mlops, tools, data governance, model monitoring, reproducibility, pain points, data versioning, hoogvliets eneco role
 - Short summary: How do you run MLOps at scale so models stay deployed, reproducible, and actually adopted? In this episode Raphaël Hoogvliets—who leads a 12-engineer team at Eneco and brings a career arc from agriculture into data science and MLOps—walks through practical approaches for CI/CD for ML, reproducibility, model monitoring, and adoption strategy.
@@ -4271,10 +4271,10 @@ Use it before opening full podcast source files.
 
 ### From Collider Physics to Data Science: Research Software Engineering, Interview Prep & Mentorship
 
-- Local page: [/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/](/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/)
+- Local page: [https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html](https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html)
 - Original episode: https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/from-large-hadron-collider-to-data-science-research-software-engineering.md`
-- Guests: [Anastasia Karavdina](/people/anastasiakaravdina/)
+- Guests: [Anastasia Karavdina](https://datatalks.club/people/anastasiakaravdina.html)
 - Source topics: machine learning, data science, MLOps, software engineering, career transition, academia
 - Topic candidates: machine learning, data science, software engineering, mlops, career transition, academia, career growth, hiring, leadership, rag
 - Short summary: How do you move from collider physics to industry data science while keeping rigorous research software engineering practices, succeeding in interviews, and giving or getting effective mentorship? In this episode Anastasia Karavdina — a particle physicist turned data scientist who worked on Large Hadron Collider experiments and later built AI solutions at Blue Yonder and Kaufland e-commerce — walks through that journey.
@@ -4297,10 +4297,10 @@ Use it before opening full podcast source files.
 
 ### Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations
 
-- Local page: [/podcasts/generative-ai-chatbots-in-production-security/](/podcasts/generative-ai-chatbots-in-production-security/)
+- Local page: [https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 - Original episode: https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html
 - Source file: `datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`
-- Guests: [Maria Sukhareva](/people/mariasukhareva/)
+- Guests: [Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html)
 - Source topics: AI, LLMs, NLP, MLOps, production, AI red teaming, security
 - Topic candidates: ai, llms, nlp, mlops, production, ai red teaming, security, data quality, generative ai, retrieval
 - Short summary: How do you harden generative AI chatbots against prompt injection, data exfiltration, and dangerous hallucinations? In this episode Maria Sukhareva — a principal key expert in AI at Siemens with 15+ years working at the intersection of linguistics and computational AI — walks through real-world risks, attack findings, and practical defenses for chatbot security.
@@ -4323,10 +4323,10 @@ Use it before opening full podcast source files.
 
 ### From Biology to ML: Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers
 
-- Local page: [/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/](/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/)
+- Local page: [https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html)
 - Original episode: https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html
 - Source file: `datatalksclub.github.io/_podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.md`
-- Guests: [Isabella Bicalho](/people/isabellabicalho/)
+- Guests: [Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html)
 - Source topics: machine learning, computer vision, open-source, bioinformatics, career transition
 - Topic candidates: machine learning, computer vision, career transition, open source, bioinformatics, data science, freelance, portfolio, rag, search
 - Short summary: How do you move from a biology background into machine learning and build a data science portfolio that actually gets noticed? In this episode, Isabella Bicalho — a machine learning engineer and data scientist with three years of hands-on AI development and roots in computational research — walks through practical approaches for showcasing skills with open-source, computer vision, and transformer projects.
@@ -4349,10 +4349,10 @@ Use it before opening full podcast source files.
 
 ### From DevOps to Data Engineering: Automation, Open Source & Volunteering for Career Transitions
 
-- Local page: [/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/](/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/)
+- Local page: [https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html](https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html)
 - Original episode: https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html
 - Source file: `datatalksclub.github.io/_podcast/from-devops-to-data-engineering-automation-open-source-volunteering.md`
-- Guests: [Agita Jaunzeme](/people/agitajaunzeme/)
+- Guests: [Agita Jaunzeme](https://datatalks.club/people/agitajaunzeme.html)
 - Source topics: open-source, data engineering, software engineering, practices, career transition, DevOps
 - Topic candidates: open source, data engineering, career transition, software engineering, practices, devops, dataops, portfolio, career beginnings trade, beginnings trade school
 - Short summary: How do you pivot from DevOps to data engineering without starting over? In this episode Agita Jaunzeme — a DevOps/DataOps engineer, manager, community builder and NGO founder — breaks down practical strategies for career transitions that center on automation, open source participation, and volunteering.
@@ -4375,10 +4375,10 @@ Use it before opening full podcast source files.
 
 ### Fairness in AI/ML Engineering: Interpretability, Metrics and Sociotechnical Design
 
-- Local page: [/podcasts/fairness-in-ai-ml-engineering/](/podcasts/fairness-in-ai-ml-engineering/)
+- Local page: [https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
 - Original episode: https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`
-- Guests: [Tamara Atanasoska](/people/tamaraatanasoska/)
+- Guests: [Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html)
 - Source topics: machine learning, LLMs, open-source, tools, data governance, fairness
 - Topic candidates: open source, machine learning, llms, tools, data governance, fairness, software engineering, ml engineering, search, fairlearn scikit-learn
 - Short summary: How do you reduce bias in credit scoring models without sacrificing explainability? In this episode, Tamara Atanasoska — an open source software engineer at :probabl.., Fairlearn maintainer, and contributor to scikit-learn and skops with a background in software engineering and computational linguistics — walks through practical approaches to fairness in AI. We dig into a real credit scoring use case, empirical findings on gender disparities, and the societal harms of biased models such as debt and repossession.
@@ -4401,10 +4401,10 @@ Use it before opening full podcast source files.
 
 ### Post-ChatGPT AI Infrastructure: Open Source Orchestration, On-Prem Economics & Distributed Training at Scale
 
-- Local page: [/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/](/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/)
+- Local page: [https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html)
 - Original episode: https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html
 - Source file: `datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`
-- Guests: [Andrey Cheptsov](/people/andreycheptsov/)
+- Guests: [Andrey Cheptsov](https://datatalks.club/people/andreycheptsov.html)
 - Source topics: AI infrastructure, MLOps, LLMs, open-source, tools
 - Topic candidates: ai infrastructure, open source, mlops, llms, tools, orchestration, privacy, jetbrains dataspell move, dataspell move ai, origins dstack reducing
 - Short summary: How has the rise of ChatGPT reshaped the infrastructure needed to build and run large language models, and when does open source orchestration make sense compared to cloud or proprietary systems? In this episode we speak with Andrey Cheptsov, founder and CEO of dstack — an open-source alternative to Kubernetes and Slurm designed to simplify AI infrastructure orchestration. Drawing on his decade-plus at JetBrains building developer tools, Andrey frames practical trade-offs between on-prem economics and cloud spend,.
@@ -4427,10 +4427,10 @@ Use it before opening full podcast source files.
 
 ### From Kaggle Grandmaster to Production ML: Competition Rigor, System Design & Large-Scale Education
 
-- Local page: [/podcasts/kaggle-grandmaster-to-production-ml-and-education/](/podcasts/kaggle-grandmaster-to-production-ml-and-education/)
+- Local page: [https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
 - Original episode: https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html
 - Source file: `datatalksclub.github.io/_podcast/kaggle-grandmaster-to-production-ml-and-education.md`
-- Guests: [Alexander Guschin](/people/alexanderguschin/)
+- Guests: [Alexander Guschin](https://datatalks.club/people/alexanderguschin.html)
 - Source topics: machine learning, MLOps, data science, open-source, tools, teaching, career transition
 - Topic candidates: machine learning, mlops, data science, open source, tools, teaching, career transition, generative ai, production ml, kaggle grandmaster credentials
 - Short summary: How do you take the rigor and creativity that wins Kaggle competitions and turn it into reliable, maintainable production ML? In this episode we explore that question with Alexander Guschin — a Machine Learning Engineer with 10+ years of experience, a Kaggle Grandmaster ranked 5th globally, a leader of DS and SE teams, contributor to open-source ML tools, and instructor to 100K+ students.
@@ -4453,10 +4453,10 @@ Use it before opening full podcast source files.
 
 ### Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines
 
-- Local page: [/podcasts/trends-in-modern-data-engineering/](/podcasts/trends-in-modern-data-engineering/)
+- Local page: [https://datatalks.club/podcast/trends-in-modern-data-engineering.html](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
 - Original episode: https://datatalks.club/podcast/trends-in-modern-data-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`
-- Guests: [Adrian Brudaru](/people/adrianbrudaru/)
+- Guests: [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 - Source topics: data engineering, data governance, AI, open-source
 - Topic candidates: data engineering, open source, data governance, ai, ai engineering, data quality, ai engineer, data product, freelance, hiring
 - Short summary: How can engineering teams build reliable, scalable lakehouse pipelines that combine transactional table formats with AI-driven automation? In this episode Adrian Brudaru—an economics-trained analyst turned freelance data practitioner and co-founder of a data company focused on open source tooling—joins us to explore the realities of modern data engineering.
@@ -4479,10 +4479,10 @@ Use it before opening full podcast source files.
 
 ### Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt
 
-- Local page: [/podcasts/lean-mlops-for-startups/](/podcasts/lean-mlops-for-startups/)
+- Local page: [https://datatalks.club/podcast/lean-mlops-for-startups.html](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 - Original episode: https://datatalks.club/podcast/lean-mlops-for-startups.html
 - Source file: `datatalksclub.github.io/_podcast/lean-mlops-for-startups.md`
-- Guests: [Nemanja Radojkovic](/people/nemanjaradojkovic/)
+- Guests: [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 - Source topics: MLOps, data engineering, tools, production, career transition, startups
 - Topic candidates: data engineering, mlops, tools, production, career transition, startups, machine learning, orchestration, privacy, technical debt
 - Short summary: How can a startup implement Lean MLOps that gets models into production quickly without incurring vendor lock-in or crushing tech debt? In this episode Nemanja Radojkovic — an Electrical Engineer turned Data Scientist and MLOps Engineer, former consultant at Big4 and boutique firms, DataCamp course author, and teacher of Python and machine learning — walks through practical strategies for building a SaaS-first MVP stack while preserving future flexibility.
@@ -4505,10 +4505,10 @@ Use it before opening full podcast source files.
 
 ### Production AI Engineering: Data Pipelines, Prompt Optimization and Caching
 
-- Local page: [/podcasts/production-ready-ai-engineering/](/podcasts/production-ready-ai-engineering/)
+- Local page: [https://datatalks.club/podcast/production-ready-ai-engineering.html](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 - Original episode: https://datatalks.club/podcast/production-ready-ai-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`
-- Guests: [Bartosz Mikulski](/people/bartoszmikulski/)
+- Guests: [Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html)
 - Source topics: data engineering, AI, LLMs, MLOps, tools
 - Topic candidates: data engineering, ai, llms, mlops, tools, ai engineering, ai engineer, search, opening data intensive, data intensive ai
 - Short summary: How do you move AI projects from proof-of-concept to reliable production systems while keeping prompts, pipelines, and response times under control? In this episode Bartosz Mikulski, an AI and data engineer who specializes in productionizing AI, breaks down the engineering work required to make models dependable beyond demos. Bartosz explains how to design robust data pipelines, apply prompt optimization practices, and introduce caching strategies that reduce load and improve responsiveness. He also covers.
@@ -4531,10 +4531,10 @@ Use it before opening full podcast source files.
 
 ### FinOps for Data Engineers: Optimize Cloud Costs, BigQuery & Modern Data Stack
 
-- Local page: [/podcasts/finops-for-data-engineers/](/podcasts/finops-for-data-engineers/)
+- Local page: [https://datatalks.club/podcast/finops-for-data-engineers.html](https://datatalks.club/podcast/finops-for-data-engineers.html)
 - Original episode: https://datatalks.club/podcast/finops-for-data-engineers.html
 - Source file: `datatalksclub.github.io/_podcast/finops-for-data-engineers.md`
-- Guests: [Eddy Zulkifly](/people/eddyzulkifly/)
+- Guests: [Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html)
 - Source topics: data engineering, finops, modern data stack, tools, career growth
 - Topic candidates: data engineering, modern data stack, finops, tools, career growth, dataops, orchestration, rag, staff data engineer, cloud cost
 - Short summary: How can data engineers bring FinOps practices into their day-to-day work to control cloud spend across BigQuery and the modern data stack? In this episode, Eddy Zulkifly — Staff Data Engineer at Kinaxis with a decade of experience building data platforms on Google Cloud, Azure, and AWS — breaks down practical ways to make cost optimization part of platform design and operations.
@@ -4557,10 +4557,10 @@ Use it before opening full podcast source files.
 
 ### Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing
 
-- Local page: [/podcasts/applied-llm-research-and-career-growth-in-practice/](/podcasts/applied-llm-research-and-career-growth-in-practice/)
+- Local page: [https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html)
 - Original episode: https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html
 - Source file: `datatalksclub.github.io/_podcast/applied-llm-research-and-career-growth-in-practice.md`
-- Guests: [Lavanya Gupta](/people/lavanyagupta/)
+- Guests: [Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html)
 - Source topics: LLMs, NLP, MLOps, applied research, career growth
 - Topic candidates: llms, mlops, career growth, nlp, applied research, computer vision, data science, software engineering, machine learning, portfolio
 - Short summary: How do you evaluate and prototype long-context LLMs in a real-world setting while advancing a career as an applied researcher? In this episode Lavanya Gupta — a Carnegie Mellon Language Technologies Institute alum and Sr. AI/ML Applied Scientist at JPMorgan Chase’s Machine Learning Center of Excellence — walks through practical strategies for applied LLM research and career growth. With 5+ years of industrial research experience, public talks at WiDS, PyData, TensorFlow User Group and reviewer roles for NeurIPS.
@@ -4583,10 +4583,10 @@ Use it before opening full podcast source files.
 
 ### Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven Communication
 
-- Local page: [/podcasts/practical-devrel-demofirst-education-and-open-source/](/podcasts/practical-devrel-demofirst-education-and-open-source/)
+- Local page: [https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 - Original episode: https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html
 - Source file: `datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Guests: [Will Russell](/people/willrussell/)
+- Guests: [Will Russell](https://datatalks.club/people/willrussell.html)
 - Source topics: open-source, computer vision, tools, MLOps, software engineering
 - Topic candidates: open source, computer vision, tools, mlops, software engineering, leadership, orchestration, video production setup, production setup camera, setup camera lens
 - Short summary: How do developer advocates create measurable community impact while balancing technical leadership, mentorship, and clear communication? In this episode Will Russell, Developer Advocate at Kestra, explores that question through the lens of workflow orchestration and developer education. Will is known for his technical video content on workflow orchestration and for building open source education programs that help new contributors make their first pull requests.
@@ -4609,10 +4609,10 @@ Use it before opening full podcast source files.
 
 ### Building a Sustainable Data Freelancing Career: Market Validation, Client Acquisition & Strategic Positioning
 
-- Local page: [/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/](/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/)
+- Local page: [https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
 - Original episode: https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html
 - Source file: `datatalksclub.github.io/_podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.md`
-- Guests: [Dimitri Visnadi](/people/dimitrivisnadi/)
+- Guests: [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html)
 - Source topics: Freelance, Career Growth, Consulting, Personal Branding, Entrepreneurship, Remote Work, Business Development
 - Topic candidates: freelance, career growth, consulting, personal branding, entrepreneurship, remote work, business development, data strategy, job board, opening dimitri data
 - Short summary: How do you move from employed data pro to a sustainable data freelancer who consistently lands clients, prices services well, and uses AI to boost productivity? In this episode, Dimitri Visnadi — an independent data consultant focused on data strategy who’s worked with Unilever, Ferrero, Heineken and Red Bull, held roles at HP and a Google-partnered firm, and holds a Masters in Business Analytics & Computer Science from UCL — walks through a practical playbook for data freelancers.
@@ -4635,10 +4635,10 @@ Use it before opening full podcast source files.
 
 ### From Academic Research to Lean Data Consulting: MVP Strategy, Problem-First Thinking & Freelance Practice Building
 
-- Local page: [/podcasts/from-academic-research-to-data-engineering-freelancing/](/podcasts/from-academic-research-to-data-engineering-freelancing/)
+- Local page: [https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
 - Original episode: https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html
 - Source file: `datatalksclub.github.io/_podcast/from-academic-research-to-data-engineering-freelancing.md`
-- Guests: [Orell Garten](/people/orellgarten/)
+- Guests: [Orell Garten](https://datatalks.club/people/orellgarten.html)
 - Source topics: data engineering, academia, AI, MLOps, computer vision, freelance, career transition
 - Topic candidates: data engineering, freelance, academia, ai, mlops, computer vision, career transition, academic research, llms, search
 - Short summary: How do you turn academic research and simulation expertise into a lean data consulting practice without getting bogged down in perfect solutions? In this episode we talk with Orell Garten, an electrical engineering graduate who focused on simulation algorithms, left a PhD during COVID, and learned through a government-funded startup program how to translate scientific research into real products.
@@ -4661,10 +4661,10 @@ Use it before opening full podcast source files.
 
 ### Mindful Data Strategy for Business Impact: Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance
 
-- Local page: [/podcasts/mindful-data-strategy-for-business-impact/](/podcasts/mindful-data-strategy-for-business-impact/)
+- Local page: [https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
 - Original episode: https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html
 - Source file: `datatalksclub.github.io/_podcast/mindful-data-strategy-for-business-impact.md`
-- Guests: [Lior Barak](/people/liorbarak/)
+- Guests: [Lior Barak](https://datatalks.club/people/liorbarak.html)
 - Source topics: data strategy, data governance, data engineering, product management, career transition
 - Topic candidates: data strategy, product management, data governance, data engineering, career transition, generative ai, data product, data quality, data teams, rag
 - Short summary: How do you build a data strategy that drives business impact without chasing perfection? In this episode Lior Barak — author of Data Is Like a Plate of Hummus, co-host of the WHAT the Data?! podcast, and founder of Tale About Data — explores a mindful data strategy that accepts imperfection, prioritizes data trust, and balances maintenance with innovation.
@@ -4687,10 +4687,10 @@ Use it before opening full podcast source files.
 
 ### From Medicine to Machine Learning: Skill Stacking, Public Learning & Freelance-Driven Career Building
 
-- Local page: [/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/](/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/)
+- Local page: [https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)
 - Original episode: https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html
 - Source file: `datatalksclub.github.io/_podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.md`
-- Guests: [Pastor Soto](/people/pastorsoto/)
+- Guests: [Pastor Soto](https://datatalks.club/people/pastorsoto.html)
 - Source topics: machine learning, data science, data engineering, MLOps, career transition
 - Topic candidates: machine learning, data science, data engineering, mlops, career transition, freelance, portfolio, transition medicine criminology, medicine criminology machine, criminology machine learning
 - Short summary: How do you go from medical school to shipping production-ready healthcare ML—and get paid for it on platforms like Upwork? In this episode, Pastor Soto, a machine learning engineer and mentor who transitioned from medicine and criminology into production ML, walks through the practical steps he used to build a healthcare ML portfolio and freelance career.
@@ -4713,10 +4713,10 @@ Use it before opening full podcast source files.
 
 ### From Radio Astronomy to Applied ML: MEERKAT Data Pipelines, Multi-Wavelength Cross-Matching & Production-Grade ML Systems
 
-- Local page: [/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/](/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/)
+- Local page: [https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)
 - Original episode: https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.md`
-- Guests: [Daniel Egbo](/people/danielegbo/)
+- Guests: [Daniel Egbo](https://datatalks.club/people/danielegbo.html)
 - Source topics: astroinformatics, MLOps, LLMs, data engineering, machine learning, academia, career transition
 - Topic candidates: machine learning, astroinformatics, mlops, llms, data engineering, academia, career transition, vector databases, orchestration, portfolio
 - Short summary: How do you transform raw radio astronomy observations into reliable, production-grade machine learning systems that enable multi-wavelength science? In this episode we talk with Daniel Egbo — an astrophysicist turned machine learning engineer and AI ambassador (Arize, Tavily) and PhD candidate at the University of Cape Town — about bridging radio astronomy and applied ML. Daniel explains the challenges of working with MEERKAT data pipelines, strategies for multi-wavelength cross-matching, and the engineering.
@@ -4739,10 +4739,10 @@ Use it before opening full podcast source files.
 
 ### From Game AI to LLM Agents: 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling
 
-- Local page: [/podcasts/from-game-ai-to-modern-ai-agents/](/podcasts/from-game-ai-to-modern-ai-agents/)
+- Local page: [https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
 - Original episode: https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html
 - Source file: `datatalksclub.github.io/_podcast/from-game-ai-to-modern-ai-agents.md`
-- Guests: [Micheal Lanham](/people/micheallanham/)
+- Guests: [Micheal Lanham](https://datatalks.club/people/micheallanham.html)
 - Source topics: LLMs, AI, machine learning, MLOps, software engineering
 - Topic candidates: llms, ai, machine learning, mlops, software engineering, ai engineering, generative ai, ai engineer, leadership, orchestration
 - Short summary: How did techniques born in game AI become the foundation for today's LLM-driven agents, and what practical lessons does that 20-year evolution offer to engineers and researchers? In this episode, AI engineer and best-selling author Micheal Lanham walks through the lineage from game AI and multi-agent systems to modern LLM agents, evolutionary algorithms, and contemporary AI tooling.
@@ -4765,10 +4765,10 @@ Use it before opening full podcast source files.
 
 ### From Classical Guitar to Production ML: Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning
 
-- Local page: [/podcasts/from-semiconductor-data-to-applied-machine-learning/](/podcasts/from-semiconductor-data-to-applied-machine-learning/)
+- Local page: [https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)
 - Original episode: https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html
 - Source file: `datatalksclub.github.io/_podcast/from-semiconductor-data-to-applied-machine-learning.md`
-- Guests: [Dashel Ruiz Perez](/people/dashelruizperez/)
+- Guests: [Dashel Ruiz Perez](https://datatalks.club/people/dashelruizperez.html)
 - Source topics: machine learning, MLOps, data science, tools, career transition
 - Topic candidates: machine learning, mlops, data science, tools, career transition, computer vision, ml engineering, software engineering, study groups, multidisciplinary career snapshot
 - Short summary: How do you move from playing classical guitar to applying machine learning in semiconductor yield analytics? In this episode Dashel Ruiz Perez — a data analyst, ML engineer, and educator — walks us through a nonlinear career path that spans nearly a decade at Microchip Technology and now teaching programming and data skills through ThriveDX. With roles across production, process, yield, and software engineering, Dashel explains how hands-on production experience informs production analytics and ML engineering work.
@@ -4791,10 +4791,10 @@ Use it before opening full podcast source files.
 
 ### From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering
 
-- Local page: [/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/](/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/)
+- Local page: [https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html)
 - Original episode: https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html
 - Source file: `datatalksclub.github.io/_podcast/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.md`
-- Guests: [abouzarabbaspour](/people/abouzarabbaspour/)
+- Guests: [abouzarabbaspour](https://datatalks.club/people/abouzarabbaspour.html)
 - Source topics: machine learning, MLOps, data engineering, LLMs, data science
 - Topic candidates: data engineering, data science, machine learning, llms, mlops, a/b testing, ml engineering, software engineering, data product, search
 - Short summary: How can theme parks use data to cut wait times and guide visitors in real time? In this episode, Abouzar Abbaspour — an EngD-trained machine learning and data engineer whose career spans telecom, e-commerce (bol.com), theme parks (Efteling) and automotive (Tesla) — walks through building systems that optimize visitor flow using crowd modeling, queue prediction and real-time recommendations.
@@ -4817,10 +4817,10 @@ Use it before opening full podcast source files.
 
 ### Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation
 
-- Local page: [/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/](/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/)
+- Local page: [https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 - Original episode: https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html
 - Source file: `datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`
-- Guests: [Ranjitha Kulkarni](/people/ranjithakulkarni/)
+- Guests: [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 - Source topics: LLMs, AI, agent engineering, retrieval-augmented generation, MLOps, tools
 - Topic candidates: llms, agent engineering, ai, retrieval-augmented generation, mlops, tools, machine learning, orchestration, rag, retrieval
 - Short summary: How do you build reliable, agentic AI systems that balance practical engineering, tooling, retrieval, and robust evaluation? In this episode Ranjitha Kulkarni, Staff Machine Learning Engineer at NeuBird.ai and former engineer on LLM- and agent-powered product features at Dropbox Dash and Microsoft, explores pragmatic approaches to agent design. Drawing on her work in speech recognition, language modeling, assistant evaluation, and publications on voice query reformulation and automatic online evaluation, Ranjitha.
@@ -4843,10 +4843,10 @@ Use it before opening full podcast source files.
 
 ### Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment
 
-- Local page: [/podcasts/from-computer-vision-research-to-autonomous-driving-ai/](/podcasts/from-computer-vision-research-to-autonomous-driving-ai/)
+- Local page: [https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 - Original episode: https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html
 - Source file: `datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`
-- Guests: [Aishwarya Jadhav](/people/aishwaryajadhav/)
+- Guests: [Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html)
 - Source topics: computer vision, academia, autonomous driving, MLOps, LLMs, production, career growth, career transition
 - Topic candidates: computer vision, llms, autonomous driving, academia, mlops, production, career growth, career transition, data engineering, generative ai
 - Short summary: How do you take computer vision research out of the lab and turn it into production-ready AI that actually works in the real world? In this episode Aishwarya Jadhav, a Machine Learning Engineer with over four years of industry experience and a Master’s from Carnegie Mellon University, walks through the challenges of applying computer vision research to production systems. Her background spans multimodal LLMs, generative AI, and computer vision, with research experience in multimodal deep learning and text.
@@ -4869,10 +4869,10 @@ Use it before opening full podcast source files.
 
 ### Bioinformatics Workflows in Practice: Sequencing, Metagenomics, and Open-Source Tools
 
-- Local page: [/podcasts/bioinformatics-worflows-tools-and-data-science/](/podcasts/bioinformatics-worflows-tools-and-data-science/)
+- Local page: [https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
 - Original episode: https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html
 - Source file: `datatalksclub.github.io/_podcast/bioinformatics-worflows-tools-and-data-science.md`
-- Guests: [Sebastian Ayala Ruano](/people/sebastianayalaruano/)
+- Guests: [Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
 - Source topics: bioinformatics, LLMs, MLOps, open-source, tools
 - Topic candidates: llms, mlops, bioinformatics, open source, tools, career transition, data science, portfolio, rag, reproducibility
 - Short summary: How do you build reproducible, scalable bioinformatics workflows for sequencing and metagenomics using open-source tools? In this episode we explore practical answers with Sebastian Ayala Ruano, a bioinformatics software developer and Master's student in Systems Biology at Maastricht University. Sebastian has contributed to open-source projects such as MicW2Graph, VueGen, and VueCore to simplify multi-omics data analysis and has a background in cheminformatics, peptide discovery, and network-based analysis.
@@ -4895,10 +4895,10 @@ Use it before opening full podcast source files.
 
 ### Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows
 
-- Local page: [/podcasts/practical-llm-engineering-and-rag/](/podcasts/practical-llm-engineering-and-rag/)
+- Local page: [https://datatalks.club/podcast/practical-llm-engineering-and-rag.html](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 - Original episode: https://datatalks.club/podcast/practical-llm-engineering-and-rag.html
 - Source file: `datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`
-- Guests: [Hugo Bowne-Anderson](/people/hugobowneanderson/)
+- Guests: [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 - Source topics: LLMs, NLP, MLOps, tools
 - Topic candidates: llms, nlp, mlops, tools, developer relations, embeddings, experimentation, freelance, rag, retrieval
 - Short summary: How do you move from experimentation to reliable, production-ready LLM engineering and retrieval-augmented generation (RAG)? In this episode Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds, longtime data scientist, educator, and host of Vanishing Gradients — walks through practical patterns for building, evaluating, and scaling real-world LLM workflows.
@@ -4921,10 +4921,10 @@ Use it before opening full podcast source files.
 
 ### From Black-Box Systems to Augmented Decision-Making
 
-- Local page: [/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/](/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/)
+- Local page: [https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html](https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html)
 - Original episode: https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html
 - Source file: `datatalksclub.github.io/_podcast/s22e06-from-black-box-systems-to-augmented-decision-making.md`
-- Guests: [Anusha Akkina](/people/anushaakkina/)
+- Guests: [Anusha Akkina](https://datatalks.club/people/anushaakkina.html)
 - Source topics: No source topics.
 - Topic candidates: search, ai finance, finance teams, building trust ai, trust ai finance, ai finance introducing, finance introducing auralytix, accounting roots auditing, roots auditing deloitte, auditing deloitte paraxel
 - Short summary: Chapter-derived summary: Building trust in AI finance and introducing Auralytix; From accounting roots to auditing at Deloitte and Paraxel; Moving to Germany and pivoting into corporate finance; The data struggle in strategic finance and the need for change.
@@ -4945,10 +4945,10 @@ Use it before opening full podcast source files.
 
 ### Reinventing a Career in Tech
 
-- Local page: [/podcasts/s22e07-reinventing-career-in-tech/](/podcasts/s22e07-reinventing-career-in-tech/)
+- Local page: [https://datatalks.club/podcast/s22e07-reinventing-career-in-tech.html](https://datatalks.club/podcast/s22e07-reinventing-career-in-tech.html)
 - Original episode: https://datatalks.club/podcast/s22e07-reinventing-career-in-tech.html
 - Source file: `datatalksclub.github.io/_podcast/s22e07-reinventing-career-in-tech.md`
-- Guests: [Xia He-Bleinagel](/people/xiahebleinagel/)
+- Guests: [Xia He-Bleinagel](https://datatalks.club/people/xiahebleinagel.html)
 - Source topics: No source topics.
 - Topic candidates: career transition
 - Short summary: Chapter-derived summary: Transcript checkpoint 1: Hi everyone, welcome to our event. This event is brought to you by Data Dogs; Transcript checkpoint 2: It was very difficult to find a good job in the automotive industry in Berlin.; Transcript checkpoint 3: I also started with Andrew Ng’s courses. They have grown into a specialization; Transcript checkpoint 4: I bought and exported German goods to China via online platforms and imported.
@@ -4968,10 +4968,10 @@ Use it before opening full podcast source files.
 
 ### Building Pet Health Tech: ML, Sensors, and Dog Behavior Data
 
-- Local page: [/podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data/](/podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data/)
+- Local page: [https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html](https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html)
 - Original episode: https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html
 - Source file: `datatalksclub.github.io/_podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.md`
-- Guests: [Sofya Yulpatova](/people/sofyayulpatova/)
+- Guests: [Sofya Yulpatova](https://datatalks.club/people/sofyayulpatova.html)
 - Source topics: No source topics.
 - Topic candidates: career growth, machine learning, sofya pet tech, pet tech startup, tech startup machine, startup machine learning, machine learning sensor, learning sensor data, sensor data behavior, journey programming hobby
 - Short summary: Chapter-derived summary: Sofya's pet tech startup with machine learning sensor data and behavior; Journey from programming hobby to full time software development career; Career growth after skipping university and building practical experience; Puppy adoption story and family influence on pet focused innovation.
@@ -4989,10 +4989,10 @@ Use it before opening full podcast source files.
 
 ### AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products
 
-- Local page: [/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/](/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/)
+- Local page: [https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html)
 - Original episode: https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html
 - Source file: `datatalksclub.github.io/_podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.md`
-- Guests: [Paul Iusztin](/people/pauliusztin/)
+- Guests: [Paul Iusztin](https://datatalks.club/people/pauliusztin.html)
 - Source topics: No source topics.
 - Topic candidates: ai engineering, ai engineer, data science, llmops, portfolio, rag, code cars paul, cars paul journey, paul journey ai, deep learning autonomous
 - Short summary: Chapter-derived summary: From code to cars: Paul’s journey to AI; Deep learning and the autonomous driving challenge; The transition to global product engineering; Survival guide: Data science vs. AI engineering.
@@ -5010,10 +5010,10 @@ Use it before opening full podcast source files.
 
 ### Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices
 
-- Local page: [/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/](/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/)
+- Local page: [https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)
 - Original episode: https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html
 - Source file: `datatalksclub.github.io/_podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.md`
-- Guests: [Juan Manuel Perafan](/people/juanmanuelperafan/)
+- Guests: [Juan Manuel Perafan](https://datatalks.club/people/juanmanuelperafan.html)
 - Source topics: No source topics.
 - Topic candidates: data engineering, analytics engineering, software engineering, search, your data, juan psychological research, psychological research transition, research transition data, riding wave early, wave early days
 - Short summary: Chapter-derived summary: Juan’s psychological research and transition to data; Riding the wave: The early days of analytics engineering; Breaking down the gap between analysts and engineers; The art of turning business reality into clean data.
@@ -5036,10 +5036,10 @@ Use it before opening full podcast source files.
 
 ### The Future of AI Agents
 
-- Local page: [/podcasts/s23e03-future-of-ai-agents/](/podcasts/s23e03-future-of-ai-agents/)
+- Local page: [https://datatalks.club/podcast/s23e03-future-of-ai-agents.html](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 - Original episode: https://datatalks.club/podcast/s23e03-future-of-ai-agents.html
 - Source file: `datatalksclub.github.io/_podcast/s23e03-future-of-ai-agents.md`
-- Guests: [Aditya Gautam](/people/adityagautam/)
+- Guests: [Aditya Gautam](https://datatalks.club/people/adityagautam.html)
 - Source topics: No source topics.
 - Topic candidates: mlops, search, aditya embedded systems, embedded systems ai, enterprise ai research, ai research adoption, research adoption gaps, ai reliability legal, reliability legal healthcare, specialized models agent
 - Short summary: Chapter-derived summary: Aditya’s from embedded systems to AI; Enterprise AI research and adoption gaps; AI reliability in legal and healthcare; Specialized models and agent governance.
@@ -5058,10 +5058,10 @@ Use it before opening full podcast source files.
 
 ### How to Become an AI Engineer After a Career Break
 
-- Local page: [/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/](/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/)
+- Local page: [https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)
 - Original episode: https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html
 - Source file: `datatalksclub.github.io/_podcast/s23e04-how-to-become-ai-engineer-after-career-break.md`
-- Guests: [Revathy Ramalingam](/people/revathyramalingam/)
+- Guests: [Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html)
 - Source topics: No source topics.
 - Topic candidates: ai engineer, career break, move ai using, ai using chatgpt, using chatgpt plan, chatgpt plan career, plan career pivot, learning public power, public power community, power community support
 - Short summary: Chapter-derived summary: Why Move to AI? Using ChatGPT to Plan a Career Pivot; Learning in Public: The Power of Community Support; Telecom Capstone: Predicting Network Slices with ML; Vibe Coding" & Building Prototypes with AI Dev Tools.
@@ -5076,10 +5076,10 @@ Use it before opening full podcast source files.
 
 ### Inside the AI Engineer Role: Tools, Skills, and Career Path
 
-- Local page: [/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/](/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/)
+- Local page: [https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)
 - Original episode: https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html
 - Source file: `datatalksclub.github.io/_podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.md`
-- Guests: [Ruslan Shchuchkin](/people/ruslanshchuchkin/)
+- Guests: [Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html)
 - Source topics: No source topics.
 - Topic candidates: data science, ai engineering, ai engineer, hiring, account management data, management data science, building branch gpt, branch gpt side, gpt side project, side project philosophy
 - Short summary: Chapter-derived summary: From Account Management to Data Science; Building Branch GPT and Side Project Philosophy; Transitioning to AI Engineering Full-Time; Maximizing Your "Luck Surface Area.
@@ -5101,10 +5101,10 @@ Use it before opening full podcast source files.
 
 ### Data Engineer Career in 2026: Roles, Specializations, and What Companies Look for
 
-- Local page: [/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/](/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/)
+- Local page: [https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
 - Original episode: https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html
 - Source file: `datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`
-- Guests: [Slawomir Tulski](/people/slawomirtulski/)
+- Guests: [Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html)
 - Source topics: No source topics.
 - Topic candidates: data engineering, portfolio, measuring glaciers london, glaciers london tech, london tech scene, hadoop vs. ai, vs. ai lessons, ai lessons original, lessons original big, original big data
 - Short summary: Chapter-derived summary: From Measuring Glaciers to London’s Tech Scene; Hadoop vs. AI: Lessons from the Original Big Data Hype; The Data Identity Crisis: Platform vs. Product Engineering; Tech-Native vs. Tech-by-Necessity Company Cultures.
@@ -5124,10 +5124,10 @@ Use it before opening full podcast source files.
 
 ### Understanding the AI Engineer Role
 
-- Local page: [/podcasts/s23e07-understanding-ai-engineer-role/](/podcasts/s23e07-understanding-ai-engineer-role/)
+- Local page: [https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
 - Original episode: https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html
 - Source file: `datatalksclub.github.io/_podcast/s23e07-understanding-ai-engineer-role.md`
-- Guests: [Nasser Qadri](/people/nasserqadri/)
+- Guests: [Nasser Qadri](https://datatalks.club/people/nasserqadri.html)
 - Source topics: No source topics.
 - Topic candidates: software engineering, generative ai, ai engineer, llms, orchestration, search, transitioning social science, social science software, science software engineering, applying statistical rigor
 - Short summary: Chapter-derived summary: Transitioning from Social Science to Software Engineering; Applying Statistical Rigor to Generative AI Evaluation; Balancing Research Mindsets with Engineering Speed; Comparing AI Roles in Big Tech vs Startups.
@@ -5147,10 +5147,10 @@ Use it before opening full podcast source files.
 
 ### Starting a Data Conference: The Data Makers Fest Story
 
-- Local page: [/podcasts/s23e09-starting-data-conference-data-makers-fest-story/](/podcasts/s23e09-starting-data-conference-data-makers-fest-story/)
+- Local page: [https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
 - Original episode: https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html
 - Source file: `datatalksclub.github.io/_podcast/s23e09-starting-data-conference-data-makers-fest-story.md`
-- Guests: [Leonid Kholkine](/people/leonidkholkine/)
+- Guests: [Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html)
 - Source topics: No source topics.
 - Topic candidates: community building, machine learning, leadership, search, community building data, building data ai, computer engineering international, engineering international leadership, international leadership roots, machine learning research
 - Short summary: Chapter-derived summary: Community Building in Data and AI; Computer Engineering and International Leadership Roots; Machine Learning Research in Sports Physiology; Data Lead Club and Executive Networking Retreats.
@@ -5173,10 +5173,10 @@ Use it before opening full podcast source files.
 
 ### Competitions: Beyond the Kaggle Leaderboard
 
-- Local page: [/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/](/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/)
+- Local page: [https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html)
 - Original episode: https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html
 - Source file: `datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`
-- Guests: [Tatiana Gabruseva](/people/tatianagabruseva/)
+- Guests: [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 - Source topics: No source topics.
 - Topic candidates: machine learning, portfolio, search, tatiana journey academia, journey academia staff, academia staff software, staff software engineer, machine learning applications, learning applications physics, applications physics signal
 - Short summary: Chapter-derived summary: Tatiana’s journey from academia to staff software engineer; Machine learning applications in physics and signal processing; Skill development and domain diversification on Kaggle; Agentic AI benchmarks and automated competition entries.
@@ -5198,10 +5198,10 @@ Use it before opening full podcast source files.
 
 ### From Notebook to Production: Building End-to-End AI Systems
 
-- Local page: [/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/](/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/)
+- Local page: [https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
 - Original episode: https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html
 - Source file: `datatalksclub.github.io/_podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.md`
-- Guests: [Mariano Semelman](/people/marianosemelman/)
+- Guests: [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 - Source topics: No source topics.
 - Topic candidates: data science, llms, community slack engagement, career journey argentina, journey argentina barcelona, product-driven ai vs., ai vs. traditional, vs. traditional reporting, ai media solutions, media solutions e-commerce
 - Short summary: Chapter-derived summary: Community Introduction and Slack Engagement; Career Journey: From Argentina to Barcelona; Product-Driven AI vs. Traditional Reporting; AI Media Solutions for E-Commerce Sellers.
@@ -5224,744 +5224,744 @@ Use it before opening full podcast source files.
 
 ## People Index
 
-- [Rahul Jain](/people/16rahuljain/): [/podcasts/data-engineering-leadership-and-modern-data-platforms/](/podcasts/data-engineering-leadership-and-modern-data-platforms/)
-- [Aaisha Muhammad](/people/aaishamuhammad/): [/podcasts/learning-machine-learning-self-taught-bioinformatics/](/podcasts/learning-machine-learning-self-taught-bioinformatics/)
-- [Aaron Wishnick](/people/aaronwishnick/): No podcast appearances found.
-- [​Aashish Nair](/people/aashishnair/): No podcast appearances found.
-- [abouzarabbaspour](/people/abouzarabbaspour/): [/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/](/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/)
-- [Adam Sroka](/people/adamsroka/): [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
-- [Aditya Gautam](/people/adityagautam/): [/podcasts/s23e03-future-of-ai-agents/](/podcasts/s23e03-future-of-ai-agents/)
-- [Aditya Seshaditya](/people/adityaseshaditya/): No podcast appearances found.
-- [Admond Lee Kin Lim](/people/admondleekinlim/): [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- [Adrian Brudaru](/people/adrianbrudaru/): [/podcasts/freelance-data-engineering-pricing-and-clients/](/podcasts/freelance-data-engineering-pricing-and-clients/), [/podcasts/from-data-freelancer-to-startup-open-source-products/](/podcasts/from-data-freelancer-to-startup-open-source-products/), [/podcasts/trends-in-modern-data-engineering/](/podcasts/trends-in-modern-data-engineering/)
-- [Agita Jaunzeme](/people/agitajaunzeme/): [/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/](/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/)
-- [Agnes van Belle](/people/agnesvanbelle/): No podcast appearances found.
-- [Agnieszka Mikołajczyk](/people/agnieszkamikolajczyk/): No podcast appearances found.
-- [Agostino Calamia](/people/agostinocalamia/): No podcast appearances found.
-- [Aishwarya Jadhav](/people/aishwaryajadhav/): [/podcasts/from-computer-vision-research-to-autonomous-driving-ai/](/podcasts/from-computer-vision-research-to-autonomous-driving-ai/)
-- [Akela Drissner](/people/akeladrissner/): No podcast appearances found.
-- [Aleksander Kruszelnicki](/people/aleksanderkruszelnicki/): [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/)
-- [Aleksander Molak](/people/aleksandermolak/): [/podcasts/causal-inference-for-machine-learning/](/podcasts/causal-inference-for-machine-learning/)
-- [Aleksandr Kim](/people/aleksandrkim/): No podcast appearances found.
-- [Aleksey Komissarov](/people/alekseykomissarov/): No podcast appearances found.
-- [Alena Astrakhantseva](/people/alenaastrakhantseva/): No podcast appearances found.
-- [Alexander Daniel Rios](/people/alexanderdanielrios/): No podcast appearances found.
-- [Alexander Guschin](/people/alexanderguschin/): [/podcasts/kaggle-grandmaster-to-production-ml-and-education/](/podcasts/kaggle-grandmaster-to-production-ml-and-education/)
-- [Alexander Hendorf](/people/alexanderhendorf/): [/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/](/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/)
-- [Alex Chung](/people/alexchung/): No podcast appearances found.
-- [Alexey Grigorev](/people/alexeygrigorev/): [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/crisp-dm/](/podcasts/crisp-dm/), [/podcasts/datatalksclub-building-scaling-data-community/](/podcasts/datatalksclub-building-scaling-data-community/), [/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/](/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/), [/podcasts/datatalksclub-scaling-and-free-courses/](/podcasts/datatalksclub-scaling-and-free-courses/)
-- [Alexia Audevart](/people/alexiaaudevart/): No podcast appearances found.
-- [Alex Ioannides](/people/alexioannides/): No podcast appearances found.
-- [Alex Kim](/people/alexkim/): No podcast appearances found.
-- [Alex Litvinov](/people/alexlitvinov/): No podcast appearances found.
-- [Alex Petrov](/people/alexpetrov/): No podcast appearances found.
-- [Alicja Notowska](/people/alicjanotowska/): [/podcasts/hiring-data-scientists-and-analysts/](/podcasts/hiring-data-scientists-and-analysts/)
-- [Alvaro Navas Peire](/people/alvaronavaspeire/): [/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/](/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/)
-- [Amber Roberts](/people/amberroberts/): No podcast appearances found.
-- [Anahita Pakiman](/people/anahitapakiman/): [/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/](/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/)
-- [Anastasia Karavdina](/people/anastasiakaravdina/): [/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/](/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/)
-- [Andrada Olteanu](/people/andradaolteanu/): [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- [Andreas Kretz](/people/andreaskretz/): [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/)
-- [Andreas Syrén](/people/andreassyren/): No podcast appearances found.
-- [Andreea Munteanu](/people/andreeamunteanu/): No podcast appearances found.
-- [Andrei Tserakhau](/people/andreitserakhau/): No podcast appearances found.
-- [Andre Schumacher](/people/andreschumacher/): No podcast appearances found.
-- [Andrew Jones](/people/andrewjones/): No podcast appearances found.
-- [Andrew McMahon](/people/andrewmcmahon/): No podcast appearances found.
-- [Andrey Cheptsov](/people/andreycheptsov/): [/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/](/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/)
-- [Andrey Shtylenko](/people/andreyshtylenko/): [/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/](/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/)
-- [Andy Petrella](/people/andypetrella/): No podcast appearances found.
-- [Angela Ramirez](/people/angelaramirez/): [/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/](/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/)
-- [Angelica Lo Duca](/people/angelicaloduca/): [/podcasts/data-journalism-python-visualization-storytelling/](/podcasts/data-journalism-python-visualization-storytelling/)
-- [Anish Shah](/people/anishshah/): No podcast appearances found.
-- [Ankur A. Patel](/people/ankurapatel/): No podcast appearances found.
-- [Anna Hannemann](/people/annahannemann/): [/podcasts/building-data-products-product-owner-vs-product-manager/](/podcasts/building-data-products-product-owner-vs-product-manager/)
-- [Anthony Virtuoso](/people/anthonyvirtuoso/): No podcast appearances found.
-- [Antje Barth](/people/antjebarth/): No podcast appearances found.
-- [Antonis Stellas](/people/antonisstellas/): [/podcasts/from-startup-engineering-to-freelance-data-science/](/podcasts/from-startup-engineering-to-freelance-data-science/)
-- [Anusha Akkina](/people/anushaakkina/): [/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/](/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/)
-- [Aparna Dhinakaran](/people/aparnadhinakaran/): No podcast appearances found.
-- [Apurva Misra](/people/apurvamisra/): No podcast appearances found.
-- [Arman Jabbari](/people/armanjabbari/): No podcast appearances found.
-- [Arpit Choudhury](/people/arpitchoudhury/): [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- [Arseny Kravchenko](/people/arsenykravchenko/): [/podcasts/building-scalable-and-reliable-machine-learning-systems/](/podcasts/building-scalable-and-reliable-machine-learning-systems/)
-- [Artemii Frolov](/people/artemiifrolov/): No podcast appearances found.
-- [Ashish Patel](/people/ashishpatel/): No podcast appearances found.
-- [Atita Arora](/people/atitaarora/): [/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/](/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/)
-- [Ba Linh Le](/people/balinhle/): No podcast appearances found.
-- [Barbara Sobkowiak](/people/barbarasobkowiak/): [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
-- [Barr Moses](/people/barrmoses/): [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- [Bartosz Mikulski](/people/bartoszmikulski/): [/podcasts/production-ready-ai-engineering/](/podcasts/production-ready-ai-engineering/)
-- [Bart Vandekerckhove](/people/bartvandekerckhove/): [/podcasts/data-governance-data-access-management/](/podcasts/data-governance-data-access-management/)
-- [Bastien Boutonnet](/people/bastienboutonnet/): No podcast appearances found.
-- [Bela Wiertz](/people/belawiertz/): [/podcasts/investing-in-open-source-developer-tools/](/podcasts/investing-in-open-source-developer-tools/)
-- [Ben Taylor](/people/bentaylor/): [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- [Ben Wilson](/people/benwilson/): [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/)
-- [Bhavani Ravi](/people/bhavaniravi/): No podcast appearances found.
-- [Boyan Angelov](/people/boyanangelov/): [/podcasts/data-strategy-and-dataops-for-ai-powered-products/](/podcasts/data-strategy-and-dataops-for-ai-powered-products/)
-- [Caitlin Moorman](/people/caitlinmoorman/): [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
-- [Carmine Paolino](/people/carminepaolino/): [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/)
-- [Cathy Chen](/people/cathychen/): No podcast appearances found.
-- [Chip Huyen](/people/chiphuyen/): No podcast appearances found.
-- [Chris Fregly](/people/chrisfregly/): No podcast appearances found.
-- [Christiaan Swart](/people/christiannswart/): [/podcasts/nlp-dataset-creation-annotation-tools-workflows/](/podcasts/nlp-dataset-creation-annotation-tools-workflows/)
-- [Christian Winkler](/people/christianwinkler/): No podcast appearances found.
-- [Christine Cepelak](/people/christinecepelak/): [/podcasts/data-science-for-public-policy-ethical-ai-social-impact/](/podcasts/data-science-for-public-policy-ethical-ai-social-impact/)
-- [Christopher Bergh](/people/christopherbergh/): [/podcasts/dataops-automation-and-reliable-data-pipelines/](/podcasts/dataops-automation-and-reliable-data-pipelines/), [/podcasts/dataops-for-data-engineering/](/podcasts/dataops-for-data-engineering/)
-- [Christoph Molnar](/people/christophmolnar/): [/podcasts/interpretable-machine-learning/](/podcasts/interpretable-machine-learning/)
-- [CJ Jenkins](/people/cjjenkins/): [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/)
-- [Cristian Martinez](/people/cristianmartinez/): No podcast appearances found.
-- [Daliana Liu](/people/dalianaliu/): No podcast appearances found.
-- [Dan Becker](/people/danbecker/): [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- [Dânia Meira](/people/daniameira/): [/podcasts/building-ml-communities-diversity-and-career-growth/](/podcasts/building-ml-communities-diversity-and-career-growth/)
-- [Daniel Egbo](/people/danielegbo/): [/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/](/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/)
-- [Daniel Svonava](/people/danielsvonava/): [/podcasts/building-production-search-systems/](/podcasts/building-production-search-systems/)
-- [Danny Leybzon](/people/dannyleybzon/): [/podcasts/mlops-model-monitoring-data-observability/](/podcasts/mlops-model-monitoring-data-observability/)
-- [Danny Ma](/people/dannyma/): [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/)
-- [Dashel Ruiz Perez](/people/dashelruizperez/): [/podcasts/from-semiconductor-data-to-applied-machine-learning/](/podcasts/from-semiconductor-data-to-applied-machine-learning/)
-- [Dat Tran](/people/dattran/): [/podcasts/building-data-team/](/podcasts/building-data-team/)
-- [Dave Bechberger](/people/davebechberger/): No podcast appearances found.
-- [Dave Flynn](/people/daveflynn/): No podcast appearances found.
-- [David Bader](/people/davidbader/): [/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/](/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/)
-- [David Bednar](/people/davidbednar/): No podcast appearances found.
-- [David Gates](/people/davidgates/): No podcast appearances found.
-- [David Mertz](/people/davidmertz/): No podcast appearances found.
-- [David Stephenson](/people/davidstephenson/): No podcast appearances found.
-- [David Sweet](/people/davidsweet/): No podcast appearances found.
-- [Daynan Crull](/people/daynancrull/): [/podcasts/machine-learning-for-asteroid-mining-and-water-detection/](/podcasts/machine-learning-for-asteroid-mining-and-water-detection/)
-- [Delina Ivanova](/people/delinaivanova/): No podcast appearances found.
-- [Demetrios Brinkmann](/people/demetriosbrinkmann/): [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- [Denise Gosnell](/people/denisegosnell/): No podcast appearances found.
-- [Denis Rothman](/people/denisrothman/): No podcast appearances found.
-- [Dimitri Visnadi](/people/dimitrivisnadi/): [/podcasts/becoming-data-freelancer/](/podcasts/becoming-data-freelancer/), [/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/](/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/)
-- [Dmitry Muzalevskiy](/people/dmitrymuzalevskiy/): No podcast appearances found.
-- [Don Jones](/people/donjones/): No podcast appearances found.
-- [Douglas Gray](/people/douglasgray/): No podcast appearances found.
-- [Doug Turnbull](/people/dougturnbull/): No podcast appearances found.
-- [Duygu Altinok](/people/duygualtinok/): No podcast appearances found.
-- [Eddy Zulkifly](/people/eddyzulkifly/): [/podcasts/finops-for-data-engineers/](/podcasts/finops-for-data-engineers/)
-- [Elena Samuylova](/people/elenasamuylova/): [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/)
-- [Eleni Stamatelou](/people/elenistamatelou/): [/podcasts/building-healthcare-machine-learning-systems/](/podcasts/building-healthcare-machine-learning-systems/)
-- [Eleni Tzirita Zacharatou](/people/elenitziritazacharatou/): [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- [Elias Nema](/people/eliasnema/): No podcast appearances found.
-- [Ella (Wati) Sahnan](/people/ella(wati)sahnan/): No podcast appearances found.
-- [Ellen König](/people/ellenkonig/): [/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/](/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/)
-- [Elle O'Brien](/people/elleobrien/): [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/)
-- [Emeli Dral](/people/emelidral/): No podcast appearances found.
-- [Emil Bogomolov](/people/emilbogomolov/): No podcast appearances found.
-- [Emmanuel Ameisen](/people/emmanuelameisen/): No podcast appearances found.
-- [Emmanuel Raj](/people/emmanuelraj/): No podcast appearances found.
-- [Engin Yöyen](/people/enginyoyen/): No podcast appearances found.
-- [Eric Sims](/people/ericsims/): No podcast appearances found.
-- [Ernst Haagsman](/people/ernsthaagsman/): No podcast appearances found.
-- [Ertugrul Mutlu](/people/ertugrulmutlu/): No podcast appearances found.
-- [Erum Afzal](/people/erumafzal/): [/podcasts/community-building-and-teaching-in-ai-tech/](/podcasts/community-building-and-teaching-in-ai-tech/)
-- [Eugene Yan](/people/eugeneyan/): [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/datatalksclub-building-scaling-data-community/](/podcasts/datatalksclub-building-scaling-data-community/)
-- [Evan Shellshear](/people/evanshellshear/): No podcast appearances found.
-- [Fabiana Clemente](/people/fabianaclemente/): No podcast appearances found.
-- [Faisal Masood](/people/faisalmasood/): No podcast appearances found.
-- [Fernando Doglio](/people/fernandodoglio/): No podcast appearances found.
-- [Filipa Castro](/people/filipacastro/): No podcast appearances found.
-- [Florian Hoenicke](/people/florianhoenicke/): No podcast appearances found.
-- [Gant Laborde](/people/gantlaborde/): No podcast appearances found.
-- [Geo Jolly](/people/geojolly/): [/podcasts/ml-product-manager-and-mlops-platform-strategy/](/podcasts/ml-product-manager-and-mlops-platform-strategy/)
-- [Giuseppe Bonaccorso](/people/giuseppebonaccorso/): No podcast appearances found.
-- [Gloria Quiceno](/people/gloriaquiceno/): [/podcasts/get-data-analytics-and-data-engineering-job/](/podcasts/get-data-analytics-and-data-engineering-job/)
-- [Gonçalo Sequeira](/people/goncalosequeira/): No podcast appearances found.
-- [Gráinne McKnight](/people/grainnemcknight/): No podcast appearances found.
-- [Greg Coquillo](/people/gregcoquillo/): [/podcasts/building-and-scaling-ai-data-products-with-mlops/](/podcasts/building-and-scaling-ai-data-products-with-mlops/)
-- [Guillaume Lemaître](/people/guillaumelemaitre/): No podcast appearances found.
-- [Gustaf Gyllensporre](/people/gustafgyllensporre/): No podcast appearances found.
-- [Guy Adams](/people/guyadams/): No podcast appearances found.
-- [Hagop Dippel](/people/hagopdippel/): No podcast appearances found.
-- [Hannes Hapke](/people/hanneshapke/): No podcast appearances found.
-- [Hayden Liu](/people/haydenliu/): No podcast appearances found.
-- [Haziqa Sajid](/people/haziqasajid/): No podcast appearances found.
-- [Hélder Russa](/people/helderrussa/): No podcast appearances found.
-- [Hiba Jamal](/people/hibajamal/): No podcast appearances found.
-- [Himanshu Upreti](/people/himanshuupreti/): No podcast appearances found.
-- [Hugo Bowne-Anderson](/people/hugobowneanderson/): [/podcasts/devrel-open-source-machine-learning/](/podcasts/devrel-open-source-machine-learning/), [/podcasts/practical-llm-engineering-and-rag/](/podcasts/practical-llm-engineering-and-rag/)
-- [Igor Demidov](/people/igordemidov/): No podcast appearances found.
-- [Igor Susmelj](/people/igorsusmelj/): No podcast appearances found.
-- [Ilia Ivanov](/people/iliaivanov/): No podcast appearances found.
-- [Illia Todor](/people/illiatodor/): No podcast appearances found.
-- [Ilya Boytsov](/people/ilyaboytsov/): No podcast appearances found.
-- [Ioannis Mesionis](/people/ioannismesionis/): [/podcasts/building-data-products-lead-data-scientist/](/podcasts/building-data-products-lead-data-scientist/)
-- [Irina Brudaru](/people/irinabrudaru/): [/podcasts/teaching-mentoring-data-analytics-fintech/](/podcasts/teaching-mentoring-data-analytics-fintech/)
-- [Isabella Bicalho](/people/isabellabicalho/): [/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/](/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/)
-- [Itai Admi](/people/itaiadmi/): No podcast appearances found.
-- [Ivan Bilan](/people/ivanbilan/): [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/)
-- [Ivan Brigida](/people/ivanbrigida/): [/podcasts/algorithmic-trading-with-python-and-machine-learning/](/podcasts/algorithmic-trading-with-python-and-machine-learning/)
-- [Ivan Potapov](/people/ivanpotapov/): No podcast appearances found.
-- [Jack Blandin](/people/jackblandin/): [/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/](/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/)
-- [Jacques Peeters](/people/jacquespeeters/): No podcast appearances found.
-- [Jakob Graff](/people/jakobgraff/): [/podcasts/ab-testing-and-product-experimentation/](/podcasts/ab-testing-and-product-experimentation/)
-- [James Phoenix](/people/jamesphoenix/): No podcast appearances found.
-- [Jamie Broomall](/people/jamiebroomall/): No podcast appearances found.
-- [Janna Lipenkova](/people/jannalipenkova/): No podcast appearances found.
-- [Jan Schlicht](/people/janschlicht/): No podcast appearances found.
-- [Jan Zawadzki](/people/janzawadzki/): No podcast appearances found.
-- [Jeanine Harb](/people/jeanineharb/): No podcast appearances found.
-- [Jeff Katz](/people/jeffkatz/): [/podcasts/data-engineering-career-path-and-skills/](/podcasts/data-engineering-career-path-and-skills/), [/podcasts/get-data-engineering-job-prep-and-interview/](/podcasts/get-data-engineering-job-prep-and-interview/)
-- [Jekaterina Kokatjuhha](/people/jekaterinakokatjuhha/): [/podcasts/s12e08/](/podcasts/s12e08/)
-- [Jens Albrecht](/people/jensalbrecht/): No podcast appearances found.
-- [Jesse Anderson](/people/jesseanderson/): No podcast appearances found.
-- [Jessi Ashdown](/people/jessiashdown/): [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- [Jessica Greene](/people/jessicagreene/): [/podcasts/how-to-switch-to-ml-tech-without-experience/](/podcasts/how-to-switch-to-ml-tech-without-experience/)
-- [Jessie Yaros](/people/jessieyaros/): No podcast appearances found.
-- [Joe Reis](/people/joereis/): No podcast appearances found.
-- [Johanna Bayer](/people/johannabayer/): [/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/](/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/), [/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/](/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/)
-- [Johannes Hötter](/people/johanneshotter/): [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/)
-- [Jonas Christensen](/people/jonaschristensen/): No podcast appearances found.
-- [Jonathan Rioux](/people/jonathanrioux/): No podcast appearances found.
-- [Jon Skeet](/people/jonskeet/): No podcast appearances found.
-- [Jordan Peck](/people/jordanpeck/): No podcast appearances found.
-- [José María Sánchez Salas](/people/josemaria/): [/podcasts/remote-data-engineering-work-and-building-iot-platforms/](/podcasts/remote-data-engineering-work-and-building-iot-platforms/)
-- [Josh Fischer](/people/joshfischer/): No podcast appearances found.
-- [Josh Reini](/people/joshreini/): No podcast appearances found.
-- [Josh Tobin](/people/joshtobin/): No podcast appearances found.
-- [Joyce Kay Avila](/people/joycekayavila/): No podcast appearances found.
-- [Juan Manuel Perafan](/people/juanmanuelperafan/): [/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/](/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/)
-- [Juan Orduz](/people/juanorduz/): [/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/](/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/)
-- [Juan Pablo](/people/juanpablo/): [/podcasts/from-math-graduate-to-data-analytics/](/podcasts/from-math-graduate-to-data-analytics/)
-- [Julia Ostheimer](/people/juliaostheimer/): No podcast appearances found.
-- [Justin Ryan](/people/justinryan/): No podcast appearances found.
-- [Katarzyna Foremniak](/people/katarzynaforemniak/): [/podcasts/human-centered-ai-automatic-speech-recognition/](/podcasts/human-centered-ai-automatic-speech-recognition/)
-- [Kate Ogochukwu Nwankwo](/people/kateogochukwunwankwo/): No podcast appearances found.
-- [Katharine Jarmul](/people/katharinejarmul/): [/podcasts/data-privacy-engineering-gdpr-machine-learning/](/podcasts/data-privacy-engineering-gdpr-machine-learning/)
-- [Katie Bauer](/people/katiebauer/): [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/)
-- [Ken Youens-Clark](/people/kenyouens-clark/): No podcast appearances found.
-- [Kevin Huo](/people/kevinhuo/): No podcast appearances found.
-- [Khuyen Tran](/people/khuyentran/): No podcast appearances found.
-- [Kim Falk](/people/kimfalk/): No podcast appearances found.
-- [Kishan Manani](/people/kishanmanani/): No podcast appearances found.
-- [Konrad Banachewicz](/people/konradbanachewicz/): No podcast appearances found.
-- [Kranti K. Parisa](/people/krantik-parisa/): No podcast appearances found.
-- [Krzysztof Ograbek](/people/krzysztofograbek/): No podcast appearances found.
-- [Krzysztof Szafanek](/people/krzysztofszafanek/): [/podcasts/how-to-grow-your-ml-engineering-career/](/podcasts/how-to-grow-your-ml-engineering-career/)
-- [Ksenia Legostay](/people/ksenialegostay/): [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- [Kyle Shannon](/people/kyleshannon/): No podcast appearances found.
-- [Lalit Pagaria](/people/lalitpagaria/): No podcast appearances found.
-- [Lars Albertsson](/people/larsalbertsson/): [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
-- [Larysa Visengeriyeva](/people/larysavisengeriyeva/): No podcast appearances found.
-- [Laurence Moroney](/people/laurencemoroney/): No podcast appearances found.
-- [Lavanya Gupta](/people/lavanyagupta/): [/podcasts/applied-llm-research-and-career-growth-in-practice/](/podcasts/applied-llm-research-and-career-growth-in-practice/)
-- [Leandro von Werra](/people/leandrovonwerra/): No podcast appearances found.
-- [Leonard Püttmann](/people/leonardputtmann/): No podcast appearances found.
-- [Leonid Kholkine](/people/leonidkholkine/): [/podcasts/s23e09-starting-data-conference-data-makers-fest-story/](/podcasts/s23e09-starting-data-conference-data-makers-fest-story/)
-- [Leon Wei](/people/leonwei/): No podcast appearances found.
-- [Lera Kaimashnіkova](/people/lerakaimashnikova/): No podcast appearances found.
-- [Lewis Tunstall](/people/lewistunstall/): No podcast appearances found.
-- [Liesbeth Dingemans](/people/liesbethdingemans/): [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/)
-- [Lina Weichbrodt](/people/linaweichbrodt/): [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
-- [Lindsay McQuade](/people/lindsaymcquade/): [/podcasts/get-junior-data-job-and-transferable-skills/](/podcasts/get-junior-data-job-and-transferable-skills/)
-- [Lior Barak](/people/liorbarak/): [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/), [/podcasts/mindful-data-strategy-for-business-impact/](/podcasts/mindful-data-strategy-for-business-impact/)
-- [Lisa Cohen](/people/lisacohen/): [/podcasts/data-science-team-structure-and-org-design/](/podcasts/data-science-team-structure-and-org-design/)
-- [Loïc Magnien](/people/loicmagnien/): [/podcasts/from-iot-data-engineering-to-leading-data-architect/](/podcasts/from-iot-data-engineering-to-leading-data-architect/)
-- [Loris Marini](/people/lorismarini/): [/podcasts/data-professionals-business-skills-in-saas/](/podcasts/data-professionals-business-skills-in-saas/)
-- [Luca Massaron](/people/lucamassaron/): No podcast appearances found.
-- [Luís Oliveira](/people/luisoliveira/): No podcast appearances found.
-- [Luis Serrano](/people/luisserrano/): No podcast appearances found.
-- [Luke Whipps](/people/lukewhipps/): [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/machine-learning-data-science-interview-prep/](/podcasts/machine-learning-data-science-interview-prep/)
-- [Madiha Khalid](/people/madihakhalid/): No podcast appearances found.
-- [Magdalena Konkiewicz](/people/magdalenakonkiewicz/): No podcast appearances found.
-- [Magdalena Kuhn](/people/magdalenakuhn/): No podcast appearances found.
-- [Mahmoud AbdelAziz](/people/mahmoudaziz/): No podcast appearances found.
-- [Manmohan Gosada](/people/manmohangosada/): No podcast appearances found.
-- [Manoj Kukreja](/people/manojkukreja/): No podcast appearances found.
-- [Marcello La Rocca](/people/marcellolarocca/): [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- [Marco De Sa](/people/marcodesa/): [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- [Maria Bruckert](/people/mariabruckert/): [/podcasts/building-ai-digital-health-startups/](/podcasts/building-ai-digital-health-startups/)
-- [Marianna Diachuk](/people/mariannadiachuk/): [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/)
-- [Mariano Semelman](/people/marianosemelman/): [/podcasts/data-science-leadership-hiring-mlops/](/podcasts/data-science-leadership-hiring-mlops/), [/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/](/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/)
-- [Maria Sukhareva](/people/mariasukhareva/): [/podcasts/generative-ai-chatbots-in-production-security/](/podcasts/generative-ai-chatbots-in-production-security/)
-- [Maria Vechtomova](/people/mariavechtomova/): [/podcasts/pragmatic-and-standardized-mlops/](/podcasts/pragmatic-and-standardized-mlops/)
-- [Marijn Markus](/people/marijnmarkus/): [/podcasts/how-to-stand-out-in-data-science/](/podcasts/how-to-stand-out-in-data-science/)
-- [Mario Lazo](/people/mariolazo/): No podcast appearances found.
-- [Mark Ryan](/people/markryan/): No podcast appearances found.
-- [Martin Kleppmann](/people/martinkleppmann/): No podcast appearances found.
-- [Martin Potančok](/people/martinpotancok/): No podcast appearances found.
-- [Maryam Ramezani-Bartsch](/people/maryamramezanibartsch/): No podcast appearances found.
-- [Mary Jane Dykeman](/people/maryjanedykeman/): No podcast appearances found.
-- [Marysia Winkels](/people/marysiawinkels/): [/podcasts/data-centric-ai/](/podcasts/data-centric-ai/)
-- [Matt Harrison](/people/mattharrison/): No podcast appearances found.
-- [Matthew Housley](/people/matthewhousley/): No podcast appearances found.
-- [Matt Palmer](/people/mattpalmer/): No podcast appearances found.
-- [Maxime Labonne](/people/maximelabonne/): No podcast appearances found.
-- [Maxim Lukichev](/people/maximlukichev/): No podcast appearances found.
-- [Max Schultze](/people/maxschultze/): No podcast appearances found.
-- [Mehdi OUAZZA](/people/mehdiouazza/): [/podcasts/scaling-data-engineering-teams-self-service-platforms/](/podcasts/scaling-data-engineering-teams-self-service-platforms/)
-- [Meor Amer](/people/meoramer/): [/podcasts/visualizing-machine-learning-concepts-to-explain-ml/](/podcasts/visualizing-machine-learning-concepts-to-explain-ml/)
-- [Merel Theisen](/people/mereltheisen/): No podcast appearances found.
-- [Merve Noyan](/people/mervenoyan/): [/podcasts/hugging-face-contributions-and-nlp-portfolio/](/podcasts/hugging-face-contributions-and-nlp-portfolio/)
-- [Meryem Arik](/people/meryemarik/): [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/)
-- [Meysam Asgari-Chenaghlu](/people/meysamasgarichenaghlu/): No podcast appearances found.
-- [Michael Munn](/people/michaelmunn/): No podcast appearances found.
-- [Michael Taylor](/people/michaeltaylor/): No podcast appearances found.
-- [Micheal Lanham](/people/micheallanham/): [/podcasts/from-game-ai-to-modern-ai-agents/](/podcasts/from-game-ai-to-modern-ai-agents/)
-- [Miguel Morales](/people/miguelmorales/): No podcast appearances found.
-- [Mihail Eric](/people/mihaileric/): [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/)
-- [Mikhail Sveshnikov](/people/mikhailsveshnikov/): No podcast appearances found.
-- [Mikio Braun](/people/mikiobraun/): [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/)
-- [Mısra Turp](/people/misraturp/): [/podcasts/how-to-break-into-data-science/](/podcasts/how-to-break-into-data-science/)
-- [Moein Foroughi](/people/moeinforoughi/): No podcast appearances found.
-- [Nadia Nahar](/people/nadianahar/): [/podcasts/software-engineering-for-machine-learning/](/podcasts/software-engineering-for-machine-learning/)
-- [Nakul Bajaj](/people/nakulbajaj/): No podcast appearances found.
-- [Naomi Nguyen](/people/naominguyen/): No podcast appearances found.
-- [Nasser Qadri](/people/nasserqadri/): [/podcasts/s23e07-understanding-ai-engineer-role/](/podcasts/s23e07-understanding-ai-engineer-role/)
-- [Nastasia Saby](/people/nastasiasaby/): No podcast appearances found.
-- [Natalie Kwong](/people/nataliekwong/): [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- [Nataliya Portman](/people/nataliyaportman/): No podcast appearances found.
-- [Nathan Wang](/people/nathanwang/): No podcast appearances found.
-- [Neal Lathia](/people/neallathia/): No podcast appearances found.
-- [Nemanja Radojkovic](/people/nemanjaradojkovic/): [/podcasts/mlops-and-ml-engineering-in-finance/](/podcasts/mlops-and-ml-engineering-in-finance/), [/podcasts/lean-mlops-for-startups/](/podcasts/lean-mlops-for-startups/)
-- [Niall Murphy](/people/niallmurphy/): No podcast appearances found.
-- [Nicholas Lotz](/people/nicholaslotz/): No podcast appearances found.
-- [Nick Bilozerov](/people/nickbilozerov/): No podcast appearances found.
-- [Nick Singh](/people/nicksingh/): [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- [Nicolas Rassam](/people/nicolasrassam/): [/podcasts/hiring-for-data-engineering-jobs-in-europe/](/podcasts/hiring-for-data-engineering-jobs-in-europe/)
-- [Nielsen Aileen](/people/nielsenaileen/): No podcast appearances found.
-- [Nik Bakanchev](/people/nikbakanchev/): No podcast appearances found.
-- [Nik Bakanchev](/people/nikitabakanchev/): No podcast appearances found.
-- [Nikita Iserson](/people/nikitaiserson/): No podcast appearances found.
-- [Nikita Kozodoi](/people/nikitakozodoi/): No podcast appearances found.
-- [Nikola Maksimovic](/people/nikolamaksimovic/): [/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/](/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/)
-- [Nikolay Smorchkov](/people/nikolaysmorchkov/): No podcast appearances found.
-- [Ning Wang](/people/ningwang/): No podcast appearances found.
-- [Nishant Mohan](/people/nishantmohan/): No podcast appearances found.
-- [Noah Gift](/people/noahgift/): [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- [Noel Kwan](/people/noelkwan/): No podcast appearances found.
-- [Nour Karessli](/people/nourkaressli/): No podcast appearances found.
-- [Oleg Novikov](/people/olegnovikov/): [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- [Oleg Polivin](/people/olegpolivin/): No podcast appearances found.
-- [Olga Ivina](/people/olgaivina/): [/podcasts/hiring-for-data-science-jobs-interview-questions-skills/](/podcasts/hiring-for-data-science-jobs-interview-questions-skills/)
-- [Olga Petrova](/people/olgapetrova/): No podcast appearances found.
-- [Ondřej Bothe](/people/ondrejbothe/): No podcast appearances found.
-- [Ondřej Kubera](/people/ondrejkubera/): No podcast appearances found.
-- [Orell Garten](/people/orellgarten/): [/podcasts/from-academic-research-to-data-engineering-freelancing/](/podcasts/from-academic-research-to-data-engineering-freelancing/)
-- [Orlando Hohmeier](/people/orlandohohmeier/): No podcast appearances found.
-- [Padma Chitturi](/people/padmachitturi/): No podcast appearances found.
-- [Parul Pandey](/people/parulpandey/): No podcast appearances found.
-- [Parvathy Krishnan](/people/parvathykrishnan/): [/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/](/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/)
-- [Pastor Soto](/people/pastorsoto/): [/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/](/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/)
-- [Patricio Cerda Mardini](/people/patriciocerdamardini/): No podcast appearances found.
-- [Pauline Clavelloux](/people/paulineclavelloux/): [/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/](/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/)
-- [Paul Iusztin](/people/pauliusztin/): [/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/](/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/)
-- [Paul Orland](/people/paulorland/): No podcast appearances found.
-- [Pavel Chernetsov](/people/pavelchernetsov/): No podcast appearances found.
-- [Philippe Saadé](/people/philippesaade/): No podcast appearances found.
-- [Phil Winder](/people/philwinder/): No podcast appearances found.
-- [Pier Paolo Ippolito](/people/pierpaoloippolito/): No podcast appearances found.
-- [Polina Mosolova](/people/polinamosolova/): [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/)
-- [Prasoon Shukla](/people/prasoonshukla/): No podcast appearances found.
-- [Prateek Joshi](/people/prateekjoshi/): No podcast appearances found.
-- [Rachael Tatman](/people/rachaeltatman/): No podcast appearances found.
-- [Rachel Lim](/people/rachellim/): [/podcasts/urban-data-science/](/podcasts/urban-data-science/)
-- [Radovan Bacovic](/people/radovanbacovic/): No podcast appearances found.
-- [Raghav Bali](/people/raghavbali/): No podcast appearances found.
-- [Rahul Jain](/people/rahuljain/): [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- [Ramiro Aznar](/people/ramiroaznar/): No podcast appearances found.
-- [Ranjitha Kulkarni](/people/ranjithakulkarni/): [/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/](/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/)
-- [Raphaël Hoogvliets](/people/raphaelhoogvliets/): [/podcasts/mlops-at-scale-reproducibility-adoption/](/podcasts/mlops-at-scale-reproducibility-adoption/)
-- [Reem Mahmoud](/people/reemmahmoud/): [/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/](/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/)
-- [Revathy Ramalingam](/people/revathyramalingam/): [/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/](/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/)
-- [Rileen Sinha](/people/rileensinha/): No podcast appearances found.
-- [Rishabh Bhargava](/people/rishabhbhargava/): [/podcasts/production-ml-mlops-and-data-team-building/](/podcasts/production-ml-mlops-and-data-team-building/)
-- [Rob De Wit](/people/robdewit/): No podcast appearances found.
-- [Rob Zinkov](/people/robzinkov/): [/podcasts/bayesian-modeling-workflows-and-tools/](/podcasts/bayesian-modeling-workflows-and-tools/)
-- [Roksolana Diachuk](/people/roksolanadiachuk/): [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
-- [Roman Grebennikov](/people/romangrebennikov/): No podcast appearances found.
-- [Rosona Eldred](/people/rosonaeldred/): [/podcasts/industrial-data-small-data-production-machine-learning/](/podcasts/industrial-data-small-data-production-machine-learning/)
-- [Ross Brigoli](/people/rossbrigoli/): No podcast appearances found.
-- [Roy Jafari](/people/royjafari/): No podcast appearances found.
-- [Rui Machado](/people/ruimachado/): No podcast appearances found.
-- [Ruslan Shchuchkin](/people/ruslanshchuchkin/): [/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/](/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/), [/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/](/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/)
-- [Rustem Feyzkhanov](/people/rustemfeyzkhanov/): No podcast appearances found.
-- [Sabina Firtala](/people/sabinafirtala/): [/podcasts/building-domestic-risk-assessment-tool/](/podcasts/building-domestic-risk-assessment-tool/)
-- [Sadat Anwar](/people/sadatanwar/): [/podcasts/from-software-engineering-to-leading-data-science-teams/](/podcasts/from-software-engineering-to-leading-data-science-teams/)
-- [Sadik Bakiu](/people/sadikbakiu/): No podcast appearances found.
-- [Sage Elliott](/people/sageelliott/): No podcast appearances found.
-- [Sally-Ann DeLucia](/people/sallyanndelucia/): No podcast appearances found.
-- [Sandra Kublik](/people/sandrakublik/): [/podcasts/practical-llm-use-cases-and-product-patterns/](/podcasts/practical-llm-use-cases-and-product-patterns/)
-- [Santona Tuli](/people/santonatuli/): [/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/](/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/)
-- [Sara EL-ATEIF](/people/saraelateif/): [/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/](/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/)
-- [Sarah Mestiri](/people/sarahmestiri/): [/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/](/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/)
-- [Sara Menefee](/people/saramenefee/): [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/)
-- [Sara Robinson](/people/sararobinson/): No podcast appearances found.
-- [Saurav Maheshkar](/people/sauravmaheshkar/): No podcast appearances found.
-- [Savaş Yıldırım](/people/savasyildirim/): No podcast appearances found.
-- [Sean Sheng](/people/seansheng/): No podcast appearances found.
-- [Sebastian Ayala Ruano](/people/sebastianayalaruano/): [/podcasts/bioinformatics-worflows-tools-and-data-science/](/podcasts/bioinformatics-worflows-tools-and-data-science/)
-- [Sebastian Raschka](/people/sebastianraschka/): No podcast appearances found.
-- [Sedat Kapanoglu](/people/sedatkapanoglu/): No podcast appearances found.
-- [Sejal Vaidya](/people/sejalvaidya/): No podcast appearances found.
-- [Serena Haidar](/people/serenahaidar/): No podcast appearances found.
-- [Sergei Boitsov](/people/sergeiboitsov/): No podcast appearances found.
-- [Sergei Shaikin](/people/sergeishaikin/): No podcast appearances found.
-- [Serg Masis](/people/sergmasis/): No podcast appearances found.
-- [Shachar Meir](/people/shacharmeir/): No podcast appearances found.
-- [Shir Meir Lador](/people/shirmeirlador/): [/podcasts/data-science-management-and-agile-machine-learning/](/podcasts/data-science-management-and-agile-machine-learning/)
-- [Shubham Saboo](/people/shubhamsaboo/): No podcast appearances found.
-- [Sidharth Ramachandran](/people/sidharthramachandran/): No podcast appearances found.
-- [Simon Stiebellehner](/people/simonstiebellehner/): [/podcasts/building-production-ml-platform-and-mlops-team/](/podcasts/building-production-ml-platform-and-mlops-team/)
-- [Simon Thompson](/people/simonthompson/): No podcast appearances found.
-- [Sivan Biham](/people/sivanbiham/): No podcast appearances found.
-- [Slawomir Tulski](/people/slawomirtulski/): [/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/](/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/)
-- [Sofya Yulpatova](/people/sofyayulpatova/): [/podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data/](/podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data/)
-- [Soledad Galli](/people/soledadgalli/): No podcast appearances found.
-- [Sonal Goyal](/people/sonalgoyal/): [/podcasts/building-open-source-data-product-for-identity-resolution/](/podcasts/building-open-source-data-product-for-identity-resolution/)
-- [Soumik Rakshit](/people/soumikrakshit/): No podcast appearances found.
-- [Srivathsan Canchi](/people/srivathsancanchi/): No podcast appearances found.
-- [Stefan Gudmundsson](/people/stefangudmundsson/): [/podcasts/ai-in-healthcare-and-digital-therapeutics/](/podcasts/ai-in-healthcare-and-digital-therapeutics/)
-- [Stefanie Molin](/people/stefaniemolin/): No podcast appearances found.
-- [Stefan Jansen](/people/stefanjansen/): No podcast appearances found.
-- [Supreet Kaur](/people/supreetkaur/): [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/)
-- [Susan Walsh](/people/susanwalsh/): No podcast appearances found.
-- [Santiago Valdarrama](/people/svpino/): [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/)
-- [Shawn Swyx Wang](/people/swyx/): [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/)
-- [Tamara Atanasoska](/people/tamaraatanasoska/): [/podcasts/fairness-in-ai-ml-engineering/](/podcasts/fairness-in-ai-ml-engineering/)
-- [Tammy Liang](/people/tammyliang/): [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- [Tanya Berger-Wolf](/people/tanyabergerwolf/): [/podcasts/ai-for-ecology-biodiversity-and-conservation/](/podcasts/ai-for-ecology-biodiversity-and-conservation/)
-- [Tatiana Gabruseva](/people/tatianagabruseva/): [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/](/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/), [/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/](/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/)
-- [Tatyjana Ankudo](/people/tatyjanaankudo/): No podcast appearances found.
-- [Tereza Iofciu](/people/terezaiofciu/): [/podcasts/data-science-job-red-flags-and-mismatched-roles/](/podcasts/data-science-job-red-flags-and-mismatched-roles/), [/podcasts/data-leadership-coaching/](/podcasts/data-leadership-coaching/)
-- [Theofilos Papapanagiotou](/people/theofilospapapanagiotou/): [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/)
-- [Thomas Nield](/people/thomasnield/): No podcast appearances found.
-- [Thomas Wolf](/people/thomaswolf/): No podcast appearances found.
-- [Thom Ives](/people/thomives/): [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- [Timothy Davis](/people/timothydavis/): No podcast appearances found.
-- [Tobias Lindenbauer](/people/tobiaslindenbauer/): No podcast appearances found.
-- [Tobias Zwingmann](/people/tobiaszwingmann/): No podcast appearances found.
-- [Todd Underwood](/people/toddunderwood/): No podcast appearances found.
-- [Tomasz Hinc](/people/tomaszhinc/): [/podcasts/dataops-and-gitops-best-practices-for-data-teams/](/podcasts/dataops-and-gitops-best-practices-for-data-teams/)
-- [Tomasz Lelek](/people/tomaszlelek/): No podcast appearances found.
-- [Tomaz Bratanic](/people/tomazbratanic/): No podcast appearances found.
-- [Tomek Jamiński](/people/tomekjaminski/): No podcast appearances found.
-- [Tommy Dang](/people/tommydang/): No podcast appearances found.
-- [Uri Gilad](/people/urigilad/): [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- [Vadim Smolyakov](/people/vadimsmolyakov/): No podcast appearances found.
-- [Valeriia Kuka](/people/valeriiakuka/): No podcast appearances found.
-- [Valerii Babushkin](/people/valeriybabushkin/): [/podcasts/machine-learning-system-design-interview/](/podcasts/machine-learning-system-design-interview/), [/podcasts/ml-system-design/](/podcasts/ml-system-design/)
-- [Vanessa Aguilar](/people/vanessaaguilar/): No podcast appearances found.
-- [Verena Weber](/people/verenaweber/): [/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/](/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/)
-- [Victoria Perez Mola](/people/victoriaperezmola/): [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- [Vijay Kiran](/people/vijaykiran/): No podcast appearances found.
-- [Ville Tuulos](/people/villetuulos/): No podcast appearances found.
-- [Vincent Tatan](/people/vincenttatan/): No podcast appearances found.
-- [Vincent Warmerdam](/people/vincentwarmerdam/): [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/open-source-ml-tools-strategy-and-business-models/](/podcasts/open-source-ml-tools-strategy-and-business-models/)
-- [Vin Vashishta](/people/vinvashishta/): [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
-- [Violetta Mishechkina](/people/violettamishechkina/): No podcast appearances found.
-- [Vishwas BV](/people/vishwasbv/): No podcast appearances found.
-- [Vladimir Haltakov](/people/vladimirhaltakov/): No podcast appearances found.
-- [Wendy Mak](/people/wendymak/): No podcast appearances found.
-- [Willem Pienaar](/people/willempienaar/): [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
-- [Will McGugan](/people/willmcgugan/): [/podcasts/open-source-turned-into-career-and-startup-creation/](/podcasts/open-source-turned-into-career-and-startup-creation/)
-- [Will Russell](/people/willrussell/): [/podcasts/practical-devrel-demofirst-education-and-open-source/](/podcasts/practical-devrel-demofirst-education-and-open-source/)
-- [Xia He-Bleinagel](/people/xiahebleinagel/): [/podcasts/s22e07-reinventing-career-in-tech/](/podcasts/s22e07-reinventing-career-in-tech/)
-- [Yuan Tang](/people/yuantang/): No podcast appearances found.
-- [Yulia Pavlova](/people/yuliapavlova/): No podcast appearances found.
-- [Yury Kashnitsky](/people/yurykashnitsky/): [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/)
-- [Zhamak Dehghani](/people/zhamakdehghani/): [/podcasts/data-mesh-architecture-decentralized-data-products/](/podcasts/data-mesh-architecture-decentralized-data-products/)
+- [Rahul Jain](https://datatalks.club/people/16rahuljain.html): [https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)
+- [Aaisha Muhammad](https://datatalks.club/people/aaishamuhammad.html): [https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html)
+- [Aaron Wishnick](https://datatalks.club/people/aaronwishnick.html): No podcast appearances found.
+- [​Aashish Nair](https://datatalks.club/people/aashishnair.html): No podcast appearances found.
+- [abouzarabbaspour](https://datatalks.club/people/abouzarabbaspour.html): [https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html)
+- [Adam Sroka](https://datatalks.club/people/adamsroka.html): [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- [Aditya Gautam](https://datatalks.club/people/adityagautam.html): [https://datatalks.club/podcast/s23e03-future-of-ai-agents.html](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
+- [Aditya Seshaditya](https://datatalks.club/people/adityaseshaditya.html): No podcast appearances found.
+- [Admond Lee Kin Lim](https://datatalks.club/people/admondleekinlim.html): [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html): [https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html), [https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html), [https://datatalks.club/podcast/trends-in-modern-data-engineering.html](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
+- [Agita Jaunzeme](https://datatalks.club/people/agitajaunzeme.html): [https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html](https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html)
+- [Agnes van Belle](https://datatalks.club/people/agnesvanbelle.html): No podcast appearances found.
+- [Agnieszka Mikołajczyk](https://datatalks.club/people/agnieszkamikolajczyk.html): No podcast appearances found.
+- [Agostino Calamia](https://datatalks.club/people/agostinocalamia.html): No podcast appearances found.
+- [Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html): [https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
+- [Akela Drissner](https://datatalks.club/people/akeladrissner.html): No podcast appearances found.
+- [Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html): [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
+- [Aleksander Molak](https://datatalks.club/people/aleksandermolak.html): [https://datatalks.club/podcast/causal-inference-for-machine-learning.html](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
+- [Aleksandr Kim](https://datatalks.club/people/aleksandrkim.html): No podcast appearances found.
+- [Aleksey Komissarov](https://datatalks.club/people/alekseykomissarov.html): No podcast appearances found.
+- [Alena Astrakhantseva](https://datatalks.club/people/alenaastrakhantseva.html): No podcast appearances found.
+- [Alexander Daniel Rios](https://datatalks.club/people/alexanderdanielrios.html): No podcast appearances found.
+- [Alexander Guschin](https://datatalks.club/people/alexanderguschin.html): [https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
+- [Alexander Hendorf](https://datatalks.club/people/alexanderhendorf.html): [https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html)
+- [Alex Chung](https://datatalks.club/people/alexchung.html): No podcast appearances found.
+- [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html): [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html), [https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html), [https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html), [https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
+- [Alexia Audevart](https://datatalks.club/people/alexiaaudevart.html): No podcast appearances found.
+- [Alex Ioannides](https://datatalks.club/people/alexioannides.html): No podcast appearances found.
+- [Alex Kim](https://datatalks.club/people/alexkim.html): No podcast appearances found.
+- [Alex Litvinov](https://datatalks.club/people/alexlitvinov.html): No podcast appearances found.
+- [Alex Petrov](https://datatalks.club/people/alexpetrov.html): No podcast appearances found.
+- [Alicja Notowska](https://datatalks.club/people/alicjanotowska.html): [https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
+- [Alvaro Navas Peire](https://datatalks.club/people/alvaronavaspeire.html): [https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html](https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html)
+- [Amber Roberts](https://datatalks.club/people/amberroberts.html): No podcast appearances found.
+- [Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html): [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
+- [Anastasia Karavdina](https://datatalks.club/people/anastasiakaravdina.html): [https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html](https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html)
+- [Andrada Olteanu](https://datatalks.club/people/andradaolteanu.html): [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- [Andreas Kretz](https://datatalks.club/people/andreaskretz.html): [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
+- [Andreas Syrén](https://datatalks.club/people/andreassyren.html): No podcast appearances found.
+- [Andreea Munteanu](https://datatalks.club/people/andreeamunteanu.html): No podcast appearances found.
+- [Andrei Tserakhau](https://datatalks.club/people/andreitserakhau.html): No podcast appearances found.
+- [Andre Schumacher](https://datatalks.club/people/andreschumacher.html): No podcast appearances found.
+- [Andrew Jones](https://datatalks.club/people/andrewjones.html): No podcast appearances found.
+- [Andrew McMahon](https://datatalks.club/people/andrewmcmahon.html): No podcast appearances found.
+- [Andrey Cheptsov](https://datatalks.club/people/andreycheptsov.html): [https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html)
+- [Andrey Shtylenko](https://datatalks.club/people/andreyshtylenko.html): [https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
+- [Andy Petrella](https://datatalks.club/people/andypetrella.html): No podcast appearances found.
+- [Angela Ramirez](https://datatalks.club/people/angelaramirez.html): [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
+- [Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html): [https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
+- [Anish Shah](https://datatalks.club/people/anishshah.html): No podcast appearances found.
+- [Ankur A. Patel](https://datatalks.club/people/ankurapatel.html): No podcast appearances found.
+- [Anna Hannemann](https://datatalks.club/people/annahannemann.html): [https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)
+- [Anthony Virtuoso](https://datatalks.club/people/anthonyvirtuoso.html): No podcast appearances found.
+- [Antje Barth](https://datatalks.club/people/antjebarth.html): No podcast appearances found.
+- [Antonis Stellas](https://datatalks.club/people/antonisstellas.html): [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html)
+- [Anusha Akkina](https://datatalks.club/people/anushaakkina.html): [https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html](https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html)
+- [Aparna Dhinakaran](https://datatalks.club/people/aparnadhinakaran.html): No podcast appearances found.
+- [Apurva Misra](https://datatalks.club/people/apurvamisra.html): No podcast appearances found.
+- [Arman Jabbari](https://datatalks.club/people/armanjabbari.html): No podcast appearances found.
+- [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html): [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- [Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html): [https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)
+- [Artemii Frolov](https://datatalks.club/people/artemiifrolov.html): No podcast appearances found.
+- [Ashish Patel](https://datatalks.club/people/ashishpatel.html): No podcast appearances found.
+- [Atita Arora](https://datatalks.club/people/atitaarora.html): [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+- [Ba Linh Le](https://datatalks.club/people/balinhle.html): No podcast appearances found.
+- [Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html): [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
+- [Barr Moses](https://datatalks.club/people/barrmoses.html): [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- [Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html): [https://datatalks.club/podcast/production-ready-ai-engineering.html](https://datatalks.club/podcast/production-ready-ai-engineering.html)
+- [Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html): [https://datatalks.club/podcast/data-governance-data-access-management.html](https://datatalks.club/podcast/data-governance-data-access-management.html)
+- [Bastien Boutonnet](https://datatalks.club/people/bastienboutonnet.html): No podcast appearances found.
+- [Bela Wiertz](https://datatalks.club/people/belawiertz.html): [https://datatalks.club/podcast/investing-in-open-source-developer-tools.html](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html)
+- [Ben Taylor](https://datatalks.club/people/bentaylor.html): [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- [Ben Wilson](https://datatalks.club/people/benwilson.html): [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
+- [Bhavani Ravi](https://datatalks.club/people/bhavaniravi.html): No podcast appearances found.
+- [Boyan Angelov](https://datatalks.club/people/boyanangelov.html): [https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
+- [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html): [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- [Carmine Paolino](https://datatalks.club/people/carminepaolino.html): [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
+- [Cathy Chen](https://datatalks.club/people/cathychen.html): No podcast appearances found.
+- [Chip Huyen](https://datatalks.club/people/chiphuyen.html): No podcast appearances found.
+- [Chris Fregly](https://datatalks.club/people/chrisfregly.html): No podcast appearances found.
+- [Christiaan Swart](https://datatalks.club/people/christiannswart.html): [https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html)
+- [Christian Winkler](https://datatalks.club/people/christianwinkler.html): No podcast appearances found.
+- [Christine Cepelak](https://datatalks.club/people/christinecepelak.html): [https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html)
+- [Christopher Bergh](https://datatalks.club/people/christopherbergh.html): [https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html), [https://datatalks.club/podcast/dataops-for-data-engineering.html](https://datatalks.club/podcast/dataops-for-data-engineering.html)
+- [Christoph Molnar](https://datatalks.club/people/christophmolnar.html): [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
+- [CJ Jenkins](https://datatalks.club/people/cjjenkins.html): [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
+- [Cristian Martinez](https://datatalks.club/people/cristianmartinez.html): No podcast appearances found.
+- [Daliana Liu](https://datatalks.club/people/dalianaliu.html): No podcast appearances found.
+- [Dan Becker](https://datatalks.club/people/danbecker.html): [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- [Dânia Meira](https://datatalks.club/people/daniameira.html): [https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html](https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html)
+- [Daniel Egbo](https://datatalks.club/people/danielegbo.html): [https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)
+- [Daniel Svonava](https://datatalks.club/people/danielsvonava.html): [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html)
+- [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html): [https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
+- [Danny Ma](https://datatalks.club/people/dannyma.html): [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- [Dashel Ruiz Perez](https://datatalks.club/people/dashelruizperez.html): [https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)
+- [Dat Tran](https://datatalks.club/people/dattran.html): [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html)
+- [Dave Bechberger](https://datatalks.club/people/davebechberger.html): No podcast appearances found.
+- [Dave Flynn](https://datatalks.club/people/daveflynn.html): No podcast appearances found.
+- [David Bader](https://datatalks.club/people/davidbader.html): [https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html](https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html)
+- [David Bednar](https://datatalks.club/people/davidbednar.html): No podcast appearances found.
+- [David Gates](https://datatalks.club/people/davidgates.html): No podcast appearances found.
+- [David Mertz](https://datatalks.club/people/davidmertz.html): No podcast appearances found.
+- [David Stephenson](https://datatalks.club/people/davidstephenson.html): No podcast appearances found.
+- [David Sweet](https://datatalks.club/people/davidsweet.html): No podcast appearances found.
+- [Daynan Crull](https://datatalks.club/people/daynancrull.html): [https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html](https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html)
+- [Delina Ivanova](https://datatalks.club/people/delinaivanova.html): No podcast appearances found.
+- [Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html): [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- [Denise Gosnell](https://datatalks.club/people/denisegosnell.html): No podcast appearances found.
+- [Denis Rothman](https://datatalks.club/people/denisrothman.html): No podcast appearances found.
+- [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html): [https://datatalks.club/podcast/becoming-data-freelancer.html](https://datatalks.club/podcast/becoming-data-freelancer.html), [https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+- [Dmitry Muzalevskiy](https://datatalks.club/people/dmitrymuzalevskiy.html): No podcast appearances found.
+- [Don Jones](https://datatalks.club/people/donjones.html): No podcast appearances found.
+- [Douglas Gray](https://datatalks.club/people/douglasgray.html): No podcast appearances found.
+- [Doug Turnbull](https://datatalks.club/people/dougturnbull.html): No podcast appearances found.
+- [Duygu Altinok](https://datatalks.club/people/duygualtinok.html): No podcast appearances found.
+- [Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html): [https://datatalks.club/podcast/finops-for-data-engineers.html](https://datatalks.club/podcast/finops-for-data-engineers.html)
+- [Elena Samuylova](https://datatalks.club/people/elenasamuylova.html): [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html)
+- [Eleni Stamatelou](https://datatalks.club/people/elenistamatelou.html): [https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html)
+- [Eleni Tzirita Zacharatou](https://datatalks.club/people/elenitziritazacharatou.html): [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- [Elias Nema](https://datatalks.club/people/eliasnema.html): No podcast appearances found.
+- [Ella (Wati) Sahnan](https://datatalks.club/people/ella(wati)sahnan.html): No podcast appearances found.
+- [Ellen König](https://datatalks.club/people/ellenkonig.html): [https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html)
+- [Elle O'Brien](https://datatalks.club/people/elleobrien.html): [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
+- [Emeli Dral](https://datatalks.club/people/emelidral.html): No podcast appearances found.
+- [Emil Bogomolov](https://datatalks.club/people/emilbogomolov.html): No podcast appearances found.
+- [Emmanuel Ameisen](https://datatalks.club/people/emmanuelameisen.html): No podcast appearances found.
+- [Emmanuel Raj](https://datatalks.club/people/emmanuelraj.html): No podcast appearances found.
+- [Engin Yöyen](https://datatalks.club/people/enginyoyen.html): No podcast appearances found.
+- [Eric Sims](https://datatalks.club/people/ericsims.html): No podcast appearances found.
+- [Ernst Haagsman](https://datatalks.club/people/ernsthaagsman.html): No podcast appearances found.
+- [Ertugrul Mutlu](https://datatalks.club/people/ertugrulmutlu.html): No podcast appearances found.
+- [Erum Afzal](https://datatalks.club/people/erumafzal.html): [https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html)
+- [Eugene Yan](https://datatalks.club/people/eugeneyan.html): [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
+- [Evan Shellshear](https://datatalks.club/people/evanshellshear.html): No podcast appearances found.
+- [Fabiana Clemente](https://datatalks.club/people/fabianaclemente.html): No podcast appearances found.
+- [Faisal Masood](https://datatalks.club/people/faisalmasood.html): No podcast appearances found.
+- [Fernando Doglio](https://datatalks.club/people/fernandodoglio.html): No podcast appearances found.
+- [Filipa Castro](https://datatalks.club/people/filipacastro.html): No podcast appearances found.
+- [Florian Hoenicke](https://datatalks.club/people/florianhoenicke.html): No podcast appearances found.
+- [Gant Laborde](https://datatalks.club/people/gantlaborde.html): No podcast appearances found.
+- [Geo Jolly](https://datatalks.club/people/geojolly.html): [https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)
+- [Giuseppe Bonaccorso](https://datatalks.club/people/giuseppebonaccorso.html): No podcast appearances found.
+- [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html): [https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
+- [Gonçalo Sequeira](https://datatalks.club/people/goncalosequeira.html): No podcast appearances found.
+- [Gráinne McKnight](https://datatalks.club/people/grainnemcknight.html): No podcast appearances found.
+- [Greg Coquillo](https://datatalks.club/people/gregcoquillo.html): [https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
+- [Guillaume Lemaître](https://datatalks.club/people/guillaumelemaitre.html): No podcast appearances found.
+- [Gustaf Gyllensporre](https://datatalks.club/people/gustafgyllensporre.html): No podcast appearances found.
+- [Guy Adams](https://datatalks.club/people/guyadams.html): No podcast appearances found.
+- [Hagop Dippel](https://datatalks.club/people/hagopdippel.html): No podcast appearances found.
+- [Hannes Hapke](https://datatalks.club/people/hanneshapke.html): No podcast appearances found.
+- [Hayden Liu](https://datatalks.club/people/haydenliu.html): No podcast appearances found.
+- [Haziqa Sajid](https://datatalks.club/people/haziqasajid.html): No podcast appearances found.
+- [Hélder Russa](https://datatalks.club/people/helderrussa.html): No podcast appearances found.
+- [Hiba Jamal](https://datatalks.club/people/hibajamal.html): No podcast appearances found.
+- [Himanshu Upreti](https://datatalks.club/people/himanshuupreti.html): No podcast appearances found.
+- [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html): [https://datatalks.club/podcast/devrel-open-source-machine-learning.html](https://datatalks.club/podcast/devrel-open-source-machine-learning.html), [https://datatalks.club/podcast/practical-llm-engineering-and-rag.html](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
+- [Igor Demidov](https://datatalks.club/people/igordemidov.html): No podcast appearances found.
+- [Igor Susmelj](https://datatalks.club/people/igorsusmelj.html): No podcast appearances found.
+- [Ilia Ivanov](https://datatalks.club/people/iliaivanov.html): No podcast appearances found.
+- [Illia Todor](https://datatalks.club/people/illiatodor.html): No podcast appearances found.
+- [Ilya Boytsov](https://datatalks.club/people/ilyaboytsov.html): No podcast appearances found.
+- [Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html): [https://datatalks.club/podcast/building-data-products-lead-data-scientist.html](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
+- [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html): [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
+- [Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html): [https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html)
+- [Itai Admi](https://datatalks.club/people/itaiadmi.html): No podcast appearances found.
+- [Ivan Bilan](https://datatalks.club/people/ivanbilan.html): [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html)
+- [Ivan Brigida](https://datatalks.club/people/ivanbrigida.html): [https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html](https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html)
+- [Ivan Potapov](https://datatalks.club/people/ivanpotapov.html): No podcast appearances found.
+- [Jack Blandin](https://datatalks.club/people/jackblandin.html): [https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
+- [Jacques Peeters](https://datatalks.club/people/jacquespeeters.html): No podcast appearances found.
+- [Jakob Graff](https://datatalks.club/people/jakobgraff.html): [https://datatalks.club/podcast/ab-testing-and-product-experimentation.html](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
+- [James Phoenix](https://datatalks.club/people/jamesphoenix.html): No podcast appearances found.
+- [Jamie Broomall](https://datatalks.club/people/jamiebroomall.html): No podcast appearances found.
+- [Janna Lipenkova](https://datatalks.club/people/jannalipenkova.html): No podcast appearances found.
+- [Jan Schlicht](https://datatalks.club/people/janschlicht.html): No podcast appearances found.
+- [Jan Zawadzki](https://datatalks.club/people/janzawadzki.html): No podcast appearances found.
+- [Jeanine Harb](https://datatalks.club/people/jeanineharb.html): No podcast appearances found.
+- [Jeff Katz](https://datatalks.club/people/jeffkatz.html): [https://datatalks.club/podcast/data-engineering-career-path-and-skills.html](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html), [https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
+- [Jekaterina Kokatjuhha](https://datatalks.club/people/jekaterinakokatjuhha.html): [https://datatalks.club/podcast/s12e08.html](https://datatalks.club/podcast/s12e08.html)
+- [Jens Albrecht](https://datatalks.club/people/jensalbrecht.html): No podcast appearances found.
+- [Jesse Anderson](https://datatalks.club/people/jesseanderson.html): No podcast appearances found.
+- [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html): [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- [Jessica Greene](https://datatalks.club/people/jessicagreene.html): [https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html](https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html)
+- [Jessie Yaros](https://datatalks.club/people/jessieyaros.html): No podcast appearances found.
+- [Joe Reis](https://datatalks.club/people/joereis.html): No podcast appearances found.
+- [Johanna Bayer](https://datatalks.club/people/johannabayer.html): [https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html), [https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html)
+- [Johannes Hötter](https://datatalks.club/people/johanneshotter.html): [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html)
+- [Jonas Christensen](https://datatalks.club/people/jonaschristensen.html): No podcast appearances found.
+- [Jonathan Rioux](https://datatalks.club/people/jonathanrioux.html): No podcast appearances found.
+- [Jon Skeet](https://datatalks.club/people/jonskeet.html): No podcast appearances found.
+- [Jordan Peck](https://datatalks.club/people/jordanpeck.html): No podcast appearances found.
+- [José María Sánchez Salas](https://datatalks.club/people/josemaria.html): [https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html)
+- [Josh Fischer](https://datatalks.club/people/joshfischer.html): No podcast appearances found.
+- [Josh Reini](https://datatalks.club/people/joshreini.html): No podcast appearances found.
+- [Josh Tobin](https://datatalks.club/people/joshtobin.html): No podcast appearances found.
+- [Joyce Kay Avila](https://datatalks.club/people/joycekayavila.html): No podcast appearances found.
+- [Juan Manuel Perafan](https://datatalks.club/people/juanmanuelperafan.html): [https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)
+- [Juan Orduz](https://datatalks.club/people/juanorduz.html): [https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
+- [Juan Pablo](https://datatalks.club/people/juanpablo.html): [https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
+- [Julia Ostheimer](https://datatalks.club/people/juliaostheimer.html): No podcast appearances found.
+- [Justin Ryan](https://datatalks.club/people/justinryan.html): No podcast appearances found.
+- [Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html): [https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
+- [Kate Ogochukwu Nwankwo](https://datatalks.club/people/kateogochukwunwankwo.html): No podcast appearances found.
+- [Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html): [https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)
+- [Katie Bauer](https://datatalks.club/people/katiebauer.html): [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
+- [Ken Youens-Clark](https://datatalks.club/people/kenyouens-clark.html): No podcast appearances found.
+- [Kevin Huo](https://datatalks.club/people/kevinhuo.html): No podcast appearances found.
+- [Khuyen Tran](https://datatalks.club/people/khuyentran.html): No podcast appearances found.
+- [Kim Falk](https://datatalks.club/people/kimfalk.html): No podcast appearances found.
+- [Kishan Manani](https://datatalks.club/people/kishanmanani.html): No podcast appearances found.
+- [Konrad Banachewicz](https://datatalks.club/people/konradbanachewicz.html): No podcast appearances found.
+- [Kranti K. Parisa](https://datatalks.club/people/krantik-parisa.html): No podcast appearances found.
+- [Krzysztof Ograbek](https://datatalks.club/people/krzysztofograbek.html): No podcast appearances found.
+- [Krzysztof Szafanek](https://datatalks.club/people/krzysztofszafanek.html): [https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html)
+- [Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html): [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- [Kyle Shannon](https://datatalks.club/people/kyleshannon.html): No podcast appearances found.
+- [Lalit Pagaria](https://datatalks.club/people/lalitpagaria.html): No podcast appearances found.
+- [Lars Albertsson](https://datatalks.club/people/larsalbertsson.html): [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- [Larysa Visengeriyeva](https://datatalks.club/people/larysavisengeriyeva.html): No podcast appearances found.
+- [Laurence Moroney](https://datatalks.club/people/laurencemoroney.html): No podcast appearances found.
+- [Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html): [https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html)
+- [Leandro von Werra](https://datatalks.club/people/leandrovonwerra.html): No podcast appearances found.
+- [Leonard Püttmann](https://datatalks.club/people/leonardputtmann.html): No podcast appearances found.
+- [Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html): [https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
+- [Leon Wei](https://datatalks.club/people/leonwei.html): No podcast appearances found.
+- [Lera Kaimashnіkova](https://datatalks.club/people/lerakaimashnikova.html): No podcast appearances found.
+- [Lewis Tunstall](https://datatalks.club/people/lewistunstall.html): No podcast appearances found.
+- [Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html): [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
+- [Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html): [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
+- [Lindsay McQuade](https://datatalks.club/people/lindsaymcquade.html): [https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html](https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html)
+- [Lior Barak](https://datatalks.club/people/liorbarak.html): [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html), [https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
+- [Lisa Cohen](https://datatalks.club/people/lisacohen.html): [https://datatalks.club/podcast/data-science-team-structure-and-org-design.html](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
+- [Loïc Magnien](https://datatalks.club/people/loicmagnien.html): [https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
+- [Loris Marini](https://datatalks.club/people/lorismarini.html): [https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html)
+- [Luca Massaron](https://datatalks.club/people/lucamassaron.html): No podcast appearances found.
+- [Luís Oliveira](https://datatalks.club/people/luisoliveira.html): No podcast appearances found.
+- [Luis Serrano](https://datatalks.club/people/luisserrano.html): No podcast appearances found.
+- [Luke Whipps](https://datatalks.club/people/lukewhipps.html): [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html](https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html)
+- [Madiha Khalid](https://datatalks.club/people/madihakhalid.html): No podcast appearances found.
+- [Magdalena Konkiewicz](https://datatalks.club/people/magdalenakonkiewicz.html): No podcast appearances found.
+- [Magdalena Kuhn](https://datatalks.club/people/magdalenakuhn.html): No podcast appearances found.
+- [Mahmoud AbdelAziz](https://datatalks.club/people/mahmoudaziz.html): No podcast appearances found.
+- [Manmohan Gosada](https://datatalks.club/people/manmohangosada.html): No podcast appearances found.
+- [Manoj Kukreja](https://datatalks.club/people/manojkukreja.html): No podcast appearances found.
+- [Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html): [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- [Marco De Sa](https://datatalks.club/people/marcodesa.html): [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- [Maria Bruckert](https://datatalks.club/people/mariabruckert.html): [https://datatalks.club/podcast/building-ai-digital-health-startups.html](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
+- [Marianna Diachuk](https://datatalks.club/people/mariannadiachuk.html): [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+- [Mariano Semelman](https://datatalks.club/people/marianosemelman.html): [https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html), [https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
+- [Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html): [https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
+- [Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html): [https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
+- [Marijn Markus](https://datatalks.club/people/marijnmarkus.html): [https://datatalks.club/podcast/how-to-stand-out-in-data-science.html](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
+- [Mario Lazo](https://datatalks.club/people/mariolazo.html): No podcast appearances found.
+- [Mark Ryan](https://datatalks.club/people/markryan.html): No podcast appearances found.
+- [Martin Kleppmann](https://datatalks.club/people/martinkleppmann.html): No podcast appearances found.
+- [Martin Potančok](https://datatalks.club/people/martinpotancok.html): No podcast appearances found.
+- [Maryam Ramezani-Bartsch](https://datatalks.club/people/maryamramezanibartsch.html): No podcast appearances found.
+- [Mary Jane Dykeman](https://datatalks.club/people/maryjanedykeman.html): No podcast appearances found.
+- [Marysia Winkels](https://datatalks.club/people/marysiawinkels.html): [https://datatalks.club/podcast/data-centric-ai.html](https://datatalks.club/podcast/data-centric-ai.html)
+- [Matt Harrison](https://datatalks.club/people/mattharrison.html): No podcast appearances found.
+- [Matthew Housley](https://datatalks.club/people/matthewhousley.html): No podcast appearances found.
+- [Matt Palmer](https://datatalks.club/people/mattpalmer.html): No podcast appearances found.
+- [Maxime Labonne](https://datatalks.club/people/maximelabonne.html): No podcast appearances found.
+- [Maxim Lukichev](https://datatalks.club/people/maximlukichev.html): No podcast appearances found.
+- [Max Schultze](https://datatalks.club/people/maxschultze.html): No podcast appearances found.
+- [Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html): [https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)
+- [Meor Amer](https://datatalks.club/people/meoramer.html): [https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html)
+- [Merel Theisen](https://datatalks.club/people/mereltheisen.html): No podcast appearances found.
+- [Merve Noyan](https://datatalks.club/people/mervenoyan.html): [https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
+- [Meryem Arik](https://datatalks.club/people/meryemarik.html): [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
+- [Meysam Asgari-Chenaghlu](https://datatalks.club/people/meysamasgarichenaghlu.html): No podcast appearances found.
+- [Michael Munn](https://datatalks.club/people/michaelmunn.html): No podcast appearances found.
+- [Michael Taylor](https://datatalks.club/people/michaeltaylor.html): No podcast appearances found.
+- [Micheal Lanham](https://datatalks.club/people/micheallanham.html): [https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
+- [Miguel Morales](https://datatalks.club/people/miguelmorales.html): No podcast appearances found.
+- [Mihail Eric](https://datatalks.club/people/mihaileric.html): [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
+- [Mikhail Sveshnikov](https://datatalks.club/people/mikhailsveshnikov.html): No podcast appearances found.
+- [Mikio Braun](https://datatalks.club/people/mikiobraun.html): [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
+- [Mısra Turp](https://datatalks.club/people/misraturp.html): [https://datatalks.club/podcast/how-to-break-into-data-science.html](https://datatalks.club/podcast/how-to-break-into-data-science.html)
+- [Moein Foroughi](https://datatalks.club/people/moeinforoughi.html): No podcast appearances found.
+- [Nadia Nahar](https://datatalks.club/people/nadianahar.html): [https://datatalks.club/podcast/software-engineering-for-machine-learning.html](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
+- [Nakul Bajaj](https://datatalks.club/people/nakulbajaj.html): No podcast appearances found.
+- [Naomi Nguyen](https://datatalks.club/people/naominguyen.html): No podcast appearances found.
+- [Nasser Qadri](https://datatalks.club/people/nasserqadri.html): [https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
+- [Nastasia Saby](https://datatalks.club/people/nastasiasaby.html): No podcast appearances found.
+- [Natalie Kwong](https://datatalks.club/people/nataliekwong.html): [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- [Nataliya Portman](https://datatalks.club/people/nataliyaportman.html): No podcast appearances found.
+- [Nathan Wang](https://datatalks.club/people/nathanwang.html): No podcast appearances found.
+- [Neal Lathia](https://datatalks.club/people/neallathia.html): No podcast appearances found.
+- [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html): [https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html), [https://datatalks.club/podcast/lean-mlops-for-startups.html](https://datatalks.club/podcast/lean-mlops-for-startups.html)
+- [Niall Murphy](https://datatalks.club/people/niallmurphy.html): No podcast appearances found.
+- [Nicholas Lotz](https://datatalks.club/people/nicholaslotz.html): No podcast appearances found.
+- [Nick Bilozerov](https://datatalks.club/people/nickbilozerov.html): No podcast appearances found.
+- [Nick Singh](https://datatalks.club/people/nicksingh.html): [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- [Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html): [https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
+- [Nielsen Aileen](https://datatalks.club/people/nielsenaileen.html): No podcast appearances found.
+- [Nik Bakanchev](https://datatalks.club/people/nikbakanchev.html): No podcast appearances found.
+- [Nik Bakanchev](https://datatalks.club/people/nikitabakanchev.html): No podcast appearances found.
+- [Nikita Iserson](https://datatalks.club/people/nikitaiserson.html): No podcast appearances found.
+- [Nikita Kozodoi](https://datatalks.club/people/nikitakozodoi.html): No podcast appearances found.
+- [Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html): [https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)
+- [Nikolay Smorchkov](https://datatalks.club/people/nikolaysmorchkov.html): No podcast appearances found.
+- [Ning Wang](https://datatalks.club/people/ningwang.html): No podcast appearances found.
+- [Nishant Mohan](https://datatalks.club/people/nishantmohan.html): No podcast appearances found.
+- [Noah Gift](https://datatalks.club/people/noahgift.html): [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- [Noel Kwan](https://datatalks.club/people/noelkwan.html): No podcast appearances found.
+- [Nour Karessli](https://datatalks.club/people/nourkaressli.html): No podcast appearances found.
+- [Oleg Novikov](https://datatalks.club/people/olegnovikov.html): [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- [Oleg Polivin](https://datatalks.club/people/olegpolivin.html): No podcast appearances found.
+- [Olga Ivina](https://datatalks.club/people/olgaivina.html): [https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html)
+- [Olga Petrova](https://datatalks.club/people/olgapetrova.html): No podcast appearances found.
+- [Ondřej Bothe](https://datatalks.club/people/ondrejbothe.html): No podcast appearances found.
+- [Ondřej Kubera](https://datatalks.club/people/ondrejkubera.html): No podcast appearances found.
+- [Orell Garten](https://datatalks.club/people/orellgarten.html): [https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
+- [Orlando Hohmeier](https://datatalks.club/people/orlandohohmeier.html): No podcast appearances found.
+- [Padma Chitturi](https://datatalks.club/people/padmachitturi.html): No podcast appearances found.
+- [Parul Pandey](https://datatalks.club/people/parulpandey.html): No podcast appearances found.
+- [Parvathy Krishnan](https://datatalks.club/people/parvathykrishnan.html): [https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html](https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html)
+- [Pastor Soto](https://datatalks.club/people/pastorsoto.html): [https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)
+- [Patricio Cerda Mardini](https://datatalks.club/people/patriciocerdamardini.html): No podcast appearances found.
+- [Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html): [https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
+- [Paul Iusztin](https://datatalks.club/people/pauliusztin.html): [https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html)
+- [Paul Orland](https://datatalks.club/people/paulorland.html): No podcast appearances found.
+- [Pavel Chernetsov](https://datatalks.club/people/pavelchernetsov.html): No podcast appearances found.
+- [Philippe Saadé](https://datatalks.club/people/philippesaade.html): No podcast appearances found.
+- [Phil Winder](https://datatalks.club/people/philwinder.html): No podcast appearances found.
+- [Pier Paolo Ippolito](https://datatalks.club/people/pierpaoloippolito.html): No podcast appearances found.
+- [Polina Mosolova](https://datatalks.club/people/polinamosolova.html): [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
+- [Prasoon Shukla](https://datatalks.club/people/prasoonshukla.html): No podcast appearances found.
+- [Prateek Joshi](https://datatalks.club/people/prateekjoshi.html): No podcast appearances found.
+- [Rachael Tatman](https://datatalks.club/people/rachaeltatman.html): No podcast appearances found.
+- [Rachel Lim](https://datatalks.club/people/rachellim.html): [https://datatalks.club/podcast/urban-data-science.html](https://datatalks.club/podcast/urban-data-science.html)
+- [Radovan Bacovic](https://datatalks.club/people/radovanbacovic.html): No podcast appearances found.
+- [Raghav Bali](https://datatalks.club/people/raghavbali.html): No podcast appearances found.
+- [Rahul Jain](https://datatalks.club/people/rahuljain.html): [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- [Ramiro Aznar](https://datatalks.club/people/ramiroaznar.html): No podcast appearances found.
+- [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html): [https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+- [Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html): [https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
+- [Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html): [https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+- [Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html): [https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)
+- [Rileen Sinha](https://datatalks.club/people/rileensinha.html): No podcast appearances found.
+- [Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html): [https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html)
+- [Rob De Wit](https://datatalks.club/people/robdewit.html): No podcast appearances found.
+- [Rob Zinkov](https://datatalks.club/people/robzinkov.html): [https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html](https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html)
+- [Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html): [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- [Roman Grebennikov](https://datatalks.club/people/romangrebennikov.html): No podcast appearances found.
+- [Rosona Eldred](https://datatalks.club/people/rosonaeldred.html): [https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html](https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html)
+- [Ross Brigoli](https://datatalks.club/people/rossbrigoli.html): No podcast appearances found.
+- [Roy Jafari](https://datatalks.club/people/royjafari.html): No podcast appearances found.
+- [Rui Machado](https://datatalks.club/people/ruimachado.html): No podcast appearances found.
+- [Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html): [https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html), [https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)
+- [Rustem Feyzkhanov](https://datatalks.club/people/rustemfeyzkhanov.html): No podcast appearances found.
+- [Sabina Firtala](https://datatalks.club/people/sabinafirtala.html): [https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html](https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html)
+- [Sadat Anwar](https://datatalks.club/people/sadatanwar.html): [https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html](https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html)
+- [Sadik Bakiu](https://datatalks.club/people/sadikbakiu.html): No podcast appearances found.
+- [Sage Elliott](https://datatalks.club/people/sageelliott.html): No podcast appearances found.
+- [Sally-Ann DeLucia](https://datatalks.club/people/sallyanndelucia.html): No podcast appearances found.
+- [Sandra Kublik](https://datatalks.club/people/sandrakublik.html): [https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)
+- [Santona Tuli](https://datatalks.club/people/santonatuli.html): [https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+- [Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html): [https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
+- [Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html): [https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html)
+- [Sara Menefee](https://datatalks.club/people/saramenefee.html): [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
+- [Sara Robinson](https://datatalks.club/people/sararobinson.html): No podcast appearances found.
+- [Saurav Maheshkar](https://datatalks.club/people/sauravmaheshkar.html): No podcast appearances found.
+- [Savaş Yıldırım](https://datatalks.club/people/savasyildirim.html): No podcast appearances found.
+- [Sean Sheng](https://datatalks.club/people/seansheng.html): No podcast appearances found.
+- [Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html): [https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
+- [Sebastian Raschka](https://datatalks.club/people/sebastianraschka.html): No podcast appearances found.
+- [Sedat Kapanoglu](https://datatalks.club/people/sedatkapanoglu.html): No podcast appearances found.
+- [Sejal Vaidya](https://datatalks.club/people/sejalvaidya.html): No podcast appearances found.
+- [Serena Haidar](https://datatalks.club/people/serenahaidar.html): No podcast appearances found.
+- [Sergei Boitsov](https://datatalks.club/people/sergeiboitsov.html): No podcast appearances found.
+- [Sergei Shaikin](https://datatalks.club/people/sergeishaikin.html): No podcast appearances found.
+- [Serg Masis](https://datatalks.club/people/sergmasis.html): No podcast appearances found.
+- [Shachar Meir](https://datatalks.club/people/shacharmeir.html): No podcast appearances found.
+- [Shir Meir Lador](https://datatalks.club/people/shirmeirlador.html): [https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
+- [Shubham Saboo](https://datatalks.club/people/shubhamsaboo.html): No podcast appearances found.
+- [Sidharth Ramachandran](https://datatalks.club/people/sidharthramachandran.html): No podcast appearances found.
+- [Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html): [https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
+- [Simon Thompson](https://datatalks.club/people/simonthompson.html): No podcast appearances found.
+- [Sivan Biham](https://datatalks.club/people/sivanbiham.html): No podcast appearances found.
+- [Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html): [https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
+- [Sofya Yulpatova](https://datatalks.club/people/sofyayulpatova.html): [https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html](https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html)
+- [Soledad Galli](https://datatalks.club/people/soledadgalli.html): No podcast appearances found.
+- [Sonal Goyal](https://datatalks.club/people/sonalgoyal.html): [https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
+- [Soumik Rakshit](https://datatalks.club/people/soumikrakshit.html): No podcast appearances found.
+- [Srivathsan Canchi](https://datatalks.club/people/srivathsancanchi.html): No podcast appearances found.
+- [Stefan Gudmundsson](https://datatalks.club/people/stefangudmundsson.html): [https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html)
+- [Stefanie Molin](https://datatalks.club/people/stefaniemolin.html): No podcast appearances found.
+- [Stefan Jansen](https://datatalks.club/people/stefanjansen.html): No podcast appearances found.
+- [Supreet Kaur](https://datatalks.club/people/supreetkaur.html): [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
+- [Susan Walsh](https://datatalks.club/people/susanwalsh.html): No podcast appearances found.
+- [Santiago Valdarrama](https://datatalks.club/people/svpino.html): [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+- [Shawn Swyx Wang](https://datatalks.club/people/swyx.html): [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
+- [Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html): [https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
+- [Tammy Liang](https://datatalks.club/people/tammyliang.html): [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- [Tanya Berger-Wolf](https://datatalks.club/people/tanyabergerwolf.html): [https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html](https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html)
+- [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html): [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html), [https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html)
+- [Tatyjana Ankudo](https://datatalks.club/people/tatyjanaankudo.html): No podcast appearances found.
+- [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html): [https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html), [https://datatalks.club/podcast/data-leadership-coaching.html](https://datatalks.club/podcast/data-leadership-coaching.html)
+- [Theofilos Papapanagiotou](https://datatalks.club/people/theofilospapapanagiotou.html): [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
+- [Thomas Nield](https://datatalks.club/people/thomasnield.html): No podcast appearances found.
+- [Thomas Wolf](https://datatalks.club/people/thomaswolf.html): No podcast appearances found.
+- [Thom Ives](https://datatalks.club/people/thomives.html): [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- [Timothy Davis](https://datatalks.club/people/timothydavis.html): No podcast appearances found.
+- [Tobias Lindenbauer](https://datatalks.club/people/tobiaslindenbauer.html): No podcast appearances found.
+- [Tobias Zwingmann](https://datatalks.club/people/tobiaszwingmann.html): No podcast appearances found.
+- [Todd Underwood](https://datatalks.club/people/toddunderwood.html): No podcast appearances found.
+- [Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html): [https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)
+- [Tomasz Lelek](https://datatalks.club/people/tomaszlelek.html): No podcast appearances found.
+- [Tomaz Bratanic](https://datatalks.club/people/tomazbratanic.html): No podcast appearances found.
+- [Tomek Jamiński](https://datatalks.club/people/tomekjaminski.html): No podcast appearances found.
+- [Tommy Dang](https://datatalks.club/people/tommydang.html): No podcast appearances found.
+- [Uri Gilad](https://datatalks.club/people/urigilad.html): [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- [Vadim Smolyakov](https://datatalks.club/people/vadimsmolyakov.html): No podcast appearances found.
+- [Valeriia Kuka](https://datatalks.club/people/valeriiakuka.html): No podcast appearances found.
+- [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html): [https://datatalks.club/podcast/machine-learning-system-design-interview.html](https://datatalks.club/podcast/machine-learning-system-design-interview.html), [https://datatalks.club/podcast/ml-system-design.html](https://datatalks.club/podcast/ml-system-design.html)
+- [Vanessa Aguilar](https://datatalks.club/people/vanessaaguilar.html): No podcast appearances found.
+- [Verena Weber](https://datatalks.club/people/verenaweber.html): [https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
+- [Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html): [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- [Vijay Kiran](https://datatalks.club/people/vijaykiran.html): No podcast appearances found.
+- [Ville Tuulos](https://datatalks.club/people/villetuulos.html): No podcast appearances found.
+- [Vincent Tatan](https://datatalks.club/people/vincenttatan.html): No podcast appearances found.
+- [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html): [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
+- [Vin Vashishta](https://datatalks.club/people/vinvashishta.html): [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
+- [Violetta Mishechkina](https://datatalks.club/people/violettamishechkina.html): No podcast appearances found.
+- [Vishwas BV](https://datatalks.club/people/vishwasbv.html): No podcast appearances found.
+- [Vladimir Haltakov](https://datatalks.club/people/vladimirhaltakov.html): No podcast appearances found.
+- [Wendy Mak](https://datatalks.club/people/wendymak.html): No podcast appearances found.
+- [Willem Pienaar](https://datatalks.club/people/willempienaar.html): [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+- [Will McGugan](https://datatalks.club/people/willmcgugan.html): [https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
+- [Will Russell](https://datatalks.club/people/willrussell.html): [https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
+- [Xia He-Bleinagel](https://datatalks.club/people/xiahebleinagel.html): [https://datatalks.club/podcast/s22e07-reinventing-career-in-tech.html](https://datatalks.club/podcast/s22e07-reinventing-career-in-tech.html)
+- [Yuan Tang](https://datatalks.club/people/yuantang.html): No podcast appearances found.
+- [Yulia Pavlova](https://datatalks.club/people/yuliapavlova.html): No podcast appearances found.
+- [Yury Kashnitsky](https://datatalks.club/people/yurykashnitsky.html): [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
+- [Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html): [https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)
 
 ## Topic Candidates
 
-- `search` (114): search. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/)
-- `machine-learning` (112): machine learning. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/crisp-dm/](/podcasts/crisp-dm/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/)
-- `data-science` (103): data science. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/crisp-dm/](/podcasts/crisp-dm/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/)
-- `mlops` (80): mlops. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/)
-- `data-engineering` (68): data engineering. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/), [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `hiring` (58): hiring. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- `career-growth` (55): career growth. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `career-transition` (54): career transition. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/), [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- `rag` (54): rag. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/)
-- `leadership` (48): leadership. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `tools` (45): tools. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- `portfolio` (42): portfolio. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- `open-source` (38): open source. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `llms` (34): llms. Episodes: [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/), [/podcasts/how-to-grow-your-ml-engineering-career/](/podcasts/how-to-grow-your-ml-engineering-career/), [/podcasts/from-startup-engineering-to-freelance-data-science/](/podcasts/from-startup-engineering-to-freelance-data-science/), [/podcasts/building-production-ml-platform-and-mlops-team/](/podcasts/building-production-ml-platform-and-mlops-team/), [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/)
-- `data-quality` (28): data quality. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/), [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/), [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/), [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/), [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `software-engineering` (27): software engineering. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/), [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/), [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/), [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
-- `computer-vision` (21): computer vision. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/), [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/), [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/), [/podcasts/data-science-for-public-policy-ethical-ai-social-impact/](/podcasts/data-science-for-public-policy-ethical-ai-social-impact/)
-- `reproducibility` (19): reproducibility. Episodes: [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/), [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
-- `freelance` (19): freelance. Episodes: [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/), [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/), [/podcasts/from-math-graduate-to-data-analytics/](/podcasts/from-math-graduate-to-data-analytics/), [/podcasts/freelance-data-engineering-pricing-and-clients/](/podcasts/freelance-data-engineering-pricing-and-clients/), [/podcasts/how-to-break-into-data-science/](/podcasts/how-to-break-into-data-science/)
-- `orchestration` (18): orchestration. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/), [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/), [/podcasts/scaling-data-engineering-teams-self-service-platforms/](/podcasts/scaling-data-engineering-teams-self-service-platforms/)
-- `ai` (18): ai. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/), [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/), [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/), [/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/](/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/), [/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/](/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/)
-- `data-teams` (17): data teams. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/), [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `job-search` (17): job search. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/), [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/), [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/), [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- `data-governance` (17): data governance. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/), [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/), [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/), [/podcasts/scaling-data-engineering-teams-self-service-platforms/](/podcasts/scaling-data-engineering-teams-self-service-platforms/), [/podcasts/building-open-source-data-product-for-identity-resolution/](/podcasts/building-open-source-data-product-for-identity-resolution/)
-- `production` (16): production. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/), [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/), [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
-- `a-b-testing` (16): a/b testing. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/), [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/), [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/), [/podcasts/production-ml-mlops-and-data-team-building/](/podcasts/production-ml-mlops-and-data-team-building/), [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
-- `product-management` (15): product management. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/), [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/), [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/), [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/)
-- `privacy` (15): privacy. Episodes: [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/), [/podcasts/machine-learning-system-design-interview/](/podcasts/machine-learning-system-design-interview/), [/podcasts/ai-in-healthcare-and-digital-therapeutics/](/podcasts/ai-in-healthcare-and-digital-therapeutics/), [/podcasts/hiring-for-data-engineering-jobs-in-europe/](/podcasts/hiring-for-data-engineering-jobs-in-europe/), [/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/](/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/)
-- `ml-engineering` (14): ml engineering. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/), [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
-- `experimentation` (14): experimentation. Episodes: [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/), [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/), [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/), [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/), [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
-- `community-building` (14): community building. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/), [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/), [/podcasts/datatalksclub-building-scaling-data-community/](/podcasts/datatalksclub-building-scaling-data-community/), [/podcasts/data-professionals-business-skills-in-saas/](/podcasts/data-professionals-business-skills-in-saas/)
-- `data-product` (14): data product. Episodes: [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/), [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/), [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/), [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/), [/podcasts/building-and-scaling-ai-data-products-with-mlops/](/podcasts/building-and-scaling-ai-data-products-with-mlops/)
-- `team-building` (13): team building. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/), [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `generative-ai` (13): generative ai. Episodes: [/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/](/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/), [/podcasts/data-privacy-engineering-gdpr-machine-learning/](/podcasts/data-privacy-engineering-gdpr-machine-learning/), [/podcasts/devrel-open-source-machine-learning/](/podcasts/devrel-open-source-machine-learning/), [/podcasts/practical-llm-use-cases-and-product-patterns/](/podcasts/practical-llm-use-cases-and-product-patterns/), [/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/](/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/)
-- `retrieval` (12): retrieval. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/data-science-job-red-flags-and-mismatched-roles/](/podcasts/data-science-job-red-flags-and-mismatched-roles/), [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/), [/podcasts/practical-llm-use-cases-and-product-patterns/](/podcasts/practical-llm-use-cases-and-product-patterns/), [/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/](/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/)
-- `embeddings` (12): embeddings. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/), [/podcasts/machine-learning-system-design-interview/](/podcasts/machine-learning-system-design-interview/), [/podcasts/data-centric-ai/](/podcasts/data-centric-ai/), [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/), [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/)
-- `nlp` (12): nlp. Episodes: [/podcasts/nlp-team-hiring-and-production-mlops/](/podcasts/nlp-team-hiring-and-production-mlops/), [/podcasts/hugging-face-contributions-and-nlp-portfolio/](/podcasts/hugging-face-contributions-and-nlp-portfolio/), [/podcasts/nlp-dataset-creation-annotation-tools-workflows/](/podcasts/nlp-dataset-creation-annotation-tools-workflows/), [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/), [/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/](/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/)
-- `data-strategy` (11): data strategy. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/), [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/), [/podcasts/data-science-for-public-policy-ethical-ai-social-impact/](/podcasts/data-science-for-public-policy-ethical-ai-social-impact/), [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/), [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/)
-- `dataops` (10): dataops. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/dataops-automation-and-reliable-data-pipelines/](/podcasts/dataops-automation-and-reliable-data-pipelines/), [/podcasts/dataops-and-gitops-best-practices-for-data-teams/](/podcasts/dataops-and-gitops-best-practices-for-data-teams/), [/podcasts/data-strategy-and-dataops-for-ai-powered-products/](/podcasts/data-strategy-and-dataops-for-ai-powered-products/)
-- `entrepreneurship` (10): entrepreneurship. Episodes: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/), [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/), [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/), [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/), [/podcasts/open-source-turned-into-career-and-startup-creation/](/podcasts/open-source-turned-into-career-and-startup-creation/)
-- `communication` (9): communication. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/), [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/), [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `model-monitoring` (9): model monitoring. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/), [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/), [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/), [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
-- `academia` (9): academia. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/), [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/), [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/), [/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/](/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/)
-- `data-analytics` (8): data analytics. Episodes: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/), [/podcasts/production-ml-mlops-and-data-team-building/](/podcasts/production-ml-mlops-and-data-team-building/), [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/), [/podcasts/hiring-data-scientists-and-analysts/](/podcasts/hiring-data-scientists-and-analysts/), [/podcasts/from-math-graduate-to-data-analytics/](/podcasts/from-math-graduate-to-data-analytics/)
-- `ai-engineer` (8): ai engineer. Episodes: [/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/](/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/), [/podcasts/trends-in-modern-data-engineering/](/podcasts/trends-in-modern-data-engineering/), [/podcasts/production-ready-ai-engineering/](/podcasts/production-ready-ai-engineering/), [/podcasts/from-game-ai-to-modern-ai-agents/](/podcasts/from-game-ai-to-modern-ai-agents/), [/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/](/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/)
-- `practices` (7): practices. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/ab-testing-and-product-experimentation/](/podcasts/ab-testing-and-product-experimentation/), [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/), [/podcasts/dataops-automation-and-reliable-data-pipelines/](/podcasts/dataops-automation-and-reliable-data-pipelines/), [/podcasts/interpretable-machine-learning/](/podcasts/interpretable-machine-learning/)
-- `developer-relations` (7): developer relations. Episodes: [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/), [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/), [/podcasts/visualizing-machine-learning-concepts-to-explain-ml/](/podcasts/visualizing-machine-learning-concepts-to-explain-ml/), [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/), [/podcasts/devrel-open-source-machine-learning/](/podcasts/devrel-open-source-machine-learning/)
-- `startups` (7): startups. Episodes: [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/), [/podcasts/open-source-turned-into-career-and-startup-creation/](/podcasts/open-source-turned-into-career-and-startup-creation/), [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/), [/podcasts/from-startup-engineering-to-freelance-data-science/](/podcasts/from-startup-engineering-to-freelance-data-science/), [/podcasts/building-ai-digital-health-startups/](/podcasts/building-ai-digital-health-startups/)
-- `analytics-engineering` (6): analytics engineering. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/), [/podcasts/production-ml-mlops-and-data-team-building/](/podcasts/production-ml-mlops-and-data-team-building/), [/podcasts/data-engineering-career-path-and-skills/](/podcasts/data-engineering-career-path-and-skills/), [/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/](/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/), [/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/](/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/)
-- `consulting` (6): consulting. Episodes: [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/), [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/), [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/), [/podcasts/becoming-data-freelancer/](/podcasts/becoming-data-freelancer/), [/podcasts/from-data-freelancer-to-startup-open-source-products/](/podcasts/from-data-freelancer-to-startup-open-source-products/)
-- `career-development` (5): career development. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/), [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/), [/podcasts/scaling-data-engineering-teams-self-service-platforms/](/podcasts/scaling-data-engineering-teams-self-service-platforms/), [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/), [/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/](/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/)
-- `use-cases` (5): use cases. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/), [/podcasts/building-open-source-data-product-for-identity-resolution/](/podcasts/building-open-source-data-product-for-identity-resolution/), [/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/](/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/)
-- `strategy` (5): strategy. Episodes: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/), [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/), [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/), [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/), [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/)
-- `product-analytics` (5): product analytics. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/), [/podcasts/ab-testing-and-product-experimentation/](/podcasts/ab-testing-and-product-experimentation/), [/podcasts/dataops-and-gitops-best-practices-for-data-teams/](/podcasts/dataops-and-gitops-best-practices-for-data-teams/), [/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/](/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/), [/podcasts/teaching-mentoring-data-analytics-fintech/](/podcasts/teaching-mentoring-data-analytics-fintech/)
-- `academic-research` (5): academic research. Episodes: [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/), [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/), [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/), [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/), [/podcasts/from-academic-research-to-data-engineering-freelancing/](/podcasts/from-academic-research-to-data-engineering-freelancing/)
-- `teaching` (5): teaching. Episodes: [/podcasts/teaching-mentoring-data-analytics-fintech/](/podcasts/teaching-mentoring-data-analytics-fintech/), [/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/](/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/), [/podcasts/community-building-and-teaching-in-ai-tech/](/podcasts/community-building-and-teaching-in-ai-tech/), [/podcasts/datatalksclub-scaling-and-free-courses/](/podcasts/datatalksclub-scaling-and-free-courses/), [/podcasts/kaggle-grandmaster-to-production-ml-and-education/](/podcasts/kaggle-grandmaster-to-production-ml-and-education/)
-- `vector-databases` (5): vector databases. Episodes: [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/), [/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/](/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/), [/podcasts/building-production-search-systems/](/podcasts/building-production-search-systems/), [/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/](/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/), [/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/](/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/)
-- `ai-engineering` (5): ai engineering. Episodes: [/podcasts/trends-in-modern-data-engineering/](/podcasts/trends-in-modern-data-engineering/), [/podcasts/production-ready-ai-engineering/](/podcasts/production-ready-ai-engineering/), [/podcasts/from-game-ai-to-modern-ai-agents/](/podcasts/from-game-ai-to-modern-ai-agents/), [/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/](/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/), [/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/](/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/)
-- `ml-platform` (4): ml platform. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/ml-product-manager-and-mlops-platform-strategy/](/podcasts/ml-product-manager-and-mlops-platform-strategy/), [/podcasts/how-to-grow-your-ml-engineering-career/](/podcasts/how-to-grow-your-ml-engineering-career/), [/podcasts/building-production-ml-platform-and-mlops-team/](/podcasts/building-production-ml-platform-and-mlops-team/)
-- `project-management` (3): project management. Episodes: [/podcasts/crisp-dm/](/podcasts/crisp-dm/), [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/), [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `startup` (3): startup. Episodes: [/podcasts/building-data-team/](/podcasts/building-data-team/), [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/), [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/)
-- `data-scientist` (3): data scientist. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/), [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/), [/podcasts/building-data-products-lead-data-scientist/](/podcasts/building-data-products-lead-data-scientist/)
-- `feature-store` (3): feature store. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/), [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/), [/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/](/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/)
-- `personal-brand` (3): personal brand. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/), [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/), [/podcasts/remote-data-engineering-work-and-building-iot-platforms/](/podcasts/remote-data-engineering-work-and-building-iot-platforms/)
-- `data-mesh` (3): data mesh. Episodes: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/), [/podcasts/data-mesh-architecture-decentralized-data-products/](/podcasts/data-mesh-architecture-decentralized-data-products/), [/podcasts/data-governance-data-access-management/](/podcasts/data-governance-data-access-management/)
-- `data-observability` (3): data observability. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/), [/podcasts/dataops-automation-and-reliable-data-pipelines/](/podcasts/dataops-automation-and-reliable-data-pipelines/), [/podcasts/mlops-model-monitoring-data-observability/](/podcasts/mlops-model-monitoring-data-observability/)
-- `mentorship` (3): mentorship. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/), [/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/](/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/)
-- `data-scientists` (3): data scientists. Episodes: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/), [/podcasts/ai-ml-product-design-and-experimentation/](/podcasts/ai-ml-product-design-and-experimentation/), [/podcasts/how-to-break-into-data-science/](/podcasts/how-to-break-into-data-science/)
-- `founder` (3): founder. Episodes: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/), [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/), [/podcasts/building-open-source-nlp-tool/](/podcasts/building-open-source-nlp-tool/)
-- `system-design` (3): system design. Episodes: [/podcasts/machine-learning-system-design-interview/](/podcasts/machine-learning-system-design-interview/), [/podcasts/building-scalable-and-reliable-machine-learning-systems/](/podcasts/building-scalable-and-reliable-machine-learning-systems/), [/podcasts/ml-system-design/](/podcasts/ml-system-design/)
-- `career-switch` (3): career switch. Episodes: [/podcasts/data-engineering-leadership-and-modern-data-platforms/](/podcasts/data-engineering-leadership-and-modern-data-platforms/), [/podcasts/how-to-switch-to-ml-tech-without-experience/](/podcasts/how-to-switch-to-ml-tech-without-experience/), [/podcasts/get-data-analytics-and-data-engineering-job/](/podcasts/get-data-analytics-and-data-engineering-job/)
-- `healthcare` (3): healthcare. Episodes: [/podcasts/ai-in-healthcare-and-digital-therapeutics/](/podcasts/ai-in-healthcare-and-digital-therapeutics/), [/podcasts/building-healthcare-machine-learning-systems/](/podcasts/building-healthcare-machine-learning-systems/), [/podcasts/building-ai-digital-health-startups/](/podcasts/building-ai-digital-health-startups/)
-- `business-development` (3): business development. Episodes: [/podcasts/data-consulting-business-pricing-and-client-acquisition/](/podcasts/data-consulting-business-pricing-and-client-acquisition/), [/podcasts/from-data-freelancer-to-startup-open-source-products/](/podcasts/from-data-freelancer-to-startup-open-source-products/), [/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/](/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/)
-- `bioinformatics` (3): bioinformatics. Episodes: [/podcasts/learning-machine-learning-self-taught-bioinformatics/](/podcasts/learning-machine-learning-self-taught-bioinformatics/), [/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/](/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/), [/podcasts/bioinformatics-worflows-tools-and-data-science/](/podcasts/bioinformatics-worflows-tools-and-data-science/)
-- `remote-work` (3): remote work. Episodes: [/podcasts/from-startup-engineering-to-freelance-data-science/](/podcasts/from-startup-engineering-to-freelance-data-science/), [/podcasts/remote-data-engineering-work-and-building-iot-platforms/](/podcasts/remote-data-engineering-work-and-building-iot-platforms/), [/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/](/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/)
-- `retrieval-augmented-generation` (3): retrieval-augmented generation. Episodes: [/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/](/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/), [/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/](/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/), [/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/](/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/)
-- `data-analysis` (2): data analysis. Episodes: [/podcasts/data-team-roles/](/podcasts/data-team-roles/), [/podcasts/data-science-career-abc-framework/](/podcasts/data-science-career-abc-framework/)
-- `mentoring` (2): mentoring. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/), [/podcasts/teaching-mentoring-data-analytics-fintech/](/podcasts/teaching-mentoring-data-analytics-fintech/)
-- `technical-writing` (2): technical writing. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/), [/podcasts/data-journalism-python-visualization-storytelling/](/podcasts/data-journalism-python-visualization-storytelling/)
-- `use-case` (2): use case. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/), [/podcasts/data-strategy-and-dataops-for-ai-powered-products/](/podcasts/data-strategy-and-dataops-for-ai-powered-products/)
-- `monetization` (2): monetization. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/), [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
-- `ml-product` (2): ml product. Episodes: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/), [/podcasts/ml-product-manager-and-mlops-platform-strategy/](/podcasts/ml-product-manager-and-mlops-platform-strategy/)
-- `analytics` (2): analytics. Episodes: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/), [/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/](/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/)
-- `deep-learning` (2): deep learning. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/), [/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/](/podcasts/scaling-enterprise-ai-mlops-data-first-strategy/)
-- `social-media` (2): social media. Episodes: [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/), [/podcasts/how-to-stand-out-in-data-science/](/podcasts/how-to-stand-out-in-data-science/)
-- `data-engineer` (2): data engineer. Episodes: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/), [/podcasts/finops-for-data-engineers/](/podcasts/finops-for-data-engineers/)
-- `data-science-manager` (2): data science manager. Episodes: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/), [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/)
-- `science-manager` (2): science manager. Episodes: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/), [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/)
-- `data-engineers` (2): data engineers. Episodes: [/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/](/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/), [/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/](/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/)
-- `education` (2): education. Episodes: [/podcasts/visualizing-machine-learning-concepts-to-explain-ml/](/podcasts/visualizing-machine-learning-concepts-to-explain-ml/), [/podcasts/data-engineering-career-path-and-skills/](/podcasts/data-engineering-career-path-and-skills/)
-- `responsible-ai` (2): responsible ai. Episodes: [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/), [/podcasts/software-engineering-for-machine-learning/](/podcasts/software-engineering-for-machine-learning/)
-- `explainable-ai` (2): explainable ai. Episodes: [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/), [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/)
-- `fairness` (2): fairness. Episodes: [/podcasts/responsible-explainable-ai-bias-detection/](/podcasts/responsible-explainable-ai-bias-detection/), [/podcasts/fairness-in-ai-ml-engineering/](/podcasts/fairness-in-ai-ml-engineering/)
-- `management` (2): management. Episodes: [/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/), [/podcasts/data-science-management-and-agile-machine-learning/](/podcasts/data-science-management-and-agile-machine-learning/)
-- `learning-system-design` (2): learning system design. Episodes: [/podcasts/building-scalable-and-reliable-machine-learning-systems/](/podcasts/building-scalable-and-reliable-machine-learning-systems/), [/podcasts/ml-system-design/](/podcasts/ml-system-design/)
-- `interpretability` (2): interpretability. Episodes: [/podcasts/building-explainable-and-actionable-ai-ml-systems/](/podcasts/building-explainable-and-actionable-ai-ml-systems/), [/podcasts/interpretable-machine-learning/](/podcasts/interpretable-machine-learning/)
-- `information-retrieval` (2): information retrieval. Episodes: [/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/](/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/), [/podcasts/building-production-search-systems/](/podcasts/building-production-search-systems/)
-- `luke-whipps-recruiter` (1): luke whipps recruiter. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/)
-- `decade-data-analytics` (1): decade data analytics. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/)
-- `data-analytics-ai` (1): data analytics ai. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/)
-- `neural-ai-origin` (1): neural ai origin. Episodes: [/podcasts/get-data-scientist-job/](/podcasts/get-data-scientist-job/)
-- `cold-outreach` (1): cold outreach. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `career-journey-mining` (1): career journey mining. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `journey-mining-engineering` (1): journey mining engineering. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `mining-engineering-data` (1): mining engineering data. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `engineering-data-engineering` (1): engineering data engineering. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `data-engineering-leadership` (1): data engineering leadership. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `defining-mentoring-purpose` (1): defining mentoring purpose. Episodes: [/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/](/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/)
-- `career-transition-psychology` (1): career transition psychology. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/)
-- `transition-psychology-applied` (1): transition psychology applied. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/)
-- `psychology-applied-scientist` (1): psychology applied scientist. Episodes: [/podcasts/technical-writing-for-data-scientists/](/podcasts/technical-writing-for-data-scientists/)
-- `developer-advocacy-data` (1): developer advocacy data. Episodes: [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/)
-- `advocacy-data-science` (1): advocacy data science. Episodes: [/podcasts/devrel-data-science-open-source-tools/](/podcasts/devrel-data-science-open-source-tools/)
-- `contributing` (1): contributing. Episodes: [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/)
-- `design-student-data` (1): design student data. Episodes: [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/)
-- `student-data-scientist` (1): student data scientist. Episodes: [/podcasts/open-source-ml-contributions/](/podcasts/open-source-ml-contributions/)
-- `unix-engineer-ml` (1): unix engineer ml. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/)
-- `engineer-ml-engineering` (1): engineer ml engineering. Episodes: [/podcasts/mlops-kubeflow-model-monitoring/](/podcasts/mlops-kubeflow-model-monitoring/)
-- `feature-stores` (1): feature stores. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
-- `feature-stores-mlops` (1): feature stores mlops. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
-- `mechatronic-engineering-ml` (1): mechatronic engineering ml. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
-- `engineering-ml-platform` (1): engineering ml platform. Episodes: [/podcasts/mlops-feature-stores-feature-stores-feast-tecton/](/podcasts/mlops-feature-stores-feature-stores-feast-tecton/)
-- `decision-optimization` (1): decision optimization. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `dan-becker-decision` (1): dan becker decision. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `becker-decision-optimization` (1): becker decision optimization. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `gap-machine-learning` (1): gap machine learning. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `machine-learning-predictions` (1): machine learning predictions. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `learning-predictions-vs` (1): learning predictions vs.. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `predictions-vs-real-world` (1): predictions vs. real-world. Episodes: [/podcasts/machine-learning-decision-optimization/](/podcasts/machine-learning-decision-optimization/)
-- `personal-brand-defined` (1): personal brand defined. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `brand-defined-purpose` (1): brand defined purpose. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `defined-purpose-positioning` (1): defined purpose positioning. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `online-presence-first` (1): online presence first. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `presence-first-steps` (1): presence first steps. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `first-steps-mindset` (1): first steps mindset. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `publishing-medium-linkedin` (1): publishing medium linkedin. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `medium-linkedin-formats` (1): medium linkedin formats. Episodes: [/podcasts/personal-brand-for-data-professionals/](/podcasts/personal-brand-for-data-professionals/)
-- `ml-strategy` (1): ml strategy. Episodes: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
-- `vin-vashishta-journey` (1): vin vashishta journey. Episodes: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
-- `vashishta-journey-ml` (1): vashishta journey ml. Episodes: [/podcasts/make-money-with-machine-learning-roles-skills/](/podcasts/make-money-with-machine-learning-roles-skills/)
-- `public-speaking` (1): public speaking. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `ai-evangelism` (1): ai evangelism. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `ben-taylor-ai` (1): ben taylor ai. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `taylor-ai-evangelist` (1): taylor ai evangelist. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `ai-evangelist-datarobot` (1): ai evangelist datarobot. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `mindset-improvement-practice` (1): mindset improvement practice. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `improvement-practice-public` (1): improvement practice public. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `practice-public-speaking` (1): practice public speaking. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `public-speaking-growth` (1): public speaking growth. Episodes: [/podcasts/public-speaking-for-data-scientists/](/podcasts/public-speaking-for-data-scientists/)
-- `date-engineering` (1): date engineering. Episodes: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
-- `data-lake` (1): data lake. Episodes: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
-- `career-journey-google` (1): career journey google. Episodes: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
-- `journey-google-spotify` (1): journey google spotify. Episodes: [/podcasts/dataops-principles-and-scalable-data-platforms/](/podcasts/dataops-principles-and-scalable-data-platforms/)
-- `origin-story-launching` (1): origin story launching. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `story-launching-mlops` (1): story launching mlops. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `launching-mlops-community` (1): launching mlops community. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `pivot-meetups-turning` (1): pivot meetups turning. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `meetups-turning-events` (1): meetups turning events. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `early-hosting-lessons` (1): early hosting lessons. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `hosting-lessons-interview` (1): hosting lessons interview. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `lessons-interview-craft` (1): lessons interview craft. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `teaching-sales-career` (1): teaching sales career. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `sales-career-pivot` (1): sales career pivot. Episodes: [/podcasts/mlops-community-building-and-meetups/](/podcasts/mlops-community-building-and-meetups/)
-- `ksenia-focus-project` (1): ksenia focus project. Episodes: [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- `focus-project-management` (1): focus project management. Episodes: [/podcasts/project-manager-to-data-scientist/](/podcasts/project-manager-to-data-scientist/)
-- `kaggle-notebooks` (1): kaggle notebooks. Episodes: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- `transitioning-analytics-data` (1): transitioning analytics data. Episodes: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- `analytics-data-science` (1): analytics data science. Episodes: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- `career-path-statistics` (1): career path statistics. Episodes: [/podcasts/analytics-to-data-science-with-kaggle-portfolio/](/podcasts/analytics-to-data-science-with-kaggle-portfolio/)
-- `reducing-false-positives` (1): reducing false positives. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `bad-data` (1): bad data. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `reducing-false` (1): reducing false. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `false-positives` (1): false positives. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `profile-barr-moses` (1): profile barr moses. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `barr-moses-career` (1): barr moses career. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `moses-career-gainsight` (1): moses career gainsight. Episodes: [/podcasts/data-quality-data-observability-data-reliability/](/podcasts/data-quality-data-observability-data-reliability/)
-- `product-data` (1): product data. Episodes: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- `career-path-engineer` (1): career path engineer. Episodes: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- `path-engineer-recommenders` (1): path engineer recommenders. Episodes: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- `engineer-recommenders-data` (1): engineer recommenders data. Episodes: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- `recommenders-data-science` (1): recommenders data science. Episodes: [/podcasts/data-science-interview-and-cv-guide/](/podcasts/data-science-interview-and-cv-guide/)
-- `theme-bridging-data` (1): theme bridging data. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `bridging-data-management` (1): bridging data management. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `lior-data-product` (1): lior data product. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `data-product-journey` (1): data product journey. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `role-defined-data` (1): role defined data. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `defined-data-strategist` (1): defined data strategist. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `translator-between-business` (1): translator between business. Episodes: [/podcasts/data-translator-role-and-data-strategy/](/podcasts/data-translator-role-and-data-strategy/)
-- `physics` (1): physics. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/)
-- `maternity-leave` (1): maternity leave. Episodes: [/podcasts/from-physics-to-computer-vision-career-transition/](/podcasts/from-physics-to-computer-vision-career-transition/)
-- `learn-public` (1): learn public. Episodes: [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/)
-- `swyx-learn-public` (1): swyx learn public. Episodes: [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/)
-- `learn-public-movement` (1): learn public movement. Episodes: [/podcasts/developer-personal-brand-learn-in-public/](/podcasts/developer-personal-brand-learn-in-public/)
-- `dataled-academy-free` (1): dataled academy free. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `academy-free-learning` (1): academy free learning. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `free-learning-repository` (1): free learning repository. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `career-trajectory-integrations` (1): career trajectory integrations. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `trajectory-integrations-integromat` (1): trajectory integrations integromat. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `integrations-integromat-community` (1): integrations integromat community. Episodes: [/podcasts/data-led-growth-event-tracking-and-reverse-etl/](/podcasts/data-led-growth-event-tracking-and-reverse-etl/)
-- `theme-failures-linkedin` (1): theme failures linkedin. Episodes: [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/)
-- `failures-linkedin-omissions` (1): failures linkedin omissions. Episodes: [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/)
-- `career-journey-aviation` (1): career journey aviation. Episodes: [/podcasts/data-science-failures-and-mlops-lessons/](/podcasts/data-science-failures-and-mlops-lessons/)
-- `data-compliance` (1): data compliance. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `cloud` (1): cloud. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `data-catalog` (1): data catalog. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `researcher-data-governance` (1): researcher data governance. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `data-governance-google` (1): data governance google. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `governance-google-cloud` (1): governance google cloud. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `uri-product-management` (1): uri product management. Episodes: [/podcasts/cloud-data-governance/](/podcasts/cloud-data-governance/)
-- `analytics-engineer` (1): analytics engineer. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `victoria-perez-mola` (1): victoria perez mola. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `career-journey-systems` (1): career journey systems. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `journey-systems-engineering` (1): journey systems engineering. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `systems-engineering-erp` (1): systems engineering erp. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `engineering-erp-finance` (1): engineering erp finance. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `erp-finance-reporting` (1): erp finance reporting. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `daily-responsibilities-data` (1): daily responsibilities data. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `responsibilities-data-modeling` (1): responsibilities data modeling. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `data-modeling-pipelines` (1): data modeling pipelines. Episodes: [/podcasts/analytics-engineer-skills-tools/](/podcasts/analytics-engineer-skills-tools/)
-- `software-engineers` (1): software engineers. Episodes: [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/)
-- `santiago-director-computer` (1): santiago director computer. Episodes: [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/)
-- `director-computer-vision` (1): director computer vision. Episodes: [/podcasts/from-software-engineer-to-machine-learning/](/podcasts/from-software-engineer-to-machine-learning/)
-- `message-queues` (1): message queues. Episodes: [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/)
-- `andreas-kretz-plumber` (1): andreas kretz plumber. Episodes: [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/)
-- `kretz-plumber-data` (1): kretz plumber data. Episodes: [/podcasts/production-ml-pipelines-with-aws-and-kafka/](/podcasts/production-ml-pipelines-with-aws-and-kafka/)
-- `big-data` (1): big data. Episodes: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
-- `streaming-batch` (1): streaming batch. Episodes: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
-- `engineering-data` (1): engineering data. Episodes: [/podcasts/big-data-engineer-vs-data-scientist/](/podcasts/big-data-engineer-vs-data-scientist/)
-- `market-fit` (1): market fit. Episodes: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/)
-- `productizing-services` (1): productizing services. Episodes: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/)
-- `elena-samuylova-ml` (1): elena samuylova ml. Episodes: [/podcasts/building-mlops-startup/](/podcasts/building-mlops-startup/)
-- `career-path` (1): career path. Episodes: [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/)
-- `ben-wilson-databricks` (1): ben wilson databricks. Episodes: [/podcasts/machine-learning-engineering-production-best-practices/](/podcasts/machine-learning-engineering-production-best-practices/)
-- `humans-loop-mlops` (1): humans loop mlops. Episodes: [/podcasts/human-centered-mlops-and-model-monitoring/](/podcasts/human-centered-mlops-and-model-monitoring/)
-- `team-formation` (1): team formation. Episodes: [/podcasts/launch-and-build-retail-startup/](/podcasts/launch-and-build-retail-startup/)
-- `topic-freelancing-machine` (1): topic freelancing machine. Episodes: [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/)
-- `freelancing-machine-learning` (1): freelancing machine learning. Episodes: [/podcasts/freelancing-in-machine-learning/](/podcasts/freelancing-in-machine-learning/)
-- `olx-group` (1): olx group. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `marco-career-roles` (1): marco career roles. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `industry-experience-yahoo` (1): industry experience yahoo. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `experience-yahoo-facebook` (1): experience yahoo facebook. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `yahoo-facebook-twitter` (1): yahoo facebook twitter. Episodes: [/podcasts/chief-data-officer-data-strategy-and-org-design/](/podcasts/chief-data-officer-data-strategy-and-org-design/)
-- `data-structures` (1): data structures. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `algorithms` (1): algorithms. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `bloom-filters` (1): bloom filters. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `bloom-filter` (1): bloom filter. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `rocca-book-announcement` (1): rocca book announcement. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `career-path-web` (1): career path web. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `path-web-development` (1): path web development. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `web-development-twitter` (1): web development twitter. Episodes: [/podcasts/algorithms-data-structures-for-engineers/](/podcasts/algorithms-data-structures-for-engineers/)
-- `decoding-data-engineering` (1): decoding data engineering. Episodes: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `data-engineering-acronyms` (1): data engineering acronyms. Episodes: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `career-journey-marketing` (1): career journey marketing. Episodes: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `journey-marketing-ops` (1): journey marketing ops. Episodes: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `marketing-ops-analytics` (1): marketing ops analytics. Episodes: [/podcasts/data-engineering-tools-modern-data-stack/](/podcasts/data-engineering-tools-modern-data-stack/)
-- `metrics` (1): metrics. Episodes: [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
-- `merit-functions` (1): merit functions. Episodes: [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
-- `physics-phd-data` (1): physics phd data. Episodes: [/podcasts/ml-engineering-kpis-and-metrics-strategy/](/podcasts/ml-engineering-kpis-and-metrics-strategy/)
-- `career-path-data` (1): career path data. Episodes: [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/)
-- `path-data-science` (1): path data science. Episodes: [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/)
-- `solo-data-scientist` (1): solo data scientist. Episodes: [/podcasts/solopreneur-data-scientist/](/podcasts/solopreneur-data-scientist/)
-- `skills-swap` (1): skills swap. Episodes: [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/)
-- `mihail-roles-work` (1): mihail roles work. Episodes: [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/)
-- `stanford-nlp-early` (1): stanford nlp early. Episodes: [/podcasts/research-to-production-ml-systems-roadmap/](/podcasts/research-to-production-ml-systems-roadmap/)
-- `building-data` (1): building data. Episodes: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `business-alignment` (1): business alignment. Episodes: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `tammy-liang-career` (1): tammy liang career. Episodes: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `liang-career-path` (1): liang career path. Episodes: [/podcasts/building-and-scaling-data-team/](/podcasts/building-and-scaling-data-team/)
-- `locally-optimistic-community` (1): locally optimistic community. Episodes: [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
-- `locally-optimistic` (1): locally optimistic. Episodes: [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
-- `optimistic-community` (1): optimistic community. Episodes: [/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/](/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/)
-- `concept-focused-learning-vs` (1): concept-focused learning vs.. Episodes: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- `learning-vs-detail` (1): learning vs. detail. Episodes: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- `vs-detail-specialization` (1): vs. detail specialization. Episodes: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- `career-journey-naval` (1): career journey naval. Episodes: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- `journey-naval-nuclear` (1): journey naval nuclear. Episodes: [/podcasts/feature-engineering-model-monitoring-and-data-governance/](/podcasts/feature-engineering-model-monitoring-and-data-governance/)
-- `solopreneurship` (1): solopreneurship. Episodes: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- `university-teaching` (1): university teaching. Episodes: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- `topic-becoming-solopreneur` (1): topic becoming solopreneur. Episodes: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- `becoming-solopreneur-noah` (1): becoming solopreneur noah. Episodes: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- `solopreneur-noah-gift` (1): solopreneur noah gift. Episodes: [/podcasts/solopreneur-developer-and-data-professional/](/podcasts/solopreneur-developer-and-data-professional/)
-- `nick-singh-career` (1): nick singh career. Episodes: [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- `singh-career-book` (1): singh career book. Episodes: [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- `career-coaching-focus` (1): career coaching focus. Episodes: [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- `coaching-focus-helping` (1): coaching focus helping. Episodes: [/podcasts/data-interview-behavioral-and-portfolio-prep-guide/](/podcasts/data-interview-behavioral-and-portfolio-prep-guide/)
-- `data-science-expert` (1): data science expert. Episodes: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
-- `science-expert` (1): science expert. Episodes: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
-- `team-development` (1): team development. Episodes: [/podcasts/data-science-manager-vs-expert-hiring-guide/](/podcasts/data-science-manager-vs-expert-hiring-guide/)
-- `product-design` (1): product design. Episodes: [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/)
-- `career-path-technical` (1): career path technical. Episodes: [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/)
-- `path-technical-support` (1): path technical support. Episodes: [/podcasts/product-designer-to-data-product-manager/](/podcasts/product-designer-to-data-product-manager/)
-- `big-data-analytics` (1): big data analytics. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `nebula-stream` (1): nebula stream. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `eleni-tzirita-zacharatou-postdoctoral` (1): eleni tzirita-zacharatou postdoctoral. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `tzirita-zacharatou-postdoctoral-researcher` (1): tzirita-zacharatou postdoctoral researcher. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `academic-journey-athens` (1): academic journey athens. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `journey-athens-undergrad` (1): journey athens undergrad. Episodes: [/podcasts/big-data-analytics-and-postdoc-research/](/podcasts/big-data-analytics-and-postdoc-research/)
-- `career-journey-postdoc` (1): career journey postdoc. Episodes: [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/)
-- `journey-postdoc-data` (1): journey postdoc data. Episodes: [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/)
-- `postdoc-data-science` (1): postdoc data science. Episodes: [/podcasts/postdoc-to-data-science-lead-career-transition/](/podcasts/postdoc-to-data-science-lead-career-transition/)
+- `search` (114): search. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
+- `machine-learning` (112): machine learning. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
+- `data-science` (103): data science. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
+- `mlops` (80): mlops. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- `data-engineering` (68): data engineering. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html), [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `hiring` (58): hiring. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- `career-growth` (55): career growth. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `career-transition` (54): career transition. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- `rag` (54): rag. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- `leadership` (48): leadership. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `tools` (45): tools. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- `portfolio` (42): portfolio. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- `open-source` (38): open source. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `llms` (34): llms. Episodes: [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html), [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html), [https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html), [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
+- `data-quality` (28): data quality. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html), [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html), [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html), [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html), [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `software-engineering` (27): software engineering. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html), [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html), [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html), [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- `computer-vision` (21): computer vision. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html), [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html)
+- `reproducibility` (19): reproducibility. Episodes: [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html), [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
+- `freelance` (19): freelance. Episodes: [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html), [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html), [https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html), [https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html), [https://datatalks.club/podcast/how-to-break-into-data-science.html](https://datatalks.club/podcast/how-to-break-into-data-science.html)
+- `orchestration` (18): orchestration. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html), [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html), [https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)
+- `ai` (18): ai. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html), [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html), [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html), [https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html), [https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
+- `data-teams` (17): data teams. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html), [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `job-search` (17): job search. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html), [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html), [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html), [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- `data-governance` (17): data governance. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html), [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html), [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html), [https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html), [https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
+- `production` (16): production. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html), [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html), [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
+- `a-b-testing` (16): a/b testing. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html), [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html), [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html), [https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html), [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- `product-management` (15): product management. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html), [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html), [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
+- `privacy` (15): privacy. Episodes: [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/machine-learning-system-design-interview.html](https://datatalks.club/podcast/machine-learning-system-design-interview.html), [https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html), [https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html), [https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
+- `ml-engineering` (14): ml engineering. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html), [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
+- `experimentation` (14): experimentation. Episodes: [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html), [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html), [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html), [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- `community-building` (14): community building. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html), [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html), [https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html), [https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html)
+- `data-product` (14): data product. Episodes: [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html), [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html), [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html), [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html), [https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
+- `team-building` (13): team building. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html), [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `generative-ai` (13): generative ai. Episodes: [https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html), [https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html), [https://datatalks.club/podcast/devrel-open-source-machine-learning.html](https://datatalks.club/podcast/devrel-open-source-machine-learning.html), [https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html), [https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
+- `retrieval` (12): retrieval. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html), [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), [https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html), [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+- `embeddings` (12): embeddings. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html), [https://datatalks.club/podcast/machine-learning-system-design-interview.html](https://datatalks.club/podcast/machine-learning-system-design-interview.html), [https://datatalks.club/podcast/data-centric-ai.html](https://datatalks.club/podcast/data-centric-ai.html), [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html), [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
+- `nlp` (12): nlp. Episodes: [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html), [https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html), [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html), [https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
+- `data-strategy` (11): data strategy. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html), [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html), [https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html), [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
+- `dataops` (10): dataops. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html), [https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html), [https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
+- `entrepreneurship` (10): entrepreneurship. Episodes: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html), [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html), [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html), [https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
+- `communication` (9): communication. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html), [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html), [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `model-monitoring` (9): model monitoring. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html), [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html), [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
+- `academia` (9): academia. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html), [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html), [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html), [https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html)
+- `data-analytics` (8): data analytics. Episodes: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html), [https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html), [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html), [https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html), [https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
+- `ai-engineer` (8): ai engineer. Episodes: [https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html), [https://datatalks.club/podcast/trends-in-modern-data-engineering.html](https://datatalks.club/podcast/trends-in-modern-data-engineering.html), [https://datatalks.club/podcast/production-ready-ai-engineering.html](https://datatalks.club/podcast/production-ready-ai-engineering.html), [https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html), [https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html)
+- `practices` (7): practices. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/ab-testing-and-product-experimentation.html](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html), [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html), [https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html), [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
+- `developer-relations` (7): developer relations. Episodes: [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html), [https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html), [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html), [https://datatalks.club/podcast/devrel-open-source-machine-learning.html](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
+- `startups` (7): startups. Episodes: [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html), [https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html), [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html), [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html), [https://datatalks.club/podcast/building-ai-digital-health-startups.html](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
+- `analytics-engineering` (6): analytics engineering. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html), [https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html), [https://datatalks.club/podcast/data-engineering-career-path-and-skills.html](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html), [https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html), [https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+- `consulting` (6): consulting. Episodes: [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html), [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html), [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html), [https://datatalks.club/podcast/becoming-data-freelancer.html](https://datatalks.club/podcast/becoming-data-freelancer.html), [https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
+- `career-development` (5): career development. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html), [https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
+- `use-cases` (5): use cases. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html), [https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html), [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
+- `strategy` (5): strategy. Episodes: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html), [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html), [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html), [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html), [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html)
+- `product-analytics` (5): product analytics. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html), [https://datatalks.club/podcast/ab-testing-and-product-experimentation.html](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html), [https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html), [https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html), [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
+- `academic-research` (5): academic research. Episodes: [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html), [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html), [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html), [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html), [https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
+- `teaching` (5): teaching. Episodes: [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html), [https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html), [https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html), [https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html), [https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
+- `vector-databases` (5): vector databases. Episodes: [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html), [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html), [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html), [https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)
+- `ai-engineering` (5): ai engineering. Episodes: [https://datatalks.club/podcast/trends-in-modern-data-engineering.html](https://datatalks.club/podcast/trends-in-modern-data-engineering.html), [https://datatalks.club/podcast/production-ready-ai-engineering.html](https://datatalks.club/podcast/production-ready-ai-engineering.html), [https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html), [https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html), [https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)
+- `ml-platform` (4): ml platform. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html), [https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html), [https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
+- `project-management` (3): project management. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `startup` (3): startup. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
+- `data-scientist` (3): data scientist. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html), [https://datatalks.club/podcast/building-data-products-lead-data-scientist.html](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
+- `feature-store` (3): feature store. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html), [https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
+- `personal-brand` (3): personal brand. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html), [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html), [https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html)
+- `data-mesh` (3): data mesh. Episodes: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html), [https://datatalks.club/podcast/data-governance-data-access-management.html](https://datatalks.club/podcast/data-governance-data-access-management.html)
+- `data-observability` (3): data observability. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html), [https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html), [https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
+- `mentorship` (3): mentorship. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html), [https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
+- `data-scientists` (3): data scientists. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html), [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html), [https://datatalks.club/podcast/how-to-break-into-data-science.html](https://datatalks.club/podcast/how-to-break-into-data-science.html)
+- `founder` (3): founder. Episodes: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html), [https://datatalks.club/podcast/building-open-source-nlp-tool.html](https://datatalks.club/podcast/building-open-source-nlp-tool.html)
+- `system-design` (3): system design. Episodes: [https://datatalks.club/podcast/machine-learning-system-design-interview.html](https://datatalks.club/podcast/machine-learning-system-design-interview.html), [https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html), [https://datatalks.club/podcast/ml-system-design.html](https://datatalks.club/podcast/ml-system-design.html)
+- `career-switch` (3): career switch. Episodes: [https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html), [https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html](https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html), [https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
+- `healthcare` (3): healthcare. Episodes: [https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html), [https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html), [https://datatalks.club/podcast/building-ai-digital-health-startups.html](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
+- `business-development` (3): business development. Episodes: [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html), [https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html), [https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+- `bioinformatics` (3): bioinformatics. Episodes: [https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html), [https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html), [https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
+- `remote-work` (3): remote work. Episodes: [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html), [https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html), [https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+- `retrieval-augmented-generation` (3): retrieval-augmented generation. Episodes: [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html), [https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+- `data-analysis` (2): data analysis. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- `mentoring` (2): mentoring. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
+- `technical-writing` (2): technical writing. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
+- `use-case` (2): use case. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html), [https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
+- `monetization` (2): monetization. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html), [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
+- `ml-product` (2): ml product. Episodes: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html), [https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)
+- `analytics` (2): analytics. Episodes: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html), [https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html](https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html)
+- `deep-learning` (2): deep learning. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html), [https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html)
+- `social-media` (2): social media. Episodes: [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html), [https://datatalks.club/podcast/how-to-stand-out-in-data-science.html](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
+- `data-engineer` (2): data engineer. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html), [https://datatalks.club/podcast/finops-for-data-engineers.html](https://datatalks.club/podcast/finops-for-data-engineers.html)
+- `data-science-manager` (2): data science manager. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
+- `science-manager` (2): science manager. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
+- `data-engineers` (2): data engineers. Episodes: [https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html), [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
+- `education` (2): education. Episodes: [https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html), [https://datatalks.club/podcast/data-engineering-career-path-and-skills.html](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
+- `responsible-ai` (2): responsible ai. Episodes: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/software-engineering-for-machine-learning.html](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
+- `explainable-ai` (2): explainable ai. Episodes: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
+- `fairness` (2): fairness. Episodes: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
+- `management` (2): management. Episodes: [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html), [https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
+- `learning-system-design` (2): learning system design. Episodes: [https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html), [https://datatalks.club/podcast/ml-system-design.html](https://datatalks.club/podcast/ml-system-design.html)
+- `interpretability` (2): interpretability. Episodes: [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html), [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
+- `information-retrieval` (2): information retrieval. Episodes: [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html), [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html)
+- `luke-whipps-recruiter` (1): luke whipps recruiter. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
+- `decade-data-analytics` (1): decade data analytics. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
+- `data-analytics-ai` (1): data analytics ai. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
+- `neural-ai-origin` (1): neural ai origin. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
+- `cold-outreach` (1): cold outreach. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `career-journey-mining` (1): career journey mining. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `journey-mining-engineering` (1): journey mining engineering. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `mining-engineering-data` (1): mining engineering data. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `engineering-data-engineering` (1): engineering data engineering. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `data-engineering-leadership` (1): data engineering leadership. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `defining-mentoring-purpose` (1): defining mentoring purpose. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
+- `career-transition-psychology` (1): career transition psychology. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
+- `transition-psychology-applied` (1): transition psychology applied. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
+- `psychology-applied-scientist` (1): psychology applied scientist. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
+- `developer-advocacy-data` (1): developer advocacy data. Episodes: [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
+- `advocacy-data-science` (1): advocacy data science. Episodes: [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
+- `contributing` (1): contributing. Episodes: [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html)
+- `design-student-data` (1): design student data. Episodes: [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html)
+- `student-data-scientist` (1): student data scientist. Episodes: [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html)
+- `unix-engineer-ml` (1): unix engineer ml. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
+- `engineer-ml-engineering` (1): engineer ml engineering. Episodes: [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
+- `feature-stores` (1): feature stores. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+- `feature-stores-mlops` (1): feature stores mlops. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+- `mechatronic-engineering-ml` (1): mechatronic engineering ml. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+- `engineering-ml-platform` (1): engineering ml platform. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+- `decision-optimization` (1): decision optimization. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `dan-becker-decision` (1): dan becker decision. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `becker-decision-optimization` (1): becker decision optimization. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `gap-machine-learning` (1): gap machine learning. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `machine-learning-predictions` (1): machine learning predictions. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `learning-predictions-vs` (1): learning predictions vs.. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `predictions-vs-real-world` (1): predictions vs. real-world. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
+- `personal-brand-defined` (1): personal brand defined. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `brand-defined-purpose` (1): brand defined purpose. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `defined-purpose-positioning` (1): defined purpose positioning. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `online-presence-first` (1): online presence first. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `presence-first-steps` (1): presence first steps. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `first-steps-mindset` (1): first steps mindset. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `publishing-medium-linkedin` (1): publishing medium linkedin. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `medium-linkedin-formats` (1): medium linkedin formats. Episodes: [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
+- `ml-strategy` (1): ml strategy. Episodes: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
+- `vin-vashishta-journey` (1): vin vashishta journey. Episodes: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
+- `vashishta-journey-ml` (1): vashishta journey ml. Episodes: [https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
+- `public-speaking` (1): public speaking. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `ai-evangelism` (1): ai evangelism. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `ben-taylor-ai` (1): ben taylor ai. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `taylor-ai-evangelist` (1): taylor ai evangelist. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `ai-evangelist-datarobot` (1): ai evangelist datarobot. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `mindset-improvement-practice` (1): mindset improvement practice. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `improvement-practice-public` (1): improvement practice public. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `practice-public-speaking` (1): practice public speaking. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `public-speaking-growth` (1): public speaking growth. Episodes: [https://datatalks.club/podcast/public-speaking-for-data-scientists.html](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- `date-engineering` (1): date engineering. Episodes: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- `data-lake` (1): data lake. Episodes: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- `career-journey-google` (1): career journey google. Episodes: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- `journey-google-spotify` (1): journey google spotify. Episodes: [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
+- `origin-story-launching` (1): origin story launching. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `story-launching-mlops` (1): story launching mlops. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `launching-mlops-community` (1): launching mlops community. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `pivot-meetups-turning` (1): pivot meetups turning. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `meetups-turning-events` (1): meetups turning events. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `early-hosting-lessons` (1): early hosting lessons. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `hosting-lessons-interview` (1): hosting lessons interview. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `lessons-interview-craft` (1): lessons interview craft. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `teaching-sales-career` (1): teaching sales career. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `sales-career-pivot` (1): sales career pivot. Episodes: [https://datatalks.club/podcast/mlops-community-building-and-meetups.html](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
+- `ksenia-focus-project` (1): ksenia focus project. Episodes: [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- `focus-project-management` (1): focus project management. Episodes: [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- `kaggle-notebooks` (1): kaggle notebooks. Episodes: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- `transitioning-analytics-data` (1): transitioning analytics data. Episodes: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- `analytics-data-science` (1): analytics data science. Episodes: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- `career-path-statistics` (1): career path statistics. Episodes: [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
+- `reducing-false-positives` (1): reducing false positives. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `bad-data` (1): bad data. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `reducing-false` (1): reducing false. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `false-positives` (1): false positives. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `profile-barr-moses` (1): profile barr moses. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `barr-moses-career` (1): barr moses career. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `moses-career-gainsight` (1): moses career gainsight. Episodes: [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- `product-data` (1): product data. Episodes: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- `career-path-engineer` (1): career path engineer. Episodes: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- `path-engineer-recommenders` (1): path engineer recommenders. Episodes: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- `engineer-recommenders-data` (1): engineer recommenders data. Episodes: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- `recommenders-data-science` (1): recommenders data science. Episodes: [https://datatalks.club/podcast/data-science-interview-and-cv-guide.html](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- `theme-bridging-data` (1): theme bridging data. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `bridging-data-management` (1): bridging data management. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `lior-data-product` (1): lior data product. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `data-product-journey` (1): data product journey. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `role-defined-data` (1): role defined data. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `defined-data-strategist` (1): defined data strategist. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `translator-between-business` (1): translator between business. Episodes: [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- `physics` (1): physics. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
+- `maternity-leave` (1): maternity leave. Episodes: [https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
+- `learn-public` (1): learn public. Episodes: [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
+- `swyx-learn-public` (1): swyx learn public. Episodes: [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
+- `learn-public-movement` (1): learn public movement. Episodes: [https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
+- `dataled-academy-free` (1): dataled academy free. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `academy-free-learning` (1): academy free learning. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `free-learning-repository` (1): free learning repository. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `career-trajectory-integrations` (1): career trajectory integrations. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `trajectory-integrations-integromat` (1): trajectory integrations integromat. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `integrations-integromat-community` (1): integrations integromat community. Episodes: [https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- `theme-failures-linkedin` (1): theme failures linkedin. Episodes: [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
+- `failures-linkedin-omissions` (1): failures linkedin omissions. Episodes: [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
+- `career-journey-aviation` (1): career journey aviation. Episodes: [https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
+- `data-compliance` (1): data compliance. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `cloud` (1): cloud. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `data-catalog` (1): data catalog. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `researcher-data-governance` (1): researcher data governance. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `data-governance-google` (1): data governance google. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `governance-google-cloud` (1): governance google cloud. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `uri-product-management` (1): uri product management. Episodes: [https://datatalks.club/podcast/cloud-data-governance.html](https://datatalks.club/podcast/cloud-data-governance.html)
+- `analytics-engineer` (1): analytics engineer. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `victoria-perez-mola` (1): victoria perez mola. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `career-journey-systems` (1): career journey systems. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `journey-systems-engineering` (1): journey systems engineering. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `systems-engineering-erp` (1): systems engineering erp. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `engineering-erp-finance` (1): engineering erp finance. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `erp-finance-reporting` (1): erp finance reporting. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `daily-responsibilities-data` (1): daily responsibilities data. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `responsibilities-data-modeling` (1): responsibilities data modeling. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `data-modeling-pipelines` (1): data modeling pipelines. Episodes: [https://datatalks.club/podcast/analytics-engineer-skills-tools.html](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
+- `software-engineers` (1): software engineers. Episodes: [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+- `santiago-director-computer` (1): santiago director computer. Episodes: [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+- `director-computer-vision` (1): director computer vision. Episodes: [https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+- `message-queues` (1): message queues. Episodes: [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
+- `andreas-kretz-plumber` (1): andreas kretz plumber. Episodes: [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
+- `kretz-plumber-data` (1): kretz plumber data. Episodes: [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
+- `big-data` (1): big data. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- `streaming-batch` (1): streaming batch. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- `engineering-data` (1): engineering data. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
+- `market-fit` (1): market fit. Episodes: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html)
+- `productizing-services` (1): productizing services. Episodes: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html)
+- `elena-samuylova-ml` (1): elena samuylova ml. Episodes: [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html)
+- `career-path` (1): career path. Episodes: [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
+- `ben-wilson-databricks` (1): ben wilson databricks. Episodes: [https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
+- `humans-loop-mlops` (1): humans loop mlops. Episodes: [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
+- `team-formation` (1): team formation. Episodes: [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
+- `topic-freelancing-machine` (1): topic freelancing machine. Episodes: [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
+- `freelancing-machine-learning` (1): freelancing machine learning. Episodes: [https://datatalks.club/podcast/freelancing-in-machine-learning.html](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
+- `olx-group` (1): olx group. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `marco-career-roles` (1): marco career roles. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `industry-experience-yahoo` (1): industry experience yahoo. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `experience-yahoo-facebook` (1): experience yahoo facebook. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `yahoo-facebook-twitter` (1): yahoo facebook twitter. Episodes: [https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
+- `data-structures` (1): data structures. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `algorithms` (1): algorithms. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `bloom-filters` (1): bloom filters. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `bloom-filter` (1): bloom filter. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `rocca-book-announcement` (1): rocca book announcement. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `career-path-web` (1): career path web. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `path-web-development` (1): path web development. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `web-development-twitter` (1): web development twitter. Episodes: [https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
+- `decoding-data-engineering` (1): decoding data engineering. Episodes: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `data-engineering-acronyms` (1): data engineering acronyms. Episodes: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `career-journey-marketing` (1): career journey marketing. Episodes: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `journey-marketing-ops` (1): journey marketing ops. Episodes: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `marketing-ops-analytics` (1): marketing ops analytics. Episodes: [https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- `metrics` (1): metrics. Episodes: [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- `merit-functions` (1): merit functions. Episodes: [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- `physics-phd-data` (1): physics phd data. Episodes: [https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+- `career-path-data` (1): career path data. Episodes: [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+- `path-data-science` (1): path data science. Episodes: [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+- `solo-data-scientist` (1): solo data scientist. Episodes: [https://datatalks.club/podcast/solopreneur-data-scientist.html](https://datatalks.club/podcast/solopreneur-data-scientist.html)
+- `skills-swap` (1): skills swap. Episodes: [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
+- `mihail-roles-work` (1): mihail roles work. Episodes: [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
+- `stanford-nlp-early` (1): stanford nlp early. Episodes: [https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
+- `building-data` (1): building data. Episodes: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `business-alignment` (1): business alignment. Episodes: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `tammy-liang-career` (1): tammy liang career. Episodes: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `liang-career-path` (1): liang career path. Episodes: [https://datatalks.club/podcast/building-and-scaling-data-team.html](https://datatalks.club/podcast/building-and-scaling-data-team.html)
+- `locally-optimistic-community` (1): locally optimistic community. Episodes: [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- `locally-optimistic` (1): locally optimistic. Episodes: [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- `optimistic-community` (1): optimistic community. Episodes: [https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- `concept-focused-learning-vs` (1): concept-focused learning vs.. Episodes: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- `learning-vs-detail` (1): learning vs. detail. Episodes: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- `vs-detail-specialization` (1): vs. detail specialization. Episodes: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- `career-journey-naval` (1): career journey naval. Episodes: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- `journey-naval-nuclear` (1): journey naval nuclear. Episodes: [https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- `solopreneurship` (1): solopreneurship. Episodes: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- `university-teaching` (1): university teaching. Episodes: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- `topic-becoming-solopreneur` (1): topic becoming solopreneur. Episodes: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- `becoming-solopreneur-noah` (1): becoming solopreneur noah. Episodes: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- `solopreneur-noah-gift` (1): solopreneur noah gift. Episodes: [https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
+- `nick-singh-career` (1): nick singh career. Episodes: [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- `singh-career-book` (1): singh career book. Episodes: [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- `career-coaching-focus` (1): career coaching focus. Episodes: [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- `coaching-focus-helping` (1): coaching focus helping. Episodes: [https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- `data-science-expert` (1): data science expert. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
+- `science-expert` (1): science expert. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
+- `team-development` (1): team development. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
+- `product-design` (1): product design. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
+- `career-path-technical` (1): career path technical. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
+- `path-technical-support` (1): path technical support. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
+- `big-data-analytics` (1): big data analytics. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `nebula-stream` (1): nebula stream. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `eleni-tzirita-zacharatou-postdoctoral` (1): eleni tzirita-zacharatou postdoctoral. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `tzirita-zacharatou-postdoctoral-researcher` (1): tzirita-zacharatou postdoctoral researcher. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `academic-journey-athens` (1): academic journey athens. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `journey-athens-undergrad` (1): journey athens undergrad. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
+- `career-journey-postdoc` (1): career journey postdoc. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
+- `journey-postdoc-data` (1): journey postdoc data. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
+- `postdoc-data-science` (1): postdoc data science. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)

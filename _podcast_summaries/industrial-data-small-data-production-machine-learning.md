@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-industrial-data-cha
 
 # Episode: Master Industrial Data: Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rwuud5wr3J4)
 - [Listen on Spotify](https://open.spotify.com/episode/1o6rtfFydBVoc0ER5ZUiRQ?si=rkgzEFquSfql4Za6cyjX2g)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/navigating-industrial-data-challenges-rosona-eldred/id1541710331?i=1000608992445)
 
-## Episode Overview
-
-This episode covers Master Industrial Data - Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps.
-
-## Episode Value
-
-This episode covers Master Industrial Data - Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps.
-
-Agents should consider this episode when working on industrial data, synthetic tabular data, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Rosona Eldred](https://datatalks.club/people/rosonaeldred.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - industrial data
 - synthetic tabular data
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:23 - [Episode Intro: Guest Overview & Synthetic Tabular Data Focus](https://www.youtube.com/watch?v=rwuud5wr3J4&t=83)
 - 2:38 - [Career Pivot: From PhD Algebraic Topology to Industry](https://www.youtube.com/watch?v=rwuud5wr3J4&t=158)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:05 - [Career Motivation: Choosing Industry Over Academia](https://www.youtube.com/watch?v=rwuud5wr3J4&t=3545)
 - 1:00:40 - [Industry Work Culture: Shop Floor Interactions and Research Flavor](https://www.youtube.com/watch?v=rwuud5wr3J4&t=3640)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around industrial data, synthetic tabular data, MLOps.
-- First pass reading starts with Episode Intro: Guest Overview & Synthetic Tabular Data Focus, Career Pivot: From PhD Algebraic Topology to Industry, Academic Roots: 3D Topological Models and Research Background, Mathematical Mindset: Logical Reasoning, Proof-Style Thinking for Data.
-- Source file: `datatalksclub.github.io/_podcast/industrial-data-small-data-production-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve industrial data, synthetic tabular data, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/industrial-data-small-data-production-machine-learning.md`

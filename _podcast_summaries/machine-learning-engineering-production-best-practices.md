@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wi
 
 # Episode: Practical Machine Learning Engineering for Production: Ship Maintainable Models, Avoid Complexity
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=sMy8NYZnsy8)
 - [Listen on Spotify](https://open.spotify.com/episode/2TxcU3eF7hjkAEzAJcYMAg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wilson/id1541710331?i=1000529834651)
 
-## Episode Overview
-
-This episode covers Practical Machine Learning Engineering for Production - Ship Maintainable Models, Avoid Complexity.
-
-## Episode Value
-
-This episode covers Practical Machine Learning Engineering for Production - Ship Maintainable Models, Avoid Complexity.
-
-Agents should consider this episode when working on machine learning, career growth, production.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ben Wilson](https://datatalks.club/people/benwilson.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - career growth
 - production
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction: Running from Complexity](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=0)
 - 2:14 - [Guest Introduction: Ben Wilson, Databricks and ML engineering focus](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=134)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:04:34 - [Manager Enablement: Tech leads translating ML for nontechnical managers](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=3874)
 - 1:07:58 - [Career Path Advice: Core fundamentals, specialization timeline, and leadership](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=4078)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, career growth, production.
-- First pass reading starts with Guest Introduction: Ben Wilson, Databricks and ML engineering focus, Career Path: Navy nuclear tech to process engineering and data science, Consulting Approach: Prioritizing maintainability over novelty, Code Quality: Refactoring "walls of text" into modular, testable code.
-- Source file: `datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, career growth, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`

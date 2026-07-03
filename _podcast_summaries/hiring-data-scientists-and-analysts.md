@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-professionals-
 
 # Episode: Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=WSMDXsjKYx4)
 - [Listen on Spotify](https://open.spotify.com/episode/4LFZX7IfpdYkQ6si4ed0OR)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/recruiting-data-professionals-alicja-notowska/id1541710331?i=1000549307220)
 
-## Episode Overview
-
-This episode covers Hiring Data Scientists & Analysts - Talent Pipelines, Job Specs, CV Screening & Salary Tips.
-
-## Episode Value
-
-This episode covers Hiring Data Scientists & Analysts - Talent Pipelines, Job Specs, CV Screening & Salary Tips.
-
-Agents should consider this episode when working on data science, data analytics, job search.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Alicja Notowska](https://datatalks.club/people/alicjanotowska.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - data analytics
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - hiring
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=0)
 - 2:05 - [Guest Background & Recruiting Experience](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=125)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:37 - [Making a Strong Impression: Clear Explanations & Examples](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3697)
 - 1:01:49 - [Offer Etiquette: Communication, Commitments & Withdrawals](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3709)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, data analytics, job search, career transition, hiring.
-- First pass reading starts with Guest Background & Recruiting Experience, Current Role: Embedded Talent Agency & Client Lead, Typical Interview Funnel for Data Roles, End-to-End Recruiting Responsibilities.
-- Source file: `datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, data analytics, job search, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`

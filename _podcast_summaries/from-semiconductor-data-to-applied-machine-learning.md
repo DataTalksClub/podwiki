@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine
 
 # Episode: From Classical Guitar to Production ML: Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=B2tzuUg5uZs)
 - [Listen on Spotify](https://open.spotify.com/episode/1znRtNRf5IUYcBblJYH53r)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine-learning-a-career-in/id1541710331?i=1000731197034)
 
-## Episode Overview
-
-This episode covers From Classical Guitar to Production ML - Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning.
-
-## Episode Value
-
-This episode covers From Classical Guitar to Production ML - Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning.
-
-Agents should consider this episode when working on machine learning, MLOps, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Dashel Ruiz Perez](https://datatalks.club/people/dashelruizperez.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction & DataTalksClub](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=0)
 - 1:51 - [Guest Overview: Multidisciplinary Career Snapshot](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=111)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:10:28 - [Upcoming Offerings: AI-for-Developers, React, and LLM Coding](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=4228)
 - 1:12:49 - [Closing Remarks: Course Endorsement and Next Steps](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=4369)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, data science, tools, career transition.
-- First pass reading starts with Guest Overview: Multidisciplinary Career Snapshot, Career Pivot: From Classical Guitarist to Tech in Portland, Semiconductor Onboarding: Expediter Role and Fab Floor Experience, Fab Data Exposure: Millisecond Tool Logs and Process Telemetry.
-- Source file: `datatalksclub.github.io/_podcast/from-semiconductor-data-to-applied-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, data science, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-semiconductor-data-to-applied-machine-learning.md`

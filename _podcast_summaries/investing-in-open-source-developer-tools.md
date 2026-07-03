@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/investing-in-open-source-data-
 
 # Episode: Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7Bg1JQLnCao)
 - [Listen on Spotify](https://open.spotify.com/episode/6mHnZ3IswczK46UP3MBp4d?si=KkrbjXmJSaiWbq3d9BzTUQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/investing-in-open-source-data-tools-bela-wiertz/id1541710331?i=1000621912675)
 
-## Episode Overview
-
-This episode covers Early-Stage Investing in Open Source Developer Tools - Deal Sourcing, Due Diligence & Commercialization Models.
-
-## Episode Value
-
-This episode covers Early-Stage Investing in Open Source Developer Tools - Deal Sourcing, Due Diligence & Commercialization Models.
-
-Agents should consider this episode when working on open source, tools, investing.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Bela Wiertz](https://datatalks.club/people/belawiertz.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - open source
 - tools
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - fundraising
 - early-stage startups
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Start & Welcome](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=0)
 - 1:15 - [Guest Overview: Bela's Role at a Family Office](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=75)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:26 - [Recent Open Source Successes: Hugging Face, Supabase, Kong, Qdrant](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3446)
 - 1:00:18 - [Recommended Reading & Resources on Investing and Community Building](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3618)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around open source, tools, investing, fundraising, early-stage startups.
-- First pass reading starts with Episode Start & Welcome, Guest Overview: Bela's Role at a Family Office, Career Path: From Business Studies to Open Source Investing, Commercializing Open Source Communities: Company Builder Insights.
-- Source file: `datatalksclub.github.io/_podcast/investing-in-open-source-developer-tools.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve open source, tools, investing, fundraising, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/investing-in-open-source-developer-tools.md`

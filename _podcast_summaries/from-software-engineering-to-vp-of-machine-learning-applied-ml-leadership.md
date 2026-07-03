@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-succes
 
 # Episode: From Software Engineer to VP of Machine Learning: Stakeholder Buy-In, Rapid POCs and Full-Stack Skills
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=su2M058m3Lw)
 - [Listen on Spotify](https://open.spotify.com/episode/2c8E0hZ02osih7ljEB6I6f?si=lSPp07r4TgmpGQey0cUjsA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-success-in-machine-learning/id1541710331?i=1000635206953)
 
-## Episode Overview
-
-This episode covers From Software Engineer to VP of Machine Learning - Stakeholder Buy-In, Rapid POCs and Full-Stack Skills.
-
-## Episode Value
-
-This episode covers From Software Engineer to VP of Machine Learning - Stakeholder Buy-In, Rapid POCs and Full-Stack Skills.
-
-Agents should consider this episode when working on machine learning, MLOps, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Jack Blandin](https://datatalks.club/people/jackblandin.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - leadership
 - software engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=su2M058m3Lw&t=0)
 - 0:13 - [Guest Overview: Jack's career arc from software engineer to VP of ML](https://www.youtube.com/watch?v=su2M058m3Lw&t=13)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:37 - [New Venture: Reimagining hiring and recruiting for ML/data roles](https://www.youtube.com/watch?v=su2M058m3Lw&t=3037)
 - 53:02 - [Episode Wrap-Up and Final Remarks](https://www.youtube.com/watch?v=su2M058m3Lw&t=3182)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, tools, career transition, leadership, software engineering.
-- First pass reading starts with Guest Overview: Jack's career arc from software engineer to VP of ML, Career Pivot: Transition from full-stack engineering to data science, Early Leadership: Informal management and promotion at GoHealth, Rapid Advancement: Reflections on moving from IC to manager.
-- Source file: `datatalksclub.github.io/_podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, tools, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.md`

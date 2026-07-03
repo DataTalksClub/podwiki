@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/bridging-data-science-and-heal
 
 # Episode: Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=pDOwlulDh0c)
 - [Listen on Spotify](https://open.spotify.com/episode/5W6lfZVhjIKEmVzBuexfzE?si=0nUHr66eQa6oPVJDb3d0rw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/bridging-data-science-and-healthcare-eleni-stamatelou/id1541710331?i=1000632040444)
 
-## Episode Overview
-
-This episode covers Building Healthcare ML Systems - From Sepsis Prediction to Low-Resource Clinical Deployment.
-
-## Episode Value
-
-This episode covers Building Healthcare ML Systems - From Sepsis Prediction to Low-Resource Clinical Deployment.
-
-Agents should consider this episode when working on machine learning, data science, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Eleni Stamatelou](https://datatalks.club/people/elenistamatelou.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - data science
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - data governance
 - healthcare
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=pDOwlulDh0c&t=0)
 - 0:44 - [Guest Overview: Elena Stamatelou - ML researcher focused on healthcare](https://www.youtube.com/watch?v=pDOwlulDh0c&t=44)
@@ -85,16 +68,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:50 - [Job Market & Funding: demand for healthcare data scientists and research](https://www.youtube.com/watch?v=pDOwlulDh0c&t=3410)
 - 58:59 - [Closing Remarks and Resources (publications, GitHub, LinkedIn)](https://www.youtube.com/watch?v=pDOwlulDh0c&t=3539)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, data science, MLOps, data engineering, data governance, healthcare.
-- First pass reading starts with Guest Overview: Elena Stamatelou - ML researcher focused on healthcare, Education & Early Career: University of Patras, Erasmus, VUB/ULB, Moving to the Netherlands: Philips Healthcare internship and doctorate in, Philips Healthcare Projects: C-arm imaging and pregnancy monitoring.
-- Source file: `datatalksclub.github.io/_podcast/building-healthcare-machine-learning-systems.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, data science, MLOps, data engineering, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-healthcare-machine-learning-systems.md`

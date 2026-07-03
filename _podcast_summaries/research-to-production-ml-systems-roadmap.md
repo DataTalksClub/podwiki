@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-researchers-and-engineers
 
 # Episode: From Research to Production: Build Reproducible, Deployable Full-Stack ML Systems
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=d9xVXqKq3sU)
 - [Listen on Spotify](https://open.spotify.com/episode/0cJJCjK7nX5p1PdeMvGrVL)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/what-researchers-and-engineers-can-learn-from-each/id1541710331?i=1000537258362)
 
-## Episode Overview
-
-This episode covers From Research to Production - Build Reproducible, Deployable Full-Stack ML Systems.
-
-## Episode Value
-
-This episode covers From Research to Production - Build Reproducible, Deployable Full-Stack ML Systems.
-
-Agents should consider this episode when working on machine learning, MLOps, academia.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Mihail Eric](https://datatalks.club/people/mihaileric.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - MLOps
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - production
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:17 - [Podcast Introduction](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=77)
 - 1:52 - [Guest Overview: Mihail's Roles and Work](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=112)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:56 - [Confetti.ai: Career Preparation and Learning Resources for ML Roles](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=3536)
 - 1:01:40 - [Contact & Resources: Twitter, LinkedIn, and Confetti.ai](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=3700)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, MLOps, academia, production, career growth.
-- First pass reading starts with Guest Overview: Mihail's Roles and Work, Guest Background: Stanford NLP and Early Research, From NLP to Self-Driving: Shared Long-Tail Challenges, Transition to Industry: Building Engineering Foundations.
-- Source file: `datatalksclub.github.io/_podcast/research-to-production-ml-systems-roadmap.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, MLOps, academia, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/research-to-production-ml-systems-roadmap.md`

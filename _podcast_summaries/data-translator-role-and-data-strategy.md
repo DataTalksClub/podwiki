@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/effective-communication-busine
 
 # Episode: Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gqroEsTyLD0)
 - [Listen on Spotify](https://open.spotify.com/episode/4RF592cRWxHgcXbx6pV0Ja)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/effective-communication-business-for-data-professionals/id1541710331?i=1000519463715)
 
-## Episode Overview
-
-This episode covers Data Strategist Guide - Effective Communication to Bridge Data Teams & Management for Data-Driven Growth.
-
-## Episode Value
-
-This episode covers Data Strategist Guide - Effective Communication to Bridge Data Teams & Management for Data-Driven Growth.
-
-Agents should consider this episode when working on data strategy, communication, project management.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lior Barak](https://datatalks.club/people/liorbarak.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data strategy
 - communication
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - leadership
 - data teams
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gqroEsTyLD0&t=0)
 - 1:31 - [Episode Theme: Bridging Data & Management](https://www.youtube.com/watch?v=gqroEsTyLD0&t=91)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:49 - [Data Chaos: Clearing requests, educating users, and leading growth](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3349)
 - 57:40 - [Resources & Contact: Lior''s LinkedIn, Twitter, and podcast](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3460)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data strategy, communication, project management, leadership, data teams.
-- First pass reading starts with Episode Theme: Bridging Data & Management, Guest Background: Lior''s data and product journey, Role Defined: Data strategist as translator between business and tech, Communication Tactics: Proactive alerts to maintain data trust.
-- Source file: `datatalksclub.github.io/_podcast/data-translator-role-and-data-strategy.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data strategy, communication, project management, leadership, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-translator-role-and-data-strategy.md`

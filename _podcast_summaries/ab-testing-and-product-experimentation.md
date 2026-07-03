@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541
 
 # Episode: Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0Gqx1LtqRZU)
 - [Listen on Spotify](https://open.spotify.com/episode/3LhBOO1UANCGbOwkntZt4j)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541710331?i=1000552243668)
 
-## Episode Overview
-
-This episode covers Product Analytics & A/B Testing - Causality, Metrics, Power Analysis, A/A Tests.
-
-## Episode Value
-
-This episode covers Product Analytics & A/B Testing - Causality, Metrics, Power Analysis, A/A Tests.
-
-Agents should consider this episode when working on data science, practices.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Jakob Graff](https://datatalks.club/people/jakobgraff.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data science
 - practices
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=0)
 - 1:03 - [Guest Background & Career Transition to Data Science](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=63)
@@ -72,16 +55,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:52 - [Practical Experimentation Tips & Analogies (Pizza Dough)](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=3772)
 - 1:03:59 - [Hiring, Resources & Contact Information](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=3839)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, practices.
-- First pass reading starts with Guest Background & Career Transition to Data Science, Econometrics to Product Analytics: Causality Emphasis, A/B Testing Explained: Clinical Trials Analogy & Randomization, Experimentation Purpose: Establishing Causality & Controlling Noise.
-- Source file: `datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, practices, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-an
 
 # Episode: AI for Ecology, Biodiversity, and Conservation: Computer Vision, Remote Sensing and Citizen Science
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=30tTrozbAkg)
 - [Listen on Spotify](https://open.spotify.com/episode/3Hhz5N8ZDvsOPlPP3wxQxq?si=Oz7y_pBrTfeypfYZXubu-g)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-and-conservation-tanya/id1541710331?i=1000653709956)
 
-## Episode Overview
-
-This episode covers AI for Ecology, Biodiversity, and Conservation - Computer Vision, Remote Sensing and Citizen Science.
-
-## Episode Value
-
-This episode covers AI for Ecology, Biodiversity, and Conservation - Computer Vision, Remote Sensing and Citizen Science.
-
-Agents should consider this episode when working on AI, computer vision, remote sensing.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Tanya Berger-Wolf](https://datatalks.club/people/tanyabergerwolf.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - AI
 - computer vision
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=30tTrozbAkg&t=0)
 - 1:10 - [Episode Overview: AI for Ecology, Biodiversity, and Conservation](https://www.youtube.com/watch?v=30tTrozbAkg&t=70)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:00 - [Future Directions: Emerging Research, LLMs, and Scaling AI for Conservation](https://www.youtube.com/watch?v=30tTrozbAkg&t=3480)
 - 1:00:30 - [Resources & Further Reading: Biodiversity and AI Report and Tools](https://www.youtube.com/watch?v=30tTrozbAkg&t=3630)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around AI, computer vision, remote sensing, MLOps, data engineering.
-- First pass reading starts with Episode Overview: AI for Ecology, Biodiversity, and Conservation, Guest Introduction: Tanya Berger-Wolf - Computational Ecology & Wildbook, Framing the Crisis: Biodiversity Loss and Data Gaps, AI Techniques Overview: Computer Vision, Machine Learning, Remote Sensing.
-- Source file: `datatalksclub.github.io/_podcast/ai-for-ecology-biodiversity-and-conservation.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve AI, computer vision, remote sensing, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/ai-for-ecology-biodiversity-and-conservation.md`

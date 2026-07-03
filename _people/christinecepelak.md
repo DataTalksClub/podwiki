@@ -1,7 +1,7 @@
 ---
 layout: person
 title: "Christine Cepelak"
-summary: "Christine Cepelak's DataTalks.Club podcast discussions, organized for topic exploration."
+summary: "Christine Cepelak's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/christinecepelak.html"
 podcast_episodes: ["data-science-for-public-policy-ethical-ai-social-impact"]
 github: "ccepelak"
@@ -9,13 +9,3 @@ twitter: "CLcep"
 linkedin: "christinecepelak"
 web: "https://christinecepelak.com/"
 ---
-
-# Christine Cepelak
-
-## Background
-
-Christine Cepelak is a writer and researcher of tech and social issues. She’s currently studying Data Science for Public Policy and previously spent years managing social programs and exploring data science for social good.
-
-## Podcast Discussions
-
-- [Data Science for Public Policy — Ethical AI, Climate Justice & Impact Projects](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html). Discussed: Episode Intro & Guest Christine Cepelak; Career Journey: Program Management to Data Science for Public Policy; Private vs Public Sector: Differences for Data Work; Public Policy Defined: Laws, Governance & Social Impact. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), public policy, ethical AI, social impact.

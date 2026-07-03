@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-
 
 # Episode: DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=z7BvslwVRbQ)
 - [Listen on Spotify](https://open.spotify.com/episode/7bVCKqn9fLt6ETq8hxId5V?si=GZSC3NbvRuyXD85iOQo51Q)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-bowne-anderson/id1541710331?i=1000617298688)
 
-## Episode Overview
-
-This episode covers DevRel Role for Machine Learning - ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow.
-
-## Episode Value
-
-This episode covers DevRel Role for Machine Learning - ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow.
-
-Agents should consider this episode when working on developer relations, machine learning, open-source.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - developer relations
 - machine learning
 - open-source
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=0)
 - 1:33 - [Guest Introduction: Hugo Bowne-Anderson, Outerbounds & Metaflow](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=93)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:12 - [Long-Form Conversations: Vanishing Gradients Podcast Overview](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=3372)
 - 58:23 - [Contact & Resources: Hugo Online, Outerbounds Slack & Links](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=3503)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around developer relations, machine learning, open-source.
-- First pass reading starts with Guest Introduction: Hugo Bowne-Anderson, Outerbounds & Metaflow, Metaflow Sandbox Demo & Full-Stack Machine Learning Spotlight, Career Path: From Biophysics Research to Data Science Education, Building Courses, Open-Source Collaboration & DataCamp Impact.
-- Source file: `datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve developer relations, machine learning, open-source, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`

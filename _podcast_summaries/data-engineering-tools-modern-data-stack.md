@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/making-sense-of-data-engineeri
 
 # Episode: ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=t9Z1S3OYnJU)
 - [Listen on Spotify](https://open.spotify.com/episode/1AvtwdcAXGGjdJ7fl0Hsuw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/making-sense-of-data-engineering-acronyms-and/id1541710331?i=1000534990760)
 
-## Episode Overview
-
-This episode covers ETL vs ELT & Data Lake vs Warehouse - Airbyte, dbt, CDC for Modern Data Engineering.
-
-## Episode Value
-
-This episode covers ETL vs ELT & Data Lake vs Warehouse - Airbyte, dbt, CDC for Modern Data Engineering.
-
-Agents should consider this episode when working on data engineering, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=0)
 - 1:34 - [Episode Overview: Decoding Data Engineering Acronyms](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=94)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 48:58 - [Schema Evolution: Handling Slowly Changing Attributes](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2938)
 - 49:32 - [Licensing Considerations: MIT, Cloud Products, and Future Choices](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2972)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, tools.
-- First pass reading starts with Episode Overview: Decoding Data Engineering Acronyms, Guest Career Journey: From Marketing Ops to Analytics & Growth, Airbyte Overview: ELT Focus and Connector Purpose, ETL Explained: Extract, Transform, Load (Traditional Model).
-- Source file: `datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`

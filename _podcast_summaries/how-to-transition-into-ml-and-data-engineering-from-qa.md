@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-testing-phones-to-managin
 
 # Episode: Transition from QA to Machine Learning & Data Engineering: Projects, Cloud & Interview Prep
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-xumbiXOlA8)
 - [Listen on Spotify](https://open.spotify.com/episode/1LMg70fGthIR2jF4JdmFkb?si=BmEfOtfgSEOpKvp5ENRA2g)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-testing-phones-to-managing-nlp-projects-alvaro/id1541710331?i=1000581943071)
 
-## Episode Overview
-
-This episode covers Transition from QA to Machine Learning & Data Engineering - Projects, Cloud & Interview Prep.
-
-## Episode Value
-
-This episode covers Transition from QA to Machine Learning & Data Engineering - Projects, Cloud & Interview Prep.
-
-Agents should consider this episode when working on QA, machine learning, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Alvaro Navas Peire](https://datatalks.club/people/alvaronavaspeire.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - QA
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - job search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-xumbiXOlA8&t=0)
 - 1:15 - [Early Life & Informatics Engineering; phone industry beginnings](https://www.youtube.com/watch?v=-xumbiXOlA8&t=75)
@@ -76,16 +59,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:11 - [Transition advice: programming background, math, and transferable skills](https://www.youtube.com/watch?v=-xumbiXOlA8&t=3371)
 - 1:00:26 - [CV and portfolio tips: visual résumé, GitHub visibility, and sample CV link](https://www.youtube.com/watch?v=-xumbiXOlA8&t=3626)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around QA, machine learning, data engineering, career transition, job search.
-- First pass reading starts with Early Life & Informatics Engineering; phone industry beginnings, Phone prototyping and field testing: QA checklists, CTS & RF testing, Career pivot: quitting QA, gap year, and discovering machine learning, Structured learning path: postgraduate course, Neuromatch Academy, ML & Data.
-- Source file: `datatalksclub.github.io/_podcast/how-to-transition-into-ml-and-data-engineering-from-qa.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve QA, machine learning, data engineering, career transition, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/how-to-transition-into-ml-and-data-engineering-from-qa.md`

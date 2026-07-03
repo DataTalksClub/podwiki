@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/interpretable-ai-and-ml-polina
 
 # Episode: Build Explainable and Actionable AI/ML Systems: Industrial PhD, Trust Theory & Production Deployment
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=EQcY83VA0Us)
 - [Listen on Spotify](https://open.spotify.com/episode/0p84r6bZmgKO514oC1HE2L?si=30L5gJoSS6Wtrghtdr3jYA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/interpretable-ai-and-ml-polina-mosolova/id1541710331?i=1000619926085)
 
-## Episode Overview
-
-This episode covers Build Explainable and Actionable AI/ML Systems - Industrial PhD, Trust Theory & Production Deployment.
-
-## Episode Value
-
-This episode covers Build Explainable and Actionable AI/ML Systems - Industrial PhD, Trust Theory & Production Deployment.
-
-Agents should consider this episode when working on machine learning, AI, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Polina Mosolova](https://datatalks.club/people/polinamosolova.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - machine learning
 - AI
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - explainable AI
 - interpretability
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Overview](https://www.youtube.com/watch?v=EQcY83VA0Us&t=0)
 - 1:14 - [Guest Introduction: Polina Mosolova - Industrial PhD and Churn Prediction](https://www.youtube.com/watch?v=EQcY83VA0Us&t=74)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:18 - [Measuring Trust: KPIs, Proxies, and Ethical Constraints](https://www.youtube.com/watch?v=EQcY83VA0Us&t=3498)
 - 1:00:29 - [Business Relevance: Practical Proxies for Trust and Prioritizing Product](https://www.youtube.com/watch?v=EQcY83VA0Us&t=3629)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, AI, MLOps, explainable AI, interpretability.
-- First pass reading starts with Episode Introduction & Overview, Guest Introduction: Polina Mosolova - Industrial PhD and Churn Prediction, Career Journey: Industrial PhD to Full-Stack Data Scientist at SAP, Role Evolution: From Full-Stack Data Scientist to MLOps Specialization.
-- Source file: `datatalksclub.github.io/_podcast/building-explainable-and-actionable-ai-ml-systems.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, AI, MLOps, explainable AI, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-explainable-and-actionable-ai-ml-systems.md`

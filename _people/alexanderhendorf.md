@@ -1,20 +1,10 @@
 ---
 layout: person
 title: "Alexander Hendorf"
-summary: "Alexander Hendorf's DataTalks.Club podcast discussions, organized for topic exploration."
+summary: "Alexander Hendorf's DataTalks.Club person index record."
 source_url: "https://datatalks.club/people/alexanderhendorf.html"
 podcast_episodes: ["scaling-enterprise-ai-mlops-data-first-strategy"]
 github: "alanderex"
 twitter: "hendorf"
 linkedin: "hendorf"
 ---
-
-# Alexander Hendorf
-
-## Background
-
-Alexander Hendorf is an independent AI strategy consultant specialising in regulated industries — finance, insurance, and critical infrastructure. Through opotoc GmbH, he advises organisations on building durable AI foundations rather than patchwork implementations.
-
-## Podcast Discussions
-
-- [Scale Enterprise AI: Data-First Strategies, MLOps Best Practices & Realistic Experiments](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html). Discussed: Guest Overview: Alexander Hendorf — Königsweg partner & PyData chair; Career Path: from law and DJing to programming and machine learning; Partner Role: team leadership, strategy, and client selection; Community Engagement: PyData, cross-domain learning, and meetups. Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).

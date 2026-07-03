@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-data-conference-the
 
 # Episode: Starting a Data Conference: The Data Makers Fest Story
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6Zx1jDQQScA)
 - [Listen on Spotify](https://open.spotify.com/episode/53hHdpoEFyJeMTfSVas595?si=mwk_BEoZS2O00nxqGjrNEA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/starting-a-data-conference-the-data-makers-fest/id1541710331?i=1000762031992)
 
-## Episode Overview
-
-This episode covers Starting a Data Conference - The Data Makers Fest Story.
-
-## Episode Value
-
-This episode covers Starting a Data Conference - The Data Makers Fest Story.
-
-Agents should consider this episode when working on community building, machine learning, leadership.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - community building
 - machine learning
 - leadership
 - search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Community Building in Data and AI](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=0)
 - 3:02 - [Computer Engineering and International Leadership Roots](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=182)
@@ -69,16 +52,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:44 - [The Forward Deployed Engineer Role and Methodology](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=3284)
 - 58:35 - [Professional Development for Junior Data Scientists](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=3515)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around community building, machine learning, leadership, search.
-- First pass reading starts with Community Building in Data and AI, Computer Engineering and International Leadership Roots, Machine Learning Research in Sports Physiology, Data Lead Club and Executive Networking Retreats.
-- Source file: `datatalksclub.github.io/_podcast/s23e09-starting-data-conference-data-makers-fest-story.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve community building, machine learning, leadership, search, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/s23e09-starting-data-conference-data-makers-fest-story.md`

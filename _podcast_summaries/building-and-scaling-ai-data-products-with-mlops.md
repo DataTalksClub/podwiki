@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-essentials-
 
 # Episode: Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=p4wg0Vd2uD4)
 - [Listen on Spotify](https://open.spotify.com/episode/1Oh6ewUJ2c1jiVcKxWIwDU)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/product-management-essentials-for-data-professionals/id1541710331?i=1000550093434)
 
-## Episode Overview
-
-This episode covers Build & Scale Data Products for AI - Roadmaps, MLOps, Customer Research & Metrics.
-
-## Episode Value
-
-This episode covers Build & Scale Data Products for AI - Roadmaps, MLOps, Customer Research & Metrics.
-
-Agents should consider this episode when working on product management, MLOps, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Greg Coquillo](https://datatalks.club/people/gregcoquillo.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - product management
 - MLOps
 - data engineering
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=0)
 - 1:43 - [Career Background & Transition to AI Products](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=103)
@@ -73,16 +56,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:44 - [Team Autonomy & Aligning Mental Models for Product Success](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3464)
 - 58:42 - [Career Advice: Learn Product Skills on the Job & Follow-up Resources](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3522)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around product management, MLOps, data engineering, data science.
-- First pass reading starts with Episode Introduction & Guest Overview, Career Background & Transition to AI Products, Role & Responsibilities of Data Product Managers (Internal vs External), Customer Journey & Domain Knowledge for Data Professionals.
-- Source file: `datatalksclub.github.io/_podcast/building-and-scaling-ai-data-products-with-mlops.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve product management, MLOps, data engineering, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-and-scaling-ai-data-products-with-mlops.md`

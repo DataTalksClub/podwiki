@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-led-profession
 
 # Episode: How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=8v5KpHWgyYw)
 - [Listen on Spotify](https://open.spotify.com/episode/2hg3Gi3h5OfdedXENwZwnU)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/becoming-a-data-led-professional-arpit-choudhury/id1541710331?i=1000523422699)
 
-## Episode Overview
-
-This episode covers How to Build a Data-Led Growth Stack - Event Tracking, Tracking Plans & Reverse ETL.
-
-## Episode Value
-
-This episode covers How to Build a Data-Led Growth Stack - Event Tracking, Tracking Plans & Reverse ETL.
-
-Agents should consider this episode when working on data engineering, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - data engineering
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=0)
 - 2:21 - [DataLed Academy: free learning, repository & podcast](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=141)
@@ -77,16 +60,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:48 - [Motivating documentation: culture, early habits & catalog tools](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3228)
 - 56:08 - [Product-led vs. data-led: activation events and personalized onboarding](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3368)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, tools.
-- First pass reading starts with DataLed Academy: free learning, repository & podcast, Career trajectory: integrations, Integromat & community growth, Growth marketing: A/B testing, personalization & product data, Marketer tooling: visual queries and self-serve data access.
-- Source file: `datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`

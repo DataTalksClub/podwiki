@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/conquering-the-last-mile-in-da
 
 # Episode: Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HfMpG2zpa2I)
 - [Listen on Spotify](https://open.spotify.com/episode/6SGjBev8koFDRpDvLV76ZQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/conquering-the-last-mile-in-data-caitlin-moorman/id1541710331?i=1000539421886)
 
-## Episode Overview
-
-This episode covers Last-Mile Data Delivery for the Modern Data Stack - Build Data Products to Boost Adoption.
-
-## Episode Value
-
-This episode covers Last-Mile Data Delivery for the Modern Data Stack - Build Data Products to Boost Adoption.
-
-Agents should consider this episode when working on data analytics, tools, product management.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data analytics
 - tools
 - product management
 - leadership
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode introduction & Locally Optimistic community](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=0)
 - 4:40 - [Career journey: private equity to modern data stacks](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=280)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:30 - [Advice for aspiring analysts: curiosity, business impact, and on-the-job](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=3690)
 - 1:03:53 - [Where to find Caitlin and the Locally Optimistic community](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=3833)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data analytics, tools, product management, leadership.
-- First pass reading starts with Episode introduction & Locally Optimistic community, Career journey: private equity to modern data stacks, Defining the "last mile" in data delivery, Modern data stack vs last-mile execution challenges.
-- Source file: `datatalksclub.github.io/_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data analytics, tools, product management, leadership, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md`

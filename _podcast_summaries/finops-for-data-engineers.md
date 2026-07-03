@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-supply-chain-management-t
 
 # Episode: FinOps for Data Engineers: Optimize Cloud Costs, BigQuery & Modern Data Stack
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/finops-for-data-engineers.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/finops-for-data-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7ePp6wuxM5s)
 - [Listen on Spotify](https://open.spotify.com/episode/33YZpX7zE6YcBGbQK9Iclp)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-supply-chain-management-to-digital-warehousing/id1541710331?i=1000702233986)
 
-## Episode Overview
-
-This episode covers FinOps for Data Engineers - Optimize Cloud Costs, BigQuery & Modern Data Stack.
-
-## Episode Value
-
-This episode covers FinOps for Data Engineers - Optimize Cloud Costs, BigQuery & Modern Data Stack.
-
-Agents should consider this episode when working on data engineering, finops, modern data stack.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data engineering
 - finops
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=0)
 - 1:35 - [Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=95)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:05 - [Career Advice: Certifications, Mentorship, Community and Time Management](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3365)
 - 59:32 - [Closing Remarks & Key Takeaways](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3572)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, finops, modern data stack, tools, career growth.
-- First pass reading starts with Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis, Career Origins: Industrial Engineering, Supply Chain & Excel Macros, Career Pivot: From Business Analyst to Data Engineering, Analyst Skills as a Foundation for Data Engineering.
-- Source file: `datatalksclub.github.io/_podcast/finops-for-data-engineers.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, finops, modern data stack, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/finops-for-data-engineers.md`

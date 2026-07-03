@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-reliable-ai-products-
 
 # Episode: Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=x2AAjqz2XmM)
 - [Listen on Spotify](https://open.spotify.com/episode/7c22vqYNuNLKKYEfYGOos8?si=NBFT2e80S6WErW_tDDrijA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-reliable-ai-products-in-the-era-of-gen/id1541710331?i=1000731199709)
 
-## Episode Overview
-
-This episode covers Building Agentic AI Systems - Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation.
-
-## Episode Value
-
-This episode covers Building Agentic AI Systems - Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation.
-
-Agents should consider this episode when working on LLMs, AI, agent engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - LLMs
 - AI
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Event Introduction & Community Links](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=0)
 - 3:12 - [Early ML Projects: Image Search with OpenCV](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=192)
@@ -85,16 +68,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:11 - [Specialization Challenge: Why Generic Agent Solutions Lag](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3491)
 - 59:06 - [Closing Thoughts & Future Outlook for Agent Engineering](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3546)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around LLMs, AI, agent engineering, retrieval-augmented generation, MLOps, tools.
-- First pass reading starts with Event Introduction & Community Links, Early ML Projects: Image Search with OpenCV, Speech Recognition & Language Modeling Experience, Transition to Recommendation Systems at Dropbox.
-- Source file: `datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve LLMs, AI, agent engineering, retrieval-augmented generation, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`

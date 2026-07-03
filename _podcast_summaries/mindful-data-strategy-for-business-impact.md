@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 
 # Episode: Mindful Data Strategy for Business Impact: Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=B76J4QkZPWs)
 - [Listen on Spotify](https://open.spotify.com/episode/54B0xvUI1eQjXW0s1eqgbI)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mindful-data-strategy-and/id1541710331?i=1000722107501)
 
-## Episode Overview
-
-This episode covers Mindful Data Strategy for Business Impact - Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance.
-
-## Episode Value
-
-This episode covers Mindful Data Strategy for Business Impact - Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance.
-
-Agents should consider this episode when working on data strategy, data governance, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Lior Barak](https://datatalks.club/people/liorbarak.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data strategy
 - data governance
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - product management
 - career transition
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction and Episode Overview (mindful data strategy)](https://www.youtube.com/watch?v=B76J4QkZPWs&t=0)
 - 2:24 - [Lior Barak: Background and shift from engineering to product](https://www.youtube.com/watch?v=B76J4QkZPWs&t=144)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:33 - [Career guidance: choosing analytics, engineering, or product paths](https://www.youtube.com/watch?v=B76J4QkZPWs&t=3753)
 - 1:04:36 - [Closing reflections, resources, and suggested next steps](https://www.youtube.com/watch?v=B76J4QkZPWs&t=3876)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data strategy, data governance, data engineering, product management, career transition.
-- First pass reading starts with Lior Barak: Background and shift from engineering to product, Startup and platform experience: automating data infrastructure, Product management learning paths for engineers and data scientists, Wabi-sabi applied to data: accepting imperfection and communicating it.
-- Source file: `datatalksclub.github.io/_podcast/mindful-data-strategy-for-business-impact.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data strategy, data governance, data engineering, product management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mindful-data-strategy-for-business-impact.md`

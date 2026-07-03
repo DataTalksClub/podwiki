@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-star
 
 # Episode: Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/lean-mlops-for-startups.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DX9c__a4jzg)
 - [Listen on Spotify](https://open.spotify.com/episode/6V8gkTSz7LuPjQYC4rO019)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-startups-nemanja-radojkovic/id1541710331?i=1000699195928)
 
-## Episode Overview
-
-This episode covers Lean MLOps for Startups - SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt.
-
-## Episode Value
-
-This episode covers Lean MLOps for Startups - SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt.
-
-Agents should consider this episode when working on MLOps, data engineering, tools.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - data engineering
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - startups
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=DX9c__a4jzg&t=0)
 - 2:15 - [Career Journey: Academia → Consulting → Finance Machine Learning Engineering](https://www.youtube.com/watch?v=DX9c__a4jzg&t=135)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:09 - [On-Premise vs Cloud: Privacy, Cost Efficiency, and Migration Strategy](https://www.youtube.com/watch?v=DX9c__a4jzg&t=3429)
 - 1:00:09 - [Distributed Compute Alternatives: Dask, Spark, and Performance Trade-offs](https://www.youtube.com/watch?v=DX9c__a4jzg&t=3609)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, data engineering, tools, production, career transition, startups.
-- First pass reading starts with Episode Introduction & Topic Overview, Career Journey: Academia → Consulting → Finance Machine Learning Engineering, Startup Pace: Agility, Speed, and Managerial Insights, Lean MLOps: Shoestring Strategies for Early-Stage Companies.
-- Source file: `datatalksclub.github.io/_podcast/lean-mlops-for-startups.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, data engineering, tools, production, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/lean-mlops-for-startups.md`

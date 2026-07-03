@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-system-design
 
 # Episode: ML System Design Interviews: Production ML, Fraud Detection, Features, A/B Testing & MLOps
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0RsmRjar66E)
 - [Listen on Spotify](https://open.spotify.com/episode/5tSLFOh8PGe1NFFz1of9Xe)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/machine-learning-system-design-interview-valerii-babushkin/id1541710331?i=1000551566652)
 
-## Episode Overview
-
-This episode covers ML System Design Interviews - Production ML, Fraud Detection, Features, A/B Testing & MLOps.
-
-## Episode Value
-
-This episode covers ML System Design Interviews - Production ML, Fraud Detection, Features, A/B Testing & MLOps.
-
-Agents should consider this episode when working on machine learning, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - machine learning
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=0RsmRjar66E&t=0)
 - 1:51 - [Valerii Background: Career Snapshot and Kaggle Achievements](https://www.youtube.com/watch?v=0RsmRjar66E&t=111)
@@ -78,16 +61,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:23 - [Validating in Production: A/B Tests, Causality, and Human Labels](https://www.youtube.com/watch?v=0RsmRjar66E&t=3443)
 - 59:01 - [Career Path: Moving from Data Science Practice to System Design](https://www.youtube.com/watch?v=0RsmRjar66E&t=3541)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around machine learning, career growth.
-- First pass reading starts with Valerii Background: Career Snapshot and Kaggle Achievements, Blockchain.com Role: Scope, Responsibilities, and Data Ownership, Transition to Meta: User Privacy Work and Large-Scale ML Experience, Hiring Experience: Conducting High-Volume Interviews and Team Leadership.
-- Source file: `datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve machine learning, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`

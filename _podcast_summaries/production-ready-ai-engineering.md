@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-miku
 
 # Episode: Production AI Engineering: Data Pipelines, Prompt Optimization and Caching
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ready-ai-engineering.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=BP6w_vKySN0)
 - [Listen on Spotify](https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-mikulski/id1541710331?i=1000700288876)
 
-## Episode Overview
-
-This episode covers Production AI Engineering - Data Pipelines, Prompt Optimization and Caching.
-
-## Episode Value
-
-This episode covers Production AI Engineering - Data Pipelines, Prompt Optimization and Caching.
-
-Agents should consider this episode when working on data engineering, AI, LLMs.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data engineering
 - AI
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - MLOps
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Overview (Data Intensive AI)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=0)
 - 2:02 - [Book Contribution Clarified & Testing Focus](https://www.youtube.com/watch?v=BP6w_vKySN0&t=122)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:17 - [AI-Assisted Writing: Drafting, Rewriting, and Maintaining Voice](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3377)
 - 1:00:21 - [Episode Wrap-Up & Guest Resources (blog link invitation)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3621)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, AI, LLMs, MLOps, tools.
-- First pass reading starts with Episode Opening & Guest Overview (Data Intensive AI), Book Contribution Clarified & Testing Focus, Career Path: Java → Data Engineering → AI Engineering, Publishing Routine: Blogging Frequency & Content Practice.
-- Source file: `datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, AI, LLMs, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`

@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-rise-of-mlops-theofilos-pa
 
 # Episode: Mastering MLOps: Kubeflow Pipelines, Model Monitoring & Automated Retraining
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-i0fVp0ntYA)
 - [Listen on Spotify](https://open.spotify.com/episode/3YPvzGQnfxl7Mo1VKE0l1K)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-rise-of-mlops-theofilos-papapanagiotou/id1541710331?i=1000507907719)
 
-## Episode Overview
-
-This episode covers Mastering MLOps - Kubeflow Pipelines, Model Monitoring & Automated Retraining.
-
-## Episode Value
-
-This episode covers Mastering MLOps - Kubeflow Pipelines, Model Monitoring & Automated Retraining.
-
-Agents should consider this episode when working on MLOps, machine learning, production.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Theofilos Papapanagiotou](https://datatalks.club/people/theofilospapapanagiotou.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - machine learning
 - production
 - tools
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=0)
 - 2:34 - [Episode Kickoff & Guest Overview](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=154)
@@ -86,16 +69,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:02:56 - [Breaking Silos: Language-Agnostic Pipelines and Collaboration](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=3776)
 - 1:04:59 - [Closing Remarks & Resource Links](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=3899)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, machine learning, production, tools.
-- First pass reading starts with Episode Kickoff & Guest Overview, Guest Background: From Unix Engineer to ML Engineering, Defining MLOps: Culture, Process, and Technology, DevOps vs MLOps: Model Lifecycle and Data Drift.
-- Source file: `datatalksclub.github.io/_podcast/mlops-kubeflow-model-monitoring.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, machine learning, production, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/mlops-kubeflow-model-monitoring.md`

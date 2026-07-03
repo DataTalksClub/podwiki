@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-business-acumen-for-d
 
 # Episode: Practical Data Science & ML: Feature Engineering, Model Monitoring, Data Governance & Storytelling
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=pImYf9ML95Q)
 - [Listen on Spotify](https://open.spotify.com/episode/4dFbkQI9pF4wUDueZFqxGY)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-business-acumen-for-data-professionals-thom-ives/id1541710331?i=1000540181044)
 
-## Episode Overview
-
-This episode covers Practical Data Science & ML - Feature Engineering, Model Monitoring, Data Governance & Storytelling.
-
-## Episode Value
-
-This episode covers Practical Data Science & ML - Feature Engineering, Model Monitoring, Data Governance & Storytelling.
-
-Agents should consider this episode when working on data science, machine learning, ai.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Thom Ives](https://datatalks.club/people/thomives.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - machine learning
 - ai
 - data engineering
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:15 - [Episode Introduction & Guest Thom Ives](https://www.youtube.com/watch?v=pImYf9ML95Q&t=75)
 - 1:50 - [Concept-focused learning vs. detail specialization](https://www.youtube.com/watch?v=pImYf9ML95Q&t=110)
@@ -76,16 +59,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:36 - [Integrated ML & AI community: structure, ethos, and free resources](https://www.youtube.com/watch?v=pImYf9ML95Q&t=3516)
 - 1:03:36 - [Joining the Slack community and accessing resources](https://www.youtube.com/watch?v=pImYf9ML95Q&t=3816)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, machine learning, ai, data engineering.
-- First pass reading starts with Episode Introduction & Guest Thom Ives, Concept-focused learning vs. detail specialization, Career journey: naval nuclear program, grad school, early AI, Industry roles: HP, ON Semiconductor, SaaS AI work.
-- Source file: `datatalksclub.github.io/_podcast/feature-engineering-model-monitoring-and-data-governance.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, machine learning, ai, data engineering, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/feature-engineering-model-monitoring-and-data-governance.md`

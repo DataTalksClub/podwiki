@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-i-learned-after-interview
 
 # Episode: Data Science Interview Guide: CV Optimization, Take-Home Projects, Mock Interviews & Negotiation
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=AYi7b-8GPm4)
 - [Listen on Spotify](https://open.spotify.com/episode/406wN6xDkYPyLS8i9fUJL5)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/what-i-learned-after-interviewing-300-data-scientists/id1541710331?i=1000520681105)
 
-## Episode Overview
-
-This episode covers Data Science Interview Guide - CV Optimization, Take-Home Projects, Mock Interviews & Negotiation.
-
-## Episode Value
-
-This episode covers Data Science Interview Guide - CV Optimization, Take-Home Projects, Mock Interviews & Negotiation.
-
-Agents should consider this episode when working on data science, software engineering, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Oleg Novikov](https://datatalks.club/people/olegnovikov.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - software engineering
@@ -51,9 +36,7 @@ Use these concepts for topic routing and graph connections.
 - career transition
 - job search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:16 - [Introduction & Episode Overview](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=76)
 - 2:00 - [Career Path: Engineer → Recommenders → Data Science Management](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=120)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:14 - [Key Lessons from Hundreds of Interviews: Avoid Bias & Iterate](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=3494)
 - 1:04:24 - [Rethinking CV Format: Historical Constraints and Modern Design](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=3864)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, software engineering, machine learning, career growth, career transition, job search.
-- First pass reading starts with Career Path: Engineer → Recommenders → Data Science Management, Differentiating Application: Building a Project to Showcase Skills, Product Data Science at Uber: Forecasting & LTV Work, NextRound: Mock Interview Chatbot with Personalized Feedback.
-- Source file: `datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, software engineering, machine learning, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`

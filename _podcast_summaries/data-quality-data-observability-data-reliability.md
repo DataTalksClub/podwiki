@@ -15,41 +15,24 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-observability-barr-moses/
 
 # Episode: Data Observability Explained: 5 Pillars to Prevent Downtime, Drift & False Positives
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=TrMG1SOqZkQ)
 - [Listen on Spotify](https://open.spotify.com/episode/48QcLAw2I1apC1jeo8e1sd)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-observability-barr-moses/id1541710331?i=1000518351217)
 
-## Episode Overview
-
-This episode covers Data Observability Explained - 5 Pillars to Prevent Downtime, Drift & False Positives.
-
-## Episode Value
-
-This episode covers Data Observability Explained - 5 Pillars to Prevent Downtime, Drift & False Positives.
-
-Agents should consider this episode when working on MLOps, data observability.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Barr Moses](https://datatalks.club/people/barrmoses.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - MLOps
 - data observability
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=0)
 - 1:48 - [Guest Profile: Barr Moses - career, GainSight, Monte Carlo](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=108)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:51 - [Auto Lineage: Detecting upstream and downstream data impact](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=3531)
 - 1:00:27 - [Anomalies vs Bad Data: Contextual alerts and reducing false positives](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=3627)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, data observability.
-- First pass reading starts with Guest Profile: Barr Moses - career, GainSight, Monte Carlo, Market Gap: Data downtime impact on analytics teams, Observability Origins: DevOps pillars (metrics, logs, traces), Batch Data Challenges: Why data observability differs from app monitoring.
-- Source file: `datatalksclub.github.io/_podcast/data-quality-data-observability-data-reliability.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, data observability, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-quality-data-observability-data-reliability.md`

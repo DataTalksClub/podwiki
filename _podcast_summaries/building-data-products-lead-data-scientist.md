@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/collaborative-data-science-in-
 
 # Episode: Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=1pExOVuCF8Q)
 - [Listen on Spotify](https://open.spotify.com/episode/46DN6rAlufvvXaqdOomoTe?si=OMPDN8m5QZWsc5kJY8IcAA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/collaborative-data-science-in-business-ioannis-mesionis/id1541710331?i=1000632860980)
 
-## Episode Overview
-
-This episode covers Building Data Products at Scale - Intake, A/B Testing, and MLOps in a Marketing Organization.
-
-## Episode Value
-
-This episode covers Building Data Products at Scale - Intake, A/B Testing, and MLOps in a Marketing Organization.
-
-Agents should consider this episode when working on MLOps, machine learning, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - product management
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 1:40 - [Episode introduction & guest Ioannis Mesionis (EasyJet lead data scientist)](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=100)
 - 2:34 - [Career origin & early projects (mathematics degree, master's, internship model)](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=154)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:11 - [Monitoring dashboards & alerts: Tableau quick solutions and custom emails](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=3311)
 - 57:09 - [Recommended resources: Cassie Kozyrkov (Decision Intelligence) and textbooks](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=3429)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, machine learning, data science, tools, product management.
-- First pass reading starts with Episode introduction & guest Ioannis Mesionis (EasyJet lead data scientist), Career origin & early projects (mathematics degree, master's, internship model), Lead Data Scientist role: partnering with Digital Customer & Marketing, Stakeholder collaboration: weekly embedded meetings and observation.
-- Source file: `datatalksclub.github.io/_podcast/building-data-products-lead-data-scientist.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, machine learning, data science, tools, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-data-products-lead-data-scientist.md`

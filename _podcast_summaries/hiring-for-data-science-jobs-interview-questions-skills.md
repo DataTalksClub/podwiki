@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olg
 
 # Episode: How to Hire Data Scientists: Interview Questions, MLOps, AutoML Limits & Inclusive Hiring
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Af9t9r2b0z0)
 - [Listen on Spotify](https://open.spotify.com/episode/7ddvA9zNTip5Bt6EYnMNty?si=4fee84a6ad43465d)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olga-ivina/id1541710331?i=1000570846380)
 
-## Episode Overview
-
-This episode covers How to Hire Data Scientists - Interview Questions, MLOps, AutoML Limits & Inclusive Hiring.
-
-## Episode Value
-
-This episode covers How to Hire Data Scientists - Interview Questions, MLOps, AutoML Limits & Inclusive Hiring.
-
-Agents should consider this episode when working on data science, career growth, hiring.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Olga Ivina](https://datatalks.club/people/olgaivina.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - career growth
 - hiring
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=0)
 - 1:44 - [Career Beginnings: Applied mathematics, forecasting, and consulting](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=104)
@@ -74,16 +57,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:53 - [Inclusive Job Posts: Language, requirements, and avoiding discouraging wording](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=3233)
 - 56:31 - [Employment Gaps: Evaluating candidates with long CV breaks](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=3391)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, career growth, hiring, MLOps.
-- First pass reading starts with Episode Introduction, Career Beginnings: Applied mathematics, forecasting, and consulting, PhD Research: Air pollution modeling and conformal prediction, Current Role: Leading delivery data science teams and startup support.
-- Source file: `datatalksclub.github.io/_podcast/hiring-for-data-science-jobs-interview-questions-skills.md.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, career growth, hiring, MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/hiring-for-data-science-jobs-interview-questions-skills.md.md`

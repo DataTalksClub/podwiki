@@ -15,40 +15,23 @@ apple_url: "https://podcasts.apple.com/us/podcast/pragmatic-and-standardized-mlo
 
 # Episode: Pragmatic MLOps: Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=q3DTR3Od1MA)
 - [Listen on Spotify](https://open.spotify.com/episode/5UZPZTDllam3RrbI9sOyqS?si=Ghm1oD8bSFS6l0ULDlatpQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/pragmatic-and-standardized-mlops-maria-vechtomova/id1541710331?i=1000627227242)
 
-## Episode Overview
-
-This episode covers Pragmatic MLOps - Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices.
-
-## Episode Value
-
-This episode covers Pragmatic MLOps - Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices.
-
-Agents should consider this episode when working on MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=0)
 - 1:41 - [Episode Overview: Pragmatic and Standardized MLOps with Maria Vechtomova](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=101)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:08 - [Skill balance: ML fundamentals plus software engineering and system design](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=3368)
 - 57:14 - [Data engineering importance: pipeline design, optimization, and data quality](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=3434)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps.
-- First pass reading starts with Episode Overview: Pragmatic and Standardized MLOps with Maria Vechtomova, Background: Early career in data, econometrics, R to Python, and early MLOps, Early MLOps stacks: Teradata Aster, custom metadata, and orchestration, Role Overview: MLOps Tech Lead / Manager of Machine Learning Engineering.
-- Source file: `datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`

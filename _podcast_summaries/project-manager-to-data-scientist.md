@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/transitioning-from-project-man
 
 # Episode: From Project Manager to Data Scientist: Skills, Tools, ML Courses & Job Search
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rBKezdb9jEc)
 - [Listen on Spotify](https://open.spotify.com/episode/3vF1B2mKwImsVC7h3NIDJW)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/transitioning-from-project-management-to-data-science/id1541710331?i=1000516467544)
 
-## Episode Overview
-
-This episode covers From Project Manager to Data Scientist - Skills, Tools, ML Courses & Job Search.
-
-## Episode Value
-
-This episode covers From Project Manager to Data Scientist - Skills, Tools, ML Courses & Job Search.
-
-Agents should consider this episode when working on career transition, project management, data science.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - career transition
 - project management
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - tools
 - production
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=rBKezdb9jEc&t=0)
 - 2:24 - [Guest Overview: Ksenia and episode focus (project management → data science)](https://www.youtube.com/watch?v=rBKezdb9jEc&t=144)
@@ -82,16 +65,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:01 - [Career Habits: critical path, study techniques, and lifelong learning](https://www.youtube.com/watch?v=rBKezdb9jEc&t=3661)
 - 1:01:27 - [Final Advice: contribute to projects, narrow your scope, join communities](https://www.youtube.com/watch?v=rBKezdb9jEc&t=3687)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around career transition, project management, data science, career growth, job search, tools.
-- First pass reading starts with Guest Overview: Ksenia and episode focus (project management → data science), Career Foundations: math degree, management, and early PM roles, Motivation for Analytics: customer-centric, data-driven decision making, Transition Path: moving from data analysis into machine learning.
-- Source file: `datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve career transition, project management, data science, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`

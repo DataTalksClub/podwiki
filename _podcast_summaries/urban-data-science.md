@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-
 
 # Episode: Urban Data Science: Transport Analytics, Sensors and Liveable Cities
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/urban-data-science.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/urban-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=VXQIGHUWeL0)
 - [Listen on Spotify](https://open.spotify.com/episode/1z7jdogto8i4Zk6Zh1vDxE?si=KCg2Iq1US0SKwFCKasGqUg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-cities-rachel-lim/id1541710331?i=1000675373908)
 
-## Episode Overview
-
-This episode covers Urban Data Science - Transport Analytics, Sensors and Liveable Cities.
-
-## Episode Value
-
-This episode covers Urban Data Science - Transport Analytics, Sensors and Liveable Cities.
-
-Agents should consider this episode when working on data engineering, LLMs, computer vision.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Rachel Lim](https://datatalks.club/people/rachellim.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data engineering
 - LLMs
 - computer vision
 - data science
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=0)
 - 1:56 - [Guest Introduction: Rachel Lim, urban data scientist](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=116)
@@ -83,16 +66,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 47:05 - [Project Ideas for Learning: car parking and real-time taxi datasets](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=2825)
 - 49:16 - [Recommended Resources: DataTalks.Club, Jane Jacobs, Happy City](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=2956)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data engineering, LLMs, computer vision, data science.
-- First pass reading starts with Episode Introduction, Guest Introduction: Rachel Lim, urban data scientist, Career Path: Geography to urban informatics and data engineering, Transport Scientist Role: public sector and consultancy applications.
-- Source file: `datatalksclub.github.io/_podcast/urban-data-science.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data engineering, LLMs, computer vision, data science, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/urban-data-science.md`

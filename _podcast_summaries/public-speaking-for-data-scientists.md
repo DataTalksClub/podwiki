@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/essentials-public-speaking-for
 
 # Episode: Public Speaking for Data Scientists: Master AI Evangelism, Storytelling & Keynotes
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=wOFvlR9UBxI)
 - [Listen on Spotify](https://open.spotify.com/episode/4QWfObiuYmtOCtpSL5LZf9)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/essentials-public-speaking-for-career-in-data-science/id1541710331?i=1000513669829)
 
-## Episode Overview
-
-This episode covers Public Speaking for Data Scientists - Master AI Evangelism, Storytelling & Keynotes.
-
-## Episode Value
-
-This episode covers Public Speaking for Data Scientists - Master AI Evangelism, Storytelling & Keynotes.
-
-Agents should consider this episode when working on developer relations, public speaking, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Ben Taylor](https://datatalks.club/people/bentaylor.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - developer relations
 - public speaking
 - career growth
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=0)
 - 1:32 - [Guest Overview: Ben Taylor, AI Evangelist at DataRobot](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=92)
@@ -79,16 +62,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:05:14 - [Resources & Practice: Recommended Books, Toastmasters, Story Exercises](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=3914)
 - 1:08:44 - [Closing Anecdotes and Final Advice](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=4124)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around developer relations, public speaking, career growth.
-- First pass reading starts with Guest Overview: Ben Taylor, AI Evangelist at DataRobot, Mindset for Improvement: Practice and Public Speaking Growth, Career Path: Engineering, Quant, HireVue, Startup, Acquisition, AI Evangelism: Role, Positioning, and Messaging Strategy.
-- Source file: `datatalksclub.github.io/_podcast/public-speaking-for-data-scientists.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve developer relations, public speaking, career growth, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/public-speaking-for-data-scientists.md`

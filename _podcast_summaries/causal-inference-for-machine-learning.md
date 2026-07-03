@@ -15,42 +15,25 @@ apple_url: "https://podcasts.apple.com/us/podcast/democratizing-causality-aleksa
 
 # Episode: Causal Inference for Real-World ML: Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0I2FHH95Ofs)
 - [Listen on Spotify](https://open.spotify.com/episode/17U3RWz5BupRIwoBvGWqYQ?si=g6XypIZnSwG4hznNIOs7mw)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/democratizing-causality-aleksander-molak/id1541710331?i=1000625694605)
 
-## Episode Overview
-
-This episode covers Causal Inference for Real-World ML - Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration.
-
-## Episode Value
-
-This episode covers Causal Inference for Real-World ML - Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration.
-
-Agents should consider this episode when working on causal inference, LLMs, machine learning.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Aleksander Molak](https://datatalks.club/people/aleksandermolak.html)
 
 ## Key Concepts
 
-Use these concepts for topic routing and graph connections.
-
 - causal inference
 - LLMs
 - machine learning
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=0)
 - 1:22 - [Guest Intro: Aleksander Molak & book overview](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=82)
@@ -81,16 +64,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:04:03 - [Causal graphs and nonparametric identification: minimal observables](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=3843)
 - 1:06:07 - [Recommended resources: The Book of Why, Molak's book & GitHub](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=3967)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around causal inference, LLMs, machine learning.
-- First pass reading starts with Episode Introduction, Guest Intro: Aleksander Molak & book overview, Career highlights and dyslexia prediction project, Causal advocacy: democratizing causal thinking.
-- Source file: `datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve causal inference, LLMs, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`

@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-data-science-practice
 
 # Episode: Building and Scaling Data Science Practice in Industrial Enterprises: AI Adoption, MLOps Maturity & Career Growth
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=XbDQv8FTA4U)
 - [Listen on Spotify](https://open.spotify.com/episode/0M7Y77MFToxtKuyfdF5W22?si=jgWR6EchQnWe6nYWW44ZxQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-data-science-practice-andrey-shtylenko/id1541710331?i=1000585100407)
 
-## Episode Overview
-
-This episode covers Building and Scaling Data Science Practice in Industrial Enterprises - AI Adoption, MLOps Maturity & Career Growth.
-
-## Episode Value
-
-This episode covers Building and Scaling Data Science Practice in Industrial Enterprises - AI Adoption, MLOps Maturity & Career Growth.
-
-Agents should consider this episode when working on data science, industrial AI, ai adoption.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Andrey Shtylenko](https://datatalks.club/people/andreyshtylenko.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - industrial AI
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - ai
 - MLOps
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Introduction & Live Chat Poll Results](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=0)
 - 2:29 - [Guest Introduction: Andrey Shtylenko, Honeywell](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=149)
@@ -75,16 +58,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:44 - [Research vs Production: ML Engineers and Productionizing Models](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=3404)
 - 59:44 - [Career Advice: Expanding Scope to Increase Organizational Impact](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=3584)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, industrial AI, ai adoption, ai, MLOps.
-- First pass reading starts with Guest Introduction: Andrey Shtylenko, Honeywell, Career Journey: Startups, Organizational Development, and Honeywell, Honeywell Use Cases: Smart Sensors, Computer Vision, and Robotics, Defining Organizational Data and Machine Learning Practices.
-- Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, industrial AI, ai adoption, ai, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.md`

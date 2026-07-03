@@ -15,43 +15,26 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 # Episode: From Developer to Startup Founder: Building a Career Through Open Source
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bwfR9dyxf1M)
 - [Listen on Spotify](https://open.spotify.com/episode/4JAwU2jQuXu4MoMucsE899?si=6ed45b98dd4a415a)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/designing-a-data-science-organization-lisa-cohen/id1541710331?i=1000569172916)
 
-## Episode Overview
-
-This episode covers From Developer to Startup Founder - Building a Career Through Open Source.
-
-## Episode Value
-
-This episode covers From Developer to Startup Founder - Building a Career Through Open Source.
-
-Agents should consider this episode when working on open-source, startups, career growth.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Will McGugan](https://datatalks.club/people/willmcgugan.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - open-source
 - startups
 - career growth
 - entrepreneurship
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=0)
 - 1:39 - [Guest Introduction: Will McGugan, Python Open Source Maintainer](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=99)
@@ -76,16 +59,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:05 - [Project Promotion: Getting GitHub Stars and Viral Reach](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=3005)
 - 57:20 - [Advice for New Open Source Authors: Solve Your Own Problem](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=3440)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around open-source, startups, career growth, entrepreneurship.
-- First pass reading starts with Guest Introduction: Will McGugan, Python Open Source Maintainer, Career Path: From Video Games to Textualize Founder, Early Open Source Tools: BBCode Parser & Chess Libraries, PyFilesystem: Virtual File System Abstraction (fs).
-- Source file: `datatalksclub.github.io/_podcast/open-source-turned-into-career-and-startup-creation.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve open-source, startups, career growth, entrepreneurship, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/open-source-turned-into-career-and-startup-creation.md`

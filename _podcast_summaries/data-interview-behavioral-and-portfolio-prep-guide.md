@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/ace-non-technical-data-science
 
 # Episode: Ace Data Interviews: Behavioral STARs, Case Strategy, Portfolios & Cold Emails
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tRdLVUKU7Bo)
 - [Listen on Spotify](https://open.spotify.com/episode/7tO8GmqAcFUUk4fLqxEXy1)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ace-non-technical-data-science-interviews-nick-singh/id1541710331?i=1000541631687)
 
-## Episode Overview
-
-Master behavioral interviews & prep to break into data roles: build an impact portfolio, use STAR stories, nail case interviews and cold emails.
-
-## Episode Value
-
-Master behavioral interviews & prep to break into data roles: build an impact portfolio, use STAR stories, nail case interviews and cold emails.
-
-Agents should consider this episode when working on data science, machine learning, MLOps.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Nick Singh](https://datatalks.club/people/nicksingh.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - data science
 - machine learning
@@ -50,9 +35,7 @@ Use these concepts for topic routing and graph connections.
 - product management
 - job search
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=0)
 - 1:58 - [Guest Overview: Nick Singh's career and book](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=118)
@@ -80,16 +63,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:59 - [Cold Email Examples: Showcasing projects with links and visuals](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=3659)
 - 1:02:16 - [Final Tips and Resources: Book recommendations and next steps](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=3736)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around data science, machine learning, MLOps, product management, job search.
-- First pass reading starts with Guest Overview: Nick Singh's career and book, Career Coaching Focus: Helping candidates break into data roles, Hiring Process Breakdown: Screens, assessments, and panel interviews, Industry Trends: Why multiple interview rounds are common.
-- Source file: `datatalksclub.github.io/_podcast/data-interview-behavioral-and-portfolio-prep-guide.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve data science, machine learning, MLOps, product management, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/data-interview-behavioral-and-portfolio-prep-guide.md`

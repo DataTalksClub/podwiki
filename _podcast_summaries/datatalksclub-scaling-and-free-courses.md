@@ -15,34 +15,19 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary
 
 # Episode: Inside Scaling DataTalks.Club: How We Built Free Data Engineering, MLOps & LLM Courses
 
-## Original Episode
+## Source
 
-Use these links for the canonical episode and media sources.
-
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=GHbeXIKnkLQ)
 - [Listen on Spotify](https://open.spotify.com/episode/50wIZxjq6goREu9pwXYITP?si=mPW0v5fBQxuBpg622CpCEA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary-ama-podcast-alexey-grigorev/id1541710331?i=1000674473200)
 
-## Episode Overview
-
-This episode covers Inside Scaling DataTalks.Club - How We Built Free Data Engineering, MLOps & LLM Courses.
-
-## Episode Value
-
-This episode covers Inside Scaling DataTalks.Club - How We Built Free Data Engineering, MLOps & LLM Courses.
-
-Agents should consider this episode when working on MLOps, LLMs, data engineering.
-
 ## People
 
-Use these links to connect the episode to guest notes.
 
 - [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 
 ## Key Concepts
-
-Use these concepts for topic routing and graph connections.
 
 - MLOps
 - LLMs
@@ -52,9 +37,7 @@ Use these concepts for topic routing and graph connections.
 - community building
 - teaching
 
-## Chapter Summary
-
-Use these checkpoints to decide whether to open the source transcript.
+## Chapter Headers
 
 - 0:00 - [Podcast Welcome & AMA Format (community links and live questions)](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=0)
 - 1:35 - [Host Intro: Johanna as special host](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=95)
@@ -87,16 +70,6 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:01:10 - [Personal Reads: Book recommendations and current reading](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3670)
 - 1:02:41 - [Closing Remarks & Thank You](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3761)
 
-## Useful For Agents
+## Source File
 
-Use this section to decide whether to open the full source episode.
-
-- Use for topic routing around MLOps, LLMs, data engineering, machine learning, career transition, community building.
-- First pass reading starts with Podcast Welcome & AMA Format (community links and live questions), Host Intro: Johanna as special host, Origin Story: Founding DataTalks.Club during COVID, Career Shift: Transition to running DataTalks.Club full-time.
-- Source file: `datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`.
-
-## Probably Skip If
-
-Skip this episode when the task is outside the episode scope.
-
-- Your task doesn't involve MLOps, LLMs, data engineering, machine learning, the listed guests, or the chapter topics above.
+- `datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
