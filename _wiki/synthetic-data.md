@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Synthetic Data"
-summary: "How DataTalks.Club podcast discussions frame synthetic data generation for scarce, sensitive, or underrepresented data, with examples from medical imaging, speech recognition, and urban data."
+summary: "How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, privacy, and validation limits."
 related:
   - Machine Learning
   - Generative AI

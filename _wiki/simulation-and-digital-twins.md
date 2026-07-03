@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Simulation and Digital Twins"
-summary: "How DataTalks.Club podcast guests connect physics-based simulation, digital-twin-style representations, synthetic data, HPC pipelines, autonomous-driving validation, and ML bridges."
+summary: "Podcast guests connect simulation and digital twins to physics models, synthetic data, validation, and data-engineering workflows."
 related:
   - Autonomous Driving AI
   - Applied Research

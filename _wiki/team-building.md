@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Team Building"
-summary: "How DataTalks.Club podcast guests describe building data, ML, AI, DataOps, and MLOps teams through hiring order, onboarding, role design, platform enablement, leadership, and cross-functional operating models."
+summary: "How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement."
 related:
   - Data Teams
   - Hiring

@@ -10909,7 +10909,7 @@
       "title": "Simulation and Digital Twins",
       "url": "/wiki/simulation-and-digital-twins/",
       "count": 1,
-      "search": "Simulation and Digital Twins How DataTalks.Club podcast guests connect physics based simulation, digital twin style representations, synthetic data, HPC pipelines, autonomous driving validation, and ML bridges."
+      "search": "Simulation and Digital Twins Podcast guests connect simulation and digital twins to physics models, synthetic data, validation, and data engineering workflows."
     },
     {
       "id": "wiki:software-engineer-to-machine-learning",
@@ -10929,7 +10929,7 @@
       "title": "Software Engineering",
       "url": "/wiki/software-engineering/",
       "count": 1,
-      "search": "Software Engineering How DataTalks.Club guests apply software engineering discipline to data, ML, and AI systems through requirements, interfaces, testing, deployment, documentation, and maintainability."
+      "search": "Software Engineering How DataTalks.Club guests apply software engineering discipline to data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
     },
     {
       "id": "wiki:solopreneur",
@@ -10970,7 +10970,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs."
+      "search": "Startups Startup lessons from DataTalks.Club guests on discovery, product scope, MLOps, open source distribution, funding, and career tradeoffs."
     },
     {
       "id": "wiki:streaming",
@@ -10990,7 +10990,7 @@
       "title": "Synthetic Data",
       "url": "/wiki/synthetic-data/",
       "count": 1,
-      "search": "Synthetic Data How DataTalks.Club podcast discussions frame synthetic data generation for scarce, sensitive, or underrepresented data, with examples from medical imaging, speech recognition, and urban data."
+      "search": "Synthetic Data How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, privacy, and validation limits."
     },
     {
       "id": "wiki:teaching",
@@ -11010,7 +11010,7 @@
       "title": "Team Building",
       "url": "/wiki/team-building/",
       "count": 1,
-      "search": "Team Building How DataTalks.Club podcast guests describe building data, ML, AI, DataOps, and MLOps teams through hiring order, onboarding, role design, platform enablement, leadership, and cross functional operating models."
+      "search": "Team Building How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement."
     },
     {
       "id": "wiki:technical-writing",
