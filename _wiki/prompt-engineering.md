@@ -42,74 +42,61 @@ text generation.
 
 Hugo Bowne-Anderson, Bartosz Mikulski, and Ranjitha Kulkarni converge on a
 practical definition. Prompt engineering gives the model the right job,
-evidence, and target format. In
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]],
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]]
-starts with a role and objective, then adds examples and heuristics at 11:11.
-In his timestamp example at 13:33-15:58, teams iterate on prompt details and add
-audience-specific criteria. They also involve the person who used to do the
-work.
+evidence, and target format. [[person:hugobowneanderson=>Hugo Bowne-Anderson]]
+starts with a role and objective, then adds examples, heuristics, and
+audience-specific criteria. He also involves the person who used to do the work ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 [[person:bartoszmikulski=>Bartosz Mikulski]] gives the
-same definition through in-context learning in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-At 25:13, he says examples tell the model what should happen in a similar case.
-At 27:45, he argues that when a stronger model still misses the task, examples
-usually work better than a longer explanation.
+same definition through in-context learning. Examples tell the model what
+should happen in a similar case. When a stronger model still misses the task,
+examples usually work better than a longer explanation ([[cite:production-ready-ai-engineering|Production AI Engineering]]).
 
 Prompt engineering belongs inside
 [[AI engineering]] even though it
 isn't the whole system. [[person:ranjithakulkarni|Ranjitha Kulkarni]]
-draws that boundary in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]:
-at 28:17-29:30, she frames context engineering as a deliberate information
+draws that boundary by framing context engineering as a deliberate information
 choice. Teams choose what to give the LLM instead of stuffing everything into
-the input. That broader practice is covered as
+the input ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+That broader practice is covered as
 [[Context Engineering]].
 
 ## Role Prompts and Task Framing
 
-Role prompts help when the role changes the answer criteria. Hugo's example in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-uses a chief marketing officer writing a campaign, then adds examples and
-heuristics. The role isn't valuable because it flatters the model. It's
-valuable when it tells the model which audience, constraints, and judgment rules
-to apply.
+Role prompts help when the role changes the answer criteria. Hugo's chief
+marketing officer campaign prompt adds examples and heuristics to the role. The
+role isn't valuable because it flatters the model. It's valuable when it tells
+the model which audience, constraints, and judgment rules to apply ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-In the timestamp discussion, a prompt that only asks for YouTube chapters may
-produce plausible timestamps. Hugo adds audience relevance, detailed review, and
-a pass/fail evaluator at
-13:33-15:10. That turns a loose role prompt into a reviewable task definition.
+A prompt that only asks for YouTube chapters may produce plausible timestamps.
+Hugo adds audience relevance, detailed review, and a pass/fail evaluator. That
+turns a loose role prompt into a reviewable task definition ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 It also connects prompt work to
 [[LLM Evaluation Workflows]],
 because the team needs to decide whether the prompt produced a usable result.
 
-Roles can also hide weak task design. In
-[[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]],
-[[person:mariasukhareva=>Maria Sukhareva]] warns at
-23:19-24:25 that developers can get stuck in endless prompt optimization. A
-prompt that says "be accurate" or "act as a secure assistant" doesn't remove
-model nondeterminism, provider updates, or the need for validation.
+Roles can also hide weak task design. [[person:mariasukhareva=>Maria Sukhareva]]
+warns that developers can get stuck in endless prompt optimization. A prompt
+that says "be accurate" or "act as a secure assistant" doesn't remove model
+nondeterminism. It also doesn't remove provider updates or the need for
+validation ([[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
 
 ## Structured Output and Examples
 
-Bartosz treats structured output as a prompt-engineering problem in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-At 28:16, he uses sentiment analysis as the example. The team can describe the
-JSON keys, or it can show a review and the expected JSON output. Examples often
-make the model follow the format even when the instruction is short.
+Bartosz treats structured output as a prompt-engineering problem with sentiment
+analysis. The team can describe the JSON keys, or it can show a review and the
+expected JSON output. Examples often make the model follow the format even when
+the instruction is short ([[cite:production-ready-ai-engineering|Production AI Engineering]]).
 
-Hugo makes the same point from the evaluation side in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-At 23:05-24:59, he says early prompt checks can stay simple. Teams can eyeball
-the output, then add structured outputs or regular expressions. They can also
-use string matching or cheaper models where the behavior is easy to assert. That
-keeps structured output close to testing instead of treating it as a formatting
-preference.
+Hugo makes the same point from the evaluation side in his practical LLM
+engineering discussion. Early prompt checks can stay simple: teams can eyeball
+the output, then add structured outputs or regular
+expressions. They can also use string matching or cheaper models where the
+behavior is easy to assert. That keeps structured output close to testing
+instead of treating it as a formatting preference ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-Bartosz says at 29:33-30:00 that each extra example adds tokens and money. The
-team should prepare evaluation inputs and expected outputs so it can stop adding
-examples when quality stops improving. The broader
+Bartosz also notes that each extra example adds tokens and money. The team
+should prepare evaluation inputs and expected outputs so it can stop adding
+examples when quality stops improving ([[cite:production-ready-ai-engineering|Production AI Engineering]]). The broader
 [[llm-system-design-interview=>LLM system design]]
 material uses the same cost-aware framing. Model calls, context size, and
 reliability belong to one design decision.
@@ -117,23 +104,20 @@ reliability belong to one design decision.
 ## Prompt Evaluation
 
 Prompt evaluation starts with representative cases, not with clever wording.
-Hugo's generator-evaluator setup at 13:56 in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-uses one model to generate an output and another to check it. He also says the
-final signal can be pass/fail with feedback, because a product usually needs to
-know whether the result can ship.
+Hugo's generator-evaluator setup uses one model to generate an output and
+another to check it. He also says the final signal can be pass/fail with
+feedback. A product usually needs to know whether the result can ship ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-At 23:00-25:25 in the same episode, Hugo ties prompt iteration to gold test
-sets. Teams can start with manual review, but reliable software eventually
-needs examples that represent real user interactions. The test set should avoid
-overfitting to a few cases without wasting time and money.
+Hugo ties prompt iteration to gold test sets in the same episode. Teams can
+start with manual review, but reliable software eventually needs examples that
+represent real user interactions. The test set should avoid overfitting to a few
+cases without wasting time and money ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-Teams use failure analysis to decide whether more prompt work is worthwhile. At
-26:43, Hugo recommends categorizing errors and ranking them. If most failures
-come from retrieval, the next fix belongs in chunking, indexing, or source data.
-It doesn't belong in another prompt rewrite. Ranjitha makes a similar
-evaluation point for agents at 51:17-56:02 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Teams use failure analysis to decide whether more prompt work is worthwhile.
+Hugo recommends categorizing errors and ranking them. If most failures come from
+retrieval, the next fix belongs in chunking, indexing, or source data. It
+doesn't belong in another prompt rewrite ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+Ranjitha makes a similar evaluation point for agents ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
 Public benchmarks test model capability. Product teams need custom datasets,
 mocked tools, integration tests, and outcome assertions.
@@ -141,49 +125,42 @@ mocked tools, integration tests, and outcome assertions.
 ## Compression, Caching, and Context Budget
 
 Prompt size matters because every token can affect cost, latency, and answer
-quality. Bartosz discusses prompt compression at 30:00-31:45 in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-He describes it as creating a shorter prompt that should preserve the same
-behavior. Bartosz treats this as an optimization topic, not a replacement
-for evaluation. A compressed prompt still needs the same expected-output checks
-as the original.
+quality. Bartosz describes prompt compression as creating a shorter prompt that
+should preserve the same behavior. He treats this as an optimization topic, not
+a replacement for evaluation. A compressed prompt still needs the same
+expected-output checks as the original ([[cite:production-ready-ai-engineering|Production AI Engineering]]).
 
-At 31:45-33:03, Bartosz discusses provider-side caching for repeated prompt
-prefixes. A coding assistant may reuse a shared codebase context with different
-user requests. He tells listeners to verify the internal mechanism in provider
+Bartosz also discusses provider-side caching for repeated prompt prefixes. A
+coding assistant may reuse a shared codebase context with different user
+requests. He tells listeners to verify the internal mechanism in provider
 documentation. At the product level, stable shared context can reduce repeated
-processing when many requests start with the same material.
+processing when many requests start with the same material ([[cite:production-ready-ai-engineering|Production AI Engineering]]).
 
-Ranjitha adds the quality side of the context budget in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-At 29:30-30:27, she names latency, cost, and garbage-in-garbage-out as reasons
-not to fill a large context window with noisy material. That links prompt
-budgeting to [[retrieval-augmented-generation|retrieval-augmented generation]]
+Ranjitha adds the quality side of the context budget in her agentic systems
+discussion. She names latency, cost, and
+garbage-in-garbage-out as reasons not to fill a large context window with noisy
+material ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+That links prompt budgeting to [[retrieval-augmented-generation|retrieval-augmented generation]]
 and [[production search evaluation]],
 because the prompt is only as useful as the context selected for it.
 
 ## Context Engineering and RAG
 
 Context engineering is the broader term for prompt work that selects and
-packages information for the model. Ranjitha says at 28:17-32:48 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-that teams should be deliberate about the context they provide. They choose how
-to chunk it, which metadata to attach, and which wrapper helps the LLM use it.
-She treats RAG as one example of context engineering, not as a universal answer.
+packages information for the model. Ranjitha says teams should be deliberate
+about the context they provide. They choose how to chunk it, which metadata to
+attach, and which wrapper helps the LLM use it. She treats RAG as one example
+of context engineering, not as a universal answer ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
 [[person:meryemarik=>Meryem Arik]] explains the RAG
-prompt structure in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-At 46:42, she describes injecting relevant sections into a prompt and asking
-the model to answer from those documents. For sensitive tasks, she suggests a
+prompt structure as injecting relevant sections into a prompt and asking the
+model to answer from those documents. For sensitive tasks, she suggests a
 narrower flow. The system retrieves the relevant section, summarizes or
-rephrases it, and keeps the answer grounded in that source.
+rephrases it, and keeps the answer grounded in that source ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
-Hugo's chunking discussion in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-adds the practical constraint. At 44:26-46:39, he argues that a simple RAG bot
-can solve real support questions faster than an ambitious AI tutor. Chunking
-still depends on the source structure.
+Hugo's chunking discussion adds the practical constraint. A simple RAG bot can
+solve real support questions faster than an ambitious AI tutor. Chunking still
+depends on the source structure ([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 A podcast transcript may work better by question-answer pair or speaker turn. A
 book needs a different strategy. The prompt can only use context that the
@@ -193,16 +170,14 @@ retrieval system preserved.
 
 Prompt engineering also defines an attack surface. Maria's chatbot security
 episode shows why instructions inside the prompt aren't enough protection. In
-[[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]],
-she describes a Siemens challenge with 1,500 participants at 9:28. Participants
-tried to bypass bot restrictions, and some extracted hidden knowledge-base
-content.
+her Siemens challenge example, 1,500 participants tried to bypass bot
+restrictions, and some extracted hidden knowledge-base content ([[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
 
-At 11:38-15:12, Maria explains the failure mode. A bot may have instructions not
-to reveal confidential information, and another layer may check the output.
-Users can still overload the prompt, use dense characters, craft API requests,
-or otherwise distract the model from the original restriction. Prompt
-engineering therefore has a direct boundary with
+Maria explains the failure mode: a bot may have instructions not to reveal
+confidential information, and another layer may check the output. Users can
+still overload the prompt, use dense characters, craft API requests, or
+otherwise distract the model from the original restriction ([[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+Prompt engineering therefore has a direct boundary with
 [[AI Red Teaming]] and
 [[Security]]. A secure system needs query
 analysis, output validation, retrieval controls, and human review where the
@@ -211,35 +186,30 @@ risk warrants it.
 Prompt injection is especially important for RAG because the model may receive
 instructions from user input and retrieved documents. If the system retrieves
 restricted or adversarial text, the prompt can include that text in the answer.
-Maria's 13:20 discussion shows that attackers can extract knowledge-base data.
+Maria's challenge example shows that attackers can extract knowledge-base data ([[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
 The prompt template can state the rule, but access control and validation must
 enforce it.
 
 ## Limits of Prompting
 
-Several guests draw a clear stopping point for prompt engineering. In
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-at 26:30-46:42, Meryem says fine-tuning is better for behavior and style. She
-also includes tone and domain adaptation. Retrieval is better for changing
-knowledge and grounded facts.
+Several guests draw a clear stopping point for prompt engineering. Meryem says
+fine-tuning is better for behavior and style. She also includes tone and domain
+adaptation. Retrieval is better for changing knowledge and grounded facts ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
 If a prompt repeatedly fails because the model lacks the right knowledge, the
 team should add retrieval. If it repeatedly fails because the model needs a
 specialized behavior, fine-tuning may be the better tool.
 
-Ranjitha makes the workflow boundary explicit. At 37:39 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
-she separates cases where RAG is enough from cases that need planning, tools, or
-agents. At 53:20-56:02, she shows why those systems need software-style tests,
-not only better instructions. This links prompt engineering to
+Ranjitha makes the workflow boundary explicit. She separates cases where RAG is
+enough from cases that need planning, tools, or agents. She also shows why those
+systems need software-style tests, not only better instructions ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+This links prompt engineering to
 [[Agent Engineering]] without
 turning every prompt problem into an agent problem.
 
 [[person:micheallanham=>Micheal Lanham]] adds one more
-boundary in
-[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
-At 14:09-17:25, he discusses evolutionary algorithms for prompt engineering.
-They can find useful prompt variations, but they're computationally expensive.
+boundary. Evolutionary algorithms can find useful prompt variations, but
+they're computationally expensive ([[cite:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 That reinforces the practical theme across these episodes. Prompt iteration is
 useful, but teams should measure whether more iteration beats retrieval or

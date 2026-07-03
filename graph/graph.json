@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11190
+    "links": 11186
   },
   "nodes": [
     {
@@ -68973,30 +68973,6 @@
       "target": "wiki:tracking-plans",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:product-analyst-vs-data-analyst",
-      "target": "person:arpitchoudhury",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analyst-vs-data-analyst",
-      "target": "person:caitlinmoorman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analyst-vs-data-analyst",
-      "target": "person:jakobgraff",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analyst-vs-data-analyst",
-      "target": "person:katiebauer",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:product-analyst-vs-data-analyst",
