@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Machine Learning Portfolio Projects"
-summary: "Guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
+title: "ML Portfolio Projects"
+summary: "Choose ML portfolio projects that show framing, baselines, data work, evaluation, production thinking, and maintainable code."
 related:
   - Portfolio Projects
   - Machine Learning
@@ -16,10 +16,10 @@ related:
   - ML System Design Documents
 ---
 
-A machine learning portfolio project is public evidence that a candidate can
-turn a decision problem into a working [[machine learning]]
-system or analysis. DataTalks.Club guests argue that the strongest projects are
-not model demos alone. They explain the decision, data, baseline, and
+A machine learning portfolio project should prove that a candidate can turn a
+decision problem into a working [[machine learning]] system or analysis.
+DataTalks.Club guests argue that the strongest projects aren't model demos
+alone. They explain the decision, data, baseline, and
 [[evaluation]]. They also show the
 operating boundary that makes the work reviewable and reproducible, as in the
 [[podcast:crisp-dm=>CRISP-DM]] and

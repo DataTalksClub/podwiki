@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Manufacturing Predictive Maintenance and Yield Analytics"
-summary: "How semiconductor manufacturing ML turns fab telemetry, tool logs, and wafers-at-risk calculations into yield decisions that engineers can explain and use in production."
+title: "Fab Maintenance and Yield ML"
+summary: "How semiconductor teams use fab telemetry, tool logs, and wafers-at-risk forecasts to make explainable maintenance and yield decisions."
 related:
   - Industrial ML Applications
   - Interpretability
@@ -11,22 +11,22 @@ related:
   - Production
 ---
 
-Manufacturing predictive maintenance and yield analytics use production
-telemetry to decide when a tool needs attention and how much product is at
-risk. In semiconductor manufacturing, the decision isn't only whether a
-[[machine learning]] model can
-predict an error. The model has to fit an
+Manufacturing predictive maintenance and yield analytics use fab telemetry to
+decide when a tool needs attention and how much product is at risk. In
+semiconductor manufacturing, a [[machine learning]] model can't stop at
+predicting an error. It has to fit an
 [[industrial-ml-applications=>industrial ML application]]
 where wafers and tools define part of the context. Quals, engineers, and
 production staff define the operating constraints.
 
-This pattern comes from semiconductor production work at Microchip
+Dashel Ruiz Perez described this work at Microchip
 ([[person:dashelruizperez|Dashel Ruiz Perez]],
 [[podcast:from-semiconductor-data-to-applied-machine-learning=>From Semiconductor Data to Applied Machine Learning]]).
-The example starts on the fab floor and moves through yield analytics and
-[[data engineering]] to a practical boundary. A prediction is useful only if
-supervisors and engineers can understand it and act on it in
+His example starts on the fab floor, then moves through yield analytics and
+[[data engineering]] to a practical boundary. A prediction is useful only when
+supervisors and engineers can understand it in
 [[production]]
+and act on it
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|4:49-5:49, 18:07-20:40, 23:29-29:06, 37:29-43:38]]).
 
 ## Fab Telemetry
@@ -51,17 +51,17 @@ more context for interpreting the logs, not just access to files
 
 ## Yield Analytics
 
-Yield analytics depended on getting cross-area data into a usable format. The
-yield role involved cleaning production data with Python and loading it into an
-Oracle database, plus writing small PL/SQL applications so a supervisor could
-access the results. Yield work needs a whole-fab view of failures, passes,
-source areas, and production contacts who could answer follow-up questions
+Yield analytics depended on getting cross-area data into a usable format.
+Dashel cleaned production data with Python and loaded it into an Oracle
+database. He also wrote small PL/SQL applications so a supervisor could access
+the results. Yield work needs a whole-fab view of failures, passes, source
+areas, and production contacts who could answer follow-up questions
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|18:07-20:40]]).
 
-The work is close to [[data engineering]]
-inside a manufacturing process. A single clean training table wasn't the main
-asset; knowing where data lived, how tools mapped to fab areas, and how to make
-answers reachable for the people requesting them mattered more.
+Dashel's yield role sat close to [[data engineering]]
+inside a manufacturing process. The main asset wasn't one clean training table.
+The yield role needed knowledge of where data lived, how tools mapped to
+fab areas, and how requesters could reach the answers.
 
 Production roles, technician roles, and engineering work teach where to go and
 whom to ask when a yield request arrives
@@ -94,10 +94,10 @@ and business outcomes after deployment.
 
 ## Explainability
 
-The manufacturing constraint is that a better number isn't enough. Algorithms
-such as Bayesian methods and random forests moved accuracy from around 65% to
-around 85% after tweaks, but the result still couldn't be used because the steps
-couldn't be explained to a supervisor
+A better number isn't enough in manufacturing. Algorithms such as Bayesian
+methods and random forests moved accuracy from around 65% to around 85% after
+tweaks. The result still couldn't be used because the steps couldn't be
+explained to a supervisor
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|25:16-26:08]]).
 
 In a fab, practical [[interpretability]]
@@ -109,13 +109,13 @@ responsible for the tools
 
 ## Production Use
 
-Notebook results contrast with systems other people can use, built with tools
-such as Flask and REST APIs, simple authentication, cloud deployment, and
-containers
+Notebook results differ from systems other people can use. Dashel described
+Flask and REST APIs, simple authentication, cloud deployment, and containers as
+part of making predictions accessible
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]]).
 
 Access mattered because someone should be able to send data and get a result.
-At Microchip, the supervisor didn't only care that a prediction existed; they
+At Microchip, the supervisor didn't only care that a prediction existed. They
 needed to know how to get the data and result
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|37:29-43:38]]).
 
@@ -130,8 +130,8 @@ processing has stopped
 These patterns extend to chemical and coating production
 ([[person:rosonaeldred|Rosona]],
 [[podcast:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]]).
-Quality control here monitors input-output ratios — one kilo in, one kilo out —
-and flags anomalies that trigger a technician visit. Packing-peanut and
+Quality control monitors input-output ratios, such as one kilo in and one kilo
+out, and flags anomalies that trigger a technician visit. Packing-peanut and
 blue-paint production show that predictive maintenance in process industries
 depends more on fixed sensor placement and batch traceability than on
 internet-scale data volume. The regulatory layer adds sustainability and

@@ -9656,6 +9656,16 @@
       "search": "Experiments and Causality How experiments and causal reasoning connect metrics, uplift modeling, and product decisions in DataTalks.Club interviews."
     },
     {
+      "id": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Fab Maintenance and Yield ML",
+      "title": "Fab Maintenance and Yield ML",
+      "url": "/wiki/manufacturing-predictive-maintenance-yield-analytics/",
+      "count": 1,
+      "search": "Fab Maintenance and Yield ML How semiconductor teams use fab telemetry, tool logs, and wafers at risk forecasts to make explainable maintenance and yield decisions."
+    },
+    {
       "id": "wiki:feature-stores",
       "type": "wiki",
       "collection": "wiki",
@@ -10046,17 +10056,6 @@
       "search": "Machine Learning Engineer Role Guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
     },
     {
-      "id": "wiki:machine-learning-engineer-vs-data-scientist",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning Engineer vs Data Scientist",
-      "title": "Machine Learning Engineer vs Data Scientist",
-      "url": "/wiki/machine-learning-engineer-vs-data-scientist/",
-      "count": 1,
-      "search": "Machine Learning Engineer vs Data Scientist A podcast grounded role comparison for deciding whether a team needs data science ownership, machine learning engineering ownership, or both.",
-      "keyword": "machine learning engineer vs data scientist"
-    },
-    {
       "id": "wiki:machine-learning-for-business",
       "type": "wiki",
       "collection": "wiki",
@@ -10077,36 +10076,6 @@
       "count": 1,
       "search": "Machine Learning for Startups A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
-    },
-    {
-      "id": "wiki:machine-learning-infrastructure",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning Infrastructure",
-      "title": "Machine Learning Infrastructure",
-      "url": "/wiki/machine-learning-infrastructure/",
-      "count": 1,
-      "search": "Machine Learning Infrastructure Podcast grounded reference page for compute, storage, orchestration, serving, monitoring, and platform foundations behind ML systems."
-    },
-    {
-      "id": "wiki:machine-learning-personalization",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning Personalization",
-      "title": "Machine Learning Personalization",
-      "url": "/wiki/machine-learning-personalization/",
-      "count": 1,
-      "search": "Machine Learning Personalization How DataTalks.Club podcast discussions frame ML personalization through recommendation systems, ranking, user context, healthcare safeguards, product analytics, evaluation, privacy, and monitoring."
-    },
-    {
-      "id": "wiki:machine-learning-portfolio-projects",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning Portfolio Projects",
-      "title": "Machine Learning Portfolio Projects",
-      "url": "/wiki/machine-learning-portfolio-projects/",
-      "count": 1,
-      "search": "Machine Learning Portfolio Projects Guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
     },
     {
       "id": "wiki:machine-learning-system-design",
@@ -10138,16 +10107,6 @@
       "count": 1,
       "search": "Managing Data Science Projects How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption.",
       "keyword": "data science project management"
-    },
-    {
-      "id": "wiki:manufacturing-predictive-maintenance-yield-analytics",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Manufacturing Predictive Maintenance and Yield Analytics",
-      "title": "Manufacturing Predictive Maintenance and Yield Analytics",
-      "url": "/wiki/manufacturing-predictive-maintenance-yield-analytics/",
-      "count": 1,
-      "search": "Manufacturing Predictive Maintenance and Yield Analytics How semiconductor manufacturing ML turns fab telemetry, tool logs, and wafers at risk calculations into yield decisions that engineers can explain and use in production."
     },
     {
       "id": "wiki:marketing-to-analytics-engineering",
@@ -10201,6 +10160,17 @@
       "keyword": "machine learning engineer roadmap"
     },
     {
+      "id": "wiki:machine-learning-engineer-vs-data-scientist",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Engineer vs Data Scientist",
+      "title": "ML Engineer vs Data Scientist",
+      "url": "/wiki/machine-learning-engineer-vs-data-scientist/",
+      "count": 1,
+      "search": "ML Engineer vs Data Scientist Compare data scientist and ML engineer ownership across evidence, modeling, deployment, reliability, and team handoffs.",
+      "keyword": "machine learning engineer vs data scientist"
+    },
+    {
       "id": "wiki:machine-learning-for-software-engineers",
       "type": "wiki",
       "collection": "wiki",
@@ -10210,6 +10180,26 @@
       "count": 1,
       "search": "ML for Software Engineers A roadmap for software engineers moving into ML: transferable skills, missing data habits, project sequence, production awareness, and interviews.",
       "keyword": "machine learning for software engineers"
+    },
+    {
+      "id": "wiki:machine-learning-infrastructure",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Infrastructure",
+      "title": "ML Infrastructure",
+      "url": "/wiki/machine-learning-infrastructure/",
+      "count": 1,
+      "search": "ML Infrastructure Compute, storage, orchestration, serving, monitoring, and platform foundations for production machine learning systems."
+    },
+    {
+      "id": "wiki:machine-learning-personalization",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Personalization",
+      "title": "ML Personalization",
+      "url": "/wiki/machine-learning-personalization/",
+      "count": 1,
+      "search": "ML Personalization How personalization uses ranking, user context, analytics, privacy, healthcare safeguards, evaluation, and monitoring in ML systems."
     },
     {
       "id": "wiki:ml-platform-engineer-role",
@@ -10230,6 +10220,16 @@
       "url": "/wiki/ml-platforms/",
       "count": 1,
       "search": "ML Platforms Reference page for shared ML platform systems, internal product strategy, and team enablement."
+    },
+    {
+      "id": "wiki:machine-learning-portfolio-projects",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Portfolio Projects",
+      "title": "ML Portfolio Projects",
+      "url": "/wiki/machine-learning-portfolio-projects/",
+      "count": 1,
+      "search": "ML Portfolio Projects Choose ML portfolio projects that show framing, baselines, data work, evaluation, production thinking, and maintainable code."
     },
     {
       "id": "wiki:ml-product-manager-role",

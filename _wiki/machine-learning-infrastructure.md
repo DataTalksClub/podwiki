@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Machine Learning Infrastructure"
-summary: "Podcast-grounded reference page for compute, storage, orchestration, serving, monitoring, and platform foundations behind ML systems."
+title: "ML Infrastructure"
+summary: "Compute, storage, orchestration, serving, monitoring, and platform foundations for production machine learning systems."
 related:
   - ML Platforms
   - Platform Engineering
@@ -12,20 +12,22 @@ related:
   - Orchestration
 ---
 
-Machine learning infrastructure gives teams the compute and storage they need to
-train models and run batch jobs. It also covers serving predictions and watching
-deployed systems. In the DataTalks.Club podcast archive, it sits behind
+Machine learning infrastructure gives teams the systems they need to train
+models and run predictions. Those systems cover compute and storage, plus
+orchestration, serving, and monitoring. Across DataTalks.Club discussions, it's
+the technical base for
 [[ML Platforms]],
 [[MLOps]], and
 [[Machine Learning System Design]].
 
-The platform gives data scientists and ML engineers a usable path. The
-infrastructure supplies cloud resources, containers, and GPUs. It also supplies
-schedulers, registries, runtimes, and observability controls.
+Platforms turn that base into a usable path for data scientists and ML
+engineers. The infrastructure layer supplies cloud resources, containers, and
+GPUs. It also supplies schedulers, registries, runtimes, and observability
+controls.
 
-Platform skills span cloud infrastructure and notebooks. They also cover
-Kubernetes and Terraform, managed compute, batch inference, and online serving.
-Orchestration belongs in the same skill set
+The skill set spans cloud infrastructure, notebooks, Kubernetes, and Terraform.
+It also covers managed compute, batch inference, online serving, and
+orchestration
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 Infrastructure is therefore broader than model serving but narrower than the
 whole platform product.

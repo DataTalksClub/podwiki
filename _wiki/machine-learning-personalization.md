@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Machine Learning Personalization"
-summary: "How DataTalks.Club podcast discussions frame ML personalization through recommendation systems, ranking, user context, healthcare safeguards, product analytics, evaluation, privacy, and monitoring."
+title: "ML Personalization"
+summary: "How personalization uses ranking, user context, analytics, privacy, healthcare safeguards, evaluation, and monitoring in ML systems."
 related:
   - Recommendation Systems
   - Product Analytics
@@ -14,20 +14,19 @@ related:
   - Data Products
 ---
 
-Machine learning personalization uses user context and product constraints to
-adapt what a person sees or receives. The output may be a ranked product list or
-content recommendation. It may also be a next-best action, onboarding message,
-or clinical nudge. It sits between
-[[recommendation systems]],
-[[product analytics]],
-[[a-b-testing=>A/B testing]], and
-[[model monitoring]].
+ML personalization adapts rankings and recommendations to a person's context
+and the product's constraints. It can also adapt product messages or clinical
+nudges. Across DataTalks.Club discussions, it connects
+[[recommendation systems]] and [[product analytics]]. It also depends on
+[[a-b-testing=>A/B testing]] and [[model monitoring]].
 
 Personalization isn't only a model choice. Teams need reliable user events and
 a clear product decision. They also need safety and privacy constraints, plus
-evaluation that proves the personalized experience helped. Personalization
-depends on data pipelines and dashboards, and also on experiment capabilities,
-privacy safeguards, and medical-risk review
+evaluation that shows the personalized experience helped.
+
+Data pipelines and dashboards matter too. Experiment capabilities, privacy
+safeguards, and medical-risk review determine whether personalization is ready
+for users
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
 ## Working Definition
@@ -39,17 +38,17 @@ learned ranking.
 Simple segmentation may be enough when the product has too little data for a
 heavier model.
 
-Candidate generation is separate from ranking, and that same search structure
-carries into personalization requirements
+Candidate generation is separate from ranking. That same search structure also
+appears in personalization requirements
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
 That split is useful for recommender systems because a team first narrows
 possible items. It then ranks them with context, freshness, popularity, and
 business constraints.
 
-Session-based recommendations contrast with collaborative filtering:
-session-aware personalization can react to the current click path, while
-collaborative filtering relies more on accumulated user-item signals
+Recommendations based on the current session contrast with collaborative
+filtering. Session-aware personalization can react to the current click path.
+Collaborative filtering relies more on accumulated user-item signals
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 ## Product and Healthcare Boundaries
@@ -60,11 +59,11 @@ revenue. Ranking needs filters and recency, and it needs popularity and
 product constraints, not only vector similarity
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
-Healthcare personalization needs a stricter boundary. Sidekick Health is
-digital therapeutics with an agenda: the system nudges people toward
+Healthcare personalization needs a stricter boundary because Sidekick Health
+works in digital therapeutics with an agenda. The system nudges people toward
 healthier behavior, not just toward more engagement. Agenda-driven recommender
-systems combine segmentation and A/B testing with safeguards for
-recommendations that could be unsafe for specific medical groups
+systems combine segmentation and A/B testing with safeguards. Some
+recommendations could be unsafe for specific medical groups
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
 That healthcare boundary sits close to
@@ -76,14 +75,14 @@ when the suggestion can affect care.
 
 ## User Context and Activation
 
-Personalization needs usable context before it needs advanced modeling. Tracking
-plans, event properties, and source context, along with the split between
-client-side and server-side collection, decide whether a team can trust an
+Personalization needs usable context before it needs advanced modeling. Teams
+need tracking plans, event properties, source context, and a clear client-side
+or server-side collection choice. Without them, a team can't trust an
 activation metric or user segment
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 
 Data activation and reverse ETL let product event data flow to support, sales,
-marketing, and engagement tools, and activation events tie into personalized
+marketing, and engagement tools. Activation events also tie into personalized
 onboarding in product-led growth
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 A recommendation model may not be necessary yet. A reliable activation event can
@@ -101,14 +100,14 @@ Recommendation and personalization systems often share infrastructure with
 search. Embeddings, vector databases, and hybrid search sit alongside custom
 ranking models and query-time weights
 ([[podcast:building-production-search-systems|Building Search Systems]]).
-Multiple embeddings can cover titles, content, images, and behavioral signals,
-and late-binding query weights matter when the same item catalog serves
-different product contexts
+Multiple embeddings can cover titles and content. They can also cover images
+and behavioral signals. Late-binding query weights matter when the same item
+catalog serves different product contexts
 ([[podcast:building-production-search-systems|Building Search Systems]]).
 
-A related production-search path covers hybrid search and behavior signals, plus
-popularity, context-specific weighting, ecommerce personalization, and business
-KPIs ([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+A related production-search path covers hybrid search and behavior signals. It
+also covers popularity, context-specific weighting, ecommerce personalization,
+and business KPIs ([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
 Use it with [[production search evaluation]]
 when the personalization problem looks like ranking a catalog rather than
 choosing a standalone prediction.
@@ -133,7 +132,7 @@ Those checks matter for personalization because a top-line uplift can hide
 assignment bugs, segment-level harm, or noisy metrics.
 
 In the data product operating model, KPIs, success criteria, and fail-fast
-checks come before build work, and pilots, A/B tests, and production rollout
+checks come before build work. Pilots, A/B tests, and production rollout then
 decide whether a model or analytics product should keep moving
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 That makes personalization a [[data-products|data product]]
@@ -142,15 +141,15 @@ with users, metrics, and owners.
 ## Privacy and Safety
 
 Personalization often pushes teams to collect more user history than they need.
-Session-based personalization is a lower-retention design option, and
-privacy-enhancing technologies and differential privacy extend the toolkit; the
+Personalization based on session context can retain less history.
+Privacy-enhancing technologies and differential privacy extend the toolkit. The
 practical starting point is deciding what data the product needs and what risk
 the team is accepting
 ([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
 
-In the healthcare version, GDPR and HIPAA sit alongside de-identification and
-empathy, and safe app experimentation is separate from recommendations that
-require medical review
+In healthcare, GDPR and HIPAA sit alongside de-identification and empathy. Safe
+app experimentation is separate from recommendations that require medical
+review
 ([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 In high-impact domains, teams should define the guardrail path before they build
 a larger model.
@@ -188,7 +187,7 @@ That sequence starts with A/B tests and segmentation, then moves toward
 clustering or collaborative filtering when the team has enough data and
 confidence.
 
-Product analytics makes the same point: if a team can personalize onboarding
+Product analytics makes the same point. If a team can personalize onboarding
 from a well-defined activation event, it may not need a model yet
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 The intake and Definition of Done should decide whether the work is analytics,
