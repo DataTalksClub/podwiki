@@ -44,8 +44,8 @@ episodes use that product-first order.
 
 [[person:elenasamuylova=>Elena Samuylova]] describes
 ML startup ideas as
-[[podcast:building-mlops-startup@7:23=>problem-first work]].
-She returns to
+[[podcast:building-mlops-startup@7:23=>problem-first work]]
+and returns to
 [[podcast:building-mlops-startup@42:15=>customer discovery and product-market fit signals]].
 For the broader revenue and operating model question, use
 [[Machine Learning for Business]]
@@ -224,6 +224,20 @@ and
 For ML startups, hiring is [[team building]]
 rather than a fixed list of job titles.
 
+Company size changes the manager-versus-expert tradeoff. Larger companies can
+split work across a manager role and an expert role.[[cite:data-science-manager-vs-expert-hiring-guide|Manager vs Expert Hiring|30:37]]
+
+The manager owns stakeholder alignment and [[team building]] while the expert
+covers technical depth. Early startups usually can't fund both roles. Their
+first ML hire needs domain focus and communication plus [[data strategy]]. That
+hire also needs enough [[machine learning]] depth to ship the first useful
+models.[[cite:data-science-manager-vs-expert-hiring-guide|Manager vs Expert Hiring|38:37]]
+
+That startup "unicorn" hire is a tradeoff, not a universal ideal. It buys speed
+and fewer handoffs while accepting less algorithmic depth than a dedicated
+expert. Once the product workflow, data access, and customer problem stabilize,
+the same team can move from broad ownership toward specialist hiring.
+
 Radojkovic describes the same constraint from the MLOps side. Startups create
 [[podcast:lean-mlops-for-startups@27:30=>end-to-end ownership]]
 because fewer people cover more of the product and infrastructure surface. He
@@ -355,4 +369,3 @@ Start with these adjacent startup and ML concepts:
 - [[Data Strategy]]
 - [[Model Monitoring]]
 - [[Open Source]]
-

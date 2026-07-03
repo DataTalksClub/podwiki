@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11146
+    "links": 11153
   },
   "nodes": [
     {
@@ -38013,7 +38013,7 @@
     {
       "source": "wiki:data-pipelines",
       "target": "person:marianosemelman",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -38031,6 +38031,12 @@
     {
       "source": "wiki:data-pipelines",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "podcast:crisp-dm",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48116,6 +48122,12 @@
     },
     {
       "source": "wiki:entrepreneurship",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -48123,6 +48135,12 @@
     {
       "source": "wiki:entrepreneurship",
       "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:community",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53492,6 +53510,12 @@
     },
     {
       "source": "wiki:kpis",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -57524,6 +57548,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -57659,6 +57689,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -58167,6 +58203,12 @@
     {
       "source": "wiki:machine-learning-for-startups",
       "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-startups",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
       "kind": "wiki-chip",
       "weight": 1
     },

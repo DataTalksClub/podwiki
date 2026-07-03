@@ -115,6 +115,16 @@ In those systems, accuracy and AUC matter most when the team can say which KPI
 they protect or improve. Latency and pipeline freshness need the same business
 link.
 
+Impact measurement also needs a stakeholder loop. A data science manager can
+pair client feedback and project-manager perspective with dashboarded KPIs. That
+tests whether the model is improving the business process it was built for.
+
+For forecasting work, that links [[product analytics]] with [[model monitoring]].
+Teams watch the forecast and the business process together. Higher sales may
+come from seasonality, sales execution, or other operational changes rather than
+the model.
+[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|46:14]]
+
 [[person:linaweichbrodt=>Lina Weichbrodt]] makes the
 same point during project intake in
 [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].

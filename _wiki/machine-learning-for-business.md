@@ -108,6 +108,12 @@ person acts differently, the team probably has a reporting problem before it has
 an ML problem. A system action needs the same clarity. The team may have a
 discovery problem too.
 
+Client discovery should test the request before accepting "we need AI" as the
+requirement. Start with the business problem and current workflow. Then check
+the existing solution, expert judgment, and expected KPI. That can route the
+work toward a moving average, dashboard, or operating change before it becomes a
+[[machine learning]] project.[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]
+
 [[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization]]
 adds the prescriptive side of this rule. A prediction only estimates what may
 happen. Business value comes when the team turns that estimate into a decision
@@ -144,6 +150,11 @@ Business teams should compare ML with the simplest credible baseline. The
 baseline might be a rule or spreadsheet. It might be a SQL query, dashboard, or
 manual review queue. It might also be an expert checklist or existing vendor
 workflow.
+
+Client interviews should ask what solves the problem today. A current sales
+forecast, moving average, spreadsheet process, or expert review queue becomes the
+baseline that a model has to beat. That keeps [[evaluation]] and
+[[metrics]] anchored to the business process instead of a model leaderboard.[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]
 
 The CRISP-DM workflow uses the baseline as an evaluation gate. It asks the team
 to measure a rule-based category suggestion first.[[cite:crisp-dm|CRISP-DM Methodology|17:05]]
@@ -197,6 +208,14 @@ bottleneck, then decide whether ML beats the simpler operating change.
 ML needs more than a database. The team needs usable history, labels or
 feedback, and stable definitions. It also needs permission to use the data and a
 path to compute features when the prediction is needed.
+
+Discovery also has to separate missing ML from missing data. Ask which data
+exists, how much is available, whether it's clean, and what expert knowledge has
+not been captured in systems. Ask which metrics would make the process better.
+Poor or insufficient data is often the feasibility blocker even when the
+business case sounds like a real ML use case. The intake belongs close to
+[[data quality and observability]] and
+[[data strategy]].[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|53:57]]
 
 [[person:nadianahar=>Nadia Nahar]]
 describes common ML product failures in

@@ -180,6 +180,17 @@ he recommends building income streams while employed. He also recommends
 reducing expenses, saving cash, and creating a path out before quitting. That
 creates independence with runway, not a dramatic resignation.
 
+DataTalks.Club adds the free-course [[community]] version of the same runway
+problem. Sponsor revenue can look promising and then disappear when marketing
+budgets tighten. A [[founder]] can't treat expected sponsorships as stable cash
+until they're committed. The practical question is whether there's enough runway
+to keep courses operating while new sponsor conversations remain uncertain.[[cite:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club|17:56]]
+
+Prepaid tax rules can create a second cashflow shock. Early revenue may drive
+quarterly tax estimates that remove cash before year-end profit is clear. For a
+[[solopreneur]] or small education business, revenue stability means matching
+timing, commitments, and tax reserves to headline sales.[[cite:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club|20:14]]
+
 Dimitri gives the client-service version of the same risk control. Around 14:13
 and 1:01:02 in
 [[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
