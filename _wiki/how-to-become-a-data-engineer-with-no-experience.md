@@ -24,18 +24,14 @@ That evidence usually includes:
 - clear documentation
 - an interview story that explains what you can own
 
-DataTalks.Club guests are practical about this route. In
-[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-[[person:jeffkatz=>Jeff Katz]] puts Python and SQL at
-the center of a junior path at 23:35. He then adds cloud fundamentals and
-orchestration.
+DataTalks.Club guests are practical about this route.
+[[person:jeffkatz=>Jeff Katz]] puts Python and SQL at the center of a junior
+path, then adds cloud fundamentals and orchestration [[cite:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 
-In
-[[podcast:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]],
-[[person:gloriaquiceno=>Gloria Quiceno]] shows the
-learner side. Her path included bootcamp study and volunteer work. It also
-included Docker, Airflow, and AWS. She later used a custom capstone and tracked
-job search to explain the transition.
+[[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side through
+bootcamp study and volunteer work. She also worked with Docker alongside
+Airflow and AWS. She later used a custom capstone and tracked job search to
+explain the transition [[cite:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job story]].
 
 For role scope and a broader skill map, read
 [[Data Engineer Role]] and
@@ -53,12 +49,10 @@ includes quality checks, documentation, access, and recovery when a run breaks.
 For a beginner, the first target isn't a huge tool list. The first target is
 being able to build and explain one small data path end to end.
 
-In
-[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-[[person:jeffkatz=>Jeff Katz]] explains why a junior
-curriculum can postpone Spark, Kafka, and Kubernetes at 38:05. At 56:46, he
-frames the path as mostly Python and SQL, with a smaller layer of tools and
-cloud basics. That's useful permission to narrow your plan.
+[[person:jeffkatz=>Jeff Katz]] explains why a junior curriculum can postpone
+Spark, Kafka, and Kubernetes. He frames the path as mostly Python and SQL, with
+a smaller layer of tools and cloud basics. That's useful permission to narrow
+your plan [[cite:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 
 Your first target should prove that you can:
 
@@ -80,13 +74,10 @@ SQL and Python are the first proof layer because they show direct work with
 data. Tools matter, but a project that names Airflow, Docker, and a warehouse
 while hiding weak SQL and Python won't help much in an interview.
 
-In
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
-[[person:jeffkatz=>Jeff Katz]] warns at 1:49 that many
-projects list tools while showing too little Python and SQL. At 2:22, he asks
-for cleaner code and descriptive names. He also asks for useful functions,
-classes where they help, and tests. At 7:46, he describes technical screens
-with SQL, Python, and take-home data tasks.
+[[person:jeffkatz=>Jeff Katz]] warns that many projects list tools while
+showing too little Python and SQL. He asks for cleaner code and descriptive
+names. He also asks for useful functions, classes where they help, and tests.
+He describes technical screens with SQL, Python, and take-home data tasks [[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 
 For SQL, practice:
 
@@ -118,13 +109,11 @@ scrape, or a simulated change-data feed.
 The consumer might be a dashboard, analyst, or data mart. It could also be an
 ML training table, product workflow, or alert.
 
-[[person:gloriaquiceno=>Gloria Quiceno]] gives a useful
-portfolio example in
-[[podcast:get-data-analytics-and-data-engineering-job=>her data engineering job story]].
-At 50:15, she discusses a Twitter data pipeline capstone using Docker
-containers and a Slack bot. At 51:42, she explains why custom projects stand
-out more than repeated course projects. Candidates can explain the topic, the
-data, and the design choices.
+[[person:gloriaquiceno=>Gloria Quiceno]] gives a useful portfolio example in
+her data engineering job story. She discusses a Twitter data pipeline capstone
+using Docker containers and a Slack bot. She then explains why custom projects
+stand out more than repeated course projects. Candidates can explain the topic,
+the data, and the design choices [[cite:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job story]].
 
 Make the project defensible:
 
@@ -150,13 +139,11 @@ every other graduate's project. It becomes stronger when you change the source
 or consumer. It also becomes stronger when you change the failure mode, data
 model, tests, or operational story.
 
-In the job-prep episode,
-[[person:jeffkatz=>Jeff Katz]] recommends personal
-projects and open-source contributions at 2:46 because outside review raises
-code quality. At 39:49, he also names nonprofits and internships as ways to
-build experience when employers ask for commercial proof. Freelance work can
-serve the same purpose
-([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
+In the job-prep episode, [[person:jeffkatz=>Jeff Katz]] recommends personal
+projects and open-source contributions because outside review raises code
+quality. He also names nonprofits and internships as ways to build experience
+when employers ask for commercial proof. Freelance work can serve the same
+purpose ([[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
 
 Good ways to strengthen beginner evidence:
 
@@ -169,14 +156,11 @@ Good ways to strengthen beginner evidence:
 - contribute a fix, doc improvement, example, or integration to an open-source
   data tool
 
-[[person:agitajaunzeme=>Agita Jaunzeme]] gives the
-adjacent version in
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
-Her discussion connects career transitions to automation, open-source
-participation, and volunteering. "Experience" can come from inspected work,
-community work, and process ownership. It doesn't have to come only from a
-previous data engineer title
-([[podcast:from-devops-to-data-engineering-automation-open-source-volunteering|5:22-9:20, 14:29-21:03, and 36:25-40:23]]).
+[[person:agitajaunzeme=>Agita Jaunzeme]] gives the adjacent version. Her
+discussion connects career transitions to automation, open-source participation,
+and volunteering. "Experience" can come from inspected work, community work,
+and process ownership. It doesn't have to come only from a previous data
+engineer title ([[cite:from-devops-to-data-engineering-automation-open-source-volunteering|From DevOps to Data Engineering]]).
 
 ## Choose Your Transition Path
 
@@ -189,41 +173,32 @@ context. You may also know metrics and reporting. Your gap is usually
 engineering depth. Build projects that move upstream from dashboards into
 ingestion and raw storage. Add orchestration, testing, and recovery.
 
-In
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
-[[person:jeffkatz=>Jeff Katz]] discusses BI-to-data
-engineering upskilling at 14:11 and distinguishes analyst and engineer work at
-19:57.
+[[person:jeffkatz=>Jeff Katz]] discusses BI-to-data engineering upskilling and
+distinguishes analyst and engineer work [[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
 
 If you come from software engineering or data science, your advantage is
 coding, debugging, and tests. System thinking helps too. Your gap may be SQL
 depth and data modeling. It may also be warehouse design or consumer trust.
 
-In
-[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]],
-[[person:ellenkonig=>Ellen König]] references
-collaborative coding, CI/CD, and DevOps practices at 15:02. At 26:20, she names
-Git and Docker as essential course components. Testing, CLI, and clean code
-belong in the same foundation.
+[[person:ellenkonig=>Ellen König]] references collaborative coding, CI/CD, and
+DevOps practices, and she names Git and Docker as essential course components.
+Testing, CLI, and clean code belong in the same foundation [[cite:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]].
 
-At 41:29 and 44:00, she recommends scrapers and ETL pipelines. She also
-recommends schedulers and domain-focused pipelines with automation.
+She also recommends scrapers, ETL pipelines, schedulers, and domain-focused
+pipelines with automation [[cite:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]].
 
 If you come from DevOps or cloud engineering, your advantage is automation and
 infrastructure. You may also know deployment and monitoring. Your gap may be
-SQL, transformations, and business semantics. In
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]],
-[[person:agitajaunzeme=>Agita Jaunzeme]] ties the
-transition to automation at 14:29 and transferable problem-solving at 19:16.
-At 29:53, she connects data engineering with precision and persistence.
+SQL, transformations, and business semantics.
+[[person:agitajaunzeme=>Agita Jaunzeme]] ties the transition to automation and
+transferable problem-solving. She also connects data engineering with precision
+and persistence [[cite:from-devops-to-data-engineering-automation-open-source-volunteering|From DevOps to Data Engineering]].
 
 If you're new to tech, slow down on fundamentals by starting with SQL and
 Python. Add Git, the command line, and debugging. Then build one pipeline. Avoid
 a plan that starts with distributed systems before you can write and explain the
-transformations. The same focus appears in
-[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
-when [[person:jeffkatz|Jeff Katz]] keeps the junior path
-centered on fundamentals.
+transformations. The same focus appears when [[person:jeffkatz|Jeff Katz]]
+keeps the junior path centered on fundamentals [[cite:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 
 Use
 [[Career Transitions in Data]],
@@ -238,13 +213,10 @@ compare adjacent routes.
 direction makes your learning less scattered and your portfolio easier to
 explain.
 
-In
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
-[[person:slawomirtulski=>Slawomir Tulski]] separates
-platform data engineering from product-facing data engineering around 11:54. At
-30:56, he warns against over-engineered platforms and modern-data-stack theater.
-At 57:35 and 1:04:42, he frames strong portfolio work around end-to-end
-platform thinking and clear project framing.
+[[person:slawomirtulski=>Slawomir Tulski]] separates platform data engineering
+from product-facing data engineering. He warns against over-engineered platforms
+and modern-data-stack theater. He then frames strong portfolio work around
+end-to-end platform thinking and clear project framing [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
 
 For product-facing data engineering, build closer to analysts and data
 scientists. Product managers, metrics, and business logic matter too. Your
@@ -269,15 +241,13 @@ engineering interviews often combine SQL screens and Python exercises. They can
 also include project walkthroughs and take-home data tasks. Behavioral
 questions often cover debugging, ownership, ambiguity, and tradeoffs.
 
-[[person:nicolasrassam=>Nicolas Rassam]] describes the
-hiring side in
-[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
-At 30:39, he discusses career switchers, internships, and projects. Role focus
-is part of the same transition plan. At 31:16, he emphasizes resumes
-that show SQL and Python. They should also show problems and outcomes.
+[[person:nicolasrassam=>Nicolas Rassam]] describes the hiring side through
+career switchers, internships, and projects. He treats role focus as part of the
+same transition plan. He emphasizes resumes that show SQL, Python, problems,
+and outcomes [[cite:hiring-for-data-engineering-jobs-in-europe|Hiring Data Engineers in Europe]].
 
-At 44:35 and 55:53, he recommends researching the company and explaining
-projects clearly. He also recommends using shareable portfolio work.
+He also recommends researching the company, explaining projects clearly, and
+using shareable portfolio work [[cite:hiring-for-data-engineering-jobs-in-europe|Hiring Data Engineers in Europe]].
 
 Prepare three stories:
 
@@ -303,13 +273,10 @@ A no-experience CV should make the evidence easy to scan. Don't lead with a
 large keyword block and hope the reader infers skill. Lead with a target role
 only if the project evidence supports it, then describe concrete artifacts.
 
-This advice matches the hiring discussions above. In
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
-[[person:jeffkatz=>Jeff Katz]] connects the funnel from
-LinkedIn and resume screening to interview rounds at 3:38. In
-[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]],
-[[person:nicolasrassam=>Nicolas Rassam]] emphasizes
-problems and outcomes, not only tool names, at 31:16.
+This advice matches the hiring discussions above. [[person:jeffkatz=>Jeff Katz]]
+connects the funnel from LinkedIn and resume screening to interview rounds [[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]].
+[[person:nicolasrassam=>Nicolas Rassam]] emphasizes problems and outcomes, not
+only tool names [[cite:hiring-for-data-engineering-jobs-in-europe|Hiring Data Engineers in Europe]].
 
 Stronger project bullets look like this:
 
@@ -335,12 +302,10 @@ A software engineer may also need data-quality thinking, while a true tech
 beginner needs a longer runway. SQL and Python arrive together with Git, the
 command line, and debugging.
 
-Gloria's job-search story gives calibration, not a guarantee. In
-[[podcast:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]],
-[[person:gloriaquiceno=>Gloria Quiceno]] describes the
-job search after bootcamp at 16:14. At 22:57, she discusses about 130 tracked
-applications. At 27:55, she covers interview hurdles such as live coding and
-take-home tasks.
+Gloria's job-search story gives calibration, not a guarantee.
+[[person:gloriaquiceno=>Gloria Quiceno]] describes the job search after
+bootcamp and about 130 tracked applications. She also covers interview hurdles
+such as live coding and take-home tasks [[cite:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job story]].
 
 Her story shows that structured learning and projects can come together with
 applications and networking. It doesn't promise that every transition will fit
