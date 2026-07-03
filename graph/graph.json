@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11210
+    "links": 11211
   },
   "nodes": [
     {
@@ -8485,8 +8485,8 @@
       "title": "Algorithmic Trading",
       "url": "/wiki/algorithmic-trading/",
       "count": 1,
-      "search": "Algorithmic Trading How DataTalks.Club frames algorithmic trading as a Python workflow for market data, backtesting, validation, risk controls, and deployment.",
-      "keyword": "algorithmic trading"
+      "search": "Algorithmic Trading How Python stock analysis connects market data, backtesting, validation, risk controls, and algorithmic trading deployment.",
+      "keyword": "python stock analysis"
     },
     {
       "id": "wiki:data-analyst-to-analytics-engineer",
@@ -25972,8 +25972,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -25984,8 +25984,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:data-science",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -25996,8 +25996,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:evaluation",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26008,8 +26008,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:machine-learning",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26020,8 +26020,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26032,8 +26032,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26044,8 +26044,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:model-monitoring",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26056,8 +26056,8 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:tools",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering",
@@ -41338,8 +41338,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:business-skills-for-data-professionals",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41356,8 +41356,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-product-management",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41380,8 +41380,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-science",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41392,8 +41392,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-science-for-managers",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41416,8 +41416,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-teams",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41428,8 +41428,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:evaluation",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41440,8 +41440,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:leadership",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41458,8 +41458,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41470,8 +41470,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:metrics",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -41512,8 +41512,8 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:production-ml-project-checklist",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-recruiter",
@@ -57652,6 +57652,12 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "person:caitlinmoorman",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "person:danbecker",
       "kind": "wiki-chip",
       "weight": 1
     },

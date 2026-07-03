@@ -31,207 +31,191 @@ related_wiki:
 ---
 
 Machine learning for business starts with a decision, not a model. A company
-gets value when ML changes a repeated business action. The output may be a
-prediction or forecast. It may be a ranking, recommendation, or classification.
+gets value when [[machine learning]] changes a repeated action. Common actions
+include pricing, ranking, and forecasting. They also include routing, approval,
+scheduling, and recommendation.
 
-Teams may use ML to sell or price. They may also use it to support operations,
-approve requests, route work, or schedule resources.
-Leaders can check revenue and cost savings. They can also check usage, task
-time, decision quality, and pricing impact.[[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning]]
+The business question is whether that action improves enough to justify the data
+and product work. It also has to justify the operations work.
 
-Teams need shared stakeholder vocabulary before they can make metrics or models
-useful. They should name the [[machine learning]] decision and compare ML with a
-simpler baseline. They should also check whether the data is ready and assign
-ownership after release.[[cite:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]
+This business-ML guide covers a broader question than
+[[machine learning for startups]]. Startup teams often validate a narrow product
+under severe time and funding constraints. Larger companies compare ML with
+dashboards, rules, and vendor tools. They also compare it with operating changes
+and automation.
 
-Use this page for a broader business question than
-[[machine learning for startups]].
-Startup teams often validate a narrow product under severe time and funding
-constraints. Business leaders and data teams inside established companies also
-need to choose between dashboard work and operating changes. They also need to
-decide when rules, analytics, automation, or production ML is enough.
+That work sits close to [[business skills for data professionals]] and
+[[data products]]. It also depends on [[data product adoption]],
+[[data strategy]], and [[machine learning system design]].
 
-That work sits close to
-[[business skills for data professionals]],
-[[data products]], and
-[[data product adoption]].
-It also depends on
-[[data strategy]]
-and [[machine learning system design]].
+## Business Definition
+
+Across these episodes, business ML means a model-backed capability that changes
+a decision and can be measured in business terms. [[person:vinvashishta=>Vin Vashishta]]
+frames successful ML work through revenue and cost savings in
+[[podcast:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]].
+He also uses ARR and MRR. Adoption metrics include usage and task time.
+Decision quality and pricing impact matter too
+([[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|12:07]], [[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|1:15:14]]).
+
+[[person:lorismarini=>Loris Marini]] adds the operating precondition in
+[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]]:
+teams need shared definitions before metrics or models can guide action. His
+examples include customer and churn. They also include stickiness and lifetime
+value
+([[cite:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS|12:19]], [[cite:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS|18:00]]).
+
+That makes business ML a product and operating discipline. The team names the
+decision and compares ML with a simpler baseline. It checks data, defines
+metrics, designs adoption, and assigns ownership after release.
+
+## Boundary Differences
+
+Guests put the boundary in different places instead of using one universal ML
+business model.
+
+Vashishta emphasizes monetization by separating revenue models from cost-savings
+models. He also explains the product work behind researchable ML use cases
+([[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|15:59]], [[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|43:28]]).
+
+[[person:danbecker=>Dan Becker]] focuses on the decision layer. A prediction
+has limited value until the team turns it into a decision function
+([[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization|3:00]], [[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization|18:45]]).
+
+[[person:caitlinmoorman=>Caitlin Moorman]] puts adoption at the center. Data
+work creates value when people can trust it at decision time
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery|34:00]], [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery|41:18]]).
+
+Together, these views give different failure tests. A project can fail on the
+business model, decision logic, data, or workflow.
 
 ## Choose the Business Decision First
 
-A useful ML use case names the decision that will change. In
-[[podcast:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]],
-[[person:lorismarini=>Loris Marini]] tells data
-professionals to learn stakeholder vocabulary before they choose a method.
-Around 12:19-18:00, he uses customer and churn to show why teams need shared
-meaning before metrics or models. He also discusses usage and lifetime value.
+A useful ML use case names the action that will change. A churn model or lead
+score isn't the use case. A demand forecast, fraud detector, or recommendation
+system isn't the use case either.
 
-That advice applies directly to business ML. A churn model or lead score isn't
-the use case. A demand forecast, fraud detector, or recommendation system isn't
-the use case either.
-
-Name the action someone takes because of the output:
+Name the decision that changes because of the output:
 
 - a sales team changes which accounts it calls first
 - a support team routes tickets differently
 - a retail team changes replenishment orders
 - a finance team reviews higher-risk transactions
-- a product team ranks content, offers, or recommendations
+- a product team ranks content, offers, or recommendations differently
 
-For machine learning for small business, this action list is the first budget
-filter. The company may not need a platform, research program, or custom model
-yet. In
-[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]],
-[[person:elenasamuylova=>Elena Samuylova]] starts from a
-painful workflow and asks whether ML is needed at all around 7:23. A small
-business can use the same discipline: pick the repeated decision first, then
-fund only the simplest system that improves it.
+For machine learning for small business, the decision list is the first budget
+filter. The company may not need a platform or research program yet. It may not
+need a custom model either.
 
-[[person:caitlinmoorman=>Caitlin Moorman]] makes the
-same point for data products in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
-Around 34:00-40:53, she recommends starting from the decision. The team then
-works back to the data sources and transformations. It also designs the
-interface and meeting where people will use the output.
+[[person:elenasamuylova=>Elena Samuylova]] starts from a painful workflow in
+[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]]. She
+asks whether ML is needed at all
+([[cite:building-mlops-startup|How to Build a Successful ML Startup|7:23]]).
+A small business can use the same discipline. Pick the repeated decision first,
+then fund the simplest useful system.
 
-ML belongs in the same product discipline. If nobody can name the moment where a
-person acts differently, the team probably has a reporting problem before it has
-an ML problem. A system action needs the same clarity. The team may have a
-discovery problem too.
+Moorman's version starts from the decision. It then works back to data sources
+and the workflow ([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile|34:00]]).
+If nobody can name the action moment, discovery is still missing. The team
+probably has that problem before it has an ML problem.
 
 Client discovery should test the request before accepting "we need AI" as the
 requirement. Start with the business problem and current workflow. Then check
 the existing solution, expert judgment, and expected KPI. That can route the
-work toward a moving average, dashboard, or operating change before it becomes a
-[[machine learning]] project.[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]
+work toward a moving average, dashboard, or operating change before ML
+([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]).
 
-[[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization]]
-adds the prescriptive side of this rule. A prediction only estimates what may
-happen. Business value comes when the team turns that estimate into a decision
-under objectives and constraints.
+Decision optimization adds the prescriptive side. A forecast may feed an
+inventory order or guide a price offer. Bids, fraud thresholds, and resource
+allocation can use the same approach.
 
-A forecast may feed an inventory order. It may also drive a price offer, bid,
-or resource allocation. That means the loss function, optimization objective,
-and operating constraints have to match the business objective. Otherwise a
-model can improve a prediction metric while still recommending decisions the
-business can't execute or doesn't value.
+The loss function and operating constraints have to match the business
+objective. Otherwise, the model can recommend decisions the business can't
+execute or doesn't value
+([[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization|9:00]], [[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization|39:00]]).
 
 [[person:marianosemelman=>Mariano Semelman]] gives the data science leadership
-version of that product-first rule: a model matters when it helps the final
-user solve a problem. Technical interest isn't enough.
+version of the same product-first rule: a model matters when it helps the final
+user solve a problem. Modeling time is only one part of the work. The first
+version should be the simplest viable connection to the product
+([[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]]).
 
-Modeling time is only a small part of the work. Teams should start from the
-user problem and business outcome. The first version should be the simplest
-viable connection to the product. Optimize model choices after that
-[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
-
-[[person:gregcoquillo=>Greg Coquillo]] gives the AI data
-product version in
-[[podcast:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]].
-He starts with customer needs and documentation review before he moves into
-roadmap choices. He also uses Five Whys. His 28:53-47:18 discussion ranks
-options by impact, effort, cost, and metrics. For a
-[[data-product-management=>machine learning business model]],
-the model has to improve a business outcome strongly enough to justify the data,
-product, and operating cost.
+[[person:gregcoquillo=>Greg Coquillo]] applies that thinking to AI data
+products. In
+[[podcast:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]],
+he uses customer needs and documentation review before roadmap decisions. He
+also uses Five Whys and impact-effort-cost-metric tradeoffs
+([[cite:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps|28:53]]).
 
 ## Prove a Baseline Before Funding ML
 
-Business teams should compare ML with the simplest credible baseline. The
-baseline might be a rule or spreadsheet. It might be a SQL query, dashboard, or
-manual review queue. It might also be an expert checklist or existing vendor
-workflow.
+Business teams should compare ML with the simplest credible baseline. That might
+be a rule or spreadsheet. It might also be a SQL query or dashboard. Manual
+queues, checklists, and vendor workflows count too. The baseline keeps [[evaluation]] and [[metrics]]
+anchored to the business process rather than a model leaderboard
+([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]).
 
-Client interviews should ask what solves the problem today. A current sales
-forecast, moving average, spreadsheet process, or expert review queue becomes the
-baseline that a model has to beat. That keeps [[evaluation]] and
-[[metrics]] anchored to the business process instead of a model leaderboard.[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|50:12]]
-
-The CRISP-DM workflow uses the baseline as an evaluation gate. It asks the team
-to measure a rule-based category suggestion first.[[cite:crisp-dm|CRISP-DM Methodology|17:05]]
-
-A working baseline then moves into evaluation against the original business
-objective instead of making model accuracy the finish line.[[cite:crisp-dm|CRISP-DM Methodology|17:05]]
-
-That keeps [[evaluation]] tied to an operating [[metrics=>metric]] like reduced
-moderator correction time. It also keeps extra features or complex
-models subject to ROI instead of technical curiosity.[[cite:crisp-dm|CRISP-DM Methodology|18:23]]
+The [[podcast:crisp-dm=>CRISP-DM Methodology]] episode uses this as an
+evaluation gate. The team measures a rule-based category suggestion, then
+evaluates the model against the original business objective. That keeps extra
+features and complex models subject to ROI instead of technical curiosity
+([[cite:crisp-dm|CRISP-DM Methodology|17:05]], [[cite:crisp-dm|CRISP-DM Methodology|18:23]]).
 
 In
 [[podcast:machine-learning-system-design-interview=>ML System Design Interviews]],
-[[person:valeriybabushkin=>Valeriy Babushkin]] uses
-baselines around 24:28 and 29:09. The baseline tests whether the team
-understands the problem before it chooses a model. He also treats "avoid ML" as
-a valid design answer when a simpler system solves the problem well enough.
+[[person:valeriybabushkin=>Valeriy Babushkin]] uses baselines to test whether
+the team understands the problem before choosing a model. He treats "avoid ML"
+as a valid design answer when a simpler system works
+([[cite:machine-learning-system-design-interview|ML System Design Interviews|24:28]], [[cite:machine-learning-system-design-interview|ML System Design Interviews|29:09]]).
 
-[[person:benwilson=>Ben Wilson]] makes the cost side
-explicit in
-[[podcast:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Best Practices]].
-Around 32:03-55:41, he favors timeboxed comparisons and simple baselines before
-deep learning or complex platform work. He also stresses maintainable code and
-cost-benefit judgment. A business can lose money on a model that improves an
-offline score but increases cloud cost, review time, incident risk, or support
-burden.
+[[person:benwilson=>Ben Wilson]] makes the cost side explicit in
+[[podcast:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Best Practices]]:
+start with simple baselines and include production cost in the decision. That
+cost includes maintainability and cloud spend. It also includes review time,
+incident risk, and support burden
+([[cite:machine-learning-engineering-production-best-practices|Machine Learning Engineering Best Practices|32:03]]).
 
-For a small business, the baseline matters even more. The first useful version
-may be a manual prioritization sheet, a basic forecast, or a rules-based
-segmentation.
-
-Andreas Kretz adds a practical stakeholder-buy-in tactic in
-[[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]].
-Build a no-budget proof of concept before asking for a larger ML investment.
-
-That early prototype doesn't hide the eventual production cost. It shows whether
-the team can connect data to a simple pipeline. It also tests whether the
-result is measurable enough to quantify ROI. Leaders can then decide whether to
-fund cloud services, orchestration, model serving, or a broader team.
-
-[[person:elenasamuylova=>Elena Samuylova]]
-warns founders in
-[[podcast:building-mlops-startup=>How to Build a Successful ML Startup]]
-not to start from "I want to build a machine learning startup." Around 7:23,
-she starts from a painful workflow and asks whether ML is needed at all.
-Companies outside startups can use the same rule. Start with the business
-bottleneck, then decide whether ML beats the simpler operating change.
+For small business ML, a prioritization sheet may be enough. A basic forecast
+can also work. Kretz's proof-of-concept version starts without a budget before
+a larger ML investment ([[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines]]).
+That early prototype tests whether the team can connect data to a measurable
+workflow. Leaders can evaluate larger funding later.
 
 ## Check Data Readiness and Ownership
 
 ML needs more than a database. The team needs usable history, labels or
-feedback, and stable definitions. It also needs permission to use the data and a
+feedback, stable definitions, and permission to use the data. It also needs a
 path to compute features when the prediction is needed.
 
-Discovery also has to separate missing ML from missing data. Ask which data
-exists, how much is available, whether it's clean, and what expert knowledge has
-not been captured in systems. Ask which metrics would make the process better.
-Poor or insufficient data is often the feasibility blocker even when the
-business case sounds like a real ML use case. The intake belongs close to
-[[data quality and observability]] and
-[[data strategy]].[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|53:57]]
+Discovery has to separate missing ML from missing data. Ask which data exists
+and how much is available, then ask whether it's clean. Also ask which expert
+knowledge hasn't been captured in systems
+([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert|53:57]]).
+The intake belongs close to [[data quality and observability]] and
+[[data strategy]].
 
-[[person:nadianahar=>Nadia Nahar]]
-describes common ML product failures in
+[[person:nadianahar=>Nadia Nahar]] describes common ML product failures in
 [[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]].
-Around 10:54 and 29:42, unclear requirements and data access gaps block the
-product before the model can matter. Deployment gaps and weak documentation
-create the same risk.
+Unclear requirements and data access gaps can block the product before the model
+matters. Deployment gaps and weak documentation create the same risk
+([[cite:software-engineering-for-machine-learning|Software Engineering for ML|10:54]], [[cite:software-engineering-for-machine-learning|Software Engineering for ML|29:42]]).
 
 Data readiness is also a product question. In
 [[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]],
-[[person:zhamakdehghani=>Zhamak Dehghani]] describes
-data products with quality and completeness around 34:36-39:36. She also
-includes ownership and discoverability. A business ML use case depends on those
-guarantees. If sales and operations define the same entity differently from
-product and finance, the model may learn a version of the business nobody can
-use.
+[[person:zhamakdehghani=>Zhamak Dehghani]] describes data products through
+quality and completeness. She also includes ownership and discoverability
+([[cite:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation|34:36]]).
 
-Use [[machine learning system design]]
-to turn that readiness check into concrete questions. In
+A business ML use case depends on those guarantees. If teams define the same
+entity differently, the model may learn a version of the business nobody can
+use. Sales, operations, product, and finance need shared meaning.
+
+Use [[machine learning system design]] to turn readiness into concrete design
+questions. In
 [[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]],
-[[person:arsenykravchenko=>Arseny Kravchenko]] starts
-with goals and non-goals around 29:01-32:37. He also names assumptions and
-constraints. Data strategy and pipeline components belong in the same design.
+[[person:arsenykravchenko=>Arseny Kravchenko]] starts with goals and non-goals.
+He also names assumptions, constraints, data strategy, and pipeline components
+([[cite:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems|29:01]]).
 
 The team should know who owns each source and whether labels arrive late. It
 should also know whether features are available at serving time and which
@@ -240,116 +224,105 @@ data-quality failures would make the model unsafe to use.
 ## Pick Metrics Leaders Can Act On
 
 Business ML metrics have to connect model behavior to money, risk, time, or
-customer value. Accuracy, recall, precision, and ranking quality still matter.
-Latency and drift signals matter too. They aren't enough by themselves.
+customer value. Accuracy, recall, and precision still matter. Ranking quality,
+latency, and drift signals matter too. They aren't enough by themselves.
 
-[[person:vinvashishta=>Vin Vashishta]] gives the most
-direct business framing in
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]].
-Around 12:07-20:15, he translates ML work into revenue and cost savings. He also
-uses ARR and MRR. Around 1:15:14-1:18:12, he adds usage and task time. He also
-adds decision quality and pricing impact.
-
-Those measures help leaders compare an ML project with a sales change,
-data-quality project, or conventional software feature.
+Vashishta gives the most direct business framing in
+[[podcast:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]:
+translate model work into business measures. His examples include revenue, cost
+savings, ARR, and MRR. He also includes usage, task time, decision quality, and
+pricing impact. Those measures help leaders compare ML with other investments
+([[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|12:07]], [[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|1:15:14]]).
 
 [[person:adamsroka=>Adam Sroka]] adds KPI discipline in
 [[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
-Around 22:41-44:59, he warns against vanity metrics and KPIs that people can
-game. Later, around 51:12-1:00:02, he connects data-team work to time saved and
-money saved. He also connects it to reuse and measurable business impact.
+He warns against vanity metrics and KPIs that people can game. He then connects
+data-team work to time saved and money saved. He also connects it to reuse and
+measurable business impact
+([[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy|22:41]], [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy|51:12]]).
 
 Business ML teams should define:
 
 - one primary business metric
 - one model or decision-quality metric
-- guardrails for cost, latency, and fairness, plus reliability and user experience
+- guardrails for cost and latency
+- guardrails for fairness, reliability, and user experience
 - a baseline value and a target value
 - the owner who can act when the metric moves
 
 When the model changes customer or product behavior, the team may need
 [[a-b-testing=>A/B testing]] or causal validation.
-[[person:jakobgraff=>Jakob Graff]] covers metric choice,
-assignment tracking, A/A tests, and power analysis in
+[[person:jakobgraff=>Jakob Graff]] covers metric choice and assignment tracking.
+He also covers A/A tests and power analysis in
 [[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Use that with [[evaluation]] when an
-offline model score isn't enough evidence for rollout.
+Use that with [[evaluation]] when an offline model score isn't enough evidence
+for rollout.
 
 ## Choose the Business Model for the Output
 
-A machine learning business model isn't the algorithm. It's the way the
-company turns a model-backed capability into revenue or savings. It may also
-reduce risk or become a reusable product.
+A machine learning business model isn't the algorithm. It's the way the company
+turns a model-backed capability into revenue or savings. It can also reduce
+risk or become a reusable product capability.
 
-Vashishta separates revenue from cost-savings models in
-[[podcast:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
-around 15:59. He later describes the product-management work of translating
-strategy into researchable use cases around 43:28-50:53. That makes the
-business model a prioritization tool. The team should know whether the model
-drives direct revenue or protects margin. It should also know whether the model
-reduces manual work, improves risk decisions, or makes another product more
-valuable.
+Vashishta separates revenue from cost-savings models and describes the
+product-management work of translating strategy into researchable use cases
+([[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|15:59]], [[cite:make-money-with-machine-learning-roles-skills|Monetize Machine Learning|43:28]]).
+That makes the business model a prioritization tool. The team should know
+whether the model drives revenue or protects margin. It should also know whether
+the model reduces manual work or improves risk decisions.
 
 For internal ML, the business model often looks like operating efficiency. A
 model may reduce review time, improve routing, or help an expert handle more
-cases without lowering quality. Use [[metrics]]
-and [[evaluation]] to keep that claim
-testable instead of treating "automation" as the benefit.
+cases without lowering quality. Use [[metrics]] and [[evaluation]] to keep that
+claim testable instead of treating "automation" as the benefit.
 
 For customer-facing ML, the business model has to include adoption and
 distribution. In
 [[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]],
-[[person:vincentwarmerdam=>Vincent Warmerdam]] discusses
-why an ML-tool company might form around funding and partnerships rather than
-only a hosted product. Training and consulting can be part of that path. The
-53:47-56:19 section is
-useful when the ML asset is a tool, library, or platform capability. That
-model sits close to [[open source]] when community
-adoption, support load, and paid services are part of the business model.
+[[person:vincentwarmerdam=>Vincent Warmerdam]] discusses why an ML-tool company
+might form around funding and partnerships rather than only a hosted product.
+Training and consulting can be part of that path
+([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools|53:47]]).
+That model sits close to [[open source]]. Community adoption, support load, and
+paid services all become part of the business.
 
 For a small business, the practical choice is usually narrower. Use a vendor,
 build a rule, or ship a lightweight model only when the business case survives
 baseline comparison. The "model" may be a spreadsheet-assisted decision for a
-while. That's still a valid machine learning business strategy if it proves
+while. That's still a useful machine learning business strategy if it proves
 which data, workflow, and metric deserve automation later.
 
 ## Design for Adoption Before Launch
 
 A model that nobody trusts is an unfinished product. Moorman's last-mile data
-delivery episode treats discoverability, interpretability, trust, and decision
-context as product requirements. Around 24:13-34:00, she explains why data
-outputs can sit unused even when the modern data stack works. Around
-41:18-49:25, she recommends narrow wins that help one stakeholder make a better
-decision before the team tries to scale adoption.
+delivery discussion treats discoverability, interpretability, trust, and
+decision context as product requirements. Data outputs can sit unused even when
+the modern data stack works. Narrow wins with one stakeholder create evidence
+before the team tries to scale adoption
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery|24:13]], [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery|41:18]]).
 
-[[person:liorbarak=>Lior Barak]] gives the translator
-version in
+[[person:liorbarak=>Lior Barak]] gives the translator version in
 [[podcast:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
-Around 4:08-13:15, he focuses on shared definitions and proactive data-quality
-communication. He also shows business users how numbers are produced. ML teams
-need the same behavior.
+He focuses on shared definitions, proactive data-quality communication, and
+showing business users how numbers are produced
+([[cite:data-translator-role-and-data-strategy|Data Translator Role and Data Strategy|4:08]]).
+If a model score appears in a CRM, claims workflow, or planning tool, users need
+to know what it means. They also need to know when to ignore it and where to
+raise concerns.
 
-If a model score appears in a CRM or claims workflow, users need to know what it
-means. The same applies when the score appears in a planning tool. Users need to
-know when to ignore it and where to raise concerns.
+[[person:linaweichbrodt=>Lina Weichbrodt]] applies this directly to ML by
+starting with the business case and KPIs. She also covers alternatives, the
+production bar, bad-case demos, and fallbacks. Service levels and incident
+expectations complete the launch agreement
+([[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring|4:50]], [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring|18:29]]).
+Stakeholders need that pre-launch agreement before they can trust the useful
+outputs and the failure plan.
 
-[[person:linaweichbrodt=>Lina Weichbrodt]] applies this
-directly to ML in
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
-Around 4:50-12:22, she starts with the business case and KPIs. She also names
-alternatives and the bar for production.
-
-She adds demos of bad cases, fallbacks, service levels, and incident
-expectations around 18:29-27:14. Stakeholders need this pre-launch agreement
-before they can trust useful outputs and the failure plan.
-
-For teams building this capability, the
-[[Data Product Manager Roadmap]]
-is the closest learning path for discovery and metrics. It also covers roadmaps
-and adoption.
-The [[Data Product Manager vs Product Manager]]
-comparison helps clarify who owns discovery and launch when the product depends
-on data or ML.
+For teams building this capability, the [[Data Product Manager Roadmap]] is the
+closest learning path for discovery and metrics. It also covers roadmaps and
+adoption. The
+[[Data Product Manager vs Product Manager]] comparison helps clarify who owns
+discovery and launch when the product depends on data or ML.
 
 ## Own Production Risk
 
@@ -365,28 +338,26 @@ At that point, someone has to own the operating surface:
 - user feedback
 - incidents
 
-Use [[MLOps]] for model lifecycle work and
-[[MLOps vs DataOps]] when
-an incident could come from either the model layer or the data pipeline.
+Use [[MLOps]] for model lifecycle work and [[MLOps vs DataOps]] when an incident
+could come from either the model layer or the data pipeline.
 
-[[person:simonstiebellehner=>Simon Stiebellehner]]
-describes production ML platforms in
+[[person:simonstiebellehner=>Simon Stiebellehner]] describes production ML
+platforms in
 [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-Around 29:41-31:51, he covers experiment tracking and model registries. He also
-covers batch inference, online serving, and orchestration.
+He covers experiment tracking, model registries, batch inference, and online
+serving. He also covers orchestration, metadata, and lineage. Artifacts and
+governance matter too
+([[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms|29:41]], [[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms|42:48]]).
+Those pieces matter when a company runs several ML systems or when one model
+affects a critical workflow.
 
-He adds metadata, lineage, artifacts, and governance around 42:48-45:50. Those
-pieces matter when the company runs several ML systems or when one model affects
-a critical workflow.
-
-[[person:geojolly=>Geo Jolly]] shows the product
-ownership side in
+[[person:geojolly=>Geo Jolly]] shows the product ownership side in
 [[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
-Around 11:24-18:25, he treats internal ML platform users as customers. Around
-31:28-37:48, he connects release governance and validation. He also connects
-rollout timing and adoption. The [[ML product manager role]]
-exists because business ML needs product judgment after the model has a
-repository, not only before the project starts.
+He treats internal ML platform users as customers and connects release
+governance with validation. He also connects rollout timing and adoption
+([[cite:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy|11:24]], [[cite:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy|31:28]]).
+The [[ML product manager role]] exists because business ML needs product
+judgment after the model has a repository, not only before the project starts.
 
 Production ownership can stay small when the use case is small. A team may use
 a scheduled batch job, a simple monitoring report, and a documented manual
@@ -397,24 +368,24 @@ or the workflow may stop matching the training data.
 ## Decide Whether ML Is the Right Business Investment
 
 Use ML when the company can name a repeated decision and has enough data to beat
-a baseline. The team also needs to measure the business effect and operate the
-system after launch. Use analytics or operating changes when they reach the same
-business result with less risk. Rules, dashboards, and vendor tools may be
-enough too.
+a baseline. The team also has to measure the business effect and operate the
+system after launch. Use analytics, rules, dashboards, or vendor tools when they
+reach the same result with less risk. Operating changes may be enough too.
 
 The practical question isn't "Can we use machine learning in this business?"
 It's "Which decision improves enough to justify the data, product, and
 operations work?"
 
-The podcast discussions support this sequence:
+## Related Pages
 
-- learn the business language
-- choose the decision
-- prove the baseline
-- check data readiness
-- define metrics
-- design for adoption
-- assign production ownership
+Use these pages to go deeper into the product, metrics, and operations pieces:
 
-That sequence helps leaders and data teams use ML as a business capability
-instead of treating it as a standalone model project.
+- [[Machine Learning]]
+- [[Business Skills for Data Professionals]]
+- [[Data Products]]
+- [[Data Product Adoption]]
+- [[Data Product Management]]
+- [[Machine Learning System Design]]
+- [[Metrics]]
+- [[Evaluation]]
+- [[MLOps]]

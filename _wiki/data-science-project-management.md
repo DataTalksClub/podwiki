@@ -1,5 +1,6 @@
 ---
-layout: wiki
+layout: article
+tags: ["guide"]
 title: "Managing Data Science Projects"
 summary: "How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption."
 keyword: "data science project management"
@@ -9,7 +10,7 @@ secondary_keywords:
   - "managing data science projects"
   - "data science project planning"
   - "machine learning project management"
-related:
+related_wiki:
   - Data Science
   - Business Skills for Data Professionals
   - Data Product Management
@@ -23,10 +24,10 @@ related:
 ---
 
 Data science project management turns an ambiguous business, analytics, or
-machine learning request into useful shipped work. A data science project
-manager or data lead names the decision and defines a measurable target. They
-keep the smallest useful version explicit, plan the shipping path, and name the
-handoff owner.
+machine learning request into useful shipped work or a justified stop decision.
+A data science project manager or data lead names the decision and defines a
+measurable target. They keep the smallest useful version explicit, plan the
+shipping path, and name the handoff owner.
 
 The practice draws from [[Data Science]],
 [[Business Skills for Data Professionals]],
@@ -37,8 +38,8 @@ It also depends on [[Leadership]] and
 because the work combines technical uncertainty with team coordination.
 
 Data science project management is both technical work and organizational work.
-Teams start by understanding the business and preparing data, model and evaluate
-next, and deploy when the result is ready to leave analysis
+Teams understand the business problem, prepare the data, model, and evaluate.
+They deploy only when the result is ready to leave analysis
 ([[podcast:crisp-dm|CRISP-DM]]).
 
 [[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series=>Why Data Science Projects Fail]]
@@ -50,8 +51,8 @@ by Simon Thompson covers the same project lifecycle from the delivery side. It
 focuses on scoping, risk management, and stakeholder alignment for ML-specific
 work.
 
-Planning, stakeholder communication, and KPI work stay useful after the work
-moves into analytics and machine learning
+Planning and stakeholder communication stay useful after the work moves from
+classic project management into analytics and machine learning. So does KPI work
 ([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
 
 ## Project Lifecycle
@@ -60,7 +61,7 @@ Project management for data science starts before modeling and ends after the
 first analysis or model result. The manager or lead asks what business objective
 the work serves. They also ask whether the problem is measurable and what data
 exists. Then they ask which baseline is good enough, how the result will be
-used, and what operational owner receives the handoff.
+used, and what operational owner receives the handoff or stop decision.
 
 The problem should be important,
 measurable, and connected to a way to measure success. Teams should keep
@@ -76,8 +77,8 @@ operational handoff that keeps the work usable after modeling
 
 Data product work uses the same definition. The operating model starts with
 intake, prioritization, and Definition of Done. KPIs and feasibility checks come
-before pilots. Later work includes A/B tests and rollout, while monitoring,
-demos, and stakeholder feedback stay in the lifecycle
+before pilots. Later work includes A/B tests and rollout. Monitoring, demos, and
+stakeholder feedback keep the project connected to use after launch
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 That project structure links data science management to [[Data Products]],
@@ -86,40 +87,41 @@ That project structure links data science management to [[Data Products]],
 
 ## Risk Emphasis
 
-Data science projects need structure, and different risks are the focus.
+Guests mostly agree that data science projects need structure. They differ on
+which failure mode deserves the most attention.
 
-The first is transferable project-management craft. Planning, stakeholder
+One emphasis is transferable project-management craft. Planning, stakeholder
 communication, and business KPIs transfer into data work. CRISP-DM is a useful
 project framework. Projects that affect other people need Git and testing. They
 also need Docker, deployment, and clean code because they can't remain only
 notebooks
 ([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
 
-The second is lifecycle control. A lead data scientist embedded with marketing
-stakeholders still runs work through a single front door, Definition of Done, and
-feasibility checks. Delivery then moves through sprint or Kanban delivery,
-pilots, A/B testing, and production rollout
+Another emphasis is lifecycle control. A lead data scientist embedded with
+marketing stakeholders still runs work through a single front door, Definition
+of Done, and feasibility checks. Delivery then moves through sprint or Kanban
+delivery, pilots, A/B testing, and production rollout
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 That view is close to [[Data Product Management]].
 The project isn't complete until the product can be used, measured, and
 operated.
 
-The third is uncertainty management. Teams use roadmaps, debrief culture, and
-business impact to steer the work. They also use cross-functional partnerships,
-exploration sprints, design stories, and incremental movement from POC to
-production
+Shir Meir Lador puts more weight on uncertainty management. Teams use roadmaps,
+debrief culture, and business impact to steer the work. They also use
+cross-functional partnerships, exploration sprints, design stories, and
+incremental movement from POC to production
 ([[podcast:data-science-management-and-agile-machine-learning|Data Science Management and Agile Machine Learning]]).
 That focus belongs with [[Data Teams]]
 and [[Data Team Lead Role]].
 The project manager protects learning speed and delivery discipline at the same
 time.
 
-A concrete failure case makes the point. After a BERT-based proofreading
-classifier reached only 60% precision, the team advertised it internally too
-early. The recommendation was to convene all stakeholders and drop the project
-rather than burn months on an under-resourced team. Customer development and
-rapid validation should precede ML work. Interview candidates should ask whether
-a company has active revenue-producing ML in production
+A concrete failure case makes the stopping-risk visible. After a BERT-based
+proofreading classifier reached only 60% precision, the team advertised it
+internally too early. The recommendation was to convene all stakeholders and
+drop the project rather than burn months on an under-resourced team. Customer
+development and rapid validation should precede ML work. Interview candidates
+should ask whether a company has active revenue-producing ML in production
 ([[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]]).
 
 ## Framing and Scope
@@ -182,10 +184,14 @@ keeps space for exploration and technical work
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 For managers, decision rights are part of team design. A data science manager
-needs enough technical literacy and strategy to redirect work when good enough is
-enough. Companies sometimes hire deep experts when the real gap is coordination,
-translation, and team development
+needs enough technical literacy to redirect work when good enough is enough.
+They also need enough strategy to distinguish a deep expertise gap from a
+coordination and team development gap
 ([[podcast:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]]).
+
+That decision-rights work includes the authority to say "not ML yet." It also
+includes asking for more discovery or stopping a weak project before it becomes
+organizational debt.
 That distinction links project management to
 [[Data Scientist Role]] and
 [[Leadership]].
@@ -241,7 +247,7 @@ involved while requirements, data assumptions, acceptance criteria, and test
 plans are still being shaped. Their role starts before a ticket reaches modeling
 ([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
 
-Kanban plans sprints and estimates work. Demos keep stakeholder feedback in the
+A Kanban board organizes delivery stories. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
@@ -275,12 +281,13 @@ Segment analysis and root-cause work explain live results
 That's why [[Evaluation]]
 belongs in the project plan, not only in the modeling phase.
 
-Adoption is also part of completion. Data products can fail when users don't
-know they exist. They can also fail when users don't understand or trust them, or
-when users don't see how the product fits the decision
+Adoption is also part of completion because data products can fail when users
+don't know they exist. They can also fail when users don't understand or trust
+them. Another failure mode is a product that never fits the decision
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
-For project management, adoption work includes discoverability and
-interpretability. It also includes workflow placement, documentation, and
+
+For project management, adoption means making the output discoverable and
+interpretable, placing it in the workflow, and keeping documentation and
 feedback loops.
 
 Production handoff should name the owner of data quality and model behavior, plus
