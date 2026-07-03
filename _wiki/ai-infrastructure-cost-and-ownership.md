@@ -23,15 +23,15 @@ but it's narrower than the full platform topic. The ownership question asks
 whether a team should rent cloud services or run dedicated machines. It also
 covers hybrid paths, managed ML platforms, and open-source components.
 
-Post-ChatGPT infrastructure pressure sets the terms: teams often hit cost limits
+Post-ChatGPT infrastructure pressure sets the terms. Teams often hit cost limits
 in both cloud and on-prem settings. Cloud can become expensive for cutting-edge
-AI, while hardware the organization owns requires up-front investment,
-maintenance, and enough utilization to justify the risk
+AI. Hardware the organization owns requires up-front investment, maintenance,
+and enough utilization to justify the risk
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
-The startup and regulated-enterprise versions add nuance: SaaS and cloud suit
-small teams that can't spare people for infrastructure maintenance, though
-lock-in, replication, and security debt remain risks
+The startup and regulated-enterprise versions add nuance. SaaS and cloud suit
+small teams that can't spare people for infrastructure maintenance. Lock-in,
+replication, and security debt remain risks
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
 ## Ownership Model
@@ -53,8 +53,8 @@ whether the team has predictable demand, hard privacy or control constraints,
 available infrastructure skills, and enough operational maturity to own more
 of the system.
 
-In the startup setting, cloud is a default for early teams, but cloud credits
-and managed services can hide migration costs and platform lock-in
+In the startup setting, cloud is a default for early teams. Cloud credits and
+managed services can hide migration costs and platform lock-in
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 The AI-specific version is that GPU-heavy work changes the calculus, because
 cost, availability, and coordination move to the center
@@ -63,25 +63,26 @@ cost, availability, and coordination move to the center
 ## Different Starting Points
 
 The guests mostly agree on the tradeoff, but they start from different
-constraints. [[person:andreycheptsov|Andrey Cheptsov]] begins from AI
-infrastructure at scale, treating open-source orchestration as a way to reduce
-cost of ownership; hybrid infrastructure can also preserve control over GPUs,
-jobs, and deployment targets
+constraints.
+[[person:andreycheptsov|Andrey Cheptsov]] begins from AI infrastructure at
+scale. He treats open-source orchestration as a way to reduce cost of ownership.
+Hybrid infrastructure can also preserve control over GPUs, jobs, and deployment
+targets
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
 That view fits teams with large AI workloads. Generic cloud ML services or
 plain Kubernetes may no longer match the way engineers schedule nodes and GPUs
 for distributed training.
 
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]] starts from team capacity: for
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]] starts from team capacity. For
 startups, four-to-ten-person companies should usually buy SaaS and managed cloud
-services, which avoids hiring people to maintain BI tools, servers, or internal
+services. That avoids hiring people to maintain BI tools, servers, or internal
 infrastructure
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
-For finance, on-prem core systems and OpenShift or Hadoop clusters dominate,
-with firewalls and internal package registries constraining deployment and
-approval flows and governance processes shaping it further
+For finance, on-prem core systems and OpenShift or Hadoop clusters dominate.
+Firewalls and internal package registries constrain deployment and approval
+flows. Governance processes add another constraint
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 
 Those positions aren't contradictory because ownership pays off only when the
@@ -100,8 +101,8 @@ stack
 
 Cloud infrastructure buys speed and elasticity, but it doesn't remove
 engineering cost. Cloud adds key management, identity management, and
-configuration work; teams also choose dashboards and logging, and manual service
-configuration through consoles creates replication risk
+configuration work, while teams also choose dashboards and logging. Manual
+service configuration through consoles creates replication risk
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 Cloud therefore belongs inside [[MLOps]] and
 [[Platform Engineering]],
@@ -112,8 +113,8 @@ requires up-front investment and high utilization, while cloud can produce a
 surprising bill after a team clicks through provisioning
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
-The later-stage rule: if the workload stabilizes and the team has the right
-engineers, dedicated machines can become cheaper in the long run, though a
+The later-stage rule is conditional. If the workload stabilizes and the team has
+the right engineers, dedicated machines can become cheaper in the long run. A
 low-code data-science team probably can't operate that path alone
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
@@ -133,14 +134,14 @@ see [[LLM Cost Optimization]].
 GPU ownership turns AI infrastructure cost into more than generic cloud
 spending. Large-model training is a financial and technical problem because
 teams need GPUs, money, coordination, and recovery from node failures. More GPUs
-alone don't solve it; teams still face communication bottlenecks and failure
+alone don't solve it. Teams still face communication bottlenecks and failure
 modes in distributed training
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
 The operations problem shows even at a small scale. A shared GPU host can leave
 people SSHing into the same machine and waiting for one another to finish jobs.
-Owned infrastructure means maintaining servers, managing updates, and
-orchestrating work that cloud providers often hide as a service
+When teams own infrastructure, they maintain servers, manage updates, and
+orchestrate work that cloud providers often hide as a service
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 GPU infrastructure therefore belongs near
 [[machine learning infrastructure]],
@@ -158,14 +159,15 @@ model. In that framing, open source becomes an ownership strategy as well as a
 software-license choice
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
-The regulated deployment version: finance organizations remain cautious about
-moving sensitive systems to cloud, privacy and encryption discussions can stretch
-migrations over years, and security risks and approval discussions add more delay
+The regulated deployment version moves slowly. Finance organizations remain
+cautious about moving sensitive systems to cloud. Privacy and encryption
+discussions can stretch migrations over years. Security risks and approval
+discussions add more delay
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
-In finance work, the same constraints show up as internal registries and
-firewall questions, with OpenShift, Hadoop clusters, and approval paths shaping
-deployment
+Finance work shows the same constraints. Internal registries and firewall
+questions constrain deployment, as do OpenShift, Hadoop clusters, and approval
+paths
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 Use [[Security]] for adjacent policy and
 deployment concerns. Use
@@ -175,17 +177,22 @@ and ecosystem sides.
 
 ## Portability and Managed Services
 
-Teams can use managed ML platforms as shortcuts, but those platforms move
-ownership into the provider's abstractions. Generic Python scripts on a remote
-server contrast with richer platforms such as Vertex AI or SageMaker: the generic
-path is easier to move, while the managed path may require retraining, migration
-work, and evidence that training was reproducible
+Teams can use provider ML platforms as shortcuts that move ownership into the
+provider's abstractions. Generic Python scripts on a remote server contrast with
+richer platforms such as Vertex AI or SageMaker. The generic path is easier to
+move, but provider platforms may require migration work and reproducibility
+evidence
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
 The same boundary appears from the enterprise side. SageMaker is mature for AWS,
-but it doesn't address every reason teams avoid cloud services, and cost of
+but it doesn't address every reason teams avoid cloud services. Cost of
 ownership can still block adoption
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
+
+Serving through SageMaker endpoints shifts some runtime work to AWS. The
+team can pay for managed availability. It can also choose simpler deployment
+paths or precomputed predictions when latency allows
+([[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]]).
 
 Teams should separate managed convenience from strategic dependency, even when
 a startup accepts lock-in to learn faster. It should still keep code and data
@@ -199,9 +206,10 @@ engineering hygiene.
 
 ## Operations Burden and Platform Ownership
 
-Infrastructure ownership is also a staffing decision. On-premises requires a team
-to maintain the infrastructure, which smaller companies may struggle with, while
-large financial organizations often already have platform engineering teams
+Infrastructure ownership is also a staffing decision because on-premises requires
+a team to maintain the infrastructure. Smaller companies may struggle with that
+burden, while large financial organizations often already have platform
+engineering teams
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 
 In that environment, ML engineers can ask a platform team for capacity and then
@@ -209,25 +217,33 @@ include new machines in the pipeline. Hardware ownership becomes an internal
 service model.
 
 The minimum operating layer still matters even when infrastructure is tactical.
-A minimal MLOps stack includes separate development, test, and production
-environments, an audit-trailed DevOps platform, monitoring, a model registry,
-data versioning, and reproducible pipelines
+
+A minimal MLOps stack includes:
+
+- separate development, test, and production environments
+- an audit-trailed DevOps platform
+- monitoring
+- a model registry
+- data versioning
+- reproducible pipelines
+
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 
 Tactical solutions such as an S3 bucket for model registry or data versioning
-can serve until a strategic tool such as MLflow or Databricks is ready
+can work at first. A strategic tool such as MLflow or Databricks can replace
+them later
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 [[Production]] covers the runtime side
 of those responsibilities.
 
 ## Startup Tradeoffs
 
-For startups, ownership can be a trap until the workload or risk justifies it.
-SaaS-first choices let a small company spend scarce people on the product rather
-than on BI infrastructure or server maintenance
+Ownership can be a trap for startups until the workload or risk justifies it.
+SaaS-first choices keep scarce people focused on the product. They avoid BI
+infrastructure and server maintenance
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
-Cloud credits can still steer a company toward a provider it may not like later,
-and migration can be slow and costly
+Cloud credits can still steer a company toward an unwanted provider. Migration
+can be slow and costly
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
 
 The startup rule is to buy speed while preserving a way out. Prefer boring,
@@ -245,7 +261,7 @@ Read this with [[Startups]] and
 ## Enterprise and Regulated Constraints
 
 Enterprise ownership often begins with constraints that already exist. Finance
-is a world of on-prem core systems and slow-changing internal IT, where DevOps
+is a world of on-prem core systems and slow-changing internal IT. DevOps
 governance, package registries, and release approvals define the deployment path
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 Those constraints can slow change, but they also encode trust, security, and
@@ -253,8 +269,8 @@ operational accountability.
 
 The ownership decision in that setting is less about escaping bureaucracy and
 more about fitting AI work into a trusted path. Approvals become faster after
-teams deploy repeatedly without incidents; teams also learn who owns each process
-and adapt ML workflows to existing DevOps practices
+teams deploy repeatedly without incidents. Teams also learn who owns each
+process and adapt ML workflows to existing DevOps practices
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 For regulated organizations, ownership pays off when the organization can
 operate the stack and audit changes. It also needs to control data movement and
@@ -264,15 +280,15 @@ support the platform after deployment.
 
 Teams should consider owning more AI infrastructure when concrete constraints
 outweigh the operating burden. Workload stability and privacy can move the
-decision, as can control, GPU access, and regulation. Ownership makes sense when
-teams need cost control or custom orchestration, and it depends on GPU
-coordination and control over where models and data run
+decision, as can control requirements, GPU access, and regulation. Ownership
+makes sense when teams need cost control or custom orchestration. It also
+depends on GPU coordination plus control over where models and data run
 ([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
 
-The startup guardrail: ownership only works when the team has enough expertise to
-maintain it
+For startups, the guardrail is expertise. Ownership only works when the team has
+enough expertise to maintain it
 ([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
-The process side: teams need enough control to avoid hidden security,
+On the process side, teams need enough control to avoid hidden security,
 reproducibility, and migration failures
 ([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
 

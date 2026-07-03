@@ -21,11 +21,11 @@ delivery.
 
 [[person:santonatuli=>Santona Tuli]] frames pipeline design as a sequence. Data
 starts with raw arrival, then moves to cleaned ingestion and modeled business
-entities, and the pipeline finally produces answers for dashboards or ML systems
+entities. The pipeline finally produces answers for dashboards or ML systems
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 [[person:nataliekwong=>Natalie Kwong]] makes the same point through ELT: teams
-keep raw data separate from business-facing marts so they don't invent
+keep raw data separate from business-facing marts. That way they don't invent
 inconsistent transformations downstream
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
 For related background, see
@@ -36,7 +36,7 @@ and [[Data Pipelines]].
 
 A pipeline should answer a real question or power a real workflow. After data
 arrives, engineers still need to identify mapping keys, foreign keys, and
-business entities, and name the question the business wants answered. Data and
+business entities. They also name the question the business wants answered. Data and
 analytics engineers should talk to end users before deciding which tables and
 transformations matter
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
@@ -44,9 +44,9 @@ transformations matter
 For product and growth data, that consumer-first work begins even earlier.
 [[person:arpitchoudhury=>Arpit Choudhury]] recommends a
 [[tracking-plans=>tracking plan]] before
-instrumentation: teams define events, properties, data types, and ownership, so
-product and growth teams know what an event means before it reaches analytics or
-activation tools
+instrumentation. Teams define events, properties, data types, and ownership.
+Product and growth teams then know what each event
+means before downstream tools use it
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
 
 If teams use vague event names in
@@ -65,25 +65,24 @@ Start with this brief before you pick tools:
 ## Design The Ingestion Layer
 
 Ingestion isn't the same as final modeling. The ingestion layer stays separate
-from data marts because raw data isn't ready for most business users, and if
-every analyst transforms raw tables differently, the organization gets
-conflicting answers. ELT keeps the raw form available while moving shared
+from data marts because raw data isn't ready for most business users. If every
+analyst transforms raw tables differently, the organization gets conflicting
+answers. ELT keeps the raw form available while moving shared
 business logic into a controlled transformation layer
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
 
-Ingestion can still perform limited quality work. The early stage handles
-deduplication and ordering guarantees, and it can mask or hash PII before the
+Ingestion can still perform limited quality work because the early stage handles
+deduplication and ordering guarantees. It can also mask or hash PII before the
 data appears in Snowflake or another human-facing destination
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 Treat those steps as guardrails, not as the place where every business metric
 is defined.
 
 Pick storage from the data structure and each team's needs. Warehouses are a
-strong fit for structured analytics teams, while lakes help when engineering or
-data science teams need unstructured files, logs, video, and other raw formats.
+strong fit for structured analytics teams. Lakes help when engineering or data
+science teams need unstructured files, logs, video, and other raw formats.
 
-Lakes and warehouses can become swamps when teams store unused or poorly
-governed data that people can't trust
+Lakes and warehouses become swamps when teams keep data people can't trust
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
 For that comparison, use
 [[Data Warehouse vs Data Lakehouse]].
@@ -93,16 +92,16 @@ For that comparison, use
 After ingestion, model data around entities, relationships, and business
 questions. This means finding the keys and relationships across multiple
 sources, then building the modeled layer that can answer real business
-questions. Ingested data and modeled data stay separate from answers, and marts
-or dashboard-specific transformations sit after the core business entities
+questions. Keep ingested data and modeled data separate from answers. Marts or
+dashboard-specific transformations sit after the core business entities
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 This is where
 [[analytics engineering]]
 and [[data engineering]] overlap.
 ELT connects analysts using dbt and SQL inside the warehouse, with data marts as
-the business-facing layer, and those marts should be easier to use than raw
-ingestion tables
+the business-facing layer. Those marts should be easier to use than raw ingestion
+tables
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
 
 The practical output isn't "a pipeline" in the abstract. It may be a modeled
@@ -119,9 +118,14 @@ That boundary is why pipeline work often touches
 ## Orchestrate The Work, Not The Buzzwords
 
 Orchestration coordinates jobs after each pipeline step is clear. Airflow is an
-orchestrator that schedules work and runs ingestion jobs, while tools such as
-Airbyte focus on the extract-load part and dbt handles warehouse transformations
+orchestrator that schedules work and runs ingestion jobs. Tools such as Airbyte
+focus on the extract-load part, and dbt handles warehouse transformations
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
+
+Production ML pipelines follow the same rule: start with Lambda functions and
+queues. Adopt Airflow or Kubernetes when the simple chain becomes hard to
+operate
+[[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]].
 
 For a local learning or portfolio setup, follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
@@ -133,9 +137,9 @@ the whole pipeline after the scheduler.
 
 At team scale, teams need orchestration conventions.
 [[person:mehdiouazza=>Mehdi OUAZZA]] notes that a platform is more than an Airflow
-cluster: teams need naming conventions, sequence practices, playbooks, support
-channels, and onboarding, so other data users can build without turning the
-platform team into a bottleneck
+cluster. Teams need naming conventions and sequence practices. They also need
+playbooks, support channels, and onboarding. Other data users can then build
+without turning the platform team into a bottleneck
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
 
 See
@@ -143,9 +147,9 @@ See
 for that operating model.
 
 Streaming adds stricter schema agreements. Teams can grow from a few Kafka
-topics to hundreds quickly, so define typed schemas and schema registry usage,
-plus allowed changes and a schema-change process before downstream teams depend
-on the stream
+topics to hundreds quickly. Define typed schemas and schema registry usage before
+downstream teams depend on the stream. Also define allowed changes and a
+schema-change process
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
 [[Batch vs Streaming]]
 covers the latency decision.
@@ -153,17 +157,17 @@ covers the latency decision.
 ## Add Tests, Observability, And Recovery
 
 A pipeline can finish successfully and still deliver bad data.
-[[person:barrmoses=>Barr Moses]] names freshness and volume first, then
-distribution, schema, and lineage
+[[person:barrmoses=>Barr Moses]] names freshness and volume first. She also
+names distribution, schema, and lineage
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability]]).
 Teams use those signals to see whether data is up to date and complete, whether
-values look plausible, and whether schemas stay stable, and lineage connects the
+values look plausible, and whether schemas stay stable. Lineage connects the
 right upstream and downstream assets.
 
 Freshness expectations should become explicit SLAs when downstream work depends
 on them. A dataset that must arrive within five minutes after a user action is
-one example, and the SLA helps the data team prioritize which freshness
-incidents matter first instead of treating every late table as equal
+one example. The SLA helps the data team prioritize which freshness incidents
+matter first instead of treating every late table as equal
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability]]).
 Link those expectations to
 [[Data Quality and Observability]]
@@ -191,9 +195,9 @@ Product events can power support context and sales prioritization. They can also
 power engagement campaigns and personalized onboarding when teams define the
 events and properties clearly enough.
 
-Reverse ETL is one concrete last-mile mechanism. Modeled warehouse outputs move
-back into operational systems such as Salesforce, where salespeople or marketers
-act on lead scores and other modeled outputs
+Reverse ETL is one concrete last-mile mechanism. In reverse ETL, modeled
+warehouse outputs move back into operational systems such as Salesforce.
+Salespeople or marketers act on lead scores and other modeled outputs
 ([[podcast:data-engineering-tools-modern-data-stack|Data Engineering Tools and the Modern Data Stack]]).
 The same operational-analytics path connects to tools such as Census, Hightouch,
 and Grouparoo

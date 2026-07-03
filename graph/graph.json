@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11097
+    "links": 11102
   },
   "nodes": [
     {
@@ -24872,6 +24872,12 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -36567,6 +36573,12 @@
     {
       "source": "wiki:data-engineering-tools",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52028,6 +52040,12 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -57416,6 +57434,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -58959,6 +58983,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "wiki-chip",
       "weight": 1
     },

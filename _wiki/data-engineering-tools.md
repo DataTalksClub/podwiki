@@ -68,6 +68,12 @@ Brudaru warns against vendor-led tool collection around 44:42 in
 In that discussion, he says teams should choose tools after they understand the
 business requirement, team skills, and operating cost.
 
+[[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]]
+adds the production version of the same warning. Every extra queue, processor,
+cloud service, or scheduler becomes another operational surface. Tool breadth
+only helps when the team can monitor, debug, secure, and hand off the whole
+path under failure.
+
 Katz's career guidance gives the same ordering. In
 [[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 [[person:jeffkatz=>Jeff Katz]] treats Python, SQL, and
@@ -297,8 +303,9 @@ Start with the business use case, then choose the tools.
 9. Check maintenance cost, security, governance, lock-in, and team skills
    before adding specialized tools.
 
-The episodes converge on the same rule. Katz starts with SQL, Python, cloud
-basics, and orchestration before tool sprawl in
+The episodes converge on a rule of starting with operating basics. Katz starts
+with SQL and Python, then adds cloud basics and orchestration before tool
+sprawl in
 [[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 Kwong starts with the movement of data and the ETL/ELT tradeoff in
 [[podcast:data-engineering-tools-modern-data-stack=>the modern data stack episode]].

@@ -165,6 +165,15 @@ For a small business, the baseline matters even more. The first useful version
 may be a manual prioritization sheet, a basic forecast, or a rules-based
 segmentation.
 
+Andreas Kretz adds a practical stakeholder-buy-in tactic in
+[[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]].
+Build a no-budget proof of concept before asking for a larger ML investment.
+
+That early prototype doesn't hide the eventual production cost. It shows whether
+the team can connect data to a simple pipeline. It also tests whether the
+result is measurable enough to quantify ROI. Leaders can then decide whether to
+fund cloud services, orchestration, model serving, or a broader team.
+
 [[person:elenasamuylova=>Elena Samuylova]]
 warns founders in
 [[podcast:building-mlops-startup=>How to Build a Successful ML Startup]]
