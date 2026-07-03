@@ -20,13 +20,10 @@ change. That makes causal inference different from ordinary
 [[machine learning]] prediction:
 the model result can change the behavior that creates the next data point.
 
-In
-[[podcast:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]],
-[[person:aleksandermolak=>Aleksander Molak]]
-starts from this difference. Around 7:31, he separates association from
-causation. Around 12:41 and 15:36, he uses prediction, marketing, and
-recommendation examples to show why a team often needs a counterfactual answer.
-The team needs to know what would have happened under another action.
+[[person:aleksandermolak=>Aleksander Molak]] starts from this difference in
+the causal ML episode. He separates association from causation, then uses
+prediction, marketing, and recommendation examples to show why a team often
+needs a counterfactual answer. The team needs to know what would have happened under another action [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 
 Causal inference therefore sits next to
 [[experimentation and causal inference]],
@@ -49,51 +46,40 @@ A causal inference problem needs these pieces:
 - a comparison between treatment and no treatment
 - a decision about rollout, targeting, budget, or product design
 
-Molak makes this explicit in the causal ML episode. Around 18:15, he connects
-counterfactuals to Judea Pearl's intervention view. Around 24:24, he introduces
-conditional average treatment effect, or CATE. CATE estimates how much the
-treatment changes the outcome for a given person or segment. CATE makes
-causal inference depend on [[metrics]]:
-the outcome has to match the product or business decision.
+Molak makes this explicit in the causal ML episode. He connects
+counterfactuals to Judea Pearl's intervention view and introduces conditional
+average treatment effect, or CATE. CATE estimates how much the treatment
+changes the outcome for a given person or segment. CATE makes causal inference
+depend on [[metrics]]: the outcome has to match the product or business decision [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 
 [[person:jakobgraff=>Jakob Graff]] gives the randomized
 version of the same idea in
-[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Around 8:13, he explains A/B testing through the clinical-trial setup. Teams
-randomly assign people, expose one group to the change, keep another as control,
-and compare outcomes. Around 11:48, he frames the goal as causality in a noisy
-product environment.
+the product experimentation episode. He explains A/B testing through the
+clinical-trial setup. Teams randomly assign people, expose one group to the
+change, keep another as control, and compare outcomes. He frames the goal as causality in a noisy product environment [[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 
 ## Practice Boundaries
 
 The guests mostly agree that causal inference should support a decision, but
 they start from different operating constraints.
 
-Molak starts from causal structure. Around 26:16 in the causal ML episode, he
-explains that unconfoundedness can come from randomized treatment assignment or
-from careful causal feature selection. Around 33:14, he adds refutation tests
-and estimator checks because standard validation doesn't prove that a causal
-structure is correct.
+Molak starts from causal structure. In the causal ML episode, he explains that
+unconfoundedness can come from randomized treatment assignment or from careful
+causal feature selection. He adds refutation tests and estimator checks because standard validation doesn't prove that a causal structure is correct [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 
 Graff starts from the experimentation system. In the A/B testing episode, he
-focuses on assignment and tracking. He also focuses on metric choice, sample
-size, and trust in the platform. Around 27:52, he recommends A/A tests to check
-whether the machinery can split traffic and measure outcomes without inventing
-a difference.
+focuses on assignment and tracking. He also covers metric choice, sample size,
+and trust in the platform. He recommends A/A tests to check whether the machinery can split traffic and measure outcomes without inventing a difference [[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 
 [[person:juanorduz=>Juan Orduz]] starts from marketing
 measurement in
-[[podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]].
-Around 13:36 and 14:58, he describes media mix modeling and time-series
-counterfactuals for estimating campaign impact. Around 29:13 and 30:54, he
-connects uplift modeling with treatment/control design and data pitfalls.
+the marketing data science episode. He describes media mix modeling and
+time-series counterfactuals for estimating campaign impact, then connects uplift modeling with treatment/control design and data pitfalls [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling|Marketing Data Science]].
 
 [[person:liesbethdingemans=>Liesbeth Dingemans]] uses a
 broader product-design lens in
-[[podcast:ai-ml-product-design-and-experimentation=>AI Product Design]].
-Around 16:02 and 23:16, she discusses parallel experiments, proofs of concept,
-and design sprints. These aren't always causal estimates, but they reduce
-uncertainty before a team invests in a full AI or ML product.
+the AI product design episode. She discusses parallel experiments, proofs of
+concept, and design sprints. These aren't always causal estimates, but they reduce uncertainty before a team invests in a full AI or ML product [[cite:ai-ml-product-design-and-experimentation|AI Product Design]].
 
 ## Observational Data and Confounding
 
@@ -102,20 +88,17 @@ also useful when randomization would be expensive, unethical, or too slow. It
 creates the main risk in causal inference because the data may mix the treatment
 effect with confounders.
 
-Molak illustrates the problem early in the causal ML episode. Around 8:55, he
-uses confounder examples to show how a relationship can look predictive without
-being causal. Around 26:16, he explains why teams need either randomized
-treatment data or a defensible way to choose causal features. Around 59:33 and
-1:04:03, he discusses partial identification and sensitivity. He also discusses
-causal graphs and minimal observables for cases where the data can't identify
-one clean answer.
+Molak illustrates the problem early in the causal ML episode. He uses
+confounder examples to show how a relationship can look predictive without
+being causal. He then explains why teams need either randomized treatment data
+or a defensible way to choose causal features. He also discusses partial
+identification and sensitivity. For cases where the data can't identify one clean answer, he uses causal graphs and minimal observables [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 
 Marketing measurement often lives in this observational setting. In Orduz's
 episode, attribution becomes ambiguous because customers see several channels
-before converting. Around 10:18, he describes multi-channel journeys. Around
-20:49, he discusses privacy changes and cookieless tracking, which reduce the
-quality of user-level tracking data. That pushes teams toward aggregate models,
-stronger assumptions, and clearer communication with stakeholders.
+before converting. He describes multi-channel journeys and discusses privacy
+changes and cookieless tracking, which reduce the quality of user-level
+tracking data. That pushes teams toward aggregate models, stronger assumptions, and clearer communication with stakeholders [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling|Marketing Data Science]].
 
 ## Randomized Product Experiments
 
@@ -125,13 +108,11 @@ characteristics, so the
 team can attribute a measured difference to the intervention with fewer
 assumptions.
 
-Graff's A/B testing episode gives the practical structure. Around 14:27, the
+Graff's A/B testing episode gives the practical structure. The
 subscription-versus-points example shows that the primary metric changes the
-meaning of the experiment. Around 33:23, he discusses noisy metrics and
-stability. He also covers seasonality and business cycles.
+meaning of the experiment. He also discusses noisy metrics and stability, along with seasonality and business cycles [[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 
-Around 37:44, power analysis turns effect size and variance into a test
-duration. It also uses the baseline rate and traffic.
+Power analysis turns effect size and variance into a test duration. It also uses the baseline rate and traffic [[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 
 These concerns connect causal inference to
 [[experimentation]] and
@@ -148,22 +129,19 @@ churn model predicts who may leave, while an uplift model asks who stays because
 the team intervenes. A recommender predicts engagement, while a causal
 recommender asks what engagement changes because a specific item was shown.
 
-Molak makes this targeting distinction around 27:52 and 32:40 in the causal ML
-episode. The team should compare a causal policy with a baseline on the same
-business metric. Revenue, churn, retention, and cost can each be the metric
-when they match the decision. Around 38:54 and 41:14, he also warns that causal
-models are worth the added complexity only when they change a valuable decision.
-One example is reducing wasted marketing spend.
+Molak makes this targeting distinction in the causal ML episode. The team
+should compare a causal policy with a baseline on the same business metric.
+Revenue, churn, retention, and cost can each be the metric when they match the
+decision. He also warns that causal models are worth the added complexity only when they change a valuable decision. One example is reducing wasted marketing spend [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 
 [[person:valeriybabushkin=>Valerii Babushkin]] connects
 this to production ML validation in
-[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]].
-Around 24:28, he treats metrics, baselines, and A/B tests as part of the
-end-to-end ML pipeline. Around 57:23, he discusses production validation through
-A/B tests, causality, and human labels. This is where
+the ML system design interview. He treats metrics, baselines, and A/B tests as
+part of the end-to-end ML pipeline. He then discusses production validation
+through A/B tests, causality, and human labels. This is where
 [[evaluation]] and
 [[machine learning system design]]
-meet causal thinking.
+meet causal thinking [[cite:machine-learning-system-design-interview|ML System Design Interviews]].
 
 ## Product Decisions Under Uncertainty
 
@@ -178,11 +156,10 @@ Graff's episode shows the controlled product experiment path. Teams define the
 decision, pick the metric, randomize, and validate the platform. Then they wait
 long enough to learn.
 
-Dingemans' product design episode covers the earlier product uncertainty.
-Around 6:43 and 10:04, she discusses designing interfaces that collect useful
-signals. Around 31:04, she uses scoping documents and "why" questions to
-challenge assumptions before a team commits to a solution. Around 54:11 and
-56:36, she connects experimentation culture with measurable product decisions.
+Dingemans' product design episode covers earlier product uncertainty through
+interfaces that collect useful signals. She also uses scoping documents and
+"why" questions to challenge assumptions before a team commits to a solution.
+She connects experimentation culture with measurable product decisions. Teams can then avoid treating the first AI or ML idea as the committed plan [[cite:ai-ml-product-design-and-experimentation|AI Product Design]].
 
 For product managers and analysts, the practical question isn't whether a
 method is labeled causal. The question is whether the evidence supports the
