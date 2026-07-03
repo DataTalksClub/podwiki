@@ -10021,7 +10021,7 @@
       "title": "Machine Learning",
       "url": "/wiki/machine-learning/",
       "count": 1,
-      "search": "Machine Learning How DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
+      "search": "Machine Learning DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
     },
     {
       "id": "wiki:machine-learning-engineer-role",
@@ -10031,7 +10031,7 @@
       "title": "Machine Learning Engineer Role",
       "url": "/wiki/machine-learning-engineer-role/",
       "count": 1,
-      "search": "Machine Learning Engineer Role Guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
+      "search": "Machine Learning Engineer Role Explains the machine learning engineer role through podcast discussions of production models, serving, maintainability, and MLOps boundaries."
     },
     {
       "id": "wiki:machine-learning-for-business",
@@ -10063,7 +10063,7 @@
       "title": "Machine Learning System Design",
       "url": "/wiki/machine-learning-system-design/",
       "count": 1,
-      "search": "Machine Learning System Design How DataTalks.Club episodes frame ML system design as a production discipline: problem framing, data strategy, baselines, evaluation, serving, monitoring, fallbacks, and ownership."
+      "search": "Machine Learning System Design DataTalks.Club podcast notes on ML system design: framing decisions, data paths, evaluation, serving, monitoring, fallbacks, and ownership."
     },
     {
       "id": "wiki:machine-learning-tools",
@@ -10073,7 +10073,7 @@
       "title": "Machine Learning Tools",
       "url": "/wiki/machine-learning-tools/",
       "count": 1,
-      "search": "Machine Learning Tools A podcast grounded guide to choosing machine learning tools across modeling, learning, experimentation, feature work, MLOps, monitoring, fairness, open source, platforms, and AI tooling boundaries."
+      "search": "Machine Learning Tools Podcast grounded guide to choosing ML tools for modeling, experiments, platforms, monitoring, fairness, and AI tooling."
     },
     {
       "id": "wiki:data-science-project-management",
@@ -10124,7 +10124,7 @@
       "title": "ML Consulting Proposals",
       "url": "/wiki/ml-consulting-proposals/",
       "count": 1,
-      "search": "ML Consulting Proposals How DataTalks.Club guests scope machine learning consulting work: discovery calls, feasibility checks, written proposals, pricing, trust, prototypes, workshops, mentoring, delivery risk, and cases where ML should not be sold."
+      "search": "ML Consulting Proposals How DataTalks.Club guests scope ML consulting proposals through discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
     },
     {
       "id": "wiki:machine-learning-engineer-roadmap",

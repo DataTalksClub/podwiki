@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning System Design"
-summary: "How DataTalks.Club episodes frame ML system design as a production discipline: problem framing, data strategy, baselines, evaluation, serving, monitoring, fallbacks, and ownership."
+summary: "DataTalks.Club podcast notes on ML system design: framing decisions, data paths, evaluation, serving, monitoring, fallbacks, and ownership."
 related:
   - MLOps
   - Machine Learning Infrastructure

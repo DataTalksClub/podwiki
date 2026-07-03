@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Consulting Proposals"
-summary: "How DataTalks.Club guests scope machine learning consulting work: discovery calls, feasibility checks, written proposals, pricing, trust, prototypes, workshops, mentoring, delivery risk, and cases where ML should not be sold."
+summary: "How DataTalks.Club guests scope ML consulting proposals through discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
 related:
   - Freelance
   - Data Product Management

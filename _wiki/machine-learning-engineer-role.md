@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Engineer Role"
-summary: "Guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
+summary: "Explains the machine learning engineer role through podcast discussions of production models, serving, maintainability, and MLOps boundaries."
 related:
   - Machine Learning
   - Machine Learning System Design

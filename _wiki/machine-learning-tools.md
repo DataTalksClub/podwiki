@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Tools"
-summary: "A podcast-grounded guide to choosing machine learning tools across modeling, learning, experimentation, feature work, MLOps, monitoring, fairness, open source, platforms, and AI tooling boundaries."
+summary: "Podcast-grounded guide to choosing ML tools for modeling, experiments, platforms, monitoring, fairness, and AI tooling."
 related:
   - Machine Learning
   - Scikit Learn
