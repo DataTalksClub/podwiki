@@ -87,6 +87,14 @@ separates roles by the work each person owns in an ML product. Product managers
 keep the team close to the user. Data scientists test whether the problem
 should become a project.
 
+AI product discovery can use a design sprint as a shared interface before
+implementation starts. Designers, data scientists, PMs, and engineers share the
+problem-definition work. Data scientists can sit in user interviews and help own
+the problem. A designer, product manager, or trained data scientist can
+facilitate the divergent and convergent parts of the sprint. That connects
+[[data product management]], [[experimentation]], and [[communication]] before a
+[[machine-learning]] solution is chosen.[[cite:ai-ml-product-design-and-experimentation|AI/ML Product Design and Experimentation|25:18]]
+
 Data engineers make usable data available, while ML engineers bring models into
 software systems.
 

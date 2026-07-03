@@ -134,6 +134,20 @@ size and success criteria. Project planning starts there, before anyone chooses 
 model
 ([[podcast:crisp-dm|CRISP-DM]]).
 
+The Double Diamond gives the same ordering. Teams start with a rough product
+area and research what users experience. They narrow attention to the most
+important sub-problem. Only then do they widen again into possible solutions and
+experiments
+([[cite:ai-ml-product-design-and-experimentation|AI Product Design|12:12]]).
+
+For data science project management, that keeps [[Data Product Management]]
+and [[Product Analytics]]
+ahead of model choice. A team can compare a model, manual work, a vendor, or a
+non-ML process after it knows which problem receives project time
+([[cite:ai-ml-product-design-and-experimentation|AI Product Design|14:32]]).
+That makes [[Evaluation]]
+part of scope design, not only a final model review.
+
 Project managers should include non-goals and a smallest useful path. For
 [[ML System Design Documents]],
 teams use design documents to fail early and align stakeholders. Teams keep the

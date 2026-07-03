@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11123
+    "links": 11135
   },
   "nodes": [
     {
@@ -38336,6 +38336,12 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -38447,6 +38453,12 @@
       "target": "wiki:evaluation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
@@ -41084,6 +41096,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -43514,6 +43532,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -43659,6 +43683,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:data-team-lead-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:experimentation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52604,6 +52634,12 @@
     },
     {
       "source": "wiki:interpretability",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
       "target": "podcast:fairness-in-ai-ml-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -52640,6 +52676,12 @@
     },
     {
       "source": "wiki:interpretability",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -52661,6 +52703,12 @@
       "target": "wiki:data-science",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:interpretability",
@@ -61268,6 +61316,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -61292,6 +61346,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "wiki:batch-vs-streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -61299,6 +61359,12 @@
     {
       "source": "wiki:ml-system-design-documents",
       "target": "wiki:data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61397,6 +61463,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-system-design-documents",

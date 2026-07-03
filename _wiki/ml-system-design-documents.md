@@ -61,6 +61,25 @@ and data strategy belong there too.
 By writing the problem before the solution, teams keep the document from
 becoming a model wish list.
 
+Teams should make early participation by data scientists explicit in the scoping
+section. In AI product work, data scientists need to help define both the problem
+and the solution. If they join only after user research and interface decisions,
+they may discover too late that the product can't collect the signals the model
+needs. That makes problem definition part of
+[[AI Product Feedback Loops]],
+[[data product management]], and
+[[product analytics]].[[cite:ai-ml-product-design-and-experimentation|AI Product Design|28:18]]
+
+Reviewers also need room to challenge a proposed model by asking why before they
+accept the assignment. If a request arrives as "solve this with a neural
+network," the team can use a short scoping document or email. In that note, they
+should state the understood problem and why it matters. They should add the
+proposed direction so stakeholders can confirm whether this is the real problem.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|31:04]][[cite:ai-ml-product-design-and-experimentation|AI Product Design|35:49]]
+
+Used this way, teams turn the design doc into an alignment tool for
+[[data product intake and prioritization]], not only an implementation plan. It
+can prevent months of rework on the wrong solution.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|35:49]]
+
 [[person:nadianahar=>Nadia Nahar]] adds the software
 engineering warning in
 [[podcast:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].

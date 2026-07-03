@@ -189,6 +189,22 @@ the technical lead changes from data scientist to analyst, he keeps
 end-to-end accountability for delivery
 ([[podcast:building-data-products-lead-data-scientist|20:54-22:48]]).
 
+Some intake systems also need a lane for ideas that are too large or uncertain
+for the normal quarterly queue. Three-month OKRs are useful for incremental data
+science work tied to direct metric movement. They can also hide AI product
+opportunities that need six months or a year to explore. In intake terms, that separates a
+near-term [[KPIs|KPI]] improvement from a protected [[experimentation]] track for a
+longer-term [[Data Product Management|data product roadmap]] bet.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|39:33]]
+
+Those bets still need evidence. Teams can collect proof through quick
+experiments and a business case. They can also form a time-limited task force
+around a specific problem. The team shows results, then decides whether to build
+a durable team or send people back to their home teams.
+
+Some problems need a dedicated team with structured user-centered work and a
+clear link to company vision. Task forces are an intake option, not a replacement
+for roadmap ownership.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|49:16]]
+
 Barak's prototype-first advice gives a useful triage option before production
 engineering. Teams can automate a repetitive workflow with a quick MVP or use a
 spreadsheet to prove value. They can also use rough code before transferring

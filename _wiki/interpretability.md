@@ -156,6 +156,16 @@ and feature necessity around 17:20. That order matters because a model
 explanation is weaker if the team never asked whether the input data was
 appropriate.
 
+Healthcare regulation raises the same deployment bar. An algorithm can become
+part of a medical device or clinical workflow. Clinicians and device approvers
+then need an intelligible reason for the prediction before they can trust it
+[[cite:building-healthcare-machine-learning-systems|Healthcare ML Systems|25:23]].
+Missing or inconsistent patient data and scarce clinical-outcome annotations
+also limit what an explanation can prove. That keeps interpretability work
+connected to [[Healthcare ML Validation and Adoption]],
+[[Annotation Quality Workflows]], and [[Data Quality and Observability]]
+[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|25:53]].
+
 Fairness work needs interpretable metrics and domain judgment. In
 [[podcast:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]],
 [[person:tamaraatanasoska=>Tamara Atanasoska]] discusses
