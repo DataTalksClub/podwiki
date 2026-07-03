@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "CDC"
-summary: "Change data capture in podcast discussions: when to capture row-level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
+summary: "CDC moves changed database rows into analytics systems without full reloads, with tradeoffs around deletes, schema changes, replay, and streaming operations."
 related:
   - Data Engineering
   - Data Pipelines
@@ -19,7 +19,7 @@ ingestion. Teams choose it when a warehouse, lake, or
 [[modern data stack]] needs
 fresher source data without paying the cost of a full reload.
 
-One connector-centered definition: after an initial sync, an Airbyte-style
+One connector-centered definition starts after an initial sync. An Airbyte-style
 connector captures changed records and updates the destination with those
 changes ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 In a marketplace example, if only 10% of rows changed, CDC avoids reading and
@@ -36,15 +36,15 @@ cover the reliability work around the feed.
 
 ## Captured Rows
 
-CDC is row-level movement that captures changed rows from inserts and updates as
-well as deletions. When sellers change marketplace listing titles or prices, the
-data team wants those changed listing records rather than another copy of all
-active listings ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+CDC is row-level movement that captures inserts, updates, and deletions. Sellers
+may change marketplace listing titles or prices. The data team wants those
+changed listing records rather than another copy of all active listings
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 The destination can apply the changes to current-state tables or store history.
 
 A lower-level version places CDC next to full database dumps, application change
 events, database change tables, and Kafka. In that platform view, CDC translates
-a database transaction log into a Kafka stream so downstream systems receive
+a database transaction log into a Kafka stream. Downstream systems then receive
 detailed change events instead of periodic snapshots
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
@@ -65,7 +65,7 @@ and cloud cost ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT an
 A full reload may still be simpler for small or low-value tables, one-off
 backfills, or sources that don't expose reliable change signals.
 
-CDC is not a blanket "stream everything" recommendation. Many analytics and
+CDC isn't a blanket "stream everything" recommendation. Many analytics and
 reporting cases can wait for batch, including short micro-batches, and batch
 orchestration gives engineers explicit dependencies and easier recovery.
 Streaming helps in the middle latency window, such as fraud detection, but it
@@ -105,19 +105,19 @@ cover recovery.
 Platform maturity adds schema management automation and data quality
 measurements
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
-Those checks matter when CDC is the feed that keeps warehouse tables current.
+CDC needs those checks when it keeps warehouse tables current.
 
 ## Schema, Deletes, and Idempotency
 
 CDC solves row movement, not every modeling problem. Business systems keep adding
-fields as teams collect new information, and a Salesforce checkbox or picklist
-can become a new warehouse column
+fields as teams collect new information. A Salesforce checkbox or picklist can
+become a new warehouse column
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 CDC pipelines have to handle those source changes without silently dropping
 fields or breaking downstream models.
 
-Delete handling matters too: a pipeline that only upserts changed records can
-leave stale rows in the destination unless it sends delete markers
+Delete handling also matters because a pipeline that only upserts changed records
+can leave stale rows in the destination. It needs delete markers
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 Downstream models can apply those markers to current tables or retain them in
 historical logs for replay and audit.

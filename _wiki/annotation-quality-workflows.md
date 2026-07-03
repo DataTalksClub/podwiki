@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Annotation Quality Workflows"
-summary: "How DataTalks.Club guests turn annotation from one-off labeling into a measurable NLP data workflow with guidebooks, human baselines, model assistance, agreement checks, privacy controls, and production feedback."
+summary: "How podcast guests frame annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model help, privacy controls, and feedback."
 related:
   - NLP
   - LLMs

@@ -8528,7 +8528,7 @@
       "title": "Analytics Engineering",
       "url": "/wiki/analytics-engineering/",
       "count": 1,
-      "search": "Analytics Engineering How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI ready data products."
+      "search": "Analytics Engineering Analytics engineering turns raw data into tested models, shared metric definitions, documented transformations, and BI ready data products."
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -8538,7 +8538,7 @@
       "title": "Analytics Engineering Roadmap",
       "url": "/wiki/analytics-engineering-roadmap/",
       "count": 1,
-      "search": "Analytics Engineering Roadmap How DataTalks.Club guests describe analytics engineering: SQL modeling, dbt style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
+      "search": "Analytics Engineering Roadmap A podcast grounded roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
     },
     {
       "id": "wiki:annotation-quality-workflows",
@@ -8548,7 +8548,7 @@
       "title": "Annotation Quality Workflows",
       "url": "/wiki/annotation-quality-workflows/",
       "count": 1,
-      "search": "Annotation Quality Workflows How DataTalks.Club guests turn annotation from one off labeling into a measurable NLP data workflow with guidebooks, human baselines, model assistance, agreement checks, privacy controls, and production feedback."
+      "search": "Annotation Quality Workflows How podcast guests frame annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model help, privacy controls, and feedback."
     },
     {
       "id": "wiki:apache-airflow",
@@ -8568,7 +8568,7 @@
       "title": "Apache Iceberg",
       "url": "/wiki/apache-iceberg/",
       "count": 1,
-      "search": "Apache Iceberg How DataTalks.Club podcast guests place Apache Iceberg inside lakehouse architecture, open table formats, catalogs, Parquet storage, Delta Lake and Hudi comparisons, DLT support, and data engineering platform design."
+      "search": "Apache Iceberg How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and Delta Lake comparisons."
     },
     {
       "id": "wiki:applied-research",
@@ -8578,7 +8578,7 @@
       "title": "Applied Research",
       "url": "/wiki/applied-research/",
       "count": 1,
-      "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into products, reusable systems, and production ready evidence."
+      "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into usable systems and production evidence."
     },
     {
       "id": "wiki:astroinformatics-scientific-data-pipelines",
@@ -8608,7 +8608,7 @@
       "title": "Batch vs Streaming",
       "url": "/wiki/batch-vs-streaming/",
       "count": 1,
-      "search": "Batch vs Streaming How DataTalks.Club podcast guests compare batch and streaming data processing through latency, operations, contracts, cost, ML serving, and product decision tradeoffs.",
+      "search": "Batch vs Streaming How podcast guests compare batch and streaming through latency, operations, contracts, cost, ML serving, and product tradeoffs.",
       "keyword": "batch vs streaming"
     },
     {
@@ -8619,7 +8619,7 @@
       "title": "Bioinformatics Data Science",
       "url": "/wiki/bioinformatics-data-science/",
       "count": 1,
-      "search": "Bioinformatics Data Science Bioinformatics data science applies exploration, modeling, network analysis, and open source software workflows to biological data from sequencing, metagenomics, and multi omics experiments."
+      "search": "Bioinformatics Data Science Bioinformatics data science connects lab data with sequencing analysis, network modeling, ML workflows, and open source tools."
     },
     {
       "id": "wiki:business-intelligence",
@@ -8710,7 +8710,7 @@
       "title": "CDC",
       "url": "/wiki/cdc/",
       "count": 1,
-      "search": "CDC Change data capture in podcast discussions: when to capture row level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
+      "search": "CDC CDC moves changed database rows into analytics systems without full reloads, with tradeoffs around deletes, schema changes, replay, and streaming operations."
     },
     {
       "id": "wiki:chief-data-officer-role",
@@ -8720,7 +8720,7 @@
       "title": "Chief Data Officer Role",
       "url": "/wiki/chief-data-officer-role/",
       "count": 1,
-      "search": "Chief Data Officer Role How DataTalks.Club guests describe the Chief Data Officer role across data strategy, executive scope, org design, governance, AI, communication, and career progression."
+      "search": "Chief Data Officer Role How DataTalks.Club guests frame the CDO role across data strategy, executive scope, governance, AI, communication, and team leadership."
     },
     {
       "id": "wiki:ci-cd",
@@ -8740,7 +8740,7 @@
       "title": "Communication",
       "url": "/wiki/communication/",
       "count": 1,
-      "search": "Communication How DataTalks.Club podcast guests treat communication as a core data and ML skill: stakeholder translation, interviews, writing, consulting, portfolio narratives, and business context."
+      "search": "Communication How podcast guests connect communication to stakeholder translation, interviews, writing, consulting, portfolios, and business context."
     },
     {
       "id": "wiki:community",
@@ -30346,7 +30346,7 @@
     {
       "source": "wiki:communication",
       "target": "person:marijnmarkus",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {

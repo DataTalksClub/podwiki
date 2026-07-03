@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Bioinformatics Data Science"
-summary: "Bioinformatics data science applies exploration, modeling, network analysis, and open-source software workflows to biological data from sequencing, metagenomics, and multi-omics experiments."
+summary: "Bioinformatics data science connects lab data with sequencing analysis, network modeling, ML workflows, and open-source tools."
 related:
   - Data Science
   - Machine Learning

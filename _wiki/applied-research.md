@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Applied Research"
-summary: "How DataTalks.Club guests describe applied research as hypothesis-driven work that turns uncertain ML ideas into products, reusable systems, and production-ready evidence."
+summary: "How DataTalks.Club guests describe applied research as hypothesis-driven work that turns uncertain ML ideas into usable systems and production evidence."
 related:
   - Machine Learning
   - Production

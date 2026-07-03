@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Communication"
-summary: "How DataTalks.Club podcast guests treat communication as a core data and ML skill: stakeholder translation, interviews, writing, consulting, portfolio narratives, and business context."
+summary: "How podcast guests connect communication to stakeholder translation, interviews, writing, consulting, portfolios, and business context."
 related:
   - Career Transitions in Data
   - Job Search
@@ -33,13 +33,13 @@ as reusable technical work. [[person:lorismarini|Loris Marini]]
 focuses on business language and metric semantics.
 
 [[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]]
-puts communication inside consulting discovery and pricing. [Marijn
-Markus](https://datatalks.club/people/marijnmarkus.html) uses it for influence,
-domain credibility, and differentiation.
+puts communication inside consulting discovery and pricing.
+[[person:marijnmarkus=>Marijn Markus]] uses it for influence, domain
+credibility, and differentiation.
 Angelica Lo Duca's
 [[book:20240902-data-storytelling-with-altair-and-ai=>Data Storytelling with Altair and AI]]
-extends the same evidence-presentation idea into visual narratives: how to use
-Python charting libraries and LLM assistance to turn analysis into a
+extends the same evidence-presentation idea into visual narratives. The book
+uses Python charting libraries and LLM assistance to turn analysis into a
 communicable story.
 
 ## Decision Translation

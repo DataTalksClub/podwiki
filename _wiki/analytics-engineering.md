@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Analytics Engineering"
-summary: "How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI-ready data products."
+summary: "Analytics engineering turns raw data into tested models, shared metric definitions, documented transformations, and BI-ready data products."
 secondary_keywords:
   - analytics engineering bootcamp
 related:
