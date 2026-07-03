@@ -56,6 +56,42 @@ def toks(s: str) -> list[str]:
     return [t for t in re.findall(r"[a-z0-9]+", s.lower()) if len(t) > 2 and t not in STOP]
 
 
+def norm_phrase(s: str) -> str:
+    return " ".join(re.findall(r"[a-z0-9]+", s.lower()))
+
+
+def query_variants(query: str) -> set[str]:
+    normalized = norm_phrase(query)
+    variants = {normalized}
+    if re.search(r"\bml\b", normalized):
+        variants.add(re.sub(r"\bml\b", "machine learning", normalized))
+    return {v for v in variants if v}
+
+
+def phrase_match(query: str, value: str) -> bool:
+    if len(query.split()) < 3:
+        return False
+    return f" {query} " in f" {value} "
+
+
+def owned_by_phrase(
+    docs: list[dict], query: str, fields: list[str], *, allow_phrase: bool
+) -> str:
+    variants = query_variants(query)
+    for doc in docs:
+        for field in fields:
+            for value in doc.get(field, []):
+                normalized = norm_phrase(str(value))
+                if not normalized:
+                    continue
+                for variant in variants:
+                    if variant == normalized or (
+                        allow_phrase and phrase_match(variant, normalized)
+                    ):
+                        return str(doc["id"])
+    return ""
+
+
 def load_collection(base: Path, dirs: list[str], text_from_body=True) -> list[dict]:
     docs = []
     for d in dirs:
@@ -70,14 +106,20 @@ def load_collection(base: Path, dirs: list[str], text_from_body=True) -> list[di
             if meta.get("redirect_to"):
                 continue
             title = str(meta.get("title") or meta.get("h1") or p.stem.replace("-", " "))
-            kw = " ".join(
-                [str(meta.get("keyword") or "")]
-                + (meta.get("secondary_keywords") if isinstance(meta.get("secondary_keywords"), list) else [])
+            keyword = str(meta.get("keyword") or "")
+            secondary_keywords = (
+                meta.get("secondary_keywords")
+                if isinstance(meta.get("secondary_keywords"), list)
+                else []
             )
+            kw = " ".join([keyword] + secondary_keywords)
             summary = str(meta.get("summary") or meta.get("description") or "")
             text = plain_text(" ".join([title, kw, summary, body if text_from_body else ""]))
             docs.append({"id": f"{d}:{p.stem}", "title": title, "kw": kw,
-                         "summary": summary, "text": text})
+                         "summary": summary, "text": text,
+                         "title_terms": [title],
+                         "keyword_terms": [keyword] + secondary_keywords,
+                         "summary_terms": [summary]})
     return docs
 
 
@@ -108,9 +150,11 @@ def main() -> int:
 
     rows = list(csv.DictReader(args.csv.open(encoding="utf-8-sig")))
 
-    wiki_idx = build(load_collection(ROOT, ["_wiki"]))
-    main_idx = build(load_collection(
-        MAIN_SITE, ["_posts", "_courses", "_books", "_tools", "_people", "_podcast"]))
+    wiki_docs = load_collection(ROOT, ["_wiki"])
+    wiki_idx = build(wiki_docs)
+    main_docs = load_collection(
+        MAIN_SITE, ["_posts", "_courses", "_books", "_tools", "_people", "_podcast"])
+    main_idx = build(main_docs)
     # Grounding sources: what we can actually extract content from — the podcast
     # archive and the book summaries. A gap is only worth creating if grounding
     # exists here.
@@ -144,7 +188,18 @@ def main() -> int:
         g_score, g_id = top_score(ground_idx, kw)
         rec.update(w=round(w_score, 1), w_id=w_id, m=round(m_score, 1), m_id=m_id,
                    g=round(g_score, 1), g_id=g_id)
-        if m_score >= args.covered and m_score >= w_score:
+        w_owned = owned_by_phrase(
+            wiki_docs, kw, ["title_terms", "keyword_terms"], allow_phrase=False)
+        m_owned = owned_by_phrase(
+            main_docs, kw, ["title_terms", "keyword_terms", "summary_terms"],
+            allow_phrase=True)
+        if w_owned:
+            rec["w_id"] = w_owned
+            buckets["COVERED"].append(rec)
+        elif m_owned:
+            rec["m_id"] = m_owned
+            buckets["MAIN"].append(rec)
+        elif m_score >= args.covered and m_score >= w_score:
             buckets["MAIN"].append(rec)
         elif w_score >= args.covered:
             buckets["COVERED"].append(rec)

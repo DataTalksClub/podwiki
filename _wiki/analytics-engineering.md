@@ -2,6 +2,8 @@
 layout: wiki
 title: "Analytics Engineering"
 summary: "How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI-ready data products."
+secondary_keywords:
+  - analytics engineering bootcamp
 related:
   - Data Engineering Platforms
   - MLOps
@@ -25,10 +27,9 @@ engineers turn that data into reusable business definitions and decision-ready
 models.
 
 The role isn't only "SQL plus dashboards."
-[[person:victoriaperezmola=>Victoria Perez Mola]] grounds the job in
-data modeling and quality checks, plus metric definitions, event semantics, the
-warehouse, and the BI stack, with workflow examples that include SQL tests and
-DAGs
+It combines data modeling and quality checks with metric definitions, event
+semantics, the warehouse, and the BI stack. Workflow examples include SQL tests
+and DAGs
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] frames
 the role as translating business reality into clean data systems with software
@@ -61,8 +62,8 @@ That reusable layer feeds
 when modeled tables and metrics become dashboards, reports, and decision
 workflows.
 
-Santona Tuli adds the pipeline view: dbt sits after ingestion and orchestration,
-and modeled marts tie to dashboards and business questions
+In the pipeline view, dbt sits after ingestion and orchestration. The modeled
+marts then tie to dashboards and business questions
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
 [[Modern Data Stack]]).
 
@@ -84,8 +85,8 @@ DAG, versioned, and testable.
 [[person:nikolamaksimovic=>Nikola Maksimovic]] adds
 Looker migration, product analytics, A/B testing, and table design.
 
-Natalie Kwong places dbt inside a broader ELT flow with ingestion and
-warehouses, connected to orchestration, CDC, and reverse data flows
+dbt also sits inside a broader ELT flow with ingestion and warehouses. That
+flow connects to orchestration, CDC, and reverse data flows
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]],
 [[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack]]).
 
@@ -124,26 +125,26 @@ loaded first and warehouse-side transformations serve analytical users
 ([[podcast:data-engineering-tools-modern-data-stack|Modern Data Stack episode]],
 [[Data Engineering Platforms]]).
 
-From the pipeline side, ingestion and orchestration handle raw events, and
-pre-processing covers ordering, deduplication, and PII masking. Analytics
-engineering starts to dominate when teams map entities, foreign keys, business
-questions, and metrics into modeled tables
+From the pipeline side, ingestion and orchestration handle raw events.
+Pre-processing covers ordering, deduplication, and PII masking. Analytics
+engineering starts to dominate when teams map entities and foreign keys into
+modeled tables. Business questions and metrics structure the same models
 ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 ## Role Responsibilities
 
-The practical job description starts with the modeled analytical layer: building
-tables or views, maintaining pipelines, checking data quality, and supporting
-Looker users as day-to-day work. That matters because analysts and data
-scientists need stable inputs for dashboards, experiments, forecasts, and
-decision support
+The practical job description starts with the modeled analytical layer.
+Day-to-day work can include building tables or views, maintaining pipelines,
+checking data quality, and supporting Looker users. That matters because
+analysts and data scientists need stable inputs for dashboards, experiments,
+forecasts, and decision support
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
 
 The output is stronger than a dashboard. It's a governed model with clear
 grain, documented columns, and tested assumptions. It also names the consumer.
 
-Perafan contrasts manual dashboard validation with robust data work, turning
-repeated business questions into systems that replace recurring manual checks
+Robust data work turns repeated business questions into systems. Those systems
+replace recurring manual dashboard checks
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
 
 Common responsibilities include SQL transformations and dbt projects, with
@@ -281,12 +282,12 @@ cost from the platform
 
 ## Data Quality and DataOps
 
-Perez Mola's quality examples cover non-null tests, uniqueness tests, custom SQL
-tests, macros, source checks, warnings, and alerts. Perafan broadens that into
-safety.
+Quality examples include non-null tests, uniqueness tests, custom SQL tests,
+and macros. Source checks, warnings, and alerts add another layer. The broader
+goal is safety.
 
-The push is to stop manually validating dashboards and apply engineering rigor
-to data workflows
+The push is to stop manual dashboard validation. Engineering rigor then moves
+into data workflows
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
 [[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
@@ -345,6 +346,16 @@ Python helps with APIs, orchestration, testing, and glue code. The
 analytics-engineering path remains SQL-first in the podcast evidence
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
 [[Analytics Engineering Roadmap]]).
+
+Bootcamp-style analytics engineering training should produce role-ready
+workflow evidence, not only course completion. A useful sequence starts with SQL
+and data modeling. It turns a raw source into a BI-ready mart. Then it adds
+dbt-style tests, documentation, and a named business user: see [[cite:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]] and [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]].
+
+The portfolio story should also cover source quality and the deployment path.
+Bootcamp projects stand out more when they're customized for a real interest
+and connected to hiring conversations. Repeating the same class exercise is a
+weaker signal: see [[cite:get-data-analytics-and-data-engineering-job|From Academia to Data Analytics and Engineering]].
 
 Katie Bauer's team-building episode adds a seniority signal for analytics work.
 Maintainability, documentation, and peer review turn modeling from personal SQL

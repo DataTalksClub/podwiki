@@ -3,6 +3,11 @@ layout: article
 tags: [transition, "roadmap"]
 title: "Data Scientist to Data Engineer Roadmap"
 keyword: "data scientist to data engineer"
+secondary_keywords:
+  - "from data scientist to data engineer"
+  - "data science to data engineering"
+  - "data scientist to data engineering"
+  - "data scientist to data engineer roadmap"
 summary: "A DataTalks.Club podcast-backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning."
 search_intent: "People searching for data scientist to data engineer want a practical career-transition path: which data science skills transfer, which data engineering skills to build, what projects prove readiness, and how to explain the move in interviews."
 related_wiki:
@@ -45,12 +50,11 @@ and
 [[person:ellenkonig=>Ellen König]] gives the most direct
 podcast example of this move in
 [[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
-At 9:41, she describes data science tasks that are already data engineering
-work. At 13:55, she explains which pipeline, stakeholder, and exploration
-skills transfer.
+She describes data science tasks that are already data engineering work.
+She then explains transferable pipeline, stakeholder, and exploration skills: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Data science and data engineering overlap|9:41]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Pipeline and stakeholder skills|13:55]].
 
-At 15:02 and 26:20, she adds collaborative coding, CI/CD, and DevOps habits.
-She also names clean code and CLI work. Git, Docker, and tests matter too.
+She adds collaborative coding and CI/CD habits, plus DevOps practice. She also
+names clean code and CLI work. Git, Docker, and tests matter too: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Collaborative coding and CI/CD|15:02]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Core engineering habits|26:20]].
 
 ## Role Shift
 
@@ -70,6 +74,15 @@ The later
 discussion adds the shared boundary around ETL and storage. It also covers
 query engines, data cleaning, and feature engineering. Model cycles and
 deployment awareness sit on the same boundary.
+
+[[person:roksolanadiachuk=>Roksolana Diachuk]] makes the transition route
+explicit for analysts or data scientists moving into data engineering. She tells
+them to strengthen coding and basic data structures. Databases matter too, along
+with enough infrastructure judgment to deploy and set up jobs: see [[cite:big-data-engineer-vs-data-scientist|Analyst or data scientist to data engineer transition|30:53]].
+
+For a data scientist, that turns the role comparison into a practical roadmap.
+Keep analytical judgment. Then prove reusable code and database modeling. Add
+deployment-aware pipelines and monitoring.
 
 For a data scientist, the practical translation is simple: stop presenting data
 cleaning as a notebook step. In the target role, date rules and event
@@ -110,11 +123,11 @@ That background is useful when a pipeline feeds ML training or batch scoring.
 It also helps with product analytics and monitoring
 ([[MLOps vs DataOps]]).
 
-Ellen's transition episode adds a practical version of this advantage. Around
-12:02, she talks about understanding how data is produced, structured, and
-biased. Around 17:34, she separates research-oriented data science from the
-MLOps and production-engineering skills needed when models depend on reliable
-data paths.
+Ellen's transition episode adds a practical version of this advantage. She
+focuses on how data is produced, structured, and biased. That shows why data
+scientists already bring useful intuition. She also separates research-oriented
+data science from MLOps. Production-engineering skills matter when models
+depend on reliable data paths: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Data production and bias|12:02]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|MLOps and production-engineering skills|17:34]].
 
 Data scientists also bring evaluation habits. [[person:barrmoses|Barr Moses]]
 explains in
@@ -205,10 +218,11 @@ sketch and data dictionary, plus tests and orchestration notes. Include a small
 runbook
 ([[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]]).
 
-Ellen gives the transition-specific project advice at 41:29 and 44:00 in
+Ellen gives transition-specific project advice in
 [[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
-She recommends scrapers, ETL pipelines, schedulers such as Airflow, and
-domain-focused pipelines with real data and automation.
+She recommends scrapers and ETL pipelines. She also recommends schedulers such
+as Airflow. She also points to domain-focused pipelines with real data and
+automation: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Scrapers, ETL pipelines, and schedulers|41:29]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Domain-focused pipelines with real data|44:00]].
 
 Jeff Katz's
 [[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
@@ -318,4 +332,3 @@ should fail visibly and recover cleanly. It should support downstream analysts
 and scientists. It should also support the products or systems that depend on
 it
 ([[Data Engineering]]).
-

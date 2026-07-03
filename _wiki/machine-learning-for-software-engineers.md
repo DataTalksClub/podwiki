@@ -11,6 +11,7 @@ secondary_keywords:
   - "software development machine learning"
   - "machine learning software development"
   - "machine learning in software development"
+  - "ml software development"
 summary: "A practical roadmap for software engineers moving into machine learning in software engineering and software development: transferable skills, missing ML and data skills, project sequence, production awareness, and interview preparation."
 related_wiki:
   - Software Engineer to Machine Learning
@@ -70,6 +71,16 @@ engineering debt ties to data access and unclear requirements. Handoff,
 documentation, testing, and monitoring show where ordinary software discipline
 has to adapt to ML systems
 ([[podcast:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
+
+In ML software development, familiar engineering habits become data-aware
+habits. Code quality still matters, and the code now has to make data
+transformations reviewable. API or service boundaries need explicit contracts,
+while tests cover feature logic and inference behavior.
+
+Reproducible training runs and deployment paths need to connect back to data and
+model evaluation. The same transition path spans data pipelines and modeling.
+It then adds deployment and monitoring. APIs, Docker, and cloud services become
+the serving path, with evidence from [[cite:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]] and [[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]].
 
 The advantage is real, but it isn't a shortcut around ML fundamentals. A
 software engineer can often package and operate a model earlier than a beginner

@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11212
+    "links": 11211
   },
   "nodes": [
     {
@@ -9008,7 +9008,8 @@
       "title": "Data Engineering Platforms",
       "url": "/wiki/data-engineering-platforms/",
       "count": 1,
-      "search": "Data Engineering Platforms How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self service, reliability, adoption, and cost control."
+      "search": "Data Engineering Platforms How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self service, reliability, adoption, and cost control.",
+      "keyword": "data intensive applications"
     },
     {
       "id": "wiki:data-engineering-portfolio-projects",
@@ -26078,12 +26079,6 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -26127,6 +26122,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -35978,12 +35979,6 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
       "target": "person:nataliekwong",
       "kind": "wiki-chip",
       "weight": 1
@@ -35998,12 +35993,6 @@
       "source": "wiki:data-engineering-platforms",
       "target": "person:zhamakdehghani",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
-      "target": "person:zhamakdehghani",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -42507,6 +42496,12 @@
     {
       "source": "wiki:data-scientist-to-data-engineer",
       "target": "person:nicolasrassam",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-data-engineer",
+      "target": "person:roksolanadiachuk",
       "kind": "wiki-chip",
       "weight": 1
     },

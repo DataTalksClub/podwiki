@@ -8,13 +8,13 @@ How to act on this (see CONTENT_GUIDE.md):
 - BOOK_INTENT (pdf/download) queries: link the intent to the main site's book page. On the wiki, fold a book author's podcast points into the relevant TOPIC hub instead of making a competing book page.
 - BM25 has no stemming, so singular/plural variants cluster separately; prefer merging doorway pages over creating new ones.
 
-## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 7
+## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 1
 
-## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 278
+## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 232
 
-## COVERED — Already covered by a podwiki wiki page: 67
+## COVERED — Already covered by a podwiki wiki page: 116
 
-## MAIN — Owned by the main website — do NOT duplicate here: 313
+## MAIN — Owned by the main website — do NOT duplicate here: 316
 
 ## BRAND — Branded/navigational — main site owns: 113
 
@@ -228,16 +228,5 @@ How to act on this (see CONTENT_GUIDE.md):
   - "build a large language model from scratch book by sebastian raschka pdf  (vol 0) -> _books:20241017-build-large-language-model-from-scratch
   - & wall street pdf"  (vol 0) -> _books:20210322-street-coder
 
-## GAP clusters (min volume 20) — 5 keywords
-
-### data  (3 keywords, total vol 8170)
-  - data intensive applications  (vol 8100, SEO diff 37, ground: _books:20210308-designing-data-intensive-applications~10.1)
-  - data science expert  (vol 50, SEO diff 35, ground: _podcast:data-science-manager-vs-expert-hiring-guide~11.7)
-  - data scientist to data engineer  (vol 20, SEO diff 11, ground: _podcast:big-data-engineer-vs-data-scientist~10.9)
-
-### bootcamp  (1 keywords, total vol 30)
-  - analytics engineering bootcamp  (vol 30, SEO diff 37, ground: _podcast:get-data-analytics-and-data-engineering-job~10.3)
-
-### software  (1 keywords, total vol 20)
-  - ml software development  (vol 20, SEO diff 13, ground: _books:20251006-software-development-at-rocket-speed~11.3)
+## GAP clusters (min volume 20) — 0 keywords
 

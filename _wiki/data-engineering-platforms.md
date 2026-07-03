@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineering Platforms"
+keyword: "data intensive applications"
 summary: "How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self-service, reliability, adoption, and cost control."
 related:
   - Data Engineering
@@ -78,8 +79,8 @@ and [[Data Governance]].
 
 ## Ownership and Tooling Tradeoffs
 
-Platform designs differ most on where ownership should sit. [Zhamak
-Dehghani](https://datatalks.club/people/zhamakdehghani.html) argues for
+Platform designs differ most on where ownership should sit.
+[[person:zhamakdehghani=>Zhamak Dehghani]] argues for
 domain-owned data products with contracts and quality guarantees. Her platform
 boundary also includes metadata and identity. Authorization, self-serve
 abstractions, and federated governance sit in the same design
@@ -146,9 +147,15 @@ discussion
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
 21:29-30:34 and 1:07:52).
 
-[[book:20210308-designing-data-intensive-applications=>Designing Data-Intensive Applications]]
-by Martin Kleppmann grounds these same storage and platform tradeoffs in the
-underlying distributed-systems principles.
+Data-intensive application design fits this page when teams translate it into
+shared platform responsibilities. Use the existing book node,
+[[book:20210308-designing-data-intensive-applications=>Designing Data-Intensive Applications]],
+for the storage and distributed-systems side of the query. It points from
+data-intensive application design toward reliability, scalability,
+recoverability, and platform tradeoffs. For this wiki topic, those concerns map
+to warehouse and lake choices, table formats, and orchestration. They also map
+to observability, governance controls, and recovery paths rather than to a
+standalone book recap.
 
 [[person:adrianbrudaru=>Adrian Brudaru]]
 updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
@@ -174,8 +181,8 @@ tool-specific boundary.
 
 ## Self-Service, Contracts, and Data Products
 
-Self-service is the clearest recurring platform outcome. [Mehdi
-OUAZZA](https://datatalks.club/people/mehdiouazza.html) describes a platform that
+Self-service is the clearest recurring platform outcome.
+[[person:mehdiouazza=>Mehdi OUAZZA]] describes a platform that
 helps other teams onboard and build with less bespoke support. He pairs that
 with Airflow conventions and playbooks. For streaming work, he adds Kafka
 schemas and schema registries. Data contracts make the interface explicit
@@ -250,8 +257,8 @@ well as observability.
 
 ## Batch, Streaming, and Latency
 
-The platform should match latency to the business problem. [Mehdi
-OUAZZA](https://datatalks.club/people/mehdiouazza.html) covers Kafka and schemas
+The platform should match latency to the business problem.
+[[person:mehdiouazza=>Mehdi OUAZZA]] covers Kafka and schemas
 in a scale-up context. Schema registries and contracts support event streaming
 across teams
 ([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]],
