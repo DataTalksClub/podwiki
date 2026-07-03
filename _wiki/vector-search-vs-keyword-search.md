@@ -23,49 +23,37 @@ system. That system still needs ranking, filters, latency work, and
 [[production search evaluation]].
 
 [[person:danielsvonava=>Daniel Svonava]] gives the
-clearest production anatomy in
-[[podcast:building-production-search-systems=>Building Search Systems]]:
-at 12:45 he separates candidate generation from ranking. At 11:29-21:55 he
-moves from bag-of-words retrieval and inverted indexes to dense vector
-representations. [[person:atitaarora|Atita Arora]]
-frames the migration path in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
-starting with Solr and Lucene at 4:42. She moves to vector databases at 17:01
-and vectors inside existing search systems at 20:27.
+clearest production anatomy. He separates candidate generation from ranking,
+then moves from bag-of-words retrieval and inverted indexes to dense vector
+representations [[cite:building-production-search-systems|Building Search Systems]].
+The migration path from Solr and Lucene to vector databases inside existing
+search systems comes from [[person:atitaarora|Atita Arora]] in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 
-[[person:reemmahmoud=>Reem Mahmoud]] gives a parallel
-production view in
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-with inverted indexes, embeddings, hybrid search, and
-filters. It also covers query-time weights, vector database selection, and
-search metrics.
+[[person:reemmahmoud=>Reem Mahmoud]] gives a parallel production view with
+inverted indexes, embeddings, hybrid search, and filters in [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+It also covers query-time weights, vector database selection, and search
+metrics.
 
 ## Core Difference
 
 Keyword search starts with tokens. A Lucene-style inverted index maps words or
 normalized terms to the documents or positions where they appear. Daniel
-explains that structure at 12:45-20:02 in
-[[podcast:building-production-search-systems=>Building Search Systems]],
-then recommends using existing engines such as Lucene instead of hand-rolling a
-reverse keyword lookup.
+explains that structure, then recommends using existing engines such as Lucene
+instead of hand-rolling a reverse keyword lookup [[cite:building-production-search-systems|Building Search Systems]].
 
-The same classical search lineage appears in Atita's
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-discussion at 4:42-20:27. She covers Solr, Lucene, Elasticsearch, and
-OpenSearch. She also covers full-text search and query-content matching.
+Atita traces the same classical search lineage. She covers Solr, Lucene,
+Elasticsearch, and OpenSearch in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+She also covers full-text search and query-content matching.
 
 Vector search starts with representations. An embedding model can turn
 documents, queries, products, and images into vectors. It can also represent
 users or sessions. The retrieval step then searches for nearby vectors.
 
-Daniel describes that shift at 21:55-33:13
-in
-[[podcast:building-production-search-systems=>Building Search Systems]],
-where vector databases store embeddings and run nearest-neighbor search. The
-embedding pipeline creates vectors at ingestion and query time. Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-page covers the same production split around 21:55 and 29:00. Vector search is
-a retrieval method rather than the whole search product.
+Daniel describes that shift through vector databases that store embeddings and
+run nearest-neighbor search [[cite:building-production-search-systems|Building Search Systems]].
+The embedding pipeline creates vectors at ingestion and query time. Reem covers
+the same production split [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+Vector search is a retrieval method rather than the whole search product.
 
 In practice, the two methods fail differently. Keyword search can miss relevant
 items when the user's wording differs from the indexed wording. Vector search
@@ -81,111 +69,97 @@ the system that owns storage, indexing, filtering, and ranking.
 
 Keyword search is strong when exact language matters. Product SKUs and legal
 terms often need predictable matching, and so do error codes or names. Domain
-vocabulary and compliance filters need the same predictability. Daniel's
-[[podcast:building-production-search-systems=>Building Search Systems]]
-walkthrough at 12:45-17:40 shows why an inverted index is still a practical
-candidate-generation tool. It narrows a large corpus quickly before ranking
-decides what the user should see.
+vocabulary and compliance filters need the same predictability. Daniel's search
+systems walkthrough shows why an inverted index is still a practical
+candidate-generation tool [[cite:building-production-search-systems|Building Search Systems]].
+It narrows a large corpus quickly before ranking decides what the user should
+see.
 
 Lucene and Elasticsearch-style systems also make filters and query constraints
-first-class. In the 39:53 section of
-[[podcast:building-production-search-systems=>Building Search Systems]],
-Daniel contrasts Lucene-style `must` and `should` clauses with vector-query
-approaches. A strict keyword or metadata filter can enforce a business rule,
-while a soft clause can keep a highly relevant older result in play. Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-discussion covers the same constraint problem around 39:53, including filters,
-recency, and business rules.
+first-class. Daniel contrasts Lucene-style `must` and `should` clauses with
+vector-query approaches [[cite:building-production-search-systems|Building Search Systems]].
+A strict keyword or metadata filter can enforce a business rule, while a soft
+clause can keep a highly relevant older result in play. Reem covers the same
+constraint problem for filters, recency, and business rules
+in [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
 
-Keyword systems require ongoing maintenance. In
-[[podcast:building-production-search-systems=>Building Search Systems]],
-Daniel describes brittleness from synonyms, query rewrites, and dictionaries
-around 20:02. He also ties that brittleness to configuration debt.
-Atita's 9:18 section in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-adds the search-quality view. Teams still need user-centric metrics and
-relevance work after search matches the right content to the right query.
+Keyword systems require ongoing maintenance. Daniel describes brittleness from
+synonyms and query rewrites [[cite:building-production-search-systems|Building Search Systems]].
+He also covers dictionaries and ties that brittleness to configuration debt.
+Atita adds the search-quality view in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+Teams still need user-centric metrics and relevance work after search matches
+the right content to the right query.
 
 ## Vector Strengths
 
 Vector search is strongest when users describe intent differently from the
-stored text. Daniel describes embeddings as shared representations around
-21:55 in
-[[podcast:building-production-search-systems=>Building Search Systems]].
+stored text. Daniel describes embeddings as shared representations
+in [[cite:building-production-search-systems|Building Search Systems]].
 Queries and candidate items can land near each other even when the exact words
 differ. That makes vector search useful for semantic retrieval and
 cross-language queries. It also helps with synonym-heavy queries, multimodal
 retrieval, and personalization.
 
-Atita gives the RAG version in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Her transcript chatbot example at 35:49-42:49 chunks podcast transcripts and
-creates embeddings. It stores vectors, retrieves relevant chunks, and passes
-them into a generated answer with citations. In that workflow, vector search helps
-because the question may not share exact words with the passage that contains
-the answer. The surrounding
+Atita gives the RAG version through a transcript-chatbot example in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+The chatbot chunks podcast transcripts and creates embeddings. It stores
+vectors, retrieves relevant chunks, and passes them into a generated answer
+with citations.
+In that workflow, vector search helps because the question may not share exact
+words with the passage that contains the answer. The surrounding
 [[Search]] and
 [[Embeddings]] pages treat this as
 retrieval before generation, not as a replacement for evaluation or grounding.
 
 Vector search also extends beyond text. Daniel discusses CLIP-style
 text-to-image retrieval and multiple embeddings for titles, content, images,
-and behavior at 32:43-38:11 in
-[[podcast:building-production-search-systems=>Building Search Systems]].
-Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-episode covers multimodal embeddings, feature fusion, and ecommerce
-personalization around 33:13-38:50 and 58:17. Atita adds session-based
-recommendations and reranking around 52:07 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+and behavior [[cite:building-production-search-systems|Building Search Systems]].
+Reem covers multimodal embeddings, feature fusion, and ecommerce
+personalization [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+Atita adds session-based recommendations and reranking
+in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 
 ## Hybrid Retrieval
 
-Hybrid retrieval is the recurring production answer. Daniel introduces it
-around 34:00 in
-[[podcast:building-production-search-systems=>Building Search Systems]]:
-a news search result may need semantic relevance and freshness at the same
-time. A hard one-month filter can remove a relevant article, while pure
-vector similarity can ignore recency. The search system has to decide which
-signals are mandatory, which signals are soft, and which weights should be
-chosen at query time.
+Hybrid retrieval is the recurring production answer. Daniel introduces it with
+a news search result that may need semantic relevance and freshness at the same
+time [[cite:building-production-search-systems|Building Search Systems]].
+A hard one-month filter can remove a relevant article, while pure vector
+similarity can ignore recency. The search system has to decide which signals are
+mandatory, which signals are soft, and which weights should be chosen at query
+time.
 
-Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-discussion covers the same hybrid production surface at 34:00-45:11. The
-signals include vector similarity, filters, recency, and metadata. They also
-include behavior, popularity, and time encoding. Normalization and query-time
-weighting belong there too. That makes hybrid search a
-ranking and operations problem, not just an index choice.
+Reem covers the same hybrid production surface [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+The signals include vector similarity, filters, recency, and metadata. They
+also include behavior, popularity, and time encoding. Normalization and
+query-time weighting belong there too. That makes hybrid search a ranking and
+operations problem, not just an index choice.
 
-Atita's migration discussion at 20:27 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-keeps the architecture flexible. Teams can put vectors inside an existing Solr,
-Lucene, Elasticsearch, or OpenSearch stack. They can also run a standalone
-vector database such as Qdrant beside the existing text search stack. The right
-hybrid design depends on the current system. It may already own reliable
-filters, lexical relevance, production traffic, and operational tooling.
+Atita's migration discussion keeps the architecture flexible
+in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+Teams can put vectors inside an existing Solr, Lucene, Elasticsearch, or
+OpenSearch stack. They can also run a standalone vector database such as Qdrant
+beside the existing text search stack. The right hybrid design depends on the
+current system. It may already own reliable filters, lexical relevance,
+production traffic, and operational tooling.
 
 ## Ranking and Filters
 
-Both methods only produce candidates, and ranking decides which candidates
-deserve the top positions. Daniel makes that split explicit at 12:45 in
-[[podcast:building-production-search-systems=>Building Search Systems]].
-Daniel says retrieval narrows the search space. Ranking then estimates
-relevance, click probability, purchase probability, or another product
-objective. A vector
+Both methods only produce candidates, so ranking decides which candidates
+deserve the top positions. Daniel says retrieval narrows the search space.
+Ranking estimates relevance and product objectives such as click or purchase
+probability [[cite:building-production-search-systems|Building Search Systems]].
+A vector
 nearest-neighbor result can still rank poorly if it ignores freshness,
 inventory, permissions, or business priorities.
 
 Filters are easier to reason about in mature keyword search systems, but they
-still create tradeoffs. Daniel's Lucene `must` and `should` examples at
-39:53-45:11 in
-[[podcast:building-production-search-systems=>Building Search Systems]]
-show that a product rule can be strict or weighted. Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-discussion adds vector-side approaches. Teams can encode recency, behavior,
-metadata, or popularity into vector features. They can also normalize
-components and choose weights at query time.
+still create tradeoffs. Daniel's Lucene `must` and `should` examples show that
+a product rule can be strict or weighted [[cite:building-production-search-systems|Building Search Systems]].
+
+Reem adds vector-side approaches, including recency and behavior encoded into
+vector features [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+They can also encode metadata or popularity.
+They can also normalize components and choose weights at query time.
 
 Those choices leave the matching method as part of
 [[production search evaluation]].
@@ -202,19 +176,16 @@ usually owns more of the retrieval product. It handles text analysis, inverted
 indexes, fields, and filters. It also handles ranking features, query logic,
 and serving behavior.
 
-In
-[[podcast:building-production-search-systems=>Building Search Systems]],
-Daniel separates those concerns at 27:21-33:13. Vector storage and vector
-compute are separate. Model changes can force recomputing embeddings or
-rebuilding indexes.
+Daniel separates those concerns: vector storage and vector compute are
+separate, and model changes can force recomputing embeddings or rebuilding
+indexes [[cite:building-production-search-systems|Building Search Systems]].
 
 Atita describes the same system boundary from the search migration side in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-At 17:01 she introduces Qdrant-style vector search. At 20:27 she compares a
-standalone vector database with vector support inside Solr, Elasticsearch,
-OpenSearch, or other Lucene-based systems. Her point is practical: teams should
-investigate whether vectors fit the use case before changing the existing
-search stack.
+the Modern Search Systems episode [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+She introduces Qdrant-style vector search. Then she compares a standalone
+vector database with vector support inside Solr, Elasticsearch, OpenSearch, or
+other Lucene-based systems. Her point is practical: teams should investigate whether
+vectors fit the use case before changing the existing search stack.
 
 For infrastructure decisions, use
 [[Vector Database vs Search Engine]]
@@ -227,61 +198,53 @@ filter placement, ranking ownership, and production reliability.
 
 Use exact-match coverage and synonym behavior to evaluate keyword search. Add
 field weighting, filters, latency, and ranking quality.
-Daniel's 20:02 keyword-brittleness discussion in
-[[podcast:building-production-search-systems=>Building Search Systems]]
-warns against judging lexical search only by obvious-term lookup. Query
-rewrites and synonym rules can help, but
-they can also create configuration debt and unexpected matches.
+Daniel's keyword-brittleness discussion warns against judging lexical search
+only by obvious-term lookup [[cite:building-production-search-systems|Building Search Systems]].
+Query rewrites and synonym rules can help, but they can also create
+configuration debt and unexpected matches.
 
 Evaluate vector search by checking whether nearest neighbors contain the
 evidence, products, images, or chunks the task needs. Atita's RAG evaluation
-section at 48:09 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-separates embedding choice, chunking strategy, and retrieval count. She also
-separates generated answer quality, citations, offline tests, and human review.
-A vector database
-can return similar chunks while the answer remains unsupported or incomplete.
+section separates embedding choice, chunking strategy, and retrieval count in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+She also separates generated answer quality, citations, offline tests, and
+human review.
+A vector database can return similar chunks while the answer remains unsupported
+or incomplete.
 
 Evaluate hybrid search through both offline relevance tests and product
-metrics. Daniel's business-metric discussion at 1:01:25-1:03:50 in
-[[podcast:building-production-search-systems=>Building Search Systems]]
-ties search changes to A/B tests, business KPIs, offline evaluation, and
-engineer-facing operational metrics. Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-episode covers the same production lens around 1:01:25-1:03:50. The question
-isn't whether vector search or keyword search is newer. Teams need to ask which
-retrieval and ranking design produces relevant, explainable, measurable results
-for the product.
+metrics. Daniel ties search changes to A/B tests, business KPIs, offline
+evaluation, and engineer-facing operational metrics
+in [[cite:building-production-search-systems|Building Search Systems]].
+Reem covers the same production lens [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+The question isn't whether vector search or keyword search is newer. Teams need
+to ask which retrieval and ranking design produces relevant, explainable,
+measurable results for the product.
 
 ## Choosing Retrieval
 
 Choose keyword search when exact terms and filters dominate the task. Metadata
 fields, auditability, and predictable behavior support the same choice.
-Together, those needs fit Atita's Lucene and Solr discussion at 4:42-9:18 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-They also fit Daniel's inverted-index candidate generation at 12:45-17:40 in
-[[podcast:building-production-search-systems=>Building Search Systems]].
+Together, those needs fit Atita's Lucene and Solr discussion
+in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+They also fit Daniel's inverted-index candidate generation
+in [[cite:building-production-search-systems|Building Search Systems]].
 
 Choose vector search when semantic recall or paraphrases are the main problem.
 Multimodal matching and session similarity support the same choice. RAG context
 retrieval does too.
 
-Daniel's 21:55-33:13 vector-search sections in
-[[podcast:building-production-search-systems=>Building Search Systems]]
-support that choice. So does Atita's 35:49-48:09 transcript-chatbot pipeline in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Reem's
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-discussion of embeddings and multimodal retrieval also supports that choice.
+Daniel's vector-search sections support that choice
+in [[cite:building-production-search-systems|Building Search Systems]].
+So does Atita's transcript-chatbot pipeline
+in [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+Reem's discussion of embeddings and multimodal retrieval also supports that
+choice [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
 
 Choose hybrid retrieval when the product needs both. Daniel's freshness example
-at 34:00 in
-[[podcast:building-production-search-systems=>Building Search Systems]]
-and Reem's 34:00-45:11
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-discussion both put semantic similarity beside lexical matching. They also keep
-metadata filters and recency in the same decision. Permissions, popularity,
-ranking, and business metrics stay there too.
+and Reem's hybrid-search discussion both put semantic similarity beside lexical
+matching [[cite:building-production-search-systems|Building Search Systems]], [[cite:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
+They also keep metadata filters and recency in the same decision. Permissions,
+popularity, ranking, and business metrics stay there too.
 
 For a broader retrieval map, continue with
 [[Search]] and
