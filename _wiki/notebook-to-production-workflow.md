@@ -116,6 +116,12 @@ the full lifecycle with PyTorch and Docker. They also work with cloud
 infrastructure and web frameworks. He emphasizes engineering rigor and
 reproducibility too.
 
+[[person:danielegbo=>Daniel Egbo]] adds the learner-to-practitioner version of
+the same transition. In his discussion of ML Zoomcamp, the shift is practical.
+Learners move from exploratory analysis toward reusable code, project
+structure, and production habits
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]].
+
 Use a small project structure before you add platform complexity:
 
 ```text

@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11080
+    "links": 11087
   },
   "nodes": [
     {
@@ -42026,6 +42026,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "podcast:hiring-data-scientists-and-analysts",
       "kind": "wiki-chip",
       "weight": 1
@@ -47558,6 +47564,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "wiki-chip",
       "weight": 1
@@ -52454,6 +52466,12 @@
     },
     {
       "source": "wiki:interpretability",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
       "target": "person:polinamosolova",
       "kind": "wiki-chip",
       "weight": 1
@@ -52491,6 +52509,12 @@
     {
       "source": "wiki:interpretability",
       "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52845,6 +52869,12 @@
     {
       "source": "wiki:job-search",
       "target": "podcast:get-junior-data-job-and-transferable-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64976,6 +65006,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "person:danielegbo",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "person:linaweichbrodt",
       "kind": "wiki-chip",
       "weight": 1
@@ -65019,6 +65055,12 @@
     {
       "source": "wiki:notebook-to-production-workflow",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },

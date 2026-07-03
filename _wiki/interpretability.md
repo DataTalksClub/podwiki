@@ -25,9 +25,8 @@ Molnar's
 [[book:20220411-interpretable-machine-learning=>Interpretable Machine Learning]]
 book is the canonical reference for these methods, and his
 [[book:20230529-modeling-mindsets=>Modeling Mindsets]]
-expands on the same themes: it traces how the statistical, machine learning,
-Bayesian, and causal modeling traditions each frame interpretability and model
-assumptions differently.
+expands on the same themes. It traces how different modeling traditions frame
+interpretability and model assumptions differently.
 
 The wider product and governance version appears in
 [[person:supreetkaur=>Supreet Kaur]]'s
@@ -53,7 +52,10 @@ reviewer enough evidence to question the model.
 Some models are interpretable by design, while teams explain other models with
 SHAP or LIME. They may also use surrogate models or partial dependence.
 
-For a practical Python reference, [[book:20210719-interpretable-machine-learning-with-python|Interpretable Machine Learning with Python]] by Serg Masis covers SHAP, LIME, counterfactual explanations, and the debugging workflows guests describe below.
+For a practical Python reference,
+[[book:20210719-interpretable-machine-learning-with-python|Interpretable Machine Learning with Python]]
+by Serg Masis covers SHAP and LIME. It also covers counterfactual explanations
+and the debugging workflows guests describe.
 
 Polina makes this boundary explicit in
 [[podcast:building-explainable-and-actionable-ai-ml-systems=>Build Explainable and Actionable AI/ML Systems]].
@@ -134,6 +136,14 @@ calibrated prediction sets or intervals. This also helps with debugging because
 it changes how a team reads model behavior. A prediction with a wide interval
 may need human review. It may also need more data or a safer fallback instead
 of automatic action.
+
+[[person:linaweichbrodt=>Lina Weichbrodt]] adds the production version in
+[[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+Her credit-scoring example puts explainability inside an incident workflow.
+When users or stakeholders are surprised by an outcome, feature importance can
+help the team separate model behavior from data problems and business-rule
+assumptions. That makes XAI most useful when it answers a debugging question.
+It's weaker as a generic trust layer after investigation has stopped.
 
 ## Governance and Fairness
 

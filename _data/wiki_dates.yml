@@ -385,7 +385,7 @@ embeddings:
   modified: "2026-07-03"
 end-to-end-data-pipeline-project:
   published: "2026-06-30"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 entity-resolution:
   published: "2026-07-01"
   modified: "2026-07-03"
@@ -472,7 +472,7 @@ information-retrieval:
   modified: "2026-07-03"
 interpretability:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 job-descriptions:
   published: "2026-06-29"
   modified: "2026-07-02"

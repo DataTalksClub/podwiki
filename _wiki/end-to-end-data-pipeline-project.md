@@ -31,18 +31,18 @@ or backend data work. For pipeline mechanics, read
 read [[DataOps]] and
 [[Data Quality and Observability]].
 
-A clear pipeline structure moves from ingestion prep into source handling, then
-transformation and modeling, then marts and dashboards that lead back to the
-people who use the data
+A clear pipeline structure starts with ingestion prep and source handling. It
+then moves through transformation, modeling, marts, and dashboards that lead back
+to the people who use the data
 [[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
-The modern-stack boundary separates ETL and ELT, treats transformations as their
-own layer, and distinguishes marts from warehouses, with raw ingestion
+The modern-stack boundary separates ETL from ELT and treats transformations as
+their own layer. It also distinguishes marts from warehouses, with raw ingestion
 guardrails and orchestration around that split
 [[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
 
-The hiring standard is blunt: many projects list tools but show too little Python
-and SQL, and professional code quality, tests, and clear structure are what
+The hiring standard is blunt. Many projects list tools but show too little
+Python and SQL. Professional code quality, tests, and clear structure are what
 prove readiness
 [[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
@@ -76,9 +76,9 @@ two serving tables with explicit grain. With that split, a reviewer can look at
 the source copy, cleanup logic, and consumer-facing output without guessing
 where a row changed.
 
-The ETL and ELT vocabulary supplies this split: transform-before-load versus
-load-before-transform, transformations as their own layer, and marts separated
-from warehouses
+The ETL and ELT vocabulary supplies this split by separating
+transform-before-load from load-before-transform. It also treats transformations
+as their own layer and keeps marts separate from warehouses
 ([[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]]).
 Use [[ETL vs ELT]] when the
 project needs that tradeoff, and use
@@ -91,7 +91,7 @@ business entities, then relationships, marts, and dashboards
 For an end-to-end portfolio, show keys and deduplication rules, table grain, and
 the business mapping behind the serving table.
 
-Tool lists don't prove readiness when SQL and Python are thin; readable code,
+Tool lists don't prove readiness when SQL and Python are thin. Readable code,
 tests, and structure do
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
 SQL plus Python come first, and juniors can often postpone Spark, Kafka, and
@@ -100,15 +100,21 @@ Kubernetes
 
 ## Orchestration and Reruns
 
-Add a run path outside a notebook. That can be a CLI command, a Docker Compose
-job, a simple DAG, or
-[[apache-airflow=>Airflow]] when the dependencies
-justify it. Follow DataTalks.Club's
+Add a run path outside a notebook. A CLI command, Docker Compose job, or simple
+DAG can work. Use
+[[apache-airflow=>Airflow]] when the dependencies justify it.
+
+Follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-when a local reviewer should look at the Airflow UI, task logs, and rerun
-behavior. Docker supports reproducibility, and a Twitter pipeline capstone combines Docker
-with a project that can be explained and run
+when a local reviewer should look at the Airflow UI. The same walkthrough should
+show task logs, rerun behavior, and reproducibility through Docker. A Twitter
+pipeline capstone combines Docker with a project that can be explained and run
 [[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
+
+One concrete course project moves data from MySQL into MinIO. Spark handles
+processing and warehouse loading. Kestra or Airflow then makes handoffs and
+reruns visible rather than implicit
+([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]]).
 
 A reviewer should be able to run the pipeline, look at a failed task, and rerun
 the job without private instructions. Scheduling sits around the modern stack
@@ -129,8 +135,8 @@ Add these checks before adding more tools:
 - schema checks
 - freshness checks
 
-These checks map to operating risk across freshness, volume, distribution,
-schema, and lineage; even good pipelines can still deliver bad data
+These checks map to operating risk across freshness and volume as well as
+distribution, schema, and lineage. Even good pipelines can still deliver bad data
 ([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
 
 Logs and lineage then matter for root-cause analysis, and ownership and SLAs
@@ -164,8 +170,8 @@ reference a quarantine table, skipped merge, or backfill command.
 
 Prefer batch for a first end-to-end project unless a low-latency decision
 requires streaming. [[person:slawomirtulski|Slawomir Tulski]]
-calls this the real-time myth and warns against overbuilt modern stacks, framing
-portfolio work around side projects and end-to-end platforms
+calls this the real-time myth and warns against overbuilt modern stacks. He
+frames portfolio work around side projects and end-to-end platforms
 [[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 Use [[Batch vs Streaming]]
@@ -174,9 +180,9 @@ when the project needs the tradeoff. Use
 boundaries and [[Orchestration]] for
 scheduling.
 
-The hiring side draws a similar boundary: SQL and Python stay ahead of large
-distributed systems for junior candidates, with cloud basics, backend ETL, and
-testing before those systems too
+The hiring side draws a similar boundary. SQL and Python stay ahead of large
+distributed systems for junior candidates. Cloud basics, backend ETL, and
+testing come before those systems too
 ([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
 In the README, say why the project doesn't use Spark or Kafka. Also say
 why Kubernetes isn't needed for the source size, latency, and review goal.
@@ -189,7 +195,7 @@ supports. Also name the source data and the expected update cadence. Show the
 table grain and setup steps. Include one command to run the pipeline and the
 checks that can fail the run.
 
-Projects that list tools but show too little Python and SQL fall short; the code
+Projects that list tools but show too little Python and SQL fall short. The code
 should be something another engineer can read, test, and discuss
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
 The operating side adds that tests, repeatable delivery, and recovery belong in
@@ -210,7 +216,7 @@ extend the system:
 
 Interview formats include SQL screens, Python problems, and take-home projects
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
-The same order matches advice that repeated course projects are weaker than
-custom projects, which work better when the candidate can explain the data and
-the choices behind the work
+This order also matches advice that repeated course projects are weaker than
+custom projects. Custom work is stronger when the candidate can explain the data
+and the choices behind the work
 ([[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]]).

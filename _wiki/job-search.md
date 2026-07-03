@@ -87,7 +87,11 @@ to learn how recruiters and teams describe fit.
 
 For entry-level data science candidates, a smart broad search means applying
 even when a posting lists some unfamiliar tools. Rejection and interview
-questions then become market feedback.
+questions then become market feedback. Katie Bauer's B2B SaaS hiring advice
+adds the employer-side version. Junior candidates stand out when outreach and
+interview preparation show that they understand the team, product, and role.
+That moves the application away from a generic funnel
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
 
 The search should still point toward a target company or industry. Find
 practitioners in that company or nearby roles. Ask for a short conversation.

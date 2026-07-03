@@ -63,6 +63,12 @@ and analytics or data engineering support
 A data scientist title can hide analytics work, platform work, a first-data-hire
 job, or an undefined mix.
 
+In B2B SaaS the same broad data function may split into product analysts,
+analytics engineers, marketing scientists, and data scientists. The exact
+responsibilities depend on the product and growth questions the company needs
+to answer
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
+
 From recruiting, the emphasis is industry fit, concrete projects, and business
 impact
 ([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
