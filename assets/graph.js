@@ -140,8 +140,25 @@
     }
     return out;
   }
-  function setHash(id) {
-    history.replaceState(null, "", `${window.location.pathname}#${encodeURIComponent(id)}`);
+  function currentHistoryState() {
+    return history.state && typeof history.state === "object" ? history.state : {};
+  }
+  function graphHistoryState(id) {
+    return {
+      ...currentHistoryState(),
+      podwikiGraph: {
+        id,
+        trail: trail.slice(),
+        coachDismissed,
+      },
+    };
+  }
+  function setHash(id, mode) {
+    if (mode === false || !window.history) return;
+    const url = `${window.location.pathname}${window.location.search}#${encodeURIComponent(id)}`;
+    const state = graphHistoryState(id);
+    if (mode === "push") history.pushState(state, "", url);
+    else history.replaceState(state, "", url);
   }
   function hashId() {
     return decodeURIComponent(window.location.hash.replace(/^#/, "")) || "";
@@ -473,7 +490,7 @@
         const node = nodeById.get(id);
         if (node) {
           trail = trail.slice(0, idx); // truncate history to that point
-          setFocus(node, { push: false });
+          setFocus(node, { push: false, history: "push" });
         }
       });
     }
@@ -566,7 +583,12 @@
     if (opts.push !== false) coachDismissed = true;
     focus = node;
     hover = null;
-    setHash(node.id);
+    const historyMode = Object.prototype.hasOwnProperty.call(opts, "history")
+      ? opts.history
+      : opts.push === false
+      ? "replace"
+      : "push";
+    setHash(node.id, historyMode);
     renderPanel();
     renderTrail();
     mergeScene(computeTargets(node), opts.animate !== false);
@@ -576,7 +598,7 @@
     if (!trail.length) return;
     const id = trail.pop();
     const node = nodeById.get(id);
-    if (node) setFocus(node, { push: false });
+    if (node) setFocus(node, { push: false, history: "push" });
   }
 
   function pickRandom() {
@@ -685,9 +707,19 @@
   window.addEventListener("resize", () => {
     if (focus) mergeScene(computeTargets(focus), false);
   });
+  window.addEventListener("popstate", (event) => {
+    const payload = event.state && event.state.podwikiGraph;
+    const node = nodeById.get((payload && payload.id) || hashId());
+    if (!node) return;
+    trail = Array.isArray(payload && payload.trail)
+      ? payload.trail.filter((id) => nodeById.has(id) && id !== node.id)
+      : [];
+    coachDismissed = Boolean((payload && payload.coachDismissed) || trail.length);
+    setFocus(node, { push: false, history: false });
+  });
   window.addEventListener("hashchange", () => {
     const node = nodeById.get(hashId());
-    if (node && node !== focus) setFocus(node, { push: true });
+    if (node && node !== focus) setFocus(node, { push: true, history: "replace" });
   });
 
   fetch(siteUrl("/graph/graph.json"))
@@ -703,8 +735,13 @@
         neighborById.get(link.target).add(link.source);
       }
       const initial = nodeById.get(hashId());
-      if (initial) setFocus(initial, { push: false, animate: false });
-      else pickRandom();
+      if (initial) setFocus(initial, { push: false, animate: false, history: "replace" });
+      else {
+        const pool = nodes.filter((n) => (neighborById.get(n.id) || new Set()).size > 2);
+        const source = pool.length ? pool : nodes;
+        const node = source[Math.floor(Math.random() * source.length)];
+        setFocus(node, { push: false, animate: false, history: "replace" });
+      }
     })
     .catch((error) => {
       panel.innerHTML = `<p class="muted">Graph failed to load: ${escapeHtml(error.message)}</p>`;

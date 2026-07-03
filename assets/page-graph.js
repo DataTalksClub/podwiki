@@ -92,6 +92,39 @@
   function hasPageUrl(node) {
     return Boolean(node && node.url);
   }
+  function historyKey(root, index) {
+    if (root.dataset.graphHistoryKey) return root.dataset.graphHistoryKey;
+    const path = window.location.pathname || "/";
+    return `${path}::${index}`;
+  }
+  function currentHistoryState() {
+    return history.state && typeof history.state === "object" ? history.state : {};
+  }
+  function widgetHistoryState(key, node) {
+    return {
+      ...currentHistoryState(),
+      podwikiGraphWidgets: {
+        ...(currentHistoryState().podwikiGraphWidgets || {}),
+        [key]: { nodeId: node.id },
+      },
+    };
+  }
+  function replaceWidgetHistory(key, node) {
+    if (!node || !window.history || !history.replaceState) return;
+    history.replaceState(widgetHistoryState(key, node), "", window.location.href);
+  }
+  function pushWidgetHistory(key, node) {
+    if (!node || !window.history || !history.pushState) return;
+    history.pushState(widgetHistoryState(key, node), "", window.location.href);
+  }
+  function stateNodeId(state, key) {
+    const widgets = state && state.podwikiGraphWidgets;
+    return widgets && widgets[key] ? widgets[key].nodeId : "";
+  }
+  function nodeByStateId(graph, id) {
+    if (!id) return null;
+    return (graph.nodes || []).find((node) => node.id === id) || null;
+  }
 
   function currentNode(graph) {
     const current = normalizePath(window.location.pathname);
@@ -512,20 +545,32 @@
       }
       for (const [id, set] of seen) degreeById.set(id, set.size);
       const currentPageNode = currentNode(graph);
-      for (const root of roots) {
+      const widgetControllers = [];
+      roots.forEach((root, index) => {
         const random = root.hasAttribute("data-graph-random");
-        const showNode = (node) =>
+        const key = historyKey(root, index);
+        const showNode = (node, historyMode) => {
+          if (!node) return;
           render(root, graph, node, degreeById, {
             random,
-            onExplore: showNode,
-            onReroll: random ? () => showNode(pickRandomCenter(graph, degreeById)) : null,
+            onExplore: (next) => showNode(next, "push"),
+            onReroll: random ? () => showNode(pickRandomCenter(graph, degreeById), "push") : null,
           });
-        if (random) {
-          showNode(pickRandomCenter(graph, degreeById));
-        } else {
-          showNode(currentPageNode);
+          if (historyMode === "push") pushWidgetHistory(key, node);
+          else if (historyMode !== false) replaceWidgetHistory(key, node);
+        };
+        widgetControllers.push({ key, showNode });
+        const stored = nodeByStateId(graph, stateNodeId(history.state, key));
+        const node = stored || (random ? pickRandomCenter(graph, degreeById) : currentPageNode);
+        showNode(node, false);
+        if (node) replaceWidgetHistory(key, node);
+      });
+      window.addEventListener("popstate", (event) => {
+        for (const controller of widgetControllers) {
+          const node = nodeByStateId(graph, stateNodeId(event.state, controller.key));
+          if (node) controller.showNode(node, false);
         }
-      }
+      });
     })
     .catch(() => {
       for (const root of roots) root.hidden = true;
