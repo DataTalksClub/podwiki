@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11037
+    "links": 11042
   },
   "nodes": [
     {
@@ -23558,6 +23558,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -26775,6 +26781,12 @@
     {
       "source": "wiki:annotation-quality-workflows",
       "target": "podcast:building-open-source-nlp-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31689,6 +31701,12 @@
     {
       "source": "wiki:cv-screening",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38091,6 +38109,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65889,6 +65913,12 @@
     {
       "source": "wiki:open-source-ml-contributions",
       "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:fairness-in-ai-ml-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },

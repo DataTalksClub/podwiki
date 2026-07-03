@@ -131,6 +131,14 @@ annotation workflow still has to combine, review, and test those signals before
 training on them
 [[cite:building-open-source-nlp-tool|Building Open Source NLP Tool]].
 
+Maria Sukhareva makes the production version of that review loop explicit for
+chatbots. A model can draft an answer, while a human reviewer approves or
+corrects it before the response reaches the user when accuracy matters. The same
+assistant framing appears in moderation workflows. A model flags possible
+problems, and people remain responsible for judgment instead of treating
+automation as a replacement for review
+[[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]].
+
 [[person:ivanbilan=>Ivan Bilan]] adds a production
 boundary in
 [[podcast:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].

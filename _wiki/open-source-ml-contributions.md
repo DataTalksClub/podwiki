@@ -154,6 +154,12 @@ Hugo's 43:14 tutorial discussion says the content should start from audience
 and goals. That makes a docs contribution stronger than a cosmetic rewrite
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
+Fairlearn shows a structured version of the same entry path. Tamara Atanasoska
+points new contributors toward the project's community channels, good-first
+issues, and contribution sprints. Those entry points make a fairness-tooling
+contribution more concrete than "find something to fix" in a large ML repository
+([[cite:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+
 Small code changes become useful when they include the review material around
 them
 ([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
@@ -251,6 +257,13 @@ speaking invites and career opportunities when the work helps real users
 Hugo's 54:31 career advice pairs GitHub portfolios with meetups and experiments
 in DevRel
 ([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+
+Tamara's Fairlearn work adds the career-signal version for responsible ML tools:
+visible open-source contributions can become proof of domain judgment, not only
+general coding ability. Her path from Fairlearn contribution into a role at
+Probable connects sprints and issue selection with library compatibility work.
+That creates a hiring story that ML teams can look at
+([[cite:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
 
 For a portfolio, don't present the contribution as a detached badge. Link the
 issue and pull request. Add the docs page, tutorial, CI result, and maintainer
