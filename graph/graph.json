@@ -10391,7 +10391,7 @@
       "title": "Multi-Agent Systems",
       "url": "/wiki/multi-agent-systems/",
       "count": 1,
-      "search": "Multi Agent Systems How DataTalks.Club guests discuss multi agent systems through sequential flows, manager agent orchestration, peer collaboration, tool use, memory, evaluation, and guardrails."
+      "search": "Multi Agent Systems How DataTalks.Club guests frame multi agent systems: coordination patterns, tool boundaries, memory, evaluation, and governance."
     },
     {
       "id": "wiki:multimodal-llms",
@@ -10463,7 +10463,7 @@
       "title": "Open Source",
       "url": "/wiki/open-source/",
       "count": 1,
-      "search": "Open Source How DataTalks.Club podcast guests discuss open source across ML and data tools, contribution work, governance, licensing, developer relations, and startup distribution."
+      "search": "Open Source How DataTalks.Club guests connect open source with ML and data tools, contributions, governance, licensing, DevRel, and startup distribution."
     },
     {
       "id": "wiki:open-source-contributor-roadmap",
@@ -10494,7 +10494,7 @@
       "title": "Open Source ML Contributions",
       "url": "/wiki/open-source-ml-contributions/",
       "count": 1,
-      "search": "Open Source ML Contributions How DataTalks.Club guests describe practical open source contribution work for ML and data tooling: project choice, first issues, docs, tests, CI, scikit learn compatible APIs, maintainer etiquette, portfolio proof, and DevRel feedback."
+      "search": "Open Source ML Contributions How DataTalks.Club guests frame open source ML contributions, from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
     },
     {
       "id": "wiki:open-source-portfolio-evidence",
@@ -10514,7 +10514,7 @@
       "title": "Orchestration and Airflow",
       "url": "/wiki/orchestration/",
       "count": 1,
-      "search": "Orchestration and Airflow Podcast grounded guide to orchestration and Airflow across schedules, DAGs, dependencies, retries, backfills, platform conventions, batch inference, and ETL boundaries."
+      "search": "Orchestration and Airflow How DataTalks.Club guests frame orchestration and Airflow for schedules, DAGs, retries, backfills, ETL boundaries, and ML pipelines."
     },
     {
       "id": "wiki:platform-adoption",
@@ -10524,7 +10524,7 @@
       "title": "Platform Adoption",
       "url": "/wiki/platform-adoption/",
       "count": 1,
-      "search": "Platform Adoption How DataTalks.Club podcast guests describe getting shared data and ML platforms used through pain point discovery, self service paths, developer experience, enablement, rollout, and measurement."
+      "search": "Platform Adoption How DataTalks.Club guests get shared data and ML platforms adopted through pain discovery, self service, enablement, rollout, and measurement."
     },
     {
       "id": "wiki:platform-engineering",

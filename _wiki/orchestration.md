@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Orchestration and Airflow"
-summary: "Podcast-grounded guide to orchestration and Airflow across schedules, DAGs, dependencies, retries, backfills, platform conventions, batch inference, and ETL boundaries."
+summary: "How DataTalks.Club guests frame orchestration and Airflow for schedules, DAGs, retries, backfills, ETL boundaries, and ML pipelines."
 related:
   - Apache Airflow
   - Data Pipelines
@@ -411,8 +411,7 @@ Local Docker Compose fits that learning path. Use it to run the Airflow web UI,
 scheduler, and metadata database. Add mounted DAG files, logs, and workers when
 a local project needs them. DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-walks through that local setup, while this page stays on the orchestration
-concept and its boundary with pipeline code.
+walks through that local setup.
 
 Running those pieces locally helps a learner see the scheduler and UI. It also
 shows how task execution, metadata, and logs relate to each other. It's useful

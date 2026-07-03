@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source ML Contributions"
-summary: "How DataTalks.Club guests describe practical open-source contribution work for ML and data tooling: project choice, first issues, docs, tests, CI, scikit-learn-compatible APIs, maintainer etiquette, portfolio proof, and DevRel feedback."
+summary: "How DataTalks.Club guests frame open-source ML contributions, from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
 related:
   - Open Source
   - Open Source Portfolio Evidence

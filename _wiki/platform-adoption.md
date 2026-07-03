@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Platform Adoption"
-summary: "How DataTalks.Club podcast guests describe getting shared data and ML platforms used through pain-point discovery, self-service paths, developer experience, enablement, rollout, and measurement."
+summary: "How DataTalks.Club guests get shared data and ML platforms adopted through pain discovery, self-service, enablement, rollout, and measurement."
 related:
   - Platform Engineering
   - Self-Service Data Platforms
