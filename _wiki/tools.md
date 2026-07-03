@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Tools"
-summary: "How DataTalks.Club podcast guests choose, operate, teach, and sustain tools across data engineering, MLOps, DataOps, search, RAG, open source, and developer experience."
+summary: "How DataTalks.Club podcast guests choose and sustain tools across data engineering, MLOps, search, RAG, open source, and developer experience."
 related:
   - Data Engineering Tools
   - MLOps Tools

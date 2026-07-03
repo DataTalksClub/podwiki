@@ -11020,7 +11020,7 @@
       "title": "Technical Writing",
       "url": "/wiki/technical-writing/",
       "count": 1,
-      "search": "Technical Writing How DataTalks.Club guests describe technical writing as explanation, documentation, public learning, portfolio proof, and developer education for data and ML work."
+      "search": "Technical Writing How DataTalks.Club guests connect technical writing with documentation, public learning, portfolios, and developer education."
     },
     {
       "id": "wiki:testing",
@@ -11040,7 +11040,7 @@
       "title": "Text-to-SQL",
       "url": "/wiki/text-to-sql/",
       "count": 1,
-      "search": "Text to SQL How podcast discussions frame text to SQL and conversational data access as a BI interface built on metadata, governed data, query safety, and production AI testing."
+      "search": "Text to SQL Podcast takeaways on text to SQL, metadata, governed metrics, query safety, and production testing for conversational BI."
     },
     {
       "id": "wiki:tools",
@@ -11050,7 +11050,7 @@
       "title": "Tools",
       "url": "/wiki/tools/",
       "count": 1,
-      "search": "Tools How DataTalks.Club podcast guests choose, operate, teach, and sustain tools across data engineering, MLOps, DataOps, search, RAG, open source, and developer experience."
+      "search": "Tools How DataTalks.Club podcast guests choose and sustain tools across data engineering, MLOps, search, RAG, open source, and developer experience."
     },
     {
       "id": "wiki:tracking-plans",

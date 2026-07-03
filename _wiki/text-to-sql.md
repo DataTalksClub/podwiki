@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Text-to-SQL"
-summary: "How podcast discussions frame text-to-SQL and conversational data access as a BI interface built on metadata, governed data, query safety, and production AI testing."
+summary: "Podcast takeaways on text-to-SQL, metadata, governed metrics, query safety, and production testing for conversational BI."
 related:
   - Business Intelligence
   - AI-Powered Business Intelligence
