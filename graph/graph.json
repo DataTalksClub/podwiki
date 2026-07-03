@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11017
+    "links": 11026
   },
   "nodes": [
     {
@@ -29102,6 +29102,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "person:mervenoyan",
       "kind": "wiki-chip",
       "weight": 1
@@ -29169,6 +29175,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36914,6 +36926,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -37037,6 +37055,12 @@
       "target": "wiki:governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-governance",
@@ -38366,6 +38390,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -38505,6 +38535,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:leadership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53654,6 +53690,12 @@
     },
     {
       "source": "wiki:lean-mlops-for-startups",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
       "target": "podcast:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -64418,6 +64460,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "person:linaweichbrodt",
       "kind": "wiki-chip",
       "weight": 1
@@ -64437,6 +64485,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
     },

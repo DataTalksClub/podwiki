@@ -107,6 +107,16 @@ testable components, and business buy-in. He also emphasizes simpler solutions.
 Another person must be able to rerun, debug, or change the system without
 reconstructing the original experiment from memory.
 
+[[person:lavanyagupta=>Lavanya Gupta]] adds a useful
+middle step for LLM prototypes. In applied research work, Streamlit can turn a
+fresh result into a quick demo. That gives leadership and stakeholders a
+feedback path before a full engineering handoff
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth]].
+
+That doesn't make the demo production-ready. It does help the team learn
+which behavior is valuable enough for ownership and evaluation. The durable
+version can then become an [[AI Engineering]] or [[Data Products]] system.
+
 [[person:mihaileric=>Mihail Eric]] gives the
 research-to-production version in
 [[podcast:research-to-production-ml-systems-roadmap=>From Research to Production]].

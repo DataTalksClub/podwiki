@@ -216,6 +216,18 @@ turned independent study into a reviewable engineering portfolio. Her story is
 a non-traditional entry model that relies on open curricula, community study
 groups, and deployment practice.
 
+[[person:lavanyagupta=>Lavanya Gupta]] adds another
+route for non-CS career changers. She points career pivoters toward entry roles
+that match their starting assets. BI and technical product management can use
+business judgment and basic SQL before deeper coding. Tableau and enough
+software literacy to work with technical teams can help too.
+
+The same episode connects role choice to transition evidence. Career changers
+choose a target role, build role-shaped proof, then use specific cold outreach
+or LinkedIn messages to find mentors. Rapport in data communities can turn
+visible work into word-of-mouth opportunities, but it doesn't replace proof
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth]].
+
 ## Transferable Skills Need Translation
 
 The strongest transition stories keep useful prior skills but rename them for

@@ -30,47 +30,48 @@ the role near [[MLOps]],
 [[self-service-data-platforms=>Self-Service Data Platforms]],
 and [[Data Mesh]].
 
-[[person:saramenefee=>Sara Menefee]]'s move from product design into the role
-illustrates data product management as regular product work with data-specific
-literacy ([[Product Designer to Data Product Manager]]).
+[[person:saramenefee=>Sara Menefee]] moved from product design into the role.
+Her path frames data product management as regular product work with
+data-specific literacy ([[Product Designer to Data Product Manager]]).
 
 Product teams still do customer discovery and hypothesis formation before
 planning with engineering. Launch work requires SQL and data quality judgment,
 plus PII awareness, compliance literacy, and documentation habits
 ([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
 
-In roadmap terms, customer needs and pain points come first, and roadmap
-tradeoffs and measurable business value come next
+In roadmap terms, customer needs and pain points come first. Roadmap tradeoffs
+and measurable business value come next
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
 ## Problem-First Product Work
 
 Data product management starts before anyone picks a technical solution. User
 research and customer development come before engineering. The team talks to
-users, learns what they're responsible for, and forms a hypothesis about the
+users and learns what they're responsible for. It forms a hypothesis about the
 problem before planning delivery
 ([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
 
-The same rule applies to AI products: map the customer journey, learn the
-domain, interview stakeholders, review documentation, use the Five Whys, and
-test hypotheses before making roadmap commitments
+The same rule applies to AI products. Teams map the customer journey, learn the
+domain, interview stakeholders, and review documentation. They use the Five Whys
+and test hypotheses before making roadmap commitments
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
-A manufacturing example shows a multi-team internal product. Curated pipelines
-and dashboards helped sales build contracts faster, and marketing, finance,
-supply chain, and program teams used the same product. It combined routing and
-capacity data with demand signals, plus pricing, competitor, and marketing data
+A manufacturing example shows a multi-team internal product. The team used
+curated pipelines and dashboards to help sales build contracts faster. Marketing,
+finance, supply chain, and program teams used the same product. It combined
+routing and capacity data with demand signals. It also used pricing, competitor,
+and marketing data
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
-Discovery extends into adoption. Poor usage may mean people don't know the data
-product exists, don't understand it, or don't trust it, or they miss how it fits
-the decision they need to make
+Discovery extends into adoption too. Poor usage may mean people don't know the
+data product exists or don't understand it. It may also mean they don't trust it
+or miss how it fits the decision they need to make
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
 For data product managers, user research belongs inside
 [[Data Product Adoption]],
 not only before kickoff.
 
-Problem framing ties into [[Data Strategy]]: the right product choice may be a
+Problem framing ties into [[Data Strategy]]. The right product choice may be a
 manual cleanup, an MVP, or staged investment rather than a model
 ([[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]]).
 
@@ -88,22 +89,30 @@ That boundary runs through discovery, planning, and launch, with data quality
 and documentation also part of the role
 ([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
 
-In [[ML Product Manager Role]] work, the PM defines the problem, balances
-stakeholders, manages rollout, and measures platform impact, while technical
-leads design the solution; starting from a favorite solution before validating
-the user problem is a mistake
+In [[ML Product Manager Role]] work, the PM defines the problem and balances
+stakeholders. They manage rollout and measure platform impact. Technical leads
+design the solution. Starting from a favorite solution before validating the user
+problem is a mistake
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 
-The same split holds from the data-team side: data professionals bring technical
-input and T-shirt sizing into roadmap work, while the team still works backward
-from the business problem. Teams without a dedicated PM still need to identify
-the customer, validate the work, and align their mental models so they make
+The same split holds from the data-team side. Data professionals bring technical
+input and T-shirt sizing into roadmap work. The team still works backward from
+the business problem. Teams without a dedicated PM still need to identify the
+customer and validate the work. They also need aligned mental models so they make
 product decisions instead of only technical decisions
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
-The clearest title boundary: a product owner often protects delivery teams and
-makes tactical release tradeoffs, a product manager may own broader strategy,
-and a domain owner may align data science work across product and business areas
+Tammy Liang gives the operating version of that boundary in a growing data team.
+Usefulness comes from business alignment, not from picking an interesting
+technical idea first. Even simple tasks should ship in phases business teams can
+use and critique. The same rule applies to long-running projects. This turns
+data-team leadership into product leadership as well as technical coordination
+([[cite:building-and-scaling-data-team|Building and Scaling a Data Team]]).
+
+The clearest title boundary separates three jobs. A product owner often protects
+delivery teams and makes tactical release tradeoffs. A product manager may own
+broader strategy. A domain owner may align data science work across product and
+business areas
 ([[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]]).
 The dedicated comparisons are
 [[Data Product Owner vs Data Product Manager]]
@@ -112,29 +121,29 @@ and
 
 ## Centers of Gravity
 
-One center of gravity is discovery, empathy, data literacy, and execution: the
+Discovery, empathy, data literacy, and execution form one center of gravity. The
 data product manager asks how people make decisions and stays close enough to
-SQL and data quality to make delivery credible, treating PII, compliance, and
-documentation as part of the job
+SQL and data quality to make delivery credible. PII, compliance, and
+documentation stay part of the job
 ([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
 
-Another is roadmap discipline for AI and MLOps work: the roadmap ranks
-opportunities by impact, effort, and cost, then moves from problems to solutions
-to metrics. SMART goals and pipeline failures are success measures, not
-afterthoughts, and SLAs and data quality matter too
+Roadmap discipline for AI and MLOps work is another center of gravity. The
+roadmap ranks opportunities by impact, effort, and cost. It then moves from
+problems to solutions to metrics. SMART goals and pipeline failures are success
+measures, not afterthoughts. SLAs and data quality matter too
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
-A third is internal platform adoption, treating data scientists, analysts, and
-other platform users as customers. Feedback loops, productivity costs, backlog
-prioritization, and observability KPIs manage the platform as a product, and
-release governance and rollout timing matter too
+Internal platform adoption is a third center of gravity. The team treats data
+scientists, analysts, and other platform users as customers. Feedback loops,
+productivity costs, backlog prioritization, and observability KPIs manage the
+platform as a product. Release governance and rollout timing matter too
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 That platform version sits close to
 [[Model Monitoring]] and
 [[self-service-data-platforms=>Self-Service Data Platforms]].
 
 The same product boundary appears inside a lead data scientist role. Intake,
-Definition of Done, KPIs, and feasibility checks structure the work, and pilots,
+Definition of Done, KPIs, and feasibility checks structure the work. Pilots,
 demos, and stakeholder communication turn data science work into a managed
 product lifecycle
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
@@ -142,14 +151,14 @@ product lifecycle
 ## Roadmaps and Tradeoffs
 
 Roadmaps in data product management are evidence and tradeoff documents, not
-lists of possible models. They draw on technical input and T-shirt sizing, use
-problem-first feature design, and rank longer-term MLOps investments by impact,
-effort, and cost
+lists of possible models. They draw on technical input and T-shirt sizing. They
+use problem-first feature design and rank longer-term MLOps investments by
+impact, effort, and cost
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
 For the internal platform version, backlog grooming and engineering partnership
-have to balance adoption and quality, and user feedback, governance, and
-stakeholder value matter too
+have to balance adoption and quality. User feedback, governance, and stakeholder
+value matter too
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 
 The [[Data Product Manager Roadmap]]
@@ -160,15 +169,16 @@ and roadmaps. It also covers adoption and portfolio evidence.
 
 ## Metrics and Experiments
 
-Data product managers need measurable success criteria. One template moves from
-problems to solutions to metrics, then adds SMART goals and operational measures
-such as pipeline failures, SLAs, and data quality
+Data product managers need measurable success criteria. One template starts with
+problems, solutions, and metrics before adding SMART goals and operational
+measures such as pipeline failures. Those measures also include SLAs and data
+quality
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|Building and Scaling AI Data Products with MLOps]]).
 
-Metrics also belong in the Definition of Done: teams define KPIs, success
-criteria, fail-fast checks, and feasibility, then use baseline comparisons,
-pilots, and A/B tests before treating the product as complete. The broader
-lifecycle includes rollout, monitoring, demos, and stakeholder feedback
+Metrics also belong in the Definition of Done because teams define KPIs, success
+criteria, fail-fast checks, and feasibility there. They then use baseline
+comparisons, pilots, and A/B tests before treating the product as complete. The
+broader lifecycle includes rollout, monitoring, demos, and stakeholder feedback
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 When a data product changes a customer or product workflow, success often needs
@@ -187,20 +197,25 @@ task time, decision quality, and pricing impact matter there too
 
 Adoption belongs inside the product boundary because unused data outputs are
 unfinished products. Effective adoption starts from the decision and designs for
-personas: embed metrics in meetings, prototype quickly, and scope narrow wins
-that create advocates. Adoption depends on discoverability, interpretability,
-trust, and data quality, and on the meeting or workflow where the decision is
-made
+personas. Teams embed metrics in meetings, prototype quickly, and scope narrow
+wins that create advocates. Adoption depends on discoverability,
+interpretability, trust, and data quality. It also depends on the meeting or
+workflow where the decision is made
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
 
-Documentation-first adoption work also helps: PRDs, customer notes, and
-knowledge bases teach people how to trust new data tools, while pairing and
-Slack support adoption in daily work
+Liang connects adoption to practice on the data-team side by moving workshops
+from walkthroughs to Q&A. Business teams practiced finding answers
+([[cite:building-and-scaling-data-team|Building and Scaling a Data Team]]).
+That taught them when to use the data product and how it fit their work.
+
+Documentation-first adoption work also helps. PRDs, customer notes, and
+knowledge bases teach people how to trust new data tools. Pairing and Slack
+support adoption in daily work
 ([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
 
-Release governance and rollout strategy matter for ML products, with validation
-and quality assurance for internal platform users and attention to platform
-stability and rollout timing
+Release governance and rollout strategy matter for ML products because internal
+platform users need validation and quality assurance. Platform stability and
+rollout timing need attention too
 ([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 Monitoring and MLOps capability stay in the same operating model as demos and
 stakeholder feedback
@@ -210,6 +225,10 @@ This operating ownership puts data product management near
 [[Data Quality and Observability]],
 [[data-quality-and-observability=>Data Observability]],
 [[Model Monitoring]], and
-[[Production]]. The product manager
-doesn't replace the people who build those systems. They keep the product
-accountable to users, decisions, metrics, and trust after launch.
+[[Production]]. It also puts the role near
+[[Leadership]]. As teams grow, ownership has to be delegated
+([[cite:building-and-scaling-data-team|Building and Scaling a Data Team]]).
+
+The product manager doesn't replace the people who build those systems. They
+keep the product accountable to users, decisions, metrics, and trust after
+launch. The delivery team still owns project details and escalates blockers.

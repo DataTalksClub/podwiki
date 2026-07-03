@@ -20,7 +20,10 @@ security or compliance. They connect it to [[data engineering platforms]],
 [[privacy-engineering-for-ml=>privacy engineering]],
 and the operating model around [[DataOps]].
 
-[[book:20210524-data-governance-the-definitive-guide=>Data Governance: The Definitive Guide]] by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance foundations, covering catalogs, classification, access controls, and policy automation.
+[[book:20210524-data-governance-the-definitive-guide=>Data Governance book]]
+by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance
+foundations. It covers catalogs, classification, access controls, and policy
+automation.
 
 [[person:jessiashdown=>Jessi Ashdown]] and
 [[person:urigilad=>Uri Gilad]] make the broadest
@@ -32,16 +35,17 @@ that doesn't know what data it has can't decide how to use, secure, retain or
 remove that data.
 
 [[person:bartvandekerckhove=>Bart Vandekerckhove]] gives
-the access-management version in
-[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]].
-At 5:20, he defines governance as the activities that create trust in data for
-analysts, data scientists, and customers. In that framing, teams govern data
-through operating practice, not through documentation alone.
+the access-management version. In
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
+at 5:20, he defines governance as the activities that create trust in data.
+That trust matters for analysts, data scientists, and customers. In that
+framing, teams govern data through operating practice, not through documentation
+alone.
+
 Andrew Jones's
 [[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality with Data Contracts]]
-develops that operating-practice idea into the data-contract pattern, where
-producers and consumers agree on schema and quality obligations before the
-pipeline runs.
+develops that operating-practice idea. Before the pipeline runs, producers and
+consumers agree on the schema plus quality obligations.
 The same trust boundary applies to
 [[Business Intelligence]],
 where dashboards, metrics, and AI-assisted answers can expose governed data to
@@ -65,6 +69,15 @@ analytics enablement, trust, and cost control can matter too. Those reasons put
 governance inside
 [[data strategy]]
 because the right controls depend on why the data matters.
+
+Simon Stiebellehner gives the ML platform version in fintech. Platform teams
+need reproducible datasets, logs, metadata, and lineage for monitoring and later
+analysis. GDPR and regulatory constraints still limit what they can log or
+persist
+[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+Governance therefore belongs in [[MLOps]] platform design. Teams make data
+usable while controlling privacy and compliance risk instead of collecting
+everything.
 
 Bart's episode agrees with the trust goal and then describes the operating work.
 In [[podcast:data-governance-data-access-management|Data Governance and Data Access Management]],
