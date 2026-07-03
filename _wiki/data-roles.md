@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: ["guide"]
-title: "Data Roles: Analyst, Data Scientist, Data Engineer, Analytics Engineer, MLE, and Data Product Manager"
+title: "Data Roles Guide"
 keyword: "data roles"
-summary: "A podcast-backed guide to common data roles, how their responsibilities differ, how to choose a target role, and what portfolio evidence each role needs."
+summary: "Guide to common data roles, how responsibilities differ, how to choose a target role, and what portfolio evidence each role needs."
 search_intent: "People searching for data roles want a practical overview of common data job titles, clear boundaries between analyst, data scientist, data engineer, analytics engineer, machine learning engineer, and data product manager, plus guidance on choosing a path and building role-specific portfolio evidence."
 related_wiki:
   - Data Analyst Role

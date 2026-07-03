@@ -9201,11 +9201,11 @@
       "id": "wiki:data-roles",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Roles: Analyst, Data Scientist, Data Engineer, Analytics Engineer, MLE, and Data Product Manager",
-      "title": "Data Roles: Analyst, Data Scientist, Data Engineer, Analytics Engineer, MLE, and Data Product Manager",
+      "label": "Data Roles Guide",
+      "title": "Data Roles Guide",
       "url": "/wiki/data-roles/",
       "count": 1,
-      "search": "Data Roles: Analyst, Data Scientist, Data Engineer, Analytics Engineer, MLE, and Data Product Manager A podcast backed guide to common data roles, how their responsibilities differ, how to choose a target role, and what portfolio evidence each role needs.",
+      "search": "Data Roles Guide Guide to common data roles, how responsibilities differ, how to choose a target role, and what portfolio evidence each role needs.",
       "keyword": "data roles"
     },
     {
@@ -9459,11 +9459,11 @@
       "id": "wiki:dataops-vs-data-engineering",
       "type": "wiki",
       "collection": "wiki",
-      "label": "DataOps vs Data Engineering: Who Owns What Day-to-Day",
-      "title": "DataOps vs Data Engineering: Who Owns What Day-to-Day",
+      "label": "DataOps vs Data Engineering",
+      "title": "DataOps vs Data Engineering",
       "url": "/wiki/dataops-vs-data-engineering/",
       "count": 1,
-      "search": "DataOps vs Data Engineering: Who Owns What Day to Day How DataTalks.Club podcast guests split day to day ownership between data engineering (building pipelines, models, and checks) and DataOps (making changes safe to review, run, observe, and recover), grounded in Tomasz Hinc, Christopher Bergh, and Lars Albertsson interviews."
+      "search": "DataOps vs Data Engineering Comparison of day to day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover."
     },
     {
       "id": "wiki:dbt",
@@ -10338,11 +10338,11 @@
       "id": "wiki:mlops-architecture",
       "type": "wiki",
       "collection": "wiki",
-      "label": "MLOps Architecture: Production Map for Models, Pipelines, Platforms, and Feedback",
-      "title": "MLOps Architecture: Production Map for Models, Pipelines, Platforms, and Feedback",
+      "label": "MLOps Architecture",
+      "title": "MLOps Architecture",
       "url": "/wiki/mlops-architecture/",
       "count": 1,
-      "search": "MLOps Architecture: Production Map for Models, Pipelines, Platforms, and Feedback A podcast backed MLOps architecture guide covering data inputs, training and feature pipelines, experiment tracking, registries, CI/CD, serving, monitoring, feedback loops, governance, and the tradeoff between simple stacks and shared platforms.",
+      "search": "MLOps Architecture Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback loops.",
       "keyword": "mlops architecture"
     },
     {
@@ -10465,7 +10465,7 @@
       "title": "Multimodal LLMs",
       "url": "/wiki/multimodal-llms/",
       "count": 1,
-      "search": "Multimodal LLMs How DataTalks.Club guests discuss large language models that process text, images, video, and audio: architectures like CLIP, cross modal embeddings, autonomous driving applications, multimodal agent futures, and the deployment and evaluation challenges of running multimodal systems in production."
+      "search": "Multimodal LLMs Guide to multimodal LLMs: text, image, audio, and video inputs; architecture choices, evaluation, and production use."
     },
     {
       "id": "wiki:nlp",
@@ -10622,11 +10622,11 @@
       "id": "wiki:product-analyst",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries",
-      "title": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries",
+      "label": "Product Analyst Role",
+      "title": "Product Analyst Role",
       "url": "/wiki/product-analyst/",
       "count": 1,
-      "search": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries A practical, podcast backed guide to the product analyst role: product analytics responsibilities, event tracking, tracking plans, A/B testing, analytics engineering boundaries, and job description examples.",
+      "search": "Product Analyst Role Guide to product analyst responsibilities, skills, event tracking, product analytics, and role boundaries.",
       "keyword": "product analyst job description"
     },
     {

@@ -1,6 +1,27 @@
 # Podwiki ↔ Main-site SEO cannibalization audit
 
-_Audit date: 2026-07-02. Read-only. Both sites live on `datatalks.club` (main = `/`, podwiki = `/podwiki/`), so two pages targeting one query = cannibalization._
+_Audit date: 2026-07-02. Both sites live on `datatalks.club` (main = `/`,
+podwiki = `/podwiki/`), so two pages targeting one query = cannibalization._
+
+## 2026-07-03 Status
+
+The five direct cannibalization risks below have been resolved in the current
+wiki state:
+
+- `_wiki/dataops.md` no longer carries `keyword: what is dataops` and opens with
+  a canonical link to the main-site definition article.
+- `_wiki/dataops-vs-data-engineering.md` no longer carries
+  `keyword: dataops vs data engineering` and is narrowed to day-to-day ownership.
+- `_wiki/mlops-vs-devops.md` no longer carries `keyword: mlops vs devops` and
+  is narrowed to transferable DevOps practices versus ML-specific risks.
+- `_wiki/ai-tools-for-personal-productivity.md` no longer carries the exact head
+  keyword and is narrowed to transcript-backed workflow integration.
+- `_wiki/data-engineering-courses.md` has been removed; course-shopping queries
+  belong to the main DataTalks.Club course pages and roadmap links.
+
+Keep the original audit below as the historical decision record. Future work
+should focus on the borderline items and on shortening overlong titles and
+descriptions flagged by `python scripts/audit_seo.py`.
 
 ## 1. Method + the score-vs-verdict caveat
 

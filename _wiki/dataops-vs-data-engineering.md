@@ -1,8 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "DataOps vs Data Engineering: Who Owns What Day-to-Day"
-summary: "How DataTalks.Club podcast guests split day-to-day ownership between data engineering (building pipelines, models, and checks) and DataOps (making changes safe to review, run, observe, and recover), grounded in Tomasz Hinc, Christopher Bergh, and Lars Albertsson interviews."
+title: "DataOps vs Data Engineering"
+summary: "Comparison of day-to-day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover."
 related_wiki:
   - DataOps
   - Data Engineering
@@ -16,21 +16,20 @@ related_wiki:
   - CI/CD
 ---
 
-For the general definitional comparison of DataOps with data engineering and
-data science, see the DataTalks.Club article
-[DataOps: Similarities and Differences with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
-This page takes a narrower angle: what data engineering and DataOps each own
-day-to-day, based on how DataTalks.Club podcast guests describe the split.
+For the broader definition, see the DataTalks.Club article
+[DataOps Compared with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
+Here, DataTalks.Club podcast guests describe a narrower split: what data
+engineering and DataOps each own day-to-day.
 
 [[Data engineering]] owns building the
-data paths other teams use. Day-to-day that means ingestion, storage, and
-transformation, plus orchestration and the interfaces that make data usable for
-analytics, machine learning, product systems, and operations. The output is
+data paths other teams use. Day-to-day that means ingestion, storage,
+transformation, and orchestration. It also means the interfaces that make data
+usable for analytics, machine learning, product systems, and operations. The output is
 pipelines, models, and schedules.
 
 [[DataOps]] owns making changes to those
-paths safe to run. Day-to-day that means review and testing, deployment,
-observability, onboarding, and recovery more than writing every pipeline. A
+paths safe to run. Day-to-day that means review, testing, deployment, and
+observability. It also means onboarding and recovery more than writing every pipeline. A
 data engineer may do DataOps work, but the two jobs don't fill the same hours.
 
 [[person:nataliekwong=>Natalie Kwong]] grounds the
@@ -145,10 +144,11 @@ Hinc gives a more team-facing version at 40:44-43:36 in
 [[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 He puts DataOps closer to support, communication, and onboarding. Monitoring
 and cross-team education belong there too. That doesn't remove engineering
-work. It explains why
-DataOps often shows up as enablement around the engineers who write and operate
-pipelines. When that enablement work is owned as a dedicated job rather than a
-shared habit, see the [[dataops-engineer-role|DataOps engineer role]].
+work.
+
+It explains why DataOps often shows up as enablement around the engineers who
+write and operate pipelines. When that enablement work is owned as a dedicated
+job rather than a shared habit, see the [[dataops-engineer-role|DataOps engineer role]].
 
 ## Shared Pipeline Work
 
@@ -234,4 +234,3 @@ These pages cover the concepts and neighboring comparisons behind this boundary:
 - [[Orchestration]]
 - [[ci-cd=>CI/CD]]
 - [[MLOps vs DataOps]]
-
