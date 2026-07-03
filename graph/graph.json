@@ -9461,7 +9461,7 @@
       "title": "Deep Learning",
       "url": "/wiki/deep-learning/",
       "count": 1,
-      "search": "Deep Learning Podcast backed guide to deep learning as the neural network layer of applied AI, covering vision, transformers, labels, production constraints, and portfolio signals."
+      "search": "Deep Learning Deep learning in podcast discussions: vision, transformers, labels, evaluation, production constraints, and portfolio proof."
     },
     {
       "id": "wiki:delta-lake",
@@ -9471,7 +9471,7 @@
       "title": "Delta Lake",
       "url": "/wiki/delta-lake/",
       "count": 1,
-      "search": "Delta Lake How DataTalks.Club podcast discussions place Delta Lake in lakehouse table format choices, especially beside Apache Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
+      "search": "Delta Lake How podcast discussions place Delta Lake in lakehouse table format choices beside Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
     },
     {
       "id": "wiki:delta-lake-vs-apache-iceberg",
@@ -9481,7 +9481,7 @@
       "title": "Delta Lake vs Apache Iceberg",
       "url": "/wiki/delta-lake-vs-apache-iceberg/",
       "count": 1,
-      "search": "Delta Lake vs Apache Iceberg A podcast grounded comparison of Delta Lake and Apache Iceberg as lakehouse table format choices, centered on storage, catalogs, engines, lock in, and platform operations.",
+      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg through podcast discussions of table formats, catalogs, engines, governance, lock in, and operations.",
       "keyword": "delta lake vs apache iceberg"
     },
     {
@@ -9502,7 +9502,7 @@
       "title": "Developer Relations",
       "url": "/wiki/developer-relations/",
       "count": 1,
-      "search": "Developer Relations How DataTalks.Club podcast guests describe DevRel as technical education, demos, documentation, community feedback, open source work, and adoption strategy for data and ML tools."
+      "search": "Developer Relations How guests frame DevRel as technical education, demos, docs, community feedback, open source work, and adoption for data and ML tools."
     },
     {
       "id": "wiki:devops-to-data-engineering",
@@ -9512,7 +9512,7 @@
       "title": "DevOps to Data Engineering",
       "url": "/wiki/devops-to-data-engineering/",
       "count": 1,
-      "search": "DevOps to Data Engineering Podcast backed transition notes for DevOps, SRE, cloud, and platform engineers moving into data engineering through automation, DataOps, pipelines, cloud platforms, and portfolio proof."
+      "search": "DevOps to Data Engineering How DevOps, SRE, and platform engineers can turn automation, DataOps, cloud work, and portfolio projects into data engineering evidence."
     },
     {
       "id": "wiki:documentation",

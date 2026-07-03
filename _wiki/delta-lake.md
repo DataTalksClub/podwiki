@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Delta Lake"
-summary: "How DataTalks.Club podcast discussions place Delta Lake in lakehouse table-format choices, especially beside Apache Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
+summary: "How podcast discussions place Delta Lake in lakehouse table-format choices beside Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
 related:
   - Apache Iceberg
   - Data Lake
@@ -24,8 +24,8 @@ and cost.
 [[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[Apache Iceberg]] is a table format over Parquet storage, and storage and
 compute separate from access, metadata, and lineage. DLT already serves headless
-Delta Lake and is working on similar Iceberg support, and Delta Lake, Hudi, and
-Iceberg are related table-format options
+Delta Lake and is working on similar Iceberg support. Delta Lake, Hudi, and
+Iceberg appear as related table-format options
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
 For architecture decisions, use
@@ -35,13 +35,12 @@ beside this page. For the direct format comparison, use
 
 ## Lakehouse Table Layer
 
-The lakehouse stack is covered end to end in
-[[book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse=>Data Engineering with Apache Spark, Delta Lake, and Lakehouse]]
-by Manoj Kukreja, which treats Delta Lake as the table format above Spark and
-open storage.
+Manoj Kukreja covers the lakehouse stack end to end in
+[[book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse=>Data Engineering with Spark and Delta Lake]].
+The book treats Delta Lake as the table format above Spark and open storage.
 
 Delta Lake belongs to the table layer of a lakehouse. Files and compute aren't
-enough; catalogs and metadata sit around the table format too, alongside access
+enough. Catalogs and metadata sit around the table format too, alongside access
 and lineage
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 That placement keeps Delta Lake close to
@@ -49,10 +48,10 @@ That placement keeps Delta Lake close to
 format can support table semantics but doesn't assign dataset ownership,
 permissions, or trust.
 
-[[person:larsalbertsson=>Lars Albertsson]] offers an older platform version of the
-same idea: raw lake storage and object storage, ingress, egress, and
-self-service SQL, with workflow engines and lakehouse architecture appearing
-alongside lineage and versioning
+[[person:larsalbertsson=>Lars Albertsson]] offers an older platform version of
+the same idea. His platform map includes raw lake storage and object storage. It
+also includes ingress, egress, and self-service SQL. Workflow engines and
+lakehouse architecture appear alongside lineage and versioning
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
 Delta Lake fits that platform story only when the team can operate the
@@ -67,9 +66,9 @@ decomposing its layers is a mistake, and tool selection should be
 requirements-led
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
-The Delta/Hudi/Iceberg comparison follows that logic. Choose the table format
-after the team names its storage and compute constraints. Catalog, governance,
-and cost constraints belong in the same decision.
+That logic also applies to the Delta/Hudi/Iceberg comparison. Choose the table
+format after the team names its storage and compute constraints. Catalog,
+governance, and cost constraints belong in the same decision.
 
 The DataTalks.Club material gives deeper coverage to
 [[Apache Iceberg]] than to Delta
@@ -88,9 +87,9 @@ existing Delta-oriented lakehouse environments.
 ## Spark Versioning and Historical Reruns
 
 [[person:roksolanadiachuk=>Roksolana Diachuk]] gives a Delta-specific operating
-example: deduplication, month-old data mistakes, risky production rewrites, and
-resource-heavy historical reruns. Delta Lake with Spark tracks data versions and
-travels back to earlier data states
+example. She describes deduplication, month-old data mistakes, risky production
+rewrites, and resource-heavy historical reruns. Delta Lake with Spark tracks
+data versions and travels back to earlier data states
 ([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
 
 Her example places Delta Lake near
@@ -112,7 +111,7 @@ portable experiments where teams still want table semantics on files.
 
 Table formats also link to
 [[orchestration]]. The same episode compares
-Airflow, Prefect, Dagster, and GitHub Actions, and workflow engines sit inside
+Airflow, Prefect, Dagster, and GitHub Actions. Workflow engines also sit inside
 scalable platform architecture
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 A Delta table is easier to justify when the surrounding jobs, tests, catalogs,
@@ -120,8 +119,9 @@ and access paths can support repeated reads and writes.
 
 ## Format Misfit
 
-Storage flexibility alone isn't enough. Warehouses, marts, and lakes differ, and
-unmanaged lakes become data swamps without governance and ownership
+Storage flexibility alone doesn't solve the problem. Warehouses, marts, and
+lakes differ, so lakes become data swamps when teams skip governance and
+ownership
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 That episode doesn't center Delta Lake, but it explains the failure mode that
 lakehouse table formats are often asked to address.

@@ -6,7 +6,7 @@ keyword: "delta lake vs apache iceberg"
 secondary_keywords:
   - delta lake
   - apache iceberg vs delta lake
-summary: "A podcast-grounded comparison of Delta Lake and Apache Iceberg as lakehouse table-format choices, centered on storage, catalogs, engines, lock-in, and platform operations."
+summary: "Compare Delta Lake and Apache Iceberg through podcast discussions of table formats, catalogs, engines, governance, lock-in, and operations."
 related_wiki:
   - Delta Lake
   - Apache Iceberg
@@ -245,4 +245,3 @@ These pages provide the surrounding context:
 - [[DataOps]]
 - [[DuckDB]]
 - [[Modern Data Stack]]
-
