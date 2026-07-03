@@ -9216,7 +9216,7 @@
       "title": "Data Science",
       "url": "/wiki/data-science/",
       "count": 1,
-      "search": "Data Science How DataTalks.Club podcast discussions frame data science: product facing modeling, analysis, experimentation, hiring signals, role ambiguity, and the boundary with ML, data engineering, and AI engineering."
+      "search": "Data Science Data science as DataTalks.Club guests frame it: decision first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
     },
     {
       "id": "wiki:data-science-careers",
@@ -9339,7 +9339,7 @@
       "title": "Data Teams",
       "url": "/wiki/data-teams/",
       "count": 1,
-      "search": "Data Teams How DataTalks.Club podcast guests describe data teams as organizational design around data work, including team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
+      "search": "Data Teams How podcast guests describe data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
     },
     {
       "id": "wiki:data-translator-role",
@@ -9349,7 +9349,7 @@
       "title": "Data Translator Role",
       "url": "/wiki/data-translator-role/",
       "count": 1,
-      "search": "Data Translator Role How DataTalks.Club guests define the data translator role: translating between business decisions and technical delivery, building trust, prototyping, handing work over, and setting boundaries with adjacent data roles."
+      "search": "Data Translator Role How DataTalks.Club guests frame the data translator role: connecting business decisions, trust, prototypes, and handoffs across data teams."
     },
     {
       "id": "wiki:data-trust-and-strategy",
@@ -9389,7 +9389,7 @@
       "title": "DataOps",
       "url": "/wiki/dataops/",
       "count": 1,
-      "search": "DataOps How DataTalks.Club podcast guests describe and practice DataOps: the operating discipline that makes changes to data pipelines, analytics workflows, and data platforms reviewable, testable, observable, and recoverable."
+      "search": "DataOps How podcast guests describe DataOps: testable, observable, recoverable changes to data pipelines, analytics workflows, and data platforms."
     },
     {
       "id": "wiki:dataops-engineer-role",
@@ -9399,7 +9399,7 @@
       "title": "DataOps Engineer Role",
       "url": "/wiki/dataops-engineer-role/",
       "count": 1,
-      "search": "DataOps Engineer Role Reference for the DataOps engineer role: whether it should be a dedicated job or a shared practice, when to hire one, and how it differs from the data engineer, platform engineer, and MLOps engineer roles."
+      "search": "DataOps Engineer Role Defines the DataOps engineer as the role that makes data pipeline changes safer to review, deploy, observe, and recover across teams."
     },
     {
       "id": "wiki:dataops-checks-for-data-pipelines",
@@ -9420,7 +9420,7 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms How DataTalks.Club podcast guests discuss DataOps platforms as the operating layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
+      "search": "DataOps Platforms How podcast guests frame DataOps platforms as a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
     },
     {
       "id": "wiki:dataops-tools",
@@ -9451,7 +9451,7 @@
       "title": "dbt",
       "url": "/wiki/dbt/",
       "count": 1,
-      "search": "dbt How DataTalks.Club guests describe dbt as warehouse side SQL transformation plus an engineering workflow for analytics models, tests, documentation, DAGs, and reviewed changes."
+      "search": "dbt dbt as warehouse side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes in the archive."
     },
     {
       "id": "wiki:deep-learning",

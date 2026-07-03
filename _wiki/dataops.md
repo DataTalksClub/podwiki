@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DataOps"
-summary: "How DataTalks.Club podcast guests describe and practice DataOps: the operating discipline that makes changes to data pipelines, analytics workflows, and data platforms reviewable, testable, observable, and recoverable."
+summary: "How podcast guests describe DataOps: testable, observable, recoverable changes to data pipelines, analytics workflows, and data platforms."
 related:
   - DataOps Platforms
   - DataOps Engineer Role

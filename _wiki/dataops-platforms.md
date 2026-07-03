@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DataOps Platforms"
-summary: "How DataTalks.Club podcast guests discuss DataOps platforms as the operating layer for reliable pipelines, CI/CD, observability, governance, and self-service data delivery."
+summary: "How podcast guests frame DataOps platforms as a shared layer for reliable pipelines, CI/CD, observability, governance, and self-service data delivery."
 related:
   - DataOps
   - DataOps Tools
@@ -26,9 +26,10 @@ DataTalks.Club guests don't treat a DataOps platform as one vendor category.
 They describe it as the practical overlap between
 [[DataOps]] and
 [[Data Engineering Platforms]].
+
 The platform makes repeatable data work easier for many teams. DataOps
-practices make that platform reviewable, testable, observable, and recoverable,
-and the person who owns that operating path across teams is the
+practices make that platform reviewable, testable, observable, and
+recoverable. The person who owns that operating path across teams is the
 [[dataops-engineer-role=>DataOps engineer]].
 Use [[self-service-data-platforms|Self-Service Data Platforms]]
 when the main question is enablement for analysts, data scientists, software
@@ -192,12 +193,13 @@ Hinc adds the infrastructure version in
 [[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 Around 23:42, he defines infrastructure as code through declarative
 configuration and reproducibility. Around 26:21, he describes the branch and
-merge-request flow, with Atlantis dry runs and applies completing the release
-path. In a DataOps platform, the same review habit should cover pipeline code,
+merge-request flow. Atlantis dry runs and applies complete the release path.
+
+In a DataOps platform, the same review habit should cover pipeline code,
 dependencies, and secrets. Environments and access workflows need review too.
 The CI/CD, testing, and deployment tool categories that fill this path are
-covered in [[DataOps Tools]]; this page
-stays on how they harden into a shared release layer.
+covered in [[DataOps Tools]]. Here, the focus is the shared release layer
+that hardens around those tools.
 
 ## Observability and Recovery
 

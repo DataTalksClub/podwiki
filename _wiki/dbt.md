@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "dbt"
-summary: "How DataTalks.Club guests describe dbt as warehouse-side SQL transformation plus an engineering workflow for analytics models, tests, documentation, DAGs, and reviewed changes."
+summary: "dbt as warehouse-side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes in the archive."
 related:
   - Analytics Engineering
   - Modern Data Stack
@@ -28,13 +28,15 @@ gives the most direct explanation in
 [[podcast:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools at 6:49-10:04]].
 She describes dbt as the tool her team uses for modeling data after it arrives
 in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
-code workflow and manages model dependencies. It builds a DAG, runs tests, and
-exposes documentation. DataTalks.Club therefore treats dbt as a practical
-bridge between analytics work and software engineering habits.
+code workflow and manages model dependencies. It builds a DAG and exposes
+documentation. Teams also use it for tests.
+
+DataTalks.Club therefore treats dbt as a practical bridge between analytics
+work and software engineering habits.
 Rui Machado and Helder Russa's
 [[book:20231106-analytics-engineering-with-sql-and-dbt=>Analytics Engineering with SQL and DBT]]
-covers the same warehouse-side SQL modeling, testing, and DAG-based project
-workflow that Victoria describes here.
+covers the same warehouse-side SQL modeling workflow. It also reinforces the
+testing and DAG-based project practices that Victoria describes here.
 
 ## Warehouse-Side Transformation
 

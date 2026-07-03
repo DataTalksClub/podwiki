@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Teams"
-summary: "How DataTalks.Club podcast guests describe data teams as organizational design around data work, including team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
+summary: "How podcast guests describe data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
 related:
   - Data Mesh
   - Data Products
