@@ -220,6 +220,13 @@ discovering data, model behavior, platform constraints, and what a regulated
 release path can absorb
 ([[cite:mlops-and-ml-engineering-in-finance|MLOps and ML Engineering in Finance]]).
 
+Software engineering research adds the process gap. CRISP-DM describes the ML
+workflow, and Agile describes software delivery. Production ML still needs one
+integrated path from requirements through testing. ML practitioners need to be
+involved while requirements, data assumptions, acceptance criteria, and test
+plans are still being shaped. Their role starts before a ticket reaches modeling
+([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
+
 Kanban plans sprints and estimates work. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).

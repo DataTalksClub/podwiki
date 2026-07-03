@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11102
+    "links": 11107
   },
   "nodes": [
     {
@@ -36266,6 +36266,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "wiki-chip",
       "weight": 1
@@ -41151,6 +41157,12 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64706,6 +64718,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
       "kind": "wiki-chip",
       "weight": 1
@@ -72128,12 +72146,6 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "person:atitaarora",
       "kind": "wiki-chip",
       "weight": 1
@@ -72201,6 +72213,12 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76022,6 +76040,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "person:nadianahar",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "person:raphaelhoogvliets",
       "kind": "wiki-chip",
       "weight": 1
@@ -76113,6 +76137,12 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },

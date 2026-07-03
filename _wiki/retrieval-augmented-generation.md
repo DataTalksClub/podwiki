@@ -12,7 +12,7 @@ related:
 
 RAG, short for retrieval-augmented generation, is an LLM application design
 where the system searches external knowledge before asking the model to answer.
-RAG isn't model memory. It combines [[search]] and
+It differs from model memory because it combines [[search]] and
 [[information retrieval]]
 with context packaging, generation, citation, and
 [[llm-evaluation-workflows=>LLM evaluation]].
@@ -50,29 +50,30 @@ prompting don't fix.
 ## Boundaries and Escalation
 
 The guests differ most on how much engineering should surround retrieval.
-[[person:atitaarora=>Atita Arora]] starts from search engineering, emphasizing
-retrieval quality, context design, citations, and human review. In that framing,
-RAG extends production search instead of replacing it
+[[person:atitaarora=>Atita Arora]] starts from search engineering. She
+emphasizes retrieval quality and context design, plus citations and human review.
+In that framing, RAG extends production search instead of replacing it
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts from practical LLM
-engineering, presenting RAG as a quick business win that depends on a knowledge
-base, chunking, and embeddings that fit the task
+engineering and presents RAG as a quick business win. The win depends on a
+task-fit knowledge base, chunking approach, and embedding setup
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 Teams move from RAG to tools or
 [[agent-engineering=>agents]] when the application
 must take actions, query APIs, or coordinate multiple steps.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] is more cautious about treating RAG
-as solved, pushing back on the idea that RAG is dead: latency, cost, noisy
-context, and garbage-in-garbage-out still matter. Retrieval sits inside agentic
-systems as one tool among others, and knowledge lookup that RAG can handle is
-separate from workflows that need planning or actions
+as solved. She pushes back on the idea that RAG is dead because latency and cost
+still matter, along with noisy context and garbage-in-garbage-out. Retrieval can
+sit inside agentic systems as one tool among others. Knowledge lookup that RAG
+can handle is separate from workflows that need planning or actions
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
-[[person:lavanyagupta=>Lavanya Gupta]] adds the long-context research view: long
-context can still degrade on specialized documents, so chunking, retrieval, and
-summarization remain useful even when a model advertises a large context window
+[[person:lavanyagupta=>Lavanya Gupta]] adds the long-context research view,
+where long context can still degrade on specialized documents. Chunking,
+retrieval, and summarization remain useful even when a model advertises a large
+context window
 ([[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]).
 
 ## Retrieval and Context Design
@@ -86,10 +87,9 @@ When a question arrives, the system retrieves candidates and builds a context
 window. It can also filter or rerank candidates. Then it asks the model to answer
 and returns citations when readers need to check source evidence.
 
-A transcript example shows why chunk design is part of the user experience:
-chunking and overlap, embedding models, and vectorization all matter, and
-retrieval connects with augmentation and generation alongside prompt design and
-citations
+A transcript example shows why chunk design is part of the user experience.
+Chunking, overlap, embedding models, and vectorization all matter. Retrieval
+connects with augmentation, generation, prompt design, and citations
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 For this wiki, a useful chunk should preserve the episode and guest. It should
@@ -97,18 +97,25 @@ also keep the timestamp, title, speaker context, and nearby section. A chunk
 without provenance can help the model sound fluent, but it can't support a wiki
 claim.
 
-A complementary engineering version compares fixed-length chunks, sliding
-windows, and context rotation. Failure analysis also matters for retrieval:
-teams should categorize errors and fix retrieval failures before spending time
+A complementary engineering version compares fixed-length chunks with sliding
+windows and context rotation. Failure analysis also matters for retrieval. Teams
+should categorize errors and fix retrieval failures before spending time
 polishing prompts
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
+That makes RAG part of the broader AI engineering skill stack rather than a
+standalone embedding step. In Paul Iusztin's framing, RAG and knowledge
+management belong together. The engineer has to decide what knowledge to capture
+and how to organize it for retrieval. Engineers also have to preserve provenance
+as retrieved context reaches the model
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+
 ## Embeddings, Search, and Knowledge Graphs
 
-RAG often uses vector search, but RAG isn't reducible to a
+RAG often uses vector search without being reducible to a
 [[vector-databases=>vector database]]. Vector databases such as Qdrant provide
-plug-and-play vector search infrastructure, and putting vectors into an existing
-search stack is one option against using a standalone vector database
+plug-and-play vector search infrastructure. Teams can also put vectors into an
+existing search stack instead of adopting a standalone vector database
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 The right choice depends on the current search system and migration risk.
@@ -118,24 +125,24 @@ covers that retrieval-stack choice in more detail.
 
 [[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]],
 with [[person:reemmahmoud|Reem Mahmoud]], adds the broader search architecture.
-Vector search works through shared embedding representations, and hybrid search
-brings in more: vector similarity still has to work with filters, recency,
-popularity, and business constraints.
+Vector search works through shared embedding representations. Hybrid search adds
+filters, recency, popularity, and business constraints to similarity.
 
-Vector database selection is its own decision, comparing monolithic search
-systems with specialized vector databases
+Vector database choice compares search systems with specialized vector databases
 ([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
 
-[[person:anahitapakiman=>Anahita Pakiman]] adds a structured-retrieval alternative,
-connecting knowledge graphs with LLM grounding and RAG, contrasting text chunking
-and embeddings with graph semantics, and using prompt templates and Cypher-driven
-retrieval
-([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]).
-These examples belong with
-[[Graph RAG vs Vector RAG]]
-and [[Knowledge Graph vs Vector Search]]
-because some domains need nearest-neighbor text chunks while others need
-explicit relationships.
+Anahita Pakiman adds graph retrieval for domains where chunks are too weak.
+
+Knowledge graphs ground LLM answers through explicit relationships
+([[cite:knowledge-graphs-and-llms-for-automotive-rnd|KG and LLMs]]).
+
+Cypher-driven retrieval can then replace or complement text chunking and
+embedding similarity.
+
+Those examples belong with [[Graph RAG vs Vector RAG]]
+and [[Knowledge Graph vs Vector Search]].
+Some domains need nearest-neighbor text chunks. Others need explicit
+relationships.
 
 ## Evaluation and Failure Analysis
 
@@ -147,12 +154,12 @@ evidence badly or because the answer overstates what the sources support.
 RAG evaluation is multi-level and includes human-in-the-loop review
 ([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 As an engineering workflow, this means representative gold tests and failure
-categories so teams can locate the next fix, which may belong in retrieval,
-prompting, formatting, or data preparation
+categories. Teams use them to locate the next fix. The fix may belong in
+retrieval, prompting, formatting, or data preparation
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-For agentic RAG, teams need custom datasets and system benchmarks, not only
-public model benchmarks, plus tests that mock tools and check integration
+For agentic RAG, teams need custom datasets and system benchmarks. Public model
+benchmarks aren't enough, and tests should mock tools and check integration
 behavior
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 That applies when retrieval is one tool inside a larger
@@ -169,15 +176,15 @@ modes when the retriever misses the right document or returns noisy context.
 RAG decisions sit inside broader
 [[llm-production-patterns=>LLM production]]
 tradeoffs. Prototypes that use hosted APIs contrast with production cases that
-may need open-source models for control, and latency and cost tradeoffs surround
+may need open-source models for control. Latency and cost tradeoffs surround
 self-hosting, hardware, and serving
 ([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
-Long context and agents don't remove latency, cost, source quality, or
-context-noise problems
+Long context and agents don't remove latency or cost. They also leave
+source-quality and context-noise problems
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 A four-step agent framework starts with the problem and then moves to data and
-evaluation, and RAG design should start in the same order
+evaluation. RAG design should start in the same order
 ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 ## Security and Governance
@@ -190,9 +197,8 @@ retrieval time.
 
 The RAG-specific evidence centers on grounding and verification. Retrieval
 supports changing knowledge and grounded responses
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]),
-while trust, hallucination, and verification limits constrain LLM-extracted
-knowledge
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Trust, hallucination, and verification limits constrain LLM-extracted knowledge
 ([[podcast:knowledge-graphs-and-llms-for-automotive-rnd|Knowledge Graphs and LLMs for Automotive R&D]]).
 These concerns place RAG near
 [[Responsible AI and Governance]]

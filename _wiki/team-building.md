@@ -185,6 +185,20 @@ Managers need their counterparts, and individual contributors need regular
 alignment with the people building or using the product. Those teams use shared
 OKRs and planning rhythms to move toward the same goals
 ([[podcast:data-science-team-structure-and-org-design|18:43-24:03]]).
+
+[[person:nadianahar=>Nadia Nahar]] adds the software-engineering-for-ML version
+of that operating habit
+([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
+ML teams inherit uncertainty from data quality, model behavior, software
+systems, and business requirements. Alignment can't depend only on handoffs
+between specialists.
+
+A shared vocabulary and clear documentation give data scientists and software
+engineers a common language. They can use it with product and domain partners to
+discuss requirements, failure modes, and ownership. Explicit expectations make
+those agreements usable during planning and review. They also support onboarding
+and growth because new teammates can learn how the team defines artifacts,
+responsibilities, and engineering quality.
 This is the org-design side of [[data teams]]
 and [[communication]].
 

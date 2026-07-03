@@ -208,6 +208,18 @@ A batch analytical pipeline is the default starting point. It ingests data from
 an API or public dataset and preserves the raw copy. It then models cleaned and
 serving tables before publishing a dashboard or analyst-ready table.
 
+An e-commerce version is especially reviewable because it includes orders,
+products, customers, and sessions. Those entities create natural questions
+about grain and marts, and they also expose late events and deduplication.
+
+Andreas Kretz uses an e-commerce pipeline with Kaggle data as a hands-on
+project example. He then advises learners to start with small datasets and
+iterate
+([[cite:production-ml-pipelines-with-aws-and-kafka|Production ML Pipelines with AWS and Kafka]]).
+The interview story can then focus on source behavior and the consumer table.
+It can also cover the first failure and next scaling step. Dataset size doesn't
+have to be the evidence.
+
 Kwong's
 ingestion and mart discussion supports that junior signal
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
