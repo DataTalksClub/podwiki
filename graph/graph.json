@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11211
+    "links": 11210
   },
   "nodes": [
     {
@@ -8499,6 +8499,16 @@
       "keyword": "algorithmic trading"
     },
     {
+      "id": "wiki:analytics-engineering-portfolio-projects",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Analytics Engineer Portfolio",
+      "title": "Analytics Engineer Portfolio",
+      "url": "/wiki/analytics-engineering-portfolio-projects/",
+      "count": 1,
+      "search": "Analytics Engineer Portfolio Project ideas for showing SQL modeling, metric ownership, dbt tests, documentation, BI readiness, and stakeholder judgment."
+    },
+    {
       "id": "wiki:analytics-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -8507,16 +8517,6 @@
       "url": "/wiki/analytics-engineering/",
       "count": 1,
       "search": "Analytics Engineering How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI ready data products."
-    },
-    {
-      "id": "wiki:analytics-engineering-portfolio-projects",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Analytics Engineering Portfolio Projects",
-      "title": "Analytics Engineering Portfolio Projects",
-      "url": "/wiki/analytics-engineering-portfolio-projects/",
-      "count": 1,
-      "search": "Analytics Engineering Portfolio Projects Guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt style tests, documentation, BI readiness, and stakeholder judgment."
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -8770,16 +8770,6 @@
       "url": "/wiki/computer-vision/",
       "count": 1,
       "search": "Computer Vision DataTalks.Club discussions on computer vision as applied perception: images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
-    },
-    {
-      "id": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Consultant or Freelancer to Data Product Founder",
-      "title": "Consultant or Freelancer to Data Product Founder",
-      "url": "/wiki/consultant-or-freelancer-to-data-product-founder/",
-      "count": 1,
-      "search": "Consultant or Freelancer to Data Product Founder How podcast guests turn repeated consulting and freelance data problems into reusable data products, open source products, and startup paths."
     },
     {
       "id": "wiki:context-engineering",
@@ -9829,25 +9819,14 @@
       "search": "Hiring Podcast backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
     },
     {
-      "id": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "How to Become a Data Engineer With No Experience",
-      "title": "How to Become a Data Engineer With No Experience",
-      "url": "/wiki/how-to-become-a-data-engineer-with-no-experience/",
-      "count": 1,
-      "search": "How to Become a Data Engineer With No Experience A practical transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent role paths.",
-      "keyword": "how to become a data engineer with no experience"
-    },
-    {
       "id": "wiki:how-to-build-data-pipelines",
       "type": "wiki",
       "collection": "wiki",
-      "label": "How to Build Data Pipelines That People Can Trust",
-      "title": "How to Build Data Pipelines That People Can Trust",
+      "label": "How to Build Data Pipelines",
+      "title": "How to Build Data Pipelines",
       "url": "/wiki/how-to-build-data-pipelines/",
       "count": 1,
-      "search": "How to Build Data Pipelines That People Can Trust A guide to building data pipelines with ingestion, transformation, orchestration, contracts, testing, observability, and last mile activation.",
+      "search": "How to Build Data Pipelines Build data pipelines from consumer needs through ingestion, modeling, orchestration, testing, observability, and activation.",
       "keyword": "build data pipelines"
     },
     {
@@ -10051,11 +10030,11 @@
       "id": "wiki:llm-tools",
       "type": "wiki",
       "collection": "wiki",
-      "label": "LLM Tools: How to Choose the Right Stack for Real Products",
-      "title": "LLM Tools: How to Choose the Right Stack for Real Products",
+      "label": "LLM Tools for Real Products",
+      "title": "LLM Tools for Real Products",
       "url": "/wiki/llm-tools/",
       "count": 1,
-      "search": "LLM Tools: How to Choose the Right Stack for Real Products A practical guide to choosing LLM tools for production workflows, including model APIs, open source models, RAG, evaluation, agents, observability, and cost trade offs.",
+      "search": "LLM Tools for Real Products Choose LLM tools for real products across model APIs, open source models, RAG, evaluation, agents, observability, cost, and review.",
       "keyword": "llm tools"
     },
     {
@@ -10488,6 +10467,17 @@
       "search": "NLP How DataTalks.Club guests discuss natural language processing across language data, annotation, LLMs, speech, search, and production systems."
     },
     {
+      "id": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "No-Experience Data Engineer",
+      "title": "No-Experience Data Engineer",
+      "url": "/wiki/how-to-become-a-data-engineer-with-no-experience/",
+      "count": 1,
+      "search": "No Experience Data Engineer Learn the first SQL and Python skills, portfolio pipeline, transition story, interview prep, and CV proof for an entry data engineer path.",
+      "keyword": "how to become a data engineer with no experience"
+    },
+    {
       "id": "wiki:nontraditional-paths-to-ai-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -10911,6 +10901,16 @@
       "url": "/wiki/sensor-ml-personal-baselines/",
       "count": 1,
       "search": "Sensor ML with Personal Baselines A portfolio project pattern for sensor machine learning where anomaly detection depends on each subject's long term baseline rather than a global average."
+    },
+    {
+      "id": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Services to Product Founder",
+      "title": "Services to Product Founder",
+      "url": "/wiki/consultant-or-freelancer-to-data-product-founder/",
+      "count": 1,
+      "search": "Services to Product Founder How consultants and freelancers turn repeated data problems into reusable products, open source tools, or startup paths."
     },
     {
       "id": "wiki:simulation-and-digital-twins",
@@ -26614,12 +26614,6 @@
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering-portfolio-projects",
-      "target": "wiki:portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },

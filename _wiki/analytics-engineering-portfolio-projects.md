@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Analytics Engineering Portfolio Projects"
-summary: "Guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
+title: "Analytics Engineer Portfolio"
+summary: "Project ideas for showing SQL modeling, metric ownership, dbt tests, documentation, BI readiness, and stakeholder judgment."
 related:
   - Portfolio Projects
   - Analytics Engineering
@@ -13,31 +13,26 @@ related:
   - Job Search
 ---
 
-An analytics engineering portfolio project is evidence that a candidate can turn
-messy source data into reusable models. It also shows shared metric definitions
-and a trusted analytical surface.
+An analytics engineer portfolio should show how a candidate turns messy source
+data into reusable models, shared metric definitions, and a trusted analytical
+surface.
 
-The strongest projects go beyond SQL or a dashboard because they explain table
-grain and modeled layers. They add tests and BI consumption around those
-definitions. They also show the business question behind the model.
+Strong projects go beyond SQL or a dashboard. They explain table grain and
+modeled layers, add tests, and show how BI consumers use the definitions. They
+also show the business question behind the model.
 
-Analytics engineering is daily work around data modeling, data
-quality, dbt transformations, and Looker exposure
+Analytics engineering combines data modeling, data quality, dbt transformations,
+and Looker exposure
 ([[podcast:analytics-engineer-skills-tools|4:05-10:04]]).
 
-This project checklist is one branch of the broader
-[[Portfolio Projects]] hub. It
-sits beside the broader
-[[Analytics Engineering]]
-role page, the
-[[Analytics Engineering Roadmap]],
-and the implementation-focused
-[[Dashboard and Metric Layer Project Checklist]].
-For ingestion, orchestration, and platform-heavy work, use
-[[Data Engineering Portfolio Projects]].
+Use this page for project ideas focused on reusable models and handoff. For the
+broader role, start with [[Analytics Engineering]] and
+[[Analytics Engineering Roadmap]]. For dashboard implementation, use
+[[Dashboard and Metric Layer Project Checklist]]. For ingestion, orchestration,
+and platform-heavy work, use [[Data Engineering Portfolio Projects]].
 
-The model should make business reality
-match the data, and engineering discipline should make that representation safer
+A strong model makes business reality match the data. Engineering discipline
+makes that representation safer
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role at 11:03 and 46:34]]).
 
 ## Reviewable Analytics Project

@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: ["roadmap"]
-title: "How to Become a Data Engineer With No Experience"
+title: "No-Experience Data Engineer"
 keyword: "how to become a data engineer with no experience"
-summary: "A practical transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent-role paths."
+summary: "Learn the first SQL and Python skills, portfolio pipeline, transition story, interview prep, and CV proof for an entry data engineer path."
 search_intent: "People searching for how to become a data engineer with no experience want a practical beginner path: which skills to learn first, what portfolio project proves readiness, how to explain adjacent experience, and how to prepare for interviews."
 related_wiki:
   - Data Engineer Role
@@ -372,4 +372,3 @@ The beginner path connects to these roadmap, portfolio, and job-search topics:
 - [[Data Engineer vs Data Scientist]]
 - [[Analytics Engineering]]
 - [[Data Engineer Roadmap]]
-

@@ -1,9 +1,9 @@
 ---
 layout: article
 tags: ["how-to"]
-title: "How to Build Data Pipelines That People Can Trust"
+title: "How to Build Data Pipelines"
 keyword: "build data pipelines"
-summary: "A guide to building data pipelines with ingestion, transformation, orchestration, contracts, testing, observability, and last-mile activation."
+summary: "Build data pipelines from consumer needs through ingestion, modeling, orchestration, testing, observability, and activation."
 search_intent: "Help readers who search for how to build data pipelines understand the practical build sequence, tradeoffs, and reliability practices using DataTalks.Club podcast evidence."
 related_wiki:
   - Data Engineering Platforms
