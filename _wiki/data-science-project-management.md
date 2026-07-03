@@ -213,6 +213,13 @@ to manage ML work. Grooming practices and iterative milestones keep the work
 from pretending it behaves like ordinary feature delivery
 ([[podcast:data-science-management-and-agile-machine-learning|Data Science Management and Agile Machine Learning]]).
 
+Finance MLOps work shows the same limit. Agile rituals can coordinate delivery,
+but ML projects still need prototyping and iterative groundwork before the team
+treats a plan as stable. The uncertainty isn't only task estimation. The team is
+discovering data, model behavior, platform constraints, and what a regulated
+release path can absorb
+([[cite:mlops-and-ml-engineering-in-finance|MLOps and ML Engineering in Finance]]).
+
 Kanban plans sprints and estimates work. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
 ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).

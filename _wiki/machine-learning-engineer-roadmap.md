@@ -18,8 +18,8 @@ A machine learning engineer roadmap should lead to a model-backed system that
 you can test and deploy. You should also be able to monitor it and change it
 when source data or serving constraints change. Model work is separate from
 online and batch serving
-([[podcast:data-team-roles|Data Team Roles Explained]]), and that split makes
-this path different from a data science study plan.
+([[podcast:data-team-roles|Data Team Roles Explained]]).
+That split makes this path different from a data science study plan.
 
 You still need modeling, metrics, and data understanding. You also need
 [[software engineering]],
@@ -43,7 +43,7 @@ A machine learning engineer turns model work into usable software. The model is
 only one part of the job. You also need input data, validation, and inference
 code. Add a serving path, logs, tests, and a recovery plan for model failures.
 
-Production ML connects to maintainability, modular code, and tests, and SQL or
+Production ML connects to maintainability, modular code, and tests. SQL or
 statistics can come before deep learning when that solves the problem
 ([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
 Start with simple systems that work. A baseline with tests and monitoring is
@@ -60,10 +60,16 @@ decision.
 ## Stage 1: Python, SQL, and Baselines
 
 Start with Python, SQL, and ML fundamentals, then move quickly into projects.
-Projects should come early, with Python plus NumPy, pandas, and scikit-learn as
-practical foundations, expanding into data pipelines, deployment, and monitoring
+Use Python with NumPy and pandas as practical foundations, and add scikit-learn
+before data pipelines, deployment, and monitoring
 ([[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]]).
 APIs, Docker, and cloud basics come after you can train and evaluate a model.
+
+Don't treat those infrastructure skills as optional extras. In finance-focused
+ML engineering, Python and Linux sit alongside networking, cloud basics, and
+stakeholder work. The engineer has to move a model through real deployment
+constraints, not just improve notebook metrics
+([[cite:mlops-and-ml-engineering-in-finance|MLOps and ML Engineering in Finance]]).
 
 Learn these pieces in order:
 
@@ -90,9 +96,9 @@ search, ranking, or forecasting problem. Define the decision the model
 supports, keep the model simple enough to explain, and document the baseline
 and error cases.
 
-System design starts with goals, constraints, and a design document, which
-includes metrics, baselines, and data strategy, plus diagrams, dependencies, and
-a batch-versus-real-time choice
+System design starts with goals and constraints, then turns them into a design
+document. That writeup should cover metrics, baselines, and data strategy. It
+should also show diagrams, dependencies, and a batch-versus-real-time choice
 ([[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]]).
 
 Use this progression:
@@ -113,13 +119,13 @@ and
 
 Interview readiness comes from being able to explain the system, not from
 memorizing every model family. ML system design differs from software system
-design: the ML version adds labels, class imbalance, validation, and baselines,
-along with monitoring, shift, fallbacks, and serving boundaries
+design because the ML version adds labels, class imbalance, validation, and
+baselines. It also adds monitoring, shift, fallbacks, and serving boundaries
 ([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]]).
 
 Metrics, baselines, and [[a-b-testing|A/B testing]] connect to rollout
-decisions, followed by features, labels, validation, monitoring, and fallback
-behavior
+decisions. Features and labels come next, along with validation, monitoring, and
+fallback behavior
 ([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]]).
 Use
 [[Machine Learning System Design Interview]]
@@ -146,7 +152,7 @@ debugging
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 The team-scale version focuses on CI, testing, repo structure, and
-reproducibility, and adds adoption and developer experience
+reproducibility. It also adds adoption and developer experience
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
 Senior project evidence includes:
@@ -170,7 +176,7 @@ data, plus incident habits and business-facing metrics. Those signals help the
 team decide whether to retrain, roll back, or leave the model alone.
 
 On the incident side, incident prep and postmortems become part of production
-ML, while feature drift, logging, and reproducibility make the system auditable
+ML. Feature drift, logging, and reproducibility make the system auditable
 ([[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
 
 Use

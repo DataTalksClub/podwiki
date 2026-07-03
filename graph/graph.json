@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11092
+    "links": 11097
   },
   "nodes": [
     {
@@ -24356,6 +24356,12 @@
     },
     {
       "source": "wiki:ai-for-finance-decision-support",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
       "kind": "wiki-chip",
       "weight": 1
@@ -41120,6 +41126,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "podcast:production-ml-mlops-and-data-team-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -56636,6 +56648,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-chip",
       "weight": 1
@@ -58221,6 +58239,12 @@
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60741,6 +60765,12 @@
     {
       "source": "wiki:ml-platforms",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-chip",
       "weight": 1
     },

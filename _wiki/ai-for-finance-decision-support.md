@@ -113,6 +113,13 @@ just faster analysis. It names compliance, explainability, and trust as part of
 the finance AI framing
 ([[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making]]).
 
+Finance ML in regulated settings broadens the same point beyond planning.
+Compliance work and AML or fraud detection still support decisions. The same
+holds for smart document automation. The model's output has to fit review paths
+plus controls and audit evidence. It shouldn't only produce a score or extracted
+field
+([[cite:mlops-and-ml-engineering-in-finance|MLOps and ML Engineering in Finance]]).
+
 The human-centered implication is that finance users need to understand why an
 insight appeared, what data contributed to it, and where the system's limits
 are. A black-box recommendation would reproduce the same trust problem that
