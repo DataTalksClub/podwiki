@@ -127,15 +127,13 @@ direction.
 
 Community gives feedback a place to happen. Erum's Omdena discussion around
 22:29 covers live sessions, selection, and graduation. Around 37:26, she
-connects communities to skill discovery and faster learning. DataTalks.Club's
-own community episode adds the same structure. Events, office hours, answered
+connects communities to skill discovery and faster learning.
+
+DataTalks.Club's own community episode adds the same structure. Events, office hours, answered
 questions, and mentors make learning more durable than a course watched
-alone.
-
-Community accelerates software-to-ML learning.[[cite:from-software-engineer-to-machine-learning|Software to ML|20:38]]
-
-Peer groups keep long-term progress from becoming solitary work because ML
-peers give learners a place to test ideas and get feedback.
+alone. Community also accelerates software-to-ML learning because peer groups
+give learners a place to test ideas and get feedback
+[[cite:from-software-engineer-to-machine-learning|Software to ML|20:38]].
 
 Teaching becomes part of the same feedback loop. Writing about a new topic,
 explaining it in public, and taking questions forces the learner to check what
@@ -225,6 +223,12 @@ practice, feedback, and visible work. Irina's learner moving into analytics
 needs SQL, visualization, product context, and communication. Jeff's learner
 moving into data engineering needs Python, SQL, and data modeling. They also
 need cloud basics and interview practice.
+
+DataTalks.Club's free-course model keeps the same access principle while
+adapting the curriculum to current demand. The course portfolio stays free to
+learn. Newer LLM/RAG material extends the project-based teaching model into AI
+engineering topics [[cite:datatalksclub-scaling-and-free-courses|Scaling Free Courses|12:04]]
+[[cite:datatalksclub-scaling-and-free-courses|Scaling Free Courses|29:14]].
 
 Alexander's learner moving into ML needs problem framing, validation, system
 design, and engineering quality.

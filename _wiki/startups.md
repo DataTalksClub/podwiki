@@ -193,7 +193,11 @@ commercialization, user interviews, and real engagement
 [[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
 GitHub stars can help discovery, but they don't replace proof that developers
-use the tool. They also don't prove that a business can capture value.
+use the tool. They also don't prove that a business can capture value. Rich and
+Textualize show a more complete path. Visible open-source traction can start
+investor conversations when the tool has a developer audience and a credible
+product direction
+[[cite:open-source-turned-into-career-and-startup-creation|Textualize from Open Source to Startup|28:08]].
 
 ## Services, Side Projects, and Startup Careers
 

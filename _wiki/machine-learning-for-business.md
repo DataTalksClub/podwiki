@@ -318,6 +318,13 @@ expectations complete the launch agreement
 Stakeholders need that pre-launch agreement before they can trust the useful
 outputs and the failure plan.
 
+[[person:jackblandin=>Jack Blandin]] gives the applied-leadership version. Fast
+POCs and user-facing prototypes help business teams understand what ML will
+change before they commit resources. A churn model is useful only when the
+output gives the business a concrete action. Raw accuracy isn't enough
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML|20:48]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML|34:09]].
+
 For teams building this capability, the [[Data Product Manager Roadmap]] is the
 closest learning path for discovery and metrics. It also covers roadmaps and
 adoption. The

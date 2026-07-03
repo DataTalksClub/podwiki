@@ -76,6 +76,11 @@ outcome shows first place matters less than a technical writeup. The writeup
 needs findings, features, and enough novelty for a research audience
 ([[podcast:s24e01-competitions-beyond-kaggle-leaderboard|Competitions: Beyond the Kaggle Leaderboard]]).
 
+Portfolio value can also come from creating a useful dataset rather than only
+competing on an existing leaderboard. A high-impact Kaggle dataset can become
+public proof of data collection, task framing, and licensing judgment
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research in Practice|33:24]].
+
 ## Competition Types Beyond Kaggle
 
 Kaggle remains useful for beginners because it has active notebooks, discussion,

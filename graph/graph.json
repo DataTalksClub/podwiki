@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11193
+    "links": 11204
   },
   "nodes": [
     {
@@ -27510,6 +27510,12 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "podcast:big-data-analytics-and-postdoc-research",
       "kind": "wiki-chip",
       "weight": 1
@@ -30895,6 +30901,12 @@
     {
       "source": "wiki:competitions-beyond-kaggle",
       "target": "person:tatianagabruseva",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "article-chip",
       "weight": 1
     },
@@ -43290,6 +43302,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "person:sadatanwar",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "person:stefangudmundsson",
       "kind": "wiki-chip",
       "weight": 1
@@ -43345,6 +43363,12 @@
     {
       "source": "wiki:data-team-lead-role",
       "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48139,6 +48163,12 @@
     {
       "source": "wiki:entrepreneurship",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:open-source-turned-into-career-and-startup-creation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57606,6 +57636,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "person:jackblandin",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "person:jakobgraff",
       "kind": "article-chip",
       "weight": 1
@@ -57733,6 +57769,12 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
       "kind": "article-chip",
       "weight": 1
     },
@@ -60780,6 +60822,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "podcast:solopreneur-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -63757,6 +63805,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75738,6 +75792,12 @@
     },
     {
       "source": "wiki:startups",
+      "target": "podcast:open-source-turned-into-career-and-startup-creation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:startups",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -76309,6 +76369,12 @@
     {
       "source": "wiki:teaching",
       "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
       "kind": "wiki-chip",
       "weight": 1
     },

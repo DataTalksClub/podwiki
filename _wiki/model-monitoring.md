@@ -99,6 +99,12 @@ pipelines, and to upstream root causes
 ([[person:dannyleybzon|Danny Leybzon]],
 [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
+Monitoring is also a retraining input because drift and fairness signals can
+trigger retraining decisions. Monitoring output can become new training data
+when the team has a production feedback path
+[[cite:mlops-kubeflow-model-monitoring|Kubeflow Model Monitoring|11:17]]
+[[cite:mlops-kubeflow-model-monitoring|Kubeflow Model Monitoring|33:27]].
+
 That link is why model monitoring and
 [[data-quality-and-observability=>data observability]] overlap.
 The model team needs model-specific signals, but many failures start in

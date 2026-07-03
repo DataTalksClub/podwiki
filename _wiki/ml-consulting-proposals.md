@@ -293,6 +293,13 @@ Concepts and written analysis can be part of that output. For productionizing
 work, the consultant may run workshops, analyze the current situation, and tell
 the company what to work on.
 
+Generative AI consulting can use the same scoped-offer structure. Workshops and
+use-case discovery help a client decide where GenAI belongs before
+implementation starts. The pitch deck and rates still have to tie the offer to
+client value. The consultant's favorite technology isn't enough
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|32:07]]
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact|Generative AI Consulting|39:03]].
+
 That consulting structure is closer to
 [[data product management]]
 than to staff augmentation. It's also close to

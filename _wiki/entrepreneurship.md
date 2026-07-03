@@ -163,6 +163,13 @@ bottom-up adoption by engineers, and data-safety concerns. The guests don't
 treat open source as generosity alone. It's a trust and distribution mechanism
 for technical buyers.
 
+Textualize adds a hosted developer-tool model. A broadly useful terminal-app
+framework can stay free to use while the company monetizes hosted deployment
+and a generous free tier. The Streamlit comparison matters because positioning
+helps developers understand the product category before they adopt it
+[[cite:open-source-turned-into-career-and-startup-creation|Textualize hosted terminal apps|38:32]]
+[[cite:open-source-turned-into-career-and-startup-creation|Textualize positioning|41:33]].
+
 Brudaru's DLT story shows the day-to-day operating work behind that model.
 Around 41:23-55:10 in
 [[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]],

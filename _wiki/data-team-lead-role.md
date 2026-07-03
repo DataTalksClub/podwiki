@@ -151,6 +151,17 @@ influence without authority matter too. Stakeholder framing and empathy matter
 as well
 ([[podcast:data-leadership-coaching|Data Leadership Coaching: IC-to-lead transition and stakeholder influence at 6:17-50:23]]).
 
+[[person:sadatanwar=>Sadat Anwar]] adds the software-engineering-to-data-lead
+path. The move from engineering manager into data science management changes
+the work surface. The role moves away from hands-on coding. It moves toward
+conflict resolution and hiring.
+
+It also moves toward business metrics, stakeholder influence, and team-health
+measurement. The managerial evidence has to be documented before interviews.
+Leadership impact is harder to show than shipped code
+[[cite:from-software-engineering-to-leading-data-science-teams|Software Engineer to Data Science Manager|25:11]]
+[[cite:from-software-engineering-to-leading-data-science-teams|Software Engineer to Data Science Manager|57:34]].
+
 [[person:marianosemelman=>Mariano Semelman]] frames
 new-manager onboarding as deliberate learning before intervention. A new data
 science lead needs an explicit first month of relationship-building, team

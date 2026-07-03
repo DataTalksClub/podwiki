@@ -142,6 +142,13 @@ not only produce an insight. They also produce an infrastructure idea that other
 researchers or industry teams can
 evaluate.
 
+Industry applied-research teams can also publish useful benchmark work when
+managers support external sharing. Public release may still require community
+routes such as arXiv endorsement. Reproducibility includes the artifact and the
+path that lets other researchers review it
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research in Practice|17:28]]
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research in Practice|22:10]].
+
 ## Deployment Constraints Direct the Research
 
 The work changes when the deployment domain changes. In
