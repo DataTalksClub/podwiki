@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLMOps"
-summary: "The operational discipline for deploying, monitoring, evaluating, and maintaining LLM-based systems in production: model serving, prompt versioning, evaluation pipelines, drift detection, guardrails, and feedback loops."
+summary: "LLMOps covers operating LLM systems in production, from deployment and tracing to evaluation, guardrails, cost control, and feedback loops."
 related:
   - MLOps
   - LLM Production Patterns
@@ -15,13 +15,11 @@ related:
   - MLOps vs DevOps
 ---
 
-LLMOps is the operational discipline for deploying, monitoring, evaluating, and
-maintaining LLM-based systems in production. It covers model serving, prompt
-versioning, evaluation pipelines, drift detection, guardrails, and feedback
-loops. DataTalks.Club guests discuss LLMOps as the LLM-specific analogue of
-[[MLOps]], with new concerns around prompt
-caching, trace observability, LLM-as-judge evaluation, and human-in-the-loop
-quality control.
+LLMOps is the operational discipline for production LLM-based systems and their
+deployment, monitoring, evaluation, and ongoing maintenance. DataTalks.Club
+guests discuss LLMOps as the LLM-specific analogue of [[MLOps]], with concerns
+around prompt caching and trace observability. It also covers LLM-as-judge
+evaluation and human-in-the-loop quality control.
 
 The topic sits at the intersection of
 [[LLM Production Patterns]],
@@ -30,16 +28,16 @@ The topic sits at the intersection of
 
 ## Technical Pillars for Shipping AI Products
 
-In
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]],
-[[person:pauliusztin=>Paul Iusztin]] frames LLMOps as part
-of the core skills for AI engineers. At 42:28 he names creating and evaluating
-agents, building data pipelines for RAG ingestion, and knowing how to make data
-available to agents. At 46:31 he recommends LLMOps tools like Arize Phoenix for
-monitoring code and storing traces, along with LangSmith, BrainTrust, and
-LangFuse. He explains that a trace captures everything that happens between a
-request and response, while a thread is a collection of user inputs and outputs
-at 49:08.
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+includes [[person:pauliusztin=>Paul Iusztin]]'s framing of LLMOps as core AI
+engineering work. At 42:28 he names creating and evaluating agents as one skill.
+He also names building data pipelines for RAG ingestion and making data
+available to agents.
+
+At 46:31 he recommends Arize Phoenix for monitoring code and storing traces. He
+also mentions LangSmith, BrainTrust, and LangFuse. At 49:08 he explains that a
+trace captures everything that happens between a request and response. A thread
+is a collection of user inputs and outputs.
 
 Paul also recommends durable workflows like Prefect or Dagster for orchestrating
 agent pipelines at 45:49. These provide queues and retries, making code
@@ -55,15 +53,17 @@ In
 governance directly to MLOps. At 30:26 he links guardrails and data lineage to
 what he calls Agent MLOps. He explains that companies need to understand what
 each agent is doing and how user data is processed. You need to ensure retention
-and data lineage. At 35:58 he emphasizes that more than cost, you need to
-understand where your data has gone: one entry point agent sends it to another,
-which may put it into a database, and an external offline workflow may process
-user data. Lineage and visibility are crucial for regulated environments.
+and data lineage.
+
+At 35:58 he emphasizes that cost isn't the only concern. Teams also need to
+understand where user data has gone. One entry point agent may send it to
+another agent, put it into a database, or pass it to an external offline
+workflow. Lineage and visibility are essential for regulated environments.
 
 Aditya also covers infrastructure and deployment risks at 56:40. He notes that
-agents are basically microservices with non-deterministic LLMs, so they should
-be replicable on Kubernetes clusters. At 57:47 he says there is no reason agent
-deployment cannot be done on Kubernetes, which handles managing services and
+agents are microservices with non-deterministic LLMs, so they should be
+replicable on Kubernetes clusters. At 57:47 he says there's no reason agent
+deployment can't be done on Kubernetes, which handles managing services and
 machines.
 
 ## Monitoring and Debuggable MVPs
@@ -77,11 +77,11 @@ generates output and another evaluates it with pass/fail scoring. At 23:00 he
 discusses gold test sets, cost, and representativeness for evaluation. At 26:43
 he uses failure analysis to decide whether retrieval needs to change.
 
-Hugo recommends evaluation tools like Braintrust, Arize, and Logfire at 51:10.
-He also describes building debuggable MVPs with logging and traces, so that when
-something goes wrong, you can inspect what happened rather than guessing from
-the final output. At 52:06 he suggests vibe coding some things first to see what
-is really happening before adding complexity.
+Hugo recommends Braintrust, Arize, and Logfire for evaluation at 51:10. He also
+describes building debuggable MVPs with logging and traces. When something goes
+wrong, teams can look at the steps rather than guessing from the final output.
+At 52:06 he suggests vibe coding some things first to see what's happening
+before adding complexity.
 
 ## Evaluation Strategy and Testing Agents
 
@@ -94,9 +94,9 @@ capability rather than your specific system. At 53:20 she discusses mocking tool
 integration tests, and regression tests for agents. She frames the agentic system
 as a software system: input gives predictable output, and you test it accordingly.
 
-At 56:02 Ranjitha emphasizes goal-based evaluation with outcome assertions over
-exact paths. LLMs can accomplish the same goal differently, so evaluation should
-focus on whether the goal was achieved rather than the exact tool-call sequence.
+At 56:02 Ranjitha emphasizes outcome assertions rather than exact paths. LLMs
+can reach a goal through different paths. Evaluation should focus on the outcome
+rather than the exact tool-call sequence.
 This connects to [[Evaluation]] and
 [[LLM Evaluation Workflows]].
 
@@ -110,11 +110,16 @@ tests: prepare an evaluation dataset with inputs and expected outputs, then
 measure how well the model performs. At some point, adding more examples stops
 improving results.
 
-At 30:00 Bartosz introduces prompt compression, creating a shorter prompt that
-does the same thing by dropping parts of words or reducing token count. At 31:45
+At 30:00 Bartosz introduces prompt compression. The method creates a shorter
+prompt by dropping parts of words or reducing token count. At 31:45
 he discusses prompt caching, where providers like Anthropic cache the shared
-beginning of prompts so you do not resend the entire codebase every time. This
-makes coding tasks cheaper. The [[book:20241104-llm-engineer-s-handbook|LLM Engineer's Handbook]] by Paul Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These techniques connect to
+beginning of prompts so you don't resend the entire codebase every time. This
+makes coding tasks cheaper.
+
+The
+[[book:20241104-llm-engineer-s-handbook|LLM Engineer's Handbook]] by Paul
+Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These
+techniques connect to
 [[LLM Cost Optimization]] and
 [[Caching]].
 
@@ -137,23 +142,24 @@ ground truth.
 
 ## Open-Source Models and Production Deployment
 
-In
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
-[[person:meryemarik=>Meryem Arik]] frames the deployment
-choice between API and open-source models as a core LLMOps decision. At 49:57 she
-recommends using API-based models like GPT-3.5 or GPT-4 for prototyping because
-you can get to demos within a day or two. In the long term, businesses move to
-open-source models for control, data privacy, lower cost, and predictable
-performance.
+[[person:meryemarik=>Meryem Arik]] frames the deployment choice between API and
+open-source models as a core LLMOps decision in
+[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+At 49:57 she recommends using API-based models like GPT-3.5 or GPT-4 for
+prototyping because you can get to demos within a day or two. In the long term,
+businesses move to open-source models for control and data privacy. They also
+seek lower cost and more predictable performance.
 
 At 18:51 she discusses model drift as an API risk: when providers change models
-under the hood, production behavior shifts unexpectedly. This is a key reason
-teams transition to self-hosted open-source models. At 51:35 she explains that
+under the hood, production behavior shifts unexpectedly. That risk pushes some
+teams toward self-hosted open-source models. At 51:35 she explains that
 self-hosting on smaller GPUs or even CPUs can be faster than hosted APIs because
 you control the inference stack. This connects to
 [[LLM Deployment]].
 
 ## Related Pages
+
+Continue with these connected LLMOps topics:
 
 - [[MLOps]]
 - [[LLM Production Patterns]]

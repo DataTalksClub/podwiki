@@ -3,7 +3,7 @@ layout: article
 tags: ["roadmap"]
 title: "Lean MLOps for Startups"
 keyword: "lean mlops for startups"
-summary: "A startup-stage roadmap for lean MLOps: SaaS-first choices, portable foundations, manual controls, versioning, evaluation, monitoring, and the point where shared infrastructure starts to pay off."
+summary: "A DataTalks.Club roadmap for startup MLOps: SaaS-first tools, portable foundations, basic controls, monitoring, and when platforms pay off."
 search_intent: "People searching for lean mlops for startups want a practical build order for shipping ML with small teams, managed services, manual controls, basic monitoring, and a clear boundary before heavier ML platforms."
 related_wiki:
   - Startups

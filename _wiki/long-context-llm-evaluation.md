@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Long-Context LLM Evaluation"
-summary: "How DataTalks.Club guests evaluate long-context LLMs, and when retrieval, chunking, summarization, or prompt compression beats simply expanding the context window."
+summary: "How DataTalks.Club guests test long-context LLMs and decide when retrieval, chunking, summarization, or prompt compression is better."
 related:
   - LLMs
   - Evaluation

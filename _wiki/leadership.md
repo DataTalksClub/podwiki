@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Leadership"
-summary: "How DataTalks.Club podcast guests describe data and AI leadership across manager, senior IC, platform, strategy, hiring, mentoring, stakeholder, and data science manager roles."
+summary: "How DataTalks.Club guests describe data and AI leadership across management, senior IC work, hiring, mentoring, platforms, and strategy."
 related:
   - Data Teams
   - Hiring

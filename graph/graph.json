@@ -9837,7 +9837,7 @@
       "title": "Industrial ML Applications",
       "url": "/wiki/industrial-ml-applications/",
       "count": 1,
-      "search": "Industrial ML Applications How DataTalks.Club podcast discussions frame production ML for physical and operational systems: fab tools, pet sensors, theme park crowds, vehicles, baselines, validation, monitoring, safety, explainability, and adoption."
+      "search": "Industrial ML Applications How podcast guests frame industrial ML: fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
     },
     {
       "id": "wiki:information-retrieval",
@@ -9897,7 +9897,7 @@
       "title": "Leadership",
       "url": "/wiki/leadership/",
       "count": 1,
-      "search": "Leadership How DataTalks.Club podcast guests describe data and AI leadership across manager, senior IC, platform, strategy, hiring, mentoring, stakeholder, and data science manager roles."
+      "search": "Leadership How DataTalks.Club guests describe data and AI leadership across management, senior IC work, hiring, mentoring, platforms, and strategy."
     },
     {
       "id": "wiki:lean-mlops-for-startups",
@@ -9907,7 +9907,7 @@
       "title": "Lean MLOps for Startups",
       "url": "/wiki/lean-mlops-for-startups/",
       "count": 1,
-      "search": "Lean MLOps for Startups A startup stage roadmap for lean MLOps: SaaS first choices, portable foundations, manual controls, versioning, evaluation, monitoring, and the point where shared infrastructure starts to pay off.",
+      "search": "Lean MLOps for Startups A DataTalks.Club roadmap for startup MLOps: SaaS first tools, portable foundations, basic controls, monitoring, and when platforms pay off.",
       "keyword": "lean mlops for startups"
     },
     {
@@ -9991,7 +9991,7 @@
       "title": "LLMOps",
       "url": "/wiki/llmops/",
       "count": 1,
-      "search": "LLMOps The operational discipline for deploying, monitoring, evaluating, and maintaining LLM based systems in production: model serving, prompt versioning, evaluation pipelines, drift detection, guardrails, and feedback loops."
+      "search": "LLMOps LLMOps covers operating LLM systems in production, from deployment and tracing to evaluation, guardrails, cost control, and feedback loops."
     },
     {
       "id": "wiki:llms",
@@ -10011,7 +10011,7 @@
       "title": "Long-Context LLM Evaluation",
       "url": "/wiki/long-context-llm-evaluation/",
       "count": 1,
-      "search": "Long Context LLM Evaluation How DataTalks.Club guests evaluate long context LLMs, and when retrieval, chunking, summarization, or prompt compression beats simply expanding the context window."
+      "search": "Long Context LLM Evaluation How DataTalks.Club guests test long context LLMs and decide when retrieval, chunking, summarization, or prompt compression is better."
     },
     {
       "id": "wiki:machine-learning",

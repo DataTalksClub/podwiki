@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Industrial ML Applications"
-summary: "How DataTalks.Club podcast discussions frame production ML for physical and operational systems: fab tools, pet sensors, theme-park crowds, vehicles, baselines, validation, monitoring, safety, explainability, and adoption."
+summary: "How podcast guests frame industrial ML: fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
 related:
   - Machine Learning
   - Machine Learning System Design
