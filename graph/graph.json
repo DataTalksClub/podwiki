@@ -8468,6 +8468,16 @@
       "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, observability, and deployment."
     },
     {
+      "id": "wiki:ai-tools-for-personal-productivity",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI Tools Workflow Guide",
+      "title": "AI Tools Workflow Guide",
+      "url": "/wiki/ai-tools-for-personal-productivity/",
+      "count": 1,
+      "search": "AI Tools Workflow Guide How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks."
+    },
+    {
       "id": "wiki:ai-powered-business-intelligence",
       "type": "wiki",
       "collection": "wiki",
@@ -8835,11 +8845,11 @@
       "id": "wiki:data-analysis",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Analysis: Practical Work, Skills, and Portfolio Projects",
-      "title": "Data Analysis: Practical Work, Skills, and Portfolio Projects",
+      "label": "Data Analysis Guide",
+      "title": "Data Analysis Guide",
       "url": "/wiki/data-analysis/",
       "count": 1,
-      "search": "Data Analysis: Practical Work, Skills, and Portfolio Projects A podcast backed guide to practical data analysis: SQL, metrics, dashboards, experiments, stakeholder communication, role boundaries, and portfolio evidence.",
+      "search": "Data Analysis Guide Practical data analysis guide covering SQL, metrics, dashboards, experiments, stakeholder communication, role boundaries, and portfolio evidence.",
       "keyword": "data analysis"
     },
     {
@@ -8919,11 +8929,11 @@
       "id": "wiki:data-engineer-roadmap",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Engineer Roadmap: From Fundamentals to Job-Ready Projects",
-      "title": "Data Engineer Roadmap: From Fundamentals to Job-Ready Projects",
+      "label": "Data Engineer Roadmap",
+      "title": "Data Engineer Roadmap",
       "url": "/wiki/data-engineer-roadmap/",
       "count": 1,
-      "search": "Data Engineer Roadmap: From Fundamentals to Job Ready Projects A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews.",
+      "search": "Data Engineer Roadmap A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews.",
       "keyword": "data engineer roadmap"
     },
     {
@@ -9253,11 +9263,11 @@
       "id": "wiki:data-science-recruiter",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates",
-      "title": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates",
+      "label": "Data Science Recruiter",
+      "title": "Data Science Recruiter",
       "url": "/wiki/data-science-recruiter/",
       "count": 1,
-      "search": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates A guide to data science recruiters and headhunters: how they screen candidates, where they help, where they can't substitute for role clarity, and how candidates can prepare.",
+      "search": "Data Science Recruiter How data science recruiters screen candidates, define role fit, work with headhunters, and help both sides avoid mismatched roles.",
       "keyword": "data science recruiter"
     },
     {
@@ -9819,16 +9829,6 @@
       "search": "Hiring Podcast backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
     },
     {
-      "id": "wiki:ai-tools-for-personal-productivity",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "How Data Professionals Integrate AI Tools Into Their Workflow",
-      "title": "How Data Professionals Integrate AI Tools Into Their Workflow",
-      "url": "/wiki/ai-tools-for-personal-productivity/",
-      "count": 1,
-      "search": "How Data Professionals Integrate AI Tools Into Their Workflow How DataTalks.Club podcast guests actually wire AI into daily work: the repeated workflows they automate, where coding assistants and agents fit, and the evaluation and privacy habits they keep around them."
-    },
-    {
       "id": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "type": "wiki",
       "collection": "wiki",
@@ -10204,17 +10204,6 @@
       "search": "Machine Learning System Design How DataTalks.Club episodes frame ML system design as a production discipline: problem framing, data strategy, baselines, evaluation, serving, monitoring, fallbacks, and ownership."
     },
     {
-      "id": "wiki:machine-learning-system-design-interview",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning System Design Interview: A Podcast-Grounded Prep Guide",
-      "title": "Machine Learning System Design Interview: A Podcast-Grounded Prep Guide",
-      "url": "/wiki/machine-learning-system-design-interview/",
-      "count": 1,
-      "search": "Machine Learning System Design Interview: A Podcast Grounded Prep Guide A DataTalks.Club podcast backed guide to machine learning system design interview preparation: answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice.",
-      "keyword": "machine learning system design interview"
-    },
-    {
       "id": "wiki:machine-learning-tools",
       "type": "wiki",
       "collection": "wiki",
@@ -10313,6 +10302,17 @@
       "url": "/wiki/ml-system-design-documents/",
       "count": 1,
       "search": "ML System Design Documents How ML design docs capture product decisions, assumptions, data strategy, baselines, evaluation, monitoring, ownership, and production readiness."
+    },
+    {
+      "id": "wiki:machine-learning-system-design-interview",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML System Design Interview",
+      "title": "ML System Design Interview",
+      "url": "/wiki/machine-learning-system-design-interview/",
+      "count": 1,
+      "search": "ML System Design Interview Prepare for ML system design interviews with answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice.",
+      "keyword": "machine learning system design interview"
     },
     {
       "id": "wiki:mlops",

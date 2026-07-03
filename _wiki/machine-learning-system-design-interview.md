@@ -1,14 +1,14 @@
 ---
 layout: article
 tags: ["guide"]
-title: "Machine Learning System Design Interview: A Podcast-Grounded Prep Guide"
+title: "ML System Design Interview"
 keyword: "machine learning system design interview"
 secondary_keywords:
   - "ml system design interview"
 search_intent:
   - "Prepare for machine learning system design interview prompts with grounded production examples."
   - "Practice answer structure, fraud detection, recommendation, serving, monitoring, and portfolio evidence."
-summary: "A DataTalks.Club podcast-backed guide to machine learning system design interview preparation: answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice."
+summary: "Prepare for ML system design interviews with answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice."
 related_wiki:
   - Machine Learning System Design
   - ML System Design Documents
@@ -19,9 +19,9 @@ related_wiki:
 ---
 
 A machine learning system design interview tests whether you can turn a model
-idea into a product system. The round is built around assumptions and baselines.
-It connects labels and metrics to A/B tests and monitoring. It also connects
-them to fallbacks and MLOps ownership
+idea into a product system. The round starts with assumptions and baselines. It
+connects labels and metrics to A/B tests and monitoring. It also connects them
+to fallbacks and MLOps ownership
 ([[person:valeriybabushkin|Valerii Babushkin]],
 [[podcast:machine-learning-system-design-interview=>ML System Design Interviews]]).
 The maintained
