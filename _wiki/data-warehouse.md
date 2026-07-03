@@ -28,15 +28,15 @@ then exposes those definitions through dashboards, reports, and recurring
 decision workflows.
 
 A warehouse-centered view of the modern data stack contrasts ETL with ELT and
-explains why teams may load raw data before transforming it, placing warehouses
-beside marts and lakes with orchestration, CDC, and reverse flows on the same
-map
+explains why teams may load raw data before transforming it. It places
+warehouses beside marts and lakes, with orchestration, CDC, and reverse flows on
+the same map
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 Joyce Kay Avila's
 [[book:20230123-snowflake-definitive-guide=>Snowflake: The Definitive Guide]]
-covers the same warehouse platform: virtual warehouses, cloud-native scaling,
-data sharing, and the SQL modeling layer that dbt and analytics engineering
-build on.
+covers the same warehouse platform. The book explains virtual warehouses,
+cloud-native scaling, data sharing, and the SQL modeling layer that dbt and
+analytics engineering build on.
 
 Apache Iceberg and catalogs update the warehouse boundary, alongside open table
 formats and lakehouse tradeoffs
@@ -44,20 +44,27 @@ formats and lakehouse tradeoffs
 
 ## Modeled Analytical Storage
 
-A warehouse is defined by what teams do with it: it holds business-facing
+A warehouse is defined by what teams do with it. It holds business-facing
 analytical data, not just copied source tables. Raw records may arrive first.
-Analysts and analytics engineers then model customer and order tables, along
-with events, funnels, finance facts, and dimensions into tables that people can
+Analysts and analytics engineers then model customer and order tables. They also
+model events, funnels, finance facts, and dimensions into tables that people can
 reuse.
 
-Loading first gives analysts more flexibility because they can add new warehouse
+Loïc Magnien's [[data-architect-role=>data architect]] example adds the
+discovery step behind that model. Stakeholders may ask for margin by region.
+The architect identifies the metrics. Then they design dimension and fact
+tables. The team can reuse the same core model across departments from the same
+underlying data
+([[cite:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]]).
+
+Loading first gives analysts more flexibility. They can add new warehouse
 transformations without asking engineers to rebuild extraction code. Warehouses
-and marts differ in scope: warehouses hold the broader analytical layer, while
+and marts differ in scope. Warehouses hold the broader analytical layer, while
 data marts serve narrower consumption needs
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
 Daily analytics engineering work ties data modeling, pipelines, and data quality
-together, with Looker and Snowflake in the same tool stack. dbt supplies SQL
+together. Looker and Snowflake sit in the same tool stack. dbt supplies SQL
 transformations, version control, tests, and a DAG
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
 
@@ -67,36 +74,39 @@ Redshift, Airflow, Airbyte, and Snowplow
 
 ## Warehouse and Lakehouse Boundaries
 
-The warehouse can serve as an ELT workbench: once data arrives, SQL users can
-cast types, join sources, and build models closer to the business question,
-with governance kept in view through data swamps, unused-data ownership, and
-cleanup
+The warehouse can serve as an ELT workbench. Once data arrives, SQL users can
+cast types, join sources, and build models closer to the business question. The
+same episode keeps governance in view through data swamps, unused-data
+ownership, and cleanup
 ([[person:nataliekwong|Natalie Kwong]],
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
-A contrasting view pushes toward lakehouse architecture, where Apache Iceberg
-and Delta Lake are more than storage buzzwords: table formats sit on Parquet,
-and catalogs are a separate layer, with metadata, access, and lineage in that
-split ([[person:adrianbrudaru|Adrian Brudaru]]). Teams can combine open storage
-with warehouse-like behavior and reduce lock-in
+A contrasting view pushes toward lakehouse architecture. Apache Iceberg and
+Delta Lake are more than storage buzzwords. Table formats sit on Parquet, and
+catalogs are a separate layer for metadata, access, and lineage in that split
+([[person:adrianbrudaru|Adrian Brudaru]]). Teams can combine open storage with
+warehouse-like behavior and reduce lock-in
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 Teams choosing between managed warehouse trust and an open table-format platform
 can start with [Data Warehouse vs Data
 Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
-For storage engine internals that sit beneath both warehouses and lakehouses, Alex Petrov's [[book:20210315-database-internals|Database Internals]] Book of the Week covers transaction logs, B-trees, replication, and consensus protocols.
+Storage engine internals sit beneath both warehouses and lakehouses. Alex
+Petrov's [[book:20210315-database-internals|Database Internals]] Book of the Week
+covers transaction logs, B-trees, replication, and consensus protocols.
 
 A separate emphasis focuses less on the storage product and more on the modeled
 layer that users see. dbt and tests are role-defining tools for analytics
-engineers, with documentation, Snowflake, and Looker in the same daily toolset
+engineers. Documentation, Snowflake, and Looker sit in the same daily toolset
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
 The warehouse is also where product and marketing questions become durable
-reporting tables, feeding A/B testing, retention analysis, and RFM analysis
+reporting tables. Those tables feed A/B testing, retention analysis, and RFM
+analysis
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
 
-A different test applies once the data is modeled: a warehouse hasn't succeeded
-just because the tables exist. People still need to find it, trust it,
-understand it, and connect it to a decision
+After teams model data, the warehouse still has to prove its value. Tables alone
+aren't enough because people need to find and trust the warehouse. They also
+need to understand it and connect it to a decision
 ([[person:caitlinmoorman|Caitlin Moorman]],
 [[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 That turns the warehouse from a storage question into a
@@ -110,60 +120,62 @@ team or subject area. Lakes and lakehouses keep a different storage boundary.
 Warehouses sit near dbt and BI, with marts and reverse flows nearby
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
-The same warehouse-centered model applies to product and growth data: teams
-collect events, store them, transform them for BI, and send selected data back
-to sales, support, or engagement tools
+The same warehouse-centered model applies to product and growth data. Teams
+collect events and store them. They transform the events for BI and send
+selected data back to sales, support, or engagement tools
 ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth Stack]]).
 
 [[data-lake=>Data lakes]] preserve broader raw or
-semi-structured storage, useful for files, logs, media, and less structured
-data. Without governance, a lake turns into a swamp
+semi-structured storage. That storage is useful for files, logs, media, and less
+structured data. Without governance, a lake turns into a swamp
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
-Lakehouses try to add warehouse-like table guarantees to lake storage,
-separating storage from table format and separating catalog, compute, and
-lineage. Teams get open storage and multiple query engines but still need
+Lakehouses try to add warehouse-like table guarantees to lake storage. They
+separate storage from table format. They also separate the catalog from compute
+and lineage. Teams get open storage and multiple query engines but still need
 reliable tables
 ([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
 
-Data marts are narrower than warehouses: consumption layers for a team, subject
-area, or use case. In practice, many marts are dbt models or BI-ready tables
-inside the warehouse
+Data marts are narrower than warehouses and serve as consumption layers for a
+team, subject area, or use case. In practice, many marts are dbt models or
+BI-ready tables inside the warehouse
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
 ## Warehouse Modeling with ELT, dbt, and BI
 
 Teams using warehouse-centered ELT usually load source data and transform it
-with SQL, then test it, document it, and expose it through BI or activation
-tools. Those steps run through Airbyte-style extraction and loading into dbt
-integration, with orchestration, CDC, and reverse data flows in the same stack
+with SQL. Then they test it, document it, and expose it through BI or activation
+tools. The stack connects Airbyte-style extraction and loading to dbt
+integration. It also includes orchestration, CDC, and reverse data flows
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
 dbt matters because it puts software-engineering habits around SQL models
-through transformations, version control, tests, and a DAG, linked to Looker and
-Snowflake. Those modeled tables become usable reporting interfaces rather than
-hidden SQL files
+through transformations, version control, tests, and a DAG. Looker and Snowflake
+connect to that modeled layer. Those modeled tables become usable reporting
+interfaces rather than hidden SQL files
 ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
 
-Teams learn warehouse modeling through real migration work: a dbt migration,
-wide-versus-narrow table tradeoffs, LookML, Redshift, and product analytics.
-Domain knowledge becomes reusable structure, not just runnable queries
+Teams learn warehouse modeling through real migration work. The episode covers a
+dbt migration and wide-versus-narrow table tradeoffs. It also covers LookML,
+Redshift, and product analytics. Domain knowledge becomes reusable structure,
+not just runnable queries
 ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
 
 ## Warehouse Cost, Governance, and Reliability
 
 Warehouses concentrate compute and storage, so teams need
 [[finops-for-data-engineers=>cost discipline]]. BigQuery and dbt are parts of a
-digital warehouse, alongside orchestration, monitoring, and tests, and cloud
-cost becomes engineering work: tagging, accountability, cost reporting, capacity
-planning, vendor negotiation, and reservation choices
-([[podcast:finops-for-data-engineers|FinOps for Data Engineers]]). FinOps
-practices meet warehouse design in query patterns, partitioning choices,
+digital warehouse, alongside orchestration, monitoring, and tests. Cloud cost
+becomes engineering work. Teams tag spend and assign accountability. They also
+report costs, plan capacity, negotiate with vendors, and choose reservations
+([[podcast:finops-for-data-engineers|FinOps for Data Engineers]]).
+
+FinOps practices meet warehouse design in query patterns, partitioning choices,
 ownership labels, and review habits.
 
 Governance also keeps the warehouse useful. The data-swamp warning applies to
-warehouses as well as lakes: unused tables, unclear ownership, and undocumented
-transformations all make trusted analysis harder
+warehouses as well as lakes. Teams make trusted analysis harder when they leave
+tables unused, ownership unclear, and transformations undocumented
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
 [[Data Governance]] covers
@@ -173,9 +185,10 @@ Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 covers freshness and schema checks. It also covers lineage plus tests and
 incident signals.
 
-A career example adds implementation detail: data engineering work connecting
-SQL reporting, Docker, Airflow, AWS, and data quality checks, plus a BI platform
-rebuild that saved money and created a centralized source of truth
+A career example adds implementation detail. The episode connects SQL reporting
+and Docker to data engineering work. It also covers Airflow, AWS, and data
+quality checks. A BI platform rebuild saved money and created a centralized
+source of truth
 ([[podcast:get-data-analytics-and-data-engineering-job|Gloria Quiceno's data engineering job episode]]).
 This ties warehouse work to practical reliability, not only architecture
 diagrams.
@@ -183,25 +196,25 @@ diagrams.
 ## Warehouse Skills in Data Careers
 
 Warehouse literacy shows up in career episodes because many data roles depend
-on analytical storage. Core skills for data engineering candidates include
-Python, SQL, Docker, Airflow, and data warehouses, along with OLTP versus OLAP,
-views and materialized views, and take-home projects
+on analytical storage. Data engineering candidates need Python and SQL, plus
+Docker, Airflow, and data warehouses. The discussion also covers OLTP versus
+OLAP, views and materialized views, and take-home projects
 ([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
 
-SQL modeling is at the center for analytics engineers. Useful warehouse practice
-means more than connecting a dashboard: build tables with a clear grain,
-document metric definitions, add tests, and explain why a consumer should trust
-the model.
+SQL modeling is at the center for analytics engineers, and useful warehouse
+practice means more than connecting a dashboard. Teams build tables with a clear
+grain, document metric definitions, add tests, and explain why a consumer should
+trust the model.
 
 Those warehouse habits belong in
 [[analytics engineering portfolio projects]]
 and the [[analytics engineering roadmap]]
-([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]];
+([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
 [[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
 
-A final hiring signal: a good warehouse practitioner can connect tables to
-decisions by asking who uses a model, what decision it supports, whether people
-trust it, and how to measure adoption
+A final hiring signal is whether a good warehouse practitioner can connect
+tables to decisions. They ask who uses a model, what decision it supports,
+whether people trust it, and how to measure adoption
 ([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
 
 ## Warehouse Topic Map

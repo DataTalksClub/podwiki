@@ -136,7 +136,7 @@ communication:
   modified: "2026-07-02"
 community-building:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 community:
   published: "2026-06-29"
   modified: "2026-07-02"
@@ -331,7 +331,7 @@ data-warehouse-vs-data-lakehouse:
   modified: "2026-07-02"
 data-warehouse:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 dataops-checks-for-data-pipelines:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -631,7 +631,7 @@ modern-data-engineering-trends:
   modified: "2026-07-02"
 modern-data-stack:
   published: "2026-06-29"
-  modified: "2026-07-02"
+  modified: "2026-07-03"
 multi-agent-systems:
   published: "2026-06-29"
   modified: "2026-07-02"

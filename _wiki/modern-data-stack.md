@@ -21,13 +21,13 @@ ingestion and SQL transformations. It also includes
 [[orchestration]], BI, and sometimes
 reverse flows into business tools.
 
-The clearest stack-level introduction covers ETL and ELT, and connects
+The clearest stack-level introduction covers ETL and ELT. It connects
 warehouse-side transformation to analyst autonomy,
 [[dbt]], and
 [[analytics engineering]]
 ([[person:nataliekwong|Natalie Kwong]],
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
-The same episode places data marts and lakes next to warehouses, and adds
+The same episode places data marts and lakes next to warehouses. It also adds
 orchestration, Airbyte-style loading, CDC, and reverse ETL.
 
 The same map reaches [[data-warehouse|data warehouses]],
@@ -48,14 +48,24 @@ data may also serve product teams, models, or operational systems.
 The typical modern analytics stack is best-of-breed tools rather than one
 monolith
 ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
-In the growth version, teams collect events, store them, analyze them, and
+
+Tammy Liang's small-team version of that boundary used Stitch for loading and
+GCP as the cloud foundation. It put [[dbt]] in the data engineering
+transformation layer and used Google Data Studio for BI. Notion held analysis
+work and dashboard links
+([[person:tammyliang|Tammy Liang]],
+[[cite:building-and-scaling-data-team|Building and Scaling a Data Team]]).
+That example treats delivery and documentation as part of the stack, not only
+the ingestion and modeling tools.
+
+In the growth version, teams collect and store events. They analyze them and
 activate the results in business tools
 ([[person:arpitchoudhury|Arpit Choudhury]],
 [[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
-In the cost-aware engineering version, ELT, dbt, and BigQuery are parts of a
-digital warehouse, with orchestration, monitoring, and tests in the same
-operating picture
+In the cost-aware engineering version, teams treat ELT, dbt, and BigQuery as
+parts of a digital warehouse. Orchestration, monitoring, and tests sit in the
+same operating picture
 ([[person:eddyzulkifly|Eddy Zulkifly]],
 [[podcast:finops-for-data-engineers=>FinOps for Data Engineers]]). Teams then
 need
@@ -74,21 +84,21 @@ reliably.
 Guests agree on the broad flow, but they focus on different constraints.
 
 The move from ETL to ELT centers on faster iteration, warehouse-side
-transformation, and analyst autonomy, while keeping governance in view through
-data swamps and unused data ownership
+transformation, and analyst autonomy. It keeps governance in view through data
+swamps and unused data ownership
 ([[person:nataliekwong|Natalie Kwong]],
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
-From pipeline design, analytics and ML pipelines get compared, tooling choices
-follow the use case rather than a fixed stack, and Upsolver, Snowflake,
-Databricks, and build-vs-buy decisions weigh against persona-driven pipeline
-design
+Tuli compares analytics and ML pipelines from a pipeline-design view. Tooling
+choices follow the use case rather than a fixed stack. She weighs Upsolver,
+Snowflake, and Databricks against persona-driven pipeline design. She also
+covers build-vs-buy decisions
 ([[person:santonatuli|Santona Tuli]],
 [[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 
 A more skeptical take critiques vendor-packaged modern data stacks and argues
-for requirements-led tool choice across Iceberg, catalogs, DuckDB,
-orchestration, and streaming
+for requirements-led tool choice. The choices include Iceberg and catalogs.
+They also include DuckDB, orchestration, and streaming
 ([[person:adrianbrudaru|Adrian Brudaru]],
 [[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
 Those choices show why a team may need a warehouse stack, an open lakehouse
@@ -97,8 +107,8 @@ stack, or a smaller local-first stack.
 ## Ingestion
 
 Ingestion moves data from product databases and SaaS tools into analytical
-storage. It also moves events, files, and operational data. Airbyte is the
-extract-load part of the flow, with raw ingestion layers placed next to dbt by
+storage. It also moves events, files, and operational data. Airbyte handles the
+extract-load part of the flow. Raw ingestion layers sit next to dbt by
 separating reliable loading from warehouse-side modeling
 ([[person:nataliekwong|Natalie Kwong]],
 [[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
@@ -111,9 +121,9 @@ tradeoff because loading first preserves flexibility when business logic
 changes later. ETL can still fit large enterprises or complex staging needs.
 
 The pipeline-engineering view compares Upsolver and dbt by separating
-ingestion-focused pipeline authoring from transformation-focused modeling, and
-adds practical ingestion concerns such as deduplication, ordering guarantees,
-and PII masking
+ingestion-focused pipeline authoring from transformation-focused modeling. It
+also adds practical ingestion concerns such as deduplication, ordering
+guarantees, and PII masking
 ([[person:santonatuli|Santona Tuli]],
 [[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 Those concerns determine whether a simple connector is enough or whether the
@@ -129,9 +139,9 @@ modeled consumption layers
 The important design question is where teams transform data and how consumers
 use it.
 
-The growth-stack version keeps the warehouse at the center too, connecting
-warehouses, dbt, and BI analysis, and naming Snowflake, BigQuery, Redshift, and
-warehouse-first analytics
+The growth-stack version keeps the warehouse at the center too. It connects
+warehouses, dbt, and BI analysis. It names Snowflake, BigQuery, and Redshift.
+It also names warehouse-first analytics
 ([[person:arpitchoudhury|Arpit Choudhury]],
 [[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 That flow supports
@@ -144,8 +154,8 @@ lakehouse architecture come up on the pipeline side
 ([[person:santonatuli|Santona Tuli]],
 [[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 
-Apache Iceberg is a table format over Parquet, and the catalog separates
-storage, compute, and access, including metadata and lineage
+Apache Iceberg is a table format over Parquet. The catalog holds metadata and
+lineage while separating storage, compute, and access
 ([[person:adrianbrudaru|Adrian Brudaru]],
 [[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
 The storage tradeoff sits between [[Data Warehouse]] and

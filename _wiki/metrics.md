@@ -222,6 +222,18 @@ For [[data products]], these metrics
 explain why a technically correct dashboard, model, or pipeline deserves
 continued investment.
 
+[[person:tammyliang=>Tammy Liang]] gives the offline-channel version of this
+problem.
+TV ads and physical banners were hard to attribute directly
+[[cite:building-and-scaling-data-team|Liang's data-team scaling discussion]].
+Her team watched timely traffic spikes and asked post-purchase survey
+questions. Customer sampling became proxy evidence for campaign measurement.
+
+Her example connects business metrics to [[product analytics]] and
+[[experimentation]]. It also shows the measurement limit. When the channel
+can't emit clean user-level events, the team still needs a measurement plan
+that states which proxy signals it trusts.
+
 Sroka's KPI episode is the strongest business-metrics discussion. In
 [[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy at 15:11-51:12]],
 he covers merit functions, project prioritization, and comparable units. He also

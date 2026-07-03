@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11007
+    "links": 11017
   },
   "nodes": [
     {
@@ -30566,6 +30566,12 @@
     },
     {
       "source": "wiki:community-building",
+      "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
       "target": "podcast:mlops-community-building-and-meetups",
       "kind": "wiki-chip",
       "weight": 1
@@ -30629,6 +30635,12 @@
       "target": "wiki:developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "wiki:job-search",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:community-building",
@@ -41306,6 +41318,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "person:lukewhipps",
       "kind": "wiki-chip",
       "weight": 1
@@ -41331,6 +41349,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43706,6 +43730,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-chip",
       "weight": 1
@@ -43781,6 +43811,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-architect-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse",
@@ -59732,7 +59768,19 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "person:tammyliang",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63573,6 +63621,18 @@
     {
       "source": "wiki:modern-data-stack",
       "target": "person:santonatuli",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "person:tammyliang",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
     },

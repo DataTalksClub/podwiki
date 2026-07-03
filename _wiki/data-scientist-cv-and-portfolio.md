@@ -193,6 +193,13 @@ At 32:14 in
 the portfolio value is visibility. A candidate can claim Python or PyTorch on a
 CV, then show Kaggle notebooks or GitHub projects where those tools were used.
 
+[[person:lavanyagupta=>Lavanya Gupta]] adds a useful distinction for
+portfolio goals. Pet projects, datasets, and community contributions can show
+curiosity and create networking visibility. For job applications, the proof has
+a narrower job. It should connect to role requirements, interview discussion,
+or organization-backed work with feedback and real-world impact
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth|51:28]].
+
 Her episode also shows how public work supports
 [[career-transitions-in-data=>career transition]].
 At 18:09 in
