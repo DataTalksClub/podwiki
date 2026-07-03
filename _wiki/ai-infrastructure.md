@@ -30,13 +30,17 @@ LLM serving side in
 [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
 where model size and compression influence the deployment decision. Latency,
 cost, and hosted API risk matter there too.
+
 Yuan Tang's
 [[book:20240115-distributed-machine-learning-patterns=>Distributed Machine Learning Patterns]]
 catalogs the distributed-training architectures that underlie Andrey's GPU and
-scheduling discussion: data parallelism, model parallelism, and parameter-server
-patterns for scaling training across nodes.
+scheduling discussion. Those architectures include data parallelism, model
+parallelism, and parameter-server patterns for scaling training across nodes.
 
-For cloud-native ML infrastructure, [[book:20210628-data-science-on-aws|Data Science on AWS]] by Chris Fregly and Antje Barth covers the AWS-side implementation of these same compute, storage, and serving layers, from SageMaker through deployment pipelines.
+Chris Fregly and Antje Barth cover cloud-native ML infrastructure in
+[[book:20210628-data-science-on-aws|Data Science on AWS]]. Their AWS-side
+discussion includes compute, storage, and serving layers. It also includes
+SageMaker and deployment pipelines.
 
 ## Production Infrastructure Scope
 
@@ -139,6 +143,11 @@ Raphaël adds Docker, Kubernetes, and Databricks tradeoffs in
 standardized workloads can often live on managed platforms. GPU-heavy training
 and serving push teams toward scheduling, utilization, and hardware ownership
 questions.
+
+Daniel Egbo adds an edge-deployment version of the same boundary
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]].
+His internship work tested models on Intel hardware. The example frames
+infrastructure as model-to-device fit, not only cloud-platform choice.
 
 ## Orchestration and Distributed Training
 

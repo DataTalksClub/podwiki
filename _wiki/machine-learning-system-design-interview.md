@@ -19,9 +19,9 @@ related_wiki:
 ---
 
 A machine learning system design interview tests whether you can turn a model
-idea into a product system. The round is built around assumptions and
-baselines, connecting labels and metrics to A/B tests, monitoring, fallbacks,
-and MLOps ownership
+idea into a product system. The round is built around assumptions and baselines.
+It connects labels and metrics to A/B tests and monitoring. It also connects
+them to fallbacks and MLOps ownership
 ([[person:valeriybabushkin|Valerii Babushkin]],
 [[podcast:machine-learning-system-design-interview=>ML System Design Interviews]]).
 The maintained
@@ -50,7 +50,7 @@ to review. Those actions change the cost of false positives and false
 negatives. They also change the latency target, thresholding plan, and
 human-review path.
 
-Production designs start with goals and non-goals, writing assumptions,
+Production designs start with goals and non-goals. They put assumptions,
 constraints, and metrics before model architecture
 ([[person:arsenykravchenko|Arseny Kravchenko]],
 [[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
@@ -100,24 +100,32 @@ before adding complexity, keeping systems maintainable and business-aligned
 ([[person:benwilson|Ben Wilson]],
 [[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
 
+Tatiana Gabruseva's interview prep story adds a practical rule: decompose the
+prompt like a physics problem, then rehearse that decomposition in mocks. The
+rehearsal puts the opening and assumptions before the data path, metrics, and
+system tradeoffs
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth|From Academia to Staff AI Engineer]]).
+That makes mock practice useful for structure, not just confidence.
+
 ## Practice Fraud Detection
 
 Fraud detection is the strongest machine learning system design
-interview prompt because the candidate has to discuss probabilities,
-thresholds, class imbalance, and delayed labels
+interview prompt because the candidate has to discuss probabilities and
+thresholds. It also brings in class imbalance and delayed labels
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 The same prompt also needs real-time constraints and business loss. The answer
 is incomplete if it ends at "train a classifier."
 
-The prompt is really an assumption-setting exercise
+Treat the prompt as an assumption-setting exercise
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 The answer should say what counts as fraud and when labels arrive. It should
 also say what the product does with the score and how the team handles
 asymmetric costs.
 
-The production data-engineering view covers retail fraud use cases, feature
-pipelines, daily batch computation, and real-time scoring, plus graph features,
-monitoring, runbooks, and data quality checks
+The production data-engineering view covers retail fraud use cases and feature
+pipelines. It adds daily batch computation and real-time scoring. It also adds
+graph features. Monitoring, runbooks, and data quality checks complete the
+operations view
 ([[person:angelaramirez|Angela Ramirez]],
 [[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
 That makes fraud a good prompt for testing whether you can connect model design
@@ -182,8 +190,8 @@ page keeps that distinction visible for search and ranking systems.
 Good interview answers treat data as part of the system. Labels, class
 imbalance, feature tradeoffs, and validation connect in the interview episode
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
-Data availability, processing, feature needs, data lakes, and system diagrams
-add the production view
+Data availability and processing needs add the production view. Feature needs,
+data lakes, and system diagrams do too
 ([[person:arsenykravchenko|Arseny Kravchenko]],
 [[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
 
@@ -235,7 +243,7 @@ model score as the final result.
 
 Product validation matters as much as offline metrics
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
-Product analytics makes the A/B testing part concrete: randomization,
+Product analytics makes the A/B testing part concrete through randomization,
 assignment tracking, and power analysis
 ([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 
@@ -252,8 +260,8 @@ and operational support.
 For fraud, a hybrid design combines daily feature computation with instant
 scoring when the transaction happens
 ([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
-For mobile or edge ML, constraints add latency, frame rate, energy use, model
-size, and offline behavior
+For mobile or edge ML, constraints add latency and frame rate. They also add
+energy use, model size, and offline behavior
 ([[podcast:building-scalable-and-reliable-machine-learning-systems|scalable systems episode]]).
 
 In an interview, don't say "real time" unless you define the product need. A
@@ -265,7 +273,8 @@ failure mode, and monitoring plan.
 ## Monitor and Define Fallbacks
 
 Monitoring is part of the answer, not a final add-on. The interview discussion
-includes monitoring, distribution shift, fallbacks, serving, and MLOps roles
+includes monitoring, distribution shift, and fallbacks. It also covers serving
+and MLOps roles
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 The upstream view matters too
 ([[person:dannyleybzon|Danny Leybzon]],
@@ -301,13 +310,13 @@ page gives the standard used here. Define the decision, show the data and
 labels, and compare a baseline. Choose metrics and analyze errors. Then sketch
 deployment and explain monitoring plus fallback behavior.
 
-Unfamiliar domains still ask you to gather data, choose the metric and loss,
-justify the model, and decide how online and offline pieces work
+Unfamiliar domains still ask you to gather data. Choose the metric and loss,
+justify the model, and decide how the online and offline pieces work
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
-An ML project checklist doubles as system-design preparation, covering model
-coupling, A/B tests, feature choices, losses, model timing, and batch versus
-online processing
+An ML project checklist doubles as system-design preparation because it covers
+model coupling, A/B tests, and feature choices. It also covers losses, model
+timing, and batch versus online processing
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
 Production checks include distribution shift, class imbalance, monitoring, and
@@ -317,12 +326,13 @@ fallbacks for when the model breaks
 For this interview, a simple project can be strong if it exposes those
 tradeoffs. A fraud-style classifier can include delayed labels and class
 imbalance. Add a threshold, review bucket, and monitoring notes to show more
-system thinking than a notebook with one accuracy number. That mirrors the
-fraud prompt
+system thinking than a notebook with one accuracy number.
+
+That mirrors the fraud prompt
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]])
-and a fraud-prevention data engineering setup where feature pipelines, daily
-batch computation, real-time scoring, runbooks, and data quality checks support
-the model
+and a fraud-prevention data engineering setup. In that setup, feature pipelines
+and daily batch computation support the model. Real-time scoring, runbooks, and
+data quality checks support it too
 ([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|fraud-prevention data engineering episode]]).
 
 A search or recommendation project can do the same by showing candidate
@@ -332,8 +342,8 @@ can come from the
 page.
 
 Prepare the project story as an interview walkthrough, not as a repository tour.
-Project walkthroughs test ownership, model choice, metrics, validation, and
-impact
+Project walkthroughs test ownership and model choice. They also test metrics,
+validation, and impact
 ([[person:nicksingh|Nick Singh]],
 [[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 That makes a portfolio project useful for both the ML system design round and
@@ -352,4 +362,3 @@ design answer:
 
 That rehearsal helps you avoid generic architecture talk. Every claim ties back
 to something you built, tested, or intentionally left out.
-

@@ -120,6 +120,17 @@ vary across systems, teams still need to decide thresholds and candidate
 generation. They also need to handle transitive matches and scale
 ([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
+Astronomy extends the same matching problem beyond customer or supplier data.
+Daniel Egbo describes multi-wavelength catalog cross-matching in astronomy.
+Those catalogs may come from radio, optical, infrared, or X-ray observations.
+Sources are matched by position when catalogs don't share one stable identifier.
+
+The match depends on positional astronomy and uncertainty. In a 2D sky projection,
+two measurements may look close. One object can still be foreground while
+another is in the background. That makes entity resolution a judgment about
+evidence and uncertainty. It isn't just exact keys or string similarity
+([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]]).
+
 When fields such as names, addresses, emails and KYC identifiers vary, teams get
 a graph of records that belong together. They can consume that linked output as
 a table or graph

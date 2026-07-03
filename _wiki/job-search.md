@@ -163,12 +163,19 @@ At 34:18, she makes outreach short and personalized. At 36:10, she asks about
 day-to-day work and success factors. Those questions help candidates evaluate
 the role while they build a referral path.
 
-Nick gives the interview-prep version at 58:26-1:00:59 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-Cold emails work better when they include project links and specific evidence.
+Nick gives the interview-prep version in
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+at 58:26-1:00:59. Cold emails work better when they include project links and
+specific evidence.
 Lindsay adds LinkedIn informational outreach at 58:30 in
-[[podcast:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]],
-which is especially useful for juniors who can't rely on recruiters.
+[[podcast:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
+That's especially useful for juniors who can't rely on recruiters.
+
+Tatiana Gabruseva adds the senior transition version
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth|From Academia to Staff AI Engineer]].
+Referrals and network warmth can change which applications turn into
+interviews. Early rejections become feedback on gaps to fix before the next
+attempt.
 
 Recruiter attention is easier to earn when outreach shows company research.
 Before contacting a company or employee, candidates should understand the

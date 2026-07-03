@@ -13,10 +13,11 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-A data scientist interview roadmap is a role-specific preparation path from job
-targeting to final offer. Prep starts with the work behind the title: "data
-scientist" can mean product analytics, experimentation, forecasting, machine
-learning, or production ML.
+A data scientist interview roadmap is a role-specific preparation path from
+job targeting to final offer. Prep starts with the work behind the title,
+because a "data scientist" role might mean product analytics or
+experimentation. It might also mean forecasting, machine learning, or
+production ML.
 
 One split is product data science versus
 [[machine-learning-engineer-role=>machine learning engineering]]
@@ -38,14 +39,15 @@ you're interviewing for. Then it turns your CV and projects into evidence.
 by Nick Singh and Kevin Huo is a structured question bank organized around
 that same role-first approach.
 
-Case practice, technical drills, stories, and offer talks support that role.
+Case practice and technical drills support that role, as do stories and offer
+talks.
 
 ## Role Fit, Written Evidence, and Interview Performance
 
-Data scientist interview preparation builds role-specific proof. The first proof
-is role fit. A recruiter workflow starts from role definition and market
-guidance, then moves through shortlists, interview preparation, feedback, and
-offer negotiation
+Data scientist interview preparation builds role-specific proof, starting with
+role fit. A recruiter workflow starts from role definition and market guidance.
+It then moves through shortlists, interview preparation, feedback, and offer
+negotiation
 ([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
 The candidate-side funnel narrows into recruiter screen, take-home work, and
 interview rounds
@@ -57,16 +59,16 @@ education, plus responsibilities, keywords, and clear examples
 The CV should read like a landing page that makes personal contribution visible
 ([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
 
-The third proof is interview performance. Recruiter screening is separate from
-intro interviews, and technical components, expectation alignment, and
+The third proof is interview performance, where recruiter screening is
+separate from intro interviews. Technical components, expectation alignment, and
 fundamentals-first practice each get their own attention
 ([[podcast:machine-learning-data-science-interview-prep|Master Machine Learning and Data Science Interviews]]).
 A behavioral and portfolio layer adds story grids and STAR structure, project
 walkthroughs, product-sense cases, and company research
 ([[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
 
-For ML-heavy roles, assumptions and baselines, labels and validation, and
-serving, monitoring, and fallbacks all matter
+For ML-heavy roles, start with assumptions and baselines before covering labels
+and validation. Serving, monitoring, and fallbacks matter too
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
 ## Recruiter, Candidate, and ML-Heavy Prep
@@ -207,8 +209,9 @@ requests and market research in
 
 ## Practice Technical and Case Rounds
 
-For standard data scientist rounds, practice SQL, coding, and statistics. Add
-ML fundamentals, model evaluation, and project defense in the role's context.
+For standard data scientist rounds, practice SQL and coding before adding
+statistics and ML fundamentals. Keep model evaluation and project defense in the
+role's context.
 Oleg
 names ML knowledge, SQL window functions, and coding as technical-assessment
 areas in
@@ -216,6 +219,10 @@ areas in
 Luke recommends fundamentals-first preparation, then secondary and ideal
 skills, in
 [[podcast:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]].
+
+For coding interviews, treat LeetCode-style practice as a planned track. Use
+repetition to turn early failures into feedback instead of final-week cram
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth|From Academia to Staff AI Engineer]].
 
 Case practice should start with the decision, not the algorithm. Oleg's
 [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
@@ -291,8 +298,9 @@ Use this sequence as a preparation checklist:
    [[podcast:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]]
    and Alicja's
    [[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]].
-5. Drill the technical core. Practice SQL, coding, and statistics. Add ML
-   fundamentals, model evaluation, and project defense using Oleg's
+5. Drill the technical core. Practice SQL, coding, and statistics. Make coding
+   a scheduled repetition loop rather than an occasional warmup, then add ML
+   fundamentals and model evaluation. Use project-defense guidance from Oleg's
    [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
    and Luke's fundamentals-first advice in
    [[podcast:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]].
