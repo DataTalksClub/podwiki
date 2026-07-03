@@ -92,6 +92,24 @@ At 42:29, she adds that owners can't easily observe nighttime awakenings or
 sleep twisting. Sleep history from sensors can help a vet decide whether further
 tests are needed.
 
+Healthcare sensor work adds a useful model-choice boundary for physiological
+signals. A bed-mat ballistography system can capture movement caused by
+respiration and heart activity without attaching electrodes. ECG can serve as a
+reference while the system denoises the mat signal and extracts vitals.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|19:28]].
+
+The modeling decision depends on signal strength. Respiration can be estimated
+with classical signal processing when the relevant frequency is strong enough.
+Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
+signal is weaker, noisier, or overlaps with other motion.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|21:49]].
+
+Filters and Fourier methods aren't just baselines. For simpler physiological
+signals they can be the preferred production answer.
+
+That matters in [[healthcare-ml-validation-and-adoption=>healthcare ML]]
+settings where interpretability, robustness, and deployment constraints matter.
+U-Net becomes useful when the task shifts from isolating a frequency band to
+finding heart-rate waveforms in noisy ballistography.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|23:31]].
+
 ## Long-Term History as Product Feedback
 
 The product loop starts with a real owner problem. Around 26:48-28:40 in

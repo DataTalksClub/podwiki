@@ -181,13 +181,12 @@ world.
 [[person:rosonaeldred=>Rosona]] broadens the industrial
 data picture beyond semiconductors. In
 [[podcast:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]],
-she describes paint and chemical production where ingredients, infrared spectra,
-and material properties form a "tiny data" regime. Neural nets rarely fit: the
-answer is statistical methods, transfer learning, and domain experts who hold
-tacit knowledge beyond the CSV. She splits industrial data into R&D experiments
-(small, reformulation-driven) and full-scale production (high-volume, streaming,
-real-time alerts), and explains how regulatory and sustainability tracking
-creates new data gaps that force product redevelopment with small historical
+paint and chemical production create a "tiny data" regime from ingredients,
+infrared spectra, and material properties. Because neural nets rarely fit, the
+answer combines statistical methods and transfer learning with domain experts
+who hold tacit knowledge beyond the CSV. She splits industrial data into R&D
+experiments and full-scale production. Regulatory and sustainability tracking
+create new data gaps that force product redevelopment with small historical
 datasets.
 
 ## Monitoring, Drift, and Safety
@@ -272,6 +271,16 @@ Aishwarya's autonomous-driving example shows a stricter adoption curve. Users
 must trust a driverless ride. Regions also need safety, scalability, and
 regulatory fit before expansion
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|19:41-32:48]]).
+
+Healthcare ML shows operating fit in a career transition because [[Data Science]]
+skills can transfer into healthcare. Entry can start with
+technical work, while research and device deployment roles need different
+clinical context. Sepsis becomes working vocabulary with
+context.[[cite:building-healthcare-machine-learning-systems|Healthcare|53:31]]
+That links [[healthcare-ml-validation-and-adoption=>healthcare ML validation]]
+and [[career-transitions-in-data=>career transitions in data]] to the same
+industrial ML boundary. Technical skill opens the door, but clinical context and
+regulatory workflow determine whether the system is useful.[[cite:building-healthcare-machine-learning-systems|Healthcare|55:46]]
 
 ## Related Pages
 

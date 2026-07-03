@@ -105,6 +105,15 @@ The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
 break the model too.
 
+Deployment population is part of the monitored distribution. In healthcare, a
+model developed on European patients may not generalize to African clinical
+settings. Disease prevalence, available measurements, collection practices, and
+infrastructure can differ. European data can still inform reasoning, but it
+shouldn't automatically justify an algorithm for a low-resource setting
+[[cite:building-healthcare-machine-learning-systems|Healthcare ML Systems|35:45]].
+That makes population coverage a [[Machine Learning System Design]] constraint
+as well as a [[data-quality-and-observability=>data observability]] signal.
+
 Barr Moses covers silent data incidents and model drift. She also covers
 freshness, volume, and distribution as data reliability signals. Schema and
 lineage matter too

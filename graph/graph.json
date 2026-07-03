@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11135
+    "links": 11146
   },
   "nodes": [
     {
@@ -30944,6 +30944,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
       "kind": "wiki-chip",
       "weight": 1
@@ -31053,6 +31059,12 @@
     {
       "source": "wiki:computer-vision",
       "target": "wiki:governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52286,6 +52298,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -52322,6 +52340,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "wiki:computer-vision",
       "kind": "wiki-chip",
       "weight": 1
@@ -52355,10 +52379,22 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:industrial-ml-applications",
       "target": "wiki:evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57459,6 +57495,12 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "podcast:crisp-dm",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63453,6 +63495,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "podcast:building-healthcare-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74036,6 +74084,12 @@
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
       "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -74063,6 +74117,18 @@
       "target": "wiki:data-pipelines",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",

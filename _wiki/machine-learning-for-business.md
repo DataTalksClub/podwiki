@@ -145,6 +145,16 @@ baseline might be a rule or spreadsheet. It might be a SQL query, dashboard, or
 manual review queue. It might also be an expert checklist or existing vendor
 workflow.
 
+The CRISP-DM workflow uses the baseline as an evaluation gate. It asks the team
+to measure a rule-based category suggestion first.[[cite:crisp-dm|CRISP-DM Methodology|17:05]]
+
+A working baseline then moves into evaluation against the original business
+objective instead of making model accuracy the finish line.[[cite:crisp-dm|CRISP-DM Methodology|17:05]]
+
+That keeps [[evaluation]] tied to an operating [[metrics=>metric]] like reduced
+moderator correction time. It also keeps extra features or complex
+models subject to ROI instead of technical curiosity.[[cite:crisp-dm|CRISP-DM Methodology|18:23]]
+
 In
 [[podcast:machine-learning-system-design-interview=>ML System Design Interviews]],
 [[person:valeriybabushkin=>Valeriy Babushkin]] uses
