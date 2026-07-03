@@ -81,6 +81,13 @@ The project should answer these review questions:
 - Which checks catch bad data, bad logic, weak retrieval, or model failure?
 - How can a reviewer run the project or look at the result?
 
+[[person:dannyma=>Danny Ma]] adds a learning-order test:
+start by building, then learn the theory when the project exposes a real gap
+[[cite:data-science-career-abc-framework|Data Science Career ABC Framework]].
+That makes the project more reviewable. The writeup can show where a method,
+metric, model, or tool became necessary instead of presenting theory as
+decoration.
+
 [[person:eugeneyan=>Eugene Yan]] adds the writeup
 standard in
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
@@ -274,6 +281,12 @@ and SQL. He also asks for clean code, tests, and open-source review pressure
 [[person:ellenkonig|Ellen König]]
 adds professional software habits and domain-specific pipeline projects
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+
+[[person:dannyma=>Danny Ma]] frames role fit as Analyst, Builder, and
+Consultant profiles. In that model, a portfolio should reveal the candidate's
+strongest mode of work. The evidence might come from analysis and storytelling,
+production-oriented building, or stakeholder-facing problem shaping
+[[cite:data-science-career-abc-framework|Data Science Career ABC Framework]].
 
 [[person:victoriaperezmola=>Victoria Perez Mola]] and
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] connect

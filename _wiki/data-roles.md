@@ -26,12 +26,24 @@ which data capability should exist and how success will be measured.
 
 The boundaries move by company size and maturity. The role overview in
 [[podcast:data-team-roles=>Data Team Roles Explained]]
-separates the team flow, and DataTalks.Club's companion
+separates the team flow. DataTalks.Club's companion
 [Data Team Roles Explained write-up](https://datatalks.club/blog/data-roles.html)
 is the canonical role-by-role reference for that breakdown.
 Product managers stay close to users, analysts quantify problems and KPIs, and
 data scientists predict and evaluate. Data engineers prepare usable data, while
 machine learning engineers help scale model-backed services.
+
+[[person:dannyma=>Danny Ma]] adds the ABC framework as a role-fit lens for the
+same comparison
+([[cite:data-science-career-abc-framework|Data Science Career ABC Framework]]).
+Analyst work centers on exploration and visualization, plus storytelling and
+metrics. Builder work centers on ML engineering and production systems,
+including [[MLOps]] and technical debt. Consultant work centers on stakeholder
+persuasion, strategy, and leadership.
+
+Use that split to decide where a broad data science path fits. It may be closer
+to the [[Data Analyst Role]] or the [[Machine Learning Engineer Role]]. It may
+also point toward [[Data Science for Managers]].
 
 In [[podcast:building-data-team|How to Build and Scale ML Teams]],
 [[person:dattran=>Dat Tran]] adds the startup version.
@@ -373,4 +385,3 @@ language of that role. Recruiters and hiring managers shouldn't have to infer
 whether you want analytics, data science, or data engineering. They also
 shouldn't have to infer whether you want ML engineering or data product work.
 Your project, resume, and interview story should make that choice visible.
-

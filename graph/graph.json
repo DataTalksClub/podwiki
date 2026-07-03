@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11026
+    "links": 11037
   },
   "nodes": [
     {
@@ -32684,6 +32684,12 @@
     },
     {
       "source": "wiki:data-analyst-role",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-role",
       "target": "podcast:data-team-roles",
       "kind": "wiki-chip",
       "weight": 1
@@ -39788,6 +39794,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "person:dannyma",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "person:dattran",
       "kind": "wiki-chip",
       "weight": 1
@@ -39903,6 +39915,12 @@
     {
       "source": "wiki:data-roles",
       "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "podcast:data-science-career-abc-framework",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40107,6 +40125,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:data-science-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40454,6 +40478,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -40574,6 +40604,18 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -40634,6 +40676,12 @@
     },
     {
       "source": "wiki:data-science-for-managers",
+      "target": "person:dannyma",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
       "target": "person:dattran",
       "kind": "wiki-chip",
       "weight": 1
@@ -40653,6 +40701,12 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:building-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:data-science-career-abc-framework",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66998,6 +67052,12 @@
     },
     {
       "source": "wiki:portfolio-projects",
+      "target": "person:dannyma",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
       "target": "person:ellenkonig",
       "kind": "wiki-chip",
       "weight": 1
@@ -67119,6 +67179,12 @@
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:data-science-career-abc-framework",
       "kind": "wiki-chip",
       "weight": 1
     },

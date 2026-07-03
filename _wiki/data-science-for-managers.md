@@ -48,6 +48,19 @@ experts. She contrasts that with the data science expert, who brings deep
 technical and domain expertise for complex model work
 ([[podcast:data-science-manager-vs-expert-hiring-guide|12:02-28:48]]).
 
+[[person:dannyma=>Danny Ma]] gives another version of that scope in his ABC
+framework. The Type C consultant profile sits between business needs and
+delivery work. Its day-to-day scope is stakeholder persuasion and team
+leadership.
+
+Ma treats the move into Type C as a shift away from routine hands-on delivery.
+The new center is commercial judgment and people management: a leader has to
+convince executives without selling infeasible work
+[[cite:data-science-career-abc-framework|Data Science Career ABC Framework]].
+That makes the manager's scope depend on
+[[Business Skills for Data Professionals]],
+[[Leadership]], and [[Data Team Lead Role]], not only on model fluency.
+
 That split matters for role design. A company with an execution bottleneck may
 need a manager who can build the team, negotiate scope, and coordinate client
 or stakeholder needs. A company with a hard modeling bottleneck may need an
