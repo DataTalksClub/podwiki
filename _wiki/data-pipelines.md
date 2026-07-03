@@ -263,6 +263,19 @@ practices belong there too. A split between platform work and use-case pipelines
 helps teams avoid rewriting the same orchestration, access, and recovery rules
 for every project.
 
+Cloud-native storage conventions matter when the pipeline works over dense
+imagery instead of ordinary tables. Daynan Crull's asteroid-mining discussion
+contrasts cloud-native access with local downloads that make analysts manage
+massive image files.
+
+He names Cloud Optimized GeoTIFFs, or COGs, from Earth observation. He also
+names STAC-style asset catalogs as a better storage and query approach. The
+data stays close to cloud compute. Analysts query only the relevant tiles, so
+the pipeline avoids downloading or cutting whole files before analysis
+[[cite:machine-learning-for-asteroid-mining-and-water-detection|Asteroid Mining and Water Detection|42:23]].
+That convention links pipeline design to [[Data Engineering Platforms]],
+storage layout, and analyst-facing query access.
+
 [[person:pauliusztin=>Paul Iusztin]] and
 [[person:marianosemelman=>Mariano Semelman]] extend the platform
 discussion into AI systems. Paul frames the AI engineer as a full-stack role

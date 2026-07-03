@@ -142,6 +142,19 @@ and AGPL licensing as part of the business model. The founder has to decide
 what stays public, what protects the company, and how users move from
 open-source adoption to a sustainable product.
 
+Will McGugan adds a route from games to open source to a company. The episode
+is
+[[podcast:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+He starts in video games and ends at Textualize. Before that company he worked
+on desktop software and chess tools. He also did web work and Python
+freelancing
+[[cite:open-source-turned-into-career-and-startup-creation|Founder path|2:07]].
+
+A community-built terminal UI shows Textual's opening. Visible open-source
+projects and demos created the distribution signal before the company story was
+fully formed
+[[cite:open-source-turned-into-career-and-startup-creation|Rich to Textual|26:39]].
+
 [[person:belawiertz=>Bela Wiertz]] gives the investor
 view in
 [[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]].

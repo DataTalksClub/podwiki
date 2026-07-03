@@ -81,6 +81,18 @@ becomes part of [[evaluation]]: a model
 metric is only meaningful if the human label quality and business threshold are
 understood.
 
+Daynan Crull shows the harder scientific version of the same constraint in
+[[podcast:machine-learning-for-asteroid-mining-and-water-detection=>Machine Learning for Asteroid Mining and Water Detection]].
+For planetary ML, validation labels come from physical evidence. That evidence
+can include returned asteroid samples, meteorites, and remote observations.
+
+Crull says ground truth is scarce because returned samples are few and
+meteorites remain imperfect proxies after atmospheric entry changes their
+chemistry. That turns annotation quality into a validation-design problem.
+Teams use scarce ground truth to check bias and avoid confident wrong
+classifications
+[[cite:machine-learning-for-asteroid-mining-and-water-detection|Asteroid Mining and Water Detection|22:00]].
+
 ## Measuring Agreement, Throughput, and Fatigue
 
 The central quality signal in Swart's episode is inter-annotator agreement. At

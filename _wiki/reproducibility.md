@@ -13,13 +13,13 @@ related:
 ---
 
 Reproducibility means a team can rerun a data result, review it, or explain it
-after the original work has moved on. It is not just a research virtue or a
+after the original work has moved on. It isn't just a research virtue or a
 tooling label. It's the operating habit that connects an output to the code,
 data, environment, and parameters behind it. It also preserves the tests,
 approvals, and people who shaped the result.
 
-Reproducibility appears in three connected settings. The research version
-packages code and papers and preserves data and environments so another
+Reproducibility appears in research, DataOps, and MLOps settings. The research
+version packages code with papers while preserving data and environments so another
 researcher can recreate the result
 ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]]).
 The [[DataOps]] version relies on immutable
@@ -28,8 +28,8 @@ datasets and functional transformations
 
 The [[MLOps]] version runs through
 [[Experiment Tracking]],
-[[Model Registry]], metadata, and
-lineage, connecting reproducibility to data references, containers, and
+[[Model Registry]], metadata, and lineage. It connects reproducibility to data
+references, containers, and
 deployment records
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
@@ -54,12 +54,21 @@ be a paper figure or analytics table. It may also be a model artifact,
 dashboard, or prediction. Someone other than the original author can look at the
 assumptions, rerun the work, or explain why the result changed.
 
-In research, a reproducible-paper example packages code with the manuscript so
-another person can start from the data and regenerate the paper. Turned into
-engineering practice, this means project structure, environments, Git branches,
-and formatting, plus MLflow for model version control and preserved metadata or
-model parameters when sensitive clinical data can't be shared
+In research, a reproducible-paper example packages code with the manuscript.
+Another person can start from the data and regenerate the paper.
+
+In engineering practice, the same idea becomes project structure and
+environments. It also uses Git branches and formatting. The record can include
+MLflow for model version control. It can also preserve metadata or model
+parameters when sensitive clinical data can't be shared
 ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]]).
+
+A lighter record can still improve reproducibility when it captures experiment
+intent and outcomes. In a machine learning competition, Christoph Molnar used an
+Obsidian logbook for short daily notes. The notes recorded what he tried and
+where he got stuck. They also captured why a failed attempt such as adding
+weather data let him move to the next experiment
+([[cite:interpretable-machine-learning|Interpretable Machine Learning|36:21]]).
 
 On a data platform, mutable warehouse-style tables make reruns unstable because
 the same ETL process can produce different results at different times. The
@@ -67,10 +76,10 @@ answer is immutable raw data plus functional transformations, orchestrated as
 pipelines that create new datasets instead of overwriting old ones
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
 
-In ML delivery, full reproducibility is hard, but tying code to data versions
-helps teams reverse-engineer what happened. Maturity is part of the definition:
-smaller teams may not need full data versioning on day one, but work with
-regulation or customer-facing decisions may need it earlier
+Full reproducibility is hard in ML delivery. Tying code to data versions helps
+teams reverse-engineer what happened. Maturity is part of the definition:
+smaller teams may not need full data versioning on day one. Work with regulation
+or customer-facing decisions may need it earlier
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
 ## Domain Priorities
@@ -79,24 +88,24 @@ Priorities differ most on scope and timing. Some approaches start from teaching,
 while others start from operations or platform risk.
 
 From a teaching standpoint, researchers and junior data scientists need Git,
-data management, and reproducible examples, along with an end-to-end view of a
-project before they enter teams that depend on their work
+data management, and reproducible examples. They also need an end-to-end view of
+a project before they enter teams that depend on their work
 ([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
 
 From an operations standpoint, one emphasis is architectural immutability and
-raw-data history, and another is delivery discipline: teams put code, reports,
-and transformations in version control, run automated tests, use CI/CD, and run
+raw-data history. Another is delivery discipline. Teams put code, reports, and
+transformations in version control. They run automated tests, use CI/CD, and run
 the whole system against test data when possible
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
 
-From an ML platform standpoint, the focus is experiment tracking, model
-registries, metadata, data references, deployment records, package registries,
-and monitoring. Copying every training dataset into an experiment tracker is
-risky: large datasets can make that approach unworkable, and cost and GDPR
-deletion requests can do the same
+From an ML platform standpoint, the focus is experiment tracking and model
+registries. It also includes metadata, data references, and deployment records.
+Package registries and monitoring belong in the same record. Copying every
+training dataset into an experiment tracker is risky. Large datasets can make
+that approach unworkable, and cost and GDPR deletion requests can do the same
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-The disagreement is not about whether reproducibility matters but about where to
+The disagreement isn't about whether reproducibility matters but about where to
 spend the next unit of effort. A research lab may need tests and a reproducible
 paper template. A data platform may need immutable raw inputs and workflow
 orchestration.
@@ -108,67 +117,78 @@ lineage.
 ## Research and Teaching
 
 In academia, reproducibility is a skill gap as much as a tooling gap. Academia
-faces a reproducibility crisis: people publish papers that others can't
+faces a reproducibility crisis. People publish papers that others can't
 recreate, especially in fields such as neuroimaging
 ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]]).
 A course sequence for this starts with Git and reproducible publications, then
-moves into tests, open source contribution, packaging, environments, and
-requirements files.
+moves into tests, open source contribution, and packaging. Environments and
+requirements files come next.
 
-The same gap appears in data science education: labs often lack training for
+The same gap appears in data science education. Labs often lack training for
 long-lived data management, collaboration, and complete reproduction of code.
 DVC work at Iterative and later teaching help applied data science students make
-educated choices about managing projects before they enter industry
+project-management choices. Those choices matter before they enter industry
 ([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
 
 The research-to-production bridge matters too. Researchers use notebooks,
-benchmarks, and tools such as Weights & Biases to validate hypotheses, which
-contrasts with the ML engineer's responsibility for deployment, uptime,
-monitoring, Docker, cloud infrastructure, and web services. Reproducibility
+benchmarks, and tools such as Weights & Biases to validate hypotheses. That
+contrasts with the ML engineer's responsibility for deployment, uptime, and
+monitoring. It also includes Docker, cloud infrastructure, and web services.
+Reproducibility
 improves when researchers learn engineering fundamentals and engineers learn how
 to reproduce models and track experiments
 ([[podcast:research-to-production-ml-systems-roadmap|From Research to Production]]).
 
+In space-resource research, Daynan Crull framed notebooks as useful for telling
+the story of data. He said he doesn't develop in them because they can teach bad
+developer habits. Teams can treat notebooks as narrative evidence, then move
+reviewable work into regular code
+([[cite:machine-learning-for-asteroid-mining-and-water-detection|Asteroid Mining and Water Detection|1:00:11]]).
+
 ## Data Pipelines
 
-Pipeline reproducibility starts with stable inputs. Immutable raw data is the
-foundation: teams should transform immutable datasets into new datasets rather
-than mutate tables in place, and add workflow orchestration so pipelines have
-explicit dependencies and late data, transient failures, and bugs can be retried
-and repaired
+Pipeline reproducibility starts with stable inputs, and immutable raw data is the
+foundation. Teams should transform immutable datasets into new datasets rather
+than mutate tables in place. They should add workflow orchestration so pipelines
+have explicit dependencies and late data, transient failures, and bugs can be
+retried and repaired
 ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101]]).
 
-From the delivery path, practical steps are version control, automated tests,
-development tests, deployment automation, and error tracking. Beyond unit tests,
-data teams should run the system end to end against realistic test data, keep
-tests close to the code, and run checks in development and production
+From the delivery path, practical steps include version control, automated
+tests, and development tests. They also include deployment automation and error
+tracking. Beyond unit tests, data teams should run the system end to end against
+realistic test data. They should keep tests close to the code and run checks in
+development and production
 ([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
 
 Infrastructure belongs in the same reproducibility conversation. Infrastructure
-as code with Terraform, Terragrunt, and Atlantis, plus merge requests, review,
-and dry runs, keeps environments reproducible. In one dependency example, an
-unspecified Python package version caused a Dockerized application to fail after
-it fetched a newer API. Pinning versions isn't ceremony there because it
-prevents a future run from silently becoming a different run
+as code keeps environments reproducible when Terraform, Terragrunt, and Atlantis
+are paired with merge requests. Review and dry runs make that path safer. In one
+dependency example, an unspecified Python package version caused a Dockerized
+application to fail after it fetched a newer API. Pinning versions isn't
+ceremony there because it prevents a future run from silently becoming a
+different run
 ([[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]]).
 
 ## MLOps and Platforms
 
 ML reproducibility extends the pipeline record with experiment and artifact
-history. Experiment tracking is an early win for collaboration, and the tracked
-run sits near the model registry because a useful run may become an artifact
-that downstream systems consume
+history. Experiment tracking is an early win for collaboration. The tracked run
+sits near the model registry because a useful run may become an artifact that
+downstream systems consume
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-The record expands from there: a platform may need to store which job image ran,
+
+The record expands from there. A platform may need to store which job image ran,
 which inputs it consumed, which outputs it wrote, and how metadata connects
 across pipeline runs. The model registry alone isn't enough to reproduce a model
-result from three years ago; code versions, data versions, metadata, and
+result from three years ago. Code versions, data versions, metadata, and
 workflow design all matter.
 
 This becomes an adoption sequence that groups CI, repository structure, and
-parameterization with testing and experiment preservation, and starts from a
-real pain point: CI/CD when deployment takes months, monitoring when models are
-opaque in production, and missing version control escalated immediately
+parameterization with testing and experiment preservation. It starts from a real
+pain point. Examples include CI/CD when deployment takes months, monitoring when
+models are opaque in production, and missing version control that escalates
+immediately
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
 Teams should add experiment tracking and model registries when they remove a
@@ -178,14 +198,14 @@ registries, and containers.
 ## Data Boundaries and Governance
 
 Reproducibility can conflict with privacy, cost, and governance. In research,
-sensitive consortium data can't simply be pushed to a repository, though model
+sensitive consortium data can't simply be pushed to a repository. Model
 parameters and metadata may still be shareable
 ([[podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia|Teaching Open Science and Reproducible Research]]).
 
-On a platform, tools that log a query or metadata differ from tools that copy
-the full dataset artifact. Copying a 50 GB training dataset for every run can
-create cost problems, and GDPR deletion problems too, because the team may need
-to find and remove one person's data across many duplicated artifacts
+On a platform, metadata logging differs from copying the full dataset artifact.
+Copying a 50 GB training dataset for every run can create cost problems. It can
+also create GDPR deletion problems because the team may need to remove one
+person's data across many duplicated artifacts
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 Lakes raise a similar point: raw dumps and history help teams reproduce past
