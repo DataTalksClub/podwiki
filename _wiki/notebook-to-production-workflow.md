@@ -38,12 +38,10 @@ the [[llm-rag-production-roadmap|LLM and RAG Production Roadmap]]
 alongside this sequence.
 
 [[person:marianosemelman=>Mariano Semelman]] frames the
-transition in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
-as end-to-end ownership. Around 17:27-21:12, he maps modern AI work back to
-CRISP-DM. Teams still need business understanding, data understanding, and
-preparation. They also need modeling, evaluation, and deployment. Use the
-notebook as one working surface inside that lifecycle, not as the product.
+transition as end-to-end ownership and maps modern AI work back to CRISP-DM.
+In that lifecycle, teams understand the business and data first. They then
+prepare data, model, evaluate, and deploy. Use the notebook as one working
+surface inside that lifecycle, not as the product [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
 
 ## Define The Decision Before The Model
 
@@ -51,28 +49,22 @@ Name the business decision before you name the model. A notebook can make a
 prediction look useful while the real workflow needs a rule or ranking. It may
 need a review queue, retrieval answer, or product action instead.
 
-Mariano uses business-to-ML translation to draw that boundary.
-Around 31:42-37:39 in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
-he argues that teams sometimes need a decision or workflow rather than a model
-call. Keep [[AI Engineering]] and
-[[Data Products]] close to the
-problem framing. Don't treat deployment as a packaging step.
+Mariano uses business-to-ML translation to draw that boundary. Teams sometimes
+need a decision or workflow rather than a model call [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
+Keep [[AI Engineering]] and [[Data Products]] close to the problem framing.
+Don't treat deployment as a packaging step.
 
 [[person:linaweichbrodt=>Lina Weichbrodt]] gives the
-intake checklist in
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
-Around 4:50-10:26, she starts with the business case and KPIs. She also checks
-alternative solutions and problem specificity before modeling. Around
-12:22-18:29, she adds stakeholder pairing, buy-in, and concern handling. Use
-those conversations to define success and failure before any production code
-exists.
+intake checklist: start with the business case and KPIs, then check alternative
+solutions and problem specificity before modeling. She also adds stakeholder
+pairing, buy-in, and concern handling [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+Use those conversations to define success and failure before any production
+code exists.
 
 Mariano's earlier leadership and MLOps discussion makes the same boundary
 product-first. He connects the "Rules of ML" to experiments and deployment. His
 start-simple/fail-fast advice puts product feedback and fast learning before
-heavier model or platform complexity
-[[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
+heavier model or platform complexity [[cite:data-science-leadership-hiring-mlops|Data Science Leadership, Hiring, and MLOps]].
 The first production version should be the smallest baseline that can touch the
 workflow. It should show whether users and KPIs move before the team adds
 complexity.
@@ -99,28 +91,21 @@ memory. Keep the notebook if it helps exploration, but move reusable code into
 modules and tests. Add configuration plus scheduled or callable entry points.
 
 [[person:benwilson=>Ben Wilson]] gives the maintainable
-code boundary in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-Around 6:50-13:19, he ties production readiness to maintainability, modular
+code boundary. He ties production readiness to maintainability, modular
 components, and testability. He also ties it to stakeholder buy-in and avoiding
-overcomplicated solutions. Around 8:49, he describes refactoring
-notebook-shaped "walls of text" into smaller pieces that someone can test and
-change.
+overcomplicated solutions. He describes refactoring notebook-shaped "walls of
+text" into smaller pieces that someone can test and change [[cite:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
 
 [[person:mihaileric=>Mihail Eric]] gives the
-research-to-production version in
-[[podcast:research-to-production-ml-systems-roadmap=>From Research to Production]].
-Around 10:52-17:35, researchers use notebooks, experiment tooling, and
-benchmarks for hypothesis-driven work. Around 17:35-23:32, the ML engineer owns
-the full lifecycle with PyTorch and Docker. They also work with cloud
-infrastructure and web frameworks. He emphasizes engineering rigor and
-reproducibility too.
+research-to-production version. Researchers use notebooks, experiment tooling,
+and benchmarks for hypothesis-driven work. The ML engineer owns the full
+lifecycle with PyTorch and Docker. They also work with cloud infrastructure and
+web frameworks, and they bring engineering rigor and reproducibility [[cite:research-to-production-ml-systems-roadmap|From Research to Production]].
 
 [[person:danielegbo=>Daniel Egbo]] adds the learner-to-practitioner version of
 the same transition. In his discussion of ML Zoomcamp, the shift is practical.
 Learners move from exploratory analysis toward reusable code, project
-structure, and production habits
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]].
+structure, and production habits [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]].
 
 Use a small project structure before you add platform complexity:
 
@@ -169,14 +154,13 @@ the path from ingestion to training, retrieval, batch scoring, or online
 inference as a pipeline people can look at.
 
 [[person:andreaskretz=>Andreas Kretz]] walks through the
-classic production-ML version in
-[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
-Around 9:47-25:36, he moves from notebooks into ingestion and buffers. He also
-covers processing, storage, and Docker jobs. Cloud storage such as Parquet on
-S3 is part of that path. SQL or dataframe transformations sit there too.
+classic production-ML version. He moves from notebooks into ingestion and
+buffers, then covers processing, storage, and Docker jobs. Cloud storage such
+as Parquet on S3 is part of that path. SQL or dataframe transformations sit
+there too [[cite:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]].
 
-Around 15:11-16:51, he distinguishes event ingestion with queues such as Kafka
-or Kinesis from batch processing.
+Andreas also distinguishes event ingestion with queues such as Kafka or Kinesis
+from batch processing [[cite:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]].
 
 Use the simpler path until a harder requirement forces a more complex one:
 
@@ -198,11 +182,10 @@ when freshness changes the architecture. Use
 only after your workflow needs scheduling, dependencies, retries,
 or backfills.
 
-Andreas makes the orchestration boundary practical around 35:46-41:06 in
-[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
-He compares Airflow with simpler schedulers, CloudWatch, and Lambda. He also
-discusses queues and Kubernetes. He then recommends starting simple and
-iterating when the workflow needs more control.
+Andreas makes the orchestration boundary practical when he compares Airflow
+with simpler schedulers, CloudWatch, and Lambda. He also discusses queues and
+Kubernetes, then recommends starting simple and iterating when the workflow
+needs more control [[cite:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]].
 
 ## Turn Research Into Evaluation Gates
 
@@ -213,18 +196,13 @@ It should also catch regressions from model, retrieval, serving-code, and data
 source changes.
 
 Mariano connects complex AI systems to gold-standard datasets and systematic
-evaluation around 26:32-28:04 in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
-In the OLX content-generation example, he also discusses prompt engineering and
-LLM-as-judge checks for factuality against the input listing around
-47:22-49:55 and 57:33-58:45.
+evaluation. In the OLX content-generation example, he also discusses prompt
+engineering and LLM-as-judge checks for factuality against the input listing [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
 
 For classic ML, Ben adds testing alongside timeboxed bake-offs and cost-benefit
-tradeoffs. Around 32:03-55:41 in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]],
-he pushes teams toward simpler baselines and iterative MVPs. He also emphasizes
-feature engineering and tests before teams invest in harder-to-maintain
-approaches.
+tradeoffs. He pushes teams toward simpler baselines and iterative MVPs. He also
+emphasizes feature engineering and tests before teams invest in
+harder-to-maintain approaches [[cite:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
 
 Build evaluation gates before launch:
 
@@ -245,11 +223,10 @@ If the system uses retrieval, test retrieval quality separately from answer
 generation so failures don't hide behind one aggregate score.
 
 [[person:pauliusztin=>Paul Iusztin]] adds the
-AI-engineering version in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-His discussion ties data trust, integration tests, prompt evaluation, and cost
-checks to production AI readiness. Use that episode when the notebook contains
-prompts, agents, or model calls that need tests beyond offline accuracy.
+AI-engineering version. His discussion ties data trust, integration tests,
+prompt evaluation, and cost checks to production AI readiness [[cite:production-ready-ai-engineering|Production AI Engineering]].
+Use that episode when the notebook contains prompts, agents, or model calls
+that need tests beyond offline accuracy.
 
 ## Package Serving Around The Product Boundary
 
@@ -257,26 +234,20 @@ Choose serving after you know who needs the output and how quickly they need it.
 Some systems can precompute predictions or embeddings. Others need an API,
 worker, queue, or batch job. Some need a dashboard or human review interface.
 
-Andreas gives the serving choices in
-[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
-Around 31:33, he compares live API calls with precomputed predictions. Around
-34:16, he discusses Dockerized training and model storage. Around 37:53, he
-covers managed endpoints and cost tradeoffs. Around 40:01, message queues
-become a way to sequence jobs instead of turning everything into a single
-synchronous request.
+Andreas compares live API calls with precomputed predictions. He discusses
+Dockerized training, model storage, managed endpoints, and cost tradeoffs. He
+also uses message queues to sequence jobs instead of turning everything into a
+single synchronous request [[cite:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]].
 
-Mariano's later AI-system example shows a modern service stack. Around
-55:28-1:02:53 in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
-he moves away from notebooks toward services and observability tools. In that
-stack discussion, he names FastAPI, `uv`, and Arize.
+Mariano's later AI-system example shows a modern service stack. He moves away
+from notebooks toward services and observability tools, naming FastAPI, `uv`,
+and Arize in that stack discussion [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
 
 Sabina Firtala's domestic risk assessment work adds the high-stakes version of
 the same boundary. A model leaves research only when frontline users can work
 with it as a decision-support workflow. That production surface includes UI,
 training, trust-building, and explicit operational limits. It's not only
-scoring code
-[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
+scoring code [[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
 
 Keep control boundaries explicit:
 
@@ -291,16 +262,14 @@ Keep control boundaries explicit:
    review states.
 
 [[person:meryemarik=>Meryem Arik]] gives the LLM serving
-tradeoff in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-Her discussion compares fine-tuning and retrieval with hosted APIs and
-open-source models. It also covers latency, cost, and drift. Use that framing
-when the notebook result can ship as retrieval, a prompt chain, a tuned model,
-or an external API call.
+tradeoff. Her discussion compares fine-tuning and retrieval with hosted APIs
+and open-source models. It also covers latency, cost, and drift [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
+Use that framing when the notebook result can ship as retrieval, a prompt
+chain, a tuned model, or an external API call.
 
-Mariano's caution around 31:42-37:39 matters here too: if structured code or a
-rule solves the problem, don't hide that logic inside a model call. That advice
-is useful when you work with
+Mariano's caution matters here too. If structured code or a rule solves the
+problem, don't hide that logic inside a model call [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
+That advice is useful when you work with
 [[Agent Engineering]],
 [[agent-engineering=>AI Agents]], and
 [[LLM Production Patterns]].
@@ -312,22 +281,17 @@ Launch only after someone owns service levels, monitoring, incident response,
 and feedback intake. A notebook ends when the analysis is convincing. A
 production system keeps changing after users see it.
 
-Lina's
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
-episode gives the release operating model. Around 24:34-32:11, she discusses
-service levels and impact assessment before incident response and postmortems.
-Her operating model also includes live test sets, small A/B tests, and
-root-cause debugging.
+Lina's episode gives the release operating model. She discusses service levels
+and impact assessment before incident response and postmortems. Her operating
+model also includes live test sets, small A/B tests, and root-cause debugging [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
 
-Around 36:41-42:03, user bug reports and postmortem action items turn
-production failures into backlog work. Around 46:28-49:28, she covers input
-distribution changes and feature drift. She also covers logging, feature stores,
-and reproducibility.
+User bug reports and postmortem action items turn production failures into
+backlog work. Lina also covers input distribution changes and feature drift.
+She covers logging, feature stores, and reproducibility too [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
 
-Mariano adds the AI-product feedback path around 39:28-41:28 in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
-Users may give explicit feedback, or their behavior may show whether the output
-helped. Capture both paths when they're available.
+Mariano adds the AI-product feedback path: users may give explicit feedback, or
+their behavior may show whether the output helped. Capture both paths when
+they're available [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
 
 Monitor at four levels:
 
