@@ -245,6 +245,24 @@ standardize the platform. A scaling roadmap may turn manual operational work
 into a reliable data or ML workflow
 ([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product scaling roadmap at 35:34-47:18]]).
 
+AI roadmap prioritization needs product judgment because the PM connects
+customer problem areas to possible AI tools.[[cite:ai-ml-product-design-and-experimentation|AI product design|37:15]]
+
+That role keeps weak defaults in check. Management may prescribe model types
+early, while data scientists may prioritize from datasets before the
+customer problem is clear.[[cite:ai-ml-product-design-and-experimentation|AI product design|37:15]]
+
+This makes the role depend on
+[[Product Analytics]] and
+[[Experimentation]].
+Quarterly OKRs can tune a metric, but larger AI product bets may need protected
+exploration time outside the three-month delivery lane.[[cite:ai-ml-product-design-and-experimentation|AI product design|39:33]]
+
+When those bets compete with the normal backlog, PMs need measurable proof
+points. Quick surveys and product tests can turn an idea into a
+[[Data Product Intake and Prioritization]]
+case.[[cite:ai-ml-product-design-and-experimentation|AI product design|54:11]]
+
 Roadmap quality depends on the engineers, data scientists, analysts, and
 business owners in
 [[Data Teams]]. Each group affects

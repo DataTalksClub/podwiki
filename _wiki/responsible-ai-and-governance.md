@@ -64,6 +64,14 @@ the team may remove it or transform it. It may also add human review or monitor
 the feature with stricter drift checks. The podcast discussions treat those
 choices as design and governance work, not paperwork after launch.
 
+Product-centric fairness turns the same decision into
+[[Software Engineering]] and product work. The question isn't only whether the
+model is biased. It asks whether requirements, surrounding software components,
+team boundaries, and release checks reduce harm in the complete product.
+That connects responsible AI to [[practices]], [[Data Product Management]], and
+[[Machine Learning System Design]]
+([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning|54:16]]).
+
 Healthcare experimentation shows how the boundary changes by risk. Stefan
 Gudmundsson contrasts low-risk app tests with medical recommendations that need
 safety constraints before they enter an experiment. A hydration prompt may be
@@ -174,6 +182,16 @@ effects to debug leakage, while a product owner may need a launch decision. A
 compliance reviewer may need evidence that a sensitive feature was handled
 deliberately. An affected person may need a meaningful reason and a way to
 contest the outcome.
+
+Healthcare and education examples make explanation requirements stakeholder
+specific. A medical or classroom risk product may need different explanations
+for students, parents, teachers, and counselors. Clinical and regulatory review
+may need different evidence. The engineering task is to define which decision
+each audience must review.
+
+It also defines what the interface exposes. Product safety or regulation may
+require a human path rather than a bare model score
+([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning|47:16]]).
 
 For LLM and agent systems,
 [[LLM Evaluation Workflows]]

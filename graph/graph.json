@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 97,
     "nodes": 1113,
-    "links": 11107
+    "links": 11123
   },
   "nodes": [
     {
@@ -25268,6 +25268,12 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -25346,6 +25352,12 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -25391,6 +25403,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-red-teaming",
@@ -43556,6 +43574,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -43652,6 +43676,24 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -43661,6 +43703,12 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-teams",
@@ -61010,6 +61058,12 @@
     },
     {
       "source": "wiki:ml-product-manager-role",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -61100,6 +61154,12 @@
     },
     {
       "source": "wiki:ml-product-manager-role",
+      "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -61163,6 +61223,12 @@
       "target": "wiki:platform-adoption",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -63740,6 +63806,12 @@
     },
     {
       "source": "wiki:model-registry",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
       "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
@@ -63759,6 +63831,12 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:developer-experience",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:documentation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -72020,6 +72098,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -72122,6 +72206,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-chip",
       "weight": 1
@@ -72143,6 +72233,12 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:retrieval-augmented-generation",

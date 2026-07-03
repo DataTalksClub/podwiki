@@ -36,8 +36,8 @@ An AI product feedback loop ties a product action to an observed signal, plus a
 decision rule and an owner who changes the system.
 [[person:marianosemelman=>Mariano Semelman]]
 separates explicit user feedback from implicit behavior. His e-commerce examples
-cover generated media and listing workflows, so the useful signal isn't only
-whether a model produced a fluent answer; the team also needs to know whether
+cover generated media and listing workflows. The useful signal isn't only
+whether a model produced a fluent answer. The team also needs to know whether
 sellers accept, edit, ignore, or benefit from the generated output
 ([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
 
@@ -46,8 +46,8 @@ and [[Experimentation]]. AI
 products also add model behavior and drift to the product loop.
 
 Finance teams struggle with ERP rigidity, spreadsheet dependency, and hidden
-knowledge loss, and the product direction is augmented decision insight rather
-than an opaque replacement for finance teams
+knowledge loss. The product direction is augmented decision insight rather than
+an opaque replacement for finance teams
 ([[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making]]).
 For that kind of system, the feedback signal must include whether finance users
 trust and act on the recommendation. A spreadsheet summary isn't enough.
@@ -55,13 +55,16 @@ trust and act on the recommendation. A spreadsheet summary isn't enough.
 ## Different Failure Modes
 
 Each product fails in a different way, so each guest starts from a different
-signal. Mariano starts from end-to-end product ownership: business requirements,
+signal. Mariano starts from end-to-end product ownership. Business requirements,
 evaluation, deployment, and monitoring all belong to the same AI product system
 ([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
 That view keeps product signals close to [[AI engineering]]
 and [[MLOps]].
+
 [[book:20211122-building-machine-learning-powered-applications=>Building Machine Learning Powered Applications]]
-by Emmanuel Ameisen structures the same feedback-driven approach to shipping ML products: prototype, evaluate against user behavior, and iterate before and after launch.
+by Emmanuel Ameisen structures the same feedback-driven approach to shipping ML
+products. Teams prototype, evaluate against user behavior, and iterate before
+and after launch.
 
 Anusha Akkina starts earlier, with user research and workflow pain. The finance
 episode covers ChatGPT prototyping and interviews before the product settles on
@@ -72,28 +75,43 @@ with current ERP and spreadsheet workarounds.
 
 [[person:sofyayulpatova=>Sofya Yulpatova]] starts from
 longitudinal sensor behavior. The pet-health product uses sleep patterns, cycle
-tracking, anomaly detection, and each dog's normal baseline, watching for a
+tracking, anomaly detection, and each dog's normal baseline. It watches for a
 change from an individual baseline rather than a global average
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
 
-[[person:aishwaryajadhav=>Aishwarya Jadhav]] starts from
-safety and staged validation. Autonomous-driving validation uses simulation,
-closed tracks, and on-road testing, plus sensor-data management, labeling, and
-release cadence. Product learning is constrained by safety checks and inherited
-tests for sensitive cases
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] starts from safety and staged
+validation, where autonomous-driving validation uses simulation, closed tracks,
+and on-road testing. Sensor-data management, labeling, and release cadence are
+part of that validation path. Product learning is constrained by safety checks
+and inherited tests for sensitive cases
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Production AI]]).
 
 ## Explicit Feedback and Behavioral Signals
 
 Explicit feedback is useful when users can recognize a bad output and have a
 clear way to report it. In the generated-media and listing workflow examples, a
-seller can accept a generated description, edit it, or reject it, and those
-outcomes become evaluation cases for future product and model changes
+seller can accept, edit, or reject a generated description. Those outcomes become
+evaluation cases for future product and model changes
 ([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
 
 That work belongs near [[Product Analytics]]
 because the team needs event definitions for accepts, edits, and retries. It
 also needs downstream listing outcomes.
+
+Interface design is part of the loop. If an algorithm needs clear signals, the
+product should structure the interaction so those signals are captured directly.
+Otherwise the data science team has to infer them from a generic UI.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|6:43]]
+
+The TikTok and Instagram comparison shows the signal-design tradeoff. Showing
+one video at a time creates sharper preference evidence. A mixed feed leaves
+weaker behavioral traces. Those traces include comments and likes, plus partial
+views and scrolling.
+
+They have to be interpreted after the fact.[[cite:ai-ml-product-design-and-experimentation|AI Product Design|10:04]]
+That puts AI feedback loops close to [[event tracking]],
+[[Recommendation Systems]], and
+[[Machine Learning Personalization]]. The interface has to collect product
+signals the model can learn from.
 
 Implicit signals are necessary when users don't give ratings or when ratings
 are too sparse. Behavior can reveal whether the AI output helped even when the
@@ -121,23 +139,24 @@ AI product teams need qualitative feedback before they decide what to automate.
 Product discovery starts with pain points in strategic finance, then moves
 through ChatGPT prototyping and user research
 ([[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making]]).
-The team shouldn't add AI to finance work by default; it has to learn which
+The team shouldn't add AI to finance work by default. It has to learn which
 manual spreadsheet work, compliance needs, and decision workflows create enough
 friction to justify an AI-assisted product.
 
 Beta testing is the product version of the same discipline. An AI guide dog
 project used beta testing, iterative development, and hardware constraints
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Production AI]]).
-That early product feedback is different from leaderboard performance: it
+That early product feedback is different from leaderboard performance. It
 exposes whether the interface and device make the model usable for people with
-visual impairments, and it tests latency and the real environment.
+visual impairments. It also tests latency and the real environment.
 
 For higher-risk perception systems, beta learning becomes staged validation.
 Autonomous-driving validation runs through simulation, closed tracks, and
-on-road testing, with human annotation, automated labeling, and release cadence
+on-road testing. Human annotation, automated labeling, and release cadence are
+part of the validation path
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Production AI]]).
-Staged validation acts as [[experimentation]],
-but it isn't ordinary A/B testing: it has to gather product learning without
+That staged path acts as [[experimentation]],
+but it isn't ordinary A/B testing. It has to gather product learning without
 exposing users to uncontrolled safety risk.
 
 ## Baselines, Anomalies, and Personalization
@@ -155,14 +174,14 @@ alert or a model-learning event
 ([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
 
 The product team must decide when to notify a pet owner or collect more data.
-It also has to decide when a signal is too uncertain for action. That puts sensor AI
-products close to [[model monitoring]]
+It also has to decide when a signal is too uncertain for action. That puts
+sensor AI products close to [[model monitoring]]
 and [[data products]], because the
 output has to be maintained and interpreted over time.
 
 Autonomous driving has another baseline problem because the world keeps
 producing edge cases. Sensor tradeoffs and gesture recognition show why a
-perception product needs continual case collection, and geography and system
+perception product needs continual case collection. Geography and system
 coordination add more cases
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Production AI]]).
 When traffic-control gestures, construction zones, or regional driving
@@ -180,7 +199,7 @@ product behavior should trigger investigation, rollback, prompt changes, or
 retraining.
 
 The same operating rule appears in high-risk computer vision. Model release
-cadence uses safety checks and staged deployments, and inherited tests cover
+cadence uses safety checks and staged deployments, while inherited tests cover
 sensitive cases
 ([[podcast:from-computer-vision-research-to-autonomous-driving-ai|Applying Computer Vision Research to Production AI]]).
 Those tests turn past failures and edge cases into regression protection for
@@ -201,14 +220,13 @@ Both cases need ownership across [[MLOps]],
 
 An AI product feedback loop is incomplete if the system improves technically
 but users avoid it. Product-driven AI starts from business and product impact,
-not reporting for its own sake, and business-to-ML requirements keep adoption
-inside the technical design
+not reporting for its own sake. Business-to-ML requirements keep adoption inside
+the technical design
 ([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
 
 The finance product makes adoption more explicit. Finance teams already depend
-on spreadsheets because ERP systems are rigid, so the new AI product has to fit
-planning and compliance workflows and support decision work rather than present
-as a black box
+on spreadsheets because ERP systems are rigid. The new AI product has to fit
+planning, compliance, and decision workflows rather than present as a black box
 ([[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making]]).
 
 Useful product feedback includes questions users ask, explanations they need,

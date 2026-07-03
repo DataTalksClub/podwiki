@@ -134,6 +134,17 @@ runs. Her later Artifactory and S3 discussion keeps that principle. The storage
 choice can be simple, but the registry record still needs enough metadata to
 support traceability.
 
+Documentation artifacts sit next to registry metadata rather than replacing it.
+Model cards and data factsheets record model context, data context, and product
+use. Checklists add review structure for that context.[[cite:software-engineering-for-machine-learning|Software Engineering for ML|42:47]]
+
+For a registry, that makes [[documentation]] a companion record because the
+registry keeps artifact identity and promotion state. Model cards, datasheets,
+or factsheets preserve context for
+[[responsible AI and governance]] and
+[[data governance]]. They also support
+[[reproducibility]].
+
 [[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]]
 gives a related metadata-store version in
 [[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]].

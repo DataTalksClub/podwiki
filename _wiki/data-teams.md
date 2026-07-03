@@ -30,7 +30,7 @@ The recurring design question is where authority should sit. Leaders can
 centralize data work or embed it in product and business domains. They can also
 use a hybrid model with shared standards.
 
-Jesse Anderson's [[book:20210201-data-teams|Data Teams]] Book of the Week expands on these organizational models, covering data science, data engineering, and analytics team structures and how they scale.
+Jesse Anderson's [[book:20210201-data-teams|Data Teams]] Book of the Week expands on these organizational models. It covers data science, data engineering, analytics team structures, and scaling dynamics.
 
 [[person:lisacohen=>Lisa Cohen]] frames that choice in
 [[podcast:data-science-team-structure-and-org-design=>Designing a Data Science Organization]].
@@ -93,6 +93,15 @@ software systems.
 That role split matters less as a rigid org chart than as a set of handoffs.
 Data engineers and platform engineers make data available. Analytics engineers
 turn messy source data into modeled analytical data.
+
+For ML products, teams may hand over model code or expose a prediction API. They
+may also add an ML engineer bridge or keep data scientists and software
+engineers in one small product team. The integration approach matters because
+siloed [[machine-learning]] and [[software-engineering]] groups can disagree on
+quality, deployment ownership, shared vocabulary, and what productionizing a
+model requires. Stronger [[mlops]], [[machine-learning-system-design]], and
+[[communication]] practices make those boundaries explicit instead of leaving
+them to the final deployment step.[[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning|36:28]]
 
 Analysts and data scientists translate questions into metrics and
 recommendations. They may also run experiments or build models. Product and
