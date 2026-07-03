@@ -267,13 +267,15 @@ def read_podcast(path: Path) -> dict[str, object]:
     if not chapters:
         chapters = transcript_fallback_chapters(transcript_items, links.get("youtube", ""))
 
+    source_url = f"https://datatalks.club/podcast/{slug}.html"
+
     return {
         "slug": slug,
         "title": title,
         "short": str(meta.get("short") or ""),
         "source_episode": source_relative_path(path),
-        "source_url": f"https://datatalks.club/podcast/{slug}.html",
-        "local_url": f"/podcasts/{slug}/",
+        "source_url": source_url,
+        "local_url": source_url,
         "season": str(meta.get("season") or ""),
         "episode": str(meta.get("episode") or ""),
         "guests": as_list(meta.get("guests")),

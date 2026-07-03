@@ -9,7 +9,7 @@ files from this repo unless the user explicitly asks to prepare a website PR.
 
 The wiki is a compounding artifact. When you answer a meaningful research question,
 categorize an episode, or synthesize a theme, file the useful result back into
-`_wiki/`, `_podcast_summaries/`, or `_people/` so future sessions do not
+`_wiki/` or `_podcast_summaries/` so future sessions do not
 rediscover the same knowledge from scratch.
 
 All topic content lives in the single `_wiki/` collection, typed by `tags:`
@@ -25,7 +25,8 @@ no-redirects rule, and the deduplication/link-check maintenance process.
   transitions, portfolio projects, roadmaps, and X vs Y pages.
 - `_podcast_summaries/`: compact episode summaries for agents. Do not copy full
   transcripts here; link to the original source episode.
-- `_people/`: guest/contributor exploration pages.
+- `_people/`: source-derived person node records. Do not expand these as
+  content pages; human-facing person links resolve to the main site.
 - `_wiki/`: the single content collection — human/LLM-authored archive-derived
   pages, typed by `tags:` (comparison, guide, roadmap, transition, how-to;
   untagged = concept hub). Do not overwrite with generated stubs.
@@ -46,8 +47,8 @@ Every public page must be grounded, linked, and focused:
   add generic advice unless a podcast discussion or an existing podcast-grounded
   page supports it.
 - Linked: make the page link-heavy. Add visible links to related wiki pages,
-  people pages, local podcast pages, and grounding evidence in the body, not
-  only in generated graph data.
+  canonical podcast episodes, and grounding evidence in the body, not only in
+  generated graph data. Person links are optional supporting references.
 - Focused: center the page on one topic, role, transition, comparison, roadmap,
   or project type. Split mixed pages instead of padding them.
 
@@ -71,9 +72,9 @@ specific episode slug is unknown. `scripts/rewrite_to_canonical.py` (run by
 search still treat these entities as nodes and resolve them to the same
 canonical URLs.
 
-People pages should be mostly about the person's podcast contributions: what
-they argued, explained, contrasted, or demonstrated in the archive. Keep a short
-bio only when it helps interpret the content.
+Do not write or expand people pages. People documents are redirects/node records
+for the main DataTalks.Club person profiles. Put what a guest argued, explained,
+contrasted, or demonstrated inside the relevant wiki/topic page.
 
 Curated pages should omit `generated: true`. Do not overwrite curated synthesis
 casually. If source evidence changes, update the relevant exploration page with a
@@ -88,16 +89,16 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 1. Read `CONTENT_GUIDE.md`.
 2. For broad topic work, read `sources/podcast-topic-inventory.md` after running
    `make sources`.
-3. Inspect existing pages in `_wiki/`, `_podcast_summaries/`, and `_people/`.
+3. Inspect existing pages in `_wiki/` and `_podcast_summaries/`.
 4. Open raw source episode files in `../datatalksclub.github.io/_podcast` only
    when you need evidence, clips, guests, or transcript context.
 5. Update the target exploration page with synthesized takeaways, not just lists
    of links.
-6. Add cross-links to related wiki pages, category pages, people pages, local
-   podcast pages, and grounding evidence.
+6. Add cross-links to related wiki pages, category pages, canonical podcast
+   episodes, and grounding evidence.
 7. Add podcast evidence links in the body. Link to the canonical
    `https://datatalks.club/podcast/<source-file-slug>.html` episode when known.
-8. For source-derived podcast and people pages, run `make sources`.
+8. For source-derived podcast/person registries, run `make sources`.
 9. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
 
@@ -106,7 +107,8 @@ chapter summaries, and topic candidates with `make sources`. Read
 `sources/podcast-archive-summary.md` or `.tmp/podcast-archive-summary.md` before
 opening full source episodes. Then keep five subagents running on
 non-overlapping episode batches. Subagents should produce grounded topic reports
-with local podcast links and guest links before writing wiki or editorial pages.
+with canonical podcast links and optional guest references before writing wiki or
+editorial pages.
 
 ## Insight Hub Target
 
@@ -129,8 +131,11 @@ maintenance notes.
 Use `CONTENT_GUIDE.md`.
 
 Wiki pages are comprehensive reference pages based on the full podcast archive.
-They should include evidence links, timestamped examples, tradeoffs, and related
-wiki pages. Podcast summaries are a separate agent index and should stay compact.
+They should include evidence links, tradeoffs, and related wiki pages. Use
+compact `[[cite:<podcast-slug>|Episode Label]]` markers for routine evidence.
+Use `[[cite:<podcast-slug>|Episode Label|MM:SS]]` only when the exact clip helps
+verification. Podcast summaries are a separate agent index and should stay
+compact.
 
 Editorial pages are SEO-informed pages created only after the user supplies
 target keywords. They live in `_wiki/` with a type `tag:` (guide, comparison,
@@ -154,11 +159,12 @@ Avoid topic proliferation. Merge near-duplicates such as `LLM`, `LLMs`, and
 
 When answering a user question about podcast content:
 
-1. Search `_wiki/`, `_podcast_summaries/`, and `_people/` with `rg`.
+1. Search `_wiki/` and `_podcast_summaries/` with `rg`.
 2. Read the most relevant exploration pages.
 3. Open raw episode files for direct transcript verification when quoting or making
    fine-grained claims.
-4. Answer with source links to local files and timestamps where possible.
+4. Answer with source links to local files and timestamps only when useful for
+   verification.
 5. If the answer creates reusable synthesis, ask whether to file it, or file it
    directly when the user asked for wiki maintenance.
 
@@ -196,7 +202,7 @@ Periodically check for:
 - episodes with missing or overly broad topics
 - orphan editorial/wiki pages with no incoming links
 - stale claims contradicted by newer episodes
-- guest pages with no useful topic links
+- wiki pages that should mention a guest contribution but lack the episode link
 - high-value transcript clips that should become hub examples
 
 Record durable fixes directly in the relevant collection page.

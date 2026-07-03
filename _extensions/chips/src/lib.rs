@@ -18,9 +18,10 @@
 //! - `[[person:x]]` (also `author:`/`guest:`)      -> type `person`
 //! - `[[book:x]]`                                   -> type `book`
 //! - `[[podcast:x]]`                                -> type `podcast`
-//! - extra `|`-separated fields: for `podcast` a field matching a timestamp
-//!   (`M:SS`/`MM:SS`/`H:MM:SS`) is the time; any other field is the label. For
-//!   non-podcast the first extra field is the label.
+//! - `[[cite:x]]`                                   -> compact podcast citation
+//! - extra `|`-separated fields: for `podcast` and `cite`, a field matching a
+//!   timestamp (`M:SS`/`MM:SS`/`H:MM:SS`) is the time; any other field is the
+//!   label. For non-podcast/cite the first extra field is the label.
 //! - default label = humanized target (dashes -> spaces).
 //!
 //! Link targets:
@@ -31,7 +32,7 @@
 //!   built here), so they are NOT resolved via the host. Instead we emit
 //!   absolute MAIN-SITE URLs built directly from the slug, matching graph.json:
 //!     person  -> https://datatalks.club/people/<slug>.html
-//!     podcast -> https://datatalks.club/podcast/<slug>.html   (singular)
+//!     podcast/cite -> https://datatalks.club/podcast/<slug>.html   (singular)
 //!     book    -> https://datatalks.club/books/<slug>.html
 //!
 //! `<code>` / `<pre>` regions and text inside tags/attributes are never touched.
@@ -45,6 +46,7 @@
 
 use extism_pdk::*;
 use serde::{Deserialize, Serialize};
+use std::collections::HashMap;
 
 /// Absolute base for main-site (datatalks.club) entity pages.
 const MAIN_SITE: &str = "https://datatalks.club";
@@ -124,6 +126,7 @@ enum ChipType {
     Person,
     Book,
     Podcast,
+    Cite,
 }
 
 impl ChipType {
@@ -133,6 +136,7 @@ impl ChipType {
             ChipType::Person => "person",
             ChipType::Book => "book",
             ChipType::Podcast => "podcast",
+            ChipType::Cite => "cite",
         }
     }
 
@@ -143,9 +147,17 @@ impl ChipType {
             "person" | "author" | "guest" => Some(ChipType::Person),
             "book" => Some(ChipType::Book),
             "podcast" => Some(ChipType::Podcast),
+            "cite" => Some(ChipType::Cite),
             _ => None,
         }
     }
+}
+
+#[derive(Default)]
+struct RenderState {
+    warnings: Vec<String>,
+    citations: HashMap<String, usize>,
+    next_citation: usize,
 }
 
 /// Walk `html`, rewriting `[[...]]` tokens in text nodes while skipping the
@@ -155,7 +167,11 @@ where
     F: Fn(&str) -> Option<String>,
 {
     let mut out = String::with_capacity(html.len());
-    let mut warnings: Vec<String> = Vec::new();
+    let mut state = RenderState {
+        warnings: Vec::new(),
+        citations: HashMap::new(),
+        next_citation: 1,
+    };
     let mut skip_depth: i32 = 0;
     let bytes = html.as_bytes();
     let len = bytes.len();
@@ -175,7 +191,7 @@ where
             // the opener literally and continue past it.
             match scan_token(html, i) {
                 Some((inner, end)) => {
-                    out.push_str(&render_chip(&inner, baseurl, &resolve, &mut warnings));
+                    out.push_str(&render_chip(&inner, baseurl, &resolve, &mut state));
                     i = end;
                 }
                 None => {
@@ -201,7 +217,7 @@ where
         }
     }
 
-    (unwrap_chip_tables(&out), warnings)
+    (unwrap_chip_tables(&out), state.warnings)
 }
 
 /// The markdown renderer sometimes treats aliased wikilinks (`[[target|label]]`)
@@ -459,7 +475,7 @@ fn slugify(target: &str) -> String {
 }
 
 /// Render a single token's normalized inner text (no brackets) to chip markup.
-fn render_chip<F>(inner: &str, baseurl: &str, _resolve: &F, warnings: &mut Vec<String>) -> String
+fn render_chip<F>(inner: &str, baseurl: &str, _resolve: &F, state: &mut RenderState) -> String
 where
     F: Fn(&str) -> Option<String>,
 {
@@ -489,7 +505,7 @@ where
 
     // Extract label + time from the extra fields.
     let mut time: Option<&str> = None;
-    if chip_type == ChipType::Podcast {
+    if chip_type == ChipType::Podcast || chip_type == ChipType::Cite {
         if let Some((base, suffix)) = target.rsplit_once('@') {
             if is_timestamp(suffix.trim()) {
                 target = base.trim();
@@ -498,7 +514,7 @@ where
         }
     }
     let mut label: Option<&str> = None;
-    if chip_type == ChipType::Podcast {
+    if chip_type == ChipType::Podcast || chip_type == ChipType::Cite {
         for field in &extras {
             if field.is_empty() {
                 continue;
@@ -525,6 +541,7 @@ where
     let label_text: Option<(String, bool)> = match label {
         Some(l) => Some((l.to_string(), true)),
         None if chip_type == ChipType::Podcast && time.is_some() => None,
+        None if chip_type == ChipType::Cite => Some((humanized.clone(), false)),
         None => Some((humanized.clone(), false)),
     };
 
@@ -546,6 +563,7 @@ where
         }
         ChipType::Person => Some(format!("{MAIN_SITE}/people/{}.html", slugify(target))),
         ChipType::Podcast => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
+        ChipType::Cite => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
         ChipType::Book => Some(format!("{MAIN_SITE}/books/{}.html", slugify(target))),
     };
 
@@ -557,6 +575,17 @@ where
                 Some((t, pre)) => (t.as_str(), *pre),
                 None => (humanized.as_str(), false),
             };
+            if chip_type == ChipType::Cite {
+                return render_citation(
+                    target,
+                    &href,
+                    title,
+                    title_pre,
+                    time,
+                    &mut state.citations,
+                    &mut state.next_citation,
+                );
+            }
             let mut s = format!(
                 "<a class=\"chip chip--{ty}\" data-chip=\"{ty}\" href=\"{href}\" title=\"{title}\">",
                 ty = chip_type.as_str(),
@@ -579,7 +608,7 @@ where
         }
         None => {
             // Only reachable for a `wiki` resolve miss.
-            warnings.push(format!("chips: unresolved {original}"));
+            state.warnings.push(format!("chips: unresolved {original}"));
             // Always show something visible for a broken link.
             let (display, display_pre) = label_text
                 .map(|(t, pre)| (t, pre))
@@ -591,6 +620,46 @@ where
             )
         }
     }
+}
+
+fn render_citation(
+    target: &str,
+    href: &str,
+    title: &str,
+    title_preescaped: bool,
+    time: Option<&str>,
+    citations: &mut HashMap<String, usize>,
+    next_citation: &mut usize,
+) -> String {
+    let key = format!("{}|{}", slugify(target), time.unwrap_or(""));
+    let n = match citations.get(&key) {
+        Some(existing) => *existing,
+        None => {
+            let n = *next_citation;
+            citations.insert(key, n);
+            *next_citation += 1;
+            n
+        }
+    };
+    let title_value = match time {
+        Some(t) => format!(
+            "{} ({})",
+            if title_preescaped {
+                title.to_string()
+            } else {
+                escape_attr(title)
+            },
+            t
+        ),
+        None if title_preescaped => title.to_string(),
+        None => escape_attr(title),
+    };
+    format!(
+        "<sup class=\"citation\"><a class=\"citation-link\" data-cite=\"podcast\" href=\"{href}\" title=\"{title}\" aria-label=\"Source {n}: {title}\">[{n}]</a></sup>",
+        href = escape_attr(href),
+        title = escape_attr_pre(&title_value),
+        n = n,
+    )
 }
 
 /// Whether `s` looks like `M:SS`, `MM:SS`, or `H:MM:SS`.
@@ -759,6 +828,58 @@ mod tests {
             "got: {html}"
         );
         assert!(html.contains("title=\"A/B Testing\""), "got: {html}");
+    }
+
+    #[test]
+    fn cite_renders_compact_numbered_marker() {
+        let (html, _) = run(
+            "<p>Experiments need a stable metric.[[cite:ab-testing-and-product-experimentation|A/B Testing]]</p>",
+        );
+        assert!(
+            html.contains("<sup class=\"citation\"><a class=\"citation-link\""),
+            "got: {html}"
+        );
+        assert!(
+            html.contains(
+                "href=\"https://datatalks.club/podcast/ab-testing-and-product-experimentation.html\""
+            ),
+            "got: {html}"
+        );
+        assert!(html.contains(">["), "got: {html}");
+        assert!(html.contains("[1]</a></sup>"), "got: {html}");
+        assert!(html.contains("title=\"A/B Testing\""), "got: {html}");
+        assert!(!html.contains("chip--podcast"), "citation should not render as chip: {html}");
+    }
+
+    #[test]
+    fn cite_can_carry_sparse_timestamp() {
+        let (html, _) = run(
+            "<p>Use a precise clip only when it helps.[[cite:ab-testing-and-product-experimentation|A/B Testing|27:52]]</p>",
+        );
+        assert!(html.contains("[1]</a></sup>"), "got: {html}");
+        assert!(html.contains("title=\"A/B Testing (27:52)\""), "got: {html}");
+        assert!(
+            html.contains("aria-label=\"Source 1: A/B Testing (27:52)\""),
+            "got: {html}"
+        );
+    }
+
+    #[test]
+    fn cite_reuses_number_for_same_source_and_time() {
+        let (html, _) = run(
+            "<p>One.[[cite:ab-testing-and-product-experimentation|A/B Testing]] Two.[[cite:ab-testing-and-product-experimentation|A/B Testing]] Three.[[cite:ab-testing-and-product-experimentation|A/B Testing|27:52]]</p>",
+        );
+        assert_eq!(html.matches("[1]</a></sup>").count(), 2, "got: {html}");
+        assert_eq!(html.matches("[2]</a></sup>").count(), 1, "got: {html}");
+    }
+
+    #[test]
+    fn cite_arrow_alias_preserves_timestamp() {
+        let (html, _) = run(
+            "<p>Metric choice matters.[[cite:ab-testing-and-product-experimentation@27:52=&gt;A/B Testing]]</p>",
+        );
+        assert!(html.contains("[1]</a></sup>"), "got: {html}");
+        assert!(html.contains("title=\"A/B Testing (27:52)\""), "got: {html}");
     }
 
     #[test]

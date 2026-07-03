@@ -9,10 +9,12 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_FOLDERS = ("_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos")
+DEFAULT_FOLDERS = ("_wiki",)
 GENERIC_PODCAST_URL = "https://datatalks.club/podcast.html"
-PUBLIC_COLLECTIONS = ("podcasts", "wiki", "people", "guides", "comparisons", "roadmaps", "how-tos")
-PUBLIC_CONTENT_FOLDERS = {"_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos"}
+PUBLIC_COLLECTIONS = ("podcasts", "wiki", "people", "books")
+PUBLIC_CONTENT_FOLDERS = {"_wiki"}
+CANONICAL_PODCAST_RE = re.compile(r"https://datatalks\.club/podcast/[^)\s\"']+\.html")
+CANONICAL_PEOPLE_RE = re.compile(r"https://datatalks\.club/people/[^)\s\"']+\.html")
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
@@ -92,6 +94,8 @@ def link_counts(text: str) -> dict[str, int]:
         for collection in counts:
             if target.startswith(f"{collection}/"):
                 counts[collection] += 1
+    counts["podcasts"] += len(CANONICAL_PODCAST_RE.findall(text))
+    counts["people"] += len(CANONICAL_PEOPLE_RE.findall(text))
     return counts
 
 
@@ -109,14 +113,12 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
     score = generic * 3 + (len(forbidden) + len(archive_headings)) * 10 + len(archive_scaffolding)
     if is_public_content and links["podcasts"] == 0:
         score += 5
-    if is_public_content and links["people"] == 0:
-        score += 5
     return {
         "path": path.relative_to(ROOT),
         "generic_podcast_links": generic,
         "forbidden_headings": len(forbidden) + len(archive_headings),
         "archive_scaffolding": len(archive_scaffolding),
-        "local_podcast_links": links["podcasts"],
+        "podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
         "guide_links": links["guides"],
@@ -148,8 +150,7 @@ def main() -> None:
             row["generic_podcast_links"]
             or row["forbidden_headings"]
             or row["archive_scaffolding"]
-            or row["local_podcast_links"] == 0
-            or row["people_links"] == 0
+            or row["podcast_links"] == 0
         )
     ]
 
@@ -158,7 +159,7 @@ def main() -> None:
     print(f"generic_podcast_links: {sum(int(row['generic_podcast_links']) for row in rows)}")
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
-    print(f"pages_without_people_links: {sum(1 for row in rows if int(row['people_links']) == 0)}")
+    print(f"pages_without_podcast_links: {sum(1 for row in rows if int(row['podcast_links']) == 0)}")
     print("")
 
     for row in sorted(problem_rows, key=lambda item: (-int(item["score"]), str(item["path"])))[: args.limit]:
@@ -166,7 +167,7 @@ def main() -> None:
             f"{row['path']}: score={row['score']} "
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
             f"archive_scaffolding={row['archive_scaffolding']} "
-            f"podcast_links={row['local_podcast_links']} wiki_links={row['wiki_links']} "
+            f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} guide_links={row['guide_links']} "
             f"comparison_links={row['comparison_links']} roadmap_links={row['roadmap_links']} "
             f"how_to_links={row['how_to_links']}"

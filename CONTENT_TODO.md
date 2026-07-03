@@ -2,7 +2,7 @@
 
 This backlog captures page categories that should become repeatable content
 families. Use it when planning new wiki pages, guides, comparisons, roadmaps,
-how-tos, podcast summaries, or people-page expansion.
+how-tos, or podcast summaries.
 
 ## Category Rules
 
@@ -10,16 +10,14 @@ Follow these rules when adding any page from this backlog.
 
 - Keep `_wiki/` pages as podcast-grounded reference pages with inline episode
   references, tradeoffs, and related pages.
-- Put keyword-targeted editorial pages in `_guides/`, `_comparisons/`,
-  `_roadmaps/`, or `_how_tos/`. If the page is only the bare concept, put it in
-  `_wiki/`. Public URLs are `/guides/`, `/comparisons/`, `/roadmaps/`, and
-  `/how-tos/`.
+- Put keyword-targeted editorial pages in `_wiki/` with a type tag such as
+  `guide`, `comparison`, `roadmap`, `transition`, or `how-to`. If the page is
+  only the bare concept, keep it untagged. Public URLs are `/wiki/<slug>/`.
 - Keep `_podcast_summaries/` compact enough for agents to decide whether they
   need the source episode.
-- Link podcast evidence to local podcast pages such as
-  `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. Those local pages
-  link to the canonical DataTalks.Club episode. Do not link public-page evidence
-  to the generic podcast archive page.
+- Link podcast evidence to canonical episode pages such as
+  `https://datatalks.club/podcast/<source-file-slug>.html`. Do not link
+  public-page evidence to the generic podcast archive page.
 - Run `make check` after adding pages so graph and search stay current.
 - For edited public pages, run the content audit with
   `--strict-scaffold-headings --paths <files...>` so old template headings do
@@ -29,6 +27,12 @@ Follow these rules when adding any page from this backlog.
 
 These notes capture the current cleanup direction and should not be lost.
 
+- Rewrite wiki pages to use compact citation markers for routine evidence:
+  `[[cite:<podcast-slug>|Episode Label]]`. Use a timestamp only when a precise
+  clip helps verification:
+  `[[cite:<podcast-slug>|Episode Label|MM:SS]]`. Keep visible
+  `[[podcast:...]]` chips for navigation lists or sentences where the episode is
+  itself the object being discussed.
 - Redo wiki pages to follow one structure: opening definition, topic-specific
   sections, concrete differences in how guests apply the topic, inline podcast
   references, and related pages. Do not expose scaffolding headings such as
@@ -46,27 +50,26 @@ These notes capture the current cleanup direction and should not be lost.
   podcast reference next to the claim it supports, like a citation, instead of
   collecting evidence in a separate appendix.
 - Make every page link-heavy: visible links to specific podcast interviews,
-  related wiki pages, people pages, category pages, local podcast pages, and the
-  grounding evidence behind substantive claims.
-- Use local podcast links such as
-  `{{ '/podcasts/<source-file-slug>/' | relative_url }}` whenever the source
-  episode slug is known. The local podcast page links to the original
-  DataTalks.Club episode.
+  related wiki pages, category pages, and the grounding evidence behind
+  substantive claims. Person links are optional and should point to the
+  canonical main-site profile when they help the reader.
+- Use canonical podcast links such as
+  `https://datatalks.club/podcast/<source-file-slug>.html` whenever the source
+  episode slug is known.
 - Make related links visually obvious in CSS. Related pages should look like
   links, not muted tags.
 - Keep the graph-driven "See Also in the Graph" section on wiki, editorial,
-  podcast summary, and people pages. It is rendered from `graph/graph.json` by
+  and podcast summary pages. It is rendered from `graph/graph.json` by
   `assets/page-graph.js`, so Markdown links remain the source of truth.
-- Keep `/podcasts/` as a list view closer to the original DataTalks.Club
-  podcast structure. The pages in `_podcast_summaries/` are the internal
-  citation targets for wiki and editorial pages.
+- `_podcast_summaries/` are source-derived agent records, not public podcast
+  pages. Public links should point to the main DataTalks.Club episode pages.
 - Treat Markdown pages as the source for the graph. Do not maintain
   `graph/graph.json` separately; regenerate it from the collections.
   Internally, graph nodes may still call guides, comparisons, roadmaps, and
   how-tos article/content nodes; do not expose that as a public category.
-- Keep `make sources` as the first step for broad podcast work. It syncs local
-  podcast pages, people pages, chapter summaries, and the source index used by
-  subagents.
+- Keep `make sources` as the first step for broad podcast work. It syncs
+  source-derived podcast/person registries, chapter summaries, and the source
+  index used by subagents.
 - Use `sources/podcast-topic-inventory.md` as the durable topic map from the
   five-agent archive pass. Extend it when a new archive-wide discovery pass finds
   a recurring grounded topic.
@@ -74,7 +77,7 @@ These notes capture the current cleanup direction and should not be lost.
   podcast batches and collect grounded topic reports before writing pages.
 - Keep MLOps and DataOps as separate concept pages. Use `_wiki/mlops.md` for
   model lifecycle operations, `_wiki/dataops.md` for data delivery operations,
-  and `_comparisons/mlops-vs-dataops.md` for the comparison.
+  and `_wiki/mlops-vs-dataops.md` for the comparison.
 - Keep pages centered on one topic, role, transition, comparison, roadmap, or
   project type. Split mixed pages instead of broadening them.
 - Name concept pages by the concept, not by "What is ..." phrasing. Use
@@ -109,10 +112,10 @@ Existing pages:
 - `_wiki/chief-data-officer-role.md`
 - `_wiki/dataops-engineer-role.md`
 - `_wiki/analytics-engineering.md` owns the Analytics Engineer role vocabulary.
-- `_guides/data-roles.md`
-- `_guides/data-product-manager.md`
-- `_guides/data-scientist.md`
-- `_guides/product-analyst.md`
+- `_wiki/data-roles.md`
+- `_wiki/data-product-manager.md`
+- `_wiki/data-scientist.md`
+- `_wiki/product-analyst.md`
 - `_wiki/developer-relations.md` owns the Developer Advocate / DevRel Engineer
   role vocabulary unless a future keyword brief needs a separate role page.
 
@@ -148,15 +151,15 @@ Existing pages:
 
 - `_wiki/solopreneur.md`
 - `_wiki/career-transitions-in-data.md`
-- `_how_tos/how-to-build-data-pipelines.md` owns the procedural pipeline
+- `_wiki/how-to-build-data-pipelines.md` owns the procedural pipeline
   build page. Keep `_wiki/end-to-end-data-pipeline-project.md` as the canonical
   portfolio-ready pipeline blueprint.
-- `_roadmaps/data-engineer-roadmap.md` owns the main data engineer roadmap.
+- `_wiki/data-engineer-roadmap.md` owns the main data engineer roadmap.
 - `_wiki/software-engineer-to-machine-learning.md` owns the transition page.
-  `_guides/machine-learning-for-software-engineers.md` owns the software
+  `_wiki/machine-learning-for-software-engineers.md` owns the software
   engineer audience guide.
-- `_roadmaps/data-scientist-to-data-engineer.md`
-- `_roadmaps/data-analyst-to-data-engineer.md`
+- `_wiki/data-scientist-to-data-engineer.md`
+- `_wiki/data-analyst-to-data-engineer.md`
 - `_wiki/academic-researcher-to-data-science.md`
 - `_wiki/devops-to-data-engineering.md`
 - `_wiki/marketing-to-analytics-engineering.md`
@@ -164,7 +167,7 @@ Existing pages:
 - `_wiki/qa-to-ml-and-data-engineering.md`
 - `_wiki/data-scientist-to-machine-learning-engineer.md`
 - `_wiki/software-engineer-to-machine-learning.md`
-- `_roadmaps/data-analyst-to-analytics-engineer.md`
+- `_wiki/data-analyst-to-analytics-engineer.md`
 - `_wiki/consultant-or-freelancer-to-data-product-founder.md`
 
 Candidate pages:
@@ -190,7 +193,7 @@ and role-specific portfolios.
 Existing pages:
 
 - `_wiki/portfolio-projects.md`
-- `_guides/data-scientist-interview.md`
+- `_wiki/data-scientist-interview.md`
 - `_wiki/open-source-and-developer-relations.md`
 - `_wiki/data-engineering-portfolio-projects.md`
 - `_wiki/machine-learning-portfolio-projects.md`
@@ -224,8 +227,8 @@ recommendation.
 
 Existing pages:
 
-- `_how_tos/airflow-docker-compose.md`
-- `_how_tos/how-to-build-data-pipelines.md`
+- `_wiki/airflow-docker-compose.md`
+- `_wiki/how-to-build-data-pipelines.md`
 
 Candidate pages:
 
@@ -248,8 +251,8 @@ podcast-grounded, not generic course lists.
 Existing pages:
 
 - `_wiki/data-engineering-roadmap.md`
-- `_roadmaps/data-engineer-roadmap.md`
-- `_roadmaps/how-to-become-a-data-engineer-with-no-experience.md`
+- `_wiki/data-engineer-roadmap.md`
+- `_wiki/how-to-become-a-data-engineer-with-no-experience.md`
 - `_wiki/analytics-engineering-roadmap.md`
 - `_wiki/ai-engineering-roadmap.md`
 - `_wiki/mlops-roadmap.md`
@@ -258,10 +261,10 @@ Existing pages:
 - `_wiki/llm-production-patterns.md`
 - `_wiki/search-rag-and-knowledge-systems.md`
 - `_wiki/dataops-platforms.md`
-- `_roadmaps/machine-learning-engineer-roadmap.md`
-- `_roadmaps/data-product-manager-roadmap.md`
-- `_roadmaps/open-source-contributor-roadmap.md`
-- `_roadmaps/llm-rag-production-roadmap.md`
+- `_wiki/machine-learning-engineer-roadmap.md`
+- `_wiki/data-product-manager-roadmap.md`
+- `_wiki/open-source-contributor-roadmap.md`
+- `_wiki/llm-rag-production-roadmap.md`
 
 Candidate pages:
 
@@ -287,33 +290,33 @@ comparison outcomes:
 
 Existing pages:
 
-- `_comparisons/data-engineer-vs-data-scientist.md`
-- `_comparisons/data-analyst-vs-analytics-engineer.md`
-- `_comparisons/data-product-manager-vs-product-manager.md`
-- `_comparisons/data-product-owner-vs-data-product-manager.md`
-- `_comparisons/dataops-vs-data-engineering.md`
-- `_comparisons/data-warehouse-vs-data-lakehouse.md`
-- `_comparisons/batch-vs-streaming.md`
-- `_comparisons/data-mesh-vs-centralized-data-platform.md`
-- `_comparisons/delta-lake-vs-apache-iceberg.md`
-- `_comparisons/etl-vs-elt.md`
-- `_comparisons/graph-rag-vs-vector-rag.md`
-- `_comparisons/knowledge-graph-vs-vector-search.md`
-- `_comparisons/machine-learning-engineer-vs-data-scientist.md`
-- `_comparisons/mlops-vs-dataops.md`
-- `_comparisons/mlops-vs-devops.md`
-- `_comparisons/product-analyst-vs-data-analyst.md`
-- `_comparisons/product-owner-vs-product-manager.md`
-- `_comparisons/rag-vs-fine-tuning.md`
-- `_comparisons/vector-database-vs-search-engine.md`
+- `_wiki/data-engineer-vs-data-scientist.md`
+- `_wiki/data-analyst-vs-analytics-engineer.md`
+- `_wiki/data-product-manager-vs-product-manager.md`
+- `_wiki/data-product-owner-vs-data-product-manager.md`
+- `_wiki/dataops-vs-data-engineering.md`
+- `_wiki/data-warehouse-vs-data-lakehouse.md`
+- `_wiki/batch-vs-streaming.md`
+- `_wiki/data-mesh-vs-centralized-data-platform.md`
+- `_wiki/delta-lake-vs-apache-iceberg.md`
+- `_wiki/etl-vs-elt.md`
+- `_wiki/graph-rag-vs-vector-rag.md`
+- `_wiki/knowledge-graph-vs-vector-search.md`
+- `_wiki/machine-learning-engineer-vs-data-scientist.md`
+- `_wiki/mlops-vs-dataops.md`
+- `_wiki/mlops-vs-devops.md`
+- `_wiki/product-analyst-vs-data-analyst.md`
+- `_wiki/product-owner-vs-product-manager.md`
+- `_wiki/rag-vs-fine-tuning.md`
+- `_wiki/vector-database-vs-search-engine.md`
 
 Candidate pages:
 
 - Improve existing comparison pages as new interviews add evidence.
-- Remaining real comparison pages were moved from `_wiki/` to `_comparisons/`
+- Remaining real comparison pages were moved from `_wiki/` to `_wiki/`
   on 2026-07-01. The old wiki URLs now redirect to the comparison URLs.
 - No known `X vs Y` migration candidates remain in `_wiki/`.
-- Keep `_comparisons/data-engineer-vs-data-scientist.md` as the canonical
+- Keep `_wiki/data-engineer-vs-data-scientist.md` as the canonical
   comparison page. Put role and concept material in `_wiki/data-engineer-role.md`
   and `_wiki/data-scientist-role.md`, not in a duplicate wiki comparison page.
 
@@ -338,58 +341,51 @@ Start with this batch when expanding the content set.
   header rows. Keep using the CSV-backed audit until the populated workbook is
   available.
 - The strongest remaining CSV-backed content candidates are:
-  `_guides/machine-learning-for-business.md`,
+  `_wiki/machine-learning-for-business.md`,
   `_wiki/data-science-project-management.md`, and
   `_wiki/algorithmic-trading.md`. Create them only with podcast-grounded
   evidence and internal links; do not create pages for book/PDF/download,
   Slack, or generic navigation queries.
 - The 2026-07-01 five-agent keyword-gap batch added
-  `_guides/data-engineering-courses.md`,
+  `_wiki/data-engineering-courses.md`,
   `_wiki/data-engineering-consulting.md`,
   `_wiki/data-science-for-managers.md`, and
   `_wiki/ai-powered-business-intelligence.md`, and improved
-  `_guides/machine-learning-for-startups.md`. Future work should extend these
+  `_wiki/machine-learning-for-startups.md`. Future work should extend these
   pages with new episode evidence instead of creating duplicates.
 - The 2026-07-01 follow-up keyword-gap batch added
-  `_comparisons/data-engineering-and-data-science.md`,
+  `_wiki/data-engineering-and-data-science.md`,
   `_wiki/data-engineering-manager-role.md`,
   `_wiki/machine-learning-personalization.md`, and
   `_wiki/search-relevance.md`, and improved
-  `_guides/machine-learning-for-software-engineers.md`. Future work should
+  `_wiki/machine-learning-for-software-engineers.md`. Future work should
   extend these pages rather than adding duplicate pages for the same keyword
   families.
 - The 2026-07-01 keyword-alias improvement batch strengthened
-  `_guides/data-engineering-courses.md`,
+  `_wiki/data-engineering-courses.md`,
   `_wiki/data-engineering-consulting.md`,
-  `_guides/data-science-recruiter.md`,
-  `_guides/machine-learning-for-software-engineers.md`, and
+  `_wiki/data-science-recruiter.md`,
+  `_wiki/machine-learning-for-software-engineers.md`, and
   `_wiki/dataops.md` for existing Ubersuggest variants. Future work should
   extend these pages instead of creating duplicate pages for those variants.
 - The 2026-07-01 six-page quality batch strengthened
-  `_guides/machine-learning-for-business.md`,
+  `_wiki/machine-learning-for-business.md`,
   `_wiki/data-science-project-management.md`,
   `_wiki/algorithmic-trading.md`,
-  `_how_tos/notebook-to-production-ai-systems.md`,
-  `_how_tos/dataops-checks-for-data-pipelines.md`, and
-  `_how_tos/rag-evaluation-workflow.md`. Future work should add fresh podcast
+  `_wiki/notebook-to-production-ai-systems.md`,
+  `_wiki/dataops-checks-for-data-pipelines.md`, and
+  `_wiki/rag-evaluation-workflow.md`. Future work should add fresh podcast
   evidence or narrow subpages only when a new keyword cluster has distinct
   intent.
-- Keep improving `_how_tos/` when a keyword cluster asks for a concrete
+- Keep improving `_wiki/` when a keyword cluster asks for a concrete
   operating sequence. The notebook-to-production, DataOps checks, and RAG
   evaluation workflows were strengthened on 2026-07-01; future how-tos should
   cover distinct procedures or add new podcast evidence to those canonical
   pages.
-- People pages remain the largest quality backlog. Many are profile imports or
-  thin placeholders. Prioritize pages already linked from wiki, guide, roadmap,
-  and comparison pages, then add podcast contribution summaries, local podcast
-  links, expertise, and concept links.
-- Curated people pages should use `curated: true` in frontmatter. The people
-  sync script preserves those contribution-focused bodies and does not append
-  generated `Podcast Discussions` sections to them.
-- Graph and search generation now includes all public people pages, not only
-  people with `podcast_episodes`, so public person links can resolve in
-  exploration and search. Future people cleanup should improve the page content
-  rather than hiding linked public people from graph/search.
+- Do not prioritize people-page cleanup. People documents are now redirect/node
+  records for canonical main-site profiles, not public content targets. When a
+  guest contribution matters, add it to the relevant wiki, guide, comparison,
+  roadmap, transition, or how-to page with an inline podcast citation.
 - Improve the published transition pages for marketing to analytics
   engineering, QA to ML/data engineering, academic researcher to data science,
   product designer to data product manager, and data scientist to machine
@@ -409,9 +405,9 @@ Start with this batch when expanding the content set.
   source contribution, and LLM/RAG production as the archive grows.
 - Improve the existing comparison pages for data analyst vs analytics engineer
   and RAG vs fine-tuning when new podcast evidence appears.
-- Continue improving real `X vs Y` decision pages in `_comparisons/` as new
+- Continue improving real `X vs Y` decision pages in `_wiki/` as new
   podcast evidence appears.
-- Improve `_roadmaps/data-analyst-to-analytics-engineer.md` as new evidence
+- Improve `_wiki/data-analyst-to-analytics-engineer.md` as new evidence
   appears.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
@@ -424,14 +420,14 @@ Start with this batch when expanding the content set.
 - Keep `data engineering open source projects` covered by `_wiki/open-source.md`,
   `_wiki/open-source-portfolio-evidence.md`,
   `_wiki/data-engineering-portfolio-projects.md`, and
-  `_roadmaps/open-source-contributor-roadmap.md` unless a future brief asks for
+  `_wiki/open-source-contributor-roadmap.md` unless a future brief asks for
   a narrower project guide.
 - Keep `open source entity resolution` covered by `_wiki/entity-resolution.md`
   and linked supporting pages such as Open Source, Data Engineering Tools, and
   portfolio pages. Extend the entity-resolution wiki page when more interviews
   add matching, identity, or customer-360 evidence.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
-  `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
+  `_wiki/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.
 - Keep A/B testing as wiki coverage, not a separate guide or content category.
   Current canonical coverage lives in `_wiki/a-b-testing.md`,

@@ -73,3 +73,35 @@ html.dark .chip--wiki { --chip: #8ed8ad; }
 html.dark .chip--podcast { --chip: #9fb2c4; }
 html.dark .chip--person { --chip: #c4a2f5; }
 html.dark .chip--book { --chip: #7fb0ff; }
+
+/* Compact citation markers for podcast evidence. Use these when the source
+   should read like a citation rather than as a visible entity chip. */
+.citation {
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+  margin-left: 0.12em;
+}
+
+.citation .citation-link,
+.citation .citation-link:hover,
+.citation .citation-link:focus,
+.citation .citation-link:active {
+  color: #52677a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.citation .citation-link:hover,
+.citation .citation-link:focus {
+  color: #2f4558;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+html.dark .citation .citation-link,
+html.dark .citation .citation-link:hover,
+html.dark .citation .citation-link:focus,
+html.dark .citation .citation-link:active {
+  color: #9fb2c4;
+}

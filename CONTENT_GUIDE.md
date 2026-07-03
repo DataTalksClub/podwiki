@@ -7,11 +7,12 @@ This project has several different content products.
 Every public page must pass three checks before it is committed:
 
 - Grounded: every substantive section must cite actual DataTalks.Club podcast
-  discussions. Link evidence through the local `/podcasts/<slug>/` page when the
-  source episode is known; that page links to the original DataTalks.Club
-  episode.
-- Linked: every page must visibly link to related wiki pages, people pages,
-  local podcast pages, and podcast evidence. Tagged pages (guide, comparison,
+  discussions. Link evidence to the canonical
+  `https://datatalks.club/podcast/<slug>.html` page when the source episode is
+  known.
+- Linked: every page must visibly link to related wiki pages, canonical
+  podcast evidence, and other relevant public pages. Guest/person links are
+  optional supporting references, not a required quality gate. Tagged pages (guide, comparison,
   roadmap, transition, how-to) should use `related_wiki` frontmatter and body
   links; untagged concept pages should use `related` frontmatter and body links.
 - Focused: every page centers one topic, role, transition, comparison, roadmap,
@@ -24,10 +25,9 @@ Avoid reader-facing scaffold phrases such as "the archive says" or
 "podcast-grounded." Name the guest, episode, or podcast discussions that support
 the claim instead.
 
-When the source episode is known, public content pages should link to the local
-podcast page: `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. The local
-podcast page links to the original
-`https://datatalks.club/podcast/<source-file-slug>.html` episode. Use
+When the source episode is known, public content pages should link to the
+canonical episode:
+`https://datatalks.club/podcast/<source-file-slug>.html`. Use
 `https://datatalks.club/podcast.html` only when the specific episode slug is not
 known yet.
 
@@ -86,8 +86,9 @@ Required structure:
 5. Related pages: a short final list when the body needs a navigational close.
 
 Do not publish a separate link map or evidence appendix. Put links where they
-help the claim: related wiki pages in definitions, people links where a guest's
-argument appears, and local podcast links next to the discussion they support.
+help the claim: related wiki pages in definitions and canonical podcast links
+next to the discussion they support. Add person links only when the named person
+helps the reader follow the source.
 Do not use reader-facing headings with "Archive" in the name. Use
 `Common Definition`, `Guest Disagreements`, and concrete topic headings instead.
 
@@ -126,10 +127,11 @@ podcast-grounded synthesis when the topic becomes important enough to cover.
 
 ## Podcast Summaries
 
-Podcast summaries live in `_podcast_summaries/`. They are not replacement podcast
+Podcast summaries live in `_podcast_summaries/`. They are not public podcast
 pages and must not copy full transcripts. Their job is to help future agents decide
 whether to open the original source episode in `../datatalksclub.github.io`.
-They are also the internal citation targets for all wiki pages.
+They also provide source metadata for graph/search. Public wiki citations should
+resolve to the canonical DataTalks.Club episode URL.
 
 Required structure:
 
@@ -137,42 +139,41 @@ Required structure:
 - chapter-level summary from clips or transcript sections
 - key concepts
 - useful-for / probably-skip-if guidance for agents
-- source pointers back to `https://datatalks.club/podcast.html` and source files
+- source pointers back to `https://datatalks.club/podcast/<slug>.html` and source files
 
-Generate or refresh these local podcast pages with
+Generate or refresh these source-derived podcast records with
 `python scripts/sync_podcast_pages.py`. The source of truth is still
 `../datatalksclub.github.io/_podcast`.
 
 Before topic writeups, run `make sources`. This extracts podcast episodes,
 people, chapter summaries, topic candidates, `artifacts/podcast/source-index.json`,
 and `sources/podcast-archive-summary.md`. Agents should read the archive
-summary and local `/podcasts/<slug>/` pages as their first pass before opening a
-full episode transcript.
+summary and source-derived records as their first pass before opening a full
+episode transcript.
 
 For large topic discovery work, keep five subagents running in parallel. Split
 the source episodes into non-overlapping batches. Each subagent should return
-candidate topics, local podcast links, guest links, and chapter evidence before
-any wiki or editorial page is written.
+candidate topics, canonical podcast links, optional guest references, and
+chapter evidence before any wiki or editorial page is written.
 
 ## Graph Source
 
 The graph is derived from Markdown documents, not maintained as editorial
-content. All wiki pages (concept hubs and tagged guide/comparison/roadmap/
-transition/how-to pages), people pages, and local podcast pages are the source.
+content. Wiki pages are the public content source. Podcast, person, and book
+documents are node registries that provide canonical DataTalks.Club targets.
 `graph/graph.json` is generated by `python scripts/build_graph.py` and should not
-be hand-edited. Run `make sources` before `make graph` when podcast or people
-source files changed. The graph may model tagged wiki pages internally as
+be hand-edited. Run `make sources` before `make graph` when podcast, people, or
+book source files changed. The graph may model tagged wiki pages internally as
 article/content nodes; that is an implementation detail.
 
 ## People Pages
 
-People pages live in `_people/`. They collect guest/contributor information from
-`../datatalksclub.github.io/_people` and podcast participation. They should link
-people to wiki pages (concepts and tagged guide/comparison/roadmap/transition/
-how-to pages) and local podcast summaries where relevant.
-Use the original people profile for short background, but make the page mostly
-about what the person argued, explained, contrasted, or demonstrated in podcast
-discussions.
+People documents live in `_people/`, but they are not content targets for this
+project. They are source-derived entity records used by graph/search/listing
+code, and human-facing person links should resolve to the canonical
+`https://datatalks.club/people/<slug>.html` page on the main site. Do not spend
+content-writing time expanding people pages. Put guest contributions inside the
+relevant wiki/topic page, next to the podcast claim they support.
 
 ## One Collection, Typed by Tags
 
@@ -207,7 +208,7 @@ keyword list is provided. Required structure once keywords exist:
 - one topic-centered opening that states what the page helps the reader do
 - content outline matched to the keyword without a public `Search Intent` section
 - podcast-backed examples and expert quotes or paraphrases
-- visible links to relevant wiki pages, people pages, local podcast pages, and
+- visible links to relevant wiki pages, canonical podcast episodes, and
   grounding evidence
 
 Tagged pages still follow the wiki evidence rule: cite specific podcast
@@ -263,7 +264,7 @@ make links             # authoritative: builds the site, then scripts/check_link
 
 `make wiki-links` validates every `/wiki/` body link and `related`/`related_wiki`
 title against real pages without a build. `make links` builds the static site and
-checks all rendered links (nav, generated people/podcast pages, anchors). Run
+checks all rendered links (nav, generated pages, anchors). Run
 `make wiki-links` before committing and `make links` before finishing structural
 changes. Rebuild search after content changes: `python scripts/build_search_index.py`.
 
@@ -272,7 +273,7 @@ changes. Rebuild search after content changes: `python scripts/build_search_inde
 - Every content section should include actual podcast references when it makes a
   claim about the topic.
 - Prefer specific, grounded claims over generic advice; cite the source
-  episode/book/person with a chip (see Prose Style below).
+  episode/book/person with a citation marker or chip (see Prose Style below).
 - Do not cite a guest as supporting a claim unless the transcript evidence is
   present in the episode page.
 - If pages disagree, preserve the disagreement instead of smoothing it away —
@@ -285,9 +286,21 @@ changes. Rebuild search after content changes: `python scripts/build_search_inde
 Wiki pages are encyclopedic reference, not episode recaps. State the idea, then
 cite the source with a chip. Do NOT narrate who said it or when.
 
-**No inline timestamps.** Never write `at 30:38`, `Around 14:31`, `~22:14`, or
-`(8:13)` in prose. If a specific clip moment truly matters, put the time on the
-podcast chip instead: `[[podcast:<slug>|Label|MM:SS]]`. Default to no timestamp.
+**Use citation markers for evidence.** Prefer compact citations over visible
+source chips when the source is only there to support a sentence:
+`[[cite:<podcast-slug>|Episode Label]]`. The renderer turns that into a
+numbered citation marker linked to the canonical DataTalks.Club episode.
+
+Use podcast chips when the episode itself is part of the sentence or a useful
+navigation object: `[[podcast:<podcast-slug>|Episode Label]]`.
+
+**Use timestamps sparingly.** Do not write `at 30:38`, `Around 14:31`, `~22:14`,
+or `(8:13)` in prose. If a specific clip moment truly matters, put the time
+inside the citation or podcast chip:
+`[[cite:<podcast-slug>|Episode Label|MM:SS]]` or
+`[[podcast:<podcast-slug>|Episode Label|MM:SS]]`. Default to episode-level
+citations without timestamps, and add times only when they improve verification
+or help readers find a precise clip.
 
 **No indirect-speech attribution.** Drop `she says`, `he explains`, `the guest
 argues`, `in her episode`, `podcast guests treat X as`, `the DataTalks.Club
@@ -302,13 +315,13 @@ Examples:
   [[person:adrianbrudaru|Adrian Brudaru]] says the warehouse took two weeks but
   alignment took months.`
 - After: `A warehouse build can take two weeks while aligning stakeholders on
-  what to measure takes months ([[podcast:freelance-...|Freelance Playbook]]).`
+  what to measure takes months.[[cite:freelance-...|Freelance Playbook]]`
 
 - Before: `At 38:24 she turns podcast transcripts into chunks, embeddings, and
   vectorized context. At 48:09 she brings evaluation and human review back in.`
 - After: `Transcripts are chunked, embedded, and supplied as vectorized context,
-  with evaluation and human review folded back into the loop
-  ([[podcast:<slug>|Modern Search Systems]]).`
+  with evaluation and human review folded back into the loop.[[cite:<slug>|Modern Search Systems]]`
 
-Keep every claim grounded (the citation stays); only the timestamps and the
-"who-said-it-when" narration are removed. Do not invent facts to replace them.
+Keep every claim grounded (the citation stays); only over-visible chips,
+timestamps, and "who-said-it-when" narration are removed. Do not invent facts to
+replace them.

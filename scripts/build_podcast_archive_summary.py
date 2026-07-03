@@ -27,16 +27,16 @@ def clean_text(value: object) -> str:
 
 def person_label(slug: str, people: dict[str, dict[str, object]]) -> str:
     title = clean_text(people.get(slug, {}).get("title") or slug)
-    return f"[{title}](/people/{slug}/)"
+    return f"[{title}](https://datatalks.club/people/{slug}.html)"
 
 
 def episode_label(episode: dict[str, object]) -> str:
-    return f"[{episode['title']}](/podcasts/{episode['slug']}/)"
+    return f"[{episode['title']}]({episode['source_url']})"
 
 
 def episode_path_label(episode: dict[str, object]) -> str:
-    path = f"/podcasts/{episode['slug']}/"
-    return f"[{path}]({path})"
+    url = clean_text(episode.get("source_url")) or f"https://datatalks.club/podcast/{episode['slug']}.html"
+    return f"[{url}]({url})"
 
 
 def chapter_summary_text(episode: dict[str, object], max_items: int = 4) -> str:

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create local podcast reference pages from the DataTalks.Club podcast source."""
+"""Create source-derived podcast records from the DataTalks.Club podcast source."""
 
 from __future__ import annotations
 
@@ -265,7 +265,7 @@ def main() -> None:
         if render_page(source, target, people):
             changed += 1
 
-    print(f"synced {total} podcast pages, changed {changed}")
+    print(f"synced {total} podcast records, changed {changed}")
 
 
 if __name__ == "__main__":
