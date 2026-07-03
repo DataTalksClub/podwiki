@@ -9284,11 +9284,11 @@
       "id": "wiki:data-scientist-interview",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Scientist Interview Prep: What to Practice Before the First Call",
-      "title": "Data Scientist Interview Prep: What to Practice Before the First Call",
+      "label": "Data Scientist Interview Prep",
+      "title": "Data Scientist Interview Prep",
       "url": "/wiki/data-scientist-interview/",
       "count": 1,
-      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A practical guide to data scientist interview preparation, covering role targeting, CV evidence, recruiter screens, technical rounds, case studies, project stories, and offer questions.",
+      "search": "Data Scientist Interview Prep Prepare for data scientist interviews with role targeting, CV evidence, recruiter screens, technical rounds, case studies, and offer questions.",
       "keyword": "data scientist interview"
     },
     {
@@ -9854,11 +9854,11 @@
       "id": "wiki:hire-data-engineers",
       "type": "wiki",
       "collection": "wiki",
-      "label": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit",
-      "title": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit",
+      "label": "How to Hire Data Engineers",
+      "title": "How to Hire Data Engineers",
       "url": "/wiki/hire-data-engineers/",
       "count": 1,
-      "search": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit A podcast backed guide for managers and founders who need to hire data engineers: when to hire, which profile to hire first, how to write the role, and what to test in interviews.",
+      "search": "How to Hire Data Engineers Guidance for managers and founders on when to hire data engineers, which profile to hire first, how to define the role, and what to test.",
       "keyword": "hire data engineers"
     },
     {
@@ -10040,11 +10040,11 @@
       "id": "wiki:llm-system-design-interview",
       "type": "wiki",
       "collection": "wiki",
-      "label": "LLM System Design Interview: How to Structure a Production-Ready Answer",
-      "title": "LLM System Design Interview: How to Structure a Production-Ready Answer",
+      "label": "LLM System Design Interview",
+      "title": "LLM System Design Interview",
       "url": "/wiki/llm-system-design-interview/",
       "count": 1,
-      "search": "LLM System Design Interview: How to Structure a Production Ready Answer A DataTalks.Club podcast backed guide to LLM system design interviews, grounded in production discussions about RAG, search, agents, evaluation, security, latency, cost, and operations.",
+      "search": "LLM System Design Interview Prepare for LLM system design interviews with production patterns for RAG, agents, evaluation, safety, latency, cost, and operations.",
       "keyword": "llm system design interview"
     },
     {
@@ -10140,17 +10140,6 @@
       "count": 1,
       "search": "Machine Learning for Business: Where ML Helps and Where It Does Not A guide for business leaders and data teams deciding where machine learning can improve decisions, workflows, revenue, cost, risk, and production operations.",
       "keyword": "machine learning business"
-    },
-    {
-      "id": "wiki:machine-learning-for-software-engineers",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Machine Learning for Software Engineers: A Practical Guide",
-      "title": "Machine Learning for Software Engineers: A Practical Guide",
-      "url": "/wiki/machine-learning-for-software-engineers/",
-      "count": 1,
-      "search": "Machine Learning for Software Engineers: A Practical Guide A practical roadmap for software engineers moving into machine learning in software engineering and software development: transferable skills, missing ML and data skills, project sequence, production awareness, and interview preparation.",
-      "keyword": "machine learning for software engineers"
     },
     {
       "id": "wiki:machine-learning-for-startups",
@@ -10262,6 +10251,17 @@
       "url": "/wiki/ml-consulting-proposals/",
       "count": 1,
       "search": "ML Consulting Proposals How DataTalks.Club guests scope machine learning consulting work: discovery calls, feasibility checks, written proposals, pricing, trust, prototypes, workshops, mentoring, delivery risk, and cases where ML should not be sold."
+    },
+    {
+      "id": "wiki:machine-learning-for-software-engineers",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML for Software Engineers",
+      "title": "ML for Software Engineers",
+      "url": "/wiki/machine-learning-for-software-engineers/",
+      "count": 1,
+      "search": "ML for Software Engineers A roadmap for software engineers moving into ML: transferable skills, missing data habits, project sequence, production awareness, and interviews.",
+      "keyword": "machine learning for software engineers"
     },
     {
       "id": "wiki:ml-platform-engineer-role",
@@ -10385,6 +10385,16 @@
       "count": 1,
       "search": "MLOps vs DataOps: Separate Concepts, Shared Reliability Practices Podcast grounded comparison of MLOps and DataOps: what each discipline owns, where they overlap, and how teams should separate model incidents from data incidents.",
       "keyword": "mlops vs dataops"
+    },
+    {
+      "id": "wiki:mlops-vs-devops",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "MLOps vs DevOps Practices",
+      "title": "MLOps vs DevOps Practices",
+      "url": "/wiki/mlops-vs-devops/",
+      "count": 1,
+      "search": "MLOps vs DevOps Practices Which DevOps practices transfer to ML, where model lifecycle risks begin, and how teams split delivery, monitoring, and ownership."
     },
     {
       "id": "wiki:model-monitoring",
@@ -11094,16 +11104,6 @@
       "count": 1,
       "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
-    },
-    {
-      "id": "wiki:mlops-vs-devops",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Which DevOps Practices Transfer to ML, and Which Risks They Miss",
-      "title": "Which DevOps Practices Transfer to ML, and Which Risks They Miss",
-      "url": "/wiki/mlops-vs-devops/",
-      "count": 1,
-      "search": "Which DevOps Practices Transfer to ML, and Which Risks They Miss Which DevOps practices carry over to machine learning and which ML specific lifecycle, reproducibility, and monitoring risks they don't cover, drawn from what DataTalks.Club podcast guests learned in production."
     }
   ],
   "links": [

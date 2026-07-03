@@ -1,8 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Which DevOps Practices Transfer to ML, and Which Risks They Miss"
-summary: "Which DevOps practices carry over to machine learning and which ML-specific lifecycle, reproducibility, and monitoring risks they don't cover, drawn from what DataTalks.Club podcast guests learned in production."
+title: "MLOps vs DevOps Practices"
+summary: "Which DevOps practices transfer to ML, where model lifecycle risks begin, and how teams split delivery, monitoring, and ownership."
 related_wiki:
   - MLOps
   - Software Engineering
@@ -20,30 +20,28 @@ related_wiki:
   - MLOps Engineer
 ---
 
-Teams that already do DevOps well still need a narrow boundary for ML. The
+Teams that already do DevOps well still need a clear ML boundary. The
 useful distinction is which practices transfer to machine learning and which
-ML-specific risks they still miss. It isn't a definitional side-by-side of the
-two terms.
+ML-specific risks they still miss. Use that distinction instead of a
+definitional side-by-side of the two terms.
 
+For the broader guide to workflow and monitoring across both disciplines, use
 DataTalks.Club's
 [overview of DevOps and MLOps](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
-is the authoritative guide to workflow, monitoring, team models, and maturity
-models across both disciplines. Here, the focus is the transfer boundary seen in
-real production experience.
+as the starting point. For team models and maturity models, start there too.
+Here, the focus is the transfer boundary seen in real production experience.
 
 MLOps and DevOps share a production goal: teams need to version code and
 automate delivery while they observe running systems and recover without
 heroics. DevOps mainly operates software services and their infrastructure.
 
-[[MLOps]] operates software plus
-data-dependent model behavior, so teams also track experiment history, model
-artifacts, and feature data. Monitoring, retraining, and governance come with
-that work.
+[[MLOps]] operates software plus data-dependent model behavior, so teams also
+track experiment history, model artifacts, and feature data. Monitoring,
+retraining, and governance come with that work.
 
-MLOps works best as an extension of
-[[software engineering]] and
-[[platform engineering]], not
-as a replacement for DevOps. DevOps skills such as APIs, Docker, and cloud
+MLOps works best as an extension of [[software engineering]] and
+[[platform engineering]], not as a replacement for DevOps. DevOps skills such
+as APIs, Docker, and cloud
 providers pay off when engineers deploy ML systems
 ([[podcast:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning]]).
 
@@ -82,8 +80,8 @@ already running.
 ## Shared Practices
 
 MLOps borrows the parts of DevOps that make production systems changeable.
-Teams still need Git, tests and CI/CD. They also need package management and
-deployment automation. Logs, dashboards and rollback paths complete the
+Teams still need Git, tests, and CI/CD. They also need package management and
+deployment automation. Logs, dashboards, and rollback paths complete the
 delivery base.
 
 This inheritance connects to [[DataOps]] because DevOps culture ties to
@@ -107,8 +105,9 @@ controlled promotion, and operational handoff. MLOps adds model-specific
 approval evidence. That evidence covers model behavior, monitoring, and the risk
 of changing predictions even when the service deployment path looks familiar.
 
-At scale, MLOps practice starts with CI, repository structure, parameterization
-and tests. Dependency management, containers, and Kubernetes follow
+At scale, MLOps practice starts with CI and repository structure.
+Parameterization and tests come with that base. Dependency management,
+containers, and Kubernetes follow
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The skill
 mix blends data science and SRE, with DevOps and platform engineering in that
 mix too.
@@ -152,7 +151,7 @@ predictions. Drift, fairness, and retraining triggers fall to model monitoring
 pipelines, where profiling and data drift can be part of the same investigation
 ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 
-## Platform And Ownership
+## Platform and Ownership
 
 DevOps teams often own the platform path for software teams. MLOps teams own a
 similar path for model-building teams. They also need to understand how data
@@ -194,9 +193,9 @@ both software ownership and model-context ownership.
 Keep two monitoring views separate:
 
 - DevOps monitoring watches availability and latency. It also watches errors,
-  resource use, deployments and infrastructure health.
+  resource use, deployments, and infrastructure health.
 - MLOps monitoring watches feature distributions and prediction distributions.
-  It also watches labels and feedback. Drift, fairness, business impact and
+  It also watches labels and feedback. Drift, fairness, business impact, and
   retraining signals belong there too.
 
 The boundary matters during incidents. If a model API is down, the team starts
@@ -209,10 +208,10 @@ The model alert may start in MLOps, but the root cause may sit in a feature job
 or schema change. A late table or shifted input population can cause the same
 alert.
 
-This is also where [[MLOps vs DataOps]]
-connects to the DevOps comparison. DevOps keeps the runtime reliable. DataOps
+This is also where [[MLOps vs DataOps]] connects to the DevOps comparison.
+DevOps keeps the runtime reliable. DataOps
 keeps the data path reliable. MLOps ties those paths to model artifacts,
-prediction behavior and retraining decisions.
+prediction behavior, and retraining decisions.
 
 ## Career And Team Signals
 
@@ -245,8 +244,8 @@ That means deployment automation and infrastructure. It also means incident
 response and service reliability, plus developer productivity.
 
 Use MLOps when the question is about operating machine learning as a product.
-That means experiments, training data, model artifacts and serving. It also
-means monitoring and feedback. Retraining, governance and model ownership
+That means experiments, training data, model artifacts, and serving. It also
+means monitoring and feedback. Retraining, governance, and model ownership
 belong there too.
 
 Ask what must be recreated. If the answer is code and dependencies, the work is
