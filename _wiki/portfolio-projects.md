@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Portfolio Projects"
-summary: "Guidance for choosing data, analytics, ML, AI, and open-source portfolio projects that prove role fit, practical judgment, public proof, and interview-ready ownership."
+summary: "Podcast-grounded guidance for choosing data, analytics, ML, AI, and open-source portfolio projects with reviewable evidence and role fit."
 related:
   - Career Development
   - Job Search

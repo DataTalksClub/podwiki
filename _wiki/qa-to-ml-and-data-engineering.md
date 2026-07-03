@@ -2,7 +2,7 @@
 layout: wiki
 tags: ["transition"]
 title: "QA to ML and Data Engineering"
-summary: "Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
+summary: "QA-to-ML and data engineering transition notes grounded in podcast examples on testing discipline, projects, cloud practice, and interviews."
 related:
   - Career Transitions in Data
   - Testing

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production"
-summary: "How DataTalks.Club guests define production systems across data, ML, and AI through deployment, monitoring, reliability, ownership, cost, security, and operational feedback."
+summary: "How DataTalks.Club guests define production for data, ML, and AI systems through deployment, monitoring, reliability, ownership, and cost."
 related:
   - MLOps
   - DataOps
@@ -21,17 +21,23 @@ It can change the system, recover from failures, and explain outcomes.
 The useful boundary is dependence. A production system has an owner, a release
 path, observable behavior, and a failure plan. It doesn't have to be large,
 real-time, or deep-learning-heavy. It has to be dependable enough for the
-decision it supports. That boundary applies to [[MLOps]],
+decision it supports.
+
+That boundary applies to [[MLOps]],
 [[DataOps]], [[machine-learning-system-design|machine learning system
 design]], and
 [[LLM production patterns]].
+
 Khuyen Tran's
 [[book:20250728-production-ready-data-science=>Production-Ready Data Science]]
-extends the same dependence and ownership ideas: it covers the
-experiment-to-production handoff, testing, reproducibility, and deployment
-templates that turn a notebook into a maintained system.
+extends the same dependence and ownership ideas. It covers handoff, testing,
+reproducibility, and deployment templates for turning a notebook into a
+maintained system.
+
 [[book:20221121-reliable-machine-learning=>Reliable Machine Learning]]
-by Todd Underwood, Kranti K. Parisa, Cathy Chen, and Niall Murphy extends this reliability lens to ML-specific failure modes: data drift, model decay, and the operational practices that keep a deployed ML system trustworthy over time.
+by Todd Underwood, Kranti K. Parisa, Cathy Chen, and Niall Murphy extends this
+reliability lens to ML-specific failure modes. It focuses on data drift, model
+decay, and the practices that keep a deployed ML system trustworthy over time.
 
 ## Operational Responsibility
 
@@ -165,11 +171,14 @@ expensive. It may also be too large for the target environment. Either case is a
 production failure.
 
 [[person:yurykashnitsky=>Yury Kashnitsky]] gives a
-concrete example: after a gradient boosting model failed to beat a CTR heuristic
-baseline, the team discovered the bottleneck was in the serving infrastructure,
-not the model. Reducing the re-ranking scope fixed the latency problem. The same
-episode also documents the cost of skipping CI/CD — SSH-based deploys meant every
-syntax error crashed production until a manual revert
+concrete example in
+[[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]].
+After a gradient boosting model failed to beat a CTR heuristic baseline, the
+team found the bottleneck in serving infrastructure, not in the model. Reducing
+the re-ranking scope fixed the latency problem.
+
+The same episode also documents the cost of skipping CI/CD. The team's SSH-based
+deploys meant every syntax error crashed production until a manual revert
 ([[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]]).
 
 [[person:benwilson=>Ben Wilson]] treats cost as a reason

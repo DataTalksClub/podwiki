@@ -10544,7 +10544,7 @@
       "title": "Portfolio Projects",
       "url": "/wiki/portfolio-projects/",
       "count": 1,
-      "search": "Portfolio Projects Guidance for choosing data, analytics, ML, AI, and open source portfolio projects that prove role fit, practical judgment, public proof, and interview ready ownership."
+      "search": "Portfolio Projects Podcast grounded guidance for choosing data, analytics, ML, AI, and open source portfolio projects with reviewable evidence and role fit."
     },
     {
       "id": "wiki:power-analysis",
@@ -10637,7 +10637,7 @@
       "title": "Production",
       "url": "/wiki/production/",
       "count": 1,
-      "search": "Production How DataTalks.Club guests define production systems across data, ML, and AI through deployment, monitoring, reliability, ownership, cost, security, and operational feedback."
+      "search": "Production How DataTalks.Club guests define production for data, ML, and AI systems through deployment, monitoring, reliability, ownership, and cost."
     },
     {
       "id": "wiki:production-ml-project-checklist",
@@ -10667,7 +10667,7 @@
       "title": "Prompt Engineering",
       "url": "/wiki/prompt-engineering/",
       "count": 1,
-      "search": "Prompt Engineering Practical prompt engineering patterns from DataTalks.Club episodes: role prompts, examples, structured output, evaluation, context engineering, RAG prompts, compression, caching, and prompt injection risks."
+      "search": "Prompt Engineering DataTalks.Club episodes on prompt engineering patterns: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
     },
     {
       "id": "wiki:prompt-injection-and-chatbot-risk-management",
@@ -10697,7 +10697,7 @@
       "title": "QA to ML and Data Engineering",
       "url": "/wiki/qa-to-ml-and-data-engineering/",
       "count": 1,
-      "search": "QA to ML and Data Engineering Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
+      "search": "QA to ML and Data Engineering QA to ML and data engineering transition notes grounded in podcast examples on testing discipline, projects, cloud practice, and interviews."
     },
     {
       "id": "wiki:rag-evaluation-workflow",
@@ -10718,7 +10718,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects DataTalks.Club guest guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
+      "search": "RAG Portfolio Projects DataTalks.Club guests frame RAG portfolio projects around retrieval quality, citations, evaluation, and production tradeoffs."
     },
     {
       "id": "wiki:rag-vs-fine-tuning",

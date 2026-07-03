@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Prompt Engineering"
-summary: "Practical prompt engineering patterns from DataTalks.Club episodes: role prompts, examples, structured output, evaluation, context engineering, RAG prompts, compression, caching, and prompt-injection risks."
+summary: "DataTalks.Club episodes on prompt engineering patterns: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
 related:
   - LLMs
   - LLM Production Patterns
@@ -35,8 +35,8 @@ or model adaptation.
 Michael Taylor and James Phoenix's
 [[book:20240701-prompt-engineering-for-generative-ai=>Prompt Engineering for Generative AI]]
 catalogs the same role, example, and structured-output techniques as a
-practitioner reference, with prompt-testing patterns across image and text
-generation.
+practitioner reference. It also covers prompt-testing patterns across image and
+text generation.
 
 ## Prompt and Context Interface
 
