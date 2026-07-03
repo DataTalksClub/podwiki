@@ -1,8 +1,8 @@
 ---
 layout: wiki
 tags: ["transition"]
-title: "Data Scientist to Machine Learning Engineer"
-summary: "How data scientists move toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
+title: "Data Scientist to ML Engineer"
+summary: "How data scientists move into ML engineering by adding software engineering, deployment, monitoring, MLOps, and production ownership."
 related:
   - Career Transitions in Data
   - Data Scientist Role
@@ -20,11 +20,10 @@ related:
   - Data Science Careers
 ---
 
-Data scientist to machine learning engineer is a transition from analysis and
-model development toward production ownership. The destination isn't only more
-advanced modeling. It's stronger modeling judgment inside software-engineered
-systems. That means modular code and tests. It also means deployment habits,
-monitoring, serving choices, and operational tradeoff judgment.
+Moving from data scientist to machine learning engineer means taking model
+work into production. Data scientists keep analysis and modeling judgment.
+They add modular code and tests. They also add deployment habits, monitoring,
+serving choices, and operational tradeoff judgment.
 
 [[person:dannyma=>Danny Ma]] gives the career framing
 through his ABC model. His builder path moves data science toward ML
@@ -37,8 +36,7 @@ testable components. He also argues for simple, maintainable solutions before
 complex models
 ([[podcast:machine-learning-engineering-production-best-practices|Ben Wilson's maintainable-code and simplicity discussion at 8:49-13:19 and 44:23-52:14]]).
 
-As a topic, this transition sits between the
-[[Data Scientist Role]] and
+This transition sits between the [[Data Scientist Role]] and
 [[Machine Learning Engineer Role]].
 It also draws on
 [[Machine Learning System Design]]

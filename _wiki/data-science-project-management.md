@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Data Science Project Management"
-summary: "How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff."
+title: "Managing Data Science Projects"
+summary: "How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption."
 keyword: "data science project management"
 secondary_keywords:
   - "project management for data science"
@@ -22,11 +22,11 @@ related:
   - Production ML Project Checklist
 ---
 
-Data science project management is the operating discipline that turns an
-ambiguous business, analytics, or machine learning request into useful shipped
-work. A data science project manager or data lead turns the decision into a
-measurable target. They keep the smallest useful version explicit, plan the
-shipping path, and name the handoff owner.
+Data science project management turns an ambiguous business, analytics, or
+machine learning request into useful shipped work. A data science project
+manager or data lead names the decision and defines a measurable target. They
+keep the smallest useful version explicit, plan the shipping path, and name the
+handoff owner.
 
 The practice draws from [[Data Science]],
 [[Business Skills for Data Professionals]],

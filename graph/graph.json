@@ -9229,17 +9229,6 @@
       "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions."
     },
     {
-      "id": "wiki:data-science-project-management",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Science Project Management",
-      "title": "Data Science Project Management",
-      "url": "/wiki/data-science-project-management/",
-      "count": 1,
-      "search": "Data Science Project Management How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff.",
-      "keyword": "data science project management"
-    },
-    {
       "id": "wiki:data-science-recruiter",
       "type": "wiki",
       "collection": "wiki",
@@ -9254,11 +9243,21 @@
       "id": "wiki:data-scientist-cv-and-portfolio",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Scientist CV and Portfolio",
-      "title": "Data Scientist CV and Portfolio",
+      "label": "Data Scientist CV & Portfolio",
+      "title": "Data Scientist CV & Portfolio",
       "url": "/wiki/data-scientist-cv-and-portfolio/",
       "count": 1,
-      "search": "Data Scientist CV and Portfolio Podcast backed guidance on data scientist CV and portfolio proof for screening, project stories, role fit, and follow up."
+      "search": "Data Scientist CV & Portfolio How to use a data scientist CV and portfolio to show role fit, project ownership, business impact, and interview ready proof."
+    },
+    {
+      "id": "wiki:data-scientist-interview-roadmap",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Scientist Interview Prep",
+      "title": "Data Scientist Interview Prep",
+      "url": "/wiki/data-scientist-interview-roadmap/",
+      "count": 1,
+      "search": "Data Scientist Interview Prep Prepare for data scientist interviews by targeting the right role, proving CV and project impact, and practicing screens, cases, stories, and offers."
     },
     {
       "id": "wiki:data-scientist-interview",
@@ -9270,16 +9269,6 @@
       "count": 1,
       "search": "Data Scientist Interview Prep Prepare for data scientist interviews with role targeting, CV evidence, recruiter screens, technical rounds, case studies, and offer questions.",
       "keyword": "data scientist interview"
-    },
-    {
-      "id": "wiki:data-scientist-interview-roadmap",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Scientist Interview Roadmap",
-      "title": "Data Scientist Interview Roadmap",
-      "url": "/wiki/data-scientist-interview-roadmap/",
-      "count": 1,
-      "search": "Data Scientist Interview Roadmap A podcast backed roadmap for data scientist interview preparation: role targeting, CV evidence, recruiter screens, technical rounds, case studies, behavioral stories, and offer readiness."
     },
     {
       "id": "wiki:data-scientist-role",
@@ -9295,22 +9284,22 @@
       "id": "wiki:data-scientist-to-data-engineer",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Scientist to Data Engineer Roadmap",
-      "title": "Data Scientist to Data Engineer Roadmap",
+      "label": "Data Scientist to Data Eng",
+      "title": "Data Scientist to Data Eng",
       "url": "/wiki/data-scientist-to-data-engineer/",
       "count": 1,
-      "search": "Data Scientist to Data Engineer Roadmap A DataTalks.Club podcast backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning.",
+      "search": "Data Scientist to Data Eng How data scientists can move into data engineering: role shift, transferable skills, engineering gaps, portfolio projects, and interviews.",
       "keyword": "data scientist to data engineer"
     },
     {
       "id": "wiki:data-scientist-to-machine-learning-engineer",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Data Scientist to Machine Learning Engineer",
-      "title": "Data Scientist to Machine Learning Engineer",
+      "label": "Data Scientist to ML Engineer",
+      "title": "Data Scientist to ML Engineer",
       "url": "/wiki/data-scientist-to-machine-learning-engineer/",
       "count": 1,
-      "search": "Data Scientist to Machine Learning Engineer How data scientists move toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
+      "search": "Data Scientist to ML Engineer How data scientists move into ML engineering by adding software engineering, deployment, monitoring, MLOps, and production ownership."
     },
     {
       "id": "wiki:data-strategy",
@@ -10170,6 +10159,17 @@
       "url": "/wiki/machine-learning-tools/",
       "count": 1,
       "search": "Machine Learning Tools A podcast grounded guide to choosing machine learning tools across modeling, learning, experimentation, feature work, MLOps, monitoring, fairness, open source, platforms, and AI tooling boundaries."
+    },
+    {
+      "id": "wiki:data-science-project-management",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Managing Data Science Projects",
+      "title": "Managing Data Science Projects",
+      "url": "/wiki/data-science-project-management/",
+      "count": 1,
+      "search": "Managing Data Science Projects How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption.",
+      "keyword": "data science project management"
     },
     {
       "id": "wiki:manufacturing-predictive-maintenance-yield-analytics",

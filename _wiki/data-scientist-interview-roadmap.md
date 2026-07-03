@@ -1,8 +1,8 @@
 ---
 layout: wiki
 tags: ["roadmap"]
-title: "Data Scientist Interview Roadmap"
-summary: "A podcast-backed roadmap for data scientist interview preparation: role targeting, CV evidence, recruiter screens, technical rounds, case studies, behavioral stories, and offer readiness."
+title: "Data Scientist Interview Prep"
+summary: "Prepare for data scientist interviews by targeting the right role, proving CV and project impact, and practicing screens, cases, stories, and offers."
 related:
   - Data Scientist Role
   - Data Science
@@ -13,13 +13,12 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-A data scientist interview roadmap is a role-specific preparation path from
-job targeting to final offer. Prep starts with the work behind the title,
-because a "data scientist" role might mean product analytics or
-experimentation. It might also mean forecasting, machine learning, or
-production ML.
+Prepare for data scientist interviews by first deciding which job you're
+aiming at. A "data scientist" title can mean product analytics or
+experimentation. It can also mean forecasting, machine learning, or production
+ML.
 
-One split is product data science versus
+One important split is product data science versus
 [[machine-learning-engineer-role=>machine learning engineering]]
 ([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
 
@@ -31,16 +30,15 @@ Use this roadmap with
 [[Data Scientist Role]] and
 [[Data Science Careers]].
 It also connects to [[Job Search]] and
-[[CV Screening]]. A useful roadmap
-doesn't start with a generic question bank. It starts by deciding which role
-you're interviewing for. Then it turns your CV and projects into evidence.
+[[CV Screening]]. Start by deciding which role you're interviewing for, then
+turn your CV and projects into evidence.
 
 [[book:20211115-ace-the-data-science-interview=>Ace The Data Science Interview]]
 by Nick Singh and Kevin Huo is a structured question bank organized around
 that same role-first approach.
 
-Case practice and technical drills support that role, as do stories and offer
-talks.
+After that, add case practice and technical drills before preparing behavioral
+stories and offer conversations.
 
 ## Role Fit, Written Evidence, and Interview Performance
 

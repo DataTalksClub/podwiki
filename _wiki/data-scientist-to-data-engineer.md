@@ -1,14 +1,14 @@
 ---
 layout: article
 tags: [transition, "roadmap"]
-title: "Data Scientist to Data Engineer Roadmap"
+title: "Data Scientist to Data Eng"
 keyword: "data scientist to data engineer"
 secondary_keywords:
   - "from data scientist to data engineer"
   - "data science to data engineering"
   - "data scientist to data engineering"
   - "data scientist to data engineer roadmap"
-summary: "A DataTalks.Club podcast-backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning."
+summary: "How data scientists can move into data engineering: role shift, transferable skills, engineering gaps, portfolio projects, and interviews."
 search_intent: "People searching for data scientist to data engineer want a practical career-transition path: which data science skills transfer, which data engineering skills to build, what projects prove readiness, and how to explain the move in interviews."
 related_wiki:
   - Career Transitions in Data
@@ -23,38 +23,36 @@ related_wiki:
   - Job Search
 ---
 
-Moving from data scientist to data engineer is a shift from using data to
-owning the path that makes data usable. In DataTalks.Club podcast discussions,
-[[data-scientist-role=>data scientists]] frame
-questions, evaluate models, and explain impact.
-[[data-engineer-role=>Data engineers]] build and
-operate data paths. Those paths cover ingestion and storage. They also cover
-transformations, access, orchestration, and quality checks
+Moving from data scientist to data engineer means shifting from using data to
+owning the path that makes data usable. [[data-scientist-role=>Data scientists]]
+frame questions, evaluate models, and explain impact.
+[[data-engineer-role=>Data engineers]] build and operate data paths for
+ingestion and storage. They also cover transformations, access, orchestration,
+and quality checks
 ([[Data Engineer vs Data Scientist]]).
 
-That overlap is why the transition is realistic. A data scientist already knows
-how messy inputs affect analysis and modeling. That includes missing values and
-leakage. It also includes bad joins, late data, and unclear definitions.
+Data scientists can make this move because they already know how messy inputs
+affect analysis and modeling. That includes missing values and leakage. It also
+includes bad joins, late data, and unclear definitions.
 
-The career move is to turn private cleanup habits into shared infrastructure.
-That means modeled tables, reliable pipelines, and documented assumptions. It
-also means tests, backfills, and recovery paths
+To make the move, turn private cleanup habits into shared infrastructure. That
+means modeled tables, reliable pipelines, and documented assumptions. It also
+means tests, backfills, and recovery paths
 ([[Data Engineering Portfolio Projects]]).
 
-Use this roadmap as a transition guide, then go deeper with
+For the broader data engineering path, see
 [[data-engineer-roadmap=>Data Engineering Roadmap]],
 [[Data Engineering]],
 and
 [[Data Engineering Portfolio Projects]].
 
-[[person:ellenkonig=>Ellen König]] gives the most direct
-podcast example of this move in
+Start with [[person:ellenkonig=>Ellen König]]'s transition episode:
 [[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
-She describes data science tasks that are already data engineering work.
-She then explains transferable pipeline, stakeholder, and exploration skills: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Data science and data engineering overlap|9:41]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Pipeline and stakeholder skills|13:55]].
+Data science tasks can already include data engineering work. Pipeline,
+stakeholder, and exploration skills transfer into the engineering role: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Data science and data engineering overlap|9:41]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Pipeline and stakeholder skills|13:55]].
 
-She adds collaborative coding and CI/CD habits, plus DevOps practice. She also
-names clean code and CLI work. Git, Docker, and tests matter too: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Collaborative coding and CI/CD|15:02]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Core engineering habits|26:20]].
+Build collaborative coding, CI/CD, and DevOps practice next, then add clean
+code and CLI work. Git, Docker, and tests belong in the same habit set: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Collaborative coding and CI/CD|15:02]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership|Core engineering habits|26:20]].
 
 ## Role Shift
 

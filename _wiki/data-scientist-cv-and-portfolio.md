@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Data Scientist CV and Portfolio"
-summary: "Podcast-backed guidance on data scientist CV and portfolio proof for screening, project stories, role fit, and follow-up."
+title: "Data Scientist CV & Portfolio"
+summary: "How to use a data scientist CV and portfolio to show role fit, project ownership, business impact, and interview-ready proof."
 related:
   - CV Screening
   - Job Search
@@ -11,21 +11,15 @@ related:
   - Data Science Careers
 ---
 
-A data scientist CV and portfolio help recruiters decide whether a candidate
-matches a specific
-[[data scientist role]].
-They also give interviewers concrete projects to question. DataTalks.Club
-career episodes treat the CV and public work as one proof system. Outreach,
-take-home work, and interview stories use the same proof.
+A data scientist CV and portfolio should make role fit, project ownership, and
+interview follow-up easy to check. DataTalks.Club career episodes connect
+resumes, public projects, take-home work, and interview stories into one proof
+system for a specific [[data scientist role]].
 
-Use this page with [[CV Screening]]
-for the recruiter-side first pass. Use
-[[Job Search]] and the
-[[Data Scientist Interview Roadmap]]
-for the full candidate path. Use
-[[Machine Learning Portfolio Projects]]
-and [[Portfolio Projects]] when
-the project needs deeper technical framing.
+Start with [[CV Screening]] for the recruiter-side first pass. Use
+[[Job Search]] and the [[Data Scientist Interview Roadmap]] for the full
+candidate path. Use [[Machine Learning Portfolio Projects]] and
+[[Portfolio Projects]] when the project needs deeper technical framing.
 
 ## Role Match
 
