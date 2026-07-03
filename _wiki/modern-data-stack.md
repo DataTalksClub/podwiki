@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Modern Data Stack"
-summary: "How DataTalks.Club guests describe the modern data stack across ELT, warehouses, dbt-style transformations, orchestration, activation, observability, and cost control."
+summary: "How podcast guests map the modern data stack across ELT, warehouses, dbt-style modeling, orchestration, activation, observability, and cost."
 related:
   - Data Engineering Platforms
   - ELT

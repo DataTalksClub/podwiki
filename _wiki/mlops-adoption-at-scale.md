@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "MLOps Adoption at Scale"
-summary: "How larger organizations get MLOps practices adopted through platform teams, support models, translators, reproducibility, governance, and DataOps-style operations."
+summary: "How large organizations adopt MLOps through platform teams, support models, reproducibility, governance, and DataOps habits."
 related:
   - MLOps
   - ML Platforms

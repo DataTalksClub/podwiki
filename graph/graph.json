@@ -10269,7 +10269,7 @@
       "title": "MLOps Adoption at Scale",
       "url": "/wiki/mlops-adoption-at-scale/",
       "count": 1,
-      "search": "MLOps Adoption at Scale How larger organizations get MLOps practices adopted through platform teams, support models, translators, reproducibility, governance, and DataOps style operations."
+      "search": "MLOps Adoption at Scale How large organizations adopt MLOps through platform teams, support models, reproducibility, governance, and DataOps habits."
     },
     {
       "id": "wiki:mlops-architecture",
@@ -10310,7 +10310,7 @@
       "title": "MLOps Tools",
       "url": "/wiki/mlops-tools/",
       "count": 1,
-      "search": "MLOps Tools A practical, podcast grounded guide to MLOps tools for experiment tracking, model registries, CI/CD, deployment, monitoring, platform workflows, and stack selection."
+      "search": "MLOps Tools MLOps tools for tracking experiments, managing models, deploying safely, monitoring production behavior, and choosing stacks by team constraints."
     },
     {
       "id": "wiki:mlops-vs-dataops",
@@ -10351,7 +10351,7 @@
       "title": "Model Optimization",
       "url": "/wiki/model-optimization/",
       "count": 1,
-      "search": "Model Optimization Techniques for making ML models smaller, faster, and cheaper to serve: quantization, knowledge distillation, pruning, on device inference optimization, and the shift toward smaller task focused LLMs."
+      "search": "Model Optimization How DataTalks.Club guests explain making ML models smaller, faster, and cheaper with quantization, distillation, compression, and task specific LLMs."
     },
     {
       "id": "wiki:model-registry",
@@ -10371,7 +10371,7 @@
       "title": "Modern Data Engineering Trends",
       "url": "/wiki/modern-data-engineering-trends/",
       "count": 1,
-      "search": "Modern Data Engineering Trends How DataTalks.Club podcast guests describe modern data engineering trends: specialization, governance, quality, DataOps, AI convergence, open lakehouse formats, streaming pragmatism, and FinOps pressure."
+      "search": "Modern Data Engineering Trends Podcast grounded view of data engineering specialization, governance, quality, DataOps, lakehouse formats, streaming, AI, and FinOps."
     },
     {
       "id": "wiki:modern-data-stack",
@@ -10381,7 +10381,7 @@
       "title": "Modern Data Stack",
       "url": "/wiki/modern-data-stack/",
       "count": 1,
-      "search": "Modern Data Stack How DataTalks.Club guests describe the modern data stack across ELT, warehouses, dbt style transformations, orchestration, activation, observability, and cost control."
+      "search": "Modern Data Stack How podcast guests map the modern data stack across ELT, warehouses, dbt style modeling, orchestration, activation, observability, and cost."
     },
     {
       "id": "wiki:multi-agent-systems",

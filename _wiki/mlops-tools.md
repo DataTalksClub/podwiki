@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "MLOps Tools"
-summary: "A practical, podcast-grounded guide to MLOps tools for experiment tracking, model registries, CI/CD, deployment, monitoring, platform workflows, and stack selection."
+summary: "MLOps tools for tracking experiments, managing models, deploying safely, monitoring production behavior, and choosing stacks by team constraints."
 related:
   - MLOps
   - MLOps Roadmap
