@@ -9,7 +9,7 @@ secondary_keywords:
   - "freelance data engineering"
   - "freelance data engineers"
   - "data engineer freelance"
-summary: "How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths."
+summary: "How DataTalks.Club guests frame data engineering consulting: client discovery, scoping, pricing, delivery, reusable assets, and freelance paths."
 related:
   - Data Engineering
   - Data Engineer Role

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineering Certification"
-summary: "A podcast-backed guide to deciding whether a data engineering certification is useful, how to evaluate certificate programs, and what project and interview evidence employers still need."
+summary: "Use podcast advice to decide when data engineering certificates help, how to judge programs, and what project proof employers still need."
 related:
   - Data Engineering
   - Data Engineer Role

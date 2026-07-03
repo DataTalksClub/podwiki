@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Lake"
-summary: "How DataTalks.Club podcast guests use data lake as raw, flexible storage for files, events, logs, and long-lived history, plus the governance, table-format, and DataOps work needed to keep it useful."
+summary: "Podcast-grounded notes on data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
 related:
   - Data Engineering Platforms
   - Data Warehouse

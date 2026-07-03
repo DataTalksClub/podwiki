@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Analyst Role"
-summary: "DataTalks.Club podcast guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
+summary: "Data analyst role across podcast discussions: SQL, dashboards, metrics, experiments, stakeholder communication, and nearby data roles."
 related:
   - Data Analyst Careers
   - Product Analytics

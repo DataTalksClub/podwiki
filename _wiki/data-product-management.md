@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Product Management"
-summary: "How DataTalks.Club podcast guests define data product management: user discovery, role boundaries, roadmaps, adoption, metrics, ownership, and operating discipline for data products."
+summary: "How podcast guests frame data product management around discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
 related:
   - Data Products
   - Data Product Adoption

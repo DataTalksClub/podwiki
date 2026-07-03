@@ -8770,7 +8770,7 @@
       "title": "Competitions Beyond Kaggle",
       "url": "/wiki/competitions-beyond-kaggle/",
       "count": 1,
-      "search": "Competitions Beyond Kaggle A practical guide to using competitions beyond Kaggle as portfolio and evaluation evidence, with guidance on specialized challenges, leaderboard limits, agentic AI benchmarks, code quality, collaboration, and when competitions are the wrong proof.",
+      "search": "Competitions Beyond Kaggle How to use non Kaggle competitions as portfolio evidence through reproducible code, evaluation notes, research challenges, and honest limits.",
       "keyword": "competitions beyond kaggle"
     },
     {
@@ -8882,7 +8882,7 @@
       "title": "Data Analyst Role",
       "url": "/wiki/data-analyst-role/",
       "count": 1,
-      "search": "Data Analyst Role DataTalks.Club podcast guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
+      "search": "Data Analyst Role Data analyst role across podcast discussions: SQL, dashboards, metrics, experiments, stakeholder communication, and nearby data roles."
     },
     {
       "id": "wiki:data-analyst-to-data-engineer",
@@ -8955,7 +8955,7 @@
       "title": "Data Engineering Certification",
       "url": "/wiki/data-engineering-certification/",
       "count": 1,
-      "search": "Data Engineering Certification A podcast backed guide to deciding whether a data engineering certification is useful, how to evaluate certificate programs, and what project and interview evidence employers still need."
+      "search": "Data Engineering Certification Use podcast advice to decide when data engineering certificates help, how to judge programs, and what project proof employers still need."
     },
     {
       "id": "wiki:data-engineering-consulting",
@@ -8965,7 +8965,7 @@
       "title": "Data Engineering Consulting",
       "url": "/wiki/data-engineering-consulting/",
       "count": 1,
-      "search": "Data Engineering Consulting How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths.",
+      "search": "Data Engineering Consulting How DataTalks.Club guests frame data engineering consulting: client discovery, scoping, pricing, delivery, reusable assets, and freelance paths.",
       "keyword": "data engineer consulting"
     },
     {
@@ -8987,7 +8987,7 @@
       "title": "Data Engineering Platforms",
       "url": "/wiki/data-engineering-platforms/",
       "count": 1,
-      "search": "Data Engineering Platforms How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self service, reliability, adoption, and cost control.",
+      "search": "Data Engineering Platforms How guests define data engineering platforms: shared ingestion, storage, orchestration, governance, reliability, self service, adoption, and cost control.",
       "keyword": "data intensive applications"
     },
     {
@@ -9029,7 +9029,7 @@
       "title": "Data Freelancing Strategy",
       "url": "/wiki/data-freelancing-strategy/",
       "count": 1,
-      "search": "Data Freelancing Strategy How DataTalks.Club guests frame data freelancing as a strategy problem: validating demand, choosing a market position, finding first clients, pricing risk, and deciding whether to stay solo, grow an agency, or build a product."
+      "search": "Data Freelancing Strategy How podcast guests turn data freelancing into strategy: validate demand, choose a market, win clients, price risk, and pick a growth path."
     },
     {
       "id": "wiki:data-governance",
@@ -9049,7 +9049,7 @@
       "title": "Data Lake",
       "url": "/wiki/data-lake/",
       "count": 1,
-      "search": "Data Lake How DataTalks.Club podcast guests use data lake as raw, flexible storage for files, events, logs, and long lived history, plus the governance, table format, and DataOps work needed to keep it useful."
+      "search": "Data Lake Podcast grounded notes on data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
     },
     {
       "id": "wiki:data-mesh",
@@ -9101,7 +9101,7 @@
       "title": "Data Pipelines",
       "url": "/wiki/data-pipelines/",
       "count": 1,
-      "search": "Data Pipelines Podcast grounded guide to data pipelines as movement, transformation, publication, and operations across ingestion, orchestration, testing, recovery, batch, streaming, CDC, and ML handoffs."
+      "search": "Data Pipelines Podcast grounded guide to data pipelines: ingestion, transformation, publication, orchestration, testing, recovery, CDC, and ML handoffs."
     },
     {
       "id": "wiki:data-product-manager-vs-product-manager",
@@ -9142,7 +9142,7 @@
       "title": "Data Product Management",
       "url": "/wiki/data-product-management/",
       "count": 1,
-      "search": "Data Product Management How DataTalks.Club podcast guests define data product management: user discovery, role boundaries, roadmaps, adoption, metrics, ownership, and operating discipline for data products."
+      "search": "Data Product Management How podcast guests frame data product management around discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
     },
     {
       "id": "wiki:data-product-manager",

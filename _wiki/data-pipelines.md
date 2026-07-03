@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Pipelines"
-summary: "Podcast-grounded guide to data pipelines as movement, transformation, publication, and operations across ingestion, orchestration, testing, recovery, batch, streaming, CDC, and ML handoffs."
+summary: "Podcast-grounded guide to data pipelines: ingestion, transformation, publication, orchestration, testing, recovery, CDC, and ML handoffs."
 related:
   - CDC
   - Orchestration

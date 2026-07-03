@@ -3,7 +3,7 @@ layout: article
 tags: ["guide"]
 title: "Competitions Beyond Kaggle"
 keyword: "competitions beyond kaggle"
-summary: "A practical guide to using competitions beyond Kaggle as portfolio and evaluation evidence, with guidance on specialized challenges, leaderboard limits, agentic AI benchmarks, code quality, collaboration, and when competitions are the wrong proof."
+summary: "How to use non-Kaggle competitions as portfolio evidence through reproducible code, evaluation notes, research challenges, and honest limits."
 search_intent: "People searching for competitions beyond Kaggle usually want alternatives to leaderboard chasing and a practical way to turn ML, AI, or research competitions into credible portfolio evidence."
 related_wiki:
   - Machine Learning Portfolio Projects

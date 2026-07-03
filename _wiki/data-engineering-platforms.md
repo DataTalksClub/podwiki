@@ -2,7 +2,7 @@
 layout: wiki
 title: "Data Engineering Platforms"
 keyword: "data intensive applications"
-summary: "How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self-service, reliability, adoption, and cost control."
+summary: "How guests define data engineering platforms: shared ingestion, storage, orchestration, governance, reliability, self-service, adoption, and cost control."
 related:
   - Data Engineering
   - DataOps Platforms

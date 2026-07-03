@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Freelancing Strategy"
-summary: "How DataTalks.Club guests frame data freelancing as a strategy problem: validating demand, choosing a market position, finding first clients, pricing risk, and deciding whether to stay solo, grow an agency, or build a product."
+summary: "How podcast guests turn data freelancing into strategy: validate demand, choose a market, win clients, price risk, and pick a growth path."
 related:
   - Freelance
   - Entrepreneurship
