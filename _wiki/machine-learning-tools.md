@@ -161,6 +161,13 @@ link experiment tracking, model registries, batch inference, and online serving.
 They also link workflow orchestration, metadata, and thin cloud abstractions
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
+Optimization solvers are part of the same tooling landscape when predictions
+feed constrained decisions. OR-Tools, Gurobi, Pyomo, and open-source options
+belong beside modeling tools in that case. They help the system translate
+forecasts into inventory, pricing, bidding, or resource-allocation choices under
+objectives and constraints
+([[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization]]).
+
 On the ecosystem and education side, Metaflow appears with AWS, Kubernetes, and
 Argo. ML interoperability appears there too, and DevRel work connects to
 documentation, dogfooding, and user feedback

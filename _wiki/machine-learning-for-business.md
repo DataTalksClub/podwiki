@@ -108,6 +108,17 @@ person acts differently, the team probably has a reporting problem before it has
 an ML problem. A system action needs the same clarity. The team may have a
 discovery problem too.
 
+[[cite:machine-learning-decision-optimization|Machine Learning Decision Optimization]]
+adds the prescriptive side of this rule. A prediction only estimates what may
+happen. Business value comes when the team turns that estimate into a decision
+under objectives and constraints.
+
+A forecast may feed an inventory order. It may also drive a price offer, bid,
+or resource allocation. That means the loss function, optimization objective,
+and operating constraints have to match the business objective. Otherwise a
+model can improve a prediction metric while still recommending decisions the
+business can't execute or doesn't value.
+
 [[person:marianosemelman=>Mariano Semelman]] gives the data science leadership
 version of that product-first rule: a model matters when it helps the final
 user solve a problem. Technical interest isn't enough.

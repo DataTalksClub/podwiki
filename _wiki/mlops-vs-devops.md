@@ -20,16 +20,16 @@ related_wiki:
   - MLOps Engineer
 ---
 
-This page answers a narrow question: when an engineer or team already does
-DevOps well, which of those practices carry straight over to machine learning,
-and which ML-specific risks do they still miss? It is not a definitional
-side-by-side of the two terms.
+Teams that already do DevOps well still need a narrow boundary for ML. The
+useful distinction is which practices transfer to machine learning and which
+ML-specific risks they still miss. It isn't a definitional side-by-side of the
+two terms.
 
-For the general workflow, monitoring, team, and maturity-model comparison of the
-two disciplines, DataTalks.Club's
-[DevOps vs MLOps: Workflows, Monitoring, and Maturity Models Explained](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
-is the authoritative overview. This page stays on one thing: the transfer
-boundary seen in real production experience.
+DataTalks.Club's
+[overview of DevOps and MLOps](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
+is the authoritative guide to workflow, monitoring, team models, and maturity
+models across both disciplines. Here, the focus is the transfer boundary seen in
+real production experience.
 
 MLOps and DevOps share a production goal: teams need to version code and
 automate delivery while they observe running systems and recover without
@@ -75,9 +75,9 @@ control and production ownership matter too.
 
 DevOps contrasts with the model lifecycle and data drift, with fairness and
 monitoring part of the same boundary and retraining triggers alongside them
-([[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]). DevOps does not
-stop mattering; ML changes what a release means after the service is already
-running.
+([[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]). DevOps doesn't
+stop mattering, because ML changes what a release means after the service is
+already running.
 
 ## Shared Practices
 
@@ -86,19 +86,29 @@ Teams still need Git, tests and CI/CD. They also need package management and
 deployment automation. Logs, dashboards and rollback paths complete the
 delivery base.
 
-This inheritance connects to [[DataOps]]: DevOps culture ties to automation and
-observability, with [[ci-cd|CI/CD]] and regression tests alongside. Version
-control, deployment automation, production monitoring, and recovery sit in the
-same practice
+This inheritance connects to [[DataOps]] because DevOps culture ties to
+automation and observability. [[ci-cd|CI/CD]], regression tests, version
+control, and deployment automation sit with production monitoring and recovery
+in the same practice
 ([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
 
-The pragmatic overlap favors reusing existing infrastructure: Kubernetes, Git,
-and CI/CD, with registries and monitoring belonging there instead of a separate
-tool for every MLOps concern
+The pragmatic overlap favors reusing Kubernetes, Git, and CI/CD. Registries and
+monitoring can belong in existing infrastructure instead of a separate tool for
+every MLOps concern
 ([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
 
-At scale, MLOps practice includes CI and repository structure, parameterization
-and tests, then dependency management, containers, and Kubernetes
+In finance, that reuse also means fitting ML work into corporate DevOps and
+release-management processes that already have approvals and trust gates.
+Nemanja Radojkovic described ML engineering as adapting model workflows to
+those existing processes, not bypassing them
+([[cite:mlops-and-ml-engineering-in-finance|MLOps and ML Engineering in Finance]]).
+Release discipline transfers from DevOps through separated environments,
+controlled promotion, and operational handoff. MLOps adds model-specific
+approval evidence. That evidence covers model behavior, monitoring, and the risk
+of changing predictions even when the service deployment path looks familiar.
+
+At scale, MLOps practice starts with CI, repository structure, parameterization
+and tests. Dependency management, containers, and Kubernetes follow
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The skill
 mix blends data science and SRE, with DevOps and platform engineering in that
 mix too.
@@ -124,14 +134,13 @@ This expanded boundary means reproducibility includes data versioning and
 traceability, as well as experiment capture
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
-The same path connects to concrete platform components: [[experiment tracking]],
-the [[model registry]], and a separation of batch inference, online serving, and
-orchestration
+The same path connects to concrete platform components such as
+[[experiment tracking]] and the [[model registry]]. It also covers the
+separation of batch inference, online serving, and orchestration
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-It extends to metadata, lineage, artifact logging, and tracking, which makes
-[[reproducibility]], [[experiment tracking]], and
-[[model-registry=>model registries]] operating concerns rather than optional
-documentation.
+Metadata, lineage, artifact logging, and tracking then become operating
+concerns. That makes [[reproducibility]], [[experiment tracking]], and
+[[model-registry=>model registries]] more than optional documentation.
 
 MLOps also adds model-specific monitoring. DevOps monitoring can show that a
 service is available and fast, but a healthy endpoint can still return bad
@@ -139,8 +148,8 @@ predictions. Drift, fairness, and retraining triggers fall to model monitoring
 ([[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]).
 
 [[model monitoring=>Model monitoring]] often reaches upstream into
-[[data-quality-and-observability=>data observability]]: it connects to ETL and
-pipelines, with profiling and data drift part of the same investigation
+[[data-quality-and-observability=>data observability]]. It connects to ETL and
+pipelines, where profiling and data drift can be part of the same investigation
 ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 
 ## Platform And Ownership
@@ -149,8 +158,8 @@ DevOps teams often own the platform path for software teams. MLOps teams own a
 similar path for model-building teams. They also need to understand how data
 scientists work.
 
-The useful mix for ML platform work is cloud infrastructure, Kubernetes, and
-Terraform, plus software engineering and knowledge of the data science workflow
+ML platform work mixes cloud infrastructure and Terraform with Kubernetes. It
+also requires software engineering and knowledge of the data science workflow
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 That extra workflow knowledge matters because ML work starts with exploration.
@@ -164,21 +173,21 @@ That puts MLOps beside
 [[Machine Learning Infrastructure]],
 and [[MLOps Engineer]].
 
-Central MLOps work is enablement rather than ownership removal, linking
-build-vs-buy and platform scope to repeated team needs. The platform starts with
-experiment tracking and registries, then covers serving plus orchestration, with
-metadata, lineage, and logging in scope too
+Central MLOps work enables teams rather than removing ownership. It links
+build-vs-buy choices and platform scope to repeated team needs. The platform
+starts with experiment tracking and registries, then covers serving plus
+orchestration. Metadata, lineage, and logging stay in scope too
 ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 Ownership can't be a simple handoff from data scientist to software engineer.
-Failures occur where data scientists hand model code or APIs to software
-engineers without shared vocabulary, and where expectations and documentation
-are missing
+Failures occur when data scientists hand model code or APIs to software
+engineers. The risk grows when shared vocabulary, expectations, and
+documentation are missing
 ([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
 
-Remedies include workshops, explicit vocabulary, documentation, and engineering
-support. That's the human side of the MLOps-vs-DevOps boundary: the same
-production system needs both software ownership and model-context ownership.
+Workshops, explicit vocabulary, documentation, and engineering support address
+the human side of the MLOps-vs-DevOps boundary. The same production system needs
+both software ownership and model-context ownership.
 
 ## Monitoring Boundary
 
@@ -192,8 +201,8 @@ Keep two monitoring views separate:
 
 The boundary matters during incidents. If a model API is down, the team starts
 with DevOps-style service checks. If the API is healthy but prediction quality
-falls, the team needs model monitoring and data observability, following model
-failures upstream into ETL and data pipelines
+falls, the team needs model monitoring and data observability. The investigation
+then follows model failures upstream into ETL and data pipelines
 ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 
 The model alert may start in MLOps, but the root cause may sit in a feature job
@@ -207,10 +216,10 @@ prediction behavior and retraining decisions.
 
 ## Career And Team Signals
 
-Engineers from DevOps, SRE, backend or platform backgrounds can move toward
+Engineers from DevOps, SRE, backend, or platform backgrounds can move toward
 MLOps when they add the ML lifecycle to their existing production skills. APIs
-and cloud providers transfer, as do Docker, deployment, maintenance, and
-monitoring
+and cloud providers transfer. Docker, deployment, maintenance, and monitoring
+transfer too
 ([[podcast:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning]]).
 
 The engineer also needs to understand data preparation, modeling, and the full
@@ -219,12 +228,12 @@ ML lifecycle.
 A centralized MLOps team supports product teams, gathers pain points, improves
 developer experience, and measures deployment frequency and impact
 ([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). That looks
-familiar to DevOps and platform teams, but the adoption metric is not just "can
+familiar to DevOps and platform teams, but the adoption metric isn't just "can
 we deploy software?" It's "can teams keep models deployed, monitored,
 maintained, and useful as data changes?"
 
 [[person:agitajaunzeme=>Agita Jaunzeme]]'s DevOps transition moved from
-configuration management and automation into data and open-source work
+configuration management and automation toward data work plus open-source work
 ([[podcast:from-devops-to-data-engineering-automation-open-source-volunteering|From DevOps to Data Engineering]]).
 The same transfer logic applies to MLOps. Automation habits help, but the target
 system changes the evidence a person must show.
@@ -290,4 +299,3 @@ comparison:
 - [[MLOps Engineer]]
 - [[Software Engineer to Machine Learning]]
 - [[Notebook to Production AI Systems]]
-

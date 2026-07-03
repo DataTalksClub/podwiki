@@ -223,6 +223,13 @@ The feature store doesn't make validation automatic. It provides hooks and a
 shared path so teams don't have to copy the same serving-time checks into every
 model.
 
+The same shared path also helps with operational observability. In
+human-centered MLOps work, logging the features a model actually saw makes later
+debugging and reproduction more concrete. A feature store gives that logging a
+stable vocabulary of feature definitions. Incident reviews can then reason from
+known inputs instead of reconstructing them from scattered services
+([[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
+
 This matters after launch because data drift and concept drift can appear. Teams
 also need to keep challenging whether a production model remains the right model
 ([[podcast:feature-engineering-model-monitoring-and-data-governance|Feature Engineering and Model Monitoring]]).
