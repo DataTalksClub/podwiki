@@ -62,9 +62,9 @@ matters and how the organization will know the solution worked.
 
 Geo's platform example makes the internal-user version explicit. His ML platform
 served more than one hundred users, including data scientists and business data
-engineers. He treats those internal users as customers. Their requirements,
-adoption constraints, and productivity costs belong in the roadmap
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform users and adoption constraints at 11:24-18:25]]).
+engineers. He treats those internal users as customers[[cite:ml-product-manager-and-mlops-platform-strategy|Geo on platform users]].
+Their requirements, adoption constraints, and productivity costs belong in the
+roadmap.
 That makes the role close to
 [[Platform Adoption]] and
 [[self-service-data-platforms=>Self-Service Data Platforms]]:
@@ -75,8 +75,7 @@ domain knowledge before committing to a roadmap. Interviews and documentation
 review help define the problem. So does the Five Whys.
 
 His roadmap then moves from problems to possible solutions to metrics. Impact,
-effort, and cost help choose what comes next
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product discovery and roadmap metrics at 14:03-47:18]]).
+effort, and cost help choose what comes next[[cite:building-and-scaling-ai-data-products-with-mlops|AI data product discovery and roadmap metrics]].
 
 ML product management therefore sits close to
 [[Data Product Management]]
@@ -86,26 +85,25 @@ platform capability, or data-quality improvement.
 Sara's episode shows why the product part can't be skipped. A data-focused PM
 still does customer discovery and forms hypotheses. They plan with engineering
 and launch. Data quality, PII, and compliance make those steps credible. SQL
-and data lifecycle knowledge matter too
-([[podcast:product-designer-to-data-product-manager|data product manager discovery and technical fluency at 7:04-26:33]]).
+and data lifecycle knowledge matter too[[cite:product-designer-to-data-product-manager|data product manager discovery and technical fluency]].
 
 ## Platform PM, AI Product PM, and Data PM Variants
 
 Guests differ less on the need for technical literacy and more on the
 center of gravity. Geo centers the role on internal ML platforms. His ML product
 manager writes specs and balances stakeholder requirements. They also groom the
-backlog with engineering, resist solution bias, and manage rollout governance
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform roadmap and release governance at 9:50-21:06 and 31:28-35:18]]).
+backlog with engineering and resist solution bias. They manage rollout
+governance too[[cite:ml-product-manager-and-mlops-platform-strategy|Geo on platform roadmaps]].
+
 That platform-centered version looks like product management for
 [[Machine Learning Infrastructure]],
 [[Model Registry]], deployment
 paths, and [[Model Monitoring]].
 
 Greg centers the role on business-value roadmaps for AI and data products.
-Customer research and product sense get more weight. So do manual-workflow
-discovery, MLOps prioritization, and SMART goals. SLAs, data quality, and
-pipeline failures also matter
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product research prioritization and metrics at 23:20-55:32]]).
+Customer research and product sense get more weight. Manual-workflow discovery
+and MLOps prioritization matter too. So do SMART goals, SLAs, data quality, and
+pipeline failures[[cite:building-and-scaling-ai-data-products-with-mlops|Greg on AI product metrics]].
 In that version, the ML product manager may look like a
 [[data product manager]]
 who works on AI capabilities.
@@ -113,8 +111,7 @@ who works on AI capabilities.
 Sara centers the role on product craft and transition skills. Her version is
 less platform-specific. It's more about becoming fluent enough in data to guide
 discovery and launch work. That fluency also supports documentation and
-stakeholder education
-([[podcast:product-designer-to-data-product-manager|data PM fluency documentation and stakeholder education at 19:38-28:30 and 51:55-58:24]]).
+stakeholder education[[cite:product-designer-to-data-product-manager|Sara on data PM fluency]].
 This is useful for teams where the ML PM title doesn't exist, but a product
 manager still has to make data and ML tradeoffs.
 
@@ -131,23 +128,21 @@ platform dependency.
 
 Greg's discussion sits on the boundary. He uses the data product manager frame
 for AI products because the work still starts with customers and business
-problems. The roadmap can still include MLOps, scaling strategies, and
-unscalable manual workflows that should become model-assisted workflows
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product roadmap tradeoffs at 35:34-47:18]]).
+problems. The roadmap can still include MLOps and scaling strategies. It can
+also include unscalable manual workflows that should become model-assisted
+workflows[[cite:building-and-scaling-ai-data-products-with-mlops|Greg on roadmap tradeoffs]].
 That's why this role belongs next to both
 [[Data Products]] and
 [[MLOps]].
 
 Sara shows the broader data PM skill floor. Data quality, PII, SQL, and
 documentation matter even before a team introduces a model. Lifecycle awareness
-matters too
-([[podcast:product-designer-to-data-product-manager|data PM skill floor and data lifecycle at 19:38-26:33]]).
+matters too[[cite:product-designer-to-data-product-manager|data PM skill floor and data lifecycle]].
 
 Geo's episode adds the ML-specific layer through model architectures and data
 infrastructure. Cloud concepts, CI/CD, and Kubernetes become relevant too.
 For an ML platform or model-backed capability, validation matters. Shadowing and
-release checklists matter too
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML PM technical knowledge and validation at 23:28-25:31 and 57:20]]).
+release checklists matter too[[cite:ml-product-manager-and-mlops-platform-strategy|ML PM technical knowledge and validation]].
 
 Use the ML product manager label when the PM must reason about model lifecycle,
 platform adoption, or ML quality gates. The label also fits tradeoffs among
@@ -171,14 +166,12 @@ Geo draws this line when he separates the technical ML product manager from data
 science lead or staff engineering work. The PM coordinates cross-team
 requirements, adoption, and roadmap tradeoffs. Engineers own backend systems,
 systems engineering, CI/CD, and Kubernetes. They also own platform
-implementation details
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML PM and engineering ownership boundaries at 28:37-37:48]]).
+implementation details[[cite:ml-product-manager-and-mlops-platform-strategy|ML PM and engineering ownership boundaries]].
 
 That boundary still requires technical credibility. Geo argues that ML platform
 PMs need enough familiarity with model architectures and data infrastructure.
 Cloud concepts and tooling also help them communicate with engineers and avoid
-naive roadmap decisions
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform technical credibility at 23:28-25:31]]).
+naive roadmap decisions[[cite:ml-product-manager-and-mlops-platform-strategy|ML platform technical credibility]].
 The PM doesn't replace the ML engineer. They should still understand enough of
 [[Machine Learning System Design]],
 [[Production]], and
@@ -196,7 +189,7 @@ questions the PM has to manage.
 The strategic version of the role turns business planning into researchable ML
 use cases. The PM listens for problems and goals, then reframes them as
 requirements and an initial business case. Researchers test whether ML can solve
-the problem better than the current approach.[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles|43:28]]
+the problem better than the current approach[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles]].
 
 For a conventional product manager, the hardest question may be which customer
 problem to solve or which feature to launch. For an ML product manager, the same
@@ -204,15 +197,13 @@ question can depend on data availability, model quality, and serving
 constraints. Platform readiness, governance approvals, and user trust can also
 influence the decision.
 Geo's release-governance and adoption sections make those extra constraints
-visible
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform release governance and adoption at 31:28-37:48]]).
+visible[[cite:ml-product-manager-and-mlops-platform-strategy|ML platform release governance and adoption]].
 
 Greg's roadmap template also keeps the product-manager boundary clear. The PM
 starts with the business problem, not with "build a model." They consider
 customer pain, impact, and effort. Cost and metric belong in the same decision.
 A model, pipeline, platform investment, or manual workflow improvement may be
-the right next step
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product roadmap decisions at 31:45-47:18]]).
+the right next step[[cite:building-and-scaling-ai-data-products-with-mlops|AI data product roadmap decisions]].
 
 [[Data Product Manager vs Product Manager]]
 and
@@ -224,14 +215,13 @@ separate the title boundaries.
 ML product managers turn technical possibilities into a sequence the team can
 execute. Geo describes roadmap ownership, specs, and stakeholder balancing. He
 also covers backlog grooming with engineers and problem breakdown through
-workshops and interviews
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform roadmap ownership and problem breakdown at 9:50-21:06]]).
+workshops and interviews[[cite:ml-product-manager-and-mlops-platform-strategy|Geo on roadmap ownership]].
 A PM should avoid jumping from a stakeholder request directly to a technical
 solution.
 
 Vin makes that sequence a gated investment process. Research and architecture
 inputs become feasibility studies, production-path estimates, and ROI
-checks.[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles|48:54]].
+checks[[cite:make-money-with-machine-learning-roles-skills|ML monetization roles]].
 The PM can stop weak bets or fund more research. Strong candidates move into
 the product roadmap.
 That puts the role close to
@@ -242,26 +232,25 @@ Greg turns the same idea into a roadmap structure built around problems and
 possible solutions. Metrics and impact come next. He also adds effort, cost,
 and time horizon before the team compares options. A technical roadmap may
 standardize the platform. A scaling roadmap may turn manual operational work
-into a reliable data or ML workflow
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product scaling roadmap at 35:34-47:18]]).
+into a reliable data or ML workflow[[cite:building-and-scaling-ai-data-products-with-mlops|AI data product scaling roadmap]].
 
 AI roadmap prioritization needs product judgment because the PM connects
-customer problem areas to possible AI tools.[[cite:ai-ml-product-design-and-experimentation|AI product design|37:15]]
+customer problem areas to possible AI tools[[cite:ai-ml-product-design-and-experimentation|AI product design]].
 
 That role keeps weak defaults in check. Management may prescribe model types
 early, while data scientists may prioritize from datasets before the
-customer problem is clear.[[cite:ai-ml-product-design-and-experimentation|AI product design|37:15]]
+customer problem is clear[[cite:ai-ml-product-design-and-experimentation|AI product design]].
 
 This makes the role depend on
 [[Product Analytics]] and
 [[Experimentation]].
 Quarterly OKRs can tune a metric, but larger AI product bets may need protected
-exploration time outside the three-month delivery lane.[[cite:ai-ml-product-design-and-experimentation|AI product design|39:33]]
+exploration time outside the three-month delivery lane[[cite:ai-ml-product-design-and-experimentation|AI product design]].
 
 When those bets compete with the normal backlog, PMs need measurable proof
 points. Quick surveys and product tests can turn an idea into a
 [[Data Product Intake and Prioritization]]
-case.[[cite:ai-ml-product-design-and-experimentation|AI product design|54:11]]
+case[[cite:ai-ml-product-design-and-experimentation|AI product design]].
 
 Roadmap quality depends on the engineers, data scientists, analysts, and
 business owners in
@@ -275,22 +264,18 @@ stakeholder dictate the whole product direction.
 ML product work isn't finished when a model or platform feature ships. Geo
 frames adoption as a product problem for internal platforms. The PM has to know
 which teams will adopt the capability and when rollout timing creates value.
-They also need to understand how users experience the platform
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform adoption and user experience at 35:18-40:14]]).
+They also need to understand how users experience the platform[[cite:ml-product-manager-and-mlops-platform-strategy|Geo on platform adoption]].
 In Geo's example, embedded data scientists can act as power users, internal
 advocates, and demo partners for the platform.
 
 Quality and governance are also product concerns. Geo discusses observability
 metrics for platform impact and governance approvals. Model validation belongs
-in the same release conversation. So do shadowing and release checklists
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform observability governance and release checks at 18:25 and 31:28-57:20]]).
+in the same release conversation. So do shadowing and release checklists[[cite:ml-product-manager-and-mlops-platform-strategy|ML platform observability governance and release checks]].
 
 Greg adds SMART goals and service-level expectations. Pipeline failures and data
-quality measures also matter for internal data platforms
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data product SMART goals and data quality metrics at 51:11-55:32]]).
+quality measures also matter for internal data platforms[[cite:building-and-scaling-ai-data-products-with-mlops|AI data product SMART goals and data quality metrics]].
 Sara adds compliance and documentation. She also puts PII and stakeholder
-education upstream in product-management responsibilities
-([[podcast:product-designer-to-data-product-manager|data PM compliance education and documentation at 19:38-24:30 and 51:55-56:08]]).
+education upstream in product-management responsibilities[[cite:product-designer-to-data-product-manager|data PM compliance education and documentation]].
 
 Together, the episodes treat quality as a product boundary, not only an
 engineering checklist. The ML PM should know when the product risk is model
@@ -306,16 +291,13 @@ People enter the role from data science, product design, product management, or
 technical program work. Each path leaves a different gap. Geo moved from web
 development through data science into product management. He recommends building
 communication, prioritization, and roadmap literacy. Backlog and ML-platform
-literacy matter too
-([[podcast:ml-product-manager-and-mlops-platform-strategy|Geo Jolly's path into ML product management at 1:56-6:28 and 44:56-59:52]]).
+literacy matter too[[cite:ml-product-manager-and-mlops-platform-strategy|Geo Jolly's path into ML product management]].
 
 Sara shows the product-design path. User research and empathy transfer well from
 design work, as does case-study framing. SQL and data lifecycle knowledge need
 deliberate practice. Documentation fluency and data-quality judgment need
-practice too
-([[podcast:product-designer-to-data-product-manager|product designer to data product manager transition at 28:30-39:04]]).
+practice too[[cite:product-designer-to-data-product-manager|product designer to data product manager transition]].
 
 Greg's episode is useful for data professionals without a formal PM title. They
 can still identify customers and validate needs. They can also align mental
-models inside the team
-([[podcast:building-and-scaling-ai-data-products-with-mlops|AI data PM practice without the title at 55:32-58:42]]).
+models inside the team[[cite:building-and-scaling-ai-data-products-with-mlops|AI data PM practice without the title]].

@@ -25,93 +25,89 @@ candidate path. Use [[Machine Learning Portfolio Projects]] and
 
 The strongest CV and portfolio make fit easy to see. [[person:lukewhipps|Luke Whipps]]
 describes the recruiter workflow in
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]].
-At 14:07-27:19, he looks for readable presentation and industry fit. He also
-checks use-case fit, project links, career narrative, and business impact.
+[[cite:get-data-scientist-job|Land Data Scientist Roles]]. He looks for
+readable presentation and industry fit first. He also checks use-case fit,
+project links, career narrative, and business impact.
 
 [[person:olegnovikov=>Oleg Novikov]] gives the candidate
 version in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
-At 18:28, he frames the CV as a landing page. Its job is to earn the next
-conversation. At 25:51, he asks candidates to highlight personal contribution
-because a vague tool list doesn't explain what they did.
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]]. He
+frames the CV as a landing page whose job is to earn the next conversation. He
+also asks candidates to highlight personal contribution because a vague tool
+list doesn't explain what they did.
 
 [[person:nicksingh=>Nick Singh]] extends the same rule
 into interviews in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-At 25:13-31:06, project walkthroughs test ownership, impact, and business
-context. A portfolio item has to survive follow-up questions about method,
-metric, tradeoff, and result.
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
+Project walkthroughs test ownership, impact, and business context. A portfolio
+item has to survive follow-up questions about method, metric, tradeoff, and
+result.
 
 ## Interview Screen Priorities
 
 Luke puts the most weight on market and company match. In
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]],
-he checks the overlap between the candidate's industry and the company's
-problems at 16:15-19:50. Strong skills can look less relevant when the projects
-don't resemble the target business.
+[[cite:get-data-scientist-job|Land Data Scientist Roles]], he checks the
+overlap between the candidate's industry and the company's problems. Strong
+skills can look less relevant when the projects don't resemble the target
+business.
 
 Oleg puts more weight on the first human screen. In
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
-he says at 17:13-18:28 that candidates should start from the job description.
-The CV should make relevant experience easy to find. At 55:17, he treats
-applicant tracking systems as parsing tools more than automatic rejection
-engines.
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]], he
+says candidates should start from the job description. The CV should make
+relevant experience easy to find. He treats applicant tracking systems as
+parsing tools more than automatic rejection engines.
 
 Nick puts more weight on delivery after the screen. In
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]],
-he warns at 37:18-38:17 that candidates should only present models and methods
-they can defend. At 39:42, he says side projects can show impact through
-technical gains or user value. They shouldn't pretend to have corporate revenue
-impact.
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]],
+he warns that candidates should only present models and methods they can
+defend. He says side projects can show impact through technical gains or user
+value. They shouldn't pretend to have corporate revenue impact.
 
 [[person:andradaolteanu=>Andrada Olteanu]] adds a
 career-transition view in
-[[podcast:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]].
-At 32:14, she treats Kaggle notebooks, GitHub, and public projects as stronger
-proof than a CV claim such as knowing Python. The value is visible practice and
-a work trail that shows learning over time.
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Analytics to Data Science with Kaggle Portfolio]].
+She treats Kaggle notebooks, GitHub, and public projects as stronger proof than
+a CV claim such as knowing Python. The value is visible practice and a work
+trail that shows learning over time.
 
 ## Screening Fit
 
 The first screen asks whether the candidate should get a conversation. Luke's
 recruiter discussion in
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]]
-starts with presentation at 14:07, but the substance is fit. At 16:15, he looks
-for industry and use-case alignment. At 19:50, he checks whether listed skills
-appear in actual project descriptions.
+[[cite:get-data-scientist-job|Land Data Scientist Roles]]
+starts with presentation, but the substance is fit. He looks for industry and
+use-case alignment, then checks whether listed skills appear in actual project
+descriptions.
 
 Oleg's CV advice in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
-explains the candidate-side mechanism. At 25:51, a project bullet should show
-what the candidate owned and changed. At 44:38, he recommends removing age,
-photo, and address because they don't improve role fit.
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]]
+explains the candidate-side mechanism. A project bullet should show what the
+candidate owned and changed. He recommends removing age, photo, and address
+because they don't improve role fit.
 
 Role targeting changes which proof belongs near the top. Luke advises junior
-candidates at 32:22 in
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]]
-to pick an industry and show purpose. Oleg distinguishes product data science
-from machine-learning-engineering expectations at 15:29 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+candidates to pick an industry and show purpose
+[[cite:get-data-scientist-job|Land Data Scientist Roles]]. Oleg distinguishes
+product data science from machine-learning-engineering expectations
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]].
 Use [[Data Science Careers]]
 and [[Job Descriptions]] to decide
 which proof should lead.
 
 ## Project Descriptions
 
-Project descriptions should connect skill, work, and outcome. Luke says at
-19:50 in
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]]
-that a tech-stack overview is weak when it isn't linked to concrete projects.
-At 25:04, he adds the business-impact standard. The project should show the
-problem, the real-world use case, and what changed.
+Project descriptions should connect skill, work, and outcome. Luke says in
+[[cite:get-data-scientist-job|Land Data Scientist Roles]] that a tech-stack
+overview is weak when it isn't linked to concrete projects. He adds the
+business-impact standard, where the project shows the problem, the real-world
+use case, and what changed.
 
-Nick gives the interview version at 25:13 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-Interviewers often ask candidates to choose a project. Then they probe the
-model, metric, validation, and ownership details. At 31:06, he warns that
-candidates often jump into algorithms too quickly. They should first explain
-the business problem and product context.
+In
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]],
+Nick gives the interview version. Interviewers often ask candidates to choose a
+project and then probe model choice, evaluation metrics, validation approach,
+and ownership details. He warns that candidates often jump into algorithms too
+quickly. They should first explain the business problem and product context.
 
 A reusable project description should cover these points:
 
@@ -121,8 +117,8 @@ A reusable project description should cover these points:
 - The method, metric, result, and tradeoff.
 
 [[person:misraturp=>Misra Turp]] adds a useful beginner standard in
-[[cite:how-to-break-into-data-science|Data Science Career Playbook|57:09]].
-Hiring managers aren't only looking for an impressive model. They want to see
+[[cite:how-to-break-into-data-science|Data Science Career Playbook]]. Hiring
+managers aren't only looking for an impressive model. They want to see
 whether the candidate understands how data behaves and notices data problems.
 They also want to see how the candidate handles failure modes such as
 overfitting and explains what they would try next.
@@ -131,43 +127,42 @@ That makes a messy, realistic dataset stronger than another polished starter
 dataset when the work shows judgment. Misra recommends NYC Open Data, including
 taxi-ride data, as a source with enough real-world dirt to support a good
 beginner project
-[[cite:how-to-break-into-data-science|Data Science Career Playbook|58:14]].
+[[cite:how-to-break-into-data-science|Data Science Career Playbook]].
 Use [[Portfolio Projects]] and [[Machine Learning Portfolio Projects]] to turn
 that kind of dataset into a project brief, baseline, evaluation, and follow-up
 story.
 
-That structure follows Nick's impact-first walkthrough at 27:50 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-It also follows Oleg's case-study advice at 32:03 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
+That structure follows Nick's impact-first walkthrough
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
+It also follows Oleg's case-study advice
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]],
 where business goals and evaluation metrics come before solution detail.
 
 ## Portfolio Storytelling and Business Impact
 
 Portfolio storytelling should lead with what the work made possible. Nick says
-at 27:50 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+in
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
 that candidates bury the lead when they leave results until the end. His
 recommended order is impact first, then the technical details needed to defend
 it.
 
-At 31:06 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]],
-Nick makes the same point in business terms. Companies don't get paid in model
-accuracy alone. Candidates should translate model work into business value.
-That can mean revenue or cost. It can also mean risk, user behavior, or
-learning.
+Nick makes the same point in business terms
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
+Companies don't get paid in model accuracy alone. Candidates should translate
+model work into business value. That can mean revenue or cost. It can also mean
+risk, user behavior, or learning.
 
-For side projects, Nick's standard is still impact. At 39:42 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]],
-he says a pet project shouldn't fake business value. It can quantify dataset
-size, model improvement, latency, or reproducibility. It can also show audience
-use or what the candidate learned and rebuilt.
+For side projects, Nick's standard is still impact. A pet project shouldn't
+fake business value
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
+It can quantify dataset size, model improvement, latency, or reproducibility.
+It can also show audience use or what the candidate learned and rebuilt.
 
-Luke's recruiter advice supports the same direction. At 25:04 in
-[[podcast:get-data-scientist-job=>Land Data Scientist Roles]],
-he looks for business impact and real-world use cases on the CV. A project that
-only names a library is weaker than one that explains why a team, customer, or
+Luke's recruiter advice supports the same direction. He looks for business
+impact and real-world use cases on the CV
+[[cite:get-data-scientist-job|Land Data Scientist Roles]]. A project that only
+names a library is weaker than one that explains why a team, customer, or
 decision would benefit. For ML-heavy examples, use
 [[Machine Learning Portfolio Projects]],
 [[Evaluation]], and
@@ -177,48 +172,45 @@ decision would benefit. For ML-heavy examples, use
 
 Kaggle evidence is strongest when it shows applied practice, not only ranking.
 In
-[[podcast:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]],
-Andrada describes using Kaggle as a project-based learning environment at
-14:26. At 15:42, she explains how master's and dissertation projects became
-public notebooks.
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Analytics to Data Science with Kaggle Portfolio]],
+Andrada describes using Kaggle as a project-based learning environment. She
+explains how master's and dissertation projects became public notebooks.
 
-At 32:14 in
-[[podcast:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]],
-the portfolio value is visibility. A candidate can claim Python or PyTorch on a
-CV, then show Kaggle notebooks or GitHub projects where those tools were used.
+The portfolio value is visibility
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Analytics to Data Science with Kaggle Portfolio]].
+A candidate can claim Python or PyTorch on a CV, then show Kaggle notebooks or
+GitHub projects where those tools were used.
 
 [[person:lavanyagupta=>Lavanya Gupta]] adds a useful distinction for
 portfolio goals. Pet projects, datasets, and community contributions can show
 curiosity and create networking visibility. For job applications, the proof has
 a narrower job. It should connect to role requirements, interview discussion,
 or organization-backed work with feedback and real-world impact
-[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth|51:28]].
+[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth]].
 
 Her episode also shows how public work supports
 [[career-transitions-in-data=>career transition]].
-At 18:09 in
-[[podcast:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]],
-Kaggle community interaction and mentorship become part of the job-search
-story. At 36:41, transferable analyst skills help explain the move from
-analytics into data science.
+Kaggle community interaction and mentorship become part of the job-search story
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Analytics to Data Science with Kaggle Portfolio]].
+Transferable analyst skills help explain the move from analytics into data
+science.
 
-Kaggle has limits in Andrada's account. At 26:07 in
-[[podcast:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]],
-some interviews tested algorithmic coding rather than practical ML project
-skills. Oleg says at 45:46 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
-that cold-start candidates can use public datasets, synthetic data, and
-blogging. When possible, the stronger project is tailored to the company or
-product problem.
+Kaggle has limits in Andrada's account. Some interviews tested algorithmic
+coding rather than practical ML project skills
+[[cite:analytics-to-data-science-with-kaggle-portfolio|Analytics to Data Science with Kaggle Portfolio]].
+Oleg says that cold-start candidates can use public datasets, synthetic data,
+and blogging
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]]. When
+possible, the stronger project is tailored to the company or product problem.
 
 ## Take-Home Projects and Follow-Up
 
 Take-home projects should be treated as proof with a cost. Oleg describes the
-common funnel at 13:24 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
-It moves from CV screen to recruiter call and take-home work. Interviews,
-debrief, and offer or rejection follow. At 27:51, he warns that take-home
-assignments consume real time.
+common funnel in
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]]. It
+moves from CV screen to recruiter call and take-home work. Interviews, debrief,
+and offer or rejection follow. He warns that take-home assignments consume real
+time.
 
 For useful take-homes, keep the portfolio story:
 
@@ -227,19 +219,18 @@ For useful take-homes, keep the portfolio story:
 - Explain the method.
 - Include the metric and limitations.
 
-Oleg's case-study advice at 32:03 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
-rewards business-goal framing. Nick's project-walkthrough advice at 25:13 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
-rewards candidates who can explain tradeoffs.
+Oleg's case-study advice rewards business-goal framing
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]].
+Nick's project-walkthrough advice rewards candidates who can explain tradeoffs
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
 
-Follow-up is part of the same proof system. Oleg advises candidates at 39:10 in
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
-to ask for feedback and reapply strategically after rejection. At 49:10, he
-recommends gracious replies because hiring relationships can matter later.
+Follow-up is part of the same proof system. Oleg advises candidates to ask for
+feedback and reapply strategically after rejection. He recommends gracious
+replies because hiring relationships can matter later
+[[cite:data-science-interview-and-cv-guide|Data Science Interview Guide]].
 
-Nick adds the proactive outreach version at 58:26-1:00:59 in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+Nick adds the proactive outreach version in
+[[cite:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
 Short cold emails work better when they include relevant project links, visuals,
 or GitHub evidence. That lets the reader evaluate fit without inferring it from
 a resume alone.

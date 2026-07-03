@@ -25,6 +25,7 @@ PODCAST_LABEL_TIMESTAMP_RE = re.compile(
     r"(?:\||=>)[^\]]*(?:\b(?:at|around)\s+\d{1,2}:\d{2}\b|\b\d{1,2}:\d{2}\b)",
     re.IGNORECASE,
 )
+WIKI_CHIP_RE = re.compile(r"\[\[([^\]]+)\]\]")
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
@@ -107,6 +108,12 @@ def link_counts(text: str) -> dict[str, int]:
     counts["podcasts"] += len(CANONICAL_PODCAST_RE.findall(text))
     counts["podcasts"] += len(PODCAST_CHIP_RE.findall(text))
     counts["people"] += len(CANONICAL_PEOPLE_RE.findall(text))
+    for inner in WIKI_CHIP_RE.findall(text):
+        if ":" in inner:
+            prefix = inner.split(":", 1)[0].strip().lower()
+            if prefix not in {"wiki", "topic"}:
+                continue
+        counts["wiki"] += 1
     return counts
 
 
