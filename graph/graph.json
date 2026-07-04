@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11084
+    "links": 11077
   },
   "nodes": [
     {
@@ -9239,7 +9239,7 @@
       "title": "AI Red Teaming",
       "url": "/wiki/ai-red-teaming/",
       "count": 1,
-      "search": "AI Red Teaming How DataTalks.Club podcast guests frame AI red teaming as adversarial testing for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
+      "search": "AI Red Teaming How DataTalks.Club podcast guests frame AI red teaming for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
     },
     {
       "id": "wiki:ai-tooling",
@@ -10962,7 +10962,7 @@
       "title": "Sensor ML Personal Baselines",
       "url": "/wiki/sensor-ml-personal-baselines/",
       "count": 1,
-      "search": "Sensor ML Personal Baselines A sensor ML portfolio pattern: use individual history for anomaly detection, product alerts, and baseline aware health signals."
+      "search": "Sensor ML Personal Baselines A sensor ML portfolio project: use individual history for anomaly detection, product alerts, and baseline aware health signals."
     },
     {
       "id": "wiki:simulation-and-digital-twins",
@@ -25513,24 +25513,6 @@
     {
       "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:recommendation-systems",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-red-teaming",
-      "target": "person:adityagautam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-red-teaming",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-red-teaming",
-      "target": "person:supreetkaur",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56976,36 +56958,6 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
-      "target": "person:arsenykravchenko",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "person:benwilson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "person:krzysztofszafanek",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -57043,6 +56995,18 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57099,12 +57063,6 @@
       "target": "wiki:data-scientist-role",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "wiki:dataops",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:machine-learning-engineer-role",

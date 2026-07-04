@@ -24,7 +24,7 @@ real-time, or deep-learning-heavy. It has to be dependable enough for the
 decision it supports.
 
 That boundary applies to [[MLOps]],
-[[DataOps]], [[machine-learning-system-design|machine learning system
+[[DataOps]], [[machine-learning-system-design=>machine learning system
 design]], and
 [[LLM production patterns]].
 
@@ -43,32 +43,30 @@ decay, and the practices that keep a deployed ML system trustworthy over time.
 
 [[person:benwilson=>Ben Wilson]] frames production
 readiness around maintainable code, business buy-in, testing, and simple
-baselines in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-At 44:23, he argues that SQL or statistical baselines should be compared with
-deep learning when they can solve the business problem. At 32:03 and 46:22, he
-ties experimentation to cost-benefit tradeoffs and warns against copying
-academic papers into cloud production without checking assumptions. His
-emphasis is production risk from unnecessary complexity, cloud cost, and systems
-that nobody can maintain.
+baselines. He argues that SQL or statistical baselines should be compared with
+deep learning when they can solve the business problem. He also ties
+experimentation to cost-benefit tradeoffs and warns against copying academic
+papers into cloud production without checking assumptions
+[[cite:machine-learning-engineering-production-best-practices=>Ben Wilson]].
+His emphasis is production risk from unnecessary complexity, cloud cost, and
+systems that nobody can maintain.
 
 [[person:nadianahar=>Nadia Nahar]] puts the same
-responsibility earlier in the lifecycle in
-[[podcast:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
-The episode names unclear requirements, weak data access, and poor documentation
-as production risks before release. Team silos and exploratory ML delivery add
-more risk. Her 39:05 and 42:47 chapters recommend workshops and shared
-vocabulary. They also cover model cards, datasheets, factsheets, and checklists
-so teams can preserve the context that a notebook alone doesn't include.
+responsibility earlier in the lifecycle.
+She names unclear requirements, weak data access, and poor documentation as
+production risks before release, with team silos and exploratory ML delivery
+adding more risk. Nahar recommends workshops and shared vocabulary. She also
+connects those practices to model cards, datasheets, factsheets, and checklists.
+Those records preserve the context that a notebook alone doesn't include
+[[cite:software-engineering-for-machine-learning=>Nadia Nahar]].
 
 [[person:simonstiebellehner=>Simon Stiebellehner]] gives
-the platform version in
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-At 4:42, he defines [[MLOps]] as people,
-operating practices, and technology. Later chapters connect that definition to
+the platform version. He defines [[MLOps]] as people,
+operating practices, and technology, then connects that definition to
 [[experiment tracking]] and the
-[[model registry]]. They also cover
-metadata, lineage, API design, and prediction logging.
+[[model registry]]. He also covers
+metadata, lineage, API design, and prediction logging
+[[cite:building-production-ml-platform-and-mlops-team=>Simon Stiebellehner]].
 
 ## Release Paths and Serving Choices
 
@@ -78,30 +76,29 @@ environment. It also needs data input shape, serving interface, and rollback
 path.
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
-compares serving modes at 31:15 in
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+compares serving modes in his ML platform discussion.
 He separates batch inference from online serving, then covers orchestration and
 production workflows.
 A nightly scoring job, a real-time API, and a feature pipeline need different
 controls. Production architecture often starts with
 [[batch vs streaming]]
-rather than with a single deployment tool.
+rather than with a single deployment tool
+[[cite:building-production-ml-platform-and-mlops-team=>Serving modes]].
 
 [[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]]
-links deployment to Kubeflow pipelines and model monitoring in
-[[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
-The episode also covers automated retraining, fairness checks, and edge
+links deployment to Kubeflow pipelines and model monitoring. The episode also
+covers automated retraining, fairness checks, and edge
 deployment. In that view, the release path includes pipeline scheduling, trigger
-logic, and criteria for replacing a model.
+logic, and criteria for replacing a model
+[[cite:mlops-kubeflow-model-monitoring=>Kubeflow and monitoring]].
 
 [[person:meryemarik=>Meryem Arik]] moves the release
-choice into model supply in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-At 49:44 and 51:35, she contrasts fast API prototypes with open-source
-deployment. The same choice shapes privacy and hidden API model changes. It also
-shapes cost and latency. Hardware, model size, compression, and
+choice into model supply by contrasting fast API prototypes with open-source
+deployment. The same choice shapes privacy, hidden API model changes, cost, and
+latency. Hardware, model size, compression, and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
-belong to the serving decision.
+belong to the serving decision
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Meryem Arik]].
 
 ## Monitoring, Evaluation, and Feedback
 
@@ -111,29 +108,27 @@ uptime. Input quality, feature freshness, prediction distributions, and latency
 can all matter. Errors, business outcomes, and fairness checks can matter too.
 
 [[person:ioannismesionis=>Ioannis Mesionis]] discusses
-this through data products in
-[[podcast:building-data-products-lead-data-scientist=>Building Data Products at Scale]].
-At 25:17, pilots and A/B testing validate models against baseline KPIs. At
-53:33, model monitoring includes drift detection and tool integration. The
-operating loop has to connect model signals with product metrics, not only model
-metrics.
+this through data products. Pilots and A/B testing validate models against
+baseline KPIs, while model monitoring covers drift detection and tool
+integration. The team has to connect model signals with product metrics, not
+only model metrics
+[[cite:building-data-products-lead-data-scientist=>Data products]].
 
 [[person:danielsvonava=>Daniel Svonava]] makes the same
-point for search systems in
-[[podcast:building-production-search-systems=>Building Production Search Systems]].
-The 1:01:25 and 1:03:50 chapters separate business impact from operational
-metrics, then cover A/B testing and offline evaluation. A
+point for search systems. He separates business impact from operational metrics,
+then covers A/B testing and offline evaluation. A
 [[retrieval-augmented-generation=>search and RAG system]]
 can look technically healthy while relevance gets worse, so monitoring has to
-include user-facing quality.
+include user-facing quality
+[[cite:building-production-search-systems=>Production search]].
 
 [[person:bartoszmikulski=>Bartosz Mikulski]] adds
 [[testing]] as an early monitoring habit in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-His 9:05 to 13:14 chapters cover data trust, snapshot tests, and integration
-tests. They also cover Great Expectations, Soda, SQL tests, and Spark tests. At
-28:16, the same discipline moves to prompt evaluation. If a team can't measure
-prompt output quality, it can't know whether an AI system is fit for production.
+AI engineering work. He covers data trust, snapshot tests, and integration
+tests. He also covers Great Expectations, Soda, SQL tests, and Spark tests. The
+same discipline moves to prompt evaluation. A team that can't measure prompt
+output quality can't know whether an AI system is fit for production
+[[cite:production-ready-ai-engineering=>Production AI engineering]].
 
 ## Reliability and Change Control
 
@@ -142,25 +137,27 @@ traffic, or dependencies change. Models and users change too. Guests treat
 reliability as a system property, not as a property of a model alone.
 
 [[person:arsenykravchenko=>Arseny Kravchenko]] anchors
-reliability in design constraints in
-[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
-He emphasizes goals, non-goals, and assumptions. He also covers data strategy,
-system diagrams, and latency constraints. At 14:49, he covers known unknowns,
-unknown unknowns, and early tests.
+reliability in design constraints by emphasizing goals, non-goals, and
+assumptions. He also covers data strategy and system diagrams. His reliability
+discussion includes latency constraints, known unknowns, unknown unknowns, and
+early tests
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Arseny Kravchenko]].
 
-At 31:42-37:15, he connects reliability to baselines, metrics, and pipeline
-components. He also covers dependencies and batch-versus-real-time choices. His
-edge and mobile chapters make frames per second, energy use, and hardware limits
-part of production design. On-device execution becomes a design constraint too.
+He also connects reliability to baselines, metrics, and pipeline components.
+Dependencies and batch-versus-real-time choices become part of the reliability
+discussion. In his edge and mobile examples, frames per second, energy use, and
+hardware limits become part of production design. On-device execution becomes a
+design constraint too
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Edge constraints]].
 
 [[person:tomaszhinc=>Tomasz Hinc]] applies the same
 logic to data teams in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices]].
-He links reproducibility with infrastructure as code, branch-based changes,
-review, and safer platform onboarding. The
+[[DataOps]] and GitOps work. He links reproducibility with infrastructure as
+code, branch-based changes, review, and safer platform onboarding. The
 [[DataOps]] contribution is traceability:
 pipeline changes should be reviewable and recoverable enough that teams can
-reason about failures.
+reason about failures
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps]].
 
 ## Cost, Latency, and Model Constraints
 
@@ -172,34 +169,32 @@ production failure.
 
 [[person:yurykashnitsky=>Yury Kashnitsky]] gives a
 concrete example in
-[[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]].
+[[cite:data-science-failures-and-mlops-lessons=>Data science failures]].
 After a gradient boosting model failed to beat a CTR heuristic baseline, the
 team found the bottleneck in serving infrastructure, not in the model. Reducing
 the re-ranking scope fixed the latency problem.
 
 The same episode also documents the cost of skipping CI/CD. The team's SSH-based
 deploys meant every syntax error crashed production until a manual revert
-([[podcast:data-science-failures-and-mlops-lessons|Data Science Failures and MLOps Lessons]]).
+[[cite:data-science-failures-and-mlops-lessons=>Manual deploys]].
 
 [[person:benwilson=>Ben Wilson]] treats cost as a reason
-to avoid unnecessary model complexity in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-His baseline argument at 44:23 is also a cost argument. The simplest system that
-solves the business problem belongs in the comparison before a team accepts
-heavier production burden.
+to avoid unnecessary model complexity. His baseline argument is also a cost
+argument. The simplest system that solves the business problem belongs in the
+comparison before a team accepts heavier production burden
+[[cite:machine-learning-engineering-production-best-practices=>Baselines and cost]].
 
 [[person:bartoszmikulski=>Bartosz Mikulski]] treats cost
 and latency as prompt and serving concerns in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-The 28:16-31:45 chapters cover prompt evaluation, prompt compression, and
+AI engineering. He covers prompt evaluation, prompt compression, and
 [[caching]]. A useful AI feature can still
-fail operationally if every request is slow or too expensive.
+fail operationally if every request is slow or too expensive
+[[cite:production-ready-ai-engineering=>Prompt cost and latency]].
 
 [[person:meryemarik=>Meryem Arik]] makes the serving
-version of the same point in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-The 25:26 and 51:35 chapters cover model size, compression, and inference
-optimization. They also cover hardware choices, latency, and cost tradeoffs.
+version of the same point. She covers model size, compression, and inference
+optimization. She also covers hardware choices, latency, and cost tradeoffs
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>LLM serving choices]].
 
 ## Security and Governance
 
@@ -208,21 +203,22 @@ private data, regulated decisions, or external users. Platform controls and
 AI-specific failure modes both belong in the operating design.
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
-discusses regulatory constraints, GDPR, metadata, and lineage at 39:54-45:50 in
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-He also covers data governance. His framing puts governance inside platform
-design rather than after-the-fact audit work.
+discusses regulatory constraints, GDPR, metadata, and lineage. He also covers
+data governance, putting governance inside platform design rather than
+after-the-fact audit work
+[[cite:building-production-ml-platform-and-mlops-team=>ML platform governance]].
 
 [[person:mariasukhareva=>Maria Sukhareva]] shows why LLM
 products need a different checklist in
-[[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
-The 9:28-18:01 chapters cover chatbot attacks, hallucinations, and data
-exfiltration. They also cover output validation, query analysis, and layered
-defenses. Production readiness for a chatbot includes
+generative AI chatbot work. She covers chatbot attacks, hallucinations, data
+exfiltration. She also covers output validation, query analysis, and layered
+defenses.
+Production readiness for a chatbot includes
 [[AI red teaming]] and human review.
 [[Responsible AI and governance]]
 also belongs here when the system can influence customer, employee, or
-compliance outcomes.
+compliance outcomes
+[[cite:generative-ai-chatbots-in-production-security=>Chatbot security]].
 
 ## Related Pages
 

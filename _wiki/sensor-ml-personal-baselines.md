@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Sensor ML Personal Baselines"
-summary: "A sensor ML portfolio pattern: use individual history for anomaly detection, product alerts, and baseline-aware health signals."
+summary: "A sensor ML portfolio project: use individual history for anomaly detection, product alerts, and baseline-aware health signals."
 related:
   - Machine Learning Portfolio Projects
   - Model Monitoring
@@ -12,162 +12,149 @@ related:
 ---
 
 Sensor ML with personal baselines uses longitudinal sensor history to learn what
-is normal for one subject. The system can then raise alerts about deviations. In
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
-[[person:sofyayulpatova=>Sofya Yulpatova]] describes
-Fit Tails as a pet-health device. It treats dog behavior as an individual
+is normal for one subject. The system can then raise alerts about deviations.
+Fit Tails, a pet-health device, treats dog behavior as an individual
 anomaly-detection problem rather than a generic activity classifier.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 Treat this as a concrete
 [[machine-learning-portfolio-projects=>machine learning portfolio project]].
 A project version should collect sensor history, create simple labels, build a
 personal baseline, and explain the product action. The topic sits near
-[[Machine Learning System Design]],
-[[Data Pipelines]], and
-[[Model Monitoring]] because the
-hard part isn't only model choice. The project has to preserve history, handle
-context changes, and make alerts useful to an owner or vet.
+[[Machine Learning System Design]], [[Data Pipelines]], and
+[[Model Monitoring]] because the hard part isn't only model choice. The project
+has to preserve history, handle context changes, and make alerts useful to an
+owner or vet.
 
-## Personal Baselines Before Health Alerts
+## Personal Baselines Before Alerts
 
-Sofya's core framing is that early health signals appear as behavior changes
-over time. Around 29:39 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
-she names sleep fragmentation and restlessness as useful signals. She also
-includes movement variability, movement quality, and movement quantity. She
-argues that this is closer to anomaly detection than classification because the
-system needs a learned baseline for each dog.
+Early health signals can appear as behavior changes over time. Useful signals
+include fragmented sleep and restlessness. Movement variability, movement
+quality, and movement quantity can also matter. Those signals are closer to
+anomaly detection than classification because the system needs a learned
+baseline for each dog.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 Dogs vary by breed and size. They also vary in personality, health risks,
 activity needs, and sleep. A global
 "normal dog" can hide the signal that matters for one animal.
 
-The baseline isn't available on day one. Around 43:35,
-[[person:sofyayulpatova=>Sofya]] says Fit Tails needs
-two or three weeks to learn normal behavior. People, weather, new family
-members, and changed routines can disturb a dog's routine
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|episode]]).
+The baseline isn't available on day one. Fit Tails needs two or three weeks to
+learn normal behavior. Weather and changed routines can disturb a dog's routine.
+So can people and new family members.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 Human self-tracking follows the same baseline-first order. In
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers|Biohacking Productivity for Data Scientists and ML Engineers]],
-Ruslan Shchuchkin describes using logs and Notion dashboards to reflect on his
-own routines. He also tracks simple habit metrics such as steps, exercise, and
-hydration.
+productivity tracking, logs and Notion dashboards create a personal record for
+reflection. Steps, exercise, and hydration metrics add simple habit signals.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers=>Biohacking Productivity]]
 Those measurements aren't an ML system by themselves. They're the personal
-history that makes later modeling or alerting useful because the system has
-something individual to compare against.
+history that makes later modeling or alerting useful because the system has an
+individual baseline to compare against.
 
 Healthcare wearables make the same point in a clinical product context. In
-[[cite:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]],
-Stefan Gudmundsson describes remote monitoring signals such as activity and
-heart-rate variability. Those signals become more useful when the product can
-compare them with the person's own baseline and care context. That context keeps
-a low-activity day or HRV change from being treated as the same event for
-everyone.
+remote monitoring, activity and heart-rate variability become more useful when a
+product can compare them with the person's baseline and care context.
+[[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]
+That context keeps a low-activity day or HRV change from being treated as the
+same event for everyone.
 
-Around 45:41, she separates population models from personal anomaly detection.
-Initial models can use breed and age. They can use weight too. Those tasks
-include steps, calories, and broad activity labels. Useful health alerts require
-the individual baseline.
+## Task Boundaries and Model Choice
 
-## Sleep and IMU Signals
+Approaches differ by task boundary. Population models can use breed, age, and
+weight for initial estimates. They can predict steps, calories, or broad
+activity labels.
+Useful health alerts require the individual baseline because the product has to
+notice what changed for this subject, not only what matches a broad group.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
-The sensor data in Sofya's example comes from an IMU collar. Around 34:42 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
-she explains that the device uses gyroscope, accelerometer, and magnetometer
-readings across axes. It tracks orientation and movement to infer activity
-states such as walking, playing, running, and sleeping. Around 37:05, she
-emphasizes sleep-cycle tracking. Fit Tails tracks day sleep, night sleep, total
-sleep, and whether the dog moves during sleep.
-
-The sleep focus matters because the product isn't trying to duplicate a human
-wearable feature list. Around 41:27,
-[[person:sofyayulpatova=>Sofya]] says sleep is the
-second-most important metric after weight for Fit Tails. Weight is visible but
-often too late. Sleep changes can reveal pain or other issues before activity
-changes appear
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|episode]]).
-
-At 42:29, she adds that owners can't easily observe nighttime awakenings or
-sleep twisting. Sleep history from sensors can help a vet decide whether further
-tests are needed.
-
-Healthcare sensor work adds a useful model-choice boundary for physiological
-signals. A bed-mat ballistography system can capture movement caused by
-respiration and heart activity without attaching electrodes. ECG can serve as a
-reference while the system denoises the mat signal and extracts vitals.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|19:28]].
+Healthcare sensor work adds a model-choice boundary for physiological signals.
+A bed-mat ballistography system can capture movement caused by respiration and
+heart activity without attaching electrodes. ECG can serve as a reference while
+the system denoises the mat signal and extracts vitals.
+[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
 
 The modeling decision depends on signal strength. Respiration can be estimated
 with classical signal processing when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
-signal is weaker, noisier, or overlaps with other motion.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|21:49]].
+signal is weaker, noisier, or overlaps with other motion.
+[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
 
-Filters and Fourier methods aren't just baselines. For simpler physiological
-signals they can be the preferred production answer.
+Filters and Fourier methods aren't only baselines. For simpler physiological
+signals, they can be the preferred production answer. That matters in
+[[healthcare-ml-validation-and-adoption=>healthcare ML]] settings where
+interpretability, robustness, and deployment constraints matter. U-Net becomes
+useful when the task shifts from isolating a frequency band to finding
+heart-rate waveforms in noisy ballistography.
+[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
 
-That matters in [[healthcare-ml-validation-and-adoption=>healthcare ML]]
-settings where interpretability, robustness, and deployment constraints matter.
-U-Net becomes useful when the task shifts from isolating a frequency band to
-finding heart-rate waveforms in noisy ballistography.[[cite:building-healthcare-machine-learning-systems|Building Healthcare ML Systems|23:31]].
+## Sleep and IMU Signals
+
+The sensor data in Fit Tails comes from an IMU collar. The collar uses
+gyroscope, accelerometer, and magnetometer readings across axes. Those readings
+track orientation and movement to infer activity states such as walking,
+playing, running, and sleeping. The sleep features separate day sleep, night
+sleep, total sleep, and movement during sleep.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
+
+The sleep focus matters because the product isn't trying to duplicate a human
+wearable feature list. Sleep is treated as a major pet-health metric because
+weight is visible but often too late. Sleep changes can reveal pain or other
+issues before activity changes appear. Owners can't easily observe nighttime
+awakenings or sleep twisting, so sensor sleep history can help a vet decide
+whether further tests are needed.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 ## Long-Term History as Product Feedback
 
-The product loop starts with a real owner problem. Around 26:48-28:40 in
-[[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]],
-[[person:sofyayulpatova=>Sofya]] describes anxiety over
-her dog's health condition and frequent vet visits. She also describes
-frustration that existing trackers showed steps or calories without deeper
-behavioral insight. A useful product lesson follows for
-[[AI Product Feedback Loops]]:
-the important signal isn't whether a user enjoys a metric. The stronger signal
-is whether the long-term history helps explain a change and supports a next
-action.
+Fit Tails starts with a real owner problem. Owners may be anxious about a dog's
+health condition and make frequent vet visits. Step and calorie trackers can
+still leave them without deeper behavioral insight.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
+For [[AI Product Feedback Loops]], the important signal isn't whether a user
+enjoys a metric. The stronger signal is whether long-term history helps explain
+a change and supports a next action.
 
-The same episode makes the feedback loop physical as well as analytical.
-Around 52:26, Sofya says the first prototypes used assembled components. The
-goal was to test whether they could capture useful signals and understand the
-data
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
+Early prototypes used assembled components to test whether the team could
+capture useful signals and understand the data.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 For a sensor-ML project, the product feedback loop includes hardware comfort
 and sampling reliability. It also includes owner behavior and whether derived
 features help interpret an anomaly. The work sits near
-[[Startups]] as well as ML systems. A
-small team has to learn from prototypes before scaling the device or the model.
+[[Startups]] as well as ML systems. A small team has to learn from prototypes
+before scaling the device or the model.
 
 ## Portfolio Project Version
 
 A credible portfolio version should make the personal-baseline constraint
 visible. Use a simple global model first, then show why it's insufficient for
-health-like alerts. Sofya's distinction around 45:41 between population models
-for initial classification and individualized anomaly detection gives the
-project its evaluation story
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
+health-like alerts. The distinction between population models for initial
+classification and individualized anomaly detection gives the project its
+evaluation story.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 In a README, explain which tasks work immediately. Also explain which tasks
 require weeks of history and what contextual changes can invalidate an alert.
 
 The system-design version should include a small
-[[data-pipelines=>data pipeline]] for raw IMU
-events, derived activity and sleep features, and per-subject baseline storage.
-It should also produce alert outputs and include a
-[[model monitoring]] story. Watch
-for missing sensor data, changed routines, device placement issues, and baseline
-drift as the dog ages. Sofya's 43:35-46:14 discussion of multi-week history,
-environmental distractors, aging, and continuous change gives the operating
-requirements
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|episode]]).
+[[data-pipelines=>data pipeline]] for raw IMU events, derived activity and
+sleep features, and per-subject baseline storage. It should also produce alert
+outputs and include a [[model monitoring]] story. Watch for missing sensor data,
+changed routines, device placement issues, and baseline drift as the dog ages.
+Multi-week history, environmental distractors, aging, and continuous change set
+the operating requirements.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 For reviewers, the strongest artifact isn't a high-capacity model alone. A
 compact [[machine learning system design]]
 should show the data path and baseline period. It should also show the alert
 threshold, false-alarm tradeoff, and product response. In Sofya's Fit Tails
 framing, a useful alert means something seems off for that specific dog. The
-system can make that claim
-after enough history has been collected around 46:14
-([[podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data|Building Pet Health Tech]]).
+system can make that claim after enough history has been collected.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
-The result proves applied ML judgment better than a standalone notebook with
-generic sensor labels.
+This project version shows applied ML judgment better than a standalone notebook
+with generic sensor labels.
 
 ## Related Pages
 
