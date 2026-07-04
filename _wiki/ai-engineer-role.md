@@ -170,11 +170,11 @@ ambiguous. The same requirement links the role to
 [[career transitions in data]].
 
 Forward deployed engineering names one client-facing version of that work. The
-engineer adapts a product to a specific company and learns the client's pain.
-Recurring client needs then feed shared product enablers. That makes the role
-close to AI engineering when the product is an AI platform. The technical work
-depends on deployment context, customer constraints, and reuse across
-clients.[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]]
+engineer adapts a product to a specific company, learns the client's pain, and
+feeds recurring needs back into shared product enablers. This is only an
+adjacent role connection here, but it sits close to AI engineering when the
+product is an AI platform
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]].
 
 ## Career Paths and Portfolio Signals
 

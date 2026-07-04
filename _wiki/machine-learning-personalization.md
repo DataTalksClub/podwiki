@@ -125,6 +125,13 @@ retrieve candidates, images, sessions, or similar products. They don't replace
 ranking, filtering, evaluation, or product constraints. Vector retrieval belongs
 beside session context and re-ranking.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
+The session-based case is especially relevant for personalization. A vector
+database can retrieve items close to the current session intent. A reranker can
+then combine similarity with freshness, business rules, and the user's history.
+Collaborative filtering can still help, but it answers a different question
+because it starts from accumulated user-item relationships
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]].
+
 ## Evaluation and Experimentation
 
 Personalization needs both offline and online evidence. Offline tests help a

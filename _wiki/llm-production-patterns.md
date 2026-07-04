@@ -148,11 +148,14 @@ Enterprise evaluation uses golden datasets, thresholds, and LLM judges aligned
 with human labels. Feedback loops, multi-tenancy, and scale become operating
 requirements.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
-Product feedback adds explicit and implicit signals. It also adds customer
+Product feedback adds explicit and implicit signals. It also captures customer
 requirements and factuality checks for generated outputs.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 Chatbot adoption adds another product signal. Verbose or inaccurate answers can
 make users reject the system. That can break the ROI case even when the chatbot
-is technically live.[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
+is technically live. Maria Sukhareva also warns that teams can spend expensive
+development time in endless prompt tuning. That work can fail after a model
+update or across nondeterministic responses.[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
+[[cite:generative-ai-chatbots-in-production-security@23:19=>Prompt Tuning Risk]]
 
 That links LLM production to [[model monitoring]] and [[data products]].
 
@@ -173,6 +176,10 @@ These controls put LLM production in the same operational space as
 
 Human review handles product risk from hallucinations, brand safety, and
 editorial curation.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
+For customer-facing chatbot answers, the hybrid review flow is concrete. The
+model drafts or routes a response. A person approves or corrects it before the
+response reaches the customer. That keeps automation useful without pretending
+the chatbot can replace accountable review.[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]]
 
 Auditability, guardrails, lineage, and compliance matter for enterprise
 agents.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]

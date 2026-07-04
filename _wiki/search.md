@@ -58,6 +58,10 @@ still inherits ranking and evaluation work from earlier information-retrieval
 systems
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
+Each generation adds a layer rather than replacing the previous one. Solr and
+Lucene keep inverted-index discipline. Learning-to-rank adds model-based
+ordering. LLMs add generation and citation checks on top of retrieved evidence.
+
 Product relevance moves from inverted indexes and Lucene to dense
 representations and hybrid search, then adds recency, business rules, and
 [[a-b-testing=>A/B testing]]

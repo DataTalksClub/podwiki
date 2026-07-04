@@ -133,11 +133,29 @@ The first `docs/mining/report_pod_10.md` enrichment batch was integrated on
 - fairness, responsible-AI, privacy, monitoring, security, contribution, and
   scikit-learn evidence now strengthens the responsible-AI cluster
 
-Remaining `report_pod_10.md` work for later passes: data-science ABC roles,
-data-translator strategy, IoT/data-architect path, production chatbot security,
-standing out in data science, mentoring-in-tech enrichment, search/RAG,
-practical LLM engineering/RAG, data conference building, and modern data
-engineering trends.
+The second `docs/mining/report_pod_10.md` enrichment batch was integrated on
+2026-07-05:
+
+- data-science ABC roles, standout career advice, and mentoring-in-tech
+  evidence now strengthen role, career, portfolio, team, and mentoring pages
+- data-translator strategy evidence now strengthens translator, trust,
+  data-led growth, strategy, production handoff, communication, business-skill,
+  and data-team pages
+- IoT/data-architect and modern-data-engineering evidence now strengthens data
+  architecture, lakehouse, warehouse, pipeline, platform, trend, table-format,
+  DuckDB, dbt, orchestration, streaming, roadmap, and DevOps-to-DE pages
+- production chatbot security evidence now strengthens red-team, prompt
+  injection, security, LLM production, adoption, annotation, prompt engineering,
+  NLP, and AI engineering pages
+- search/RAG, practical LLM engineering, and conference-building evidence now
+  strengthens search, retrieval, evaluation, RAG projects, LLM tooling, context,
+  agents, LLMOps, AI coding, feedback, freelance/DevRel, conference,
+  community, AI-engineer role, AgentOps, and sensor-ML pages
+
+All mined `report_pod_10.md` sections have now been integrated as enrichment.
+For the next broad podcast-mining pass, create or use the next numbered mining
+report and keep the same no-new-page default unless a keyword brief or repeated
+archive evidence justifies a new hub.
 
 ## Roles
 

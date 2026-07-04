@@ -67,6 +67,12 @@ input, retrieved passages, tool calls, and the answer renderer all sit inside th
 attack surface. For adjacent production patterns, see
 [[LLM Production Patterns]] and [[AI Red Teaming]].
 
+The classifier point is practical security design. Maria Sukhareva contrasted
+generative models with simpler non-LLM classifiers because a narrower classifier
+has less open-ended behavior for an attacker to manipulate. Teams can use those
+classifiers for sensitive-content flags and extraction checks while keeping the
+LLM focused on conversation.[[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]]
+
 ## Privacy Risk Beyond Access Control
 
 Privacy overlaps with security but doesn't collapse into it. A system can have
@@ -125,8 +131,11 @@ access helps during urgent investigations.[[cite:data-governance-data-access-man
 It shouldn't leave broad access in place.
 Chatbot security adds output monitoring and human review for LLM systems.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
 
-Hallucinations affect user trust and adoption. Hybrid review supports accuracy
-and harm reduction.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
+Hallucinations affect user trust and adoption. They can also create legal or
+financial exposure when a customer-facing bot invents a discount, service, or
+deal. Hybrid review supports accuracy and harm reduction. A person can approve
+or correct risky answers before they leave the organization.[[cite:generative-ai-chatbots-in-production-security@11:38=>Chatbot Incidents]]
+[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review]]
 For broader deployment design, see [[Production]] and [[MLOps]].
 
 ## Red Teaming and Human Review

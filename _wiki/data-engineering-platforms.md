@@ -120,6 +120,13 @@ uses ETL and ELT to explain the boundary. Extraction and loading bring source
 data into a warehouse or lake. Transformations produce modeled layers,
 downstream data marts, and other outputs
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+
+The newer open-source version puts Python ingestion on the same platform map.
+dlt appears as a Python-based ingestion standard for semi-structured inputs such
+as JSON. It turns connector work into a reusable ingestion layer that teams can
+combine with warehouses, lakes, or headless table formats
+[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]].
+
 The same platform boundary explains why
 [[ELT]],
 [[Data Warehouse]], and
@@ -168,6 +175,11 @@ same ingestion, transformation, or datamart structure. Loïc Magnien frames
 reusable templates against project-specific solutions. The platform should
 reduce repeated decisions without hiding unusual requirements
 [[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+
+That template logic is concrete. An API ingestion template can land data in
+bronze, and a merge template can refine it into silver. A shared dimension can
+speed up datamart proofs of concept before the team hardens the final project
+[[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]].
 
 ## Self-Service, Contracts, and Data Products
 

@@ -9,6 +9,8 @@ related:
   - Data Governance
   - Data Product Management
   - Data Product Adoption
+  - Communication
+  - Data Translator Role
 ---
 
 Data trust is the belief that a data product is reliable enough for the decision
@@ -55,9 +57,12 @@ Teams diagnose the consumer problem, choose the highest-impact fix, and keep the
 consumer informed while the product remains unreliable.
 
 Lior Barak's translator advice adds a daily tactic. Warn stakeholders before a
-failed job, changed formula, or unsafe forecast reaches a decision. Confidence
-intervals and QA dashboards make uncertainty visible. Users shouldn't have to
-re-audit the data themselves
+failed job, changed formula, or unsafe forecast reaches a decision. A success
+message can matter too because it tells users that the data was checked before
+they arrived. Confidence intervals and QA dashboards make uncertainty visible.
+
+Users shouldn't have to re-audit the data themselves. Data engineers also
+shouldn't absorb avoidable back-and-forth after trust has already been damaged
 [[cite:data-translator-role-and-data-strategy@07:46=>Data Translator Role and Data Strategy]]
 [[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role and Data Strategy]].
 
@@ -111,8 +116,9 @@ The same is true when ingestion misses data or when the source team changes
 structures without coordination
 [[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
-Use [[metrics]] for KPI design in more
-depth. Use this page for what happens after a KPI has lost credibility.
+[[Metrics]] covers KPI design in more depth. Data trust work starts when a KPI
+has lost credibility and the team needs to repair both the number and the
+decision process around it.
 
 ## Lineage Gaps and Process Failures
 

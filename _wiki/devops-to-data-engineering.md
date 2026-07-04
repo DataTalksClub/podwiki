@@ -118,6 +118,13 @@ The transition belongs near [[Data Engineering Platforms]]
 and [[Modern Data Stack]], but
 the strongest signal is judgment about scope.
 
+Senior backend evidence points in the same direction. Backend engineers can
+reuse software design and delivery habits when they move into data engineering.
+They still have to learn the business case, requirements, ingestion, and
+modeling surface. Spark-style specialist roles need additional practice beyond
+general backend or DevOps experience
+[[cite:trends-in-modern-data-engineering@45:56=>Modern Data Engineering Trends]].
+
 Observability transfers when service metrics turn into data-health signals. Data
 observability traces back to DevOps observability, but batch data also needs
 freshness and volume checks. It also needs distribution and schema checks, while

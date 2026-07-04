@@ -10,6 +10,7 @@ related:
   - Data Teams
   - Leadership
   - Career Growth
+  - Data Translator Role
 ---
 
 Business skills help data professionals turn analysis, models, and metrics into
@@ -73,6 +74,15 @@ stakeholder's vocabulary and checks the decision path. They explain the
 evidence well enough that another team can use it without the analyst in the
 room.
 
+Business trust also depends on explaining delivery effort without hiding behind
+technical detail. A data professional should name why a prototype was quick and
+why a production version takes longer. They should also name which blocker
+threatens the date.
+Non-technical stakeholders may not care about code style, but they can
+understand dependencies and risk. They can also understand the business
+consequence of delay
+[[cite:data-translator-role-and-data-strategy@36:33=>Data Translator Role and Data Strategy]].
+
 ## Method Choice
 
 Business skill also means matching the method to the decision. Even alongside
@@ -85,6 +95,12 @@ A boundary for [[Data Teams]] names maintainability, documentation, and peer
 review as part of analytics craft[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Teams]].
 One-off analysis can stay lightweight, but shared assets need enough quality for
 handover, onboarding, and team growth.
+
+That boundary is business skill, not only engineering hygiene. A spreadsheet or
+rough script can validate a workflow, but the team needs a clear handover once
+the use case is proven. The next owner becomes responsible for maintainability
+and for explaining how the system works
+[[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role and Data Strategy]].
 
 ## Team and Management Judgment
 

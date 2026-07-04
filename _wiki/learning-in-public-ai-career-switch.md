@@ -181,6 +181,14 @@ technical observations with authentic formats, including memes. The content
 still needs a clear niche and visible work
 ([[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]).
 
+His LinkedIn advice is practical rather than generic branding. Timing and
+comments help distribution when the posts have a clear topic. Authentic formats
+matter only when the person has a niche and concrete work to reference
+[[cite:how-to-stand-out-in-data-science@57:30=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@1:02:24=>Data Science Career Playbook]].
+For a switcher, visibility should route readers back to projects, notes, and
+role evidence rather than replace them.
+
 The DevRel route adds a nontraditional path. Blogging, tutorials, and visible
 portfolio work can help a learner enter community-facing technical roles even
 without a conventional technical background. The public work still needs to show

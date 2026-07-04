@@ -43,6 +43,11 @@ the expected structure. The team still needs a gold set so the evaluator has
 something concrete to match
 ([[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]]).
 
+Generator-evaluator checks are useful when manual checking doesn't scale, but
+they don't remove subject-matter review. The evaluator criteria need to name the
+output properties that matter. Examples include timestamps, required fields,
+citations, and task-specific correctness.
+
 The same work sits inside the AI engineer skill stack. Evaluation appears with
 human review and correctness measurement, alongside validation sets, data
 splits, and statistics
@@ -76,6 +81,10 @@ expressions, and string matching when the expected behavior is easy to check.
 Cheaper models and spreadsheets can also keep iteration affordable. Save
 LLM-as-judge calls for cases where deterministic checks are too brittle
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+
+This keeps eval sets runnable. A representative set that runs during prompt,
+retrieval, and model changes is more useful than a large set that waits until
+after release.
 
 In enterprise agent settings, teams make LLM judges more explicit. They use
 golden datasets and pass thresholds. They also train judges against human labels
@@ -175,6 +184,10 @@ Production feedback also needs traces. Logs and traces let the team reconstruct
 whether the wrong output came from retrieval, context packaging, tool use, or
 generation
 ([[cite:practical-llm-engineering-and-rag@27:38=>LLM Logs and Traces]]).
+For vibe-coded MVPs, the same rule applies earlier. Add logging and trace views
+while the prototype is still small. The team can then see prompt inputs,
+retrieved context, function calls, and outputs before the workflow grows.
+
 This puts LLM evaluation next to [[Model Monitoring]]
 and [[LLM Production Patterns]]
 instead of leaving it as an offline score.

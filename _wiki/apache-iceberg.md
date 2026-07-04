@@ -80,6 +80,12 @@ Iceberg supplies table metadata above them. That's why the format is discussed
 as a lock-in reduction tool, not just as a faster file layout
 [[cite:trends-in-modern-data-engineering@19:11=>Modern Data Engineering Trends]].
 
+That lock-in reduction has a second edge. Vendors can still capture value
+through catalogs, because catalogs map data to compute and manage access,
+metadata, and lineage. Iceberg opens the table layer, but the platform still
+has to choose and operate the catalog boundary
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]].
+
 The catalog boundary matters because Iceberg doesn't decide who may access a
 table, whether the table is fresh, or how downstream users discover lineage.
 Those questions belong with [[Data Governance]], [[DataOps]], and

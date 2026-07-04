@@ -164,6 +164,14 @@ NLP data work can start from sales-call transcription and CRM integration.
 Spoken language becomes structured business data after transcription, labeling,
 and integration work.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
+Machine translation shows how modern NLP often works as a controlled assistant,
+not a replacement for language expertise. Maria Sukhareva describes technical
+translation as a place where terminology, company standards, and safety-sensitive
+wording still require human review. ChatGPT prompts can control choices such as
+formal or informal address. The workflow still needs a translator to check
+accuracy and consistency.[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]]
+[[cite:generative-ai-chatbots-in-production-security@32:28=>Controlled MT Prompts]]
+
 Automatic speech recognition extends NLP into phonetics, morpho-syntax, accents
 and speech disorders. Standard speech datasets and deployment settings can fail
 for atypical speech. Transfer learning and limited data address those gaps.

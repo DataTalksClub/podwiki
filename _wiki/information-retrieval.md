@@ -43,6 +43,11 @@ Atita Arora keeps the classical learning path in view before vector databases
 and RAG tooling. She names Introduction to Information Retrieval and Relevant
 Search as useful starting points
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@57:50=>IR Learning Resources]]).
+Those resources fit this page because they teach retrieval and ranking before a
+team chooses Qdrant, LangChain, or an LLM wrapper. They also teach evaluation.
+
+The tooling changes, but the retrieval decision stays the same. The system has
+to surface the evidence or candidate item that fits the query.
 
 ## Candidate Generation and Ranking
 

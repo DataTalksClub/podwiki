@@ -27,6 +27,13 @@ The topic sits between [[career growth]], [[career development]], and
 Mentoring structures how someone asks for help, listens, and decides what to
 try next. It also gives them a way to review whether anything changed.
 
+Rahul Jain's episode treats mentoring as a format choice before it's a career
+hack. A person may need one conversation, a longer relationship, a company
+program, or a platform introduction. They may also choose paid support. Choose
+the format that
+matches the decision and the amount of context the mentor needs
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@6:10=>How to Find a Mentor and Become One]].
+
 ## Mentoring as Decision Support
 
 Mentoring starts when a person asks for perspective from someone with relevant
@@ -41,6 +48,13 @@ helps the mentee define the problem more precisely, probe assumptions, and find
 pointers. That makes mentoring a communication practice as much as a career
 practice. The mentor has to listen before giving advice. The mentee has to
 bring enough context to make the conversation useful.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+
+The format can be short or long. One-off mentoring works for a concrete choice,
+such as which project to build next or how to read a job description. A longer
+relationship fits career transitions and leadership growth. It also fits
+repeated workplace situations because the mentor needs history and
+follow-through
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>How to Find a Mentor and Become One]].
 
 Data-career episodes add a role-specific version of this definition. The
 Analyst-Builder-Consultant framework separates analysis and storytelling,
@@ -111,6 +125,12 @@ Someone moving from analysis toward engineering may need Git and Docker. They
 may also need cloud practice, mentors, and mini-projects outside work.
 Mentoring translates a broad role goal into practice that produces evidence.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+For data careers, the session should also name the path. An analyst-to-builder
+move needs production practice. A consultant or leadership path needs
+stakeholder persuasion, communication, and decision framing. Treating all of
+that as "data science growth" makes the advice too broad to act on
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+
 ## Growing as a Mentor
 
 Mentoring changes both sides because it trains listening and empathy while
@@ -157,6 +177,15 @@ to a senior person isn't enough.
 Mentoring connects to
 [[freelance data and ML careers]] when the mentor is selling professional help.
 Community mentoring remains a different relationship.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+
+Professional support needs a clear boundary between coaching, mentoring, and
+management. Coaching can focus on accountability and behavior change. Mentoring
+brings relevant experience and perspective. Management includes team goals,
+performance feedback, and organizational responsibility.
+
+That boundary prevents confused expectations
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@45:10=>How to Find a Mentor and Become One]].
 
 ## Related Pages
 

@@ -41,6 +41,11 @@ experienced backend engineers can reuse software design and requirements work.
 They still need data modeling, ingestion, and governance practice
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 
+His beginner path adds one detail that tool lists often miss: learn to capture
+business requirements. A portfolio should choose tools around the consumer and
+show how SQL, Python, ingestion, and modeling solve a real data problem
+([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
+
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the
 reasoning stays useful
@@ -438,6 +443,12 @@ boundaries. You can decide whether governance or self-service work is worth the
 operational burden. Slawomir Tulski links senior value to cost-aware
 engineering and portfolio framing
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
+
+Adrian Brudaru adds that senior backend engineers can move into senior data
+engineering when they bring engineering judgment and learn the business case.
+They still need requirements, ingestion, and modeling practice. Highly
+specialized paths such as deep Spark expertise take separate practice
+([[cite:trends-in-modern-data-engineering@45:56=>Modern Data Engineering Trends]]).
 At that level,
 [[FinOps for Data Engineers]]
 begins to matter because cloud spend becomes a shared responsibility.

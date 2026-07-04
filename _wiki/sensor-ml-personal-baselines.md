@@ -75,6 +75,14 @@ heart activity without attaching electrodes. ECG can serve as the reference
 signal while the system denoises the mat signal and extracts vitals.
 [[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
 
+Sports physiology is another sensor-ML-adjacent domain. Leonid Kholkine
+describes a career shift into a PhD in machine learning applied to sports and
+sports physiology. He also did some recommender-systems work
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@6:13=>Sports Physiology ML]].
+For this page, that connection matters as a domain pointer. Physiology models
+need domain context about the subject and activity, not only generic sensor
+classification.
+
 The modeling decision depends on signal strength. Respiration can be estimated
 with filters and Fourier methods when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the

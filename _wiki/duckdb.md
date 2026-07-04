@@ -77,6 +77,12 @@ setups use DuckDB with GitHub Actions to run whole data stacks cheaply,
 connecting portability to cheaper compute options
 ([[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]).
 
+The same discussion makes DuckDB an engine choice for cheap pipelines, not only
+for laptop analysis. DuckDB can query through a universal interface across file
+systems, data lakes, and SQL databases. It can then save results back to storage
+through cheap runners such as GitHub Actions
+([[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]]).
+
 GitHub Actions doesn't become a universal orchestrator in this framing. Teams
 still pick between full orchestrators and simpler runners. GitHub Actions can be
 enough for simple workflows because it's serverless and cheaper than always-on

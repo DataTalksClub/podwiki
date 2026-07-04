@@ -55,6 +55,12 @@ dependent on human expertise and quality control
 [[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]]
 [[cite:generative-ai-chatbots-in-production-security@32:28=>Controlled MT Prompts]].
 
+The useful prompt isn't only "translate this." It can specify register, such
+as formal or informal plural. It can also ask for terminology consistency. A human
+translator still checks that the target text matches company language. They also
+check for safety-critical mistakes in manuals or technical content
+[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]].
+
 ## Boundaries and Tradeoffs
 
 Prompt engineering can be the main task interface. Role and examples describe
@@ -87,9 +93,14 @@ The team can then use [[LLM Evaluation Workflows]] to decide whether the prompt
 produced a usable result.
 
 Roles can also hide weak task design. A prompt that says "be accurate" or "act
-as a secure assistant" doesn't remove model nondeterminism, provider updates,
-or the need for validation. Endless prompt optimization can delay the system
-controls that actually reduce risk. [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+as a secure assistant" doesn't remove model nondeterminism. It also doesn't
+remove provider updates or the need for validation. Endless prompt optimization
+can delay the system controls that actually reduce risk. [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
+At that point, teams should switch to evaluation or human review. Retrieval
+access control and classifiers may also be the next control.
+The Siemens chatbot examples show the boundary: better wording alone didn't
+prevent knowledge-base extraction or hallucinated commitments.[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]]
 
 ## Structured Output and Examples
 

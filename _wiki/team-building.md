@@ -47,6 +47,13 @@ technical lead guides builder work. A data lead keeps the team aligned with
 analysis, decisions, and stakeholders
 [[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
 
+That split maps to the ABC role model. Analyst-heavy work needs someone to
+protect exploration, visualization, and decision quality. Builder-heavy work
+needs a technical lead who cares about production paths, MLOps, and technical
+debt. Consultant-heavy work needs a person who can persuade stakeholders and
+turn ambiguous business needs into scoped work
+[[cite:data-science-career-abc-framework@54:48=>Data Science Career ABC Framework]].
+
 That guidance changes when the company already has some data foundations. Idealo
 had analysts, BI, and older data engineering systems, so it didn't need only
 broad data science generalists. It needed people who could add ML depth while
@@ -74,6 +81,12 @@ The first data person needs leadership judgment, not only individual technical
 range. They decide which skills the team should add next and translate the
 business mission into role needs. They also ask for senior help before the
 foundation hardens around one person's limits.[[cite:building-and-scaling-data-team@35:07=>Building and Leading Data Teams]]
+
+Marijn Markus says non-CS backgrounds can strengthen data teams today.
+Sociology and qualitative research help teams ask better questions. Domain work
+and OSINT add stakeholder context when paired with statistics and programming
+[[cite:how-to-stand-out-in-data-science@4:02=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@43:08=>Data Science Career Playbook]].
 
 A stronger team-design rule is to hire the interface the team is missing. If
 dashboards are the immediate demand, an analyst can create visible value. If

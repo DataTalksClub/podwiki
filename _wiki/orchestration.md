@@ -225,6 +225,14 @@ That tool landscape makes orchestration a cost and complexity choice. The same
 workflow may be a DAG, CI job, or managed scheduler. The choice depends on
 backfills, ownership, and failure recovery needs.
 
+In the 2025 tool landscape, the practical question isn't which orchestrator is
+newest. Airflow, Prefect, Dagster, and GitHub Actions sit on a spectrum. Some
+teams need shared workflow history, while others need cheap serverless
+automation. Small pipelines can use GitHub Actions when failure recovery is
+simple. Teams should pay for heavier orchestration when dependencies, retries,
+and backfills need shared state
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]] gives a
 similar small-team rule. He keeps the stack minimal and uses Python for scripts
 and training. He handles orchestration through CI/CD where possible. He chooses

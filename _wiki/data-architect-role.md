@@ -28,11 +28,16 @@ coherent as more teams consume it.
 
 ## Durable System Ownership
 
-The data architect role covers decisions that outlive one pipeline. It's defined
-by seniority and end-to-end ownership that includes modeling. Architects have to
-understand data arrival, transformation work, department consumption, and quality
-expectations
+Data architects own decisions that outlive one pipeline, and the role spans
+modeling and data arrival. It also spans transformation work, department
+consumption, and quality expectations
 ([[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]).
+
+That seniority is practical rather than title-based. The architect needs enough
+experience across source systems, staging, warehouse layers, and datamarts.
+That range connects technical extraction work with the people who produce and
+consume the data
+([[cite:from-iot-data-engineering-to-leading-data-architect@23:21=>From IoT Data Engineering to Data Architecture]]).
 
 The role sits near [[data engineering platforms]] and [[analytics engineering]].
 Architects define layers and models, then set reusable conventions so engineers
@@ -64,6 +69,13 @@ A useful architect keeps enough hands-on context to judge tradeoffs instead of
 only reviewing designs later. They still spend more time on prioritization,
 alignment, and standards than an individual pipeline owner.
 
+Technology scouting supports hands-on authority when it leads to small
+experiments
+([[cite:from-iot-data-engineering-to-leading-data-architect@50:45=>IoT]]).
+The architect still has to turn a draft specification into a proof-of-concept
+pipeline and collect stakeholder feedback before hardening the design
+([[cite:from-iot-data-engineering-to-leading-data-architect@53:28=>IoT POC]]).
+
 The leadership side of the same boundary ties technical credibility to stakeholder
 prioritization and quality standards. It also covers access controls, lineage,
 and data culture
@@ -85,6 +97,14 @@ Data architecture work starts with how people will use the data. Analytics
 modeling covers dimensions and facts, metrics, and stakeholder discovery. Core
 models then support multiple consumers and departments
 ([[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]).
+
+Stakeholders rarely name a fact table or dimension directly. They ask questions
+such as margin by region
+([[cite:from-iot-data-engineering-to-leading-data-architect@32:58=>From IoT Data Engineering to Data Architecture]]).
+The architect identifies the metric and grain, plus geography and time
+dimensions. That model can then serve Finance, Supply Chain, Sales, and other
+teams from the same underlying data
+([[cite:from-iot-data-engineering-to-leading-data-architect@36:00=>From IoT Data Engineering to Data Architecture]]).
 
 Architects work with [[analytics engineering]] and [[data product management]].
 Analysts need a model they can query, engineering teams need something they can

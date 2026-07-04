@@ -105,6 +105,13 @@ the system. That places observability close to agent traces, evaluation
 datasets, and production feedback loops
 [[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
 
+The Data Makers Fest discussion frames AI observability as a central platform
+for workflows, chatbots, models, and auditability. It also covers issue
+creation when a chatbot doesn't behave as expected. That makes observability an
+operating layer for agents and GenAI systems, not only a dashboard after
+deployment
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]].
+
 ## Agent Ops Versus LLMOps
 
 General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.

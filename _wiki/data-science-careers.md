@@ -87,6 +87,13 @@ start from one of those three. They then add the missing pieces while keeping
 their original domain or research practice visible.[[cite:how-to-stand-out-in-data-science@8:31=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@11:16=>Data Science Career Playbook]]
 
+That makes diverse backgrounds a targeting advantage rather than a detour to
+hide. Qualitative interviewing, domain fluency, and social-science framing can
+help a candidate ask better questions before modeling starts. The technical gap
+still has to close. The original background can become the niche that separates
+the candidate from people with the same course certificates
+[[cite:how-to-stand-out-in-data-science@4:02=>Data Science Career Playbook]].
+
 Hiring teams assess career changers through practical experience, portfolio projects, and online courses on a CV.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]] Courses can close skill gaps. Projects and role-specific stories support the application.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
 ## Skills as Role Evidence
@@ -100,6 +107,18 @@ For [[Data Science]], candidates still need SQL and statistics as well as Python
 Danny Ma sequences that evidence over time. He starts with SQL as the practical way to access and understand data. Next come R or Python plus visualization and statistics.
 
 Candidates then add data manipulation, [[experimentation]], metrics, and forecasting. After that, candidates move into traditional [[machine learning]] before [[deep learning]]. Most candidates should treat deep learning as a later specialization rather than the first proof point.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+That roadmap is role-targeted, not a universal curriculum. Analyst candidates
+can spend more time on SQL, visualization, statistics, and storytelling.
+
+Builder candidates should add production practice. Git, Docker, cloud
+deployment, and MLOps make that practice visible.
+
+Consultant-track candidates need stakeholder persuasion and business framing
+[[cite:data-science-career-abc-framework@1:19:05=>Data Science Career ABC Framework]].
+Bootcamps can provide structure and feedback. Danny Ma treats them as an
+apprenticeship-like forcing function, not a shortcut around the whole roadmap
+[[cite:data-science-career-abc-framework@1:12:26=>Data Science Career ABC Framework]].
 
 Graduate degrees can help for research-heavy or specialized roles. Practical
 experience and portfolio evidence still matter for many applied data science
@@ -133,6 +152,14 @@ Unique projects can also beat generic portfolio work when they expose judgment.
 Marijn Markus uses home automation, plant sensors, and coffee-machine time
 series as examples. They make curiosity and practical data handling visible
 without pretending to be enterprise case studies.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
+
+Candidates can pair that project signal with niche expertise and communication.
+Marijn Markus argues that domain depth can help someone stand out when many
+candidates list the same technical stack
+[[cite:how-to-stand-out-in-data-science@53:34=>Data Science Career Playbook]].
+Portfolio choice therefore connects to [[Communication]] and
+[[Technical Writing]]. It also connects to
+[[learning-in-public-ai-career-switch=>public learning]].
 
 ## CVs, Interviews, and Offers
 

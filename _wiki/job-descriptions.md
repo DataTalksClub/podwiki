@@ -60,6 +60,15 @@ miss the capability it needs if the posting never names the work or team
 boundary.
 [[cite:how-to-stand-out-in-data-science@6:49=>Career Playbook]].
 
+The ABC framework gives hiring teams a way to avoid that trap. If the role is
+Analyst-shaped, ask for exploration, visualization, and storytelling evidence.
+If it's Builder-shaped, ask for production ownership, MLOps practice, and cloud
+delivery. If it's Consultant-shaped, ask for stakeholder
+persuasion, business framing, and leadership examples
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+Those requirements describe the work behind the title, so candidates can decide
+which evidence to show.
+
 ## Requirements and Level
 
 Requirements should describe the work before the technology stack. For data
@@ -104,6 +113,14 @@ Tools such as SQL and Python can then act as evidence for a concrete job.
 Airflow, dbt, cloud platforms, or vector databases can do the same when the
 hiring team links each tool to the work behind it. They shouldn't appear as a
 loose keyword list.
+
+Role requirements should leave room for valuable non-CS evidence when the work
+benefits from it. A sociology background or qualitative interviewing practice
+can strengthen data science work. Domain practice can do the same when the
+person also has the needed statistics and programming base
+[[cite:how-to-stand-out-in-data-science@11:16=>Career Playbook]].
+Job descriptions that only scan for degree names or tool strings can miss that
+fit.
 
 Candidates should check industry fit and use-case alignment, then show projects
 with business impact.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]

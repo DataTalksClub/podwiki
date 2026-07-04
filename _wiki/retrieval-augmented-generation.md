@@ -42,6 +42,12 @@ the system retrieves candidates, filters or reranks them, and adds the selected
 passages to the model input. The model then answers from that
 context.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
+This reduces hallucination risk by forcing the generator to work from retrieved
+evidence instead of only parametric memory. It still needs prompt design and
+citations. Retrieval alone doesn't guarantee that the answer uses the
+evidence correctly
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]].
+
 Retrieval is useful when knowledge changes too often for repeated fine-tuning.
 Teams index documents and retrieve relevant passages. They ground the generated
 answer with those passages instead of retraining every time the facts
@@ -92,6 +98,11 @@ In Atita Arora's podcast-transcript example, overlap matters because pronouns
 and references can cross chunk boundaries. The ingestion strategy has to
 preserve enough nearby context before the model generates an answer
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]].
+
+Hugo Bowne-Anderson makes the same boundary practical. Start with fixed chunks,
+then use transcript structure, speaker turns, and context rot to decide whether
+the chunking rule should change
+[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
 
 Failure analysis should separate retrieval failures from prompt or formatting
 failures. Teams can then fix missing or noisy context before polishing the

@@ -63,6 +63,11 @@ The concrete Delta-side use case is version-aware data for reprocessing and
 auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 Those episodes support a practical comparison, but not a deep feature matrix.
 
+For this archive, the safest Delta/Hudi/Iceberg distinction is operating fit.
+Delta is treated as the most mature option, Hudi as more specialized, and
+Iceberg as the stronger open-catalog and lock-in-reduction story
+[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
+
 ## Iceberg Fit
 
 Iceberg fits when openness and engine flexibility are real requirements.

@@ -88,6 +88,18 @@ That makes the project more reviewable. The writeup can show where a method,
 metric, model, or tool became necessary instead of presenting theory as
 decoration.
 
+[[person:marijnmarkus=>Marijn Markus]] adds a differentiation test. A project
+can stand out when it grows from a real curiosity or domain problem. It doesn't
+have to be another leaderboard clone. His examples include home automation,
+plant sensors, and coffee-machine time series.
+
+Those projects show data collection and time series reasoning. They also show
+storytelling in a way a generic Kaggle notebook may not
+[[cite:how-to-stand-out-in-data-science@36:21=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@37:49=>Data Science Career Playbook]].
+Use Kaggle when it fits the target role, but don't let it be the only proof of
+judgment.
+
 Pauline Clavelloux's indie projects show the same learning sequence outside a
 course. Cryptopy and UnrealMe forced work across GCP, data engineering, and web
 development. They also exposed launch channels, pricing, and marketing. A
@@ -213,6 +225,13 @@ metric ownership and a consumption surface.
 ML projects should show a baseline, validation, serving boundary, and monitoring
 plan. RAG projects should show retrieval examples, citations, and failure
 labels.
+
+Role fit matters here because an analyst-style project should make exploration,
+visualization, and the final decision clear. A builder-style project should add
+packaging, deployment, and operational failure modes. A consultant-style project
+should show stakeholder framing and the recommendation a decision maker could
+act on
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
 
 Don't add tools before the project needs them. [[person:adrianbrudaru=>Adrian Brudaru]]
 ties modern tool choices to requirements in

@@ -95,6 +95,14 @@ That makes the analyst path a legitimate target, not only a stepping stone to
 modeling. Exploration, visualization, and storytelling can be the main evidence
 when the job is decision support.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+The analyst version of data science starts with curiosity about the data, but
+it doesn't end with charts. Danny Ma places experimentation, statistics, and
+storytelling beside SQL and visualization tools. The analyst has to
+show what changed, why it matters, and which decision should follow
+[[cite:data-science-career-abc-framework@13:17=>Data Science Career ABC Framework]].
+That connects the role to [[Communication]], [[Metrics]], and
+[[Experimentation]], not only to BI tooling.
+
 The Type A path can also grow from analyst work toward data science without
 discarding the analyst base. SQL, Excel, Tableau, and visualization remain
 useful. Python or R, statistics, experiment design, and basic ML add range.

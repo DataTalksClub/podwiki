@@ -52,6 +52,12 @@ modeling step. Stakeholders may ask for margin by region. The architect
 identifies the metrics, then designs dimension and fact tables. Departments can
 then share one model on top of the same underlying data.[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Leading Data Architect]]
 
+That makes dimensional modeling a stakeholder-discovery practice, not only a
+schema style. A request such as regional margin hides a metric, a geography
+dimension, a time dimension, and a grain decision. The warehouse model becomes
+more valuable when those choices support several departments instead of one
+dashboard.[[cite:from-iot-data-engineering-to-leading-data-architect@32:58=>From IoT Data Engineering to Leading Data Architect]]
+
 Loading first gives analysts more flexibility. They can add new warehouse
 transformations without asking engineers to rebuild extraction code. Warehouses
 and marts differ in scope. Warehouses hold the broader analytical layer, while

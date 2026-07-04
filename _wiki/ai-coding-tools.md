@@ -50,6 +50,11 @@ concrete diffs instead of detached snippets
 [[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]
 [[cite:practical-llm-engineering-and-rag@33:14=>Embedded Coding Agents]].
 
+The workflow is also moving into collaboration surfaces. Coding assistants can
+appear in Slack, code review, and background jobs, which makes them closer to
+embedded agents than autocomplete tools. That raises the bar for permissions,
+traceability, and review.
+
 ## Prototypes and Vibe Coding
 
 Vibe coding means prompting an AI dev tool to turn an idea into a prototype. In
@@ -75,6 +80,10 @@ first generated version rarely explains why an LLM output, retrieval step, or
 tool call failed. That connects AI coding tools to [[LLM Evaluation Workflows]] and
 [[Model Monitoring]], not only to faster prototyping
 [[cite:practical-llm-engineering-and-rag@27:38=>Vibe Coding and Monitoring]].
+
+Ask the coding assistant to build the debugging surface too. Show traces,
+function calls, retrieved context, and intermediate outputs while the MVP is
+still small.
 
 ## LLMs as Sparring Partners, Accelerators, and Review Targets
 

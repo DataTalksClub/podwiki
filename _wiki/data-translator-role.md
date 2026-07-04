@@ -22,9 +22,9 @@ decisions, not only exist as technical output. Models and workflow tools face
 the same test. Start with
 [[podcast:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 for the core role conversation.
-Lior Barak's framing makes the translator a business-to-technical bridge rather
-than a reporting title. The role turns product questions, operational friction,
-and technical constraints into work that both sides can understand.[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
+Translators bridge business and technology rather than acting as a reporting
+title. They turn product questions, operational friction, and technical
+constraints into work that both sides can understand.[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 
 ## Translator Work
 
@@ -154,10 +154,11 @@ visible tradeoffs, and credible handoffs between teams.[[cite:chief-data-officer
 ## Examples In The Role
 
 A translator can turn repeated manual bidding clicks into a small tool. They
-can also turn recruiting pipeline data into a hiring dashboard. Manual report
-downloads can become automation that gives employees time to decide instead of
-copying files. These examples come from observing a user's day rather than
-treating every request as a generic dashboard request.[[cite:data-translator-role-and-data-strategy=>Observed workflow examples]]
+can also turn recruiting pipeline data into a hiring dashboard and use marketing
+or operations data to reveal where work gets stuck. Manual report downloads can
+become automation that gives employees time to decide instead of copying files.
+These examples come from observing a user's day rather than treating every
+request as a generic dashboard request.[[cite:data-translator-role-and-data-strategy=>Observed workflow examples]]
 
 Translators also protect trust with less visible work such as proactive data
 quality alerts and forecast explanations. They expose confidence ranges, show

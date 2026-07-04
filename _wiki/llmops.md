@@ -66,6 +66,12 @@ failure analysis before adding more architecture
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]],
 [[cite:practical-llm-engineering-and-rag@27:38=>LLM Observability]]).
 
+This is the operations lesson behind vibe coding. A fast prototype is useful
+only if the team can look at prompts, retrieved chunks, tool calls, and model
+outputs. Early logging makes later evaluation and rollback possible. Without
+those records, the team may end up with a working demo it can't debug
+[[cite:practical-llm-engineering-and-rag@27:38=>Vibe Coding and Monitoring]].
+
 ## Evaluation and Regression
 
 LLMOps treats evaluation as a production workflow, not a one-time model score.

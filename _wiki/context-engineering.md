@@ -71,12 +71,16 @@ Chunking is visible in context engineering. Teams choose units that match the
 data structure.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 Podcast transcripts can use question-and-answer pairs or speaker turns, while
-multi-person conversations may work better with topic-based chunks. For
-unfamiliar material, look at the raw source before choosing a universal
-split.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+multi-person conversations may work better with topic-based chunks. Look at the
+raw source before choosing one split rule
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-A pragmatic starting point is fixed-length chunks, then refinement based on
-observed failures.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Start with fixed-length chunks, then refine based on observed failures
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Chunk overlap belongs in the same decision because references can cross chunk
+boundaries. If a retrieved chunk says "they" or "that result" without its
+neighboring context, the model may receive a similar but unusable passage
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking]].
 
 A chunk is lossy when it drops surrounding context.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 Useful chunks keep source context, target questions, and current findings.
@@ -95,6 +99,13 @@ alongside source metadata, user state and similar-problem history.
 
 Search isn't always the whole answer. Search and information retrieval are tools
 an agent may use when needed, not a flow to apply everywhere.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+
+Memory adds another context boundary. Retrieval memory stores facts or
+documents the system can look up later. Conversation memory decides
+what from the interaction history should remain active. Many single-turn
+systems don't need either one. Add memory only when the task requires durable
+user, document, or workflow state
+[[cite:practical-llm-engineering-and-rag@57:41=>Agent Memory Design]].
 
 ## RAG, Agents, and Scope
 

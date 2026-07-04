@@ -53,6 +53,11 @@ from advisory work that helps nontechnical teams restructure around AI tools.
 He keeps teaching and DevRel in the same independent practice
 ([[cite:practical-llm-engineering-and-rag@7:11=>AI Consulting and Advisory]]).
 
+That path matters for freelancers because the offer can be delivery,
+organizational advice, or developer education. The same person may write code
+with a client and advise leaders on adoption. They may also teach teams how to
+evaluate AI systems and use DevRel skills to explain the work publicly.
+
 ## Practice-Building Starts With Proof
 
 Orell's first freelance signal came through a contact from his startup period.

@@ -50,6 +50,13 @@ Analysts show exploration and storytelling, builders show production ownership,
 and consultants show stakeholder influence
 ([[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]).
 
+The same model explains why one "data scientist" posting can point in three
+different directions. Type A roles should ask for analysis, visualization, and
+clear decision stories. Builder roles should ask for software delivery,
+deployment, and MLOps habits. Consultant roles should ask for stakeholder
+persuasion, strategy, and leadership evidence
+([[cite:data-science-career-abc-framework@42:38=>Data Science Career ABC Framework]]).
+
 In [[cite:building-data-team=>How to Build and Scale ML Teams]],
 [[person:dattran=>Dat Tran]] adds the startup version.
 Early teams often need generalists first. Specialists become easier to justify
@@ -146,6 +153,14 @@ Those capabilities may become separate roles in mature teams, or hats worn by
 senior people in smaller teams. They explain why [[ML Product Manager Role]] and
 [[Machine Learning Infrastructure]] sit beside data scientist and ML engineer
 roles instead of replacing them.
+
+The ABC framework gives the same boundary a career lens. Builder roles include
+ML engineering, production paths, and technical-debt judgment. Consultant roles
+include business-facing work: persuading stakeholders and choosing the problem
+the team should solve. In small teams, one person may cover both surfaces. The
+evidence still differs: builders prove they can keep a system running, while
+consultants prove they can move a decision
+([[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]).
 
 The data product manager role owns product judgment around data capabilities.
 That capability might be a dashboard, metric layer, or recommender. It might

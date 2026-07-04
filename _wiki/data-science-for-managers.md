@@ -55,6 +55,15 @@ bottleneck may need an expert instead. Hiring an expert into a manager-shaped
 gap can fail when the real gap is team development or business translation.
 [[cite:data-science-manager-vs-expert-hiring-guide@34:04=>Manager vs Expert]]
 
+The Type C path also helps managers separate persuasion from authority.
+Consultant-style data scientists may still be individual contributors, but they
+own the stakeholder argument. They explain which evidence matters, which
+tradeoff the business accepts, and why a technical result should change a
+decision
+[[cite:data-science-career-abc-framework@42:38=>ABC Framework]].
+That work sits beside [[Communication]] and [[Data Product Management]] even
+when the person doesn't manage direct reports.
+
 For a broader role map, use [[Data Scientist Role]],
 [[Machine Learning Engineer Role]], and
 [[Machine Learning Engineer vs Data Scientist]].
@@ -116,6 +125,14 @@ debriefs and roadmaps. Those practices connect strategy to daily work, while
 mentoring and goal alignment connect standards to team engagement. One-on-ones,
 feedback, and recognition support the same goal.
 [[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
+
+Mentoring can support that system, but Rahul Jain separates it from managing. A
+manager has performance responsibility and organizational context. An outside
+mentor or coach can help with a career fork, imposter feelings, or leadership
+choice. That mentor doesn't sit inside the reporting line
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]].
+Managers should use that distinction when they decide whether a teammate needs
+feedback, coaching, sponsorship, or a separate mentor.
 
 Junior and senior data people need different support systems. Managers can use
 project-based learning and regular check-ins to help people grow. Proactive

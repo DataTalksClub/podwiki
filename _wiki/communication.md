@@ -9,6 +9,8 @@ related:
   - Data Scientist Role
   - Mentoring in Tech
   - Open Source Portfolio Evidence
+  - Data Translator Role
+  - Data Teams
 ---
 
 Communication in data and ML work means translating technical work into
@@ -83,8 +85,11 @@ presence when they explain sensitive findings or challenge hierarchy.
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 
 They also need to translate effort. Lior Barak's data strategist advice is to
-explain dependencies, blockers, and tradeoffs in plain language. That matters
-when delays change a business outcome
+explain dependencies, blockers, and tradeoffs in plain language. Show enough of
+the code or workflow for a non-technical stakeholder to understand the work.
+Then name the blocker early when a two-week commitment is at risk. The
+stakeholder may not read code, but they can still help remove a dependency or
+reset the business expectation
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
 
 Public speaking uses the same translation rule at a larger scale. Ben Taylor
@@ -138,6 +143,13 @@ workspace boundaries remove casual context. Written updates, clear questions,
 and explicit handoffs become part of the engineering system, not only personal
 style
 [[cite:remote-data-engineering-work-and-building-iot-platforms@57:12=>Remote Data Engineering]].
+
+Remote stakeholder translation also needs selective presence. Instead of joining
+every recurring business meeting, join the stakeholder chat where the work shows
+up. That can reveal whether the next step is a call, dashboard fix, or prototype
+feedback. Share work in the stakeholder channel before treating it as done
+inside the data team
+[[cite:data-translator-role-and-data-strategy@42:55=>Remote stakeholder triggers]].
 
 ## Interviews and Hiring
 

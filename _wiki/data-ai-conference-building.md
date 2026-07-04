@@ -37,6 +37,10 @@ The calendar must avoid holidays and bridge days. It also has to account for
 summer attention gaps, high-season prices, and crowded technology-event
 periods.
 
+Scheduling is therefore part of the product design. The date has to fit venue
+availability, speaker travel, and ticket sales. It also has to fit sponsor
+timelines and the audience's work calendar.
+
 That makes conference planning a form of [[leadership]]
 under uncertainty. The organizer isn't simply picking a convenient weekend.
 They're balancing venue availability and attendee travel. Ticket-sales windows
@@ -63,6 +67,10 @@ For conference organizers, the screening question isn't whether a proposal used
 an AI assistant. It's whether the proposal reflects a real practitioner
 perspective that will help the
 [[data teams]] in the room.
+
+That makes CFP review closer to editorial judgment than spam filtering. A good
+proposal has to show a specific problem, a practitioner perspective, and a
+clear audience fit.
 
 ## Timetable Design
 
@@ -103,6 +111,10 @@ Organizers have to reduce barriers enough that students and practitioners can
 attend. They also need the commitment and budget required to run the event
 well, a familiar tension in
 [[community building]].
+
+That sponsorship model makes student access and sponsor value part of the same
+operating design. Sponsors lower ticket pressure, while students and early-career
+practitioners keep the community pipeline open.
 
 ## Networking and Sponsor Spaces
 

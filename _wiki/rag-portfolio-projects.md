@@ -59,8 +59,12 @@ augmentation before generation and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking and Vectors]]).
 If the source audio starts outside the text corpus, a transcript step such as
 Whisper becomes part of the project scope before chunking and evaluation.
-The project should test embedding choices, chunking strategy, retrieval quality,
-and final answer quality.
+The project should test embedding choices and chunking strategy. It should also
+test retrieval quality and final answer quality.
+
+A transcript-RAG build is stronger than a generic chat wrapper when reviewers
+can look at the audio-to-transcript path and chunk metadata. Reviewers should
+also see vector retrieval, prompt context, citations, and failure labels.
 
 Retrieval is preferable when a company's knowledge base changes, because the
 system can re-index documents instead of repeatedly retraining the model. This

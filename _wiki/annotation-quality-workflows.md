@@ -185,6 +185,11 @@ response reaches the user when accuracy matters. Moderation workflows use the
 same assistant rule: the model flags possible problems, and people remain
 responsible for judgment.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
+Maria Sukhareva frames this as a hybrid accuracy control rather than a retreat
+from automation. The chatbot can save time by preparing the response. The human
+reviewer catches hallucinations, unsafe commitments, and wording that would
+create trust or legal risk before the answer becomes customer-visible behavior.[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]]
+
 Fairness work uses the same review structure outside labeling. In Tamara
 Atanasoska's moderation example, data scientists and product managers worked
 with fraud specialists and moderators. Together, they reviewed model decisions

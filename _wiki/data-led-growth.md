@@ -9,6 +9,8 @@ related:
   - Reverse ETL
   - Data Activation
   - Customer Data Platforms
+  - Data Strategy
+  - Data Translator Role
 ---
 
 Teams use data-led growth when product and customer behavior guide growth work.
@@ -40,11 +42,21 @@ a product analytics or BI tool. They send useful segments or attributes back
 into operational tools
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
-Data work can improve hiring pipelines and campaign decisions. It can also
-improve operations when teams ship small versions before larger investment
+Data work can improve hiring pipelines, campaign decisions, and operations when
+data people sit with the function that will use the output. Recruitment data can
+show where hiring gets stuck. Marketing data can reveal campaign or bidding
+friction. Operational data can expose repeated manual clicks or report downloads
+that a small tool should replace
 [[cite:data-translator-role-and-data-strategy=>Data Strategist Guide]].
+
 That broadens data-led growth beyond acquisition funnels. The same habit works
-when the team starts from the decision a function needs to change.[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide]]
+when the team starts from the decision a function needs to change.
+
+A [[data-translator-role=>data translator]] makes those opportunities visible by
+watching the work before choosing the data product. A one-week MVP can prove
+that an API, dashboard, or lightweight front end saves enough time to justify
+durable ownership later
+[[cite:data-translator-role-and-data-strategy@17:33=>Data Strategist Guide]].
 
 That matches the data-led-growth habit. Choose the question first, then build
 the minimum data flow that can change a decision.

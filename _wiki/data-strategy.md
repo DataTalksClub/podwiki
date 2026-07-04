@@ -9,6 +9,8 @@ related:
   - Data Products
   - Data Teams
   - AI for Social Good
+  - Data Translator Role
+  - Communication
 ---
 
 Data strategy links data work to business goals. Teams use it to choose which
@@ -156,10 +158,25 @@ start from a shiny technology and search for somewhere to plug it in
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
 
 Lior Barak gives the lean-delivery version of the same strategy. Build the
-smallest prototype that can test value. Accept imperfect early code. Use OKRs
-and iteration to decide what deserves production ownership
+smallest prototype that can test value. Then decide whether the use case
+deserves production ownership. A spreadsheet can prove that a business workflow
+should change. A quick dashboard, hackathon tool, or one-week front end can do
+the same.
+
+Another owner may then rewrite the rough code or automate the manual proof. The
+team shouldn't treat the prototype as the final system
 [[cite:data-translator-role-and-data-strategy@23:54=>Data Translator Role and Data Strategy]]
 [[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role and Data Strategy]].
+
+OKRs and iteration are useful only when they leave room for this learning. A
+short diversion can miss part of a target while still saving more time than it
+costs.
+
+Prototype-first strategy also needs expectation-setting. The first version can
+move fast because it uses the minimum ingredients. Later features need more
+design, maintainability, and ownership because the team has moved from proving
+value to supporting a product
+[[cite:data-translator-role-and-data-strategy@34:52=>Prototype versus product]].
 
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
@@ -285,9 +302,9 @@ and ownership
 The strategy has to describe the consumer and the guarantee, not just the
 pipeline that produces the dataset.
 
-Barak's book discussion uses the same foundation-first logic. Teams need stable
-ground, shared understanding, and usable data before models or advanced
-automation can support a business decision
+The discussion around Data is Like a Plate of Hummus uses the same
+foundation-first logic. Teams need stable ground, shared understanding, and
+usable data before models or advanced automation can support a business decision
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
 
 Boyan adds a budgeted-use-case version of adoption. When pitching a strategy to

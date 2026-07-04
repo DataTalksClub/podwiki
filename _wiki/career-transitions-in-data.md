@@ -36,6 +36,13 @@ QA becomes testing and project discipline [[cite:how-to-transition-into-ml-and-d
 Academic research becomes statistics, domain data, and experimental
 reasoning [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 
+A data-manager route moves into data engineering when reporting work becomes
+automation. Loïc Magnien moved from gathering sensor files and reports into ETL
+scripting. He later moved into data engineering, product ownership, and
+architecture. The same path shows why data-architect evidence usually compounds
+from hands-on pipeline work. It doesn't start as a junior title
+[[cite:from-iot-data-engineering-to-leading-data-architect@03:24=>From IoT Data Engineering to Data Architecture]].
+
 Radio astronomy adds another version of that bridge. Daniel Egbo keeps domain
 knowledge from MEERKAT source detection and catalog matching. He then adds
 Python, cloud practice, reusable code, and data-pipeline projects
@@ -229,6 +236,13 @@ evidence. Population dynamics and GLMs can become part of the research bridge.
 Genomics files and Bash belong there too. Data cleaning does as well.
 Common gaps include deployment, API work, Docker, and Python production practice
 [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
+
+Civil-engineering domain expertise gives the same kind of bridge for IoT data.
+Knowing how construction managers and civil engineers used structural-health
+measurements helped diagnose whether bad data came from collection, entry, or
+pipeline steps. Domain knowledge stayed useful even as the work moved toward
+cloud architecture and stakeholder alignment
+[[cite:from-iot-data-engineering-to-leading-data-architect@11:27=>From IoT Data Engineering to Data Architecture]].
 
 Astronomy research shows the same structure for scientific data pipelines.
 Source detection and multi-catalog matching can become industry-facing evidence.

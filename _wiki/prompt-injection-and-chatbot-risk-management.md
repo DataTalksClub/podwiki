@@ -20,8 +20,9 @@ engineering]]. It also connects to [[retrieval-augmented-generation=>RAG]], [[AI
 red teaming]], and [[responsible AI and governance]].
 
 In a 1,500-person chatbot hacking challenge, participants tried to bypass
-restrictions and force prohibited outputs. In one case, they extracted a hidden
-value from a knowledge database despite instructions and filtering
+restrictions and force prohibited outputs. They also extracted a hidden value
+from a knowledge database despite instructions and filtering. Maria Sukhareva
+said roughly 30 people found a way to reveal it
 [[cite:generative-ai-chatbots-in-production-security@9:28=>Chatbot Hacking Challenge]]
 [[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]].
 That turns chatbot risk into a system problem, not only a wording problem inside
@@ -140,16 +141,17 @@ patterns]]. Input routing and retrieval constraints sit around the model.
 Output validation, monitoring, and incident review sit around it too
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
-Non-LLM classifiers fit where the risk is narrow enough to detect with a
-simpler model or rule-like classifier. A non-generative classifier can be harder
-to manipulate than the chatbot because it has less open-ended behavior to
-exploit. That makes it useful for sensitive-content detection,
-extraction-attempt detection, and output blocking while the LLM handles the user
-conversation
+Non-LLM classifiers fit narrow risks that a simpler model or rule-like
+classifier can detect. A non-generative classifier can be harder to manipulate
+than the chatbot because it has less open-ended behavior to exploit. Teams can
+use it to detect sensitive content and extraction attempts. They can also block
+unsafe outputs while the LLM handles the user conversation
 [[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]].
-Deterministic checks don't solve every case. Narrow classifiers, query
-analysis, and output checks give the team controls outside the same model
-context the attacker is trying to manipulate.
+
+A filtering LLM can share the same manipulation surface as the answer LLM.
+Deterministic checks don't solve every case. Narrow classifiers give the team one
+control outside the model context the attacker is trying to manipulate. Query
+analysis and output checks add two more controls.
 
 Human review is another layer, not an admission that the system failed. In a
 hybrid workflow, the chatbot drafts or routes an answer. A human then approves

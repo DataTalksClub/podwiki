@@ -197,6 +197,18 @@ turns business pressure into usable technical priorities. That role sits close t
 [[data-product-adoption=>Data Product Adoption]].
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
+Teams can also design the interface through everyday co-working. Sitting with
+recruiting or marketing for a day exposes the manual steps that ticket text
+misses. Finance and operations teams can reveal the same complaints and repeated
+downloads.
+
+Lunches and co-working create shared language in colocated teams. In
+remote teams, join the business chat and respond when a relevant trigger
+appears. That can replace some hallway context without adding every meeting to
+the data team's calendar
+[[cite:data-translator-role-and-data-strategy@39:44=>Breaking silos]]
+[[cite:data-translator-role-and-data-strategy@42:55=>Remote triggers]].
+
 ## Platforms and Product Ownership
 
 Guests repeatedly separate platform ownership from product ownership. A shared

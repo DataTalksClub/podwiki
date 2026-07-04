@@ -101,6 +101,13 @@ He also puts Flink in the stricter streaming path, while warning that many
 "streaming" systems are micro-batch pipelines unless the SLA requires continuous
 event processing.
 
+That 2025 tool view keeps the decision grounded. Kafka and SQS can buffer
+events, while Flink or DuckDB can process downstream data depending on the
+latency and state requirements. A team should call the system streaming only
+when the service-level agreement needs continuous event processing rather than
+short batch windows
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
+
 The broker gives producers and consumers a shared event path. A product service
 can publish one event, then consumers can use it for analytics and alerts.
 Other consumers can use the same event for ML features and search freshness.

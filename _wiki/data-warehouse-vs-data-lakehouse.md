@@ -190,6 +190,11 @@ Practitioners often express that trust through medallion layers. Bronze keeps
 raw inputs while silver refines data, and gold serves consumption-ready tables
 with clearer quality expectations
 [[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+The layers aren't only labels. Bronze quality starts with whether incoming
+records are usable at all, while gold design starts with the metrics and
+dimensions stakeholders need to analyze. Silver is the refinement path between
+those two conversations
+[[cite:from-iot-data-engineering-to-leading-data-architect@29:56=>From IoT Data Engineering to Data Architecture]].
 
 Both paths need [[Data Quality and Observability]], but the trust work
 concentrates in different places. In a warehouse-centered stack, teams usually

@@ -117,6 +117,11 @@ Teams learn more when they share useful prompts, tools, and workflow examples
 instead of leaving each person to experiment alone
 [[cite:practical-llm-engineering-and-rag@8:24=>AI Adoption and Experimentation Time]].
 
+That makes adoption a product-feedback problem, not only training. Teams should
+watch which AI workflows people keep using and which prompts spread. They
+should also watch where people return to the old workflow because the AI path
+costs too much time or trust.
+
 For an e-commerce AI feature, useful implicit signals might include whether the
 seller publishes faster or keeps the generated asset. Title changes and better
 marketplace engagement can also matter. Those signals need the same care as

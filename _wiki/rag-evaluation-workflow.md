@@ -127,6 +127,13 @@ Human review belongs in the loop because retrieval metrics can
 miss whether a passage actually answers the user's task or supports the final
 claim.
 
+The search-side evaluation stack is layered. Start with embedding and chunking
+choices, then test retrieval strategy, answer quality, and citations together.
+That makes a failed answer actionable because the team can decide where the fix
+belongs. The next change may be corpus preparation, retrieval, prompting, or
+review policy
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]].
+
 For each gold example, record:
 
 1. The expected source document, section, or chunk.

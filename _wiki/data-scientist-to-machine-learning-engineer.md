@@ -121,12 +121,26 @@ Use those mini-projects to practice the production surface outside work. Version
 the code, containerize the run path, and deploy a small service or scheduled
 job. Then write down what can fail.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+The A-to-B move is easier to reason about when the analyst strengths stay
+visible. Exploration, visualization, and statistical judgment still matter, but
+the evidence must now include engineering practice. Git shows collaboration,
+Docker shows repeatable runtime setup, and a cloud deployment shows that the
+project can leave a laptop
+[[cite:data-science-career-abc-framework@33:12=>Data Science Career ABC Framework]].
+
 If work doesn't force the transition, create a smaller forcing function. Put one
 existing analysis project under version control. Package the run path, then ask
 engineers to review the approach. LinkedIn or internal outreach can fill the
 mentoring gap when the current team lacks production ML practice.
 [[cite:data-science-career-abc-framework@33:12=>Data Science Career ABC Framework]]
 [[cite:data-science-career-abc-framework@36:46=>Data Science Career ABC Framework]]
+
+Practice outside work should still look like production work. A toy repository
+becomes useful transition evidence when it has a run command and tests. It
+should also include deployment notes, failure assumptions, and a short
+explanation of what changed from the analysis version. That keeps the
+transition tied to [[MLOps]] and
+[[Production ML Project Checklist]] rather than a longer list of tools.
 
 Data scientists also need deployment and operations because ML engineering
 skills span data pipelines and modeling. They also span deployment, monitoring,

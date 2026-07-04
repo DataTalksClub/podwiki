@@ -93,6 +93,10 @@ citations
 LangChain appears in that pipeline as orchestration glue, not as a replacement
 for source preparation, retrieval evaluation, or citation checks
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@41:32=>LangChain in RAG Pipelines]].
+Use it to sequence loading, splitting, retrieval, and prompt assembly. It can
+also call the model. Don't treat it as proof that the chunks, embeddings, or
+answer citations are good. Those still need
+[[rag-evaluation-workflow=>RAG evaluation]].
 
 That places RAG in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
@@ -133,6 +137,12 @@ need only RAG while others need agents.[[cite:building-agentic-ai-engineering-to
 A similar path starts with RAG and then adds tool calls. The practical agent
 framework follows from problem definition, a small start, data, and evaluation
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+
+Tool calls are the boundary where the tool stack becomes an agent stack. They
+help when the workflow needs current state, an API action, or a broad
+summarization operation that plain retrieval can't answer. They also add
+instructions, failure modes, and eval cases
+[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Tool Calls]].
 
 When you do need agents, connect the framework choice to
 [[Agent Engineering]]. Test the

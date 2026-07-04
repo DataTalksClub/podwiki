@@ -227,6 +227,13 @@ safety to discuss management problems they can't easily raise with their own
 teams. The retreat turns community building into peer support for senior roles,
 not only event attendance.[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]]
 
+Larger conference organizing adds another path. Running Data Makers Fest made
+the organizer's network and operating style visible. The conference also gives
+practitioners, sponsors, students, and speakers a practical place to meet
+[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
+That keeps community building connected to [[career growth]] without reducing
+it to personal branding.
+
 ## Related Pages
 
 For the broader concept, see

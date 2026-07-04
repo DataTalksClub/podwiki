@@ -43,9 +43,16 @@ tools and agent behavior when the task needs actions or durable memory.[[cite:pr
 
 Hugo Bowne-Anderson's framing keeps that boundary practical. Start with a
 specific problem and try the smallest RAG or LLM workflow that can help. Add
-tools only when retrieval can't answer because the task needs an API call,
-current state, or an action
+tools only when retrieval can't answer.
+
+Tool calls fit tasks that need an API call or current state. They also fit
+tasks that need an action
 [[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Agents]].
+Broad questions can also force the boundary. A RAG retriever may find relevant
+chunks. A summarization tool or sub-agent can still be better for a whole
+document, inbox, or course.
+
+That extra power comes with more tool descriptions, tests, and traces.
 
 ## Design Constraints
 
@@ -154,6 +161,12 @@ That distinction is central to agent engineering. A support assistant may need
 durable customer facts and ticket history, while a coding agent may need
 repository context and task state. A short conversation memory isn't enough for
 either system.
+
+The first memory question is whether the workflow needs memory at all. If the
+agent only answers one request from supplied context, memory may add risk
+without adding value. If the agent has to remember preferences, prior decisions,
+or long-running task state, treat memory as a designed data source with its own
+evaluation cases.
 
 RAG and knowledge management connect to the AI engineer skill stack.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 That link matters because many agent failures are knowledge-system failures. If

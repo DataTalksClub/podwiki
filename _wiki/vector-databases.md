@@ -95,6 +95,13 @@ to a current search engine, run a standalone vector database, or combine both [[
 That makes adoption a migration and operations decision rather than a blanket
 replacement for Lucene, Elasticsearch, or Solr.
 
+Qdrant appears as the focused standalone option in that comparison. It can sit
+beside the existing text-search stack. The team can send it vector data from
+the same ingestion path. Solr, Elasticsearch, OpenSearch, and Postgres also
+support vectors. Teams choose between a separate vector service and vectors
+inside the search engine they already operate
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]].
+
 Daniel starts from representation learning and
 [[production search evaluation]].
 He puts vectors next to filters, recency, and business constraints, then
@@ -156,6 +163,12 @@ filtering
 That makes the vector database a candidate generator or similarity layer. The
 product still needs a ranking rule that decides what to show in the current
 session.
+
+Session vectors can capture what the person is doing now, while collaborative
+filtering depends more on accumulated user-item history. Reranking then decides
+which of the retrieved items should actually surface in the product
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@54:54=>Session Recommendations]].
+
 Those examples place vector databases beside
 [[recommendation systems]],
 ranking, and search, not above them.

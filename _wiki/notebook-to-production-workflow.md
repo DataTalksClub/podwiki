@@ -21,6 +21,7 @@ related_wiki:
   - LLM Evaluation Workflows
   - AI Engineering
   - Data Products
+  - Data Translator Role
 ---
 
 When you take an AI or ML notebook to production, don't start by copying cells
@@ -71,9 +72,15 @@ workflow. It should show whether users and KPIs move before the team adds
 complexity.
 
 For translator-led prototypes, the handoff is part of the workflow. A rough
-script or dashboard can validate demand. Productionization still needs an owner
-who can rewrite, operate, and support the useful part
+script, spreadsheet, or dashboard can validate demand. Treat it as proof of
+value rather than the production design. Once the use case is clear, name the
+owner who can rewrite and operate the useful part. That owner also explains and
+supports the system
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+
+That owner may keep some code, rebuild from scratch, or automate the manual
+version. Ownership should move from "the person who proved it" to the team that
+can maintain the system.
 
 Write a one-page production brief before you extract code:
 

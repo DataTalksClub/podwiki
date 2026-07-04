@@ -215,6 +215,13 @@ He credits dbt with changing how people think about data engineering by
 reducing boilerplate and improving project quality. He also names SQLMesh as
 an alternative and argues for requirements-led tool selection.
 
+SQLMesh belongs in the comparison because it competes around the same
+engineering surface as dbt. That surface includes SQL transformation projects,
+quality, and model workflow. The evidence doesn't make SQLMesh a universal
+replacement for dbt. It marks a healthy alternative when a team wants to revisit
+how its transformation project is planned and executed
+([[cite:trends-in-modern-data-engineering@31:29=>Modern Data Engineering Trends]]).
+
 dbt is influential, but teams still choose storage layers and catalogs around
 it. They also choose orchestration and observability tools. Use
 [[Data Warehouse vs Data Lakehouse]]

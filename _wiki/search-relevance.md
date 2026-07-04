@@ -84,6 +84,12 @@ business rules. Use
 when the question is how to measure each stage without collapsing the whole
 search product into one score.
 
+Modern search adds LLMs to this older relevance stack rather than skipping it.
+Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
+explains learned ordering. RAG or answer generation depends on whether that
+relevance layer supplied useful evidence first
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]].
+
 ## Lexical, Vector, And Hybrid Retrieval
 
 Lexical retrieval still matters when queries depend on exact words, names, or

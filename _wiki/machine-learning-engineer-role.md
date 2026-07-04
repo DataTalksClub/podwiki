@@ -141,6 +141,14 @@ systems running when packages, data, or servers change.
 [[cite:data-science-career-abc-framework@25:53=>Data Science Career ABC Framework]]
 [[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]]
 
+That production mindset is also a career filter. A builder candidate should be
+able to explain what can fail after the notebook works. They should account for
+stale data, fragile dependencies, undocumented handoffs, and unmonitored models.
+Danny Ma frames technical debt as systemic risk. That framing puts
+[[Model Monitoring]], [[Reproducibility]], and
+[[Machine Learning Infrastructure]] inside the role rather than after-the-fact cleanup
+[[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]].
+
 For software engineers moving into machine learning, DevOps skills transfer
 directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
 containers for the application or inference API. Enough AWS, Google Cloud,

@@ -20,8 +20,10 @@ covers full-stack product work and
 [[retrieval-augmented-generation=>RAG]]. It also covers agents, evaluation, and
 LLMOps.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
 
-Prompting lets more people act as new AI experts. Prompting lowers the barrier
-to building with generative AI.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+Prompting lets more people act as new AI experts. They can explore, prototype,
+and contribute without first training a model. Maria Sukhareva treats that
+democratization as useful experimentation. It doesn't replace production
+judgment.[[cite:generative-ai-chatbots-in-production-security@5:42=>Prompting and AI Experts]]
 Production AI engineering still depends on system design and evaluation.
 Operations matter too, and engineers need to know when a prompt is only one
 component of the product.

@@ -116,6 +116,11 @@ a practice rather than an informal favor
 Those skills overlap with [[leadership]] without
 collapsing mentoring into management or senior IC work.
 
+For Rahul Jain, mentors grow by practicing listening and empathy. Those
+conversations also reveal team problems before a formal management title
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@25:10=>How to Find a Mentor and Become One]].
+That makes mentoring a growth path for senior ICs as well as managers.
+
 ## Technical Depth and Transferable Fundamentals
 
 For technical roles, growth is strongest when new tools sit on transferable
@@ -159,6 +164,12 @@ volunteer for higher-impact work choose more of their learning path instead of
 waiting for narrow assignments. Stretch work also reveals limits because people
 test what they can handle, not only what they already know.[[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@28:23=>Data Science Career Playbook]]
+
+That ownership doesn't mean taking random extra work. Marijn Markus frames it
+as choosing tasks that matter and expose the next skill gap. A person can use
+the result in a performance conversation or portfolio story. They can also use
+it in a next-role discussion because the work changed a real decision
+[[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]].
 
 Sadat Anwar's engineering-manager transition gives a second version of the same
 practice. His mentor told him to keep a brag list and use it to show leadership

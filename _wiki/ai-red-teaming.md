@@ -14,11 +14,11 @@ that an AI product can fail under hostile input. The product might leak data or
 follow a malicious instruction. It might also hallucinate a risky answer or act
 outside the boundary the team intended.
 
-Red teaming is a production concern rather than only a model benchmark. One
-chatbot hacking exercise tested a restricted assistant. Participants tried to
-make it reveal hidden knowledge-base content or produce answers the product
-should block. The exercise puts AI red teaming next to [[Security]], [[LLMs]],
-and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security@9:28=>Hardening Chatbots]]
+Red teaming is a production concern rather than only a model benchmark. In a
+Siemens chatbot safety challenge, about 1,500 participants tried to hack a
+restricted assistant. They looked for ways to force prohibited outputs and make
+the bot reveal hidden knowledge-base content. The exercise puts AI red teaming
+next to [[Security]], [[LLMs]], and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security@9:28=>Hardening Chatbots]]
 
 ## Adversarial Test Scope
 
@@ -28,6 +28,13 @@ includes the prompt and retrieved documents. It also includes output filters,
 the user interface, and the handoff path. Prompt overload and knowledge-base
 retrieval can become data-exfiltration paths, so the model is only one part of
 the system.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
+
+The Siemens challenge showed why that scope matters. The hidden value lived in
+a knowledge database, and the bot had instructions and a filtering model that
+should have blocked disclosure. Attackers still used prompt overload, dense
+characters, crafted API requests, and code-like attempts to extract it. A
+red-team finding therefore has to name the system path that failed, not only the
+prompt that looked weak.[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]]
 
 A red-team exercise also tests the whole
 [[retrieval-augmented-generation=>retrieval-augmented generation]] flow when an

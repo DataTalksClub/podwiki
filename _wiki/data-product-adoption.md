@@ -271,7 +271,12 @@ Users don't keep using a chatbot only because the model can produce an answer.
 The response has to be trustworthy and concise enough to review. It also needs
 a format that fits the job and a return on effort that beats the previous
 workflow.
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
+
+That makes chatbot rollout a data-product adoption problem, not only an LLM
+quality problem. If users expect verbose, off-topic, or wrong answers, they may
+avoid the bot and go back to a person or an older tool. The business then owns
+both the engineering cost and poor usage.[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
 
 Jack Blandin's stakeholder-demo advice is another adoption tactic for ML
 products. A quick POC with visuals or a basic interface can help users see what

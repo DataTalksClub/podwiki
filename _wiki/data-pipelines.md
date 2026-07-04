@@ -88,6 +88,13 @@ raw data close to the destination and put business logic in SQL models when that
 fits the organization
 ([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
 
+IoT work shows the full pipeline boundary in a compact form. Sensor data flows
+from installed devices and loggers into an ETL step, then into a database and
+reporting layer. In that setting, the same person may configure data collection
+and load the records. They also make the result usable for structural-health
+monitoring
+([[cite:from-iot-data-engineering-to-leading-data-architect@09:21=>From IoT Data Engineering to Data Architecture]]).
+
 For ML-facing pipelines, ingestion can begin before connector work. CRISP-DM
 treats data collection as part of data understanding rather than as its own
 named step. Pipeline design then has to ask whether important data is missing.
@@ -261,6 +268,12 @@ Airflow and shared conventions are part of that platform, and playbooks and best
 practices belong there too. A split between platform work and use-case pipelines
 helps teams avoid rewriting the same orchestration, access, and recovery rules
 for every project.
+
+Reusable ingestion, transformation, and datamart templates put platform
+discipline inside individual pipelines. They work best when they reuse
+production-proven pieces such as API ingestion into bronze, merges into silver,
+or shared geography dimensions. They still need room for project-specific logic
+([[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]]).
 
 Cloud-native storage conventions matter when the pipeline works over dense
 imagery instead of ordinary tables. Daynan Crull's asteroid-mining discussion
