@@ -17,13 +17,11 @@ evidence after access, data, or model changes.
 
 Governance is practical engineering and product work, not a standalone
 compliance checklist. Cloud governance connects classification and catalogs,
-with the reason for governance established before policy design
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+with the reason for governance established before policy design.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 The access side starts with catalogs, dictionaries, and lineage, then extends
 to purpose-based requests and reviews. It also covers revocation, masking, and
-access-as-code
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+access-as-code.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 The same operating model expands when the governed asset changes. Data platforms
 need [[data governance]],
@@ -31,7 +29,7 @@ need [[data governance]],
 [[privacy engineering for ML]].
 ML platforms add [[MLOps]],
 [[model-registry=>model registries]], and release
-controls. AI products add [[responsible-ai-and-governance|responsible AI]],
+controls. AI products add [[responsible-ai-and-governance=>responsible AI]],
 evaluation, human review, and guardrails for LLM or agent behavior.
 
 ## Governed Assets
@@ -43,51 +41,42 @@ after systems change.
 
 Data governance starts with datasets, tables, derived metrics, and catalogs.
 Business glossaries and lineage make the inventory usable. A company can't
-secure or reuse data confidently without knowing what data it has
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+secure or reuse data confidently without knowing what data it has.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 Retention and deletion depend on the same inventory, moving from taxonomy and
-classification into retention, freshness, and purpose-based access
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+classification into retention, freshness, and purpose-based access.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 A different failure mode reaches the same trust goal. Older centralized
-governance gives way to request paths and approvals. Time-bound permissions,
-privilege-creep control, and revocation become operating controls
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+governance gives way to request paths and approvals. Time-bound permissions
+counter privilege creep. Revocation becomes an operating control.[[cite:data-governance-data-access-management=>Access]]
 That approach is strongest when sensitive data already lives in shared cloud
 systems and informal permission handling no longer works.
 
-ML governance adds datasets, features, experiments, and models. It also covers
-prediction schemas, artifacts, environments, and monitoring signals. Experiment
-tracking and [[model-registry|model registries]]
-combine with metadata and lineage. Artifact logging, GDPR-aware dataset storage,
-and unified prediction schemas complete the record
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-Those controls make a [[ml-platforms|machine learning platform]]
-reviewable because reviewers can see which data, code, artifact, and schema
-supported a deployed model.
+ML governance tracks training inputs, release artifacts, and monitoring
+signals. Experiment tracking links [[model-registry=>model registries]] with
+metadata and lineage. Artifact logs complete the record alongside GDPR-aware
+dataset storage and prediction schemas.[[cite:building-production-ml-platform-and-mlops-team=>ML Platforms]]
+
+A [[ml-platforms=>machine learning platform]] becomes reviewable when reviewers
+can trace the deployed model back to its data, code, artifact, and schema.
 
 AI product governance adds prompts, retrieved context, and outputs. It also
 covers guardrail results, evaluation labels, feedback, and human override
 points. Feature necessity, PII handling, and compliance input fit the same
 operating model. Fairness checks sit beside interpretability, drift, and human
-oversight
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+oversight.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Prompt injection and knowledge-base exfiltration extend the surface. Output
-validation and query analysis add mitigation evidence
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+validation and query analysis add mitigation evidence.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 Agent guardrails and lineage do the same. Multi-tenant evaluations and
-human-label alignment also become governance evidence
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+human-label alignment also become governance evidence.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
 ## Inventory and Ownership
 
 Governance starts with inventory because unknown data can't be secured, reused,
 retained, or deleted deliberately. Taxonomy, classification, catalogs, and
 lineage come first. Retention, freshness, purpose-based access, and minimum
-viable governance follow
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+viable governance follow.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 [[data governance]] connects to
 [[self-service-data-platforms=>self-service data platforms]].
@@ -95,17 +84,15 @@ A governed catalog should expose meaning and policy to data consumers instead
 of making them rely on private knowledge.
 
 Ownership turns metadata into accountability. Data teams separate from
-governance teams, and domain ownership models follow
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
-[[person:zhamakdehghani=>Zhamak Dehghani]]
-gives the domain-owned version in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+governance teams, and domain ownership models follow.[[cite:data-governance-data-access-management=>Data Access]]
+In data mesh, domains own products. Identity and authorization remain shared
+governance primitives. Retention, metadata, and validation remain shared
+too.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh]]
 
 Domain ownership links to data product contracts, service levels, and quality
 expectations. Teams make federated governance, identity, and authorization shared
 primitives. Retention, metadata, and validation then apply across domain-owned
-data products
-([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]]).
+data products.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 Those domain boundaries keep governance close to
 [[Data Mesh]].
@@ -114,12 +101,10 @@ Domains own data products, but shared rules make products interoperable.
 Identity and authorization define who can use the product. Retention, metadata,
 and validation let decentralized products behave as part of one system.
 
-Quality evidence belongs in the same ownership model because trust signals and
-measurable checks matter
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
-Consumers need freshness, schemas, volume, and lineage before using a dataset
-for a metric. Owners and known limits matter when the same data feeds a model
-or an operational decision.
+Trust signals and measurable checks belong in the same ownership model.[[cite:cloud-data-governance=>Cloud]]
+Consumers need freshness and lineage before using a dataset for a metric.
+They also need schemas and volume. When the same data feeds a model or an
+operational decision, owners and known limits also matter.
 Those checks make governance part of
 [[Data Quality and Observability]].
 
@@ -127,20 +112,17 @@ Those checks make governance part of
 
 Access governance decides who can use data, why they need it, and how long they
 keep access. Access requests, approvals, review, and revocation are the core
-controls
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+controls.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 An analyst requests data for a specific churn-analysis purpose, and time-bound
 access counters privilege creep. Temporary debugging access keeps incident
-response possible while masking and filtering limit sensitive-data exposure
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+response possible while masking and filtering limit sensitive-data exposure.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 Those controls sit beside [[security]]
 because they reduce excess privilege and exfiltration risk without blocking
 legitimate analysis. Pipelines, Terraform, and IAM connect to alerts, while
 automated tagging and active metadata make the access-as-code approach
-reviewable
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+reviewable.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 Access-as-code links
 governance to
@@ -151,31 +133,25 @@ controls into reviewable configuration instead of one-off permission changes.
 Automation matters because manual governance becomes a queue, so automation
 handles tagging, requests, and manual-effort reduction. Data stewards,
 producers, and decision makers stay in the loop, so repeated checks move
-without replacing judgment
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+without replacing judgment.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 Privacy changes the access question. Teams must decide whether data should be
 collected or centralized at all. They also need retention and exposure rules.
-GDPR and CCPA/CPRA connect to consent UX
-([[person:katharinejarmul|Katharine Jarmul]],
-[[podcast:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]).
+GDPR and CCPA/CPRA connect to consent UX.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
-Privacy-risk translation and fingerprinting follow. Re-identification follows
-too
-([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
+Privacy-risk translation and fingerprinting come first because re-identification
+remains a privacy concern.[[cite:data-privacy-engineering-gdpr-machine-learning=>Privacy ML]]
 
 Privacy-enhancing technologies and federated learning extend the architecture
 options, and differential privacy makes the same point. Governance may need an
-architecture decision when a permission rule isn't enough
-([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
+architecture decision when a permission rule isn't enough.[[cite:data-privacy-engineering-gdpr-machine-learning=>Privacy ML]]
 
 ## ML Release Controls
 
 ML governance adds release evidence through MLOps, which spans people,
 practices, and technology. It ties self-service compute, experiment tracking,
 and model registries into the platform. Orchestration, metadata, and lineage
-complete that platform record
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+complete that platform record.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Artifact
 logging, batch deployment, online deployment, and monitoring complete the
@@ -185,18 +161,15 @@ monitored.
 
 In regulated organizations, teams make the approval path more explicit. Finance
 use cases and legacy systems combine with regulatory constraints. CI/CD,
-approvals, and release management become part of the same path
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+approvals, and release management become part of the same path.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 On-premises platforms and dev/test/prod separation add more constraints.
 Monitoring, model registries, and minimal viable MLOps complete the practical
 path.
 
 Release paths differ across banks, startups, and temporary tactical setups.
-Each one still needs evidence and approval points
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+Each one still needs evidence and approval points.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 
-Platform product work frames the same release surface
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+Platform product work also shapes releases.[[cite:ml-product-manager-and-mlops-platform-strategy=>MLOps Platform Strategy]]
 Roadmap choices and stakeholder balance influence whether teams adopt the
 governed path. Rollout timing, compliance, quality assurance, and shadowing
 also affect adoption. Release checklists, ROI, and platform happiness reports
@@ -214,19 +187,16 @@ surface.
 Responsible AI turns governance toward model impact, where the trust problem
 centers on AI decisions. Explainable AI is distinct from the broader
 responsible-AI discipline. Pre-training review covers skewness, missingness,
-and coverage
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+and coverage.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Exploratory bias detection, PII handling, and feature-necessity review follow.
 Product teams, subject-matter experts, and compliance input enter the feature
-decision
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+decision.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Fairness and business tradeoffs stay together. Accuracy versus interpretability
 and ethics versus profitability are product decisions. Human review and drift
 stay in scope too. Feedback loops, regulated-industry sensitivity, AutoML risk,
-and professional responsibility complete the review surface
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+and professional responsibility complete the review surface.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Those controls connect
 [[responsible AI and governance]]
@@ -235,29 +205,23 @@ to [[model monitoring]] and
 Fairness and explainability evidence should influence launch, monitoring, and
 override decisions.
 
-Governance also needs evidence that the explanation fits the audience.
-Interpretability works as model debugging and uncertainty evidence
-([[person:christophmolnar|Christoph Molnar]],
-[[podcast:interpretable-machine-learning=>Interpretable Machine Learning]]).
-Fairness metrics still require product and domain judgment, organizational
-responsibility, and human review
-([[person:tamaraatanasoska|Tamara Atanasoska]],
-[[podcast:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
-A fairness dashboard or a SHAP value
-becomes governance evidence only when someone
-uses it to decide, monitor, or override a system.
+Governance also needs audience-fit evidence, and interpretability supports
+debugging and uncertainty review.[[cite:interpretable-machine-learning=>Interpretability]]
+
+Fairness metrics still require product and domain judgment. Human review stays
+part of the decision.[[cite:fairness-in-ai-ml-engineering=>Fairness]]
+A fairness dashboard or a SHAP value becomes evidence only when someone uses it
+for a decision. Monitoring and override decisions matter too.
 
 ## LLM and Agent Controls
 
 Generative AI widens governance from model release to interaction safety and
 retrieval exposure. Chatbot hacking, prompt injection, and hallucinations are
 part of the risk surface. Legal exposure, financial exposure, and knowledge-base
-exfiltration add more failure modes
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+exfiltration add more failure modes.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 Output validation and query analysis create the first mitigation layer.
-Non-LLM classifiers and human review add controls outside the generative model
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+Non-LLM classifiers and human review add controls outside the generative model.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 Those examples place LLM governance beside
 [[AI red teaming]],
@@ -268,31 +232,24 @@ a live interaction with retrieved context, not only a stored model file.
 Agents add autonomy, memory, tools, and multi-step execution. Reliability in
 legal and healthcare settings brings specialized models, guardrails, lineage,
 and compliance into scope. Feedback, multi-tenant evaluations, LLM judges, and
-deployment risk matter too
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+deployment risk matter too.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
 In that setting, governance needs permission boundaries and evaluation cases.
 It also needs lineage for what the agent saw. Records of tool use and human
 review points help people decide when to trust or override the result.
 
-## Adjacent Topics
+## Related Pages
 
-Use [[Data Governance]] for
-datasets and catalogs, plus lineage and ownership. It also covers access and
-data quality. Use
-[[Privacy Engineering for ML]]
-for consent, minimization, PETs, and federated learning. It also covers
-differential privacy.
-Use [[Responsible AI and Governance]]
-for fairness, explainability, human oversight, and post-launch review.
+Governance connects to these narrower pages:
 
-For implementation details, use
-[[MLOps vs DataOps]] and
-[[Model Registry]] for release
-controls. Use
-[[self-service-data-platforms=>Self-Service Data Platforms]]
-and [[GitOps for Data Teams]]
-for governed platform work. Use
-[[AI Red Teaming]] and
-[[LLM Evaluation Workflows]]
-for LLM and agent systems.
+- [[Data Governance]] covers datasets, catalogs, lineage, ownership, access, and
+  data quality.
+- [[Privacy Engineering for ML]] covers consent, minimization, PETs, federated
+  learning, and differential privacy.
+- [[Responsible AI and Governance]] covers fairness, explainability, human
+  oversight, and post-launch review.
+- [[MLOps vs DataOps]] and [[Model Registry]] cover release controls.
+- [[self-service-data-platforms=>Self-Service Data Platforms]] and
+  [[GitOps for Data Teams]] cover governed platform work.
+- [[AI Red Teaming]] and [[LLM Evaluation Workflows]] cover LLM and agent
+  systems.

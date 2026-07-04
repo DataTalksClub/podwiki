@@ -19,25 +19,21 @@ related:
 
 Open-source ML contributions are public improvements to machine-learning and
 data tools that other practitioners can use, review, or maintain. DataTalks.Club
-guests describe the strongest examples as small and practical. They count
-reproducible issues and documentation fixes. They also count tests and examples.
-CI improvements, community feedback, and scikit-learn-compatible components
-count too.
+guests describe the strongest examples as small and practical. They include
+reproducible issues, documentation fixes, tests, and examples. CI improvements,
+community feedback, and scikit-learn-compatible components count too
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
-Use [[Open Source]] for the broad
-topic, and use this page for contribution work.
+The broader [[Open Source]] page covers licensing and community context.
+[[Open Source Contributor Roadmap]] turns the same material into a step-by-step
+path, while [[open-source-portfolio-evidence=>the portfolio proof page]] covers
+hiring and career-change evidence.
 
-[[person:vincentwarmerdam=>Vincent Warmerdam]] gives the
-clearest tactical version in
-[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]].
-He moves from useful side projects and scikit-lego design to documentation and
-issues. Then he covers tests, CI, packaging, and polite interaction.
-
-Use the
-[[Open Source Contributor Roadmap]]
-for a step-by-step path. Use
-[[open-source-portfolio-evidence=>the portfolio proof page]]
-when the same work needs to support hiring or career change.
+[[person:vincentwarmerdam=>Vincent Warmerdam]] frames the tactical route around
+useful side projects and scikit-lego design. He then connects that work to
+documentation and issues. He also covers tests, CI, packaging, and polite
+interaction
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 ## Contribution Scope
 
@@ -46,7 +42,7 @@ the cost of using, understanding, or maintaining a real tool. Vincent's
 contribution episode starts from reciprocity, then shows how `clumper` and
 `memo` grew from repeated needs. He also uses `whatlies` and scikit-lego as
 examples of curiosity turning into tools
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 The useful contribution isn't only "publish a package." Vincent warns against
 premature PyPI releases because a public package needs tests and
@@ -65,27 +61,27 @@ Vincent names practical entry points:
 - improve a README, guide, API reference, or example
 
 Each path makes the project easier for the next user or maintainer
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
-## Different Contribution Lenses
+## Contribution Tradeoffs
 
 Guests mostly agree that contribution is useful public work, but they stress
 different constraints. Vincent starts from maintainer load. He recommends small
 repositories when large projects have heavy traffic and formal governance.
 Heavy review requirements matter too
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 In his later scikit-learn episode, he adds governance and sustainability.
 Plugins can be better than core features. Otherwise the main project can inherit
 new dependency costs, benchmark costs, and maintenance costs
-([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 [[person:elleobrien=>Elle O'Brien]] looks at open-source
 data tooling from a [[developer relations]]
 seat. Her Iterative work includes product work, CML, and docs. She also
 mentions pull requests, videos, and hiring, and describes community-facing work
 as a product signal channel
-([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 
 From that view, a tutorial or support answer can become a contribution. A video
 or docs fix can do the same when it reveals where users get stuck.
@@ -94,7 +90,7 @@ or docs fix can do the same when it reveals where users get stuck.
 the Metaflow and ML-infrastructure version. He defines DevRel through
 education, documentation, and a "wisdom layer" around tools. He also connects
 dogfooding, reproducibility, and developer feedback
-([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 His view complements Vincent's maintainer view. A contribution is stronger when
 it also improves the [[developer experience]] of running and learning the tool.
 
@@ -104,7 +100,7 @@ Choose a project where you can run the tool, understand a narrow failure, and
 produce a change the maintainer can review. Vincent advises contributors to
 avoid starting with the biggest, busiest repository unless the contribution is
 clearly scoped
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 Smaller ML tools, examples, plugins, and documentation sites often give a new
 contributor a clearer feedback loop.
 
@@ -112,19 +108,19 @@ Pick a project that fits your technical lane because scikit-learn-style tools
 need API discipline and pipeline compatibility. Vincent's scikit-lego discussion
 shows why a transformer or estimator should fit existing conventions. Users
 shouldn't need a new mental model
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
-For broader context, the [[scikit-learn|Scikit-Learn]]
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+For broader context, the [[scikit-learn=>Scikit-Learn]]
 page explains how mature project governance shapes plugin boundaries, and
 [[Machine Learning Tools]]
 covers the tool ecosystem around those choices.
 
 DevRel episodes add a user-facing test for project choice. Elle puts docs, PRs,
 support, and content near product work when the tool serves data scientists
-([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo's Metaflow discussion shows the infrastructure version. A contributor has
 to understand the surrounding stack. That can include cloud, Kubernetes,
 workflow engines, and ML interoperability
-([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 ## First Reviewable Work
 
@@ -132,7 +128,7 @@ A reproducible issue is a valid first contribution. Vincent recommends using a
 tool and finding a confusing failure. Then the contributor opens an issue with
 the environment and input. The issue should also name expected behavior, actual
 behavior, and a minimal reproduction
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 That path is especially useful in ML and data tooling. Data format, package
 versions, pipeline steps, and model objects often determine whether a bug
@@ -141,23 +137,24 @@ appears.
 Documentation is another strong entry point because Vincent names README
 material and guides. He puts API reference and examples in the same docs
 surface, then adds contribution guides
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Elle places videos and tutorials near DevRel support work
-([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo's tutorial discussion says the content should start from audience and
 goals. That makes a docs contribution stronger than a cosmetic rewrite
-([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 Community courses can turn docs and examples into open-source ML contributions.
 Platform work can count too. In the DataTalks.Club scaling discussion,
 open-source Python projects and the Django course-management platform keep
-coding skills connected to free courses [[cite:datatalksclub-scaling-and-free-courses|Scaling Free Courses]].
+coding skills connected to free courses
+[[cite:datatalksclub-scaling-and-free-courses=>Scaling Free Courses]].
 
 The Hugging Face [[computer vision]] community course shows the review version.
-The contribution path starts in Discord and a contributor spreadsheet. The work
-then becomes evening writing, course material, and pull-request review with
-others [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Biology to Machine Learning]].
+Contributors start in Discord and a contributor spreadsheet, then write course
+material in the evenings and review pull requests with others
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Biology to Machine Learning]].
 That makes course contribution part of [[Documentation]],
 [[Developer Relations]], and reviewable collaboration, not only standalone model
 code.
@@ -166,11 +163,11 @@ Fairlearn shows a structured version of the same entry path. Tamara Atanasoska
 points new contributors toward the project's community channels, good-first
 issues, and contribution sprints. Those entry points make a fairness-tooling
 contribution more concrete than "find something to fix" in a large ML repository
-([[cite:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 
 Small code changes become useful when they include the review material around
 them
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Vincent names the practical stack behind a code PR:
 
@@ -189,7 +186,7 @@ only the happy-path function call. The same discipline belongs with
 Small utility packages can be excellent ML contributions when they solve a
 specific problem and respect the surrounding ecosystem. Vincent names
 `clumper`, `memo`, `whatlies`, and scikit-lego as examples
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 Use restraint by making repeated work reusable without turning every notebook
 helper into a package before users, tests, examples, and maintenance needs are
 clear.
@@ -197,11 +194,11 @@ clear.
 Scikit-learn-compatible APIs show the same restraint at the design level.
 Vincent uses scikit-lego to show how custom transformers and estimators can live
 inside normal pipelines
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 In his later open-source ML tools episode, he returns to the plugin boundary
 and uses Skrub as a pragmatic tabular-data example. A contribution can be
 valuable without belonging in core scikit-learn
-([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 Open-source ML contribution differs from a generic portfolio repo here. The
 contributor must understand the conventions users already depend on. Those
@@ -211,21 +208,21 @@ data, data frames, examples, and version constraints matter too.
 Vincent's StandardScaler discussion shows how simple APIs hide many edge cases.
 Good contributors make those edge cases visible through tests, examples, or
 docs before adding surface area
-([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 ## Maintainer Etiquette and Sustainability
 
 Polite interaction is part of the technical work because maintainers have to
 triage, review, and keep the project moving. Vincent links contribution
 guides with community etiquette
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 He also recommends discussion before large changes and favors small,
 reviewable work over surprise feature drops.
 
 His later scikit-learn discussion makes the sustainability constraint explicit.
 He discusses maintainer handoff, volunteer motivation, CI cost optimization for
 GitHub Actions, and why projects need to stay enjoyable
-([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 Those details matter because every contribution creates future maintenance
 work. A good contribution reduces that burden through tests, docs, clear scope,
@@ -233,9 +230,9 @@ and respect for project boundaries.
 
 DevRel contributors see sustainability from the user side. Elle discusses
 toxicity, burnout, and moderation practices
-([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo connects dogfooding and reproducibility to feedback loops
-([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 For ML tools, sustainable contribution means helping both maintainers and users
 avoid repeated friction.
 
@@ -244,9 +241,9 @@ avoid repeated friction.
 Open-source ML contribution becomes portfolio proof when someone can look at the
 problem, review trail, and result. Vincent discusses talks, blogs, meetups, and
 OSS visibility
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 In his later episode, he treats open-source work as a hiring signal
-([[cite:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 The signal is strongest when the contribution shows judgment:
 
@@ -258,17 +255,17 @@ The signal is strongest when the contribution shows judgment:
 Elle adds the visibility path for data science DevRel. Public content,
 tutorials, and learning in public can lead to speaking invites and career
 opportunities when the work helps real users
-([[cite:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo's career advice pairs GitHub portfolios with meetups and experiments in
 DevRel
-([[cite:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 Tamara's Fairlearn work adds the career-signal version for responsible ML tools:
 visible open-source contributions can become proof of domain judgment, not only
 general coding ability. Her path from Fairlearn contribution into a role at
 Probable connects sprints and issue selection with library compatibility work.
 That creates a hiring story that ML teams can look at
-([[cite:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 
 For a portfolio, don't present the contribution as a detached badge. Link the
 issue and pull request. Add the docs page, tutorial, CI result, and maintainer
@@ -281,7 +278,7 @@ the proof comes through demos, support, docs, or community feedback.
 
 ## Related Pages
 
-Adjacent pages cover the broader system around this contribution topic:
+For the surrounding topics, continue with:
 
 - [[Open Source]]
 - [[open-source-portfolio-evidence=>Portfolio proof from open source]]

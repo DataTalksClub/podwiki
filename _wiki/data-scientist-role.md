@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Scientist Role"
-summary: "DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+summary: "DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, and role boundaries."
 related:
   - Data Science
   - Machine Learning
@@ -22,9 +22,9 @@ product feature. The role sits between
 [[product analytics]], and
 [[data engineering]].
 
-As a baseline, analysts explain what happened, while data scientists predict and
-help integrate predictions into products
-([[podcast:data-team-roles|Data Team Roles Explained]]). Data scientists do more
+As a baseline, analysts explain what happened. Data scientists predict and help
+integrate predictions into products [[cite:data-team-roles=>Data Team Roles Explained]].
+Data scientists do more
 than train models. They must connect the question and data. They must also
 connect the method, evaluation, and product use.
 
@@ -37,67 +37,56 @@ then move into statistics,
 experimentation when those methods are needed.
 
 On the modeling side, data science ties to data cleaning, feature engineering,
-and model cycles. Deployment awareness keeps it connected to upstream pipelines
-and downstream use
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+and model cycles. Deployment awareness connects it to upstream pipelines and
+downstream use [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 Data scientists therefore work near
 [[Data Engineer vs Data Scientist]]
 and [[MLOps]].
 
 Product-facing work defines the role through decisions rather than only models.
-Case-study preparation starts from business goals and evaluation metrics
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+Case-study preparation starts from business goals and evaluation metrics [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 Product teams use randomized experiments to turn product questions into causal
-evidence. Metric design, A/A tests, and power analysis make that evidence usable
-([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+evidence. Metric design, A/A tests, and power analysis make that evidence usable [[cite:ab-testing-and-product-experimentation=>A/B Testing]].
 
 ## Team-Dependent Role Versions
 
 Different roles put different weight on engineering, product ownership, and
 statistical depth. "Data scientist" isn't a stable job title.
 
-Role ambiguity is a central warning, so candidates should check the team's
-objectives and responsibilities. They should also ask about data infrastructure
-and analytics or data engineering support
-([[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Job Red Flags]]).
+Because titles are ambiguous, candidates should check the team's objectives and
+responsibilities. They should also ask about infrastructure, analytics support,
+and data engineering support [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Job Red Flags]].
 A data scientist title can hide analytics work, platform work, a first-data-hire
 job, or an undefined mix.
 
 In B2B SaaS the same broad data function may split into product analysts,
 analytics engineers, marketing scientists, and data scientists. The exact
 responsibilities depend on the product and growth questions the company needs
-to answer
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
+to answer [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Hiring]].
 
-From recruiting, the emphasis is industry fit, concrete projects, and business
-impact
-([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
+Recruiting emphasizes industry fit, concrete projects, and business
+impact [[cite:get-data-scientist-job=>DS Roles]].
 Fraud and marketing roles reward different evidence from forecasting, search, or
 recommendations roles.
 
 Another kind of differentiation names statistics, programming, and domain
 knowledge as core pillars. It pushes candidates toward distinctive portfolio
 projects and cross-disciplinary domain expertise instead of interchangeable
-Kaggle-style work
-([[podcast:how-to-stand-out-in-data-science|Data Science Career Playbook]]).
+Kaggle-style work [[cite:how-to-stand-out-in-data-science=>DS Career Playbook]].
 
 Solo, lead, and transition versions of the role differ, and the solo data
 scientist is a mid-senior owner. They discover business problems, check data
 readiness, and prioritize by feasibility and impact. They also educate the
-company
-([[podcast:solopreneur-data-scientist|Solo Data Scientist Playbook]]).
+company [[cite:solopreneur-data-scientist=>Solo DS Playbook]].
 
-A lead data scientist operating model includes embedded stakeholder meetings and
-a single intake path. It also uses definition-of-done templates, pilot tests,
-and monitoring
-([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
+Lead data scientists use embedded stakeholder meetings and a single intake path.
+They also use definition-of-done templates, pilot tests, and monitoring [[cite:building-data-products-lead-data-scientist=>Lead DS Products]].
 Senior data scientists spend less time on isolated modeling and more time on
 product intake, delivery, and organizational trust.
 
 At principal level, data scientists may move further from hands-on model
 building. They can act as internal consultants who review architecture, mentor
-peers, and frame problems across teams
-([[cite:datatalksclub-building-scaling-data-community|Building and Scaling DataTalks.Club]]).
+peers, and frame problems across teams [[cite:datatalksclub-building-scaling-data-community=>Scaling DataTalks.Club]].
 
 ## Core Responsibilities
 
@@ -106,32 +95,27 @@ that means defining the decision and stakeholder. It also means naming the
 constraint and success metric. They also check whether the available data can
 support the question.
 
-This is explicit in moving from business goals to metrics. Only then does the
-interview test ML, SQL, and coding
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+Interview case studies move from business goals to metrics before they test ML,
+SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 
 They then explore data and define features while they evaluate assumptions and
 choose a method. Cleaning, feature preparation, and model iteration sit on the data
 scientist side. Data scientists should understand pipeline inputs and outputs
-well enough to collaborate with data engineers
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+well enough to collaborate with data engineers [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 
-They also communicate uncertainty and tradeoffs. Metric definition changes how a
-product experiment is interpreted
-([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+They also communicate uncertainty and tradeoffs. Product teams interpret
+experiments differently when the metric definition changes [[cite:ab-testing-and-product-experimentation=>A/B Testing]].
 Explanations, conformal prediction, and model trust affect how stakeholders
-understand model behavior
-([[podcast:interpretable-machine-learning|Interpretable Machine Learning]]).
+understand model behavior [[cite:interpretable-machine-learning=>Interpretable ML]].
 Together these connect the role to [[interpretability]] and
 [[responsible-ai-and-governance=>responsible AI]].
 
 In smaller companies, a data scientist may also prototype services, batch jobs,
-or dashboards until a dedicated engineer can harden them. The
+or dashboards. A dedicated engineer may harden them later. The
 analyst-versus-scientist distinction includes practical tools such as Python and
-SQL. It also includes service skills such as Flask and Docker
-([[podcast:data-team-roles|Data Team Roles Explained]]). Reproducibility and
-code quality matter too
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+SQL. It also includes service skills such as Flask and Docker [[cite:data-team-roles=>Data Team Roles]].
+
+Reproducibility and code quality matter too [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 At that point, the role meets
 [[machine learning infrastructure]]
 and [[MLOps tools]].
@@ -139,51 +123,43 @@ and [[MLOps tools]].
 In early-stage or thinly staffed settings, the role may include roadmap and
 enablement work. A 90-day solo data scientist plan starts with first-week
 stakeholder interviews and data exploration. It moves to first-month proofs of
-concept. By the first quarter, it adds pipelines, deployment, and A/B tests
-([[podcast:solopreneur-data-scientist|Solo Data Scientist Playbook]]).
+concept. By the first quarter, it adds pipelines, deployment, and A/B tests [[cite:solopreneur-data-scientist=>Solo DS Playbook]].
 
 In a more mature version, the data scientist helps structure intake, success
 criteria, and pilots. They also support rollout and monitoring so marketing
-teams know what's being built and why
-([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
+teams know what's being built and why [[cite:building-data-products-lead-data-scientist=>Lead DS Products]].
 
 ## Skills the Role Needs
 
 Data scientists need SQL and data literacy because most data science work starts
 by finding, joining, and checking data. Recruiter screening weighs experience,
 education, and actual responsibilities, and buzzwords are weaker than clear
-examples
-([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]).
+examples [[cite:hiring-data-scientists-and-analysts=>DS Hiring]].
 
 Python and practical modeling matter, but judgment counts more than tool lists.
-A strong data scientist can build a baseline and choose a model, evaluate
-errors, and explain why the result matters. Interviews test this through business
-case studies, ML fundamentals, SQL, and coding
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+A strong data scientist can build a baseline, choose a model, and evaluate
+errors. They can also explain why the result matters. Interviews test this
+through business case studies, ML fundamentals, SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 Domain knowledge adds the missing piece: it can be an advantage when it helps the
-scientist ask better questions
-([[podcast:how-to-stand-out-in-data-science|Data Science Career Playbook]]).
+scientist ask better questions [[cite:how-to-stand-out-in-data-science=>DS Career Playbook]].
 
-Statistics and experimentation are core when the job is product-facing. That
-includes randomization, metric pitfalls, and A/A tests. It also includes noise,
-seasonality, and power analysis
-([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+Product-facing jobs need statistics and experimentation, including
+randomization, metric pitfalls, and A/A tests. They also need to account for
+noise, seasonality, and power analysis [[cite:ab-testing-and-product-experimentation=>A/B Testing]].
 Those skills connect the role to
 [[data products]] because product
 teams need evidence they can act on.
 
 Communication is a first-class skill, not a soft add-on. Recruiting rewards
 candidates who can explain projects through a use case and industry context.
-Clear business impact matters too
-([[podcast:get-data-scientist-job|Land Data Scientist Roles]]). Candidates
+Clear business impact matters too [[cite:get-data-scientist-job=>DS Roles]].
+Candidates
 should also ask what problem they'll own. They should ask who they'll work with
-and whether the company has the data maturity to support the role
-([[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Job Red Flags]]).
+and whether the company has the data maturity to support the role [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Job Red Flags]].
 
 Writing and documentation help data scientists turn project work into shared
 memory. Writing connects to learning and portfolio proof. It also supports
-design docs and decision logs, plus rationales and clearer READMEs
-([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
+design docs, decision logs, rationales, and clearer READMEs [[cite:technical-writing-for-data-scientists=>Technical Writing]].
 That links the role to
 [[technical writing]] and
 [[communication]], especially when a
@@ -195,8 +171,7 @@ checklist.
 A career-switch path starts from analytics and business KPIs, plus planning and
 stakeholder communication. It then adds programming, statistics, and domain
 expertise. For production work, it also needs Git and testing, plus Docker and
-deployment readiness
-([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
+deployment readiness [[cite:project-manager-to-data-scientist=>PM to DS]].
 
 ## Boundaries With Nearby Roles
 
@@ -204,7 +179,7 @@ The boundary with a
 [[data-analyst-role=>data analyst]] is fuzzy. A data
 scientist usually does more predictive modeling, experiment design, and product
 integration. Analyst and scientist hiring processes can look similar
-([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]),
+[[cite:hiring-data-scientists-and-analysts=>DS Hiring]],
 so the actual responsibilities matter more than the title.
 
 The boundary with a
@@ -212,8 +187,7 @@ The boundary with a
 ownership. A data scientist owns the decision logic and the model or analysis.
 The data engineer owns reliable data movement, storage, orchestration, and
 platform quality. ETL, Spark performance, and storage sit on the engineering
-side
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+side [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 
 Features, models, and deployment awareness sit on the science side. The two
 roles meet around feature pipelines, batch scoring, monitoring, and
@@ -225,38 +199,36 @@ often shows up in production work. A data scientist usually owns problem
 framing, modeling logic, and evaluation. The ML engineer usually owns packaging,
 serving, and CI/CD. They also own scalability and production reliability. The
 interview split separates product data scientist expectations from
-ML-engineering-heavy expectations
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+ML-engineering-heavy expectations [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 
-The boundary with an [[ai-engineer-role|AI engineer]]
+The boundary with an [[ai-engineer-role=>AI engineer]]
 is newer. A data scientist brings data, metrics, experiments, and evaluation
-habits. AI engineering adds LLM application design and retrieval. It also adds
-agents, context management, tool calling, and production UX. The overlap is
-strongest when LLM features need evaluation sets, product metrics, and failure
-analysis.
+habits. AI engineering adds LLM application design, retrieval, agents, and
+context management. It also adds tool calling and production UX [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Skill Stack]].
+The overlap is strongest when LLM features need evaluation sets, product
+metrics, and failure analysis [[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]].
 
-## Related Pages
-
-Continue with adjacent roles, career paths, and project patterns:
 ## Questions to Ask Before Taking a Data Scientist Job
 
 Ask what decisions the team expects the data scientist to improve, and ask how
 success will be measured. That keeps the role tied to business or product
 outcomes, which is the same framing used in
-[[podcast:crisp-dm=>CRISP-DM Methodology]] and
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:crisp-dm=>CRISP-DM]] and
+[[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 
 Ask whether the team needs product analytics or experimentation. Then ask
 whether it needs applied ML, research, data engineering support, or a mix.
 Title clarity isn't enough because team maturity, data access, and role
-ownership all matter
-([[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Jobs]]).
+ownership all matter [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Jobs]].
 
 Ask who owns data pipelines and model deployment, then ask who owns monitoring,
-dashboards, and production incidents. These boundaries affect the daily work
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+dashboards, and production incidents. These boundaries affect the daily work [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 [[Data Engineer vs Data Scientist]]
 is the deeper role-boundary reference.
+
+## Related Pages
+
+Continue with adjacent roles, career paths, and project patterns:
 
 - [[Data Science]]
 - [[Data Science Careers]]
@@ -271,4 +243,3 @@ is the deeper role-boundary reference.
 - [[Technical Writing]]
 - [[data-engineer-vs-data-scientist=>Data Engineer vs Data Scientist comparison]]
 - [[data-scientist-interview=>Data Scientist Interview Prep]]
-- [[Data Science]]

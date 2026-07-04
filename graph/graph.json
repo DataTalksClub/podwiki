@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10858
+    "links": 10850
   },
   "nodes": [
     {
@@ -9811,7 +9811,7 @@
       "title": "Data Scientist Role",
       "url": "/wiki/data-scientist-role/",
       "count": 1,
-      "search": "Data Scientist Role DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+      "search": "Data Scientist Role DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, and role boundaries."
     },
     {
       "id": "wiki:data-strategy",
@@ -32142,42 +32142,6 @@
     },
     {
       "source": "wiki:data-analyst-careers",
-      "target": "person:alicjanotowska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "person:eddyzulkifly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "person:juanpablo",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "person:ksenialegostay",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
-      "target": "person:rishabhbhargava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -41400,6 +41364,18 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "podcast:solopreneur-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -50163,30 +50139,6 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:governance",
-      "target": "person:christophmolnar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
-      "target": "person:katharinejarmul",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
-      "target": "person:tamaraatanasoska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
-      "target": "person:zhamakdehghani",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:governance",
