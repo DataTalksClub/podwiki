@@ -30,11 +30,18 @@ representative examples, define what a good answer or action looks like, and
 run the system. They look at failures and keep the eval set fresh as the
 product changes.
 
-Generator-evaluator checks are one approach. Representative gold tests should
-still be cheap enough to run often. Teams can eyeball early outputs before
-collecting examples that cover real user tasks, expected formats, and known
-failure modes
+Generator-evaluator checks give teams one starting approach. Representative gold
+tests should still be cheap enough to run often. Teams can eyeball early outputs
+first. Later they can collect examples that cover real user tasks, expected
+formats, and known failure modes
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+
+Hugo Bowne-Anderson's generator-evaluator check fits products that already
+create many outputs. Transcript summaries and structured content are examples.
+One model or rule-based evaluator can check whether the generated output meets
+the expected structure. The team still needs a gold set so the evaluator has
+something concrete to match
+([[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]]).
 
 The same work sits inside the AI engineer skill stack. Evaluation appears with
 human review and correctness measurement, alongside validation sets, data
@@ -49,6 +56,13 @@ becomes more expensive to check. Set size is a cost and coverage tradeoff. It
 should be large enough to avoid overfitting to a few examples, but small enough
 that teams actually run it
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+
+Representativeness matters more than raw count. Hugo's eval-set discussion ties
+gold tests to cost and failure coverage. A small set can be useful when it
+covers the product's common tasks and known edge cases. A larger set can still
+miss the real failures if it only repeats easy examples
+([[cite:practical-llm-engineering-and-rag@23:00=>LLM Evaluation Sets]]).
+
 Use
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the
 eval result is deciding whether to change prompts and retrieval or change model
@@ -80,6 +94,12 @@ Spreadsheet-style failure analysis lets teams categorize failures and rank the
 largest error classes. That helps them avoid spending engineering time on minor
 formatting when the major problem is retrieval quality
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+Hugo's failure-analysis path treats error categories as product backlog input.
+If the largest group is missing source material, the next change belongs in
+chunking, retrieval, or indexing. If the largest group is bad formatting, a
+schema or deterministic check may be enough
+([[cite:practical-llm-engineering-and-rag@26:43=>LLM Failure Analysis]]).
+
 This keeps [[Testing]] and [[Evaluation]] close together: tests catch repeatable
 failures, while review discovers which failures matter.
 

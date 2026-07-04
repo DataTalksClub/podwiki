@@ -164,6 +164,9 @@ points new contributors toward the project's community channels, good-first
 issues, and contribution sprints. Those entry points make a fairness-tooling
 contribution more concrete than "find something to fix" in a large ML repository
 ([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+They also make responsible-ML contribution less abstract. Contributors can work
+on documentation, examples, or compatibility issues while they learn why
+fairness metrics need domain judgment.
 
 Small code changes become useful when they include the review material around
 them

@@ -129,6 +129,10 @@ Infrastructure skill depends on the team. Guests mention Docker and cloud
 services alongside Kubernetes and orchestration. They also bring up model
 registries, experiment tracking, artifact storage, and monitoring.
 
+Danny Ma's builder profile adds career framing because builder work isn't only
+knowing algorithms. It makes production risk, technical debt, and system failure
+modes visible before a model becomes a dependency.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
 For software engineers moving into machine learning, DevOps skills transfer
 directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
 containers for the application or inference API. Enough AWS, Google Cloud,

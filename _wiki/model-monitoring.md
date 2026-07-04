@@ -139,9 +139,10 @@ models run through many serving tools.[[cite:mlops-model-monitoring-data-observa
 Observability connects to platform design through API design and unified
 prediction schemas for logging requests, predictions, and responses
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-That schema gives teams material for later monitoring and analysis. The logging
-schema should preserve request context and prediction output. It should also
-preserve response data, model version, and owner context for later
+That schema gives teams material for later monitoring and analysis before a
+dashboard exists. The logging schema should preserve request context and
+prediction output. It should also preserve response data, model version, and
+owner context for later
 investigations.
 
 Without that consistent structure, fairness reviews, product analytics, and

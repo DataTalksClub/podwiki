@@ -22,12 +22,14 @@ between [[MLOps]],
 It's less about owning one model and more about making many model teams faster
 and safer.[[cite:building-production-ml-platform-and-mlops-team]]
 
-The role is practical rather than tool-defined. It combines cloud and
-Kubernetes foundations with data science workflow knowledge. It also covers
-experiment tracking and model registries, plus serving paths and orchestration.
-Metadata and lineage connect training history to later prediction logging. In
-practice, platform engineers turn repeated ML delivery friction into supported
-internal services.[[cite:building-production-ml-platform-and-mlops-team]]
+The role is practical rather than tool-defined. It combines cloud,
+Kubernetes, Terraform, and software engineering foundations with data science
+workflow knowledge. It also covers experiment tracking and model registries,
+serving paths, and orchestration. Metadata and lineage connect training
+history to later prediction logging. In practice, platform engineers turn
+repeated ML delivery friction into supported internal services, while the team
+balances infrastructure specialists with generalists who understand model
+workflows.[[cite:building-production-ml-platform-and-mlops-team]]
 
 ## Platform Scope
 
@@ -169,10 +171,10 @@ to operate shared systems. They also need enough ML workflow breadth to
 understand where model teams get blocked without taking over every model
 decision.[[cite:building-production-ml-platform-and-mlops-team]][[cite:how-to-grow-your-ml-engineering-career]]
 
-The team can include more specialization than each person can. Simon
-Stiebellehner ranks cloud and infrastructure first for the role. Software
-engineering comes next, followed by data-science workflow understanding. The
-platform team needs that full combination.
+The team can include more specialization than each person can. Cloud and
+infrastructure depth come first for many platform tasks. Software engineering
+comes next, followed by data-science workflow understanding. The platform team
+needs that full combination.
 
 Not every engineer has to be equally deep in Kubernetes, Terraform, model
 training, and user support

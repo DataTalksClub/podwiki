@@ -141,9 +141,13 @@ Those examples connect vector databases to
 [[machine learning]] products
 that retrieve products, images, sessions, or recommendation candidates.
 
-Atita reaches a similar conclusion from search practice. She covers
-session-based recommendations and reranking, then compares session-based
-personalization with collaborative filtering [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+Atita reaches a similar conclusion from search practice. Her session-based
+recommendation example includes reranking and a comparison with collaborative
+filtering
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+That makes the vector database a candidate generator or similarity layer. The
+product still needs a ranking rule that decides what to show in the current
+session.
 Those examples place vector databases beside
 [[recommendation systems]],
 ranking, and search, not above them.

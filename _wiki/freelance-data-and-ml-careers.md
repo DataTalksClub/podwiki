@@ -6,6 +6,7 @@ related:
   - Freelance
   - Career Transitions in Data
   - Career Growth
+  - Mentoring in Tech
   - Job Search
   - Data Engineering Portfolio Projects
   - Data Freelancing Strategy
@@ -114,7 +115,7 @@ lead can become a paid project.
 
 Pastor's acquisition path moves from a marketplace to public reputation. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 he says Upwork became harder after the pandemic. He opened LinkedIn and began
-posting course notes about ML. Community participation and mentoring
+posting course notes about ML. Community participation and [[mentoring-in-tech=>mentoring]]
 helped create new opportunities. Posts about concrete problems led people to ask
 for help on freelance and full-time projects.
 

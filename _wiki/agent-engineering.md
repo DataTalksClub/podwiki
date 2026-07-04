@@ -41,6 +41,12 @@ be one step inside a larger task.[[cite:building-agentic-ai-engineering-tooling-
 Practical LLM projects often start with RAG for quick business value. Teams add
 tools and agent behavior when the task needs actions or durable memory.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
+Hugo Bowne-Anderson's framing keeps that boundary practical. Start with a
+specific problem and try the smallest RAG or LLM workflow that can help. Add
+tools only when retrieval can't answer because the task needs an API call,
+current state, or an action
+[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Agents]].
+
 ## Design Constraints
 
 The shared definition doesn't force one architecture because each setting has a
@@ -54,6 +60,12 @@ Teams adopting agents start from a narrow problem. The first version stays
 small, with usable data and evaluation. The email assistant example starts with
 Gmail API access and RAG. It becomes useful only after the task and data
 boundary are clear.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+
+His four-step agent frame names the constraint. Define the problem, start small,
+make the data available, and decide how the team will evaluate the result.
+Without those four pieces, an agent can look impressive in chat while
+remaining hard to test or improve
+[[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
 
 Multi-agent systems start from decomposition. A sequential flow, a manager-agent
 orchestration layer, and direct agent collaboration create different debugging
@@ -82,6 +94,12 @@ Agents create value when they act on documents, APIs, and workflow state. Chat
 alone isn't the point. Teams use embedded agents for Slack-style work and
 proactive assistants. Agent design becomes a product workflow question as much
 as a model question.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+
+The email-assistant example shows the same product boundary. A Gmail API plus
+RAG can answer and act on messages only after the team chooses the inbox state.
+The team also has to choose the retrieved knowledge and user permissions the
+assistant may use
+[[cite:practical-llm-engineering-and-rag@53:34=>Email Assistant with Gmail API and RAG]].
 
 ## Tooling and Integration
 

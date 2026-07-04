@@ -35,6 +35,10 @@ while postponing Spark, Kafka, and Kubernetes
 
 Brudaru puts SQL/Python before vendor checklists
 ([[cite:trends-in-modern-data-engineering=>DE]]).
+He also separates beginner fundamentals from senior-backend transitions, where
+experienced backend engineers can reuse software design and requirements work.
+They still need data modeling, ingestion, and governance practice
+([[cite:trends-in-modern-data-engineering=>DE]]).
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the

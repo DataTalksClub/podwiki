@@ -163,6 +163,12 @@ them as workflow choices, not as universal platform requirements
 [[Apache Airflow]] cover the
 tool-specific boundary.
 
+Reusable platform components are most useful when repeated projects share the
+same ingestion, transformation, or datamart structure. Loïc Magnien frames
+reusable templates against project-specific solutions. The platform should
+reduce repeated decisions without hiding unusual requirements
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+
 ## Self-Service, Contracts, and Data Products
 
 Self-service is the clearest recurring platform outcome.

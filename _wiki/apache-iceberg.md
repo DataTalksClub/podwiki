@@ -70,6 +70,9 @@ Iceberg is useful when the team needs open lake storage with a table layer that
 multiple compute engines can use. Storage and compute are separate from access,
 metadata, and lineage. Catalog tools such as AWS Glue sit in that boundary.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+In Adrian Brudaru's framing, the underlying files can stay Parquet while
+Iceberg supplies table metadata above them. That's why the format is discussed
+as a lock-in reduction tool, not just as a faster file layout.
 
 The catalog boundary matters because Iceberg doesn't decide who may access a
 table, whether the table is fresh, or how downstream users discover lineage.

@@ -140,6 +140,13 @@ project defense, model evaluation, and [[Machine Learning System Design]]. Use
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] to choose
 which public projects deserve that practice time.
 
+Lavanya Gupta's preparation split is a useful calibration point for research and
+LLM-heavy roles. She pairs LeetCode-style practice with conceptual mastery and
+mock interviews. That balance keeps model evaluation, benchmarking, and project
+explanation in the plan. Prepare the screen the company uses, then reconnect the
+answer to the work the role actually owns
+[[cite:applied-llm-research-and-career-growth-in-practice@54:33=>Applied LLM Research Interview Prep]].
+
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions
 [[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].

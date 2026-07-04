@@ -83,9 +83,14 @@ useful documents. More specifically, this covers fixed-length chunks, sliding
 windows, and context rot. A Gmail API plus RAG email assistant is one practical
 build.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-The search version frames RAG as retrieval plus generation. A transcript
-chatbot example moves from Whisper transcripts to chunking and overlap. It also
-covers embedding models, vectorization, prompt context, and citations.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+The search version frames RAG as retrieval plus generation through a transcript
+chatbot example. The build starts with Whisper transcripts, then chunks them
+with overlap. It creates embeddings and keeps prompt context with citations
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+
+LangChain appears in that pipeline as orchestration glue, not as a replacement
+for source preparation, retrieval evaluation, or citation checks
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 That places RAG in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].

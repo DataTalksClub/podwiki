@@ -82,6 +82,9 @@ outputs.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Pla
 That structure is easier to operate with [[experiment-tracking=>experiment tracking]],
 [[model-registry=>model registries]], and
 [[data-quality-and-observability=>data quality and observability]].
+Platform teams then choose a deployment mode. A scheduled batch job can write
+predictions for later use, while online serving exposes an API for
+request-time decisions.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 Streaming fits event-arrival actions such as fraud checks, recommendations, and
 request-time enrichment. A fraud workflow can use daily batch jobs for feature

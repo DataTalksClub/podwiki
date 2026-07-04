@@ -45,6 +45,11 @@ Use that split to decide where a broad data science path fits. It may be closer
 to the [[Data Analyst Role]] or the [[Machine Learning Engineer Role]]. It may
 also point toward [[Data Science for Managers]].
 
+The framework also keeps role targeting concrete by separating portfolio proof.
+Analysts show exploration and storytelling, builders show production ownership,
+and consultants show stakeholder influence
+([[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]).
+
 In [[cite:building-data-team=>How to Build and Scale ML Teams]],
 [[person:dattran=>Dat Tran]] adds the startup version.
 Early teams often need generalists first. Specialists become easier to justify

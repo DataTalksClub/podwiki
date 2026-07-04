@@ -129,11 +129,16 @@ governance. Use
 [[Model Monitoring]] for those
 operational layers.
 
-One concrete production boundary is secure persistence for scikit-learn models
-and the risk of untrusted objects being executed through pickle-style loading
+Model persistence is a production boundary for scikit-learn. Pickle-style
+loading can execute untrusted objects
 ([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]). The
-risk is operational, not algorithmic. It depends on how models are saved, loaded,
-shared, and trusted.
+risk is operational, not algorithmic. It depends on how models are saved,
+loaded, shared, and trusted.
+
+The skops tool appears in that boundary as a safer persistence and sharing path.
+It also supports workflows where artifacts are distributed through model hubs
+rather than passed around as opaque pickle files
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 
 Another boundary comes from implementation details. StandardScaler shows that a
 simple preprocessing idea still has to handle sparse matrices, data frames,

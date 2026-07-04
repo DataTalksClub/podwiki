@@ -145,10 +145,16 @@ domain experts, and compliance stakeholders decide whether a sensitive feature
 belongs in the model.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Production ML reviews need both model-quality evidence and input justification.
-An accurate model can use unnecessary data even when its quality looks
-acceptable. Predictive features can create privacy risk and fairness risk at
-the same time. Those risks connect privacy engineering to
+An accurate model can still use unnecessary data. Predictive features can create
+privacy risk and fairness risk at the same time. Those risks connect privacy
+engineering to
 [[Responsible AI and Governance]].
+
+Fairness tooling makes the same point from the other side. A team still has to
+choose which sensitive groups matter for the domain. It also has to decide
+whether collecting or retaining those attributes is justified
+[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].
+
 Teams also need [[Data Quality and Observability]]
 and [[MLOps]] because the review depends on
 data evidence plus model behavior and approval

@@ -172,14 +172,19 @@ Self-service analytics sits there too
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]],
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
-Lakehouse trust has more moving parts because governance spans object storage,
-catalogs, compute engines, and downstream consumers. Governance belongs close
-to object storage and raw dumps. Ingress, egress, versioning, and lineage stay
-near that same control path
+Lakehouse trust has more moving parts. Governance spans object storage,
+catalogs, compute engines, and downstream consumers. It belongs close to object
+storage and raw dumps. Ingress, egress, versioning, and lineage stay near that
+same control path
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Catalog metadata and lineage are explicit platform layers rather than
 background details
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+
+Practitioners often express that trust through medallion layers. Bronze keeps
+raw inputs while silver refines data, and gold serves consumption-ready tables
+with clearer quality expectations
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
 
 Both paths need [[Data Quality and Observability]], but the trust work
 concentrates in different places. In a warehouse-centered stack, teams usually

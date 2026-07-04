@@ -78,7 +78,9 @@ protect the target instead of hiding source detail from future modeling work. [[
 
 Choose ELT when questions or source fields change often. ELT keeps source detail
 available for later transformation work, so analysts and analytics engineers can
-add new models when the business question changes. [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+add new models when the business question changes. Analysts gain autonomy when
+teams use the warehouse as the transformation workspace rather than only the
+reporting destination. [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 This keeps ELT close to
 [[analytics engineering]] and
 [[dbt]].

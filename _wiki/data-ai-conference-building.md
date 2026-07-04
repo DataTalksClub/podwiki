@@ -82,6 +82,10 @@ optimization script. Organizers then made manual adjustments
 A practical operating move is to automate repetitive coordination while keeping
 human judgment over the final program.
 
+That same balance applies to AI-era CFP screening: automation can help sort and
+summarize, but organizers still need to identify proposals with real
+practitioner substance.
+
 ## Sponsor Value and Accessible Pricing
 
 Sponsors are part of the conference operating model, not just a logo row.

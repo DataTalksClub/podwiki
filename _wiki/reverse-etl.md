@@ -64,8 +64,10 @@ Natalie starts from the broader
 [[modern data stack]]. Her
 episode separates extraction and warehouse storage from transformation,
 orchestration, and reverse data flows. Reverse ETL is one integration layer in
-a best-of-breed stack. Teams get specialized tools, but they also own more
-interfaces between those tools [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]].
+a best-of-breed stack. It sends selected warehouse tables or modeled fields back
+to source systems and business tools after the warehouse layer has made them
+usable. Teams get specialized tools, but they also own more interfaces between
+those tools [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]].
 
 ## Operational Use Cases
 

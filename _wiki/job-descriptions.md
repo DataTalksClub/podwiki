@@ -48,6 +48,10 @@ questions.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Gui
 Candidates can infer whether a company wants product data science
 or machine learning engineering. It can also reveal analytics work or another
 role structure.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+Marijn Markus describes the failure mode from the candidate side. Keyword-driven
+recruiting can miss strong people when screening rewards tool matches over the
+actual problem, background, and role fit
+[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 
 ## Requirements and Level
 

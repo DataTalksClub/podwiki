@@ -39,6 +39,11 @@ Candidates need practical evidence, but they start from different material. [[pe
 
 [[person:andradaolteanu=>Andrada Olteanu]] took a more public-project route. She used Kaggle notebooks and GitHub to turn analytics experience into data science evidence. She also kept data validation, domain knowledge, and exploratory analysis as analyst strengths rather than background to discard.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Career Transition from Analytics to Data Science]]
 
+[[person:marijnmarkus=>Marijn Markus]] adds the non-CS route. Sociology and
+qualitative research can become differentiators when candidates connect them to
+statistics, programming, and business problems. Interviews and domain context
+belong in that evidence too.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
+
 Hiring teams assess career changers through practical experience, portfolio projects, and online courses on a CV.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]] Courses can close skill gaps. Projects and role-specific stories support the application.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
 ## Skills as Role Evidence
@@ -62,6 +67,10 @@ Candidates can build a project to stand out. Candidates without industry experie
 Public work can help, but the format depends on the target role. Kaggle notebooks and GitHub worked for an analytics-to-data-science transition.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Career Transition from Analytics to Data Science]] Projects with real-world data are also recommended.[[cite:how-to-break-into-data-science=>Data Science Career Playbook]]
 
 Product data science projects need business reasoning and metrics, while ML-heavy projects need modeling, evaluation, and production judgment.
+Unique projects can also beat generic portfolio work when they expose judgment.
+Marijn Markus uses home automation, plant sensors, and coffee-machine time
+series as examples. They make curiosity and practical data handling visible
+without pretending to be enterprise case studies.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 
 ## CVs, Interviews, and Offers
 

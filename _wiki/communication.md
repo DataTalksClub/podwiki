@@ -7,6 +7,7 @@ related:
   - Job Search
   - Data Product Management
   - Data Scientist Role
+  - Mentoring in Tech
   - Open Source Portfolio Evidence
 ---
 
@@ -76,6 +77,11 @@ Data professionals need domain knowledge, data-driven arguments, and personal
 presence when they explain sensitive findings or challenge hierarchy.
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 
+They also need to translate effort. Lior Barak's data strategist advice is to
+explain dependencies, blockers, and tradeoffs in plain language. That matters
+when delays change a business outcome
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+
 ## Stakeholder Translation
 
 Data professionals start stakeholder communication before a model or dashboard
@@ -91,6 +97,11 @@ Data professionals build trust through active listening and business literacy.
 They prioritize projects by stakeholder impact and high-connectivity
 opportunities
 [[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]].
+
+[[mentoring-in-tech=>Mentoring]] uses the same listening skill in a career
+setting. The mentor has to understand context before giving advice. They also
+avoid jumping straight to solutions and turn a vague concern into a more
+specific problem.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 
 In [[data product management]], data product managers discover user problems and
 define success metrics. They also keep adoption in view. The same skill matters

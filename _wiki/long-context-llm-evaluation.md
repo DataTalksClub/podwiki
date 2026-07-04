@@ -46,6 +46,15 @@ such as latency and throughput
 That turns "128k context" into a measurable system claim rather than a marketing
 claim.
 
+The reported failure boundary was narrow: financial tests dropped around
+32k-64k tokens.
+The team treated the advertised window as a hypothesis to test.
+Lavanya's team later published the EMNLP paper "Long Context LLMs on Financial
+Concepts." The paper belongs with [[Applied Research]] because it turned an
+internal adoption question into a publishable benchmark result
+[[cite:applied-llm-research-and-career-growth-in-practice@12:36=>Applied LLM]]
+[[cite:applied-llm-research-and-career-growth-in-practice@15:28=>EMNLP Paper]].
+
 The evaluation also has to match the task. Lavanya says public benchmarks can
 look strong when tasks are artificially simplified. In specialized domains,
 finance and healthcare examples reveal pitfalls in longer contexts
@@ -68,6 +77,10 @@ better. Pushing toward large windows exposes capability drops
 Her answer isn't to reject long context. It's to test where it works
 and then chunk when the document crosses the reliable range
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
+She also names retrieval and summarization as practical fallbacks for large
+documents. Use the full window only when the eval says the model still uses it
+reliably
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts
 from production context design. In

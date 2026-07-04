@@ -92,6 +92,11 @@ show local feature influence and let a team test counterfactual cases. The team
 still has to decide whether the feature should exist and whether the explanation
 answers the stakeholder's question.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
+The scikit-learn-adjacent fairness discussion adds model inspection and partial
+dependence to this practical toolbox. Those methods help teams look at feature
+effects, while fairness metrics still require a separate decision about harms,
+groups, and acceptable tradeoffs.[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]
+
 SHAP adds the practitioner layer. Explanations need enough detail for Python
 users to look at feature effects. They also need enough restraint to avoid
 overclaiming what the plot proves. Conformal prediction adds uncertainty, which

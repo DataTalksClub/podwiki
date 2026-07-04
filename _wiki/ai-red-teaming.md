@@ -119,6 +119,10 @@ actions that shouldn't run automatically.[[cite:s23e03-future-of-ai-agents=>Futu
 Red-team cases should become part of the evaluation set. A team can start with
 failures found in a live exercise. It can then preserve them as regression tests
 for prompts, retrieval changes, model updates, and agent releases.
+The chatbot challenge is useful because it produced concrete failure classes.
+They included prohibited outputs, hidden-data extraction, hallucinated
+commitments, and filter bypasses. Those categories are easier to test again than
+a vague "be safe" requirement.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
 
 Agent evaluation work uses golden datasets, LLM judges, and human labels. It
 also uses multi-tenancy checks and scale tests. Red-team cases need the same

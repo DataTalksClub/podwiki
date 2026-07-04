@@ -113,9 +113,10 @@ After a team persists the promoted model, the team chooses whether batch
 inference, online serving, or a managed deployment pipeline consumes it.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-That makes the registry a production handoff, not only a training artifact
+Teams use the registry as a production handoff, not only as a training artifact
 folder. Downstream batch jobs, services, monitoring dashboards, and rollback
-paths need to agree on the same promoted model record.
+paths need to agree on the same promoted model record. Downstream consumers use
+the registry after experimentation produces a model for reuse.
 
 If the approved model is only a file in an experiment run, each consumer has to
 reconstruct release state from local knowledge. A registry gives consumers a

@@ -161,6 +161,11 @@ That places learning in public inside
 [[career growth]], not only inside
 individual branding.
 
+Marijn Markus gives the personal-branding version. LinkedIn posts can mix useful
+technical observations with authentic formats, including memes. The content
+still needs a clear niche and visible work
+([[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]).
+
 ## Events Turn Visibility Into Trust
 
 [[person:leonidkholkine=>Leonid Kholkine]] shows the

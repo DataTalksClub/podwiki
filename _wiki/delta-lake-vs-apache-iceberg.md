@@ -50,6 +50,9 @@ Delta Lake appears as the adjacent lakehouse table format in the same episode.
 It comes up in the DLT support discussion and in the Delta/Hudi/Iceberg
 comparison. That comparison treats Delta as the most mature of the three options
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+
+The same comparison keeps Hudi in view as a third lakehouse table-format
+option, but the page's practical evidence is strongest for Iceberg and Delta.
 The concrete Delta-side use case is version-aware data for reprocessing and
 auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 Those episodes support a practical comparison, but not a deep feature matrix.

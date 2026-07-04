@@ -117,6 +117,9 @@ maintainability into the first production requirement
 The same career-focused transition advice names Git, Docker, and cloud
 platforms. Mentors and mini-projects help too
 [[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+Use those mini-projects to practice the production surface outside work. Version
+the code, containerize the run path, and deploy a small service or scheduled
+job. Then write down what can fail.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 Data scientists also need deployment and operations because ML engineering
 skills span data pipelines and modeling. They also span deployment, monitoring,

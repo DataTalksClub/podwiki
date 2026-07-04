@@ -149,7 +149,10 @@ business logic.[[cite:trends-in-modern-data-engineering]]
 Orchestration coordinates ingestion, transformations, checks, and refreshes.
 It also coordinates backfills and downstream syncs, so teams can recover when
 jobs fail. In the warehouse-centered stack, the orchestrator schedules and runs
-jobs around tools such as Airbyte and dbt.[[cite:data-engineering-tools-modern-data-stack]]
+jobs around tools such as Airbyte and dbt. Airbyte-style tools handle the
+extract-load step, while dbt-style tools handle warehouse-side SQL
+transformations. Orchestration keeps the pieces in the same operating
+workflow.[[cite:data-engineering-tools-modern-data-stack]]
 
 Workflow authoring isn't the whole data problem. Orchestrators sit next to
 Spark, streaming tools such as Kafka and Kinesis, feature stores, and vector

@@ -78,10 +78,13 @@ connecting portability to cheaper compute options
 ([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
 
 GitHub Actions doesn't become a universal orchestrator in this framing. Teams
-still pick between Airflow, Prefect, Dagster, and simpler runners. GitHub
-Actions can be enough for simple workflows because it's serverless and cheaper
-than always-on orchestrators
+still pick between full orchestrators and simpler runners. GitHub Actions can be
+enough for simple workflows because it's serverless and cheaper than always-on
+orchestrators
 ([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
+A bounded, headless pipeline can run SQL near local or file-backed data. It can
+publish an output without paying for always-on warehouse capacity when the
+workload is small.
 
 DuckDB fits bounded batch workloads that are cheap to rerun. A small pipeline
 can extract data and write Parquet. It can then query or transform the data with

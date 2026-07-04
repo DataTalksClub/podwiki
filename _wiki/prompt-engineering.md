@@ -47,6 +47,10 @@ Prompt engineering belongs inside [[AI engineering]] even though it isn't the
 whole system. [[Context Engineering]] draws the wider boundary. Teams choose what
 to give the LLM instead of stuffing everything into the input. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
+Machine translation is a narrow example of that interface work. Prompts can
+customize ChatGPT translation behavior. Quality control still has to sit around
+the model rather than trusting a fluent translation by default.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
 ## Boundaries and Tradeoffs
 
 Prompt engineering can be the main task interface. Role and examples describe

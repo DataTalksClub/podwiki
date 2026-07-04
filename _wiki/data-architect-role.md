@@ -143,6 +143,11 @@ adaptation, ETL scripting, and cloud fundamentals
 The role also needs stakeholder discovery and prioritization, because models and
 templates only matter when teams adopt them.
 
+Domain expertise can stay useful in that senior role. Loïc Magnien's civil
+engineering background helped diagnose sensor and structural-health data. That
+background stayed useful as the work became cloud architecture and team leadership
+([[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]).
+
 The boundary with a [[data-engineer-role=>data engineer]] is scope. Data engineers
 often own concrete ingestion, transformation, orchestration, and delivery work.
 Data architects own the durable structure across many such systems. For the

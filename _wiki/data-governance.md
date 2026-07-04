@@ -52,8 +52,11 @@ controls depend on why the data matters.[[cite:cloud-data-governance=>Cloud Data
 The ML platform version adds reproducibility and regulatory limits. Fintech
 platform teams need datasets, logs, metadata, and lineage for monitoring and
 later analysis. GDPR and regulatory constraints still limit what they can log or
-persist. Governance therefore belongs in [[MLOps]] platform design. Teams make
-data usable without collecting everything.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+persist. A run record may keep metadata, pointers, or queries rather than copy
+every dataset into tool-managed storage. Teams therefore need governance inside
+[[MLOps]] platform design. They can make data usable without collecting
+everything and without turning retention or deletion into an artifact-store
+problem.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 ## Starting Points
 

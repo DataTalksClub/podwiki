@@ -43,6 +43,12 @@ because it's visual [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-caree
 He also says specialized coding tools and GitHub Copilot can offer strong value
 for working developers.
 
+Hugo describes the same progression from copy-pasting between ChatGPT and an IDE
+to Copilot, Cursor, IDE agents, and background coding agents. The assistant moves
+closer to the repository, pull request, or CI job. The developer can review
+concrete diffs instead of detached snippets
+[[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]].
+
 ## Prototypes and Vibe Coding
 
 Vibe coding means prompting an AI dev tool to turn an idea into a prototype. In
@@ -61,6 +67,13 @@ warns that sustainability is questionable when the developer has no
 expertise in the area and relies only on the agent [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@29:06=>Notebook to Production]].
 That keeps the page's center of gravity on engineering judgment rather than
 generic "AI can build anything" advice.
+
+Hugo Bowne-Anderson adds the monitoring version of the same caution. Teams need
+logs and traces for vibe-coded MVPs. They also need debuggable paths because the
+first generated version rarely explains why an LLM output, retrieval step, or
+tool call failed. That connects AI coding tools to [[LLM Evaluation Workflows]] and
+[[Model Monitoring]], not only to faster prototyping
+[[cite:practical-llm-engineering-and-rag@27:38=>Vibe Coding and Monitoring]].
 
 ## LLMs as Sparring Partners, Accelerators, and Review Targets
 

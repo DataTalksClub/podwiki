@@ -69,6 +69,11 @@ The first production version should be the smallest baseline that can touch the
 workflow. It should show whether users and KPIs move before the team adds
 complexity.
 
+For translator-led prototypes, the handoff is part of the workflow. A rough
+script or dashboard can validate demand. Productionization still needs an owner
+who can rewrite, operate, and support the useful part
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+
 Write a one-page production brief before you extract code:
 
 1. Who uses the output?

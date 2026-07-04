@@ -146,6 +146,9 @@ exploit. That makes it useful for sensitive-content detection,
 extraction-attempt detection, and output blocking while the LLM handles the user
 conversation
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+Deterministic checks don't solve every case. Narrow classifiers, query
+analysis, and output checks give the team controls outside the same model
+context the attacker is trying to manipulate.
 
 Human review is another layer, not an admission that the system failed. In a
 hybrid workflow, the chatbot drafts or routes an answer. A human then approves

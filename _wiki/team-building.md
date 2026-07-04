@@ -42,6 +42,11 @@ At that stage, generalists matter. People need to handle several product and
 infrastructure jobs before the company has stable role boundaries
 [[cite:building-data-team=>Building a Data Science Team]].
 
+Danny Ma's lean data science team version splits two early leadership needs. A
+technical lead guides builder work. A data lead keeps the team aligned with
+analysis, decisions, and stakeholders
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+
 That guidance changes when the company already has some data foundations. Idealo
 had analysts, BI, and older data engineering systems, so it didn't need only
 broad data science generalists. It needed people who could add ML depth while

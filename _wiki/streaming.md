@@ -97,6 +97,9 @@ ingestion in
 [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 Brudaru names Kafka and SQS as common buffers in
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+He also puts Flink in the stricter streaming path, while warning that many
+"streaming" systems are micro-batch pipelines unless the SLA requires continuous
+event processing.
 
 The broker gives producers and consumers a shared event path. A product service
 can publish one event, then consumers can use it for analytics and alerts.

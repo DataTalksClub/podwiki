@@ -68,8 +68,10 @@ appear across teams. Building a heavy platform before the organization has real
 models and business needs is a mistake[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
 Single teams may still need platform pieces before the company needs a full
-platform. Simon Stiebellehner separates an experiment tracker, a managed
-registry, or a thin cloud wrapper from a company-wide ML platform.
+platform. An experiment tracker, a managed registry, or a thin cloud wrapper can
+create value before a company-wide ML platform exists. Teams should invest in
+heavier platform work when they need repeated standardization across teams, not
+only because one model reached production.
 
 Buying SageMaker, Vertex AI, or another managed platform still leaves
 integration work. The team has to fit the tool to its data-science workflow,

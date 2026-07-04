@@ -22,6 +22,9 @@ decisions, not only exist as technical output. Models and workflow tools face
 the same test. Start with
 [[podcast:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 for the core role conversation.
+Lior Barak's framing makes the translator a business-to-technical bridge rather
+than a reporting title. The role turns product questions, operational friction,
+and technical constraints into work that both sides can understand.[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 
 ## Translator Work
 

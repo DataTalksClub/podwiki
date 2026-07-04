@@ -211,9 +211,13 @@ Teams also need naming rules and sequencing conventions. Playbooks and
 templates keep repeated pipelines from becoming copy-pasted DAGs.
 
 Teams have more orchestration options than Airflow. [[person:adrianbrudaru=>Adrian Brudaru]]
-says Airflow is common, and Prefect and Dagster are also popular. GitHub
-Actions can be enough for simple workflows because it's serverless and cheaper
-than always-on orchestrators [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+says Airflow is common, with Prefect and Dagster also popular. GitHub Actions
+can be enough for simple workflows because it's serverless and cheaper than
+always-on orchestrators [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+
+That tool landscape makes orchestration a cost and complexity choice. The same
+workflow may be a DAG, CI job, or managed scheduler. The choice depends on
+backfills, ownership, and failure recovery needs.
 
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]] gives a
 similar small-team rule. He keeps the stack minimal and uses Python for scripts

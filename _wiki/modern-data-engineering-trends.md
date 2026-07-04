@@ -29,10 +29,15 @@ observable, cost-aware, and useful for AI products rather than only scheduled da
 
 ## Platform Discipline
 
-Modern data engineering is the platform discipline that turns raw data into
-governed, reliable, and cost-aware systems. Current work includes specialization
-and open table formats. It also includes local-first processing tools,
-operational automation, and AI-facing data work.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+Modern data engineering turns raw data into governed and cost-aware systems.
+Current work includes open table formats and local-first tools
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+It also includes operational automation and AI-facing data work
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+dlt fits this trend as a Python-based ingestion standard rather than only a
+connector tool. The same discussion extends it toward DLT Plus and reusable
+data-product packaging
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 The role is less generic than the old "pipeline builder" label suggests.
 Governance work handles sensitive data policy, metadata, access, and platform

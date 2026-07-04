@@ -89,6 +89,14 @@ showed data collection, task framing, and licensing judgment.
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
 [[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]]
 
+Dataset creation is a different career signal from leaderboard optimization.
+Lavanya's Kaggle story matters because she created the dataset. She had to
+choose a problem, assemble useful data, make it visible to the community, and
+handle licensing when others wanted to use it. That connects competitions to
+[[Portfolio Projects]] and [[Open Source Portfolio Evidence]] because reviewers
+can look at judgment before any model is trained
+[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]].
+
 ## Platform Choices
 
 Choose the platform by the evidence the reader needs. Use Kaggle when the main
@@ -187,6 +195,8 @@ The minimum portfolio package should include:
 4. A clean notebook or report for exploration.
 5. A blog post or case study that explains the idea in plain language.
 6. Links to the competition, repository, report, and any presentation.
+7. For dataset projects, a license note and a short description of who can reuse
+   the data and under what constraints.
 
 Use blog posts and LinkedIn when the technical report is too dense for a general
 audience.

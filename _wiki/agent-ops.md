@@ -93,6 +93,12 @@ Debuggable MVPs matter because agent failures are hard to infer from final
 answers alone. Logging traces and function calls early gives teams a way to see
 what happened before they add more tools or autonomy. [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
+Conference and R&D work around AI observability reinforces the same operating
+point. Teams need visibility into AI behavior before they can improve or trust
+the system. That places observability close to agent traces, evaluation
+datasets, and production feedback loops
+[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
+
 ## Agent Ops Versus LLMOps
 
 General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.

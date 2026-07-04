@@ -72,7 +72,9 @@ sector requirements determine how heavy the practice must become.
 
 Teams differ on when tracking should become the first MLOps move. One platform
 sequence starts with experiment tracking. It gives teams a quick reproducibility
-and collaboration win before the full release path
+and collaboration win before the full release path. Teams can use tracking as a
+low-friction platform entry point. They can compare runs and recover context
+without redesigning serving, monitoring, or governance first
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 Another sequence starts from team pain points instead of a fixed tool order. A

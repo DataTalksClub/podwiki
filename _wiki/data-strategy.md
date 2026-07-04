@@ -147,6 +147,11 @@ business value, then choose the talent, algorithms, and infrastructure. Don't
 start from a shiny technology and search for somewhere to plug it in
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
 
+Lior Barak gives the lean-delivery version of the same strategy. Build the
+smallest prototype that can test value. Accept imperfect early code. Use OKRs
+and iteration to decide what deserves production ownership
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
 overlaps with [[MLOps]] and the
@@ -265,6 +270,11 @@ and ownership
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 The strategy has to describe the consumer and the guarantee, not just the
 pipeline that produces the dataset.
+
+Barak's book discussion uses the same foundation-first logic. Teams need stable
+ground, shared understanding, and usable data before models or advanced
+automation can support a business decision
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
 
 [[person:parvathykrishnan=>Parvathy Krishnan]] brings
 the same logic into the nonprofit sector. Data maturity spans people, process,

@@ -124,6 +124,9 @@ wrapper around managed training or deployment can remove routine provider setup.
 The same wrapper should still leave enough control for model-specific
 requirements and regulated workloads
 ([[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]).
+Platform teams should treat the abstraction boundary as a developer-experience
+decision. The platform should hide repeated setup. It should still expose the
+cloud, security, logging, and deployment choices users need to understand.
 Those adoption constraints place developer experience beside the
 [[MLOps roadmap]],
 [[MLOps tools]],

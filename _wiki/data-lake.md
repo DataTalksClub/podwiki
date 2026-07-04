@@ -62,10 +62,10 @@ storage.
 
 ## Lake, Warehouse, and Lakehouse
 
-Kwong and Albertsson don't frame data lakes as a simple warehouse replacement.
-Kwong argues that data warehouses and data lakes serve different consumers. An
-analytics team often works mainly inside the warehouse. The warehouse contains
-BI-facing outputs, SQL models and data marts.
+Data lakes aren't a simple warehouse replacement. Warehouses and data lakes
+serve different consumers, even as lakehouse systems bring the categories
+closer. An analytics team often works mainly inside the warehouse. The warehouse
+contains BI-facing outputs, SQL models and data marts.
 
 Engineering teams may rely on a lake when files need a more flexible store.
 Events and application data may need that too

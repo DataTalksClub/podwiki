@@ -137,6 +137,8 @@ other. Organizational responsibility, cross-functional teams, moderation
 examples, and domain expertise all enter. Human-in-the-loop review sits inside
 system design
 [[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].
+That same discussion treats sensitive-group selection as a domain decision,
+not a step Fairlearn or another metric library can automate away.
 
 This places fairness beside
 [[Model Monitoring]] and

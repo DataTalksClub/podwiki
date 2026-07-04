@@ -48,6 +48,10 @@ RAG
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 RAG adds generation, citations, and answer evaluation, but the first failure
 mode is still retrieval because the system may not find the right evidence.
+The same arc includes personalization and learning-to-rank, so LLM-era search
+still inherits ranking and evaluation work from earlier information-retrieval
+systems
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Product relevance moves from inverted indexes and Lucene to dense
 representations and hybrid search, then adds recency, business rules, and

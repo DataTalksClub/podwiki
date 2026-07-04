@@ -40,10 +40,11 @@ a product analytics or BI tool. They send useful segments or attributes back
 into operational tools
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
-Data can improve recruitment, marketing, and operations. Teams deliver it
-iteratively by proving value with small working versions before they invest in a
-larger system
+Data work can improve hiring pipelines and campaign decisions. It can also
+improve operations when teams ship small versions before larger investment
 [[cite:data-translator-role-and-data-strategy=>Data Strategist Guide]].
+That broadens data-led growth beyond acquisition funnels. The same habit works
+when the team starts from the decision a function needs to change.[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide]]
 
 That matches the data-led-growth habit. Choose the question first, then build
 the minimum data flow that can change a decision.

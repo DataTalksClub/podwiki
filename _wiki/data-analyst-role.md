@@ -82,9 +82,13 @@ The related [[experimentation]] work isn't only statistical. Analysts also defin
 success metrics and important segments, then explain mixed results to product
 stakeholders.
 
-Type A analysts explore data, build dashboards, and visualize findings before
-modeling starts. They help the team figure out which problem to solve and turn
-the findings into a commercial or project decision.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+Type A analysts explore data before modeling starts by building dashboards and
+visualizations. They help choose the problem to solve and translate findings
+into a commercial or project decision.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+That makes the analyst path a legitimate target, not only a stepping stone to
+modeling. Exploration, visualization, and storytelling can be the main evidence
+when the job is decision support.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 ## Skill Stack
 

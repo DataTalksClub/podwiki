@@ -37,6 +37,13 @@ prompt.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and R
 For context engineering, "more context" isn't automatically safer. Engineers
 still decide what deserves attention.
 
+Hugo Bowne-Anderson connects context rot to chunking strategy. Fixed-length
+chunks are a fast starting point, while sliding windows can preserve continuity
+across boundaries. Neither choice is complete until the team reviews the
+failures. The chunking rule should change when retrieval misses the useful
+passage or when the model receives too much distracting context
+[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
+
 ## Long-Context Boundaries
 
 Financial LLM benchmarking adds evaluation evidence for the same boundary.
@@ -48,9 +55,15 @@ At the bank, the practical response was still to chunk large inputs before
 downstream processing. The team kept doing this even when they used models
 advertised with much larger windows.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research & Career Growth]]
 
-Long-context models can help, but teams still need retrieval or preprocessing
-when the material is large. Summarization can help when the material is
-specialized or hard to verify.
+Long-context models can help while teams still use retrieval or preprocessing
+for large material. Summarization can help when the material is specialized or
+hard to verify.
+Lavanya explicitly names chunking, retrieval, and summarization as fallbacks
+instead of sending the whole document blindly. The team needs evidence for when
+each path is reliable. That puts long-context work next to
+[[long-context-llm-evaluation=>Long-Context LLM Evaluation]] and
+[[LLM Evaluation Workflows]]
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Large-Document LLM Strategy]].
 
 ## Chunking and Source Structure
 
@@ -99,6 +112,11 @@ needs multiple data sources or API integrations.[[cite:building-agentic-ai-engin
 
 Tool calls fit when the simpler RAG path can't answer the user's question.
 Tools increase both power and system complexity.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Hugo's sequence is conservative. Get a useful RAG path first. Add tools only
+when the question requires current state, an external API, or an action. That
+keeps [[Agent Engineering]] from becoming the default answer for every retrieval
+problem
+[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Tool Calls]].
 
 ## Related Pages
 

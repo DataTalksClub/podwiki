@@ -148,8 +148,11 @@ Enterprise evaluation uses golden datasets, thresholds, and LLM judges aligned
 with human labels. Feedback loops, multi-tenancy, and scale become operating
 requirements.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
-Product feedback adds explicit and implicit signals, customer requirements, and
-factuality checks for generated outputs.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+Product feedback adds explicit and implicit signals. It also adds customer
+requirements and factuality checks for generated outputs.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+Chatbot adoption adds another product signal. Verbose or inaccurate answers can
+make users reject the system. That can break the ROI case even when the chatbot
+is technically live.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 That links LLM production to [[model monitoring]] and [[data products]].
 

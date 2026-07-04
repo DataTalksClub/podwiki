@@ -110,10 +110,12 @@ evidence is present but buried or poorly formatted, the fix may belong in
 ranking or filtering. It may also belong in chunking, metadata, or context
 packaging.
 
-Chunking strategy, overlap, embedding model choice, and vectorization affect
-retrieval quality. The retrieved context then becomes prompt context with
-citations, and evaluation has to cover multiple levels of the pipeline.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Evaluate the full RAG path
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+
+Human review belongs in the loop because retrieval metrics can
+miss whether a passage actually answers the user's task or supports the final
+claim.
 
 For each gold example, record:
 

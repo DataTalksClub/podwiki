@@ -72,6 +72,15 @@ tests guide the work. Release gates add another constraint
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Computer Vision
 Research to Production AI]].
 
+[[person:lavanyagupta=>Lavanya Gupta]] adds the LLM benchmarking version through
+provider comparisons for financial use cases. The tests covered long context
+and multimodal ability, plus NLU, code, and math. They also measured latency and
+throughput, so the work didn't end at "which model scored highest." It gives
+the institution evidence for adoption and fallback design. It can also produce a
+publishable result when the benchmark reveals reusable evidence
+[[cite:applied-llm-research-and-career-growth-in-practice@8:43=>Applied LLM Research in Practice]]
+[[cite:applied-llm-research-and-career-growth-in-practice@15:28=>Long Context LLMs on Financial Concepts]].
+
 ## Turning Research Into Product Decisions
 
 Research creates value when it changes a product or business decision.
@@ -120,6 +129,14 @@ channels, and sometimes routes such as arXiv endorsement
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
 
+Lavanya's publication path shows why the manager and community path matters.
+The team had to decide that the result should be shared outside the company.
+Then the work moved through channels such as arXiv endorsement and conference
+submission. That puts [[Technical Writing]] and community review inside the
+research system, not in a separate career lane
+[[cite:applied-llm-research-and-career-growth-in-practice@17:28=>Publishing from Corporate Teams]]
+[[cite:applied-llm-research-and-career-growth-in-practice@22:10=>arXiv and Early Publications]].
+
 ## Deployment Constraints Direct the Research
 
 The deployment domain changes the research question. In autonomous driving,
@@ -143,6 +160,12 @@ Evaluation Workflows]]. Benchmarks, rapid prototypes, and feedback tools also
 connect it to [[Long Context LLM Evaluation]] and [[RAG Evaluation Workflow]]
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
+
+Lavanya used Streamlit-style prototypes to get feedback before treating a
+research idea as finished. The prototype exposes whether stakeholders can use
+the model behavior. It also helps the team choose more research, better
+[[LLM Evaluation Workflows]], or production hardening
+[[cite:applied-llm-research-and-career-growth-in-practice@30:14=>Rapid LLM Prototyping]].
 
 ## Related Pages
 

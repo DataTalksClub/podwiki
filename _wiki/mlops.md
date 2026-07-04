@@ -28,12 +28,15 @@ governance, and ownership. For a plain-language overview of the same lifecycle, 
 DataTalks.Club's
 [MLOps in 10 Minutes](https://datatalks.club/blog/mlops-10-minutes.html).
 
-DataTalks.Club conversations usually treat MLOps as a socio-technical system.
-People agree on operating practices, teams encode those practices in workflows,
-and platforms make the repeatable path easier to use. Simon Stiebellehner uses
-that frame when he explains production ML platforms. Raphael Hoogvliets connects
-it to centralized enablement, CI, repository structure, and reproducible model
-serving and monitoring
+DataTalks.Club conversations usually treat MLOps as a socio-technical system
+where people, processes, and technology move together. Teams agree on operating
+practices, encode those practices in workflows, and make the repeatable path
+easier to use through platforms.
+
+ML platform teams apply that frame to shared lifecycle paths. They share
+training and registry paths. They also share serving, monitoring, lineage, and
+governance paths. A centralized platform team adds CI, repository structure, and
+reproducible model serving and monitoring
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
@@ -187,10 +190,10 @@ immediate pain. It then standardizes repositories, packages, serving patterns,
 and monitoring
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Simon Stiebellehner gives the platform version of that argument. A shared
-platform can make experiment tracking and registries easier to use. It can also
-standardize serving and orchestration while preserving metadata, lineage, and
-governance across teams
+A shared platform can make experiment tracking and registries easier to use
+when several teams repeat the same lifecycle. It can also standardize serving
+and orchestration while preserving metadata, lineage, and governance across
+teams
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 That connects MLOps to [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[CI/CD]]. It also connects MLOps to [[Model Registry]] and

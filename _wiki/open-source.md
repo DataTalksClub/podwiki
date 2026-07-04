@@ -338,8 +338,12 @@ prioritize. The cloud and enterprise offering sits around that project, while
 competition and license choices affect the business
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]].
 
-The Elasticsearch example and Airbyte's MIT license at the time of the interview
-show how open source can help with [[data engineering]] adoption.
+The Elasticsearch example and Airbyte's MIT license show how open source can
+help [[data engineering]] adoption while still leaving licensing risk. A
+permissive license can accelerate connector adoption,
+but later relicensing can change the business boundary around the project. Cloud
+competition can do the same
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]].
 
 The company still has to decide how cloud competitors, support needs, and
 license choices affect the business. Those tradeoffs separate open source as a

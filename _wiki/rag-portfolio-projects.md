@@ -52,6 +52,8 @@ Podcast transcripts are a concrete example because long transcripts need
 chunking, overlap, and vectorization. The answer path needs retrieval,
 augmentation, generation, and citations
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+If the source audio starts outside the text corpus, a transcript step such as
+Whisper becomes part of the project scope before chunking and evaluation.
 The project should test embedding choices, chunking strategy, retrieval quality,
 and final answer quality.
 

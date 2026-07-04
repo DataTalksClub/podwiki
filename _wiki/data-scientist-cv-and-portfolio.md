@@ -171,6 +171,12 @@ Cold-start candidates can use public datasets, synthetic data, and blogging.
 When possible, the stronger project is tailored to the company or product
 problem.[[cite:data-science-interview-and-cv-guide=>Interview Guide]]
 
+Unique personal projects can make the same proof more memorable. Marijn Markus
+uses home automation, plant sensors, and coffee-machine time series as examples.
+That kind of portfolio work shows curiosity, data collection, and practical
+analysis without copying a standard Kaggle exercise
+[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+
 ## Take-Home Projects and Follow-Up
 
 Take-home projects should be treated as proof with a cost. The common funnel
