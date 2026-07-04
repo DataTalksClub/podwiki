@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11133
+    "links": 11110
   },
   "nodes": [
     {
@@ -378,7 +378,7 @@
       "title": "Graph RAG vs Vector RAG",
       "url": "/wiki/graph-rag-vs-vector-rag/",
       "count": 1,
-      "search": "Graph RAG vs Vector RAG How the podcast archive compares graph driven retrieval with vector driven retrieval for grounded LLM systems.",
+      "search": "Graph RAG vs Vector RAG How DataTalks.Club discussions compare graph driven retrieval with vector driven retrieval for grounded LLM systems.",
       "keyword": "graph rag vs vector rag"
     },
     {
@@ -10622,7 +10622,7 @@
       "title": "Notebook to Production AI",
       "url": "/wiki/notebook-to-production-ai-systems/",
       "count": 1,
-      "search": "Notebook to Production AI How DataTalks.Club guests describe moving from notebooks and experiments to reliable AI systems, with evaluation, monitoring, and ownership."
+      "search": "Notebook to Production AI How notebook experiments become reliable AI systems through product framing, evaluation, monitoring, and ownership."
     },
     {
       "id": "wiki:open-source",
@@ -43686,24 +43686,6 @@
     },
     {
       "source": "wiki:data-translator-role",
-      "target": "person:liorbarak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-translator-role",
-      "target": "person:marcodesa",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-translator-role",
-      "target": "person:thomives",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-translator-role",
       "target": "podcast:chief-data-officer-data-strategy-and-org-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -43722,6 +43704,12 @@
     },
     {
       "source": "wiki:data-translator-role",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-translator-role",
       "target": "wiki:communication",
       "kind": "wiki-chip",
       "weight": 1
@@ -43731,6 +43719,18 @@
       "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-translator-role",
+      "target": "wiki:data-analyst-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-translator-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-translator-role",
@@ -51237,18 +51237,6 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "person:anahitapakiman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
@@ -63894,42 +63882,6 @@
     },
     {
       "source": "wiki:model-registry",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "person:willempienaar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -64014,6 +63966,12 @@
     },
     {
       "source": "wiki:model-registry",
+      "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -64051,12 +64009,6 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:mlops-roadmap",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-registry",
-      "target": "wiki:mlops-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64983,66 +64935,6 @@
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:andreaskretz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:benwilson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:mihaileric",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
@@ -67317,36 +67209,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-engineering",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:platform-engineering",

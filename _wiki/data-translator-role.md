@@ -11,207 +11,145 @@ related:
   - Data Teams
 ---
 
-The data translator role sits between business decisions and technical data
-delivery. In [[person:liorbarak|Lior Barak's]]
-[[podcast:data-translator-role-and-data-strategy=>data translator and data strategy discussion]],
-the role isn't a reporting layer that forwards requests. It keeps
-[[data engineering]],
-[[data science]], and business teams
-aligned around shared definitions and constraints. It makes outputs trustworthy
-enough to use in decisions
-([[podcast:data-translator-role-and-data-strategy|4:08-7:46]]).
+A data translator connects business decisions with technical data delivery. They
+keep [[data engineering]], [[data science]], and business teams aligned on shared
+definitions and constraints. They also make reliability explicit enough for a
+data product to support a real decision.[[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
-The role overlaps with [[data strategy]]
-and [[communication]]. It also sits
-near [[data product adoption]]
-because dashboards, forecasts, models, and workflow tools need to change
-decisions rather than merely exist. Barak frames the translator as a
-product-minded data advocate. The person asks basic questions and explains
-uncertainty. They sit with users, prove value through small prototypes, and help
-move work into owned production systems
-([[podcast:data-translator-role-and-data-strategy|4:08-14:20 and 23:54-32:42]]).
+The role overlaps with [[data strategy]] and [[communication]]. It also sits
+near [[data product adoption]] because dashboards and forecasts need to change
+decisions, not only exist as technical output. Models and workflow tools face
+the same test. Start with
+[[podcast:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
+for the core role conversation.
 
-## A Bridge With Product Judgment
+## Translator Work
 
-Barak's definition starts from language and trust. Business users ask why a
-number changed, whether a forecast is reliable, and why an "install" or
-"session" is counted a certain way. Technical teams know the models, SQL jobs,
-and data-quality limits. They may still miss the exact business workflow. The
-translator makes both sides legible to each other
-([[podcast:data-translator-role-and-data-strategy|4:08-7:46]]).
+Data translators work as product-minded data advocates. They ask basic
+questions and explain uncertainty, so users can understand what the data can
+and can't support. They also sit near users, prove value through small
+prototypes, and help move useful work into owned systems.[[cite:data-translator-role-and-data-strategy=>Product-minded translator]]
 
-The strongest version of the role isn't purely non-technical. Barak describes
-his own background as technical enough to read code, write SQL, and write Python.
-He also understands what's happening while coming from product management. That
-combination lets the translator explain technical effort without pretending to
-be the production engineer who should own every implementation
-([[podcast:data-translator-role-and-data-strategy|6:36-7:46]]).
+A translator needs technical fluency, but they aren't a substitute for every
+technical owner. A strong translator can read code, write SQL, use Python, and
+understand the effort behind a data task. They still need to know when a
+production engineer, analyst, data scientist, or product owner should own the
+next step.[[cite:data-translator-role-and-data-strategy=>Technical fluency]]
 
-Marco De Sa's [[podcast:chief-data-officer-data-strategy-and-org-design|chief data officer discussion]]
-places the same bridge inside senior [[leadership]].
+## Role Scale
 
-In the CDO role [[person:marcodesa|Marco De Sa]]
-describes strategy for infrastructure and governance. Data collection, AI, and
-user value belong in the same scope. He also names a recurring disconnect.
+Translators stay close to daily friction. They clarify metric definitions, find
+workflow problems, and repair trust before they validate and hand off
+prototypes. A [[chief data officer role]] applies a similar bridge at a larger
+scale. That version covers strategy and governance. It also covers organization
+design, AI scope, and long-term data collection decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cite:chief-data-officer-data-strategy-and-org-design=>CDO scope]]
 
-Business leaders have problems to solve, while technical teams can focus on
-technology instead of the business problem
-([[podcast:chief-data-officer-data-strategy-and-org-design|6:08-10:19]]).
-That executive version is wider than Barak's translator role. It supports the
-same principle: data work has to be framed from the business outcome back into
-technical delivery.
+The role also has a boundary with domain expertise. Data professionals should
+ask leaders what worries them, map business needs against current data assets,
+and identify where better data collection is required. They shouldn't pretend
+to replace the people who understand the domain problem directly.[[cite:feature-engineering-model-monitoring-and-data-governance=>Business acumen]]
 
-## Trust Is Part of the Job
+## Trust And Decision Confidence
 
-For Barak, trust is an operating responsibility, not a soft afterthought. When a
-job fails or a formula is wrong, the data team should warn users before they act
-on bad numbers. A small alert says whether the data is safe to use. It prevents
-a trust loss that can later create repeated rechecking and backlog pressure
-([[podcast:data-translator-role-and-data-strategy|7:46-10:48]]).
+Trust is part of the data translator's operating work. If a job fails or a
+formula changes, the data team needs to warn decision makers before they act on
+bad information. The same warning matters when a pipeline produces unsafe
+numbers. Visible alerts reduce rechecking and keep reliability from becoming
+hidden engineering work.[[cite:data-translator-role-and-data-strategy=>Trust and alerts]]
 
-Forecasts need the same translation. Barak recommends showing confidence and
-explaining the data available at prediction time. He also recommends exposing QA
-checks when a model changes because marketing traffic, input features, or user
-mix shifted. The deliverable isn't only the model output. It's the context that
-lets non-specialists decide how much to rely on the number
-([[podcast:data-translator-role-and-data-strategy|10:48-13:15]]).
+Forecasts need the same translation. A useful forecast shows confidence and the
+data available at prediction time. QA checks matter when the model changes
+because traffic, features, or user mix changed. The context lets non-specialists
+decide how much to rely on the prediction.[[cite:data-translator-role-and-data-strategy=>Forecast transparency]]
 
-This makes the role close to [[data product adoption]].
-People use a dashboard, metric, or model when they can find it and trust it at
-the decision point. Barak's trust tactics also support
-[[data quality and observability]]
-because alerts and QA dashboards make reliability visible. Clear ownership keeps
-that reliability from becoming hidden engineering work.
+This connects the role to [[data quality and observability]]. Alerts and QA
+dashboards make reliability visible at the decision point. Clear ownership helps
+a business user decide whether to trust a metric or model.
 
-## Discovery Happens Beside the Work
+## Discovery Beside The Work
 
-The data translator doesn't learn the business only through tickets. Barak
-argues that data engineers, analysts, and data scientists should sit with the
-teams that use their work. Marketing and finance users reveal how work actually
-happens. Product, recruiting, and operations users do the same.
+The data translator learns from the work, not only from ticket text. Business
+users reveal friction when data people sit with them. Data people can turn
+repeated clicks, manual report downloads, and workflow gaps into useful product
+ideas.[[cite:data-translator-role-and-data-strategy=>Workflow discovery]]
 
-In his examples,
-the useful idea appears when a technical person notices repeated clicks. Manual
-report downloads or process friction can also turn into an MVP
-([[podcast:data-translator-role-and-data-strategy|14:20-20:25]]).
+This discovery style sits near [[data product management]] because both roles
+start from user problems and business workflows. A [[data product manager]]
+usually owns roadmap tradeoffs, lifecycle, and adoption metrics for a data
+capability. A data translator may discover the mismatch, frame the value, explain
+constraints, and help the right owner move the work forward.[[cite:data-translator-role-and-data-strategy=>Data product handoff]]
 
-That discovery style sits near [[data product management]].
-Both roles start from user problems and business workflows, but their scope
-differs. A [[data product manager]]
-usually owns roadmap tradeoffs, product lifecycle, and adoption metrics for a
-data capability. A data translator may discover the mismatch, frame the value,
-explain constraints, and help the right owner move the work forward
-([[podcast:data-translator-role-and-data-strategy|14:20-17:33 and 29:19-32:42]]).
+## Prototype Then Hand Over
 
-Thom Ives gives a useful boundary in
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Practical Data Science and ML]].
-[[person:thomives=>Thom Ives]] warns data scientists not
-to pretend to be the company's domain expert. Instead, they should ask leaders
-what worries them and map business needs against current data assets. That
-matrix shows where data can help now or where collection needs to improve
-([[podcast:feature-engineering-model-monitoring-and-data-governance|10:51-13:39]]).
+A translator can start with a hackathon or side project before a team asks for
+a larger commitment. A spreadsheet, rough dashboard, or quick script can prove
+that the business has a real use case.[[cite:data-translator-role-and-data-strategy=>Prototype-first delivery]]
 
-The two guests disagree in emphasis rather than contradicting each other. Barak
-pushes data people closer to the workflow, while Ives warns them to serve domain
-experts instead of replacing them.
+Once the use case works, the translator helps create ownership for rewriting,
+automation, or productionization. The person who proved the idea shouldn't hold
+onto rough code when another engineer needs to rebuild it for maintainable
+operation.[[cite:data-translator-role-and-data-strategy=>Handover and ownership]]
 
-## Prototype, Then Hand Over
-
-Barak's translator role is prototype-first. When there's resistance, a
-hackathon, side project, or one-week trial can show value before the team asks
-for a larger commitment. He recommends lean delivery by creating the smallest
-useful version, releasing it, learning whether people use it, and then hardening
-the system
-([[podcast:data-translator-role-and-data-strategy|20:25-26:17]]).
-
-The [[data product management]]
-page uses similar product logic, but Barak is more explicit about "ugly" first
-versions. A spreadsheet, rough dashboard, or quick script can prove that the
-business has a real use case. Once it works, the translator helps create
-ownership for rewriting, automation, or productionization. The original builder
-shouldn't cling to the prototype if another engineer needs to rebuild it
-([[podcast:data-translator-role-and-data-strategy|26:17-32:42]]).
-
-Ives makes the same tradeoff from the data-science side. He recommends fast
-end-to-end "tracer bullet" delivery and frequent customer feedback before
-thickening the solution with every desired feature. He also argues that value
-can appear before a model goes to production. Preparation, visualization, and
-feature analysis can already inform the business
-([[podcast:feature-engineering-model-monitoring-and-data-governance|13:39-19:32]]).
+Fast end-to-end delivery appears in adjacent data science advice as well. A
+"tracer bullet" version and frequent customer feedback can produce business
+value before every desired feature is present. Preparation, visualization, and
+feature analysis can already inform a decision before a model reaches
+production.[[cite:feature-engineering-model-monitoring-and-data-governance=>Tracer bullet delivery]]
 
 ## Boundaries With Adjacent Roles
 
-The data translator isn't the same as a data analyst. Analysts often own
-analysis, reporting, and metric interpretation. They may also own stakeholder
-answers. A translator may do some of that work.
+The data translator isn't the same as a [[data-analyst-role=>data analyst]].
+Analysts often own analysis and reporting. They also interpret metrics and
+answer stakeholders. A translator may do some of that work, but they also align
+definitions and explain uncertainty. They find workflow problems and make sure
+useful prototypes get durable owners.[[cite:data-translator-role-and-data-strategy=>Role boundary]]
 
-The role is still defined by cross-boundary translation. The translator aligns
-definitions and explains model or pipeline uncertainty. The translator also
-finds the workflow problem and makes sure a useful prototype gets a durable owner
-([[podcast:data-translator-role-and-data-strategy|4:08-14:20 and 29:19-32:42]]).
+The translator also isn't the same as a [[data-engineer-role=>data engineer]].
+Engineers design and operate pipelines, infrastructure, APIs, and production
+systems. A rough prototype can prove a point, but the production system still
+needs a clear technical owner once the use case is validated.[[cite:data-translator-role-and-data-strategy=>Engineering handoff]]
 
-The translator also isn't the same as a data engineer. Engineers design and
-operate pipelines, infrastructure, APIs, and production systems. Barak's handover
-examples make the boundary explicit. Rough code can prove a point, but someone
-must take ownership for maintainable implementation and future operation once
-the use case is clear
-([[podcast:data-translator-role-and-data-strategy|26:17-32:42]]).
+Data product managers usually own more formal roadmap decisions than
+translators. Executive data leaders set a broader strategy than translators do.
+The translator makes work intelligible enough for the right product,
+engineering, analytics, or business owner to act.[[cite:chief-data-officer-data-strategy-and-org-design=>Executive data scope]][[cite:data-translator-role-and-data-strategy=>Translator handoff]]
 
-Against [[data product management]],
-the translator is usually less about formal roadmap ownership. The role makes
-work intelligible enough that the right product, engineering, or business owner
-can act. Against [[leadership]], the
-translator doesn't need executive scope. Marco's CDO role decomposes data
-strategy across people, pillars, and long-term goals. Barak's translator role
-works closer to daily friction, trust repair, and handover
-([[podcast:chief-data-officer-data-strategy-and-org-design|11:40-23:13]],
-[[podcast:data-translator-role-and-data-strategy=>14:20-32:42]]).
+## Communication Across Teams
 
-## Communication Without Silos
+The role depends on everyday [[communication]]. A translator speaks in the
+listener's language and explains why data work takes time. They also warn
+stakeholders early when a blocker changes delivery. Non-technical stakeholders
+may not read code, but they can understand dependencies and constraints. They
+can also understand the business consequence of a delay.[[cite:data-translator-role-and-data-strategy=>Stakeholder communication]]
 
-The role depends on everyday [[communication]].
-Barak recommends speaking in the listener's language and showing enough of the
-technical process to explain why work takes time. He also recommends warning
-stakeholders early when a blocker changes delivery. Non-technical stakeholders may not read code,
-but they can understand blockers and dependencies. They can also understand the
-business consequence of a delay
-([[podcast:data-translator-role-and-data-strategy|36:33-40:59]]).
+Remote work changes the tactic, not the principle. Translators can join the
+business team's chat channels and notice relevant triggers. Asking for feedback
+where users already talk can be more useful than joining every recurring
+meeting to observe.[[cite:data-translator-role-and-data-strategy=>Remote collaboration]]
 
-Remote work changes the tactic, not the principle. Barak suggests joining the
-business team's chat channels and noticing relevant triggers. The translator
-shares work where users already talk and asks for feedback before announcing a
-release only inside the BI or data team. He's skeptical of joining every
-recurring meeting just to observe. The translator should use lightweight
-proximity to find moments where a conversation matters
-([[podcast:data-translator-role-and-data-strategy|40:59-45:06]]).
+Senior data leaders need the same translation skill at a broader level. They
+articulate vision, influence across the organization, and empower people who can
+execute better than one executive can personally execute every tactic. A
+translator uses the same approach at a smaller scale through shared language,
+visible tradeoffs, and credible handoffs between teams.[[cite:chief-data-officer-data-strategy-and-org-design=>Leadership communication]]
 
-Marco's executive view reinforces the same communication boundary. Senior data
-leaders need to articulate vision, strategy, and influence across the
-organization. They also need to hire or empower people who execute better than
-they can personally execute every tactic
-([[podcast:chief-data-officer-data-strategy-and-org-design|14:24-20:17 and 52:18-59:40]]).
-A data translator does that work at a smaller scale through shared language,
-visible tradeoffs, and credible handoffs between teams.
+## Examples In The Role
 
-## Examples in the Role
+A translator can turn repeated manual bidding clicks into a small tool. They
+can also turn recruiting pipeline data into a hiring dashboard. Manual report
+downloads can become automation that gives employees time to decide instead of
+copying files. These examples come from observing a user's day rather than
+treating every request as a generic dashboard request.[[cite:data-translator-role-and-data-strategy=>Observed workflow examples]]
 
-In Barak's examples, a translator can turn repeated manual bidding clicks into a
-small tool. Recruiting process data can become a dashboard that helps unblock
-hiring. Manual report downloads can become automation that gives employees time
-to make decisions instead of copying files. These examples matter because the
-discovery came from observing the user's day, not from reading a generic
-dashboard request
-([[podcast:data-translator-role-and-data-strategy|17:33-23:54]]).
+Translators also protect trust with less visible work such as proactive data
+quality alerts and forecast explanations. They expose confidence ranges, show
+QA checks, and warn that a quick prototype is only an early version of a future
+system. These deliverables protect trust while the work moves from experiment to
+durable ownership.[[cite:data-translator-role-and-data-strategy=>Translator deliverables]]
 
-Other examples are less visible but just as important. Translators send
-proactive data quality alerts and explain why a forecast changed. They expose
-confidence and QA checks. They also make sure business users understand when a
-quick prototype is only a taste of the future system. These are deliverables of the translator role
-because they protect trust while the technical work moves from experiment to
-production
-([[podcast:data-translator-role-and-data-strategy|7:46-13:15 and 34:52-40:59]]).
+## Related Pages
 
-Relevant adjacent pages:
+Use these pages and episodes to follow the adjacent roles and practices:
 
 - [[Data Strategy]]
 - [[Data Product Management]]
@@ -219,3 +157,5 @@ Relevant adjacent pages:
 - [[Communication]]
 - [[Leadership]]
 - [[Data Teams]]
+- [[podcast:chief-data-officer-data-strategy-and-org-design=>Chief Data Officer Role]]
+- [[podcast:feature-engineering-model-monitoring-and-data-governance=>Practical Data Science and ML]]

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Notebook to Production AI"
-summary: "How DataTalks.Club guests describe moving from notebooks and experiments to reliable AI systems, with evaluation, monitoring, and ownership."
+summary: "How notebook experiments become reliable AI systems through product framing, evaluation, monitoring, and ownership."
 related:
   - Production
   - Machine Learning System Design
@@ -10,230 +10,208 @@ related:
   - AI Engineering
 ---
 
-Notebook-to-production AI work usually starts in a notebook, model experiment,
-prompt, or research prototype. DataTalks.Club guests describe the transition as
-a change in ownership. Someone has to define the product decision, run the code
-again, evaluate output quality, and monitor behavior after launch. The team
-also has to change the system without breaking users.
+Notebook-to-production AI is the work of turning a notebook, prompt prototype,
+model experiment, or research result into an owned system. The handoff isn't
+just deployment. Teams clarify the product decision, make the code and data path
+repeatable, evaluate behavior, and monitor the system after launch.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
-The topic sits between [[Production]],
-[[Machine Learning System Design]],
-[[MLOps]], and
-[[Data Products]]. It also belongs
-with [[AI Engineering]]. Classic ML
-work adds experiment tracking, feature pipelines, and serving paths. LLM and
-agent work adds prompts, retrieval, guardrails, and
+Notebook-to-production work depends on [[Production]],
+[[Machine Learning System Design]], and [[MLOps]]. It also depends on
+[[Data Products]] and [[AI Engineering]]. Classic ML production work adds
+experiment tracking, feature pipelines, and serving paths. LLM and agent work
+adds prompts, retrieval, guardrails, and tool calls. It also adds
 [[LLM evaluation workflows]].
-Tool calls create another production boundary.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 A notebook is a useful exploration surface, but it isn't the production system.
 
-## From Experiment to Owned System
+## Owning the System
 
-[[person:marianosemelman=>Mariano Semelman]] gives the
-current DataTalks.Club framing in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
-Around 17:27-21:12, he maps modern AI work back to CRISP-DM. Business
-understanding and data understanding still matter. So do preparation, modeling,
-evaluation, and deployment. The AI-specific parts change, but the team still
-has to understand the decision before it models anything.
+Modern AI production still follows the older sequence of business understanding
+and data understanding. Teams then prepare data, model, evaluate, and deploy.
+The AI-specific parts change, but the team still has to understand the decision
+before it models anything.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-[[person:andreaskretz=>Andreas Kretz]] makes the older
-production-ML version concrete in
-[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
-His 9:47-25:36 discussion moves from notebooks into ingestion and buffering.
-He then covers batch or streaming jobs, storage, Docker, and Flask or FastAPI
-services.
-[[person:benwilson=>Ben Wilson]] adds the maintainable
-code boundary in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-Around 6:50-13:19, he ties production readiness to modular components,
-testability, and stakeholder buy-in rather than clever model work alone.
+The production-ML version turns notebook work into ingestion and buffering. It
+also adds jobs, storage, Dockerized services, and API endpoints. Those jobs may
+be batch or streaming. Production readiness also means modular code, testable
+components, and stakeholder buy-in, not just a stronger model.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
+[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 
-These episodes define the transition as end-to-end ownership of the decision a
-model or AI application supports. The team has to know which data and code
-produced an output. It also has to know which assumptions are still valid and
-which signals will show that the system has stopped helping. That's why the topic
-overlaps with [[software engineering]],
-[[testing]],
-[[reproducibility]], and
-[[model monitoring]].
+The shared definition is end-to-end ownership of the decision a model or AI
+application supports. The team needs to know which data and code produced an
+output. It also needs to know which assumptions are still valid and which
+signals will show that the system has stopped helping. That connects
+notebook-to-production work with [[software engineering]], [[testing]],
+[[reproducibility]], and [[model monitoring]].
+
+## Production Boundaries
+
+A product-led boundary asks whether the team needs ML, an LLM, a rule, or a
+workflow at all.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+A pipeline-led boundary starts with moving exploratory code into jobs, storage,
+services, and operational infrastructure.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
+A research-to-production boundary starts with the shift from hypothesis-driven
+experiments to the full ML engineering lifecycle.
+[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
+
+Failure cost changes the validation burden. A generated description or support
+assistant shouldn't share a release path with an autonomous-driving perception
+stack. Fraud models and recommenders sit between those extremes. Safety-critical
+systems need inherited tests, simulation, and staged validation. Lower-risk
+systems can lean more on evaluation sets, live tests, monitoring, and review
+loops.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 
 ## Product Decision Before Modeling
 
 Notebook-to-production work can fail before the notebook if the team translates
-a business need into the wrong ML task. Mariano's mortgage-risk example in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
-shows the difference. A request to predict house price may be a loan
-decision about whether the property value supports the risk. The better framing
-changes the target, labels, and evaluation metric. It also changes the
-interface and fallback behavior.
+a business need into the wrong ML task. In a mortgage-risk example, a request to
+predict house price becomes a loan decision about whether the property value
+supports the risk. That framing changes the target and labels. It also changes
+the evaluation metric, interface, and fallback behavior.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-Around 31:42-37:39 in the same episode, Mariano argues that teams sometimes
-need a decision, rule, or workflow rather than a prediction or LLM call. That
-boundary keeps [[machine learning system design]]
-close to product design. The team asks what outcome matters and what data
-exists. It also asks who uses the result and what happens when the system is
-wrong.
+Teams sometimes need a decision, rule, or workflow rather than a prediction or
+LLM call. That boundary keeps [[machine learning system design]] close to product
+design. The team asks what outcome matters, what data exists, who uses the
+result, and what happens when the system is wrong.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-[[person:linaweichbrodt=>Lina Weichbrodt]] makes that
-intake explicit in
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
-Around 4:50-10:26, she starts with the business case and KPIs, then checks
-alternative solutions and problem specificity before modeling. Her framing
-keeps [[KPIs]] and
-[[data product adoption]]
-inside the production discussion instead of treating deployment as the first
-hard step.
+In human-centered MLOps, teams start with the business case and [[KPIs]]. They
+then check alternative solutions and test whether the problem is specific enough
+before modeling. That keeps [[data product adoption]] inside the production
+discussion instead of treating deployment as the first hard step.
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 
 ## Operable Code and Data Paths
 
 A notebook can explore data, compare ideas, and document a hypothesis. A
 production version needs a repeatable path from input data to output behavior.
-Andreas's pipeline episode links that path to
-[[data pipelines]],
-[[data engineering platforms]],
-[[orchestration]], and
-[[batch-vs-streaming=>batch versus streaming]].
-His examples use queues, cloud jobs, and Dockerized services. He also compares
-streaming and batch architecture
-([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production, 9:47-25:36]]).
+That path links to [[data pipelines]], [[data engineering platforms]],
+[[orchestration]], and [[batch-vs-streaming=>batch versus streaming]]. Queueing,
+cloud jobs, Dockerized services, and batch or streaming architecture all belong
+to the production version of the work.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
-Ben Wilson gives the warning against shipping notebook-shaped code. In
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]],
-his 6:50-13:19 discussion connects maintainability with modular code,
-testable components, and business buy-in. He also emphasizes simpler solutions.
-Another person must be able to rerun, debug, or change the system without
-reconstructing the original experiment from memory.
+Code copied from notebooks is hard to own, so production code needs modular
+components and tests. Another person must be able to rerun, debug, or change the
+system without reconstructing the original experiment from memory.
+[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 
-[[person:lavanyagupta=>Lavanya Gupta]] adds a useful
-middle step for LLM prototypes. In applied research work, Streamlit can turn a
-fresh result into a quick demo. That gives leadership and stakeholders a
-feedback path before a full engineering handoff
-[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research and Career Growth]].
+LLM prototypes can use demos as an intermediate feedback surface. A Streamlit
+demo can turn a fresh applied-research result into something leadership and
+stakeholders can react to before a full engineering handoff. That doesn't make
+the demo production-ready, but it helps the team learn which behavior deserves
+ownership and evaluation.
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
-That doesn't make the demo production-ready. It does help the team learn
-which behavior is valuable enough for ownership and evaluation. The durable
-version can then become an [[AI Engineering]] or [[Data Products]] system.
-
-[[person:mihaileric=>Mihail Eric]] gives the
-research-to-production version in
-[[podcast:research-to-production-ml-systems-roadmap=>From Research to Production]].
-Around 10:52-23:32, he contrasts hypothesis-driven research tooling with the
-ML engineer's full lifecycle. Engineers use PyTorch, Docker, cloud
-infrastructure, and web frameworks. They also need engineering rigor and
-reproducibility.
-
-His discussion fits the
-[[Data Scientist to Machine Learning Engineer]]
-transition. The role shift is partly a shift from isolated experiments to
-systems other people operate.
+Research-to-production work makes the role shift explicit. Research tooling
+supports hypotheses, while production ML engineering adds PyTorch and Docker. It
+also adds cloud infrastructure, web frameworks, engineering rigor, and
+reproducibility. That's why the [[Data Scientist to Machine Learning Engineer]]
+transition is partly a move from isolated experiments to systems other people
+operate.
+[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 
 ## Evaluation as Regression Protection
 
 Once users depend on the output, evaluation is no longer a one-time model
 selection step. It protects the team against regressions whenever someone
-changes a prompt, model, retrieval index, or serving path. In
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
-Mariano links complex AI systems to gold-standard datasets and systematic
-evaluation around 26:32-28:04. In the OLX video-generation example, he also
-describes prompt engineering and LLM-as-judge checks for factuality against the
-input listing around 47:22-49:55 and 57:33-58:45.
+changes a prompt, model, retrieval index, or serving path. Complex AI systems
+need gold-standard datasets and systematic evaluation. Prompt engineering and
+LLM-as-judge checks can test whether generated output matches the input data.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-[[person:pauliusztin=>Paul Iusztin]] puts the same
-discipline inside the AI engineering stack in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
-Around 38:41-41:39, he argues that evaluation matters more as AI generates
-more code and product behavior. Around 42:28-54:05, he pairs AI assistants,
-RAG, and agents with durable workflows. Queues, retries, and traces help teams
-debug what happened.
+AI engineering puts the same discipline inside the product stack. As AI
+generates more code and product behavior, teams need durable workflows around
+AI assistants, RAG, and agents. Queues, retries, and traces make the system
+debuggable when output changes.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] adds the
-data-pipeline and prompt layer in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-His episode treats testing and prompt evaluation as production concerns. Prompt
-compression, caching, and response-time tradeoffs belong there too. For
-[[evaluation]] in AI systems, the team
-has to measure correctness, cost, and latency before the system can be trusted
-at product scale.
+Production AI engineering also treats testing and prompt evaluation as
+production concerns. Prompt compression, caching, and response-time tradeoffs
+belong in the same discussion. [[evaluation]] has to cover correctness, cost,
+and latency before a system can be trusted at product scale.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 ## Feedback, Monitoring, and Incidents
 
 Production AI improves when teams turn real behavior into labels, evaluation
-cases, bug reports, or retraining decisions. Around 39:28-41:28 in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
-Mariano separates explicit feedback from implicit feedback. Users may mark an
-answer wrong directly, or their behavior may reveal whether a recommendation or
-generated output helped.
+cases, bug reports, or retraining decisions. Explicit feedback lets users mark
+an answer wrong directly. Implicit feedback uses behavior to infer whether a
+recommendation or generated output helped.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-MLOps discussions broaden feedback into operations. In
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]],
-Lina covers service levels, incident response, and postmortems around
-24:34-32:11. She also covers live test sets, small A/B tests, and root-cause
-debugging. Those practices connect notebook-to-production work to
-[[a-b-testing=>A/B testing]],
-[[metrics]], and
-[[model monitoring]].
+MLOps broadens feedback into operations. Service levels, incident response, and
+postmortems belong in the same operating loop. So do live test sets, small A/B
+tests, and root-cause debugging. These practices connect notebook-to-production
+work to [[a-b-testing=>A/B testing]], [[metrics]], and [[model monitoring]].
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 
-[[person:dannyleybzon=>Danny Leybzon]] links the same
-production burden to upstream data in
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
-Model monitoring depends on ETL, data pipelines, and observability. Failures
-may start before the model sees the input. That's why
-[[data quality and observability]]
-belongs in the production transition rather than later cleanup.
+The same production burden reaches upstream data. Model monitoring depends on
+ETL, data pipelines, and observability because failures may start before the
+model sees the input. That's why [[data quality and observability]] belongs in
+the production transition rather than later cleanup.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 ## Control Boundaries for LLMs and Agents
 
-Guests don't treat "more agentic" as the default direction for production AI.
-Mariano argues in
-[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
-that teams can take back control when structured code or rules are better than
-an LLM. Around 31:42-37:39 and 1:00:04-1:00:11, he uses AI where uncertainty or
-generation is valuable and keeps deterministic parts outside the model.
+More agentic isn't automatically more production-ready. Teams can take back
+control when structured code or rules are better than an LLM. A production
+system can use AI where uncertainty or generation is valuable and keep
+deterministic parts outside the model.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-Paul reaches the same boundary from infrastructure in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
-His 42:28-54:05 discussion puts AI assistants, RAG, and agents inside durable
-workflows. Queues, retries, and traces make those systems debuggable. Retrieval
-and monitoring add more control. The model
-can generate or reason, but [[agent engineering]],
-[[agent-engineering=>AI agents]], and
-[[LLM production patterns]]
-still need explicit control points.
+Infrastructure creates another control boundary because AI assistants, RAG, and
+agents belong inside durable workflows. Queues, retries, and traces make those
+workflows debuggable. Retrieval and monitoring add more control. The model can
+generate or reason, but [[agent engineering]], [[agent-engineering=>AI agents]],
+and [[LLM production patterns]] still need explicit control points.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 ## Validation Scales With Failure Cost
 
-The release path depends on what happens when the system fails.
-[[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the
-most safety-critical example in
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]].
-Around 29:45-32:43, she describes validation through simulation and closed
-tracks before on-road testing with large-scale sensor data and labeling. Around
-51:28-52:53, sensitive pedestrian and gesture cases become inherited tests that
-new models must pass.
+The release path depends on what happens when the system fails. Autonomous
+driving work validates perception models through simulation and closed tracks
+before on-road testing with large-scale sensor data and labeling. Sensitive
+pedestrian and gesture cases become inherited tests that new models must pass.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 
-A generated ad description or support chatbot shouldn't use the same release
+A generated ad description or support assistant shouldn't use the same release
 path as an autonomous-driving perception stack. Fraud models and recommenders
-sit between those extremes.
+sit between those extremes. Lower-risk systems can use explicit and implicit
+feedback. They can also use live test sets, small A/B tests, review loops, and
+monitoring.
 
-Lower-risk systems may use baselines, shadow mode, manual review, and canaries.
-They may also use A/B tests, rollback plans, and monitoring alerts. Higher-risk systems need
-staged validation and inherited safety tests. The shared rule is still stable:
-the deployment environment exposes failures the notebook can't.
+Higher-risk systems need staged validation and inherited safety tests. The
+shared rule is stable: the deployment environment exposes failures the notebook
+can't.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 
+## Related Pages
 
-## Adjacent Production Topics
+Read this page with [[Production]], [[MLOps]], and
+[[Machine Learning System Design]]. [[Production ML Project Checklist]] covers
+architecture choices, while [[Data Products]] covers the product side. For AI
+application work, start with [[AI Engineering]] and
+[[LLM Evaluation Workflows]]. Then use [[Model Monitoring]] and
+[[LLM Production Patterns]].
 
-Readers usually need this page together with the broader
-[[Production]] and
-[[MLOps]] pages. For architecture choices,
-use [[Machine Learning System Design]]
-and [[Production ML Project Checklist]].
-[[Data Products]] covers the product
-side. For AI application work, use
-[[AI Engineering]],
-[[LLM Evaluation Workflows]],
-and [[Model Monitoring]].
-[[LLM Production Patterns]]
-goes deeper on prompts, caching, retrieval, and serving.
+For episode navigation, start with:
+
+- [[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+- [[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
+- [[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
+- [[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+- [[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
