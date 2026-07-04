@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10931
+    "links": 10917
   },
   "nodes": [
     {
@@ -10222,7 +10222,7 @@
       "title": "Industrial ML Applications",
       "url": "/wiki/industrial-ml-applications/",
       "count": 1,
-      "search": "Industrial ML Applications How podcast guests frame industrial ML: fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
+      "search": "Industrial ML Applications Industrial ML across fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
     },
     {
       "id": "wiki:information-retrieval",
@@ -34590,24 +34590,6 @@
     },
     {
       "source": "wiki:data-engineering",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering",
-      "target": "person:slawomirtulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -51894,36 +51876,6 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
-      "target": "person:abouzarabbaspour",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "person:dashelruizperez",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "person:rosonaeldred",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "person:sofyayulpatova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
       "target": "podcast:building-healthcare-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -59352,42 +59304,6 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:arpitchoudhury",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:juanmanuelperafan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:nikolamaksimovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:tammyliang",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "person:victoriaperezmola",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-chip",
       "weight": 1
@@ -59431,8 +59347,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:a-b-testing",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59443,8 +59359,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59461,8 +59377,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-roadmap",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59473,8 +59389,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:business-intelligence",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59485,8 +59401,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59497,8 +59413,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:dashboard-and-metric-layer-project-checklist",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59509,8 +59425,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:data-analyst-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59539,8 +59455,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:data-warehouse",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59551,8 +59467,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:dbt",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59587,8 +59503,8 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:product-analytics",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
