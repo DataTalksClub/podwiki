@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10736
+    "links": 10709
   },
   "nodes": [
     {
@@ -25219,24 +25219,6 @@
     {
       "source": "wiki:ai-product-feedback-loops",
       "target": "book:20211122-building-machine-learning-powered-applications",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-product-feedback-loops",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-product-feedback-loops",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-product-feedback-loops",
-      "target": "person:sofyayulpatova",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58896,60 +58878,6 @@
     },
     {
       "source": "wiki:metrics",
-      "target": "person:adamsroka",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:aleksandermolak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:arsenykravchenko",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:benwilson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:rishabhbhargava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:metrics",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -66324,48 +66252,6 @@
     },
     {
       "source": "wiki:practices",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -72312,60 +72198,6 @@
     },
     {
       "source": "wiki:software-engineering",
-      "target": "book:20250922-how-software-fails",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:benwilson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -72483,6 +72315,12 @@
       "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:software-engineering",

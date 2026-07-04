@@ -13,22 +13,16 @@ related:
 
 Metrics are numerical decision rules. They name what a team wants to improve
 and what damage it must avoid. They also tell a team when a model, experiment,
-dashboard, or [[data-products|data product]] is
-good enough to ship. Across the DataTalks.Club discussions, a metric needs a
-unit and a grain. It also needs a time window, an owner, and a decision.
+dashboard, or [[data-products=>data product]] is good enough to ship. A metric
+needs a unit and a grain. It also needs a time window, an owner, and a decision.
 
-The topic sits between [[evaluation]]
-and [[product analytics]]. It
-also overlaps with [[a-b-testing|A/B testing]],
-[[causal inference]],
-[[model monitoring]], and
-[[data product management]].
-[[person:adamsroka=>Adam Sroka]] frames KPI design as a
-cost-and-impact comparison [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]].
-[[person:jakobgraff=>Jakob Graff]] shows why an
-experiment metric has to match the rollout decision in [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
-[[person:linaweichbrodt=>Lina Weichbrodt]] ties KPIs,
-service levels, feedback, and feature drift together in [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+The topic sits between [[evaluation]] and [[product analytics]]. It also
+overlaps with [[a-b-testing=>A/B testing]] and [[causal inference]], plus
+[[model monitoring]] and [[data product management]]. KPI design works as a
+cost-and-impact comparison[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
+Experiment metrics have to match the rollout decision[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+Operational metrics connect KPIs, service levels, feedback, and feature
+drift[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
 
 ## Metrics as Decision Rules
 
@@ -37,59 +31,56 @@ can mislead teams when each team measures it differently. One team may use
 account-level monthly revenue. Another may use user-level daily conversion. A
 third may use a delayed label after a support case closes.
 
-[[person:lorismarini=>Loris Marini]] makes that semantic problem explicit in [[cite:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]].
-His SaaS example starts with customer-success and data teams using the same
-words while picturing different product realities. Before analyzing usage, the
-team had to agree what "good usage," "customer," and "churn" meant across
-functions. Teams should treat metric design as part of
+In SaaS, customer-success and data teams can use the same words. They may still
+picture different product realities. Before analyzing usage, the team had to
+agree what "good usage," "customer," and "churn" meant across
+functions[[cite:data-professionals-business-skills-in-saas=>SaaS Business Skills]].
+Teams should treat metric design as part of
 [[business skills for data professionals]], not only SQL or dashboard work.
 
-Sroka makes this practical in [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]].
-He moves from "measurement matters" into merit functions and comparable units.
-He also covers sales pipeline metrics, professional services metrics, vanity
-metrics, and competing KPIs.
+KPI design moves from "measurement matters" into merit functions and comparable
+units. Sales pipeline metrics, professional services metrics, vanity metrics,
+and competing KPIs need comparable units before teams can prioritize
+work[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
 
 A revenue KPI can be valid. So can an operational burn-down, margin-aware
 composite, or safety threshold. They don't answer the same question.
 
-Graff gives the experimentation version of the same rule. In [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]],
-a subscription-versus-points change can look different under revenue per user
-than under conversion. Retention and long-term value can favor a different
-rollout choice. The metric is part of the product choice, not a reporting
-detail after the test. Metric design belongs in
-[[experimentation]] and
-[[power analysis]] because an
+Experiments have the same rule. A subscription-versus-points change can look
+different under revenue per user than under conversion. Retention can favor a
+different rollout choice, and long-term value can change the decision
+again[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+The metric is part of the product choice, not a reporting detail after the
+test. Metric design belongs in [[experimentation]] and [[power analysis]]
+because an
 unstable or underpowered metric can't support the launch decision.
 
 ## Metric Failure Modes
 
-Metrics fail in different ways depending on the system. Sroka's KPI discussion
-warns that teams can optimize easy numbers that don't change ROI. They can also
-design KPIs that people can game [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]].
+Metrics fail differently by system. Teams can optimize easy numbers that don't
+change ROI or design KPIs that people can
+game[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
 That risk belongs with [[data product management]]
 because roadmap and prioritization decisions can drift toward visible activity
 instead of impact.
 
-Graff worries about statistical reliability. He warns against noisy metrics,
-too many primary metrics, seasonality, and underpowered experiments in [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
-For an [[a-b-testing|A/B test]], the metric fails
+Experiment metrics fail when they're noisy or underpowered. They also fail when
+teams use too many primary metrics or ignore
+seasonality[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+For an [[a-b-testing=>A/B test]], the metric fails
 when it can't support a causal rollout decision.
 
-[[person:aleksandermolak=>Aleksander Molak]] adds an
-intervention boundary in [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
 A model can predict an outcome well and still be the wrong tool for deciding who
 receives a treatment, discount, recommendation, or marketing message. Teams
 need policy metrics, refutation tests, and sometimes A/B validation before they
-trust an intervention claim.
+trust an intervention claim[[cite:causal-inference-for-machine-learning=>Causal ML]].
 
-Weichbrodt adds the operational failure mode. A metric is weak when nobody can
-respond to it. Her MLOps discussion ties project intake and KPIs to stakeholder
-fears. It also covers service levels, post-mortems, monitoring signals, and
-recovery work [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
-That places metric ownership next to
-[[MLOps]] and
-[[production]], not only dashboard
-design.
+A metric is weak when nobody can respond to it. Project intake and KPIs have to
+connect to stakeholder fears and service levels. Post-mortems, monitoring
+signals, and recovery work belong in the same operational
+system[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
+That places metric ownership next to [[MLOps]] and [[production]], not only
+dashboard design.
 
 ## Product Metrics and Experiments
 
@@ -100,23 +91,22 @@ depth. They depend on consistent event definitions, so they overlap with
 [[tracking plans]], and
 [[data-led-growth=>data-led growth]].
 
-Marini's SaaS example shows the product version of that dependency. A usage
-metric only became useful after the team discussed what product success meant.
-The team could define product success through feature depth, graph complexity,
-advanced feature use, or integration into customer workflows.
+In SaaS, a usage metric only became useful after the team discussed what product
+success meant. The team could use feature depth or graph complexity. It could
+also use advanced feature use or integration into customer workflows.
+Teams can use embedded integrations as lead indicators for stickiness because
+those integrations can connect to lower churn and higher lifetime
+value[[cite:data-professionals-business-skills-in-saas=>SaaS Business Skills]].
 
-Marini treats embedded integrations as a possible lead indicator for
-stickiness. Those integrations can connect to lower churn and higher lifetime value [[cite:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]].
 A leading indicator is useful only with a causal direction. The team needs to
 explain which action or condition likely moves the customer toward the next
 state.
 
-Graff's monetization example shows why product teams choose the metric before
-interpreting an experiment. One change can support one conclusion under
-short-term revenue and another under conversion, retention, or customer lifetime
-value [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
-He also covers assignment tracking, A/A tests, and traffic splitting before
-statistical tests [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
+Product teams choose the metric before interpreting an experiment. The same
+change can lead to one conclusion under short-term revenue and another under
+conversion, retention, or customer lifetime value[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+Assignment tracking, A/A tests, and traffic splitting come before statistical
+tests[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
 Those checks make product metrics trustworthy enough for experiments rather than
 post-hoc storytelling.
 
@@ -125,15 +115,16 @@ guardrails. The primary metric answers whether the team should ship the change.
 Guardrails catch harm such as churn, latency, reliability problems, or degraded
 user experience. They can also catch revenue cannibalization.
 
-Graff recommends simple first tests and warns against many primary metrics
-because the decision becomes unclear [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
-He then links metric stability and seasonality to sample size. Test duration
-also shapes whether an uplift number is believable [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
+Simple first tests help teams keep the decision clear, while too many primary
+metrics make it unclear[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+Metric stability and seasonality affect sample size. Test duration also shapes
+whether an uplift number is believable[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
 
-Metric distributions also affect the statistical test. Graff discusses
-histograms and tails in [[cite:ab-testing-and-product-experimentation|Product Analytics & A/B Testing]].
-He also covers nonparametric options, p-values, Bayesian intervals, and multiple
-comparisons. That's where experiment metrics meet
+Metric distributions affect the statistical test because histograms and tail
+behavior matter. Nonparametric options, p-values, Bayesian intervals, and
+multiple comparisons influence how teams interpret the experiment
+result[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
+That's where experiment metrics meet
 [[a-a-testing=>A/A testing]],
 [[experimentation and causal inference]],
 and [[evaluation]].
@@ -146,27 +137,24 @@ and ranking quality need that context. So do calibration, uplift, latency, and
 cost. A higher offline score matters only
 when it improves the decision the system supports.
 
-[[person:arsenykravchenko=>Arseny Kravchenko]]
-describes [[machine learning system design]]
-as problem-first work in [[cite:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]].
-He places goals, non-goals, assumptions, and baselines before implementation
-detail. Metrics, data strategy, and pipeline components come next. Teams define
-the product scenario first. They then choose offline and online metrics before
-they design serving and monitoring around those metrics.
+[[Machine learning system design]] starts with problem framing before
+implementation. Teams define goals, non-goals, assumptions, and baselines before
+implementation detail. Metrics, data strategy, and pipeline components come
+next. Teams define the product scenario, then choose offline and online metrics.
+Serving and monitoring follow those
+metrics[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]].
 
-[[person:rishabhbhargava=>Rishabh Bhargava]] connects ML
-metrics to live business analysis in [[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
-He discusses model experiments, A/B testing, and shadow mode. He then connects
-segmentation, uplift, and root-cause analysis to live results. The model metric
-isn't enough. Analysts still need to explain which segments moved and whether
-the model changed the business outcome.
+ML metrics also need live business analysis. Model experiments, A/B testing, and
+shadow mode need segmentation once results arrive. They also need uplift and
+root-cause analysis. The model metric isn't enough. Analysts still need to explain which
+segments moved and whether the model changed the business
+outcome[[cite:production-ml-mlops-and-data-team-building=>Production ML]].
 
-[[person:benwilson=>Ben Wilson]] adds a cost-benefit
-constraint in [[cite:machine-learning-engineering-production-best-practices|Machine Learning Engineering Best Practices]].
-He emphasizes timeboxed bake-offs, simple baselines, feature engineering, and
-testing. ML teams should compare model metrics against maintainability, cloud
-cost, and delivery risk instead of treating a higher offline score as the only
-success criterion.
+ML teams should compare model metrics against maintainability, cloud cost, and
+delivery risk instead of treating a higher offline score as the only success
+criterion. Teams can use timeboxed bake-offs, simple baselines, feature
+engineering, and testing to keep the comparison
+grounded[[cite:machine-learning-engineering-production-best-practices=>ML Engineering Practices]].
 
 ## Monitoring Metrics
 
@@ -176,18 +164,16 @@ watch prediction distributions, latency, errors, and service levels. Teams add
 delayed labels, user feedback, and business proxy outcomes because many model
 failures don't show up as immediate infrastructure errors.
 
-Weichbrodt's episode is the clearest monitoring anchor. She starts project
-intake with business cases and KPIs, then moves to stakeholder fears and service
-levels. She also covers incident response and live test sets. Small A/B tests,
-feature drift, logs, and reproducibility sit in the same discussion [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
-Her framing links [[model monitoring]]
-to both [[MLOps]] and
-[[production]].
+Project intake starts with business cases and KPIs, then moves to stakeholder
+fears and service levels. The same monitoring discussion includes incident
+response, live test sets, and small A/B tests. It also includes feature drift,
+logs, and reproducibility[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
+That links [[model monitoring]] to both [[MLOps]] and [[production]].
 
 Monitoring metrics should also name who acts because a latency alert differs
 from a feature-drift alert. A user complaint also differs from a business KPI
-moving in the wrong direction. Weichbrodt's post-mortem sections tie metric movement
-to facts, investigation steps, action items, and operating changes [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+moving in the wrong direction. Post-mortems tie metric movement to facts,
+investigation steps, action items, and operating changes[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
 
 ## Business Metrics and Data Product Impact
 
@@ -201,33 +187,32 @@ For [[data products]], these metrics
 explain why a technically correct dashboard, model, or pipeline deserves
 continued investment.
 
-[[person:tammyliang=>Tammy Liang]] gives the offline-channel version of this
-problem.
-TV ads and physical banners were hard to attribute directly [[cite:building-and-scaling-data-team|Liang's data-team scaling discussion]].
-Her team watched timely traffic spikes and asked post-purchase survey
-questions. Customer sampling became proxy evidence for campaign measurement.
+TV ads and physical banners can be hard to attribute directly. Timely traffic
+spikes and post-purchase survey questions can become proxy evidence for campaign
+measurement[[cite:building-and-scaling-data-team=>Data Team Scaling]].
 
-Her example connects business metrics to [[product analytics]] and
-[[experimentation]]. It also shows the measurement limit. When the channel
-can't emit clean user-level events, the team still needs a measurement plan
-that states which proxy signals it trusts.
+That connects business metrics to [[product analytics]] and [[experimentation]],
+and it also shows the measurement limit. When the channel can't emit clean
+user-level events, the team still needs a measurement plan that states which
+proxy signals it trusts.
 
-Sroka's KPI episode is the strongest business-metrics discussion. In [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]],
-he covers merit functions, project prioritization, and comparable units. He also
-covers sales pipeline metrics, professional services metrics, and top-down KPI
-alignment. Competing KPIs and composite metrics appear in the same discussion.
+Business-metrics work includes merit functions, project prioritization, and
+comparable units. It also includes sales pipeline metrics, professional services
+metrics, and top-down KPI alignment. Competing KPIs and composite metrics belong
+in the same discussion[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
 
-Workshop design and dashboard visibility also matter in Sroka's framing. So do
-North Star metrics, threshold metrics, health metrics, and data team metrics.
-Later, he links data-team work to pound-value or time-saved estimates [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design & Metrics Strategy]].
+Workshop design and dashboard visibility also matter. North Star metrics,
+threshold metrics, health metrics, and data team metrics matter too. Data-team
+work still has to connect to pound-value or time-saved
+estimates[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
 That matters for [[data product management]]
 because the impact story has to survive prioritization, funding, and adoption
 decisions.
 
-Molak adds that business metrics aren't automatically causal metrics. In [[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]],
-teams compare policies on the same business metric. They still need estimator
-checks and sometimes experimental validation before trusting the intervention
-claim.
+Business metrics aren't automatically causal metrics. Teams can compare
+policies on the same business metric and still need estimator checks. They may
+also need experimental validation before trusting the intervention
+claim[[cite:causal-inference-for-machine-learning=>Causal ML]].
 
 ## Related Pages
 

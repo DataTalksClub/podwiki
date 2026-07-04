@@ -14,270 +14,219 @@ related:
 ---
 
 Software engineering turns code into systems that other people can understand
-and trust. It also makes those systems easier to change and run. In the
-DataTalks.Club podcast discussions, the topic usually appears when data, ML, or
-AI work has to move beyond a notebook or one-person script.
+and trust. Data, ML, and AI work enters this territory when notebooks and
+scripts become shared products. Teams then need to change, release, observe, and
+repair them.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]][[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-Guests treat software engineering as part of data, ML, and AI work rather than
-as a separate craft borrowed at the end. Data pipelines need version control,
-tests, deployment paths, and monitoring. ML systems need interfaces, model
-artifacts, reproducible experiments, and release ownership. AI products need
-prompt evaluation, data quality checks, latency controls, and maintainable
-application code.
+Software engineering isn't a separate cleanup phase after modeling. Data
+pipelines need version control, tests, deployment paths, and monitoring. ML
+systems need interfaces, model artifacts, reproducible experiments, and release
+ownership. AI products add prompt evaluation, data quality checks, latency
+controls, and maintainable application code.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-Use
-[[Machine Learning System Design]]
-for the architecture layer around model behavior, data, serving, and
-reliability.
-For operating practices after release, use
-[[MLOps]],
-[[DataOps]], and
-[[Production]].
+Use [[Machine Learning System Design]] for the architecture layer around model
+behavior, data, serving, and reliability. For operating practices after release,
+use [[MLOps]], [[DataOps]], and [[Production]].
 
-The clearest starting point is
-[[person:nadianahar=>Nadia Nahar]]'s
-[[podcast:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
-episode. ML systems differ from traditional software through uncertainty, data
-workflows, and monitoring needs. The discussion also ties ML systems to hidden
-technical debt.
-Engin Yoyen's
-[[book:20250922-how-software-fails=>How Software Fails]]
-collects the same failure patterns from the software side. These include
-technical debt, communication breakdowns, deadline pressure, and the human and
-organizational factors that undermine even well-architected systems.
+## Engineering Habits
 
-## Engineering Habits for Changing Systems
+Software engineering means repeatable habits around a changing system.
 
-Across these podcast discussions, software engineering means repeatable
-engineering habits around a changing system. Teams define requirements and
-structure code into modules. They use version control, tests, documentation,
-and deployment. They also need observability and clear ownership.
+The recurring habits are:
 
-In data and ML work, code changes alongside data and model behavior. Prompts,
-business metrics, and users also change.
+- defining requirements and modules
+- using version control, tests, and documentation
+- deploying and observing the system
+- assigning ownership
 
-[[person:benwilson=>Ben Wilson]] gives the production ML version of this
-definition. He argues for maintainability over novelty and for refactoring large
-scripts into modular, testable components. He also recommends SQL or statistical
-baselines before deep learning when the simpler system can solve the problem
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+In data and ML work, those habits cover code and data. They also cover model
+behavior, prompts, business metrics, and users.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-[[person:mariavechtomova=>Maria Vechtomova]] gives the MLOps version. She puts
-version control, CI/CD, and registries in the same operating model. She also
-connects documentation, reproducibility, code quality, and testing to the move
-from notebooks into packages and CI/CD
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+Production ML discussions put maintainability ahead of novelty, so large scripts
+need to become modular, testable components. SQL or statistical baselines can be
+better than deep learning when they solve the business problem with less
+operational burden.[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
-For data teams, [[person:christopherbergh|Christopher Bergh]] connects the same
-discipline to pipeline work. He covers CI/CD pipelines, regression tests, and
-test data, then links version control to end-to-end deployment automation
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]). Those
-are software engineering practices applied to data products and analytics
-systems.
+MLOps discussions put version control, CI/CD, and registries in one operating
+model. Documentation, reproducibility, code quality, and testing belong in that
+model too. The shift from notebooks into packages and CI/CD is a software
+engineering change as much as an ML tooling change.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+
+DataOps discussions apply the same discipline to pipelines and analytics
+products. Data teams use CI/CD pipelines and regression tests, add test data,
+and connect version control to deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 ## Engineering Entry Points
 
-Guests agree that software engineering lowers operational risk, but they differ
-on where teams should apply it first.
+The episodes converge on software engineering as risk reduction, but they put
+the first intervention in different places.
 
-[[person:nadianahar=>Nadia Nahar]] starts with the requirements and team boundary.
-Failure connects to weak requirements, unrealistic expectations, and data access,
-while vocabulary gaps and missing documentation also show up as failure causes.
-ML practitioners belong in the full delivery path, from requirements through testing
-([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
+The ML-software boundary starts with requirements and team participation. Weak
+requirements and unrealistic expectations can undermine ML systems before
+implementation starts. Data-access problems, vocabulary gaps, and missing
+documentation create the same risk.
+ML practitioners need to stay involved from requirements through testing.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
-[[person:benwilson=>Ben Wilson]] starts with code and model complexity, framing
-maintainability as a first-order engineering constraint. He also uses timeboxed
-experiments to prevent teams from turning research curiosity into an unbounded
-production commitment
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+The production-ML boundary starts with code and model complexity. Teams use
+timeboxed experiments to keep research curiosity from becoming an unbounded
+production commitment. Maintainability becomes a first-order constraint once a
+team has to operate the result.[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
-[[person:simonstiebellehner=>Simon Stiebellehner]] starts from the platform
-boundary. He names software engineering fundamentals as part of ML platform work.
-He also connects developer experience and thin abstractions to platform design,
-then adds API schemas and prediction logging
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-This platform view overlaps with
-[[Platform Engineering]]
-because shared infrastructure has to preserve developer autonomy and reliable
-interfaces.
+The platform boundary starts with developer experience and shared interfaces.
+ML platform work includes software engineering fundamentals and thin
+abstractions. API schemas, prediction logging, and shared infrastructure preserve
+developer autonomy.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+That view overlaps with [[Platform Engineering]].
 
-[[person:marianosemelman=>Mariano Semelman]] brings the same question to
-end-to-end AI systems. He focuses on ownership, translating business needs into
-ML requirements, and the declining role of notebooks in production AI systems
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
-That makes [[Notebook to Production AI Systems]]
-a close companion topic.
+End-to-end AI systems start with ownership and business translation. Teams turn
+business needs into ML requirements, and notebooks become less central as systems
+need concrete serving paths and observability. Product engineering around model
+behavior becomes part of the work.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+That makes [[Notebook to Production AI Systems]] a close companion topic.
 
-## Practices for Data Systems
+## Data Systems
 
 Data systems turn software engineering into repeatable change management. A
-pipeline may run as scheduled and still produce data that's late, incomplete, or
-wrong. That's why guests connect data engineering to tests, observability,
-deployment automation, and recovery.
+pipeline may run on schedule and still produce late, incomplete, or wrong data.
+That risk is why data teams use tests, observability, deployment automation, and
+recovery practices.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-[[person:christopherbergh=>Christopher Bergh]] frames
-[[DataOps]] as a way to reduce fear-driven
-deployment culture. The discussion covers deployment fear and automation. It also
-covers observability, productivity, data versioning, and immutability
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+[[DataOps]] reduces fear-driven deployment culture by combining automation,
+observability, and data versioning. Productivity and immutability matter too.
+Those practices make analytics and data products behave more like maintained
+software systems than one-off scripts.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] connects data engineering to AI
-reliability, where data trust matters. Snapshot tests and integration tests
-support that trust. The discussion also compares Great Expectations and Soda with
-SQL tests and Spark tests
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]). These
-practices belong on
-[[Testing]] and
-[[Production]] pages too, but they're
-software engineering concerns because engineers use them to make changes safer.
+Production AI engineering handles data trust with snapshot and integration tests
+that catch changes in data behavior. Great Expectations and Soda sit alongside
+SQL tests and Spark tests.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+These practices also belong on [[Testing]] and [[Production]]. Engineers use
+them to make changes safer, so they're software engineering concerns too.
 
-## Practices for ML Systems
+## ML Systems
 
-ML systems need normal software engineering and additional lifecycle controls.
-Teams still need readable code, dependency management, tests, and releases. They
-also need to track data, features, experiments, and metrics. Model artifacts and
-serving behavior need tracking too.
+ML systems need normal software engineering plus lifecycle controls for data and
+features. Experiments, metrics, model artifacts, and serving behavior need
+tracking too. Readable code, dependency management, tests, and releases still
+matter. The system also needs traceability across the model lifecycle.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-[[person:mariavechtomova=>Maria Vechtomova]] connects those controls to
-standardized MLOps. Teams should use existing infrastructure such as Kubernetes,
-Git, and CI/CD instead of adding tools for their own sake. She also adds
-cookie-cutter repositories and standard service accounts, then places software
-engineering and system design next to ML fundamentals
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+MLOps standardization favors existing infrastructure such as Kubernetes, Git, and
+CI/CD over adding tools for their own sake. Cookie-cutter repositories and
+standard service accounts sit next to software engineering, system design, and
+ML fundamentals.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-[[person:simonstiebellehner=>Simon Stiebellehner]] adds the platform view.
-Experiment tracking and model registries persist work for downstream use.
-Metadata and lineage support reproducibility, and artifact logging and tracking
-matter too
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+ML platforms add experiment tracking and model registries so downstream teams
+can reproduce and use model work. Metadata, lineage, artifact logging, and
+prediction tracking support that handoff.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-This is where the
-[[MLOps vs DataOps]]
-boundary matters. DataOps keeps inputs reliable, while MLOps keeps experiments
-and artifacts traceable. It also tracks deployment and monitoring. Software
-engineering ties both sides together through code structure, tests, interfaces,
-and release discipline.
+The [[MLOps vs DataOps]] boundary matters here because DataOps keeps inputs
+reliable. MLOps keeps experiments and artifacts traceable, along with deployment
+and monitoring. Software engineering ties both sides together through code
+structure, tests, interfaces, and release discipline.
 
-## Practices for AI Systems
+## AI Systems
 
 AI systems add an application layer around models and prompts. Teams still need
 software engineering fundamentals. They also need to evaluate outputs, control
-latency and cost, and choose when an LLM is the wrong tool.
+latency and cost, and choose when an LLM is the wrong tool.[[cite:production-ready-ai-engineering=>Production AI Engineering]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] discusses that practical layer.
-The episode covers in-context learning, examples, prompt formatting, and prompt
-evaluation. It also covers cost tradeoffs, prompt compression, and caching for
-model efficiency
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]). Those
-concerns also belong on
-[[LLM Production Patterns]].
+Production AI work includes in-context learning, examples, prompt formatting,
+and prompt evaluation. Cost tradeoffs, prompt compression, and caching also
+matter. These concerns also belong on [[LLM Production Patterns]].[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-[[person:marianosemelman=>Mariano Semelman]] adds the product engineering side,
-where LLMs aren't always the best solution. Application architecture matters for logic
-such as image description, and a modern stack can use FastAPI, `uv`, and Arize
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
-[[AI Engineering]] includes ordinary
-application engineering rather than only model selection. AI engineers also
-build with [[AI Coding Tools]]
-that integrate LLMs into the development workflow.
+Product engineering still matters when an AI system uses LLMs. Application
+logic such as image description may be separate from model choice. The serving
+and observability stack can include FastAPI, `uv`, and Arize.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+[[AI Engineering]] includes ordinary application engineering rather than only
+model selection. [[AI Coding Tools]] bring LLMs into the development workflow.
 
 ## Production Readiness
 
-A system is production-ready when a team can release it, observe it, explain
-it, and recover from failure. Guests repeatedly push against the idea that
-production means only "deployed somewhere."
+A system is production-ready when a team can release it, observe it, explain it,
+and recover from failure. Production means more than deploying something once.
+It also includes business buy-in and reproducibility. Environment assumptions,
+cost control, and enough engineering work keep research code maintainable.[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
-[[person:benwilson=>Ben Wilson]] warns against building systems that nobody can
-maintain. Failure ties to missing business buy-in and overcomplicated solutions.
-Reproducibility, environment assumptions, and cloud cost become problems when
-teams borrow research code without enough engineering work
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
-
-[[person:simonstiebellehner=>Simon Stiebellehner]] connects production readiness
-to platform design, distinguishing batch inference, online serving, and
-orchestration. He also adds security, compliance, and GDPR constraints
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-For the broader operating model, see
-[[Production]] and
-[[Platform Engineering]].
+Platform design adds runtime choices to that readiness work. Batch inference,
+online serving, and orchestration all affect production design. Security,
+compliance, and GDPR constraints affect it too.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+For the broader operating model, see [[Production]] and [[Platform Engineering]].
 
 ## Testing
 
-Guests cover more than unit tests in these episodes. Teams test code paths and
-pipeline outputs, plus data assumptions and model behavior. They also test
-prompt outputs and release configuration. Test data has to reflect production
-risks.
+Software engineering for data, ML, and AI systems includes more than unit tests.
+Teams test code paths and pipeline outputs. They also test data assumptions,
+model behavior, prompt outputs, and release configuration. Test data has to
+reflect production risks.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-[[person:christopherbergh=>Christopher Bergh]] makes the data-team case. He
-describes CI/CD pipelines, regression tests, and test data for analytics. He
-also links version control and tests to end-to-end deployment automation
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+Data teams use CI/CD pipelines, regression tests, and test data for analytics.
+They connect version control and tests to end-to-end deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-[[person:nadianahar=>Nadia Nahar]] makes the ML-system case. Testing and
-operations are among the questions used to analyze open-source ML products. ML
-practitioners should be involved from requirements through testing
-([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
+ML-system testing starts before release. Requirements, operations, open-source
+ML product analysis, and practitioner involvement through testing all affect
+whether the system can be trusted after handoff.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
-[[person:vincentwarmerdam=>Vincent Warmerdam]] gives a software-maintenance
-example. He describes testing and CI for pull requests, packaging, and
-pre-commit hooks
-([[podcast:open-source-ml-contributions|Open Source ML Contributions]]). That
-advice comes from open source, but it maps directly to internal data and ML
-projects: tests and packaging make code review possible.
+Open-source ML maintenance uses the same practices in public projects. Testing
+and CI support pull requests. Packaging and pre-commit hooks make code review
+possible for internal data and ML projects too.[[cite:open-source-ml-contributions=>Open Source ML Contributions]]
 
 ## Deployment
 
-Deployment turns engineering work into an owned running system. For data teams,
-deployment includes pipeline promotion, job scheduling, and rollback. For ML
-teams, it includes artifact registration and batch or online serving. It also
-includes prediction schemas and monitoring. For AI systems, deployment includes
-prompt and model changes.
+Deployment turns engineering work into an owned running system.
 
-[[person:mariavechtomova=>Maria Vechtomova]] describes standardized deployment
-paths built on reusable CI/CD and central infrastructure, with registries and
-CI/CD in the essential MLOps stack
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+The deployment surface differs by system type:
 
-[[person:simonstiebellehner=>Simon Stiebellehner]] connects deployment to
-platform choices. He separates batch inference from online serving and uses
-unified prediction schemas for monitoring and analytics
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+- Data teams promote pipelines, schedule jobs, and plan rollback.
+- ML teams register artifacts, serve models, define schemas, and monitor predictions.
+- AI teams also manage prompt and model changes.
 
-[[person:marianosemelman=>Mariano Semelman]] shows why deployment is also a
-product engineering question. The work moves away from notebooks as the
-production interface toward concrete serving and observability tools
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]]).
-For more on this handoff, see
-[[Notebook to Production AI Systems]].
+These deployment concerns recur across data, ML, and AI discussions.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+
+Standard deployment paths reuse CI/CD and central infrastructure. Registries and
+CI/CD sit in the essential MLOps stack because teams need a repeatable way to
+move models from development into operation.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+
+Platform choices define deployment boundaries. Batch inference, online serving,
+and unified prediction schemas support monitoring and analytics once the model is
+running.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+
+The notebook-to-production handoff is also a product engineering problem.
+Production AI work moves away from notebooks as the delivery interface. Serving
+and observability tools become part of the handoff.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+For more on this handoff, see [[Notebook to Production AI Systems]].
 
 ## Maintainability
 
 Maintainability means a team can change the system without relearning the whole
-project from scratch. Guests connect that to simple designs, modular code, and
-documentation. Teams also need shared vocabulary and explicit
-ownership.
+project from scratch. Simple designs and modular code reduce the cost of future
+changes. Documentation, shared vocabulary, and explicit ownership reduce it too.[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
-[[book:20210906-software-mistakes-and-tradeoffs=>Software Mistakes and Tradeoffs]] by Tomasz Lelek and Jon Skeet covers the common pitfalls and architectural tradeoffs that underpin these maintainability decisions. For pragmatic coding habits, [[book:20210322-street-coder=>Street Coder]] by Sedat Kapanoglu distills real-world engineering judgment that goes beyond textbook rules.
+[[book:20210906-software-mistakes-and-tradeoffs=>Software Mistakes and Tradeoffs]]
+by Tomasz Lelek and Jon Skeet covers common pitfalls and architectural
+tradeoffs behind maintainability decisions. [[book:20210322-street-coder=>Street Coder]]
+by Sedat Kapanoglu focuses on pragmatic engineering judgment beyond textbook
+rules.
 
-[[person:benwilson=>Ben Wilson]] is the strongest maintainability reference. He
-recommends refactoring large code blocks into modular, testable code. Teams can
-become attached to complex systems because they invested so much work in them.
-Maintainability also ties to team composition, needing statistics expertise,
-coding skill, and ML engineering
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+Production ML maintainability includes refactoring large code blocks into
+modular, testable code. Team composition also matters after release. A team needs
+statistics expertise, coding skill, and ML engineering.[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
-[[person:nadianahar=>Nadia Nahar]] adds documentation and accountability through
-workshops, shared vocabularies, documentation, and engineering remedies. She also
-connects model cards, datasheets, factsheets, and checklists
-to responsible AI and team accountability
-([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
-That makes maintainability include more than code cleanup.
+ML system accountability depends on documentation as well as code. Workshops and
+shared vocabularies help teams expose assumptions. Model cards, datasheets,
+factsheets, and checklists make responsibilities visible.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
-[[person:vincentwarmerdam=>Vincent Warmerdam]] gives the open-source version by
-emphasizing low-maintenance APIs and ecosystem compatibility. The discussion
-covers README files and guides, plus API references, examples, and contribution
-guides
-([[podcast:open-source-ml-contributions|Open Source ML Contributions]]). Those
-practices make a project easier to extend, whether the project is public open
-source or an internal ML library.
+Open-source ML maintenance adds low-maintenance APIs and ecosystem compatibility.
+README files and guides make a project easier to extend. API references,
+examples, and contribution guides help internal ML libraries too.[[cite:open-source-ml-contributions=>Open Source ML Contributions]]
+
+## Related Pages
+
+These pages cover the adjacent operating, testing, and platform topics.
+
+- [[Machine Learning System Design]]
+- [[MLOps]]
+- [[DataOps]]
+- [[Production]]
+- [[Testing]]
+- [[Platform Engineering]]
+- [[Notebook to Production AI Systems]]
+- [[Open Source and Developer Relations]]

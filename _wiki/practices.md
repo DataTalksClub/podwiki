@@ -9,27 +9,22 @@ related:
   - Production
 ---
 
-Practices are the repeatable engineering habits that keep technical work usable
-after the first demo. DataTalks.Club guests use the term most often in
-[[DataOps]] and
-[[MLOps]]. They also use it around
+Practices are repeatable engineering habits that keep technical work usable
+after the first demo. They appear most often in
+[[DataOps]] and [[MLOps]], then extend the same idea into
 [[software engineering]],
 [[experimentation]], and
 [[open source]]. A practice must make
 work repeatable and visible to others. It must change how a team ships,
 reviews, or recovers.
 
-[[person:christopherbergh=>Christopher Bergh]] gives
-the DataOps version in
-[[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
-Teams reduce errors, shorten deployment cycle time, and improve productivity.
+## Delivery Habits Across Domains
 
-[[person:mariavechtomova=>Maria Vechtomova]] gives the
-MLOps version in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic MLOps]].
-Teams enable reproducible model delivery with shared infrastructure and
-reusable CI/CD. Standard repositories, registries, and monitoring complete that
-baseline.
+In DataOps, practices reduce errors and shorten deployment cycle time. They make
+pipeline work visible enough to improve productivity.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+In MLOps, practices make model delivery reproducible. The baseline combines
+shared infrastructure and reusable CI/CD with standard repositories,
+registries, and monitoring.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 Nikolay Smorchkov's
 [[book:20251006-software-development-at-rocket-speed=>Software Development at Rocket Speed]]
@@ -37,106 +32,92 @@ addresses the same delivery-speed question from the software side. It covers
 how requirements decomposition, estimation, and incremental delivery keep teams
 shipping rather than stuck in analysis.
 
-## Adoption and Scope
+## Starting Points
 
-Guests disagree less about the value of practices than about where to start.
-Bergh argues from an automation-first DataOps view. Version control, tests, and
-CI/CD cover the path from data to model to visualization. Runbooks,
-observability, and environment management support the same path
-([[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+The main disagreement is where teams should start, not whether repeatable
+practices matter. The DataOps path starts with automation. Version control,
+tests, and CI/CD cover the path from data to model to visualization. Runbooks,
+observability, and environment management support that path.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Vechtomova starts with the infrastructure a company already has. In
-[[cite:pragmatic-and-standardized-mlops|Pragmatic MLOps]],
-she names Git, Kubernetes, and CI/CD before more specialized platform work. She
-also includes registries, object storage, and model registry options.
+The MLOps infrastructure path starts with what a company already has. Git,
+Kubernetes, and CI/CD come before more specialized platform work. Registries,
+object storage, and model registry options come next.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-[[person:raphaelhoogvliets=>Raphaël Hoogvliets]] puts
-developer experience and trust first. His MLOps team collects pain points and
-delivers quick wins. It watches deployment frequency and standardizes only
-after teams see value
-([[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
-[[person:nadianahar=>Nadia Nahar]] puts shared
-vocabulary and requirements alignment near the center. Documentation matters
-for her because ML systems fail through organizational ambiguity as well as code
-defects
-([[cite:software-engineering-for-machine-learning|Software Engineering for ML]]).
+The adoption path starts with developer experience and trust. An MLOps team can
+collect pain points and deliver quick wins.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+
+Deployment frequency shows when product teams see enough value to
+standardize.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+
+The software-engineering path starts with shared vocabulary and requirements
+alignment because ML systems fail through organizational ambiguity as well as
+code defects.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 ## Versioning and Reproducibility
 
 Version control is the baseline practice for [[DataOps]]
-and [[MLOps]]. Bergh includes version
-control, tests, and CI/CD in his seven practical steps for healthier pipelines.
-He then widens versioning beyond code to models, visualizations, and governance
-([[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
-That wider scope matters for [[production]]
-because a team can't recover or audit a data product if only the application
+and [[MLOps]]. Healthier pipelines combine version control, tests, and CI/CD.
+Teams then widen versioning beyond code to models, visualizations, and
+governance.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+
+This wider scope matters for [[production]]
+because a team can't recover or audit a data product when only the application
 repository has history.
 
-In the MLOps episodes, Vechtomova discusses model registries, artifact storage,
-and service principals. She also covers standard repositories and moving
-notebook logic into packages
-([[cite:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+MLOps reproducibility also depends on model registries and artifact storage.
+Service principals, standard repositories, and packaged notebook logic support
+the same goal.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-Hoogvliets ties reproducibility to data versioning, traceability, and
-experiment capture. Dependency management, package registries, containers, and
-deployment records belong in the same operating model
-([[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
-Those concerns overlap with [[ci-cd|CI/CD]],
+Reproducibility ties together data versioning, traceability, and experiment
+capture. Dependency management and package registries belong with containers
+and deployment records.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+Those concerns overlap with [[ci-cd=>CI/CD]],
 [[MLOps tools]], and
 [[data governance]].
 
 ## Testing and Quality Gates
 
-Testing changes by domain because data pipelines need data quality checks plus
-snapshot, SQL, Spark, and integration coverage. In
-[[cite:production-ready-ai-engineering|Production AI Engineering]],
-[[person:bartoszmikulski=>Bartosz Mikulski]] compares
-tools such as Great Expectations and Soda with SQL-based and Spark-based tests.
-He treats testing as a way to stop the familiar "this number doesn't look
-correct" failure before it reaches users.
+Testing changes by domain because data pipelines need data quality checks,
+snapshot tests, SQL tests, and Spark tests. Integration coverage belongs beside
+those checks.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-The same episode extends quality gates into AI applications through prompt
-evaluation. Prompt compression tradeoffs and caching decisions also sit in that
-quality discussion
-([[cite:production-ready-ai-engineering|Production AI Engineering]]).
+Tools such as Great Expectations and Soda sit next to SQL-based and Spark-based
+tests.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-Product experiments need different gates. In
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]],
-[[person:jakobgraff=>Jakob Graff]] focuses on
-randomization, traffic assignment, and assignment tracking. Monitoring belongs
-with the same experimental gate. He also links reliable experiments to A/A
-tests and metric stability. Power analysis, statistical tests, and distribution
-checks round out the practice
-([[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+Testing catches the familiar "this number doesn't look correct" failure before
+it reaches users.
 
-Those practices belong with [[a-b-testing|A/B Testing]],
+AI application quality gates extend into prompt evaluation, prompt compression
+tradeoffs, and caching decisions.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+
+Product experiments need gates for randomization, traffic assignment, and
+assignment tracking. Monitoring, A/A tests, and metric stability belong with
+those gates. Power analysis, statistical tests, and distribution checks round
+out the practice.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+
+Those practices belong with [[a-b-testing=>A/B Testing]],
 [[a-a-testing=>A/A Testing]], and
 [[Causal Inference]] rather than
 generic software unit testing.
 
-Open source projects expose the social side of testing. In
-[[cite:open-source-ml-contributions|Contribute to Open Source ML]],
-[[person:vincentwarmerdam=>Vincent Warmerdam]] connects
-good issues and pull requests to reproducible examples, tests, and CI.
-Packaging and pre-commit hooks help maintainers review faster because the
-failure is easy to reproduce. That makes testing part of
+In open source projects, good issues and pull requests rely on reproducible
+examples and tests. CI keeps failures visible in review.[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
+Packaging and pre-commit hooks help maintainers review faster. That makes
+testing part of
 [[open source portfolio evidence]]
 as well as part of [[software engineering]].
 
 ## CI/CD and Release Paths
 
-CI/CD reduces release risk across DataOps, MLOps, and open source. Bergh links
-CI/CD to deployment cycle time and production reliability in the DataOps
-episode. He also covers end-to-end testing and test data
-([[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+CI/CD reduces release risk across DataOps, MLOps, and open source. In DataOps,
+CI/CD connects deployment cycle time and production reliability. It also
+connects end-to-end testing and test data.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Vechtomova describes reusable CI/CD templates and standardized repositories as
-central MLOps team responsibilities
-([[cite:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
-Hoogvliets lists CI, repository structure, parameterization, and testing as
-core MLOps habits. Package registries and deployment frequency show whether the
-release path works
-([[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+Reusable CI/CD templates and standardized repositories are central MLOps team
+responsibilities.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+CI, repository structure, parameterization, and testing are core MLOps habits.
+Package registries and deployment frequency show whether the release path
+works.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 CI/CD is more than a pipeline runner in these discussions. Teams use it to
 encode quality gates and packaging rules. They also encode environment
@@ -149,30 +130,28 @@ For data pipelines, it sits next to
 [[Data Quality and Observability]]
 and [[DataOps tools]].
 
-For open source, Warmerdam shows the same habit through contribution guides and
-tests. Packaging checks and pre-commit hooks help too
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+For open source, the same habit appears in contribution guides and tests.
+Packaging checks and pre-commit hooks support it too.[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 ## Documentation and Handoffs
 
-Documentation counts as a practice when it changes how people hand off work.
-Nahar connects documentation to shared vocabulary, expectation setting,
-requirements, and data assumptions. Model Cards, Datasheets, factsheets, and
-checklists belong in the same documentation family. Responsible AI
-accountability does too
-([[cite:software-engineering-for-machine-learning|Software Engineering for ML]]).
+Documentation counts as a practice when it changes handoffs. It connects shared
+vocabulary with expectation setting.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+
+Requirements and data assumptions belong in the same work.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+
+Model Cards and Datasheets belong in this family. Factsheets, checklists, and
+responsible AI accountability belong there too.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+
 Useful documentation keeps model behavior, stakeholder expectations, and team
 responsibilities visible while the system changes.
 
-Bergh makes the operational version of the same argument. Runbooks become a
-bridge from manual checklists to automated playbooks. Documentation reduces
-fragile handoffs and on-call load
-([[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+Runbooks are the operational version: they bridge manual checklists and
+automated playbooks, reducing fragile handoffs and on-call load.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Warmerdam gives the open source version. README files, guides, API references,
-and examples help people use a project. Contribution guides and polite
-interaction help people maintain it
-([[cite:open-source-ml-contributions|Contribute to Open Source ML]]).
+README files, guides, API references, and examples help people use an open
+source project. Contribution guides and polite interaction help people maintain
+it.[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 Those patterns belong with [[Documentation]],
 [[Developer Experience]],
@@ -180,27 +159,33 @@ and [[Open Source and Developer Relations]].
 
 ## Monitoring, Feedback, and Ownership
 
-Practices need feedback loops or they turn into ceremony. Bergh separates
-customer validation from data and model validity, then links observability to
-data quality and production errors
-([[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
-Hoogvliets uses feedback loops inside MLOps adoption. His team collects pain
-points, delivers quick wins, and measures deployment frequency. Platform work
-stays tied to product-team needs
-([[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+Without feedback loops, practices turn into ceremony, so DataOps separates
+customer validation from data and model validity. It connects observability to
+data quality and production errors.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+MLOps adoption uses feedback loops through pain-point collection, quick wins,
+and deployment-frequency measurement. Platform work stays tied to product-team
+needs.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-Vechtomova makes the organizational version when she discusses buy-in and DevOps
-cooperation. Monitoring standardization and centralized support for smaller
-brands sit in the same adoption work
-([[cite:pragmatic-and-standardized-mlops|Pragmatic MLOps]]).
+The organizational side includes buy-in, DevOps cooperation, monitoring
+standardization, and centralized support for smaller brands.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 Ownership changes with the domain because DataOps spans pipelines,
 environments, quality, and recovery. MLOps covers model release, monitoring,
 reproducibility, and support for product teams. Experimentation ownership stays
 close to metric design and assignment tracking. Power analysis and
-interpretation stay with the same owner, as Graff explains in
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+interpretation stay with the same owner.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Those differences matter for role pages such as
 [[MLOps Engineer]] and for
 [[MLOps vs DataOps]].
+
+## Related Pages
+
+These pages cover the neighboring roles, systems, and engineering habits:
+
+- [[DataOps]]
+- [[MLOps]]
+- [[Software Engineering]]
+- [[production]]
+- [[Developer Experience]]
+- [[Documentation]]
