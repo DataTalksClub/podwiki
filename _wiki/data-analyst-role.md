@@ -90,6 +90,12 @@ That makes the analyst path a legitimate target, not only a stepping stone to
 modeling. Exploration, visualization, and storytelling can be the main evidence
 when the job is decision support.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+The Type A path can also grow from analyst work toward data science without
+discarding the analyst base. SQL, Excel, Tableau, and visualization remain
+useful. Python or R, statistics, experiment design, and basic ML add range.
+Communication stays central because analyst-style data science still has to
+move a business or product decision.[[cite:data-science-career-abc-framework@18:20=>Data Science Career ABC Framework]]
+
 ## Skill Stack
 
 The skill stack is practical and communication-heavy.

@@ -158,7 +158,8 @@ start from a shiny technology and search for somewhere to plug it in
 Lior Barak gives the lean-delivery version of the same strategy. Build the
 smallest prototype that can test value. Accept imperfect early code. Use OKRs
 and iteration to decide what deserves production ownership
-[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+[[cite:data-translator-role-and-data-strategy@23:54=>Data Translator Role and Data Strategy]]
+[[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role and Data Strategy]].
 
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
@@ -262,6 +263,11 @@ to lock-in, cost, maturity, and team capability.
 
 Data strategy succeeds when people use the data to make better decisions or run
 better workflows. Tables, dashboards, models, and catalogs aren't enough.
+Last-mile strategy starts from the decision and works backward through
+stakeholders, meeting rituals, and the data product interface. The modern stack
+is only valuable when that last step changes behavior.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@08:48=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]]
 
 Data democratization connects to literacy, documentation, and self-service
 analytics

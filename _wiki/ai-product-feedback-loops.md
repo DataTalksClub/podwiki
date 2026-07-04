@@ -111,6 +111,12 @@ Implicit signals are necessary when users don't give ratings or ratings are
 too sparse. Behavior can reveal whether the AI output helped even when the user
 never submits a thumbs-up or thumbs-down.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
+Hugo Bowne-Anderson also treats AI adoption as organizational learning. He
+uses loss aversion and protected experimentation time as adoption levers.
+Teams learn more when they share useful prompts, tools, and workflow examples
+instead of leaving each person to experiment alone
+[[cite:practical-llm-engineering-and-rag@8:24=>AI Adoption and Experimentation Time]].
+
 For an e-commerce AI feature, useful implicit signals might include whether the
 seller publishes faster or keeps the generated asset. Title changes and better
 marketplace engagement can also matter. Those signals need the same care as

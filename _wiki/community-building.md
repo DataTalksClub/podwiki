@@ -202,6 +202,19 @@ In this path, members connect [[community]] to [[career-growth]],
 [[job-search]], and [[contributing]] by moving from public participation to a
 focused mentoring conversation.
 
+Open mentoring can also become a two-way community contribution. Women in Data
+Science and local chapters use open sessions for interview preparation, resume
+review, LinkedIn review, and stage-specific career questions. Mentors can learn
+from those conversations too. Community sessions expose different interview
+processes, backgrounds, and constraints.[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
+[[cite:applied-llm-research-and-career-growth-in-practice@48:28=>Applied LLM Research and Career Growth]]
+
+In-person communities add a different operating structure. Data Lead Club uses
+a small retreat format for data leaders. They need trusted peers and enough
+safety to discuss management problems they can't easily raise with their own
+teams. The retreat turns community building into peer support for senior roles,
+not only event attendance.[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]]
+
 ## Related Pages
 
 For the broader concept, see

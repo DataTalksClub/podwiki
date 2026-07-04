@@ -46,7 +46,8 @@ It also includes operational automation and AI-facing data work
 dlt fits this trend as a Python-based ingestion standard rather than only a
 connector tool. The same discussion extends it toward DLT Plus and reusable
 data-product packaging
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering Trends]].
 
 The role is less generic than the old "pipeline builder" label suggests.
 Governance work handles sensitive data policy, metadata, access, and platform
@@ -96,29 +97,40 @@ Open-source "postmodern" alternatives aim for similar capability to managed
 stack components with better efficiency and lower cost. That critique doesn't
 reject architecture. It changes the evaluation unit. Storage, compute, and
 transformation choices should match the use case. Orchestration, metadata, and
-cost choices should match it too.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+cost choices should match it too.[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
 
 Composability is useful when the team can operate the pieces. Vendor caution,
 requirements-led tool choice, and simpler automation are part of the modern
 stack discussion, especially for smaller teams and cost-sensitive pipelines.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@44:42=>Modern Data Engineering Trends]]
+
+Open-source strategy also has a business-model edge. Natalie Kwong frames
+Airbyte's connector model as support for long-tail APIs
+[[cite:data-engineering-tools-modern-data-stack@43:45=>Airbyte]].
+The same discussion treats cloud-provider competition and MIT licensing as risks
+for infrastructure companies. It uses the Elasticsearch/AWS example to show the
+pressure on open infrastructure companies
+[[cite:data-engineering-tools-modern-data-stack@48:26=>Elasticsearch/AWS]]
+[[cite:data-engineering-tools-modern-data-stack@49:32=>MIT License]].
 
 ## Open Formats and Local-First Tools Reduce Lock-In
 
 Open table formats are central to the current lakehouse direction. The landscape
 includes [[Apache Iceberg]], Delta Lake, and Hudi. Iceberg is a table format over
 files such as Parquet. It can support updates without rewriting whole files and
-reduce database or warehouse lock-in.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+reduce database or warehouse lock-in.[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
 
 Catalogs separate storage and compute from access, metadata, and lineage.
 DuckDB adds a practical local-first layer because it can run as an embeddable
 query engine across file systems, data lakes, and SQL databases.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]]
 
 Cost-efficient setups can pair DuckDB with GitHub Actions for small data stacks.
 Headless Delta Lake and Iceberg support in DLT fit the same direction. That puts
 [[Open Source]] beside lakehouse architecture and cost control rather than only
-community licensing.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+community licensing.[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]]
 
 ## AI Engineering Pulls Data Engineers Closer to Product Systems
 

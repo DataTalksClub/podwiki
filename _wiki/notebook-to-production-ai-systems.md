@@ -112,7 +112,7 @@ demo can turn a fresh applied-research result into something leadership and
 stakeholders can react to before a full engineering handoff. That doesn't make
 the demo production-ready, but it helps the team learn which behavior deserves
 ownership and evaluation.
-[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
+[[cite:applied-llm-research-and-career-growth-in-practice@30:14=>Streamlit Demos and Feedback]]
 
 Research-to-production work makes the role shift explicit. Research tooling
 supports hypotheses, while production ML engineering adds PyTorch and Docker. It

@@ -149,7 +149,7 @@ For the broader retrieval architecture, see
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 Chunking strategies include fixed length and sliding windows. Retrieval memory
-is distinct from multi-turn conversation memory.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+is distinct from multi-turn conversation memory.[[cite:practical-llm-engineering-and-rag@57:41=>Agent Memory Design]]
 That distinction is central to agent engineering. A support assistant may need
 durable customer facts and ticket history, while a coding agent may need
 repository context and task state. A short conversation memory isn't enough for

@@ -148,6 +148,14 @@ connects impact, product mindset, and KPIs. That work can disappear from the
 business narrative unless leaders explain which user goal, team goal, or company
 goal it supports.[[cite:data-leadership-coaching@24:32=>Data Leadership Coaching]]
 
+Teams with a product mindset use the same rule for dashboards and internal tools.
+The KPI should name the business decision or behavior the data product supports,
+not only whether the report was delivered. Workshops, adoption evidence, and
+time-saved estimates can then become part of the KPI story when the team has to
+justify continued investment.
+[[cite:building-and-scaling-data-team@47:08=>Building and Scaling a Data Team]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
+
 For forecasting work, that links [[product analytics]] with [[model monitoring]].
 Teams watch the forecast and the business process together. Higher sales may
 come from seasonality, sales execution, or other operational changes rather than

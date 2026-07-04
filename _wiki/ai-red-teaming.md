@@ -18,7 +18,7 @@ Red teaming is a production concern rather than only a model benchmark. One
 chatbot hacking exercise tested a restricted assistant. Participants tried to
 make it reveal hidden knowledge-base content or produce answers the product
 should block. The exercise puts AI red teaming next to [[Security]], [[LLMs]],
-and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
+and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security@9:28=>Hardening Chatbots]]
 
 ## Adversarial Test Scope
 

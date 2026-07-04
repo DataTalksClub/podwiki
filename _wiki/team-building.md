@@ -60,13 +60,15 @@ case, the first hire may be a data analyst because dashboard demand is the
 immediate bottleneck. Historical data, forecasting, and source integration
 become harder over time. At that point, a data engineer can be a "game changer."
 Analysts could return to analysis while the engineer built the data foundation
-[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team@15:04=>Building and Leading Data Teams]].
 
 Fast-growing analytics teams may need senior people earlier than expected
 because early technical and analytical choices become the foundation for later
 work. Deeper analyses, web apps, and multiple data sources can also require
-engineering support
-[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+engineering support. That doesn't mean every team starts with the same senior
+title. Early junior-only hiring can leave the first data lead responsible for
+architecture, business alignment, and mentoring alone
+[[cite:building-and-scaling-data-team@23:11=>Building and Leading Data Teams]].
 
 A stronger team-design rule is to hire the interface the team is missing. If
 dashboards are the immediate demand, an analyst can create visible value. If
@@ -285,13 +287,14 @@ business side use the work
 The team changed its workshops after lecture-style demos failed. Instead of only
 showing dashboard features, it used Q&A sessions where people practiced finding
 answers. That improved attention and helped build data culture
-[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team@49:00=>Building and Leading Data Teams]].
 This mirrors [[data product management]].
 The output has to fit a decision, a user, and a context of use.
 
 Trust also depends on accuracy and reliability. One team rebuilt trust after data
 errors by adding playbooks, dbt tests, and regular checks
-[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team@35:38=>Building and Leading Data Teams]]
+[[cite:building-and-scaling-data-team@40:09=>Building and Leading Data Teams]].
 
 The same adoption loop appears in translator work. Useful data products come
 from observing how people work and proving value with small prototypes. They

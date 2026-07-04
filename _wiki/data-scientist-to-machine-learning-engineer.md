@@ -121,6 +121,13 @@ Use those mini-projects to practice the production surface outside work. Version
 the code, containerize the run path, and deploy a small service or scheduled
 job. Then write down what can fail.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+If work doesn't force the transition, create a smaller forcing function. Put one
+existing analysis project under version control. Package the run path, then ask
+engineers to review the approach. LinkedIn or internal outreach can fill the
+mentoring gap when the current team lacks production ML practice.
+[[cite:data-science-career-abc-framework@33:12=>Data Science Career ABC Framework]]
+[[cite:data-science-career-abc-framework@36:46=>Data Science Career ABC Framework]]
+
 Data scientists also need deployment and operations because ML engineering
 skills span data pipelines and modeling. They also span deployment, monitoring,
 and APIs, while Docker and cloud providers complete that surface.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]

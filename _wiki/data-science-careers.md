@@ -56,6 +56,12 @@ qualitative research can become differentiators when candidates connect them to
 statistics, programming, and business problems. Interviews and domain context
 belong in that evidence too.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 
+The non-CS route is strongest when it isn't framed as a deficit. Data science
+work still needs statistics, programming, and an applied field. Candidates can
+start from one of those three. They then add the missing pieces while keeping
+their original domain or research practice visible.[[cite:how-to-stand-out-in-data-science@8:31=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@11:16=>Data Science Career Playbook]]
+
 Hiring teams assess career changers through practical experience, portfolio projects, and online courses on a CV.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]] Courses can close skill gaps. Projects and role-specific stories support the application.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
 ## Skills as Role Evidence
@@ -107,6 +113,12 @@ They should also assess offer components and negotiation.[[cite:data-science-int
 Data science careers don't always move from junior data scientist to senior data scientist. Ksenia Legostay's path shows a project manager keeping planning and stakeholder strengths while adding statistics, programming, and machine learning. Andrada Olteanu's path shows an analyst keeping data validation and domain knowledge while making Python, notebooks, and public projects visible. Use both paths with [[Career Transitions in Data]] because the transition depends on the evidence already available.
 
 Bootcamps and intensives can fit that progression when they create time, structure, feedback, and project evidence. Danny Ma cautions that six- or twelve-week programs aren't a shortcut around a longer learning journey. Treat them as one possible forcing function. Research alumni outcomes and connect the work back to the target analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+The bootcamp test is realistic expectation. Intensive programs can help when
+someone has the time, money, and focus to use the structure. They don't
+compress the whole field into a few weeks. Research alumni outcomes and treat
+the program as a forcing function for projects and feedback, not a guaranteed
+job path.[[cite:data-science-career-abc-framework@1:12:26=>Data Science Career ABC Framework]]
 
 Adjacent roles can be better fits at different points. Candidates who like dashboards, stakeholder questions, and exploratory analysis may fit [[Data Analyst Careers]] before a modeling-heavy data scientist role. Pipeline, orchestration, and reliability work may fit [[Data Engineering]]. For model deployment and platform work, compare the target data scientist role with [[MLOps]] and machine learning engineering expectations.
 

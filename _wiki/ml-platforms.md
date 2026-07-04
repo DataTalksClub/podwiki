@@ -75,7 +75,11 @@ only because one model reached production.
 
 Buying SageMaker, Vertex AI, or another managed platform still leaves
 integration work. The team has to fit the tool to its data-science workflow,
-deployment patterns, security constraints, and monitoring schemas[[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]].
+deployment patterns, security constraints, and monitoring schemas.
+Simon Stiebellehner frames the normal-company path as buy and integrate first.
+Teams then build only the pieces that make bought tools fit their workflows
+[[cite:building-production-ml-platform-and-mlops-team@17:14=>Build vs Buy ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]].
 
 Enablement and adoption matter as much as infrastructure. A platform team earns
 trust by collecting pain points and delivering quick wins. The team improves

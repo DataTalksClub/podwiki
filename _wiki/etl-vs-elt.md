@@ -62,7 +62,7 @@ active datasets to code and versioning, with lineage as the audit path. [[cite:d
 
 Choose ETL when broad raw data doesn't belong in the target. A customer
 acquisition cost example joins CRM data with ad-spend data, and the reporting
-layer consumes the prepared result. [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+layer consumes the prepared result. [[cite:data-engineering-tools-modern-data-stack@06:37=>ETL vs ELT and the Modern Data Stack]]
 This fits a target that expects a prepared metric or mart rather than
 source-level detail.
 
@@ -80,7 +80,8 @@ Choose ELT when questions or source fields change often. ELT keeps source detail
 available for later transformation work, so analysts and analytics engineers can
 add new models when the business question changes. Analysts gain autonomy when
 teams use the warehouse as the transformation workspace rather than only the
-reporting destination. [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+reporting destination. [[cite:data-engineering-tools-modern-data-stack@07:57=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@12:39=>ETL vs ELT and the Modern Data Stack]]
 This keeps ELT close to
 [[analytics engineering]] and
 [[dbt]].

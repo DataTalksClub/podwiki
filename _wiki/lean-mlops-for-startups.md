@@ -98,7 +98,7 @@ Simon Stiebellehner makes the business case even sharper for
 [[ml-platforms=>ML platforms]]. Models usually need to exist and show business
 value before a company can justify heavy platform investment. Without real use,
 the platform team has to guess about users, workflows, and useful abstractions
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+([[cite:building-production-ml-platform-and-mlops-team@47:08=>Models Before Platforms]]).
 
 Use cloud credits carefully because credits can make a cloud provider feel free
 during the first year. The real cost appears when the team has to migrate, rewrite
@@ -260,7 +260,7 @@ That doesn't mean waiting to build every shared piece, because minimal platform
 components can grow alongside real use. Experiment tracking may pay off for one
 model or a small group of data scientists. Broader abstractions should wait
 until the team can see common needs across several use cases
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+([[cite:building-production-ml-platform-and-mlops-team@49:19=>Minimal Platform Pieces]]).
 
 A startup with multiple model builders should start standardizing repositories
 and templates. It should also standardize orchestration and artifact promotion.

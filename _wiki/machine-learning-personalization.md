@@ -42,12 +42,16 @@ appears in personalization requirements.[[cite:building-production-search-system
 Recommender systems often narrow possible items first. They then rank them with
 context, freshness, popularity, and business constraints.
 
-Recommendations based on the current session contrast with collaborative
-filtering. Session-aware personalization can react to the current click path.
+Current-session recommendations contrast with collaborative filtering because
+session-aware personalization can react to the current click path.
 Collaborative filtering relies more on accumulated user-item signals.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 That distinction matters for privacy and cold-start behavior: a session-based
 system can use immediate intent. Collaborative filtering depends on enough
 historical behavior to compare users or items.
+Vector retrieval can also support session-based recommendations and reranking
+when the session is represented as searchable context
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@54:54=>Session vs Collaborative Filtering]].
 
 ## Domain Boundaries
 

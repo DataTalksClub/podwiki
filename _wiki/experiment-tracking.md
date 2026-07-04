@@ -75,7 +75,7 @@ sequence starts with experiment tracking. It gives teams a quick reproducibility
 and collaboration win before the full release path. Teams can use tracking as a
 low-friction platform entry point. They can compare runs and recover context
 without redesigning serving, monitoring, or governance first
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team@29:41=>Early Experiment Tracking]].
 
 Another sequence starts from team pain points instead of a fixed tool order. A
 team might begin with CI/CD, deployment, monitoring, or another visible
@@ -118,11 +118,11 @@ the system is valuable only if data scientists can use it without bypassing it.
 Experiment tracking needs data context, but no universal storage rule.
 
 Some tools log only a query or pointer, while others copy the data artifact
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team@44:05=>Experiment Data Tracking]].
 
 Copying datasets for every run is risky because the cost can grow and
 personal-data deletion can become harder
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>GDPR and Dataset Copies]].
 
 Academic open science reaches the same boundary. Neuroimaging work uses
 sensitive consortium data, so the reproducible record has to respect access

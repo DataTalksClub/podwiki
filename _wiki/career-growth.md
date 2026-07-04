@@ -154,6 +154,12 @@ move appears in [[technical writing]], where
 design docs, READMEs, and decision records make technical choices legible to
 reviewers and future collaborators.
 
+Proactive task ownership is the internal version of the same habit. People who
+volunteer for higher-impact work choose more of their learning path instead of
+waiting for narrow assignments. Stretch work also reveals limits because people
+test what they can handle, not only what they already know.[[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@28:23=>Data Science Career Playbook]]
+
 Sadat Anwar's engineering-manager transition gives a second version of the same
 practice. His mentor told him to keep a brag list and use it to show leadership
 evidence in interviews. The interviews also needed evidence of conflict
@@ -177,6 +183,19 @@ can grow into a repeatable practice. Writers choose an audience and outline
 first. They publish on a cadence and document work so another reader can
 reproduce it
 ([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
+
+Corporate applied-research teams can share real findings through industry
+tracks and keep proprietary data private. The public method can still help the
+wider community. Manager support matters because the paper adds work beyond the
+normal job.
+[[cite:applied-llm-research-and-career-growth-in-practice@17:28=>Applied LLM]].
+[[cite:applied-llm-research-and-career-growth-in-practice@20:48=>Applied LLM]].
+
+Even without conference acceptance, a paper or technical report can create
+public evidence through arXiv. Early-career researchers may need the endorsement
+path. The bigger career move is making useful work discoverable rather than
+leaving it inside a company or private project folder.
+[[cite:applied-llm-research-and-career-growth-in-practice@22:10=>Applied LLM]].
 
 This is the career-growth side of
 [[documentation]] and
@@ -251,6 +270,11 @@ of career growth uses [[open source]],
 and [[community building]].
 It also connects to role-specific project pages such as
 [[machine learning portfolio projects]].
+
+LinkedIn and public posting work best when they include field-specific value
+rather than only announcements. Information and concrete lessons travel farther
+than repeated self-promotion. Comments can expose the work to people outside the
+writer's immediate network.[[cite:how-to-stand-out-in-data-science@57:30=>Data Science Career Playbook]]
 
 Ruslan Shchuchkin describes the same compounding effect as increasing "luck
 surface area." Visible work, connections, and repeated attempts make

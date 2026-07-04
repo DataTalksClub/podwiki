@@ -71,7 +71,11 @@ whether a product manager can use it at the moment of decision. The same rule
 applies to a marketing team or operator[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
 
 Good intake therefore asks who will act, what they'll compare, and where the
-data product enters their workflow.
+data product enters their workflow. It also asks which meeting or operating
+ritual will use it.
+Outcome-first intake prevents a request from becoming a polished report that
+never reaches the decision.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]]
 
 Moorman gives intake a ranking heuristic: start with financials and cost
 centers, then choose a problem big enough to matter and small enough to move.
@@ -258,6 +262,13 @@ over-invests in a polished interface[[cite:last-mile-data-delivery-and-data-prod
 
 For intake, that means a pilot isn't only a technical validation. It's also a
 behavioral validation of whether the product changes a decision.
+
+Exploratory data work also needs an uncertainty label. Linear projects can be
+planned step by step because the next action is known. Circular projects need
+discovery loops because the team doesn't know what the data will reveal until it
+looks. Intake should set that expectation before stakeholders interpret learning
+as delivery failure.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]
 
 ## Related Pages
 

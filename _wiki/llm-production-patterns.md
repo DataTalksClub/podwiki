@@ -152,7 +152,7 @@ Product feedback adds explicit and implicit signals. It also adds customer
 requirements and factuality checks for generated outputs.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 Chatbot adoption adds another product signal. Verbose or inaccurate answers can
 make users reject the system. That can break the ROI case even when the chatbot
-is technically live.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+is technically live.[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
 
 That links LLM production to [[model monitoring]] and [[data products]].
 
@@ -161,10 +161,12 @@ That links LLM production to [[model monitoring]] and [[data products]].
 Production LLM systems need controls around user input and retrieved context.
 They also need controls around generated output and tool calls. Hallucinations
 create legal and financial exposure, and prompt overload or knowledge-base
-retrieval can become a data-exfiltration path.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+retrieval can become a data-exfiltration path.[[cite:generative-ai-chatbots-in-production-security@11:38=>Chatbot Incidents]]
+[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]]
 
 Output validation, query analysis, and non-LLM classifiers form the defense
-layer. Moderation and human review handle riskier outputs.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+layer. Moderation and human review handle riskier outputs.[[cite:generative-ai-chatbots-in-production-security@16:15=>Layered Chatbot Defenses]]
+[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]]
 
 These controls put LLM production in the same operational space as
 [[AI red teaming]] and [[security]].

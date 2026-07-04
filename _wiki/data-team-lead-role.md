@@ -45,10 +45,16 @@ health visible before streamlining reporting and building trust with other teams
 As the company needs more, the work moves into predictive projects and warehouse
 foundations. Demand forecasting follows that base ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
 
-The same role has to choose people, not only projects. Tammy describes hiring
-an analyst first, then a data engineer. Later she revisits that order and says
-senior hires can matter earlier because early decisions create long-lived
-patterns ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+The lead has to choose people as well as projects. Early analytics-heavy teams
+can start with an analyst. A data engineer follows when data foundations become
+the bottleneck.
+[[cite:building-and-scaling-data-team@15:04=>How to Build & Scale a Data Team]]
+
+Senior hires can matter earlier because early decisions create long-lived
+patterns. The first senior profile should combine business alignment with enough
+leadership mindset to set standards for the hires that follow.
+[[cite:building-and-scaling-data-team@23:11=>How to Build & Scale a Data Team]]
+[[cite:building-and-scaling-data-team@33:09=>How to Build & Scale a Data Team]]
 
 [[person:marcodesa=>Marco De Sa]] gives the executive
 version in his chief data officer discussion. That role works backward from
@@ -106,7 +112,9 @@ That work links directly to
 and [[Data Product Adoption]].
 A team lead can't treat adoption as something that happens after delivery.
 Tammy describes workshops and Q&A sessions as part of leadership. Delegation,
-ownership, and team empowerment belong there too ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+ownership, and team empowerment belong there too
+([[cite:building-and-scaling-data-team@49:00=>How to Build & Scale a Data Team]],
+[[cite:building-and-scaling-data-team@50:52=>How to Build & Scale a Data Team]]).
 
 [[person:caitlinmoorman=>Caitlin Moorman]] gives the
 last-mile version of the same point. Analytics outputs need discoverability,

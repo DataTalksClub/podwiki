@@ -122,23 +122,31 @@ Fairness work begins with evidence, but it doesn't end with a metric.
 Data-level checks find missingness, skew, undercoverage, and biased feature use
 before model training. Placing fairness beside profitability forces a launch
 decision instead of a detached model report
-[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
+[[cite:responsible-explainable-ai-bias-detection@11:36=>Responsible and Explainable AI]]
+[[cite:responsible-explainable-ai-bias-detection@12:48=>Responsible and Explainable AI]].
 
 Fairness tooling and sociotechnical design make the same point. In credit
 scoring, model bias links to downstream harms such as debt and repossession.
 Fairlearn-style group fairness tools help visualize and mitigate disparities.
 The team still has to choose which sensitive groups matter for the domain. It
 also decides where human judgment belongs
-[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]], [[person:tamaraatanasoska=>Tamara Atanasoska]].
+[[cite:fairness-in-ai-ml-engineering@14:52=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]], [[person:tamaraatanasoska=>Tamara Atanasoska]].
 
-Metric tradeoffs make fairness a governance decision. False positives, false
-negatives, demographic parity, and equal opportunity trade off against each
-other. Organizational responsibility, cross-functional teams, moderation
-examples, and domain expertise all enter. Human-in-the-loop review sits inside
-system design
-[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].
-That same discussion treats sensitive-group selection as a domain decision,
-not a step Fairlearn or another metric library can automate away.
+Metric tradeoffs make fairness a governance decision. False positives and
+false negatives can conflict with demographic parity and equal opportunity.
+Organizations need cross-functional teams for those choices. Moderation
+examples and domain expertise also matter. Human-in-the-loop review sits
+inside system design
+[[cite:fairness-in-ai-ml-engineering@28:52=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@31:33=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@35:23=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@37:13=>Fairness in AI/ML Engineering]].
+
+That same discussion treats sensitive-group selection as a domain decision.
+Fairlearn or another metric library can't automate that step away
+[[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]].
 
 This places fairness beside
 [[Model Monitoring]] and
@@ -182,7 +190,9 @@ Explainability helps responsible AI only when it answers a reviewer's actual
 question. Tools such as What-If and Skater sit beside AI Explainability 360.
 LIME, SHAP, and surrogate models are part of the same toolset. Accuracy,
 interpretability, and human oversight have to stay tied to operational decisions
-[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
+[[cite:responsible-explainable-ai-bias-detection@19:03=>Responsible and Explainable AI]]
+[[cite:responsible-explainable-ai-bias-detection@23:24=>Responsible and Explainable AI]]
+[[cite:responsible-explainable-ai-bias-detection@32:29=>Responsible and Explainable AI]].
 The team identifies who needs to understand the model, what choice they need to
 make, and what action follows when the model looks wrong.
 

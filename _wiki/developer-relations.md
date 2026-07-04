@@ -25,6 +25,13 @@ feedback. They also treat it as a way to route user friction back to the team
 building the product
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
+Hugo Bowne-Anderson's freelance path keeps DevRel connected to consulting,
+advising, and teaching rather than treating it as a separate communications
+track. In his framing, DevRel remains technical product enablement. It helps
+people build and ship with AI while feeding practical adoption lessons back into
+the work
+([[cite:practical-llm-engineering-and-rag@3:57=>Freelance DevRel Path]]).
+
 ## Developer Adoption Model
 
 Across the DevRel episodes, guests converge on the same operating model. DevRel

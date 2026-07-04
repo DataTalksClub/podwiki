@@ -49,9 +49,10 @@ retrieves evidence for a question, passes that evidence to the model, and cites
 sources a reviewer can open.
 
 Podcast transcripts are a concrete example because long transcripts need
-chunking, overlap, and vectorization. The answer path needs retrieval,
-augmentation, generation, and citations
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+chunking, overlap, and vectorization. The answer path then needs retrieval and
+augmentation before generation and citations
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Podcast Transcript Chatbot]],
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking and Vectors]]).
 If the source audio starts outside the text corpus, a transcript step such as
 Whisper becomes part of the project scope before chunking and evaluation.
 The project should test embedding choices, chunking strategy, retrieval quality,

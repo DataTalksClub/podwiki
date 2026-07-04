@@ -133,6 +133,13 @@ Danny Ma's builder profile adds career framing because builder work isn't only
 knowing algorithms. It makes production risk, technical debt, and system failure
 modes visible before a model becomes a dependency.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
+The builder profile also names the day-to-day software surface. It covers
+infrastructure work with data engineers plus workflow design, tests, clean code,
+and deployment. That turns "knows ML" into the ability to keep model-backed
+systems running when packages, data, or servers change.
+[[cite:data-science-career-abc-framework@25:53=>Data Science Career ABC Framework]]
+[[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]]
+
 For software engineers moving into machine learning, DevOps skills transfer
 directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
 containers for the application or inference API. Enough AWS, Google Cloud,

@@ -92,12 +92,12 @@ later.
 ML security includes the model file, feature code, dependencies, and loading
 format. Secure model persistence and pickle deserialization risk place model
 files inside the attack surface. Feature pipelines and serialized objects belong
-there too.[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML]]
+there too.[[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML]]
 The skops discussion gives a concrete mitigation path for scikit-learn-style
 models. Teams should avoid treating an arbitrary pickle as a trusted artifact.
 Safer persistence and sharing workflows matter when models move between people
 or platforms
-[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML]].
+[[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML]].
 
 That supply-chain risk links [[machine learning]]
 security to [[software engineering]]. Teams need dependency review, artifact

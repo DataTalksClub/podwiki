@@ -163,7 +163,7 @@ Fairlearn shows a structured version of the same entry path. Tamara Atanasoska
 points new contributors toward the project's community channels, good-first
 issues, and contribution sprints. Those entry points make a fairness-tooling
 contribution more concrete than "find something to fix" in a large ML repository
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering@52:10=>Fairness in AI/ML Engineering]]).
 They also make responsible-ML contribution less abstract. Contributors can work
 on documentation, examples, or compatibility issues while they learn why
 fairness metrics need domain judgment.
@@ -280,7 +280,8 @@ visible open-source contributions can become proof of domain judgment, not only
 general coding ability. Her path from Fairlearn contribution into a role at
 Probable connects sprints and issue selection with library compatibility work.
 That creates a hiring story that ML teams can look at
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering@39:18=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@52:10=>Fairness in AI/ML Engineering]]).
 
 For a portfolio, don't present the contribution as a detached badge. Link the
 issue and pull request. Add the docs page, tutorial, CI result, and maintainer

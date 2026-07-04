@@ -58,7 +58,8 @@ Lior Barak's translator advice adds a daily tactic. Warn stakeholders before a
 failed job, changed formula, or unsafe forecast reaches a decision. Confidence
 intervals and QA dashboards make uncertainty visible. Users shouldn't have to
 re-audit the data themselves
-[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+[[cite:data-translator-role-and-data-strategy@07:46=>Data Translator Role and Data Strategy]]
+[[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role and Data Strategy]].
 
 ## First Trust Breaks
 

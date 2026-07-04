@@ -47,7 +47,8 @@ Hugo describes the same progression from copy-pasting between ChatGPT and an IDE
 to Copilot, Cursor, IDE agents, and background coding agents. The assistant moves
 closer to the repository, pull request, or CI job. The developer can review
 concrete diffs instead of detached snippets
-[[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]].
+[[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]
+[[cite:practical-llm-engineering-and-rag@33:14=>Embedded Coding Agents]].
 
 ## Prototypes and Vibe Coding
 

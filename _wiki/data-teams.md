@@ -59,7 +59,9 @@ common definitions, data quality discipline, and shared engineering craft.
 It also matches [[person:tammyliang=>Tammy Liang]]'s early buildout, where she
 starts with business health dashboards. As the team matures, she adds a
 warehouse and forecasting. She also adds quality checks and adoption work.
-[[cite:building-and-scaling-data-team=>Liang]]
+The hiring path moves from analyst capacity to engineering foundations and then
+to business-facing adoption work as the bottleneck changes.
+[[cite:building-and-scaling-data-team@15:04=>Liang]]
 
 Teams embed data people when a domain needs daily data support. Product,
 marketing, operations, and finance teams often need that context. Cohen
@@ -217,7 +219,8 @@ buildout. She hires for adoption and communication, not only technical skill,
 and she uses workshops and Q&A sessions to help people use the work. Bauer adds
 the career-system risk. Junior data people need mentorship, practice, exposure,
 and clear expectations before they specialize too narrowly.
-[[cite:building-and-scaling-data-team=>Liang]]
+[[cite:building-and-scaling-data-team@10:06=>Liang]]
+[[cite:building-and-scaling-data-team@49:00=>Liang]]
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Bauer]]
 
 Role order should change when the bottleneck changes, so a dashboard-heavy team
@@ -225,7 +228,7 @@ can start with an analyst. Source integration, historical data, forecasting, and
 multiple data sources make a data engineer foundational. Stakeholder-heavy
 businesses may need a business analyst or data researcher alongside engineering.
 That gives adoption work an owner.
-[[cite:building-and-scaling-data-team=>Liang]]
+[[cite:building-and-scaling-data-team@23:11=>Liang]]
 
 Hypergrowth creates a different failure mode. Mehdi describes speed versus
 quality pressure, hiring surges, and onboarding strain. He also talks about

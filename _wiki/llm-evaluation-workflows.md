@@ -34,7 +34,7 @@ Generator-evaluator checks give teams one starting approach. Representative gold
 tests should still be cheap enough to run often. Teams can eyeball early outputs
 first. Later they can collect examples that cover real user tasks, expected
 formats, and known failure modes
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]]).
 
 Hugo Bowne-Anderson's generator-evaluator check fits products that already
 create many outputs. Transcript summaries and structured content are examples.
@@ -174,7 +174,7 @@ also lead to updated prompts, fine-tuning examples, or new guardrail tests.
 Production feedback also needs traces. Logs and traces let the team reconstruct
 whether the wrong output came from retrieval, context packaging, tool use, or
 generation
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag@27:38=>LLM Logs and Traces]]).
 This puts LLM evaluation next to [[Model Monitoring]]
 and [[LLM Production Patterns]]
 instead of leaving it as an offline score.

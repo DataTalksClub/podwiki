@@ -40,7 +40,7 @@ warehouse is built for structured analytical tables and SQL access. A lake is
 more open to different file types and structures. Her KeepTruckin example uses
 IoT images and video. It shows why a team may need storage that a warehouse
 doesn't naturally handle
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack@19:50=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson gives the platform definition. He treats the lake as object storage
 for raw dumps, usually with systems such as S3 behind it. That raw layer sits
@@ -78,7 +78,7 @@ analytical destination.
 Kwong's episode explains why that gives analysts more flexibility when fields
 or business questions change. A warehouse can be the destination. A lake or
 lakehouse can also be the first durable landing zone
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack@24:24=>ETL vs ELT and the Modern Data Stack]].
 
 Teams enter the [[data warehouse vs data lakehouse]]
 comparison when they want warehouse-like behavior on lake storage. Albertsson
@@ -111,7 +111,7 @@ She ties the fix to [[data governance]].
 
 Teams need to know where data came from and who owns it. They also need to know
 what it means and whether it's still useful
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack@21:22=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson makes the same point from the platform side. Dumping every dataset
 into S3 and calling it a lake is easy. Getting value from the lake requires

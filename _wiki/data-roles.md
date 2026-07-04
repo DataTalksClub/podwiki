@@ -35,7 +35,7 @@ machine learning engineers help scale model-backed services.
 
 [[person:dannyma=>Danny Ma]] adds the ABC framework as a role-fit lens for the
 same comparison
-([[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]).
+([[cite:data-science-career-abc-framework@11:29=>Data Science Career ABC Framework]]).
 Analyst work centers on exploration and visualization, plus storytelling and
 metrics. Builder work centers on ML engineering and production systems,
 including [[MLOps]] and technical debt. Consultant work centers on stakeholder
@@ -239,6 +239,13 @@ makes that split concrete in
 The PM defines the problem and target outcome, while the engineering team
 defines the solution
 ([[ML Product Manager Role]]).
+
+Forward deployed engineering is a newer adjacent role style for productized AI
+and data work. It combines consulting and product engineering. The team adapts
+the product to a client, reuses recurring client needs in the main branch, and
+builds enablers that help future deployments move faster. It belongs near
+[[ai-engineer-role=>AI engineering]], solutions engineering, and data product
+work because it ties client discovery to reusable technical delivery.[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]]
 
 ## Choosing a Target Data Role
 

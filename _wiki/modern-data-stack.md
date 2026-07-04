@@ -83,7 +83,15 @@ A more skeptical view critiques vendor-packaged modern data stacks and argues
 for requirements-led tool choice. Iceberg and catalogs can belong in the
 decision. DuckDB, orchestration, and streaming can too. A team may need a
 warehouse stack, an open lakehouse stack, or a smaller local-first
-stack.[[cite:trends-in-modern-data-engineering]]
+stack.[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
+
+That critique doesn't make open source automatically safer, though Airbyte's
+open-source strategy shows one upside. Community connectors can cover long-tail
+APIs that proprietary vendors may not prioritize
+[[cite:data-engineering-tools-modern-data-stack@43:45=>ETL vs ELT and the Modern Data Stack]].
+The same conversation raises licensing risk when a larger cloud provider can
+host the open project
+[[cite:data-engineering-tools-modern-data-stack@48:26=>ETL vs ELT and the Modern Data Stack]].
 
 The same caution applies to enterprise-grade platforms. Teams should move to
 Snowflake or Databricks when scale, analyst count, data-science needs, and
@@ -163,14 +171,15 @@ jobs fail. In the warehouse-centered stack, the orchestrator schedules and runs
 jobs around tools such as Airbyte and dbt. Airbyte-style tools handle the
 extract-load step, while dbt-style tools handle warehouse-side SQL
 transformations. Orchestration keeps the pieces in the same operating
-workflow.[[cite:data-engineering-tools-modern-data-stack]]
+workflow.[[cite:data-engineering-tools-modern-data-stack@30:59=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@33:45=>ETL vs ELT and the Modern Data Stack]]
 
 Workflow authoring isn't the whole data problem. Orchestrators sit next to
 Spark, streaming tools such as Kafka and Kinesis, feature stores, and vector
 databases in the same broader system.[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
 
 Tools such as Airflow and Prefect cover different orchestration needs. Dagster
-and GitHub Actions can also fit scheduling work.[[cite:trends-in-modern-data-engineering]]
+and GitHub Actions can also fit scheduling work.[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 Teams choose orchestration for workflows that need dependency handling and
 retries. They also need visibility and clear ownership. They keep simpler
 scheduling when the pipeline doesn't justify a full control plane. The

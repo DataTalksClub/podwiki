@@ -173,6 +173,12 @@ applications, the proof has a narrower job. It should connect to role
 requirements, interview discussion, or organization-backed work with feedback
 and real-world impact.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]]
 
+A dataset can be the portfolio asset when the candidate finds a missing public
+resource, handles the collection and licensing work, and shows basic analysis.
+That helps other learners use it. The career signal isn't only the upvotes. The
+gap selection, collection effort, and reuse work matter too.[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research and Career Growth]]
+[[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research and Career Growth]]
+
 Public work can also support a [[career-transitions-in-data=>career transition]].
 Kaggle community interaction and mentorship can become part of the job-search
 story.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
@@ -189,11 +195,16 @@ Cold-start candidates can use public datasets, synthetic data, and blogging.
 When possible, the stronger project is tailored to the company or product
 problem.[[cite:data-science-interview-and-cv-guide=>Interview Guide]]
 
-Unique personal projects can make the same proof more memorable. Marijn Markus
-uses home automation, plant sensors, and coffee-machine time series as examples.
+Personal projects can be memorable when they use concrete examples like home
+automation or coffee-machine time series.
 That kind of portfolio work shows curiosity, data collection, and practical
 analysis without copying a standard Kaggle exercise
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+It also gives the candidate a project they can defend from motivation to
+modeling. Data capture, storage, and thresholds are part of the story, which is
+harder to fake than a reproduced notebook.
+[[cite:how-to-stand-out-in-data-science@36:21=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@37:49=>Data Science Career Playbook]]
 
 ## Take-Home Projects and Follow-Up
 

@@ -77,7 +77,7 @@ only a model-inspection step. Fairlearn tools can support group fairness and
 mitigation through visualization. False positive, false negative, and
 demographic parity tradeoffs still require organizational judgment. Partial
 dependence and model inspection sit beside the broader
-[[scikit-learn=>scikit-learn]] ecosystem.[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]
+[[scikit-learn=>scikit-learn]] ecosystem.[[cite:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@28:52=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@42:54=>Fairness in AI/ML Engineering]]
 
 ## Explainability Techniques
 
@@ -91,7 +91,7 @@ directly. Teams can use What-If Tool, Skater, or AI Explainability 360. LIME,
 SHAP, and surrogate models serve similar post-hoc use cases. These tools can
 show local feature influence and let a team test counterfactual cases. The team
 still has to decide whether the feature should exist and whether the explanation
-answers the stakeholder's question.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
+answers the stakeholder's question.[[cite:responsible-explainable-ai-bias-detection@19:03=>Responsible and Explainable AI]][[cite:responsible-explainable-ai-bias-detection@23:24=>Responsible and Explainable AI]]
 
 The scikit-learn-adjacent fairness discussion adds model inspection and partial
 dependence to this practical toolbox. Those methods help teams look at feature
@@ -145,7 +145,7 @@ determine which metrics matter. Fairlearn visualizations and mitigation methods 
 surface disparities, but people still choose the fairness objective and accept
 or reject the tradeoff. Interpretability therefore sits next to
 [[Data Governance]], not only
-inside a technical model report.[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]
+inside a technical model report.[[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@28:52=>Fairness in AI/ML Engineering]]
 
 ## Responsible AI
 

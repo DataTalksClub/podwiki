@@ -98,7 +98,11 @@ adoption problems into product-discovery problems.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
 
 For data product managers, user research belongs inside
-[[Data Product Adoption]], not only before kickoff.
+[[Data Product Adoption]], not only before kickoff. Persona work matters because
+the same underlying data can support different decisions for executives,
+operators, analysts, and product managers. Product management decides which
+abstraction each audience needs.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@32:25=>Last-Mile Data Delivery]]
 
 Problem framing ties into [[Data Strategy]]. The right product choice may be a
 manual cleanup, an MVP, or staged investment rather than a model.
@@ -220,6 +224,11 @@ personas. Teams embed metrics in meetings, prototype quickly, and scope narrow
 wins that create advocates. Adoption depends on discoverability,
 interpretability, trust, and data quality. It also depends on the meeting or
 workflow where the decision is made.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+
+Low-fidelity prototypes are a product-management tool for data products. A
+sketch or whiteboard can test the decision flow before the team builds a polished
+dashboard, Figma prototype, or production interface.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
 
 Data-team adoption improves when workshops move from walkthroughs to Q&A and
 business teams practice finding answers. Liang's team found that lecture-style

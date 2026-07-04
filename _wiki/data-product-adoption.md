@@ -37,11 +37,14 @@ to real choices in meetings and workflows. Different groups bring different
 incentives and comfort with data.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
-Adoption is a two-sided job: increase the value of using the data product and
-reduce the cost of using it. Teams improve discoverability, interpretability,
-trust, and clear decision context while lowering reliance on analysts for every
-follow-up question.
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+Teams increase adoption by making the data product more valuable and easier to
+use. They improve discoverability, interpretability, trust, and clear decision
+context. They also lower reliance on analysts for every follow-up question.
+Cultural barriers are part of that cost. If incentives reward gut-feel decisions
+or make data use feel risky, the modern stack has solved only the plumbing
+problem.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@20:02=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]]
 
 The same metric may need different framing for a product manager, operator,
 executive, or analyst. Adoption improves when the interface matches how each
@@ -81,7 +84,7 @@ Adoption is also operating discipline for a growing [[data-teams=>data team]].
 A growing team needs business-facing communication, an internal data wiki,
 workshops, and Q&A sessions. Without that work, dashboards and web apps may sit
 unused.
-[[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@49:00=>Building and Scaling a Data Team]]
 
 That makes adoption capacity a staffing choice. Tammy Liang separates
 business-facing communication from pure dashboard or engineering output. Someone
@@ -119,7 +122,8 @@ The operational consequence is concrete. A dashboard that appears to work but
 shows wrong values creates frustration, and stakeholders fall back to their own
 judgment or spreadsheets. Teams respond with a data accuracy and governance
 playbook, open error communication, dbt tests, and regular dashboard checks.
-[[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@35:38=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@40:09=>Building and Scaling a Data Team]]
 
 For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents.
@@ -153,7 +157,7 @@ product, publishing a dashboard with experiment data isn't enough. The product
 manager needs to decide whether to roll out a feature, understand business
 impact, and check guardrail metrics. That decision determines what data must be
 joined, how results should be shown, and what language the interface should use.
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]]
 
 Decision-first adoption work links data product adoption to [[metrics]]. KPIs
 should be easy to understand, aligned with strategy, and few enough that people
@@ -167,7 +171,14 @@ Low adoption is a user-research signal. Ask whether users know the product
 exists, know how to use it, and believe it solves their real problem. Sit in the
 meetings where decisions happen, and before building the polished system, sketch
 reports or workflows on paper.
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+
+Personas are a practical output of that research. A metric layer or dashboard may
+need different abstractions for product managers, operators, executives, and
+analysts. Persona-specific views make the data product easier to use without
+making every consumer learn the warehouse model.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@32:25=>Last-Mile Data Delivery]]
 
 Teams embedded in the business make the same case. When data engineers,
 analysts, or data scientists sit beside business users, they discover practical
@@ -240,7 +251,7 @@ to build advocacy with the next team.
 For less measurable work, teams can use proxies, time studies, and surveys.
 Practical before-and-after comparisons also help when they're the closest
 evidence available.
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
 
 A more explicit metric direction translates model performance into money saved
 or revenue, and can measure risk reduction or time saved for the business. Track

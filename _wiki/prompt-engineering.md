@@ -49,7 +49,11 @@ to give the LLM instead of stuffing everything into the input. [[cite:building-a
 
 Machine translation is a narrow example of that interface work. Prompts can
 customize ChatGPT translation behavior. Quality control still has to sit around
-the model rather than trusting a fluent translation by default.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+the model rather than trusting a fluent translation by default. Maria
+Sukhareva describes prompt-customized machine translation as useful, but still
+dependent on human expertise and quality control
+[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]]
+[[cite:generative-ai-chatbots-in-production-security@32:28=>Controlled MT Prompts]].
 
 ## Boundaries and Tradeoffs
 

@@ -77,7 +77,7 @@ That keeps streaming close to [[data governance]], [[Data Mesh]], and
 Batch fits reports, warehouse models, and backfills. It also fits campaigns and
 model jobs where delayed results still support the decision. Batch inference
 loads and preprocesses data. It also builds features and writes inference
-outputs.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+outputs.[[cite:building-production-ml-platform-and-mlops-team@31:15=>Batch vs Online Serving]]
 
 That structure is easier to operate with [[experiment-tracking=>experiment tracking]],
 [[model-registry=>model registries]], and

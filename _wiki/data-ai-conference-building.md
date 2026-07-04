@@ -58,7 +58,7 @@ also needs machine learning, management, and academic perspectives.
 Curation is harder in the AI era. Some proposals were visibly generated or
 pasted from AI tools without enough author judgment. AI can still help a speaker
 structure an idea
-([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
+([[cite:s23e09-starting-data-conference-data-makers-fest-story@41:22=>Data Makers Fest]]).
 For conference organizers, the screening question isn't whether a proposal used
 an AI assistant. It's whether the proposal reflects a real practitioner
 perspective that will help the
@@ -78,7 +78,7 @@ Sessionize handled speaker operations such as profiles, photos, proposal
 communication, and centralized speaker material. An internal layer classified
 session descriptions with embeddings and suggested a timetable with an
 optimization script. Organizers then made manual adjustments
-([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
+([[cite:s23e09-starting-data-conference-data-makers-fest-story@36:52=>Data Makers Fest]]).
 A practical operating move is to automate repetitive coordination while keeping
 human judgment over the final program.
 
@@ -98,7 +98,7 @@ contribution, and the long-term strength of the hiring pool.
 Accessibility is mainly economic and participation-focused. The event isn't
 free because a price gives people a reason to show up. Sponsor support still
 lets the team offer cheaper student tickets
-([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
+([[cite:s23e09-starting-data-conference-data-makers-fest-story@45:47=>Data Makers Fest]]).
 Organizers have to reduce barriers enough that students and practitioners can
 attend. They also need the commitment and budget required to run the event
 well, a familiar tension in
@@ -128,6 +128,11 @@ because it makes a person's operating style visible. Community and conference
 work fed into a Head of R&D role. It helps people know you and see how you work.
 It also shows the kind of person who wants to make things happen
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Starting a Data Conference]]).
+
+The smaller Data Lead Club format shows the professional-growth side at a
+different scale. A trusted retreat gives data leaders time to discuss management
+problems with peers outside their company. That outcome differs from a large
+conference hallway track.[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]]
 
 The economics stay realistic because conference work can still feel like
 volunteering, but sustained organizing needs time and budget. It also needs

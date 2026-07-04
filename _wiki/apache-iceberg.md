@@ -15,7 +15,8 @@ related:
 Apache Iceberg is an open table format for lakehouse-style storage. It sits
 above Parquet files and below query engines. That separates storage and compute
 from access, metadata, and lineage.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
 
 That makes Iceberg a [[data-engineering-platforms=>data engineering platform]]
 choice, not only a storage choice. Use [[Data Lake]] for the broader storage
@@ -28,12 +29,12 @@ the warehouse-centered ELT stack Iceberg is often compared against.
 Iceberg gives lake storage table behavior by pairing Parquet files with table
 metadata. More than one engine can read and write through the shared table
 layer.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
 
 Catalogs belong next to the table format. Access, metadata, and lineage sit
 outside raw storage and compute, so an Iceberg platform still needs a catalog
 path and a governance model.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
 Those responsibilities connect Iceberg to [[Data Governance]] and
 [[Data Quality and Observability]].
 
@@ -72,7 +73,8 @@ metadata, and lineage. Catalog tools such as AWS Glue sit in that boundary.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 In Adrian Brudaru's framing, the underlying files can stay Parquet while
 Iceberg supplies table metadata above them. That's why the format is discussed
-as a lock-in reduction tool, not just as a faster file layout.
+as a lock-in reduction tool, not just as a faster file layout
+[[cite:trends-in-modern-data-engineering@19:11=>Modern Data Engineering Trends]].
 
 The catalog boundary matters because Iceberg doesn't decide who may access a
 table, whether the table is fresh, or how downstream users discover lineage.
@@ -90,7 +92,7 @@ Iceberg appears beside [[Delta Lake]] and Hudi in the table-format comparison.
 The useful comparison isn't a file-layout checklist. Teams compare the engines
 that need table access. They also compare metadata placement, catalog design,
 and lock-in tolerance.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
 
 Iceberg is the option with the clearest open-storage and lock-in-sensitive
 treatment in the podcast discussions. Delta Lake remains the adjacent

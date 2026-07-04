@@ -29,7 +29,7 @@ DuckDB suits a team that wants analytical SQL before it stands up a large data
 platform. As an embeddable engine, it works as a building block inside another
 product or pipeline. In DLT, DuckDB queries data through one interface that
 covers file systems, data lakes, and SQL databases
-([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
+([[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]]).
 
 That definition is narrower than "replace the warehouse". DuckDB gives teams a
 local OLAP engine and a portable way to query files. It doesn't provide the
@@ -75,13 +75,13 @@ in the newer lakehouse and cost-aware tooling landscape.
 DuckDB's strongest claim is economic, as teams challenge high vendor costs. Some
 setups use DuckDB with GitHub Actions to run whole data stacks cheaply,
 connecting portability to cheaper compute options
-([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
+([[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]).
 
 GitHub Actions doesn't become a universal orchestrator in this framing. Teams
 still pick between full orchestrators and simpler runners. GitHub Actions can be
 enough for simple workflows because it's serverless and cheaper than always-on
 orchestrators
-([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
+([[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]).
 A bounded, headless pipeline can run SQL near local or file-backed data. It can
 publish an output without paying for always-on warehouse capacity when the
 workload is small.
@@ -132,7 +132,7 @@ validation, local exploration, and cost-sensitive batch jobs
 
 DuckDB also connects to headless table formats. It provides a local access layer
 for data pipelines, alongside DLT work on headless Delta Lake and Iceberg
-([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
+([[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]]).
 In that design, storage and table metadata stay open while compute can move
 between local jobs, GitHub Actions, and larger engines.
 

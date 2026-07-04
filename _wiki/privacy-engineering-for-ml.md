@@ -148,7 +148,7 @@ Privacy belongs inside responsible-AI review, not in a separate legal
 checklist. PII handling and masking become product choices, while feature
 necessity becomes a subject-matter and compliance decision. Product owners,
 domain experts, and compliance stakeholders decide whether a sensitive feature
-belongs in the model.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
+belongs in the model.[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]][[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]]
 
 Production ML reviews need both model-quality evidence and input justification.
 An accurate model can still use unnecessary data. Predictive features can create
@@ -159,7 +159,8 @@ engineering to
 Fairness tooling makes the same point from the other side. A team still has to
 choose which sensitive groups matter for the domain. It also has to decide
 whether collecting or retaining those attributes is justified
-[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].
+[[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]].
 
 Teams also need [[Data Quality and Observability]]
 and [[MLOps]] because the review depends on
@@ -194,7 +195,7 @@ concern into cross-functional approval. Feature necessity and PII handling
 become connected decisions. Fairness, compliance, and human oversight belong in
 the same review. Product
 owners, subject-matter experts, and compliance stakeholders help decide whether
-to use a sensitive feature.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
+to use a sensitive feature.[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]][[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]]
 
 A frontline scoring system shows the same privacy work in a high-impact
 setting. The tool combines case-management data with public records and surveys

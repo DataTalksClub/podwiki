@@ -45,13 +45,20 @@ The interview version is similar. The posting helps candidates decide which CV
 points and examples belong in the conversation. It also helps them choose
 questions.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
-Candidates can infer whether a company wants product data science
-or machine learning engineering. It can also reveal analytics work or another
-role structure.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
-Marijn Markus describes the failure mode from the candidate side. Keyword-driven
-recruiting can miss strong people when screening rewards tool matches over the
-actual problem, background, and role fit
-[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+Candidates can use a posting to infer whether a company wants product data
+science or machine learning engineering. The posting can also reveal analytics
+work or another role structure.
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+Keyword-driven recruiting can miss strong people from the candidate side. That
+happens when screening rewards tool matches instead of the actual problem and
+role fit.
+[[cite:how-to-stand-out-in-data-science=>Career Playbook]]
+
+The same keyword trap can swing the market from one noisy label to another. A
+company can overcorrect from "data scientist" to "data engineer". It can still
+miss the capability it needs if the posting never names the work or team
+boundary.
+[[cite:how-to-stand-out-in-data-science@6:49=>Career Playbook]].
 
 ## Requirements and Level
 

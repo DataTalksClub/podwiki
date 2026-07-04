@@ -189,12 +189,18 @@ continued investment.
 
 TV ads and physical banners can be hard to attribute directly. Timely traffic
 spikes and post-purchase survey questions can become proxy evidence for campaign
-measurement[[cite:building-and-scaling-data-team=>Data Team Scaling]].
+measurement[[cite:building-and-scaling-data-team@45:39=>Data Team Scaling]].
 
 That connects business metrics to [[product analytics]] and [[experimentation]],
 and it also shows the measurement limit. When the channel can't emit clean
 user-level events, the team still needs a measurement plan that states which
 proxy signals it trusts.
+
+The same proxy rule applies to internal data products. When direct ROI is hard
+to instrument, teams can use time studies, before-and-after comparisons, and
+surveys as early evidence. The metric is weaker than clean event tracking, but it
+still gives prioritization a concrete starting point.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
 
 Business-metrics work includes merit functions, project prioritization, and
 comparable units. It also includes sales pipeline metrics, professional services

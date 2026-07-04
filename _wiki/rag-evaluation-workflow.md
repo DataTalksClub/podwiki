@@ -42,7 +42,8 @@ system.
 Search evaluation starts before answer scoring because chunking and embeddings
 affect the evidence the model sees. Prompt context, citations, offline tests,
 and human review determine whether the final answer can be trusted.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@50:52=>Human-in-the-Loop RAG Evaluation]]
 That makes RAG evaluation part of
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 and
@@ -111,7 +112,7 @@ ranking or filtering. It may also belong in chunking, metadata, or context
 packaging.
 
 Evaluate the full RAG path
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]].
 
 Human review belongs in the loop because retrieval metrics can
 miss whether a passage actually answers the user's task or supports the final

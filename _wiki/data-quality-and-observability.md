@@ -169,7 +169,9 @@ report, or ML model can break anyway.
 Lior Barak adds the stakeholder-facing layer. When quality is uncertain, teams
 should proactively alert users before they discover the issue themselves. They
 can also expose uncertainty through confidence intervals or QA dashboards. That
-preserves decision confidence while the system is being repaired.
+preserves decision confidence while the system is being repaired. This is
+observability as communication, not only alert routing: the affected user learns
+whether the number is safe before using it in a meeting.
 [[cite:data-translator-role-and-data-strategy@07:46=>Data Translator Role]]
 [[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role]]
 

@@ -22,7 +22,8 @@ red teaming]], and [[responsible AI and governance]].
 In a 1,500-person chatbot hacking challenge, participants tried to bypass
 restrictions and force prohibited outputs. In one case, they extracted a hidden
 value from a knowledge database despite instructions and filtering
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+[[cite:generative-ai-chatbots-in-production-security@9:28=>Chatbot Hacking Challenge]]
+[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]].
 That turns chatbot risk into a system problem, not only a wording problem inside
 the prompt.
 
@@ -145,7 +146,7 @@ to manipulate than the chatbot because it has less open-ended behavior to
 exploit. That makes it useful for sensitive-content detection,
 extraction-attempt detection, and output blocking while the LLM handles the user
 conversation
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+[[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]].
 Deterministic checks don't solve every case. Narrow classifiers, query
 analysis, and output checks give the team controls outside the same model
 context the attacker is trying to manipulate.

@@ -97,19 +97,23 @@ features
 
 Scikit-learn appears in responsible-AI discussions as an integration layer for
 inspection and fairness tools. Fairlearn compares model performance across
-sensitive groups and visualizes disparities. A credit-scoring example keeps the
-technical tool tied to concrete harms, false positives, false negatives, and group
-definitions
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+sensitive groups and visualizes disparities. A credit-scoring example keeps
+the technical tool tied to concrete harms and group definitions. It also keeps
+false positives and false negatives visible
+([[cite:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@28:52=>Fairness in AI/ML Engineering]]).
 
 Compatible tooling still leaves the fairness objective to the team. People have
-to choose which groups, harms, and tradeoffs matter.
+to choose which groups, harms, and tradeoffs matter
+([[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]]).
 
 The scikit-learn connection is explicit because inspection tools and partial
 dependence support this work. Compatibility work keeps Fairlearn
 estimators fitting scikit-learn as the library evolves. Users should open issues
 when components fail inside their pipeline
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering@42:54=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]).
 
 Use [[Interpretability]] for the
 broader DataTalks.Club treatment of SHAP and partial dependence. It also covers
@@ -131,14 +135,14 @@ operational layers.
 
 Model persistence is a production boundary for scikit-learn. Pickle-style
 loading can execute untrusted objects
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]). The
+([[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML Engineering]]). The
 risk is operational, not algorithmic. It depends on how models are saved,
 loaded, shared, and trusted.
 
 The skops tool appears in that boundary as a safer persistence and sharing path.
 It also supports workflows where artifacts are distributed through model hubs
 rather than passed around as opaque pickle files
-([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML Engineering]]).
 
 Another boundary comes from implementation details. StandardScaler shows that a
 simple preprocessing idea still has to handle sparse matrices, data frames,

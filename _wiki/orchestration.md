@@ -213,7 +213,7 @@ templates keep repeated pipelines from becoming copy-pasted DAGs.
 Teams have more orchestration options than Airflow. [[person:adrianbrudaru=>Adrian Brudaru]]
 says Airflow is common, with Prefect and Dagster also popular. GitHub Actions
 can be enough for simple workflows because it's serverless and cheaper than
-always-on orchestrators [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 
 That tool landscape makes orchestration a cost and complexity choice. The same
 workflow may be a DAG, CI job, or managed scheduler. The choice depends on
@@ -253,7 +253,7 @@ manually, and no one needs shared task history.
 [[person:adrianbrudaru=>Adrian Brudaru]] gives the
 lighter-weight option by naming Airflow alongside Prefect, Dagster, and GitHub
 Actions. GitHub Actions can be enough for simple workflows because it avoids
-the cost of always-on orchestrators [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+the cost of always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]] makes a
 similar startup argument. He keeps orchestration in CI/CD where possible and
@@ -398,7 +398,7 @@ backfills. The project should show which data checks guard publication and who
 owns the alert.
 
 The work may still be one script with one simple schedule. In that case,
-Brudaru's GitHub Actions example may fit better than a full Airflow deployment [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Brudaru's GitHub Actions example may fit better than a full Airflow deployment [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 
 Kretz's CloudWatch and Lambda path may fit too [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 Nemanja's CI/CD-first startup path is another small-team option [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].

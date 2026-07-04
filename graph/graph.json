@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10896
+    "links": 10913
   },
   "nodes": [
     {
@@ -23350,6 +23350,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -25199,6 +25205,12 @@
     {
       "source": "wiki:ai-product-feedback-loops",
       "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28606,6 +28618,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "podcast:biohacking-productivity-for-data-scientists-and-ml-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -28840,6 +28858,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
@@ -28883,6 +28907,12 @@
     {
       "source": "wiki:career-growth",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "podcast:how-to-stand-out-in-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30520,6 +30550,12 @@
     },
     {
       "source": "wiki:community-building",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
       "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "wiki-chip",
       "weight": 1
@@ -30563,6 +30599,12 @@
     {
       "source": "wiki:community-building",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39634,7 +39676,19 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:ai-engineer-role",
       "kind": "article-chip",
       "weight": 1
     },
@@ -42737,6 +42791,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46342,6 +46402,12 @@
     },
     {
       "source": "wiki:developer-relations",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-relations",
       "target": "podcast:public-speaking-for-data-scientists",
       "kind": "wiki-chip",
       "weight": 1
@@ -49858,6 +49924,12 @@
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
       "target": "person:orellgarten",
       "kind": "wiki-chip",
       "weight": 1
@@ -49901,6 +49973,12 @@
     {
       "source": "wiki:freelance-data-and-ml-careers",
       "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52864,6 +52942,12 @@
     },
     {
       "source": "wiki:kpis",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
       "target": "podcast:building-production-search-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -52889,6 +52973,12 @@
     {
       "source": "wiki:kpis",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59932,6 +60022,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-chip",
       "weight": 1
@@ -63473,6 +63569,12 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
     },

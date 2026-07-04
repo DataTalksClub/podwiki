@@ -120,8 +120,12 @@ Irrelevant personal information doesn't prove job fit and can introduce bias[[ci
 Automation makes the same risk operational. In a hiring-tool case, historical
 hiring data favored male candidates. The model then kept favoring them.
 Screening teams need bias detection before release and remediation when
-shortlists skew. They also need governance over feature choices and a human who
-is accountable for questioning the system's shortlist[[cite:responsible-explainable-ai-bias-detection=>Responsible AI]].
+shortlists skew.
+
+Remediation can mean changing the training data, removing proxy features,
+adding fairness checks, or routing the shortlist through human review. Teams
+also need governance over feature choices and a human who's
+accountable for questioning the system's shortlist[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]].
 
 ## Portfolio Evidence for Screenable Claims
 

@@ -83,7 +83,7 @@ watermarks, windows, and backpressure without tying them to a single framework.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] adds the modern
 data-stack warning in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
 He says many systems described as streaming are micro-batches unless strict
 service-level agreements justify Kafka, Flink, or
 similar infrastructure. Short batches or micro-batches can reduce latency while
@@ -96,7 +96,7 @@ treat Kafka as the whole system. Kretz uses Kafka and Kinesis for click-event
 ingestion in
 [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 Brudaru names Kafka and SQS as common buffers in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
 He also puts Flink in the stricter streaming path, while warning that many
 "streaming" systems are micro-batch pipelines unless the SLA requires continuous
 event processing.
@@ -156,7 +156,7 @@ He also mentions Lambda and Glue jobs after saying the team should understand
 the schema, transformation steps, and desired output before choosing an
 implementation. Docker jobs appear in the same implementation discussion.
 Brudaru places Flink beside Kafka and SQS in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
 He discusses micro-batching in the same section.
 
 [[person:elenitziritazacharatou=>Eleni Tzirita-Zacharatou]]

@@ -75,7 +75,8 @@ technical coaching than long-term mentorship.[[cite:mentoring-in-tech-how-to-fin
 The search for a mentor usually starts with existing networks, company
 programs, formal mentoring platforms, or careful outreach. The mentor needs
 relevant experience and the ability to mentor. Topic expertise alone isn't
-enough.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+enough. The first fit may not be the right fit. Try a company program, personal
+network, mentoring platform, or LinkedIn outreach over a few iterations.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@10:18=>How to Find a Mentor and Become One]]
 
 Communities make outreach less anonymous. Meetups, Slack groups, and course
 channels give a potential mentor a reason to recognize the person asking for
@@ -85,9 +86,12 @@ responsible-AI education, resources, and networking.[[cite:applied-llm-research-
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Cold outreach still works when the message is specific. The first message
-should say who the person is, what they're struggling with, what they've
-already tried, and what question they want help with. A vague request to help
-with something gives the mentor too little to answer.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+should give background and one concrete question. It should also name the
+current struggle and prior attempts. Vague help requests give the mentor too
+little to answer. Community participation improves the odds because the
+recipient can already see how the person contributes.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@13:04=>How to Find a Mentor and Become One]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@15:02=>How to Find a Mentor and Become One]]
 
 ## Preparing a Useful Session
 
@@ -118,7 +122,8 @@ People can learn the skill. Technical people already practice parts of
 mentoring when they onboard teammates or help colleagues get unstuck. They also
 practice it when they support someone in a new role. The explicit mentoring
 version requires better questions. It also requires a check on the "advice
-monster" reflex of jumping straight to solutions.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+monster" reflex of jumping straight to solutions. The mentor listens first,
+then helps the mentee name the problem before offering options.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@29:15=>How to Find a Mentor and Become One]]
 
 Community mentoring scales that habit. Open mentoring, DataBuzz resources, and
 public career support create more entry points than a private one-to-one
@@ -131,7 +136,9 @@ Broad encouragement can't replace context, questions, and review.[[cite:applied-
 Mentoring needs boundaries because both sides have limited time and context.
 Long-term relationships should set expectations about cadence, goals, and what
 has to change between sessions. If nothing changed since the previous
-conversation, another call may create comfort without progress.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+conversation, another call may create comfort without progress. A good boundary
+can be simple. Meet again when the situation has changed enough to discuss a
+new decision.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@34:12=>How to Find a Mentor and Become One]]
 
 A person can also build a small set of mentors for different needs. One mentor
 may help with domain direction, another with leadership, and another with
@@ -140,9 +147,14 @@ answer every career and technical question.[[cite:mentoring-in-tech-how-to-find-
 
 Charging for mentoring changes the relationship. When people pay for mentoring,
 both sides can raise commitment and clarify expectations. Senior leaders and
-professional coaches use this model more often. For early-career
-practitioners, paid support more often appears as interview preparation,
-technical coaching, or a scoped service. Mentoring connects to
+professional coaches use this model more often.
+
+Early-career practitioners more often pay for interview preparation or
+technical coaching. A paid mentoring setup can make goals and accountability
+clearer. It should still be priced and scoped around real value. Vague access
+to a senior person isn't enough.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@35:59=>How to Find a Mentor and Become One]]
+Mentoring connects to
 [[freelance data and ML careers]] when the mentor is selling professional help.
 Community mentoring remains a different relationship.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 

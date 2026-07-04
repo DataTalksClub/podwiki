@@ -55,7 +55,7 @@ then share one model on top of the same underlying data.[[cite:from-iot-data-eng
 Loading first gives analysts more flexibility. They can add new warehouse
 transformations without asking engineers to rebuild extraction code. Warehouses
 and marts differ in scope. Warehouses hold the broader analytical layer, while
-data marts serve narrower consumption needs.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+data marts serve narrower consumption needs.[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]]
 
 Daily analytics engineering work ties data modeling, pipelines, and data quality
 together. Looker and Snowflake sit in the same tool stack. dbt supplies SQL
@@ -102,15 +102,20 @@ question.
 
 Warehouses serve modeled analytics, and marts narrow that modeled layer for a
 team or subject area. Lakes and lakehouses keep a different storage boundary.
-Warehouses sit near dbt and BI, with marts and reverse flows nearby.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+Warehouses sit near dbt and BI, with marts and reverse flows nearby.[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]]
 
 The same warehouse-centered model applies to product and growth data. Teams
 collect events and store them. They transform the events for BI and send
 selected data back to sales, support, or engagement tools.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 
 [[data-lake=>Data lakes]] preserve broader raw or
-semi-structured storage. That storage is useful for files, logs, media, and less
-structured data. Without governance, a lake turns into a swamp.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+semi-structured storage for files, logs, media, and less structured data.
+Without governance, a lake turns into a swamp.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+
+Warehouse and lake categories can converge, but the consumer still matters.
+Analytics teams often live in the warehouse. Engineering teams may need a lake
+for application data and flexible files
+[[cite:data-engineering-tools-modern-data-stack@24:24=>ETL vs ELT and the Modern Data Stack]].
 
 Lakehouses try to add warehouse-like table guarantees to lake storage. They
 separate storage from table format. They also separate the catalog from compute
@@ -126,7 +131,8 @@ BI-ready tables inside the warehouse.[[cite:data-engineering-tools-modern-data-s
 Teams using warehouse-centered ELT usually load source data and transform it
 with SQL. Then they test it, document it, and expose it through BI or activation
 tools. The stack connects Airbyte-style extraction and loading to dbt
-integration. It also includes orchestration, CDC, and reverse data flows.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+integration. It also includes orchestration, CDC, and reverse data flows.[[cite:data-engineering-tools-modern-data-stack@30:59=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@33:45=>ETL vs ELT and the Modern Data Stack]]
 
 dbt matters because it puts software-engineering habits around SQL models
 through transformations, version control, tests, and a DAG. Looker and Snowflake

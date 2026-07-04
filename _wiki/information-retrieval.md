@@ -33,6 +33,11 @@ answer quality after retrieval, use
 For the broader map across retrieval systems and LLM applications, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
+Atita Arora keeps the classical learning path in view before vector databases
+and RAG tooling. She names Introduction to Information Retrieval and Relevant
+Search as useful starting points
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@57:50=>IR Learning Resources]]).
+
 ## Candidate Generation and Ranking
 
 Information retrieval is two connected jobs: retrieve candidate items quickly,
@@ -104,7 +109,7 @@ for exact words and filters, and it also helps with domain terminology or
 predictable matching behavior. Solr and Lucene sat at the center of practical
 search work before the current vector wave. Full-text search and NLP-based
 query-content matching belonged to that same practical search work
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@4:42=>Solr and Lucene Search]]).
 
 Sadat Anwar's OLX search story shows the production side of that boundary
 [[cite:from-software-engineering-to-leading-data-science-teams@6:31=>Search Engineering at OLX]].
@@ -134,7 +139,7 @@ recompute vectors or rebuild indexes.
 
 When teams add vectors, they don't always need to dump an existing Solr,
 Elasticsearch, or OpenSearch stack
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]).
 A standalone vector database can sit beside the current search system when
 reindexing the production stack is risky.
 

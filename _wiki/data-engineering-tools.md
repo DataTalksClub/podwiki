@@ -61,6 +61,13 @@ Teams often build the stack in this order:
 Tool choice should follow the business requirement, team skills, and operating
 cost instead of vendor-led collection.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
+Open-source tools add another selection risk. Airbyte's connector model uses
+open source to cover the long tail of APIs. The same episode treats licensing
+and cloud-provider competition as part of the tool decision. Elasticsearch and
+AWS are the cautionary example
+[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
+
 Production ML pipelines add the production version of the same warning. Every
 extra queue, processor, cloud service, or scheduler becomes another operational
 surface. Tool breadth only helps when the team can monitor, debug, secure, and
@@ -84,12 +91,18 @@ ingestion libraries, event collection tools, and change data capture systems.
 Airbyte-style connectors move data from sources such as ads APIs into
 warehouses such as Snowflake. Change data capture syncs row-level changes
 instead of reloading a whole source each time. CDC helps when database changes
-matter and full reloads are too slow or too expensive.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+matter and full reloads are too slow or too expensive.[[cite:data-engineering-tools-modern-data-stack@45:59=>Modern Data Stack]]
 
 Library-first ingestion tools cover a different edge of the category. Adrian
-Brudaru describes dlt for Python users. It turns nested JSON into relational
-tables declaratively. Without that step, teams dump raw JSON into a warehouse.
-Downstream users then have to untangle the structure later
+Brudaru describes dlt for Python users. In the 2025 trends discussion, he calls
+dlt a Python-based ingestion standard and connects it to a broader DLT Plus
+platform direction.
+
+In an earlier dlt conversation, he explains the practical need: dlt turns nested
+JSON into relational tables declaratively. Without that step, teams dump raw
+JSON into a warehouse. Downstream users then have to untangle the structure
+later
+[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering]]
 [[cite:from-data-freelancer-to-startup-open-source-products@17:51=>Dumping JSON Into Warehouses]]
 [[cite:from-data-freelancer-to-startup-open-source-products@19:38=>Declarative JSON to Relational]].
 
@@ -116,6 +129,13 @@ backfills and alerts.
 Airflow, Prefect, and Dagster represent different data-native orchestration
 choices. GitHub Actions can cover lighter automation.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]][[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
+In warehouse-centered stacks, Airflow schedules jobs around the extractor and
+transformer. Natalie Kwong places Airbyte in the extract-load layer and dbt in
+the warehouse transformation layer
+[[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]].
+Airflow coordinates jobs around both
+[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]].
+
 Orchestration becomes more important as team size and failure cost grow.
 A scale-up data platform needs self-service onboarding and Airflow. It also
 needs conventions, playbooks, and shared practices. Event streaming adds Kafka,
@@ -139,8 +159,10 @@ warehouse-side transformation. Many analytics-heavy teams load raw data,
 transform it into documented models, and serve BI or operational syncs from
 trusted tables.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
-Data lakes fit raw files, logs, media, and semi-structured data. Without
-governance, the same storage design can become a data swamp.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+Data lakes fit raw files, logs, media, and semi-structured data. If teams skip
+governance, the same storage design can become a data swamp. To prevent that,
+teams assign ownership and run quality checks. They clean up stale data and
+document where data came from.[[cite:data-engineering-tools-modern-data-stack@21:22=>Modern Data Stack]]
 Use the
 [[Data Lake]] and
 [[Data Warehouse]] pages for the

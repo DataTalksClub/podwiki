@@ -64,16 +64,20 @@ inside a larger agentic system.[[cite:building-agentic-ai-engineering-tooling-re
 Long-context research adds another boundary because large context windows can
 still degrade on specialized documents. Chunking, retrieval, and summarization
 remain useful even when a model advertises a large context
-window.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
+window.[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
 
 ## Retrieval and Context Design
 
 Chunking is part of answer quality, not just storage. In transcript and document
 RAG, chunk size and overlap affect what the model receives. Embedding choice,
 vectorization, prompt design, and citations affect whether the reader can look
-at the evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+at the evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
 
 Chunking can use fixed-length chunks, sliding windows, or context rotation.
+In Atita Arora's podcast-transcript example, overlap matters because pronouns
+and references can cross chunk boundaries. The ingestion strategy has to
+preserve enough nearby context before the model generates an answer
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]].
 
 Failure analysis should separate retrieval failures from prompt or formatting
 failures. Teams can then fix missing or noisy context before polishing the
@@ -113,7 +117,7 @@ missing source metadata. It can also fail because the prompt uses the evidence
 badly or because the answer overstates what the sources support.
 
 Multi-level RAG evaluation includes retrieval checks and answer
-checks.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+checks.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
 Offline tests and human review are part of the same evaluation work. Gold tests
 and failure categories show whether to fix retrieval, prompting, formatting, or
 data preparation.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]

@@ -56,7 +56,8 @@ Documents can be chunked by heading, section, or a sliding token window.
 
 Atita's transcript example uses chunking and overlap with embeddings and
 retrieval. It also covers prompt design and citations
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Chunking, Overlap, and Embeddings]].
 The same project evidence belongs with
 [[Embeddings]] and
 [[Vector Databases]].

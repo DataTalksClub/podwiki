@@ -21,7 +21,7 @@ fresher source data without paying the cost of a full reload.
 
 One connector-centered definition starts after an initial sync. An Airbyte-style
 connector captures changed records and updates the destination with those
-changes [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+changes [[cite:data-engineering-tools-modern-data-stack@45:59=>ETL vs ELT and Modern Data Engineering]].
 In a marketplace example, only 10% of rows may change. CDC avoids reading and
 writing the other 90%. It also captures deleted rows that an append-only sync
 might miss.
@@ -39,7 +39,7 @@ cover the reliability work around the feed.
 CDC is row-level movement that captures inserts, updates, and deletions. Sellers
 may change marketplace listing titles or prices. The data team wants those
 changed listing records instead of another copy of all active listings
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+[[cite:data-engineering-tools-modern-data-stack@45:59=>ETL vs ELT and Modern Data Engineering]].
 The destination can apply the changes to current-state tables or store history.
 
 A lower-level version places CDC next to full database dumps, application change
@@ -109,7 +109,7 @@ CDC needs those checks when it keeps warehouse tables current.
 CDC solves row movement, not every modeling problem. Business systems keep adding
 fields as teams collect new information. A Salesforce checkbox or picklist can
 become a new warehouse column
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+[[cite:data-engineering-tools-modern-data-stack@48:58=>ETL vs ELT and Modern Data Engineering]].
 CDC pipelines have to handle those source changes without silently dropping
 fields or breaking downstream models.
 

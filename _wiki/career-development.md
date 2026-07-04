@@ -94,6 +94,13 @@ Home automation, plant-monitoring, and coffee-machine examples show how
 everyday curiosity can become data evidence.
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 
+A useful Kaggle dataset can prove public practice. It should fill a real gap
+and include a workable license. A simple notebook helps learners use it. That
+evidence can open teaching and mentoring opportunities even when it isn't the
+main job-search proof.
+[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research and Career Growth]]
+[[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research and Career Growth]]
+
 Public proof also extends beyond finished projects because self-marketing can
 support recognition and promotion. It can also support open-source adoption and
 internal persuasion when it's based on honest progress, corrections, and earned
@@ -124,6 +131,12 @@ speaking, confidence to publish, and monetization extend that public presence.
 Public work is useful when it clarifies what the person wants to be known for.
 [[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
 
+Learning in public works better when posts help readers, and timing or format
+can increase LinkedIn reach. Comments help too, but the durable signal still
+comes from useful field notes and examples rather than personal brags.
+[[cite:how-to-stand-out-in-data-science@57:30=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@1:02:24=>Data Science Career Playbook]]
+
 Volunteer work adds external review. LinkedIn, social media, and mailing lists
 can surface volunteer opportunities, while volunteer applications and interview
 pitching turn practical experience into referrals and soft skills. They also
@@ -149,6 +162,12 @@ Interview readiness can compound during a transition. Early failures, coding
 gaps, committed preparation, and a LeetCode plan can sit alongside ML design
 preparation with decomposition and blogs.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
+
+For applied-research and LLM-heavy roles, interview readiness needs both sides.
+Candidates practice algorithms or LeetCode for screens. They also need
+conceptual depth, project defense, mock interviews, and clear explanations of
+benchmarking work.
+[[cite:applied-llm-research-and-career-growth-in-practice@54:33=>Applied LLM Research and Career Growth]].
 
 System design preparation uses Grokking-style study and mock interviews, which
 depend on a mentor network.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].

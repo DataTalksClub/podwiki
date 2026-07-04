@@ -47,6 +47,12 @@ context. The shared move isn't "take any data gig." It turns previous skills
 into credible client proof. It also chooses a narrow enough problem space and
 keeps delivery close to feedback.
 
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] adds an AI-era consulting
+variant. He distinguishes hands-on consulting that helps teams ship products
+from advisory work that helps nontechnical teams restructure around AI tools.
+He keeps teaching and DevRel in the same independent practice
+([[cite:practical-llm-engineering-and-rag@7:11=>AI Consulting and Advisory]]).
+
 ## Practice-Building Starts With Proof
 
 Orell's first freelance signal came through a contact from his startup period.

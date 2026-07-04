@@ -64,7 +64,7 @@ tooling category. The operating habit matters more than the vendor: log the
 intermediate calls early and keep the MVP debuggable. Use those traces for
 failure analysis before adding more architecture
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]],
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+[[cite:practical-llm-engineering-and-rag@27:38=>LLM Observability]]).
 
 ## Evaluation and Regression
 

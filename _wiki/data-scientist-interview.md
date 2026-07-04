@@ -148,6 +148,12 @@ explanation in the plan. Prepare the screen the company uses, then reconnect the
 answer to the work the role actually owns
 [[cite:applied-llm-research-and-career-growth-in-practice@54:33=>Applied LLM Research Interview Prep]].
 
+For applied LLM roles, the project conversation should include benchmarking
+details, not only model names. Long-context evaluation and objective metrics
+give interviewers concrete material to probe. Fallback design matters when the
+work is closer to research than dashboard analysis.[[cite:applied-llm-research-and-career-growth-in-practice@12:36=>Applied LLM Research]]
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
+
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions
 [[cite:hiring-for-data-science-jobs-interview-questions-skills@25:21=>Technical Interview Checks]].
