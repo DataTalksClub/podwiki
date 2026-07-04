@@ -181,7 +181,7 @@ orchestration-specific tool discussion. In a typical warehouse stack, Airflow
 or another orchestrator coordinates extract-load jobs and dbt runs. It also
 coordinates checks and downstream syncs. dbt owns the transformation graph and
 model tests. The orchestrator owns when jobs run, how retries happen, and how
-the end-to-end [[data-pipelines|data pipeline]]
+the end-to-end [[data-pipelines=>data pipeline]]
 recovers.
 
 ## Tool Identity and Alternatives

@@ -22,7 +22,7 @@ evaluation, and contribution belong in the same tool conversation. Tools matter
 less when the conversation turns into names without ownership, tests, docs, or
 feedback.
 
-Several episodes return to that structure. [[person:nataliekwong|Natalie Kwong]]
+Several episodes return to that structure. [[person:nataliekwong=>Natalie Kwong]]
 uses Airbyte, dbt, and Airflow to explain modern data engineering tradeoffs.
 She also covers CDC, data lakes, and warehouses in
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
@@ -214,7 +214,7 @@ For article coverage, see
 ## Search, RAG, and Agent Tooling
 
 Search and RAG episodes treat tools as retrieval architecture, not as a prompt
-decoration. [[person:atitaarora|Atita Arora]] starts
+decoration. [[person:atitaarora=>Atita Arora]] starts
 from Solr, Lucene, and full-text search in
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 She then moves to NLP and vector databases.

@@ -119,7 +119,7 @@ A vector database can retrieve context, but the application still needs source
 selection and permissions. It also needs citations and
 [[LLM evaluation workflows]].
 
-In [[rag-vs-fine-tuning|RAG vs Fine-Tuning]],
+In [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 retrieval fits changing facts and source-backed answers while fine-tuning fits
 behavior, style, or task adaptation. Vector databases help with the retrieval
 side of that decision, but they don't choose the model behavior.
@@ -166,7 +166,7 @@ architecture choices about evidence structure. Some systems need similar text or
 images. Others need entities, paths, report structure, or domain relationships.
 
 For the underlying graph database technology, Dave Bechberger and Josh
-Perryman's [[book:20210614-graph-databases-in-action|graph database book]]
+Perryman's [[book:20210614-graph-databases-in-action=>graph database book]]
 covers property graph models and query patterns. It also covers when graph
 storage fits a domain better than relational or vector stores.
 
