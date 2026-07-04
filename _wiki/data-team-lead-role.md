@@ -158,10 +158,11 @@ a record of decisions and conflicts, plus hires and outcomes
 
 [[person:marianosemelman=>Mariano Semelman]] frames
 new-manager onboarding as deliberate learning before intervention. A new data
-science lead needs an explicit first month of relationship-building, team
-diagnosis, and delivery expectation-setting before trying to change the team.
-That makes a realistic 30/60/90 plan part of the lead's responsibilities, not
-just a personal productivity exercise ([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]]).
+science lead should spend the first month on relationships and team diagnosis.
+The lead should also set delivery expectations before trying to change the team.
+The lead owns a realistic 30/60/90 plan, not just personal productivity
+([[cite:data-science-leadership-hiring-mlops@12:52=>Leadership Hiring MLOps]],
+[[cite:data-science-leadership-hiring-mlops@15:16=>Leadership Hiring MLOps]]).
 
 The boundary with a
 [[data-architect-role=>data architect]] is that the

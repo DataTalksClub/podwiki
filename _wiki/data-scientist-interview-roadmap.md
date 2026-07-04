@@ -233,7 +233,7 @@ skills, in
 
 For coding interviews, treat LeetCode-style practice as a planned track. Use
 repetition to turn early failures into feedback instead of final-week cram
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>From Academia to Staff AI Engineer]].
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>From Academia to Staff AI Engineer]].
 
 Case practice should start with the decision, not the algorithm. Oleg's
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]

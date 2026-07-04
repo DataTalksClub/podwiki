@@ -207,7 +207,7 @@ features a model actually saw makes later debugging and reproduction more
 concrete. A feature store gives that logging a stable vocabulary of feature
 definitions. Incident reviews can then reason from known inputs instead of
 reconstructing them from scattered
-services. [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+services. [[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]]
 
 After launch, teams can see data drift and concept drift. They also need to keep
 challenging whether a production model remains the right

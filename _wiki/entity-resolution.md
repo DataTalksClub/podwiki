@@ -122,13 +122,19 @@ generation. They also need to handle transitive matches and scale
 Astronomy extends the same matching problem beyond customer or supplier data.
 Multi-wavelength catalog cross-matching compares observations from radio,
 optical, infrared, or X-ray catalogs. Sources are matched by position when
-catalogs don't share one stable identifier.
+catalogs don't share one stable identifier. Daniel Egbo's MEERKAT workflow
+turns point-source detections into candidate matches against optical catalogs.
+His example connects
+[[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]] to the
+same matching problem
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Radio Astronomy to ML and Data Engineering]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>Radio Astronomy to ML and Data Engineering]].
 
 The match depends on positional astronomy and uncertainty. In a 2D sky projection,
 two measurements may look close. One object can still be foreground while
 another is in the background. That makes entity resolution a judgment about
 evidence and uncertainty. It isn't just exact keys or string similarity
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]].
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>Radio Astronomy to ML and Data Engineering]].
 
 When fields such as names, addresses, emails and KYC identifiers vary, teams get
 a graph of records that belong together. They can consume that linked output as
@@ -228,16 +234,18 @@ analyze spending and affiliations. The same mechanism that supports customer
 analytics can support public-interest data when the entities are donors or
 recipients rather than customers or orders.
 
-A domestic risk-assessment project adds a higher-stakes public and
-social-service example. The project drew on case-management data plus public
-records and surveys. Those sources had to be cleaned and linked before the team
-could engineer features for a risk score
-[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]].
+A domestic risk-assessment project adds a higher-stakes service example. The
+project drew on case-management data plus records and surveys. The team linked
+those sources before engineering risk-score features
+[[cite:building-domestic-risk-assessment-tool@10:45=>Building a Domestic Risk Assessment Tool]]
+[[cite:building-domestic-risk-assessment-tool@14:20=>Building a Domestic Risk Assessment Tool]].
 
 In that setting, entity resolution isn't just a matching convenience. Linkage
 choices and unresolved uncertainty affect which people, events, services, and
 risk signals appear connected. Privacy, governance, and bias checks have to
-come before scoring or decision support.
+come before scoring or decision support. Teams face the same end-to-end concern
+in [[end-to-end-data-pipeline-project=>data pipeline projects]] when they serve
+frontline decision-support workflows instead of dashboards.
 
 ## Related Topics
 

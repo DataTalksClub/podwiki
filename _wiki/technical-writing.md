@@ -207,7 +207,7 @@ who first built them.
 
 Internal projects can borrow open-source documentation checklists for README
 material, guides, API reference, and examples
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]].
 For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
 to "how do I use it safely?"
@@ -262,7 +262,7 @@ behavior
 Open-source writing adds maintainer trust by treating documentation as part of
 [[open source]] stewardship. That work includes README material, guides, API
 reference, and examples
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]].
 
 Contribution guides and respectful interaction matter because a clear
 reproducible issue is a valuable first contribution. Tests, packaging, CI, and

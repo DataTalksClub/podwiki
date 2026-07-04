@@ -57,6 +57,14 @@ cases.
 The consumer might be an analyst or dashboard. It might also be a model table,
 alert, or operational user.
 
+A public-sector risk-assessment project uses the same pipeline structure for a
+higher-stakes consumer. The team had to clean and link case-management data with
+public records and surveys. The team then turned them into features for frontline
+triage. That makes [[entity-resolution=>entity resolution]] and governance part
+of the pipeline design. They aren't cleanup steps after modeling
+([[cite:building-domestic-risk-assessment-tool@10:45=>Building a Domestic Risk Assessment Tool]]
+[[cite:building-domestic-risk-assessment-tool@14:20=>Building a Domestic Risk Assessment Tool]]).
+
 Modeling covers entities, relationships, and business meaning, and dashboards
 tie marts to user personas
 ([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
@@ -113,8 +121,11 @@ pipeline capstone combines Docker with a project that can be explained and run
 
 One concrete course project moves data from MySQL into MinIO. Spark handles
 processing and warehouse loading. Kestra or Airflow then makes handoffs and
-reruns visible rather than implicit
-([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]]).
+reruns visible rather than implicit. The same learner came from
+[[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]]. That
+example turns domain research work into portfolio-grade data engineering evidence
+([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to ML and Data Engineering]],
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to ML and Data Engineering]]).
 
 A reviewer should be able to run the pipeline, look at a failed task, and rerun
 the job without private instructions. Scheduling sits around the modern stack

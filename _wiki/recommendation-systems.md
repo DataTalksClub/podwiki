@@ -66,12 +66,15 @@ databases in this example. Production recommendation systems depend on
 and [[batch-vs-streaming=>batch versus streaming]].
 
 In the retrieval-and-ranking view, search systems split into candidate
-generation and ranking, and that same split fits recommendations.[[cite:building-production-search-systems=>Building Search Systems]]
+generation and ranking. Recommendation systems use the same split.[[cite:building-production-search-systems=>Building Search Systems]]
 
-The same ranking mindset extends beyond search and recommender systems. Real-time
-bidding and campaign optimization also ask which option to show, price, or fund
-next. The common test is whether the product goal and feedback signal make the
-ranking useful.[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]]
+The same ranking mindset extends beyond search and recommender systems.
+It also appears when a system allocates attention or money in real time.
+Teams need to ask whether the product goal and feedback signal make the ranking
+useful [[cite:data-science-leadership-hiring-mlops@19:57=>Data Science Leadership and MLOps]]
+[[cite:data-science-leadership-hiring-mlops@21:19=>Data Science Leadership and MLOps]].
+Use [[algorithmic-trading=>algorithmic trading]] for the adjacent automated
+bidding and decisioning structure when money allocation is the product action.
 
 First, narrow the item universe to plausible candidates. Then score and reorder
 the list through the same path that handles filters and serving.
@@ -109,7 +112,7 @@ operational [[data-products=>data product]].[[cite:theme-park-crowd-modeling-to-
 
 The healthcare example recommends content, exercises, and behavior changes, but
 the system has an explicit health agenda. It isn't only maximizing similarity to
-past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
 
 ## Candidate Generation, Ranking, and Retrieval
 
@@ -183,7 +186,7 @@ decision meant to reduce waiting and improve the park experience.
 
 Agenda-driven personalization adds a normative goal. At Sidekick Health, the
 recommender nudges people toward healthier behavior rather than only reinforcing
-past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
 
 The item catalog includes educational content, cards, and exercises. That makes
 the recommendation problem closer to a treatment plan than a media feed.

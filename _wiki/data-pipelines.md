@@ -320,9 +320,10 @@ which consumers may break and where the cause sits.
 
 Production pipelines also differ by latency and ownership. Kretz's
 [[cite:production-ml-pipelines-with-aws-and-kafka=>notebook-to-production episode]]
-starts with ingestion plus buffering before transforms and storage.
-Visualization and serving come next, and his practical line is to keep the
-first production version simple enough to operate. Ramirez's
+puts ingestion plus buffering before later work. Transforms, storage,
+visualization, and serving follow.[[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>notebook-to-production episode]]
+His practical line is to keep the first production version simple enough to
+operate. Ramirez's
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>fraud-prevention pipeline]]
 uses daily feature jobs beside live checkout decisions, so
 [[Batch vs Streaming]]

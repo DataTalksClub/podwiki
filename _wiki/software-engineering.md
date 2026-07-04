@@ -53,8 +53,15 @@ model too. The shift from notebooks into packages and CI/CD is a software
 engineering change as much as an ML tooling change.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 DataOps discussions apply the same discipline to pipelines and analytics
-products. Data teams use CI/CD pipelines and regression tests, add test data,
-and connect version control to deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+products. Data teams use CI/CD pipelines and regression tests. They add test
+data and connect version control to deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+
+Analytics craft needs the same maintainability bar.
+Katie Bauer describes documentation and peer review as part of senior analytics
+practice. Maintainable work isn't only a habit for application engineers
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]].
+That connects [[Analytics Engineering]] to software engineering when modeled
+data becomes shared team infrastructure.
 
 Marcello La Rocca adds a lower-level version of the same habit. Abstractions are
 useful until performance, memory, or correctness depends on the implementation.

@@ -27,8 +27,12 @@ The strongest CV and portfolio make fit easy to see. Recruiter screening starts
 with readable presentation and industry fit. It then checks use-case fit,
 project links, career narrative, and business impact.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
-Candidates can treat the CV like a landing page. They use it to earn the next
-conversation by showing personal contribution, not a vague tool list.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+Candidates can treat the CV like a landing page to earn the next conversation.
+Instead of listing tools vaguely, they should show personal
+contribution.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+
+Iofciu gives the same practice a career-growth use. CV review and retrospectives
+help candidates name achievements without bragging.[[cite:data-leadership-coaching@36:14=>Coaching]][[cite:data-leadership-coaching@38:33=>Coaching]]
 Career changers may need several rewrites before the CV shows transferable
 skills in recruiter-friendly language. CJ Jenkins describes moving from an
 academic CV toward a skills-first resume. She also mentions LinkedIn keywords,

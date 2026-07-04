@@ -69,7 +69,7 @@ The scikit-lego examples show why the scikit-learn API became an experimentation
 surface. Scikit-lego is a set of scikit-learn-compatible pipeline components. One
 transformer clips an outlier at prediction time so behavior can live inside a
 normal pipeline
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions@17:15=>Contribute to Open Source ML]]).
 
 The same ecosystem groups scikit-lego with human-learn and whatlies
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]). Human

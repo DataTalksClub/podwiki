@@ -79,7 +79,7 @@ harmless in one program and unsafe for heart-failure patients in another.
 Digital therapeutics therefore need medical review before rollout. Governance
 sets clinical and ethical boundaries with a different tolerance for risk than
 normal product A/B testing
-[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
+[[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Healthcare Experiment Safeguards]].
 
 For a practitioner reference on these bias and fairness tradeoffs, see
 [[book:20220523-practical-fairness=>Practical Fairness]] by Nielsen Aileen. The
@@ -163,9 +163,18 @@ entry routes for impact-focused data work
 A domain-specific risk-scoring case covers data cleaning, feature engineering,
 and risk scoring for a frontline social-services tool. It connects bias
 assessment and model evaluation to privacy compliance and legal governance. A
-human-in-the-loop decision support tool must balance accuracy, fairness, and
-privacy before it can reach operational use
-[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]], [[person:sabinafirtala=>Sabina Firtala]].
+human-in-the-loop decision support tool must balance accuracy and fairness. It
+also has to satisfy privacy requirements before it can reach operational use
+([[cite:building-domestic-risk-assessment-tool@18:00=>Risk Scoring Architecture]]
+[[cite:building-domestic-risk-assessment-tool@21:40=>Validation and Bias Assessment]]
+[[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]]),
+[[person:sabinafirtala=>Sabina Firtala]].
+
+The same case also shows that social-impact ML governance extends beyond model
+approval. NGO and agency partnerships affect whether the tool can keep operating
+after a prototype or pilot. Funding and sustainability matter for the same reason
+([[cite:building-domestic-risk-assessment-tool@52:10=>NGO and Agency Partnerships]]
+[[cite:building-domestic-risk-assessment-tool@55:00=>Funding and Sustainability]]).
 
 ## Explanations and Review Evidence
 
@@ -205,6 +214,11 @@ each audience must review.
 It also defines what the interface exposes. Product safety or regulation may
 require a human path rather than a bare model score
 [[cite:software-engineering-for-machine-learning@47:16=>Software Engineering for Machine Learning]].
+Nadia Nahar's product-centric fairness framing makes that an engineering
+requirement. Teams have to design responsible AI into requirements, team
+boundaries, testing, and the surrounding software product. They can't only
+measure it after model training
+[[cite:software-engineering-for-machine-learning@54:16=>Product-Centric Fairness]].
 
 For LLM and agent systems,
 [[LLM Evaluation Workflows]]

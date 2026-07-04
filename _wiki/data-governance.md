@@ -19,9 +19,11 @@ DataTalks.Club episodes connect governance to
 They also connect it to [[privacy-engineering-for-ml=>privacy engineering]],
 [[security]], and the operating model around [[DataOps]].
 
-Governance is more than PII controls or access monitoring. A company needs
-inventory before it can use or secure its data. The same inventory tells the
-company what to retain or remove.[[cite:cloud-data-governance=>Cloud Data Governance]]
+Governance is more than PII controls or access monitoring. Jessi Ashdown and
+Uri Gilad frame it as people, processes, and tools for making data usable with
+controlled risk. A company needs inventory before it can use or secure its
+data. The same inventory tells the company what to retain or
+remove.[[cite:cloud-data-governance@6:40=>Cloud Data Governance]][[cite:cloud-data-governance@14:04=>Cloud Data Governance]]
 
 The access-management framing adds that governance creates trust in data for
 analysts, data scientists, and customers.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
@@ -42,12 +44,13 @@ People can then find the right data
 and judge whether it supports a decision without creating avoidable privacy or
 security risk. It also limits compliance risk.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-Jessi Ashdown and Uri Gilad define governance as people, procedures, and tools.
-They first ask why a team needs governance, then turn to classification and
-policy. Regulation and privacy are common reasons. Exfiltration risk,
+Jessi Ashdown and Uri Gilad first ask why a team needs governance. They then
+turn to classification, policy, regulation, and privacy. They cite cloud
+adoption, GDPR, and the Cambridge Analytica fallout as catalysts for governance
+programs. Exfiltration risk,
 analytics enablement, and cost control can matter too. Trust matters across all
 of them. Those reasons put governance inside [[data strategy]] because the right
-controls depend on why the data matters.[[cite:cloud-data-governance=>Cloud Data Governance]]
+controls depend on why the data matters.[[cite:cloud-data-governance@8:57=>Cloud Data Governance]][[cite:cloud-data-governance@23:00=>Cloud Data Governance]]
 
 The ML platform version adds reproducibility and regulatory limits. Fintech
 platform teams need datasets, logs, metadata, and lineage for monitoring and
@@ -89,13 +92,13 @@ Classification turns inventory into decisions. Taxonomies and meaningful data
 classes connect retention, freshness, and purpose-based access. A customer
 identifier and an aggregated metric may need different retention rules. A
 temporary debugging table may need a different access path and review
-expectation.[[cite:cloud-data-governance=>Cloud Data Governance]]
+expectation.[[cite:cloud-data-governance@15:33=>Cloud Data Governance]][[cite:cloud-data-governance@24:14=>Cloud Data Governance]]
 
 Policy should match the reason for governance. Low-risk or low-value data may
 need minimal governance, while higher-risk data may need stricter classification,
 review, and access controls. Smaller [[data engineering]] teams can start with a
 minimum viable governance strategy and classify the highest-risk or
-highest-value datasets first.[[cite:cloud-data-governance=>Cloud Data Governance]]
+highest-value datasets first.[[cite:cloud-data-governance@19:40=>Cloud Data Governance]][[cite:cloud-data-governance@53:21=>Cloud Data Governance]]
 
 ## Catalogs, Lineage, and Ownership
 
@@ -103,11 +106,15 @@ A catalog helps people find data, but it isn't the whole governance program. A
 useful catalog includes technical metadata, lineage, and a business glossary.
 Those details help people understand data. They don't decide who should get
 access, who should approve it, or when access should
-expire.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
+expire.[[cite:cloud-data-governance@27:48=>Cloud Data Governance]][[cite:cloud-data-governance@54:37=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 Ownership connects discovery to accountability. Multiple teams can share
 responsibility, but one team still answers questions and approves changes. That
 team also fixes broken assumptions.
+Cloud governance assigns data stewards, producers, and decision makers to
+explicit human roles. Those people each own a different part of the policy and
+access path. That keeps [[data teams]] from treating governance as only a catalog
+feature.[[cite:cloud-data-governance@33:03=>Cloud Data Governance]]
 
 Teams use data observability to make the accountability model operational
 through RACI. Data engineering teams may be responsible for fixing a failed
@@ -148,7 +155,12 @@ Governance breaks down when every decision becomes a manual queue. Teams can
 automate repeated controls such as ownership tags, sensitive-data labels, and
 retention classes. Access review reminders and revocation rules fit too. Cloud
 governance episodes discuss automated tagging, access requests, and enforcement
-through both catalog interfaces and storage control planes.[[cite:cloud-data-governance=>Cloud Data Governance]]
+through both catalog interfaces and storage control planes.[[cite:cloud-data-governance@45:04=>Cloud Data Governance]][[cite:cloud-data-governance@48:50=>Cloud Data Governance]]
+
+Tooling choices such as Dataplex or Collibra matter only when they support that
+operating model. The governance ROI question is whether catalogs, access
+workflows, and automation reduce risk or duplicated effort enough to justify the
+program.[[cite:cloud-data-governance@47:35=>Cloud Data Governance]][[cite:cloud-data-governance@50:19=>Cloud Data Governance]]
 
 In DataOps, teams use active metadata and automated tagging. Pipelines and
 access-as-code keep common controls close to data systems. Teams can implement

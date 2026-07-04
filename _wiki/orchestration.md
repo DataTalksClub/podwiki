@@ -226,11 +226,11 @@ Dagster when the workflow needs a real orchestrator [[cite:lean-mlops-for-startu
 
 [[person:andreaskretz=>Andreas Kretz]] gives the AWS
 version by comparing Airflow with CloudWatch scheduling and Lambda. He also
-names containers, ECS, AWS Batch, and SageMaker in the same comparison [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+names containers, ECS, AWS Batch, and SageMaker in the same comparison [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]].
 
 He recommends starting with simple infrastructure for early projects. Teams can
 move toward Airflow or Kubernetes when they need more logging. Heavier systems
-can wait until the team needs more insight and control [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+can wait until the team needs more insight and control [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]].
 
 ## Operating Cost and Alternatives
 

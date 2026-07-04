@@ -92,7 +92,7 @@ workflow. The work starts with what the current project needs. Working notes can
 live in Notion, and useful context can become READMEs and GitHub records. For a
 career switch, that makes just-in-time learning less private. A public writeup
 can show the next problem, the missing skill, and the artifact that made the
-learning visible ([[cite:datatalksclub-building-scaling-data-community=>Building DataTalks.Club]]).
+learning visible ([[cite:datatalksclub-building-scaling-data-community@50:31=>Building DataTalks.Club]]).
 
 A private note system isn't career proof. The proof comes when notes become
 visible explanations and working artifacts.

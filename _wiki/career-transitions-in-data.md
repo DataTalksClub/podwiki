@@ -36,6 +36,11 @@ QA becomes testing and project discipline [[cite:how-to-transition-into-ml-and-d
 Academic research becomes statistics, domain data, and experimental
 reasoning [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 
+Radio astronomy adds another version of that bridge. Daniel Egbo keeps domain
+knowledge from MEERKAT source detection and catalog matching. He then adds
+Python, cloud practice, reusable code, and data-pipeline projects
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>Radio Astronomy to ML and Data Engineering]].
+
 The recurring question isn't "which course should I take?" It's what proof makes
 a transition believable for the target role. Employees can show analysis
 done at work, dbt migrations, or take-home assignments. Engineers can show
@@ -57,8 +62,8 @@ more evidence.
 Production habits add Git and testing. They also add Docker, deployment, and
 clean code
 [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
-That path connects the transition to [[data-scientist-role=>data scientist
-work]] and [[job search]] because the candidate must show both analytical
+That path connects the transition to [[data-scientist-role=>data scientist work]]
+and [[job search]] because the candidate must show both analytical
 judgment and production awareness.
 
 Engineering-heavy moves translate existing skills into new work. Software-to-ML
@@ -190,12 +195,18 @@ Cloud familiarity and role-specific interview preparation matter as well
 These routes connect to [[Software Engineer to Machine Learning]],
 [[Data Engineering]], and [[MLOps vs DevOps]].
 
-Academic transitions require the same translation, but they often start with
-stronger statistics and domain-data evidence. Population dynamics, GLMs,
-genomics files, and Bash can become part of the research bridge. Data cleaning
-belongs there too.
+Academic transitions often start with stronger statistics and domain-data
+evidence. Population dynamics and GLMs can become part of the research bridge.
+Genomics files and Bash belong there too. Data cleaning does as well.
 Common gaps include deployment, API work, Docker, and Python production practice
 [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
+
+Astronomy research shows the same structure for scientific data pipelines.
+Source detection and multi-catalog matching can become industry-facing evidence.
+Positional uncertainty can as well, when paired with reusable Python and an
+[[end-to-end-data-pipeline-project=>end-to-end pipeline project]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@26:58=>Radio Astronomy]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy]].
 
 Senior academic transitions add a leadership boundary. Physics and healthcare
 research can become a base for ML leadership, but the industry move may still

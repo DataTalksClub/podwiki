@@ -98,7 +98,7 @@ In finance, that reuse also means fitting ML work into corporate DevOps and
 release-management processes that already have approvals and trust gates.
 Nemanja Radojkovic described ML engineering as adapting model workflows to
 those existing processes, not bypassing them
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps and ML Engineering in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@23:39=>MLOps and ML Engineering in Finance]]).
 Release discipline transfers from DevOps through separated environments,
 controlled promotion, and operational handoff. MLOps adds model-specific
 approval evidence. That evidence covers model behavior, monitoring, and the risk

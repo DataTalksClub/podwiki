@@ -21,7 +21,7 @@ technical project with other people watching. Reproducible issues and
 documentation are valid contribution work. Tests, packaging, and maintainer
 etiquette count too
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+[[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
 Open-source projects also serve as hiring proof because review pressure exposes
 Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in
@@ -59,7 +59,7 @@ README material and guides are important project surfaces. API reference,
 examples, contribution guides, and polite interaction on issue lists matter too.
 A reproducible issue is a valid first contribution
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+[[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]).
 
 Code pull requests bring tests into view, and CI, packaging, and pre-commit
 hooks enter the contribution too

@@ -130,7 +130,7 @@ versus batch data flow as a design question.
 discipline to model debugging. If a model underperforms, practitioners need to
 ask whether it's overfitting first. They also need to separate bad data from
 weak features and wrong problem framing before they change algorithms
-[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]].
+[[cite:data-science-leadership-hiring-mlops@26:16=>Data Science Leadership, Hiring, and MLOps]].
 
 ML overlaps here with
 [[Data Engineering]] and

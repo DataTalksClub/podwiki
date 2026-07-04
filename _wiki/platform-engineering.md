@@ -24,7 +24,10 @@ support models and operating standards.
 Platform work spans cloud infrastructure, Kubernetes, and Terraform. It starts
 from data science workflows before moving into self-service compute and
 [[experiment tracking]]. It also includes [[model registry]], serving, and
-orchestration.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+orchestration.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+In regulated finance, internal libraries and API frameworks can become the
+practical platform surface. Those libraries encode reusable serving and
+integration patterns for ML teams.[[cite:mlops-and-ml-engineering-in-finance@43:39=>MLOps in Finance]].
 
 ## Reusable Internal Paths
 

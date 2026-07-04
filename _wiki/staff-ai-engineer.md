@@ -22,7 +22,7 @@ The role covers roadmap definition and machine-learning design, with code
 review and mentoring tied to production delivery. Alignment with product and
 data science matters too. Annotation, UI engineering, and legal partners can be
 part of the same work
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Transitioning from Academia to Industry as a Staff AI Engineer]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@7:30=>Transitioning from Academia to Industry as a Staff AI Engineer]]).
 
 That makes the staff AI engineer a level concept as much as a job title. The
 role sits above the general
@@ -59,7 +59,7 @@ are deep specialists brought into hard incidents or hard design problems. Others
 act as broad technical advisors to leadership. Others stay closer to code and
 mentor engineers through implementation. The common thread is influence on how
 other people work, not only the output of one contributor
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff AI Engineer Transition]]).
 
 For staff AI engineering, those archetypes map to different AI surfaces. A deep
 specialist may own recommendation quality, computer vision, or retrieval. They
@@ -84,7 +84,8 @@ Staff AI engineers need enough production judgment to know where a system will
 break after the demo. A staff-level onboarding path may require Scala, Spark,
 and Kubernetes. Internal tools and large-scale recommendation systems can
 matter too. The same person may still need to make tech-lead decisions
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@3:24=>Staff AI Engineer Transition]],
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@5:43=>Staff AI Engineer Transition]]).
 
 The strongest AI and data-science projects connect requirements and data to a
 model or model-backed application. Deployment and operations belong in the same
@@ -139,7 +140,13 @@ Staff AI work can include MLOps, ETL, and pipelines without reducing the role to
 implementation. The staff engineer may implement a pipeline piece directly.
 More often, the job is to decide what needs to be done, mentor the implementer,
 and review the design and code
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@51:10=>Staff AI Engineer Transition]]).
+
+That platform collaboration can create a high code-review load. It can also
+force repeated context switching across data, ML, and application teams. At
+staff level, review isn't an interruption from the job. It's one of the
+mechanisms for spreading engineering judgment across projects
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@52:19=>Staff AI Engineer Transition]]).
 
 The platform surface around that work can include offline experimentation, data
 management, and feature stores. Data quality tooling and model-training jobs
@@ -192,7 +199,8 @@ case. Grants and collaborators can do the same. Budgets can help too.
 
 Candidates can also use applied projects and ownership. Leadership, mentorship,
 and roadmapping help when they translate them into industry terms
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>Staff AI Engineer Transition]],
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@21:26=>Staff AI Engineer Transition]]).
 
 That translation matters because collaboration, alignment, delivery, and
 industry partnerships are easier for interviewers to evaluate than deep
@@ -205,7 +213,13 @@ The technical interview bar still matters because coding practice and mock
 interviews support staff-level interviews. Company engineering blogs can help
 with ML and system design. The offer can depend on ML design and system design.
 Behavioral evidence, cultural fit, and coding ability matter too
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>Staff AI Engineer Transition]],
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI Engineer Transition]]).
+
+Tatiana also names staff-engineering and leadership books as part of the
+transition toolkit. Those books keep the role connected to [[Leadership]] and
+[[career-growth=>Career Growth]] rather than only architecture practice
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@59:45=>Staff AI Engineer Transition]]).
 
 For adjacent transition guidance, see
 [[Academic Researcher to Data Science]],

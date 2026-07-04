@@ -35,7 +35,8 @@ same group can support maintenance, monitoring, and best practices
 
 In regulated finance, ML workflows must fit existing DevOps and approval flows.
 On-premises platforms and governance also constrain the path
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance@18:52=>MLOps in Finance]]
+[[cite:mlops-and-ml-engineering-in-finance@22:25=>MLOps in Finance]].
 
 The [[DataOps]] operating lens adds testing and monitoring after the first model
 reaches production. Teams also need automation and safe deployment paths
@@ -93,7 +94,8 @@ pain
 Finance starts from different constraints. Release management, OpenShift or
 on-premises platforms, and internal package registries affect how ML enters
 corporate DevOps. Governance rules matter in the same rollout
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance@18:52=>MLOps in Finance]]
+[[cite:mlops-and-ml-engineering-in-finance@23:39=>MLOps in Finance]].
 
 DataOps starts from operating quality. Automation and testing can reduce
 fear-based work while lowering errors. Monitoring and observability support the

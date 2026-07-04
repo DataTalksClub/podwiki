@@ -38,7 +38,7 @@ relationships change.[[cite:feature-engineering-model-monitoring-and-data-govern
 
 Live test sets and small A/B tests can detect model issues. Teams watch input
 distributions, unit changes, and feature drift. Logging, feature stores, and
-reproducibility support the response path.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+reproducibility support the response path.[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps and Model Monitoring]].
 Monitoring is useful only when teams can debug and respond.
 
 ## Monitoring Priorities
@@ -50,7 +50,7 @@ to how teams should monitor.[[cite:mlops-model-monitoring-data-observability=>ML
 
 Service levels and impact assessment belong with stakeholders because model
 incidents affect people outside the model team. ML incidents connect to
-post-mortems and recovery steps.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+post-mortems, Five Whys, and recovery steps.[[cite:human-centered-mlops-and-model-monitoring@24:34=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@27:14=>Human-Centered MLOps and Model Monitoring]].
 Monitoring needs a human response path, not only metrics.
 
 Monitoring can be part of the minimum MLOps stack and a roadmap priority. It
@@ -179,13 +179,13 @@ of the same rule. After a risk-scoring tool enters frontline workflows,
 monitoring has to watch for drift and trigger maintenance alerts. The response
 path still needs human review because the served population may change after
 release. Source data and operational workflows can change too
-[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]].
+[[cite:building-domestic-risk-assessment-tool@42:20=>Building a Domestic Risk Assessment Tool]].
 
 Model alerts have the same problem. If every distribution shift pages a team,
-people stop trusting the monitoring system. The incident-response view adds the
-human test: post-mortem evidence and investigation steps become action items and
+people stop trusting the monitoring system. The incident-response view adds a
+human test. Post-mortem evidence and investigation steps become action items and
 workflow changes
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+[[cite:human-centered-mlops-and-model-monitoring@32:11=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@39:26=>Human-Centered MLOps and Model Monitoring]].
 
 Teams should alert on signals that someone can act on. For model teams, those
 signals usually include input quality and prediction distribution. They also

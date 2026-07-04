@@ -111,7 +111,7 @@ translation, and strategy.
 Manager interviews should test team-building judgment, stakeholder management,
 and career development. They should also test strategy, measurement, and
 tradeoffs, not only technical fluency
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]].
 That puts team building close to [[leadership]]:
 the manager role exists to create conditions for other people to deliver reliable
 data work.
@@ -131,7 +131,7 @@ Onboarding needs to cover technical craft and company context. Product managers,
 senior leaders, and adjacent teams have goals and incentives that guide data
 work. Juniors need help talking with those people, preparing questions, and
 asking for help when they're stuck
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@52:43=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@54:11=>B2B SaaS Data Science Teams]].
 
 Manager onboarding has the same listening step. In the first part of a 30-60-90
 plan, a new leader can meet people, learn projects, and understand domain
@@ -140,10 +140,17 @@ and feedback then become a growth environment rather than a manager monologue
 [[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
 
 Healthy data teams need feedback habits that people can practice before conflict
-is high-stakes. They also need psychological safety. Managers help by making it
-normal to surface blocked work, relationship tension, or unclear priorities
-before those problems become delivery failures
-[[cite:data-leadership-coaching=>Data Leadership Coaching]].
+is high-stakes. They also need psychological safety.
+
+Managers help by making early problems safe to surface before those problems
+become delivery failures. Those problems can include blocked work as well as
+relationship tension or unclear priorities
+[[cite:data-leadership-coaching@19:43=>Data Leadership Coaching]][[cite:data-leadership-coaching@20:18=>Data Leadership Coaching]].
+
+Inclusion belongs in the same operating layer. A team is stronger when its
+rituals make participation possible for more people. Managers need to design for
+more than the people already comfortable with the default communication style
+[[cite:data-leadership-coaching@54:24=>Data Leadership Coaching]].
 
 As analytics teams grow, leaders need to move away from holding every project
 themselves and give ownership to the people doing the work. The leadership role
@@ -187,7 +194,7 @@ move toward the same goals
 ML teams inherit uncertainty from data quality, model behavior, software
 systems, and business requirements. Alignment can't depend only on handoffs
 between specialists
-[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+[[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for Machine Learning]].
 
 A shared vocabulary and clear documentation give data scientists and software
 engineers a common language. They can use it with product and domain partners to
@@ -196,7 +203,7 @@ those agreements usable during planning and review. They also support onboarding
 and growth because new teammates can learn how the team defines artifacts,
 responsibilities, and engineering quality.
 This is the org-design side of [[data teams]]
-and [[communication]].
+and [[communication]].[[cite:software-engineering-for-machine-learning@13:52=>Software Engineering for Machine Learning]]
 
 ## Platform and DataOps Enablement
 

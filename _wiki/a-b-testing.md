@@ -87,9 +87,13 @@ The open question is what to do when experiments are impossible, incomplete, or
 too expensive.
 
 In higher-risk personalization, teams use A/B testing to segment users and
-iterate on personalized variants, but measurement has to support those changes ([[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]).
-Patient safety, privacy, and responsible experimentation sit beside the usual
-product-growth concerns.
+iterate on personalized variants before moving toward more individualized
+recommendations. That only works when the product can measure variants and
+segment outcomes through an experimentation platform
+([[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>Healthcare Personalization]]
+[[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]]).
+Patient safety, [[privacy engineering for ML]], and
+[[responsible AI and governance]] sit beside the usual product-growth concerns.
 
 Teams validating recommenders can't rely only on clicks or purchases. Those
 signals don't always prove that the recommendation matched what the user
@@ -188,7 +192,9 @@ Teams should choose a statistical method that fits the metric and the decision,
 not only one that produces a familiar number.
 
 Guardrail metrics keep A/B tests from improving one number while damaging the
-product. In healthcare personalization, patient trust sits beside engagement ([[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]).
+product. In healthcare personalization, patient trust sits beside engagement,
+and some interventions need clinical review before they enter an experiment
+([[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Healthcare Personalization]]).
 In search, relevance work connects to clicks and contacts. It also connects to
 orders and revenue ([[cite:building-production-search-systems=>Building Search Systems]]).
 In production ML, segment analysis keeps the team from reading only the
@@ -200,7 +206,7 @@ an A/B test starts.
 
 A water-intake recommendation can help many patients but harm others. Safeguards
 and medical review belong next to the
-experiment platform ([[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]).
+experiment platform ([[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Healthcare Personalization]]).
 That connects A/B testing with [[healthcare ML validation and adoption]] and
 [[responsible AI and governance]].
 
@@ -227,19 +233,14 @@ user behavior moved and where the effect appeared, and it shows which
 assumptions were wrong.
 
 Other product examples use the same analytics layer when reports guide business
-stakeholders.
-
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile]]
-
-A/B tests support segmentation and iteration.
-
-[[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]
-
+stakeholders
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile]]).
+A/B tests support segmentation and iteration in digital therapeutics
+([[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>Healthcare Personalization]]).
 They also connect product analytics to marketing interventions and put online
-experiments beside offline search tests.
-
-[[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]]
-[[cite:building-production-search-systems=>Building Search Systems]]
+experiments beside offline search tests
+([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]]
+[[cite:building-production-search-systems=>Building Search Systems]]).
 
 Production ML adds another analytics responsibility. Analysts use business
 context and segments to explain the observed uplift. Root-cause analysis then

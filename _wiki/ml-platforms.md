@@ -176,7 +176,7 @@ In finance, that same standardization can show up as internal libraries and a
 FastAPI framework. Those shared pieces let teams reuse serving, integration,
 and operational patterns instead of rebuilding them project by project. The
 platform value is the shared path and governance surface around that reuse, not
-just the framework choice[[cite:mlops-and-ml-engineering-in-finance=>ML Engineering in Finance]].
+just the framework choice[[cite:mlops-and-ml-engineering-in-finance@43:39=>ML Engineering in Finance]].
 
 Tool-agnostic engineering fundamentals and a coherent user path matter more than
 a fixed universal stack[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].

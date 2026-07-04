@@ -109,8 +109,10 @@ Public deadlines, accountability, and batching help keep community work moving.
 For career development, the same practice can make learning and publishing more
 consistent than private intention alone. A planned post, project demo, course
 milestone, or community session gives peers a reason to expect progress and
-gives the learner a cadence for shipping.
-[[cite:datatalksclub-building-scaling-data-community=>Building and Scaling DataTalks.Club]].
+gives the learner a cadence for shipping. That links public proof to
+[[learning-in-public-ai-career-switch=>public learning]] and
+[[community building]], not only personal branding.
+[[cite:datatalksclub-building-scaling-data-community@48:56=>Building and Scaling DataTalks.Club]].
 
 [[book:20210510-the-coding-career-handbook=>The Coding Career Handbook]]
 expands on these themes, covering career growth, learning in public, and
@@ -173,12 +175,26 @@ senior stakeholders all depend on judgment. Explainable AI and sensitive
 findings turn technical work into a communication problem, especially when a
 decision needs to be challenged.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 
-Sustainable career development can include behavioral habits. Morning light
-exposure for circadian regulation and protein-rich breakfasts for focus are
-examples from the productivity discussion. So are 90-minute sleep cycles for
-alarm timing. A prioritization framework narrows focus to five life goals
-instead of dozens of interests. The example goals include family, sport,
-nutrition, and work output.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers=>Biohacking for Data Scientists]].
+Sustainable career development can include behavioral habits from the
+productivity discussion. Morning light exposure supports circadian regulation
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@18:41=>Biohacking for Data Scientists]].
+Low-light homes may need daylight lamps, and protein-rich breakfasts can support
+focus.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@26:14=>Biohacking for Data Scientists]]
+So are 90-minute sleep cycles for alarm timing.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@27:50=>Biohacking for Data Scientists]]
+
+The same episode treats motivation as a behavioral system, not generic
+willpower. Ruslan separates behavioral biohacking from chemical
+interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@6:56=>Biohacking]]
+He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@9:31=>Biohacking]]
+Self-tracking belongs there too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@43:25=>Biohacking]]
+
+A prioritization framework narrows focus to a small set of life goals instead
+of dozens of interests. The example goals include family, sport, nutrition, and
+work output.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@53:45=>Biohacking]].
+The useful caveat is that some experiments fail or need medical caution, so the
+career lesson is sustainable self-management, not universal biohacking advice.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@41:16=>Biohacking]][[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@45:47=>Biohacking]]
 
 [[mentoring-in-tech=>Mentoring]] is a deliberate career-development practice,
 not just one-off advice.

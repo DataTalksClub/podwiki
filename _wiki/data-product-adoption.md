@@ -121,7 +121,15 @@ playbook, open error communication, dbt tests, and regular dashboard checks.
 
 For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents.
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+Lina Weichbrodt distinguishes stakeholder demos from regular reporting.
+Stakeholders first need to believe the solution works. Different audiences then
+need different reporting rhythms
+[[cite:human-centered-mlops-and-model-monitoring@22:36=>Demos vs Reporting]].
+
+Service-level and incident expectations belong in the same adoption
+conversation. Stakeholders need to know what happens when the model-backed
+product is wrong, late, or unavailable
+[[cite:human-centered-mlops-and-model-monitoring@24:34=>Incident Preparedness]].
 
 For generative AI products, trust can require changing the operating model, not
 only tuning the model. Maria Sukhareva describes human review as a practical
@@ -134,7 +142,7 @@ domestic risk assessment tool, the product has to fit frontline workflows and
 earn stakeholder confidence before people will rely on its scores. Training,
 trust-building, and ongoing engagement are adoption work, not separate rollout
 tasks.
-[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]]
+[[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Training and Adoption]]
 
 ## Decision-First Design
 

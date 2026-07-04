@@ -47,7 +47,8 @@ So can people and new family members.
 Human self-tracking follows the same baseline-first order. In
 productivity tracking, logs and Notion dashboards create a personal record for
 reflection. Steps, exercise, and hydration metrics add simple habit signals.
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers=>Biohacking Productivity]]
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@38:07=>Productivity Tracking]]
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@48:21=>Habit Metrics]]
 Those measurements aren't an ML system by themselves. They're the personal
 history that makes later modeling or alerting useful because the system has an
 individual baseline to compare against.
@@ -55,7 +56,7 @@ individual baseline to compare against.
 Healthcare wearables make the same point in a clinical product context. In
 remote monitoring, activity and heart-rate variability become more useful when a
 product can compare them with the person's baseline and care context.
-[[cite:ai-in-healthcare-and-digital-therapeutics=>Healthcare Personalization]]
+[[cite:ai-in-healthcare-and-digital-therapeutics@29:33=>Remote Monitoring and Wearables]]
 That context keeps a low-activity day or HRV change from being treated as the
 same event for everyone.
 

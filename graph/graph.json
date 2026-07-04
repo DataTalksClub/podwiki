@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10850
+    "links": 10891
   },
   "nodes": [
     {
@@ -21790,6 +21790,12 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "wiki:product-analyst",
       "kind": "wiki-chip",
       "weight": 1
@@ -24658,6 +24664,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-chip",
       "weight": 1
@@ -24731,6 +24743,12 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "wiki:model-registry",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -25828,6 +25846,18 @@
     },
     {
       "source": "wiki:algorithmic-trading",
+      "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "podcast:machine-learning-decision-optimization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
       "target": "wiki:apache-airflow",
       "kind": "article-chip",
       "weight": 1
@@ -25969,6 +25999,12 @@
       "target": "wiki:orchestration",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:recommendation-systems",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:algorithmic-trading",
@@ -26273,6 +26309,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:software-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -27502,6 +27544,12 @@
     },
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
       "target": "wiki:applied-research",
       "kind": "wiki-chip",
       "weight": 1
@@ -27547,6 +27595,18 @@
       "target": "wiki:data-pipelines",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
@@ -28708,6 +28768,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -28781,6 +28847,12 @@
     {
       "source": "wiki:career-growth",
       "target": "podcast:from-software-engineering-to-leading-data-science-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29092,6 +29164,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -29327,6 +29405,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30058,6 +30142,12 @@
     },
     {
       "source": "wiki:communication",
+      "target": "podcast:data-leadership-coaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
       "target": "podcast:data-professionals-business-skills-in-saas",
       "kind": "wiki-chip",
       "weight": 1
@@ -30181,6 +30271,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:leadership",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:communication",
@@ -36538,6 +36634,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "wiki:data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -40030,7 +40132,19 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "podcast:get-data-scientist-job",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40087,6 +40201,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:communication",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science-careers",
@@ -40177,6 +40297,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:leadership",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science-careers",
@@ -40373,6 +40499,12 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:job-descriptions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:kpis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41033,6 +41165,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43043,6 +43181,12 @@
     {
       "source": "wiki:data-teams",
       "target": "podcast:building-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47020,6 +47164,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -47081,6 +47231,12 @@
     {
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47152,6 +47308,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -47219,6 +47381,12 @@
     {
       "source": "wiki:entity-resolution",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47329,6 +47497,12 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:entity-resolution",
@@ -52673,6 +52847,12 @@
     {
       "source": "wiki:kpis",
       "target": "podcast:building-production-search-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
+      "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58162,6 +58342,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
       "kind": "wiki-chip",
       "weight": 1
@@ -58229,6 +58415,12 @@
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-product-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58387,6 +58579,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -63256,6 +63454,12 @@
     },
     {
       "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
       "target": "podcast:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -63286,6 +63490,12 @@
     },
     {
       "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -63343,6 +63553,12 @@
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:modern-data-engineering-trends",
@@ -66335,6 +66551,12 @@
     {
       "source": "wiki:platform-engineering",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70252,6 +70474,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:batch-vs-streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -73096,6 +73324,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-chip",
       "weight": 1
@@ -73139,6 +73373,12 @@
     {
       "source": "wiki:software-engineering",
       "target": "wiki:ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74465,6 +74705,12 @@
     {
       "source": "wiki:teaching",
       "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },

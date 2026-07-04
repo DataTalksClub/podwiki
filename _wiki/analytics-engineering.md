@@ -375,7 +375,8 @@ Maintainability, documentation, and peer review turn modeling from personal SQL
 skill into team craft. That matters when a data team hires separate product
 analysts and analytics engineers. It also matters when marketing scientists own
 a distinct surface
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
+[[Software Engineering]]).
 
 ## Portfolio and Hiring Signals
 
@@ -429,10 +430,11 @@ definitions with analysts and product ops
 [[Data Product Management]]).
 
 Bauer's hiring discussion adds the management view. A team may hire product
-analysts, analytics engineers, and marketing scientists as separate roles. Peer
-review and maintainable work still make analytics usable after one stakeholder
-request becomes repeated team work. Documentation does the same
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team]],
+analysts, analytics engineers, and marketing scientists as separate roles
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]]).
+Peer review and maintainable work still make analytics usable after one
+stakeholder request becomes repeated team work. Documentation does the same
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Data Team]],
 [[Data Teams]]).
 
 ## Related Pages

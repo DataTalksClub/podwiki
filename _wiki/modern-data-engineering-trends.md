@@ -19,12 +19,16 @@ specialized platform and operating disciplines. Teams still need SQL and Python.
 They also need ingestion, modeling, and orchestration. Governance, quality, AI
 systems, and cost control now sit beside those basics. The shift belongs inside
 [[Data Engineering]] and [[Data Engineering Platforms]] rather than in a detached tool
-forecast.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+forecast.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-The hype cycle is part of the trend. Hadoop once played the role AI plays now:
-companies adopted heavyweight systems because the category felt inevitable. The
-workload didn't justify it
+The hype cycle is part of the trend: Hadoop once played the role AI plays now.
+Companies adopted heavyweight systems because the category felt inevitable, not
+because the workload justified it
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@06:47=>Data Engineer Career in 2026]].
+The same caution appears in the DataTalks.Club community discussion. Durable
+tool choices follow lasting trends and recurring work instead of short-lived
+library announcements
+[[cite:datatalksclub-building-scaling-data-community@45:40=>Building and Scaling DataTalks.Club]].
 
 The operating standard is also changing, even though consumer-facing datasets
 still matter. Modern teams are expected to make those systems governed,
@@ -67,7 +71,10 @@ commitments require it.[[cite:trends-in-modern-data-engineering=>Modern Data Eng
 Career advice follows from that boundary. Early engineers don't need to learn
 data engineering, data science, and AI engineering at the same time. A more
 durable path is to build depth in one lane first, then connect that lane to
-adjacent platform concerns.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+adjacent platform concerns.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+That makes trend literacy useful only when it supports a role or project path,
+which links this page to [[Machine Learning Tools]] and
+[[career-development=>Career Development]].
 
 ## Governance, Quality, and DataOps Move Upstream
 

@@ -86,7 +86,7 @@ models. He also explains the product work behind researchable ML use cases
 
 [[person:danbecker=>Dan Becker]] focuses on the decision layer. A prediction
 has limited value until the team turns it into a decision function
-([[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]).
+([[cite:machine-learning-decision-optimization@03:00=>Machine Learning Decision Optimization]]).
 
 [[person:caitlinmoorman=>Caitlin Moorman]] puts adoption at the center. Data
 work creates value when people can trust it at decision time
@@ -102,7 +102,7 @@ score isn't the use case. A demand forecast, fraud detector, or recommendation
 system isn't the use case either.
 
 Name the decision that changes because of the output
-([[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]):
+([[cite:machine-learning-decision-optimization@06:00=>Machine Learning Decision Optimization]]):
 
 - a sales team changes which accounts it calls first
 - a support team routes tickets differently
@@ -152,18 +152,21 @@ decision
 
 Decision optimization adds the prescriptive side. A forecast may feed an
 inventory order or guide a price offer. Bids, fraud thresholds, and resource
-allocation can use the same approach.
+allocation can use the same approach. The formulation has to name the objective
+and constraints before the solver or model matters
+([[cite:machine-learning-decision-optimization@09:00=>Machine Learning Decision Optimization]]).
 
 The loss function and operating constraints have to match the business
 objective. Otherwise, the model can recommend decisions the business can't
 execute or doesn't value
-([[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]).
+([[cite:machine-learning-decision-optimization@18:45=>Machine Learning Decision Optimization]]).
 
 [[person:marianosemelman=>Mariano Semelman]] gives the data science leadership
-version of the same product-first rule: a model matters when it helps the final
+version of the same product-first rule. A model matters when it helps the final
 user solve a problem. Modeling time is only one part of the work. The first
 version should be the simplest viable connection to the product
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]]).
+([[cite:data-science-leadership-hiring-mlops@29:29=>Leadership and MLOps]]
+[[cite:data-science-leadership-hiring-mlops@36:50=>Leadership and MLOps]]).
 
 [[person:gregcoquillo=>Greg Coquillo]] applies that thinking to AI data
 products, where customer needs and documentation review come before roadmap
@@ -199,7 +202,7 @@ incident risk, and support burden
 
 For small business ML, a prioritization sheet may be enough. A basic forecast
 can also work. Kretz's proof-of-concept version starts without a budget before
-a larger ML investment ([[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines]]).
+a larger ML investment ([[cite:production-ml-pipelines-with-aws-and-kafka@58:56=>Production ML Pipelines]]).
 That early prototype tests whether the team can connect data to a measurable
 workflow. Leaders can evaluate larger funding later.
 
@@ -240,7 +243,7 @@ The intake belongs close to [[data quality and observability]] and
 [[person:nadianahar=>Nadia Nahar]] describes common ML product failures around
 unclear requirements and data access gaps. They can block the product before the
 model matters. Deployment gaps and weak documentation create the same risk
-([[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]).
+([[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]]).
 
 Data readiness is also a product question. [[person:zhamakdehghani=>Zhamak Dehghani]]
 describes data products through quality, completeness, ownership, and
@@ -352,9 +355,15 @@ raise concerns.
 starting with the business case and KPIs. She also covers alternatives, the
 production bar, bad-case demos, and fallbacks. Service levels and incident
 expectations complete the launch agreement
-([[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+([[cite:human-centered-mlops-and-model-monitoring@04:50=>Human-Centered MLOps and Model Monitoring]],
+[[cite:human-centered-mlops-and-model-monitoring@09:43=>Human-Centered MLOps and Model Monitoring]]).
 Stakeholders need that pre-launch agreement before they can trust the useful
 outputs and the failure plan.
+
+Stakeholder fears should become mitigations, metrics, and fallback choices
+before release. That turns adoption planning into a business risk discussion,
+not only a technical launch checklist
+([[cite:human-centered-mlops-and-model-monitoring@18:29=>Human-Centered MLOps and Model Monitoring]]).
 
 [[person:jackblandin=>Jack Blandin]] gives the applied-leadership version. Fast
 POCs and user-facing prototypes help business teams understand what ML will

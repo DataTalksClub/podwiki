@@ -34,10 +34,14 @@ paths from attendee to contributor.
 On the niche and format side, DataTalks.Club began from a specific need. Early
 forums and a landing page formed a lightweight launch path. Eventbrite and
 automation handled planning and scheduling
-([[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]]).
+([[cite:datatalksclub-building-scaling-data-community@10:05=>DataTalks.Club Behind the Scenes]],
+[[cite:datatalksclub-building-scaling-data-community@20:22=>DataTalks.Club Behind the Scenes]]).
 
 The early community work isn't only promotion. It's the repeated operational
-work that makes people know when and where to participate.
+work that makes people know when and where to participate. Scaling to thousands
+of members came from that repeated cadence, event formats, and conference-era
+growth rather than one launch moment
+([[cite:datatalksclub-building-scaling-data-community@16:54=>DataTalks.Club Behind the Scenes]]).
 
 The same work covers community and marketing roles, Slack engagement, teaching
 assistants, and webinar contributions
@@ -87,16 +91,20 @@ because they have projects, deadlines, office hours, and mentors.
 Open Source Spotlight and Minis sit alongside Book of the Week, live coding,
 and office hours. These formats give learners smaller ways to participate before
 they become teaching assistants, course contributors, or speakers
-([[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]]).
+([[cite:datatalksclub-building-scaling-data-community@24:38=>DataTalks.Club Behind the Scenes]]).
 
 The course portfolio connects to the product work behind scaled courses.
-Community building therefore includes
-[[teaching]],
-[[data-engineer-roadmap=>data engineering learning paths]],
-and course design
+Community building therefore includes [[teaching]] and course design.
+It also connects to [[data-engineer-roadmap=>data engineering learning paths]]
 ([[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]).
+
 A course can attract people, but the community helps learners finish because
 they can ask questions and see other people working through the same material.
+Sponsorship and partnerships matter when free programs still have costs.
+DataTalks.Club discusses sponsor experiments such as TopCoder and Toloka. These
+experiments sustain community work rather than turn the community into a pure
+media channel
+([[cite:datatalksclub-building-scaling-data-community@31:37=>DataTalks.Club Behind the Scenes]]).
 
 ## Community Operations
 

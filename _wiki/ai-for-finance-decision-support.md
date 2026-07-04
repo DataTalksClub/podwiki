@@ -118,7 +118,7 @@ Compliance work and AML or fraud detection still support decisions. The same
 holds for smart document automation. The model's output has to fit review paths
 plus controls and audit evidence. It shouldn't only produce a score or extracted
 field
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps and ML Engineering in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@10:35=>MLOps and ML Engineering in Finance]]).
 
 The human-centered implication is that finance users need to understand why an
 insight appeared, what data contributed to it, and where the system's limits
@@ -151,7 +151,9 @@ Decision optimization extends that signal into constrained action. In
 [[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]],
 the examples move from supply-chain allocation into pricing, bidding, and
 revenue optimization. In each case, the model's prediction feeds an objective and
-constraints.
+constraints
+([[cite:machine-learning-decision-optimization@28:30=>Machine Learning Decision Optimization]],
+[[cite:machine-learning-decision-optimization@32:00=>Machine Learning Decision Optimization]]).
 
 Those constraints decide what to buy, allocate, price, or bid. For finance
 decision support, that means an AI system shouldn't stop at "forecast risk is

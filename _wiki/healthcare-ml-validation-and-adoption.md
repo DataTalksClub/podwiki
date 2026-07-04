@@ -69,9 +69,15 @@ only improving model accuracy.[[cite:building-ai-digital-health-startups=>Buildi
 
 In digital therapeutics, analytics maturity bounds what personalization can
 do. Clinical trials and app experiments have different costs, scales, risks,
-and bias profiles. Some product changes can be tested through
-[[a-b-testing=>A/B testing]], while medical-risk changes need stronger
-safeguards.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+and bias profiles. Teams can test some product changes through
+[[a-b-testing=>A/B testing]]. Medical-risk changes need stronger safeguards
+([[cite:ai-in-healthcare-and-digital-therapeutics@45:29=>Clinical Trials vs App Experiments]]
+[[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Medical Risk Safeguards]]).
+
+Stefan Gudmundsson also frames speed as useful only where the risk permits it.
+Digital-health teams can learn faster than formal trials for low-risk app
+changes. Medical recommendations still need review before rapid iteration
+([[cite:ai-in-healthcare-and-digital-therapeutics@49:25=>Speed over Perfection]]).
 
 ## Clinical Validation and Workflow Fit
 
@@ -185,9 +191,15 @@ bootstrap datasets and keep the product grounded in user behavior
 An experimentation platform completes the feedback cycle. A/B testing and
 segmentation support personalization only when variant availability and
 measurement are in place
-[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
+[[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]].
 Healthcare teams can iterate, but the iteration has to be bounded by risk,
 privacy, and clinical validation.
+
+Mental-health monitoring adds a softer intervention boundary. Sidekick Health's
+discussion treats AI as a way to notice signals and support earlier help, not as
+a replacement for clinical judgment. That makes consent, escalation, and
+workflow ownership part of validation
+[[cite:ai-in-healthcare-and-digital-therapeutics@55:53=>Mental Health Signals]].
 
 ## Related Pages
 

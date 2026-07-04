@@ -93,7 +93,8 @@ AWS workflows can start with CloudWatch scheduling, Lambda, or containers before
 the team takes on Airflow or Kubernetes. ECS, AWS Batch, and SageMaker are part
 of the same simple-first path. Move toward the heavier orchestrator when
 logging, insight, and control justify the extra platform surface.
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 ## DAG Design
 
@@ -170,7 +171,7 @@ a rerun or backfill works after the issue is fixed.
 Course-style projects can combine Airflow with MinIO, Spark, and MySQL. The
 same local setup can include Docker Compose, the Airflow web server,
 environment variables, and a warehouse path.
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>Radio Astronomy to Data Engineering]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@44:08=>Radio Astronomy to Data Engineering]]
 
 Follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)

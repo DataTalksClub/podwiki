@@ -29,12 +29,12 @@ schema ownership, [[MLOps]], and
 [[search]] when a delayed result loses
 product value.
 
-[[person:andreaskretz=>Andreas Kretz]] gives the
-clearest pipeline-level explanation in
+[[person:andreaskretz=>Andreas Kretz]] gives a pipeline-level explanation in
 [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 He uses website click events flowing into Kafka or Kinesis as the ingestion
-example. He then contrasts stream handling with batch work: streaming reacts
-from the queue, while batch stores data first and handles it later.
+example. He then contrasts stream handling with batch work. Streaming reacts
+from the queue. Batch stores data first and handles it later
+[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]].
 
 ## Pipeline Anatomy
 

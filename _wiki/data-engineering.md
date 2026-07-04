@@ -106,8 +106,11 @@ models [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stac
 Pipelines and warehouses aren't enough on their own. Engineers also need
 metadata and lineage, plus a shared glossary or taxonomy and catalog workflows.
 Those pieces help teams find data, understand meaning and origin, and govern
-access without falling back to ad hoc spreadsheets. [[Data Governance]]
-covers the adjacent governance layer [[cite:cloud-data-governance=>Cloud Data Governance]].
+access without falling back to ad hoc spreadsheets. Cloud governance examples
+contrast spreadsheet-based catalogs with scalable catalog tooling, then name
+technical metadata, lineage, and a business glossary as the useful catalog
+contents. [[Data Governance]]
+covers the adjacent governance layer [[cite:cloud-data-governance@27:48=>Cloud Data Governance]][[cite:cloud-data-governance@54:37=>Cloud Data Governance]].
 
 ## Reliability and DataOps
 

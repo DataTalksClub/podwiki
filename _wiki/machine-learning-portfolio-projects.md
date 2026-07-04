@@ -73,6 +73,13 @@ leaderboard entry.
 For project-driven learning,
 Machine Learning Bookcamp structures a path through real ML projects rather
 than isolated exercises [[book:20201214-ml-bookcamp=>Machine Learning Bookcamp]].
+
+The DataTalks.Club community discussion makes the same point through ML Zoomcamp
+and Machine Learning Bookcamp. Projects are meant to be end-to-end. The learning
+path includes deployment topics such as Flask, AWS Lambda, Kubernetes, and
+Kubeflow
+([[cite:datatalksclub-building-scaling-data-community@38:22=>Project-Based ML Learning]]
+[[cite:datatalksclub-building-scaling-data-community@39:06=>Deployment Focus]]).
 [[book:20220919-kaggle-book=>The Kaggle Book]]
 compiles competition-winning approaches that translate into portfolio-grade
 work.
@@ -104,10 +111,19 @@ the same structure in a portfolio README at smaller scale.
 
 A social-impact project can make that full arc especially visible. The
 Building a Domestic Risk Assessment Tool project starts with problem framing
-and mixed-source data cleaning and linking [[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]].
-It continues through risk modeling and evaluation. Later work covers privacy,
-legal constraints, and deployment into frontline decision support. It also
-covers monitoring and stakeholder adoption.
+and mixed-source data cleaning and linking
+[[cite:building-domestic-risk-assessment-tool@10:45=>Mixed Data Sources]]
+[[cite:building-domestic-risk-assessment-tool@14:20=>Cleaning and Linking]].
+It continues through risk modeling and evaluation
+[[cite:building-domestic-risk-assessment-tool@18:00=>Risk Scoring Architecture]]
+[[cite:building-domestic-risk-assessment-tool@21:40=>Validation and Bias Assessment]].
+Later work covers [[privacy engineering for ML]], legal constraints, and
+deployment into frontline decision support
+[[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]]
+[[cite:building-domestic-risk-assessment-tool@32:10=>Frontline Workflow Deployment]].
+It also covers monitoring and [[data product adoption]]
+[[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Training and Adoption]]
+[[cite:building-domestic-risk-assessment-tool@42:20=>Monitoring and Alerts]].
 
 As portfolio evidence, the strongest version isn't just a model score. It shows
 how the project links data, evaluation, governance, and workflow integration
@@ -141,6 +157,13 @@ engineering boundaries in Software Engineering for ML [[cite:software-engineerin
 She argues that ML has to become part of a larger software system. She also
 names weak requirements, data access, unrealistic expectations, and deployment
 gaps.
+
+Her empirical open-source study is a useful portfolio lens too. The study
+reviewed roughly 300 open-source ML products to distinguish full products from
+models or APIs. That reinforces why a portfolio project should show the
+surrounding software, user workflow, and operational boundary
+([[cite:software-engineering-for-machine-learning@15:17=>Open-Source ML Product Dataset]]
+[[cite:software-engineering-for-machine-learning@21:54=>ML Product Criteria]]).
 Together, these perspectives make the portfolio bar broader than model quality.
 
 Show the decision, baseline, and data path. Also show the evaluation plan,

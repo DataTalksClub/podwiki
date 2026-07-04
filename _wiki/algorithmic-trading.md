@@ -54,10 +54,17 @@ and prediction logic. It also includes selection rules, position sizing, exit
 rules, and fees. Deployment discipline is part of the same workflow
 ([[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
-This makes algorithmic trading a system design problem, even when a learner
-starts with a simple mean-reversion idea. The usable system still has to define
-the data available before the trade and the target. It also needs the selection
-rule, loss limit, and metric that prove the strategy beat realistic costs.
+Algorithmic trading is a system design problem even when a learner starts with a
+simple mean-reversion idea. The usable system still has to define the data
+available before the trade and the target. It also needs the selection rule,
+loss limit, and metric that prove the strategy beat realistic costs.
+
+The same automated-decision structure appears outside equities. Mariano Semelman
+treats real-time bidding and campaign optimization as related to search systems
+and recommenders. All four rank or allocate options under product feedback
+([[cite:data-science-leadership-hiring-mlops@19:57=>DS Leadership and MLOps]],
+[[cite:data-science-leadership-hiring-mlops@21:19=>DS Leadership and MLOps]],
+[[Recommendation Systems]]).
 Stefan Jansen's
 [[book:20210222-ml-algotrading-2ed=>Machine Learning for Algorithmic Trading]]
 Book of the Week is the deeper reference for this end-to-end ML trading
@@ -158,6 +165,10 @@ This is why algorithmic trading belongs near [[Evaluation]] but needs
 finance-specific assumptions. A strategy can have a plausible classifier,
 reasonable features, and positive gross returns. It can still fail after fees,
 slippage, trade frequency, and capital allocation.
+Dan Becker's decision-optimization framing adds the same warning for pricing
+and bidding systems. The objective and constraints define whether an ML
+prediction improves the actual decision
+([[cite:machine-learning-decision-optimization@32:00=>Decision Optimization]]).
 
 ## Deployment and Monitoring
 

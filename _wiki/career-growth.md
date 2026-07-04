@@ -76,7 +76,7 @@ learning, then turn them into language other people can use. The two-year rule
 pushes that reflection toward people who are one or two years behind you.
 Recent lessons can become useful explanations, talks, or promotion evidence
 when they explain impact without inflating the work
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+([[cite:data-leadership-coaching@36:14=>Data Leadership Coaching]][[cite:data-leadership-coaching@38:33=>Data Leadership Coaching]]).
 
 A quieter boundary treats early writing as mainly a way to clarify thinking and
 help future teammates. It isn't mainly a way to chase a large public audience
@@ -99,6 +99,11 @@ for the current work before moving on
 Individual-contributor growth stays separate from management growth.
 Troubleshooting, platform breadth, and mentoring sit inside the senior IC path
 ([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+
+Bauer's framework ties junior-to-senior growth to abstraction, delegation, and
+broader leadership exposure.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@15:12=>B2B SaaS]].
+The IC-manager move can remain a pendulum rather than a permanent one-way
+switch.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@18:50=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@25:54=>B2B SaaS Data Science Teams]].
 Olga Ivina makes the fork explicit from the hiring-manager side. An IC can grow
 through technical depth. Management adds a different operating surface around
 people, delivery, and organizational tradeoffs

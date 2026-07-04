@@ -85,7 +85,7 @@ questions then become market feedback. On the employer side, junior candidates
 stand out when outreach and
 interview preparation show that they understand the team, product, and role.
 That moves the application away from a generic funnel
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@50:21=>Hiring and Managing Data Science Teams in B2B SaaS]]).
 
 The search should still point toward a target company or industry. Find
 practitioners in that company or nearby roles. Ask for a short conversation.
@@ -164,7 +164,8 @@ on recruiters
 Referrals and network warmth can change which applications turn into
 interviews. Early rejections become feedback on gaps to fix before the next
 attempt
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>From Academia to Staff AI Engineer]].
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@29:41=>From Academia to Staff AI Engineer]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@32:08=>From Academia to Staff AI Engineer]].
 
 Recruiter attention is easier to earn when outreach shows company research.
 Before contacting a company or employee, candidates should understand the

@@ -72,7 +72,7 @@ B2B SaaS teams show the same hiring logic at a later stage. Teams may hire
 across product analysis, analytics engineering, and marketing science. Managers
 protect craft quality through maintainable analytics and documentation. They
 also use peer review, mentorship, and career frameworks.
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Teams]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Teams]]
 
 These role boundaries connect to [[Analytics Engineering]] and
 [[Product Analyst vs Data Analyst]]. Managers use them when deciding whether the
@@ -150,7 +150,13 @@ Managers should connect these questions to [[Evaluation]], [[Metrics]],
 Managers also need to make foundation work visible. Reliable data and product
 framing can look slower than customer-facing delivery. Stakeholder
 communication and the right KPIs explain how data work supports users, other
-teams, and company goals.[[cite:data-leadership-coaching=>Data Leadership Coaching]]
+teams, and company goals.[[cite:data-leadership-coaching@24:32=>Data Leadership Coaching]]
+
+At head-of-data scope, that visibility becomes a prioritization and literacy
+problem. Managers have to build enough data culture that business teams
+understand why foundation work matters. That culture also helps them understand
+dashboards, models, and [[kpis=>KPIs]] before the next urgent request
+arrives.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@56:20=>B2B SaaS Teams]]
 
 Evaluation should include adoption and maintainability because poor model
 scores aren't the only production risk. Weak business buy-in and

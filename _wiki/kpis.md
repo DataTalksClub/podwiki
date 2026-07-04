@@ -143,6 +143,11 @@ pair client feedback and project-manager perspective with dashboarded KPIs. That
 tests whether the model is improving the business process it was built for
 [[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Data Science Manager vs Expert]].
 
+Data leaders also use KPIs to make foundation work visible. Tereza Iofciu
+connects impact, product mindset, and KPIs. That work can disappear from the
+business narrative unless leaders explain which user goal, team goal, or company
+goal it supports.[[cite:data-leadership-coaching@24:32=>Data Leadership Coaching]]
+
 For forecasting work, that links [[product analytics]] with [[model monitoring]].
 Teams watch the forecast and the business process together. Higher sales may
 come from seasonality, sales execution, or other operational changes rather than

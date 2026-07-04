@@ -16,12 +16,12 @@ Documentation is written or recorded material that helps another person use
 technical work. It can also help them maintain, evaluate, or extend it.
 Podcast discussions group docs into user material, team memory, and ML
 accountability records. Runbooks, onboarding notes, and portfolio repo tours
-belong in the same family.[[cite:open-source-ml-contributions]][[cite:technical-writing-for-data-scientists]][[cite:software-engineering-for-machine-learning]]
+belong in the same family.[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]][[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]][[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 Documentation works best as coordination infrastructure. It helps a tool user
 reach a first result and helps a teammate recover a decision. It also helps an
 operator respond to failure, and helps a reviewer understand a project without
-private context.[[cite:technical-writing-for-data-scientists]][[cite:dataops-automation-and-reliable-data-pipelines]]
+private context.[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]][[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]
 
 Read [[Technical Writing]] for writing workflow, [[Developer Relations]] for
 demos and tool adoption, and [[Contributing]] for contribution paths that
@@ -34,7 +34,7 @@ different readers and failure modes.
 
 Open-source maintainers need README material, guides, API references, and
 examples. Contribution guides reduce repeated maintainer work. Reproducible
-issues and small documentation fixes also count as real contribution paths.[[cite:open-source-ml-contributions]]
+issues and small documentation fixes also count as real contribution paths.[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]
 
 Future teammates need writing that preserves reasoning after the meeting ends.
 Working-backwards documents and press releases preserve intent. Design docs,
@@ -44,9 +44,9 @@ author isn't in the room
 [[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
 
 Developers adopting tools need audience-aware documentation, demos, and
-tutorials.[[cite:devrel-open-source-machine-learning]].
+tutorials.[[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]].
 Developer relations teams use dogfooding, community questions, and demos as
-product feedback.[[cite:practical-devrel-demofirst-education-and-open-source]].
+product feedback.[[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]].
 For a developer-tool company, docs can become a productive asset rather than a
 support cost. Adrian Brudaru describes investing in `dlt` documentation as part
 of the product. Clear docs let Python users adopt the library and feed better
@@ -55,25 +55,25 @@ questions back into the team
 
 ML product teams need documentation for shared vocabulary, requirements, and
 accountability. Model cards and datasheets make model behavior reviewable.
-Factsheets and checklists do the same for product constraints.[[cite:software-engineering-for-machine-learning]]
+Factsheets and checklists do the same for product constraints.[[cite:software-engineering-for-machine-learning@42:47=>Software Engineering for ML]]
 
 ## Readers and Use Cases
 
-Documentation quality depends on the reader's next action. A new user needs a
-clear first run, while a contributor needs setup steps and review expectations.
-A teammate needs the reason behind a decision, and an operator needs failure
+Documentation quality depends on the reader's next action. New users need a
+clear first run, and contributors need setup steps and review expectations.
+Teammates need the reason behind a decision, while operators need failure
 signals, ownership, and recovery steps.
 
-Portfolio readers need a README that shows the problem and setup. A quickstart
-can add the tradeoffs. A repo tour can show the verification path.[[cite:technical-writing-for-data-scientists]]
-Those artifacts also appear in [[data engineering portfolio projects]],
-[[machine learning portfolio projects]], and
+Portfolio readers need a README that shows the problem and setup, and
+quickstarts add the tradeoffs. Repo tours show the verification path.[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
+Those artifacts also appear in [[data engineering portfolio projects]] and
+[[machine learning portfolio projects]]. They also support
 [[open-source-portfolio-evidence=>open-source portfolio evidence]].
 
 Developers adopting a product need documentation and demos that explain the
 surrounding setup, not only the core tool. Demo-driven developer advocacy uses
 videos with a clear goal and useful pace. Full walkthroughs may also cover
-adjacent tooling such as Docker, Postgres, and Git.[[cite:practical-devrel-demofirst-education-and-open-source]]
+adjacent tooling such as Docker, Postgres, and Git.[[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]]
 
 ## Docs for Data and ML Systems
 
@@ -83,7 +83,7 @@ shows those assumptions.
 
 ML products have hidden technical debt, and failure modes include unmet
 requirements, poor data, and deployment issues. Documentation sits next to
-workshops and shared vocabularies as part of engineering remediation.[[cite:software-engineering-for-machine-learning]]
+workshops and shared vocabularies as part of engineering remediation.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 For ML systems, documentation supports [[software engineering]], [[MLOps]], and
 [[machine learning system design]].
@@ -107,7 +107,7 @@ owns the system, how to recover, and when to escalate.
 
 Version control, tests, and CI/CD are practical steps for healthier data
 pipelines, and runbooks extend into automated playbooks. Handoffs and
-documentation connect to replaceability and reduced on-call load.[[cite:dataops-automation-and-reliable-data-pipelines]]
+documentation connect to replaceability and reduced on-call load.[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]
 
 That makes runbooks part of [[DataOps]] and
 [[data-quality-and-observability=>data observability]], not just a support
@@ -135,23 +135,23 @@ constraint that still matters.
 Documentation is part of [[developer experience]] because first use is often
 where adoption fails. Teaching reproducibility, dogfooding the workflow, and
 structuring tutorials around audience and goals all turn documentation into a
-product-feedback channel.[[cite:devrel-open-source-machine-learning]]
+product-feedback channel.[[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]]
 
 The demo side connects documentation to [[developer relations]],
 [[community building]], and [[technical writing]]. Docs and demos help users
 move from curiosity to a first successful result. Workshops, office hours, and
-examples can do the same.[[cite:practical-devrel-demofirst-education-and-open-source]]
+examples can do the same.[[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]]
 
 ## Open-Source Contribution Paths
 
 Open-source documentation has two audiences: users trying to solve a problem
 and contributors trying to help the project. README files, guides, and API
 references help explain the project. Examples, contribution guides, and polite
-interaction reduce the work needed to contribute.[[cite:open-source-ml-contributions]]
+interaction reduce the work needed to contribute.[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]
 
 Mentorship adds another documentation role. Pull request quality and Git skills
 matter in large repositories. Environment setup and maintainer collaboration
-become easier when newcomers can follow a written path.[[cite:practical-devrel-demofirst-education-and-open-source]]
+become easier when newcomers can follow a written path.[[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]]
 
 Good open-source docs include setup steps, contribution expectations, and
 examples. They give newcomers enough context to avoid wasting maintainer time.

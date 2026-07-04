@@ -57,10 +57,19 @@ keep a large community from forcing every learner through the same path
 The DataTalks.Club course model centers project-based, end-to-end learning
 through the ML Bookcamp and Machine Learning Zoomcamp. The discussion connects
 learning with projects, notes, READMEs, and GitHub
-[[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]].
+[[cite:datatalksclub-building-scaling-data-community@38:22=>DataTalks.Club Behind the Scenes]]
+[[cite:datatalksclub-building-scaling-data-community@39:06=>DataTalks.Club Behind the Scenes]].
 This makes teaching inseparable from
 [[community building]] because
 office hours, public deadlines, and peer questions help learners keep moving.
+
+Daniel Egbo gives a learner-side example of that teaching model. ML Zoomcamp
+helped move his astronomy work from notebooks toward reusable code and
+production practices. Later course projects added orchestration, object storage,
+Spark, and warehouse thinking. Teaching becomes a bridge between domain research
+and practical engineering. It isn't only a set of lectures
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@26:58=>Radio Astronomy to ML and Data Engineering]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to ML and Data Engineering]].
 
 ## Build Curriculum From Constraints
 

@@ -58,7 +58,7 @@ Tool evaluation also needs a time horizon. In the DataTalks.Club community
 discussion, good tool choice means following lasting trends. That means avoiding
 churn around every new library. For teams and learners, a useful tool solves
 recurring use cases, has community momentum, and supports actual work
-[[cite:datatalksclub-building-scaling-data-community=>Building and Scaling DataTalks.Club]].
+[[cite:datatalksclub-building-scaling-data-community@45:40=>Building and Scaling DataTalks.Club]].
 
 For learning, beginners struggle with `pip`, Docker, and Git. That makes
 teaching the concepts more important than teaching commands alone. A tool helps
@@ -163,7 +163,7 @@ feed constrained decisions. OR-Tools, Gurobi, Pyomo, and open-source options
 belong beside modeling tools in that case. They help the system translate
 forecasts into inventory, pricing, bidding, or resource-allocation choices under
 objectives and constraints
-[[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]].
+[[cite:machine-learning-decision-optimization@22:00=>Machine Learning Decision Optimization]].
 
 On the ecosystem and education side, Metaflow appears with AWS, Kubernetes, and
 Argo. ML interoperability appears there too, and DevRel work connects to

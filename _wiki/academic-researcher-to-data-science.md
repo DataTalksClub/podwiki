@@ -77,9 +77,12 @@ her research background maps to statistics, experiments, and credit-risk
 modeling.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
 
 A radio-astronomy path can point toward applied ML and data engineering.
-MEERKAT work depends on source detection, catalog cross-matching, and curated
-datasets. Later project work adds cloud notebooks, Spark, and warehouse
-pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>Radio Astronomy to ML and Data Engineering]]
+
+MEERKAT work depends on curated datasets for source detection and catalog
+cross-matching. Later project work adds cloud notebooks, Spark, and warehouse
+pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Radio Astronomy]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>Radio Astronomy]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy]]
 
 The boundary between these targets connects to
 [[Data Engineer vs Data Scientist]]
@@ -109,7 +112,13 @@ admit mistakes.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to
 
 At staff level, academic leadership and grants have to become evidence for
 roadmap judgment and cross-functional influence. Collaborations and fast stack
-ramp-up also have to support ML design and system design.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>From Academia to Staff AI Engineer]]
+ramp-up also have to support ML design. System design needs the same proof.
+Tatiana Gabruseva's path shows how a candidate can skip a conventional
+mid-level reset. Those applied projects, grants, leadership, and collaborations
+have to be framed as industry impact rather than only academic prestige.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@21:26=>From Academia to Staff AI Engineer]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@25:30=>From Academia to Staff AI Engineer]]
 
 ## Role Targeting
 
@@ -122,11 +131,13 @@ That version of the transition maps to [[Data Science Careers]] and
 [[Data Scientist Role]]. It also maps to the
 [[data-scientist-role=>Data Scientist Guide]].
 
-Researchers whose work centers on pipelines, instruments, or large scientific
-datasets may have a stronger path through data engineering or ML engineering.
+Researchers who work on scientific pipelines or large instrument datasets may
+fit data engineering or ML engineering better.
 Daniel's MEERKAT work includes cross-matching and uncertainty handling. His
-later portfolio work adds orchestration, object storage, Spark, and warehouse
-pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to ML and Data Engineering]]
+later portfolio work adds orchestration and object storage. It also adds Spark
+and warehouse pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>Radio Astronomy]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>Radio Astronomy]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy]]
 
 Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
@@ -203,7 +214,8 @@ Good project shapes include:
 - A reproducible science-data pipeline
   [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 - A catalog or cross-matching project with uncertainty handling
-  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to ML and Data Engineering]].
+  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to ML and Data Engineering]]
+  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>From Radio Astronomy to ML and Data Engineering]].
 - An IoT prototype or proof of concept that exposes data integration and
   feedback loops
   [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]].
@@ -229,10 +241,17 @@ At staff level, proof shifts to coding practice and design practice. ML design
 and system design matter too.
 
 Mock interviews and referrals belong here. So do mentorship and production
-onboarding.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff]]
+onboarding.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@29:41=>Staff]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff]]
 That evidence belongs with
 [[Data Scientist Interview Roadmap]]
 and [[Staff AI Engineer]].
+
+For domain experts, Daniel's advice is to keep the domain knowledge visible
+while adding Python and structured projects. That makes the transition more
+credible than replacing a research identity with a generic data-science label
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]].
 
 ## Related Pages
 

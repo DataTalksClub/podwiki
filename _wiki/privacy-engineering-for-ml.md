@@ -201,7 +201,9 @@ setting. The tool combines case-management data with public records and surveys
 to support risk triage. Teams need to justify which fields enter the model,
 minimize unnecessary data, and control access to sensitive public and
 social-service records. Legal compliance and governance have to stay tied to
-the scoring workflow.[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]]
+the scoring workflow
+([[cite:building-domestic-risk-assessment-tool@25:15=>Risk Assessment Privacy]]
+[[cite:building-domestic-risk-assessment-tool@29:00=>Legal Compliance and Governance]]).
 
 Teams also need operating models for regulated datasets. Data owners and
 governance teams can appear in the approval flow. Data protection officers,
@@ -213,7 +215,8 @@ Digital therapeutics add the healthcare version of that review. When an ML
 product works with sensitive health context, de-identification is necessary but
 not sufficient. Activity, heart-rate variability, and mental-health signals all
 need explicit consent and privacy boundaries. HIPAA/GDPR expectations and
-empathy for vulnerable users become part of the product design.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+empathy for vulnerable users become part of the product design
+([[cite:ai-in-healthcare-and-digital-therapeutics@31:41=>Healthcare Data Privacy]]).
 
 Johanna's clinical-neuroimaging discussion gives the research analogue.
 De-identification and controlled access make data sharing possible only inside a

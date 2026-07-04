@@ -98,7 +98,13 @@ training and serving push teams toward scheduling and utilization. They also
 raise hardware ownership questions.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 In edge deployment, hardware fit can matter more than cloud platform choice.
-One example tested models on Intel hardware.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]]
+Daniel Egbo's internship example tested models on Intel hardware
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Radio Astronomy to ML]].
+That shifted the question from notebook success to whether the model fit the
+target deployment environment.
+That connects AI infrastructure to [[Notebook to Production AI Systems]] and to
+the portfolio discipline in
+[[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].
 
 ## Orchestration and Distributed Training
 

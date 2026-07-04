@@ -118,7 +118,7 @@ focus on the extract-load part, and dbt handles warehouse transformations
 Production ML pipelines follow the same rule: start with Lambda functions and
 queues. Adopt Airflow or Kubernetes when the simple chain becomes hard to
 operate
-[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>Production ML Pipelines with AWS and Kafka]].
 
 For a local learning or portfolio setup, follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)

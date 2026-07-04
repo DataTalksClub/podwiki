@@ -172,7 +172,7 @@ A minimum set of operating pieces includes:
 - reproducible pipelines
 
 Startups can borrow the control idea, then keep the implementation lighter
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@31:02=>MLOps in Finance]]).
 
 A model registry can start as a convention before it becomes a platform. For a
 single model, record the object-store folder, artifact name, and code commit.
@@ -180,7 +180,7 @@ Add the training-data reference, metrics file, owner, and deployment note. An S3
 bucket works as a tactical registry and data-versioning solution. It isn't the
 strategic end state, but it can show which artifact is being used and how it was
 produced
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@35:57=>MLOps in Finance]]).
 
 A startup doesn't need a large release-management department for
 [[ci-cd=>CI/CD]]. It does need a repeatable path

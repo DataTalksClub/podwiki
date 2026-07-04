@@ -40,6 +40,11 @@ method, domain, or production specialty. The better path depends on the target
 company and evidence the candidate can show
 [[cite:how-to-break-into-data-science@47:33=>Data Science Career Playbook]].
 
+Katie Bauer's B2B SaaS discussion adds a career-ladder check. Candidates should
+ask how the team defines junior, senior, and "terminal" IC levels. They should
+also ask whether senior growth means broader abstraction, delegation, and
+leadership exposure. The alternative may be a move into management.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@15:12=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@18:50=>B2B SaaS Data Science Teams]]
+
 ## Different Routes Into the Same Field
 
 Candidates need practical evidence, but they start from different material. [[person:ksenialegostay=>Ksenia Legostay]] moved gradually from project management into analytics and then machine learning. She began with a skills gap assessment and kept planning, stakeholder communication, and KPI work as transferable strengths. Analysis work then became portfolio evidence before she moved deeper into machine learning.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
@@ -104,3 +109,9 @@ Data science careers don't always move from junior data scientist to senior data
 Bootcamps and intensives can fit that progression when they create time, structure, feedback, and project evidence. Danny Ma cautions that six- or twelve-week programs aren't a shortcut around a longer learning journey. Treat them as one possible forcing function. Research alumni outcomes and connect the work back to the target analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 Adjacent roles can be better fits at different points. Candidates who like dashboards, stakeholder questions, and exploratory analysis may fit [[Data Analyst Careers]] before a modeling-heavy data scientist role. Pipeline, orchestration, and reliability work may fit [[Data Engineering]]. For model deployment and platform work, compare the target data scientist role with [[MLOps]] and machine learning engineering expectations.
+
+The principal data scientist path is another adjacent endpoint. Principal work
+can mean internal consulting, architecture review, and mentoring rather than
+only personal model output. That makes some senior data science careers look
+closer to [[leadership]] and [[communication]] while still
+remaining IC paths.[[cite:datatalksclub-building-scaling-data-community@6:27=>Scaling DataTalks.Club]]

@@ -214,7 +214,7 @@ about grain and marts, and they also expose late events and deduplication.
 Andreas Kretz uses an e-commerce pipeline with Kaggle data as a hands-on
 project example. He then advises learners to start with small datasets and
 iterate
-([[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]]).
+([[cite:production-ml-pipelines-with-aws-and-kafka@54:52=>Production ML Pipelines with AWS and Kafka]]).
 The interview story can then focus on source behavior and the consumer table.
 It can also cover the first failure and next scaling step. Dataset size doesn't
 have to be the evidence.

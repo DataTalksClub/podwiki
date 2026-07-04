@@ -64,7 +64,7 @@ cost instead of vendor-led collection.[[cite:trends-in-modern-data-engineering=>
 Production ML pipelines add the production version of the same warning. Every
 extra queue, processor, cloud service, or scheduler becomes another operational
 surface. Tool breadth only helps when the team can monitor, debug, secure, and
-hand off the whole path under failure.[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines]]
+hand off the whole path under failure.[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines]]
 
 Hiring data engineers applies the same rule to cloud and BI tools. Platform
 experience transfers better when candidates understand how a category is used

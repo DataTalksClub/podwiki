@@ -63,7 +63,7 @@ processing is needed.[[cite:dataops-principles-and-scalable-data-platforms=>Data
 
 Another view treats batch or streaming as one processing-mode choice inside a
 larger production pipeline. Ingestion and queues, storage and orchestration, and
-Spark or Flink processing still have to fit together.[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks]]
+Spark or Flink processing still have to fit together.[[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>From Notebooks]]
 
 A third view puts more weight on the organizational cost of streaming. Kafka
 adds onboarding work around schemas and registry practice. Teams also need

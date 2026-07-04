@@ -64,7 +64,8 @@ code exists.
 Start simple and fail fast when the team is still testing product value. Product
 feedback and fast learning should come before heavier model or platform
 complexity
-[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]].
+([[cite:data-science-leadership-hiring-mlops@30:06=>From Model to Product]]
+[[cite:data-science-leadership-hiring-mlops@33:36=>Start Simple and Fail Fast]]).
 The first production version should be the smallest baseline that can touch the
 workflow. It should show whether users and KPIs move before the team adds
 complexity.
@@ -115,7 +116,7 @@ deployment practice matter too
 
 The learner-to-practitioner version is practical. Learners move from exploratory
 analysis toward reusable code, project structure, and production habits
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]].
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@26:58=>Reusable Code and Production Practices]].
 
 Use a small project structure before you add platform complexity:
 
@@ -166,7 +167,7 @@ inference as a pipeline people can look at.
 The classic production ML path moves from notebooks into ingestion and buffers,
 then processing, storage, and Docker jobs. Cloud storage such as Parquet on S3
 can sit on that path, along with SQL or dataframe transformations
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>Dockerized Training and Model Storage]].
 
 Event ingestion with queues such as Kafka or Kinesis solves a different problem
 from batch processing
@@ -259,7 +260,8 @@ shift
 High-stakes systems need a production surface that frontline users can work with
 as decision support. That surface includes UI, training, and trust-building. It
 also needs explicit operational limits, not only scoring code
-[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]].
+([[cite:building-domestic-risk-assessment-tool@32:10=>Frontline Workflow Deployment]]
+[[cite:building-domestic-risk-assessment-tool@35:50=>Decision Support UI]]).
 
 Keep control boundaries explicit:
 

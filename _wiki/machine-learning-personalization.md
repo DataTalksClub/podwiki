@@ -58,9 +58,12 @@ product constraints, not only vector similarity.[[cite:building-production-searc
 
 Healthcare personalization uses a stricter boundary. Digital therapeutics nudge
 people toward healthier behavior, not just more engagement. Agenda-driven
-recommender systems combine segmentation and A/B testing with safeguards because
-some recommendations can be unsafe for specific medical
-groups.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+recommender systems choose interventions from the patient's program goals and
+context. They then use segmentation and A/B testing to learn which variants help
+([[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>Digital Therapeutics Personalization]]
+[[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>A/B Testing Foundation]]).
+Some recommendations can be unsafe for specific medical groups, so
+personalization has to stay linked to [[healthcare ML validation and adoption]].
 
 This healthcare boundary sits close to
 [[Healthcare ML Validation and Adoption]].
@@ -68,6 +71,15 @@ The model has to fit the clinical workflow and risk level. It also has to fit
 patient context and the review path. A personalized exercise, reminder, or
 intervention can be a recommendation system, but it also needs medical review
 when the suggestion can affect care.
+
+Behavioral design changes the objective too: Stefan Gudmundsson describes a
+low-in-app-time strategy. The product succeeds when people build habits in daily
+life, not when they spend more time inside the app
+([[cite:ai-in-healthcare-and-digital-therapeutics@15:04=>Low In-App Time Strategy]]).
+Reward design follows that health objective. Charity incentives may fit better
+than leaderboards when the product wants motivation without unhealthy
+competition
+([[cite:ai-in-healthcare-and-digital-therapeutics@25:43=>Charity Incentives vs Leaderboards]]).
 
 ## User Context and Activation
 
@@ -163,9 +175,12 @@ decide what a bad alert means for users.
 
 ## Analytics Before Models
 
-Teams need a reliable measurement base before complex ML.[[cite:ai-in-healthcare-and-digital-therapeutics=>Digital Therapeutics]]
-Data pipelines and dashboards come before advanced recommender models.
-Experimentation capabilities and variant availability come first too.
+Teams need a reliable measurement base before complex ML.
+Data pipelines, dashboards, and experimentation capabilities come before
+advanced recommender models
+([[cite:ai-in-healthcare-and-digital-therapeutics@27:02=>Analytics Foundation]]).
+Variant availability comes first too
+([[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]]).
 That sequence starts with A/B tests and segmentation, then moves toward
 clustering or collaborative filtering when the team has enough data and
 confidence.

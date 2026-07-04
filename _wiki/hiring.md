@@ -198,7 +198,7 @@ Manager hiring needs a different evidence set. Data science manager interviews
 should test team-building judgment, stakeholder management, career development,
 and data craft. Strategy, measurement, and tradeoffs belong in the same evidence
 set
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]]).
 
 Many manager descriptions over-index on Python and Docker. Tool-heavy
 requirements can crowd out communication, strategy, stakeholder work, and team
@@ -238,7 +238,7 @@ Junior hiring is a build-versus-buy decision. Hiring juniors can strengthen an
 organization over time when managers provide mentorship and skills training.
 The same support system includes project-based learning, regular check-ins, and
 support channels
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@40:12=>B2B SaaS Data Science Teams]]).
 Without that support, a junior hire can look like a bad hire when the real
 problem is weak onboarding or no growth path.
 
@@ -289,10 +289,12 @@ Manager hiring also includes learning and translation.
 advertising domain with a 30-60-90 plan and many questions. Transferable data
 science practices helped with problem framing and feature thinking. Evaluation,
 monitoring, and KPI design connected the work back to the business
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
-Manager hiring is part of [[Leadership]]
-and [[Team Building]], not only a
-seniority filter.
+([[cite:data-science-leadership-hiring-mlops@12:52=>Data Science Leadership]][[cite:data-science-leadership-hiring-mlops@15:16=>Data Science Leadership]]).
+
+He connects interviews and probation with development plans. He treats
+mismatches as remediation signals rather than immediate hiring failures.[[cite:data-science-leadership-hiring-mlops@55:48=>Data Science Leadership]]
+Manager hiring belongs with [[Leadership]] and [[Team Building]]. It isn't only
+a seniority filter.
 
 ## Offers, Onboarding, and Retention
 

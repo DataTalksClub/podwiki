@@ -85,7 +85,7 @@ Mariano Semelman's product-first view adds the delivery constraint. CRISP-DM is
 useful framing, but project planning also needs a deployment path. Product
 feedback has to be part of that path. So do stakeholder decisions and the
 operational handoff that keeps the work usable after modeling
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership, Hiring, and MLOps]]).
+([[cite:data-science-leadership-hiring-mlops@36:12=>Data Science Leadership, Hiring, and MLOps]]).
 
 Data product work uses the same definition. The operating model starts with
 intake, prioritization, and Definition of Done. KPIs and feasibility checks come
@@ -253,14 +253,15 @@ but ML projects still need prototyping and iterative groundwork before the team
 treats a plan as stable. The uncertainty isn't only task estimation. The team is
 discovering data, model behavior, platform constraints, and what a regulated
 release path can absorb
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps and ML Engineering in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@38:48=>MLOps and ML Engineering in Finance]]).
 
 Software engineering research adds the process gap. CRISP-DM describes the ML
 workflow, and Agile describes software delivery. Production ML still needs one
 integrated path from requirements through testing. ML practitioners need to be
 involved while requirements, data assumptions, acceptance criteria, and test
 plans are still being shaped. Their role starts before a ticket reaches modeling
-([[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]).
+([[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]],
+[[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]).
 
 A Kanban board organizes delivery stories. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks

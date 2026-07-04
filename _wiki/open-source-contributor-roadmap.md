@@ -21,10 +21,12 @@ An open-source contributor roadmap should start with useful work that a
 maintainer can review. That work may be code, docs, or tests. It can also be a
 reproducible issue, a demo, a forum answer, or a tutorial.
 
-Contribution quality includes documentation, contribution guides, and polite
-interaction. Reproducible issues and tests reduce maintainer work, and CI keeps
-contributions reviewable with packaging and pre-commit
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+Good contribution quality includes documentation, contribution guides, and
+polite interaction with maintainers. Reproducible issues and tests reduce
+maintainer work. CI keeps contributions reviewable by checking packaging and
+pre-commit
+([[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]
+[[cite:open-source-ml-contributions@27:40=>Contribute to Open Source ML]]).
 
 The broad concept lives in [[Open Source]],
 and
@@ -133,6 +135,11 @@ CI costs, and governance constraints define the same work
 That's why a mature contributor does more than submit patches. They make the
 project easier to run, easier to review, and easier for the next contributor to
 join.
+
+Large repositories and small repositories require different strategy. Smaller
+projects can be easier places to learn review norms, while larger projects often
+need discussion before nontrivial changes
+([[cite:open-source-ml-contributions@29:30=>Contribute to Open Source ML]]).
 
 ## Related Pages
 

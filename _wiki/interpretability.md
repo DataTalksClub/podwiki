@@ -121,7 +121,8 @@ In production, explainability belongs inside the incident workflow. A
 credit-scoring surprise can require feature importance, data checks, and
 business-rule review. XAI is strongest when it answers a debugging question and
 weaker as a generic trust layer after investigation has stopped.
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+[[cite:human-centered-mlops-and-model-monitoring@37:12=>Human-Centered MLOps and Model Monitoring]]
+[[cite:human-centered-mlops-and-model-monitoring@44:11=>Human-Centered MLOps and Model Monitoring]]
 
 ## Governance and Fairness
 

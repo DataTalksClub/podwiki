@@ -79,7 +79,7 @@ The maintainer side treats README material and guides as part of the same
 open-source surface. API reference and examples belong there too. The
 contribution workflow then adds contribution guides and reproducible issues. It
 also relies on tests and CI, plus packaging and pre-commit hooks
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]).
 
 Governance and plugin boundaries extend the same picture. So do maintainer
 transition, volunteer motivation, CI cost, and business models
@@ -224,7 +224,8 @@ For a new open-source tool, usefulness and maintenance come before promotion.
 Publishing to PyPI too early is a mistake. Ecosystem fit and low-maintenance APIs
 come first. Documentation and contribution etiquette follow, along with tests and
 CI. Packaging and pre-commit hooks come after that
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions@11:45=>Contribute to Open Source ML]],
+[[cite:open-source-ml-contributions@32:40=>Contribute to Open Source ML]]).
 
 For product-led open source, the starting point is repeated client pain and user
 feedback. DLT moves from recurring data-ingestion problems through developer

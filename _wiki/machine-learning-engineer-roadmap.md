@@ -65,7 +65,7 @@ Don't treat those infrastructure skills as optional extras. In finance-focused
 ML engineering, Python and Linux sit alongside networking, cloud basics, and
 stakeholder work. The engineer has to move a model through real deployment
 constraints, not just improve notebook metrics
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps and ML Engineering in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance@45:04=>MLOps and ML Engineering in Finance]].
 
 Learn these pieces in order:
 

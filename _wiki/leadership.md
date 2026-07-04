@@ -250,8 +250,13 @@ feedback.
 Semelman's feedback practice is careful because manager feedback changes a
 person's career. He recommends asking permission, showing care, and offering
 options rather than treating managerial opinion as objective truth
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]). His one-on-one discussion also frames mistakes as part
+([[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]]). His one-on-one discussion also frames mistakes as part
 of a safe learning environment.
+
+Iofciu draws a related boundary between coaching, mentoring, and direct advice.
+For data leaders, the useful practice isn't purity about the label. It's
+choosing whether the person needs reflection, examples, or a concrete next step
+in that moment.[[cite:data-leadership-coaching@34:38=>Data Leadership Coaching]]
 
 Jain's data engineering leadership episode adds the engineering version of this
 same coaching work. The manager creates standards and career paths while
@@ -291,7 +296,7 @@ Data and AI leadership often fails when technical work can't be translated
 into stakeholder priorities. Iofciu describes influence without authority as
 speaking different work languages and listening actively. The leader then
 connects a project to what matters for the other person
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]). She also argues that data foundation work, models, and
+([[cite:data-leadership-coaching@46:00=>Data Leadership Coaching]][[cite:data-leadership-coaching@49:20=>Data Leadership Coaching]]). She also argues that data foundation work, models, and
 open-source work need visibility because impact isn't always customer-facing.
 
 Semelman gives the product version of the same practice. He warns that data
@@ -493,6 +498,10 @@ beyond one team's backlog, talk with nearby teams, and solve problems that help
 more than one group. The platform side belongs with
 [[self-service-data-platforms=>self-service data platforms]]
 and [[data engineering platforms]].
+
+Inclusive leadership adds another scaling constraint because Iofciu frames
+inclusion as an operating practice. Leaders need to notice who's excluded by
+default norms, not only who already speaks loudly in the room.[[cite:data-leadership-coaching@54:24=>Data Leadership Coaching]]
 
 Liang's episode shows the adoption side of scaling. Her team moved from
 dashboards to forecasting and data products. Business teams still needed trust,

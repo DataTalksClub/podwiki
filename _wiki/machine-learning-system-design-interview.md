@@ -100,6 +100,13 @@ rehearse that decomposition in mocks. In mocks, put the opening and assumptions
 before the data path. Then cover metrics and system tradeoffs.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI]]
 That makes mock practice useful for structure, not just confidence.
 
+Tatiana's preparation path connects ML design to system design rather than
+treating them as separate memorization tracks. ML design practice starts with
+problem decomposition and reading engineering blogs, then system design adds
+Grokking-style study and mock interviews
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI]].
+
 ## Practice Fraud Detection
 
 Fraud detection is the strongest machine learning system design

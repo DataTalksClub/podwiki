@@ -66,7 +66,7 @@ For open-source adoption work, use
 
 A practical definition frames open source through pragmatism and reciprocity.
 `whatlies`, `clumper`, `memo`, and scikit-lego are small tools that started from
-concrete needs.[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
+concrete needs.[[cite:open-source-ml-contributions@09:30=>Contribute to Open Source ML]]
 
 The important point isn't that every idea becomes a famous package. The author
 solves a real problem first, then makes the solution reusable. In those examples,
@@ -90,6 +90,7 @@ adding maintenance burden to the main project. That links open source to
 [[machine learning tools]]
 and [[software engineering]],
 not only to public repositories
+[[cite:open-source-ml-contributions@19:00=>Contribute to Open Source ML]]
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
 
 ## Contribution, Adoption, and Company Lenses

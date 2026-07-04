@@ -72,7 +72,8 @@ her B2B SaaS data science management discussion. Data science managers work in
 matrix organizations, and data scientists partner with PMs and senior leaders.
 The manager still has to preserve maintainable analytics and documentation.
 They also need peer review, mentorship, and growth paths.
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@8:33=>B2B SaaS]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS]]
 
 Cohen describes hybrid models as a practical compromise, using Twitter's
 division-level setup as an example. These structures keep data people close to
@@ -120,7 +121,7 @@ quality, deployment ownership, shared vocabulary, and what productionizing a
 model requires. Stronger [[mlops]], [[machine-learning-system-design]], and
 [[communication]] practices make those boundaries explicit instead of leaving
 them to the final deployment step.
-[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]
 
 Analysts and data scientists translate questions into metrics and
 recommendations. They may also run experiments or build models. Product and
@@ -173,6 +174,11 @@ people depend on it. Dehghani's data mesh discussion grounds that answer in
 [[data mesh]],
 [[self-service-data-platforms=>self-service data platforms]],
 and [[data engineering platforms]].
+
+Cloud governance adds a more operational role map. Data stewards, producers,
+and decision makers all participate in governance. Ownership isn't just a label
+on a dataset. It's a set of review and access responsibilities inside the team
+model.[[cite:cloud-data-governance@33:03=>Cloud Data Governance]]
 
 Dehghani ties ownership to domains and describes data products through
 consumer-first guarantees, quality, and service levels. She also names clear

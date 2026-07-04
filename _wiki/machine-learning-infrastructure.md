@@ -109,7 +109,7 @@ In regulated finance, compute can become an on-prem platform constraint. Teams
 may run Hadoop and OpenShift instead of elastic cloud services. They may also
 request hardware through internal processes. Deployment work has to fit approved
 platforms, so infrastructure ownership becomes part of governance
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps and ML Engineering in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
 
 Large-model workloads add another layer of GPU requirements. Teams have to handle
 PyTorch and NCCL, communication bottlenecks, optimization strategies, and

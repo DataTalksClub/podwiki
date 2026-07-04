@@ -110,6 +110,12 @@ They prioritize projects by stakeholder impact and high-connectivity
 opportunities
 [[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]].
 
+Influencing without authority uses the same mechanics. Iofciu describes it as
+speaking the other person's work language, listening actively, and framing the
+data project around what the stakeholder already cares about. That keeps
+[[leadership]] and [[communication]] connected even when the data person has no
+formal reporting line.[[cite:data-leadership-coaching@46:00=>Data Leadership Coaching]][[cite:data-leadership-coaching@49:20=>Data Leadership Coaching]]
+
 [[mentoring-in-tech=>Mentoring]] uses the same listening skill in a career
 setting. The mentor has to understand context before giving advice. They also
 avoid jumping straight to solutions and turn a vague concern into a more
