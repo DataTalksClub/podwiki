@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10600
+    "links": 10593
   },
   "nodes": [
     {
@@ -10572,7 +10572,7 @@
       "title": "Modern Data Engineering Trends",
       "url": "/wiki/modern-data-engineering-trends/",
       "count": 1,
-      "search": "Modern Data Engineering Trends Podcast grounded view of data engineering specialization, governance, quality, DataOps, lakehouse formats, streaming, AI, and FinOps."
+      "search": "Modern Data Engineering Trends How data engineering is shifting toward platform specialization, open formats, AI systems, and cost control."
     },
     {
       "id": "wiki:modern-data-stack",
@@ -61926,12 +61926,6 @@
     },
     {
       "source": "wiki:modern-data-engineering-trends",
-      "target": "wiki:data-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-engineering-trends",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -73507,42 +73501,6 @@
     {
       "source": "wiki:technical-writing",
       "target": "wiki:software-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:barrmoses",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
-      "target": "person:victoriaperezmola",
       "kind": "wiki-chip",
       "weight": 1
     },

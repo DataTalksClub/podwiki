@@ -11,233 +11,178 @@ related:
   - Production
 ---
 
-Testing in data, ML, and AI systems means checking whether a change preserves
-the behavior that downstream users depend on. The thing under test might be a
-table, a dbt model, a batch pipeline, or a trained model. It might also be a
-retrieval system, a prompt, or an agent that calls external tools. In
-DataTalks.Club podcast discussions, guests treat testing as production
-discipline rather than unit tests around application code.
+Testing in data, ML, and AI systems checks whether a change preserves behavior
+that downstream users depend on. Data teams test tables, dbt models, and batch
+pipelines. ML and AI teams test trained models, retrieval systems, prompts, and
+agents that call external tools.
 
-Testing links [[DataOps]] and
-[[ci-cd=>CI/CD]] with
-[[data quality and observability]].
-It also sits next to [[evaluation]],
-[[production]],
-[[data-quality-and-observability=>data observability]], and
-[[model monitoring]]. Tests
-encode expectations a team knows before release. Monitoring catches behavior
-the team didn't know how to encode yet.
+Testing connects [[dataops=>DataOps]] and [[ci-cd=>CI/CD]] with
+[[data-quality-and-observability=>data quality and observability]], and it also
+sits beside [[evaluation]], [[production]], and [[model-monitoring=>model monitoring]].
+Tests encode expectations a team can name before release, while monitoring
+catches behavior the team didn't know how to encode yet.
 
-For data teams, testing usually means data-quality assertions and
-transformation checks. It also means realistic test data, regression suites,
-and CI/CD gates. For ML teams, it means offline evaluation sets and baselines.
-For AI systems, it means prompt evals and RAG evals. It also means tool-call
-tests and production feedback loops.
+## Testing Scope
+
+Testing covers known failure modes before they reach a user. Data teams usually
+encode data-quality assertions and transformation checks. They also use
+realistic test data and regression suites. CI/CD gates run those checks before
+release.
+
+ML teams add offline evaluation sets and baselines, while AI teams add prompt
+and [[retrieval-augmented-generation=>RAG]] evaluations. AI teams also add
+tool-call tests, traces, and production feedback loops.
+
+No single tool defines testing here. A team names the behavior it depends on
+and turns that expectation into an automated check where possible. It still
+needs monitoring for failures the test suite can't predict.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]][[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+
+## Boundaries and Tradeoffs
+
+The boundary between testing, evaluation, and monitoring changes by system type.
+Analytics engineering leans on dbt tests and source checks near the model
+definition. DataOps discussions focus on automated regression tests, realistic
+test data, version control, and CI/CD. LLM and agent discussions often call the
+same discipline evaluation. Their outputs are language, retrieval behavior, or
+tool use rather than a single table constraint.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+
+The system type also changes what counts as enough. A dbt non-null test can pass
+by returning no failing rows. A data pipeline may need an integration or
+snapshot test that proves representative input produces an expected output. An
+agent test may need to verify the final outcome and required constraints. It
+shouldn't force one exact reasoning path.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]][[cite:production-ready-ai-engineering=>Production AI Engineering]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 ## Test Assertions
 
-DataTalks.Club guests use tests for failures a team can name before those
-failures reach a user. A test can assert that a dbt column isn't null. Another
-test can check that a pipeline produces an expected snapshot or that an agent
-calls the right tool with the right parameters.
+Data and AI tests work best when the team can name the failure before release.
+A dbt test can assert that a column isn't null. Other tests can check city names
+or numeric ranges. In dbt, these tests run as queries that return failing rows.
+They can stop downstream models before reports build on bad source data.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 
-[[person:victoriaperezmola=>Victoria Perez Mola]]
-describes the analytics-engineering version [[cite:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
-She explains how dbt brings software development habits into
-[[analytics engineering]]. SQL files live with YAML documentation, version
-control, and tests. She describes dbt tests as queries that return failing
-rows. A non-null test passes when the query returns nothing, and a failure can
-become a warning or an error before dependent models build.
+Pipeline tests often need representative input and expected output rather than
+only small unit tests. A team can run the pipeline, observe acceptable outputs,
+and turn those examples into integration or snapshot tests. Naming those tests
+after the business rule they protect makes failures easier to debug.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] gives the production AI version [[cite:production-ready-ai-engineering|Production AI Engineering]]. He says a
-team needs tests to prove a data pipeline works before it can defend a
-dashboard number. He prefers making the pipeline run, observing acceptable
-outputs, and turning those examples into tests. For data pipelines, that often
-means integration or snapshot tests rather than only small unit tests.
-
-## Known and Unknown Failures
-
-Teams get the most value when they already know the failure mode.
-
-Perez Mola uses dbt tests to stop known bad source data
-([[cite:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
-Those tests run before downstream models build.
-She also says teams rarely reach a point where every future data-quality
-problem is covered.
-
-[[person:barrmoses=>Barr Moses]] makes that limit explicit [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
-She argues that data teams need both tests and monitoring. Tests cover expected
-failures while observability catches unknown unknowns.
-
-[[person:christopherbergh=>Christopher Bergh]] starts
-from operating discipline rather than one testing tool. In [[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-he ties testing to the definition of "done": a pipeline isn't done merely
-because a stakeholder saw a dashboard. He says the system should tell the team
-when something is wrong while it runs and should let someone make a change
-quickly. In [[cite:dataops-for-data-engineering|DataOps for Data Engineering]], he connects
-that idea to CI/CD and regression tests. He also includes realistic test data,
-version control, and automated checks.
-
-LLM and agent guests use the word evaluation more often than testing. They
-describe the same production discipline. [[person:hugobowneanderson|Hugo Bowne-Anderson]]
-argues in [[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
-that teams eventually need representative gold test sets for reliable software.
-
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
-adds in [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
-that public benchmarks measure model capability, not the deployed
-[[agent engineering]] system.
-She frames agent checks as software tests with mocked tools. She also includes
-integration tests, regression tests, and outcome assertions.
+Agent tests extend the same idea to tool use. A test can mock external systems
+and assert that the agent calls the right tool with the right parameters. It can
+also check whether the final answer satisfies the required constraints. A
+calendar, SRE, or enterprise agent can fail through a bad tool call even when
+the generated text looks plausible.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 ## Data and Analytics Tests
 
-Data tests usually encode expectations about required fields, allowed ranges,
-and uniqueness. They also cover source quality and transformation assumptions.
-In Perez Mola's dbt discussion, tests protect analytical models from bad inputs.
-She describes checks for city names and numeric ranges. Source tests can block
-downstream models so teams don't build reports on wrong data
-([[cite:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
+[[analytics-engineering=>Analytics engineering]] testing puts checks near the
+shared model definition instead of leaving them as one-off analyst queries. SQL
+files, YAML documentation, version control, and tests live together. With those
+checks in place, a team can see whether a shared business definition still
+holds. The check runs when source data or transformation logic changes.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 
-Analytics-engineering testing differs from a one-off analyst query because the
-test belongs near the model definition and runs with the transformation flow.
-It tells the team whether a shared business definition can still be trusted.
-Documentation and peer review matter too. Perez Mola ties good SQL, tests,
-guidelines, and review practices to the analytics engineer role.
+Documentation and peer review support the same reliability goal. Good SQL and
+tests protect shared reporting logic, while guidelines and review practices add
+the human check a reused metric needs.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 
-Mikulski adds another data-pipeline check: run representative input through the
-pipeline and compare the output with an expected snapshot. In [[cite:production-ready-ai-engineering|Production AI Engineering]], he says
-unit tests are less useful for whole pipelines than integration-style checks.
-Those tests can be named after the business rule they protect, which makes
-failures easier to understand during debugging.
+Data-pipeline tests add a broader production check. A pipeline can run
+successfully and still publish an output nobody should trust. Teams need tests
+that prove the data moved through the expected transformation, not only that the
+job finished.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 ## CI/CD and Pipeline Regression
 
-Testing becomes more valuable when it runs automatically, and Bergh's DataOps
-episodes make automation the core operating point. In [[cite:dataops-for-data-engineering|DataOps for Data Engineering]], he ties
-safe change to regression tests and automated deployment. He also includes
-monitoring, realistic test data, and infrastructure as code. He warns that Git
-alone isn't enough. Teams need end-to-end tests and automated checks before
-production.
+Testing becomes more useful when it runs automatically. DataOps ties safe
+change to regression tests and automated deployment. It also relies on realistic
+test data, monitoring, infrastructure as code, and test environments. Git alone
+isn't enough when a team needs end-to-end confidence before production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Bergh lists version control and automated tests as practical components in [[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]. He
-also includes CI/CD and test environments. Teams can use dbt tests, Great
-Expectations, SQL checks, and other strategies that fit the pipeline. The exact
-tool matters less than the habit of proving a change with data before relying on
-it downstream.
+Teams can use dbt tests, Great Expectations, SQL checks, and other strategies
+that fit the pipeline. The exact tool matters less than proving a change with
+data before relying on it downstream.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Testing belongs beside [[ci-cd|CI/CD]] and
-[[reproducibility]] because a data
-or ML release should preserve the relationship between code, data, artifacts,
-and tests. It should also preserve metadata and deployment behavior. Otherwise a
-team may know a pipeline passed once but still not know what changed after a
-failure.
+Testing belongs beside [[ci-cd=>CI/CD]] and [[reproducibility]] because a data
+or ML release has to preserve code, data, artifacts, and tests. It also has to
+preserve metadata and deployment behavior. Without that relationship, a team may
+know a pipeline passed once but still not know what changed after a failure.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 ## Evaluation for ML, Search, and LLM Systems
 
-Some systems need evaluation sets rather than pass/fail data checks. For ML or
-search applications, teams ask whether the system performs well enough against
-representative cases and a meaningful baseline. [[retrieval-augmented-generation|RAG]],
-[[retrieval-augmented-generation=>retrieval-augmented generation]],
-and LLM applications need the same question with language-specific checks.
+Some systems need evaluation sets rather than pass/fail data checks. ML and
+search applications ask whether the system performs well enough against
+representative cases and a meaningful baseline. [[retrieval-augmented-generation=>RAG]]
+and LLM applications ask the same question with language-specific checks.
 
-Bowne-Anderson's LLM engineering episode gives a practical LLM testing
-approach. He compares gold test sets to holdout and test sets in machine
-learning. Natural language and tool calls make the practice different, but not
-every case requires an LLM judge. Teams can use structured output checks and
-regular expressions. They can also use string matching, cheaper models, and human review
-([[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]],
-[[LLM Evaluation Workflows]]).
+Gold test sets for LLM applications play a role similar to holdout and test
+sets in machine learning. Natural language and tool calls make the practice
+different, but not every case needs an LLM judge. Teams can use structured
+output checks and regular expressions. They can also use string matching,
+cheaper models, and human review.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[llm-evaluation-workflows=>LLM Evaluation Workflows]]
 
-Failure analysis turns evaluation into engineering work. Bowne-Anderson
-recommends categorizing errors and ranking the largest failure classes. If most
-failures come from retrieval, teams should fix retrieval before polishing
-formatting. Testing for these systems belongs with
-[[retrieval-augmented-generation=>retrieval-augmented generation]]
-and [[production search evaluation]].
+Teams turn evaluation into engineering work by categorizing errors and ranking
+the largest failure classes. If most failures come from retrieval, fixing
+retrieval comes before polishing formatting. This connects testing to
+[[retrieval-augmented-generation=>retrieval-augmented generation]] and
+[[production-search-evaluation=>production search evaluation]].[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 ## Agent and Tool Tests
 
-Agent systems add tool behavior to answer quality. In Kulkarni's discussion,
-model benchmarks and system benchmarks are separate
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
-She says teams need datasets that represent real users. Public benchmarks
-measure model capability, not the product system.
+Agent systems add tool behavior to answer quality. Public benchmarks measure
+model capability, not the deployed [[agent-engineering=>agent engineering]]
+system. Production teams need datasets that represent real users and product
+tasks.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Teams mock external tools and assert outputs as software-style tests. They also
-check whether the agent tries to call the right system with the right
-parameters. That matters because a calendar, SRE, or enterprise agent can fail
-through a bad tool call even when the generated text looks plausible.
+Agent tests often mock tools, assert outcomes, and add integration or regression
+checks. They should usually assert the outcome and required constraints, not
+every intermediate step. An LLM can reach the same acceptable result through
+more than one path.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Kulkarni also warns against overfitting the test to one reasoning path. She
-says an LLM can reach the same goal through different acceptable paths. For
-[[agent engineering]]
-and [[LLM production patterns]],
-the test should often assert the outcome and required constraints, not every
-intermediate step.
+That boundary matters for [[agent-engineering=>agent engineering]] and
+[[llm-production-patterns=>LLM production patterns]]. A brittle test that
+hard-codes one reasoning path can reject a correct answer. A loose test can
+miss a harmful tool call or broken product constraint.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 ## Monitoring After Tests Pass
 
-Tests don't remove the need for production monitoring. In [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]],
-Moses frames that gap by naming freshness and volume alongside distribution,
-schema, and lineage. She distinguishes a successful pipeline run from good
-data. A job can complete while publishing late, incomplete, shifted, or
-semantically wrong data.
+Tests don't remove the need for production monitoring. A pipeline can complete
+successfully while publishing late, incomplete, shifted, or semantically wrong
+data. Freshness and volume checks cover failures that a job-status check
+misses. Distribution, schema, and lineage checks cover another set of failures.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
-Her test-driven data discussion gives a practical boundary. Tests specify what
-the team already knows might go wrong. Monitoring and observability help the
-team notice new failures and diagnose root cause. That's why
-[[data quality and observability]]
-and [[DataOps]] sit next to testing
-instead of after it.
+Tests specify what the team already knows might go wrong. Monitoring and
+observability help the team notice new failures and diagnose root cause. That
+is why [[data-quality-and-observability=>data quality and observability]] and
+[[dataops=>DataOps]] sit next to testing instead of after it.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
-For ML and AI systems, monitoring also checks whether evaluation still holds
-after launch. A feature distribution can shift, labels can arrive late, a schema
-can change, or an upstream retrieval index can become stale. Use
-[[model monitoring]] when the
-alert concerns model behavior and [[MLOps]]
-when the work includes training, deployment, rollback, and model lifecycle
-control.
+For ML and AI systems, monitoring checks whether evaluation still holds after
+launch. A feature distribution can shift, labels can arrive late, a schema can
+change, or an upstream retrieval index can become stale. Use
+[[model-monitoring=>model monitoring]] when the alert concerns model behavior
+and [[mlops=>MLOps]] when the work includes training, deployment, rollback, and
+model lifecycle control.
 
 ## Production Readiness
 
-These episodes treat production readiness as the point where tests and
-evaluation meet monitoring and ownership. Bergh's "done versus good" discussion in [[cite:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]
-gives the operating version. A team should be able to run the system, know when
-something is wrong, make changes safely, and onboard another person into the
-work.
+Production readiness starts when tests and evaluation meet monitoring and
+ownership. A team should be able to run the system, know when something is
+wrong, make changes safely, and onboard another person into the work.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Mikulski's production AI discussion makes the same point through trust. In [[cite:production-ready-ai-engineering|Production AI Engineering]], he says the
-phrase "this number doesn't look correct" is damaging because trust is hard to
-regain. Tests don't prove perfection, but they give the team something concrete
-to rely on during debugging.
+Trust is part of that readiness. When a dashboard number looks wrong, confidence
+is hard to regain. Tests don't prove perfection, but they give the team a
+concrete check to rely on during debugging.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-For LLM and agent systems, teams add representative test sets and failure
-analysis. They also add traces, mocked tool tests, outcome assertions, and
-feedback from real use. The same production work appears in
-[[LLM production patterns]],
-[[LLM evaluation workflows]],
-and [[production]]. A demo becomes a
-system only when the team can change it, check it, observe it, and respond when
-it fails.
+For LLM and agent systems, production readiness adds representative test sets
+and failure analysis. It also adds traces, mocked tool tests, outcome
+assertions, and feedback from real use. A demo becomes a system only when the
+team can change it, check it, observe it, and respond when it fails.
+[[llm-production-patterns=>LLM production patterns]],
+[[llm-evaluation-workflows=>LLM evaluation workflows]], and [[production]] cover
+those operating concerns.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-## Adjacent Practices
+## Related Pages
 
-Testing supports production confidence alongside [[DataOps]]
-and [[ci-cd|CI/CD]], which cover the delivery
-machinery around tests. [[Data quality and observability]]
-and [[data-quality-and-observability|data observability]]
-cover the gap between known assertions and new production failures. For models,
-[[evaluation]] and
-[[LLM evaluation workflows]]
-cover pre-release checks. [[Model monitoring]]
-and [[MLOps]] cover the checks that continue
-after training and deployment.
+These pages cover testing practices in adjacent systems:
 
-[[Analytics engineering]]
-uses tests to protect shared business definitions. [[Agent engineering]]
-and [[LLM production patterns]]
-extend testing to prompts and retrieval. They also cover tool calls, traces,
-and user feedback.
-[[Production search evaluation]]
-focuses on whether retrieval behavior still supports the product task.
+- [[dataops=>DataOps]] and [[ci-cd=>CI/CD]] cover delivery and automation around tests.
+- [[data-quality-and-observability=>Data quality and observability]] covers the gap between known assertions and new production failures.
+- [[evaluation]] and [[llm-evaluation-workflows=>LLM evaluation workflows]] cover pre-release checks for models, retrieval, and LLM systems.
+- [[model-monitoring=>Model monitoring]] and [[mlops=>MLOps]] cover checks that continue after training and deployment.
+- [[analytics-engineering=>Analytics engineering]], [[agent-engineering=>agent engineering]], [[llm-production-patterns=>LLM production patterns]], and [[production-search-evaluation=>production search evaluation]] cover testing in specific system contexts.
