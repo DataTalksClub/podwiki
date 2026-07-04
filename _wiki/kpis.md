@@ -18,7 +18,7 @@ work changed the business. In the DataTalks.Club discussions, KPIs aren't just
 dashboard numbers. They're decision metrics with an owner, a time window, a
 known audience, and a behavior they're meant to influence.
 
-In [[person:adamsroka=>Adam Sroka]]'s [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]],
+In [[person:adamsroka=>Adam Sroka]]'s [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
 he gives the most direct KPI treatment.
 He starts from merit functions and comparable units, then defines KPIs as
 top-down executive decision metrics. Other
@@ -31,7 +31,7 @@ episodes show where KPI work meets [[data strategy]],
 
 In Sroka's sales pipeline example, weighted revenue becomes a KPI because it
 helps executives compare lead quality with expected
-value [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+value [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 It brings likely conversion into the same decision.
 The same episode discusses units and comparability. Those units matter
 when teams compare revenue, cost, risk, and time saved. A metric without a
@@ -50,14 +50,14 @@ detached reporting exercise.
 The strongest KPI discussions treat alignment as a design constraint.
 Sroka argues that KPIs should follow top-down business priorities. Teams should
 also see the KPIs clearly enough to use them in day-to-day
-decisions [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+decisions [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 
 He later discusses a North Star metric as a single guiding indicator for
 strategy. Not every team needs one universal number. A KPI still has to say what
 direction matters when choices compete.
 
 [[person:liorbarak=>Lior Barak]] makes a similar
-alignment argument from the [[data strategy]] side. His core KPI diagnosis in [[cite:mindful-data-strategy-for-business-impact|Mindful Data Strategy for Business Impact]]
+alignment argument from the [[data strategy]] side. His core KPI diagnosis in [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]]
 shows how dashboard inaccuracies force teams to look at ingestion and SQL logic.
 The same diagnosis also covers lineage and ownership.
 
@@ -69,7 +69,7 @@ definition.
 
 KPIs change behavior, so they can also create bad incentives. Sroka warns about
 vanity metrics and KPI gaming in the KPI design
-episode [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+episode [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 His examples distinguish easy-to-count activity from business outcomes.
 "Customers spoken to" may be measurable, but it's a poor KPI when it misses
 revenue or margin. It's also poor when it misses retention or risk.
@@ -89,14 +89,14 @@ review cadence.
 KPIs become useful when teams can see them and review them. They matter when
 teams change decisions after the numbers move. Sroka's operational section
 covers KPI prioritization, review cadence, and dashboard visibility. It also
-covers executive communication [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+covers executive communication [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 He recommends a small shortlist rather than a broad wall of numbers, because too
 many KPIs weaken the decision signal.
 
 Barak adds the reliability concern. In the mindful data strategy episode, core
 KPI diagnosis makes dashboard trust part of governance. The traffic-light
-reliability system reinforces the same point [[cite:mindful-data-strategy-for-business-impact|Mindful Data Strategy for Business Impact]].
-If a KPI dashboard can be wrong without any visible warning, the team has a [[data-quality-and-observability|data quality]]
+reliability system reinforces the same point [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+If a KPI dashboard can be wrong without any visible warning, the team has a [[data-quality-and-observability=>data quality]]
 problem and a communication problem. Reliable KPI dashboards need lineage,
 ownership, and user feedback loops, which also links KPI work to [[data governance]] and
 [[documentation]].
@@ -105,7 +105,7 @@ ownership, and user feedback loops, which also links KPI work to [[data governan
 
 For data and ML teams, Sroka argues that teams should translate model
 performance into a business-facing unit. Money or time saved makes the metric
-legible to the business [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+legible to the business [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 That claim is central to [[data product management]]
 and [[machine learning system design]].
 In those systems, accuracy and AUC matter most when the team can say which KPI
@@ -119,10 +119,10 @@ tests whether the model is improving the business process it was built for.
 For forecasting work, that links [[product analytics]] with [[model monitoring]].
 Teams watch the forecast and the business process together. Higher sales may
 come from seasonality, sales execution, or other operational changes rather than
-the model [[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
+the model [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
 [[person:linaweichbrodt=>Lina Weichbrodt]] makes the
-same point during project intake in [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+same point during project intake in [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 She starts with the business case, KPIs, and alternatives before modeling, then
 turns stakeholder fears into mitigations and service levels. Impact assessment
 also belongs in that intake.
@@ -133,7 +133,7 @@ system should exist at all.
 
 Some KPIs guide growth, while others define unacceptable failure. Sroka
 discusses threshold metrics and health or hygiene
-metrics [[cite:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]].
+metrics [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 Downtime and service reliability are KPI-adjacent because they tell a team when
 a product is unsafe. Warning limits show when the product is no longer meeting
 the standard users expect.
@@ -141,14 +141,14 @@ the standard users expect.
 Weichbrodt's MLOps episode turns those signals into operating practice, and
 service levels plus impact assessment set the operating bar. Post-mortems,
 feature drift, and data monitoring show how KPI-adjacent signals become production
-practice [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps]].
+practice [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 For [[production]] systems, KPI
 movement should trigger investigation, user communication, or rollback work. A
 KPI that nobody can act on is only a status label.
 
 ## Experimentation and Search Impact
 
-KPIs also decide whether experiments and search changes ship. In [[person:jakobgraff=>Jakob Graff]]'s [[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]],
+KPIs also decide whether experiments and search changes ship. In [[person:jakobgraff=>Jakob Graff]]'s [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
 a product experiment can imply different choices. The choice changes when the primary
 metric is revenue or conversion. It changes again when the team prioritizes retention
 or long-term value.
@@ -159,7 +159,7 @@ seasonality and underpowered tests. KPI choice therefore belongs before
 rollout decisions, not after a dashboard is already built.
 
 [[person:danielsvonava=>Daniel Svonava]] gives the
-search-system version in [[cite:building-production-search-systems|Building Search Systems]].
+search-system version in [[cite:building-production-search-systems=>Building Search Systems]].
 He ties search impact to business metrics, A/B tests, and revenue, then
 separates operational metrics from offline evaluation. Search KPIs therefore
 bridge [[information retrieval]],
