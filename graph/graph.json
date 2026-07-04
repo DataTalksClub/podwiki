@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11148
+    "links": 11133
   },
   "nodes": [
     {
@@ -26904,24 +26904,6 @@
     },
     {
       "source": "wiki:annotation-quality-workflows",
-      "target": "book:20240408-data-centric-machine-learning-with-python",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:annotation-quality-workflows",
-      "target": "person:christiannswart",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:annotation-quality-workflows",
-      "target": "person:ivanbilan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:annotation-quality-workflows",
       "target": "podcast:building-open-source-nlp-tool",
       "kind": "wiki-chip",
       "weight": 1
@@ -27021,12 +27003,6 @@
       "target": "wiki:nlp",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:annotation-quality-workflows",
-      "target": "wiki:open-source",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:annotation-quality-workflows",
@@ -28632,6 +28608,18 @@
     },
     {
       "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
       "target": "wiki:computer-vision",
       "kind": "article-chip",
       "weight": 1
@@ -28674,6 +28662,18 @@
     },
     {
       "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:model-optimization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:model-optimization",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
       "target": "wiki:production",
       "kind": "article-chip",
       "weight": 1
@@ -28681,6 +28681,18 @@
     {
       "source": "wiki:camera-first-vs-lidar-autonomous-driving",
       "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -29976,43 +29988,7 @@
     },
     {
       "source": "wiki:chief-data-officer-role",
-      "target": "person:alexanderhendorf",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
-      "target": "person:jessiashdown",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
-      "target": "person:lisacohen",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
       "target": "person:marcodesa",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:chief-data-officer-role",
-      "target": "person:urigilad",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61464,24 +61440,6 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
-      "target": "person:arsenykravchenko",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-system-design-documents",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-system-design-documents",
-      "target": "person:valeriybabushkin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-system-design-documents",
       "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -61525,12 +61483,6 @@
     {
       "source": "wiki:ml-system-design-documents",
       "target": "wiki:data-pipelines",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-system-design-documents",
-      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64287,48 +64239,6 @@
       "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:barrmoses",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:eddyzulkifly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:santonatuli",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:modern-data-stack",
