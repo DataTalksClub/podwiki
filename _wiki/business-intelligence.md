@@ -18,21 +18,21 @@ related:
 Business intelligence turns modeled data into dashboards, metrics, reports, and
 decision routines. In DataTalks.Club podcast discussions, BI sits between
 [[analytics engineering]]
-and [[data-warehouse|data warehouses]]. It also
+and [[data-warehouse=>data warehouses]]. It also
 sits between [[metrics]] and the business
 meetings where people act on the numbers.
 
 The newer BI interface can use AI, but the podcast discussions treat that as an
 interface change rather than a replacement for analytics fundamentals. Natural
 language can help people ask better questions and find governed data. It can
-also draft first-pass analysis. [[text-to-sql|Text-to-SQL]] is the structured
+also draft first-pass analysis. [[text-to-sql=>Text-to-SQL]] is the structured
 query version of that interface.
 
 It can also turn unclear definitions and fragile pipelines into
 confident-sounding answers. Useful BI still depends on owned
 [[data products]] and trusted
 metrics. It also needs access controls, user research, and clear decision
-context.
+context.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 ## Business Questions to Governed Answers
 
@@ -42,17 +42,13 @@ metrics or a text-to-SQL assistant. It can also include semantic search over
 documentation or an analyst copilot that drafts a first explanation before
 human review.
 
-[[person:rachellim=>Rachel Lim's]] discussion of urban
-data science gives a concrete version of this workflow. In transport analytics,
-teams combine fare-card records with sensors and GPS. They also use computer
-vision, historical data, and real-time APIs.
+Urban data science gives a concrete version of this workflow. Transport
+analytics teams combine fare-card records with sensors and GPS. They also use
+computer vision, historical data, and real-time APIs. Natural-language access
+and text-to-SQL sit on top of metadata and retrieval infrastructure. Query
+restrictions make the interface safer.[[cite:urban-data-science=>Urban Data Science]]
 
-Later in the episode, she describes natural-language access and text-to-SQL. She
-also describes metadata, vector databases, RAG, and prompt engineering. Query
-restrictions make the interface safer
-([[podcast:urban-data-science|Urban Data Science, 27:59-35:18]]).
-
-That's the useful structure for AI-powered business intelligence. The interface
+That's the useful model for AI-powered business intelligence. The interface
 gets easier, but the underlying BI system still depends on modeled data and
 metadata. It also depends on permissions and domain knowledge. The related
 foundations are [[data products]] and
@@ -62,16 +58,14 @@ for review and guardrails.
 
 ## Reporting Layer, Product Surface, and Operating Routine
 
-Guests place BI in three overlapping positions. [[person:nataliekwong|Natalie Kwong]] places BI downstream of
-warehouses, marts, and modern-stack transformations in
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-[[person:caitlinmoorman=>Caitlin Moorman]] treats
-last-mile BI as a product adoption problem in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
-[[person:rachellim=>Rachel Lim]] and
-[[person:sandrakublik=>Sandra Kublik]] add the AI
-interface, where natural-language queries and LLM summaries help only when
-definitions, permissions, and human review already exist.
+BI sits downstream of warehouses and marts after modern-stack transformations.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
+
+BI also appears as a last-mile product adoption problem. Dashboards and
+analytics tools have to reach the meetings where decisions happen.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+
+The AI interface adds natural-language queries and LLM summaries. Those
+features help only when definitions, permissions, and human review already
+exist[[cite:urban-data-science=>Urban Data Science]][[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]].
 
 ## Metrics, Dashboards, and Decisions
 
@@ -86,26 +80,23 @@ an analyst.
 
 [[person:caitlinmoorman=>Caitlin Moorman's]] last-mile
 data delivery episode is the strongest reminder that BI adoption is product
-work. She argues that teams should start from the decision they want to enable.
-Then they map metrics into real meetings, prototype quickly, and prove impact
-with narrow wins
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery, 34:00-45:35]]).
+work. Teams start from the decision they want to enable. Then they map
+metrics into real meetings, prototype quickly, and prove impact with narrow
+wins.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Those same principles apply when AI is added to BI. A conversational interface
 doesn't remove the need for discoverability or interpretability. It also
-doesn't remove the need for trust and decision context
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery, 20:02-26:36]]).
+doesn't remove the need for trust and decision context.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 [[person:anushaakkina=>Anusha Akkina]] describes another
 useful workflow in her finance episode. Finance teams often work around rigid
 ERP systems with spreadsheets and local business logic. They also rely on tribal
-knowledge. Her discussion covers strategic finance and spreadsheet dependency.
-It also covers user research and real-time decision insights.
+knowledge. Strategic finance, spreadsheet dependency, user research, and
+real-time decision insights all influence the BI interface.
 
 For AI-assisted BI, the practical takeaway is direct. The system has to meet
 people inside existing finance workflows instead of assuming a clean data
-environment
-([[podcast:s22e06-from-black-box-systems-to-augmented-decision-making|From Black-Box Systems to Augmented Decision-Making, 17:15-47:24]]).
+environment.[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>Augmented Finance Decisions]]
 
 For product teams, AI-powered BI also overlaps with
 [[product analytics]]. Product
@@ -133,8 +124,7 @@ answer is true.
 [[person:sandrakublik=>Sandra Kublik's]] LLM product
 discussion keeps the same caution. Useful LLM applications need
 human-in-the-loop review for hallucinations and brand safety. Teams also need
-controls for latency, data risk, cost, and model-choice tradeoffs
-([[podcast:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases 23:29-40:21]]).
+controls for latency, data risk, cost, and model-choice tradeoffs.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 
 In BI, the system should show where an answer came from:
 
@@ -152,13 +142,12 @@ enough to allow.
 
 [[person:bartvandekerckhove=>Bart Vandekerckhove's]]
 data access management episode frames governance as trust in data, not just
-compliance. He covers catalogs and dictionaries. He also covers lineage and data
-access management. Ownership appears as a core concern.
+compliance. Catalogs and dictionaries sit beside lineage, access management,
+and ownership.
 
-He covers approval workflows, access reviews, revocation, and masking.
-Filtering, active metadata, and access-as-code appear in the same discussion
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management 5:20-14:47]],
-[[podcast:data-governance-data-access-management=>27:49-50:08]]).
+Approval workflows, access reviews, revocation, and masking cover the access
+side. Filtering, active metadata, and access-as-code appear in the same
+discussion.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 For BI powered by AI, a chatbot shouldn't become a side door around permissions.
 The assistant needs to inherit the user's access and respect sensitive fields.
@@ -184,11 +173,8 @@ hide uncertainty, or summarize a dashboard without understanding the business
 context.
 
 That's why [[data product adoption]]
-matters. [[person:caitlinmoorman|Caitlin Moorman's]]
-adoption guidance starts with the intended decision and works backward through
-user research and prototypes. It also includes meeting rituals and impact
-measurement
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery, 26:21-40:53]]).
+matters. Adoption work starts with the intended decision and works backward
+through user research, prototypes, meeting rituals, and impact measurement.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Teams building AI-powered BI should do the same by watching how people use
 answers. Sales and finance workflows matter alongside product and operations
@@ -232,8 +218,7 @@ magic.
 
 Model choice and embeddings matter alongside prompt iteration and fine-tuning.
 Teams also have to consider proprietary APIs, open-source models, IP concerns,
-and data risk. Latency and cost matter too
-([[podcast:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases, 32:28-40:21]]).
+and data risk. Latency and cost matter too.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 The [[LLM production patterns]]
 page extends the same point. Evaluation, observability, guardrails, and human
 review are production infrastructure.
@@ -242,10 +227,8 @@ review are production infrastructure.
 
 Start with one decision-heavy BI routine, not a company-wide assistant. Pick a
 recurring meeting or analysis where the data is already mostly trusted and the
-business value is visible. Moorman's last-mile guidance supports that narrow
-start. Begin with a decision, prototype around real meetings, and use adoption
-evidence before expanding
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|last-mile data delivery, 34:00-45:35]]).
+business value is visible. Begin with a decision, prototype around real
+meetings, and use adoption evidence before expanding.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Good candidates include:
 
@@ -266,13 +249,12 @@ A practical first version can be simple:
 6. Require analyst review for high-stakes or externally visible decisions.
 7. Track adoption, wrong-answer reports, time saved, and decisions changed.
 
-Business intelligence with AI should stay close to the podcast's recurring BI
-lesson. A BI product succeeds when people trust it enough to use it inside real
-decisions. Kublik's LLM product cautions add the AI-specific constraint. Teams
-still need review and evaluation. They also need latency controls, cost
-awareness, and data-risk controls before a generated answer should influence a
-high-stakes decision
-([[podcast:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases, 32:28-40:21]]).
+Business intelligence with AI should stay close to the recurring BI lesson.
+A BI product succeeds when people trust it enough to use it inside real
+decisions. LLM product work adds the AI-specific constraint. Teams still need
+review and evaluation. They also need latency controls, cost awareness, and
+data-risk controls before a generated answer should influence a high-stakes
+decision.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 
 ## Related Topics
 

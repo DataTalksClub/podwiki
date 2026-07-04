@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Lake"
-summary: "Podcast-grounded notes on data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
+summary: "Data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
 related:
   - Data Engineering Platforms
   - Data Warehouse
@@ -12,11 +12,11 @@ related:
   - Data Governance
 ---
 
-DataTalks.Club guests use data lake to mean broad analytical storage for raw
-or lightly staged data. It can hold structured tables and click events. It
-can also hold logs and files, images and video, IoT payloads, and long-lived
-history. Teams use that flexibility to keep source detail before they know
-every downstream question.
+Data lakes are broad analytical storage for raw or lightly staged data. They
+can hold structured tables and click events. They can also hold logs and files,
+images and video, IoT payloads, and long-lived history. Teams use that
+flexibility to keep source detail before they know every downstream question
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 That flexibility creates the main risk. The team needs ownership, catalogs,
 quality checks, access rules and reproducible transformations. Without those
@@ -25,12 +25,12 @@ controls, a lake becomes a place where people dump data and stop trusting it.
 [[person:nataliekwong=>Natalie Kwong]]
 uses the data lake versus [[data warehouse]]
 comparison to explain that risk in
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]],
-19:50-27:39. [[person:larsalbertsson|Lars Albertsson]]
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[person:larsalbertsson=>Lars Albertsson]]
 then gives the platform version in
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
-16:42-30:34. He argues that raw storage works when the platform keeps data
-immutable, governed, and reproducible.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+Raw storage works when the platform keeps data immutable, governed, and
+reproducible.
 
 ## Definition and Scope
 
@@ -40,16 +40,14 @@ warehouse is built for structured analytical tables and SQL access. A lake is
 more open to different file types and structures. Her KeepTruckin example uses
 IoT images and video. It shows why a team may need storage that a warehouse
 doesn't naturally handle
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-19:50).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson gives the platform definition. He treats the lake as object storage
 for raw dumps, usually with systems such as S3 behind it. That raw layer sits
 beside compute and a workflow engine. The platform turns stored data into
 usable outputs through functional transformations, self-service access, and
 governance
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-23:29-30:34).
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Together, those episodes treat a data lake as a storage boundary, not a full
 analytics product. A lake can support analysts and data engineers. It can also
@@ -71,8 +69,7 @@ BI-facing outputs, SQL models and data marts.
 
 Engineering teams may rely on a lake when files need a more flexible store.
 Events and application data may need that too
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-24:24-27:39).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 That makes [[ETL vs ELT]] part of the
 same decision. ELT loads source data first. The team then transforms it in an
@@ -81,22 +78,19 @@ analytical destination.
 Kwong's episode explains why that gives analysts more flexibility when fields
 or business questions change. A warehouse can be the destination. A lake or
 lakehouse can also be the first durable landing zone
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-7:57-18:47).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Teams enter the [[data warehouse vs data lakehouse]]
 comparison when they want warehouse-like behavior on lake storage. Albertsson
 describes a lakehouse as something that technically looks like a data lake. It
 adds interactive exploration and warehouse-style use
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-1:07:52).
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 [[person:adrianbrudaru=>Adrian Brudaru]]
-updates that vocabulary through open table formats. In
-[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]],
-he explains [[Apache Iceberg]] as a
-table format over Parquet storage. He then separates storage and compute. He
-also separates access, metadata, and lineage (18:17-23:41).
+updates that vocabulary through open table formats. [[Apache Iceberg]] is a
+table format over Parquet storage, and storage and compute separate from
+access, metadata, and lineage
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 The practical split is:
 
@@ -117,24 +111,22 @@ She ties the fix to [[data governance]].
 
 Teams need to know where data came from and who owns it. They also need to know
 what it means and whether it's still useful
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-21:22-24:24).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson makes the same point from the platform side. Dumping every dataset
 into S3 and calling it a lake is easy. Getting value from the lake requires
 control and governance. He also distinguishes retained raw data from the
 curated datasets people actually consume
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-23:29-28:22).
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 [[person:christopherbergh=>Christopher Bergh]] adds a
 delivery warning in
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-At 31:23, he criticizes data lake and cloud projects that postpone the question
-of who gets value. In his DataOps framing, teams should optimize the whole
-value stream. That stream includes data engineers and warehouse or lake teams.
-It also includes governance staff, analysts and downstream consumers
-(28:14-33:47).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Data lake and cloud projects fail when they postpone the question of who gets
+value. In DataOps framing, teams should optimize the whole value stream. That
+stream includes data engineers and warehouse or lake teams. It also includes
+governance staff, analysts, and downstream consumers
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 A lake project that stops at storage hasn't delivered a reliable data product.
 
@@ -145,8 +137,7 @@ that data platforms should make data immutable as much as possible. Immutable
 datasets can be shared, rerun, and reasoned about. Instead of changing rows in
 place and hoping old reports can be reproduced, teams keep raw inputs. They
 apply code-defined transformations
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-16:42-21:29).
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 This is where a lake differs from a loose staging area. A useful lake keeps raw
 events and source files stable enough for rebuilds and model reruns. Teams can
@@ -155,16 +146,15 @@ also audit changes and debug transformations from the same raw layer.
 Kwong's clickstream example makes the same point in simpler terms. Raw clicks
 can remain in the lake. Analysts can write queries and derived outputs
 elsewhere
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-27:39-30:59).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Immutability also explains why [[DataOps]]
 belongs close to the lake. Bergh's version of DataOps includes version control,
 tests and CI/CD. It also includes observability and automated runbooks. He also
 includes end-to-end versioning of code, models, governance and catalogs
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-33:47-51:21). Those practices make the lake a recoverable system instead of a
-shared folder with more storage.
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Those practices make the lake a recoverable system instead of a shared folder
+with more storage.
 
 ## Table Formats and Catalogs
 
@@ -175,8 +165,7 @@ storage and reduced vendor lock-in.
 
 He then discusses catalogs as the layer that maps data to compute and manages
 access. Some catalogs also hold metadata and lineage
-([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-18:17-23:41).
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 This is why [[Apache Iceberg]] and
 [[Delta Lake]] appear in lake
@@ -186,8 +175,7 @@ can also help teams share data across engines.
 
 Brudaru compares Delta, Hudi and Iceberg later in the same episode. He also
 discusses headless table formats and DLT support for Delta Lake and Iceberg
-([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-30:31 and 49:42).
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 Start with the requirement, then choose the table and catalog layer. If one
 warehouse already serves the consumers, adding a lakehouse table format may add
@@ -200,21 +188,18 @@ to keep storage independent from a single compute vendor.
 Kwong ties lake quality to ownership and cleanup, so governance makes a lake
 usable. Teams need to know which data is stale. They also need to know which
 data has an owner. They need to know which data should be removed or ignored
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-21:22-24:24 and 43:02).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson ties governance to architecture. He places object storage beside
 ingress, egress, and self-service SQL. Later, he discusses lineage and
 versioning as part of the same platform responsibility
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-23:29-35:57 and 1:04:18-1:07:52).
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Bergh turns governance into an operational dependency. When code, data models,
 visualizations and governance rules change separately, teams create
 handoff risk. His DataOps answer is to automate and version the whole change,
 not only the pipeline code
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-51:21).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 These views align with the broader [[data governance]]
 page because a useful lake needs inventory and classification. It also needs
@@ -229,8 +214,8 @@ cautious about decentralizing ownership before teams have a strong sharing
 culture and governance model. In his framing, a lake sits inside a platform with
 ingestion and workflow engines. It also needs self-service SQL, lineage and
 versioning
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-16:42-35:57 and 57:46-1:03:02). The same boundary makes
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+The same boundary makes
 [[data mesh]] and
 [[data mesh vs centralized data platform]]
 lake questions when ownership moves closer to domain teams.
@@ -241,8 +226,7 @@ another table layer. It should also name lock-in and interoperability
 requirements. His split separates storage and compute from access, metadata and
 lineage. That keeps the choice grounded in architecture rather than in the
 lakehouse label
-([[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-14:32-23:41 and 44:42-49:42).
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 Bergh adds the delivery boundary. A lake initiative needs a named consumer and
 recovery plan. Storage migration isn't enough. It also needs tests and
@@ -251,8 +235,7 @@ observability.
 His [[DataOps]] view places the lake inside
 a larger value stream. Engineers, governance staff, analysts and business users
 all participate
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-28:14-37:13 and 51:21).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 ## Related Pages
 

@@ -24,7 +24,7 @@ reproducible issue, a demo, a forum answer, or a tutorial.
 Contribution quality includes documentation, contribution guides, and polite
 interaction. Reproducible issues and tests reduce maintainer work, and CI keeps
 contributions reviewable with packaging and pre-commit
-([[person:vincentwarmerdam|Vincent Warmerdam]], [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 The broad concept lives in [[Open Source]],
 and
@@ -45,7 +45,7 @@ feedback count too.
 Good-first issues, docs, and non-code work are valid entry points. Spaces demos
 and GitHub work become portfolio signals. Large codebases and PR workflow become
 part of the learning path, along with tests and rejection
-([[person:mervenoyan|Merve Noyan]], [[podcast:hugging-face-contributions-and-nlp-portfolio|Hugging Face Contributions and NLP Portfolio]]).
+([[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions]]).
 
 The same contribution surface connects to [[Contributing]],
 [[Open Source]], and
@@ -59,8 +59,8 @@ change. The first goal is to show that you can follow project norms.
 
 PR quality, Git skills, environment setup, and maintainer collaboration all
 matter. Docs and demos help users finish a real task, including tutorials for
-Docker, Postgres and Git
-([[person:willrussell|Will Russell]], [[podcast:practical-devrel-demofirst-education-and-open-source|Demo-First DevRel and Open Source Education]]).
+Docker, Postgres, and Git
+([[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]]).
 
 The first contribution sequence can be:
 
@@ -81,11 +81,11 @@ only with README cleanup.
 
 Writing starts with audience and outline, then turns design docs and decision
 logs into career evidence. README files, quickstarts, and repo tours count too
-([[person:eugeneyan|Eugene Yan]], [[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
+([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
 
 Education and tutorials should start from audience goals. Dogfooding and
 reproducibility create feedback for the project
-([[person:hugobowneanderson|Hugo Bowne-Anderson]], [[podcast:devrel-open-source-machine-learning|DevRel for Machine Learning and Open Source]]).
+([[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]]).
 
 ## Portfolio Proof from Public Work
 
@@ -104,25 +104,21 @@ For model or ML-tool work, connect it to
 Public progress, corrections, and an owned blog make work discoverable.
 Collaborative docs and cheat sheets help others evaluate the contribution
 context. Demos and brag documents support the same public evidence for reviewers
-([[person:swyx|Shawn Swyx Wang]], [[podcast:developer-personal-brand-learn-in-public|Developer Personal Brand and Learn in Public]]).
+([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
 
-[[person:saraelateif=>Sara El-Ateif]] and
-[[person:isabellabicalho=>Isabella Bicalho]] show the
-career-switcher path. For Sara, collaboration, referrals, and beginner roles
-connect to practical experience
-([[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering in AI]]).
-Isabella's social-impact AI and Hugging Face computer-vision work serve as
-public project evidence
-([[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Biology to Machine Learning]]).
+Public collaboration and referrals can be practical experience for career
+switchers. Beginner-friendly roles can serve the same purpose. Social-impact AI
+work helps when artifacts are visible. Hugging Face computer-vision
+contributions can do the same
+([[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering in AI]],
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Biology to Machine Learning]]).
 
 ## Maintainer-Aware Contributions
 
-Later roadmap stages require maintainer empathy. Large projects have release
-cycles, plugin boundaries, CI costs, and governance constraints. In
-[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools, Strategy, and Business Models]],
-Vincent discusses governance at 10:28 and plugins versus core at 14:01. At
-18:11 and 21:51, he adds maintainer handoff and volunteer motivation. CI cost
-appears at 31:42.
+Later roadmap stages require maintainer empathy because large projects have
+release cycles and plugin boundaries. Maintainer handoff, volunteer motivation,
+CI costs, and governance constraints define the same work
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 That's why a mature contributor does more than submit patches. They make the
 project easier to run, easier to review, and easier for the next contributor to

@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11051
+    "links": 11019
   },
   "nodes": [
     {
@@ -9309,7 +9309,7 @@
       "title": "Applied Research",
       "url": "/wiki/applied-research/",
       "count": 1,
-      "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into usable systems and production evidence."
+      "search": "Applied Research How applied research turns uncertain ML ideas into usable systems, benchmarks, prototypes, and production evidence."
     },
     {
       "id": "wiki:astroinformatics-scientific-data-pipelines",
@@ -9681,7 +9681,7 @@
       "title": "Data Lake",
       "url": "/wiki/data-lake/",
       "count": 1,
-      "search": "Data Lake Podcast grounded notes on data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
+      "search": "Data Lake Data lakes as flexible raw storage, plus the governance and DataOps work that keeps them useful."
     },
     {
       "id": "wiki:data-mesh",
@@ -9751,7 +9751,7 @@
       "title": "Data Products",
       "url": "/wiki/data-products/",
       "count": 1,
-      "search": "Data Products How DataTalks.Club guests describe data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
+      "search": "Data Products How data products work as owned, discoverable, trustworthy data interfaces with users and guarantees."
     },
     {
       "id": "wiki:data-quality-and-observability",
@@ -27384,24 +27384,6 @@
     },
     {
       "source": "wiki:applied-research",
-      "target": "person:elenitziritazacharatou",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:applied-research",
-      "target": "person:johannabayer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:applied-research",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:applied-research",
       "target": "person:mihaileric",
       "kind": "wiki-chip",
       "weight": 1
@@ -27474,6 +27456,12 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -27498,7 +27486,13 @@
     },
     {
       "source": "wiki:applied-research",
-      "target": "wiki:llm-production-patterns",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -27513,6 +27507,12 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:applied-research",
@@ -27537,12 +27537,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:applied-research",
-      "target": "wiki:notebook-to-production-ai-systems",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:applied-research",
@@ -27561,6 +27555,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:applied-research",
@@ -28141,18 +28141,6 @@
     {
       "source": "wiki:business-intelligence",
       "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:business-intelligence",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:business-intelligence",
-      "target": "person:rachellim",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39324,43 +39312,13 @@
     },
     {
       "source": "wiki:data-products",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
       "target": "person:caitlinmoorman",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-products",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
       "target": "person:ioannismesionis",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "person:saramenefee",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39577,6 +39535,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44100,42 +44064,6 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:adrianbrudaru",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:arpitchoudhury",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:eddyzulkifly",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:santonatuli",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-chip",
       "weight": 1
@@ -44271,6 +44199,12 @@
       "target": "wiki:delta-lake",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:duckdb",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -46196,30 +46130,6 @@
       "source": "wiki:delta-lake",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "person:adrianbrudaru",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "person:roksolanadiachuk",
-      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -54516,38 +54426,14 @@
     },
     {
       "source": "wiki:llm-deployment",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-deployment",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-deployment",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-deployment",
-      "target": "person:nasserqadri",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-deployment",
-      "target": "person:sandrakublik",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-deployment",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -54559,6 +54445,12 @@
     {
       "source": "wiki:llm-deployment",
       "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65808,54 +65700,6 @@
     },
     {
       "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:eugeneyan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:hugobowneanderson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:isabellabicalho",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:mervenoyan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:saraelateif",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:swyx",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:vincentwarmerdam",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
-      "target": "person:willrussell",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-contributor-roadmap",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "article-chip",
       "weight": 1
@@ -74523,42 +74367,6 @@
       "target": "wiki:technical-writing",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:staff-ai-engineer",
-      "target": "person:tatianagabruseva",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:staff-ai-engineer",

@@ -20,7 +20,7 @@ The same title can mean product analytics and experimentation. It can also mean
 stakeholder reporting, machine learning engineering, or production model work.
 Product data scientists may write SQL and run A/B tests, while machine learning
 engineers may code and deploy models
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Use the broader
 [[Data Scientist Interview Roadmap]]
@@ -33,14 +33,14 @@ data scientist interview question.
 Before you practice SQL, machine learning, or case questions, translate the job
 description into the work you'll probably discuss. Study the job description,
 match your experience to the role, and remove noise
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]. The
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]. The
 role spectrum helps you decide whether the interview is closer to product data
 science or ML engineering
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Ask the recruiter what the next technical stage will test. Use the answer to
 focus preparation and turn a vague "technical interview" into a concrete plan
-[[podcast:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
+[[cite:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
 
 If the role is analytics-heavy, connect your preparation to
 [[Data Science]] through SQL and
@@ -53,18 +53,18 @@ to prepare assumptions and labels. Add evaluation, serving, and monitoring.
 Your CV and portfolio influence whether the interview happens and what
 interviewers ask. Treat the CV as a landing page: the reader should quickly see
 why they should schedule an interview with you
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 Don't list a tool unless you can explain what you did with it and why it
 mattered. Be ready to explain what changed because of the work
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 For candidates without direct industry experience, including PhD-to-industry
 candidates, hiring managers need reviewable proof of applied work
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 One application project was a small recommender built for a target company. It
 used public data and a blog post to show understanding of the product problem
-[[podcast:data-science-interview-and-cv-guide@2:42=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Use the same standard for
 [[Machine Learning Portfolio Projects]]: a useful project isn't just a notebook.
@@ -80,11 +80,11 @@ task.
 
 One common sequence starts with a CV screen and recruiter call. Take-home work
 and interview rounds follow, then a debrief and an offer or rejection
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Larger companies often add recruiter screens and online assessments, with panel
 interviews, system-design or open-ended cases, and behavioral rounds to follow
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
 This sequence connects interview prep to
 [[Job Search]] and
@@ -96,49 +96,49 @@ prepare questions for the company too.
 
 You're choosing too, and your questions can show how you think about team habits,
 stakeholder work, and production impact
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 ## Practice Technical Depth
 
 Technical preparation should start with fundamentals before it branches into the
 role's likely depth. Technical rounds include binary and scenario questions.
 They also include example-based questions and coding tasks
-[[podcast:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
+[[cite:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
 Candidates can know a concept but fail to articulate it under interview pressure.
 Verbal practice keeps basic concepts available under that pressure
-[[podcast:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
+[[cite:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
 
 For a data scientist interview, that usually means SQL and Python or coding.
 Add statistics, model evaluation, and project defense. Technical assessments
 name machine learning knowledge, SQL window functions, and coding
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 If a company uses timed coding rounds, calibrate algorithm-heavy screens
 separately and practice the basic data structures first. Add binary search, DFS,
-BFS, and Dijkstra. Make sure you can explain the cost of choosing the wrong data
-structure.
+BFS, and Dijkstra's algorithm. Make sure you can explain the cost of choosing
+the wrong data structure.
 
 LeetCode and programming contests can build speed with recurring problem shapes.
 They can also overshoot the day-to-day needs of most data scientist roles
-[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 
 Don't treat that screen as the whole job. A candidate can pass an algorithm
 interview and still struggle with Git or debugging. Stronger interviews also
 test pair programming and the ability to turn a data problem into working
 software
-[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 
 Use algorithm drills for companies that ask them
-[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 Put the rest of your preparation back into SQL and statistics. Also practice
 project defense, model evaluation, and [[Machine Learning System Design]].
 
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions
-[[podcast:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
+[[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
 Descriptive statistics matter because candidates need to understand data before
 more complex modeling
-[[podcast:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
+[[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
 
 For ML-heavy roles, add system design practice. Prepare to state assumptions and
 define success metrics, then choose a baseline before explaining labels and
@@ -155,7 +155,7 @@ Interviewers often start from your previous work because it reveals technical
 depth and judgment. When you mention a model, interviewers can ask how it works
 and why you chose it. They can also ask how the answer changes under a different
 constraint
-[[podcast:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
+[[cite:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
 
 Prepare each major project as a compact case study:
 
@@ -167,30 +167,30 @@ Prepare each major project as a compact case study:
 6. Impact: the effect on users, stakeholders, revenue, risk, speed, or learning.
 
 Project walkthroughs should show ownership
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 A useful delivery rule: lead with impact, then explain the supporting detail,
 which keeps project answers from becoming a tool inventory
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
 ## Prepare Behavioral and Case Answers
 
 Behavioral interviews aren't separate from data science work. Data scientists
 need communication and stakeholder management, plus the confidence to argue for
 a recommendation
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
 Map your strongest experiences to prompts about proudest work and hard decisions.
 Include failures, conflicts, setbacks, and recovery
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 Use STAR structure, but keep the answer natural.
 
 Case interviews need the same discipline, starting with business goals and
 evaluation metrics
-[[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Start a case interview by clarifying the goal before proposing solutions. Then
 discuss assumptions, metrics, and product context
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 The best preparation isn't a memorized answer.
 
 Use a repeatable way to ask:
@@ -204,7 +204,7 @@ Use a repeatable way to ask:
 A data scientist interview also helps you decide whether the role fits. Hiring
 teams should be specific about the work. The role may need engineering
 integration, analytics, customer work, or research
-[[podcast:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
+[[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
 As a candidate, ask questions that reveal the same thing.
 
 Use the final minutes to ask how the team defines success and what data
@@ -212,7 +212,7 @@ scientists own. Ask how ideas move from analysis to production. Ask who reviews
 technical work. Ask what stakeholder pressure the role faces.
 
 Those questions support your own decision. They also show the judgment that
-DataTalks.Club guests keep returning to across
+appears across
 [[Career Transitions in Data]],
 [[Data Science Careers]],
 and [[Job Search]]. Strong candidates don't only know tools. They can explain

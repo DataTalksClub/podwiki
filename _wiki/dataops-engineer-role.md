@@ -34,11 +34,11 @@ DataOps becomes a cross-team enablement and reliability role.
 
 For [[person:christopherbergh=>Christopher Bergh]],
 DataOps brings automation, observability, and productivity together
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 [[person:tomaszhinc=>Tomasz Hinc]] gives the role-shaped version. DataOps sits
 closer to support and communication than to writing every pipeline. It also
 covers onboarding and monitoring
-[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 ## Role Deliverables
 
@@ -61,13 +61,16 @@ The practice hub covers those mechanics in more depth:
 
 This becomes a role when one person is accountable for the operating path across
 many pipelines and teams. Bergh, Hinc, and
-[[person:larsalbertsson|Lars Albertsson]] converge on that point. A DataOps
+[[person:larsalbertsson=>Lars Albertsson]] converge on that point. A DataOps
 engineer helps data teams change pipelines without depending on heroics or
 tribal knowledge.
 
-The same point appears in [[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
-and [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+The same point appears across DataOps delivery
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]],
+GitOps
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
+and platform scaling
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 ## Dedicated Role or Shared Practice
 
@@ -77,7 +80,7 @@ staffing answer, and the split is the most useful thing on this page.
 
 Hinc gives the dedicated-role version, separating pipeline coding from
 cross-team support
-[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 Data engineers spend more
 time building pipelines and checks. The DataOps person spends more time helping
 teams onboard and troubleshoot. They also explain monitoring and coordinate work
@@ -88,18 +91,18 @@ but with a data-specific operating surface.
 
 Bergh's version is deliberately less title-bound. DataOps reduces production
 errors, deployment cycle time, and team toil
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Starting from production monitoring reveals which operating gaps matter because
 real incidents surface them
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]. In that
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]. In that
 framing, a data engineer or team lead can apply DataOps practice long before the
 company hires a separate DataOps engineer.
 
 Albertsson starts from the platform and scaling problem. In
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 at 7:52 and 50:13]],
-self-service analytics and embedded engineering support are central. His
-version of the role appears when many people need to deploy or fix pipelines on
-a shared platform.
+DataOps 101, self-service analytics and embedded engineering support are
+central. His version of the role appears when many people need to deploy or fix
+pipelines on a shared platform
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 So the DataOps engineer can look like a platform engineer, but the operating
 surface is data flow. They work on datasets, transformations, and dependencies.
@@ -117,14 +120,14 @@ orchestrated workflows, and data models.
 
 [[person:santonatuli=>Santona Tuli]] maps that pipeline
 surface in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 She covers ingestion and orchestration, modeling, marts, and metrics. The
 DataOps engineer doesn't replace that design work. They make the change path,
 tests, deployment, and monitoring consistent across those pipelines. They also
 standardize recovery.
 
 For the fuller comparison, use [[DataOps vs Data Engineering]] and the
-[[data-engineer-role|data engineer role]].
+[[data-engineer-role=>data engineer role]].
 
 The boundary with a platform engineer is the served workflow. A platform
 engineer builds reusable internal infrastructure and developer experience. A
@@ -133,10 +136,10 @@ data delivery. They work on source changes and dataset publication. They also
 handle orchestration, quality signals, lineage, and backfills.
 
 Albertsson's
-[[podcast:dataops-principles-and-scalable-data-platforms@30:34=>storage, compute, and workflow-engine discussion]]
-shows why these responsibilities often meet inside
+platform discussion shows why these responsibilities often meet inside
 [[Data Engineering Platforms]]
-and [[DataOps Platforms]].
+and [[DataOps Platforms]]
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The boundary with an [[MLOps engineer]]
 appears during production ML incidents. MLOps owns model artifacts, serving, and
@@ -146,7 +149,7 @@ data observability signals.
 
 [[person:dannyleybzon=>Danny Leybzon]] makes
 the overlap explicit in
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]],
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]],
 where model monitoring traces failures back into ETL and data pipelines. It also
 connects them to upstream root causes. Use
 [[MLOps vs DataOps]] when
@@ -164,18 +167,18 @@ differ by team. Production data failures create repeated support load.
 
 Hinc's role description fits that environment because it includes cross-team
 education and proactive support
-([[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams at 41:52 and 54:37]]).
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 The person doesn't manage a single data team. They work across teams and
 business units to remove operational friction.
 
 In a small team, DataOps is usually a practice shared by data engineers,
 analytics engineers, or platform-minded individual contributors. Bergh's
-starting advice in
-[[podcast:dataops-for-data-engineering@58:34=>DataOps for Data Engineering]]
-points individual contributors toward practical delivery improvements before a
-company creates a formal role. The title matters less than whether the team can
-review, test, and deploy data changes. The team also has to monitor and recover
-those changes without relying on one person's memory.
+starting advice points individual contributors toward practical delivery
+improvements before a company creates a formal role
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]. The title
+matters less than whether the team can review, test, and deploy data changes.
+The team also has to monitor and recover those changes without relying on one
+person's memory.
 
 ## Related Pages
 
