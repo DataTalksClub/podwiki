@@ -27,18 +27,17 @@ experience. A data product manager owns data as the product. That product may
 be a dashboard or metric layer. It may also be a recommendation system, data
 application, or internal ML platform.
 
-Guests describe data product management as regular product management applied
-to data products. Discovery means talking with data professionals and learning
-how they turn business requirements into actionable data. It also means forming
-hypotheses about the problems the team should solve
-([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
+Data product management applies product management to data products. Discovery
+means talking with data professionals and learning how they turn business
+requirements into actionable data. It also means forming hypotheses about the
+problems the team should solve.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 The useful distinction isn't "business PM" versus "technical PM." It's
 "product manager for a user-facing product" versus "product manager for data as
 the product." The second role adds data quality and lifecycle knowledge, plus
 governance, technical users, and adoption risk.
 
-## Short Comparison
+## Role Overlap
 
 Use product manager when the main unknown is the customer problem or product
 experience. The same title fits business-model, rollout, and market-facing
@@ -56,19 +55,17 @@ should use data in a decision or workflow.
 
 Traditional product management and data product management both start from
 customer needs and pain points. Both work backward to a strategy, solution, and
-roadmap that creates value
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+roadmap that creates value.[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
 
 The data version changes who the customers are. Internal data products can serve
 sales and marketing teams, finance, supply chain, and program teams. One such
 product used curated pipelines and dashboards so sales teams could build
 contracts faster. Those dashboards combined routing and capacity data with
-demand, pricing, competitor data, and marketing data. That's why the comparison
-needs the vocabulary of
+demand, pricing, competitor data, and marketing data. The comparison needs the
+vocabulary of
 [[Data Product Management]],
 [[Data Products]], and
-[[Metrics]]
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+[[Metrics]].[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
 
 ## Product Manager Ownership
 
@@ -79,19 +76,17 @@ The product lifecycle runs from discovery and planning to ideation, then through
 engineering, launch, and measurement. Before engineering starts, the PM aligns
 stakeholders on whether the team is solving the right problem and defines which
 success metrics will show progress. The PM coordinates release with engineering
-and design, and works with product marketing and other stakeholders
-([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
+and design, and works with product marketing and other
+stakeholders.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 The technical platform version looks similar. A technical PM for Glovo's ML
 platform gathered feedback, reviewed market and platform gaps, and wrote
 specifications. They also managed the roadmap and prioritized backlog work with
-engineering
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+engineering.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 PMs define the problem and outcome, while engineers and leads define the
 solution. PMs can jump too quickly to a favorite technical answer unless they
-discuss the problem with users
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+discuss the problem with users.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 Outside data, a PM still shouldn't turn a roadmap into a list of preferred
 tools. They should make the customer problem, outcome, and tradeoff clear enough
@@ -103,8 +98,7 @@ A data product manager has to understand how teams produce and transform data.
 They also need to know how people decide whether to trust and use it. A data PM
 should know how data moves from sources through transformations into warehouses
 and lakes. They should also know how apps, analysis, and other data applications
-consume that data
-([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
+consume that data.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 In practice, data PM decisions often involve
 [[Data Engineering]] and
@@ -115,15 +109,14 @@ They also overlap with
 
 The role adds governance concerns around PII and compliance. Data PMs also need
 SQL, documentation literacy, and attention to data correctness. A data PM may not
-build every pipeline, but they still need context to check outputs and trust
-([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
+build every pipeline, but they still need context to check outputs and
+trust.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 A production ML example shows the extra product boundary. At METRO, recommender
 work moved from manual newsletter support toward API-first recommenders, MLflow,
 and Datadog monitoring. Country-level scaling was part of the product problem
 too. The team had to decide where to expose an endpoint, separate recommendation
-IDs from customer-facing content, and support A/B tests
-([[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]]).
+IDs from customer-facing content, and support A/B tests.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
 Data product management isn't only "PM plus SQL." The product may be a table,
 API, model, or dashboard. It may also be a metric, platform, or decision
@@ -138,22 +131,19 @@ find it, interpret it, trust it, or use it at the decision point.
 
 The data team hasn't delivered value when data merely reaches a warehouse,
 dashboard, or tool. The data still has to reach the meeting, workflow, or
-operator who makes the decision
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+operator who makes the decision.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Adoption is product work because the team lowers the cost of using the data and
 increases the benefit. Users need to find the product, interpret it, trust it,
 and get enough training to use it. If people aren't using a data product, do user
 research. Ask whether users know the product exists and how to use it, and
-whether it answers the question they actually have
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+whether it answers the question they actually have.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The internal platform version is parallel. An ML platform can serve more than 100
 internal users across data science, analytics, and business data engineering.
 Those users are customers because poor platform UX costs the business time and
 money. Without product direction, internal platforms accumulate tools, libraries,
-and UIs until users no longer know where to start
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+and UIs until users no longer know where to start.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 Use [[Data Product Adoption]]
 for the deeper adoption work. Use
@@ -169,28 +159,24 @@ system.
 Roadmap work starts with customer journey mapping and business partner
 interviews, then moves into the Five Whys and hypothesis testing. The team should
 work backward from the business problem before choosing a model, pipeline, or
-feature
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+feature.[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
 
 Roadmap work differs from a static project plan. One template records the
 problem, possible solutions, and affected stakeholders. It also records impact,
-effort, SMART goals, and priority
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+effort, SMART goals, and priority.[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
 
-Data product teams measure pipeline failures and SLAs alongside data
-quality, engagement, and churn, not only feature adoption
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+Data product teams also measure reliability and trust
+signals.[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
+
 ML platform PMs also use observability metrics for model training time and
-deployment speed
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+deployment speed.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 Decision metrics also apply to
 [[a-b-testing=>A/B Testing]] and
 [[Experimentation and Causal Inference]].
 An A/B testing reporting product shouldn't show every statistical detail by
 default. It should help a product manager decide whether to roll out a feature
-and understand the business impact
-([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]).
+and understand the business impact.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Technical Literacy
 
@@ -201,21 +187,19 @@ coordination. A data product manager has less room to stay abstract.
 Many data PM setups require SQL because the PM needs to get data, check work,
 and understand whether the output matches expectations. The PM also needs
 curiosity about how data works and enough documentation literacy to understand
-data tooling
-([[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]]).
+data tooling.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 ML platform PMs face a higher bar. A PM who works close to ML should understand
 the model lifecycle and model architectures. They also need enough knowledge of
 cloud concepts, event streaming, and big data to communicate and prioritize.
 Databases and infrastructure tools matter too. For platform-specific work,
-Kubernetes and cloud tooling affect prioritization
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+Kubernetes and cloud tooling affect prioritization.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 A product owner or PM doesn't need to know every algorithmic detail. They need
 enough data science literacy to ask whether a technical improvement changes the
 business. A faster weekly training job may not matter if it already finishes in
-time. The PM has to connect model quality, speed, cost, and business impact
-([[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]]).
+time. The PM has to connect model quality, speed, cost, and business
+impact.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
 ## Role Boundaries With Data Teams
 
@@ -227,15 +211,13 @@ The boundary with a lead data scientist is concrete. Staff data scientists and
 technical leads may own workstreams and solution design. They may also own model
 architecture, code quality, and technical decisions. The PM owns the problem and
 desired outcome. They also own rollout strategy, governance communication, and
-the business use case
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
+the business use case.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 This boundary matters in production ML. When stakeholders ask for one person to
 solve several data science use cases, the product leader has to explain the
 staffing reality. The team may need a data scientist, machine learning engineer,
 MLOps support, or data engineer. The PM or product owner protects the team from
-unrealistic expectations and makes release tradeoffs visible
-([[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]]).
+unrealistic expectations and makes release tradeoffs visible.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
 Use
 [[Product Owner vs Product Manager]]
@@ -262,8 +244,7 @@ documentation, and adoption path.
 
 Small teams may not have a formal data PM title. Teams operating without a PM
 still need to identify customers, validate problems, and align mental models.
-That work has to happen before building
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+That work has to happen before building.[[cite:building-and-scaling-ai-data-products-with-mlops=>Data Product MLOps]]
 
 In that case, the work still exists. It may sit with a data lead or analytics
 lead. A product owner, engineering manager, or senior individual contributor may

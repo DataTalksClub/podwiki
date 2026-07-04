@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10695
+    "links": 10687
   },
   "nodes": [
     {
@@ -9911,7 +9911,7 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms How podcast guests frame DataOps platforms as a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
+      "search": "DataOps Platforms How DataOps platforms provide a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
     },
     {
       "id": "wiki:dbt",
@@ -44073,54 +44073,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:16rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:barrmoses",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-platforms",
