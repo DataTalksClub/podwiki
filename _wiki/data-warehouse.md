@@ -3,6 +3,7 @@ layout: wiki
 title: "Data Warehouse"
 summary: "Podcast-backed notes on data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
 related:
+  - Data Engineer Roadmap
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Lake
@@ -192,9 +193,16 @@ diagrams.
 ## Warehouse Skills in Data Careers
 
 Warehouse literacy shows up in career episodes because many data roles depend
-on analytical storage. Data engineering candidates need Python and SQL, plus
-Docker, Airflow, and data warehouses. They also need to understand OLTP versus
-OLAP, views, materialized views, and take-home projects.[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+on analytical storage. Data engineering candidates need Python and SQL. They
+also need Docker, Airflow, and data warehouse practice. Warehouse concepts
+include OLTP versus OLAP, views, and materialized views. Take-home projects can
+test those concepts.[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+
+Jeff Katz names OLTP versus OLAP modeling as fair game for data engineering
+interviews. He pairs that with medium SQL practice. That makes warehouse
+modeling part of the [[data-engineer-roadmap=>data engineer roadmap]], not only
+a BI topic
+[[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]].
 
 SQL modeling is at the center for analytics engineers, and useful warehouse
 practice means more than connecting a dashboard. Teams build tables with a clear

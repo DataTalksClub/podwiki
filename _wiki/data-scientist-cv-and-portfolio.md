@@ -126,6 +126,9 @@ start and a tour of the files. Add enough context to reproduce the project
 without the author present
 [[cite:technical-writing-for-data-scientists@56:30=>Technical Writing for Data Scientists]].
 
+Hiring managers can also use the README as communication evidence. It shows
+whether the candidate can explain code, setup, and project structure clearly.
+
 ## Portfolio Storytelling and Business Impact
 
 Portfolio storytelling should lead with what the work made possible. Candidates

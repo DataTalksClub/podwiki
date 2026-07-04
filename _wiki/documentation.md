@@ -39,7 +39,7 @@ issues and small documentation fixes also count as real contribution paths.[[cit
 Future teammates need writing that preserves reasoning after the meeting ends.
 Working-backwards documents and press releases preserve intent. Design docs,
 decision logs, and rationales keep team memory available when the original
-author isn't in the room
+author isn't in the room. They also help the team revisit a choice months later
 [[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
 [[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
 

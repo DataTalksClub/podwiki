@@ -39,7 +39,9 @@ pipeline components, data strategy, and data flow.
 
 Writing-at-work practices support the same discipline. Press releases and
 working-backwards documents force teams to state the user outcome before the
-technical plan. Design docs make the chosen approach reviewable
+technical plan. Teams can then use design docs to review requirements and
+performance constraints. They also review cost, training, serving, and
+tradeoffs before they commit
 [[cite:technical-writing-for-data-scientists@51:00=>Working backwards and design docs]].
 That links ML design documents back to [[technical writing]] and
 [[documentation]], not only architecture.

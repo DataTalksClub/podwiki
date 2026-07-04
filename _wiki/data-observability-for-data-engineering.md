@@ -9,6 +9,8 @@ related_wiki:
   - DataOps
   - Data Engineering
   - Data Engineering Platforms
+  - dbt
+  - Analytics Engineering
 ---
 
 Data observability for data engineering means checking whether data products are
@@ -93,10 +95,10 @@ of the field. Streaming also adds orchestration choices and streaming versus
 micro-batching
 [[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]].
 
-Teams use dbt documentation for model and field descriptions. It also supports
-tags, custom metadata, code visibility, and dependency navigation. Profiling and
-deep observability usually sit in adjacent tools such as Datafold or Monte Carlo
-rather than inside dbt
+Teams use [[dbt]] documentation for model and field descriptions. It also
+supports tags, custom metadata, code visibility, and dependency navigation.
+Profiling and deep observability usually sit in adjacent tools such as Datafold
+or Monte Carlo rather than inside dbt
 [[cite:analytics-engineer-skills-tools@50:46=>Analytics Engineer Skills and Tools]].
 
 Kafka, SQS, and Flink each need different observability thresholds, but each one

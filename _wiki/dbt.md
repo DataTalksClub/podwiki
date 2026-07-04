@@ -4,6 +4,7 @@ title: "dbt"
 summary: "dbt as warehouse-side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes in the archive."
 related:
   - Analytics Engineering
+  - Analytics Engineering Roadmap
   - Modern Data Stack
   - ELT
   - Data Warehouse
@@ -17,7 +18,8 @@ in practice. Teams write SQL models, run them in a
 [[data warehouse]], and treat the
 transformation layer as reviewed code with tests. The shift isn't only from
 ETL to [[ELT]]. Analysts and analytics
-engineers move from isolated SQL queries to a maintained project.
+engineers move from isolated SQL queries to a maintained project
+[[cite:analytics-engineer-skills-tools@30:06=>Analytics Engineer Skills and Tools]].
 
 That project
 tracks dependencies and version control. It also keeps tests, documentation,
@@ -102,7 +104,7 @@ SQL tests.
 A dbt test is a query: if the query returns failing rows, dbt can
 warn or error. Her team checks sources before building dependent models. Bad
 source data shouldn't silently flow into the modeled layer
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+([[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]]).
 
 Those tests put dbt close to
 [[data quality and observability]].
@@ -138,7 +140,7 @@ also record tags and custom metadata.
 
 dbt docs can show model code, generated documentation, and dependencies. Before
 changing a table, an analytics engineer can look at what depends on it
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+([[cite:analytics-engineer-skills-tools@50:46=>Analytics Engineer Skills and Tools]]).
 
 Perez Mola also marks a limit by distinguishing documentation from data
 profiling. dbt can document models and expose lineage, but it isn't the main
@@ -146,7 +148,8 @@ tool for deep profiling or full observability. She mentions profiling and
 observability tools such as Datafold and Monte Carlo as adjacent options. dbt
 therefore sits inside the
 [[modern data stack]] rather
-than above it.
+than above it
+([[cite:analytics-engineer-skills-tools@50:46=>Analytics Engineer Skills and Tools]]).
 
 ## Macros and Reuse
 

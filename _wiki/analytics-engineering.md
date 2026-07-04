@@ -29,7 +29,7 @@ The role isn't only "SQL plus dashboards."
 It combines data modeling and quality checks with metric definitions, event
 semantics, the warehouse, and the BI stack. Workflow examples include SQL tests
 and DAGs
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+([[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]]).
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] frames
 the role as translating business reality into clean data systems with software
 engineering discipline
@@ -44,7 +44,7 @@ documented definitions, and a path into BI or operational use.
 
 Data modeling and dbt tests sit at the center of the job, alongside Looker,
 Snowflake, and collaboration
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+([[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]]).
 The same work converts messy business reality into safer data systems
 ([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
@@ -85,7 +85,8 @@ useful as a rigid job boundary
 
 The same flexibility shows up in tool choices. dbt is the clearest recurring
 symbol of analytics engineering because it made SQL transformations visible as a
-DAG, versioned, and testable.
+DAG. It also made them versioned and testable
+([[cite:analytics-engineer-skills-tools@30:06=>Analytics Engineer Skills and Tools]]).
 [[person:nikolamaksimovic=>Nikola Maksimovic]] adds
 Looker migration, product analytics, A/B testing, and table design.
 
@@ -122,7 +123,7 @@ ad hoc SQL. Perez Mola compares analytics engineers with data analysts, data
 engineers, and BI developers. The practical boundary is that analytics
 engineers encode reusable definitions and quality checks. Analysts focus more
 on questions, interpretation, and stakeholder recommendations
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
+([[cite:analytics-engineer-skills-tools@14:34=>Analytics Engineer Skills and Tools]],
 [[Data Analyst vs Analytics Engineer]]).
 
 The boundary with data engineering is platform ownership. Data engineers often
@@ -196,12 +197,12 @@ rather than being only a dashboard production role
 
 SQL and modeling are the first skill cluster. Perez Mola starts with SQL, then
 adds fact tables and dimension tables. Kimball-style modeling, Snowflake
-familiarity, and dbt also matter. So does business-facing data quality.
+familiarity, and dbt also matter. So does business-facing data quality
+[[cite:analytics-engineer-skills-tools@42:05=>Analytics Engineer Skills and Tools]].
 
 Perafan uses the same role logic. Models make messy business reality visible
 through tables, columns, and relationships
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
+([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 The second cluster is software practice applied to SQL. Perez Mola's dbt
 discussion puts SQL files in version control. It also links transformations
@@ -209,7 +210,7 @@ through a DAG and keeps tests beside transformation code.
 
 Perafan extends that into generic tests and singular SQL tests. Unit tests and
 CI checks stop broken assumptions before they reach users
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
+([[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[dbt]]).
 
@@ -218,7 +219,8 @@ Analytics engineers ask what an entity means and which grain a metric should
 use. They also decide which definition stakeholders should share, and which
 data-quality failures deserve warnings or hard errors. That makes the role part
 technical modeling and part definition stewardship
-([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
+([[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[Metrics]]).
 
 ## Modeling and Semantic Layers

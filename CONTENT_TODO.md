@@ -123,6 +123,23 @@ The second `docs/mining/report_pod_08.md` enrichment batch was integrated on
 - Barr Moses and Boyan Angelov evidence now strengthens observability,
   governance, DataOps, intake, translator, CDO, and AI productivity pages
 
+The third `docs/mining/report_pod_08.md` enrichment batch was integrated on
+2026-07-05:
+
+- Victoria Perez Mola's analytics-engineering episode now strengthens dbt,
+  analytics-engineering, AE-vs-analyst, DataOps checks, analytics roadmap, and
+  data-observability pages
+- Sonal Goyal's identity-resolution episode now strengthens entity-resolution,
+  open-source, OSS founder, startup, and customer-data-platform pages
+- Jeff Katz's data-engineering career episode now strengthens DE roadmap,
+  warehouse, job-search, analyst-to-DE, and teaching pages
+- Danny Leybzon's MLOps monitoring episode now strengthens MLOps engineer,
+  MLOps tools, model monitoring, lean MLOps, responsible AI, and career pages
+- Slawomir Tulski's 2026 data-engineering episode and Eugene Yan's technical
+  writing episode now strengthen DE role, DE trends, FinOps, modern stack,
+  batch-vs-streaming, technical writing, documentation, portfolio, and
+  community pages
+
 The `docs/mining/report_pod_09.md` high-value graph edges were integrated on
 2026-07-04:
 

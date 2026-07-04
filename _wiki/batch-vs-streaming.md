@@ -158,6 +158,8 @@ be enough. Kafka becomes easier to justify when a live product decision changes
 the outcome. Examples include fraud detection, dynamic pricing, ranking, and
 recommendations
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@38:01=>Data Engineer Career in 2026]].
+Teams should treat "real time" as a product requirement to prove, not as a
+default maturity badge for a data stack.
 
 Streaming can earn its cost when delayed results lose value. It still increases
 operating cost and dependency work.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]

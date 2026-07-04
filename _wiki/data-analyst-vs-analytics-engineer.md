@@ -34,7 +34,7 @@ Then compare it with
 [[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]].
 She describes data modeling, pipelines, and data quality. Looker and `dbt` also
 sit in that work. Tests, documentation, and dependency graphs come with it
-[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+[[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]].
 
 For the two role hubs, use
 [[Data Analyst Role]] and
@@ -76,7 +76,8 @@ The practical split is:
   explanation, and recommendations.
 - Analytics engineer: table grain and source-to-mart transformations.
   Analytics engineers also own `dbt` models with tests and docs, semantic
-  definitions, data quality checks, and BI-ready datasets.
+  definitions, data quality checks, and BI-ready datasets
+  [[cite:analytics-engineer-skills-tools@14:34=>Perez Mola]].
 - Shared surface: SQL, business context, metric definitions, product analytics,
   dashboard trust, event semantics, and source-data debugging.
 
@@ -156,7 +157,7 @@ That isn't a one-off chart. It's maintained data modeling.
 SQL files, YAML docs, and GitHub version control. She also covers non-null and
 unique tests, dependency graphs, and scheduled runs. Those practices turn
 warehouse SQL into something closer to production code
-[[cite:analytics-engineer-skills-tools=>Perez Mola's dbt workflow discussion]].
+[[cite:analytics-engineer-skills-tools@06:49=>Perez Mola's dbt workflow discussion]].
 Use the [[dbt]] page for the tool-level context.
 
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] gives
@@ -352,7 +353,7 @@ For an analytics engineer, look for proof that the person can make analysis
 reusable. Perez Mola names data modeling and SQL transformations. She also names
 tests, documentation, version control, and DAG awareness. Perafan adds
 robustness and testability as the role boundary
-([[cite:analytics-engineer-skills-tools=>Perez Mola's analytics engineering skill discussion]],
+([[cite:analytics-engineer-skills-tools@42:05=>Perez Mola's analytics engineering skill discussion]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]],
 [[Analytics Engineering Portfolio Projects]]).
 

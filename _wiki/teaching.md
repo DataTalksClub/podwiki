@@ -14,6 +14,7 @@ related:
   - Open Source Portfolio Evidence
   - Data Engineering Portfolio Projects
   - Machine Learning Portfolio Projects
+  - Job Search
 ---
 
 DataTalks.Club guests describe teaching as practical education for people trying
@@ -91,7 +92,8 @@ and employer validation. He also covers syllabi, labs, and reinforcement cycles
 [[cite:data-engineering-career-path-and-skills@9:58=>Teaching Data Engineers]].
 
 Jeff says most junior data engineering course time should stay on Python and
-SQL. Tools get a smaller share
+SQL. Tools get a smaller share: he describes the balance as roughly 85% Python
+and SQL and 15% newer tools
 [[cite:data-engineering-career-path-and-skills@56:46=>Teaching Data Engineers]].
 That guidance fits the [[data-engineer-roadmap=>data engineering roadmap]]
 because a roadmap should sequence skills, not collect every current tool.
@@ -257,7 +259,11 @@ from courses into projects
 
 That access work matters for [[career transitions in data]].
 Teaching helps career changers when it gives them a role target, repeated
-practice, feedback, and visible work. Irina's learner moving into analytics
+practice, and visible work. It also gives them a way to learn from interviews
+and rejections
+[[cite:data-engineering-career-path-and-skills@33:05=>Teaching Data Engineers]].
+
+Irina's learner moving into analytics
 needs SQL, visualization, product context, and communication. Jeff's learner
 moving into data engineering needs Python, SQL, and data modeling. They also
 need cloud basics and interview practice.

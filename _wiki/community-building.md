@@ -128,6 +128,11 @@ surveys and recurring feedback
 [[cite:mlops-community-building-and-meetups@40:36=>MLOps Community Playbook]],
 [[cite:mlops-community-building-and-meetups@45:45=>MLOps Community Playbook]]).
 
+Individual writers use a lighter version of the same growth loop. They publish
+consistently through social channels such as Twitter and LinkedIn. Over time,
+like-minded readers find the work
+([[cite:technical-writing-for-data-scientists@48:30=>Audience growth through distribution]]).
+
 Ruslan Shchuchkin gives the lean local-AI version. Start with a simple meetup
 format and gather people around projects. Then use the room to learn which tools
 and workflows practitioners actually use. Organizers then connect community

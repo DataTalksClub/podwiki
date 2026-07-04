@@ -6,6 +6,7 @@ related:
   - Career Transitions in Data
   - Career Growth
   - Hiring
+  - Data Engineer Roadmap
   - Data Engineering Certification
   - Data Engineering Portfolio Projects
   - Academia
@@ -69,10 +70,9 @@ The disagreement isn't between mass applications and applying to five jobs.
 Early candidates may need volume to learn the market. Guests still warn that
 unfocused volume weakens CV tailoring, interview preparation, and networking.
 
-Data engineering candidates can use the same feedback loop. Apply early enough
-to expose gaps, then turn failed interviews into the next SQL, Python, or
-pipeline practice target
-([[cite:data-engineering-career-path-and-skills@33:05=>Build a Data Engineering Career]]).
+Candidates can apply before ready and return to the roadmap fundamentals. The
+next application should improve the same fundamentals rather than trigger a
+random tool detour. [[cite:data-engineering-career-path-and-skills@33:05=>Apply early]].
 
 Juniors need enough applications to get market signal and enough tailoring to
 learn from each attempt
@@ -204,7 +204,8 @@ formats. Assessment depth varies by level
 
 Another data engineering funnel can start with screening calls, then move to SQL
 tests and on-site discussion. Interview preparation should include both
-technical drills and project explanation
+technical drills and project explanation, with medium SQL questions as a useful
+readiness check
 [[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
 
 Portfolio and assessment boundaries differ because take-home projects are a

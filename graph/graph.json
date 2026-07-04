@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11188
+    "links": 11209
   },
   "nodes": [
     {
@@ -26752,6 +26752,12 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -26785,6 +26791,12 @@
       "target": "wiki:dbt",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:dbt",
+      "kind": "article-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -28816,6 +28828,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -30803,6 +30821,12 @@
     {
       "source": "wiki:community-building",
       "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34413,6 +34437,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:teaching",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "wiki:data-engineer-role",
       "target": "book:20220815-fundamentals-of-data-engineering",
       "kind": "wiki-chip",
@@ -34517,6 +34547,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:batch-vs-streaming",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34697,6 +34733,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:mlops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37840,6 +37882,12 @@
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
       "target": "wiki:data-activation",
       "kind": "article-chip",
       "weight": 1
@@ -37895,6 +37943,18 @@
     {
       "source": "wiki:data-observability-for-data-engineering",
       "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:dbt",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:dbt",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -44374,6 +44434,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -44479,6 +44545,18 @@
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-warehouse",
@@ -45112,6 +45190,12 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:ci-cd",
       "kind": "article-chip",
       "weight": 1
@@ -45173,6 +45257,18 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:dataops-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:dbt",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:dbt",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -46133,6 +46229,12 @@
     {
       "source": "wiki:dbt",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dbt",
+      "target": "wiki:analytics-engineering-roadmap",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -50050,6 +50152,12 @@
     },
     {
       "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -53491,6 +53599,12 @@
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:job-search",
@@ -63169,6 +63283,12 @@
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-engineer",
@@ -76553,6 +76673,12 @@
     {
       "source": "wiki:teaching",
       "target": "wiki:documentation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
     },

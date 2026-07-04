@@ -24,11 +24,14 @@ Across those forms, the writer serves a concrete reader. The reader may need to
 understand the work or run the project. They may also need to review a decision
 or continue independently.
 
-The most useful writing-specific advice starts from early blog posts and
-meetups and frames writing as learning, sharing, and being useful to future
-readers. Writing gets stronger when the audience narrows from "everyone" to a
+Eugene Yan starts from early blog posts and meetups. He frames writing as
+learning, sharing, and being useful to future readers. Writing gets stronger
+when the audience narrows from "everyone" to a
 peer, future teammate, or hiring manager. Reader experience determines whether
 an article works.[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
+Writing also exposes gaps in the writer's own understanding. Teaching through
+public explanation becomes a learning loop
+[[cite:technical-writing-for-data-scientists@09:30=>Writing to learn]].
 
 As a [[data science]] and [[machine learning]] skill, technical writing sits
 between [[documentation]], [[developer relations]], and
@@ -76,9 +79,9 @@ become a product.[[cite:interpretable-machine-learning@17:07=>Interpretable Mach
 ## Audience, Outline, and Cadence
 
 Writers can use a weekly cadence and start with an outline. They can select and
-order ideas before drafting, then test whether the outline works. They set a
-time budget to avoid endless editing. They also cover idea sources, topic
-prioritization, titles, and article length
+order ideas before drafting, then test whether the outline works by rewriting
+it from memory. They set a time budget to avoid endless editing. They also
+cover idea sources, topic prioritization, titles, and article length
 [[cite:technical-writing-for-data-scientists@20:00=>Weekly writing cadence]]
 [[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
 [[cite:technical-writing-for-data-scientists@29:00=>Writing time budget]].

@@ -117,7 +117,12 @@ This is where entity resolution differs from a fuzzy join in an ETL tool. Exact
 joins are fine when the identifier is trusted and consistent. When identifiers
 vary across systems, teams still need to decide thresholds and candidate
 generation. They also need to handle transitive matches and scale
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@40:36=>Building an Open-Source Identity Resolution Tool]].
+
+Deterministic rules can be enough when trusted identifiers support them.
+Probabilistic matching becomes necessary when customer data varies across
+sources
+[[cite:building-open-source-data-product-for-identity-resolution@44:25=>Building an Open-Source Identity Resolution Tool]].
 
 Astronomy extends the same matching problem beyond customer or supplier data.
 Multi-wavelength catalog cross-matching compares observations from radio,
@@ -176,7 +181,8 @@ Entity resolution is also a product and
 [[open-source=>open-source]] strategy. Zingg came
 from repeated consulting problems, then took about 18 months to reach a public
 release
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Building an Open-Source Identity Resolution Tool]]
+[[cite:building-open-source-data-product-for-identity-resolution@23:00=>Zingg public release]].
 The open-source choice was partly personal, but it was also a distribution
 decision.
 
@@ -184,13 +190,14 @@ CDPs and master data management systems can be expensive and can include weaker
 forms of identity resolution. Open source made it possible for more companies
 to try a dedicated tool. Open source also helped Zingg discover more use cases
 than direct sales alone would have found
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@24:14=>Zingg open-source strategy]]
+[[cite:building-open-source-data-product-for-identity-resolution@31:10=>Zingg open-source tradeoffs]].
 
 Zingg used AGPL, under which companies can use it internally or build solutions
 around it.
 A provider can't simply repackage it as a closed SaaS without satisfying the
 license
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@27:00=>Zingg licensing]].
 Entity-resolution tooling therefore belongs in
 broader [[open-source-portfolio-evidence=>open-source portfolio evidence]]
 and [[startups]] discussions.
@@ -211,7 +218,7 @@ Fraud and compliance are higher-stakes versions of the same problem. People can
 create multiple accounts with slightly different names and addresses, and use
 different KYC identifiers. If the system treats them as separate people, teams
 misread the flow of money
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@45:50=>Building an Open-Source Identity Resolution Tool]].
 
 Fraud and AML systems get a clearer graph to analyze when the identity layer
 resolves those accounts. The topic overlaps with [data quality and
@@ -223,7 +230,7 @@ Graph outputs also matter here. Zingg does pairwise matching, then uses graph
 algorithms to find the network of records that belong together. Fraud systems
 can lay transaction data over that resolved identity graph for downstream
 analysis
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[cite:building-open-source-data-product-for-identity-resolution@49:23=>Building an Open-Source Identity Resolution Tool]].
 
 A public-data example shows the non-enterprise side. The North Carolina campaign
 data included donor and recipient records in different forms across historical

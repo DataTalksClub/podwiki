@@ -18,6 +18,8 @@ related_wiki:
   - Data Pipelines
   - CI/CD
   - Orchestration
+  - Analytics Engineering
+  - dbt
 ---
 
 DataOps checks make a data pipeline safer to change and easier to recover. They
@@ -162,7 +164,7 @@ For orchestration practice, keep schema checks close to the code that reads or
 publishes the data. DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 shows one local setup. The check should usually live in a test layer such as SQL
-or dbt. Python, Great Expectations, and Soda can serve the same role.
+or [[dbt]]. Python, Great Expectations, and Soda can serve the same role.
 
 Keep the logic out of a large DAG file. For shared streams, connect the same
 check to the schema-change rules in
@@ -237,7 +239,7 @@ Examples:
 6. A financial report can't publish until the period is closed.
 
 Business-rule tests can check expected row counts, report values, and regression
-impact. dbt tests, Great Expectations, and SQL checks can automate the same
+impact. [[dbt]] tests, Great Expectations, and SQL checks can automate the same
 assertions [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
 In a dbt workflow, a test is still a query. Failing rows can create a warning or

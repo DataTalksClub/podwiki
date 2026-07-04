@@ -31,7 +31,7 @@ To make the move, add these engineering responsibilities:
 - Recovery
 
 [[cite:finops-for-data-engineers=>FinOps transition story]]
-[[cite:data-engineering-career-path-and-skills=>Jeff Katz career path]].
+[[cite:data-engineering-career-path-and-skills@40:42=>Jeff Katz career path]].
 
 This isn't a generic "learn every data tool" plan, so convert analyst work into
 engineering proof.
@@ -225,7 +225,7 @@ Jeff Katz keeps this stage focused. Most of the skill set should remain Python
 and SQL. For adjacent infrastructure, he names cloud computing, Docker, and AWS.
 Airflow code should still depend mainly on Python rather than hiding weak
 programming behind an orchestrator
-[[cite:data-engineering-career-path-and-skills=>Python SQL cloud Docker focus]].
+[[cite:data-engineering-career-path-and-skills@56:46=>Python SQL cloud Docker focus]].
 
 Add the minimum useful operating layer:
 
@@ -309,7 +309,8 @@ engineering concepts, OLTP versus OLAP, pipelines, and tools. A later stage
 often includes SQL. He also warns candidates not to let one failed interview
 derail the learning path. Keep building the pipeline, improving SQL, and
 practicing Python
-[[cite:data-engineering-career-path-and-skills=>interview checks and persistence]].
+[[cite:data-engineering-career-path-and-skills@48:00=>interview checks]]
+[[cite:data-engineering-career-path-and-skills@33:05=>persistence through rejection]].
 
 Don't self-filter too aggressively because Jeff says hiring teams often accept
 candidates with gaps. Job descriptions describe an ideal candidate, while the

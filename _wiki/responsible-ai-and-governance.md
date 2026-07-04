@@ -175,10 +175,10 @@ remediation with data-level bias checks, feature review, and a human path for
 contesting automated recommendations
 [[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible and Explainable AI]].
 
-Operational monitoring can make fairness more useful than a detached
-explainability artifact. Segment-level checks and bias monitoring show whether
-model behavior differs across important groups, so governance work has evidence
-for review and mitigation
+Operational [[model-monitoring=>model monitoring]] can make fairness more
+useful than a detached explainability artifact. Segment-level checks and bias
+monitoring show whether model behavior differs across important groups, so
+governance work has evidence for review and mitigation
 [[cite:mlops-model-monitoring-data-observability@41:00=>MLOps Architect Guide]].
 
 Public-policy discussions extend responsible AI into ethics as the gap between

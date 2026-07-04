@@ -151,7 +151,8 @@ teams with sensitive data or on-premise constraints[[cite:building-mlops-startup
 Zingg uses open source to help smaller teams try identity resolution. It also
 helps the company discover use cases across customer and supplier records.
 Patient and product records appear as well
-[[cite:building-open-source-data-product-for-identity-resolution@11:09=>Zingg use cases]].
+[[cite:building-open-source-data-product-for-identity-resolution@11:09=>Zingg use cases]]
+[[cite:building-open-source-data-product-for-identity-resolution@24:14=>Zingg open-source strategy]].
 For [[open source]] and [[open-source-and-developer-relations=>open-source developer relations]],
 repository adoption and documentation become part of the sales path. Examples
 and community feedback matter too.

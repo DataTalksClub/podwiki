@@ -25,6 +25,8 @@ The hype cycle is part of the trend: Hadoop once played the role AI plays now.
 Companies adopted heavyweight systems because the category felt inevitable, not
 because the workload justified it
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@06:47=>Data Engineer Career in 2026]].
+Use the Hadoop-to-AI comparison as a warning about default adoption, not an
+argument against AI systems.
 The same caution appears in the DataTalks.Club community discussion. Durable
 tool choices follow lasting trends and recurring work instead of short-lived
 library announcements
@@ -158,6 +160,10 @@ automate. Routine pipeline triage is easier too. Platform design and
 business-aligned data modeling are harder to replace. Semantics, classification,
 and metadata are harder to replace too
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@51:04=>Data Engineer Career in 2026]].
+
+Data engineers stay more durable when they act as strategic builders. They need
+to understand the business context and platform boundary instead of waiting for
+tickets to turn into dbt models.
 
 Reliability still matters under newer labels. MLOps, LLM, Data Mesh, and Data
 Observability terminology can hide the same systems work. Teams still need

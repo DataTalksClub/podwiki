@@ -105,10 +105,12 @@ A managed endpoint product may work well for online inference but be awkward for
 large batch scoring. A workflow orchestrator may be enough for offline scoring
 but insufficient for low-latency services.
 
-Interoperability standards matter when teams train models across different
-libraries or need to move artifacts between toolchains. ONNX is useful for that
-cross-tool boundary. It's less central when a small or mid-market team
-standardizes on one modeling stack and deployment path.[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Guide]]
+Interoperability standards matter inside
+[[machine-learning-infrastructure=>machine learning infrastructure]] when teams
+train models across different libraries or need to move artifacts between
+toolchains. ONNX is useful for that cross-tool boundary. It's less central when
+a small or mid-market team standardizes on one modeling stack and deployment
+path.[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Guide]]
 
 Choose tools based on the workflow the team needs to operate. Don't choose them
 just because the product says it's an end-to-end MLOps platform.
@@ -213,9 +215,9 @@ Finance and startup examples show the two ends of the constraint spectrum.[[cite
 
 Build-versus-buy is an early architecture decision because engineering time and
 vendor spend both matter. KPIs, business risk, and manager-facing justification
-also matter. Teams comparing open-source components with commercial monitoring
-or platform products should make that case in business terms. The choice isn't
-only a tool preference.[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]
+also matter. Teams comparing open-source components with commercial
+[[model-monitoring=>monitoring]] or platform products should make that case in
+business terms. The choice isn't only a tool preference.[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]
 
 That connects MLOps tool selection to [[Machine Learning Infrastructure]] and
 [[MLOps Architecture]]. Ownership, cost, integration burden, and lock-in define

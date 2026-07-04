@@ -87,10 +87,14 @@ The split becomes explicit in [[person:slawomirtulski=>Slawomir Tulski]]'s data
 identity crisis framing. He separates platform engineering from product-facing
 data engineering
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@11:54=>Data Engineer Career in 2026]].
+
 Platform data engineers build shared infrastructure, standards, and
 reliability. Product data engineers work closer to domains, metrics,
 stakeholders, and data products. That distinction matters for [[data-engineer-roadmap=>data engineering roadmaps]]
-because the two paths reward different projects and interview evidence.
+because the two paths reward different projects, cost tradeoffs, and interview
+evidence. Hiring teams should treat [[modern-data-stack=>modern data stack]] and
+[[batch-vs-streaming=>batch versus streaming]] choices as role evidence too,
+not only architecture decisions.
 
 The big-data variant sits closer to distributed systems and large-scale
 compute. Spark performance, cluster resources, data quality, and operational

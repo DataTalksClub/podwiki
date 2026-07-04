@@ -68,10 +68,10 @@ or managed systems fit the business better
 
 Cost-aware teams match the platform to the company's actual stage and avoid
 cloud-bill surprise. They treat over-engineered real-time stacks as spend risks.
-Batch and lakehouse stacks can create the same risk when the business only needs
-simpler analytics
-([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]],
-[[Modern Data Stack]]).
+Simpler analytics can make batch or lakehouse stacks overbuilt too
+([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]]).
+That warning connects FinOps to [[Modern Data Stack]] and
+[[batch-vs-streaming=>Batch vs Streaming]].
 
 [[person:andreycheptsov=>Andrey Cheptsov]] gives the AI infrastructure version,
 where cloud and on-prem GPUs become architecture choices. Teams have to account

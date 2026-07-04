@@ -161,9 +161,9 @@ show a freshness problem, while observability traces the root cause. It also
 shows downstream impact and recovery priority
 [[cite:data-quality-data-observability-data-reliability@24:31=>Data Observability Explained]].
 
-Data profiling architecture can use WhyLogs and a backend for storing profiles.
-Platform-agnostic integrations matter because production models run through many
-serving tools.[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
+The profiling side of [[MLOps Tools]] can use WhyLogs and a backend for storing
+profiles. Platform-agnostic integrations matter because production models run
+through many serving tools.[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
 Teams can split open-source profiling from managed observability at the tool
 boundary.
 WhyLogs creates portable profiles for open-source profiling. WhyLabs adds hosted

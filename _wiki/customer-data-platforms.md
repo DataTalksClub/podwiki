@@ -74,7 +74,7 @@ Tool choice moves the hard problem because CDP work centers on speed and
 activation while identity-resolution work puts profile construction under
 pressure. Simple joins break when records are duplicated or identifiers are
 weak. They also break when matches are fuzzy or teams need a
-[[entity-resolution=>customer 360]] view.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
+[[entity-resolution=>customer 360]] view.[[cite:building-open-source-data-product-for-identity-resolution@40:36=>Identity Resolution Tool]]
 
 ## Event Quality and Tracking Plans
 

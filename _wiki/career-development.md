@@ -60,6 +60,13 @@ stronger builder portfolio. It may also support a consultant-ready stakeholder
 narrative or a promotion case for a larger scope.
 [[cite:data-science-career-abc-framework=>Data Science Career Guide]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
 
+An explore/exploit frame adds a timing rule to role direction. Early moves can
+sample adjacent work, tools, and business contexts. Later moves can concentrate
+where evidence and interest compound. The Thompson-sampling analogy fits career
+choices because careers need both exploration and exploitation, not skill
+collection forever
+[[cite:mlops-model-monitoring-data-observability@45:49=>MLOps Architect Guide]].
+
 ## Skills Become Evidence Through Projects
 
 Compounding skill matters more than broad tool collection. Projects make skills

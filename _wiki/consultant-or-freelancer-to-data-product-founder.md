@@ -52,15 +52,16 @@ uncertain. One route keeps consulting revenue and workshops in place while the
 founder validates pricing models, client acquisition, and spikes. Scope documents
 and reusable portfolio assets help the service path turn toward product.[[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering]]
 
-Open-source data products often start when consulting projects reveal recurring
-identity-resolution gaps. Proof-of-concept work can become a public release.
+Open-source data products can start when consulting projects reveal recurring
+identity-resolution gaps. Zingg's founder stopped consulting to focus on the
+product, and proof-of-concept work became a public release.
 Open-source adoption can prove demand. Licensing can become part of the business
-model.
+model
+[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]].
 
 Zingg's path took about 18 months from proof of concept to public
 release. The company then turned open-source adoption and licensing into company
 strategy
-[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]]
 [[cite:building-open-source-data-product-for-identity-resolution@23:00=>Zingg public release]].
 
 In the retrospective, Zingg's founder gave both organizational and technical

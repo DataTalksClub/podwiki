@@ -6,8 +6,10 @@ summary: "A roadmap for analytics engineering: SQL modeling, dbt workflows, metr
 related:
   - Analytics Engineering
   - Analytics Engineering Portfolio Projects
+  - Data Analyst vs Analytics Engineer
   - Marketing to Analytics Engineering
   - Modern Data Stack
+  - dbt
   - Product Analytics
   - Metrics
   - Data Quality and Observability
@@ -38,7 +40,7 @@ so analysts and operators can use the same modeled definitions for
 sometimes [[data activation]].
 
 The core work combines SQL-based models and dbt documentation. It also includes
-version control, tests, and a dependency graph.[[cite:analytics-engineer-skills-tools=>role episode]]
+version control, tests, and a dependency graph.[[cite:analytics-engineer-skills-tools@06:49=>role episode]]
 
 Defining the role only as "between analyst and engineer" misses the point: the
 work is data modeling plus engineering practice.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]
@@ -113,8 +115,9 @@ systems should be reconciled
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@21:08=>Data modeling definitions]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]].
 
-Core preparation covers SQL, fact tables, and dimension tables. It also covers
-Kimball-style modeling and Snowflake familiarity.[[cite:analytics-engineer-skills-tools@42:05=>role episode]]
+Core preparation covers software development practices, SQL, fact tables, and
+dimension tables. It also covers Kimball-style modeling, Snowflake familiarity,
+and dbt learning.[[cite:analytics-engineer-skills-tools@42:05=>role episode]]
 A dbt migration turns that preparation into domain modeling. The work includes
 wide-versus-narrow table decisions and incrementalization tradeoffs.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>marketing transition episode]]
 
@@ -131,7 +134,7 @@ without breaking downstream work. Dependency graphs show how models connect.
 
 Model documentation and tests come next. dbt combines SQL files and YAML
 documentation with GitHub version control. It also gives built-in tests and DAG
-visibility.[[cite:analytics-engineer-skills-tools=>role episode]]
+visibility.[[cite:analytics-engineer-skills-tools@06:49=>role episode]]
 Tests should prove source assumptions before dependent models build. A portfolio
 project can show warning-versus-error behavior instead of only happy-path
 SQL.[[cite:analytics-engineer-skills-tools@38:53=>role episode]]

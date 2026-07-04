@@ -18,6 +18,7 @@ related_wiki:
  - Data Analyst to Data Engineer
  - Data Scientist to Data Engineer
  - Hire Data Engineers
+ - Teaching
 ---
 
 A useful data engineer roadmap starts with the work a data engineer owns. Data
@@ -30,9 +31,10 @@ checks, documentation, cloud basics, and interview-ready projects.
 
 The guidance is consistent across two episodes. [[person:jeffkatz=>Jeff Katz]]
 names the junior core as Python and SQL, plus cloud fundamentals and
-orchestration. He explains why a beginner path can focus on Python and SQL
-while postponing Spark, Kafka, and Kubernetes
-([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
+orchestration. He frames the beginner path as mostly Python and SQL. Tools get
+a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes
+([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
+[[cite:data-engineering-career-path-and-skills@56:46=>Build a Data Engineering Career]]).
 
 Brudaru puts SQL/Python before vendor checklists
 ([[cite:trends-in-modern-data-engineering=>DE]]).
@@ -106,10 +108,12 @@ For SQL, practice:
 - slowly changing attributes
 - validation queries
 
-SQL depth should go beyond joins and aggregates to include window functions,
-with medium SQL interview problems as a practical benchmark. Data modeling
-practice such as OLTP versus OLAP matters too
+SQL depth should go beyond joins and aggregates. Add window functions, with
+medium SQL interview problems as a practical benchmark
 ([[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]).
+Data modeling practice such as OLTP versus OLAP matters too. Use
+[[Data Warehouse]] to connect that interview topic to analytical modeling work
+([[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]]).
 
 Rahul Jain recommends learning databases and SQL first, then learning how data
 moves. Treat ETL/ELT choices, lake designs, lineage, and governance tools as
@@ -370,6 +374,12 @@ Tool-first roadmaps draw repeated warnings. Adrian Brudaru's
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 covers Iceberg, DuckDB, orchestration choices, and streaming patterns. He keeps
 returning to requirements, portfolio work, and vendor caution.
+
+Jeff Katz gives the junior-curriculum version of the same warning. Spark,
+Kafka, and Kubernetes appeared more often in senior job descriptions than in
+junior interviews. His program kept more time on Python and SQL
+([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
+[[cite:data-engineering-career-path-and-skills@40:04=>Build a Data Engineering Career]]).
 
 Slawomir Tulski makes the same point in
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],

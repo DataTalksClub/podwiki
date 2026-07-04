@@ -62,7 +62,8 @@ identity, key management, and configuration work. They also add migration and
 billing decisions.
 
 Small teams also compress role boundaries. A startup MLOps hire may need to
-cover architecture, customer-facing support, monitoring, and tooling decisions.
+cover architecture, customer-facing support,
+[[model-monitoring=>monitoring]], and [[mlops-tools=>tooling decisions]].
 The company can separate those jobs into platform, ML engineering, and solutions
 roles later
 ([[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]]).

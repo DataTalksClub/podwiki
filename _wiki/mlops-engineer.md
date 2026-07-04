@@ -62,8 +62,9 @@ model builders, not only a deployment owner
 [[cite:mlops-and-ml-engineering-in-finance@41:14=>MLOps in Finance]].
 
 An MLOps architect variant makes the bridge explicit. The role translates
-between technical tooling, production constraints, and business needs. It then
-advises teams on architecture choices that fit their context
+between technical tooling, production constraints, and
+[[machine-learning-for-business=>business needs]]. It then advises teams on
+[[mlops-architecture=>architecture choices]] that fit their context
 [[cite:mlops-model-monitoring-data-observability@8:11=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]].
 

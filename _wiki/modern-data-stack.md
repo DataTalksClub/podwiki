@@ -110,10 +110,14 @@ host the open project
 [[cite:data-engineering-tools-modern-data-stack@48:26=>ETL vs ELT and the Modern Data Stack]].
 
 The same caution applies to enterprise-grade platforms. Teams should move to
-Snowflake or Databricks when scale, analyst count, data-science needs, and
-business value justify it. Teams should use the same standard for a large
-self-built platform, rather than stack FOMO
+Snowflake or Databricks only when the use case justifies it. Scale and analyst
+count are the first checks. Data-science needs and business value are the next
+checks. Teams should use the same standard for a large self-built platform
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]].
+
+Smaller teams can start with a database plus dbt. Simple orchestration and BI
+may fit better than a lakehouse plus real-time platform when the business only
+needs daily analytics.
 
 ## Ingestion
 
