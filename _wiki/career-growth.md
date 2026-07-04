@@ -6,6 +6,7 @@ related:
   - Career Transitions in Data
   - Job Search
   - Hiring
+  - Mentoring in Tech
   - Machine Learning Engineer Role
   - Technical Writing
   - Developer Relations
@@ -177,7 +178,8 @@ the opportunity that the published work made possible.
 
 ## Mentoring and Leadership Through Others
 
-Mentoring is a career-growth practice for both sides of the relationship.
+[[mentoring-in-tech=>Mentoring]] is a career-growth practice for both sides of
+the relationship.
 Purpose and scope separate one-off advice from an ongoing relationship. Useful
 sessions need goals and agendas, expectations, and a decision about what the
 mentee will do next

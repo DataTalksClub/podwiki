@@ -6,6 +6,7 @@ related:
   - Data Teams
   - Hiring
   - Career Growth
+  - Mentoring in Tech
   - Data Strategy
   - Data Science
   - Machine Learning
@@ -21,9 +22,9 @@ related:
 
 DataTalks.Club guests describe leaders as people who increase other people's
 ability to do useful data and AI work. The episodes place that work in formal
-management, senior IC mentoring, and platform ownership. First data hires show
-leadership when they build business trust. Executives show it when they turn
-data work into strategy. [[person:terezaiofciu=>Tereza Iofciu]]
+management, senior IC [[mentoring-in-tech=>mentoring]], and platform ownership.
+First data hires show leadership when they build business trust. Executives show
+it when they turn data work into strategy. [[person:terezaiofciu=>Tereza Iofciu]]
 makes that boundary explicit in
 [[cite:data-leadership-coaching=>Data Leadership Coaching]]:
 people don't need a leadership title to develop leadership skills.

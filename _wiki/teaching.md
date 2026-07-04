@@ -16,9 +16,9 @@ related:
 
 DataTalks.Club guests describe teaching as practical education for people trying
 to do real data, ML, and AI work. Guests rarely describe it as lecture delivery.
-They tie it to curriculum design, mentoring, and project work. Feedback,
-documentation, community support, and public explanation also do real teaching
-work.
+They tie it to curriculum design, [[mentoring-in-tech=>mentoring]], and project
+work. Feedback, documentation, community support, and public explanation also do
+real teaching work.
 
 For role-specific study paths, use the [[data-engineer-roadmap=>Data Engineering Roadmap]],
 [[AI Engineering Roadmap]],

@@ -6,6 +6,7 @@ related:
   - Job Search
   - Career Growth
   - Career Transitions in Data
+  - Mentoring in Tech
   - Data Science Careers
   - Open Source Portfolio Evidence
   - Machine Learning Portfolio Projects
@@ -174,7 +175,8 @@ alarm timing. A prioritization framework narrows focus to five life goals
 instead of dozens of interests. The example goals include family, sport,
 nutrition, and work output.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers=>Biohacking for Data Scientists]].
 
-Mentoring is a deliberate career-development practice, not just one-off advice.
+[[mentoring-in-tech=>Mentoring]] is a deliberate career-development practice,
+not just one-off advice.
 Ongoing mentoring relationships benefit from cold-outreach tactics, session
 preparation, boundary setting, and structured development plans. Mentors also
 learn to recognize recurring situations and listen better.

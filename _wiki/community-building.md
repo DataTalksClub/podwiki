@@ -7,6 +7,7 @@ related:
   - Developer Relations
   - Open Source and Developer Relations
   - Career Growth
+  - Mentoring in Tech
 ---
 
 ## Community as Shared Practice
@@ -160,7 +161,8 @@ the Week participants. It also names competitions and future hackathons
 Community building becomes easier to sustain when participation has specific
 forms.
 
-Members can also use community participation as mentorship infrastructure.
+Members can also use community participation as [[mentoring-in-tech=>mentorship]]
+infrastructure.
 Rahul Jain recommends finding mentors through existing networks, formal
 programs, platforms such as The Mentoring Club, and thoughtful cold outreach.
 Meetups, Slack groups, and course channels make that search less anonymous

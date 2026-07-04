@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 204,
+    "wikis": 205,
     "articles": 72,
     "guides": 21,
     "comparisons": 23,
@@ -11,8 +11,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 99,
-    "nodes": 1114,
-    "links": 10596
+    "nodes": 1115,
+    "links": 10633
   },
   "nodes": [
     {
@@ -10393,6 +10393,16 @@
       "url": "/wiki/machine-learning-tools/",
       "count": 1,
       "search": "Machine Learning Tools Guide to choosing ML tools for modeling, experiments, platforms, monitoring, fairness, and AI tooling."
+    },
+    {
+      "id": "wiki:mentoring-in-tech",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Mentoring in Tech",
+      "title": "Mentoring in Tech",
+      "url": "/wiki/mentoring-in-tech/",
+      "count": 1,
+      "search": "Mentoring in Tech How DataTalks.Club guests describe mentoring for data and AI careers: finding mentors, preparing sessions, setting boundaries, and growing as a mentor."
     },
     {
       "id": "wiki:metaflow",
@@ -28632,6 +28642,18 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -28813,6 +28835,18 @@
     {
       "source": "wiki:career-growth",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:mentoring-in-tech",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -30237,6 +30271,18 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:community-building",
@@ -52416,6 +52462,18 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -58305,6 +58363,174 @@
       "target": "wiki:tracking-plans",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "person:rahuljain",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:community-building-and-teaching-in-ai-tech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:data-leadership-coaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "podcast:teaching-mentoring-data-analytics-fintech",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-development",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:communication",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:community-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:job-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:leadership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:teaching",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:metaflow",
@@ -73107,6 +73333,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:teaching",
