@@ -23,10 +23,10 @@ not with model selection. The model matters, but the product also needs
 retrieval, context packaging, and evaluation. Security, cost controls,
 monitoring, and a failure response path come next.
 
-The full-stack AI engineer skill set starts with normal engineering work, then
-adds RAG and knowledge management to the build path, and culminates in shipping
-AI products rather than only building demos
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+The full-stack AI engineer skill set starts with normal engineering work. It
+then adds RAG and knowledge management to the build path. That path ends with
+shipping AI products rather than only building demos
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 
 Use
 [[LLM Production Patterns]]
@@ -48,9 +48,9 @@ from, and fail in observable ways. Cost, latency, privacy, and safety limits
 still apply.
 
 The team owns the end-to-end system: business requirements and feedback loops
-remain part of the engineering path, and notebooks give way to production
-services and observability tools
-([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production: End-to-End AI Systems]]).
+remain part of the engineering path. Notebooks give way to production services
+and observability tools
+([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production: End-to-End AI Systems]]).
 That makes this roadmap closer to
 [[Production]] and
 [[LLM Production Patterns]]
@@ -64,9 +64,9 @@ logs. Don't add agents or vector databases until failure analysis shows why
 they're needed.
 
 The evaluation-first loop pairs generator-evaluator loops with gold tests that
-make behavior measurable, then uses failure analysis, logs, and traces to show
-where to improve
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+make behavior measurable. It then uses failure analysis, logs, and traces to
+show where to improve
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 The first milestone should include:
 
@@ -88,16 +88,16 @@ external, changing, or inspectable knowledge. Don't describe it as model memory.
 It's a retrieval and context-packaging system.
 
 Fine-tuning adapts model behavior, while changing knowledge pushes the solution
-toward retrieval; grounding and retrieval patterns then become production
+toward retrieval. Grounding and retrieval patterns then become production
 concerns
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 RAG combines search with generation. Chunking and embeddings make the system
 inspectable, prompt context and citations matter, and evaluation must cover both
 retrieval and answer quality
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
-Use [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 when the failure could belong to retrieval, model behavior, or both.
 
 ## Test Retrieval Before Generation
@@ -108,10 +108,10 @@ missing, chunks are weak, or ranking returns the wrong evidence. Generation may
 fail because prompt formatting is unclear or the model ignores context.
 
 On the search-engineering side, search quality depends on relevance, candidate
-generation, and ranking; chunking, ingestion, and embedding versioning affect
-later evaluations; and hybrid search and vector database tradeoffs become system
+generation, and ranking. Chunking, ingestion, and embedding versioning affect
+later evaluations. Hybrid search and vector database tradeoffs become system
 choices
-([[podcast:building-production-search-systems|Building Production Search Systems]]).
+([[cite:building-production-search-systems=>Building Production Search Systems]]).
 
 [[Production Search Evaluation]],
 [[Vector Databases]], and
@@ -126,30 +126,30 @@ use memory, or take actions. They're unnecessary when a search-backed answer is
 enough.
 
 Agents combine tools, memory, and stores. Retrieval can be a tool, but RAG and
-agents solve different problems, and agent evaluation needs custom evals, mocked
+agents solve different problems. Agent evaluation needs custom evals, mocked
 tools, and outcome assertions
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 At enterprise scale, guardrails, lineage, and feedback loops become operating
-requirements, and multi-tenant evals, LLM judges, and human labels make agent
+requirements. Multi-tenant evals, LLM judges, and human labels make agent
 behavior measurable
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
 
 ## Harden Serving, Cost, and Security
 
 Production work should make cost, latency, and security visible. Open-source and
-API tradeoffs come with provider drift as a production risk, and moving from
+API tradeoffs come with provider drift as a production risk. Moving from
 prototype APIs to production serving forces choices around latency and cost
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 On cost control, prompt evaluation is connected to cost, and prompt compression
 and caching reduce operating cost
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 
-On security, knowledge-base exfiltration is a real failure mode, and output
+On security, knowledge-base exfiltration is a real failure mode. Output
 validation, query analysis, and non-LLM classifiers form part of a layered
 defense
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+([[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]).
 Use [[AI Red Teaming]] for
 adversarial testing and
 [[LLM Production Patterns]]
@@ -172,4 +172,3 @@ Adjacent production-system topics:
 - [[Search and RAG Project Checklist]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[AI Red Teaming]]
-

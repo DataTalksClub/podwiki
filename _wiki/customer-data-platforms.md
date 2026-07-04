@@ -23,13 +23,10 @@ CDPs are one way to solve
 only reporting on customer behavior and starts using that behavior in the tools
 where customers and internal teams act.
 
-[[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest CDP framing in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth, Event Tracking, and Reverse ETL]].
-A CDP is a bundled system where teams can track data, send it to other tools,
-and create audiences, and where they can build models or segments inside the
-platform. CDPs are limited compared with warehouse modeling, but they can still
-be useful for marketers and growth teams that need to work with customer data
-without waiting on a full data team.
+A CDP bundles tracking, routing, audience creation, and in-platform modeling or
+segmentation. CDPs are limited compared with warehouse modeling. They can still
+help marketers and growth teams work with customer data without waiting on a
+full data team.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 That makes CDPs adjacent to
 [[event tracking]] and
@@ -44,9 +41,8 @@ activate customer data.
 
 A CDP gives business teams a customer data layer they can use without
 assembling every part of the stack themselves. The growth-stack sequence starts
-with a [[tracking-plans|tracking plan]], then moves to collection and storage,
-analysis, activation, and CDPs
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+with a [[tracking-plans=>tracking plan]]. It then moves through collection and
+storage before analysis, activation, and CDPs.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 In that order, a CDP is a shortcut through several jobs:
 
@@ -65,31 +61,31 @@ of all three, but the bundle is the product.
 ## Growth Speed Versus Identity Depth
 
 CDPs make most sense from the growth team's side. Teams should define the
-questions they want to answer before choosing tools, and early teams may not
-have a dedicated data engineer, so a CDP can give marketers and growth teams
-usable customer data quickly
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+questions they want to answer before choosing tools. When early teams lack a
+dedicated data engineer, a CDP can give marketers and growth teams usable
+customer data quickly.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
-[[person:sonalgoyal=>Sonal Goyal]] approaches the same space from the identity
-side in
-[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]].
-The core problem is deciding whether several warehouse records refer to the
-same real-world customer. CDPs and master data management systems sometimes
-include identity-resolution capabilities, but a dedicated identity-resolution
-tool can go deeper than that bundled capability.
+Identity-resolution work starts by deciding whether several warehouse records
+refer to the same real-world customer. CDPs and master data management systems
+sometimes include identity-resolution capabilities. A dedicated
+identity-resolution tool can go deeper than that bundled capability.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
 
-The boundary question is where the hard problem lives. The CDP discussion
-centers on speed, activation, and tool selection. The identity-resolution
-episode shows why the profile inside the CDP can be hard: simple joins break
-when records are duplicated, identifiers are weak, matches are fuzzy, or teams
-need a [[entity-resolution|customer 360]] view.
+Tool choice moves the hard problem because CDP work centers on speed and
+activation while identity-resolution work puts profile construction under
+pressure. Simple joins break when records are duplicated or identifiers are
+weak. They also break when matches are fuzzy or teams need a
+[[entity-resolution=>customer 360]] view.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
 
 ## Event Quality and Tracking Plans
 
-A CDP is only as useful as the events flowing into it. The tracking plan comes
-first: teams should document the events they want to collect, the event
-properties, the user properties, and the account or organization properties
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+A CDP depends on the events flowing into it. Before collection, teams should
+document four parts of the tracking plan.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+
+- event names
+- event properties
+- user properties
+- account or organization properties
+
 CDPs depend on
 [[event tracking]] and
 [[tracking plans]].
@@ -103,36 +99,33 @@ reduce the initial list to the events needed to understand the customer journey
 from acquisition to activation. That advice prevents a CDP from becoming a
 dumping ground for noisy, unused events.
 
-The client-side versus server-side distinction also matters. A client-side
-signup click can fire before a signup succeeds, while a server-side event can
-wait until the user is actually added to the database
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
-If a CDP uses the wrong event as the basis for an audience, marketing and
-support teams may act on behavior that never happened.
+Client-side and server-side events can describe different moments. A client-side
+signup click can fire before a signup succeeds. Server-side instrumentation can
+wait for the database insert.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+Wrong events create wrong audiences. Marketing and support teams may act on
+behavior that never happened.
 
 ## Identity Resolution and Customer 360
 
-CDPs promise a useful customer profile, but a profile isn't the same thing as a
-trusted identity. Enterprises hold customer records from offline channels and
-online stores, along with surveys, ticketing systems, and other interactions,
-and the practical question is whether several records refer to the same
-real-world customer
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]]).
+CDPs promise a useful customer profile. A profile still isn't the same thing as
+a trusted identity. Enterprises hold customer records from offline channels and
+online stores. They also hold surveys, ticketing systems, and other
+interactions. Teams still need to decide whether several records refer to the
+same real-world customer.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
 
-Deduplication and customer 360 are different. Deduplication may merge or remove
-duplicate records, while customer 360 keeps enough linked records to complete
-the story
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]]).
+Deduplication may merge or remove duplicate records. Customer 360 preserves
+linked records.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
 That distinction is important for CDPs because marketers, support teams, and
-product teams often need a full history, not just one clean row. It also
+product teams often need a full history. One clean row isn't enough. It also
 connects CDPs to
 [[entity resolution]], where the
 same matching problem can apply to suppliers and products. It can also apply to
 accounts, locations, and other entities.
 
-Teams often can't join real-world customer data by one reliable identifier;
-email, name, address, and KYC fields may vary across systems
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]]).
+Teams often can't join real-world customer data by one reliable identifier.
+Identifiers vary across systems.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
+Email, name, address, and KYC fields may all describe the same person
+differently.
 That makes CDP profile data overlap with
 [[data governance]] and
 [[data quality and observability]].
@@ -143,40 +136,39 @@ drive money movement, compliance, or customer outreach.
 ## Warehouse-Centered Activation and Reverse ETL
 
 CDPs and reverse ETL solve nearby problems in different shapes. Census,
-Hightouch, and Grouparoo are reverse ETL or operational analytics tools that
-send warehouse data into sales, marketing, and advertising systems, and into
-support and product analytics tools, and CDPs sit beside that warehouse-centric
-path
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+Hightouch, and Grouparoo are reverse ETL or operational analytics tools. They
+send warehouse data into sales, marketing, and advertising systems. They can
+also sync support and product analytics tools. CDPs sit beside that
+warehouse-centric path.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 The split is practical because a CDP can collect and activate customer data
-inside one product, and can also handle modeling and segmentation. Reverse ETL
+inside one product. It can also handle modeling and segmentation. Reverse ETL
 assumes the team models data in the warehouse first and then syncs it into
-operational tools. CDPs can move faster for non-engineering teams, while
-warehouse-centered activation gives analysts and engineers more control over
-transformations and tests. They also control documentation and ownership.
+operational tools. CDPs can move faster for non-engineering teams.
+A warehouse-centered activation path gives analysts and engineers more control
+over transformations, tests, documentation, and ownership.
 
-Activation examples show why this choice matters. Support teams can see product
-behavior in their help desk. Sales teams can see product signals in their CRM.
-Marketing and engagement tools can send personalized emails or onboarding
-messages ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+Activation reaches customer-facing teams directly.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+
+- support teams can see product behavior in their help desk
+- sales teams can see product signals in their CRM
+- marketing and engagement tools can send personalized emails or onboarding
+  messages
+
 If the CDP profile or warehouse model is wrong, those mistakes reach customers
 and customer-facing teams directly.
 
 ## Governance for Activated Customer Data
 
 CDPs make customer data easier to use, so teams need stronger governance around
-the same data. Anomaly investigation and source awareness matter, because teams
-need to trace where an event came from before trusting it in a dashboard or
-activation tool, and self-serve analytics depends on documentation and data
-literacy when non-engineering teams work directly with customer data
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
+the same data. Teams need to trace where an event came from before trusting it
+in a dashboard or activation tool. Self-serve analytics also depends on
+documentation and data literacy when non-engineering teams work directly with
+customer data.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
-Identity resolution adds privacy and correctness risk. In fraud and KYC
-scenarios, different records for the same person can hide the real flow of
-activity
-([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]]).
-That same identity power can create risk in ordinary customer systems if teams
+Identity resolution adds privacy and correctness risk. Separate records can hide
+fraud and KYC activity.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
+The same identity power can create risk in ordinary customer systems. Teams may
 merge records incorrectly or send sensitive profile fields into too many tools.
 
 For a CDP, governance covers several decisions:
@@ -193,7 +185,7 @@ CDPs aren't a substitute for governance. They're a place where
 and ownership become more visible because customer data starts affecting real
 interactions.
 
-## Adjacent Stack Topics
+## Related Pages
 
 CDP decisions usually depend on event collection and warehouse modeling. They
 also depend on operational syncs, identity matching, and governance.
@@ -209,4 +201,3 @@ also depend on operational syncs, identity matching, and governance.
 - [[Data Governance]]
 - [[Data Quality and Observability]]
 - [[Privacy Engineering for ML]]
-</content>

@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10571
+    "links": 10566
   },
   "nodes": [
     {
@@ -28056,24 +28056,6 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
-      "target": "person:katiebauer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:business-skills-for-data-professionals",
-      "target": "person:loicmagnien",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:business-skills-for-data-professionals",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:business-skills-for-data-professionals",
       "target": "podcast:data-professionals-business-skills-in-saas",
       "kind": "wiki-chip",
       "weight": 1
@@ -31051,18 +31033,6 @@
     {
       "source": "wiki:contributing",
       "target": "wiki:software-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:customer-data-platforms",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:customer-data-platforms",
-      "target": "person:sonalgoyal",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40723,8 +40693,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:cv-screening",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40741,8 +40711,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-science",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40753,8 +40723,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-scientist-cv-and-portfolio",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40771,8 +40741,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-scientist-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40783,8 +40753,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:hiring",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40795,8 +40765,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:job-search",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40813,8 +40783,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -40825,8 +40795,8 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:machine-learning-system-design",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
