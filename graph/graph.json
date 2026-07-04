@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10687
+    "links": 10675
   },
   "nodes": [
     {
@@ -9159,7 +9159,7 @@
       "title": "AI Engineering",
       "url": "/wiki/ai-engineering/",
       "count": 1,
-      "search": "AI Engineering Podcast grounded guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
+      "search": "AI Engineering AI engineering is the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
     },
     {
       "id": "wiki:ai-engineering-portfolio-projects",
@@ -29688,30 +29688,6 @@
     },
     {
       "source": "wiki:ci-cd",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ci-cd",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ci-cd",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ci-cd",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ci-cd",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -29796,12 +29772,6 @@
     },
     {
       "source": "wiki:ci-cd",
-      "target": "wiki:governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ci-cd",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -29853,12 +29823,6 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ci-cd",
-      "target": "wiki:security",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ci-cd",
@@ -49590,36 +49554,6 @@
     },
     {
       "source": "wiki:gitops-for-data-teams",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -68287,12 +68221,6 @@
     {
       "source": "wiki:prompt-engineering",
       "target": "wiki:security",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-injection-and-chatbot-risk-management",
-      "target": "person:bartoszmikulski",
       "kind": "wiki-chip",
       "weight": 1
     },
