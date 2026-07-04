@@ -156,9 +156,14 @@ A model can be good at release and still become the wrong model later.
 ## Observability
 
 Monitoring detects that something may be wrong, and observability helps a team
-explain why. Data profiling architecture can use WhyLogs and a backend for
-storing profiles. Platform-agnostic integrations matter because production
-models run through many serving tools.[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
+explain why. Barr Moses makes the same split for data systems. Monitoring can
+show a freshness problem, while observability traces the root cause. It also
+shows downstream impact and recovery priority
+[[cite:data-quality-data-observability-data-reliability@24:31=>Data Observability Explained]].
+
+Data profiling architecture can use WhyLogs and a backend for storing profiles.
+Platform-agnostic integrations matter because production models run through many
+serving tools.[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
 Teams can split open-source profiling from managed observability at the tool
 boundary.
 WhyLogs creates portable profiles for open-source profiling. WhyLabs adds hosted

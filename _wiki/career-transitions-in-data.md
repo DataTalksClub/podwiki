@@ -28,6 +28,10 @@ The repeated move is translation. Project management becomes stakeholder and KPI
 work [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 Marketing becomes funnel and BI knowledge [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 Software engineering becomes ML system building [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
+DevOps can become data engineering when the candidate turns automation,
+operability, and platform work into data-platform evidence
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]],
+[[DevOps to Data Engineering]].
 
 Data science becomes data engineering when the person turns analysis cleanup and
 modeling-adjacent data work into shared pipelines. See
@@ -225,6 +229,13 @@ For engineering transitions, software engineers already have a hard ML skill
 because they can code and build systems. They still need data work, evaluation,
 ML tooling, and deployment practice
 [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
+
+DevOps engineers can translate the same problem-solving base through automation,
+documentation, and platform operations. They can then aim that base at pipelines
+and DataOps work
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@19:16=>Problem solving as transferable skill]],
+[[DevOps to Data Engineering]].
+
 QA contributes checklists, phone testing, reporting, and project discipline.
 Cloud familiarity and role-specific interview preparation matter as well
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
@@ -310,6 +321,11 @@ more signals
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Portfolio]].
 For candidates, these examples connect [[Data Engineering Portfolio Projects]],
 [[Machine Learning Portfolio Projects]], and [[Open Source Portfolio Evidence]].
+For DevOps-to-data-engineering candidates, open-source data tooling can combine
+community management with technical contribution. The Versatile Data Kit path
+shows that route
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community management]],
+[[open-source-and-developer-relations=>Open Source DevRel]].
 
 Volunteer projects become transition evidence when the role is explicit.
 Sara El-Ateif separates practical experience and referrals from a generic
@@ -390,9 +406,14 @@ experiments, and production feedback loops
 [[cite:production-ml-mlops-and-data-team-building=>Analytics to Production ML]].
 
 Data engineering has its own split between platform-oriented and product-facing
-work. SQL, DevOps skills, cloud, and processing engines matter. Cost awareness
-matters too, while over-engineered platforms are a risk
+work. Platform roles need SQL, DevOps skills, cloud knowledge, and processing
+engines. Teams also risk over-engineering platforms
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+A platform-leaning data-engineering transition can fit people who like
+automation and operability. It also fits people who prefer precise systems work
+over dashboarding or model research
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]].
 
 Target-role choice changes the learning plan:
 

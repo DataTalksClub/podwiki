@@ -153,6 +153,11 @@ Hugo's tutorial discussion says the content should start from audience and
 goals. That makes a docs contribution stronger than a cosmetic rewrite
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
+Demo-first DevRel tests the same contribution surface. The demo should have a
+clear goal and walk through the real task. It should also help the docs answer
+what users need next
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+
 Community courses can turn docs and examples into open-source ML contributions.
 Platform work can count too. In the DataTalks.Club scaling discussion,
 open-source Python projects and the Django course-management platform keep
@@ -201,6 +206,11 @@ Vincent names the practical stack behind a code PR:
 - tests and CI
 - packaging and pre-commit hooks
 - Git and pull requests
+
+The MLH Fellowship version adds contributor onboarding to that stack. Mentors
+helped students choose good first issues, write cleaner pull requests, set up
+complex development environments, and collaborate with maintainers
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 For ML libraries, a test should cover the behavior inside the expected API, not
 only the happy-path function call. The same discipline belongs with
@@ -290,6 +300,10 @@ DevRel role. The project was a career-launch artifact rather than only a demo
 Hugo's career advice pairs GitHub portfolios with meetups and experiments in
 DevRel
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+
+Use [[Open Source Contributor Roadmap]] for the step-by-step version of this
+path. It covers issue reports, docs, and tests. It also covers demos and
+maintainer collaboration.
 
 Tamara's Fairlearn work adds the career-signal version for responsible ML tools:
 visible open-source contributions can become proof of domain judgment, not only

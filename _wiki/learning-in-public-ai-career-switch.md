@@ -195,6 +195,13 @@ without a conventional technical background. The public work still needs to show
 rapid learning and clear communication
 [[cite:devrel-data-science-open-source-tools@39:31=>DevRel for Data Science]].
 
+Visible projects can create the same signal when they spread beyond the original
+weekend experiment. Elle O'Brien's StyleGAN project became a path into DevRel
+because it showed public technical creativity, not only course completion
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
+For contribution-heavy examples, use
+[[open-source-ml-contributions=>Open Source ML Contributions]].
+
 ## Events Turn Visibility Into Trust
 
 [[person:leonidkholkine=>Leonid Kholkine]] shows the

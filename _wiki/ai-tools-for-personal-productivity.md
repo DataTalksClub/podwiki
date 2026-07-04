@@ -234,6 +234,9 @@ text data, cloud environment, and team skills. The tool can suggest directions,
 but it doesn't replace [[Data Strategy]] judgment or technical feasibility
 checks
 ([[cite:data-strategy-and-dataops-for-ai-powered-products@51:02=>ChatGPT for data strategy ideation]]).
+Use it for the first pass of
+[[data-product-intake-and-prioritization=>data product intake]], not for the
+final feasibility decision.
 
 For the surrounding tool choices, continue with
 [[LLM Tools]] and

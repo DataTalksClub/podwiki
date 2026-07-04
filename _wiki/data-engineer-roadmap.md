@@ -124,10 +124,11 @@ For Python, practice:
 - isolating bad records
 - writing data into storage
 
-Software foundations matter before advanced platform tools. A learning path can
-start with programming fundamentals, then use projects to make data movement,
-ETL, and pipeline choices concrete
-([[cite:remote-data-engineering-work-and-building-iot-platforms@48:36=>Remote Data Engineering]]).
+[[software-engineering=>Software foundations]] matter before advanced platform
+tools, so start with programming fundamentals. Small data projects then make
+data movement, ETL, and pipeline choices concrete
+([[cite:remote-data-engineering-work-and-building-iot-platforms@48:36=>Remote Data Engineering]],
+[[cite:remote-data-engineering-work-and-building-iot-platforms@50:25=>Small data projects]]).
 
 Readable code matters because many projects list tools while showing too little
 Python and SQL. Aim for small functions, useful names, targeted classes, and

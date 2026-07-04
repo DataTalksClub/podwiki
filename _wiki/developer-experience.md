@@ -166,6 +166,11 @@ advocate sends repeated friction back to engineering
 Developer experience connects to [[community building]] because the channel that
 helps users also reveals where the tool is hard to adopt.
 
+Demo-first DevRel adds a content surface to the same DX problem. Kestra's
+advocacy work ties documentation, demos, and outreach together. The videos
+start from a goal before walking through the tool
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+
 [[Metaflow]] matters in these discussions through reproducible ML workflows and
 integrations. It appears in demos and teaching material rather than only as a
 package

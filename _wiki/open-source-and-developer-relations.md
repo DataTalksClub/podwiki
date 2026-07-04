@@ -10,6 +10,7 @@ related:
   - Developer Experience
   - Community Building
   - Open Source Portfolio Evidence
+  - DevOps to Data Engineering
 ---
 
 Open source and developer relations meet when a public technical project needs
@@ -131,9 +132,9 @@ education and onboarding practice
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 Community management can also sit inside an open-source data-tool program.
-Agita Jaunzeme describes community work around VMware's Versatile Data Kit. She
-then frames the role overlap through content, events, and DevRel-style user
-support
+VMware's Versatile Data Kit needed technical background and community
+management. The role also included conference work and content. Events and
+DevRel-style user support were part of the same work
 ([[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community management]],
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]]).
 That path connects open-source DevRel to [[DevOps to Data Engineering]] when

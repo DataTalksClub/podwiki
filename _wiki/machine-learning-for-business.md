@@ -276,7 +276,9 @@ data-quality failures would make the model unsafe to use.
 
 Business ML metrics have to connect model behavior to money, risk, time, or
 customer value. Accuracy, recall, and precision still matter. Ranking quality,
-latency, and drift signals matter too. They aren't enough by themselves.
+latency, and drift signals matter too. They aren't enough by themselves when the
+output doesn't give the business a concrete action
+([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@34:09=>Actionability over accuracy]]).
 
 Vashishta gives the most direct business framing: translate model work into
 business measures. His examples include revenue, cost
@@ -319,7 +321,9 @@ for rollout.
 
 A machine learning business model isn't the algorithm. It's the way the company
 turns a model-backed capability into revenue or savings. It can also reduce
-risk or become a reusable product capability.
+risk or become a reusable product capability. [[communication]] and
+[[business skills for data professionals]] decide whether leaders understand
+that capability in their own metrics.
 
 Vashishta separates revenue from cost-savings models and describes the
 product-management work of translating strategy into researchable use cases

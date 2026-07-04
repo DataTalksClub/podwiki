@@ -5,6 +5,7 @@ summary: "How data professionals earn trust, define metrics, prioritize work, an
 related:
   - Communication
   - Metrics
+  - Machine Learning for Business
   - Product Analytics
   - Data Strategy
   - Data Teams
@@ -18,7 +19,8 @@ decisions people trust. Data professionals start by learning the business
 language early enough to guide the work. They use that language when they set
 team habits and shared data models.
 The topic sits close to [[Communication]],
-[[Metrics]], [[Product Analytics]],
+[[Metrics]], and [[Product Analytics]].
+It also connects with [[Machine Learning for Business]]
 and [[Data Strategy]].
 
 Individual contributors learn what stakeholders mean by core words and map who
@@ -73,6 +75,12 @@ skill at the question-framing level. A data professional asks in the
 stakeholder's vocabulary and checks the decision path. They explain the
 evidence well enough that another team can use it without the analyst in the
 room.
+
+For ML work, the stakeholder vocabulary may be business-language KPIs rather
+than model terms. [[person:jackblandin=>Jack Blandin]] describes pitching
+marketing-facing ML through CAC and conversion language. The business hears
+its own decision criteria instead of only a technical proposal
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@15:25=>Applied ML Leadership]].
 
 Business trust also depends on explaining delivery effort without hiding behind
 technical detail. A data professional should name why a prototype was quick and

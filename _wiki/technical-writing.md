@@ -105,6 +105,13 @@ Swyx adds the owned-platform version. A mailing list, newsletter, and personal
 site give public learning a durable home outside a single social feed
 [[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
 
+Jose Maria Sanchez Salas gives the data-engineering version. His newsletter
+aims to explain how non-technical readers can get value from data. He treats
+daily repetition as a way to build confidence and opportunity signals for remote
+work
+[[cite:remote-data-engineering-work-and-building-iot-platforms@32:17=>Data newsletter]]
+[[cite:remote-data-engineering-work-and-building-iot-platforms@38:10=>Newsletter as opportunity signal]].
+
 That ownership changes the role of technical writing. Social posts can help a
 piece find readers, but the durable asset is the body of work a writer controls.
 A writer controls the domain, newsletter, and mailing list. Reusable posts become
@@ -232,9 +239,10 @@ Technical writing belongs with
 [[career growth]] and
 [[communication]] because a post
 about a pipeline or model evaluation is stronger when it shows the problem. It
-should also show the tradeoffs. The same is true for a tool integration that
-shows the code path and result. A polished article with no technical choices
-gives less evidence than a plain README that lets someone run the project.
+should also show the tradeoffs. The same is true for a
+[[data-engineering=>data engineering]] system or tool integration that shows the
+code path and result. A polished article with no technical choices gives less
+evidence than a plain README that lets someone run the project.
 
 Open-source work can become a hiring signal, and video production doubles as
 communication practice

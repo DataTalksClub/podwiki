@@ -146,6 +146,9 @@ spam, and a code of conduct
 ([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
 It also ties back to niche selection, unsolicited messages, and member safety
 ([[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary=>Building a Sustainable Data Community]]).
+Developer communities also need boundaries for public forums, anonymous
+platforms, and peer moderation
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 Growth without safety and boundaries can make the community worse for the
 members it's supposed to help.
 
@@ -162,9 +165,11 @@ Open-source DevRel uses some of the same channels. It also has to improve docs,
 demos, contribution paths, and product or maintainer feedback.
 
 Open-source education programs form a path to full-time developer advocacy.
-That path depends on pull-request quality and Git skills. It also connects to
-documentation, demos, and outreach
+That path depends on pull-request quality, Git skills, and contributor
+onboarding. It also connects to documentation, demos, and outreach
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
+For the individual contributor sequence, use the
+[[Open Source Contributor Roadmap]].
 
 The same logic applies to DataTalks.Club formats. Open Source Spotlight gives
 maintainers a place to explain their work. It also gives members a low-pressure
@@ -186,7 +191,7 @@ volunteers and broader contributors
 Organizing hackathons is leadership and coordination practice. Will Russell
 describes online hackathon formats, office hours, judging matrices, and
 sponsor-driven categories
-([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 A good event gives participants a bounded challenge, feedback, and a public
 reason to finish.
 

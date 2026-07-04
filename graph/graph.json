@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11153
+    "links": 11188
   },
   "nodes": [
     {
@@ -25786,6 +25786,12 @@
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tools-for-personal-productivity",
       "target": "wiki:data-strategy",
       "kind": "article-chip",
       "weight": 1
@@ -28360,6 +28366,12 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
+      "target": "person:jackblandin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
       "target": "podcast:data-professionals-business-skills-in-saas",
       "kind": "wiki-chip",
       "weight": 1
@@ -28373,6 +28385,12 @@
     {
       "source": "wiki:business-skills-for-data-professionals",
       "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28451,6 +28469,18 @@
     {
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:machine-learning-for-business",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -28876,6 +28906,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -29290,6 +29326,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
       "kind": "wiki-chip",
       "weight": 1
@@ -29615,6 +29657,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:mlops-vs-devops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30094,6 +30142,12 @@
     },
     {
       "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
       "target": "wiki:leadership",
       "kind": "wiki-chip",
       "weight": 1
@@ -30280,6 +30334,12 @@
     },
     {
       "source": "wiki:communication",
+      "target": "person:jackblandin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
       "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
       "kind": "wiki-chip",
       "weight": 1
@@ -30317,6 +30377,12 @@
     {
       "source": "wiki:communication",
       "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30439,6 +30505,18 @@
       "target": "wiki:leadership",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:communication",
@@ -30841,6 +30919,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:community-building",
@@ -34323,6 +34407,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-engineer-role",
       "target": "book:20220815-fundamentals-of-data-engineering",
       "kind": "wiki-chip",
@@ -34696,6 +34786,12 @@
     },
     {
       "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:career-development",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
       "target": "wiki:data-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -34739,6 +34835,18 @@
     {
       "source": "wiki:data-engineer-vs-data-scientist",
       "target": "wiki:data-scientist-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:devops-to-data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -35069,6 +35177,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:technical-writing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36947,6 +37061,12 @@
     {
       "source": "wiki:data-governance",
       "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:data-observability-for-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39613,6 +39733,18 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-products",
@@ -44800,6 +44932,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -46684,6 +46822,12 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -47149,6 +47293,18 @@
       "target": "wiki:modern-data-stack",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-related",
+      "weight": 3
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -54832,6 +54988,12 @@
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -57970,6 +58132,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:communication",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:data-product-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -58687,6 +58855,12 @@
       "target": "wiki:machine-learning-infrastructure",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-startups",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-startups",
@@ -59693,6 +59867,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:machine-learning-for-business",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66586,6 +66766,12 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:documentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -66899,6 +67085,12 @@
     {
       "source": "wiki:open-source-ml-contributions",
       "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67853,6 +68045,12 @@
     {
       "source": "wiki:platform-engineering",
       "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76726,6 +76924,12 @@
     },
     {
       "source": "wiki:technical-writing",
+      "target": "podcast:remote-data-engineering-work-and-building-iot-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-chip",
       "weight": 1
@@ -76759,6 +76963,12 @@
       "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",

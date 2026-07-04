@@ -203,6 +203,11 @@ senior stakeholders all depend on judgment. Explainable AI and sensitive
 findings turn technical work into a communication problem, especially when a
 decision needs to be challenged.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 
+Promotion evidence can come from removing toil before anyone asks for it. A
+manual migration checklist became scripts, reduced errors, and expanded scope
+faster than the normal promotion timeline
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]].
+
 Sustainable career development can include behavioral habits from the
 productivity discussion. Morning light exposure supports circadian regulation
 [[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@18:41=>Biohacking for Data Scientists]].
@@ -251,14 +256,17 @@ situations, practice empathy, and ask before giving advice
 Transitions work when a person translates existing strengths into the target
 role instead of treating [[data science]] as one generic ladder.
 
-A self-fit lens can make that translation more deliberate. Agita Jaunzeme's
+A self-fit lens can make that translation more deliberate. The
 DevOps-to-data-engineering path treats automation, volunteer leadership,
 open-source community work, and career coaching as evidence about the work that
-fits the person. It isn't only about which tool is currently marketable
+fits the person. The practical question is whether the role matches the
+person's passions, skills, and energy, not only which tool is currently
+marketable
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]].
 That connects career development to [[career-transitions-in-data=>career transitions]],
 [[open-source-portfolio-evidence=>open-source portfolio evidence]], and
-[[community building]].
+[[community building]], with [[DevOps to Data Engineering]] as the concrete
+transition example.
 
 The analyst route can start from research, statistics, or storytelling. The builder route
 needs production experience, Git, Docker, and cloud platforms. It also needs

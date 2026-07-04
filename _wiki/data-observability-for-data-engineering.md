@@ -39,6 +39,10 @@ consumers, and roll out observability without alert fatigue.
 ## Core Signals
 
 [[Data Quality and Observability]] defines the five core signals.
+Barr Moses frames those signals as freshness and volume, schema and
+distribution, plus lineage. Teams use them to detect bad data and diagnose
+where it came from
+[[cite:data-quality-data-observability-data-reliability@16:38=>Data Observability Explained]].
 
 Each signal maps to a different data engineering failure mode:
 
@@ -105,9 +109,15 @@ through SLAs and false-positive management
 [[Data Quality and Observability]] covers the RACI ownership and SLA framework.
 For data engineering teams, ownership metadata should live close to the asset.
 It should name the producing team and main consumers. It should also record the
-freshness expectation, on-call path, recovery action, and escalation route.
+freshness expectation and on-call path. Recovery action and escalation route
+belong there too.
+
 That makes a freshness alert on a critical feature table different from a
 row-count anomaly on an unused scratch table.
+RACI separates the response roles by naming who fixes the issue and who's
+accountable. It also names who gets consulted on expectations and who only needs
+to know that data may be unreliable
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
 
 Teams turn ownership into operating practice through version control, tests,
 and CI/CD. They also move from manual runbooks to automated playbooks, and link
@@ -131,6 +141,11 @@ discussions. For data engineering teams, tests cover expected assumptions. SLAs
 capture consumer expectations, and observability handles runtime behavior and
 diagnosis. Those three layers should cover different failure modes without
 overlap.
+
+SLAs also tell engineers which incidents deserve attention first, and Barr
+Moses uses freshness as the example. A table with a five-minute promise should
+outrank a low-value table with no explicit consumer agreement
+[[cite:data-quality-data-observability-data-reliability@35:24=>Data Observability Explained]].
 
 ## Downstream Impact
 
@@ -203,6 +218,12 @@ keep noisy observability from creating alert fatigue
 [[cite:data-quality-data-observability-data-reliability@38:14=>Data Observability Explained]].
 Teams shouldn't page on every anomaly. They should protect important consumers
 from data downtime and make diagnosis fast when something breaks.
+
+Barr's maturity curve moves teams from reactive incident response to proactive
+checks, automated detection, and scalable observability. Teams can use that
+curve as a rollout path. Start with the critical assets, automate what history
+can infer, and expand only when alerts still have owners and recovery paths
+[[cite:data-quality-data-observability-data-reliability@43:00=>Data Observability Explained]].
 
 ## Common Failure Patterns
 

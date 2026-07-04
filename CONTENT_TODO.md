@@ -108,6 +108,21 @@ The 2026-07-05 graph audit found no current graph edges dropped because of
 missing node ids. When Markdown sources change, regenerate `graph/graph.json`
 with `make graph` or `make check`; do not hand-edit it.
 
+The second `docs/mining/report_pod_08.md` enrichment batch was integrated on
+2026-07-05:
+
+- Agita Jaunzeme's DevOps-to-data-engineering path now strengthens transition,
+  career-fit, open-source DevRel, and DE-vs-DS comparison pages
+- Jack Blandin's applied-ML leadership episode now strengthens ML business,
+  startup, system-design, business-skill, and communication pages
+- Jose Maria Sanchez Salas's remote IoT data-engineering episode now strengthens
+  platform, data-product, data-engineering, technical-writing, and roadmap pages
+- Elle O'Brien and Will Russell's DevRel/open-source episodes now strengthen
+  developer-relations, developer-experience, community-building,
+  learning-in-public, and open-source contribution pages
+- Barr Moses and Boyan Angelov evidence now strengthens observability,
+  governance, DataOps, intake, translator, CDO, and AI productivity pages
+
 The `docs/mining/report_pod_09.md` high-value graph edges were integrated on
 2026-07-04:
 

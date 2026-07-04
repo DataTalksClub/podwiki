@@ -199,11 +199,15 @@ looking at data and purpose before coding
 [[cite:remote-data-engineering-work-and-building-iot-platforms@12:29=>IoT platform]]
 [[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>ETL exploration]].
 
-A data engineering newsletter doubles as personal branding and communication
-practice.
+A [[technical-writing=>data engineering newsletter]] can double as personal
+branding and communication practice. It explains data work to non-technical
+readers and creates a repeated public signal
+[[cite:remote-data-engineering-work-and-building-iot-platforms@32:17=>Data newsletter]]
+[[cite:remote-data-engineering-work-and-building-iot-platforms@38:10=>Newsletter opportunity signal]].
 
 Remote work in Norway still limits hiring to a few cities. Data engineers can
-face loneliness, isolation, and weak home/work boundaries that affect
-collaboration and focus
+use stable work blocks. They can also face loneliness, isolation, and weak
+home/work boundaries that affect collaboration and focus
+[[cite:remote-data-engineering-work-and-building-iot-platforms@5:18=>Remote routine]]
 [[cite:remote-data-engineering-work-and-building-iot-platforms@15:31=>Remote friction]]
 [[cite:remote-data-engineering-work-and-building-iot-platforms@18:17=>Remote Data Engineering and IoT Platforms]].

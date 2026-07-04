@@ -49,9 +49,10 @@ strategy-side version of the same funnel.
 After due diligence, teams brainstorm use cases around data, skills, and
 infrastructure.
 
-Check feasibility before business-impact prioritization becomes delivery work
-for the team
-[[cite:data-strategy-and-dataops-for-ai-powered-products@13:28=>Feasibility]].
+Boyan names the sequence as ideation, feasibility, and prioritization. The team
+lists plausible use cases and checks whether data, skills, and infrastructure
+make them feasible. Then it ranks them by importance and business impact
+[[cite:data-strategy-and-dataops-for-ai-powered-products@13:28=>Feasibility and prioritization]].
 Teams tie intake to [[Data Strategy]] because delivery needs a clear reason and
 feasibility path.
 

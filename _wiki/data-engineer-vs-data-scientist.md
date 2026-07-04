@@ -14,6 +14,7 @@ related_wiki:
   - Data Engineering
   - Data Science
   - Machine Learning Engineer Role
+  - DevOps to Data Engineering
 ---
 
 Data engineers and data scientists both use data, SQL, Python, and cloud tools.
@@ -84,9 +85,9 @@ Docker as implementation basics. Airflow and warehouses appear alongside code
 quality, tests, and working pipelines
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
-Agita Jaunzeme adds a role-fit lens from the DevOps-to-data-engineering path.
-Data engineers do detailed systems work. Data scientists start closer to
-questions and model interpretation
+The DevOps-to-data-engineering path adds a role-fit lens. Data engineering can
+reward precision, persistence, and detailed systems work. Data science starts
+closer to questions, experiments, model interpretation, and analytical depth
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]]
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]].
 
@@ -165,6 +166,11 @@ Job titles can hide mismatches. Check team structure, objectives, and
 responsibilities before trusting the job title. Data infrastructure and
 analytics or engineering support matter too
 [[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]].
+For career changers, the same check should include personal fit. They should
+ask whether they prefer maintaining reliable systems, analyzing data, or
+building models
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]],
+[[career-development=>Career Development]].
 
 ## Related Pages
 
@@ -174,6 +180,7 @@ Start with these role definitions and adjacent comparisons:
 - [[Data Scientist Role]]
 - [[Data Engineering]]
 - [[Data Science]]
+- [[DevOps to Data Engineering]]
 - [[Machine Learning Engineer vs Data Scientist]]
 - [[Machine Learning Engineer Role]]
 - [[MLOps]]

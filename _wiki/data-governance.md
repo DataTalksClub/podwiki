@@ -146,6 +146,9 @@ pipeline, while a data leader or domain owner may be accountable. Analysts may
 need to be informed, and data scientists or other consumers may be consulted on
 SLA needs
 [[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
+With those roles named, teams can treat governance as a response path for
+[[data-observability-for-data-engineering=>data observability in data engineering]],
+not only as a catalog field.
 Data Mesh makes that boundary explicit. It ties data product ownership to
 business domains, quality expectations, and service levels.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 

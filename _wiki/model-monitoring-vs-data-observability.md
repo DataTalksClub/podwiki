@@ -159,6 +159,12 @@ upstream because data quality problems often originate before the model
 alert shows prediction drift but lineage shows a changed feature pipeline, the
 model owner and data owner need to work together.
 
+Teams make ownership visible through the same diagnosis path. Monitoring can
+show a freshness problem, but lineage and metadata reveal downstream impact.
+That context tells them whether the data owner, model owner, or consumer has to
+act
+[[cite:data-quality-data-observability-data-reliability@24:31=>Data Observability Explained]].
+
 The DataOps incident model makes the ownership side explicit. Handoffs,
 documentation, and automation keep one person from being stuck owning a
 production workflow forever. Teams should run toward errors, find them quickly,

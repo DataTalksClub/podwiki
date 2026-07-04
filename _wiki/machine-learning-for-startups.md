@@ -42,7 +42,8 @@ product-market fit signals checked before deeper modeling.[[cite:building-mlops-
 
 For the broader revenue and operating model question, use
 [[Machine Learning for Business]]
-alongside this startup-specific guide.
+alongside this startup-specific guide. For the baseline, evaluation, and runtime
+choices behind the first working product, use [[Machine Learning System Design]].
 
 FreshFlow used fresh-product problem discovery and store-team shadowing before
 narrowing the product from a computer vision idea into an ordering

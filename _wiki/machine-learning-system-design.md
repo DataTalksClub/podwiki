@@ -39,7 +39,8 @@ The practical definition starts with the decision and ends with an operable
 system. A fraud model or recommender isn't designed by choosing a model class
 first. The same holds for pricing, search, and computer vision. Teams first name
 the product decision and users, then the failure cost, baseline, and path from
-data to prediction.
+data to prediction. That keeps the design connected to
+[[machine learning for business]] before the team chooses a model.
 
 The fraud example turns into questions about probabilities and loss functions,
 real-time requirements, and class imbalance
@@ -162,7 +163,8 @@ Baselines clarify the minimum useful comparison, and in interviews they help
 candidates show progress without pretending the final model is obvious
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 Simple baselines validate hypotheses quickly
-[[cite:ml-system-design=>ML System Design Playbook]].
+[[cite:ml-system-design=>ML System Design Playbook]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Applied ML Leadership]].
 Competition practice reinforces the same habit for production ML. Iterate from
 EDA, validation, baselines, and infrastructure. Don't look for a single
 modeling shortcut

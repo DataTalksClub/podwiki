@@ -5,6 +5,7 @@ summary: "How podcast guests connect communication to stakeholder translation, i
 related:
   - Career Transitions in Data
   - Job Search
+  - Machine Learning for Business
   - Data Product Management
   - Data Scientist Role
   - Mentoring in Tech
@@ -24,8 +25,9 @@ business questions and assumptions, show ownership, and make evidence usable.
 
 For role context, see [[career transitions in data]]
 and [[job search]]. For responsibilities,
-see [[data product management]],
-the [[data scientist role]],
+see [[data product management]]
+and [[machine learning for business]].
+For role-level translation, see the [[data scientist role]]
 and the [[data team lead role]].
 For public artifacts, see [[open-source-portfolio-evidence=>open-source portfolio evidence]].
 
@@ -41,7 +43,8 @@ can guide action.
 Data science communication also has to make value legible to non-technical
 stakeholders. Otherwise the model or analysis can be technically correct without
 changing a decision
-[[cite:how-to-break-into-data-science@30:11=>Data Science Career Playbook]].
+[[cite:how-to-break-into-data-science@30:11=>Data Science Career Playbook]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@34:09=>Actionability over accuracy]].
 
 Consultants validate buyer pain, project scope, and pricing before delivery.
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting Business]].
@@ -114,6 +117,16 @@ Data professionals build trust through active listening and business literacy.
 They prioritize projects by stakeholder impact and high-connectivity
 opportunities
 [[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]].
+
+ML leaders use the same translation when they sell model work.
+[[person:jackblandin=>Jack Blandin]] turns an ML pitch into CAC, conversion,
+and KPI language. Stakeholders can then judge the proposal by measures they
+already own
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@15:25=>Applied ML Leadership]].
+For model risk, he recommends showing the controllable threshold tradeoff
+instead of leading with raw accuracy. The stakeholder needs to understand the
+decision lever
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@26:15=>Applied ML Leadership]].
 
 Influencing without authority uses the same mechanics. Iofciu describes it as
 speaking the other person's work language, listening actively, and framing the

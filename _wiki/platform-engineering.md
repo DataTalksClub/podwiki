@@ -51,9 +51,14 @@ than a tool portal. A platform gives teams a supported way to do common work. It
 also gives the organization a place to encode standards, security, and
 reliability without turning every project into a custom consulting job.
 
-In IoT, the platform can act as an "operating system for sensors." It
-standardizes project-data flow across storage and intake. It also covers output,
-sensor registration, and real-time processing for sensor operators.[[cite:remote-data-engineering-work-and-building-iot-platforms@12:29=>IoT Platforms]][[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>IoT Platforms]]
+In IoT, the platform can act as an "operating system for sensors"
+[[cite:remote-data-engineering-work-and-building-iot-platforms@12:29=>IoT Platforms]].
+It standardizes project-data flow across storage and intake. It also covers
+output, sensor registration, and real-time processing for sensor operators
+[[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>IoT Platforms]].
+That connects platform work to [[data-products=>data products]] because sensor
+streams need a business purpose before teams expose them through a pipeline or
+platform output.[[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>IoT Platforms]]
 
 ## Timing and Product Discipline
 

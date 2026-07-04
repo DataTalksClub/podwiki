@@ -10,6 +10,7 @@ related:
   - Data Engineering Platforms
   - Data Quality and Observability
   - Open Source Portfolio Evidence
+  - Open Source and Developer Relations
 ---
 
 DevOps to data engineering is a move from operating software platforms to
@@ -18,14 +19,17 @@ configuration management and early DevOps automation into open-source DataOps
 work on Versatile Data Kit
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
 
-The transition sits near [[Data Engineering]]
-and [[DataOps]], with overlap in
+The transition sits near [[Data Engineering]], [[DataOps]], and
 [[Data Engineering Platforms]].
-Those overlaps help, but DevOps experience becomes data engineering evidence
-only when it shows data delivery. Repeatable ingestion, tested transformations,
-and scheduled pipelines show one side of that evidence. Recovery paths,
-cost-aware cloud choices, and [[data-quality-and-observability=>Data Observability]]
-show the operations side.
+Those overlaps help because DevOps experience becomes data engineering evidence
+only when it shows data delivery.
+
+Data-delivery proof includes ingestion plus transformations and scheduled
+pipelines for repeatable runs. Recovery paths plus cost-aware cloud choices show
+the operations side with [[data-quality-and-observability=>Data Observability]].
+Open-source data-tool projects and community work can provide an adjacent route
+into [[open-source-and-developer-relations=>open-source DevRel]] when the current
+job lacks data-platform work.
 
 ## DevOps Skills That Transfer
 
@@ -98,9 +102,11 @@ into [[data-quality-and-observability=>Data Observability]].
 ## Platform Habits in Data Work
 
 Automation transfers when it acts on data delivery. Finding repetitive manual
-work and automating it can earn more responsibility. The habit becomes a
-repeatable career signal
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>From DevOps to Data Engineering]].
+work and automating it can earn more responsibility. In the Accenture example,
+a seven-page manual migration checklist became scripts. The scripts reduced
+human error and led to promotion faster than the normal review cycle
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]].
+
 In data engineering the same habit becomes ingestion code and scheduled
 backfills. It also becomes repeatable transformations, automated checks, and
 recovery playbooks.
@@ -135,9 +141,10 @@ and make failures easier to diagnose
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Documentation habits transfer when they make data work easier to hand off.
-Corporate documentation and agile practices also transfer into volunteer
-organizations
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+Corporate documentation, agile practices, and problem-solving habits also
+transfer into volunteer organizations
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@19:16=>Problem solving as transferable skill]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Documentation and agile practices]].
 Runbooks, documentation, automated playbooks, and replaceability lower on-call
 pressure in data teams
 [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
@@ -206,11 +213,15 @@ deployment automation, versioning, and runbooks
 
 Use open source when the current job can't provide data projects. A return to
 corporate technical work can run through open-source and community work,
-including Versatile Data Kit at VMware
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+including Versatile Data Kit. The VMware role joined community work with
+technical contribution
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community work]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@36:25=>Open source return path]].
+
 Useful public proof includes data connectors, orchestration examples, and dbt
 packages. Observability checks and documentation also matter. Tests, issues, and
-pull requests connect the route to [[Open Source Portfolio Evidence]].
+pull requests connect the route to [[Open Source Portfolio Evidence]] and
+[[open-source-and-developer-relations=>Open Source DevRel]].
 
 ## Role Fit
 
@@ -252,4 +263,5 @@ reliability topics.
 - [[Data Quality and Observability]]
 - [[Modern Data Stack]]
 - [[MLOps vs DevOps]]
+- [[open-source-and-developer-relations=>Open Source DevRel]]
 - [[Open Source Portfolio Evidence]]

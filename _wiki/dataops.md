@@ -167,6 +167,12 @@ only chasing ideal plans. That fits DataOps because failed handoffs, waiting,
 unclear requirements, and unmeasured pilots all become operating problems once a
 strategy reaches delivery
 [[cite:data-strategy-and-dataops-for-ai-powered-products@25:03=>Lean and Agile DataOps]].
+He also places DataOps beside impact assessment and portfolio management, after
+teams have chosen use cases and a target architecture. Teams therefore connect
+DataOps to [[data-product-intake-and-prioritization=>data product intake]]
+because the same use-case list has to survive delivery, measurement, and
+reprioritization
+[[cite:data-strategy-and-dataops-for-ai-powered-products@18:56=>Strategy delivery]].
 
 This is where [[Orchestration]],
 [[ci-cd=>CI/CD]], and

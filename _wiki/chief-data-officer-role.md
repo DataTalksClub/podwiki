@@ -139,6 +139,8 @@ CDO, and CTO. In his account, the strategist role becomes executive work when
 the person stops advising from a data corner. They then own budgets, hiring,
 management, and operational consequences across the technology agenda
 [[cite:data-strategy-and-dataops-for-ai-powered-products@41:31=>Strategist to CTO ownership]].
+The CTO version keeps the [[data-translator-role=>data translator]] skill, but
+adds budget ownership, hiring decisions, and responsibility for the result.
 
 ## Strategy, Org Design, and Accountability
 

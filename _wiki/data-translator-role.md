@@ -55,6 +55,11 @@ prototypes. A [[chief data officer role]] applies a similar bridge at a larger
 scale. That version covers strategy and governance. It also covers organization
 design, AI scope, and long-term data collection decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cite:chief-data-officer-data-strategy-and-org-design=>CDO scope]]
 
+Boyan's own path shows one route into that broader bridge role. A data
+scientist can move into consulting or strategy when they become comfortable
+translating between business goals and technical constraints
+[[cite:data-strategy-and-dataops-for-ai-powered-products@5:47=>Becoming a data strategist]].
+
 The role also has a boundary with domain expertise. Data professionals should
 ask leaders what worries them, map business needs against current data assets,
 and identify where better data collection is required. They shouldn't pretend

@@ -19,7 +19,9 @@ related_wiki:
 
 An open-source contributor roadmap should start with useful work that a
 maintainer can review. That work may be code, docs, or tests. It can also be a
-reproducible issue, a demo, a forum answer, or a tutorial.
+reproducible issue, a demo, a forum answer, or a tutorial. Demo-first DevRel
+uses the same surface when demos and docs help users finish a real task
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 Good contribution quality includes documentation, contribution guides, and
 polite interaction with maintainers. Reproducible issues and tests reduce
@@ -93,10 +95,12 @@ PR quality, Git skills, environment setup, and maintainer collaboration all
 matter. Contributors can use docs and demos to help users finish a real task.
 For example, they can write tutorials for Docker, Postgres, and Git
 ([[cite:practical-devrel-demofirst-education-and-open-source@39:02=>Demo-First DevRel]]).
+
 Programs with mentorship can make large-repository contribution less ambiguous.
 They pair onboarding, review expectations, and maintainer collaboration
 ([[cite:practical-devrel-demofirst-education-and-open-source@35:43=>MLH Fellowship]],
 [[cite:practical-devrel-demofirst-education-and-open-source@41:16=>Large-repo onboarding]]).
+That keeps the first PR from becoming unreviewable work for maintainers.
 
 Johanna Bayer gives a research-software version of the same first step. She
 recommends starting with small repositories and learning the pull-request path.
@@ -128,6 +132,9 @@ logs into career evidence. README files, quickstarts, and repo tours count too
 Education and tutorials should start from audience goals. Dogfooding and
 reproducibility create feedback for the project
 ([[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]]).
+Demo-first technical content adds a simple standard. Define the goal, build a
+working walkthrough, and keep enough pace for viewers to finish the task
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 ## Portfolio Proof from Public Work
 

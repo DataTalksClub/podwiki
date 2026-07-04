@@ -48,9 +48,10 @@ confusing parts back to product and engineering.
 One DevRel role at Iterative spans product work and CML. It also covers
 documentation, pull requests, videos, and hiring. Daily work includes content
 creation, community management, and support
-([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 DevRel turns the community-facing role into a product signal channel. It sees
-where users get confused before roadmap discussions surface those problems.
+where users get confused before roadmap discussions surface those problems
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 DevRel is more than awareness work because it's technical adoption work. A
 DevRel person needs enough
@@ -89,7 +90,8 @@ and videos tied to the product work
 
 A more demo-first version describes developer advocacy at Kestra through
 documentation, demos, and outreach. The advocate starts with bullet points,
-then moves into building demos and collaborating with writers
+then moves into building demos and collaborating with writers. That role also
+has to balance technical depth with community work
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 ## Education, Tutorials, and Documentation
@@ -120,12 +122,13 @@ adoption.
 
 DevRel teams use demos to show the first useful path through a tool. A demo is
 weak when it only sells the feature. It helps when it reduces setup uncertainty,
-shows the tool in context, and exposes the tradeoffs a real user will hit.
+shows the tool in context, and exposes the tradeoffs a real user will hit. That
+places demo work close to [[developer experience]].
 
 In the Kestra discussion, demo videos need a clear goal and a useful pace. The
 guest argues for full walkthroughs and uses an "after execution" notification
 as a concrete feature demo
-([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 A "Learn with Kestra" series uses adjacent tools like Docker and Postgres. It
 also brings Git into the learning path. Developer adoption often depends on the
@@ -158,7 +161,8 @@ many-to-many engagement
 
 DevRel can use those habits, but its product responsibility is narrower. DevRel
 helps developers adopt the tool and routes technical feedback back to the
-builders.
+builders
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 Open-source DevRel has an extra constraint because the project community must
 keep its own credibility. Airbyte's open-source-plus-cloud model raises questions
@@ -190,7 +194,8 @@ Content goals separate awareness, support, and open-source strategy
 
 They can track successful first runs, activated users, and repeated usage. Docs
 issues and unanswered support questions also matter when they change the tool.
-The same is true for contribution flow, event follow-up, and product feedback.
+The same is true for contribution flow, event follow-up, and product feedback
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 Vanity metrics can still help with distribution, but they don't prove adoption
 by themselves.
 
