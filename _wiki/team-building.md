@@ -14,59 +14,54 @@ related:
 ---
 
 Team building in data, ML, and AI starts with deciding what the team must make
-possible for the business. In the DataTalks.Club podcast archive, guests rarely
-describe team building as headcount growth alone. They talk about first hires
-and manager-expert boundaries. They also cover onboarding, self-service
-platforms, cross-functional planning, and the operating habits that let other
-teams use data work.
+possible for the business. Hiring order follows the team's first bottleneck.
+Role design separates coordination from specialist depth. Operating habits decide
+whether other teams can use the work.
+[[cite:building-data-team=>Building a Data Science Team]]
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]]
 
-Data teams need craft, context, and enablement. [[person:dattran|Dat Tran]]
-frames early ML team building around the product vision and company maturity in
-[[podcast:building-data-team=>Building a Data Science Team]].
-[[person:tammyliang=>Tammy Liang]] shows the business
-analytics version in
-[[podcast:building-and-scaling-data-team=>Building and Leading Data Teams]].
-In that story, dashboards and data engineering come before forecasting and
-adoption work.
-
-[[person:lisacohen=>Lisa Cohen]] adds the org
-design layer in
-[[podcast:data-science-team-structure-and-org-design=>Designing a Data Science Organization]].
-She compares centralized, embedded, and hybrid teams.
+Data teams need craft, context, and enablement. Early ML teams tie hiring to
+product vision and company maturity. Business analytics teams may start with
+dashboards and data engineering before forecasting or adoption work. Larger
+organizations then choose between centralized, embedded, and hybrid data science
+models.
+[[cite:building-data-team=>Building a Data Science Team]]
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]]
 
 ## First Hires and Role Order
 
-First hires should match the team's first real constraint. Tran argues that an
-early startup needs experienced generalists because no system exists yet. His
-pricing startup needed software engineers for the library and ML engineers for
-modeling work. It also needed data engineers and a product manager. Designers
-covered API and product experience.
+First hires should match the team's first real constraint. An early startup
+often needs experienced generalists because no system exists yet. One pricing
+startup needed software engineers for the library and ML engineers for modeling.
+It also needed data engineers, a product manager, and designers for the API and
+product experience.
 
 At that stage, generalists matter. People need to handle several product and
 infrastructure jobs before the company has stable role boundaries
-[[cite:building-data-team|Building a Data Science Team]].
+[[cite:building-data-team=>Building a Data Science Team]].
 
-That guidance changes when the company already has some data foundations. Tran
-uses Idealo as the middle case. The company had analysts, BI, and older data
-engineering systems, so he didn't need only broad data science generalists. He
-needed people who could add ML depth while still cooperating with data engineers
-and putting work into production
-[[cite:building-data-team|Building a Data Science Team]].
+That guidance changes when the company already has some data foundations. Idealo
+had analysts, BI, and older data engineering systems, so it didn't need only
+broad data science generalists. It needed people who could add ML depth while
+still cooperating with data engineers and putting work into production
+[[cite:building-data-team=>Building a Data Science Team]].
 The hiring order therefore depends on company maturity, not on a universal data
 team template.
 
-Liang gives the same point from a consumer business that started with business
-health dashboards. Her first hire was a data analyst because dashboard demand was
-the immediate bottleneck. Historical data, forecasting, and source integration
-became harder over time. At that point, a data engineer became a "game changer."
+Consumer analytics teams can start with business health dashboards. In that
+case, the first hire may be a data analyst because dashboard demand is the
+immediate bottleneck. Historical data, forecasting, and source integration
+become harder over time. At that point, a data engineer can be a "game changer."
 Analysts could return to analysis while the engineer built the data foundation
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 
-Looking back, Liang says she would invest in senior people earlier. Early
-technical and analytical choices become the foundation for later work. If deeper
-analyses or web apps need real infrastructure, she would also hire engineers. The
-same applies when the team needs to combine multiple data sources
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
+Fast-growing analytics teams may need senior people earlier than expected
+because early technical and analytical choices become the foundation for later
+work. Deeper analyses, web apps, and multiple data sources can also require
+engineering support
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 
 This links team building to [[hiring]] and
 [[data engineering platforms]].
@@ -75,122 +70,112 @@ foundation they'll need next.
 
 ## Manager, Expert, and Senior IC Boundaries
 
-Team building breaks when a company hires for the wrong role. [[person:barbarasobkowiak|Barbara
-Sobkowiak]] explains this in
-[[podcast:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
+Team building breaks when a company hires for the wrong role. A data science
+manager and a data science expert solve different problems, even when job
+descriptions blur them
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
-She sees job descriptions that ask for a data science manager but mostly list
+Some job descriptions ask for a data science manager but mostly list
 expert-level tools. Managers need broad technical literacy, strategy,
 stakeholder communication, and team development. Experts need deep technical and
 domain knowledge for hard modeling problems
-[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
-The manager doesn't need to be the strongest coder on the team. Sobkowiak says a
-manager should understand technologies well enough to discuss them with the team,
-but expert depth belongs with the specialist. She also describes manager work as
-setting learning goals and pairing people with senior teammates. Managers also
-discuss progress and guide development without replacing code review systems
-[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
+The manager doesn't need to be the strongest coder on the team. A manager should
+understand technologies well enough to discuss them with the team, but expert
+depth belongs with the specialist. Manager work also includes setting learning
+goals and pairing people with senior teammates. Managers discuss progress and
+guide development without replacing code review systems
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
-The role split changes by company size. Sobkowiak recommends a manager plus a
-technical expert for larger organizations that need both coordination and deep
-specialist skill. Startups may need one senior generalist with strong
-communication. The budget and scope force one person to cover more ground
-[[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
+The role split changes by company size. Larger organizations may need both a
+manager and a technical expert because coordination and deep specialist skill are
+separate jobs. Startups may need one senior generalist with strong communication
+because budget and scope force one person to cover more ground
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 The risk is hiring a lone expert when the real need is team building, stakeholder
 translation, and strategy.
 
-[[person:katiebauer=>Katie Bauer]] adds the manager hiring
-bar in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
 Manager interviews should test team-building judgment, stakeholder management,
 and career development. They should also test strategy, measurement, and
 tradeoffs, not only technical fluency
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS Data Science Teams]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
 That puts team building close to [[leadership]]:
 the manager role exists to create conditions for other people to deliver reliable
 data work.
 
 ## Onboarding and Growth
 
-Team building continues after the offer because Bauer treats junior hiring as a
+Team building continues after the offer, and junior hiring can work as a
 build-versus-buy decision. Senior hires bring immediate impact, but junior hires
 can grow into company-specific leaders when the team gives them mentorship. They
 also need project-based learning, practice, and exposure.
 
-Bauer recommends putting a senior in a domain before adding a junior. The junior
-gets day-to-day support, and the senior gets a real mentoring path
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS Data Science Teams]].
+A senior person should own a domain before the team adds a junior there. The
+junior gets day-to-day support, and the senior gets a real mentoring path
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
 
-Bauer also makes onboarding explicit. Junior people need to learn the technical
-craft, but they also need to learn how companies work. Product managers, senior
-leaders, and adjacent teams have goals and incentives that guide data work. Bauer
-recommends helping juniors talk with those people and prepare questions. They
-also need to ask for help when they're stuck
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS Data Science Teams]].
+Onboarding needs to cover technical craft and company context. Product managers,
+senior leaders, and adjacent teams have goals and incentives that guide data
+work. Juniors need help talking with those people, preparing questions, and
+asking for help when they're stuck
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
 
-[[person:marianosemelman=>Mariano Semelman]] gives the
-manager onboarding version in
-[[podcast:data-science-leadership-hiring-mlops=>Data Science Leadership]].
-When he took over a team, he used the first part of his 30-60-90 plan to meet
-people and listen. He learned the projects and domain before giving stronger
-feedback. He also treats one-on-ones and feedback as a growth environment rather
-than a manager monologue
-[[cite:data-science-leadership-hiring-mlops|Data Science Leadership]].
+Manager onboarding has the same listening step. In the first part of a 30-60-90
+plan, a new leader can meet people, learn projects, and understand domain
+context. Stronger feedback can wait until the team is understood. One-on-ones
+and feedback then become a growth environment rather than a manager monologue
+[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
 
-[[person:terezaiofciu=>Tereza Iofciu]] extends that point from leadership
-coaching in [[cite:data-leadership-coaching|Data Leadership Coaching]]. Healthy
-data teams need feedback habits that people can practice before conflict is
-high-stakes. They also need psychological safety. Managers help by making it
+Healthy data teams need feedback habits that people can practice before conflict
+is high-stakes. They also need psychological safety. Managers help by making it
 normal to surface blocked work, relationship tension, or unclear priorities
-before those problems become delivery failures.
+before those problems become delivery failures
+[[cite:data-leadership-coaching=>Data Leadership Coaching]].
 
-Liang adds the scaling leadership example. As her team grew, she moved away from
-holding every project herself and gave ownership to the people doing the work. Her
-role became direction, resource support, and troubleshooting when the team could
-not unblock a project
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
-Together, these episodes make onboarding a team design problem. People need
-technical support, business context, ownership, and predictable ways to ask for
-help.
+As analytics teams grow, leaders need to move away from holding every project
+themselves and give ownership to the people doing the work. The leadership role
+shifts toward direction, resource support, and troubleshooting when the team
+can't unblock a project
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+Onboarding is a team design problem. People need technical support, business
+context, ownership, and predictable ways to ask for help.
 
 ## Org Design and Cross-Functional Work
 
-Data teams can be centralized, embedded, or hybrid, and each model changes how
-team building works. Cohen describes centralized teams where data scientists
-report to data science managers while aligning to business partners. She also
-describes decentralized teams where data scientists report directly into product
-or engineering groups. A hybrid model centralizes data science at a division or
-area level while keeping daily work close to product teams
-[[cite:data-science-team-structure-and-org-design|Data Science Organization Design]].
+Data teams can use centralized, embedded, or hybrid models, with different
+team-building tradeoffs. In centralized teams, data scientists report to data science
+managers while aligning to business partners. In decentralized teams, data
+scientists report directly into product or engineering groups. A hybrid model
+centralizes data science at a division or area level while keeping daily work
+close to product teams
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
 
 When teams embed data scientists, those data scientists gain domain context and
 faster decision paths. They can lose peer learning, mentorship, and career
 clarity if the organization doesn't protect data craft. When leaders centralize
 data science, teams gain knowledge sharing and consistency. They must work harder
 to build product context and avoid looking academic or detached
-[[cite:data-science-team-structure-and-org-design|Data Science Organization Design]].
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
 
-Bauer's matrix-org discussion turns that tradeoff into a manager responsibility.
-A data scientist may report to a data leader while working day to day with a
-product manager, engineering manager, or marketing lead. The data manager then
-protects craft quality, documentation, and peer review. They also protect career
-growth when the dotted-line stakeholder shapes daily priorities
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas|B2B SaaS Data Science Teams]].
+In matrix organizations, a data scientist may report to a data leader. The same
+person may work day to day with a product manager, engineering manager, or
+marketing lead. The data manager then protects craft quality, documentation,
+peer review, and career growth when the dotted-line stakeholder shapes daily
+priorities
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
 
-Cohen also shows why cross-functional planning has to happen at multiple levels.
-Data science leaders need product, engineering, design, and research partners.
-Managers need their counterparts, and individual contributors need regular
-alignment with the people building or using the product. Those teams use shared
-OKRs and planning rhythms to move toward the same goals
-[[cite:data-science-team-structure-and-org-design|Data Science Organization Design]].
+Cross-functional planning has to happen at multiple levels. Data science leaders
+need product, engineering, design, and research partners. Managers need their
+counterparts, and individual contributors need regular alignment with the people
+building or using the product. Teams can use shared OKRs and planning rhythms to
+move toward the same goals
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
 
-[[person:nadianahar=>Nadia Nahar]] adds the software-engineering-for-ML version
-of that operating habit
-[[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]].
 ML teams inherit uncertainty from data quality, model behavior, software
 systems, and business requirements. Alignment can't depend only on handoffs
-between specialists.
+between specialists
+[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
 
 A shared vocabulary and clear documentation give data scientists and software
 engineers a common language. They can use it with product and domain partners to
@@ -203,41 +188,34 @@ and [[communication]].
 
 ## Platform and DataOps Enablement
 
-Data and ML team building eventually becomes platform work. [[person:larsalbertsson|Lars
-Albertsson]] describes the shift
-at Spotify in
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
-The core data team was swamped with internal requests, so it stopped acting only
-as an implementation bottleneck. It built tooling and workflows that let other
-teams deploy and fix their own data pipelines. Early success came from embedding
-with early adopter teams and learning where the platform was missing pieces
-[[cite:dataops-principles-and-scalable-data-platforms|DataOps 101]].
+Data and ML team building eventually becomes platform work. When a core data
+team is swamped with internal requests, it can stop acting only as an
+implementation bottleneck. It can build tooling that lets other teams deploy and
+fix their own data pipelines. Early success can come from embedding with early
+adopter teams and learning where the platform is missing pieces
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 
-Albertsson defines DataOps through enablement and people alignment, with
-workflows and tooling supporting that goal. He also cautions that not every
-organization should push non-technical self-service all the way. Sometimes the
-better team design is to embed analysts and data engineers together. When teams
-mix those competencies, they remove the wall between requesters and platform
-builders
-[[cite:dataops-principles-and-scalable-data-platforms|DataOps 101]].
+DataOps centers enablement and people alignment, with workflows and tooling
+supporting that goal. Not every organization should push non-technical
+self-service all the way. Sometimes the better team design is to embed analysts
+and data engineers together. When teams mix those competencies, they remove the
+wall between requesters and platform builders
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 
-[[person:mehdiouazza=>Mehdi OUAZZA]] gives the scale-up
-version in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 A data platform team may serve dozens of analysts and data scientists whose
 numbers and use cases are growing quickly. The platform team has to stop being a
 dependency. It can do that with onboarding sessions, support channels, and
-documentation. OUAZZA also names Airflow conventions, playbooks, schemas, and
-data contracts
-[[cite:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]].
+documentation. Support may also include Airflow conventions, playbooks, schemas,
+and data contracts
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
-OUAZZA also ties platform team building to seniority. Scale-ups should bring in
+Platform team building also depends on seniority. Scale-ups should bring in
 senior people early for practices that need to survive fast growth. That matters
 even more when the team needs niche technology such as streaming.
 
 As the organization grows, general data engineering work may split into platform
 and warehouse roles. Streaming and services may become separate roles too
-[[cite:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]].
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 Those team splits affect the operating model for [[DataOps]],
 [[self-service-data-platforms=>self-service data platforms]],
 and [[platform adoption]].
@@ -245,76 +223,66 @@ and [[platform adoption]].
 ## MLOps Teams and Production AI
 
 MLOps teams need a different skill mix because they support models after the
-notebook stage. [[person:raphaelhoogvliets|Raphael Hoogvliets]]
-describes an MLOps team as a centralized enabling team in
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-His team supports product teams and embedded ML engineers with infrastructure
-and best practices. It also covers deployment, maintenance, monitoring, and
-reusable tools
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+notebook stage. A centralized MLOps enabling team can support product teams and
+embedded ML engineers with infrastructure and best practices. It can also cover
+deployment, maintenance, monitoring, and reusable tools
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Hoogvliets argues that the team needs more than tool builders. It needs an
-evangelist or executive advocate and a technical translator. It also needs
-experienced technical leadership, MLOps engineers, and ML engineers. Data science
-skill and SRE or DevOps skill matter too. Software engineering and data
-engineering also belong in the mix.
+The team needs more than tool builders. It needs an evangelist or executive
+advocate and a technical translator. It also needs experienced technical
+leadership, MLOps engineers, and ML engineers. Data science skill and SRE or
+DevOps skill matter too. Software engineering and data engineering also belong
+in the mix.
 
 Not everyone needs the same background, but the team needs the full mix
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-[[person:simonstiebellehner=>Simon Stiebellehner]] adds
-the platform trigger in
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Teams shouldn't build a heavy ML platform before there's repeated model work and
 clear business value. When the need exists, useful platform pieces include
 self-service compute, experiment tracking, and a model registry. They also
 include orchestration and batch or online deployment paths. Metadata, lineage,
 and monitoring complete the platform surface
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Hoogvliets and Stiebellehner both treat MLOps team building as adoption work.
-The team should collect pain points, find quick wins, and keep developer
-experience in view. If models are opaque in production, start with monitoring.
-If releases are slow, start with CI/CD. If version control is missing, start
-there
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+MLOps team building is adoption work. The team should collect pain points, find
+quick wins, and keep developer experience in view. If models are opaque in
+production, start with monitoring. If releases are slow, start with CI/CD. If
+version control is missing, start there
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 The team succeeds when product teams can use the platform and trust the path to
 production, not when the platform catalog is long.
 
 ## Adoption, Trust, and Data Culture
 
-Team building is incomplete when other departments don't use the outputs.
-Liang says her team added a business analyst or data researcher because tools and
-dashboards weren't enough. Someone had to communicate what the data team was
-building. They also had to publish short updates, run workshops, and help the
+Team building is incomplete when other departments don't use the outputs. One
+analytics team added a business analyst or data researcher because tools and
+dashboards weren't enough. The same role communicated what the data team was
+building and published short updates. It also ran workshops and helped the
 business side use the work
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 
-Her team changed its workshops after lecture-style demos failed. Instead of only
-showing dashboard features, they used Q&A sessions where people practiced finding
+The team changed its workshops after lecture-style demos failed. Instead of only
+showing dashboard features, it used Q&A sessions where people practiced finding
 answers. That improved attention and helped build data culture
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 This mirrors [[data product management]].
 The output has to fit a decision, a user, and a context of use.
 
-Trust also depends on accuracy and reliability. Liang describes rebuilding trust
-after data errors by adding playbooks and dbt tests. Her team also added regular
-checks
-[[cite:building-and-scaling-data-team|Building and Leading Data Teams]].
+Trust also depends on accuracy and reliability. One team rebuilt trust after data
+errors by adding playbooks, dbt tests, and regular checks
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 
-[[person:16rahuljain=>Rahul Jain]] makes a related point
-from data engineering leadership in
-[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
-He ties management to stakeholder prioritization, quality standards, data
-reconciliation, and access controls. He also ties it to data culture
-[[cite:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership]].
+Data engineering leadership ties management to stakeholder prioritization and
+quality standards. It also includes data reconciliation, access controls, and
+data culture
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
-Tran adds expectation management for AI teams. New data science teams often face
-inflated leadership expectations because "AI" sounds powerful. He recommends
-educating management on what the team can and can't do, so the team isn't set up
-to fail
-[[cite:building-data-team|Building a Data Science Team]].
+AI teams need expectation management. New data science teams often face inflated
+leadership expectations because "AI" sounds powerful. Leaders need to explain
+what the team can and can't do, so the team isn't set up to fail
+[[cite:building-data-team=>Building a Data Science Team]].
 For data and AI leaders, adoption work includes communication and workshops. It
 also includes quality checks, business education, and stakeholder trust.
 

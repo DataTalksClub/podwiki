@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10959
+    "links": 10931
   },
   "nodes": [
     {
@@ -24906,18 +24906,6 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
-      "target": "person:andreycheptsov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure-cost-and-ownership",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "wiki-chip",
       "weight": 1
@@ -36465,18 +36453,6 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-freelancing-strategy",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-freelancing-strategy",
-      "target": "person:dimitrivisnadi",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-freelancing-strategy",
@@ -61692,30 +61668,6 @@
     },
     {
       "source": "wiki:mlops-engineer",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -70512,48 +70464,6 @@
     },
     {
       "source": "wiki:recommendation-systems",
-      "target": "person:abouzarabbaspour",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:danielsvonava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:roksolanadiachuk",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:sadatanwar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "person:stefangudmundsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
       "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
@@ -75129,84 +75039,6 @@
       "target": "wiki:technical-writing",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:16rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:barbarasobkowiak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:dattran",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:katiebauer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:lisacohen",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "person:terezaiofciu",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:team-building",
