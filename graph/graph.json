@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10709
+    "links": 10695
   },
   "nodes": [
     {
@@ -22404,42 +22404,6 @@
     },
     {
       "source": "wiki:agent-engineering",
-      "target": "person:adityagautam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -22500,6 +22464,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:ai-engineering-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -22551,6 +22521,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:agent-engineering",
@@ -50256,30 +50232,6 @@
     },
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
-      "target": "person:elenistamatelou",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:healthcare-ml-validation-and-adoption",
-      "target": "person:mariabruckert",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:healthcare-ml-validation-and-adoption",
-      "target": "person:saraelateif",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:healthcare-ml-validation-and-adoption",
-      "target": "person:stefangudmundsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
@@ -50299,6 +50251,12 @@
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51546,24 +51504,6 @@
     },
     {
       "source": "wiki:interpretability",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:interpretability",
-      "target": "person:polinamosolova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:interpretability",
-      "target": "person:tamaraatanasoska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:interpretability",
       "target": "podcast:building-explainable-and-actionable-ai-ml-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -51696,36 +51636,6 @@
     },
     {
       "source": "wiki:job-descriptions",
-      "target": "person:alicjanotowska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-descriptions",
-      "target": "person:lukewhipps",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-descriptions",
-      "target": "person:nicolasrassam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-descriptions",
-      "target": "person:olegnovikov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-descriptions",
-      "target": "person:terezaiofciu",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-descriptions",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -51805,6 +51715,12 @@
     {
       "source": "wiki:job-descriptions",
       "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-science-careers",
       "kind": "wiki-chip",
       "weight": 1
     },
