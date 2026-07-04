@@ -27,18 +27,18 @@ and notebook-adjacent work.
 
 ## Cursor and Copilot in Daily Coding
 
-In [[podcast:production-ready-ai-engineering=>Production AI Engineering]],
-[[person:bartoszmikulski=>Bartosz Mikulski]] describes Cursor as useful for
+In Production AI Engineering, [[person:bartoszmikulski=>Bartosz Mikulski]]
+describes Cursor as useful for
 professional coding when it's applied to bounded work. It may not generate an
 entire application from one prompt, but it can fill in a function from a
 signature and docstring. It also sped up his Chrome extension work, even when
 the generated code needed correction [[cite:production-ready-ai-engineering@42:05=>Production AI Engineering]].
 
 Cursor fit Bartosz's workflow because it referenced files directly and avoided
-copy-paste. Its composer could edit multiple files and run commands [[cite:production-ready-ai-engineering@45:24=>Production AI Engineering]].
+copy-paste. Its composer could edit multiple files and run commands [[cite:production-ready-ai-engineering@44:38=>Production AI Engineering]].
 
-In [[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]],
-[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] recommends Cursor for non-coders
+In the AI engineer role discussion, [[person:ruslanshchuchkin=>Ruslan Shchuchkin]]
+recommends Cursor for non-coders
 because it's visual [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside AI Engineer Role]].
 He also says specialized coding tools and GitHub Copilot can offer strong value
 for working developers.
@@ -59,8 +59,8 @@ Lovable for the UI. She then used prompts to assemble a project called Vigilance
 AI. That gave her confidence that an idea could become a working artifact [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
 
 This use is mostly prototyping and learning.
-In [[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]],
-[[person:marianosemelman=>Mariano Semelman]] gives the caution.
+In From Notebook to Production, [[person:marianosemelman=>Mariano Semelman]]
+gives the caution.
 
 Agentic coding can turn an idea into working code and help with bugs. But he
 warns that sustainability is questionable when the developer has no

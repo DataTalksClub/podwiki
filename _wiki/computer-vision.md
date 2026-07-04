@@ -195,12 +195,13 @@ the roadmap.
 
 [[person:isabellabicalho=>Isabella Bicalho]] shows an
 open-source route in
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]].
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>From Biology to ML]].
 The route combines Hugging Face computer vision contributions, open-source
 opportunities, and green-space segmentation with Sentinel-2 imagery. It also
 builds portfolio evidence.
 A project can compare CNNs and transformers while still documenting data,
-constraints, and collaboration.
+constraints, and collaboration
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@40:12=>From Biology to ML]].
 
 [[person:pauliusztin=>Paul Iusztin]] broadens the career frame in
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].

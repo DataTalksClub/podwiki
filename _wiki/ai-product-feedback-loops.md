@@ -99,10 +99,13 @@ That puts AI feedback loops close to [[Event Tracking]],
 [[Recommendation Systems]], and [[Machine Learning Personalization]]. The
 interface has to collect product signals the model can learn from.
 
-Agent feedback includes repeated or reframed queries, weak responses,
-missing-data gaps, and human labeling for new evaluation sets. That puts agent
-iteration near [[agent-engineering=>AI Agents]], [[LLM Evaluation Workflows]],
-and product analytics.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+Agent feedback includes repeated or reframed queries and weak responses. It also
+includes missing-data gaps and human labeling for new evaluation sets. That puts
+agent iteration near [[agent-engineering=>AI Agents]],
+[[LLM Evaluation Workflows]], and product analytics. Aditya Gautam describes
+this as a feedback-driven agent iteration loop. Production questions and user
+frustration become new cases for evaluation, synthetic data, or
+labeling.[[cite:s23e03-future-of-ai-agents@36:55=>The Future of AI Agents]]
 
 Implicit signals are necessary when users don't give ratings or ratings are
 too sparse. Behavior can reveal whether the AI output helped even when the user

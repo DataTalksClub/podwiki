@@ -163,10 +163,14 @@ who can respond when data breaks.
 
 ## Adoption Boundary
 
-Don't start the comparison with a reorganization. A Data Mesh rollout should
-begin with assessment, pilot domains, and executive buy-in. One domain-owned
-data product can test contracts, quality expectations, and missing shared
-platform capabilities before the model expands.[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
+Don't start the comparison with a reorganization. Start a Data Mesh rollout with
+assessment, pilot domains, and executive buy-in before broad expansion.
+
+A pilot data product tests contracts and quality. It exposes missing shared
+platform capabilities before the model expands.
+[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
+That makes adoption a [[Platform Adoption]] and [[Data Governance]] question as
+much as a [[Data Products]] question.
 
 When domains aren't ready to own product commitments, build the shared path
 first. Reproducible workflows, onboarding, and conventions give teams a stable

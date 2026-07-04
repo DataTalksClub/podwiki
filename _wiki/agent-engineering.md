@@ -54,7 +54,9 @@ different first constraint.
 
 Operational agents start from integrations. On-call and SRE examples need logs,
 metrics, remediation options, and permissioned tools before an LLM can help
-with real incidents.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+with real incidents. Ranjitha Kulkarni grounds this in Noird.ai's on-call
+automation work. In those workflows, agents reason over logs and metrics before
+suggesting or taking remediation steps.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@07:44=>Building Agentic AI Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@22:50=>SRE agent workflows]]
 
 Teams adopting agents start from a narrow problem. The first version stays
 small, with usable data and evaluation. The email assistant example starts with
@@ -80,7 +82,13 @@ evaluation, human-label alignment, and deployment risk matter too.[[cite:s23e03-
 Agent design begins with the task boundary. A useful agent needs a concrete job,
 not a vague instruction to "be helpful." Planning can be single-step,
 multi-pass, or self-reflective. The system still needs limits on which tools it
-can call and when it should stop.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+can call and when it should stop.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Building Agentic AI Systems]]
+
+The implementation choice also changes the failure mode. Code agents can expose
+tool use and state through executable programs, while natural-language agents
+can be easier to prompt but harder to constrain and debug. That tradeoff links
+agent design to [[Software Engineering]] and [[Testing]] as much as to prompt
+writing.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@19:58=>Code and language agents]]
 
 Start with the smallest workflow that solves the task. Use task decomposition so
 the agent doesn't become one broad prompt that owns every decision.

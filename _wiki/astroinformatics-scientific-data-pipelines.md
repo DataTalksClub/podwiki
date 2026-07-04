@@ -133,17 +133,26 @@ and production-style project habits.
 [[person:daynancrull=>Daynan]] extends astroinformatics into asteroid
 characterization and resource detection. Hyperspectral spectroscopy and
 infrared signatures can help identify water on near-Earth asteroids
-[[cite:machine-learning-for-asteroid-mining-and-water-detection=>Machine Learning for Asteroid Mining and Water Detection]].
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@14:24=>Machine Learning for Asteroid Mining and Water Detection]].
 
 The team combines photometry, light curves, and polarimetry as features. A
-Bayesian framework fuses independent models for albedo, orbital elements, and
-spectral classification into an evolving posterior over asteroid properties.
-Ground truth is scarce:
-returned samples and meteorite analogs are the main validation anchors, which
-makes this a small-data science problem despite large imagery volumes. Open
-datasets from the Minor Planet Center, JPL Horizons, and NEOWISE feed orbit
-linking and synthetic-tracking pipelines
-[[cite:machine-learning-for-asteroid-mining-and-water-detection=>Machine Learning for Asteroid Mining and Water Detection]].
+Bayesian framework fuses independent models for albedo and orbital elements. It
+also uses spectral classification to maintain an evolving posterior over
+asteroid properties.
+Spectral classification is the ML boundary for water identification.
+Gravitational-wave detection shows the broader scientific requirement: separate
+real signal from noise and instrument glitches before turning detections into
+claims
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]]
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@7:20=>Asteroid Mining]].
+
+Ground truth is scarce because returned samples and meteorite analogs are the
+main validation anchors. That constraint makes this a small-data science problem
+despite large imagery volumes. The source datasets come from the Minor Planet
+Center, JPL Horizons, and NEOWISE. They feed orbit linking and
+synthetic-tracking pipelines
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Machine Learning for Asteroid Mining and Water Detection]]
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@45:26=>Machine Learning for Asteroid Mining and Water Detection]].
 
 ## Related Pages
 

@@ -107,7 +107,7 @@ and
 [[AI-Powered Business Intelligence]]
 for analysts. Assistants can reduce time spent on complex SQL and debugging,
 but metric definition still depends on stakeholder conversations and domain
-judgment.[[cite:datatalksclub-scaling-and-free-courses=>Scaling DataTalks.Club]]
+judgment.[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
 
 Visualization and dashboarding matter because analysts communicate evidence, and
 dashboards connect to KPIs and product decisions.[[cite:data-team-roles=>Data Team Roles Explained]]

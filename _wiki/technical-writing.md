@@ -75,7 +75,7 @@ decision.[[cite:data-journalism-python-visualization-storytelling=>Practical Dat
 Public drafts and self-publishing can create early reader feedback, while
 traditional publishing adds editorial support and accountability. The right path
 depends on whether the writer already has readers, income, and a draft that can
-become a product.[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
+become a product.[[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]]
 [[cite:solopreneur-developer-and-data-professional=>Solopreneur Guide]]
 
 ## Audience, Outline, and Cadence
@@ -163,6 +163,8 @@ Self-publishing shifts deadlines, distribution, and audience trust from the
 publisher to the author. The full-time path is strongest when it grows out of
 prior writing and book income. It also depends on an existing reader base.
 Revenue can arrive months later, so a sudden job quit is risky
+[[cite:interpretable-machine-learning@3:45=>Interpretable Machine Learning]]
+[[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@50:00=>Interpretable Machine Learning]].
 
 Feedback loops scale better when they stay reader-centered and phased. Open

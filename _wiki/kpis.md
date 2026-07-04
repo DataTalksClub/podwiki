@@ -140,12 +140,13 @@ stopping at model performance
 
 Impact measurement also needs a stakeholder loop. A data science manager can
 pair client feedback and project-manager perspective with dashboarded KPIs. That
-tests whether the model is improving the business process it was built for.
+tests whether the model is improving the business process it was built for
+[[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Data Science Manager vs Expert]].
 
 For forecasting work, that links [[product analytics]] with [[model monitoring]].
 Teams watch the forecast and the business process together. Higher sales may
 come from seasonality, sales execution, or other operational changes rather than
-the model [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
+the model [[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Data Science Manager vs Expert]].
 
 [[person:linaweichbrodt=>Lina Weichbrodt]] makes the
 same point during project intake in [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].

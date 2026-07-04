@@ -103,7 +103,7 @@ the problem. A designer, product manager, or trained data scientist can
 facilitate the divergent and convergent parts of the sprint. That connects
 [[data product management]], [[experimentation]], and [[communication]] before a
 [[machine-learning]] solution is chosen.
-[[cite:ai-ml-product-design-and-experimentation=>AI/ML Product Design]]
+[[cite:ai-ml-product-design-and-experimentation@25:00=>AI/ML Product Design]]
 
 Data engineers make usable data available, while ML engineers bring models into
 software systems.

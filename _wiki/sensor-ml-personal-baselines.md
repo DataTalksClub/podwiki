@@ -72,13 +72,13 @@ Healthcare sensor work adds a model-choice boundary for physiological signals.
 A bed-mat ballistography system can capture movement caused by respiration and
 heart activity without attaching electrodes. ECG can serve as a reference while
 the system denoises the mat signal and extracts vitals.
-[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
 
 The modeling decision depends on signal strength. Respiration can be estimated
 with classical signal processing when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
 signal is weaker, noisier, or overlaps with other motion.
-[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@21:49=>Healthcare ML Systems]]
 
 Filters and Fourier methods aren't only baselines. For simpler physiological
 signals, they can be the preferred production answer. That matters in
@@ -86,7 +86,8 @@ signals, they can be the preferred production answer. That matters in
 interpretability, robustness, and deployment constraints matter. U-Net becomes
 useful when the task shifts from isolating a frequency band to finding
 heart-rate waveforms in noisy ballistography.
-[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@21:49=>Healthcare ML Systems]]
 
 ## Sleep and IMU Signals
 

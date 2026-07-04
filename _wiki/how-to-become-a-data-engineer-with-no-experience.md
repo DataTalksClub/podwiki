@@ -248,9 +248,13 @@ Hiring discussions for career switchers connect internships, projects, and role
 focus. Resumes need to show SQL, Python, problems, and outcomes
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
 
-Researching the company, explaining projects clearly, and using shareable
-portfolio work belong in the same interview preparation
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+Interview preparation should include company research, clear project
+explanations, and shareable portfolio work
+[[cite:hiring-for-data-engineering-jobs-in-europe@44:35=>Hiring Data Engineers in Europe]].
+Formal degree requirements aren't the only path into the role. Nicolas Rassam
+emphasizes skills, projects, and continuous learning when evaluating candidates
+without a conventional degree
+[[cite:hiring-for-data-engineering-jobs-in-europe@50:45=>Hiring Data Engineers in Europe]].
 
 Prepare three stories:
 

@@ -35,6 +35,12 @@ Framework depth matters more than tool sampling at the learning stage. One
 discussion recommends starting with one known orchestration tool, developing
 depth, and only then comparing alternatives for a specific use case. [[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
 
+Ranjitha Kulkarni gives the production version of that tradeoff. Teams can build
+agent orchestration directly, or they can use libraries and SDKs. The choice
+should follow the workflow's integration and testing needs. LangChain, OpenAI
+Agents SDK, smolagents, and MCP-style tool protocols sit in that operating
+decision. They aren't a separate tooling debate. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@44:08=>Building Agentic AI Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@48:00=>Agent tool protocols]]
+
 Infrastructure can look familiar because an agent may be a service that talks
 to an LLM inference service. CPU and GPU workloads may run as separate services,
 and customer replicas can be configured independently. Kubernetes is discussed
@@ -47,7 +53,7 @@ Agent Ops adds governance because an agent can move data or call sensitive
 tools. Guardrails, auditability, retention, and data lineage become operating
 requirements when an agent processes user data. They also matter when an agent
 sends data to another agent, writes it to a database, or sends it to an offline
-workflow. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+workflow. [[cite:s23e03-future-of-ai-agents@30:26=>The Future of AI Agents]]
 
 Action guardrails set boundaries around tool calls. An airline support agent
 might handle routine booking questions but route high-value refunds to a human

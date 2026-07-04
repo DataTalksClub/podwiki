@@ -109,7 +109,7 @@ Open-source contributions let a recruiter or hiring team look at a candidate's
 body of work before an interview. They also show public pull-request and issue
 interactions, making OSS experience a useful checklist signal rather than a hard
 requirement
-[[cite:open-source-turned-into-career-and-startup-creation=>OSS hiring signal]].
+[[cite:open-source-turned-into-career-and-startup-creation@44:38=>OSS hiring signal]].
 
 A [[developer relations]]
 and [[developer experience]]

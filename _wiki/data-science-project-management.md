@@ -149,7 +149,7 @@ will change, what cost matters, and what answer would be good enough.
 An online classified-site example moves from a request to measurable problem
 size and success criteria. Project planning starts there, before anyone chooses a
 model
-([[cite:crisp-dm=>CRISP-DM]]).
+([[cite:crisp-dm@10:58=>CRISP-DM]], [[cite:crisp-dm@13:25=>CRISP-DM]]).
 
 The Double Diamond gives the same ordering. Teams start with a rough product
 area and research what users experience. They narrow attention to the most
@@ -265,6 +265,14 @@ plans are still being shaped. Their role starts before a ticket reaches modeling
 A Kanban board organizes delivery stories. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
 ([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+
+Barbara Sobkowiak adds the resourcing side of the same problem. Estimation
+should include resource allocation and buffers. Data science tasks can expand
+when discovery exposes missing data, unclear ownership, or a modeling gap larger
+than the original request implied
+([[cite:data-science-manager-vs-expert-hiring-guide@40:47=>Manager vs Expert]]).
+That keeps [[Data Science for Managers]] and [[Leadership]] tied to project
+planning rather than only people management.
 
 That matches the [[Machine Learning System Design]]
 habit of writing goals, non-goals, assumptions, and data paths before the work

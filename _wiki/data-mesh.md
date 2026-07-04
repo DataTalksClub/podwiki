@@ -15,7 +15,7 @@ through one central data team, a mesh asks domains to publish trustworthy
 [[data products]]. Those products
 need owners, metadata, quality expectations, and consumer-facing contracts.
 The core DataTalks.Club episode is
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 
 A shared [[data-engineering-platforms=>data engineering platform]]
 keeps that decentralization usable through self-service infrastructure and
@@ -40,6 +40,12 @@ The Data Mesh operating model has four parts:
   storage, orchestration, access, and deployment machinery.
 - Governance teams define shared policies and automate enforcement where
   possible.
+
+Dehghani grounds that operating model in four principles
+([[cite:data-mesh-architecture-decentralized-data-products@16:34=>Data Mesh Implementation]]
+[[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh Implementation]]
+[[cite:data-mesh-architecture-decentralized-data-products@41:58=>Data Mesh Implementation]]
+[[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]).
 
 The same episode ties those pieces together through metadata. It also covers
 self-service platform abstractions and federated governance.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
@@ -156,7 +162,7 @@ metadata and enforce policies without manual coordination for every consumer.
 Data Mesh is an operating-model change, not a product to install. Adoption
 starts with readiness assessment, pilots, and executive buy-in. That sequence
 matters because the model changes who owns data, how consumers request changes,
-and how platform and governance teams support domains.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+and how platform and governance teams support domains.[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
 
 The [[DataOps]] reliability criteria still apply. Responsibilities shouldn't
 spread across domains until teams have reproducible pipelines. They also need
@@ -187,7 +193,7 @@ data product ownership, platform enablement, governance, and operations.
 - [[Platform Engineering]]
 
 For related episode navigation, use
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 and
-[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]].
+[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]].

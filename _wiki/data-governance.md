@@ -69,7 +69,7 @@ purpose-based requests, approvers, time-bound access, and revocation.[[cite:data
 Zhamak Dehghani puts governance at the domain-ownership boundary. In [[Data Mesh]],
 domains own data products, but federated governance still supplies shared policies and
 automated enforcement. The shared primitives cover identity and authorization. They
-also cover metadata, retention, and validation.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+also cover metadata, retention, and validation.[[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]]
 [[Data Mesh vs Centralized Data Platform]] covers the ownership boundary behind
 that governance choice.
 

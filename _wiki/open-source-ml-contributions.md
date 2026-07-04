@@ -154,7 +154,7 @@ coding skills connected to free courses
 The Hugging Face [[computer vision]] community course shows the review version.
 Contributors start in Discord and a contributor spreadsheet, then write course
 material in the evenings and review pull requests with others
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Biology to Machine Learning]].
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>Biology to Machine Learning]].
 That makes course contribution part of [[Documentation]],
 [[Developer Relations]], and reviewable collaboration, not only standalone model
 code.

@@ -19,6 +19,11 @@ covers product and operational questions. That evidence may be a SQL analysis or
 a forecast. It may also be a ranking model, an A/B test, a recommender system,
 or a model-backed service.
 
+CRISP-DM links data science to older data-mining practice. It treats the work as
+business understanding and data preparation before modeling, evaluation, and
+deployment rather than model training alone
+([[cite:crisp-dm@5:34=>CRISP-DM Methodology]]).
+
 Analysts explain what happened, while data scientists predict what will happen
 and help put those predictions into products
 ([[cite:data-team-roles=>Data Team Roles Explained]]).

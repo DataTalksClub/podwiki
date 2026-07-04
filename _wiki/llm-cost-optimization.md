@@ -18,7 +18,7 @@ becomes a competitive differentiator rather than just a budget concern.
 
 Prompt evaluation, cost tradeoffs, prompt compression, and prompt caching are
 standard parts of production AI engineering. They sit alongside prompt testing as
-model-efficiency tools[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+model-efficiency tools[[cite:production-ready-ai-engineering@30:00=>Production AI Engineering]][[cite:production-ready-ai-engineering@31:45=>Prompt caching]].
 
 This topic connects to
 [AI Infrastructure Cost and
@@ -77,6 +77,8 @@ Small or generic workloads can stay on standard APIs. The switch has to justify
 ML engineers, infrastructure, and evaluation work.
 That threshold links LLM cost optimization to [[Model Optimization]] and
 [[LLM Production Patterns]] rather than only prompt-level token reduction.
+Aditya Gautam's fine-tuning-versus-API discussion makes the same threshold an
+ROI gate, not a preference for one technique.[[cite:s23e03-future-of-ai-agents@24:58=>The Future of AI Agents]]
 
 Groq as a low-latency provider offers 1-2 second response times compared to 4-5
 seconds for GPT-4[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].

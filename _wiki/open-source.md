@@ -76,11 +76,12 @@ open source is about
 [[Open Source Contributor Roadmap]]
 more than repository publishing alone.
 
-A similar builder-centered definition comes from PyFilesystem, Rich, and Textual,
-which grew out of their author's own needs and experiments. New authors should
-solve their own problem first, which keeps open source attached to useful
-software rather than GitHub visibility
-[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+PyFilesystem, Rich, and Textual offer a similar builder-centered definition:
+their author built them from his own needs and experiments. New authors should
+solve their own problem first. When authors start there, open source stays
+attached to useful software rather than GitHub visibility
+[[cite:open-source-turned-into-career-and-startup-creation@11:29=>From Developer to Startup Founder]]
+[[cite:open-source-turned-into-career-and-startup-creation@57:20=>From Developer to Startup Founder]].
 
 For data and ML tools, usefulness also depends on ecosystem fit. Not every useful
 idea should enter core scikit-learn. Plugins such as UMAP and scikit-lego are a
@@ -385,13 +386,14 @@ source builds trust and sends a signal to investors, but it isn't the whole
 business model
 [[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
 
-Will's Textualize path adds the solo-maintainer-to-company version. Fundraising
-and building in public followed attention around Rich and Textual, but that
-attention wasn't a scripted fundraising funnel. The planned model is web hosting
-and add-on features for terminal apps with a generous free tier. GitHub
-Discussions, Discord, and contribution channels become part of the product's
-community surface
-[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+Will's Textualize work drew attention around Rich and Textual before fundraising
+and building in public. That attention wasn't a scripted fundraising
+funnel. The planned model is web hosting and add-on features for terminal apps
+with a generous free tier. Discussions and Discord join contribution channels as
+the community surface
+[[cite:open-source-turned-into-career-and-startup-creation@28:08=>From Developer to Startup Founder]]
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>From Developer to Startup Founder]]
+[[cite:open-source-turned-into-career-and-startup-creation@38:32=>From Developer to Startup Founder]].
 
 ## Developer Relations and Feedback Loops
 
@@ -431,7 +433,7 @@ still needs a commercialization model
 Open-source work can give a recruiter a body of work, but good developers can
 exist without public contributions. Treat open source as reviewable evidence,
 not as the only evidence
-[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+[[cite:open-source-turned-into-career-and-startup-creation@44:38=>From Developer to Startup Founder]].
 
 ## Related Pages
 

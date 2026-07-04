@@ -59,7 +59,7 @@ An agent engineering approach, represented by
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]], is more cautious about treating
 RAG as solved. Latency and cost still matter. Noisy context and
 garbage-in-garbage-out problems still matter too. Retrieval can become one tool
-inside a larger agentic system.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+inside a larger agentic system.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Building Agentic AI Systems]]
 
 Long-context research adds another boundary because large context windows can
 still degrade on specialized documents. Chunking, retrieval, and summarization
@@ -138,7 +138,9 @@ optimization decisions.[[cite:deploying-llms-in-production-fine-tuning-retrieval
 Long context and agents don't remove retrieval's production constraints. They
 still leave latency, cost, source-quality, and context-noise problems to solve.
 Agentic systems add tool integration and evaluation work on top of
-retrieval.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+retrieval. Use the agentic path when retrieval alone can't complete the task.
+In those cases, the system must choose tools, act on changing state, or
+coordinate multiple sources.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
 
 ## Related Pages
 

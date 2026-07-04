@@ -87,7 +87,9 @@ writeup should show the learning path as well as the final score.
 Competitions can also keep experienced practitioners close to messy data. A
 river-flow forecasting challenge gave a hands-on modeling problem after a long
 stretch of writing about machine learning. The useful practice came from
-experiment logs, data handling, and modeling choices.[[cite:interpretable-machine-learning@11:59=>Interpretable Machine Learning]]
+experiment logs, data handling, and modeling choices. That makes competition
+work a way to keep [[interpretability]] and [[reproducibility]] habits alive, not
+only a leaderboard habit.[[cite:interpretable-machine-learning@11:59=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@33:07=>Interpretable Machine Learning]]
 
 Competition work can support [[Applied Research]] when it produces a report,

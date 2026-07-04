@@ -188,7 +188,8 @@ part of the transition rather than a postscript after a model is served.
 Math anxiety distracts engineers, but math still matters because problem-first
 learning and code-level formula translation both help. Engineers still need
 enough math to understand the model choices their project
-requires [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+requires [[cite:from-software-engineer-to-machine-learning@8:12=>From Software Engineer to Machine Learning]]
+[[cite:from-software-engineer-to-machine-learning@56:37=>From Software Engineer to Machine Learning]].
 This keeps the transition grounded in useful modeling judgment rather than
 tool-only copying.
 
@@ -196,10 +197,15 @@ tool-only copying.
 
 Start with one end-to-end project. It should apply real knowledge, produce a
 shareable result, and teach tools when the project demands
-them [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+them [[cite:from-software-engineer-to-machine-learning@22:18=>From Software Engineer to Machine Learning]].
 For a software engineer, a useful first project can be small, but it should
 still show data loading and a label definition. It should also include a
 baseline, model comparison, evaluation notes, and an inference path.
+
+Santiago recommends that teams analyze the problem before writing code. They
+should also deliver useful value without waiting for perfect theoretical mastery
+[[cite:from-software-engineer-to-machine-learning@26:39=>From Software Engineer to Machine Learning]]
+[[cite:from-software-engineer-to-machine-learning@29:05=>From Software Engineer to Machine Learning]].
 
 Make the project prove the missing ML skill, not just the existing software
 skill.

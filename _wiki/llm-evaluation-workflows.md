@@ -80,8 +80,13 @@ LLM-as-judge calls for cases where deterministic checks are too brittle
 In enterprise agent settings, teams make LLM judges more explicit. They use
 golden datasets and pass thresholds. They also train judges against human labels
 and include red teaming and guardrails in the same workflow
-([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]). Judges can be
+([[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]). Judges can be
 biased, so teams must validate the judge instead of treating it as an oracle.
+
+Multi-tenant products add another evaluation boundary because each customer can
+have different data, policies, and pass thresholds. That pushes LLM evaluation
+toward tenant-specific golden sets and [[agent-ops=>Agent Ops]] traces rather
+than one global benchmark.[[cite:s23e03-future-of-ai-agents@43:30=>The Future of AI Agents]]
 
 ## Human Review and Failure Analysis
 
@@ -110,7 +115,7 @@ check forbidden strings, SQL syntax, tool parameters, and regular expressions.
 Other checks need semantic judgment, so the LLM-judge version raises a second
 eval problem. Teams must compare automated judgments against human labels and
 watch for judge bias
-([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
+([[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]).
 
 ## RAG Evaluation
 
@@ -150,7 +155,12 @@ Agent testing is close to ordinary
 names and parameters, and keep integration tests for the real systems. A
 calendar-agent example shows why outcome assertions matter more than exact trace
 matching. Several valid action paths can create the same correct invite
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Building Agentic AI Systems]]).
+
+That's why goal-based agent evals should assert the product outcome, not the
+exact reasoning path. Regression tests can preserve known successful outcomes
+while allowing the agent to choose a different valid sequence of tool calls
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Building Agentic AI Systems]]).
 
 ## Production Feedback and Traces
 

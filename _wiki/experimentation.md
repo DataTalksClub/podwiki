@@ -51,7 +51,7 @@ traffic.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Pro
 In product discovery, parallel experiments and proofs of concept remove weak
 solution paths before an AI roadmap becomes expensive. Double Diamond problem
 framing keeps experiments connected to the problem, not only to the proposed
-model or feature.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+model or feature.[[cite:ai-ml-product-design-and-experimentation@16:02=>AI Product Design]]
 
 ## Questions Experiments Answer
 
@@ -70,7 +70,11 @@ segments changed and why.[[cite:production-ml-mlops-and-data-team-building=>From
 AI product discovery starts before the team commits to a solution. Scoping
 documents and repeated "why" questions challenge the proposed solution, while
 experimentation culture connects discovery work to measurable
-prioritization.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+prioritization.[[cite:ai-ml-product-design-and-experimentation@54:11=>AI Product Design]]
+
+The same measurement habit turns qualitative product discovery into a decision
+system. If a team can't define the signal it will learn from, the roadmap bet
+isn't ready.[[cite:ai-ml-product-design-and-experimentation@56:36=>AI Product Design]]
 
 [[Causal inference]] starts from evidence quality, and A/B tests are one route to
 unconfounded evidence. Teams also need partial identification, sensitivity
@@ -99,7 +103,7 @@ For AI products, design can happen before a live test exists. Liesbeth's
 design sprint discussion uses a one-week prototype to test whether a solution
 direction is worth more investment. She also argues for involving data
 scientists in problem definition so the team avoids building the wrong ML
-solution.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+solution.[[cite:ai-ml-product-design-and-experimentation@23:16=>AI Product Design]]
 
 ## Decision Metrics
 

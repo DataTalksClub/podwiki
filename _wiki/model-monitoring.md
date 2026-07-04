@@ -103,8 +103,12 @@ settings. Disease prevalence, available measurements, collection practices, and
 infrastructure can differ. European data can still inform reasoning, but it
 shouldn't automatically justify an algorithm for a low-resource setting
 [[cite:building-healthcare-machine-learning-systems@35:45=>Healthcare ML Systems]].
+
 That makes population coverage a [[Machine Learning System Design]] constraint
 as well as a [[data-quality-and-observability=>data observability]] signal.
+For [[healthcare-ml-validation-and-adoption=>healthcare ML validation]], the
+monitoring plan needs population slices and clinical-site context rather than a
+single aggregate drift alert.
 
 Silent data incidents and model drift can share the same root cause. Freshness,
 volume, and distribution help track data reliability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]

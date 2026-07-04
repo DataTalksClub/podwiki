@@ -57,10 +57,12 @@ then moves into ML engineering and healthcare prediction.
 
 The boundary differs by project. Some bioinformatics work is closer to
 scientific computing and [[data pipelines]]. Some is closer to ML portfolio
-work. Some becomes [[healthcare ml validation and adoption]] when the target is
-a clinical outcome. One example predicts lung-cancer patient response to
-immunotherapy from a blood draw.
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+work. Some becomes
+[[healthcare-ml-validation-and-adoption=>healthcare ML validation and adoption]]
+when the target is a clinical outcome. One example predicts lung-cancer patient
+response to immunotherapy from a blood draw, which puts biomarker modeling
+beside clinical validation rather than generic tabular prediction.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@11:14=>From Biology to ML]]
 
 ## Wet Lab and Dry Lab Boundaries
 

@@ -252,6 +252,11 @@ surface area." Visible work, connections, and repeated attempts make
 opportunities less dependent on one application or one credential
 ([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@15:26=>Inside the AI Engineer Role]]).
 
+Noah Gift gives the independence version of the same logic. Deep skill,
+visibility, and network relationships all matter. Together they create a market
+signal before someone exits into solopreneurship
+([[cite:solopreneur-developer-and-data-professional@55:06=>Solopreneur Developer and Data Professional]]).
+
 ## Adjacent Career Topics
 
 Career growth usually follows a

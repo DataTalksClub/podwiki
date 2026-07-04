@@ -103,11 +103,11 @@ client acquisition harder ([[person:orellgarten=>Orell Garten]]).
 A third path is direct CV visibility. After leaving a PhD track, Isabella
 Bicalho weighed job search and freelancing. She made her CV discoverable in
 multiple places. She optimized LinkedIn. A first freelance call converted within
-a week [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Bio to ML]].
+a week [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@22:22=>Bio to ML]].
 
 For [[CV Screening]] and [[Job Search]], the profile made existing proof
 reachable. The call worked because prior AI-for-good geospatial work and
-open-source ML projects gave her relevant experience to reference [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Bio to ML]].
+open-source ML projects gave her relevant experience to reference [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>Bio to ML]].
 For [[Machine Learning Portfolio Projects]] and
 [[Open Source Portfolio Evidence]], use visibility plus evidence. Put the CV and
 profile where clients search. Make public work strong enough that a networking

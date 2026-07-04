@@ -89,7 +89,7 @@ treats data collection as part of data understanding rather than as its own
 named step. Pipeline design then has to ask whether important data is missing.
 If it's missing, the team may need new collection work. It may also need
 infrastructure, labeling, or [[Data Quality and Observability]] before
-modeling [[cite:crisp-dm=>CRISP-DM Methodology]].
+modeling [[cite:crisp-dm@19:25=>CRISP-DM Methodology]].
 
 The same episode also shows why teams can't treat ingestion as an afterthought:
 raw storage needs guardrails. Warehouses and lakes have different strengths,
@@ -267,9 +267,10 @@ He names Cloud Optimized GeoTIFFs, or COGs, from Earth observation. He also
 names STAC-style asset catalogs as a better storage and query approach. The
 data stays close to cloud compute. Analysts query only the relevant tiles, so
 the pipeline avoids downloading or cutting whole files before analysis
-[[cite:machine-learning-for-asteroid-mining-and-water-detection=>Asteroid Mining and Water Detection]].
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@42:23=>Asteroid Mining and Water Detection]].
 That convention links pipeline design to [[Data Engineering Platforms]],
-storage layout, and analyst-facing query access.
+storage layout, analyst-facing query access, and
+[[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]].
 
 [[person:pauliusztin=>Paul Iusztin]] and
 [[person:marianosemelman=>Mariano Semelman]] extend the platform

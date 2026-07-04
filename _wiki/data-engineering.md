@@ -159,7 +159,7 @@ is a data engineering trend likely to converge further with AI agents, while
 metadata and quality stay central [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 Production AI depends on preprocessing and testing, and AI systems also need
-retrieval corpora and governance [[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+retrieval corpora and governance [[cite:production-ready-ai-engineering@18:38=>Production-Ready AI Engineering]].
 The data engineering part of AI reliability is often upstream from the
 model. A late table, schema change, weak lineage, or missing retrieval context
 can look like a model problem from the outside.

@@ -188,7 +188,7 @@ for stakeholders. Conformal prediction adds calibrated uncertainty and
 prediction sets. The same discussion uses SHAP details and terminology
 boundaries to separate local explanations, uncertainty, and broader
 explainable-AI claims
-[[cite:interpretable-machine-learning=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
+[[cite:interpretable-machine-learning@26:17=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
 
 Different audiences need different evidence. An engineer may need feature
 effects to debug leakage, while a product owner may need a launch decision. A
@@ -234,7 +234,7 @@ Agents widen the control surface further, with legal and healthcare reliability
 as high-stakes examples. Agent MLOps brings in specialized models and agent
 governance, and it also includes guardrails, data lineage, and compliance.
 Multi-tenant evaluation and LLM-judge alignment are repeatable testing concerns
-[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]], [[person:adityagautam=>Aditya Gautam]].
+[[cite:s23e03-future-of-ai-agents@13:13=>The Future of AI Agents]][[cite:s23e03-future-of-ai-agents@19:16=>Agent governance]][[cite:s23e03-future-of-ai-agents@30:26=>Agent MLOps]], [[person:adityagautam=>Aditya Gautam]].
 Use [[Agent Engineering]] for the engineering details behind those controls.
 
 ## Oversight After Launch

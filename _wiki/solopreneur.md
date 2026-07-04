@@ -24,7 +24,7 @@ definition of solopreneurship as staying small on purpose. He contrasts that
 choice with venture-backed growth. His "three of everything" rule spreads risk
 across consulting clients, software projects, and revenue streams. One bad
 client or one failed product doesn't own the whole business
-([[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]).
+([[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]]).
 
 For a practical data and AI career path, use
 [[Solopreneur Data Scientist]].
@@ -42,7 +42,7 @@ Courses, books, and teaching can scale in ways custom client work can't.
 Software and videos can do the same. Noah describes an income mix of courses,
 university teaching, and select consulting. He also uses scale, ethics, and
 asynchronous work as criteria for choosing solo work
-([[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]).
+([[cite:solopreneur-developer-and-data-professional@25:05=>Becoming a Solopreneur in Data]]).
 
 [[person:dimitrivisnadi=>Dimitri Visnadi]] gives the freelance version
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
@@ -167,7 +167,8 @@ Noah and Dimitri are conservative about solo risk. Noah recommends building the
 side-gig tunnel while still employed, then adds lower expenses, savings, and
 financial readiness before leaving a full-time job. He warns against funding
 the transition with credit-card risk and no runway
-([[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]).
+([[cite:solopreneur-developer-and-data-professional@46:27=>Becoming a Solopreneur in Data]]
+[[cite:solopreneur-developer-and-data-professional@53:49=>Becoming a Solopreneur in Data]]).
 
 Dimitri makes a similar planning point
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].

@@ -83,11 +83,12 @@ evolutionary algorithm. Many useful designs are simple handoff flows. [[cite:fro
 
 Modern agents orchestrate LLM calls, tools, knowledge stores, and memory. A
 multi-agent system inherits that machinery and adds a coordination layer between
-roles. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+roles. Planning may be single-step, multi-pass, or self-reflective before a
+team splits the work into several roles. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Building Agentic AI Systems]]
 
 Tool boundaries matter when several agents can act. In SRE, an agentic system
 may use observability data and source code. It may also use Kubernetes and
-remediation options. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+remediation options. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@22:50=>Building Agentic AI Systems]]
 
 Teams can abstract over observability and deployment tools, but each source
 still has quirks. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]

@@ -358,12 +358,12 @@ serve the same purpose.
 Independent work doesn't always mean short projects or constant client churn. A
 first paid engagement can become a long-running anchor client. Smaller projects
 can still preserve the legal and practical independence of freelancing.
-[[cite:open-source-turned-into-career-and-startup-creation=>Open source founder path]]
+[[cite:open-source-turned-into-career-and-startup-creation@15:07=>Open source founder path]]
 
 In that setup, [[Open Source]] can also act as a separate creative outlet.
 Client work may be shaped by business requirements and existing systems. Side
 projects give the freelancer room to choose architecture and direction.
-[[cite:open-source-turned-into-career-and-startup-creation=>Open source as creative outlet]]
+[[cite:open-source-turned-into-career-and-startup-creation@17:48=>Open source as creative outlet]]
 
 That connects freelance independence with
 [[Open Source Portfolio Evidence]] and the later

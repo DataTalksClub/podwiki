@@ -36,7 +36,7 @@ signal or business outcome.
 In the data mesh definition, domain teams publish data products with enough
 metadata and quality guarantees for other teams to discover and consume them
 safely. Latency expectations, ownership, and known limits belong in that
-interface too [[cite:data-mesh-architecture-decentralized-data-products=>Data
+interface too [[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data
 Mesh Implementation]]. That turns [[data-mesh=>domain ownership]] into a
 product interface, not only a team chart.
 
@@ -101,13 +101,13 @@ Data Products at Scale]].
 In [[Data Mesh]], the data product is the unit of ownership. Producers publish
 data with explicit schemas and guarantees. Consumers build on those interfaces
 instead of reverse-engineering raw operational systems
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh
+[[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh
 Implementation]].
 
 The interface includes more than schema. Metadata, discoverability, identity,
 and authentication belong in the shared platform layer. Retention, validation,
 quality signals, and automated governance belong there too
-[[cite:data-mesh-architecture-decentralized-data-products=>Data
+[[cite:data-mesh-architecture-decentralized-data-products@39:36=>Data
 Mesh Implementation]]. Those requirements tie data products to [[Data
 Governance]], [[Data Quality and Observability]], and [[Data Engineering
 Platforms]].

@@ -17,7 +17,8 @@ not when they appear as decorative charts after training.
 In the narrow modeling view, SHAP can expose leakage and reveal bad data
 collection or model shortcuts. Conformal prediction returns calibrated
 prediction sets or intervals instead of a single overconfident answer.
-[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
+[[cite:interpretable-machine-learning@9:27=>Interpretable Machine Learning]]
+[[cite:interpretable-machine-learning@20:27=>Interpretable Machine Learning]]
 
 [[person:christophmolnar=>Christoph Molnar]]'s
 [[book:20220411-interpretable-machine-learning=>Interpretable Machine Learning]]
@@ -58,7 +59,7 @@ business owners or affected customers.[[cite:building-explainable-and-actionable
 When [[Machine Learning]] teams keep those terms separate, they avoid treating
 every explanation method as interchangeable. A transparent linear model, a SHAP
 plot for a random forest, and a calibrated prediction set answer different
-questions.[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
+questions.[[cite:interpretable-machine-learning@26:17=>Interpretable Machine Learning]]
 
 ## Decision Tradeoffs
 
@@ -100,7 +101,7 @@ groups, and acceptable tradeoffs.[[cite:fairness-in-ai-ml-engineering=>Fairness 
 SHAP adds the practitioner layer. Explanations need enough detail for Python
 users to look at feature effects. They also need enough restraint to avoid
 overclaiming what the plot proves. Conformal prediction adds uncertainty, which
-changes a point prediction into a set of plausible outcomes.[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
+changes a point prediction into a set of plausible outcomes.[[cite:interpretable-machine-learning@23:44=>Interpretable Machine Learning]][[cite:interpretable-machine-learning@20:27=>Interpretable Machine Learning]]
 
 ## Debugging Models
 
@@ -109,7 +110,7 @@ interpretable machine learning practice, SHAP can work as a debugging tool. A
 suspicious feature can show leakage, bad data collection, or a shortcut the
 model learned. A model explanation often leads upstream to the data pipeline,
 which is why this page belongs beside
-[[Data Quality and Observability]].[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
+[[Data Quality and Observability]].[[cite:interpretable-machine-learning@9:27=>Interpretable Machine Learning]]
 
 Conformal prediction returns calibrated prediction sets or intervals. Prediction
 intervals also help with debugging because they change how a team reads model
@@ -131,11 +132,11 @@ whether the input data was appropriate.[[cite:responsible-explainable-ai-bias-de
 
 Healthcare regulation raises the same deployment bar. An algorithm can become
 part of a medical device or clinical workflow. Clinicians need an intelligible
-reason for the prediction. Device approvers need one too.[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]]
+reason for the prediction. Device approvers need one too.[[cite:building-healthcare-machine-learning-systems@25:23=>Healthcare ML Systems]]
 Missing or inconsistent patient data and scarce clinical-outcome annotations
 also limit what an explanation can prove. That keeps interpretability work
 connected to [[Healthcare ML Validation and Adoption]],
-[[Annotation Quality Workflows]], and [[Data Quality and Observability]].[[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]]
+[[Annotation Quality Workflows]], and [[Data Quality and Observability]].[[cite:building-healthcare-machine-learning-systems@25:23=>Building Healthcare ML Systems]]
 
 Fairness work needs interpretable metrics and domain judgment. In
 fairness engineering, credit scoring harms and sensitive group selection

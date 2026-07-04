@@ -114,7 +114,7 @@ toward achievement-based evidence
 
 Data engineering CVs should show SQL and Python. They should also show the
 problem solved and the outcome
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+[[cite:hiring-for-data-engineering-jobs-in-europe@31:16=>Hiring Data Engineers in Europe]].
 That makes [[CV Screening]] part of job search, not only an employer-side
 topic.
 
@@ -132,7 +132,7 @@ contributions can show data engineering skill. Clean code, useful names, and
 tests are part of the signal
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 Standout projects should also be shareable and explainable
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+[[cite:hiring-for-data-engineering-jobs-in-europe@55:53=>Hiring Data Engineers in Europe]].
 
 Candidates should lead with ownership and impact
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
@@ -185,7 +185,7 @@ interview rounds
 Data engineering interviews often test SQL and Python through take-home project
 formats. Assessment depth varies by level
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+[[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring Data Engineers in Europe]].
 
 Another data engineering funnel can start with screening calls, then move to SQL
 tests and on-site discussion. Interview preparation should include both
@@ -232,7 +232,7 @@ and blogging
 
 [[AI Tooling]] doesn't block starting in [[Data Science Careers]] now. It can
 help beginners get started faster. Junior hiring creates the harder constraint
-because companies may still prefer senior candidates.[[cite:datatalksclub-scaling-and-free-courses=>Scaling Free Courses]]
+because companies may still prefer senior candidates.[[cite:datatalksclub-scaling-and-free-courses@58:47=>Scaling Free Courses]]
 
 The long-term [[Hiring]] pyramid still needs juniors to replace seniors who
 move up or leave for other jobs and self-employment.
@@ -253,7 +253,7 @@ fundamentals
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 Transferable experience from software and BI roles matters
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+[[cite:hiring-for-data-engineering-jobs-in-europe@20:57=>Hiring Data Engineers in Europe]].
 Remote-first data engineering searches are market-specific. One remote IoT
 platform path still depended on local hiring norms, work routines, and clear
 communication. Candidates should test remote assumptions in the geography and
@@ -265,7 +265,10 @@ career switchers. This candidate-side view complements
 [[Data Engineer Role]],
 [[data-engineer-roadmap=>Data Engineering Roadmap]],
 [[Data Engineering Portfolio Projects]],
-and [[Hiring]].
+and [[Hiring]]. Candidates should research the company and explain relevant
+projects instead of relying on spray-and-pray applications
+[[cite:hiring-for-data-engineering-jobs-in-europe@44:35=>Hiring Data Engineers in Europe]]
+[[cite:hiring-for-data-engineering-jobs-in-europe@48:13=>Hiring Data Engineers in Europe]].
 
 ## Company Evaluation and Offers
 

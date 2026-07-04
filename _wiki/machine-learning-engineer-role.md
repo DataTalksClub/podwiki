@@ -77,7 +77,7 @@ Machine learning engineers scope the problem and work through [[data
 pipelines=>data pipeline]] tasks before modeling. They decide whether machine
 learning is needed. They also move and transform the data, build or package the
 model, and operate the deployed system through [[MLOps]] and [[model
-monitoring]].[[cite:from-software-engineer-to-machine-learning=>Software Engineer to ML]]
+monitoring]].[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to ML]]
 
 Serving decisions aren't only infrastructure choices. Batch scoring can be a
 shared surface with [[data engineering]]. Online serving brings latency and
@@ -139,7 +139,7 @@ containers for the application or inference API. Enough AWS, Google Cloud,
 Azure, or serverless experience helps expose the system to clients. Those skills
 move software engineers from [[software engineering]] toward [[machine learning
 infrastructure]]. Teams can add specialized platform engineering
-later.[[cite:from-software-engineer-to-machine-learning=>Software Engineer to ML]]
+later.[[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]]
 
 Platform teams add cloud infrastructure and experiment tracking when deployment
 tooling becomes shared infrastructure. Model registries, MLflow, Kubeflow, and

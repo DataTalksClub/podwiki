@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10837
+    "links": 10850
   },
   "nodes": [
     {
@@ -26788,6 +26788,12 @@
     },
     {
       "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -28834,6 +28840,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-chip",
       "weight": 1
@@ -29015,6 +29027,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:building-healthcare-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30664,6 +30682,12 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
+      "target": "wiki:interpretability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-chip",
       "weight": 1
@@ -30697,6 +30721,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
+      "target": "wiki:reproducibility",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
@@ -37415,6 +37445,12 @@
     {
       "source": "wiki:data-pipelines",
       "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54052,6 +54088,12 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -56902,6 +56944,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-science-project-management",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:data-strategy",
       "kind": "article-chip",
       "weight": 1
@@ -57634,6 +57682,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -57707,6 +57761,12 @@
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62717,6 +62777,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:healthcare-ml-validation-and-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70000,6 +70066,12 @@
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:agent-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -70595,6 +70667,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "wiki:data-lake",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },

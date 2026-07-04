@@ -56,6 +56,12 @@ model, adapter, or prompt instructions for answer format and domain style. The
 architecture still needs [[LLM evaluation workflows]] that separate retrieval
 failures from generation and formatting failures.
 
+After the technical boundary is clear, teams can use cost to choose between the
+two. Aditya Gautam frames fine-tuning versus API use as an ROI decision:
+high-volume, specialized workloads may justify model work. Smaller or generic
+products can stay with hosted APIs and focus on retrieval, prompting, and
+evaluation first.[[cite:s23e03-future-of-ai-agents@24:58=>The Future of AI Agents]]
+
 ## System Boundary
 
 RAG grounds an answer at runtime. A system retrieves source material, puts it
@@ -117,7 +123,7 @@ Retrieval still holds against claims that "RAG is dead," but latency and cost
 remain real limits. Noisy context, metadata constraints, and
 garbage-in-garbage-out also matter. Retrieval works best as a tool that can
 shrink a search space inside an agentic
-workflow[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+workflow[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Building Agentic AI Systems]].
 
 ## Choose Fine-Tuning For Behavior
 

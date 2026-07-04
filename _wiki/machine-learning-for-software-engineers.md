@@ -86,6 +86,12 @@ who has never shipped services. The missing work is learning how data and
 labels affect the software. Metrics, experiments, and model behavior matter
 too.
 
+Santiago Valdarrama frames coding as one of the core ML skills. He argues
+that coding ability often determines whether a learner can turn ML ideas into
+working projects
+[[cite:from-software-engineer-to-machine-learning@6:33=>Software Engineer to ML]]
+[[cite:from-software-engineer-to-machine-learning@25:00=>Software Engineer to ML]].
+
 ## Missing ML and Data Skills
 
 The biggest gap isn't Python syntax. Software engineers need to learn how data

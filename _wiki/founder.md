@@ -84,7 +84,7 @@ DataTalks.Club's first event worked because participant conversations exposed a
 specific audience need, matched a speaker to that need, and drew about 100
 attendees. For [[community-building]] and [[teaching]], early product-market fit
 can look like understanding the audience well enough for the format to pull
-people in.[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
+people in.[[cite:datatalksclub-scaling-and-free-courses@33:40=>Inside Scaling DataTalks.Club]]
 
 ## Product Boundaries
 
@@ -125,7 +125,8 @@ Textualize shows a route from games to open source to a company. Work on games,
 desktop software, chess tools, and web projects preceded the company. Python
 freelancing was part of the path too. A community-built terminal UI created the
 opening signal. Visible open-source projects and demos showed demand before the
-company story was fully formed.[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]]
+company story was fully formed.[[cite:open-source-turned-into-career-and-startup-creation@2:07=>From Developer to Startup Founder]]
+[[cite:open-source-turned-into-career-and-startup-creation@26:39=>From Developer to Startup Founder]]
 
 Open-source developer-tool investors look for community-driven distribution and
 bottom-up developer adoption. They still check the team and market need. They
@@ -143,7 +144,7 @@ course such as Data Engineering Zoomcamp can spread outside the cohort.
 Learners recommend it to each other in public recommendation threads without
 referral incentives. That puts [[community-building=>community]], [[teaching]], and
 [[Data Engineering]] in the distribution loop: usefulness creates the
-word-of-mouth channel.[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
+word-of-mouth channel.[[cite:datatalksclub-scaling-and-free-courses@8:13=>Inside Scaling DataTalks.Club]]
 
 ## Roles, Hiring, and Runway
 

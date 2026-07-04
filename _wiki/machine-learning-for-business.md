@@ -129,7 +129,13 @@ Client discovery should test the request before accepting "we need AI" as the
 requirement. Start with the business problem and current workflow. Then check
 the existing solution, expert judgment, and expected KPI. That can route the
 work toward a moving average, dashboard, or operating change before ML
-([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
+([[cite:data-science-manager-vs-expert-hiring-guide@50:12=>Data Science Manager vs Expert]]).
+
+The same feasibility check asks whether the available data is clean enough. It
+also asks whether machine learning is necessary at all. Those questions connect
+business ML discovery to [[Data Quality and Observability]] and
+[[Data Science Project Management]]
+([[cite:data-science-manager-vs-expert-hiring-guide@53:57=>Data Science Manager vs Expert]]).
 
 Marini makes that diagnostic step conversational. He argues that description
 and diagnosis come before machine learning. The data professional first needs
@@ -176,7 +182,7 @@ The [[cite:crisp-dm=>CRISP-DM Methodology]] discussion uses this as an
 evaluation gate. The team measures a rule-based category suggestion, then
 evaluates the model against the original business objective. That keeps extra
 features and complex models subject to ROI instead of technical curiosity
-([[cite:crisp-dm=>CRISP-DM Methodology]]).
+([[cite:crisp-dm@17:05=>CRISP-DM Methodology]], [[cite:crisp-dm@18:23=>CRISP-DM Methodology]]).
 
 In
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]],

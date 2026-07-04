@@ -74,14 +74,18 @@ Teams should state which action is in scope and which failure costs matter. They
 should also state where a human must review the decision. Teams should separate
 the stakeholder problem from the proposed technical direction, so reviewers can
 ask whether a model is needed at all.
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+Liesbeth Dingemans frames that as bringing data scientists into problem
+definition early enough to prevent rework.
+[[cite:ai-ml-product-design-and-experimentation@28:18=>AI Product Design]]
 
 Data scientists need to join the scoping work early enough to define both the
 problem and the solution. If user research and interface decisions finish before
 the ML team joins, the product may miss the signals the model needs. That makes
 scoping part of [[AI Product Feedback Loops]], [[data product management]], and
 [[product analytics]].
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+Scoping documents and repeated "why" questions make those assumptions
+reviewable before the design hardens.
+[[cite:ai-ml-product-design-and-experimentation@31:04=>AI Product Design]]
 
 ## Data, Baselines, and Evaluation
 

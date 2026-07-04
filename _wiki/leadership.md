@@ -75,7 +75,7 @@ manager job descriptions as if they were hiring a senior technical expert. They
 then attach some team duties. If the team needs coordination and translation,
 a deep expert alone leaves gaps. The same is true for prioritization and people
 development
-([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
+([[cite:data-science-manager-vs-expert-hiring-guide@34:04=>Data Science Manager vs Expert]]).
 
 [[person:katiebauer=>Katie Bauer]] adds a career-path
 boundary in

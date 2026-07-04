@@ -91,8 +91,11 @@ standard data-scientist path. [[person:orellgarten=>Orell Garten]]
 turns simulation research into problem discovery and MVP feedback. Custom ETL
 and industrial data integration are central to that path.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
 
-A biology-to-ML path can use open-source computer vision and transformer
-projects. Those projects can replace a missing industry track record.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Biology to ML]]
+A biology-to-ML path can begin with statistics as the bridge from biology into
+machine learning. It can then move toward engineering when project work proves
+more useful than extending the academic path. Open-source computer vision and
+transformer projects can replace a missing industry track record.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@8:29=>Biology to ML]]
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@18:52=>Biology to ML]]
 
 Those routes sit closer to
 [[Data Engineering Portfolio Projects]]
@@ -205,7 +208,7 @@ Good project shapes include:
   feedback loops
   [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]].
 - An open-source contribution with clear domain context
-  [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to Machine Learning]].
+  [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>From Biology to Machine Learning]].
 These examples connect to
 [[Machine Learning Portfolio Projects]],
 [[Data Engineering Portfolio Projects]],

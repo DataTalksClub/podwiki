@@ -34,7 +34,7 @@ selling a larger model or product. [[cite:solopreneur-developer-and-data-profess
 Solopreneurship is a choice to stay small on purpose. The business doesn't need
 venture money, a large team, or the biggest possible company outcome. The worker
 stays independent by diversifying income and declining bad-fit work.
-[[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
+[[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]]
 
 For a data or AI professional, the first offer is usually expertise. A data
 scientist can sell churn analysis, dashboard cleanup, experiment design, or AI
@@ -46,7 +46,7 @@ A solopreneur isn't only a freelancer with a different label. Freelance work can
 be the first cash-flow stream. The wider business can add teaching and writing.
 It can also add software, repeatable packages, or open-source services.
 Consulting and books can sit beside courses, university teaching, software
-projects, and other income sources. [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
+projects, and other income sources. [[cite:solopreneur-developer-and-data-professional@25:05=>Becoming a Solopreneur in Data]]
 
 Indie hacking adds a product route: build small software products and monetize
 them without outside funding. Cryptopy started as a crypto-alerting tool for
@@ -161,7 +161,8 @@ also bring collaborators, conference organizers, and course students.
 
 Before quitting, lower expenses where possible, save money, and build side
 streams. Don't bet the whole transition on one new offer.
-[[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
+[[cite:solopreneur-developer-and-data-professional@46:27=>Becoming a Solopreneur in Data]]
+[[cite:solopreneur-developer-and-data-professional@53:49=>Becoming a Solopreneur in Data]]
 
 Indie hackers can keep the day job as the operating base. Product work happens
 after work, on weekends, and during available breaks. Without investors, the

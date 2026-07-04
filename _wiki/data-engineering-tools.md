@@ -68,7 +68,7 @@ hand off the whole path under failure.[[cite:production-ml-pipelines-with-aws-an
 
 Hiring data engineers applies the same rule to cloud and BI tools. Platform
 experience transfers better when candidates understand how a category is used
-and why, instead of presenting a checklist of named products.[[cite:hiring-for-data-engineering-jobs-in-europe=>Recruiting Data Engineers]]
+and why, instead of presenting a checklist of named products.[[cite:hiring-for-data-engineering-jobs-in-europe@39:41=>Recruiting Data Engineers]]
 
 Data engineering career guidance uses the same ordering. Python and SQL come
 first, followed by cloud basics and orchestration. Tools such as Spark, Kafka,

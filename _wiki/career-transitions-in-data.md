@@ -210,6 +210,12 @@ than synonyms. Publications aren't useless, but industry teams need to see the
 skills and artifacts behind the research. For the deeper route, read
 [[Academic Researcher to Data Science]].
 
+Healthcare data science adds another translation path because technical ML and
+data science skills can transfer. The candidate still has to learn clinical
+context, validation expectations, and the safer adoption pace of healthcare teams
+[[cite:building-healthcare-machine-learning-systems@53:31=>Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@55:46=>Healthcare ML Systems]].
+
 ## Portfolio Proof and Interview Story
 
 Portfolio proof works when it's specific to the role and easy to look at.
@@ -344,7 +350,8 @@ then tests consulting work. Books, courses, apps and investments can become
 additional small streams before leaving. The quitting threshold is financial
 readiness rather than impatience. Independent work should already prove earning
 power, and leaving shouldn't create financial jeopardy
-[[cite:solopreneur-developer-and-data-professional=>Solopreneur Developer and Data Professional]].
+[[cite:solopreneur-developer-and-data-professional@46:27=>Solopreneur Developer and Data Professional]]
+[[cite:solopreneur-developer-and-data-professional@53:49=>Solopreneur Developer and Data Professional]].
 
 The consulting route also changes what counts as a portfolio.
 Product ideas can turn into consulting after customer validation and user

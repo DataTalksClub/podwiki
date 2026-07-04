@@ -198,7 +198,7 @@ For ML startups, hiring is [[team building]]
 rather than a fixed list of job titles.
 
 Company size changes the manager-versus-expert tradeoff. Larger companies can
-split work across a manager role and an expert role.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager Hiring]]
+split work across a manager role and an expert role.[[cite:data-science-manager-vs-expert-hiring-guide@30:37=>Manager Hiring]]
 
 The manager owns stakeholder alignment and [[team building]] while the expert
 covers technical depth. Early startups usually can't fund both roles. Their
@@ -210,6 +210,7 @@ The startup "unicorn" hire is a tradeoff, not a universal ideal. It buys speed
 and fewer handoffs while accepting less algorithmic depth than a dedicated
 expert. Once the product workflow, data access, and customer problem stabilize,
 the same team can move from broad ownership toward specialist hiring.
+[[cite:data-science-manager-vs-expert-hiring-guide@38:37=>Manager Hiring]]
 
 Startups create end-to-end ownership because fewer people cover more of the
 product and infrastructure surface. Teams accept a learning-curve tradeoff when

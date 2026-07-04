@@ -121,7 +121,7 @@ switchers. Beginner-friendly roles can serve the same purpose. Social-impact AI
 work helps when artifacts are visible. Hugging Face computer-vision
 contributions can do the same
 ([[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering in AI]],
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>Biology to Machine Learning]]).
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>Biology to Machine Learning]]).
 
 ## Maintainer-Aware Contributions
 

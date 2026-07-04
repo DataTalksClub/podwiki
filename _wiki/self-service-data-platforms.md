@@ -59,7 +59,12 @@ A data mesh approach pushes the boundary toward domain-owned data products. It
 relies on self-serve platform abstractions, data product contracts, and
 metadata. Identity and authorization become platform concerns. Domains also need
 federated governance. They publish without centralizing every pipeline
-decision.[[cite:data-mesh-architecture-decentralized-data-products]]
+decision.[[cite:data-mesh-architecture-decentralized-data-products@41:58=>Data Mesh Implementation]]
+
+With shared standards, teams can run multiple platforms. They can still align
+the self-service path with [[Data Governance]] and
+[[Data Mesh vs Centralized Data Platform]]
+([[cite:data-mesh-architecture-decentralized-data-products@47:35=>Data Mesh Implementation]]).
 Use [[Data Mesh vs Centralized Data Platform]]
 for that ownership comparison.
 

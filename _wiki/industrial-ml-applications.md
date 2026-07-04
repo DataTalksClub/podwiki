@@ -265,12 +265,12 @@ regulatory fit before expansion
 Healthcare ML shows operating fit in a career transition because [[Data Science]]
 skills can transfer into healthcare. Entry can start with
 technical work, while research and device deployment roles need different
-clinical context. Sepsis becomes working vocabulary with
-context[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]].
+clinical context. Sepsis becomes working vocabulary when the practitioner learns
+the clinical setting [[cite:building-healthcare-machine-learning-systems@53:31=>Healthcare ML Systems]].
 That links [[healthcare-ml-validation-and-adoption=>healthcare ML validation]]
 and [[career-transitions-in-data=>career transitions in data]] to the same
 industrial ML boundary. Technical skill opens the door, but clinical context and
-regulatory workflow determine whether the system is useful[[cite:building-healthcare-machine-learning-systems=>Healthcare ML Systems]].
+regulatory workflow determine whether the system is useful [[cite:building-healthcare-machine-learning-systems@55:46=>Healthcare ML Systems]].
 
 ## Related Pages
 

@@ -136,14 +136,14 @@ DataTalks.Club's own community episode adds the same structure. Events, office
 hours, answered questions, and mentors make learning more durable than a course
 watched alone. Community also accelerates software-to-ML learning because peer
 groups give learners a place to test ideas and get feedback
-[[cite:from-software-engineer-to-machine-learning=>Software to ML]].
+[[cite:from-software-engineer-to-machine-learning@20:38=>Software to ML]].
 
 Teaching becomes part of the same feedback loop. Writing about a new topic,
 explaining it in public, and taking questions forces the learner to check what
 they understand. That work can become
 [[machine-learning-portfolio-projects=>portfolio evidence]] or a
 [[career-transitions-in-data=>career transition]] signal
-[[cite:from-software-engineer-to-machine-learning=>Software to ML]].
+[[cite:from-software-engineer-to-machine-learning@20:38=>Software to ML]].
 
 Teaching in those episodes is community work, so it belongs with
 [[Community]] and
@@ -248,7 +248,8 @@ DataTalks.Club's free-course model keeps the same access principle while
 adapting the curriculum to current demand. The course portfolio stays free to
 learn. Newer LLM/RAG material extends the project-based teaching model into AI
 engineering topics
-[[cite:datatalksclub-scaling-and-free-courses=>Scaling Free Courses]].
+[[cite:datatalksclub-scaling-and-free-courses@12:04=>Scaling Free Courses]]
+[[cite:datatalksclub-scaling-and-free-courses@29:14=>Scaling Free Courses]].
 
 Alexander's learner moving into ML needs problem framing, validation, system
 design, and engineering quality.
@@ -260,7 +261,7 @@ subject expertise, professor relationships, and written credibility such as a
 book. That makes university teaching adjacent to [[technical writing]],
 [[developer relations]], and
 [[career transitions in data]]
-[[cite:solopreneur-developer-and-data-professional=>Solopreneur teaching path]].
+[[cite:solopreneur-developer-and-data-professional@58:24=>Solopreneur teaching path]].
 
 Guests don't tell learners to take more courses. They ask learners to study a
 focused concept and apply it in a realistic project. Then learners explain the

@@ -193,6 +193,14 @@ closer to the user
 That puts edge deployment beside [[orchestration]], [[Model Monitoring]], and
 runtime ownership rather than treating it as only an app packaging problem.
 
+Teams in low-resource healthcare face a clinical infrastructure decision because
+connectivity and local hardware can vary. Before a team can claim the model fits
+the care setting, it may have to choose between cloud inference and on-device
+execution. That ties serving infrastructure to
+[[healthcare-ml-validation-and-adoption=>healthcare ML validation]] and local
+operations, not only latency
+[[cite:building-healthcare-machine-learning-systems@50:50=>Healthcare ML Systems]].
+
 Deployment ties to release discipline, so the MLOps toolset includes CI and
 repository structure. It also includes parameterization, tests, and serving
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).

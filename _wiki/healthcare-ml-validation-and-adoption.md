@@ -41,7 +41,7 @@ Sepsis prediction from vital signs and clinical data doesn't stop at model
 output. The work moves into clinical validation and adoption, where clinicians
 need to see value, give feedback, and have time to accept the system. Teams can
 introduce adoption through visualization and feedback loops before moving
-toward more automation.[[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]][[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]]
+toward more automation.[[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]][[cite:building-healthcare-machine-learning-systems@31:10=>Building Healthcare ML Systems]][[cite:building-healthcare-machine-learning-systems@46:32=>Building Healthcare ML Systems]]
 
 The digital clinic example places the same validation problem inside a product
 journey. SQIN runs from diagnosis to consultation and treatment, with pharmacy
@@ -99,7 +99,7 @@ reviewer needs to know why a system is safe enough to use. Regulatory and
 explainable-AI challenges sit alongside annotation scarcity and data gaps.
 Explanations therefore have to sit beside data-quality evidence rather than
 replace it
-[[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]].
+[[cite:building-healthcare-machine-learning-systems@25:23=>Building Healthcare ML Systems]].
 
 Visualization and feedback loops help with adoption. The prediction should
 expose enough reason for clinicians to respond, correct, and improve the system
@@ -139,7 +139,9 @@ low-resource pediatric monitoring example links sensor data to lab results.
 Other healthcare ML examples include annotation scarcity, data gaps, white blood
 cell image classification, and C-arm 3D reconstruction. Clinical imaging data
 and domain expertise constrain what a model can learn
-[[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]].
+[[cite:building-healthcare-machine-learning-systems@7:34=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@11:03=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
 
 An adjacent [[computer vision]] discussion covers multimodal learning for
 COVID-19 and medical imaging plus cervical spine segmentation. It also covers

@@ -100,7 +100,7 @@ That version of the role is close to
 and [[data engineering portfolio projects]].
 
 Hiring screens separate junior execution, mid-level ownership, and senior
-influence [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring DE Europe]].
+influence [[cite:hiring-for-data-engineering-jobs-in-europe@22:55=>Hiring DE Europe]].
 
 This progression links the role to
 [[data-engineer-roadmap=>roadmaps]]
@@ -109,10 +109,10 @@ should mature from scoped fundamentals to ownership and influence.
 
 Interview evidence should mirror that level. Interviews move through recruiter
 intro, project discussion, data-oriented coding, and practical analysis
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring DE Europe]].
+[[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring DE Europe]].
 
 Assessment depth changes from junior fundamentals to senior tradeoff
-reasoning [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring DE Europe]].
+reasoning [[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring DE Europe]].
 
 This ties interviews to [[data engineering platforms]] and [[DataOps]] when
 the work involves operational tradeoffs rather than one isolated pipeline.

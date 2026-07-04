@@ -207,7 +207,7 @@ for the normal quarterly queue. Three-month OKRs are useful for incremental data
 science work tied to direct metric movement. They can also hide AI product
 opportunities that need six months or a year to explore. In intake terms, that separates a
 near-term [[KPIs=>KPI]] improvement from a protected [[experimentation]] track for a
-longer-term [[Data Product Management=>data product roadmap]] bet[[cite:ai-ml-product-design-and-experimentation]].
+longer-term [[Data Product Management=>data product roadmap]] bet[[cite:ai-ml-product-design-and-experimentation@39:33=>AI Product Design]].
 
 Those bets still need evidence. Teams can collect proof through quick
 experiments and a business case. They can also form a time-limited task force
@@ -216,7 +216,9 @@ a durable team or send people back to their home teams.
 
 Some problems need a dedicated team with structured user-centered work and a
 clear link to company vision. Task forces are an intake option, not a replacement
-for roadmap ownership[[cite:ai-ml-product-design-and-experimentation]].
+for roadmap ownership. Liesbeth Dingemans' task-force example keeps the work
+time-boxed around evidence. The decision then returns to the product roadmap
+instead of letting the experiment become a permanent shadow backlog[[cite:ai-ml-product-design-and-experimentation@49:16=>AI Product Design]].
 
 Barak's prototype-first advice gives a useful triage option before production
 engineering. Teams can automate a repetitive workflow with a quick MVP or use a

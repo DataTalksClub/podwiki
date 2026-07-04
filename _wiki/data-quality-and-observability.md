@@ -59,7 +59,7 @@ drift and concept drift.
 
 Production AI systems inherit reliability problems from data pipelines and
 prompt inputs. Evaluation checks make testing part of the reliability base.
-[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]]
+[[cite:production-ready-ai-engineering@9:05=>Production-Ready AI Engineering]]
 
 [[book:20210621-cleaning-data-for-effective-data-science=>Cleaning Data for Effective Data Science]]
 by David Mertz covers the same data preparation and quality discipline that
@@ -237,7 +237,9 @@ analytics.[[cite:building-production-ml-platform-and-mlops-team=>Building Produc
 The same reliability logic extends to production AI. The failure can be a data
 trust problem where a number doesn't look correct. Testing includes snapshot and
 integration tests. It also includes Great Expectations, Soda, SQL tests, and
-Spark tests.[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]]
+Spark tests.[[cite:production-ready-ai-engineering@9:05=>Production-Ready AI Engineering]]
+[[cite:production-ready-ai-engineering@11:47=>Production-Ready AI Engineering]]
+[[cite:production-ready-ai-engineering@13:14=>Production-Ready AI Engineering]]
 
 Responsible AI makes data quality part of fairness work. Supreet Kaur frames
 bias detection as EDA and monitoring before it becomes a model-explanation

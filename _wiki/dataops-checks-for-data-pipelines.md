@@ -254,12 +254,12 @@ first, then observe outputs and decide what's acceptable. Those accepted outputs
 become checks, and sample data can run through the flow so the result can be
 compared with expected snapshots. In that frame, [[Testing]] for pipelines leans
 more on integration and snapshot tests than isolated unit tests
-[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+[[cite:production-ready-ai-engineering@11:47=>Production-Ready AI Engineering]].
 
 Great Expectations and Soda can run after each pipeline step. SQL checks and
 Spark tests can enforce column counts and null rules. Teams can use templated
 test tables for joins and business-rule expectations
-[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+[[cite:production-ready-ai-engineering@13:14=>Production-Ready AI Engineering]].
 
 Don't try to encode every edge case. Company data flows constantly, so pragmatic
 edge-case checks matter more than an unrealistic attempt at perfect coverage.

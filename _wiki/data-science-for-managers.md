@@ -27,10 +27,10 @@ for the team's stage. They also protect learning time, create feedback routines,
 and judge whether the work changed a real decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]][[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
 
 For episode navigation, start with
-[[podcast:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]],
-[[podcast:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]],
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]],
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]],
 and
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]].
 
 ## Role Boundaries
 
@@ -38,7 +38,7 @@ A data science manager needs enough technical literacy to ask useful questions,
 but not necessarily enough depth to be the strongest modeler on the team. The
 manager owns strategy and stakeholder communication. They also own team
 development, feasibility checks, and impact judgment. The expert role has deeper technical and domain
-responsibility for complex model work.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
+responsibility for complex model work.[[cite:data-science-manager-vs-expert-hiring-guide@4:58=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@7:28=>Manager vs Expert]]
 
 The same boundary appears in Danny Ma's ABC framework. The Type C consultant or
 leader profile sits between business needs and delivery work. It emphasizes
@@ -53,7 +53,7 @@ need a manager who can build the team. That manager can negotiate scope and
 coordinate client or stakeholder needs. A company with a hard modeling
 bottleneck may need an expert instead. Hiring an expert into a manager-shaped
 gap can fail when the real gap is team development or business translation.
-[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
+[[cite:data-science-manager-vs-expert-hiring-guide@34:04=>Manager vs Expert]]
 
 For a broader role map, use [[Data Scientist Role]],
 [[Machine Learning Engineer Role]], and
@@ -143,7 +143,7 @@ Managers can evaluate work only after discovery names the right inputs. Client
 feedback and KPIs help managers judge impact, and model monitoring adds
 operational evidence. Baselines and data availability show whether the work
 changed anything meaningful. Success metrics make that judgment explicit.
-[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
+[[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Manager vs Expert]]
 Managers should connect these questions to [[Evaluation]], [[Metrics]],
 [[a-b-testing=>A/B Testing]], and [[Model Monitoring]].
 
