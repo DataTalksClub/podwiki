@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10835
+    "links": 10817
   },
   "nodes": [
     {
@@ -35880,60 +35880,6 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:barrmoses",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:jeffkatz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -49134,48 +49080,6 @@
     },
     {
       "source": "wiki:founder",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:belawiertz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:carminepaolino",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:elenasamuylova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:mariabruckert",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:paulineclavelloux",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "person:sonalgoyal",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
       "target": "podcast:building-ai-digital-health-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -49225,12 +49129,6 @@
     {
       "source": "wiki:founder",
       "target": "podcast:open-source-turned-into-career-and-startup-creation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:founder",
-      "target": "wiki:community",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74233,12 +74131,6 @@
     {
       "source": "wiki:teaching",
       "target": "person:meoramer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "person:noahgift",
       "kind": "wiki-chip",
       "weight": 1
     },

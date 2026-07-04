@@ -27,10 +27,10 @@ a model or LLM product after it reaches users.
 
 Responsible AI centers on trust and stakeholder collaboration. Explainable AI is
 one part of the wider governance discipline, not the whole of it
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 Responsible AI also ties PII handling to feature necessity. It brings in
-fairness checks, human oversight, and drift monitoring. Other episodes extend
-that surface to privacy architecture, data access, LLM security, and agent
+fairness checks, human oversight, and drift monitoring. The same governance
+surface extends to privacy architecture, data access, LLM security, and agent
 evaluation.
 
 ## Lifecycle Accountability
@@ -47,13 +47,13 @@ with logs, evaluation results, and the human approval path.
 The lifecycle has real decision points. Skewness, missingness, coverage, and
 exploratory data analysis serve as early bias checks. Sensitive attributes such
 as age or gender force a feature review
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 
 The team has to decide whether to collect the feature at all. If it keeps the
 feature, it may mask or transform it, or monitor it more closely. Product owners,
 subject matter experts, compliance teams, and leaders share that decision instead
 of leaving it only to data scientists
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 
 That's why responsible AI belongs beside
 [[Data Quality and Observability]],
@@ -61,8 +61,8 @@ That's why responsible AI belongs beside
 and [[Machine Learning System Design]].
 If a feature improves an internal score but makes the product hard to justify,
 the team may remove it or transform it. It may also add human review or monitor
-the feature with stricter drift checks. The podcast discussions treat those
-choices as design and governance work, not paperwork after launch.
+the feature with stricter drift checks. These choices belong to design and
+governance work, not paperwork after launch.
 
 Product-centric fairness turns the same decision into
 [[Software Engineering]] and product work. The question isn't only whether the
@@ -70,7 +70,7 @@ model is biased. It asks whether requirements, surrounding software components,
 team boundaries, and release checks reduce harm in the complete product.
 That connects responsible AI to [[practices]], [[Data Product Management]], and
 [[Machine Learning System Design]]
-([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning|54:16]]).
+[[cite:software-engineering-for-machine-learning@54:16=>Software Engineering for Machine Learning]].
 
 Healthcare experimentation shows how the boundary changes by risk. Stefan
 Gudmundsson contrasts low-risk app tests with medical recommendations that need
@@ -79,10 +79,10 @@ harmless in one program and unsafe for heart-failure patients in another.
 Digital therapeutics therefore need medical review before rollout. Governance
 sets clinical and ethical boundaries with a different tolerance for risk than
 normal product A/B testing
-([[cite:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
 
 For a practitioner reference on these bias and fairness tradeoffs, see
-[[book:20220523-practical-fairness|Practical Fairness]] by Nielsen Aileen. The
+[[book:20220523-practical-fairness=>Practical Fairness]] by Nielsen Aileen. The
 book covers the measurement and mitigation techniques behind real-world fairness
 checks.
 
@@ -96,48 +96,47 @@ reviews, and revocation make the controls auditable. Masking and access-as-code
 make them enforceable. The same access model covers requests and approvals,
 time-bound access with revocation, and masking with filtering. Active metadata
 and automated tagging connect it to data mesh and DataOps settings
-([[podcast:data-governance-data-access-management|Data Governance and Data Access Management]]).
+[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]].
 
 Cloud governance adds machinery around data classification, taxonomies, and data
 steward ownership. It also covers retention, freshness, purpose-based access,
 and request workflows. Classification and taxonomy come before tool choice.
 Policies tie to access requests, and minimum viable governance can grow as risk
 grows
-([[podcast:cloud-data-governance|Cloud Data Governance]]).
+[[cite:cloud-data-governance=>Cloud Data Governance]].
 
 Privacy engineering narrows the same question to collection, consent, retention,
 and exposure. It connects legal, social, and technical definitions of privacy.
 It also translates between legal and technical teams
-([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
+[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 
 Fingerprinting and anonymization failures show why removing direct identifiers
-isn't enough. The episode treats encrypted ML and federated learning as
-architecture choices. It places differential privacy in the same technical
-control set. Consent and data minimization move from policy slogans into data
-science work
-([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
+isn't enough. Teams treat encrypted ML and federated learning as architecture
+choices beside differential privacy. Consent and data minimization move from
+policy slogans into data science work
+[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 
 ## Fairness Decisions
 
-The fairness episodes begin with evidence, but they don't end with a metric.
+Fairness work begins with evidence, but it doesn't end with a metric.
 Data-level checks find missingness, skew, undercoverage, and biased feature use
 before model training. Placing fairness beside profitability forces a launch
 decision instead of a detached model report
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 
 Fairness tooling and sociotechnical design make the same point. In credit
 scoring, model bias links to downstream harms such as debt and repossession.
 Fairlearn-style group fairness tools help visualize and mitigate disparities.
 The team still has to choose which sensitive groups matter for the domain. It
 also decides where human judgment belongs
-([[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]], [[person:tamaraatanasoska|Tamara Atanasoska]]).
+[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]], [[person:tamaraatanasoska=>Tamara Atanasoska]].
 
 Metric tradeoffs make fairness a governance decision. False positives, false
 negatives, demographic parity, and equal opportunity trade off against each
 other. Organizational responsibility, cross-functional teams, moderation
 examples, and domain expertise all enter. Human-in-the-loop review sits inside
 system design
-([[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].
 
 This places fairness beside
 [[Model Monitoring]] and
@@ -151,14 +150,14 @@ expose. The EU AI Act and social-scoring risks connect to data science practice,
 so public-sector teams need ethical literacy to handle new technologies.
 Data Science for Social Good and UN Sustainable Development Goal projects offer
 entry routes for impact-focused data work
-([[podcast:data-science-for-public-policy-ethical-ai-social-impact|Data Science for Public Policy]], [[person:christinecepelak|Christine Cepelak]]).
+[[cite:data-science-for-public-policy-ethical-ai-social-impact=>Data Science for Public Policy]], [[person:christinecepelak=>Christine Cepelak]].
 
 A domain-specific risk-scoring case covers data cleaning, feature engineering,
 and risk scoring for a frontline social-services tool. It connects bias
 assessment and model evaluation to privacy compliance and legal governance. A
 human-in-the-loop decision support tool must balance accuracy, fairness, and
 privacy before it can reach operational use
-([[podcast:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]], [[person:sabinafirtala|Sabina Firtala]]).
+[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]], [[person:sabinafirtala=>Sabina Firtala]].
 
 ## Explanations and Review Evidence
 
@@ -166,7 +165,7 @@ Explainability helps responsible AI only when it answers a reviewer's actual
 question. Tools such as What-If and Skater sit beside AI Explainability 360.
 LIME, SHAP, and surrogate models are part of the same toolset. Accuracy,
 interpretability, and human oversight have to stay tied to operational decisions
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 The team identifies who needs to understand the model, what choice they need to
 make, and what action follows when the model looks wrong.
 
@@ -175,7 +174,7 @@ for stakeholders. Conformal prediction adds calibrated uncertainty and
 prediction sets. The same discussion separates local explanations, uncertainty,
 and broader explainable-AI claims through SHAP details and terminology
 boundaries
-([[podcast:interpretable-machine-learning|Interpretable Machine Learning]], [[person:christophmolnar|Christoph Molnar]]).
+[[cite:interpretable-machine-learning=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
 
 Different audiences need different evidence. An engineer may need feature
 effects to debug leakage, while a product owner may need a launch decision. A
@@ -191,7 +190,7 @@ each audience must review.
 
 It also defines what the interface exposes. Product safety or regulation may
 require a human path rather than a bare model score
-([[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning|47:16]]).
+[[cite:software-engineering-for-machine-learning@47:16=>Software Engineering for Machine Learning]].
 
 For LLM and agent systems,
 [[LLM Evaluation Workflows]]
@@ -205,13 +204,13 @@ retrieve private context, generate harmful output, or act through tools. Prompt
 wording isn't a control. A hacking exercise and data-exfiltration case test
 whether a chatbot can be pushed into revealing hidden knowledge-base content.
 Hallucinations connect to legal exposure, safety, trust, and adoption
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 Mitigations layer across output checks and routing, including output validation
 and query analysis. They also include non-LLM classifiers that are harder to
 manipulate than the generative model. Human review still matters where an
 assistant can improve accuracy but shouldn't act alone
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 Those controls connect responsible AI to
 [[AI Red Teaming]],
 [[Security]], and
@@ -221,14 +220,14 @@ Agents widen the control surface further, with legal and healthcare reliability
 as high-stakes examples. Agent MLOps brings in specialized models and agent
 governance, and it also includes guardrails, data lineage, and compliance.
 Multi-tenant evaluation and LLM-judge alignment are repeatable testing concerns
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]], [[person:adityagautam|Aditya Gautam]]).
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]], [[person:adityagautam=>Aditya Gautam]].
 Use [[Agent Engineering]] for the engineering details behind those controls.
 
 ## Oversight After Launch
 
 Responsible AI isn't finished at launch. Human-in-the-loop oversight, drift, and
 feedback loops all belong to the post-launch phase
-([[podcast:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]]).
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
 Teams document assumptions before launch, test behavior during release, and
 watch for population shifts after launch.
 
@@ -241,11 +240,11 @@ Post-launch oversight links responsible AI to
 and [[Model Monitoring]].
 Monitoring has to cover the risk the system creates, not only uptime or a model
 score. Human review makes auditability part of LLM product design
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 Lineage and evaluation make the same point for agents
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 
-Across these episodes, teams use constrained automation for high-stakes actions.
-AI can assist, summarize, recommend, or route work. Validators, logs,
+Responsible AI systems use constrained automation for high-stakes actions, where
+AI assists with summaries, recommendations, and routing. Validators, logs,
 escalation paths, and human reviewers make decisions reviewable when a model
 can't be accountable alone.
