@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10879
+    "links": 10858
   },
   "nodes": [
     {
@@ -9249,7 +9249,7 @@
       "title": "AI Tooling",
       "url": "/wiki/ai-tooling/",
       "count": 1,
-      "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, and deployment."
+      "search": "AI Tooling How teams choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, and deployment."
     },
     {
       "id": "wiki:analytics-engineering-portfolio-projects",
@@ -22062,18 +22062,6 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
-      "target": "person:cjjenkins",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:academic-researcher-to-data-science",
-      "target": "person:danielegbo",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:academic-researcher-to-data-science",
       "target": "person:orellgarten",
       "kind": "article-chip",
       "weight": 1
@@ -22147,8 +22135,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:academia",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22159,8 +22147,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:applied-research",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22171,8 +22159,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22183,8 +22171,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:communication",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22195,8 +22183,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:cv-screening",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22225,8 +22213,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22237,8 +22225,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-science",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22249,8 +22237,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-science-careers",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22273,8 +22261,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-scientist-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22285,8 +22273,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:job-descriptions",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22297,8 +22285,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:job-search",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22333,8 +22321,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22357,8 +22345,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:notebook-to-production-ai-systems",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -22375,8 +22363,8 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -25521,42 +25509,6 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ai-tooling",
@@ -40899,42 +40851,6 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:andradaolteanu",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:lukewhipps",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:misraturp",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:nicksingh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-cv-and-portfolio",
-      "target": "person:olegnovikov",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
@@ -58566,54 +58482,6 @@
     },
     {
       "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:angelaramirez",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:arsenykravchenko",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:benwilson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:danielsvonava",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:dannyleybzon",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:nicksingh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
-      "target": "person:valeriybabushkin",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-system-design-interview",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "article-chip",
       "weight": 1
@@ -68047,8 +67915,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:a-b-testing",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68059,8 +67927,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68077,8 +67945,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68101,8 +67969,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-mesh",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68113,8 +67981,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-adoption",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68125,8 +67993,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-management",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68139,6 +68007,12 @@
       "target": "wiki:data-product-manager-roadmap",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68161,8 +68035,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-products",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68173,8 +68047,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-quality-and-observability",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68197,8 +68071,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:experimentation-and-causal-inference",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68221,8 +68095,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:ml-product-manager-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -68251,8 +68125,8 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:product-analytics",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",

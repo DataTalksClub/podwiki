@@ -19,11 +19,9 @@ related_wiki:
 ---
 
 A machine learning system design interview tests whether you can turn a model
-idea into a product system. The round starts with assumptions and baselines. It
-connects labels and metrics to A/B tests and monitoring. It also connects them
-to fallbacks and MLOps ownership
-([[person:valeriybabushkin|Valerii Babushkin]],
-[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]]).
+idea into a product system. The round starts with assumptions and baselines.
+It connects labels and metrics to A/B tests and monitoring. It also connects
+them to fallbacks and MLOps ownership.[[cite:machine-learning-system-design-interview=>MLSD]]
 The maintained
 [[Machine Learning System Design]]
 page covers the same interview structure in more detail.
@@ -44,16 +42,15 @@ For language-model systems, use
 
 Open with the business or product decision, not the model family. A fraud
 example turns the same prediction into different actions
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 The product may block a transaction, approve it, warn someone, or send the case
 to review. Those actions change the cost of false positives and false
 negatives. They also change the latency target, thresholding plan, and
 human-review path.
 
-Production designs start with goals and non-goals. They put assumptions,
-constraints, and metrics before model architecture
-([[person:arsenykravchenko|Arseny Kravchenko]],
-[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
+Production designs start with goals and non-goals before model
+architecture.[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML]]
+They also put assumptions, constraints, and metrics there.
 That habit helps in interviews because it shows the interviewer what problem
 you're solving before you draw boxes.
 
@@ -75,11 +72,7 @@ serving, and monitoring discussion than an analytics-heavy role.
 
 After the opening, move through the system in a predictable order.
 
-This order draws on the interview episode
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]])
-and the broader
-[[Machine Learning System Design]]
-hub:
+Use this order:
 
 1. Clarify the goal, user, decision, risk, and constraints.
 2. State assumptions and let the interviewer correct them.
@@ -96,38 +89,29 @@ hub:
 That sequence keeps you from jumping straight to XGBoost or embeddings. It also
 keeps deep learning behind the product need. Use feature stores only when the
 feature path requires them. Teams should prefer modular systems and prove value
-before adding complexity, keeping systems maintainable and business-aligned
-([[person:benwilson|Ben Wilson]],
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+before adding complexity, keeping systems maintainable and business-aligned.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
-Tatiana Gabruseva's interview prep story adds a practical rule: decompose the
-prompt like a physics problem, then rehearse that decomposition in mocks. The
-rehearsal puts the opening and assumptions before the data path, metrics, and
-system tradeoffs
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth|From Academia to Staff AI Engineer]]).
+For interview preparation, decompose the prompt like a physics problem. Then
+rehearse that decomposition in mocks. In mocks, put the opening and assumptions
+before the data path. Then cover metrics and system tradeoffs.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI]]
 That makes mock practice useful for structure, not just confidence.
 
 ## Practice Fraud Detection
 
 Fraud detection is the strongest machine learning system design
 interview prompt because the candidate has to discuss probabilities and
-thresholds. It also brings in class imbalance and delayed labels
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+thresholds. It also brings in class imbalance and delayed labels.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 The same prompt also needs real-time constraints and business loss. The answer
 is incomplete if it ends at "train a classifier."
 
-Treat the prompt as an assumption-setting exercise
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+Treat the prompt as an assumption-setting exercise.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 The answer should say what counts as fraud and when labels arrive. It should
 also say what the product does with the score and how the team handles
 asymmetric costs.
 
-The production data-engineering view covers retail fraud use cases and feature
-pipelines. It adds daily batch computation and real-time scoring. It also adds
-graph features. Monitoring, runbooks, and data quality checks complete the
-operations view
-([[person:angelaramirez|Angela Ramirez]],
-[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
+Retail fraud systems may use feature pipelines and batch jobs. They may also
+use real-time scoring and graph features.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud]]
+Monitoring and runbooks cover the operational side. Data quality checks do too.
 That makes fraud a good prompt for testing whether you can connect model design
 to data operations.
 
@@ -149,13 +133,10 @@ For a fraud prompt, cover these points:
 If the score is close to the threshold, explain uncertainty explicitly. The
 product may send the case to a fraud specialist instead of automatically
 blocking the customer. That choice follows the threshold and loss framing and
-front-end decisioning covered in both episodes
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]],
-[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
+front-end decisioning covered in both fraud discussions.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 
-Stating your assumptions about label delay and letting the interviewer steer is
-especially useful
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+State your assumptions about label delay. Then let the interviewer
+steer.[[cite:machine-learning-system-design-interview=>ML System Design]]
 Fraud labels that arrive in minutes create a different system from labels
 confirmed days later. That one clarification changes the training set, online
 evaluation, retraining, and monitoring.
@@ -164,19 +145,15 @@ evaluation, retraining, and monitoring.
 
 Recommendation prompts test whether you define the product surface before the
 ranking model. Nearby points of interest contrast with personalized
-recommendations
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+recommendations.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 A nearby-place system can start from location, popularity, and simple rules. A
 personalized feed needs user history, item features, and candidate generation.
 It also needs ranking, cold-start handling, and feedback.
 
-The search and ranking version separates candidate generation from ranking and
-covers hybrid retrieval, filters, and recency
-([[person:danielsvonava|Daniel Svonava]],
-[[podcast:building-production-search-systems=>Building Search Systems]]).
-Its business metrics, A/B tests, and operational metrics apply when an
-interviewer asks you to rank products and jobs. The same framing works for
-videos, ads, and documents.
+Search and ranking systems separate candidate generation from ranking. They can
+combine hybrid retrieval with filters and recency.[[cite:building-production-search-systems=>Search]]
+For product and job ranking, cover business metrics, A/B tests, and operational
+metrics. The same framing works for videos, ads, and documents.
 
 In the interview, say which behavior you're optimizing before choosing the
 model. Clicks and saves are easy to observe, but they may not represent
@@ -187,13 +164,10 @@ page keeps that distinction visible for search and ranking systems.
 
 ## Design the Data and Label Path
 
-Good interview answers treat data as part of the system. Labels, class
-imbalance, feature tradeoffs, and validation connect in the interview episode
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
-Data availability and processing needs add the production view. Feature needs,
-data lakes, and system diagrams do too
-([[person:arsenykravchenko|Arseny Kravchenko]],
-[[podcast:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]).
+Good interview answers treat data as part of the system. Cover labels and class
+imbalance. Then cover feature tradeoffs and validation.[[cite:machine-learning-system-design-interview=>MLSD]]
+Data availability and feature needs add the production layer. Data lakes and
+system diagrams do too.[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML]]
 
 Ask these questions out loud:
 
@@ -212,24 +186,20 @@ reproducibility, deployment, and monitoring. The
 [[MLOps vs DataOps]]
 comparison adds the upstream pipeline boundary.
 
-The baseline belongs in this same part of the answer. Start with a heuristic or
-simple model
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+Discuss the baseline in this same part of the answer. Start with a heuristic or
+simple model.[[cite:machine-learning-system-design-interview=>MLSD]]
 Without a baseline, the team can't tell whether the proposed ML system improves
-the product
-([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
+the product.[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]]
 
 ## Choose Metrics That Match the Decision
 
 Use one business metric, one or two model metrics, and guardrails. Accuracy is
-too weak for imbalanced, high-cost decisions like fraud
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+too weak for imbalanced, high-cost decisions like fraud.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 You may need precision, recall, and calibration. You may also need expected
 loss, review load, and slice-level checks.
 
-For ranking or search, relevance work ties to business metrics and A/B testing,
-along with offline evaluation and operational metrics
-([[podcast:building-production-search-systems|Building Search Systems]]).
+For ranking or search, tie relevance work to business metrics and A/B testing.
+Include offline evaluation and operational metrics.[[cite:building-production-search-systems=>Search Systems]]
 For broader ML systems, the
 [[Machine Learning System Design]]
 page keeps offline metrics separate from product validation.
@@ -242,27 +212,22 @@ staged rollout, backtesting, or human review. That answer connects the model to
 model score as the final result.
 
 Product validation matters as much as offline metrics
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 Product analytics makes the A/B testing part concrete through randomization,
-assignment tracking, and power analysis
-([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
+assignment tracking, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
 ## Pick the Serving Path
 
 Serving mode should follow the decision. Batch inference and online serving are
-distinct paths
-([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+distinct paths.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Batch inference often fits a scheduled scoring job. Online serving needs
 latency budgets and API contracts. It also needs prediction logging, rollback,
 and operational support.
 
-For fraud, a hybrid design combines daily feature computation with instant
-scoring when the transaction happens
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
+For fraud, compute features daily when freshness allows. Score at transaction
+time when the product needs an instant decision.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Data]]
 For mobile or edge ML, constraints add latency and frame rate. They also add
-energy use, model size, and offline behavior
-([[podcast:building-scalable-and-reliable-machine-learning-systems|scalable systems episode]]).
+energy use, model size, and offline behavior.[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]]
 
 In an interview, don't say "real time" unless you define the product need. A
 retention team may only need a daily churn list. A checkout fraud decision may
@@ -272,15 +237,11 @@ failure mode, and monitoring plan.
 
 ## Monitor and Define Fallbacks
 
-Monitoring is part of the answer, not a final add-on. The interview discussion
-includes monitoring, distribution shift, and fallbacks. It also covers serving
-and MLOps roles
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
-The upstream view matters too
-([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]):
-model problems can start in ETL jobs or schemas. They can also start in
-transformations, source systems, or data profiles.
+Monitoring is part of the answer, including drift and
+fallbacks.[[cite:machine-learning-system-design-interview=>MLSD]]
+Cover serving and MLOps roles too. Model problems can start in ETL jobs or
+schemas. They can also start in transformations, source systems, or data
+profiles.[[cite:mlops-model-monitoring-data-observability=>Monitoring]]
 
 Name the signals you would log:
 
@@ -312,28 +273,24 @@ deployment and explain monitoring plus fallback behavior.
 
 Unfamiliar domains still ask you to gather data. Choose the metric and loss,
 justify the model, and decide how the online and offline pieces work
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
 An ML project checklist doubles as system-design preparation because it covers
 model coupling, A/B tests, and feature choices. It also covers losses, model
 timing, and batch versus online processing
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
 Production checks include distribution shift, class imbalance, monitoring, and
-fallbacks for when the model breaks
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+fallbacks for when the model breaks.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 For this interview, a simple project can be strong if it exposes those
 tradeoffs. A fraud-style classifier can include delayed labels and class
 imbalance. Add a threshold, review bucket, and monitoring notes to show more
 system thinking than a notebook with one accuracy number.
 
-That mirrors the fraud prompt
-([[podcast:machine-learning-system-design-interview|ML System Design Interviews]])
-and a fraud-prevention data engineering setup. In that setup, feature pipelines
-and daily batch computation support the model. Real-time scoring, runbooks, and
-data quality checks support it too
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|fraud-prevention data engineering episode]]).
+That mirrors the fraud prompt and a fraud-prevention data engineering setup.
+Feature pipelines and daily batch computation support the model. Real-time
+scoring, runbooks, and data quality checks support operations.[[cite:machine-learning-system-design-interview=>ML System Design]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Data Engineering]]
 
 A search or recommendation project can do the same by showing candidate
 generation and ranking metrics. Cold starts, online feedback, and guardrails
@@ -341,11 +298,9 @@ can come from the
 [[production-search-evaluation=>production search]]
 page.
 
-Prepare the project story as an interview walkthrough, not as a repository tour.
-Project walkthroughs test ownership and model choice. They also test metrics,
-validation, and impact
-([[person:nicksingh|Nick Singh]],
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
+Use the project story as an interview walkthrough.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Portfolio]]
+Treat it as a walkthrough rather than a repository tour. Cover ownership and
+model choice before metrics, validation, and impact.
 That makes a portfolio project useful for both the ML system design round and
 the broader interview loop.
 
