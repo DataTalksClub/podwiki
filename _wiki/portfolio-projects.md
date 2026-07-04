@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Portfolio Projects"
-summary: "Podcast-grounded guidance for choosing data, analytics, ML, AI, and open-source portfolio projects with reviewable evidence and role fit."
+summary: "Guidance for choosing data, analytics, ML, AI, and open-source portfolio projects with reviewable evidence and role fit."
 related:
   - Career Development
   - Job Search
@@ -50,7 +50,7 @@ reality and BI consumption
 
 [[person:valeriybabushkin=>Valeriy Babushkin]] grounds
 the machine learning version through baselines, validation, and production
-robustness. [[person:benwilson|Ben Wilson]] and
+robustness. [[person:benwilson=>Ben Wilson]] and
 [[person:nadianahar=>Nadia Nahar]] add maintainable code
 and tests. They also add serving boundaries, monitoring, and software
 integration
@@ -83,7 +83,7 @@ The project should answer these review questions:
 
 [[person:dannyma=>Danny Ma]] adds a learning-order test:
 start by building, then learn the theory when the project exposes a real gap
-[[cite:data-science-career-abc-framework|Data Science Career ABC Framework]].
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
 That makes the project more reviewable. The writeup can show where a method,
 metric, model, or tool became necessary instead of presenting theory as
 decoration.
@@ -120,7 +120,7 @@ Portfolio work becomes part of [[job search]]
 and [[CV screening]] when it gives
 hiring teams concrete evidence to review.
 
-End-to-end proof beats notebook-only proof. [[person:santonatuli|Santona Tuli]]
+End-to-end proof beats notebook-only proof. [[person:santonatuli=>Santona Tuli]]
 shows how a pipeline moves from ingestion to transformation, modeled outputs,
 and consumers in
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
@@ -142,7 +142,7 @@ best project has a real source behavior, a modeled output, and a rerun path.
 [[person:santonatuli=>Santona Tuli]] grounds that choice in
 pipeline stages, orchestration, and consumers
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
-[[end-to-end-data-pipeline-project|End-to-End Data Pipeline Project]]
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]
 is the concrete data-pipeline blueprint.
 
 Choose [[analytics engineering]]
@@ -170,7 +170,7 @@ robustness
 fits target roles in [[MLOps]], ML platforms,
 or machine learning engineering.
 
-Choose [[retrieval-augmented-generation|RAG]] when
+Choose [[retrieval-augmented-generation=>RAG]] when
 the project should prove retrieval quality and grounded generation. The best
 project shows the corpus and chunks. It also shows metadata, retrieved evidence,
 citations, and failure analysis.
@@ -206,7 +206,7 @@ ML projects should show a baseline, validation, serving boundary, and monitoring
 plan. RAG projects should show retrieval examples, citations, and failure
 labels.
 
-Don't add tools before the project needs them. [[person:adrianbrudaru|Adrian Brudaru]]
+Don't add tools before the project needs them. [[person:adrianbrudaru=>Adrian Brudaru]]
 ties modern tool choices to requirements in
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[person:slawomirtulski=>Slawomir Tulski]] warns against
@@ -220,7 +220,7 @@ and
 [[Graph RAG vs Vector RAG]]
 cover those design choices.
 
-Production awareness is stronger than model novelty. [[person:benwilson|Ben Wilson]]
+Production awareness is stronger than model novelty. [[person:benwilson=>Ben Wilson]]
 connects maintainable code, tests, and production engineering in
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 [[person:marianosemelman=>Mariano Semelman]] shows the
@@ -254,7 +254,7 @@ constraints, and a project team. A geospatial AI-for-Good project gave
 [[person:isabellabicalho=>Isabella Bicalho]] enough applied experience for her
 first freelance client. Open-source ML projects filled the practical
 [[machine learning]] gap before paid work arrived
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|23:39]].
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>From Biology to ML]].
 That makes [[open source]] and [[computer vision]] useful portfolio routes for
 early contributors when the repository shows data, model choices, and a
 concrete result.
@@ -264,7 +264,7 @@ problem. It's weaker when it reads like a solo toy app. A green-space
 segmentation project used open satellite imagery and [[computer vision]]. It
 compared CNN and transformer benchmarks. The design also tested whether other
 cities could replicate the workflow
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|42:24]].
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@42:24=>From Biology to ML]].
 
 Collaboration and repeatable implementation create the portfolio signal. A few
 hours a week can still support [[job search]] evidence when the work is public
@@ -296,10 +296,10 @@ covers projects discussed as system design examples.
 ## Role-Specific Review Signals
 
 Guests differ on which proof matters most because each role values a different
-signal. [[person:jeffkatz|Jeff Katz]] asks for Python
+signal. [[person:jeffkatz=>Jeff Katz]] asks for Python
 and SQL. He also asks for clean code, tests, and open-source review pressure
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
-[[person:ellenkonig|Ellen König]]
+[[person:ellenkonig=>Ellen König]]
 adds professional software habits and domain-specific pipeline projects
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
 
@@ -307,7 +307,7 @@ adds professional software habits and domain-specific pipeline projects
 Consultant profiles. In that model, a portfolio should reveal the candidate's
 strongest mode of work. The evidence might come from analysis and storytelling,
 production-oriented building, or stakeholder-facing problem shaping
-[[cite:data-science-career-abc-framework|Data Science Career ABC Framework]].
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
 
 [[person:victoriaperezmola=>Victoria Perez Mola]] and
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] connect
@@ -317,8 +317,8 @@ models to business reality
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
 [[person:valeriybabushkin=>Valeriy Babushkin]] asks for
-baselines and validation. [[person:benwilson|Ben Wilson]]
-and [[person:nadianahar|Nadia Nahar]] add production
+baselines and validation. [[person:benwilson=>Ben Wilson]]
+and [[person:nadianahar=>Nadia Nahar]] add production
 and software boundaries
 [[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]]
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
@@ -330,8 +330,8 @@ retrieval evidence and citations. They also focus on failure analysis and gold
 tests
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-[[person:vincentwarmerdam|Vincent Warmerdam]]
-and [[person:mervenoyan|Merve Noyan]] focus on public
+[[person:vincentwarmerdam=>Vincent Warmerdam]]
+and [[person:mervenoyan=>Merve Noyan]] focus on public
 review, docs, and community-visible work
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions and NLP Portfolio]].

@@ -34,10 +34,10 @@ and
 [[AI engineering]]
 decision, not as a shopping list. For summaries and translation, choose where
 automation belongs. Do the same for CSV work and transcript pipelines
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 AI assistants connect to coding, search, and writing. Prompt evaluation,
 caching, and cost sit beside those daily tasks
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 
 Personal AI use should borrow the same discipline. Define the task, keep inputs
 visible, check outputs, and automate only after the manual workflow is clear.
@@ -54,14 +54,14 @@ One practical template starts with summaries and translation, then adds CSV
 workflows. It then adds role prompts, structured output, and timestamps.
 Transcript pipelines use Gemini and Descript. They also use Loom, automation,
 and GitHub Actions
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 For personal productivity, don't copy the exact stack. Put the tool inside a
 named workflow with inputs, outputs, and a review step.
 
 Another adoption path uses a seven-day experiment with language models in daily
 work. The examples include email assistants and content automation extensions
-([[podcast:practical-llm-use-cases-and-product-patterns|LLM Value Creation]]).
+([[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]).
 Treat a new AI tool as a short experiment. Choose one workflow, use it for a
 week, and keep only the parts that reduce friction without lowering quality.
 
@@ -75,7 +75,7 @@ is already yours and you review the output before publication.
 
 Use AI-assisted writing for drafting, rewriting, and maintaining voice, not for
 publishing model output without review
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 That sits near
 [[Prompt Engineering]] because
 the prompt should include the audience, source material, desired structure, and
@@ -101,9 +101,9 @@ debugging.
 
 Guests discuss Cursor workflow and productivity, then compare Cursor with
 GitHub Copilot and alternatives
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 They also discuss developer tools, GitHub Copilot, Cursor, and IDE agents
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 Those make coding assistants part of
 [[software engineering]],
 not a replacement for it.
@@ -125,10 +125,10 @@ Guests define agents through autonomy and objectives tied to LLM reasoning.
 They also discuss orchestration, tool use, memory, and knowledge stores.
 Examples include dynamic planning in a calendar and meeting assistant, plus
 enterprise AI productivity assistants
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 A Gmail API plus RAG example and an agent framework give a personal sequence.
 Define the problem, start small, add data, and evaluate the result
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 That boundary matters because document summarization usually needs a summarizer.
 If the tool needs to read email and find prior context, the boundary changes.
@@ -147,17 +147,17 @@ prompts or tools against that set.
 
 Start with a generator-evaluator check and representative gold tests. Add
 failure analysis plus logs and traces
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 For personal use, that can be a small note with examples and expected output.
 Track recurring errors and the prompt that produced the best result.
 
 The agent episodes add a useful warning. Use custom datasets and mocked tools,
 then add integration and regression tests. Include outcome assertions
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 Agent evaluation also connects to feedback and guardrails. It also covers
 lineage, scale, and human labels
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
+([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
 The personal version is smaller, but keep the same principle. Evaluate the
 workflow outcome, not only whether the answer sounds fluent. See
 [[LLM Evaluation Workflows]]
@@ -173,14 +173,14 @@ can paste into which tool.
 Guests connect open-source models with control, privacy, and fine-tuning. They
 also warn about hidden API model changes and separate API prototyping from
 production concerns such as latency, cost, and hardware
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 For personal use, review the data before you paste it. Know where it goes, who
 can retain it, and whether the prompt belongs in a vendor log.
 
 Security discussions cover prompt injection, data exfiltration, and
 hallucinations. They also cover output validation, query analysis, and
 human-in-the-loop controls
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+([[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]).
 Even a personal assistant can retrieve the wrong document, over-share context,
 or produce a confident false summary. For sensitive work, connect the tool
 choice to
@@ -199,7 +199,7 @@ when the workflow earns it.
 Guests connect the full-stack AI engineer skill stack with RAG, knowledge
 management, learning with AI, and shipping pillars. They also connect it with
 portfolio work. That's why AI productivity isn't separate from AI engineering
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 The same habits that make a product reliable can make personal workflows less
 fragile.
 
