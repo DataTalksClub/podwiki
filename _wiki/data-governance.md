@@ -11,268 +11,168 @@ related:
   - Security
 ---
 
-Data governance lets a team answer basic questions about its data. The team
-needs to know what data exists, who owns it, who can use it, and what it means.
-It also needs to know whether the data is fit for use. In the DataTalks.Club
-podcast discussions, guests don't treat governance as only
-security or compliance. They connect it to [[data engineering platforms]],
-[[data-quality-and-observability=>data quality]],
-[[privacy-engineering-for-ml=>privacy engineering]],
-and the operating model around [[DataOps]].
+Data governance helps a team identify what data exists and who owns it. It also
+clarifies who can use the data, what it means, and whether it's fit for a
+decision.
+DataTalks.Club episodes connect governance to
+[[data engineering platforms]] and [[data-quality-and-observability=>data quality]].
+They also connect it to [[privacy-engineering-for-ml=>privacy engineering]],
+[[security]], and the operating model around [[DataOps]].
 
-[[book:20210524-data-governance-the-definitive-guide=>Data Governance book]]
-by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance
-foundations. It covers catalogs, classification, access controls, and policy
-automation.
+Governance is more than PII controls or access monitoring. A company needs
+inventory before it can use or secure its data. The same inventory tells the
+company what to retain or remove.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-[[person:jessiashdown=>Jessi Ashdown]] and
-[[person:urigilad=>Uri Gilad]] make the broadest
-definition in
-[[cite:cloud-data-governance|Cloud Data Governance]]. They define governance
-beyond PII, credit card numbers, and access monitoring. Jessi adds the practical
-reason. A company that doesn't know what data it has can't decide how to use,
-secure, retain, or remove that data.
+The access-management framing adds that governance creates trust in data for
+analysts, data scientists, and customers.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-[[person:bartvandekerckhove=>Bart Vandekerckhove]] gives
-the access-management version. In
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]],
-he defines governance as the activities that create trust in data. That trust
-matters for analysts, data scientists, and customers. In that framing, teams
-govern data through operating practice, not through documentation alone.
-
-Andrew Jones's
-[[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality with Data Contracts]]
-develops that operating-practice idea. Before the pipeline runs, producers and
-consumers agree on the schema plus quality obligations.
-The same trust boundary applies to
-[[Business Intelligence]],
-where dashboards, metrics, and AI-assisted answers can expose governed data to
-many more users.
+The book [[book:20210524-data-governance-the-definitive-guide=>Data Governance
+Definitive Guide]] expands the same foundations into catalogs,
+classification, access controls, and policy automation. Andrew Jones's
+[[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality
+with Data Contracts]] connects governance to producer-consumer agreements. Teams
+define schema and quality expectations before a pipeline runs.
 
 ## Usable Data With Controlled Risk
 
-Across these episodes, data governance means making data usable and safe at the
-same time. Teams classify data, assign ownership, and document meaning. They
-expose lineage, design access rules, review usage, and measure quality. People
-can then find the right data and judge whether it supports a decision without
-creating avoidable privacy, security, or compliance risk.
+Teams classify data and assign ownership. They document meaning and expose
+lineage, while access rules and usage reviews control use. Quality measures show
+whether data remains fit for use.
+People can then find the right data
+and judge whether it supports a decision without creating avoidable privacy or
+security risk. It also limits compliance risk.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-In [[cite:cloud-data-governance|Cloud Data Governance]], Jessi and Uri describe
-governance as people, procedures, and tools. They move from that definition into
-classification and policy, then say the team should start with the reason for
-governance.
+Jessi Ashdown and Uri Gilad define governance as people, procedures, and tools.
+They first ask why a team needs governance, then turn to classification and
+policy. Regulation and privacy are common reasons. Exfiltration risk,
+analytics enablement, and cost control can matter too. Trust matters across all
+of them. Those reasons put governance inside [[data strategy]] because the right
+controls depend on why the data matters.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-Regulation and privacy are common reasons to govern data. Exfiltration risk,
-analytics enablement, trust, and cost control can matter too. Those reasons put
-governance inside
-[[data strategy]]
-because the right controls depend on why the data matters.
+The ML platform version adds reproducibility and regulatory limits. Fintech
+platform teams need datasets, logs, metadata, and lineage for monitoring and
+later analysis. GDPR and regulatory constraints still limit what they can log or
+persist. Governance therefore belongs in [[MLOps]] platform design. Teams make
+data usable without collecting everything.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-Simon Stiebellehner gives the ML platform version in fintech. Platform teams
-need reproducible datasets, logs, metadata, and lineage for monitoring and later
-analysis. GDPR and regulatory constraints still limit what they can log or
-persist
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-Governance therefore belongs in [[MLOps]] platform design. Teams make data
-usable while controlling privacy and compliance risk instead of collecting
-everything.
+## Starting Points
 
-Bart's episode agrees with the trust goal and then describes the operating work.
-In [[cite:data-governance-data-access-management|Data Governance and Data Access Management]],
-he separates catalogs, dictionaries, and lineage. He then moves into access
-controls and ownership models.
+Guests converge on trust, but they start from different failure modes. Jessi
+Ashdown and Uri Gilad start with inventory. Teams first need location,
+sensitivity, and policy context for each dataset.[[cite:cloud-data-governance=>Cloud Data Governance]]
+Bart Vandekerckhove focuses on access friction and privilege creep. Teams need
+purpose-based requests, approvers, time-bound access, and revocation.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-Bart covers the access path from request to approval, review, and revocation.
-For him, governance becomes real when people can request access for a stated
-purpose and the team can later review or remove that access.
+Zhamak Dehghani puts governance at the domain-ownership boundary. In [[Data Mesh]],
+domains own data products, but federated governance still supplies shared policies and
+automated enforcement. The shared primitives cover identity and authorization. They
+also cover metadata, retention, and validation.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+[[Data Mesh vs Centralized Data Platform]] covers the ownership boundary behind
+that governance choice.
 
-## Inventory, Access, Domain, and Privacy Starting Points
-
-The podcast discussions converge on trust, but each guest reaches it from a
-different data governance failure mode.
-
-Jessi Ashdown and Uri Gilad start with the inventory problem. Their cloud
-governance episode asks what data exists and where it lives. It also asks how
-sensitive the data is and which policies should apply
-[[cite:cloud-data-governance|Cloud Data Governance]]. Their version is useful
-when a team has many datasets, cloud storage systems, and consumers who need
-self-service access.
-
-Bart Vandekerckhove starts with access friction and privilege creep. In
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]],
-he describes older governance as centralized and top-down, then pushes toward
-scalable access management.
-
-Teams need purpose-based requests and approvers, plus time-bound access and
-revocation. Masking, filtering, reviews, and access-as-code belong in the same
-control set.
-
-His version is useful when a team already has sensitive data in shared cloud
-systems and informal permission handling no longer works.
-
-[[person:zhamakdehghani=>Zhamak Dehghani]] starts from a
-different organizational problem in
-[[cite:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]].
-She describes federated governance as shared policies with automated enforcement
-across domain-owned data products. That places governance close to [[Data Mesh]].
-Domains can own data products, but shared primitives still cover identity and
-authorization. They also cover metadata, retention, and validation.
-
-Use
-[[Data Mesh vs Centralized Data Platform]]
-for the ownership boundary behind that governance choice.
-
-[[person:katharinejarmul=>Katharine Jarmul]] moves the
-boundary toward privacy risk in
-[[cite:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]].
-She discusses the translation work between legal and technical teams and
-connects privacy to consent, data minimization, and workflow practices. Her
-privacy framing matters when a team uses governance to decide whether data
-should be collected or centralized at all.
+Katharine Jarmul centers privacy risk. Governance has to cover the translation
+between legal and technical teams, plus consent, data
+minimization, and workflow practices. This matters when a team has to decide
+whether data should be collected or centralized at all.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
 ## Inventory, Classification, and Policy
 
-Governance starts with inventory because teams can't govern unknown data.
-Jessi Ashdown says this directly in
-[[cite:cloud-data-governance|Cloud Data Governance]]. The team needs to know
-what data exists before it can secure, analyze, retain, or delete it. That
-inventory work relies on catalogs because catalogs expose datasets and metadata.
-They also expose owners, descriptions, and discovery paths.
+Teams can't govern unknown data. Inventory work records what data exists before
+the team can secure and analyze it. The team can then decide what to retain or
+delete. Catalogs expose datasets and metadata. They also record owners,
+descriptions, and discovery paths.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-Classification turns inventory into decisions. Jessi and Uri discuss taxonomy
-plus meaningful data classes, then connect classification to retention,
-freshness, and purpose-based access [[cite:cloud-data-governance|Cloud Data Governance]].
-A customer identifier and an aggregated metric may need different retention
-rules. A temporary debugging table may need a different access path and review
-expectation.
+Classification turns inventory into decisions. Taxonomies and meaningful data
+classes connect retention, freshness, and purpose-based access. A customer
+identifier and an aggregated metric may need different retention rules. A
+temporary debugging table may need a different access path and review
+expectation.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-The policy should match the reason for governance. Jessi and Uri leave room for
-minimal governance when the data is low risk or low value. They also describe a
-minimum viable governance strategy that can grow later
-[[cite:cloud-data-governance|Cloud Data Governance]].
-That matters for smaller [[data engineering]] teams. They can classify the
-highest-risk or highest-value datasets first instead of cataloging every field
-before anyone gets value.
+Policy should match the reason for governance. Low-risk or low-value data may
+need minimal governance, while higher-risk data may need stricter classification,
+review, and access controls. Smaller [[data engineering]] teams can start with a
+minimum viable governance strategy and classify the highest-risk or
+highest-value datasets first.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
 ## Catalogs, Lineage, and Ownership
 
-Catalogs help people find data, but these guests don't treat a catalog as the
-whole governance program. Jessi and Uri compare governance tools with
-spreadsheets and list the catalog contents that matter
-[[cite:cloud-data-governance|Cloud Data Governance]]. Technical metadata,
-lineage, and a business glossary all belong in the catalog.
+A catalog helps people find data, but it isn't the whole governance program. A
+useful catalog includes technical metadata, lineage, and a business glossary.
+Those details help people understand data. They don't decide who should get
+access, who should approve it, or when access should
+expire.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-They make the boundary explicit because governance extends beyond the catalog.
+Ownership connects discovery to accountability. Multiple teams can share
+responsibility, but one team still answers questions and approves changes. That
+team also fixes broken assumptions.
+Data Mesh makes that boundary explicit. It ties data product ownership to
+business domains, quality expectations, and service levels.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-Bart Vandekerckhove gives the same boundary from the access side. In
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]],
-he separates data catalogs, data dictionaries, and lineage. Those tools help
-people understand data, but they don't decide who should get access, who should
-approve it, or when access should expire.
-
-Ownership connects discovery to accountability. Bart discusses data teams,
-governance teams, and Data Mesh ownership
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]].
-Zhamak Dehghani adds the domain version in
-[[cite:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]].
-She connects data ownership to business domains and ties data product contracts
-to quality and service levels. A useful catalog should therefore name the team
-that can answer questions, approve changes, and fix broken assumptions.
+This is where governance connects to [[Data Products]] and [[Business
+Intelligence]]. Dashboards, metrics, and AI-assisted answers can expose governed
+data to many more users, so ownership and lineage must be clear before people
+trust the output.
 
 ## Access Management
 
-Access governance decides who can use data, and it records the purpose plus
-duration. Bart's
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]]
-episode is the clearest podcast example for this. He connects cloud
-consolidation and "Chinese wall" constraints to access management and argues
-that sensitive data needs access controls early.
+Access governance decides who can use data, why they can use it, and how long
+that access lasts. The access path runs from request to approval, review, and
+revocation. Sensitive data needs this control early, especially when cloud
+consolidation puts many datasets behind shared systems.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-Bart names the core access path: teams request and approve access, then review
-and revoke it later.
+A purpose-based request turns access into a governance decision. Analysts can
+discover data through a catalog and request access for a specific use. The team
+can limit privilege creep with time-bound access, reviews, and revocation.
+Those controls connect governance to [[security]] because the team has to reduce
+excess permissions without blocking legitimate analysis.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-A purpose-based access request turns the request into a governance decision. In
-Bart's
-churn example, the analyst discovers data through a catalog and requests access
-for a specific use. Bart also discusses privilege creep, time-bound access, and
-revocation [[cite:data-governance-data-access-management|Data Governance and Data Access Management]].
-Those controls connect governance to [[security]] because the team must reduce
-excess permissions without blocking legitimate analysis.
-
-Production debugging needs a different access path, and Bart covers temporary
-debugging access [[cite:data-governance-data-access-management|Data Governance and Data Access Management]].
-Governance shouldn't make incident response impossible. The team needs a fast,
+Production debugging needs a different path. Governance should leave a fast,
 reviewable way to grant temporary access during an incident, then remove it when
-the investigation ends. This is also where governance meets [[GitOps for Data Teams]].
-Access-as-code makes permission changes reviewable, auditable, and easier to
-roll back.
+the investigation ends. This is where governance meets [[GitOps for Data Teams]]:
+access-as-code makes permission changes reviewable, auditable, and easier to
+roll back.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 ## Automation and DataOps
 
-Governance breaks down when every decision becomes a manual queue. These
-episodes therefore connect governance to automation and
-[[DataOps]].
-In
-[[cite:cloud-data-governance|Cloud Data Governance]],
-Jessi and Uri discuss automation for tagging, requests, and reducing manual
-effort. They compare enforcement through catalog interfaces with enforcement at
-the storage control plane.
+Governance breaks down when every decision becomes a manual queue. Teams can
+automate repeated controls such as ownership tags, sensitive-data labels, and
+retention classes. Access review reminders and revocation rules fit too. Cloud
+governance episodes discuss automated tagging, access requests, and enforcement
+through both catalog interfaces and storage control planes.[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-Bart makes the automation path more explicit. In
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]],
-he connects governance in DataOps to active metadata, automated tagging, and
-pipelines. He also discusses access-as-code through Terraform, IAM, and early
-patterns.
+In DataOps, teams use active metadata and automated tagging. Pipelines and
+access-as-code keep common controls close to data systems. Teams can implement
+them with tools such as Terraform and IAM.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-Automation works best for repeated controls. Useful targets include ownership
-tags, sensitive-data labels, and retention classes. Access review reminders and
-revocation rules also fit.
-
-Automation doesn't remove judgment because Jessi and Uri still put data
-stewards, producers, and decision makers in the review
-[[cite:cloud-data-governance|Cloud Data Governance]]. Bart also separates
-privacy and security stakeholders
-[[cite:data-governance-data-access-management|Data Governance and Data Access Management]].
-A data protection officer, a security team, and a domain owner may all care
-about the same dataset for different reasons. A data engineer may care about it
-for a fourth reason, so metadata can route the decision without replacing it.
+Automation doesn't remove judgment because different reviewers care about
+different risks. Data stewards, producers, and decision makers may need one
+review. Privacy teams, security teams, and domain owners may need another.
+Metadata can route the decision, but it can't replace
+the decision.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 ## Quality, Privacy, and AI Boundaries
 
 Data quality is part of governance because bad data can make a governed system
-unsafe or useless. Jessi and Uri discuss trust signals, source quality, and
-measurable checks in [[cite:cloud-data-governance|Cloud Data Governance]]. That
-links data governance to [[Data Quality and Observability]].
+unsafe or useless. Consumers need trust signals and source quality. They also
+need freshness, schema, and volume. Lineage and ownership help them judge
+whether data can support a metric, a model, or an operational decision. That
+links data governance to [[Data Quality
+and Observability]].[[cite:cloud-data-governance=>Cloud Data Governance]]
 
-Freshness, schema, and volume help consumers judge the data, along with lineage
-and ownership. Consumers need to know whether the data can support a metric, a
-model, or an operational decision.
+Privacy changes the governance question because access isn't the only risk.
+The team also asks whether the data should be collected or centralized at all.
+Fingerprinting and re-identification risk show why a permission rule may not be
+enough. Privacy-enhancing technologies can require a different
+architecture.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
-Privacy changes the governance question. The team isn't only asking who can
-access the data. It also asks whether it should collect or centralize the data
-at all.
+Model governance adds another boundary. When teams use governed data to make or
+automate decisions about people, they need feature-necessity review and PII
+handling. They also need fairness checks and human oversight. [[Responsible AI and Governance]]
+covers that overlap in more detail.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
-Katharine Jarmul's
-[[cite:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]
-episode covers GDPR and related privacy regulation awareness.
+## Related Pages
 
-She discusses fingerprinting and re-identification risk and covers
-privacy-enhancing technologies, federated learning, and differential privacy.
-Those choices belong next to governance because policy may need an architecture.
-A permission rule isn't enough.
-
-[[person:supreetkaur=>Supreet Kaur]] extends governance
-into model decisions in
-[[cite:responsible-explainable-ai-bias-detection|Responsible and Explainable AI]].
-Her episode covers feature necessity, PII handling, fairness checks, and human
-oversight. That belongs on
-[[Responsible AI and Governance]],
-but it also matters here. Teams still need to review governed data when they use it to
-make or automate decisions about people.
-
-## Related Data Governance Topics
-
-Use these pages for adjacent governance concepts:
+These pages cover adjacent governance concepts:
 
 - [[Governance]]
 - [[Data Mesh]]

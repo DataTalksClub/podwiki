@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10757
+    "links": 10736
   },
   "nodes": [
     {
@@ -30366,12 +30366,6 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
-      "target": "person:tatianagabruseva",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:competitions-beyond-kaggle",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "article-chip",
       "weight": 1
@@ -30483,12 +30477,6 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:competitions-beyond-kaggle",
-      "target": "wiki:portfolio-projects",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
@@ -36318,42 +36306,6 @@
     },
     {
       "source": "wiki:data-governance",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "person:jessiashdown",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "person:katharinejarmul",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "person:supreetkaur",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "person:urigilad",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "person:zhamakdehghani",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -36938,42 +36890,6 @@
       "source": "wiki:data-mesh",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:16rahuljain",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:bartvandekerckhove",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:caitlinmoorman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:mehdiouazza",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:zhamakdehghani",
-      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -59581,48 +59497,6 @@
     {
       "source": "wiki:ml-platforms",
       "target": "book:20221107-machine-learning-on-kubernetes",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:alexanderhendorf",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:andreycheptsov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "person:willempienaar",
       "kind": "wiki-chip",
       "weight": 1
     },
