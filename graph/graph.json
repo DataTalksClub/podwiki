@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10850
+    "links": 10845
   },
   "nodes": [
     {
@@ -49717,14 +49717,20 @@
     {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:agent-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:evolutionary-algorithms",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
@@ -49735,8 +49741,8 @@
     {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:multi-agent-systems",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
@@ -49747,8 +49753,8 @@
     {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:prompt-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
@@ -49759,8 +49765,8 @@
     {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:reinforcement-learning",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:generative-ai",
@@ -51349,42 +51355,6 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:software-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:arpitchoudhury",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:barrmoses",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:christopherbergh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:mehdiouazza",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-build-data-pipelines",
-      "target": "person:santonatuli",
       "kind": "article-chip",
       "weight": 1
     },

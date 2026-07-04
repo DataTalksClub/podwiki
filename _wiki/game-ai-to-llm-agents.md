@@ -1,9 +1,9 @@
 ---
-layout: wiki
+layout: article
 tags: ["transition"]
 title: "Game AI to LLM Agents"
 summary: "How Micheal Lanham connects game AI, reinforcement learning, multi-agent workflows, support assistants, and modern LLM agents."
-related:
+related_wiki:
   - Agent Engineering
   - Multi-Agent Systems
   - Reinforcement Learning
@@ -11,180 +11,142 @@ related:
   - Prompt Engineering
 ---
 
-Game AI to LLM agents links older game and simulation ideas to modern
-[[agent-engineering=>AI agents]]. It also brings search
-and optimization ideas into agent workflows. The grounding episode is
-[[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
-In it,
-[[person:micheallanham=>Micheal Lanham]] traces that
-lineage from game-like cognitive testing and evolutionary methods to current
-work on multi-agent support assistants.
+Game AI to LLM agents connects older game and simulation techniques to modern
+[[agent-engineering=>agent engineering]]. The bridge runs through state and
+action modeling, feedback, search, and evaluation. Game systems model behavior
+inside an environment. Modern agents add language, tools, handoffs, and support
+workflows.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-The episode doesn't treat LLM agents as a clean break from earlier AI. Lanham's
-view is that modern agent work inherits familiar problems. Teams still define
-objectives and decompose behavior. They also search over alternatives,
-coordinate actors, and evaluate whether the system behaved consistently
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-2:36-5:28 and 57:39-58:04).
+[[person:micheallanham=>Micheal Lanham]] treats LLM agents as a continuation of
+older AI problems rather than a clean break. Teams still define objectives and
+decompose behavior. They also search over alternatives, coordinate actors, and
+evaluate whether the system behaved consistently.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+
+## Behavior Under Feedback
+
+The shared idea across game AI, reinforcement learning, evolutionary search,
+and LLM agents is behavior under feedback. A system presents tasks or possible
+actions, observes outcomes, and uses those outcomes to choose the next
+attempt.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+
+For LLM agents, that feedback loop now sits inside software workflows. Agents
+can retrieve information, call tools, and hand work to other agents. They can
+also produce user-facing results. The design still depends on objectives, task
+boundaries, and evaluation.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## From Games and Simulation to Agent Workflows
 
-Lanham's starting point isn't a chatbot. He describes early academic work where
-a team built a game to test children's executive functions. The team used simple
-neural networks and evolutionary algorithms to generate patterns and analyze
-player behavior
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-2:36-2:55). In [[person:micheallanham|Lanham's]]
-example, game AI works as an interaction environment. A system presents tasks,
-observes behavior, and adjusts what happens next.
+The game-AI side starts with interaction environments, not chatbots. In one
+academic project, a game tested children's executive functions. Simple neural
+networks and evolutionary algorithms generated patterns, then analyzed player
+behavior.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-The same game background reappears in Lanham's work on augmented reality and
-Unity. It also shows up in his sound-design and Python game-development
-teaching
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-5:45-7:36 and 19:42-20:23). The bridge is engineering structure rather than
-genre. Games force designers to model state, actions, feedback, and simultaneous
-behavior. Those are also core concerns in
-[[agent engineering]].
+Lanham's augmented reality, Unity, sound-design, and Python game-development
+work reinforce the same engineering structure. Games force designers to model
+state, actions, feedback, and simultaneous behavior. Those concerns transfer to
+[[agent engineering]].[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## Reinforcement Learning and Search Traditions
 
-Lanham places his move into
-[[reinforcement learning]]
-after game and signal-analysis work. In the interview, he names Alberta.
-He also names
-Richard Sutton as part of the research context that introduced him to RL
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-8:01-8:45). That [[person:micheallanham|Lanham]]
-background matters because older agent vocabulary already had goals, behavior,
-feedback, and environments before LLM systems made "agent" a product term.
+[[Reinforcement learning]] kept older agent vocabulary in view. Goals,
+behavior, feedback, and environments existed before LLM systems made "agent" a
+product term.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-Lanham then returns to evolutionary methods through evolutionary deep learning.
-He describes using evolutionary algorithms for hyperparameter search and
-network architecture modification, especially around convolutional neural
-networks
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-9:09-9:29). The bridge to LLM agents isn't that every agent is trained with RL
-or evolutionary search. In [[person:micheallanham|Lanham's]]
-discussion, many agent problems still look like search under feedback. The
-system generates candidates, scores behavior, and refines the next attempt.
+Evolutionary deep learning adds search through hyperparameter tuning and
+architecture changes.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+
+The connection to LLM agents isn't that every agent uses RL or evolutionary
+training. Many agent problems still look like search under feedback. The system
+generates candidates, scores behavior, and refines the next attempt.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## Evolutionary Prompting and LLM Behavior
 
-The most direct connection from evolutionary algorithms to LLMs appears in the
-prompt-engineering part of the interview. Lanham says recent systems use
-evolutionary algorithms to evolve prompts for LLMs and agents. The search looks
-for variants that produce better outputs
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-14:09-14:28). In [[person:micheallanham|Lanham's]]
-framing, [[prompt engineering]]
-sits near older optimization work.
+Teams can use evolutionary algorithms to search for prompt variants that
+produce better LLM or agent outputs. That connects evolutionary methods
+directly to [[prompt engineering]].[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Prompt engineering then sits near older optimization work.
 
 Prompts become candidates, model outputs become observable behavior, and
 evaluation decides which candidates survive.
 
-Lanham also keeps the tradeoff visible. He calls evolutionary prompt search
-computationally expensive and notes that prompt variations can expose
-unexpected LLM behavior
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-14:28-17:58). [[person:micheallanham|Lanham's]]
-game-AI lineage doesn't remove the need for ordinary production
-discipline. It increases the need for evaluation, cost control, and clear task
-boundaries.
+Evolutionary prompt search can be computationally expensive. Prompt variations
+can also expose unexpected LLM behavior.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+The game-AI lineage doesn't remove production discipline. It increases the need
+for evaluation, cost control, and clear task boundaries.
 
 ## Multi-Agent Design: Flow, Orchestration, Collaboration
 
-Lanham's strongest practical guidance is to keep agents lean. He warns against
-loading one agent with too many tools and instructions. He recommends breaking
-the workflow into tasks for individual agents
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-20:49-20:57). [[person:micheallanham|Lanham's]]
-advice makes this topic a concrete companion to
+Multi-agent work stays more tractable when each agent stays lean. Loading one
+agent with too many tools and instructions makes the system harder to reason
+about. Task-specific agents keep the workflow decomposed.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+That makes this topic a concrete companion to
 [[multi-agent-systems=>Multi-Agent Systems]] and
 [[Agent Engineering]].
 
-He distinguishes three coordination designs. In a flow, requirements agents pass
-work to planning agents. Planning agents then pass work to execution agents
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-23:48).
+The episode distinguishes three coordination designs. In a flow, requirements
+agents pass work to planning agents, and planning agents pass work to execution
+agents.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-In [[person:micheallanham|Lanham's]]
-orchestration design, a front-facing manager agent calls other agents. It
-checks their outputs and loops back when the work no longer matches requirements
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-25:20 and 30:09). Lanham also describes collaboration, where agents exchange
-outputs through a shared message channel.
+In orchestration, a front-facing manager agent calls other agents, checks their
+outputs, and loops back when the work no longer matches requirements.
+Collaboration uses a shared message channel where agents exchange
+outputs.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-He calls collaboration powerful, but
-expensive and weak for real-time responses
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-26:25-29:05).
+Collaboration can be powerful, but it's also expensive and weak for real-time
+responses.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## Support Assistants and Agent Tooling
 
-Lanham's present-day work gives the bridge a production target. He says he's
-building AI support assistants powered by multiple agents. The work includes
-deep research operator agents and other advanced tools
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-5:28). In [[person:micheallanham|Lanham's]] example,
-the game-AI lineage moves into support workflows.
+Support assistants give the bridge a production target. Multi-agent support
+systems can include deep-research operator agents and other advanced
+tools.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+The game-AI lineage moves into support workflows.
 
 Agents move from simulated actors into software components that help users with
 investigation, planning, retrieval, and action.
 
-For implementation, Lanham references the OpenAI Agent SDK because it supports
-guardrails and handoffs. He also connects agent workflows to MCP servers and
-sequential-thinking scratchpads
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-31:31-33:25). [[person:micheallanham|Lanham]]
-separates scratchpad-style reasoning from inter-agent communication. Agents
-usually pass results to one another instead of every private reasoning step
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-34:03).
+The OpenAI Agent SDK supports guardrails and handoffs. MCP servers and
+sequential-thinking scratchpads sit nearby in the tooling stack.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Scratchpad-style reasoning and inter-agent communication are different
+surfaces. Agents usually pass results to one another instead of every private
+reasoning step.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## NPC Behavior, Game Building, and Generated Worlds
 
-The NPC thread in this episode is narrow because Lanham doesn't present a
-complete NPC architecture. He does argue that generative AI could eventually
-produce more competent AI opponents in games
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-41:14). [[person:micheallanham|Lanham]] also imagines
-generative systems creating levels and quests. He also includes challenges and
-whole playable experiences from prompts
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-38:57-40:57).
+The NPC thread is narrow because the episode doesn't present a complete NPC
+architecture. Generative AI could eventually produce more competent AI
+opponents. It could also generate levels, quests, challenges, and whole playable
+experiences from prompts.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-The practical coding-agent examples are narrower and more immediate. Lanham
-describes asking LLMs to build a Spider Solitaire game. He later used a
-stronger model to produce a complete React implementation after bug-fix
-iterations
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-36:29-38:45).
+The coding-agent examples are narrower and more immediate. LLMs can generate a
+Spider Solitaire game, and a stronger model can produce a complete React
+implementation after bug-fix iterations.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-The Space Invaders example adds hard game-implementation
-constraints. The model has to handle bullet physics, collisions, and
-simultaneous movement
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-41:42-42:46). In [[person:micheallanham|Lanham's]]
-conversation, game development becomes a stress test for modern LLM agents. The
-output must compile, run, coordinate state, and feel playable.
+The Space Invaders example adds harder game constraints. The model has to
+handle bullet physics, collision logic, and simultaneous movement.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+
+Game development stress-tests modern LLM agents because output must compile,
+run, coordinate state, and feel playable.
 
 ## Evaluation Keeps the Bridge Honest
 
-Lanham closes the technical arc with evaluation and monitoring. He says agent
-systems need feedback mechanisms to assess performance consistency and
-understand output variance
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-57:39). For production applications,
-[[person:micheallanham=>Lanham]] emphasizes evaluation
-pipelines and variable control. He also emphasizes behavior explanation and
-monitoring tools such as Arize Phoenix
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-58:04).
+Agent systems need feedback mechanisms to assess performance consistency and
+understand output variance. Production applications also need evaluation
+pipelines, variable control, behavior explanation, and monitoring tools such as
+Arize Phoenix.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
-That's the durable lesson of the game-AI-to-agent bridge. Games and RL supply
-useful mental models for action and feedback, while evolutionary algorithms add
-a search lens. Modern [[agent-engineering|LLM agents]] add
+Games and RL supply mental models for action and feedback. Evolutionary
+algorithms add a search lens. Modern [[agent-engineering=>LLM agents]] add
 language, tools, orchestration, and support workflows. The engineering problem
-is to keep the system small enough to evaluate while still giving it enough
+is to keep the system small enough to evaluate. It still needs enough
 coordination, tooling, and feedback to act usefully.
+
+## Related Pages
+
+The closest companion pages are:
+
+- [[Agent Engineering]]
+- [[Multi-Agent Systems]]
+- [[Reinforcement Learning]]
+- [[Evolutionary Algorithms]]
+- [[Prompt Engineering]]

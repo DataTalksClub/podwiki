@@ -32,16 +32,16 @@ which starts from product discovery. Use the broader
 full path from experiments to shared platforms. The startup version keeps
 [[MLOps]] stage-aware because small teams
 run short on money, time, and people
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
-Use this roadmap when a [[startups|startup]] or
+Use this roadmap when a [[startups=>startup]] or
 [[startups=>startup team]] already has a model or
 data product idea and needs a production path.
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]]'s lean approach favors managed
 services and mature components first. Teams protect future flexibility with
 portable choices, repeatable deployment, and observability. They also keep
 technical debt visible
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## First Principles
 
@@ -53,7 +53,7 @@ can use the product. It needs enough
 to run the first useful product path. A two-month push can center on launch
 readiness. Dashboards and an industrialized API may matter more than trying
 twenty tools when a proven choice will move the product forward
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Treat every tool choice as a tradeoff among speed, portability, and
 maintenance. A managed service can save a four-to-ten-person company from
@@ -61,10 +61,10 @@ hiring dedicated infrastructure staff. Cloud and SaaS choices still add
 identity, key management, and configuration work. They also add migration and
 billing decisions.
 
-The startup principle isn't to avoid infrastructure. It's to buy the parts
-that save scarce attention, then keep the core workflow understandable enough
-to move later
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+Instead of avoiding infrastructure entirely, startups should buy the parts
+that save scarce attention. They should keep the core workflow understandable
+enough to move later
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 1: Choose SaaS Before You Build
 
@@ -75,21 +75,21 @@ the team needs to debug real use.
 
 Vendor solutions suit small teams because platform maintenance can pull people
 into server and BI work instead of product work
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Simon Stiebellehner makes the business case even sharper for
-[[ml-platforms|ML platforms]]. Models usually need to exist and show business
+[[ml-platforms=>ML platforms]]. Models usually need to exist and show business
 value before a company can justify heavy platform investment. Without real use,
 the platform team has to guess about users, workflows, and useful abstractions
-([[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 Use cloud credits carefully because credits can make a cloud provider feel free
 during the first year. The real cost appears when the team has to migrate, rewrite
 service-specific workflows, or keep paying for a platform it no longer likes.
-Cloud selection belongs with
+Choose cloud infrastructure alongside
 [[data strategy]] and
 [[security]], not just hosting
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Pick boring defaults where they remove debate:
 
@@ -104,7 +104,7 @@ These choices are usually easier to change later than a full proprietary ML
 platform. Richer managed ML platforms such as Vertex AI or SageMaker may
 accelerate a narrow workflow more than generic scripts on a remote server.
 They can also make migration and retraining harder if reproducibility was weak
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 2: Keep Portable Foundations
 
@@ -122,7 +122,7 @@ require a custom platform, but it does require enough discipline for another
 person to rebuild the environment and understand which model reached production.
 A central concern is whether models trained inside vendor platforms can be
 reproduced after migration
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Avoid console-only configuration when the setting is important to the product.
 Manual cloud clicks may be reasonable during a launch crunch. Once the setting
@@ -130,14 +130,14 @@ becomes part of the operating path, record what changed or move it into
 infrastructure as code. Cloud identity, key management, and hand-configured
 services create a replication risk. Six months later, the team may not remember
 how it assembled production
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Keep low-code and one-click ML deployment as a deliberate shortcut, not as an
 unexamined foundation. Low-code can help when a startup has only a data
 scientist and no software or systems engineer. The tradeoff is future
 flexibility. Some startups will choose speed first, but generic, portable
 components are preferable when the team can afford them
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 3: Add Manual Controls Where They Pay
 
@@ -154,9 +154,8 @@ A minimum set of operating pieces includes:
 - data versioning
 - reproducible pipelines
 
-The startup roadmap should borrow the control idea, then keep the
-implementation lighter
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+Startups can borrow the control idea, then keep the implementation lighter
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 A model registry can start as a convention before it becomes a platform. For a
 single model, record the object-store folder, artifact name, and code commit.
@@ -164,14 +163,14 @@ Add the training-data reference, metrics file, owner, and deployment note. An S3
 bucket works as a tactical registry and data-versioning solution. It isn't the
 strategic end state, but it can show which artifact is being used and how it was
 produced
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 A startup doesn't need a large release-management department for
 [[ci-cd=>CI/CD]]. It does need a repeatable path
 from code and model artifact to production. A minimal startup stack starts with
 Python and CI/CD-driven orchestration. Tools such as Dagster or MLflow fit when
 they solve an immediate orchestration or tracking problem
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 4: Version, Evaluate, and Monitor the Basics
 
@@ -187,11 +186,10 @@ Version the parts that explain a production prediction:
 For early teams,
 [[experiment tracking]] can
 start with MLflow or a hosted tool. A disciplined artifact-and-metadata folder
-can also work. The requirement isn't tool purity. The team needs to compare
-runs. It also needs to recover why a model changed before customers experience
-the change
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+can also work. Teams don't need tool purity. They need to compare runs and
+recover why a model changed before customers experience the change
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]],
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 Evaluate with the smallest set of checks that can block a bad release. Keep the
 offline metric, a baseline comparison, and a data-quality check. Add one
@@ -201,7 +199,7 @@ Scale-up practice supports this order. Standardize CI, repository structure,
 parameterization, and tests before adding heavier governance. Prioritize
 data-transformation tests because preprocessing and post-processing failures
 often become production failures
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Monitor what the customer or internal user will notice first. A startup may
 start with application errors, latency, stale jobs, and missing inputs. Add
@@ -209,7 +207,7 @@ prediction distributions and simple data-quality checks before a full
 [[model monitoring]] platform.
 Practical startup choices include Logfire, Prometheus/Grafana, and Streamlit. A
 tool working in an hour can beat a more mature stack the team can't operate yet
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 5: Manage Debt Before It Becomes the Architecture
 
@@ -219,21 +217,21 @@ acceptable only when someone understands the risk and leaves notes. Security
 holes or data leaks can destroy the company. Debt tracking belongs in lean
 [[production]] work, not in a cleanup
 phase after product-market fit
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Use AI-assisted coding with review. One person can now touch infrastructure,
 pipelines, web code, and deployment scripts faster than they can deeply
 understand each layer. Code that works today can become a maintenance problem
 later. In a startup, pair that speed with code review, ownership notes, and
 secrets hygiene. Revisit debt before it hardens into the default architecture
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 Keep senior judgment close to high-risk shortcuts. A junior practitioner
 shouldn't be the only data scientist in a startup, because missing experience
 may hide security, maintainability, and modeling risks. A lean stack still needs
 mentorship or pairing when the model touches valuable data. It also needs an
 experienced reviewer for customer-facing decisions
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## Stage 6: Introduce Shared Infrastructure After Repetition
 
@@ -245,7 +243,7 @@ That doesn't mean waiting to build every shared piece, because minimal platform
 components can grow alongside real use. Experiment tracking may pay off for one
 model or a small group of data scientists. Broader abstractions should wait
 until the team can see common needs across several use cases
-([[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 A startup with multiple model builders should start standardizing repositories
 and templates. It should also standardize orchestration and artifact promotion.
@@ -255,11 +253,11 @@ work. Do the same when customer incidents repeat.
 A framework becomes useful when similar projects repeat over two or three
 years. At scale-up stage, an enabling MLOps team helps product teams deploy
 models. It also helps them maintain and monitor those models
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]],
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Use [[platform adoption]] rules
-before introducing a heavier [[ml-platforms|ML platform]].
+before introducing a heavier [[ml-platforms=>ML platform]].
 
 Treat the platform like an internal product:
 
@@ -269,7 +267,7 @@ Treat the platform like an internal product:
 
 For a startup, platform work is justified when it removes repeated friction
 from product work. A missing box in the stack diagram isn't enough
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Add heavier pieces in the order the pain appears:
 
@@ -280,30 +278,30 @@ Add heavier pieces in the order the pain appears:
 
 Start from the most important organizational problem. Use tools already
 available, and flag missing basics such as version control early
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 ## Finance and Scale-Up Contrast
 
 Finance teams move governance earlier with release management, approvals, and
 test evidence. They also keep rollback procedures, package controls, and a clear
 production record
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 Those controls slow delivery, but they create trust and auditability. They
 matter when model changes must fit existing
 [[governance]] and DevOps processes
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]).
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 Scale-up MLOps moves adoption and shared-team design earlier.
 [[person:raphaelhoogvliets=>Raphaël Hoogvliets]]'s scale-up model treats
 centralized MLOps as an enabling team that works with product teams and ML
 engineers. The team owns developer experience and deployment support. It also
 owns maintenance, monitoring, and adoption metrics
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 A five-person startup faces a different constraint. It first needs to ship and
 observe one product path without owning a platform
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 The lean startup path sits between those two. It borrows finance's respect for
@@ -313,8 +311,8 @@ and repo structure. It also borrows testing, monitoring, and reproducibility.
 
 It delays centralized platform work until repeated projects or repeated pain
 justify the investment
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]],
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 ## The Roadmap Checkpoint
@@ -330,8 +328,8 @@ five checks:
 
 The startup and finance perspectives show the same control. A simple
 end-to-end process is better than a sophisticated partial stack
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]],
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 After that checkpoint, choose the next constraint deliberately. For a product
 startup, continue with
@@ -347,5 +345,5 @@ bring in
 [[Security]], and
 [[Governance]]. Do that before a
 shortcut becomes customer-facing risk
-([[podcast:lean-mlops-for-startups|Lean MLOps for Startups]],
-[[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]],
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
