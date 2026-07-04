@@ -1,8 +1,8 @@
 ---
 layout: article
 tags: ["guide"]
-title: "Managing Data Science Projects"
-summary: "How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption."
+title: "Data Science Project Guide"
+summary: "How data science project management frames, scopes, measures, ships, and hands off analytics and ML work with stakeholders and adoption owners."
 keyword: "data science project management"
 secondary_keywords:
   - "project management for data science"
@@ -14,13 +14,21 @@ related_wiki:
   - Data Science
   - Business Skills for Data Professionals
   - Data Product Management
+  - Data Product Manager
   - Data Science for Managers
+  - Data Team Lead Role
   - Machine Learning System Design
   - Evaluation
   - Metrics
+  - KPIs
+  - Software Engineering
+  - Testing
+  - CI/CD
+  - MLOps
   - Leadership
   - Data Teams
   - Production ML Project Checklist
+  - Data Product Adoption
 ---
 
 Data science project management turns an ambiguous business, analytics, or
@@ -28,6 +36,11 @@ machine learning request into useful shipped work or a justified stop decision.
 A data science project manager or data lead names the decision and defines a
 measurable target. They keep the smallest useful version explicit, plan the
 shipping path, and name the handoff owner.
+
+The role boundary depends on the team. [[Data Science for Managers]] covers
+people and strategy ownership, while [[Data Team Lead Role]] covers team
+execution. [[Data Product Manager]] owns discovery and adoption when the project
+becomes a reusable product, not only an analysis task.
 
 The practice draws from [[Data Science]],
 [[Business Skills for Data Professionals]],
@@ -43,9 +56,8 @@ They deploy only when the result is ready to leave analysis
 ([[cite:crisp-dm=>CRISP-DM]]).
 
 [[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series=>Why Data Science Projects Fail]]
-by Evan Shellshear and Douglas Gray grounds the same failure modes the podcast
-returns to repeatedly. Teams misframe the business problem, over-scope pilots,
-or never reach production adoption.
+by Evan Shellshear and Douglas Gray names failure modes around weak business
+framing, oversized pilots, and missing production adoption.
 [[book:20221010-managing-machine-learning-projects=>Managing Machine Learning Projects]]
 by Simon Thompson covers the same project lifecycle from the delivery side. It
 focuses on scoping, risk management, and stakeholder alignment for ML-specific
@@ -92,10 +104,13 @@ failure mode deserves the most attention.
 
 One emphasis is transferable project-management craft. Planning, stakeholder
 communication, and business KPIs transfer into data work. CRISP-DM is a useful
-project framework. Projects that affect other people need Git and testing. They
-also need Docker, deployment, and clean code because they can't remain only
-notebooks
+project framework.
+
+Projects that affect other people need Git and testing. They also need Docker,
+deployment, and clean code because they can't remain only notebooks
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
+That connects project management to [[Software Engineering]], [[Testing]],
+[[CI/CD]], and [[MLOps]] once the work has users beyond the analyst.
 
 Another emphasis is lifecycle control. A lead data scientist embedded with
 marketing stakeholders still runs work through a single front door, Definition
@@ -211,7 +226,7 @@ Metrics need a decision owner and a unit of action. KPI design is top-down
 alignment with executive decisions, with vanity metrics and KPI gaming as the
 main hazards
 ([[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy]]).
-For managed projects, [[Metrics]]
+For managed projects, [[Metrics]] and [[KPIs]]
 aren't only dashboard numbers. They're acceptance criteria, guardrails, and
 review triggers.
 
@@ -255,7 +270,10 @@ That matches the [[Machine Learning System Design]]
 habit of writing goals, non-goals, assumptions, and data paths before the work
 becomes expensive. Serving constraints and monitoring belong in the same design.
 
-A project manager keeps the delivery unit small enough to learn.
+A project manager keeps the delivery unit small enough to learn. The same
+incremental structure appears in agile ML management and data product delivery
+([[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]])
+([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
 
 A useful increment might be a small validation or delivery milestone:
 
@@ -301,3 +319,17 @@ That handoff links [[MLOps]],
 [[Production]]. A project is unfinished
 if nobody knows what happens when the metric moves, the input data changes, or
 the model stops helping the user.
+
+## Related Pages
+
+Use these pages for the main project-management branches:
+
+- [[Data Product Management]]
+- [[Data Product Manager]]
+- [[Data Science for Managers]]
+- [[Data Team Lead Role]]
+- [[Metrics]]
+- [[KPIs]]
+- [[ML System Design Documents]]
+- [[Production ML Project Checklist]]
+- [[Data Product Adoption]]

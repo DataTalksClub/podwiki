@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10549
+    "links": 10583
   },
   "nodes": [
     {
@@ -34,17 +34,6 @@
       "url": "/wiki/ai-tools-for-personal-productivity/",
       "count": 1,
       "search": "AI Tools Workflow Guide How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks."
-    },
-    {
-      "id": "wiki:algorithmic-trading",
-      "type": "article",
-      "collection": "guide",
-      "label": "Algorithmic Trading",
-      "title": "Algorithmic Trading",
-      "url": "/wiki/algorithmic-trading/",
-      "count": 1,
-      "search": "Algorithmic Trading How Python stock analysis connects market data, backtesting, validation, risk controls, and algorithmic trading deployment.",
-      "keyword": "python stock analysis"
     },
     {
       "id": "wiki:data-analyst-to-analytics-engineer",
@@ -242,6 +231,17 @@
       "count": 1,
       "search": "Data Roles Guide Guide to common data roles, how responsibilities differ, how to choose a target role, and what portfolio evidence each role needs.",
       "keyword": "data roles"
+    },
+    {
+      "id": "wiki:data-science-project-management",
+      "type": "article",
+      "collection": "guide",
+      "label": "Data Science Project Guide",
+      "title": "Data Science Project Guide",
+      "url": "/wiki/data-science-project-management/",
+      "count": 1,
+      "search": "Data Science Project Guide How data science project management frames, scopes, measures, ships, and hands off analytics and ML work with stakeholders and adoption owners.",
+      "keyword": "data science project management"
     },
     {
       "id": "wiki:data-science-recruiter",
@@ -466,7 +466,7 @@
       "title": "Machine Learning for Business",
       "url": "/wiki/machine-learning-for-business/",
       "count": 1,
-      "search": "Machine Learning for Business How to choose business ML use cases, compare baselines, check data readiness, define metrics, and plan adoption and ownership.",
+      "search": "Machine Learning for Business How businesses choose ML use cases, compare baselines, test small budget options, define business models, and plan adoption and ownership.",
       "keyword": "machine learning business"
     },
     {
@@ -479,17 +479,6 @@
       "count": 1,
       "search": "Machine Learning for Startups A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
-    },
-    {
-      "id": "wiki:data-science-project-management",
-      "type": "article",
-      "collection": "guide",
-      "label": "Managing Data Science Projects",
-      "title": "Managing Data Science Projects",
-      "url": "/wiki/data-science-project-management/",
-      "count": 1,
-      "search": "Managing Data Science Projects How data teams frame, scope, measure, ship, and hand off analytics and ML projects with stakeholders, baselines, evaluation, and adoption.",
-      "keyword": "data science project management"
     },
     {
       "id": "wiki:marketing-to-analytics-engineering",
@@ -683,6 +672,17 @@
       "count": 1,
       "search": "Product vs Data Analyst A comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
       "keyword": "product analyst vs data analyst"
+    },
+    {
+      "id": "wiki:algorithmic-trading",
+      "type": "article",
+      "collection": "guide",
+      "label": "Python Stock Analysis",
+      "title": "Python Stock Analysis",
+      "url": "/wiki/algorithmic-trading/",
+      "count": 1,
+      "search": "Python Stock Analysis How Python stock analysis connects market data, features, backtesting, validation, risk controls, and algorithmic trading deployment.",
+      "keyword": "python stock analysis"
     },
     {
       "id": "wiki:qa-to-ml-and-data-engineering",
@@ -25776,6 +25776,42 @@
     },
     {
       "source": "wiki:algorithmic-trading",
+      "target": "wiki:apache-airflow",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:apache-airflow",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:data-analysis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:data-analysis",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -25807,6 +25843,18 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:interpretability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:interpretability",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -25855,6 +25903,30 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:orchestration",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:reproducibility",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -39984,12 +40056,30 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:ci-cd",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:data-product-adoption",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:data-product-management",
       "kind": "article-chip",
       "weight": 1
@@ -39997,6 +40087,18 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-manager",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -40050,6 +40152,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:data-team-lead-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:data-teams",
       "kind": "article-chip",
       "weight": 1
@@ -40069,6 +40177,18 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:kpis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:kpis",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -40128,6 +40248,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:model-monitoring",
       "kind": "article-chip",
       "weight": 1
@@ -40153,6 +40279,30 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:software-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:testing",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -55674,6 +55824,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:a-b-testing",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:business-skills-for-data-professionals",
       "kind": "article-chip",
       "weight": 1
@@ -55693,6 +55849,18 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -55740,6 +55908,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:data-strategy",
       "kind": "article-chip",
       "weight": 1
@@ -55782,6 +55956,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:machine-learning-system-design",
       "kind": "article-chip",
       "weight": 1
@@ -55801,6 +55981,18 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -55855,6 +56047,18 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:production-ml-project-checklist",
       "kind": "article-wiki",
       "weight": 5
     },

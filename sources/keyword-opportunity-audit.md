@@ -180,7 +180,7 @@ AI-powered business intelligence was moved into `_wiki/business-intelligence.md`
 so the AI material supports a durable wiki topic rather than a standalone
 keyword guide.
 
-## Next Content Step
+## Current Content Step
 
 Replace the local gaps workbook with the populated 689-row export, then group
 those gap suggestions separately from the Ubersuggest keyword backlog. Until
@@ -188,20 +188,22 @@ that file is available locally, do not use the headers-only workbook as a source
 for content decisions.
 
 The 2026-07-01 follow-up audit confirmed that the local workbook still contains
-only headers. The strongest remaining CSV-backed candidates are now:
+only headers. The strongest CSV-backed candidates from the current CSV have now
+been published and tightened:
 
 1. `machine learning business`, `machine learning for small business`, and
-   related variants. Candidate: `_wiki/machine-learning-for-business.md`,
+   related variants are covered by `_wiki/machine-learning-for-business.md`,
    grounded in data products, ML strategy, startup, adoption, metrics, and
    production ML episodes.
 2. `data science project management`, `project management for data science`,
-   `data science project manager`, and related variants. Candidate:
+   `data science project manager`, and related variants are covered by
    `_wiki/data-science-project-management.md`, grounded in stakeholder planning,
    scope, KPIs, delivery, and analytics/ML project evidence.
 3. `data science stock market`, `data analytics stock market`, `python stock
-   analysis`, and related variants. Candidate: `_wiki/algorithmic-trading.md`,
-   grounded in the algorithmic-trading episode and written as educational
-   synthesis, not financial advice.
+   analysis`, and related variants are covered by `_wiki/algorithmic-trading.md`,
+   grounded in the algorithmic-trading episode and the Machine Learning for
+   Algorithmic Trading book reference. The page is educational and explicitly
+   not trading advice.
 
 Improve existing pages rather than creating new ones for data events,
 podcast-discovery queries, Tavily, and Relevant Search. Keep ignoring book/PDF,
