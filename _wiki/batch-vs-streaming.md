@@ -75,16 +75,26 @@ That keeps streaming close to [[data governance]], [[Data Mesh]], and
 ## Latency and Product Action
 
 Batch fits reports, warehouse models, and backfills. It also fits campaigns and
-model jobs where delayed results still support the decision. Batch inference
-loads and preprocesses data. It also builds features and writes inference
+model jobs where delayed results still support the decision. In batch
+inference, teams load and preprocess data. They also build features and write
 outputs.[[cite:building-production-ml-platform-and-mlops-team@31:15=>Batch vs Online Serving]]
+In ML platform design, batch inference often looks closer to training than to
+online serving. A workflow loads data, preprocesses it, runs training or
+inference, and writes an output artifact or prediction table
+[[cite:building-production-ml-platform-and-mlops-team@31:51=>Batch vs Online Serving]].
 
-That structure is easier to operate with [[experiment-tracking=>experiment tracking]],
+Teams operate that structure with [[experiment-tracking=>experiment tracking]],
 [[model-registry=>model registries]], and
 [[data-quality-and-observability=>data quality and observability]].
 Platform teams then choose a deployment mode. A scheduled batch job can write
-predictions for later use, while online serving exposes an API for
-request-time decisions.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+predictions for later use. Online serving exposes an API for request-time
+decisions.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+
+Tool labels can hide the operating mode. A managed "batch" feature may spin up
+an online endpoint, send a large batch through it, and tear the endpoint down.
+That may work, but teams still need to check cost, performance, and whether the
+platform supports the batch mode they need
+[[cite:building-production-ml-platform-and-mlops-team@25:35=>Batch vs Online Serving]].
 
 Streaming fits event-arrival actions such as fraud checks, recommendations, and
 request-time enrichment. A fraud workflow can use daily batch jobs for feature

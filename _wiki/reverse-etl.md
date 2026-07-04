@@ -42,6 +42,12 @@ warehouse tables back to source systems or business tools. She then contrasts
 custom scripts with low-code reverse ETL tools. Sales or marketing teams can
 use those warehouse outputs inside their own systems [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]].
 
+In her lead-scoring example, analytics ranks leads with behavioral and
+demographic data inside the warehouse. Sales needs that rank in a CRM to decide
+who to contact. Reverse ETL moves the modeled score to the operational system
+instead of leaving it in a dashboard
+[[cite:data-engineering-tools-modern-data-stack@35:42=>ETL vs ELT episode]].
+
 ## Stack Placement
 
 The DataTalks.Club discussions converge on a warehouse-first sequence where
@@ -137,9 +143,15 @@ the same comparison. Reverse ETL appears only after those modeling steps [[cite:
 
 Natalie gives the same dependency from the data engineering side. Her episode
 connects Airbyte-style loading and warehouse-side transformations. It also
-covers dbt, data marts, orchestration, and reverse data flows. Reverse ETL
-depends on warehouse tables already being useful enough to send back into
-business systems [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]].
+covers dbt, data marts, orchestration, and reverse data flows.
+
+Reverse ETL depends on warehouse tables already being useful enough to send back
+into business systems [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]].
+She calls it reverse ETL rather than reverse ELT because the transformation
+happens before the data leaves the warehouse. The destination CRM or marketing
+tool receives a finalized table, mart, score, or segment. It doesn't become the
+place where the analytical transformation runs
+[[cite:data-engineering-tools-modern-data-stack@38:36=>ETL vs ELT episode]].
 
 ## Ownership and Change Control
 

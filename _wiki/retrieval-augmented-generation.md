@@ -72,10 +72,13 @@ RAG as solved. Latency and cost still matter. Noisy context and
 garbage-in-garbage-out problems still matter too. Retrieval can become one tool
 inside a larger agentic system.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Building Agentic AI Systems]]
 
-Long-context research adds another boundary because large context windows can
-still degrade on specialized documents. Chunking, retrieval, and summarization
-remain useful even when a model advertises a large context
-window.[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
+Large context windows can still degrade on specialized documents. In
+financial-domain tests, Lavanya Gupta's team split prompts at 32k tokens. The
+team still saw failures around 64k on models with larger advertised windows.
+The team still uses large-document fallbacks such as chunking, retrieval, and
+summarization. Those fallbacks route large documents through reliable
+subproblems instead of trusting the whole window.[[cite:applied-llm-research-and-career-growth-in-practice@12:36=>Applied LLM Research]]
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
 
 ## Retrieval and Context Design
 
@@ -93,6 +96,13 @@ preserve enough nearby context before the model generates an answer
 Failure analysis should separate retrieval failures from prompt or formatting
 failures. Teams can then fix missing or noisy context before polishing the
 prompt.[[cite:practical-llm-engineering-and-rag=>Practical RAG]]
+
+Long-document systems should add another separation. First test whether raw
+long context still works for the domain. Then decide whether chunking,
+retrieval, or summarization gives a more reliable path. That keeps RAG
+connected to [[long-context-llm-evaluation=>long-context evaluation]] instead
+of treating retrieval as only a workaround for small context windows
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 RAG also belongs to the broader [[llm-production-patterns=>LLM production]]
 skill stack. Engineers have to choose what knowledge to capture and how to

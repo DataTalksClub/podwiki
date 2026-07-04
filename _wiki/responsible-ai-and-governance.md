@@ -33,6 +33,13 @@ fairness checks, human oversight, and drift monitoring. The same governance
 surface extends to privacy architecture, data access, LLM security, and agent
 evaluation.
 
+Supreet Kaur draws the boundary clearly. Explainable AI gives teams tools for
+understanding and justifying model behavior. Responsible AI asks teams to put
+controls in place before the incident happens. Teams use
+[[Interpretability]] as review evidence. They still need governance, privacy,
+monitoring, and accountable launch decisions
+[[cite:responsible-explainable-ai-bias-detection@8:20=>Responsible and Explainable AI]].
+
 ## Lifecycle Accountability
 
 Responsible AI covers the full lifecycle of an AI system. Teams review the
@@ -152,6 +159,21 @@ This places fairness beside
 [[Model Monitoring]] and
 [[LLM Evaluation Workflows]]. Metrics provide evidence, while product, domain,
 and risk owners decide what the evidence permits.
+
+AutoML needs the same human review. Supreet Kaur treats black-box model training
+as an oversight risk when teams skip the input-data review. Even if a tool
+trains a strong model, people still need to explore the data. They also need to
+check which populations are represented and decide whether the use case needs
+interpretability or stronger controls
+[[cite:responsible-explainable-ai-bias-detection@50:17=>Responsible and Explainable AI]].
+
+Hiring tools show the concrete failure mode. A screening model trained on
+historical hiring data can reproduce the old pipeline's gender imbalance until
+someone questions the shortlist. Teams connect that review to
+[[CV Screening]], [[Hiring]], and [[Data Quality and Observability]]. They start
+remediation with data-level bias checks, feature review, and a human path for
+contesting automated recommendations
+[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible and Explainable AI]].
 
 Operational monitoring can make fairness more useful than a detached
 explainability artifact. Segment-level checks and bias monitoring show whether
@@ -281,6 +303,13 @@ score. Human review makes auditability part of LLM product design
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 Lineage and evaluation make the same point for agents
 [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
+
+Fairness monitoring needs the same specificity as launch review. Supreet Kaur's
+feedback-loop example shows how aggregate accuracy can look healthy while
+recommendations narrow toward one demographic group. Teams have to repeat the
+input checks after release. They also watch population slices and use basic
+distribution tests where they fit the data
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
 
 Responsible AI systems use constrained automation for high-stakes actions, where
 AI assists with summaries, recommendations, and routing. Validators, logs,

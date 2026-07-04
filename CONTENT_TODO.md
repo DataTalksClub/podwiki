@@ -114,6 +114,31 @@ high-value graph edges. These are page-enrichment tasks, not new-page requests.
 Keep using `data-team-roles` as foundational role-taxonomy evidence when
 tightening role-boundary pages.
 
+The first `docs/mining/report_pod_10.md` enrichment batch was integrated on
+2026-07-04:
+
+- applied LLM research, long-context evaluation, RAG fallback, industry
+  publishing, Kaggle dataset work, portfolio strategy, career transitions, and
+  interview prep now strengthen the relevant LLM, research, portfolio, and
+  career pages
+- data-team scaling and last-mile delivery now strengthen team-building, data
+  quality, adoption, product-management, intake, metrics, team, and project
+  management pages
+- production ML platform evidence now strengthens MLOps, platform engineering,
+  platform architecture, experiment tracking, model registry, serving,
+  developer experience, governance, lean MLOps, and monitoring pages
+- modern-data-stack evidence now strengthens ETL/ELT, analytics engineering,
+  warehouse, lake, CDC, reverse ETL, modern stack, data-engineer role, and open
+  source pages
+- fairness, responsible-AI, privacy, monitoring, security, contribution, and
+  scikit-learn evidence now strengthens the responsible-AI cluster
+
+Remaining `report_pod_10.md` work for later passes: data-science ABC roles,
+data-translator strategy, IoT/data-architect path, production chatbot security,
+standing out in data science, mentoring-in-tech enrichment, search/RAG,
+practical LLM engineering/RAG, data conference building, and modern data
+engineering trends.
+
 ## Roles
 
 Create role pages that explain the work, the boundary with nearby roles, and the

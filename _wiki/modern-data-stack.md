@@ -44,6 +44,15 @@ systems.[[cite:data-engineering-tools-modern-data-stack]]
 
 The typical modern analytics stack is best-of-breed tools rather than one
 monolith.[[cite:data-engineering-tools-modern-data-stack]]
+Kwong names the split through concrete tools. Airbyte handles extract-load into
+the warehouse. dbt handles SQL transformations after data arrives.
+
+Airflow can schedule and run Airbyte work. It's the orchestrator rather than the
+ETL or ELT tool. Reverse ETL sends selected warehouse outputs back into
+operational tools.
+[[cite:data-engineering-tools-modern-data-stack@30:59=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@31:31=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@35:42=>ETL vs ELT and the Modern Data Stack]].
 
 Tammy Liang's small-team version used Stitch for loading and GCP as the cloud
 foundation. A [[dbt]] layer handled transformations. The team
@@ -118,6 +127,11 @@ first helps when teams need flexibility.[[cite:data-engineering-tools-modern-dat
 The same choice matters in the [[ETL vs ELT]] tradeoff. Loading first preserves
 flexibility when business logic changes later. ETL can still fit large
 enterprises or complex staging needs.
+
+CDC belongs inside ingestion because it moves changed rows instead of full
+tables. Schema evolution still needs owners when a source adds Salesforce fields.
+[[cite:data-engineering-tools-modern-data-stack@45:59=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@48:58=>ETL vs ELT and the Modern Data Stack]].
 
 The pipeline-engineering view compares Upsolver and dbt by separating
 ingestion-focused pipeline authoring from transformation-focused modeling. It

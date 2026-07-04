@@ -114,8 +114,12 @@ data swamp. In her explanation, the swamp isn't just "too much data". It's
 unused, low-quality, poorly understood data that people can't confidently use.
 She ties the fix to [[data governance]].
 
-Teams need to know where data came from and who owns it. They also need to know
-what it means and whether it's still useful
+Teams need data origin, ownership, and current usefulness. Kwong extends the
+warning beyond lakes with a warehouse schema called "ad hoc". It can create the
+same problem when no rules say what belongs there or how long it stays.
+
+Governance prevents the swamp by naming purpose and retention. It also records
+ownership plus relevance across lake and warehouse storage.
 [[cite:data-engineering-tools-modern-data-stack@21:22=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson makes the same point from the platform side. Dumping every dataset
@@ -194,6 +198,12 @@ Kwong ties lake quality to ownership and cleanup, so governance makes a lake
 usable. Teams need to know which data is stale. They also need to know which
 data has an owner. They need to know which data should be removed or ignored
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+
+She also makes cleanup a team responsibility. Business analysts know which use
+cases still need a dataset. Analytics engineers can trace those needs back to
+the ingestion layer. The governance owner can remove or quarantine data with no
+current or expected use case
+[[cite:data-engineering-tools-modern-data-stack@43:02=>ETL vs ELT and the Modern Data Stack]].
 
 Albertsson ties governance to architecture. He places object storage beside
 ingress, egress, and self-service SQL. Later, he discusses lineage and

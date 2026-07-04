@@ -83,6 +83,13 @@ A narrower decision can come first when it has clearer ownership and better data
 readiness than the largest spend area.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:52=>Last-Mile Data Delivery]]
 
+Pareto thinking makes that ranking practical. The team looks for high-impact
+questions where a small amount of analysis can change a large decision. It still
+has to bring the answer to the operator at the moment of action. A technically
+useful answer loses most of its value when it never enters the meeting, campaign
+decision, or operations review.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@16:45=>Last-Mile Data Delivery]]
+
 ## Different Intake Risks
 
 The guests agree that intake needs business context, but they focus on
@@ -99,6 +106,13 @@ Users won't adopt a data product when its cost exceeds its perceived
 benefit[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
 That shifts prioritization toward high-value decisions and low-friction
 interfaces.
+
+The first adoption candidate should also have a willing owner when possible. A
+smaller project with a stakeholder who wants to make decisions with data can
+create an advocate and a visible success story. Trying to convert the most
+resistant owner first can turn intake into change management before the team has
+proof that the product helps.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
 
 Lior Barak focuses on translation and proof[[cite:data-translator-role-and-data-strategy]].
 Data people should sit with business users and see their workflow[[cite:data-translator-role-and-data-strategy]].

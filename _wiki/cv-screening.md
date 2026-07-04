@@ -127,6 +127,15 @@ adding fairness checks, or routing the shortlist through human review. Teams
 also need governance over feature choices and a human who's
 accountable for questioning the system's shortlist[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]].
 
+CV screening doesn't have to avoid every automated aid, but the aid needs a
+review path. If a recruiter or hiring manager keeps seeing one group disappear
+from the shortlist, they need enough authority and evidence to pause the screen.
+They can then look at the source data and ask whether the model learned old
+hiring behavior. That puts automated screening inside
+[[Responsible AI and Governance]] rather than outside normal hiring
+accountability
+[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]].
+
 ## Portfolio Evidence for Screenable Claims
 
 Portfolio evidence matters most when the candidate lacks direct role history or

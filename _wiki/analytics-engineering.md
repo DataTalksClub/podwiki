@@ -134,10 +134,19 @@ usable form for analysts and data scientists. Analytics engineering starts after
 that handoff, where reusable business definitions and quality checks become the
 product.[[cite:data-team-roles@13:58=>Data Team Roles Explained]]
 
-Kwong makes this boundary concrete through ELT. In that ELT flow, source data is
-loaded first and warehouse-side transformations serve analytical users
+Kwong ties this boundary to ELT. Teams load source data first, then build
+warehouse-side transformations for analytical users
 ([[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]],
 [[Data Engineering Platforms]]).
+
+She also explains why the role emerged around SQL and dbt. Analysts usually
+work inside the warehouse. Data engineers may be focused on platform and
+infrastructure. With loaded source data available, an analytics engineer can
+build warehouse transformations with SQL and dbt. They don't have to wait for
+engineering to change an upstream pipeline
+([[cite:data-engineering-tools-modern-data-stack@12:39=>Modern Data Stack episode]],
+[[dbt]],
+[[ETL vs ELT]]).
 
 From the pipeline side, ingestion and orchestration handle raw events.
 Pre-processing covers ordering, deduplication, and PII masking. Analytics
@@ -165,6 +174,14 @@ Common responsibilities include SQL transformations and dbt projects, with
 dimensional or BI modeling nearby. Tests plus documentation belong in the same
 work, along with metric and semantic definitions. Source-change debugging also
 belongs there.
+
+dbt isn't only a tool preference. Kwong frames dbt as the practical way for
+warehouse users to model data after ingestion. Perez Mola and Perafan connect
+that work to tests and DAGs. They also connect it to software engineering
+discipline
+([[cite:data-engineering-tools-modern-data-stack@31:31=>Modern Data Stack episode]],
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 The same owner negotiates definitions with analysts and data scientists.
 Product managers often join with backend and data engineers.

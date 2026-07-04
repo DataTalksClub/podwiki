@@ -188,6 +188,18 @@ affect the business. The same discussion links Airbyte to ELT, dbt, CDC, and the
 modern data stack
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]].
 
+Kwong's Airbyte discussion also shows why licensing becomes a product strategy
+question. Open source helps cover connectors that a proprietary vendor may never
+prioritize. A cloud provider can also host an open project and compete with the
+company behind it.
+
+Airbyte was discussing whether MIT was the right license as it launched cloud
+features. Kwong puts SSO and RBAC in that cloud layer. She also names
+enterprise security.
+[[cite:data-engineering-tools-modern-data-stack@43:45=>ETL vs ELT and Data Lake vs Warehouse]]
+[[cite:data-engineering-tools-modern-data-stack@48:26=>ETL vs ELT and Data Lake vs Warehouse]]
+[[cite:data-engineering-tools-modern-data-stack@49:32=>ETL vs ELT and Data Lake vs Warehouse]].
+
 This is why open source sits next to
 [[data engineering tools]],
 [[modern data stack]],

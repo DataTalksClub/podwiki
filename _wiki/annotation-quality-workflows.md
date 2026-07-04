@@ -185,6 +185,14 @@ response reaches the user when accuracy matters. Moderation workflows use the
 same assistant rule: the model flags possible problems, and people remain
 responsible for judgment.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
+Fairness work uses the same review structure outside labeling. In Tamara
+Atanasoska's moderation example, data scientists and product managers worked
+with fraud specialists and moderators. Together, they reviewed model decisions
+before an item could affect users. That makes human-in-the-loop review a
+responsible-AI control, not only an annotation-quality technique
+[[cite:fairness-in-ai-ml-engineering@35:23=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@37:13=>Fairness in AI/ML Engineering]].
+
 Large language models can also help with MVPs or initial labels. Cost and
 control still matter, as do bias, privacy, and production fitness. LLM labels
 are candidate inputs. They still need review, baselines, and downstream tests

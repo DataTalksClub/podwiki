@@ -176,6 +176,14 @@ They also make responsible-ML contribution less abstract. Contributors can work
 on documentation, examples, or compatibility issues while they learn why
 fairness metrics need domain judgment.
 
+Her own path shows why the first contribution should be reviewable. She met the
+Probabl team through the scikit-learn community and made small pull requests.
+She later worked on Fairlearn, scikit-learn inspection, and `skops`
+compatibility. That turns open-source contribution into evidence of ecosystem
+judgment, not only general Python ability
+([[cite:fairness-in-ai-ml-engineering@39:18=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]).
+
 Academic open-science work is another valid ML contribution surface because
 Johanna Bayer treats software as a research output. Toolboxes, published code,
 and DOIs make methods easier to cite and reuse. They also make methods easier to

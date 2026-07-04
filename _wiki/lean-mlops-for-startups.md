@@ -100,6 +100,12 @@ value before a company can justify heavy platform investment. Without real use,
 the platform team has to guess about users, workflows, and useful abstractions
 ([[cite:building-production-ml-platform-and-mlops-team@47:08=>Models Before Platforms]]).
 
+That doesn't rule out all platform work. It rules out a platform built ahead
+of customers and workflows. A startup can choose one promising use case and
+ship the model path. It can then build only the platform pieces that the work
+already needs
+([[cite:building-production-ml-platform-and-mlops-team@49:19=>Minimal Platform Pieces]]).
+
 Use cloud credits carefully because credits can make a cloud provider feel free
 during the first year. The real cost appears when the team has to migrate, rewrite
 service-specific workflows, or keep paying for a platform it no longer likes.
@@ -261,6 +267,12 @@ components can grow alongside real use. Experiment tracking may pay off for one
 model or a small group of data scientists. Broader abstractions should wait
 until the team can see common needs across several use cases
 ([[cite:building-production-ml-platform-and-mlops-team@49:19=>Minimal Platform Pieces]]).
+
+For startups, business-first sequencing means starting with the model or
+product use case, then parallelizing the smallest useful platform pieces. One
+team can justify a tracker, registry convention, or thin cloud wrapper. A full
+platform needs repeated use cases and a visible standardization problem
+([[cite:building-production-ml-platform-and-mlops-team@47:08=>Models Before Platforms]]).
 
 A startup with multiple model builders should start standardizing repositories
 and templates. It should also standardize orchestration and artifact promotion.

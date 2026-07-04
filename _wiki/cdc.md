@@ -106,12 +106,19 @@ CDC needs those checks when it keeps warehouse tables current.
 
 ## Schema, Deletes, and Idempotency
 
-CDC solves row movement, not every modeling problem. Business systems keep adding
-fields as teams collect new information. A Salesforce checkbox or picklist can
-become a new warehouse column
+CDC solves row movement, not every modeling problem. Business systems keep
+adding fields as teams collect new information. A Salesforce checkbox can become
+a new warehouse column
 [[cite:data-engineering-tools-modern-data-stack@48:58=>ETL vs ELT and Modern Data Engineering]].
 CDC pipelines have to handle those source changes without silently dropping
 fields or breaking downstream models.
+
+Schema evolution is separate from capturing changed rows. CDC tracks changed
+rows, while schema evolution tracks new or changed fields. A source can update
+existing records and add a new dimension at the same time. A useful CDC
+pipeline handles both paths
+[[cite:data-engineering-tools-modern-data-stack@45:59=>ETL vs ELT and Modern Data Engineering]]
+[[cite:data-engineering-tools-modern-data-stack@48:58=>ETL vs ELT and Modern Data Engineering]].
 
 Delete handling also matters because a pipeline that only upserts changed records
 can leave stale rows in the destination. It needs delete markers

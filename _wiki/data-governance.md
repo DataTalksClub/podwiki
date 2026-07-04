@@ -61,6 +61,30 @@ every dataset into tool-managed storage. Teams therefore need governance inside
 everything and without turning retention or deletion into an artifact-store
 problem.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
+## ML Platform Logging
+
+Teams govern ML platforms partly through the data context they record during
+training and evaluation. They also record context during serving. Some tools
+store query metadata or pointers. Others copy the full dataset used in a run.
+
+Copying every dataset can make reproducibility look simple. It also multiplies
+storage, retention, and deletion work when the data includes personal
+information
+[[cite:building-production-ml-platform-and-mlops-team@44:05=>Building Production ML Platforms]].
+
+GDPR makes that choice operational. If a person asks to be deleted, the team
+has to know where their data exists. It may exist only in the governed
+warehouse, or it may also exist in many logged training artifacts. Metadata,
+lineage, and controlled data references can preserve auditability without
+duplicating every row into the MLOps tool
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+
+Fintech and fraud teams may need to show why a decision happened. Their
+platform therefore has to connect model metadata and data references. It also
+has to connect audit history and monitoring logs without weakening the privacy
+controls around the original datasets
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]].
+
 ## Starting Points
 
 Guests converge on trust, but they start from different failure modes. Jessi

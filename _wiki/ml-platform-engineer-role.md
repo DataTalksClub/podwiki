@@ -31,6 +31,12 @@ repeated ML delivery friction into supported internal services, while the team
 balances infrastructure specialists with generalists who understand model
 workflows.[[cite:building-production-ml-platform-and-mlops-team]]
 
+The team can include the full skill set even when no single engineer does.
+Cloud and infrastructure specialists can pair with engineers who understand
+notebooks, experimentation, and model handoffs. The shared team still needs
+software engineering discipline because the platform is production software
+[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
+
 ## Platform Scope
 
 ML platform engineering owns the shared system around model work. That system
@@ -161,6 +167,13 @@ infrastructure and Kubernetes as core skills. He adds Terraform and software
 engineering to the same skill set.[[cite:building-production-ml-platform-and-mlops-team@8:11=>Platform Skills]]
 It also needs enough ML workflow knowledge to understand notebooks and training
 runs. Evaluation, model handoffs, and deployment friction matter too.
+
+That workflow knowledge is practical rather than research-level model theory.
+Platform engineers need to know how data scientists move from exploration to
+training, evaluation, persistence, and serving. They don't need to own every
+metric choice or model
+architecture decision
+[[cite:building-production-ml-platform-and-mlops-team@10:47=>Production ML Platforms]].
 
 Durable engineering habits matter as tooling changes. SQL, Git, shell, and
 debugging remain useful in platform work. So do T-shaped expertise and

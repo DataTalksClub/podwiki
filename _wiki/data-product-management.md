@@ -130,6 +130,12 @@ rule applies to long-running projects. Data-team leadership therefore includes
 product leadership as well as technical coordination.
 [[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
 
+A product mindset protects the team from building impressive but unused
+technical work. A text-mining or NLP idea can be technically attractive and
+still miss the business need. Useful data products expose each phase to business
+users and collect feedback. That keeps the team aligned with the decision the
+business has to make.[[cite:building-and-scaling-data-team@47:08=>Building and Scaling a Data Team]]
+
 Data professionals still bring technical input and T-shirt sizing into roadmap
 work. The team works backward from the business problem, identifies the
 customer, and validates the work before treating it as a product decision.
@@ -257,6 +263,12 @@ from launching a large dashboard or model and waiting for usage to appear.
 Low-fidelity prototypes are a product-management tool for data products. A
 sketch or whiteboard can test the decision flow before the team builds a polished
 dashboard, Figma prototype, or production interface.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+
+A rough sketch helps stakeholders give direct feedback. The data team can ask
+what's missing and compare the sketch with the deck, meeting, or workflow the
+stakeholder already uses. A polished interface can make people hesitate to say
+the product doesn't match the decision.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
 
 Data-team adoption improves when workshops move from walkthroughs to Q&A and

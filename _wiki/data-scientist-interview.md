@@ -147,11 +147,16 @@ candidate learns code. They don't have to ask only whether the final score was
 high
 [[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
 
-Lavanya Gupta's preparation split is a useful calibration point for research and
-LLM-heavy roles. She pairs LeetCode-style practice with conceptual mastery and
-mock interviews. That balance keeps model evaluation, benchmarking, and project
-explanation in the plan. Prepare the screen the company uses, then reconnect the
-answer to the work the role actually owns
+Lavanya Gupta offers useful calibration for research and LLM-heavy roles. She
+pairs LeetCode-style practice with conceptual mastery and mock interviews. That
+balance keeps model evaluation, benchmarking, and project explanation in the
+plan.
+
+Prepare the screen the company uses, then reconnect the answer to the work the
+role actually owns. Her advice also separates profile building from interview
+passing. Community projects can create visibility. Competitive job searches
+still require precise answers on concepts and live practice through mock
+interviews
 [[cite:applied-llm-research-and-career-growth-in-practice@54:33=>Applied LLM Research Interview Prep]].
 
 For applied LLM roles, the project conversation should include benchmarking
@@ -159,6 +164,13 @@ details, not only model names. Long-context evaluation and objective metrics
 give interviewers concrete material to probe. Fallback design matters when the
 work is closer to research than dashboard analysis.[[cite:applied-llm-research-and-career-growth-in-practice@12:36=>Applied LLM Research]]
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
+
+Portfolio projects can still help in that conversation when they resemble the
+target company or domain. Lavanya also cautions that interviewers may value
+industry-backed work because it brings scale and testing. It can also bring
+user feedback that a solo pet project usually lacks
+[[cite:applied-llm-research-and-career-growth-in-practice@55:32=>Targeted Project Discussion]]
+[[cite:applied-llm-research-and-career-growth-in-practice@56:09=>Industry Feedback in Projects]].
 
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions

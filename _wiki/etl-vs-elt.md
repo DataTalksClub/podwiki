@@ -73,6 +73,17 @@ layer consumes the prepared result. [[cite:data-engineering-tools-modern-data-st
 This fits a target that expects a prepared metric or mart rather than
 source-level detail.
 
+The same CAC example ties transforms to team autonomy.
+In the ETL version, the CRM and advertising data meet before the prepared mart
+reaches the warehouse or reporting layer. In the ELT version, those source
+tables arrive first.
+
+Analysts or analytics engineers can then change the SQL model when the
+acquisition question changes. That's the specific autonomy Natalie Kwong
+connects to warehouse-side dbt work.
+[[cite:data-engineering-tools-modern-data-stack@07:57=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@12:39=>ETL vs ELT and the Modern Data Stack]].
+
 ETL also fits when preprocessing reduces risk before storage. Ingestion-stage
 deduplication, ordering guarantees, and PII masking change what downstream
 tables can expose. [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]

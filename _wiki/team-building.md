@@ -70,6 +70,11 @@ title. Early junior-only hiring can leave the first data lead responsible for
 architecture, business alignment, and mentoring alone
 [[cite:building-and-scaling-data-team@23:11=>Building and Leading Data Teams]].
 
+The first data person needs leadership judgment, not only individual technical
+range. They decide which skills the team should add next and translate the
+business mission into role needs. They also ask for senior help before the
+foundation hardens around one person's limits.[[cite:building-and-scaling-data-team@35:07=>Building and Leading Data Teams]]
+
 A stronger team-design rule is to hire the interface the team is missing. If
 dashboards are the immediate demand, an analyst can create visible value. If
 data sources and history block forecasting, a data engineer changes throughput.

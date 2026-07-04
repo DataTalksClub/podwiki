@@ -34,6 +34,12 @@ adds enough context for a service to load and deploy that model. Batch jobs and
 platform workflows use the same record to investigate or roll back a model.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
+The registry exists because downstream consumers need a persisted model, not
+only a promising experiment. A batch job should be able to find the approved
+model through the registry. Online services and deployment pipelines should use
+the same handoff instead of reconstructing it from a notebook run
+[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
+
 The record usually belongs beside [[experiment tracking]] and metadata stores.
 It also connects to serving, [[ci-cd=>CI/CD]], and [[model monitoring]]. Those
 systems answer production questions that a bare artifact can't answer. Teams
@@ -60,6 +66,12 @@ packaged parts of a shared [[ml-platforms=>ML platform]]. That fits repeated
 deployment paths, centralized platform teams, managed cloud ML services, and
 stronger governance requirements.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+
+Many tools package the tracker, registry, and metadata store together, so the
+purchase decision can look simple. The integration decision is still separate.
+The team must make the package consumable by its training, serving, governance,
+and monitoring flows
+[[cite:building-production-ml-platform-and-mlops-team@34:01=>Building Production ML Platforms]].
 
 A lighter view keeps the registry as a convention or standalone service until
 the handoff problem justifies more platform work. A small team can use mature

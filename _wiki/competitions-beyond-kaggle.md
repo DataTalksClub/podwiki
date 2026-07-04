@@ -99,13 +99,19 @@ showed data collection, task framing, and licensing judgment.
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
 [[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]]
 
-Dataset creation is a different career signal from leaderboard optimization.
+A dataset project can signal different judgment than leaderboard optimization.
 Lavanya's Kaggle story matters because she created the dataset. She had to
-choose a problem, assemble useful data, make it visible to the community, and
-handle licensing when others wanted to use it. That connects competitions to
-[[Portfolio Projects]] and [[Open Source Portfolio Evidence]] because reviewers
-can look at judgment before any model is trained
-[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]].
+choose a problem and assemble useful data. She also had to make it visible to
+the community and handle licensing when others wanted to use it.
+
+Her Google Play Store dataset started from a gap she noticed in public Kaggle
+datasets. It then required scraping work, bot-blocking work, and legal advice
+about licensing before DataCamp used it for learner projects. That connects
+dataset projects to [[Portfolio Projects]] and [[Open Source Portfolio Evidence]].
+Reviewers can look at judgment before any model is trained
+[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]]
+[[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research]]
+[[cite:applied-llm-research-and-career-growth-in-practice@45:06=>Applied LLM Research]].
 
 ## Platform Choices
 

@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11102
+    "links": 11114
   },
   "nodes": [
     {
@@ -26296,6 +26296,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:event-tracking",
       "kind": "wiki-chip",
       "weight": 1
@@ -26837,6 +26843,12 @@
     {
       "source": "wiki:annotation-quality-workflows",
       "target": "podcast:building-open-source-nlp-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:fairness-in-ai-ml-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31929,6 +31941,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:cv-screening",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
@@ -34288,6 +34306,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -34433,6 +34457,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -68710,6 +68740,12 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -72220,6 +72256,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -72259,6 +72301,18 @@
       "target": "wiki:governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:hiring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:interpretability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:responsible-ai-and-governance",
@@ -72467,6 +72521,12 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73197,6 +73257,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:search",
       "target": "book:20210712-relevant-search",
       "kind": "wiki-chip",
@@ -73871,6 +73937,12 @@
     {
       "source": "wiki:security",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:scikit-learn",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -34,6 +34,12 @@ Explainability tools are only one part of
 models from explainable outputs. They also have to separate both from actionable
 machine learning.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]][[cite:building-explainable-and-actionable-ai-ml-systems=>Build Explainable and Actionable AI/ML Systems]]
 
+Supreet Kaur frames explainable AI as the tool side and responsible AI as the
+governance mindset. A model explanation can help a team justify a prediction
+afterward. Responsible AI asks whether the data, review path, and controls were
+in place before the model reached people
+[[cite:responsible-explainable-ai-bias-detection@8:20=>Responsible and Explainable AI]].
+
 Use [[Model Monitoring]] when the question shifts from explanation before
 launch. It covers drift and alerts. It also covers ownership and post-launch
 behavior.
@@ -96,7 +102,12 @@ answers the stakeholder's question.[[cite:responsible-explainable-ai-bias-detect
 The scikit-learn-adjacent fairness discussion adds model inspection and partial
 dependence to this practical toolbox. Those methods help teams look at feature
 effects, while fairness metrics still require a separate decision about harms,
-groups, and acceptable tradeoffs.[[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]
+groups, and acceptable tradeoffs. Tamara Atanasoska places partial dependence
+inside scikit-learn's inspection package and connects that work to Fairlearn
+compatibility. Interpretation methods and fairness tooling can then live inside
+the same estimator-centered Python workflow
+[[cite:fairness-in-ai-ml-engineering@42:54=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]].
 
 SHAP adds the practitioner layer. Explanations need enough detail for Python
 users to look at feature effects. They also need enough restraint to avoid

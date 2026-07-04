@@ -103,6 +103,13 @@ false positives and false negatives visible
 ([[cite:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]]
 [[cite:fairness-in-ai-ml-engineering@28:52=>Fairness in AI/ML Engineering]]).
 
+That integration matters because Fairlearn follows the estimator conventions
+that scikit-learn users already know. Tamara Atanasoska describes compatibility
+work as keeping Fairlearn estimators aligned with scikit-learn changes. That
+lets fairness checks fit existing pipelines instead of becoming a separate audit
+tool that teams run once and forget
+([[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]).
+
 Compatible tooling still leaves the fairness objective to the team. People have
 to choose which groups, harms, and tradeoffs matter
 ([[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]]
@@ -143,6 +150,13 @@ The skops tool appears in that boundary as a safer persistence and sharing path.
 It also supports workflows where artifacts are distributed through model hubs
 rather than passed around as opaque pickle files
 ([[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML Engineering]]).
+
+This makes artifact format part of scikit-learn governance. A team can have a
+well-tested estimator and still create risk if it shares the model as an
+untrusted pickle. `skops` reduces that risk by making loaded object types more
+explicit, which connects scikit-learn practice to [[Security]] as well as
+[[MLOps]]
+([[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML Engineering]]).
 
 Another boundary comes from implementation details. StandardScaler shows that a
 simple preprocessing idea still has to handle sparse matrices, data frames,

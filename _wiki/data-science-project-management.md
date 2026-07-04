@@ -264,6 +264,13 @@ discovering data, model behavior, platform constraints, and what a regulated
 release path can absorb
 ([[cite:mlops-and-ml-engineering-in-finance@38:48=>MLOps and ML Engineering in Finance]]).
 
+Last-mile analytics work uses the same uncertainty split. Linear projects, such
+as bringing a known API into the warehouse, can usually be planned step by step.
+Circular projects need explicit discovery time because the next step depends on
+what the data reveals. Examples include explaining a conversion change or
+testing whether a model can reach a useful result
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]).
+
 Software engineering research adds the process gap. CRISP-DM describes the ML
 workflow, and Agile describes software delivery. Production ML still needs one
 integrated path from requirements through testing. ML practitioners need to be
@@ -299,6 +306,13 @@ A project manager keeps the delivery unit small enough to learn. The same
 incremental structure appears in agile ML management and data product delivery
 ([[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]])
 ([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+
+For circular work, trust comes from setting that expectation before the project
+starts. The team should report what it learned, name the next blocker, and offer
+alternatives instead of promising a fixed result. A failed analysis can still
+remove a bad idea from the backlog. Stakeholders need to understand that
+learning was the planned output of the current step
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]).
 
 A useful increment might be a small validation or delivery milestone:
 

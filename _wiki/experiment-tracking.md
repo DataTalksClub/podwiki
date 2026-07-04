@@ -77,6 +77,12 @@ low-friction platform entry point. They can compare runs and recover context
 without redesigning serving, monitoring, or governance first
 [[cite:building-production-ml-platform-and-mlops-team@29:41=>Early Experiment Tracking]].
 
+Tracking helps teams move from personal spreadsheets to a shared and
+transparent run history. That can help one team before a company needs a full
+ML platform. It's especially useful when the team already evaluates models
+with repeatable metrics
+[[cite:building-production-ml-platform-and-mlops-team@29:41=>Early Experiment Tracking]].
+
 Another sequence starts from team pain points instead of a fixed tool order. A
 team might begin with CI/CD, deployment, monitoring, or another visible
 bottleneck. Experiment capture can then become part of the operating system for
@@ -156,12 +162,18 @@ model-history record.
 
 ## Tool Choice and Integration
 
-Common tools include MLflow, Weights & Biases, and Comet, while teams also use
-Neptune and SageMaker. Choosing a tracker by brand alone is the wrong approach.
+Teams use tools such as MLflow, Weights & Biases, and Comet. They may also use
+Neptune or SageMaker. Choosing a tracker by brand alone is the wrong approach.
 Most teams should integrate an existing tracker rather than build one from
-scratch. The tracker has to fit the data science workflow, data constraints, and
-surrounding infrastructure
+scratch. The tracker has to fit the data science workflow, data constraints,
+and surrounding infrastructure
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+
+Trackers often arrive bundled with registries and metadata stores. That package
+can be useful, but the team still has to decide which data context to log. It
+also has to decide which artifacts to persist and how the tracker connects to
+the handoff into deployment
+[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
 
 Metaflow gives the same ML ecosystem lesson. Workflow tools, compute backends,
 and experiment trackers need to interoperate. Practitioners can then move from

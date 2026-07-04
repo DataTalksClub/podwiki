@@ -171,17 +171,24 @@ Recruiter channels, LinkedIn and service positioning matter too
 
 Self-taught routes can rely on open curricula and community study instead of
 formal study. Bioinformatics and machine-learning skills can come from OSSU and
-ML Zoomcamp. Dataset discovery, project-first learning, self-imposed deadlines,
-and deployment practice make the work reviewable
+ML Zoomcamp. Dataset discovery and project-first learning make the work
+reviewable. Learners can add proof with deadlines and deployment practice
 [[cite:learning-machine-learning-self-taught-bioinformatics=>Teaching Yourself Bioinformatics and ML]].
+
 Non-CS career changers can start from entry roles that match their starting
-assets. BI and technical product management can use business judgment, basic
-SQL, Tableau, and enough software literacy to work with technical teams.
+assets. Lavanya Gupta names BI and technical product management as more
+reachable entry points for people without a computer science degree. Those
+roles can use business judgment and basic SQL. They can also use Tableau and
+enough software literacy to work with technical teams
+[[cite:applied-llm-research-and-career-growth-in-practice@45:24=>Non-CS Career Pivots]]
+[[cite:applied-llm-research-and-career-growth-in-practice@46:06=>BI and Technical Product Entry Routes]].
 
 Career changers still need to choose a target role, build role-shaped proof,
 and use specific cold outreach or LinkedIn messages to find mentors. Rapport in
-data communities can turn visible work into word-of-mouth opportunities, but it
-doesn't replace proof [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
+data communities can turn visible work into word-of-mouth opportunities. It
+doesn't replace proof
+[[cite:applied-llm-research-and-career-growth-in-practice@48:28=>Cold Outreach and Rapport]]
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
 
 Mentoring helps most when the career changer brings context and a next
 decision. Rahul Jain separates one-off advice from long-term mentoring. He also

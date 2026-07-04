@@ -150,6 +150,18 @@ necessity becomes a subject-matter and compliance decision. Product owners,
 domain experts, and compliance stakeholders decide whether a sensitive feature
 belongs in the model.[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]][[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]]
 
+Age and gender show why the review can't be automatic. Supreet Kaur describes
+regulated teams that may not let data scientists touch those fields at all.
+Other teams may mask them before modeling. The same fields can still be
+justified in a different use case. In a medical setting, treatment can vary by
+age or gender.
+
+The privacy decision depends on use-case necessity and consent. It also depends
+on subject-matter review and model-review committee input, not a blanket "keep"
+or "drop" rule
+[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]]
+[[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]].
+
 Production ML reviews need both model-quality evidence and input justification.
 An accurate model can still use unnecessary data. Predictive features can create
 privacy risk and fairness risk at the same time. Those risks connect privacy
@@ -233,6 +245,15 @@ deletion or incident-response requests. Those checks link privacy engineering
 to [[Responsible AI and Governance]],
 [[Security]], and
 [[MLOps]].[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
+
+The approval record also needs to survive monitoring. A feature that was safe
+enough at launch can become risky after release. Population coverage can change.
+Feedback data can come from a biased source. A team can also start logging more
+context than the review approved.
+
+That's why privacy engineering stays linked to
+[[Model Monitoring]] and [[Data Quality and Observability]] after deployment
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
 
 Production ML platforms add a storage boundary between metadata and governed
 source data. Simon Stiebellehner warns that copying full datasets into

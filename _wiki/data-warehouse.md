@@ -57,6 +57,12 @@ transformations without asking engineers to rebuild extraction code. Warehouses
 and marts differ in scope. Warehouses hold the broader analytical layer, while
 data marts serve narrower consumption needs.[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]]
 
+Kwong describes this as layers inside or around the warehouse. A raw ingestion
+database receives source data. A shared layer can feed several teams. Marts
+serve marketing, sales, finance, or product consumers. Teams use the mart as
+the trusted consumption table, not the raw landing zone
+[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]].
+
 Daily analytics engineering work ties data modeling, pipelines, and data quality
 together. Looker and Snowflake sit in the same tool stack. dbt supplies SQL
 transformations, version control, tests, and a DAG.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
@@ -125,6 +131,11 @@ reliable tables.[[cite:trends-in-modern-data-engineering=>Modern Data Engineerin
 Data marts are narrower than warehouses and serve as consumption layers for a
 team, subject area, or use case. In practice, many marts are dbt models or
 BI-ready tables inside the warehouse.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+That distinction matters for trust. Business users shouldn't have to pull
+metrics directly from raw ingestion tables because each user may clean or join
+the data differently. The mart layer gives them a shared definition with enough
+guardrails to use the metric consistently
+[[cite:data-engineering-tools-modern-data-stack@17:55=>ETL vs ELT and the Modern Data Stack]].
 
 ## Warehouse Modeling with ELT, dbt, and BI
 

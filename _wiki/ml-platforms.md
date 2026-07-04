@@ -75,12 +75,19 @@ heavier platform work when they need repeated standardization across teams, not
 only because one model reached production.
 
 Buying SageMaker, Vertex AI, or another managed platform still leaves
-integration work. The team has to fit the tool to its data-science workflow,
-deployment patterns, security constraints, and monitoring schemas.
+integration work. The team has to fit the tool to its data-science workflow.
+It also has to fit deployment patterns, security constraints, and monitoring
+schemas.
 Simon Stiebellehner frames the normal-company path as buy and integrate first.
 Teams then build only the pieces that make bought tools fit their workflows
 [[cite:building-production-ml-platform-and-mlops-team@17:14=>Build vs Buy ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]].
+
+Teams should consider building when product teams repeatedly diverge without a
+useful reason. Recommendation, NLP, and fraud teams may each solve training and
+serving differently. They may also solve deployment differently. A platform can
+standardize the repeated parts and leave room for use-case-specific code
+[[cite:building-production-ml-platform-and-mlops-team@17:14=>Production ML Platforms]].
 
 Enablement and adoption matter as much as infrastructure. A platform team earns
 trust by collecting pain points and delivering quick wins. The team improves
@@ -117,6 +124,11 @@ serving form the path from exploration to production. Orchestration ties that
 path together[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 Thin abstractions over cloud providers help when they reduce repetitive
 infrastructure work without hiding every detail[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+
+With self-service, a model builder can provision the compute they need without
+cloning Terraform, waiting on manual approval, or learning every cloud setting.
+The platform team still owns the infrastructure design behind the button
+[[cite:building-production-ml-platform-and-mlops-team@28:20=>Production ML Platforms]].
 
 Self-service is a product problem. The users are internal data scientists and
 ML engineers, with business data engineers and stakeholders also influencing the
@@ -196,6 +208,12 @@ Those requirements connect ML platforms directly to
 [[Reproducibility]],
 [[Governance]], and
 [[Data Quality and Observability]].
+
+In regulated settings, teams have to treat logging as part of the platform
+boundary. Copying each training dataset into a vendor store can make retention,
+deletion, and audit work harder. Metadata, query references, and lineage may
+give the team enough context with less duplicated personal data
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Production ML Platforms]].
 
 The governance boundary is practical. A platform can log metadata about a query
 and pipeline run. It can also log the image, data version, and output. It

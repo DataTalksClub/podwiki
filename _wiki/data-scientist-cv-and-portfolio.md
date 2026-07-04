@@ -171,11 +171,13 @@ errors that appear
 Use [[Machine Learning Portfolio Projects]] to turn that trail into a baseline,
 evaluation, and limitation story.
 
-Portfolio goals differ by context. Pet projects, datasets, and community
-contributions can show curiosity and create networking visibility. For job
-applications, the proof has a narrower job. It should connect to role
-requirements, interview discussion, or organization-backed work with feedback
-and real-world impact.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]]
+Portfolio goals differ by context because side work can show curiosity and
+networking visibility. Lavanya Gupta separates that from job-targeted proof. A
+popular side dataset may be a good end-of-interview story. It doesn't replace
+evidence that matches the role. Job applications need narrower proof. It should
+connect to role requirements, interview discussion, or organization-backed work
+with feedback and real-world impact.[[cite:applied-llm-research-and-career-growth-in-practice@51:28=>Applied LLM Research and Career Growth]]
+[[cite:applied-llm-research-and-career-growth-in-practice@56:56=>Industry-Backed Portfolio Work]]
 
 A dataset can be the portfolio asset when the candidate finds a missing public
 resource, handles the collection and licensing work, and shows basic analysis.

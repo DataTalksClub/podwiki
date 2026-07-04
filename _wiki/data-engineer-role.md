@@ -59,6 +59,15 @@ Use
 when separating the role from the operating practices a team applies to
 pipelines.
 
+Low-code and no-code tools don't remove this role in the podcast archive.
+Kwong argues that they shift the work away from repetitive connector fixes and
+custom scripts. Data engineers can then spend more time on infrastructure and
+analytics tooling. They also own governance and code standards. Validation and
+delivery practices help analysts and analytics engineers work safely
+[[cite:data-engineering-tools-modern-data-stack@39:06=>ETL vs ELT and the Modern Data Stack]],
+[[analytics engineering]],
+[[data governance]].
+
 In the scale-up setting, data engineering makes other teams productive, not
 only by delivering pipelines. Self-service onboarding, Airflow conventions,
 and playbooks become part of the role. Kafka, schemas, schema registries, and
@@ -162,6 +171,15 @@ It also appears in the broader project content as a tool for recurring data
 pipelines. See
 [[Apache Airflow]] for the
 tool-specific discussion.
+
+In the modern stack, data engineers make the tool interfaces reliable. Airflow
+schedules work. Airbyte-style tools load source data. dbt handles warehouse
+transformations. Reverse ETL pushes selected outputs into business tools.
+
+The data engineer may not author every SQL model. The role still owns the
+standards and interfaces that keep the tools connected.
+[[cite:data-engineering-tools-modern-data-stack@30:59=>ETL vs ELT and the Modern Data Stack]]
+[[cite:data-engineering-tools-modern-data-stack@33:45=>ETL vs ELT and the Modern Data Stack]].
 
 Data engineers also own operational quality. Monitoring, schema descriptions,
 documentation, and governance belong with the role

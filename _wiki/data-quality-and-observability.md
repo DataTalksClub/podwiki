@@ -142,6 +142,13 @@ a technical control and a trust-repair mechanism for business-facing analytics.
 [[cite:building-and-scaling-data-team@35:38=>Building and Scaling a Data Team]]
 [[cite:building-and-scaling-data-team@40:09=>Building and Scaling a Data Team]]
 
+The same playbook also has a source-system side. Business teams may enter
+product costs, campaign plans, or other operational inputs in formats that break
+downstream reports. The data team can pair input guidelines and stakeholder
+communication with warehouse-side dbt tests, outlier checks, and manual
+dashboard review. That keeps data quality from becoming only a warehouse concern.
+[[cite:building-and-scaling-data-team@40:24=>Building and Scaling a Data Team]]
+
 ## Observability Signals and Diagnosis
 
 Five recurring signals define observability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]

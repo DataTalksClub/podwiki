@@ -196,10 +196,23 @@ and it also shows the measurement limit. When the channel can't emit clean
 user-level events, the team still needs a measurement plan that states which
 proxy signals it trusts.
 
+Offline attribution can combine several weak signals rather than pretend a
+perfect event stream exists. Surveys and community sampling can sit beside
+traffic movement and campaign timing. Together, they help a marketing team
+reason about TV, banners, or other channels that don't expose deterministic
+user-level paths.
+[[cite:building-and-scaling-data-team@45:39=>Data Team Scaling]]
+
 The same proxy rule applies to internal data products. When direct ROI is hard
 to instrument, teams can use time studies, before-and-after comparisons, and
 surveys as early evidence. The metric is weaker than clean event tracking, but it
 still gives prioritization a concrete starting point.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
+
+Proxy metrics should name what they approximate. A stopwatch time study can
+stand in for warehouse-process efficiency. An employee survey can stand in for a
+workplace experience metric. The team should treat the proxy as decision
+evidence, not as proof with the same strength as an experiment.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
 
 Business-metrics work includes merit functions, project prioritization, and

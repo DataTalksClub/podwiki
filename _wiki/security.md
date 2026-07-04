@@ -99,6 +99,13 @@ Safer persistence and sharing workflows matter when models move between people
 or platforms
 [[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML]].
 
+Tamara Atanasoska's point is practical: a model hub or shared artifact store is
+part of the security boundary. `skops` gives teams more control over which
+objects can load, while a plain pickle can execute untrusted types during
+deserialization. That makes model loading a [[scikit-learn=>scikit-learn]]
+security concern, not only a convenience choice for notebooks
+[[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML]].
+
 That supply-chain risk links [[machine learning]]
 security to [[software engineering]]. Teams need dependency review, artifact
 provenance, safer loading formats, and release approval for models as well as

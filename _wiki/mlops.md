@@ -34,6 +34,12 @@ where people, processes, and technology move together. Teams agree on operating
 practices, encode those practices in workflows, and make the repeatable path
 easier to use through platforms.
 
+Feature stores, experiment trackers, and model registries are only the
+technology layer. The operating work also requires model-development processes
+and collaboration between model teams, platform engineers, and the people who
+own production use
+[[cite:building-production-ml-platform-and-mlops-team@4:42=>Production ML Platforms]].
+
 ML platform teams apply that frame to shared lifecycle paths. They share
 training and registry paths. They also share serving, monitoring, lineage, and
 governance paths. A centralized platform team adds CI, repository structure, and
@@ -101,6 +107,13 @@ small team launch, but vendor lock-in and operational overhead still matter
 puts more weight on shared platform work once several teams repeat the same
 training, registry, deployment, and monitoring steps
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+
+Teams should build a broader platform when several teams repeatedly reinvent
+training, serving, and governance work. One model isn't enough, though a single
+team may still adopt a SaaS tracker or registry. A broader platform earns its
+cost when multiple teams train, serve, and govern models in different ways
+without a good reason
+[[cite:building-production-ml-platform-and-mlops-team@17:14=>Production ML Platforms]].
 
 The tooling emphasis changes by context. Maria Vechtomova starts from
 standardization and reuse, using engineering primitives such as Git, CI/CD, and
@@ -192,11 +205,17 @@ immediate pain. It then standardizes repositories, packages, serving patterns,
 and monitoring
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-A shared platform can make experiment tracking and registries easier to use
-when several teams repeat the same lifecycle. It can also standardize serving
-and orchestration while preserving metadata, lineage, and governance across
-teams
-[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+A shared platform helps several teams share tracking and registry paths.
+
+It can standardize serving and orchestration.
+
+Metadata and governance stay visible.[[cite:building-production-ml-platform-and-mlops-team=>ML Platform]].
+
+Experiment tracking often comes first because it moves run history out of
+private spreadsheets. Even a small model team gets a shared record.
+
+Registries and serving paths can follow as the handoff to production becomes
+real. Monitoring and governance can follow too.[[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]]
 That connects MLOps to [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[CI/CD]]. It also connects MLOps to [[Model Registry]] and
 [[Reproducibility]].

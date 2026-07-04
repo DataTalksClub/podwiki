@@ -124,17 +124,20 @@ designs that other researchers or industry teams can evaluate
 Research]].
 
 Industry applied-research teams can also publish benchmarks when managers
-support external sharing. Public release still needs a review path, community
-channels, and sometimes routes such as arXiv endorsement
+support external sharing. Lavanya describes an industry-track publication path:
+the team couldn't release bank data, but it could publish a reusable finding
+from long-context LLM benchmarking. The work happened on top of regular product
+work, so manager support and a clear underexplored contribution mattered
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
 
-Lavanya's publication path shows why the manager and community path matters.
-The team had to decide that the result should be shared outside the company.
-Then the work moved through channels such as arXiv endorsement and conference
-submission. That puts [[Technical Writing]] and community review inside the
-research system, not in a separate career lane
+Lavanya describes why manager support and community channels matter. The team
+had to decide that the result should be shared outside the company. Then the
+work moved through arXiv endorsement and conference submission channels.
+[[Technical Writing]] becomes part of the research system. Community review
+does too, instead of sitting in a separate career lane
 [[cite:applied-llm-research-and-career-growth-in-practice@17:28=>Publishing from Corporate Teams]]
+[[cite:applied-llm-research-and-career-growth-in-practice@19:45=>Manager Support for Publishing]]
 [[cite:applied-llm-research-and-career-growth-in-practice@22:10=>arXiv and Early Publications]].
 
 ## Deployment Constraints Direct the Research
@@ -162,8 +165,10 @@ connect it to [[Long Context LLM Evaluation]] and [[RAG Evaluation Workflow]]
 in Practice]].
 
 Lavanya used Streamlit-style prototypes to get feedback before treating a
-research idea as finished. The prototype exposes whether stakeholders can use
-the model behavior. It also helps the team choose more research, better
+research idea as finished. Her team used Streamlit because it let researchers
+share a working demo with leadership and stakeholders without waiting for an
+engineering handoff. The prototype exposes whether stakeholders can use the
+model behavior. It also helps the team choose more research, better
 [[LLM Evaluation Workflows]], or production hardening
 [[cite:applied-llm-research-and-career-growth-in-practice@30:14=>Rapid LLM Prototyping]].
 

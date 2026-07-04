@@ -99,6 +99,13 @@ same review. A model can look stable in aggregate while a population slice
 changes or a feedback channel starts collecting biased examples
 [[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
 
+Accuracy-only monitoring can hide that problem. In the event-recommendation
+example, a model could become more accurate for the people it keeps serving
+while excluding people who would also benefit. The monitoring plan therefore
+needs population checks and sample-size checks. It also needs a human review
+path for distribution alarms, not only precision, recall, or service metrics
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
+
 That connection puts model monitoring close to
 [[data-quality-and-observability=>data observability]].
 The model team needs model-specific signals, but many failures start in
@@ -159,13 +166,21 @@ monitoring, visualization, alerting, and longer-term operations
 [[cite:mlops-model-monitoring-data-observability@55:50=>MLOps Architect Guide]].
 
 Observability connects to platform design through API design and unified
-prediction schemas for logging requests, predictions, and responses
+prediction schemas. Teams use those schemas to log requests, predictions, and
+responses
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-That schema gives teams material for later monitoring and analysis before a
-dashboard exists. The logging schema should preserve request context and
-prediction output. It should also preserve response data, model version, and
-owner context for later
+The schema gives teams material for later monitoring and analysis before a
+dashboard exists. It should preserve request context and prediction output. It
+should also preserve response data, model version, and owner context for later
 investigations.
+
+The platform doesn't have to own every product API structure. It may need a
+shared logging schema when teams want monitoring and analytics across many
+models.
+
+Churn prediction and lead scoring services become easier to compare when their
+request, response, and prediction logs follow the same structure
+[[cite:building-production-ml-platform-and-mlops-team@54:15=>Building Production ML Platforms]].
 
 Without that consistent structure, fairness reviews, product analytics, and
 incident response have to reconstruct what the serving path failed to record
@@ -239,6 +254,11 @@ Platform work can start with experiment tracking and model registries, then
 move through batch inference and online serving. Orchestration, metadata, and
 lineage come next.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Monitoring uses those pieces after release.
+
+Teams can't design monitoring last. The registry supplies model identity, and
+serving supplies request and prediction logs. The platform schema determines
+whether later dashboards can join those records reliably
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 The same MLOps stack can cover version control and CI/CD. It can also cover
 registries, deployment, and monitoring.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]

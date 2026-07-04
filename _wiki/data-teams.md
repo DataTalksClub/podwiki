@@ -63,6 +63,12 @@ The hiring path moves from analyst capacity to engineering foundations and then
 to business-facing adoption work as the bottleneck changes.
 [[cite:building-and-scaling-data-team@15:04=>Liang]]
 
+That path isn't a universal order. It depends on whether the team already has
+infrastructure, whether the data lead can cover analytics, and whether the
+business needs a stakeholder-facing analyst early. In a business-heavy context,
+the data team may need senior analytical judgment and engineering support at the
+same time.[[cite:building-and-scaling-data-team@26:26=>Liang]]
+
 Teams embed data people when a domain needs daily data support. Product,
 marketing, operations, and finance teams often need that context. Cohen
 describes the tradeoff: teams gain faster decision paths but may lose peer
@@ -157,6 +163,12 @@ The same interface logic links data teams to
 when someone owns the user, the data interface, the quality bar, and the
 decision the output supports.
 
+Spreadsheet-heavy collaboration is one signal that the interface is still
+missing. A data team may need to automate reporting and reduce manual sheets.
+It also has to learn why teams use those sheets. That operating knowledge shapes
+the dashboard, warehouse input, or web app that replaces part of the manual
+workflow.[[cite:building-and-scaling-data-team@10:06=>Liang]]
+
 Teams should scale role vocabulary with team size instead of forcing every
 specialty into the first org chart. Early teams may combine product, data
 science, engineering, and ML engineering responsibilities. They can split those
@@ -170,6 +182,12 @@ She starts data work from the decision it should enable, then embeds metrics in
 the meetings where people decide. For a data team, stakeholder management isn't
 a soft add-on. It's part of delivery.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data]]
+
+Her version also changes how the team spends analytical capacity. Analysts look
+for high-impact questions, often starting with financials and cost centers,
+then choose a narrow slice with a real decision owner. The data team uses that
+slice to prove value before expanding to harder cultural or operational changes.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:30=>Last-Mile Data]]
 
 A team can formalize translation as an interface, not just an individual soft
 skill. A data strategist can sit between data engineering, data science, and

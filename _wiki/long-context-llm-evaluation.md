@@ -46,9 +46,12 @@ such as latency and throughput
 That turns "128k context" into a measurable system claim rather than a marketing
 claim.
 
-The reported failure boundary was narrow: financial tests dropped around
-32k-64k tokens.
-The team treated the advertised window as a hypothesis to test.
+Lavanya's team didn't treat the advertised window as a promise. They split
+tests at 32k tokens and saw a clear drop beyond that operating range.
+Lavanya also says the bank's use cases usually fit within 32k tokens, while the
+team saw failures around 64k even with models advertising 128k windows. The
+team treated the advertised window as a hypothesis to test.
+
 Lavanya's team later published the EMNLP paper "Long Context LLMs on Financial
 Concepts." The paper belongs with [[Applied Research]] because it turned an
 internal adoption question into a publishable benchmark result
@@ -74,8 +77,9 @@ financial-document work, shorter inputs below the team's operating range behave
 better. Pushing toward large windows exposes capability drops
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
-Her answer isn't to reject long context. It's to test where it works
-and then chunk when the document crosses the reliable range
+Her answer isn't to reject long context but to test where it works. The team
+chunks documents that cross the reliable range. Then it sends those chunks into
+downstream processing instead of relying on the full advertised window
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 She also names retrieval and summarization as practical fallbacks for large
 documents. Use the full window only when the eval says the model still uses it

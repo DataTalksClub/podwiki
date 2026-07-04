@@ -41,6 +41,12 @@ platform is best avoided before there's repeated need. Minimal pieces are built
 in parallel with real use
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
+Platform teams should hide repeated provider setup, not the whole cloud. For
+example, a wrapper can apply the required encryption around a managed training
+service. It can also apply network settings so data scientists don't have to
+configure those pieces for each run
+([[cite:building-production-ml-platform-and-mlops-team@37:51=>Building Production ML Platforms]]).
+
 Developer experience also extends outside the internal platform team. DevRel
 defines it through education, documentation, and a "wisdom layer." That connects
 developer collaboration to feedback loops and documentation. Dogfooding and
@@ -49,12 +55,17 @@ reproducible workflows guide how people learn when to trust a tool
 
 ## Self-Service Platform Surfaces
 
-In data and ML systems, developer experience usually means reducing the amount
-of platform knowledge required before useful work can happen. Notebooks,
-BigQuery, and Databricks provisioning are examples. So are experiment tracking,
-model registry, orchestration, and prediction schemas. These pieces should fit
+Developer experience in data and ML systems reduces the amount of platform
+knowledge required before useful work can happen. Notebooks, BigQuery, and
+Databricks provisioning are examples. Experiment tracking, model registry,
+orchestration, and prediction schemas are examples too. These pieces should fit
 the user's workflow rather than force a new one
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+
+For self-service compute, model builders should be able to request the
+notebook, warehouse, or cluster capacity they need. They shouldn't have to clone
+an infrastructure repository or wait for manual infrastructure approval
+([[cite:building-production-ml-platform-and-mlops-team@28:20=>Building Production ML Platforms]]).
 This links developer experience to
 [[model registry]],
 [[orchestration]],
@@ -120,6 +131,12 @@ repeated workflow evidence first
 Thin layers are useful when they remove repetitive infrastructure chores
 without hiding the real operating constraints. For ML platform work, a small
 wrapper around managed training or deployment can remove routine provider setup.
+
+If the company wants cloud portability, the abstraction becomes thicker because
+models must stay independent of provider APIs. If the company expects to stay
+on one managed platform, a thinner layer can focus on making that platform
+usable
+([[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]).
 
 The same wrapper should still leave enough control for model-specific
 requirements and regulated workloads

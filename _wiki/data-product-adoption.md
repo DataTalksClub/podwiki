@@ -53,6 +53,13 @@ problem.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@20:02=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]]
 
+Spreadsheet culture isn't only technical debt. In business-driven teams, some
+collaboration still happens through spreadsheets because that's where people
+already plan, report, and exchange operational inputs. Adoption work has to
+reduce avoidable spreadsheets while respecting the places where a spreadsheet is
+still the practical bridge into a new data workflow.
+[[cite:building-and-scaling-data-team@10:06=>Building and Scaling a Data Team]]
+
 The same metric may need different framing for a product manager, operator,
 executive, or analyst. Adoption improves when the interface matches how each
 person makes the decision, not when every user sees the warehouse model exposed
@@ -100,6 +107,12 @@ business-facing communication from pure dashboard or engineering output. Someone
 has to understand process details and teach users. They also have to turn
 delivery into behavior change.
 [[cite:building-and-scaling-data-team@18:41=>Building and Scaling a Data Team]]
+
+Adoption work also has to teach people when to use the product, not only where
+to click. Lecture-style dashboard walkthroughs can leave users asking the same
+questions later. Q&A workshops make users practice finding the answer inside the
+dashboard or service, so enablement becomes part of the data product.
+[[cite:building-and-scaling-data-team@49:00=>Building and Scaling a Data Team]]
 
 For machine learning, the emphasis moves to shared business cases and KPIs.
 Stakeholders also need to compare alternatives and agree on the bar for
@@ -205,6 +218,13 @@ meetings where decisions happen, and before building the polished system, sketch
 reports or workflows on paper.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+
+That research should include the user's incentive, not only their stated
+requirement. If a manager is rewarded for spending an existing budget or checking
+off assigned tasks, the benefit of using data may look small. If a team is
+rewarded for conversion, acquisition, or another measurable result, the same
+data product has a clearer reason to enter the decision.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@20:02=>Last-Mile Data Delivery]]
 
 Personas are a practical output of that research. A metric layer or dashboard may
 need different abstractions for product managers, operators, executives, and
