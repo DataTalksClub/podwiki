@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10578
+    "links": 10571
   },
   "nodes": [
     {
@@ -32298,49 +32298,7 @@
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:arpitchoudhury",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:christopherbergh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:gloriaquiceno",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:juanmanuelperafan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "person:juanpablo",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:nikolamaksimovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "person:victoriaperezmola",
       "kind": "article-chip",
       "weight": 1
     },

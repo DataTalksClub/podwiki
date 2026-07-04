@@ -20,11 +20,10 @@ different ownership risks. Data engineering makes data available and reliable.
 It also documents and operates the path. Data science turns questions into
 features and models, then uses experiments, recommendations, or decisions.
 
-When comparing the roles, ask where a project can fail rather than which role
-matters more. Data engineers process product data so analysts and data scientists
-can query it. Data scientists clean and prepare features, build models, and
-evaluate deployment outcomes
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+Compare the roles by asking where a project can fail. Data engineers process
+product data so analysts and data scientists can query it. Data scientists clean
+and prepare features, then build models and evaluate deployment outcomes.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
+
 Use [[Data Engineering]] and [[Data Science]] for the broad topic context, and
 [[Data Engineer Role]] and [[Data Scientist Role]] for the role definitions.
 
@@ -37,16 +36,14 @@ evaluation, and interpretation.
 
 A recommendation-system walkthrough shows engineers extracting user data together
 with rating and search data. They load it into streaming and batch pipelines.
-Data scientists then choose features and build the model
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+Data scientists then choose features and build the model.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 After that, a machine learning engineer may deploy the model. A data scientist or
 data engineer may own deployment instead when the team is set up that way.
 
 A scientific version of the same lifecycle starts with domain-specific data
 curation and cloud analysis. It moves toward reusable code and ends in an
 end-to-end pipeline with MySQL, MinIO, Spark, and a warehouse. Scientists can
-trust the modeling work only when they can rerun and explain the data path
-([[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]]).
+trust the modeling work only when they can rerun and explain the data path.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]]
 
 ## Responsibility Split
 
@@ -64,14 +61,12 @@ Monitoring and schema governance usually sit there too.
 
 The data science side owns cleaning for modeling, feature engineering, and model
 creation. Deployment awareness and evaluation sit closer to data science too.
-Cleaning isn't a hard line. It depends on the company and pipeline design
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+Cleaning isn't a hard line. It depends on the company and pipeline design.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 The split often emerges from pain rather than org charts. Companies realize they
 need people who come before data scientists and make data available. Data
 scientists often still build their own pipelines when data isn't perfectly
-delivered, especially as projects move toward production
-([[podcast:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]]).
+delivered, especially as projects move toward production.[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 
 ## Handoffs That Break
 
@@ -85,15 +80,13 @@ Some teams use files or database tables for collaboration. One example is Parque
 files that data scientists read in Python. Other teams embed one or more data
 engineers with data scientists so they work through each step of the pipeline
 together. A file interface can work. But data engineers lose downstream context
-unless both sides keep a shared schema and field agreement
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+unless both sides keep a shared schema and field agreement.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 The organizational version of the same failure starts when companies hire data
 scientists and expect magic. They then discover that flashy demos are easier than
 production systems. These systems depend on data volume, data collection, and
 deployment. They also need monitoring, retraining, and infrastructure change.
-Explicit roles and shared tooling should come before teams scale the practice
-([[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building and Scaling Data Science Practice]]).
+Explicit roles and shared tooling should come before teams scale the practice.[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice]]
 
 ## Project Choices
 
@@ -109,8 +102,7 @@ recommendation. Experiments, segmentation, and anomaly signals also fit.
 Data engineering is a more defined beginner skill set, with Python and SQL as the
 base, then cloud computing and orchestration on top. A curriculum can move from
 analytics engineering pipelines built on Fivetran, dbt, Snowflake, and Mode into
-backend engineering. It can then add ETL in Python, larger codebases, and testing
-([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
+backend engineering. It can then add ETL in Python, larger codebases, and testing.[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 
 Real product projects often need both sides. Theme park work combines queue
 prediction and visitor routing with app adoption and A/B testing. The work also
@@ -118,8 +110,7 @@ needs streaming, measurement, and deployment.
 
 That includes an Android app for data collection and models that teams deploy and
 train. Most of the day-to-day work sits in data engineering. It still draws on
-software engineering, machine learning engineering, and data science
-([[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|From Theme Parks to Tesla]]).
+software engineering, machine learning engineering, and data science.[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>From Theme Parks to Tesla]]
 
 ## Career Choices
 
@@ -131,17 +122,14 @@ involves evaluating results and explaining tradeoffs to stakeholders.
 
 One transition is instructive because Ellen Koenig had done both. She found data
 science work sometimes too black-box. Data engineering better matched an
-engineering skill set and working environment
-([[person:ellenkonig|Ellen Koenig]],
-[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]).
+engineering skill set and working environment.[[person:ellenkonig=>Ellen Koenig]][[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 That doesn't mean everyone should switch. The day-to-day work differs because one
 side rewards durable systems and collaboration practices, while the other rewards
 modeling judgment and problem framing.
 
-The market-facing version is that many data science bootcamp graduates ended up
-in engineering, data engineering, or analyst roles. Machine learning roles
-increasingly require both a data engineering base and an ML skill set
-([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
+Many data science bootcamp graduates ended up in engineering, data engineering,
+or analyst roles. Machine learning roles increasingly require a data engineering
+base and ML skills.[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 The career choice can therefore be staged. Build Python and SQL first, then add
 cloud and orchestration. Add modeling depth if the target role needs it.
 
@@ -156,8 +144,7 @@ platform.
 A maturity path favors one end-to-end project before teams scatter across many
 pilots. That project should prove data collection and experiments, infrastructure
 changes and productionization, plus monitoring and retraining. It contrasts
-centralized practice building with embedded teams and a hybrid hub-and-spoke model
-([[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building and Scaling Data Science Practice]]).
+centralized practice building with embedded teams and a hybrid hub-and-spoke model.[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice]]
 
 The production-model boundary often adds [[Machine Learning Engineer Role]] and
 [[MLOps]]. Use [[Data Quality and Observability]] when the shared risk is freshness
