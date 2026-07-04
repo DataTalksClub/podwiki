@@ -34,17 +34,17 @@ read [[DataOps]] and
 A clear pipeline structure starts with ingestion prep and source handling. It
 then moves through transformation, modeling, marts, and dashboards that lead back
 to the people who use the data
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 The modern-stack boundary separates ETL from ELT and treats transformations as
 their own layer. It also distinguishes marts from warehouses, with raw ingestion
 guardrails and orchestration around that split
-[[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
 
 The hiring standard is blunt. Many projects list tools but show too little
 Python and SQL. Professional code quality, tests, and clear structure are what
 prove readiness
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
 ## Source and Consumer
 
@@ -59,9 +59,9 @@ alert, or operational user.
 
 Modeling covers entities, relationships, and business meaning, and dashboards
 tie marts to user personas
-([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 Raw ingestion guardrails and orchestration help explain where each tool belongs
-([[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]]).
+([[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]).
 
 For portfolio review, the source and consumer should appear in the README and
 in the data model. The reviewer should know the update cadence, the expected
@@ -79,7 +79,7 @@ where a row changed.
 The ETL and ELT vocabulary supplies this split by separating
 transform-before-load from load-before-transform. It also treats transformations
 as their own layer and keeps marts separate from warehouses
-([[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]]).
+([[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]).
 Use [[ETL vs ELT]] when the
 project needs that tradeoff, and use
 [[Modern Data Stack]] for stack
@@ -87,16 +87,16 @@ boundaries.
 
 The data-modeling standard moves from ingestion prep and transformations into
 business entities, then relationships, marts, and dashboards
-([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
 For an end-to-end portfolio, show keys and deduplication rules, table grain, and
 the business mapping behind the serving table.
 
 Tool lists don't prove readiness when SQL and Python are thin. Readable code,
 tests, and structure do
-([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 SQL plus Python come first, and juniors can often postpone Spark, Kafka, and
 Kubernetes
-([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
+([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
 
 ## Orchestration and Reruns
 
@@ -109,16 +109,16 @@ Follow DataTalks.Club's
 when a local reviewer should look at the Airflow UI. The same walkthrough should
 show task logs, rerun behavior, and reproducibility through Docker. A Twitter
 pipeline capstone combines Docker with a project that can be explained and run
-[[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
+[[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
 
 One concrete course project moves data from MySQL into MinIO. Spark handles
 processing and warehouse loading. Kestra or Airflow then makes handoffs and
 reruns visible rather than implicit
-([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]]).
+([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]]).
 
 A reviewer should be able to run the pipeline, look at a failed task, and rerun
 the job without private instructions. Scheduling sits around the modern stack
-([[podcast:data-engineering-tools-modern-data-stack|ETL, ELT, and the Modern Data Stack]]).
+([[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]).
 Use [[Orchestration]] for the
 dependency model and
 [[How to Build Data Pipelines]]
@@ -137,7 +137,7 @@ Add these checks before adding more tools:
 
 These checks map to operating risk across freshness and volume as well as
 distribution, schema, and lineage. Even good pipelines can still deliver bad data
-([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
+([[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
 
 Logs and lineage then matter for root-cause analysis, and ownership and SLAs
 turn signals into action.
@@ -151,7 +151,7 @@ context.
 
 The DataOps side covers CI/CD pipelines and regression tests, realistic test
 data, deployment automation, and data versioning
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+([[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]).
 Reviewers get stronger evidence when tests run in CI and the README explains how
 to recover from a bad load.
 
@@ -169,10 +169,10 @@ reference a quarantine table, skipped merge, or backfill command.
 ## Stack Boundaries
 
 Prefer batch for a first end-to-end project unless a low-latency decision
-requires streaming. [[person:slawomirtulski|Slawomir Tulski]]
+requires streaming. [[person:slawomirtulski=>Slawomir Tulski]]
 calls this the real-time myth and warns against overbuilt modern stacks. He
 frames portfolio work around side projects and end-to-end platforms
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 Use [[Batch vs Streaming]]
 when the project needs the tradeoff. Use
@@ -183,7 +183,7 @@ scheduling.
 The hiring side draws a similar boundary. SQL and Python stay ahead of large
 distributed systems for junior candidates. Cloud basics, backend ETL, and
 testing come before those systems too
-([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
+([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
 In the README, say why the project doesn't use Spark or Kafka. Also say
 why Kubernetes isn't needed for the source size, latency, and review goal.
 
@@ -197,10 +197,10 @@ checks that can fail the run.
 
 Projects that list tools but show too little Python and SQL fall short. The code
 should be something another engineer can read, test, and discuss
-([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 The operating side adds that tests, repeatable delivery, and recovery belong in
 the project, not only in a diagram
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+([[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]).
 
 Prepare a short walkthrough in the same order an engineer would use to debug or
 extend the system:
@@ -215,8 +215,8 @@ extend the system:
 8. Name the next improvement without pretending the project is a full platform.
 
 Interview formats include SQL screens, Python problems, and take-home projects
-([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep]]).
+([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 This order also matches advice that repeated course projects are weaker than
 custom projects. Custom work is stronger when the candidate can explain the data
 and the choices behind the work
-([[podcast:get-data-analytics-and-data-engineering-job|Get a Data Analytics and Data Engineering Job]]).
+([[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]).

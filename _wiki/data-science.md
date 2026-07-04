@@ -21,7 +21,7 @@ or a model-backed service.
 
 Analysts explain what happened, while data scientists predict what will happen
 and help put those predictions into products
-([[podcast:data-team-roles|Data Team Roles Explained]]).
+([[cite:data-team-roles=>Data Team Roles Explained]]).
 The title still moves by company. A data scientist may sit close to product
 analytics or
 [[machine learning]]. They may
@@ -43,32 +43,32 @@ project starts with business understanding and data preparation. It then moves
 through modeling, evaluation, and deployment. The model objective ties back to
 measurable business value instead of treating the algorithm as the goal.
 Evaluation stays tied to the same business question
-([[podcast:crisp-dm|CRISP-DM Methodology]]).
+([[cite:crisp-dm=>CRISP-DM Methodology]]).
 
 The analyst-versus-data scientist distinction is practical rather than academic:
 analysts quantify what happened, while data scientists build predictive
 services. Data science work connects to Python, SQL, and machine learning. It
 also connects to Flask, Docker, and simple model services
-([[podcast:data-team-roles|Data Team Roles Explained]]).
+([[cite:data-team-roles=>Data Team Roles Explained]]).
 
 Product data scientist and machine-learning-engineer expectations differ. Case
 studies start with business goals and evaluation metrics before they test
 modeling, SQL, or coding
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
 
 ## Boundaries and Role Fit
 
 Data science versus analytics is a difference in emphasis, not a hard wall. The
 job description matters because recruiters may screen analysts and data
 scientists with similar signals
-([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]).
+([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
 Candidates still need to check whether the work is reporting, product analysis,
 modeling, or experimentation. Some jobs also expect production ML.
 
 Data science versus data engineering depends on ownership. Data scientists clean
 data, prepare features, build models, and think about deployment. They still
 need enough pipeline knowledge to collaborate with engineers
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
 
 ETL, storage, and Spark performance sit closer to data engineering. Schema work
 and platform reliability do too. The dedicated
@@ -78,7 +78,7 @@ page goes deeper into that overlap.
 Title mismatch is a common risk, so candidates should check team structure and
 objectives. They should also check responsibilities, infrastructure, and the
 data engineering and analytics support around the role
-([[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Job Red Flags]]).
+([[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]).
 Those neighboring roles help candidates tell whether the opening is data science
 or a catch-all data role.
 
@@ -89,13 +89,13 @@ Problem framing and feature engineering are transferable data science habits.
 The work also pushes toward user impact, experiments, deployment, and practical
 shipping habits. The episode frames shipping as starting simple, testing
 quickly, and learning from production use
-([[podcast:data-science-leadership-hiring-mlops|Data Science Leadership]]).
+([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
 
 Experimentation gives product analysis a causal test. A/B testing follows
 randomized clinical-trial logic, and a subscription-versus-points example shows
 why metric design changes how a team interprets a product test. A/A tests,
 seasonality, and power analysis round out the method
-([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
 Those details put experimentation next to data science while giving it its own
 [[Experimentation and Causal Inference]]
 page.
@@ -106,12 +106,12 @@ Data science is a portfolio-backed craft, not a list of tools. Recruiting runs
 from role definition through shortlist, interview preparation, feedback, and
 offer negotiation. Stronger candidates connect projects to industry context,
 real use cases, and business impact
-([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
+([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
 
 The same signal appears in CV and case-study advice. CVs screen for fit, and
 project stories explain the problem and data. Case studies need to name the
 method, metric, and tradeoff
-([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
+([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
 Modeling portfolios belong with
 [[Machine Learning Portfolio Projects]],
 while public contributions belong with
@@ -120,11 +120,11 @@ while public contributions belong with
 Transitions add another view because project management experience transfers
 through planning, stakeholder communication, and business KPIs. Applying
 analysis at work builds portfolio evidence
-([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
+([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
 
 Production readiness adds Git, testing, and Docker. It also adds deployment and
 clean code to the learning path
-([[podcast:project-manager-to-data-scientist|From Project Manager to Data Scientist]]).
+([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
 Career pages connect data science to
 [[career transitions in data]]
 instead of treating every entrant as a new graduate.
@@ -134,9 +134,9 @@ instead of treating every entrant as a new graduate.
 Data scientists don't need to become platform engineers, but they need enough
 engineering awareness to collaborate. They build the model and sometimes expose
 it through a simple service
-([[podcast:data-team-roles|Data Team Roles Explained]]). Software engineering
+([[cite:data-team-roles=>Data Team Roles Explained]]). Software engineering
 practice ties to reproducibility and code quality
-([[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]).
+([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
 
 Model quality depends on upstream data and downstream use. Recommendation
 systems and batch scoring jobs need data contracts and feature availability.
@@ -158,7 +158,7 @@ trust and debugging methods to the data science toolkit. The episode connects it
 to SHAP and the interpretability-versus-accuracy tradeoff. It also connects to
 conformal prediction, calibrated uncertainty, and experiment notes that make
 model work traceable
-([[podcast:interpretable-machine-learning|Interpretable Machine Learning]]).
+([[cite:interpretable-machine-learning=>Interpretable Machine Learning]]).
 
 Interpretability links data science to
 [[Responsible AI and Governance]]
