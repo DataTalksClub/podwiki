@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10633
+    "links": 10635
   },
   "nodes": [
     {
@@ -61630,6 +61630,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -66149,6 +66155,12 @@
     {
       "source": "wiki:privacy-engineering-for-ml",
       "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
     },

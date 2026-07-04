@@ -355,6 +355,29 @@ Source hints:
 
 Start with this batch when expanding the content set.
 
+- The 2026-07-04 five-agent enrichment pass produced concrete next edits:
+  responsible AI/fairness should tighten `_wiki/responsible-ai-and-governance.md`,
+  `_wiki/interpretability.md`, `_wiki/model-monitoring.md`,
+  `_wiki/privacy-engineering-for-ml.md`, and `_wiki/cv-screening.md`; modern data
+  engineering should tighten `_wiki/modern-data-engineering-trends.md`,
+  `_wiki/data-engineering-tools.md`, `_wiki/apache-iceberg.md`,
+  `_wiki/delta-lake-vs-apache-iceberg.md`, `_wiki/duckdb.md`,
+  `_wiki/orchestration.md`, `_wiki/modern-data-stack.md`, `_wiki/etl-vs-elt.md`,
+  and lake/warehouse pages; data-product work should tighten
+  `_wiki/data-product-adoption.md`, `_wiki/data-product-management.md`,
+  `_wiki/data-product-intake-and-prioritization.md`, `_wiki/data-teams.md`,
+  `_wiki/team-building.md`, `_wiki/data-team-lead-role.md`,
+  `_wiki/data-quality-and-observability.md`, and `_wiki/data-trust-and-strategy.md`.
+  Keep these as enrichment tasks with inline citations from `docs/mining/report_pod_10.md`.
+- The same 2026-07-04 keyword pass prioritized these keyword-backed candidates:
+  strengthen `_wiki/data-engineering-certification.md` as a certification guide;
+  strengthen `_wiki/mlops-architecture.md` for MLOps frameworks/architect intent;
+  tighten `_wiki/apache-airflow.md` for Docker/local workflow intent if transcript
+  evidence supports a distinct how-to; consider a comparison page for machine
+  learning vs software engineering; consider a project-manager-to-data-science
+  transition page; consider a volunteer/open-source data engineering guide; and
+  strengthen analytics-engineering roadmap and data-team-building coverage before
+  creating duplicate pages.
 - The 2026-07-03 recent-topic gap audit verified and quality-audited the v1
   recent-topic gap pages: `_wiki/context-engineering.md`,
   `_wiki/ai-coding-tools.md`, `_wiki/llmops.md`, `_wiki/agent-ops.md`,

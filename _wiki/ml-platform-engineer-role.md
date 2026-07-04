@@ -66,6 +66,11 @@ workflow, and technology, not only a tool stack.[[cite:building-production-ml-pl
 
 Beyond libraries, ML platform engineers own on-call work plus deployment,
 serving and monitoring support.[[cite:building-production-ml-platform-and-mlops-team]]
+That operating scope affects team design. A platform team that supports
+business-critical workloads can't be staffed like a one-person internal tool.
+On-call expectations, consuming-team count, and availability requirements change
+the needed team size. They also change the specialist and generalist mix
+[[cite:building-production-ml-platform-and-mlops-team@15:34=>Production ML Platforms]].
 
 Operational ownership keeps the role close to the
 [[MLOps engineer]] role, while
@@ -163,6 +168,15 @@ The useful profile is T-shaped. The engineer needs enough infrastructure depth
 to operate shared systems. They also need enough ML workflow breadth to
 understand where model teams get blocked without taking over every model
 decision.[[cite:building-production-ml-platform-and-mlops-team]][[cite:how-to-grow-your-ml-engineering-career]]
+
+The team can include more specialization than each person can. Simon
+Stiebellehner ranks cloud and infrastructure first for the role. Software
+engineering comes next, followed by data-science workflow understanding. The
+platform team needs that full combination.
+
+Not every engineer has to be equally deep in Kubernetes, Terraform, model
+training, and user support
+[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
 
 Ownership separates the role from a
 [[machine-learning-engineer-role=>machine learning engineer]].

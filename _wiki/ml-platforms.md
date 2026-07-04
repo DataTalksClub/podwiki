@@ -67,6 +67,14 @@ pays off when repeated training, serving, deployment, or governance problems
 appear across teams. Building a heavy platform before the organization has real
 models and business needs is a mistake[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
+Single teams may still need platform pieces before the company needs a full
+platform. Simon Stiebellehner separates an experiment tracker, a managed
+registry, or a thin cloud wrapper from a company-wide ML platform.
+
+Buying SageMaker, Vertex AI, or another managed platform still leaves
+integration work. The team has to fit the tool to its data-science workflow,
+deployment patterns, security constraints, and monitoring schemas[[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]].
+
 Enablement and adoption matter as much as infrastructure. A platform team earns
 trust by collecting pain points and delivering quick wins. The team improves
 developer experience and measures progress by deployment frequency and
@@ -125,6 +133,10 @@ early win before moving to a model registry for downstream consumption[[cite:bui
 The registry becomes the handoff point between training and production,
 connecting to batch inference, online serving, and orchestration. Metadata and
 lineage are part of the same registry-centered path[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+That handoff matters because downstream jobs and services need a promoted model
+record they can load predictably. The registry isn't only storage for a model
+file. It's the stable production reference that monitoring, rollback, and
+deployment automation can agree on[[cite:building-production-ml-platform-and-mlops-team@30:32=>Production ML Platforms]].
 
 A fuller lifecycle list adds CI, repository structure, parameterization, and
 testing. It also adds data versioning, serving, monitoring, and package
@@ -177,6 +189,16 @@ Those requirements connect ML platforms directly to
 [[Reproducibility]],
 [[Governance]], and
 [[Data Quality and Observability]].
+
+The governance boundary is practical. A platform can log metadata about a query
+and pipeline run. It can also log the image, data version, and output. It
+doesn't have to copy every training dataset into managed storage. Copying full
+datasets for every run creates cost and deletion problems when personal data
+appears in the artifacts.
+
+In regulated settings, platform design has to decide what's persisted as
+metadata and what's stored as a pointer. It also has to decide what remains
+under the original data-governance controls[[cite:building-production-ml-platform-and-mlops-team@45:50=>Production ML Platforms]].
 
 From the enterprise strategy view, scaled AI rests first on data-first readiness
 and realistic experimentation. Retraining and feedback loops are part of that

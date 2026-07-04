@@ -84,6 +84,13 @@ when the team has a production feedback path
 [[cite:mlops-kubeflow-model-monitoring@11:17=>Kubeflow Model Monitoring]]
 [[cite:mlops-kubeflow-model-monitoring@33:27=>Kubeflow Model Monitoring]].
 
+Fairness-aware monitoring adds subgroup behavior to that drift view. Supreet
+Kaur connects post-launch bias checks to demographic composition, feedback
+loops, overfitting, and basic statistics. KS-style drift tests can belong in the
+same review. A model can look stable in aggregate while a population slice
+changes or a feedback channel starts collecting biased examples
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
+
 That connection puts model monitoring close to
 [[data-quality-and-observability=>data observability]].
 The model team needs model-specific signals, but many failures start in
@@ -132,7 +139,14 @@ models run through many serving tools.[[cite:mlops-model-monitoring-data-observa
 Observability connects to platform design through API design and unified
 prediction schemas for logging requests, predictions, and responses
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-That schema gives teams material for later monitoring and analysis.
+That schema gives teams material for later monitoring and analysis. The logging
+schema should preserve request context and prediction output. It should also
+preserve response data, model version, and owner context for later
+investigations.
+
+Without that consistent structure, fairness reviews, product analytics, and
+incident response have to reconstruct what the serving path failed to record
+[[cite:building-production-ml-platform-and-mlops-team@54:15=>Building Production ML Platforms]].
 
 This is where [[machine learning infrastructure]]
 and [[ML platforms]] matter. A model

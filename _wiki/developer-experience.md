@@ -111,9 +111,19 @@ versioning, package registries, containers, and monitoring.
 
 A platform can fail when it abstracts too much before the team understands its
 users. A thin layer over an existing cloud provider may be enough when the
-company plans to stay on that provider. Building a large platform before
-there's business value and repeated workflow evidence adds risk
+company plans to stay on that provider.
+
+Building a large platform too early adds risk. Teams need business value and
+repeated workflow evidence first
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+
+Thin layers are useful when they remove repetitive infrastructure chores
+without hiding the real operating constraints. For ML platform work, a small
+wrapper around managed training or deployment can remove routine provider setup.
+
+The same wrapper should still leave enough control for model-specific
+requirements and regulated workloads
+([[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]).
 Those adoption constraints place developer experience beside the
 [[MLOps roadmap]],
 [[MLOps tools]],

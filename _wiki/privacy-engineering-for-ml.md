@@ -212,6 +212,13 @@ to [[Responsible AI and Governance]],
 [[Security]], and
 [[MLOps]].[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
+Production ML platforms add a storage boundary between metadata and governed
+source data. Simon Stiebellehner warns that copying full datasets into
+artifacts for every model run can make GDPR deletion and storage cost much
+harder. Privacy engineering therefore applies to lineage, model-debugging
+datasets, and experiment artifacts, not only to fields used by the model
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+
 ## LLM Privacy and Security Tradeoffs
 
 LLMs make privacy engineering visible because the interface accepts free-form
