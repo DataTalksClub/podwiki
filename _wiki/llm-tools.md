@@ -26,17 +26,14 @@ Teams actually adopt a mix of managed APIs, self-hosting, integration
 frameworks, and observability. For a snapshot, see the community survey on
 [how professionals use LLM tools and frameworks](https://datatalks.club/blog/how-do-professionals-use-llm-tools-and-frameworks.html).
 
-Model choice depends on control and privacy, fine-tuning, and hidden API
-changes, with latency and cost in the same decision
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Choose the model layer by control, privacy, fine-tuning needs, and hidden API
+changes. Keep latency and cost in the same decision.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-A builder path can start from prompts and gold tests. It can add failure
-analysis, logs, and traces before moving from RAG to agents
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+Builders can start from prompts and gold tests. They can add failure
+analysis, logs, and traces before moving from RAG to agents.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-An agent stack adds tools, memory, and knowledge stores, plus context
-engineering and agent tests
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+When teams move to agents, they add tools, memory, and knowledge stores. They
+also need context engineering and agent tests.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 For the broader production patterns, use
 [[LLM Production Patterns]].
 
@@ -46,39 +43,35 @@ Start by naming the job you expect the system to do. Drafting assistants and
 transcript search bots need different controls. Support answer generators,
 coding assistants, and on-call agents need their own controls too. Text
 generation, embeddings, and semantic search are business use cases, and
-hallucinations and brand safety belong inside human review
-([[podcast:practical-llm-use-cases-and-product-patterns|LLM Value Creation]]).
+hallucinations and brand safety belong inside human review.[[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]
 
 That means "best LLM tools" is the wrong first question. For content workflows,
 prompt iteration and review may matter more than agent orchestration. For a
 knowledge assistant, start with retrieval and chunking. Add citations and
 answer evaluation.
 
-For an operations assistant, logs and metrics become part of the tool stack,
-along with remediation actions and integration abstractions
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+An operations assistant also needs logs and metrics in the tool stack.
+The same stack can include remediation actions and integration abstractions.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 That's where LLM tools connect to
 [[MLOps]] and
-[[software engineering]],
-not only prompting.
+[[software engineering]].
+They aren't only prompting.
 
 ## Choose The Model Layer By Control And Risk
 
 Teams often use hosted model APIs to prototype, separating the prototype path
 from production model ownership. Open-source and API models differ in
 control, privacy, and fine-tuning. A provider can change an API-backed model in
-ways that affect behavior
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+ways that affect behavior.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 GPT-3.5 or GPT-4 APIs can speed up prototypes. Running self-hosted open-source
-models raises latency, cost, and hardware questions
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+models raises latency, cost, and hardware questions.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Use that split when you choose between an API, a hosted open-source endpoint, or
 self-hosting. Model ownership matters when the feature handles private data or
 regulated workflows. It also matters when behavior must stay stable across
 releases. If the feature is still a low-risk prototype, an API may buy speed.
-Use [[rag-vs-fine-tuning|RAG vs Fine-Tuning]] for
+Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] for
 the deeper adaptation decision, because model choice usually sits beside the
 choice to retrieve current knowledge or adapt model behavior.
 
@@ -88,13 +81,11 @@ Teams often get value from retrieval-augmented generation before agents.
 Chunking and embeddings can create quick business wins when teams already have
 useful documents. More specifically, this covers fixed-length chunks, sliding
 windows, and context rot. A Gmail API plus RAG email assistant is one practical
-build
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+build.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 The search version frames RAG as retrieval plus generation. A transcript
 chatbot example moves from Whisper transcripts to chunking and overlap. It also
-covers embedding models, vectorization, prompt context, and citations
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+covers embedding models, vectorization, prompt context, and citations.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 That places RAG in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
@@ -104,22 +95,19 @@ model selection.
 
 ## Add Evaluation Before You Swap Tools
 
-Evaluation tells you whether a tool change made the product better. That change
-may be a new prompt, vector database, or model. It may also be a chunking
-strategy or agent framework.
+Use evaluation to check whether a tool change made the product better. That
+change may be a new prompt, vector database, or model. It may also be a
+chunking strategy or agent framework.
 
 A generator-evaluator check is one lightweight path. Representative gold tests
 come next, and failures turn into categories before teams prioritize retrieval
-fixes. Logs and traces let builders debug what changed
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+fixes. Logs and traces let builders debug what changed.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-The same idea appears in production terms. Gold-standard examples and
-output-driven evaluation connect classification metrics, generative metrics, and
-human judgment
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
-Multi-level RAG metrics, offline tests, and human-in-the-loop review extend the
-same workflow
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+Production evaluation adds gold-standard examples and output-driven checks that
+connect classification metrics and generative metrics. They also connect human
+judgment.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+Multi-level RAG metrics and offline tests extend the same workflow.
+Human-in-the-loop review belongs there too.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 Use
 [[LLM Evaluation Workflows]]
 and [[Evaluation]] when you need the
@@ -131,15 +119,13 @@ Agents are useful when the system must choose tools, call APIs, plan steps, or
 act across a workflow. An agent has autonomy, an objective, and LLM reasoning.
 It uses orchestration, tools, memory, and knowledge stores.
 Context engineering includes metadata, wrappers, and careful LLM inputs rather
-than only a longer prompt
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+than only a longer prompt.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Don't choose an agent framework just because the product uses an LLM. Some cases
-need only RAG while others need agents
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+need only RAG while others need agents.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 A similar path starts with RAG and then adds tool calls. The practical agent
 framework follows from problem definition, a small start, data, and evaluation
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
 When you do need agents, connect the framework choice to
 [[Agent Engineering]]. Test the
@@ -150,20 +136,15 @@ system, not only the prompt.
 LLM tools can hide operational costs until the product has users. In-context
 learning and examples connect to formatting, tokens, and cost tradeoffs.
 Prompt evaluation, prompt compression, prompt caching, and model efficiency sit
-in the same production choice
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+in the same production choice.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Coding assistants show that tool choice changes day-to-day engineering work, not
-only backend architecture
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+only backend architecture.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-Human review is another production control when outputs can affect customers,
-brand voice, or decisions. Hallucinations, brand safety, and editorial curation
-belong together
-([[podcast:practical-llm-use-cases-and-product-patterns|LLM Value Creation]]).
-Human review also belongs in RAG and generative evaluation
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+Use human review as another production control when outputs can affect customers.
+Include brand voice and decisions in that review. Review should cover
+hallucinations along with brand safety and editorial curation.[[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]
+Human review also belongs in RAG and generative evaluation[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs]].
 For sensitive systems, connect tool selection to
 [[Responsible AI and Governance]]
 and [[Security]], not only to model
@@ -185,26 +166,11 @@ For most teams, a practical LLM tools stack grows in this order:
 
 This order isn't a universal recipe.
 
-The DataTalks.Club LLM episodes show the same structure from several directions:
-
-- [[person:meryemarik=>Meryem Arik]] starts with
-  deployment tradeoffs in
-  [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-- [[person:hugobowneanderson=>Hugo Bowne-Anderson]]
-  starts with evaluation and RAG in
-  [[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-- [[person:atitaarora=>Atita Arora]] starts with
-  search quality in
-  [[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-- [[person:ranjithakulkarni=>Ranjitha Kulkarni]]
-  starts with agent workflows in
-  [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-- [[person:sandrakublik=>Sandra Kublik]] starts with
-  business use cases and review in
-  [[podcast:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]].
-- [[person:bartoszmikulski=>Bartosz Mikulski]]
-  starts with production engineering constraints in
-  [[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-
-Pick tools that make one workflow grounded, testable, and observable. Keep that
-workflow affordable before you add more automation.
+Use tools to keep one grounded workflow observable and testable. Keep it
+affordable before more automation. Start with model access, ownership, and
+cost.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs]]
+Then add retrieval with examples before citations and evaluation[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]].
+After the workflow is clear, add tools with review. Add observability with
+efficiency next.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+[[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]

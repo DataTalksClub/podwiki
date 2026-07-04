@@ -27,51 +27,47 @@ In older conversations that often means
 [[LLMs]],
 [[generative AI]],
 [[retrieval-augmented-generation=>retrieval-augmented generation]],
-and [[agent-engineering|AI agents]].
+and [[agent-engineering=>AI agents]].
 
-The useful boundary isn't "does it call a model?" It's whether the system
-changes a workflow and can be evaluated, operated, secured, and improved. Modern
-generative AI work connects back to statistical rigor, human-centered design is
-part of AI delivery, and agents sit inside normal software engineering
-discipline
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+The useful boundary isn't whether a system calls a model, but whether it
+changes a workflow. Teams also need to evaluate, operate, secure, and improve it. Modern
+generative AI work connects back to statistical rigor. AI delivery includes
+human-centered design, and agents sit inside normal software engineering
+discipline.[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
+
 Janna Lipenkova's
 [[book:20240205-creating-intelligent-products=>Creating Intelligent Products]]
-develops the same product-focused view: it treats AI as an end-to-end product
-discipline covering market research, UX, and business model fit, not just model
-development.
+develops the same product-focused view. It treats AI as an end-to-end product
+discipline, not just model development. The product scope includes market
+research, UX, and business model fit.
 [[book:20220509-artificial-intelligence-with-python=>Artificial Intelligence with Python]]
-by Prateek Joshi covers the broader toolkit that underlies these product systems, from search and optimization through ML, deep learning, and reinforcement learning.
+by Prateek Joshi covers the broader toolkit that underlies these product
+systems. The toolkit runs from search and optimization through ML, deep
+learning, and reinforcement learning.
 
 ## AI as Product Engineering
 
-Recent guests describe AI as a product and engineering system, not a standalone
-prediction. [[person:pauliusztin|Paul Iusztin]] puts
-full-stack engineering and RAG into the same skill stack, with knowledge
-management and LLMOps as delivery concerns and product delivery as part of AI
-work
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+AI is product engineering, not standalone prediction, so full-stack engineering
+and RAG sit in the same skill stack. Knowledge management, LLMOps, and product
+delivery become delivery concerns.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+
 That makes
 [[AI engineering]] closer to
-shipping a [[data-products|data product]] than to
+shipping a [[data-products=>data product]] than to
 only training a model.
 
-[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] gives the
-role version of the same idea: the AI engineer is a generalist who combines
-product discovery, backend delivery, LLM tooling, and enough judgment to decide
-what should be automated, with built projects and skill proof mattering more
-than credentials
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+AI engineers combine product discovery and backend delivery. They also work
+with LLM tooling and decide what should be automated. Projects and skill proof
+matter more than credentials.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+
 That's why the AI page connects to both the
 [[AI Engineer Role]] and the
 [[AI Engineering Roadmap]].
 
-AI product thinking also shows up before the LLM era.
-[[person:gregcoquillo=>Greg Coquillo]] treats AI work as
-roadmaps, customer research, business metrics, and MLOps priorities, pushing
-teams to work backward from business problems and add success metrics, SLAs, and
-data quality
-([[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]]).
+AI product thinking also shows up before the LLM era. AI product teams work
+with roadmaps, customer research, business metrics, and MLOps priorities. They
+work backward from business problems and add success metrics, SLAs, and data
+quality.[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 That discussion links AI to
 [[data product management]],
@@ -88,24 +84,25 @@ tradeoffs between accuracy and interpretability. Use the narrower
 when the discussion is about supervised learning systems, feature pipelines, or
 classical production ML.
 
-The newer LLM conversations narrow the problem to language models and generated
-outputs. [[person:meryemarik|Meryem Arik]] separates
-classification tasks from generative tasks, compares open-source and API models,
-and covers fine-tuning, retrieval, vector databases, latency, cost, and
-evaluation
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
-Use that episode to move from general AI into
-[[LLM production patterns]],
-[[vector databases]], and
-[[evaluation]].
+The newer LLM conversations focus on language models and generated outputs.
+Production LLM work separates classification from generation. Teams compare
+hosted APIs with open-source models. Fine-tuning, retrieval, and vector
+databases become implementation choices. Latency, cost, and evaluation matter in
+production.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-[[Generative AI]] covers systems that
-produce text, code, summaries, answers, translations, images, or plans.
-[[person:mariasukhareva=>Maria Sukhareva]] uses chatbot
-failures to show that generated outputs need controls, covering large-scale
-chatbot probing, knowledge-base exfiltration patterns, output validation, query
-analysis, and layered defenses
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+For narrower topics, use
+[[LLM production patterns]],
+[[vector databases]], and [[evaluation]].
+
+[[Generative AI]] covers systems that produce generated outputs such as text,
+code, summaries, and answers. The same bucket also includes translation work,
+image output, and planning.
+
+Chatbot failures show generated outputs need security controls. Large-scale
+chatbot probing and knowledge-base exfiltration checks are part of that work.
+Teams also add output validation, query analysis, and layered
+defenses.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
 Those failure modes connect
 [[prompt engineering]]
 to [[security]] rather than treating a
@@ -114,38 +111,32 @@ prompt as only copywriting.
 ## Retrieval and Knowledge Systems
 
 Many AI products become useful only when the model can work with the right
-context. [[person:atitaarora|Atita Arora]] traces the
-search lineage from NLP and personalization to learning-to-rank and LLMs, frames
-RAG as retrieval plus generation to reduce hallucinations, and covers chunking,
-embeddings, citations, prompt design, and human-in-the-loop evaluation
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+context. Search systems connect NLP and personalization to learning-to-rank and
+LLMs. RAG adds retrieval plus generation to reduce hallucinations. It also
+brings in chunking, embeddings, and citations. Prompt design and
+human-in-the-loop evaluation stay part of the
+system.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 That makes [[search]] and
 [[embeddings]] central AI topics, and
 [[retrieval-augmented-generation=>RAG]]
-covers the broader architecture. [[person:ranjithakulkarni|Ranjitha Kulkarni]]
-adds the operational side: RAG systems inherit latency, cost, and data-quality
-problems, and retrieval can be a tool inside an agent rather than the whole
-system
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+covers the broader architecture. RAG systems also inherit latency, cost, and
+data-quality problems. Retrieval can be a tool inside an agent rather than the
+whole system.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 ## Agents and Action-Oriented AI
 
 [[agent-engineering=>AI agents]] extend AI systems from
 answer generation into planning and tool use. They also add memory and action.
 
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] defines
-agents through objectives, tools, memory, and stores, then moves toward context
-design and argues for custom evaluations and mocked tools, with checks that are
-outcome-based rather than exact-path tests
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Agentic systems use objectives, tools, memory, and stores. They also depend on
+context design, custom evaluations, and mocked tools. Checks focus on outcomes
+rather than exact paths.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-[[person:micheallanham=>Micheal Lanham]] places current
-agents inside a longer AI lineage, linking reinforcement learning and
-evolutionary algorithms to early NLP and prompt optimization. He favors minimal
-task decomposition before manager-agent orchestration, and covers tool
-integration and monitoring
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+Agent design can borrow from reinforcement learning, evolutionary algorithms,
+early NLP, and prompt optimization. Minimal task decomposition can come before
+manager-agent orchestration. Tool integration and monitoring wrap the agent
+system.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 For design details, use
 [[agent engineering]] and
 [[multi-agent-systems=>multi-agent systems]].
@@ -155,43 +146,40 @@ For design details, use
 AI systems need [[evaluation]] because
 the output is probabilistic, context-dependent, and tied to user trust.
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] starts with
-data trust and pipeline tests, then moves to prompt engineering and prompt
-evaluation, and adds prompt compression, prompt caching, token use, latency, and
-model efficiency
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+Production AI engineering starts with data trust and pipeline tests, then moves
+to prompt engineering and prompt evaluation. Engineers also manage prompt
+compression, prompt caching, and token use. Latency and model efficiency become
+engineering concerns too.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 A useful AI feature must survive
 [[production]] traffic, not only a demo.
 
-LLM and RAG evaluation have their own patterns.
-[[person:meryemarik=>Meryem Arik]] ties gold-standard
-examples and output-driven metrics together and separates classification
-metrics, generative metrics, and human judgment
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
-[[person:atitaarora=>Atita Arora]] adds retrieval-level
-and answer-level checks
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
-Those discussions belong with
-[[LLM Evaluation Workflows]],
-[[Production Search Evaluation]],
-[[Data Quality and Observability]],
-and [[data-quality-and-observability|Data Observability]].
+LLM and RAG evaluation use gold-standard examples, output-driven metrics, and
+human judgment. The work separates classification metrics from generative
+metrics.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+
+Search and RAG systems add retrieval-level checks as well as answer-level
+checks.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+
+Use [[LLM Evaluation Workflows]] and
+[[Production Search Evaluation]] for narrower measurement topics.
+Use [[Data Quality and Observability]] and
+[[data-quality-and-observability=>Data Observability]]
+for data reliability.
 
 ## Infrastructure and Model Control
 
-Infrastructure-heavy AI work asks who controls compute, data, and models, and
-who owns latency, privacy, and operating cost.
-[[person:andreycheptsov=>Andrey Cheptsov]] compares
-cloud and on-prem economics, connects privacy and control to decentralization,
-and adds distributed training and GPU coordination, including PyTorch and NCCL
-communication bottlenecks, Kubernetes limits, SLURM, and open-source
-orchestration
-([[podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training|Post-ChatGPT AI Infrastructure]]).
+Infrastructure-heavy AI work asks who controls compute, data, and models. Teams
+also have to own latency, privacy, and operating cost.
+Cloud and on-prem choices affect privacy, control, and decentralization.
+Training across multiple machines adds GPU coordination. Teams have to handle
+PyTorch and NCCL communication bottlenecks, Kubernetes limits, SLURM, and
+open-source orchestration.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
-That infrastructure view complements the model-deployment view in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]],
-where open-source models and hosted APIs sit alongside fine-tuning, serving
-optimization, and latency tradeoffs. For deeper implementation work, use
+The same infrastructure concern complements model deployment. Open-source models
+and hosted APIs sit alongside fine-tuning and serving optimization. Teams still
+have to manage latency tradeoffs.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+For deeper implementation work, use
 [[AI Infrastructure]],
 [[Machine Learning Infrastructure]],
 and [[MLOps]].
@@ -202,17 +190,15 @@ AI needs [[governance]] when it affects
 people, regulated decisions, or private data. Safety-critical workflows need the
 same discipline. Material business outcomes do too.
 
-[[person:supreetkaur=>Supreet Kaur]] defines responsible
-AI through trust and fairness, and includes explainability, stakeholder
-collaboration, and compliance. The work runs from data-level fairness checks and
-PII handling to cross-functional governance and human-in-the-loop oversight
-([[podcast:responsible-explainable-ai-bias-detection|Responsible & Explainable AI]]).
+Responsible AI work centers trust and fairness, plus explainability,
+stakeholder collaboration, and compliance. The work runs from data-level
+fairness checks and
+PII handling to cross-functional governance and human-in-the-loop
+oversight.[[cite:responsible-explainable-ai-bias-detection=>Responsible & Explainable AI]]
 
 For LLM systems, governance also has a security layer.
-[[person:mariasukhareva=>Maria Sukhareva]] connects
-prompt injection and data exfiltration, adds hallucinations and controls, and
-covers ROI and hybrid human review
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+Prompt injection and data exfiltration sit beside hallucinations, controls,
+ROI, and hybrid human review.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 Those risks are why the AI topic links out to
 [[Responsible AI and Governance]],

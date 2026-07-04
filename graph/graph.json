@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10623
+    "links": 10600
   },
   "nodes": [
     {
@@ -10031,7 +10031,7 @@
       "title": "ETL",
       "url": "/wiki/etl/",
       "count": 1,
-      "search": "ETL Podcast grounded guide to extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
+      "search": "ETL Extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
     },
     {
       "id": "wiki:evaluation",
@@ -22753,72 +22753,6 @@
     {
       "source": "wiki:ai",
       "target": "book:20240205-creating-intelligent-products",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:andreycheptsov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:gregcoquillo",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:ruslanshchuchkin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "person:supreetkaur",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46962,12 +46896,6 @@
     },
     {
       "source": "wiki:etl",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:etl",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -50532,37 +50460,7 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "person:agitajaunzeme",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "person:ellenkonig",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "person:gloriaquiceno",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "person:jeffkatz",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "person:nicolasrassam",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "person:slawomirtulski",
       "kind": "article-chip",
       "weight": 1
     },
@@ -54043,42 +53941,6 @@
     {
       "source": "wiki:llm-system-design-interview",
       "target": "wiki:vector-database-vs-search-engine",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:bartoszmikulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:hugobowneanderson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:meryemarik",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:ranjithakulkarni",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-tools",
-      "target": "person:sandrakublik",
       "kind": "article-chip",
       "weight": 1
     },
