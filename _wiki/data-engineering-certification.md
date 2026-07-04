@@ -27,14 +27,13 @@ and
 
 ## Employer Evidence
 
-[[person:jeffkatz=>Jeff Katz]] gives the clearest
-hiring standard in
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
-At 21:56, he answers a direct question about using pipeline-monitoring
-experience plus Python and data engineering certificates to move into a data
-engineering job. By 22:36, he has moved the discussion back to whether the
-candidate can use Python, SQL, and GitHub. He also asks whether the candidate
-has enough ETL knowledge to help a team organize and clean data.
+[[person:jeffkatz=>Jeff Katz]] gives the clearest hiring standard in a direct
+answer about moving into a data engineering job. The question combines
+pipeline-monitoring experience with Python and data engineering certificates.
+He moves the discussion back to whether the candidate can use Python, SQL, and
+GitHub. He then asks whether the candidate has enough ETL knowledge to help a
+team organize and clean data.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 That answer gives you a resume filter.
 
@@ -50,12 +49,12 @@ A certification line helps only when the next lines show the work behind it:
   notes.
 - You documented setup, ownership, known failures, and the downstream consumer.
 
-Jeff makes the same point earlier in the episode. Around 1:49, he warns that
-many portfolio projects name the expected tools while showing too little
-Python and SQL. Around 2:22, he asks for smaller functions and descriptive
-names. He also asks for classes where they help and for tests. A certificate
+Jeff makes the same point when he warns that many portfolio projects name the
+expected tools while showing too little Python and SQL. He asks for smaller
+functions, descriptive names, classes where they help, and tests. A certificate
 that leaves you with a badge but no code review doesn't answer those hiring
-questions.
+questions
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 ## Useful Cases
 
@@ -66,11 +65,11 @@ careers, a certificate can help you learn role vocabulary. That vocabulary
 includes ingestion and warehouses. It also includes orchestration, data
 quality, and cloud platforms.
 
-Jeff discusses cloud certification in the same job-prep episode around
-37:49-39:20. He separates credential hunting from learning fundamentals. A
-cloud certificate may help with recruiter filters. Certificate-prep books can
-also help you learn platform features. Study the platform features, then test
-the ideas in a project.
+Jeff separates credential hunting from learning fundamentals in the same
+job-prep interview. A cloud certificate may help with recruiter filters.
+Certificate-prep books can also help you learn platform features. Study the
+platform features, then test the ideas in a project
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 Use a certificate when it helps you close a concrete gap:
 
@@ -101,24 +100,26 @@ It should also show how data engineers work with analysts and analytics
 engineers. For some programs, it should also show the handoff to ML teams and
 product teams.
 
-In
-[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-Jeff Katz gives a practical curriculum benchmark. Around 23:35, he describes
-junior data engineering as a more defined path than many data science paths.
-He names Python and SQL. He also names cloud basics and orchestration.
+[[person:jeffkatz=>Jeff Katz]] gives a practical curriculum benchmark when he
+describes junior data engineering as a more defined path than many data science
+paths. He names Python and SQL, plus cloud basics and orchestration
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 
-Around 36:18, he starts the learning sequence with Python and SQL. He then
-adds analytics engineering, warehouses, and BI. Later steps add backend
-engineering, ETL, testing, and Airflow.
+He starts the learning sequence with Python and SQL, then adds analytics
+engineering, warehouses, and BI. Later steps add backend engineering, ETL,
+testing, and Airflow
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 
 That sequence matters for certification programs. A beginner certificate
-shouldn't rush past SQL and Python to advertise a large tool list. Around
-38:05-40:04, Jeff explains why a junior-focused curriculum removed Spark,
-Kafka, and Kubernetes. Spark and Kafka appeared more often in senior job
-descriptions. Kubernetes took weeks away from coding.
+shouldn't rush past SQL and Python to advertise a large tool list. Jeff
+explains why a junior-focused curriculum removed Spark, Kafka, and Kubernetes:
+Spark and Kafka appeared more often in senior job descriptions. Kubernetes
+took weeks away from coding
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 
-Around 56:46, he returns to the same balance. Most of the beginner path should
-focus on SQL and Python. Treat tools plus cloud basics as a smaller share.
+He returns to the same balance: most of the beginner path should focus on SQL
+and Python. Treat tools plus cloud basics as a smaller share
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 
 Evaluate a certification program by this order:
 
@@ -140,18 +141,17 @@ at. The project should run outside a notebook and include setup instructions.
 It should show what happens when data arrives late, duplicates appear, or a
 schema changes.
 
-[[person:gloriaquiceno=>Gloria Quiceno]] gives the
-career-change version in
-[[podcast:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
-Around 16:14-18:21, she describes searching for a role after finishing a
-bootcamp. Around 36:20-37:25, she says Python and SQL from the program became
-useful in her work, along with Docker and Airflow.
+[[person:gloriaquiceno=>Gloria Quiceno]] gives the career-change version when
+she describes searching for a role after finishing a bootcamp. Python and SQL
+from the program became useful in her work, along with Docker and Airflow
+[[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
 
-Her strongest advice comes from the portfolio discussion. Around 50:15, Gloria
-discusses a capstone with a Twitter data pipeline, Docker containers, and a
-Slack bot. Around 51:42, she says custom projects stand out because employers
-may see the same course projects repeatedly. Around 53:34, she discusses data
-quality through bot detection, cleaning Twitter data, and sentiment bias.
+Her strongest advice comes from the portfolio discussion. Gloria discusses a
+capstone with a Twitter data pipeline, Docker containers, and a Slack bot. She
+says custom projects stand out because employers may see the same course
+projects repeatedly. She then discusses data quality through bot detection,
+cleaning Twitter data, and sentiment bias
+[[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
 
 Use her standard when judging a certification project.
 
@@ -188,27 +188,24 @@ You still need to understand the categories behind those platforms:
 - [[dbt]]
 - [[Apache Airflow]]
 
-[[person:nataliekwong=>Natalie Kwong]] gives that
-vocabulary in
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-Around 4:30, she breaks ETL into source extraction, business-specific
-transformation, and loading data for use. Around 10:22, she describes
-transformations from type casting to joins across sources. Around 28:07, she
-explains that warehouse and lake choices depend on team and business needs.
-Around 30:59, she positions Airflow as a tool for scheduling and running
-pipelines.
+[[person:nataliekwong=>Natalie Kwong]] gives that vocabulary in practical
+terms. She breaks ETL into source extraction, business-specific
+transformation, and loading data for use. She describes transformations from
+type casting to joins across sources. She explains that warehouse and lake
+choices depend on team and business needs, and positions Airflow as a tool for
+scheduling and running pipelines.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 Use that episode as a certification checklist because a program shouldn't only
 name tools. It should explain what each tool category does and when it's too
 much for the problem. It should also explain how data moves from source systems
 to trusted outputs.
 
-[[person:adrianbrudaru=>Adrian Brudaru]] adds the same
-practical constraint in
-[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering]].
-Around 41:06, he recommends SQL and Python for beginners. He also recommends
-requirements gathering and portfolio building. Around 44:42, he ties tool
-choice to the end user. He also warns against vendor-led stack decisions.
+[[person:adrianbrudaru=>Adrian Brudaru]] adds the same practical constraint.
+He recommends SQL and Python for beginners, along with requirements gathering
+and portfolio building. He ties tool choice to the end user and warns against
+vendor-led stack decisions
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 
 Use those interviews to avoid tool-led certification choices. Learn Airflow
 when your workflow needs dependencies, retries, and backfills. Learn Spark
@@ -238,12 +235,11 @@ It's weaker when every student leaves with the same template project. Use
 [[data-engineer-roadmap=>Data Engineering Roadmap]]
 for the bootcamp version of this decision.
 
-Open-source work isn't a certification, but it can be stronger evidence. In
-[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]],
-[[person:vincentwarmerdam=>Vincent Warmerdam]] explains
-around 26:44-29:55 how new contributors can start from real tool use and
-reproducible issues. He also mentions documentation, tests, formatting, and CI.
-That advice applies beyond ML.
+Open-source work isn't a certification, but it can be stronger evidence.
+[[person:vincentwarmerdam=>Vincent Warmerdam]] explains how new contributors
+can start from real tool use and reproducible issues. He also mentions
+documentation, tests, formatting, and CI. That advice applies beyond ML
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 A merged pull request or well-documented issue shows that you can work in a
 shared codebase and accept feedback. It also shows that you can leave something
