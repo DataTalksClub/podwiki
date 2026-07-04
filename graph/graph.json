@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10675
+    "links": 10652
   },
   "nodes": [
     {
@@ -9569,7 +9569,7 @@
       "title": "Data Analyst Role",
       "url": "/wiki/data-analyst-role/",
       "count": 1,
-      "search": "Data Analyst Role Data analyst role across podcast discussions: SQL, dashboards, metrics, experiments, stakeholder communication, and nearby data roles."
+      "search": "Data Analyst Role How data analyst work connects SQL, dashboards, metrics, experiments, stakeholder communication, and nearby data roles."
     },
     {
       "id": "wiki:data-architect-role",
@@ -32238,30 +32238,6 @@
     },
     {
       "source": "wiki:data-analyst-role",
-      "target": "person:alicjanotowska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-role",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-role",
-      "target": "person:rishabhbhargava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-role",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-role",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -41700,60 +41676,6 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:arsenykravchenko",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:benwilson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:dannyma",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:ellenkonig",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:mihaileric",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:olegnovikov",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:roksolanadiachuk",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "person:svpino",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "article-chip",
       "weight": 1
@@ -41821,8 +41743,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41839,8 +41761,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:data-science-careers",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41851,8 +41773,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:data-scientist-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41869,8 +41791,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:experiment-tracking",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41887,8 +41809,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41905,8 +41827,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41917,8 +41839,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-system-design",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41941,8 +41863,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:ml-system-design-documents",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41953,8 +41875,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:mlops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41971,8 +41893,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:model-monitoring",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -41983,8 +41905,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:model-registry",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -42001,8 +41923,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:production-ml-project-checklist",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -42013,8 +41935,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:reproducibility",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -42025,8 +41947,8 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:software-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-strategy",
@@ -66246,36 +66168,6 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
-      "target": "person:katharinejarmul",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
-      "target": "person:supreetkaur",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
       "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
@@ -66355,12 +66247,6 @@
     {
       "source": "wiki:privacy-engineering-for-ml",
       "target": "wiki:llms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
-      "target": "wiki:llms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -66396,12 +66282,6 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:privacy-engineering-for-ml",
       "target": "wiki:security",
       "kind": "wiki-chip",
       "weight": 1
@@ -66411,6 +66291,12 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
@@ -69930,25 +69816,7 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "person:reemmahmoud",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70003,6 +69871,12 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:agent-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70068,12 +69942,6 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:responsible-ai-and-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:search",
       "kind": "wiki-chip",
       "weight": 1
@@ -70086,18 +69954,6 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:security",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:vector-databases",
       "kind": "wiki-chip",
       "weight": 1
@@ -70107,6 +69963,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reverse-etl",
