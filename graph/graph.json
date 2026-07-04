@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11042
+    "links": 11065
   },
   "nodes": [
     {
@@ -53554,6 +53554,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "person:leonidkholkine",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
       "target": "person:lisacohen",
       "kind": "wiki-chip",
       "weight": 1
@@ -53716,6 +53722,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -53740,6 +53752,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -53807,6 +53825,18 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53827,6 +53857,12 @@
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:leadership",
@@ -53947,6 +53983,12 @@
       "target": "wiki:team-building",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:team-building",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:lean-mlops-for-startups",
@@ -64846,6 +64888,18 @@
     },
     {
       "source": "wiki:nlp",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nlp",
       "target": "wiki:embeddings",
       "kind": "wiki-chip",
       "weight": 1
@@ -64918,12 +64972,36 @@
     },
     {
       "source": "wiki:nlp",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nlp",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:nlp",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nlp",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
@@ -64931,6 +65009,18 @@
     {
       "source": "wiki:nlp",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -75376,6 +75466,12 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -75385,6 +75481,12 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:synthetic-data",
@@ -75478,6 +75580,18 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:nlp",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-chip",
       "weight": 1
@@ -75487,6 +75601,12 @@
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:teaching",
@@ -76393,6 +76513,24 @@
       "target": "podcast:urban-data-science",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:text-to-sql",

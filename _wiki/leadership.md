@@ -7,6 +7,10 @@ related:
   - Hiring
   - Career Growth
   - Mentoring in Tech
+  - Team Building
+  - Data Team Lead Role
+  - Communication
+  - Data Science for Managers
   - Data Strategy
   - Data Science
   - Machine Learning
@@ -250,27 +254,68 @@ feedback.
 Semelman's feedback practice is careful because manager feedback changes a
 person's career. He recommends asking permission, showing care, and offering
 options rather than treating managerial opinion as objective truth
-([[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]]). His one-on-one discussion also frames mistakes as part
-of a safe learning environment.
+([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
+His one-on-one discussion also frames mistakes as part of a safe learning
+environment.
 
-Iofciu draws a related boundary between coaching, mentoring, and direct advice.
-For data leaders, the useful practice isn't purity about the label. It's
-choosing whether the person needs reflection, examples, or a concrete next step
-in that moment.[[cite:data-leadership-coaching@34:38=>Data Leadership Coaching]]
+[[person:terezaiofciu=>Tereza Iofciu]] makes the coaching version more
+explicit in [[cite:data-leadership-coaching=>Data Leadership Coaching]].
+She treats the move from senior IC to lead as a career change, not as a small
+extension of technical seniority. A new lead has to learn people problems,
+stakeholder framing, feedback, and self-evaluation. The team also has to help
+the new lead see how teammates receive leadership behavior.
 
-Jain's data engineering leadership episode adds the engineering version of this
-same coaching work. The manager creates standards and career paths while
-leaving room for engineers to own the work. That keeps mentorship connected to
-quality, not only to morale.
+That makes feedback culture one of the first operating habits. Iofciu
+recommends team feedback training rather than a private manager skill. People
+need practice giving and receiving feedback because even useful feedback feels
+uncomfortable. The leader separates critique of work from critique of the
+person. They also build enough trust for teammates to surface problems early
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
 
-The practical learning path for managers starts here because the first skill
-isn't a library or a modeling technique. It's learning how to ask better
-questions about people, problems, and tradeoffs.
+This connects leadership to [[Team Building]] and the
+[[Data Team Lead Role]]. A data lead can't scale by personally solving every
+unclear analysis, modeling, or pipeline problem. Iofciu's span-of-control
+discussion uses the "pizza" metaphor. A manager may technically supervise more
+than seven or eight direct reports, but attention and relationship quality drop.
+Data leaders should treat manager bandwidth as a team-design constraint, not as
+a heroic time-management problem
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+
+Coaching and mentoring also serve different moments. Iofciu says pure coaching
+would use open questions until the person finds their own answer. Data
+leadership clients often expect some training, examples, or concrete advice
+because they came for data-specific judgment. That puts her practice between
+coaching, mentoring, and consultation
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+
+The [[Mentoring in Tech]] page covers longer mentoring relationships. Leaders
+choose among reflection, repeated examples from other teams, and direct advice
+for a blocked next step.
+
+[[person:16rahuljain=>Rahul Jain]] adds the data engineering version of this
+same coaching work in
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+The manager creates standards and career paths while leaving room for engineers
+to own the work. That keeps mentorship connected to quality, not only to morale.
+
+[[person:leonidkholkine=>Leonid Kholkine]] adds community development in
+[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Starting a Data Conference]].
+Junior data scientists can learn from conferences because speakers, workshops,
+and cross-domain talks expose them to methods outside their day job. That's not
+manager coaching, but it gives leaders another growth lever when a team needs
+broader perspective.
+
+The practical learning path for managers starts with questions, not libraries
+or modeling techniques. Managers need to ask better questions about people,
+problems, and tradeoffs. [[Data Science for Managers]] belongs near leadership
+because managers still need technical literacy. They use it to scope, coach,
+and evaluate work rather than to become the strongest individual contributor
+again.
 
 Sadat warns new managers who came from deep hands-on work that losing the
 dopamine loop of coding is part of the role change. The manager needs new
 feedback loops around team momentum, influence, and business value
-([[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Software Engineer to Data Science Manager]]).
+([[cite:from-software-engineering-to-leading-data-science-teams=>Software Engineer to Data Science Manager]]).
 
 Managers can learn from several episodes:
 
@@ -296,8 +341,20 @@ Data and AI leadership often fails when technical work can't be translated
 into stakeholder priorities. Iofciu describes influence without authority as
 speaking different work languages and listening actively. The leader then
 connects a project to what matters for the other person
-([[cite:data-leadership-coaching@46:00=>Data Leadership Coaching]][[cite:data-leadership-coaching@49:20=>Data Leadership Coaching]]). She also argues that data foundation work, models, and
-open-source work need visibility because impact isn't always customer-facing.
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]). She also argues
+that data foundation work, models, and open-source work need visibility because
+impact isn't always customer-facing.
+
+That's the practical side of [[Communication]]. Data people often need product
+managers, engineers, sales leaders, or executives to change a roadmap. Those
+people often don't report to the data team. Iofciu's advice isn't to repeat
+the same technical argument louder.
+
+The data leader should learn the other person's work language and listen for
+their goals. They should frame the request around what that person already has
+to deliver. That makes influencing without authority part of everyday
+leadership, not a political exception
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
 
 Semelman gives the product version of the same practice. He warns that data
 scientists can spend time on technically interesting work that doesn't change

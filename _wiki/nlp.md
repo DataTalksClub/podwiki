@@ -8,6 +8,10 @@ related:
   - Retrieval-Augmented Generation
   - LLM Production Patterns
   - LLM Evaluation Workflows
+  - Annotation Quality Workflows
+  - Privacy Engineering for ML
+  - Responsible AI and Governance
+  - Security
 ---
 
 Natural language processing (NLP) is the part of machine learning that works
@@ -19,10 +23,12 @@ NLP work connects data collection, annotation and linguistics to deployment,
 evaluation, user safety and product constraints.
 
 Label definitions and annotation guides define the dataset before training
-starts.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
+starts. For more detail, see [[Annotation Quality Workflows]].[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 Prompt injection, hallucinations, and output validation set the production
-boundary.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+boundary. Those controls connect NLP to [[security]],
+[[Privacy Engineering for ML]], and
+[[Responsible AI and Governance]].[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 Older NLP work connects to modern [[LLMs]], [[embeddings]], and
 [[retrieval-augmented-generation=>RAG]]. NLP teams are production teams, not
@@ -163,16 +169,53 @@ and speech disorders. Standard speech datasets and deployment settings can fail
 for atypical speech. Transfer learning and limited data address those gaps.
 Transcription, LLM post-correction, and contextual language models help too.[[cite:human-centered-ai-automatic-speech-recognition=>Human-Centered Speech Recognition]]
 
-Translation and multilingual work add AI-augmented translation, controlled
-machine translation with ChatGPT, and multilingual models for low-resource
-languages. Orthography, historical corpora, and data quality show why language
-coverage and writing systems still matter after LLM adoption.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
-
 NLP expertise also becomes client work, through a model-in-the-loop annotation
 study, annotation outcomes, and evaluation. Generative AI can fit an NLP-focused
 consulting practice. That places NLP inside
 [[freelance]] and practical AI adoption,
 not only research.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Launching a Freelance Generative AI Business]]
+
+## Low-Resource and Multilingual NLP
+
+Low-resource NLP appears when the team lacks enough representative language data.
+The gap can involve a group of speakers. It can also involve dialects, writing
+systems, or speech patterns the system must serve. In the speech-recognition
+discussion, Katarzyna Foremniak treats this as
+more than a generic accuracy question. ASR models trained on standard speech can
+fail on atypical speech and speech disorders. They can also miss accents and
+language varieties outside the training distribution.[[cite:human-centered-ai-automatic-speech-recognition=>Human-Centered Speech Recognition]]
+
+Teams have to start with people and data before model choice. Teams can use
+specialized datasets for disordered speech. Broad collection remains difficult
+because clinical data has GDPR constraints and language variety matters.
+
+Data augmentation and transfer learning help teams work with limited examples.
+Multimodal cues such as lip reading and personalized fine-tuning help too.
+Teams still need careful labeling and review. This puts the work next to
+[[Annotation Quality Workflows]]. It also links the work to
+[[Privacy Engineering for ML]] and
+[[Responsible AI and Governance]].[[cite:human-centered-ai-automatic-speech-recognition=>Human-Centered Speech Recognition]]
+
+Maria Sukhareva describes the text side through low-resource and historical
+languages. English is a high-resource language. A team can't assume an LLM or
+translation system will behave the same way for languages with fewer digital
+resources. Her examples include Gothic, Middle Low German, Sumerian, and other
+historical languages.
+
+Historical corpora create another data-quality problem because spelling,
+punctuation, and orthography may not be standardized. Some scripts mix phonetic,
+grammatical, and semantic signals.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
+Multilingual models reduce older machine-translation patterns that pivot through
+English. They can also generalize across language pairs. They don't remove the
+need to look at the data, writing system, and user context.
+
+NLP teams should test the language varieties the product will serve. They should
+use human review where language quality affects safety or trust. They should
+also include low-resource cases in [[LLM Evaluation Workflows]].
+
+In production chatbots, those same language gaps sit beside prompt injection and
+data exfiltration. Output validation and [[security]] controls still apply.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 ## Production and Evaluation
 

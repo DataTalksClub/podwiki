@@ -15,189 +15,196 @@ related:
   - Data Teams
 ---
 
-AI for social good uses [[AI]], analytics, and [[machine learning]] to improve
-public-interest work. DataTalks.Club episodes cover conservation, nonprofit
-operations, and public policy. They also cover accessibility, health access, and
-humanitarian response. The work isn't "AI plus a good cause." It's applied
-decision support under resource constraints, weak infrastructure, sensitive
-stakeholders, and long-term accountability.
+AI for social good uses [[AI]] and [[machine learning]], along with analytics,
+to support public-interest decisions. DataTalks.Club guests discuss
+conservation monitoring and nonprofit analytics. They also discuss public
+policy, accessibility, and health or field deployment. Across those domains, the
+work isn't "AI plus a good cause." It's decision support under resource
+constraints, weak infrastructure, sensitive stakeholders, and long-term
+accountability.
 
-The strongest examples pair technical work with [[data-strategy=>data
+The strongest examples connect technical work to [[data-strategy=>data
 strategy]], [[responsible-ai-and-governance=>responsible AI]], and
 [[computer-vision=>computer vision]]. Conservation systems turn images, remote
-sensing, and citizen science into biodiversity monitoring. Nonprofit analytics
-starts with maturity scans before model building. Public-policy work asks
-whether a data project changes an institutional decision. Accessibility and
-malaria projects show how production constraints and field feedback matter even
-when the work starts as a volunteer or university project.
+sensing, citizen science, and field observations into biodiversity monitoring.
+Nonprofit analytics starts with maturity scans before model building.
+Public-policy work tests whether a data project changes an institutional
+decision without creating new harm. Accessibility and malaria projects show how
+[[production]], evaluation, and field feedback matter even when the work starts
+as a volunteer or university project.
 
-## Decision Support Before Model Novelty
+## Mission Decisions Before Model Novelty
 
-AI for social good succeeds when it changes a decision that a mission-driven
-organization already needs to make. Conservation AI acts as infrastructure for
-fragmented ecological observations. It turns those observations into monitoring
-and policy. It also supports enforcement and long-term conservation
-decisions. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+AI for social good is useful when it changes a decision that a mission-driven
+organization already needs to make. In conservation, Tanya Berger-Wolf describes
+AI as infrastructure for fragmented ecological observations. Camera traps and
+drone imagery become inputs to monitoring, along with satellites and citizen
+science.
+Habitat mapping supports enforcement, while species ID supports policy.
+Individual animal identification supports long-term conservation decisions. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
 
-That definition is broader than model accuracy. It includes camera traps, drone
-imagery, satellite data, and individual animal identification. Habitat mapping
-belongs in the same discussion. So do citizen-science quality control and field
-deployment. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
-The model is useful only when ecologists, local partners, policymakers, or
-enforcement teams can act on the result.
+That definition is broader than model accuracy. Ecologists, local partners,
+policymakers, or enforcement teams need to act on the output. This connects
+conservation AI to [[computer-vision=>computer vision]], [[data-governance=>data
+governance]], and [[MLOps]], not only ecology modeling.
 
-Nonprofit analytics follows the same rule: descriptive and diagnostic work can
-mature into optimization. At that point, models recommend where to place
-facilities or labs instead of only explaining past activity. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
-The Nairobi waste-collection pilot and healthcare-access examples make the
-decision explicit: scarce resources need to go where they can improve access or
-coverage next.
+Nonprofit analytics follows the same rule. Parvathy Krishnan describes analytics
+moving toward optimization after descriptive and diagnostic work. Models can
+recommend where to place facilities, labs, or collection resources.
+They're no longer only explaining past activity. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
+The Nairobi waste-collection pilot and healthcare-access examples show scarce
+resources moving toward people and places where they improve coverage next.
 
-## Different Boundaries
+## Domain Boundaries and Failure Modes
 
-The episodes draw different boundaries around "social good." Conservation work
-emphasizes biodiversity monitoring and responsible data sharing, with local
-governance and long-lived ecological infrastructure as operating constraints. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
-Nonprofit analytics emphasizes organizational maturity and open tools. Data
-collection and practical workflows often come before advanced models. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
+Guests draw the boundary around "social good" differently because each domain
+has a different failure mode. Conservation work emphasizes biodiversity
+monitoring, responsible data sharing, local governance, and long-lived
+ecological infrastructure. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+Nonprofit analytics emphasizes organizational maturity, practical tooling, and
+open resources. Data collection and repeatable workflows often come before
+advanced models. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 
-Public-policy work adds a sharper ethical test because a legal system can still
-create harm. A technically possible AI system can still create access, fairness,
-or abuse risks. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
+Public-policy work adds a sharper ethical test. Christine Cepelak's discussion
+of data science for public policy separates legality from ethics. A technically
+possible system can still create access, fairness, or abuse risks. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
 
-Production standards also vary by domain. A nonprofit optimization project may
-need a web app, database, and handoff plan before it needs a novel model. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
+This places social-impact work beside [[responsible-ai-and-governance=>responsible
+AI and governance]]. The concern is strongest when systems touch benefits,
+hiring, or mobility. Aid and community resources create similar risk.
+
+Production standards also shift by domain. A nonprofit optimization project may
+need a web app, database, handoff plan, and data team capacity before it needs a
+novel model. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 An accessibility or autonomous-driving-adjacent computer vision system needs
 staged testing, labeling quality, safety checks, and monitored deployment
 because wrong outputs can affect people immediately. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
 
 ## Conservation Monitoring and Biodiversity Infrastructure
 
-Conservation work adds a distinct data problem. Teams monitor phenomena that
-are sparse and mobile, with uneven observations. Camera traps and drones produce
-useful signals, as do satellites and citizen science.
+Conservation AI starts from sparse, mobile, and uneven observations. Camera
+traps, drones, satellites, and citizen science can all provide signals. Labels
+can be scarce, classes can be imbalanced, and observations often arrive from
+heterogeneous sources. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
 
-Labels can be scarce and classes can be imbalanced, while observations may come
-from heterogeneous sources. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+Wildbook-style platforms depend on interoperability and FAIR data principles.
+Domain shift and transfer learning affect whether a model trained in one place
+can work somewhere else. Edge deployment, capacity building, and sustainable
+funding affect whether a monitoring system keeps working after the first model
+demo. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
 
-This makes conservation AI close to [[data-governance=>data governance]] and
-[[MLOps]]. It isn't just ecology modeling. Wildbook-style platforms depend on
-interoperability and FAIR data principles. Domain shift and transfer learning
-affect model reuse. Edge deployment, capacity building, and sustainable funding
-affect field adoption. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+Conservation teams also balance openness with responsibility. Open data and
+reproducible standards help combine evidence across places and time. The same
+work has to respect Indigenous knowledge, equity, local partners, and community
+governance. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+In conservation, "more data" is useful only when the data use is legitimate and
+connected to biodiversity, enforcement, or habitat decisions.
 
-Those concerns decide whether a monitoring system can keep working after the
-first model demo.
+## Nonprofit Analytics and Practical Tooling
 
-Conservation teams have to balance openness with responsibility. Open data and
-reproducible standards help them combine evidence across places and time. The
-same work has to respect Indigenous knowledge and equity while working with
-local partners and community governance. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
-In this domain, "more data" isn't automatically better unless the data use is
-legitimate and useful for conservation decisions.
+Nonprofits often need analytics capacity before they need advanced AI. Discovery
+workshops and maturity scans ask what data, workflows, and technology already
+exist. They also ask which short-term and long-term goals matter to the
+organization. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 
-## Nonprofit Data Maturity and Practical Tooling
+This creates a practical boundary between [[data-strategy=>data strategy]] and
+modeling. Not every nonprofit can or should jump directly into machine learning
+or deep learning. Teams may need data collection, governance, dashboards, and
+databases. They also need standard operating procedures and people who can
+maintain them. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 
-Nonprofits often need analytics capacity before they need advanced AI. A useful
-operating model starts with discovery workshops and maturity scans. Teams ask
-what data exists, which workflows already exist, what technology exists, and
-which short-term and long-term goals matter to the organization. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
-
-That creates a useful disagreement with tech-first project work. Not every
-nonprofit can or should jump directly into machine learning or deep learning.
-Teams may need to start smaller and iterate quickly. They may also need to
-invest in people, processes, and technology together. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
-
-For lower-maturity organizations, a reliable data-collection process can be
-more valuable than a model. So can a governance practice, dashboard, database,
-or standard operating procedure.
-
-The tooling examples are deliberately ordinary. KoboToolbox supports
-structured humanitarian data collection, and PostgreSQL supports open data
-storage. Dashboards, Python or R, and version control belong in the same
-practical toolset. Privacy practices and cloud deployment options do too. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
-
-That places AI-for-good work beside [[data-teams=>data teams]] and
-[[data-strategy=>data strategy]]. Small organizations often need that base
-before they can use a model.
+The tool examples are deliberately ordinary. KoboToolbox supports structured
+humanitarian data collection, and PostgreSQL supports open data storage.
+Dashboards, Python or R, and version control belong in the same practical
+toolset. Privacy practices and cloud deployment options do too. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
+For small organizations, this places AI-for-good work close to [[data-teams=>data
+teams]] and [[data-governance=>data governance]] before it becomes a modeling
+problem.
 
 ## Public Policy and Ethical Boundaries
 
 Public-sector and policy work asks whether a system should exist in its proposed
 form. Public policy includes laws and governance structures that address social
-issues. Data science has to fit long-running programs rather than one-off
+issues, so data science has to fit long-running programs rather than one-off
 technical solutions. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
 
 Social-impact data projects need to fit the larger issue. A model may detect
-boats in drone footage for refugee aid. The real system still needs an aid
-workflow and stakeholders. It also needs data collection, labeling, field
+boats in drone footage for refugee aid. The surrounding system still needs an
+aid workflow and stakeholders. It also needs data collection, labeling, field
 operations, and follow-through. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
-This is the public-sector version of production: the output has to enter a
-decision process that can help people.
+In policy settings, [[production]] means the output enters a decision process
+that can help people.
 
-Legality and ethics are separate tests. E-waste and recycling examples show
+Legality and ethics remain separate tests. E-waste and recycling examples show
 that harmful behavior may be legal. AI regulation and social-scoring risks show
 how technical systems can create access problems, fairness failures, and abuse
 risks. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
+That's why policy-oriented social-good work belongs with [[responsible-ai-and-governance=>responsible
+AI and governance]] rather than only with model development.
 
-That makes AI for social good part of [[responsible-ai-and-governance=>responsible
-AI and governance]]. The concern is strongest when systems affect public
-benefits and hiring. Mobility, aid, and community resources have similar risk.
+## Accessibility Systems
 
-## Field Data, Computer Vision, and Resource Allocation
+Accessibility projects make the user-facing risk immediate. AI Guide Dog uses a
+mobile camera and audio instructions to help visually impaired people navigate.
+The project remains in beta because the use case is sensitive and needs testing
+before people can depend on it. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
 
-Many social-good examples are perception problems because field teams need to
-see things at scale. Drone computer vision can support refugee aid. Satellite
-imagery can support rooftop sustainability and poverty estimation where census
-data is incomplete. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
-Conservation examples use camera traps and drone imagery. They also include
-species ID, individual tracking, and habitat change detection. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+That separates accessibility from the nonprofit maturity problem. Student
+volunteer cohorts pass AI Guide Dog forward through data work, baselines,
+evaluation, and mentorship. The project also needs careful product validation
+because the output affects a person's movement through the physical world. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+This makes accessibility work adjacent to [[computer-vision=>computer vision]],
+[[model-monitoring=>model monitoring]], and high-stakes [[production]] practice.
 
-AI Guide Dog adds an applied [[computer-vision=>computer vision]] example. The
-project uses a mobile camera and audio instructions to help visually impaired
-people navigate. It remains in beta because the use case is sensitive and needs
-testing. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+## Healthcare and Field Deployment
 
-The project also shows an iterative social-good delivery model, where multiple
-student volunteer cohorts pass the work forward. The groups improve data,
-baselines, evaluation, or mentorship. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+Healthcare access and malaria mapping show AI for social good as resource
+allocation. In the nonprofit analytics episode, optimization use cases include
+healthcare access and COVID testing lab placement, where analytics helps place
+scarce resources more effectively. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 
-The malaria-mapping example shows AI as resource allocation. A volunteer Omdena
-team worked with Zap Malaria to target fumigation toward areas with high
-mosquito probability. The team combined satellite imagery and topographic data
-to detect stagnant-water or low-lying areas. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
-The reported value wasn't a new architecture. It was better focus for field
-teams, saved time, and more effective use of nonprofit resources. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+Aishwarya Jadhav's malaria-mapping example makes the field setting explicit. A
+volunteer Omdena team worked with Zap Malaria to target fumigation toward areas
+with high mosquito probability. The team combined satellite imagery and
+topographic data to detect stagnant-water or low-lying areas. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+The reported value wasn't a new architecture. Field teams got better focus,
+saved time, and used nonprofit resources more effectively. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
+
+These examples are related to [[healthcare-ml-validation-and-adoption=>healthcare
+ML validation and adoption]], but the boundary is different. For clinical
+validation and adoption, follow the healthcare ML page. The social-good
+examples here focus on resource placement, field feedback, and whether local
+teams can act on the recommendation.
 
 ## Production Constraints and Long-Term Adoption
 
-AI-for-good systems often fail at the handoff from prototype to operation.
+AI-for-good systems often struggle at the handoff from prototype to operation.
 Nonprofit projects may need mobile or web applications, backend optimization
 models, and deployment capacity before field teams can act on the result. [[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofits]]
 
-Public-sector organizations may have Excel sheets, old records, temporary
-staff, and donor-funded roles. They may also have weak IT infrastructure and
+Public-sector organizations may have Excel sheets, old records, and temporary
+staff. They may also rely on donor-funded roles, weak IT infrastructure, and
 limited digital literacy. [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
-That means project design should avoid depending on one temporary stakeholder or
-assuming a clean database already exists.
+Project teams should avoid depending on one temporary stakeholder or assuming a
+clean database already exists.
 
-Autonomous-driving production uses a stricter reliability model where
-simulation, closed-track testing, and on-road validation happen before release.
-Sensor data management and labeling quality matter too, as do safety checks and
-staged deployments. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
-
+Before release, autonomous-driving teams test in simulation, on closed tracks,
+and on roads. Safety checks, staged deployments, sensor data management, and
+labeling quality also matter. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>CV]]
 Social-good projects may not have the same safety case as a self-driving car.
-They still need clear validation and monitoring. They also need escalation paths
-when a system is wrong.
+They still need validation, monitoring, and escalation paths when a system is
+wrong.
 
 ## Related Pages
 
-Use [[AI]] and [[machine-learning=>machine learning]] for the technical
-foundations, along with [[computer-vision=>computer vision]]. Use
-[[data-strategy=>data strategy]] and [[data-governance=>data governance]] for
-the organizational side, along with [[data-teams=>data teams]]. For risk and
-deployment, pair this page with [[responsible-ai-and-governance=>responsible AI
-and governance]], [[MLOps]], and [[production]]. Use
-[[model-monitoring=>model monitoring]] for post-launch review. For adjacent
-high-stakes adoption, see
-[[healthcare-ml-validation-and-adoption=>healthcare ML validation and adoption]].
+Core technical context includes [[AI]], [[machine-learning=>machine learning]],
+and [[computer-vision=>computer vision]].
+
+Organizational context includes [[data-strategy=>data strategy]],
+[[data-governance=>data governance]], and [[data-teams=>data teams]].
+
+For risk and deployment, see [[responsible-ai-and-governance=>responsible AI and
+governance]], [[MLOps]], and [[production]]. For post-launch review and adjacent
+high-stakes adoption, see [[model-monitoring=>model monitoring]] and
+[[healthcare-ml-validation-and-adoption=>healthcare ML validation and
+adoption]].
