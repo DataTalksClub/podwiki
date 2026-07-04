@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10805
+    "links": 10784
   },
   "nodes": [
     {
@@ -43218,24 +43218,6 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -43892,42 +43874,6 @@
       "source": "wiki:dataops",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:barrmoses",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:bartoszmikulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:christopherbergh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:santonatuli",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "person:tomaszhinc",
-      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -46473,48 +46419,6 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:16rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:gloriaquiceno",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:santonatuli",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:elt",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:elt",
@@ -74505,36 +74409,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "person:angelicaloduca",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "person:eugeneyan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "person:willrussell",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:technical-writing",

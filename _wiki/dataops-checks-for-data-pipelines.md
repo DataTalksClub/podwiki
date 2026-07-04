@@ -36,14 +36,13 @@ For reliability context, use [[DataOps]] and
 [[Data Quality and Observability]]. For platform and observability context, use
 [[DataOps Platforms]] and [[Data Observability for Data Engineering]].
 
-[[person:barrmoses=>Barr Moses]] puts freshness and volume first, then adds
-distribution, schema, and lineage. She warns that engineering jobs can succeed
-while the data is still wrong [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Freshness and volume checks usually come first. Distribution, schema, and
+lineage checks catch failures that a green engineering job can still miss
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
-[[person:christopherbergh=>Christopher Bergh]] adds the
-delivery path through version control, automated tests, and CI/CD. He connects
-those release practices to monitoring, runbooks, and end-to-end deployment
-automation [[cite:dataops-automation-and-reliable-data-pipelines|DataOps Automation]].
+Release checks belong in version control, automated tests, and CI/CD. Production
+checks need monitoring, runbooks, and deployment automation so a failed check
+has a recovery path [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
 ## Start With The Pipeline Agreement
 
@@ -52,10 +51,10 @@ agreement says what dataset is produced and who consumes it. It also names the
 readiness window, required columns, key fields, and unsafe output cases.
 
 That agreement connects [[data pipelines]]
-to [[DataOps]], and Bergh frames the same
-problem as "done" versus "good." A data product isn't ready until a team can
-hand it off and version it. The team also needs tests, monitoring, and a
-recovery path [[cite:dataops-automation-and-reliable-data-pipelines|DataOps Automation]].
+to [[DataOps]]. A data product isn't ready when the code merely runs. It also
+needs a handoff and versioning. Tests, monitoring, and a recovery path make it
+operable
+[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
 Write the first agreement in plain language:
 
@@ -71,8 +70,9 @@ Write the first agreement in plain language:
    or consumer warning.
 
 The same agreement should link to the owner and runbook. It should also name
-downstream consumers. Moses connects that ownership layer to RACI-style
-accountability. She also ties ownership to data SLAs and operational runbooks [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+downstream consumers. RACI-style accountability, data SLAs, and operational
+runbooks keep the check attached to the team that can act on it
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 ## Check Freshness
 
@@ -80,9 +80,11 @@ Freshness asks whether data arrived when consumers expected it. It's the first
 check for daily dashboards and hourly operational tables. It also matters for
 feature pipelines, reverse ETL syncs, and customer-facing reports.
 
-Moses describes freshness with a table that normally updates several times an
-hour and then stops updating. Don't stop at checking whether the scheduler ran.
-Ask whether the latest data is current enough for the use case [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Freshness failures can hide behind a successful scheduler run when a table that
+normally updates several times an hour stops receiving new data. Don't stop at
+checking whether the scheduler ran. Ask whether the latest data is current
+enough for the use case
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Add freshness checks at two levels:
 
@@ -98,9 +100,9 @@ For a batch table, a minimal check can compare `max(event_ts)` or
 the expected partition exists and has rows. For streaming or micro-batch flows,
 track event-time lag and processing-time lag separately.
 
-Freshness needs priority, not just alerting. Moses uses a five-minute SLA
-example to separate urgent and non-urgent incidents. A critical feature table
-and a low-use table shouldn't create the same response [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Freshness needs priority, not just alerting. A five-minute SLA should create a
+different response from a low-use table with a loose expectation
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Set the action in advance. Retry when source delay looks transient, and hold
 publication when the output is stale. Notify consumers when the SLA will be
@@ -112,9 +114,9 @@ Volume asks whether the amount of data is plausible, catching empty outputs and
 partial extracts. It also catches duplicated loads, broken filters, and missing
 CDC windows.
 
-[[person:tomaszhinc=>Tomasz Hinc]] gives the simplest failure case: Airflow jobs
-can be green while zero records are inserted. A scheduler success state only
-proves that the task completed. It doesn't prove that useful data arrived [[cite:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+Airflow jobs can be green while zero records are inserted. A scheduler success
+state only proves that the task completed. It doesn't prove that useful data
+arrived [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 Start with these volume checks:
 
@@ -127,8 +129,9 @@ Start with these volume checks:
    window.
 
 Use hard thresholds for safety checks and historical baselines for anomaly
-checks. Moses notes that volume expectations can often be inferred from history,
-then overridden when a consumer needs a stricter SLA [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+checks. Volume expectations can often be inferred from history, then overridden
+when a consumer needs a stricter SLA
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Fail hard for impossible cases such as zero rows in a required daily table. Send
 review alerts for plausible but unusual spikes.
 
@@ -139,11 +142,12 @@ jobs from structural changes. A schema check should fail when required columns
 are missing. It should also fail when data types change incompatibly, nested
 fields disappear, or a source adds a breaking value structure.
 
-Moses treats schema as one of the five observability pillars. She ties it to
-downstream breakage after a missed schema-change notification [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
-[[person:larsalbertsson=>Lars Albertsson]] puts schema
-automation into the DataOps maturity ladder. He says teams should automate
-schema management so incompatible changes don't flow into production unnoticed [[cite:dataops-principles-and-scalable-data-platforms|DataOps Principles and Scalable Data Platforms]].
+Schema is one of the five observability pillars because a missed schema-change
+notification can break downstream consumers
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+DataOps maturity also depends on automated schema management so incompatible
+changes don't flow into production unnoticed
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps Principles and Scalable Data Platforms]].
 
 Add schema checks for:
 
@@ -170,9 +174,9 @@ Distribution checks ask whether values still look plausible. They catch null
 spikes, impossible dates, negative amounts, and extreme values. They also catch
 changed category mixes and shifted product or geography groups.
 
-Moses defines distribution as the signal for value ranges and unexpected field
-contents. Her examples include values moving far outside the expected range and
-fields receiving the wrong kind of content [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Distribution checks cover value ranges and unexpected field contents. They catch
+values moving far outside the expected range and fields receiving the wrong kind
+of content [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Use distribution checks where bad values can silently change a metric:
 
@@ -184,9 +188,9 @@ Use distribution checks where bad values can silently change a metric:
 6. Currency, unit, timezone, and status-code values still match the business
    definition.
 
-Not every anomaly is bad data, and Moses warns that uncommon data may be
-intentional. It still needs context because it can affect a model, report, or customer
-workflow [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Not every anomaly is bad data. Uncommon data may be intentional, but it still
+needs context because it can affect a model, report, or customer workflow
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Treat distribution checks as review triggers when business context matters and
 as hard failures when the value is impossible.
 
@@ -207,13 +211,12 @@ The check should state the grain in the same language as the consumer:
 
 Put this beside [[analytics engineering]]
 and [[data pipelines]] because the
-check protects meaning, not only mechanics. In the pipeline build guide,
-[[person:santonatuli=>Santona Tuli]] emphasizes keys and
-foreign keys. She also emphasizes business entities and the question the
-pipeline must answer [[cite:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipelines]].
+check protects meaning, not only mechanics. Keys, foreign keys, business
+entities, and the question the pipeline must answer define the grain
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipelines]].
 
-Hinc warns that successful jobs may still publish wrong rows, so verify merge
-keys before publishing [[cite:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+Successful jobs may still publish wrong rows, so verify merge keys before
+publishing [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 For a published table, the basic SQL check is `count(*) = count(distinct key)`.
 For composite grains, define the exact key tuple and test that tuple.
 
@@ -233,25 +236,27 @@ Examples:
 5. A feature table can't score entities without the required source event.
 6. A financial report can't publish until the period is closed.
 
-Bergh describes this style of test as checking expected row counts and report
-values. He also names regression impact. For tooling, he names dbt tests and
-Great Expectations. SQL checks can automate the same assertions [[cite:dataops-automation-and-reliable-data-pipelines|DataOps Automation]].
+Business-rule tests can check expected row counts, report values, and regression
+impact. dbt tests, Great Expectations, and SQL checks can automate the same
+assertions [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] adds a practical
-strategy for [[data pipelines]]: get the pipeline running first, then observe
-outputs and decide what's acceptable. Those accepted outputs become checks, and
-sample data can run through the flow so the result can be compared with
-expected snapshots. In that frame, [[Testing]] for pipelines leans more on
-integration and snapshot tests than isolated unit tests [[cite:production-ready-ai-engineering|Production-Ready AI Engineering]].
+For [[data pipelines]], one practical strategy is to get the pipeline running
+first, then observe outputs and decide what's acceptable. Those accepted outputs
+become checks, and sample data can run through the flow so the result can be
+compared with expected snapshots. In that frame, [[Testing]] for pipelines leans
+more on integration and snapshot tests than isolated unit tests
+[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
 Great Expectations and Soda can run after each pipeline step. SQL checks and
 Spark tests can enforce column counts and null rules. Teams can use templated
-test tables for joins and business-rule expectations [[cite:production-ready-ai-engineering|Production-Ready AI Engineering]].
+test tables for joins and business-rule expectations
+[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
-Don't try to encode every edge case. Hinc argues for pragmatic edge-case checks
-because company data flows constantly and perfection isn't realistic. Focus on
-cases that would make a leadership report, customer workflow, or model output
-unsafe [[cite:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+Don't try to encode every edge case. Company data flows constantly, so pragmatic
+edge-case checks matter more than an unrealistic attempt at perfect coverage.
+Focus on cases that would make a leadership report, customer workflow, or model
+output unsafe
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 Write each business rule with an owner, a failure severity, and a default
 action. Some rules should block publication. Others should open a ticket because
@@ -263,10 +268,9 @@ With lineage checks, the team should be able to trace a bad output. The trace
 should show the upstream source and downstream consumer. It should also show the
 code or schema change.
 
-Moses separates detection from diagnosis. Teams need logs, correlations, and
-lineage to find the root cause and understand the blast radius [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
-She returns to automatic upstream and downstream lineage later in the same
-episode [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+Detecting a failure is only the first step, so teams need logs and correlations
+to find the root cause. Upstream and downstream lineage shows the blast radius
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Add lineage checks for:
 
@@ -291,10 +295,10 @@ That means checking SQL models and Python code. Check DAG definitions, config
 files, schema agreements, and infrastructure changes in
 [[ci-cd=>CI/CD]].
 
-In Bergh's newer DataOps episode, he recommends robust CI/CD pipelines and
-realistic test data. He also recommends infrastructure as code and low-risk
-deployment paths. Version control alone isn't enough, so teams need end-to-end
-tests and automated checks before production [[cite:dataops-for-data-engineering|DataOps for Data Engineering]].
+Version control alone isn't enough because CI/CD needs realistic test data and
+infrastructure as code. It also needs low-risk deployment paths, end-to-end
+tests, and automated checks before production
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Use CI/CD for:
 
@@ -310,14 +314,15 @@ Use CI/CD for:
 8. Promotion checks that compare staging output with the current production data
    agreement before deployment.
 
-Hinc adds the GitOps path for infrastructure and access changes. In his episode,
-teams use Terraform and Terragrunt. Atlantis dry runs, merge requests, and
-review make data infrastructure changes reproducible and safer to apply [[cite:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+GitOps extends the same release path to infrastructure and access changes.
+Terraform and Terragrunt define changes. Atlantis dry runs, merge requests, and
+review make data infrastructure changes reproducible and safer to apply
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 That same review habit should cover pipeline dependencies and secrets.
 
-To keep runs reproducible, pin dependencies. Hinc describes a containerized job
-failing because a Python dependency wasn't fixed and the latest version changed
-its API [[cite:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+To keep runs reproducible, pin dependencies. A containerized job can fail when a
+Python dependency isn't fixed and the latest version changes its API
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 Dependency drift is a DataOps check because it can break a pipeline without any
 business logic change.
 
@@ -328,9 +333,9 @@ work and should expose check failures clearly. A data check that fails
 should stop publication, page the right owner when the SLA requires it, and
 record enough context for recovery.
 
-Albertsson describes the workflow engine as the component that tracks
-dependencies and schedules work. It retries after late data or transient
-failures, which keeps a fragile set of processing components sane [[cite:dataops-principles-and-scalable-data-platforms|DataOps Principles and Scalable Data Platforms]].
+A workflow engine tracks dependencies, schedules work, and retries after late
+data or transient failures
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps Principles and Scalable Data Platforms]].
 That's the right place to connect checks to retries, backfills, and dependency
 state. The processing and validation logic can still live outside the scheduler.
 
@@ -362,15 +367,17 @@ Every important check needs a recovery path:
 4. A failed lineage check may need a manual impact review before anyone trusts
    the alert scope.
 
-Moses connects observability to diagnosis and impact analysis. Lineage shows
+Observability connects detection to diagnosis and impact analysis. Lineage shows
 which downstream tables, reports, models, or customer workflows depend on the
-broken asset [[cite:data-quality-data-observability-data-reliability|Data Observability Explained]].
+broken asset
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 That impact map should appear in the runbook, not only in an observability UI.
 
-Bergh pushes teams from manual runbooks toward automated playbooks. The manual
-runbook is still useful because it names the decision path. Automation should
-then handle repeated actions such as retrying, pausing publication, opening an
-incident, or running a backfill [[cite:dataops-automation-and-reliable-data-pipelines|DataOps Automation]].
+Manual runbooks should become automated playbooks where the action is repeated.
+The manual runbook is still useful because it names the decision path.
+Automation should then handle repeated actions such as retrying, pausing
+publication, opening an incident, or running a backfill
+[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
 For each critical pipeline, write a compact runbook:
 
@@ -384,10 +391,11 @@ For each critical pipeline, write a compact runbook:
 8. Which missing test or alert should be added after the incident.
 9. Which CI/CD or orchestration check should prevent the same failure next time.
 
-Recovery should improve the next release. Bergh recommends starting from
-production monitoring because real failures show which operating gaps matter [[cite:dataops-for-data-engineering|DataOps for Data Engineering]].
+Recovery should improve the next release. Production monitoring shows which
+operating gaps matter because real failures expose the missing checks
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
-## DataOps Check Sequence
+## Roll Checks Into The Pipeline
 
 Use this sequence for a new or existing pipeline:
 
