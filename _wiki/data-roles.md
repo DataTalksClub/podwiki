@@ -132,6 +132,21 @@ Good ML engineering favors modular systems the team can test and operate
 ([[Machine Learning Engineer Role]],
 [[Machine Learning System Design]]).
 
+Vin Vashishta adds a monetization split around ML work
+[[cite:make-money-with-machine-learning-roles-skills@20:15=>Three ML monetization capabilities]].
+
+Companies need three capabilities:
+
+- a strategy/product capability to translate business goals into researchable ML
+  use cases
+- a research capability to create reusable model or dataset artifacts
+- an architecture capability to estimate platform cost and production path
+
+Those capabilities may become separate roles in mature teams, or hats worn by
+senior people in smaller teams. They explain why [[ML Product Manager Role]] and
+[[Machine Learning Infrastructure]] sit beside data scientist and ML engineer
+roles instead of replacing them.
+
 The data product manager role owns product judgment around data capabilities.
 That capability might be a dashboard, metric layer, or recommender. It might
 also be a data platform or MLOps platform.

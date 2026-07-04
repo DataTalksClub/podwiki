@@ -75,7 +75,7 @@ analytics-adjacent engineer. A hiring screen has to say which version it means.
 The split becomes explicit in [[person:slawomirtulski=>Slawomir Tulski]]'s data
 identity crisis framing. He separates platform engineering from product-facing
 data engineering
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@11:54=>Data Engineer Career in 2026]].
 Platform data engineers build shared infrastructure, standards, and
 reliability. Product data engineers work closer to domains, metrics,
 stakeholders, and data products. That distinction matters for [[data-engineer-roadmap=>data engineering roadmaps]]
@@ -193,7 +193,7 @@ role. Cloud services and introductory Kubernetes appear in the big-data version
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 [[finops-for-data-engineers=>Cost-aware engineering]]
 becomes important when platform teams scale shared compute
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@25:33=>Data Engineer Career in 2026]].
 
 Data quality and documentation are core because freshness, volume spikes,
 schema changes, and alerts affect whether downstream users can trust a dataset.

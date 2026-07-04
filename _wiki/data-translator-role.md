@@ -39,6 +39,14 @@ understand the effort behind a data task. They still need to know when a
 production engineer, analyst, data scientist, or product owner should own the
 next step.[[cite:data-translator-role-and-data-strategy=>Technical fluency]]
 
+Boyan Angelov describes the data strategist version of this skill as
+translation across business, data, and systems thinking. The strategist may not
+be the architect. They still need enough conceptual knowledge of pipeline and
+orchestration work, data access, analytics, and cloud systems. With that
+knowledge, they can translate a business goal into plausible use cases and
+implementation constraints
+[[cite:data-strategy-and-dataops-for-ai-powered-products@30:02=>Data strategy translation skills]].
+
 ## Role Scale
 
 Translators stay close to daily friction. They clarify metric definitions, find
@@ -124,6 +132,13 @@ listener's language and explains why data work takes time. They also warn
 stakeholders early when a blocker changes delivery. Non-technical stakeholders
 may not read code, but they can understand dependencies and constraints. They
 can also understand the business consequence of a delay.[[cite:data-translator-role-and-data-strategy=>Stakeholder communication]]
+
+Boyan tells people moving toward data strategy to start with business fluency.
+They should talk to functional leaders, ask what they do, and explain data use
+cases without jargon. Saying "customer segmentation model" may lose the
+audience. Describing how the business can separate target groups keeps the same
+idea usable for a stakeholder discussion
+[[cite:data-strategy-and-dataops-for-ai-powered-products@39:09=>Explaining use cases to stakeholders]].
 
 Remote work changes the tactic, not the principle. Translators can join the
 business team's chat channels and notice relevant triggers. Asking for feedback

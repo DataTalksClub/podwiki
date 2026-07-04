@@ -90,6 +90,16 @@ content. For more reliable knowledge work, connect the habit to
 Store the original source and ask the model to cite the relevant passage or
 file. Keep a small set of examples where you know the right answer.
 
+Boyan Angelov gives a practical writing boundary from his data strategy work.
+Use GPT for low-originality support such as sidebars and definitions. It can
+also help with editing and outlines. Keep the human responsible for original
+argument and review
+([[cite:data-strategy-and-dataops-for-ai-powered-products@43:46=>GPT as writing co-pilot]]).
+
+For strategy decks, he treats the tool as a blank-page helper. It helps with
+bullets and chapter structure rather than publishable thought
+([[cite:data-strategy-and-dataops-for-ai-powered-products@47:20=>GPT for outlines and decks]]).
+
 ## Coding Assistants Help Most When You Keep The Review Loop
 
 Coding assistants can remove friction from boilerplate and test scaffolding.
@@ -210,6 +220,14 @@ the work. Use a search or RAG-style assistant when cited source answers matter.
 Use an automation or agent tool only for repeated actions with clear
 permissions and review. Keep a small evaluation set for important workflows.
 That habit lasts longer than chasing every new AI productivity tool.
+
+For ideation, use the assistant as a starting point and then ground the work in
+real context. Boyan describes asking ChatGPT for data-science use cases in a
+domain. He then refines the prompt with due-diligence facts such as data stores,
+text data, cloud environment, and team skills. The tool can suggest directions,
+but it doesn't replace [[Data Strategy]] judgment or technical feasibility
+checks
+([[cite:data-strategy-and-dataops-for-ai-powered-products@51:02=>ChatGPT for data strategy ideation]]).
 
 For the surrounding tool choices, continue with
 [[LLM Tools]] and

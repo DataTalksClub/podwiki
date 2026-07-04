@@ -59,9 +59,12 @@ dogfooding the product
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 Another view emphasizes solo prioritization and public exposure while balancing
-release support with evergreen content. It also confronts online abuse and
-burnout, anonymity, moderation, and peer solidarity
-([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+release support with evergreen content
+([[cite:devrel-data-science-open-source-tools@15:02=>DevRel for Data Science]]).
+It also confronts online abuse and burnout. It covers anonymity, moderation, and
+peer solidarity
+([[cite:devrel-data-science-open-source-tools@17:54=>DevRel community safety]],
+[[cite:devrel-data-science-open-source-tools@28:55=>DevRel burnout risk]]).
 In that account, DevRel has emotional and safety costs that don't show up in a
 pure [[developer experience]] definition.
 
@@ -159,9 +162,9 @@ repos.
 ## Adoption Metrics and Product Feedback
 
 DevRel teams get more from metrics when they track developer progress, not only
-audience size. Community signals and analytics contrast audience growth with
-sustainable strategies
-([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+audience size. Community signals and analytics can become a serious analysis
+function, while growth tactics still need sustainable strategy
+([[cite:devrel-data-science-open-source-tools@26:01=>DevRel community metrics]]).
 Content goals separate awareness, support, and open-source strategy
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 

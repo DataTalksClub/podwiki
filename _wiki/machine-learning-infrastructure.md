@@ -35,6 +35,15 @@ whole platform product.
 by Ville Tuulos covers the same compute, orchestration, and serving layers
 from the data science side, built around his Metaflow experience.
 
+Vin Vashishta frames the ML architect's infrastructure work as a business
+translation role. The architect turns user, customer, and business requirements
+into a platform vision. They check whether existing systems can support the work
+and estimate what production and maintenance will cost
+([[cite:make-money-with-machine-learning-roles-skills@54:50=>ML architecture platform vision]]).
+That puts infrastructure decisions close to [[ML Product Manager Role]] because
+buy-versus-build and platform reuse can decide whether a model-backed product
+deserves funding.
+
 ## Infrastructure Baseline
 
 The MLOps toolset also includes release and reproducibility concerns. Those
@@ -77,6 +86,13 @@ dominate, normal cloud-managed ML services may no longer be the right operating
 model. SLURM-like scheduling and bare-metal provisioning enter the infrastructure
 picture
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+
+Vashishta adds a roadmap lens to the same timing question. A platform purchase
+may look too expensive for one project but become justified when it supports
+several products over one to three years. The architect's job is to compare
+existing infrastructure and cloud options. They also compare on-prem constraints
+and product roadmap reuse before the team commits to a path
+([[cite:make-money-with-machine-learning-roles-skills@58:04=>ML architecture buy vs build]]).
 
 ## Compute and GPU Infrastructure
 

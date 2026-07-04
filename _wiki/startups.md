@@ -87,10 +87,15 @@ path[[cite:launch-and-build-retail-startup=>FreshFlow]].
 
 Open-source founders package repeated data engineering pain differently. Zingg
 turns identity resolution into an open-source ML product protected by AGPL
-licensing[[cite:building-open-source-data-product-for-identity-resolution=>Zingg]].
-DLT packages data loading pain as a developer library. Workshops and
-documentation help test the tool. Examples and partnerships help spread
-it[[cite:from-data-freelancer-to-startup-open-source-products=>DLT Startup]].
+licensing. The license reduces SaaS rehosting risk while Zingg still pursues
+community adoption and discoverability
+[[cite:building-open-source-data-product-for-identity-resolution@24:14=>Zingg open-source strategy]]
+[[cite:building-open-source-data-product-for-identity-resolution@27:00=>Zingg licensing]]
+[[cite:building-open-source-data-product-for-identity-resolution@31:10=>Zingg tradeoffs]].
+
+DLT packages data loading pain as a developer library, while workshops and
+documentation help test the tool. Examples and partnerships help spread it
+[[cite:from-data-freelancer-to-startup-open-source-products=>DLT Startup]].
 
 Some teams choose service-led or bootstrapped routes beside venture-style company
 building. Consulting became the right business after product ideas failed, since
@@ -145,7 +150,8 @@ teams with sensitive data or on-premise constraints[[cite:building-mlops-startup
 
 Zingg uses open source to help smaller teams try identity resolution. It also
 helps the company discover use cases across customer and supplier records.
-Patient and product records appear as well[[cite:building-open-source-data-product-for-identity-resolution=>Zingg]].
+Patient and product records appear as well
+[[cite:building-open-source-data-product-for-identity-resolution@11:09=>Zingg use cases]].
 For [[open source]] and [[open-source-and-developer-relations=>open-source developer relations]],
 repository adoption and documentation become part of the sales path. Examples
 and community feedback matter too.

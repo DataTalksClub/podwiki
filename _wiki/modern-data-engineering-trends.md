@@ -15,11 +15,16 @@ related:
 ---
 
 Modern data engineering is moving from one broad pipeline-building role toward
-specialized platform and operating disciplines. Teams still need SQL and Python,
-plus ingestion, modeling, and orchestration. Governance, quality, AI systems,
-and cost control now sit beside those basics. The shift belongs inside
-[[Data Engineering]] and [[Data Engineering Platforms]], not in a detached tool
+specialized platform and operating disciplines. Teams still need SQL and Python.
+They also need ingestion, modeling, and orchestration. Governance, quality, AI
+systems, and cost control now sit beside those basics. The shift belongs inside
+[[Data Engineering]] and [[Data Engineering Platforms]] rather than in a detached tool
 forecast.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+
+The hype cycle is part of the trend. Hadoop once played the role AI plays now:
+companies adopted heavyweight systems because the category felt inevitable. The
+workload didn't justify it
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@06:47=>Data Engineer Career in 2026]].
 
 The operating standard is also changing, even though consumer-facing datasets
 still matter. Modern teams are expected to make those systems governed,
@@ -110,10 +115,16 @@ community licensing.[[cite:trends-in-modern-data-engineering=>Modern Data Engine
 
 ## AI Engineering Pulls Data Engineers Closer to Product Systems
 
-AI integration pulls data engineers toward product systems. Data engineers are
-building AI agents, and those systems need data, algorithms, and semantics.
+AI integration pulls data engineers toward product systems because they're
+building AI agents that need data, algorithms, and semantics.
 That creates closer contact between data platform work and AI-facing product
 behavior.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+
+Repetitive dbt implementation and trivial text-to-SQL work are easier to
+automate. Routine pipeline triage is easier too. Platform design and
+business-aligned data modeling are harder to replace. Semantics, classification,
+and metadata are harder to replace too
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@51:04=>Data Engineer Career in 2026]].
 
 Reliability still matters under newer labels. MLOps, LLM, Data Mesh, and Data
 Observability terminology can hide the same systems work. Teams still need

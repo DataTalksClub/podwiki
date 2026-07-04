@@ -33,7 +33,8 @@ community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
 after a seven-year career break. Her GitHub evidence then became part of the
 hiring conversation ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After Break]]).
 
-The topic sits inside [[career-transitions-in-data=>career transition]], [[job search]], and [[open-source-portfolio-evidence=>open-source portfolio evidence]], not a separate social-media habit.
+This belongs with [[career-transitions-in-data=>career transition]] and [[job search]].
+It also draws on [[open-source-portfolio-evidence=>open-source portfolio evidence]], so it's not a separate social-media habit. Public posts, tutorials, and project writeups can prove that the learner can explain technical work to other people. That evidence connects the topic to [[developer relations]] and [[teaching]].
 
 ## Visible Course Progress
 
@@ -95,6 +96,13 @@ learning visible ([[cite:datatalksclub-building-scaling-data-community=>Building
 
 A private note system isn't career proof. The proof comes when notes become
 visible explanations and working artifacts.
+
+Writing can start from the same motivation. Learners can share what they
+learned, clarify the idea by teaching it, and leave a signal for future
+teammates or readers. A
+repeatable writing cadence turns scattered notes into public artifacts
+([[cite:technical-writing-for-data-scientists@9:30=>Technical Writing for Data Scientists]],
+[[cite:technical-writing-for-data-scientists@20:00=>Technical Writing for Data Scientists]]).
 
 ## Projects Make the Switch Legible
 
@@ -165,6 +173,12 @@ Marijn Markus gives the personal-branding version. LinkedIn posts can mix useful
 technical observations with authentic formats, including memes. The content
 still needs a clear niche and visible work
 ([[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]).
+
+The DevRel route adds a nontraditional path. Blogging, tutorials, and visible
+portfolio work can help a learner enter community-facing technical roles even
+without a conventional technical background. The public work still needs to show
+rapid learning and clear communication
+[[cite:devrel-data-science-open-source-tools@39:31=>DevRel for Data Science]].
 
 ## Events Turn Visibility Into Trust
 

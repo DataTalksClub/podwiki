@@ -190,12 +190,17 @@ Many data engineering paths start near
 or [[Data Science]]. The role often
 sits between business questions, analytical modeling, and production systems.
 
-An IoT and remote-work dimension covers building an "operating system" for
-sensor data. The platform handles how data comes in, how it's stored, and how it
-flows out to internal stakeholders. The ETL process starts with exploration.
-Engineers first understand what's inside the data and why the pipeline exists
-before writing code.
+IoT and remote work add sensor-data platform work. The platform handles
+ingestion, storage, and delivery to internal stakeholders. Engineers start ETL by
+looking at data and purpose before coding
+[[cite:remote-data-engineering-work-and-building-iot-platforms@12:29=>IoT platform]]
+[[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>ETL exploration]].
 
 A data engineering newsletter doubles as personal branding and communication
-practice. Remote work in Norway constrains the hiring market to a few cities
-despite a remote-first setup [[cite:remote-data-engineering-work-and-building-iot-platforms=>Remote Data Engineering and IoT Platforms]].
+practice.
+
+Remote work in Norway still limits hiring to a few cities. Data engineers can
+face loneliness, isolation, and weak home/work boundaries that affect
+collaboration and focus
+[[cite:remote-data-engineering-work-and-building-iot-platforms@15:31=>Remote friction]]
+[[cite:remote-data-engineering-work-and-building-iot-platforms@18:17=>Remote Data Engineering and IoT Platforms]].

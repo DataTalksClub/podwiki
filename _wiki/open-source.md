@@ -132,9 +132,10 @@ community
 [[founder]] for that operating lens.
 
 Open source can be both giving back and distribution: Zingg took about 18 months
-before public release. The retrospective connects cofounder search, earlier open
-source, use-case validation, and distribution channels
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]].
+from proof of concept to public release. The retrospective connects cofounder
+search, earlier open source, use-case validation, and distribution channels
+[[cite:building-open-source-data-product-for-identity-resolution@23:00=>Building an Open-Source ML-Powered Identity Resolution Tool]]
+[[cite:building-open-source-data-product-for-identity-resolution@54:11=>Zingg retrospective]].
 
 An investor lens treats open source as developer-tool go-to-market. GitHub stars
 need interpretation because active users, engagement, and problem validity matter
@@ -326,12 +327,15 @@ the company sells hosting, scaling, security, or support.
 The model also supports bottom-up adoption and on-prem use when teams don't want
 to send data away.
 
-For identity resolution, the product took about 18 months before public release.
-Open source was both a way to give back and a way for Zingg to reach more
-companies. AGPL reduced the risk of another company rehosting the product as
-SaaS. Discoverability and growth remained major reasons to open source the
-product
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]].
+For identity resolution, the product took about 18 months from proof of concept
+to public release. Open source was both a way to give back and a way for Zingg
+to reach more companies. AGPL reduced the risk of another company rehosting the
+product as SaaS
+[[cite:building-open-source-data-product-for-identity-resolution@27:00=>Zingg licensing]].
+Discoverability and growth remained major reasons to open source the product,
+even though the choice raised intellectual-property concerns
+[[cite:building-open-source-data-product-for-identity-resolution@24:14=>Zingg open-source strategy]]
+[[cite:building-open-source-data-product-for-identity-resolution@31:10=>Zingg open-source tradeoffs]].
 
 A broad connector community helps cover sources that a closed team may not
 prioritize. The cloud and enterprise offering sits around that project, while

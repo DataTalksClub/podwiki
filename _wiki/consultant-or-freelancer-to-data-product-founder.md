@@ -54,8 +54,19 @@ and reusable portfolio assets help the service path turn toward product.[[cite:f
 
 Open-source data products often start when consulting projects reveal recurring
 identity-resolution gaps. Proof-of-concept work can become a public release.
-Open-source adoption can prove demand, and licensing can become part of the
-business model.[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]]
+Open-source adoption can prove demand. Licensing can become part of the business
+model.
+
+Zingg's path took about 18 months from proof of concept to public
+release. The company then turned open-source adoption and licensing into company
+strategy
+[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]]
+[[cite:building-open-source-data-product-for-identity-resolution@23:00=>Zingg public release]].
+
+In the retrospective, Zingg's founder gave both organizational and technical
+advice. Look for a cofounder earlier and open source sooner when distribution
+and conviction are central to the product path
+[[cite:building-open-source-data-product-for-identity-resolution@54:11=>Zingg retrospective]].
 
 ML startup versions are problem-first. Founders can bootstrap MVPs or start
 no-code, then productize services into a startup path. Open core, cloud

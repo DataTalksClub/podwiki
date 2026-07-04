@@ -70,11 +70,11 @@ They also need to account for data access, tools, and available time.
 
 Jeff's bootcamp episode shows this clearly when he describes market research
 and employer validation. He also covers syllabi, labs, and reinforcement cycles
-[[cite:data-engineering-career-path-and-skills=>Teaching Data Engineers]].
+[[cite:data-engineering-career-path-and-skills@9:58=>Teaching Data Engineers]].
 
 Jeff says most junior data engineering course time should stay on Python and
 SQL. Tools get a smaller share
-[[cite:data-engineering-career-path-and-skills=>Teaching Data Engineers]].
+[[cite:data-engineering-career-path-and-skills@56:46=>Teaching Data Engineers]].
 That guidance fits the [[data-engineer-roadmap=>data engineering roadmap]]
 because a roadmap should sequence skills, not collect every current tool.
 
@@ -181,6 +181,11 @@ and [[Technical Writing]]
 because tutorials teach users through explanation. Demos teach through examples,
 and video lessons do the same. These materials also send product feedback back to
 maintainers.
+
+Demo-first education shows that overlap. A useful developer-education video
+starts with the goal and keeps pace. It walks through the working feature so the
+viewer can reproduce the path rather than only hear a concept
+[[cite:practical-devrel-demofirst-education-and-open-source@53:40=>Demo-First DevRel]].
 
 ## Make Concepts Visible and Explainable
 

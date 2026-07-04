@@ -47,6 +47,12 @@ it, understand it, trust it, and connect it to a decision
 Data Delivery]]. This is why [[Data Product Adoption]] belongs inside the
 definition rather than after launch.
 
+For IoT products, teams start even earlier. Raw sensor streams become useful
+only after the team understands the collection purpose and the business process.
+The team also needs to know which pipeline or platform output should expose the
+data
+[[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>Remote Data Engineering and IoT Platforms]].
+
 Data product management adds the product operating model. Customer discovery,
 hypothesis formation, and data quality determine whether the team solves a real
 user problem. PII and compliance matter too. SQL, documentation, and empathy
@@ -154,11 +160,17 @@ Engineering Teams]].
 
 The [[Modern Data Stack]] determines which data products a team can maintain.
 Raw ingestion, transformations, warehouses, and marts set one boundary.
-Orchestration, CDC, and reverse flows set another. Together they define whether
-a table or dbt model can become a stable product interface. A dashboard or
-reverse ETL sync can also become one
+Orchestration, CDC, and reverse flows set another.
+
+Teams use those boundaries to decide whether a table or dbt model can become a
+stable product interface. A dashboard or reverse ETL sync can also become one
 [[cite:data-engineering-tools-modern-data-stack=>ETL
 vs ELT and the Modern Data Stack]].
+IoT platform work shows the same platform implication in a physical-data
+setting. Teams define the product surface through sensor onboarding and
+registration as much as storage. Real-time processing and internal stakeholders
+matter too
+[[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>Remote Data Engineering and IoT Platforms]].
 
 ## Activation and Adoption
 

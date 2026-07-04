@@ -154,6 +154,12 @@ combination helps the team reduce waste, handle changing requirements, and ship
 data products through repeatable delivery practices
 [[cite:data-strategy-and-dataops-for-ai-powered-products@24:57=>Data Strategy and DataOps for AI-Powered Products]].
 
+Boyan Angelov emphasizes the Lean side as avoiding known waste in data work, not
+only chasing ideal plans. That fits DataOps because failed handoffs, waiting,
+unclear requirements, and unmeasured pilots all become operating problems once a
+strategy reaches delivery
+[[cite:data-strategy-and-dataops-for-ai-powered-products@25:03=>Lean and Agile DataOps]].
+
 This is where [[Orchestration]],
 [[ci-cd=>CI/CD]], and
 [[Data Engineering Platforms]]

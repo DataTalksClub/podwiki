@@ -67,8 +67,12 @@ references. Artifacts and environment details belong there too.[[cite:building-p
 
 A [[model registry]] handles the next
 handoff by making a trained model available for downstream use. Experiment
-tracking, model registries, metadata stores, and artifact stores often arrive as
-one packaged tool.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+tracking and model registries often arrive as one packaged tool. Metadata stores
+and artifact stores may be part of that package too.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+MLEM illustrates the narrower artifact-management side of this category. Some
+tools focus on packaging, saving, and moving trained models. They don't own the
+full platform
+[[cite:kaggle-grandmaster-to-production-ml-and-education@8:36=>Production ML from Kaggle]].
 
 MLflow and Weights & Biases appear in that category, as do SageMaker, Vertex AI,
 and Azure ML. The important requirement isn't the brand. It's whether the team
@@ -152,6 +156,14 @@ deployment, and whether a model in production is still operating effectively.[[c
 The monitoring layer should record model version and inputs, plus predictions,
 service health, and errors. Over time, it should track latency and drift
 signals. Labels or business outcomes belong there when they exist.
+
+Profiling tools can sit below that monitoring layer. WhyLogs creates profiles
+that summarize data and predictions, while a backend such as Apache Druid can
+store profile history for analysis
+[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]].
+The open-source profiling layer and the managed observability product solve
+different parts of the workflow
+[[cite:mlops-model-monitoring-data-observability@55:50=>MLOps Architect Guide]].
 
 Model problems often originate upstream in ETL and transformations. They can
 also start in feature pipelines or real-world distribution changes. That's the

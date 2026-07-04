@@ -56,6 +56,12 @@ Use an analytics engineer when the missing owner has to make analytical data
 reusable and safer to change. That person may support BI and product analytics.
 Analytics engineers turn repeated business logic into tested models and
 documented metrics. They also build transformation layers and BI-ready marts.
+
+The role became useful where analysts were spending too much time cleaning,
+quality-checking, and modeling data before analysis. That left less time for
+interpreting the business question
+[[cite:analytics-engineer-skills-tools@16:54=>Perez Mola]].
+
 Perez Mola and Perafan connect that work to modeling with quality checks and
 reproducible analytical data
 [[cite:analytics-engineer-skills-tools=>Perez Mola]]
@@ -180,6 +186,10 @@ The title split depends on company size. In
 [[cite:analytics-engineer-skills-tools=>Perez Mola's comparison of analytics engineers, analysts, and data engineers]],
 the analytics engineer sits between data analyst and data engineer. She says
 the lines are blurry across companies and even within one team.
+The Spotify-origin story makes the boundary practical. Analysts needed to spend
+less time cleaning and preparing data, while data engineers stayed closer to
+infrastructure and pipelines
+[[cite:analytics-engineer-skills-tools@16:54=>Perez Mola's role-origin discussion]].
 
 Analysts bring business knowledge and SQL that answers stakeholder questions.
 Data engineers bring software practices, infrastructure ownership, and pipeline

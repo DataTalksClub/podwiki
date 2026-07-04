@@ -184,6 +184,20 @@ a larger ML investment ([[cite:production-ml-pipelines-with-aws-and-kafka=>Produ
 That early prototype tests whether the team can connect data to a measurable
 workflow. Leaders can evaluate larger funding later.
 
+[[person:boyanangelov=>Boyan Angelov]] gives the executive pitch version.
+Start with one small, budgeted use case rather than selling a broad data
+strategy. Name the stakeholder, avoid technical language, and estimate the
+person time and budget. Set a baseline before launch so the team can compare
+the business metric afterward
+([[cite:data-strategy-and-dataops-for-ai-powered-products@52:44=>Budgeted use case pitch]])
+([[cite:data-strategy-and-dataops-for-ai-powered-products@55:32=>Pre and post baselines]]).
+
+[[person:jackblandin=>Jack Blandin]] makes the baseline even stricter for ML.
+Try a heuristic, rule-based, or manual process before committing to a model. If
+that simpler process can't prove the problem is valuable, a more expensive ML
+system is unlikely to rescue the use case
+([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Baseline before ML]]).
+
 ## Check Data Readiness and Ownership
 
 ML needs more than a database. The team needs usable history, labels or
@@ -320,7 +334,8 @@ outputs and the failure plan.
 POCs and user-facing prototypes help business teams understand what ML will
 change before they commit resources. A churn model is useful only when the
 output gives the business a concrete action. Raw accuracy isn't enough
-([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]]).
+([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Fast ML POCs]])
+([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@34:09=>Actionability over accuracy]]).
 
 For teams building this capability, the [[Data Product Manager Roadmap]] is the
 closest learning path for discovery and metrics. It also covers roadmaps and

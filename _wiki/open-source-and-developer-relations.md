@@ -108,6 +108,15 @@ mentorship, setup help, and demos. Developer advocacy at Kestra uses the same
 education and onboarding practice
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
+Community management can also sit inside an open-source data-tool program.
+Agita Jaunzeme describes community work around VMware's Versatile Data Kit. She
+then frames the role overlap through content, events, and DevRel-style user
+support
+([[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community management]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]]).
+That path connects open-source DevRel to [[DevOps to Data Engineering]] when
+automation and community work become public technical evidence.
+
 Startup work adds another axis. Open source can build trust with developer
 teams, balanced against distribution and revenue questions
 ([[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]]).

@@ -72,7 +72,7 @@ Write the first agreement in plain language:
 The same agreement should link to the owner and runbook. It should also name
 downstream consumers. RACI-style accountability, data SLAs, and operational
 runbooks keep the check attached to the team that can act on it
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
 
 ## Check Freshness
 
@@ -239,6 +239,15 @@ Examples:
 Business-rule tests can check expected row counts, report values, and regression
 impact. dbt tests, Great Expectations, and SQL checks can automate the same
 assertions [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
+
+In a dbt workflow, a test is still a query. Failing rows can create a warning or
+an error. Source tests can stop dependent models from building on bad input
+[[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]].
+
+For production fraud pipelines, teams can use Great Expectations, cloud-native
+checks, and custom tests. Teams use those checks to put quality gates inside the
+pipeline rather than only after a job fails
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]].
 
 For [[data pipelines]], one practical strategy is to get the pipeline running
 first, then observe outputs and decide what's acceptable. Those accepted outputs

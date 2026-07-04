@@ -59,9 +59,13 @@ Feature stores are most useful for live APIs that need fresh entity features
 before scoring a request.
 
 Fraud systems can still use a hybrid path. Daily batch feature-engineering jobs
-can feed a live fraud service. When a member starts a purchase, the transaction
-request still gets scored in real
+can feed a live fraud service. When a member starts a purchase, the service
+scores the transaction in real
 time. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@8:24=>Fraud Prevention]]
+Feature stores belong in
+[[Machine Learning System Design]].
+The same feature path has to serve both historical training data and the
+point-of-sale decision.
 
 ## Tool Boundaries
 
@@ -108,6 +112,10 @@ This makes the design a
 [[Batch vs Streaming]]
 tradeoff, not a pure streaming requirement. Batch features can still support
 instant inference when serving keeps retrieval and scoring fast.
+
+For fraud and other checkout-time systems, teams should decide feature freshness
+from the product action and review path, not from a blanket "real-time"
+preference.
 
 Feature stores sit near the
 [[model registry]] but don't replace it. A feature store has its own

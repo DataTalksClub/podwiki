@@ -53,6 +53,12 @@ evidence. Metric design, A/A tests, and power analysis make that evidence usable
 Different roles put different weight on engineering, product ownership, and
 statistical depth. "Data scientist" isn't a stable job title.
 
+The role can also vary by operating model. In-house data scientists usually have
+closer product and stakeholder context. Consultants have to translate the work
+across client settings. Freelancers own more of the commercial and delivery
+surface
+[[cite:how-to-break-into-data-science@10:58=>Data Science Career Playbook]].
+
 Because titles are ambiguous, candidates should check the team's objectives and
 responsibilities. They should also ask about infrastructure, analytics support,
 and data engineering support [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Job Red Flags]].
@@ -94,6 +100,11 @@ Data scientists usually own the question before they own the model. In practice,
 that means defining the decision and stakeholder. It also means naming the
 constraint and success metric. They also check whether the available data can
 support the question.
+
+Common deliverables include trained models and pipelines. They also include
+reports and presentations, so the role combines technical output with
+explanation and handoff work
+[[cite:how-to-break-into-data-science@9:01=>Data Science Career Playbook]].
 
 Interview case studies move from business goals to metrics before they test ML,
 SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
@@ -153,6 +164,12 @@ teams need evidence they can act on.
 Communication is a first-class skill, not a soft add-on. Recruiting rewards
 candidates who can explain projects through a use case and industry context.
 Clear business impact matters too [[cite:get-data-scientist-job=>DS Roles]].
+
+Data scientists also need to explain data science value to stakeholders. That
+matters especially when the audience doesn't care about model details until the
+decision impact is clear
+[[cite:how-to-break-into-data-science@30:11=>Data Science Career Playbook]].
+
 Candidates
 should also ask what problem they'll own. They should ask who they'll work with
 and whether the company has the data maturity to support the role [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Job Red Flags]].

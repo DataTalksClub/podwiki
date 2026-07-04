@@ -64,7 +64,14 @@ Other guests use the same cost lens without always using the FinOps label.
 [[person:slawomirtulski=>Slawomir Tulski]] treats cost awareness as senior data
 engineering judgment. He argues against overbuilt real-time platforms when batch
 or managed systems fit the business better
-([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
+([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@25:33=>Data Engineer Career in 2026]]).
+
+Cost-aware teams match the platform to the company's actual stage and avoid
+cloud-bill surprise. They treat over-engineered real-time stacks as spend risks.
+Batch and lakehouse stacks can create the same risk when the business only needs
+simpler analytics
+([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]],
+[[Modern Data Stack]]).
 
 [[person:andreycheptsov=>Andrey Cheptsov]] gives the AI infrastructure version,
 where cloud and on-prem GPUs become architecture choices. Teams have to account

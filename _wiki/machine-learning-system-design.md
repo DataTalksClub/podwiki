@@ -77,6 +77,16 @@ dependencies, and batch-versus-real-time paths
 Those latency and size constraints drive [[Model Optimization]]
 techniques.
 
+Database choice belongs in the same design review. Relational, document, search,
+and graph stores fit different data shapes and access paths. Fraud systems can
+index entity records as documents. They can use graph databases when
+relationship traversal is part of the product or investigation workflow
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@20:30=>Fraud Data Engineering]]
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@35:33=>Fraud Data Engineering]].
+That connects ML system design to
+[[knowledge-graph-vs-vector-search=>Graph vs Vector Search]]
+when relationship structure becomes a feature or user interface.
+
 Through a software-engineering lens, ML products are software systems with added
 uncertainty. Recurring problems include poor requirements, unrealistic
 expectations, data access, and deployment gaps. Teams remedy those gaps with
@@ -106,6 +116,10 @@ team can challenge
 Good requirements also say when not to use ML. "Avoid ML" is a real design
 outcome when a heuristic, rule, or existing product behavior is enough
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+Fast proof-of-concept work should test the same boundary: start with a
+heuristic or manual process. Use ML only after the baseline exposes a real
+product improvement
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Applied ML Leadership]].
 In that framing,
 [[machine learning]] is a tool
 choice rather than a default answer.
@@ -149,6 +163,11 @@ candidates show progress without pretending the final model is obvious
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 Simple baselines validate hypotheses quickly
 [[cite:ml-system-design=>ML System Design Playbook]].
+Competition practice reinforces the same habit for production ML. Iterate from
+EDA, validation, baselines, and infrastructure. Don't look for a single
+modeling shortcut
+[[cite:kaggle-grandmaster-to-production-ml-and-education@21:42=>Production ML from Kaggle]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education@1:01:48=>Production ML from Kaggle]].
 
 Model choice comes after that baseline. A team may choose a rule or a linear
 model. It may also choose a tree model or an embedding system. A recommender,
@@ -162,6 +181,10 @@ The team can only make that choice after it understands the decision, data,
 and latency. It also has to understand evaluation and failure cost. Practical ML
 decisions stay separate from research-level detail for that reason
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+Competition practice transfers to production through system-level discipline.
+Validation, reproducible iteration, infrastructure, and error analysis transfer
+more directly than leaderboard-specific techniques
+[[cite:kaggle-grandmaster-to-production-ml-and-education@22:45=>Production ML from Kaggle]].
 
 ## Serving and Runtime Architecture
 
@@ -204,6 +227,13 @@ production validation rests on A/B testing, causality, and human labels
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 The model may score well offline and still fail if it harms the product metric or
 increases manual-review load.
+
+In teaching-oriented system design examples, the product boundary is explicit.
+Assignments such as bot detection center the problem and combine ML quality with
+technical delivery. They also test teamwork and communication, so the evaluation
+isn't only a single offline score
+[[cite:kaggle-grandmaster-to-production-ml-and-education@41:10=>Production ML from Kaggle]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education@46:50=>Production ML from Kaggle]].
 
 Product experimentation adds randomization and assignment tracking. It also
 uses A/A tests, metric selection, and power analysis

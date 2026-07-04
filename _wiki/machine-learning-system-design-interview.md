@@ -86,10 +86,14 @@ Use this order:
 9. Add monitoring for inputs, predictions, service health, labels, and outcomes.
 10. Define fallback behavior, rollback, retraining triggers, and owners.
 
-That sequence keeps you from jumping straight to XGBoost or embeddings. It also
-keeps deep learning behind the product need. Use feature stores only when the
-feature path requires them. Teams should prefer modular systems and prove value
-before adding complexity, keeping systems maintainable and business-aligned.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
+That sequence blocks premature XGBoost or embeddings and keeps deep learning
+behind the product need. Use feature stores only when required and prefer
+modular systems until the team proves value.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
+
+Fast applied-ML demos follow the same answer path: prove the baseline or manual
+workflow first. Justify the model and infrastructure after the product
+assumption survives
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Applied ML Leadership]].
 
 For interview preparation, decompose the prompt like a physics problem. Then
 rehearse that decomposition in mocks. In mocks, put the opening and assumptions
@@ -110,7 +114,7 @@ also say what the product does with the score and how the team handles
 asymmetric costs.
 
 Retail fraud systems may use feature pipelines and batch jobs. They may also
-use real-time scoring and graph features.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud]]
+use real-time scoring and graph features.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud]]
 Monitoring and runbooks cover the operational side. Data quality checks do too.
 That makes fraud a good prompt for testing whether you can connect model design
 to data operations.
@@ -133,7 +137,7 @@ For a fraud prompt, cover these points:
 If the score is close to the threshold, explain uncertainty explicitly. The
 product may send the case to a fraud specialist instead of automatically
 blocking the customer. That choice follows the threshold and loss framing and
-front-end decisioning covered in both fraud discussions.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
+front-end decisioning covered in both fraud discussions.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@33:34=>Data Engineering for Fraud Prevention]]
 
 State your assumptions about label delay. Then let the interviewer
 steer.[[cite:machine-learning-system-design-interview=>ML System Design]]
@@ -225,7 +229,7 @@ latency budgets and API contracts. It also needs prediction logging, rollback,
 and operational support.
 
 For fraud, compute features daily when freshness allows. Score at transaction
-time when the product needs an instant decision.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Data]]
+time when the product needs an instant decision.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@34:46=>Fraud Data]]
 For mobile or edge ML, constraints add latency and frame rate. They also add
 energy use, model size, and offline behavior.[[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]]
 
@@ -287,6 +291,13 @@ For this interview, a simple project can be strong if it exposes those
 tradeoffs. A fraud-style classifier can include delayed labels and class
 imbalance. Add a threshold, review bucket, and monitoring notes to show more
 system thinking than a notebook with one accuracy number.
+
+Assignments such as bot detection are useful practice because they center the
+problem. They force both ML evaluation and technical delivery. A strong answer
+explains how the baseline and validation split fit the system. It also explains
+the deployment path and communication, not just how the model ranks on a leaderboard
+[[cite:kaggle-grandmaster-to-production-ml-and-education@46:50=>Production ML from Kaggle]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education@50:10=>Production ML from Kaggle]].
 
 That mirrors the fraud prompt and a fraud-prevention data engineering setup.
 Feature pipelines and daily batch computation support the model. Real-time

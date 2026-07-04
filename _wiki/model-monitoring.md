@@ -111,6 +111,10 @@ volume, and distribution help track data reliability.[[cite:data-quality-data-ob
 Schema and lineage add context for root-cause analysis.
 For model monitoring, those signals help explain whether drift came from the
 data system or from model behavior.
+Context matters because an anomaly isn't always bad data. A useful monitoring
+system reduces false positives by learning which deviations are expected and
+which ones need investigation
+[[cite:data-quality-data-observability-data-reliability@1:00:27=>Data Observability Explained]].
 
 ## Model Performance
 
@@ -134,7 +138,12 @@ A model can be good at release and still become the wrong model later.
 Monitoring detects that something may be wrong, and observability helps a team
 explain why. Data profiling architecture can use WhyLogs and a backend for
 storing profiles. Platform-agnostic integrations matter because production
-models run through many serving tools.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+models run through many serving tools.[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
+Teams can split open-source profiling from managed observability at the tool
+boundary.
+WhyLogs creates portable profiles for open-source profiling. WhyLabs adds hosted
+monitoring, visualization, alerting, and longer-term operations
+[[cite:mlops-model-monitoring-data-observability@55:50=>MLOps Architect Guide]].
 
 Observability connects to platform design through API design and unified
 prediction schemas for logging requests, predictions, and responses

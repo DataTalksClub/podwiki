@@ -255,10 +255,14 @@ The signal is strongest when the contribution shows judgment:
 - a useful docs improvement
 - an example that maintainers can show users
 
-Elle adds the visibility path for data science DevRel. Public content,
-tutorials, and learning in public can lead to speaking invites and career
-opportunities when the work helps real users
-([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+Elle adds the visibility path for data science DevRel. When the work helps real
+users, public content and tutorials can lead to speaking invites and career
+opportunities. Learning in public can open the same path
+([[cite:devrel-data-science-open-source-tools@34:28=>DevRel career visibility]]).
+
+Her own path started with a visible StyleGAN project that opened the door to a
+DevRel role. The project was a career-launch artifact rather than only a demo
+([[cite:devrel-data-science-open-source-tools@9:33=>StyleGAN to DevRel]]).
 Hugo's career advice pairs GitHub portfolios with meetups and experiments in
 DevRel
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).

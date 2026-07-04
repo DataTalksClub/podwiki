@@ -43,6 +43,18 @@ works weekly with Digital, Customer, and Marketing stakeholders. That contact
 gives the team business, channel, and metric context before work enters the
 formal product funnel[[cite:building-data-products-lead-data-scientist]].
 
+[[person:boyanangelov=>Boyan Angelov]] gives the
+strategy-side version of the same funnel.
+
+After due diligence, teams brainstorm use cases around data, skills, and
+infrastructure.
+
+Check feasibility before business-impact prioritization becomes delivery work
+for the team
+[[cite:data-strategy-and-dataops-for-ai-powered-products@13:28=>Feasibility]].
+Teams tie intake to [[Data Strategy]] because delivery needs a clear reason and
+feasibility path.
+
 Business problems and ideas enter through one formal route. Business analysts,
 finance, data science, and engineering join the kickoff. The group checks for a
 real opportunity and compares the request with other ideas[[cite:building-data-products-lead-data-scientist]].
@@ -156,6 +168,14 @@ constraints, and feasibility[[cite:building-data-products-lead-data-scientist]].
 The team can still stop the work if the data isn't available or the request
 isn't feasible. Mesionis calls this a fail-fast scenario, where the team doesn't
 continue and moves to the next prioritized idea[[cite:building-data-products-lead-data-scientist]].
+
+Boyan's scope-creep example shows why the feasibility gate has to include target
+architecture. Adding text data to a churn use case can require new storage,
+different skills, and NLP work. A request that looks like "just another dataset"
+may become a different product
+[[cite:data-strategy-and-dataops-for-ai-powered-products@16:21=>Scope creep in data products]].
+The team asks whether the changed use case would be useful and still fits the
+current delivery plan.
 
 This is how intake creates a disciplined way to say no or defer work. The team
 doesn't reject a request because it's inconvenient. It rejects, delays, or

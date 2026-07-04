@@ -55,22 +55,33 @@ there too
 [[Data Engineer Role]],
 [[MLOps]]).
 
+An MLOps architect variant makes the bridge explicit. The role translates
+between technical tooling, production constraints, and business needs. It then
+advises teams on architecture choices that fit their context
+[[cite:mlops-model-monitoring-data-observability@8:11=>MLOps Architect Guide]]
+[[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]].
+
 ## Different Starting Points
 
 MLOps teams share an enablement goal, but they start from different pain points.
 A centralized MLOps team can begin with product-team pain, quick wins, and
 adoption signals such as deployment frequency.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-Git and CI/CD come first, with registries and Kubernetes following. Repository
-standards and monitoring follow too.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
+After Git and CI/CD, teams add registries and Kubernetes. Repository standards
+and monitoring follow too.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 Production observability and customer architecture pull the role toward
 deployment and operations work.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
-MLOps work also includes incident preparation, stakeholder trust, debugging,
-and feedback channels.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+MLOps work also includes incident preparation and stakeholder trust. Debugging
+and feedback channels belong there too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 Finance and startup environments create different constraints. Finance adds
 governance and release-control pressure. Startups push toward leaner MLOps
 automation.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
+
+Early-stage MLOps roles often require broader coverage because one person may
+touch infrastructure and customer architecture. They may also cover monitoring
+and product support before the company can split those responsibilities
+[[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]].
 
 ## Responsibilities
 
@@ -152,8 +163,13 @@ producing fresh data
 
 Communication belongs in the role because MLOps is an adoption function.
 Monitoring needs business cases, stakeholder buy-in, and service levels.
-Debugging, user feedback, post-mortems, and incident response belong there as
-well.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+Debugging and user feedback belong there too. Post-mortems and incident
+response are part of the same work.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+
+Tooling advice is part of that communication work. Teams need help navigating
+build-versus-buy, integration burden, and platform fit. They don't only need
+help installing another monitoring library
+[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
 
 Internal-user feedback and quick wins are operating skills rather than soft
 extras

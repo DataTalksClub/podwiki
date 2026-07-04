@@ -89,7 +89,7 @@ request-time decisions.[[cite:building-production-ml-platform-and-mlops-team=>Pr
 Streaming fits event-arrival actions such as fraud checks, recommendations, and
 request-time enrichment. A fraud workflow can use daily batch jobs for feature
 values. The purchase flow still needs a live decision that can block a
-transaction.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Prevention]]
+transaction.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@08:24=>Fraud Prevention]]
 
 Feature stores make the latency split explicit because offline stores support
 training. Online stores serve low-latency features for fraud checks and
@@ -138,10 +138,16 @@ interface usable. That's why batch vs streaming also touches
 ## Cost and Platform Complexity
 
 Batch is often cheaper to start and simpler to pause because scheduled compute
-doesn't have to run continuously. Cost-aware orchestration, including cheaper
-serverless options, comes before the streaming discussion. Much so-called
-streaming is micro-batching unless strict SLAs justify Kafka, Flink, or another
-specialized stack.[[cite:trends-in-modern-data-engineering=>Modern DE Trends]]
+doesn't have to run continuously. Cost-aware orchestration comes before the
+streaming discussion. That includes cheaper serverless options. Much so-called
+streaming is micro-batching. Strict SLAs are what justify a specialized stack
+such as Kafka or Flink.[[cite:trends-in-modern-data-engineering=>Modern DE Trends]]
+
+For ordinary reporting and analytics, five-minute batch or micro-batch runs may
+be enough. Kafka becomes easier to justify when a live product decision changes
+the outcome. Examples include fraud detection, dynamic pricing, ranking, and
+recommendations
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@38:01=>Data Engineer Career in 2026]].
 
 Streaming can earn its cost when delayed results lose value. It still increases
 operating cost and dependency work.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
@@ -160,7 +166,7 @@ latency requirement exists.
 
 ML systems often use both modes. Fraud systems may precompute stable features
 daily, then combine them with real-time payload information during a
-purchase.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Prevention]]
+purchase.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@34:46=>Fraud Prevention]]
 
 That differs from a pure dashboard pipeline because the output can change the
 transaction while the customer is waiting.

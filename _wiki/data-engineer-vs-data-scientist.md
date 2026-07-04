@@ -84,6 +84,12 @@ Docker as implementation basics. Airflow and warehouses appear alongside code
 quality, tests, and working pipelines
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
+Agita Jaunzeme adds a role-fit lens from the DevOps-to-data-engineering path.
+Data engineers do detailed systems work. Data scientists start closer to
+questions and model interpretation
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]]
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]].
+
 ## Data Scientist Fit
 
 Choose data science when the team has data but doesn't know what decision the

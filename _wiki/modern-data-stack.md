@@ -46,6 +46,11 @@ work.[[cite:building-and-scaling-data-team]]
 That example treats delivery and documentation as part of the stack, not only
 the ingestion and modeling tools.
 
+In the analytics-engineering version, ingestion tooling loads data into
+Snowflake. dbt handles SQL transformation and modeling. Looker exposes the
+modeled data to business users
+[[cite:analytics-engineer-skills-tools@10:04=>Analytics Engineer Skills and Tools]].
+
 The growth version collects and stores events. It analyzes them and activates
 the results in business tools.[[cite:data-led-growth-event-tracking-and-reverse-etl]]
 
@@ -79,6 +84,12 @@ for requirements-led tool choice. Iceberg and catalogs can belong in the
 decision. DuckDB, orchestration, and streaming can too. A team may need a
 warehouse stack, an open lakehouse stack, or a smaller local-first
 stack.[[cite:trends-in-modern-data-engineering]]
+
+The same caution applies to enterprise-grade platforms. Teams should move to
+Snowflake or Databricks when scale, analyst count, data-science needs, and
+business value justify it. Teams should use the same standard for a large
+self-built platform, rather than stack FOMO
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]].
 
 ## Ingestion
 

@@ -100,9 +100,10 @@ For SQL, practice:
 - slowly changing attributes
 - validation queries
 
-SQL depth should go beyond joins and aggregates to include window functions.
-Data modeling practice such as OLTP versus OLAP matters too
-([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
+SQL depth should go beyond joins and aggregates to include window functions,
+with medium SQL interview problems as a practical benchmark. Data modeling
+practice such as OLTP versus OLAP matters too
+([[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]).
 
 Rahul Jain recommends learning databases and SQL first, then learning how data
 moves. Treat ETL/ELT choices, lake designs, lineage, and governance tools as
@@ -116,6 +117,11 @@ For Python, practice:
 - retrying failed requests
 - isolating bad records
 - writing data into storage
+
+Software foundations matter before advanced platform tools. A learning path can
+start with programming fundamentals, then use projects to make data movement,
+ETL, and pipeline choices concrete
+([[cite:remote-data-engineering-work-and-building-iot-platforms@48:36=>Remote Data Engineering]]).
 
 Readable code matters because many projects list tools while showing too little
 Python and SQL. Aim for small functions, useful names, targeted classes, and
@@ -324,8 +330,8 @@ Prepare for these areas:
 
 Technical interviews include SQL, Python, and take-home work
 ([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
-They also include SQL tests and on-site expectations
-([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
+They also include screening calls, SQL tests, and on-site expectations
+([[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]]).
 Jain advises managers to ask follow-up questions that separate real platform
 understanding from tool-name fluency
 ([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
@@ -437,7 +443,7 @@ and portfolio proof comes before certificate collecting.
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
 Katz's SQL and modeling advice in
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
+[[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
 is the benchmark for this stage.
 
 Weeks 3-4 cover Python ingestion through scripts that call an API or read files.

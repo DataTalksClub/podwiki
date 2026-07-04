@@ -33,6 +33,13 @@ Consultant-style work adds stakeholder persuasion, commercial judgment, and lead
 
 Candidates should also check role clarity and data maturity.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]] Data team signals matter too. Candidates should ask whether the team has data engineering support and analytics context. They should also check for clear objectives and realistic expectations for the career stage.
 
+Candidates should include the generalist-versus-specialist choice in role
+targeting. Some data scientists keep broad delivery responsibility across
+models, reports, pipelines, and presentations. Others deepen into a narrower
+method, domain, or production specialty. The better path depends on the target
+company and evidence the candidate can show
+[[cite:how-to-break-into-data-science@47:33=>Data Science Career Playbook]].
+
 ## Different Routes Into the Same Field
 
 Candidates need practical evidence, but they start from different material. [[person:ksenialegostay=>Ksenia Legostay]] moved gradually from project management into analytics and then machine learning. She began with a skills gap assessment and kept planning, stakeholder communication, and KPI work as transferable strengths. Analysis work then became portfolio evidence before she moved deeper into machine learning.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
@@ -57,6 +64,12 @@ For [[Data Science]], candidates still need SQL and statistics as well as Python
 Danny Ma sequences that evidence over time. He starts with SQL as the practical way to access and understand data. Next come R or Python plus visualization and statistics.
 
 Candidates then add data manipulation, [[experimentation]], metrics, and forecasting. After that, candidates move into traditional [[machine learning]] before [[deep learning]]. Most candidates should treat deep learning as a later specialization rather than the first proof point.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+Graduate degrees can help for research-heavy or specialized roles, but practical
+experience and portfolio evidence still matter for many applied data science
+paths. Candidates should treat a master's or PhD as one signal, not a substitute
+for role-relevant proof
+[[cite:how-to-break-into-data-science@1:01:42=>Data Science Career Playbook]].
 
 ## Portfolio Evidence
 

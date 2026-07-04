@@ -75,8 +75,14 @@ Early teams can often validate demand without a heavy model.
 A manual service, rule-based prototype, dashboard, or lightweight model can be
 enough.
 
-No-code MVPs and service productization can test the market before the team
-commits to a heavier ML build.[[cite:building-mlops-startup=>ML Startup]]
+No-code MVPs and service productization can test market demand.
+Teams can use this before a heavier ML build.[[cite:building-mlops-startup=>ML Startup]]
+Fast demos can also sell an ML direction internally before the production system
+exists. Lightweight tools such as Gradio and Streamlit help turn a hypothesis
+into a visible workflow for stakeholders. The team can still compare that
+workflow against a manual or heuristic baseline
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Applied ML Leadership]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Applied ML Leadership]].
 
 For ML startups, a trained model is rarely the fastest way to learn whether
 customers will pay, share data, or change behavior.
@@ -225,8 +231,11 @@ options to reach teams that needed to watch model behavior.[[cite:building-mlops
 
 At startup scale, teams can use observability choices such as Logfire,
 Prometheus/Grafana, and Streamlit. Reliability also includes data quality,
-lineage, and the extra unpredictability of LLM
-systems.[[cite:lean-mlops-for-startups=>Lean MLOps]]
+lineage, and extra LLM unpredictability.[[cite:lean-mlops-for-startups=>Lean MLOps]]
+The same "wear many hats" constraint shows up in MLOps architecture roles.
+Early teams need people who can reason across tooling, production monitoring,
+customer context, and product tradeoffs
+[[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]].
 
 Monitoring should follow the failure modes customers will notice:
 

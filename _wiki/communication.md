@@ -36,6 +36,11 @@ use a project.[[cite:technical-writing-for-data-scientists=>Technical Writing fo
 Stakeholders need shared business language and metric semantics before analytics
 can guide action.
 [[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]].
+Data science communication also has to make value legible to non-technical
+stakeholders. Otherwise the model or analysis can be technically correct without
+changing a decision
+[[cite:how-to-break-into-data-science@30:11=>Data Science Career Playbook]].
+
 Consultants validate buyer pain, project scope, and pricing before delivery.
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting Business]].
 
@@ -115,6 +120,12 @@ separate from technical judgment. The manager still has to explain why a
 platform request, data reliability fix, or self-service investment matters to
 the business.
 
+Remote data engineering raises the communication bar because isolation and
+workspace boundaries remove casual context. Written updates, clear questions,
+and explicit handoffs become part of the engineering system, not only personal
+style
+[[cite:remote-data-engineering-work-and-building-iot-platforms@57:12=>Remote Data Engineering]].
+
 ## Interviews and Hiring
 
 In hiring, candidates turn private experience into public evidence. They have to
@@ -155,6 +166,10 @@ the writer discoverable to readers, peers, and future teammates.
 Writers can treat articles as products that ship on a weekly cadence. An
 outline-first method turns memory and rough ideas into a structure
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+Demo-driven communication follows the same product logic. A technical walkthrough
+should define the goal, keep the pace, and show the working path so the audience
+can repeat it
+[[cite:practical-devrel-demofirst-education-and-open-source@53:40=>Demo-First DevRel]].
 
 For teams, working-backwards documents and design docs make decisions easier to
 revisit. Decision logs, rationales, and team memory serve the same purpose. A

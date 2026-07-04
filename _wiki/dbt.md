@@ -25,7 +25,7 @@ and macros with the SQL models.
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]
 gives the most direct explanation in
-[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]].
+[[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]].
 She describes dbt as the tool her team uses for modeling data after it arrives
 in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
 code workflow and manages model dependencies. It builds a DAG and exposes
@@ -190,7 +190,7 @@ Guests agree that dbt made SQL transformation more engineerable, but they don't
 treat it as the whole discipline.
 
 Perez Mola links dbt closely to the rise of analytics engineering
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+([[cite:analytics-engineer-skills-tools@30:06=>Analytics Engineer Skills and Tools]]).
 She presents it as the everyday tool for modeling, tests, DAGs, and docs.
 Maksimovic shows how learning dbt can anchor a career move from business or
 marketing work into analytics engineering. That path still requires SQL, BI,

@@ -167,7 +167,8 @@ documentation and data literacy when non-engineering teams work directly with
 customer data.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Identity resolution adds privacy and correctness risk. Separate records can hide
-fraud and KYC activity.[[cite:building-open-source-data-product-for-identity-resolution=>Identity Resolution Tool]]
+fraud, anti-money-laundering, and KYC activity
+[[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution Tool]].
 The same identity power can create risk in ordinary customer systems. Teams may
 merge records incorrectly or send sensitive profile fields into too many tools.
 

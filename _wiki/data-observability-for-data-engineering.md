@@ -89,6 +89,12 @@ of the field. Streaming also adds orchestration choices and streaming versus
 micro-batching
 [[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]].
 
+Teams use dbt documentation for model and field descriptions. It also supports
+tags, custom metadata, code visibility, and dependency navigation. Profiling and
+deep observability usually sit in adjacent tools such as Datafold or Monte Carlo
+rather than inside dbt
+[[cite:analytics-engineer-skills-tools@50:46=>Analytics Engineer Skills and Tools]].
+
 Kafka, SQS, and Flink each need different observability thresholds, but each one
 still has to protect consumer trust. Thresholds stay tied to consumer impact
 through SLAs and false-positive management
@@ -194,7 +200,7 @@ For a data engineering team, a practical first pass is:
 
 Thresholds can be inferred from historical data, and false positives reduced, to
 keep noisy observability from creating alert fatigue
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability@38:14=>Data Observability Explained]].
 Teams shouldn't page on every anomaly. They should protect important consumers
 from data downtime and make diagnosis fast when something breaks.
 
@@ -209,7 +215,13 @@ separate for this reason
 Alerting without ownership is another failure. If no one owns the table or SLA,
 the alert becomes background noise. The same happens when the consumer group or
 recovery path is unnamed. Ownership, SLAs, and runbooks address this
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability@41:03=>Data Observability Explained]].
+
+Operational debugging also needs local job knowledge. Production data engineers
+should document common error types, log patterns, and upstream schema-change
+symptoms. They should also document fix steps so support teams can resolve
+recurring failures without rediscovering the path each time
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@48:21=>Fraud Prevention]].
 
 Checking only the final dashboard is also weak. By then the team has to work
 backward through ingestion, transformation, and warehouse layers under pressure.

@@ -108,6 +108,13 @@ expire.[[cite:cloud-data-governance=>Cloud Data Governance]][[cite:data-governan
 Ownership connects discovery to accountability. Multiple teams can share
 responsibility, but one team still answers questions and approves changes. That
 team also fixes broken assumptions.
+
+Teams use data observability to make the accountability model operational
+through RACI. Data engineering teams may be responsible for fixing a failed
+pipeline, while a data leader or domain owner may be accountable. Analysts may
+need to be informed, and data scientists or other consumers may be consulted on
+SLA needs
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
 Data Mesh makes that boundary explicit. It ties data product ownership to
 business domains, quality expectations, and service levels.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 

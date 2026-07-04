@@ -67,6 +67,11 @@ The disagreement isn't between mass applications and applying to five jobs.
 Early candidates may need volume to learn the market. Guests still warn that
 unfocused volume weakens CV tailoring, interview preparation, and networking.
 
+Data engineering candidates can use the same feedback loop. Apply early enough
+to expose gaps, then turn failed interviews into the next SQL, Python, or
+pipeline practice target
+([[cite:data-engineering-career-path-and-skills@33:05=>Build a Data Engineering Career]]).
+
 Juniors need enough applications to get market signal and enough tailoring to
 learn from each attempt
 [[cite:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
@@ -85,7 +90,7 @@ That moves the application away from a generic funnel
 The search should still point toward a target company or industry. Find
 practitioners in that company or nearby roles. Ask for a short conversation.
 Make the request specific enough to answer
-quickly.[[cite:how-to-break-into-data-science=>Playbook]]
+quickly.[[cite:how-to-break-into-data-science@50:32=>Playbook]]
 That makes [[Data Science Careers]] and
 [[Data Scientist CV and Portfolio]] part of the same loop. Choose a direction,
 build evidence, test it with the market, then refine the next application.
@@ -163,7 +168,7 @@ Before contacting a company or employee, candidates should understand the
 industry and product well enough to ask interesting questions. They should also
 know the likely technical challenges. A couple of relevant projects give the
 conversation a concrete proof surface. Personal Streamlit apps on top of
-machine learning work can be enough when they match the role.[[cite:how-to-break-into-data-science=>Playbook]]
+machine learning work can be enough when they match the role.[[cite:how-to-break-into-data-science@54:31=>Playbook]]
 
 Use [[Machine Learning Portfolio Projects]] when that proof needs a clearer
 project brief and a stronger story about baseline, evaluation, and follow-up.
@@ -178,6 +183,11 @@ Data engineering interviews often test SQL and Python through take-home project
 formats. Assessment depth varies by level
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+
+Another data engineering funnel can start with screening calls, then move to SQL
+tests and on-site discussion. Interview preparation should include both
+technical drills and project explanation
+[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
 
 Portfolio and assessment boundaries differ because take-home projects are a
 return-on-investment decision. They can overburden candidates when the company
@@ -237,8 +247,14 @@ fundamentals
 
 Transferable experience from software and BI roles matters
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
-Junior-to-senior expectations differ. For career switchers, focused skills plus
-projects matter. This candidate-side view complements
+Remote-first data engineering searches are market-specific. One remote IoT
+platform path still depended on local hiring norms, work routines, and clear
+communication. Candidates should test remote assumptions in the geography and
+company type they target
+[[cite:remote-data-engineering-work-and-building-iot-platforms@8:13=>Remote Data Engineering]].
+
+Junior-to-senior expectations differ, and focused skills plus projects matter for
+career switchers. This candidate-side view complements
 [[Data Engineer Role]],
 [[data-engineer-roadmap=>Data Engineering Roadmap]],
 [[Data Engineering Portfolio Projects]],

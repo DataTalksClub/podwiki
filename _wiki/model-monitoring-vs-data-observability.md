@@ -43,6 +43,10 @@ reduction, deployment cycle time, and productivity. It treats data
 observability, monitoring, and data quality as related names for checking whether
 the system's outputs are usable
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Monitoring detects that something changed. Observability helps diagnose why it
+changed by combining context such as logs, lineage, correlations, and upstream
+impact
+[[cite:data-quality-data-observability-data-reliability@24:31=>Data Observability Explained]].
 
 The practical split is:
 
@@ -51,7 +55,8 @@ The practical split is:
   model degradation, service errors, and retraining or rollback signals.
 - Data observability owns upstream data reliability. It watches freshness,
   volume, schema changes, and null spikes. It uses data definitions, lineage,
-  and downstream impact for triage.
+  and downstream impact for triage
+  [[cite:data-quality-data-observability-data-reliability@16:38=>Data Observability Explained]].
 - The shared work is profiling for incident diagnosis. Profiles from WhyLogs and
   WhyLabs can reveal model degradation or data drift for data scientists. The
   same profiles can show null spikes, schema changes, and definition changes for
@@ -108,6 +113,11 @@ teams, the same profile family can show null spikes, schema changes, or changed
 data definitions. The technique overlaps, but the owning question differs. MLOps
 asks whether the model should keep serving. DataOps asks whether the data path is
 still reliable.
+
+Reducing false positives depends on that context. An anomaly isn't automatically
+bad data, so alerting should distinguish expected variation from a production
+incident
+[[cite:data-quality-data-observability-data-reliability@1:00:27=>Data Observability Explained]].
 
 ## Pipeline Observability and DataOps
 

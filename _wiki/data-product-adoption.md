@@ -97,6 +97,13 @@ tied to strategy and visible to the organization. They should be reviewed
 periodically and discarded when nobody uses them for decisions.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]]
 
+Vin Vashishta gives the ML-product version of adoption metrics. Track who uses
+the product, how long they use it, and how long tasks take. Also track how
+quickly novices become power users and whether the product reduces manual steps.
+For decision support, also track the decision chain, the information consumed,
+and whether pricing or revenue outcomes hit the expected baseline
+[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]].
+
 ## Trust Before Usage
 
 Adoption breaks when trust breaks, so small operational signals are
@@ -178,6 +185,14 @@ The response has to be trustworthy and concise enough to review. It also needs
 a format that fits the job and a return on effort that beats the previous
 workflow.
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
+Jack Blandin's stakeholder-demo advice is another adoption tactic for ML
+products. A quick POC with visuals or a basic interface can help users see what
+the model changes before the team asks for full engineering support. For early
+proof, a spreadsheet or lightweight demo may be enough if it makes the decision
+and tradeoff visible
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Fast ML POCs]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Lightweight demo tools]].
 
 ## Enablement and Operating Rituals
 

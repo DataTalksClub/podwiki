@@ -142,6 +142,13 @@ Product and community work are part of that loop rather than a pure marketing
 role
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
+Data-science DevRel makes that feedback loop explicit. Community
+questions and support work become product signal and user insight when the
+advocate sends repeated friction back to engineering
+([[cite:devrel-data-science-open-source-tools@23:51=>DevRel as product signal]]).
+Developer experience connects to [[community building]] because the channel that
+helps users also reveals where the tool is hard to adopt.
+
 [[Metaflow]] matters in these discussions through reproducible ML workflows and
 integrations. It appears in demos and teaching material rather than only as a
 package

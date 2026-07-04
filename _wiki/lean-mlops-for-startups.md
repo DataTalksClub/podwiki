@@ -61,6 +61,14 @@ hiring dedicated infrastructure staff. Cloud and SaaS choices still add
 identity, key management, and configuration work. They also add migration and
 billing decisions.
 
+Small teams also compress role boundaries. A startup MLOps hire may need to
+cover architecture, customer-facing support, monitoring, and tooling decisions.
+The company can separate those jobs into platform, ML engineering, and solutions
+roles later
+([[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]]).
+Startups should include [[MLOps Engineer]] responsibilities and [[MLOps Tools]]
+selection in the lean roadmap, not treat them as later organizational details.
+
 Instead of avoiding infrastructure entirely, startups should buy the parts
 that save scarce attention. They should keep the core workflow understandable
 enough to move later

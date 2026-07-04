@@ -38,6 +38,16 @@ when teams compare revenue, cost, risk, and time saved. A metric without a
 shared unit can still describe a system, but it's weak as a KPI because it can't
 support a clear tradeoff.
 
+Vin Vashishta applies that executive-language rule to ML strategy. ARR, MRR,
+revenue, and cost savings are the metrics that move budget conversations out of
+model scores. They put the discussion in business terms
+[[cite:make-money-with-machine-learning-roles-skills@12:07=>ARR and MRR for ML]]
+[[cite:make-money-with-machine-learning-roles-skills@15:59=>Revenue and cost-savings metrics]].
+
+Jack Blandin gives the stakeholder version. When speaking with marketing, use
+their KPI language such as CAC. Don't lead with technical model details
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@15:25=>Speaking in stakeholder KPIs]].
+
 This is why KPIs sit close to [[business intelligence]]
 and [[analytics engineering]].
 Sroka's consultancy examples include BI dashboards, professional-services
@@ -111,6 +121,13 @@ and [[machine learning system design]].
 In those systems, accuracy and AUC matter most when the team can say which KPI
 they protect or improve. Latency and pipeline freshness need the same business
 link.
+
+Vin extends the product side of that measurement. Adoption and time per task
+belong near ML product KPIs. Learning curve, decision quality, pricing outcomes,
+and whether the model output improves the decision chain belong there too. Those measures
+connect [[data product adoption]] to revenue or cost-savings ranges instead of
+stopping at model performance
+[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]].
 
 Impact measurement also needs a stakeholder loop. A data science manager can
 pair client feedback and project-manager perspective with dashboarded KPIs. That

@@ -90,7 +90,7 @@ entities, facts, and dimensions. It also means explaining grain and duplicate
 rows.
 
 Core preparation covers SQL, fact tables, and dimension tables. It also covers
-Kimball-style modeling and Snowflake familiarity.[[cite:analytics-engineer-skills-tools=>role episode]]
+Kimball-style modeling and Snowflake familiarity.[[cite:analytics-engineer-skills-tools@42:05=>role episode]]
 A dbt migration turns that preparation into domain modeling. The work includes
 wide-versus-narrow table decisions and incrementalization tradeoffs.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>marketing transition episode]]
 
@@ -108,6 +108,9 @@ without breaking downstream work. Dependency graphs show how models connect.
 Model documentation and tests come next. dbt combines SQL files and YAML
 documentation with GitHub version control. It also gives built-in tests and DAG
 visibility.[[cite:analytics-engineer-skills-tools=>role episode]]
+Tests should prove source assumptions before dependent models build. A portfolio
+project can show warning-versus-error behavior instead of only happy-path
+SQL.[[cite:analytics-engineer-skills-tools@38:53=>role episode]]
 
 That extends into generic tests and singular SQL tests. Unit tests and CI checks
 stop broken code from merging.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]

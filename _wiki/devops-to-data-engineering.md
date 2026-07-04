@@ -34,7 +34,7 @@ habits to data pipelines. The transferable core skill is spotting repeated
 operational work. The next step is turning it into a maintained workflow. That
 path starts with configuration management and scripts that remove repetitive
 manual work
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>From DevOps to Data Engineering]].
 
 The DataOps version of the same move puts tests under version control to reduce
 data-pipeline fear and rework. It then adds CI/CD and monitoring, with runbooks
@@ -100,7 +100,7 @@ into [[data-quality-and-observability=>Data Observability]].
 Automation transfers when it acts on data delivery. Finding repetitive manual
 work and automating it can earn more responsibility. The habit becomes a
 repeatable career signal
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>From DevOps to Data Engineering]].
 In data engineering the same habit becomes ingestion code and scheduled
 backfills. It also becomes repeatable transformations, automated checks, and
 recovery playbooks.

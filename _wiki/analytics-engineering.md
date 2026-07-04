@@ -49,12 +49,17 @@ The same work converts messy business reality into safer data systems
 ([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
 The role is easiest to explain through the team bottleneck it removes. Analysts
-and data scientists need trusted definitions, but they can lose time
-rebuilding joins and reconciling dashboards. Data engineers often own ingestion,
+and data scientists need trusted definitions. They can lose time rebuilding
+joins and reconciling dashboards. Data engineers often own ingestion,
 orchestration, cloud infrastructure, and platform reliability. Analytics
 engineers work between those groups by making business-facing data reusable
 ([[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]],
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]]).
+
+The Spotify-origin story names the bottleneck directly. Analysts were spending
+too much time cleaning and quality-checking data. They also had to model data
+before they could do analysis
+([[cite:analytics-engineer-skills-tools@16:54=>Analytics Engineer Skills and Tools]]).
 
 That reusable layer feeds
 [[Business Intelligence]]
@@ -95,6 +100,12 @@ It later included a warehouse, dbt, Data Studio, and Notion documentation. Tests
 and forecasting support followed. That work crossed analyst and engineer
 responsibilities because the company needed trusted data first
 ([[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]).
+
+At larger scale, analytics engineers may start in a platform team and then
+embed into operations, commercial, or other analytics teams. Domain teams can
+then own models without depending on a central queue
+([[cite:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
+[[data-engineering-platforms=>Data Engineering Platforms]]).
 
 Rishabh Bhargava's analytics-to-ML discussion shows another boundary.
 Analytics engineering can bridge notebooks and SQL-plus-Python work into

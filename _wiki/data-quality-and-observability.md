@@ -106,10 +106,15 @@ realistic test data come first. Infrastructure as code helps teams deploy with
 lower risk. Version control alone isn't enough. Teams need end-to-end tests and
 automated checks before production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-Pipeline work follows the same rule: observability and monitoring reduce
-production errors. dbt and Great Expectations encode assumptions, as do SQL
-tests and other testing strategies.
+Teams apply the same rule to pipelines because observability and monitoring
+reduce production errors. dbt and Great Expectations encode assumptions, as do
+SQL tests and other testing strategies.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+Fraud-detection teams use the production version. They can combine Great
+Expectations, cloud-native checks, custom unit tests, and profiling layers.
+Teams place checks inside the pipeline so they can catch bad input before
+operational decisions use it
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]].
 
 Those practices sit beside [[Analytics Engineering]] and [[DataOps]] because
 transformations, models, and reports share the same reliability problem.
@@ -176,7 +181,7 @@ or accountable roles from consulted or informed roles, and quality also connects
 to data SLAs. A data scientist may need a feature table five minutes after a
 user action, while another table can wait. Platform and pipeline teams use that
 SLA to decide which freshness incident needs immediate
-response.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+response.[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]][[cite:data-quality-data-observability-data-reliability@35:24=>Data Observability Explained]]
 
 Naive alerting is a trap. A useful observability system reduces false positives
 by combining data, metadata, lineage, and incident

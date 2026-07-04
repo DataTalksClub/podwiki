@@ -60,7 +60,11 @@ change. The first goal is to show that you can follow project norms.
 PR quality, Git skills, environment setup, and maintainer collaboration all
 matter. Docs and demos help users finish a real task, including tutorials for
 Docker, Postgres, and Git
-([[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]]).
+([[cite:practical-devrel-demofirst-education-and-open-source@39:02=>Demo-First DevRel]]).
+Programs with mentorship can make large-repository contribution less ambiguous.
+They pair onboarding, review expectations, and maintainer collaboration
+([[cite:practical-devrel-demofirst-education-and-open-source@35:43=>MLH Fellowship]],
+[[cite:practical-devrel-demofirst-education-and-open-source@41:16=>Large-repo onboarding]]).
 
 The first contribution sequence can be:
 

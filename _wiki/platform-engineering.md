@@ -50,7 +50,7 @@ reliability without turning every project into a custom consulting job.
 
 In IoT, the platform can act as an "operating system for sensors." It
 standardizes project-data flow across storage and intake. It also covers output,
-sensor registration, and real-time processing for sensor operators.[[cite:remote-data-engineering-work-and-building-iot-platforms=>IoT Platforms]]
+sensor registration, and real-time processing for sensor operators.[[cite:remote-data-engineering-work-and-building-iot-platforms@12:29=>IoT Platforms]][[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>IoT Platforms]]
 
 ## Timing and Product Discipline
 

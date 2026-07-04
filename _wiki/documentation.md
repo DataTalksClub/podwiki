@@ -39,7 +39,9 @@ issues and small documentation fixes also count as real contribution paths.[[cit
 Future teammates need writing that preserves reasoning after the meeting ends.
 Working-backwards documents and press releases preserve intent. Design docs,
 decision logs, and rationales keep team memory available when the original
-author isn't in the room.[[cite:technical-writing-for-data-scientists]]
+author isn't in the room
+[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
+[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
 
 Developers adopting tools need documentation, demos, and tutorials that start
 from audience and goals. Developer relations work adds feedback from
@@ -113,7 +115,9 @@ options and tradeoffs matter too.
 Technical writing becomes documentation when it preserves a decision or makes a
 workflow reproducible. Outline-first and repeatable writing habits can support
 public writing. The same habits can also support design docs, rationales, and
-decision logs at work.[[cite:technical-writing-for-data-scientists]]
+decision logs at work
+[[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
+[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
 
 Good team documentation says what changed and why. It also says what the team
 decided not to do. That matters for [[practices]] such as versioning, tests,

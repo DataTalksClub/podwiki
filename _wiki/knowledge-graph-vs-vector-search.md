@@ -91,11 +91,11 @@ reports relate to each other. They also cover chapters, sections, and
 engineering concepts. Those questions need order, containment, paths, and typed
 relations. Semantically similar text isn't enough.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Fraud detection gives the same graph-side lesson outside RAG. [[person:angelaramirez=>Angela Ramirez]]
-uses Wikidata and SPARQL to show why graph databases make entity relations
-queryable. In retail fraud, members, transactions, and products become
-connected nodes. Suspicious member-transaction-product neighborhoods can become
-additional model features or analyst signals.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Detection Graphs]]
+Fraud detection gives the same graph-side lesson outside RAG. Wikidata and
+SPARQL show why graph databases make entity relations queryable. In retail
+fraud, members, transactions, and products become connected nodes. Suspicious
+member-transaction-product neighborhoods can become additional model features or
+analyst signals.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@23:04=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]]
 
 That connects this comparison to [[entity-resolution]] and [[Graph Data Science]].
 The value isn't a nearby text chunk. It's the relationship structure around an
@@ -160,7 +160,7 @@ Graph production work can also include human investigation interfaces. Neo4j fit
 the fraud use case because end users could visualize the network instead of
 only reading tables. Fraud specialists can traverse connected users and
 transactions. They can also look at products when they decide whether something
-looks suspicious.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Detection Graphs]]
+looks suspicious.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:11=>Fraud Detection Graphs]]
 
 This adds a product requirement beyond vector search latency or nearest
 neighbors. The graph has to make relationships inspectable.

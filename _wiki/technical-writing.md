@@ -80,11 +80,13 @@ become a product.[[cite:interpretable-machine-learning=>Interpretable Machine Le
 
 ## Audience, Outline, and Cadence
 
-The clearest reusable writing workflow uses a weekly cadence and starts with an
-outline so ideas can be selected, ordered, and tested before drafting. It sets
-a time budget to avoid endless editing and covers idea sources, topic
+Writers can use a weekly cadence and start with an outline. They can select and
+order ideas before drafting, then test whether the outline works. They set a
+time budget to avoid endless editing. They also cover idea sources, topic
 prioritization, titles, and article length
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+[[cite:technical-writing-for-data-scientists@20:00=>Weekly writing cadence]]
+[[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
+[[cite:technical-writing-for-data-scientists@29:00=>Writing time budget]].
 
 The method matters for technical topics because the audience determines the
 level of detail. A
@@ -182,7 +184,8 @@ Inside teams, technical writing spans press releases and working-backwards
 documents. It also spans design docs, decision logs, rationales, and team
 memory. That makes it part of [[software engineering]], not only a public-content
 habit
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
+[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and team memory]].
 
 Internal writing solves a different problem from blog posts. A design doc helps
 reviewers understand the proposed choice before the team commits. A decision log

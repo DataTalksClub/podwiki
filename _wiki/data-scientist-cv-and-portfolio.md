@@ -91,21 +91,25 @@ A reusable project description should cover these points:
 Beginner projects don't need to optimize for the most impressive model. Hiring
 managers also look for data judgment. The project should show how the candidate
 understands data behavior. It should also show how they notice data problems,
-handle overfitting, and explain what they would try next.[[cite:how-to-break-into-data-science=>Data Science Career Playbook]]
+handle overfitting, and explain what they would try next.[[cite:how-to-break-into-data-science@57:09=>Data Science Career Playbook]]
 
 Messy datasets can be stronger than polished starter datasets when the work
-shows judgment.[[cite:how-to-break-into-data-science=>Data Science Career Playbook]]
+shows judgment.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]
 
 NYC Open Data can support beginner projects, with taxi-ride data as one
-example.[[cite:how-to-break-into-data-science=>Data Science Career Playbook]]
+example.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]
 
 Use [[Portfolio Projects]] and [[Machine Learning Portfolio Projects]] to turn
 that kind of dataset into a project brief, baseline, evaluation, and follow-up
 story.
 
-Project writeups should put business goals and evaluation metrics before
-solution detail.[[cite:data-science-interview-and-cv-guide=>Interview Guide]]
+Project writeups should lead with business goals and evaluation metrics
+[[cite:data-science-interview-and-cv-guide=>Interview Guide]].
 Impact-first walkthroughs use the same order.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+Give reviewers the same clarity in the repository. Use the README for a quick
+start and a tour of the files. Add enough context to reproduce the project
+without the author present
+[[cite:technical-writing-for-data-scientists@56:30=>Technical Writing for Data Scientists]].
 
 ## Portfolio Storytelling and Business Impact
 

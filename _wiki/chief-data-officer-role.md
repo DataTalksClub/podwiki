@@ -129,6 +129,12 @@ matters less than whether the leader can coordinate platforms, data access,
 business adoption, and production ML practice across the organization.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
 
+Boyan Angelov gives a smaller-company bridge between strategist, head of data,
+CDO, and CTO. In his account, the strategist role becomes executive work when
+the person stops advising from a data corner. They then own budgets, hiring,
+management, and operational consequences across the technology agenda
+[[cite:data-strategy-and-dataops-for-ai-powered-products@41:31=>Strategist to CTO ownership]].
+
 ## Strategy, Org Design, and Accountability
 
 Strategy starts with company goals and works backward. The leader identifies

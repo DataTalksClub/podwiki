@@ -88,6 +88,13 @@ Confidence, values, feedback, and monetization sit in the same discussion
 Personal brand is one mechanism for career growth. It doesn't replace technical
 depth, team trust, or proof that a person can own harder work.
 
+Career growth also requires filtering the learning queue. FOMO and imposter
+syndrome can push practitioners toward every new model or framework. A healthier
+routine chooses trusted conferences and sources. It uses "good enough" learning
+for the current work before moving on
+([[cite:how-to-break-into-data-science@15:43=>Data Science Career Playbook]],
+[[cite:how-to-break-into-data-science@35:31=>Data Science Career Playbook]]).
+
 Individual-contributor growth stays separate from management growth.
 Troubleshooting, platform breadth, and mentoring sit inside the senior IC path
 ([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
@@ -169,6 +176,13 @@ Career growth here depends on
 [[developer relations]] and
 [[communication]], especially for
 people whose work must influence users, executives, or open-source communities.
+
+Public technical work can also create a depth tradeoff. Community-heavy roles
+such as developer advocacy reward demos, documentation, and support.
+Practitioners still need enough technical practice to keep credibility with the
+users they serve
+([[cite:practical-devrel-demofirst-education-and-open-source@20:07=>Demo-First DevRel]],
+[[cite:devrel-data-science-open-source-tools@36:51=>DevRel for Data Science]]).
 
 A publishing system surrounds that work. LinkedIn, Medium, audience feedback,
 and monetization can matter

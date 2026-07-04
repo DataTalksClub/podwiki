@@ -116,8 +116,8 @@ It's "make your SQL reviewable, modular, and model-aware."
 engineering skill set. In his career-path discussion, he says candidates can
 learn enough dbt for interviews quickly. The harder on-the-job work is staging,
 integration, and marts. Candidates also need common table expressions, modular
-SQL, and modeling fundamentals such as OLTP versus OLAP
-[[cite:data-engineering-career-path-and-skills=>SQL and modeling fundamentals]].
+SQL, window functions, and modeling fundamentals such as OLTP versus OLAP
+[[cite:data-engineering-career-path-and-skills@44:21=>SQL and modeling fundamentals]].
 
 Practice with analyst-friendly material:
 
@@ -148,7 +148,9 @@ records. They load data, configure jobs, log runs, and write tests. That code
 should be small enough for another engineer to review.
 
 Jeff Katz names backend engineering, cloud computing, and pipelines as core
-gaps for candidates moving into data engineering. In his job-prep discussion,
+gaps for candidates moving into data engineering from analytics
+[[cite:data-engineering-career-path-and-skills@40:42=>analyst-to-engineer path]].
+In his job-prep discussion,
 he warns that many portfolios list tools but show too little Python and SQL.
 He asks for substantial code and tests. Functions should be small, names should
 be descriptive, and classes should appear where useful

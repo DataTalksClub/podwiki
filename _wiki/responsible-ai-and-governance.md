@@ -145,6 +145,12 @@ This places fairness beside
 [[LLM Evaluation Workflows]]. Metrics provide evidence, while product, domain,
 and risk owners decide what the evidence permits.
 
+Operational monitoring can make fairness more useful than a detached
+explainability artifact. Segment-level checks and bias monitoring show whether
+model behavior differs across important groups, so governance work has evidence
+for review and mitigation
+[[cite:mlops-model-monitoring-data-observability@41:00=>MLOps Architect Guide]].
+
 Public-policy discussions extend responsible AI into ethics as the gap between
 what's legal and what's right. Printer e-waste can contaminate communities
 without being a crime. It remains an ethical failure data science can help
@@ -171,11 +177,17 @@ interpretability, and human oversight have to stay tied to operational decisions
 The team identifies who needs to understand the model, what choice they need to
 make, and what action follows when the model looks wrong.
 
+For some production teams, fairness and bias checks deserve priority over
+generic explainability. Segmentation checks can deserve the same priority
+because these checks connect more directly to deployment risk and post-launch
+monitoring
+[[cite:mlops-model-monitoring-data-observability@41:00=>MLOps Architect Guide]].
+
 A deeper modeling view frames SHAP as a way to debug models, not only as a chart
 for stakeholders. Conformal prediction adds calibrated uncertainty and
-prediction sets. The same discussion separates local explanations, uncertainty,
-and broader explainable-AI claims through SHAP details and terminology
-boundaries
+prediction sets. The same discussion uses SHAP details and terminology
+boundaries to separate local explanations, uncertainty, and broader
+explainable-AI claims
 [[cite:interpretable-machine-learning=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
 
 Different audiences need different evidence. An engineer may need feature

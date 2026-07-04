@@ -109,6 +109,13 @@ shallow gamification. The work also uses customer-development habits such as
 surveys and recurring feedback
 ([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
 
+Developer communities can add a more product-facing analytics layer. In the
+data-science DevRel discussion, community signals and support patterns become
+evidence about where users struggle, not only audience-growth metrics
+([[cite:devrel-data-science-open-source-tools@26:01=>DevRel community metrics]]).
+That's where [[developer relations]] and [[developer experience]] meet
+community operations.
+
 Moderation is part of the same operating work. It includes handling vendors,
 spam, and a code of conduct
 ([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
