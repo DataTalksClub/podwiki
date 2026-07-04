@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10784
+    "links": 10757
   },
   "nodes": [
     {
@@ -10782,7 +10782,7 @@
       "title": "Prompt Engineering",
       "url": "/wiki/prompt-engineering/",
       "count": 1,
-      "search": "Prompt Engineering DataTalks.Club episodes on prompt engineering patterns: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
+      "search": "Prompt Engineering DataTalks.Club episodes on prompt engineering techniques: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
     },
     {
       "id": "wiki:prompt-injection-and-chatbot-risk-management",
@@ -62016,48 +62016,6 @@
     },
     {
       "source": "wiki:model-monitoring",
-      "target": "person:barrmoses",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
-      "target": "person:thomives",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring",
       "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "wiki-chip",
       "weight": 1
@@ -63355,12 +63313,6 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "person:revathyramalingam",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:nontraditional-paths-to-ai-engineering",
-      "target": "person:ruslanshchuchkin",
       "kind": "article-chip",
       "weight": 1
     },
@@ -68556,42 +68508,6 @@
     },
     {
       "source": "wiki:prompt-engineering",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-engineering",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -69476,18 +69392,6 @@
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:vector-databases",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:anahitapakiman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:ranjithakulkarni",
-      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -73303,72 +73207,6 @@
     {
       "source": "wiki:staff-ai-engineer",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:antonisstellas",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:belawiertz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:carminepaolino",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:elenasamuylova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:liesbethdingemans",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:mariabruckert",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:paulineclavelloux",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:startups",
-      "target": "person:sonalgoyal",
       "kind": "wiki-chip",
       "weight": 1
     },

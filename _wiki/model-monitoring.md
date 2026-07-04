@@ -17,13 +17,11 @@ production system around it. Teams track input data, predictions, service
 health, and response paths. Those signals show whether the model still behaves
 well after deployment and whether the right team knows when to investigate.
 
-Model monitoring is part of [[MLOps]], not a
-dashboard bolted onto the end of a project. Production monitoring connects to
-upstream [[data pipelines]]
-([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
-That matters because a model can degrade when the model artifact is unchanged
-but the data, features, labels, or serving path changed.
+Model monitoring is part of [[MLOps]], not a dashboard bolted onto the
+end of a project. Production monitoring connects to upstream
+[[data pipelines]] because a model can degrade even when the model artifact
+is unchanged. The data, features, labels, or serving path may have changed
+instead.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 ## Production Signals
 
@@ -34,79 +32,60 @@ business outcomes. They may track user or stakeholder feedback too. The
 monitoring system needs to help the team diagnose a problem after an alert
 fires.
 
-In the data-science version, Thom Ives separates data drift from concept drift
-([[person:thomives|Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]).
-The training data may stop matching the current world. The relationship between
-features and outcomes may change too.
+Data drift and concept drift describe different production failures. The
+training data may stop matching the current world while feature-outcome
+relationships change.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]
 
-In the human-centered version, live test sets and small A/B tests detect model
-issues. Teams watch input distributions, unit changes, and feature drift.
-Logging, feature stores, and reproducibility support the work
-([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+Live test sets and small A/B tests can detect model issues. Teams watch input
+distributions, unit changes, and feature drift. Logging, feature stores, and
+reproducibility support the response path.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 Monitoring is useful only when teams can debug and respond.
 
 ## Monitoring Priorities
 
-Production models need monitoring, but guests prioritize different operating
-problems. Danny Leybzon focuses on production pain. Teams that already have
-production models are distinct from teams still before deployment. The market
-conversation shifts from why monitoring matters to how teams should monitor
-([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
+Production models need monitoring, but the operating problem changes by team
+stage. Teams that already have production models face a different problem from
+teams still before deployment. The question shifts from why monitoring matters
+to how teams should monitor.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
-Lina Weichbrodt focuses on people and incident response, so service levels and
-impact assessment happen with stakeholders. ML incidents connect to post-mortems
-and recovery steps
-([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
-That monitoring system needs a human response path, not only metrics.
+Service levels and impact assessment belong with stakeholders because model
+incidents affect people outside the model team. ML incidents connect to
+post-mortems and recovery steps.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+Monitoring needs a human response path, not only metrics.
 
-Maria Vechtomova treats monitoring as part of the minimum MLOps stack and a
-roadmap priority. It may need to fit existing observability tools rather than
-forcing a separate ML-only stack
-([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
+Monitoring can be part of the minimum MLOps stack and a roadmap priority. It
+may need to fit existing observability tools rather than force a separate
+ML-only stack.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
-Raphaël Hoogvliets focuses on adoption. The core challenge is keeping deployed
-models monitored and maintained. Solving tangible pain points comes first.
-Monitoring sits alongside experiment tracking, registries, and serving in the
-MLOps toolset
-([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+Adoption work starts with tangible pain points. Keeping deployed models
+monitored and maintained sits alongside experiment tracking, registries, and
+serving in the MLOps toolset.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For startup validation, Evidently began with customer discovery around
 post-production model failures. Models can break without anyone noticing.
 Monitoring can disappear after data scientists leave
-[[cite:building-mlops-startup|MLOps Startup|43:59]].
+[[cite:building-mlops-startup@43:59=>MLOps Startup]].
 Evidently treated monitoring as both an [[MLOps]] operating practice and a
 product pain for an MLOps startup.
 
 ## Data Drift
 
-Data drift covers changes in the input data a model receives after deployment.
-The model may still run, but the feature values no longer look like the
-training data
-([[person:thomives|Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]).
-The same episode links monitoring to feature work and ETL reliability, and
-connects monitoring to
+Data drift changes the inputs a model receives after deployment. A model can
+still run on drifted feature values.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]
+The same monitoring problem links feature work, ETL reliability, and
 [[data governance]].
 
-In the production-operations version, observability connects to ETL and data
-pipelines, and to upstream root causes
-([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
+In production operations, observability connects model symptoms to ETL,
+[[data pipelines]], and upstream root causes.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 Monitoring is also a retraining input because drift and fairness signals can
 trigger retraining decisions. Monitoring output can become new training data
 when the team has a production feedback path
-[[cite:mlops-kubeflow-model-monitoring|Kubeflow Model Monitoring|11:17]]
-[[cite:mlops-kubeflow-model-monitoring|Kubeflow Model Monitoring|33:27]].
+[[cite:mlops-kubeflow-model-monitoring@11:17=>Kubeflow Model Monitoring]]
+[[cite:mlops-kubeflow-model-monitoring@33:27=>Kubeflow Model Monitoring]].
 
-That link is why model monitoring and
-[[data-quality-and-observability=>data observability]] overlap.
+That connection puts model monitoring close to
+[[data-quality-and-observability=>data observability]].
 The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
 break the model too.
@@ -116,15 +95,13 @@ model developed on European patients may not generalize to African clinical
 settings. Disease prevalence, available measurements, collection practices, and
 infrastructure can differ. European data can still inform reasoning, but it
 shouldn't automatically justify an algorithm for a low-resource setting
-[[cite:building-healthcare-machine-learning-systems|Healthcare ML Systems|35:45]].
+[[cite:building-healthcare-machine-learning-systems@35:45=>Healthcare ML Systems]].
 That makes population coverage a [[Machine Learning System Design]] constraint
 as well as a [[data-quality-and-observability=>data observability]] signal.
 
-Barr Moses covers silent data incidents and model drift. She also covers
-freshness, volume, and distribution as data reliability signals. Schema and
-lineage matter too
-([[person:barrmoses|Barr Moses]],
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
+Silent data incidents and model drift can share the same root cause. Freshness,
+volume, and distribution help track data reliability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+Schema and lineage add context for root-cause analysis.
 For model monitoring, those signals help explain whether drift came from the
 data system or from model behavior.
 
@@ -135,33 +112,26 @@ For some systems, teams can compare predictions with labels after a delay. For
 others, teams watch proxy metrics and human review. Customer complaints,
 business KPIs, or small experiments may provide earlier signals.
 
-Tying monitoring to real response paths covers live test sets and small
-[[a-b-testing=>A/B tests]]. It also covers user feedback channels, internal bug
-reports, and widespread user complaints
-([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+Real response paths include live test sets and small [[a-b-testing=>A/B tests]].
+They also include user feedback channels and internal bug reports. Widespread
+user complaints can serve as signals too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 Those signals matter when labels are late or incomplete.
 
-Ives covers model selection, accuracy, variance, and generalizability. He also
-covers the move from selecting a model to maintaining it
-([[person:thomives|Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]).
+Before release, teams still care about model selection and accuracy. Variance
+and generalizability matter too. After release teams maintain the
+model.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]
 A model can be good at release and still become the wrong model later.
 
 ## Observability
 
 Monitoring detects that something may be wrong, and observability helps a team
-explain why. Danny Leybzon makes the distinction concrete through profiles,
-pipelines, and integrations. His example uses data profiling architecture with
-WhyLogs and a backend for storing profiles. It also uses platform-agnostic
-integrations because production models run through many serving tools
-([[person:dannyleybzon|Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
+explain why. Data profiling architecture can use WhyLogs and a backend for
+storing profiles. Platform-agnostic integrations matter because production
+models run through many serving tools.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 Observability connects to platform design through API design and unified
 prediction schemas for logging requests, predictions, and responses
-([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 That schema gives teams material for later monitoring and analysis.
 
 This is where [[machine learning infrastructure]]
@@ -174,22 +144,20 @@ drift alerts, latency spikes, or bad prediction clusters.
 Alerts make monitoring operational because they name a team, a severity, and a
 next action. From the data side, teams need contextual alerts and fewer false
 positives, and alerts connect to runbooks and remediation
-([[person:barrmoses|Barr Moses]],
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Sabina Firtala's domestic-risk assessment episode adds the high-stakes version
 of the same rule. After a risk-scoring tool enters frontline workflows,
 monitoring has to watch for drift and trigger maintenance alerts. The response
 path still needs human review because the served population may change after
 release. Source data and operational workflows can change too
-[[cite:building-domestic-risk-assessment-tool|Building a Domestic Risk Assessment Tool]].
+[[cite:building-domestic-risk-assessment-tool=>Building a Domestic Risk Assessment Tool]].
 
 Model alerts have the same problem. If every distribution shift pages a team,
 people stop trusting the monitoring system. The incident-response view adds the
 human test: post-mortem evidence and investigation steps become action items and
 workflow changes
-([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Teams should alert on signals that someone can act on. For model teams, those
 signals usually include input quality and prediction distribution. They also
@@ -202,25 +170,22 @@ Model monitoring fails when no one owns the response. The owning team may be a
 product team, an ML engineering team, a central MLOps team, or a data platform
 team. The right owner depends on the failure mode.
 
-A central MLOps team provides infrastructure, reusable CI/CD, and monitoring
-support
-([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
+A central MLOps team can provide monitoring
+support.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
+It may also provide infrastructure and reusable CI/CD.
 But the product or feature team still needs to understand the model and its
 users.
 
-Hoogvliets describes the MLOps team as an enabling platform team. That team
-supports product teams and ML engineers
-([[person:raphaelhoogvliets|Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]). Monitoring
-belongs in that shared ownership boundary: the platform can provide the tools,
-but the model owner must interpret the business impact.
+An MLOps team can support product teams and ML
+engineers.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+It can act as an enabling platform team.
+Monitoring belongs in that shared ownership boundary: the platform can provide
+the tools, but the model owner must interpret the business impact.
 
 Stakeholder ownership turns stakeholder concerns into mitigations and metrics.
 Teams use service levels and impact assessment to decide what kind of incident
 response a model needs
-([[person:linaweichbrodt|Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 ## MLOps and Platforms
 
@@ -233,23 +198,19 @@ recreate training conditions. Alerts also need
 [[production]] practices for
 deployment, rollback, and incident response.
 
-Stiebellehner's platform sequence starts with experiment tracking and model
-registries. It then runs through batch inference and online serving.
-Orchestration, metadata, and lineage come next
-([[person:simonstiebellehner|Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+Platform work can start with experiment tracking and model registries, then
+move through batch inference and online serving. Orchestration, metadata, and
+lineage come next.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Monitoring uses those pieces after release.
 
-Vechtomova places version control, CI/CD, and registries in the same stack.
-Model registry, deployment, and monitoring belong there too
-([[person:mariavechtomova|Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
+The same MLOps stack can cover version control and CI/CD. It can also cover
+registries, deployment, and monitoring.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 Standardizing monitoring can come after teams have already solved earlier
 deployment and reproducibility problems.
 
 ## Related Pages
 
-Use these pages for adjacent MLOps, platform, and observability concepts.
+These pages connect monitoring to the surrounding MLOps system.
 
 - [[MLOps]]
 - [[MLOps Tools]]
