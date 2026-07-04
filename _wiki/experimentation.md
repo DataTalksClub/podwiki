@@ -14,94 +14,67 @@ related:
   - Machine Learning System Design
 ---
 
-Experimentation is the practice of testing a change before a team commits to a
-larger rollout. DataTalks.Club guests describe teams using it for product
-features and pricing mechanics. They also discuss recommendation models, AI
-interfaces, fraud models, and data product workflows.
+Experimentation tests a change before a team commits to a larger rollout. It
+appears in product features and pricing mechanics. It also appears in
+recommendation models, AI interfaces, fraud models, and data product workflows.
 
-The topic is broader than
-[[a-b-testing=>A/B testing]]. A randomized
-experiment is the cleanest version, but guests also discuss
-[[a-a-testing=>A/A testing]], shadow mode, and
-offline model experiments. Design sprints, proofs of concept, lightweight
-surveys, and button tests appear in the same podcast discussions. The shared
-goal is to learn before the team spends too much engineering, product, or
+The practice is broader than [[a-b-testing=>A/B testing]]. Teams also use
+[[a-a-testing=>A/A testing]], shadow mode, and offline model experiments for
+technical validation. Design sprints and proofs of concept help teams test a
+direction before the roadmap gets expensive. Lightweight surveys and button
+tests can expose demand before the team spends too much engineering, product, or
 organizational capital.
 
-[[person:jakobgraff=>Jakob Graff]] gives the
-clearest product analytics framing: experiments establish causality and support
-feature de-risking under noisy product conditions
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+Product experiments establish causality and de-risk features under noisy product
+conditions.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 A test doesn't only approve or reject a change. It teaches the team which
 behavior moved and which assumptions were wrong.
 
-## Decision Evidence
+## Experiment Shapes
 
-Guests treat experimentation as a structured way to turn an uncertain decision
-into evidence. That evidence can be statistical or behavioral. It can also be
-technical or organizational. In each case, it has to connect to a decision the
-team can act on.
+Experimentation turns an uncertain decision into evidence the team can act on.
+The evidence may be statistical, behavioral, technical, or organizational. It
+has to connect to a rollout, prioritization, or design decision.
 
-In product analytics, this usually means a control group and a treatment group.
-It also means logged exposure and one agreed metric. Jakob explains the
-randomized version through a clinical-trial analogy
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-Product teams need
-[[metrics]],
-[[event tracking]], and
-[[product analytics]] to run
-randomized experiments well.
+In [[product analytics]], this usually means a control group and a treatment
+group. The team also needs logged exposure and one agreed [[metrics=>metric]].
+The randomized version maps closely to a clinical-trial setup.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+Product teams need [[event tracking]] and metric definitions. They also need
+stable assignment before they can trust the result.
 
-In ML and AI product work, the same idea widens.
-[[person:rishabhbhargava=>Rishabh Bhargava]] describes model development as
-experimental before deployment and validation as experimental after deployment
-[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
-Teams may compare features and hyperparameters in offline model experiments.
-Then they can use shadow mode or
-[[a-b-testing=>A/B tests]] before they expose a new
-model to all traffic.
+In [[production=>production ML]] and AI product work, experimentation spans
+offline model development, validation after deployment, and live rollout checks.
+Teams may compare features and hyperparameters before deployment. Then they can
+use shadow mode or [[a-b-testing=>A/B tests]] before exposing a model to all
+traffic.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
-[[person:liesbethdingemans=>Liesbeth Dingemans]] uses an
-earlier product-design meaning
-[[cite:ai-ml-product-design-and-experimentation|AI Product Design]].
-Parallel experiments and proofs of concept help teams remove weak solution
-paths before an AI roadmap becomes expensive. Her discussion of Double Diamond
-problem framing keeps experiments connected to the problem, not only to the
-proposed model or feature.
+In product discovery, parallel experiments and proofs of concept remove weak
+solution paths before an AI roadmap becomes expensive. Double Diamond problem
+framing keeps experiments connected to the problem, not only to the proposed
+model or feature.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
 
-## Product, ML, and Discovery Questions
+## Questions Experiments Answer
 
-The guests agree that experiments reduce uncertainty, but they point the method
-at different kinds of uncertainty.
+Each setting reduces a different kind of uncertainty.
 
-[[person:jakobgraff=>Jakob Graff]] starts from product
-causality. His concern is whether the product change caused the observed metric
-movement. He spends time on traffic splitting and assignment tracking, then
-covers [[a-a-testing|A/A tests]]
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-Metric stability and [[power analysis]] matter because a broken measurement
-system creates false confidence.
+Product analytics starts from whether the product change caused the metric
+movement. Traffic splitting, assignment tracking, and [[a-a-testing=>A/A tests]]
+protect the comparison. Metric stability and [[power analysis]] matter because a
+broken measurement system creates false confidence.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-[[person:rishabhbhargava=>Rishabh Bhargava]] starts from
-the boundary between analytics and
-[[production=>production ML]]. He describes uplift, segmentation, and
-root-cause analysis after a live model test
-[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
-The experiment doesn't end when the top-line result appears. Analysts still
-need to explain which segments changed and why.
+Production ML starts from the boundary between analytics and live model
+behavior. A live model test still needs uplift, segmentation, and root-cause
+analysis after the top-line result appears. Analysts have to explain which
+segments changed and why.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
-[[person:liesbethdingemans=>Liesbeth Dingemans]] starts
-from product discovery. Scoping documents and repeated "why" questions
-challenge a proposed solution before the team builds it. Experimentation culture
-connects that work to measurable prioritization
-[[cite:ai-ml-product-design-and-experimentation|AI Product Design]]. This is
-experimentation as product learning, not only statistical testing.
+AI product discovery starts before the team commits to a solution. Scoping
+documents and repeated "why" questions challenge the proposed solution, while
+experimentation culture connects discovery work to measurable
+prioritization.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
 
-[[person:aleksandermolak=>Aleksander Molak]] starts from
-[[causal inference]]. He treats A/B tests as one route to unconfounded evidence.
-He then discusses cases where teams can't run clean experiments and need partial
-identification, sensitivity checks, or causal graphs
-[[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
+[[Causal inference]] starts from evidence quality, and A/B tests are one route to
+unconfounded evidence. Teams also need partial identification, sensitivity
+checks, or causal graphs when they can't run clean experiments.[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]
 
 ## Assignment and Exposure Design
 
@@ -114,53 +87,43 @@ Teams often assign by user or session. Some systems assign by account, device,
 market, or request. The team must log exposure and analyze outcomes at that
 same unit.
 
-[[person:jakobgraff=>Jakob Graff]] discusses traffic
-splitters to show why this matters
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 If assignment and exposure are unclear, the team can't tell whether the
-treatment caused the outcome.
+treatment caused the outcome.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-Simple first tests are safer than clever first tests. Jakob recommends a
-two-group design because it exposes platform bugs, instrumentation gaps, and
-stakeholder disagreement. Multi-arm tests add cost, and A/B/C/D tests take
-longer and raise multiple-comparison risk
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+Simple first tests are safer than clever first tests. A two-group design exposes
+platform bugs, instrumentation gaps, and stakeholder disagreement. Multi-arm
+tests add cost, and A/B/C/D tests take longer and raise multiple-comparison
+risk.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 For AI products, design can happen before a live test exists. Liesbeth's
 design sprint discussion uses a one-week prototype to test whether a solution
 direction is worth more investment. She also argues for involving data
 scientists in problem definition so the team avoids building the wrong ML
-solution
-[[cite:ai-ml-product-design-and-experimentation|AI Product Design]].
+solution.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
 
 ## Decision Metrics
 
 Metrics define what the experiment means. A team can randomize perfectly and
 still learn the wrong thing if the primary metric doesn't match the decision.
 
-[[person:jakobgraff=>Jakob Graff]] uses a
-subscription-versus-points example to show this directly
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 A pricing or monetization change can look different
 depending on whether the team measures immediate revenue or retention. Points
 usage, conversion, and long-term value can tell different stories too. A useful
-experiment needs one primary decision metric and supporting diagnostic metrics.
+experiment needs one primary decision metric and supporting diagnostic
+metrics.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-Guests separate product metrics from model metrics. Rishabh's ML example uses
-offline model work before live validation, but the live decision still needs
-business context. He connects model experiment analysis to uplift, segments, and
-root causes
-[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
-This puts experimentation close to
-[[evaluation]],
-[[machine learning system design]],
-and [[production]].
+Product metrics and model metrics answer different questions because model work
+can happen before live validation[[cite:production-ml-mlops-and-data-team-building=>Production ML]].
+Live decisions still need uplift by segment and root-cause
+analysis[[cite:production-ml-mlops-and-data-team-building=>Production ML]].
+This connects experimentation to [[evaluation]] and
+[[machine learning system design]] for [[production]] systems.
 
 Guardrail metrics keep the team from optimizing one number while damaging
 another. Common guardrails include latency, crashes, complaints, and churn.
 Teams may also track revenue cannibalization, fraud exposure, cost, and manual
 review load. These guardrails turn experiments into rollout decisions rather
-than isolated metric exercises.
+than isolated metric exercises.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]][[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
 ## Product Analytics Infrastructure
 
@@ -169,22 +132,19 @@ experiments. The team needs event definitions, cohorts, funnels, and exposure
 logs. It also needs metric calculations, dashboards, and readouts that
 stakeholders can trust.
 
-[[person:jakobgraff=>Jakob Graff]] ties experimentation
-to [[product analytics]]
-throughout
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-He compares third-party and in-house experimentation platforms. The important
-capabilities are traffic splitting, stable assignment, and exposure logging.
-Teams also need monitoring and debuggable metrics.
+Experimentation depends on [[product analytics]] infrastructure. Third-party and
+in-house experimentation platforms both need traffic splitting, stable
+assignment, and exposure logging. They also need monitoring and debuggable
+metrics.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 The product analyst's work isn't only the final p-value. It also includes the
 setup that makes the test credible.
 
-Product analytics also turns experiments into reusable knowledge. Jakob frames
-tests as feature de-risking and learning
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+Product analytics also turns experiments into reusable knowledge. Feature
+de-risking and learning matter even when the tested change doesn't ship.
 A failed test can still help a product team if it reveals a bad assumption. It
-can also surface a weak segment or a metric that doesn't behave as expected.
+can also surface a weak segment or a metric that doesn't behave as
+expected.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 That learning role makes experimentation part of
 [[data-led-growth=>data-led growth]] and
@@ -200,20 +160,15 @@ estimate causal effects, while [[causal inference]]
 covers cases where randomization is impossible or unethical. It also covers
 cases where randomization is incomplete or too expensive.
 
-[[person:aleksandermolak=>Aleksander Molak]] separates association from
-causation. He then uses marketing and recommender systems to show why prediction
-alone may not answer the decision
-[[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
-The team often needs a counterfactual comparison with the same user under
-another action.
+Marketing and recommender systems show why prediction alone may not answer the
+decision. The team often needs a counterfactual comparison with the same user
+under another action.[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]
 
-He introduces conditional average treatment effect, or CATE. CATE extends
-experimentation from average treatment effects to user-level or segment-level
-treatment effects. He also connects uplift modeling, policy evaluation, and
-business metrics. Teams need that distinction when they should target only users
-who are likely to change behavior
-[[cite:causal-inference-for-machine-learning|Causal Inference for Real-World ML]].
-The action may be a campaign, recommendation, discount, or intervention.
+Conditional average treatment effect, or CATE, extends experimentation from
+average treatment effects to user-level or segment-level treatment effects.
+Uplift modeling and policy evaluation connect those effects to business metrics.
+That distinction matters when a campaign, recommendation, discount, or
+intervention should target only users likely to change behavior.[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]
 
 The practical boundary is evidence quality. Use a randomized experiment when
 the product, ethics, and traffic allow it. Use observational causal methods
@@ -226,25 +181,20 @@ Power, duration, and guardrails decide whether an experiment can settle the
 question. A test that's too short can turn noise into a product decision. A
 test without guardrails can make a metric improve while the product gets worse.
 
-[[person:jakobgraff=>Jakob Graff]] discusses noise,
-stability, seasonality, and business cycles in
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-He connects sample size and test duration to [[power analysis]]. The team needs
-the baseline rate and expected effect size before it promises a timeline. It also
-needs variance and traffic.
+Noise, stability, seasonality, and business cycles affect whether a product
+experiment can settle the question. [[Power analysis]] connects sample size and
+test duration. The team needs the baseline rate, expected effect size, variance,
+and traffic before it promises a timeline.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-[[a-a-testing=>A/A testing]] is another guardrail.
-Jakob's identical-group example validates randomization and measurement
-[[cite:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
+[[a-a-testing=>A/A testing]] is another guardrail because an identical-group
+test validates randomization and measurement.
 If an A/A test finds a large difference, the platform may be assigning traffic
-incorrectly or measuring outcomes inconsistently.
+incorrectly or measuring outcomes inconsistently.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 In ML systems, shadow mode is a related guardrail.
-[[person:rishabhbhargava=>Rishabh Bhargava]] uses shadow
-mode and A/B tests as ways to validate a model before full rollout in
-[[cite:production-ml-mlops-and-data-team-building|From Analytics to Production ML]].
-This lowers risk when model errors can affect customers, revenue, fraud
-decisions, or operational load.
+Shadow mode and A/B tests validate a model before full rollout. This lowers risk
+when model errors can affect customers, revenue, fraud decisions, or operational
+load.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
 ## Related Pages
 

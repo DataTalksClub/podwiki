@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10637
+    "links": 10623
   },
   "nodes": [
     {
@@ -36522,12 +36522,6 @@
     },
     {
       "source": "wiki:data-led-growth",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-led-growth",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -47712,30 +47706,6 @@
     },
     {
       "source": "wiki:experiment-tracking",
-      "target": "person:johannabayer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experiment-tracking",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experiment-tracking",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experiment-tracking",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experiment-tracking",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -47905,30 +47875,6 @@
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:responsible-ai-and-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation",
-      "target": "person:aleksandermolak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation",
-      "target": "person:liesbethdingemans",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation",
-      "target": "person:rishabhbhargava",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -49285,36 +49231,6 @@
     {
       "source": "wiki:generative-ai",
       "target": "book:20241017-build-large-language-model-from-scratch",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:generative-ai",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:generative-ai",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:generative-ai",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:generative-ai",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:generative-ai",
-      "target": "person:micheallanham",
       "kind": "wiki-chip",
       "weight": 1
     },

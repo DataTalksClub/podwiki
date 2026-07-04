@@ -10,8 +10,6 @@ related:
   - Technical Writing
 ---
 
-## DevRel Between Product, Docs, and Community
-
 Developer relations, or DevRel, helps developers understand and trust a
 technical product. It also helps them use the product well enough to give useful
 feedback. In DataTalks.Club episodes, DevRel sits between
@@ -22,21 +20,22 @@ connects [[open source]], product
 feedback, and [[community building]].
 
 DevRel centers on education, documentation, and a "wisdom layer" around tools.
-The role connects dogfooding, developer collaboration, and documentation
-feedback. It also routes user friction back to the team building the product
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+Guests connect DevRel to dogfooding, developer collaboration, and documentation
+feedback. They also treat it as a way to route user friction back to the team
+building the product
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
-## Developer Adoption as Technical Practice
+## Developer Adoption Model
 
-The DevRel episodes describe the same operating model. DevRel people learn the
-tool deeply and turn that knowledge into reproducible examples. They help
-developers get their first useful result, then bring confusing parts back to
-product and engineering.
+Across the DevRel episodes, guests converge on the same operating model. DevRel
+people learn the tool deeply and turn that knowledge into reproducible
+examples. They help developers get their first useful result, then bring
+confusing parts back to product and engineering.
 
 One DevRel role at Iterative spans product work and CML. It also covers
 documentation, pull requests, videos, and hiring. Daily work includes content
 creation, community management, and support
-([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 DevRel turns the community-facing role into a product signal channel. It sees
 where users get confused before roadmap discussions surface those problems.
 
@@ -47,57 +46,57 @@ product fluency to build credible examples. They also need enough writing skill
 to explain those examples and enough community judgment to notice repeated user
 friction.
 
-## Product, Community, and Education Centers
+## DevRel Centers of Gravity
 
-Views agree on the bridge role but differ on where DevRel should sit and how
-technical the work should be.
+Guests agree on the bridge role, but they place DevRel in different centers of
+gravity. Some put it close to product and engineering. Others put it closer to
+education, community, or open-source engineering.
 
 One view places DevRel close to engineering and product. It covers reporting
 lines and technical alignment, then names technical fluency, writing, and
-community building as core skills. The role loses credibility when it stops
+community building as core skills. Practitioners lose credibility when they stop
 dogfooding the product
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 Another view emphasizes solo prioritization and public exposure while balancing
 release support with evergreen content. It also confronts online abuse and
 burnout, anonymity, moderation, and peer solidarity
-([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
-This version of DevRel includes emotional and safety costs that don't show up in
-a pure [[developer experience]]
-definition.
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+In that account, DevRel has emotional and safety costs that don't show up in a
+pure [[developer experience]] definition.
 
-A third view pushes the role closer to open-source engineering. At :probabl, a
-developer-relations engineer combines DevRel with core development
-responsibilities. The work is tied to interactive scikit-learn content and videos
-([[person:vincentwarmerdam|Vincent Warmerdam]],
-[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
+At :probabl, [[person:vincentwarmerdam=>Vincent Warmerdam]] combines DevRel
+with core development responsibilities. Combining those responsibilities puts
+DevRel closer to open-source engineering, with interactive scikit-learn content
+and videos tied to the product work
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 A more demo-first version describes developer advocacy at Kestra through
-documentation, demos, and outreach. The work starts with bullet points, then
-moves into building demos and collaborating with writers
-([[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+documentation, demos, and outreach. The advocate starts with bullet points,
+then moves into building demos and collaborating with writers
+([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 ## Education, Tutorials, and Documentation
 
 DevRel people turn internal product knowledge into public learning paths, placing
 education and documentation at the center of the job. Tutorials should start from
 audience and goals, not from the feature a team wants to announce
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
-The data-science version adds applied data science teaching and reproducibility.
-It links teaching with DevRel through curriculum design and reusable video
-content
-([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+In the data-science DevRel discussion, teaching includes applied data science
+and reproducibility. The guest links teaching with DevRel through curriculum
+design and reusable video content
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 DevRel depends on the same audience-aware practice used in
 [[technical writing]] and
 [[documentation]]. It goes beyond
 publishing docs because developers still need to succeed with the tool in a real
 context.
 
-The writing side of this work covers choosing readers, peers, and future
-teammates. It also treats technical documentation as decision logs, rationales,
+On the writing side, guests discuss choosing readers, peers, and future
+teammates. They also treat technical documentation as decision logs, rationales,
 and team memory
-([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
+([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
 DevRel uses the same writing muscles but points them toward external developer
 adoption.
 
@@ -107,19 +106,19 @@ DevRel teams use demos to show the first useful path through a tool. A demo is
 weak when it only sells the feature. It helps when it reduces setup uncertainty,
 shows the tool in context, and exposes the tradeoffs a real user will hit.
 
-The clearest demo reference describes a video strategy built around a clear goal
-and a useful pace. It argues for full walkthroughs and uses an "after execution"
-notification as a concrete feature demo
-([[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+In the Kestra discussion, demo videos need a clear goal and a useful pace. The
+guest argues for full walkthroughs and uses an "after execution" notification
+as a concrete feature demo
+([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 A "Learn with Kestra" series uses adjacent tools like Docker and Postgres. It
 also brings Git into the learning path. Developer adoption often depends on the
 surrounding work, not only the main product
-([[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
+([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
-The ML infrastructure version uses a Metaflow sandbox demo and connects teaching
+In the ML infrastructure discussion, a Metaflow sandbox demo connects teaching
 reproducibility with dogfooding and simplified workflows
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 Those examples belong with
 [[Metaflow]],
 [[MLOps]], and
@@ -132,7 +131,7 @@ DevRel often runs through public communities, but it isn't the same job as
 general community management. Community work moves from founder-led activity to
 peer-to-peer participation. It also depends on sprints, autonomy, and
 many-to-many engagement
-([[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]).
+([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
 
 DevRel can use those habits, but its product responsibility is narrower. DevRel
 helps developers adopt the tool and routes technical feedback back to the
@@ -141,15 +140,15 @@ builders.
 Open-source DevRel has an extra constraint because the project community must
 keep its own credibility. Airbyte's open-source-plus-cloud model raises questions
 of competition and licensing risk
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT & Data Lake vs Warehouse]]).
+([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]).
 
-A scikit-learn episode adds governance pressure through project history and
-maintainer transition
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+The scikit-learn discussion adds governance pressure through project history
+and maintainer transition
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 DevRel work in that setting has to respect governance and maintainers while
 supporting contribution paths and long-term trust.
 
-These examples link DevRel closely to
+Together, these discussions link DevRel closely to
 [[open source and developer relations]],
 [[contributing]], and
 [[open-source-portfolio-evidence=>open-source portfolio evidence]].
@@ -162,9 +161,9 @@ repos.
 DevRel teams get more from metrics when they track developer progress, not only
 audience size. Community signals and analytics contrast audience growth with
 sustainable strategies
-([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]]).
+([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Content goals separate awareness, support, and open-source strategy
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 They can track successful first runs, activated users, and repeated usage. Docs
 issues and unanswered support questions also matter when they change the tool.
@@ -178,7 +177,7 @@ matters too.
 
 Community teams measure a different center of gravity. They track membership
 milestones, survey and feedback cadence, and member connections
-([[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]).
+([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
 Those metrics measure community health. DevRel can borrow them but still needs
 product-facing signals that tell engineering where developers get stuck.
 
@@ -186,14 +185,14 @@ product-facing signals that tell engineering where developers get stuck.
 
 DevRel and marketing both care about reaching developers through SEO and content
 strategy
-([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 Audience targeting sits in the same overlap.
 DevRel has to protect credibility. Practitioners should be able to reproduce the
 demo, look at the code, and connect what they learned to real work.
 
 The evangelism side covers AI evangelism, positioning, and messaging strategy,
 recommending one to three clear takeaways and calls to action
-([[podcast:public-speaking-for-data-scientists|Public Speaking for Data Scientists]]).
+([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
 DevRel can use that skill, but it doesn't replace the technical feedback loop.
 
 A good talk can drive awareness, while a good DevRel program also improves docs,
@@ -209,10 +208,10 @@ When a company turns every community interaction into a campaign, it weakens
 trust. When DevRel disconnects from product and engineering, it becomes only
 broadcasting.
 
-## Adjacent DevRel Topics
+## Related Pages
 
-Several adjacent pages cover the practices that DevRel borrows from and feeds
-back into.
+DevRel also depends on related practices that cover maintainers, docs, technical
+users, and community channels.
 
 - [[Open Source and Developer Relations]]
   connects DevRel to maintainers, governance, contribution paths, and
