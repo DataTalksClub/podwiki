@@ -3,6 +3,7 @@ layout: wiki
 title: "Software Engineering"
 summary: "How DataTalks.Club guests apply software engineering discipline to data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
 related:
+  - Machine Learning vs Software Engineering
   - Machine Learning System Design
   - MLOps
   - DataOps
@@ -27,6 +28,9 @@ controls, and maintainable application code.[[cite:dataops-for-data-engineering=
 Use [[Machine Learning System Design]] for the architecture layer around model
 behavior, data, serving, and reliability. For operating practices after release,
 use [[MLOps]], [[DataOps]], and [[Production]].
+Use [[Machine Learning vs Software Engineering]] for the direct comparison
+between ordinary software risk and ML-specific uncertainty, data, and monitoring
+risk.
 
 ## Engineering Habits
 
@@ -238,6 +242,7 @@ examples, and contribution guides help internal ML libraries too.[[cite:open-sou
 These pages cover the adjacent operating, testing, and platform topics.
 
 - [[Machine Learning System Design]]
+- [[Machine Learning vs Software Engineering]]
 - [[MLOps]]
 - [[DataOps]]
 - [[Production]]

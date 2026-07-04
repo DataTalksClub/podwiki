@@ -40,6 +40,9 @@ and [[DataOps]]. It also belongs with
 [[data quality and observability]],
 not with tool branding alone.
 
+For build order, use [[How to Build Data Pipelines]], and for portfolio proof,
+use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
+
 ## Orchestration Scope
 
 An orchestrator owns order and run state. It doesn't own every piece of work
@@ -368,9 +371,18 @@ for developing DAGs before deploying them to a shared environment.
 It can also test imports inside containers, support teaching, or make a
 portfolio project repeatable for a reviewer.
 
+That reviewer should see the DAG call real pipeline work. The same interviews
+separate orchestration from
+extract-load and transformation responsibility
+[[cite:data-engineering-tools-modern-data-stack@31:12=>ETL vs ELT and Modern Data Engineering]].
+
 Keep Compose small by starting with one DAG that calls real Python, SQL, dbt,
 or Spark work. Mount the DAG and supporting code into the Airflow containers.
-Persist metadata and logs so a failed run can be inspected after restart.
+Persist metadata and logs so a failed run can be inspected after restart. Set
+fixed runtime dependency versions when containers are part of the proof. Tomasz
+Hinc's Docker debugging example shows how a floating Python library can change a
+supposedly reproducible job
+[[cite:dataops-and-gitops-best-practices-for-data-teams@01:01:27=>DataOps and GitOps Best Practices for Data Teams]].
 
 Add data checks before trusting a green run. Add worker-based execution only
 when the project needs task isolation or concurrency.

@@ -4,6 +4,7 @@ title: "MLOps"
 summary: "Reference page for MLOps as the operating discipline for production machine learning systems."
 related:
   - ML Platforms
+  - MLOps Architecture
   - MLOps Roadmap
   - MLOps Tools
   - MLOps Engineer
@@ -76,7 +77,8 @@ paths from becoming one-off projects
 That lifecycle doesn't stop when a notebook produces a promising metric. A team
 still needs to reproduce the run and approve the artifact. It also needs to
 support deployment, monitoring, rollback, retraining and retirement. The
-[[Model Registry]] and
+[[MLOps Architecture]],
+[[Model Registry]], and
 [[Experiment Tracking]] pages cover the training-to-production handoff in more
 detail. [[Machine Learning System Design]] covers broader design choices around
 reliability, latency, and ownership.

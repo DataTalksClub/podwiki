@@ -16,18 +16,19 @@ related_wiki:
   - Governance
 ---
 
-MLOps architecture is the production map for data, training, deployment, and
-model improvement. It should show how a model moves from raw inputs to
-predictions. It should also show how teams reproduce and approve the model,
-monitor what happens after release, and route production evidence back into the
-next decision.
+MLOps architecture maps how teams move from data and training to deployment,
+monitoring, and model improvement. It should show how a model moves from raw
+inputs to predictions. It should also show how teams reproduce and approve the
+model. After release, it should show how teams monitor production evidence and
+route that evidence back into the next decision.
 
-Use the architecture as a production operating system for machine learning work,
-not as a vendor diagram. MLOps rests on people, process, and technology.
-Experiment tracking and registries connect to batch inference, online serving,
-and orchestration
+Use the architecture as a working MLOps framework, not as a vendor diagram.
+That framework should name the operating flow and owners. It should also name
+release gates, monitoring signals, and build-versus-buy boundaries. MLOps rests
+on people, process, and technology. Experiment tracking and registries connect
+to batch inference, online serving, and orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
 In practice, useful teams start with version control and CI/CD. Registries, a
 model registry, and monitoring follow before the work becomes a large platform
@@ -44,11 +45,19 @@ for stack selection.
 
 ## Architecture Flow
 
-A practical MLOps architecture has one forward path and one return path.
+A practical MLOps architecture has one forward path and one return path. Draw
+that operating flow first. It forces the team to connect the data-to-training
+path with registry and release. It also connects serving, monitoring, and
+feedback before the team chooses tools.
 
 The forward path starts with data inputs. Source systems feed ingestion and
 transformation jobs, which create features or training datasets. A training
 pipeline uses that data, records metrics, and stores a model artifact.
+
+Simon describes this as a data-science workflow that starts with pulling data.
+Teams then explore and train. They evaluate, track experiments, and persist a
+model for downstream use
+([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
 A registry or registry-like convention promotes the artifact into a deployable
 model. CI/CD then packages the code, dependencies, and serving configuration.
@@ -90,9 +99,10 @@ architecture, the team may add
 conventions. Validation checks and lineage often follow.
 
 The important question isn't whether the diagram includes a feature store. The
-team needs to explain how training data and inference data
-stay consistent enough for the use case, especially when batch and online paths
-coexist.
+team needs to explain how training data and inference data stay consistent
+enough for the use case, especially when batch and online paths coexist. Use
+[[MLOps Tools]] to compare feature-store and orchestration options only after
+that path is clear.
 
 Make the upstream dependency explicit by tying model problems back to ETL and
 data pipelines. Drift and quality belong in the same monitoring view
@@ -138,10 +148,12 @@ A useful registry record includes:
 - rollback note
 
 The registry doesn't have to be a large platform product on day one. Early teams
-can choose artifact stores or MLflow-style alternatives. Reproducibility,
-versioning, and traceability come ahead of more elaborate tooling
+can choose artifact stores or MLflow-style alternatives. Maria describes
+Artifactory, S3, and similar stores as workable registry patterns when the team
+preserves traceability and reproducibility. Reproducibility, versioning, and
+traceability come ahead of more elaborate tooling
 ([[person:mariavechtomova=>Maria Vechtomova]],
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
+[[cite:pragmatic-and-standardized-mlops@20:49=>Pragmatic MLOps]]).
 
 For a small team, object storage plus a structured promotion convention may be
 enough if everyone follows the same rule. For a larger or regulated team, access
@@ -172,7 +184,8 @@ Standardization work includes cookie-cutter repositories and service principals.
 It also includes Databricks workflows and moving logic out of notebooks into
 packages and CI/CD
 ([[person:mariavechtomova=>Maria Vechtomova]],
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
+[[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]]
+[[cite:pragmatic-and-standardized-mlops@33:24=>Pragmatic MLOps]]).
 
 Startups can begin with Python, CI/CD orchestration, and Dagster as a minimal
 stack. Teams can use managed services to move faster, while still accounting for
@@ -181,6 +194,14 @@ migration and lock-in tradeoffs
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 That matters for [[MLOps]]: the simplest repeatable release path usually beats a
 broad platform that the team can't yet operate.
+
+For an MLOps architect, this section maps the release path. It should show
+predeployment checks and package or container locations. It should also show
+how the model version reaches serving and how the team rolls back. Maria's
+minimum stack starts with version control and CI/CD. It also
+includes Docker or package registries, model registry, deployment, and
+monitoring
+([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
 ## Orchestration and Serving
 
@@ -238,8 +259,6 @@ A drift alert may mean the data pipeline broke. It may also mean the business
 changed or the model needs retraining. The feedback loop should route evidence
 to someone who can choose the right response.
 
-
-
 On the human-centered side, live test sets and small A/B tests support
 monitoring, alongside root-cause debugging and feedback channels
 ([[person:linaweichbrodt=>Lina Weichbrodt]],
@@ -270,7 +289,8 @@ At the architecture level, governance usually means:
 Regulatory constraints tie security and compliance to metadata, lineage, and
 GDPR implications
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team@42:48=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]).
 Data governance is also a maturity concern
 ([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
@@ -318,6 +338,10 @@ and a scheduled training job. Add an experiment tracker, object storage, and a
 registry convention. One deployment path and prediction logs come next. Add a
 basic monitoring view after that.
 
+This sequence matches the practical
+architecture in [[MLOps Roadmap]]: prove the lifecycle, then add shared platform
+work when repetition or risk justifies it.
+
 That's often enough for a startup or a prototype moving into production. It can
 also be enough for a team with one important model.
 
@@ -326,6 +350,9 @@ organization benefits from shared templates and self-service compute. Standard
 tracking and registry integration become shared assets. Deployment paths,
 logging schemas, and monitoring hooks do too. Documentation and support become
 part of the platform.
+
+[[ML Platforms]] covers the internal-product side of that
+decision.
 
 Simon and Raphaël are consistent on this tradeoff. Simon warns against heavy
 platform investment before model value exists. He favors building minimal
@@ -352,19 +379,27 @@ main risk is whether teams will use the architecture.
 Start from the failure mode instead of the framework name.
 
 1. If experiments can't be recovered, add tracking, artifact storage, data
-   references, and dependency discipline.
-2. If models can't be handed off, add a registry convention and one deployment
-   path.
-3. If training or batch inference is hard to coordinate, add orchestration.
+   references, and dependency discipline
+   [[cite:building-production-ml-platform-and-mlops-team@29:41=>Production ML Platforms]].
+2. If models can't be handed off, add a [[model registry]] convention and one
+   deployment path
+   [[cite:building-production-ml-platform-and-mlops-team@30:32=>Production ML Platforms]].
+3. If training or batch inference is hard to coordinate, add orchestration
+   [[cite:building-production-ml-platform-and-mlops-team@31:51=>Production ML Platforms]].
 4. If serving is fragile, standardize packaging, validation, logging, and
-   rollback.
-5. If production behavior is invisible, add monitoring and connect it to data
-   observability.
-6. If features are duplicated or inconsistent, evaluate a feature platform.
+   rollback
+   [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
+5. If production behavior is invisible, add [[Model Monitoring]] and connect it
+   to data observability
+   [[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]].
+6. If features are duplicated or inconsistent, evaluate a feature platform
+   [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
 7. If every project repeats the same setup, create templates and CI/CD
-   workflows.
+   workflows
+   [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
 8. If the organization is regulated or high-risk, add governance metadata,
-   approvals, lineage, and audit trails early.
+   approvals, lineage, and audit trails early
+   [[cite:building-production-ml-platform-and-mlops-team@40:57=>Production ML Platforms]].
 
 [[person:geojolly=>Geo Jolly]] adds the product lens in
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
@@ -374,10 +409,21 @@ Choose tools and conventions that make teams faster, safer, and more
 measurable.
 
 Build toward a platform only after repeated work or operational risk justifies
-it. Use the smallest framework the team can apply consistently while still
-shipping and maintaining reliable models.
+it. Simon's build-versus-buy discussion puts the burden on integration and
+workflow fit, even when the team buys an end-to-end platform
+([[cite:building-production-ml-platform-and-mlops-team@17:14=>Build vs Buy ML Platforms]]).
+Use the smallest framework the team can apply consistently while still shipping
+and maintaining reliable models.
 
 ## Architecture Checklist
+
+This checklist combines Simon's lifecycle and governance flow with Maria's
+minimum standardized stack. It also uses Raphaël's reproducibility and adoption
+work and Danny's monitoring-to-data-pipeline boundary
+([[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]]
+[[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
+[[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]]
+[[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]).
 
 Before adding another platform component, check whether the current architecture
 covers these points:
@@ -399,6 +445,6 @@ covers these points:
 - Repeated work stays local only when that flexibility is useful.
 
 Good MLOps architecture isn't the largest diagram. It's the smallest production
-map that lets a team reproduce a model and deploy it safely. It also lets the
-team observe what changes after release, then improve or retire the model when
-the evidence demands it.
+map that lets a team reproduce a model, deploy it safely, and observe what
+changes after release. It also gives the team a practical framework for
+improving, rolling back, or retiring the model when the evidence demands it.

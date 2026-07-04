@@ -5,6 +5,7 @@ title: "MLOps Roadmap"
 summary: "A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
 related:
   - MLOps
+  - MLOps Architecture
   - MLOps Engineer
   - ML Platforms
   - Machine Learning Infrastructure
@@ -22,7 +23,7 @@ An MLOps roadmap turns model training into a repeatable production lifecycle.
 The lifecycle starts with tracked experiments and artifact handoff. It then
 moves into deployment, monitoring, retraining decisions, and eventually shared
 platform support. DataTalks.Club discussions anchor that path in
-[[MLOps]] and
+[[MLOps]], [[MLOps Architecture]], and
 [[ML Platforms]]. For infrastructure
 and data boundaries, use
 [[Machine Learning Infrastructure]]
@@ -45,6 +46,7 @@ layer is artifact handoff and deployment.
 [[Model Registry]],
 [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
+[[MLOps Architecture]] shows how those pieces connect in the operating flow.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging

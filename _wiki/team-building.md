@@ -77,6 +77,22 @@ If tools exist but departments don't use them, a business-facing analyst or
 data researcher becomes part of the operating model.
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]
 
+Analytics engineering becomes the missing interface when analysts spend too much
+time cleaning data. The same gap appears when data engineers own infrastructure
+but not modeled business definitions.
+
+Victoria Perez Mola places the role between data analysts and data engineers.
+The role owns modeled data and the BI-ready quality bar
+[[cite:analytics-engineer-skills-tools@14:34=>Analytics engineer boundary]]
+[[cite:analytics-engineer-skills-tools@20:52=>Analytics engineer expectations]].
+
+Juan Manuel Perafan adds that some organizations should split infrastructure
+management from data modeling. Stakeholder mediation and table design require a
+different profile from platform work
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@26:53=>Splitting data roles]].
+That makes analytics engineering a team-building choice, not only a learning
+roadmap.
+
 This links team building to [[hiring]] and
 [[data engineering platforms]].
 Teams should hire for the constraint that slows useful work today and the
@@ -295,6 +311,13 @@ Trust also depends on accuracy and reliability. One team rebuilt trust after dat
 errors by adding playbooks, dbt tests, and regular checks
 [[cite:building-and-scaling-data-team@35:38=>Building and Leading Data Teams]]
 [[cite:building-and-scaling-data-team@40:09=>Building and Leading Data Teams]].
+
+That trust work overlaps with [[Analytics Engineering]]. dbt tests, source
+checks, documentation, and review gates make dashboards and modeled data safer
+to reuse. Juan's testing examples show the same move from manual dashboard
+checks to automated dbt and CI checks
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@39:54=>Manual dashboard tests]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]].
 
 The same adoption loop appears in translator work. Useful data products come
 from observing how people work and proving value with small prototypes. They

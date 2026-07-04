@@ -4,6 +4,7 @@ title: "MLOps Tools"
 summary: "MLOps tools for tracking experiments, managing models, deploying safely, monitoring production behavior, and choosing stacks by team constraints."
 related:
   - MLOps
+  - MLOps Architecture
   - MLOps Roadmap
   - ML Platforms
   - Experiment Tracking
@@ -26,7 +27,8 @@ often already have Kubernetes plus existing version control, CI/CD,
 orchestration, and deployment infrastructure.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 For a broader sequence of what to learn and when, use the
-[[MLOps Roadmap]]. Use this page
+[[MLOps Roadmap]]. Use [[MLOps Architecture]] for the operating flow that ties
+the tool categories together. Use this page
 for the tool categories behind practical MLOps stacks.
 
 ## Tool Coverage

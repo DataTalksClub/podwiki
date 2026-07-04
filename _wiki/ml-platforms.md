@@ -4,6 +4,7 @@ title: "ML Platforms"
 summary: "Reference page for shared ML platform systems, internal product strategy, and team enablement."
 related:
   - MLOps
+  - MLOps Architecture
   - Platform Engineering
   - Machine Learning Infrastructure
   - Developer Experience
@@ -19,8 +20,8 @@ notebook service. It's also more than a catalog of MLOps tools. The platform
 gives teams a reusable path for training and tracking. It then extends that path
 to registering, deploying, monitoring, and governing models across teams.
 
-That puts ML platforms between
-[[MLOps]] and
+That connects ML platforms to
+[[MLOps]], [[MLOps Architecture]], and
 [[Machine Learning Infrastructure]].
 
 MLOps gives the operating discipline for production machine learning.

@@ -49,6 +49,21 @@ leadership exposure. The alternative may be a move into management.[[cite:hiring
 
 Candidates need practical evidence, but they start from different material. [[person:ksenialegostay=>Ksenia Legostay]] moved gradually from project management into analytics and then machine learning. She began with a skills gap assessment and kept planning, stakeholder communication, and KPI work as transferable strengths. Analysis work then became portfolio evidence before she moved deeper into machine learning.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 
+For project managers, the first credible data-science step is often data
+analysis inside the current job. Ksenia recommends using existing project data
+to improve decisions before chasing a data scientist title. The tool progression
+can start with spreadsheets and BI-style tools such as Tableau or Trifacta. It
+can then move into Python, Pandas, and Kaggle notebooks.
+
+Cleaner collaborative code belongs in the same path with Git, tests, and Docker
+[[cite:project-manager-to-data-scientist@32:43=>PM to analyst bridge]]
+[[cite:project-manager-to-data-scientist@34:48=>Tool progression]]
+[[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
+
+That route connects [[Career Transitions in Data]] with
+[[Machine Learning Portfolio Projects]] because the candidate has to show both
+business framing and technical learning.
+
 [[person:andradaolteanu=>Andrada Olteanu]] took a more public-project route. She used Kaggle notebooks and GitHub to turn analytics experience into data science evidence. She also kept data validation, domain knowledge, and exploratory analysis as analyst strengths rather than background to discard.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Career Transition from Analytics to Data Science]]
 
 [[person:marijnmarkus=>Marijn Markus]] adds the non-CS route. Sociology and

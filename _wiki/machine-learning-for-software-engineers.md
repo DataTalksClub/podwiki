@@ -16,6 +16,7 @@ summary: "A roadmap for software engineers moving into ML: transferable skills, 
 related_wiki:
   - Software Engineer to Machine Learning
   - Software Engineering
+  - Machine Learning vs Software Engineering
   - Machine Learning
   - Data Science
   - Machine Learning Engineer Role
@@ -51,6 +52,8 @@ for the transition path. For role expectations, use
 [[Machine Learning Engineer Role]],
 [[Machine Learning Portfolio Projects]],
 and [[Machine Learning System Design]].
+Use [[Machine Learning vs Software Engineering]] when you need the direct
+comparison between deterministic software work and data-shaped ML work.
 
 ## Software Engineering Skills That Transfer
 
@@ -510,6 +513,7 @@ Use these pages for the role, project, system design, and operations paths that
 sit next to this guide.
 
 - [[Software Engineer to Machine Learning]]
+- [[Machine Learning vs Software Engineering]]
 - [[Machine Learning Engineer Role]]
 - [[Machine Learning Portfolio Projects]]
 - [[Machine Learning System Design]]

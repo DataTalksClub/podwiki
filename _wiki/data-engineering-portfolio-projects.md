@@ -6,6 +6,7 @@ related:
   - Portfolio Projects
   - Data Engineering
   - Data Engineer Roadmap
+  - Data Engineering Certification
   - End-to-End Data Pipeline Project
   - Data Pipelines
   - Data Quality and Observability
@@ -25,18 +26,22 @@ tests, and a believable operating story.
 where he asks for Python and SQL depth. He also asks for clean code, tests, and
 public project evidence.
 
-This is the data-engineering branch of
-[[Portfolio Projects]], connected to
-[[Data Engineering]],
-[[Data Pipelines]] and
-[[DataOps]]. It also belongs near
-[[Data Quality and Observability]].
+For data engineering portfolio work, start with
+[[Portfolio Projects]] and
+[[Data Engineering]]. Add [[Data Pipelines]] for project structure, then use
+[[DataOps]] and
+[[Data Quality and Observability]] for operations.
+
 For a build blueprint, use
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
 For learning order, use
 [[data-engineer-roadmap=>Data Engineering Roadmap]]
 or the broader
 [[Data Engineer Roadmap]].
+If a certificate is part of the learning path, use
+[[Data Engineering Certification]].
+Turn the coursework into project evidence instead of listing the credential
+alone.
 
 The boundary with analytics engineering is consumer-facing modeling. If the
 project is mainly metric definitions, BI tables, and dashboard semantics, use
@@ -201,6 +206,14 @@ backend ETL, testing, and interview practice matter too. The portfolio should
 therefore make transformations and validation queries easy to review. Reusable
 functions, tests, and database concepts should be easy to review too.
 
+Certificate study can feed this section when it leaves reviewable artifacts.
+Andreas Kretz warns learners not to stop at an AWS certification. He asks for a
+GitHub track record and documentation of what they learned
+[[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]].
+For a portfolio, that means the certificate project should include code,
+configuration, and run instructions. It should also explain the cloud or
+orchestration choices.
+
 ## Project Types
 
 A batch analytical pipeline is the default starting point. It ingests data from
@@ -285,13 +298,17 @@ as decision context.
 The run path should work outside a notebook. König's transition advice in
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 and Bergh's DataOps discussions support CLI commands, tests, and CI. They also
-support environment setup and deployment or scheduling notes
+support environment setup and deployment notes
 ([[cite:dataops-for-data-engineering=>DataOps for Data Engineering]],
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]).
+
 If the project uses Airflow, the DAG should have real dependencies, checks, and
 rerun behavior. The local setup can follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 once the pipeline is already meaningful.
+Use the same threshold for certificate projects. Add Docker and Airflow when
+they make the project reproducible and operable, not when they're
+only course keywords.
 
 The interview story should explain one or two tradeoffs. Katz describes the
 application funnel and behavioral interviews in
@@ -378,6 +395,7 @@ Use these pages to follow the role, architecture, and portfolio routes:
 - [[Data Engineering]]
 - [[Data Engineer Roadmap]]
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]
+- [[Data Engineering Certification]]
 - [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]
 - [[How to Build Data Pipelines]]
 - [[Data Pipelines]]

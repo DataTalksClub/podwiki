@@ -115,6 +115,20 @@ That role split matters less as a rigid org chart than as a set of handoffs.
 Data engineers and platform engineers make data available. Analytics engineers
 turn messy source data into modeled analytical data.
 
+Analytics engineers also decide where business logic should live.
+
+Victoria Perez Mola describes the role as modeling data and maintaining
+quality. The role also exposes usable data to Looker. Analysts and data
+scientists then avoid repeated cleanup
+[[cite:analytics-engineer-skills-tools@4:05=>Analytics engineer responsibilities]]
+[[cite:analytics-engineer-skills-tools@31:09=>Cleaner data for analysts]].
+
+Juan Manuel Perafan frames the same interface as turning business reality into
+tables. Stakeholder mediation helps teams reconcile conflicting source systems
+and definitions
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]].
+
 For ML products, teams may hand over model code or expose a prediction API. They
 may also add an ML engineer bridge or keep data scientists and software
 engineers in one small product team. The integration approach matters because
@@ -304,6 +318,16 @@ forecasting need analytical modeling. Adoption work needs the product habits
 Moorman describes in her last-mile data discussion.
 [[cite:building-and-scaling-data-team=>Liang]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Moorman]]
+
+Analytics engineers can sit in a platform team or inside domain analytics teams.
+Victoria describes a platform setup that later decentralizes analytics engineers
+into operations or commercial analytics. Business-facing teams then get modeled
+data closer to their stakeholders
+[[cite:analytics-engineer-skills-tools@33:02=>Analytics engineer collaboration]]
+[[cite:analytics-engineer-skills-tools@48:36=>Platform and embedded analytics engineers]].
+That placement decision connects [[Analytics Engineering Roadmap]] to
+[[Team Building]] because the same skillset can support shared standards,
+domain ownership, or both.
 
 [[Data Team Lead Role]] covers
 hiring order, trust repair, adoption, and head-of-data scope. It also covers

@@ -4,6 +4,7 @@ title: "Machine Learning Engineer Role"
 summary: "Explains the machine learning engineer role through podcast discussions of production models, serving, maintainability, and MLOps boundaries."
 related:
   - Machine Learning
+  - Machine Learning vs Software Engineering
   - Machine Learning System Design
   - Machine Learning Infrastructure
   - MLOps
@@ -177,6 +178,8 @@ model-specific uncertainty. Both roles need clean code, tests, APIs, and
 operational habits. Machine learning engineers also reason about data quality
 and feature freshness. They also handle model evaluation, drift,
 offline-versus-online metrics, and data-driven failure modes.
+Use [[Machine Learning vs Software Engineering]] for the direct comparison of
+those two work modes.
 
 ML systems differ from traditional software because uncertainty and data
 workflows affect requirements and testing. Monitoring also affects deployment
@@ -218,6 +221,7 @@ product or operational system.[[cite:data-team-roles=>Data Team Roles]]
 These pages cover the role, adjacent responsibilities, and learning paths.
 
 - [[Machine Learning]]
+- [[Machine Learning vs Software Engineering]]
 - [[Machine Learning Engineer Roadmap]]
 - [[Machine Learning System Design]]
 - [[Machine Learning Infrastructure]]

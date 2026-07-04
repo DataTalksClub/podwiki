@@ -6,6 +6,8 @@ related:
   - Career Transitions in Data
   - Career Growth
   - Hiring
+  - Data Engineering Certification
+  - Data Engineering Portfolio Projects
   - Academia
   - Machine Learning System Design
 ---
@@ -117,6 +119,14 @@ problem solved and the outcome
 [[cite:hiring-for-data-engineering-jobs-in-europe@31:16=>Hiring Data Engineers in Europe]].
 That makes [[CV Screening]] part of job search, not only an employer-side
 topic.
+
+For data engineering candidates, a certificate belongs in the CV only when it
+links to evidence. Jeff Katz says a cloud certificate can help with recruiter
+filters. The hiring manager still checks whether the candidate knows the topics
+and can code
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+Use [[Data Engineering Certification]] to turn the credential line into a
+project, GitHub, and interview story.
 
 ## Portfolio Proof
 
@@ -252,6 +262,16 @@ SQL matter, along with Docker, Airflow, and warehouse work. Code quality and
 database concepts matter too. Certificates shouldn't replace skill proof and
 fundamentals
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+
+Certificate study helps the search when it produces evidence. Show one runnable
+pipeline with visible SQL and Python, then add setup notes, quality checks, and
+a clear consumer.
+Gloria Quiceno's bootcamp-to-job path combined course work and custom projects.
+It also included volunteer coding practice and tracked applications, rather
+than relying on the bootcamp label alone.
+[[cite:get-data-analytics-and-data-engineering-job@16:14=>Get a Data Analytics and Data Engineering Job]]
+[[cite:get-data-analytics-and-data-engineering-job@18:21=>Get a Data Analytics and Data Engineering Job]]
+[[cite:get-data-analytics-and-data-engineering-job@52:31=>Get a Data Analytics and Data Engineering Job]].
 
 Transferable experience from software and BI roles matters
 [[cite:hiring-for-data-engineering-jobs-in-europe@20:57=>Hiring Data Engineers in Europe]].

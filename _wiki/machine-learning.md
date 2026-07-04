@@ -4,6 +4,7 @@ title: "Machine Learning"
 summary: "DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
 related:
   - Data Science
+  - Machine Learning vs Software Engineering
   - Machine Learning System Design
   - Machine Learning Engineer Role
   - Machine Learning Tools
@@ -26,9 +27,12 @@ production system.
 Use this page for classic applied ML. Use
 [[Data Science]] for the broader work
 around analysis, experiments, and stakeholder work. Use
+[[Machine Learning vs Software Engineering]]
+when the question is how ML differs from ordinary software work. Use
 [[Machine Learning System Design]]
-for architecture, serving modes, fallbacks, and design documents. When models
-already need release or ownership paths, use
+for architecture, serving modes, fallbacks, and design documents.
+
+When models already need release or ownership paths, use
 [[MLOps]] and
 [[Model Monitoring]]. Use
 [[MLOps vs DataOps]] when
@@ -287,3 +291,6 @@ treatment of fairness, privacy, and security, use
 [[Responsible AI and Governance]]
 and [[Interpretability]]. Human
 oversight belongs in that same governance discussion.
+
+For the direct boundary between applied modeling and ordinary software work,
+use [[Machine Learning vs Software Engineering]].

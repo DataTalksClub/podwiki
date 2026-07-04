@@ -197,6 +197,21 @@ A portfolio contribution to a pipeline library can therefore be a setup guide,
 source example, or destination example. A workshop fix can help another Python
 user build the pipeline successfully.
 
+Volunteer data projects can create the same kind of evidence when the work is
+traceable. Sara El-Ateif describes volunteer AI projects where teams sourced
+data creatively and built medical-imaging or trash-detection prototypes. Teams
+also prepared dashboards and used mentor feedback to structure deliverables
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@16:05=>Volunteer data sourcing]]
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@31:11=>Hackathon deliverables]].
+
+For data-engineering portfolios, the strongest version is a linked task or
+writeup. It should show messy data preparation or a pipeline. A usable dataset
+or dashboard foundation can prove the same skill when modelers and analysts use
+it
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
+Certificates and team membership are weaker than artifacts that show what the
+candidate made easier for the rest of the project.
+
 A small code fix becomes credible when reviewers can look at it quickly. That
 means learning the repo's ecosystem basics. These include Git and GitHub workflow,
 packaging, and CI. They also include `pytest`, `flake8`, `black`, and pre-commit
@@ -247,6 +262,15 @@ model tests, and reproducible bugs in data tooling also fit. Connect these to
 [[Data Engineering Portfolio Projects]]
 and [[Data Engineering Tools]]
 instead of leaving them as generic GitHub activity.
+
+Volunteer and nonprofit projects add a collaboration signal. Agita Jaunzeme
+translated DevOps habits into NGO and open-source work by adding ticketing and
+documentation. She also used planning and review flows
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Volunteer process design]].
+Because volunteer projects rely on motivation rather than employment authority,
+process contributions are strongest when they make task pickup easier. Review
+and handoff should become easier too
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@23:55=>Volunteer motivation]].
 
 Airbyte, DLT, and Zingg show three useful data-engineering contribution shapes:
 

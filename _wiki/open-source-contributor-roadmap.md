@@ -53,6 +53,36 @@ The same contribution surface connects to [[Contributing]],
 [[Open Source]], and
 [[Open Source Portfolio Evidence]].
 
+## Volunteer Project Roles
+
+Volunteer AI and data projects are a contributor path when they produce a
+reviewable artifact. Sara El-Ateif describes Omdena and Fruit Punch AI projects.
+She also describes hackathons where teams had to source data, segment medical
+images, and build a dashboard. They also had to understand mentor needs and
+package an MVP for judges
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@11:08=>Volunteer AI projects]]
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@31:11=>Hackathon deliverables]].
+
+For data engineers, the useful role is explicit. Prepare messy data and create
+the data foundation for modelers. Then structure the data so dashboards and
+products can use it
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
+That path should link the pipeline or dataset-preparation writeup back to
+[[Data Engineering Portfolio Projects]]. Dashboard foundations and issues can
+serve the same role when they show data-engineering work.
+
+It should also link to [[Open Source Portfolio Evidence]]. The contribution is
+stronger when it shows how the team used the prepared data, not just that the
+contributor joined the project.
+
+Agita Jaunzeme adds a second volunteer route from DevOps and DataOps. NGO and
+open-source work can use ticketing and documentation. Planning, agile routines,
+and review flows make volunteer work sustainable
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Volunteer process design]]
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@23:55=>Volunteer motivation]].
+That makes process work a real contribution surface when the project needs
+coordination, onboarding, or reliable handoff.
+
 ## First Reviewable Contributions
 
 Start with a project you can run locally. Open one issue that explains the

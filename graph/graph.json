@@ -1,18 +1,18 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 205,
-    "articles": 72,
-    "guides": 21,
-    "comparisons": 23,
+    "wikis": 204,
+    "articles": 74,
+    "guides": 22,
+    "comparisons": 24,
     "roadmaps": 11,
     "transitions": 13,
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
     "topics": 99,
-    "nodes": 1115,
-    "links": 10913
+    "nodes": 1116,
+    "links": 10991
   },
   "nodes": [
     {
@@ -143,6 +143,17 @@
       "count": 1,
       "search": "Data Engineer/Data Scientist Decide whether a team needs data engineering, data science, or both by comparing ownership, hiring signals, and shared project handoffs.",
       "keyword": "data engineer vs data scientist"
+    },
+    {
+      "id": "wiki:data-engineering-certification",
+      "type": "article",
+      "collection": "guide",
+      "label": "Data Engineering Certification",
+      "title": "Data Engineering Certification",
+      "url": "/wiki/data-engineering-certification/",
+      "count": 1,
+      "search": "Data Engineering Certification Use podcast advice to decide when data engineering certificates help, how to judge programs, and what project proof employers still need.",
+      "keyword": "data engineering certification"
     },
     {
       "id": "wiki:data-engineering-and-data-science",
@@ -479,6 +490,17 @@
       "count": 1,
       "search": "Machine Learning for Startups A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
+    },
+    {
+      "id": "wiki:machine-learning-vs-software-engineering",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Machine Learning vs Software Engineering",
+      "title": "Machine Learning vs Software Engineering",
+      "url": "/wiki/machine-learning-vs-software-engineering/",
+      "count": 1,
+      "search": "Machine Learning vs Software Engineering Compare machine learning and software engineering by uncertainty, data dependence, evaluation, production ownership, and career fit.",
+      "keyword": "machine learning vs software engineering"
     },
     {
       "id": "wiki:marketing-to-analytics-engineering",
@@ -9600,16 +9622,6 @@
       "url": "/wiki/data-engineering/",
       "count": 1,
       "search": "Data Engineering Data engineering across pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI ready data systems."
-    },
-    {
-      "id": "wiki:data-engineering-certification",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Engineering Certification",
-      "title": "Data Engineering Certification",
-      "url": "/wiki/data-engineering-certification/",
-      "count": 1,
-      "search": "Data Engineering Certification Use podcast advice to decide when data engineering certificates help, how to judge programs, and what project proof employers still need."
     },
     {
       "id": "wiki:data-engineering-manager-role",
@@ -26974,6 +26986,12 @@
     },
     {
       "source": "wiki:apache-airflow",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
       "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "wiki-chip",
       "weight": 1
@@ -27106,6 +27124,12 @@
     },
     {
       "source": "wiki:apache-airflow",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
       "target": "wiki:etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -27127,6 +27151,12 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:how-to-build-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:apache-airflow",
@@ -29249,6 +29279,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33958,6 +33994,18 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -35021,194 +35069,236 @@
     {
       "source": "wiki:data-engineering-certification",
       "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "person:andreaskretz",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "person:gloriaquiceno",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "person:jeffkatz",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "person:nataliekwong",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:open-source-ml-contributions",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:apache-airflow",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:apache-airflow",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:cv-screening",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineer-roadmap",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineer-roadmap",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineer-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineer-role",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-lake",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-pipelines",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-warehouse",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:dbt",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "wiki:etl-vs-elt",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:job-descriptions",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:job-search",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:job-search",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:modern-data-stack",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:orchestration",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineering-manager-role",
@@ -35957,6 +36047,18 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:data-engineering-certification",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43246,6 +43348,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -43318,6 +43426,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -43339,6 +43453,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-teams",
@@ -47272,6 +47392,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -47308,6 +47434,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -47317,6 +47449,12 @@
       "target": "wiki:apache-airflow",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -47407,6 +47545,12 @@
       "target": "wiki:how-to-build-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:how-to-build-data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -51748,9 +51892,27 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:analytics-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:apache-airflow",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:apache-airflow",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
@@ -51832,9 +51994,33 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:mlops-vs-dataops",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:orchestration",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
@@ -52534,6 +52720,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -52654,9 +52846,27 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:job-search",
@@ -56212,6 +56422,18 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -56647,6 +56869,18 @@
       "target": "wiki:machine-learning-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning-engineer-role",
@@ -57619,6 +57853,18 @@
       "target": "wiki:machine-learning-tools",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
@@ -59397,6 +59643,144 @@
       "weight": 3
     },
     {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:data-team-roles",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:software-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "target": "person:dashelruizperez",
       "kind": "wiki-chip",
@@ -60718,6 +61102,18 @@
     },
     {
       "source": "wiki:ml-platforms",
+      "target": "wiki:mlops-architecture",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:mlops-architecture",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platforms",
       "target": "wiki:model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -61315,6 +61711,12 @@
       "target": "wiki:mlops-architecture",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-architecture",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops",
@@ -62374,6 +62776,18 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-architecture",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-architecture",
+      "kind": "article-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-engineer",
       "kind": "article-chip",
       "weight": 1
@@ -62563,6 +62977,12 @@
       "target": "wiki:mlops-architecture",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-architecture",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-tools",
@@ -65578,6 +65998,12 @@
     },
     {
       "source": "wiki:open-source-contributor-roadmap",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-contributor-roadmap",
       "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
       "kind": "article-chip",
       "weight": 1
@@ -66058,6 +66484,12 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -66065,6 +66497,12 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:investing-in-open-source-developer-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66466,6 +66904,12 @@
     },
     {
       "source": "wiki:orchestration",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
       "target": "wiki:etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -66473,6 +66917,12 @@
     {
       "source": "wiki:orchestration",
       "target": "wiki:etl-vs-elt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "wiki:how-to-build-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73546,6 +73996,18 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -75034,6 +75496,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -75112,6 +75580,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -75119,6 +75593,12 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },

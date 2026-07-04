@@ -8,9 +8,12 @@ search_intent: "Help readers who search for how to build data pipelines understa
 related_wiki:
   - Data Engineering Platforms
   - Data Pipelines
+  - Apache Airflow
+  - Orchestration
   - DataOps
   - Data Quality and Observability
   - Data Activation
+  - End-to-End Data Pipeline Project
 ---
 
 To build data pipelines that people trust, start with the decision, model, or
@@ -115,18 +118,35 @@ orchestrator that schedules work and runs ingestion jobs. Tools such as Airbyte
 focus on the extract-load part, and dbt handles warehouse transformations
 [[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and the Modern Data Stack]].
 
+That split keeps the DAG thin. Extraction, modeling, tests, and publication
+should stay in real code or tool-owned commands that reviewers can read outside
+the scheduler. Use [[Apache Airflow]] for DAG design and [[Orchestration]] for
+the broader tool choice.
+
 Production ML pipelines follow the same rule: start with Lambda functions and
 queues. Adopt Airflow or Kubernetes when the simple chain becomes hard to
 operate
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>Production ML Pipelines with AWS and Kafka]].
 
+Modern data engineering discussions make the same simple-first point from a
+cost perspective. DuckDB plus GitHub Actions can run small workflows cheaply.
+GitHub Actions can be enough when the team doesn't need always-on orchestration
+[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+
 For a local learning or portfolio setup, follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-to run the scheduler, UI, and metadata database. It also keeps the DAG folder
-and logs in one reviewable environment.
+to run the scheduler, UI, and metadata database. Use that setup when the local
+environment helps someone look at the dependency graph, task logs, rerun path,
+and data checks. It's not a substitute for source, staging, modeled, and serving
+layers. It's the place where those steps become visible together.
 
 Make dependencies visible and repeatable, and don't rename
 the whole pipeline after the scheduler.
+For a portfolio implementation, link the run command and failing check from the
+README. Also link the logs and rerun path so the project connects to
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] instead
+of becoming an Airflow demo.
 
 At team scale, teams need orchestration conventions because a platform is more
 than an Airflow cluster. Those conventions include naming standards and sequence

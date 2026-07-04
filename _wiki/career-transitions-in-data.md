@@ -66,6 +66,18 @@ That path connects the transition to [[data-scientist-role=>data scientist work]
 and [[job search]] because the candidate must show both analytical
 judgment and production awareness.
 
+The project-manager bridge is distinct because the starting asset isn't code.
+Ksenia Legostay describes planning, stakeholder communication, business KPIs,
+and problem framing as the transferable base. The technical path then moves from
+analysis inside an existing work project into Tableau or Trifacta-style tools.
+It then adds Python, Pandas, Kaggle notebooks, and production collaboration
+habits
+[[cite:project-manager-to-data-scientist@22:32=>PM skills for data science]]
+[[cite:project-manager-to-data-scientist@32:43=>PM to analyst bridge]]
+[[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
+That makes it a specialization inside [[Career Transitions in Data]], rather
+than a separate transition page.
+
 Engineering-heavy moves translate existing skills into new work. Software-to-ML
 adds machine learning to an engineering skillset instead of discarding software
 engineering. Coding is already a core ML skill, but candidates still need
@@ -261,6 +273,21 @@ more signals
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Portfolio]].
 For candidates, these examples connect [[Data Engineering Portfolio Projects]],
 [[Machine Learning Portfolio Projects]], and [[Open Source Portfolio Evidence]].
+
+Volunteer projects become transition evidence when the role is explicit.
+Sara El-Ateif separates practical experience and referrals from a generic
+certificate. She also names international collaboration, presentation practice,
+and impact
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@51:21=>Volunteer outcomes]].
+
+For aspiring data engineers, the strongest volunteer lane isn't "help with AI"
+in the abstract. It means preparing messy data and building pipelines. The work
+also makes data usable for dashboards and data scientists
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
+
+That route belongs with [[Open Source Portfolio Evidence]] and
+[[Data Engineering Portfolio Projects]]. The artifact must show the pipeline or
+data-preparation work, not only participation.
 
 Candidates need an interview story as part of the proof, not a separate soft
 layer. A CV should work like a landing page and make personal contribution easy

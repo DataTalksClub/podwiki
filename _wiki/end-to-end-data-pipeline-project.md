@@ -7,9 +7,11 @@ related:
   - Data Engineering Portfolio Projects
   - Data Pipelines
   - Data Engineering
+  - Apache Airflow
   - Data Quality and Observability
   - DataOps
   - Orchestration
+  - How to Build Data Pipelines
   - Modern Data Stack
 ---
 
@@ -108,15 +110,23 @@ Kubernetes
 
 ## Orchestration and Reruns
 
-Add a run path outside a notebook. A CLI command, Docker Compose job, or simple
-DAG can work. Use
-[[apache-airflow=>Airflow]] when the dependencies justify it.
+Add a run path outside a notebook. That path can be a CLI command, Docker
+Compose job, or simple DAG. Use
+[[apache-airflow=>Airflow]] when the dependencies justify it. A one-command
+schedule can be enough when there's only one script and no shared run state.
+Airflow becomes useful when the project needs visible dependencies, task logs,
+recovery, or backfills that a reviewer can look at
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 
 Follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 when a local reviewer should look at the Airflow UI. The same walkthrough should
-show task logs, rerun behavior, and reproducibility through Docker. A Twitter
-pipeline capstone combines Docker with a project that can be explained and run
+show task logs, rerun behavior, and reproducibility through Docker. Keep the DAG
+thin by calling code that lives outside the scheduler. For example, call a
+Python module or dbt command instead of hiding transformation code in the DAG
+[[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path and Skills]].
+A Twitter pipeline capstone combines Docker with a project that can be explained
+and run
 [[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
 
 One concrete course project moves data from MySQL into MinIO. Spark handles
@@ -127,13 +137,20 @@ example turns domain research work into portfolio-grade data engineering evidenc
 ([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to ML and Data Engineering]],
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to ML and Data Engineering]]).
 
-A reviewer should be able to run the pipeline, look at a failed task, and rerun
-the job without private instructions. Scheduling sits around the modern stack
+A reviewer should be able to run the pipeline and look at a failed task. They
+should also be able to rerun the job without private instructions. Scheduling
+sits around the modern stack
 ([[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]).
 Use [[Orchestration]] for the
 dependency model and
 [[How to Build Data Pipelines]]
 for an implementation path.
+
+For Airflow specifically, reviewer evidence should show the DAG graph and a
+task log. It should also show a failed data check and the rerun command or UI
+step. A green DAG alone isn't enough because Airflow can report success even
+when no records were inserted
+[[cite:dataops-and-gitops-best-practices-for-data-teams@01:02:50=>DataOps and GitOps Best Practices for Data Teams]].
 
 ## Quality and Recovery
 

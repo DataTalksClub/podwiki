@@ -7,6 +7,7 @@ summary: "A practical data engineer roadmap from SQL and Python fundamentals to 
 related_wiki:
  - Data Engineer Role
  - Data Engineering Portfolio Projects
+ - Data Engineering Certification
  - Data Engineering
  - Data Pipelines
  - Data Quality and Observability
@@ -401,6 +402,15 @@ Her path included a bootcamp, a four-month search, volunteer practice, and
 tracked applications. Her Twitter data pipeline capstone used Docker containers
 and a Slack bot. Custom projects stand out more than repeated course projects.
 
+Use a certificate only when it reinforces this roadmap. [[person:jeffkatz=>Jeff Katz]]
+says cloud certificates may help with recruiter filters. Hiring managers still
+check whether the candidate knows the topics and can code
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+The certificate route should therefore lead to
+[[Data Engineering Certification]]
+and then back to a reviewable
+[[data-engineering-portfolio-projects=>portfolio project]].
+
 The same rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
 which the DataTalks.Club podcast frames as free project-based learning
@@ -471,12 +481,16 @@ Christopher Bergh's
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 is the reliability model for this stage.
 
-Weeks 11-12 cover portfolio and interviews. Clean the README, document setup,
-and add a project walkthrough. Practice SQL, Python, and take-home scenarios.
+During weeks 11-12, clean the README and document setup. Add a project
+walkthrough, then practice SQL, Python, and take-home scenarios.
 Link your project story to the
 [[Data Engineer Role]] you're
 targeting, then use [[Job Search]] to
 turn the project into applications.
+
+If you add a certificate to the same period, treat it as a label for the study
+path. Link it to the project evidence, following
+[[Data Engineering Certification]].
 
 After that, choose one specialization based on your target role:
 

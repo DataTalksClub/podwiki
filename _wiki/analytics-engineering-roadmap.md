@@ -43,6 +43,15 @@ version control, tests, and a dependency graph.[[cite:analytics-engineer-skills-
 Defining the role only as "between analyst and engineer" misses the point: the
 work is data modeling plus engineering practice.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]
 
+Juan Manuel Perafan gives the roadmap a sharper target. Analytics engineers
+turn business reality into data that resembles how the business works. They then
+apply software-engineering rigor so the work is robust and repeatable
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@12:47=>Engineering rigor]].
+That means a learner should practice naming what each row represents, deciding
+which entities deserve tables, and documenting why a model matches the business
+definition.
+
 The same work lives inside ELT: data is loaded into the warehouse first, then
 transformed with SQL and dbt-style workflows.[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
 
@@ -75,6 +84,13 @@ For a learner, that disagreement leads to a practical sequence. Become
 SQL-first and Python-aware. Add Python when ingestion or orchestration requires
 it. Add it for API work or test automation too.
 
+Python becomes more useful after the learner understands the modeled layer. Juan
+frames Python as glue around analytics engineering. Teams may still use it for
+orchestration and ingestion. They may also use it for tool wrappers, APIs, and
+containerized checks even when most models remain SQL
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@35:14=>Python around data tools]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@36:00=>Python as glue]].
+
 ## SQL and Modeling Roadmap
 
 Start with analytical SQL and table meaning. You should be comfortable with
@@ -88,6 +104,14 @@ wider pipeline.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-swi
 Then learn data modeling for reuse. The first modeling milestone is explaining
 entities, facts, and dimensions. It also means explaining grain and duplicate
 rows.
+
+Modern data modeling isn't only normalization or warehouse theory. It's the
+work of turning multiple source systems into tables that business users can
+recognize, with clear column meanings and table names. That work often requires
+mediation with stakeholders because teams need to decide how conflicting source
+systems should be reconciled
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@21:08=>Data modeling definitions]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]].
 
 Core preparation covers SQL, fact tables, and dimension tables. It also covers
 Kimball-style modeling and Snowflake familiarity.[[cite:analytics-engineer-skills-tools@42:05=>role episode]]
@@ -114,6 +138,14 @@ SQL.[[cite:analytics-engineer-skills-tools@38:53=>role episode]]
 
 That extends into generic tests and singular SQL tests. Unit tests and CI checks
 stop broken code from merging.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]
+
+The testing milestone should include more than `not null` and `unique` checks.
+Generic tests cover accepted values and relationships, while singular SQL tests
+catch business-specific table failures. Unit tests check transformation logic
+with provided input data. CI turns those checks into a review gate before merge
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@41:36=>Generic tests]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@42:46=>Singular tests]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]].
 
 Use this stage to move from "can write SQL" to "can maintain shared analytical
 code." [[dbt]] belongs on the roadmap without

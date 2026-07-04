@@ -103,16 +103,22 @@ the sequence of work, schedule, retry behavior, and owners. Parameters belong
 there too. The DAG should call into real processing code. It shouldn't become a
 pile of business logic that's hard to test outside Airflow.
 
-Good Airflow code keeps most logic in normal Python instead of relying on
-Airflow for everything. For a data engineering project, the DAG can call Python
-modules, SQL, and dbt commands. It can also call Spark jobs or containerized
-steps while tests stay close to the code that owns the logic.
-[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path]]
+Keep most Airflow logic in normal Python modules. In a project, the DAG can call
+Python or SQL code. It can also trigger dbt, Spark, or containerized steps.
+Tests stay close to the code that owns the logic.
+
+Jeff Katz makes that boundary explicit: useful Airflow practice still leans on
+Python and SQL. Docker plus cloud skills support the run environment instead of
+replacing the pipeline code.
+[[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
 
 Thin DAGs also make review easier. A reviewer can read the DAG to understand
 the order of steps, then look at the actual transformation code in the
 repository. That links Airflow to
-[[data engineering portfolio projects]].
+[[data engineering portfolio projects]]
+and [[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].
+For a build sequence, use [[How to Build Data Pipelines]].
+
 DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 is the canonical local setup guide. Use this wiki page for the concept and
@@ -168,20 +174,35 @@ show why one task waits for another. It should also show what happens when an
 input is late. A bad input should fail visibly, and the project should show how
 a rerun or backfill works after the issue is fixed.
 
-Course-style projects can combine Airflow with MinIO, Spark, and MySQL. The
-same local setup can include Docker Compose, the Airflow web server,
-environment variables, and a warehouse path.
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@44:08=>Radio Astronomy to Data Engineering]]
+Course-style projects can combine Airflow with MinIO, Spark, and MySQL. Daniel
+Egbo describes an end-to-end path from a source through local object storage,
+Spark, and a warehouse-style destination, after earlier orchestration work with
+Kestra. That's the right level of evidence for Airflow in a portfolio: a DAG
+coordinates handoffs between real steps instead of standing alone.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to Data Engineering]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to Data Engineering]]
 
-Follow DataTalks.Club's
+Use DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-for a local development or portfolio environment. Keep Compose small by
-using one DAG and a few real pipeline steps. Mount the code, keep logs visible,
-and add one data check that can fail.
+for local development or portfolio work. Use the tutorial to set up Airflow.
+Keep the portfolio about the pipeline.
 
-Move to a shared Airflow deployment only when more people need it. Secrets,
-worker isolation, log
-retention, and alerts can also justify the platform work. Backfills can too.
+Keep Compose small with a minimal DAG and real pipeline steps. Mount the DAG and
+supporting code. Keep logs visible, set fixed dependency versions, and add one
+data check that can fail.
+
+Docker evidence matters when it proves another person can run the same code.
+Gloria Quiceno's team found that local scripts needed containers before they
+could run reliably on AWS.
+[[cite:get-data-analytics-and-data-engineering-job@21:25=>Get a Data Analytics and Data Engineering Job]]
+
+Move to a shared Airflow deployment only when more people need it. Secrets and
+worker isolation can justify the platform work. Log retention, alerts, and
+backfills can too. For a one-script project, [[orchestration]] may recommend a
+simpler scheduler first. GitHub Actions or a cloud scheduler can fit before
+Airflow is worth the operating surface.
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 
 ## Related Pages
 
@@ -195,3 +216,5 @@ These pages cover the concepts and comparisons used above.
 - [[dbt]]
 - [[ETL vs ELT]]
 - [[Batch vs Streaming]]
+- [[How to Build Data Pipelines]]
+- [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]
