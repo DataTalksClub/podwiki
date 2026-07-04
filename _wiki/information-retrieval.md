@@ -19,10 +19,12 @@ shapes
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 recommendations, and agent tools.
 
+## Retrieval Scope
+
 Search is fundamentally a relevance decision problem: isolating relevant data
 from a larger pile. Information retrieval is the common field behind both search
 and personalized search, and it borders recommender systems and RAG
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 
 For product search systems and user-facing relevance, start with
 [[Search]]. For generation, citations, and
@@ -35,7 +37,7 @@ For the broader map across retrieval systems and LLM applications, use
 
 Information retrieval is two connected jobs: retrieve candidate items quickly,
 then rank the smaller candidate set with richer signals
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 Candidate generation narrows the haystack to plausible results. Ranking then
 estimates whether each query-result pair actually matches the task, which can
 mean relevance or click probability. It can also mean purchase probability or
@@ -43,7 +45,7 @@ another product signal.
 
 The practical search-quality question is matching the right content with the
 right query. Teams need to measure search quality against business goals
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 The same retrieval discipline applies to RAG inside LLM systems: the model can
 only answer from the context the retriever finds.
 
@@ -51,7 +53,7 @@ only answer from the context the retriever finds.
 
 Retrieval stays distinct from storage. It spans query rewriting, synonyms,
 ingestion, and indexes
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 
 A search system prepares the query and corpus before matching. Latency is why
 retrieval rarely means scanning every document. Teams need an index or another
@@ -67,7 +69,7 @@ Common retrieval-adjacent uses include crawler URL deduplication and
 routing-table containment checks.
 Adtech systems can use them for device-ID or returning-user checks before
 ranking or personalization begins
-[[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 
 In lexical search, an inverted index links terms to the documents or positions
 where they appear. This makes exact-word lookup efficient. Manual dictionaries
@@ -79,9 +81,22 @@ retriever misses the relevant item, a reranker can't recover it. In a
 podcast-transcript RAG system, teams chunk transcripts and embed the chunks.
 The retriever returns a small number of relevant pieces before the LLM answers
 from that context
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Chunk size, overlap, embedding model, and the number of retrieved chunks all
 affect what the generator can see.
+
+## Retrieval Boundaries Across Systems
+
+Podcast guests draw the retrieval boundary differently depending on the system
+they're building. Search discussions center on lexical indexes, ranking,
+business metrics, and product constraints
+([[cite:building-production-search-systems=>Building Search Systems]]).
+Vector-search and RAG discussions focus on embeddings, chunking, context
+packaging, and answer evaluation
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+Agent discussions treat retrieval as one tool among table queries, APIs,
+MongoDB, and other live systems
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 ## Lexical and Semantic Retrieval
 
@@ -90,11 +105,11 @@ for exact words and filters, and it also helps with domain terminology or
 predictable matching behavior. Solr and Lucene sat at the center of practical
 search work before the current vector wave. Full-text search and NLP-based
 query-content matching belonged to that same practical search work
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Semantic retrieval compares representations rather than only matching terms,
 connecting bag-of-words search to dense vectors
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 Embedding models can turn documents and queries into vectors, and can also
 encode images and user behavior. The system can then match items by proximity in
 a shared representation space.
@@ -109,7 +124,7 @@ recompute vectors or rebuild indexes.
 
 When teams add vectors, they don't always need to dump an existing Solr,
 Elasticsearch, or OpenSearch stack
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 A standalone vector database can sit beside the current search system when
 reindexing the production stack is risky.
 
@@ -118,7 +133,7 @@ reindexing the production stack is risky.
 Hybrid retrieval combines semantic similarity with filters, recency, and
 popularity. It can also include personalization and business rules. A news
 search result for "car" may need to be both relevant and fresh
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 
 A hard one-month filter can remove a highly relevant article older than 30 days.
 Pure vector similarity may ignore freshness. The retrieval system has to balance
@@ -144,7 +159,7 @@ retrieval discipline.
 
 RAG is retrieval plus context packaging plus generation, built from two core
 pieces, retrieval and generation
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 In the retrieval step, the system converts the query to a vector query and sends
 it to a vector search engine. It retrieves a chosen number of chunks and places
@@ -153,7 +168,7 @@ explainable.
 
 The same design has a deployment rationale: indexing a changing knowledge base
 and retrieving relevant sections
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 Teams inject those sections into a prompt and may use a summarizer for sensitive
 tasks.
 
@@ -164,14 +179,14 @@ imitate a style or task format. That retrieval boundary is central to
 
 Large context windows don't remove retrieval work, because latency, cost, and
 noisy context still matter
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 Older retrieval backends were built for people clicking "blue links", not for
 feeding LLM context. This is why RAG systems often need chunk metadata, source
 provenance, and context wrappers, not only top-k vector search.
 
 Retrieval is one tool inside agentic systems: RAG or search-style information
 retrieval is a tool to use when needed
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 Agents may also query tables, MongoDB, APIs, or other systems. RAG can
 reduce a large search space to useful context, while agents fit work that needs
 multiple data sources, dynamic planning, and tool use.
@@ -181,7 +196,7 @@ multiple data sources, dynamic planning, and tool use.
 Retrieval evaluation has to cover both the result set and the downstream task.
 Search relevance ties to business outcomes: teams should connect retrieval and
 ranking changes to business metrics
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 They should run careful A/B tests when possible and use offline evaluation or
 operational metrics that engineers can iterate on. Information retrieval
 shares that evaluation discipline with
@@ -189,7 +204,7 @@ shares that evaluation discipline with
 and [[MLOps]].
 
 Classic search evaluation differs from RAG evaluation
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Ecommerce search has a clearer query-response setup with precision and recall
 concepts. RAG evaluation needs multiple layers: teams evaluate the embedding
 model and the chunking strategy, and also the retrieval strategy and the
@@ -200,7 +215,7 @@ database returns similar chunks. A generated answer can also look fluent while
 the retrieved evidence is incomplete.
 
 For agents, there's a system-benchmark version
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 Public benchmarks such as SQuAD evaluate model capability, not the team's
 retrieval or agent system. Teams need their own representative datasets,
 integration tests, mocked tools, and assertions over outcomes. That applies
@@ -218,7 +233,7 @@ metrics, database rows, or API responses.
 
 Search and recommendations are neighboring brackets around the same information
 retrieval field, as are personalized search and RAG
-([[podcast:building-production-search-systems|Building Search Systems]]).
+([[cite:building-production-search-systems=>Building Search Systems]]).
 
 Information retrieval is narrower than the whole
 [[Search]] product and broader than any one

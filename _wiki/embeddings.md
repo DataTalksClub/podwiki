@@ -32,13 +32,13 @@ business logic.
 A search system can map queries and searchable items into the same
 representation space. Retrieval can then find items with similar meaning even
 when the words differ
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 Vector compute stays separate from vector storage: the embedding model is
 distinct from the database that stores and searches vectors.
 
 A transcript-chatbot example uses the same representation idea in a retrieval
 system. Chunks with overlap are embedded and stored as vectors for retrieval
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 The embedding model creates the representation and the
 [[vector-databases=>vector database]] retrieves nearby vectors. The application
 still needs prompts, references, and evaluation.
@@ -49,11 +49,11 @@ finds nearby points in multi-dimensional space. Exact search can become too
 costly as dimensionality grows. Approximate nearest-neighbor structures and
 libraries such as Faiss trade a small amount of optimality for faster candidate
 retrieval
-([[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]]).
+([[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]]).
 
 In production LLM systems, vector databases work through embeddings, indexing,
 and semantic search
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 Retrieval fits changing knowledge, while fine-tuning changes model behavior or
 style, a boundary expanded in
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
@@ -62,7 +62,7 @@ style, a boundary expanded in
 
 Keyword matching can be too brittle when users express the same intent with
 different language
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 Vector search matches queries and documents through shared representations,
 which keeps embeddings inside the larger
 [[information retrieval]]
@@ -70,7 +70,7 @@ system. Vector search changes candidate generation, but it doesn't replace
 ranking.
 
 Candidate generation is separate from ML ranking
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 A vector match finds plausible candidates, but the product still decides which
 result belongs first and trades semantic similarity against freshness and
 popularity.
@@ -79,11 +79,11 @@ Metadata, behavior, query-time weights, and business rules also matter. Filters
 and recency make embeddings one signal inside
 [[production search evaluation]],
 not a substitute for product ranking
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 
 The architecture choice is explicit: plug-and-play vector search versus vector
 support inside existing search systems
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 That decision is the same boundary covered in
 [[Vector Database vs Search Engine]].
 Teams can choose the embedding model, vector storage, and search application
@@ -91,22 +91,22 @@ behavior as separate design decisions.
 
 ## RAG Systems
 
-In [[retrieval-augmented-generation|RAG]], embeddings retrieve context for a
+In [[retrieval-augmented-generation=>RAG]], embeddings retrieve context for a
 language model. A transcript-chatbot example chunks transcripts with overlap,
 embeds them, retrieves relevant passages, and generates an answer with
 references
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Evaluation then extends beyond nearest-neighbor retrieval into generated answer
 quality, citation quality, and human review.
 
 The update path favors retrieval over retraining for systems that need current
 or proprietary knowledge
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 A team can re-ingest, re-embed, and re-index documents instead of fine-tuning the
 model every time facts change.
 
 Chunking and embeddings are a practical first step for useful LLM systems
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 Fixed-size chunks, sliding windows, and context quality determine what the
 embedding model can retrieve. Embeddings help only when the chunks preserve the
 information an answer needs. The broader
@@ -119,11 +119,11 @@ Embeddings aren't limited to text, and multimodal embeddings include image-text
 matching and CLIP-style representations. The vector can also extend beyond raw
 text or image content by adding metadata, behavior, and popularity, as in
 e-commerce personalization
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 
 Vector databases serve ML systems beyond RAG, including session-based
 recommendations and re-ranking
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 That separation means embeddings retrieve candidates. Ranking, constraints, and
 product goals decide what users actually see.
 
@@ -137,7 +137,7 @@ items are useful enough to show.
 
 From an [[NLP]] tooling perspective, embeddings connect to weak supervision and
 labeling workflows. They also connect to Hugging Face and data management
-([[podcast:building-open-source-nlp-tool|Build Open-Source NLP Tools]]).
+([[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]]).
 They help teams look at text, cluster similar examples, build heuristics, and
 manage messy labels before a production search system exists.
 
@@ -152,17 +152,17 @@ helps if it preserves the distinction the downstream task needs.
 Vector search has multiple moving parts, so embeddings create operational work.
 Teams have to manage model versioning, query-vector compatibility, and batch
 reindexing. They also have to manage latency and rollback
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 A vector database can store and retrieve vectors, but it can't repair stale
 embeddings or a mismatch between document and query encoders.
 
 Evaluation has to match the product. Search quality ties to business KPIs and
 A/B tests
-([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 RAG adds answer quality, citation quality, and human review
-([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 LLM workflows add gold evaluation sets, failure analysis, logs, and traces
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 Nearest-neighbor matches are candidate evidence, not proof. A retrieved passage
 can be wrong, stale, incomplete, or irrelevant to the user's real task. The
