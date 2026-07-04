@@ -23,7 +23,7 @@ DataTalks.Club guests describe leaders as people who increase other people's
 ability to do useful data and AI work. The episodes place that work in formal
 management, senior IC mentoring, and platform ownership. First data hires show
 leadership when they build business trust. Executives show it when they turn
-data work into strategy. [[person:terezaiofciu|Tereza Iofciu]]
+data work into strategy. [[person:terezaiofciu=>Tereza Iofciu]]
 makes that boundary explicit in
 [[cite:data-leadership-coaching=>Data Leadership Coaching]]:
 people don't need a leadership title to develop leadership skills.
@@ -63,7 +63,7 @@ manager job descriptions as if they were hiring a senior technical expert. They
 then attach some team duties. If the team needs coordination and translation,
 a deep expert alone leaves gaps. The same is true for prioritization and people
 development
-([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]]).
+([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
 [[person:katiebauer=>Katie Bauer]] adds a career-path
 boundary in
@@ -178,7 +178,7 @@ engineering. They may also work with marketing or another business group.
 In that structure, the data leader protects craft quality and documentation.
 The data leader also protects peer review and career growth. That matters even
 when a dotted-line stakeholder drives daily priorities
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]). In this example, leadership is about
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]). In this example, leadership is about
 [[data teams]], not one title.
 
 [[person:tammyliang=>Tammy Liang]] shows the first-team
@@ -226,7 +226,7 @@ business context.
 ## Mentorship and Feedback
 
 Several guests describe leadership as creating growth conditions for other
-people. [[person:marianosemelman|Mariano Semelman]]
+people. [[person:marianosemelman=>Mariano Semelman]]
 describes his data science manager work as meetings, mentoring, and coaching.
 Planning and people development sit in the same job in
 [[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
@@ -238,7 +238,7 @@ feedback.
 Semelman's feedback practice is careful because manager feedback changes a
 person's career. He recommends asking permission, showing care, and offering
 options rather than treating managerial opinion as objective truth
-([[cite:data-science-leadership-hiring-mlops|Data Science Leadership]]). His one-on-one discussion also frames mistakes as part
+([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]). His one-on-one discussion also frames mistakes as part
 of a safe learning environment.
 
 Jain's data engineering leadership episode adds the engineering version of this
@@ -257,7 +257,7 @@ Managers can learn from several episodes:
 - Iofciu for influence, feedback, and visibility
 - Jain for standards, career paths, and self-motivated teams
 
-([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]],
+([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]],
 [[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]],
 [[cite:data-leadership-coaching=>Data Leadership Coaching]],
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
@@ -274,7 +274,7 @@ Data and AI leadership often fails when technical work can't be translated
 into stakeholder priorities. Iofciu describes influence without authority as
 speaking different work languages and listening actively. The leader then
 connects a project to what matters for the other person
-([[cite:data-leadership-coaching|Data Leadership Coaching]]). She also argues that data foundation work, models, and
+([[cite:data-leadership-coaching=>Data Leadership Coaching]]). She also argues that data foundation work, models, and
 open-source work need visibility because impact isn't always customer-facing.
 
 Semelman gives the product version of the same practice. He warns that data
@@ -282,7 +282,7 @@ scientists can spend time on technically interesting work that doesn't change
 user outcomes. He connects product managers and data scientists. He starts
 from user impact and spends modeling time where it changes the product or
 production test
-([[cite:data-science-leadership-hiring-mlops|Data Science Leadership]]).
+([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
 
 This links leadership to
 [[MLOps]] because product impact depends on
@@ -303,7 +303,7 @@ Cohen's team-design episode adds the metrics version of stakeholder work.
 Product changes can move more than one metric, so data science leaders need
 cross-functional interpretation. Product, engineering, and design partners help
 interpret those tradeoffs. Research and leadership partners do too
-([[cite:data-science-team-structure-and-org-design|Designing High-Impact Data Science Teams]]).
+([[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]]).
 
 Geo's ML product episode adds the platform version. Internal tools still have
 users, so leaders need requirements and rollout plans. They also need
@@ -362,7 +362,7 @@ Managers should ask:
 - what baseline is credible
 - what success metric would justify more work
 
-([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]]).
+([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
 Healthy portfolio signals are practical. The team can explain the baseline and
 why a new approach should beat it. Data quality risks are visible before heavy
@@ -383,7 +383,7 @@ That impact isn't always customer-facing.
 data engineering reliability. Tests and observability are project signals.
 Ownership, SLAs, and runbooks also tell stakeholders whether important data can
 be trusted after launch
-([[cite:dataops-for-data-engineering|DataOps for Data Engineering]],
+([[cite:dataops-for-data-engineering=>DataOps for Data Engineering]],
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
 
 ## ML Limits
@@ -396,7 +396,7 @@ against a baseline.
 
 Then decide whether a moving average or rule already solves the problem. A
 dashboard or workflow change may be enough too
-([[cite:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]]).
+([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
 [[person:valeriybabushkin=>Valerii Babushkin]] makes the
 same boundary a system-design habit in
@@ -452,7 +452,7 @@ hope that "deployment" means "finished."
 
 ## Platform Ownership and Scaling
 
-Leadership becomes more architectural when a team scales. [[person:mehdiouazza|Mehdi OUAZZA]]
+Leadership becomes more architectural when a team scales. [[person:mehdiouazza=>Mehdi OUAZZA]]
 describes scale-up pressure in
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 Companies grow users, products, and teams faster than early data systems can
@@ -481,7 +481,7 @@ Liang's episode shows the adoption side of scaling. Her team moved from
 dashboards to forecasting and data products. Business teams still needed trust,
 workshops, and Q&A. They also needed data culture work before the outputs
 changed daily decisions
-([[cite:building-and-scaling-data-team|Building and Leading Data Teams]]).
+([[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]).
 
 Her leadership motto is to give project ownership to the people doing the work.
 A growing team can't depend on one leader micromanaging every project.
@@ -489,7 +489,7 @@ A growing team can't depend on one leader micromanaging every project.
 ## Reliability and DataOps
 
 Reliability is a leadership responsibility because managers set how work is
-reviewed, deployed, monitored, and recovered. [[person:christopherbergh|Christopher Bergh]]
+reviewed, deployed, monitored, and recovered. [[person:christopherbergh=>Christopher Bergh]]
 turns this into an operating model in
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
@@ -522,7 +522,7 @@ leadership because the team needs explicit standards and owners.
 ## Strategy and Operating Discipline
 
 At executive scope, leadership turns data work into a strategy that other
-leaders can act on. [[person:marcodesa|Marco De Sa]]
+leaders can act on. [[person:marcodesa=>Marco De Sa]]
 describes the Chief Data Officer role in
 [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 as data strategy and governance. The role also covers AI direction and team
