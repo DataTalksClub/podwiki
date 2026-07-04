@@ -36,7 +36,7 @@ Scikit-learn is also a mature
 conventions govern plugins, fairness tools, teaching material, and contribution
 paths. It has governance and careful inclusion standards, NumFOCUS ties,
 sponsorship, and a boundary between core features and compatible packages
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 ## Classic ML Workflows and Baselines
 
@@ -44,12 +44,12 @@ Scikit-learn appears most often as the practical Python interface for classical
 ML. It sits beside Python, NumPy, Pandas, and Matplotlib. Software engineers
 should learn those tools while solving a concrete task. A beginner Kaggle problem
 works better than studying the library as an isolated topic
-([[podcast:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning]]).
+([[cite:from-software-engineer-to-machine-learning=>From Software Engineering to Machine Learning]]).
 
 A good learning path starts with data loading and visualization, then moves into
 training a model and looking at the result. Learners get theory when the project
 forces the question
-([[podcast:from-software-engineer-to-machine-learning|From Software Engineering to Machine Learning]]).
+([[cite:from-software-engineer-to-machine-learning=>From Software Engineering to Machine Learning]]).
 For a [[Machine Learning Portfolio Projects]]
 writeup, this means "used scikit-learn" isn't enough.
 
@@ -69,10 +69,10 @@ The scikit-lego examples show why the scikit-learn API became an experimentation
 surface. Scikit-lego is a set of scikit-learn-compatible pipeline components. One
 transformer clips an outlier at prediction time so behavior can live inside a
 normal pipeline
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 The same ecosystem groups scikit-lego with human-learn and whatlies
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]). Human
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]). Human
 rules, embedding tools, and small preprocessing ideas can be tested when they
 follow a familiar estimator or transformer interface. For
 [[Experiment Tracking]] and
@@ -81,7 +81,7 @@ the modeling path each time.
 
 The same boundary appears with Skrub, an experimental scikit-learn plugin for
 tabular data
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 Its table vectorizer applies sensible defaults across data types, and the GAP
 encoder helps group dirty categorical values such as messy job titles. Skrub
 remains outside core scikit-learn because it's experimental, but it uses the same
@@ -91,7 +91,7 @@ The boundary matters for governance reasons. Core scikit-learn can't absorb ever
 useful method without adding dependency, benchmark, and maintainer load. UMAP,
 scikit-lego, and Skrub can be valuable plugins without becoming core scikit-learn
 features
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 ## Interpretability and Fairness
 
@@ -100,7 +100,7 @@ inspection and fairness tools. Fairlearn compares model performance across
 sensitive groups and visualizes disparities. A credit-scoring example keeps the
 technical tool tied to concrete harms, false positives, false negatives, and group
 definitions
-([[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 
 Compatible tooling still leaves the fairness objective to the team. People have
 to choose which groups, harms, and tradeoffs matter.
@@ -109,7 +109,7 @@ The scikit-learn connection is explicit because inspection tools and partial
 dependence support this work. Compatibility work keeps Fairlearn
 estimators fitting scikit-learn as the library evolves. Users should open issues
 when components fail inside their pipeline
-([[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]).
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]).
 
 Use [[Interpretability]] for the
 broader DataTalks.Club treatment of SHAP and partial dependence. It also covers
@@ -131,14 +131,14 @@ operational layers.
 
 One concrete production boundary is secure persistence for scikit-learn models
 and the risk of untrusted objects being executed through pickle-style loading
-([[podcast:fairness-in-ai-ml-engineering|Fairness in AI/ML Engineering]]). The
+([[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]]). The
 risk is operational, not algorithmic. It depends on how models are saved, loaded,
 shared, and trusted.
 
 Another boundary comes from implementation details. StandardScaler shows that a
 simple preprocessing idea still has to handle sparse matrices, data frames,
 partial fitting, and microbatching
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 For production work, scikit-learn's apparent simplicity hides a lot of
 engineering. Teams benefit from the library because maintainers already moved
 that engineering into a tested implementation.
@@ -149,12 +149,12 @@ Scikit-learn also appears as a practical contribution target and as a model for
 open-source project quality. The entry path is deliberately small. A useful first
 contribution can be a confusing error report with a reproducible example and a
 suggested improvement. A contributor doesn't need to start with a new estimator
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Code contributions use ordinary packaging and checks with `pytest`, `flake8`,
 and `black`. They also use Git, pull requests, CI, and pre-commit hooks. Useful
 project docs matter too
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 Maintainers should cover installation and problem framing. They should also
 cover guides, API reference, examples, and contribution notes. Those mechanics
@@ -165,7 +165,7 @@ put scikit-learn beside
 
 The community path is another entry point. A PyLadies code sprint had people make
 first PRs on behalf of scikit-learn. Johanna Bayer worked on documentation there
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 Scikit-lego also became a contributor learning tool in corporate training. People
 could learn the API, make a real contribution, and reduce repeated work at the
 same time.
@@ -176,18 +176,18 @@ Scikit-learn's maturity changes what "add a feature" means. It's a large
 community project that no company can simply claim, even when some maintainers
 work at the same company. Inria, NumFOCUS relationships, sponsorship, and
 individual maintainers are part of that structure
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 
 That governance shapes technical boundaries. New methods have to clear quality,
 benchmark, dependency, and maintenance concerns
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 UMAP, scikit-lego, and similar tools can be valuable plugins without becoming
 core scikit-learn features. The plugin boundary lets the ecosystem experiment
 while protecting the main project.
 
 Scikit-learn is also a sustainability question: a central open-source project
 shouldn't depend only on academic funding
-([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
 A company can provide support through training and consulting, certification,
 enterprise support, or partnerships.
 
