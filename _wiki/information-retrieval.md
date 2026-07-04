@@ -19,6 +19,12 @@ shapes
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 recommendations, and agent tools.
 
+Information retrieval covers candidate generation, indexing, ranking
+boundaries, and retrieval inside RAG or agents.
+[[Search]] covers the product-system hub, [[Search Relevance]] covers ranking
+quality and product fit, and [[Production Search Evaluation]] covers
+measurement.
+
 ## Retrieval Scope
 
 Search is fundamentally a relevance decision problem: isolating relevant data
@@ -30,8 +36,8 @@ For product search systems and user-facing relevance, start with
 [[Search]]. For generation, citations, and
 answer quality after retrieval, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-For the broader map across retrieval systems and LLM applications, use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
+For lexical-versus-semantic matching choices, use
+[[Vector Search vs Keyword Search]].
 
 Atita Arora keeps the classical learning path in view before vector databases
 and RAG tooling. She names Introduction to Information Retrieval and Relevant

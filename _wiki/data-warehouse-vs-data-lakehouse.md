@@ -14,6 +14,7 @@ related_wiki:
   - Data Engineering
   - Data Warehouse
   - Data Lake
+  - Delta Lake vs Apache Iceberg
   - Apache Iceberg
   - Delta Lake
   - Analytics Engineering
@@ -38,6 +39,10 @@ platform problem
 Modern lakehouse discussions add [[Apache Iceberg]], Parquet-backed table
 formats, and catalogs. Metadata and lineage sit in the same layer
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Use this comparison for the warehouse and lakehouse architecture boundary. Use
+[[Data Lake]] for the storage concept, and use
+[[Delta Lake vs Apache Iceberg]] when the decision has narrowed to lakehouse
+table formats.
 
 The useful comparison isn't "old warehouse versus new lakehouse" because the
 real decision is where analytical trust lives. A warehouse concentrates storage
@@ -262,6 +267,7 @@ around the comparison.
 - [[Data Warehouse]]
 - [[FinOps for Data Engineers]]
 - [[Data Lake]]
+- [[Delta Lake vs Apache Iceberg]]
 - [[Apache Iceberg]]
 - [[Delta Lake]]
 - [[Analytics Engineering]]

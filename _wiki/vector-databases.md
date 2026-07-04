@@ -18,13 +18,18 @@ They also support recommendations, multimodal retrieval, and
 [[llms=>LLM]] applications that need outside
 knowledge.
 
-A vector database isn't the full search product because it only stores vectors,
-indexes them, and returns candidate items. The surrounding system still handles
-ingestion, chunking, metadata filters, and reranking. It also handles
-citations, permissions, and evaluation. That boundary appears throughout
+A vector database is storage and nearest-neighbor retrieval infrastructure, not
+the full search product. It stores vectors, indexes them, and returns candidate
+items. The surrounding system still handles ingestion, chunking, metadata
+filters, and reranking. It also handles citations, permissions, and evaluation.
+
+For lexical-versus-semantic retrieval methods, use
+[[Vector Search vs Keyword Search]]
+and for infrastructure ownership use
+[[Vector Database vs Search Engine]]
+instead. That boundary appears throughout
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-and matters for
-[[Vector Database vs Search Engine]].
+and [[Production Search Evaluation]].
 
 [[person:atitaarora=>Atita Arora]] gives the clearest
 entry point: she introduces Qdrant and vector databases as plug-and-play vector

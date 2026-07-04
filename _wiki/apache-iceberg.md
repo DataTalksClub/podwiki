@@ -6,6 +6,8 @@ related:
   - Data Engineering Platforms
   - Data Lake
   - Delta Lake
+  - Delta Lake vs Apache Iceberg
+  - Data Warehouse vs Data Lakehouse
   - Modern Data Stack
   - DataOps
   - DuckDB
@@ -22,7 +24,9 @@ That makes Iceberg a [[data-engineering-platforms=>data engineering platform]]
 choice, not only a storage choice. Use [[Data Lake]] for the broader storage
 model and [[Data Warehouse vs Data Lakehouse]] for the architecture tradeoff.
 Use [[Delta Lake]] for the adjacent table format and [[Modern Data Stack]] for
-the warehouse-centered ELT stack Iceberg is often compared against.
+the warehouse-centered ELT stack Iceberg is often compared against. Use
+[[Delta Lake vs Apache Iceberg]] when the question is table-format selection
+rather than the Iceberg concept.
 
 ## Table Format Role
 

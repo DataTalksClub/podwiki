@@ -23,6 +23,11 @@ and the [[Data Analyst Role]].
 The career question is how people enter the role, show evidence, and grow from
 it.
 
+Career coverage belongs to entry routes, portfolio evidence, hiring signals,
+and next moves. [[Data Analyst Role]] defines the role.
+[[Product Analyst vs Data Analyst]] and [[Data Analyst vs Analytics Engineer]]
+cover adjacent titles and role boundaries.
+
 Analysts know company data, build dashboards, define KPIs, and quantify product
 problems. They also check whether shipped work changed user behavior. Analyst
 writing is aimed at management and decision makers, so a strong analyst learns
@@ -33,11 +38,8 @@ Companies use "data analyst" for BI reporting and business analysis, but also
 for product analytics or light data science. Candidates need to read the
 responsibilities, not only the title.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
-Those role boundaries explain why
-[[Data Analyst vs Analytics Engineer]]
-and
-[[Product Analyst vs Data Analyst]]
-matter for analyst careers.
+Those role boundaries explain why the comparison pages matter for analyst
+careers.
 
 ## Entry Routes
 

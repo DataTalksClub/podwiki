@@ -25,6 +25,13 @@ an audience from a community
 A founder can publish talks, but a community starts to matter when members
 answer each other and propose initiatives without waiting for the founder.
 
+Community building is organizer practice: launching and operating a technical
+community, plus moderation and sustainability. [[Community]] is the broader
+concept of member participation and shared practice. [[Developer Relations]]
+covers product-backed technical education. [[Open Source and Developer Relations]]
+covers community work tied to an open-source project, maintainers, contribution
+paths, or adoption feedback.
+
 ## Niche, Cadence, Safety, and Contribution
 
 The community episodes return to four recurring requirements. A group needs a
@@ -148,6 +155,11 @@ Community building overlaps with
 [[open-source-and-developer-relations=>open-source and developer relations]]
 when a group organizes around tools, contributions, demos, and technical
 education.
+
+Separate the pages by purpose. Community organizers optimize for belonging and
+safety while creating repeat participation and member-to-member help.
+Open-source DevRel uses some of the same channels. It also has to improve docs,
+demos, contribution paths, and product or maintainer feedback.
 
 Open-source education programs form a path to full-time developer advocacy.
 That path depends on pull-request quality and Git skills. It also connects to

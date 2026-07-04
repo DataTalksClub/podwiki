@@ -4,7 +4,9 @@ title: "Delta Lake"
 summary: "How podcast discussions place Delta Lake in lakehouse table-format choices beside Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
 related:
   - Apache Iceberg
+  - Delta Lake vs Apache Iceberg
   - Data Lake
+  - Data Warehouse vs Data Lakehouse
   - Data Engineering Platforms
   - Modern Data Stack
   - DataOps
@@ -26,10 +28,9 @@ Delta Lake and is working on similar Iceberg support. Delta Lake, Hudi, and
 Iceberg appear as related table-format
 options.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-For architecture decisions, use
-[[Data Warehouse vs Data Lakehouse]]
-beside this page. For the direct format comparison, use
-[[Delta Lake vs Apache Iceberg]].
+Architecture decisions belong in [[Data Warehouse vs Data Lakehouse]]. The
+direct format comparison is [[Delta Lake vs Apache Iceberg]]. Delta Lake
+evidence stays here, while [[Data Lake]] covers the broader storage definition.
 
 ## Lakehouse Table Layer
 

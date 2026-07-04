@@ -20,6 +20,11 @@ the other. Both are candidate retrieval tools inside a larger
 [[information retrieval]] system. That system still needs ranking, filters,
 latency work, and [[production search evaluation]]. [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
+This comparison separates retrieval methods such as exact terms, semantic
+neighbors, and hybrid matching. The infrastructure question of whether a
+standalone vector database or an existing search engine should own vectors
+belongs in [[Vector Database vs Search Engine]].
+
 Production search systems often separate candidate generation from ranking,
 then combine bag-of-words retrieval, inverted indexes, and dense
 representations. They also have to manage hybrid search and query-time weights.
@@ -51,8 +56,8 @@ permissions, freshness, or product constraints. That's why the comparison
 belongs beside
 [[Vector Database vs Search Engine]].
 
-Use this page for the matching method. Use the infrastructure comparison for
-the system that owns storage, indexing, filtering, and ranking.
+This comparison is about the matching method. [[Vector Database vs Search Engine]]
+covers the system that owns storage, indexing, filtering, and ranking.
 
 ## Keyword Strengths
 
@@ -172,9 +177,9 @@ vectors fit the use case before changing the current system.
 
 For infrastructure decisions, use
 [[Vector Database vs Search Engine]]
-with this page. Use this comparison to choose between lexical, semantic, and
-hybrid matching. Use the infrastructure comparison to decide where vectors
-should live and how they'll be indexed. The same infrastructure choice covers
+alongside this comparison. The matching comparison chooses between lexical,
+semantic, and hybrid retrieval. The infrastructure comparison decides where
+vectors live and how they'll be indexed. The same infrastructure choice covers
 filter placement, ranking ownership, and production reliability.
 
 ## Evaluation Tradeoffs
@@ -224,5 +229,6 @@ For a broader retrieval map, continue with
 [[Information Retrieval]].
 For representation and storage, use
 [[Vector Databases]] and
-[[Embeddings]]. For measurement, use
+[[Embeddings]]. For ranking quality, use
+[[Search Relevance]]. For measurement, use
 [[Production Search Evaluation]].

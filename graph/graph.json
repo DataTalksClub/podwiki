@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 10991
+    "links": 11016
   },
   "nodes": [
     {
@@ -393,17 +393,6 @@
       "keyword": "graph rag vs vector rag"
     },
     {
-      "id": "wiki:knowledge-graph-vs-vector-search",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Graph vs Vector Search",
-      "title": "Graph vs Vector Search",
-      "url": "/wiki/knowledge-graph-vs-vector-search/",
-      "count": 1,
-      "search": "Graph vs Vector Search Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design.",
-      "keyword": "knowledge graph vs vector search"
-    },
-    {
       "id": "wiki:how-to-build-data-pipelines",
       "type": "article",
       "collection": "how_to",
@@ -424,6 +413,17 @@
       "count": 1,
       "search": "How to Hire Data Engineers Guidance for managers and founders on when to hire data engineers, which profile to hire first, how to define the role, and what to test.",
       "keyword": "hire data engineers"
+    },
+    {
+      "id": "wiki:knowledge-graph-vs-vector-search",
+      "type": "article",
+      "collection": "comparison",
+      "label": "KG vs Vector Search",
+      "title": "KG vs Vector Search",
+      "url": "/wiki/knowledge-graph-vs-vector-search/",
+      "count": 1,
+      "search": "KG vs Vector Search Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design.",
+      "keyword": "knowledge graph vs vector search"
     },
     {
       "id": "wiki:lean-mlops-for-startups",
@@ -492,17 +492,6 @@
       "keyword": "machine learning for startups"
     },
     {
-      "id": "wiki:machine-learning-vs-software-engineering",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Machine Learning vs Software Engineering",
-      "title": "Machine Learning vs Software Engineering",
-      "url": "/wiki/machine-learning-vs-software-engineering/",
-      "count": 1,
-      "search": "Machine Learning vs Software Engineering Compare machine learning and software engineering by uncertainty, data dependence, evaluation, production ownership, and career fit.",
-      "keyword": "machine learning vs software engineering"
-    },
-    {
       "id": "wiki:marketing-to-analytics-engineering",
       "type": "article",
       "collection": "transition",
@@ -566,6 +555,17 @@
       "count": 1,
       "search": "ML System Design Interview Prepare for ML system design interviews with answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice.",
       "keyword": "machine learning system design interview"
+    },
+    {
+      "id": "wiki:machine-learning-vs-software-engineering",
+      "type": "article",
+      "collection": "comparison",
+      "label": "ML vs Software Engineering",
+      "title": "ML vs Software Engineering",
+      "url": "/wiki/machine-learning-vs-software-engineering/",
+      "count": 1,
+      "search": "ML vs Software Engineering Compare machine learning and software engineering by uncertainty, data dependence, evaluation, production ownership, and career fit.",
+      "keyword": "machine learning vs software engineering"
     },
     {
       "id": "wiki:mlops-architecture",
@@ -27274,6 +27274,12 @@
     },
     {
       "source": "wiki:apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -27307,6 +27313,12 @@
       "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:apache-iceberg",
@@ -32806,6 +32818,12 @@
     },
     {
       "source": "wiki:data-analyst-role",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-role",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -32939,6 +32957,12 @@
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "wiki:data-analysis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-careers",
       "kind": "article-chip",
       "weight": 1
     },
@@ -36970,6 +36994,12 @@
     },
     {
       "source": "wiki:data-lake",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-lake",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -36989,6 +37019,18 @@
     {
       "source": "wiki:data-lake",
       "target": "wiki:delta-lake",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-lake",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-lake",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -44290,6 +44332,18 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:duckdb",
       "kind": "article-chip",
       "weight": 1
@@ -46084,6 +46138,12 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
@@ -46099,6 +46159,12 @@
       "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:delta-lake",
@@ -52363,6 +52429,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:interpretability",
@@ -65716,6 +65788,12 @@
     },
     {
       "source": "wiki:open-source",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -65953,6 +66031,12 @@
       "target": "wiki:open-source",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -68356,6 +68440,18 @@
     },
     {
       "source": "wiki:product-analyst",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:product-analyst",
       "target": "wiki:data-analyst-role",
       "kind": "article-chip",
       "weight": 1
@@ -68615,6 +68711,12 @@
     {
       "source": "wiki:product-analyst-vs-data-analyst",
       "target": "wiki:power-analysis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst-vs-data-analyst",
+      "target": "wiki:product-analyst",
       "kind": "article-chip",
       "weight": 1
     },
@@ -69934,6 +70036,18 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
@@ -69941,6 +70055,12 @@
     {
       "source": "wiki:production-search-evaluation",
       "target": "wiki:vector-databases",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -72778,6 +72898,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
@@ -72793,6 +72919,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
@@ -76839,6 +76971,12 @@
       "weight": 5
     },
     {
+      "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:vector-databases",
       "target": "book:20210614-graph-databases-in-action",
       "kind": "wiki-chip",
@@ -77001,6 +77139,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:vector-databases",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:vector-search-vs-keyword-search",
       "target": "podcast:building-production-search-systems",
       "kind": "article-chip",
@@ -77065,6 +77209,12 @@
       "target": "wiki:search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:vector-search-vs-keyword-search",
+      "target": "wiki:search-relevance",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",

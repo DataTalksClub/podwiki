@@ -21,6 +21,12 @@ It sits inside [[Search]] and [[Information Retrieval]], and it depends on
 [[Metrics]] and [[a-b-testing=>A/B testing]]. Latency, freshness, permissions,
 and cost matter too.
 
+Search relevance asks what should rank and why it should rank there. It also
+asks which product outcome the ranking should serve.
+[[Vector Search vs Keyword Search]] covers matching methods,
+[[Vector Database vs Search Engine]] covers infrastructure ownership, and
+[[Production Search Evaluation]] covers testing and measurement.
+
 Search is a decision problem: from a large set of information, the system has to
 isolate the pieces that matter for the current query. Production search splits
 into candidate generation and ranking, and that split is the working model for
@@ -174,6 +180,8 @@ Use these pages for the neighboring parts of the search relevance stack.
   cover the broader retrieval vocabulary.
 - [[Production Search Evaluation]]
   covers relevance labels, offline tests, online experiments, and monitoring.
+- [[Vector Search vs Keyword Search]]
+  covers lexical, semantic, and hybrid matching choices.
 - [[Vector Databases]] and
   [[Embeddings]] cover vector
   retrieval mechanics.

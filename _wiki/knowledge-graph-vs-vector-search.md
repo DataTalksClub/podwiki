@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Graph vs Vector Search"
+title: "KG vs Vector Search"
 keyword: "knowledge graph vs vector search"
 secondary_keywords:
   - knowledge graph versus vector search
@@ -23,8 +23,12 @@ related_wiki:
 
 Knowledge graphs preserve entities and relationship types with their paths,
 properties, and neighborhoods. Vector search stores
-[[embeddings]] and retrieves nearby
-items by similarity. Automotive R&D graph systems preserve relationships for
+[[embeddings]] and retrieves nearby items by similarity. At the retrieval and
+representation layer, teams choose the structure the system stores and the unit
+it retrieves. They also choose which failure modes each approach handles before
+an LLM sees any context.
+
+Automotive R&D graph systems preserve relationships for
 simulation comparison and semantic reporting. They also support clustering,
 load-path detection, and Cypher-driven retrieval. Vector systems retrieve
 semantically similar transcript chunks, products, images, or sessions for
@@ -45,9 +49,9 @@ Use hybrid retrieval when semantic recall finds candidates and graph structure
 adds the relationships or constraints that make the answer trustworthy.
 
 [[Graph RAG vs Vector RAG]] covers how graph and vector retrieval choices
-package context for an LLM. [[Vector Database vs Search Engine]]
-covers whether vector retrieval belongs in a dedicated vector store or an
-existing [[search]] stack.
+package context for an LLM after retrieval has already been chosen.
+[[Vector Database vs Search Engine]] covers whether vector retrieval belongs in
+a dedicated vector store or an existing [[search]] stack.
 [[retrieval-augmented-generation=>RAG]] and
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 cover the broader answer-generation design.
@@ -74,7 +78,8 @@ Teams choose architecture around the unit they retrieve, because vector search
 retrieves nearby chunks and records. Those records can represent products,
 images, users, or sessions. A graph retrieves nodes and edges, then returns
 neighborhoods, paths, or query results. [[Retrieval-Augmented Generation]] puts
-both choices inside the broader search and knowledge-system stack.
+both choices inside the broader search and knowledge-system stack when the
+retrieved unit has to support an answer generator.
 
 ## Question Fit
 

@@ -36,6 +36,10 @@ auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data S
 Use [[Data Warehouse vs Data Lakehouse]] when the real decision is
 warehouse-centered analytics versus open lakehouse storage.
 
+Use this comparison after a team has chosen a lakehouse-style table layer. Use
+the Delta Lake and Iceberg concept pages for format-specific evidence, and use
+[[Data Lake]] for the raw-storage boundary.
+
 ## Short Comparison
 
 Both formats try to make [[Data Lake]] storage behave more like reliable

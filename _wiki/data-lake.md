@@ -5,8 +5,10 @@ summary: "Data lakes as flexible raw storage, plus the governance and DataOps wo
 related:
   - Data Engineering Platforms
   - Data Warehouse
+  - Data Warehouse vs Data Lakehouse
   - Apache Iceberg
   - Delta Lake
+  - Delta Lake vs Apache Iceberg
   - Modern Data Stack
   - DataOps
   - Data Governance
@@ -91,6 +93,9 @@ updates that vocabulary through open table formats. [[Apache Iceberg]] is a
 table format over Parquet storage, and storage and compute separate from
 access, metadata, and lineage
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Use this data-lake page for the storage concept. Use
+[[Data Warehouse vs Data Lakehouse]] for the architecture tradeoff, and use
+[[Delta Lake vs Apache Iceberg]] for the table-format choice.
 
 The practical split is:
 

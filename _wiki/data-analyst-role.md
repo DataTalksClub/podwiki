@@ -21,6 +21,11 @@ shipped feature improved user behavior.[[cite:data-team-roles=>Data Team Roles E
 That makes the role broader than report production. The analyst connects data to
 a product, operational, or business decision.
 
+The role definition belongs here. [[Data Analyst Careers]] covers entry routes,
+portfolios, hiring signals, and next moves. [[Product Analyst vs Data Analyst]]
+and [[Data Analyst vs Analytics Engineer]] cover boundaries between adjacent
+titles.
+
 ## From Dashboards to Decisions
 
 A data analyst turns company data into reusable evidence for decisions. They
@@ -149,7 +154,8 @@ Looker and `dbt` with version control, tests, and DAGs.[[cite:analytics-engineer
 
 [[Data Analyst vs Analytics Engineer]] defines the adjacent boundary. The
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
-covers the transition when analysts want to own reusable models.
+covers the transition when analysts want to move from role understanding into
+reusable-model ownership.
 
 The boundary with the [[data engineer role]] is about data paths and operations.
 Data engineers build ingestion and storage systems. They also own orchestration

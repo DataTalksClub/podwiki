@@ -26,6 +26,11 @@ extracts or builds a graph for similarity measures and path algorithms. The
 same graph can support clustering, centrality, visualization, or predictive
 models.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
+Use graph data science for analysis over graph-shaped data. Use
+[[Knowledge Graph vs Vector Search]] for the storage and retrieval comparison.
+Use [[Graph RAG vs Vector RAG]] when the graph or vector result becomes context
+for an LLM answer.
+
 ## Relationship Computation
 
 Graph data science starts when relationship data becomes an analytical object.
@@ -151,13 +156,16 @@ provenance. Graph data science computes over a graph or extracted subgraph. It
 can find clusters and central nodes. It can also find similar simulations, load
 paths, or predicted relationships.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]][[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-Graph data science is also separate from vector RAG. Vector RAG chunks text,
-embeds it, and retrieves semantically similar passages. Graph RAG retrieves
-graph structure such as entities and relations. It can also retrieve paths,
-neighborhoods, and Cypher-derived context. Graph data science can support
+Graph data science is also separate from RAG. Vector RAG chunks text, embeds
+it, and retrieves semantically similar passages. Graph RAG retrieves graph
+structure such as entities and relations. It can also retrieve paths,
+neighborhoods, and Cypher-derived context.
+
+Graph data science can support
 [[Graph RAG vs Vector RAG=>Graph RAG]] when similarity or edge prediction helps
-choose graph context. RAG still has to package that context for an LLM and
-validate the generated answer.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+choose graph context. The graph algorithm isn't the answer generator. RAG still
+has to package that context for an LLM and validate the generated
+answer.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 Use [[Knowledge Graph vs Vector Search]] for the storage and retrieval boundary.
 Use [[Graph RAG vs Vector RAG]] for LLM context packaging and

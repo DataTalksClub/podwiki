@@ -25,6 +25,12 @@ feedback. They also treat it as a way to route user friction back to the team
 building the product
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
+DevRel is the role and operating practice. [[Open Source and Developer Relations]]
+covers the version where the product is an open-source project. That version
+depends on maintainers, governance, contribution paths, or open-source business
+models. [[Community Building]] and [[Community]] cover member participation,
+moderation, events, and peer-to-peer support.
+
 Hugo Bowne-Anderson's freelance path keeps DevRel connected to consulting,
 advising, and teaching rather than treating it as a separate communications
 track. In his framing, DevRel remains technical product enablement. It helps

@@ -4,6 +4,7 @@ title: "Production Search Evaluation"
 summary: "How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
 related:
   - Search
+  - Search Relevance
   - Retrieval-Augmented Generation
   - Information Retrieval
   - Evaluation
@@ -15,6 +16,12 @@ returns useful results under real product constraints. Evaluation starts with
 [[search]] and [[information retrieval]].
 The system has to retrieve relevant candidates and rank them well. It also has
 to meet latency, freshness, permission, and business constraints.
+
+Production search evaluation measures search with offline checks, online
+experiments, monitoring, and failure diagnosis. [[Search Relevance]] defines
+ranking quality and product fit, [[Vector Search vs Keyword Search]] compares
+matching-method tradeoffs, and [[Vector Database vs Search Engine]] covers
+infrastructure placement.
 
 Teams use the same retrieval discipline for
 [[vector databases]] and
@@ -231,11 +238,10 @@ evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>
 
 ## Related Topics
 
-Use [[Search]] and
-[[Information Retrieval]] for
-the retrieval foundations behind this page. Use
+[[Search]] and [[Information Retrieval]] define the retrieval foundations.
+[[Search Relevance]] covers relevance objectives and ranking quality, while
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-for the wider knowledge-system map.
+places search evaluation inside the wider knowledge-system map.
 
 When the search system returns generated answers, move to
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],

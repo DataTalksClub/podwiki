@@ -29,6 +29,14 @@ The broader [[Open Source]] page covers licensing and community context.
 path, while [[open-source-portfolio-evidence=>the portfolio proof page]] covers
 hiring and career-change evidence.
 
+For contribution-level questions, start here. Contributors can file issues,
+fix bugs, add tests, and write docs. They can also review work in ML and data
+tools.
+
+For the broad hub, use [[Open Source]]. For DevRel program design, switch to
+[[Open Source and Developer Relations]]. Stay here only for a reviewed doc,
+demo, support answer, or feedback item.
+
 [[person:vincentwarmerdam=>Vincent Warmerdam]] frames the tactical route around
 useful side projects and scikit-lego design. He then connects that work to
 documentation and issues. He also covers tests, CI, packaging, and polite

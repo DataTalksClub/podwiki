@@ -37,8 +37,11 @@ the analyst has a broader scope. That scope may include reporting and KPIs. It
 may also include executive dashboards, business operations, and ad hoc
 questions.
 
-In small teams, one person often does both. The role hubs are
-[[Product Analytics]] and [[Data Analyst Role]].
+In small teams, one person often does both. The comparison turns on the decision
+surface each title owns. [[Product Analyst]] covers the product-analyst job
+description. [[Data Analyst Role]] covers the general role definition, and
+[[Data Analyst Careers]] covers entry routes and next moves.
+The role hubs are [[Product Analytics]] and [[Data Analyst Role]].
 
 ## Role Split
 
@@ -129,8 +132,10 @@ Those concerns sit inside the broader [[data analyst role]], even when no
 product launch is involved.
 
 The data analyst title also often covers early-career or generalist work. Use
-the [[Data Analyst Careers]] page for the career path and [[Data Analysis]] for
-practical skills, portfolio shapes, and adjacent roles.
+[[Data Analyst Careers]] for career entry, portfolio evidence, and next moves.
+Use [[Data Analysis]] for practical skills, portfolio shapes, and adjacent
+roles. Use this comparison only when the decision is whether the role should be
+product-facing or broader.
 
 ## Title Boundaries
 

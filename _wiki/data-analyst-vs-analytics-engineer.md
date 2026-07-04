@@ -41,6 +41,8 @@ For the two role hubs, use
 [[Analytics Engineering]].
 If you're moving from analyst work toward model ownership, use the
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
+For entry routes and portfolio evidence before that transition, use
+[[Data Analyst Careers]].
 
 ## Short Comparison
 
@@ -84,6 +86,9 @@ tested, reusable data
 [[cite:data-team-roles=>Data Team Roles]]
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
+
+The role comparison is about who owns the decision and who owns the reusable
+analytical data.
 
 Because the boundary sits inside the same stack, the adjacent concepts matter:
 

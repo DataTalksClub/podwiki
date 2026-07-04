@@ -18,10 +18,15 @@ Hybrid search, personalization, and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
 appear as product patterns.
 
-The search discussions treat search as an application system rather than a
-single database feature. The system needs indexes, candidate generation,
-ranking, and filters. Freshness rules, evaluation, and product metrics
-determine quality.
+Search is the broad product-system layer. The search discussions treat search as
+an application system rather than a single database feature.
+The system needs indexes and candidate generation. It also needs ranking and
+filters. Freshness rules, evaluation, and product metrics determine quality.
+
+[[Information Retrieval]] covers the underlying retrieval discipline, and
+[[Search Relevance]] covers ordering and product-fit quality.
+[[Vector Search vs Keyword Search]] covers matching methods, while
+[[Vector Database vs Search Engine]] covers vector infrastructure placement.
 
 Search may need
 [[embeddings]],
@@ -152,7 +157,7 @@ Search quality ties to business metrics through business KPIs, A/B tests, and
 revenue attribution. Offline evaluation and engineering iteration complete the
 loop
 ([[cite:building-production-search-systems=>Building Search Systems]]). Search
-evaluation belongs with [[Metrics]] and
+evaluation belongs with [[Search Relevance]], [[Metrics]], and
 [[Production Search Evaluation]].
 
 RAG-specific evaluation adds multi-level metrics, offline tests, and

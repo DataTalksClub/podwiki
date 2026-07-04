@@ -19,6 +19,13 @@ contribution, visibility, and trust, not only to events or content.
 Forums and homepage work count as community work. Programs count too, as do live
 coding and office hours[[cite:datatalksclub-building-scaling-data-community]].
 
+Use this bare concept hub for community as shared participation. Use
+[[Community Building]] for organizer tactics. Those include cadence,
+moderation, member activation, and event operations. Use [[Developer Relations]]
+when the community surface supports product adoption and feedback. Use
+[[Open Source and Developer Relations]] when the same participation connects to
+maintainers, contribution paths, or open-source trust.
+
 The MLOps Community discussion keeps the same boundary
 ([[person:demetriosbrinkmann=>Demetrios Brinkmann]]). Members strengthen
 community by talking to each other instead of only hearing organizer

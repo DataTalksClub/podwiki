@@ -39,6 +39,11 @@ the reusable model layer that makes those answers safer to repeat. The role
 boundary is covered in
 [[Data Analyst vs Analytics Engineer]].
 
+The transition plan moves from analyst work into model ownership.
+The current role definition is [[Data Analyst Role]]. Entry routes and broad
+career moves belong in [[Data Analyst Careers]]. [[Data Analyst vs Analytics Engineer]]
+compares the titles when a team needs a comparison rather than a roadmap.
+
 The broader skill sequence lives in
 [[Analytics Engineering Roadmap]].
 For the wider role map, compare

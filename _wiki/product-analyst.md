@@ -19,6 +19,7 @@ related_wiki:
   - Data-Led Growth
   - Analytics Engineering
   - Data Analyst Role
+  - Data Analyst Careers
 ---
 
 A product analyst helps product teams turn user behavior into product decisions.
@@ -31,6 +32,11 @@ Product analysts go beyond dashboard production. They define the product
 question, check whether the data can answer it, and explain what uncertainty
 remains. Experiment work adds randomization, assignment tracking, metric
 stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
+
+The product analyst page covers the job description and responsibilities.
+[[Product Analyst vs Data Analyst]] compares which analyst title a team needs.
+[[Data Analyst Careers]] covers entry routes, portfolio evidence, and broader
+analyst growth.
 
 ## Role Scope
 

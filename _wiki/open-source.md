@@ -44,6 +44,12 @@ Open source is practical rather than only ideological.
 Public code isn't enough because useful projects also need docs and examples.
 They also need issue handling, tests, releases, and community norms.
 
+The bare open-source concept across data and ML includes public software and
+project stewardship. It also includes governance, licensing, contribution
+surfaces, and company distribution. [[Open Source ML Contributions]] is the
+narrower contribution guide. [[Open Source and Developer Relations]] covers
+adoption, education, demos, and feedback loops around an open-source tool.
+
 Those pieces connect open source to
 [[contributing]] and
 [[documentation]]. They also connect

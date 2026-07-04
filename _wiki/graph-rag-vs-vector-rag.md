@@ -18,17 +18,24 @@ related_wiki:
 ---
 
 Graph RAG and vector RAG choose grounding context for an LLM in different ways.
-Vector RAG retrieves semantically similar text or records with
-[[embeddings]] and often a [[vector-databases=>vector database]]. Graph RAG
-retrieves entities and typed relationships before the model writes an answer.
-It can also retrieve paths, neighborhoods, or structured facts.
+Choose between them after the system already needs
+[[retrieval-augmented-generation=>retrieval-augmented generation]]. The prompt
+can receive semantically similar passages, graph relationships, or both.
 
-Compare graph RAG and vector RAG inside
-[[retrieval-augmented-generation=>retrieval-augmented generation]] and the
-broader [[Search]] stack. Use [[retrieval-augmented-generation=>RAG]] for
-implementation mechanics and [[Knowledge Graph vs Vector Search]] for the
-lower-level storage and retrieval comparison. Choose whether the LLM receives
-matching passages, modeled relationships, or both.
+Vector RAG retrieves semantically similar text or records with [[embeddings]]
+and often a [[vector-databases=>vector database]]. Graph RAG retrieves entities
+and typed relationships before the model writes an answer. It can also retrieve
+paths, neighborhoods, or structured facts.
+
+Compare graph RAG and vector RAG inside the broader [[Search]] stack.
+
+Use [[retrieval-augmented-generation=>RAG]] for implementation mechanics and
+[[Knowledge Graph vs Vector Search]] for the lower-level storage and retrieval
+comparison. At the lower layer, compare how graphs and vectors retrieve
+information before generation. Here, compare how that retrieved information
+becomes LLM context.
+Choose whether the LLM receives matching passages, modeled relationships, or
+both.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 

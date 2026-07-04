@@ -24,6 +24,13 @@ covers education, demos, and
 community work. Together, open source and DevRel help developers get a useful
 result while sending adoption friction back to maintainers and product teams.
 
+Stay here for the overlap. An open-source project may need adoption work and
+contributor onboarding in the same loop as demos, docs, community support, and
+maintainer-aware feedback. For the standalone concept, use [[Open Source]].
+For DevRel as a job practice, use [[Developer Relations]]. For step-by-step
+contribution mechanics, use [[Open Source ML Contributions]] or
+[[Contributing]].
+
 Company support for open-source DevRel can back projects such as Dask and
 Metaflow while keeping DevRel close to education and documentation. It can also
 add a "wisdom layer" around tools. Developer collaboration connects to feedback

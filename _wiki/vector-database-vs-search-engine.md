@@ -23,6 +23,12 @@ also store vectors. The practical comparison is less "vector database or
 search engine" and more "which part of the retrieval stack should own semantic
 matching?"
 
+This comparison draws the infrastructure boundary around vector storage and
+indexing. Filtering, ranking, and serving stay in the same infrastructure
+decision. For the matching-method question, use
+[[Vector Search vs Keyword Search]]
+on lexical retrieval, vector retrieval, and hybrid retrieval.
+
 Modern search migration often starts in classical information retrieval and
 then adds NLP query matching. Vector search can sit beside existing search
 infrastructure. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
@@ -88,7 +94,7 @@ operational choice set when teams compare retrieval infrastructure. [[cite:build
 From production LLM deployment, retrieval is often better than repeated
 fine-tuning when knowledge changes. Vector databases act as an indexing and
 semantic-search layer. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-That boundary connects this page to [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] and
+That boundary connects to [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] and
 [[LLM Production Patterns]].
 
 The vector database is useful because it updates the knowledge path. It doesn't
@@ -213,6 +219,7 @@ comparison:
 
 - [[Search]]
 - [[Vector Databases]]
+- [[Vector Search vs Keyword Search]]
 - [[Embeddings]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
