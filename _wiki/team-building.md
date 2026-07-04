@@ -63,6 +63,13 @@ work. Deeper analyses, web apps, and multiple data sources can also require
 engineering support
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 
+A stronger team-design rule is to hire the interface the team is missing. If
+dashboards are the immediate demand, an analyst can create visible value. If
+data sources and history block forecasting, a data engineer changes throughput.
+If tools exist but departments don't use them, a business-facing analyst or
+data researcher becomes part of the operating model.
+[[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]
+
 This links team building to [[hiring]] and
 [[data engineering platforms]].
 Teams should hire for the constraint that slows useful work today and the
@@ -273,6 +280,13 @@ The output has to fit a decision, a user, and a context of use.
 Trust also depends on accuracy and reliability. One team rebuilt trust after data
 errors by adding playbooks, dbt tests, and regular checks
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
+
+The same adoption loop appears in translator work. Useful data products come
+from observing how people work and proving value with small prototypes. They
+also need ownership for productionization. A rough prototype can validate demand.
+The team still needs an owner to rebuild or operate it once the use case is
+proven.
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 
 Data engineering leadership ties management to stakeholder prioritization and
 quality standards. It also includes data reconciliation, access controls, and

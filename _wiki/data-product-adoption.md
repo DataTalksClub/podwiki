@@ -43,6 +43,12 @@ trust, and clear decision context while lowering reliance on analysts for every
 follow-up question.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
+The same metric may need different framing for a product manager, operator,
+executive, or analyst. Adoption improves when the interface matches how each
+person makes the decision, not when every user sees the warehouse model exposed
+directly.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@32:25=>Last-Mile Data Delivery]]
+
 The translator role makes the same point because business teams need shared
 definitions and proactive data-quality communication. Users also need enough
 visibility into how numbers are produced before they'll use them confidently.
@@ -75,6 +81,12 @@ workshops, and Q&A sessions. Without that work, dashboards and web apps may sit
 unused.
 [[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
 
+That makes adoption capacity a staffing choice. Tammy Liang separates
+business-facing communication from pure dashboard or engineering output. Someone
+has to understand process details and teach users. They also have to turn
+delivery into behavior change.
+[[cite:building-and-scaling-data-team@18:41=>Building and Scaling a Data Team]]
+
 For machine learning, the emphasis moves to shared business cases and KPIs.
 Stakeholders also need to compare alternatives and agree on the bar for
 production before the team builds.
@@ -103,6 +115,12 @@ playbook, open error communication, dbt tests, and regular dashboard checks.
 For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents.
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+
+For generative AI products, trust can require changing the operating model, not
+only tuning the model. Maria Sukhareva describes human review as a practical
+adoption practice. The chatbot assists, but risky answers are approved before
+they reach users.
+[[cite:generative-ai-chatbots-in-production-security@25:34=>Hardening Generative AI Chatbots]]
 
 High-stakes decision-support products make the trust requirement sharper. In a
 domestic risk assessment tool, the product has to fit frontline workflows and
@@ -141,6 +159,11 @@ manual clicks with a quick MVP, or use prototypes and temporary spreadsheets to
 prove that a workflow has a business owner. Only then does the team invest in a
 maintainable implementation.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
+
+Prototype work also needs a handoff test. Once a quick MVP proves value, the
+team needs a clear owner before productionizing it. Otherwise the prototype
+validates the idea but never becomes an adopted product with durable ownership.
+[[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role]]
 
 The theme-park routing recommender shows a product prototype collecting the
 behavioral evidence it needed. About 3,000 visitor route variations came through

@@ -122,6 +122,13 @@ dataset.
 Quality checks reduce known failure modes, while observability watches running
 data products for unexpected ones.
 
+Tammy Liang gives the small-team version of this practice. After dashboard
+accuracy issues, the team rebuilt trust with a data accuracy playbook and dbt
+tests. Regular dashboard checks replaced ad hoc review. That makes testing both
+a technical control and a trust-repair mechanism for business-facing analytics.
+[[cite:building-and-scaling-data-team@35:38=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@40:09=>Building and Scaling a Data Team]]
+
 ## Observability Signals and Diagnosis
 
 Five recurring signals define observability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
@@ -145,6 +152,13 @@ An anomaly can be unusual without being bad when a spike, drop, or schema
 change is intentional. Teams still need context because a dashboard, customer
 report, or ML model can break anyway.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+
+Lior Barak adds the stakeholder-facing layer. When quality is uncertain, teams
+should proactively alert users before they discover the issue themselves. They
+can also expose uncertainty through confidence intervals or QA dashboards. That
+preserves decision confidence while the system is being repaired.
+[[cite:data-translator-role-and-data-strategy@07:46=>Data Translator Role]]
+[[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role]]
 
 For ML systems, distribution monitoring sits next to model monitoring. Model
 monitoring links to upstream ETL and data-pipeline causes, so a model incident
@@ -211,6 +225,13 @@ The same reliability logic extends to production AI. The failure can be a data
 trust problem where a number doesn't look correct. Testing includes snapshot and
 integration tests. It also includes Great Expectations, Soda, SQL tests, and
 Spark tests.[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]]
+
+Responsible AI makes data quality part of fairness work. Supreet Kaur frames
+bias detection as EDA and monitoring before it becomes a model-explanation
+problem. Teams check skewness, missingness, and coverage. They also review
+sensitive-feature handling, demographic drift, and feedback loops.
+[[cite:responsible-explainable-ai-bias-detection@11:36=>Responsible and Explainable AI]]
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]]
 
 For AI systems, those checks sit next to prompt evaluation, caching, and cost
 controls. The data pipeline is still the reliability base.

@@ -61,6 +61,12 @@ applies to a marketing team or operator[[cite:last-mile-data-delivery-and-data-p
 Good intake therefore asks who will act, what they'll compare, and where the
 data product enters their workflow.
 
+Moorman gives intake a ranking heuristic: start with financials and cost
+centers, then choose a problem big enough to matter and small enough to move.
+A narrower decision can come first when it has clearer ownership and better data
+readiness than the largest spend area.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:52=>Last-Mile Data Delivery]]
+
 ## Different Intake Risks
 
 The guests agree that intake needs business context, but they focus on
@@ -108,6 +114,12 @@ ticket may hide. Analysts and data scientists can do the same[[cite:data-transla
 The strongest intake systems combine a clear formal route with embedded
 discovery.
 
+That embedded discovery can produce concrete intake evidence. Barak describes
+watching repeated bidding-platform clicks and proposing a one-week MVP front end
+to remove the manual work. The observation turned workflow friction into a
+testable product idea instead of a vague request.
+[[cite:data-translator-role-and-data-strategy@14:20=>Data Translator Role]]
+
 ## KPI Framing and Definition of Done
 
 The team needs a Definition of Done before it chooses a solution. Mesionis
@@ -127,6 +139,12 @@ For product-facing work, Moorman adds that the KPI framing should match the
 decision. In her A/B testing example, the reporting product should help a
 product manager decide whether to roll out a feature. The report should also
 show business impact instead of only statistical output[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+
+Decision-first KPI framing should include the unit the decision-maker needs.
+For an experiment result, dollars or rollout confidence may matter more than a
+generic dashboard field. That intake choice changes event data, joins,
+transformation work, and the final interface from the beginning.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:42=>Last-Mile Data Delivery]]
 
 ## Feasibility, EDA, and Saying No
 
@@ -188,6 +206,12 @@ the work to a production owner.
 The prototype isn't the final product. It proves the use case and creates
 ownership for later rebuilds or improvements[[cite:data-translator-role-and-data-strategy]].
 This keeps prioritization from treating every useful idea as a six-month build.
+
+Barak adds a timebox rule to that choice: prove value in roughly one or two
+weeks before treating the idea as a larger product commitment. Once the team has
+proof, the rough prototype can be discarded or rebuilt. The team keeps a clear
+use case plus business ownership.
+[[cite:data-translator-role-and-data-strategy@23:54=>Data Translator Role]]
 
 ## Pilots, Experiments, and Production Handoff
 

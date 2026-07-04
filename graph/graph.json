@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10635
+    "links": 10644
   },
   "nodes": [
     {
@@ -38704,6 +38704,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -38711,6 +38717,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38741,6 +38753,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42526,6 +42544,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-chip",
       "weight": 1
@@ -42604,6 +42628,18 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -42631,6 +42667,18 @@
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-teams",
@@ -73433,6 +73481,12 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
     },

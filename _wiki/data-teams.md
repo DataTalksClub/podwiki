@@ -8,6 +8,8 @@ related:
   - Data Engineering Platforms
   - Self-Service Data Platforms
   - Data Product Management
+  - Data Product Adoption
+  - Data Translator Role
   - Analytics Engineering
   - Communication
   - Leadership
@@ -134,6 +136,14 @@ the meetings where people decide. For a data team, stakeholder management isn't
 a soft add-on. It's part of delivery.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data]]
 
+A team can formalize translation as an interface, not just an individual soft
+skill. A data strategist can sit between data engineering, data science, and
+business teams. The role aligns definitions, explains dashboard reliability, and
+turns business pressure into usable technical priorities. That role sits close to the
+[[data-translator-role=>Data Translator Role]], [[communication]], and
+[[data-product-adoption=>Data Product Adoption]].
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
+
 ## Platforms and Product Ownership
 
 Guests repeatedly separate platform ownership from product ownership. A shared
@@ -187,6 +197,13 @@ the career-system risk. Junior data people need mentorship, practice, exposure,
 and clear expectations before they specialize too narrowly.
 [[cite:building-and-scaling-data-team=>Liang]]
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Bauer]]
+
+Role order should change when the bottleneck changes, so a dashboard-heavy team
+can start with an analyst. Source integration, historical data, forecasting, and
+multiple data sources make a data engineer foundational. Stakeholder-heavy
+businesses may need a business analyst or data researcher alongside engineering.
+That gives adoption work an owner.
+[[cite:building-and-scaling-data-team=>Liang]]
 
 Hypergrowth creates a different failure mode. Mehdi describes speed versus
 quality pressure, hiring surges, and onboarding strain. He also talks about

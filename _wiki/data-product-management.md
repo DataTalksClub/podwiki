@@ -45,9 +45,10 @@ pipeline. It may also be a model or internal platform.
 
 Across these examples, the team discovers the problem before it commits to a
 solution. It defines the decision, workflow, or business metric the data product
-should change. It also owns adoption and trust after launch, because unused data
-outputs are unfinished products.
-[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+should change, then works backward from that moment of use. Caitlin Moorman
+calls this the last mile: data creates value only when it reaches the decision
+and changes what a team does.
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
 
 ## Ownership Models
 
@@ -89,6 +90,13 @@ Adoption work extends discovery when low usage shows people don't know the data
 product exists or don't understand it. It can also mean they don't trust it or
 don't see how it fits the decision they need to make.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
+When adoption is weak, the next product step is diagnosis, not another
+dashboard. Moorman frames this like user research. The team checks whether
+people know the product exists and know how to use it. It also checks whether
+they trust it and believe it answers the question they actually have. That turns
+adoption problems into product-discovery problems.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
+
 For data product managers, user research belongs inside
 [[Data Product Adoption]], not only before kickoff.
 
@@ -124,6 +132,15 @@ The data product manager asks how people make decisions and stays close enough
 to SQL and data quality to make delivery credible. PII, compliance, and
 documentation stay part of the job.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
+Sara Menefee's transition from product design adds a practical skill floor. A
+data product manager should be able to read data-tooling documentation and
+understand the data lifecycle. They should use SQL well enough to check expected
+outputs and reason about PII, compliance, and data quality. Those skills don't
+replace engineers. They let the PM ask better questions and spot product risk
+earlier.
+[[cite:product-designer-to-data-product-manager@19:38=>Product Designer to Data Product Manager]]
+[[cite:product-designer-to-data-product-manager@26:33=>Product Designer to Data Product Manager]]
+
 Roadmap discipline for AI and MLOps work is another cluster. The roadmap ranks
 opportunities by impact, effort, and cost. It then moves from problems to
 solutions to metrics. SMART goals and pipeline failures are success measures,
@@ -152,6 +169,14 @@ For internal platforms, backlog grooming and engineering partnership balance
 adoption and quality. User feedback, governance, and stakeholder value matter
 too.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
+For analytics products, roadmap priority can start from business value rather
+than tool novelty. Moorman suggests looking at financials and cost centers, then
+choosing a narrow slice that can create a visible win. An internal advocate gives
+the data product manager a better expansion path than trying to convert the most
+resistant stakeholder first.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:30=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
+
 The [[Data Product Manager Roadmap]] uses these responsibilities as a learning
 path. The [[Data Product Manager]] guide focuses on the role, including
 discovery and metrics. It also covers technical literacy, roadmaps, adoption,
@@ -175,6 +200,13 @@ When a data product changes a customer or product workflow, success often needs
 testing reporting, decision-makers need interpretation and a usable choice, not
 only statistical output.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
+Not every useful data product has clean instrumentation at first. Moorman gives
+time studies, proxy metrics, and before-after comparisons as acceptable early
+evidence when operational work is hard to track directly. The PM still needs a
+measurement story, but it can start with the closest credible proxy and improve
+as trust and data culture grow.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
+
 The executive metric layer for ML products translates model work into revenue,
 cost savings, ARR, and MRR. ROI and usage belong in the same executive view, and
 task time, decision quality, and pricing impact matter there too.
@@ -190,12 +222,15 @@ interpretability, trust, and data quality. It also depends on the meeting or
 workflow where the decision is made.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Data-team adoption improves when workshops move from walkthroughs to Q&A and
-business teams practice finding answers. That teaches teams when to use the data
-product and how it fits their work.[[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
+business teams practice finding answers. Liang's team found that lecture-style
+dashboard training didn't stick. The team used question-led sessions to help
+people learn when and how to use the data product.[[cite:building-and-scaling-data-team@49:00=>Building and Scaling a Data Team]]
 
-Documentation-first adoption work also helps. PRDs, customer notes, and
-knowledge bases teach people how to trust new data tools. Pairing and Slack
-support adoption in daily work.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+Documentation-first adoption work also helps. Menefee describes product docs and
+PRDs as part of the operating system for data products. Customer-development
+notes, knowledge bases, pairing, and Slack help support the same work. The
+documentation isn't just internal memory. It helps engineers build empathy and
+helps users trust new data tools.[[cite:product-designer-to-data-product-manager@54:09=>Product Designer to Data Product Manager]]
 
 ML products need release governance, rollout strategy, validation, and quality
 assurance for internal platform users. Platform stability and rollout timing
