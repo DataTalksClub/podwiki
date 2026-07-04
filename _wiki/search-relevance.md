@@ -17,33 +17,27 @@ related:
 Search relevance decides which results should appear for a query. It also
 decides how to order them and why that order helps the person or business using
 the search product.
-It sits inside [[search]] and
-[[information retrieval]].
-It also depends on [[metrics]],
-[[a-b-testing=>A/B testing]], latency, and
-freshness. Permissions and cost matter too.
+It sits inside [[Search]] and [[Information Retrieval]], and it depends on
+[[Metrics]] and [[a-b-testing=>A/B testing]]. Latency, freshness, permissions,
+and cost matter too.
 
 Search is a decision problem: from a large set of information, the system has to
 isolate the pieces that matter for the current query. Production search splits
 into candidate generation and ranking, and that split is the working model for
-relevance
-([[podcast:building-production-search-systems|Building Production Search Systems]]).
+relevance.[[cite:building-production-search-systems]]
 
-## Working Definition
+## Relevance Boundaries
 
 In production search, relevance isn't only semantic similarity. A result can
 match the query words and sit near the query in embedding space. It can satisfy
 filters, respect permissions, and look fresh enough while still missing the
-product goal. Daniel's search-metrics discussion at 1:01:25-1:03:50 ties
-relevance work to business outcomes, control groups, offline tests, and
-engineer-facing iteration metrics
-([[podcast:building-production-search-systems|Building Production Search Systems]]).
+product goal. Relevance work connects result quality to business outcomes,
+control groups, offline tests, and engineer-facing iteration
+metrics.[[cite:building-production-search-systems]]
 
 That definition also keeps relevance separate from model impressiveness.
-[[person:atitaarora=>Atita Arora]] warns in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-at 17:01-20:27 that teams should start from the use case. They can then choose
-vector databases, existing search engines, or combined systems.
+Teams start from the use case, then choose vector databases, existing search
+engines, or combined systems.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval]]
 
 Vector search may improve a class of matching failures. It doesn't replace
 query understanding or ranking, and it still needs filters, evaluation, and
@@ -52,10 +46,9 @@ user metrics.
 ## Candidate Generation And Ranking
 
 Search systems usually retrieve a small candidate set before ranking those
-candidates with more expensive signals. Daniel explains this at 12:45 in
-[[podcast:building-production-search-systems=>Building Production Search Systems]].
-Candidate generation quickly narrows a large corpus to a small set. Ranking
-estimates which candidates should be shown first for the query.
+candidates with more expensive signals. Candidate generation quickly narrows a
+large corpus to a small set. Ranking estimates which candidates should be shown
+first for the query.[[cite:building-production-search-systems]]
 
 That split matters because the failure modes differ. If the right document
 never enters the candidate set, the ranker can't rescue it. If the candidate
@@ -74,39 +67,32 @@ search product into one score.
 
 ## Lexical, Vector, And Hybrid Retrieval
 
-Lexical retrieval still matters because exact words and names often matter.
-Product codes matter too. So do filters and structured constraints. Daniel
-discusses inverted indexes and Lucene at 11:29-17:40 in
-[[podcast:building-production-search-systems=>Building Production Search Systems]].
-He also covers practical indexing, which shows why teams should use mature
-search engines instead of hand-rolling index structures.
+Lexical retrieval still matters when queries depend on exact words, names, or
+product codes. It also handles filters and structured constraints. Mature
+engines such as Lucene use inverted indexes, so teams usually rely on those
+engines instead of hand-rolling index
+structures.[[cite:building-production-search-systems]]
 
 Vector retrieval helps when query words and result words differ but the meaning
-matches. Daniel introduces [[embeddings]]
-as shared representations at 21:55-29:00. He then separates vector storage from
-vector compute at 29:00-30:22. Document embedding models, query embedding
-models, and refresh pipelines all become relevance dependencies. Model swaps
-and embedding versioning can change
-which results even become candidates.
+matches. [[Embeddings]] act as shared representations, while vector storage and
+vector compute remain separate parts of the system. Document embedding models,
+query embedding models, and refresh pipelines all become relevance
+dependencies. Model swaps and embedding versioning can change which results
+even become candidates.[[cite:building-production-search-systems]]
 
-Hybrid retrieval is the practical middle ground. At 34:00-45:11, Daniel
-discusses vector similarity alongside filters and recency. He also covers
-metadata and query-time weights
-([[podcast:building-production-search-systems|Building Production Search Systems]]).
-Use
-[[Vector Search vs Keyword Search]]
-for the retrieval-method boundary and
-[[Vector Database vs Search Engine]]
-for the storage and serving boundary.
+Hybrid retrieval combines vector similarity with filters, recency, metadata, and
+query-time
+weights[[cite:building-production-search-systems]].
+Use [[Vector Search vs Keyword Search]] for the retrieval-method boundary and
+[[Vector Database vs Search Engine]] for the storage and serving boundary.
 
 ## Filters, Freshness, And Business Rules
 
-Filters can be hard constraints or ranking preferences. Daniel contrasts this
-with Lucene-style `must` and `should` clauses at 39:53 in
-[[podcast:building-production-search-systems=>Building Production Search Systems]].
-A strict freshness filter may remove the best result if it's just outside the
-window. A softer freshness signal may keep that result while still favoring new
-content when relevance is similar.
+Filters can be hard constraints or ranking preferences, and Lucene-style `must`
+and `should` clauses separate those cases. A strict freshness filter may remove
+the best result if it's just outside the window. A softer freshness signal can
+keep that result and still favor new content when relevance is
+similar.[[cite:building-production-search-systems]]
 
 This is where search relevance becomes product design. A marketplace may care
 about seller contact, order delivery, or revenue proxies. A support search
@@ -119,17 +105,16 @@ Metadata and access rules belong in the same discussion. A result can be
 semantically relevant and still unusable because the person isn't allowed to
 see it. The result may also be stale or violate a business rule. For
 retrieval-heavy LLM systems, use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] to keep search constraints visible
-before generation.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] to keep
+search constraints visible before generation.
 
 ## Metrics, Offline Tests, And A/B Testing
 
 Production relevance needs more than a relevance label or an embedding score.
-Daniel's 1:01:25 answer in
-[[podcast:building-production-search-systems=>Building Production Search Systems]]
-starts from business impact. He then covers A/B testing, proxy metrics,
-seasonality, and control groups. He also discusses offline evaluation and
-metrics that engineers can move during fast iteration.
+Teams judge ranking changes with business impact, [[a-b-testing=>A/B testing]],
+proxy metrics, and control groups. They also use seasonality checks, offline
+evaluation, and fast iteration
+metrics.[[cite:building-production-search-systems]]
 
 Offline evaluation is useful when the team needs fast feedback on a ranking
 change, embedding model, chunking strategy, or filter rule. It can use judged
@@ -140,43 +125,32 @@ the metric means.
 
 A/B testing connects relevance to actual user and business behavior. It can
 measure clicks, conversions, contacts, or orders. It can also measure solved
-tickets or another product outcome. Use
-[[experimentation]] for broader
-product experiment mechanics. Use
-[[Evaluation]] when the team needs to
-name which decision the metric will change.
+tickets or another product outcome. Use [[Experimentation]] for broader product
+experiment mechanics. Use [[Evaluation]] when the team needs to name which
+decision the metric will change.
 
 ## RAG And Agent Retrieval
 
 RAG systems make relevance failures visible in a different way. If retrieval
 misses the right chunk, the model may answer fluently from weak context.
-Atita's transcript-chatbot example in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-at 38:24-48:09 moves from chunking and embeddings to retrieval strategy,
-prompt context, and citations. It then moves to offline tests and human review.
+Transcript-chatbot systems move from chunking and embeddings to retrieval
+strategy and prompt context. They also need citations, offline tests, and human
+review.
 RAG quality starts as a search relevance problem before it becomes an
-answer-quality problem.
+answer-quality problem.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval]]
 
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
-the builder workflow in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-At 23:00-27:38, he recommends representative gold tests and failure analysis.
-He also recommends logs and traces.
+Representative gold tests, failure analysis, logs, and traces give RAG builders
+a way to see whether retrieval changes improve the system. Chunking and
+embeddings can become a practical business win when the interface makes the
+retrieved context useful.[[cite:practical-llm-engineering-and-rag]]
 
-At 44:26-49:21, he treats chunking and embeddings as a practical business win
-for RAG. He also includes a focused interface. If most failures are retrieval
-failures, the team should fix retrieval before tuning the generator.
-
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] extends
-that boundary to agents in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-At 29:30-37:39, she treats retrieval as one tool among others. Latency, cost,
-and context quality constrain that tool.
-
-At 51:17-56:02, she adds custom datasets, mocked tools, and integration tests.
-She also adds regression tests and goal-based assertions. Use
-[[LLM Evaluation Workflows]]
-when the product combines retrieval, generation, and tool use.
+Agent systems extend the same boundary because retrieval is one tool among
+others. Latency, cost, and context quality constrain that tool. Custom datasets
+and mocked tools help test retrieval behavior, while integration tests,
+regression tests, and goal-based assertions catch relevance
+regressions[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation]].
+Use [[LLM Evaluation Workflows]] when the product combines retrieval,
+generation, and tool use.
 
 ## Related Pages
 

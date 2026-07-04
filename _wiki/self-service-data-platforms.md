@@ -14,11 +14,11 @@ related:
 Self-service data platforms are shared systems and operating practices. They
 let analysts, data scientists, software engineers, and domain teams create or
 use data workflows without waiting for bespoke data engineering work each time.
-Self-service is not "everyone does whatever they want." It is a designed path
+Self-service isn't "everyone does whatever they want." It's a designed path
 through [[data engineering platforms]],
 [[DataOps platforms]], and
 [[data governance]] that makes
-routine data work easier and safer.
+routine data work easier and safer.[[cite:scaling-data-engineering-teams-self-service-platforms]][[cite:dataops-principles-and-scalable-data-platforms]]
 
 This concept covers the enablement subset of platform work. Use
 [[Data Engineering Platforms]]
@@ -26,87 +26,70 @@ for ingestion, storage, orchestration, and platform architecture more broadly.
 Use [[Platform Adoption]] when
 the main question is rollout, user behavior, and measurement.
 
-## Self-Service as Supported Data Work
+## Supported Data Work
 
 Self-service is supported data work for other teams. The platform gives those
 teams a standard way to build, operate, and consume data work without asking a
 central team to build every pipeline manually.
 
-The data platform role serves analysts and data scientists, and software
-engineers can use the same tools. The platform team makes those tools simple
-enough for users to build with less direct support
-([[person:mehdiouazza|Mehdi OUAZZA]],
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms, 12:30]]).
+The data platform role serves analysts, data scientists, and software
+engineers. Platform teams make shared tools simple enough for those users to
+build with less direct support.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 
-The DataOps version comes from Spotify, where the platform team moved from
-handling requests centrally toward enabling teams to build their own data
-flows. That shift ties together workflow engines and immutable data: storage,
-compute, and repeatable pipeline definitions sit in the same platform view
-([[person:larsalbertsson|Lars Albertsson]],
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms, 7:52-30:34]]).
+The DataOps version moves from central request handling toward teams that can
+build their own data flows. That shift ties workflow engines to immutable data,
+storage, compute, and repeatable pipeline definitions.[[cite:dataops-principles-and-scalable-data-platforms]]
 
-Self-service is both technical and organizational because a data platform isn't
-a single tool. It can include Airflow and Kafka as well as warehouses, lakes,
-and catalogs. It combines reusable platform primitives with documented
-conventions. Contracts, support channels, access controls, and operating
-metrics let more people use data without turning the platform team into a queue
-for custom work.
+Self-service is technical and organizational because a data platform isn't a
+single tool. It can include Airflow and Kafka as well as warehouses, lakes, and
+catalogs. Reusable platform primitives need documented conventions and
+contracts. They also need support channels, access controls, and operating
+metrics. Those pieces let more people use data without turning the platform
+team into a queue for custom work.
 
 ## Ownership Boundaries Across Teams
 
-Guests focus on different parts of the boundary, and approaches differ most on
-where central platform ownership ends and domain ownership begins. One approach
-keeps the center of gravity in a platform team that creates Airflow practices
-and Kafka schema rules, along with onboarding paths and shared services for many
-internal consumers ([[person:mehdiouazza|Mehdi OUAZZA]],
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms, 12:30-23:26]]).
+Approaches differ most on where central platform ownership ends and domain
+ownership begins. One model keeps the center of gravity in a platform team.
+That team creates Airflow
+practices, Kafka schema rules, onboarding paths, and shared services for many
+internal consumers.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 
-A data mesh approach pushes the boundary toward domain-owned data products,
-built on self-serve platform abstractions, data product contracts, and
-metadata. Identity, authorization, and federated governance let domains publish
-useful data without centralizing every pipeline decision
-([[person:zhamakdehghani|Zhamak Dehghani]],
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation, 31:05-53:02]]).
+A data mesh approach pushes the boundary toward domain-owned data products. It
+relies on self-serve platform abstractions, data product contracts, and
+metadata. Identity and authorization become platform concerns. Domains also need
+federated governance. They publish without centralizing every pipeline
+decision.[[cite:data-mesh-architecture-decentralized-data-products]]
 Use [[Data Mesh vs Centralized Data Platform]]
 for that ownership comparison.
 
 Team maturity also changes the boundary. Pure self-service takes a long time,
-and when an organization isn't ready for analyst-owned pipelines, embedding
-analysts with engineering expertise is the safer path
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms, 50:13]]).
+and some organizations aren't ready for analyst-owned pipelines. In those
+settings, embedding analysts with engineering expertise can be the safer
+path.[[cite:dataops-principles-and-scalable-data-platforms]]
 
 Enterprise platform leadership frames the same boundary as consumer groups grow:
-the team must prioritize stakeholders and improve data culture, and it has to
-expose useful data formats, measure quality, and count consumers served
-([[person:16rahuljain|Rahul Jain]],
-[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms, 4:52 and 25:04]]).
+the team has to prioritize stakeholders and improve data culture. It also needs
+to expose useful data formats, measure quality, and count consumers served.[[cite:data-engineering-leadership-and-modern-data-platforms]]
 
-The product-management view from ML platforms treats internal platform users as
-customers, so the team needs roadmap discipline and adoption planning. User
-research and observability metrics belong in the same product loop
-([[person:geojolly|Geo Jolly]],
-[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy, 11:24-18:25 and 55:44]]).
+The product-management view treats internal platform users as customers. That
+makes roadmap discipline and adoption planning part of the same product loop.
+User research and observability metrics belong there too.[[cite:ml-product-manager-and-mlops-platform-strategy]]
 
 ## From Bespoke Pipelines to Enablement
 
-Self-service becomes valuable when a data team can no longer hand-build every
-source-to-consumer path. The platform is an enablement layer: the team provides
-tools, services, onboarding, and scalable approaches so other teams can do more
-data work directly
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 12:30]]).
+Platform teams turn repeated hand-built paths into reusable
+services.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 In this framing, [[Data Engineering Platforms]]
 are shared product surfaces rather than piles of isolated pipelines.
 
 Use-case pipelines still remain, because platform work can coexist with use-case
-delivery at roughly half and half
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 52:55]]).
+delivery.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 That matters because platform teams need feedback from real business workflows.
 Without that feedback, self-service can become an abstract architecture project.
 
 The operating version of the same shift needs storage, compute, and a workflow
-engine. The workflow engine matters because it makes dependencies explicit and
-reproducible
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms, 28:22-30:34]]).
+engine. The workflow engine makes dependencies explicit and reproducible.[[cite:dataops-principles-and-scalable-data-platforms]]
 That places self-service close to [[DataOps]]
 and [[Orchestration]], not just
 cloud infrastructure.
@@ -116,90 +99,78 @@ cloud infrastructure.
 A platform anatomy centers on Airflow plus shared conventions and playbooks.
 Airflow isn't enough, because users also need naming conventions and
 sequence-handling rules. Reusable configuration approaches and a playbook
-explain how to operate the shared scheduler safely
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 17:22]]).
+explain how to operate the shared scheduler safely.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 This is the practical link between self-service and
 [[Documentation]].
 
 That discipline extends to streaming contexts. Kafka schemas and schema
-registries make shared events more explicit, and data contracts tell producers
-and consumers which schema changes are allowed and how change review should
-happen
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 23:26]]).
+registries make shared events more explicit. Data contracts tell producers and
+consumers which schema changes are allowed. They also define how change review
+should happen.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 That makes [[Streaming]] a governance
 problem as well as a latency design.
 
 DataOps adds another reason for conventions. Immutable data and functional
-transformations make outputs easier to share and reproduce, and workflow
-definitions provide lineage through code and dependencies
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms, 16:42-20:12 and 1:04:18]]).
+transformations make outputs easier to share and reproduce. Workflow definitions
+keep lineage visible.[[cite:dataops-principles-and-scalable-data-platforms]]
 Self-service is reliable when the supported path encodes these rules instead
 of leaving every team to invent them.
 
 ## Governance, Access, and Lineage
 
 Self-service expands access and needs guardrails. As consumers grow, data
-quality metrics are one signal of platform improvement, alongside consumers
-served and data culture
-([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 25:04]]).
-Dynamic data masking and role-based access control apply here too, and data
-lineage belongs to the same enterprise IoT platform move toward ELT and data
-lake patterns
-([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 29:01-30:50]]).
+quality metrics become one signal of platform improvement. Consumer counts and
+data culture are signals too.[[cite:data-engineering-leadership-and-modern-data-platforms]]
+Dynamic data masking and role-based access control apply here too. Data lineage
+belongs to the same enterprise IoT platform move toward ELT and data lake
+patterns.[[cite:data-engineering-leadership-and-modern-data-platforms]]
 
 The enablement side of governance starts with classification, policies, and
 catalogs. Access workflows, automation, and ROI measurement then make
-democratized data access usable rather than chaotic
-([[person:jessiashdown|Jessi Ashdown]],
-[[person:urigilad=>Uri Gilad]],
-[[podcast:cloud-data-governance=>Cloud Data Governance, 14:04-18:33 and 42:04-54:37]]).
+democratized data access usable rather than chaotic.[[cite:cloud-data-governance]]
 
 For self-service platforms, governance should make the default path clearer.
-It should show who owns the data, who can access it, what policy applies, and
-how lineage and quality are checked. Use [[Data Governance]]
+It should show data owners and access rules. It should also show policies,
+lineage checks, and quality checks. Use [[Data Governance]]
 and [[Data Quality and Observability]]
 for those adjacent control layers.
 
 ## Adoption and Support Loops
 
 Self-service platforms succeed only when people actually adopt the supported
-path. Internal platform users are customers; for an ML platform, that means
-understanding data scientists and business data engineers, and compliance
-stakeholders and release timing matter too. The team then measures platform
-impact with observability metrics
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy, 11:24-18:25]]).
+path. Internal platform users are customers. For an ML platform, the team needs
+to understand data scientists and business data engineers. Compliance
+stakeholders and release timing matter too. It then measures platform impact with
+observability metrics.[[cite:ml-product-manager-and-mlops-platform-strategy]]
 
-"Time to stakeholders" is a rollout concern, and power users, demos, surveys,
-and happiness reports support the same rollout work
-([[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy, 35:18-40:14 and 55:44]]).
+Power users, demos, surveys, and happiness reports support the same rollout
+work.[[cite:ml-product-manager-and-mlops-platform-strategy]]
 
 Those practices transfer to self-service data platforms. The team needs to know
-who uses a capability, what friction they face, and whether the standard path
-reduces support load or delivery time. Fast growth requires onboarding new
-contributors and improving toolsets, and teams also have to change ways of
-working while product and market pressure continue
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 10:21 and 31:07]]).
+who uses a capability and what friction they face. It should also track whether
+the standard path reduces support load or delivery time.
+
+Fast growth requires onboarding and better toolsets. Teams also change their
+work while product and market pressure
+continue.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 Self-service work therefore belongs near
 [[Platform Adoption]] as much
 as [[Data Engineering]].
 
 ## Team Structure and Maturity
 
-The podcast evidence warns against staffing self-service work as a purely
-junior or purely tooling problem. Senior expertise and niche technology
-experience help when a platform must support fast hiring and Kafka-based
-streaming, and that expertise also helps set company-wide conventions
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms, 20:13]]).
+Self-service work shouldn't be staffed as a purely junior or purely tooling
+problem. Senior expertise and niche technology experience help when a platform
+must support fast hiring and Kafka-based streaming. That expertise also helps
+set company-wide conventions.[[cite:scaling-data-engineering-teams-self-service-platforms]]
 Technical credibility and expectation setting matter too, along with balancing
-hands-on involvement with management when a platform team supports many
-stakeholders
-([[podcast:data-engineering-leadership-and-modern-data-platforms|Data Engineering Leadership and Modern Data Platforms, 7:27-23:15]]).
+hands-on work with management. That balance gets harder when a platform team
+supports many stakeholders.[[cite:data-engineering-leadership-and-modern-data-platforms]]
 
-Teams mature self-service by first solving repeated pipeline pain. They then
-codify the standard path before adding contracts and governance, and adoption
-and quality measures come next. Analyst self-service is a long journey, which
-keeps that maturity model grounded in team capability rather than tool labels
-([[podcast:dataops-principles-and-scalable-data-platforms|50:13|DataOps 101]]).
+Teams mature self-service by solving repeated pipeline pain and codifying the
+standard path. Contracts, governance, adoption measures, and quality measures
+come next. Analyst self-service takes time. Maturity follows team
+capability.[[cite:dataops-principles-and-scalable-data-platforms]]
 This keeps self-service tied to real use cases instead of turning it into a
 broad rewrite of the [[Modern Data Stack]].
 

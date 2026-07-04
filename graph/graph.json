@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11110
+    "links": 11084
   },
   "nodes": [
     {
@@ -38250,12 +38250,6 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
-      "target": "person:liorbarak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-intake-and-prioritization",
       "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -46974,42 +46968,6 @@
     },
     {
       "source": "wiki:documentation",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
-      "target": "person:eugeneyan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
-      "target": "person:nadianahar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
-      "target": "person:willrussell",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:documentation",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -53280,49 +53238,7 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "book:20210405-the-practitioners-guide-to-graph-data",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:anahitapakiman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "person:angelaramirez",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:danielsvonava",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:hugobowneanderson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:meryemarik",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:ranjithakulkarni",
       "kind": "article-chip",
       "weight": 1
     },
@@ -53461,12 +53377,6 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -53486,12 +53396,6 @@
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -73320,24 +73224,6 @@
     },
     {
       "source": "wiki:search-relevance",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -73621,48 +73507,6 @@
     {
       "source": "wiki:security",
       "target": "wiki:software-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:16rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:jessiashdown",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:urigilad",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "person:zhamakdehghani",
       "kind": "wiki-chip",
       "weight": 1
     },
