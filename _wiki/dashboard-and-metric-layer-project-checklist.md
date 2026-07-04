@@ -29,10 +29,9 @@ when the portfolio target is
 strongest portfolio signal when the project is more than a chart gallery. It
 needs a metric specification, data lineage, tests, and stakeholder adoption.
 
-[[person:caitlinmoorman=>Caitlin Moorman]] sets that
-adoption bar by defining the last mile. She then works backward from user
-research and outcomes. She places metrics inside the meetings where decisions
-happen [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
+The adoption bar is the last mile. Users can find the dashboard, trust the
+metric, and use it inside the meeting where decisions happen.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Stakeholder Decision and Meeting Use
 
@@ -42,9 +41,9 @@ may decide whether spending is off plan. A product manager may decide which
 activation problem to investigate. The stakeholder should be able to say what
 changes after they read the metric.
 
-Caitlin's outcome-first discussion supports this structure because her version
-starts with adoption. People need to find the dashboard, trust it, and use it in
-the meeting where the decision happens [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
+This structure starts with adoption. People need to find the dashboard, trust
+it, and use it in the meeting where the decision happens.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 Use
 [[Data Product Adoption]]
 and
@@ -63,14 +62,14 @@ Separate the primary decision metric from diagnostics and guardrails so the
 dashboard doesn't encourage a single number at the expense of product or
 business health.
 
-[[person:adamsroka=>Adam Sroka]] gives the metric
-standard through KPI definition and gaming risk. He also covers derived KPIs
-and dashboard visibility [[cite:ml-engineering-kpis-and-metrics-strategy|ML Engineering KPIs and Metrics Strategy]].
+Metric definitions need ownership, derived-KPI rules, dashboard visibility, and
+explicit attention to gaming risk.
+[[cite:ml-engineering-kpis-and-metrics-strategy=>ML Engineering KPIs and Metrics Strategy]]
 
-For experimentation-heavy projects,
-[[person:jakobgraff=>Jakob Graff]] adds guardrails through randomization,
-causality, and A/A tests. He also covers metric stability and power analysis
-in the same episode [[cite:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]].
+For experimentation-heavy projects, guardrails start with randomization,
+causality checks, and A/A tests. They also include metric stability and power
+analysis.
+[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
 Use [[Metrics]],
 [[Experimentation]], and
@@ -85,17 +84,15 @@ tracking plan and source events. It then moves through staging models,
 intermediate business logic, marts, and metric definitions. Documentation and
 lineage make that path inspectable.
 
-[[person:arpitchoudhury=>Arpit Choudhury]] gives the
-event path through tracking plans and anomaly investigation. He then connects
-data flow and SaaS event examples with warehouse work, BI work, and activation [[cite:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth Stack]].
-In his framing, event definitions and warehouse transformations belong to the
-same growth system as BI and reverse ETL. That makes event ownership part of the
-dashboard project.
+Tracking plans and anomaly investigation belong in the same growth system as
+warehouse work, BI work, and activation.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
+That makes event ownership part of the dashboard project.
 
-[[person:nikolamaksimovic=>Nikola Maksimovic]] gives a
-portfolio-scale version through product support, A/B testing, and data
-modeling. He connects Snowplow, dbt, Looker, and product analytics into one
-career-switching project story [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering]].
+A portfolio-scale version can connect product support, A/B testing, and data
+modeling. Snowplow, dbt, Looker, and product analytics can become one project
+story.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 Use
 [[dbt]],
@@ -112,12 +109,12 @@ documentation, and a clear semantic-layer boundary. Show generic tests for
 expected data properties, singular tests for business rules, and a CI check
 where the portfolio format allows it.
 
-[[person:victoriaperezmola=>Victoria Perez Mola]] and
-[[person:juanmanuelperafan=>Juan Manuel Perafan]] give
-the analytics engineering version. Victoria connects modeling, data quality,
-and Looker. She also covers dbt docs, DAGs, and tests [[cite:analytics-engineer-skills-tools|Master Analytics Engineering]].
-Juan adds robustness, generic tests, and singular tests. He also covers CI, KPI
-tests, and semantic-layer thinking [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]].
+The analytics engineering version connects modeling, data quality, and Looker.
+It also covers dbt docs, DAGs, and tests.
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
+Robust projects also include generic tests, singular tests, and CI. KPI tests
+and semantic-layer boundaries make the metric definition explicit.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
 ## BI Surface, Activation, and Adoption Proof
 
@@ -129,13 +126,14 @@ to
 [[Data Activation]] as well as the
 BI layer.
 
-[[person:tammyliang=>Tammy Liang]] gives the team
-version by discussing business health dashboards and reporting collaboration.
-She also covers a stack and Notion wiki, dbt tests, and workshops [[cite:building-and-scaling-data-team|Building and Scaling a Data Team]]. Her
-examples make the adoption checklist practical. The team defines the metric,
-tests the data, documents the dashboard, and teaches people how to use it.
+Team-scale dashboard projects combine business-health reporting and stakeholder
+collaboration. The supporting system includes a documented stack, a shared wiki,
+dbt tests, and workshops.
+[[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
+The team defines the metric, tests the data, documents the dashboard, and
+teaches people how to use it.
 
-## Adjacent Dashboard Project Paths
+## Related Pages
 
 For a broader learning path, pair this checklist with the
 [[Analytics Engineering Roadmap]].

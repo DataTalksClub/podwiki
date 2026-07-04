@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10566
+    "links": 10555
   },
   "nodes": [
     {
@@ -30685,8 +30685,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:data-product-management",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30697,8 +30697,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:data-products",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30709,8 +30709,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:entrepreneurship",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30721,8 +30721,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:founder",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30733,8 +30733,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:freelance",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30745,8 +30745,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -30757,8 +30757,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:startups",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:context-engineering",
@@ -31285,54 +31285,6 @@
     {
       "source": "wiki:cv-screening",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:adamsroka",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:juanmanuelperafan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dashboard-and-metric-layer-project-checklist",
-      "target": "person:victoriaperezmola",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44833,24 +44785,6 @@
     {
       "source": "wiki:delta-lake",
       "target": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "person:roksolanadiachuk",
       "kind": "wiki-chip",
       "weight": 1
     },

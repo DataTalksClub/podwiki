@@ -25,7 +25,7 @@ learning engineer ships model-backed systems. A data product manager decides
 which data capability should exist and how success will be measured.
 
 The boundaries move by company size and maturity. The role overview in
-[[podcast:data-team-roles=>Data Team Roles Explained]]
+[[cite:data-team-roles=>Data Team Roles Explained]]
 separates the team flow. DataTalks.Club's companion
 [Data Team Roles Explained write-up](https://datatalks.club/blog/data-roles.html)
 is the canonical role-by-role reference for that breakdown.
@@ -35,7 +35,7 @@ machine learning engineers help scale model-backed services.
 
 [[person:dannyma=>Danny Ma]] adds the ABC framework as a role-fit lens for the
 same comparison
-([[cite:data-science-career-abc-framework|Data Science Career ABC Framework]]).
+([[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]).
 Analyst work centers on exploration and visualization, plus storytelling and
 metrics. Builder work centers on ML engineering and production systems,
 including [[MLOps]] and technical debt. Consultant work centers on stakeholder
@@ -45,7 +45,7 @@ Use that split to decide where a broad data science path fits. It may be closer
 to the [[Data Analyst Role]] or the [[Machine Learning Engineer Role]]. It may
 also point toward [[Data Science for Managers]].
 
-In [[podcast:building-data-team|How to Build and Scale ML Teams]],
+In [[cite:building-data-team=>How to Build and Scale ML Teams]],
 [[person:dattran=>Dat Tran]] adds the startup version.
 Early teams often need generalists first. Specialists become easier to justify
 as the product and data platform mature.
@@ -71,7 +71,7 @@ decision should follow.
 The role definition episode puts analysts close to product managers because
 analysts know company data. They can also quantify whether the team should
 solve a problem
-([[podcast:data-team-roles|Data Team Roles Explained]]).
+([[cite:data-team-roles=>Data Team Roles Explained]]).
 Podcast discussions on product analytics add experiments to that definition.
 They also add funnels, cohorts, and dashboard communication
 ([[Data Analyst Role]],
@@ -83,7 +83,7 @@ mean product analytics or applied machine learning. In the role definition
 episode, the simplest split is that analysts explain what happened while data
 scientists predict and help integrate predictions into products.
 
-In [[podcast:crisp-dm|CRISP-DM]], the data science
+In [[cite:crisp-dm=>CRISP-DM]], the data science
 workflow starts with business understanding. It then moves through data
 preparation, modeling, evaluation, and deployment. That makes the job less
 about a notebook and more about tested evidence for a decision
@@ -95,7 +95,7 @@ them for downstream teams.
 
 The role definition episode describes data engineers as the people who make
 user-generated data available in usable form. In
-[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
 [[person:roksolanadiachuk=>Roksolana Diachuk]] grounds
 the engineering side in ETL and storage. Spark performance, monitoring, and
 schema work also sit on that side
@@ -109,10 +109,10 @@ semantic definitions, and BI-ready marts.
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]
 grounds the role in modeling, data quality, `dbt`, and Looker in
-[[podcast:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] adds
 that the role makes business reality visible in safe data systems in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 ([[Analytics Engineering]]).
 
 The machine learning engineer role begins when models need to become reliable
@@ -120,9 +120,9 @@ software. MLEs package models and expose inference paths. They build serving
 paths, test deployments, and monitor model behavior.
 
 The role definition episode describes MLEs as the people who help data
-scientists scale model-backed services. [[person:benwilson|Ben Wilson]]
+scientists scale model-backed services. [[person:benwilson=>Ben Wilson]]
 adds the maintainability lens in
-[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 Good ML engineering favors modular systems the team can test and operate
 ([[Machine Learning Engineer Role]],
 [[Machine Learning System Design]]).
@@ -135,11 +135,11 @@ describes the role through customer discovery and hypothesis formation.
 
 Data literacy and launch work also belong in the role. Quality and
 documentation appear there too in
-[[podcast:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 [[person:gregcoquillo=>Greg Coquillo]] adds roadmaps
 and customer journey mapping. He also adds success metrics and problem-first AI
 product work in
-[[podcast:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
+[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 ([[Data Product Management]],
 [[Data Products]]).
 
@@ -151,7 +151,7 @@ metrics. Cohort analysis and experiment readouts can sit there too.
 
 Data scientists add heavier modeling, experiment design, predictive features,
 and uncertainty analysis. In
-[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]],
+[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]],
 [[person:alicjanotowska=>Alicja Notowska]] treats title
 ambiguity as a hiring reality. The actual responsibilities matter more than the
 label
@@ -177,7 +177,7 @@ logic in every dashboard.
 
 [[person:nikolamaksimovic=>Nikola Maksimovic]]
 shows the overlap in
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]].
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]].
 Marketing reporting and SQL can sit on the path from analyst-like work into
 analytics engineering. Looker, product analytics, `dbt`, and A/B testing can
 join the same path
@@ -192,7 +192,7 @@ on those paths. They then add modeled domains, semantic definitions, and
 BI-ready marts. Tests and documentation sit with that work too.
 
 The boundary is clear in modern-stack discussions such as
-[[podcast:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]].
 [[person:nataliekwong=>Natalie Kwong]] places data
 marts after ingestion and storage. She places ELT transformations before those
 marts
@@ -213,9 +213,9 @@ Data product manager versus every technical role is a split between product
 decision and implementation. The data product manager decides which user
 problem matters, which outcome proves success, which constraints set the
 roadmap, and how adoption will happen. Technical leads and contributors decide
-how to build the solution. [[person:geojolly|Geo Jolly]]
+how to build the solution. [[person:geojolly=>Geo Jolly]]
 makes that split concrete in
-[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
+[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 The PM defines the problem and target outcome, while the engineering team
 defines the solution
 ([[ML Product Manager Role]]).
@@ -258,19 +258,19 @@ understanding what their work costs and what users need from the result
 Team stage matters too because Dat Tran's team-building episode argues that
 early startups often need T-shaped generalists. They may need to move across
 product, data engineering, and ML. Later teams can afford more specialization
-([[podcast:building-data-team|How to Build and Scale ML Teams]]).
+([[cite:building-data-team=>How to Build and Scale ML Teams]]).
 That means a first data hire may do analyst, engineer, scientist, and product
 work in the same month. A mature platform team may split those same
 responsibilities across several people.
 
 For career changers, DataTalks.Club guests repeatedly advise translating prior
-work into role evidence. [[person:ksenialegostay|Ksenia Legostay]]
+work into role evidence. [[person:ksenialegostay=>Ksenia Legostay]]
 turned project management and KPI work into data science evidence in
-[[podcast:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
+[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 Nikola Maksimovic turned marketing funnels and reporting into analytics
-engineering evidence. [[person:svpino|Santiago Valdarrama]]
+engineering evidence. [[person:svpino=>Santiago Valdarrama]]
 turned software engineering into ML system work in
-[[podcast:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
+[[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
 The target role decides which old skill is an asset and which gap you need to
 close
 ([[Career Transitions in Data]]).
@@ -304,8 +304,8 @@ or quality checks, then document the schema and make reruns inspectable.
 [[person:jeffkatz=>Jeff Katz]] emphasizes SQL, Python,
 and cloud fundamentals in his data engineering career and job-prep episodes.
 Docker and Airflow also appear there, along with warehouses
-([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]],
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 [[Data Engineering Portfolio Projects]]).
 
 An analytics engineering portfolio should prove reusable modeling. Show raw
@@ -325,7 +325,7 @@ deployment path.
 
 Ben Wilson's production ML discussion and
 [[person:nadianahar=>Nadia Nahar]]'s
-[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 both make requirements and modular code part of ML engineering evidence. Tests
 and deployment gaps matter too
 ([[Machine Learning Portfolio Projects]]).
