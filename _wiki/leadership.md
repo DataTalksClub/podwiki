@@ -292,6 +292,22 @@ The [[Mentoring in Tech]] page covers longer mentoring relationships. Leaders
 choose among reflection, repeated examples from other teams, and direct advice
 for a blocked next step.
 
+Rahul Jain adds a useful boundary for leaders who mentor. Mentoring isn't the
+same as jumping to an answer. He recommends listening first and probing the
+person's context. Leaders should avoid the "advice monster" response where the
+senior person immediately prescribes a fix
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@30:40=>Mentoring People Skills]].
+
+Managers see this when mentees bring imposter syndrome. They also see it when
+someone feels pressure to choose management over technical work. External
+perspective also helps when the reporting line shapes the advice
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@36:40=>Mentee Challenges]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>External Mentors]].
+
+Jain also separates manager one-on-ones from mentoring. A manager can coach,
+while external mentors can give more neutral advice. Leaders shouldn't treat all
+growth support as something the reporting manager alone must provide.
+
 [[person:16rahuljain=>Rahul Jain]] adds the data engineering version of this
 same coaching work in
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].

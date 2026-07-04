@@ -288,18 +288,30 @@ implementation [[cite:from-biology-to-machine-learning-data-science-portfolio-op
 
 ## Kaggle and Notebook Projects
 
-Kaggle projects can work as portfolio evidence when they show understanding,
-not just rank. In Analytics to Data Science with Kaggle,
-[[person:andradaolteanu=>Andrada Olteanu]] describes Kaggle notebooks, GitHub,
-and portfolio impact as public proof that helped a hiring conversation. She
-recommends learning by doing competitions and studying strong notebooks. She
-decomposes the code, reimplements it, debugs it, and improves it
-[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]].
+Kaggle projects can work as portfolio evidence when they show understanding.
+Rank alone isn't enough.
+
+[[person:andradaolteanu=>Andrada Olteanu]] describes Kaggle notebooks and
+GitHub as public proof. That proof helped a hiring conversation
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
+Her path matters for analysts because the notebooks made Python and modeling
+visible. She also preserved data validation, domain knowledge, and exploratory
+analysis as strengths from analytics
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
 
 Treat the notebook as part of the proof. A reviewer should see the
 reimplementation path, debugging trail, and candidate's own changes, not only a
-copied competition solution. Public discussion around the notebook can also
-create feedback and mentorship. Link the notebook from the
+copied competition solution.
+
+Olteanu's learning method was to study strong notebooks and rebuild them in a
+fresh notebook. She renamed variables, changed steps, and debugged the result
+until she understood the code path
+[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
+Public discussion around the notebook can also create feedback and mentorship.
+Olteanu connected with Gabi Preda through Kaggle activity, then turned that
+visibility into mentoring and a hiring conversation
+[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]].
+Link the notebook from the
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] page and
 prepare to defend it in a
 [[Data Scientist Interview Roadmap=>data scientist interview]].

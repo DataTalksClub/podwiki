@@ -156,14 +156,18 @@ Kaggle can work as a project-based learning environment, and master's or
 dissertation projects can become public notebooks.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]]
 
 Visibility matters because you can claim Python or PyTorch on a CV. Kaggle
-notebooks or GitHub projects show where those tools were used.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+notebooks or GitHub projects show where those tools were used
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
 Link the same project from the CV and GitHub profile. Share it on LinkedIn or
-Twitter too.
-Olteanu treats public project sharing as both learning evidence and a way to
-enter hiring conversations.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+Twitter too. Olteanu treats public project sharing as both learning evidence
+and a way to enter hiring conversations
+[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>LinkedIn and Twitter Sharing]].
 
-Show how you rebuilt and debugged the notebook. That gives interviewers more
-than a score.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle]]
+Show how you rebuilt and debugged the notebook because interviewers need more
+than a score. Olteanu recommends starting a fresh notebook, reproducing the
+logic from a strong notebook, changing variables and steps, and debugging the
+errors that appear
+[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
 Use [[Machine Learning Portfolio Projects]] to turn that trail into a baseline,
 evaluation, and limitation story.
 
@@ -180,10 +184,12 @@ gap selection, collection effort, and reuse work matter too.[[cite:applied-llm-r
 [[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research and Career Growth]]
 
 Public work can also support a [[career-transitions-in-data=>career transition]].
-Kaggle community interaction and mentorship can become part of the job-search
-story.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+Kaggle community interaction can add mentorship to the job-search story
+[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]].
 Transferable analyst skills help explain the move from analytics into data
-science.
+science. The CV should connect validation and domain knowledge to the target
+data scientist role, with EDA as visible proof
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
 
 Kaggle has limits because some interviews test algorithmic coding rather than
 practical ML project skills.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]

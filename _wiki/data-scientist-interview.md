@@ -126,7 +126,7 @@ They can also overshoot the day-to-day needs of most data scientist roles
 Olteanu describes the same split from the candidate side. Public notebooks can
 prove applied ML practice, while some screens still test algorithmic coding
 separately
-[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@26:07=>Coding Test Mismatch]].
 
 Don't treat that screen as the whole job. A candidate can pass an algorithm
 interview and still struggle with Git or debugging. Stronger interviews also
@@ -140,6 +140,12 @@ Put the rest of your preparation back into SQL and statistics. Also practice
 project defense, model evaluation, and [[Machine Learning System Design]]. Use
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] to choose
 which public projects deserve that practice time.
+
+For notebook-heavy portfolios, rehearse the reproduction story. Olteanu's
+rebuild-and-debug method gives interviewers a concrete way to ask how the
+candidate learns code. They don't have to ask only whether the final score was
+high
+[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
 
 Lavanya Gupta's preparation split is a useful calibration point for research and
 LLM-heavy roles. She pairs LeetCode-style practice with conceptual mastery and

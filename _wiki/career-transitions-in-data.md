@@ -114,9 +114,12 @@ data-analysis study with a part-time learning plan [[cite:project-manager-to-dat
 An analyst-to-data-science route can preserve strengths in data validation,
 exploratory analysis, and domain knowledge. A self-paced pivot may combine
 Udemy courses, Kaggle notebooks, YouTube, and public project work over about a
-year [[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]].
+year [[cite:analytics-to-data-science-with-kaggle-portfolio@52:54=>Analytics to Data Science with Kaggle]].
 Analysts can link [[Data Analyst Role]] experience to [[Data Scientist Role]]
-expectations through practical notebooks and public project work.
+expectations through practical notebooks and public project work. Analysts do
+not need to frame the move as starting over. They can use data validation,
+domain context, and EDA as the base for modeling and Python growth
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
 
 Software engineers can use a problem-first route, building before they feel
 mathematically complete [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
@@ -179,6 +182,13 @@ Career changers still need to choose a target role, build role-shaped proof,
 and use specific cold outreach or LinkedIn messages to find mentors. Rapport in
 data communities can turn visible work into word-of-mouth opportunities, but it
 doesn't replace proof [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
+
+Mentoring helps most when the career changer brings context and a next
+decision. Rahul Jain separates one-off advice from long-term mentoring. He also
+recommends using mentors to probe the real issue behind imposter syndrome or the
+tech-versus-management choice
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@36:40=>Mentee Challenges]].
 Age or a nonlinear path should be translated into results and transferable
 skills rather than hidden as a liability. Sarah Mestiri's job-search coaching
 keeps the focus on what the candidate can show and where prior experience helps
@@ -247,10 +257,16 @@ Software engineers moving into ML need real projects that can be shared
 Analysts moving into data science need public proof too. Kaggle notebooks and
 GitHub project writeups can show data exploration and modeling choices. They
 also show what the candidate learned
-[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Analytics to Data Science with Kaggle]].
 
 Kaggle is most useful when it sits inside a visible
 [[Machine Learning Portfolio Projects=>machine-learning portfolio]].
+For Olteanu, that visibility also created a mentoring path through Kaggle and
+helped her connect to a hiring conversation
+[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]].
+Olteanu still had to pass interviews, including coding screens that tested
+algorithmic problem solving separately from applied ML practice
+[[cite:analytics-to-data-science-with-kaggle-portfolio@26:07=>Coding Test Mismatch]].
 
 Zoomcamp projects and cloud exercises can become job-search evidence for
 QA-to-data transitions. GitHub notes make that evidence easier to review

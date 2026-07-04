@@ -148,6 +148,16 @@ training-set construction, and many warehouse models often fit batch. The
 [[Batch vs Streaming]]
 page covers that broader tradeoff.
 
+Live experiments can also justify streaming when the experiment experience has
+to be assembled at exposure time. In the Bol.com favorite-brand validation,
+Abbaspour's team wanted only employees to see the swiping page. The
+recommendations still depended on user-level calculations. The team used
+on-the-fly processing instead of precomputing recommendations for millions of
+users. That made targeting, product instrumentation, and
+[[a-b-testing=>experiment design]] part of the streaming decision
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:15=>Employee Targeting]]).
+
 ## Stream Engines and IoT Research
 
 Kretz lists Spark and Flink as compute options in

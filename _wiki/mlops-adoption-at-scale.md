@@ -58,18 +58,24 @@ changes without putting production at risk
 
 Industrial AI teams can use a crawl, walk, and run maturity path instead of
 rolling out a platform first. In
-[[person:andreyshtylenko=>Andrey Shtylenko]]'s version, crawl is the
-low-maturity stage. Engineers or managers may have promising ML demos. The
-organization hasn't yet built the data collection, infrastructure, roles, and
-iterative engineering habits needed to ship them
+[[person:andreyshtylenko=>Andrey Shtylenko]]'s version, leaders first ask
+which executive sponsors the work. A CTO line usually means product work, while
+a CIO line usually means internal optimization. CMO or CEO reporting changes the
+mandate toward go-to-market or cross-company work
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]].
+
+Crawl is the low-maturity stage, where engineers or managers may have promising
+ML demos. The organization hasn't yet built the data collection,
+infrastructure, roles, and iterative engineering habits needed to ship them
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@24:26=>Industrial AI and MLOps Practice]].
 
 That makes the first production-like project an adoption wedge, not just a
-demo. Shtylenko argues for as few POCs as possible. Ideally, one project proves
-the route from data collection and experiments to infrastructure change. It also
-proves productionization, monitoring, and retraining. Ten isolated POCs can
-damage trust if they never meet production data volume, infrastructure, and
-operating needs
+demo. Shtylenko argues for as few POCs as possible because weak pilots can give
+data science a bad reputation before the organization learns the operating
+model. One successful project should prove the route from data collection and
+experiments to infrastructure change. It should also prove productionization,
+monitoring, and retraining. Ten isolated POCs can damage trust if they never
+meet production data volume, infrastructure, and operating needs
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI and MLOps Practice]].
 
 For the project checklist behind that wedge, use the
@@ -107,7 +113,8 @@ Traditional industrial companies can be blocked by missing sensorization,
 disconnected equipment, or data that hasn't yet moved into cloud processing.
 In those cases, teams first have to make the physical process measurable enough
 for [[industrial-ml-applications=>industrial ML applications]]
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
 
 Those starting points change the first move. CI/CD can come first when
 deployment takes too long, while [[model monitoring]] can come first when
@@ -172,9 +179,11 @@ MLOps tooling.
 In the hub, shared services can cover vendor procurement and MLOps platform
 selection. They can also cover [[experiment-tracking=>experiment tracking]] and
 data or image [[annotation-quality-workflows=>annotation]] vendors. The useful
-standard is shared capability, not identical frameworks for every product team.
-The hub prevents duplicate vendor decisions while helping embedded teams
-consume common capabilities
+standard is shared capability. Product teams don't need identical frameworks.
+
+Shtylenko separates common vendor and platform decisions from language choices
+that can vary by team. The hub prevents duplicate vendor decisions while helping
+embedded teams consume common capabilities
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@50:14=>Industrial AI and MLOps Practice]].
 
 ## Support and Value

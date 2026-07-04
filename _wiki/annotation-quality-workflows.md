@@ -10,6 +10,7 @@ related:
   - Testing
   - MLOps
   - Evaluation
+  - Open Source
 ---
 
 Annotation quality workflows make labeled data useful enough for [[NLP]]
@@ -17,14 +18,18 @@ systems. They combine task definition and annotator guidance. They add review
 loops, quality metrics, privacy controls, and tooling. The resulting labels
 support [[evaluation]], [[testing]], and production [[MLOps]].
 
-When teams add weak supervision, [[LLMs]], or model-in-the-loop review, the
-workflow becomes harder. A generated label can speed a labeling project, but it
-still needs review before the team treats it as evidence. Johannes Hotter's
-Refinery example treats GPT, active learning, crowd labels, and task heuristics
-as noisy workers inside one annotation system. His Bricks example packages those
-signals as reusable recipes. Verena Weber's Alexa NLU study shows a parallel
-loop. Model suggestions can improve speed and consistency only when humans still
-verify them.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]][[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
+Weak supervision, [[LLMs]], and model-in-the-loop review make annotation harder.
+A generated label can speed a labeling project only if the team reviews it
+before treating it as evidence. In Johannes Hotter's Refinery example, GPT,
+active learning, and crowd labels act as noisy workers. Their disagreements show
+reviewers the messy subsets.
+
+TextBlob, Vader, and task rules can play the same role. His Bricks example
+packages those signals as reusable NLP recipes.
+
+Verena Weber's Alexa NLU study shows the model-assisted side. The model proposes
+an interpretation, and the annotator verifies or corrects it before the data
+enters retraining.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]][[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
 
 ## Workflow Definition
 
@@ -51,9 +56,10 @@ deployment and monitoring determine whether labels are useful enough for
 production. Control, cost, and bias matter too.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
 
 Model assistance creates the clearest boundary. For mature NLP workflows, a
-model suggestion can reduce repetitive work and improve consistency. For
-weak-supervision workflows, the model is one label source among rules, crowd
-judgments, and active-learning choices rather than an authority. For high-risk or
+model suggestion can reduce repetitive work and improve consistency when the
+model is already close enough for humans to verify. For weak-supervision
+workflows, the model is one label source among rules, crowd judgments, and
+active-learning choices rather than an authority. For high-risk or
 customer-facing AI, humans still approve, correct, and audit the output before it
 becomes user-visible behavior.[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Generative AI Consulting]][[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
@@ -130,7 +136,9 @@ suggestion. The interface can also bias attention: unlabeled items may become
 less visible when a system pre-fills predictions.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 Model-in-the-loop annotation works best when the model output is already close
-to useful. In Weber's Alexa NLU study, random live-traffic samples used to go to
+to useful. In Weber's Alexa NLU study, her team regularly retrained German and
+French natural language understanding models. Some new training examples came
+from random live-traffic samples, and the old process sent those requests to
 human annotators before training. The revised workflow first ran each request
 through the NLU model and showed the proposed interpretation to the annotator.
 That narrowed the task from full labeling to verification or correction.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
@@ -139,8 +147,9 @@ For the mature Alexa language model Weber described, the suggested
 interpretation was often close enough that annotators made fewer corrections.
 That saved time, reduced annotation volume, and made repeated labels more
 consistent because annotators reacted to the same candidate interpretation. The
-point wasn't to replace annotators. It was to make the review task narrower and
-more repeatable
+point wasn't to replace annotators. It was to change the human job from blank
+annotation to model review, which makes the review task narrower and more
+repeatable
 [[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Generative AI Consulting]].
 
 Active learning has the same boundary. Low-confidence and decision-boundary
@@ -150,22 +159,24 @@ to 20% less data, not a complete step-change. That keeps active learning tied
 to experiment design and [[evaluation]], not to a promise that annotation will
 disappear.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
-For [[LLMs]], the review rule still applies, and Hotter gives a concrete
-LLM-labeling example. A team can ask ChatGPT to label the first 10,000
-intent-classification examples, then train a model on those labels. He treats
-that as one solid starting point, not the full quality workflow. The same batch
-can be compared with an active learner, crowd labels, and other heuristics before
-the team trusts it. That connects LLM labeling to [[evaluation]] and
-[[data quality and observability]] instead of treating it as a shortcut around
-them.[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]]
+For [[LLMs]], the review rule still applies in Hotter's concrete LLM-labeling
+example. A team building an email intent classifier can ask ChatGPT to label an
+initial batch. Those examples can cover cancellations or feedback, and the team
+can train a model on the labels.
+
+He treats that as a useful starting point, not the full quality workflow. The
+same batch can be compared with an active learner, crowd labels, and other
+heuristics before the team trusts it. That connects LLM labeling to
+[[evaluation]] and [[data quality and observability]] instead of treating it as
+a shortcut around them.[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]]
 
 Hotter's framing keeps ChatGPT inside weak supervision rather than outside it.
-One signal can come from ChatGPT. Others can come from active learning, crowd
-labels, TextBlob, and task-specific rules. Vader can be another signal.
+One signal can come from ChatGPT. Other signals can come from active learning
+and crowd labels. TextBlob, Vader, and task-specific rules can contribute too.
 
-Quality work combines those signals and reviews conflicts. The workflow question
-becomes which signals agree, which ones fail on the same subset of examples, and
-which conflicts deserve human review
+Quality work combines those signals and reviews conflicts. Reviewers ask which
+signals agree, which ones fail on the same subset of examples, and which
+conflicts deserve human review
 [[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]].
 
 Production chatbot workflows make the review boundary explicit. A model can
@@ -187,20 +198,29 @@ model signals can reduce the amount of required hand labeling. The quality bar
 doesn't move outside the workflow: those weak labels still need gold examples,
 sampled review, agreement checks, and [[testing]].[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
-Refinery and Bricks show the tool version of the same approach. GPT prompts,
-TextBlob, and Vader can become labeling functions. Teams can also add crowd
-labels, task rules, and active-learning signals to the same ensemble. Refinery
-helps teams look at the data, while Bricks packages reusable heuristic recipes
-for NLP projects.
+Refinery and Bricks show the tool version of the same approach. Refinery turns
+raw data into candidate training data by combining noisy heuristics. Teams can
+then look at places where automated or manual labels look wrong.
+
+Bricks packages reusable recipes such as a sentiment Brick that can use TextBlob
+in one implementation and a GPT prompt in another. The team compares them
+instead of trusting one signal. Teams can also add crowd labels, task rules, and
+active-learning signals to the same ensemble.
 
 That makes the label source explicit. A label can come from a person or a crowd
-vote. It can also come from a rule, prompt, or model-confidence choice. The
-workflow has to keep those sources visible.[[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]]
+vote. It can also come from a rule, prompt, model-confidence choice, or
+off-the-shelf NLP component. The workflow has to keep those sources visible
+because even "ground truth" labels can be messy.[[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]]
 
 Weak supervision can also debug existing labels. Hotter frames Refinery as a way
 to look at messy ground-truth data and find subsets where rules collide.
-Bricks-style heuristics can then make those collisions visible. That makes weak
-supervision useful for auditing training data, not only bootstrapping new labels
+Bricks-style heuristics can make those collisions visible. They can show
+long or complicated texts and sentiment cases where two implementations
+disagree. They can also show records where a domain rule and a model prediction
+disagree.
+
+That makes weak supervision useful for auditing training data, not only
+bootstrapping new labels
 [[cite:building-open-source-nlp-tool@19:48=>Open-Source NLP Tool]].
 
 The consistency gain comes from comparison, not from trusting one heuristic.
@@ -237,10 +257,11 @@ cost and fatigue
 
 The tool decision should follow the task. A simple binary classification
 portfolio project may not need the same system that a compliance-sensitive
-information-extraction workflow needs. Proof-of-concept speed and open-source
-access change the tradeoff. So do annotator experience, active-learning support,
-crowd-review support, and weak-supervision support. For NLP projects, Hotter's
-examples also make data exploration part of tool selection.
+information-extraction workflow needs. Proof-of-concept speed and
+[[open source]] access change the tradeoff. Annotator experience,
+active-learning support, crowd-review support, and weak-supervision support also
+matter. For NLP projects, Hotter's examples make data exploration part of tool
+selection.
 
 Teams need to look at messy text and metadata. They also need to compare
 embeddings, rules, and proposed labels in one workflow before they decide which

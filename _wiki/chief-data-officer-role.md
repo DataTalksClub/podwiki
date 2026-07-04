@@ -127,6 +127,11 @@ Industrial AI leaders also have to choose where the data or AI practice
 reports. The reporting line may sit under a CTO, CIO, CMO, or CEO. The title
 matters less than whether the leader can coordinate platforms, data access,
 business adoption, and production ML practice across the organization.
+
+Shtylenko connects each reporting line to a different mandate. A CTO line means
+product capability, while a CIO line means internal optimization. A CMO line
+means sales and marketing analytics, and a CEO line means cross-functional data
+work across product, operations, and customer interaction.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
 
 Boyan Angelov gives a smaller-company bridge between strategist, head of data,
@@ -154,8 +159,14 @@ strategy.
 Industrial AI leaders also have to decide what stays central and what gets
 embedded near plants, products, or business domains. Teams can keep MLOps
 services, annotation workflows, experiment tracking, and procurement near the
-center while domain-facing teams handle adoption and local context.
+center while domain-facing teams handle adoption and local context. In
+Shtylenko's maturity path, one complete POC proves the end-to-end cycle. A
+centralized practice creates hiring and tooling standards. Then embedded teams
+use those standards inside their product organizations through a hub-and-spoke
+model.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@43:39=>Industrial AI org design]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@48:13=>Industrial AI hub-and-spoke]]
 
 The role therefore depends on [[team building]] and [[communication]].
 

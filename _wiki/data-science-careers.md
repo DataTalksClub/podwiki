@@ -64,7 +64,17 @@ That route connects [[Career Transitions in Data]] with
 [[Machine Learning Portfolio Projects]] because the candidate has to show both
 business framing and technical learning.
 
-[[person:andradaolteanu=>Andrada Olteanu]] took a more public-project route. She used Kaggle notebooks and GitHub to turn analytics experience into data science evidence. She also kept data validation, domain knowledge, and exploratory analysis as analyst strengths rather than background to discard.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Career Transition from Analytics to Data Science]]
+[[person:andradaolteanu=>Andrada Olteanu]] took a more public-project route.
+She used Kaggle notebooks and GitHub to turn analytics experience into data
+science evidence
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
+She also kept data validation, domain knowledge, and exploratory analysis as
+analyst strengths rather than background to discard
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
+Her self-paced version combined Udemy, Kaggle, YouTube, and evening practice
+over roughly six months to a year. That path bridges [[Data Analyst Role]]
+experience and [[Machine Learning Portfolio Projects]]
+[[cite:analytics-to-data-science-with-kaggle-portfolio@52:54=>Self-Paced Pivot]].
 
 [[person:marijnmarkus=>Marijn Markus]] adds the non-CS route. Sociology and
 qualitative research can become differentiators when candidates connect them to
@@ -91,11 +101,16 @@ Danny Ma sequences that evidence over time. He starts with SQL as the practical 
 
 Candidates then add data manipulation, [[experimentation]], metrics, and forecasting. After that, candidates move into traditional [[machine learning]] before [[deep learning]]. Most candidates should treat deep learning as a later specialization rather than the first proof point.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
-Graduate degrees can help for research-heavy or specialized roles, but practical
+Graduate degrees can help for research-heavy or specialized roles. Practical
 experience and portfolio evidence still matter for many applied data science
-paths. Candidates should treat a master's or PhD as one signal, not a substitute
-for role-relevant proof
+paths. Treat a master's or PhD as one signal, not a substitute for proof
 [[cite:how-to-break-into-data-science@1:01:42=>Data Science Career Playbook]].
+
+Olteanu compares a master's with independent study because the degree gave
+structure in a broad field. Kaggle, online courses, and YouTube provided much
+of the applied ML learning. Candidates who can't pause for a full degree can
+still build a credible route through reviewable notebooks and projects
+[[cite:analytics-to-data-science-with-kaggle-portfolio@49:27=>Master's vs Independent Study]].
 
 ## Portfolio Evidence
 
@@ -103,7 +118,15 @@ A data science portfolio should show how the candidate works, not only show note
 
 Candidates can build a project to stand out. Candidates without industry experience can use cold-start projects, synthetic data, and blogging.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]] [[Machine Learning Portfolio Projects]] expands that idea into project examples.
 
-Public work can help, but the format depends on the target role. Kaggle notebooks and GitHub worked for an analytics-to-data-science transition.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Career Transition from Analytics to Data Science]] Projects with real-world data are also recommended.[[cite:how-to-break-into-data-science=>Data Science Career Playbook]]
+Public work can help, but the format depends on the target role. Kaggle
+notebooks and GitHub worked for an analytics-to-data-science transition
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Career Transition from Analytics to Data Science]].
+Projects with real-world data are also recommended
+[[cite:how-to-break-into-data-science=>Data Science Career Playbook]].
+Olteanu also links public work to distribution. Kaggle made project work visible
+inside the competition community, while LinkedIn and Twitter helped people see
+the same learning path outside Kaggle
+[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>Project Sharing]].
 
 Product data science projects need business reasoning and metrics, while ML-heavy projects need modeling, evaluation, and production judgment.
 Unique projects can also beat generic portfolio work when they expose judgment.

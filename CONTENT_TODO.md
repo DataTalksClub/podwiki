@@ -91,22 +91,28 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
-Use `docs/mining/report_pod_09.md` as the current audit source for missing
-high-value graph edges. These are page-enrichment tasks, not new-page requests:
+The `docs/mining/report_pod_09.md` high-value graph edges were integrated on
+2026-07-04:
 
-- Add weak-supervision and model-in-the-loop annotation evidence from the Hotter
-  Refinery/Bricks and Weber discussions to `_wiki/annotation-quality-workflows.md`.
-- Add freelance and consulting evidence from
+- weak-supervision and model-in-the-loop annotation evidence from Hotter's
+  Refinery/Bricks discussion and Weber's Alexa NLU work now strengthens
+  `_wiki/annotation-quality-workflows.md`
+- freelance and consulting evidence from
   `from-startup-engineering-to-freelance-data-science` and
-  `practical-generative-ai-consulting` to the relevant freelance hubs:
-  `_wiki/data-freelancing-strategy.md`, `_wiki/freelance-data-and-ml-careers.md`,
-  and `_wiki/ml-consulting-proposals.md`.
-- Add Shtylenko's industrial maturity model evidence to
-  `_wiki/mlops-adoption-at-scale.md`.
-- Connect theme-park recommender validation evidence to `_wiki/a-b-testing.md`
-  and `_wiki/data-product-adoption.md`.
-- Keep using `data-team-roles` as foundational role-taxonomy evidence when
-  tightening role-boundary pages.
+  `practical-generative-ai-consulting` now strengthens the freelance,
+  consulting proposal, and consulting-to-product-founder pages
+- Shtylenko's industrial maturity model now strengthens MLOps adoption,
+  data-team, CDO, and industrial ML pages
+- theme-park recommender validation now strengthens A/B testing,
+  data-product adoption, recommendation systems, streaming, and AI
+  infrastructure pages
+- the Kaggle portfolio and mentoring-in-tech edges now strengthen career,
+  portfolio, interview, and leadership pages
+
+Use `docs/mining/report_pod_10.md` as the next audit source for missing
+high-value graph edges. These are page-enrichment tasks, not new-page requests.
+Keep using `data-team-roles` as foundational role-taxonomy evidence when
+tightening role-boundary pages.
 
 ## Roles
 

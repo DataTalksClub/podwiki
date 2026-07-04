@@ -82,15 +82,23 @@ division-level setup as an example. These structures keep data people close to
 product areas while still preserving a data leadership chain and shared planning
 cadence. [[cite:data-science-team-structure-and-org-design=>Cohen]]
 
-Industrial AI teams face a harder coordination problem because plants, business
-units, and central technology teams may all own part of the delivery path.
-Central teams can set standards and build reusable MLOps capability.
-Domain-facing teams can earn local trust and learn operational constraints
-faster.
-A hub-and-spoke model keeps shared services such as experiment tracking,
-annotation, and procurement near the center while domain-facing teams own the
-local adoption work.
+Industrial AI teams face a harder coordination problem. Plants, business units,
+and central technology teams may all own part of the delivery path.
+
+Shtylenko describes a staged path. Teams start with one end-to-end POC, then
+centralize data people long enough to define roles and MLOps standards.
+After that, they move people near the product or engineering teams that own
+daily delivery.
+Central teams can set standards and build reusable MLOps capability, but they
+can also become resource pools with queues and weaker product trust.
+
+Domain-facing teams learn local operational constraints faster, but a fully
+decentralized model can lose common standards. A hub-and-spoke model keeps
+shared services such as experiment tracking, annotation, and procurement near
+the center while domain-facing teams own the local adoption work.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@43:39=>Industrial AI org design]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@48:13=>Hub-and-spoke model]]
 
 ## Roles and Interfaces
 
@@ -213,6 +221,13 @@ A [[data-team-lead-role=>data team lead]] is
 responsible for more than delivery tickets. They protect the platform and the
 people who rely on it.
 
+Industrial AI shared services put part of that ownership in the center. The
+central group doesn't need to force every product team onto the same framework.
+It can own vendor relationships and help teams choose common MLOps, experiment
+tracking, and annotation services. That keeps procurement and platform decisions
+from splintering while embedded teams stay accountable for product outcomes.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@50:14=>Industrial AI shared services]]
+
 ## Scaling Risks
 
 Small data teams usually start with generalists. [[person:dattran=>Dat Tran]]
@@ -274,9 +289,15 @@ takers, whether they sit in a central team or a matrixed product organization.
 
 Industrial AI leaders have to treat the reporting line as part of the design,
 not just a title choice. A data science or AI practice may report through a
-CTO, CIO, CMO, or CEO. For the team, the useful test is whether that line gives
-it enough authority to coordinate platforms, business adoption, and operational
-change.
+CTO, CIO, CMO, or CEO.
+
+A CTO line usually points the team toward product
+capabilities. A CIO line points toward internal efficiency. A CMO line points
+toward marketing, sales, and customer interaction. A CEO line gives the data
+group a broader cross-company mandate.
+
+For the team, the useful test is whether that line gives it enough authority to
+coordinate platforms, business adoption, and operational change.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
 
 Dehghani and Mehdi put more weight on architecture and platform interfaces.

@@ -112,6 +112,15 @@ visible. Open knowledge projects, collaborative docs, and cheat sheets can do
 the same.
 [[cite:developer-personal-brand-learn-in-public@38:30=>Learn in Public]].
 
+Kaggle can play the same role for data scientists when the public notebook
+shows real learning rather than copied code. Olteanu used Kaggle notebooks and
+GitHub to make a self-paced analytics-to-data-science move visible beyond a CV
+claim. She used LinkedIn and Twitter to share the same work outside Kaggle
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
+[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>LinkedIn and Twitter Sharing]].
+Reviewers learn more when they can see what the person studied and rebuilt,
+where they debugged, and what they shared with the community.
+
 Public deadlines, accountability, and batching help keep community work moving.
 For career development, the same practice can make learning and publishing more
 consistent than private intention alone. A planned post, project demo, course
@@ -215,12 +224,27 @@ The useful caveat is that some experiments fail or need medical caution, so the
 career lesson is sustainable self-management, not universal biohacking advice.
 [[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@41:16=>Biohacking]][[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@45:47=>Biohacking]]
 
-[[mentoring-in-tech=>Mentoring]] is a deliberate career-development practice,
-not just one-off advice.
-Ongoing mentoring relationships benefit from cold-outreach tactics, session
-preparation, boundary setting, and structured development plans. Mentors also
-learn to recognize recurring situations and listen better.
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]].
+Rahul Jain treats [[mentoring-in-tech=>mentoring]] as career development rather
+than one-off advice. He separates one-off advice from long-term relationships.
+Mentees should name the kind of help they want. They may need validation or help
+with a specific decision. They may also need ongoing development support
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@6:10=>Mentoring Scope]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]].
+
+A mentee gets more from cold outreach when they include background and goals.
+They should give enough context for the mentor to decide whether they can help
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@16:30=>Mentor Outreach]].
+
+A mentee gets more from a session when they bring goals, expectations, and an
+agenda. They shouldn't expect a mentor to make the decision for them
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@19:40=>Mentoring Session Prep]].
+For longer relationships, mentor and mentee need boundaries, cadence, and
+follow-through. A development plan only helps when they revisit it regularly
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@52:40=>Development Plans]].
+
+Mentors also develop career skills. They listen better, recognize recurring
+situations, practice empathy, and ask before giving advice
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@30:40=>Mentoring People Skills]].
 
 ## Transitions and Transferable Strengths
 

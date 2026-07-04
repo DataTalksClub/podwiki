@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11083
+    "links": 11102
   },
   "nodes": [
     {
@@ -24658,6 +24658,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -26938,6 +26944,18 @@
     },
     {
       "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
       "target": "wiki:testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -28660,6 +28678,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -29291,6 +29315,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52252,6 +52282,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "podcast:building-healthcare-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -52324,6 +52360,18 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -52339,6 +52387,18 @@
       "target": "wiki:data-science",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:industrial-ml-applications",
@@ -52387,6 +52447,24 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:industrial-ml-applications",
@@ -53783,6 +53861,12 @@
     {
       "source": "wiki:leadership",
       "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -71500,6 +71584,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -71645,6 +71735,18 @@
     {
       "source": "wiki:recommendation-systems",
       "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -75376,7 +75478,19 @@
     },
     {
       "source": "wiki:streaming",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:streaming",
       "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
     },

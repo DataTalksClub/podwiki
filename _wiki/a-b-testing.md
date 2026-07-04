@@ -95,10 +95,10 @@ segment outcomes through an experimentation platform
 Patient safety, [[privacy engineering for ML]], and
 [[responsible AI and governance]] sit beside the usual product-growth concerns.
 
-Teams validating recommenders can't rely only on clicks or purchases. Abouzar
-Abbaspour notes that an A/B test can be biased by the way the team defines
-success. Sales and clicks show response, but they don't always prove that the
-recommendation matched what the person wanted
+For recommender validation, clicks and purchases aren't enough. Abouzar
+Abbaspour notes that metric definitions can bias an A/B test. Sales and clicks
+show response. They don't prove that a next-best-action recommendation matched
+what the person wanted. They also don't prove that it helped the product outcome
 ([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park to Tesla]]).
 
 The favorite-brand team therefore used an employee swiping game before rollout.
@@ -114,6 +114,14 @@ fit, not only model score. The offline preference check gives stakeholders
 confidence before they spend more engineering time or expose the recommender
 broadly
 ([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@30:43=>Theme Park to Tesla]]).
+
+The theme-park routing case shows the same staged check before a
+visitor-facing rollout. The team first had to collect app survey data and model
+route preferences. Then it used those signals to recommend the next attraction
+for a group. That kind of system needs two A/B-test measurements: the product
+metric and the recommendation's fit to visitor behavior
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]]).
 
 The marketing measurement boundary covers treatment/control design and data
 pitfalls for uplift ([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]]).

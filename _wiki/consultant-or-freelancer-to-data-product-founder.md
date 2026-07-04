@@ -85,10 +85,13 @@ turning them into software:
 - publish docs, demos, or an open-source core when adoption needs trust
 - measure paid demand, activation, retention, and support load
 
-In the consulting-to-offer version, workshops and use-case discovery come first.
-A pitch deck and evidence set the offer, and rates define the commercial terms.
+For consulting offers, Weber starts with workshops and use-case discovery.
+A pitch deck sets the offer with evidence and rates.
 Network conversations, events, LinkedIn, and referrals support client
-acquisition. Content can help too.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Practical Generative AI Consulting]]
+acquisition. Content can help too.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Practical Generative AI Consulting]]
+Weber makes the product fork explicit. Short client or mentoring engagements
+can reveal repeated problems. Those problems can justify a product instead of
+another custom project.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@47:27=>Practical Generative AI Consulting]]
 
 ## Product Discipline After the First Offer
 

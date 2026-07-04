@@ -33,7 +33,7 @@ project focus while still working in a startup role.[[cite:from-startup-engineer
 [[generative AI]] consulting adds paid discovery through workshops and use-case
 selection. Verena Weber starts with use-case workshops and network
 conversations. She also uses a reusable pitch deck and rates to make the offer
-concrete before a build project exists.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>GenAI]]
+concrete before a build project exists.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>GenAI workshops]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>GenAI deck]]
 
 The strategy connects to [[entrepreneurship]], [[career growth]],
 [[solopreneur]], and [[startups=>startup]] because freelancing is both a career
@@ -149,10 +149,13 @@ adjust the offer. It can push the freelancer to narrow the skill focus or
 improve proof. It can also push them to change the proposal rather than only
 sending more bids.
 
-Stellas added a PowerPoint with self-built project evidence after early
-proposals failed to convert. He turned course work and portfolio material into
+Stellas added a PowerPoint after early proposals failed to convert. It showed
+self-built project evidence. He turned course work and portfolio material into
 buyer-facing proof instead of background experience
 [[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]].
+He also treats the first small jobs as reputation building because modest
+projects can earn ratings. Ratings from repeated jobs make later proposals
+easier to trust.
 
 Marketplace evidence links this work to
 [[machine learning portfolio projects]] and [[open source portfolio evidence]].
@@ -166,11 +169,11 @@ skills can support higher rates because the buyer has fewer alternatives.
 Hourly rates depend on client type and project duration. They also depend on
 learning value and the freelancer's willingness to protect non-client time.[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
 
-Antonis Stellas gives the concrete version. An hourly anchor can change for a
-simple project or a larger corporate client. It can also change for a
-learning-heavy engagement or the limited time left after a startup job. Pricing
-reflects client value and project complexity. It also reflects learning value
-and opportunity cost, not only a public profile rate.[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
+Antonis Stellas gives the concrete version: his public Upwork anchor was $43 per
+hour. He changed it for simpler projects, larger corporate clients,
+learning-heavy engagements, and the limited time left after a startup job.
+Pricing reflects client value and project complexity. It also reflects learning
+value and opportunity cost, not only a public profile rate.[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
 
 Recruiter channels can validate demand and create fast access to projects. They
 also add middlemen, duplicated submissions, and less direct control.

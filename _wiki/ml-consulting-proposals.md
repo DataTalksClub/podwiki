@@ -37,7 +37,7 @@ gates [[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine L
 discipline [[cite:solopreneur-data-scientist=>Introducing Data Science in Startups]].
 [[person:verenaweber=>Verena Weber]] adds the GenAI consulting version. She uses
 workshops, use-case discovery, and pitch decks. Rates and client-finding through
-network conversations are part of the same proposal work [[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]].
+network conversations are part of the same proposal work [[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>GenAI deck]].
 
 ## Proposal as Decision Document
 
@@ -301,10 +301,11 @@ new information appears.
 
 Weber includes rates in the pitch deck so pricing becomes part of positioning.
 Buyers can compare workshop and advisory options with implementation work before
-the buyer asks for a larger engagement. Weber keeps evidence and contact paths in the same view.
+the buyer asks for a larger engagement. Weber keeps evidence, reference
+projects, a daily rate, and contact paths in the same view.
 Consultants can adapt the proposal by audience. They should keep the price
 signal attached to proof and problem focus
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]]).
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>Generative AI Consulting]]).
 
 Trust is built before and during pricing. Braun treats unpaid intro meetings as
 part of building trust and fit
@@ -343,11 +344,12 @@ The pitch deck is positioning work before larger projects. It starts from the
 consultant's strengths and the customer's problem, then turns that intersection
 into concrete offers. A useful deck can include GenAI evidence and risks. It
 can also include reference projects, rates, and contact paths. Weber builds a
-long version first.
+long version first because she wants to be known for specific topics, not
+anything a buyer happens to request.
 
 She shortens it for each audience, so the proposal stays reusable without
 becoming generic
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>Generative AI Consulting]]).
 
 That consulting structure is closer to
 [[data product management]]

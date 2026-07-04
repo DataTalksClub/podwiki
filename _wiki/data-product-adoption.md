@@ -64,13 +64,15 @@ definitions and proactive data-quality communication. Users also need enough
 visibility into how numbers are produced before they'll use them confidently.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
-Recommendation products make adoption visible at the data-collection stage. In
-a theme-park routing project, the park already had broad app usage: Abbaspour
+Recommendation products expose adoption during data collection. In a
+theme-park routing project, the park already had broad app usage: Abbaspour
 estimated that at least 60% of visitors used the app. The team added a
-free-coffee incentive to pull visitors into the survey, so [[data product
-adoption]] and training-data collection became the same product problem. The
-app had to attract enough real visitors before the [[recommendation
-systems=>recommender]] could learn route preferences
+free-coffee incentive to pull visitors into the survey. Product adoption and
+training-data collection became the same problem.
+
+The app had to attract real visitors first. Only then could the
+[[recommendation systems=>recommender]] learn route preferences and suggest
+each group's next attraction
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>Theme Park to Tesla]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@15:06=>App Incentives]].
 
@@ -235,8 +237,12 @@ The later favorite-brand recommender used the same adoption logic internally.
 Before a broad launch, the team showed employees a swiping interface and asked
 whether each brand was a favorite. The internal experience worked as both user
 research and stakeholder proof. The team needed confidence that the
-recommendations reflected real preference before asking users to click brand
-pages in production
+recommendations reflected real preference. Only then did it ask users to click
+brand pages in production.
+
+That makes [[a-b-testing=>A/B testing]] an adoption tool. It helps the team
+decide whether the product surface deserves more exposure. The swiping
+prototype first checks whether the recommendation feels credible
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Employee Swiping]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]].
 

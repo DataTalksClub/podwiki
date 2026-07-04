@@ -13,6 +13,9 @@ related:
   - Data Pipelines
   - Recommendation Systems
   - Streaming
+  - MLOps
+  - Data Teams
+  - Data Product Adoption
 ---
 
 Industrial ML applications are production [[machine learning]]
@@ -35,6 +38,13 @@ Autonomous-driving work is the safety-critical version. Sensor data,
 simulation, closed-track tests, and labeling define production. Release staging
 belongs to that same boundary[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
 
+Andrey Shtylenko's industrial AI discussion adds the organization boundary.
+Traditional industrial companies may need sensorization and cloud processing
+before AI pilots can become product features. They may also need MLOps
+standards and team redesign
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
+
 Use [[Machine Learning System Design]]
 for general architecture, and use [[Model Monitoring]]
 for drift and feedback loops. Use [[Computer Vision]]
@@ -46,6 +56,14 @@ for release, recovery, and ownership.
 Industrial ML means applied modeling constrained by the physical process that
 produces the data. The model has to respect tool cycles and sensor limitations.
 It also has to respect human movement, safety procedures, and product adoption.
+
+Shtylenko describes this as a shift from hardware-first products toward
+software and data-enabled products. A connected air-quality sensor can send data
+to the cloud, where teams can run heavier signal processing and improve models.
+A conventional gas meter or standalone device can't simply absorb that compute.
+The team has to change the product and infrastructure boundary too
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
 
 Semiconductor yield work starts with process telemetry and tool logs, not with
 model choice. Chip processes happen in large tools, and their logs capture
@@ -116,6 +134,15 @@ roles[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor M
 Useful yield data became available because the work connected database access
 with production and engineering context.
 
+Shtylenko makes the same constraint organizational. Industrial teams may be able
+to build a flashy demo on a small sample. Production ML needs enough data
+volume, a plan for data collection, and integration paths. It also needs
+monitoring and retraining.
+
+Teams should design the data plan at project start. They shouldn't discover
+late that the physical process never collected what the model needs
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
+
 Sofya's tracker shows the hardware tradeoff more directly because the device
 collects accelerometer, gyroscope, and magnetometer readings. Heart-rate extraction is
 hard because fur and comfort make some sensors impractical.
@@ -161,6 +188,14 @@ It also covers engagement metrics, accuracy results, and [[streaming]]
 for live experiments
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
 The queue model is successful only if it changes visitor flow and experience.
+
+For industrial AI adoption, Shtylenko recommends proving one complete path
+before spreading pilots across many teams. The successful POC should cover data
+collection, experiments, and model selection. It should also cover
+infrastructure change, monitoring, and retraining. That makes validation an
+operating proof, not only an offline model score. It links industrial ML
+directly to [[mlops-adoption-at-scale=>MLOps adoption at scale]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
 
 Aishwarya's validation stack moves from simulation to closed tracks, then to
 on-road tests with safety drivers. Deployment to driverless cars comes after
@@ -247,6 +282,15 @@ His later yield projects worked better because they fit the data access and
 supervisor needs around Oracle, PL/SQL, JMP, and fab reporting
 [[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
+Shtylenko frames weak adoption as a customer-problem issue too. Teams can get
+excited about a new AI technique and look for somewhere to plug it in.
+Industrial AI practice starts from the customer experience or operational
+capability the team wants to improve. Otherwise, pilots stay disconnected from
+the product and the data plan. They also stay disconnected from the teams that
+have to run them
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@28:49=>Industrial AI customer problem]]
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
+
 Abouzar's crowd-routing case makes adoption a first-order data problem. App usage
 and incentives determine whether the park can collect enough preferences and
 routes to recommend useful next actions
@@ -287,3 +331,6 @@ industrial ML systems.
 - [[Data Pipelines]]
 - [[Recommendation Systems]]
 - [[Streaming]]
+- [[MLOps]]
+- [[Data Teams]]
+- [[Data Product Adoption]]
