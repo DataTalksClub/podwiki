@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10973
+    "links": 10959
   },
   "nodes": [
     {
@@ -9589,7 +9589,7 @@
       "title": "Data Engineer Role",
       "url": "/wiki/data-engineer-role/",
       "count": 1,
-      "search": "Data Engineer Role What data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
+      "search": "Data Engineer Role What data engineers do, where the role starts and ends, and how data engineering work shows up in practice."
     },
     {
       "id": "wiki:data-engineering",
@@ -34158,42 +34158,6 @@
     },
     {
       "source": "wiki:data-engineer-role",
-      "target": "person:16rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "person:gloriaquiceno",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "person:jeffkatz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "person:roksolanadiachuk",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
       "target": "person:slawomirtulski",
       "kind": "wiki-chip",
       "weight": 1
@@ -34225,6 +34189,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "podcast:data-team-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73308,42 +73278,6 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:mihaileric",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:nadianahar",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:svpino",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-chip",
       "weight": 1
@@ -76850,24 +76784,6 @@
       "source": "wiki:vector-databases",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-search-vs-keyword-search",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-search-vs-keyword-search",
-      "target": "person:danielsvonava",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-search-vs-keyword-search",
-      "target": "person:reemmahmoud",
-      "kind": "article-chip",
       "weight": 1
     },
     {
