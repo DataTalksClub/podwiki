@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11065
+    "links": 11051
   },
   "nodes": [
     {
@@ -9711,7 +9711,7 @@
       "title": "Data Pipelines",
       "url": "/wiki/data-pipelines/",
       "count": 1,
-      "search": "Data Pipelines Podcast grounded guide to data pipelines: ingestion, transformation, publication, orchestration, testing, recovery, CDC, and ML handoffs."
+      "search": "Data Pipelines Guide to data pipelines: ingestion, transformation, publication, orchestration, testing, recovery, CDC, and ML handoffs."
     },
     {
       "id": "wiki:data-product-adoption",
@@ -40626,54 +40626,6 @@
     },
     {
       "source": "wiki:data-science-for-managers",
-      "target": "person:alicjanotowska",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:barbarasobkowiak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:benwilson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:dannyma",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:dattran",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:katiebauer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:shirmeirlador",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
-      "target": "person:terezaiofciu",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science-for-managers",
       "target": "podcast:building-data-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -68571,42 +68523,6 @@
       "target": "wiki:tracking-plans",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:liesbethdingemans",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
-      "target": "person:saramenefee",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:product-analytics",
