@@ -28,23 +28,16 @@ Use [[Information Retrieval]]
 and
 [[LLM Evaluation Workflows]].
 
-[[person:atitaarora=>Atita Arora]] gives the core structure
-in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-At 30:38, she defines RAG as retrieval plus generation. At 35:49, she applies
-that design to podcast transcript question answering. At 38:24, she discusses
-chunking and overlap. At 42:49, she moves from retrieval into prompt context
-and citations.
-
-Her 48:09 evaluation discussion turns those implementation choices into review
-criteria.
+[[person:atitaarora=>Atita Arora]] starts from retrieval plus generation for
+RAG projects
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+She applies that design to transcript question answering and chunking. The same
+discussion covers prompt context, citations, and evaluation criteria.
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] adds
-the debugging standard in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]:
-at 23:00-25:25, he argues for representative gold test sets. At 26:43, he
-recommends ranking and categorizing failures. At 27:38, he ties a debuggable
-MVP to logs and traces.
+the debugging standard. He recommends representative gold test sets, ranked
+failure categories, and MVP logs and traces
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
 ## Corpus and Chunking
 
@@ -61,17 +54,17 @@ Chunking is a design choice, not a cleanup detail. Podcast data can be chunked
 by speaker turn or question. It can also be chunked by chapter or time window.
 Documents can be chunked by heading, section, or a sliding token window.
 
-Atita's transcript example in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-uses chunking and overlap at 35:49-42:49. It also uses embeddings, retrieval,
-prompt design, and citations. The same project evidence belongs with
+Atita's transcript example uses chunking and overlap with embeddings and
+retrieval. It also covers prompt design and citations
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+The same project evidence belongs with
 [[Embeddings]] and
 [[Vector Databases]].
 
 Large context windows don't remove chunking decisions.
 [[person:lavanyagupta=>Lavanya Gupta]] discusses
-long-context evaluation and degradation at 10:15-14:54 in
-[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
+long-context evaluation and degradation
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
 A project can use that evidence to justify testing chunk size, overlap, and
 retrieval count instead of stuffing every source into one prompt.
 
@@ -84,10 +77,9 @@ search-first README can show where keyword search wins, where embeddings win,
 and where metadata filters are required.
 
 [[person:danielsvonava=>Daniel Svonava]] supports that
-order in
-[[podcast:building-production-search-systems=>Building Search Systems]].
-He separates candidate retrieval from ranking at 12:45 and explains embeddings
-at 21:55. At 34:00, he covers hybrid search with filters and recency.
+order by separating candidate retrieval from ranking, explaining embeddings,
+and covering hybrid search with filters and recency
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Use
 [[Vector Database vs Search Engine]]
@@ -97,11 +89,11 @@ stack. Use
 when relevance metrics or business outcomes matter.
 
 [[person:meryemarik=>Meryem Arik]] gives the RAG reason
-for this baseline work in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-At 40:46, she favors retrieval when knowledge changes too often for repeated
-fine-tuning. At 42:02 and 46:42, she describes document indexing, retrieved
-sections, and summarization for grounding. That boundary belongs with
+for this baseline work. Retrieval fits knowledge that changes too often for
+repeated fine-tuning. Document indexing and retrieved sections support grounded
+summarization
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+That boundary belongs with
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 and
 [[LLM Production Patterns]].
@@ -114,18 +106,18 @@ prompt context, answer, and citations. If the system refuses to answer, show
 which missing evidence caused the refusal. If it answers, link each claim to a
 source chunk a reviewer can open.
 
-Atita's RAG discussion at 42:49 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-places prompt design and citations after retrieval. The project should preserve
-that order: first prove the retriever found useful context, then prove the
-prompt used it correctly.
+Atita's RAG discussion places prompt design and citations after retrieval
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+The project should preserve that order: first prove the retriever found useful
+context, then prove the prompt used it correctly.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] draws the
-boundary between RAG and agents in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-At 37:39, she separates cases where retrieval is enough from cases that need
-planning, actions, or tool use. A project should stay with RAG when the main
-task is source lookup and grounded answering. Move toward
+boundary between RAG and agents
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+She separates cases where retrieval is enough from cases that need planning,
+actions, or tool use.
+A project should stay with RAG when the main task is source lookup and grounded
+answering. Move toward
 [[agent-engineering=>AI Agents]] or
 [[Agent Engineering]] only when
 the task requires API calls, multi-step coordination, or external actions.
@@ -148,28 +140,28 @@ Store these trace fields with each run:
 - feedback
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
-the core evaluation structure at 23:00-27:38 in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+the core evaluation structure
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 Representative gold tests make the system measurable. Failure categories tell
 the team whether the next fix belongs in retrieval, prompting, formatting, or
 data preparation. Logs and traces make those decisions reviewable.
 
-Ranjitha extends the same idea to tool and agent workflows at 51:17-57:23 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-She covers custom datasets, mocked tools, integration tests, and outcome
-assertions.
+Ranjitha extends the same idea to tool and agent workflows with custom
+datasets, mocked tools, integration tests, and outcome assertions
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 That agent-evaluation evidence belongs with
 [[LLM Evaluation Workflows]]
 and [[Testing]].
 
 ## Graph or Structured Retrieval
 
-Some projects need more than nearest-neighbor text retrieval. In
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]],
+Some projects need more than nearest-neighbor text retrieval.
 [[person:anahitapakiman=>Anahita Pakiman]] connects
-knowledge graphs with LLM grounding at 33:43. At 38:10, she contrasts text
-chunking and embeddings with graph semantics. At 39:56, she discusses prompt
-templates that use Cypher-style graph queries for retrieval context.
+knowledge graphs with LLM grounding
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
+She contrasts text chunking and embeddings with graph semantics. She also
+discusses prompt templates that use Cypher-style graph queries for retrieval
+context.
 
 Use [[Graph RAG vs Vector RAG]]
 or
