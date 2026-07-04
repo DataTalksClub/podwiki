@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10917
+    "links": 10879
   },
   "nodes": [
     {
@@ -23376,42 +23376,6 @@
     },
     {
       "source": "wiki:ai-engineer-role",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "person:nasserqadri",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "person:revathyramalingam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "person:ruslanshchuchkin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -24697,36 +24661,6 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "book:20240115-distributed-machine-learning-patterns",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "person:andreycheptsov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "person:simonstiebellehner",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28626,78 +28560,6 @@
     },
     {
       "source": "wiki:career-development",
-      "target": "person:admondleekinlim",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:dannyma",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:lukewhipps",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:marijnmarkus",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:nicksingh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:olegnovikov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:rahuljain",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:ruslanshchuchkin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:saraelateif",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:sarahmestiri",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:swyx",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
-      "target": "person:tatianagabruseva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-development",
       "target": "podcast:biohacking-productivity-for-data-scientists-and-ml-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -30108,48 +29970,6 @@
     },
     {
       "source": "wiki:communication",
-      "target": "person:admondleekinlim",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:eugeneyan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:marijnmarkus",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:nicksingh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "person:olegnovikov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
       "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
       "kind": "wiki-chip",
       "weight": 1
@@ -30223,12 +30043,6 @@
     {
       "source": "wiki:communication",
       "target": "wiki:data-scientist-role",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "wiki:data-scientist-role",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -30236,12 +30050,6 @@
       "source": "wiki:communication",
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:communication",
-      "target": "wiki:data-team-lead-role",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -69577,42 +69385,6 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:alvaronavaspeire",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:benwilson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:jeffkatz",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:juanmanuelperafan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:nataliekwong",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:santonatuli",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "person:svpino",
       "kind": "article-chip",
       "weight": 1
     },

@@ -21,161 +21,148 @@ but closer to [[software engineering]]
 than to prompt writing alone. It borrows from
 [[data science]],
 [[machine-learning-engineer-role=>machine learning engineering]],
-and [[data-engineer-role|data engineering]], while
+and [[data-engineer-role=>data engineering]], while
 usually starting from foundation models instead of training every model from
 scratch.
 
-[[person:pauliusztin=>Paul Iusztin]] frames AI
-engineering as end-to-end product building, with a skill stack that covers data
-gathering, application code, deployment, agents,
-[[retrieval-augmented-generation=>RAG]], and
-[[llm-production-patterns=>LLMOps]]
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
-The AI engineer is a product builder who manages context and builds end-to-end
-systems that people can use
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+AI engineering covers product work around models, from data gathering and
+application code to deployment, agents, [[retrieval-augmented-generation=>RAG]]
+and [[llm-production-patterns=>LLMOps]][[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+AI engineers manage context and build end-to-end systems that people can
+use[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 
-## Product Ownership Around Models
+## Product Scope
 
-The shared definition is practical. An AI engineer turns a user or business
+In practice, an AI engineer turns a user or business
 problem into a working AI product, then keeps it measurable and maintainable.
-The job is building the software around models, with scope that includes
-frontend, backend, and database work alongside agents, RAG, deployment,
-monitoring, and LLMOps
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+The job means building software around models. That scope can include frontend,
+backend, database work, agents and RAG. It can also include deployment,
+monitoring and
+LLMOps[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
-The BranchGPT example shows the same boundary because the project wasn't only an
-LLM call. Users needed a web app with backend behavior, conversation branching,
-and context management
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
-The example places the role next to
+BranchGPT needed more than an LLM call. The project included backend behavior
+and conversation branching inside a web app, with context
+management[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+That kind of work places the role next to
 [[AI Tooling]] and
 [[open-source-portfolio-evidence=>open-source portfolio evidence]].
 A working product with explainable behavior says more than a list of model APIs.
 
-AI engineers often rely on existing models from model providers or open-source
-projects, then add context, retrieval, tools, user experience, tests, and
-measurement.
+AI engineers often rely on models from providers or open-source projects. They
+then add context, retrieval and tool use. They also add user experience, tests
+and measurement.
 
-That measurement ties back to data-science habits: precision, recall, and
-accuracy still matter when agents or generative AI replace older ML components
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+Measurement ties the role to data-science practice because precision, recall
+and accuracy still matter when agents replace older ML
+components[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 Those concerns put the role beside
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 [[AI Tooling]], and
 [[LLM Evaluation Workflows]].
-The [[book:20241104-llm-engineer-s-handbook|LLM Engineer's Handbook]]
+The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
 by Paul Iusztin and Maxime Labonne lays out the same end-to-end AI engineering
-skill stack, from data pipelines through RAG, agents, and LLMOps.
+skill stack. It runs from data pipelines through RAG, agents and LLMOps.
 
-## Moving Role Boundary
+## Role Boundaries
 
 AI engineers ship software, but guests draw the ownership boundary differently.
-[[person:pauliusztin=>Paul Iusztin]] emphasizes a
-full-stack builder who can own UI, backend services, data work, deployment, and
-operational monitoring, along with agents, RAG, and evaluation
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+One boundary treats AI engineers as full-stack owners. That ownership spans UI,
+backend services, data work, deployment and operational monitoring. It also
+includes agents, RAG and
+evaluation[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
-[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] emphasizes
-product discovery and tool fluency. The AI engineer watches the fast-moving
-tooling landscape, understands product needs, and turns useful ideas into
-applications
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
-Tool fluency increasingly includes
-[[AI Coding Tools]] that change
-how AI engineers write and maintain product code.
+Another boundary centers product discovery and tool fluency. AI engineers track
+the tooling landscape, connect it to product needs and turn useful ideas into
+applications[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+Tool fluency increasingly includes [[AI Coding Tools]] that change how AI
+engineers write and maintain product code.
 
-[[person:nasserqadri=>Nasser Qadri]] draws the boundary
-through background and organization type. The industry often uses "AI engineer"
-to mean generative AI engineer, but older AI, ML, and data-science vocabulary
-still matters
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+A third boundary depends on background and organization type. Companies often
+use "AI engineer" to mean generative AI engineer, but older AI, ML, and
+data-science vocabulary still matters[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] pushes the
-role toward production discipline through data pipeline tests, integration
-tests, prompt evaluation, token cost, prompt compression, and caching
-([[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
+Production-heavy definitions push the role toward data pipeline tests,
+integration tests and prompt evaluation. They also add token cost, prompt
+compression and
+caching[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] pushes
-the role toward [[agent engineering]],
-covering tools and memory, knowledge stores, context engineering, planning, and
-outcome-based tests
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Agent-heavy definitions push the role toward [[agent engineering]], including
+tools and memory, knowledge stores and context engineering. They also include
+planning and outcome-based
+tests[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 ## Application Layer Work
 
 AI engineers own the application layer around model behavior. The work is taking
-a model and building the surrounding product: requirements, software, and
-database design, plus frontend, backend, agents, workflows, and monitoring
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+a model and building the surrounding product. That includes requirements,
+software and database design, frontend and backend. It can also include agents,
+workflows and
+monitoring[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
-The role stays close to
-[[software engineering]] while
-adding judgment about prompts, context, tool use, model failure, and evaluation.
+The role stays close to [[software engineering]] while adding judgment about
+prompts, context and tool use. It also adds judgment about model failure and
+evaluation.
 
-Real projects are the hiring signal
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+Employers treat real projects as the hiring signal[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 
 ## RAG, Context, and Agents
 
-Context design is central to the role. RAG and knowledge management are core AI
-engineering skills, and agents need access to business data
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
-The data-engineering side adds prepared data, tested pipelines, and trust in the
-data that feeds the model
-([[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
+AI engineers use RAG and knowledge management for context design, while agents
+need access to business
+data[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+Production AI also needs prepared data, tested pipelines, and trust in the data
+that feeds the model[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
-Agents are software that uses LLMs and tools; memory, storage, and objectives
-are part of the system
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
-RAG stays in the toolset rather than acting as a universal answer: it works when
-teams need to reduce a large search space, while agents fit problems with
-multiple data sources, dynamic planning, and multiple API integrations
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Agents use LLMs and tools, with memory, storage and objectives as parts of the
+system[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+RAG stays in the toolset rather than acting as a universal answer. It works when
+teams need to reduce a large search space. Agents fit problems that combine
+multiple data sources with dynamic planning and API
+integrations[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 Those choices place the role beside
 [[agent-engineering=>AI Agents]] and
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 ## Evaluation and Production Reliability
 
-Evaluation separates an AI demo from an AI engineering project. It is a core
-skill for shipping AI products and sits beside agents and data pipelines
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
-The statistical framing is the same: teams still need precision, recall, and
-accuracy when AI systems replace classification or traditional ML workflows
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+Evaluation separates an AI demo from an AI engineering project. Teams need
+evaluation when they ship AI products, agent systems or data
+pipelines[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+Teams still need precision, recall and accuracy when AI systems replace
+classification work. The same metrics apply when they replace traditional ML
+workflows[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
 Practical methods live in
 [[LLM Evaluation Workflows]]
 and [[Evaluation]].
 
-Production reliability adds cost and latency work, along with caching, tests,
-and operational ownership. Production AI depends on data pipeline testing,
-prompt examples, prompt evaluation datasets, prompt compression, and prompt
-caching
-([[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
-Agent-specific testing mocks tools, runs integration tests, and asserts whether
-the agent achieved the right outcome without requiring the same reasoning path
-every time
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Production reliability adds cost and latency work, caching, tests and
+operational ownership. Production AI depends on data pipeline testing and
+prompt examples. It also needs prompt evaluation datasets, prompt compression
+and prompt caching[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+
+Agent-specific testing mocks tools and runs integration tests. It asserts
+whether the agent achieved the right outcome without requiring the same
+reasoning path every
+time[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 The work overlaps with [[MLOps]],
 [[AI Infrastructure]], and
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 
 ## Product Discovery and Domain Knowledge
 
-AI engineers need enough product and domain context to know what the model
-should do. The role is a "universal soldier" that combines AI tooling, product
-discovery, and full-stack system design
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+AI engineers need product and domain context to define what the model should do.
+Their work combines AI tooling, product discovery and full-stack
+system design[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 Account-management background matters here because it teaches stakeholder
-communication, expectation setting, and trust
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+communication, expectation setting, and
+trust[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 
-The domain-knowledge point comes from data science and social science. In
-healthcare, financial services, and national security, enough domain knowledge
-to speak with experts helps set up the right evaluation framework
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+Domain knowledge matters most when the model works in a specialized field.
+Healthcare, financial services and national security teams need enough domain
+knowledge to speak with experts. That knowledge also helps teams set up the
+right evaluation
+framework[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
 Communication and domain fluency become technical strengths when "good" is
 ambiguous. The same requirement links the role to
@@ -184,27 +171,21 @@ ambiguous. The same requirement links the role to
 
 ## Career Paths and Portfolio Signals
 
-Guests reached AI engineering through several routes. Paul worked across backend,
-frontend, and infrastructure before moving into deep learning and ML
-engineering, then connected LLMOps to end-to-end product work
-([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+AI engineering career paths can start in backend, frontend or infrastructure.
+They can also start in deep learning or ML
+engineering[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+Other paths pass through business roles, data science and side projects. They
+can also pass through software engineering, social science and applied
+ML[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]][[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
-Ruslan came through business roles, data science, ML engineering, and side
-projects before moving into GenAI engineering
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
-Nasser came through software engineering and social science, and brought data
-science and applied ML
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+A career-break path can use learning in public, a telecom ML capstone,
+AI-assisted prototypes and interview preparation. It can also use a PDF Q&A
+assistant as
+proof of ability[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]].
 
-[[person:revathyramalingam=>Revathy Ramalingam]] adds a
-career-break path using learning in public, a telecom ML capstone, AI-assisted
-prototypes, and interview preparation, with a PDF Q&A assistant as concrete proof
-of ability
-([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|How to Become an AI Engineer After a Career Break]]).
-
-Side projects can make a company take a candidate seriously when the project
-solves a real problem and the candidate can explain the choices
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+Companies can take side projects seriously when the project solves a real
+problem. The candidate also needs to explain the
+choices[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 Project planning links naturally to the
 [[AI Engineering Roadmap]],
 [[ai-engineering-roadmap=>AI Engineer Roadmap]],
@@ -214,12 +195,11 @@ and [[machine learning portfolio projects]].
 ## Boundaries With Adjacent Roles
 
 AI engineers own more of the product software path than
-[[data-scientist-role=>data scientists]], while
-still using data-science skills tied to metrics, domain reasoning, and
-evaluation design
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
-Data-science skills also read as useful AI engineering hiring signals
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+[[data-scientist-role=>data scientists]]. They still use data-science skills tied to
+metrics, domain reasoning and
+evaluation design[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
+Data-science skills also read as useful AI engineering hiring
+signals[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 Data scientists usually focus more on analysis, experimentation, and modeling.
 AI engineers turn model behavior into user-facing or workflow-facing systems.
 
@@ -228,24 +208,24 @@ engineers lean more on existing foundation models, retrieval, prompt design, and
 product flows. Fine-tuning and model serving blur the boundary.
 
 Distillation and low latency do too. Latency and fine-tuning can move AI
-engineering back toward a traditional ML exercise
-([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
+engineering back toward a traditional ML
+exercise[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
 An AI engineer differs from a
 [[data-engineer-role=>data engineer]] by using data
-pipelines as part of an AI product; the data platform isn't the main deliverable.
+pipelines as part of an AI product. The data platform isn't the main deliverable.
 The roles can be close, though: trustworthy AI depends on tested pipelines,
-prepared data, evaluation data, and cost-aware prompt design
-([[podcast:production-ready-ai-engineering|Production-Ready AI Engineering]]).
+prepared data and evaluation data. It also depends on cost-aware prompt
+design[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
 The backend-engineer boundary moves around model-specific judgment. AI engineers
-differ from backend engineers through current AI tools, models, context
-management, and evaluations
-([[podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path|Inside the AI Engineer Role]]).
+differ from backend engineers through current AI tools and models. They also
+work with context management and
+evaluations[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 A backend engineer can own services. An AI engineer also has to reason about
 retrieval failures, agent behavior, model output quality, and LLMOps.
 
-## Adjacent Topics
+## Related Pages
 
 The nearby role, systems, and production topics are:
 
