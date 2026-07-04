@@ -102,6 +102,9 @@ If it's missing, the team may need new collection work. It may also need
 infrastructure, labeling, or [[Data Quality and Observability]] before
 modeling [[cite:crisp-dm@19:25=>CRISP-DM Methodology]].
 
+That makes data collection an explicit pipeline risk even when the project
+methodology names only data understanding and preparation.
+
 The same episode also shows why teams can't treat ingestion as an afterthought:
 raw storage needs guardrails. Warehouses and lakes have different strengths,
 and schema evolution changes downstream assumptions.

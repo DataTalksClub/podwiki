@@ -212,10 +212,13 @@ interest becomes a scalable company through open core and hosted services.
 Enterprise licenses or support revenue can be part of the model too.[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]
 
 Textualize gives the founder-side version of that funding signal. A tweet about
-the work drew investor attention, and pre-seed money created room to hire. The
-fundraising evidence wasn't only a pitch deck. It was the visible combination
-of a useful open-source project, developer interest, and a plausible product
-direction.[[cite:open-source-turned-into-career-and-startup-creation@28:08=>From Developer to Startup Founder]]
+the work drew investor attention and pre-seed money created room to hire. The
+fundraising evidence wasn't only a pitch deck. It combined a useful
+open-source project, developer interest, and a plausible product direction.[[cite:open-source-turned-into-career-and-startup-creation@28:08=>From Developer to Startup Founder]]
+
+That makes the Textualize path a useful counterexample to waiting for a
+finished product before talking to investors. Public work, community response,
+and founder learning were already part of the evidence.
 
 ## Indie and Small-Business Paths
 

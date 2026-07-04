@@ -170,7 +170,8 @@ material in the evenings and review pull requests with others
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>Biology to Machine Learning]].
 That makes course contribution part of [[Documentation]],
 [[Developer Relations]], and reviewable collaboration, not only standalone model
-code.
+code. It's useful first proof because the artifact has public material, peer
+review, and a community process around it.
 
 Fairlearn shows a structured version of the same entry path. Tamara Atanasoska
 points new contributors toward the project's community channels, good-first

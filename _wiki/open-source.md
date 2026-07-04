@@ -88,6 +88,8 @@ solve their own problem first. When authors start there, open source stays
 attached to useful software rather than GitHub visibility
 [[cite:open-source-turned-into-career-and-startup-creation@11:29=>From Developer to Startup Founder]]
 [[cite:open-source-turned-into-career-and-startup-creation@57:20=>From Developer to Startup Founder]].
+Learning by building also means accepting abandoned projects as part of the
+process before one tool finds a wider audience.
 
 For data and ML tools, usefulness also depends on ecosystem fit. Not every useful
 idea should enter core scikit-learn. Plugins such as UMAP and scikit-lego are a
@@ -406,14 +408,20 @@ source builds trust and sends a signal to investors, but it isn't the whole
 business model
 [[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
 
-Will's Textualize work drew attention around Rich and Textual before fundraising
-and building in public. That attention wasn't a scripted fundraising
-funnel. The planned model is web hosting and add-on features for terminal apps
-with a generous free tier. Discussions and Discord join contribution channels as
-the community surface
+Will's Textualize work drew attention before fundraising. Rich and Textual were
+already visible from building in public. That attention wasn't a scripted
+fundraising funnel
 [[cite:open-source-turned-into-career-and-startup-creation@28:08=>From Developer to Startup Founder]]
-[[cite:open-source-turned-into-career-and-startup-creation@31:40=>From Developer to Startup Founder]]
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>From Developer to Startup Founder]].
+
+The planned model is web hosting and add-on features for terminal apps with a
+generous free tier
 [[cite:open-source-turned-into-career-and-startup-creation@38:32=>From Developer to Startup Founder]].
+
+Streamlit-style hosted Python apps help position the product for a more
+engineering-heavy audience. Discussions and Discord join contribution channels
+as the community surface
+[[cite:open-source-turned-into-career-and-startup-creation@41:33=>From Developer to Startup Founder]].
 
 ## Developer Relations and Feedback Loops
 

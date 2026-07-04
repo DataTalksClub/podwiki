@@ -54,7 +54,10 @@ cells.[[cite:building-healthcare-machine-learning-systems@11:03=>Building Health
 
 C-arm work starts from multiple camera views of the patient. Geometry turns
 those views into a 3D patient representation for operating-room workflows. The
-vision problem is image geometry as much as classification.[[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
+vision problem is image geometry as much as classification. Occlusions from
+surgical objects make the reconstruction harder. The ML question is whether a
+learned model can improve a computational geometry workflow, not whether it can
+replace clinical validation.[[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
 
 Those cases put computer vision next to
 [[healthcare-ml-validation-and-adoption=>healthcare ML validation and adoption]]

@@ -147,26 +147,39 @@ hardware
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Applied ML]].
 
 [[person:daynancrull=>Daynan]] extends astroinformatics into asteroid
-characterization and resource detection. Hyperspectral spectroscopy and
-infrared signatures can help identify water on near-Earth asteroids
+characterization and resource detection. Hyperspectral spectroscopy can help
+identify water on near-Earth asteroids
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@14:24=>Machine Learning for Asteroid Mining and Water Detection]].
+The water signal isn't a generic image label. Hydroxyl bonds create absorption
+features around three microns, and atmosphere blocks much of that wavelength
+from ground telescopes. That pushes teams toward proxy spectral features,
+careful extrapolation, and explicit uncertainty rather than a simple
+water-or-not classifier
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@14:24=>Asteroid Mining]]
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]].
 
 The team combines photometry, light curves, and polarimetry as features. A
 Bayesian framework fuses independent models for albedo and orbital elements. It
 also uses spectral classification to maintain an evolving posterior over
 asteroid properties.
+
 Spectral classification is the ML boundary for water identification.
 Gravitational-wave detection shows the broader scientific requirement: separate
 real signal from noise and instrument glitches before turning detections into
-claims
+claims. In Daynan's LIGO example, an automated pipeline missed a valid signal
+until scientists reexamined the glitch and detector geometry. Scientific ML
+pipelines need the same reviewable intermediate evidence
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]]
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@7:20=>Asteroid Mining]].
 
 Ground truth is scarce because returned samples and meteorite analogs are the
 main validation anchors. That constraint makes this a small-data science problem
 despite large imagery volumes. The source datasets come from the Minor Planet
-Center, JPL Horizons, and NEOWISE. They feed orbit linking and
-synthetic-tracking pipelines
+Center, JPL Horizons, and NEOWISE. Their APIs and archives make hobbyist and
+research workflows possible.
+
+Astronomy data structures can still be specialist-heavy. They feed orbit
+linking and synthetic-tracking pipelines
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Machine Learning for Asteroid Mining and Water Detection]]
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@45:26=>Machine Learning for Asteroid Mining and Water Detection]].
 

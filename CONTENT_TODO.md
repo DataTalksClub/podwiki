@@ -91,6 +91,24 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
+The `docs/mining/report_pod_05.md` high-value missing-edge batch was integrated
+on 2026-07-05:
+
+- Will McGugan's open-source-to-startup episode now strengthens founder,
+  startups, open-source, DevRel, entrepreneurship, freelance, and OSS portfolio
+  evidence pages
+- Liesbeth Dingemans, Ranjitha Kulkarni, Alexey Grigorev, Bartosz Mikulski, and
+  Aditya Gautam evidence now strengthens AI product, agent engineering, RAG,
+  LLM evaluation, AI engineering, prompt-cost, data-quality, and CRISP-DM pages
+- Eleni Stamatelou and Daynan Crull evidence now strengthens healthcare ML,
+  interpretability, sensor ML, model monitoring, computer vision,
+  infrastructure, industrial ML, astroinformatics, annotation, and
+  reproducibility pages
+- DataTalks.Club scaling, MLOps community-building, Barbara Sobkowiak, Noah
+  Gift, Isabella Bicalho, Santiago Valdarrama, and Christoph Molnar evidence now
+  strengthens community, manager, KPI, transition, freelancing, open-source,
+  bioinformatics, ML engineering, technical-writing, and solopreneur pages
+
 The `docs/mining/report_pod_07.md` high-value missing-edge batch was integrated
 on 2026-07-05:
 

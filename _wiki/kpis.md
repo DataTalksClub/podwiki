@@ -140,7 +140,12 @@ stopping at model performance
 
 Impact measurement also needs a stakeholder loop. A data science manager can
 pair client feedback and project-manager perspective with dashboarded KPIs. That
-tests whether the model is improving the business process it was built for
+tests whether the model is improving the business process it was built for.
+
+The KPI set should therefore monitor both the model and the surrounding process.
+Sales can improve because of seasonality, sales execution, or other operations,
+not only because the forecast changed. This links KPI design to [[Model
+Monitoring]] and manager judgment about attribution
 [[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Data Science Manager vs Expert]].
 
 Data leaders also use KPIs to make foundation work visible. Tereza Iofciu

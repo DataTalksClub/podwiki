@@ -128,6 +128,8 @@ still edits the result back into their style. For free drafting, a plain editor
 can be better than autocomplete when the writer needs imperfect but intentional
 text
 [[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]].
+For consultants, that makes AI a drafting aid rather than a substitute for the
+discoverable expertise that writing is supposed to prove.
 
 ## Technical Writing for Data and ML
 
@@ -172,8 +174,12 @@ moving instead of becoming a private, unfinished draft
 
 Self-publishing shifts deadlines, distribution, and audience trust from the
 publisher to the author. The full-time path is strongest when it grows out of
-prior writing and book income. It also depends on an existing reader base.
-Revenue can arrive months later, so a sudden job quit is risky
+prior writing and book income. Christoph Molnar's path makes the author role a
+technical career, not a side note. The book, site, newsletter, and reader
+feedback become the work.
+
+It also depends on an existing reader base. Revenue can arrive months later, so
+a sudden job quit is risky
 [[cite:interpretable-machine-learning@3:45=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@50:00=>Interpretable Machine Learning]].

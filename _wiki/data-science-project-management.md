@@ -151,6 +151,8 @@ An online classified-site example moves from a request to measurable problem
 size and success criteria. Project planning starts there, before anyone chooses a
 model
 ([[cite:crisp-dm@10:58=>CRISP-DM]], [[cite:crisp-dm@13:25=>CRISP-DM]]).
+That business-understanding pass should estimate the size of the pain, who's
+blocked, and what improvement would justify project time.
 
 The Double Diamond gives the same ordering. Teams start with a rough product
 area and research what users experience. They narrow attention to the most

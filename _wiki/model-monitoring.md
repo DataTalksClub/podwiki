@@ -125,7 +125,10 @@ That makes population coverage a [[Machine Learning System Design]] constraint
 as well as a [[data-quality-and-observability=>data observability]] signal.
 For [[healthcare-ml-validation-and-adoption=>healthcare ML validation]], the
 monitoring plan needs population slices and clinical-site context rather than a
-single aggregate drift alert.
+single aggregate drift alert. In low-resource clinical deployment, the same
+monitoring question includes missing metrics and local collection limits. A
+stable distribution from the original site doesn't prove the system is safe for
+a hospital with a different disease mix, connectivity, or measurement setup.
 
 Silent data incidents and model drift can share the same root cause. Freshness,
 volume, and distribution help track data reliability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]

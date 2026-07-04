@@ -77,6 +77,8 @@ Excellent code can remain unseen unless maintainers show the project to relevant
 communities with examples and useful context. GitHub stars should be read
 against the size of the project's niche rather than as a universal quality score
 ([[cite:open-source-turned-into-career-and-startup-creation@50:05=>McGugan on GitHub stars]]).
+That keeps DevRel close to audience selection. The project needs the right
+Python, terminal, or developer-tool community, not just a larger public count.
 
 For a developer-tool startup, this public loop can become more than awareness.
 In the Textualize story, repeated public demos helped developers understand the

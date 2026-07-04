@@ -189,6 +189,9 @@ and a generous free tier
 The Streamlit comparison matters because positioning helps developers
 understand the product category before they adopt it
 [[cite:open-source-turned-into-career-and-startup-creation@41:33=>Textualize positioning]].
+The business-model lesson isn't that open source monetizes automatically. The
+free framework creates adoption, while hosted deployment and enterprise-oriented
+features create the paid surface.
 
 Brudaru's DLT story shows the day-to-day operating work behind that model.
 Documentation and examples become part of product strategy. Ecosystem

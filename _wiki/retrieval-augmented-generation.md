@@ -72,11 +72,15 @@ fit too. Applications move toward
 multi-step coordination beyond
 lookup.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-An agent engineering approach, represented by
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]], is more cautious about treating
-RAG as solved. Latency and cost still matter. Noisy context and
-garbage-in-garbage-out problems still matter too. Retrieval can become one tool
-inside a larger agentic system.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Building Agentic AI Systems]]
+RAG still has latency, cost, and context-noise limits. That's why
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] is cautious about treating it as
+solved. Retrieval can become one tool inside a larger agentic system.
+
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]]
+
+RAG is enough when the main job is shrinking a large search space. Agents become
+more relevant when the workflow needs dynamic planning, multiple data sources,
+or API integrations.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
 
 Large context windows can still degrade on specialized documents. In
 financial-domain tests, Lavanya Gupta's team split prompts at 32k tokens. The

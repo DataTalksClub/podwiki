@@ -36,6 +36,9 @@ the generated code needed correction [[cite:production-ready-ai-engineering@42:0
 
 Cursor fit Bartosz's workflow because it referenced files directly and avoided
 copy-paste. Its composer could edit multiple files and run commands [[cite:production-ready-ai-engineering@44:38=>Production AI Engineering]].
+He contrasts that with earlier Copilot use. Copilot helped with autocomplete and
+refactoring, but it was less integrated with multi-file coding workflows than
+Cursor in his current setup [[cite:production-ready-ai-engineering@44:38=>Production AI Engineering]].
 
 In the AI engineer role discussion, [[person:ruslanshchuchkin=>Ruslan Shchuchkin]]
 recommends Cursor for non-coders

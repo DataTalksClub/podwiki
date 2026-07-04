@@ -444,8 +444,13 @@ A safer [[Solopreneur=>solopreneur]] transition keeps the job while building a
 side gig in stages. The path starts with lower expenses and a cash reserve,
 then tests consulting work. Books, courses, apps and investments can become
 additional small streams before leaving. The quitting threshold is financial
-readiness rather than impatience. Independent work should already prove earning
-power, and leaving shouldn't create financial jeopardy
+readiness rather than impatience.
+
+Independent work should prove earning power before someone leaves, because
+leaving shouldn't create financial jeopardy. That makes the move a
+career-transition plan rather than a sudden identity switch. Keep employment
+while validating demand. Leave only when the outside work and runway make the
+risk explicit
 [[cite:solopreneur-developer-and-data-professional@46:27=>Solopreneur Developer and Data Professional]]
 [[cite:solopreneur-developer-and-data-professional@53:49=>Solopreneur Developer and Data Professional]].
 

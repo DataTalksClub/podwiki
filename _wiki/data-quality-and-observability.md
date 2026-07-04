@@ -245,10 +245,17 @@ analytics.[[cite:building-production-ml-platform-and-mlops-team=>Building Produc
 
 The same reliability logic extends to production AI. The failure can be a data
 trust problem where a number doesn't look correct. Testing includes snapshot and
-integration tests. It also includes Great Expectations, Soda, SQL tests, and
-Spark tests.[[cite:production-ready-ai-engineering@9:05=>Production-Ready AI Engineering]]
-[[cite:production-ready-ai-engineering@11:47=>Production-Ready AI Engineering]]
-[[cite:production-ready-ai-engineering@13:14=>Production-Ready AI Engineering]]
+integration tests.
+
+Teams can add framework-backed checks such as Great Expectations or Soda. SQL
+and Spark tests can cover execution details too.
+
+[[cite:production-ready-ai-engineering@9:05=>Production AI]]
+[[cite:production-ready-ai-engineering@11:47=>Pipeline testing]]
+[[cite:production-ready-ai-engineering@13:14=>Testing tools]]
+
+The operating point is trust: once users see obviously wrong data, tests and
+observability become part of rebuilding confidence, not only catching defects.
 
 Responsible AI makes data quality part of fairness work. Supreet Kaur frames
 bias detection as EDA and monitoring before it becomes a model-explanation

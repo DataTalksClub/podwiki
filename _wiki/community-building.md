@@ -73,13 +73,18 @@ member connections, and sprints
 This version of community building gives members structured ways to meet,
 propose work, and become responsible for parts of the community.
 
-DataTalks.Club emphasizes course scale and durable learning. The organic growth
-of Data Engineering Zoomcamp connects to a free-to-learn mission,
-course-platform work, and community longevity
+DataTalks.Club emphasizes course scale and durable learning. Data Engineering
+Zoomcamp grew from a free-to-learn mission and course-platform work. That growth
+also connects course scale to community longevity
 ([[cite:datatalksclub-scaling-and-free-courses@12:04=>Inside Scaling DataTalks.Club]],
 [[cite:datatalksclub-scaling-and-free-courses@49:49=>Inside Scaling DataTalks.Club]]).
 DataTalks.Club treats community
 as a learning platform, an events program, and a network of people who teach.
+
+The same discussion makes the economics visible. Free courses can stay free only
+when sponsorship and course demand align with what learners need. Community
+strategy therefore includes both access and sustainability
+([[cite:datatalksclub-scaling-and-free-courses@49:49=>Inside Scaling DataTalks.Club]]).
 
 [[person:willrussell=>Will Russell]] centers community
 building on developer enablement. Hackathons connect to Git, teamwork, and
@@ -119,14 +124,17 @@ Community operations cover scheduling, promotion, moderation, and volunteer
 coordination. The work is less visible than events, but it's necessary
 infrastructure.
 
-Community acquisition starts with LinkedIn outreach, cold messages, and growth
-milestones. Retention uses giveaways and multi-format content while avoiding
-shallow gamification. The work also uses customer-development habits such as
-surveys and recurring feedback
+Community acquisition starts with LinkedIn outreach and cold messages, then uses
+growth milestones to test whether those habits are working. Retention uses
+giveaways and multi-format content while avoiding shallow gamification. The work
+also uses customer-development habits such as surveys and recurring feedback
 ([[cite:mlops-community-building-and-meetups@10:41=>MLOps Community Playbook]],
 [[cite:mlops-community-building-and-meetups@13:09=>MLOps Community Playbook]],
 [[cite:mlops-community-building-and-meetups@40:36=>MLOps Community Playbook]],
 [[cite:mlops-community-building-and-meetups@45:45=>MLOps Community Playbook]]).
+Demetrios Brinkmann's version is deliberately operational. Recruit speakers with
+persistence, meet members where they already consume content, and run periodic
+surveys with an incentive instead of guessing what the community wants.
 
 Individual writers use a lighter version of the same growth loop. They publish
 consistently through social channels such as Twitter and LinkedIn. Over time,
@@ -188,10 +196,13 @@ Slack thread, office hours, a project submission, or a pull request. It can also
 lead to a teaching assistant role or a new event organized by a member.
 
 The MLOps community began with meetups and a podcast-like event format. It then
-shifted focus to core contributors and advisory groups, and eventually to core
-volunteers and broader contributors
+shifted focus to core contributors and advisory groups. That created paths for
+core volunteers and broader contributors
 ([[cite:mlops-community-building-and-meetups@24:57=>MLOps Community Playbook]],
 [[cite:mlops-community-building-and-meetups@27:25=>MLOps Community Playbook]]).
+That shift matters because a founder-led broadcast isn't enough. It becomes a
+community when members know each other well enough to answer, critique, and
+organize without the founder mediating every thread.
 
 Organizing hackathons is leadership and coordination practice. Will Russell
 describes online hackathon formats, office hours, judging matrices, and

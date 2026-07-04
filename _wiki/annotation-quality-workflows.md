@@ -100,9 +100,15 @@ threshold are understood.[[cite:nlp-dataset-creation-annotation-tools-workflows=
 Scientific ML shows the harder version of the same constraint. Asteroid water
 detection can use returned asteroid samples as validation evidence. It can also
 use meteorites and remote observations. The team has few returned samples.
+
 Meteorites are imperfect proxies because atmospheric entry changes their
 chemistry. Annotation quality becomes validation design: use scarce ground truth
-to check bias and avoid confident wrong classifications.[[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Asteroid Mining and Water Detection]]
+to check bias and avoid confident wrong classifications.
+
+A consistent spectral classifier can still be consistently wrong if returned
+samples, meteorites, and remote observations don't cover the deployment
+population of asteroids.
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Asteroid Mining and Water Detection]]
 
 That scientific-label constraint sits near
 [[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]]

@@ -30,7 +30,7 @@ and [[LLM Deployment]].
 
 Prompt compression reduces the number of tokens sent to the model without losing
 the instruction's meaning. Fewer tokens mean lower cost and faster response
-times[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+times[[cite:production-ready-ai-engineering@30:00=>Production AI Engineering]].
 
 The connection to
 [[Context Engineering]] is
@@ -48,7 +48,7 @@ money while degrading output quality.
 
 Prompt caching reuses previously computed attention states for repeated prompt
 prefixes, reducing both latency and cost. Claude's caching mechanism is one
-implementation[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+implementation[[cite:production-ready-ai-engineering@31:45=>Production AI Engineering]].
 This is especially valuable for agents and multi-turn systems
 where the same system prompt or context is sent repeatedly.
 

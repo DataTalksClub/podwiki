@@ -172,6 +172,9 @@ and Textual were easy to show, so build-in-public updates could include screensh
 videos, and explanations. Those updates made the startup legible to developers,
 contributors, and investors before the company had a long enterprise sales
 history[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Textualize building in public]].
+Viral reach still needed interpretation: stars and retweets helped discovery
+only when they reached the right developer niche and produced feedback or usage
+signals[[cite:open-source-turned-into-career-and-startup-creation@50:05=>Textualize reach]].
 
 ## Services, Side Projects, and Startup Careers
 

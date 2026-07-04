@@ -370,6 +370,8 @@ In that setup, [[Open Source]] can also act as a separate creative outlet.
 Client work may be shaped by business requirements and existing systems. Side
 projects give the freelancer room to choose architecture and direction.
 [[cite:open-source-turned-into-career-and-startup-creation@17:48=>Open source as creative outlet]]
+That outlet can later become career evidence or a startup path. It starts as
+room to make technical choices that client work may not allow.
 
 That connects freelance independence with
 [[Open Source Portfolio Evidence]] and the later

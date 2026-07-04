@@ -78,7 +78,11 @@ Machine learning engineers scope the problem and work through [[data
 pipelines=>data pipeline]] tasks before modeling. They decide whether machine
 learning is needed. They also move and transform the data, build or package the
 model, and operate the deployed system through [[MLOps]] and [[model
-monitoring]].[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to ML]]
+monitoring]]. Santiago Valdarrama groups that role around pipelines, modeling,
+deployment, and monitoring. He then adds APIs, containers, and cloud services
+as the infrastructure skills that make model work usable
+[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to ML]]
+[[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]].
 
 Serving decisions aren't only infrastructure choices. Batch scoring can be a
 shared surface with [[data engineering]]. Online serving brings latency and

@@ -37,7 +37,9 @@ ability to build systems.
 
 Start with applied work and data pipelines when you add ML to a software
 engineering skillset. Add APIs and Docker after model-building practice. Add
-cloud services when serving needs them [[cite:from-software-engineer-to-machine-learning=>SE]].
+cloud services when serving needs them
+[[cite:from-software-engineer-to-machine-learning@46:39=>SE]]
+[[cite:from-software-engineer-to-machine-learning@49:23=>SE]].
 Keep the software engineering strengths, then add the ML habits that change
 system design.
 
@@ -81,7 +83,7 @@ while tests cover feature logic and inference behavior.
 Reproducible training runs and deployment paths need to connect back to data and
 model evaluation. The same transition path spans data pipelines and modeling.
 It then adds deployment and monitoring. APIs, Docker, and cloud services become
-the serving path.[[cite:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
+the serving path.[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 The advantage is real, but it isn't a shortcut around ML fundamentals. A
 software engineer can often package and operate a model earlier than a beginner
@@ -91,7 +93,8 @@ too.
 
 Santiago Valdarrama frames coding as one of the core ML skills. He argues
 that coding ability often determines whether a learner can turn ML ideas into
-working projects
+working projects. That makes coding a practical gate before advanced math for
+many software engineers entering ML
 [[cite:from-software-engineer-to-machine-learning@6:33=>Software Engineer to ML]]
 [[cite:from-software-engineer-to-machine-learning@25:00=>Software Engineer to ML]].
 

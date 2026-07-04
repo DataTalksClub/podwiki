@@ -117,6 +117,8 @@ useful portfolio artifact is therefore not just "I contributed to open source."
 It's a public trail that shows judgment, review
 behavior, and the ability to improve a tool other developers use
 [[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signal]].
+For candidates, that means contribution quality and interaction history matter
+more than simply having a public GitHub username.
 
 A [[developer relations]]
 and [[developer experience]]

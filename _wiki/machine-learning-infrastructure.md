@@ -198,7 +198,9 @@ connectivity and local hardware can vary. Before a team can claim the model fits
 the care setting, it may have to choose between cloud inference and on-device
 execution. That ties serving infrastructure to
 [[healthcare-ml-validation-and-adoption=>healthcare ML validation]] and local
-operations, not only latency
+operations, not only latency. A pediatric monitoring device in a hospital with
+intermittent internet may need local inference and local update procedures. Its
+runtime also has to fit the rest of the device software
 [[cite:building-healthcare-machine-learning-systems@50:50=>Healthcare ML Systems]].
 
 Deployment ties to release discipline, so the MLOps toolset includes CI and

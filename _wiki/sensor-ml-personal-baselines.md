@@ -92,9 +92,14 @@ signal is weaker, noisier, or overlaps with other motion.
 Filters and Fourier methods aren't only baselines. For simpler physiological
 signals, they can be the preferred production answer. That matters in
 [[healthcare-ml-validation-and-adoption=>healthcare ML]] settings where
-interpretability, robustness, and deployment constraints matter. U-Net becomes
-useful when the task shifts from isolating a frequency band to finding
-heart-rate waveforms in noisy ballistography.
+interpretability, robustness, and deployment constraints matter.
+
+In Eleni's ballistography work, respiration had a stronger frequency signal and
+fit classical signal processing. Infant heart-rate estimation justified U-Net
+because movement, overlapping frequencies, and weaker waveform structure made
+the signal harder to isolate. U-Net becomes useful when the task shifts from
+isolating a frequency band to finding heart-rate waveforms in noisy
+ballistography.
 [[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@21:49=>Healthcare ML Systems]]
 

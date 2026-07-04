@@ -35,11 +35,17 @@ Framework depth matters more than tool sampling at the learning stage. One
 discussion recommends starting with one known orchestration tool, developing
 depth, and only then comparing alternatives for a specific use case. [[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
 
-Ranjitha Kulkarni gives the production version of that tradeoff. Teams can build
-agent orchestration directly, or they can use libraries and SDKs. The choice
-should follow the workflow's integration and testing needs. LangChain, OpenAI
-Agents SDK, smolagents, and MCP-style tool protocols sit in that operating
-decision. They aren't a separate tooling debate. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@44:08=>Building Agentic AI Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@48:00=>Agent tool protocols]]
+Ranjitha Kulkarni gives the production version of that tradeoff. Teams can
+build agent orchestration directly, or they can use libraries and SDKs. The choice
+should follow the workflow's integration and testing needs.
+
+LangChain and OpenAI Agents SDK sit in that operating decision. So do
+smolagents and MCP-style tool protocols. They aren't a separate tooling debate.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@44:08=>Agent tooling]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@48:00=>Tool protocols]]
+MCP helps standardize how tools are exposed to an agent, while a marketplace is
+a higher-level product surface for reusable agents. Operations teams still have
+to decide which tools and agents are trusted in each workflow.
 
 Infrastructure can look familiar because an agent may be a service that talks
 to an LLM inference service. CPU and GPU workloads may run as separate services,
@@ -75,12 +81,12 @@ exact reasoning path. [[cite:building-agentic-ai-engineering-tooling-retrieval-e
 
 Multi-tenant systems repeat this work per customer. Each tenant may need
 its own golden dataset, pass thresholds, red-team cases, and human-labeling
-budget because data can't always be pooled across customers. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+budget because data can't always be pooled across customers. [[cite:s23e03-future-of-ai-agents@43:30=>The Future of AI Agents]]
 
 LLM-as-judge can scale evaluation, but it doesn't remove the need for human
 labels. Human labels calibrate the judge, and production samples detect gaps.
 Ongoing human checks protect against judge drift or bias being replicated in
-production. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+production. [[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]
 
 ## Monitoring and Feedback
 

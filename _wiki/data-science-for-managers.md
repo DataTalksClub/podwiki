@@ -37,8 +37,11 @@ and
 A data science manager needs enough technical literacy to ask useful questions,
 but not necessarily enough depth to be the strongest modeler on the team. The
 manager owns strategy and stakeholder communication. They also own team
-development, feasibility checks, and impact judgment. The expert role has deeper technical and domain
-responsibility for complex model work.[[cite:data-science-manager-vs-expert-hiring-guide@4:58=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@7:28=>Manager vs Expert]]
+development, feasibility checks, and impact judgment. The expert role has deeper
+technical and domain responsibility for complex model work. Barbara Sobkowiak
+traces many confused manager postings to HR or IT owners. They copy technical
+requirements into a manager job description and understate communication,
+stakeholder, and team-building work.[[cite:data-science-manager-vs-expert-hiring-guide@4:58=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@7:28=>Manager vs Expert]]
 
 The same boundary appears in Danny Ma's ABC framework. The Type C consultant or
 leader profile sits between business needs and delivery work. It emphasizes
@@ -100,8 +103,11 @@ criteria rather than a long list of tools. See [[Job Descriptions]],
 
 Managers scope data science work by naming the decision and available data. They
 also name the baseline, success metric, and smallest useful increment. Client
-discovery should check data availability, compare against baselines, define
-success metrics, and ask whether machine learning is necessary.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
+discovery should check data availability, compare against baselines, and define
+success metrics. It should also ask whether machine learning is necessary.
+Sobkowiak's client-discovery checklist starts with the problem, the data that
+exists, and the simpler approach already in use. Weak or missing data is often a stronger
+constraint than model choice.[[cite:data-science-manager-vs-expert-hiring-guide@50:12=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@53:57=>Manager vs Expert]]
 
 AI project uncertainty needs explicit management. Managers can turn data risks
 and unknowns into exploration tasks. They can use design stories and iterative

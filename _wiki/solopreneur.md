@@ -36,13 +36,18 @@ Podcast guests treat solopreneurship as ownership plus constraint. The
 solopreneur owns the business, keeps it small enough to preserve independence,
 and tries not to depend only on billable hours. Noah treats consulting as
 business funding, not the whole business
-[[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]].
+[[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]].
 
 Courses, books, and teaching can scale in ways custom client work can't.
 Software and videos can do the same. Noah describes an income mix of courses,
 university teaching, and select consulting. He also uses scale, ethics, and
 asynchronous work as criteria for choosing solo work
 ([[cite:solopreneur-developer-and-data-professional@25:05=>Becoming a Solopreneur in Data]]).
+
+The distributed-income version is deliberately redundant. Books and apps can
+sit beside consulting work and investments. Other streams reduce the chance
+that one weak channel collapses the business
+[[cite:solopreneur-developer-and-data-professional@42:56=>Becoming a Solopreneur in Data]].
 
 [[person:dimitrivisnadi=>Dimitri Visnadi]] gives the freelance version
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].

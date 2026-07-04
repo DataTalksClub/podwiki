@@ -151,7 +151,10 @@ Eleni Stamatelou treats explainable AI as part of regulatory approval. She
 doesn't frame it only as model debugging.
 She also names missing data and inconsistent data as limits on what an
 explanation can prove. Absent clinical-outcome annotations create the same
-limit. Clinical interpretability therefore belongs beside
+limit. A sepsis or patient-risk model may be asked to justify a prediction
+before the team has reliable outcome labels for the target setting.
+
+Clinical interpretability therefore belongs beside
 [[Healthcare ML Validation and Adoption]] and [[Annotation Quality Workflows]].
 It also belongs beside [[Data Quality and Observability]] and post-launch
 [[Model Monitoring]].[[cite:building-healthcare-machine-learning-systems@25:23=>Building Healthcare ML Systems]]

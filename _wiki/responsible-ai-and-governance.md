@@ -281,6 +281,9 @@ as high-stakes examples. Agent MLOps brings in specialized models and agent
 governance, and it also includes guardrails, data lineage, and compliance.
 Multi-tenant evaluation and LLM-judge alignment are repeatable testing concerns
 [[cite:s23e03-future-of-ai-agents@13:13=>The Future of AI Agents]][[cite:s23e03-future-of-ai-agents@19:16=>Agent governance]][[cite:s23e03-future-of-ai-agents@30:26=>Agent MLOps]], [[person:adityagautam=>Aditya Gautam]].
+
+For these domains, reliability isn't only a model-score target. It includes
+auditability, specialized knowledge, and clear limits around autonomous action.
 Use [[Agent Engineering]] for the engineering details behind those controls.
 
 ## Oversight After Launch

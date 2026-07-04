@@ -154,9 +154,11 @@ governance, and evaluation concerns covered under
 
 ## Data Pipelines and Deployment
 
-Production AI still depends on data engineering. Data trust, data pipeline
-tests, and testing tools all feed AI work. Spark choices and preprocessing
-matter too. So does fine-tuning data.[[cite:production-ready-ai-engineering@18:38=>Production AI Engineering]]
+Production AI still depends on data engineering because data trust and pipeline
+tests feed AI work. Testing tools, Spark choices, preprocessing, and
+fine-tuning examples matter too. Data engineers prepare and clean the examples
+that make specialized AI systems viable.
+[[cite:production-ready-ai-engineering@18:38=>Production AI]]
 For adjacent data work, see [[Data Pipelines]],
 [[Data Engineering]], and
 [[How to Build Data Pipelines]].

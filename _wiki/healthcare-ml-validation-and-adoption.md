@@ -38,10 +38,18 @@ prescription, or remote follow-up. The right model output depends on the care
 decision it changes.
 
 Sepsis prediction from vital signs and clinical data doesn't stop at model
-output. The work moves into clinical validation and adoption, where clinicians
-need to see value, give feedback, and have time to accept the system. Teams can
-introduce adoption through visualization and feedback loops before moving
-toward more automation.[[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]][[cite:building-healthcare-machine-learning-systems@31:10=>Building Healthcare ML Systems]][[cite:building-healthcare-machine-learning-systems@46:32=>Building Healthcare ML Systems]]
+output. The work moves into clinical validation and adoption. Clinicians need
+to see value and have time to accept the system. Feedback from clinicians is
+part of the validation path. Teams can introduce adoption through visualization
+and feedback loops before moving
+toward more automation.
+
+Eleni Stamatelou also describes approval as a multi-year path. A useful
+research model can still take years to reach a hospital, especially when it
+becomes part of a device or clinical workflow.
+[[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@31:10=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@46:32=>Building Healthcare ML Systems]]
 
 The digital clinic example places the same validation problem inside a product
 journey. SQIN runs from diagnosis to consultation and treatment, with pharmacy
@@ -84,9 +92,14 @@ changes. Medical recommendations still need review before rapid iteration
 Healthcare ML can't rely on offline metrics alone because clinical decisions
 involve missing context, delayed outcomes, and human accountability. The sepsis
 model uses vital signs and clinical data. In adoption, clinicians become part of
-validation. The system should help them notice risk and act earlier in their
-workflow, not replace them with a sepsis flag
-[[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]].
+validation.
+
+The system should help them notice risk and act earlier in their workflow. It
+shouldn't replace them with a sepsis flag. Eleni frames predictions as high-risk
+signals or prompts for extra checks. That keeps the doctor in the decision loop
+while the team collects feedback on predictions
+[[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@46:32=>Building Healthcare ML Systems]].
 
 From the patient side, the digital clinic example centers healthcare gaps, rural
 access, and legacy workflows. The diagnosis-to-prescription flow and

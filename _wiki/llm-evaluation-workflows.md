@@ -160,11 +160,14 @@ constraints, and product workflows.
 
 Agent testing is close to ordinary
 [[testing]] and
-[[orchestration]]. Teams can mock external tools, assert outputs, check tool
-names and parameters, and keep integration tests for the real systems. A
-calendar-agent example shows why outcome assertions matter more than exact trace
-matching. Several valid action paths can create the same correct invite
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Building Agentic AI Systems]]).
+[[orchestration]]. Teams can mock external tools, assert outputs, and check tool
+names and parameters. They still keep integration tests for the real systems.
+
+A calendar-agent example shows why outcome assertions matter more than exact
+trace matching. Several valid action paths can create the same correct invite
+([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Agent eval]]).
+The same rule applies to SRE-style agents. Mock logs and metrics in regression
+tests before letting the agent touch live systems.
 
 That's why goal-based agent evals should assert the product outcome, not the
 exact reasoning path. Regression tests can preserve known successful outcomes

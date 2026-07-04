@@ -59,11 +59,19 @@ That extra power comes with more tool descriptions, tests, and traces.
 The shared definition doesn't force one architecture because each setting has a
 different first constraint.
 
-Operational agents start from integrations. On-call and SRE examples need logs,
-metrics, remediation options, and permissioned tools before an LLM can help
-with real incidents. Ranjitha Kulkarni grounds this in Noird.ai's on-call
-automation work. In those workflows, agents reason over logs and metrics before
-suggesting or taking remediation steps.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@07:44=>Building Agentic AI Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@22:50=>SRE agent workflows]]
+Operational agents start from integrations. An on-call agent needs logs and
+metrics before it can help with real incidents. It also needs permissioned tools
+and remediation options.
+
+Ranjitha Kulkarni grounds this in Noird.ai's on-call work. The agents reason
+over logs and metrics before suggesting or taking remediation steps.
+
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@07:44=>Agentic AI]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@22:50=>SRE agents]]
+
+The engineering challenge is making the agent behave like a constrained
+operator inside the incident workflow, not like a general chatbot with log
+access.
 
 Teams adopting agents start from a narrow problem. The first version stays
 small, with usable data and evaluation. The email assistant example starts with
@@ -86,10 +94,13 @@ evaluation, human-label alignment, and deployment risk matter too.[[cite:s23e03-
 
 ## Agent Design
 
-Agent design begins with the task boundary. A useful agent needs a concrete job,
+Agent design starts with the task boundary. A useful agent needs a concrete job,
 not a vague instruction to "be helpful." Planning can be single-step,
-multi-pass, or self-reflective. The system still needs limits on which tools it
-can call and when it should stop.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Building Agentic AI Systems]]
+multi-pass, or self-reflective, so the system still needs limits on which tools
+it can call and when it should stop.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Agent planning]]
+As the plan becomes dynamic, evaluation has to cover both final outcomes and
+tool-use behavior.
 
 The implementation choice also changes the failure mode. Code agents can expose
 tool use and state through executable programs, while natural-language agents
