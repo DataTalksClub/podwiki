@@ -20,30 +20,53 @@ between [[MLOps]],
 [[platform engineering]], and
 [[machine-learning-engineer-role=>machine learning engineering]].
 It's less about owning one model and more about making many model teams faster
-and safer.
+and safer.[[cite:building-production-ml-platform-and-mlops-team]]
 
-[[person:simonstiebellehner=>Simon Stiebellehner]]
-describes that platform version directly. His discussion starts with deployment
-blockers, then moves through cloud infrastructure and Terraform on Kubernetes.
-It follows data science workflows into experiment tracking and model registries.
-Later sections cover serving, orchestration, metadata, and lineage. Simon then
-discusses governance plus prediction logging
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 6:55-54:15]]).
+The role is practical rather than tool-defined. It combines cloud and
+Kubernetes foundations with data science workflow knowledge. It also covers
+experiment tracking and model registries, plus serving paths and orchestration.
+Metadata and lineage connect training history to later prediction logging. In
+practice, platform engineers turn repeated ML delivery friction into supported
+internal services.[[cite:building-production-ml-platform-and-mlops-team]]
+
+## Platform Scope
+
+ML platform engineering owns the shared system around model work. That system
+covers compute access and reproducibility while also reaching deployment,
+monitoring, serving and governance. MLOps can describe the operating discipline
+around one model or one team. ML platform engineering turns repeated MLOps
+needs into reusable services for many teams.[[cite:building-production-ml-platform-and-mlops-team]][[cite:mlops-at-scale-reproducibility-adoption]]
+
+The platform engineer is therefore partly an infrastructure engineer, partly an
+internal product engineer, and partly an enablement partner. The role works only
+when it understands how data scientists and ML engineers actually experiment,
+ship, debug, and maintain models.[[cite:building-production-ml-platform-and-mlops-team]][[cite:how-to-grow-your-ml-engineering-career]]
+
+## Platform Size and Tool Boundaries
+
+A large platform isn't the default answer. One path starts with cloud
+infrastructure, Kubernetes, Terraform and experiment tracking. It then extends
+into model registries, serving systems, orchestration, and governance. Another path
+starts with pragmatic standardization through Git, CI/CD, registries, and
+Kubernetes. It adds templates and the engineering primitives the company already
+trusts.[[cite:building-production-ml-platform-and-mlops-team]][[cite:pragmatic-and-standardized-mlops]]
+
+Feature stores fit teams that reuse features online and need governance. They
+can be overkill without real-time access.[[cite:mlops-feature-stores-feature-stores-feast-tecton]]
+Platform engineers should let repeated pain drive the roadmap more than tool
+category fashion.
 
 ## Shared Platform Ownership
 
 ML platform engineers own internal [[ML platforms]]
 for model-building teams. They give data scientists and ML engineers reliable
 access to compute and a supported path from experiment tracking to model
-persistence, deployment, and monitoring. Simon frames MLOps as people,
-workflow, and technology. He treats the platform as the reusable system around
-training work, serving, and orchestration
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 4:42-34:01]]).
+persistence, deployment, and monitoring. That ownership covers people,
+workflow, and technology, not only a tool stack.[[cite:building-production-ml-platform-and-mlops-team]]
 
-ML platform engineers also own operations beyond libraries, so Simon ties
-staffing to team size and on-call expectations. Someone has to support the path
-when training or deployment fails. Serving and monitoring need support too
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 15:34]]).
+Beyond libraries, ML platform engineers own on-call work plus deployment,
+serving and monitoring support.[[cite:building-production-ml-platform-and-mlops-team]]
+
 Operational ownership keeps the role close to the
 [[MLOps engineer]] role, while
 platform scope pushes it toward shared services used by many teams.
@@ -51,83 +74,72 @@ platform scope pushes it toward shared services used by many teams.
 ## Self-Service Compute and Lifecycle Services
 
 Teams first feel the platform through self-service paths for common ML tasks.
-Simon names notebooks, BigQuery, and Databricks provisioning as examples of
-self-service compute. He then moves into
+Notebooks, BigQuery, and Databricks provisioning are examples of
+self-service compute. The next layer is
 [[experiment tracking]] as an
 early reproducibility win. The
 [[model registry]] then handles the
-handoff from training to downstream use
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 28:20-30:32]]).
+handoff from training to downstream use.[[cite:building-production-ml-platform-and-mlops-team]]
 
-Platform teams may support batch inference, online serving, scheduled jobs, or
-APIs. Teams choose among them based on latency, freshness, cost, and ownership.
-Simon discusses batch versus online serving and orchestration choices inside
-the same lifecycle
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 31:15-34:01]]).
+Platform teams may support batch inference, online serving and APIs alongside
+scheduled jobs. Teams choose among them based on latency, freshness, cost and
+ownership.
+Batch versus online serving and orchestration choices belong in the same
+lifecycle conversation because they decide what the platform must operate after
+training.[[cite:building-production-ml-platform-and-mlops-team]]
 
-Some lifecycle services are conditional. [[person:willempienaar|Willem Pienaar]]
-argues that feature stores fit repeated tabular ML use cases because they help
-with feature reuse, online serving, validation, and governance. They can be
-overkill without a real-time feature need or shared feature lifecycle
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps, 21:00-52:00]]).
-ML platform engineers should apply the same caution to larger platform choices:
-repeated pain should guide the roadmap more than tool fashion.
+Feature stores are conditional lifecycle services. They fit tabular ML use
+cases when teams reuse features online. They also help teams validate and
+govern features.[[cite:mlops-feature-stores-feature-stores-feast-tecton]]
+
+Without those needs, feature stores add platform surface area before teams have
+the shared lifecycle to justify it.
 
 ## Governance and Observability
 
-Platform engineers also make model behavior visible after deployment. Simon
-connects regulatory constraints, metadata, lineage, and data governance to the
-platform role. API design and unified prediction schemas belong there too
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 39:54-54:15]]).
+Platform engineers also make model behavior visible after deployment,
+especially when regulation and data governance affect the work. Metadata and
+lineage matter too, along with API design and unified prediction schemas.[[cite:building-production-ml-platform-and-mlops-team]]
 These responsibilities put the role near
 [[model monitoring]],
 [[governance]], and
 [[reproducibility]].
 
-[[person:mariavechtomova=>Maria Vechtomova]] describes
-pragmatic standardization with Git, CI/CD, registries, and Kubernetes.
-Reusable repositories and existing engineering primitives come before more
-platform layers
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps, 16:27-33:24]]).
+Pragmatic MLOps standardization can start with Git, CI/CD and registries.
+Teams can reuse Kubernetes, repositories and engineering primitives before
+adding more platform layers.[[cite:pragmatic-and-standardized-mlops]]
+
 Guardrails should help teams release and look at models without forcing every
 team through a larger stack than it needs.
 
 ## Adoption and Internal Product Work
 
-Teams justify platform work when repeated needs appear across groups. Simon
-warns against building a heavy platform before the organization has real models
-and business needs. He recommends looking for standardization triggers, then
-growing small platform pieces alongside actual use
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 16:52-20:04 and 47:08-49:19]]).
+Teams justify platform work when repeated needs appear across groups. Heavy
+platform investment is premature before the organization has real models and
+clear business needs. Standardization triggers and small platform pieces should
+grow alongside actual use.[[cite:building-production-ml-platform-and-mlops-team]]
 
-[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]
-describes an enabling-team version of the role. His centralized MLOps team
-supports product teams, gathers pain points, and earns adoption through quick
-wins
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale, 23:01-32:46]]).
-In that version of the role,
+A centralized MLOps team enables product teams by turning pain points into
+quick wins.[[cite:mlops-at-scale-reproducibility-adoption]]
+
+In that model,
 [[platform adoption]] and
 [[developer experience]] are
 core concerns rather than polish work after the platform exists.
 
-[[person:geojolly=>Geo Jolly]] makes the product
-management layer explicit. In his ML platform strategy episode, internal data
-scientists and analysts are customers. User feedback and platform usability
-guide the roadmap. Observability KPIs and release governance set priorities
-too. Rollout timing, surveys, and shadowing add more evidence for
-prioritization
-([[podcast:ml-product-manager-and-mlops-platform-strategy|Become an ML Product Manager, 11:24-57:20]]).
+The product management layer treats internal data scientists and analysts as
+customers. User feedback, platform usability, observability KPIs and release
+governance feed platform priorities. Rollout timing, surveys and shadowing add
+more input.[[cite:ml-product-manager-and-mlops-platform-strategy]]
 
 An ML platform engineer may not own the product roadmap alone, but the role
 still depends on understanding what internal users do every week.
 
 ## Enablement and Support
 
-[[person:krzysztofszafanek=>Krzysztof Szafanek]] gives
-the engineer-as-consultant version from Zalando. His ML platform work includes
-the `zflow` library and pipeline architecture. Onboarding, training, and user
-support also belong in the role
-([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career, 13:25-17:48]]).
+The Zalando platform example shows the engineer-as-consultant version of the
+role. ML platform work there includes the `zflow` library, pipeline
+architecture, onboarding, training and user support.[[cite:how-to-grow-your-ml-engineering-career]]
 
 Support work changes how a platform engineer writes and ships tools.
 Documentation, examples, repository templates, and troubleshooting paths matter
@@ -137,23 +149,20 @@ therefore part of platform engineering, not a separate communications task.
 
 ## Skills and Role Boundaries
 
-The role needs cloud and infrastructure fluency. Simon names cloud
-infrastructure and Kubernetes as core platform skills. Terraform and software
-engineering belong there too
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 8:11-13:50]]).
+The role needs cloud and infrastructure fluency. Cloud infrastructure,
+Kubernetes, Terraform, and software engineering are core platform skills.[[cite:building-production-ml-platform-and-mlops-team]]
 It also needs enough ML workflow knowledge to understand notebooks and training
 runs. Evaluation, model handoffs, and deployment friction matter too.
 
-Krzysztof adds durable engineering habits. SQL, Git, shell, and debugging stay
-valuable as tooling changes. He also values T-shaped expertise and
-troubleshooting skill
-([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career, 29:00-37:37]]).
+Durable engineering habits matter as tooling changes. SQL, Git, shell, and
+debugging remain useful in platform work. So do T-shaped expertise and
+troubleshooting skill.[[cite:how-to-grow-your-ml-engineering-career]]
 Platform work often fails in integration details, not only in isolated demos.
 
-Simon discusses when platform engineers should learn model internals
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms, 51:41]]).
-Krzysztof frames the useful profile as T-shaped
-([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career, 35:23]]).
+The useful profile is T-shaped. The engineer needs enough infrastructure depth
+to operate shared systems. They also need enough ML workflow breadth to
+understand where model teams get blocked without taking over every model
+decision.[[cite:building-production-ml-platform-and-mlops-team]][[cite:how-to-grow-your-ml-engineering-career]]
 
 Ownership separates the role from a
 [[machine-learning-engineer-role=>machine learning engineer]].
@@ -161,4 +170,15 @@ Machine learning engineers often own one model-backed capability, while ML
 platform engineers own the paved paths that many such capabilities use. The
 boundary with [[MLOps]] is narrower: MLOps
 can describe the operating discipline around one model or one team. ML platform
-engineering turns repeated MLOps needs into shared internal services.
+engineering turns repeated MLOps needs into shared internal services.[[cite:building-production-ml-platform-and-mlops-team]][[cite:mlops-at-scale-reproducibility-adoption]]
+
+## Related Pages
+
+These pages cover the adjacent roles, practices, and platform concerns:
+
+- [[ML Platforms]]
+- [[MLOps]]
+- [[Platform Engineering]]
+- [[machine-learning-engineer-role=>Machine Learning Engineer Role]]
+- [[developer-experience=>Developer Experience]]
+- [[platform-adoption=>Platform Adoption]]

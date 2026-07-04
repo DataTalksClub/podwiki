@@ -12,161 +12,192 @@ related:
 ---
 
 Bioinformatics data science is [[data science]]
-applied to biological data. In
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-defines the work as taking information generated in the lab. Bioinformatics
-then uses exploration, analysis, and modeling to interpret results and make
-predictions around biological systems.
+applied to biological data. Lab work produces samples, sequencing output, and
+biological questions. Bioinformatics turns them into data structures, models,
+reports, and reusable tools.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-The episode frames bioinformatics as a bridge between experimental biology and
-computational work. It covers sequencing-to-analysis workflows, metagenomic
-samples, and abundance tables. It also covers microbial association networks,
-knowledge graphs, and scientific reporting. Visualization and open-source
-package ecosystems make those workflows usable beyond one lab.
+Bioinformatics data-science work includes sequencing data and metagenomic
+abundance tables. It also includes microbial association networks, knowledge
+graphs, and reproducible scientific tooling. The episodes connect
+bioinformatics to [[machine learning]] and [[open source]]. They also connect it
+to [[reproducibility]], [[graph data science]], and [[data pipelines]].
+[[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+
+## Bioinformatics Data Science in Practice
+
+In the bioinformatics episodes, bioinformatics takes biological information
+generated in experiments. It uses exploration, analysis, software, and modeling
+to interpret it. Computational analysis can reduce the number of lab experiments
+by proposing better candidates to test, but it doesn't replace wet-lab
+validation.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+
+That makes bioinformatics data science close to ordinary
+[[data science]], but the biological context changes the meaning of each
+feature. DNA segments, abundance counts, and protein structures are examples.
+Biomarkers and microbial associations are also features that need biological
+context. Each feature has to stay tied to the experiment that produced it and
+the biological question it supports.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+
+## Different Routes Into the Work
+
+The episodes cover different entry points, not a direct disagreement. One route
+starts from biotechnology and wet-lab context, then adds software and package
+ecosystems. It also adds graph analysis and reporting tools for biological data.
+Another route starts from independent study, papers, datasets, and project-first
+[[machine learning]] practice. A third route starts from biology and statistics,
+then moves into ML engineering and healthcare prediction.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+[[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+
+The boundary differs by project. Some bioinformatics work is closer to
+scientific computing and [[data pipelines]]. Some is closer to ML portfolio
+work. Some becomes [[healthcare ml validation and adoption]] when the target is
+a clinical outcome. One example predicts lung-cancer patient response to
+immunotherapy from a blood draw.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
 ## Wet Lab and Dry Lab Boundaries
 
-The boundary starts with where the data comes from. At 6:27 in
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-contrasts biotechnology experiments with bioinformatics analysis. Lab teams test
-vaccines, compounds, or biological mechanisms. Computational analysis can reduce
-the number of experiments by proposing better candidates for the lab to try.
+The wet-lab and dry-lab boundary starts with where the data comes from. Wet-lab
+work means physical experiments with samples, instruments, and test tubes. Dry
+lab work is computational. The scientist or engineer works with data, pipelines,
+simulations, and software.
 
-At 8:23, the same episode distinguishes wet lab and dry lab work directly. Wet
-lab work means physical experiments with samples, instruments, and test tubes.
-Dry lab work is computational. The scientist or engineer works with data,
-pipelines, simulations, and software.
+Lab teams test vaccines, compounds, or biological
+mechanisms. Computational analysis helps narrow what the lab should test next.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-Bioinformatics data science sits near
-[[machine learning]] and
-[[data pipelines]]. Its biological
-context shapes the data model, validation, and interpretation.
+That boundary shapes career paths. A self-taught path can combine the OSSU open
+curriculum, ML Zoomcamp, PubMed and Google Scholar dataset discovery, and
+project-first learning. The frog-toxicity project in the self-learning episode
+shows how a biological question can become an ML workflow with notebooks,
+Docker, deployment practice, and model evaluation.
+[[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
 
-[[person:aaishamuhammad=>Aaisha Muhammad]] gives the
-self-taught entry path in
-[[podcast:learning-machine-learning-self-taught-bioinformatics=>Teaching Yourself Bioinformatics and ML]].
-She used the OSSU open curriculum, ML Zoomcamp, and a project-first approach to
-build both bioinformatics and machine learning skills without formal coursework.
-The episode covers resource evaluation, dataset-first project ideation through
-PubMed and Google Scholar, and the transition from notebooks toward Docker and
-deployment. Her capstone work on frog-toxicity prediction shows how a
-self-directed learner can bridge biological questions with ML pipelines.
-
-[[person:isabellabicalho=>Isabella Bicalho]] adds the
-biology-to-ML route in
-[[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]].
-She started from biological science and a master's in bioinformatics.
-Statistics then became her gateway into
-[[machine learning]] and later transformer work
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|8:29]].
-
-At INRIA, that bridge became a concrete
-[[healthcare ml validation and adoption]] case. She worked on models that
-predicted lung-cancer patient response to immunotherapy from a blood draw
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|From Biology to ML|11:14]].
-The example connects this page to broader
-[[career transitions in data]]. The useful signal wasn't only model training.
-It was the ability to translate biology into features, outcomes, and validation
-questions.
+A biology-first path can move through statistics, bioinformatics, and then ML
+engineering. The biology-to-ML episode connects that path to
+[[career transitions in data]] and to clinical prediction work, where the useful
+skill isn't only model training. The harder translation is from biology to
+features, outcomes, validation questions, and a decision that a lab or medical
+team can look at.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
 ## From Sequencing to Analysis
 
-Sequencing is the input side of many bioinformatics workflows. In the 12:35 and
-15:30 parts of
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-explains genomic data as DNA sequences made from four nucleotides. The four are
-adenine, guanine, cytosine, and thymine. A sequencing workflow reads DNA from an
-environmental or biological sample. It breaks the DNA into small pieces, decodes
-the order of nucleotides, assembles the pieces, and compares the result with
-databases or a reference genome.
+Sequencing is the input side of many bioinformatics workflows. Genomic data is
+represented as DNA sequences made from adenine, guanine, cytosine, and thymine.
+A sequencing workflow reads DNA from an environmental or biological sample and
+breaks it into small pieces. It then decodes the nucleotide order, assembles the
+pieces, and compares the result with databases or a reference genome.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 That turns a physical sample into analyzable data. The downstream work can look
 like familiar data science because it includes exploration, matching, and
 feature interpretation. It also includes modeling and comparison against known
 references.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 The biological stakes change the meaning of the features. A DNA segment may be
 tied to genes, proteins, or population markers. It may also be tied to health
-traits or organisms observed in a mixed sample.
+traits or organisms observed in a mixed sample. The analysis has to preserve the
+connection between the computational result and the underlying biology.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 ## Metagenomics and Abundance Tables
 
-Metagenomics is the episode's clearest pipeline example because it turns raw
-biological material into analytical tables. At 17:56 in
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-describes metagenomics as studying DNA from environmental samples rather than
-from one organism. Environmental samples may come from a lake, soil, or a
-wastewater treatment plant. They may contain many microorganisms, so the
-analysis must decode the mixed DNA and reconstruct the genomes or organism
-signals inside it.
+Metagenomics is the clearest pipeline example because it turns raw biological
+material into analytical tables. The workflow studies DNA from environmental
+samples rather than from one organism. A lake, soil sample, or wastewater
+treatment plant can contain many microorganisms. The analysis has to decode
+mixed DNA and reconstruct the genomes or organism signals inside it.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-For Sebastian's wastewater treatment microbiome project, the working data took
-the form of abundance tables. At 19:41 and 20:10, he describes rows as
-microorganisms and columns as samples. Values are counts showing how often each
-organism appears. Those tables make the workflow recognizable to a data
-scientist. Datasets from multiple studies are combined, categorized by biome,
-and analyzed for patterns across samples.
+In the wastewater treatment microbiome project, the working data takes the form
+of abundance tables. Rows represent microorganisms, columns represent samples,
+and values count how often each organism appears. Those tables make the work
+recognizable to a data scientist. The project combines datasets from multiple
+studies, categorizes them by biome, and analyzes patterns across samples.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 ## Microbiome Network Inference
 
-The microbiome project moves from tabular analysis into graph analysis. In
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-explains at 20:10 that microbial association networks are inferred from
+The microbiome project moves from tabular analysis into
+[[graph data science]]. Microbial association networks are inferred from
 co-abundance patterns. If two microorganisms often appear together in similar
 abundance, the workflow creates a possible association between them.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-At 24:31, Sebastian names CC Lasso as the method used in that project to infer
-potential microorganism interactions. The output includes correlation values
-between microorganism pairs, thresholding, and positive or negative
-associations.
+CC Lasso is the method used in that project to infer potential microorganism
+interactions. The output includes correlation values between microorganism
+pairs, thresholding, and positive or negative associations. A positive
+association can suggest coexistence, while a negative association can suggest
+that one organism appears when another doesn't. Geography, sampling, and
+biological context still affect the interpretation.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-He's careful about interpretation because a positive association can suggest
-coexistence, while a negative one can suggest that one organism appears when
-another doesn't. Geography, sampling, and biological context still matter.
-
-The network then becomes a knowledge graph. Around 36:20 and 38:31, Sebastian
-describes MCW2 Graph as an open-source knowledge graph where microorganisms are
-nodes and inferred co-abundance patterns are edges. Extra metadata describes
-metabolites, biomes, and biological processes. Users can explore the data in a
-Streamlit app or download raw CSV files. They can also open the graph in Neo4j
-and run graph algorithms such as clustering or centrality analysis.
+The inferred network can then become a knowledge graph. MCW2 Graph is an
+open-source knowledge graph where microorganisms are nodes and inferred
+co-abundance patterns are edges. Extra metadata describes metabolites, biomes,
+and biological processes. Readers can explore the data in a Streamlit app or
+download raw CSV files. They can also open the graph in Neo4j and run graph
+algorithms such as clustering or centrality analysis.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 ## Open-Source Computational Biology Tools
 
 The tooling discussion shows why [[open source]]
-is part of the bioinformatics data science workflow rather than an add-on. In
-[[podcast:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows in Practice]],
-[[person:sebastianayalaruano=>Sebastian Ayala Ruano]]
-uses MCW2 Graph and VueGen as examples. He also names VueCore and Viewer. These
-tools make biological data easier to explore, report, and visualize.
+is part of the bioinformatics data science workflow rather than an add-on. MCW2
+Graph and VueGen are the main examples. VueCore and Viewer also appear as tools
+for exploring, reporting, and visualizing biological data.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-VueGen is the reporting example. At 40:00, Sebastian explains it as a Python
-package that reads a structured directory. The directory can contain tables,
-plots, network data, or HTML files. VueGen then generates static documents,
-presentations, and Streamlit apps.
+VueGen is the reporting example. It's a Python package that reads a structured
+directory containing tables, plots, network data, or HTML files. It then
+generates static documents, presentations, and Streamlit apps.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 Under the hood, the tool uses Quarto and Streamlit rather than LLM
 interpretation. That matters for
 [[reproducibility]] because the
 report is generated from explicit files, paths, and descriptions. It also uses
 YAML metadata and renderable project structure.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-The package ecosystem also shapes what bioinformatics data scientists build
-with. At 42:29 and 50:25 in the same episode, Sebastian discusses Bioconda and
-Bioconductor as biology-oriented package ecosystems. He notes that R still has a
-larger bioinformatics community, while more work is moving to Python. He also
-warns that some scientific packages are created by scientists who aren't trained
-software developers. Because of that, scaling or adapting them can require
-reading source code, extending the package, or contacting maintainers.
+The package ecosystem affects what bioinformatics data scientists build with.
+Bioconda and Bioconductor are biology-oriented package ecosystems. R still has a
+larger bioinformatics community, while more work is moving to Python. Some
+scientific packages are created by scientists who aren't trained software
+developers. Scaling or adapting them can require reading source code, extending
+the package, or contacting maintainers.
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+
+## Learning and Portfolio Work
+
+Bioinformatics learning is project-driven in the self-taught episode. The path
+starts with enough programming, statistics, and ML to work through real
+datasets. It then uses research papers, PubMed, Google Scholar, and citation
+trails to choose projects. A useful portfolio project connects a biological
+question to data preparation, model training, evaluation, and deployment
+practice.
+[[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
+
+Open-source work can also turn domain knowledge into visible ML experience. The
+biology-to-ML episode links biology and bioinformatics with computer vision,
+transformers, documentation, and community contribution. That path matters for
+bioinformatics data science because many useful projects sit between science,
+software, and communication rather than inside a single discipline.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
 ## Related Pages
 
-Use these pages for the neighboring concepts named in the workflow.
+Neighboring pages cover the general data, ML, open-source, and graph concepts
+that recur in the bioinformatics discussions.
 
 - [[Data Science]] for analysis and
   modeling in a broader setting.

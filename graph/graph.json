@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11077
+    "links": 11065
   },
   "nodes": [
     {
@@ -207,7 +207,7 @@
       "title": "Data Product Manager",
       "url": "/wiki/data-product-manager/",
       "count": 1,
-      "search": "Data Product Manager A podcast grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
+      "search": "Data Product Manager A definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
       "keyword": "data product manager"
     },
     {
@@ -28026,24 +28026,6 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
-      "target": "person:aaishamuhammad",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:bioinformatics-data-science",
-      "target": "person:isabellabicalho",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:bioinformatics-data-science",
-      "target": "person:sebastianayalaruano",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:bioinformatics-data-science",
       "target": "podcast:bioinformatics-worflows-tools-and-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -38622,30 +38604,6 @@
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "person:annahannemann",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager",
-      "target": "person:caitlinmoorman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager",
-      "target": "person:geojolly",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager",
-      "target": "person:saramenefee",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -38739,6 +38697,12 @@
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:ml-platforms",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-manager",
@@ -60633,42 +60597,6 @@
       "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:krzysztofszafanek",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-platform-engineer-role",
-      "target": "person:willempienaar",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ml-platform-engineer-role",
