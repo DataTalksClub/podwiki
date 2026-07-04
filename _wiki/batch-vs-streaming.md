@@ -23,244 +23,170 @@ related_wiki:
 ---
 
 Batch processing handles bounded chunks of data. It covers scheduled warehouse
-jobs, backfills, training set creation, and batch inference.
+jobs, backfills, training set creation, and batch inference. Streaming
+processing handles events as they arrive from queues, brokers, or production
+services. That makes batch vs streaming a [[data pipelines=>data pipeline]]
+design question, not only a tool choice.
 
-Streaming processing handles events as they arrive from queues or brokers. It
-can also handle events from production services. That makes batch vs streaming a
-pipeline design question, not only a tool choice. The distinction connects to
-[[data pipelines]] and
-[[streaming]]. It sits near
-[[data engineering platforms]],
-[[DataOps]], and
-[[machine learning system design]]
-when the pipeline feeds a model-backed product.
+The distinction sits near [[streaming]], [[data engineering platforms]],
+[[DataOps]], and [[machine learning system design]] when a pipeline feeds a
+model-backed product. Events may arrive through Kafka or Kinesis. Teams then
+choose whether to react immediately or store the data first and transform it
+later.[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks]]
 
-A clean pipeline vocabulary starts with events arriving in systems such as Kafka
-or Kinesis. The team then decides whether to react immediately. It can also store
-the data first and transform it later
-([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]).
+## Mode Differences
 
-That framing keeps batch vs streaming away from tool fashion. The useful
-questions are latency, dependencies, and operating cost. Also ask about replay,
-ownership, and the action that consumes the result.
+Batch fits work where the consumer can wait and teams benefit from explicit
+dependencies. A batch job can declare upstream data and a time window. It can
+also declare downstream dependencies.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+That makes batch natural for [[Apache Airflow]] and warehouse transformations in
+the [[modern-data-stack=>modern data stack]]. It also fits backfills, training
+datasets, and scheduled scoring. [[Orchestration]] covers the broader scheduling
+and dependency model behind those jobs.
 
-## Choose by Latency and Dependencies
+Streaming fits work where delay changes the product outcome. Reporting,
+middle-latency stream processing, and sub-100-millisecond serving paths are
+different tiers. The tightest paths belong inside the serving application, not
+in a separate stream job.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Batch is the default when the consumer can wait, and it fits teams that benefit
-from explicit dependencies. Batch jobs can declare which upstream data is
-required, the time window, and downstream dependencies
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
-That makes batch natural for
-[[Apache Airflow]] and warehouse
-transformations in the
-[[modern data stack]], and it fits
-backfills, training datasets, and scheduled scoring. Use
-[[Orchestration]] for the broader
-scheduling and dependency model behind those jobs.
+The practical decision isn't whether batch is old or streaming is modern. Name
+the downstream action and the latest useful arrival time. Then name the owner of
+the table or event interface and the checks for lag, bad data, stale ML
+features, and downstream breakage.
 
-Streaming fits cases where a delayed result changes the product outcome. Slow
-reporting and the middle streaming window are distinct tiers.
-Sub-100-millisecond paths are another tier. They belong inside the serving
-application
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+## Boundary Differences
 
-In fraud prevention, daily batch jobs prepare feature values. The purchase flow
-still needs a live fraud decision that can block a transaction
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
-In MLOps, offline stores support training while online stores serve low-latency
-features
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
+One view is skeptical of streaming as a default because dependency management is
+less explicit than in workflow-orchestrated batch. Batch can often reach
+minute-level windows, and sometimes second-level windows, before full stream
+processing is needed.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-The decision isn't "batch is old" or "streaming is modern." Name the downstream
-action and the maximum useful latency. Then choose among scheduled jobs,
-micro-batches, streaming jobs, and in-request logic. On the SLA side, much
-so-called streaming is micro-batching. Strict SLAs need to justify tools such as
-Kafka or Flink
-([[podcast:trends-in-modern-data-engineering|Trends in Modern Data Engineering]]).
+Another view treats batch or streaming as one processing-mode choice inside a
+larger production pipeline. Ingestion and queues, storage and orchestration, and
+Spark or Flink processing still have to fit together.[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks]]
 
-## Practitioner Boundaries
+A third view puts more weight on the organizational cost of streaming. Kafka
+adds onboarding work around schemas and registry practice. Teams also need
+allowed-change rules.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling DE Teams]]
 
-Practitioners disagree about the default. One view is skeptical of streaming
-because dependency management is less explicit than in workflow-orchestrated
-batch. A team can often push batch latency into minute-level windows. Sometimes
-it can reach second-level windows before full stream processing is needed
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
-
-Another view treats the choice as architecture-neutral. It maps ingestion and
-queues, storage and orchestration options, plus Spark or Flink processing. Batch
-or streaming is one processing-mode decision inside a larger production
-pipeline, not the whole architecture
-([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]).
-
-A third view focuses on the organizational cost of streaming. Kafka creates
-onboarding work because teams need schemas and registry practice. They also need
-rules for allowed changes
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
-That keeps streaming close to [[data governance]]
-and producer-consumer ownership, not only brokers and compute engines. Use
-[[Data Mesh]] and
-[[data products]] for the broader
-ownership model around those interfaces.
-
-Hybrid ML systems combine daily feature computation with live transaction checks
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
-They also separate source modes from storage modes with backfills, validation,
-and low-latency feature retrieval
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
-
-A platform-maturity warning follows from that split. Before investing in online
-serving infrastructure, decide whether a downstream service consumes the model
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-That's the same deployment boundary covered in
-[[Machine Learning System Design]].
+That keeps streaming close to [[data governance]], [[Data Mesh]], and
+[[data-products=>data products]], not only brokers and compute engines.
 
 ## Latency and Product Action
 
-Batch fits reports, warehouse models, backfills, and campaigns. It also fits
+Batch fits reports, warehouse models, and backfills. It also fits campaigns and
 model jobs where delayed results still support the decision. Batch inference
-loads and preprocesses data. It builds features, runs inference, and writes
-outputs
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
-That structure is easy to reason about with
-[[experiment tracking]],
+loads and preprocesses data. It also builds features and writes inference
+outputs.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+
+That structure is easier to operate with [[experiment-tracking=>experiment tracking]],
 [[model-registry=>model registries]], and
-[[data quality and observability]].
+[[data-quality-and-observability=>data quality and observability]].
 
 Streaming fits event-arrival actions such as fraud checks, recommendations, and
-request-time enrichment. Risk scores, pricing, and ranking fit too, and a fraud
-workflow must answer during a purchase
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
+request-time enrichment. A fraud workflow can use daily batch jobs for feature
+values. The purchase flow still needs a live decision that can block a
+transaction.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Prevention]]
 
-Fraud detection and recommendation systems are strong online tabular
-feature-store use cases. The same design can support risk scoring, pricing, and
-ranking
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
+Feature stores make the latency split explicit because offline stores support
+training. Online stores serve low-latency features for fraud checks and
+recommendations. They also support risk, pricing, and ranking
+features.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 
 When the useful response time is tighter than the streaming window, the logic
-belongs in the user-facing application path. A separate streaming pipeline won't
-be fast enough
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+belongs in the user-facing application path.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 ## Operating Batch and Streaming Pipelines
 
-Batch operations rely on schedules and dependency graphs
-([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
-They make retries and reruns normal operating work. Teams also track
-dependencies, start times, and step order.
-That operating model is central to
-[[DataOps]].
-Workflow orchestration gives teams a way to repair late data, transient
-failures, and bugs
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+Batch operations rely on dependency graphs and schedules. Reruns are normal
+operating work.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Pipelines]]
+Teams track dependencies, start times, and step order. Workflow orchestration
+helps repair late data, transient failures, and
+bugs.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+That operating model is central to [[DataOps]].
 
 Streaming operations center on brokers, consumers, schemas, and synchronized
 event flows. Continuously running infrastructure adds more operating concerns. A
-few Kafka topics can become many topics.
-
-Missing schemas break downstream jobs, and allowed-change rules help prevent
-those failures. Kafka queues also need synchronization.
+few Kafka topics can become many topics. Missing schemas break downstream jobs,
+so allowed-change rules and schema registry practice become part of daily
+operations.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling DE Teams]]
 
 ## Schemas, Ownership, and Replay
 
-Batch pipelines can still break consumers through missing inputs, bad upstream
-data, and dependency changes. Teams need tests, orchestration, and visibility
-into whether expected data arrived. They also need to know whether it's fit for
-downstream use. CDC and database versioning are part of the same dependency and
-change-management problem
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
-Use [[data quality and observability]]
-and [[DataOps]] for the adjacent reliability
-work.
+Bad upstream data, missing inputs, or dependency changes can break batch
+consumers. Teams need tests, orchestration, and arrival checks. They also need
+to know whether the data is fit for downstream use.
 
-Streaming moves those interface problems into event semantics. Ownership is
-explicit: software engineers may publish events for service communication while
-data teams consume the same topics for analytical pipelines
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
+CDC and database versioning are part of the same dependency and
+change-management problem.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+
+Use [[data-quality-and-observability=>data quality and observability]] and
+[[DataOps]] for the adjacent reliability work.
+
+Streaming moves those interface problems into event semantics. Software
+engineers may publish service events, and data teams consume the same topics for
+analytics.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling DE Teams]]
+
 Without Avro or another schema practice, the stream becomes a shifting
 interface. Registry lookup, allowed schema changes, and a change path make the
-interface usable. That's why the batch vs streaming decision also touches
-[[data governance]],
-[[data products]], and
-[[event tracking]].
+interface usable. That's why batch vs streaming also touches
+[[data governance]], [[data-products=>data products]], and [[event-tracking=>event tracking]].
 
 ## Cost and Platform Complexity
 
 Batch is often cheaper to start and simpler to pause because scheduled compute
 doesn't have to run continuously. Cost-aware orchestration, including cheaper
-serverless options, comes before the streaming discussion. Streaming is often
-micro-batching unless strict SLAs justify a more specialized stack
-([[podcast:trends-in-modern-data-engineering|Trends in Modern Data Engineering]]).
+serverless options, comes before the streaming discussion. Much so-called
+streaming is micro-batching unless strict SLAs justify Kafka, Flink, or another
+specialized stack.[[cite:trends-in-modern-data-engineering=>Modern DE Trends]]
 
-When a delayed result loses value, streaming can earn its extra cost. Stream
-processing is popular but brings higher operational cost
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
-A team adopting Kafka may need people who understand cluster operation.
-Producer and consumer conventions, schema practice, and onboarding also matter
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams]]).
+Streaming can earn its cost when delayed results lose value. It still increases
+operating cost and dependency work.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-For learning and portfolio work, requirements-led tooling advice supports the
-same lesson. Build a clear batch pipeline first, and add Kafka or streaming only
-when the use case explains the cost
-([[podcast:trends-in-modern-data-engineering|Trends in Modern Data Engineering]]).
-Use [[Data Engineering Portfolio Projects]]
-for project examples that show reviewers why the latency requirement exists.
+A team adopting Kafka may need people who understand cluster operation,
+producer and consumer conventions, schema practice, and
+onboarding.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling DE Teams]]
+
+Portfolio projects can start with a clear batch pipeline. Add Kafka only when
+the use case needs streaming.[[cite:trends-in-modern-data-engineering=>Modern DE Trends]]
+
+Use [[Data Engineering Portfolio Projects]] for project examples that show why a
+latency requirement exists.
 
 ## ML Features and Serving
 
-ML systems often use both modes because a fraud system may precompute stable
-feature values daily. During a purchase, it combines them with real-time payload
-information
-([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
-That's different from a pure dashboard pipeline because the output can change the
-transaction while the user is still waiting.
+ML systems often use both modes. Fraud systems may precompute stable features
+daily, then combine them with real-time payload information during a
+purchase.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Prevention]]
 
-Feature stores make the hybrid design explicit. Feast and Tecton ingest
-precomputed features from batch or streams. They materialize offline and online
-stores, build point-in-time-correct training sets, and serve low-latency online
-features through a unified API
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
+That differs from a pure dashboard pipeline because the output can change the
+transaction while the customer is waiting.
+
+Feast and Tecton ingest precomputed features from batch jobs or streams. They
+materialize offline and online stores, build point-in-time-correct training
+sets, and serve low-latency online features through a unified
+API.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 
 Pure batch scoring or campaign use cases may not need a feature store. SQL, dbt,
-and validation may be enough. Those choices belong with
-[[MLOps]],
-[[Machine Learning System Design]], and
-[[machine learning infrastructure]].
+and validation may be enough. Those choices belong with [[MLOps]],
+[[Machine Learning System Design]], and [[machine-learning-infrastructure=>machine learning infrastructure]].
 
 ## Hybrid Designs
 
-The strongest examples aren't pure batch or pure streaming because teams split
-the system by stability and latency.
+The strongest examples are rarely pure batch or pure streaming. Teams split the
+system by stability and latency. Batch handles historical feature work,
+backfills, and training sets. Streaming or online paths handle current context,
+event-triggered actions, and low-latency retrieval.
+Fraud-prevention systems, feature stores, and ML platforms all show that
+split.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Fraud Prevention]][[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-The split is practical:
-
-- batch handles historical feature work, backfills, and training sets
-- streaming or online paths handle current context, event-triggered actions, and
-  low-latency retrieval
-
-That split appears in:
-
-- fraud prevention design
-  ([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]])
-- feature-store design
-  ([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]])
-- ML platform design
-  ([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]])
-
-In architecture review, ground the decision in four checks:
-
-- name the action that consumes the result
-- name the latest useful arrival time
-- name the owner of the event or table interface
-- define checks for bad data, lag, stale ML features, and downstream breakage
-
-If the answer is "a person reads a dashboard tomorrow," batch is probably
-enough. If the answer is a live purchase or ranking decision, streaming or
-online serving may be justified, and a hybrid feature path may also fit.
+If a dashboard can wait until tomorrow, batch is probably enough. Streaming or
+online serving may be justified when a live purchase, ranking, pricing, or risk
+decision depends on the result. A hybrid feature path may also fit.
 
 ## Related Pages
 
-Read these pages for the surrounding pipeline, operations, ML, and portfolio
-context:
+These pages cover the platform, operations, ML, and portfolio context.
 
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]

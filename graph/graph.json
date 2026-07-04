@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10817
+    "links": 10813
   },
   "nodes": [
     {
@@ -75626,30 +75626,6 @@
       "source": "wiki:tracking-plans",
       "target": "wiki:streaming",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:anahitapakiman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:danielsvonava",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:meryemarik",
-      "kind": "article-chip",
       "weight": 1
     },
     {
