@@ -9,6 +9,9 @@ related:
   - CV Screening
   - Career Transitions in Data
   - Analytics Engineering
+  - LLMs
+  - AI-Powered Business Intelligence
+  - KPIs
 ---
 
 ## Career Scope
@@ -110,6 +113,13 @@ and
 for analysts. Assistants can reduce time spent on complex SQL and debugging,
 but metric definition still depends on stakeholder conversations and domain
 judgment.[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
+
+Analysts still own the questions around the query. They decide which [[KPIs]]
+matter and explain why a metric should exist. They connect the result to product
+or business action. Teams adopting LLM-assisted analytics should treat that as a
+role-design issue. It belongs with [[Data Analyst Role]], [[Product Analytics]],
+and [[AI-Powered Business Intelligence]], not only tooling.
+[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
 
 Visualization and dashboarding matter because analysts communicate evidence, and
 dashboards connect to KPIs and product decisions.[[cite:data-team-roles=>Data Team Roles Explained]]

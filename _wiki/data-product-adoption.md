@@ -37,6 +37,13 @@ to real choices in meetings and workflows. Different groups bring different
 incentives and comfort with data.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
+Caitlin Moorman frames the last mile as the gap between availability and changed
+behavior. A team can have a warehouse, transformations, dashboards, and clear
+metrics. It can still miss the point where a salesperson, operator, product
+manager, or executive changes a choice. Data teams therefore need to understand
+each decision landscape, not only ship a reusable data asset.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
+
 Teams increase adoption by making the data product more valuable and easier to
 use. They improve discoverability, interpretability, trust, and clear decision
 context. They also lower reliance on analysts for every follow-up question.
@@ -109,6 +116,14 @@ For decision support, also track the decision chain, the information consumed,
 and whether pricing or revenue outcomes hit the expected baseline
 [[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]].
 
+Adoption measurement is different from a traffic report. Usage matters, but the
+business question is whether users reach better decisions with less manual
+effort. For ML pricing and decision support, the team should measure adoption
+next to pricing impact and revenue. Cost savings or time saved in the decision
+chain can matter too.
+[[cite:make-money-with-machine-learning-roles-skills@15:59=>ML business metrics]]
+[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+
 ## Trust Before Usage
 
 Adoption breaks when trust breaks, so small operational signals are
@@ -164,6 +179,21 @@ should be easy to understand, aligned with strategy, and few enough that people
 can remember them. Make KPIs visible in tools and company-wide rituals, and in
 reviews ask whether people made decisions from the numbers.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]]
+
+Decision optimization is the ML version of the same last-mile problem. Dan
+Becker argues that a prediction answers what may happen. The adopted product
+still has to answer what to do next. A fraud score or demand forecast becomes
+business value only after the team encodes the objective and constraints. In his
+fraud example, the same probability can imply a different action when the amount
+at risk or manual review cost changes.
+[[cite:machine-learning-decision-optimization@08:58=>Decision Optimization]]
+[[cite:machine-learning-decision-optimization@15:27=>Decision Function]]
+
+Encoding the decision rule also changes adoption measurement. The team
+shouldn't stop at model accuracy or dashboard views. It should test whether the
+decision rule improves the metric the business cares about, such as daily
+active users or revenue. Reputation risk and cost avoided can matter too.
+[[cite:machine-learning-decision-optimization@43:54=>Business Metrics for Decisions]]
 
 ## User Research and Prototyping
 
@@ -252,6 +282,13 @@ For less measurable work, teams can use proxies, time studies, and surveys.
 Practical before-and-after comparisons also help when they're the closest
 evidence available.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
+
+Moorman's warehouse example is pragmatic because some operational work is manual
+and hard to instrument. The team may time the old and new workflow with a
+stopwatch, run surveys, or use the closest proxy. That's weaker than a clean A/B
+test, but it can still show whether the data product shortened a task enough to
+justify wider rollout.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:29=>Last-Mile Data Delivery]]
 
 A more explicit metric direction translates model performance into money saved
 or revenue, and can measure risk reduction or time saved for the business. Track

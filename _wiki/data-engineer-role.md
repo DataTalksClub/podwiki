@@ -12,6 +12,8 @@ related:
   - Data Engineer Roadmap
   - Self-Service Data Platforms
   - Data Engineering Portfolio Projects
+  - Job Search
+  - CV Screening
 ---
 
 A data engineer builds and operates the systems that make data usable for
@@ -99,23 +101,30 @@ That version of the role is close to
 [[data-engineer-roadmap=>data engineering learning paths]]
 and [[data engineering portfolio projects]].
 
-Hiring screens separate junior execution, mid-level ownership, and senior
-influence [[cite:hiring-for-data-engineering-jobs-in-europe@22:55=>Hiring DE Europe]].
+Recruiters and hiring managers separate junior execution, mid-level ownership,
+and senior influence. Nicolas Rassam describes junior data engineers as
+task-oriented. Intermediate engineers are more proactive and can make design
+decisions under ambiguity. Senior engineers influence technical choices and less
+senior engineers
+[[cite:hiring-for-data-engineering-jobs-in-europe@22:55=>Hiring DE Europe]].
 
-This progression links the role to
-[[data-engineer-roadmap=>roadmaps]]
-and [[data engineering portfolio projects=>portfolio projects]]. Evidence
-should mature from scoped fundamentals to ownership and influence.
+Candidates should use that progression when they choose
+[[data-engineer-roadmap=>roadmaps]],
+[[data engineering portfolio projects=>portfolio projects]],
+[[Job Search]], and [[CV Screening]].
+They should show scoped fundamentals first, then ownership and influence.
 
-Interview evidence should mirror that level. Interviews move through recruiter
-intro, project discussion, data-oriented coding, and practical analysis
+Candidates should prepare interview evidence that matches the level. Nicolas
+describes a common process with a recruiter intro and a discussion with the data
+engineering team about the candidate's current project. It also includes
+data-oriented coding and a practical analytical exercise. For senior candidates,
+interviewers should ask how a design handles time and money. They should also
+probe performance, drawbacks, and bottlenecks
 [[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring DE Europe]].
 
-Assessment depth changes from junior fundamentals to senior tradeoff
-reasoning [[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring DE Europe]].
-
-This ties interviews to [[data engineering platforms]] and [[DataOps]] when
-the work involves operational tradeoffs rather than one isolated pipeline.
+Those senior interviews connect to [[data engineering platforms]] and
+[[DataOps]] when the work involves operational tradeoffs rather than one
+isolated pipeline.
 
 For data scientists, the transition version of this entry path is the
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].

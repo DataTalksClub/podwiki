@@ -25,6 +25,7 @@ related_wiki:
   - Testing
   - CI/CD
   - MLOps
+  - Model Monitoring
   - Leadership
   - Data Teams
   - Production ML Project Checklist
@@ -236,6 +237,14 @@ also includes fail-fast checks
 The same project can need an offline metric and an A/B test. It can also need
 stakeholder feedback, monitoring, and a production support plan.
 
+Project managers need both business and model signals to check impact. Barbara
+Sobkowiak describes asking clients and project managers whether a solution
+helps. She then pairs that feedback with dashboards and monitoring. A
+sales-forecasting model can improve or miss its target for reasons outside the
+model. Project managers should track [[KPIs]], [[Model Monitoring]], and
+business-process context together
+([[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Manager vs Expert]]).
+
 The [[Production ML Project Checklist]]
 is the closer checklist when the project changes a live system.
 
@@ -274,6 +283,13 @@ than the original request implied
 ([[cite:data-science-manager-vs-expert-hiring-guide@40:47=>Manager vs Expert]]).
 That keeps [[Data Science for Managers]] and [[Leadership]] tied to project
 planning rather than only people management.
+
+Barbara also describes a practical boundary between project managers and data
+science managers. Project managers may ask whether two weeks is realistic. The
+data science lead has to translate data uncertainty and people availability into
+a timeline. The estimate also needs expected model or testing work
+([[cite:data-science-manager-vs-expert-hiring-guide@43:36=>Manager vs Expert]]).
+Teams need that technical review before the delivery date becomes a promise.
 
 That matches the [[Machine Learning System Design]]
 habit of writing goals, non-goals, assumptions, and data paths before the work

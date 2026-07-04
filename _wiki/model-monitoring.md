@@ -62,8 +62,10 @@ monitored and maintained sits alongside experiment tracking, registries, and
 serving in the MLOps toolset.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For startup validation, Evidently began with customer discovery around
-post-production model failures. Models can break without anyone noticing.
-Monitoring can disappear after data scientists leave
+post-production model failures. Elena Samuylova heard the same complaints from
+teams in traditional companies. Models break without anyone noticing,
+monitoring is annoying to own, and monitoring may disappear when data
+scientists leave a project
 [[cite:building-mlops-startup@43:59=>MLOps Startup]].
 Evidently treated monitoring as both an [[MLOps]] operating practice and a
 product pain for an MLOps startup.
@@ -78,10 +80,16 @@ The same monitoring problem links feature work, ETL reliability, and
 In production operations, observability connects model symptoms to ETL,
 [[data pipelines]], and upstream root causes.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
-Monitoring is also a retraining input because drift and fairness signals can
-trigger retraining decisions. Monitoring output can become new training data
-when the team has a production feedback path
-[[cite:mlops-kubeflow-model-monitoring@11:17=>Kubeflow Model Monitoring]]
+Monitoring is also a retraining input. Drift signals can trigger retraining
+decisions, and fairness, anomaly, and robustness signals can too.
+
+Theofilos Papapanagiotou separates this from ordinary service monitoring
+because latency and request counts are only part of the picture. An ML
+monitoring stack also watches model quality signals that may kick off a
+training pipeline
+[[cite:mlops-kubeflow-model-monitoring@11:17=>Kubeflow Model Monitoring]].
+The monitoring output can become new training data when the team has a
+production feedback path
 [[cite:mlops-kubeflow-model-monitoring@33:27=>Kubeflow Model Monitoring]].
 
 Fairness-aware monitoring adds subgroup behavior to that drift view. Supreet
@@ -97,11 +105,12 @@ The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
 break the model too.
 
-Deployment population is part of the monitored distribution. In healthcare, a
-model developed on European patients may not generalize to African clinical
-settings. Disease prevalence, available measurements, collection practices, and
-infrastructure can differ. European data can still inform reasoning, but it
-shouldn't automatically justify an algorithm for a low-resource setting
+Deployment population is part of the monitored distribution. A healthcare model
+developed on European patients may not generalize to African clinical settings.
+Disease prevalence, available measurements, collection practices, and
+infrastructure can differ. Eleni Stamatelou treats European data as potentially
+useful for reasoning, but not enough to justify an algorithm for a low-resource
+setting
 [[cite:building-healthcare-machine-learning-systems@35:45=>Healthcare ML Systems]].
 
 That makes population coverage a [[Machine Learning System Design]] constraint

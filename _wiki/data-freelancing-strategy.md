@@ -180,7 +180,19 @@ conversations help people remember what the freelancer does.
 Public writing can become a business-development surface even when it starts as
 learning notes. A useful technical blog gives prospects a way to discover the
 freelancer. It also gives workshop audiences concrete follow-up material and
-turns repeated explanations into proof that can travel beyond one conversation.[[cite:production-ready-ai-engineering@53:10=>Production AI Engineering]]
+turns repeated explanations into proof that can travel beyond one conversation.[[cite:production-ready-ai-engineering@53:10=>Production AI Engineering]].
+
+The same episode adds an AI-era writing constraint. AI can help turn rough notes
+into drafts or split awkward sentences. Bartosz Mikulski still didn't trust fully
+AI-written posts to sound like his own work.[[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]].
+For [[technical writing]] and consulting, the reusable asset isn't just the
+article. It's a discoverable explanation that still sounds like the person a
+client will work with.
+
+Aleksander Kruszelnicki gives the consulting version of the same acquisition
+loop. Network outreach, LinkedIn messaging, and blog posts compound when the
+message matches the target customer. A blog post can also travel through someone
+else's referral before the consultant ever sees the lead.[[cite:data-consulting-business-pricing-and-client-acquisition@40:55=>Build a Data Consulting Business]].
 
 Networking for independent work is strongest when it's tied to deep skill and
 visible reliability. The company years can build trusted relationships. The
@@ -219,6 +231,14 @@ Price depends on channel, reputation, specific skills, and project type.[[cite:b
 Project packages can have better margins than hourly work when the freelancer
 controls delivery efficiency. Hourly pricing still fits new freelancers, trusted
 clients, and unclear requirements.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
+
+For data consulting, Aleksander Kruszelnicki ties price to value and benchmarked
+alternatives. Delivery cost alone is too narrow. He describes day rates as
+payment for having seen similar data situations before. The rate also covers the
+flexibility risk of being an external consultant instead of an employee.[[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]].
+That connects pricing to [[ml consulting proposals]]: the quote should explain
+which uncertainty the consultant is absorbing and which discovery still needs
+iterations.
 
 Cash flow is a separate risk. Payment delays can come from procurement and
 finance bureaucracy rather than outright non-payment. Larger companies can make

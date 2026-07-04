@@ -20,10 +20,10 @@ technical request into a shared view of the business problem. It also names the
 available data and feasibility limits. It sets the delivery mode, price, and
 stop conditions.
 
-For the broader services business, start with
-[[freelance=>Freelance Data Engineering and Consulting]].
-Use this page for the proposal work. It covers what to learn before making a
-promise, how to write scope down, and when to avoid selling a model.
+For the broader services business, [[freelance=>freelance data engineering and
+consulting]] covers client acquisition and independent work. Proposal work is
+narrower because the consultant learns enough before making a promise, records
+the project boundaries, and knows when to avoid selling a model.
 
 Sometimes the useful answer is a dashboard or workshop instead of
 implementation. Sometimes it's a feasibility study or mentoring engagement.
@@ -289,6 +289,11 @@ that project pricing can force the consultant to estimate effort too early. The
 consultant may not yet have seen the client's data, stakeholders, or
 communication constraints
 ([[cite:data-consulting-business-pricing-and-client-acquisition@52:38=>Build a Data Consulting Business]]).
+
+Before testing a proposal, he recommends knowing the starting rate, target rate,
+and minimum acceptable rate. That matters before a friendly buyer asks for a
+discount
+([[cite:data-consulting-business-pricing-and-client-acquisition@51:26=>Build a Data Consulting Business]]).
 For [[freelance=>freelance data consulting]], consultants should treat pricing
 as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when

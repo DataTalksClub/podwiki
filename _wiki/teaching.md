@@ -7,6 +7,8 @@ related:
   - Documentation
   - Technical Writing
   - Developer Relations
+  - LLMs
+  - Retrieval-Augmented Generation
   - Data Engineer Roadmap
   - Career Transitions in Data
   - Open Source Portfolio Evidence
@@ -62,6 +64,13 @@ learning with projects, notes, READMEs, and GitHub
 This makes teaching inseparable from
 [[community building]] because
 office hours, public deadlines, and peer questions help learners keep moving.
+
+Free access matters to the DataTalks.Club course model. The free-to-learn
+approach came from Open Data Science and from the value of free courses early in
+a data science career. The Data Engineering Zoomcamp grew when a student
+proposed a course and several community members split modules. Teaching became a
+shared community project rather than one instructor's content pipeline
+[[cite:datatalksclub-scaling-and-free-courses@12:04=>Scaling Free Courses]].
 
 Daniel Egbo gives a learner-side example of that teaching model. ML Zoomcamp
 helped move his astronomy work from notebooks toward reusable code and
@@ -253,23 +262,26 @@ needs SQL, visualization, product context, and communication. Jeff's learner
 moving into data engineering needs Python, SQL, and data modeling. They also
 need cloud basics and interview practice.
 
-DataTalks.Club's free-course model keeps the same access principle while
-adapting the curriculum to current demand. The course portfolio stays free to
-learn. Newer LLM/RAG material extends the project-based teaching model into AI
-engineering topics
+DataTalks.Club keeps the course portfolio free to learn while adding newer
+LLM/RAG material for current AI engineering demand
 [[cite:datatalksclub-scaling-and-free-courses@12:04=>Scaling Free Courses]]
 [[cite:datatalksclub-scaling-and-free-courses@29:14=>Scaling Free Courses]].
+This course path connects teaching with [[LLMs]] and
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] alongside
+[[AI Engineering Roadmap]] after the community has a practical topic.
 
 Alexander's learner moving into ML needs problem framing, validation, system
 design, and engineering quality.
 
 University teaching can also become part of an independent practitioner income
 mix when expertise is visible enough to create course, curriculum, training, and
-consulting opportunities. The path into a university classroom depends on deep
-subject expertise, professor relationships, and written credibility such as a
-book. That makes university teaching adjacent to [[technical writing]],
-[[developer relations]], and
+consulting opportunities. Noah Gift frames course and curriculum work as a
+more scalable part of independent work than unlimited consulting. He then
+describes the university route as deep subject expertise plus professor
+relationships and written credibility such as a book. Readers should connect
+university teaching with [[technical writing]], [[developer relations]], and
 [[career transitions in data]]
+[[cite:solopreneur-developer-and-data-professional@16:27=>Solopreneur teaching mix]]
 [[cite:solopreneur-developer-and-data-professional@58:24=>Solopreneur teaching path]].
 
 Guests don't tell learners to take more courses. They ask learners to study a

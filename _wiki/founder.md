@@ -128,6 +128,12 @@ opening signal. Visible open-source projects and demos showed demand before the
 company story was fully formed.[[cite:open-source-turned-into-career-and-startup-creation@2:07=>From Developer to Startup Founder]]
 [[cite:open-source-turned-into-career-and-startup-creation@26:39=>From Developer to Startup Founder]]
 
+In that path, founder credibility came from observable public work. Rich and
+Textual were visual enough for progress updates, screenshots, and short demos
+to travel through developer communities. The public trail helped turn
+open-source attention into company attention before Textualize had a mature
+commercial product.[[cite:open-source-turned-into-career-and-startup-creation@31:40=>From Developer to Startup Founder]]
+
 Open-source developer-tool investors look for community-driven distribution and
 bottom-up developer adoption. They still check the team and market need. They
 also check commercialization, user interviews, and active community engagement.
@@ -198,6 +204,12 @@ Open-source developer-tool fundraising connects runway, use of proceeds, and
 commercial model. Founders who raise money need to explain how community
 interest becomes a scalable company through open core and hosted services.
 Enterprise licenses or support revenue can be part of the model too.[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]
+
+Textualize gives the founder-side version of that funding signal. A tweet about
+the work drew investor attention, and pre-seed money created room to hire. The
+fundraising evidence wasn't only a pitch deck. It was the visible combination
+of a useful open-source project, developer interest, and a plausible product
+direction.[[cite:open-source-turned-into-career-and-startup-creation@28:08=>From Developer to Startup Founder]]
 
 ## Indie and Small-Business Paths
 

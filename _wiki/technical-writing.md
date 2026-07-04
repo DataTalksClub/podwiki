@@ -30,16 +30,11 @@ readers. Writing gets stronger when the audience narrows from "everyone" to a
 peer, future teammate, or hiring manager. Reader experience determines whether
 an article works.[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
-Use this page for technical writing as a
-[[data science]] and
-[[machine learning]] skill. Use
-[[documentation]] for project docs
-and team memory. Use
-[[developer relations]] for
-adoption and demos. Use
-[[open source portfolio evidence]]
-for public proof, and [[career growth]]
-for visibility and seniority signals.
+As a [[data science]] and [[machine learning]] skill, technical writing sits
+between [[documentation]], [[developer relations]], and
+[[open source portfolio evidence]]. Project docs preserve team memory. Demos and
+adoption writing make tools easier to try. Public proof and
+[[career growth]] come from making technical decisions visible.
 
 ## Reader-Centered Explanation
 
@@ -108,6 +103,12 @@ becomes part of [[career growth]] without reducing it to personal branding
 
 Swyx adds the owned-platform version. A mailing list, newsletter, and personal
 site give public learning a durable home outside a single social feed
+[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
+
+That ownership changes the role of technical writing. Social posts can help a
+piece find readers, but the durable asset is the body of work a writer controls.
+A writer controls the domain, newsletter, and mailing list. Reusable posts become
+part of the same distribution decision
 [[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
 
 Using AI to draft can lower the cost of turning rough notes into a post, but it
@@ -219,6 +220,13 @@ branding. Portfolio READMEs, quickstarts, and repo tours turn public learning
 into evidence. They also make sharing concrete for a hiring reader judging
 clarity, scope, and ownership
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+
+Writing can also become business infrastructure. Bartosz Mikulski describes a
+blog that began as a place to share programming ideas and later helped attract
+clients and support teaching workshops. The useful claim isn't that every blog
+becomes a sales funnel. It's that a searchable body of technical explanations
+can make expertise easier for clients, students, and collaborators to verify
+[[cite:production-ready-ai-engineering@53:10=>Production AI Engineering]].
 
 Technical writing belongs with
 [[career growth]] and

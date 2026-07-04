@@ -50,6 +50,12 @@ calls this the last mile: data creates value only when it reaches the decision
 and changes what a team does.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
 
+The last-mile boundary keeps data product management tied to adoption after
+launch. A product manager can ship the metric layer, dashboard, model, or
+platform feature. The product still fails if the target team never brings it
+into the meeting, queue, pricing decision, or review workflow.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@15:56=>Last-Mile Data Delivery]]
+
 ## Ownership Models
 
 Teams place the role boundary differently depending on context. A dedicated
@@ -216,6 +222,21 @@ cost savings, ARR, and MRR. ROI and usage belong in the same executive view, and
 task time, decision quality, and pricing impact matter there too.
 [[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
 
+Vin Vashishta's product-metrics framing makes adoption a product-management
+responsibility rather than an analytics afterthought. Track whether people use
+the product, how long the task takes, how quickly novice users become power
+users, and whether the product removes manual steps. For decision products, add
+the consumed information, the decision path, and the pricing or revenue outcome.
+[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+
+Decision optimization adds one more metric test for model-backed products. Dan
+Becker's decision-function framing asks the PM and data team to connect model
+predictions to an objective and constraints before launch. The success metric
+then becomes the business result of the chosen action, not only precision,
+recall, or forecast error.
+[[cite:machine-learning-decision-optimization@15:27=>Decision Function]]
+[[cite:machine-learning-decision-optimization@43:54=>Business Metrics for Decisions]]
+
 ## Adoption and Operating Ownership
 
 Adoption belongs inside the product boundary because unused data outputs are
@@ -224,6 +245,14 @@ personas. Teams embed metrics in meetings, prototype quickly, and scope narrow
 wins that create advocates. Adoption depends on discoverability,
 interpretability, trust, and data quality. It also depends on the meeting or
 workflow where the decision is made.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+
+The last-mile gap also shapes roadmap sequencing. If the business already has a
+manual decision process, the PM can start with the smallest slice that changes
+one person's choice. The team can measure the before-and-after task time or
+decision result, then use that advocate to expand the product. That's different
+from launching a large dashboard or model and waiting for usage to appear.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@41:18=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@46:11=>Last-Mile Data Delivery]]
 
 Low-fidelity prototypes are a product-management tool for data products. A
 sketch or whiteboard can test the decision flow before the team builds a polished

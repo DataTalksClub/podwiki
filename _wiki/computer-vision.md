@@ -47,18 +47,19 @@ identify species. It may also classify cells, recognize traffic-control
 gestures, or embed product images for search.
 
 Healthcare examples bring clinical-device constraints into the vision page.
-White-blood-cell images can be processed and classified into subcategories for a
-cell sorter. The sorter separates cancerous cells from usable blood
+Eleni Stamatelou's white-blood-cell work used conventional image processing to
+classify cell images into subcategories for a cell sorter. The downstream
+device goal was to separate cancerous cells from usable blood
 cells.[[cite:building-healthcare-machine-learning-systems@11:03=>Building Healthcare ML Systems]].
 
 C-arm work starts from multiple camera views of the patient. Geometry turns
-those views into a 3D patient representation for operating-room
-workflows.[[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
+those views into a 3D patient representation for operating-room workflows. The
+vision problem is image geometry as much as classification.[[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
 
 Those cases put computer vision next to
 [[healthcare-ml-validation-and-adoption=>healthcare ML validation and adoption]]
 and [[machine learning system design]]. The visual output has to fit a clinical
-device, not only a benchmark.
+device, available labels, and review workflows, not only a benchmark.
 
 A useful vision system also needs the right data source and labeling path. The
 team has to plan validation, runtime targets, privacy constraints, and

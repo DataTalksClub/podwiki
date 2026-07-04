@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11065
+    "links": 11083
   },
   "nodes": [
     {
@@ -32500,6 +32500,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -32644,9 +32650,27 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "wiki:kpis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:kpis",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "wiki:llms",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-analyst-careers",
@@ -34306,6 +34330,18 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -34423,6 +34459,18 @@
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:job-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineer-role",
@@ -36484,6 +36532,12 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "kind": "wiki-chip",
       "weight": 1
@@ -37918,6 +37972,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "podcast:machine-learning-decision-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "podcast:make-money-with-machine-learning-roles-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -38291,6 +38351,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "podcast:machine-learning-decision-optimization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41185,6 +41251,12 @@
       "target": "wiki:model-monitoring",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -50143,6 +50215,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:freelance",
@@ -67282,6 +67360,12 @@
     },
     {
       "source": "wiki:platform-adoption",
+      "target": "podcast:make-money-with-machine-learning-roles-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -75850,6 +75934,18 @@
     },
     {
       "source": "wiki:teaching",
+      "target": "wiki:llms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -75887,6 +75983,18 @@
     {
       "source": "wiki:teaching",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
     },

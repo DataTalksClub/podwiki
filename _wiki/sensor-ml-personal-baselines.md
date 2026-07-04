@@ -71,12 +71,12 @@ notice what changed for this subject, not only what matches a broad group.
 
 Healthcare sensor work adds a model-choice boundary for physiological signals.
 A bed-mat ballistography system can capture movement caused by respiration and
-heart activity without attaching electrodes. ECG can serve as a reference while
-the system denoises the mat signal and extracts vitals.
+heart activity without attaching electrodes. ECG can serve as the reference
+signal while the system denoises the mat signal and extracts vitals.
 [[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
 
 The modeling decision depends on signal strength. Respiration can be estimated
-with classical signal processing when the relevant frequency is strong enough.
+with filters and Fourier methods when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
 signal is weaker, noisier, or overlaps with other motion.
 [[cite:building-healthcare-machine-learning-systems@21:49=>Healthcare ML Systems]]

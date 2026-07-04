@@ -111,6 +111,13 @@ interactions, making OSS experience a useful checklist signal rather than a hard
 requirement
 [[cite:open-source-turned-into-career-and-startup-creation@44:38=>OSS hiring signal]].
 
+In the Textualize hiring example, a founder can look at code, project history,
+and interactions around Rich or Textual before relying on interview claims. The
+useful portfolio artifact is therefore not just "I contributed to open source."
+It's a public trail that shows judgment, review
+behavior, and the ability to improve a tool other developers use
+[[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signal]].
+
 A [[developer relations]]
 and [[developer experience]]
 lens frames DevRel through education, documentation, and dogfooding. Community
@@ -248,6 +255,13 @@ and public notes and corrections create recognition over time
 For open-source portfolio evidence, a tutorial should link back
 to the tool and run from clean setup steps. It should also explain what changed
 after user or maintainer feedback.
+
+Build-in-public work can support the same evidence when it shows concrete
+progress. McGugan's Rich and Textual updates worked because the tools had visual
+changes. He could show progress in demos and explain it in public updates. For
+a portfolio, screenshots or short demos should point back to evidence. That
+evidence can be a real issue, pull request, release or user problem
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Build in public with Rich and Textual]].
 
 ## Role-Specific Signals
 

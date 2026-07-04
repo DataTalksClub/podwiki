@@ -156,6 +156,15 @@ allocation can use the same approach. The formulation has to name the objective
 and constraints before the solver or model matters
 ([[cite:machine-learning-decision-optimization@09:00=>Machine Learning Decision Optimization]]).
 
+Becker folds decision optimization into business value instead of treating it as
+a separate technical niche. His fraud example shows why. Two transactions can
+have the same fraud probability but different expected value because the amount
+at risk, customer value, and manual review cost differ. The business decision
+therefore needs a decision function that combines predictions with value and
+constraints.
+([[cite:machine-learning-decision-optimization@08:58=>Machine Learning Decision Optimization]],
+[[cite:machine-learning-decision-optimization@15:27=>Decision Function]]).
+
 The loss function and operating constraints have to match the business
 objective. Otherwise, the model can recommend decisions the business can't
 execute or doesn't value
@@ -275,6 +284,13 @@ savings, ARR, and MRR. He also includes usage, task time, decision quality, and
 pricing impact. Those measures help leaders compare ML with other investments
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
 
+For ML products, product adoption metrics belong in the same measurement system
+as business metrics. Usage and task time show whether people changed their work.
+Decision quality and pricing impact show whether that changed work created
+value. This is the bridge between [[data product adoption]] and the executive
+metrics leaders use to fund or stop an ML product.
+([[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]).
+
 [[person:adamsroka=>Adam Sroka]] adds KPI discipline in
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
 He warns against vanity metrics and KPIs that people can game. He then connects
@@ -342,6 +358,15 @@ decision context as product requirements. Data outputs can sit unused even when
 the modern data stack works. Narrow wins with one stakeholder create evidence
 before the team tries to scale adoption
 ([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+
+The last-mile gap is especially visible when the business can see a model score
+but still doesn't know what to do with it. Moorman recommends sitting in the
+meetings where decisions happen and mapping the deliverable to the actual choice
+the stakeholder has to make. Weak instrumentation still leaves options. Teams
+can run time studies, use proxy metrics, or compare surveys with before-and-after
+results to show whether the model changed work.
+([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@38:15=>Last-Mile Data Delivery]],
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:29=>Last-Mile Data Delivery]]).
 
 [[person:liorbarak=>Lior Barak]] gives the translator version. He focuses on
 shared definitions, proactive data-quality communication, and

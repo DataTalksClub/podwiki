@@ -355,10 +355,16 @@ that proof can come from
 open-source contributions or internal projects. A small paid engagement can
 serve the same purpose.
 
-Independent work doesn't always mean short projects or constant client churn. A
-first paid engagement can become a long-running anchor client. Smaller projects
-can still preserve the legal and practical independence of freelancing.
-[[cite:open-source-turned-into-career-and-startup-creation@15:07=>Open source founder path]]
+Independent work can still include a long anchor client, as Will McGugan's path
+shows.
+
+A short Python engagement became an anchor client and lasted 11 years.
+He still treated it as freelancing because smaller engagements and rule awareness
+kept the work from becoming ordinary full-time employment. The distinction
+matters [[cite:open-source-turned-into-career-and-startup-creation@15:07=>Path]].
+
+That example belongs next to [[data freelancing strategy]]. The business can be
+stable while the legal and client structure still differs from a job.
 
 In that setup, [[Open Source]] can also act as a separate creative outlet.
 Client work may be shaped by business requirements and existing systems. Side

@@ -166,6 +166,12 @@ show a more complete route. Visible open-source traction can start investor
 conversations when the tool has a developer audience and a credible product
 direction[[cite:open-source-turned-into-career-and-startup-creation@28:08=>Textualize]].
 
+That route depended on public explanation as much as repository activity. Rich
+and Textual were easy to show, so build-in-public updates could include screenshots,
+videos, and explanations. Those updates made the startup legible to developers,
+contributors, and investors before the company had a long enterprise sales
+history[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Textualize building in public]].
+
 ## Services, Side Projects, and Startup Careers
 
 Several founders start outside a classic venture-backed company. DLT grew from
@@ -188,6 +194,12 @@ People also use startups as career environments. A four-person team can
 offer topic fit and variety, but it also requires communication, business
 learning, and self-organization. Open-source contribution and freelance projects
 can broaden data work beyond the startup.[[cite:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist]]
+
+Textualize shows the opposite direction too. Public open-source work can become
+the hiring surface for the startup. Contributions and public code aren't
+mandatory for every hire. They let a founder look at real work and real
+collaboration before the interview loop becomes abstract
+[[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signals]].
 
 ## Related Pages
 

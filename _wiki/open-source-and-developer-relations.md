@@ -77,6 +77,13 @@ communities with examples and useful context. GitHub stars should be read
 against the size of the project's niche rather than as a universal quality score
 ([[cite:open-source-turned-into-career-and-startup-creation@50:05=>McGugan on GitHub stars]]).
 
+For a developer-tool startup, this public loop can become more than awareness.
+In the Textualize story, repeated public demos helped developers understand the
+project while giving investors visible traction to evaluate. Founder
+distribution used the same artifacts as DevRel. Those artifacts included demos,
+explanations, repository activity and community feedback
+([[cite:open-source-turned-into-career-and-startup-creation@28:08=>Textualize funding signal]]).
+
 Open-source DevRel connects to [[community building]] when public updates
 produce feedback and contributors. It connects to
 [[Open Source Portfolio Evidence]] when those updates create hiring signal and
@@ -259,6 +266,13 @@ Useful open-source DevRel leaves behind evidence other people can look at. That
 evidence can be a clearer issue, a better doc, or a working demo. It can also
 be a reviewed pull request or a visible portfolio signal
 ([[Open Source Portfolio Evidence]]).
+
+That evidence can affect hiring too. McGugan describes open-source contribution
+as useful context for recruiters and founders because public code plus public
+interactions reveal how someone works with a project. It's a signal, not a
+universal requirement, so DevRel should help contributors leave clear,
+reviewable artifacts rather than chase activity volume
+([[cite:open-source-turned-into-career-and-startup-creation@44:38=>OSS hiring signal]]).
 
 The related technical ecosystems include
 [[machine learning tools]],

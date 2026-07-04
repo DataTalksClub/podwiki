@@ -121,6 +121,12 @@ a week [[cite:from-biology-to-machine-learning-data-science-portfolio-open-sourc
 For [[CV Screening]] and [[Job Search]], the profile made existing proof
 reachable. The call worked because prior AI-for-good geospatial work and
 open-source ML projects gave her relevant experience to reference [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>Bio to ML]].
+
+That makes the lesson narrower than "post a CV." CV visibility helped because
+the client could connect the profile to work she had already done outside
+academia. In [[career transitions in data]], visibility works best when the
+reader can see the bridge from previous projects to the first paid engagement.
+
 For [[Machine Learning Portfolio Projects]] and
 [[Open Source Portfolio Evidence]], use visibility plus evidence. Put the CV and
 profile where clients search. Make public work strong enough that a networking

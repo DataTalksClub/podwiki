@@ -109,7 +109,7 @@ Interpretability is strongest when it finds a concrete model or data problem. In
 interpretable machine learning practice, SHAP can work as a debugging tool. A
 suspicious feature can show leakage, bad data collection, or a shortcut the
 model learned. A model explanation often leads upstream to the data pipeline,
-which is why this page belongs beside
+which connects interpretability to
 [[Data Quality and Observability]].[[cite:interpretable-machine-learning@9:27=>Interpretable Machine Learning]]
 
 Conformal prediction returns calibrated prediction sets or intervals. Prediction
@@ -132,12 +132,18 @@ the explanation chart. A model explanation is weaker if the team never asked
 whether the input data was appropriate.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Healthcare regulation raises the same deployment bar. An algorithm can become
-part of a medical device or clinical workflow. Clinicians need an intelligible
-reason for the prediction. Device approvers need one too.[[cite:building-healthcare-machine-learning-systems@25:23=>Healthcare ML Systems]]
-Missing or inconsistent patient data and scarce clinical-outcome annotations
-also limit what an explanation can prove. That keeps interpretability work
-connected to [[Healthcare ML Validation and Adoption]],
-[[Annotation Quality Workflows]], and [[Data Quality and Observability]].[[cite:building-healthcare-machine-learning-systems@25:23=>Building Healthcare ML Systems]]
+part of a medical device or clinical workflow. In that setting, clinicians need
+a reason they can look at before they trust the prediction. Device approvers
+need one too.
+
+Eleni Stamatelou treats explainable AI as part of regulatory approval. She
+doesn't frame it only as model debugging.
+She also names missing data and inconsistent data as limits on what an
+explanation can prove. Absent clinical-outcome annotations create the same
+limit. Clinical interpretability therefore belongs beside
+[[Healthcare ML Validation and Adoption]] and [[Annotation Quality Workflows]].
+It also belongs beside [[Data Quality and Observability]] and post-launch
+[[Model Monitoring]].[[cite:building-healthcare-machine-learning-systems@25:23=>Building Healthcare ML Systems]]
 
 Fairness work needs interpretable metrics and domain judgment. In
 fairness engineering, credit scoring harms and sensitive group selection

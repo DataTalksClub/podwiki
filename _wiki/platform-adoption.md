@@ -128,6 +128,13 @@ They also account for compliance, governance, engineering teams, and release
 timing. Platform product managers need to know who will adopt a capability and when.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Platform Strategy]]
 
+Platform teams should map the business value path, not only platform users. If
+the platform supports ML products, Vin Vashishta's metrics framing pushes the
+team to connect usage and task time with decision quality. Pricing impact,
+revenue, and cost savings matter too. A platform capability has adoption value
+when it helps product teams ship or operate those business-facing decisions.
+[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+
 MLOps buy-in also depends on the business case, KPIs, user story, and
 alternatives. Teams may need someone from the business available for demos,
 questions, and decisions.
@@ -175,6 +182,15 @@ decision.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-st
 For platforms, the same idea applies to reduced support load and faster
 onboarding. It also applies to repeatable deployments, fewer one-off pipelines,
 and users choosing the standard path without being forced.
+
+The platform team should also check whether the standard path reaches the last
+decision mile. A self-service notebook or registry is only adopted when it
+changes how a product team trains or ships a data product. Orchestration
+templates and deployment paths need the same test for monitoring and
+explanation. If teams still need one-off help, the platform has solved the
+tooling layer but not the gap between outputs and decisions.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]]
 
 ## Failure Modes
 
