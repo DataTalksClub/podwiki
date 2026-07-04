@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10989
+    "links": 10973
   },
   "nodes": [
     {
@@ -52632,54 +52632,6 @@
     },
     {
       "source": "wiki:job-search",
-      "target": "person:jeffkatz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:lindsaymcquade",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:lukewhipps",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:nicksingh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:nicolasrassam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:olegnovikov",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:sarahmestiri",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "person:terezaiofciu",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:job-search",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -61326,24 +61278,6 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-adoption-at-scale",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-adoption-at-scale",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-adoption-at-scale",
       "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -64952,36 +64886,6 @@
       "source": "wiki:notebook-to-production-workflow",
       "target": "wiki:testing",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:elleobrien",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:johanneshotter",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:willrussell",
-      "kind": "wiki-chip",
       "weight": 1
     },
     {
