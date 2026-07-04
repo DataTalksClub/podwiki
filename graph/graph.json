@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10813
+    "links": 10805
   },
   "nodes": [
     {
@@ -10392,7 +10392,7 @@
       "title": "Machine Learning Tools",
       "url": "/wiki/machine-learning-tools/",
       "count": 1,
-      "search": "Machine Learning Tools Podcast grounded guide to choosing ML tools for modeling, experiments, platforms, monitoring, fairness, and AI tooling."
+      "search": "Machine Learning Tools Guide to choosing ML tools for modeling, experiments, platforms, monitoring, fairness, and AI tooling."
     },
     {
       "id": "wiki:metaflow",
@@ -37980,12 +37980,6 @@
     },
     {
       "source": "wiki:data-product-management",
-      "target": "wiki:ml-product-manager-role",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-management",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -56802,12 +56796,6 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
-      "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "article-chip",
       "weight": 1
@@ -56826,32 +56814,14 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
-      "target": "podcast:machine-learning-engineering-production-best-practices",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-for-software-engineers",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -58530,6 +58500,12 @@
     },
     {
       "source": "wiki:machine-learning-tools",
+      "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
       "target": "wiki:governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -59935,30 +59911,6 @@
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:self-service-data-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "person:gregcoquillo",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "person:saramenefee",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "person:vinvashishta",
       "kind": "wiki-chip",
       "weight": 1
     },

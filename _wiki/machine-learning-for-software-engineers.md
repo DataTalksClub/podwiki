@@ -34,10 +34,9 @@ Software engineers moving into machine learning can keep their engineering
 background. You add data, modeling, and evaluation skills to an existing
 ability to build systems.
 
-To add machine learning to a software engineering skillset, start with applied
-work and data pipelines. Add APIs, Docker, and cloud services after
-model-building practice
-([[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]]).
+Start with applied work and data pipelines when you add ML to a software
+engineering skillset. Add APIs and Docker after model-building practice. Add
+cloud services when serving needs them [[cite:from-software-engineer-to-machine-learning=>SE]].
 Keep the software engineering strengths, then add the ML habits that change
 system design.
 
@@ -69,7 +68,7 @@ Those skills matter because production ML is still software. ML-specific
 engineering debt ties to data access and unclear requirements. Handoff,
 documentation, testing, and monitoring show where ordinary software discipline
 has to adapt to ML systems
-([[podcast:software-engineering-for-machine-learning|Software Engineering for Machine Learning]]).
+[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
 
 In ML software development, familiar engineering habits become data-aware
 habits. Code quality still matters, and the code now has to make data
@@ -79,7 +78,7 @@ while tests cover feature logic and inference behavior.
 Reproducible training runs and deployment paths need to connect back to data and
 model evaluation. The same transition path spans data pipelines and modeling.
 It then adds deployment and monitoring. APIs, Docker, and cloud services become
-the serving path, with evidence from [[cite:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]] and [[cite:software-engineering-for-machine-learning|Software Engineering for Machine Learning]].
+the serving path.[[cite:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 The advantage is real, but it isn't a shortcut around ML fundamentals. A
 software engineer can often package and operate a model earlier than a beginner
@@ -109,7 +108,7 @@ Fraud detection and recommendation examples show why ML design starts before
 model selection. Labels, class imbalance, and feature availability affect
 metrics and baselines. They also affect A/B testing, monitoring, distribution
 shift, and fallback behavior
-([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]]).
+[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]].
 That's the practical difference between "I trained a model" and "I can design a
 machine learning system."
 Use [[Evaluation]] for the metric and
@@ -140,7 +139,7 @@ when your projects serve other engineers.
 MLOps connects people and procedures with technology for experiment tracking,
 registries, and orchestration. Metadata and lineage show the operational side of
 the role, along with APIs and monitoring
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 Target [[Data Science]] if you want
 more problem framing, exploration, modeling, and statistics. Stakeholder work
@@ -159,13 +158,13 @@ to read the actual tasks in a job description.
 One ML engineering career path moved across web work and game development into
 Python, ML platforms, and LLM experiments. The path also repeats SQL and Git,
 shell skills, debugging, and T-shaped expertise around problem decomposition
-([[podcast:how-to-grow-your-ml-engineering-career|How to Grow Your ML Engineering Career]]).
+[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]].
 
 [[person:jackblandin=>Jack Blandin]] moved from
 full-stack engineering into applied ML leadership. ML work keeps asking for
 product context and demos. Stakeholder language, fast POCs, and full-stack ML
 remain part of full-stack delivery
-([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML]]).
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]].
 
 ## Project 1: Baseline Model With Real Evaluation
 
@@ -189,7 +188,7 @@ open.
 This favors maintainable ML work over novelty, with examples like refactoring
 hard-to-follow data science code and timeboxing experiments. A cost-benefit
 view shows why SQL or statistics can be better first choices than deep learning
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 
 ## Project 2: Model Behind an API or Batch Job
 
@@ -213,7 +212,7 @@ platform.
 
 The engineering side of ML work covers Docker, cloud, and web frameworks. It
 also includes reproducibility, deployment, and full-stack systems
-([[podcast:research-to-production-ml-systems-roadmap|Research to Production ML Systems]]).
+[[cite:research-to-production-ml-systems-roadmap=>Research to Production ML Systems]].
 It shows the inverse gap too: researchers often need engineering rigor.
 
 ## Project 3: Data Pipeline and Feature Freshness
@@ -238,11 +237,9 @@ features can arrive late. Connect this project to
 you add versioning. Add the same link when monitoring or deployment decisions
 become part of the project.
 
-Project-first transition advice grounds the pipeline step
-([[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]]).
+Project-first transition advice grounds the pipeline step.[[cite:from-software-engineer-to-machine-learning=>SE to ML]]
 Leakage and feature-availability questions ground the same concerns for system
-design
-([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]]).
+design.[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]]
 
 ## Project 4: Production-Aware ML System Design
 
@@ -253,11 +250,11 @@ too. Then write a design doc before adding more code.
 A scalable ML system design framework starts from goals and non-goals. It then
 adds assumptions, constraints, baselines, and metrics. Pipeline components, data
 strategy, and batch versus real-time choices come after that
-([[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]]).
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]].
 That's the structure a software engineer needs when moving from "model project"
 to "ML system."
 
-Use this design checklist:
+Use this checklist for the design doc:
 
 1. Name the user and product decision.
 2. State goals, non-goals, assumptions, and constraints.
@@ -268,8 +265,8 @@ Use this design checklist:
 7. Define validation, monitoring, fallback, rollback, and retraining signals.
 8. Name who owns the system after launch.
 
-This prepares you for interviews because it forces tradeoffs, and it prevents
-portfolio projects from becoming disconnected notebooks.
+This gives interviewers visible tradeoffs and keeps portfolio projects from
+becoming disconnected notebooks.
 Use [[ML System Design Documents]]
 and [[Production ML Project Checklist]]
 to turn the design into a reviewable project.
@@ -293,7 +290,7 @@ Build a small lifecycle:
 An MLOps lifecycle covers CI and repository structure, plus parameterization,
 testing, and reproducibility. Data versioning, monitoring, and platform adoption
 work belong in the same lifecycle
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). You don't
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. You don't
 need every platform tool in a junior portfolio. You do need to show why these
 practices exist.
 
@@ -304,13 +301,13 @@ platform work. The role widens when the model affects a product
 decision. You need to explain why the prediction is useful, how people will act
 on it, and what risk the team accepts.
 
-Product context anchors applied ML leadership in
-[Software Engineer to VP of ML](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html).
+ML leadership needs product context, stakeholder language, fast POCs, and
+demos.[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]]
 
 Stakeholder language includes KPIs and customer acquisition cost, while risk
 communication warns against accuracy-only explanations.
 A baseline-first stance matches the simplicity advice in
-[Practical ML Engineering](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
+[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]].
 It gives software engineers a product reason to start with heuristics or manual
 checks.
 
@@ -330,17 +327,17 @@ Software engineers can overcorrect in two directions. Some build too much
 infrastructure before they understand the data and metric. Others stay in a
 notebook and never show production judgment.
 
-Baselines precede deep learning in
-[Practical ML Engineering](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
+Baselines should precede deep learning when a simpler method can answer the
+product question.[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 
-Metrics, fallback, and distribution-shift design tie operational behavior to the
-design
-([System Design Interview](https://datatalks.club/podcast/machine-learning-system-design-interview.html)).
+System design connects metrics, fallback behavior, and distribution-shift
+planning [[cite:machine-learning-system-design-interview=>Design]].
+
 Reproducibility and monitoring show why lifecycle proof matters after a model
-leaves a notebook
-([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)).
-A model can score well and still fail when people can't act on its output
-([Software Engineer to VP of ML](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)).
+leaves a notebook.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+
+A model can score well and still fail when people can't act on its
+output.[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]]
 
 Together, those discussions put simplicity and cost-benefit tradeoffs next to
 metrics and fallbacks, reproducible operations, and product actionability.
@@ -351,7 +348,7 @@ job or inference path may hide an ordinary data-structure mistake. If code
 checks containment against a Python list many times, replacing the list with a
 set can turn repeated scans into hash lookups. You get that speedup by choosing
 the right algorithm before adding hardware, services, or platform complexity
-([[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]]).
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 
 Use the same lens for [[Machine Learning Tools]] and library internals. Python
 and high-level ML libraries are usually the right starting point. They keep
@@ -362,7 +359,7 @@ decision. Check whether the library uses vectorized operations or indexes. Also
 check for approximate search and compiled kernels. Move work to C++ or Cython
 only after profiling shows the hotspot is real. Use the same test for any other
 compiled path: the Python boundary should be the bottleneck
-([[cite:algorithms-data-structures-for-engineers|Algorithms and Data Structures for Engineers]]).
+[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
   solves the decision well enough.
@@ -398,7 +395,7 @@ Prepare five stories from your projects:
 Interview preparation covers recruiter screens, intro interviews, and technical
 rounds. It also covers elevator pitches, STAR stories, and fundamentals-first
 study
-([[podcast:machine-learning-data-science-interview-prep|ML and Data Science Interview Prep]]).
+[[cite:machine-learning-data-science-interview-prep=>ML and Data Science Interview Prep]].
 For software engineers, the important move is translating existing experience
 without pretending the ML gaps don't exist.
 
@@ -419,24 +416,20 @@ and what they would learn next.
 
 ## Six-Month Roadmap
 
-Use this plan if you already write production software and want to synthesize
-five discussions:
-
-- a project-first transition path ([[podcast:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]])
-- maintainability advice ([[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]])
-- ML system-design interview guidance ([[podcast:machine-learning-system-design-interview=>Machine Learning System Design Interview]])
-- stakeholder and fast-POC guidance ([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]])
-- MLOps lifecycle practices ([[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]])
+Use this plan if you already write production software and want a project-first
+path into ML engineering. Start from applied projects [[cite:from-software-engineer-to-machine-learning=>SE]].
+Add production code and system design [[cite:machine-learning-engineering-production-best-practices=>Production]][[cite:machine-learning-system-design-interview=>Design]].
+Then add stakeholder judgment and MLOps practice [[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>VP]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps]].
 
 Months 1-2 focus on projects, data, metrics, and leakage. Month 3 follows a
 research-to-production roadmap
-([[podcast:research-to-production-ml-systems-roadmap|Research to Production ML Systems]]).
+[[cite:research-to-production-ml-systems-roadmap=>Research to Production ML Systems]].
 Month 4 follows a scalable ML system design framework
-([[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]]).
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]].
 Month 5 follows MLOps lifecycle practices
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]),
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
 and month 6 follows interview preparation advice
-([[podcast:machine-learning-data-science-interview-prep|ML and Data Science Interview Prep]]).
+[[cite:machine-learning-data-science-interview-prep=>ML and Data Science Interview Prep]].
 
 1. Month 1: learn the Python data stack while you build one baseline project.
    Include validation splits and baselines, then add metrics, leakage checks,
@@ -449,7 +442,7 @@ and month 6 follows interview preparation advice
    logging, configuration, and a reproducible run path while you keep the
    infrastructure small. Add one product-facing demo or decision walkthrough
    using fast-POC guidance
-   ([[podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership|Software Engineer to VP of ML]]).
+   [[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership=>Software Engineer to VP of ML]].
 4. Month 4: write a design doc for a fraud or recommendation system. Search,
    forecasting, or classification also works if you cover goals and labels.
    Add features, baselines, and metrics. Finish with serving mode, monitoring,
@@ -464,9 +457,9 @@ and month 6 follows interview preparation advice
 
 Moving faster doesn't mean adding more tools by default. Cost-benefit advice
 favors solving concrete pain points before adding platform complexity
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 Reproducibility and monitoring practice reinforce the same habit
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Failure Modes
 
@@ -485,16 +478,17 @@ These traps weaken the transition story:
 The better path is narrower. Choose a role, build projects that fit that role,
 and make your tradeoffs visible.
 
-The warning is consistent across the cited discussions. Project-first transition
-advice starts from projects
-([[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]]).
-Maintainability and cost-benefit advice starts from maintainability and
-cost-benefit tradeoffs
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
-A system-design walkthrough starts from system design
-([[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]]),
-while an MLOps lifecycle discussion starts from reproducible operations
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+Start with project proof before adding more tools to the portfolio
+[[cite:from-software-engineer-to-machine-learning=>SE]].
+
+Keep the code simple enough for tradeoffs to stay visible
+[[cite:machine-learning-engineering-production-best-practices=>Production]].
+
+System design starts from goals, metrics, data, and serving choices
+[[cite:machine-learning-system-design-interview=>Design]].
+
+MLOps starts from reproducible operations before shared platform tooling grows
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps]].
 
 ## Related Topics
 
