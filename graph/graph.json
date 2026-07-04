@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11156
+    "links": 11148
   },
   "nodes": [
     {
@@ -33313,6 +33313,12 @@
     {
       "source": "wiki:data-analyst-to-data-engineer",
       "target": "person:gloriaquiceno",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "person:jeffkatz",
       "kind": "article-chip",
       "weight": 1
     },
@@ -70206,24 +70212,6 @@
     },
     {
       "source": "wiki:production-search-evaluation",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "person:danielsvonava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "person:reemmahmoud",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:production-search-evaluation",
       "target": "podcast:building-production-search-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -71796,48 +71784,6 @@
     },
     {
       "source": "wiki:reinforcement-learning",
-      "target": "person:adamsroka",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:danbecker",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reinforcement-learning",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -71955,6 +71901,12 @@
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reinforcement-learning",

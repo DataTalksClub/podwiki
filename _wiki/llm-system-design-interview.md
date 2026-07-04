@@ -3,9 +3,6 @@ layout: article
 tags: ["guide"]
 title: "LLM System Design Interview"
 keyword: "llm system design interview"
-search_intent:
-  - "Prepare for LLM system design interview prompts without generic architecture templates."
-  - "Explain RAG, agents, evaluation, safety, latency, and operations with podcast-backed examples."
 summary: "Prepare for LLM system design interviews with production patterns for RAG, agents, evaluation, safety, latency, cost, and operations."
 related_wiki:
   - LLM Production Patterns
@@ -15,66 +12,40 @@ related_wiki:
   - AI Red Teaming
 ---
 
-An LLM system design interview isn't a test of whether you can name the latest
-framework. The interview tests whether you can turn a language model into a
-bounded product system. DataTalks.Club guests keep returning to that boundary.
-[[person:atitaarora=>Atita Arora]] treats RAG as
-retrieval plus generation with chunking, citations, and review in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+An LLM system design interview tests whether you can turn a language model into
+a bounded product system. It doesn't test whether you can name the newest
+framework.
+DataTalks.Club guests keep returning to that boundary: [[person:atitaarora=>Atita Arora]]
+frames [[retrieval-augmented-generation=>RAG]] around retrieval, chunking,
+citations, and review [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+[[person:hugobowneanderson=>Hugo Bowne-Anderson]] turns LLM applications into
+gold tests, failure analysis, logs, and traces
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+[[person:ranjithakulkarni=>Ranjitha Kulkarni]] separates ordinary
+retrieval from agent flows that need tools, memory, and outcome-based
+evaluation [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]]
-turns LLM applications into gold tests, failure analysis, logs, and traces in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-He also covers chunking decisions.
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
-separates ordinary retrieval from agent flows that need tools, memory, and
-outcome-based evaluation in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-
-When you practice an LLM system design interview, use a repeatable answer path.
-
-Start by setting these boundaries:
-
-1. User
-2. Task
-3. Source of truth
-4. Risk
-5. Product constraint
-
-The broader
-[[machine learning system design]]
-page follows the same product-first discipline through
-[[person:valeriybabushkin=>Valerii Babushkin]] and his
-[[podcast:machine-learning-system-design-interview=>ML system design interview]]
-discussion.
-For the classical ML interview version, use
-[[Machine Learning System Design Interview]].
-
-Then add the LLM-specific work:
-
-1. Context design
-2. Retrieval quality
-3. Tool boundaries
-4. Evaluation
-5. Red-team cases
-6. Latency and cost
-7. Ownership
+Use the broader [[machine learning system design]] page for the classical
+product-first discipline. [[person:valeriybabushkin=>Valerii Babushkin]] applies
+that framing in the [[Machine Learning System Design Interview]] discussion
+[[cite:machine-learning-system-design-interview=>ML System Design Interview]].
+For LLM-specific prompts, add context design and retrieval quality. Then cover
+tool boundaries and evaluation. Include red-team cases, latency, cost, and
+ownership.
 
 ## Start With The Product Boundary
 
-A strong answer begins by asking what the system is allowed to do. A policy
-assistant that answers from internal documents is a different product from a
-refund agent that can change account state.
-[[Agent engineering]] makes
-this distinction explicit.
+Begin by saying what the system is allowed to do. A policy assistant that
+answers from internal documents differs from a refund agent that can change
+account state. The [[Agent Engineering]] page uses this boundary to separate a
+knowledge lookup system from a tool-using agent.
 
-Ranjitha defines agents around autonomy and objectives in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-at 11:00-12:31. She also covers orchestration, tool use, memory, and knowledge
-stores. In that discussion, she keeps RAG as the right fit when the system
-mainly needs knowledge lookup rather than action.
+Ranjitha defines agents around autonomy and objectives. She keeps orchestration
+and tool use inside the design boundary. Memory and knowledge stores belong
+there too
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
-In an interview, say the boundary before drawing boxes:
+In an interview, ask these questions before drawing boxes:
 
 1. Who's the user?
 2. What task are they trying to complete?
@@ -83,26 +54,23 @@ In an interview, say the boundary before drawing boxes:
 5. Can the system only advise, or can it call tools and change state?
 6. What latency, cost, privacy, and safety limits matter?
 
-This order follows the podcast's production framing.
-[[person:meryemarik|Meryem Arik]] warns about API model drift and
-hosted-model risk in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-at 18:46. She also covers latency, cost, and self-hosting tradeoffs at
-49:44-51:35.
+[[person:meryemarik=>Meryem Arik]] adds hosted-model risk and API drift to that
+boundary. She also covers latency, cost, and self-hosting tradeoffs
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-[[person:bartoszmikulski=>Bartosz Mikulski]]
-keeps production AI close to ordinary application architecture in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]]
-at 28:16-47:19. He covers backend integration, prompt evaluation, caching, and
-cost controls. In the interview, choose the smallest system that meets the
-product boundary. Add complexity only when the boundary requires it.
+[[person:bartoszmikulski=>Bartosz Mikulski]] keeps production AI close to
+ordinary application architecture. He covers backend integration and prompt
+evaluation. He also covers caching and cost controls
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+
+Choose the smallest system that satisfies the product boundary, then add
+complexity only when the boundary requires it.
 
 ## Draw The Data And Context Path
 
 Most LLM system design prompts need an explicit context path.
 
-For a document-backed assistant, that path starts before the user asks a
-question:
+For a document-backed assistant, draw the flow before the user asks a question:
 
 1. Ingest documents.
 2. Split them into useful chunks.
@@ -113,190 +81,145 @@ question:
 7. Generate an answer.
 8. Return citations.
 
-Atita's
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-discussion gives that sequence at 30:38-42:49, and the
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-page covers the same RAG design in more detail.
+Atita's search systems discussion grounds that sequence in chunking and
+embeddings. She also covers prompts, citations, and human review
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+The [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] page
+keeps the same RAG design close to source provenance and permissions. It also
+covers metadata, citations, and evaluation. Use
+[[Vector Database vs Search Engine]] when the interviewer asks whether semantic
+retrieval belongs in a dedicated vector store or an existing search stack.
 
-This is why "use a vector database" isn't enough for an interview answer.
-The RAG episodes treat retrieval as search with context packaging, not model
-memory.
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-ties Atita's transcript RAG example to source provenance and permissions. It
-also ties the example to metadata, citations, and evaluation. Use
-[[Vector Database vs Search Engine]]
-when the design question is whether semantic retrieval belongs in a dedicated
-vector store or the existing search stack.
+For product search, [[person:danielsvonava=>Daniel Svonava]] separates retrieval
+from ranking and connects search quality to A/B tests and business outcomes
+[[cite:building-production-search-systems=>Building Search Systems]].
+[[person:reemmahmoud=>Reem Mahmoud]] adds hybrid search, filters, recency, and
+search operations
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
-For product search, [[person:danielsvonava|Daniel Svonava]]
-separates retrieval from ranking in
-[[podcast:building-production-search-systems=>Building Search Systems]].
-He also connects search quality to A/B tests and business outcomes.
+Make the retriever easy to debug:
 
-[[person:reemmahmoud=>Reem Mahmoud]] covers hybrid
-search, filters, recency, and search operations in
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
+1. Store document owners, timestamps, permissions, and freshness.
+2. Pick chunking rules with overlap or section boundaries.
+3. Use embeddings and keyword indexes where exact terms still matter.
+4. Apply metadata filters before retrieval, especially for tenant or role
+   access.
+5. Rerank or trim results before building model context.
+6. Ask the model for grounded answers and citations.
+7. Log retrieved chunks, scores, prompt version, model, answer, latency, token
+   count, and feedback.
 
-For an interview whiteboard, make the retriever easy to debug:
-
-1. Document store with owners, timestamps, permissions, and freshness.
-2. Chunking strategy with overlap or section boundaries.
-3. Embeddings and keyword indexes where exact terms still matter.
-4. Metadata filters before retrieval, especially for tenant or role access.
-5. Reranking or trimming before model context.
-6. Prompt template that asks for grounded answers and citations.
-7. Logs for retrieved chunks, scores, prompt version, model, answer, latency,
-   token count, and feedback.
-
-That list isn't generic checklist filler. It maps to Atita's discussion of
-chunking, embeddings, and prompts in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-at 38:24-48:09. It also maps to her discussion of citations and human review.
-Hugo's logs and traces in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-at 27:38 support the same debugging path. So do the source-control concerns in
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
+That debugging path follows Atita's RAG discussion and Hugo's logs-and-traces
+view of LLM engineering
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
 ## Choose RAG, Fine-Tuning, Tools, Or Agents
 
 Interview prompts often hide a design choice. The system may need retrieval,
 fine-tuning, tools, or an agent.
 
-Meryem gives the clearest boundary: retrieval fits changing knowledge better in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-at 40:46-46:42. The
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-page keeps fine-tuning for behavior, style, or specialized task performance.
-Those are cases where prompting and retrieval don't solve the problem.
+Meryem gives the clearest boundary: retrieval fits changing knowledge better
+than fine-tuning
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+The [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] page keeps fine-tuning for
+behavior, style, specialized task performance, or format reliability when
+prompting and retrieval don't solve the problem.
 
-Use RAG when the answer depends on documents or policies. Use it for tickets
-and transcripts when those sources change and readers should be able to open
-them. Use fine-tuning when the repeated problem is output behavior, domain
-phrasing, format reliability, or task adaptation. This follows Meryem's
-production distinction in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+Use RAG when the answer depends on documents, policies, tickets, or transcripts
+that change and should remain openable by the reader. Use fine-tuning when the
+repeated problem is output behavior, domain phrasing, format reliability, or task
+adaptation. Use tools when the system must query an API, fetch account state,
+create a ticket, or check a calendar. Use agents when the system must pick steps
+and tools inside a flow.
 
-Use tools when the system must query an API or fetch account state. Use them
-when the system must create a ticket or check a calendar. Use agents when the
-system must choose steps and tools inside a flow. Ranjitha covers planning and
-wrappers. She also covers tool integration, mocked tools, and goal-based
-evaluation in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-
-In the interview, justify the simplest reliable path. Hugo's
-RAG and agent discussion in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-starts with a problem. He adds data, evaluation, and tools only when the flow
-needs action. Ranjitha's "RAG isn't dead" discussion at 29:30 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-keeps latency and cost in scope. It also keeps noisy context, metadata, and
-source quality in scope even when long context or agents are available.
+Ranjitha covers planning and wrappers for agentic systems. She also covers tool
+integration, mocked tools, and goal-based evaluation
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Hugo starts from the problem, then adds data, evaluation, and tools only when the
+flow needs action
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+In an interview, justify the simplest reliable path before adding orchestration.
 
 ## Make Evaluation Part Of The Architecture
 
-An LLM design is incomplete if it ends at "call the model." Hugo's
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-episode is the clearest evaluation source here. At 13:56 he describes a
-generator-evaluator setup. At 23:00-25:25 he argues for representative gold
-tests.
+An LLM design is incomplete if it ends at "call the model." Hugo's LLM
+engineering discussion makes evaluation part of the architecture through gold
+tests and representative examples. He also uses failure categories, logs, and
+traces
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+The [[LLM Evaluation Workflows]] page turns that into the maintained topic hub.
 
-At 26:43-27:20 he uses failure categories to decide whether the next fix
-belongs in retrieval, prompting, formatting, or data preparation. The
-[[LLM Evaluation Workflows]]
-page turns that into the maintained topic hub.
+Split evaluation into layers:
 
-In an interview, split evaluation into layers:
+1. Retrieval quality: the system retrieves the right evidence.
+2. Grounding: the answer stays supported by the retrieved evidence.
+3. Task success: the person gets the decision, summary, or action they needed.
+4. Format correctness: the system returns valid JSON, citations, or fields.
+5. Safety: the system refuses, escalates, or limits unsafe requests.
+6. Regression: a prompt, model, index, or tool change doesn't break known cases.
+7. Product impact: the system reduces support time, improves resolution, or
+   meets the product metric.
 
-1. Retrieval quality: whether the system retrieved the right evidence.
-2. Grounding: whether the answer is supported by the retrieved evidence.
-3. Task success: whether the person got the decision, summary, or action they
-   needed.
-4. Format correctness: whether the system returned valid JSON, citations, or
-   fields.
-5. Safety: whether the system refused, escalated, or limited unsafe requests.
-6. Regression: whether a prompt, model, index, or tool change broke known cases.
-7. Product impact: whether the system reduced support time, improved resolution,
-   or met the product metric.
-
-Each layer ties back to a production discussion. Atita covers multi-level RAG
-evaluation and human review in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-at 48:09. Hugo separates failure causes in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-
+Atita covers multi-level RAG evaluation and human review
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Ranjitha argues that agent tests should assert outcomes and tool parameters
-rather than one exact internal reasoning path in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-at 51:17-57:23. [[person:adityagautam|Aditya Gautam]]
-adds enterprise agent evaluation in
-[[podcast:s23e03-future-of-ai-agents=>The Future of AI Agents]]
-at 30:26 and 43:30-50:18. His discussion covers human labels, LLM judges,
-and guardrails. It also covers lineage and auditability.
+rather than one exact internal reasoning path
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+[[person:adityagautam=>Aditya Gautam]] adds enterprise agent evaluation with
+human labels and LLM judges. He also covers guardrails, lineage, and
+auditability
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 
 ## Treat Safety As System Design
 
-Prompt wording isn't the security layer. The security episodes point
-toward layered controls around retrieval, tools, and outputs. They also point
-toward logging and human review. [[person:mariasukhareva|Maria Sukhareva]]
-grounds this in a chatbot hacking exercise.
+Prompt wording isn't the security layer. The security discussions point toward
+layered controls around retrieval and tools. They also cover outputs, logging,
+and human review.
+[[person:mariasukhareva=>Maria Sukhareva]] grounds this in a chatbot hacking
+exercise where overloaded prompts and knowledge-base retrieval expose hidden
+content risks
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+The [[AI Red Teaming]] page keeps those attack patterns close to [[security]]
+and [[retrieval-augmented-generation=>RAG]].
 
-In
-[[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
-at 9:28, she connects overloaded prompts and knowledge-base retrieval to
-hidden-content extraction at 13:20. The
-[[AI Red Teaming]] page keeps those
-attack patterns close to [[security]]
-and [[retrieval-augmented-generation|RAG]].
+Name the threat model:
 
-For an LLM system design interview, name the threat model:
-
-1. Prompt injection from the user or from retrieved documents.
+1. Prompt injection from the user or retrieved documents.
 2. Data exfiltration from prompts, tools, logs, or knowledge bases.
 3. Hallucinated claims that create legal, medical, financial, or brand risk.
 4. Tool misuse, such as changing account state without approval.
 5. Permission leaks across tenants, roles, teams, or document groups.
 6. Model, prompt, or index changes that bypass expected behavior.
 
-Then name controls that live outside the model. Check permissions before
-retrieval, not only after generation, following the RAG security guidance in
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-Use least-privilege tools and validate structured outputs before downstream
-calls. That matches the tool-boundary concerns in
-[[Agent Engineering]].
+Then name controls outside the model. Check permissions before retrieval, not
+only after generation, following the RAG security guidance in
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]. Use
+least-privilege tools and validate structured outputs before downstream calls,
+as in [[Agent Engineering]].
 
-Add these controls:
-
-1. Output validators
-2. Classifiers
-3. Rate limits
-4. Audit logs
-5. Red-team regression cases
-6. Human review
-
-Maria covers query analysis, layered defenses, non-LLM classifiers, and
-human-in-the-loop review in
-[[podcast:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
-at 16:15-25:34.
+Add output validators and classifiers. Add rate limits, audit logs, red-team
+regression cases, and human review. Maria's discussion covers query analysis and
+layered defenses. It also covers non-LLM classifiers and human-in-the-loop review
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 ## Discuss Latency, Cost, And Operations
 
-LLM interview answers should make latency and cost visible. Tokens, retrieval,
-reranking, and tool calls all affect the user experience. Retries and model
-choice affect it too. Meryem covers hosted APIs and open-source models in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-She also covers model drift, latency, cost, and serving tradeoffs.
+Make latency and cost visible. Retrieval, reranking, and tool calls all affect
+the user experience. Tokens, retries, and model choice affect it too. Meryem
+covers hosted APIs and open-source models. She also covers model drift, latency,
+cost, and serving tradeoffs
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-Bartosz covers prompt compression, caching, prompt evaluation, and model
-efficiency in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]].
-Ranjitha keeps tool-call latency and cost inside the agent design boundary in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Bartosz adds prompt compression and caching. He also covers prompt evaluation and
+model efficiency [[cite:production-ready-ai-engineering=>Production AI Engineering]].
+Ranjitha keeps tool-call latency and cost inside the agent design boundary
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
-A practical interview answer should include a cost and latency plan:
+Include a cost and latency plan:
 
-1. Start with a simple baseline such as search, templates, rules, or one model
-   call when that meets the user need.
+1. Start with search, templates, rules, or one model call when that meets the
+   user need.
 2. Use a smaller model, classifier, or deterministic parser for routing when a
    strong model is unnecessary.
 3. Cache repeated answers or intermediate retrieval results when freshness
@@ -308,22 +231,22 @@ A practical interview answer should include a cost and latency plan:
 6. Track token count, model calls, tool calls, retrieval latency, reranking
    latency, cache hit rate, and cost per successful task.
 
-Operations need the same specificity:
+Track these operational fields:
 
-1. Request IDs
-2. Prompt versions
-3. Model versions when available
-4. Retrieved document IDs, chunk IDs, and scores
-5. Tool inputs, tool outputs, and schema failures
-6. Latency by stage and token counts
-7. User feedback and reviewer decisions
+1. Request IDs.
+2. Prompt versions.
+3. Model versions when available.
+4. Retrieved document IDs, chunk IDs, and scores.
+5. Tool inputs and tool outputs.
+6. Schema failures.
+7. Latency by stage and token counts.
+8. User feedback and reviewer decisions.
 
-This operating view connects Hugo's logs and traces in
-[[podcast:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-to the broader [[LLM Production Patterns]]
-page and to [[Model Monitoring]].
+This operating view connects Hugo's logs and traces to
+[[LLM Production Patterns]] and [[Model Monitoring]]
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-## A Practice Answer Structure
+## Practice Answer Structure
 
 Use this structure when practicing an LLM system design interview:
 
@@ -343,31 +266,21 @@ Use this structure when practicing an LLM system design interview:
    tool misuse.
 8. Explain latency and cost levers such as model choice and token budgets. Add
    caching and streaming, then include batching, retries, and fallbacks.
-9. Define observability, rollout, and rollback. Add ownership and the review
-   path.
+9. Define observability, rollout, rollback, ownership, and the review path.
 
-This structure comes from these production threads:
+This structure combines retrieval and chunking from Atita
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+It adds evaluation and traces from Hugo
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+It also uses deployment and model-choice tradeoffs from Meryem
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-1. [[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Atita Arora's search systems episode]]
-   grounds retrieval and chunking, plus citations and human review.
-2. [[podcast:practical-llm-engineering-and-rag=>Hugo Bowne-Anderson's LLM engineering episode]]
-   grounds evaluation, failure analysis, logs, and traces for RAG systems and
-   tool use.
-3. [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Meryem Arik's deployment episode]]
-   grounds model choice and deployment. It also covers cost, latency, and the
-   boundary between RAG and fine-tuning.
-4. [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Ranjitha Kulkarni's agentic AI episode]]
-   grounds agents as tool-using systems with memory, retrieval, tests, and
-   outcome-based evaluation.
-5. [[podcast:generative-ai-chatbots-in-production-security=>Maria Sukhareva's chatbot security episode]]
-   grounds prompt injection, knowledge-base leakage, layered controls, and
-   human review.
-6. [[podcast:s23e03-future-of-ai-agents=>Aditya Gautam's AI agents episode]]
-   grounds enterprise agent governance and labels. LLM judges, lineage, and
-   auditability stay in that same operating frame.
-
-Show that you can keep model behavior and source evidence in the same design
-conversation. Bring product risk and operations into that conversation too.
+Ranjitha contributes agent tooling and outcome tests
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Maria contributes chatbot security controls
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+Aditya contributes enterprise agent governance
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 
 ## Related Pages
 
