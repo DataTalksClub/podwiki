@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10645
+    "links": 10637
   },
   "nodes": [
     {
@@ -681,7 +681,7 @@
       "title": "Product vs Data Analyst",
       "url": "/wiki/product-analyst-vs-data-analyst/",
       "count": 1,
-      "search": "Product vs Data Analyst A podcast grounded comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
+      "search": "Product vs Data Analyst A comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
       "keyword": "product analyst vs data analyst"
     },
     {
@@ -754,7 +754,7 @@
       "title": "Solopreneur Data Scientist",
       "url": "/wiki/solopreneur-data-scientist/",
       "count": 1,
-      "search": "Solopreneur Data Scientist A podcast backed guide to solo data and AI work: offers, income streams, risks, and when solopreneurship differs from freelancing.",
+      "search": "Solopreneur Data Scientist A guide to solo data and AI work: offers, income streams, risks, and when solopreneurship differs from freelancing.",
       "keyword": "solopreneur"
     },
     {
@@ -9519,7 +9519,7 @@
       "title": "CV Screening",
       "url": "/wiki/cv-screening/",
       "count": 1,
-      "search": "CV Screening Podcast backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
+      "search": "CV Screening How data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
     },
     {
       "id": "wiki:dashboard-and-metric-layer-project-checklist",
@@ -72192,36 +72192,6 @@
     },
     {
       "source": "wiki:solopreneur-data-scientist",
-      "target": "person:admondleekinlim",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:solopreneur-data-scientist",
-      "target": "person:dimitrivisnadi",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:solopreneur-data-scientist",
-      "target": "person:mariannadiachuk",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:solopreneur-data-scientist",
-      "target": "person:noahgift",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:solopreneur-data-scientist",
-      "target": "person:paulineclavelloux",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:solopreneur-data-scientist",
       "target": "podcast:becoming-data-freelancer",
       "kind": "article-chip",
       "weight": 1
@@ -72253,6 +72223,12 @@
     {
       "source": "wiki:solopreneur-data-scientist",
       "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:a-b-testing",
       "kind": "article-chip",
       "weight": 1
     },
@@ -74461,30 +74437,6 @@
     {
       "source": "wiki:tools",
       "target": "wiki:vector-databases",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "person:nataliekwong",
       "kind": "wiki-chip",
       "weight": 1
     },
