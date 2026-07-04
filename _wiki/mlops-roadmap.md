@@ -30,7 +30,7 @@ and [[DataOps]].
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 describes MLOps as a mix of people, operating habits, and technology in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 A practical roadmap starts with a reproducible run and a shipped model. It then
 grows toward production observation, failure response, and a deliberate choice
 about when shared platform work is worth the cost.
@@ -46,67 +46,62 @@ layer is artifact handoff and deployment.
 [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
 
-Simon lays out the early technical sequence in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-He covers experiment tracking, model registries, batch serving, and online
-serving. He also covers metadata, lineage, and prediction logging.
+Early technical work moves from experiment tracking into model registries,
+batch serving, and online serving. Metadata, lineage, and prediction logging
+connect those steps
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-[[person:raphaelhoogvliets=>Raphael Hoogvliets]] adds
-the adoption layer in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
-He describes a central MLOps team as an enabling platform team and covers CI
-and repository structure. He also discusses
-parameterization and testing, along with data versioning, traceability, and
-experiment capture.
+At team scale, [[person:raphaelhoogvliets=>Raphael Hoogvliets]] frames the
+central MLOps team as an enabling platform team. CI and repository structure
+make the work repeatable. Parameterization and testing keep runs
+understandable. Data versioning, traceability, and experiment capture do the
+same across teams
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 The roadmap is both technical and organizational. A junior practitioner learns
 to make one model reproducible and deployable. A senior practitioner makes the
 lifecycle useful to other teams. They measure adoption and keep production
 models observable.
 
-Raphael makes that senior responsibility explicit in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
-where developer experience and pain points drive the platform agenda. Quick
-wins and impact tracking matter in the same discussion.
+For senior work, developer experience and team pain points drive the platform
+agenda. Quick wins and impact tracking show whether platform work helps teams
+ship models
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Standardization Timing
 
 The main roadmap tradeoff is how much shared platform work to add.
 [[person:mariavechtomova=>Maria Vechtomova]]
 argues for pragmatic standardization in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 She recommends using existing infrastructure such as Kubernetes and Git before
 adding more tools. She still names CI/CD and registries as useful foundations.
 
-She shifts from tool choice to developer experience through cookie-cutter
-repositories and service principals. She also discusses Databricks conventions,
-DevOps buy-in, and reusable standards.
+Developer experience makes that standardization usable because cookie-cutter
+repositories and service principals reduce repeated setup work. Databricks
+conventions, DevOps buy-in, and reusable standards serve the same goal.
 
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]] draws
-a leaner early-stage boundary in
-[[cite:lean-mlops-for-startups|Lean MLOps for Startups]].
-He frames startup MLOps as a shoestring strategy built on
-SaaS-first choices and cloud credits. He also uses managed services and fast
-MVP stacks while weighing migration friction, lock-in, and future flexibility.
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]] draws a leaner early-stage
+boundary in
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
+cloud credits, managed services, and fast MVP stacks. The tradeoff is migration
+friction, lock-in, and future flexibility.
 In a regulated finance setting, he moves earlier toward release governance and
-approvals. He adds dev/test/prod separation, monitoring, and interim registry
-patterns in
-[[cite:mlops-and-ml-engineering-in-finance|MLOps in Finance]].
+approvals. Dev/test/prod separation, monitoring, and interim registry patterns
+also arrive earlier in
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 Monitoring specialists place the center of gravity closer to production
-behavior. In
-[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
-[[person:dannyleybzon=>Danny Leybzon]] prioritizes
-production and model monitoring. He ties model failures to ETL jobs, data
-pipelines, and upstream root causes.
+behavior. [[person:dannyleybzon=>Danny Leybzon]] ties model failures to ETL
+jobs, data pipelines, and upstream root causes
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
-In
-[[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]],
-[[person:linaweichbrodt=>Lina Weichbrodt]] starts from
-stakeholder trust and response habits. She covers service levels and
-post-mortems, live test sets, and small A/B tests.
-Feature drift, logging, and reproducibility appear in the same production
-discussion. Monitoring becomes a response system, not just a dashboard.
+[[person:linaweichbrodt=>Lina Weichbrodt]] starts from stakeholder trust and
+response habits. Service levels and post-mortems connect monitoring to
+decisions, as do live test sets, small A/B tests, and feature drift.
+Logging and reproducibility make it a response system, not just a dashboard
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 ## Reproduce Experiments First
 
@@ -118,18 +113,16 @@ This is the practical base for
 [[Experiment Tracking]] and
 [[Reproducibility]].
 
-Simon presents experiment tracking as an early win for reproducibility and
-collaboration in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-Raphael gives the team-scale version in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+Experiment tracking is an early win for reproducibility and collaboration
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Repository structure, CI, parameterization, and testing keep ML knowledge from
 staying on one laptop. Data versioning, traceability, and experiment capture do
-the same for run history.
+the same for run history
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 Don't turn this stage into tool collecting. Maria warns about MLOps landscape
 overload in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 The next stage is ready when you can recover the code and environment. You
 should also recover the data reference, parameters, metric, and model artifact
 for a run.
@@ -141,49 +134,48 @@ validation and prediction logging. Add error handling, a repeatable release
 path, and a rollback note. Use this stage to learn the handoff from training
 code to prediction code before designing a full platform.
 
-Simon separates batch inference from online serving in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-He then connects those paths to orchestration and unified prediction schemas.
-Maria adds the engineering boundary in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
-Move production logic out of notebooks, then put it into packages and CI/CD.
+Batch inference and online serving create different handoff problems
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+Orchestration and unified prediction schemas help keep those paths coherent.
+Production logic belongs outside notebooks and inside packages plus CI/CD
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
-Keep the infrastructure boring while you learn this handoff. [[person:benwilson|Ben Wilson]]
-argues for maintainability over novelty in
-[[cite:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
-He argues for simple solutions before complex ones. A container, scheduled
-job, or managed serving option is enough if it exposes release and runtime
-questions. It should also expose logging and rollback questions.
+Keep the infrastructure boring while you learn this handoff.
+[[person:benwilson=>Ben Wilson]] argues for maintainability over novelty and
+simple solutions before complex ones
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+A container, scheduled job, or managed serving option is enough if it exposes
+release and runtime questions. It should also expose logging and rollback
+questions.
 
 ## Add Registry, Monitoring, and Retraining Decisions
 
 After one model runs, add a registry or registry-like convention. Track the
 model artifact, owner, training-data reference, and evaluation metric. Also
-track approval status, deployment target, and rollback path. Simon places model
-persistence for downstream consumption in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+track approval status, deployment target, and rollback path. Model persistence
+should make downstream consumption possible
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Maria shows the lighter implementation boundary in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
-Artifactory, S3, MLflow, or another artifact store can work when the team keeps
-traceability.
+Teams can keep the registry light. Artifactory, S3, MLflow, or another
+artifact store can work when the team keeps traceability
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 Start monitoring with input quality, prediction distributions, service errors,
 and latency. Then add one business or proxy outcome.
 
-Danny ties production model monitoring to upstream data failures in
-[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide]].
-Lina adds live test sets, small A/B tests, stakeholder impact, and
-post-mortems in
-[[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
-She also covers feature drift, logging, and reproducibility.
+Production model monitoring should trace failures back to upstream data jobs
+and pipelines
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+Live test sets, small A/B tests, and stakeholder impact make the response path
+operational. Post-mortems, feature drift, and logging keep the team focused on
+real failures. Reproducibility keeps that response tied to the model version
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Don't automate retraining before you decide which signal justifies retraining.
 Also decide who approves it and how the candidate model is compared with the
 current model. That approval boundary matters most in regulated settings, where
-Nemanja describes release governance, approvals, and trust-building for release
-decisions in
-[[cite:mlops-and-ml-engineering-in-finance|MLOps in Finance]].
+release governance, approvals, and trust-building guide release decisions
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 ## Turn Repeated Work Into a Platform
 
@@ -195,25 +187,21 @@ friction for product teams. The adjacent reference pages are
 [[Platform Adoption]], and
 [[ML Platform Engineer Role]].
 
-Raphael describes this adoption path in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
 A central team supports product teams, gathers pain points, delivers quick
-wins, and measures value through deployment frequency and impact. Simon gives a
-platform trigger in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-Standardization becomes compelling when repeated deployment and tracking
-problems appear across teams. Serving and governance problems can create the
-same pressure.
+wins, and measures value through deployment frequency and impact
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+Standardization becomes compelling when repeated deployment, tracking, serving,
+or governance problems appear across teams
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Developer experience is part of the platform skill set. Maria discusses
-cookie-cutter repositories, service principals, and Databricks conventions
-in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
-She also discusses DevOps buy-in and reusable standards.
+Developer experience is part of the platform skill set. Cookie-cutter
+repositories and service principals make the platform easier to adopt.
+Databricks conventions, DevOps buy-in, and reusable standards support the same
+adoption work
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 The platform should help teams ship and operate models. If it only ships tools
-that teams don't adopt, it hasn't solved the roadmap problem Raphael
-describes in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+that teams don't adopt, it hasn't solved the platform adoption problem
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Specialize by Constraint
 
@@ -222,39 +210,35 @@ constraint rather than trying to master every MLOps category in one pass.
 
 In regulated MLOps, validation, approvals, and release governance matter early.
 Teams also need dev/test/prod separation, monitoring, auditability, and risk
-controls. Nemanja
-covers those finance constraints in
-[[cite:mlops-and-ml-engineering-in-finance|MLOps in Finance]].
+controls
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 Startup MLOps puts minimal stacks, SaaS choices, and rapid MVP delivery first.
-It still needs portability, technical debt awareness, and security. Nemanja covers
-this in
-[[cite:lean-mlops-for-startups|Lean MLOps for Startups]].
+It still needs portability, technical debt awareness, and security
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Platform MLOps starts with internal users, templates, CI/CD, and serving modes.
-It then adds support models, adoption metrics, and governance. Raphael and
-Simon anchor that path in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]
+It then adds support models, adoption metrics, and governance
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 and
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 Monitoring and observability work starts with drift, data quality, and feature
-logging. It then adds incident response and upstream root causes. Danny and
-Lina anchor that path in
-[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide]]
+logging. It then adds incident response and upstream root causes
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 and
-[[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Feature-platform MLOps focuses on online features, training-serving skew,
 materialization, and serving. It also needs validation, registry, and
-monitoring. [[person:willempienaar|Willem Pienaar]]
+monitoring. [[person:willempienaar=>Willem Pienaar]]
 explains where feature stores matter in
-[[cite:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
 
 LLMOps can be a later specialization, but it shouldn't replace the core model
-lifecycle. Maria discusses LLM pilots and hype in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
-She also covers cost, GPU constraints, and multilingual limits.
+lifecycle. LLM pilots still run into cost, GPU constraints, multilingual
+limits, and hype
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 The same roadmap still needs reproducible configuration, deployment,
 evaluation, and monitoring. Ownership, cost control, and rollback paths still
@@ -267,16 +251,14 @@ has been completed. Use them to close one concrete gap at a time. Common gaps
 include Git and CI/CD, reproducible experiments, and model handoff.
 
 Other gaps include deployment, monitoring, and platform adoption. The finished
-evidence should still be a working model lifecycle that another person can run
+proof should still be a working model lifecycle that another person can run
 and question.
 
-Maria's learning advice in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]
-is the most direct podcast discussion of MLOps study choices. She recommends
-hands-on projects and pairing with engineers, then adds ML fundamentals,
-software engineering, and system design. She also adds data engineering. That
-makes an MLOps course useful when it forces end-to-end practice, not when it
-only introduces a long tool catalog.
+Hands-on projects and pairing with engineers matter more than a long tool
+catalog. ML fundamentals, software engineering, system design, and data
+engineering still belong in the study plan because MLOps work stitches them
+together
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 For an MLOps course, the curriculum should match the build order in this
 roadmap. It should start with versioned training code and dependency
@@ -286,19 +268,18 @@ Add metrics, data references, and artifacts before serving work. After that,
 add batch or online inference and CI/CD before registry handoff, monitoring,
 and operating notes.
 
-Simon's sequence in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]
-supports that order. He covers experiment tracking, registries, batch serving,
-and online serving. He also covers metadata and lineage.
+Experiment tracking and registries support that order. Batch serving, online
+serving, metadata, and lineage come after the learner can track a run
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Certifications are useful when they organize study or teach a named platform,
-but they should point back to evidence. [[person:jeffkatz|Jeff Katz]]
-answers a certification question in
-[[cite:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]
-by returning to Python and SQL. He also references GitHub and practical ETL
-work. He treats cloud certificate prep as useful for fundamentals, not as a
-replacement for skill. For MLOps, a credential supports the story only when
-it's tied to
+A certification can organize study or teach a named platform, but project proof
+should still matter more.
+
+[[person:jeffkatz=>Jeff Katz]] answers a certification question by returning to
+Python and SQL. He also references GitHub and practical ETL work. Cloud
+certificate prep can help with fundamentals, but it doesn't replace skill
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+For MLOps, a credential supports the story only when it's tied to
 [[Machine Learning Portfolio Projects]],
 [[MLOps Engineer]], and production
 work.
@@ -309,12 +290,12 @@ and baselines before adding deployment and monitoring. It should also teach
 metrics, evaluation, and error analysis.
 
 [[person:valeriybabushkin=>Valerii Babushkin]]
-shows that order in
-[[cite:machine-learning-system-design-interview|Machine Learning System Design Interview]].
+uses that order in
+[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]].
 Fraud detection and recommendation examples move from labels and imbalance into
-metrics and baselines. The same discussion adds A/B testing, monitoring,
-distribution shift, and fallbacks. A bootcamp that skips this
-foundation may teach tools. It won't prepare the learner for
+metrics and baselines. They then add A/B testing, monitoring, distribution
+shift, and fallbacks. A bootcamp that skips this foundation may teach tools. It won't
+prepare the learner for
 [[Machine Learning Engineer Role]]
 or production MLOps work.
 
@@ -335,34 +316,31 @@ Build projects in the order that exposes the lifecycle:
 
 - Tracked training project: start with versioned code plus environment, add a
   data reference with metrics, and save parameters plus artifacts in a
-  reproducibility note. This practices Simon's experiment tracking discussion
-  and metadata discussion in
-  [[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+  reproducibility note. This practices experiment tracking and metadata
+  [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 - Batch inference pipeline: include scheduled predictions, input checks,
   prediction output, run history, and a rollback note. This follows the batch
-  path Simon separates from online serving in
-  [[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
+  path before online serving
+  [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 - Online service: include API serving, schema validation, and model artifact
   lookup, then add request and response logging plus latency checks. Write
-  deployment notes that combine Maria's package-and-CI/CD advice in
-  [[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]
+  deployment notes that combine package-and-CI/CD work
+  [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
   with Simon's unified prediction schema.
 - Monitoring dashboard and response path: track input quality and prediction
   distribution together with errors and latency. Then add one business or proxy
-  metric and use Danny's production framing in
-  [[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide]]
-  for the monitoring side. Use Lina's post-mortem and monitoring chapters
-  in
-  [[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+  metric and production framing
+  [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+  for the monitoring side. Add post-mortem and response habits
+  [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 - Mini-platform: include a repository template, CI, a registry convention, a
   deployment guide, and a monitoring hook. Add an adoption note explaining
-  which team pain it solves. This mirrors Raphael's pain-point and quick-win adoption
-  strategy in
-  [[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
+  which team pain it solves through quick wins and adoption tracking
+  [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 One finished lifecycle is stronger than five disconnected tool demos. Ben's
 production ML advice in
-[[cite:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 repeatedly favors maintainable systems, cross-functional trust, and
 cost-benefit tradeoffs over novelty.
 
@@ -392,31 +370,31 @@ A course, certification, or bootcamp project should include:
 - operating notes for ownership, failure modes, fallback behavior, and rollback
 - operating notes for retraining criteria, known limits, and future work
 
-Portfolio and hiring discussions set a similar bar. [[person:slawomirtulski|Slawomir Tulski]] discusses
-side-project framing in
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]].
-He points toward end-to-end platform projects as stronger proof. For MLOps, a
-working training-to-monitoring path is stronger evidence than a list of tools.
+Portfolio and hiring discussions set a similar bar.
+[[person:slawomirtulski=>Slawomir Tulski]] points toward end-to-end platform
+projects as stronger proof in
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+For MLOps, a working training-to-monitoring path is stronger proof than a list
+of tools.
 
-Ben gives the engineering bar in
-[[cite:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
-He talks about refactoring hard-to-follow data science code into smaller pieces
-that teams can maintain. He discusses timeboxed experiments and cost-benefit
-tradeoffs, and recommends simpler methods such as SQL or statistics before
-deep learning when they solve the problem. A roadmap project should show that
-same judgment: simple, runnable, observable work before a heavy platform.
+Ben gives the engineering bar. Refactor hard-to-follow data science code into
+smaller pieces that teams can maintain. Timebox experiments and weigh
+cost-benefit tradeoffs. Use simpler methods such as SQL or statistics before
+deep learning when they solve the problem
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+A roadmap project should show that same judgment: simple, runnable, observable
+work before a heavy platform.
 
-The project should also be easy to discuss in an interview. Valerii's system
-design episode ties features, labels, and baselines to metrics. It also adds
-monitoring and fallbacks.
+The project should also be easy to discuss in an interview. Tie features,
+labels, and baselines to metrics, then add monitoring and fallbacks
+[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]].
 
-Maria's MLOps episode adds Git and CI/CD, plus registries and deployment in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
-Monitoring, code quality, and testing belong there too. Simon and Raphael add
-the platform path when repeated projects need shared standards, developer
-experience, and adoption work. The portfolio standard is to finish one
-lifecycle, explain the tradeoffs, then use the gaps to choose the next roadmap
-step.
+Git, CI/CD, registries, and deployment belong in the same portfolio story.
+Monitoring, code quality, and testing belong there too
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+When projects repeat the same problems, they can justify shared standards,
+developer experience, and adoption work. The portfolio standard is to finish one lifecycle, explain the
+tradeoffs, then use the gaps to choose the next roadmap step.
 
 ## Role Milestones
 
@@ -424,50 +402,47 @@ Entry-level readiness means you can reproduce runs and package inference code.
 You can log predictions, explain training metrics, compare them with production
 behavior, and debug a failed run. That aligns with Maria's minimum maturity
 base in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 and Nemanja's beginner stack advice in
-[[cite:mlops-and-ml-engineering-in-finance|MLOps in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 Mid-level readiness means you can own deployment, monitoring, and registry
-usage. You can also own CI/CD and retraining decisions. You can communicate with data scientists,
-product teams, and business stakeholders. Danny frames the MLOps architect role
-as a technical-business bridge in
-[[cite:mlops-model-monitoring-data-observability|MLOps Architect Guide]].
-Lina shows why stakeholder engagement, service levels, post-mortems, and
-feedback channels belong in production ML work in
-[[cite:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
+usage. You can also own CI/CD and retraining decisions. You can communicate
+with data scientists, product teams, and business stakeholders. The MLOps
+architect role bridges technical and business work
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+Stakeholder engagement, service levels, post-mortems, and feedback channels
+belong in production ML work
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Senior readiness means you can design adoption paths and choose build-versus-buy
-boundaries. You can create platform standards and support regulated or
-high-risk systems and measure whether MLOps work improves deployment speed.
-Raphael covers adoption strategy and quick wins in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
-He also covers deployment frequency and impact tracking.
+boundaries. You can create platform standards, support regulated or high-risk
+systems, and measure whether MLOps work improves deployment speed. Adoption
+strategy, quick wins, deployment frequency, and impact tracking matter here
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Simon adds build-versus-buy and platform triggers in
-[[cite:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
-He adds metadata, lineage, and governance in that episode.
+Build-versus-buy decisions and platform triggers sit at the same senior
+boundary. Metadata, lineage, and governance belong there too
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 ## Study-Build Boundary
 
 Stop studying and build when you can train a simple model in Python. You should
 also use Git and manage dependencies. Write a batch job or small API, then save
 and load model artifacts. Define one offline metric and one production signal.
-Maria
-recommends hands-on projects, fundamentals, and tool-agnostic end-to-end
-stitching in
-[[cite:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]].
+Hands-on projects, fundamentals, and tool-agnostic end-to-end stitching matter
+more than platform breadth at this stage
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 Don't wait until you know every MLOps platform. Build the smallest lifecycle
 that works, then study the next tool when the project exposes the problem that
 tool solves.
 
-Raphael recommends prioritizing CI/CD and tangible pain points in
-[[cite:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
-Nemanja makes the same point for startups in
-[[cite:lean-mlops-for-startups|Lean MLOps for Startups]].
-Python and CI/CD matter before broad platform breadth. Orchestration and
-observability matter too, along with foundational tools.
+Prioritize CI/CD and tangible pain points
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+For startups, Python and CI/CD matter before broad platform breadth.
+Orchestration and observability matter too, along with foundational tools
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Use [[MLOps Tools]] when the question
 is tool selection, and use

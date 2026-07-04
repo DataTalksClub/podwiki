@@ -1,7 +1,7 @@
 RUSTKYLL_PYPI_VERSION ?= 0.5.1
 RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
 
-.PHONY: help sources graph index lambda-package build serve links wiki-links duplicates content-audit keyword-gap clean check
+.PHONY: help sources graph index lambda-package build serve links wiki-links chip-syntax duplicates content-audit keyword-gap clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -33,6 +33,13 @@ serve: ## Serve the static site locally (uses committed graph/search data; run '
 
 wiki-links: ## Fast source-level wiki link check (no build)
 	python scripts/check_wiki_links.py
+
+chip-syntax: ## Check touched Markdown files for legacy pipe chip aliases (PATHS="file1 file2")
+	@if [ -z "$(PATHS)" ]; then \
+		echo 'usage: make chip-syntax PATHS="_wiki/example.md ..."'; \
+		exit 2; \
+	fi
+	python scripts/check_chip_syntax.py $(PATHS)
 
 duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
 	python scripts/find_duplicates.py
