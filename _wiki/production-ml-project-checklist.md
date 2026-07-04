@@ -31,7 +31,7 @@ quality. The lifecycle runs from training and evaluation to
 [[experiment tracking]] and the
 [[model registry]]. It separates batch and
 online deployment. It also ties lineage metadata to prediction APIs and logs
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 ## Lifecycle Proof
 
@@ -41,21 +41,21 @@ records parameters, dependencies, the evaluation result, and the saved artifact.
 The same record should name the deployment target, monitoring signals, and owner
 action for rollback or retraining. That's the full lifecycle scaled down to a
 reviewable portfolio repository
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 The lightweight standard puts Git and CI/CD in the essential stack. The same
 stack includes artifact storage and registries. It also needs documentation,
 reproducibility, code quality, and testing
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 Notebook logic should move into packages and CI/CD
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 A portfolio project can stay small, but it shouldn't hide weak delivery behind a
 long tool list.
 
 Scale and adoption add CI, repository structure, parameterization, and tests.
 They also add data versioning, traceability, and experiment capture
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. The
 portfolio version should expose those same checkpoints even if it uses a local
 dataset snapshot rather than a full platform.
 
@@ -70,9 +70,9 @@ training job and compare the result.
 
 This bar rests on repository structure, tests, data traceability, and experiment
 capture
-([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]). The same
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. The same
 project structure moves notebook code into packages and CI/CD
-([[podcast:pragmatic-and-standardized-mlops|Pragmatic and Standardized MLOps]]).
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 ## Experiment Records and Registry Handoff
 
@@ -85,10 +85,10 @@ The handoff from experimentation to deployment should be explicit. Link
 [[experiment tracking]] to the
 [[model registry]] so the registry
 becomes a release boundary rather than a storage folder
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 A simple interim registry is an acceptable lightweight version
-([[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]). The record
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]. The record
 still needs model and data versions. It also needs the environment, evaluation
 result, approval state, and deployment target. In a portfolio project, a table or YAML
 manifest can satisfy that requirement when it gives reviewers the exact
@@ -100,13 +100,13 @@ Show either batch scoring or online serving. Batch scoring can write
 predictions to a table, while online serving can be a small API. The project
 should include input validation, output schema, logs, and one fallback rule.
 Batch and online deployment are separate modes
-([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]),
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 so the README should name which serving mode it implements and why.
 
 Simple, maintainable systems with modular, testable code are the priority.
 Production ML capstones include tests, monitoring, A/B testing, and CI/CD
-([[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]]).
-Use [[ci-cd|CI/CD]] and
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+Use [[ci-cd=>CI/CD]] and
 [[Production]] when the project needs a
 release note, a deployment command, or a rollback path.
 
@@ -117,15 +117,15 @@ distributions. It should also cover business outcomes and name upstream causes
 that could break the model. [[model monitoring]]
 connects to upstream ETL and data pipeline causes. That makes data profiling and
 root-cause visibility part of the project rather than an optional dashboard
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Business value and incident readiness start from business KPIs and add incident
 prep, postmortems, and live test sets
-([[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Input shifts, unit changes, and feature drift are monitoring concerns, and
 logging and reproducibility become monitoring concerns too
-([[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 Use
 [[Evaluation]] for metric choices and
 [[Model Monitoring]] for the
@@ -136,7 +136,7 @@ model-specific signals.
 Feature-heavy projects should address training-serving consistency, feature
 validation, and ownership, and review drift and served-feature logs. Feature
 responsibilities, validation, ownership, and governance ground that work
-([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores]]).
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]].
 
 If the project uses a feature table, the README should state who owns each
 feature and how training data maps to served inputs. It should also name the
