@@ -218,6 +218,11 @@ deployment discipline still apply.
 It then adds training-data references, feature freshness, and model versions.
 Offline versus online metrics matter too, as do drift, delayed labels, and
 retraining decisions.
+
+The role-taxonomy view puts MLOps close to DevOps or SRE, then adds
+machine-learning lifecycle knowledge. That lets the role support services built
+across the data team. The source names data scientists, machine learning
+engineers, and data engineers.[[cite:data-team-roles@20:54=>Data Team Roles Explained]]
 For the full boundary, see
 [[MLOps vs DevOps]]. For the monitoring side, see
 [[Model Monitoring]] and

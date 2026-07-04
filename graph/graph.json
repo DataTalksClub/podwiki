@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10891
+    "links": 10896
   },
   "nodes": [
     {
@@ -23314,6 +23314,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "podcast:data-team-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -26075,6 +26081,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "podcast:data-team-roles",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37703,6 +37715,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60304,6 +60322,12 @@
     },
     {
       "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:data-team-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -61769,6 +61793,12 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "podcast:data-team-roles",
       "kind": "wiki-chip",
       "weight": 1
     },

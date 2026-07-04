@@ -95,16 +95,25 @@ segment outcomes through an experimentation platform
 Patient safety, [[privacy engineering for ML]], and
 [[responsible AI and governance]] sit beside the usual product-growth concerns.
 
-Teams validating recommenders can't rely only on clicks or purchases. Those
-signals don't always prove that the recommendation matched what the user
-wanted. An A/B test can also be biased by the way success is defined. A
-favorite-brand team asked employees to swipe on brands as a cheaper internal
-preference check before release. Then the team connected the model to A/B-style
-control logic and rollout metrics.
+Teams validating recommenders can't rely only on clicks or purchases. Abouzar
+Abbaspour notes that an A/B test can be biased by the way the team defines
+success. Sales and clicks show response, but they don't always prove that the
+recommendation matched what the person wanted
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park to Tesla]]).
 
-A/B testing sits close to
-[[recommendation systems]], [[data product adoption]], and [[data products]]
-in this workflow. The test has to validate user fit, not only model score ([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
+The favorite-brand team therefore used an employee swiping game before rollout.
+Employees marked each brand as "not my favorite", "I like it", or "this is my
+favorite brand." That gave the team a direct preference check before the
+product entered live traffic
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@28:19=>Employee Swiping]]).
+
+This case connects A/B testing to [[recommendation systems]],
+[[data product adoption]], and [[data products]]. The test has to validate user
+fit, not only model score. The offline preference check gives stakeholders
+confidence before they spend more engineering time or expose the recommender
+broadly
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@30:43=>Theme Park to Tesla]]).
 
 The marketing measurement boundary covers treatment/control design and data
 pitfalls for uplift ([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]]).
@@ -152,10 +161,12 @@ incidents ([[cite:human-centered-mlops-and-model-monitoring=>Model Monitoring]])
 
 Live data products can make assignment and exposure logging an engineering
 problem, not only an analytics problem. The employee-swiping recommender needed
-on-the-fly processing so only the internal test audience saw the validation
-experience rather than processing millions of users. That made [[streaming]],
-targeting, and application instrumentation part of the experiment design
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
+on-the-fly processing because the team wanted only employees to see the
+validation experience. They avoided processing millions of users and calculated
+the recommendations just before the internal page loaded. That made
+[[streaming]], targeting, and application instrumentation part of the experiment
+design
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Theme Park to Tesla]]).
 
 ## Metrics and Decision Rules
 
@@ -166,11 +177,13 @@ A test needs one primary metric for the rollout decision and supporting metrics
 for diagnosis.
 
 The favorite-brand recommender used a staged decision rule. First, the team
-checked whether employees actually swiped the recommended brands as favorites
-and treated roughly 85% agreement as evidence that the model was plausible.
-Only after that preference check did the product goal move toward engagement
-with brand pages and broader rollout
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
+checked whether employees swiped the recommended brands as favorites while
+rejecting brands inserted as non-favorite controls. They treated roughly 85%
+favorite agreement as evidence that the model was plausible. Only after that
+preference check did the product goal move toward engagement with brand pages
+and broader rollout
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@31:39=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]]).
 
 A/B tests need metrics that stay stable when noise or business cycles move the
 result.

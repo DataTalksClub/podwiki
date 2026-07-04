@@ -149,9 +149,14 @@ adjust the offer. It can push the freelancer to narrow the skill focus or
 improve proof. It can also push them to change the proposal rather than only
 sending more bids.
 
+Stellas added a PowerPoint with self-built project evidence after early
+proposals failed to convert. He turned course work and portfolio material into
+buyer-facing proof instead of background experience
+[[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]].
+
 Marketplace evidence links this work to
 [[machine learning portfolio projects]] and [[open source portfolio evidence]].
-Evidence has to travel with the proposal.[[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]]
+Freelancers need proof to travel with the proposal.
 
 Each channel creates a different strategic constraint. On platforms such as
 Upwork, a new profile may need lower prices to build ratings and proof. Scarce

@@ -129,6 +129,10 @@ The boundary with data engineering is platform ownership. Data engineers often
 own ingestion and orchestration, plus raw storage and system reliability.
 Analytics engineers depend on that platform. They add domain models, metrics,
 semantic layers, and BI-ready marts.
+The role taxonomy behind that split says data engineers make data available in a
+usable form for analysts and data scientists. Analytics engineering starts after
+that handoff, where reusable business definitions and quality checks become the
+product.[[cite:data-team-roles@13:58=>Data Team Roles Explained]]
 
 Kwong makes this boundary concrete through ELT. In that ELT flow, source data is
 loaded first and warehouse-side transformations serve analytical users

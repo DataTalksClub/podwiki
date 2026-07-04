@@ -214,9 +214,14 @@ exercise[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engin
 An AI engineer differs from a
 [[data-engineer-role=>data engineer]] by using data
 pipelines as part of an AI product. The data platform isn't the main deliverable.
-The roles can be close, though: trustworthy AI depends on tested pipelines,
-prepared data and evaluation data. It also depends on cost-aware prompt
-design[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+The roles can be close. Trustworthy AI depends on tested pipelines, prepared
+data, and evaluation data. It also depends on cost-aware prompt design[[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
+
+The older data-team taxonomy helps name the inherited boundary. Data engineers
+prepare usable data before modeling, and machine learning engineers pick up
+models after development for product serving. AI engineers often need both
+inputs, but their deliverable remains the AI application around model
+behavior.[[cite:data-team-roles@30:01=>Data Team Roles Explained]]
 
 The backend-engineer boundary moves around model-specific judgment. AI engineers
 differ from backend engineers through current AI tools and models. They also

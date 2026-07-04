@@ -54,13 +54,15 @@ definitions and proactive data-quality communication. Users also need enough
 visibility into how numbers are produced before they'll use them confidently.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
-Recommendation products make the adoption loop visible at the data-collection
-stage. In a theme-park routing project, the app already had broad visitor use.
-The team added a free-coffee incentive to draw visitors into the survey flow.
-That meant [[data product adoption]] and training-data collection were
-connected. The product surface had to attract enough real users before the
-[[recommendation systems=>recommender]] could learn route preferences
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]].
+Recommendation products make adoption visible at the data-collection stage. In
+a theme-park routing project, the park already had broad app usage: Abbaspour
+estimated that at least 60% of visitors used the app. The team added a
+free-coffee incentive to pull visitors into the survey, so [[data product
+adoption]] and training-data collection became the same product problem. The
+app had to attract enough real visitors before the [[recommendation
+systems=>recommender]] could learn route preferences
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@15:06=>App Incentives]].
 
 ## Adoption Levers Across Roles
 
@@ -184,8 +186,18 @@ The theme-park routing recommender shows a product prototype collecting the
 behavioral evidence it needed. About 3,000 visitor route variations came through
 the app survey. The model then matched group preferences to likely paths and
 recommended the next attraction. That put user research, lightweight product
-design, and recommender validation in the same loop
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]].
+design, and [[a-b-testing=>recommender validation]] in the same product flow
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Theme Park to Tesla]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]].
+
+The later favorite-brand recommender used the same adoption logic internally.
+Before a broad launch, the team showed employees a swiping interface and asked
+whether each brand was a favorite. The internal experience worked as both user
+research and stakeholder proof. The team needed confidence that the
+recommendations reflected real preference before asking users to click brand
+pages in production
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Employee Swiping]]
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]].
 
 Generative AI products expose the same adoption blocker in a new interface.
 Users don't keep using a chatbot only because the model can produce an answer.

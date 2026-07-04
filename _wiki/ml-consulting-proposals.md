@@ -131,6 +131,13 @@ LLM system. That keeps [[generative AI]] work connected to business decisions,
 not only model selection
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
 
+Weber also treats client conversations as offer discovery. Network calls,
+mentorship conversations, events, and LinkedIn visibility help a consultant hear
+which problems companies repeat before the consultant freezes a pitch. The first
+proposal can then record the intersection between the consultant's strengths and
+the buyer problems people actually describe
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Generative AI Consulting]]).
+
 ## Data Access and Feasibility
 
 ML feasibility starts with data access, data meaning, and organizational

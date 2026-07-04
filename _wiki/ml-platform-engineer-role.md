@@ -180,11 +180,11 @@ Not every engineer has to be equally deep in Kubernetes, Terraform, model
 training, and user support
 [[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
 
-Ownership separates the role from a
-[[machine-learning-engineer-role=>machine learning engineer]].
-Machine learning engineers often own one model-backed capability, while ML
-platform engineers own the paved paths that many such capabilities use. The
-boundary with [[MLOps]] is narrower: MLOps
+Ownership separates the role from machine learning engineering. The neighboring
+[[Machine Learning Engineer Role]] often owns one model-backed capability.
+Platform engineers own shared paths across teams. Data Team Roles gives the
+narrower role boundary. Machine learning engineers scale services.[[cite:data-team-roles@17:04=>Data Team Roles]]
+The boundary with [[MLOps]] is narrower: MLOps
 can describe the operating discipline around one model or one team. ML platform
 engineering turns repeated MLOps needs into shared internal services.[[cite:building-production-ml-platform-and-mlops-team]][[cite:mlops-at-scale-reproducibility-adoption]]
 

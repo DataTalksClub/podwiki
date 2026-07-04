@@ -20,10 +20,11 @@ support [[evaluation]], [[testing]], and production [[MLOps]].
 When teams add weak supervision, [[LLMs]], or model-in-the-loop review, the
 workflow becomes harder. A generated label can speed a labeling project, but it
 still needs review before the team treats it as evidence. Johannes Hotter's
-Refinery and Bricks examples put GPT prompts, active learning, crowd labels, and
-heuristic recipes into the same annotation system. Verena Weber's Alexa NLU
-example shows model suggestions improving speed and consistency only when humans
-still verify them.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]][[cite:building-open-source-nlp-tool@13:22=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
+Refinery example treats GPT, active learning, crowd labels, and task heuristics
+as noisy workers inside one annotation system. His Bricks example packages those
+signals as reusable recipes. Verena Weber's Alexa NLU study shows a parallel
+loop. Model suggestions can improve speed and consistency only when humans still
+verify them.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]][[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
 
 ## Workflow Definition
 
@@ -129,18 +130,17 @@ suggestion. The interface can also bias attention: unlabeled items may become
 less visible when a system pre-fills predictions.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 Model-in-the-loop annotation works best when the model output is already close
-to useful. In a large-scale NLU setting, annotators corrected suggested
-interpretations instead of labeling every utterance from scratch. That narrowed
-the human task and reduced annotation volume. It also made repeated annotations
-more consistent because annotators reacted to the same candidate interpretation
-instead of independently inventing labels.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
+to useful. In Weber's Alexa NLU study, random live-traffic samples used to go to
+human annotators before training. The revised workflow first ran each request
+through the NLU model and showed the proposed interpretation to the annotator.
+That narrowed the task from full labeling to verification or correction.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
 
-In Weber's Alexa NLU example, live-traffic samples previously went to human
-annotators from scratch. The revised workflow showed the model's proposed
-interpretation first, so annotators verified or corrected one candidate instead
-of inventing the full label. That saved time and reduced inconsistent repeated
-labels, but it still required human review. The point wasn't to replace
-annotators. It was to make the review task narrower and more repeatable
+For the mature Alexa language model Weber described, the suggested
+interpretation was often close enough that annotators made fewer corrections.
+That saved time, reduced annotation volume, and made repeated labels more
+consistent because annotators reacted to the same candidate interpretation. The
+point wasn't to replace annotators. It was to make the review task narrower and
+more repeatable
 [[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Generative AI Consulting]].
 
 Active learning has the same boundary. Low-confidence and decision-boundary
@@ -150,12 +150,14 @@ to 20% less data, not a complete step-change. That keeps active learning tied
 to experiment design and [[evaluation]], not to a promise that annotation will
 disappear.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
-For [[LLMs]], the review rule still applies. ChatGPT can label a first batch or
-act as one heuristic among active-learning signals and crowd labels. The
-annotation workflow still has to combine, review, and test those signals before
-training on them. That connects LLM labeling to [[evaluation]] and
+For [[LLMs]], the review rule still applies, and Hotter gives a concrete
+LLM-labeling example. A team can ask ChatGPT to label the first 10,000
+intent-classification examples, then train a model on those labels. He treats
+that as one solid starting point, not the full quality workflow. The same batch
+can be compared with an active learner, crowd labels, and other heuristics before
+the team trusts it. That connects LLM labeling to [[evaluation]] and
 [[data quality and observability]] instead of treating it as a shortcut around
-them.[[cite:building-open-source-nlp-tool@13:22=>Open-Source NLP Tool]]
+them.[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]]
 
 Hotter's framing keeps ChatGPT inside weak supervision rather than outside it.
 One signal can come from ChatGPT. Others can come from active learning, crowd
