@@ -3,6 +3,9 @@ layout: wiki
 title: "Data Pipelines"
 summary: "Guide to data pipelines: ingestion, transformation, publication, orchestration, testing, recovery, CDC, and ML handoffs."
 related:
+  - ETL
+  - ELT
+  - ETL vs ELT
   - CDC
   - Orchestration
   - DataOps
@@ -30,7 +33,8 @@ the same conversation
 
 This topic covers pipeline design. Use
 [[ETL vs ELT]] for the transformation
-boundary, while [[Orchestration]]
+boundary between [[ETL]] and [[ELT]],
+while [[Orchestration]]
 and [[Apache Airflow]] cover
 scheduling and dependencies. Use
 [[DataOps]] for reliable delivery
@@ -287,12 +291,14 @@ production behavior.
 
 ## Design Tradeoffs
 
-DataTalks.Club discussions converge on the same pipeline lifecycle, but design
-pressure changes by use case. Kwong's
+DataTalks.Club discussions converge on the same pipeline lifecycle, even though
+each use case applies different design pressure. Kwong's
 [[cite:data-engineering-tools-modern-data-stack=>modern stack discussion]]
 puts the extraction and loading boundary first. That makes
 [[ETL vs ELT]] a pipeline
-decision rather than only a tooling label.
+decision rather than only a tooling label. After teams choose that
+transformation boundary, the wider lifecycle still runs from ingestion through
+publication plus recovery and reliability.
 
 Tuli's
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>architecture walkthrough]]
@@ -349,7 +355,8 @@ ingestion, transformation, and serving layers.
 ## Adjacent Topics
 
 Use [[ETL vs ELT]] when the question is
-where transformations should run. Use [[CDC]]
+where transformations should run. Use [[ETL]] or [[ELT]] when the question is
+one lifecycle rather than the comparison. Use [[CDC]]
 when the source data changes incrementally and full reloads are wasteful. Use
 [[Orchestration]] and
 [[Apache Airflow]] when the

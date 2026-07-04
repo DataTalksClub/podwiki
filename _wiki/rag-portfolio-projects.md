@@ -18,6 +18,16 @@ evidence. The project is stronger when the demo shows retrieved passages and
 answer citations. It should also show metadata, evaluation runs, and failure
 labels instead of only a polished chat UI.
 
+RAG portfolio work starts with project type and framing. The examples cover
+source-cited assistants, search-first systems, and evaluation reports. They also
+cover agentic boundaries, graph RAG, career-transition projects, and
+production-minded demos. The [[Search and RAG Project Checklist]]
+names the execution fields a reviewer should look at.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+defines the base concept, and
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+defines the evaluation procedure.
+
 A clear project structure moves from retrieval-augmented generation to
 transcript chunking and vectorization, then adds prompt context, citations, and
 multi-level RAG evaluation
@@ -27,19 +37,13 @@ The portfolio review standard pairs representative gold tests with failure
 analysis and ties the review to logs or traces
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-Read this page with
-[[Portfolio Projects]] and the
-broader
+Read RAG portfolio examples with
+[[Portfolio Projects]] and the broader
 [[Machine Learning Portfolio Projects]]
-standard. For architecture and review criteria, use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-and the
-[[Search and RAG Project Checklist]].
-Use
-[[LLM Evaluation Workflows]]
-and the
+standard. The
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-when the project needs evaluation, deployment, and operations evidence.
+adds a staged path from scoped assistant to
+retrieval, evaluation, serving, and operations controls.
 
 ## Reviewable RAG Project
 
@@ -267,8 +271,9 @@ still need to manage chunk metadata, latency, and cost
 These pages cover the concepts and project standards around RAG portfolio work.
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the core RAG architecture.
-- [[Search and RAG Project Checklist]] for a practical review checklist.
-- [[LLM Evaluation Workflows]] for gold sets, traces, and failure analysis.
+- [[Search and RAG Project Checklist]] for execution fields once the project type is chosen.
+- [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for retrieval checks, answer checks, traces, and feedback.
+- [[LLM Evaluation Workflows]] for broader LLM gold sets, traces, and failure analysis.
 - [[LLM Production Patterns]] for deployment, latency, cost, observability, and model-risk context.
 - [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for a build sequence from bounded workflows to production controls.
 - [[LLM System Design Interview]] for explaining retrieval, evaluation, and production tradeoffs in interviews.

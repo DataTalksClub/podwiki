@@ -20,6 +20,10 @@ A DataOps platform gives data teams a shared operating layer for changing
 and version control with tests and [[ci-cd=>CI/CD]]. It also covers [[data
 quality and observability]], lineage, ownership, and access controls.
 
+For platform boundary questions, focus on the supported path that many teams use
+to change, monitor, and repair data systems. Use [[DataOps Tools]] for the tool
+categories inside that path, and [[DataOps]] for the underlying practice.
+
 The platform sits at the overlap between [[DataOps]] and [[Data Engineering
 Platforms]]. DataOps adds review, testing, monitoring, and recovery practices.
 The platform turns those practices into shared infrastructure for pipeline,
@@ -42,6 +46,11 @@ The platform boundary is broader than a scheduler and narrower than all data
 infrastructure. It coordinates storage, compute, and workflow for recurring
 data changes. Metadata, quality checks, ownership, and recovery paths make
 those changes operable.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+
+This keeps the platform page separate from the tools guide. A tool helps with
+one category of work. A platform defines the supported route through several
+categories so many teams can use the same review, release, observability, and
+recovery path.
 
 A console beside a warehouse or scheduler isn't enough if it only exposes
 existing systems. DataOps platform work improves review and testing. It also

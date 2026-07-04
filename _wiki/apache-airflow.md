@@ -18,20 +18,26 @@ related:
   - Modern Data Stack
 ---
 
-Apache Airflow is a workflow orchestrator for recurring data and machine
-learning work. Teams use it to define DAGs, schedule jobs, and track
+Apache Airflow is one workflow orchestrator for recurring data and
+machine learning work. Teams use it to define DAGs, schedule jobs, and track
 dependencies. They also use it to retry failed tasks, look at logs, and rerun
-historical work. Guests mention Airflow most often around
+historical work.
+
+Airflow-specific coverage belongs to DAGs, scheduling, and the operating cost
+around the tool.
+[[Orchestration]] generalizes that control-plane practice, [[Data Pipelines]]
+describes the source-to-output system, and [[How to Build Data Pipelines]]
+gives the build sequence. Guests mention Airflow most often around
 [[data pipelines]],
 [[DataOps]],
 [[data engineering platforms]],
 and the [[modern data stack]].
 
-Guests usually treat Airflow as coordination infrastructure, not as the place
-where all pipeline logic should live. The ingestion tool or warehouse job
-should still own the transformation logic. So should the Spark job, dbt project,
-feature pipeline, or Python module. Airflow owns the schedule, dependency
-graph, run state, and visibility around those steps.
+Guests usually treat Airflow as coordination infrastructure, not as the whole
+pipeline. The ingestion tool or warehouse job should still own the
+transformation logic. So should the Spark job, dbt project, feature pipeline,
+or Python module. Airflow owns the schedule, dependency graph, run state, and
+visibility around those steps.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
 One modern-stack boundary puts Airflow around scheduling and orchestration while
@@ -65,9 +71,11 @@ is fresh, complete, valid, or useful.
 ## Platform Cost and Simpler Alternatives
 
 Airflow is the common reference point for orchestration, but the interviews do
-not treat it as the default answer for every scheduled job. Teams should ask
-whether the workflow needs shared run state, dependency control, recovery, and a
-team-facing operating surface.
+not treat it as the default answer for every scheduled job. If the question is
+whether a workflow needs orchestration at all, start with [[Orchestration]]. If
+the question is how Airflow should coordinate an existing pipeline, stay here.
+Teams should ask whether the workflow needs shared run state, dependency
+control, recovery, and a team-facing operating surface.
 
 Airflow can be the scheduler around a modern analytics stack without owning
 ingestion or transformation. Separating Airflow from Airbyte and dbt keeps

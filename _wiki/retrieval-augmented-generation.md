@@ -8,6 +8,9 @@ related:
   - Vector Databases
   - Embeddings
   - LLM Evaluation Workflows
+  - RAG Evaluation Workflow
+  - Search and RAG Project Checklist
+  - RAG Portfolio Projects
 ---
 
 RAG, short for retrieval-augmented generation, is an LLM application design
@@ -21,6 +24,14 @@ verifiable answer.
 Across DataTalks.Club discussions, RAG is more than one tool: search quality
 and chunk design affect answer quality. Embeddings, prompt construction,
 citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+
+RAG mechanics and boundaries sit upstream of several practical pages.
+[[RAG Portfolio Projects]] helps choose a project type, and the
+[[Search and RAG Project Checklist]] helps review a scoped implementation.
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+checks retrieval and answers, while
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
+orders the production sequence.
 
 ## RAG Mechanics
 
@@ -155,3 +166,7 @@ These pages cover the main design boundaries around RAG:
 - [[vector-databases=>Vector Databases]]
 - [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
 - [[llm-evaluation-workflows=>LLM Evaluation Workflows]]
+- [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+- [[Search and RAG Project Checklist]]
+- [[RAG Portfolio Projects]]
+- [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]

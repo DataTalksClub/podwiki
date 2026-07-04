@@ -32,6 +32,10 @@ paths safe to run. Day-to-day that means review, testing, deployment, and
 observability. It also means onboarding and recovery more than writing every pipeline. A
 data engineer may do DataOps work, but the two jobs don't fill the same hours.
 
+The comparison focuses on the role and ownership boundary. [[DataOps]] defines
+the practice, [[DataOps Tools]] names the supporting categories, and
+[[DataOps Platforms]] turns the same practices into shared infrastructure.
+
 [[person:nataliekwong=>Natalie Kwong]] grounds the engineering side in modern data-stack work. Her examples cover ETL and ELT, orchestration, CDC, and warehouse work [[cite:data-engineering-tools-modern-data-stack]].
 
 [[person:christopherbergh=>Christopher Bergh]] grounds the DataOps side in version control, tests, CI/CD, and observability [[cite:dataops-automation-and-reliable-data-pipelines]] and [[cite:dataops-for-data-engineering]].
@@ -97,6 +101,8 @@ Use [[DataOps Tools]] when the
 question is tool categories. Use
 [[DataOps Platforms]] when the
 question is how operating practices become shared infrastructure.
+Use [[dataops-engineer-role=>DataOps Engineer Role]] when the question is who
+owns that enablement as a job.
 
 Hinc gives a more team-facing version by putting DataOps closer to support, communication, and onboarding. Monitoring and cross-team education belong there too, though that doesn't remove engineering work [[cite:dataops-and-gitops-best-practices-for-data-teams]].
 

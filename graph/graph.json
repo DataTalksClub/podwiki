@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11016
+    "links": 11042
   },
   "nodes": [
     {
@@ -368,7 +368,7 @@
       "title": "ETL vs ELT",
       "url": "/wiki/etl-vs-elt/",
       "count": 1,
-      "search": "ETL vs ELT A decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
+      "search": "ETL vs ELT Focused comparison for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
     },
     {
@@ -10003,7 +10003,7 @@
       "title": "ELT",
       "url": "/wiki/elt/",
       "count": 1,
-      "search": "ELT ELT as a load first data pipeline setup for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
+      "search": "ELT ELT as a load first pipeline setup for warehouses, dbt transformations, analytics engineering, CDC, quality checks, and governed marts."
     },
     {
       "id": "wiki:embeddings",
@@ -10043,7 +10043,7 @@
       "title": "ETL",
       "url": "/wiki/etl/",
       "count": 1,
-      "search": "ETL Extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
+      "search": "ETL Concept hub for extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
     },
     {
       "id": "wiki:evaluation",
@@ -10690,11 +10690,11 @@
       "id": "wiki:orchestration",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Orchestration and Airflow",
-      "title": "Orchestration and Airflow",
+      "label": "Orchestration",
+      "title": "Orchestration",
       "url": "/wiki/orchestration/",
       "count": 1,
-      "search": "Orchestration and Airflow How DataTalks.Club guests frame orchestration and Airflow for schedules, DAGs, retries, backfills, ETL boundaries, and ML pipelines."
+      "search": "Orchestration How DataTalks.Club guests frame orchestration as the control plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
     },
     {
       "id": "wiki:platform-adoption",
@@ -37810,9 +37810,39 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:elt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:etl",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-pipelines",
@@ -45316,6 +45346,12 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:dataops-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -48142,6 +48178,12 @@
     },
     {
       "source": "wiki:etl",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:etl",
       "target": "wiki:reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -48748,6 +48790,18 @@
     },
     {
       "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -48781,6 +48835,12 @@
       "target": "wiki:prompt-engineering",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:evolutionary-algorithms",
@@ -55177,6 +55237,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -63172,6 +63238,18 @@
     },
     {
       "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:dataops-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
       "target": "wiki:dataops-vs-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -64324,6 +64402,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -64384,9 +64468,27 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "wiki:etl",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:modern-data-stack",
@@ -70714,6 +70816,12 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "article-chip",
       "weight": 1
@@ -70913,6 +71021,12 @@
     {
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:production-search-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:rag-evaluation-workflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -72076,6 +72190,36 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-chip",
       "weight": 1
@@ -72089,6 +72233,18 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search-and-rag-project-checklist",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -73079,18 +73235,18 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:portfolio-projects",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:production-search-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:rag-evaluation-workflow",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ELT"
-summary: "ELT as a load-first data pipeline setup for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
+summary: "ELT as a load-first pipeline setup for warehouses, dbt transformations, analytics engineering, CDC, quality checks, and governed marts."
 related:
   - ETL
   - Modern Data Stack
@@ -14,7 +14,7 @@ related:
 ---
 
 ELT means extract, load, transform. A team extracts data from source systems
-and loads it into analytical storage. It then transforms the data inside a
+and loads it into analytical storage. Transformation then runs inside a
 [[data warehouse]], lakehouse, or
 adjacent SQL engine.
 
@@ -26,8 +26,10 @@ Teams load first when business logic changes often because source detail stays
 available and analysts can write new SQL transformations. Data engineers don't
 need to re-extract a source every time a new field or question appears.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-For transform-before-load work, see [[ETL]] and the [[etl-vs-elt=>ETL vs ELT
-comparison]].
+
+Start here for load-first ELT. Use [[ETL]] for transform-before-load work and
+the [[etl-vs-elt=>ETL vs ELT comparison]] when choosing between ETL and ELT.
+For the full data flow and operating lifecycle, use [[Data Pipelines]].
 
 ## Load-First Model
 
@@ -36,6 +38,9 @@ business logic before it writes to the destination. In ELT, the destination
 receives raw or lightly prepared data first. The team then builds typed,
 joined, cleaned, and documented tables from that stored data. Aggregations come
 from the same stored layer.
+
+Use [[ETL vs ELT]] for the tradeoff with transform-before-load. This hub follows
+the load-first model after that choice is made.
 
 The modern stack splits `E-L` from `T`, with Airbyte handling extraction and
 loading. Transformations happen after data arrives in the warehouse. They range

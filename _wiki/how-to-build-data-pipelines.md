@@ -22,6 +22,10 @@ event definitions. Add ingestion and storage. Then add transformation and
 orchestration. Finish with quality checks, observability, and last-mile
 delivery.
 
+Pipeline implementation starts from the broader [[Data Pipelines]] system
+definition. [[Orchestration]] adds schedules and run state. [[Apache Airflow]]
+adds the tool-specific boundary when the implementation uses Airflow.
+
 Pipeline design starts with raw arrival, then moves to cleaned ingestion and
 modeled business entities. The pipeline finally produces answers for dashboards
 or ML systems.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
@@ -118,10 +122,12 @@ orchestrator that schedules work and runs ingestion jobs. Tools such as Airbyte
 focus on the extract-load part, and dbt handles warehouse transformations
 [[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and the Modern Data Stack]].
 
-That split keeps the DAG thin. Extraction, modeling, tests, and publication
-should stay in real code or tool-owned commands that reviewers can read outside
-the scheduler. Use [[Apache Airflow]] for DAG design and [[Orchestration]] for
-the broader tool choice.
+At this step, decide where orchestration belongs in the build sequence. Don't
+turn every pipeline into an Airflow project. That split keeps the DAG thin.
+Extraction, modeling, tests, and publication should stay in real code or
+tool-owned commands that reviewers can read outside the scheduler. Use
+[[Apache Airflow]] for DAG design and [[Orchestration]] for the broader tool
+choice.
 
 Production ML pipelines follow the same rule: start with Lambda functions and
 queues. Adopt Airflow or Kubernetes when the simple chain becomes hard to

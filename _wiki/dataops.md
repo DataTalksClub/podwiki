@@ -37,6 +37,10 @@ See
 [[MLOps vs DataOps]] and
 [[DataOps vs Data Engineering]]
 when the boundary question is ownership, not tool choice.
+Use [[DataOps Tools]] when the question is which categories of tools support
+the practice. Use [[DataOps Platforms]] when those practices become shared
+infrastructure. Use the [[dataops-engineer-role=>DataOps engineer role]] page
+when one person or team owns the operating path across other data teams.
 
 Teams use DataOps to reduce errors, shorten deployment cycles, and improve
 team productivity
@@ -45,13 +49,12 @@ The platform version aligns people and platform design so data teams can scale
 without losing reproducibility
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-DataOps isn't a new job title or a synonym for
-[[Data Engineering]]. It's the
-operating model around data changes. Version control, tests, and CI/CD guide
-release work. Observability, ownership, and recovery keep pipelines and data
-products reliable after release. When that operating model has to be owned
-across teams rather than adopted inside one, it can become a dedicated
-[[dataops-engineer-role=>DataOps engineer role]].
+DataOps is the practice layer, not a new job title or a synonym for
+[[Data Engineering]]. Version control, tests, and CI/CD guide release work.
+Observability, ownership, and recovery keep pipelines and data products reliable
+after release. When one person has to own that practice across teams, it becomes
+the [[dataops-engineer-role=>DataOps engineer role]]. When the same practice is
+packaged into shared infrastructure, it becomes a [[DataOps Platforms=>DataOps platform]].
 
 [[book:20210913-dataops-for-dummies=>DataOps for Dummies]]
 by Justin Mullen and Guy Adams gives a short overview of the same operating
@@ -124,6 +127,11 @@ whether data changes can be reviewed and tested, then observed and recovered.
 For stack choices behind those entry points, see
 [[DataOps Tools]] and
 [[DataOps Platforms]].
+
+That split keeps the concept separate from the catalog. DataOps names the
+operating discipline, while tools are the components teams connect to practice
+it. Platforms are the shared paths that make the same discipline available
+across teams.
 
 ## Pipeline Delivery and CI/CD
 

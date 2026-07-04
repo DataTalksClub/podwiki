@@ -25,12 +25,18 @@ The underlying practice is [[DataOps]]. The ownership split with data
 engineering is [[DataOps vs Data Engineering]]. The stack and shared platform
 behind it are [[DataOps Tools]] and [[DataOps Platforms]].
 
+Start here for role scope, hiring, or team ownership, and use [[DataOps]] for
+practice. Use [[DataOps Tools]] for stack categories and [[DataOps Platforms]]
+for shared infrastructure.
+
 The role isn't just another name for a
 [[data-engineer-role=>data engineer]]. Data
 engineers build ingestion, transformation, orchestration, and datasets. A
-DataOps engineer makes the delivery system around that work safer and easier
-to repeat. In small teams, the same person may do both. In larger teams,
-DataOps becomes a cross-team enablement and reliability role.
+DataOps engineer owns reviews and release gates around that work. They also own
+observability, support, and recovery.
+
+In small teams, the same person may do both. In larger teams, DataOps becomes a
+cross-team enablement and reliability role.
 
 For [[person:christopherbergh=>Christopher Bergh]],
 DataOps brings automation, observability, and productivity together
@@ -46,6 +52,10 @@ A DataOps engineer applies the [[DataOps]] practice to shared delivery work.
 They use version control, automated tests, and CI/CD. They set up deployment
 automation and observability. They also maintain lineage, orchestration
 conventions, runbooks, and recovery paths.
+
+A DataOps engineer keeps those practices working across teams. For stack
+categories, use [[DataOps Tools]], and for shared infrastructure, use
+[[DataOps Platforms]].
 
 The practice hub covers those mechanics in more depth:
 

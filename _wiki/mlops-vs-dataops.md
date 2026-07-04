@@ -26,6 +26,10 @@ orchestration, and recovery. Use [[DataOps vs Data Engineering]] when the
 question is the boundary between the data engineering role and the operating
 practice around data pipelines.
 
+Use [[DataOps Tools]] for stack categories and [[DataOps Platforms]] for shared
+data delivery infrastructure. This comparison is narrower: it separates model
+lifecycle ownership from data delivery ownership.
+
 Production models depend on production data, so teams need clear ownership
 during incidents. A model alert may come from the model artifact or the serving
 path. It may also come from a feature job, a late table, or a schema change.
@@ -131,7 +135,7 @@ Standardization pressure can trigger platform work. Thin abstractions over cloud
 providers are a developer-experience choice, not a reason to hide the underlying
 platform.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-DataOps platform work gives data teams a repeatable path for ingestion,
+[[DataOps Platforms=>DataOps platform]] work gives data teams a repeatable path for ingestion,
 transformation, and orchestration. It also covers tests, observability, and
 recovery. Self-service analytics connects to workflow engines and offline
 processing. It also depends on storage, compute, and embedded engineering support

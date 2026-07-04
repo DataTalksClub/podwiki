@@ -39,6 +39,15 @@ answer came from retrieval, prompting, formatting, or another part of the
 system.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
+RAG evaluation starts after the concept boundary is clear in
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
+[[RAG Portfolio Projects]]
+helps with project-type choice. The
+[[Search and RAG Project Checklist]]
+contains implementation review fields, and the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
+for the wider production sequence.
+
 Search evaluation starts before answer scoring because chunking and embeddings
 affect the evidence the model sees. Prompt context, citations, offline tests,
 and human review determine whether the final answer can be trusted.
@@ -288,7 +297,9 @@ If the workflow needs structured relationships instead of similar text, compare
 [[Graph RAG vs Vector RAG]]
 and
 [[Knowledge Graph vs Vector Search]].
-If the project is still being scoped, pair this workflow with the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-and the
+Pair this workflow with
+[[RAG Portfolio Projects]]
+when the project is still being scoped. Once implementation is ready, use the
 [[Search and RAG Project Checklist]].
+For the broader production sequence, use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].

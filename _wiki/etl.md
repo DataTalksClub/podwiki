@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ETL"
-summary: "Extract-transform-load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
+summary: "Concept hub for extract-transform-load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
 related:
   - ELT
   - Data Pipelines
@@ -11,24 +11,22 @@ related:
   - Reverse ETL
 ---
 
-ETL, or extract-transform-load, pulls source data into a warehouse or mart after
-business logic or operational preparation. It breaks into source-specific
-extraction, organization-specific business logic, and destination-specific
-loading routines
+ETL, or extract-transform-load, transforms source data before loading it into a
+warehouse or mart. It starts with source-specific extraction, applies
+organization-specific business logic or operational preparation, then finishes
+with destination-specific loading routines
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 Matt Palmer's
 [[book:20240415-understanding-etl=>Understanding ETL]]
 expands on that same lifecycle across batch and event-driven pipelines, from
 source extraction and staging to transformation logic, then loading.
 
-This topic covers the transform-before-load side of the pipeline. Use
+Start here for ETL flow, fit, operations, and role boundaries. Use
 [[ELT]] for load-first warehouse modeling and
-[[ETL vs ELT]] for the reference
-comparison. Use the shorter
-[[etl-vs-elt=>ETL vs ELT decision guide]]
-when the choice is the question. ETL
-also sits close to [[data pipelines]]
-and [[data engineering platforms]].
+[[ETL vs ELT]] to compare ETL with ELT. Use [[data pipelines]] for the broader
+ingestion-to-publication lifecycle and [[modern data stack]] for the
+warehouse-centered tool ecosystem. ETL also sits close to
+[[data engineering platforms]].
 ETL also connects to [[DataOps]]
 and [[data quality and observability]]
 because teams have to operate ETL jobs, not only define the acronym.
@@ -163,3 +161,5 @@ Enterprise staging and fan-out remain valid ETL cases
 The transform goes where it reduces the actual risk. It goes before load when
 the target must be curated, constrained, or compliant. It goes after load when
 preserving raw source detail makes future modeling safer.
+For decision criteria, use [[ETL vs ELT]] rather than treating this concept hub
+as the comparison.

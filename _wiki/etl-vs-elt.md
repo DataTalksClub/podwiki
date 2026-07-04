@@ -6,7 +6,7 @@ keyword: "etl vs elt"
 secondary_keywords:
   - elt vs etl
   - etl and elt
-summary: "A decision guide for choosing transform-before-load or load-before-transform pipelines in modern data stacks."
+summary: "Focused comparison for choosing transform-before-load or load-before-transform pipelines in modern data stacks."
 related_wiki:
   - ETL
   - ELT
@@ -18,7 +18,7 @@ related_wiki:
   - Reverse ETL
 ---
 
-ETL and ELT answer one pipeline decision: the team has to choose where
+ETL vs ELT compares one pipeline decision: the team has to choose where
 transformation happens. In [[ETL]], the team
 extracts data, transforms it, and loads the prepared result. In
 [[ELT]], the team loads data first. The
@@ -26,6 +26,11 @@ transform then happens inside a
 [[data warehouse]],
 [[data lake]], or
 [[data-warehouse-vs-data-lakehouse=>lakehouse]].
+
+Use the [[ETL]] and [[ELT]] concept hubs for deeper definitions of each side of
+the comparison. Use [[Data Pipelines]] for ingestion, orchestration,
+publication, and recovery. Use [[Modern Data Stack]] for the
+warehouse-centered tool ecosystem.
 
 Choosing ETL or ELT changes ownership, risk, and future modeling flexibility.
 ETL organizes source data before loading it, while ELT preserves source detail
@@ -40,11 +45,13 @@ The boundary also affects [[analytics engineering]],
 Use ETL when the destination should receive curated data only. This fits
 operational systems and constrained marts. It also fits compliance-heavy
 targets where masking, deduplication, or joins must happen before broad
-storage.
+storage. For transform-before-load details, use [[ETL]] instead of repeating
+the full comparison.
 
 Use ELT when future modeling flexibility matters more than pre-load control.
 This fits warehouse-centered analytics stacks where teams preserve source
-detail and write new SQL models later.
+detail and write new SQL models later. For load-first details, use [[ELT]] as
+the standalone concept hub.
 
 Teams also have to decide who can safely change business logic:
 

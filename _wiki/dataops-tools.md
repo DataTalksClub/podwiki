@@ -18,6 +18,11 @@ related_wiki:
 DataOps tools help data teams change pipelines with review, tests, alerts, and
 recovery paths instead of memory and manual checks.
 
+For tool-category questions, start here. Use [[DataOps]] for the operating
+model and [[dataops-engineer-role=>DataOps Engineer Role]] for ownership. Use
+[[DataOps Platforms]] when the team needs a shared path rather than a list of
+components.
+
 DataOps is an operating model for reviewed changes and tested releases through
 CI/CD, observability, and recovery playbooks[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Teams can use the same practice for infrastructure by reviewing Terraform and
@@ -76,6 +81,10 @@ That's why this page treats DataOps tools as connected categories. A test
 framework without version control is weak. An orchestrator without ownership
 still leaves people guessing. An observability tool without runbooks can create
 alerts that nobody acts on.
+
+If a team standardizes templates and managed services, use [[DataOps Platforms]]
+instead of a tool list. Use [[DataOps Platforms]] for access flows and support
+paths too.
 
 ## Tool Boundary Differences
 

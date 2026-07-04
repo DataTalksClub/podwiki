@@ -22,6 +22,12 @@ older AI problems rather than a clean break. Teams still define objectives and
 decompose behavior. They also search over alternatives, coordinate actors, and
 evaluate whether the system behaved consistently.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
+Lanham's career and history bridge treats evolutionary algorithms as one search
+tradition. He places them alongside game AI and reinforcement learning, plus
+simulation and agent orchestration. For fitness functions and mutation, use
+[[evolutionary-algorithms=>Evolutionary Algorithms]]. For architecture search,
+prompt search, and optimization tradeoffs, use the same algorithm-family hub.
+
 ## Behavior Under Feedback
 
 The shared idea across game AI, reinforcement learning, evolutionary search,
@@ -54,6 +60,10 @@ product term.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents
 
 Evolutionary deep learning adds search through hyperparameter tuning and
 architecture changes.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+For that algorithmic side, use
+[[evolutionary-algorithms=>Evolutionary Algorithms]]. In Lanham's story,
+evolutionary deep learning mainly shows how older search traditions stayed
+relevant as he moved toward modern agents.
 
 The connection to LLM agents isn't that every agent uses RL or evolutionary
 training. Many agent problems still look like search under feedback. The system
@@ -67,7 +77,10 @@ directly to [[prompt engineering]].[[cite:from-game-ai-to-modern-ai-agents=>From
 Prompt engineering then sits near older optimization work.
 
 Prompts become candidates, model outputs become observable behavior, and
-evaluation decides which candidates survive.
+teams evaluate which candidates survive. In the Game AI lineage, evolutionary
+prompting shows how older search ideas still appear in agent work.
+For the prompt-search mechanics, use
+[[evolutionary-algorithms=>Evolutionary Algorithms]].
 
 Evolutionary prompt search can be computationally expensive. Prompt variations
 can also expose unexpected LLM behavior.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]

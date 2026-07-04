@@ -17,16 +17,21 @@ see the corpus, chunking plan, metadata, and retrieved chunks. The same review
 should show prompt context, citations, evaluation results, and failure labels.
 Those review signals make the project a retrieval system, not only a chat UI.
 
-Pair this checklist with
-[[Portfolio Projects]],
-[[RAG Portfolio Projects]],
-and the base concept in
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-For the surrounding topic map, start with
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-Use [[Information Retrieval]]
-and
-[[LLM Evaluation Workflows]].
+After the project scope is clear, use this checklist to decide what a README,
+notebook, or review page needs to show:
+
+- corpus choice and chunking
+- retrieval baselines and citations
+- evaluation, traces, and production tradeoffs
+
+Use
+[[RAG Portfolio Projects]]
+for project-type ideas and
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+for the base concept. For the detailed eval procedure, use
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
+For sequencing retrieval work inside a larger product plan, use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 [[person:atitaarora=>Atita Arora]] starts from retrieval plus generation for
 RAG projects
@@ -194,6 +199,8 @@ A search-first system belongs with
 [[Information Retrieval]]
 and
 [[Production Search Evaluation]].
+A focused evaluation pass belongs with
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 A production-minded LLM project should connect retrieval decisions to
 [[LLM Production Patterns]]
 and the

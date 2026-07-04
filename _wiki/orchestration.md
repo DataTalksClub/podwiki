@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Orchestration and Airflow"
-summary: "How DataTalks.Club guests frame orchestration and Airflow for schedules, DAGs, retries, backfills, ETL boundaries, and ML pipelines."
+title: "Orchestration"
+summary: "How DataTalks.Club guests frame orchestration as the control-plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
 related:
   - Apache Airflow
   - Data Pipelines
@@ -12,10 +12,16 @@ related:
   - Data Quality and Observability
 ---
 
-Orchestration is the control plane for recurring data and ML work. It decides
-when jobs run and which upstream jobs must finish first. It also tracks what
-should retry after a transient failure and which run history the team can look
-at later.
+Orchestration is the control-plane practice for recurring data and ML work. It
+sets when jobs run and which upstream jobs must finish first. It also tracks
+what should retry after a transient failure and which run history the team can
+look at later.
+
+Orchestration deals with schedules, dependencies, run state, and recovery across
+tools. [[Apache Airflow]] narrows that control-plane idea to Airflow-specific
+DAGs and platform operations. [[Data Pipelines]] describes the broader
+source-to-output system, and [[How to Build Data Pipelines]] gives the
+procedural build order.
 
 [[person:larsalbertsson=>Lars Albertsson]] gives the
 clearest platform definition. He places storage and compute next to a workflow
@@ -23,16 +29,13 @@ engine at the center of a data platform. The workflow engine defines
 dependencies and schedules work when data arrives or on a timer. It retries
 when late data, transient infrastructure, or bugs break a run [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-That makes orchestration broader than
-[[Apache Airflow]]. Airflow is a
-common orchestrator, alongside Luigi, Prefect, and Dagster. GitHub Actions
-appears in the same group. Cloud schedulers and AWS Batch appear there too. So
-do SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines.
+That makes orchestration broader than [[Apache Airflow]]. Airflow is a common
+orchestrator, alongside Luigi, Prefect, and Dagster. GitHub Actions appears in
+the same group. Cloud schedulers and AWS Batch appear there too. So do
+SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines.
 
 Airflow earns its place when a team needs shared run history, dependency state,
-retries, and backfills for recurring workflows. Use
-[[Apache Airflow]] for the
-Airflow-specific tool boundary and DAG design. It's often too much when one
+retries, and backfills for recurring workflows. It's often too much when one
 small script can run from cron, a cloud scheduler, or GitHub Actions. Teams
 should treat that choice as part of [[data engineering platforms]]
 and [[DataOps]]. It also belongs with

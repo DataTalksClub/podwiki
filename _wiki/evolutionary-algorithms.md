@@ -6,7 +6,9 @@ related:
   - Machine Learning
   - Deep Learning
   - Reinforcement Learning
+  - Game AI to LLM Agents
   - Agent Engineering
+  - Prompt Engineering
   - Evaluation
 ---
 
@@ -15,6 +17,12 @@ the target can be scored but not directly derived. The podcast archive connects
 them to game AI and numerical optimization. It also connects them to evolutionary
 deep learning, prompt search, and modern [[agent-engineering=>AI agents]]
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
+
+As an algorithm family, evolutionary algorithms center on fitness functions,
+mutation, and selection. They also cover architecture search, prompt search, and
+optimization tradeoffs. For the career and history bridge from game AI into
+modern agent workflows, use the related
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]] page.
 
 Evolutionary algorithms sit near
 [[machine learning]],
@@ -107,7 +115,8 @@ It belongs with the broader
 [[prompt engineering]] and
 [[LLM evaluation workflows]]
 pages. Prompt evolution needs a scoring method, and the compute cost has to buy
-better behavior.
+better behavior. For the lineage from game environments to LLM agent behavior,
+see [[game-ai-to-llm-agents=>Game AI to LLM Agents]].
 
 ## APIs and Tooling
 
@@ -168,3 +177,6 @@ That comparison applies to complex problems where the input and desired output
 are known but the path is detailed
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
 Teams still need a scoring target, a stopping rule, and a compute budget.
+Lanham's comparison stays narrow: collaborative agents can resemble
+evolutionary search without becoming evolutionary algorithms. For the transition
+from game AI to LLM agents, see [[game-ai-to-llm-agents=>Game AI to LLM Agents]].

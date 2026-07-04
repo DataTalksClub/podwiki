@@ -4,6 +4,8 @@ title: "Modern Data Stack"
 summary: "How podcast guests map the modern data stack across ELT, warehouses, dbt-style modeling, orchestration, activation, observability, and cost."
 related:
   - Data Engineering Platforms
+  - ETL vs ELT
+  - ETL
   - ELT
   - dbt
   - Analytics Engineering
@@ -18,6 +20,11 @@ storage. They model it for consumers and keep the flow running after the
 business depends on it. A warehouse-centered [[ELT]] stack usually includes
 ingestion, SQL transformations, [[orchestration]], and BI. It may also send
 modeled data back into business tools.[[cite:data-engineering-tools-modern-data-stack]]
+
+Start here for the stack and tool ecosystem. Use [[ETL vs ELT]] for the
+transform-before-load versus load-first decision. Use [[ETL]] and [[ELT]] for
+the underlying concepts. Use [[Data Pipelines]] for the broader movement,
+publication, recovery, and reliability lifecycle.
 
 That map reaches [[data-warehouse=>data warehouses]], [[data engineering tools]],
 and [[DataOps]]. It also reaches [[reverse ETL]] and [[data activation]].

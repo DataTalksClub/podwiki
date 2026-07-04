@@ -23,6 +23,20 @@ not with model selection. The model matters, but the product also needs
 retrieval, context packaging, and evaluation. Security, cost controls,
 monitoring, and a failure response path come next.
 
+Use this roadmap for sequence. Start with a small assistant, then add RAG and
+test retrieval before generation. Add agents only when the workflow needs
+actions. Harden serving, cost, and security after the product boundary is clear.
+
+Use
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+for the concept definition and
+[[RAG Portfolio Projects]]
+for project-type framing. Use the
+[[Search and RAG Project Checklist]]
+for reviewable implementation evidence. Use
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+for the eval procedure.
+
 The full-stack AI engineer skill set starts with normal engineering work. It
 then adds RAG and knowledge management to the build path. That path ends with
 shipping AI products rather than only building demos
@@ -36,9 +50,8 @@ boundary.
 Use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 for retrieval architecture.
-[[LLM Evaluation Workflows]]
-covers the tests that keep a RAG system from becoming a demo with no regression
-path.
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+covers retrieval checks, answer checks, traces, and feedback.
 
 ## Own The Production Boundary
 
