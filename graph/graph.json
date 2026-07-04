@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10845
+    "links": 10835
   },
   "nodes": [
     {
@@ -76,7 +76,7 @@
       "title": "Analytics Engineering Roadmap",
       "url": "/wiki/analytics-engineering-roadmap/",
       "count": 1,
-      "search": "Analytics Engineering Roadmap A podcast grounded roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
+      "search": "Analytics Engineering Roadmap A roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
     },
     {
       "id": "wiki:batch-vs-streaming",
@@ -54000,66 +54000,6 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "person:adityagautam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:micheallanham",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:pauliusztin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "person:sandrakublik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -63313,6 +63253,12 @@
     {
       "source": "wiki:multi-agent-systems",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multi-agent-systems",
+      "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -63331,12 +63277,6 @@
     {
       "source": "wiki:multi-agent-systems",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:multi-agent-systems",
-      "target": "wiki:tools",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -16,249 +16,178 @@ related:
 LLM production patterns are the design choices teams use when a
 [[llms=>large language model]] becomes a product
 feature instead of a demo. DataTalks.Club guests discuss those choices through
-model serving and [[retrieval-augmented-generation|retrieval-augmented generation]].
-They also include [[rag-vs-fine-tuning|RAG vs fine-tuning]],
-[[agent engineering]],
-evaluation, and security. Cost, latency, and ownership stay part of the same
-production question.
+model serving and [[retrieval-augmented-generation=>retrieval-augmented generation]].
+They also connect production work to [[rag-vs-fine-tuning=>RAG vs fine-tuning]],
+[[agent engineering]], evaluation, and security. Cost, latency, ownership, and
+review stay part of the same production question.
 
 An LLM is a product component rather than the whole system. In production it
-ties deployment and model ownership to fine-tuning and retrieval. Cost and
-latency stay in the same decision
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
-In [[business intelligence]],
-the model can help with questions and summaries. The product still depends on
-governed metrics, access controls, and review.
+ties deployment and model ownership to fine-tuning and retrieval. Evaluation
+and operability stay in the same boundary.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+In [[business intelligence]], the model can help with questions and summaries.
+The product still depends on governed metrics, access controls, and review.
 
-The same production problem breaks down into prompts, RAG, and gold tests. It
-also includes failure analysis, logs, traces, and tool use
-[[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
+The production problem starts with prompts, RAG, and gold tests. It also needs
+failure analysis, logs, traces, and tool use.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-## Production System Boundary
+## Production Boundary
 
-Guests define production LLM work by the system boundary around measurable
-product behavior. Hugo starts from a small LLM application, then adds
-generator-evaluator checks and representative gold tests. He covers failure
-analysis, logs, traces, and tool use or agents in the same production workflow
-[[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-That makes [[LLM evaluation workflows]]
-part of production design rather than a final audit.
+Production LLM work starts at the system boundary around measurable product
+behavior.
 
-[[person:pauliusztin=>Paul Iusztin]] places RAG and
-agents inside one AI engineering skill stack
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]].
-LLMOps and product shipping sit in that same stack. He also includes queues,
-retries, traces, and monitoring in that shipping discussion.
+Teams handle prompts and structured outputs with generator-evaluator checks,
+representative gold tests, failure analysis, and tracing. Tool use belongs in
+the same workflow.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+That makes [[LLM evaluation workflows]] part of production design rather than a
+final audit.
 
-[[person:marianosemelman=>Mariano Semelman]] keeps the
-same product boundary in
-[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
-Requirements and data still matter. Deployment, monitoring, and feedback matter
-too.
+RAG and agents fit inside the same AI engineering skill stack as LLMOps and
+product shipping. Queues, retries, traces, and monitoring are part of that same
+shipping problem.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
-Guests therefore don't stop at "pick a model and prompt it." They bring LLM
-work into [[software engineering]],
-[[MLOps]], and [[evaluation]].
-They also bring it into [[notebook-to-production-ai-systems|notebook-to-production AI systems]].
-Teams choose the model boundary and package the context. They test the
-behavior, watch the system in use, and change the design when failures show
-where the next fix belongs.
+The product boundary also includes requirements and data. Deployment,
+monitoring, and feedback loops matter too.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+Production LLM systems therefore sit next to [[software engineering]] and
+[[MLOps]]. They also sit next to [[evaluation]] and
+[[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
+Teams choose the model boundary and package the context. They test the behavior,
+watch the system in use, and change the design when failures show where the
+next fix belongs.
 
-## Different Starting Constraints
+## Starting Constraints
 
-Guests differ on the constraint they treat as the first production problem.
-Meryem starts with the serving boundary. In
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
-she compares open-source models with hosted APIs. She connects
-that choice to control and privacy. Provider drift appears there too.
+Most examples share the system boundary, but each use case starts from a
+different constraint. Serving decisions start with open-source models versus
+hosted APIs. Control, privacy, and provider drift affect that choice.
+Fine-tuning, compression, and inference optimization matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-She also covers fine-tuning, compression, and inference optimization, with
-latency and cost in the same production discussion.
+Builder iteration starts with prompts and structured outputs. RAG, tools, and
+gold tests turn those pieces into one testable system.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Agentic workflows start with context engineering and tools. Memory belongs in
+that same design. Teams use mocked tool tests, integration tests, and outcome
+assertions to check the workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Hugo starts with builder iteration. He treats prompts and structured outputs as
-parts of a testable system in
-[[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-RAG and tools appear in the same testable system.
-
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
-starts from agentic workflows. Context engineering and tools appear with memory in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-Ranjitha adds mocked tool tests, integration tests, and outcome assertions.
-
-[[person:adityagautam=>Aditya Gautam]] starts from
-enterprise reliability. In
-[[cite:s23e03-future-of-ai-agents|The Future of AI Agents]],
-he ties agents to guardrails and lineage. He also discusses feedback and
-multi-tenancy. Golden datasets, thresholds, and LLM judges appear in the same
-section.
-
-[[person:mariasukhareva=>Maria Sukhareva]] starts from
-adversarial trust. Prompt injection and data exfiltration come before output
-validation and non-LLM classifiers in
-[[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]].
+Enterprise reliability starts with guardrails, lineage, feedback, and
+multi-tenancy. Golden datasets, thresholds, and LLM judges set the evaluation
+boundary.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+Adversarial trust starts with prompt injection and data exfiltration. Output
+validation, query analysis, and non-LLM classifiers become production controls.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 ## Model Choice and Serving
 
 Teams first choose a serving boundary. They may use a hosted API or a
 self-hosted open-source model. They may also use a fine-tuned model or a mix.
-Meryem anchors that decision in
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
+That decision connects control, privacy, and provider drift. Model size and
+compression affect the same boundary. Hardware, latency, and cost also
+matter.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-She links model-source choices to control and privacy while also covering model
-size, compression, and inference optimization. She separates prototype
-convenience from production choices around self-hosting, where hardware,
-latency, and cost also affect that choice.
+Product teams choose the model, architecture, and integration together. Cost,
+latency, proprietary data, and IP concerns drive those choices.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 
-[[person:sandrakublik=>Sandra Kublik]] gives the
-product version of the same tradeoff in
-[[cite:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases]].
-She discusses model, architecture, and integration decisions for LLM
-applications. She also names cost and latency. Proprietary-data and IP
-concerns appear in the same discussion. Model choice therefore depends on
-[[AI infrastructure]] and
-[[data governance]], not only on
-benchmark scores.
+Model choice therefore depends on [[AI infrastructure]] and
+[[data governance]], not only on benchmark scores.
 
 ## RAG, Fine-Tuning, and Context
 
-Meryem separates retrieval from fine-tuning in practical terms.
-She discusses fine-tuning for specialization, domain adaptation, tone, and
-format in
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
-She discusses retrieval for changing knowledge and indexes. She also covers
-grounded responses and summarizers there.
+Fine-tuning supports specialization, domain adaptation, tone, and format.
+Retrieval supports changing knowledge, indexes, grounded responses, and
+summarizers.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+This split gives [[rag-vs-fine-tuning=>RAG vs fine-tuning]] its practical
+boundary.
 
-[[person:atitaarora=>Atita Arora]] adds the search
-engineering version in
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
+Production RAG combines retrieval and generation. Teams manage chunking,
+overlap, embeddings, and vectorization as one search system. They keep prompt
+design and citations in that system too.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+It belongs with [[retrieval-augmented-generation=>retrieval-augmented generation]]
+and [[production search evaluation]]. Multi-level metrics, offline tests, and
+human-in-the-loop evaluation determine whether retrieval is useful.
 
-She describes RAG as retrieval plus generation, covers chunking and overlap,
-and connects retrieval to prompt design and citations. Embeddings and
-vectorization appear there too. She connects RAG to multi-level metrics,
-offline tests, and human-in-the-loop evaluation. This is why production RAG
-belongs with
-[[retrieval-augmented-generation=>retrieval-augmented generation]]
-and [[production search evaluation]].
+Context engineering sits between prompting and autonomous agents. Noisy
+context, chunking, metadata, and wrappers affect whether the system behaves
+well. Latency, cost, and garbage-in-garbage-out affect that behavior too.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Ranjitha puts context engineering between prompting and autonomous agents. She
-names noisy context and chunking, then covers metadata and wrappers. Latency,
-cost, and garbage-in-garbage-out appear in the same discussion
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-
-[[person:lavanyagupta=>Lavanya Gupta]]
-adds the long-context case in
-[[cite:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]:
-her discussion covers financial long-context evaluation. Large context windows
-still need task-specific evaluation. Retrieval or summarization can still
-matter there.
+Long-context models don't remove the evaluation problem. Financial
+long-context evaluation still needs task-specific checks, and retrieval or
+summarization can still matter.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
 ## Tool Use and Agents
 
 Agents fit cases where the LLM must plan or call tools. They also fit cases
-where the system must use memory or take action beyond retrieving context. Ranjitha
-defines agents around autonomy and objectives in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-She includes orchestration, tools, memory, and knowledge stores. She then
-separates retrieval as one tool from cases that need planning or action.
+where the system must use memory or take action beyond retrieving context.
+Agentic systems combine autonomy, objectives, and orchestration. They also
+combine tools, memory, and knowledge stores. Retrieval is one tool, while
+planning and action require
+additional control surfaces.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Tool use becomes production work when teams constrain and test the callable
-interfaces. Ranjitha discusses SDKs and tool wrappers. Integration abstractions
-appear there too. She then adds mocked tools and integration tests in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-Regression tests and outcome assertions appear in the same section.
+interfaces. SDKs, tool wrappers, and integration abstractions define what the
+agent can call. Teams use mocked tools, integration tests, regression tests,
+and outcome assertions to check those calls.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-[[person:micheallanham=>Micheal Lanham]] adds a
-minimalist agent-design boundary in
-[[cite:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]].
-Task decomposition and sequential workflows appear there. Manager-agent
-orchestration appears in the same discussion, along with Agent SDKs and
-MCP-style integrations.
-
-Those examples keep [[agent engineering]]
-close to [[tools]] and
-[[orchestration]]. They also keep
-agent work close to [[testing]]. A
-production agent isn't only a prompt. It's a bounded workflow with permissions,
-callable interfaces, state, and retrieval. Teams also need evaluation and
-rollback paths.
+Minimal agent designs still need task decomposition, sequential workflows, and
+manager-agent orchestration. Agent SDKs and MCP-style integrations matter
+too.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+These designs keep [[agent engineering]] close to [[tools]], [[orchestration]],
+and [[testing]]. A production agent is a bounded workflow with permissions and
+callable interfaces. State, retrieval, evaluation, and rollback paths also
+belong in that boundary.
 
 ## Evaluation and Feedback Loops
 
 Production LLM systems need evaluation before launch and feedback after launch.
-Hugo gives the base workflow in
-[[cite:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-He covers generator-evaluator checks, structured checks, gold tests, and
-failure categories. Logs and traces show where the team
-needs to know whether the next fix belongs in retrieval or prompting. The fix
-may also belong in data preparation, formatting, or product scope.
+Generator-evaluator checks, structured checks, gold tests, and failure
+categories show whether the next fix belongs in retrieval or prompting. Logs
+and traces can also point toward data preparation, formatting, or product
+boundaries.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-Agent systems extend evaluation into software behavior. Ranjitha argues for
-custom datasets, system benchmarks, mocked tools, and integration tests in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-Regression tests and outcome-based assertions appear there too.
+Agent systems extend evaluation into software behavior. Custom datasets, system
+benchmarks, mocked tools, and integration tests check the workflow. Regression
+tests and outcome-based assertions test whether it behaves as intended.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Aditya adds the enterprise layer in
-[[cite:s23e03-future-of-ai-agents|The Future of AI Agents]].
-He covers golden datasets, thresholds, and LLM judges aligned with human
-labels. Feedback loops, multi-tenancy, and scale also become operating
-requirements there.
+Enterprise evaluation uses golden datasets, thresholds, and LLM judges aligned
+with human labels. Feedback loops, multi-tenancy, and scale become operating
+requirements.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
-Feedback can also be a product signal. Mariano discusses explicit and implicit
-feedback loops in
-[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
-He shows how generated media for e-commerce sellers used customer requirements
-and factuality checks. That example links LLM production to [[model monitoring]] and
-[[data products]].
+Product feedback adds explicit and implicit signals, customer requirements, and
+factuality checks for generated outputs.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+
+That links LLM production to [[model monitoring]] and [[data products]].
 
 ## Guardrails, Security, and Human Review
 
 Production LLM systems need controls around user input and retrieved context.
-They also need controls around generated output and tool calls. Maria describes
-a large-scale hacking exercise in
-[[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]].
-She then covers legal and financial exposure from hallucinations. Data
-exfiltration through prompt overload and knowledge-base retrieval appears in
-the same discussion.
+They also need controls around generated output and tool calls. Hallucinations
+create legal and financial exposure, and prompt overload or knowledge-base
+retrieval can become a data-exfiltration path.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
-Maria discusses layered defenses, including output validation, query analysis,
-and non-LLM classifiers. These controls put LLM production in the same
-operational space as
-[[AI red teaming]] and
-[[security]]. She also discusses
-moderation support and human review for higher-risk outputs
-[[cite:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]].
+Output validation, query analysis, and non-LLM classifiers form the defense
+layer. Moderation and human review handle riskier outputs.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
-Human review also appears in product risk. Sandra discusses hallucinations and
-brand safety in
-[[cite:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases]].
-She covers editorial curation in the same section. Aditya adds auditability,
-guardrails, lineage, and compliance for enterprise agents in
-[[cite:s23e03-future-of-ai-agents|The Future of AI Agents]].
-Those enterprise controls place production LLM work next to
-[[Agent Ops]] and
+These controls put LLM production in the same operational space as
+[[AI red teaming]] and [[security]].
+
+Human review handles product risk from hallucinations, brand safety, and
+editorial curation.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
+
+Auditability, guardrails, lineage, and compliance matter for enterprise
+agents.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+
+Those controls place production LLM work next to [[Agent Ops]] and
 [[responsible AI and governance]].
 
 ## Cost, Latency, and Operability
 
 Cost and latency affect the design because prompts and retrieved context add
 runtime and model spend. Judge calls, tool calls, and retries add more.
-Multi-step agents add more runtime and spend. Meryem covers serving efficiency
-and compression in
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
-She also covers hardware, latency, and cost in the same serving discussion.
+Multi-step agents add more runtime and spend. Serving efficiency and
+compression affect the same choice as hardware, latency, and cost.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-Ranjitha adds the RAG and agent version in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-Retrieval quality and context quality affect whether the system is usable.
-Latency and cost affect that decision too.
+Retrieval quality and context quality affect whether a RAG or agent system is
+usable. Latency and cost affect that decision too.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-[[person:bartoszmikulski=>Bartosz Mikulski]] contributes
-the application-engineering view in
-[[cite:production-ready-ai-engineering|Production AI Engineering]].
-He connects prompt evaluation and prompt compression to model efficiency.
-Caching appears in the same section. He discusses backend AI integrations and
-browser extension architecture. Search assistants and tool selection appear
-there too.
+Application engineering adds prompt evaluation, prompt compression, model
+efficiency, and caching. Backend AI integrations, browser extension
+architecture, search assistants, and tool selection also affect operability.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Those examples make LLM production a [[software engineering]]
 and [[data engineering]] topic,
@@ -266,8 +195,7 @@ not only a prompt-writing topic. Teams need these production choices because
 they expose the parts that fail or slow down. They also expose data leaks,
 costly calls, and behavior the team can't evaluate.
 
-For the specific techniques that reduce LLM spend, see
-[[LLM Cost Optimization]].
+For the specific techniques that reduce LLM spend, see [[LLM Cost Optimization]].
 
 ## Related Pages
 
