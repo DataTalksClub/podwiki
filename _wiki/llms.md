@@ -15,13 +15,13 @@ related:
 ---
 
 Large language models are machine learning models trained to process and
-generate language. Their uses span text generation and summarization,
-translation, information extraction, retrieval-backed question answering, agents,
-and developer tools.
+generate language. Teams use them for text generation, summarization,
+translation, and information extraction. They also show up in retrieval-backed
+question answering, agents, and developer tools.
 
 An LLM is rarely a finished product on its own. The model sits inside a larger
-system with prompts and retrieval, data pipelines and evaluation, and deployment,
-security checks, and human review.
+system with prompts, retrieval, data pipelines, and evaluation. Deployment
+controls, security checks, and human review sit around that system.
 
 That places LLMs near [[AI]]
 and [[NLP]]. It also links them to
@@ -29,94 +29,91 @@ and [[NLP]]. It also links them to
 [[agent engineering]], and
 [[LLM production patterns]].
 
-## Language Model Capabilities
+## Capabilities and Prompting
 
-The practical definition is simple: an LLM is a general language model that
-teams can prompt for many language tasks, then adapt with context, examples, and
-retrieval, and further tune with fine-tuning or tools when prompting isn't
-enough.
+An LLM is a general language model that teams can prompt for many language
+tasks, then adapt with context, examples, and retrieval. Teams further tune it
+with fine-tuning or tools when prompting isn't enough.
 [[book:20241017-build-large-language-model-from-scratch=>Build a Large Language Model (From Scratch)]]
-by Sebastian Raschka walks through implementing a transformer-based model
-from the ground up, which grounds the same capabilities discussed below.
+grounds that definition by walking through a transformer-based model from the
+ground up.
 
-Generative and non-generative language models are distinct, and modern LLMs are
-built on transformers; they matter because they handle unstructured text at scale
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Generative and non-generative language models are distinct. Modern LLMs use
+transformers because they handle unstructured text at scale
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 The traditional NLP pipeline labels data, designs the task, tests behavior, and
 deploys the system. GPT-3-style prompting contrasts with that pipeline: a model
 can produce useful behavior from a prompt instead of a task-specific training
 pipeline
-([[podcast:nlp-team-hiring-and-production-mlops|Lead NLP Teams]]).
+[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].
 The
 [[book:20230306-gpt-3=>GPT-3]]
 book by Sandra Kublik and Shubham Saboo collects the early practitioner stories
 behind that prompt-driven shift.
 
-Everyday uses include summaries, translation, and CSV workflows; prompting
+Everyday uses include summaries, translation, and CSV workflows. Prompting
 practice adds role prompts, structured output, and timestamps
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-## Deployment, Research, and Safety Boundaries
+## Deployment Boundaries
 
 LLMs are useful, but different failure modes call for drawing different
 boundaries first.
 
-From the deployment angle, open-source and API models differ in control, privacy,
-and fine-tuning, and model-drift risk arises when an API provider changes
-behavior behind the scenes
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
-That framing makes LLM adoption an
+For deployment, open-source and API models differ in control, privacy, and
+fine-tuning. Model-drift risk appears when an API provider changes behavior
+behind the scenes
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+That makes LLM adoption an
 [[AI infrastructure]] and
 [[production]] decision. Making models
 smaller and faster for deployment is the practice of
 [[Model Optimization]].
 
-From the NLP team-design angle, GPT-3 carries limitations around cost and
-control plus bias and privacy risks; it is useful for MVPs but not a replacement
-for in-house pipelines when the team needs control
-([[podcast:nlp-team-hiring-and-production-mlops|Lead NLP Teams]]).
+For NLP team design, GPT-3 has limits around cost and control plus bias and
+privacy risks. It's useful for MVPs, but it doesn't replace in-house pipelines
+when the team needs control
+[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].
 
-From the applied-research angle, long-context evaluation reveals performance
-drops around 32k-64k context in a financial benchmark, tying LLM quality to
-empirical tests rather than advertised context length
-([[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]).
+For applied research, long-context evaluation reveals performance drops around
+32k-64k context in a financial benchmark. That ties LLM quality to empirical
+tests rather than advertised context length
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
-From the trust-and-safety angle, hallucinations, legal exposure, and financial
-incidents drive layered defenses, with non-LLM classifiers added when a
-generative model is too easy to manipulate
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+For trust and safety, hallucinations, legal exposure, and financial incidents
+drive layered defenses. Non-LLM classifiers can help when a generative model is
+too easy to manipulate
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 ## LLM Use Cases
 
-LLM use cases start with practical language work: summaries, translation, and
-CSV handling, plus transcript automation with tools such as Gemini, Descript,
-and Loom, and developer assistants such as GitHub Copilot, Cursor, and IDE agents
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+Practical language work includes summaries, translation, and CSV handling.
+Transcript automation uses tools such as Gemini, Descript, and Loom. Developer
+assistants include GitHub Copilot, Cursor, and IDE agents
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-LLMs also appear as product interfaces: chatbots, controlled machine
-translation, moderation support, and human review, with the model kept in an
-assistant role where people review high-risk outputs
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+LLMs also appear as product interfaces for chatbots, controlled machine
+translation, and moderation support. In high-risk workflows, people review the
+model output
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 Agents are a separate use case because the model does more than answer once.
-Agents combine autonomy, objectives, and LLMs with tools, memory, and knowledge
-stores
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
-That's why the
+Agents combine LLM autonomy with objectives and tool use. They may also use
+memory and knowledge stores
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+The
 [[agent-engineering=>AI agents]] page separates agent
 workflow design from ordinary prompting.
 
 ## RAG and Fine-Tuning
 
-There is a strong line between changing model behavior and adding current
-knowledge.
+Changing model behavior and adding current knowledge are separate jobs.
 
 Fine-tuning handles specialization, domain adaptation, and tone and format
-control, while retrieval handles changing knowledge: the team indexes documents
-and retrieves relevant passages without retraining the model for every fact
-update
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+control. Retrieval handles changing knowledge: the team indexes documents and
+retrieves relevant passages without retraining the model for every fact update
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] uses the
 same split. Retrieval helps when the system needs fresh documents, citations,
@@ -124,36 +121,36 @@ proprietary knowledge, or reviewable evidence. Fine-tuning helps when the model
 should behave differently. It can also help with a repeated output style or a
 repeated task.
 
-On the implementation path, RAG with chunking and embeddings is a quick business
-win, and chunking strategy matters: chunk size, sliding windows, and context rot
-decide what the model sees
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+On the implementation path, RAG with chunking and embeddings can be a quick
+business win. Chunk size, sliding windows, and context rot decide what the model
+sees
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
 Chunking, retrieval, and summarization for large documents are the research
 reason to prefer retrieval in many long-document settings, given long-context
 performance limits
-([[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]).
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 ## Evaluation
 
-LLM evaluation is task-specific. A model's general benchmark score does not prove
-its workflow.
+LLM evaluation is task-specific because a model's general benchmark score
+doesn't prove its workflow.
 
-A generator-evaluator loop provides automated quality control; gold tests raise
-questions of cost, representativeness, and test-set size; and failure analysis
+Generator-evaluator runs provide automated quality control. Gold tests raise
+questions of cost, representativeness, and test-set size. Failure analysis
 decides whether retrieval, prompts, or data should change
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-For agents, evaluation extends to custom datasets and system benchmarks, mocked
-tools, integration tests, and regression tests, with outcome assertions instead
-of exact path matching because valid agent runs may take different tool-call
-paths
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+For agents, evaluation extends to custom datasets and system benchmarks. It also
+uses mocked tools, integration tests, and regression tests. Outcome assertions
+fit better than exact path matching because valid agent runs may take different
+tool-call paths
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
-Long-context work shows why evaluation has to match the document task:
-long-context models are tested in a financial setting instead of relying on
+Long-context models need tests that match the document task. In one financial
+setting, evaluation checks long-context behavior instead of relying on
 context-window size alone
-([[podcast:applied-llm-research-and-career-growth-in-practice|Applied LLM Research]]).
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 Use [[LLM Evaluation Workflows]]
 for evaluation patterns and
@@ -166,19 +163,19 @@ Production LLM systems need normal software and ML operations. Teams have to
 plan deployment, latency control, and cost control. They also need monitoring,
 observability, rollback plans, and ownership.
 
-Serving covers model size, compression, and inference optimization. Prototyping
-with GPT-3.5 or GPT-4 APIs is separate from production choices around
-open-source LLMs, which bring latency, cost, self-hosting, and hardware choices
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Serving covers model size, compression, and inference optimization. Teams may
+prototype with GPT-3.5 or GPT-4 APIs before choosing open-source LLMs for
+production. That choice brings latency, cost, self-hosting, and hardware
+questions
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-Production workflow design names context engineering as a core design task,
-along with a RAG reality check around latency, cost, and noisy inputs and the
-rework of retrieval backends — chunking, metadata, and wrappers so the system
-gives the LLM useful context
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Production LLM work treats context engineering as a core design task. RAG also
+brings latency, cost, and noisy inputs. The retrieval backend also needs
+chunking, metadata, and wrappers so the system gives the LLM useful context
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 Operational feedback loops rest on logging, traces, and debuggable MVPs
-([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 Those practices connect LLM work to [[MLOps]],
 [[software engineering]],
 and [[AI engineering]].
@@ -191,22 +188,22 @@ new attack paths around prompt injection, data exfiltration, hallucinated
 answers, and overconfident users.
 
 A large-scale chatbot hacking exercise exposes data exfiltration through prompt
-overload and knowledge-base retrieval; the defenses are output validation, query
-analysis, layered defenses, and non-LLM classifiers where they're harder to
-manipulate than generative models
-([[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]).
+overload and knowledge-base retrieval. The defenses include output validation,
+query analysis, layered defenses, and non-LLM classifiers where they're harder
+to manipulate than generative models
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
-Related risks include GPT-3 concerns around cost, control, bias, and privacy
-([[podcast:nlp-team-hiring-and-production-mlops|Lead NLP Teams]]).
+GPT-3 risks include concerns around cost, control, bias, and privacy
+[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].
 Those concerns connect LLMs to
 [[AI red teaming]],
 [[security]], and
 [[privacy engineering for ML]].
 
 Security also affects retrieval because a RAG system may retrieve confidential
-or poisoned documents. The LLM can then expose or amplify them. Teams need
-access controls before retrieval, validation after generation, and audit trails
-for high-risk workflows.
+or poisoned documents. The LLM can then expose or amplify them, so validation,
+query analysis, and layered checks need to surround generation
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 ## Related Pages
 

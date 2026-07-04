@@ -23,27 +23,26 @@ lineage still make sense.
 The two overlap because production model failures often begin before inference.
 Model problems often start earlier in the data pipeline. Drift can come from the
 real world, while data quality problems often come from something upstream of
-the model
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+the model.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 From the [[DataOps]] side, teams reduce production errors across source data,
 models, and reports. Governance and customer value are part of that journey too
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
-## Short Comparison
+## Core Boundary
 
 Use model monitoring when the question is, "Is this deployed model still behaving
 well?" This work sits late in the [[MLOps]] lifecycle. By then the model has
 moved through training, experimentation, selection, and deployment. The team now
 needs to watch whether the model still operates effectively
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Use data observability when the question is, "Is the data product or pipeline
 healthy enough for its consumers?" The DataOps framing centers production error
 reduction, deployment cycle time, and productivity. It treats data
 observability, monitoring, and data quality as related names for checking whether
 the system's outputs are usable
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 The practical split is:
 
@@ -57,14 +56,14 @@ The practical split is:
   WhyLabs can reveal model degradation or data drift for data scientists. The
   same profiles can show null spikes, schema changes, and definition changes for
   data engineers
-  ([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+  [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Model-Level Monitoring
 
 Model monitoring starts after a model is in production, once the team has trained
 and selected a model. The question becomes whether the model is still useful
 under live inputs, traffic, and business conditions
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 For the model owner, the signals are model-specific. Prediction distributions
 and features may drift, while performance metrics may degrade after labels
@@ -74,7 +73,7 @@ The easiest monitoring conversations happen after teams have deployed a model
 and already felt pain from drift or a model "going crazy." The market
 conversation moved from "why monitor" to "how to monitor." Model monitoring
 became a normal production concern rather than a cleanup task
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Model monitoring also depends on serving architecture. Platform-agnostic
 integrations cover Python and Java, and Spark, Scala, and other inference paths
@@ -82,7 +81,7 @@ matter too.
 
 A monitoring layer has to fit the live serving path. It can't assume the
 training notebook is the production system
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Upstream Data Quality and Profiling
 
@@ -93,12 +92,12 @@ data reaches the model. That's the bridge between
 [[Model Monitoring]]
 and
 [[Data Quality and Observability]]
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Profiling is one shared mechanism. Profiles are statistical summaries that can
 flow into an observability backend with visualizations, anomaly detection, and
 alerts
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 The open-source profiling layer is separate from the managed observability
 layer: profiles summarize data, while the observability product tracks changes
@@ -121,12 +120,12 @@ habits:
 
 DataOps is about the system and the process, not just the individual pipeline or
 model step
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
-The DataOps interview recommends version control for transformations and
-reports. It also recommends automated production tests, development regression
-checks, deployment automation, and incident counting
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+DataOps practice puts version control around transformations and reports. It
+also uses automated production tests, development regression checks, deployment
+automation, and incident counting
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 dbt tests, Great Expectations, and SQL checks keep automated tests close to the
 code, run in both development and production. Those checks don't replace
@@ -139,22 +138,22 @@ affect online inference, governance, and customer workflows.
 
 In that end-to-end view, teams version and test the data estate. That includes
 data, models, visualizations, and governance. They deploy them together
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 ## Ownership and Incident Boundaries
 
 During incidents, the boundary isn't "which tool alerted?" because the better
 question is "who can fix the cause?" Model observability requires looking
 upstream because data quality problems often originate before the model
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]). If
-the alert shows prediction drift but lineage shows a changed feature pipeline,
-the model owner and data owner need to work together.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]. If the
+alert shows prediction drift but lineage shows a changed feature pipeline, the
+model owner and data owner need to work together.
 
 The DataOps incident model makes the ownership side explicit. Handoffs,
 documentation, and automation keep one person from being stuck owning a
 production workflow forever. Teams should run toward errors, find them quickly,
 automate fixes, and track them instead of hiding them
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 Use the boundary this way:
 
@@ -171,15 +170,15 @@ This is why [[MLOps]] and
 rather than substitutes. DataOps and MLOps adapt the same DevOps and Lean
 principles to different surfaces. Production monitoring is the model-specific
 surface for those principles
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Healthcare and Regulated Safeguards
 
 Healthcare settings make the comparison sharper because "the model looks
 healthy" isn't enough. Machine learning projects need proper analytics and
 proper data. A project that starts without them is bound to fail
-([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
 
 For healthcare personalization, data pipelines and dashboards aren't optional
 pre-work. Experimentation capabilities are also part of the foundation for safe
@@ -190,13 +189,13 @@ at it. Locking away personally identifiable data lets data scientists and
 analysts work with de-personalized data instead. GDPR and HIPAA are strict,
 useful rules, but ethics still requires independent judgment when rules lag
 behind product reality
-([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
 
 Safeguards also apply to experimentation and recommendations. Strong analytics
 and good data are two important inputs for machine learning. A hydration
 recommendation may be safe in one program but dangerous for someone with heart
 failure. Tests need medical review when risk is involved
-([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]].
 
 In that setting, model monitoring should watch patient-impacting model behavior.
 Data observability should prove that the regulated data path is trustworthy.
@@ -209,22 +208,25 @@ serving predictions. The immediate question is whether the model, inference path
 or prediction behavior is still acceptable. Production-first teams that have
 deployed models and felt drift or operational pain fit this case. They need a way
 to diagnose whether the model should keep running
-([[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Choose data observability as the lead lens when many consumers depend on the same
 data path. It also leads when a model incident may be only one downstream
 symptom. Reliable delivery spans source data, aggregation, and features. It also
 spans models, reports, governance, and the value delivered to users
-([[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]]).
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 Most mature teams need both. Model monitoring tells the ML owner when production
 behavior has moved. Data observability tells data and platform owners whether the
 upstream system changed. It also shows impact and recovery paths.
 
-Read the underlying topic pages for more detail:
+## Related Pages
+
+These pages expand the model, pipeline, and operating-model sides of the
+comparison:
 
 - [[Model Monitoring]]
 - [[data-quality-and-observability=>Data Observability]]
-- [[Data Quality and Observability]]
 - [[MLOps]]
 - [[DataOps]]
+- [[MLOps vs DataOps]]

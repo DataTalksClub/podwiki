@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10652
+    "links": 10645
   },
   "nodes": [
     {
@@ -627,7 +627,7 @@
       "title": "Notebook to Production",
       "url": "/wiki/notebook-to-production-workflow/",
       "count": 1,
-      "search": "Notebook to Production A podcast grounded workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring.",
+      "search": "Notebook to Production A workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring.",
       "keyword": "notebook to production AI systems"
     },
     {
@@ -9781,7 +9781,7 @@
       "title": "Data Science Careers",
       "url": "/wiki/data-science-careers/",
       "count": 1,
-      "search": "Data Science Careers Archive backed career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
+      "search": "Data Science Careers Career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
     },
     {
       "id": "wiki:data-science-for-managers",
@@ -61788,6 +61788,12 @@
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:mlops-vs-dataops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
       "target": "wiki:model-monitoring",
       "kind": "article-chip",
       "weight": 1
@@ -63188,54 +63194,6 @@
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:testing",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:andreaskretz",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:benwilson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:danielegbo",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:linaweichbrodt",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:marianosemelman",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:meryemarik",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:mihaileric",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:notebook-to-production-workflow",
-      "target": "person:pauliusztin",
-      "kind": "article-chip",
       "weight": 1
     },
     {
