@@ -4,12 +4,14 @@ title: "ML Consulting Proposals"
 summary: "How DataTalks.Club guests scope ML consulting proposals through discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
 related:
   - Freelance
+  - Data Freelancing Strategy
   - Data Product Management
   - Startups
   - Metrics
   - Entrepreneurship
   - Solopreneur
   - Machine Learning
+  - Generative AI
 ---
 
 An ML consulting proposal is the bridge between a client saying "we need machine
@@ -289,11 +291,22 @@ Concepts and written analysis can be part of that output. For productionizing
 work, the consultant may run workshops, analyze the current situation, and tell
 the company what to work on.
 
-Generative AI consulting can use the same scoped-offer structure. Workshops and
-use-case discovery help a client decide where GenAI belongs before
-implementation starts. The pitch deck and rates still have to tie the offer to
-client value. The consultant's favorite technology isn't enough
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]], [[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
+Generative AI consulting can use the same scoped-offer structure. Weber's offer
+starts with adoption, productivity opportunities, and text-oriented GenAI use
+cases. That comes before anyone commits to building an LLM app. Discovery can
+be the proposal when the client has GenAI urgency but hasn't chosen the use
+case yet
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
+
+The pitch deck is positioning work before larger projects. It starts from the
+consultant's strengths and the customer's problem, then turns that intersection
+into concrete offers. A useful deck can include GenAI evidence and risks. It
+can also include reference projects, rates, and contact paths. Weber builds a
+long version first.
+
+She shortens it for each audience, so the proposal stays reusable without
+becoming generic
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
 
 That consulting structure is closer to
 [[data product management]]

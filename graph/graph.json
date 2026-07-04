@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10583
+    "links": 10596
   },
   "nodes": [
     {
@@ -37170,6 +37170,18 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "wiki:communication",
       "kind": "wiki-chip",
       "weight": 1
@@ -37261,6 +37273,24 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "wiki:platform-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -41862,6 +41892,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "person:andreyshtylenko",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "person:arpitchoudhury",
       "kind": "wiki-chip",
       "weight": 1
@@ -41905,6 +41941,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "person:zhamakdehghani",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48900,6 +48942,12 @@
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
+      "target": "person:antonisstellas",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
       "target": "person:orellgarten",
       "kind": "wiki-chip",
       "weight": 1
@@ -48907,6 +48955,12 @@
     {
       "source": "wiki:freelance-data-and-ml-careers",
       "target": "person:pastorsoto",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "person:verenaweber",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48924,7 +48978,19 @@
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:from-startup-engineering-to-freelance-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
       "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58656,6 +58722,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -58693,6 +58765,12 @@
     {
       "source": "wiki:ml-consulting-proposals",
       "target": "wiki:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:generative-ai",
       "kind": "wiki-related",
       "weight": 3
     },

@@ -93,8 +93,9 @@ product-growth concerns.
 
 Teams validating recommenders can't rely only on clicks or purchases. Those
 signals don't always prove that the recommendation matched what the user
-wanted. A favorite-brand team asked employees to swipe on brands as a cheaper
-internal check before release. Then the team connected the model to A/B-style
+wanted. An A/B test can also be biased by the way success is defined. A
+favorite-brand team asked employees to swipe on brands as a cheaper internal
+preference check before release. Then the team connected the model to A/B-style
 control logic and rollout metrics.
 
 A/B testing sits close to
@@ -148,8 +149,9 @@ incidents ([[cite:human-centered-mlops-and-model-monitoring=>Model Monitoring]])
 Live data products can make assignment and exposure logging an engineering
 problem, not only an analytics problem. The employee-swiping recommender needed
 on-the-fly processing so only the internal test audience saw the validation
-experience. That made [[streaming]] and application instrumentation part of the
-experiment design ([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
+experience rather than processing millions of users. That made [[streaming]],
+targeting, and application instrumentation part of the experiment design
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
 
 ## Metrics and Decision Rules
 
@@ -158,6 +160,13 @@ subscription-versus-points example shows why the same product change can look
 good or bad depending on the selected revenue metric ([[cite:ab-testing-and-product-experimentation=>Product Analytics]]).
 A test needs one primary metric for the rollout decision and supporting metrics
 for diagnosis.
+
+The favorite-brand recommender used a staged decision rule. First, the team
+checked whether employees actually swiped the recommended brands as favorites
+and treated roughly 85% agreement as evidence that the model was plausible.
+Only after that preference check did the product goal move toward engagement
+with brand pages and broader rollout
+([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]]).
 
 A/B tests need metrics that stay stable when noise or business cycles move the
 result.

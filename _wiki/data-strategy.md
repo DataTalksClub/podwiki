@@ -136,6 +136,17 @@ with company goals. It also avoids hype-driven work without evaluation and
 transparency, and favors impact and "good enough" engineering over perfection
 [[cite:scaling-enterprise-ai-mlops-data-first-strategy=>Scale Enterprise AI]].
 
+[[person:andreyshtylenko=>Andrey Shtylenko]] gives the industrial AI version.
+The executive sponsor shapes the strategy, so reporting lines matter. CTO
+reporting tends toward product capability, while CIO reporting tends toward
+internal optimization. CMO reporting points toward marketing and sales analytics.
+CEO reporting points toward cross-functional data work.
+
+He ties that sponsor choice to a practical warning. Start from customer or
+business value, then choose the talent, algorithms, and infrastructure. Don't
+start from a shiny technology and search for somewhere to plug it in
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
+
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
 overlaps with [[MLOps]] and the

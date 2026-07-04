@@ -52,12 +52,15 @@ changes without putting production at risk
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Industrial AI teams can use a crawl, walk, and run maturity path. In the crawl
-stage, they should prove one complete path from data collection to experiments.
-They should also cover infrastructure change, productionization, monitoring,
-and retraining before the organization spreads effort across many pilots. A
-single end-to-end POC gives the team an adoption wedge for the later
-centralized or hybrid operating model. For the project checklist behind that
-wedge, use the
+stage, they should prove one complete path from data collection to experiment
+selection. That path also needs infrastructure change, productionization,
+monitoring, and retraining before the organization spreads effort across many
+pilots. A single end-to-end POC gives the team an adoption wedge for the later
+centralized or hybrid operating model. Ten flashy demos can damage trust if
+they never reach the data volume, infrastructure, and operating loop needed for
+production.
+
+For the project checklist behind that wedge, use the
 [[production-ml-project-checklist=>production ML project checklist]]
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
 
@@ -131,10 +134,20 @@ also happen inside the collaboration, rather than after a handoff
 Both models keep platform work close enough to users to find friction early.
 
 Industrial AI teams can avoid a binary choice between one central team and
-fully decentralized teams. In a hub-and-spoke model, a central function owns
-practice, tooling, and shared services while embedded teams own work near
-business units. Use [[data-teams=>data team]] design for that operating-model
-choice, not only MLOps tooling
+fully decentralized teams. In Shtylenko's sequence, crawl means shipping one
+complete POC. Walk means centralizing roles, infrastructure, experiment
+tracking, and deployment standards. Run means moving toward semi-decentralized
+or hub-and-spoke teams. Treat the central team as a standard-setting transition,
+not the final operating model.
+
+Use [[data-teams=>data team]] design for that operating-model choice, not only MLOps tooling
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
+
+In the hub, shared services can include vendor procurement, experiment-tracking
+or MLOps platform selection, and data or image annotation vendors. The useful
+standard is shared capability, not identical frameworks for every product team.
+It's meant to prevent duplicate vendor decisions while helping embedded teams
+consume common capabilities
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
 
 ## Support and Value

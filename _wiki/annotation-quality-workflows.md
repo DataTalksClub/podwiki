@@ -63,6 +63,13 @@ notes, and annotator feedback. Annotators use the guide to record friction too,
 including oversized label sets and confusing categories. Reviewers can also mark
 task definitions that need to be split.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
+In the Resolver complaint-labeling workflow, a taxonomy with 21 complaint labels
+created attention fatigue. The team used the guide to track when labels should
+be split, merged, or reduced. In that workflow, the guidebook wasn't only
+instructions for annotators. It was also a problem list for taxonomy and UX
+issues found during labeling
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+
 ## Human Baselines and Expert Translation
 
 Domain experts help before a labeling task scales. Interviews, mind maps, and
@@ -97,6 +104,12 @@ model generalization across annotator splits. Reviewers use those checks to make
 the labeling process visible. Testing teams use agreement metrics for one class
 of failure and human review for examples the metric compresses away.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
+Resolver's weekly review shows the practice. The team periodically read about
+100 annotations per week across annotators and time windows. That surfaced a
+blind spot around UK winter heating complaints as vulnerable-consumer cases.
+The team still needed sampled human review beside agreement metrics
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+
 ## Model-Assisted Annotation and Active Learning
 
 Model assistance can speed annotation, but it adds workflow risk. Pre-labeling
@@ -107,19 +120,33 @@ less visible when a system pre-fills predictions.[[cite:nlp-dataset-creation-ann
 Model-in-the-loop annotation works best when the model output is already close
 to useful. In a large-scale NLU setting, annotators corrected suggested
 interpretations instead of labeling every utterance from scratch. That narrowed
-the human task, reduced annotation volume, and made repeated annotations more
-consistent.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]
+the human task and reduced annotation volume. It also made repeated annotations
+more consistent.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]
+
+In Weber's Alexa NLU example, live-traffic samples previously went to human
+annotators from scratch. The revised workflow showed the model's proposed
+interpretation first, so annotators verified or corrected one candidate instead
+of inventing the full label. That saved time and reduced inconsistent repeated
+labels, but it still required human review
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]].
 
 Active learning has the same boundary. Low-confidence and decision-boundary
 examples can reduce the amount of data needed, but the improvement is
-experimental rather than automatic. That keeps active learning tied to
-experiment design and [[evaluation]], not to a promise that annotation will
+experimental rather than automatic. Swart describes successful cases as closer
+to 20% less data, not a complete step-change. That keeps active learning tied
+to experiment design and [[evaluation]], not to a promise that annotation will
 disappear.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 For [[LLMs]], the review rule still applies. ChatGPT can label a first batch or
 act as one heuristic among active-learning signals and crowd labels. The
 annotation workflow still has to combine, review, and test those signals before
 training on them.[[cite:building-open-source-nlp-tool=>Open-Source NLP Tool]]
+
+Hotter's framing keeps ChatGPT inside weak supervision rather than outside it.
+One signal can come from ChatGPT. Others can come from active learning, crowd
+labels, TextBlob, and task-specific rules. Vader can be another signal. Quality
+work combines those signals and reviews conflicts
+[[cite:building-open-source-nlp-tool=>Open-Source NLP Tool]].
 
 Production chatbot workflows make the review boundary explicit. A model can
 draft an answer while a human reviewer approves or corrects it before the
@@ -145,10 +172,23 @@ TextBlob, and Vader can become labeling functions. Crowd labels, task rules, and
 active-learning signals can join the same ensemble. Refinery helps teams look at
 the data, while Bricks packages reusable heuristic recipes for NLP projects.[[cite:building-open-source-nlp-tool=>Open-Source NLP Tool]]
 
+Weak supervision can also debug existing labels. Hotter frames Refinery as a way
+to look at messy ground-truth data and find subsets where rules collide.
+Bricks-style heuristics can then make those collisions visible. That makes weak
+supervision useful for auditing training data, not only bootstrapping new labels
+[[cite:building-open-source-nlp-tool=>Open-Source NLP Tool]].
+
 The risk is bias hidden inside a rule. Entity rules, verb rules, and
 bio-NLP-style heuristics can be useful and still fuzzy. Weak supervision belongs
 inside the annotation quality workflow because programmatic labels need the same
 review discipline as human labels.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
+
+Distance supervision shows both sides of the tradeoff. In the vulnerable-consumer
+workflow, it could reduce the required data by roughly an order of magnitude.
+The weak labels were lower quality and could introduce distribution bias. That's
+why gold examples, sampled review, and downstream tests remain part of the
+workflow
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
 
 ## Tool Selection and Annotator UX
 
@@ -156,6 +196,12 @@ Tool choice matters when it changes annotator speed, attention, and ability to
 surface ambiguity. Interface improvements are quality controls for fatigue and
 consistency. Prodigy and Snorkel appear as practical starting points. Docanno,
 Label Studio, and Rubrics offer other annotation paths.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
+
+Swart gives a concrete throughput reason for caring about UX. In his experience,
+Prodigy's hotkeys and iterative interface changes produced roughly 5-10% more
+samples per annotator per day. That's not just convenience. It changes labeling
+cost and fatigue
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
 
 The tool decision should follow the task. A simple binary classification
 portfolio project may not need the same system as a compliance-sensitive
@@ -180,6 +226,13 @@ or poorly governed labels become model behavior, monitoring noise, and
 customer-facing risk later in the [[MLOps]] lifecycle. Annotation quality is
 therefore an upstream production concern, not a dataset preparation chore that
 ends before deployment.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
+
+Retraining makes the connection explicit. Weber's Alexa NLU team ran multiple
+test sets after training. The team also added extra checks for high-traffic
+utterances so common requests stayed stable. Annotation changes feed model
+updates, and model updates need traffic-aware evaluation before production
+exposure
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]].
 
 ## Related Pages
 

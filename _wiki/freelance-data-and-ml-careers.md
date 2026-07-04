@@ -23,6 +23,19 @@ projects and learned under deadline pressure. Public ML projects and community
 work then helped him attract interviews and freelance opportunities
 ([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]]).
 
+[[person:antonisstellas=>Antonis Stellas]] shows the marketplace path. He used
+Upwork while still working in a startup role. He then treated profile changes,
+proposal rewrites, attachments, and rejection patterns as feedback. They showed
+whether his proof and specialization matched buyer demand
+([[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]).
+
+[[person:verenaweber=>Verena Weber]] shows the research-to-consulting path.
+She moved from Amazon research toward freelance GenAI consulting because she
+wanted SME impact, entrepreneurial control, and room for parallel projects. Her
+early leads came from network awareness and ML content on LinkedIn while GenAI
+demand was high relative to expert supply
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
+
 Use [[freelance=>Freelance Data Engineering and Consulting]],
 [[Career Transitions in Data]],
 [[Career Growth]], and
@@ -106,6 +119,14 @@ for help on freelance and full-time projects.
 For [[job search]]
 and freelance work, his episode treats visibility as a compounding asset rather
 than a one-time application tactic.
+
+Antonis's marketplace path uses visibility inside the platform. A basic
+portfolio wasn't enough, so he added better cover letters, a PowerPoint with
+project evidence, and a clearer skill focus. Rejections became market feedback
+because the buyer may have seen a better proposal, lower price, stronger
+experience, or more specific skill. That makes marketplace freelancing a
+paid-learning loop, not only a lead source
+([[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]).
 
 ## Lean MVP Delivery Comes Before Infrastructure
 

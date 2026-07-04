@@ -9,6 +9,9 @@ related:
   - Metrics
   - Communication
   - Data Teams
+  - A/B Testing
+  - Recommendation Systems
+  - Streaming
 ---
 
 Data product adoption means getting dashboards, models, analytics tools, and
@@ -44,6 +47,14 @@ The translator role makes the same point because business teams need shared
 definitions and proactive data-quality communication. Users also need enough
 visibility into how numbers are produced before they'll use them confidently.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
+
+Recommendation products make the adoption loop visible at the data-collection
+stage. In a theme-park routing project, the app already had broad visitor use.
+The team added a free-coffee incentive to draw visitors into the survey flow.
+That meant [[data product adoption]] and training-data collection were
+connected. The product surface had to attract enough real users before the
+[[recommendation systems=>recommender]] could learn route preferences
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]].
 
 ## Adoption Levers Across Roles
 
@@ -130,6 +141,13 @@ manual clicks with a quick MVP, or use prototypes and temporary spreadsheets to
 prove that a workflow has a business owner. Only then does the team invest in a
 maintainable implementation.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
+
+The theme-park routing recommender shows a product prototype collecting the
+behavioral evidence it needed. About 3,000 visitor route variations came through
+the app survey. The model then matched group preferences to likely paths and
+recommended the next attraction. That put user research, lightweight product
+design, and recommender validation in the same loop
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park to Tesla]].
 
 Generative AI products expose the same adoption blocker in a new interface.
 Users don't keep using a chatbot only because the model can produce an answer.
