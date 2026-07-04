@@ -185,6 +185,14 @@ predictions, then weighs SageMaker endpoints and cost tradeoffs
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
 Serving is a business and latency decision, not just a framework choice.
 
+Edge and mobile serving push deployment constraints even further. Offline mobile
+models are still a mostly manual deployment space today. Vendors extend
+Kubernetes toward edge devices so model and application updates can be scheduled
+closer to the user
+([[cite:mlops-kubeflow-model-monitoring@51:44=>Kubeflow Model Monitoring]]).
+That puts edge deployment beside [[orchestration]], [[Model Monitoring]], and
+runtime ownership rather than treating it as only an app packaging problem.
+
 Deployment ties to release discipline, so the MLOps toolset includes CI and
 repository structure. It also includes parameterization, tests, and serving
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).

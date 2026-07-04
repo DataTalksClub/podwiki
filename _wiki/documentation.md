@@ -43,10 +43,15 @@ author isn't in the room
 [[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
 [[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
 
-Developers adopting tools need documentation, demos, and tutorials that start
-from audience and goals. Developer relations work adds feedback from
-dogfooding, community questions, and demos back into the product
-surface.[[cite:devrel-open-source-machine-learning]][[cite:practical-devrel-demofirst-education-and-open-source]]
+Developers adopting tools need audience-aware documentation, demos, and
+tutorials.[[cite:devrel-open-source-machine-learning]].
+Developer relations teams use dogfooding, community questions, and demos as
+product feedback.[[cite:practical-devrel-demofirst-education-and-open-source]].
+For a developer-tool company, docs can become a productive asset rather than a
+support cost. Adrian Brudaru describes investing in `dlt` documentation as part
+of the product. Clear docs let Python users adopt the library and feed better
+questions back into the team
+[[cite:from-data-freelancer-to-startup-open-source-products@41:23=>Docs as product asset]].
 
 ML product teams need documentation for shared vocabulary, requirements, and
 accountability. Model cards and datasheets make model behavior reviewable.

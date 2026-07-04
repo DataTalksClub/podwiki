@@ -56,6 +56,14 @@ DataOps discussions apply the same discipline to pipelines and analytics
 products. Data teams use CI/CD pipelines and regression tests, add test data,
 and connect version control to deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
+Marcello La Rocca adds a lower-level version of the same habit. Abstractions are
+useful until performance, memory, or correctness depends on the implementation.
+Engineers can trust library APIs for ordinary work. When the system's behavior
+makes that boundary visible, they look at the underlying data structures,
+algorithms, and serialization details
+[[cite:algorithms-data-structures-for-engineers@12:17=>Abstraction and Implementation]]
+[[cite:algorithms-data-structures-for-engineers@47:47=>Frameworks vs Internals]].
+
 ## Engineering Entry Points
 
 The episodes converge on software engineering as risk reduction, but they put

@@ -121,6 +121,15 @@ design.
 For a solopreneur, public work isn't only attention because it tells buyers
 which problems the person can handle.
 
+Pauline Clavelloux gives the indie-hacker version. Twitter helped her launch and
+learn distribution for small products. Pieter Levels' many-projects model showed
+why a solo builder can keep testing ideas instead of betting everything on one
+product. That connects audience work to [[portfolio-projects=>portfolio
+evidence]] and [[machine-learning-for-startups=>startup validation]], not only
+personal branding
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@50:35=>Indie Hacking Side Projects]]
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@54:35=>Indie Hacking Side Projects]].
+
 The podcast also ties solo distribution to
 [[Technical Writing]],
 [[Open Source]], and

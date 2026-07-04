@@ -119,6 +119,13 @@ also brings Git into the learning path. Developer adoption often depends on the
 surrounding work, not only the main product
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
+In Adrian Brudaru's data-tool startup version, the team used `dlt` workshops as
+a product feedback loop because teaching showed where users got stuck.
+Checkpoints, live support, and CodeSpaces made that friction visible enough to
+improve the developer path
+([[cite:from-data-freelancer-to-startup-open-source-products@36:00=>Workshop validation]],
+[[cite:from-data-freelancer-to-startup-open-source-products@37:28=>Workshop design]]).
+
 In the ML infrastructure discussion, a Metaflow sandbox demo connects teaching
 reproducibility with dogfooding and simplified workflows
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
@@ -197,6 +204,19 @@ The evangelism side covers AI evangelism, positioning, and messaging strategy,
 recommending one to three clear takeaways and calls to action
 ([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
 DevRel can use that skill, but it doesn't replace the technical feedback loop.
+
+DevRel teams should treat conference work as part of that overlap when it
+creates useful developer education rather than only awareness. Ben Taylor
+recommends proposing talks with
+novelty and enough ambition to stretch the speaker. Speakers can then build a
+speaker resume from smaller venues toward keynotes
+([[cite:public-speaking-for-data-scientists@50:20=>Conference proposals]],
+[[cite:public-speaking-for-data-scientists@53:48=>Speaker resume]]).
+
+Swyx draws the same boundary: reusable talks support communication practice and
+technical-judgment distribution. DevRel still has to connect the talk back to
+docs, demos, support, and product feedback
+([[cite:developer-personal-brand-learn-in-public@59:04=>Reusable talks]]).
 
 A good talk can drive awareness, while a good DevRel program also improves docs,
 examples, and onboarding. It should also improve support and product decisions.

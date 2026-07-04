@@ -153,6 +153,14 @@ model. In that framing, open source becomes an ownership strategy as well as a
 software-license choice
 [[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
 
+Elena Samuylova gives the startup-infrastructure version. An open-source
+monitoring tool can run on customer hardware when clients don't want to send
+data to a vendor cloud
+[[cite:building-mlops-startup@56:17=>MLOps Startup]].
+Running the tool on customer hardware ties [[Open Source]] to
+[[Privacy Engineering for ML]] and makes deployment location part of the
+product's trust model.
+
 The regulated deployment version moves slowly. Finance organizations remain
 cautious about moving sensitive systems to cloud. Privacy and encryption
 discussions can stretch migrations over years. Security risks and approval

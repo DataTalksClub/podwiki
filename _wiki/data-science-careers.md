@@ -17,7 +17,7 @@ Candidates usually reach data science through [[data-scientist-role=>data scient
 
 The title can mean product analytics or applied [[machine learning]]. It can also mean experimentation, research, dashboards, or first-data-hire work. Given that ambiguity, candidates should look at responsibilities and team setup before treating a data scientist title as a career step.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 
-When the responsibilities are mostly pipelines or reporting, the better comparison may be [[Data Engineering]] or the [[Data Analyst Role]].
+When the responsibilities are mostly pipelines or reporting, the better comparison may be [[Data Engineering]] or the [[Data Analyst Role]]. Ruslan Shchuchkin adds a boundary for newer AI-product work. He argues that data science can stay relevant when practitioners connect data judgment to [[AI engineering]] and product discovery. They also need full-stack delivery to avoid treating the title as a fixed tool list.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@52:28=>Future of data science]]
 
 For the interview path, use the [[Data Scientist Interview Roadmap]] and the [[Data Scientist Interview]] guide. For broader search mechanics, use [[Job Search]], [[CV Screening]], and [[Salary Negotiation]].
 

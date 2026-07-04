@@ -32,6 +32,13 @@ path. It may also come from a feature job, a late table, or a schema change.
 MLOps and DataOps are related reliability practices, but different teams own
 different failure modes.
 
+Theofilos Papapanagiotou describes MLOps as a next step from DataOps for teams
+that already use data platforms and data engineers. The disciplines can still
+remain distinct branches with different specialists
+[[cite:mlops-kubeflow-model-monitoring@50:35=>Kubeflow Model Monitoring]].
+MLOps inherits data-platform dependency from DataOps and adds model artifacts.
+It also adds serving, retraining, and model-specific monitoring.
+
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]] covers model
 lifecycle practice, while [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 covers pipeline delivery practice.

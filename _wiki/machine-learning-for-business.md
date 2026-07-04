@@ -131,6 +131,19 @@ the existing solution, expert judgment, and expected KPI. That can route the
 work toward a moving average, dashboard, or operating change before ML
 ([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
+Marini makes that diagnostic step conversational. He argues that description
+and diagnosis come before machine learning. The data professional first needs
+enough [[business skills for data professionals=>business context]] to understand
+the problem, not only the tool request
+[[cite:data-professionals-business-skills-in-saas@53:08=>SaaS Business Skills]].
+
+Ben Taylor gives the public-speaking version of the same filter for new data
+scientists: talk about concrete business problems before hype topics. For a
+business ML team, that advice doubles as use-case selection. Start with a
+problem the audience recognizes, then show where [[machine learning]] improves a
+decision
+[[cite:public-speaking-for-data-scientists@56:37=>Public Speaking for Data Scientists]].
+
 Decision optimization adds the prescriptive side. A forecast may feed an
 inventory order or guide a price offer. Bids, fraud thresholds, and resource
 allocation can use the same approach.
@@ -197,6 +210,13 @@ Try a heuristic, rule-based, or manual process before committing to a model. If
 that simpler process can't prove the problem is valuable, a more expensive ML
 system is unlikely to rescue the use case
 ([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Baseline before ML]]).
+
+[[person:olgaivina=>Olga Ivina]] adds the AutoML boundary. Automation can help
+with modeling, but it doesn't remove human ownership of problem definition,
+implementation, and effects on people. Treat AutoML as a tool inside [[MLOps]]
+and [[evaluation]], not as a substitute for
+business ownership
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@37:44=>Hiring Data Science Talent]].
 
 ## Check Data Readiness and Ownership
 

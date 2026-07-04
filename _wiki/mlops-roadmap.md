@@ -51,6 +51,16 @@ batch serving, and online serving. Metadata, lineage, and prediction logging
 connect those steps
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
+Theofilos Papapanagiotou frames the same path with MLOps maturity models.
+Manual training and deployment sit at the lowest level. Pipeline automation
+comes next, followed by monitored, metric-triggered retraining at the advanced
+level
+[[cite:mlops-kubeflow-model-monitoring@23:47=>Kubeflow Model Monitoring]]
+[[cite:mlops-kubeflow-model-monitoring@27:01=>Kubeflow Model Monitoring]]
+[[cite:mlops-kubeflow-model-monitoring@30:08=>Kubeflow Model Monitoring]].
+That progression links [[Model Monitoring]], [[orchestration]], and retraining
+decisions instead of treating them as separate roadmap boxes.
+
 At team scale, [[person:raphaelhoogvliets=>Raphael Hoogvliets]] frames the
 central MLOps team as an enabling platform team. CI and repository structure
 make the work repeatable. Parameterization and testing keep runs

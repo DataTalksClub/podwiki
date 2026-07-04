@@ -66,6 +66,15 @@ He later discusses a North Star metric as a single guiding indicator for
 strategy. Not every team needs one universal number. A KPI still has to say what
 direction matters when choices compete.
 
+For internal data platforms, Greg Coquillo frames success metrics as part of
+product-management discipline. Teams identify the affected customers and pain
+points, define success criteria, and make the SMART goal measurable. Examples
+include reducing pipeline latency, meeting an SLA, increasing engagement, or
+reducing churn
+[[cite:building-and-scaling-ai-data-products-with-mlops@51:11=>AI Data Products with MLOps]].
+That connects KPI design to [[data product management]] and [[Data Quality and Observability]]
+when the platform serves downstream teams.
+
 [[person:liorbarak=>Lior Barak]] makes a similar
 alignment argument from the [[data strategy]] side. His core KPI diagnosis in [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]]
 shows how dashboard inaccuracies force teams to look at ingestion and SQL logic.

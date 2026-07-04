@@ -87,6 +87,16 @@ workflow against a manual or heuristic baseline
 For ML startups, a trained model is rarely the fastest way to learn whether
 customers will pay, share data, or change behavior.
 
+Aleksander Kruszelnicki's failed data-stack product gives the customer-discovery
+version of the same rule. Before building, the team needed interviews that
+asked when the problem last happened, how often it happened, and what the
+consequence was. Pairing interviewer and note-taker roles made the evidence more
+usable for [[founder]] decisions and [[ml-consulting-proposals=>consulting-style]]
+scoping
+[[cite:data-consulting-business-pricing-and-client-acquisition@9:08=>Data Consulting Business]]
+[[cite:data-consulting-business-pricing-and-client-acquisition@12:53=>Data Consulting Business]]
+[[cite:data-consulting-business-pricing-and-client-acquisition@15:55=>Data Consulting Business]].
+
 Indie hacking validates ideas without external funding through concrete product
 work. Indie hackers can test landing pages and legal setup. They can also test
 payments, launch channels, and early sales.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking]]

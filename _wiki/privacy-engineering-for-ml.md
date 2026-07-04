@@ -115,6 +115,12 @@ Catalogs and lineage connect datasets to owners. Teams use purpose-based
 access requests to state why they need data and how long access should
 last.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
+Research datasets make that control visible. Johanna Bayer describes "data upon
+request" realities, consortium access rules, and controlled access for sensitive
+neuroimaging data. Reproducible research still needs metadata and methods, but
+privacy engineering decides what can't be made public
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@37:01=>Controlled research data]].
+
 For ML systems, access rules cover raw sources and feature tables. Labels and
 experiment datasets need access rules too. Model-debugging samples also need
 rules.
@@ -208,6 +214,12 @@ product works with sensitive health context, de-identification is necessary but
 not sufficient. Activity, heart-rate variability, and mental-health signals all
 need explicit consent and privacy boundaries. HIPAA/GDPR expectations and
 empathy for vulnerable users become part of the product design.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+
+Johanna's clinical-neuroimaging discussion gives the research analogue.
+De-identification and controlled access make data sharing possible only inside a
+governed process. The public artifact may need to be code, parameters, and
+metadata rather than raw subject data
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@42:22=>Sensitive data practices]].
 
 For production ML, the approval record should state which sensitive fields are
 used and why they're necessary. It should state whether those fields are

@@ -124,6 +124,13 @@ A course sequence for this starts with Git and reproducible publications, then
 moves into tests, open source contribution, and packaging. Environments and
 requirements files come next.
 
+Johanna Bayer describes what students practice. Students need packaging and
+environments, plus formatting and tests instead of only a finished notebook. Her normative
+brain-model example adds folder structure and Cookiecutter-style project layout
+as part of the reproducibility habit
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core coding practices]]
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@38:50=>Project structure case study]].
+
 The same gap appears in data science education. Labs often lack training for
 long-lived data management, collaboration, and complete reproduction of code.
 DVC work at Iterative and later teaching help applied data science students make

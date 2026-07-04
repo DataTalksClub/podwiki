@@ -52,7 +52,7 @@ Indie hacking adds a product route: build small software products and monetize
 them without outside funding. Cryptopy started as a crypto-alerting tool for
 personal trading before it became a public offer. UnrealMe turned a
 DreamBooth-style image idea into a small generative AI service and launched in
-weeks. [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
+weeks. [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@7:23=>Indie Hacking and Bootstrapping Side Projects]]
 
 ## Freelancer, Solopreneur, or Startup Founder
 
@@ -166,7 +166,7 @@ streams. Don't bet the whole transition on one new offer.
 Indie hackers can keep the day job as the operating base. Product work happens
 after work, on weekends, and during available breaks. Without investors, the
 launch can wait until the product is ready.
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@8:58=>Indie Hacking and Bootstrapping Side Projects]]
 
 Freelancers use similar risk controls. They test demand, manage financial risk,
 and validate the market before relying on independent work full time.

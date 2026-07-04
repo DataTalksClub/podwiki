@@ -34,7 +34,7 @@ third may use a delayed label after a support case closes.
 In SaaS, customer-success and data teams can use the same words. They may still
 picture different product realities. Before analyzing usage, the team had to
 agree what "good usage," "customer," and "churn" meant across
-functions[[cite:data-professionals-business-skills-in-saas=>SaaS Business Skills]].
+functions[[cite:data-professionals-business-skills-in-saas@12:19=>SaaS Business Skills]][[cite:data-professionals-business-skills-in-saas@18:00=>SaaS Business Skills]].
 Teams should treat metric design as part of
 [[business skills for data professionals]], not only SQL or dashboard work.
 
@@ -96,7 +96,7 @@ success meant. The team could use feature depth or graph complexity. It could
 also use advanced feature use or integration into customer workflows.
 Teams can use embedded integrations as lead indicators for stickiness because
 those integrations can connect to lower churn and higher lifetime
-value[[cite:data-professionals-business-skills-in-saas=>SaaS Business Skills]].
+value[[cite:data-professionals-business-skills-in-saas@15:46=>SaaS Business Skills]].
 
 A leading indicator is useful only with a causal direction. The team needs to
 explain which action or condition likely moves the customer toward the next

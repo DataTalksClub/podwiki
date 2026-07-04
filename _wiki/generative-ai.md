@@ -83,6 +83,14 @@ can draft and rewrite while preserving
 voice.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 The model doesn't replace the person who owns the final text.
 
+In UnrealMe, Pauline Clavelloux started from a DreamBooth-inspired
+selfie-to-art idea and then compared API fine-tuning with running GPUs herself.
+Her comparison put product speed, cost, and infrastructure burden next to model
+capability. The same API-versus-self-hosted boundary appears in larger
+[[LLM Production Patterns]] pages
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>Indie Hacking Side Projects]]
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@25:48=>Indie Hacking Side Projects]].
+
 Other bounded use cases include summaries, translation, and CSV workflows.
 Transcript processing can use automation tools such as Gemini, Descript, and
 Loom.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]

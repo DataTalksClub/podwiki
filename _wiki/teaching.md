@@ -156,7 +156,8 @@ research culture change. She describes teaching open science with Git, homework
 support, and course structure. She references Carpentries-style beginner
 curricula. The episode names packaging, environments, formatting, and tests as
 coding practices students should learn
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching Open Science and Reproducible Research]].
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@7:39=>Carpentries curriculum]]
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core coding practices]].
 
 That episode belongs with [[Documentation]]
 because reproducible work needs more than code. Johanna discusses README files,
@@ -166,7 +167,13 @@ contribution guides, issues, and project communication for open-source projects
 Johanna connects open code to citations, collaboration, and career visibility.
 For data and ML learners, those are also portfolio signals. A good project
 explains how to run, review, and extend the work
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching Open Science and Reproducible Research]].
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@36:05=>Open code benefits]].
+
+The resource path matters too. Johanna points learners toward The Turing Way,
+The Carpentries, and related ML handbooks. Those resources make open-science
+teaching a structured beginner curriculum rather than a vague call to "share
+code"
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@55:12=>Open science resources]].
 
 [[person:elleobrien=>Elle O'Brien]] makes a similar bridge
 from university teaching to developer relations. She discusses applied data

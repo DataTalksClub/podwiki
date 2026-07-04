@@ -127,6 +127,14 @@ dataset.
 Quality checks reduce known failure modes, while observability watches running
 data products for unexpected ones.
 
+Internal data platforms can measure quality work with operational outcomes, not
+only test counts. Greg Coquillo suggests tracking whether pipeline failures
+fall. He also suggests tracking whether business-critical failures are resolved
+inside an agreed SLA. One example target is 98% of incidents within 48 hours
+[[cite:building-and-scaling-ai-data-products-with-mlops@53:27=>AI Data Products with MLOps]].
+That links [[DataOps]] reliability to [[KPIs]] because the metric has an owner,
+a threshold, and a downstream customer.
+
 Tammy Liang gives the small-team version of this practice. After dashboard
 accuracy issues, the team rebuilt trust with a data accuracy playbook and dbt
 tests. Regular dashboard checks replaced ad hoc review. That makes testing both

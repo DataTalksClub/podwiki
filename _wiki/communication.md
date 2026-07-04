@@ -87,6 +87,13 @@ explain dependencies, blockers, and tradeoffs in plain language. That matters
 when delays change a business outcome
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
 
+Public speaking uses the same translation rule at a larger scale. Ben Taylor
+frames strong data talks around a few memorable takeaways and attention hooks.
+He also turns metrics into narrative so the audience can connect the evidence to
+a decision
+[[cite:public-speaking-for-data-scientists@21:55=>Clear outcomes]]
+[[cite:public-speaking-for-data-scientists@30:57=>Metrics to narrative]].
+
 ## Stakeholder Translation
 
 Data professionals start stakeholder communication before a model or dashboard
@@ -183,6 +190,23 @@ Data professionals use purpose, positioning, publishing, and speaking to become
 known for a clear point of view. Medium and LinkedIn publishing need cadence and
 quality, while conference talks add preparation, submission, and delivery
 [[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
+
+Talks become a reusable communication asset when the speaker refines one strong
+story instead of inventing a new talk for every venue. Ben Taylor describes that
+repeatable-keynote loop, while Swyx connects reusable talks to public practice
+and career visibility
+[[cite:public-speaking-for-data-scientists@9:37=>Repeatable keynotes]]
+[[cite:developer-personal-brand-learn-in-public@59:04=>Reusable talks]].
+
+Ben Taylor names specific delivery choices:
+
+- A hero-story introduction is often stronger than a resume-style opening.
+- Everyday storytelling practice improves the arc.
+- The Q&A can include admitting what you don't know instead of overclaiming.
+
+[[cite:public-speaking-for-data-scientists@24:17=>Hero-story intros]]
+[[cite:public-speaking-for-data-scientists@34:12=>Storytelling practice]]
+[[cite:public-speaking-for-data-scientists@52:13=>Q&A strategy]].
 
 ## Consulting and Client Conversations
 

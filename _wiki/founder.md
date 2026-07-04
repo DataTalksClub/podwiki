@@ -66,6 +66,13 @@ records, and product catalogs. That repetition showed a gap in the modern data
 stack. Proof-of-concept work turned into a full-time product build and then a
 public release.[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]]
 
+Aleksander Kruszelnicki gives the negative example: his team built too early
+after misreading market size and customer pain. Founders should test the buyer
+problem, frequency, and consequence before turning a data-stack idea into
+product work. By testing first, founders keep [[machine learning for startups]] and
+[[entrepreneurship]] tied to demand evidence instead of builder enthusiasm
+[[cite:data-consulting-business-pricing-and-client-acquisition@18:01=>Data Consulting Business]].
+
 The DLT team used a three-day teaching workshop where about 60 Python users
 built an incremental pipeline. The team added checkpoints, live support, and a
 shared Codespaces setup. For developer products, docs and workshops can become

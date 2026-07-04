@@ -61,15 +61,22 @@ That path connects the transition to [[data-scientist-role=>data scientist
 work]] and [[job search]] because the candidate must show both analytical
 judgment and production awareness.
 
-Engineering-heavy moves use the same translation. Software-to-ML means
-adding machine learning to an existing engineering skillset, not discarding
-software engineering. Coding is already a core ML skill, but candidates still
-need projects plus data pipelines. Modeling and deployment come next.
-Monitoring, APIs, Docker and cloud work matter too
+Engineering-heavy moves translate existing skills into new work. Software-to-ML
+adds machine learning to an engineering skillset instead of discarding software
+engineering. Coding is already a core ML skill, but candidates still need
+projects plus data pipelines. Modeling and deployment come next. Monitoring,
+APIs, Docker and cloud work matter too
 [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
 
+Engineering managers take a different route. They can move into data science
+management by reusing people-management experience. They then learn the ML/NLP
+domain and stakeholder surface around the new team
+[[cite:from-software-engineering-to-leading-data-science-teams@43:33=>Software Engineer to Data Science Manager]]
+[[cite:from-software-engineering-to-leading-data-science-teams@52:52=>Software Engineer to Data Science Manager]].
+
 Software-to-ML transitions therefore connect to [[MLOps]],
-[[machine learning infrastructure]], and [[Machine Learning Portfolio Projects]].
+[[machine learning infrastructure]], [[Machine Learning Portfolio Projects]],
+and [[Data Team Lead Role]].
 
 Transition evidence changes by role. In data engineering, real work is
 stronger than tutorial or certificate-only signals. A personal end-to-end data
@@ -155,6 +162,11 @@ Career changers still need to choose a target role, build role-shaped proof,
 and use specific cold outreach or LinkedIn messages to find mentors. Rapport in
 data communities can turn visible work into word-of-mouth opportunities, but it
 doesn't replace proof [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
+Age or a nonlinear path should be translated into results and transferable
+skills rather than hidden as a liability. Sarah Mestiri's job-search coaching
+keeps the focus on what the candidate can show and where prior experience helps
+the target role
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@53:30=>Tech Job Search Strategy]].
 
 ## Transferable Skills Need Translation
 

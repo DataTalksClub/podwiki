@@ -101,11 +101,17 @@ Refactor notebook-shaped "walls of text" into smaller pieces that someone can
 test and change
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 
-Research work uses notebooks, experiment tooling, and benchmarks for
-hypothesis-driven work. Production ML engineering adds lifecycle ownership and
-engineering rigor. It also brings PyTorch and Docker, cloud infrastructure, web
-frameworks, and reproducibility
+Research work uses notebooks and experiment tooling to run benchmarks for
+hypothesis-driven work. Production ML engineering adds lifecycle ownership,
+engineering rigor, and reproducibility. It also requires PyTorch and Docker
+practice. Cloud infrastructure and web frameworks matter too
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+
+CJ Jenkins describes the career-transition version of the same gap. An academic
+researcher may understand statistics and modeling. They may still need Python
+and API practice before the work can become a production artifact. Docker and
+deployment practice matter too
+[[cite:postdoc-to-data-science-lead-career-transition@6:10=>Postdoc to Data Science Lead]].
 
 The learner-to-practitioner version is practical. Learners move from exploratory
 analysis toward reusable code, project structure, and production habits

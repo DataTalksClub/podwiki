@@ -196,6 +196,12 @@ Shadow mode and A/B tests validate a model before full rollout. This lowers risk
 when model errors can affect customers, revenue, fraud decisions, or operational
 load.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
+For production-search and recommendation experiments, Sadat Anwar describes
+using feature flags, backups, and monitoring. He combines them with controlled
+experimentation. Teams can then try ML changes without betting the whole system
+on one rollout
+[[cite:from-software-engineering-to-leading-data-science-teams@21:58=>Software Engineer to Data Science Manager]].
+
 ## Related Pages
 
 These pages cover the concepts that experiments depend on or feed into:

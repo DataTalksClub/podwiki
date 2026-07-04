@@ -35,6 +35,14 @@ and user-facing latency. API models are useful for fast prototyping, but
 business-critical systems may need self-hosted or fine-tuned open-source models.
 That gives teams control over versions, data handling, and performance.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
+Optimization can also happen during training rather than only at serving time.
+Theofilos Papapanagiotou describes Kubeflow Katib as a Kubernetes-native
+hyperparameter search component. Teams define the objective and search ranges,
+run candidate training jobs as pods, and compare results before promotion
+[[cite:mlops-kubeflow-model-monitoring@40:12=>Kubeflow Model Monitoring]].
+That connects model optimization to [[MLOps]] and [[machine learning infrastructure]]
+when the search process needs reproducible pipelines.
+
 ## Compression and Quantization
 
 Quantization is one public example of model compression in autonomous driving:

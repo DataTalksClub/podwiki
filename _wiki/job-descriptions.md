@@ -128,6 +128,11 @@ list becomes keyword noise.
 
 Hiring teams also reveal role design through language. Inclusive wording affects
 who sees themselves in the role.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+Olga Ivina gives the data-science hiring version. Teams can attract more diverse
+candidate pools by reviewing wording and requirements. They should remove
+discouraging phrases before the post reaches the market
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@47:06=>How to Hire Data Scientists]]
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@53:53=>How to Hire Data Scientists]].
 Words such as "rockstar" and "ninja" can signal unclear expectations. They can
 also signal hero culture or a narrow view of who belongs in the role.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 

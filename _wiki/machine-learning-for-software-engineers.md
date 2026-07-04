@@ -348,7 +348,8 @@ job or inference path may hide an ordinary data-structure mistake. If code
 checks containment against a Python list many times, replacing the list with a
 set can turn repeated scans into hash lookups. You get that speedup by choosing
 the right algorithm before adding hardware, services, or platform complexity
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers@19:14=>Profiling Algorithmic Wins]]
+[[cite:algorithms-data-structures-for-engineers@20:14=>List vs Set Performance]].
 
 Use the same lens for [[Machine Learning Tools]] and library internals. Python
 and high-level ML libraries are usually the right starting point. They keep
@@ -359,7 +360,7 @@ decision. Check whether the library uses vectorized operations or indexes. Also
 check for approximate search and compiled kernels. Move work to C++ or Cython
 only after profiling shows the hotspot is real. Use the same test for any other
 compiled path: the Python boundary should be the bottleneck
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers@1:00:39=>Python, C++ and Cython Tradeoffs]].
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
   solves the decision well enough.
@@ -398,6 +399,13 @@ study
 [[cite:machine-learning-data-science-interview-prep=>ML and Data Science Interview Prep]].
 For software engineers, the important move is translating existing experience
 without pretending the ML gaps don't exist.
+
+CJ Jenkins gives a hiring-manager version of the same translation problem for
+junior data scientists. Clean code and coding proficiency still matter. They
+show up through pair programming and code reviews. LeetCode-style drills matter
+more than algorithm trivia alone
+[[cite:postdoc-to-data-science-lead-career-transition@36:43=>Clean Code Expectations]]
+[[cite:postdoc-to-data-science-lead-career-transition@37:39=>Pair Programming and Code Reviews]].
 
 Translate your background clearly:
 

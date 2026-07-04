@@ -86,6 +86,16 @@ warehouses such as Snowflake. Change data capture syncs row-level changes
 instead of reloading a whole source each time. CDC helps when database changes
 matter and full reloads are too slow or too expensive.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
+Library-first ingestion tools cover a different edge of the category. Adrian
+Brudaru describes dlt for Python users. It turns nested JSON into relational
+tables declaratively. Without that step, teams dump raw JSON into a warehouse.
+Downstream users then have to untangle the structure later
+[[cite:from-data-freelancer-to-startup-open-source-products@17:51=>Dumping JSON Into Warehouses]]
+[[cite:from-data-freelancer-to-startup-open-source-products@19:38=>Declarative JSON to Relational]].
+
+Teams can compare dlt with managed connectors in [[ETL vs ELT]] decisions,
+while developers can adopt it as a library.
+
 The [[ETL vs ELT]] choice shapes the
 rest of the stack. ETL transforms before loading, which can fit compliance,
 source constraints, or large enterprise staging needs. ELT loads first and

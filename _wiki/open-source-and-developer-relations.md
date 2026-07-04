@@ -51,6 +51,14 @@ documentation, pull requests, videos, and hiring. Community work connects to
 support and user insight, so DevRel becomes both teaching and product signal
 ([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 
+Open-source infrastructure products can use a bottom-up adoption path where
+engineers and data scientists try an open-source library first. Enterprise
+buyers later pay for security, safety, and accountability once the tool is
+running in production
+([[cite:building-mlops-startup@51:48=>MLOps Startup]]).
+That makes [[developer relations]] and [[documentation]] part of the enterprise
+sales path without reducing them to sales collateral.
+
 Will McGugan's Rich and Textual story adds a developer-tool growth loop.
 Building in public worked because visual progress could become screenshots and
 short videos. Each update could also include an explanation that attracted

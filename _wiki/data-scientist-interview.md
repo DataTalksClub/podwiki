@@ -121,7 +121,8 @@ the wrong data structure.
 
 LeetCode and programming contests can build speed with recurring problem shapes.
 They can also overshoot the day-to-day needs of most data scientist roles
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers@52:55=>Algorithm Interview Emphasis]]
+[[cite:algorithms-data-structures-for-engineers@58:53=>LeetCode and Contests]].
 Olteanu describes the same split from the candidate side. Public notebooks can
 prove applied ML practice, while some screens still test algorithmic coding
 separately
@@ -131,10 +132,10 @@ Don't treat that screen as the whole job. A candidate can pass an algorithm
 interview and still struggle with Git or debugging. Stronger interviews also
 test pair programming and the ability to turn a data problem into working
 software
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers@52:55=>Balanced Technical Interviews]].
 
 Use algorithm drills for companies that ask them
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+[[cite:algorithms-data-structures-for-engineers@58:53=>Hands-On Algorithm Practice]].
 Put the rest of your preparation back into SQL and statistics. Also practice
 project defense, model evaluation, and [[Machine Learning System Design]]. Use
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] to choose
@@ -149,10 +150,22 @@ answer to the work the role actually owns
 
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions
-[[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@25:21=>Technical Interview Checks]].
 Descriptive statistics matter because candidates need to understand data before
 more complex modeling
-[[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]].
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@31:15=>Foundational Statistics]].
+Olga Ivina also frames hiring around technical excellence, growth mindset,
+humility, and communication. Interview preparation should include how you learn
+and respond to feedback, not only how you solve a task
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@14:49=>Core Hiring Criteria]]
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@18:03=>Attitude and Motivation]].
+
+From a transition and team-lead perspective, CJ Jenkins also names smartness,
+ambition, and receptiveness to feedback. His interview advice tests
+learning agility and humility. That makes project review and code discussion as
+important as a correct final answer
+[[cite:postdoc-to-data-science-lead-career-transition@8:41=>Hiring Signals]]
+[[cite:postdoc-to-data-science-lead-career-transition@10:42=>Learning Agility and Humility]].
 
 For ML-heavy roles, add system design practice. Prepare to state assumptions and
 define success metrics, then choose a baseline before explaining labels and

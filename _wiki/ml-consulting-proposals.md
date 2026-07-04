@@ -268,10 +268,10 @@ Vashishta's monetization framing explains why executives care. ML is expensive,
 and teams need a strategy for revenue, cost savings, or product value
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]).
 
-Aleksander Kruszelnicki gives the data-consulting version in [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
+Aleksander Kruszelnicki gives the data-consulting version in [[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]].
 He says the price should come from the value the service creates, not only from
 the consultant's delivery cost
-([[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]]).
+([[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]]).
 He also describes competitor and community benchmarking as a way to find the
 market rate before enough client data exists. Consultants can use that benchmark
 to keep value-based pricing tied to buyer alternatives instead of detached from
@@ -281,7 +281,7 @@ Kruszelnicki acknowledges the day-rate incentive to extend work. He also warns
 that project pricing can force the consultant to estimate effort too early. The
 consultant may not yet have seen the client's data, stakeholders, or
 communication constraints
-([[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]]).
+([[cite:data-consulting-business-pricing-and-client-acquisition@52:38=>Build a Data Consulting Business]]).
 For [[freelance=>freelance data consulting]], consultants should treat pricing
 as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when

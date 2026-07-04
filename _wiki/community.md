@@ -115,6 +115,13 @@ The DevRel version adds toxic-space avoidance and anonymity. It also covers
 moderation and peer support for public technical
 work[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
+Team community has the same safety requirement at smaller scale. CJ Jenkins
+describes rituals for sharing failures and building trust during a
+postdoc-to-data-science transition. Psychological safety isn't comfort for its
+own sake. With that safety, people can ask questions, admit mistakes, and learn from each
+other
+[[cite:postdoc-to-data-science-lead-career-transition@51:05=>Psychological safety]].
+
 ## Paths From Attendance to Contribution
 
 Members get more value when they can move from attendance to contribution.

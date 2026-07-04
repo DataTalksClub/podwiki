@@ -46,6 +46,17 @@ problem framing. It also helps them ask about data quality, baselines, and
 operational responsibility. It doesn't mean replacing the team's strongest
 modeler, machine learning engineer, or platform specialist.
 
+[[person:sadatanwar=>Sadat Anwar]] gives the transition version of the same
+boundary. Moving from engineering management into data science management
+keeps the people-management surface. It changes the domain, stakeholder
+questions, and success evidence.
+
+Conflict resolution and hiring become part of the manager's technical-adjacent
+work. Business metrics and team-health signals also move into the manager's work
+([[cite:from-software-engineering-to-leading-data-science-teams@30:25=>Software Engineer to Data Science Manager]],
+[[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Software Engineer to Data Science Manager]]).
+That path connects leadership directly to the [[Data Team Lead Role]].
+
 ## Manager and Expert Paths
 
 [[person:barbarasobkowiak=>Barbara Sobkowiak]] gives the
@@ -251,6 +262,11 @@ The practical learning path for managers starts here because the first skill
 isn't a library or a modeling technique. It's learning how to ask better
 questions about people, problems, and tradeoffs.
 
+Sadat warns new managers who came from deep hands-on work that losing the
+dopamine loop of coding is part of the role change. The manager needs new
+feedback loops around team momentum, influence, and business value
+([[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Software Engineer to Data Science Manager]]).
+
 Managers can learn from several episodes:
 
 - Sobkowiak for role boundaries and project discovery
@@ -377,7 +393,7 @@ Those signals aren't only for data science.
 [[person:terezaiofciu=>Tereza Iofciu]] argues in
 [[cite:data-leadership-coaching=>Data Leadership Coaching]]
 that foundation work needs visibility alongside models and open-source work.
-That impact isn't always customer-facing.
+Teams may not see that impact in customer-facing metrics.
 
 [[person:christopherbergh=>Christopher Bergh]] and
 [[person:barrmoses=>Barr Moses]] make the same point for

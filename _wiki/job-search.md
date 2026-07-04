@@ -146,11 +146,14 @@ and
 
 ## Networking and Referrals
 
-Networking is targeted research, not mass messaging. Weak ties, referrals,
-informational interviews, and weekly outreach all help when messages are short
-and personalized. Questions about day-to-day work and success factors help
-candidates evaluate the role while they build a referral path
-[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
+Networking is targeted research, not mass messaging
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@31:40=>Tech Job Search Strategy]].
+Short personalized notes help with weak ties and referrals
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@32:17=>Tech Job Search Strategy]].
+They also support informational interviews and weekly outreach. Questions about
+day-to-day work and success factors help candidates evaluate the role while they
+build a referral path
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@36:10=>Tech Job Search Strategy]].
 
 Cold emails work better when they include project links and specific evidence.
 LinkedIn informational outreach is especially useful for juniors who can't rely
@@ -211,10 +214,14 @@ and tradeoffs.
 
 Career changers need a bridge story, not an apology. Results and transferable
 skills make return-to-work and career-change experience easier to evaluate
-[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@53:30=>Tech Job Search Strategy]].
 For juniors, past experience becomes recruiter-friendly evidence for data roles
 when it's translated into data-relevant achievements
 [[cite:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
+Candidates with employment gaps can use the same evidence logic. They can show
+current skills, explain the context clearly, and point the conversation back to
+role fit and readiness
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@56:31=>How to Hire Data Scientists]].
 
 Candidates without commercial experience still have proof paths. Nonprofits,
 paid projects, and internships can provide data engineering evidence

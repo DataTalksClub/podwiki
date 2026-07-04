@@ -88,6 +88,14 @@ That makes the project more reviewable. The writeup can show where a method,
 metric, model, or tool became necessary instead of presenting theory as
 decoration.
 
+Pauline Clavelloux's indie projects show the same learning sequence outside a
+course. Cryptopy and UnrealMe forced work across GCP, data engineering, and web
+development. They also exposed launch channels, pricing, and marketing. A
+portfolio writeup should name those acquired skills and connect them to the
+project evidence. That matters when the role crosses [[machine learning]],
+product, and operations
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@35:47=>Indie Hacking Side Projects]].
+
 [[person:eugeneyan=>Eugene Yan]] adds the writeup
 standard in
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].

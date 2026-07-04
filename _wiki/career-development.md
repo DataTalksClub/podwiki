@@ -34,11 +34,16 @@ individual contribution to deliberate career direction.
 
 ## Role Direction Before Skill Collection
 
-Role direction comes before skill collection, so candidates define the ideal
-role through tasks and skills. They compare interests with market demand before
-they compare ML engineering,
+Candidates define the ideal role through tasks and skills before collecting
+more skills. They compare interests with market demand first. Then they compare
+ML engineering,
 [[data engineering]], and
 [[MLOps]].[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
+
+Strength and interest assessments can support that reflection. Sarah Mestiri
+treats them as inputs to role direction rather than substitutes for projects,
+interviews, and market research
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@49:18=>Tech Job Search Strategy]].
 
 The Analyst-Builder-Consultant taxonomy gives candidates a second way to
 choose what to learn. The Analyst path emphasizes exploration, visualization,
@@ -98,7 +103,7 @@ expertise.
 Product clones, case studies, and unsolicited redesigns can make expertise
 visible. Open knowledge projects, collaborative docs, and cheat sheets can do
 the same.
-[[cite:developer-personal-brand-learn-in-public=>Learn in Public]].
+[[cite:developer-personal-brand-learn-in-public@38:30=>Learn in Public]].
 
 Public deadlines, accountability, and batching help keep community work moving.
 For career development, the same practice can make learning and publishing more

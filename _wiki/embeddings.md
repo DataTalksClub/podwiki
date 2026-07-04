@@ -49,7 +49,7 @@ finds nearby points in multi-dimensional space. Exact search can become too
 costly as dimensionality grows. Approximate nearest-neighbor structures and
 libraries such as Faiss trade a small amount of optimality for faster candidate
 retrieval
-([[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]]).
+([[cite:algorithms-data-structures-for-engineers@44:46=>Vector Similarity and Faiss]]).
 
 In production LLM systems, vector databases work through embeddings, indexing,
 and semantic search
@@ -132,6 +132,9 @@ system can search for item vectors close to a user's vector. Similar-image
 retrieval uses the same vector-search structure because the embedding narrows
 the candidate set. The recommender or search system then decides which nearby
 items are useful enough to show.
+Marcello La Rocca makes the same general connection between vector similarity,
+embeddings, recommender systems, and Faiss
+[[cite:algorithms-data-structures-for-engineers@44:46=>Vector Similarity and Recommendations]].
 
 ## NLP Data Work
 

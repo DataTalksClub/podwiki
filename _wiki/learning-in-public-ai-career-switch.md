@@ -78,8 +78,8 @@ enough to share. The exchange frames publishing as a forcing function for
 double-checking. Pastor says note taking, audience growth, recruiter visibility,
 and learning reinforcement became one workflow ([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to ML]]).
 
-This workflow matters for AI career switches because the tool stack changes
-quickly. A learner may study [[AI tooling]]
+AI career switchers benefit from this publishing workflow because the tool stack
+changes quickly. A learner may study [[AI tooling]]
 and [[retrieval-augmented-generation=>RAG]]. They may also study deployment or
 evaluation in short bursts.
 
@@ -150,6 +150,13 @@ LinkedIn/X, plus engagement with DeepLearning.AI and Stanford Coding Place.
 
 Mentoring and community work can produce freelance, full-time, and interview
 opportunities ([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to ML]]).
+
+Swyx names the same mechanism as learning in public. Honest progress,
+corrections, and useful artifacts increase the surface area for opportunity. In
+the AI-engineering version, Ruslan Shchuchkin calls this maximizing luck surface
+area through public output and visible projects
+([[cite:developer-personal-brand-learn-in-public@23:53=>Learn in public]],
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@15:26=>Luck surface area]]).
 
 Revathy's version is more support-oriented. Community answers and shared
 tutorials made it easier to restart after a long break. GitHub workflows and

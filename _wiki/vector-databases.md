@@ -65,19 +65,22 @@ high-dimensional items. Classic tree structures don't remove that problem
 automatically.
 
 Binary search trees fit one-dimensional ordering. KD-trees work only up to a
-certain dimensionality and handle dynamic sets poorly [[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+certain dimensionality and handle dynamic sets poorly
+[[cite:algorithms-data-structures-for-engineers@39:10=>Nearest-Neighbor Data Structures]].
 
 Approximate nearest-neighbor search accepts a close result when the product can
 tolerate it. Examples include choosing between two warehouses with nearly the
 same distance. They also include recommending items that are close enough to a
-user vector [[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+user vector
+[[cite:algorithms-data-structures-for-engineers@42:44=>Approximate Nearest Neighbor]].
 
 R-trees and SS-trees extend the search-tree idea to spatial and similarity
 search. The index narrows the candidate set before distance comparisons finish
 the retrieval. That's the data-structure reason vector databases are more than
 simple vector storage. They combine [[embeddings]], distance metrics, and
 approximate indexing. That combination lets [[Information Retrieval]] systems
-search millions of items without brute-force scans on every request [[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+search millions of items without brute-force scans on every request
+[[cite:algorithms-data-structures-for-engineers@42:44=>Approximate Nearest Neighbor]].
 
 ## Adoption Boundaries
 

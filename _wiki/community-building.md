@@ -109,6 +109,12 @@ shallow gamification. The work also uses customer-development habits such as
 surveys and recurring feedback
 ([[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]]).
 
+Ruslan Shchuchkin gives the lean local-AI version. Start with a simple meetup
+format and gather people around projects. Then use the room to learn which tools
+and workflows practitioners actually use. Organizers then connect community
+operations to [[AI engineering]] learning rather than only event promotion
+([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@33:21=>Lean local AI community]]).
+
 Developer communities can add a more product-facing analytics layer. In the
 data-science DevRel discussion, community signals and support patterns become
 evidence about where users struggle, not only audience-growth metrics

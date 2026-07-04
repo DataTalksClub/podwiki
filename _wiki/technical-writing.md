@@ -99,13 +99,16 @@ Choosing the audience is therefore both a writing rule and a career rule. A
 technical article gives stronger evidence when the reader can see the choice it
 supports.
 
-Consistency is a craft habit, and starting despite friction matters. Blogging
-platforms include Medium, Substack, WordPress, and Jekyll on GitHub Pages. A
-routine can mix morning writing reps with weekend deep work. Distribution
-through Twitter and LinkedIn makes writing part of
-[[career growth]] without reducing it
-to personal branding
+Consistency is a craft habit, but writers still need to start despite friction.
+Writers can use hosted platforms such as Medium and Substack. They can also use
+WordPress or Jekyll on GitHub Pages. Writers can mix morning writing reps with
+weekend deep work. When they distribute through Twitter and LinkedIn, writing
+becomes part of [[career growth]] without reducing it to personal branding
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+
+Swyx adds the owned-platform version. A mailing list, newsletter, and personal
+site give public learning a durable home outside a single social feed
+[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
 
 Using AI to draft can lower the cost of turning rough notes into a post, but it
 doesn't remove the writer's voice problem. The bounded uses are sentence
@@ -135,6 +138,12 @@ and [[open source portfolio evidence]].
 A polished article with no technical choices is weak evidence. A plain README
 can be stronger when it names the problem, shows the run path, and explains
 tradeoffs.
+
+Executive-facing technical writing has a different structure. Ben Taylor
+recommends putting the recommendation first, then keeping the evidence and appendix ready
+for questions. That makes the written artifact useful for decision makers while
+still preserving the technical backing for reviewers
+[[cite:public-speaking-for-data-scientists@39:55=>Executive presentations]].
 
 Tool education needs the same reader context. Learn with Kestra draws on
 examples like Docker, Postgres, and Git. A reader often needs the surrounding

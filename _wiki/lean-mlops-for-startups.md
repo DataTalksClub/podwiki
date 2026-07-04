@@ -74,6 +74,15 @@ that save scarce attention. They should keep the core workflow understandable
 enough to move later
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
+Greg Coquillo gives the prioritization test for moving beyond manual work. Teams
+should identify repeated, unscalable processes where each business use case
+requires fresh people, time, and project management. Those gaps can justify MLOps
+infrastructure that shortens build-test-deploy cycles and lets teams reuse
+models or processes across use cases
+([[cite:building-and-scaling-ai-data-products-with-mlops@39:01=>AI Data Products with MLOps]]).
+For startups, this keeps [[MLOps Roadmap]] work tied to customer delivery rather
+than a generic maturity checklist.
+
 ## Stage 1: Choose SaaS Before You Build
 
 Start with a SaaS-first MVP stack. Use a hosted database and managed cloud

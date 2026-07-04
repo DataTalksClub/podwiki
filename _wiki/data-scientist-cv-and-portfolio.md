@@ -27,13 +27,23 @@ The strongest CV and portfolio make fit easy to see. Recruiter screening starts
 with readable presentation and industry fit. It then checks use-case fit,
 project links, career narrative, and business impact.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
-The candidate-side version treats the CV as a landing page whose job is to earn
-the next conversation. Personal contribution matters because a vague tool list
-doesn't explain what the candidate did.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+Candidates can treat the CV like a landing page. They use it to earn the next
+conversation by showing personal contribution, not a vague tool list.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+Career changers may need several rewrites before the CV shows transferable
+skills in recruiter-friendly language. CJ Jenkins describes moving from an
+academic CV toward a skills-first resume. She also mentions LinkedIn keywords,
+recruiter feedback, and ATS-aware iterations
+[[cite:postdoc-to-data-science-lead-career-transition@17:14=>Postdoc to Data Science Lead]]
+[[cite:postdoc-to-data-science-lead-career-transition@20:40=>Postdoc to Data Science Lead]].
 
-Interviews extend the same rule because project walkthroughs test ownership,
-impact, and business context. A portfolio item has to survive follow-up
-questions about method, metric, tradeoff, and result.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+Candidates face the same rule in interviews because hiring teams use project
+walkthroughs to test ownership, impact, and business context. A portfolio item
+has to survive follow-up
+questions about method, metrics, tradeoffs, and results.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+Candidates can also target public portfolio work through unsolicited redesigns,
+product clones, and case studies. Swyx says those artifacts let a hiring team
+look at how someone thinks about a specific product or role
+[[cite:developer-personal-brand-learn-in-public@38:30=>Learn in Public]].
 
 ## Screening Priorities
 

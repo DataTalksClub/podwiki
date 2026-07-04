@@ -126,7 +126,8 @@ gendered or discouraging phrasing keeps posts from screening people out
 ([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
 Inclusive job posts and careful requirement choices help attract female data
 science talent
-([[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]]).
+([[cite:hiring-for-data-science-jobs-interview-questions-skills@47:06=>How to Hire Data Scientists]],
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@53:53=>How to Hire Data Scientists]]).
 "Rockstar" wording and overloaded bullet lists turn the same issue into a
 culture signal
 ([[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]).
@@ -150,6 +151,9 @@ data engineers
 Recruiter matching depends on industry and use case. Projects, business impact,
 and the target role matter too
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
+Employment gaps should be evaluated through context, current skill evidence,
+and role fit instead of treated as an automatic rejection
+([[cite:hiring-for-data-science-jobs-interview-questions-skills@56:31=>How to Hire Data Scientists]]).
 
 Market reality should change requirements before it lowers standards. When a
 manager asks for several principal data scientists, those scarce profiles can
@@ -181,7 +185,14 @@ and coding tasks, analytical tasks, and objective criteria can test those
 signals.
 Mathematical depth and engineering skill separate when the role requires one
 more than the other
-([[cite:hiring-for-data-science-jobs-interview-questions-skills=>How to Hire Data Scientists]]).
+([[cite:hiring-for-data-science-jobs-interview-questions-skills@14:49=>How to Hire Data Scientists]],
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@18:03=>How to Hire Data Scientists]]).
+
+CJ Jenkins gives a junior-hiring variant of the same screen. He looks for
+smartness and ambition, plus receptiveness to feedback. For candidates still
+filling technical gaps, he also looks for enough humility to learn quickly
+([[cite:postdoc-to-data-science-lead-career-transition@8:41=>Postdoc to Data Science Lead]],
+[[cite:postdoc-to-data-science-lead-career-transition@10:42=>Postdoc to Data Science Lead]]).
 
 Manager hiring needs a different evidence set. Data science manager interviews
 should test team-building judgment, stakeholder management, career development,
@@ -238,6 +249,9 @@ scientist or analyst roles
 New data engineering candidates can show internships and focused training. SQL,
 Python, and projects should explain the data and the problem
 ([[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]).
+For AI engineering, Ruslan Shchuchkin puts more weight on skills, drive, and
+project evidence than on degrees alone
+([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@57:39=>Inside the AI Engineer Role]]).
 
 Junior context matters as much as junior talent. A first data scientist in an
 undefined startup may face missing infrastructure, unclear responsibilities, and

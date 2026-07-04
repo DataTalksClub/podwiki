@@ -48,6 +48,14 @@ reproducibility evidence. AIcrowd, grand-challenge.org, MICCAI challenges, and
 other conference challenge pages can produce domain specialization. They can
 also produce workshop reports or research credibility.[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
 
+Marcello La Rocca's algorithms advice gives a useful boundary for competition
+practice. Focus on applications and problem solving before formal proof depth.
+Then use contests and side projects to practice algorithms on real problems
+[[cite:algorithms-data-structures-for-engineers@5:19=>Applications Before Proofs]]
+[[cite:algorithms-data-structures-for-engineers@15:57=>Practicing Algorithms Outside Work]].
+Competitions help most when they produce explainable work for
+[[Machine Learning Portfolio Projects]], not detached puzzle solving.
+
 ## Rank Limits
 
 Competition rank and career value vary by market. In places with fewer structured

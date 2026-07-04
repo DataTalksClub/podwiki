@@ -59,17 +59,16 @@ A search system prepares the query and corpus before matching. Latency is why
 retrieval rarely means scanning every document. Teams need an index or another
 data structure for user-facing latency.
 
-Bloom filters answer a narrower retrieval question.
-They check whether an item might be present before a heavier lookup.
+Bloom filters answer a narrower retrieval question. Marcello La Rocca describes
+them as probabilistic containment checks
+[[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]].
+They can say absence or possible presence, so false positives come with the design.
 
-They use memory-efficient probabilistic containment and can return false
-positives.
-
-Common retrieval-adjacent uses include crawler URL deduplication and
-routing-table containment checks.
-Adtech systems can use them for device-ID or returning-user checks before
-ranking or personalization begins
-[[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+Common retrieval-adjacent uses include crawler URL deduplication
+[[cite:algorithms-data-structures-for-engineers@34:43=>Bloom Filter Applications]].
+Routing-table containment checks are another retrieval-adjacent use. Adtech
+systems can screen device IDs or returning users before ranking or personalization
+[[cite:algorithms-data-structures-for-engineers@35:59=>Adtech Bloom Filter Example]].
 
 In lexical search, an inverted index links terms to the documents or positions
 where they appear. This makes exact-word lookup efficient. Manual dictionaries
@@ -106,6 +105,17 @@ predictable matching behavior. Solr and Lucene sat at the center of practical
 search work before the current vector wave. Full-text search and NLP-based
 query-content matching belonged to that same practical search work
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+
+Sadat Anwar's OLX search story shows the production side of that boundary
+[[cite:from-software-engineering-to-leading-data-science-teams@6:31=>Search Engineering at OLX]].
+His team inherited Solr firefighting and traced CPU-load spikes
+[[cite:from-software-engineering-to-leading-data-science-teams@8:42=>Solr Autoscaling]].
+After decoupling search from the monolith, the team could change search
+independently. The team could propose, implement, and test changes without tying
+them to the whole application
+[[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
+That makes [[Search Relevance]] an engineering and operations topic, not only a
+matching algorithm.
 
 Semantic retrieval compares representations rather than only matching terms,
 connecting bag-of-words search to dense vectors

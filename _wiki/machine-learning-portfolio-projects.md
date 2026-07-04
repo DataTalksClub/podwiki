@@ -77,6 +77,14 @@ than isolated exercises [[book:20201214-ml-bookcamp=>Machine Learning Bookcamp]]
 compiles competition-winning approaches that translate into portfolio-grade
 work.
 
+Side projects can also prove cadence and product judgment. Pauline Clavelloux
+kept a data-science day job while allocating nights, weekends, and available
+breaks to indie projects. For an ML portfolio, that kind of routine matters when
+the project shows steady shipping, not just a finished notebook. Link the work
+back to [[portfolio-projects=>portfolio projects]] and explain what the project
+taught about users, data, deployment, or operations
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@8:58=>Indie Hacking Side Projects]].
+
 Recruiting and interview episodes apply the same standard to presentation. In
 Land Data Scientist Roles, [[person:lukewhipps=>Luke Whipps]] says projects
 should back up the skills claimed on a resume. He includes Python, SQL,

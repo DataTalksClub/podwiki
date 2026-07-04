@@ -168,6 +168,14 @@ They also make responsible-ML contribution less abstract. Contributors can work
 on documentation, examples, or compatibility issues while they learn why
 fairness metrics need domain judgment.
 
+Academic open-science work is another valid ML contribution surface because
+Johanna Bayer treats software as a research output. Toolboxes, published code,
+and DOIs make methods easier to cite and reuse. They also make methods easier to
+improve. Open code can also create collaboration and career visibility when
+others can run the project
+([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@16:36=>Software as research output]]
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@36:05=>Open code benefits]]).
+
 Small code changes become useful when they include the review material around
 them
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).

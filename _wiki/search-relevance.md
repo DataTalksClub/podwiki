@@ -43,6 +43,19 @@ Vector search may improve a class of matching failures. It doesn't replace
 query understanding or ranking, and it still needs filters, evaluation, and
 user metrics.
 
+Sadat Anwar's OLX work is a concrete production-search example. The first
+problem was operational, with search incidents and onboarding through
+firefighting. The fix started with Solr autoscaling after CPU-load analysis. The
+team then decoupled search from the monolith. After that, the team could move
+relevance and ML work separately
+[[cite:from-software-engineering-to-leading-data-science-teams@6:31=>Search Engineering at OLX]]
+[[cite:from-software-engineering-to-leading-data-science-teams@8:42=>Solr Autoscaling]]
+[[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
+
+Sadat's example links relevance to [[Information Retrieval]],
+[[Software Engineering]], and operations. The ranking idea has to survive
+traffic, ownership, and release constraints.
+
 ## Candidate Generation And Ranking
 
 Search systems usually retrieve a small candidate set before ranking those

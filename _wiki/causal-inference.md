@@ -75,6 +75,13 @@ depend on [[metrics]]: the outcome has to match the product or business
 decision
 ([[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]).
 
+[[person:lorismarini=>Loris Marini]] gives the SaaS operating version. A lead
+indicator is useful only when the team can explain why an event or condition is
+likely to produce stickiness. The same explanation has to cover lower churn or
+higher lifetime value. Teams then turn a [[metrics=>metric]] discussion into a
+causal story about customer behavior
+[[cite:data-professionals-business-skills-in-saas@15:46=>SaaS Business Skills]].
+
 [[person:jakobgraff=>Jakob Graff]] gives the randomized
 version of the same idea in
 the product experimentation episode. He explains A/B testing through the

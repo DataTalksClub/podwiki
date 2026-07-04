@@ -142,11 +142,17 @@ That preparation overlaps with
 because a project walkthrough should expose the same decisions.
 
 For career switchers, the target role decides what proof to build. Oleg
-recommends cold-start projects, synthetic data, and blogging for PhD-to-industry
-candidates in
+recommends cold-start projects for PhD-to-industry candidates in
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+He also recommends synthetic data and blogging.
 Alicja says career changers need practical experience and clear examples in
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]].
+
+CJ Jenkins adds the hiring-manager view for juniors and transition candidates.
+When the candidate is still filling gaps, the screen should test learning speed
+and ambition. It should also test receptiveness to feedback and humility
+([[cite:postdoc-to-data-science-lead-career-transition@8:41=>Postdoc to Data Science Lead]],
+[[cite:postdoc-to-data-science-lead-career-transition@10:42=>Postdoc to Data Science Lead]]).
 That makes
 [[Career Transitions in Data]]
 part of interview prep, not a separate personal-history concern.
@@ -171,6 +177,12 @@ examples. She warns
 against buzzword-heavy CVs that don't make the work interview-ready. Use
 [[CV Screening]] to connect these
 claims to the broader recruiting workflow.
+
+Olga Ivina's data-science hiring criteria add technical excellence, growth
+mindset, humility, and communication to the screen. Candidates should use the
+written evidence to prepare for discussing assumptions as well as tools
+([[cite:hiring-for-data-science-jobs-interview-questions-skills@14:49=>How to Hire Data Scientists]],
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@18:03=>How to Hire Data Scientists]]).
 
 The portfolio should become an interview asset, not a separate gallery. Nick
 asks candidates to walk through projects with ownership. He also asks them to

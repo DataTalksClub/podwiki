@@ -66,7 +66,8 @@ Visibility helps in different ways across public and internal paths.
 Self-marketing and open-source adoption can change recognition outcomes.
 Internal persuasion matters inside companies. Brag documents and signature
 initiatives connect to promotion outcomes
-([[cite:developer-personal-brand-learn-in-public=>Learn in Public]],
+([[cite:developer-personal-brand-learn-in-public@51:10=>Learn in Public]],
+[[cite:developer-personal-brand-learn-in-public@54:16=>Learn in Public]],
 [[person:swyx=>Shawn Swyx Wang]]).
 
 People can make work visible without empty self-promotion by reviewing CVs and
@@ -98,6 +99,10 @@ for the current work before moving on
 Individual-contributor growth stays separate from management growth.
 Troubleshooting, platform breadth, and mentoring sit inside the senior IC path
 ([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+Olga Ivina makes the fork explicit from the hiring-manager side. An IC can grow
+through technical depth. Management adds a different operating surface around
+people, delivery, and organizational tradeoffs
+([[cite:hiring-for-data-science-jobs-interview-questions-skills@42:09=>How to Hire Data Scientists]]).
 
 A people-development layer runs alongside, with goals and agendas giving the
 relationship structure. Listening, boundaries, and follow-through make mentoring
@@ -143,6 +148,12 @@ the work mattered
 move appears in [[technical writing]], where
 design docs, READMEs, and decision records make technical choices legible to
 reviewers and future collaborators.
+
+Sadat Anwar's engineering-manager transition gives a second version of the same
+practice. His mentor told him to keep a brag list and use it to show leadership
+evidence in interviews. The interviews also needed evidence of conflict
+resolution, hiring, and team outcomes
+([[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]]).
 
 Role research and weak-tie learning extend the same idea. Informational
 interviews and company research reveal which skills matter at the next level.
@@ -235,6 +246,11 @@ of career growth uses [[open source]],
 and [[community building]].
 It also connects to role-specific project pages such as
 [[machine learning portfolio projects]].
+
+Ruslan Shchuchkin describes the same compounding effect as increasing "luck
+surface area." Visible work, connections, and repeated attempts make
+opportunities less dependent on one application or one credential
+([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@15:26=>Inside the AI Engineer Role]]).
 
 ## Adjacent Career Topics
 

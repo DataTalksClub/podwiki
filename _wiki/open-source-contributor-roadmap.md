@@ -58,13 +58,19 @@ problem and gives reproduction steps. Then choose a small fix or documentation
 change. The first goal is to show that you can follow project norms.
 
 PR quality, Git skills, environment setup, and maintainer collaboration all
-matter. Docs and demos help users finish a real task, including tutorials for
-Docker, Postgres, and Git
+matter. Contributors can use docs and demos to help users finish a real task.
+For example, they can write tutorials for Docker, Postgres, and Git
 ([[cite:practical-devrel-demofirst-education-and-open-source@39:02=>Demo-First DevRel]]).
 Programs with mentorship can make large-repository contribution less ambiguous.
 They pair onboarding, review expectations, and maintainer collaboration
 ([[cite:practical-devrel-demofirst-education-and-open-source@35:43=>MLH Fellowship]],
 [[cite:practical-devrel-demofirst-education-and-open-source@41:16=>Large-repo onboarding]]).
+
+Johanna Bayer gives a research-software version of the same first step. She
+recommends starting with small repositories and learning the pull-request path.
+Before changing a large scientific code base, contributors can use community
+resources such as The Turing Way
+([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@10:52=>Guided open-source onboarding]]).
 
 The first contribution sequence can be:
 

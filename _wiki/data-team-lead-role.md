@@ -138,11 +138,23 @@ as well ([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
 [[person:sadatanwar=>Sadat Anwar]] adds the software-engineering-to-data-lead
 path. The move from engineering manager into data science management changes
 the work surface. The role moves away from hands-on coding. It moves toward
-conflict resolution and hiring.
+conflict resolution and hiring
+([[cite:from-software-engineering-to-leading-data-science-teams@25:11=>Software Engineer to Data Science Manager]],
+[[cite:from-software-engineering-to-leading-data-science-teams@30:25=>Software Engineer to Data Science Manager]]).
 
-It also moves toward business metrics, stakeholder influence, and team-health
-measurement. The managerial evidence has to be documented before interviews.
-Leadership impact is harder to show than shipped code ([[cite:from-software-engineering-to-leading-data-science-teams=>Software Engineer to Data Science Manager]]).
+The new lead also works with business metrics and stakeholder influence, and has
+to track team health too. The managerial evidence has to be documented before
+interviews.
+
+Sadat describes the transition pain as losing the direct feedback loop of
+hands-on coding. Later managers measure their work through influence, business
+value, and team health
+([[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Software Engineer to Data Science Manager]],
+[[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Software Engineer to Data Science Manager]]).
+Leads have a harder time showing leadership impact than shipped code. They need
+a record of decisions and conflicts, plus hires and outcomes
+([[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]],
+[[cite:from-software-engineering-to-leading-data-science-teams@52:52=>Software Engineer to Data Science Manager]]).
 
 [[person:marianosemelman=>Mariano Semelman]] frames
 new-manager onboarding as deliberate learning before intervention. A new data
