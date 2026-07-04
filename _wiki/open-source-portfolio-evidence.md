@@ -90,12 +90,14 @@ made a project easier to use, maintain, evaluate, or trust.
 
 ## Review Signals
 
-Public proof matters, but different roles value different signals first.
-[[person:vincentwarmerdam=>Vincent Warmerdam]] starts from maintainer load.
-Reproducible issues and small fixes come first, and discussion should precede
-large features. A package shouldn't be published to PyPI before a project has
-enough tests, examples, and maintenance clarity
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+For Vincent Warmerdam, public proof starts with maintainer load:
+
+- reproducible issues and small fixes come first
+- large features need discussion before a PR
+- PyPI releases need tests, examples, and maintenance clarity
+
+([[cite:open-source-ml-contributions@11:45=>Contribute to Open Source ML]],
+[[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]).
 
 An employability lens asks for repositories that prove Python and SQL. Docker,
 Airflow, code organization, and tests matter too. Open-source work is useful
@@ -377,7 +379,7 @@ and a better next attempt
 Avoid treating a forked repository as portfolio evidence when it has no issue,
 pull request, docs change, or test result. Maintainer interaction and a user
 story matter too. Useful work in context matters more than plain GitHub presence
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+([[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
 
 Avoid over-selling stars, badges, or tool names. GitHub stars are separate from
 active engagement and community value

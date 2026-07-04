@@ -70,10 +70,11 @@ Software engineers already bring skills that ML teams need:
 - shipping small versions before building a large platform
 
 Those skills matter because production ML is still software. ML-specific
-engineering debt ties to data access and unclear requirements. Handoff,
-documentation, testing, and monitoring show where ordinary software discipline
-has to adapt to ML systems
-[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+engineering debt ties to data access and unclear requirements. Handoff and
+documentation expose one part of the gap. Testing and monitoring show where
+ordinary software discipline has to adapt to ML systems
+[[cite:software-engineering-for-machine-learning@7:42=>Software Engineering for Machine Learning]]
+[[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]].
 
 In ML software development, familiar engineering habits become data-aware
 habits. Code quality still matters, and the code now has to make data

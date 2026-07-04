@@ -125,6 +125,9 @@ a service another team can run
 The learner-to-practitioner version is practical. Learners move from exploratory
 analysis toward reusable code, project structure, and production habits
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@26:58=>Reusable Code and Production Practices]].
+In Daniel Egbo's account, that move included virtual environments and cloud
+computing as much as code refactoring. The production step also makes the run
+context explicit enough for another machine or teammate.
 
 Use a small project structure before you add platform complexity:
 
@@ -258,7 +261,8 @@ Compare live API calls with precomputed predictions before choosing a serving
 path. Include Dockerized training, model storage, managed endpoints, and cost
 tradeoffs in that decision. Message queues can sequence jobs instead of turning
 everything into a single synchronous request
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@31:33=>From Notebooks to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>From Notebooks to Production]].
 
 Modern AI systems often move away from notebooks toward services and
 observability tools. FastAPI, `uv`, and Arize are one example stack for that

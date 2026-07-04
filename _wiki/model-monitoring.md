@@ -53,6 +53,13 @@ incidents affect people outside the model team. ML incidents connect to
 post-mortems, Five Whys, and recovery steps.[[cite:human-centered-mlops-and-model-monitoring@24:34=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@27:14=>Human-Centered MLOps and Model Monitoring]].
 Monitoring needs a human response path, not only metrics.
 
+The post-mortem is also a debugging format. Weichbrodt uses Five Whys to move
+from a bad recommendation or credit-scoring surprise toward input features,
+business rules, and action items. The response path should create tickets or
+process changes after the diagnosis, not stop at the incident note
+[[cite:human-centered-mlops-and-model-monitoring@32:11=>Human-Centered MLOps]]
+[[cite:human-centered-mlops-and-model-monitoring@39:26=>Human-Centered MLOps]].
+
 Monitoring can be part of the minimum MLOps stack and a roadmap priority. It
 may need to fit existing observability tools rather than force a separate
 ML-only stack.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
@@ -151,6 +158,11 @@ Real response paths include live test sets and small [[a-b-testing=>A/B tests]].
 They also include user feedback channels and internal bug reports. Widespread
 user complaints can serve as signals too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 Those signals matter when labels are late or incomplete.
+
+A live test set works only if the team can later reconstruct what the model saw.
+Locking and logging the arrived features connects monitoring to
+[[feature-stores=>feature stores]] and [[Reproducibility]]
+[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps]].
 
 Before release, teams still care about model selection and accuracy. Variance
 and generalizability matter too. After release teams maintain the

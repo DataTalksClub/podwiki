@@ -81,6 +81,12 @@ queues before moving toward Airflow or Kubernetes when the workload doesn't yet
 justify heavier [[orchestration]]
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
 
+Finance regulation can impose the opposite constraint: ML teams may work on
+Hadoop and OpenShift rather than self-service cloud. Linux and networking then
+become part of the infrastructure skill set. SSH/SCP, firewall requests, and
+internal platform behavior matter too
+([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
+
 Large-model work points the other way. Once GPU cost and distributed training
 dominate, normal cloud-managed ML services may no longer be the right operating
 model. SLURM-like scheduling and bare-metal provisioning enter the infrastructure

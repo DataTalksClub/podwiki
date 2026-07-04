@@ -218,23 +218,23 @@ faster than the normal promotion timeline
 Sustainable career development can include behavioral habits from the
 productivity discussion. Morning light exposure supports circadian regulation
 [[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@18:41=>Biohacking for Data Scientists]].
-Low-light homes may need daylight lamps, and protein-rich breakfasts can support
-focus.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@26:14=>Biohacking for Data Scientists]]
-So are 90-minute sleep cycles for alarm timing.
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@27:50=>Biohacking for Data Scientists]]
+Low-light homes may need daylight lamps. Protein-rich breakfasts can support
+focus too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@26:14=>Biohacking for Data Scientists]]
+The same sustainable-work frame covers 90-minute sleep cycles for alarm timing.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@27:50=>Biohacking for Data Scientists]].
 
 The same episode treats motivation as a behavioral system, not generic
 willpower. Ruslan separates behavioral biohacking from chemical
-interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@6:56=>Biohacking]]
-He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@9:31=>Biohacking]]
-Self-tracking belongs there too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@43:25=>Biohacking]]
+interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@6:56=>Biohacking]].
+He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@9:31=>Biohacking]].
+Self-tracking belongs there too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@43:25=>Biohacking]].
 
-A prioritization framework narrows focus to a small set of life goals instead
-of dozens of interests. The example goals include family, sport, nutrition, and
-work output.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@53:45=>Biohacking]].
-The useful caveat is that some experiments fail or need medical caution, so the
-career lesson is sustainable self-management, not universal biohacking advice.
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@41:16=>Biohacking]][[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@45:47=>Biohacking]]
+Ruslan suggests self-compassion when people judge themselves too harshly
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@55:21=>Biohacking]].
+Some experiments fail or need medical caution. Readers should treat this as
+sustainable self-management, not universal biohacking advice.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@53:45=>Biohacking]]
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@41:16=>Biohacking]][[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@45:47=>Biohacking]].
 
 Rahul Jain treats [[mentoring-in-tech=>mentoring]] as career development rather
 than one-off advice. He separates one-off advice from long-term relationships.

@@ -44,6 +44,12 @@ The AI product opportunity is therefore a [[data-products=>data product]]
 problem. It turns maintained business data into a decision interface that
 finance users can trust and act on.
 
+Finance ML also includes regulated operational use cases such as compliance,
+AML, fraud detection, and document or email automation. Those examples create
+decision support around risk review and information extraction, not only CFO
+forecasting
+([[cite:mlops-and-ml-engineering-in-finance@10:35=>MLOps and ML Engineering in Finance]]).
+
 ## ERP Rigidity and Missing Context
 
 ERPs should integrate the main operating functions of a company. That includes

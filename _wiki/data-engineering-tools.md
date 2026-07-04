@@ -289,11 +289,16 @@ Start with the business use case, then choose the tools.
 9. Check maintenance cost, security, governance, lock-in, and team skills
    before adding specialized tools.
 
-Start with SQL and Python before tool sprawl, then add cloud basics and
-orchestration. Map the movement of data and the [[ETL vs ELT]]
-tradeoff.[[cite:data-engineering-career-path-and-skills=>Data Engineering Career]][[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+The sequence starts with SQL and Python, then adds cloud basics and
+orchestration. Use [[ETL vs ELT]] to map the data movement clearly.
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+
 Check requirements and operating cost before adding specialized platform
-pieces. Also check [[DataOps]] and
+pieces. Kretz warns against starting with many tools. A Python script in a
+Docker container or a managed batch job can prove the pipeline first
+[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines with AWS and Kafka]].
+Also check [[DataOps]] and
 [[data-quality-and-observability=>data observability]].[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 ## Related Pages

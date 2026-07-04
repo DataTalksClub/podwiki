@@ -188,6 +188,12 @@ may begin with feature data or delayed labels rather than model code. Data
 profiles summarize behavior over time. WhyLogs and WhyLabs separate
 open-source profiling from managed
 observability.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+
+In Weichbrodt's fraud example, a unit change from kilometers to meters moves a
+key feature distribution while the service stays technically healthy. Input
+distribution checks, unit checks, and feature-drift alerts belong with schema
+and freshness checks when downstream ML uses the data
+[[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps]].
 [[MLOps Tools]] covers that tooling layer, while pipeline checks live closer to
 [[DataOps Tools]].
 

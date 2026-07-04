@@ -118,7 +118,7 @@ interface or API. Add persistence, logs, and tests before you add complex AI
 architecture. Paul's roadmap places product shipping and frontend work inside
 the AI engineering stack. Backend work and databases belong there too. So do
 deployment and monitoring
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]).
 
 Ruslan's BranchGPT example shows why this stage comes first. The project needed
 an application structure and context-management behavior, not only a model call
@@ -166,7 +166,7 @@ evaluation mechanics.
 Add [[retrieval-augmented-generation=>RAG]] when the product needs changing
 knowledge, private documents, citations, or auditable source context. Paul puts
 RAG and knowledge management inside the AI engineer stack
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@29:12=>AI Engineering Skill Stack]].
 
 [[person:meryemarik=>Meryem Arik]] draws the production
 boundary between retrieval and fine-tuning. She also compares open-source models

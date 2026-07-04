@@ -121,6 +121,11 @@ When the task depends on current state or dynamic planning, context engineering
 becomes part of agent orchestration. The same shift happens when the system
 needs multiple data sources or API integrations.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
+Knowledge management is the hard part of many AI engineering systems. The team
+has to model knowledge so an agent or RAG system can access it. Chunks,
+metadata, a knowledge graph, or another retrieval layer can provide that context
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@29:12=>AI Engineering Skill Stack]].
+
 Tool calls fit when the simpler RAG path can't answer the user's question.
 Tools increase both power and system complexity.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 Hugo's sequence is conservative. Get a useful RAG path first. Add tools only

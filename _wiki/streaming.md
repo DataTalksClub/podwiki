@@ -94,7 +94,7 @@ keeping bounded windows that engineers can test and rerun.
 Kafka appears as the concrete symbol for event streaming, but the guests don't
 treat Kafka as the whole system. Kretz uses Kafka and Kinesis for click-event
 ingestion in
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]].
 Brudaru names Kafka and SQS as common buffers in
 [[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
 He also puts Flink in the stricter streaming path, while warning that many

@@ -175,11 +175,11 @@ framing can look slower than customer-facing delivery. Stakeholder
 communication and the right KPIs explain how data work supports users, other
 teams, and company goals.[[cite:data-leadership-coaching@24:32=>Data Leadership Coaching]]
 
-At head-of-data scope, that visibility becomes a prioritization and literacy
-problem. Managers have to build enough data culture that business teams
-understand why foundation work matters. That culture also helps them understand
-dashboards, models, and [[kpis=>KPIs]] before the next urgent request
-arrives.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@56:20=>B2B SaaS Teams]]
+At head-of-data scope, Katie Bauer frames visibility as prioritization, data
+literacy, and culture building. Managers have to decide which data work gets
+attention and help the organization understand why that choice matters. That
+culture also helps teams understand dashboards, models, and [[kpis=>KPIs]]
+before the next urgent request arrives.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@56:20=>B2B SaaS Teams]]
 
 Evaluation should include adoption and maintainability because poor model
 scores aren't the only production risk. Weak business buy-in and

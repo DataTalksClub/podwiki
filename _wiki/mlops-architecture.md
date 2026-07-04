@@ -351,6 +351,11 @@ tracking and registry integration become shared assets. Deployment paths,
 logging schemas, and monitoring hooks do too. Documentation and support become
 part of the platform.
 
+Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
+platform may need to support API handoffs and ML-engineer bridge roles. Small
+mixed teams can need different support from a centralized deployment path
+([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
+
 [[ML Platforms]] covers the internal-product side of that
 decision.
 

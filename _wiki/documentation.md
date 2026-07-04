@@ -148,6 +148,9 @@ Open-source documentation has two audiences: users trying to solve a problem
 and contributors trying to help the project. README files, guides, and API
 references help explain the project. Examples, contribution guides, and polite
 interaction reduce the work needed to contribute.[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]
+That checklist is deliberately broader than an API reference. A user needs the
+problem statement and first working example. A contributor needs setup,
+expectations, and enough surrounding context to make a small change safely.
 
 Mentorship adds another documentation role. Pull request quality and Git skills
 matter in large repositories. Environment setup and maintainer collaboration

@@ -174,6 +174,12 @@ A team can use explainability tools and still need human review, compliance
 input, and data minimization. It still needs monitoring and a way to handle
 contested outcomes.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
+Nadia Nahar's healthcare and education examples make the audience question
+explicit. Different users need different explanations. Some product decisions
+require team-level fairness and safety work beyond explanation charts
+[[cite:software-engineering-for-machine-learning@47:16=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning@54:16=>Software Engineering for ML]].
+
 Organizational trust theory connects trust factors to feature design and
 business interventions. For churn prediction, an explanation is useful only if
 the business can act on it. The action also has to avoid misleading the

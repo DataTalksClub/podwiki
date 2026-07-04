@@ -339,6 +339,12 @@ traceability and rollback, but it avoids finance-level approval machinery until
 risk or regulation demands it. It borrows scale-up MLOps practices such as CI
 and repo structure. It also borrows testing, monitoring, and reproducibility.
 
+The finance example is still useful for lean teams because it shows tactical
+substitutes for platform pieces. A model registry can start as an S3 bucket
+when the team needs artifact discipline before it has MLflow or a broader
+platform. Preserve the handoff and versioning habit while the stack stays small
+([[cite:mlops-and-ml-engineering-in-finance@35:57=>MLOps and ML Engineering in Finance]]).
+
 It delays centralized platform work until repeated projects or repeated pain
 justify the investment
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]],

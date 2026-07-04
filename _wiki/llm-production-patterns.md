@@ -106,6 +106,12 @@ Context engineering sits between prompting and autonomous agents. Noisy
 context, chunking, metadata, and wrappers affect whether the system behaves
 well. Latency, cost, and garbage-in-garbage-out affect that behavior too.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
+Paul's shipping stack puts the same pieces together operationally. Teams create
+and evaluate agents, ingest data for RAG, run durable workflows, and monitor
+traces with LLMOps tools. That combination matters more than a single framework
+choice
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]].
+
 Long-context models don't remove the evaluation problem. Financial
 long-context evaluation still needs task-specific checks, and retrieval or
 summarization can still matter.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]

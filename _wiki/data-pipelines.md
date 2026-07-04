@@ -70,6 +70,15 @@ A pipeline usually separates raw, staged, modeled, and serving layers. Raw data
 preserves source behavior for replay and backfills. The staging layer cleans
 names, types, and obvious source-system issues.
 
+Kretz gives the production ML version as a sequence from ingestion to
+visualization. Click events may land in Kafka or Kinesis, then move through
+stream or batch processing before storage and product use.
+
+That keeps queues and processing mode in one pipeline discussion. Serving output
+belongs in the same design
+([[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]],
+[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>Production ML Pipelines with AWS and Kafka]]).
+
 The modeled layer represents business entities and facts, plus dimensions and
 metrics. It also represents features. Serving outputs feed marts and dashboards.
 They can also feed feature tables, indexes, APIs, or reverse ETL syncs.

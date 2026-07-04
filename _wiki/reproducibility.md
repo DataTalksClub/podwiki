@@ -197,6 +197,11 @@ across pipeline runs. The model registry alone isn't enough to reproduce a model
 result from three years ago. Code versions, data versions, metadata, and
 workflow design all matter.
 
+Model cards, datasheets, factsheets, and checklists add another reproducibility
+record. They preserve what the model was meant to do, what data shaped it, and
+which product assumptions reviewers accepted
+[[cite:software-engineering-for-machine-learning@42:47=>Software Engineering for ML]].
+
 This becomes an adoption sequence that groups CI, repository structure, and
 parameterization with testing and experiment preservation. It starts from a real
 pain point. Examples include CI/CD when deployment takes months, monitoring when
@@ -207,6 +212,12 @@ immediately
 Teams should add experiment tracking and model registries when they remove a
 concrete delivery risk. The same applies to serving, monitoring, package
 registries, and containers.
+
+Incident reproducibility can be narrower than full training reproducibility. A
+model team may first need to know which feature values arrived for one decision
+and which feature definitions produced them. Logging served features and keeping
+feature-store lookup history makes a later post-mortem possible
+[[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]].
 
 ## Data Boundaries and Governance
 

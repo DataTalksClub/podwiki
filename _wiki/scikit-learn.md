@@ -70,6 +70,10 @@ surface. Scikit-lego is a set of scikit-learn-compatible pipeline components. On
 transformer clips an outlier at prediction time so behavior can live inside a
 normal pipeline
 ([[cite:open-source-ml-contributions@17:15=>Contribute to Open Source ML]]).
+Vincent Warmerdam's design point isn't only compatibility. Small estimators and
+transformers should fit the surrounding scikit-learn API so teams can compare
+behavior without inventing a separate workflow
+([[cite:open-source-ml-contributions@19:00=>Contribute to Open Source ML]]).
 
 The same ecosystem groups scikit-lego with human-learn and whatlies
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]). Human

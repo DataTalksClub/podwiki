@@ -158,7 +158,7 @@ practical starting point is deciding what data the product needs and what risk
 the team is accepting.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
 In healthcare, GDPR and HIPAA sit alongside de-identification and empathy. App
-experiments aren't medical recommendations.[[cite:ai-in-healthcare-and-digital-therapeutics=>Digital Therapeutics]]
+experiments aren't medical recommendations.[[cite:ai-in-healthcare-and-digital-therapeutics@31:41=>Digital Therapeutics Privacy]]
 In high-impact domains, teams should define the guardrail path before they build
 a larger model.
 

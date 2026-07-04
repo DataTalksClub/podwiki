@@ -73,9 +73,15 @@ Some teams keep the boundary closer to data science and domain expertise.
 Generative AI evaluation still draws on statistical rigor and research mindsets.
 Engineering teams also need speed and orchestration. Latency control matters in
 the same role boundary.[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
-AI engineering crosses role boundaries. It overlaps older
+
+AI engineering crosses role boundaries and overlaps older
 [[data-scientist-role=>data scientist]] and
 [[machine-learning-engineer-role=>ML engineer]] responsibilities.
+Paul Iusztin frames the distinction as a shift from analysis or modeling alone
+to end-to-end product ownership. The AI engineer builds the surrounding
+software and data path, while evaluation, deployment, and user-facing product
+behavior belong there too
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@15:13=>AI Engineering Skill Stack]]).
 
 ## Core System Pieces
 

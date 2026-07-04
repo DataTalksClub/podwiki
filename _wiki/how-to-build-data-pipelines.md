@@ -129,10 +129,14 @@ tool-owned commands that reviewers can read outside the scheduler. Use
 [[Apache Airflow]] for DAG design and [[Orchestration]] for the broader tool
 choice.
 
-Production ML pipelines follow the same rule: start with Lambda functions and
-queues. Adopt Airflow or Kubernetes when the simple chain becomes hard to
-operate
+For production ML pipelines, use Lambda functions and queues first. Move to
+Airflow or Kubernetes when the simple chain becomes hard to operate
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>Production ML Pipelines with AWS and Kafka]].
+
+For stakeholder proof, Kretz starts even smaller with a zero-cost proof of
+concept. Quantify possible ROI before deciding which pipeline pieces deserve
+automation
+[[cite:production-ml-pipelines-with-aws-and-kafka@58:56=>Production ML Pipelines with AWS and Kafka]].
 
 Modern data engineering discussions make the same simple-first point from a
 cost perspective. DuckDB plus GitHub Actions can run small workflows cheaply.

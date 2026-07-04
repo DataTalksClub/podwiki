@@ -75,7 +75,7 @@ try to keep both benefits ([[cite:data-science-team-structure-and-org-design=>De
 adds the cross-domain version. He describes building AI work at King and
 helping H&M structure an early machine learning function. At Sidekick Health,
 the assignment became building the data science and AI team. The same buildout
-work appears in different domains ([[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]).
+work appears in different domains ([[cite:ai-in-healthcare-and-digital-therapeutics@2:08=>AI in Healthcare and Digital Therapeutics]]).
 
 For the lead, the lesson isn't to copy one org chart across gaming, retail, and
 healthcare. It's to adapt team structure to the product context. The role also
@@ -89,9 +89,13 @@ land ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]])
 
 [[person:katiebauer=>Katie Bauer]] adds a manager's
 view from B2B SaaS. Her episode connects data science management to matrix
-work, mentorship, documentation, and stakeholder expectations. Career systems
-belong in the same management work ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]).
-That version makes people development more explicit than the early-team buildout.
+work and mentorship. It also covers documentation and stakeholder expectations.
+Career systems belong there too ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Teams]]).
+
+Katie's case makes people development explicit by treating the IC/management
+boundary as a pendulum. Trying people leadership can help even when someone
+later returns to a senior IC path
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@25:54=>People Leadership]].
 
 [[person:barbarasobkowiak=>Barbara Sobkowiak]] separates
 manager and expert paths. Her discussion says a manager needs strategy, team
@@ -138,10 +142,17 @@ That makes the lead responsible for how data scientists and engineers work with
 product managers. Designers and analysts belong in that operating model too.
 
 [[person:terezaiofciu=>Tereza Iofciu]] adds the
-leadership-transition view. Moving from IC to lead changes the work from direct
-execution to feedback culture, visibility, and product mindset. KPIs and
-influence without authority matter too. Stakeholder framing and empathy matter
-as well ([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+leadership-transition view. Moving from IC to lead shifts the work toward
+feedback culture and visibility. Product mindset, KPIs, and influence without
+authority matter too. Stakeholder framing and empathy belong in that shift
+([[cite:data-leadership-coaching@6:17=>Leadership Coaching]],
+[[cite:data-leadership-coaching@24:32=>Leadership Coaching]],
+[[cite:data-leadership-coaching@46:00=>Leadership Coaching]]).
+
+Her span-of-control example treats manager attention as finite. Around the
+"pizza" size of seven or eight reports, relationship quality and support can
+degrade unless the team design changes
+([[cite:data-leadership-coaching@12:38=>Leadership Coaching]]).
 
 [[person:sadatanwar=>Sadat Anwar]] adds the software-engineering-to-data-lead
 path. The move from engineering manager into data science management changes
@@ -171,6 +182,12 @@ The lead should also set delivery expectations before trying to change the team.
 The lead owns a realistic 30/60/90 plan, not just personal productivity
 ([[cite:data-science-leadership-hiring-mlops@12:52=>Leadership Hiring MLOps]],
 [[cite:data-science-leadership-hiring-mlops@15:16=>Leadership Hiring MLOps]]).
+
+He also shows the delegation boundary: a manager may still review code or build
+small prototypes. Architectural and delivery ownership should move through
+senior engineers instead
+([[cite:data-science-leadership-hiring-mlops@52:37=>Leadership Hiring MLOps]],
+[[cite:data-science-leadership-hiring-mlops@54:58=>Leadership Hiring MLOps]]).
 
 The boundary with a
 [[data-architect-role=>data architect]] is that the

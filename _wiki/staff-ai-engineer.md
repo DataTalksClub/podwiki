@@ -87,6 +87,12 @@ matter too. The same person may still need to make tech-lead decisions
 ([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@3:24=>Staff AI Engineer Transition]],
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@5:43=>Staff AI Engineer Transition]]).
 
+That makes onboarding part of the role, not a prelude to it. Tatiana
+Gabruseva names missing mentorship during onboarding as a challenge. Finding
+mentors quickly helps new staff engineers learn local systems, roadmap norms,
+and decision paths
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@17:45=>Staff AI Engineer Transition]]).
+
 The strongest AI and data-science projects connect requirements and data to a
 model or model-backed application. Deployment and operations belong in the same
 path. Monitoring and learning from production mistakes belong there too. Model
@@ -127,7 +133,7 @@ dynamic planning, or several API integrations
 The staff-level responsibility is to choose the simplest architecture that can
 meet the product and reliability bar. Planning, execution, traces, and data
 pipelines connect agent work back to production engineering
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]]).
 
 Staff AI engineering therefore overlaps with
 [[Agent Engineering]],
@@ -215,6 +221,11 @@ with ML and system design. The offer can depend on ML design and system design.
 Behavioral evidence, cultural fit, and coding ability matter too
 ([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>Staff AI Engineer Transition]],
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI Engineer Transition]]).
+
+For staff-level candidates coming from research, mock interviews aren't just
+rehearsal. They expose whether research decomposition, engineering tradeoffs,
+and system-design assumptions are legible to industry interviewers
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI Engineer Transition]]).
 
 Tatiana also names staff-engineering and leadership books as part of the
 transition toolkit. Those books keep the role connected to [[Leadership]] and

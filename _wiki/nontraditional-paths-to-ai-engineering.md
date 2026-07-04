@@ -60,6 +60,12 @@ work, engineers, tools, and data fit together.
 
 That context later shaped "wafers at risk" prediction work.
 
+Paul Iusztin adds the AI-engineering version of this advantage. Generalists can
+use AI tools to extend into TypeScript, SQL, frontend, and backend work.
+Deployment can become part of the same learning path. The hiring proof is still
+ownership of the end-to-end product, not a claim that AI filled every skill gap
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@32:17=>AI Engineering Skill Stack]]).
+
 ## Proof Beats Biography
 
 The episodes are sympathetic to unusual biographies, but hiring proof comes

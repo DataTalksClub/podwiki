@@ -151,6 +151,12 @@ Those examples keep agent engineering close to normal application architecture.
 A tool call still needs a backend, authentication, latency control, and failure
 handling.
 
+Iusztin places agents inside a broader full-stack AI engineer role. The agent
+is one system piece beside frontend, backend, databases, and RAG. Deployment
+and LLMOps sit in the same product path. That keeps agent work grounded in
+product ownership instead of a standalone demo
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]].
+
 ## Retrieval, Memory, and Context
 
 Retrieval is one of the main tools agents use. It gives the system access to

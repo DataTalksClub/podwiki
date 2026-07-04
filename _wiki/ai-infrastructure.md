@@ -102,6 +102,9 @@ Daniel Egbo's internship example tested models on Intel hardware
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Radio Astronomy to ML]].
 That shifted the question from notebook success to whether the model fit the
 target deployment environment.
+Packaging, GPU availability, and device constraints become part of the model
+evaluation surface when the target is edge hardware rather than a generic cloud
+endpoint.
 That connects AI infrastructure to [[Notebook to Production AI Systems]] and to
 the portfolio discipline in
 [[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].

@@ -137,6 +137,11 @@ example turns domain research work into portfolio-grade data engineering evidenc
 ([[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to ML and Data Engineering]],
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to ML and Data Engineering]]).
 
+It's useful because the storage, processing, and orchestration boundaries are
+visible. The source database and object storage are separate from the Spark
+transformation. The warehouse target and scheduler are also separate enough for
+a reviewer to look at.
+
 A reviewer should be able to run the pipeline and look at a failed task. They
 should also be able to rerun the job without private instructions. Scheduling
 sits around the modern stack

@@ -152,6 +152,12 @@ code review complete it alongside CI/CD
 [[Software Engineering]]).
 The tool-agnostic path starts with fundamentals before a new platform.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
+Finance ML engineering shows what those fundamentals include. Python remains
+the core language, while Linux commands, bash, and networking basics enter
+on-prem work. Cloud services and stakeholder communication matter when models
+move through corporate DevOps
+([[cite:mlops-and-ml-engineering-in-finance@45:04=>MLOps and ML Engineering in Finance]]).
+
 The role also needs ML literacy. The MLOps engineer doesn't have to be the
 strongest modeler on the team. Training versus inference still affects useful
 release paths. Features, labels, and metrics matter too. Artifacts and drift

@@ -222,12 +222,16 @@ someone operate or reproduce the project later. These documents matter in data
 work because pipelines, models, dashboards, and metrics often outlive the person
 who first built them.
 
-Internal projects can borrow open-source documentation checklists for README
-material, guides, API reference, and examples
+Internal projects can borrow open-source documentation checklists. README
+material, guides, API reference, and examples all transfer to internal work
 [[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]].
+
 For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
 to "how do I use it safely?"
+It also helps reviewers separate explanation gaps from code gaps. A missing
+guide, unclear API reference, or absent example can block review even when the
+implementation works.
 
 ## Public Learning and Career Proof
 

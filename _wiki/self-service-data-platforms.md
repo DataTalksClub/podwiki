@@ -138,7 +138,12 @@ For self-service platforms, governance should clarify the default path by
 showing dataset ownership plus access rules. Ashdown and Gilad describe this as
 guardrails for democratized access. They compare the request-and-approval flow
 to a shopping cart rather than a bespoke ticket queue [[cite:cloud-data-governance@42:04=>Cloud Data Governance]][[cite:cloud-data-governance@47:02=>Cloud Data Governance]].
-It should also show policies, lineage checks, and quality checks. Use [[Data Governance]]
+It should also show policies, lineage checks, and quality checks.
+
+Enforcement may happen through a catalog interface or at the storage control
+plane. The supported path has to make the policy visible before access is
+granted
+[[cite:cloud-data-governance@45:04=>Cloud Data Governance]]. Use [[Data Governance]]
 and [[Data Quality and Observability]]
 for those adjacent control layers.
 

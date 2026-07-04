@@ -39,10 +39,14 @@ clear niche, a repeatable format, a safe place to participate, and visible
 paths from attendee to contributor.
 
 On the niche and format side, DataTalks.Club began from a specific need. Early
-forums and a landing page formed a lightweight launch path. Eventbrite and
-automation handled planning and scheduling
+forums and a landing page formed a lightweight launch path. Eventbrite handled
+event listing, while automation handled promotion and scheduling
 ([[cite:datatalksclub-building-scaling-data-community@10:05=>DataTalks.Club Behind the Scenes]],
 [[cite:datatalksclub-building-scaling-data-community@20:22=>DataTalks.Club Behind the Scenes]]).
+The automation detail matters because community operations can be batched.
+Posting an event once and letting Zapier distribute it reduces organizer load
+while keeping the cadence visible
+([[cite:datatalksclub-building-scaling-data-community@20:22=>DataTalks.Club Behind the Scenes]]).
 
 The early community work isn't only promotion. It's the repeated operational
 work that makes people know when and where to participate. Scaling to thousands
@@ -104,6 +108,9 @@ Open Source Spotlight and Minis sit alongside Book of the Week, live coding,
 and office hours. These formats give learners smaller ways to participate before
 they become teaching assistants, course contributors, or speakers
 ([[cite:datatalksclub-building-scaling-data-community@24:38=>DataTalks.Club Behind the Scenes]]).
+They also separate the community calendar into different commitment levels.
+Short tool talks, book discussions, live practice, and support sessions can
+serve different members without forcing every event into the same format.
 
 The course portfolio connects to the product work behind scaled courses.
 Community building therefore includes [[teaching]] and course design.

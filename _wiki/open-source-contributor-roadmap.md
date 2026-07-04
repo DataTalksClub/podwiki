@@ -87,14 +87,22 @@ coordination, onboarding, or reliable handoff.
 
 ## First Reviewable Contributions
 
-Start with a project you can run locally. Open one issue that explains the
-problem and gives reproduction steps. Then choose a small fix or documentation
-change. The first goal is to show that you can follow project norms.
+Start with a runnable project and open a reproducible issue. Then choose a
+small docs or code change to show project norms.
+
+Vincent Warmerdam treats that issue as real contribution work. It lets
+maintainers verify the failure before anyone writes code
+([[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]).
 
 PR quality, Git skills, environment setup, and maintainer collaboration all
 matter. Contributors can use docs and demos to help users finish a real task.
 For example, they can write tutorials for Docker, Postgres, and Git
 ([[cite:practical-devrel-demofirst-education-and-open-source@39:02=>Demo-First DevRel]]).
+
+For code PRs, the practical preparation is broader than the patched line of
+code. It includes packaging and tests. Formatting, pre-commit hooks, GitHub
+workflow, and CI belong there too
+([[cite:open-source-ml-contributions@27:40=>Contribute to Open Source ML]]).
 
 Programs with mentorship can make large-repository contribution less ambiguous.
 They pair onboarding, review expectations, and maintainer collaboration
@@ -119,11 +127,14 @@ The first contribution sequence can be:
 ## Documentation and Demos as Contribution Work
 
 Documentation isn't a side quest in this roadmap. It's evidence that you can
-understand a user, explain a system, and make a project easier to adopt.
-That's why docs work belongs with [[Documentation]],
-[[Technical Writing]], and
-[[Developer Relations]], not
-only with README cleanup.
+understand a user and explain a system. It also makes a project easier to adopt.
+
+That's why docs work belongs with [[Documentation]] and
+[[Technical Writing]]. It also belongs with [[Developer Relations]], not only
+README cleanup.
+Vincent's checklist names README material and guides. API reference, examples,
+and contribution notes are also part of the project surface
+([[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]).
 
 Writing starts with audience and outline, then turns design docs and decision
 logs into career evidence. README files, quickstarts, and repo tours count too

@@ -88,6 +88,11 @@ feedback has to be part of that path. So do stakeholder decisions and the
 operational handoff that keeps the work usable after modeling
 ([[cite:data-science-leadership-hiring-mlops@36:12=>Data Science Leadership, Hiring, and MLOps]]).
 
+His start-simple advice turns that lifecycle into staged risk reduction. Ship a
+small production test. Learn from the product signal before funding a more
+complex model or MLOps path
+([[cite:data-science-leadership-hiring-mlops@33:36=>Data Science Leadership, Hiring, and MLOps]]).
+
 Data product work uses the same definition. The operating model starts with
 intake, prioritization, and Definition of Done. KPIs and feasibility checks come
 before pilots. Later work includes A/B tests and rollout. Monitoring, demos, and
@@ -275,11 +280,19 @@ testing whether a model can reach a useful result
 
 Software engineering research adds the process gap. CRISP-DM describes the ML
 workflow, and Agile describes software delivery. Production ML still needs one
-integrated path from requirements through testing. ML practitioners need to be
-involved while requirements, data assumptions, acceptance criteria, and test
-plans are still being shaped. Their role starts before a ticket reaches modeling
+integrated path from requirements through testing.
+
+ML practitioners need to be involved while requirements and data assumptions are
+still being shaped.
+
+Acceptance criteria and test plans matter at the same stage. Their role starts
+before a ticket reaches modeling
 ([[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]],
 [[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]).
+
+That integration work is project management, not just MLOps tooling. The team
+has to coordinate discovery uncertainty with delivery cadence before the model is
+passed to software engineers.
 
 A Kanban board organizes delivery stories. Demos keep stakeholder feedback in the
 lifecycle alongside feasibility assessment, MVPs, and fail-fast checks

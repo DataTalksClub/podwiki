@@ -131,6 +131,16 @@ the existing solution, expert judgment, and expected KPI. That can route the
 work toward a moving average, dashboard, or operating change before ML
 ([[cite:data-science-manager-vs-expert-hiring-guide@50:12=>Data Science Manager vs Expert]]).
 
+Lina Weichbrodt uses the same filter for human-centered MLOps intake. Write the
+business case with the stakeholder, name the KPIs, and compare alternatives
+before treating AI as the default solution
+([[cite:human-centered-mlops-and-model-monitoring@04:50=>Human-Centered MLOps]],
+[[cite:human-centered-mlops-and-model-monitoring@09:43=>Human-Centered MLOps]]).
+Stakeholder fears should become mitigations and measurable checks, not vague
+resistance. That turns buy-in into a design constraint the team can demo and
+monitor
+([[cite:human-centered-mlops-and-model-monitoring@18:29=>Human-Centered MLOps]]).
+
 The same feasibility check asks whether the available data is clean enough. It
 also asks whether machine learning is necessary at all. Those questions connect
 business ML discovery to [[Data Quality and Observability]] and
@@ -175,10 +185,15 @@ execute or doesn't value
 
 [[person:marianosemelman=>Mariano Semelman]] gives the data science leadership
 version of the same product-first rule. A model matters when it helps the final
-user solve a problem. Modeling time is only one part of the work. The first
-version should be the simplest viable connection to the product
-([[cite:data-science-leadership-hiring-mlops@29:29=>Leadership and MLOps]]
+user solve a problem. Modeling time is only one part of the work. Start with
+the simplest viable connection to the product
+([[cite:data-science-leadership-hiring-mlops@29:29=>Leadership and MLOps]],
 [[cite:data-science-leadership-hiring-mlops@36:50=>Leadership and MLOps]]).
+
+Leaders should spend deep modeling effort only where the product or production
+experiment can show user impact. They can then iterate from the simplest
+working release
+[[cite:data-science-leadership-hiring-mlops@36:50=>Leadership and MLOps]].
 
 [[person:gregcoquillo=>Greg Coquillo]] applies that thinking to AI data
 products, where customer needs and documentation review come before roadmap
@@ -258,6 +273,10 @@ The intake belongs close to [[data quality and observability]] and
 unclear requirements and data access gaps. They can block the product before the
 model matters. Deployment gaps and weak documentation create the same risk
 ([[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]]).
+
+Her product definition also matters for business intake. An ML product isn't
+only a trained model or API. It's an end-user workflow around the model
+([[cite:software-engineering-for-machine-learning@21:54=>Software Engineering for ML]]).
 
 Data readiness is also a product question. [[person:zhamakdehghani=>Zhamak Dehghani]]
 describes data products through quality, completeness, ownership, and

@@ -210,6 +210,12 @@ application work, start with [[AI Engineering]] and
 [[LLM Evaluation Workflows]]. Then use [[Model Monitoring]] and
 [[LLM Production Patterns]].
 
+Nadia Nahar's software-engineering lens explains why this path can't stop at
+model export. Product failures include discontinuation, unmet requirements,
+poor data, and deployment gaps. A production path therefore needs requirements
+and testing. Documentation, ownership, and serving code belong there too
+([[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]]).
+
 For episode navigation, start with:
 
 - [[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]

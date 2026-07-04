@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11211
+    "links": 11222
   },
   "nodes": [
     {
@@ -29074,6 +29074,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "podcast:personal-brand-for-data-professionals",
       "kind": "wiki-chip",
       "weight": 1
@@ -31571,6 +31577,12 @@
     {
       "source": "wiki:context-engineering",
       "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39892,6 +39904,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -42473,6 +42491,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53194,6 +53218,12 @@
     },
     {
       "source": "wiki:interpretability",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
       "target": "wiki:annotation-quality-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -60316,6 +60346,12 @@
     },
     {
       "source": "wiki:machine-learning-tools",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
       "target": "podcast:from-startup-engineering-to-freelance-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -63004,6 +63040,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "wiki:data-governance",
       "kind": "article-chip",
       "weight": 1
@@ -64409,6 +64451,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:feature-stores",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65915,6 +65963,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -72532,6 +72586,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "podcast:interpretable-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -72551,6 +72611,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "podcast:research-to-production-ml-systems-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },

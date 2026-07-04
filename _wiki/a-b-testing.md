@@ -164,8 +164,11 @@ Teams with model-backed products often stage rollout. Offline model work and
 shadow mode come before full rollout. A/B tests sit in the same release
 sequence ([[cite:production-ml-mlops-and-data-team-building=>Production ML]]).
 Baselines and metrics fit the same sequence ([[cite:machine-learning-system-design-interview=>ML System Design]]).
-Live test sets and small A/B tests detect model issues before they become wider
-incidents ([[cite:human-centered-mlops-and-model-monitoring=>Model Monitoring]]).
+
+Live test sets and small 1%-2% A/B tests can detect model issues before they
+become wider incidents. They're monitoring instruments as much as experiment
+instruments, so the team needs feature logging and a response owner
+([[cite:human-centered-mlops-and-model-monitoring@29:23=>Model Monitoring]]).
 
 Live data products can make assignment and exposure logging an engineering
 problem, not only an analytics problem. The employee-swiping recommender needed

@@ -87,6 +87,12 @@ compatible pieces rather than one monolithic library. It also connects to
 and [[Machine Learning System Design]],
 where baselines and feature decisions matter more than algorithm novelty.
 
+Scientific ML adds domain libraries to the same selection logic. Daniel Egbo
+used Astropy with NumPy and SciPy because large astronomy data made ordinary
+pandas workflows awkward. The useful tool understood astronomy data and still
+fit Python practice
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@24:33=>Radio Astronomy to ML and Data Engineering]].
+
 For deep learning frameworks beyond scikit-learn,
 [[book:20210503-machine-learning-using-tensorflow-cookbook=>Machine Learning Using TensorFlow Cookbook]]
 by Audevart, Banachewicz, and Massaron covers practical TensorFlow recipes. The
@@ -105,6 +111,12 @@ Hugging Face integration
 Compatibility is the useful boundary here. Teams can adopt fairness and
 interpretability tools more easily when they fit the modeling APIs practitioners
 already use.
+
+Decision optimization adds another tool family beside prediction libraries.
+Dan Becker names OR-Tools, Gurobi, Pyomo, and open-source solver options for
+turning predictions into constrained decisions. Those tools belong when the
+team can write the objective, constraints, and decision variables clearly
+[[cite:machine-learning-decision-optimization@22:00=>Machine Learning Decision Optimization]].
 
 ## Reproducibility and Experiment Records
 

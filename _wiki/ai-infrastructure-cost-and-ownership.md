@@ -194,7 +194,9 @@ ownership can still block adoption
 Serving through SageMaker endpoints shifts some runtime work to AWS. The
 team can pay for managed availability. It can also choose simpler deployment
 paths or precomputed predictions when latency allows
-[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@37:53=>Production ML Pipelines with AWS and Kafka]].
+Kretz's caution is cost-based: managed endpoints can simplify serving, but they
+aren't the default answer for every notebook-to-production path.
 
 Teams should separate managed convenience from strategic dependency, even when
 a startup accepts lock-in to learn faster. It should still keep code and data

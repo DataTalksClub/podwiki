@@ -259,10 +259,10 @@ Large finance organizations often adopt MLOps through existing constraints.
 Finance environments may include on-premises core systems, OpenShift clusters,
 and firewall questions. Internal package registries, approval chains, and
 established DevOps governance sit in the same environment
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance@18:52=>MLOps in Finance]].
 Release approval gets faster after repeated successful deployments because
 governance stakeholders learn to trust the people, code, and process
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+[[cite:mlops-and-ml-engineering-in-finance@22:25=>MLOps in Finance]].
 
 Finance tooling can stay pragmatic. An S3 bucket can act as a tactical model
 registry or data-versioning workaround while the team waits for a strategic

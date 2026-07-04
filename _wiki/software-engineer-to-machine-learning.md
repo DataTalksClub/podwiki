@@ -96,9 +96,10 @@ That branch overlaps with
 [[Machine Learning System Design]].
 
 The product-and-process route treats requirements, data access, expectation
-setting, and development order as part of the transition. ML products fail when
-those constraints are weak, especially when teams separate ML from ordinary
-software processes [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+setting, and development order as part of the transition. ML products fail
+when those constraints are weak. That risk grows when teams separate ML from ordinary
+software processes [[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for Machine Learning]]
+[[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]].
 
 For a software engineer, this means the gap isn't only algorithms. It's also
 requirements and data quality. Collaboration, documentation, and product-facing

@@ -227,7 +227,8 @@ coordination cost. Maximal governance isn't right for every team.
 Cloud governance is explicit about scope. Minimal governance is fine when the
 organization doesn't need a large program. Data classification and taxonomy come
 next. Policies cover retention, freshness, and purpose-based access
-[[cite:cloud-data-governance=>Cloud Data Governance]]. Those policies keep
+[[cite:cloud-data-governance@19:40=>Cloud Data Governance]][[cite:cloud-data-governance@24:14=>Cloud Data Governance]].
+Those policies keep
 governance tied to decisions the team can explain.
 
 The distributed version uses federated governance. That means shared policy has
@@ -290,7 +291,10 @@ Data democratization connects to literacy, documentation, and self-service
 analytics
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 Governance policies act as guardrails for democratized access, not only as
-restrictions [[cite:cloud-data-governance=>Cloud Data Governance]]. Early
+restrictions [[cite:cloud-data-governance@42:04=>Cloud Data Governance]].
+Request workflows can make that guardrail feel like a shopping-cart access path
+rather than a bespoke ticket queue
+[[cite:cloud-data-governance@47:02=>Cloud Data Governance]]. Early
 releases and customer iteration beat heroic delivery
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Users need to find the data, trust it, understand its limits, and act on it.

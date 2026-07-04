@@ -198,7 +198,7 @@ Serving choice reaches operations because live APIs and precomputed predictions
 create different freshness, latency, cost, and failure-handling paths. Live calls
 fit request-time context, while precomputed outputs fit looser freshness needs
 and tighter runtime budgets
-[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]].
+[[cite:production-ml-pipelines-with-aws-and-kafka@31:33=>Production ML Pipelines with AWS and Kafka]].
 
 Serving models and embeddings connect with MLOps roles
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].

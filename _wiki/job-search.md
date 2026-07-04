@@ -90,6 +90,10 @@ technical challenges.
 That moves the application away from a generic funnel
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@50:21=>Hiring and Managing Data Science Teams in B2B SaaS]]).
 
+The outreach has to be specific enough to be useful to a busy hiring manager.
+Name the company context, show preparation, and ask for something small rather
+than sending a generic job request.
+
 Point the search toward a target company or industry, then find practitioners in
 that company or nearby roles.
 
@@ -179,6 +183,9 @@ interviews. Early rejections become feedback on gaps to fix before the next
 attempt
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@29:41=>From Academia to Staff AI Engineer]]
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@32:08=>From Academia to Staff AI Engineer]].
+Tatiana Gabruseva's staff-level search adds a practical loop: referrals and
+warm introductions create interview chances. Each rejection can identify the
+next preparation track instead of ending the search.
 
 Recruiter attention is easier to earn when outreach shows company research.
 Before contacting a company or employee, candidates should understand the

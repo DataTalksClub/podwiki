@@ -74,10 +74,15 @@ governance work, not paperwork after launch.
 Product-centric fairness turns the same decision into
 [[Software Engineering]] and product work. The question isn't only whether the
 model is biased. It asks whether requirements, surrounding software components,
-team boundaries, and release checks reduce harm in the complete product.
+and team boundaries reduce harm. Release checks belong in that review too.
+
 That connects responsible AI to [[practices]], [[Data Product Management]], and
 [[Machine Learning System Design]]
 [[cite:software-engineering-for-machine-learning@54:16=>Software Engineering for Machine Learning]].
+
+Nadia Nahar's framing shifts accountability from model fairness to product
+safety for users. Documentation, team roles, and testing become part of the
+governance decision.
 
 Healthcare experimentation shows how the boundary changes by risk. Stefan
 Gudmundsson contrasts low-risk app tests with medical recommendations that need

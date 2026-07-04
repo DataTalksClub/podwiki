@@ -401,6 +401,11 @@ a distinct surface
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
 [[Software Engineering]]).
 
+Her B2B SaaS example also shows why analytics engineering often appears beside
+product analysis and marketing science. The modeled data layer has to support
+multiple business surfaces without turning every request into bespoke analysis
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]].
+
 ## Portfolio and Hiring Signals
 
 A strong analytics engineer portfolio proves reusable data work, not only

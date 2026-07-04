@@ -244,6 +244,11 @@ CI. Packaging and pre-commit hooks come after that
 ([[cite:open-source-ml-contributions@11:45=>Contribute to Open Source ML]],
 [[cite:open-source-ml-contributions@32:40=>Contribute to Open Source ML]]).
 
+When a company supports that work, the DevRel value isn't only awareness.
+Vincent frames employer-backed open source as hiring signal, engineering
+training, and brand value, with legal constraints setting the boundary
+([[cite:open-source-ml-contributions@32:40=>Contribute to Open Source ML]]).
+
 For product-led open source, the starting point is repeated client pain and user
 feedback. DLT moves from recurring data-ingestion problems through developer
 tooling to product iteration

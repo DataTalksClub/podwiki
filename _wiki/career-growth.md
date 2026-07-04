@@ -214,10 +214,17 @@ This is the career-growth side of
 helps people remember decisions, evaluate tradeoffs, and trust the work.
 
 Speaking makes the same evidence live in a room. Talks that overload the
-audience with technical detail work poorly. Tailoring the message, translating
-data work into narrative, and keeping the technical appendix ready helps when
-presenting to executives
+audience with technical detail work poorly. Tailor the message and translate
+data work into narrative. Keep the technical appendix ready when presenting to
+executives
 ([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
+
+Open-source work can feed the same visibility loop through talks and blog
+posts. Meetups and training examples count too. Vincent Warmerdam adds a
+caution. The public artifact works best when it explains why the tool or API
+matters. It shouldn't only show that the repository exists
+([[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
+
 Career growth here depends on
 [[developer relations]] and
 [[communication]], especially for

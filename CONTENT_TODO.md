@@ -91,6 +91,29 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
+The `docs/mining/report_pod_03.md` high-value missing-edge batch was integrated
+on 2026-07-05:
+
+- healthcare, biohacking, and domestic-risk evidence now strengthens
+  personalization, career-development, team-lead, privacy, responsible-AI,
+  entity-resolution, monitoring, adoption, and portfolio pages
+- cloud-governance, leadership-coaching, data-science leadership, and B2B SaaS
+  team-management evidence now strengthens governance, self-service, team,
+  leadership, manager, KPI, hiring, analytics-engineering, and software
+  engineering pages
+- DataTalks.Club community, staff-AI, radio-astronomy, and hiring evidence now
+  strengthens community, teaching, staff-AI, academic-transition,
+  data-scientist-role, job-search, scientific tooling, notebook-to-production,
+  AI infrastructure, and end-to-end pipeline pages
+- human-centered MLOps, decision optimization, finance MLOps, production ML
+  pipelines, and AI-engineering evidence now strengthens business ML,
+  monitoring, optimization, finance, MLOps, infrastructure, pipelines, LLMOps,
+  AI-engineering, RAG, agent, and portfolio pages
+- Vincent Warmerdam and Nadia Nahar evidence now strengthens open-source,
+  contributor-roadmap, scikit-learn, documentation, OSS portfolio, career,
+  software-engineering, MLOps architecture, model-registry, reproducibility, and
+  responsible-AI pages
+
 The `docs/mining/report_pod_05.md` high-value missing-edge batch was integrated
 on 2026-07-05:
 

@@ -153,6 +153,10 @@ model requires. Stronger [[mlops]], [[machine-learning-system-design]], and
 them to the final deployment step.
 [[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]
 
+Nadia Nahar's examples show code handoff and API handoff as two coordination
+choices. ML-engineer bridge roles and all-in-one product teams solve different
+coordination problems and fail in different ways.
+
 Analysts and data scientists translate questions into metrics and
 recommendations. They may also run experiments or build models. Product and
 business partners decide what action the work should support.

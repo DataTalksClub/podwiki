@@ -139,6 +139,12 @@ and warehouse pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>Radio Astronomy]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy]]
 
+That path shows a useful transition route. Keep the domain-expert judgment that
+makes scientific data interpretable while adding reusable code and production
+data habits. The work then reads as applied ML or data engineering rather than
+only research
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]].
+
 Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
 Those paths connect to the

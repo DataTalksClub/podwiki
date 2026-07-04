@@ -116,7 +116,7 @@ it. Model cards, data factsheets, and review checklists preserve model context
 and data context. They also preserve product use and
 [[responsible AI and governance]] evidence, while the registry preserves artifact
 identity and promotion state.
-[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning@42:47=>Software Engineering for ML]]
 
 ## Handoff to Deployment
 

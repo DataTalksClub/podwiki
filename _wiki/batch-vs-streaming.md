@@ -62,8 +62,13 @@ minute-level windows, and sometimes second-level windows, before full stream
 processing is needed.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Another view treats batch or streaming as one processing-mode choice inside a
-larger production pipeline. Ingestion and queues, storage and orchestration, and
-Spark or Flink processing still have to fit together.[[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>From Notebooks]]
+larger production pipeline. Ingestion and queues still have to fit storage and
+orchestration. Spark or Flink processing then has to fit the same path
+[[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>From Notebooks]].
+
+Kretz's practical split is immediate reaction from the queue versus storing
+first and processing later. Both are pipelines, and the difference is whether the
+consumer needs event-time action or can wait for a batch window.
 
 A third view puts more weight on the organizational cost of streaming. Kafka
 adds onboarding work around schemas and registry practice. Teams also need

@@ -82,6 +82,10 @@ open source is about
 [[Open Source Contributor Roadmap]]
 more than repository publishing alone.
 
+For Vincent Warmerdam, GitHub can host early code while it matures. PyPI creates
+user expectations before tests and examples are clear
+[[cite:open-source-ml-contributions@11:45=>Contribute to Open Source ML]].
+
 PyFilesystem, Rich, and Textual offer a similar builder-centered definition:
 their author built them from his own needs and experiments. New authors should
 solve their own problem first. When authors start there, open source stays
@@ -100,6 +104,10 @@ and [[software engineering]],
 not only to public repositories
 [[cite:open-source-ml-contributions@19:00=>Contribute to Open Source ML]]
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
+
+The same low-maintenance API discipline applies to internal libraries. Small,
+focused interfaces and ecosystem compatibility make a tool easier to test and
+explain. They also help keep it alive after the original author moves on.
 
 ## Contribution, Adoption, and Company Lenses
 

@@ -169,11 +169,20 @@ work. Juniors need help talking with those people, preparing questions, and
 asking for help when they're stuck
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@52:43=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@54:11=>B2B SaaS Data Science Teams]].
 
+That support should include regular check-ins and async spaces where new hires
+can rubber-duck problems before they become delivery blockers
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@54:11=>B2B SaaS Data Science Teams]].
+
 Manager onboarding has the same listening step. In the first part of a 30-60-90
 plan, a new leader can meet people, learn projects, and understand domain
 context. Stronger feedback can wait until the team is understood. One-on-ones
 and feedback then become a growth environment rather than a manager monologue
 [[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
+
+When feedback is needed, Semelman recommends asking permission, showing care,
+and offering options. That turns feedback into a supported choice rather than a
+surprise verdict from the manager
+[[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]].
 
 Healthy data teams need feedback habits that people can practice before conflict
 is high-stakes. They also need psychological safety.

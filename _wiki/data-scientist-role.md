@@ -70,6 +70,12 @@ analytics engineers, marketing scientists, and data scientists. The exact
 responsibilities depend on the product and growth questions the company needs
 to answer [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Hiring]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@7:08=>B2B SaaS Hiring]].
 
+Katie Bauer's version treats the title as a family of work rather than one
+fixed craft. Some teams need analysis and experimentation. Some need modeling,
+data products, or stakeholder translation. Candidates should therefore ask what
+the team calls "data science" before assuming the role is model-first
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@7:08=>B2B SaaS Hiring]].
+
 Recruiting emphasizes industry fit, concrete projects, and business
 impact [[cite:get-data-scientist-job=>DS Roles]].
 Fraud and marketing roles reward different evidence from forecasting, search, or
@@ -93,6 +99,9 @@ product intake, delivery, and organizational trust.
 At principal level, data scientists may move further from hands-on model
 building. They can act as internal consultants who review architecture, mentor
 peers, and frame problems across teams [[cite:datatalksclub-building-scaling-data-community@6:27=>Scaling DataTalks.Club]].
+That principal path is closer to architecture and mentorship than to a larger
+backlog of individual notebooks. It overlaps with [[career-growth=>career growth]]
+and staff-style individual-contributor leadership.
 
 ## Core Responsibilities
 

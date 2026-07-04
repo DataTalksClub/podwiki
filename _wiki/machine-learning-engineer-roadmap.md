@@ -66,6 +66,8 @@ ML engineering, Python and Linux sit alongside networking, cloud basics, and
 stakeholder work. The engineer has to move a model through real deployment
 constraints, not just improve notebook metrics
 [[cite:mlops-and-ml-engineering-in-finance@45:04=>MLOps and ML Engineering in Finance]].
+On-prem work can require bash, SSH/SCP, firewall coordination, and
+platform-specific deployment habits before managed-cloud convenience appears.
 
 Learn these pieces in order:
 

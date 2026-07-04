@@ -308,10 +308,12 @@ starts with role definition
 Managers determine whether the hire can use their skills during onboarding. New
 hires do better when they communicate proactively and ask for help. Regular
 check-ins and asynchronous question spaces support that behavior
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]).
-A 30-60-90 plan, active listening, feedback, and structured learning reinforce
-the same idea
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@52:43=>B2B SaaS Data Science Teams]],
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@54:11=>B2B SaaS Data Science Teams]]).
+The same idea also needs a 30-60-90 plan with active listening, feedback, and
+structured learning
+([[cite:data-science-leadership-hiring-mlops@12:52=>Data Science Leadership]],
+[[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]]).
 
 Retention signals should feed back into role design. Team structure and career
 ladders affect whether a role can retain people. Junior presence, remote

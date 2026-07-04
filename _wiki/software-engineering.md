@@ -67,6 +67,11 @@ practice. Maintainable work isn't only a habit for application engineers
 That connects [[Analytics Engineering]] to software engineering when modeled
 data becomes shared team infrastructure.
 
+For data teams, peer review and documentation are also succession tools. They
+let another analyst or analytics engineer understand the model. That person can
+change it and defend the metric after the original author moves on
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]].
+
 Marcello La Rocca adds a lower-level version of the same habit. Abstractions are
 useful until performance, memory, or correctness depends on the implementation.
 Engineers can trust library APIs for ordinary work. When the system's behavior
@@ -84,7 +89,12 @@ The ML-software boundary starts with requirements and team participation. Weak
 requirements and unrealistic expectations can undermine ML systems before
 implementation starts. Data-access problems, vocabulary gaps, and missing
 documentation create the same risk.
-ML practitioners need to stay involved from requirements through testing.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
+ML practitioners need to stay involved from requirements through testing.[[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]
+
+Nadia Nahar ties this to hidden technical debt. The model may be the visible
+piece, but surrounding software and data workflow create much of the long-term
+cost. Monitoring and handoff decisions add to that cost
+[[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]].
 
 The production-ML boundary starts with code and model complexity. Teams use
 timeboxed experiments to keep research curiosity from becoming an unbounded

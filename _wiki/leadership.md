@@ -249,12 +249,14 @@ Planning and people development sit in the same job in
 
 When he took over a team, he used a 30-60-90 plan. He first met
 people and listened. Then he learned the projects and domain before giving
-feedback.
+feedback
+([[cite:data-science-leadership-hiring-mlops@12:52=>Data Science Leadership]],
+[[cite:data-science-leadership-hiring-mlops@15:16=>Data Science Leadership]]).
 
 Semelman's feedback practice is careful because manager feedback changes a
 person's career. He recommends asking permission, showing care, and offering
 options rather than treating managerial opinion as objective truth
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
+([[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]]).
 His one-on-one discussion also frames mistakes as part of a safe learning
 environment.
 
@@ -263,14 +265,17 @@ explicit in [[cite:data-leadership-coaching=>Data Leadership Coaching]].
 She treats the move from senior IC to lead as a career change, not as a small
 extension of technical seniority. A new lead has to learn people problems,
 stakeholder framing, feedback, and self-evaluation. The team also has to help
-the new lead see how teammates receive leadership behavior.
+the new lead see how teammates receive leadership behavior
+([[cite:data-leadership-coaching@6:17=>Data Leadership Coaching]],
+[[cite:data-leadership-coaching@9:15=>Data Leadership Coaching]]).
 
 That makes feedback culture one of the first operating habits. Iofciu
 recommends team feedback training rather than a private manager skill. People
 need practice giving and receiving feedback because even useful feedback feels
 uncomfortable. The leader separates critique of work from critique of the
 person. They also build enough trust for teammates to surface problems early
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+([[cite:data-leadership-coaching@19:43=>Data Leadership Coaching]],
+[[cite:data-leadership-coaching@20:18=>Data Leadership Coaching]]).
 
 This connects leadership to [[Team Building]] and the
 [[Data Team Lead Role]]. A data lead can't scale by personally solving every
@@ -279,14 +284,14 @@ discussion uses the "pizza" metaphor. A manager may technically supervise more
 than seven or eight direct reports, but attention and relationship quality drop.
 Data leaders should treat manager bandwidth as a team-design constraint, not as
 a heroic time-management problem
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+([[cite:data-leadership-coaching@12:38=>Data Leadership Coaching]]).
 
 Coaching and mentoring also serve different moments. Iofciu says pure coaching
 would use open questions until the person finds their own answer. Data
 leadership clients often expect some training, examples, or concrete advice
 because they came for data-specific judgment. That puts her practice between
 coaching, mentoring, and consultation
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]).
+([[cite:data-leadership-coaching@34:38=>Data Leadership Coaching]]).
 
 The [[Mentoring in Tech]] page covers longer mentoring relationships. Leaders
 choose among reflection, repeated examples from other teams, and direct advice
@@ -357,9 +362,16 @@ Data and AI leadership often fails when technical work can't be translated
 into stakeholder priorities. Iofciu describes influence without authority as
 speaking different work languages and listening actively. The leader then
 connects a project to what matters for the other person
-([[cite:data-leadership-coaching=>Data Leadership Coaching]]). She also argues
+([[cite:data-leadership-coaching@46:00=>Data Leadership Coaching]],
+[[cite:data-leadership-coaching@49:20=>Data Leadership Coaching]]). She also argues
 that data foundation work, models, and open-source work need visibility because
 impact isn't always customer-facing.
+
+Iofciu places foundation work in the same leadership surface. Data leaders have
+to make platform, reliability, and product-enablement work visible through KPIs
+and stakeholder language. Important data work is often not directly
+customer-facing
+([[cite:data-leadership-coaching@24:32=>Data Leadership Coaching]]).
 
 That's the practical side of [[Communication]]. Data people often need product
 managers, engineers, sales leaders, or executives to change a roadmap. Those
