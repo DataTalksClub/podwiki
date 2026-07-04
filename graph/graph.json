@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10555
+    "links": 10549
   },
   "nodes": [
     {
@@ -52675,13 +52675,13 @@
     {
       "source": "wiki:llm-cost-optimization",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-cost-optimization",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -52693,7 +52693,7 @@
     {
       "source": "wiki:llm-cost-optimization",
       "target": "podcast:practical-llm-use-cases-and-product-patterns",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -52711,7 +52711,7 @@
     {
       "source": "wiki:llm-cost-optimization",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -60537,42 +60537,6 @@
       "target": "wiki:reproducibility",
       "kind": "article-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",

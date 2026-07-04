@@ -33,7 +33,7 @@ and platform design. They define ownership, quality, governance, and delivery.
 [[person:boyanangelov=>Boyan Angelov]] makes that definition more operational.
 He describes strategy as a plan to get value from data. The plan has to be
 actionable and flexible enough to change once teams start using it
-[[cite:data-strategy-and-dataops-for-ai-powered-products|Boyan Angelov|8:13]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Actionable Data Strategy]].
 That means a strategy deck isn't just a list of goals. It needs connected
 artifacts such as data dictionaries, use-case notes, and due-diligence findings
 that let teams adjust the plan as evidence changes.
@@ -42,7 +42,7 @@ that let teams adjust the plan as evidence changes.
 growth-stack version. Teams document events, properties, and ownership in a
 tracking plan before they rely on product data. The stack then moves from
 collection to storage, analysis, and activation
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 The modern growth stack includes collection and product analytics alongside a
 warehouse and reverse ETL. That keeps the strategy tied to questions and
 workflows instead of isolated tools.
@@ -51,7 +51,7 @@ workflows instead of isolated tools.
 [[person:urigilad=>Uri Gilad]] give the governance
 version. Start with the reason for governance, then build minimum viable
 governance that can expand later
-[[podcast:cloud-data-governance=>Cloud Data Governance]].
+[[cite:cloud-data-governance=>Cloud Data Governance]].
 This puts [[data governance]] inside
 data strategy because the right policy depends on risk, use case, data
 sensitivity, and business value.
@@ -60,7 +60,7 @@ sensitivity, and business value.
 operating-model version. Error reduction, deployment cycle time, and
 productivity are the core targets. Teams should optimize the whole value stream
 across silos and governance
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 [[DataOps]] turns data strategy into daily
 engineering work. Without that operating layer, teams get a backlog of fragile
 pipelines.
@@ -75,7 +75,7 @@ centralized bottlenecks. Enterprise data friction drives a socio-technical
 shift toward autonomy plus interoperability. In that model, ownership connects
 to business domains and federated governance keeps domain autonomy from turning
 into fragmentation
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 This puts data strategy close to
 [[Data Mesh]], domain-owned
 [[data products]], and shared
@@ -86,7 +86,7 @@ organizational topology and more about whether product, support, sales, and
 marketing teams can act on trusted events. Event data flows into support, sales,
 and engagement tools. Activation events and personalized onboarding make the
 data useful outside dashboards
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 This growth-and-activation strategy belongs with
 [[data activation]],
 [[analytics engineering]],
@@ -95,7 +95,7 @@ and [[data product management]].
 Jessi Ashdown and Uri Gilad start from governability by moving from governance
 definition into classification and policy. They then ask how catalog usage,
 cost, and compliance value can show return on investment
-[[podcast:cloud-data-governance=>Cloud Data Governance]].
+[[cite:cloud-data-governance=>Cloud Data Governance]].
 This version matters when a company has many datasets, many consumers, and
 unclear sensitivity or ownership.
 
@@ -104,7 +104,7 @@ pressure. The platform is self-service infrastructure for onboarding and scale,
 but an Airflow cluster isn't enough. Conventions, playbooks, and best practices
 make it usable. Kafka schemas, schema registry, and data contracts become
 strategy because they protect downstream teams while the company moves quickly
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
 
 ## Business Alignment
 
@@ -117,7 +117,7 @@ know what the business is trying to achieve before proposing models, platforms,
 or hiring plans. In his retail example, the strategy work is translating a
 business goal such as selling more products faster into feasible data use cases.
 Then the team checks whether the data, skills, and infrastructure support them
-[[cite:data-strategy-and-dataops-for-ai-powered-products|Boyan Angelov|10:13]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Actionable Data Strategy]].
 
 That connects data strategy to [[Data Product Intake and Prioritization]] and
 [[machine learning for business]]. Ideas need feasibility, priority, and a
@@ -128,13 +128,13 @@ product and data teams to agree on the important events, the properties that
 describe them, and the team that owns changes. A signup event, invoice event, or
 project creation event matters because teams can use it in product analytics and
 support context. It can also drive lifecycle messaging or personalization
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
 [[person:alexanderhendorf=>Alexander Hendorf]] adds the
 enterprise AI version. That version keeps AI initiatives and experiments aligned
 with company goals. It also avoids hype-driven work without evaluation and
 transparency, and favors impact and "good enough" engineering over perfection
-[[podcast:scaling-enterprise-ai-mlops-data-first-strategy=>Scale Enterprise AI]].
+[[cite:scaling-enterprise-ai-mlops-data-first-strategy=>Scale Enterprise AI]].
 
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side
@@ -143,11 +143,11 @@ overlaps with [[MLOps]] and the
 
 Different strategic problems need different success measures. DataOps looks at
 error reduction, cycle time, and productivity
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Governance looks at ROI plus compliance value
-[[podcast:cloud-data-governance=>Cloud Data Governance]]. Growth looks at
+[[cite:cloud-data-governance=>Cloud Data Governance]]. Growth looks at
 activation plus self-service access
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
 ## Operating Model
 
@@ -159,14 +159,14 @@ The Data Mesh model gives one end of the spectrum. Domain teams own data because
 they understand the business context. The model uses shared metadata, identity,
 authorization, and interoperability to keep that ownership usable across the
 organization
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 Self-service platform abstractions reduce the burden on domain teams. Domain
 ownership and shared standards have to exist together.
 
 Mehdi OUAZZA gives the scale-up platform version. The platform enables
 onboarding and scale, with work split between platform engineering and use-case
 pipelines
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
 [[Data teams]]
 need that balance because a platform-only team may lose contact with business
 needs, while a request-only team may never create reusable capabilities.
@@ -175,7 +175,7 @@ Christopher Bergh gives the reliability version. It separates leadership habits
 from tooling automation and adds version control, tests, and CI/CD.
 Documentation and replaceability reduce dependency on individual people. The
 operating model lives in everyday engineering practice rather than an org chart
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 ## Governance and Risk
 
@@ -185,13 +185,13 @@ coordination cost. Maximal governance isn't right for every team.
 Cloud governance is explicit about scope. Minimal governance is fine when the
 organization doesn't need a large program. Data classification and taxonomy come
 next. Policies cover retention, freshness, and purpose-based access
-[[podcast:cloud-data-governance=>Cloud Data Governance]]. Those policies keep
+[[cite:cloud-data-governance=>Cloud Data Governance]]. Those policies keep
 governance tied to decisions the team can explain.
 
 The distributed version uses federated governance. That means shared policy has
 automated enforcement across domain-owned data products, where retention,
 metadata, and validation become governance primitives
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 In [[Data Mesh]], governance and
 [[data quality and observability]]
 serve the same consumer need: guarantees people can look at and trust.
@@ -200,7 +200,7 @@ Alexander Hendorf extends risk into AI and ML. Production systems in that frame
 need retraining, feedback loops, and MLOps automation. Standardization and CI/CD
 sit beside governance and reproducibility on the path from experiment to
 production
-[[podcast:scaling-enterprise-ai-mlops-data-first-strategy=>Scale Enterprise AI]].
+[[cite:scaling-enterprise-ai-mlops-data-first-strategy=>Scale Enterprise AI]].
 Data strategy should decide where governance belongs before a model becomes a
 product dependency.
 
@@ -212,7 +212,7 @@ guidance on which capabilities teams often need.
 The growth stack maps from collection through activation. It starts with event
 collection tools and warehouse-first analytics, then adds reverse ETL and
 operational analytics
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 Those tools matter when the strategy depends on product events moving into
 analysis and customer-facing workflows.
 
@@ -220,7 +220,7 @@ Platform tools need conventions around them because Airflow matters, but the
 lesson is broader than orchestration. Reusable templates, playbooks, and naming
 practices help engineers onboard quickly and keep pipelines understandable.
 Kafka schemas and contracts serve the same purpose for event-driven systems
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
 [[Apache Airflow]]
 and [[streaming]] cover those platform
 choices in more detail.
@@ -230,7 +230,7 @@ modern-stack caution. The caution treats packaged modern data stacks as targets
 for criticism in favor of open-source alternatives. Apache Iceberg and catalogs
 separate storage from compute, with access, metadata, and lineage sitting in the
 catalog layer
-[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering]]. Tool
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]. Tool
 selection comes with a warning about vendors. Architecture decisions stay tied
 to lock-in, cost, maturity, and team capability.
 
@@ -241,17 +241,17 @@ better workflows. Tables, dashboards, models, and catalogs aren't enough.
 
 Data democratization connects to literacy, documentation, and self-service
 analytics
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 Governance policies act as guardrails for democratized access, not only as
-restrictions [[podcast:cloud-data-governance|Cloud Data Governance]]. Early
+restrictions [[cite:cloud-data-governance=>Cloud Data Governance]]. Early
 releases and customer iteration beat heroic delivery
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Users need to find the data, trust it, understand its limits, and act on it.
 
 Data Mesh makes adoption a product concern. Data as a product means
 consumer-first guarantees and KPIs, and contracts cover quality, service levels,
 and ownership
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 The strategy has to describe the consumer and the guarantee, not just the
 pipeline that produces the dataset.
 
@@ -264,7 +264,7 @@ The progression runs from descriptive to prescriptive curriculum, while team
 profiles range from analysts to data engineers. Optimization use cases include
 waste-collection routing and healthcare
 access
-[[podcast:data-science-and-analytics-for-nonprofits-tech-for-good=>Analytics for Nonprofits]].
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Analytics for Nonprofits]].
 
 The strategy question is the same as in private-sector teams. Invest in people,
 processes, and technology together, or the data never changes decisions.

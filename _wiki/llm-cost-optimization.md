@@ -18,8 +18,7 @@ becomes a competitive differentiator rather than just a budget concern.
 
 Prompt evaluation, cost tradeoffs, prompt compression, and prompt caching are
 standard parts of production AI engineering. They sit alongside prompt testing as
-model-efficiency tools
-([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+model-efficiency tools[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 This topic connects to
 [AI Infrastructure Cost and
@@ -31,7 +30,7 @@ and [[LLM Deployment]].
 
 Prompt compression reduces the number of tokens sent to the model without losing
 the instruction's meaning. Fewer tokens mean lower cost and faster response
-times ([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+times[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 The connection to
 [[Context Engineering]] is
@@ -41,16 +40,16 @@ information. Cost optimization frames the same reduction as cutting token
 expense. The techniques overlap.
 
 Giving a model too much context causes context rot, reducing precision and
-relevance ([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering
-and RAG]]). The same principle applies to cost: excess context wastes tokens and
+relevance[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+The same principle applies to cost: excess context wastes tokens and
 money while degrading output quality.
 
 ## Prompt Caching and Model Efficiency
 
 Prompt caching reuses previously computed attention states for repeated prompt
 prefixes, reducing both latency and cost. Claude's caching mechanism is one
-implementation ([[podcast:production-ready-ai-engineering|Production AI
-Engineering]]). This is especially valuable for agents and multi-turn systems
+implementation[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+This is especially valuable for agents and multi-turn systems
 where the same system prompt or context is sent repeatedly.
 
 [[Caching]] as a concept appears across
@@ -63,7 +62,7 @@ send long, stable prompts with varying user queries appended.
 Open-source models that teams self-host on smaller GPUs or CPUs can be much
 faster than API calls. API models are fast because they run on expensive
 hardware. Teams that self-host models on comparable hardware can match or exceed that
-speed at lower cost ([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)).
+speed at lower cost[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 The tradeoff depends on the system's maturity, so API speed and ease of use win
 during prototyping. Once the business case is proven, migrating to open-source
@@ -71,8 +70,8 @@ models reduces both cost and latency. The migration requires more engineering
 effort, but tools like TitanML's Takeoff server and other inference servers make
 it easier.
 
-High-volume enterprises can fine-tune smaller models
-[[cite:s23e03-future-of-ai-agents|Future of AI Agents|24:58]]. They trade ML
+High-volume enterprises can fine-tune smaller models[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
+They trade ML
 staffing and infrastructure for lower cost, lower latency, and better task fit.
 Small or generic workloads can stay on standard APIs. The switch has to justify
 ML engineers, infrastructure, and evaluation work.
@@ -80,7 +79,7 @@ That threshold links LLM cost optimization to [[Model Optimization]] and
 [[LLM Production Patterns]] rather than only prompt-level token reduction.
 
 Groq as a low-latency provider offers 1-2 second response times compared to 4-5
-seconds for GPT-4 ([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)).
+seconds for GPT-4[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 Latency directly affects cost because longer inference times consume more compute
 resources and limit throughput.
 
@@ -88,7 +87,7 @@ resources and limit throughput.
 
 Being cost aware gives engineers "a big competitive advantage," especially when
 cloud bills skyrocket because teams lack cost awareness. Teams may assume cloud
-and storage are cheap, then learn they aren't as cheap as expected ([Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)).
+and storage are cheap, then learn they aren't as cheap as expected[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 The opposite failure is overengineering, where companies build "behemoth
 platforms" before they need them. Teams in that example prepare for real time,
@@ -103,7 +102,7 @@ but a signal of engineering judgment.
 ## Cost Considerations in Product Patterns
 
 In the proprietary-versus-open-source decision, cost sits alongside latency, IP,
-and data risk as a key trade-off ([Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
+and data risk as a key trade-off[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]].
 For enterprise deployment, cost compounds at scale, making model choice and
 optimization a product-level concern rather than only an engineering detail.
 

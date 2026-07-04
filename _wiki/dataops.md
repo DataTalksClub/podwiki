@@ -67,7 +67,7 @@ Teams test those changes before release. Then they deploy through CI/CD and
 monitor the resulting outputs. Those outputs include tables and dashboards.
 They may also include features or data products.
 
-Version control and tests connect DataOps directly to [[ci-cd|CI/CD]]
+Version control and tests connect DataOps directly to [[ci-cd=>CI/CD]]
 [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Automation playbooks and runbook thinking extend the same operating model
 [[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
@@ -152,7 +152,7 @@ For [[Data Strategy]] work, the same delivery layer turns planned
 static deck. DataOps combines Lean and Agile habits with CI/CD practices. That
 combination helps the team reduce waste, handle changing requirements, and ship
 data products through repeatable delivery practices
-[[cite:data-strategy-and-dataops-for-ai-powered-products|Data Strategy and DataOps for AI-Powered Products|24:57]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products@24:57=>Data Strategy and DataOps for AI-Powered Products]].
 
 This is where [[Orchestration]],
 [[ci-cd=>CI/CD]], and
@@ -173,7 +173,7 @@ notebook-turned-job, or infrastructure definition to pass four gates:
 
 The supported path works only when the whole team uses it. Then newer members can
 change production without relying on private knowledge
-([[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]).
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 ## Observability and Recovery
 
@@ -199,7 +199,7 @@ teams reacting to incidents one by one.
 
 For the monitoring layer, see
 [[Data Quality and Observability]]
-and [[data-quality-and-observability|Data Observability]].
+and [[data-quality-and-observability=>Data Observability]].
 For the tooling layer across checks, alerts, and runbooks, see
 [[DataOps Tools]].
 
@@ -216,7 +216,7 @@ Self-service only helps when the supported path preserves ownership,
 reproducibility, and quality. An Airflow cluster alone doesn't create a
 platform. Teams also need naming conventions and sequencing rules, and schema
 contracts. Onboarding habits and playbooks make the supported path clearer
-([[podcast:scaling-data-engineering-teams-self-service-platforms|Scaling Data Engineering Teams and Self-Service Platforms]]).
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 
 [[DataOps Platforms]] covers the
 shared infrastructure version of these practices.
