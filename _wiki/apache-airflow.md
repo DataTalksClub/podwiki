@@ -32,16 +32,13 @@ where all pipeline logic should live. The ingestion tool or warehouse job
 should still own the transformation logic. So should the Spark job, dbt project,
 feature pipeline, or Python module. Airflow owns the schedule, dependency
 graph, run state, and visibility around those steps.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-[[person:nataliekwong=>Natalie Kwong]] gives the
-clearest tool boundary in
-[[podcast:data-engineering-tools-modern-data-stack@30:59=>ETL vs ELT and Modern Data Engineering]].
-She places Airflow around scheduling and orchestration. Airbyte handles
-extract-load work, while [[dbt]] handles
-warehouse-side SQL transformations. That makes Airflow adjacent to
-[[ETL]],
-[[ELT]], and the
-[[ETL vs ELT]] decision.
+One modern-stack boundary puts Airflow around scheduling and orchestration while
+Airbyte owns extract-load work. In the same stack, [[dbt]] owns
+warehouse-side SQL transformations and Airflow stays adjacent to the [[ETL]] and
+[[ELT]] workflow boundary captured in [[ETL vs ELT]].
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
 ## Scheduling and Dependency State
 
@@ -53,15 +50,13 @@ The DAG describes the order, and the scheduler decides which task instances can
 run. The metadata database stores DAG runs and task state. It also stores
 schedules, retries, connections, and logs.
 
-[[person:larsalbertsson=>Lars Albertsson]] describes the
-platform version in
-[[podcast:dataops-principles-and-scalable-data-platforms@30:34=>DataOps 101 for Scaling Data Platforms]].
-He puts storage, compute, and a workflow engine at the center of a data
-platform. Around 31:18-35:57, he explains that the workflow engine tracks
-dependencies and schedules work when data arrives. It can also run on a timer
-and retry after late data or transient failures.
+Data platform designs often place storage, compute, and a workflow engine at
+the center of the operating model. The workflow engine tracks dependencies,
+schedules work when data arrives, runs timer-based jobs, and retries after late
+data or transient failures.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-In Albertsson's framing, Airflow stays inside
+In that framing, Airflow stays inside
 [[orchestration]]. Teams still need
 [[data quality and observability]]
 because a green DAG run proves that tasks finished. It doesn't prove the data
@@ -74,40 +69,31 @@ not treat it as the default answer for every scheduled job. Teams should ask
 whether the workflow needs shared run state, dependency control, recovery, and a
 team-facing operating surface.
 
-Natalie uses Airflow as the scheduler around a modern analytics stack. Her
-example separates Airflow from Airbyte and dbt, so the tool choice doesn't
-blur ingestion and transformation. It also keeps orchestration separate
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
-30:59-35:42).
+Airflow can be the scheduler around a modern analytics stack without owning
+ingestion or transformation. Separating Airflow from Airbyte and dbt keeps
+orchestration distinct from extract-load and warehouse transformation work.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-Albertsson starts from platform reliability. In his
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps episode]],
-Airflow and Luigi sit in the workflow-engine category. The important point is
-dependency control, recovery, and reproducible operations, not the brand of the
-orchestrator.
+Platform reliability discussions put Airflow and Luigi in the workflow-engine
+category. The important point is dependency control, recovery, and reproducible
+operations, not the brand of the orchestrator.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-[[person:mehdiouazza=>Mehdi OUAZZA]] warns against
-treating the Airflow cluster as the whole platform. In
-[[podcast:scaling-data-engineering-teams-self-service-platforms@17:22=>Scaling Data Engineering Teams]],
-he adds naming conventions and sequencing rules. He also adds playbooks,
-templates, and onboarding. Airflow provides the shared place to run DAGs. The
-platform still needs conventions that help many teams use it consistently.
+An Airflow cluster isn't the whole data platform. Self-service data platforms
+also need naming conventions and sequencing rules. Playbooks, templates, and
+onboarding help many teams use the shared DAG surface consistently.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 
-[[person:adrianbrudaru=>Adrian Brudaru]] gives the
-lightweight alternative. In
-[[podcast:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]],
-he names Airflow and GitHub Actions as workflow options. Prefect and Dagster
-appear in the same comparison. Around 37:08, he says GitHub Actions can be
-enough for simple workflows because it avoids the cost of always-on
-orchestration.
+Simple workflows may not need always-on orchestration. Airflow sits in the same
+workflow-options conversation as GitHub Actions, Prefect, and Dagster. GitHub
+Actions can be enough when the team only needs a small scheduled workflow.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
-[[person:andreaskretz=>Andreas Kretz]] makes a similar
-AWS comparison in
-[[podcast:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]].
-He compares Airflow with CloudWatch scheduling and Lambda. He also names
-containers, ECS, AWS Batch, and SageMaker. Around 41:06-42:07, he recommends
-starting simple and moving toward Airflow or Kubernetes when the team needs
-more logging, insight, and control.
+AWS workflows can start with CloudWatch scheduling, Lambda, or containers before
+the team takes on Airflow or Kubernetes. ECS, AWS Batch, and SageMaker are part
+of the same simple-first path. Move toward the heavier orchestrator when
+logging, insight, and control justify the extra platform surface.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 ## DAG Design
 
@@ -116,13 +102,11 @@ the sequence of work, schedule, retry behavior, and owners. Parameters belong
 there too. The DAG should call into real processing code. It shouldn't become a
 pile of business logic that's hard to test outside Airflow.
 
-[[person:jeffkatz=>Jeff Katz]] gives the learner-facing
-version in
-[[podcast:data-engineering-career-path-and-skills@55:10=>Data Engineering Career Path and Skills]].
 Good Airflow code keeps most logic in normal Python instead of relying on
 Airflow for everything. For a data engineering project, the DAG can call Python
 modules, SQL, and dbt commands. It can also call Spark jobs or containerized
 steps while tests stay close to the code that owns the logic.
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path]]
 
 Thin DAGs also make review easier. A reviewer can read the DAG to understand
 the order of steps, then look at the actual transformation code in the
@@ -142,12 +126,10 @@ checks can run inside an Airflow task, but they still belong to
 [[data quality and observability]],
 not only to orchestration.
 
-[[person:tomaszhinc=>Tomasz Hinc]] gives the clearest
-failure mode in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams@1:02:28=>DataOps and GitOps Best Practices for Data Teams]].
-He describes Airflow jobs that were green while zero records were inserted.
-The run status looked successful, but the data product was wrong. Teams should
-add edge-case checks and data assertions before they trust the result.
+Airflow jobs can be green while zero records are inserted. The run status can
+look successful while the data product is wrong, so teams need edge-case checks
+and data assertions before they trust the result.
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps]]
 
 Teams need this boundary when they add
 [[data-quality-and-observability=>data observability]] and
@@ -164,24 +146,18 @@ can also create bad output. The team may need to rerun old partitions in the
 correct order. Then it may need to republish downstream tables, dashboards,
 features, or predictions.
 
-Albertsson connects this to batch processing and recovery in
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
-Around 45:11, he contrasts batch and streaming through explicit dependency
-management. Batch workflows are easier to rerun when the team can name the
-inputs and dependencies. Airflow fits batch pipelines with backfills especially
-well, while [[Batch vs Streaming]]
-covers the broader processing tradeoff.
+Batch workflows are easier to rerun when the team can name the inputs and
+dependencies. Airflow fits batch pipelines with backfills especially well,
+while [[Batch vs Streaming]]
+covers the broader processing tradeoff.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Machine learning pipelines use the same structure. In
-[[podcast:building-production-ml-platform-and-mlops-team@31:15=>Building Production ML Platforms]],
-[[person:simonstiebellehner=>Simon Stiebellehner]]
-separates batch inference from online serving. Batch inference often uses a
-workflow orchestrator such as Airflow or SageMaker Pipelines to load data,
-preprocess it, run the model, and write predictions. Teams using Airflow this
-way also connect it to
+Machine learning pipelines use the same structure. Batch inference is separated
+from online serving and often uses Airflow or SageMaker Pipelines as the
+orchestrator. That job loads data and preprocesses it. Then it runs the model
+and writes predictions. Teams using Airflow this way also connect it to
 [[MLOps]],
 [[ML platforms]], and
-[[machine learning infrastructure]].
+[[machine learning infrastructure]].[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 ## Local Learning and Portfolio Use
 
@@ -191,12 +167,10 @@ show why one task waits for another. It should also show what happens when an
 input is late. A bad input should fail visibly, and the project should show how
 a rerun or backfill works after the issue is fixed.
 
-[[person:danielegbo=>Daniel Egbo]] gives a concrete
-local setup example in
-[[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>From Radio Astronomy to Machine Learning and Data Engineering]].
-He discusses course projects with Airflow, MinIO, Spark, and MySQL. The setup
-also includes Docker Compose and the Airflow web server. He uses environment
-variables and a warehouse path in the same project.
+Course-style projects can combine Airflow with MinIO, Spark, and MySQL. The
+same local setup can include Docker Compose, the Airflow web server,
+environment variables, and a warehouse path.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>Radio Astronomy to Data Engineering]]
 
 Follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)

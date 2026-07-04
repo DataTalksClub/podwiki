@@ -14,32 +14,22 @@ the data they publish for others. Instead of routing every analytical need
 through one central data team, a mesh asks domains to publish trustworthy
 [[data products]]. Those products
 need owners, metadata, quality expectations, and consumer-facing contracts.
+The core DataTalks.Club episode is
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 
-A shared [[data-engineering-platforms|data engineering platform]]
+A shared [[data-engineering-platforms=>data engineering platform]]
 keeps that decentralization usable through self-service infrastructure and
 identity. It also provides access controls, observability, and common standards.
-
-The main DataTalks.Club reference is
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]],
-where [[person:zhamakdehghani|Zhamak Dehghani]]
-frames Data Mesh as a decentralized socio-technical response to long
-enterprise data pipelines. She also frames it as a response to centralized
-bottlenecks (7:35-9:56). Her definition connects
-[[data products]],
+That makes Data Mesh a close neighbor of
 [[self-service-data-platforms=>self-service data platforms]],
-[[data governance]], and
-[[DataOps]] into one operating model.
+[[data governance]], and [[DataOps]].
 
-## Domain-Owned Products and Shared Standards
+## Operating Definition
 
-Across these DataTalks.Club episodes, Data Mesh means moving ownership closer to
-the people who understand the business domain while keeping interoperability
-central. Dehghani describes the shift from long pipelines to a graph of value
-exchange between domains in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
-(13:20-17:10). A domain doesn't merely expose a table, topic, or dashboard. It
-publishes an interface that other teams can discover and trust. Other teams can
-then build on that interface.
+Data Mesh moves ownership closer to the people who understand the business
+domain while keeping interoperability central. A domain doesn't merely expose a
+table, topic, or dashboard. It publishes an interface that other teams can
+discover, trust, and build on.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 The Data Mesh operating model has four parts:
 
@@ -51,57 +41,37 @@ The Data Mesh operating model has four parts:
 - Governance teams define shared policies and automate enforcement where
   possible.
 
-Dehghani covers those pieces from minimal guarantees and metadata at 31:05
-through self-service platforms at 41:58 and federated governance at 49:25 in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-
-These discussions also treat Data Mesh as an extension of platform engineering,
-not a replacement for it. In
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
-[[person:mehdiouazza=>Mehdi OUAZZA]] describes
-self-service enablement, Airflow conventions, and playbooks (12:30-17:22). He
-also covers Kafka schemas at 23:26. The platform side of a mesh makes domain
-ownership realistic through shared tooling.
+The same episode ties those pieces together through metadata. It also covers
+self-service platform abstractions and federated governance.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+The platform side matters because domain ownership is only practical when teams
+share tooling. Teams also need conventions, schemas, and playbooks instead of
+rebuilding their own infrastructure paths.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 ## Boundaries of Decentralization
 
-The main boundary question is when decentralization helps more than it adds
-coordination cost. Dehghani argues for Data Mesh when centralized architecture
-creates slow paths to value and one team can't absorb all domain context. She
-also describes adoption through assessment, pilots, and executive buy-in rather
-than a single tooling rollout
-([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]],
-57:27).
+The main boundary question is whether decentralization removes more delay than
+it adds coordination cost. Data Mesh fits organizations where centralized
+architecture creates slow paths to value and one team can't absorb all domain
+context. It's weaker as a single tooling rollout because the model changes
+ownership, product commitments, platform support, and governance
+responsibilities.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-[[person:larsalbertsson=>Lars Albertsson]] adds the
-clearest caution from the [[DataOps]]
-side. In
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
-he discusses decentralization, ownership, and governance risk at 57:46. At
-1:03:02, he asks when platform responsibilities should split or remain
-centralized. His framing makes Data Mesh a maturity decision. Responsibility
-can move to domains only when pipelines, versioning, lineage, and operations
-can support that split.
+The [[DataOps]] view adds a maturity test. Responsibility can move to domains
+only when pipelines, versioning, lineage, and operations can support that split.
+Otherwise, decentralization can create more handoffs than the centralized model
+it replaces.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
-[[person:bartvandekerckhove=>Bart Vandekerckhove]]
-draws the boundary around sensitive data and access management. In
-[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]],
-he connects ownership models, governance teams, and Data Mesh at 13:34. At
-42:20, he returns to masking and filtering for sensitive data. He also
-connects that work to federated governance.
-
-In that view, a mesh can distribute ownership, but access controls still need
-a shared system. That system covers requests and approvals. It also covers
-reviews, revocation, and purpose-based controls.
+Sensitive data is another hard boundary. A mesh can distribute ownership, but
+access controls still need shared request and approval processes. They also
+need reviews and revocation. Masking, filtering, and purpose-based controls
+belong there too.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 ## Domain Ownership and Central Teams
 
-Domain ownership is the first organizational change. Dehghani's Data Mesh
-episode ties ownership to the business domain at 16:34. The team closest to
-the operational meaning should be accountable for the data product it publishes
-([[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]]).
-That accountability includes producer work, consumer communication, quality
-expectations, and change management.
+Domain ownership is the first organizational change. The team closest to the
+operational meaning becomes accountable for the data product it publishes. That
+accountability includes producer work, consumer communication, quality
+expectations, and change management.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 This is why [[Data Mesh vs Centralized Data Platform]]
 is a real architecture and organization tradeoff. A centralized platform can
@@ -111,88 +81,70 @@ consumer commitments toward domains. The split works only when the platform
 makes the domain path easier than informal one-off pipelines.
 
 Domain ownership also changes the role of central data teams. They become
-platform and enablement teams, not ticket queues for every dataset. Mehdi's
-scale-up discussion shows that shift through onboarding paths, playbooks, and
-shared conventions in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
-(12:30-17:22). The central team still matters, but its value comes from
-reusable capabilities rather than hand-built pipelines for each request.
+platform and enablement teams, not ticket queues for every dataset. The central
+team still matters. Its value comes from onboarding paths, playbooks, shared
+conventions, and reusable capabilities instead of hand-built pipelines for each
+request.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 ## Product Interfaces and Contracts
 
-In a mesh, teams coordinate through products. Dehghani describes data as a
-product at 34:36 in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-Consumers need guarantees around quality, integrity, completeness, and service
-levels. They also need clear ownership, so a raw dataset that nobody supports
-isn't enough. The product needs an owner, a useful interface, and enough
-metadata for consumers to judge whether it's fit for use.
+In a mesh, teams coordinate through products. Consumers need guarantees around
+quality, integrity, completeness, and service levels. They also need clear
+ownership, so a raw dataset that nobody supports isn't enough. The product
+needs an owner, a useful interface, and enough metadata for consumers to judge
+whether it's fit for use.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-Contracts make those commitments explicit through Dehghani's explanation of
-pipeline decoupling and data contracts at 13:20. She returns to product
-contracts and ownership decisions at 39:36 in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-She also connects those decisions to quality and SLAs.
+Contracts make those commitments explicit. They decouple producers and
+consumers by recording expected schemas, quality commitments, ownership
+decisions, and service levels.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-Mehdi gives the engineering version in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
-At 23:26, Kafka schemas and schema registries appear as practical tools for
-event-driven teams. Data contracts belong in the same toolset.
-
-Those contracts connect Data Mesh to
-[[data quality and observability]].
+Event-driven teams handle similar commitments through Kafka schemas and schema
+registries. Data contracts belong in the same toolset.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
+Those contracts connect Data Mesh to [[data quality and observability]].
 Consumers need freshness, completeness, and change signals before they depend
 on a product. Producers need a release path that makes schema changes visible
-and reviewable. Without those signals, decentralization simply spreads
-uncertainty across more teams.
+and reviewable.
+
+Without those signals, decentralization simply spreads uncertainty across more
+teams.
 
 ## Self-Service Platform Layer
 
 Data Mesh depends on a self-service platform because domain teams shouldn't
-become experts in every infrastructure layer. Dehghani makes the self-serve
-data platform one of the pillars of the model at 41:58 in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-She connects that platform to developer experience and abstractions. She also
-connects it to identity, authorization, and platform federation (32:04-47:35).
+become experts in every infrastructure layer. The platform provides developer
+experience and abstractions. It also provides identity, authorization, and
+shared standards for publishing data products.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 The platform boundary is important. Self-service doesn't mean every domain
 chooses its own storage, orchestration, access model, and metadata approach.
 It means teams get paved paths for publishing and operating data products.
-Mehdi's example of Airflow conventions, playbooks, and best practices in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
-(17:22) shows how shared conventions turn tools into a platform.
+Airflow conventions, playbooks, and best practices show how shared conventions
+turn tools into a platform.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 This makes Data Mesh closely related to
 [[Platform Engineering]] and
 [[developer experience]].
 The platform should hide repeated infrastructure work while leaving domain
-teams enough autonomy to structure their products. Albertsson's discussion of
-when to split or centralize platform responsibility in
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
-(1:03:02) keeps that tradeoff visible.
+teams enough autonomy to structure their products. The [[DataOps]] tradeoff is
+where platform responsibility should split and where it should remain
+centralized.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 ## Federated Governance
 
 Governance keeps a mesh from becoming disconnected silos. Dehghani describes
 federated governance as shared policies, automation, and enforcement across
-domain-owned data products at 49:25 in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-At 53:02 she names governance primitives such as retention, metadata, and
-automated validation.
+domain-owned data products. Governance primitives include retention, metadata,
+and automated validation.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 Domains can make local product decisions, but the organization still needs
 common rules for identity and authorization. It also needs common rules for
 privacy, retention, and interoperability.
 
-Access management is the clearest test of that model. Bart's
-[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]]
-episode links catalogs, dictionaries, lineage, and ownership to access
-controls. It also links those concepts to review processes (8:58-27:49).
-
-For sensitive data, he returns to Data Mesh at 42:20. He emphasizes masking,
-filtering, and federated governance. Those controls connect the mesh to
-[[security]] as well as
-[[data governance]].
+Catalogs and dictionaries support product discovery, while lineage and
+ownership support access requests. Review processes and revocation keep
+sensitive data governed after ownership moves toward domains. Masking and
+filtering do the same.[[cite:data-governance-data-access-management]]
+Those controls connect the mesh to [[security]] as well as [[data governance]].
 
 In that governance model, catalogs and metadata are operational infrastructure
 rather than paperwork. Consumers need to discover products, understand meaning,
@@ -201,20 +153,17 @@ metadata and enforce policies without manual coordination for every consumer.
 
 ## Adoption and Operating Model
 
-DataTalks.Club guests present Data Mesh as an operating-model change, not a
-product to install. Dehghani's adoption section in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
-starts with readiness assessment, pilots, and executive buy-in at 57:27. That
-sequence matters because the model changes who owns data, how consumers request
-changes, and how platform and governance teams support domains.
+Data Mesh is an operating-model change, not a product to install. Adoption
+starts with readiness assessment, pilots, and executive buy-in. That sequence
+matters because the model changes who owns data, how consumers request changes,
+and how platform and governance teams support domains.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-Albertsson's [[DataOps]] episode adds
-reliability criteria for that adoption path. Before responsibilities spread
-across domains, teams need reproducible pipelines and immutable data practices.
-They also need lineage, versioning, and quality automation
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-46:52-1:06:01). Those practices keep the mesh from creating more handoffs than
-the centralized model it replaces.
+The [[DataOps]] reliability criteria still apply. Responsibilities shouldn't
+spread across domains until teams have reproducible pipelines. They also need
+immutable data practices. Lineage, versioning, and quality automation belong in
+the same baseline.[[cite:dataops-principles-and-scalable-data-platforms]]
+Those practices keep the mesh from creating more handoffs than the centralized
+model it replaces.
 
 Smaller teams can still borrow useful parts without reorganizing around a full
 mesh. They can name owners for important datasets and define product
@@ -223,7 +172,7 @@ access rules, and add self-service paths where repeated demand exists. The full
 Data Mesh model becomes more compelling when many domains need autonomy and the
 central data team has become a bottleneck.
 
-## Adjacent Data Mesh Topics
+## Related Pages
 
 These adjacent pages cover the main tradeoffs and implementation details around
 data product ownership, platform enablement, governance, and operations.
@@ -236,3 +185,9 @@ data product ownership, platform enablement, governance, and operations.
 - [[DataOps]]
 - [[Data Quality and Observability]]
 - [[Platform Engineering]]
+
+For related episode navigation, use
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+and
+[[podcast:data-governance-data-access-management=>Data Governance and Data Access Management]].

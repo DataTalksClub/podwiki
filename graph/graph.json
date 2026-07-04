@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11186
+    "links": 11156
   },
   "nodes": [
     {
@@ -10502,7 +10502,7 @@
       "title": "MLOps",
       "url": "/wiki/mlops/",
       "count": 1,
-      "search": "MLOps Podcast grounded reference page for MLOps as the operating discipline for production machine learning systems."
+      "search": "MLOps Reference page for MLOps as the operating discipline for production machine learning systems."
     },
     {
       "id": "wiki:mlops-adoption-at-scale",
@@ -27042,60 +27042,6 @@
     },
     {
       "source": "wiki:apache-airflow",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:andreaskretz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:danielegbo",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:jeffkatz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -37509,30 +37455,6 @@
       "target": "wiki:tracking-plans",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-mesh",
-      "target": "person:zhamakdehghani",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-mesh",
@@ -61734,48 +61656,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:nemanjaradojkovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "person:yurykashnitsky",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -61837,6 +61717,12 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:ci-cd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -61887,6 +61773,12 @@
       "target": "wiki:llmops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -67374,48 +67266,6 @@
     },
     {
       "source": "wiki:platform-adoption",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:geojolly",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:linaweichbrodt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:platform-adoption",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -71109,36 +70959,6 @@
       "target": "wiki:testing",
       "kind": "article-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "person:atitaarora",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "person:hugobowneanderson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "person:meryemarik",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "person:pauliusztin",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "person:ranjithakulkarni",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:rag-evaluation-workflow",
