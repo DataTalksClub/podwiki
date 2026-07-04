@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1115,
-    "links": 10644
+    "links": 10677
   },
   "nodes": [
     {
@@ -10141,7 +10141,7 @@
       "title": "Freelance Data and ML Careers",
       "url": "/wiki/freelance-data-and-ml-careers/",
       "count": 1,
-      "search": "Freelance Data and ML Careers How two DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+      "search": "Freelance Data and ML Careers How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
     },
     {
       "id": "wiki:freelance",
@@ -29572,6 +29572,12 @@
     },
     {
       "source": "wiki:chief-data-officer-role",
+      "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -29627,6 +29633,12 @@
     {
       "source": "wiki:chief-data-officer-role",
       "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -29693,6 +29705,12 @@
     {
       "source": "wiki:chief-data-officer-role",
       "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -33358,6 +33376,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "person:rahuljain",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "person:santonatuli",
       "kind": "article-chip",
       "weight": 1
@@ -33371,6 +33395,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "article-chip",
       "weight": 1
     },
@@ -33617,6 +33647,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:finops-for-data-engineers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:hire-data-engineers",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -36016,6 +36052,12 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
@@ -36029,6 +36071,12 @@
     {
       "source": "wiki:data-freelancing-strategy",
       "target": "wiki:open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36061,6 +36109,12 @@
       "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-governance",
@@ -40708,6 +40762,12 @@
     },
     {
       "source": "wiki:data-scientist-interview",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
       "kind": "article-chip",
       "weight": 1
@@ -40759,6 +40819,18 @@
       "target": "wiki:data-science-careers",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-interview",
@@ -42448,12 +42520,6 @@
     },
     {
       "source": "wiki:data-teams",
-      "target": "person:andreyshtylenko",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-teams",
       "target": "person:caitlinmoorman",
       "kind": "wiki-chip",
       "weight": 1
@@ -42527,6 +42593,12 @@
     {
       "source": "wiki:data-teams",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42659,6 +42731,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-strategy",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -49162,6 +49240,18 @@
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -49183,6 +49273,18 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
@@ -50189,6 +50291,12 @@
     {
       "source": "wiki:hire-data-engineers",
       "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hire-data-engineers",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "article-chip",
       "weight": 1
     },
@@ -57316,6 +57424,30 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
@@ -58954,6 +59086,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "person:verenaweber",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "person:vinvashishta",
       "kind": "wiki-chip",
       "weight": 1
@@ -58991,6 +59129,12 @@
     {
       "source": "wiki:ml-consulting-proposals",
       "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:data-freelancing-strategy",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59041,6 +59185,12 @@
       "target": "wiki:freelance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-consulting-proposals",
@@ -59119,6 +59269,12 @@
       "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-platform-engineer-role",
@@ -60094,6 +60250,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "person:andreyshtylenko",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -60115,6 +60277,18 @@
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
@@ -60142,6 +60316,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -60149,6 +60329,18 @@
     {
       "source": "wiki:mlops-adoption-at-scale",
       "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60163,6 +60355,12 @@
       "target": "wiki:industrial-ml-applications",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-adoption-at-scale",

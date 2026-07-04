@@ -16,6 +16,7 @@ related_wiki:
  - FinOps for Data Engineers
  - Data Analyst to Data Engineer
  - Data Scientist to Data Engineer
+ - Hire Data Engineers
 ---
 
 A useful data engineer roadmap starts with the work a data engineer owns. Data
@@ -31,10 +32,14 @@ names the junior core as Python and SQL, plus cloud fundamentals and
 orchestration. He explains why a beginner path can focus on Python and SQL
 while postponing Spark, Kafka, and Kubernetes
 ([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
-[[person:adrianbrudaru=>Adrian Brudaru]] gives the same modern version. Learn
-SQL and Python, capture business requirements, and build a portfolio before
-chasing a vendor checklist
-([[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]).
+
+Brudaru puts SQL/Python before vendor checklists
+([[cite:trends-in-modern-data-engineering=>DE]]).
+
+[[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
+need DBMS and SQL fundamentals. Data platforms change structure, but the
+reasoning stays useful
+([[cite:data-engineering-leadership-and-modern-data-platforms=>DE Leadership]]).
 
 This roadmap gives the practical learning sequence. For the role scope, start
 with [[Data Engineer Role]] and
@@ -94,6 +99,11 @@ For SQL, practice:
 SQL depth should go beyond joins and aggregates to include window functions.
 Data modeling practice such as OLTP versus OLAP matters too
 ([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
+
+Rahul Jain recommends learning databases and SQL first, then learning how data
+moves. Treat ETL/ELT choices, lake designs, lineage, and governance tools as
+follow-up details
+([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
 
 For Python, practice:
 
@@ -312,10 +322,14 @@ Technical interviews include SQL, Python, and take-home work
 ([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
 They also include SQL tests and on-site expectations
 ([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
-That means the roadmap should end with practice under constraints. Explain your
-pipeline out loud and redesign one part on a whiteboard. Solve SQL without
-searching for every syntax detail, then write a small extractor or validation
-function from scratch.
+Jain advises managers to ask follow-up questions that separate real platform
+understanding from tool-name fluency
+([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+
+End the roadmap with practice under constraints. Explain your pipeline out loud
+and redesign one part on a whiteboard. Solve SQL without searching for every
+syntax detail, then write a small extractor or validation function from
+scratch.
 
 ## Stage 7: Add Advanced Tools Only When They Solve A Constraint
 

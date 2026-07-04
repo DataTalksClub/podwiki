@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Freelance Data and ML Careers"
-summary: "How two DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+summary: "How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
 related:
   - Freelance
   - Career Transitions in Data
@@ -9,6 +9,8 @@ related:
   - Job Search
   - Data Engineering Portfolio Projects
   - Data Freelancing Strategy
+  - Generative AI
+  - ML Consulting Proposals
 ---
 
 Freelance data and ML careers combine technical work with practice-building.
@@ -128,6 +130,13 @@ experience, or more specific skill. That makes marketplace freelancing a
 paid-learning loop, not only a lead source
 ([[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]).
 
+Verena's consulting path uses visibility outside a marketplace. She started with
+network conversations, mentorship contacts, and professional events. LinkedIn
+visibility and referrals added more warm leads. Those conversations helped her
+learn what companies were asking about before she finalized the offer. For [[generative AI]]
+consulting, client acquisition and offer design moved together rather than
+sequentially ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Generative AI Consulting]]).
+
 ## Lean MVP Delivery Comes Before Infrastructure
 
 Orell's freelance delivery starts with the smallest useful look at the
@@ -191,6 +200,19 @@ His route fits the broader
 route because prior domain experience becomes more useful when it's attached to
 visible technical artifacts.
 
+Antonis used repeated proposal feedback to specialize. Upwork rejections showed
+gaps in his proposal, price, proof, or skill focus. For a career changer,
+specialization can come from market response, not only from personal interest.
+That makes [[data freelancing strategy]] part of the career transition
+([[cite:from-startup-engineering-to-freelance-data-science@37:09=>Startup Engineering to Freelance Data Science]]).
+
+Verena's specialization came from a different signal: she combined NLP research
+depth with a market moment where companies wanted practical GenAI guidance. Her
+offer became workshops, use-case discovery, and consulting around adoption and
+productivity opportunities. That makes the career path closer to
+[[ml consulting proposals]] than to a generic ML job search
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
+
 ## Public Learning Turns Work Into Market Memory
 
 Pastor's public-learning system is practical rather than decorative. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
@@ -207,6 +229,18 @@ reinforcement part of one process. For freelance data and ML careers, public
 work is strongest when it shows a repeatable way of thinking, not just a
 finished project gallery.
 
+Verena's content strategy plays the same role for a more senior consultant. ML
+posts, paper summaries, and website material helped make her expertise visible
+to people who already knew her or discovered her through LinkedIn. Public
+learning therefore supports both early-career opportunity and expert consulting
+positioning ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@52:34=>Generative AI Consulting]]).
+
+Antonis adds the marketplace version of public proof. Portfolio projects,
+attachments, and open-source work gave buyers something concrete to look at
+inside a proposal. His MLOps course project and Evidently AI contribution made
+the profile more credible than a list of tools alone
+([[cite:from-startup-engineering-to-freelance-data-science@28:43=>Startup Engineering to Freelance Data Science]]).
+
 ## Related Pages
 
 These pages give broader context for the transition and delivery choices above.
@@ -217,3 +251,7 @@ These pages give broader context for the transition and delivery choices above.
 - [[Career Growth]]
 - [[Job Search]]
 - [[Data Engineering Portfolio Projects]]
+- [[Machine Learning Portfolio Projects]]
+- [[Open Source Portfolio Evidence]]
+- [[Generative AI]]
+- [[ML Consulting Proposals]]

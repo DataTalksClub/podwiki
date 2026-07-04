@@ -5,6 +5,7 @@ summary: "How podcast guests describe data team models, platform ownership, data
 related:
   - Data Mesh
   - Data Products
+  - Data Strategy
   - Data Engineering Platforms
   - Self-Service Data Platforms
   - Data Product Management
@@ -78,12 +79,15 @@ division-level setup as an example. These structures keep data people close to
 product areas while still preserving a data leadership chain and shared planning
 cadence. [[cite:data-science-team-structure-and-org-design=>Cohen]]
 
-[[person:andreyshtylenko=>Andrey Shtylenko]]
-gives an industrial AI version, where central teams standardize tooling and
-MLOps while embedded teams earn trust locally. A hub-and-spoke model balances
-autonomy with shared services for experiment tracking, annotation, and
-procurement.
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI]]
+Industrial AI teams face a harder coordination problem because plants, business
+units, and central technology teams may all own part of the delivery path.
+Central teams can set standards and build reusable MLOps capability.
+Domain-facing teams can earn local trust and learn operational constraints
+faster.
+A hub-and-spoke model keeps shared services such as experiment tracking,
+annotation, and procurement near the center while domain-facing teams own the
+local adoption work.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@43:39=>Industrial AI org design]]
 
 ## Roles and Interfaces
 
@@ -127,6 +131,12 @@ The same interface logic links data teams to
 [[team building]]. The team succeeds
 when someone owns the user, the data interface, the quality bar, and the
 decision the output supports.
+
+Teams should scale role vocabulary with team size instead of forcing every
+specialty into the first org chart. Early teams may combine product, data
+science, engineering, and ML engineering responsibilities. They can split those
+responsibilities as handoffs become bottlenecks.
+[[cite:data-team-roles=>Data Team Roles]]
 
 [[person:caitlinmoorman=>Caitlin Moorman]] pushes this
 interface view hardest in her last-mile data discussion. She recommends treating
@@ -189,6 +199,12 @@ as maturity grows. He also ties hiring to product uncertainty. Build the
 prototype, learn what the MVP needs, and then hire around the product vision
 rather than fashionable titles. [[cite:building-data-team=>Building a Data Team]]
 
+Organizations with limited resources may keep a small core data team and extend
+capacity through a research network. The organization keeps ownership inside
+the core team while using external researchers for specialized modeling,
+evaluation, or domain work.
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good@54:07=>Nonprofit data science]]
+
 As a data team grows, the risks change. Liang describes spreadsheet culture,
 dashboard distrust, production ML gaps, and governance repairs in her team
 buildout. She hires for adoption and communication, not only technical skill,
@@ -232,6 +248,13 @@ cross-functional work as part of the management job.
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Bauer]]
 Their shared concern is that data people shouldn't become isolated ticket
 takers, whether they sit in a central team or a matrixed product organization.
+
+Industrial AI leaders have to treat the reporting line as part of the design,
+not just a title choice. A data science or AI practice may report through a
+CTO, CIO, CMO, or CEO. For the team, the useful test is whether that line gives
+it enough authority to coordinate platforms, business adoption, and operational
+change.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
 
 Dehghani and Mehdi put more weight on architecture and platform interfaces.
 [[person:zhamakdehghani=>Dehghani]] gives domain teams

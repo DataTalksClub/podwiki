@@ -137,8 +137,17 @@ Kaggle evidence is strongest when it shows applied practice, not only ranking.
 Kaggle can work as a project-based learning environment, and master's or
 dissertation projects can become public notebooks.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]]
 
-The portfolio value is visibility. A candidate can claim Python or PyTorch on a
-CV. Kaggle notebooks or GitHub projects show where those tools were used.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]]
+Visibility matters because you can claim Python or PyTorch on a CV. Kaggle
+notebooks or GitHub projects show where those tools were used.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+Link the same project from the CV and GitHub profile. Share it on LinkedIn or
+Twitter too.
+Olteanu treats public project sharing as both learning evidence and a way to
+enter hiring conversations.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+
+Show how you rebuilt and debugged the notebook. That gives interviewers more
+than a score.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle]]
+Use [[Machine Learning Portfolio Projects]] to turn that trail into a baseline,
+evaluation, and limitation story.
 
 Portfolio goals differ by context. Pet projects, datasets, and community
 contributions can show curiosity and create networking visibility. For job
@@ -154,6 +163,9 @@ science.
 
 Kaggle has limits because some interviews test algorithmic coding rather than
 practical ML project skills.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+Prepare for that mismatch separately. Keep public notebooks as applied proof,
+then use the [[Data Scientist Interview Roadmap]] to practice separate SQL,
+coding, and case rounds.
 
 Cold-start candidates can use public datasets, synthetic data, and blogging.
 When possible, the stronger project is tailored to the company or product

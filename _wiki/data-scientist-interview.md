@@ -11,6 +11,7 @@ related_wiki:
   - Hiring
   - Career Transitions in Data
   - Machine Learning Portfolio Projects
+  - Data Scientist CV and Portfolio
   - Machine Learning System Design
 ---
 
@@ -121,6 +122,10 @@ the wrong data structure.
 LeetCode and programming contests can build speed with recurring problem shapes.
 They can also overshoot the day-to-day needs of most data scientist roles
 [[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
+Olteanu describes the same split from the candidate side. Public notebooks can
+prove applied ML practice, while some screens still test algorithmic coding
+separately
+[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]].
 
 Don't treat that screen as the whole job. A candidate can pass an algorithm
 interview and still struggle with Git or debugging. Stronger interviews also
@@ -131,7 +136,9 @@ software
 Use algorithm drills for companies that ask them
 [[cite:algorithms-data-structures-for-engineers=>Algorithms and Data Structures for Engineers]].
 Put the rest of your preparation back into SQL and statistics. Also practice
-project defense, model evaluation, and [[Machine Learning System Design]].
+project defense, model evaluation, and [[Machine Learning System Design]]. Use
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] to choose
+which public projects deserve that practice time.
 
 From the hiring-manager view, technical checks can use code exercises,
 analytical exercises, and follow-up questions

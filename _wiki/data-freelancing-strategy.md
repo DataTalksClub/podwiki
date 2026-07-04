@@ -26,10 +26,14 @@ clients, and reusable assets. For strategy, market demand and client acquisition
 are central. Rate risk and the growth fork between a solo practice, an
 agency, and a product company matter too.[[cite:from-data-freelancer-to-startup-open-source-products=>Startup]]
 
-Marketplace work adds proposal iteration on platforms such as Upwork.[[cite:from-startup-engineering-to-freelance-data-science=>Upwork]]
+Marketplace work adds proposal iteration on platforms such as Upwork. Antonis
+Stellas used the platform to test profile positioning, attachments, pricing, and
+project focus while still working in a startup role.[[cite:from-startup-engineering-to-freelance-data-science@30:33=>Upwork]]
 
 [[generative AI]] consulting adds paid discovery through workshops and use-case
-selection.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>GenAI]]
+selection. Verena Weber starts with use-case workshops and network
+conversations. She also uses a reusable pitch deck and rates to make the offer
+concrete before a build project exists.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>GenAI]]
 
 The strategy connects to [[entrepreneurship]], [[career growth]],
 [[solopreneur]], and [[startups=>startup]] because freelancing is both a career
@@ -55,10 +59,11 @@ work has to name the business problem, data consumer, delivery boundary, and
 value created.
 
 Generative AI consulting keeps the same boundary discipline. Workshops and
-use-case discovery can be the first paid product. The offer still has to explain
-who benefits, what evidence supports the consultant's claim, and how the rate
-maps to client value. That puts GenAI freelance work next to
-[[ml consulting proposals]], not only next to model building.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Practical Generative AI Consulting]]
+use-case discovery can be the first paid product when a company has GenAI
+urgency but not yet a scoped project. The offer still has to explain who
+benefits, what evidence supports the consultant's claim, and how the rate maps
+to client value. That puts GenAI freelance work next to
+[[ml consulting proposals]], not only next to model building.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Practical Generative AI Consulting]]
 
 ## Solo and Agency Forks
 
@@ -115,10 +120,12 @@ learning time, buyer demand, and proof. The strategic question isn't "which
 topic is hot?" It's "which buyer problem can I credibly solve, and which market
 already pays for it?"
 
-Upwork rejections aren't only failed bids. They can show whether the profile,
-attachments, proposal framing, and skill focus match the projects buyers post.
-Freelancers can treat rejection as a market signal alongside job boards,
-recruiter messages, and community conversations.[[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]
+Upwork rejections aren't only failed bids. They can show whether buyers
+understand the profile and attachments. They can also expose whether proposal
+framing, price, and skill focus match the projects buyers post. Freelancers can
+treat rejection as a market signal alongside job boards, recruiter messages, and
+community conversations. Stellas used that feedback to improve proposals and
+specialize instead of sending the same generic bid again.[[cite:from-startup-engineering-to-freelance-data-science@37:09=>Startup Engineering to Freelance Data Science]]
 
 Strong credentials don't automatically justify high prices. A PhD, rare model
 skill, or broad generalist background still needs an offer the buyer can
@@ -136,11 +143,15 @@ dynamics.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 Recruiter interest before resignation can make independent work feel possible
 and give the freelancer early market evidence.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
-On Upwork, the profile is the selling surface. Buyers judge trust from projects,
-portfolio material, attachments, and proposal rewrites.
-Proposal rejection then becomes a reason to adjust the offer. It can push the
-freelancer to narrow the skill focus or improve proof instead of only sending
-more bids.[[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]
+On Upwork, buyers judge the profile. They look for projects, portfolio material,
+attachments, and proposal rewrites. Proposal rejection then becomes a reason to
+adjust the offer. It can push the freelancer to narrow the skill focus or
+improve proof. It can also push them to change the proposal rather than only
+sending more bids.
+
+Marketplace evidence links this work to
+[[machine learning portfolio projects]] and [[open source portfolio evidence]].
+Evidence has to travel with the proposal.[[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]]
 
 Each channel creates a different strategic constraint. On platforms such as
 Upwork, a new profile may need lower prices to build ratings and proof. Scarce
@@ -148,13 +159,13 @@ skills can support higher rates because the buyer has fewer alternatives.
 [[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 
 Hourly rates depend on client type and project duration. They also depend on
-learning value and the freelancer's willingness to protect non-client time.[[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]
+learning value and the freelancer's willingness to protect non-client time.[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
 
 Antonis Stellas gives the concrete version. An hourly anchor can change for a
 simple project or a larger corporate client. It can also change for a
 learning-heavy engagement or the limited time left after a startup job. Pricing
 reflects client value and project complexity. It also reflects learning value
-and opportunity cost, not only a public profile rate.
+and opportunity cost, not only a public profile rate.[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
 
 Recruiter channels can validate demand and create fast access to projects. They
 also add middlemen, duplicated submissions, and less direct control.
@@ -174,16 +185,16 @@ as someone who has met many people.[[cite:solopreneur-developer-and-data-profess
 For GenAI consultants, those conversations can start with existing network
 contacts and mentorship circles. Professional events, LinkedIn visibility, and
 referrals add more warm paths. Client acquisition connects to
-[[data scientist cv and portfolio]] and [[community building]]. It also connects
-to [[consultant or freelancer to data product founder]].
-Public proof and warm introductions lower the trust cost before a proposal is
-written.[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Practical Generative AI Consulting]]
+[[data scientist cv and portfolio]], [[community building]], and
+[[technical writing]]. It also connects to
+[[consultant or freelancer to data product founder]]. Public proof and warm
+introductions lower the trust cost before a proposal is written.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Practical Generative AI Consulting]]
 
 Verena Weber also treats those conversations as market research. Known contacts,
 mentorship calls, LinkedIn visibility, and events reveal what companies are
 struggling with before the consultant locks the offer. Early projects should
 update the positioning rather than freeze it
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Practical Generative AI Consulting]].
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@51:42=>Practical Generative AI Consulting]].
 
 Referrals become more strategic after delivery. A few good clients can sustain
 the business when existing clients refer new clients and offer more projects.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
@@ -220,11 +231,11 @@ that risk.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 Freelancers also handle registration and invoicing. Platform income still has
 to become legal, usable income in the freelancer's country. Otherwise money can
 sit on the marketplace while paperwork catches up
-[[cite:from-startup-engineering-to-freelance-data-science=>Upwork]].
+[[cite:from-startup-engineering-to-freelance-data-science@45:18=>Upwork]].
 
 They also plan for taxes, pension, and health insurance. Weber's transition
 surfaces the hidden employer-side costs that full-time salary can obscure
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>GenAI]].
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@37:55=>GenAI]].
 Positioning, pitch decks, and rates are only part of the setup work.
 
 For broader pricing and scoping context, use

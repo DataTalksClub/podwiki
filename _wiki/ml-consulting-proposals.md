@@ -25,13 +25,19 @@ For the broader services business, start with
 Use this page for the proposal work. It covers what to learn before making a
 promise, how to write scope down, and when to avoid selling a model.
 
-Sometimes the useful answer is a dashboard, workshop, feasibility study, or
-mentoring engagement. [[person:mikiobraun=>Mikio Braun]] anchors the proposal
+Sometimes the useful answer is a dashboard or workshop instead of
+implementation. Sometimes it's a feasibility study or mentoring engagement.
+
+[[person:mikiobraun=>Mikio Braun]] anchors the proposal
 mechanics [[cite:freelancing-in-machine-learning=>Freelancing in Machine Learning]].
 [[person:vinvashishta=>Vin Vashishta]] frames the business case and feasibility
 gates [[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]].
+
 [[person:mariannadiachuk=>Marianna Diachuk]] adds startup readiness and prototype
 discipline [[cite:solopreneur-data-scientist=>Introducing Data Science in Startups]].
+[[person:verenaweber=>Verena Weber]] adds the GenAI consulting version. She uses
+workshops, use-case discovery, and pitch decks. Rates and client-finding through
+network conversations are part of the same proposal work [[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]].
 
 ## Proposal as Decision Document
 
@@ -117,6 +123,13 @@ Those questions protect the client as much as the consultant. A vague "we have
 data, do something with it" request may need analytics or product discovery
 before ML scope. It may also need
 [[data strategy]].
+
+For GenAI proposals, discovery can be the initial offer rather than a free
+prelude. Weber's workshop-and-use-case framing lets a client explore adoption,
+productivity opportunities, and text-oriented use cases before committing to an
+LLM system. That keeps [[generative AI]] work connected to business decisions,
+not only model selection
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
 
 ## Data Access and Feasibility
 
@@ -224,6 +237,13 @@ work
 The proposal should make it possible to
 say "continue," "change data," "ship a simpler solution," or "stop."
 
+Pitch material is another written proposal surface. Weber builds a longer deck
+from her strengths, customer problems, evidence, and rates. She then shortens it
+for specific audiences. The reusable deck keeps positioning consistent, while
+the short version keeps the buyer's problem visible. That links proposal writing
+to [[data freelancing strategy]] and [[technical writing]], not only sales collateral
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>Generative AI Consulting]]).
+
 ## Pricing and Trust
 
 Pricing is part of scope because each model allocates uncertainty differently.
@@ -267,6 +287,13 @@ as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when
 new information appears.
 
+Weber includes rates in the pitch deck so pricing becomes part of positioning.
+Buyers can compare workshop and advisory options with implementation work before
+the buyer asks for a larger engagement. Weber keeps evidence and contact paths in the same view.
+Consultants can adapt the proposal by audience. They should keep the price
+signal attached to proof and problem focus
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]]).
+
 Trust is built before and during pricing. Braun treats unpaid intro meetings as
 part of building trust and fit
 ([[cite:freelancing-in-machine-learning=>Freelancing in Machine Learning]]).
@@ -294,8 +321,10 @@ the company what to work on.
 Generative AI consulting can use the same scoped-offer structure. Weber's offer
 starts with adoption, productivity opportunities, and text-oriented GenAI use
 cases. That comes before anyone commits to building an LLM app. Discovery can
-be the proposal when the client has GenAI urgency but hasn't chosen the use
-case yet
+be the proposal when the client has GenAI urgency but hasn't chosen the use case
+yet. That's why GenAI workshops belong beside [[data product management]] and
+[[business skills for data professionals]], not only beside implementation
+work
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
 
 The pitch deck is positioning work before larger projects. It starts from the

@@ -194,10 +194,15 @@ and cost
 
 The role's business context and technical direction matter too.
 
-Katz's interview guide covers Python and SQL questions, take-home projects, and
-database concepts. Docker and Airflow also appear, along with code quality. For
+Katz's interview guide covers Python and SQL with take-home projects and
+database concepts. It also covers Docker, Airflow, and code quality. For
 managers, the test should look like the job
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+[[cite:get-data-engineering-job-prep-and-interview=>DE Job Prep]].
+
+Rahul Jain adds a useful filter for senior-sounding answers. Probe past
+buzzwords until the candidate explains databases and SQL. Then ask about data
+movement, lineage, and platform tradeoffs in plain terms
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
 
 If the role is warehouse modeling and orchestration, test modeling and
 orchestration. If the role is platform reliability, test observability and
@@ -281,8 +286,10 @@ This is the decision managers need to make before recruiting:
 - If the company needs low-latency products, hire for streaming, contracts,
   schemas, and production operations.
 
-Each profile can be a "data engineer", so your job description should make the
-profile obvious.
+Write the job description so the profile is obvious.
+Jain applies the same hiring rule to broad platform terms. They're useful only
+when candidates can connect them to fundamentals and operating constraints
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 ## Relate Data Engineering to Analytics Engineering
 

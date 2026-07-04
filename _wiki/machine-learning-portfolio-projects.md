@@ -14,6 +14,8 @@ related:
   - Job Search
   - Open Source Portfolio Evidence
   - ML System Design Documents
+  - Data Scientist CV and Portfolio
+  - Data Scientist Interview Roadmap
 ---
 
 Use a machine learning portfolio project to prove candidate judgment. It should
@@ -258,9 +260,18 @@ implementation [[cite:from-biology-to-machine-learning-data-science-portfolio-op
 Kaggle projects can work as portfolio evidence when they show understanding,
 not just rank. In Analytics to Data Science with Kaggle,
 [[person:andradaolteanu=>Andrada Olteanu]] describes Kaggle notebooks, GitHub,
-and portfolio impact. She recommends learning by doing competitions and studying
-strong notebooks. She decomposes the code, reimplements it, debugs it, and
-improves it [[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]].
+and portfolio impact as public proof that helped a hiring conversation. She
+recommends learning by doing competitions and studying strong notebooks. She
+decomposes the code, reimplements it, debugs it, and improves it
+[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]].
+
+Treat the notebook as part of the proof. A reviewer should see the
+reimplementation path, debugging trail, and candidate's own changes, not only a
+copied competition solution. Public discussion around the notebook can also
+create feedback and mentorship. Link the notebook from the
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] page and
+prepare to defend it in a
+[[Data Scientist Interview Roadmap=>data scientist interview]].
 
 For a credible Kaggle project, name the baseline and credit borrowed ideas.
 Explain the data validation and feature choices. Add original analysis and

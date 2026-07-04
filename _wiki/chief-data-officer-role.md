@@ -6,6 +6,8 @@ related:
   - Leadership
   - Data Strategy
   - Data Governance
+  - Data Engineering Platforms
+  - MLOps
   - Data Team Lead Role
   - Communication
   - AI
@@ -121,6 +123,12 @@ The useful distinction is scope, not title. The
 distinction next to analyst, engineer, and scientist roles. It also covers team
 lead, head of data, and VP of Data.
 
+Industrial AI leaders also have to choose where the data or AI practice
+reports. The reporting line may sit under a CTO, CIO, CMO, or CEO. The title
+matters less than whether the leader can coordinate platforms, data access,
+business adoption, and production ML practice across the organization.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
+
 ## Strategy, Org Design, and Accountability
 
 Strategy starts with company goals and works backward. The leader identifies
@@ -136,6 +144,12 @@ machine learning add more demands. The CDO builds the right teams and gives them
 context and resources. Then the leader turns team knowledge into a single
 strategy.
 [[cite:chief-data-officer-data-strategy-and-org-design=>Delegation and org design]]
+
+Industrial AI leaders also have to decide what stays central and what gets
+embedded near plants, products, or business domains. Teams can keep MLOps
+services, annotation workflows, experiment tracking, and procurement near the
+center while domain-facing teams handle adoption and local context.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@43:39=>Industrial AI org design]]
 
 The role therefore depends on [[team building]] and [[communication]].
 
