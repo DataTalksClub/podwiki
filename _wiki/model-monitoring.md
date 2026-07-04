@@ -84,9 +84,10 @@ Monitoring is also a retraining input. Drift signals can trigger retraining
 decisions, and fairness, anomaly, and robustness signals can too.
 
 Theofilos Papapanagiotou separates this from ordinary service monitoring
-because latency and request counts are only part of the picture. An ML
-monitoring stack also watches model quality signals that may kick off a
-training pipeline
+because latency and request counts are only part of the picture. An
+[[MLOps Roadmap]] has to treat monitoring as runtime observability and pipeline
+control. The same stack watches model quality signals that may kick off
+retraining
 [[cite:mlops-kubeflow-model-monitoring@11:17=>Kubeflow Model Monitoring]].
 The monitoring output can become new training data when the team has a
 production feedback path

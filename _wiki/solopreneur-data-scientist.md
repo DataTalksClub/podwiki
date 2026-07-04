@@ -53,6 +53,7 @@ them without outside funding. Cryptopy started as a crypto-alerting tool for
 personal trading before it became a public offer. UnrealMe turned a
 DreamBooth-style image idea into a small generative AI service and launched in
 weeks. [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@7:23=>Indie Hacking and Bootstrapping Side Projects]]
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>UnrealMe Rapid Prototype]]
 
 ## Freelancer, Solopreneur, or Startup Founder
 

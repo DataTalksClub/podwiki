@@ -79,6 +79,8 @@ Bloom filters answer a narrower retrieval question. Marcello La Rocca describes
 them as probabilistic containment checks
 [[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]].
 They can say absence or possible presence, so false positives come with the design.
+That makes them useful as a memory-saving prefilter, not as a final relevance
+decision.
 
 Common retrieval-adjacent uses include crawler URL deduplication
 [[cite:algorithms-data-structures-for-engineers@34:43=>Bloom Filter Applications]].

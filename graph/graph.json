@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11209
+    "links": 11211
   },
   "nodes": [
     {
@@ -68440,6 +68440,12 @@
     },
     {
       "source": "wiki:portfolio-projects",
+      "target": "person:sarahmestiri",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
       "target": "person:slawomirtulski",
       "kind": "wiki-chip",
       "weight": 1
@@ -68537,6 +68543,12 @@
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
       "kind": "wiki-chip",
       "weight": 1
     },

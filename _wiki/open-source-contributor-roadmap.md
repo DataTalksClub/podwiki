@@ -103,9 +103,9 @@ They pair onboarding, review expectations, and maintainer collaboration
 That keeps the first PR from becoming unreviewable work for maintainers.
 
 Johanna Bayer gives a research-software version of the same first step. She
-recommends starting with small repositories and learning the pull-request path.
-Before changing a large scientific code base, contributors can use community
-resources such as The Turing Way
+recommends starting with small repositories and learning the pull-request path
+in a guided setting. Before changing a large scientific code base, contributors
+can use community resources such as The Turing Way
 ([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@10:52=>Guided open-source onboarding]]).
 
 The first contribution sequence can be:

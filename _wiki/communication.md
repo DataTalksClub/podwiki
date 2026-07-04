@@ -97,8 +97,8 @@ reset the business expectation
 
 Public speaking uses the same translation rule at a larger scale. Ben Taylor
 frames strong data talks around a few memorable takeaways and attention hooks.
-He also turns metrics into narrative so the audience can connect the evidence to
-a decision
+He also turns metrics into narrative. The audience can then connect the evidence
+to a decision instead of only seeing a sequence of methods
 [[cite:public-speaking-for-data-scientists@21:55=>Clear outcomes]]
 [[cite:public-speaking-for-data-scientists@30:57=>Metrics to narrative]].
 
@@ -223,9 +223,9 @@ quality, while conference talks add preparation, submission, and delivery
 [[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
 
 Talks become a reusable communication asset when the speaker refines one strong
-story instead of inventing a new talk for every venue. Ben Taylor describes that
-repeatable-keynote loop, while Swyx connects reusable talks to public practice
-and career visibility
+story instead of inventing a new talk for every venue. Ben Taylor describes
+that repeatable-keynote loop from local stages toward conferences. Swyx connects
+reusable talks to public practice and career visibility
 [[cite:public-speaking-for-data-scientists@9:37=>Repeatable keynotes]]
 [[cite:developer-personal-brand-learn-in-public@59:04=>Reusable talks]].
 

@@ -91,6 +91,24 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
+The `docs/mining/report_pod_07.md` high-value missing-edge batch was integrated
+on 2026-07-05:
+
+- Marcello La Rocca's algorithms/data-structures episode now strengthens
+  information retrieval, vector databases, embeddings, ML-for-SWE, software
+  engineering, interview, and competition pages
+- Pauline Clavelloux's indie-hacking episode now strengthens the solopreneur
+  data-scientist page with a more specific UnrealMe prototype citation
+- Elena Samuylova's MLOps startup episode and Loris Marini's SaaS
+  business-skills episode now strengthen founder and ML-for-business pages
+- Sarah Mestiri's job-search episode now strengthens portfolio-project advice
+  around courses versus applied proof
+- Theofilos Papapanagiotou, CJ Jenkins, Ben Taylor, and Johanna Bayer evidence
+  now strengthens monitoring, notebook-to-production, CV, community,
+  communication, and open-source contributor pages
+- Two stale `.md.md` podcast-summary redirect records were removed, and the
+  matching `source_episode` metadata now points to the canonical source files
+
 The `docs/mining/report_pod_08.md` high-value missing-edge items were integrated
 on 2026-07-05:
 

@@ -142,6 +142,9 @@ and diagnosis come before machine learning. The data professional first needs
 enough [[business skills for data professionals=>business context]] to understand
 the problem, not only the tool request
 [[cite:data-professionals-business-skills-in-saas@53:08=>SaaS Business Skills]].
+That can mean starting with a shared spreadsheet, pivot table, or diagnostic
+conversation. Those tools can keep the stakeholder engaged while the team learns
+why the business outcome is changing.
 
 Ben Taylor gives the public-speaking version of the same filter for new data
 scientists: talk about concrete business problems before hype topics. For a

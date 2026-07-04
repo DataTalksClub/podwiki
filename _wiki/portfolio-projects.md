@@ -88,6 +88,13 @@ That makes the project more reviewable. The writeup can show where a method,
 metric, model, or tool became necessary instead of presenting theory as
 decoration.
 
+[[person:sarahmestiri=>Sarah Mestiri]] makes the job-search version of the same
+point. Courses can help someone explore a direction. A project tests whether
+the person can use the skill and still wants that role. A portfolio should turn
+course learning into role-shaped practical work before the next course becomes
+the default step
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@26:28=>Tech Job Search Strategy]].
+
 [[person:marijnmarkus=>Marijn Markus]] adds a differentiation test. A project
 can stand out when it grows from a real curiosity or domain problem. It doesn't
 have to be another leaderboard clone. His examples include home automation,

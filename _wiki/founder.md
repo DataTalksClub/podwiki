@@ -107,6 +107,12 @@ toward managed cloud services kept the team closer to pilots and retailer
 learning. For retail AI founders, platform work can delay forecasting quality
 and product-market fit.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
+Elena Samuylova adds a service-to-product boundary. A founder can start with
+manual delivery behind an interface. The startup becomes scalable only when the
+work is standardized enough to automate. Some offerings still need custom
+expert handling for every client. Those remain closer to services businesses
+than repeatable SaaS products.[[cite:building-mlops-startup@39:25=>How to Build a Successful ML Startup]]
+
 ## Distribution and Open Source
 
 Several founders use [[Open Source]] as distribution, not only as a license.

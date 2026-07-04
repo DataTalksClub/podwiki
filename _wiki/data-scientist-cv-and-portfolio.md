@@ -36,7 +36,7 @@ help candidates name achievements without bragging.[[cite:data-leadership-coachi
 Career changers may need several rewrites before the CV shows transferable
 skills in recruiter-friendly language. CJ Jenkins describes moving from an
 academic CV toward a skills-first resume. She also mentions LinkedIn keywords,
-recruiter feedback, and ATS-aware iterations
+recruiter feedback, and [[cv-screening=>ATS-aware]] iterations
 [[cite:postdoc-to-data-science-lead-career-transition@17:14=>Postdoc to Data Science Lead]]
 [[cite:postdoc-to-data-science-lead-career-transition@20:40=>Postdoc to Data Science Lead]].
 
