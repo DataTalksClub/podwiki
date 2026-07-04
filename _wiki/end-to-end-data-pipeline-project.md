@@ -20,17 +20,17 @@ source to a trusted output. Capture raw source data, build modeled tables, and
 show orchestration and quality checks. Make recovery behavior, the consumer,
 and the supported decision visible too.
 
-Use this page with the broader
+This project fits the broader
 [[Portfolio Projects]] and
 [[Data Engineering Portfolio Projects]]
-when the target role is
-[[data engineering]]. It also
-helps with
+paths for a
+[[data engineering]]
+target role. It also supports
 [[analytics engineering]]
-or backend data work. For pipeline mechanics, read
+or backend data work. Pipeline mechanics connect to
 [[Data Pipelines]] and
-[[Orchestration]]. For operations,
-read [[DataOps]] and
+[[Orchestration]], while operations connect to
+[[DataOps]] and
 [[Data Quality and Observability]].
 
 A clear pipeline structure starts with ingestion prep and source handling. It

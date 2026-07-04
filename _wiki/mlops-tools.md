@@ -26,10 +26,10 @@ New tools don't solve organizational problems by themselves. Large companies
 often already have Kubernetes plus existing version control, CI/CD,
 orchestration, and deployment infrastructure.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-For a broader sequence of what to learn and when, use the
-[[MLOps Roadmap]]. Use [[MLOps Architecture]] for the operating flow that ties
-the tool categories together. Use this page
-for the tool categories behind practical MLOps stacks.
+The broader learning sequence sits in the
+[[MLOps Roadmap]], while [[MLOps Architecture]] explains the operating flow that
+ties the tool categories together. Practical MLOps stacks group tools by
+lifecycle job.
 
 ## Tool Coverage
 

@@ -23,11 +23,10 @@ question is whether someone is learning fundamentals or building a model. The
 next question is whether the work requires preserved experiments, served
 features, production monitoring, or responsible-AI checks.
 
-That makes this page broader than
-[[MLOps Tools]]. Use the MLOps page
-when the question is about registries, orchestration, deployment, and
-monitoring as a production operating layer. Use this page to decide which tool
-category belongs at a given stage of machine learning work.
+That scope is broader than
+[[MLOps Tools]]. The MLOps layer covers registries, orchestration, deployment,
+and monitoring as a production operating layer. Tool choice changes by stage of
+machine learning work.
 
 That range starts with Python and scikit-learn, then moves through
 [[experiment tracking]] and [[Feature Stores]]. It also includes open-source

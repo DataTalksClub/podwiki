@@ -103,12 +103,13 @@ A reusable project description should cover these points:
 - The method, metric, result, and tradeoff.
 
 Beginner projects don't need to optimize for the most impressive model. Hiring
-managers also look for data judgment. The project should show how the candidate
-understands data behavior. It should also show how they notice data problems,
-handle overfitting, and explain what they would try next.[[cite:how-to-break-into-data-science@57:09=>Data Science Career Playbook]]
+managers also look for data judgment and critical thinking. The project should
+show how the candidate understands data behavior and chooses tools. It should
+also show how they notice data problems, handle overfitting, and explain what
+they would try next.[[cite:how-to-break-into-data-science@57:09=>Data Science Career Playbook]]
 
-Messy datasets can be stronger than polished starter datasets when the work
-shows judgment.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]
+Messy datasets can be stronger than polished starter datasets. They show
+judgment about real data problems rather than only a copied benchmark workflow.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]
 
 NYC Open Data can support beginner projects, with taxi-ride data as one
 example.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]

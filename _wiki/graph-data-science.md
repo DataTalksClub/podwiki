@@ -1,79 +1,92 @@
 ---
 layout: wiki
 title: "Graph Data Science"
-summary: "Graph data science applies graph algorithms and ML to relationship-heavy podcast cases: crash simulation, microbiome networks, entity links, and Graph RAG."
+summary: "Graph data science applies graph algorithms and ML to crash simulation, microbiome networks, knowledge graph automation, and Graph RAG."
 related:
   - Knowledge Graph vs Vector Search
   - Graph RAG vs Vector RAG
   - Bioinformatics Data Science
-  - Entity Resolution
   - Retrieval-Augmented Generation
+  - Search
+  - Tools
   - Machine Learning
 ---
 
 Graph data science applies data science and
 [[machine-learning=>machine learning]]
 methods to data represented as nodes and edges. It fits data where
-relationships explain the outcome. Automotive R&D connects vehicle parts, crash
-simulations, and design changes. Wastewater microbiome work connects
-microorganisms, samples, and co-abundance links in
-[[bioinformatics-data-science=>bioinformatics data science]].[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]][[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
-
-Use computation to separate graph data science from graph storage. A
-[[Knowledge Graph vs Vector Search=>knowledge graph]] can store domain entities
-and relation types. It can also keep metadata and provenance. Graph data science
-extracts or builds a graph for similarity measures and path algorithms. The
-same graph can support clustering, centrality, visualization, or predictive
-models.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
-
-Use graph data science for analysis over graph-shaped data. Use
-[[Knowledge Graph vs Vector Search]] for the storage and retrieval comparison.
-Use [[Graph RAG vs Vector RAG]] when the graph or vector result becomes context
-for an LLM answer.
-
-## Relationship Computation
-
-Graph data science starts when relationship data becomes an analytical object.
-In automotive R&D, a knowledge graph can hold simulations, vehicle parts, and
-engineering context. A smaller computational graph then supports similarity
-analysis, load-path analysis, visualization, and graph machine learning.
+relationships are part of the signal rather than just metadata. Automotive R&D
+connects vehicle parts, crash simulations, sibling vehicle designs, and design
+changes. Wastewater microbiome work connects microorganisms and samples. It also
+links co-abundance relationships with metabolites, biomes, and biological processes in
+[[bioinformatics-data-science=>bioinformatics data science]].
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
-
-In wastewater microbiome research, abundance tables can become microbial
-association networks. Microorganisms become nodes, inferred co-abundance
-relationships become edges, and the graph adds metadata. Metabolites, biomes,
-and biological processes then support clustering and centrality work.
 [[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
-## Domain Boundaries
+The useful boundary is computation. A
+[[knowledge-graph-vs-vector-search=>knowledge graph]] can store entities,
+relation types, metadata, and provenance. Graph data science extracts or builds
+a computational graph for similarity measures, path analysis, clustering, and
+prediction. It can also support centrality and visualization. When the result
+becomes context for an LLM answer, the problem moves toward
+[[graph-rag-vs-vector-rag=>Graph RAG]] and
+[[retrieval-augmented-generation=>retrieval-augmented generation]].
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-Automotive, bioinformatics, and product teams draw the boundary differently.
-Automotive graph work starts from physical structure, simulation lineage, and
-engineering semantics. Bioinformatics graph work starts from inferred microbial
-associations and experimental metadata. A portfolio/freelance ML example treats
-knowledge-graph automation as product work for recommendation and insurance.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]][[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]][[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+## Starting Points
 
-Automotive, bioinformatics, and product examples all use graph-shaped
-computation, but their evidence standards differ. Crash simulation graphs need
-engineering traceability. Microbiome networks need careful interpretation
-because geography, sampling, and thresholding can affect the inferred
-associations. Product graphs need explicit relationships to improve the
-application, not just a modern model architecture.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]][[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]][[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+Graph data science begins when graph-shaped data becomes an analytical object.
+In automotive R&D, the full knowledge graph can hold simulations and market
+vehicles. It can also link parts, sensors, and engineering context. A smaller
+NetworkX-style graph can then be extracted for similarity analysis, load-path
+analysis, visualization, and graph machine learning.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+
+In wastewater microbiome research, abundance tables become microbial association
+networks. Microorganisms are nodes, inferred co-abundance relationships are
+edges, and the graph is enriched with metadata such as metabolites and biomes.
+Researchers can then run clustering and centrality analysis over experimental
+edges plus metadata in Neo4j. They can also explore the same data through
+Streamlit and raw CSV exports.[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+
+Product work has narrower evidence here. A freelance ML example describes
+automating knowledge graph generation for a recommendation system with
+insurance applications. That supports graph construction as a product
+deliverable, not a broader claim about graph algorithms in that project.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+
+## Boundaries and Cautions
+
+The episodes don't treat every graph as automatically better than a table.
+Automotive simulation data can still be imagined in tabular form. Explicit edges
+add information when two simulations are related by a real development tree, a
+physical design change, or shared vehicle structure.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+
+Bioinformatics graph work has a different caution. Co-abundance edges are
+inferred from correlations and thresholding, so positive and negative
+correlations may have biological interpretations but still need careful
+interpretation. Geography, sampling, and study design can affect which
+associations appear.[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
+
+LLM workflows create a trust boundary for generated graph content. The
+automotive RAG discussion uses knowledge graphs to ground answers. It also warns
+that extracting large amounts of graph structure with an LLM can be hard to
+validate. Older, controlled graph-building processes still matter when the graph
+is supposed to increase trust.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 ## Graph Representations
 
 Represent data as a graph when the relationship is part of the data. In crash
-simulation work, engineers can connect vehicle structure to simulation context.
-They can connect sibling vehicles and related analyses. They can also connect
-physical changes to simulation outcomes. That structure keeps crash behavior
-from being flattened into one experiment table.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+simulation work, engineers can connect vehicle structure to simulation context
+and sibling vehicles. They can also link related analyses, physical design
+changes, and simulation outcomes. That structure keeps crash behavior from being
+reduced to one experiment table.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 The graph doesn't replace every table because many vehicle properties still fit
 rows and columns. It helps teams compare relationships across hundreds of
-simulations and find commonly involved parts. It can also cluster similar
-simulations or detect the main load path through a vehicle structure.
+simulations and find commonly involved parts. It can also cluster simulations
+and detect the main load path through connected vehicle parts during a crash.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 Bioinformatics makes the same representation shift from abundance tables.
@@ -126,7 +139,7 @@ case, graph similarity and edge prediction can help choose graph context for an
 LLM. Teams still need to verify generated graph content and generated answers.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-## Domain Use Cases
+## Domain Workflows
 
 Automotive R&D uses graph data science when simulations, vehicle structures, and
 engineering changes form a connected system. Semantic reporting helps teams
@@ -143,12 +156,11 @@ graph dumps, web views, and generated reports.[[cite:bioinformatics-worflows-too
 
 Machine learning portfolio and freelance work adds a practical product
 boundary: knowledge graph automation can appear inside recommendation systems
-and insurance applications. Other ML projects may remain image- or
-transformer-centered instead of graph-centered. The graph choice depends on
-whether the deliverable needs explicit relationships, not only a modern model
-architecture.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
+and insurance applications. Other ML projects discussed in the same episode are
+image- or transformer-centered. The graph choice belongs to the deliverable that
+needs explicit relationships.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
-## Boundaries with Knowledge Graphs and RAG
+## Boundaries with Knowledge Graphs, RAG, and Search
 
 Graph data science isn't the same thing as a knowledge graph. A knowledge graph
 models and stores entities plus relation types. It also stores metadata and
@@ -160,28 +172,41 @@ Graph data science is also separate from RAG. Vector RAG chunks text, embeds
 it, and retrieves semantically similar passages. Graph RAG retrieves graph
 structure such as entities and relations. It can also retrieve paths,
 neighborhoods, and Cypher-derived context.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 Graph data science can support
-[[Graph RAG vs Vector RAG=>Graph RAG]] when similarity or edge prediction helps
+[[graph-rag-vs-vector-rag=>Graph RAG]] when similarity or edge prediction helps
 choose graph context. The graph algorithm isn't the answer generator. RAG still
 has to package that context for an LLM and validate the generated
 answer.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-Use [[Knowledge Graph vs Vector Search]] for the storage and retrieval boundary.
-Use [[Graph RAG vs Vector RAG]] for LLM context packaging and
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
-broader retrieval-plus-generation workflow. Use
-[[bioinformatics-data-science=>Bioinformatics Data Science]] for the
-microbiome-network case and [[entity-resolution=>Entity Resolution]] for a
-neighboring graph-shaped data product problem.
+This is where the topic touches [[search=>search]]: graph algorithms can choose
+or rank candidate graph context, while vector search retrieves embedded chunks
+or objects. The storage and retrieval tradeoff belongs in
+[[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]], while
+the generation workflow belongs in
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+
+## Tooling Patterns
+
+The graph data science examples rely on ordinary [[tools=>tools]] as much as
+algorithms. Automotive work uses Neo4j for the larger knowledge graph and
+extracts smaller NetworkX-style graphs for graph analytics. Bioinformatics work
+uses Streamlit, CSV exports, Neo4j dumps, and report-generation tooling so
+researchers can look at both the raw data and graph outputs.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
+[[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 ## Related Pages
 
-Continue with these pages for neighboring retrieval, biology, and graph-shaped
-data product topics.
+Continue with these linked pages for neighboring retrieval, biology, and graph
+modeling topics.
 
-- [[Knowledge Graph vs Vector Search]]
-- [[Graph RAG vs Vector RAG]]
-- [[Bioinformatics Data Science]]
-- [[Entity Resolution]]
-- [[Retrieval-Augmented Generation]]
+- [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]] for the storage and retrieval boundary.
+- [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]] for graph and vector context in LLM systems.
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the broader retrieval-plus-generation workflow.
+- [[bioinformatics-data-science=>Bioinformatics Data Science]] for the microbiome-network case.
+- [[search=>Search]] for retrieval systems that graph or vector methods can feed.
+- [[tools=>Tools]] for the tooling layer around Neo4j, NetworkX, Streamlit, and exports.
+- [[entity-resolution=>Entity Resolution]] for a neighboring entity-modeling problem that focuses on matching records rather than graph analytics.

@@ -91,6 +91,23 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
+The `docs/mining/report_pod_08.md` high-value missing-edge items were integrated
+on 2026-07-05:
+
+- Boyan Angelov's data-strategy episode now strengthens `_wiki/data-strategy.md`
+- Alexander Guschin's Kaggle Grandmaster episode now strengthens
+  `_wiki/competitions-beyond-kaggle.md`
+- Vin Vashishta's ML monetization discussion now strengthens
+  `_wiki/ml-product-manager-role.md`
+- Misra Turp's career-search and portfolio advice now strengthens
+  `_wiki/job-search.md` and `_wiki/data-scientist-cv-and-portfolio.md`
+- Angela Ramirez's fraud-detection feature and graph examples now strengthen
+  `_wiki/feature-stores.md` and `_wiki/knowledge-graph-vs-vector-search.md`
+
+The 2026-07-05 graph audit found no current graph edges dropped because of
+missing node ids. When Markdown sources change, regenerate `graph/graph.json`
+with `make graph` or `make check`; do not hand-edit it.
+
 The `docs/mining/report_pod_09.md` high-value graph edges were integrated on
 2026-07-04:
 
@@ -434,6 +451,13 @@ Start with this batch when expanding the content set.
   `_wiki/multimodal-llms.md`. Do not recreate these pages from the stale
   `.tmp/topic-gap-analysis.md` report. Future work should add narrower subpages
   only when a new keyword or recurring podcast theme supports them.
+- The 2026-07-05 recent-topic v2 gap audit verified and tightened the wider
+  gap pages: `_wiki/ai-for-social-good.md`, `_wiki/graph-data-science.md`,
+  `_wiki/synthetic-data.md`, `_wiki/text-to-sql.md`, and
+  `_wiki/simulation-and-digital-twins.md`. The lower-priority NLP and
+  leadership items are already handled as sections in `_wiki/nlp.md` and
+  `_wiki/leadership.md`. Do not recreate those pages from the stale
+  `.tmp/topic-gap-analysis-v2.md` report.
 - Resolve the 689-row content gaps export. The local file
   `.tmp/next-actions-done-datatalks.club.xlsx` currently has the expected tabs
   but only header rows, so replace it with the populated export before creating

@@ -36,9 +36,9 @@ Data-product transition paths keep discovery and launch discipline. They also
 add SQL, data quality judgment, documentation habits, and enough lifecycle
 knowledge to ask better technical questions.[[cite:product-designer-to-data-product-manager=>Data PM transition]]
 
-The monetization version connects executive strategy, user requirements,
-research questions, and production feasibility before a model becomes a funded
-product bet.[[cite:make-money-with-machine-learning-roles-skills@43:28=>ML monetization roles]]
+The monetization version starts with executive strategy and user requirements.
+It then adds research questions, feasibility checks, and production-path
+estimates before a model becomes a funded product bet.[[cite:make-money-with-machine-learning-roles-skills@43:28=>ML monetization roles]]
 
 ## Product Ownership for ML Work
 
@@ -172,9 +172,10 @@ feasibility, reliability, measurement, and adoption questions the PM has to
 manage.
 
 The strategic version of the role turns business planning into researchable ML
-use cases. The PM listens for problems and goals, then reframes them as
-requirements and an initial business case. Researchers test whether ML can solve
-the problem better than the current approach.[[cite:make-money-with-machine-learning-roles-skills@43:28=>ML monetization roles]]
+use cases. The PM listens for problems and goals. Then they translate them
+between users, C-suite stakeholders, researchers, and architects. The PM then
+reframes them as requirements and an initial business case. Researchers test
+whether ML can solve the problem better than the current approach.[[cite:make-money-with-machine-learning-roles-skills@43:28=>ML monetization roles]]
 
 Vin Vashishta separates this from project management because the ML product
 manager doesn't only track deadlines. They make kill-or-greenlight decisions at
@@ -210,8 +211,8 @@ A PM should avoid jumping from a stakeholder request directly to a technical
 solution.
 
 The monetization path makes that sequence a gated investment process. Research
-and architecture inputs become feasibility studies, production-path estimates,
-and ROI checks.[[cite:make-money-with-machine-learning-roles-skills@48:54=>ML investment process]]
+and architecture inputs become feasibility studies and support plans. They also
+become production-path estimates, cost estimates, and ROI checks.[[cite:make-money-with-machine-learning-roles-skills@48:54=>ML investment process]]
 The PM can stop weak bets or fund more research. Strong candidates move into
 the product roadmap.
 That puts the role close to

@@ -24,10 +24,10 @@ matters for [[ML platforms]] and
 That evidence includes tracked runs and artifact promotion. It also includes
 deployment, monitoring, and a rollback or retraining rule.
 
-Use this page with the broader
-[[Portfolio Projects]] hub
-when the project is meant to prove production readiness rather than only model
-quality. The lifecycle runs from training and evaluation to
+This checklist fits the broader
+[[Portfolio Projects]] hub when the project is meant to prove production
+readiness rather than only model quality. The lifecycle runs from training and
+evaluation to
 [[experiment tracking]] and the
 [[model registry]]. It separates batch and
 online deployment. It also ties lineage metadata to prediction APIs and logs

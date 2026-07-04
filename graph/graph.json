@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11143
+    "links": 11153
   },
   "nodes": [
     {
@@ -9211,7 +9211,7 @@
       "title": "AI for Social Good",
       "url": "/wiki/ai-for-social-good/",
       "count": 1,
-      "search": "AI for Social Good How DataTalks.Club podcast guests apply AI and analytics to conservation, nonprofit operations, public policy, accessibility, and social impact programs."
+      "search": "AI for Social Good How AI and analytics support conservation, nonprofit operations, public policy, accessibility, and social impact programs in DataTalks.Club podcast examples."
     },
     {
       "id": "wiki:ai-powered-business-intelligence",
@@ -10204,7 +10204,7 @@
       "title": "Graph Data Science",
       "url": "/wiki/graph-data-science/",
       "count": 1,
-      "search": "Graph Data Science Graph data science applies graph algorithms and ML to relationship heavy podcast cases: crash simulation, microbiome networks, entity links, and Graph RAG."
+      "search": "Graph Data Science Graph data science applies graph algorithms and ML to crash simulation, microbiome networks, knowledge graph automation, and Graph RAG."
     },
     {
       "id": "wiki:healthcare-ml-validation-and-adoption",
@@ -11104,7 +11104,7 @@
       "title": "Text-to-SQL",
       "url": "/wiki/text-to-sql/",
       "count": 1,
-      "search": "Text to SQL Podcast takeaways on text to SQL, metadata, governed metrics, query safety, and production testing for conversational BI."
+      "search": "Text to SQL Podcast takeaways on text to SQL, metadata retrieval, governed metrics, query safety, and production testing for conversational BI."
     },
     {
       "id": "wiki:tools",
@@ -30970,6 +30970,12 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-chip",
       "weight": 1
@@ -49678,6 +49684,12 @@
     },
     {
       "source": "wiki:feature-stores",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:feature-stores",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -49711,6 +49723,24 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:feature-stores",
@@ -51310,12 +51340,6 @@
     },
     {
       "source": "wiki:graph-data-science",
-      "target": "wiki:entity-resolution",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:graph-data-science",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -51359,6 +51383,30 @@
     {
       "source": "wiki:graph-data-science",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:tools",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53455,6 +53503,18 @@
       "target": "wiki:entity-resolution",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:feature-stores",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:feature-stores",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -76030,6 +76090,12 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "wiki:nlp",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-chip",
       "weight": 1
@@ -76045,6 +76111,12 @@
       "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:teaching",
@@ -76990,13 +77062,13 @@
     },
     {
       "source": "wiki:text-to-sql",
-      "target": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:text-to-sql",
-      "target": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -77021,18 +77093,6 @@
     {
       "source": "wiki:text-to-sql",
       "target": "wiki:data-governance",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
     },

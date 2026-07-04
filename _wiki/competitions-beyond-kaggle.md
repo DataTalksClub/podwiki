@@ -60,14 +60,15 @@ Competitions help most when they produce explainable work for
 
 Competition rank and career value vary by market. In places with fewer structured
 learning paths or fewer visible hiring channels, the public signal and community
-can matter more.[[cite:kaggle-grandmaster-to-production-ml-and-education@26:18=>Kaggle Grandmaster to Production ML]]
+can matter more.[[cite:kaggle-grandmaster-to-production-ml-and-education=>Competitive Machine Learning]]
 
 Competition depth also varies by use case. Kaggle can help a career switcher
 practice modeling, computer vision, and teamwork. It doesn't prove data
 collection or labeling. It also doesn't prove Docker, deployment, or a full
 end-to-end system.
 Those gaps matter when the target role expects production ownership or broader
-[[Machine Learning Portfolio Projects]].[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
+[[Machine Learning Portfolio Projects]] and [[Machine Learning System Design]].
+[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 
 ## Best Uses
 
@@ -75,14 +76,14 @@ Competitions help when a learner needs a real problem before they have a job,
 client, or internal dataset. Working across time series and NLP builds broader
 judgment than repeating one narrow recipe. Segmentation, detection, and 3D
 computer vision add another kind of modeling practice. That breadth helps before
-interviews, especially when the target role is still unclear.[[cite:kaggle-grandmaster-to-production-ml-and-education@17:10=>Kaggle Grandmaster to Production ML]]
+interviews, especially when the target role is still unclear.[[cite:kaggle-grandmaster-to-production-ml-and-education=>Competitive Machine Learning]]
 
 The strongest competition story isn't "I ranked well." It includes domain
 learning and baselines, plus submissions, stronger solutions, and tradeoffs.
 Competition problems rarely tell participants how to solve them, so a portfolio
 writeup should show the learning path as well as the final score.
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
-[[cite:kaggle-grandmaster-to-production-ml-and-education@21:42=>Kaggle Grandmaster to Production ML]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education=>Competitive Machine Learning]]
 
 Competitions can also keep experienced practitioners close to messy data. A
 river-flow forecasting challenge gave a hands-on modeling problem after a long
@@ -146,8 +147,7 @@ train-validation split and leakage checks, then add the baseline, public metric,
 and local metric. Repeatable competition prep includes studying solved
 competitions and building infrastructure. It also treats baselines, EDA, and
 validation as durable essentials.
-[[cite:kaggle-grandmaster-to-production-ml-and-education@21:42=>Kaggle Grandmaster to Production ML]]
-[[cite:kaggle-grandmaster-to-production-ml-and-education@1:01:48=>Kaggle Grandmaster to Production ML]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education=>Competitive Machine Learning]]
 
 That mechanism aligns with the broader [[Evaluation]] standard. A model score
 only matters when it maps to a decision, baseline, and operating boundary. If the
@@ -189,7 +189,7 @@ understanding. ChatGPT and AutoML can speed up work and create baselines, but
 they don't replace careful problem-solving or produce winning competition
 systems by themselves.
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
-[[cite:kaggle-grandmaster-to-production-ml-and-education@1:03:11=>Kaggle Grandmaster to Production ML]]
+[[cite:kaggle-grandmaster-to-production-ml-and-education=>Competitive Machine Learning]]
 
 For agent-heavy projects, connect the writeup to [[Agent Engineering]] and
 [[agent-engineering=>AI Agents]]. Show the task harness and tool permissions.

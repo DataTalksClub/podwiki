@@ -35,7 +35,7 @@ and platform design. They define ownership, quality, governance, and delivery.
 [[person:boyanangelov=>Boyan Angelov]] makes that definition more operational.
 He describes strategy as a plan to get value from data. The plan has to be
 actionable and flexible enough to change once teams start using it
-[[cite:data-strategy-and-dataops-for-ai-powered-products@08:13=>Actionable Data Strategy]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]].
 That means a strategy deck isn't just a list of goals. It needs connected
 artifacts such as data dictionaries, use-case notes, and due-diligence findings
 that let teams adjust the plan as evidence changes.
@@ -119,7 +119,7 @@ know what the business is trying to achieve before proposing models, platforms,
 or hiring plans. In his retail example, the strategy work is translating a
 business goal such as selling more products faster into feasible data use cases.
 Then the team checks whether the data, skills, and infrastructure support them
-[[cite:data-strategy-and-dataops-for-ai-powered-products@10:13=>Actionable Data Strategy]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]].
 
 Boyan uses a design loop to turn that alignment into intake discipline. Teams list
 candidate use cases after due diligence and test feasibility against current
@@ -127,7 +127,7 @@ data, skills, and infrastructure. They then prioritize by business impact. A
 small change in a use case can cascade into new storage, NLP skills, target
 architecture, and governance needs. Teams have to catch scope creep before
 delivery starts
-[[cite:data-strategy-and-dataops-for-ai-powered-products@13:28=>Use-case feasibility and prioritization]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]].
 
 That connects data strategy to [[Data Product Intake and Prioritization]] and
 [[machine learning for business]]. Ideas need feasibility, priority, and a
@@ -312,8 +312,7 @@ a business stakeholder, start with one small use case. Avoid technical language,
 name the budget, and ask for a clear yes-or-no commitment. Then set a baseline
 before implementation. Later impact reviews can compare pre- and post-launch
 business metrics
-[[cite:data-strategy-and-dataops-for-ai-powered-products@52:44=>Budgeted strategy pitch]]
-[[cite:data-strategy-and-dataops-for-ai-powered-products@55:32=>Strategy baselines]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]].
 
 [[person:parvathykrishnan=>Parvathy Krishnan]] brings
 the same logic into the nonprofit sector. Data maturity spans people, process,

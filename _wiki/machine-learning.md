@@ -24,25 +24,21 @@ decision. Teams choose the problem and check the data. They define labels and
 metrics, compare against a baseline, and decide whether the model belongs in a
 production system.
 
-Use this page for classic applied ML. Use
-[[Data Science]] for the broader work
-around analysis, experiments, and stakeholder work. Use
-[[Machine Learning vs Software Engineering]]
-when the question is how ML differs from ordinary software work. Use
-[[Machine Learning System Design]]
-for architecture, serving modes, fallbacks, and design documents.
+This topic centers on classic applied ML. The broader work around analysis,
+experiments, and stakeholder decisions belongs with
+[[Data Science]]. The boundary between ML and ordinary software work is covered
+in [[Machine Learning vs Software Engineering]]. Architecture, serving modes,
+fallbacks, and design documents belong with
+[[Machine Learning System Design]].
 
-When models already need release or ownership paths, use
+When models already need release or ownership paths, connect the work to
 [[MLOps]] and
-[[Model Monitoring]]. Use
-[[MLOps vs DataOps]] when
-the operations boundary matters.
+[[Model Monitoring]]. The operations boundary is covered in
+[[MLOps vs DataOps]].
 
-Use [[Machine Learning Tools]]
-for trackers, platforms, and libraries. Use
-[[AI]] or
-[[LLM Production Patterns]]
-for LLM applications, RAG, and agents.
+Trackers and platforms are covered in
+[[Machine Learning Tools]], while [[AI]] and
+[[LLM Production Patterns]] cover LLM applications such as RAG and agents.
 Mark Ryan and Luca Massaron's
 [[book:20250505-machine-learning-for-tabular-data=>Machine Learning for Tabular Data]]
 covers the classical modeling workflow that anchors much of this discussion.

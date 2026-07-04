@@ -84,15 +84,18 @@ to learn how recruiters and teams describe fit.
 For entry-level data science candidates, a smart broad search means applying
 even when a posting lists some unfamiliar tools. Rejection and interview
 questions then become market feedback. On the employer side, junior candidates
-stand out when outreach and
-interview preparation show that they understand the team, product, and role.
+stand out when outreach and interview preparation show that they understand the
+team and product. They should also show awareness of the industry and likely
+technical challenges.
 That moves the application away from a generic funnel
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@50:21=>Hiring and Managing Data Science Teams in B2B SaaS]]).
 
-The search should still point toward a target company or industry. Find
-practitioners in that company or nearby roles. Ask for a short conversation.
-Make the request specific enough to answer
-quickly.[[cite:how-to-break-into-data-science@50:32=>Playbook]]
+Point the search toward a target company or industry, then find practitioners in
+that company or nearby roles.
+
+Ask for a short conversation, explain why that company interests you, and make
+the request easy to answer quickly.[[cite:how-to-break-into-data-science@50:32=>Data Science Career Playbook]]
+
 That makes [[Data Science Careers]] and
 [[Data Scientist CV and Portfolio]] part of the same loop. Choose a direction,
 build evidence, test it with the market, then refine the next application.
@@ -181,8 +184,9 @@ Recruiter attention is easier to earn when outreach shows company research.
 Before contacting a company or employee, candidates should understand the
 industry and product well enough to ask interesting questions. They should also
 know the likely technical challenges. A couple of relevant projects give the
-conversation a concrete proof surface. Personal Streamlit apps on top of
-machine learning work can be enough when they match the role.[[cite:how-to-break-into-data-science@54:31=>Playbook]]
+conversation a concrete proof surface, especially when they show recent skill
+practice. Personal Streamlit apps on top of machine learning work can be enough
+when they match the role.[[cite:how-to-break-into-data-science@54:31=>Data Science Career Playbook]]
 
 Use [[Machine Learning Portfolio Projects]] when that proof needs a clearer
 project brief and a stronger story about baseline, evaluation, and follow-up.

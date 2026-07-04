@@ -76,11 +76,12 @@ Required structure:
 
 1. Opening definition: 1-3 short paragraphs that define the topic and link to
    the most important related wiki pages.
-2. Common definition: what the podcast archive converges on, with inline
-   episode links.
-3. Guest disagreements: boundary differences, tradeoffs, or places where guests
-   focus on different parts of the topic, with
-   inline episode links.
+2. Shared definition: what the podcast discussions converge on, with inline
+   episode links. Use a concrete heading that names the topic rather than a
+   generic scaffold label.
+3. Differences and tradeoffs: boundary differences, tradeoffs, or places where
+   guests focus on different parts of the topic, with inline episode links. Use
+   a heading that describes the actual disagreement or decision.
 4. Topic sections: concrete subtopics with podcast references inside the
    section where the claim appears.
 5. Related pages: a short final list when the body needs a navigational close.
@@ -90,16 +91,7 @@ help the claim: related wiki pages in definitions and canonical podcast links
 next to the discussion they support. Add person links only when the named person
 helps the reader follow the source.
 Do not use reader-facing headings with "Archive" in the name. Use
-`Common Definition`, `Guest Disagreements`, and concrete topic headings instead.
-
-Use these reader-facing headings where they fit:
-
-```markdown
-## Common Definition
-## Guest Disagreements
-## <Concrete Topic Section>
-## Related Pages
-```
+concrete topic headings instead of generic scaffold headings.
 
 Do not use these headings in public pages:
 
@@ -113,6 +105,10 @@ Do not use these headings in public pages:
 ## Recurring Archive Themes
 ## Maintenance Notes
 ## Agent Maintenance Notes
+## Common Definition
+## Guest Disagreements
+## Guest Differences
+## Guest Tradeoffs
 ```
 
 Wiki pages should not target arbitrary SEO keywords. They should be comprehensive

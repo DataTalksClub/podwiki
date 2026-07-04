@@ -21,14 +21,14 @@ They show a user problem, application code, data or document context, and
 evaluation. They also show deployment notes and a public explanation another
 person can review.
 
-Use this page alongside
+The project evidence overlaps with
 [[RAG Portfolio Projects]],
 [[Machine Learning Portfolio Projects]],
 [[Open Source Portfolio Evidence]],
 and the [[AI Engineer Role]].
-For sequencing the work, pair it with the
+Sequencing belongs with the
 [[AI Engineering Roadmap]].
-For hiring presentation, pair it with
+Hiring presentation connects to
 [[Job Search]] and
 [[Portfolio Projects]].
 

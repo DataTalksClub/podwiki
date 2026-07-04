@@ -8,6 +8,8 @@ related:
   - Machine Learning Infrastructure
   - Machine Learning Tools
   - Streaming
+  - Batch vs Streaming
+  - Knowledge Graph vs Vector Search
   - Model Registry
   - Model Monitoring
   - Data Pipelines
@@ -60,8 +62,8 @@ before scoring a request.
 
 Fraud systems can still use a hybrid path. Daily batch feature-engineering jobs
 can feed a live fraud service. When a member starts a purchase, the service
-scores the transaction in real
-time. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@8:24=>Fraud Prevention]]
+scores the transaction in real time and can block a suspicious purchase before
+completion. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@8:51=>Fraud Prevention]]
 Feature stores belong in
 [[Machine Learning System Design]].
 The same feature path has to serve both historical training data and the
@@ -107,11 +109,23 @@ online serving.
 
 A fraud system can precompute feature values in daily batch jobs. At inference
 time the service combines those values with live payload features. It returns a
-decision almost instantly. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@34:46=>Fraud Prevention]]
+decision almost instantly. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@35:02=>Fraud Prevention]]
 This makes the design a
 [[Batch vs Streaming]]
 tradeoff, not a pure streaming requirement. Batch features can still support
 instant inference when serving keeps retrieval and scoring fast.
+
+Fraud feature pipelines can also receive graph-derived signals from member,
+transaction, and product networks.
+
+Angela Ramirez describes how those networks can become model features or
+analysis layers when similar transaction-product patterns relate to known fraud. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Prevention]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Prevention]]
+
+That puts feature stores next to
+[[knowledge-graph-vs-vector-search=>knowledge graph]]
+and [[Graph Data Science]] decisions. The feature store serves model inputs,
+while the graph system preserves the relationship structure behind some of those
+inputs.
 
 For fraud and other checkout-time systems, teams should decide feature freshness
 from the product action and review path, not from a blanket "real-time"
@@ -159,10 +173,17 @@ can play that role. [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Fea
 
 ## Request-Time Features
 
-Feature stores precompute most feature logic and still support request-time
-context for some features. In fraud detection, an incoming order or booking
-includes live data that must be transformed at the moment of
+Feature stores precompute most feature logic, but some features still need
+request-time context.
+
+In fraud detection, an incoming order or booking includes live data that must be
+transformed at the moment of
 prediction. [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
+
+The fraud episode gives the operational version of that split. Daily batch
+calculations are already available, and the live service adds calculations from
+the transaction payload almost instantaneously.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@35:02=>Fraud Prevention]]
 
 Streaming and batch transforms are separate operational paths, so streaming
 transformations should be handled differently from batch transformations. Batch

@@ -25,11 +25,11 @@ Analytics engineering combines data modeling, data quality, dbt transformations,
 and Looker exposure
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
 
-Use this page for project ideas focused on reusable models and handoff. For the
-broader role, start with [[Analytics Engineering]] and
-[[Analytics Engineering Roadmap]]. For dashboard implementation, use
-[[Dashboard and Metric Layer Project Checklist]]. For ingestion, orchestration,
-and platform-heavy work, use [[Data Engineering Portfolio Projects]].
+These project ideas focus on reusable models and handoff. The broader role is
+covered in [[Analytics Engineering]] and
+[[Analytics Engineering Roadmap]]. Dashboard implementation connects to
+[[Dashboard and Metric Layer Project Checklist]]. Ingestion, orchestration, and
+platform-heavy work belong with [[Data Engineering Portfolio Projects]].
 
 A strong model makes business reality match the data, and engineering
 discipline makes that representation safer

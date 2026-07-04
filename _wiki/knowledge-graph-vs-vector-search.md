@@ -16,6 +16,7 @@ related_wiki:
   - Graph RAG vs Vector RAG
   - Graph Data Science
   - Vector Database vs Search Engine
+  - Feature Stores
   - Agent Engineering
   - Production Search Evaluation
   - LLM Evaluation Workflows
@@ -74,6 +75,12 @@ also supports clustering and load-path detection. In graph-backed RAG, chapters
 and sections become retrieval inputs. Semantic relations and Cypher queries do
 too, instead of staying as metadata around a text chunk.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
+Angela Ramirez gives a graph-database example outside RAG: Wikidata stores
+entity relationships, and SPARQL queries retrieve entities plus direct and
+inverse relations from the graph. That illustrates the graph retrieval unit
+as nodes, edges, and relation patterns, not nearest text neighbors.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@23:09=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@24:19=>Fraud Detection Graphs]]
+
 Teams choose architecture around the unit they retrieve, because vector search
 retrieves nearby chunks and records. Those records can represent products,
 images, users, or sessions. A graph retrieves nodes and edges, then returns
@@ -96,15 +103,18 @@ reports relate to each other. They also cover chapters, sections, and
 engineering concepts. Those questions need order, containment, paths, and typed
 relations. Semantically similar text isn't enough.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Fraud detection gives the same graph-side lesson outside RAG. Wikidata and
-SPARQL show why graph databases make entity relations queryable. In retail
-fraud, members, transactions, and products become connected nodes. Suspicious
-member-transaction-product neighborhoods can become additional model features or
-analyst signals.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@23:04=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]]
+Fraud detection gives the same graph-side lesson outside RAG. In retail fraud,
+members, transactions, and products become connected nodes. Suspicious
+member-transaction-product neighborhoods can become additional model features,
+blocking rules, or analyst signals.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Detection Graphs]]
 
-That connects this comparison to [[entity-resolution]] and [[Graph Data Science]].
+That connects this comparison to
+[[entity-resolution]],
+[[Graph Data Science]], and
+[[Feature Stores]].
 The value isn't a nearby text chunk. It's the relationship structure around an
-entity.
+entity and the ability to turn that structure into a model input or a human
+review signal.
 
 The practical split is failure-driven. Choose vector search when the system
 misses semantically related material. Choose a knowledge graph when the system
@@ -141,6 +151,12 @@ concepts. Teams still need to verify graph content extracted by LLMs. Graph
 systems move trust work into modeling and validation rather than eliminating
 it.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
+Angela's database-selection rule is similar. Use the data structure and use case
+to decide between relational, key-value, document, and graph-oriented storage.
+Static structured data can fit relational tables. Dynamic or relationship-heavy
+analysis may need a different structure.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@36:35=>Fraud Detection Graphs]]
+
 ## Production Work
 
 Vector search creates pipeline work. Teams compute embeddings during ingestion
@@ -163,9 +179,10 @@ before trusting them.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automo
 
 Graph production work can also include human investigation interfaces. Neo4j fit
 the fraud use case because end users could visualize the network instead of
-only reading tables. Fraud specialists can traverse connected users and
-transactions. They can also look at products when they decide whether something
-looks suspicious.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:11=>Fraud Detection Graphs]]
+only reading tables. Fraud specialists can traverse connected users,
+transactions, and products when they decide whether something looks suspicious.
+Tabular snippets can include the same data, but they make the workflow slower and
+harder for domain users.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
 
 This adds a product requirement beyond vector search latency or nearest
 neighbors. The graph has to make relationships inspectable.
