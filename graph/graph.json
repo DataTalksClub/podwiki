@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 10593
+    "links": 10578
   },
   "nodes": [
     {
@@ -30780,24 +30780,6 @@
     },
     {
       "source": "wiki:context-engineering",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:context-engineering",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:context-engineering",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:context-engineering",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -33948,49 +33930,7 @@
     },
     {
       "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:jeffkatz",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:ksenialegostay",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:nicolasrassam",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:olegnovikov",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
       "target": "person:roksolanadiachuk",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:slawomirtulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:terezaiofciu",
       "kind": "article-chip",
       "weight": 1
     },
@@ -60903,36 +60843,6 @@
       "target": "wiki:model-registry",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-dataops",
-      "target": "person:christopherbergh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-dataops",
-      "target": "person:dannyleybzon",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-dataops",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-dataops",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-dataops",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-dataops",
