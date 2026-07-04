@@ -28,11 +28,13 @@ Follow these rules when adding any page from this backlog.
 These notes capture the current cleanup direction and should not be lost.
 
 - Rewrite wiki pages to use compact citation markers for routine evidence:
-  `[[cite:<podcast-slug>|Episode Label]]`. Use a timestamp only when a precise
+  `[[cite:<podcast-slug>=>Episode Label]]`. Use a timestamp only when a precise
   clip helps verification:
-  `[[cite:<podcast-slug>|Episode Label|MM:SS]]`. Keep visible
+  `[[cite:<podcast-slug>@MM:SS=>Episode Label]]`. Keep visible
   `[[podcast:...]]` chips for navigation lists or sentences where the episode is
-  itself the object being discussed.
+  itself the object being discussed. Avoid `|` inside citation, podcast, person,
+  book, and wiki chips because Markdown can render adjacent pipe chips as
+  accidental tables.
 - Redo wiki pages to follow one structure: opening definition, topic-specific
   sections, concrete differences in how guests apply the topic, inline podcast
   references, and related pages. Do not expose scaffolding headings such as

@@ -288,17 +288,21 @@ cite the source with a chip. Do NOT narrate who said it or when.
 
 **Use citation markers for evidence.** Prefer compact citations over visible
 source chips when the source is only there to support a sentence:
-`[[cite:<podcast-slug>|Episode Label]]`. The renderer turns that into a
+`[[cite:<podcast-slug>=>Episode Label]]`. The renderer turns that into a
 numbered citation marker linked to the canonical DataTalks.Club episode.
 
 Use podcast chips when the episode itself is part of the sentence or a useful
-navigation object: `[[podcast:<podcast-slug>|Episode Label]]`.
+navigation object: `[[podcast:<podcast-slug>=>Episode Label]]`.
+
+Use `=>` for every chip alias, including wiki, person, book, podcast, and
+citation chips. Avoid `|` inside chips because Markdown can render adjacent
+pipe chips as accidental tables.
 
 **Use timestamps sparingly.** Do not write `at 30:38`, `Around 14:31`, `~22:14`,
 or `(8:13)` in prose. If a specific clip moment truly matters, put the time
 inside the citation or podcast chip:
-`[[cite:<podcast-slug>|Episode Label|MM:SS]]` or
-`[[podcast:<podcast-slug>|Episode Label|MM:SS]]`. Default to episode-level
+`[[cite:<podcast-slug>@MM:SS=>Episode Label]]` or
+`[[podcast:<podcast-slug>@MM:SS=>Episode Label]]`. Default to episode-level
 citations without timestamps, and add times only when they improve verification
 or help readers find a precise clip.
 
@@ -311,16 +315,16 @@ framework, a notable disagreement), not as sentence filler.
 
 Examples:
 
-- Before: `Around 14:31 in [[podcast:freelance-...|Freelance Playbook]],
-  [[person:adrianbrudaru|Adrian Brudaru]] says the warehouse took two weeks but
+- Before: `Around 14:31 in [[podcast:freelance-...=>Freelance Playbook]],
+  [[person:adrianbrudaru=>Adrian Brudaru]] says the warehouse took two weeks but
   alignment took months.`
 - After: `A warehouse build can take two weeks while aligning stakeholders on
-  what to measure takes months.[[cite:freelance-...|Freelance Playbook]]`
+  what to measure takes months.[[cite:freelance-...@14:31=>Freelance Playbook]]`
 
 - Before: `At 38:24 she turns podcast transcripts into chunks, embeddings, and
   vectorized context. At 48:09 she brings evaluation and human review back in.`
 - After: `Transcripts are chunked, embedded, and supplied as vectorized context,
-  with evaluation and human review folded back into the loop.[[cite:<slug>|Modern Search Systems]]`
+  with evaluation and human review folded back into the loop.[[cite:<slug=>Modern Search Systems]]`
 
 Keep every claim grounded (the citation stays); only over-visible chips,
 timestamps, and "who-said-it-when" narration are removed. Do not invent facts to

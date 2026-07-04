@@ -132,10 +132,11 @@ Use `CONTENT_GUIDE.md`.
 
 Wiki pages are comprehensive reference pages based on the full podcast archive.
 They should include evidence links, tradeoffs, and related wiki pages. Use
-compact `[[cite:<podcast-slug>|Episode Label]]` markers for routine evidence.
-Use `[[cite:<podcast-slug>|Episode Label|MM:SS]]` only when the exact clip helps
-verification. Podcast summaries are a separate agent index and should stay
-compact.
+compact `[[cite:<podcast-slug>=>Episode Label]]` markers for routine evidence.
+Use `[[cite:<podcast-slug>@MM:SS=>Episode Label]]` only when the exact clip helps
+verification. Avoid `|` inside citation, podcast, person, book, and wiki chips
+because Markdown can render adjacent pipe chips as accidental tables. Podcast
+summaries are a separate agent index and should stay compact.
 
 Editorial pages are SEO-informed pages created only after the user supplies
 target keywords. They live in `_wiki/` with a type `tag:` (guide, comparison,

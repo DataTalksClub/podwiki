@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1114,
-    "links": 11019
+    "links": 11011
   },
   "nodes": [
     {
@@ -10972,7 +10972,7 @@
       "title": "Simulation and Digital Twins",
       "url": "/wiki/simulation-and-digital-twins/",
       "count": 1,
-      "search": "Simulation and Digital Twins Podcast guests connect simulation and digital twins to physics models, synthetic data, validation, and data engineering workflows."
+      "search": "Simulation and Digital Twins How simulation and digital twins connect physics models, synthetic data, validation, and data engineering workflows."
     },
     {
       "id": "wiki:software-engineering",
@@ -11032,7 +11032,7 @@
       "title": "Synthetic Data",
       "url": "/wiki/synthetic-data/",
       "count": 1,
-      "search": "Synthetic Data How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, privacy, and validation limits."
+      "search": "Synthetic Data How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, industrial tabular data, privacy, and validation limits."
     },
     {
       "id": "wiki:teaching",
@@ -24537,30 +24537,6 @@
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ai-for-social-good",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-for-social-good",
-      "target": "person:christinecepelak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-for-social-good",
-      "target": "person:parvathykrishnan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-for-social-good",
-      "target": "person:tanyabergerwolf",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ai-for-social-good",
@@ -73416,24 +73392,6 @@
     },
     {
       "source": "wiki:simulation-and-digital-twins",
-      "target": "person:aishwaryajadhav",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:simulation-and-digital-twins",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:simulation-and-digital-twins",
-      "target": "person:orellgarten",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:simulation-and-digital-twins",
       "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-chip",
       "weight": 1
@@ -73489,12 +73447,6 @@
     {
       "source": "wiki:simulation-and-digital-twins",
       "target": "wiki:computer-vision",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:simulation-and-digital-twins",
-      "target": "wiki:computer-vision",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -73507,6 +73459,18 @@
     {
       "source": "wiki:simulation-and-digital-twins",
       "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:graph-data-science",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -75031,14 +74995,14 @@
     {
       "source": "wiki:synthetic-data",
       "target": "book:20220606-ai-powered-business-intelligence",
-      "kind": "wiki-chip",
-      "weight": 1
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:synthetic-data",
-      "target": "book:20220606-ai-powered-business-intelligence",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "podcast:data-centric-ai",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:synthetic-data",
@@ -75049,6 +75013,12 @@
     {
       "source": "wiki:synthetic-data",
       "target": "podcast:human-centered-ai-automatic-speech-recognition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "podcast:industrial-data-small-data-production-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75073,12 +75043,6 @@
     {
       "source": "wiki:synthetic-data",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:synthetic-data",
-      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -75132,6 +75096,18 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "wiki:llmops",
       "kind": "wiki-chip",
       "weight": 1
@@ -75153,12 +75129,6 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:synthetic-data",
-      "target": "wiki:mlops",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:synthetic-data",
@@ -76149,24 +76119,6 @@
       "target": "book:20220606-ai-powered-business-intelligence",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "person:bartoszmikulski",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "person:liorbarak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:text-to-sql",
-      "target": "person:rachellim",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:text-to-sql",
