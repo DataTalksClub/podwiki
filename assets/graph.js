@@ -18,6 +18,11 @@
     person: "#7c3aed",
     book: "#2563eb",
     article: "#2563eb",
+    guide: "#0f766e",
+    comparison: "#b45309",
+    roadmap: "#4f46e5",
+    transition: "#be185d",
+    how_to: "#15803d",
   };
   const labels = {
     wiki: "Wiki",
@@ -34,6 +39,11 @@
   };
   const LEGEND = [
     ["wiki", "Wiki"],
+    ["guide", "Guide"],
+    ["comparison", "Comparison"],
+    ["roadmap", "Roadmap"],
+    ["transition", "Transition"],
+    ["how_to", "How-To"],
     ["topic", "Topic"],
     ["podcast", "Podcast"],
     ["person", "Person"],
@@ -76,7 +86,17 @@
     return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
   }
   function pageActionLabel(node) {
-    return typeKey(node) === "topic" ? "Search topic" : "Open page";
+    const key = typeKey(node);
+    if (key === "topic") return "Search topic";
+    if (key === "podcast") return "Open episode";
+    if (key === "person") return "Open profile";
+    if (key === "book") return "Open book";
+    if (key === "guide") return "Open guide";
+    if (key === "comparison") return "Open comparison";
+    if (key === "roadmap") return "Open roadmap";
+    if (key === "transition") return "Open transition";
+    if (key === "how_to") return "Open how-to";
+    return "Open page";
   }
   function typeKey(node) {
     if (node.type === "article" && node.collection) return node.collection;
@@ -149,7 +169,18 @@
       );
   }
 
-  const TYPE_ORDER = ["wiki", "podcast", "person", "topic", "book"];
+  const TYPE_ORDER = [
+    "wiki",
+    "guide",
+    "comparison",
+    "roadmap",
+    "transition",
+    "how_to",
+    "podcast",
+    "person",
+    "topic",
+    "book",
+  ];
   function orderIndex(key) {
     const i = TYPE_ORDER.indexOf(key);
     return i === -1 ? TYPE_ORDER.length : i;
@@ -468,7 +499,7 @@
     ctx.textAlign = "left";
     ctx.textBaseline = "middle";
     ctx.font = "12px 'Alegreya Sans', sans-serif";
-    const boxW = 108;
+    const boxW = 128;
     const boxH = pad * 2 + LEGEND.length * rowH;
     ctx.globalAlpha = 0.92;
     ctx.fillStyle = dark ? "rgba(16, 24, 21, 0.72)" : "rgba(255, 255, 255, 0.78)";
