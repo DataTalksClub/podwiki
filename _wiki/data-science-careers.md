@@ -188,7 +188,14 @@ They should also assess offer components and negotiation.[[cite:data-science-int
 
 Data science careers don't always move from junior data scientist to senior data scientist. Ksenia Legostay's path shows a project manager keeping planning and stakeholder strengths while adding statistics, programming, and machine learning. Andrada Olteanu's path shows an analyst keeping data validation and domain knowledge while making Python, notebooks, and public projects visible. Use both paths with [[Career Transitions in Data]] because the transition depends on the evidence already available.
 
-Bootcamps and intensives can fit that progression when they create time, structure, feedback, and project evidence. Danny Ma cautions that six- or twelve-week programs aren't a shortcut around a longer learning journey. Treat them as one possible forcing function. Research alumni outcomes and connect the work back to the target analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+Bootcamps and intensives can fit when they create structured time, feedback,
+and project evidence. Danny Ma cautions that six- or
+twelve-week programs aren't a shortcut around a longer learning journey. Treat
+them as one possible forcing function. Research alumni outcomes. Connect the
+work back to the target analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+For consultant and independent-practice routes, pair that planning with
+[[freelance-data-and-ml-careers=>freelance data and ML careers]].
 
 The bootcamp test is realistic expectation. Intensive programs can help when
 someone has the time, money, and focus to use the structure. They don't

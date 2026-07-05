@@ -21,10 +21,14 @@ recognizable buyer problem. Cash flow and desired scale are part of strategy
 too.[[cite:becoming-data-freelancer=>Freelancer]][[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Sustainable]]
 
 Use [[freelance=>Freelance Data Engineering and Consulting]] for the broader
-operating playbook. It covers scoping and delivery, plus agencies, direct
-clients, and reusable assets. For strategy, market demand and client acquisition
-are central. Rate risk and the growth fork between a solo practice, an
-agency, and a product company matter too.[[cite:from-data-freelancer-to-startup-open-source-products=>Startup]]
+operating playbook. It covers scoping and delivery. It also covers agency work,
+direct clients, and reusable assets. Strategy centers market demand and client
+acquisition. It also weighs rate risk and the growth fork between solo practice,
+agency, and product company.[[cite:from-data-freelancer-to-startup-open-source-products=>Startup]]
+
+For career-path examples across data engineering and ML, see
+[[freelance-data-and-ml-careers=>freelance data and ML careers]]. It also covers
+marketplace work and GenAI consulting.
 
 Marketplace work adds proposal iteration on platforms such as Upwork. Antonis
 Stellas used the platform to test profile positioning, attachments, pricing, and

@@ -38,6 +38,7 @@ analysis and ties the review to logs or traces
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 Read RAG portfolio examples with
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
 [[Portfolio Projects]] and the broader
 [[Machine Learning Portfolio Projects]]
 standard. The

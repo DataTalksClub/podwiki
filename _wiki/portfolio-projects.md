@@ -28,8 +28,12 @@ focuses on pipelines and platform data work.
 covers modeled metrics and BI-ready marts.
 [[Machine Learning Portfolio Projects]]
 covers modeling, baselines, evaluation, and production awareness.
+
 [[RAG Portfolio Projects]]
 covers retrieval-backed LLM systems with citations and evaluation.
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
+cover the broader AI application version. They add product software and RAG.
+They also add agents, evaluation, and deployment as one reviewable artifact.
 
 [[person:jeffkatz=>Jeff Katz]] and
 [[person:ellenkonig=>Ellen König]] ground the data

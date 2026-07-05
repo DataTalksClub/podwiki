@@ -101,8 +101,12 @@ later returns to a senior IC path
 manager and expert paths. Her discussion says a manager needs strategy, team
 development, and stakeholder work. Prioritization and impact judgment also
 matter. A deep expert role can remain separate in larger organizations ([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
+
 Startups soften that boundary because one senior generalist may need to cover
 both management and expert judgment.
+The engineering-specific version of that boundary sits with the
+[[data-engineering-manager-role=>data engineering manager]],
+who balances platform priorities, hiring, and technical credibility.
 
 ## Quality, Trust, and Adoption
 

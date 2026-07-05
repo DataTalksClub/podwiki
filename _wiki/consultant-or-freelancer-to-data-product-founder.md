@@ -20,8 +20,11 @@ uncertain. Workshops, design partners, public proof, or open-source adoption can
 keep the founder close to the market.
 
 Freelancing can lead to product over agency growth when recurring stakeholder
-and alignment problems keep showing up. Savings, consulting revenue, and
-workshops can make that transition possible.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup and Open-Source Products]]
+and alignment problems keep showing up. Savings and consulting revenue can make
+that transition possible, and workshops can help too.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup and Open-Source Products]]
+
+For the service-career stage before the product fork, see
+[[freelance-data-and-ml-careers=>freelance data and ML careers]].
 
 Use [[Freelance]] for the service
 business side and [[Data Products]]

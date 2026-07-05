@@ -40,6 +40,8 @@ client retention
 research and simulation experience led to startup work. A later LinkedIn lead
 helped him move into freelance data engineering
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]].
+For cross-role examples that include data engineering, ML marketplace work, and
+GenAI consulting, use [[freelance-data-and-ml-careers=>freelance data and ML careers]].
 
 ## Client Buying Fit
 

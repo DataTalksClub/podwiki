@@ -297,7 +297,9 @@ discount
 For [[freelance=>freelance data consulting]], consultants should treat pricing
 as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when
-new information appears.
+new information appears. The same proposal discipline is part of
+[[freelance-data-and-ml-careers=>freelance data and ML careers]] when independent
+workers use scoped ML offers to prove market demand.
 
 Weber includes rates in the pitch deck so pricing becomes part of positioning.
 Buyers can compare workshop and advisory options with implementation work before

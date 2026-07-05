@@ -113,6 +113,10 @@ the engineering side in ETL and storage. Spark performance, monitoring, and
 schema work also sit on that side
 ([[Data Engineer Role]],
 [[Data Engineering]]).
+The management path branches into a
+[[data-engineering-manager-role=>data engineering manager]]
+role when platform priorities, hiring, and stakeholder tradeoffs become the
+weekly work.
 
 The analytics engineer role sits between analyst and data engineer. The useful
 definition is more precise than "half analyst, half engineer." Analytics

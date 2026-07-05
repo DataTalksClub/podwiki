@@ -198,7 +198,9 @@ quality metrics. It also adds ETL-to-ELT migration, lakes, lineage, and
 end-to-end monitoring
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 That version of the role links responsibilities to [[data engineering platforms]]
-and [[DataOps]], not just individual jobs.
+and [[DataOps]], not just individual jobs. The
+[[data-engineering-manager-role=>data engineering manager]]
+page covers that leadership boundary.
 
 ## Skills
 

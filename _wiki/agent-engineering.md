@@ -73,10 +73,13 @@ The engineering challenge is making the agent behave like a constrained
 operator inside the incident workflow, not like a general chatbot with log
 access.
 
-Teams adopting agents start from a narrow problem. The first version stays
-small, with usable data and evaluation. The email assistant example starts with
-Gmail API access and RAG. It becomes useful only after the task and data
-boundary are clear.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Teams adopting agents start from a narrow problem and keep the first version
+small enough to evaluate.
+
+The email assistant starts with Gmail API access and RAG. The team chooses that
+boundary.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+for the personal productivity version of that boundary.
 
 His four-step agent frame names the constraint. Define the problem, start small,
 make the data available, and decide how the team will evaluate the result.

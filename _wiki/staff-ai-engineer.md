@@ -217,7 +217,10 @@ That translation matters because collaboration, alignment, delivery, and
 industry partnerships are easier for interviewers to evaluate than deep
 explanations of the original research domain. Those projects help when candidates compare
 their previous experience with lead, tech-lead, and staff expectations before
-interviewing
+interviewing.
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
+names the earlier project signals. Staff candidates have to extend those
+signals into architecture, mentorship, and cross-team ownership.
 ([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 The technical interview bar still matters because coding practice and mock

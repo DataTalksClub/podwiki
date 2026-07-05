@@ -147,6 +147,8 @@ build recognition. Learning in public means showing honest progress, corrections
 and earned expertise
 ([[person:swyx=>Shawn Swyx Wang]] in
 [[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
+The career-switch version is
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 Public work becomes stronger when readers can see iteration, not only finished
 polish.
 

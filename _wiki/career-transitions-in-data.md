@@ -319,6 +319,8 @@ For the full validation-to-portfolio route, use
 A telecom network-slice capstone, GitHub work, AI-dev-tools prototype, and PDF
 Q&A take-home can show current practice after a career break
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+For the public trail behind that transition, use
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 
 Data-engineering portfolios benefit from end-to-end projects that include
 ingestion and storage. They should also include modeling, serving and a useful
@@ -484,8 +486,9 @@ Recruiter channels, LinkedIn acquisition, and rate research help with
 acquisition. Subscription-style relationships and notice-period planning matter
 too
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Data Freelancing Career Strategy]].
-These examples make [[Freelance]] part of career transitions rather than a
-separate business topic.
+These examples make [[Freelance]] and
+[[freelance-data-and-ml-careers=>freelance data and ML careers]] part of career
+transitions rather than separate business topics.
 
 ## Role Pathways and Portfolio Signals
 

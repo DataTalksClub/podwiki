@@ -125,7 +125,8 @@ His notes in Notion or Google Docs became posts. Publishing them made him
 process the material more carefully and grow an audience.[[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>Notes Becoming Public Posts]]
 
 These candidates used public posts as a study method, portfolio surface, and
-weak-tie network.
+weak-tie network. For the AI-switcher version of that mechanism, see
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 
 For Dashel, community worked as a practical accelerator. Slack help, peer
 support, study groups, and public accountability made course projects easier to

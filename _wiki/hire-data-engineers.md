@@ -170,7 +170,7 @@ against the hiring manager's calibration
 For a data engineering manager, the brief should separate platform ownership
 from product-facing pipelines and analytics modeling. Make that split before a
 recruiter turns the role into search strings. The
-[[data-engineering-manager-role=>Data Engineering Manager]] page expands that
+[[data-engineering-manager-role=>data engineering manager]] page expands that
 ownership boundary.
 
 Rassam emphasizes big-picture technical literacy and tool-agnostic cloud

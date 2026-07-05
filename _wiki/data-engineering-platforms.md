@@ -247,9 +247,12 @@ metrics, reconciliation, and GDPR strategies. It also includes dynamic masking,
 role-based access control, and data lineage. He closes with an end-to-end
 pipeline view from ingestion through exposure and monitoring
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+
 Platform reliability therefore includes
 [[Data Governance]] controls as
-well as observability.
+well as observability. That's the platform-lead surface for a
+[[data-engineering-manager-role=>data engineering manager]],
+not only a tool inventory.
 
 ## Batch, Streaming, and Latency
 

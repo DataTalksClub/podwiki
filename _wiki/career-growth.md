@@ -286,6 +286,8 @@ knowledge projects that are useful to others
 of career growth uses [[open source]],
 [[open source portfolio evidence]],
 and [[community building]].
+For switchers, the adjacent route is
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 It also connects to role-specific project pages such as
 [[machine learning portfolio projects]].
 

@@ -393,9 +393,12 @@ For a limited-budget business, the practical choice is usually narrower. Use a
 vendor, build a rule, or ship a lightweight model only when the business case
 survives baseline comparison. The "model" may be a spreadsheet-assisted
 decision for a while. That's still a useful machine learning business strategy
-if it proves which data, workflow, and metric deserve automation later. For
-client-facing work, [[ml-consulting-proposals=>ML consulting proposals]] help
-test whether the request is a product opportunity or a custom service.
+if it proves which data, workflow, and metric deserve automation later.
+
+For client-facing work, [[ml-consulting-proposals=>ML consulting proposals]] help
+test whether the request is a product opportunity or a custom service. The same
+choice shapes [[freelance-data-and-ml-careers=>freelance data and ML careers]]
+when independent practitioners turn ML work into scoped offers.
 
 ## Design for Adoption Before Launch
 

@@ -93,6 +93,8 @@ Practical language work includes summaries, translation, and CSV handling.
 Transcript automation uses tools such as Gemini, Descript, and Loom. Developer
 assistants include GitHub Copilot, Cursor, and IDE agents
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+for the personal workflow version of these examples.
 Screenshots, diagrams, audio, and video move the same product boundary toward
 [[multimodal-llms=>multimodal LLMs]].
 

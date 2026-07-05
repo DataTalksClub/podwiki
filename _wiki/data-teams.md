@@ -252,7 +252,8 @@ independently without breaking shared standards.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh 101]]
 
 Rahul Jain's data engineering leadership episode takes the platform view from a
-manager's seat. [[person:16rahuljain=>Rahul Jain]] links management to
+[[data-engineering-manager-role=>data engineering manager]]'s seat.
+[[person:16rahuljain=>Rahul Jain]] links management to
 stakeholder prioritization, technical credibility, and quality standards. He
 also covers data culture and data reconciliation. The same discussion covers
 access controls, lineage, and the move from ETL to ELT.

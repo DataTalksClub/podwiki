@@ -189,10 +189,13 @@ The same operational work runs through [[MLOps]],
 
 ## Career and Learning Signals
 
-Hiring discussions value project evidence more than credentials alone because AI engineering
-learning ties to shipped projects. Portfolio work shows that evidence.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
+Hiring discussions value project evidence more than credentials alone. Project
+work shows AI engineering learning.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
 The same argument runs through side projects and local community work. It also
-covers daily-life project ideas, hiring signals, and using AI to learn.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+covers daily-life project ideas and hiring signals. It also covers using AI to
+learn.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+for those daily workflows.
 
 For a learner, a strong AI engineering portfolio should show more than a chatbot
 demo. It should show a product problem and a user interface or API. It should

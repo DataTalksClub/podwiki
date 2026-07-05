@@ -188,9 +188,10 @@ Use [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
 when prior domain context, career breaks, or side projects have to become AI
 product proof.
 
-A career-break path can use learning in public, a telecom ML capstone,
-AI-assisted prototypes and interview preparation. It can also use a PDF Q&A
-assistant as
+A career-break path can use
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]],
+a telecom ML capstone, AI-assisted prototypes and interview preparation. It can
+also use a PDF Q&A assistant as
 proof of ability[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]].
 
 Companies can take side projects seriously when the project solves a real

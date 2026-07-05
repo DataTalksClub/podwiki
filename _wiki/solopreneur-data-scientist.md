@@ -23,11 +23,13 @@ machine learning advisory projects. It can also grow into courses and books,
 [[technical-writing=>technical writing]], open-source services, or small software
 products.
 
-For data and AI professionals, solopreneurship isn't a quick escape from a job.
-It combines technical work with positioning and pricing. It also requires
-audience building and the discipline to start with a small buyer problem before
-selling a larger model or product. [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
+For data and AI workers, solopreneurship isn't a quick job escape. It combines
+technical work with positioning and audience building, and pricing matters too.
+Start with a small buyer problem before selling a larger model or product. [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]]
+
+The freelance-centered branch of that path is covered in
+[[freelance-data-and-ml-careers=>freelance data and ML careers]].
 
 ## Intentional Small Business
 

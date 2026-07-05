@@ -55,6 +55,9 @@ show how SQL, Python, ingestion, and modeling solve a real data problem
 need DBMS and SQL fundamentals. Data platforms change structure, but the
 reasoning stays useful
 ([[cite:data-engineering-leadership-and-modern-data-platforms=>DE Leadership]]).
+The manager-side expectations behind that filter live in the
+[[data-engineering-manager-role=>data engineering manager]]
+role.
 
 This roadmap gives the practical learning sequence. For the role scope, start
 with [[Data Engineer Role]] and

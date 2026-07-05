@@ -95,8 +95,11 @@ That image-generation example is also where generative AI connects to
 [[multimodal-llms=>multimodal LLMs]].
 
 Other bounded use cases include summaries, translation, and CSV workflows.
-Transcript processing can use automation tools such as Gemini, Descript, and
-Loom.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+
+Transcript processing can use Gemini and Descript. Loom appears in the same
+workflow.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+for the personal workflow version of these use cases.
 
 An email assistant built with the Gmail API and RAG is a concrete product design
 that doesn't rely on chat alone. It connects model output to documents, APIs,

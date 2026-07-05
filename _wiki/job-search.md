@@ -155,12 +155,14 @@ Standout projects should also be shareable and explainable
 Candidates should lead with ownership and impact
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 Public work becomes interview material when the candidate can explain
-tradeoffs, metrics, ownership, and business context. For role-specific project
-shapes, see
-[[Open Source Portfolio Evidence]],
-[[Data Engineering Portfolio Projects]],
-and
-[[Machine Learning Portfolio Projects]].
+tradeoffs, metrics, ownership, and business context.
+
+Useful role-specific project pages:
+
+- [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]]
+- [[Open Source Portfolio Evidence]]
+- [[Data Engineering Portfolio Projects]]
+- [[Machine Learning Portfolio Projects]]
 
 ## Networking and Referrals
 

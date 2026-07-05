@@ -107,6 +107,9 @@ systems don't need either one. Add memory only when the task requires durable
 user, document, or workflow state
 [[cite:practical-llm-engineering-and-rag@57:41=>Agent Memory Design]].
 
+Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+when personal assistants move from one-off drafting to remembered workflows.
+
 ## RAG, Agents, and Scope
 
 The boundary between RAG and agents is a context decision. A restrained edtech

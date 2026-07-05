@@ -10,9 +10,9 @@
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
-    "topics": 77,
-    "nodes": 1097,
-    "links": 11594
+    "topics": 56,
+    "nodes": 1076,
+    "links": 11618
   },
   "nodes": [
     {
@@ -8237,15 +8237,6 @@
       "search": "Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates"
     },
     {
-      "id": "topic:ai-adoption",
-      "type": "topic",
-      "label": "ai adoption",
-      "title": "ai adoption",
-      "url": "/search.html?q=ai%20adoption",
-      "count": 1,
-      "search": "ai adoption"
-    },
-    {
       "id": "topic:algorithms",
       "type": "topic",
       "label": "algorithms",
@@ -8255,15 +8246,6 @@
       "search": "algorithms"
     },
     {
-      "id": "topic:astroinformatics",
-      "type": "topic",
-      "label": "astroinformatics",
-      "title": "astroinformatics",
-      "url": "/search.html?q=astroinformatics",
-      "count": 1,
-      "search": "astroinformatics"
-    },
-    {
       "id": "topic:astronomy",
       "type": "topic",
       "label": "astronomy",
@@ -8271,15 +8253,6 @@
       "url": "/search.html?q=astronomy",
       "count": 1,
       "search": "astronomy"
-    },
-    {
-      "id": "topic:autonomous-driving",
-      "type": "topic",
-      "label": "autonomous driving",
-      "title": "autonomous driving",
-      "url": "/search.html?q=autonomous%20driving",
-      "count": 1,
-      "search": "autonomous driving"
     },
     {
       "id": "topic:aws",
@@ -8298,15 +8271,6 @@
       "url": "/search.html?q=bayesian%20statistics",
       "count": 1,
       "search": "bayesian statistics"
-    },
-    {
-      "id": "topic:bias-detection",
-      "type": "topic",
-      "label": "bias detection",
-      "title": "bias detection",
-      "url": "/search.html?q=bias%20detection",
-      "count": 1,
-      "search": "bias detection"
     },
     {
       "id": "topic:big-data-analytics",
@@ -8453,15 +8417,6 @@
       "search": "design thinking"
     },
     {
-      "id": "topic:devops",
-      "type": "topic",
-      "label": "DevOps",
-      "title": "DevOps",
-      "url": "/search.html?q=DevOps",
-      "count": 1,
-      "search": "DevOps"
-    },
-    {
       "id": "topic:diversity",
       "type": "topic",
       "label": "diversity",
@@ -8489,15 +8444,6 @@
       "search": "education"
     },
     {
-      "id": "topic:ethical-ai",
-      "type": "topic",
-      "label": "ethical AI",
-      "title": "ethical AI",
-      "url": "/search.html?q=ethical%20AI",
-      "count": 1,
-      "search": "ethical AI"
-    },
-    {
       "id": "topic:evaluation-metrics",
       "type": "topic",
       "label": "evaluation metrics",
@@ -8505,24 +8451,6 @@
       "url": "/search.html?q=evaluation%20metrics",
       "count": 1,
       "search": "evaluation metrics"
-    },
-    {
-      "id": "topic:explainable-ai",
-      "type": "topic",
-      "label": "explainable AI",
-      "title": "explainable AI",
-      "url": "/search.html?q=explainable%20AI",
-      "count": 2,
-      "search": "explainable AI"
-    },
-    {
-      "id": "topic:fairness",
-      "type": "topic",
-      "label": "fairness",
-      "title": "fairness",
-      "url": "/search.html?q=fairness",
-      "count": 2,
-      "search": "fairness"
     },
     {
       "id": "topic:feature-engineering",
@@ -8541,15 +8469,6 @@
       "url": "/search.html?q=federated%20learning",
       "count": 1,
       "search": "federated learning"
-    },
-    {
-      "id": "topic:finops",
-      "type": "topic",
-      "label": "finops",
-      "title": "finops",
-      "url": "/search.html?q=finops",
-      "count": 1,
-      "search": "finops"
     },
     {
       "id": "topic:fintech",
@@ -8588,15 +8507,6 @@
       "search": "GitOps"
     },
     {
-      "id": "topic:graph-databases",
-      "type": "topic",
-      "label": "graph databases",
-      "title": "graph databases",
-      "url": "/search.html?q=graph%20databases",
-      "count": 2,
-      "search": "graph databases"
-    },
-    {
       "id": "topic:graph-ml",
       "type": "topic",
       "label": "graph ML",
@@ -8613,15 +8523,6 @@
       "url": "/search.html?q=indie%20hacking",
       "count": 1,
       "search": "indie hacking"
-    },
-    {
-      "id": "topic:industrial-ai",
-      "type": "topic",
-      "label": "industrial AI",
-      "title": "industrial AI",
-      "url": "/search.html?q=industrial%20AI",
-      "count": 1,
-      "search": "industrial AI"
     },
     {
       "id": "topic:industrial-data",
@@ -8651,15 +8552,6 @@
       "search": "knowledge graphs"
     },
     {
-      "id": "topic:management",
-      "type": "topic",
-      "label": "management",
-      "title": "management",
-      "url": "/search.html?q=management",
-      "count": 2,
-      "search": "management"
-    },
-    {
       "id": "topic:marketing",
       "type": "topic",
       "label": "marketing",
@@ -8667,24 +8559,6 @@
       "url": "/search.html?q=marketing",
       "count": 1,
       "search": "marketing"
-    },
-    {
-      "id": "topic:mentoring",
-      "type": "topic",
-      "label": "mentoring",
-      "title": "mentoring",
-      "url": "/search.html?q=mentoring",
-      "count": 2,
-      "search": "mentoring"
-    },
-    {
-      "id": "topic:mentorship",
-      "type": "topic",
-      "label": "mentorship",
-      "title": "mentorship",
-      "url": "/search.html?q=mentorship",
-      "count": 3,
-      "search": "mentorship"
     },
     {
       "id": "topic:monetization",
@@ -8741,15 +8615,6 @@
       "search": "physics"
     },
     {
-      "id": "topic:privacy",
-      "type": "topic",
-      "label": "privacy",
-      "title": "privacy",
-      "url": "/search.html?q=privacy",
-      "count": 1,
-      "search": "privacy"
-    },
-    {
       "id": "topic:probabilistic-programming",
       "type": "topic",
       "label": "probabilistic programming",
@@ -8757,33 +8622,6 @@
       "url": "/search.html?q=probabilistic%20programming",
       "count": 1,
       "search": "probabilistic programming"
-    },
-    {
-      "id": "topic:product-design",
-      "type": "topic",
-      "label": "product design",
-      "title": "product design",
-      "url": "/search.html?q=product%20design",
-      "count": 1,
-      "search": "product design"
-    },
-    {
-      "id": "topic:product-managers",
-      "type": "topic",
-      "label": "product managers",
-      "title": "product managers",
-      "url": "/search.html?q=product%20managers",
-      "count": 1,
-      "search": "product managers"
-    },
-    {
-      "id": "topic:product-owners",
-      "type": "topic",
-      "label": "product owners",
-      "title": "product owners",
-      "url": "/search.html?q=product%20owners",
-      "count": 1,
-      "search": "product owners"
     },
     {
       "id": "topic:productivity",
@@ -8822,15 +8660,6 @@
       "search": "python"
     },
     {
-      "id": "topic:qa",
-      "type": "topic",
-      "label": "QA",
-      "title": "QA",
-      "url": "/search.html?q=QA",
-      "count": 1,
-      "search": "QA"
-    },
-    {
       "id": "topic:remote-sensing",
       "type": "topic",
       "label": "remote sensing",
@@ -8847,15 +8676,6 @@
       "url": "/search.html?q=Remote%20Work",
       "count": 3,
       "search": "Remote Work"
-    },
-    {
-      "id": "topic:responsible-ai",
-      "type": "topic",
-      "label": "responsible AI",
-      "title": "responsible AI",
-      "url": "/search.html?q=responsible%20AI",
-      "count": 1,
-      "search": "responsible AI"
     },
     {
       "id": "topic:self-learning",
@@ -8883,15 +8703,6 @@
       "url": "/search.html?q=social%20impact",
       "count": 1,
       "search": "social impact"
-    },
-    {
-      "id": "topic:solopreneurship",
-      "type": "topic",
-      "label": "solopreneurship",
-      "title": "solopreneurship",
-      "url": "/search.html?q=solopreneurship",
-      "count": 1,
-      "search": "solopreneurship"
     },
     {
       "id": "topic:spark",
@@ -11212,7 +11023,7 @@
     },
     {
       "source": "book:20210614-graph-databases-in-action",
-      "target": "topic:graph-databases",
+      "target": "wiki:graph-data-science",
       "kind": "book-topic",
       "weight": 2
     },
@@ -12130,13 +11941,13 @@
     },
     {
       "source": "book:20240715-ai-data-privacy-and-protection",
-      "target": "topic:privacy",
+      "target": "wiki:ai",
       "kind": "book-topic",
       "weight": 2
     },
     {
       "source": "book:20240715-ai-data-privacy-and-protection",
-      "target": "wiki:ai",
+      "target": "wiki:privacy-engineering-for-ml",
       "kind": "book-topic",
       "weight": 2
     },
@@ -14200,13 +14011,13 @@
     },
     {
       "source": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
-      "target": "topic:graph-databases",
+      "target": "wiki:data-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
-      "target": "wiki:data-engineering",
+      "target": "wiki:graph-data-science",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -14236,25 +14047,25 @@
     },
     {
       "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
-      "target": "topic:ai-adoption",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
-      "target": "topic:industrial-ai",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "target": "wiki:ai",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
       "target": "wiki:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-and-scaling-data-science-practice-industrial-ai-mlops",
+      "target": "wiki:industrial-ml-applications",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -14362,18 +14173,6 @@
     },
     {
       "source": "podcast:building-data-products-product-owner-vs-product-manager",
-      "target": "topic:product-managers",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:building-data-products-product-owner-vs-product-manager",
-      "target": "topic:product-owners",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:building-data-products-product-owner-vs-product-manager",
       "target": "wiki:data-products",
       "kind": "podcast-topic",
       "weight": 2
@@ -14395,6 +14194,12 @@
       "target": "wiki:mlops",
       "kind": "podcast-topic",
       "weight": 2
+    },
+    {
+      "source": "podcast:building-data-products-product-owner-vs-product-manager",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "podcast-topic",
+      "weight": 4
     },
     {
       "source": "podcast:building-data-science-programs-and-democratizing-high-performance-computing",
@@ -14524,12 +14329,6 @@
     },
     {
       "source": "podcast:building-explainable-and-actionable-ai-ml-systems",
-      "target": "topic:explainable-ai",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:building-explainable-and-actionable-ai-ml-systems",
       "target": "wiki:ai",
       "kind": "podcast-topic",
       "weight": 2
@@ -14549,6 +14348,12 @@
     {
       "source": "podcast:building-explainable-and-actionable-ai-ml-systems",
       "target": "wiki:mlops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-explainable-and-actionable-ai-ml-systems",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -15748,12 +15553,6 @@
     },
     {
       "source": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
-      "target": "topic:ethical-ai",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
       "target": "topic:public-policy",
       "kind": "podcast-topic",
       "weight": 2
@@ -15767,6 +15566,12 @@
     {
       "source": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
       "target": "wiki:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -15940,7 +15745,7 @@
     },
     {
       "source": "podcast:data-science-management-and-agile-machine-learning",
-      "target": "topic:management",
+      "target": "wiki:leadership",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -16666,12 +16471,6 @@
     },
     {
       "source": "podcast:fairness-in-ai-ml-engineering",
-      "target": "topic:fairness",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:fairness-in-ai-ml-engineering",
       "target": "wiki:data-governance",
       "kind": "podcast-topic",
       "weight": 2
@@ -16691,6 +16490,12 @@
     {
       "source": "podcast:fairness-in-ai-ml-engineering",
       "target": "wiki:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:fairness-in-ai-ml-engineering",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -16750,12 +16555,6 @@
     },
     {
       "source": "podcast:finops-for-data-engineers",
-      "target": "topic:finops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:finops-for-data-engineers",
       "target": "wiki:career-growth",
       "kind": "podcast-topic",
       "weight": 2
@@ -16763,6 +16562,12 @@
     {
       "source": "podcast:finops-for-data-engineers",
       "target": "wiki:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:finops-for-data-engineers",
+      "target": "wiki:finops-for-data-engineers",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -17008,13 +16813,13 @@
     },
     {
       "source": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
-      "target": "topic:autonomous-driving",
+      "target": "wiki:academia",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
-      "target": "wiki:academia",
+      "target": "wiki:autonomous-driving-ai",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -17116,12 +16921,6 @@
     },
     {
       "source": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
-      "target": "topic:devops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
       "target": "wiki:career-transitions-in-data",
       "kind": "podcast-topic",
       "weight": 2
@@ -17129,6 +16928,12 @@
     {
       "source": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
       "target": "wiki:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "target": "wiki:mlops-vs-devops",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -17350,12 +17155,6 @@
     },
     {
       "source": "podcast:from-physics-to-computer-vision-career-transition",
-      "target": "topic:mentorship",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:from-physics-to-computer-vision-career-transition",
       "target": "topic:physics",
       "kind": "podcast-topic",
       "weight": 2
@@ -17391,6 +17190,12 @@
       "weight": 2
     },
     {
+      "source": "podcast:from-physics-to-computer-vision-career-transition",
+      "target": "wiki:mentoring-in-tech",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
       "source": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "target": "person:danielegbo",
       "kind": "podcast-link",
@@ -17404,13 +17209,13 @@
     },
     {
       "source": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
-      "target": "topic:astroinformatics",
+      "target": "wiki:academia",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
-      "target": "wiki:academia",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -17884,18 +17689,6 @@
     },
     {
       "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "target": "topic:management",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "target": "topic:mentorship",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "target": "wiki:career-development",
       "kind": "podcast-topic",
       "weight": 2
@@ -17915,6 +17708,18 @@
     {
       "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "target": "wiki:hiring",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "target": "wiki:leadership",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "target": "wiki:mentoring-in-tech",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -18178,12 +17983,6 @@
     },
     {
       "source": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
-      "target": "topic:qa",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "target": "wiki:career-transitions-in-data",
       "kind": "podcast-topic",
       "weight": 2
@@ -18203,6 +18002,12 @@
     {
       "source": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "target": "wiki:machine-learning",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -18958,12 +18763,6 @@
     },
     {
       "source": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
-      "target": "topic:mentoring",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
       "target": "wiki:career-development",
       "kind": "podcast-topic",
       "weight": 2
@@ -18983,6 +18782,12 @@
     {
       "source": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
       "target": "wiki:leadership",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
+      "target": "wiki:mentoring-in-tech",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -19570,12 +19375,6 @@
     },
     {
       "source": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
-      "target": "topic:mentorship",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "target": "wiki:career-development",
       "kind": "podcast-topic",
       "weight": 2
@@ -19601,6 +19400,12 @@
     {
       "source": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "target": "wiki:machine-learning",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "target": "wiki:mentoring-in-tech",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -19978,12 +19783,6 @@
     },
     {
       "source": "podcast:product-designer-to-data-product-manager",
-      "target": "topic:product-design",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:product-designer-to-data-product-manager",
       "target": "wiki:career-transitions-in-data",
       "kind": "podcast-topic",
       "weight": 2
@@ -19991,6 +19790,12 @@
     {
       "source": "podcast:product-designer-to-data-product-manager",
       "target": "wiki:data-product-management",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:product-designer-to-data-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -20350,33 +20155,15 @@
     },
     {
       "source": "podcast:responsible-explainable-ai-bias-detection",
-      "target": "topic:bias-detection",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:responsible-explainable-ai-bias-detection",
-      "target": "topic:explainable-ai",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:responsible-explainable-ai-bias-detection",
-      "target": "topic:fairness",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:responsible-explainable-ai-bias-detection",
-      "target": "topic:responsible-ai",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:responsible-explainable-ai-bias-detection",
       "target": "wiki:governance",
       "kind": "podcast-topic",
       "weight": 2
+    },
+    {
+      "source": "podcast:responsible-explainable-ai-bias-detection",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "podcast-topic",
+      "weight": 8
     },
     {
       "source": "podcast:responsible-explainable-ai-bias-detection",
@@ -20962,12 +20749,6 @@
     },
     {
       "source": "podcast:solopreneur-developer-and-data-professional",
-      "target": "topic:solopreneurship",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:solopreneur-developer-and-data-professional",
       "target": "wiki:career-growth",
       "kind": "podcast-topic",
       "weight": 2
@@ -20991,6 +20772,12 @@
       "weight": 2
     },
     {
+      "source": "podcast:solopreneur-developer-and-data-professional",
+      "target": "wiki:solopreneur",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
       "source": "podcast:teaching-mentoring-data-analytics-fintech",
       "target": "person:irinabrudaru",
       "kind": "podcast-link",
@@ -21010,12 +20797,6 @@
     },
     {
       "source": "podcast:teaching-mentoring-data-analytics-fintech",
-      "target": "topic:mentoring",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:teaching-mentoring-data-analytics-fintech",
       "target": "wiki:data-analysis",
       "kind": "podcast-topic",
       "weight": 2
@@ -21023,6 +20804,12 @@
     {
       "source": "podcast:teaching-mentoring-data-analytics-fintech",
       "target": "wiki:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:teaching-mentoring-data-analytics-fintech",
+      "target": "wiki:mentoring-in-tech",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -22342,6 +22129,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -23338,6 +23131,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -23533,6 +23332,12 @@
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering",
@@ -29272,6 +29077,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -29716,6 +29527,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:hiring",
       "kind": "wiki-chip",
       "weight": 1
@@ -29731,6 +29548,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -31684,6 +31507,12 @@
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-chip",
       "weight": 1
@@ -31753,6 +31582,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:context-engineering",
@@ -34528,6 +34363,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -34901,6 +34742,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36562,6 +36409,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -37483,6 +37336,12 @@
       "target": "wiki:freelance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-freelancing-strategy",
@@ -41104,6 +40963,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-chip",
       "weight": 1
@@ -41705,6 +41570,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:freelance-data-and-ml-careers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44614,6 +44485,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
@@ -44909,6 +44786,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:data-architect-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51778,6 +51661,12 @@
     },
     {
       "source": "wiki:freelance",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
       "target": "wiki:machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -52151,6 +52040,12 @@
     {
       "source": "wiki:generative-ai",
       "target": "wiki:ai-red-teaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54917,6 +54812,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:job-descriptions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:learning-in-public-ai-career-switch",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58042,6 +57943,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:generative-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -59749,6 +59656,12 @@
       "target": "wiki:evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -63079,6 +62992,12 @@
       "target": "wiki:freelance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-consulting-proposals",
@@ -67462,6 +67381,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:mlops",
       "kind": "article-chip",
       "weight": 1
@@ -69256,6 +69181,12 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -70307,6 +70238,12 @@
     {
       "source": "wiki:portfolio-projects",
       "target": "wiki:ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:ai-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73621,6 +73558,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:rag-portfolio-projects",
@@ -77560,6 +77503,12 @@
     },
     {
       "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "article-chip",
       "weight": 1
@@ -77683,6 +77632,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:staff-ai-engineer",
