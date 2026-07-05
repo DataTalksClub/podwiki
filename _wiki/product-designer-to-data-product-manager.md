@@ -10,12 +10,11 @@ related_wiki:
   - Product Analytics
   - Data Products
   - Data Product Adoption
+  - Data Product Intake and Prioritization
   - Data Quality and Observability
-  - Data Engineering
+  - Data Governance
   - A/B Testing
-  - Data Mesh
   - ML Product Manager Role
-  - Experimentation and Causal Inference
 ---
 
 Product designers can move into data product management by extending user
@@ -105,7 +104,10 @@ find and understand a data product. They also need to trust it and use it where
 decisions happen. [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Adoption]]
 Designers often have an advantage here because they already think in personas,
 journeys, friction, and decision context. That adoption lens connects this
-transition to [[data product adoption]].
+transition to [[data product adoption]]. Low-fidelity prototypes, sketches, and
+whiteboards can make a data product easier to test before the team commits to a
+full build
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 
 [[person:annahannemann=>Anna Hannemann]] adds a title caveat: product owner and
 product manager boundaries vary by company, and one person may wear both hats.
@@ -124,7 +126,9 @@ For product designers, the next skill is translating discovery into impact and
 effort. Cost and SMART goals belong in the same roadmap work. Operating metrics
 can include pipeline failures and SLAs. Data quality belongs there too.
 [[cite:building-and-scaling-ai-data-products-with-mlops=>Metrics]]
-Use [[Data Product Manager Roadmap]] for the learning path version.
+Use [[Data Product Manager Roadmap]] for the learning path version and
+[[data-product-intake-and-prioritization=>Data Product Intake]] for request and
+prioritization mechanics.
 
 ## Transfer Design Discovery Into Data Product Work
 
@@ -273,11 +277,9 @@ Continue through the adjacent role, product, and analytics pages:
 - [[Product Analytics]]
 - [[Product Analyst]]
 - [[a-b-testing=>A/B Testing]]
-- [[Experimentation and Causal Inference]]
-- [[Tracking Plans]]
+- [[data-product-intake-and-prioritization=>Data Product Intake]]
 - [[Data Quality and Observability]]
-- [[Data Mesh]]
-- [[Data Engineering]]
+- [[Data Governance]]
 - [[Career Transitions in Data]]
 - [[Product Owner vs Product Manager]]
 - [[Data Product Manager vs Product Manager]]

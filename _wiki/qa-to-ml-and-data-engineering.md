@@ -30,7 +30,6 @@ learning and role-shaped projects with cloud practice and public notes. Testing
 discipline has to connect to the target role
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>Alvaro Transition]].
 That places the page inside
-[[career-transitions-in-data=>Career Transition]],
 [[Career Transitions in Data]],
 [[Testing]], and
 [[Job Search]].
@@ -121,8 +120,7 @@ Job preparation adds Python/SQL depth, warehouse fundamentals, Docker, and
 Airflow. Clean code, tests, portfolio projects, and technical interview formats
 matter too.
 This version of the transition points toward the
-[[data-engineer-roadmap=>Data Engineering Roadmap]]
-and [[Data Engineer Roadmap]]
+[[Data Engineer Roadmap]]
 rather than model research
 [[cite:get-data-engineering-job-prep-and-interview=>Jeff DE Job Prep]].
 
@@ -178,14 +176,9 @@ The
 page is the related project-design reference for ingestion and source handling.
 It also covers modeling, reliability checks, deployment, and maintainability.
 
-For analytics and data-quality work, QA experience maps most directly to
-automated checks. Perafan's dashboard example starts with a growing manual
-checklist. It moves toward dbt generic tests, singular tests, unit tests, and
-CI checks
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Analytics Engineer Role]].
-That makes
-[[Data Quality and Observability]]
-a natural adjacent topic for QA transitioners.
+For analytics and data-quality work, use [[Data Quality and Observability]]
+when the transition stays closer to automated checks than to ML or platform
+engineering.
 
 ## Skill Gaps by Target Role
 
@@ -267,6 +260,14 @@ Use
 when the transition project needs one concrete data-engineering blueprint.
 A QA background strengthens the story when the README explains what can break,
 which tests catch it, and how to rerun the pipeline.
+
+Bartosz Mikulski's production AI discussion gives the data-pipeline version of
+that testing habit. Snapshot tests and integration tests belong in the
+reliability story. Tools such as Great Expectations or Soda can support the same
+work
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+Use [[dataops-checks-for-data-pipelines=>DataOps Pipeline Checks]] for the
+operational checklist.
 
 ## Interview and CV Framing
 

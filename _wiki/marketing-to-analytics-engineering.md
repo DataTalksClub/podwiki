@@ -8,6 +8,10 @@ related_wiki:
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Product Analytics
+  - Data-Led Growth
+  - Data Activation
+  - RFM Analysis
+  - Analytics Engineering Portfolio Projects
   - dbt
   - Business Intelligence
   - Dashboard and Metric Layer Project Checklist
@@ -86,11 +90,9 @@ Customer data platforms and
 [[reverse ETL]] extend that work
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]).
 
-Reverse ETL and CDPs are separate tradeoff choices for activating that
-data.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
-
-That makes the transition useful for people who want to specialize in
-[[data activation]] as well as BI.
+[[data activation]], [[reverse ETL]], and [[Customer Data Platforms]] are
+adjacent specializations. They use the same marketing context, but they aren't
+the core analytics-engineering transition.
 
 ## Start With Marketing Reporting
 
@@ -190,7 +192,8 @@ Reverse-ETL projects should make the activation tradeoff explicit.[[cite:data-le
 
 The strongest project artifact shows the before-and-after. Show the duplicated
 campaign or brand-dashboard SQL, then show the modeled table or dbt layer that
-replaced it. Include the metric grain and the BI surface that consumes it.
+replaced it. Include the metric grain and the BI surface that consumes it
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
 ## Find Sponsorship and Team Structure
 

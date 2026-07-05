@@ -7,18 +7,12 @@ related_wiki:
   - Career Transitions in Data
   - Data Scientist Role
   - Machine Learning Engineer Role
+  - Machine Learning Engineer vs Data Scientist
+  - Machine Learning Engineer Roadmap
   - Machine Learning System Design
   - MLOps
   - Machine Learning Portfolio Projects
   - Production ML Project Checklist
-  - ML System Design Documents
-  - Model Monitoring
-  - Experiment Tracking
-  - Model Registry
-  - Reproducibility
-  - Software Engineering
-  - Data Science Careers
-  - QA to ML and Data Engineering
 ---
 
 Moving from data scientist to machine learning engineer means taking model
@@ -149,13 +143,6 @@ Data scientists also need deployment and operations because ML engineering
 skills span data pipelines and modeling. They also span deployment, monitoring,
 and APIs, while Docker and cloud providers complete that surface.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
-For QA-to-ML candidates, the same production-readiness surface starts from
-validation work rather than modeling work. [[QA to ML and Data Engineering]]
-shows how checklists and field testing become evidence for ML or
-data-engineering roles. Cloud practice and project notes make that evidence
-easier to review
-[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
-
 Data scientists moving into ML engineering need the same production surface
 even if they already know modeling. This is where
 [[Model Monitoring]] and
@@ -229,9 +216,9 @@ explicit too
 
 Interview evidence should explain the same project without hiding behind tool
 names. Candidates should tailor applications to the role, show personal
-contribution, and prepare past-project narratives. A case-study answer should
-move from business goals to evaluation metrics, then explain the model and
-production decision.
+contribution, and prepare past-project narratives. Use [[Job Search]] for the
+application layer. A case-study answer should move from business goals to
+evaluation metrics, then explain the model and production decision.
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview and CV Guide]]
 
 Strong transition projects include:
@@ -257,19 +244,10 @@ Adjacent role, comparison, and portfolio topics include:
 
 - [[Data Scientist Role]]
 - [[Machine Learning Engineer Role]]
+- [[Machine Learning Engineer vs Data Scientist]]
 - [[Machine Learning Engineer Roadmap]]
 - [[Machine Learning System Design]]
-- [[ML System Design Documents]]
 - [[Machine Learning Portfolio Projects]]
 - [[Production ML Project Checklist]]
 - [[MLOps]]
-- [[ML Platform Engineer Role]]
-- [[Model Monitoring]]
-- [[Experiment Tracking]]
-- [[Model Registry]]
-- [[Reproducibility]]
-- [[Software Engineering]]
-- [[Machine Learning Engineer vs Data Scientist]]
-- [[Data Science Careers]]
 - [[Career Transitions in Data]]
-- [[QA to ML and Data Engineering]]

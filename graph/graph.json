@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11889
+    "links": 11887
   },
   "nodes": [
     {
@@ -21668,6 +21668,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:get-data-scientist-job",
       "kind": "article-chip",
       "weight": 1
@@ -21755,6 +21761,12 @@
       "target": "wiki:cv-screening",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44348,12 +44360,6 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "article-chip",
       "weight": 1
@@ -44390,18 +44396,6 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:data-science-careers",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:data-science-careers",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:data-scientist-role",
       "kind": "article-chip",
       "weight": 1
@@ -44426,15 +44420,21 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-wiki",
-      "weight": 5
+      "target": "wiki:job-search",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-engineer-roadmap",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -44453,6 +44453,12 @@
       "target": "wiki:machine-learning-engineer-vs-data-scientist",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -44498,12 +44504,6 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:ml-system-design-documents",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:mlops",
       "kind": "article-chip",
       "weight": 1
@@ -44528,21 +44528,9 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:model-registry",
       "kind": "article-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:model-registry",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -44564,39 +44552,9 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:qa-to-ml-and-data-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:qa-to-ml-and-data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:reproducibility",
       "kind": "article-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:reproducibility",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:software-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:software-engineering",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:data-strategy",
@@ -63362,6 +63320,12 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -63395,6 +63359,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:customer-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -63413,6 +63383,12 @@
       "target": "wiki:data-activation",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-activation",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -63437,6 +63413,12 @@
       "target": "wiki:data-led-growth",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-led-growth",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -63503,6 +63485,12 @@
       "target": "wiki:reverse-etl",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:rfm-analysis",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -73016,12 +73004,6 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -73034,13 +73016,7 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:data-mesh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:data-mesh",
+      "target": "wiki:data-governance",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -73053,6 +73029,18 @@
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -73133,18 +73121,6 @@
       "target": "wiki:data-warehouse",
       "kind": "article-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -74486,6 +74462,12 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-chip",
       "weight": 1
@@ -74559,6 +74541,12 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:dataops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "article-chip",
       "weight": 1
     },

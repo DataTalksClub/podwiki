@@ -133,8 +133,7 @@ Her N26 interview accepted R for the case study. The team wanted to see whether
 she knew the modeling concepts.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
 
 That version of the transition maps to [[Data Science Careers]] and
-[[Data Scientist Role]]. It also maps to the
-[[data-scientist-role=>Data Scientist Guide]].
+[[Data Scientist Role]].
 
 Researchers who work on scientific pipelines or large instrument datasets may
 fit data engineering or ML engineering better.
@@ -152,6 +151,15 @@ only research
 
 Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
+
+Gloria Quiceno's neuroscience lab route adds the analytics and data-engineering
+version. Lab automation and scripting became SQL reporting. Docker, Airflow,
+and AWS made the transition more legible. Volunteer work and a custom capstone
+made it visible
+[[cite:get-data-analytics-and-data-engineering-job=>From Academia to Data Analytics and Engineering]].
+
+Use [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] when the
+research route moves through analytics work before data engineering.
 Those paths connect to the
 [[Data Engineer Roadmap]]
 and
@@ -200,7 +208,8 @@ Those skills connect to
 
 The collaboration shift is just as important as the stack. The move includes
 simplifying explanations for non-academic colleagues and learning Slack norms.
-It also means leaving academic competitiveness behind.
+It also means leaving academic competitiveness behind
+[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 
 Industry collaboration often means sitting next to someone and sharing one
 keyboard. It can require being willing to look uninformed while learning.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
@@ -269,7 +278,6 @@ credible than replacing a research identity with a generic data-science label
 Adjacent role, portfolio, interview, and learning-path pages:
 
 - [[Academia]]
-- [[career-transitions-in-data=>Career Transition]]
 - [[Career Transitions in Data]]
 - [[Data Science]]
 - [[Data Scientist Role]]
@@ -281,7 +289,6 @@ Adjacent role, portfolio, interview, and learning-path pages:
 - [[Machine Learning Portfolio Projects]]
 - [[Data Engineering Portfolio Projects]]
 - [[Open Source Portfolio Evidence]]
-- [[data-scientist-role=>Data Scientist Guide]]
 - [[data-scientist-interview=>Data Scientist Interview Guide]]
 - [[Data Engineer Roadmap]]
 - [[Machine Learning Engineer Roadmap]]
