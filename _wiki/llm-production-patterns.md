@@ -30,10 +30,15 @@ rollback and human review.
 An LLM is a product component rather than the whole system. In production it
 ties deployment and model ownership to fine-tuning and retrieval. Evaluation
 and operability stay in the same boundary.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+
 In [[ai-powered-business-intelligence=>AI-powered BI]], the model can help with
 questions, summaries, and [[text-to-sql=>Text-to-SQL]] query drafting. The
 team still needs governed metrics, access controls, and review
 [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+In [[ai-for-finance-decision-support=>AI Finance Decision Support]], teams use
+AI at the interface. ERP, CRM, and spreadsheet context still need traceable
+metrics and human finance review
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 For the learning and rollout sequence, use
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. Teams still have
@@ -210,6 +215,13 @@ For customer-facing chatbot answers, the hybrid review flow is concrete. The
 model drafts or routes a response. A person approves or corrects it before the
 response reaches the customer. That keeps automation useful without pretending
 the chatbot can replace accountable review.[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]]
+
+Finance teams need the same review split in
+[[ai-for-finance-decision-support=>finance decision interfaces]]. A
+forecast-risk summary can help them review cash-flow and working-capital
+exposure. The product still has to explain the signal and leave judgment with
+the finance user
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 Auditability, guardrails, lineage, and compliance matter for enterprise
 agents.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]

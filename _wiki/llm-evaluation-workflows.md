@@ -70,6 +70,8 @@ becomes more expensive to check. Set size is a cost and coverage tradeoff. It
 should be large enough to avoid overfitting to a few examples, but small enough
 that teams actually run it
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+When repeated prompt prefixes or stable context blocks drive cost instead of
+quality, [[Caching]] belongs in the serving path rather than the eval set.
 
 Representativeness matters more than raw count. Hugo's eval-set discussion ties
 gold tests to cost and failure coverage. A small set can be useful when it

@@ -48,10 +48,10 @@ separates driver-assistance products from driverless services and ties sensor
 choice to cost, redundancy, and production scope.
 
 Another boundary separates perception from behavior. Perception helps the system
-understand the world, while reinforcement learning and related behavior-learning
-methods address how an agent acts in that world. Driving is constrained by road
-rules, geography, and social norms, so the learning problem is less closed than
-games with fixed rules.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+understand the world, while [[reinforcement-learning]] and related
+behavior-learning methods address how an agent acts in that world. Driving is
+constrained by road rules, geography, and social norms, so the learning problem
+is less closed than games with fixed rules.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 Multimodal LLMs are an exploratory direction rather than a replacement for the
 full driving stack. They may bring broad world knowledge into end-to-end
@@ -150,7 +150,7 @@ broader [[Production]] and [[llmops=>MLOps]] conversations in the podcast.
 ## Perception vs Reinforcement Learning
 
 Autonomous-driving teams separate perception from behavior. Perception models
-help the agent understand the world, while reinforcement learning teaches an
+help the agent understand the world, while [[reinforcement-learning]] teaches an
 agent how to behave there. The stack treats them as separate
 parts.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 

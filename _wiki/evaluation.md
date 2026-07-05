@@ -40,9 +40,12 @@ Those concerns connect directly to
 [[a-a-testing=>A/A Testing]], and
 [[Power Analysis]].
 
-Causal evaluation needs refutation tests and estimator checks. The final policy
-comparison still uses a business metric, which separates predictive accuracy
+Causal evaluation needs refutation tests, estimator checks, and a final policy
+comparison against a business metric. That metric separates predictive accuracy
 from the action decision[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+The same policy boundary applies to [[reinforcement-learning]]. Teams need
+trusted offline evaluation, simulators, or staged tests before a learned policy
+affects real users or systems.[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy]]
 
 ## Evaluation by System Type
 

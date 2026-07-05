@@ -20,7 +20,11 @@ enough.
 The clearest podcast taxonomy starts with sequential agent flows, then adds
 manager-agent orchestration and direct collaboration. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 [[game-ai-to-llm-agents=>Game AI to LLM Agents]] follows that taxonomy back to
-game-AI ideas about state, actions, feedback, and constrained environments.
+game-AI ideas about state, actions, feedback, and constrained environments. That
+lineage overlaps with [[reinforcement-learning]] when agents learn policies
+from rewards. In this page's examples, LLM multi-agent systems coordinate tools
+and roles without training a policy through trial and error.
+
 Production boundaries come from the same concerns as other
 [[llm-production-patterns=>LLM production patterns]]. Teams still need tool
 permissions and memory boundaries. They also need evaluation, observability,

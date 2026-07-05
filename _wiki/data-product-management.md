@@ -89,8 +89,14 @@ and test hypotheses before making roadmap commitments.[[cite:building-and-scalin
 A manufacturing example shows a multi-team internal product. The team used
 curated pipelines and dashboards to help sales build contracts faster.
 Marketing, finance, supply chain, and program teams used the same product. It
-combined routing and capacity data with demand signals, pricing, competitor
-data, and marketing data.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
+combined routing and capacity data with demand signals. It also used pricing,
+competitor, and marketing data.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
+
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] uses the same
+product-management logic. Finance teams need ERP, CRM, expense, and operational
+context in a reviewable decision interface rather than another standalone
+report
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 Adoption work extends discovery when low usage shows people don't know the data
 product exists or don't understand it. It can also mean they don't trust it or
@@ -196,12 +202,18 @@ adoption and quality. User feedback, governance, and stakeholder value matter
 too.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
 For analytics products, roadmap priority can start from business value rather
-than tool novelty. Moorman suggests looking at financials and cost centers, then
-choosing a narrow slice that can create a visible win. An internal advocate gives
-the data product manager a better expansion path than trying to convert the most
-resistant stakeholder first.
+than tool novelty. Moorman suggests looking at financials and cost centers.
+Then choose a narrow slice that can create a visible win. An internal advocate
+gives the data product manager a better expansion path than trying to convert
+the most resistant stakeholder first.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:30=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
+
+For [[ai-for-finance-decision-support=>finance-facing AI products]], that
+narrow slice may be a planning or forecast review. A CFO can test whether the
+assistant explains the signal and the data behind it. The assistant also has to
+make the tradeoff clear enough to change a decision
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 The [[Data Product Manager Roadmap]] uses these responsibilities as a learning
 path. The [[Data Product Manager]] guide focuses on the role, including

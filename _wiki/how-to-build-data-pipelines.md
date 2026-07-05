@@ -173,8 +173,9 @@ automation
 [[cite:production-ml-pipelines-with-aws-and-kafka@58:56=>Production ML Pipelines with AWS and Kafka]].
 
 Modern data engineering discussions make the same simple-first point from a
-cost perspective. DuckDB plus GitHub Actions can run small workflows cheaply.
-GitHub Actions can be enough when the team doesn't need always-on orchestration
+cost perspective. Teams can run small workflows cheaply with [[DuckDB]] plus
+GitHub Actions. GitHub Actions can be enough when the team doesn't need
+always-on orchestration
 [[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 

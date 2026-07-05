@@ -135,8 +135,9 @@ workflow[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Bui
 
 Prompt tools are most useful when they make inputs structured, reusable, and
 testable. In-context learning, examples, and prompt formatting connect prompt
-design to evaluation. Prompt compression and prompt caching connect it to
-latency and repeated work[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+design to evaluation. Prompt compression and
+[[caching=>prompt caching]] connect it to latency and repeated work
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 Role prompts, structured outputs, timestamps, and transcript workflows can sit
 inside automated pipelines. Gemini, Descript, Loom, and GitHub Actions show how
@@ -184,6 +185,8 @@ stack[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-p
 Deployment tooling matters because LLM systems inherit classic production
 constraints. Teams still have to manage data quality and latency. They also
 need cost control, testing, and recovery[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+Caching belongs in that tooling layer when stable prompts or context blocks
+would otherwise be processed on every request.
 
 Data trust and pipeline tests sit inside AI tooling when the system has to run
 in production. Great Expectations, Soda, preprocessing, and fine-tuning data

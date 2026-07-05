@@ -115,6 +115,11 @@ engineering rigor, and reproducibility. It also requires PyTorch and Docker
 practice. Cloud infrastructure and web frameworks matter too
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
 
+[[Metaflow]] is one workflow-tooling example for that handoff. It helps data
+scientists connect modeling code to cloud resources and scheduler
+infrastructure without turning notebooks into the production system
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+
 CJ Jenkins describes the career-transition version of the same gap. An academic
 researcher may understand statistics and modeling. They may still need Python
 and API practice before the work can become a production artifact. Docker and

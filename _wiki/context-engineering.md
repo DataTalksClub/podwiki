@@ -26,11 +26,14 @@ tools, memory, examples, and state only when the task needs them.
 
 ## Reducing Noise
 
-Recent LLM episodes keep returning to the same constraint: larger context
-windows don't remove the need for selection. Noisy prompts increase latency and
-cost. They also create a garbage-in/garbage-out failure mode. Even with
-32k-token windows, preprocessing and sending a smaller context can matter for
-reliability.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+Recent LLM episodes keep returning to one constraint: larger context windows
+don't remove the need for selection. Noisy prompts increase latency and cost,
+and they create garbage-in/garbage-out failures. Preprocessing still matters
+even with 32k-token windows because a smaller context can improve reliability.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+
+Teams sometimes keep a stable prompt prefix or retrieved block after selection.
+In those cases [[caching]] can reduce repeated LLM work without changing what the model receives
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 Context rot describes how long prompts can reduce precision and relevance.
 Important instructions may need prominent placement at both ends of the

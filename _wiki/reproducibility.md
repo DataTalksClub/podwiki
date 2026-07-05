@@ -146,6 +146,10 @@ improves when researchers learn engineering fundamentals and engineers learn how
 to reproduce models and track experiments
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
 
+[[Metaflow]] gives a workflow-tooling example for this bridge. Its sandboxes and
+integrations show reproducible ML workflows across stack layers
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+
 In space-resource research, Daynan Crull framed notebooks as useful for telling
 the story of data. He said he doesn't develop in them because they can teach bad
 developer habits. Teams can keep notebooks as narrative evidence. Reviewable

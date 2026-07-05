@@ -194,8 +194,9 @@ comparison before a team accepts heavier production burden
 [[person:bartoszmikulski=>Bartosz Mikulski]] treats cost
 and latency as prompt and serving concerns in
 AI engineering. He covers prompt evaluation, prompt compression, and
-[[caching]]. A useful AI feature can still
-fail operationally if every request is slow or too expensive
+[[caching]]. Caching helps only when the reused prompt or context has a clear
+freshness boundary. A useful AI feature can still fail operationally if every
+request is slow or too expensive
 [[cite:production-ready-ai-engineering=>Prompt cost and latency]].
 
 [[person:meryemarik=>Meryem Arik]] makes the serving

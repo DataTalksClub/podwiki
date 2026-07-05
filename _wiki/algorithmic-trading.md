@@ -171,6 +171,12 @@ This is why algorithmic trading belongs near [[Evaluation]] but needs
 finance-specific assumptions. A strategy can have a plausible classifier,
 reasonable features, and positive gross returns. It can still fail after fees,
 slippage, trade frequency, and capital allocation.
+
+That boundary separates market execution from
+[[ai-for-finance-decision-support=>AI Finance Decision Support]]. In that work,
+AI helps humans review forecast and cash-flow signals. It also keeps
+working-capital review separate from buy, sell, or hold rules
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
 Dan Becker's decision-optimization framing adds the same warning for pricing
 and bidding systems. The objective and constraints define whether an ML
 prediction improves the actual decision

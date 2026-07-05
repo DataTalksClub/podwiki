@@ -30,9 +30,12 @@ select steps, call tools, and keep task state.[[cite:s23e01-ai-engineering-skill
 
 ## Workflow Boundary
 
-An agent is an LLM-backed system organized around an objective, not only a
-single response. It can use orchestration, tools, memory, and knowledge stores
-to choose the next step in a task.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+An agent is an LLM-backed system organized around an objective rather than only
+a single response. It can choose the next step in a task through orchestration
+and tool use. It may also use memory or knowledge stores.
+This differs from [[reinforcement-learning]], where an agent learns a policy
+from rewards inside an environment or simulator.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+[[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
 
 The boundary with [[retrieval-augmented-generation=>RAG]] matters. Some systems
 only retrieve documents by chunking them, embedding them, fetching context, and

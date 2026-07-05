@@ -226,6 +226,9 @@ beside feature serving. Tuning and metadata components may join that platform
 boundary too
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
+[[Metaflow]] fits the same boundary from the practitioner side because it
+connects modeling code to cloud resources and scheduler infrastructure
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Treat those as architecture options, not default requirements. They fit when the
 team needs pipeline automation, model serving, metadata, or platform integration
 at that level of complexity.

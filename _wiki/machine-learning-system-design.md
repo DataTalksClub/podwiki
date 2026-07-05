@@ -142,11 +142,13 @@ In that framing,
 [[machine learning]] is a tool
 choice rather than a default answer.
 
-[[algorithmic-trading=>Algorithmic trading]] applies the same requirements
-discipline to markets. The design has to name the trade horizon and target. It
-also has to define position rules, loss limits, fees, and manual review path
-before model choice matters
+In [[algorithmic-trading=>algorithmic trading]], teams apply the same
+requirements discipline to markets. They name the trade horizon and target
+alongside position rules, loss limits, fees, and manual review paths before
+model choice matters
 [[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+Teams can use backtesting instead of [[reinforcement-learning]] when historical
+data can test the decision policy. Backtesting avoids unsafe live exploration.
 
 Writing requirements down improves them. A design document works like a blueprint,
 making weak assumptions visible before a team spends months building

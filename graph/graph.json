@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11969
+    "links": 11999
   },
   "nodes": [
     {
@@ -22130,6 +22130,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -24650,6 +24656,12 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:caching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
@@ -25401,6 +25413,12 @@
     {
       "source": "wiki:ai-tooling",
       "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -27749,6 +27767,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:autonomous-driving-ai",
@@ -31803,6 +31827,12 @@
     {
       "source": "wiki:context-engineering",
       "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37688,6 +37718,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "wiki:duckdb",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "wiki:entity-resolution",
       "kind": "wiki-chip",
       "weight": 1
@@ -38357,6 +38393,12 @@
       "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-lake",
+      "target": "wiki:duckdb",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-lake",
@@ -39182,6 +39224,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:apache-airflow",
       "kind": "wiki-chip",
       "weight": 1
@@ -39257,6 +39305,12 @@
       "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:duckdb",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-pipelines",
@@ -39818,7 +39872,19 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44996,6 +45062,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -45009,6 +45081,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -50888,6 +50966,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
@@ -54866,6 +54950,12 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:duckdb",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-chip",
       "weight": 1
@@ -57872,6 +57962,12 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:caching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -58034,6 +58130,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -58083,6 +58185,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63056,6 +63164,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
@@ -64394,6 +64508,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:a-a-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -64409,6 +64529,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:metrics",
@@ -66074,6 +66200,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
       "kind": "article-chip",
       "weight": 1
@@ -66191,6 +66323,12 @@
       "target": "wiki:governance",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:metaflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-architecture",
@@ -68420,6 +68558,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:duckdb",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -68603,6 +68747,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:multi-agent-systems",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:multi-agent-systems",
@@ -69404,6 +69554,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -69581,6 +69737,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
+      "target": "wiki:metaflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:notebook-to-production-workflow",
@@ -74534,6 +74696,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "wiki:caching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -76100,6 +76268,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -76199,6 +76373,12 @@
       "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reproducibility",

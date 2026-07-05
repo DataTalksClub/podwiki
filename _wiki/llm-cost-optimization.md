@@ -56,16 +56,16 @@ to process a bloated prompt.
 
 ## Prompt Caching and Model Efficiency
 
-Prompt caching reuses previously computed attention states for repeated prompt
+Prompt [[caching]] reuses previously computed attention states for repeated prompt
 prefixes, reducing both latency and cost. Claude's caching mechanism is one
 implementation[[cite:production-ready-ai-engineering@31:45=>Production AI Engineering]].
 This is especially valuable for agents and multi-turn systems
 where the same system prompt or context is sent repeatedly.
 
-[[Caching]] as a concept appears across
-the podcast. LLM prompt caching is more specific: it caches the model's internal
-computation, not just the final output. This makes it relevant for systems that
-send long, stable prompts with varying user queries appended.
+Use [[caching]] for reuse across production systems. LLM prompt caching is more
+specific: it caches the model's internal computation, not
+just the final output. This makes it relevant for systems that send long, stable
+prompts with varying user queries appended.
 
 ## Latency and Cost Tradeoffs
 

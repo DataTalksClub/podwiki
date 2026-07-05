@@ -279,6 +279,11 @@ handling, deduplication, and recovery. Treat CDC as an ingestion strategy that
 feeds a pipeline. Then decide separately whether the downstream work is
 batch, micro-batch, streaming, or request-time serving.
 
+For bounded file-backed SQL work, [[DuckDB]] fits the same simple-first
+pipeline path. It works when Parquet or lake files are enough and always-on
+orchestration isn't justified
+([[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]).
+
 ## Platform Conventions
 
 One pipeline can live as a small repo, but many pipelines need a platform. The

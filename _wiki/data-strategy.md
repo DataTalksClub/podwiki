@@ -22,12 +22,17 @@ platform capabilities matter, which data requires governance, and how data will
 change decisions or workflows.
 
 Data strategy isn't a static plan or a tool shopping list. It works through
-domain ownership, self-service platforms, and governance scope. It also covers
-event tracking, DataOps, vendor selection, and adoption. The strategy matters
-only when teams ship trusted
-[[data products]], dependable
-[[data engineering platforms]],
-and useful business workflows.[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]]
+domain ownership and self-service platforms. Governance scope belongs there
+too. It also covers event tracking, DataOps, vendor selection, and adoption.
+The strategy matters only when teams ship trusted [[data products]] and
+dependable [[data engineering platforms]]. It also has to create useful
+business workflows.[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]]
+
+[[ai-for-finance-decision-support=>Finance decision support]] is one such
+workflow because ERP and CRM data have to support CFO planning. Expense and
+operating data also need to stay usable instead of trapped in rigid systems or
+side spreadsheets
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 ## Business-First Choices
 
@@ -188,6 +193,12 @@ move fast because it uses the minimum ingredients. Later features need more
 design, maintainability, and ownership because the team has moved from proving
 value to supporting a product
 [[cite:data-translator-role-and-data-strategy@34:52=>Prototype versus product]].
+
+That same strategy boundary shows up in
+[[ai-for-finance-decision-support=>AI Finance Decision Support]]. A spreadsheet
+or quick interface can prove the finance decision flow. Teams need governed ERP
+and CRM context before the product can support planning reliably
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 AI and ML strategy belong in the same frame. Projects need a business reason, a
 data path, an evaluation plan, and an operating model. The production side

@@ -139,10 +139,13 @@ That makes [[data-engineering-platforms=>data engineering platforms]] and
 
 ## Table Formats Sit Above Storage
 
-Table formats sit above the lake, not inside the storage definition. Open table
-formats can add table metadata over files. The lake still needs owners, access
+Table formats sit above the lake rather than inside the storage definition.
+Open table formats can add table metadata over files. The lake still needs owners, access
 rules, quality signals, and repeatable jobs
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Local query engines such as [[DuckDB]] can then query Parquet-backed lake data
+for experiments without making the lake the compute platform
+[[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]].
 
 The data-lake decision is whether flexible raw storage is needed. The format
 choice comes later, when teams need shared table semantics over that storage.

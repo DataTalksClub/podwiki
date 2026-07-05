@@ -180,8 +180,8 @@ start from a goal before walking through the tool
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 [[Metaflow]] matters in these discussions through reproducible ML workflows and
-integrations. It appears in demos and teaching material rather than only as a
-package
+integrations. It appears in demos, sandboxes, and teaching material rather than
+only as a package
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 AI infrastructure brings a developer-tools focus grounded in a JetBrains and

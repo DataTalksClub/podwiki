@@ -148,9 +148,9 @@ application team changing its own code
 
 Cost control includes both prompt efficiency and serving choices. Prompt
 compression creates a shorter prompt intended to preserve behavior while
-reducing tokens. Prompt caching reuses the shared part of repeated prompts so
-large context can be reused. A codebase, for example, doesn't have to be
-processed the same way on every request
+reducing tokens. [[Caching]] reuses the shared part of repeated prompts so large
+context can be reused. A codebase, for example, doesn't have to be processed the
+same way on every request
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 
 Teams choose a model-ownership boundary when they deploy. Teams can use

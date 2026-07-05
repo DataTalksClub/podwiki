@@ -94,16 +94,21 @@ swamps and unused data ownership.[[cite:data-engineering-tools-modern-data-stack
 
 Analytics and ML pipelines need different compositions because the use case
 drives the stack. Upsolver, Snowflake, and Databricks fit different
-persona-driven pipeline designs, and teams still face build-vs-buy decisions
-inside that design.[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
+persona-driven pipeline designs. Teams still face build-vs-buy decisions inside
+that design.[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
 
-A more skeptical view critiques vendor-packaged modern data stacks and argues
-for requirements-led composition. A team may need a warehouse-first stack, an
-open lakehouse stack, a streaming-heavy stack, or a smaller local-first stack.
+Adrian Brudaru critiques vendor-packaged modern data stacks and argues for
+requirements-led composition. A team may need a warehouse-first stack or an
+open lakehouse stack. Another team may need a streaming-heavy stack or a smaller
+local-first stack.
+Teams can use [[DuckDB]] with GitHub Actions in the local-first case when
+file-backed SQL is enough for a small workflow.
+
 [[Modern Data Engineering Trends]] covers the current version of that critique.
-[[Data Engineering Tools]] covers licensing, lock-in, and connector coverage as
-selection risks
+For selection risks, compare licensing and lock-in in [[Data Engineering Tools]].
+Connector coverage belongs in that comparison too
 [[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
 [[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]]
 [[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
 

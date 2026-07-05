@@ -24,10 +24,17 @@ Experiment metrics have to match the rollout decision[[cite:ab-testing-and-produ
 Operational metrics connect KPIs, service levels, feedback, and feature
 drift[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
 
-When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they put the
-same pressure on metric ownership. AI answers and dashboard summaries need
-governed KPI definitions and visible trust states, not just fluent text
+When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they put
+more pressure on metric ownership. AI answers and dashboard summaries need
+governed KPI definitions. They also need visible trust states, not just fluent
+text
 [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+
+In [[ai-for-finance-decision-support=>AI Finance Decision Support]], that means
+finance teams need a clear business grain before they act on a forecast risk or
+cash-flow warning. They also need a review owner. The same applies to
+working-capital signals
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 ## Metrics as Decision Rules
 
@@ -227,10 +234,17 @@ workplace experience metric. The team should treat the proxy as decision
 evidence, not as proof with the same strength as an experiment.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
 
-Business-metrics work includes merit functions, project prioritization, and
-comparable units. It also includes sales pipeline metrics, professional services
-metrics, and top-down KPI alignment. Competing KPIs and composite metrics belong
-in the same discussion[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
+Business-metrics work needs merit functions and project prioritization in
+comparable units. Sales pipeline and professional services metrics sit beside
+top-down KPI alignment. Competing KPIs and composite metrics belong in the same
+discussion[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
+
+Finance teams need the same governed KPI work in
+[[ai-for-finance-decision-support=>AI finance decision support]]. AI can surface
+a forecast warning only after the company names the revenue and pipeline
+context. It also needs the cash-flow and working-capital context behind the
+warning
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 Workshop design and dashboard visibility also matter. North Star metrics,
 threshold metrics, health metrics, and data team metrics matter too. Data-team

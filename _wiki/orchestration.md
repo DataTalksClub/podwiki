@@ -247,6 +247,11 @@ Those concerns connect orchestration to
 It also connects orchestration to experiment tracking, model registries, and
 lineage rather than replacing them.
 
+[[Metaflow]] gives a concrete open-source ML workflow example here. It connects
+modeling code to cloud resources and scheduler infrastructure while keeping
+workflow concerns close to data scientists
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+
 Feature stores create another ML boundary. Pienaar says Feast consumes
 transformed features from existing batch or streaming pipelines. Tecton can own
 more of the transformation and materialization flow [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].

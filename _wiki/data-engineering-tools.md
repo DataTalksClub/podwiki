@@ -27,8 +27,8 @@ extract-load tooling from warehouse-side modeling. She treats orchestration,
 CDC, and reverse ETL as different jobs rather than one product category
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 
-Newer tool choices include open table formats plus catalogs, with DuckDB in the
-same category. AI pipeline tools and streaming affect vendor selection. Use
+Newer tool choices include open table formats plus catalogs, with [[DuckDB]] in
+the same category. AI pipeline tools and streaming affect vendor selection. Use
 [[Modern Data Engineering Trends]]
 for the current open-format, local-first, AI, and streaming tool shifts
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
@@ -190,7 +190,7 @@ basic split.
 
 Lakehouse tools add table behavior and transaction semantics on top of open
 storage. That selection surface includes Apache Iceberg and Parquet storage. It
-also includes catalogs, metadata, and lineage. Delta Lake, Hudi, DuckDB, and
+also includes catalogs, metadata, and lineage. Delta Lake, Hudi, [[DuckDB]], and
 headless table formats belong in the same decision.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 Those tools matter when a team wants open storage, multiple compute engines,
