@@ -30,6 +30,21 @@ title: Podcast Wiki
   <button class="home-search-button" type="submit">Search</button>
 </form>
 
+<nav class="wiki-entrypoints" aria-label="Wiki exploration">
+  <a class="wiki-entrypoint" href="{{ '/graph.html' | relative_url }}">
+    <span class="wiki-entrypoint-name">Graph</span>
+    <span class="wiki-entrypoint-desc">Explore topic, episode, people, and book connections.</span>
+  </a>
+  <a class="wiki-entrypoint" href="{{ '/search.html' | relative_url }}">
+    <span class="wiki-entrypoint-name">Search</span>
+    <span class="wiki-entrypoint-desc">Find wiki pages, guides, summaries, people, and books.</span>
+  </a>
+  <a class="wiki-entrypoint" href="{{ '/special-pages/' | relative_url }}">
+    <span class="wiki-entrypoint-name">Special pages</span>
+    <span class="wiki-entrypoint-desc">Browse guides, comparisons, roadmaps, how-tos, and transitions.</span>
+  </a>
+</nav>
+
 {% if c_total > 0 %}
 
 {%- comment -%} ---------- Explore by format ---------- {%- endcomment -%}
