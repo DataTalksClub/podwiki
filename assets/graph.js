@@ -75,6 +75,9 @@
   function nodeUrl(node) {
     return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
   }
+  function pageActionLabel(node) {
+    return typeKey(node) === "topic" ? "Search topic" : "Open page";
+  }
   function typeKey(node) {
     if (node.type === "article" && node.collection) return node.collection;
     return node.type;
@@ -577,14 +580,20 @@
       })
       .join("");
     const searchQuery = encodeURIComponent(focus.label || focus.title || "");
+    const pageHref = nodeUrl(focus);
+    const searchHref = siteUrl(`/search.html?q=${searchQuery}`);
+    const secondarySearch =
+      pageHref === searchHref
+        ? ""
+        : `<a class="button secondary" href="${escapeHtml(searchHref)}">Search this</a>`;
     panel.innerHTML = `
       <div class="panel-head">
         <p class="eyebrow">${escapeHtml(nodeLabel(focus))}</p>
         <h2>${escapeHtml(focus.title || focus.label)}</h2>
         ${focus.summary ? `<p class="panel-summary muted">${escapeHtml(focus.summary)}</p>` : ""}
         <div class="graph-actions">
-          <a class="button" href="${escapeHtml(nodeUrl(focus))}">Open page</a>
-          <a class="button secondary" href="${escapeHtml(siteUrl(`/search.html?q=${searchQuery}`))}">Search this</a>
+          <a class="button" href="${escapeHtml(pageHref)}">${escapeHtml(pageActionLabel(focus))}</a>
+          ${secondarySearch}
         </div>
         <div class="panel-conn-head">
           <h3>Connections</h3>

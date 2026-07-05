@@ -276,6 +276,64 @@
   touch-action: manipulation;
 }
 
+.graph-embed-related {
+  margin: 1rem 0 0;
+}
+
+.graph-embed-related h3 {
+  margin: 0 0 0.55rem;
+  color: var(--heading);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.graph-embed-related-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.45rem;
+}
+
+.graph-embed-related-node {
+  display: grid;
+  gap: 0.12rem;
+  min-height: 3.4rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--panel);
+  color: var(--link);
+  text-align: left;
+  cursor: pointer;
+}
+
+.graph-embed-related-node:hover,
+.graph-embed-related-node:focus {
+  border-color: var(--line-strong);
+  background: var(--panel-soft);
+  color: var(--link-hover);
+}
+
+.graph-embed-related-node:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--focus-ring);
+}
+
+.graph-embed-related-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+.graph-embed-related-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .graph-open {
   margin: 1rem 0 0;
   text-align: center;

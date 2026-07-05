@@ -87,11 +87,25 @@
   function nodeUrl(node) {
     return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
   }
+  function pageActionLabel(node) {
+    return typeKey(node) === "topic" ? "Search topic" : "Open page";
+  }
   function graphUrl(node) {
     return siteUrl(`/graph.html#${encodeURIComponent(node.id)}`);
   }
   function hasPageUrl(node) {
     return Boolean(node && node.url);
+  }
+  function relationLabel(kind) {
+    if (!kind) return "Connected";
+    if (kind.endsWith("-chip")) return "Citation";
+    if (kind.endsWith("-wiki")) return "Related wiki";
+    if (kind.endsWith("-related")) return "Related page";
+    if (kind.endsWith("-topic")) return "Topic";
+    if (kind === "podcast-person" || kind === "person-podcast") return "Podcast guest";
+    if (kind === "book-link") return "Book author";
+    if (kind.endsWith("-link")) return "Body link";
+    return kind.replaceAll("-", " ");
   }
   function historyKey(root, index) {
     if (root.dataset.graphHistoryKey) return root.dataset.graphHistoryKey;
@@ -202,6 +216,15 @@
   function buildEgo(root, center, linked, degreeById, opts) {
     const allShown = diverseNeighbors(linked, CANVAS_MAX);
     const random = !!(opts && opts.random);
+    const relatedRows = allShown
+      .map(
+        (node) => `
+        <button type="button" class="graph-embed-related-node" data-node-id="${escapeHtml(node.id)}">
+          <span class="graph-embed-related-title">${escapeHtml(node.label || node.title)}</span>
+          <span class="graph-embed-related-meta">${escapeHtml(nodeLabel(node))} · ${escapeHtml(relationLabel(node.kind))}</span>
+        </button>`
+      )
+      .join("");
 
     root.hidden = false;
     root.innerHTML = `
@@ -220,6 +243,12 @@
           center.label || center.title
         )}"></canvas>
       </div>
+      <div class="graph-embed-related" aria-label="Related graph nodes">
+        <h3>Related in the graph</h3>
+        <div class="graph-embed-related-list">
+          ${relatedRows}
+        </div>
+      </div>
       <p class="graph-open">
         ${
           random
@@ -227,7 +256,7 @@
             : ""
         }<a href="${escapeHtml(graphUrl(center))}">Open this node in the full graph &rarr;</a>${
           hasPageUrl(center)
-            ? ` <a class="graph-open-page" href="${escapeHtml(nodeUrl(center))}">Open page</a>`
+            ? ` <a class="graph-open-page" href="${escapeHtml(nodeUrl(center))}">${escapeHtml(pageActionLabel(center))}</a>`
             : ""
         }
       </p>
@@ -241,6 +270,20 @@
           opts.onReroll();
         });
       }
+    }
+    for (const btn of Array.from(root.querySelectorAll(".graph-embed-related-node"))) {
+      btn.addEventListener("click", () => {
+        const node = allShown.find((item) => item.id === btn.dataset.nodeId);
+        if (node && opts && opts.onExplore) opts.onExplore(node);
+      });
+      btn.addEventListener("mouseenter", () => {
+        hover = allShown.find((item) => item.id === btn.dataset.nodeId) || null;
+        draw();
+      });
+      btn.addEventListener("mouseleave", () => {
+        hover = null;
+        draw();
+      });
     }
     const canvas = root.querySelector(".graph-embed-canvas");
     const ctx = canvas.getContext("2d");
