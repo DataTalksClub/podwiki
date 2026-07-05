@@ -50,19 +50,11 @@ self-service SQL, and workflow engines.
 
 ## Platform Boundaries
 
-Iceberg isn't a universal replacement for warehouses or the modern data stack.
-A warehouse-centered ELT path can still be enough. Teams can load data,
-transform it with SQL and dbt-style workflows, then expose marts or BI before
-they need a separate lakehouse table-format layer.
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-That keeps Iceberg as a requirement-led table-format choice, especially when
-one warehouse already serves the workload.
-
-A table format doesn't replace reproducible pipelines or workflow engines.
-Teams still need versioning plus lineage and governance.
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
-Teams need a reliable path to load and transform the data before Iceberg adds
-much value. They also need to test and serve it.
+Use [[Data Warehouse vs Data Lakehouse]] for the warehouse-versus-lakehouse
+architecture choice and [[Data Lake]] for the raw-storage model. Iceberg stays a
+requirement-led table-format choice. It matters when teams need open table
+metadata on lake storage across more than one compute engine
+[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
 
 ## Storage, Metadata, and Catalogs
 
@@ -86,10 +78,15 @@ table, whether the table is fresh, or how downstream users discover lineage.
 Those questions belong with [[Data Governance]], [[DataOps]], and
 [[Data Engineering Platforms]].
 
-Data lakes can become data swamps when ownership and governance are weak.
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-Iceberg can make files behave like tables. The team still has to own quality,
-access, and discoverability around those tables.
+Teams should decide catalog ownership up front because Iceberg can keep the
+table layer open. The team still chooses who runs the catalog and how access
+rules attach to it. The team also has to judge how much vendor control that
+catalog creates
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]].
+
+Iceberg has to sit inside a governed platform because data lakes still need
+ownership and cleanup
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 ## DLT, DuckDB, and Headless Tables
 
@@ -111,21 +108,6 @@ Actions. Workflow engines also belong inside scalable platform architecture.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Iceberg can keep tables open, but [[orchestration]] still has to cover loading
 and transformation plus testing and recovery.
-
-## Operating Fit
-
-Iceberg works best when the team can operate the platform around it. Weak
-governance raises the risk because data lakes still need ownership and cleanup.
-Scalable platforms need storage and compute plus workflow engines with lineage
-and versioning.
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Teams should plan those operating choices with the table format instead of
-treating Iceberg as a storage-only change.
-
-Iceberg belongs beside [[DataOps]] and [[Modern Data Stack]], and it also belongs
-beside [[Data Engineering Platforms]]. It changes where table metadata lives and
-how engines can share data. Teams still need to handle ingestion and
-transformation. They also need scheduling, quality, cost, and documentation.
 
 ## Related Pages
 

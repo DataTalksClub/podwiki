@@ -98,7 +98,7 @@ attached to useful software rather than GitHub visibility
 [[cite:open-source-turned-into-career-and-startup-creation@11:29=>From Developer to Startup Founder]]
 [[cite:open-source-turned-into-career-and-startup-creation@57:20=>From Developer to Startup Founder]].
 Learning by building also means accepting abandoned projects as part of the
-process before one tool finds a wider audience.
+work before one tool finds a wider audience.
 
 For data and ML tools, usefulness also depends on ecosystem fit. Not every useful
 idea should enter core scikit-learn. Plugins such as UMAP and scikit-lego are a
@@ -242,59 +242,29 @@ build pipelines directly
 
 ## Contribution Work and Career Proof
 
-Open-source work becomes career evidence when reviewers can see the work and
-the surrounding conversation. A public repository alone is weak evidence. A
-useful issue or pull request shows what problem the contributor understood. So
-can a demo, guide, test, or discussion.
-
-The review trail matters too because it shows how the project responded, so
-useful contribution advice is deliberately small. README material, guides, API
-reference, and examples are part of the project surface. A reproducible issue is
-a valid first contribution. Pull requests connect to tests, CI, packaging, and
-pre-commit hooks. Those details connect the page to
-[[software engineering]],
-[[ci-cd=>CI/CD]], and
-[[testing]]
+Open-source work can become career evidence because other people can look at the
+work and the surrounding discussion. A public repository alone is weak evidence.
+A reviewed issue or pull request shows what the contributor understood. A guide,
+demo, test, or discussion can show how the project responded
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
-The Hugging Face version includes contribution sprints and dataset scripts. CI
-learning and good-first issues belong to that same contribution surface. Forum
-support and non-code contributions do too. Hiring managers can see
-large-codebase experience, pull requests, tests, and maintainer feedback in
-GitHub work. PR rejection becomes design alignment when contributors open a
-discussion and add tests for compatibility
+Maintainer review also creates pressure that private tutorial projects often
+lack. Hugging Face contribution sprints and dataset scripts make project
+judgment visible. Good-first issues and forum support do the same. Follow-up
+discussion around rejected PRs can show design judgment
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]].
 
-The data-engineering hiring bar expects Python and SQL depth, code structure, and
-tests. It values open-source contributions because review pressure makes the work
-closer to professional practice
+The data-engineering hiring discussion makes the same point from the evaluator
+side. Reviewers look for Python, SQL, code structure, and tests. Open-source
+work can expose those habits in a real project
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
-The interview framing requires a project walkthrough that shows ownership and
-leads with impact. Candidates should defend the technical claims they put in
-front of interviewers. An open-source link still needs a clear explanation of the
-problem and setup, plus quality controls, maintainer interaction, and the result
-[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-
-The learn-in-public mechanism includes progress and corrections. Collaborative
-docs, cheat sheets, demos, and brag documents make the work easier for others to
-understand
-[[cite:developer-personal-brand-learn-in-public=>Learn in Public]].
-
-On the founder and hiring view, open-source work gives a hiring manager a visible
-body of work, though good developers can exist without public contributions. Open
-source is therefore a strong signal, not a universal requirement
-[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
-
-For the focused career page, see
-[[Open Source Portfolio Evidence]]
-and [[job search]]. For portfolio
-framing, use
-[[data engineering portfolio projects]]
-and
-[[machine learning portfolio projects]].
-For an ordered learning path, use the
-[[Open Source Contributor Roadmap]].
+Treat this as hub-level context, not a checklist. [[Contributing]] covers useful
+contribution types, while [[open-source-ml-contributions=>open-source ML
+contributions]] covers ML-tool specifics. The [[Open Source Contributor
+Roadmap]] covers sequence. [[Open Source Portfolio Evidence]] covers how to
+package issue links, PRs, maintainer feedback, and CI. It also covers results
+and role signal for hiring.
 
 ## Community, Onboarding, and Maintainer Load
 

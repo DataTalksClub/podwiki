@@ -168,29 +168,15 @@ with more storage.
 ## Table Formats and Catalogs
 
 Table formats sit between raw object storage and analytical use. Brudaru
-explains Iceberg as a table format over files. It gives teams database-like
-table behavior without hiding lake storage. He ties that design to Parquet
-storage and reduced vendor lock-in.
-
-He then discusses catalogs as the layer that maps data to compute and manages
-access. Some catalogs also hold metadata and lineage
+explains [[Apache Iceberg]] as table metadata over Parquet files. Catalogs map
+data to compute and manage access, metadata, and lineage
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-This is why [[Apache Iceberg]] and
-[[Delta Lake]] appear in lake
-discussions. They don't remove the need for governance or DataOps. They add a
-table layer that can make lake data easier to query and version. That layer
-can also help teams share data across engines.
-
-Brudaru compares Delta, Hudi and Iceberg later in the same episode. He also
-discusses headless table formats and DLT support for Delta Lake and Iceberg
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-
-Start with the requirement, then choose the table and catalog layer. If one
-warehouse already serves the consumers, adding a lakehouse table format may add
-platform work without enough benefit. Table formats become more important when
-multiple engines need shared open storage. They also matter when the team wants
-to keep storage independent from a single compute vendor.
+Treat table formats as a bridge from lake storage to lakehouse use, not a
+replacement for governance or DataOps. [[Delta Lake]] and Iceberg can add table
+semantics over files. The lake still needs owners, access rules, quality
+signals, and repeatable jobs. Use [[Delta Lake vs Apache Iceberg]] when teams
+need to choose the table format and catalog path above the lake.
 
 ## Governance and Ownership
 

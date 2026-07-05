@@ -106,44 +106,45 @@ covered by [[DataOps]], [[Data Engineering Platforms]], and [[Data Governance]].
 
 ## Catalogs and Metadata
 
-Catalogs are the comparison boundary that keeps this from becoming a brand
-choice. Access, metadata, and lineage are separate layers after storage and
-compute. Teams should compare Delta Lake and Iceberg by asking how each one
-fits their catalog and governance path
+Compare the catalog path before comparing format names. Iceberg has the
+stronger open-catalog and lock-in-reduction evidence in Adrian Brudaru's
+discussion. Parquet files can remain below the table layer while Iceberg
+supplies metadata above them. Vendors can still capture value through catalogs
+[[cite:trends-in-modern-data-engineering@19:11=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]].
+
+For Iceberg, ask who owns the catalog and which engines need access. Also ask
+whether catalog lock-in would recreate the vendor problem the team is trying to
+avoid.
+For Delta Lake, ask whether the existing lakehouse tooling already expects
+Delta tables and whether the same catalog path covers access, lineage, and
+quality signals. DLT support for both Delta Lake and Iceberg keeps this a
+tooling-fit question rather than a brand preference
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-Catalog choices affect who can find, trust, and own each table. Data lakes
-become data swamps when ownership and governance are weak. That warning applies
-to either format. Delta Lake and Iceberg add table structure, but they don't
-automatically create trusted datasets
+Either format still needs ownership because data lakes become data swamps when
+teams skip governance. Table metadata doesn't automatically make a dataset trusted
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-
-The operating version links storage and compute with reproducible workflows,
-lineage, and versioning. Choose the format after those ownership and recovery
-requirements are visible
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 ## Engines and Portability
 
-Engine flexibility is where the comparison becomes concrete. If one warehouse
-or platform owns all reads and writes, a lakehouse table format may be a
-secondary detail. If multiple compute engines need to share the same data,
-table-format compatibility becomes a platform decision.
+Use engine access as the separating check. Choose Iceberg when several engines
+need to share the same lake storage. The table layer can stay independent from
+one compute surface
+[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
+Choose Delta Lake when Spark-oriented recovery is the concrete requirement. The
+Delta example covers version tracking, time travel, auditing, and historical
+reprocessing
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
-The same table-format discussion connects to smaller architectures through
-[[DuckDB]], cost-efficient pipelines, GitHub Actions, and headless table
-formats. That thread makes Iceberg and Delta Lake relevant outside giant
-lakehouse migrations. They can also matter in leaner pipelines where the team
-still wants open table semantics
+Portability can also be smaller than a large cloud migration. Brudaru connects
+table formats to DLT and headless tables. He also links them to [[DuckDB]] and
+GitHub Actions. DLT supports both Delta Lake and Iceberg
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-The portability question should include [[orchestration]]. Workflow tools such
-as Airflow, Prefect, Dagster, and GitHub Actions sit near the table-format
-choice. Workflow engines also belong inside scalable platform architecture
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]],
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-A table format is easier to justify when the workflow and compute layers can
-support it repeatedly.
+Pick the format your jobs and tests can run repeatedly. The catalog and compute
+tools need to support it too. Use [[DataOps]] and [[orchestration]] to check
+that operating path before treating portability as a storage-only feature.
 
 ## Decision Checks
 

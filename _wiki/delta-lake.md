@@ -33,21 +33,12 @@ The lakehouse stack in
 [[book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse=>Data Engineering with Spark and Delta Lake]]
 treats Delta Lake as the table format above Spark and open storage.
 
-Delta Lake belongs to the table layer of a lakehouse. Files and compute aren't
-enough. Catalogs and metadata sit around the table format too, alongside access
-and lineage.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-Delta Lake stays close to
-[[Data Governance]] because
-the format can support table semantics. It doesn't assign dataset ownership,
-permissions, or trust.
-
-An older platform map spans storage and data movement. It also covers SQL
-access, workflow engines, lineage, and
-versioning.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-
-Delta Lake fits that platform story only when the team can operate the
-ingestion and transformation paths around the tables. It also needs testing,
-access, and recovery paths.
+Delta Lake can hold table state above lake files, but the surrounding
+[[data-engineering-platforms=>platform]] still owns catalogs and access. It also
+owns lineage, orchestration, and cost
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Teams still need [[Data Governance]] because Delta doesn't assign dataset
+ownership, permissions, or trust.
 
 The lakehouse discussion in the analytics engineering episode adds a useful
 boundary. A lakehouse can keep files in a data lake while exposing a modeled
@@ -110,23 +101,15 @@ and access paths can support repeated reads and writes.
 
 ## Format Misfit
 
-Storage flexibility alone doesn't solve the problem because warehouses, marts,
-and lakes differ. Lakes become data swamps when teams skip governance and
-ownership.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-That episode doesn't center Delta Lake, but it explains the failure mode that
-lakehouse table formats are often asked to address.
-
-For analyst-facing work, a warehouse-centered ELT system may be enough. The
-modern-data-stack discussion covers ingestion and dbt-style transformation. It
-also covers orchestration, documentation, and reverse data
-flows.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-
-Before changing a lake table format, teams should check the common platform
-bottlenecks first. The problem may sit in ingestion reliability or consumer
-access. It may also sit in [[dbt]] modeling, [[analytics engineering]], or
-documentation. Those checks keep Delta Lake inside the lakehouse platform
-discussion instead of turning it into a generic data architecture label. The
-side-by-side selection checks belong in [[Delta Lake vs Apache Iceberg]].
+Don't choose Delta Lake when the bottleneck is ordinary warehouse analytics,
+[[dbt]] modeling, [[analytics-engineering=>analytics engineering]] ownership, or
+consumer access. Natalie Kwong's modern-data-stack discussion shows how a
+warehouse-centered ELT path can serve analyst-facing marts and BI. Lakes become
+swamps when teams skip ownership and governance
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+Use [[Data Warehouse vs Data Lakehouse]] for that architecture choice and
+[[Delta Lake vs Apache Iceberg]] when the table-format choice is the real
+question.
 
 ## Related Pages
 

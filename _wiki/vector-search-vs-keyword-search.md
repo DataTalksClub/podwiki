@@ -27,8 +27,10 @@ storage and indexing infrastructure. The [[Embeddings]] page covers learned repr
 
 Use [[Vector Databases]] for concepts and indexing. Read
 [[Vector Database vs Search Engine]] when choosing whether a standalone vector
-database or an existing search engine should own vectors. Here, compare how
-exact terms, dense representations, and hybrid retrieval match results.
+database or an existing search engine should own vectors. Compare how exact
+terms, dense representations, and hybrid retrieval match results. Then compare
+how they fail in production.
+
 Production search systems often separate candidate generation from ranking.
 Teams then measure hybrid search and query-time weights in the same relevance
 system
@@ -55,10 +57,11 @@ The embedding pipeline creates vectors at ingestion and query time. [[cite:produ
 Vector search is a retrieval method rather than the whole search product.
 
 In practice, the two methods fail differently. Keyword search can miss relevant
-items when the query wording differs from the indexed wording. Vector search
-can retrieve plausible semantic neighbors that ignore exact terms, freshness,
-metadata filters, or product constraints. Hybrid retrieval exists because teams
-often need both matching behaviors.
+items when query wording differs from indexed wording. Vector search can
+retrieve plausible semantic neighbors that ignore exact terms, source
+constraints, freshness, or metadata filters. Hybrid retrieval exists because
+teams often need both matching behaviors before ranking applies product
+objectives.
 
 ## Keyword Strengths
 
@@ -145,37 +148,33 @@ Vector-side approaches can encode recency, behavior, metadata, or popularity
 into vector features. They can also normalize components and choose weights at
 query time. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-Those choices leave the matching method as part of
-[[production search evaluation]].
-Evaluate exact-match queries separately from semantic queries. Evaluate stale
-content, metadata filters, long-tail queries, and high-value product segments
-separately too. A single aggregate relevance metric can hide whether
-keyword retrieval, vector retrieval, filtering, or reranking caused the
-failure.
+Those choices leave the matching method inside [[search-relevance=>search
+relevance]], not outside it. Exact-match queries and semantic queries can fail
+for different reasons. Stale content, metadata filters, long-tail queries, and
+high-value product segments can fail differently too. A single aggregate metric
+can hide whether keyword retrieval, vector retrieval, filtering, or reranking
+caused the failure. Use [[production search evaluation]] for the measurement
+workflow.
 
 ## Evaluation Tradeoffs
 
-Evaluate keyword search with exact-match coverage, synonym behavior, field
-weighting, and filters. Add latency and ranking quality too. [[cite:building-production-search-systems=>Building Search Systems]]
-Lexical search shouldn't be judged only by obvious-term lookup. [[cite:building-production-search-systems=>Building Search Systems]]
-Query rewrites and synonym rules can help, but they can also create
-configuration debt and unexpected matches.
+Keyword search needs checks for exact-match coverage, synonym behavior, field
+weighting, and filters. Query rewrites and synonym rules can help, but they can
+also create configuration debt and unexpected matches
+[[cite:building-production-search-systems=>Building Search Systems]].
 
-Evaluate vector search by checking nearest neighbors against the task. They
-should contain the needed evidence, products, images, or chunks. RAG evaluation
-separates embedding choice and chunking strategy. It also separates retrieval
-count and answer quality. Citations, offline tests, and human review belong in
-the same evaluation process. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Vector search needs checks for nearest-neighbor quality against the task. The
+neighbors should contain the needed evidence, products, images, or chunks. A
+RAG answer can still fail when the vector store returns similar chunks. Those
+chunks may be incomplete, poorly bounded, or weakly cited
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Vector retrieval can return similar chunks while the answer remains unsupported
-or incomplete.
-
-Evaluate hybrid search through both offline relevance tests and product
-metrics. Search changes need A/B tests and business KPIs. They also need
-offline evaluation and engineer-facing operational metrics. [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-The question isn't whether vector search or keyword search is newer. Teams need
-to ask which retrieval and ranking design produces relevant, explainable,
-measurable results for the product.
+Hybrid search needs checks for how lexical matches, vector similarity, and
+filters interact. Freshness and query-time weights belong in the same check
+[[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
+For full ranking tests, use [[Search Relevance]]. For offline tests, A/B tests,
+and monitoring, use [[Production Search Evaluation]]. It also covers business
+metrics.
 
 ## Choosing Retrieval
 

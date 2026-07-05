@@ -34,27 +34,10 @@ question, check whether the data can answer it, and explain what uncertainty
 remains. Experiment work adds randomization, assignment tracking, metric
 stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
-The product analyst page covers the job description and responsibilities.
-[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] compares which analyst title a team needs.
-[[Data Analyst Careers]] covers entry routes, portfolio evidence, and broader
-analyst growth.
-
-Product analyst projects should prove that the analyst can move from product
-question to decision.
-
-Good examples include:
-
-- a tracking-plan review
-- a funnel or cohort analysis
-- an experiment readout
-- a metric-debugging memo
-- an activation or retention analysis tied to a product change
-
-That project proof matters because product analysts are a distinct hiring need
-on some data teams, alongside analytics engineers and marketing scientists.
-Katie Bauer also frames analytics craft around maintainability, documentation,
-and peer review. A project should therefore show how another analyst could
-review or reuse the work.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>Hiring Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>Analytics Craft]]
+Product analyst responsibilities start with product questions, event data, and
+decision support. [[product-analyst-vs-data-analyst=>Product Analyst vs Data
+Analyst]] compares which analyst title a team needs. [[Data Analyst Careers]]
+covers entry routes, portfolio evidence, and broader analyst growth.
 
 ## Role Scope
 
@@ -63,8 +46,9 @@ product metrics. The role also includes dashboarding and stakeholder
 communication, plus launch and experiment analysis.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 The broader [[Data Analyst Role]] covers more business contexts. A product
-analyst spends more time on user journeys and event semantics. It also covers
-activation, retention, engagement, and product-management tradeoffs.
+analyst spends more time on user journeys and event semantics. Product analyst
+work also covers activation, retention, engagement, and product-management
+tradeoffs.
 
 Product analytics also depends on the product-data system around the analyst.
 Product data flows from collection into storage. Teams then use it for analysis
@@ -74,15 +58,24 @@ to question a dashboard number before recommending a product change.[[cite:data-
 
 ## Role Boundaries
 
-Role boundaries change by company. The same work may be called product analyst,
-data analyst, business analyst, or product data scientist. The label depends on
-the team's title system and which responsibilities sit with product managers,
-analysts, or data scientists.[[cite:data-team-roles=>Data Team Roles Explained]]
+The product analyst owns evidence for product decisions. They explain which
+user behavior changed, whether the data is trustworthy, and what the team should
+do next.
+Product managers own direction, prioritization, and delivery tradeoffs. Analysts
+help quantify the problem, evaluate the change, and explain uncertainty.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-Analytics engineering creates another boundary. Some teams expect analysts to
-own dashboards and metric definitions directly. Other teams move repeated SQL
-and BI logic into an analytics engineering layer. That layer can also own tested
-product models built with tools such as `dbt` and Looker.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
+Role labels still vary because teams split product, analytics, and data science
+work differently. The same work may be called product analyst, data analyst,
+business analyst, or product data scientist.
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] compares
+that product-facing decision surface with broader analyst work.[[cite:data-team-roles=>Data Team Roles Explained]]
+
+Product metrics or dashboard logic sometimes need repeatable modeled ownership.
+Product analysts shouldn't own the full transformation platform. They should
+know when a repeated query belongs in a modeled analytics layer. The same
+applies to fragile metrics and inconsistent dashboard definitions. [[Data Analyst vs Analytics Engineer]]
+covers the `dbt` and Looker side of that boundary. It also covers tests and
+reusable models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
 ## Product Analyst Responsibilities
 
@@ -220,37 +213,6 @@ A product analyst should protect that simplicity when stakeholders ask for many
 variants or many success metrics. They should also push back on a post-hoc
 interpretation that the test wasn't designed to support.
 
-## Adjacent Role Boundaries
-
-A product analyst is a specialized [[data-analyst-role=>data analyst]] focused
-on product decisions. [[Product Analyst vs Data Analyst]] covers the full
-comparison with broader analyst work. The short version is that product
-analysts apply the analyst toolkit to product journeys. Activation and retention
-become central. So do engagement, feature usage, and experimentation.[[cite:data-team-roles=>Data Team Roles Explained]]
-
-The boundary with [[Analytics Engineering]] depends on team size because
-analytics engineering work spans SQL, BI, and `dbt` migration. It connects to
-product support and A/B testing, and includes Looker and dashboard work. That's
-why analyst and analytics-engineer boundaries can blur.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
-
-Data modeling and domain knowledge matter in the same discussion. Analysts need
-usable models, and analytics engineers need to understand the product
-definitions those models encode.
-
-Analytics engineering bridges analysts and engineers. It turns business reality
-into cleaner, tested data.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
-A product analyst shouldn't be expected to own the full transformation
-platform. They should know when a repeated query belongs in a modeled analytics
-layer. The same applies to an inconsistent dashboard definition or a fragile
-metric.
-
-The boundary with product management is different because product managers own
-product direction, prioritization, and delivery tradeoffs. Product analysts
-explain what the data says, and assess whether the data is trustworthy, which
-segments are affected, and what uncertainty remains. Product managers own
-prioritization and product tradeoffs, while analysts help quantify the problem
-and evaluate changes.[[cite:data-team-roles=>Data Team Roles Explained]]
-
 ## Skills That Make a Product Analyst Effective
 
 Product analyst work uses a practical stack:
@@ -279,6 +241,12 @@ For hiring, look for evidence that the candidate can move from a product
 question to a defensible recommendation. A strong product analyst portfolio does
 not need a large stack. It should show the path from question to data choice,
 analysis, caveat, and recommendation.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
+
+Hiring teams need this project proof because product analysts can be a distinct
+hiring need alongside analytics engineers and marketing scientists. Katie Bauer
+also frames analytics craft around maintainability, documentation, and peer
+review. A project should show how another analyst could review or reuse the
+work.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>Hiring Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>Analytics Craft]]
 
 Useful portfolio evidence includes:
 

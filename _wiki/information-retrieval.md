@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Information Retrieval"
-summary: "Information retrieval across candidate generation, ranking, RAG, and evaluation."
+summary: "Information retrieval across candidate generation, indexes, prefilters, chunking, ranking boundaries, and RAG context retrieval."
 related:
   - Search
   - Retrieval-Augmented Generation
@@ -19,8 +19,8 @@ shapes
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 recommendations, and agent tools.
 
-Information retrieval covers candidate generation, indexing, ranking
-boundaries, and retrieval inside RAG or agents.
+Information retrieval covers candidate generation, indexing, prefilters, and
+chunking. It also covers ranking boundaries and retrieval inside RAG or agents.
 [[Search]] covers the product-system hub,
 [[search-relevance=>search relevance]] covers ranking quality and product fit,
 and [[Production Search Evaluation]] covers measurement.
@@ -60,7 +60,7 @@ mean relevance or click probability. It can also mean purchase probability or
 another product signal.
 
 The practical search-quality question is matching the right content with the
-right query. Teams need to measure search quality against business goals
+right query
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 The same retrieval discipline applies to RAG inside LLM systems: the model can
 only answer from the context the retriever finds.
@@ -223,36 +223,40 @@ multiple data sources, dynamic planning, and tool use.
 
 ## Evaluation
 
-Retrieval evaluation has to cover both the result set and the downstream task.
-Search relevance ties to business outcomes: teams should connect retrieval and
-ranking changes to business metrics
+Evaluate information retrieval by checking whether the right unit entered the
+candidate set. In a search engine, that unit may be a document or product. It
+may also be an image or session. In RAG, it may be a transcript chunk or
+passage. It may also be a graph neighborhood or source-backed context block.
+
+If the retriever misses that unit, later ranking or generation can't recover it
 ([[cite:building-production-search-systems=>Building Search Systems]]).
-They should run careful A/B tests when possible and use offline evaluation or
-operational metrics that engineers can iterate on. Information retrieval
-shares that evaluation discipline with
-[[Production Search Evaluation]]
-and [[MLOps]].
 
-Classic search evaluation differs from RAG evaluation
+Classic search evaluation checks candidate recall and precision-style result
+quality. It also checks filters, index freshness, and ranking handoff. RAG
+evaluation checks chunk size, overlap, and embedding model choice. It also
+checks retrieval count, source metadata, and whether the retrieved passages
+contain enough evidence for the answer
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-Ecommerce search has a clearer query-response setup with precision and recall
-concepts. RAG evaluation needs multiple layers: teams evaluate the embedding
-model and the chunking strategy, and also the retrieval strategy and the
-end-to-end answer.
 
-This distinction matters because a RAG answer can fail even when the vector
-database returns similar chunks. A generated answer can also look fluent while
-the retrieved evidence is incomplete.
+Prefilters deserve their own checks. A Bloom filter can cheaply say that an
+item is absent or possibly present. False positives mean it can't make the
+final relevance decision
+[[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]].
+The same boundary applies to hard metadata filters, permissions, and date
+constraints. They reduce the search space before ranking, but they can also
+exclude the result the downstream task needed.
 
-For agents, there's a system-benchmark version
+When retrieval becomes one tool inside [[Agent Engineering]] or
+[[agent-engineering=>AI Agents]], evaluate the retriever against the local
+system boundary, not only a public model benchmark. Representative datasets and
+integration tests help catch failures before an agent reasons over missing or
+wrong context. Teams can use mocked tools and assertions over retrieved objects
+too
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-Public benchmarks such as SQuAD evaluate model capability, not the team's
-retrieval or agent system. Teams need their own representative datasets,
-integration tests, mocked tools, and assertions over outcomes. That applies
-when retrieval is one step inside
-[[Agent Engineering]] or
-[[agent-engineering=>AI Agents]], not a standalone search
-endpoint.
+
+Use [[Production Search Evaluation]] for ranking metrics, A/B tests, and
+business outcomes. Use [[Search Relevance]] when the question is which
+candidates deserve top positions.
 
 ## System Boundaries
 

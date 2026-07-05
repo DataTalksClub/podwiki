@@ -128,31 +128,22 @@ uses the same split later, when those retrieved results become LLM context.
 
 ## Search Stack Boundaries
 
-Classical [[information retrieval]] remains part of the vector-search boundary.
-Vector databases such as Qdrant fit cases that need vector retrieval. Solr,
-Lucene, Elasticsearch, and OpenSearch can also remain part of the architecture.
-Vector search can live in a standalone vector database or inside an existing
-search stack.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Vector search fails when nearest neighbors are semantically close but wrong for
+the task. The neighbor may miss an exact constraint, use stale embeddings, or
+lack the metadata a ranker needs. Those broader stack choices belong in
+[[Vector Database vs Search Engine]], [[Search Relevance]], and
+[[Production Search Evaluation]]
+[[cite:building-production-search-systems=>Building Search Systems]].
 
-Production search still has candidate generation, ranking, and business
-constraints. Vector compute and vector storage are separate concerns, so a
-vector database doesn't remove ingestion work. Teams still need
-embedding-model consistency, reindexing, and query-time encoding. Vector
-similarity also works with filters and recency. Behavior, popularity, metadata,
-and query-time weights influence the served result.[[cite:building-production-search-systems=>Building Search Systems]]
+Knowledge graphs fail when they preserve the wrong relations, miss important
+paths, or let stale entities stay in the graph. The graph-side boundary starts
+from domain semantics, not only relevance. Automotive systems need to preserve
+relationships across simulations and reports. They also need relationships
+across sections, entities, and engineering concepts.
 
-That production view connects vector search to
-[[Vector Database vs Search Engine]]
-and [[Production Search Evaluation]].
-The retrieval stack should serve relevance, latency, ranking quality, and
-business outcomes. It shouldn't stop at nearest-neighbor lookup.
-
-The graph-side boundary starts from domain semantics, not only relevance. The
-system has to preserve relationships across simulations and reports. It also
-has to preserve relationships across sections, entities, and engineering
-concepts. Teams still need to verify graph content extracted by LLMs. Graph
-systems move trust work into modeling and validation rather than eliminating
-it.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
+Teams still need to verify graph content extracted by LLMs. Graph systems move
+trust work into modeling and validation rather than eliminating it
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]].
 
 Angela's database-selection rule is similar. Use the data structure and use case
 to decide between relational, key-value, document, and graph-oriented storage.
@@ -162,18 +153,14 @@ analysis may need a different structure.
 
 ## Production Work
 
-Vector search creates pipeline work. Teams compute embeddings during ingestion
-and again at query time. They keep model versions consistent, plan reindexing,
-and decide which component should own retrieval. The options include Lucene,
-Elasticsearch, Postgres, and specialized vector stores.[[cite:building-production-search-systems=>Building Search Systems]]
-
-RAG adds work around chunking and overlap, and teams tune retrieval count and
-citation quality.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-
-Those choices tie vector retrieval to
-[[LLM Evaluation Workflows]]
-because the team has to evaluate retrieved context and citation quality before
-judging final answers.
+Vector search production work centers on keeping neighbors meaningful. Teams
+compute embeddings during ingestion and query time, keep model versions
+consistent, and plan reindexing. They also tune chunk boundaries when passages
+feed RAG
+[[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+Use [[Vector Database vs Search Engine]] for the infrastructure ownership
+choice and [[LLM Evaluation Workflows]] when retrieved context feeds generated
+answers.
 
 Knowledge graphs create modeling work. Teams define entities and relation
 types, ingest graph data, and design graph queries. They also keep provenance,
@@ -208,8 +195,9 @@ At the substrate layer, graph semantics compensate for relations that chunk-only
 retrieval can miss.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 Ranking systems make a parallel point from the vector side. Vector similarity
-works with filters and recency. Behavior, popularity, metadata, and query-time
-weights influence the served result.[[cite:building-production-search-systems=>Building Search Systems]]
+can find candidates, but filters, recency, and metadata still influence the
+served result. Behavior, popularity, and query-time weights also affect the result
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 For changing knowledge versus repeated model retraining, use
 [[retrieval-augmented-generation=>RAG]] and
@@ -230,11 +218,6 @@ ranking ignores the product goal. RAG evaluation has to check chunking and
 overlap. It also has to check retrieval count, citations, and human review
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Business KPIs, A/B tests, offline tests, and revenue attribution also matter.
-For vector search, check retrieval, ranking, and filters. Check citations and
-business outcomes before judging the generated answer.
-[[cite:building-production-search-systems=>Building Search Systems]]
-
 Graph systems fail when they encode wrong relations, miss important relations,
 or become stale as the domain changes. Brittle schemas and unverified LLM
 extraction create graph failures too. A graph can expose provenance, relation
@@ -247,7 +230,7 @@ search, check candidate quality and embedding freshness. Then check chunk
 boundaries, filters, and ranking.
 
 [[Production Search Evaluation]]
-covers retrieval and ranking checks.
+covers retrieval, ranking, and product measurement checks.
 [[LLM Evaluation Workflows]] covers systems where
 retrieved context feeds an LLM.
 

@@ -120,9 +120,9 @@ changes which failures must be reproduced in simulation.
 
 Simulation also clarifies the boundary between perception and behavior
 learning. Perception models help a vehicle understand the world, while
-reinforcement learning-style methods teach behavior in an environment. Even a
-training environment needs constraints such as traffic rules, and those
-constraints vary by geography and local driving culture. That makes
+[[reinforcement-learning=>reinforcement learning]]-style methods teach behavior
+in an environment. Even a training environment needs constraints such as traffic
+rules, and those constraints vary by geography and local driving culture. That makes
 autonomous-driving simulation less fixed than a game environment such as chess
 or Go.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]

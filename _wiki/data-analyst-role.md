@@ -57,12 +57,9 @@ The title is unstable, and that creates a real hiring problem. A job called
 "data analyst" may mean BI reporting, product analytics, light data science, or
 business analysis. Responsibilities matter more than the title.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
-Analytics engineering moves part of the old analyst workload into a more
-engineered role. That shift contrasts with both data analyst and data
-engineering work. It also reduces analysts' cleaning workload.[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
-The overlap between data analyst and analytics engineer work appears when
-dashboard logic needs stronger ownership. Metric definitions and transformation
-code can need the same ownership.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
+Move the work toward analytics engineering when repeated dashboard logic, metric
+definitions, or transformations need stronger modeled ownership. Use
+[[Data Analyst vs Analytics Engineer]] for the full comparison.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 ## Decision Support Responsibilities
 
@@ -155,16 +152,13 @@ scientists add prediction, modeling, and model integration. The distinction runs
 through the goals of analytics work versus ML work. Both roles share data
 infrastructure and experiment feedback.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
-The boundary with [[analytics engineering]] is about repeatability and ownership
-of the analytical data layer. Analysts answer questions and interpret metrics.
-Analytics engineers build tested, documented, BI-ready models. Analytics
-engineering connects to data modeling, pipelines, and data quality. It also uses
-Looker and `dbt` with version control, tests, and DAGs.[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
-
-[[Data Analyst vs Analytics Engineer]] defines the adjacent boundary. The
+Use [[analytics engineering]] for repeatable modeled logic while analysts keep
+answering questions and interpreting metrics. Analytics engineers own BI-ready
+models with tests and documentation. They take over when dashboard logic or
+metric definitions need to be reused safely.[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
+[[Data Analyst vs Analytics Engineer]] defines the adjacent boundary.
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
-covers the transition when analysts want to move from role understanding into
-reusable-model ownership.
+covers the move from role understanding into reusable-model ownership.
 
 The boundary with the [[data engineer role]] is about data paths and operations.
 Data engineers build ingestion and storage systems. They also own orchestration

@@ -140,25 +140,22 @@ a vector database can own the passage-similarity lookup. A transcript chatbot
 still needs ingestion or transcription, chunk size and overlap choices, and
 embedding creation. It also needs prompt packaging and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-In that flow, the vector database owns one retrieval component, not the whole
-RAG product.
 
-A search engine remains relevant in RAG when retrieval needs exact source
-selection and metadata filters. It also handles freshness and hybrid ranking.
+That flow leaves an ownership boundary. The vector database may only return
+similar passages, so another layer may need to enforce source constraints,
+document-type filters, and permissions. Dates and product rules may live there
+too.
 
-RAG systems often need semantic similarity plus allowed sources, dates, product
-constraints, and document-type constraints. [[cite:building-production-search-systems=>Building Search Systems]]
-This matters in LLM products because retrieval can handle changing knowledge,
-but teams still need source controls. They also need deliberate indexing
-design. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+A search engine remains relevant in RAG when exact source selection, metadata
+filters, freshness, and hybrid ranking already live there. Vector retrieval can
+handle changing knowledge, but teams still need deliberate indexing and source
+controls
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-Taken together, these accounts treat RAG as search infrastructure plus context
-packaging. RAG evaluation separates ingestion choices and retrieval strategy
-from answer quality. It also checks citation quality, offline tests, and human
-review
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-That puts vector-store selection inside a broader retrieval and evaluation
-process.
+Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for
+prompt packaging, citation behavior, and answer quality. On this page, RAG
+infrastructure means passage lookup and filtering. It also means source
+constraints and reindexing ownership.
 
 ## Product Search and Recommendations
 
@@ -200,18 +197,18 @@ monitoring, or iteration speed.
 ## Evaluation Criteria
 
 Evaluate the vector database path by checking whether semantic candidates
-contain the evidence or records the task needs. Product and image retrieval
-need the same check. This evaluation is especially relevant for RAG. The system
-must judge retrieved chunks, citations, and generated answers because vector
-similarity isn't enough. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+contain the evidence or records the task needs. Then check whether another
+service must enforce filters, allowed sources, document types, and permissions.
+Freshness and business rules may live there too. If those controls live
+elsewhere, the architecture now has a cross-service relevance boundary
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Evaluate the search-engine or hybrid path through retrieval, ranking, latency,
-and business outcomes together. Search impact ties to business metrics, A/B
-tests, offline evaluation, and operational metrics. [[cite:building-production-search-systems=>Building Search Systems]]
-That means the
-vector-database-versus-search-engine decision should be validated through
-[[Production Search Evaluation]],
-not through infrastructure preference alone.
+Evaluate the search-engine or hybrid path by checking whether one serving layer
+can combine lexical matches, vector neighbors, metadata filters, and rankers.
+Latency targets and reindexing jobs belong in that check too. Search teams
+should validate that ownership choice through retrieval and ranking tests, not
+infrastructure preference alone [[cite:building-production-search-systems=>Building Search Systems]].
+Use [[Production Search Evaluation]] for the broader measurement workflow.
 
 ## Related Pages
 

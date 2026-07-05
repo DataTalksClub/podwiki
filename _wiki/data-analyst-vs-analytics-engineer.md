@@ -316,64 +316,34 @@ executive reporting create the same pressure
 
 ## Hiring and Portfolio Signals
 
-For a data analyst, look for proof that the person can move from a question to
-a decision. Grigorev's role definition names SQL and Python or R. It also names
-dashboard tools, basic statistics, reports, and recommendations.
-Problem sizing and A/B test interpretation also matter
-([[cite:data-team-roles=>Data Team Roles]],
-[[Data Analyst Careers]]).
+For a data analyst, look for proof of decision ownership. The evidence should
+start with a question and name the stakeholder or decision. It should define the
+metric and end with a recommendation or caveat. Grigorev's role definition ties
+analyst work to SQL, dashboards, reports, and recommendations. Problem sizing
+and A/B-test interpretation belong in the same analyst signal.[[cite:data-team-roles=>Data Team Roles]]
 
-The useful signal isn't "made a chart." The stronger signal is "changed or
-clarified a decision with evidence." [[Data Analyst Careers]] covers the
-broader career path and portfolio surface for that signal.
+Instead of counting "made a chart" as the comparison signal, count "changed or
+clarified a decision with evidence." [[Data Analyst Careers]] covers the broader
+career and portfolio path for that signal.
 
-For an analytics engineer, look for proof that the person can make analysis
-reusable. Perez Mola names data modeling and SQL transformations. Perafan adds
-robustness and testability as the role boundary
-([[cite:analytics-engineer-skills-tools@42:05=>Perez Mola's analytics engineering skill discussion]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]],
-[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]).
+For an analytics engineer, look for proof of reusable model ownership. The
+evidence should show modeled tables, documented grain, and tests. It should also
+show version control and quality checks that make analysis safer to reuse. Perez
+Mola names data modeling and SQL transformations. Perafan adds robustness and
+testability as the role boundary.[[cite:analytics-engineer-skills-tools@42:05=>Perez Mola's analytics engineering skill discussion]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]]
 
-The useful signal isn't "knows `dbt`." The stronger signal is "made trusted
-analytical data easier to reuse and safer to change."
-[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
-owns the project evidence for that signal.
+Don't count "knows `dbt`" as the comparison signal. Count "made trusted
+analytical data easier to reuse and safer to change." [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
+and [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+cover project depth and transition advice.
 
-People often move from BI and domain work into analytics engineering. This
-comparison only uses that path as a role signal. Maksimovic's marketing
-reporting, SQL, Looker, and `dbt` work shows why one title can contain both
-analyst and analytics-engineering modes. Product analytics and A/B testing
-show the same overlap
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's marketing-to-analytics engineering path]],
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]).
-
-[[person:alicjanotowska=>Alicja Notowska]] gives the
-hiring-screen version.
-She describes sourcing from the job description, checking responsibilities
-instead of titles alone, and reading beyond tool lists and buzzwords
-[[cite:hiring-data-scientists-and-analysts=>Notowska's hiring-screen discussion]].
-For this comparison, that means a data analyst CV should show the questions,
-decisions, and stakeholders behind the analysis. An analytics engineer CV
-should show the models, tests, docs, and ownership behind the tools.
-
-[[person:terezaiofciu=>Tereza Iofciu]] adds the job-ad
-side.
-She recommends checking whether the team is described, responsibilities are
-well-defined, and objectives appear instead of a long technology checklist
-[[cite:data-science-job-red-flags-and-mismatched-roles=>Iofciu's job-ad mismatch discussion]].
-A posting for either role should name the work. If it asks for every data tool
-without saying whether the person owns decisions or models, the title is weak
-evidence. Quality ownership and stakeholder ownership should be visible too.
-
-The overlap matters because analysts who understand modeling can avoid bad
-joins and mixed grains. Analytics engineers who understand stakeholder
-questions can model the right entities instead of only making tidy tables.
-Victoria's
-[[cite:analytics-engineer-skills-tools=>analytics engineering role comparison]]
-and Juan's
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>analytics engineering foundations discussion]]
-both make that boundary practical. The title matters less than who owns the
-question, who owns the reusable model, and who owns the quality path.
+Hiring teams should still read responsibilities instead of titles or tool
+lists. Notowska describes checking job descriptions, responsibilities, and
+concrete work rather than buzzwords. Iofciu recommends job ads that name the
+team and its responsibilities. The objectives should be visible too.[[cite:hiring-data-scientists-and-analysts=>Notowska's hiring-screen discussion]][[cite:data-science-job-red-flags-and-mismatched-roles=>Iofciu's job-ad mismatch discussion]]
+For this comparison, a data analyst CV should show questions, decisions, and
+stakeholders. An analytics engineer CV should show models, tests, docs, and
+ownership behind the tools.
 
 ## Related Pages
 

@@ -245,6 +245,9 @@ public explanations can also turn study into
 [[open-source-portfolio-evidence=>open-source portfolio evidence]]
 [[cite:developer-personal-brand-learn-in-public=>Learn in Public]].
 
+For the AI career-switch version of this practice, see
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
+
 ## Teach for Access and Career Mobility
 
 Teaching also works as access infrastructure. Jeff's bootcamp discussion includes

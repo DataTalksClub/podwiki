@@ -25,8 +25,9 @@ and cost matter too.
 
 Search relevance asks what should rank and why it should rank there. It also
 asks which product outcome the ranking should serve.
+[[Information Retrieval]] covers retrieval mechanics,
 [[Vector Search vs Keyword Search]] covers matching methods,
-[[Vector Database vs Search Engine]] covers infrastructure ownership, and
+and [[Vector Database vs Search Engine]] covers infrastructure ownership.
 [[Production Search Evaluation]] covers testing and measurement.
 
 Search is a decision problem: from a large set of information, the system has to
@@ -64,12 +65,12 @@ Sadat's example links relevance to [[Information Retrieval]],
 [[Software Engineering]], and operations. The ranking idea has to survive
 traffic, ownership, and release constraints.
 
-## Candidate Generation And Ranking
+## Ranking After Candidate Generation
 
 Search systems usually retrieve a small candidate set before ranking those
-candidates with more expensive signals. Candidate generation quickly narrows a
-large corpus to a small set. Ranking estimates which candidates should be shown
-first for the query.[[cite:building-production-search-systems]]
+candidates with more expensive signals. [[Information Retrieval]] owns that
+retrieval design. Search relevance starts where the product has to decide which
+candidates should be shown first for the query.[[cite:building-production-search-systems]]
 
 That split matters because the failure modes differ. If the right document
 never enters the candidate set, the ranker can't rescue it. If the candidate
@@ -78,13 +79,11 @@ weights, or training data need attention. Teams therefore evaluate
 recall-oriented retrieval separately from rank quality. They also check click
 quality, conversion quality, and business outcomes.
 
-Candidate generation may use lexical indexes, vector indexes, graph lookups, or
-metadata filters. Ranking may use term scores, freshness, popularity, and
+Ranking may use term scores, freshness, popularity, and
 [[machine-learning-personalization=>machine learning personalization]]. It may
 also use behavioral signals, learned-to-rank models, or business rules. Use
-[[Production Search Evaluation]]
-when the question is how to measure each stage without collapsing the whole
-search product into one score.
+[[Production Search Evaluation]] when the question is how to measure each stage
+without collapsing the whole search product into one score.
 
 Modern search adds LLMs to this older relevance stack rather than skipping it.
 Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
@@ -94,12 +93,12 @@ relevance layer supplied useful evidence first
 
 ## Lexical, Vector, And Hybrid Retrieval
 
-Lexical, vector, and hybrid retrieval create different candidate sets before any
-reranker or product objective can act. Exact-word matching, filters, semantic
-similarity, and query-time weights fail in different ways.
-[[cite:building-production-search-systems]] Use
-[[Vector Search vs Keyword Search]] for the retrieval-method comparison and
-[[Vector Database vs Search Engine]] for the storage and serving boundary.
+Lexical, vector, and hybrid retrieval create different candidate sets before
+ranking can apply product objectives. Exact-word matching, semantic similarity,
+filters, and query-time weights fail in different ways
+[[cite:building-production-search-systems]]. Use [[Vector Search vs Keyword
+Search]] for that retrieval-method comparison and [[Vector Database vs Search
+Engine]] for the storage and serving boundary.
 
 ## Filters, Freshness, And Business Rules
 

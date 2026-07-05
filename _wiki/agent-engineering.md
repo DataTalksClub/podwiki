@@ -88,13 +88,10 @@ remaining hard to test or improve
 [[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
 
 Coordination style affects debugging, so teams decompose agents.
-Lanham ties the same lineage to [[reinforcement-learning=>reinforcement learning]]
-and [[evolutionary-algorithms=>evolutionary algorithms]].
-[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
 Sequential flows are easier to review than manager-agent orchestration or
 direct collaboration.
-The game-AI lineage behind that taxonomy is covered in
-[[game-ai-to-llm-agents=>Game AI to LLM Agents]].
+Lanham's game-AI lineage behind that taxonomy is covered in
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]].[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
 
 Enterprise teams start from governance. They need specialized models,
 guardrails, and data lineage before broad autonomy is safe. Multi-tenant
@@ -121,6 +118,8 @@ the agent doesn't become one broad prompt that owns every decision.
 Decomposition clarifies the orchestration choice.[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
 Options include sequential pipelines, manager-agent orchestration, and
 collaboration.
+For the narrower search family behind fitness functions, mutation, and
+candidate selection, use [[evolutionary-algorithms=>Evolutionary Algorithms]].
 That distinction matters for [[Software Engineering]] because a linear workflow
 is easier to test and debug than an open-ended multi-agent system.
 

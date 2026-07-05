@@ -302,6 +302,8 @@ episode, Leonid Kholkine connects conference and peer-community work to meeting
 more people. Practitioners build a broader professional network, not only event
 logistics
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@19:19=>Data Makers Fest]].
+The organizer mechanics behind that signal belong in
+[[data-ai-conference-building=>data and AI conference building]].
 
 LinkedIn and public posting work best when they include field-specific value
 rather than only announcements. Information and concrete lessons travel farther

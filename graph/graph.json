@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12011
+    "links": 11987
   },
   "nodes": [
     {
@@ -9814,7 +9814,7 @@
       "title": "Information Retrieval",
       "url": "/wiki/information-retrieval/",
       "count": 1,
-      "search": "Information Retrieval Information retrieval across candidate generation, ranking, RAG, and evaluation."
+      "search": "Information Retrieval Information retrieval across candidate generation, indexes, prefilters, chunking, ranking boundaries, and RAG context retrieval."
     },
     {
       "id": "wiki:interpretability",
@@ -22154,12 +22154,6 @@
     },
     {
       "source": "wiki:agent-engineering",
-      "target": "wiki:reinforcement-learning",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -29150,6 +29144,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "wiki:developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -31940,37 +31940,13 @@
     },
     {
       "source": "wiki:contributing",
-      "target": "person:mervenoyan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:contributing",
       "target": "person:saraelateif",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:contributing",
-      "target": "person:vincentwarmerdam",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:contributing",
-      "target": "person:willrussell",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:contributing",
       "target": "podcast:datatalksclub-building-scaling-data-community",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:contributing",
-      "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32042,7 +32018,7 @@
     },
     {
       "source": "wiki:contributing",
-      "target": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:developer-experience",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32063,12 +32039,6 @@
       "target": "wiki:documentation",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:contributing",
-      "target": "wiki:job-search",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:contributing",
@@ -32144,7 +32114,13 @@
     },
     {
       "source": "wiki:contributing",
-      "target": "wiki:software-engineering",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:volunteer-data-engineering-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33320,12 +33296,6 @@
     },
     {
       "source": "wiki:data-analyst-careers",
-      "target": "wiki:product-analyst",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-careers",
       "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
@@ -34106,12 +34076,6 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:alicjanotowska",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "person:arpitchoudhury",
       "kind": "article-chip",
       "weight": 1
@@ -34119,12 +34083,6 @@
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "person:nikolamaksimovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:terezaiofciu",
       "kind": "article-chip",
       "weight": 1
     },
@@ -55292,12 +55250,6 @@
     },
     {
       "source": "wiki:information-retrieval",
-      "target": "wiki:mlops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:information-retrieval",
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -56168,12 +56120,6 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:information-retrieval",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "article-chip",
       "weight": 1
@@ -56225,6 +56171,12 @@
       "target": "wiki:search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-relevance",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -69824,18 +69776,6 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "podcast:developer-personal-brand-learn-in-public",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -69897,12 +69837,6 @@
     {
       "source": "wiki:open-source",
       "target": "wiki:cdc",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70178,12 +70112,6 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "wiki:testing",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source",
       "target": "wiki:tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -70196,19 +70124,7 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "podcast:building-mlops-startup",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:building-open-source-nlp-tool",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70232,12 +70148,6 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "podcast:open-source-ml-contributions",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:open-source-ml-tools-strategy-and-business-models",
       "kind": "wiki-chip",
       "weight": 1
@@ -70256,12 +70166,6 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -70283,12 +70187,6 @@
       "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:data-ai-conference-building",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -70317,12 +70215,6 @@
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:devops-to-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:devops-to-data-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -70340,19 +70232,7 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:machine-learning-tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:metaflow",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:modern-data-stack",
+      "target": "wiki:founder",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70367,6 +70247,12 @@
       "target": "wiki:open-source",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -70388,7 +70274,7 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:scikit-learn",
+      "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70868,12 +70754,6 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "person:nataliekwong",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
       "target": "person:nicksingh",
       "kind": "wiki-chip",
       "weight": 1
@@ -70881,12 +70761,6 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "person:sonalgoyal",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "person:swyx",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70934,13 +70808,13 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -71007,12 +70881,6 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:data-engineering-tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -71054,12 +70922,6 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:entity-resolution",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -71069,12 +70931,6 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:learning-in-public-ai-career-switch",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
@@ -71127,24 +70983,12 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:portfolio-projects",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:rag-portfolio-projects",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:technical-writing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77823,12 +77667,6 @@
     {
       "source": "wiki:search",
       "target": "wiki:nlp",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:nlp",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -78908,6 +78746,12 @@
     },
     {
       "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
       "target": "wiki:synthetic-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -79121,6 +78965,12 @@
       "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:scikit-learn",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -80825,6 +80675,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:teaching",

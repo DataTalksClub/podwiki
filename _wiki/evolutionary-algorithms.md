@@ -13,7 +13,7 @@ related:
 ---
 
 Evolutionary algorithms are search methods for trying candidate solutions when
-the target can be scored but not directly derived. Peter Whidden connects them
+the target can be scored but not directly derived. Micheal Lanham connects them
 to game AI and numerical optimization. He also connects them to evolutionary
 deep learning, prompt search, and modern
 [[agent-engineering=>AI agents]]
@@ -161,23 +161,15 @@ gives the decision-optimization boundary a physical engineering case.
 
 ## Connection to Agent Systems
 
-Evolutionary thinking also links to current
-[[agent engineering]]. Agents can be taught through minimal task decomposition
-first, and the episode then distinguishes sequential flows, manager-agent
-orchestration, and collaborative multi-agent designs. Collaborative agents can
-iterate and refine solutions in a way the guest compares to evolutionary
-algorithms
+Collaborative agents can resemble evolutionary search when they generate
+candidate outputs, exchange feedback, and refine a result
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
+The comparison stays modest: a [[multi-agent-systems=>multi-agent system]] does
+not become an evolutionary algorithm only because agents collaborate. The useful
+connection is narrower. Agents generate candidates, exchange feedback, and
+refine outputs while teams still set stopping rules and compute limits.
 
-The comparison should stay modest. The episode doesn't say every
-[[multi-agent-systems=>multi-agent system]] is an
-evolutionary algorithm. It says collaboration can resemble evolutionary search
-when agents generate candidate outputs, exchange feedback, and refine a result.
-
-That comparison applies to complex problems where the input and desired output
-are known but the path is detailed
-([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
-Teams still need a scoring target, a stopping rule, and a compute budget.
-Lanham's comparison stays narrow: collaborative agents can resemble
-evolutionary search without becoming evolutionary algorithms. For the transition
-from game AI to LLM agents, see [[game-ai-to-llm-agents=>Game AI to LLM Agents]].
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] for Lanham's transition
+from game AI into LLM agents. Use
+[[multi-agent-systems=>Multi-Agent Systems]] for coordination patterns among
+agents.

@@ -87,69 +87,38 @@ matter too.[[cite:project-manager-to-data-scientist=>From Project Manager to Dat
 
 ## Skill Stack
 
-In a data team, analysts own dashboards and reports, plus ad hoc SQL and
-recommendations. They often know where the data lives because they work with the
-tables every day.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
+For the full role skill stack, use [[Data Analyst Role]]. In a career plan, the
+order matters more than a long tool list.
 
-SQL and Python notebooks connect analyst work to bridge roles such as
-[[Analytics Engineering]].
-For analysts, SQL is the career anchor. They use it to answer ad hoc questions
-and build reports. Table knowledge also becomes recommendations.
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
+For entry, show SQL first. Analysts answer ad hoc questions, build reports, and
+learn where the tables live because they work with them every day.
+Visualization and dashboards come next because analysts communicate evidence to
+managers and decision makers.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]][[cite:data-team-roles=>Data Team Roles Explained]]
 
-SQL also transfers into the
-[[Analytics Engineering Roadmap]]
-when the work moves from one-off queries to tested models.
+For portfolio work, add the business question and metric choice. Then show the
+data checks and recommendation. A project can use Python notebooks or BI tools.
+It can also use spreadsheets, but the reviewer needs to see how the analysis
+changes a decision. Product analytics projects should explain collection and
+storage. They should also explain activation and event definitions before
+trusting a funnel or cohort.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
-Automation changes the work surface rather than removing the career path.
-AutoML already made it possible to upload a CSV and get a usable baseline
-model. That didn't eliminate
-[[Data Science Careers]]
-because the job still includes problem framing, result judgment, and production
-choices. The same logic applies to
-[[LLMs]]
-and
-[[AI-Powered Business Intelligence]]
-for analysts. Assistants can reduce time spent on complex SQL and debugging,
-but metric definition still depends on stakeholder conversations and domain
-judgment.[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
+For a hiring screen, name responsibilities directly. Recruiters and hiring
+managers look for dates, tools, examples, and the work behind the title. A
+resume should say which dashboards and reports the candidate owned. It should
+also name SQL analyses, stakeholder questions, and recommendations, not only
+which tools they used.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
-Analysts still own the questions around the query. They decide which [[KPIs]]
-matter and explain why a metric should exist. They connect the result to product
-or business action. Teams adopting LLM-assisted analytics should treat that as a
-role-design issue. It belongs with [[Data Analyst Role]], [[Product Analytics]],
-and [[AI-Powered Business Intelligence]], not only tooling.
-[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
+For the next move, extend the same base in the direction of the target role.
+Analysts can move toward the [[Analytics Engineering Roadmap]] when one-off
+queries become tested models. Statistics and experimentation matter when the
+analyst supports launches and growth decisions. They also matter for A/B tests,
+uplift, segment differences, and root-cause analysis.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
-Visualization and dashboarding matter because analysts communicate evidence, and
-dashboards connect to KPIs and product decisions.[[cite:data-team-roles=>Data Team Roles Explained]]
-
-Product analytics adds collection, storage, and analysis, then connects that
-work to activation.
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
-
-Analysts, data engineers, analytics engineers, and product operations own
-different parts of that stack. Analyst skills therefore connect directly to
-[[Product Analytics]] and the
-[[Product Analyst]] article.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
-
-Statistics and experimentation become important when the analyst supports
-launches and growth decisions. A/B testing and shadow mode sit near the analyst
-boundary. So do uplift, segment differences, and root-cause analysis.
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
-
-An analyst doesn't need to become a full-time model builder to use these skills.
-They need enough statistics to explain whether a metric moved, whether the
-movement is trustworthy, and which segment changed.
-
-Communication is part of the technical work because analyst writing is aimed at
-management and decision makers.
-[[cite:data-team-roles=>Data Team Roles Explained]]
-
-Candidates should describe concrete work. Responsibilities, dates, tools, and
-examples make the work easier to evaluate. Vague phrases make it hard for
-recruiters and hiring managers to see the work.
-[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+Assistants can make SQL and debugging faster, but they don't remove the career
+sequence. Analysts still need to choose the [[KPIs]], define the metric, judge
+the result, and connect it to product or business action. Treat [[LLMs]] and
+[[AI-Powered Business Intelligence]] as role-design tools, not replacements for
+domain judgment.[[cite:datatalksclub-scaling-and-free-courses@39:14=>Scaling DataTalks.Club]]
 
 ## Portfolio Evidence
 

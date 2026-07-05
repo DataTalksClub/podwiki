@@ -143,7 +143,7 @@ That branch is closest to
 
 Programming transfers when it becomes data and model programming. Python and
 common data tools are the core starting points. Examples include NumPy, Pandas,
-Matplotlib, and scikit-learn. Coding improves by building actual
+Matplotlib, and [[scikit-learn=>scikit-learn]]. Coding improves by building actual
 solutions [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
 
 The software engineer's advantage isn't that ordinary application code is

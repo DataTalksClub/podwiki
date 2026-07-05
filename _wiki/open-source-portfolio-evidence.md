@@ -17,397 +17,182 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-Open-source portfolio evidence is public proof that someone can improve a real
-technical project with other people watching. Reproducible issues and
-documentation are valid contribution work. Tests, packaging, and maintainer
-etiquette count too
+Open-source portfolio evidence is public proof that someone improved a real
+technical project in a way other people can look at. GitHub presence alone is
+weak evidence. Stronger evidence combines public links and maintainer feedback.
+It also includes quality checks, user impact, and a clear role signal.
+
+Vincent Warmerdam treats reproducible issues and documentation as valid
+open-source work. Tests, packaging, and maintainer etiquette count too
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
 [[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
-For the ML-tool version of those mechanics, use
-[[open-source-ml-contributions=>open-source ML contributions]].
-Open-source projects also serve as hiring proof because review pressure exposes
-Python, SQL, testing, and code-structure habits
+Jeff Katz connects open-source projects to hiring because review pressure can
+expose Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
+Use [[Contributing]] for the contribution taxonomy, the
+[[Open Source Contributor Roadmap]] for sequence, and
+[[open-source-ml-contributions=>open-source ML contributions]] for ML-tool
+mechanics.
 
-Open-source portfolio evidence belongs inside the broader
-[[Portfolio Projects]] topic.
-It's most useful when a portfolio needs evidence beyond a private tutorial repo.
-That evidence can come from issue discussion, pull-request review, docs changes,
-and tests. Examples, community feedback, and adoption work can count too.
+## Evaluator Trail
 
-Use
-[[Data Engineering Portfolio Projects]],
-[[Machine Learning Portfolio Projects]],
-[[RAG Portfolio Projects]]
-for role-specific project selection. Use
-[[Open Source]] and the
-[[Open Source Contributor Roadmap]].
+Strong open-source portfolio evidence gives a reviewer a short trail to follow:
 
-## Reviewable Public Work
+- the issue, discussion, pull request, docs page, demo, or support thread
+- maintainer comments or community feedback
+- test, CI, linting, packaging, release, or docs evidence
+- the result for users, maintainers, or the product
+- the role skill the work is supposed to prove
 
-Strong open-source portfolio evidence combines work in public with context and a
-clear role signal. Public work can be a reproducible issue or pull request.
-Documentation pages can work too.
+This makes the evidence narrower than "I use open source" and broader than "I
+merged a feature." A reproducible issue can show debugging judgment. A docs PR
+can show first-run empathy. A demo can show DevRel skill when it exposes a real
+developer workflow. A test or CI fix can show maintainability.
 
-Example notebooks and demos can work too, and so can packages, release notes,
-or blog posts. Community answers can work when they help someone use the
-project.
-
-Public context comes from maintainer comments and review changes. Test results,
-user feedback, or a clear explanation of what the contribution fixed can also
-provide that context.
-
-README material and guides are important project surfaces. API reference,
-examples, contribution guides, and polite interaction on issue lists matter too.
-A reproducible issue is a valid first contribution
-([[person:vincentwarmerdam=>Vincent Warmerdam]] in
-[[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]).
-
-Code pull requests bring tests into view, and CI, packaging, and pre-commit
-hooks enter the contribution too
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-
-On the hiring side, many portfolios list the right tools while showing too
-little Python and SQL. Reviewers look for professional code structure. That
-means small functions, classes, descriptive names, and tests. Personal and
-open-source projects help because review pressure makes the work closer to
-professional practice
+DataTalks.Club hiring discussions show the same evaluator need. Reviewers want
+projects that prove Python, SQL, code organization, and tests. They also look
+for ownership and defensible technical claims
 ([[person:jeffkatz=>Jeff Katz]] in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+[[person:nicksingh=>Nick Singh]] in
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
-Airbyte's connector ecosystem covers the long tail of business tools
-([Natalie Kwong](https://datatalks.club/people/nataliekwong.html) in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
-DLT used workshops and documentation to validate a Python-first pipeline library
-([[person:adrianbrudaru=>Adrian Brudaru]] in
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
-Zingg made [[Entity Resolution]], licensing, community feedback, and
-integrations visible
-([[person:sonalgoyal=>Sonal Goyal]] in
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
+## Maintainer Feedback and Review Trail
 
-Open-source portfolio evidence is therefore narrower than "I use open source"
-and broader than "I merged a feature." The strongest proof shows that someone
-made a project easier to use, maintain, evaluate, or trust.
+Maintainer feedback matters because it shows how the contributor handled review
+size and project constraints.
 
-## Review Signals
+Work that reduces maintainer load includes:
 
-For Vincent Warmerdam, public proof starts with maintainer load:
-
-- reproducible issues and small fixes come first
-- large features need discussion before a PR
-- PyPI releases need tests, examples, and maintenance clarity
+- reproducible issues or small fixes
+- README material or guides
+- API reference or examples
+- tests or maintenance clarity
 
 ([[cite:open-source-ml-contributions@11:45=>Contribute to Open Source ML]],
 [[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]).
 
-An employability lens asks for repositories that prove Python and SQL. Docker,
-Airflow, code organization, and tests matter too. Open-source work is useful
-because maintainers and teams impose reliability expectations that a private
-tutorial repo may not
-([[person:jeffkatz=>Jeff Katz]] in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
+Hugging Face adds a platform version of the same signal. Contribution sprints
+and good-first issues help candidates show review behavior. Dataset scripts,
+forum support, and non-code contributions can show large-codebase experience
+([[cite:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]]).
 
-That same public trail matters for [[Job Search]] and [[CV Screening]].
-Open-source contributions let a recruiter or hiring team look at a candidate's
-body of work before an interview. They also show public pull-request and issue
-interactions, making OSS experience a useful checklist signal rather than a hard
-requirement
-[[cite:open-source-turned-into-career-and-startup-creation@44:38=>OSS hiring signal]].
+For portfolio use, the reader shouldn't have to infer the contribution from a
+commit list. Link to the issue or PR and summarize the maintainer feedback.
+Show whether CI passed. Explain what changed for users or maintainers.
 
-In the Textualize hiring example, a founder can look at code, project history,
-and interactions around Rich or Textual before relying on interview claims. The
-useful portfolio artifact is therefore not just "I contributed to open source."
-It's a public trail that shows judgment, review
-behavior, and the ability to improve a tool other developers use
-[[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signal]].
-For candidates, that means contribution quality and interaction history matter
-more than simply having a public GitHub username.
+## Docs, Demos, and DevRel Evidence
 
-A [[developer relations]]
-and [[developer experience]]
-lens frames DevRel through education, documentation, and dogfooding. Community
-building and product feedback are part of the same work
+Open-source docs and demos become portfolio evidence when they reduce developer
+friction. Hugo Bowne-Anderson frames DevRel through education and
+documentation. Dogfooding, community building, and product feedback sit in the
+same work
 ([[person:hugobowneanderson=>Hugo Bowne-Anderson]] in
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
-A presentable GitHub repository, blog posts, meetup talks, and small experiments
-all support DevRel work. Demos and tutorials become credible when they reduce
-developer friction
+A presentable GitHub repository can support DevRel work, and blog posts or
+meetup talks can do the same. Tutorials, demos, and small experiments also help
+when they show technical depth and developer empathy
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+[[Open Source and Developer Relations]] covers that open-source DevRel overlap.
+Portfolio evidence needs work an evaluator can click, review, and trust.
 
-From an investor's outside view, open source is weighed on team and market need.
-Community understanding, active engagement, and value capture matter too
-([[person:belawiertz=>Bela Wiertz]] in
-[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
-For a portfolio, stars and badges are weak proof unless candidates also show who
-used the work, what feedback appeared, and why the project mattered.
-
-Visibility and narrative matter too, because open-source work and self-marketing
-build recognition. Learning in public means showing honest progress, corrections,
-and earned expertise
-([[person:swyx=>Shawn Swyx Wang]] in
-[[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
-The career-switch version is
-[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
-Public work becomes stronger when readers can see iteration, not only finished
-polish.
-
-## Public Contribution Signals
-
-[[Open Source]] gives the broader project and licensing context.
-[[open-source-and-developer-relations=>Open Source and Developer Relations]]
-connects public work to documentation and demos. It also connects community
-education with product feedback.
-
-For day-to-day signals, useful issues and contribution guides count. Docs, tests,
-packaging, and polite maintainer interaction count too
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-
-The visible work often appears through
-[[contributing]],
-[[documentation]], and
-[[technical writing]]. It can
-also appear through demos, first-run fixes, community answers, and tutorials
-when they help developers use a project. Those activities connect to DevRel,
-education, dogfooding, and feedback
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
-
-GitHub portfolios pair with blog posts and meetups
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
-Public learning, corrections, and reusable knowledge build recognition
-([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]). In
-interviews, project walkthroughs test ownership, impact framing, and defensible
-technical claims
-([[person:nicksingh=>Nick Singh]] in
-[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
-
-## Contribution Paths
-
-A reproducible issue can be a strong first contribution. Use a tool and find a
-confusing error or failure. Then open a clear GitHub issue with a reproduction
-and suggested direction
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-
-For a data or ML portfolio, include the environment and versions. Add sample
-data or a minimal script. Explain expected behavior, actual behavior, and why
-the failure affects a developer using the project.
-
-Documentation is also portfolio evidence. A documentation checklist covers
-README material, guides, API reference, and examples
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-Documentation belongs in the same work as education, dogfooding, and product
-feedback
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
-A strong documentation PR shows that the contributor understood the tool well
-enough to make the first run, common failure, or advanced use case clearer.
-
-DLT makes this documentation path especially concrete for data engineering.
-Without docs, the product was unusable. It took months of work before people
-could use the docs and then call them good
+DLT makes docs and workshops product evidence. Developers could use the library
+only after the docs became good enough
 ([[person:adrianbrudaru=>Adrian Brudaru]] in
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
-A portfolio contribution to a pipeline library can therefore be a setup guide,
-source example, or destination example. A workshop fix can help another Python
-user build the pipeline successfully.
+McGugan's Rich and Textual updates show how public demos can link back to real
+project progress. Screenshots or videos are stronger when they link to issues,
+releases, user problems, or community feedback
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Build in public with Rich and Textual]].
 
-Volunteer data projects can create the same kind of evidence when the work is
-traceable. Sara El-Ateif describes volunteer AI projects where teams sourced
-data creatively and built medical-imaging or trash-detection prototypes. Teams
-also prepared dashboards and used mentor feedback to structure deliverables
-[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@16:05=>Volunteer data sourcing]]
-[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@31:11=>Hackathon deliverables]].
+## Role Signals
 
-For data-engineering portfolios, the strongest version is a linked task or
-writeup. It should show messy data preparation or a pipeline. A usable dataset
-or dashboard foundation can prove the same skill when modelers and analysts use
-it
-[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
-Certificates and team membership are weaker than artifacts that show what the
-candidate made easier for the rest of the project.
-Use [[Volunteer Data Engineering Projects]] when the question is how a
-volunteer, nonprofit, or open-source data task becomes reviewed data
-engineering portfolio evidence.
-
-A small code fix becomes credible when reviewers can look at it quickly. That
-means learning the repo's ecosystem basics. These include Git and GitHub workflow,
-packaging, and CI. They also include `pytest`, `flake8`, `black`, and pre-commit
-hooks.
-
-Smaller projects are better targets when large libraries have heavy traffic and
-governance constraints
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-For portfolio use, link the issue and pull request. Include tests, CI results,
-and maintainer feedback.
-
-Airbyte gives a connector-specific version of this path. Closed-source ingestion
-tools struggle with the long tail of connectors. Custom connectors can be built
-through Airbyte's connector development kit
+For data engineering, useful open-source evidence shows fundamentals such as
+Python and SQL. Docker or Airflow can matter too. Data warehouses, code
+organization, and tests can show the same signal
+([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
+Airbyte connector work can show sources, destinations, CDC behavior, and tests.
+It can also show the boundary between open connectors and cloud features
 ([[person:nataliekwong=>Natalie Kwong]] in
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
-A connector fix or connector example is strong in a data-engineering portfolio
-when it shows API handling, schema behavior, tests, and a clear review trail.
+DLT examples or docs can show how Python users build pipelines
+([[person:adrianbrudaru=>Adrian Brudaru]] in
+[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
+Zingg can show entity-resolution modeling and training data. It can also show
+integrations, licensing judgment, and community support
+([[person:sonalgoyal=>Sonal Goyal]] in
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 
-A small ecosystem-compatible package can work, but it needs restraint. The
-scikit-lego components show focused APIs that fit scikit-learn pipelines and
-compare fairly with existing workflows
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]). A
-package published too early lacks edge-case handling, examples, tests, or a
-maintenance story.
+For machine learning, the strongest evidence shows maintainable ML work. Useful
+examples include reproducible examples and evaluation helpers.
+Scikit-learn-compatible components, model-serving demos, and docs can clarify
+data or metric behavior. The
+scikit-lego examples matter because they fit an existing ecosystem instead of
+inventing a one-off interface
+([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
-Teaching artifacts count when they help others use a tool. GitHub portfolios
-connect to blog posts and meetups
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]),
-and public notes and corrections create recognition over time
-([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
-
-For open-source portfolio evidence, a tutorial should link back
-to the tool and run from clean setup steps. It should also explain what changed
-after user or maintainer feedback.
-
-Build-in-public work can support the same evidence when it shows concrete
-progress. McGugan's Rich and Textual updates worked because the tools had visual
-changes. He could show progress in demos and explain it in public updates. For
-a portfolio, screenshots or short demos should point back to evidence. That
-evidence can be a real issue, pull request, release or user problem
-[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Build in public with Rich and Textual]].
-
-## Role-Specific Signals
-
-For data engineering, the contribution should expose engineering fundamentals,
-with Python and SQL first. Docker, Airflow, and data warehouses also matter, as
-do OOP habits and tests
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
-
-Good open-source examples include connector fixes,
-pipeline examples, and data-quality checks. Orchestration documentation, SQL
-model tests, and reproducible bugs in data tooling also fit. Connect these to
-[[Data Engineering Portfolio Projects]]
-and [[Data Engineering Tools]]
-instead of leaving them as generic GitHub activity.
-
-Volunteer and nonprofit projects add a collaboration signal. Agita Jaunzeme
-translated DevOps habits into NGO and open-source work by adding ticketing and
-documentation. She also used planning and review flows
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Volunteer process design]].
-Because volunteer projects rely on motivation rather than employment authority,
-process contributions are strongest when they make task pickup easier. Review
-and handoff should become easier too
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@23:55=>Volunteer motivation]].
-
-Airbyte, DLT, and Zingg show three useful data-engineering contribution shapes:
-
-- Airbyte makes connector work legible. The evidence can cover sources,
-  destinations, CDC behavior, and the boundary between open connectors and cloud
-  features
-  ([[person:nataliekwong=>Natalie Kwong]] in
-  [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
-- DLT makes library and documentation work legible. A developer can contribute
-  examples, workshop corrections, or source integrations. Docs can show how
-  Python users build pipelines
-  ([[person:adrianbrudaru=>Adrian Brudaru]] in
-  [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
-- Zingg makes productized data-quality work legible. Identity resolution needs
-  entity modeling and training data. Spark-compatible sources, licensing
-  judgment, and community support also matter
-  ([[person:sonalgoyal=>Sonal Goyal]] in
-  [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
-
-For machine learning, the contribution should prove maintainable ML work. Good
-examples include reproducible examples, evaluation helpers, scikit-learn
-compatible components, and model-serving demos. Docs that clarify data and
-metric behavior also fit. The
-scikit-lego examples are useful because they fit an existing ML ecosystem rather
-than inventing a one-off interface
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]). Link the work to
-[[Machine Learning Portfolio Projects]]
-when it shows baselines, evaluation, reproducibility, or production awareness.
-
-For DevRel and developer advocacy, the portfolio signal is adoption work plus
-technical depth. It includes technical fluency and writing. Community building
-and a presence across GitHub, blog posts, and meetups matter too
+For DevRel and developer advocacy, the signal combines adoption work with
+technical depth. The evidence may be a docs PR, tutorial, workshop repo, or
+demo. A meetup talk or support thread also works when it shows removed friction
+and project feedback
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
-The artifact can be a demo, docs PR, tutorial, or workshop repo. A meetup talk
-or community support thread also works when it shows what developer friction it
-removed and what feedback reached the project.
-
-For founder, product, or developer-tools portfolios, an investor lens helps.
-Open source can signal community trust and bottom-up developer adoption. Vanity
-metrics need to be separated from active engagement and commercialization
-understanding
+For founder, product, or developer-tools portfolios, open source can show
+community trust and bottom-up developer adoption. Bela Wiertz warns that stars
+and badges are weak without active engagement. Market need, team quality, and a
+path to value capture matter too
 ([[person:belawiertz=>Bela Wiertz]] in
 [[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
-The portfolio should therefore show active users and issue discussion. It can
-also show repeated use, community learning, or a credible boundary between the
-free project and commercial value.
-
-DLT adds workshops and docs, and treats bottom-up adoption as product evidence
-([[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
-Zingg adds licensing and discoverability, plus user feedback and ecosystem
-integrations as product evidence
-([[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
+Volunteer projects can also produce evidence when the work is traceable. Sara
+El-Ateif describes teams that sourced data, built prototypes, prepared
+dashboards, and used mentor feedback to structure deliverables
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@16:05=>Volunteer data sourcing]]
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@31:11=>Hackathon deliverables]].
+Use [[Volunteer Data Engineering Projects]] when the portfolio question centers
+on volunteer, nonprofit, or open-source data work.
 
 ## Presenting the Work
 
-An open-source contribution isn't self-explanatory in an interview. Project
-walkthroughs test whether the candidate can explain the work, and leading with
-impact beats burying the result
+Open-source work still needs a short explanation. Nick Singh's interview
+guidance asks candidates to lead with impact, explain ownership, and defend the
+technical claims they present
 ([[person:nicksingh=>Nick Singh]] in
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
-Candidates should translate technical work into business or product context and
-present only technical claims they can defend
-([[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
-
-For open-source work, the interview story should cover these points:
-
-- Problem: the user pain, bug, missing example, confusing docs, or maintenance
-  burden.
-- Artifact: the issue, PR, docs page, demo, blog post, package, or release note.
-- Setup: how the contributor reproduced the problem or ran the project.
-- Quality: tests, CI, linting, docs, packaging, examples, or review changes.
-- Interaction: maintainer feedback, community discussion, or user response.
-- Scope: what was intentionally left out to keep the contribution reviewable.
-- Role signal: why this proves a target-role skill better than a private
-  tutorial repo.
-
-Learning-in-public framing adds one more ingredient: make the learning trail
-visible. A closed PR or corrected blog post can still be good evidence. A
-rejected feature can work too when it shows honest progress, feedback handling,
-and a better next attempt
+For open-source evidence, the explanation should name the problem and link the
+public work. It should describe the quality checks, summarize maintainer or user
+feedback, state the result, and tie the work to the target role.
+Learning-in-public evidence can include corrected notes, closed PRs, or rejected
+ideas when the trail shows honest iteration and feedback handling
 ([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
 
-## Anti-Patterns
+McGugan describes open-source contribution as useful hiring context because a
+founder or recruiter can look at public code and public interactions. It's a
+signal, not a universal requirement
+[[cite:open-source-turned-into-career-and-startup-creation@44:38=>OSS hiring signal]].
 
-Avoid treating a forked repository as portfolio evidence when it has no issue,
-pull request, docs change, or test result. Maintainer interaction and a user
-story matter too. Useful work in context matters more than plain GitHub presence
+## Weak Evidence
+
+Weak evidence makes reviewers guess. A forked repository with no issue or PR
+says little about judgment. The same is true when there's no docs change or
+test result. Maintainer interaction and a user story matter too
 ([[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
 
-Avoid over-selling stars, badges, or tool names. GitHub stars are separate from
-active engagement and community value
+Stars, badges, and tool names also need context. A small reviewed contribution
+can be stronger than a flashy repository if it shows a real problem. A project
+conversation and quality checks make it stronger. A result matters too
 ([[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
-For hiring, a small issue that shows care and review can be stronger than a
-flashy repository nobody used.
-
-Avoid large unsolicited feature PRs. Discuss ideas with maintainers before
-investing in a major change. This matters most in large projects with governance
-and long-term maintenance concerns
+Large unsolicited feature PRs are weak evidence when they ignore project
+direction or maintainer capacity
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
-
-Avoid project stories that can't survive a walkthrough. Project questions test
-ownership, context, and defensible technical detail
-([[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
-If the candidate can't explain the setup or tradeoff, the public link won't
-help, and review comments and failure modes need the same clarity.
 
 ## Related Pages
 
-Adjacent role, contribution, and portfolio topics:
+These pages cover the adjacent contribution, portfolio, and hiring topics:
 
 - [[Open Source]]
 - [[Open Source Contributor Roadmap]]

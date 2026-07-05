@@ -51,13 +51,10 @@ implementation differs, though. An LLM agent may call tools, retrieve context,
 and orchestrate model calls without training a policy through trial and error.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]]
 
-The same language of goals and feedback also appears in game AI. Micheal
-Lanham's path starts with sound and waveform work, then moves into
-reinforcement learning. His later return to [[evolutionary algorithms]] and
-[[multi-agent-systems=>multi-agent systems]] frames agent design around games,
-simulation, search, and constrained worlds rather than only around chatbots.
-[[game-ai-to-llm-agents=>Game AI to LLM Agents]] follows that bridge into
-modern LLM agent workflows.
+The same language of goals and feedback also appears in game AI. Lanham's
+transition from games and simulation into modern LLM agent workflows belongs in
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]]. Reinforcement learning keeps
+the boundary around agents, rewards, environments, and simulators.
 [[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
 
 ## Practical Boundaries

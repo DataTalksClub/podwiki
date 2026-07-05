@@ -37,11 +37,10 @@ the analyst has a broader scope. That scope may include reporting and KPIs. It
 may also include executive dashboards, business operations, and ad hoc
 questions.
 
-In small teams, one person often does both. The comparison turns on the decision
-surface each title owns. [[Product Analyst]] covers the product-analyst job
+In small teams, one person often does both. Compare the titles by the decision
+surface each one owns. [[Product Analyst]] covers the product-analyst job
 description. [[Data Analyst Role]] covers the general role definition, and
 [[Data Analyst Careers]] covers entry routes and next moves.
-The role hubs are [[Product Analytics]] and [[Data Analyst Role]].
 
 ## Role Split
 
@@ -76,28 +75,19 @@ The practical split is:
 
 ## Product Analyst Fit
 
-A product analyst fits when product decisions depend on user behavior data.
-Analysts start before the dashboard because they need trustworthy events. Growth
-and product teams need event definitions and properties. A tracking plan also
-needs source context and ownership.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
+A product analyst fits when the decision surface is a product surface. The
+analyst asks which user behavior changed, whether the event data can be trusted,
+and what the team should do next. The team may ship, hold, instrument more, or
+rerun a cleaner test.
 
-Without that base, instrumentation mistakes can hide inside funnels, cohorts,
-or activation metrics.
+That decision starts before the dashboard. Growth and product teams need event
+definitions, properties, source context, and ownership. Without that base,
+mistakes can hide inside funnels, cohorts, and activation metrics.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
-The product analyst then connects those events to the product decision. Product
-data starts with collection and warehousing. Teams then connect it to BI,
-activation, reverse ETL, and product analytics tools.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
-
-Teams draw the role boundary around how they split data engineering, analyst
-work, analytics engineering, and product operations. That makes the product
-analyst a partner to the product team, not only a dashboard builder.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
-
-Experiments give the clearest product-analyst workload because product analysts
-need randomization and assignment tracking. They also need stable metrics. A/A
-testing and [[power analysis]] help them judge results.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
-
-A product analyst needs enough statistics to tell whether a launch changed user
-behavior or whether the team is reacting to noise.
+Experiments make the product-analyst surface explicit because the analyst needs
+randomization, assignment tracking, and stable metrics. They also need A/A
+testing and [[power analysis]] before telling a team whether a product change
+worked.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Hiring can make this product-facing scope explicit. Product analysts can be a
 separate hiring need alongside analytics engineers and marketing scientists.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring Data Science Teams]]
@@ -109,11 +99,11 @@ analytic support.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiri
 
 ## Data Analyst Fit
 
-A data analyst fits when the team needs someone to turn company data into
-evidence for many kinds of decisions. The baseline definition is broader than
-product analytics. Analysts know what data exists, how to retrieve it, and how
-to interpret it. They build dashboards, define KPIs, write reports for
-executives, and make recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
+A data analyst fits when the decision surface spans many parts of the company.
+The analyst may still use product data, but the work isn't anchored to one
+product team or one user journey. Analysts know what data exists, how to
+retrieve it, and how to interpret it. They build dashboards, define KPIs, write
+reports for executives, and make recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 A broad data analyst role can still include product work. In a posting-flow
 example, analysts help a product manager quantify how many users struggle with
@@ -121,20 +111,16 @@ category selection. After the team ships a categorization feature, analysts
 evaluate whether fewer users drop from the flow. They also check whether fewer
 listings end up in the wrong category.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-For non-product teams, a data analyst may focus on finance or operations. They
-may also focus on sales, support, or leadership reporting. Last-mile data
-delivery separates getting data into the warehouse from getting teams to change
-decisions based on it.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-
-Adoption depends on discoverability, interpretability, data quality, and trust.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-
-Those concerns sit inside the broader [[data analyst role]], even when no
-product launch is involved.
+Outside product, the same role can focus on finance or operations. It can also
+focus on sales, support, or leadership reporting. Last-mile data delivery separates getting
+data into the warehouse from getting teams to change decisions based on it.
+Adoption depends on discoverability, interpretability, data quality, and trust.
+The analyst's comparison point is decision adoption, not only dashboard
+production.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The data analyst title also often covers early-career or generalist work. Use
 [[Data Analyst Careers]] for career entry, portfolio evidence, and next moves.
-Use [[Data Analysis]] for practical skills, portfolio shapes, and adjacent
-roles. Use this comparison only when the decision is whether the role should be
+Use this comparison only when the decision is whether the role should be
 product-facing or broader.
 
 ## Title Boundaries
