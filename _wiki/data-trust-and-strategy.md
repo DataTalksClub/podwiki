@@ -9,6 +9,7 @@ related:
   - Data Governance
   - Data Product Management
   - Data Product Adoption
+  - AI for Finance Decision Support
   - Communication
   - Data Translator Role
 ---
@@ -199,6 +200,9 @@ AI in finance is augmentation rather than full automation. Finance teams need
 faster insight from ERP, CRM, expense, and other systems. The product still has
 to respect compliance, explainability, and trust
 [[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] covers that
+finance-specific version of data trust, where ERP and spreadsheet context has to
+become a reviewable decision signal.
 
 For AI products, trust work overlaps with
 [[AI product feedback loops]]

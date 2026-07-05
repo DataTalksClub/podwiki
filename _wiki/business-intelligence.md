@@ -15,6 +15,7 @@ related:
   - Data Governance
   - Data Trust and Strategy
   - AI Powered Business Intelligence
+  - AI for Finance Decision Support
 ---
 
 Business intelligence turns modeled data into dashboards, metrics, reports, and
@@ -102,7 +103,9 @@ doesn't remove the need for trust and decision context.[[cite:last-mile-data-del
 useful workflow in her finance episode. Finance teams often work around rigid
 ERP systems with spreadsheets and local business logic. They also rely on tribal
 knowledge. Strategic finance, spreadsheet dependency, user research, and
-real-time decision insights all influence the BI interface.
+real-time decision insights all influence the BI interface. For the finance
+product version, use
+[[ai-for-finance-decision-support=>AI Finance Decision Support]].
 
 For AI-assisted BI, the practical takeaway is direct. The system has to meet
 people inside existing finance workflows instead of assuming a clean data

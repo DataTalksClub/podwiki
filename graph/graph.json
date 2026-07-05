@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11868
+    "links": 11872
   },
   "nodes": [
     {
@@ -28144,6 +28144,18 @@
     },
     {
       "source": "wiki:business-intelligence",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:business-intelligence",
       "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
@@ -45679,6 +45691,18 @@
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-trust-and-strategy",
