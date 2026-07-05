@@ -187,8 +187,8 @@ from low-code and UI tools into the command line, Docker, and Terraform. Those
 tools became manageable once the concepts clicked
 [[cite:finops-for-data-engineers=>low-code to engineering tools]].
 
-Use [[Data Engineering Tools]] and [[Modern Data Stack]] as context, but don't
-let the tool list replace code depth.
+[[Data Engineering Tools]] and [[Modern Data Stack]] provide context, but the
+tool list shouldn't replace code depth.
 
 ## Move Upstream From Dashboard To Pipeline
 
@@ -214,8 +214,8 @@ existing reporting process. If you need a public project, adapt the same
 structure with open data. Show a consumer-driven data path, not a generic stack
 diagram.
 
-Use [[Data Pipelines]], [[ETL vs ELT]], and
-[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for
+[[Data Pipelines]], [[ETL vs ELT]], and
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] provide
 implementation examples.
 
 ## Turn Operations Into Transition Evidence
@@ -251,11 +251,11 @@ For reliability context, use [[DataOps]],
 
 ## Package The Transition For Hiring
 
-The portfolio should make the transition legible in a few minutes. A hiring
+The hiring proof should make the transition legible in a few minutes. A hiring
 manager should see analyst judgment and engineering ownership in the same
-project. In the README, tie the business question to source behavior and the
-raw and modeled layers. Then show the SQL, Python, and checks. Add the run
-steps and one failure or backfill story.
+project. Tie the business question to source behavior and modeled tables. Then
+show SQL and Python depth. Add checks, run steps, and one failure or backfill
+story.
 
 Jeff Katz sets this portfolio standard by asking for real Python and real SQL.
 He also wants clean code, tests, personal projects, and open-source contribution
@@ -265,7 +265,7 @@ side projects still count. Candidates should frame side projects around
 outcomes instead of apologizing for them
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>outcome-framed projects]].
 
-For analyst candidates, the strongest framing is specific:
+For analyst candidates, the strongest framing stays tied to the source role:
 
 - You understand the consumer because you have been the analyst behind the
   metric.
@@ -276,9 +276,9 @@ For analyst candidates, the strongest framing is specific:
 - You already built and run a complete small pipeline while you keep improving
   backend and cloud depth.
 
-Use [[Data Engineering Portfolio Projects]] for the full review checklist. Use
-[[Open Source Portfolio Evidence]] and [[Career Transitions in Data]] to refine
-the transition proof.
+[[Data Engineering Portfolio Projects]] covers repository review signals.
+[[Open Source Portfolio Evidence]] and [[Career Transitions in Data]] refine the
+transition proof.
 
 ## Prepare The Interview Story
 

@@ -276,16 +276,15 @@ He names practical reliability tools:
 - Great Expectations
 - SQL tests
 
-Use [[Data Quality and Observability]],
+[[Data Quality and Observability]],
 [[DataOps]], and
-[[data-quality-and-observability=>Data Observability]] for the
-deeper version.
+[[data-quality-and-observability=>Data Observability]] cover the deeper version.
 
-## Stage 5: Make The Work Reviewable
+## Stage 5: Turn Learning Into A Reviewable Project
 
 By this point, you should have one complete pipeline and one smaller exercise
 that proves a specific skill. Stop adding tools until another engineer can run
-the work. They should be able to read the SQL and Python, see the tests, and
+the work. They should be able to read the SQL and Python, run the tests, and
 ask why each tradeoff fits the consumer.
 
 Jeff Katz's
@@ -299,9 +298,10 @@ writing and open-source work in
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 because public explanations can create feedback and make work visible.
 
-At this stage, check reviewability before choosing more projects. Use
-[[Data Engineering Portfolio Projects]] for project selection and repository
-structure. It also covers reviewer signals.
+At this stage, check reviewability before choosing more projects. The roadmap
+only tells you when to package the work. Use
+[[Data Engineering Portfolio Projects]] for project selection, repository
+structure, and reviewer signals.
 
 If your main problem is missing commercial experience, use
 [[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
@@ -423,8 +423,8 @@ Jeff Katz adds that cloud certificates may help with recruiter filters. Hiring
 managers still check whether the candidate knows the topics and can code
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
 
-Use [[Data Engineering Certification]] to compare course, bootcamp, cloud, and
-vendor credentials. The same project rule applies to course catalogs such as
+[[Data Engineering Certification]] compares course, bootcamp, cloud, and vendor
+credentials. The same project rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
 which the DataTalks.Club podcast frames as free project-based learning
 ([[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]).
@@ -520,74 +520,27 @@ After that, choose one specialization based on your target role:
 - product data engineering
 - AI-ready data pipelines
 
-## Roadmap Checklist
+## Roadmap Exit Criteria
 
-You're ready to apply for junior data engineering roles when you can do most
-of this without following a tutorial step by step:
+You're ready to apply for junior data engineering roles when you can follow the
+sequence without tutorial steps:
 
-Start with [[person:jeffkatz=>Jeff Katz]]'s core-skill
-bar. He covers it in
+- Write SQL and Python.
+- Build raw-to-modeled pipelines.
+- Add orchestration and quality checks.
+- Explain one practical tradeoff.
+
+Jeff Katz uses Python, SQL, readable code, and tests as the junior bar
 [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
-and
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
-
-Use that junior bar to check that you can:
-
-- write SQL for joins, windows, aggregations, table grain, and validation
-  checks
-- write Python that extracts, validates, and loads data with readable functions,
-  useful names, and targeted tests
-- explain your code and data model under interview questioning
-
-Then prove you can turn those skills into a pipeline.
-[[person:nataliekwong=>Natalie Kwong]]
-describes the raw-to-modeled structure in
+Natalie Kwong anchors the raw-to-modeled structure
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-[[person:adrianbrudaru=>Adrian Brudaru]]
-recommends tool restraint in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
-
-Use those interviews to check that you can:
-
-- explain raw, staging, modeled, and serving layers
-- design a table with a clear grain
-- explain warehouse, lake, and lakehouse tradeoffs at a practical level
-- discuss one cloud storage or warehouse path
-- know when not to use Spark or streaming systems
-
-Make the pipeline operable, not only impressive.
-[[person:larsalbertsson=>Lars Albertsson]]
-frames the workflow engine, storage, and compute pieces in
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-[[person:christopherbergh=>Christopher Bergh]]
-connects DataOps to version control, CI/CD, and automated data tests in
+Lars Albertsson and Christopher Bergh add workflow engines, tests, and
+repeatable operations
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
-Use that DataOps evidence to check that you can:
-
-- run a pipeline without manual notebook steps
-- add basic orchestration, logs, and rerun behavior
-- test freshness, volume, schema, nulls, uniqueness, and business rules
-- document setup, data dictionaries, tradeoffs, and recovery steps
-
-Finally, make the work reviewable.
-Jeff's interview episode asks for visible Python and SQL depth, readable code,
-and tests.
-[[person:slawomirtulski=>Slawomir Tulski]] recommends a
-small end-to-end platform in
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
-
-Use that evidence to check that you can:
-
-- walk through a portfolio project under interview questioning
-- explain the consumer, source, architecture, setup, and tradeoffs
-- describe one failure, rerun, or backfill from your own project
-
-For the full topic map, continue with
-[[Data Pipelines]],
-[[Data Engineering Platforms]],
-and [[FinOps for Data Engineers]].
-Then use
-[[Data Engineering Portfolio Projects]],
-[[DataOps]], and
-[[Modern Data Stack]].
+Turn the learning path into reviewable proof through
+[[Data Engineering Portfolio Projects]], then use [[Job Search]] for
+applications. If you come from another role, map that experience into the
+same roadmap through the analyst, data-science, QA and DevOps transition pages.

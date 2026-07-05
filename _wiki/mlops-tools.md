@@ -31,9 +31,9 @@ companies often already have Kubernetes plus existing version control, CI/CD,
 orchestration, and deployment infrastructure
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 
-## Stack Jobs
+## Tool Categories
 
-Production MLOps stacks usually cover these jobs:
+Production MLOps stacks usually cover these tool categories:
 
 1. Track the code, data reference, parameters, metrics, environment, and
    artifact behind each meaningful model run.
@@ -47,18 +47,17 @@ Production MLOps stacks usually cover these jobs:
    container registries.
 6. Monitor service health and model versions, plus input drift, prediction
    drift, and business or proxy outcomes.
-7. Give data scientists and ML engineers a path they can adopt without hiding
-   the production constraints they still own.
+7. Give data scientists and ML engineers a usable path without hiding production
+   constraints.
 
-Enterprise stacks often start with version control, CI/CD, and
-containerization before adding experiment tracking and a model registry. Teams
-then add registries for packages and containers, compute, serving, and
-monitoring
+Enterprise stacks commonly include version control, CI/CD, and containerization.
+They also include experiment tracking, model registry, and package or container
+registries. Compute, serving, and monitoring complete the common stack
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-In regulated settings, teams often start with dev, test, and production
-environments. They then add a DevOps platform and monitoring. A model registry,
-data versioning, and reproducible pipelines join the same setup
+Teams in regulated settings add dev, test, and production environments alongside
+a DevOps platform and monitoring. Model registries, data versioning, and
+reproducible pipelines join the same stack
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 ## Tracking and Registries
@@ -139,21 +138,20 @@ questions that an early team may not be ready to absorb.
 
 ## CI/CD and Platform Defaults
 
-CI/CD is the MLOps tool category most often connected to adoption. Teams should
-start from concrete pain points, but CI/CD is usually an early win. If
-deployment takes months, CI/CD and repository structure create visible value.
-Tests, packaging, and deployment automation do too
+CI/CD is the MLOps tool category most often connected to adoption. If deployment
+takes months, CI/CD and repository structure create visible value. Tests,
+packaging, and deployment automation do too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 A central MLOps team can act as an enablement team by providing infrastructure
 and reusable CI/CD pipelines. Authentication templates, monitoring, and
 standardized deployment paths support product teams too
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
-That connects MLOps tools to [[ML Platforms]]. Teams get value from shared
-tooling only when it reduces repeated work while still making production
-constraints visible to data scientists and ML engineers.
+That connects MLOps tools to [[ML Platforms]]. Common tooling has to reduce
+repeated work while still making production constraints visible to data
+scientists and ML engineers.
 
-Maria's practical minimum starts with tools the team can actually adopt
+A practical minimum starts with tools the team can actually adopt
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]:
 
 - version control

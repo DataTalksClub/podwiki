@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11867
+    "links": 11849
   },
   "nodes": [
     {
@@ -611,7 +611,7 @@
       "title": "MLOps Architecture",
       "url": "/wiki/mlops-architecture/",
       "count": 1,
-      "search": "MLOps Architecture MLOps architecture as a component map for data, training, registries, CI/CD, serving, monitoring, and ownership boundaries.",
+      "search": "MLOps Architecture MLOps architecture as a component map for data, training, registries, CI/CD, serving, monitoring, and system interfaces.",
       "keyword": "mlops architecture"
     },
     {
@@ -9894,7 +9894,7 @@
       "title": "LLM Evaluation Workflows",
       "url": "/wiki/llm-evaluation-workflows/",
       "count": 1,
-      "search": "LLM Evaluation Workflows Practical workflows for evaluating LLM, RAG, and agent systems before and after production."
+      "search": "LLM Evaluation Workflows Practical workflows for evaluating LLM and agent behavior before and after production."
     },
     {
       "id": "wiki:llm-production-patterns",
@@ -21111,18 +21111,6 @@
     {
       "source": "wiki:a-b-testing",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:a-b-testing",
-      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:a-b-testing",
-      "target": "podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34406,12 +34394,6 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
-      "target": "person:adrianbrudaru",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-roadmap",
       "target": "person:christopherbergh",
       "kind": "article-chip",
       "weight": 1
@@ -44168,12 +44150,6 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-chip",
       "weight": 1
@@ -44252,12 +44228,6 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -44289,12 +44259,6 @@
     {
       "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:end-to-end-data-pipeline-project",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-data-engineer",
-      "target": "wiki:how-to-build-data-pipelines",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47036,12 +47000,6 @@
     },
     {
       "source": "wiki:dataops-platforms",
-      "target": "wiki:dataops-vs-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
       "target": "wiki:elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -47061,12 +47019,6 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:how-to-build-data-pipelines",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51272,12 +51224,6 @@
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
       "target": "podcast:production-ml-mlops-and-data-team-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -51377,18 +51323,6 @@
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
-      "target": "wiki:mlops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
-      "target": "wiki:model-registry",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
@@ -54830,12 +54764,6 @@
     },
     {
       "source": "wiki:information-retrieval",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:information-retrieval",
       "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -54843,12 +54771,6 @@
     {
       "source": "wiki:information-retrieval",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:information-retrieval",
-      "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54881,12 +54803,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:information-retrieval",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
@@ -65955,12 +65871,6 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:experiment-tracking",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -65985,12 +65895,6 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:machine-learning-for-business",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77336,12 +77240,6 @@
     },
     {
       "source": "wiki:search-relevance",
-      "target": "wiki:evaluation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
       "target": "wiki:experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -81363,12 +81261,6 @@
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:llm-production-patterns",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:machine-learning",
       "kind": "article-chip",
       "weight": 1
     },

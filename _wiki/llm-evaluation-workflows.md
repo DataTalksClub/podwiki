@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLM Evaluation Workflows"
-summary: "Practical workflows for evaluating LLM, RAG, and agent systems before and after production."
+summary: "Practical workflows for evaluating LLM and agent behavior before and after production."
 related:
   - Evaluation
   - Retrieval-Augmented Generation
@@ -11,10 +11,9 @@ related:
 ---
 
 Teams use LLM evaluation workflows before shipping prompts,
-[[retrieval-augmented-generation=>RAG]] pipelines, [[agent-engineering=>agents]],
-and AI product behavior. Evaluation is engineering work where teams collect
-examples, define pass criteria, and review failures. They then feed production
-behavior back into the next test set
+[[agent-engineering=>agents]], and AI product behavior. Evaluation is
+engineering work where teams collect examples, define pass criteria, and review
+failures. They then feed production behavior back into the next test set
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 LLM evaluation connects [[Evaluation]]
@@ -22,10 +21,12 @@ with [[LLM Production Patterns]],
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]], and
 [[Model Monitoring]]. It also connects to [[LLMOps]] and [[agent-ops=>Agent Ops]].
 
-A good workflow tells the team what failed and where the next fix belongs. The
-fix may belong in prompting or retrieval. It may also belong in data preparation,
-tool use, guardrails, or the product boundary. New production failures then
-become future evaluation cases.
+A team should be able to tell what failed and where the next fix belongs. The
+fix may belong in prompting or data preparation. It may also belong in
+retrieval, tool use, guardrails, or the product boundary. New production
+failures then become future evaluation cases. For RAG-specific workflow details,
+use
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 ## Evaluation Sets and Pass Criteria
 
@@ -72,10 +73,9 @@ covers the product's common tasks and known edge cases. A larger set can still
 miss the real failures if it only repeats easy examples
 ([[cite:practical-llm-engineering-and-rag@23:00=>LLM Evaluation Sets]]).
 
-Use
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the
-eval result is deciding whether to change prompts and retrieval or change model
-behavior through fine-tuning.
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] covers decisions where evaluation
+has to separate prompt or retrieval fixes from model-behavior changes through
+fine-tuning.
 
 ## Cheap Checks Before LLM Judges
 
@@ -131,31 +131,23 @@ eval problem. Teams must compare automated judgments against human labels and
 watch for judge bias
 ([[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]).
 
-## RAG Evaluation
+## Retrieval Boundaries
 
-RAG evaluation has to separate retrieval failures from generation failures. A
-bad answer can come from missing source documents, poor chunking, or weak
-embeddings. It can also come from loose metadata filters, stale indexes, prompt
-wording, or a model that ignores the retrieved evidence. Failure analysis asks
-whether the next fix belongs in retrieval,
-[[context-engineering=>context engineering]], prompting, or model behavior before
-adding more architecture
+Teams should route retrieval-related failures without turning LLM evaluation
+into a RAG workflow. A bad answer can come from missing source documents or
+stale indexes. Prompt wording, tool misuse, or a model that ignores the
+available evidence can cause the same symptom. Failure analysis asks whether
+the next fix belongs in retrieval or [[context-engineering=>context engineering]].
+It may also belong in prompting, model behavior, or the product boundary
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-The search-side version connects chunk size, overlap, and embedding choice.
-Retrieval strategy, answer quality, and citations belong in the same evaluation
-workflow, as does human-in-the-loop evaluation
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
+[[Production Search Evaluation]] cover failures caused by chunk size, overlap,
+or embedding choice. They also cover retrieval strategy, citations, and
+human-in-the-loop relevance review
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-LLM eval is therefore part of
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-and [[Production Search Evaluation]],
-not only model scoring.
-
-The same evidence keeps [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-close to source trust. The answer quality check should ask whether the answer
-is useful and whether it's grounded in the retrieved material. The retrieval
-check should ask whether the right evidence was available to the model before
-generation.
+LLM-specific evaluation still centers eval sets and judges. It also includes
+human review, traces, guardrails, and production feedback.
 
 ## Agent and Tool Evaluation
 

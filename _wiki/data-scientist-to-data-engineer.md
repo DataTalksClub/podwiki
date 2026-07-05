@@ -40,11 +40,10 @@ means modeled tables, reliable pipelines, and documented assumptions. It also
 means tests, backfills, and recovery paths
 ([[Data Engineering Portfolio Projects]]).
 
-For the broader data engineering path, see
-[[data-engineer-roadmap=>Data Engineering Roadmap]],
-[[Data Engineering]],
-and
-[[Data Engineering Portfolio Projects]].
+[[data-engineer-roadmap=>Data Engineering Roadmap]] covers the general learning
+order. This transition focuses on converting data-science work into
+data-engineering evidence, with [[Data Engineering Portfolio Projects]] as the
+repository review standard.
 
 Start with [[person:ellenkonig=>Ellen König]]'s transition episode
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
@@ -77,9 +76,9 @@ explicit for analysts or data scientists moving into data engineering. She tells
 them to strengthen coding and basic data structures. Databases matter too, along
 with enough infrastructure judgment to deploy and set up jobs: see [[cite:big-data-engineer-vs-data-scientist@30:53=>Analyst or data scientist to data engineer transition]].
 
-For a data scientist, that turns the role comparison into a practical roadmap.
-Keep analytical judgment. Then prove reusable code and database modeling. Add
-deployment-aware pipelines and monitoring.
+For a data scientist, that role comparison becomes a transition plan. Keep
+analytical judgment while you prove reusable code, database modeling,
+deployment-aware pipelines, and monitoring.
 
 For a data scientist, the practical translation is simple: stop presenting data
 cleaning as a notebook step. In the target role, date rules and event
@@ -199,7 +198,7 @@ Choose one project type that makes the data-science origin visible:
   breaks it with late data or changed fields, and shows detection plus recovery
   ([[DataOps]])
 
-Use [[Data Engineering Portfolio Projects]] for the full repository checklist.
+[[Data Engineering Portfolio Projects]] covers the full repository checklist.
 For this transition, the project should explain which modeling or analysis
 failure pushed you upstream. It should also explain the data path you rebuilt
 and how a consumer can trust the result.
@@ -289,35 +288,18 @@ Then ask how pipelines are deployed and whether the role is platform-heavy,
 analytics-heavy, streaming-heavy, or ML-adjacent
 ([[Job Descriptions]]).
 
-## Role-Specific Learning Order
+## Next Step
 
-Use the [[data-engineer-roadmap=>Data Engineering Roadmap]] for the full
-sequence.
+After choosing the target role, follow the
+[[data-engineer-roadmap=>Data Engineering Roadmap]] for the full learning
+sequence. Apply each stage to a data-science workflow you already understand.
+Replace notebook cleanup with reusable extraction, validation, loading, and
+tests. Then add orchestration, quality checks, and one recovery story
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
 
-For this transition, apply that sequence to existing data science work in this
-order:
-
-1. Strengthen SQL around table grain, window functions, date logic,
-   incremental models, validation queries, and marts
-   ([[data-engineer-roadmap=>Data Engineering Roadmap]]).
-2. Turn Python notebooks into scripts or packages that extract, validate, load,
-   log, configure, and test data
-   ([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
-3. Build one end-to-end batch pipeline with raw, staging, modeled, and serving
-   layers
-   ([[How to Build Data Pipelines]]).
-4. Add orchestration, quality checks, and alerts. Include a backfill runbook
-   ([[DataOps]],
-   [[Data Quality and Observability]]).
-5. Add one platform tradeoff only when the project needs it. Compare warehouse
-   versus lakehouse or batch versus streaming. Airflow versus a simpler
-   scheduler also works, as does managed service versus local stack
-   ([[Batch vs Streaming]],
-   [[Data Engineering Tools]]).
-
-This path keeps the keyword promise honest. A data scientist becomes a credible
-data engineer by proving the path from source to trusted consumer. The data
-should fail visibly and recover cleanly. It should support downstream analysts
-and scientists. It should also support the products or systems that depend on
-it
+The transition proof is source-to-consumer ownership. The project should show
+where analysis or modeling failed and which upstream data path you rebuilt. It
+should also show how downstream analysts, scientists, products, or systems can
+trust the result
 ([[Data Engineering]]).

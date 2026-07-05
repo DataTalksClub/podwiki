@@ -34,9 +34,9 @@ A/B testing bridges [[product analytics]], [[experimentation]], and
 plus metric choice and sample-size planning. It also includes readout,
 guardrails, and rollout decisions.
 
-Use [[experimentation]] for the broader product and ML experiment portfolio. Use
-[[power analysis]] for sample size and measurement sensitivity, and use
-[[causal inference]] for assumptions outside clean randomization.
+[[experimentation]] covers the broader product and ML experiment portfolio.
+[[power analysis]] covers sample size and measurement sensitivity, and
+[[causal inference]] covers assumptions outside clean randomization.
 
 Teams also use A/B tests in [[machine learning system design]], [[data products]],
 and [[production search evaluation]] when they need online evidence before
@@ -156,100 +156,39 @@ platform
 That connects A/B testing with [[healthcare ML validation and adoption]] and
 [[responsible AI and governance]].
 
-## Product and ML Contexts
+## Randomized Product Settings
 
-As a product analytics discipline, the recommended starting point is a simple
-first test. It needs two groups, clear triggering, and a metric the team can
-explain. Teams should learn how their product and users behave, not only whether
-one button color won
+As a product analytics discipline, A/B testing starts with two groups, clear
+triggering, and a metric the team can explain. Teams should learn how their
+product and users behave, not only whether one button color won
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+That operating discipline links to [[Product Analytics]],
+[[data-led-growth=>Data-Led Growth]], and the [[Product Analyst]] guide.
 
-A/B tests also apply to production machine learning. Model work is experimental
-and iterative, so teams can use A/B tests and shadow mode before full rollout.
-Post-test analysis investigates uplift by segment and root causes when a model
-performs better or worse than expected
+A/B tests also apply to model-backed products when the team can randomize
+exposure. Production ML teams can use A/B tests and shadow mode before full
+rollout. After the test, they analyze uplift by segment and root cause instead
+of stopping at the top-line model score
 [[cite:production-ml-mlops-and-data-team-building=>Production ML]].
 
-In higher-risk personalization, teams use A/B testing to segment users and
-iterate on personalized variants before moving toward more individualized
-recommendations. That only works when the product can measure variants and
-segment outcomes through an experimentation platform
+In higher-risk personalization, teams can segment users and iterate on variants
+only when the product can measure variant exposure. They also need segment
+outcomes through an experimentation platform
 [[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>Healthcare Personalization]]
 [[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]].
 Patient safety, [[privacy engineering for ML]], and [[responsible AI and
-governance]] sit beside the usual product-growth concerns.
+governance]] set the risk boundary before a test starts.
 
-For recommender validation, clicks and purchases aren't enough because metric
-definitions can bias an A/B test. Sales and clicks show response. They don't
-prove that a next-best-action recommendation matched what the person wanted or
-helped the product outcome
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park to Tesla]].
-
-The favorite-brand team therefore used an employee swiping game before rollout.
-Employees marked each brand as "not my favorite", "I like it", or "this is my
-favorite brand." That gave the team a direct preference check before the product
-entered live traffic
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Theme Park to Tesla]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@28:19=>Employee Swiping]].
-
-The theme-park routing case shows the same staged check before a visitor-facing
-rollout. The team first had to collect app survey data and model route
-preferences. Then it used those signals to recommend the next attraction for a
-group. That kind of system needs two A/B-test measurements: the product metric
-and the recommendation's fit to visitor behavior
+The favorite-brand team checked recommendations against controls before rollout
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Theme Park to Tesla]].
+The theme-park team collected route preferences before recommending attractions
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park to Tesla]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]].
 
-Marketing measurement sometimes uses treatment/control design and uplift.
-Attribution and media mix modeling show why A/B testing isn't available for
-every channel, campaign, or customer journey
-[[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]].
-
-As part of ML system design, metrics and baselines sit inside the end-to-end ML
-pipeline. Production validation ties A/B tests to causality and human labels
-[[cite:machine-learning-system-design-interview=>ML System Design]].
-
-In the search and retrieval version, search changes connect to business KPIs.
-Those KPIs include orders, clicks, revenue events, and contact events. Offline
-tests and A/B tests sit beside those KPIs
-[[cite:building-production-search-systems=>Building Search Systems]]. Search
-teams should treat A/B testing as one part of the evaluation practice, not a
-replacement for relevance diagnostics.
-
-## Product Analytics Decisions
-
-In product analytics, A/B testing is a decision system, not only a statistics
-exercise. It helps teams decide whether product changes should roll out. Those
-changes can include pricing tests, onboarding flows, recommendation models, and
-messaging experiments.
-
-A/B testing links closely to [[data-led-growth=>Data-Led Growth]],
-[[Product Analytics]], and the [[Product Analyst]] guide. It also gives [[data
-product management]] a measurement discipline for deciding whether a product,
-data workflow, or model-backed feature should roll out.
-
-Experiments serve as feature de-risking and organizational learning because a
-test doesn't only answer whether a change worked. It teaches the team which user
-behavior moved and where the effect appeared, and it shows which assumptions
-were wrong
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-
-Other product examples use the same analytics layer when reports guide business
-stakeholders
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile]].
-A/B tests support segmentation and iteration in digital therapeutics
-[[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>Healthcare Personalization]].
-They also connect product analytics to marketing interventions and put online
-experiments beside offline search tests
-[[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Measurement]]
+Search changes connect online tests to business KPIs such as orders, clicks,
+revenue events, and contact events. Search teams should treat A/B testing as one
+part of evaluation, not a replacement for relevance diagnostics
 [[cite:building-production-search-systems=>Building Search Systems]].
-
-Production ML adds another analytics responsibility. Analysts use business
-context and segments to explain the observed uplift. Root-cause analysis then
-explains why the lift appeared
-[[cite:production-ml-mlops-and-data-team-building=>Production ML]]. That work
-connects A/B testing with [[Evaluation]], [[Machine Learning System Design]], and
-[[Production]].
 
 ## Causal Boundaries
 
@@ -263,9 +202,9 @@ The decision question is often what would have happened to the same user under a
 different action. A/B testing gets closest to that question when the test is
 randomized, logged, and analyzed on the right unit
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-Use [[causal inference]] for confounding, unconfoundedness, uplift modeling, and
-policy evaluation. Use [[experimentation and causal inference]] for the applied
-choice between a randomized test, an observational causal method, or a discovery
+[[causal inference]] covers confounding, unconfoundedness, uplift modeling, and
+policy evaluation. [[experimentation and causal inference]] covers the choice
+between a randomized test, an observational causal method, or a discovery
 experiment.
 
 ## Related Pages

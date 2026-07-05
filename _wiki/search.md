@@ -16,11 +16,11 @@ related:
   - A/B Testing
 ---
 
-Search retrieves, ranks, and serves information for a query or generated
-answer. It's the product and system layer above [[information retrieval]],
-[[search-relevance=>search relevance]], and [[production search evaluation]].
-Classical systems use lexical indexes such as Solr and Lucene. Newer systems
-add [[embeddings]], [[vector databases]], hybrid retrieval, and
+Search retrieves, ranks, and serves information for queries and generated
+answers. It can also serve recommendation use cases. It's the product and system layer above [[information
+retrieval]], [[search-relevance=>search relevance]], and [[production search
+evaluation]]. Classical systems use lexical indexes such as Solr and Lucene.
+Newer systems add [[embeddings]], [[vector databases]], hybrid retrieval, and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
@@ -31,17 +31,14 @@ chunking and candidate generation.
 
 [[Search Relevance]] covers result order, filters, freshness, and product fit.
 [[Production Search Evaluation]] covers offline tests, online experiments,
-monitoring, and business metrics.
-
-[[Vector Search vs Keyword Search]] compares matching methods. [[Vector
-Database vs Search Engine]] compares service ownership, and [[Knowledge Graph vs
-Vector Search]] compares embedding similarity with typed relationships, paths,
-and provenance.
+monitoring, and business metrics. [[Vector Search vs Keyword Search]] compares
+matching methods, while [[Vector Database vs Search Engine]] compares service
+ownership.
 
 ## Search System Layers
 
-Search systems retrieve candidates, rank them, then check whether the results
-helped the product or downstream system. [[book:20210712-relevant-search=>Relevant
+Search systems retrieve candidates and rank them. They then serve a result page,
+recommendation set, or context set. [[book:20210712-relevant-search=>Relevant
 Search]] covers scoring, ranking, and tuning in Solr and Elasticsearch-era
 systems. [[book:20211101-ai-powered-search=>AI-Powered Search]] extends that
 discipline into learning-to-rank, vector retrieval, and LLM-era retrieval.
@@ -93,12 +90,12 @@ Search Evaluation]] covers relevance labels, offline tests, online
 experiments, and monitoring. [[Metrics]] covers the product decision a number
 should change.
 
-Those operating concerns show up differently across the cluster. Keyword-search
-brittleness, synonyms, and configuration debt belong with [[Vector Search vs
-Keyword Search]]. Recomputing embeddings and keeping vector pipelines flexible
-belong with [[Vector Databases]]. Whether Solr, Lucene, Elasticsearch, or a
-standalone vector database should own retrieval belongs with [[Vector Database
-vs Search Engine]]
+Those operating concerns show up differently across the cluster.
+Keyword-search brittleness, synonyms, and configuration debt belong with
+[[Vector Search vs Keyword Search]]. Recomputing embeddings and keeping vector
+pipelines flexible belong with [[Vector Databases]]. Whether Solr, Lucene,
+Elasticsearch, or a standalone vector database should own retrieval belongs
+with [[Vector Database vs Search Engine]]
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Search therefore sits across [[Machine Learning System Design]],

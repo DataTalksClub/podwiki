@@ -16,10 +16,10 @@ related:
   - Metrics
 ---
 
-Search relevance decides which results should appear for a query and how to
-order them. The order should serve a product outcome. It sits inside [[Search]]
-and [[Information Retrieval]]. Latency and freshness can change the right
-ranking. Permissions, cost, and product goals can change it too.
+Search relevance is the judgment of which results should appear for a query and
+how to order them. The order should serve a product outcome. It sits inside
+[[Search]] and [[Information Retrieval]]. Latency and freshness can change the
+right ranking. Permissions, cost, and product goals can change it too.
 
 Relevance work focuses on ranking quality and product fit. [[Information
 Retrieval]] covers retrieval mechanics, [[Vector Search vs Keyword Search]]
@@ -27,19 +27,18 @@ covers matching methods, and [[Vector Database vs Search Engine]] covers
 infrastructure ownership. [[Production Search Evaluation]] covers testing and
 measurement.
 
-Search is a decision problem: from a large set of information, the system has to
-isolate the pieces that matter for the current query. Production search splits
-into candidate generation and ranking, and that split is the working model for
-relevance.[[cite:building-production-search-systems=>Building Search Systems]]
+Production search splits into candidate generation and ranking, and that split
+is the working model for relevance. [[Information Retrieval]] asks whether the
+right candidates entered the set. Search relevance asks which of those
+candidates deserve the top positions.[[cite:building-production-search-systems=>Building Search Systems]]
 
 ## Relevance Boundaries
 
 In production search, relevance isn't only semantic similarity. A result can
 match the query words and sit near the query in embedding space. It can satisfy
 filters, respect permissions, and look fresh enough while still missing the
-product goal. Relevance work connects result quality to business outcomes,
-control groups, offline tests, and engineer-facing iteration
-metrics.[[cite:building-production-search-systems=>Building Search Systems]]
+product goal. Relevance work connects result quality to the outcome the product
+needs.[[cite:building-production-search-systems=>Building Search Systems]]
 
 Teams start from the use case, then choose vector databases, existing search
 engines, or combined systems
@@ -47,7 +46,7 @@ engines, or combined systems
 
 Vector search may improve a class of matching failures. Relevance work still
 asks whether the final order satisfies filters, permissions, and freshness.
-Evaluation and user metrics still decide whether the ranking helped.
+[[Production Search Evaluation]] owns the measurement workflow.
 
 Sadat Anwar's OLX work is a concrete production-search example. The first
 problem was operational, with search incidents and onboarding through
@@ -66,7 +65,7 @@ traffic, ownership, and release constraints.
 
 Search systems usually retrieve a small candidate set before ranking those
 candidates with more expensive signals. [[Information Retrieval]] covers that
-retrieval design. Search relevance starts where the product has to decide which
+retrieval design. Search relevance starts where the product has to choose which
 candidates should be shown first for the query.[[cite:building-production-search-systems=>Building Search Systems]]
 
 The split matters because the failure modes differ. If the right document
@@ -79,8 +78,7 @@ quality, conversion quality, and business outcomes.
 Ranking may use term scores, freshness, popularity, and
 [[machine-learning-personalization=>machine learning personalization]]. It may
 also use behavioral signals, learned-to-rank models, or business rules.
-[[Production Search Evaluation]] covers measurement for each stage without
-collapsing the whole search product into one score.
+[[Production Search Evaluation]] covers measurement for each stage.
 
 Modern search adds LLMs to this older relevance stack rather than skipping it.
 Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
@@ -109,7 +107,7 @@ see it. The result may also be stale or violate a business rule. For
 retrieval-heavy LLM systems, [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 keeps those search constraints visible before generation.
 
-## Relevance Metrics and Experiments
+## Product Metrics and Experiments
 
 Production relevance needs more than a relevance label or an embedding score.
 Teams judge ranking changes with business impact, [[a-b-testing=>A/B testing]],
@@ -120,16 +118,15 @@ evaluation, and fast iteration metrics
 Metrics matter because relevance is a ranking objective, not a raw embedding
 score. A relevance metric should say what counts as a better result order and
 which product behavior the ranker should improve. [[Production Search
-Evaluation]] covers offline tests, online tests, monitoring, and search-specific
-measurement. [[Experimentation]] covers broader product experiment mechanics,
-and [[Evaluation]] covers the decision a metric should change.
+Evaluation]] covers offline tests, online tests, monitoring, and
+search-specific measurement.
 
 ## RAG and Agent Retrieval
 
 RAG systems make relevance failures visible in a different way. If retrieval
 misses the right chunk, the model may answer fluently from weak context. The
 answer can only use the evidence that retrieval supplied. RAG quality therefore
-starts as a search relevance problem before it becomes an answer-quality problem
+starts as a relevance problem before it becomes an answer-quality problem
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Agent systems extend the same boundary because retrieval is one tool among
@@ -143,7 +140,7 @@ search-side test and monitoring workflow.
 
 ## Related Pages
 
-Use these pages for neighboring parts of the search relevance stack.
+Neighboring search topics cover the surrounding retrieval and measurement work.
 
 - [[Search]] and
   [[Information Retrieval]]

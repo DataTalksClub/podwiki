@@ -20,12 +20,12 @@ experiments. It also includes shadow-mode checks, prototypes, proofs of concept,
 and small demand signals. Teams use those experiments to decide what to build
 next, what to ship, and what to debug or pause.
 
-Use [[a-b-testing=>A/B testing]] for randomized test design and interpretation,
-and use [[power analysis]] for sample size and measurement sensitivity. Use
-[[causal inference]] for counterfactual assumptions when randomization is
-unavailable or incomplete. The broader product and ML view asks which experiment
-type fits the uncertainty. It also asks how teams connect experiments to
-[[product analytics]] and reusable learning.
+[[a-b-testing=>A/B testing]] covers randomized product-test design, and
+[[power analysis]] covers sample size planning.
+[[experimentation and causal inference]] covers the evidence-standard choice,
+while [[causal inference]] covers counterfactual methods. For product
+and ML practice, teams still choose which experiment fits the uncertainty. They
+also decide how to run it and reuse what they learn.
 
 Product experiments de-risk features under noisy product conditions, but they do
 more than approve or reject a release. They show which behavior moved, where the
@@ -82,10 +82,11 @@ system. If a team can't define the signal it will learn from, the roadmap bet
 isn't ready
 [[cite:ai-ml-product-design-and-experimentation@56:36=>AI Product Design]].
 
-[[Causal inference]] starts from evidence quality, and A/B tests are one route to
-unconfounded evidence. Teams may need partial identification, sensitivity
-checks, or causal graphs when they can't run clean experiments
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+When the decision depends on whether the action caused the outcome, the team
+should move from a product-experiment framing to
+[[experimentation and causal inference]]. For choices between A/B tests,
+observational causal methods, and discovery experiments, use that bridge instead
+of this product portfolio.
 
 ## Choosing the Experiment Type
 
@@ -165,24 +166,18 @@ That learning role makes experimentation part of
 [[data-led-growth=>data-led growth]] and [[data product management]]. The same
 product-facing responsibilities appear in the [[Data Product Manager]] article.
 
-## Causal Boundaries
+## Causal Evidence Boundaries
 
-Teams connect [[experimentation and causal inference]] when the decision asks
-whether an intervention caused a product or business outcome. A randomized
-experiment can estimate causal effects. [[Causal inference]] also covers
-decisions where randomization is impossible, unethical, incomplete, or too
-expensive.
-
-Marketing and recommender systems show why prediction alone may not answer the
-decision. The team often needs a counterfactual comparison with the same user
-under another action
+Product experiments often produce enough evidence for a rollout decision. They
+don't automatically answer every causal question around a product. Marketing,
+recommendation, and churn-treatment decisions may need a counterfactual
+comparison with the same person under another action
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
 
-Use [[experimentation and causal inference]] to choose between randomized
-experiments, observational causal methods, and discovery experiments. Use
-[[causal inference]] for CATE, uplift modeling, and policy evaluation. It also
-covers confounding and identification
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+[[experimentation and causal inference]] covers the choice between randomized
+and observational causal evidence. Discovery experiments stay with product
+learning. [[causal inference]] covers confounding and identification. It also
+covers CATE, uplift modeling, and policy evaluation.
 
 ## Power, Duration, and Safety Checks
 

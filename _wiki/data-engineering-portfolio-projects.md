@@ -38,9 +38,9 @@ Data engineering portfolio work starts with
 
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] gives a
 build blueprint, and [[data-engineer-roadmap=>Data Engineering Roadmap]] gives
-the learning order. If a certificate is part of the learning path,
-[[Data Engineering Certification]] covers credential tradeoffs. For portfolio
-review, check whether the resulting project is reviewable.
+the learning order. After following that order, check whether the resulting
+project is reviewable. If a certificate is part of the learning path,
+[[Data Engineering Certification]] covers credential tradeoffs.
 
 The boundary with analytics engineering is consumer-facing modeling. If the
 project is mainly metric definitions, BI tables, and dashboard semantics, use
@@ -301,7 +301,7 @@ and
 [[Data Warehouse vs Data Lakehouse]]
 as decision context.
 
-## Operations and Interview Story
+## Repository Walkthrough
 
 The run path should work outside a notebook. König's transition advice in
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
@@ -319,28 +319,16 @@ they make the project reproducible and operable, not when they're only course
 keywords. [[Data Engineering Certification]] covers the credential-specific
 resume and payment decision.
 
-The interview story should explain one or two tradeoffs. Katz describes the
-application funnel and behavioral interviews in
+A strong walkthrough explains the source behavior and the model grain. It names
+what failed and how the pipeline was tested. It also names which tradeoff would
+change. Larger volume, lower latency, stricter governance, or more users can all
+change the design.
+
+Katz ties portfolio review to technical interviews and take-home projects
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
-He also covers technical interviews and take-home projects. SQL tests, Python
-problems, and portfolio review are part of the same hiring path.
-
-Recruiter-facing evidence can be a concise project story as much as a public
-repository. Early ownership of a startup's first data pipelines is strong
-evidence. So is a pipeline or dataset tied to a specific business need. Privacy
-work is useful evidence when it covers GDPR workflow remodeling or
-private-data deletion systems
-[[cite:hiring-for-data-engineering-jobs-in-europe@54:25=>Hiring for Data Engineering Jobs in Europe]].
-
-GitHub links help when candidates choose to share them, but the interview still
-depends on a clear project explanation. It should name the candidate's own part
-and include enough engineering detail for follow-up questions
+Nicolas Rassam's hiring discussion shows why candidates should name their own
+part. They should leave enough engineering detail for follow-up questions
 [[cite:hiring-for-data-engineering-jobs-in-europe@55:53=>Hiring for Data Engineering Jobs in Europe]].
-
-A strong walkthrough says what the source did and why the model grain fits the
-consumer. It also names what failed and how the pipeline was tested. Larger
-volume or lower latency may change the design. Stricter governance or more
-users may change it too.
 
 Avoid dashboard-only projects that hide raw-source problems.
 

@@ -28,11 +28,12 @@ authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
 
 DataOps sits beside [[Data Engineering]] and [[MLOps]], but it doesn't replace
-either one. Use the term when teams review and release data changes. Teams then
-observe, recover, and improve those changes. [[DataOps vs Data Engineering]]
-covers responsibility boundaries, while [[MLOps vs DataOps]] covers the
-model-incident boundary. [[DataOps Platforms]] covers the shared service layer,
-[[DataOps Tools]] covers tool categories, and the
+either one. Use the term when teams review and release data changes. Teams also
+observe, recover, and improve those changes.
+
+[[DataOps vs Data Engineering]] covers responsibility boundaries, while
+[[MLOps vs DataOps]] covers the model-incident boundary. [[DataOps Platforms]]
+covers the shared service layer. [[DataOps Tools]] covers tool categories, and the
 [[dataops-engineer-role=>DataOps engineer role]] covers staffing.
 
 Fragile data changes create errors, and Bergh frames DataOps as the response
@@ -52,13 +53,11 @@ changes before release. Then they test, deploy, and monitor the resulting tables
 and data products
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
-Version control and tests connect DataOps directly to CI/CD
+Version control, tests, CI/CD, and runbooks connect release work to repair
+work
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Automation playbooks and runbook thinking extend the same discipline from
-release into repair
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Regression tests and realistic test data belong in the same release path as
-deployment automation and production monitoring
+Regression tests and realistic test data sit beside deployment automation and
+production monitoring
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 DataOps also covers the data-specific failures that ordinary application uptime
@@ -70,7 +69,7 @@ more detail. It also covers schema, lineage, and alert design.
 
 [[DataOps Checks for Data Pipelines]] owns concrete pre-release and post-release
 checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also
-covers lineage, deployment, and runbook tooling rather than the discipline.
+owns lineage, deployment, and runbook tooling.
 
 ## Adoption Patterns
 
@@ -128,8 +127,8 @@ problems. Unclear requirements and unmeasured pilots do too
 [[cite:data-strategy-and-dataops-for-ai-powered-products@25:03=>Lean and Agile DataOps]].
 
 Another person should be able to review and test a data change. They should
-also be able to deploy it, observe its outputs, and rerun it after failure
-without reverse-engineering the whole pipeline
+also be able to deploy, observe, and rerun it without reverse-engineering the
+whole pipeline
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 [[Orchestration]], [[ci-cd=>CI/CD]], and [[DataOps Checks for Data Pipelines]]
 meet at that release-and-recovery boundary.
@@ -158,38 +157,26 @@ reacting to incidents one by one.
 [[data-quality-and-observability=>Data Observability]] own the monitoring layer.
 [[DataOps Tools]] owns checks, alerts, lineage, and runbook categories.
 
-## Platform, Role, and Model Boundaries
+## Shared Services, Staffing, and ML Boundaries
 
-When many teams need the same operating path, teams may package DataOps as
-platform work. Albertsson describes the platform as the technology enabler. He
-includes workflows and tooling. Continuous deployment, support, and self-service
-help other teams build pipelines without routing every change through the
-central platform team
+When many teams need the same operating path, platform teams may package
+DataOps as shared services. Albertsson describes the platform as the technology
+enabler for workflows and tooling. He also includes continuous deployment,
+support, and self-service
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[DataOps Platforms]] owns that service design.
 
-For service design, use [[DataOps Platforms]]. DataOps requires a supported path
-for review, release, observation, and recovery.
-
-DataOps becomes a role when one person or team owns the operating path across
-other data teams. Hinc puts that work near support, communication, onboarding,
-and operational education. It isn't only pipeline coding
+DataOps becomes a role when one person or team is accountable for the operating
+path across other data teams. Hinc puts that work near support, communication,
+and onboarding. Monitoring education and troubleshooting sit there too
 [[cite:dataops-and-gitops-best-practices-for-data-teams@40:44=>DataOps and GitOps for Data Teams]].
-[[dataops-engineer-role=>DataOps engineer role]] owns responsibilities,
-boundaries, and hiring signals, not the shared-service design.
-
-Teams split DataOps and data engineering by responsibility rather than by a
-hard wall. A data engineer may fix a bad transformation, source schema, or
-orchestration dependency. DataOps asks whether the team reviewed the change,
-detected the failure, reached the right owner, and learned from the incident
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
-[[DataOps vs Data Engineering]] owns that comparison.
+[[dataops-engineer-role=>DataOps engineer role]] owns the staffing question.
 
 DataOps and MLOps overlap because production ML depends on production data.
 DataOps covers upstream ingestion, transformations, datasets, and metadata.
-Quality checks and recovery paths stay there too. MLOps owns model artifacts,
-training jobs, model registries, and serving paths.
+Quality checks and data recovery stay there too.
 
-Retraining decisions and model behavior stay on the MLOps side. Model
-monitoring can still trace an alert back to ETL, data pipelines, and upstream
-root causes
+MLOps owns model artifacts, training jobs, and model registries. Serving paths,
+retraining decisions, and model behavior stay on the MLOps side. Model
+monitoring can still trace an alert back to ETL, data pipelines, and upstream root causes
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].

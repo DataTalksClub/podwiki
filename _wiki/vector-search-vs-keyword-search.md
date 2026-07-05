@@ -14,25 +14,24 @@ related_wiki:
   - Vector Database vs Search Engine
 ---
 
-Keyword search matches query terms against indexed text. Vector search matches
-a query embedding against nearby item embeddings in a learned representation
+Keyword search matches query terms against indexed text. Vector search matches a
+query embedding against nearby item embeddings in a learned representation
 space. The matching-method boundary is exact terms, semantic neighbors, and
-hybrid retrieval. Neither method replaces the rest of
-[[information retrieval]]. Search systems still need ranking, filters, latency
-work, and [[production search evaluation]].
+hybrid retrieval. Neither method replaces the rest of [[information
+retrieval]]. Search systems still need ranking, filters, latency work, and
+[[production search evaluation]].
 
-The retrieval-method comparison asks how lexical matching, semantic matching,
-and hybrid matching produce candidates. [[Search]] covers the product layer,
-[[Embeddings]] covers learned representations, and [[Vector Databases]] covers
-storage and indexing infrastructure
+This comparison asks how lexical matching, semantic matching, and hybrid
+matching produce candidates. [[Search]] covers the product layer, [[Embeddings]]
+covers learned representations, and [[Vector Databases]] covers storage and
+indexing infrastructure
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 The standalone-vector-database choice belongs with [[Vector Database vs Search
 Engine]], where vectors, filters, and serving become infrastructure ownership
 questions.
 
-Production search systems often separate candidate generation from ranking.
-Teams then measure hybrid search and query-time weights in the same relevance
-system
+Production search systems often separate candidate generation from ranking. For
+result order and product fit, use [[Search Relevance]]
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 ## Core Difference
@@ -53,12 +52,11 @@ queries, then searches for nearby vectors
 and non-search uses. At the matching layer, semantic similarity changes which
 candidates enter retrieval.
 
-In practice, the two methods fail differently. Keyword search can miss relevant
-items when query wording differs from indexed wording. Vector search can
-retrieve plausible semantic neighbors that ignore exact terms, source
-constraints, freshness, or metadata filters. Hybrid retrieval exists because
-teams often need both matching behaviors before ranking applies product
-objectives.
+The two methods fail differently. Keyword search can miss relevant items when
+query wording differs from indexed wording. Vector search can retrieve plausible
+semantic neighbors that ignore exact terms, source constraints, freshness, or
+metadata filters. Hybrid retrieval exists because teams often need both matching
+behaviors before ranking applies product objectives.
 
 ## Keyword Strengths
 
@@ -76,11 +74,9 @@ constraints around filters, recency, and business rules. [[cite:production-ml-se
 
 Keyword systems require ongoing maintenance
 [[cite:building-production-search-systems=>Building Search Systems]].
-Synonyms, query rewrites, and dictionaries can reduce brittleness, but they
-also create configuration debt
+Synonyms, query rewrites, and dictionaries can reduce brittleness, but they also
+create configuration debt
 [[cite:building-production-search-systems=>Building Search Systems]].
-Search quality still needs user-centric metrics and relevance work after the
-system matches content to the query. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 ## Vector Strengths
 
@@ -107,7 +103,7 @@ retrieval, ecommerce personalization, session-based recommendations, and
 reranking
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Those examples depend on embeddings. At the matching layer, semantic candidates
-still pass through ranking, filters, and product constraints.
+still pass through filters before ranking.
 
 ## Hybrid Matching
 
@@ -132,12 +128,9 @@ That ownership choice belongs in [[Vector Database vs Search Engine]].
 
 ## Ranking Handoff
 
-Both methods only produce candidates, and ranking decides which candidates
-deserve the top positions
+Both methods produce candidates, and ranking decides which candidates deserve
+the top positions
 [[cite:building-production-search-systems=>Building Search Systems]].
-After retrieval narrows the search space, ranking estimates relevance and
-product objectives such as click or purchase
-probability [[cite:building-production-search-systems=>Building Search Systems]].
 A vector nearest-neighbor result can still rank poorly if it ignores freshness,
 source constraints, business rules, or product priorities.
 
@@ -184,9 +177,6 @@ Those needs fit inverted-index candidate generation
 Choose vector search when semantic recall or paraphrases are the main problem.
 Multimodal matching and session similarity support the same choice. RAG context
 retrieval does too.
-
-Transcript-chatbot retrieval, embeddings, and multimodal retrieval support that
-choice [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 Choose hybrid retrieval when the product needs lexical matching and
 freshness-sensitive semantic search. [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]

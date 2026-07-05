@@ -28,9 +28,9 @@ the model path usable as models move through production. [[MLOps Architecture]]
 maps the components and interfaces. [[MLOps Roadmap]] orders the learning
 sequence, and [[MLOps Tools]] covers stack categories.
 
-The MLOps engineer keeps repositories and pipelines usable. They also keep
-registries, serving hooks, monitoring hooks, and support habits usable for the
-people who ship models
+The MLOps engineer keeps the production path usable for the people who ship
+models. Repositories, release habits, support routes, and adoption feedback are
+part of that operating responsibility
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
@@ -40,26 +40,19 @@ An MLOps engineer owns the shared operating path around models. They keep
 experiments reproducible, artifacts tracked, and releases automated. They also
 support serving and monitoring, plus rollback and retraining decisions.
 [[MLOps Architecture]] covers the component diagram for that path. The role
-question is who keeps the path usable
+question is who keeps the path usable in daily work
 ([[MLOps Roadmap]], [[Production]]).
 
-The shared surface can include self-service compute, [[experiment tracking]],
-and [[model-registry=>model registries]], plus serving and metadata handoffs.
-The engineer's job is to keep that surface usable through standards, support,
-and adoption. When the surface becomes a shared internal product, it overlaps
-with the [[ml-platform-engineer-role=>ML platform engineer role]]
+The engineer doesn't own every ML decision. Data scientists may still own
+problem framing and model evaluation. Machine learning engineers may own a
+product-facing inference service. Data engineers may own ingestion,
+transformation, freshness, and data quality.
+
+The MLOps engineer owns the shared route between those roles. That means
+standards, support, adoption, and escalation paths around model delivery. When
+the route becomes a shared internal product, it overlaps with the
+[[ml-platform-engineer-role=>ML platform engineer role]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-
-The job is broader than deployment, but narrower than owning all ML. Data
-scientists may still own problem framing and model evaluation. Machine learning
-engineers may own a product-facing inference service. Data engineers may own
-ingestion, transformation, freshness, and data quality.
-
-The MLOps engineer keeps reproduction and promotion usable across those roles.
-The same shared route covers serving, monitoring, and repair
-([[Machine Learning Engineer Role]]
-[[Data Engineer Role]]
-[[MLOps]]).
 
 Teams need repository and deployment templates. They also need CI/CD paths,
 registry conventions, logging standards, and support routes. Maria Vechtomova
@@ -69,10 +62,9 @@ data scientists a working project and deployment pipeline instead of another
 handoff
 ([[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
-Raphaël Hoogvliets frames the centralized team as an enabling team. That team
-works with product teams, measures adoption through feedback, and uses quick
-wins.
-Developer experience belongs in the same operating model
+Central MLOps teams work as enabling teams when they gather product-team
+pain, use quick wins, and measure adoption through feedback. Developer
+experience belongs in the same operating model
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 In finance, this boundary often shows up as a staffing ratio. Several data
@@ -118,34 +110,25 @@ touch infrastructure and customer architecture. They may also cover monitoring
 and product support before the company can split those responsibilities
 [[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]].
 
-## Day-to-Day Responsibilities
+## Operating Responsibilities
 
-An MLOps engineer's responsibilities are easiest to read as failure modes the
-role prevents. The role owns the accountable work. [[MLOps Architecture]]
-describes where each component sits.
+An MLOps engineer owns the accountable work that keeps the model path usable.
+[[MLOps Architecture]] describes where each component sits.
 
-- Keep experiments recoverable by recording code and dependency versions. Store
-  the data reference, run parameters, metrics, and artifact with environment
-  details
+- Make experiments recoverable by setting the repository, dependency, and run
+  recording habits that let another person look at a result
   ([[Reproducibility]] and
   [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
-- Keep model handoff usable by recording owner, version, evaluation result,
-  approval state, deployment target, and rollback notes
+- Keep model handoff usable by making ownership, evaluation, approval, and
+  rollback context visible at promotion time
   ([[Model Registry]],
   [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - Standardize CI/CD, packaging, tests, repository layout, dependency
   management, and deployment checks so releases don't depend on manual handoffs
   ([[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
   [[ci-cd=>CI/CD]]).
-- Support the serving mode already chosen for the use case. That may mean batch
-  scoring, an online API, or platform-specific serving. Endpoint products and
-  scheduled jobs may fit too
-  ([[Machine Learning System Design]],
-  [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-- Cover service health and input quality to keep monitoring useful over time.
-  Include feature distributions, prediction distributions, drift, and
-  latency where they can be observed. Track errors and feedback alongside
-  measurable business outcomes
+- Keep monitoring actionable by tying service health, input quality, prediction
+  behavior, feedback, and incident response to someone who can act
   ([[Model Monitoring]],
   [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
 - Maintain reusable templates, deployment guides, logging standards, support
@@ -202,9 +185,8 @@ response are part of the same work
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 
 Tooling advice is part of that communication work when role ownership includes
-architecture support. Teams need help explaining build-versus-buy,
-integration burden, and platform fit. [[MLOps Tools]] covers the selection
-framework. The engineer makes the tradeoff legible to stakeholders
+architecture support. [[MLOps Tools]] covers stack selection. The engineer makes
+build-versus-buy, integration burden, and platform fit legible to stakeholders
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
 
 At senior level, MLOps engineers add architecture judgment, but Danny Leybzon's
@@ -278,27 +260,19 @@ Serving and model monitoring are too
 
 ## Growth Signals
 
-[[MLOps Roadmap]] covers the step-by-step build sequence. Role growth depends
-on which responsibilities the engineer can own.
+[[MLOps Roadmap]] covers the step-by-step build sequence. Role growth depends on
+which operating responsibilities the engineer can own without hiding the work
+from model builders.
 
 At the first level, an MLOps engineer can make one model reproducible and
-deployable. They save the artifact, metric, code, and dependencies. They also
-save the data reference. Experiment tracking or a structured logging convention
-lets another person look at the run
+deployable enough for another person to look at
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-
-At the next level, they own release and operation. They define the registry
-convention, add CI/CD, connect the serving path to monitoring, and make support
-ownership visible. [[MLOps Architecture]] covers the full component map. The
-role milestone is being trusted to operate that map.
-
-Maria's standardization discussion ties that work to version control and CI/CD.
-It also includes registries, deployment, and monitoring
+At the next level, they can own release and operation. That includes registry
+conventions, CI/CD standards, monitoring handoffs, and visible support ownership
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
-At senior level, the engineer makes repeated work usable for other teams. They
-turn templates, shared logging, and deployment guides into adopted practices.
-Support paths and platform feedback become part of the same work. Raphaël
-Hoogvliets ties that senior work to team pain, quick wins, adoption feedback,
-and measurable impact
+At senior level, the engineer turns repeated team pain into adopted practices.
+Templates and shared logging become part of that work. Deployment guides,
+support paths, and platform feedback do too. Senior work is measured through
+adoption feedback, quick wins, and impact on teams shipping models
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].

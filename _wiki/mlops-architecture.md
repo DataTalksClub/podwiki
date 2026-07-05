@@ -3,7 +3,7 @@ layout: article
 tags: ["guide"]
 title: "MLOps Architecture"
 keyword: "mlops architecture"
-summary: "MLOps architecture as a component map for data, training, registries, CI/CD, serving, monitoring, and ownership boundaries."
+summary: "MLOps architecture as a component map for data, training, registries, CI/CD, serving, monitoring, and system interfaces."
 related_wiki:
   - MLOps
   - MLOps Roadmap
@@ -42,21 +42,22 @@ the return path from monitoring to investigation, rollback, or retraining.
 
 ## Production Boundaries
 
-An MLOps architecture connects lifecycle stages without hiding who owns each
-handoff. The boundary matters more than the framework name.
+An MLOps architecture connects lifecycle stages through explicit interfaces, so
+the boundary matters more than the framework name.
 
 The data-scientist workflow needs experiment tracking and a model registry
 around it. Serving, orchestration, and governance connect to the same map
 ([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@40:57=>Building Production ML Platforms]]).
-Existing Git and CI/CD can anchor the first boundary. Package registries, model
-registry, deployment, and monitoring then define the minimum production route
+Existing Git and CI/CD can anchor the first release boundary. Package registries,
+model registry, deployment, and monitoring then define the minimum production
+route
 ([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
 The architecture needs reproducible training, an approved artifact path to
-deployment, observable serving, and named owners for feedback signals. Customer
-constraints, business priorities, and technical tradeoffs still have to fit the
-existing inference architecture
+deployment, observable serving, and routed feedback signals. Customer constraints,
+business priorities, and technical tradeoffs still have to fit the existing
+inference architecture
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
 
@@ -68,15 +69,15 @@ covers day-to-day ownership, and [[MLOps Roadmap]] covers rollout sequence.
 A practical MLOps architecture has one forward path and one return path. Draw
 that operating flow first. It forces the team to connect the data-to-training
 path with registry and release. It also connects serving, monitoring, and
-feedback before the team chooses tools or assigns role responsibilities.
+feedback before the team chooses tools.
 
 The forward path starts with data inputs. Source systems feed ingestion and
 transformation jobs, which create features or training datasets. A training
 pipeline uses that data, records metrics, and stores a model artifact.
 
-Simon describes this as a data-science workflow that starts with pulling data.
-Teams then explore and train. They evaluate, track experiments, and persist a
-model for downstream use
+The data-science workflow starts with pulling data. It then moves through
+exploration and training before evaluation, experiment tracking, and model
+persistence
 ([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
 A registry or registry-like convention promotes the artifact into a deployable
@@ -101,7 +102,7 @@ rollback, or product changes.
 
 MLOps architecture starts before the model. Data inputs may come from product
 events and operational databases. They may also come from files, third-party
-feeds, analytics tables, or human labels. Teams should name the owner, arrival
+feeds, analytics tables, or human labels. Teams should name the producer, arrival
 cadence, schema expectation, and validation point for each source.
 
 On the data pipeline side, ML pipelines and analytics data pipelines differ.
@@ -138,9 +139,8 @@ location. Once several people compare runs,
 [[experiment tracking]] becomes
 the shared memory of the system.
 
-Experiment tracking is one of the easier platform wins. Teams move away from
-spreadsheet run logs toward transparent model history. Metadata and lineage
-connect to [[reproducibility]], artifacts, and tracking
+Experiment tracking replaces spreadsheet run logs with transparent model history.
+Metadata and lineage connect to [[reproducibility]], artifacts, and tracking
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
@@ -182,12 +182,6 @@ containers, publish packages, run deployment checks, and promote changes between
 environments. Teams should show how code and model artifacts move together.
 Configuration and infrastructure should move with them.
 
-A concrete component set starts with version control and CI/CD, then adds
-containerization, model registry, and experiment tracking. Monitoring and
-compute sit beside serving and package registry
-([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
-
 Repository templates and service principals make the release boundary explicit.
 Moving logic out of notebooks into packages and CI/CD keeps deployment from
 depending on manual handoffs
@@ -221,9 +215,10 @@ analytics
 Without that logging, the service may look available while the model behaves
 badly.
 
-Serving also decides where shared platform reuse ends and product ownership
-begins. A reusable API convention, logging library, or deployment template
-belongs in the architecture only when it defines that handoff
+A serving interface should show where shared platform reuse ends and
+product-specific integration begins. A reusable API convention, logging library,
+or deployment template belongs in the architecture only when it defines that
+handoff
 [[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Platform Strategy]].
 
 In a Kubernetes-native view, pipeline automation and model serving can sit
@@ -272,7 +267,7 @@ For the data side of the same problem, see
 [[data-quality-and-observability=>Data Observability]] and
 [[DataOps]].
 
-## Governance, Lineage, and Ownership
+## Governance and Lineage
 
 [[Governance]] belongs in the
 architecture when models affect customers, regulated decisions, private data, or
@@ -282,7 +277,7 @@ decision later.
 
 At the architecture level, governance usually means:
 
-- named owners for datasets, model artifacts, services, and alerts
+- named control points for datasets, model artifacts, services, and alerts
 - access control for data, features, artifacts, and logs
 - lineage from source data to features, runs, registry entries, and deployments
 - visible approval states, retention rules, incident handling, rollback paths,

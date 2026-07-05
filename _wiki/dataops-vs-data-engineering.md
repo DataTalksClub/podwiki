@@ -29,7 +29,7 @@ easier to observe and recover.
 and interfaces support analytics and machine learning on top of that data path.
 
 Product and operations systems use those interfaces too. Natalie Kwong connects
-ETL and ELT with orchestration, CDC, and warehouse patterns
+ETL/ELT choices with orchestration, CDC, and warehouse patterns
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 [[DataOps]] owns the operating path around that work, starting with version
@@ -41,8 +41,8 @@ path
 
 Tomasz Hinc gives the direct ownership boundary. Data engineering sits closer
 to pipeline coding and quality-check implementation. DataOps sits closer to
-support, communication, and onboarding. Monitoring and cross-team enablement sit
-there too
+support, communication, and onboarding. Monitoring and cross-team enablement
+sit there too
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 ## Ownership Boundary
@@ -112,10 +112,10 @@ He ties team productivity to version control and tests. CI/CD and automated
 playbooks sit in the same path
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
-He applies the same discipline to modern data engineering by tying DataOps to
-automation and observability. CI/CD pipelines and regression tests belong in
-that operating surface. Test data, deployment automation, and production
-monitoring belong there too
+He applies the same discipline to modern data engineering through automation
+and observability. CI/CD pipelines and regression tests belong in that
+operating surface. Test data, deployment automation, and production monitoring
+belong there too
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Hinc places DataOps as enablement around engineers who write and operate
@@ -125,8 +125,7 @@ cross-team education
 
 The staffing question belongs in the [[dataops-engineer-role=>DataOps engineer
 role]] when one person or team owns the enablement path. [[DataOps Platforms]]
-covers the shared service surface. This comparison stays with the narrower
-question: when the same work looks like data engineering versus DataOps.
+covers the shared service surface.
 
 ## Shared Pipeline Work
 
@@ -147,8 +146,8 @@ data is wrong, so teams need logs and lineage. They also need ownership and SLAs
 to turn observability signals into action
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
-The practical split is simple: data engineering changes the data path, while
-DataOps makes the change safe to run again tomorrow.
+The split is simple: data engineering changes the data path, while DataOps
+makes the change safe to run again tomorrow.
 
 ## Incident Split
 
@@ -184,8 +183,8 @@ Schema agreements and onboarding habits make the path usable
 
 Tulski's 2026 career episode adds the role pressure. Platform data engineers
 build standards and shared infrastructure, while product data engineers stay
-closer to use cases. DataOps practices should support both paths because either
-path can break consumers when changes aren't tested, observable, or recoverable
+closer to use cases. Both paths can break consumers when changes aren't tested,
+observable, or recoverable
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 [[dataops-engineer-role=>DataOps engineer role]] owns dedicated-role signals,

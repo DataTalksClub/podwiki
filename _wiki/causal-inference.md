@@ -18,10 +18,10 @@ can't observe.
 
 The method vocabulary covers treatments, counterfactuals, identification, and
 confounding. It also covers conditional average treatment effect, uplift, policy
-effects, and treatment-aware machine learning. Use [[a-b-testing=>A/B testing]]
-for randomized product-test design. Use [[experimentation]] for the broader
-product and ML experiment portfolio, and use [[experimentation and causal
-inference]] for the applied choice between experiments and causal methods.
+effects, and treatment-aware machine learning. [[a-b-testing=>A/B testing]]
+covers randomized product-test design. [[experimentation]] covers the broader
+product and ML experiment portfolio, and [[experimentation and causal
+inference]] covers the applied choice between experiments and causal methods.
 
 The recurring contrast is association versus causation. Product experiments,
 marketing models, recommendation systems, and churn treatments can all produce
@@ -76,11 +76,9 @@ lower churn or higher lifetime value. Teams then turn a [[metrics=>metric]]
 discussion into a causal story about customer behavior
 [[cite:data-professionals-business-skills-in-saas@15:46=>SaaS Business Skills]].
 
-Product teams use randomized experiments with the same structure. One group gets the
-change, another stays as control, and the team compares outcomes
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-The operating mechanics sit in [[a-b-testing=>A/B testing]]. The causal structure
-names treatment, control, outcome, and comparison.
+In randomized experiments, teams use the same causal structure by defining the
+treatment, control, and outcome for a population and comparison. For product-test
+mechanics, use [[a-b-testing=>A/B testing]].
 
 ## Identification and Confounding
 
@@ -102,18 +100,12 @@ to choose causal features. When the data can't identify one clean answer, causal
 graphs and minimal observables help narrow the claim
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
 
-## Randomization and Identification
-
-Randomization can make treatment independent of user characteristics. The team
-can then attribute a measured difference to the intervention with fewer
-assumptions. A/B tests use that strategy when assignment, exposure logging, and
-metric calculation are trustworthy
+Randomization is one identification strategy. It can make treatment independent
+of user characteristics, but it still relies on trustworthy assignment, exposure
+logging, and metric calculation
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-
-That trust is still an assumption about the experiment system. [[a-a-testing=>A/A
-testing]] checks whether the machinery can split traffic and measure outcomes
-without inventing a difference. The detailed operating questions belong on
-[[a-b-testing=>A/B testing]] and [[power analysis]].
+The detailed operating checks belong on [[a-b-testing=>A/B testing]],
+[[a-a-testing=>A/A testing]], and [[power analysis]].
 
 ## Treatment-Aware Machine Learning
 
@@ -128,10 +120,9 @@ they match the decision. Causal models are worth the added complexity only when
 they change a valuable decision, such as reducing wasted marketing spend
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
 
-Production ML validation links causal thinking with [[evaluation]] and
-[[machine learning system design]]. Metrics, baselines, and A/B tests are part
-of the end-to-end ML pipeline. Production validation can combine A/B tests,
-causality, and human labels
+Production ML validation can combine A/B tests, causal reasoning, and human
+labels. Causal inference adds value when the model output changes a future
+action or policy
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
 ## Observational Measurement Settings

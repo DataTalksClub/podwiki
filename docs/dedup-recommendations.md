@@ -140,6 +140,14 @@ pass kept concept pages on durable topic ownership and comparisons on decision
 criteria. At the same thresholds, content-overlap findings fell from 36 to 33
 and internal near-duplicate findings fell from 70 to 69.
 
+Ninth pass (2026-07-05) used five parallel workers on vector/search, DataOps,
+MLOps, data-engineering transition/roadmap/portfolio, and
+experimentation/evaluation families. The pass pushed generic procedure and
+checklist material back to owning pages, tightened role/roadmap/comparison
+boundaries, and kept citations in the relevant body sections. At the same
+thresholds, content-overlap findings fell from 33 to 26 while internal
+near-duplicate findings stayed at 69.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded
