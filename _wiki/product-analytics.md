@@ -71,9 +71,10 @@ formation with data quality. They also handle compliance, SQL literacy, and
 lifecycle context.[[cite:product-designer-to-data-product-manager=>Data Product Manager]]
 
 In analytics engineering, teams put modeling and BI tooling closer to product
-questions, and dbt often supports that work. One analytics engineering path
-connects Looker, Redshift, and Snowplow to product questions. It also connects
-product-support work, growth analysis, retention analysis, and
+questions, and dbt often supports that work. The
+[[marketing-to-analytics-engineering=>marketing to analytics engineering]]
+path connects Looker, Redshift, and Snowplow to product questions. It also
+connects product-support work, growth analysis, retention analysis, and
 [[rfm-analysis=>RFM analysis]].[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
 AI product design adds another boundary. Interfaces collect model-behavior

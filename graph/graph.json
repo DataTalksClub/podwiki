@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12236
+    "links": 12246
   },
   "nodes": [
     {
@@ -30032,6 +30032,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -30731,6 +30737,12 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ci-cd",
@@ -43046,6 +43058,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -44877,6 +44895,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66584,6 +66608,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -67337,6 +67367,12 @@
       "target": "wiki:mlops-vs-dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-architecture",
@@ -72818,6 +72854,12 @@
     },
     {
       "source": "wiki:platform-engineering",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
       "target": "wiki:mlops-architecture",
       "kind": "wiki-chip",
       "weight": 1
@@ -74451,6 +74493,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -82418,6 +82466,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -82827,6 +82881,12 @@
     {
       "source": "wiki:testing",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "wiki-chip",
       "weight": 1
     },

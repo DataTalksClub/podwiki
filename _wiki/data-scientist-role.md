@@ -62,7 +62,8 @@ statistical depth. "Data scientist" isn't a stable job title.
 The role can also vary by operating model. In-house data scientists usually have
 closer product and stakeholder context. Consultants have to translate the work
 across client settings. Freelancers own more of the commercial and delivery
-surface
+surface. In that setting, [[ml-consulting-proposals=>ML consulting proposals]]
+turn scope and risk into a written offer
 [[cite:how-to-break-into-data-science@10:58=>Data Science Career Playbook]].
 
 Because titles are ambiguous, candidates should check the team's objectives and

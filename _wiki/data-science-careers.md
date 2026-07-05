@@ -140,7 +140,8 @@ can spend more time on SQL, visualization, statistics, and storytelling.
 Builder candidates should add production practice. Git, Docker, cloud
 deployment, and MLOps make that practice visible.
 
-Consultant-track candidates need stakeholder persuasion and business framing
+Consultant-track candidates need stakeholder persuasion, business framing, and
+[[ml-consulting-proposals=>ML consulting proposals]]
 [[cite:data-science-career-abc-framework@1:19:05=>Data Science Career ABC Framework]].
 Bootcamps can provide structure and feedback. Danny Ma treats them as an
 apprenticeship-like forcing function, not a shortcut around the whole roadmap

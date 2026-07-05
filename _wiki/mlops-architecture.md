@@ -179,8 +179,12 @@ another job, service, or team can depend on.
 CI/CD in MLOps should cover ordinary software checks and model-specific checks.
 The pipeline may test code and validate data transformations. It may also build
 containers, publish packages, run deployment checks, and promote changes between
-environments. Teams should show how code and model artifacts move together.
-Configuration and infrastructure should move with them.
+environments.
+
+Teams should show how code and model artifacts move together.
+Configuration and infrastructure should move with them. The
+[[mlops-vs-devops=>MLOps vs DevOps]] distinction matters here because the same
+release path must include software infrastructure and model-lifecycle evidence.
 
 Repository templates and service principals make the release boundary explicit.
 Moving logic out of notebooks into packages and CI/CD keeps deployment from

@@ -321,8 +321,9 @@ include orchestration and batch or online deployment paths. Metadata, lineage,
 and monitoring complete the platform surface
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-MLOps team building is adoption work. The team should collect pain points, find
-quick wins, and keep developer experience in view. If models are opaque in
+MLOps team building is
+[[mlops-adoption-at-scale=>MLOps adoption at scale]]. The team should collect
+pain points, find quick wins, and keep developer experience in view. If models are opaque in
 production, start with monitoring. If releases are slow, start with CI/CD. If
 version control is missing, start there
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]

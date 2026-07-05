@@ -38,7 +38,9 @@ templates so product teams can release models through a common path.
 
 In regulated finance, CI/CD also includes approval rules, package governance, and
 audit history. The release path adapts to existing DevOps controls instead of
-replacing corporate release rules.
+replacing corporate release rules. The practical
+[[mlops-vs-devops=>MLOps vs DevOps]] split reuses release discipline while
+adding model registry, monitoring, and data-version controls.
 [[cite:mlops-and-ml-engineering-in-finance@23:39=>MLOps in Finance]]
 
 ## Team Differences

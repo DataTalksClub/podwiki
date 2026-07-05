@@ -176,7 +176,10 @@ launch. A feature distribution can shift, labels can arrive late, a schema can
 change, or an upstream retrieval index can become stale. Use
 [[model-monitoring=>model monitoring]] when the alert concerns model behavior
 and [[mlops=>MLOps]] when the work includes training, deployment, rollback, and
-model lifecycle control.
+model lifecycle control. Use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+to separate those model-specific alerts from the data reliability signals that
+the team already tracks.
 
 ## Production Readiness
 

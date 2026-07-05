@@ -188,7 +188,9 @@ Healthcare or education systems may require stronger human review and
 explainability. Pricing or search systems may need staged rollout. Other
 production systems may need alert thresholds and rollback rules. Teams make
 those decisions with [[data quality and observability]], [[model monitoring]], and
-[[governance]] in view.
+[[governance]] in view. Teams should also link to
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+when ownership splits between data reliability signals and model behavior.
 [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 [[cite:ml-system-design=>ML System Design Playbook]]
 

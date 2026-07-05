@@ -74,7 +74,9 @@ value, and repeated needs before they build heavy platform layers. That keeps
 
 Another emphasis starts from adoption and ties platform success to feedback
 loops, pain-point discovery, quick wins, and value measurement. The platform
-team earns standards by solving visible problems first.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+team earns standards by solving visible problems first. For ML platform teams,
+that turns platform engineering into
+[[mlops-adoption-at-scale=>MLOps adoption at scale]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 An internal product-management lens treats internal platform users as customers,
 weighs usability costs, and moves to outcome-driven problem definition and user

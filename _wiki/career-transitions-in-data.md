@@ -163,8 +163,9 @@ and messy research data matter too
 [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 
 The starting point also changes with the target role. A
-marketing-to-analytics-engineering route stays close to SQL, BI, Looker, and
-dbt. Data modeling, product analytics, and A/B testing matter too
+[[marketing-to-analytics-engineering=>marketing to analytics engineering]]
+route stays close to SQL, BI, Looker, and dbt. Data modeling, product
+analytics, and A/B testing matter too
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
 A QA route can separate math-heavy ML from tooling-focused data engineering.
