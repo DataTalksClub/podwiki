@@ -640,9 +640,9 @@ html.dark body > .container > .row hr,
 .knowledge-page table a {
   color: var(--link);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--link) 55%, transparent);
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.18em;
+  text-decoration-color: color-mix(in srgb, var(--link) 80%, transparent);
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.16em;
 }
 
 .knowledge-page p a:hover,

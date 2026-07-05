@@ -6,23 +6,70 @@ permalink: /special-pages/
 
 <h1>Special Pages</h1>
 
-<p class="lede">Guides, comparisons, roadmaps, how-tos, and career transitions, all grounded in DataTalks.Club podcast episodes.</p>
+<p class="lede">Browse the guides, comparisons, roadmaps, transitions, and how-tos in the wiki.</p>
+
+{% assign items = site.wiki | sort_natural: "title" %}
+{% assign guide_count = 0 %}
+{% assign comparison_count = 0 %}
+{% assign roadmap_count = 0 %}
+{% assign transition_count = 0 %}
+{% assign howto_count = 0 %}
+{% assign all_count = 0 %}
+{%- for item in items -%}
+  {%- unless item.redirect_to -%}
+    {%- if item.tags contains "guide" -%}
+      {% assign guide_count = guide_count | plus: 1 %}
+      {% assign all_count = all_count | plus: 1 %}
+    {%- endif -%}
+    {%- if item.tags contains "comparison" -%}
+      {% assign comparison_count = comparison_count | plus: 1 %}
+      {% assign all_count = all_count | plus: 1 %}
+    {%- endif -%}
+    {%- if item.tags contains "roadmap" -%}
+      {% assign roadmap_count = roadmap_count | plus: 1 %}
+      {% assign all_count = all_count | plus: 1 %}
+    {%- endif -%}
+    {%- if item.tags contains "transition" -%}
+      {% assign transition_count = transition_count | plus: 1 %}
+      {% assign all_count = all_count | plus: 1 %}
+    {%- endif -%}
+    {%- if item.tags contains "how-to" -%}
+      {% assign howto_count = howto_count | plus: 1 %}
+      {% assign all_count = all_count | plus: 1 %}
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
 
 <div class="tag-filter" id="tag-filter" aria-label="Special page type">
-  <button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
-  <button type="button" class="tag-btn" data-tag="guide" aria-pressed="false">Guides</button>
-  <button type="button" class="tag-btn" data-tag="comparison" aria-pressed="false">Comparisons</button>
-  <button type="button" class="tag-btn" data-tag="roadmap" aria-pressed="false">Roadmaps</button>
-  <button type="button" class="tag-btn" data-tag="transition" aria-pressed="false">Transitions</button>
-  <button type="button" class="tag-btn" data-tag="how-to" aria-pressed="false">How-Tos</button>
+  <button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All {{ all_count }}</button>
+  <button type="button" class="tag-btn" data-tag="guide" aria-pressed="false">Guides {{ guide_count }}</button>
+  <button type="button" class="tag-btn" data-tag="comparison" aria-pressed="false">Comparisons {{ comparison_count }}</button>
+  <button type="button" class="tag-btn" data-tag="roadmap" aria-pressed="false">Roadmaps {{ roadmap_count }}</button>
+  <button type="button" class="tag-btn" data-tag="transition" aria-pressed="false">Transitions {{ transition_count }}</button>
+  <button type="button" class="tag-btn" data-tag="how-to" aria-pressed="false">How-tos {{ howto_count }}</button>
 </div>
 
 <p class="filter-count" id="filter-count"></p>
 
 <div class="grid" id="special-grid">
-  {% assign items = site.wiki | sort: "title" %}
   {% for item in items %}
-    {% if item.tags.size > 0 and item.redirect_to == nil %}
+    {% assign is_special = false %}
+    {% if item.tags contains "guide" %}
+      {% assign is_special = true %}
+    {% endif %}
+    {% if item.tags contains "comparison" %}
+      {% assign is_special = true %}
+    {% endif %}
+    {% if item.tags contains "roadmap" %}
+      {% assign is_special = true %}
+    {% endif %}
+    {% if item.tags contains "transition" %}
+      {% assign is_special = true %}
+    {% endif %}
+    {% if item.tags contains "how-to" %}
+      {% assign is_special = true %}
+    {% endif %}
+    {% if is_special and item.redirect_to == nil %}
     <a class="card special-card"
        href="{{ item.url | relative_url }}"
        data-tags="{{ item.tags | join: ',' }}">
@@ -36,42 +83,4 @@ permalink: /special-pages/
   {% endfor %}
 </div>
 
-<script>
-(function() {
-  var buttons = document.querySelectorAll('.tag-btn');
-  var cards = document.querySelectorAll('.special-card');
-  var count = document.getElementById('filter-count');
-
-  function apply(tag) {
-    var shown = 0;
-    buttons.forEach(function(btn) {
-      var active = btn.getAttribute('data-tag') === tag;
-      btn.classList.toggle('active', active);
-      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
-    });
-    cards.forEach(function(card) {
-      var tags = card.getAttribute('data-tags');
-      var match = tag === 'all' || (tags && tags.split(',').map(function(t){return t.trim();}).indexOf(tag) !== -1);
-      card.style.display = match ? '' : 'none';
-      if (match) shown++;
-    });
-    if (count) count.textContent = shown + (shown === 1 ? ' page' : ' pages');
-  }
-
-  buttons.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var tag = btn.getAttribute('data-tag');
-      if (window.history && window.history.replaceState) {
-        window.history.replaceState(null, '', tag === 'all' ? window.location.pathname : '#' + tag);
-      }
-      apply(tag);
-    });
-  });
-
-  var initial = window.location.hash ? window.location.hash.slice(1) : 'all';
-  var valid = Array.prototype.some.call(buttons, function(btn) {
-    return btn.getAttribute('data-tag') === initial;
-  });
-  apply(valid ? initial : 'all');
-})();
-</script>
+<script src="{{ '/assets/special-pages.js' | relative_url }}"></script>

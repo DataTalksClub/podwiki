@@ -45,7 +45,7 @@ official course or podcast pages there when useful.
 | machine-learning-zoomcamp | machine learning zoomcamp | main ML Zoomcamp course page |
 | mlops-zoomcamp | mlops zoomcamp | main MLOps Zoomcamp course page |
 | llm-zoomcamp | llm zoomcamp | main LLM Zoomcamp course page |
-| data-engineering-podcast | data engineering podcast | `/podcast/` |
+| data-engineering-podcast | data engineering podcast | `https://datatalks.club/podcast.html` |
 
 ## B. CONSOLIDATE — keyword swarms → one page each (26)
 
@@ -94,7 +94,7 @@ ML interview guide. llm-system-design-interview → canonical LLM interview guid
 
 Status: exact guide/wiki slug collisions were merged into the wiki layer and
 the duplicate guide files were removed on 2026-06-30. Rows marked **keep** are
-the surviving editorial pages now maintained in the split collections. The
+the surviving editorial pages now maintained in `_wiki/` with type tags. The
 Airflow/apache-airflow concept pages were consolidated into
 `_wiki/orchestration.md` on 2026-07-01. The
 analytics-engineer guide variant was consolidated into

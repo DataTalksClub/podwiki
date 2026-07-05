@@ -1,39 +1,43 @@
 /* Entity chips in wiki prose. Colours match the graph legend. Calm by design:
-   type-coloured label with a faint top/bottom rule that strengthens on hover,
-   a small trailing type emoji, no bullet dot, never underlined.
+   type-coloured label with a link-like underline and a faint background that
+   strengthens on hover, a small trailing type emoji, no bullet dot.
    Renderer: build-time rustkyll `chips` extension.
 
    NOTE: the theme colours/underlines prose links via `.knowledge-page p a`
    (specificity 0,1,2) and `.knowledge-page p a:hover` (0,2,2). The doubled
-   `.chip.chip` selectors below out-rank those so chips keep their type colour
-   and never underline. */
+   `.chip.chip` selectors below out-rank those so chips keep their type colour. */
 
 .chip {
   --chip: #64748b;
   display: inline;
   font-weight: 500;
-  border: 1px solid color-mix(in srgb, var(--chip) 12%, transparent);
-  border-right: 0;
-  border-left: 0;
-  border-radius: 0;
-  padding: 0.02em 0.08em;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
+  border-radius: 0.18em;
+  padding: 0.02em 0.1em;
+  background: color-mix(in srgb, var(--chip) 6%, transparent);
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, var(--chip) 70%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+  transition: background-color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
-/* type colour for text + never underline, in every state
+/* type colour for text + visible link underline, in every state
    (doubled class out-ranks the theme's prose-link rules) */
 .chip.chip,
 .chip.chip:hover,
 .chip.chip:focus,
 .chip.chip:active {
   color: var(--chip);
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, var(--chip) 70%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
 }
 
 .chip.chip:hover,
 .chip.chip:focus {
-  border-color: color-mix(in srgb, var(--chip) 60%, transparent);
-  background: color-mix(in srgb, var(--chip) 9%, transparent);
+  background: color-mix(in srgb, var(--chip) 11%, transparent);
+  text-decoration-color: currentColor;
 }
 
 /* trailing type emoji — makes the entity kind obvious at a glance.
@@ -80,7 +84,19 @@ html.dark .chip--book { --chip: #7fb0ff; }
   font-size: 0.72em;
   line-height: 0;
   vertical-align: super;
-  margin-left: 0.12em;
+  margin-left: 0.16em;
+}
+
+.citation::before {
+  content: "[";
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.citation::after {
+  content: "]";
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .citation .citation-link,
@@ -89,14 +105,16 @@ html.dark .chip--book { --chip: #7fb0ff; }
 .citation .citation-link:active {
   color: #52677a;
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 70%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
 }
 
 .citation .citation-link:hover,
 .citation .citation-link:focus {
   color: #2f4558;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
+  text-decoration-color: currentColor;
 }
 
 html.dark .citation .citation-link,

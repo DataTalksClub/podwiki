@@ -7,21 +7,77 @@
   const apiUrl = (window.PODWIKI_SEARCH_API || "").trim();
   const baseUrl = (window.PODWIKI_BASE_URL || "").replace(/\/$/, "");
   let localDocs = null;
+  let localDocsPromise = null;
   let lastTerms = [];
   let activeFilter = "all";
+
   const filterLabels = {
     all: "All",
-    wiki: "Wiki",
+    topic: "Topics",
     guide: "Guides",
     comparison: "Comparisons",
     roadmap: "Roadmaps",
     transition: "Transitions",
-    how_to: "How-tos",
+    "how-to": "How-tos",
     podcast_summary: "Podcasts",
     person: "People",
     book: "Books",
     section: "Sections",
   };
+
+  const singularLabels = {
+    topic: "Topic",
+    guide: "Guide",
+    comparison: "Comparison",
+    roadmap: "Roadmap",
+    transition: "Transition",
+    "how-to": "How-to",
+    podcast_summary: "Podcast",
+    person: "Person",
+    book: "Book",
+  };
+
+  const levelToFilter = {
+    wiki: "topic",
+    topic: "topic",
+    guide: "guide",
+    comparison: "comparison",
+    roadmap: "roadmap",
+    transition: "transition",
+    how_to: "how-to",
+    "how-to": "how-to",
+    podcast_summary: "podcast_summary",
+    person: "person",
+    book: "book",
+    section: "section",
+  };
+
+  const filterToLevel = {
+    topic: "wiki",
+    guide: "guide",
+    comparison: "comparison",
+    roadmap: "roadmap",
+    transition: "transition",
+    "how-to": "how_to",
+    podcast_summary: "podcast_summary",
+    person: "person",
+    book: "book",
+    section: "section",
+  };
+
+  const browseFilters = new Set([
+    "topic",
+    "guide",
+    "comparison",
+    "roadmap",
+    "transition",
+    "how-to",
+    "podcast_summary",
+    "person",
+    "book",
+    "section",
+  ]);
+  const browseLimit = 40;
 
   function siteUrl(path) {
     if (!path || /^https?:\/\//i.test(path)) return path;
@@ -37,6 +93,26 @@
       .replaceAll('"', "&quot;");
   }
 
+  function pluralize(count, singular, plural) {
+    return count === 1 ? singular : plural || `${singular}s`;
+  }
+
+  function termsFor(query) {
+    return query.toLowerCase().split(/[^a-z0-9_.#+-]+/).filter(Boolean);
+  }
+
+  function normalizeFilter(value) {
+    return levelToFilter[String(value || "").trim().toLowerCase()] || "all";
+  }
+
+  function searchLevelFor(filter) {
+    return filterToLevel[filter] || "";
+  }
+
+  function categoryFor(item) {
+    return normalizeFilter(item.level);
+  }
+
   function setStatus(text, state) {
     status.textContent = text;
     if (state) status.setAttribute("data-state", state);
@@ -44,9 +120,9 @@
   }
 
   function setActiveFilter(value) {
-    activeFilter = filterLabels[value] ? value : "all";
+    activeFilter = normalizeFilter(value);
     for (const btn of filterButtons) {
-      const active = btn.dataset.searchFilter === activeFilter;
+      const active = normalizeFilter(btn.dataset.searchFilter) === activeFilter;
       btn.classList.toggle("active", active);
       btn.setAttribute("aria-pressed", active ? "true" : "false");
     }
@@ -63,34 +139,37 @@
   }
 
   function badgeFor(item) {
-    const labels = {
-      wiki: "Wiki",
-      guide: "Guide",
-      comparison: "Comparison",
-      roadmap: "Roadmap",
-      transition: "Transition",
-      how_to: "How-To",
-      podcast_summary: "Podcast",
-      person: "Person",
-      book: "Book",
-    };
-    if (item.level === "segment") return "Segment";
-    if (item.document_type === "section" || item.level === "section") return "Section";
-    return labels[item.level] || String(item.level || "page").replaceAll("_", " ");
+    const category = categoryFor(item);
+    const label = singularLabels[category] || String(item.level || "Page").replaceAll("_", " ");
+    if (item.document_type === "section" || item.level === "section") return `${label} section`;
+    if (item.level === "segment") return "Podcast segment";
+    return label;
   }
 
   function matchesFilter(item) {
-    if (activeFilter === "all") return true;
-    if (activeFilter === "section") {
+    return matchesNamedFilter(item, activeFilter);
+  }
+
+  function matchesNamedFilter(item, filter) {
+    if (filter === "all") return true;
+    if (filter === "section") {
       return item.document_type === "section" || item.level === "section";
     }
-    return item.level === activeFilter;
+    return categoryFor(item) === filter;
+  }
+
+  function isBrowseable(item) {
+    return isBrowseableForFilter(item, activeFilter);
+  }
+
+  function isBrowseableForFilter(item, filter) {
+    if (filter === "section") return item.document_type === "section" || item.level === "section";
+    return item.document_type !== "section";
   }
 
   function metaFor(item) {
-    const isSegment = item.level === "segment";
     const isSection = item.document_type === "section" || item.level === "section";
-    if (isSegment) {
+    if (item.level === "segment") {
       return [item.title, item.time].filter(Boolean).join(" · ");
     }
     if (isSection) {
@@ -100,13 +179,21 @@
   }
 
   function titleFor(item) {
-    const isSegment = item.level === "segment";
     const isSection = item.document_type === "section" || item.level === "section";
-    if ((isSegment || isSection) && item.segment_title) return item.segment_title;
+    if ((item.level === "segment" || isSection) && item.segment_title) return item.segment_title;
     return item.title;
   }
 
-  function showEmpty(query) {
+  function showEmpty(query, browsing) {
+    if (browsing) {
+      const filterText = activeFilter === "all" ? "browse entries" : filterLabels[activeFilter].toLowerCase();
+      results.innerHTML = `
+        <div class="search-empty">
+          <strong>No ${escapeHtml(filterText)} in the local index</strong>
+          <span>Enter a search term to query the full search index.</span>
+        </div>`;
+      return;
+    }
     results.innerHTML = `
       <div class="search-empty">
         <strong>No matches for “${escapeHtml(query)}”</strong>
@@ -128,15 +215,24 @@
     results.innerHTML = html;
   }
 
-  function render(items, query) {
+  function resultStatus(items, options) {
+    const count = options.totalCount || items.length;
+    const shown = count > items.length ? `${items.length} of ${count}` : String(items.length);
+    const noun = options.browsing ? pluralize(count, "item") : pluralize(count, "result");
+    const filterText = activeFilter === "all" ? "" : ` · ${filterLabels[activeFilter]}`;
+    const suffix = options.statusSuffix || "";
+    if (options.browsing) return `${shown} ${noun}${filterText}${suffix}`;
+    return `${shown} ${noun}${filterText}${suffix}`;
+  }
+
+  function render(items, query, options = {}) {
     results.innerHTML = "";
     if (!items.length) {
-      setStatus("No results", "empty");
-      showEmpty(query);
+      setStatus(options.browsing ? "No browse entries" : "No results", "empty");
+      showEmpty(query, options.browsing);
       return;
     }
-    const filterText = activeFilter === "all" ? "" : ` · ${filterLabels[activeFilter]}`;
-    setStatus(`${items.length} result${items.length === 1 ? "" : "s"}${filterText}`, "ok");
+    setStatus(resultStatus(items, options), "ok");
     const frag = document.createDocumentFragment();
     for (const item of items) {
       const title = highlight(escapeHtml(titleFor(item)), lastTerms);
@@ -171,14 +267,71 @@
     return score;
   }
 
-  async function localSearch(query) {
-    if (!localDocs) {
-      const response = await fetch(siteUrl("/search/search-corpus.json"));
-      const payload = await response.json();
-      localDocs = payload.docs || payload;
+  function sortForBrowse(a, b) {
+    const categoryA = categoryFor(a);
+    const categoryB = categoryFor(b);
+    if (categoryA !== categoryB) {
+      const order = ["topic", "guide", "comparison", "roadmap", "transition", "how-to", "podcast_summary", "book", "person"];
+      return order.indexOf(categoryA) - order.indexOf(categoryB);
     }
-    const terms = query.toLowerCase().split(/[^a-z0-9_.#+-]+/).filter(Boolean);
-    return localDocs
+    return String(titleFor(a) || "").localeCompare(String(titleFor(b) || ""));
+  }
+
+  async function loadLocalDocs() {
+    if (localDocs) return localDocs;
+    if (!localDocsPromise) {
+      localDocsPromise = fetch(siteUrl("/search/search-corpus.json"))
+        .then((response) => {
+          if (!response.ok) throw new Error(`Local index returned ${response.status}`);
+          return response.json();
+        })
+        .then((payload) => {
+          localDocs = payload.docs || payload;
+          return localDocs;
+        })
+        .finally(() => {
+          localDocsPromise = null;
+        });
+    }
+    return localDocsPromise;
+  }
+
+  function countForFilter(docs, filter) {
+    return docs
+      .filter((doc) => matchesNamedFilter(doc, filter))
+      .filter((doc) => isBrowseableForFilter(doc, filter)).length;
+  }
+
+  function updateFilterCounts(docs) {
+    for (const btn of filterButtons) {
+      const filter = normalizeFilter(btn.dataset.searchFilter);
+      if (!browseFilters.has(filter) && filter !== "all") continue;
+      const count = filter === "all"
+        ? docs.filter((doc) => doc.document_type !== "section").length
+        : countForFilter(docs, filter);
+      let countEl = btn.querySelector("[data-filter-count]");
+      if (!countEl) {
+        countEl = document.createElement("span");
+        countEl.className = "search-filter-count";
+        countEl.setAttribute("data-filter-count", "");
+        btn.appendChild(countEl);
+      }
+      countEl.textContent = String(count);
+    }
+  }
+
+  async function refreshFilterCounts() {
+    try {
+      updateFilterCounts(await loadLocalDocs());
+    } catch (err) {
+      // Lambda search can still work when the static browser corpus is absent.
+    }
+  }
+
+  async function localSearch(query) {
+    const docs = await loadLocalDocs();
+    const terms = termsFor(query);
+    return docs
       .map((doc) => ({ ...doc, score: scoreDoc(doc, terms) }))
       .filter((doc) => doc.score > 0)
       .filter(matchesFilter)
@@ -186,10 +339,23 @@
       .slice(0, 20);
   }
 
+  async function localBrowse() {
+    const docs = await loadLocalDocs();
+    const matching = docs
+      .filter(matchesFilter)
+      .filter(isBrowseable)
+      .sort(sortForBrowse);
+    return {
+      items: matching.slice(0, browseLimit),
+      totalCount: matching.length,
+    };
+  }
+
   async function remoteSearch(query) {
     const url = new URL(apiUrl);
+    const level = searchLevelFor(activeFilter);
     url.searchParams.set("q", query);
-    if (activeFilter !== "all") url.searchParams.set("level", activeFilter);
+    if (level) url.searchParams.set("level", level);
     const response = await fetch(url.toString());
     if (!response.ok) throw new Error(`Search API returned ${response.status}`);
     const payload = await response.json();
@@ -199,21 +365,49 @@
     return payload.results;
   }
 
-  async function runSearch() {
-    const query = input.value.trim();
-    if (!query) {
+  function updateUrl(query) {
+    const params = new URLSearchParams(window.location.search);
+    if (query) params.set("q", query);
+    else params.delete("q");
+    if (activeFilter === "all") params.delete("level");
+    else params.set("level", activeFilter);
+    const search = params.toString();
+    history.replaceState(null, "", `${window.location.pathname}${search ? `?${search}` : ""}`);
+  }
+
+  async function browse() {
+    lastTerms = [];
+    updateUrl("");
+    if (activeFilter === "all") {
       setStatus("");
       results.innerHTML = "";
       return;
     }
-    lastTerms = query.toLowerCase().split(/[^a-z0-9_.#+-]+/).filter(Boolean);
+    setStatus("Loading local index…", "loading");
+    showSkeletons(3);
+    try {
+      const browseResults = await localBrowse();
+      render(browseResults.items, "", {
+        browsing: true,
+        totalCount: browseResults.totalCount,
+        statusSuffix: " · local index",
+      });
+    } catch (err) {
+      results.innerHTML = "";
+      setStatus("Enter a search term to use the search index", "");
+    }
+  }
+
+  async function runSearch() {
+    const query = input.value.trim();
+    if (!query) {
+      await browse();
+      return;
+    }
+    lastTerms = termsFor(query);
     setStatus("Searching…", "loading");
     showSkeletons(4);
-    const params = new URLSearchParams(window.location.search);
-    params.set("q", query);
-    if (activeFilter === "all") params.delete("level");
-    else params.set("level", activeFilter);
-    history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
+    updateUrl(query);
     try {
       if (!apiUrl) {
         render(await localSearch(query), query);
@@ -224,11 +418,7 @@
         render(await remoteSearch(query), query);
       } catch (remoteErr) {
         const items = await localSearch(query);
-        render(items, query);
-        if (items.length) {
-          const filterText = activeFilter === "all" ? "" : ` · ${filterLabels[activeFilter]}`;
-          setStatus(`${items.length} result${items.length === 1 ? "" : "s"}${filterText} (offline index)`, "ok");
-        }
+        render(items, query, { statusSuffix: " · offline index" });
       }
     } catch (err) {
       results.innerHTML = "";
@@ -243,7 +433,7 @@
   for (const btn of filterButtons) {
     btn.addEventListener("click", () => {
       setActiveFilter(btn.dataset.searchFilter);
-      if (input.value.trim()) runSearch();
+      runSearch();
     });
   }
 
@@ -253,5 +443,8 @@
   if (initial) {
     input.value = initial;
     runSearch();
+  } else if (activeFilter !== "all") {
+    browse();
   }
+  refreshFilterCounts();
 })();

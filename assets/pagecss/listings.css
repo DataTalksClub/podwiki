@@ -56,6 +56,121 @@
   color: var(--muted);
 }
 
+.wiki-pagehead-lede {
+  max-width: 43rem;
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.wiki-type-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.6rem;
+  margin: 0 0 1.8rem;
+}
+
+.wiki-type-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  min-height: 2.85rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--panel);
+  color: var(--heading);
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.wiki-type-tab:hover,
+.wiki-type-tab:focus-visible {
+  border-color: var(--link);
+  box-shadow: var(--shadow);
+  color: var(--link);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.wiki-type-tab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.9rem;
+  padding: 0.12rem 0.4rem;
+  border-radius: 999px;
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wiki-type-tab span {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.wiki-type-tab:hover span,
+.wiki-type-tab:focus-visible span {
+  text-decoration-color: currentColor;
+}
+
+.wiki-type-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 0 2.6rem;
+}
+
+.wiki-type-section {
+  scroll-margin-top: 5.5rem;
+}
+
+.wiki-type-title,
+.wiki-catalog-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  margin: 0 0 0.35rem;
+  color: var(--heading);
+  font-size: 1.3rem;
+}
+
+.wiki-type-title span {
+  color: var(--muted);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.wiki-type-lede {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.wiki-type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.65rem;
+}
+
+.wiki-catalog-title {
+  margin-top: 0.4rem;
+  padding-top: 0.2rem;
+}
+
 /* ---------- Landing page ---------- */
 
 .wiki-section-head {
@@ -118,6 +233,16 @@
   font-size: 1.08rem;
   font-weight: 600;
   color: var(--heading);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.wiki-format:hover .wiki-format-name,
+.wiki-format:focus-visible .wiki-format-name {
+  color: var(--link);
+  text-decoration-color: currentColor;
 }
 
 .wiki-format-desc {
@@ -171,6 +296,16 @@
   font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.wiki-entrypoint:hover .wiki-entrypoint-name,
+.wiki-entrypoint:focus-visible .wiki-entrypoint-name {
+  color: var(--link);
+  text-decoration-color: currentColor;
 }
 
 .wiki-entrypoint-desc {
@@ -282,7 +417,7 @@
   font-size: 0.95rem;
 }
 
-.wiki-count b {
+.wiki-count span {
   color: var(--heading);
   font-weight: 700;
 }
@@ -334,7 +469,8 @@
   gap: 0.75rem;
 }
 
-.wiki-card {
+.wiki-card,
+.wiki-type-card {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -346,7 +482,9 @@
 }
 
 .wiki-card:hover,
-.wiki-card:focus-visible {
+.wiki-card:focus-visible,
+.wiki-type-card:hover,
+.wiki-type-card:focus-visible {
   border-color: var(--link);
   box-shadow: var(--shadow);
   transform: translateY(-2px);
@@ -363,11 +501,18 @@
   font-size: 1.02rem;
   font-weight: 600;
   line-height: 1.25;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
 }
 
 .wiki-card:hover .wiki-card-title,
-.wiki-card:focus-visible .wiki-card-title {
+.wiki-card:focus-visible .wiki-card-title,
+.wiki-type-card:hover .wiki-card-title,
+.wiki-type-card:focus-visible .wiki-card-title {
   color: var(--link);
+  text-decoration-color: currentColor;
 }
 
 .wiki-card-summary {
@@ -433,6 +578,11 @@
   }
 
   .wiki-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wiki-type-nav,
+  .wiki-type-grid {
     grid-template-columns: 1fr;
   }
 

@@ -48,6 +48,16 @@
   font-size: 1.06rem;
   font-weight: 700;
   line-height: 1.28;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.card:hover strong,
+.card:focus-visible strong {
+  color: var(--link);
+  text-decoration-color: currentColor;
 }
 
 .grid .card span {
@@ -116,6 +126,16 @@
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.25;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.format-item:hover .format-text strong,
+.format-item:focus-visible .format-text strong {
+  color: var(--link);
+  text-decoration-color: currentColor;
 }
 
 .format-text span {
@@ -219,6 +239,9 @@ html.dark .tag-btn.active {
 }
 
 .search-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   min-height: 2rem;
   padding: 0.25rem 0.7rem;
   border: 1px solid var(--line);
@@ -231,6 +254,18 @@ html.dark .tag-btn.active {
   cursor: pointer;
 }
 
+.search-filter-count {
+  min-width: 1.35rem;
+  padding: 0.12rem 0.35rem;
+  border-radius: 999px;
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+}
+
 .search-filter:hover,
 .search-filter:focus {
   border-color: var(--accent);
@@ -241,6 +276,11 @@ html.dark .tag-btn.active {
   border-color: var(--accent);
   background: var(--accent);
   color: #fff;
+}
+
+.search-filter.active .search-filter-count {
+  background: rgba(255, 255, 255, 0.2);
+  color: inherit;
 }
 
 #search-status {
@@ -276,6 +316,16 @@ html.dark #search-status[data-state="error"] {
 .result h2 a {
   color: var(--link);
   font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 65%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.result h2 a:hover,
+.result h2 a:focus {
+  color: var(--link-hover);
+  text-decoration-color: currentColor;
 }
 
 .result-meta {
