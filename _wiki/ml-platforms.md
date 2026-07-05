@@ -117,10 +117,15 @@ That pushes the boundary toward
 [[ML Product Manager Role]]
 and [[self-service-data-platforms=>Self-Service Data Platforms]].
 
-Infrastructure draws a different edge around cloud cost, on-prem GPUs, and
-distributed training. PyTorch and NCCL also sit on that side of the boundary.
-Communication bottlenecks and Kubernetes limits are infrastructure concerns too.
-So are Slurm-like scheduling and bare-metal provisioning[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>AI Infrastructure]].
+Infrastructure draws a different edge around cloud cost and on-prem GPUs.
+Distributed-training systems sit on that side of the boundary too. PyTorch and
+NCCL are infrastructure concerns. Communication bottlenecks and Kubernetes
+limits are as well. So are Slurm-like scheduling and bare-metal provisioning.
+
+When those platform choices involve hosted models and context size, the nearby
+operating question is [[llm-cost-optimization=>LLM cost optimization]]. Caching
+and evaluation spend belong in that cost discussion too
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>AI Infrastructure]].
 
 For large-model teams, the ML platform overlaps heavily with
 [[AI Infrastructure]]. For

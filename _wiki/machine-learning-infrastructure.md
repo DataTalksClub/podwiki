@@ -206,9 +206,14 @@ Batch inference can run as scheduled jobs. Online serving needs request-time
 latency, logging, API contracts, and rollback paths.
 
 A concrete product example chooses between live API calls and precomputed
-predictions, then weighs SageMaker endpoints and cost tradeoffs
+predictions. It then weighs SageMaker endpoints and cost tradeoffs
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
-Serving is a business and latency decision, not just a framework choice.
+
+Serving is a business and latency decision, not just a framework choice. In LLM
+systems, the same serving choice becomes
+[[llm-cost-optimization=>LLM cost optimization]]. Token volume and request
+latency affect the production operating model. Caching and model selection do
+too.
 
 Edge and mobile serving push deployment constraints even further. Offline mobile
 models are still a mostly manual deployment space today. Vendors extend

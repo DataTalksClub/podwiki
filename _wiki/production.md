@@ -101,8 +101,9 @@ logic, and criteria for replacing a model
 
 [[person:meryemarik=>Meryem Arik]] moves the release
 choice into model supply by contrasting fast API prototypes with open-source
-deployment. The same choice shapes privacy, hidden API model changes, cost, and
-latency. Hardware, model size, compression, and
+deployment. The same [[llm-deployment=>LLM deployment]] choice shapes privacy,
+hidden API model changes, cost, and latency. Hardware, model size, compression,
+and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
 belong to the serving decision
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Meryem Arik]].

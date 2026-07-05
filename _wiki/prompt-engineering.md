@@ -20,10 +20,16 @@ and the retrieved evidence. It also sits between model behavior and answer
 checks.
 
 Prompt engineering is narrower than the whole LLM application. [[LLM Production Patterns]]
-covers serving, deployment, observability, and model choice. [[AI Tooling]]
-covers libraries and developer tools around prompts. The prompt-engineering
-question is what the model sees and how the team constrains the answer. It also
-covers how teams test prompt changes and when wording alone stops helping.
+covers serving, deployment, observability, and model choice.
+
+[[AI Tooling]] covers libraries and developer tools around prompts, while
+[[llm-tools=>LLM tools]] covers the wider product stack. That stack includes
+model access, retrieval, evaluation, and review. It also includes agent
+orchestration and observability.
+
+The prompt-engineering question is what the model sees and how the team
+constrains the answer. It also covers how teams test prompt changes and when
+wording alone stops helping.
 
 The [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] comparison covers the boundary
 between better prompts, retrieved context, and model adaptation. Michael Taylor
@@ -229,6 +235,8 @@ prompt problem into an agent problem.
 
 [[evolutionary-algorithms=>Evolutionary algorithms]] can find useful prompt
 variations, but they're computationally expensive.
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] for the broader bridge from
+game-AI search to agent behavior.
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 Prompt iteration is useful, but teams should measure whether more iteration

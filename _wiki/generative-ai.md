@@ -78,11 +78,12 @@ different risks. Hidden API model changes can affect the product. Model size, co
 inference optimization, and hardware choices also affect the final
 system.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-Agentic systems put the boundary around orchestration. Task decomposition,
-sequential flows, and manager agents depend on the surrounding
-[[Agent Engineering]] design. Game teams also rely on that design for generated
-levels and replayability. The model generates, but the agent design sets how far the
-system can act.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Agentic systems put orchestration at the boundary, and [[Agent Engineering]]
+covers task decomposition and sequential flows. It also covers manager-agent
+design. Game teams use the same structure for generated levels and
+replayability. Agent design sets scope.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] for the game-history bridge
+behind that design.
 
 ## Product Uses
 
@@ -216,7 +217,8 @@ On the agent side, embedded Slack agents and actions beyond chat appear in
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 That episode also covers a four-step framework for agents. Another agent
 discussion covers the OpenAI Agents SDK and MCP integration. It also covers
-sequential thinking servers and coding agents in game development
+sequential thinking servers and coding agents in game development. The same
+thread is summarized in [[game-ai-to-llm-agents=>Game AI to LLM Agents]]
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 
 Use [[Agent Engineering]] for

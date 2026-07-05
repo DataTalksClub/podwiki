@@ -156,7 +156,10 @@ human-in-the-loop evaluation [[cite:modern-search-systems-vector-databases-llms-
 
 A good roadmap project at this stage includes ingestion, chunking, and
 metadata. It also includes embeddings, retrieval, citations, and retrieval
-failure analysis. Compare the choices through
+failure analysis. Use the
+[[llm-rag-production-roadmap=>LLM and RAG production roadmap]] when the work
+needs a build sequence from retrieval to evaluation and operating controls.
+Compare the choices through
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 [[Search and RAG Project Checklist]],
 and [[RAG Portfolio Projects]].

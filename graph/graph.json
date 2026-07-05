@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12214
+    "links": 12225
   },
   "nodes": [
     {
@@ -22628,6 +22628,12 @@
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:generative-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -24092,6 +24098,12 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:llm-system-design-interview",
       "kind": "article-chip",
       "weight": 1
@@ -24627,6 +24639,12 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:llm-deployment",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53816,6 +53834,12 @@
     },
     {
       "source": "wiki:generative-ai",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -56003,6 +56027,12 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
@@ -62930,6 +62960,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -66069,6 +66105,12 @@
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:llm-cost-optimization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75086,6 +75128,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -75818,6 +75866,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -75843,6 +75897,12 @@
     {
       "source": "wiki:prompt-engineering",
       "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76467,6 +76527,12 @@
     {
       "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:llm-rag-production-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:llm-tools",
       "kind": "article-chip",
       "weight": 1
     },

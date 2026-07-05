@@ -184,6 +184,10 @@ The same boundary applies to hard metadata filters, permissions, and date
 constraints. They reduce the search space before ranking, but they can also
 exclude the result the downstream task needed.
 
+Use the [[llm-rag-production-roadmap=>LLM and RAG production roadmap]] to connect
+these retrieval checks with evaluation, citations, feedback loops, and
+operations.
+
 ## System Boundaries
 
 Design retrieval around the object being found and the decision that follows.

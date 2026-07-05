@@ -138,6 +138,7 @@ Agent design can borrow from
 [[evolutionary-algorithms=>evolutionary algorithms]], early NLP, and prompt
 optimization. Minimal task decomposition can come before manager-agent
 orchestration. Tool integration and monitoring wrap the agent system.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] for that history bridge.
 For design details, use
 [[agent engineering]] and
 [[multi-agent-systems=>multi-agent systems]].

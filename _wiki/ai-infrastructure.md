@@ -83,10 +83,11 @@ teams, collect pain points, and measure value. The same team can prioritize
 CI/CD and reproducibility before chasing a complete tool stack. Serving and
 monitoring matter in the same sequence.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-An LLM deployment view starts with deployability and control. Teams choose among
-hosted APIs and compressed open-source models, then decide whether to use
-fine-tuning, retrieval, or self-hosting. Privacy, drift, latency, and cost guide
-those choices. Hardware constraints and hosted API risk matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+An [[llm-deployment=>LLM deployment]] view starts with deployability and control.
+Teams choose among hosted APIs and compressed open-source models, then decide
+whether to use fine-tuning, retrieval, or self-hosting. Privacy, drift, latency,
+and cost guide those choices. Hardware constraints and hosted API risk matter
+too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 ## Compute, GPUs, and Cloud Boundaries
 

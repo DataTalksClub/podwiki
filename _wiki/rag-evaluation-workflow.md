@@ -240,6 +240,9 @@ Provider drift can change behavior, while latency, cost, and serving choices
 also become production constraints. Use versioned traces to compare runs when
 the model, index, embedding model, or prompt changes.
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+That comparison sits inside the broader [[llm-tools=>LLM tools]] stack when the
+team changes model access, retrieval infrastructure, prompts, or observability
+together.
 
 These logs connect RAG evaluation to
 [[Model Monitoring]],
