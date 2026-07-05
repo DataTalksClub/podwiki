@@ -6,7 +6,7 @@ keyword: "product owner vs product manager"
 secondary_keywords:
   - product manager vs product owner
   - product owner vs pm
-summary: "Compare product owner, product manager, and domain owner decision rights, with links to the data-product-specific comparison."
+summary: "Compare product owner and product manager decision rights, with a short boundary for domain ownership and links to data-specific pages."
 related_wiki:
   - Data Product Owner vs Data Product Manager
   - Data Product Management
@@ -27,12 +27,12 @@ release accountability. A product manager owns discovery and prioritization.
 They also handle rollout, metrics, and stakeholder alignment. One person may
 wear both hats.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
-When the product is data or ML, use [[Data Product Owner vs Data Product Manager]]
-for the data-specific version. Use [[Data Product Manager vs Product Manager]]
-for the data PM versus general PM comparison. Use [[ML Product Manager Role]]
-when model lifecycle or ML platform decisions set the boundary.
+When the product is data or ML, [[Data Product Owner vs Data Product Manager]]
+handles the data-specific version. [[Data Product Manager vs Product Manager]]
+compares data PMs with general PMs. [[ML Product Manager Role]] handles model
+lifecycle and ML platform decisions.
 
-## Product Owner Decisions
+## Delivery and Release Authority
 
 A product owner owns decisions close to the delivery team. They translate
 stakeholder needs into team work and protect the team from unrealistic requests.
@@ -49,11 +49,11 @@ one person can cover several data science use cases, the owner has to explain
 the staffing gap. The work may need a data scientist, ML engineer, MLOps
 support, or data engineering help.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
-For the data-specific owner role, move to [[Data Product Owner vs Data Product Manager]].
-It covers consumer guarantees, data quality, Data Mesh ownership, and
+[[Data Product Owner vs Data Product Manager]] adds the data-specific owner
+role. It separates consumer guarantees, data quality, Data Mesh ownership, and
 model-quality release decisions.
 
-## Product Manager Decisions
+## Discovery and Product Direction
 
 A product manager owns the product-management system around the team. They start
 with customer discovery and problem framing. Then they turn that work into a
@@ -67,10 +67,10 @@ Internal platform PM work keeps the same boundary. A technical PM can gather
 feedback, write specifications, and manage a roadmap. They can also prioritize
 backlog work with engineering while engineers own the solution path.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
-Use [[Data Product Manager]] for the data PM role definition and
-[[ML Product Manager Role]] for ML platform or model-backed product work.
+[[Data Product Manager]] defines the data PM role. [[ML Product Manager Role]]
+handles ML platform or model-backed product work.
 
-## Domain Owner Decisions
+## Domain Leadership Is Separate
 
 A domain owner is a portfolio or capability role, not a synonym for product
 owner. In the data science example, data scientists and analysts report to the
@@ -86,7 +86,7 @@ This boundary connects to [[Data Teams]] and [[Data Product Management]].
 Cross-team data science work often needs shared staffing, technical standards,
 and [[MLOps]] judgment.
 
-## Title Fit
+## Assign the Missing Decision
 
 Use product owner when the missing decision is close to delivery:
 
@@ -112,7 +112,7 @@ ML work, add domain leadership.[[cite:building-data-products-product-owner-vs-pr
 
 ## Related Pages
 
-These pages cover the adjacent data and ML role boundaries:
+Continue with adjacent data and ML role boundaries:
 
 - [[Data Product Owner vs Data Product Manager]]
 - [[Data Product Manager]]

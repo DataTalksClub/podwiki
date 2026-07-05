@@ -33,18 +33,18 @@ online serving, and orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
-When people ask for MLOps frameworks or an MLOps architecture diagram, answer
+When people ask for MLOps frameworks or an MLOps architecture diagram, start
 with this operating map. The diagram should show the forward path from data to
 serving and the return path from monitoring to investigation, rollback, or
 retraining. Use [[MLOps Engineer]] for role ownership and [[MLOps Roadmap]] for
 the learning and rollout sequence. Use [[ML Platforms]] for the shared platform
 layer and [[MLOps Tools]] for stack selection after the boundaries are clear.
 
-## Reference Architecture Boundaries
+## Production Boundaries
 
-Across these interviews, an MLOps framework is less a named methodology and
-more a set of connected boundaries. It has to connect lifecycle stages, shared
-platform capabilities, and adoption work without hiding who owns each handoff.
+An MLOps framework is less a named methodology than a set of connected
+production boundaries. It has to connect lifecycle stages, shared platform
+capabilities, and adoption work without hiding who owns each handoff.
 
 Simon's platform discussion follows the data scientist workflow. Around that
 workflow, teams add experiment tracking and a model registry. They also connect
@@ -56,9 +56,9 @@ also needs package registries, model registry, deployment, and monitoring before
 the team chases a larger platform
 ([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
-For an MLOps architect, those boundaries become four design checks. The team
-needs reproducible training, an approved artifact path to deployment,
-observable serving, and named owners for feedback signals.
+For an MLOps architect, those boundaries become design checks. The team needs
+reproducible training, an approved artifact path to deployment, observable
+serving, and named owners for feedback signals.
 
 Danny Leybzon describes the architect role as a bridge between customer
 constraints, business priorities, and technical tradeoffs. Monitoring and data
@@ -66,8 +66,8 @@ observability still have to fit the existing inference architecture
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
 
-Use [[MLOps Roadmap]] for sequence, [[ML Platforms]] for shared infrastructure
-choices, and [[MLOps Engineer]] for day-to-day ownership of each boundary.
+Use [[MLOps Roadmap]] for rollout sequence, [[ML Platforms]] for shared
+infrastructure choices, and [[MLOps Engineer]] for day-to-day ownership.
 
 ## Architecture Flow
 
@@ -100,8 +100,8 @@ data-driven triggers, automated retraining, and monitoring as a source of new
 training data
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
-The return path explains how a deployed model keeps learning from the world
-without hiding responsibility behind automation.
+That return path keeps automation from hiding who approves retraining,
+rollback, or product changes.
 
 ## Data Inputs and Feature Pipelines
 
@@ -217,10 +217,10 @@ for migration and lock-in tradeoffs
 That matters for [[MLOps]]: the simplest repeatable release path usually beats a
 broad platform that the team can't yet operate.
 
-For an MLOps architect, this section maps the release path. It should show
-predeployment checks and package or container locations. It should also show how
-the model version reaches serving and how the team rolls back. Use
-[[MLOps Tools]] for the CI/CD, registry, and deployment-product choices.
+For an MLOps architect, the release path should show predeployment checks and
+package or container locations. It should also show how the model version
+reaches serving and how the team rolls back. Use [[MLOps Tools]] for the CI/CD,
+registry, and deployment-product choices.
 
 ## Orchestration and Serving
 
@@ -388,8 +388,9 @@ platform may need to support API handoffs and ML-engineer bridge roles. Small
 mixed teams can need different support from a centralized deployment path
 ([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
 
-Keep this section about which interfaces are local and which become shared.
-Simon warns against heavy platform investment before model value exists. Raphaël
+Keep the architecture focused on which interfaces are local and which become
+shared. Simon warns against heavy platform investment before model value exists.
+Raphaël
 frames a centralized MLOps team as an enabling layer
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]])
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
@@ -400,7 +401,7 @@ repeated team work changes the component boundary
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]])
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
-## Design Checks by Failure Mode
+## Failure-Mode Checks
 
 Use failure modes to test the architecture. For the order to learn or roll out
 fixes, use [[MLOps Roadmap]]. In the architecture, each failure shows a missing
@@ -444,18 +445,18 @@ workflow fit, even when the team buys an end-to-end platform
 Use the smallest component map the team can apply consistently while still
 shipping and maintaining reliable models.
 
-## Architecture Checklist
+## Production Map Checks
 
-This checklist combines Simon's lifecycle and governance flow with Maria's
-minimum standardized stack. It also uses Raphaël's reproducibility and adoption
-work and Danny's monitoring-to-data-pipeline boundary
+These checks combine Simon's lifecycle and governance flow with Maria's minimum
+standardized stack. They also use Raphaël's reproducibility and adoption work
+and Danny's monitoring-to-data-pipeline boundary
 ([[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]]
 [[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
 [[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]]
 [[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]).
 
-Before adding another platform component, check whether the current architecture
-covers these points:
+Before adding another platform component, check whether the current
+architecture covers these points:
 
 - Each data input, feature pipeline, training job, model artifact, service, and
   alert has an owner.

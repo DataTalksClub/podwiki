@@ -3,8 +3,8 @@ layout: article
 tags: ["guide"]
 title: "Data Product Manager"
 keyword: "data product manager"
-summary: "A definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products."
-search_intent: "Define what a data product manager is, when a team needs one, and how the role differs from analytics, data science, and product owner work."
+summary: "A data product manager role reference for users, ownership, discovery, adoption, and adjacent product-role boundaries."
+search_intent: "Define what a data product manager is, when a team needs one, and where to go for adjacent role comparisons."
 related_wiki:
   - Data Product Management
   - Data Product Adoption
@@ -13,37 +13,36 @@ related_wiki:
   - Experimentation and Causal Inference
 ---
 
-A data product manager is a product manager who makes data useful to a real
-group of users. The role can cover dashboards, metric layers, analytics
-products, and data applications. It can also cover machine-learning features and
-internal platforms. The manager asks who will use the product and which decision
-it supports. They also ask how people will trust it and how the team will know
-it worked.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+A data product manager makes data useful to a real group of users. They may own
+dashboards, metric layers, analytics products, or data applications. They may
+also own machine-learning features or internal platforms. The manager asks who
+will use the product and which decision it supports. They also ask how people
+will trust it and how the team will know it worked.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The role belongs inside [[Data Product Management]]. Work starts with customer
 discovery and problem framing, then continues through delivery, adoption, and
-measurement. Use [[Data Products]] for the product concept and
-[[Data Product Adoption]] for the post-launch adoption problem. Use
-[[Data Product Manager vs Product Manager]] and
-[[Data Product Owner vs Data Product Manager]] for title boundaries.
+measurement. [[Data Products]] explains the product concept, and
+[[Data Product Adoption]] explains the post-launch adoption problem.
+For title boundaries, use [[Data Product Manager vs Product Manager]] and
+[[Data Product Owner vs Data Product Manager]].
 
-## Role Definition
+## Product Judgment Surface
 
 A data product manager owns product judgment around a data capability. They
-start with customer discovery, form hypotheses about the problem, and research
-the market or tooling context before the team commits to a solution.
+start with customer discovery, form hypotheses about the problem, and check the
+market or tooling context before the team commits to a solution.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
-The role isn't request intake for dashboards or models. The manager has to
-understand the user problem and the data lifecycle. That lifecycle runs through
-source systems and transformations. It continues through warehouses and lakes.
-It also includes applications, dashboards, APIs, and internal platforms.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+The role isn't request intake for dashboards or models. The manager connects the
+user problem to the full data lifecycle. That lifecycle can include source
+systems, transformations, warehouses, and lakes. It can also include
+applications, dashboards, APIs, and internal platforms.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 Data quality, SQL, and documentation literacy sit inside the role's working
 context. PII and compliance sit there too. They constrain what the team can
 responsibly ship. They aren't polish added after product discovery.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
-## Core Responsibilities
+## Discovery, Roadmap, and Metrics
 
 A data product manager owns four recurring questions:
 
@@ -64,7 +63,7 @@ prioritization for data scientists, analysts, engineers, or business users.
 Use [[ML Product Manager Role]] when the platform or product depends on model
 lifecycle decisions.
 
-## Adoption Work
+## Adoption After Launch
 
 A team hasn't finished the product work if it only ships the data output.
 People have to find the data, understand it, trust it, and bring it into the
@@ -84,12 +83,13 @@ This is why the role overlaps with [[Product Analytics]] and
 statistician for every test, but they need enough judgment to connect metrics,
 guardrails, and rollout decisions.
 
-## Boundaries
+## Boundaries With Adjacent Roles
 
-The title boundary changes by company. Some teams use data product manager for
-broad product-management work around data. Others use product owner for the
-person who translates requirements, shields the team, and decides whether a
-release is good enough.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+The title boundary changes by company.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+A data product manager owns the user problem, roadmap, and metrics. They also
+own launch and adoption. [[Data Product Manager vs Product Manager]] compares
+that work with general product management. [[Data Product Owner vs Data Product Manager]]
+separates data-specific owner accountability from data PM direction.
 
 The technical boundary is more stable. Engineers, data scientists, and technical
 leads own solution design and implementation. The data product manager owns the
@@ -101,7 +101,7 @@ Use [[Product Owner vs Product Manager]] for the generic title split,
 release authority. Use [[Data Product Manager vs Product Manager]] for how data
 PM work differs from general PM work.
 
-## Need Signals
+## Missing Role Signals
 
 You need data product management when data work has real users, competing
 priorities, and decisions that should change. Use decisions as the signal, not
@@ -119,7 +119,7 @@ judgment that turns data work into used data products.
 
 ## Related Pages
 
-These pages cover adjacent role boundaries and learning paths:
+Continue with adjacent role boundaries and learning paths:
 
 - [[Data Product Management]]
 - [[Data Product Manager vs Product Manager]]

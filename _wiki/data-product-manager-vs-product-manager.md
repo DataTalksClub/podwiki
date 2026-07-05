@@ -6,7 +6,7 @@ keyword: "data product manager vs product manager"
 secondary_keywords:
   - product manager vs data product manager
   - data pm vs product manager
-summary: "How product managers and data PMs differ on ownership, technical literacy, metrics, data quality, governance, and adoption."
+summary: "How a data product manager differs from a general product manager when data itself is the product."
 related_wiki:
   - Data Product Management
   - Data Products
@@ -26,16 +26,15 @@ delivery, and learn after launch.[[cite:product-designer-to-data-product-manager
 
 Start with the product surface. A product manager may own a feature, workflow,
 marketplace, or customer-facing experience. A data product manager owns data as
-the product. That product may be a dashboard, metric layer, or governed dataset.
-It may also be a recommendation API, experimentation tool, data application, or
+the product. That product may be a dashboard, metric layer, governed dataset, or
+recommendation API. It may also be an experimentation tool, data application, or
 internal platform.[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
-Use [[Data Product Manager]] for the role definition. Use
-[[Data Product Owner vs Data Product Manager]] for the data owner/manager
-split, and [[ML Product Manager Role]] when the product is model-backed or
-platform-heavy.
+[[Data Product Manager]] defines the role. [[Data Product Owner vs Data Product Manager]]
+separates data-owner accountability from data-PM direction. [[ML Product Manager Role]]
+handles model-backed or platform-heavy products.
 
-## Shared Product Work
+## Same Craft, Different Product
 
 Both roles start from the customer problem. They work backward to strategy and
 solution, then set a roadmap and launch plan. The PM should define the problem
@@ -52,7 +51,7 @@ market-facing roadmap questions.
 Use the data product manager label when the main unknown is how people should
 use data in a decision or workflow.
 
-## Data PM Additions
+## Data-Specific Additions
 
 A data product manager adds data lifecycle judgment to product judgment. They
 need to understand how data moves from sources through transformations into
@@ -71,7 +70,7 @@ The data version therefore isn't "PM plus SQL." SQL can be required, but the
 role also includes data quality, PII, and compliance. Documentation, consumer
 trust, and adoption belong there too.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
-## Users and Adoption
+## Adoption and Trust
 
 General PMs care about adoption. Data PMs inherit an extra failure mode:
 technically correct data can still fail if people can't find it or interpret it.
@@ -85,9 +84,9 @@ operator who makes the decision.[[cite:last-mile-data-delivery-and-data-product-
 Adoption problems call for user research. Ask whether users know the data
 product exists and know how to use it. Then ask whether they trust it and
 believe it answers their actual question.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-Use [[Data Product Adoption]] for the fuller adoption page.
+[[Data Product Adoption]] expands the adoption problem.
 
-## Metrics and Roadmaps
+## Metrics and Roadmaps Around Data
 
 Product managers define metrics that prove whether the product worked. Data
 product managers also define operational and trust metrics for the data system.
@@ -122,9 +121,9 @@ works and enough documentation literacy to understand tools also matter.
 For ML platform PMs, planning depends on model lifecycle, architecture, and
 infrastructure literacy.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
-Use [[ML Product Manager Role]] for that deeper model and platform boundary.
+[[ML Product Manager Role]] expands that model and platform boundary.
 
-## Role Fit
+## Title Fit
 
 Use product manager when the product is primarily a user-facing feature,
 commercial product, workflow, or market-facing experience. The PM still needs
@@ -142,7 +141,7 @@ define metrics, and connect the roadmap to adoption.[[cite:building-and-scaling-
 
 ## Related Pages
 
-These pages cover the surrounding data product and role boundaries:
+Continue with data product and role boundaries:
 
 - [[Data Product Manager]]
 - [[Data Product Management]]

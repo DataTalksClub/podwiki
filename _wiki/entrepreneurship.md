@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Entrepreneurship"
-summary: "Data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open-source products, and founder transitions."
+summary: "Data and AI entrepreneurship as a business-building path across startups, solopreneurship, freelance consulting, open-source products, and founder transitions."
 related:
   - Startups
   - Founder
@@ -12,18 +12,18 @@ related:
   - Consultant or Freelancer to Data Product Founder
 ---
 
-Entrepreneurship in this wiki means turning technical or consulting expertise
-into an owned business. The business still centers on data or AI. The business
-paths include [[startups=>startup]] companies and [[solopreneur]] businesses
+Entrepreneurship means turning technical or consulting expertise into an owned
+business. The business still centers on data or AI. It may become a
+[[startups=>startup]], a [[solopreneur]] business, or a consulting practice
 [[cite:building-mlops-startup=>ML startup]]
 [[cite:solopreneur-developer-and-data-professional=>Solopreneurship]].
-They also include [[freelance]] consulting and [[open source]] product companies
+It may also become an open-source product company
 [[cite:building-open-source-data-product-for-identity-resolution=>Open-source product company]].
 
-Across these paths, [[founder]] work connects product and distribution while
-adding pricing and operating risk. Builders watch customer struggles and
-willingness to pay. They also check what the business can keep running without
-burning out
+Across these paths, entrepreneurs repeat the same business work. They observe a
+repeated problem and package a useful offer. Then they find distribution, price
+the value, and keep the operation running without burning out. [[founder]] work
+connects product and distribution once the business becomes a company
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]]
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 
@@ -47,9 +47,9 @@ venture-backed scale. His business mix includes teaching, courses, and books.
 It also includes apps, consulting, and investments
 [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]].
 
-That's still entrepreneurship, but it optimizes for independence and durable
-income rather than headcount or funding rounds. The data-career version is
-[[solopreneur-data-scientist=>solopreneur data scientist]].
+That path is still entrepreneurship, but it optimizes for independence and
+durable income rather than headcount or funding rounds. The data-career version
+is [[solopreneur-data-scientist=>solopreneur data scientist]].
 
 [[person:dimitrivisnadi=>Dimitri Visnadi]] makes the freelance business path
 explicit by separating selling skills from problem-solving expertise. He
@@ -95,7 +95,7 @@ evidence into open-source tools and product-led distribution
 [[cite:from-data-freelancer-to-startup-open-source-products=>DLT product path]]
 [[cite:building-open-source-data-product-for-identity-resolution=>Zingg product path]].
 
-## Evidence Before Building
+## Business Evidence Before Commitment
 
 Tool-first building is a weak starting point. Samuylova's Evidently story turns
 customer discovery into a founder discipline. The team talked to about 50
@@ -250,7 +250,7 @@ They still need the same evidence checks. The builder needs a buyer or user, a
 narrow problem, and distribution. They also need pricing and enough operating
 discipline to keep shipping.
 
-## Founder Role and Business Model
+## Company Formation
 
 Entrepreneurship becomes [[founder]] work when someone has to hold product and
 distribution at the same time. The role also includes money and team choices.
@@ -266,8 +266,8 @@ earlier
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]].
 
 This doesn't mean every entrepreneur needs the same team. Business model,
-distribution channel, and product complexity decide which roles one person can
-realistically cover.
+distribution channel, product complexity, and runway decide which roles one
+person can realistically cover.
 
 Kruszelnicki's pricing section adds the service-business model by arguing
 against pricing only from production cost. Consultants benchmark the market,
@@ -283,8 +283,7 @@ Noah's diversified income mix.
 These pages cover the adjacent startup, solo-business, service, and open-source
 paths.
 
-- [[startups=>Startup]] for the singular startup playbook.
-- [[Startups]] for the broader cross-episode map of startup lessons.
+- [[Startups]] for startup constraints, stages, pilots, and operating context.
 - [[Founder]] for the operating role inside a company.
 - [[Solopreneur]] for intentionally small data and AI businesses.
 - [[Freelance]] for client services, pricing, scoping, and acquisition.

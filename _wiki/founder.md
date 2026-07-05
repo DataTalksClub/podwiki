@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Founder"
-summary: "How founders make operator decisions: choosing problems, validating demand, selling, hiring, funding, bootstrapping, and taking responsibility."
+summary: "How founders choose problems, validate demand, sell, hire, fund, bootstrap, and take responsibility for early product decisions."
 related:
   - Startups
   - Entrepreneurship
@@ -15,17 +15,18 @@ related:
 ---
 
 Founder work means taking responsibility for decisions the company can't
-delegate yet. The founder chooses which problem deserves attention, proves
-demand before the product gets heavy, and decides how users find the product.
-They also hire under uncertainty and turn value into revenue.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+delegate yet. The founder chooses which problem deserves attention and proves
+demand before the product gets heavy. They decide how users find the product.
+They also hire under uncertainty and turn value into revenue. When the company
+has too many constraints, they choose which one to solve next.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
-For company stage and startup constraints, read [[startups=>Startups]]. Use the
-same page for vertical use cases, MLOps scope, team structure, and startup
-career environments. Founder work also appears in [[Machine Learning for Startups]],
-[[Entrepreneurship]], [[Open Source]], and [[Solopreneur]]. The
-[[Consultant or Freelancer to Data Product Founder]] path covers the transition
-from service work to product ownership.
+Read [[startups=>Startups]] for company stage, startup constraints, pilots, and
+operating environments. [[Entrepreneurship]] covers business-building across
+consulting, solo work, products, and open source. [[Machine Learning for Startups]]
+covers ML-specific data access, lean MLOps, and monitoring. It also covers cases
+where a model isn't the right first product. The [[Consultant or Freelancer to Data Product Founder]]
+path covers the transition from service work to product ownership.
 
 Different company contexts change the founder's calendar. Open-source founders
 spend more time on community and developer trust.
@@ -37,9 +38,11 @@ Indie founders spend more time on cost, scope, and personal runway.
 
 ## Choosing the Problem
 
-Technical founders start by choosing a painful workflow, not by declaring that
-they want to build a machine learning startup. The founder question is whether
-[[machine learning]] solves the problem better than a simpler tool.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+Technical founders start by choosing a painful workflow. They don't start by
+declaring that they want to build a machine learning startup. They decide whether
+[[machine learning]] solves the problem better than a simpler tool. They also
+decide whether they can get the data, trust, and distribution needed to make that
+choice matter.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
 A grocery-store team may think the problem is forecasting. Customer
 conversations can show that the store can't collect basic inventory data
@@ -48,8 +51,8 @@ yet.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 FreshFlow shows the same founder move in retail. The company started with a
 computer-vision idea, then studied how fresh-product managers ordered in
 supermarkets. Store work changed the product boundary, so the founder decision
-was to follow the workflow instead of protecting the first idea. [[startups=>Startups]]
-covers the company-stage version of that shift.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+was to follow the workflow instead of protecting the first idea.
+[[startups=>Startups]] covers the company-stage version of that shift.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 In SQIN's regulated-market version, the founders used industry immersion, cold
 outreach, and accelerators. Clinical meetings and conversations with pharmacists
@@ -96,21 +99,22 @@ people in.[[cite:datatalksclub-scaling-and-free-courses@33:40=>Inside Scaling Da
 ## Drawing Product Boundaries
 
 Founders decide what the product is and what it refuses to become. DLT was a
-developer-focused library rather than a platform. That choice kept
-the product inside a data engineer's stack, including tools such as DuckDB,
-instead of taking over the whole workflow. The [[data product management]]
-decision and the engineering decision happened together.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+developer-focused library rather than a platform. That choice kept the product
+inside a data engineer's stack, including tools such as DuckDB, instead of
+taking over the whole workflow. The [[data product management]] decision and the
+engineering decision happened together.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 SQIN shows why product boundaries include ethics and user experience. A skin
 health app couldn't simply tell someone they might have a serious condition.
 The product needed a path from diagnosis to consultation and treatment, plus
 connections to pharmacies and prescriptions.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
-For AI founders, product boundaries include system routing. Some outputs need a
-human or a safer path.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
-Infrastructure sequencing belongs to the startup stage: [[startups=>Startups]]
-covers FreshFlow's managed-cloud choice. [[Lean MLOps for Startups]] covers
-early MLOps scope too.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+AI founders draw product boundaries through system routing. Some outputs need a
+human path or a safer rule-based fallback.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
+[[machine-learning-for-startups=>Machine Learning for Startups]] covers that
+ML-specific boundary in more detail. [[startups=>Startups]] covers FreshFlow's
+managed-cloud choice, and [[Lean MLOps for Startups]] covers early MLOps
+choices.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 Elena Samuylova adds a service-to-product boundary. A founder can start with
 manual delivery behind an interface. The startup becomes scalable only when the
@@ -226,12 +230,12 @@ That makes the Textualize path a useful counterexample to waiting for a
 finished product before talking to investors. Public work, community response,
 and founder learning were already part of the funding evidence.
 
-## Founder Paths Outside Venture
+## Non-Venture Founder Decisions
 
-Venture funding isn't the only founder path here.
-The indie version can start as bootstrapping while keeping a day job. A
-founder can split time and build from their own need. They then own company
-setup, landing pages, legal work, and payments.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
+Venture funding isn't the only founder path here. The indie version can start as
+bootstrapping while keeping a day job. A founder can split time and build from
+their own need. They then own company setup, landing pages, legal work, and
+payments.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
 
 UnrealMe adds launch and cost discipline by comparing API fine-tuning with
 self-hosted GPUs. Twitter and niche listings supported launch while early
@@ -242,9 +246,9 @@ Indie founders can check ideas through competitor scans, skills fit, and the
 ability to build a useful first version. That path sits closer to
 [[Solopreneur]] than to a large startup context. A data-science version of that
 small-business path is
-[[solopreneur-data-scientist=>solopreneur data scientist]]. It still asks
-founder questions. Someone has to name the buyer, channel, running cost, and
-builder's capacity to keep going.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
+[[solopreneur-data-scientist=>solopreneur data scientist]]. The founder decision
+is still concrete: name the buyer, channel, running cost, and builder's capacity
+to keep going.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
 
 Across these discussions, founder work isn't a title. Founders choose the
 problem, validate with real users, and narrow the product. They also pick
@@ -262,7 +266,7 @@ paths:
   technical sequencing.
 - [[Consultant or Freelancer to Data Product Founder]] for service work that
   becomes a product company.
-- [[Entrepreneurship]] for independent-work paths across products and
+- [[Entrepreneurship]] for business-building paths across products and
   consulting.
 - [[open-source-and-developer-relations=>Open Source and Developer Relations]]
   for developer trust, community, and distribution.

@@ -35,19 +35,19 @@ product. For infrastructure and data boundaries, use
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 describes MLOps as a mix of people, operating habits, and technology in
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-The roadmap starts with a reproducible run and a shipped model. It then adds
+Start with a reproducible run and a shipped model. Then add
 production observation, failure response, and a deliberate choice about when
 shared platform work is worth the cost.
 
-## Roadmap Stages
+## Learning Sequence
 
 MLOps readiness grows in stages. First, a learner or team proves
 [[Experiment Tracking]] and [[Reproducibility]]. Next, they add artifact
 handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
 
-Use [[MLOps Architecture]] for how those pieces connect in the operating flow
-and [[MLOps Tools]] for the stack categories at each stage.
+Use [[MLOps Architecture]] for how those pieces connect and [[MLOps Tools]] for
+the stack categories at each stage.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging
@@ -70,12 +70,12 @@ repeatable. Parameterization and testing make the same practices usable across
 teams. Data versioning, traceability, and experiment capture support that reuse
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-For senior work, developer experience and team pain points drive the platform
+For senior work, developer experience and team pain points guide the platform
 agenda. Quick wins and impact tracking show whether platform work helps teams
 ship models
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-## Standardization Timing
+## Platform Work Timing
 
 The main roadmap tradeoff is how much shared platform work to add.
 [[person:mariavechtomova=>Maria Vechtomova]]
@@ -108,7 +108,7 @@ Logging and reproducibility make it a response system, not just a dashboard
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Use [[MLOps Architecture]] for component boundaries and [[MLOps Tools]] for
-stack selection. This roadmap owns the timing. Add platform breadth when the
+stack selection. Add platform breadth when the
 lifecycle repeats, regulation demands it, or production response work is no
 longer optional.
 
@@ -254,7 +254,7 @@ lifecycle. LLM pilots still run into cost, GPU constraints, multilingual
 limits, and hype
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
-The same roadmap still needs reproducible configuration, deployment,
+That specialization still needs reproducible configuration, deployment,
 evaluation, and monitoring. It also needs ownership, cost control, and rollback
 paths.
 

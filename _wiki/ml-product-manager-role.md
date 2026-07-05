@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Product Manager Role"
-summary: "The technical product manager role for ML platforms and ML-enabled data products."
+summary: "The technical product manager role for ML platforms, model-backed products, and ML-enabled data products."
 related:
   - Data Product Management
   - Data Product Manager vs Product Manager
@@ -23,7 +23,7 @@ prioritization, and rollout. It can also include governance and adoption. Use
 [[Data Product Manager]] for the broader data PM role and
 [[Data Product Manager vs Product Manager]] for the general role comparison.
 
-## Model-Backed Product Ownership
+## Model-Backed Product Direction
 
 An ML product manager is still a product manager. They own the user problem,
 prioritization logic, roadmap sequence, and rollout plan. They also own the
@@ -41,7 +41,7 @@ architects. Then they frame requirements and an initial business case. Research
 tests whether ML can solve the problem better than the current approach.
 [[cite:make-money-with-machine-learning-roles-skills@43:28=>ML Monetization Roles]]
 
-## Platform PM Work
+## ML Platform Customers
 
 Internal ML platform users are customers. A platform can serve data scientists,
 analysts, ML engineers, and business data engineers. Poor platform UX costs the
@@ -57,11 +57,11 @@ strategy, observability, and adoption. That puts the role close to
 The technical surface can include [[Machine Learning Infrastructure]],
 [[Model Registry]], and [[Model Monitoring]]. It can also include CI/CD,
 Kubernetes, and cloud services. Event streaming and big data systems may matter
-too. Database infrastructure may matter too, though the PM doesn't own those
+too. Database infrastructure may matter, though the PM doesn't own those
 implementations. They still need enough literacy to prioritize with engineers.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
-## AI Product Roadmaps
+## AI and ML Roadmaps
 
 AI and ML roadmaps should start with customer needs and business problems, not
 with "build a model." Interviews, documentation review, Five Whys analysis, and
@@ -90,9 +90,9 @@ Approvals, compliance, and rollout timing all matter. Model validation and
 shadowing matter too. Quality assurance and release checklists can also decide
 whether an ML-backed capability is ready for users.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
-Use [[Data Product Owner vs Data Product Manager]] for the data owner versus
-manager split. Use this page for the model and platform conditions that change
-the PM's release judgment.
+[[Data Product Owner vs Data Product Manager]] separates data owner
+accountability from data PM direction. ML product management adds the model and
+platform conditions that change the PM's release judgment.
 
 ## Engineering Boundary
 
@@ -117,7 +117,7 @@ visible without replacing the specialists who build the system.
 
 ## Related Pages
 
-These pages cover adjacent data, ML, and platform boundaries:
+Continue with adjacent data, ML, and platform boundaries:
 
 - [[Data Product Manager]]
 - [[Data Product Management]]

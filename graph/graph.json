@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11928
+    "links": 11913
   },
   "nodes": [
     {
@@ -210,7 +210,7 @@
       "title": "Data PM vs Product Manager",
       "url": "/wiki/data-product-manager-vs-product-manager/",
       "count": 1,
-      "search": "Data PM vs Product Manager How product managers and data PMs differ on ownership, technical literacy, metrics, data quality, governance, and adoption.",
+      "search": "Data PM vs Product Manager How a data product manager differs from a general product manager when data itself is the product.",
       "keyword": "data product manager vs product manager"
     },
     {
@@ -221,7 +221,7 @@
       "title": "Data PO vs Data PM",
       "url": "/wiki/data-product-owner-vs-data-product-manager/",
       "count": 1,
-      "search": "Data PO vs Data PM Compare data product owner and data product manager responsibilities for data products, ML products, platforms, guarantees, roadmaps, and adoption.",
+      "search": "Data PO vs Data PM Compare data product owner and data product manager responsibilities inside data products: consumer guarantees, release quality, roadmaps, and adoption.",
       "keyword": "data product owner vs data product manager"
     },
     {
@@ -232,7 +232,7 @@
       "title": "Data Product Manager",
       "url": "/wiki/data-product-manager/",
       "count": 1,
-      "search": "Data Product Manager A definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
+      "search": "Data Product Manager A data product manager role reference for users, ownership, discovery, adoption, and adjacent product role boundaries.",
       "keyword": "data product manager"
     },
     {
@@ -524,7 +524,7 @@
       "title": "Machine Learning for Startups",
       "url": "/wiki/machine-learning-for-startups/",
       "count": 1,
-      "search": "Machine Learning for Startups A practical startup guide to ML problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
+      "search": "Machine Learning for Startups A practical startup guide to ML specific problem selection, MVPs, data/product fit, lean MLOps, hiring, monitoring, and knowing when not to use ML.",
       "keyword": "machine learning for startups"
     },
     {
@@ -707,7 +707,7 @@
       "title": "PO vs PM",
       "url": "/wiki/product-owner-vs-product-manager/",
       "count": 1,
-      "search": "PO vs PM Compare product owner, product manager, and domain owner decision rights, with links to the data product specific comparison.",
+      "search": "PO vs PM Compare product owner and product manager decision rights, with a short boundary for domain ownership and links to data specific pages.",
       "keyword": "product owner vs product manager"
     },
     {
@@ -9614,7 +9614,7 @@
       "title": "Entrepreneurship",
       "url": "/wiki/entrepreneurship/",
       "count": 1,
-      "search": "Entrepreneurship Data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open source products, and founder transitions."
+      "search": "Entrepreneurship Data and AI entrepreneurship as a business building path across startups, solopreneurship, freelance consulting, open source products, and founder transitions."
     },
     {
       "id": "wiki:etl",
@@ -9724,7 +9724,7 @@
       "title": "Founder",
       "url": "/wiki/founder/",
       "count": 1,
-      "search": "Founder How founders make operator decisions: choosing problems, validating demand, selling, hiring, funding, bootstrapping, and taking responsibility."
+      "search": "Founder How founders choose problems, validate demand, sell, hire, fund, bootstrap, and take responsibility for early product decisions."
     },
     {
       "id": "wiki:freelance-data-and-ml-careers",
@@ -10074,7 +10074,7 @@
       "title": "ML Product Manager Role",
       "url": "/wiki/ml-product-manager-role/",
       "count": 1,
-      "search": "ML Product Manager Role The technical product manager role for ML platforms and ML enabled data products."
+      "search": "ML Product Manager Role The technical product manager role for ML platforms, model backed products, and ML enabled data products."
     },
     {
       "id": "wiki:ml-system-design-documents",
@@ -10605,7 +10605,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Startup context for data and AI work: stages, constraints, team shape, product market fit, MLOps choices, and open source boundaries."
+      "search": "Startups Startup context for data and AI work: stages, constraints, pilots, team shape, product market fit, MLOps choices, and open source boundaries."
     },
     {
       "id": "wiki:streaming",
@@ -46370,12 +46370,6 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
       "target": "person:tomaszhinc",
       "kind": "wiki-chip",
       "weight": 1
@@ -46430,12 +46424,6 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
@@ -46467,20 +46455,8 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-engineering-tools",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -46580,6 +46556,18 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:elt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-related",
       "weight": 3
@@ -46616,12 +46604,6 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "wiki:model-monitoring-vs-data-observability",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -46631,12 +46613,6 @@
       "target": "wiki:orchestration",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
@@ -47079,12 +47055,6 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:ci-cd",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47111,12 +47081,6 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-platforms",
@@ -47199,20 +47163,8 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops-platforms",
-      "target": "wiki:orchestration",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-platforms",
@@ -47468,25 +47420,7 @@
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
-      "target": "person:christopherbergh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
-      "target": "person:larsalbertsson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
       "target": "person:mehdiouazza",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
-      "target": "person:nataliekwong",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47499,12 +47433,6 @@
     {
       "source": "wiki:dataops-vs-data-engineering",
       "target": "person:slawomirtulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
-      "target": "person:tomaszhinc",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47696,7 +47624,7 @@
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
-      "target": "wiki:mlops-vs-dataops",
+      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -66825,12 +66753,6 @@
     {
       "source": "wiki:mlops-tools",
       "target": "wiki:mlops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-tools",
-      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67262,12 +67184,6 @@
     },
     {
       "source": "wiki:mlops-vs-devops",
-      "target": "wiki:notebook-to-production-ai-systems",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
       "target": "wiki:platform-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -67301,12 +67217,6 @@
       "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-devops",

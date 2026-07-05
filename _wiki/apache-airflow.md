@@ -24,18 +24,17 @@ related:
   - Modern Data Stack
 ---
 
-Apache Airflow is the concrete orchestrator for recurring data and
-machine-learning work that needs DAGs and job schedules. Teams use it when they
-need dependency state, retries, logs, and backfills. Airflow-specific questions
-usually involve DAG design and scheduler/executor behavior. They also involve
-local Docker setups, backfills, and shared Airflow infrastructure.
+Apache Airflow is the concrete scheduler and orchestrator for recurring data and
+machine-learning work that teams want to express as DAGs. Use this page when the
+question is Airflow-specific: DAG structure and task retries. It also covers
+backfills, scheduler/executor behavior, local Docker Compose setup, and shared
+Airflow operations.
 
-[[Orchestration]] covers the broader control-plane concept. Use it when the
-question is how teams coordinate dependencies, schedules, and recovery across
-tools.
-[[Data Pipelines]] describes the source-to-output system Airflow coordinates,
-and [[How to Build Data Pipelines]] gives the build sequence. Guests mention
-Airflow most often around
+[[Orchestration]] covers the broader control-plane concept across workflow
+engines, CI/CD systems, cloud schedulers, and ML pipeline services. Use that page
+for cross-tool scheduling choices. [[Data Pipelines]] describes the
+source-to-output system Airflow coordinates, and [[How to Build Data Pipelines]]
+gives the build sequence. Guests mention Airflow most often around
 [[data pipelines]], [[DataOps]], [[data engineering platforms]], and the
 [[modern data stack]].
 
@@ -50,9 +49,9 @@ like a platform to operate.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
 Guests usually treat Airflow as coordination infrastructure, not as the whole
-pipeline. The ingestion tool or warehouse job should still own the
-transformation logic. So should the Spark job, dbt project, feature pipeline,
-or Python module. Airflow owns the schedule, dependency graph, run state, and
+pipeline. Teams keep transformation logic in the ingestion tool or warehouse
+job. It can also live in a Spark job, dbt project, feature pipeline, or Python
+module. They use Airflow for the schedule, dependency graph, run state, and
 visibility around those steps.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
@@ -111,15 +110,15 @@ copied by hand. That puts shared Airflow close to
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Airflow alternatives matter when the operating surface is heavier than the
-workflow. A one-script project may start with GitHub Actions or a cloud
-scheduler. On AWS, CloudWatch and Lambda can be enough.
+Airflow is a poor fit when the deployment surface is heavier than the workflow. A
+one-script project may start with GitHub Actions or a cloud scheduler. On AWS,
+CloudWatch and Lambda can be enough. Use Airflow when shared logging, dependency
+state, reruns, and recovery justify running Airflow services. Those services
+include the scheduler and workers, plus the metadata database, web UI, and
+deployment work.
 
-Prefect, Dagster, and Luigi can fit adjacent orchestration needs. For ML
-workflows, SageMaker Pipelines or Kubeflow Pipelines may fit. Kubernetes can be
-the runtime under a heavier setup. Use Airflow when shared logging, dependency
-state, reruns, and recovery justify its services and deployment work. Use
-[[Orchestration]] for the broader scheduling comparison.
+Use [[Orchestration]] for the broader comparison with adjacent
+workflow engines, ML pipeline services, and cloud-native schedulers.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
@@ -235,9 +234,9 @@ Airflow is worth the operating surface.
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
-## Related Pages
+## Connected Pipeline Topics
 
-These pages cover the concepts and comparisons used above.
+Use these pages for related pipeline concepts and build paths.
 
 - [[Orchestration]]
 - [[Data Pipelines]]

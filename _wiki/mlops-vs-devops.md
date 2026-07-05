@@ -25,11 +25,12 @@ useful distinction is which practices transfer to machine learning and which
 ML-specific risks they still miss. Use that distinction instead of a
 definitional side-by-side of the two terms.
 
-For the broader guide to workflow and monitoring across both disciplines, use
+For workflow and monitoring across both disciplines, use
 DataTalks.Club's
 [overview of DevOps and MLOps](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
 as the starting point. For team models and maturity models, start there too.
-Here, the focus is the transfer boundary seen in real production experience.
+The comparison hinges on where software-delivery risk ends and model-behavior
+risk begins.
 
 MLOps and DevOps share a production goal: teams need to version code and
 automate delivery while they observe running systems and recover without
@@ -166,9 +167,7 @@ deployment patterns, and model outputs.
 They don't need to be the strongest modelers on the team, but they need enough
 context to build useful tools for data scientists.
 
-That puts MLOps beside
-[[ML Platforms]],
-[[Machine Learning Infrastructure]],
+That puts MLOps beside [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[MLOps Engineer]].
 
 Central MLOps work enables teams rather than removing ownership. It links
@@ -214,7 +213,7 @@ DevOps keeps the runtime reliable. DataOps
 keeps the data path reliable. MLOps ties those paths to model artifacts,
 prediction behavior, and retraining decisions.
 
-## Career and Team Signals
+## Career Transfer
 
 Engineers from DevOps, SRE, backend, or platform backgrounds can move toward
 MLOps when they add the ML lifecycle to their existing production skills. APIs
@@ -278,24 +277,3 @@ fraud model API or recommender system still needs DevOps discipline. So does a
 batch scoring workflow or LLM-backed feature. The same system also needs MLOps
 discipline because deployed behavior can change even when the code and
 infrastructure look healthy.
-
-## Related Pages
-
-These pages cover the operating models and production concepts behind the
-comparison:
-
-- [[MLOps]]
-- [[Software Engineering]]
-- [[Platform Engineering]]
-- [[ML Platforms]]
-- [[Machine Learning Infrastructure]]
-- [[ci-cd=>CI/CD]]
-- [[Reproducibility]]
-- [[Experiment Tracking]]
-- [[Model Registry]]
-- [[Model Monitoring]]
-- [[data-quality-and-observability=>Data Observability]]
-- [[DataOps]]
-- [[MLOps Engineer]]
-- [[Software Engineer to Machine Learning]]
-- [[Notebook to Production AI Systems]]
