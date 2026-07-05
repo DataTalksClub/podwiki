@@ -9,6 +9,7 @@ related:
   - Retrieval-Augmented Generation
   - Agent Engineering
   - AI Red Teaming
+  - Prompt Injection and Chatbot Risk Management
   - AI Tooling
 ---
 
@@ -195,8 +196,9 @@ A bot may have instructions not to reveal confidential information, and another
 layer may check the output. Users can still overload the prompt, use dense
 characters, craft API requests, or otherwise distract the model from the
 original restriction. [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
-Prompt engineering therefore has a direct boundary with [[AI Red Teaming]] and
-[[Security]]. A secure system needs query analysis, output validation, retrieval
+Prompt engineering therefore has a direct boundary with [[AI Red Teaming]],
+[[Prompt Injection and Chatbot Risk Management]], and [[Security]]. A secure
+system needs query analysis, output validation, retrieval
 controls, and human review where the risk warrants it.
 
 Prompt injection is especially important for RAG because the model may receive

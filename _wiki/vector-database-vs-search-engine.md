@@ -12,6 +12,10 @@ related_wiki:
   - Search
   - Vector Databases
   - Embeddings
+  - Information Retrieval
+  - Search Relevance
+  - Vector Search vs Keyword Search
+  - Knowledge Graph vs Vector Search
   - Retrieval-Augmented Generation
   - Production Search Evaluation
 ---

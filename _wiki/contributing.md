@@ -3,9 +3,12 @@ layout: wiki
 title: "Contributing"
 summary: "Podcast-backed guidance on useful contribution paths: reproducible issues, docs fixes, examples, tests, pull requests, mentoring, and community participation."
 related:
+  - Open Source
+  - Open Source ML Contributions
   - Open Source and Developer Relations
   - Open Source Portfolio Evidence
   - Community
+  - Community Building
   - Documentation
   - Practices
 ---
@@ -18,10 +21,14 @@ and community support are contribution work too.
 
 A clear, reproducible issue is a real contribution. First code pull requests
 connect to tests, CI, packaging, and pre-commit. Contribution is part of
-[[open source]] and [[software engineering]], not a separate prestige activity
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+[[open source]] and [[software engineering]]. It isn't a separate prestige
+activity ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+
 For the ML-tool contribution version, use
 [[open-source-ml-contributions=>open-source ML contributions]].
+Use [[Open Source Contributor Roadmap]] for an ordered contribution path.
+Use [[Open Source Portfolio Evidence]] when the question is how to present
+public work to employers.
 
 ## Small Work That Reduces Maintainer Load
 

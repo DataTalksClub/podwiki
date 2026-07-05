@@ -7,6 +7,7 @@ related:
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Lake
+  - Data Warehouse vs Data Lakehouse
   - Analytics Engineering
   - Business Intelligence
   - dbt
@@ -98,8 +99,7 @@ metadata, access, and lineage in that split.
 
 Teams can combine open storage with warehouse-like behavior and reduce
 lock-in.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
-For a deeper comparison, start with [Data Warehouse vs Data
-Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+For a deeper comparison, start with [[Data Warehouse vs Data Lakehouse]].
 
 Storage engine internals sit beneath both warehouses and lakehouses. Alex
 Petrov's [[book:20210315-database-internals=>Database Internals]] Book of the Week
@@ -187,8 +187,7 @@ tables unused, ownership unclear, and transformations undocumented.[[cite:data-e
 
 [[Data Governance]] covers
 warehouse ownership and policy decisions, including access and shared
-definitions. [Data Quality and
-Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+definitions. [[Data Quality and Observability]]
 covers freshness and schema checks. It also covers lineage plus tests and
 incident signals.
 
@@ -231,18 +230,17 @@ whether people trust it, and how to measure adoption.[[cite:last-mile-data-deliv
 
 Warehouse work connects to these adjacent Podwiki pages:
 
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+- [[Data Engineering Platforms]],
   [[modern data stack]], and [[ETL vs ELT]] cover the platform choices around a
   warehouse.
-- [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) and [Data Warehouse vs
-  Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [[Data Lake]] and [[Data Warehouse vs Data Lakehouse]]
   cover the storage-boundary tradeoffs.
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-  [[dbt]], and [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
+- [[Analytics Engineering]],
+  [[dbt]], and [[Business Intelligence]]
   cover the modeled layer that people query.
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-  [[data governance]], and [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+- [[Data Quality and Observability]],
+  [[data governance]], and [[FinOps for Data Engineers]]
   cover operations, trust, and cost control.
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-  and [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) cover how
+- [[Data Product Adoption]]
+  and [[Reverse ETL]] cover how
   warehouse data reaches dashboards and business tools.

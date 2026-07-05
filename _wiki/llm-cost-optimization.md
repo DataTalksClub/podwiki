@@ -7,6 +7,8 @@ related:
   - LLM Production Patterns
   - LLM Deployment
   - Prompt Engineering
+  - Context Engineering
+  - Retrieval-Augmented Generation
   - AI Engineering
 ---
 

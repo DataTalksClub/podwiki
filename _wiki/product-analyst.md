@@ -220,16 +220,13 @@ A product analyst should protect that simplicity when stakeholders ask for many
 variants or many success metrics. They should also push back on a post-hoc
 interpretation that the test wasn't designed to support.
 
-## Product Analyst vs Data Analyst, Analytics Engineer, and Product Manager
+## Adjacent Role Boundaries
 
 A product analyst is a specialized [[data-analyst-role=>data analyst]] focused
-on product decisions. The broader analyst role covers SQL, dashboards, and KPIs.
-It also covers experiments, stakeholder work, and recommendations. The product analyst applies
-that toolkit to product journeys and activation. Retention, engagement, feature
-usage, and experimentation also become central.[[cite:data-team-roles=>Data Team Roles Explained]]
-
-The title boundary isn't stable across companies. Product analyst, data analyst,
-and business analyst labels separate by the work each company assigns.[[cite:data-team-roles=>Data Team Roles Explained]]
+on product decisions. [[Product Analyst vs Data Analyst]] covers the full
+comparison with broader analyst work. The short version is that product
+analysts apply the analyst toolkit to product journeys. Activation and retention
+become central. So do engagement, feature usage, and experimentation.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 The boundary with [[Analytics Engineering]] depends on team size because
 analytics engineering work spans SQL, BI, and `dbt` migration. It connects to

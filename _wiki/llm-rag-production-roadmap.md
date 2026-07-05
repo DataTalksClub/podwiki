@@ -185,7 +185,6 @@ operations.
 Adjacent production-system topics:
 
 - [[LLM Production Patterns]]
-- [[retrieval-augmented-generation=>RAG]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[Search]]
 - [[LLM Evaluation Workflows]]

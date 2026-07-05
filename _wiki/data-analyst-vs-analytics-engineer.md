@@ -333,18 +333,9 @@ Problem sizing and A/B test interpretation also matter
 ([[cite:data-team-roles=>Data Team Roles]],
 [[Data Analyst Careers]]).
 
-Strong examples include:
-
-- SQL analysis
-- KPI definitions
-- dashboards
-- cohort or funnel analysis
-- experiment readouts
-- stakeholder memos
-- clear caveats
-
 The useful signal isn't "made a chart." The stronger signal is "changed or
-clarified a decision with evidence."
+clarified a decision with evidence." [[Data Analyst Careers]] covers the
+broader career path and portfolio surface for that signal.
 
 For an analytics engineer, look for proof that the person can make analysis
 reusable. Perez Mola names data modeling and SQL transformations. She also names
@@ -354,16 +345,9 @@ robustness and testability as the role boundary
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]],
 [[Analytics Engineering Portfolio Projects]]).
 
-Strong examples include:
-
-- a modeled mart with clear table grain
-- a `dbt` project with tests and docs
-- a metric layer
-- a dashboard model migration
-- a source-to-presentation transformation path
-
 The useful signal isn't "knows `dbt`." The stronger signal is "made trusted
-analytical data easier to reuse and safer to change."
+analytical data easier to reuse and safer to change." [[Analytics Engineering
+Portfolio Projects]] covers that project evidence in more detail.
 
 People often move from BI and domain work into analytics engineering.
 Maksimovic moved from marketing reporting into BI and SQL before he worked with

@@ -7,6 +7,9 @@ related:
   - Search Relevance
   - Retrieval-Augmented Generation
   - Information Retrieval
+  - Vector Databases
+  - Vector Search vs Keyword Search
+  - Vector Database vs Search Engine
   - Evaluation
   - A/B Testing
 ---

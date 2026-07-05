@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11880
+    "links": 11895
   },
   "nodes": [
     {
@@ -32014,6 +32014,12 @@
     },
     {
       "source": "wiki:contributing",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:contributing",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -32056,6 +32062,12 @@
     },
     {
       "source": "wiki:contributing",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:contributing",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -32068,9 +32080,21 @@
     },
     {
       "source": "wiki:contributing",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:contributing",
       "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:contributing",
@@ -45905,12 +45929,6 @@
     {
       "source": "wiki:data-warehouse",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -45930,12 +45948,6 @@
       "source": "wiki:data-warehouse",
       "target": "wiki:business-intelligence",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "wiki:business-intelligence",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -45965,7 +45977,7 @@
     {
       "source": "wiki:data-warehouse",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -45995,12 +46007,6 @@
     {
       "source": "wiki:data-warehouse",
       "target": "wiki:data-lake",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "wiki:data-lake",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -46012,14 +46018,8 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "wiki:data-product-adoption",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -46031,8 +46031,14 @@
     {
       "source": "wiki:data-warehouse",
       "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-warehouse",
@@ -46066,12 +46072,6 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "wiki:finops-for-data-engineers",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "wiki:machine-learning-for-business",
       "kind": "wiki-chip",
       "weight": 1
@@ -46091,7 +46091,7 @@
     {
       "source": "wiki:data-warehouse",
       "target": "wiki:reverse-etl",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -48307,6 +48307,12 @@
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
@@ -57304,6 +57310,12 @@
     },
     {
       "source": "wiki:llm-cost-optimization",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -57355,6 +57367,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llm-deployment",
@@ -70529,12 +70547,6 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:open-source-and-developer-relations",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -74008,15 +74020,33 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:vector-databases",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:project-manager-to-data-science",
@@ -74287,6 +74317,18 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:prompt-engineering",
@@ -77626,6 +77668,12 @@
     },
     {
       "source": "wiki:search-relevance",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-relevance",
       "target": "wiki:vector-databases",
       "kind": "wiki-chip",
       "weight": 1
@@ -77641,6 +77689,12 @@
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:search-relevance",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:security",
@@ -81514,9 +81568,21 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:information-retrieval",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -81574,6 +81640,12 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:search-relevance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:vector-databases",
       "kind": "article-chip",
       "weight": 1
@@ -81589,6 +81661,12 @@
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:vector-databases",
@@ -81844,9 +81922,21 @@
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",
+      "target": "wiki:search-relevance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:vector-search-vs-keyword-search",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-search-vs-keyword-search",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",

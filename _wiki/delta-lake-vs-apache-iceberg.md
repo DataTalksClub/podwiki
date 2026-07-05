@@ -4,13 +4,13 @@ tags: ["comparison"]
 title: "Delta Lake vs Apache Iceberg"
 keyword: "delta lake vs apache iceberg"
 secondary_keywords:
-  - delta lake
   - apache iceberg vs delta lake
 summary: "Compare Delta Lake and Apache Iceberg through podcast discussions of table formats, catalogs, engines, governance, lock-in, and operations."
 related_wiki:
   - Delta Lake
   - Apache Iceberg
   - Data Lake
+  - Data Warehouse vs Data Lakehouse
   - Data Engineering Platforms
   - Data Governance
   - DataOps

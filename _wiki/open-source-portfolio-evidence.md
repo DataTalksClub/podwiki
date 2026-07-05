@@ -156,9 +156,8 @@ polish.
 
 ## Public Contribution Signals
 
-[[Open Source]] gives the broader
-project and licensing context. [Open Source and Developer
-Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+[[Open Source]] gives the broader project and licensing context.
+[[open-source-and-developer-relations=>Open Source and Developer Relations]]
 connects public work to documentation and demos. It also connects community
 education with product feedback.
 

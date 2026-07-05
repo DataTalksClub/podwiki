@@ -10,6 +10,8 @@ related_wiki:
   - Embeddings
   - Information Retrieval
   - Production Search Evaluation
+  - Search Relevance
+  - Vector Database vs Search Engine
 ---
 
 [[search=>Keyword search]] retrieves documents by

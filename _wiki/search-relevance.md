@@ -7,6 +7,8 @@ related:
   - Information Retrieval
   - Production Search Evaluation
   - Vector Databases
+  - Vector Search vs Keyword Search
+  - Vector Database vs Search Engine
   - Embeddings
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
