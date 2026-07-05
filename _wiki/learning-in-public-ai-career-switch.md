@@ -218,6 +218,12 @@ argues that junior data scientists can benefit from conferences. Speakers are
 open to discussion, diverse talks broaden perspective, and talking to speakers
 can close understanding gaps ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 
+For the organizer side of that visibility, see
+[[data-ai-conference-building=>data and AI conference building]]. Organizers
+create that career signal through speaker curation, sponsor conversations, and
+designed networking rather than generic networking
+([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
+
 For an AI career switch, events are most useful when paired with concrete work.
 Bring a project to discuss, ask a question, host a meetup, or write a talk
 proposal based on something actually built. Without that artifact, the event is

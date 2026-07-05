@@ -102,6 +102,13 @@ also connect retention and data lineage to finance, legal, and healthcare
 workflows
 ([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
 
+Chatbot operations need a narrower control set for prompt injection, retrieval
+leakage, unsafe answers, and hallucinated commitments.
+[[Prompt Injection and Chatbot Risk Management]] covers those assistant-specific
+controls. Those controls include query analysis and output validation. They also
+include non-LLM classifiers and human review
+([[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]).
+
 Lineage matters because one entry-point agent can send user data to another
 agent, write it to a database, or pass it into an offline workflow. Cost and
 latency are visible symptoms, but data movement and retention determine whether

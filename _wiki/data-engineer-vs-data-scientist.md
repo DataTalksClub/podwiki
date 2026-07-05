@@ -11,6 +11,7 @@ summary: "Decide whether a team needs data engineering, data science, or both by
 related_wiki:
   - Data Engineer Role
   - Data Scientist Role
+  - Data Engineer to Data Scientist
   - Data Engineering
   - Data Science
   - Machine Learning Engineer Role
@@ -36,7 +37,9 @@ data that other roles depend on [[cite:data-team-roles=>Data Team Roles Explaine
 The role hubs are
 [[Data Engineer Role]] and
 [[Data Scientist Role]] for
-the ownership boundary. [[Data Engineering]]
+the ownership boundary. [[Data Engineer to Data Scientist]]
+covers the role-change path from pipeline ownership toward modeling and
+evaluation. [[Data Engineering]]
 and [[Data Science]] cover the broader
 topic context.
 
@@ -178,6 +181,7 @@ Start with these role definitions and adjacent comparisons:
 
 - [[Data Engineer Role]]
 - [[Data Scientist Role]]
+- [[Data Engineer to Data Scientist]]
 - [[Data Engineering]]
 - [[Data Science]]
 - [[DevOps to Data Engineering]]

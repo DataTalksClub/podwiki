@@ -10,6 +10,7 @@ related:
   - Machine Learning Infrastructure
   - Production
   - A/B Testing
+  - Sensor ML Personal Baselines
 ---
 
 Model monitoring is the practice of watching a deployed model and the
@@ -42,6 +43,12 @@ Live test sets and small A/B tests can detect model issues. Teams watch input
 distributions, unit changes, and feature drift. Logging, feature stores, and
 reproducibility support the response path.[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps and Model Monitoring]].
 Monitoring is useful only when teams can debug and respond.
+
+In [[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]],
+the monitored production signal is tied to tool state, wafer exposure, and qual
+timing rather than only prediction drift. The useful alert tells engineers
+whether to run a check earlier or keep watching the tool
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 ## Monitoring Priorities
 
@@ -141,13 +148,17 @@ a hospital with a different disease mix, connectivity, or measurement setup.
 
 Silent data incidents and model drift can share the same root cause. Freshness,
 volume, and distribution help track data reliability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
-Schema and lineage add context for root-cause analysis.
-For model monitoring, those signals help explain whether drift came from the
-data system or from model behavior.
+Schema and lineage add context for root-cause analysis. For model monitoring,
+those signals help explain whether drift came from the data system or from
+model behavior.
+
 Context matters because an anomaly isn't always bad data. A useful monitoring
 system reduces false positives by learning which deviations are expected and
 which ones need investigation
 [[cite:data-quality-data-observability-data-reliability@1:00:27=>Data Observability Explained]].
+For baseline-heavy sensor products, the same rule applies inside the model.
+[[Sensor ML Personal Baselines]] shows why an alert can be wrong when a system
+ignores routine changes, device placement, aging, or missing sensor history.
 
 ## Model Performance
 

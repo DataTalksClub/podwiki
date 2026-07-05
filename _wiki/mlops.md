@@ -245,6 +245,12 @@ Finance teams need model versioning and separate development, test, and producti
 environments
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] shows the
+product-facing version of the same constraint. Those signals include ERP and CRM
+context, expense data, and operating data. They can support finance decisions
+only when teams keep explanations, review paths, and audit context visible
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 Those requirements make approval history and lineage part of the system design.
 They also make model versioning and rollback paths explicit. A team needs to
 explain which model produced which output. It also needs to explain which data

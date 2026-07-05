@@ -13,6 +13,7 @@ related:
   - Computer Vision
   - Evaluation
   - MLOps
+  - Sensor ML Personal Baselines
 ---
 
 In healthcare, teams validate and adopt [[machine learning]] by matching models
@@ -53,13 +54,18 @@ becomes part of a device or clinical workflow.
 
 The digital clinic example places the same validation problem inside a product
 journey. SQIN runs from diagnosis to consultation and treatment, with pharmacy
-and prescription steps, while telemedicine extends the flow into remote
-follow-up and efficiency. The ML system succeeds when it reduces friction in
-care delivery, not when the model is impressive in isolation.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
+and prescription steps. Telemedicine extends the flow into remote follow-up and
+efficiency. The ML system succeeds when it reduces friction in care delivery,
+not when the model is impressive in isolation.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
-Digital therapeutics adds a measurement layer. Teams need data pipelines,
-dashboards, and experimentation capabilities before advanced personalization can
-be trusted.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+Digital therapeutics adds a measurement layer. Before teams trust advanced
+personalization, they need data pipelines and dashboards. They also need
+experimentation capabilities.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+
+When the product depends on a person's own history, the validation question
+also includes whether the baseline is mature enough to support an alert.
+[[Sensor ML Personal Baselines]] covers that baseline-first design through
+wearables, pet-health sensors, and remote monitoring examples.
 
 ## Validation Starting Points
 
@@ -86,6 +92,14 @@ Stefan Gudmundsson also frames speed as useful only where the risk permits it.
 Digital-health teams can learn faster than formal trials for low-risk app
 changes. Medical recommendations still need review before rapid iteration
 ([[cite:ai-in-healthcare-and-digital-therapeutics@49:25=>Speed over Perfection]]).
+
+Remote monitoring adds a different starting point: the signal may be useful
+only after enough personal history has accumulated. Activity and heart-rate
+variability work better when the product can compare a change with the
+person's own baseline and care context
+[[cite:ai-in-healthcare-and-digital-therapeutics@29:33=>Remote Monitoring and Wearables]].
+That makes personal-baseline design part of healthcare validation, not only a
+modeling detail.
 
 ## Clinical Validation and Workflow Fit
 

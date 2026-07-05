@@ -2,17 +2,17 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 204,
-    "articles": 76,
+    "articles": 77,
     "guides": 23,
     "comparisons": 24,
     "roadmaps": 11,
-    "transitions": 14,
+    "transitions": 15,
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
     "topics": 99,
-    "nodes": 1118,
-    "links": 11375
+    "nodes": 1119,
+    "links": 11445
   },
   "nodes": [
     {
@@ -133,6 +133,17 @@
       "count": 1,
       "search": "Data Engineer Roadmap A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews.",
       "keyword": "data engineer roadmap"
+    },
+    {
+      "id": "wiki:data-engineer-to-data-scientist",
+      "type": "article",
+      "collection": "transition",
+      "label": "Data Engineer to Data Science",
+      "title": "Data Engineer to Data Science",
+      "url": "/wiki/data-engineer-to-data-scientist/",
+      "count": 1,
+      "search": "Data Engineer to Data Science How data engineers can turn pipeline, data quality, and deployment work into modeling, evaluation, and product decision evidence.",
+      "keyword": "data engineer to data scientist transition"
     },
     {
       "id": "wiki:data-engineer-vs-data-scientist",
@@ -22661,6 +22672,12 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -22790,6 +22807,12 @@
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:agent-ops",
@@ -25956,6 +25979,18 @@
     {
       "source": "wiki:algorithmic-trading",
       "target": "podcast:machine-learning-decision-optimization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "article-chip",
       "weight": 1
     },
@@ -30773,6 +30808,12 @@
     },
     {
       "source": "wiki:community",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -30798,6 +30839,12 @@
     {
       "source": "wiki:community",
       "target": "wiki:contributing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:data-ai-conference-building",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34942,6 +34989,180 @@
       "weight": 3
     },
     {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-science-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-science-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:job-descriptions",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "wiki:data-engineer-vs-data-scientist",
       "target": "person:roksolanadiachuk",
       "kind": "article-chip",
@@ -35028,6 +35249,18 @@
     {
       "source": "wiki:data-engineer-vs-data-scientist",
       "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -35478,6 +35711,18 @@
     {
       "source": "wiki:data-engineering-and-data-science",
       "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -47537,6 +47782,12 @@
     },
     {
       "source": "wiki:developer-relations",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-relations",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-chip",
       "weight": 1
@@ -47562,6 +47813,12 @@
     {
       "source": "wiki:developer-relations",
       "target": "wiki:contributing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:data-ai-conference-building",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51809,7 +52066,19 @@
     },
     {
       "source": "wiki:governance",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:governance",
       "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52320,6 +52589,18 @@
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53390,6 +53671,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:industrial-ml-applications",
@@ -55577,6 +55864,12 @@
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
       "target": "wiki:developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -56273,6 +56566,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -56933,6 +57232,12 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -57116,6 +57421,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llmops",
@@ -58673,6 +58984,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "podcast:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership",
       "kind": "article-chip",
       "weight": 1
@@ -58751,6 +59068,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -58766,6 +59089,12 @@
       "target": "wiki:a-b-testing",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -58922,6 +59251,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -59970,6 +60305,18 @@
     {
       "source": "wiki:machine-learning-personalization",
       "target": "wiki:recommendation-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -63059,7 +63406,19 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64949,6 +65308,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -65057,6 +65422,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -65126,6 +65497,18 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
@@ -67469,6 +67852,12 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -67490,6 +67879,12 @@
       "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71369,6 +71764,12 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -71450,6 +71851,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-ml-project-checklist",
@@ -73607,6 +74014,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "podcast:s23e03-future-of-ai-agents",
       "kind": "wiki-chip",
       "weight": 1
@@ -73620,6 +74033,12 @@
     {
       "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:agent-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73754,6 +74173,12 @@
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:responsible-ai-and-governance",
@@ -75302,6 +75727,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:security",

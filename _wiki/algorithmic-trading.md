@@ -41,6 +41,12 @@ Don't treat this page as trading advice. Algorithmic trading belongs near
 [[Data Analysis]] and [[Data Science]] because the work starts with messy
 time-series data and explicit decision targets.
 
+Adjacent finance workflows aren't market execution. Teams in
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] use ERP, CRM,
+expense, and operational data as forecast and cash-flow review signals. They
+aren't automated trades
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 It also belongs near [[Evaluation]], [[Machine Learning System Design]], and
 [[MLOps]]. A strategy is only useful when validation and serving cadence match
 the way it would run in practice. Monitoring and execution rules are part of

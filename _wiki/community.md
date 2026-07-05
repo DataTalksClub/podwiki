@@ -99,6 +99,12 @@ formats and office hours make that practice easier to run. Judging matrices
 make the work reviewable, and categories clarify what teams should build
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
+For the organizer-side version of larger data events, use
+[[data-ai-conference-building=>data and AI conference building]]. Organizers
+also need speaker programs, sponsors, student access, and networking spaces as
+community infrastructure
+([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
+
 [[person:willrussell=>Will Russell]] uses these formats as part of developer
 advocacy. Dinners and panels add more compressed formats. Workshops and the
 Datalift Summit do the same[[cite:building-ml-communities-diversity-and-career-growth=>How to Build and Scale a Data Science Community]].

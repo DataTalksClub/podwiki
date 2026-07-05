@@ -59,13 +59,17 @@ knowledge-base extraction, and unsafe answers. Attackers can use overloaded
 prompts and [[retrieval-augmented-generation=>retrieval-augmented generation]] as
 exfiltration paths.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
 
-For chatbots, copilots, and RAG systems, query analysis starts before retrieval.
+Chatbots, copilots, and RAG systems need query analysis before retrieval.
 After the model responds, output validation and non-LLM classifiers add another
 layer. Logging and human review add one more.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
+
 Security controls can't rely on the model as the only enforcement point. User
-input, retrieved passages, tool calls, and the answer renderer all sit inside the
-attack surface. For adjacent production patterns, see
-[[LLM Production Patterns]] and [[AI Red Teaming]].
+input and retrieved passages sit inside the attack surface. Tool calls and the
+answer renderer do too. For adjacent production patterns, see
+[[LLM Production Patterns]] and [[AI Red Teaming]]. For the chatbot-specific risk
+model, see [[Prompt Injection and Chatbot Risk Management]]. It covers prompt
+injection and retrieval leakage along with hallucinated commitments and layered
+defenses.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
 
 The classifier point is practical security design. Maria Sukhareva contrasted
 generative models with simpler non-LLM classifiers because a narrower classifier

@@ -51,6 +51,13 @@ The governed asset includes the model file plus training data, features,
 prompts, and retrieved context. It also includes policies and interfaces, along
 with logs, evaluation results, and the human approval path.
 
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] is a
+domain-specific example of that accountability boundary. Finance teams can use
+AI to surface forecast or working-capital signals from ERP and CRM context.
+Teams still need explanations, human review, and auditability before the
+recommendation affects planning
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 The lifecycle has real decision points. Skewness, missingness, coverage, and
 exploratory data analysis serve as early bias checks. Sensitive attributes such
 as age or gender force a feature review
@@ -277,6 +284,11 @@ retrieve private context, generate harmful output, or act through tools. Prompt
 wording isn't a control. A hacking exercise and data-exfiltration case test
 whether a chatbot can be pushed into revealing hidden knowledge-base content.
 Hallucinations connect to legal exposure, safety, trust, and adoption
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+
+For that chatbot-specific governance surface, see
+[[Prompt Injection and Chatbot Risk Management]]. Prompt injection and retrieval
+abuse need accountable controls. So do unsafe outputs and human escalation
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 Mitigations layer across output checks and routing, including output validation

@@ -70,6 +70,11 @@ These concerns connect Agent Ops to [[Responsible AI and Governance]] and
 [[AI Red Teaming]] because the operating question covers more than answer
 quality. It also covers authorized actions and explainable data paths.
 
+The chatbot version of the same boundary starts before tool use. Prompt
+injection and retrieval leakage can expose hidden content even when the system
+doesn't take an external action. [[Prompt Injection and Chatbot Risk Management]]
+covers that narrower assistant risk surface.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+
 ## Evaluation and Human Labels
 
 Agent evaluation needs system-specific datasets. Public model benchmarks test

@@ -9,6 +9,7 @@ related_wiki:
   - Data Science
   - Data Engineer Role
   - Data Scientist Role
+  - Data Engineer to Data Scientist
   - Machine Learning Engineer Role
   - MLOps
   - Data Engineering Platforms
@@ -26,6 +27,9 @@ and prepare features, then build models and evaluate deployment outcomes.[[cite:
 
 Use [[Data Engineering]] and [[Data Science]] for the broad topic context, and
 [[Data Engineer Role]] and [[Data Scientist Role]] for the role definitions.
+Use [[Data Engineer to Data Scientist]] and
+[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]] for the
+two focused transition paths.
 
 ## Joint Workflow
 
@@ -157,6 +161,7 @@ many projects.
 Use these pages when the decision needs a narrower lens:
 
 - [[Data Engineer vs Data Scientist]]
+- [[Data Engineer to Data Scientist]]
 - [[Machine Learning Engineer vs Data Scientist]]
 - [[DataOps vs Data Engineering]]
 - [[MLOps vs DataOps]]

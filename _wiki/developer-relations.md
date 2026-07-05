@@ -230,6 +230,11 @@ novelty and enough ambition to stretch the speaker. Speakers can then build a
 speaker resume from smaller venues toward keynotes
 ([[cite:public-speaking-for-data-scientists@50:20=>Conference proposals]],
 [[cite:public-speaking-for-data-scientists@53:48=>Speaker resume]]).
+Use [[data-ai-conference-building=>data and AI conference building]] for full
+event work around speaker selection, sponsor fit, pricing, and networking.
+A technical event stays credible for practitioners when organizers handle those
+choices carefully
+([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 
 Swyx draws the same boundary: reusable talks support communication practice and
 technical-judgment distribution. DevRel still has to connect the talk back to

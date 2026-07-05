@@ -12,6 +12,7 @@ related:
   - Privacy Engineering for ML
   - Healthcare ML Validation and Adoption
   - Data Products
+  - Sensor ML Personal Baselines
 ---
 
 ML personalization adapts rankings and recommendations to a person's context
@@ -75,6 +76,13 @@ The model has to fit the clinical workflow and risk level. It also has to fit
 patient context and the review path. A personalized exercise, reminder, or
 intervention can be a recommendation system, but it also needs medical review
 when the suggestion can affect care.
+
+Some personalization problems need baselines before rankings. Remote monitoring
+uses activity and heart-rate variability more
+carefully when the product compares a person with their own recent history
+[[cite:ai-in-healthcare-and-digital-therapeutics@29:33=>Remote Monitoring and Wearables]].
+The same design appears in [[Sensor ML Personal Baselines]], where a pet-health
+product waits for enough individual sensor history before raising alerts.
 
 Behavioral design changes the objective too: Stefan Gudmundsson describes a
 low-in-app-time strategy. The product succeeds when people build habits in daily

@@ -181,7 +181,10 @@ layer. Moderation and human review handle riskier outputs.[[cite:generative-ai-c
 [[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]]
 
 These controls put LLM production in the same operational space as
-[[AI red teaming]] and [[security]].
+[[AI red teaming]] and [[security]]. For chatbots, [[Prompt Injection and
+Chatbot Risk Management]] uses a narrower risk model. It treats prompt
+injection and retrieval exfiltration with hallucinated commitments and human
+review as one production control problem.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 Human review handles product risk from hallucinations, brand safety, and
 editorial curation.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]

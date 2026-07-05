@@ -37,13 +37,24 @@ online deployment. It also ties lineage metadata to prediction APIs and logs
 
 ## Lifecycle Proof
 
-The project should turn a decision problem into a maintained model artifact. A
-credible implementation records the code version and data reference. It also
-records parameters, dependencies, the evaluation result, and the saved artifact.
-The same record should name the deployment target, monitoring signals, and owner
-action for rollback or retraining. That's the full lifecycle scaled down to a
-reviewable portfolio repository
+The project should turn a decision problem into a maintained model artifact.
+
+A credible implementation records:
+
+- the code version and data reference
+- parameters and dependencies
+- the evaluation result and saved artifact
+- the deployment target, monitoring signals, and owner action for rollback or
+  retraining
+
+That's the full lifecycle scaled down to a reviewable portfolio repository
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+For an industrial project,
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]]
+shows the same checklist in domain form. It connects telemetry with a baseline
+qualification schedule. It also names the forecasted risk window and the
+engineer-facing action
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 The lightweight standard puts Git and CI/CD in the essential stack. The same
 stack includes artifact storage and registries. It also needs documentation,

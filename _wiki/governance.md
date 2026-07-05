@@ -162,6 +162,12 @@ monitored.
 In regulated organizations, teams make the approval path more explicit. Finance
 use cases and legacy systems combine with regulatory constraints. CI/CD,
 approvals, and release management become part of the same path.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
+Finance teams face the same governed surface in
+[[ai-for-finance-decision-support=>AI Finance Decision Support]]. ERP and CRM
+context can support forecast and cash-flow decisions. Teams still have to keep
+compliance, explainability, and auditability inside the product
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 On-premises platforms and dev/test/prod separation add more constraints.
 Monitoring, model registries, and minimal viable MLOps complete the practical
 path.

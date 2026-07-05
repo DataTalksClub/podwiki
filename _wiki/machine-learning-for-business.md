@@ -110,6 +110,12 @@ Name the decision that changes because of the output
 - a finance team reviews higher-risk transactions
 - a product team ranks content, offers, or recommendations differently
 
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] is the finance
+planning version of that rule. Finance teams start from a CFO or finance
+director's decision workflow. They then connect ERP, CRM, expense, and operating
+signals to reviewable forecast and cash-flow context
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 For limited-budget or small-team machine learning, the decision list is the
 first budget filter. The company may not need a platform or research program
 yet. It may not need a custom model either.
@@ -357,10 +363,16 @@ whether the model drives revenue or protects margin. It should also know whether
 the model reduces manual work or improves risk decisions.
 
 For internal ML, the business model often looks like operating efficiency. A
-model may reduce review time, improve routing, or help an expert handle more
-cases without lowering quality. Use [[metrics]], [[evaluation]], and
-[[data-product-intake-and-prioritization=>data product intake]] to keep that
-claim testable instead of treating "automation" as the benefit.
+model may reduce review time. It may improve routing or help an expert handle
+more cases without lowering quality. Use [[metrics]] and [[evaluation]] to keep
+that claim testable. Connect the claim to
+[[data-product-intake-and-prioritization=>data product intake]] instead of
+treating "automation" as the benefit.
+
+In [[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]],
+teams track fewer wafers at risk and better-timed tool checks. A standalone
+accuracy score isn't enough
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 For customer-facing ML, the business model has to include adoption and
 distribution. [[person:vincentwarmerdam=>Vincent Warmerdam]] discusses why an ML-tool company

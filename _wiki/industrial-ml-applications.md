@@ -29,6 +29,9 @@ Semiconductor yield work depends on fab tools that produce millisecond-level
 logs. In that setting, predictive maintenance isn't just a model score. The
 business measure is fewer wafers at
 risk[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+The focused manufacturing case is
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]],
+where tool logs, yield data, and qual timing become one operating decision.
 Pet-health ML uses sensor-based anomaly detection around each dog's long-term
 baseline[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
 
@@ -179,6 +182,8 @@ many wafers could be affected if a tool kept running at the current pace. The
 baseline was the existing qualification schedule, and the improvement was a better
 timing recommendation for checks that could reduce waste
 [[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+That makes [[manufacturing-predictive-maintenance-yield-analytics=>Fab Maintenance and Yield ML]]
+the semiconductor-specific version of industrial validation.
 
 Sofya's baseline is individual, and a dog needs two or three weeks of observation
 before the system can know what's normal. Weather, people, and routines affect
