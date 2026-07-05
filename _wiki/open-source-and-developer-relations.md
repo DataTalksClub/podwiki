@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source DevRel"
-summary: "Open-source DevRel practices for building developer trust through education, docs, community programs, advocacy, and product feedback."
+summary: "The bridge between open-source stewardship and DevRel: docs, demos, contributor onboarding, maintainer trust, and adoption feedback."
 related:
   - Open Source
   - Developer Relations
@@ -14,14 +14,14 @@ related:
 ---
 
 Open source and developer relations meet when a public technical project needs
-developers to trust the tool and understand the project boundary. It also needs
-developers to send useful feedback back to maintainers. [[Open Source]] owns
-licensing, governance, maintainership, and company distribution.
-[[Developer Relations]] owns the broader job practice.
+developers to trust the tool and understand the project boundary. Developers
+also need a way to send useful feedback back to maintainers. [[Open Source]]
+owns licensing, governance, maintainership, and company distribution.
+[[Developer Relations]] owns the broader role and practice.
 
-The overlap covers open-source programs where docs and demos affect user
-adoption. It also covers community support, hackathons, and contributor
-onboarding when they affect maintainer load.
+The overlap stays narrow because each practice has a project effect. Docs and
+demos affect adoption, community support protects maintainer capacity, and
+contributor onboarding turns interest into reviewable issues or pull requests.
 
 Use [[Contributing]] for contribution types, the
 [[Open Source Contributor Roadmap]] for sequence, and
@@ -71,13 +71,13 @@ better docs feedback and fewer repeated setup questions. [[Contributing]] owns
 the mechanics, while education and community support help contributors avoid
 creating avoidable review work.
 
-## Hackathons and Onboarding
+## Contributor Onboarding Through Programs
 
 Hackathons and open-source education can turn a public project into a guided
 first contribution. Will Russell connects developer advocacy with Git skills and
-mentorship. Setup help, demos, and MLH-style programs fit the same work. Those formats help only
-when participants learn the repository's constraints and review expectations.
-They also need collaboration norms
+mentorship. Setup help, demos, and MLH-style programs fit the same work. Those
+formats help only when participants learn the repository's constraints and
+review expectations. They also need collaboration norms
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 For open-source DevRel, the event isn't the outcome. A stronger program leaves
@@ -107,7 +107,7 @@ covers demo-first education, and [[Open Source Portfolio Evidence]] covers how
 public demos become evaluator signals. In this overlap, first-run friction is
 useful when maintainers and product teams learn from the public demo.
 
-## Public Demos as Feedback, Not Portfolio Drift
+## Public Demos as Project Feedback
 
 Building in public can help a developer-tool project when demos attract the
 right users and bring back feedback. Will McGugan's Rich and Textual updates
@@ -122,7 +122,8 @@ Open-source DevRel should optimize for the right public feedback. That includes
 questions from real users and bug reports maintainers can act on.
 
 It also includes examples that clarify the audience and demos that show where
-the tool helps.
+the tool helps. [[Open Source Portfolio Evidence]] owns the hiring side of those
+same public artifacts.
 
 ## Company and Project Boundary
 
@@ -135,8 +136,8 @@ NLP tool. Discord support and workarounds were part of the same adoption work
 ([[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]]).
 
 Those company paths belong mainly in [[Open Source]], [[startups=>Startup]],
-and [[Founder]]. The DevRel boundary is narrower. Developer-facing work has to
-stay credible to the public project while helping product teams learn from real
+and [[Founder]]. The DevRel question is narrower: how developer-facing work
+stays credible to the public project while helping product teams learn from real
 developer use.
 
 ## Related Pages

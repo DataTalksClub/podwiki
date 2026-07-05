@@ -14,8 +14,6 @@ related:
   - KPIs
 ---
 
-## Career Scope
-
 A data analyst career is a path into decision-facing data work. Analysts use SQL
 and dashboards to look at data. They use metrics, product context, and
 communication to help teams understand what happened and what to do next. The
@@ -31,18 +29,16 @@ and next moves. [[Data Analyst Role]] defines the role.
 [[Product Analyst vs Data Analyst]] and [[Data Analyst vs Analytics Engineer]]
 cover adjacent titles and role boundaries.
 
-Analysts know company data, build dashboards, define KPIs, and quantify product
-problems. They also check whether shipped work changed user behavior. Analyst
-writing is aimed at management and decision makers, so a strong analyst learns
-more than a BI tool. They learn how data maps to product and operations, then
-connect it to growth, finance, and customer decisions.[[cite:data-team-roles=>Data Team Roles Explained]]
+To grow as analysts, people build from the same base. They learn company data
+and build dashboards. Then they define KPIs, quantify product problems, and
+explain whether shipped work changed user behavior. Analyst writing is aimed at
+management and decision makers, so a strong analyst learns more than a BI tool.
+They learn how data maps to product and operations, then connect it to growth,
+finance, and customer decisions.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 Companies use "data analyst" for BI reporting and business analysis, but also
 for product analytics or light data science. Candidates need to read the
 responsibilities, not only the title.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
-
-Those role boundaries explain why the comparison pages matter for analyst
-careers.
 
 ## Entry Routes
 

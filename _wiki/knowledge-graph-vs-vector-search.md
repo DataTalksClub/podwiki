@@ -22,14 +22,15 @@ related_wiki:
   - LLM Evaluation Workflows
 ---
 
-Knowledge graphs and vector search answer different representation and retrieval
-questions. A knowledge graph stores entities, relation types, and properties. It
-also stores paths and neighborhoods. Vector search stores [[embeddings]] and
-retrieves nearby items by similarity.
+Knowledge graphs and vector search answer different representation and
+retrieval questions. A knowledge graph stores entities, relation types, and
+properties. It also stores paths and neighborhoods. Vector search stores
+[[embeddings]] and retrieves nearby items by similarity.
 
-At this layer, teams choose what the system represents and indexes. They also
-choose how it queries, validates, and returns results before search ranking or
-LLM prompt packaging takes over.
+This comparison separates structured graph retrieval from embedding retrieval.
+Teams choose what the system represents and what it indexes. They also choose
+how it queries and validates results before search ranking or LLM prompt
+packaging takes over.
 
 Automotive R&D graph systems preserve relationships for simulation comparison,
 semantic reporting, and Cypher-driven retrieval. Vector systems retrieve
@@ -47,8 +48,8 @@ Knowledge graphs help when the system must preserve typed relations, paths, and
 provenance. They also help with constraints or lineage. Hybrid systems use
 vector retrieval for recall and graph structure for relationship-aware lookup.
 
-Use vector search when the retrieval substrate must find semantically related
-passages, products, or images. It also fits users or sessions. Use a knowledge
+Use vector search when retrieval must find semantically related passages,
+products, images, or sessions. It also fits user similarity. Use a knowledge
 graph when queries depend on relationships, paths, or hierarchy. It also fits
 constraints, provenance, and lineage. Use hybrid retrieval when semantic recall
 should find candidates and graph queries should add structure or validation.
@@ -124,13 +125,13 @@ both when the product first needs candidate recall and then needs structured
 lookup. [[Graph RAG vs Vector RAG]]
 uses the same split later, when those retrieved results become LLM context.
 
-## Search Stack Boundaries
+## Stack Boundaries
 
 Vector search fails when nearest neighbors are semantically close but wrong for
 the task. The neighbor may miss an exact constraint, use stale embeddings, or
-lack the metadata a ranker needs. Those broader stack choices belong in
-[[Vector Database vs Search Engine]], [[Search Relevance]], and
-[[Production Search Evaluation]]
+lack the metadata a ranker needs. [[Vector Database vs Search Engine]] owns the
+vector infrastructure boundary, while [[Search Relevance]] and [[Production
+Search Evaluation]] own ranking and measurement
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 Knowledge graphs fail when they preserve the wrong relations, miss important
@@ -149,12 +150,11 @@ Static structured data can fit relational tables. Dynamic or relationship-heavy
 analysis may need a different structure.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@36:35=>Fraud Detection Graphs]]
 
-## Production Work
+## Graph and Vector Work
 
-Vector search production work centers on keeping neighbors meaningful. Teams
-compute embeddings during ingestion and query time, keep model versions
-consistent, and plan reindexing. They also tune chunk boundaries when passages
-feed RAG
+Vector search work centers on keeping neighbors meaningful. Teams compute
+embeddings during ingestion and query time, keep model versions consistent, and
+plan reindexing. They also tune chunk boundaries when passages feed RAG
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Use [[Vector Database vs Search Engine]] for the infrastructure ownership
 choice and [[LLM Evaluation Workflows]] when retrieved context feeds generated
@@ -187,17 +187,18 @@ Knowledge graphs and LLMs ground answers together in the automotive examples.
 At the substrate layer, graph semantics compensate for relations that chunk-only
 retrieval can miss.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Ranking systems make a parallel point from the vector side. Vector similarity
-can find candidates, but filters, recency, and metadata still influence the
-served result. Behavior, popularity, and query-time weights also affect the result
-[[cite:building-production-search-systems=>Building Search Systems]].
+Vector similarity can find candidates, but filters, recency, and metadata still
+influence the served result. Behavior, popularity, and query-time weights matter
+too
+[[cite:building-production-search-systems=>Building Search Systems]]. Those
+ranking choices belong in [[search-relevance=>Search Relevance]].
 
 For RAG prompt packaging, use [[Graph RAG vs Vector RAG]]. For changing
 knowledge versus repeated model retraining, use
 [[retrieval-augmented-generation=>RAG]] and
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-## Evaluation and Failure Modes
+## Failure Modes
 
 Vector systems can return similar but wrong neighbors. They can also fail
 because embeddings are stale, chunks are poorly sized, metadata is missing, or
@@ -212,9 +213,9 @@ types, but incorrect nodes or edges still corrupt downstream search, RAG, and
 analysis.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 For a graph, check entity extraction, relation correctness, and traversal
-behavior. Check provenance and validation before answer quality. For vector
-search, check candidate quality and embedding freshness. Then check chunk
-boundaries, filters, and ranking.
+behavior before answer quality. Check provenance and validation too. For vector
+search, check candidate quality and embedding freshness before chunk boundaries,
+filters, and ranking.
 
 [[Production Search Evaluation]]
 covers retrieval, ranking, and product measurement checks.

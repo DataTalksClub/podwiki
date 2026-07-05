@@ -17,40 +17,38 @@ pricing change, or marketing budget. It might also be a recommender policy or
 model release. The team needs more than a metric movement. It needs evidence
 that the action caused enough change to justify what happens next.
 
-Use [[causal inference]] for treatment and counterfactual vocabulary, including
-confounding and identification. It also covers CATE and causal ML. For
-standalone experimentation mechanics, use [[experimentation]] and
-[[a-b-testing=>A/B testing]]. The combined frame asks which evidence standard fits
-the product decision.
+Use [[experimentation]] for the product and ML experiment portfolio. Use
+[[a-b-testing=>A/B testing]] for randomized test design and interpretation, and
+use [[power analysis]] for sample size and sensitivity. Use [[causal inference]]
+for methods and assumptions. The combined question is which evidence standard
+fits the decision.
 
-[[person:jakobgraff=>Jakob Graff]] explains the randomized product experiment
-path through traffic splitting, metric choice, A/A checks, and power
+Product teams use randomized experiments with traffic splitting, metric choice,
+A/A checks, and power planning
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-[[person:aleksandermolak=>Aleksander Molak]] explains when teams need a
-counterfactual intervention answer instead of ordinary prediction
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-[[person:liesbethdingemans=>Liesbeth Dingemans]] covers earlier design
-experiments that reduce uncertainty before a team is ready for a causal estimate
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
+Causal ML starts from counterfactual intervention questions rather than ordinary
+prediction [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+Design experiments reduce uncertainty before a team is ready for a causal
+estimate [[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
 
-## Decision Frame for Product Teams
+## Choosing the Evidence Standard
 
-The shared frame is practical. Before choosing a method, the team defines the
-action and metric. It also names the affected population. Then it names the comparison
-and decision threshold. That turns [[metrics]] and [[product analytics]] into
-decision evidence instead of a dashboard review.
+Before choosing a method, the team defines the action, metric, and affected
+population. It also names the comparison and decision threshold. That turns
+[[metrics]] and [[product analytics]] into decision evidence instead of a
+dashboard review.
 
 Use an [[a-b-testing=>A/B test]] when the product can assign comparable users or
-sessions and log exposure. Use [[causal inference]] when the decision is still an
-intervention question but the team can't rely on clean randomized assignment.
-Use design or discovery experiments when the team isn't yet sure what to build.
-Graff, Molak, and Dingemans describe those as different points in the decision
-path. They aren't interchangeable labels
-([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]],
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]).
+sessions, log exposure, and wait long enough for the metric to stabilize. Use
+[[causal inference]] when the decision is still an intervention question but the
+team can't rely on clean randomized assignment. Use design or discovery
+experiments when the team isn't yet sure what to build. These are different
+points in the decision path, not interchangeable labels
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]
+[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
 
-## Matching Evidence to the Decision Stage
+## Decision Stage and Evidence
 
 Each decision stage needs a different evidence boundary. Product experimentation
 emphasizes live assignment, metric design, sample size, and platform checks
@@ -67,45 +65,38 @@ The product question should choose the evidence standard. A button copy change,
 recommendation policy, media budget, and AI product concept can all involve
 causal reasoning. They don't need the same experiment.
 
-## Randomized Experiments
+## Randomized Experiment Fit
 
 Teams use randomized product experiments for the cleanest applied overlap. They
-split traffic, expose treatment users or sessions to a change, keep a control
-group, and compare a launch metric chosen in advance. Graff uses a
-clinical-trial analogy to explain why randomization matters. It makes treatment
-and control comparable enough to attribute a metric difference to the tested
-change
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Teams need stable assignment, exposure logging, monitoring, and debuggable
-metrics.
-
-Teams also need system checks before they trust randomized evidence.
-[[a-a-testing=>A/A testing]] validates randomization, tracking, and metric
-calculation before interpreting an A/B result. [[power analysis]] plans duration
-from baseline rates, variance, traffic, and detectable effect
+split traffic and expose treatment users or sessions to a change. They keep a
+control group and compare a launch metric chosen in advance. Randomization makes
+treatment and control comparable enough to attribute a metric difference to the
+tested change
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
-A randomized experiment still has to match the decision. In a
-subscription-versus-points example, the result depends on which revenue or
-retention metric the team chooses. Metric design also stays tied to timing,
-business cycles, and sample size through noise and seasonality
+The bridge question is whether those requirements are realistic. Teams need
+stable assignment, exposure logging, monitoring, and debuggable metrics. They
+also need a decision rule. [[a-a-testing=>A/A testing]] validates randomization,
+tracking, and metric calculation before interpreting an A/B result. [[Power analysis]]
+plans duration from baseline rates, variance, traffic, and detectable effect
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Those details connect randomized experiments to [[metrics]]
-and [[power analysis]], not only to
-statistics.
+
+If the required traffic or time is unavailable, the team hasn't failed at
+experimentation. Risk or missing instrumentation can also force a different
+evidence standard.
 
 ## Missing Randomization
 
 Some decisions still ask whether an intervention changed an outcome even when a
-clean traffic split is unavailable. In the causal ML episode, Molak covers
-confounders and unconfoundedness. He also covers causal feature selection,
-partial identification, and sensitivity. Refutation tests and policy metrics
-also matter
+clean traffic split is unavailable. Confounders and unconfoundedness set the
+assumptions. Causal feature selection and partial identification define part of
+the causal claim. Sensitivity checks, refutation tests, and policy metrics define
+the rest
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
 
-Those method details belong on [[causal inference]]. In an applied product frame,
-they matter because the team still has to decide whether to launch or stop. The
-team also has to decide whether to target or allocate.
+[[Causal inference]] covers those method details. In an applied product frame,
+they matter because the team still has to decide whether to launch or stop. It
+may also need to target or allocate.
 
 Marketing is the clearest setting. Attribution gets ambiguous when customers see
 several channels before conversion. Privacy and cookieless tracking push the
@@ -114,8 +105,8 @@ problem toward aggregate models, assumptions, and stakeholder communication
 These constraints push marketing measurement beyond A/B tests and into
 [[causal inference]].
 
-Marketing measurement also connects to uplift, linking uplift modeling with
-treatment/control thinking and data pitfalls
+Marketing measurement also connects to uplift by linking treatment/control
+thinking with data pitfalls
 [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Attribution and Marketing Mix Modeling]].
 In that setting, the team still asks a treatment question. The evidence comes
 from attribution models, media mix models, time-series counterfactuals, or
@@ -139,53 +130,44 @@ problem. Data scientists connect product discovery to ML feasibility. A scoping
 document uses repeated "why" questions to challenge a proposed solution before
 the team turns it into an experiment or build plan. The discussion also ties
 experimentation culture to prioritization and measurable learning
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
-Those ideas fit beside
-[[data product management]],
-[[data products]], and
+[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]. Those ideas
+fit beside [[data product management]], [[data products]], and
 [[data product adoption]].
 
 ## Production ML Decisions
 
 In production ML, an offline model metric may improve while the product metric
-doesn't.
-
-Teams stage validation through offline experiments, shadow mode, and A/B tests.
-Uplift and segment analysis show why analysts look at cohorts and root causes
-after a live model test. They don't stop at the top-line model score
+doesn't. Teams stage validation through offline experiments, shadow mode, and
+A/B tests. Uplift and segment analysis show why analysts look at cohorts and
+root causes after a live model test. They don't stop at the top-line model score
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
 
 The same concern links to ML system design. Metrics, baselines, and A/B tests
 are part of the end-to-end ML pipeline. Production validation runs through A/B
 tests, causality, and human labels
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
-That connects the topic to
-[[machine learning system design]],
-[[MLOps]], and
+That connects the topic to [[machine learning system design]], [[MLOps]], and
 [[model registry]] work.
 
-## Choosing the Evidence Standard
+## Reading the Result
 
-Choose a randomized experiment when the product can assign comparable users or
-sessions, log exposure, and wait long enough for the metric to stabilize. The
-[[a-b-testing=>A/B testing]] path starts with a simple two-group design. The team
-validates the system with [[a-a-testing=>A/A testing]] and plans sample size
-before launch
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+The evidence standard also shapes the readout.
 
-Use causal inference when the decision is about an intervention but the team
-can't rely only on randomized evidence. That boundary is explicit through
-confounding, unconfoundedness, and policy evaluation
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-The method is heavier than ordinary prediction, so it's most valuable when it
-changes a rollout or targeting decision. Pricing and allocation decisions can
-justify the same work.
+A randomized A/B test can support rollout when the measured effect is large
+enough. The effect also has to be stable and justify the cost
+[[cite:ab-testing-and-product-experimentation=>A/B Testing]].
 
-Use discovery experiments when the team is still unsure what to build. Parallel
-proofs of concept and a scoping document support the early product phase
-[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]. These
-experiments produce evidence about problem fit, feasibility, and user signals
-before the team reaches the stricter causal question.
+An observational causal estimate needs the assumptions and sensitivity checks
+beside the result [[cite:causal-inference-for-machine-learning=>Causal ML]].
+
+A discovery experiment should name what it ruled out or name the next idea to
+build [[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
+
+The team shouldn't read every experiment as the same kind of win or loss. A
+design sprint can invalidate a weak concept. A shadow-mode check can expose a
+model failure before users see it. A causal model can support a targeting
+decision when an A/B test is unavailable. A live randomized test can decide a
+rollout when assignment, metrics, and duration support the comparison.
 
 ## Related Pages
 

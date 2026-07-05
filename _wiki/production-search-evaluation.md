@@ -15,13 +15,13 @@ related:
 ---
 
 Teams evaluate production search to prove that a search or retrieval system
-returns useful results under real product constraints. Evaluation starts with
-[[search]] and [[information retrieval]].
+returns useful results under real product constraints. Use this page for
+offline tests, online experiments, and monitoring. Use it for failure diagnosis
+and production metrics too. [[Search]] and [[Information Retrieval]] define the
+system being measured.
+
 The system has to retrieve relevant candidates and rank them well. It also has
 to meet latency, freshness, permission, and business constraints.
-
-Production search evaluation measures search with offline checks, online
-experiments, monitoring, and failure diagnosis.
 [[search-relevance=>search relevance]] defines ranking quality and product fit,
 [[Vector Search vs Keyword Search]] compares matching-method tradeoffs, and
 [[Vector Database vs Search Engine]] covers infrastructure placement.
@@ -32,16 +32,16 @@ Teams use the same retrieval discipline for
 [[retrieval-augmented-generation=>retrieval-augmented generation]].
 A RAG product may look like an LLM application, but answer quality often starts
 as a retrieval question before it becomes a generation question.
-For the broader map, use
+For the broader architecture map, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
-## Evaluation Scope
+## Measurement Scope
 
 Production search evaluation isn't one relevance number. Teams need checks for
 candidate retrieval, ranking order, generated answers, and product impact.
 Search systems separate candidate generation from ranking. Evaluation has to
 show whether the right items were retrieved before it asks whether they were
-ordered correctly.[[cite:building-production-search-systems=>Building Search Systems]]
+ordered correctly [[cite:building-production-search-systems=>Building Search Systems]].
 
 RAG systems add answer-level checks to that retrieval base. Chunking, embedding
 choice, retrieval count, and prompt context are separate failure points.
@@ -58,7 +58,7 @@ Production search evaluation sits between
 relevance checks diagnose the system quickly. Online experiments and monitoring
 show whether changes hold up with real users, traffic, and business goals.
 
-## Evaluation Boundaries
+## Failure Boundaries
 
 Search evaluation starts with relevance and ranking. It becomes more useful when
 teams connect search metrics to product outcomes such as clicks, contacts,
@@ -81,25 +81,19 @@ The "best" result can depend on freshness and constraints. Personalization and
 the user's immediate task may matter too.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-## Evaluation Tradeoffs
+## Search, RAG, and Hybrid Signals
 
-The search discussions put different boundaries around the same evaluation
-problem. One view starts with retrieval architecture and business value, then
-uses offline tests and A/B tests to connect search changes to product outcomes.
-[[cite:building-production-search-systems=>Building Search Systems]]
-Another view treats RAG as a pipeline where chunking, embedding choice,
-retrieval, and prompt context each need separate checks. Citations and human
-review belong in the same evaluation.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Search evaluation connects retrieval architecture to business value. Teams use
+offline tests and A/B tests for that comparison
+[[cite:building-production-search-systems=>Building Search Systems]].
+RAG evaluation checks chunking, embedding choice, and retrieval separately. It
+also checks prompt context, citations, and human review
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-The production ML search view stresses hybrid signals. Production search often
-has to satisfy product constraints that pure vector similarity doesn't capture.
-[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-
-Those views don't conflict because they show different failure boundaries. A
-search change can fail because of missing candidates, bad ranking, unsupported
-answers, or stale indexes. Weak business metrics and product rules can hide
-those failures.
+Hybrid search evaluation checks whether filters, freshness, and popularity
+improve the served result. It also checks metadata and query-time weights
+instead of only the nearest vector neighbor
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 ## Retrieval Before Ranking
 
@@ -256,10 +250,8 @@ For infrastructure choices, compare
 with
 [[Knowledge Graph vs Vector Search]].
 
-Guests connect production search evaluation to search architecture, RAG
-retrieval, and hybrid signals. In those episodes, they discuss candidate
-generation and ranking. They also discuss answer grounding and product
-constraints.
+The same measurement boundaries apply across candidate generation, ranking,
+answer grounding, and product constraints.
 [[cite:building-production-search-systems=>Building Search Systems]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]

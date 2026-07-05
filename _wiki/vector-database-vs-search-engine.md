@@ -7,7 +7,7 @@ secondary_keywords:
   - vector database versus search engine
   - vector database vs elasticsearch
   - vector search engine vs vector database
-summary: "Vector databases and search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance."
+summary: "Vector databases and search engines compared by storage, filters, ranking ownership, RAG infrastructure, and operations."
 related_wiki:
   - Search
   - Vector Databases
@@ -27,10 +27,9 @@ Modern search engines may store vectors, so the infrastructure question isn't
 whether semantic search is useful. It's which system should own vectors,
 filters, ranking, and operations.
 
-This comparison focuses on infrastructure ownership. [[Vector Databases]]
-covers storage and approximate-nearest-neighbor indexing, while
-[[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
-retrieval methods.
+Use this comparison for infrastructure boundaries. [[Vector Databases]] covers
+storage and approximate-nearest-neighbor indexing, while [[Vector Search vs
+Keyword Search]] compares lexical, semantic, and hybrid retrieval methods.
 
 Modern search migration often starts with existing information retrieval
 infrastructure and adds vector support beside it
@@ -75,13 +74,15 @@ Teams have to improve retrieval and ranking together, which connects the choice
 to [[Production Search Evaluation]] and business metrics
 [[cite:building-production-search-systems=>Building Search Systems]].
 
-## Search Migration Tradeoffs
+## Migration Tradeoffs
 
 Approaches differ on where vector search should live. One path starts from
-Solr, Lucene, and Semantic Web work. It leads into NLP query matching and
-dedicated vector databases. Existing search may store vectors too. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-A RAG implementation then ties storage to chunking, retrieval quality,
-citations, and evaluation. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Solr, Lucene, and Semantic Web work, then adds NLP query matching and dedicated
+vector databases. Existing search may store vectors too
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+A RAG implementation ties that storage choice to chunking, retrieval quality,
+citations, and evaluation
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Another path starts from production search. Search is a relevance decision
 that separates retrieval from ranking. Dense vectors are one representation
@@ -98,8 +99,8 @@ semantic-search layer. [[cite:deploying-llms-in-production-fine-tuning-retrieval
 That boundary connects to [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] and
 [[LLM Production Patterns]].
 
-The vector database is useful because it updates the knowledge path. It doesn't
-solve all LLM production concerns.
+The vector database is useful when it updates the knowledge path without
+retraining the model. It doesn't solve all LLM production concerns.
 
 A third boundary contrasts chunks in a vector database with graph semantics.
 Relationship-heavy retrieval may need a [[knowledge-graph-vs-vector-search=>knowledge graph]]
@@ -133,7 +134,7 @@ normalization, and query-time weights to the relevance decision. [[cite:building
 tradeoffs. For this page, the ownership issue is whether those hybrid signals
 live in one search engine or across a search engine plus vector database.
 
-## RAG Infrastructure
+## RAG Service Boundaries
 
 For [[retrieval-augmented-generation=>retrieval-augmented generation]],
 a vector database can own the passage-similarity lookup. A transcript chatbot
@@ -153,27 +154,26 @@ controls
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for
-prompt packaging, citation behavior, and answer quality. On this page, RAG
-infrastructure means passage lookup and filtering. It also means source
-constraints and reindexing ownership.
+prompt packaging, citation behavior, and answer quality. This comparison keeps
+RAG at the service-boundary level. It covers passage lookup, filtering, source
+constraints, and reindexing ownership.
 
-## Product Search and Recommendations
+## Product Search Boundaries
 
 For product search, the infrastructure decision often starts with an existing
 search engine that already serves traffic. Teams can add dense representations
-and vector databases beside that serving path. Hybrid filters then add recency
-and other constraints [[cite:building-production-search-systems=>Building Search Systems]].
-Ecommerce prototyping can use embeddings and CLIP-style retrieval while
-ranking, constraints, and production measurement remain search work.
+and vector databases beside that serving path while ranking, constraints, and
+production measurement remain search work
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Vector databases also support session-based recommendations, reranking, and
 similar candidate retrieval use cases. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-In [[machine learning]] systems, the retrieved item may be an image or product
-rather than a document chunk. It may also be a session or recommendation
-candidate. The search engine side still matters when the product experience
-depends on filters and metadata. Current item state remains there too. Ranking
-rules and measurable relevance remain search concerns.
+In [[machine learning]] systems, the retrieved item may be an image, product, or
+session. It may also be a recommendation candidate. The search engine side still
+matters when the product experience depends on filters and metadata. It also
+matters when current item state, ranking rules, and measurable relevance
+influence the result.
 
 ## Operations and Migration
 
@@ -194,7 +194,7 @@ Teams shouldn't choose the newer label by default. They should choose the
 component that can own semantic retrieval without breaking ranking, filters,
 monitoring, or iteration speed.
 
-## Evaluation Criteria
+## Ownership Checks
 
 Evaluate the vector database path by checking whether semantic candidates
 contain the evidence or records the task needs. Then check whether another
@@ -212,7 +212,7 @@ Use [[Production Search Evaluation]] for the broader measurement workflow.
 
 ## Related Pages
 
-These pages cover the retrieval, RAG, and evaluation choices around this
+Use these pages for the retrieval, RAG, and evaluation choices around this
 comparison:
 
 - [[Search]]

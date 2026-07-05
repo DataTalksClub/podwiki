@@ -26,10 +26,10 @@ building the product
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 DevRel is the role and operating practice. [[Open Source and Developer Relations]]
-covers the version where the product is an open-source project. That version
-depends on maintainers, governance, contribution paths, or open-source business
-models. [[Community Building]] and [[Community]] cover member participation,
-moderation, events, and peer-to-peer support.
+owns the version where DevRel has to work through maintainers, governance,
+contribution paths, or open-source business models. [[Community Building]] and
+[[Community]] own member participation, moderation, events, and peer-to-peer
+support.
 
 Hugo Bowne-Anderson's freelance path keeps DevRel connected to consulting,
 advising, and teaching rather than treating it as a separate communications
@@ -151,7 +151,7 @@ Those examples belong with
 [[machine learning tools]]
 because each demo also tests the tool's developer experience.
 
-## Community Channels and Open-Source Trust
+## Community Channels Without Community Ownership
 
 DevRel often runs through public communities, but it isn't the same job as
 general community management. Community work moves from founder-led activity to
@@ -165,23 +165,15 @@ builders
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 Open-source DevRel has an extra constraint because the project community must
-keep its own credibility. Airbyte's open-source-plus-cloud model raises questions
-of competition and licensing risk
+keep its own credibility. Airbyte's open-source-plus-cloud model raises
+competition and licensing questions
 ([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]).
-
 The scikit-learn discussion adds governance pressure through project history
 and maintainer transition
 ([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
-DevRel work in that setting has to respect governance and maintainers while
-supporting contribution paths and long-term trust.
-
-Together, these discussions link DevRel closely to
-[[open source and developer relations]],
-[[contributing]], and
-[[open-source-portfolio-evidence=>open-source portfolio evidence]].
-Docs fixes and examples can be real technical contributions when they remove
-adoption friction. The same is true for reproducible issues, workshops, and demo
-repos.
+Use [[Open Source and Developer Relations]] for that bridge. Use [[Open Source]]
+for stewardship and licensing, and [[Contributing]] for issue, docs, and pull
+request mechanics.
 
 ## Adoption Metrics and Product Feedback
 

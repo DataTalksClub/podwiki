@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11963
+    "links": 11928
   },
   "nodes": [
     {
@@ -372,7 +372,7 @@
       "title": "Delta Lake vs Apache Iceberg",
       "url": "/wiki/delta-lake-vs-apache-iceberg/",
       "count": 1,
-      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg across table formats, catalogs, engines, governance, lock in, and operations.",
+      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg as lakehouse table formats across Spark fit, openness, catalogs, engines, and operations.",
       "keyword": "delta lake vs apache iceberg"
     },
     {
@@ -685,7 +685,7 @@
       "title": "Open Source Contributor Path",
       "url": "/wiki/open-source-contributor-roadmap/",
       "count": 1,
-      "search": "Open Source Contributor Path A practical roadmap for contributing through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence.",
+      "search": "Open Source Contributor Path A practical contributor path from first issue to reviewable docs, tests, demos, maintainer collaboration, and portfolio evidence.",
       "keyword": "open source contributor roadmap"
     },
     {
@@ -834,7 +834,7 @@
       "title": "Vector DB vs Search Engine",
       "url": "/wiki/vector-database-vs-search-engine/",
       "count": 1,
-      "search": "Vector DB vs Search Engine Vector databases and search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
+      "search": "Vector DB vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, RAG infrastructure, and operations.",
       "keyword": "vector database vs search engine"
     },
     {
@@ -845,7 +845,7 @@
       "title": "Vector/Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
+      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, filters, and RAG context.",
       "keyword": "vector search vs keyword search"
     },
     {
@@ -867,7 +867,7 @@
       "title": "Warehouse vs Lakehouse",
       "url": "/wiki/data-warehouse-vs-data-lakehouse/",
       "count": 1,
-      "search": "Warehouse vs Lakehouse Compare warehouse analytics with lakehouse designs built on object storage, table formats, catalogs, compute, and governance.",
+      "search": "Warehouse vs Lakehouse Compare warehouse analytics with lakehouse architecture across consumers, storage, compute, governance, cost, and migration triggers.",
       "keyword": "data warehouse vs data lakehouse"
     },
     {
@@ -8911,7 +8911,7 @@
       "title": "Apache Iceberg",
       "url": "/wiki/apache-iceberg/",
       "count": 1,
-      "search": "Apache Iceberg How Apache Iceberg fits lakehouse design, open table formats, catalogs, governance, and platform operations."
+      "search": "Apache Iceberg Apache Iceberg as an open table format for lake storage, catalogs, governance, interoperability, and lock in reduction."
     },
     {
       "id": "wiki:applied-research",
@@ -9071,7 +9071,7 @@
       "title": "Community",
       "url": "/wiki/community/",
       "count": 1,
-      "search": "Community Community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
+      "search": "Community Community as shared participation in DataTalks.Club style learning, feedback, contribution, visibility, and career support."
     },
     {
       "id": "wiki:community-building",
@@ -9534,7 +9534,7 @@
       "title": "Delta Lake",
       "url": "/wiki/delta-lake/",
       "count": 1,
-      "search": "Delta Lake Delta Lake in lakehouse table format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
+      "search": "Delta Lake Delta Lake as a Spark and lakehouse oriented table format for versioned data, recovery, and Delta friendly tooling."
     },
     {
       "id": "wiki:developer-experience",
@@ -10224,7 +10224,7 @@
       "title": "Open Source",
       "url": "/wiki/open-source/",
       "count": 1,
-      "search": "Open Source How open source connects ML and data tools, contributions, maintainership, licensing, portfolio evidence, community, and startup distribution."
+      "search": "Open Source Open source as public data and ML software, including stewardship, governance, licensing, contribution surfaces, ecosystems, and company distribution."
     },
     {
       "id": "wiki:open-source-and-developer-relations",
@@ -10234,7 +10234,7 @@
       "title": "Open Source DevRel",
       "url": "/wiki/open-source-and-developer-relations/",
       "count": 1,
-      "search": "Open Source DevRel Open source DevRel practices for building developer trust through education, docs, community programs, advocacy, and product feedback."
+      "search": "Open Source DevRel The bridge between open source stewardship and DevRel: docs, demos, contributor onboarding, maintainer trust, and adoption feedback."
     },
     {
       "id": "wiki:open-source-ml-contributions",
@@ -10515,7 +10515,7 @@
       "title": "Search Relevance",
       "url": "/wiki/search-relevance/",
       "count": 1,
-      "search": "Search Relevance How production search teams combine retrieval, ranking, filters, evaluation, experiments, and business goals into useful results."
+      "search": "Search Relevance How production search teams define ranking quality, filters, business goals, and useful result order."
     },
     {
       "id": "wiki:search-and-rag-project-checklist",
@@ -21176,12 +21176,6 @@
     },
     {
       "source": "wiki:a-b-testing",
-      "target": "wiki:data-product-adoption",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:a-b-testing",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -21365,12 +21359,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:a-b-testing",
-      "target": "wiki:recommendation-systems",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:a-b-testing",
@@ -27254,18 +27242,6 @@
     },
     {
       "source": "wiki:apache-iceberg",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-iceberg",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
@@ -29852,36 +29828,6 @@
     },
     {
       "source": "wiki:causal-inference",
-      "target": "person:aleksandermolak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
-      "target": "person:juanorduz",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
-      "target": "person:lorismarini",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
-      "target": "person:valeriybabushkin",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -29993,6 +29939,12 @@
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:causal-inference",
@@ -30758,18 +30710,6 @@
     },
     {
       "source": "wiki:community",
-      "target": "person:willmcgugan",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community",
-      "target": "person:willrussell",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community",
       "target": "podcast:building-ml-communities-diversity-and-career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -30926,7 +30866,7 @@
     },
     {
       "source": "wiki:community",
-      "target": "wiki:open-source-ml-contributions",
+      "target": "wiki:open-source-contributor-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38216,30 +38156,6 @@
     },
     {
       "source": "wiki:data-lake",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "person:christopherbergh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "person:nataliekwong",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-lake",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -38297,18 +38213,6 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:data-mesh",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-lake",
@@ -44984,6 +44888,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
@@ -48248,12 +48158,6 @@
     },
     {
       "source": "wiki:delta-lake",
-      "target": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -48272,24 +48176,12 @@
     },
     {
       "source": "wiki:delta-lake",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:delta-lake",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
@@ -48314,18 +48206,6 @@
     },
     {
       "source": "wiki:delta-lake",
-      "target": "wiki:data-engineering-tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:data-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake",
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
@@ -48341,12 +48221,6 @@
       "target": "wiki:data-lake",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -48371,12 +48245,6 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:dbt",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -48428,24 +48296,12 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:apache-iceberg",
       "kind": "article-chip",
       "weight": 1
@@ -48494,12 +48350,6 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "article-chip",
       "weight": 1
@@ -48521,12 +48371,6 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "wiki:dbt",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
@@ -48947,12 +48791,6 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:developer-relations",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:developer-relations",
@@ -51581,24 +51419,6 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
-      "target": "person:aleksandermolak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation-and-causal-inference",
-      "target": "person:liesbethdingemans",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
@@ -55268,6 +55088,12 @@
     },
     {
       "source": "wiki:information-retrieval",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:information-retrieval",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
@@ -55289,6 +55115,12 @@
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:interpretability",
@@ -72116,24 +71948,6 @@
     },
     {
       "source": "wiki:power-analysis",
-      "target": "person:aleksandermolak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:power-analysis",
-      "target": "person:jakobgraff",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:power-analysis",
-      "target": "person:rishabhbhargava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:power-analysis",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -72626,12 +72440,6 @@
     },
     {
       "source": "wiki:product-analyst",
-      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analyst",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-chip",
       "weight": 1
@@ -72659,12 +72467,6 @@
       "target": "wiki:analytics-engineering",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:product-analyst",
-      "target": "wiki:data-analyst-careers",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:product-analyst",
@@ -77564,12 +77366,6 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:search-and-rag-project-checklist",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
       "target": "wiki:search-relevance",
       "kind": "wiki-chip",
       "weight": 1
@@ -77877,12 +77673,6 @@
     {
       "source": "wiki:search-relevance",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
     },

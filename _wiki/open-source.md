@@ -5,7 +5,7 @@ secondary_keywords:
   - "what is open source"
   - "open source data engineering projects"
   - "open source entity resolution"
-summary: "How open source connects ML and data tools, contributions, maintainership, licensing, portfolio evidence, community, and startup distribution."
+summary: "Open source as public data and ML software, including stewardship, governance, licensing, contribution surfaces, ecosystems, and company distribution."
 related:
   - Open Source and Developer Relations
   - Open Source Portfolio Evidence
@@ -63,15 +63,15 @@ it to [[developer experience]],
 [[community building]].
 
 Open source also creates public evidence. A contribution can support
-[[job search]], a
-[[data-engineering-portfolio-projects=>data engineering portfolio]],
-or [[machine learning portfolio projects]].
-For the step-by-step path, use the
-[[Open Source Contributor Roadmap]].
-For hiring evidence, use
-[[Open Source Portfolio Evidence]].
-For open-source adoption work, use
-[[Open Source and Developer Relations]].
+[[job search]] or a
+[[data-engineering-portfolio-projects=>data engineering portfolio]]. It can also
+support [[machine learning portfolio projects]].
+
+At the concept level, open source means public software plus the stewardship
+practices around it. Use [[Open Source Contributor Roadmap]] for the
+step-by-step path and [[Open Source Portfolio Evidence]] for hiring evidence.
+Use [[Open Source and Developer Relations]] for adoption work around public
+projects.
 
 ## Reusable Project Work
 
@@ -266,7 +266,7 @@ Roadmap]] covers sequence. [[Open Source Portfolio Evidence]] covers how to
 package issue links, PRs, maintainer feedback, and CI. It also covers results
 and role signal for hiring.
 
-## Community, Onboarding, and Maintainer Load
+## Community Norms and Maintainer Load
 
 Open-source communities work best when they help contributors while protecting
 maintainer time. Contribution guides and polite issue interaction aren't only
@@ -282,12 +282,11 @@ Public code still needs operating discipline.
 
 Programs with structure can make the first contribution less confusing.
 Hackathons and the MLH Fellowship reduce ambiguity for newcomers to large
-repositories. Git
-practice, environment setup, and mentorship serve the same onboarding goal
+repositories. Git practice, environment setup, and mentorship serve the same
+onboarding goal
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
-Setup is part of the contribution barrier when projects require local services
-or extra memory before a beginner can make a useful change. Hardware, GPUs,
-Colab, or VMs can add another layer.
+The individual sequence belongs in [[Open Source Contributor Roadmap]]. The
+program design belongs in [[Open Source and Developer Relations]].
 
 Community work also becomes product feedback when users report unclear setup,
 docs gaps, or workflow friction. That's where the open-source community topic
@@ -414,8 +413,9 @@ project through education, docs, advocacy, and feedback loops
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
-For the full bridge between adoption work and open-source stewardship, use
-[[Open Source and Developer Relations]].
+Use [[Open Source and Developer Relations]] for the bridge between adoption work
+and open-source stewardship. It covers docs, demos, contributor onboarding, and
+maintainer feedback when those practices support a public project.
 
 ## Limits
 

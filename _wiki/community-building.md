@@ -12,17 +12,17 @@ related:
 
 ## Building Communities as Operating Work
 
-Community building is the organizer work behind a technical community. It covers
-the choices that help people keep showing up and helping each other. Organizers
-choose the niche, cadence, and event formats. They also handle moderation and
-member activation. Over time, they collect feedback, manage sponsorship, and
-create contributor paths.
+Community building is the organizer work behind a technical community.
+Organizers choose the niche and cadence. They also choose event formats,
+moderation rules, and member roles that help people keep showing up and helping
+each other. Over time, they collect feedback, manage sponsorship, and create
+paths from attendance to contribution.
 
-For the broader concept of shared participation, use [[Community]]. Use this page
-for the practice of running that participation. For product-backed technical
-education, use [[Developer Relations]]. Use
-[[Open Source and Developer Relations]] when community work is tied to an
-open-source project, maintainers, contribution paths, or adoption feedback.
+For shared participation as a concept, use [[Community]]. Use this page for the
+practice of running that participation. For product-backed technical education,
+use [[Developer Relations]]. Use [[Open Source and Developer Relations]] when
+community work is tied to maintainers, contribution paths, or adoption feedback
+around an open-source project.
 
 The MLOps Community discussion makes the audience/community split operational.
 A founder can publish talks, but the community needs weekly events, content
@@ -167,17 +167,19 @@ platforms, and peer moderation
 Growth without safety and boundaries can make the community worse for the
 members it's supposed to help.
 
-## Open Source and Developer Relations
+## Keep Product and Project Work in Its Lane
 
 Community building overlaps with
 [[open-source-and-developer-relations=>open-source and developer relations]]
 when a group organizes around tools, contributions, demos, and technical
 education.
 
-Separate the pages by purpose. Community organizers optimize for belonging and
-safety while creating repeat participation and member-to-member help.
-Open-source DevRel uses some of the same channels. It also has to improve docs,
-demos, contribution paths, and product or maintainer feedback.
+The organizer's job is to make participation repeatable and safe. The DevRel
+job is to help developers adopt a tool and route feedback back to the builders.
+The open-source bridge adds maintainer capacity, public trust, and reviewable
+contribution paths. Keeping those jobs separate prevents a community calendar
+from becoming a substitute for documentation, product support, or maintainer
+work.
 
 Open-source education programs form a path to full-time developer advocacy.
 That path depends on pull-request quality, Git skills, and contributor
@@ -186,17 +188,19 @@ onboarding. It also connects to documentation, demos, and outreach
 For the individual contributor sequence, use the
 [[Open Source Contributor Roadmap]].
 
-The same logic applies to DataTalks.Club formats. Open Source Spotlight gives
+DataTalks.Club formats can support this boundary. Open Source Spotlight gives
 maintainers a place to explain their work. It also gives members a low-pressure
 path into technical tools and projects
 ([[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]]).
 
 ## Events and Contributor Paths
 
-Events work operationally when they lead to the next useful action. Organizers
-can design a talk to lead to a Slack thread, office hours, a project submission,
-or a pull request. It can also lead to a teaching assistant role or a new event
-organized by a member.
+Events work operationally when they lead to the next useful action. A talk can
+lead to a Slack thread or office hours. It can also lead to a project
+submission, a teaching assistant role, or a new event organized by a member.
+When the next step is a pull request, issue, or demo repository,
+[[Contributing]] and the [[Open Source Contributor Roadmap]] own the individual
+path.
 
 The MLOps community began with meetups and a podcast-like event format. It then
 shifted focus to core contributors and advisory groups. That created paths for

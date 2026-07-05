@@ -36,8 +36,8 @@ stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B
 
 Product analyst responsibilities start with product questions, event data, and
 decision support. [[product-analyst-vs-data-analyst=>Product Analyst vs Data
-Analyst]] compares which analyst title a team needs. [[Data Analyst Careers]]
-covers entry routes, portfolio evidence, and broader analyst growth.
+Analyst]] compares which analyst title a team needs. [[Data Analyst Role]]
+defines the broader analyst base this role builds on.
 
 ## Role Scope
 
@@ -235,46 +235,15 @@ use that context for onboarding and lifecycle behavior. They also use it for
 pricing, marketplace dynamics, content discovery, and other domains where metric
 movement needs interpretation.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 
-## Hiring Signals and Portfolio Projects
+## Product Decision Evidence
 
-For hiring, look for evidence that the candidate can move from a product
-question to a defensible recommendation. A strong product analyst portfolio does
-not need a large stack. It should show the path from question to data choice,
-analysis, caveat, and recommendation.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
+A product analyst's work product should make the product decision traceable.
+The useful output isn't only a chart. It's the chain from product question to
+event definition, metric choice, uncertainty, and recommendation. Product teams
+need this trace because a signup, activation, or retention metric can change
+because the product changed or because the tracking changed.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
-Hiring teams need this project proof because product analysts can be a distinct
-hiring need alongside analytics engineers and marketing scientists. Katie Bauer
-also frames analytics craft around maintainability, documentation, and peer
-review. A project should show how another analyst could review or reuse the
-work.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>Hiring Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>Analytics Craft]]
-
-Useful portfolio evidence includes:
-
-- Define a product question and the decision it supports.
-- State the metric, grain, segment, and time window.
-- Explain the event data or source tables.
-- Write SQL that can be reviewed.
-- Visualize the result without hiding uncertainty.
-- Interpret the result with caveats and next steps.
-
-Project examples can include:
-
-- An activation funnel.
-- An onboarding drop-off analysis.
-- A retention cohort analysis.
-- An experiment readout.
-- A tracking-plan review.
-- A dashboard backed by modeled product data.
-
-Look for the analyst's ability to connect product behavior and data quality.
-The recommendation should also show statistical reasoning when the decision
-depends on an experiment or uncertain metric movement.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
-
-A tracking-plan review should use event definitions, ownership, and capture
-details. An experiment readout should show assignment, metric choice, and power
-reasoning.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]][[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
-
-Strong product analyst projects make the decision traceable:
+Common product analyst outputs include:
 
 - Tracking-plan audit: choose a signup, activation, invite, or billing event.
   Define the properties, owner, and whether the capture is client-side or
@@ -300,11 +269,11 @@ Strong product analyst projects make the decision traceable:
   on whether the metric movement is real or caused by tracking drift.
   [[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Anomaly Investigation]]
 
-End each project with the product decision it supports. The team might ship or
-hold, or it might add instrumentation, rerun a cleaner test, or change the
-metric definition. That makes the portfolio useful for
-[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] interviews, where the evidence needs to show
-product judgment as well as SQL.
+End each output with the product decision it supports. The team might ship or
+hold, add instrumentation, rerun a cleaner test, or change the metric
+definition. [[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]]
+uses that decision surface to separate product analyst work from broader data
+analyst work.
 
 ## Related Pages
 

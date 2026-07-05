@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search Relevance"
-summary: "How production search teams combine retrieval, ranking, filters, evaluation, experiments, and business goals into useful results."
+summary: "How production search teams define ranking quality, filters, business goals, and useful result order."
 related:
   - Search
   - Information Retrieval
@@ -16,15 +16,13 @@ related:
   - Metrics
 ---
 
-Search relevance decides which results should appear for a query. It also
-decides how to order them and why that order helps the person or business using
-the search product.
-It sits inside [[Search]] and [[Information Retrieval]], and it depends on
-[[Metrics]] and [[a-b-testing=>A/B testing]]. Latency, freshness, permissions,
-and cost matter too.
+Search relevance decides which results should appear for a query and how to
+order them. The order has to help the person or business using the search
+product. It sits inside [[Search]] and [[Information Retrieval]]. Latency,
+freshness, and permissions matter too. Cost and product goals matter as well.
 
-Search relevance asks what should rank and why it should rank there. It also
-asks which product outcome the ranking should serve.
+Search relevance asks what should rank and which product outcome the ranking
+should serve.
 [[Information Retrieval]] covers retrieval mechanics,
 [[Vector Search vs Keyword Search]] covers matching methods,
 and [[Vector Database vs Search Engine]] covers infrastructure ownership.
@@ -91,16 +89,16 @@ explains learned ordering. RAG or answer generation depends on whether that
 relevance layer supplied useful evidence first
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]].
 
-## Lexical, Vector, And Hybrid Retrieval
+## Lexical, Vector, and Hybrid Candidates
 
 Lexical, vector, and hybrid retrieval create different candidate sets before
 ranking can apply product objectives. Exact-word matching, semantic similarity,
 filters, and query-time weights fail in different ways
 [[cite:building-production-search-systems]]. Use [[Vector Search vs Keyword
-Search]] for that retrieval-method comparison and [[Vector Database vs Search
+Search]] for the retrieval-method comparison and [[Vector Database vs Search
 Engine]] for the storage and serving boundary.
 
-## Filters, Freshness, And Business Rules
+## Filters, Freshness, and Business Rules
 
 Filters can be hard constraints or ranking preferences, and Lucene-style `must`
 and `should` clauses separate those cases. A strict freshness filter may remove
@@ -122,7 +120,7 @@ retrieval-heavy LLM systems, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] to keep
 search constraints visible before generation.
 
-## Metrics, Offline Tests, And A/B Testing
+## Relevance Metrics and Experiments
 
 Production relevance needs more than a relevance label or an embedding score.
 Teams judge ranking changes with business impact, [[a-b-testing=>A/B testing]],
@@ -131,12 +129,14 @@ evaluation, and fast iteration
 metrics.[[cite:building-production-search-systems]]
 
 Metrics matter because relevance is a ranking objective, not a raw embedding
-score. Use [[Production Search Evaluation]] for offline tests, online tests,
-monitoring, and search-specific measurement. Use [[Experimentation]] for broader
-product experiment mechanics, and use [[Evaluation]] when the team needs to name
-which decision the metric will change.
+score. Use this page to define what counts as a better result order and which
+product behavior the ranker should improve. Use [[Production Search Evaluation]]
+for offline tests, online tests, monitoring, and search-specific measurement.
+Use [[Experimentation]] for broader product experiment mechanics, and use
+[[Evaluation]] when the team needs to name which decision the metric will
+change.
 
-## RAG And Agent Retrieval
+## RAG and Agent Retrieval
 
 RAG systems make relevance failures visible in a different way. If retrieval
 misses the right chunk, the model may answer fluently from weak context.
@@ -146,18 +146,14 @@ review.
 RAG quality starts as a search relevance problem before it becomes an
 answer-quality problem.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval]]
 
-Representative gold tests, failure analysis, logs, and traces give RAG builders
-a way to see whether retrieval changes improve the system. Chunking and
-embeddings can become a practical business win when the interface makes the
-retrieved context useful.[[cite:practical-llm-engineering-and-rag]]
-
 Agent systems extend the same boundary because retrieval is one tool among
 others. Latency, cost, and context quality constrain that tool. Custom datasets
 and mocked tools help test retrieval behavior, while integration tests,
 regression tests, and goal-based assertions catch relevance
 regressions[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation]].
 Use [[LLM Evaluation Workflows]] when the product combines retrieval,
-generation, and tool use.
+generation, and tool use, and use [[Production Search Evaluation]] for the
+search-side test and monitoring workflow.
 
 ## Related Pages
 

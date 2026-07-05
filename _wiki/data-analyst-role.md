@@ -89,10 +89,6 @@ Type A analysts explore data before modeling starts by building dashboards and
 visualizations. They help choose the problem to solve and translate findings
 into a commercial or project decision.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
-That makes the analyst path a legitimate target, not only a stepping stone to
-modeling. Exploration, visualization, and storytelling can be the main evidence
-when the job is decision support.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
-
 The analyst version of data science starts with curiosity about the data, but
 it doesn't end with charts. Danny Ma places experimentation, statistics, and
 storytelling beside SQL and visualization tools. The analyst has to
@@ -100,12 +96,6 @@ show what changed, why it matters, and which decision should follow
 [[cite:data-science-career-abc-framework@13:17=>Data Science Career ABC Framework]].
 That connects the role to [[Communication]], [[Metrics]], and
 [[Experimentation]], not only to BI tooling.
-
-The Type A path can also grow from analyst work toward data science without
-discarding the analyst base. SQL, Excel, Tableau, and visualization remain
-useful. Python or R, statistics, experiment design, and basic ML add range.
-Communication stays central because analyst-style data science still has to
-move a business or product decision.[[cite:data-science-career-abc-framework@18:20=>Data Science Career ABC Framework]]
 
 ## Skill Stack
 
@@ -140,9 +130,6 @@ decisions.[[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Da
 
 Communication is part of the role, not a soft add-on. Analyst documentation
 serves management and decision makers.[[cite:data-team-roles=>Data Team Roles Explained]]
-
-From the candidate side, clear responsibilities, dates, and practical examples
-beat vague buzzwords.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
 ## Adjacent Roles
 

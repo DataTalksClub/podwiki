@@ -3,8 +3,8 @@ layout: article
 tags: ["roadmap"]
 title: "Open Source Contributor Path"
 keyword: "open source contributor roadmap"
-summary: "A practical roadmap for contributing through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence."
-search_intent: "People searching for an open source contributor roadmap usually need a practical path from first issue to credible public contribution evidence."
+summary: "A practical contributor path from first issue to reviewable docs, tests, demos, maintainer collaboration, and portfolio evidence."
+search_intent: "People searching for an open source contributor roadmap need a practical path from first issue to credible public contribution evidence."
 related_wiki:
   - Open Source
   - Contributing
@@ -19,9 +19,7 @@ related_wiki:
 
 An open-source contributor roadmap should start with useful work that a
 maintainer can review. That work may be code, docs, or tests. It can also be a
-reproducible issue, a demo, a forum answer, or a tutorial. Demo-first DevRel
-uses the same surface when demos and docs help users finish a real task
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+reproducible issue, a demo, a forum answer, or a tutorial.
 
 Good contribution quality includes documentation, contribution guides, and
 polite interaction with maintainers. Reproducible issues and tests reduce
@@ -32,15 +30,14 @@ pre-commit
 For ML-library examples and maintainer expectations, use
 [[open-source-ml-contributions=>open-source ML contributions]].
 
-The broad concept lives in [[Open Source]],
-and
-[[Open Source Portfolio Evidence]]
-covers the hiring evidence. Use [[Documentation]]
-and [[Developer Relations]]
-when the contribution is a guide, demo, workshop, or adoption fix instead of a
-code patch.
+The broad concept lives in [[Open Source]], and
+[[Open Source Portfolio Evidence]] covers the hiring evidence. Use
+[[Open Source and Developer Relations]] when the contribution path is part of a
+company-backed DevRel program, maintainer onboarding effort, or adoption fix.
+Use [[Documentation]] and [[Technical Writing]] when the contribution is a guide,
+quickstart, or tutorial.
 
-## Contribution Surfaces
+## Start With Reviewable Work
 
 An open-source contributor is someone who helps a public
 project become easier to use and trust. Contributors can also make the project
@@ -53,9 +50,10 @@ and GitHub work become portfolio signals. Large codebases and PR workflow become
 part of the learning path, along with tests and rejection
 ([[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions]]).
 
-The same contribution surface connects to [[Contributing]],
-[[Open Source]], and
-[[Open Source Portfolio Evidence]].
+The same contribution surface connects to [[Contributing]], [[Open Source]], and
+[[Open Source Portfolio Evidence]]. The order matters because each step gives
+reviewers more context. Find a project, reproduce context, make a small change,
+and package the result so reviewers can understand it.
 
 ## Volunteer Project Roles
 
@@ -128,12 +126,13 @@ The first contribution sequence can be:
 
 ## Documentation and Demos as Contribution Work
 
-Documentation isn't a side quest in this roadmap. It's evidence that you can
-understand a user and explain a system. It also makes a project easier to adopt.
+Documentation is contribution work when it helps a maintainer or user finish a
+real task. It shows that you can understand a user and explain a system. It also
+makes a project easier to adopt.
 
 That's why docs work belongs with [[Documentation]] and
-[[Technical Writing]]. It also belongs with [[Developer Relations]], not only
-README cleanup.
+[[Technical Writing]]. It can also connect to [[Developer Relations]] when a
+guide, demo, or workshop removes adoption friction.
 Vincent's checklist names README material and guides. API reference, examples,
 and contribution notes are also part of the project surface
 ([[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]).

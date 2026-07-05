@@ -14,23 +14,25 @@ related:
   - LLMs
 ---
 
-Vector databases store [[embeddings]] and index them for similarity lookup. They
-return nearby items with nearest-neighbor search. Atita Arora, Meryem Arik, and
-Daniel Svonava use them as the storage and indexing layer behind semantic
-[[search]] and [[retrieval-augmented-generation=>retrieval-augmented generation]].
-They also use them for recommendations, multimodal retrieval, and [[llms=>LLM]]
-applications that need outside knowledge
+Vector databases store and index [[embeddings]] so systems can return nearby
+items with nearest-neighbor search. Guests use them as the storage and indexing
+layer behind semantic [[search]] and
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+They also connect vector databases to recommendations and multimodal retrieval.
+[[llms=>LLM]] applications that need outside knowledge use the same storage
+layer
 [[cite:building-production-search-systems=>Building Search Systems]].
 
-The core concept is storage plus indexing. Vector databases store model outputs,
-use approximate-nearest-neighbor indexes, and sit inside retrieval systems. For
-the matching-method comparison, use [[Vector Search vs Keyword Search]]. For the
-infrastructure ownership decision, use [[Vector Database vs Search Engine]].
+Vector database work covers vector storage, indexing, embedding lifecycle, and
+vector retrieval operations. [[Vector Search vs Keyword Search]] covers the
+matching-method comparison. [[Vector Database vs Search Engine]] covers the
+infrastructure ownership decision. [[Knowledge Graph vs Vector Search]] covers
+structured relationship retrieval.
 
-A vector database can retrieve candidates while the surrounding product still
-handles chunking, filters, and reranking. It may also handle source constraints,
+A vector database can retrieve candidates while the surrounding product handles
+chunking, filters, and reranking. The product may also need source constraints,
 citations, and evaluation.
 
 [[person:atitaarora=>Atita Arora]] gives the clearest
@@ -145,7 +147,7 @@ retrieval fits changing facts and source-backed answers while fine-tuning fits
 behavior, style, or task adaptation. Vector databases help with the retrieval
 side of that decision, but they don't choose the model behavior.
 
-## Hybrid Search and Recommendations
+## Candidate Retrieval for Products and Recommendations
 
 Production systems use vector databases as candidate generators, not as the
 whole relevance stack. Product search, support search, and recommendation
@@ -181,9 +183,10 @@ which of the retrieved items should actually surface in the product
 
 Those examples place vector databases beside [[recommendation systems]],
 ranking, and search, not above them. The matching tradeoff between lexical,
-semantic, and hybrid retrieval belongs in [[Vector Search vs Keyword Search]].
+semantic, and hybrid retrieval belongs in [[Vector Search vs Keyword Search]],
+and ranking objectives belong in [[search-relevance=>Search Relevance]].
 
-## Graph and Structured Retrieval
+## Structured Retrieval Boundaries
 
 [[person:anahitapakiman=>Anahita Pakiman]] adds a structured-knowledge
 contrast by comparing text chunking, embeddings, and vector databases with
@@ -191,14 +194,12 @@ knowledge graph semantics [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>K
 Nearest-neighbor retrieval finds similar chunks, while a graph can preserve
 explicit relationships and typed paths.
 
-Her episode shows a different retrieval design: she combines LLM grounding with
-knowledge graphs and Cypher-driven retrieval [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
-That makes
-[[Graph RAG vs Vector RAG]]
-and
-[[Knowledge Graph vs Vector Search]]
-architecture choices about evidence structure. Some systems need similar text or
-images. Others need entities, paths, report structure, or domain relationships.
+Her episode shows a different retrieval design. She combines LLM grounding with
+knowledge graphs and Cypher-driven retrieval
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
+Use [[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]] for the
+evidence-structure comparison. For vector databases, focus on storage, indexing,
+and nearest-neighbor retrieval.
 
 For the underlying graph database technology, Dave Bechberger and Josh
 Perryman's [[book:20210614-graph-databases-in-action=>graph database book]]
@@ -219,9 +220,8 @@ Atita discusses multi-level RAG evaluation and human-in-the-loop review [[cite:m
 Daniel takes the search-metrics route. He connects search quality to business
 metrics, A/B tests, and revenue attribution. He also discusses offline
 evaluation and operational metrics [[cite:building-production-search-systems=>Building Search Systems]].
-Those discussions make vector database evaluation part of
-[[production search evaluation]],
-not a standalone benchmark.
+Those discussions make vector database evaluation part of [[production search
+evaluation]], not a standalone benchmark.
 
 Storage and compute also change at different speeds. Daniel separates
 ingestion-time encoding from query-time encoding and covers recomputing

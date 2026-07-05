@@ -5,7 +5,6 @@ title: "Data Analyst to Analytics Engineer"
 seo_title: "Analyst to Analytics Eng"
 keyword: "data analyst to analytics engineer"
 summary: "A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof."
-search_intent: "People searching for data analyst to analytics engineer usually want a practical transition path: which analyst skills transfer, what modeling and dbt skills to add, and what project evidence proves readiness."
 related_wiki:
   - Data Analyst Role
   - Data Analyst Careers
@@ -190,14 +189,9 @@ one-off analysis.
 ## Prove the Transition With Portfolio Work
 
 Portfolio evidence should show the move from one-off analysis to reusable data
-work. Juan Pablo's first portfolio used R projects for data wrangling,
-exploratory analysis, and visualizations. It included maps, heat maps, and basic
-models. For entry-level roles, three projects are enough. Any public portfolio is
-better than waiting for a perfect one
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
-
-For analytics engineering, the strongest project starts with analyst work and
-turns it into a trusted model layer.
+work. A general analyst portfolio can show exploratory analysis and
+visualization. The transition project has to go further: it should turn
+analyst logic into a trusted model layer.[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
 Use two or three projects that translate analyst work into analytics-engineering
 proof:
@@ -220,11 +214,9 @@ data and checks matter, not repeat a course project.
 The scope should match
 [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
 and the
-[[Dashboard and Metric Layer Project Checklist]].
-Make the project easy to look at. GitHub and GitHub Pages can work. RPubs,
-WordPress, and Hashnode can work too as long as the project has a clear
-description and README
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+[[Dashboard and Metric Layer Project Checklist]]. Keep the README focused on
+grain and lineage. It should also show tests, metric definitions, and the
+analyst decision the model supports.
 
 ## Get the First Role
 

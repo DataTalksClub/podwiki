@@ -210,8 +210,11 @@ they understand the business context. The model uses shared metadata, identity,
 authorization, and interoperability to keep that ownership usable across the
 organization
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-Self-service platform abstractions reduce the burden on domain teams. Domain
-ownership and shared standards have to exist together.
+[[Data Mesh vs Centralized Data Platform]] covers the ownership tradeoff between
+domain autonomy and central platform control.
+
+Self-service platform abstractions reduce the burden on domain teams, but domain
+ownership and shared standards still have to exist together.
 
 Mehdi OUAZZA gives the scale-up platform version. The platform enables
 onboarding and scale, with work split between platform engineering and use-case

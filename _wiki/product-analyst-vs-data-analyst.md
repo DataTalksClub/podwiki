@@ -144,36 +144,32 @@ broader data stack.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to
 When repeated definitions and transformations become the main problem, the
 neighboring role is [[analytics engineering]], not a new analyst title.
 
-## Skills and Interview Signals
+## Title Choice
 
 Both roles need SQL, metric definition, dashboard literacy, and communication.
-The product analyst needs stronger practice with product events and cohorts.
-They also need funnels, experiment design, guardrail metrics, and launch
-readouts.
+The title choice should follow the decision surface, not the tool list. Use
+product analyst when the work depends on user journeys and product events. The
+product title also fits cohorts, experiment design, guardrail metrics, and
+launch readouts.
 
-The data analyst needs broader comfort with business reporting and stakeholder
-interviews. They also need recurring dashboards, executive summaries, and
-cross-functional questions.
+Use data analyst when the work spans company metrics and
+recurring reports. The broader title also fits executive dashboards and
+operations. It can also fit finance, sales, support, or cross-functional
+questions.
 
-For product analyst interviews, ask for a product decision case. A strong
-candidate can define the event data and name the primary metric. They can also
-name guardrails and explain the assignment unit for an experiment. If results
-are mixed, they can state what they would recommend.
+For product-facing work, the comparison question is whether the analyst can
+define the product behavior and the decision before the test or dashboard
+starts. Assignment tracking, A/A tests, metric stability, and power analysis set
+the standard for product experiment work.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-Assignment tracking, A/A tests, metric stability, and power analysis set a
-standard for product analyst experiment work.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+For broader analyst work, the comparison question is whether the analyst can
+move from raw company data to a recommendation. The analyst needs the right
+tables, definitions, caveats, and stakeholder explanation.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-For data analyst interviews, ask for a business question that moves from raw
-data to a recommendation. A strong candidate can find the right tables, check
-definitions, and build the dashboard or analysis. They can also explain
-caveats.
+Last-mile adoption adds the shared decision check. Analysts should start from
+the decision and bring metrics into the meeting where people act on them.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
-Last-mile adoption adds a decision check: analysts should start from the
-decision and bring metrics into the meeting where people act on them.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-
-For either role, don't rely on title matching.
-
-Use the decision surface:
+Use these rules when a posting, team design, or project could fit either title:
 
 - If the analyst will spend most days with product managers and user behavior
   data, hire for product analytics.
