@@ -14,9 +14,9 @@ related:
   - Orchestration
   - CI/CD
   - MLOps
+  - MLOps vs DataOps
   - LLMOps
   - GitOps for Data Teams
-  - MLOps vs DevOps
 ---
 
 DataOps is the operating practice for reliable data delivery. Teams use it to
@@ -65,13 +65,11 @@ discipline.
 
 ## Repeatable Data Delivery
 
-DataOps makes data delivery repeatable and recoverable. In everyday data ops
-work, teams review pipeline code and transformation logic before release. They
-also review orchestration definitions and infrastructure changes.
-
-Teams test those changes before release. Then they deploy through CI/CD and
-monitor the resulting outputs. Those outputs include tables and dashboards.
-They may also include features or data products.
+DataOps makes data delivery repeatable and recoverable. In everyday data work,
+teams review pipeline code and transformation logic before release. They also
+review orchestration definitions and infrastructure changes. They test and
+deploy those changes through CI/CD. Then they monitor the resulting tables,
+dashboards, features, or data products.
 
 Version control and tests connect DataOps directly to [[ci-cd=>CI/CD]]
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
@@ -179,20 +177,11 @@ connect to DataOps. Another person should be able to review a data change,
 test it, and deploy it. They should also be able to observe its outputs and
 rerun it after failure without reverse-engineering the whole pipeline.
 
-Teams can make that concrete by requiring every change to a pipeline, dbt model,
-notebook-turned-job, or infrastructure definition to pass four gates:
-
-- reviewable: owner, consumer impact, and expected output are visible
-- testable: regression tests and realistic test data exercise the code and data
-  assumptions
-- deployable: an automated path replaces a manual checklist
-- observable: freshness, schema, lineage, and downstream behavior stay visible
-  after release
-
-The supported path works only when the whole team uses it. Then newer members can
-change production without relying on private knowledge
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
-For a concrete checklist of data-specific gates, see
+The supported path works only when the whole team can review and test changes.
+They should also be able to deploy, observe, and rerun production jobs without
+relying on private knowledge
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]. For
+data-specific gates and checks, see
 [[DataOps Checks for Data Pipelines]].
 
 ## Observability and Recovery

@@ -167,6 +167,12 @@ The 2026-07-05 graph audit found no current graph edges dropped because of
 missing node ids. When Markdown sources change, regenerate `graph/graph.json`
 with `make graph` or `make check`; do not hand-edit it.
 
+Follow-up graph-link maintenance on 2026-07-05 retargeted two stale source
+chips that the graph builder had been dropping before node filtering:
+`juanluiscano` now points to `juanmanuelperafan`, and the broken
+`gpt-3-podcast` citation now points to the existing GPT-3 book node while the
+Sandra Kublik podcast citation remains in the page.
+
 The second `docs/mining/report_pod_08.md` enrichment batch was integrated on
 2026-07-05:
 

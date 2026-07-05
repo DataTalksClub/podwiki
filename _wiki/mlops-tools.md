@@ -11,6 +11,8 @@ related:
   - Model Registry
   - Model Monitoring
   - Machine Learning Infrastructure
+  - DataOps
+  - MLOps vs DataOps
 ---
 
 MLOps tools help teams move models from experiments into systems that can be

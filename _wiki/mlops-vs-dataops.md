@@ -10,6 +10,8 @@ related_wiki:
   - ML Platforms
   - Data Engineering Platforms
   - Model Monitoring
+  - MLOps Tools
+  - MLOps vs DevOps
   - Data Quality and Observability
   - Production
 ---

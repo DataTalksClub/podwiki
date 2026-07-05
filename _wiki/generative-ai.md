@@ -19,7 +19,7 @@ Sandra Kublik frames generative AI through GPT applications. Later
 AI-engineering interviews connect the same capability to summaries,
 translations, recommendations, and coding assistants. They also connect it to
 workflow automation and [[Agent Engineering]]
-[[cite:gpt-3-podcast=>GPT-3]]
+[[book:20230306-gpt-3=>GPT-3]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 [[cite:production-ready-ai-engineering=>Production AI Engineering]].
 

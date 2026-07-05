@@ -106,7 +106,7 @@ won't help much in a technical screen or a portfolio review.
 
 Free data engineering certificates help when they remove friction from practice
 and keep you on one path long enough to finish a project.
-[[person:juanluiscano=>Juan Luis Cano]] points beginners toward free courses
+[[person:juanmanuelperafan=>Juan Manuel Perafan]] points beginners toward free courses
 for warehouse and lakehouse concepts. He also names orchestration and
 shell/Linux foundations. For platform work, he names Kubernetes and cloud
 providers. Pick one path instead of collecting every platform at the same time

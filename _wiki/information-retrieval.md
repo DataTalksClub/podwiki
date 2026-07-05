@@ -65,7 +65,7 @@ right query. Teams need to measure search quality against business goals
 The same retrieval discipline applies to RAG inside LLM systems: the model can
 only answer from the context the retriever finds.
 
-## Candidate Generation and Indexing
+## Indexes and Prefilters
 
 Retrieval stays distinct from storage. It spans query rewriting, synonyms,
 ingestion, and indexes

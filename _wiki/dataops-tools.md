@@ -13,6 +13,8 @@ related_wiki:
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Engineering
+  - MLOps Tools
+  - MLOps vs DataOps
 ---
 
 DataOps tools help data teams change pipelines with review, tests, alerts, and
@@ -54,7 +56,7 @@ At minimum, the stack should help the team do these jobs:
 - test schema, freshness, volume, distribution, and business expectations
 - observe job health and data health after deployment
 - connect alerts to lineage, ownership, and downstream impact
-- deploy data code, models, dashboards, and governance changes through
+- deploy data code, feature pipelines, dashboards, and governance changes through
   repeatable paths
 - recover through runbooks, playbooks, reruns, rollbacks, and postmortems
 
@@ -142,7 +144,7 @@ data:
   ([[Data Warehouse vs Data Lakehouse]])
 - dbt or SQL model changes
 - infrastructure changes
-- batch model jobs and feature pipelines
+- feature pipelines that feed batch model jobs
 - dashboard, catalog, and governance changes tied to data models
 
 Small teams can start with GitHub Actions, GitLab CI, or a managed build tool.
@@ -265,24 +267,23 @@ overlap with [[Data Governance]].
 
 ## Runtime and Platform Choices
 
-Deployment tools turn reviewed changes into running data systems. Teams may
-use containers, serverless jobs, Kubernetes, or cloud batch services. They may
-also use warehouse jobs, dbt jobs, managed ML pipelines, or
-infrastructure-as-code systems.
-
-Teams can deploy reviewed changes to containers, serverless jobs, or Docker.
-Kubernetes and other runtimes may fit larger operating needs.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+Deployment tools turn reviewed changes into running data systems. Teams may use
+containers, serverless jobs, Kubernetes, or cloud batch services.
+Infrastructure-as-code systems can deploy the same release path, and warehouse
+or managed pipeline jobs may belong there too.
+Kubernetes and other runtimes may fit larger operating needs
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Choose the runtime that fits the operating need, and learn Docker before
 jumping into Kubernetes. Don't add a cluster when a managed job is enough.
 
-ML systems depend on the same data reliability layer, so production ML
-platforms combine cloud infrastructure, Kubernetes, and Terraform. They also
-use workflow orchestration, metadata, and lineage for reproducibility.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-
-Model monitoring makes the upstream dependency explicit. ETL, data pipelines,
-and upstream root causes surface in model monitoring.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
-DataOps tools often become the reliability layer that MLOps systems inherit.
+ML systems inherit this data reliability layer. Production ML platforms still
+need workflow orchestration, metadata, lineage, and reproducible upstream data
+paths[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+When the discussion moves to model artifacts, serving, or model monitoring, use
+[[MLOps Tools]] and [[MLOps vs DataOps]]. Model monitoring often exposes ETL,
+data-pipeline, and upstream root causes
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Incident Response and Recovery
 

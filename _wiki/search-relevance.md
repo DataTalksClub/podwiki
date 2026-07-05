@@ -94,23 +94,11 @@ relevance layer supplied useful evidence first
 
 ## Lexical, Vector, And Hybrid Retrieval
 
-Lexical retrieval still matters when queries depend on exact words, names, or
-product codes. It also handles filters and structured constraints. Mature
-engines such as Lucene use inverted indexes, so teams usually rely on those
-engines instead of hand-rolling index
-structures.[[cite:building-production-search-systems]]
-
-Vector retrieval helps when query words and result words differ but the meaning
-matches. [[Embeddings]] act as shared representations, while vector storage and
-vector compute remain separate parts of the system. Document embedding models,
-query embedding models, and refresh pipelines all become relevance
-dependencies. Model swaps and embedding versioning can change which results
-even become candidates.[[cite:building-production-search-systems]]
-
-Hybrid retrieval combines vector similarity with filters, recency, metadata, and
-query-time
-weights[[cite:building-production-search-systems]].
-Use [[Vector Search vs Keyword Search]] for the retrieval-method boundary and
+Lexical, vector, and hybrid retrieval create different candidate sets before any
+reranker or product objective can act. Exact-word matching, filters, semantic
+similarity, and query-time weights fail in different ways.
+[[cite:building-production-search-systems]] Use
+[[Vector Search vs Keyword Search]] for the retrieval-method comparison and
 [[Vector Database vs Search Engine]] for the storage and serving boundary.
 
 ## Filters, Freshness, And Business Rules
@@ -143,18 +131,11 @@ proxy metrics, and control groups. They also use seasonality checks, offline
 evaluation, and fast iteration
 metrics.[[cite:building-production-search-systems]]
 
-Offline evaluation is useful when the team needs fast feedback on a ranking
-change, embedding model, chunking strategy, or filter rule. It can use judged
-query-result pairs, replayed logs, synthetic tasks, or gold examples. Offline
-scores aren't the final product answer, though. They need online checks
-because user behavior, seasonality, inventory, and presentation can change what
-the metric means.
-
-A/B testing connects relevance to actual user and business behavior. It can
-measure clicks, conversions, contacts, or orders. It can also measure solved
-tickets or another product outcome. Use [[Experimentation]] for broader product
-experiment mechanics. Use [[Evaluation]] when the team needs to name which
-decision the metric will change.
+Metrics matter because relevance is a ranking objective, not a raw embedding
+score. Use [[Production Search Evaluation]] for offline tests, online tests,
+monitoring, and search-specific measurement. Use [[Experimentation]] for broader
+product experiment mechanics, and use [[Evaluation]] when the team needs to name
+which decision the metric will change.
 
 ## RAG And Agent Retrieval
 

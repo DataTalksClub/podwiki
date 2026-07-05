@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11878
+    "links": 11893
   },
   "nodes": [
     {
@@ -24,7 +24,8 @@
       "title": "AI Engineering Roadmap",
       "url": "/wiki/ai-engineering-roadmap/",
       "count": 1,
-      "search": "AI Engineering Roadmap A roadmap for learning AI engineering through software foundations, LLM applications, RAG, evaluation, agents, LLMOps, and production ownership."
+      "search": "AI Engineering Roadmap A roadmap for learning AI engineering through software foundations, LLM applications, RAG, evaluation, agents, LLMOps, and production ownership.",
+      "keyword": "ai engineering roadmap"
     },
     {
       "id": "wiki:ai-tools-for-personal-productivity",
@@ -36157,6 +36158,12 @@
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "person:juanmanuelperafan",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "person:nataliekwong",
       "kind": "article-chip",
       "weight": 1
@@ -46543,7 +46550,7 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "wiki:mlops-vs-devops",
+      "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47341,9 +47348,27 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "wiki:mlops-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:mlops-vs-dataops",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:mlops-vs-dataops",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-tools",
@@ -52747,6 +52772,12 @@
     },
     {
       "source": "wiki:generative-ai",
+      "target": "book:20230306-gpt-3",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
       "target": "book:20241017-build-large-language-model-from-scratch",
       "kind": "wiki-chip",
       "weight": 1
@@ -53464,6 +53495,24 @@
       "target": "wiki:llm-evaluation-workflows",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
@@ -65287,6 +65336,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:mlops-vs-dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:mlops-vs-devops",
       "kind": "wiki-related",
       "weight": 3
@@ -65806,6 +65861,18 @@
       "target": "wiki:mlops-tools",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:mlops-vs-dataops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:mlops-vs-dataops",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-architecture",
@@ -66523,6 +66590,12 @@
     },
     {
       "source": "wiki:mlops-tools",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-chip",
       "weight": 1
@@ -66608,6 +66681,12 @@
     {
       "source": "wiki:mlops-tools",
       "target": "wiki:mlops-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -66758,6 +66837,18 @@
     {
       "source": "wiki:mlops-vs-dataops",
       "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:mlops-vs-devops",
       "kind": "article-wiki",
       "weight": 5
     },

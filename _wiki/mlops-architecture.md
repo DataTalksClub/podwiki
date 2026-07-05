@@ -13,6 +13,7 @@ related_wiki:
   - Model Monitoring
   - Reproducibility
   - DataOps
+  - MLOps vs DataOps
   - Governance
 ---
 
@@ -113,7 +114,7 @@ MLOps separates from DataOps by the kind of production system being operated.
 Feature engineering, model training, and serving are ML pipeline steps
 ([[person:santonatuli=>Santona Tuli]],
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
-Use those boundaries when deciding which parts of the system belong to
+Use [[MLOps vs DataOps]] when deciding which parts of the system belong to
 [[DataOps]], [[MLOps]], or both.
 
 Feature and training pipelines transform inputs into model-ready data. In a
@@ -369,12 +370,10 @@ explicit by distinguishing online tabular use cases from overkill scenarios
 ## Local Stack or Shared Platform
 
 A small MLOps architecture can keep components local to one model. Code
-versioning, scheduled training, run tracking, and object storage can stay local
-at first. One deployment target, prediction logs, and a basic monitoring view
-can stay local too.
-
-For the order to add those pieces, use [[MLOps Roadmap]]. For architecture
-design, decide which components are local to one model and which become shared
+versioning, scheduled training, run tracking, and object storage can stay local.
+One deployment target, prediction logs, and a basic monitoring view can stay
+local too. For the order to add those pieces, use [[MLOps Roadmap]].
+Architecture work decides which components stay local and which become shared
 services.
 
 A local stack is often enough for a startup or a prototype moving into

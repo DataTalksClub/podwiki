@@ -13,6 +13,8 @@ related_wiki:
   - Vector Databases
   - Embeddings
   - Knowledge Graph vs Vector Search
+  - Production Search Evaluation
+  - LLM Evaluation Workflows
   - Graph Data Science
   - Search and RAG Project Checklist
 ---
@@ -189,4 +191,5 @@ These pages cover the surrounding retrieval, search, and LLM-system topics:
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover broader RAG structure, chunking, citations, and evaluation.
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.
 - [[Vector Databases]] and [[Embeddings]] cover the vector side of the architecture.
+- [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] cover search and LLM checks for the retrieved context.
 - [[Search and RAG Project Checklist]] turns the comparison into implementation and evaluation checks.

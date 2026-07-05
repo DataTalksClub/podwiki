@@ -18,6 +18,7 @@ related:
   - CI/CD
   - Production
   - DataOps
+  - MLOps vs DataOps
   - LLMOps
   - GitOps for Data Teams
   - MLOps vs DevOps
@@ -293,3 +294,4 @@ These pages cover adjacent MLOps concepts:
 - [[Reproducibility]]
 - [[Production]]
 - [[DataOps]]
+- [[MLOps vs DataOps]]
