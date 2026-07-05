@@ -132,6 +132,14 @@ checklist pages, moving broad concept framing back to hubs, and using cross-link
 instead of repeated definitions. At the same thresholds, content-overlap findings
 fell from 38 to 36 while internal near-duplicate findings stayed at 70.
 
+Eighth pass (2026-07-05) tightened another five high-overlap families: Delta
+Lake and Apache Iceberg concept pages versus their comparison, autonomous
+driving hub versus camera-first/LiDAR comparison, graph/vector retrieval pages,
+product-analyst role and comparison boundaries, and community/DevRel pages. The
+pass kept concept pages on durable topic ownership and comparisons on decision
+criteria. At the same thresholds, content-overlap findings fell from 36 to 33
+and internal near-duplicate findings fell from 70 to 69.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

@@ -38,9 +38,9 @@ executive dashboards. Business operations and ad hoc questions can also sit
 under the broader title.
 
 In small teams, one person often does both. Compare the titles by the decision
-surface each one owns. [[Product Analyst]] covers the product-analyst job
-description. [[Data Analyst Role]] covers the general role definition, and
-[[Data Analyst Careers]] covers entry routes and next moves.
+surface each one owns. [[Product Analyst]] covers product-facing
+responsibilities in more detail. [[Data Analyst Role]] covers the general role
+definition, and [[Data Analyst Careers]] covers entry routes and next moves.
 
 ## Decision Surface
 
@@ -77,15 +77,19 @@ The practical split is:
 ## Product Analyst Fit
 
 A product analyst title is strongest when the analyst spends most days with a
-product manager or growth partner. [[Product Analyst]] owns the fuller job
-description. In this comparison, the product analyst side means the analyst is
-judged by product decisions. Those decisions usually involve user behavior,
-funnel movement, launch metrics, and experiment readouts.
+product manager or growth partner. In this comparison, teams judge the product
+analyst by product decisions. Those decisions involve user behavior, funnel
+movement, launch metrics, and experiment readouts.
 
-Analysts start before the dashboard by defining the event and metric. They also
-define the assignment unit, guardrails, and decision rule. Assignment tracking
-and A/A tests matter. Stable metrics and [[power analysis]] determine whether
-the test can support the decision the team wants to make.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+Product-facing analysts define the metric and decision rule before a dashboard
+exists. They define the event and assignment unit too. Guardrails belong in the
+setup.
+Assignment tracking and A/A tests check whether the test system behaves as
+expected. Metric stability and [[power analysis]] determine whether the test
+can support the decision.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+
+[[Product Analyst]] expands this into role skills plus tracking-plan work and
+example outputs.
 
 Hiring can make this product-facing scope explicit. Data people in embedded
 roles may report to a data leader while product managers, engineering managers,
@@ -150,19 +154,11 @@ analyst when the work depends on user journeys and product events. The product
 title also fits cohorts, experiment design, guardrail metrics, and launch
 readouts.
 
-Use data analyst when the work spans company metrics and
-recurring reports. The broader title also fits executive dashboards and
-operations. It can also fit finance, sales, support, or cross-functional
-questions.
-
-For product-facing work, the comparison question is whether the analyst can
-define the product behavior and the decision before the test or dashboard
-starts. Assignment tracking, A/A tests, metric stability, and power analysis set
-the standard for product experiment work.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
-
-For broader analyst work, the comparison question is whether the analyst can
-move from raw company data to a recommendation. The analyst needs the right
-tables, definitions, caveats, and stakeholder explanation.[[cite:data-team-roles=>Data Team Roles Explained]]
+Use data analyst when the work spans company metrics and recurring reports. The
+broader title also fits executive dashboards and operations. It can also fit
+finance, sales, support, or cross-functional questions. The analyst needs the
+right tables, definitions, caveats, and stakeholder explanation before making a
+recommendation.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 Last-mile adoption adds the shared decision check. Analysts should start from
 the decision and bring metrics into the meeting where people act on them.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]

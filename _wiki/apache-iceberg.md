@@ -14,11 +14,10 @@ related:
   - Data Governance
 ---
 
-Apache Iceberg is an open table format for lakehouse-style storage. Use it as
-the concept hub for Iceberg's table metadata, catalog questions, governance
-boundary, and multi-engine role. It sits above Parquet files and below query
-engines. The shared table metadata stays separate from raw
-[[data-lake=>data lake]] storage and compute
+Apache Iceberg is an open table format for lakehouse-style storage. It matters
+when teams need shared table metadata, catalog decisions, governance boundaries,
+and access from more than one engine. It sits above Parquet files and below query engines, so table
+metadata stays separate from raw [[data-lake=>data lake]] storage and compute
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
 
 [[Data Lake]] covers the storage layer. [[Data Warehouse vs Data Lakehouse]]
@@ -41,7 +40,7 @@ work connects Iceberg to [[DataOps]], [[orchestration]], and
 [[Data Quality and Observability]]
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-## Catalogs, Governance, and Lock-In
+## Catalog Ownership and Lock-In
 
 Catalogs sit next to Iceberg because access, metadata, and lineage live outside
 raw storage and compute. Brudaru names AWS Glue as one example. He also warns
@@ -61,11 +60,11 @@ reduction strategy. If the catalog controls discovery, permissions, and engine
 access, the catalog can become the new platform dependency
 [[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]].
 
-## Interop Beyond One Engine
+## Multi-Engine Tables
 
 Iceberg matters when more than one engine needs shared lake tables. Brudaru's
 discussion separates storage and compute from access, metadata, and lineage.
-The table format becomes the shared metadata layer between open files and
+Teams can use Iceberg as the shared metadata layer between open files and
 several compute surfaces
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
 
@@ -76,28 +75,21 @@ Iceberg
 That puts Iceberg in two settings. Teams can use it in large governed
 lakehouses and in portable pipelines that still need open table semantics.
 
-## Iceberg Boundary
+## Iceberg Scope
 
-Iceberg owns table metadata, but it doesn't own the whole lakehouse decision.
-A lakehouse still needs object storage and compute. Teams also need ingress,
+Use Iceberg for table metadata, not for the whole lakehouse decision. A
+lakehouse still needs object storage and compute. Teams also need ingress,
 egress, self-service SQL, and workflow engines
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Those platform choices belong in [[Data Warehouse vs Data Lakehouse]] and
 [[Data Engineering Platforms]].
 
-Iceberg also doesn't settle the Delta Lake comparison. This hub covers
-Iceberg-specific grounding around open metadata, catalogs, interoperability,
-and lock-in boundaries. [[Delta Lake vs Apache Iceberg]] covers whether those
-priorities should beat Spark-oriented versioning and recovery.
-
-- For raw file retention, start with [[Data Lake]].
-- For warehouse-style analytics versus lakehouse architecture, start with
-  [[Data Warehouse vs Data Lakehouse]].
-- For Delta or Iceberg, use [[Delta Lake vs Apache Iceberg]].
+[[Delta Lake vs Apache Iceberg]] covers the table-format choice. Iceberg owns
+the metadata, catalog, interoperability, and lock-in boundary here.
 
 ## Related Pages
 
-Continue with these adjacent topics:
+For adjacent context, read:
 
 - [[Delta Lake vs Apache Iceberg]]
 - [[Delta Lake]]

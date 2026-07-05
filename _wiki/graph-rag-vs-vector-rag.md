@@ -19,23 +19,24 @@ related_wiki:
   - Search and RAG Project Checklist
 ---
 
-Graph RAG and vector RAG differ in what evidence they package for an LLM after a
-system already needs [[retrieval-augmented-generation=>retrieval-augmented generation]].
-Use the evidence the LLM receives to separate the two designs. Vector RAG
-usually sends text chunks or records. Graph RAG sends entities and typed
-relationships, and it may also send neighborhoods, paths, or query results.
+Graph RAG and vector RAG differ in what evidence they package for an LLM after
+retrieval. Vector RAG usually sends text chunks or records. Graph RAG sends
+entities and typed relationships, and it may also send neighborhoods, paths, or
+query results. Both are still
+[[retrieval-augmented-generation=>retrieval-augmented generation]] patterns:
+retrieval happens first, and generation uses the retrieved evidence.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
 Vector RAG fits answers that mainly need a passage or record with a citation.
-Graph RAG fits answers that depend on relationships and paths. It also fits
-hierarchy, constraints, and traceable facts. Hybrid RAG fits prompts that need
-both semantic recall and structured context.
+Graph RAG fits answers that depend on relationships, hierarchy, constraints, or
+traceable paths. Hybrid RAG fits prompts that need both semantic recall and
+structured context.
 
 For lower-level retrieval substrate choices, compare how vectors and graph
-relations affect indexing and query design in [[Knowledge Graph vs Vector Search]].
-Here the RAG question is what retrieved material enters the prompt and can be
-cited or checked.
+relations affect indexing and query design in
+[[Knowledge Graph vs Vector Search]]. Here the RAG question is narrower: what
+retrieved material enters the prompt and can be cited or checked.
 
 ## Context Unit Drives the Prompt
 
@@ -57,9 +58,9 @@ remaining only a retrieval step.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Knowledge Graph Relations]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
-Vector RAG sends matching passages or records, while graph RAG sends explicit
-relations and paths. It can also send neighborhoods or facts. Both still
-retrieve evidence before generation to reduce unsupported answers.
+Vector RAG sends matching passages or records. Graph RAG sends explicit
+relations and paths, and it can also send neighborhoods or facts. The LLM can
+only explain and cite what retrieval placed in that prompt context.
 
 ## Vector RAG Fits Fuzzy Text Retrieval
 
@@ -102,13 +103,12 @@ must still verify LLM-generated nodes and edges before using them as trusted
 retrieval context.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
-## Hybrid Retrieval Fits Mixed Failure Modes
+## Hybrid RAG Handles Mixed Prompt Gaps
 
 Start with the answer failure. If the prompt lacks semantically related
-passages, improve vector retrieval and chunking. Then check embeddings,
-reranking, and metadata filters. If the prompt lacks relationships or order, add
-graph lookup or graph-derived context. Do the same when it lacks constraints,
-lineage, or provenance.
+passages, improve vector retrieval and chunking. If the prompt lacks
+relationship structure, add graph lookup or graph-derived context. Do the same
+when the prompt loses order, constraints, lineage, or provenance.
 
 Sometimes the prompt receives context that looks plausible but irrelevant. That
 failure can call for ranking weights, filters, recency signals, or a different
@@ -116,35 +116,16 @@ retrieval substrate. [[Vector Database vs Search Engine]] and
 [[Knowledge Graph vs Vector Search]] cover those lower-level stack choices.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
-A hybrid RAG system uses both for different jobs. Vector search finds candidate
-documents or records, and graph traversal adds related entities. It can also add
-validated facts, dependency paths, or provenance. The prompt can then include
-text evidence and structured context.
+A hybrid RAG system uses both for different prompt jobs. Vector search finds
+candidate documents or records. Graph traversal adds related entities, validated
+facts, dependency paths, or provenance. The prompt can then include readable
+text evidence and structured context without making this page a comparison of
+datastores.
 
 [[retrieval-augmented-generation=>RAG]] and [[Search]] cover the wider retrieval
 architecture. [[Vector Databases]], [[embeddings]], and
 [[Knowledge Graph vs Vector Search]] cover the storage and retrieval layers
-behind the RAG choice.
-
-## Prompt Context Sets the Boundary
-
-In vector RAG, teams package passages and records with source metadata. The
-retrieval layer may come from a vector database, a search engine, or a hybrid
-stack. Inside RAG, the boundary is whether the prompt receives readable evidence
-and citations.
-[[cite:building-production-search-systems=>Building Search Systems]]
-
-Graph RAG packages relationships as retrieval context. Teams retrieve nodes and
-edges before expanding that context with subgraphs or paths. They can add
-neighborhoods or query results too.
-
-Cypher-driven examples use graph queries for structured context, not only nearby
-text chunks. That makes graph RAG useful when the answer depends on hierarchy,
-dependency, containment, or explainable paths.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
-
-The prompt needs enough relevant, inspectable evidence regardless of which
-datastore produced it. The [[Search and RAG Project Checklist]] turns that RAG
+behind the RAG choice. The [[Search and RAG Project Checklist]] turns the prompt
 requirement into retrieval, citation, and evaluation checks.
 
 ## Evaluate the Prompt Failure

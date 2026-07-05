@@ -35,10 +35,10 @@ question, check whether the data can answer it, and explain what uncertainty
 remains. Experiment work adds randomization, assignment tracking, metric
 stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
-Product analyst responsibilities start with product questions, event data, and
+Product analyst responsibilities live in product-facing skills, outputs, and
 decision support. [[product-analyst-vs-data-analyst=>Product Analyst vs Data
-Analyst]] compares which analyst title a team needs. [[Data Analyst Role]]
-defines the broader analyst base this role builds on.
+Analyst]] compares title scope. [[Data Analyst Role]] defines the broader
+analyst base this role builds on.
 
 ## Role Scope
 
@@ -46,10 +46,10 @@ A product analyst turns product behavior into decision evidence through SQL and
 product metrics. They also build dashboards, communicate with stakeholders, and
 analyze launches and experiments.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-The broader [[Data Analyst Role]] covers more business contexts. A product
-analyst spends more time on user journeys and event semantics. Product analyst
-work also covers activation, retention, engagement, and product-management
-tradeoffs.
+Product analyst work centers user journeys and event semantics. Activation,
+retention, and engagement are the main product contexts for those tradeoffs.
+The broader [[Data Analyst Role]] covers more business contexts outside
+product.
 
 Product analytics also depends on the product-data system around the analyst.
 Product data flows from collection into storage. Teams then use it for analysis
@@ -65,18 +65,18 @@ do next.
 Product managers own direction, prioritization, and delivery tradeoffs. Analysts
 help quantify the problem, evaluate the change, and explain uncertainty.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-Role labels still vary because teams split product, analytics, and data science
-work differently. The same work may be called product analyst, data analyst,
-business analyst, or product data scientist.
-[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] compares
-that product-facing decision surface with broader analyst work.[[cite:data-team-roles=>Data Team Roles Explained]]
+Teams divide product work from analytics work and data science work, so role
+labels vary. They may use product analyst for that work. The same work may also
+appear under data analyst or business analyst. Product data scientist can mean
+similar work too.[[cite:data-team-roles=>Data Team Roles Explained]]
+For title scope rather than role practice, compare
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]].
 
 Product metrics or dashboard logic sometimes need repeatable modeled ownership.
-Product analysts shouldn't own the full transformation platform. They should
-know when a repeated query belongs in a modeled analytics layer. The same
-applies to fragile metrics and inconsistent dashboard definitions. [[Data Analyst vs Analytics Engineer]]
-covers the `dbt` and Looker side of that boundary. It also covers tests and
-reusable models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
+Product analysts should know when a repeated query, fragile metric, or
+inconsistent dashboard definition belongs in a modeled analytics layer.
+[[Data Analyst vs Analytics Engineer]] covers that reusable-model boundary,
+including `dbt`, tests, and BI-ready datasets.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
 ## Product Analyst Job Description
 
@@ -232,9 +232,9 @@ Common product analyst outputs include:
 
 End each output with the product decision it supports. The team might ship or
 hold, add instrumentation, rerun a cleaner test, or change the metric
-definition. [[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]]
-uses that decision surface to separate product analyst work from broader data
-analyst work.
+definition. That decision surface separates product analyst work from broader
+data analyst work in
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]].
 
 ## Related Pages
 

@@ -30,8 +30,8 @@ Engine]]. [[Knowledge Graph vs Vector Search]] covers structured relationship
 retrieval.
 
 A vector database can retrieve candidates, but the surrounding product handles
-chunking and filters. Reranking, source constraints, citations, and evaluation
-stay outside the store.
+chunking and filters. The product also handles reranking, source constraints,
+citations, and evaluation.
 
 [[person:atitaarora=>Atita Arora]] gives the clearest
 entry point: she introduces Qdrant and vector databases as plug-and-play vector
@@ -119,7 +119,7 @@ Vector databases own the vector index. When teams need to decide whether
 vectors should live inside the search engine or in a separate service, use
 [[Vector Database vs Search Engine]].
 
-## RAG and Context Retrieval
+## RAG Storage Role
 
 [[retrieval-augmented-generation=>RAG]] is the most visible vector-database use
 case in these episodes, but the guests don't reduce RAG to vector storage.
@@ -130,19 +130,21 @@ She also covers prompt design, citations, and RAG evaluation
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation]].
 
-Meryem gives the production LLM reason for retrieval. She argues that changing
-knowledge is often better handled with retrieval than with repeated
-fine-tuning. She then connects that choice to indexing documents and grounding
-answers [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-A vector database can retrieve context, but the application still needs source
-selection, [[search-relevance=>search relevance]], and metadata filters. It also
-needs citations and
+Meryem gives the production LLM reason for retrieval. She argues that retrieval
+often handles changing knowledge better than repeated fine-tuning. She then
+connects that choice to indexing documents and grounding answers.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+
+A vector database stores and retrieves the embedded candidates, but the
+application still chooses sources and applies metadata filters. It also reranks
+results, writes citations, and evaluates the answer with
 [[LLM evaluation workflows]].
 
 In [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 retrieval fits changing facts and source-backed answers while fine-tuning fits
 behavior, style, or task adaptation. Vector databases help with the retrieval
-side of that decision, but they don't choose model behavior or answer policy.
+side of that decision. [[Graph RAG vs Vector RAG]] covers the later question of
+which retrieved units enter the LLM prompt.
 
 ## Candidate Retrieval for Products and Recommendations
 
@@ -181,7 +183,7 @@ ranking, and search, not above them. Follow the vector store through candidate
 retrieval here. [[search-relevance=>Search Relevance]] covers ranking
 objectives.
 
-## Structured Retrieval Boundaries
+## Relationship Retrieval Boundary
 
 [[person:anahitapakiman=>Anahita Pakiman]] adds a structured-knowledge
 contrast by comparing text chunking, embeddings, and vector databases with
@@ -189,12 +191,13 @@ knowledge graph semantics [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>K
 Nearest-neighbor retrieval finds similar chunks, while a graph can preserve
 explicit relationships and typed paths.
 
-Her episode shows a different retrieval design. She combines LLM grounding with
-knowledge graphs and Cypher-driven retrieval
+Her episode shows a different retrieval substrate. Knowledge graphs and
+Cypher-driven retrieval can return structured relationships instead of only
+nearby vectors.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
-[[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]] cover the
-evidence-structure comparison. Vector database work stays focused on storage,
-indexing, and nearest-neighbor retrieval.
+[[Knowledge Graph vs Vector Search]] covers that representation and query
+comparison. Vector database work stays focused on storage, indexing, and
+nearest-neighbor retrieval.
 
 For the underlying graph database technology, Dave Bechberger and Josh
 Perryman's [[book:20210614-graph-databases-in-action=>graph database book]]

@@ -45,7 +45,7 @@ makes product analytics adjacent to [[Business Intelligence]],
 than a standalone reporting category.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Product analytics also depends on role design.[[cite:data-team-roles=>Data Team Roles]]
-The role boundary is covered in
+The product-facing role hub is [[Product Analyst]]. The title boundary is covered in
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]]. The same
 analysis can be product-facing or broader.
 

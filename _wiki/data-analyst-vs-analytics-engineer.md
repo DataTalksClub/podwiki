@@ -15,7 +15,6 @@ related_wiki:
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Analytics Engineering Portfolio Projects
-  - Product Analyst vs Data Analyst
   - Product Analytics
   - Metrics
   - dbt
@@ -35,10 +34,11 @@ path from repeated analytical logic to a trusted model other people can reuse.
 
 Analyst work centers KPI definition, dashboards, problem sizing, and experiment
 evaluation [[cite:data-team-roles=>Data Team Roles Explained]].
-Product-facing analyst work is a separate boundary from analytics engineering.
+The analyst-versus-engineer boundary is about decision ownership versus modeled
+data ownership.
 
-Analytics engineering centers reusable models, pipelines, and data quality. The
-full concept hub is [[Analytics Engineering]]
+Analytics engineering centers reusable models, pipelines, and data quality, and
+[[Analytics Engineering]] covers the broader practice
 [[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]].
 
 The two role hubs are
@@ -78,8 +78,8 @@ The practical split is:
   Analytics engineers also own `dbt` models with tests and docs, semantic
   definitions, data quality checks, and BI-ready datasets
   [[cite:analytics-engineer-skills-tools@14:34=>Perez Mola]].
-- Shared surface: SQL, business context, metric definitions, product analytics,
-  dashboard trust, event semantics, and source-data debugging.
+- Shared surface: SQL, business context, metric definitions, dashboard trust,
+  event semantics, source-data debugging, and funnel or experiment data.
 
 Grigorev frames the analyst side around KPIs, dashboards, and product decisions.
 Perez Mola and Perafan frame the analytics-engineering side around modeled,
@@ -252,11 +252,10 @@ transformation layer came later
 
 ## Product and Growth Data
 
-Product and growth data create shared surfaces, but the comparison still has one
-boundary. Analysts interpret funnels, cohorts, retention, and experiment
+Product and growth data create shared surfaces, but this comparison still has
+one boundary. Analysts interpret funnels, cohorts, retention, and experiment
 results. Analytics engineers make the repeated event logic, assignment logic,
-and modeled tables safe to reuse. The separate product-title question belongs
-to [[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]].
+and modeled tables safe to reuse.
 
 Arpit's data-led growth episode starts with a tracking plan. Engineers then
 instrument events before data flows into analytics tools and warehouses
@@ -312,8 +311,6 @@ These role definitions, adjacent workflows, and learning paths go deeper:
 - [[data-roles=>Data Roles Guide]]
 - [[Analytics Engineering Roadmap]]
 - [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
-- [[product-analyst=>Product Analyst article]]
-- [[Product Analyst vs Data Analyst]]
 - [[Product Analytics]]
 - [[Metrics]]
 - [[dbt]]

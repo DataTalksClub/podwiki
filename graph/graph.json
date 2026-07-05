@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11882
+    "links": 11867
   },
   "nodes": [
     {
@@ -8941,7 +8941,7 @@
       "title": "Autonomous Driving AI",
       "url": "/wiki/autonomous-driving-ai/",
       "count": 1,
-      "search": "Autonomous Driving AI Autonomous driving AI across sensor choices, perception, on vehicle inference, validation, staged rollout, and career entry."
+      "search": "Autonomous Driving AI Autonomous driving AI across perception, on vehicle inference, validation, simulation, data, and ML practice."
     },
     {
       "id": "wiki:bioinformatics-data-science",
@@ -28622,12 +28622,6 @@
     },
     {
       "source": "wiki:camera-first-vs-lidar-autonomous-driving",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:camera-first-vs-lidar-autonomous-driving",
       "target": "wiki:model-optimization",
       "kind": "article-chip",
       "weight": 1
@@ -30734,18 +30728,6 @@
     },
     {
       "source": "wiki:community",
-      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community",
-      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community",
       "target": "wiki:ai-for-social-good",
       "kind": "wiki-chip",
       "weight": 1
@@ -30932,12 +30914,6 @@
     },
     {
       "source": "wiki:community-building",
-      "target": "podcast:technical-writing-for-data-scientists",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community-building",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -30986,12 +30962,6 @@
     },
     {
       "source": "wiki:community-building",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community-building",
       "target": "wiki:developer-experience",
       "kind": "wiki-chip",
       "weight": 1
@@ -31010,18 +30980,6 @@
     },
     {
       "source": "wiki:community-building",
-      "target": "wiki:job-search",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community-building",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community-building",
       "target": "wiki:mentoring-in-tech",
       "kind": "wiki-chip",
       "weight": 1
@@ -31031,12 +30989,6 @@
       "target": "wiki:mentoring-in-tech",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:community-building",
-      "target": "wiki:mlops",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:community-building",
@@ -34227,24 +34179,6 @@
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:product-analyst",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:product-analyst-vs-data-analyst",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -48536,12 +48470,6 @@
     },
     {
       "source": "wiki:developer-relations",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:developer-relations",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "wiki-chip",
       "weight": 1
@@ -48591,12 +48519,6 @@
     {
       "source": "wiki:developer-relations",
       "target": "podcast:public-speaking-for-data-scientists",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:developer-relations",
-      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -55742,12 +55664,6 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "article-chip",
       "weight": 1
@@ -55847,12 +55763,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -69776,12 +69686,6 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:open-source-ml-contributions",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -72731,6 +72635,12 @@
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analytics",

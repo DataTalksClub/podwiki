@@ -18,22 +18,20 @@ related_wiki:
   - Modern Data Stack
 ---
 
-This comparison starts after the team has already chosen lakehouse-style tables
-over raw lake storage. It doesn't redefine [[Delta Lake]] or
-[[Apache Iceberg]]. Those concept hubs cover format-specific grounding. If the
-team still needs to choose between a warehouse-centered stack and lakehouse
-architecture, [[Data Warehouse vs Data Lakehouse]] is the better starting point.
-If the question is raw storage, start with [[Data Lake]].
+Use this comparison after the team has already chosen lakehouse-style tables
+over raw lake storage. Read [[Delta Lake]] and [[Apache Iceberg]] for
+format-specific details. If the team still needs to choose between a
+warehouse-centered stack and lakehouse architecture, start with
+[[Data Warehouse vs Data Lakehouse]]. If the team is asking about raw storage,
+start with [[Data Lake]].
 
 The strongest podcast evidence supports an operating-fit comparison, not a
-complete feature matrix. Pick the format by the disagreement that matters. One
-side emphasizes Spark-oriented recovery and Delta-friendly tooling. The other
-side emphasizes open metadata, catalog-bound interoperability, and lock-in
-reduction
+complete feature matrix. The choice turns on existing Spark recovery versus
+open metadata and catalog-bound interoperability
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
-## Decision Boundary
+## Comparison Scope
 
 Compare Delta Lake and Iceberg only when table-format choice is the active
 decision. Adrian Brudaru places Delta Lake, Hudi, and Iceberg in the same
@@ -41,9 +39,10 @@ table-format family. He treats Delta as mature and gives Iceberg the stronger
 open-catalog and lock-in reduction story
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
 
-Keep reading when the unresolved work is catalog ownership, engine access, or
-lock-in. For format mechanics, read [[Apache Iceberg]] for Iceberg's catalog and
-interoperability model and [[Delta Lake]] for Delta's Spark and recovery path.
+Keep reading when the team still needs to settle catalog ownership, engine
+access, or lock-in. Go back to [[Data Warehouse vs Data Lakehouse]] when the
+team is still choosing between warehouse-centered analytics and lakehouse
+architecture.
 
 ## Openness Versus Existing Runtime
 
@@ -59,10 +58,10 @@ Spark tracks data versions. Teams can then return to previous states for
 reprocessing and audit work
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
-That makes the first disagreement practical. If the team wants portable
-storage across several compute surfaces, the Iceberg case is stronger. If the
-team wants existing Spark work to become auditable and recoverable, the Delta
-Lake case has the clearer podcast example.
+That's the first practical disagreement. If the team wants portable storage
+across several compute surfaces, the Iceberg case is stronger. If the team
+wants existing Spark work to become auditable and recoverable, the Delta Lake
+case has the clearer podcast example.
 
 ## Catalog Risk Versus Recovery Risk
 
@@ -78,9 +77,9 @@ weaken the immutability that makes batch platforms easier to reason about
 Teams get the recovery benefit only when tests, lineage, and controlled reruns
 are part of the platform.
 
-This is the second disagreement. Iceberg reduces one kind of lock-in but can
-move dependency into the catalog. Delta Lake gives a stronger recovery path for
-Spark-oriented teams but doesn't make uncontrolled rewrites safe.
+Iceberg reduces one kind of lock-in but can move dependency into the catalog.
+Delta Lake gives a stronger recovery path for Spark-oriented teams but doesn't
+make uncontrolled rewrites safe.
 
 ## Shared Operating Checks
 
@@ -91,7 +90,7 @@ data-lake warning applies to both choices: weak ownership turns lakes into data
 swamps
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-These checks keep the comparison at the table-format layer:
+Ask these questions to keep the decision at the table-format layer:
 
 - If open table metadata, multi-engine access, and catalog strategy drive the
   decision, use [[Apache Iceberg]] as the primary concept page.
@@ -105,7 +104,7 @@ These checks keep the comparison at the table-format layer:
 
 ## Related Pages
 
-These pages provide the concept-level context around the comparison.
+For adjacent context, read:
 
 - [[Delta Lake]]
 - [[Apache Iceberg]]

@@ -26,13 +26,14 @@ compares Tesla's camera-first approach with Waymo-style driverless systems
 while discussing [[Computer Vision]], real-time perception, safety validation,
 and large-scale sensor data.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
-Ask what the system is trying to do instead of which sensor wins everywhere.
-The goal may be driver assistance, driverless ride-hailing, or rare
-traffic-control handling with redundant perception and strict releases. That
-puts this comparison next to [[Autonomous Driving AI]], [[Model Optimization]],
-and [[Simulation and Digital Twins]].
+Sensor choice depends on the product because driver assistance emphasizes cost
+and scalable visual perception. Driverless ride-hailing and rare
+traffic-control handling put more pressure on redundancy, validation, and
+real-time inference.
+For the full autonomy stack beyond sensor strategy, see [[Autonomous Driving
+AI]], [[Model Optimization]], and [[Simulation and Digital Twins]].
 
-## Short Comparison
+## Product Scope Drives Sensor Strategy
 
 Camera-first fits products that need scalable perception from inexpensive,
 widely available hardware. Tesla uses a camera-based stack, with multiple
@@ -81,11 +82,11 @@ alternative. Improvement and safety work uses camera images and LiDAR scans. It
 also uses radar and GPS plus driving-condition metadata and system
 responses.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
-Autonomous-driving production work depends on data operations after the model
-is trained. Sensor choice creates data volume, privacy, labeling, and validation
-work. Complex cases use human labeling, while repetitive tasks use automated
-labeling, so the sensor decision shapes [[Production]] work beyond perception
-architecture.
+Sensor choice also creates data operations work after the model is trained.
+Teams manage data volume, privacy, labeling, and validation across the signals
+they collect. Complex cases use human labeling, while repetitive tasks use
+automated labeling, so the sensor decision shapes [[Production]] work beyond
+perception architecture.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 ## Driver Assistance vs Driverless Ride-Hailing
@@ -120,24 +121,18 @@ LiDAR-enabled system both need [[Computer Vision]] models. The production
 question is whether the whole stack can perceive, interpret, test, and deploy
 improvements for these uncommon cases.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
-## Production and System-Design Tradeoffs
+## Validation and Release Tradeoffs
 
-Sensor choice creates downstream system-design work. Validation moves from
-simulation to closed tracks and on-road testing with safety drivers before
-updates reach driverless deployment. Releases depend on validation results,
-safety checks, and real-world validation.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+Sensor strategy changes the validation burden. Updates move from simulation to
+closed tracks and on-road testing with safety drivers before they reach
+driverless deployment. Releases depend on safety checks, validation results,
+and real-world behavior.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
-Latency and model size are part of the same tradeoff. Internal models are
-optimized to run fast on the car, and quantization is named as a public
-technique for making models smaller and faster. That places autonomous-driving
-perception beside broader [[Machine Learning System Design]], [[Production]],
-and release-discipline questions also covered in [[MLOps vs DevOps]].
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
-
-The practical decision therefore isn't only camera-first versus LiDAR. A team
-may be building camera-first driver assistance or a multi-sensor driverless
-service. A bounded autonomy product has its own safety, labeling, simulation,
-and deployment requirements.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+Camera-first products have to prove that visual perception is reliable enough
+for the product scope. Multi-sensor driverless services also have to validate
+fused signals and maintain data pipelines for each sensor family. Both sides
+still face the same on-car constraint: models must run fast, and techniques
+such as quantization help make them smaller and faster.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 ## Related Pages
 
