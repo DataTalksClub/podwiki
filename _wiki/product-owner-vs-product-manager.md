@@ -65,8 +65,14 @@ The [[product-designer-to-data-product-manager=>product designer to data product
 path is one grounded example of that discovery-to-lifecycle move.
 
 Beyond delivery coordination, product managers decide which problem deserves
-attention. They define how the team will know the work changed a user decision,
-customer experience, or business outcome.[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
+attention. They define how the team will know the work changed a user decision.
+They also check whether it changed the customer experience or business
+outcome.[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
+
+For data teams,
+[[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+keeps that product-direction work tied to data products, data constraints, and
+adoption after launch.
 
 Internal platform PM work keeps the same boundary. A technical PM can gather
 feedback, write specifications, and manage a roadmap. They can also prioritize

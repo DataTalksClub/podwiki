@@ -159,7 +159,10 @@ Slack help support the same adoption work
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product
 Manager]]. This connects the artifact to the [[Data Product Manager]] role and
 the broader [[Data Product Management]] discipline. The
-[[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+[[data-product-manager-roadmap=>data product manager roadmap]] turns that
+ownership into sequencing, metrics, and launch tradeoffs.
+
+The [[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 path shows how discovery, documentation, and usability judgment become
 data-product ownership evidence.
 
@@ -168,7 +171,9 @@ protect delivery and make tactical release tradeoffs. A product manager may own
 broader strategy and problem selection. A domain owner may coordinate data
 science work across product and business areas
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
-Products at Scale]].
+Products at Scale]]. The broader [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+comparison separates that strategic product judgment from general product
+management.
 
 ## Platform Implications
 

@@ -164,10 +164,13 @@ customer, and validates the work before treating it as a product decision.
 
 ## Operating Patterns
 
-Discovery, empathy, data literacy, and execution form one operating cluster.
-The data product manager asks how people make decisions and stays close enough
-to SQL and data quality to make delivery credible. PII, compliance, and
-documentation stay part of the job.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+This work keeps user decisions and data delivery in the same conversation. The
+data product manager asks how people make decisions. They then check whether the
+data work is credible enough to support that decision.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+
+The [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+boundary matters because this role ties product discovery to schemas, metrics,
+reliability, and privacy.
 
 Sara Menefee's transition from product design adds a practical skill floor. A
 data product manager should be able to read data-tooling documentation and

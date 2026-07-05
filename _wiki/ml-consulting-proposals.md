@@ -60,6 +60,10 @@ Teams should ask how they'll measure whether a solution works before the work
 begins. They can use silent-mode or A/B-style rollout before exposing all users
 to a risky model
 ([[cite:solopreneur-data-scientist=>Introducing Data Science in Startups]]).
+Consultants should treat
+[[data-science-project-management=>data science project management]]
+as part of proposal scoping, not only delivery after the client approves the
+work.
 Consultants should bring
 [[metrics]],
 [[data product management]],

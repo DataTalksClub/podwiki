@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12188
+    "links": 12199
   },
   "nodes": [
     {
@@ -28623,6 +28623,12 @@
     {
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-translator-role",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -30875,6 +30881,12 @@
       "target": "wiki:data-teams",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:communication",
@@ -40316,6 +40328,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
@@ -41391,6 +41409,18 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:data-product-manager-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42824,7 +42854,19 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-cv-and-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43745,6 +43787,12 @@
       "target": "wiki:data-science-careers",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-science-recruiter",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science-recruiter",
@@ -45677,6 +45725,12 @@
       "target": "wiki:data-teams",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-strategy",
@@ -65516,6 +65570,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "wiki:data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -66123,6 +66183,12 @@
     {
       "source": "wiki:ml-product-manager-role",
       "target": "wiki:data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:data-product-manager-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },

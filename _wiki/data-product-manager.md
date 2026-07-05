@@ -65,7 +65,10 @@ owns roadmap direction, specifications, and user feedback. They also prioritize
 backlog work for data scientists, analysts, engineers, or business users.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 [[ML Product Manager Role]] covers products that depend on model lifecycle,
-observability, or release-governance decisions.
+observability, or release-governance decisions. Use
+[[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+when the team needs to separate general product direction from data-specific
+ownership.
 
 Metrics need to prove a changed decision or workflow, not only a shipped data
 asset. A/B testing and reporting products should start from the decision they

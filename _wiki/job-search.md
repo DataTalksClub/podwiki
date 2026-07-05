@@ -112,9 +112,10 @@ that company or nearby roles.
 Ask for a short conversation, explain why that company interests you, and make
 the request easy to answer quickly.[[cite:how-to-break-into-data-science@50:32=>Data Science Career Playbook]]
 
-That makes [[Data Science Careers]] and
-[[Data Scientist CV and Portfolio]] part of the same loop. Choose a direction,
-build evidence, test it with the market, then refine the next application.
+Use [[Data Science Careers]] and
+[[data-scientist-cv-and-portfolio=>data scientist CV and portfolio]] together.
+Choose a direction, build evidence, test it with the market, then refine the
+next application.
 
 ## CV Evidence
 

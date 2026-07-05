@@ -31,9 +31,13 @@ measurement system.
 Engineers and data scientists own technical implementation. They also own model
 architecture and platform details.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
-ML changes the product boundary because data availability and model quality
-affect feasibility and reliability. Serving constraints, platform readiness,
+ML product work depends on data availability and model quality, which affect
+feasibility as well as reliability. Serving constraints, platform readiness,
 governance approvals, and user trust affect measurement and adoption.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+
+Use
+[[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+when those data and adoption constraints change ordinary PM work.
 
 The strategic version turns business planning into researchable ML use cases.
 The PM translates problems across users, executives, researchers, and
@@ -70,8 +74,11 @@ hypothesis testing help define the problem before the team picks a solution.
 
 Roadmap choices can compare model work, platform work, and data-quality work.
 They can also compare manual workflow improvements and scaling investments.
-Impact and effort belong in the decision. Cost, SMART goals, and operational
-metrics belong there too. SLAs and data quality matter as well.
+
+Impact and effort belong in the decision, along with cost and SMART goals.
+Operational metrics, SLAs, and data quality belong there too, so use the
+[[data-product-manager-roadmap=>data product manager roadmap]] for the learning
+path that includes those sequencing choices.
 [[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 AI product design adds another guardrail: the PM turns an AI opportunity into a

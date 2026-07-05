@@ -70,7 +70,9 @@ leadership exposure. The alternative may be a move into management.[[cite:hiring
 Candidates need practical evidence, but they start from different material. [[person:ksenialegostay=>Ksenia Legostay]] moved gradually from project management into analytics and then machine learning. She began with a skills gap assessment and kept planning, stakeholder communication, and KPI work as transferable strengths. Analysis work then became portfolio evidence before she moved deeper into machine learning.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 
 Use [[Project Manager to Data Science]] for the focused PM-to-data-science
-transition path.
+transition path. PMs can use
+[[data-science-project-management=>data science project management]] when they
+turn planning and KPI work into project structure.
 
 For project managers, the first credible data-science step is often data
 analysis inside the current job. Ksenia recommends using existing project data
@@ -212,8 +214,11 @@ The CV works like a landing page for the role. It emphasizes personal
 contribution and removes noise. Case studies should move from business goals
 to evaluation metrics.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
-Use that advice with [[CV Screening]] and behavioral stories. SQL and ML
-fundamentals belong in the same preparation plan. Take-home tasks do too.
+Use [[CV Screening]] for the recruiter-side filter. Use
+[[data-scientist-cv-and-portfolio=>data scientist CV and portfolio]] when the
+same advice has to connect CV bullets with portfolio proof and interview
+stories. SQL and ML fundamentals belong in the same preparation plan.
+Take-home tasks do too.
 
 Candidates should also evaluate the company while the company evaluates them.
 They should weigh take-home burden, role clarity, and salary transparency.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]

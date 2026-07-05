@@ -82,10 +82,11 @@ marketing-facing ML through CAC and conversion language. The business hears
 its own decision criteria instead of only a technical proposal
 [[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@15:25=>Applied ML Leadership]].
 
-Business trust also depends on explaining delivery effort without hiding behind
-technical detail. A data professional should name why a prototype was quick and
-why a production version takes longer. They should also name which blocker
-threatens the date.
+Data professionals build trust when they use the
+[[data-translator-role=>data translator role]] skill of explaining delivery
+effort without hiding behind technical detail. They should name why a prototype
+was quick and why a production version takes longer. They should also name
+which blocker threatens the date.
 Non-technical stakeholders may not care about code style, but they can
 understand dependencies and risk. They can also understand the business
 consequence of delay

@@ -173,11 +173,11 @@ business value, then choose the talent, algorithms, and infrastructure. Don't
 start from a shiny technology and search for somewhere to plug it in
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Industrial AI and MLOps Practice]].
 
-Lior Barak gives the lean-delivery version of the same strategy. Build the
-smallest prototype that can test value. Then decide whether the use case
-deserves production ownership. A spreadsheet can prove that a business workflow
-should change. A quick dashboard, hackathon tool, or one-week front end can do
-the same.
+Lior Barak connects the [[data-translator-role=>data translator role]] to the
+same lean-delivery strategy. Build the smallest prototype that can test value.
+Then decide whether the use case deserves production ownership. A spreadsheet
+can prove that a business workflow should change. A quick dashboard, hackathon
+tool, or one-week front end can do the same.
 
 Another owner may then rewrite the rough code or automate the manual proof. The
 team shouldn't treat the prototype as the final system

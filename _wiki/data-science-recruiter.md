@@ -74,9 +74,10 @@ Portfolio work helps when it proves judgment, not when it only displays tools.
 Project walkthroughs should lead with impact, then support that claim with
 detail, and mention only models and methods the candidate can defend
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-Recruiter-facing portfolio material should follow the same standard as
-[[Machine Learning Portfolio Projects]] and the [[Data Scientist Interview
-Roadmap]].
+Recruiter-facing CV and portfolio material should follow the standard in
+[[data-scientist-cv-and-portfolio=>data scientist CV and portfolio]]. For ML
+examples, use [[Machine Learning Portfolio Projects]]. For the preparation
+sequence, use the [[Data Scientist Interview Roadmap]].
 
 Recruiters and hiring teams look for different levels of proof by role. A
 product data scientist should show SQL, metrics, and experiments. They should

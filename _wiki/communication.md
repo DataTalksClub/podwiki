@@ -88,10 +88,12 @@ presence when they explain sensitive findings or challenge hierarchy.
 [[cite:how-to-stand-out-in-data-science@19:12=>Sensitive Findings]]
 [[cite:how-to-stand-out-in-data-science@23:25=>Constructive Pushback]]
 
-They also need to translate effort. Lior Barak's data strategist advice is to
-explain dependencies, blockers, and tradeoffs in plain language. Show enough of
-the code or workflow for a non-technical stakeholder to understand the work.
-Then name the blocker early when a two-week commitment is at risk. The
+They also need to translate effort. Lior Barak uses the
+[[data-translator-role=>data translator role]] to make this communication work
+explicit by explaining dependencies, blockers, and tradeoffs in plain language.
+Show enough of the code or workflow for a non-technical stakeholder to
+understand the work. Then name the blocker early when a two-week commitment is
+at risk. The
 stakeholder may not read code, but they can still help remove a dependency or
 reset the business expectation
 [[cite:data-translator-role-and-data-strategy@36:33=>Plain-Language Effort]].
