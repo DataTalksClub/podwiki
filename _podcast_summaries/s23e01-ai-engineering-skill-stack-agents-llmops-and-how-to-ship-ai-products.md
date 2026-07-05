@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-engineering-skill-stack-age
 - portfolio
 - rag
 
+## Agent Summary
+
+- Why it matters: Paul frames AI engineering as end-to-end product work: frontend, backend, agents, RAG, data pipelines, evaluations, observability, deployment, and using AI assistants without losing architectural ownership.
+- Useful for: Future agents researching AI engineer skill stacks, data scientist-to-AI engineer transitions, RAG and knowledge management, LLMOps tooling, portfolio project ideas, or agentic course/book positioning.
+- Probably skip if: You only need deep model-training research, fine-tuning internals, or a narrow framework comparison. The episode emphasizes practical product shipping over algorithm details.
+
 ## Chapter Headers
 
 - 0:00 - [From code to cars: Paul's journey to AI](https://www.youtube.com/watch?v=6bUO43k2lVU&t=0)

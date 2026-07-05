@@ -1,7 +1,7 @@
 RUSTKYLL_PYPI_VERSION ?= 0.5.1
 RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
 
-.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax duplicates content-audit keyword-gap clean check
+.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -44,6 +44,9 @@ chip-syntax: ## Check touched Markdown files for legacy pipe chip aliases (PATHS
 	fi
 	python scripts/check_chip_syntax.py $(PATHS)
 
+podcast-summary-audit: ## Check source-derived podcast summaries for agent usability
+	python scripts/audit_podcast_summaries.py
+
 duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
 	python scripts/find_duplicates.py
 
@@ -57,7 +60,7 @@ content-audit: ## Report wiki/article pages that need citation and link cleanup
 seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 	python scripts/audit_seo.py
 
-check: lambda-package links ## Build search index/package, static HTML, and link check
+check: lambda-package podcast-summary-audit links ## Build search index/package, static HTML, and link check
 
 clean: ## Remove generated build artifacts
 	rm -rf _site .rustkyll-manifest.json artifacts lambda_package

@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-a
 - ai engineer
 - career break
 
+## Agent Summary
+
+- Why it matters: Concrete return-to-tech story where a former telecom software architect uses ML Zoomcamp, AI Dev Tools, and project work to move from a seven-year career break into an AI engineer role at a healthcare startup.
+- Useful for: Career-break transitions, AI engineer entry paths, learning-in-public examples, portfolio/interview evidence, and practical RAG/PDF Q&A take-home assignment details.
+- Probably skip if: You need senior AI engineering architecture, deep LangChain/RAG implementation details, or a broad market analysis rather than one learner's restart journey.
+
 ## Chapter Headers
 
 - 0:00 - [Why Move to AI? Using ChatGPT to Plan a Career Pivot](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=0)

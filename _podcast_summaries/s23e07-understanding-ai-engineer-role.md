@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-
 - orchestration
 - search
 
+## Agent Summary
+
+- Why it matters: Defines AI engineering as a hybrid of software rigor, experimentation, domain knowledge, evaluation, orchestration, and emerging agent-ops concerns.
+- Useful for: Career-transition pages, AI engineer role definitions, agentic system evaluation, framework-selection advice, and discussions of when LLM prototypes should become lower-latency ML systems.
+- Probably skip if: You only need hands-on prompt recipes or model-tuning mechanics rather than role boundaries, operating principles, and career-path framing.
+
 ## Chapter Headers
 
 - 0:00 - [Transitioning from Social Science to Software Engineering](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=0)

@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-pet-health-tech-ml-se
 - career growth
 - machine learning
 
+## Agent Summary
+
+- Why it matters: Sofya Yulpatova uses Fit Tails to connect pet health, wearable sensors, IMU data, anomaly detection, and individualized behavioral baselines rather than generic activity tracking.
+- Useful for: Research on applied ML with sensor data, animal health technology, anomaly detection from longitudinal behavior, hardware prototyping, product discovery, and early startup bootstrapping.
+- Probably skip if: You need clinical veterinary validation, production ML architecture, or a mature-company case study with established metrics.
+
 ## Chapter Headers
 
 - 0:00 - [Sofya's pet tech startup with machine learning sensor data and behavior](https://www.youtube.com/watch?v=4bl2TSHD_Fc&t=0)

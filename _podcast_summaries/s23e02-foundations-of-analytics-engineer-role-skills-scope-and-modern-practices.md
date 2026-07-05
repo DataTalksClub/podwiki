@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/foundations-of-analytics-engin
 - software engineering
 - search
 
+## Agent Summary
+
+- Why it matters: Juan defines analytics engineering beyond a bridge role: modeling business reality into reliable warehouse tables with software engineering rigor, testing, CI/CD, and stakeholder mediation.
+- Useful for: Future agents researching analytics engineer scope, data modeling, dbt and SQLmesh context, SQL/Python skills, data warehouse or lakehouse choices, or the role split with data engineering.
+- Probably skip if: You need ML/AI topics or hands-on dbt code. This is a role and practice conversation rather than a tutorial or implementation walkthrough.
+
 ## Chapter Headers
 
 - 0:00 - [Juan's psychological research and transition to data](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=0)

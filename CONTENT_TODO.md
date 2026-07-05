@@ -565,14 +565,12 @@ Source hints:
 - The 2026-07-05 source-coverage audit confirmed that podcast and people
   registries are synced: 202 source episodes, 202 `_podcast_summaries/`
   records, 438 source people, and 438 `_people/` records, with no slug diffs.
-  The next source-derived improvement is summary quality, not sync coverage.
-  Enrich the 15 episode summaries whose source-index prose summary is empty:
-  `data-team-roles`, `s12e08`, `s22e06`, `s22e07`, `s22e08`, `s23e01`,
-  `s23e02`, `s23e03`, `s23e04`, `s23e05`, `s23e06`, `s23e07`, `s23e09`,
-  `s24e01`, and `s24e03`. Add compact "why it matters", useful-for, and
-  probably-skip-if guidance without copying transcripts. Also replace
-  placeholder `Transcript checkpoint` chapter labels in `data-team-roles`,
-  `crisp-dm`, and `s22e07-reinventing-career-in-tech`.
+  The first summary-quality batch is complete: the 15 episode summaries whose
+  source-index prose summary is empty now have compact `Agent Summary` guidance
+  with why-it-matters, useful-for, and probably-skip-if bullets, and the
+  placeholder `Transcript checkpoint` chapter labels were removed from
+  `data-team-roles`, `crisp-dm`, and `s22e07-reinventing-career-in-tech`.
+  `scripts/audit_podcast_summaries.py` now checks these invariants.
 - The 2026-07-04 five-agent enrichment pass has been handled through the three
   `report_pod_10.md` batches above. Future work should use a fresh mining
   report or new source evidence rather than reopening the same pending list.

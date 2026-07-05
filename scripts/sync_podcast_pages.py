@@ -135,7 +135,7 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
         for concept in concepts:
             lines.append(f"- {concept}")
     else:
-        lines.append("- No explicit topic metadata is available; use the chapter summary before relying on this episode.")
+        lines.append("- No explicit topic metadata is available. Use the chapter summary before relying on this episode.")
 
     chapters = podcast.get("chapters")
     lines.extend(["", "## Chapter Headers", ""])
@@ -164,6 +164,53 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
     return "\n".join(lines) + "\n"
 
 
+def markdown_section(text: str, heading: str) -> str:
+    marker = f"## {heading}"
+    start = text.find(marker)
+    if start == -1:
+        return ""
+    next_start = text.find("\n## ", start + len(marker))
+    if next_start == -1:
+        return text[start:].strip()
+    return text[start:next_start].strip()
+
+
+def insert_before_heading(text: str, heading: str, section: str) -> str:
+    marker = f"\n## {heading}\n"
+    index = text.find(marker)
+    if index == -1:
+        return text.rstrip() + "\n\n" + section.strip() + "\n"
+    return text[: index + 1] + section.strip() + "\n\n" + text[index + 1 :]
+
+
+def replace_section(text: str, heading: str, section: str) -> str:
+    marker = f"## {heading}"
+    start = text.find(marker)
+    if start == -1:
+        return text
+    next_start = text.find("\n## ", start + len(marker))
+    if next_start == -1:
+        return text[:start] + section.strip() + "\n"
+    return text[:start] + section.strip() + "\n" + text[next_start:]
+
+
+def preserve_curated_sections(rendered: str, existing: str) -> str:
+    agent_summary = markdown_section(existing, "Agent Summary")
+    if agent_summary:
+        rendered = insert_before_heading(rendered, "Chapter Headers", agent_summary)
+
+    existing_chapters = markdown_section(existing, "Chapter Headers")
+    generated_chapters = markdown_section(rendered, "Chapter Headers")
+    if (
+        existing_chapters
+        and "Transcript checkpoint" not in existing_chapters
+        and "Transcript checkpoint" in generated_chapters
+    ):
+        rendered = replace_section(rendered, "Chapter Headers", existing_chapters)
+
+    return rendered
+
+
 def render_page(source: Path, target: Path, people: dict[str, dict[str, object]]) -> bool:
     podcast = read_podcast(source)
     links = podcast.get("links") if isinstance(podcast.get("links"), dict) else {}
@@ -190,6 +237,8 @@ def render_page(source: Path, target: Path, people: dict[str, dict[str, object]]
     frontmatter.extend(["---", "", ""])
 
     rendered = "\n".join(frontmatter) + page_body(podcast, people)
+    if target.exists():
+        rendered = preserve_curated_sections(rendered, target.read_text(encoding="utf-8"))
     if target.exists() and target.read_text(encoding="utf-8") == rendered:
         return False
     target.write_text(rendered, encoding="utf-8")

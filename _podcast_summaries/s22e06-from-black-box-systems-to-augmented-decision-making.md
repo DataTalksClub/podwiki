@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-black-box-systems-to-augm
 
 - search
 
+## Agent Summary
+
+- Why it matters: Anusha Akkina explains why finance teams still rely on spreadsheets despite ERPs, and frames AI as a way to augment finance decisions with compliance, explainability, and auditability.
+- Useful for: Research on AI in finance, ERP and spreadsheet limitations, finance transformation, CFO decision support, and founder discovery from domain pain.
+- Probably skip if: You need technical model architecture, implementation details, or a non-finance search episode.
+
 ## Chapter Headers
 
 - 0:00 - [Building trust in AI finance and introducing Auralytix](https://www.youtube.com/watch?v=YZNaLm-_zwA&t=0)

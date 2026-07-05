@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineer-career-in-2026-r
 - data engineering
 - portfolio
 
+## Agent Summary
+
+- Why it matters: Current-state data engineering episode with Slawomir Tulski on role ambiguity, platform vs product specializations, tech-native vs tech-by-necessity companies, cost-aware architecture, and AI automation risk.
+- Useful for: Data engineering career pages, 2026 market reality, role specialization taxonomy, portfolio advice, CV framing, pragmatic stack choices, and when Kafka/Spark/real-time systems are justified.
+- Probably skip if: You need hands-on pipeline tutorials, beginner SQL instruction, or personal AI engineer transition stories rather than data engineering career and hiring strategy.
+
 ## Chapter Headers
 
 - 0:00 - [From Measuring Glaciers to London's Tech Scene](https://www.youtube.com/watch?v=bTHhvKMursI&t=0)

@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle
 - portfolio
 - search
 
+## Agent Summary
+
+- Why it matters: Reframes competitions as learning loops and career artifacts, not just leaderboard rank, with concrete discussion of GitHub repos, writeups, research challenges, and specialized platforms beyond Kaggle.
+- Useful for: Portfolio guidance, career-transition advice, Kaggle alternatives, beginner competition roadmaps, technical-marketing pages, and research-publication paths from competition work.
+- Probably skip if: You only need production ML deployment practices or a narrow Kaggle medal strategy. The strongest value is in learning, artifacts, and opportunity creation.
+
 ## Chapter Headers
 
 - 0:00 - [Tatiana's journey from academia to staff software engineer](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=0)
