@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DataOps Platforms"
-summary: "How DataOps platforms provide a shared layer for reliable pipelines, CI/CD, observability, governance, and self-service data delivery."
+summary: "How shared DataOps platform layers make pipeline changes reviewable, observable, governed, and recoverable across teams."
 keyword: "data ops platform"
 related:
   - DataOps
@@ -16,44 +16,40 @@ related:
   - Modern Data Stack
 ---
 
-A DataOps platform gives data teams a shared operating layer for changing
-[[data pipelines]] without losing reliability. It combines [[orchestration]]
-and version control with tests and [[ci-cd=>CI/CD]]. It also covers [[data
-quality and observability]], lineage, ownership, and access controls.
+A DataOps platform is the shared operating layer that lets teams change
+[[data pipelines]] without relying on ad hoc coordination. It connects
+[[orchestration]] and version control with tests and [[ci-cd=>CI/CD]]. It also
+keeps [[data quality and observability]], lineage, ownership, and access
+controls in the supported path for routine data changes.
 
-A data ops platform is an operating layer for data work, not just a vendor
-category. Lars Albertsson describes a data platform as the technology enabler
-for DataOps. In his framing, teams need workflows and tooling. They also need
-continuous deployment and self-service. Then other teams can build pipelines
-without routing each change through the central platform team
+Lars Albertsson describes a data platform as the technology enabler for
+[[DataOps]]. In his framing, teams need workflows and tooling. They also need
+continuous deployment and self-service. With those pieces in place, other teams
+can build pipelines without routing each change through the central platform team
 [[cite:dataops-principles-and-scalable-data-platforms@11:50=>DataOps 101 for Scaling Data Platforms]].
 
-Christopher Bergh uses the same practical boundary from the reliability side.
-Teams automate and test the process. They also monitor and improve it so they
-reduce errors, shorten deployment cycles, and keep productivity high
+Christopher Bergh starts from the reliability side. Teams automate and test data
+work, then monitor and improve it so they reduce errors, shorten deployment
+cycles, and keep productivity high
 [[cite:dataops-automation-and-reliable-data-pipelines@06:42=>Mastering DataOps]].
-
-For platform boundary questions, focus on the supported path that many teams use
-to change, monitor, and repair data systems. Use [[DataOps Tools]] for the tool
-categories inside that path, and [[DataOps]] for the underlying practice.
 
 The platform sits at the overlap between [[DataOps]] and [[Data Engineering
 Platforms]]. DataOps adds review, testing, monitoring, and recovery practices.
 The platform turns those practices into shared infrastructure for pipeline,
 warehouse, and access changes.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-Use [[self-service-data-platforms=>Self-Service Data Platforms]] when the main
-question is enablement for analysts, data scientists, software engineers, or
-domain teams. Use [[dataops-engineer-role=>DataOps Engineer Role]] when the
-main question is who owns the operating path across teams.
+Individual tool categories belong in [[DataOps Tools]]. Enablement for
+analysts, data scientists, software engineers, and domain teams belongs in
+[[self-service-data-platforms=>Self-Service Data Platforms]]. Cross-team
+ownership belongs in [[dataops-engineer-role=>DataOps Engineer Role]].
 
-## Platform Boundary
+## Shared Operating Boundary
 
-A DataOps platform standardizes the path from source change to trusted output.
+A DataOps platform standardizes the route from source change to trusted output.
 Teams review and test changes before deployment, then monitor and repair them
 after release. Warehouse or lakehouse storage sits beside orchestration and
-CI/CD. Test suites and catalogs can sit there too. So can lineage, access
-workflows, and runbooks.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+CI/CD. Test suites and catalogs extend the same route. Lineage, access
+workflows, and runbooks do too.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 The platform boundary is broader than a scheduler and narrower than all data
 infrastructure. Albertsson reduces the core technical platform to storage plus
@@ -64,29 +60,25 @@ appears, keeping transformations reproducible
 Metadata, quality checks, ownership, and recovery paths make those recurring
 changes operable.
 
-This keeps the platform page separate from the tools guide. A tool helps with
-one category of work. A platform defines the supported route through several
-categories so many teams can use the same review, release, observability, and
-recovery path.
-
-That distinction also applies to searches for DataOps software or a DataOps
-observability platform. Software can provide tests and lineage. It can also
-provide alerting, catalogs, or deployment automation. The platform only works
-when those capabilities connect to owners, runbooks, and the release path. Use
-[[DataOps Tools]] for individual categories and keep this page focused on the
-operating layer.
+A tool helps with one category of work. A platform defines the route through
+several categories so many teams can use the same review, release,
+observability, and recovery path. DataOps software can provide tests and
+lineage. It can also provide alerting, catalogs, or deployment automation.
+Those capabilities become a platform layer when they connect to owners,
+runbooks, and the release path.
 
 A console beside a warehouse or scheduler isn't enough if it only exposes
 existing systems. DataOps platform work improves review and testing. It also
 improves deployment, ownership, observability, or recovery. Teams can then ship
 and repair data changes with less manual coordination.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-## Entry Points
+## Team Starting Points
 
-DataOps platform discussions differ mostly by entry point. Architecture-first
-work starts from immutable pipelines and reproducibility, then adds storage and
-compute plus workflow engines. Quality automation and lineage round out that
-view with schema handling and versioning.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+Teams arrive at the shared platform layer from different problems.
+Architecture-first work starts from immutable pipelines and reproducibility,
+then adds storage and compute plus workflow engines. Quality automation and
+lineage round out that view with schema handling and
+versioning.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 A delivery-first path starts from fragile releases, so version control and
 tests reduce deployment risk. CI/CD makes that release path repeatable.
@@ -106,17 +98,18 @@ shared interfaces explicit.[[cite:scaling-data-engineering-teams-self-service-pl
 These entry points lead to the same test: the platform is useful when it lowers
 coordination cost without weakening reliability.
 
-## Pipeline and Platform Capabilities
+## Pipeline Change Layer
 
-A DataOps platform covers ingestion and transformations. It also covers
-orchestration, dependencies, schema changes, and trusted outputs. Modern data
-stack tooling puts raw ingestion and guardrails in that delivery path. Warehouse
-transformations and Airbyte belong there. So do dbt, CDC, and schema
+A DataOps platform gives recurring pipeline changes a common release and
+recovery layer. It covers ingestion, transformations, and orchestration. It
+also covers dependencies, schema changes, and trusted outputs. Modern data
+stack tooling puts raw ingestion and guardrails in that delivery path.
+Warehouse transformations and Airbyte belong there. So do dbt, CDC, and schema
 evolution.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
-Use [[ETL]], [[ELT]], and [[ETL vs ELT]] when the main question is where
-transformation happens. Use [[DataOps Tools]] for tool categories. DataOps
-platforms stay centered on the supported path for recurring data changes.
+[[ETL]], [[ELT]], and [[ETL vs ELT]] explain where transformation happens.
+[[DataOps Tools]] explains the tool categories. DataOps platforms give teams
+the supported path for repeating those changes across many pipelines.
 
 Storage and compute belong in the platform because downstream consumers depend
 on stable data contracts. Raw data lakes and warehouses sit in the same
@@ -128,9 +121,8 @@ question. Iceberg changes how teams think about durable data layout and compute
 choices. Airflow, Prefect, and Dagster sit above that layer, as do CI-based
 workflows.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
-For a practical pipeline sequence, use [[How to Build Data Pipelines]]. Treat
-that sequence as platform work once many pipelines need the same delivery and
-recovery path.
+A practical pipeline sequence in [[How to Build Data Pipelines]] becomes
+platform work once many pipelines need the same delivery and recovery path.
 
 ## CI/CD and Release Paths
 
@@ -151,12 +143,12 @@ changes reviewable. Branch review, merge requests, and Atlantis apply flows
 complete that path.[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]]
 
 Bergh starts the adoption sequence with Git and CI/CD, then adds automated
-tests before production. He includes integration tests, test data, and
-end-to-end checks
+tests before production. He includes integration tests and test data. He also
+includes end-to-end checks
 [[cite:dataops-automation-and-reliable-data-pipelines@43:06=>Mastering DataOps]].
-That same release path should cover SQL models and orchestrator definitions. It
-should also cover infrastructure and governance changes, so teams don't invent
-separate promotion processes.
+The same release path can cover SQL models, orchestrator definitions,
+infrastructure changes, and governance changes. Teams then don't invent
+separate promotion routes.
 
 ## Observability and Recovery
 
@@ -186,11 +178,11 @@ role-based access control, data lakes, and lineage belong in the same
 discussion.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]]
 
 This is where DataOps platforms meet [[self-service-data-platforms=>Self-Service
-Data Platforms]] and [[Data Governance]]. The platform should make routine work
-easier while preserving privacy and ownership. It should also preserve quality
+Data Platforms]] and [[Data Governance]]. The shared layer makes routine work
+easier while preserving privacy and ownership. It also preserves quality
 checks, lineage, and recovery accountability.
 
-## Tool Stack or Platform
+## Integrated Platform or Assembled Stack
 
 Teams don't need a dedicated vendor before they can practice DataOps. They can
 assemble DataOps capabilities from Git and CI. dbt tests, Great Expectations,
@@ -202,9 +194,8 @@ Bergh's DataKitchen example shows one integrated data ops platform structure.
 It includes orchestration across environments, automated tests, observability,
 and environment setup. Observability vendors cover part of the wider market
 [[cite:dataops-automation-and-reliable-data-pipelines@56:32=>Mastering DataOps]].
-Use the example to evaluate categories, not to collapse the page into a vendor
-list. Ask whether the platform makes change review, deployment, monitoring, and
-recovery repeatable for the team.
+The useful question is whether the stack makes change review, deployment,
+monitoring, and recovery repeatable for the team.
 
 Coordination cost determines how much platform structure a team needs. A small
 team may start with a lighter stack. A larger platform team may need templates,
@@ -213,9 +204,9 @@ lineage, access workflows, and support paths. Either path works when teams get
 a supported, repeatable way to operate data changes across many pipelines and
 users.
 
-Keep the boundary with [[MLOps vs DataOps]] clear because DataOps platforms
-operate upstream data delivery. That includes ingestion, transformations,
-datasets, and schemas. It also includes lineage, access, and pipeline recovery.
+The boundary with [[MLOps vs DataOps]] matters because DataOps platforms operate
+upstream data delivery. That includes ingestion, transformations, datasets, and
+schemas. It also includes lineage, access, and pipeline recovery.
 
 MLOps platforms add model artifacts and training runs, plus inference, model
 monitoring, and retraining workflows.
@@ -224,8 +215,8 @@ on the data platform layer.
 
 ## Related Pages
 
-Use these adjacent pages for platform architecture and delivery practice. They
-also cover observability, governance, and boundary topics.
+These adjacent pages cover platform architecture and delivery practice, plus
+observability, governance, and boundary topics.
 
 - [[DataOps]]
 - [[Data Engineering Platforms]]

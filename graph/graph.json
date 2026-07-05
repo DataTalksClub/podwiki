@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1118,
-    "links": 11362
+    "links": 11363
   },
   "nodes": [
     {
@@ -153,7 +153,7 @@
       "title": "Data Engineering Certification",
       "url": "/wiki/data-engineering-certification/",
       "count": 1,
-      "search": "Data Engineering Certification Use podcast advice to decide when data engineering certificates help, how to judge programs, and what project proof employers still need.",
+      "search": "Data Engineering Certification Decide whether a data engineering certificate is worth it, and turn certificate study into portfolio proof that employers can review.",
       "keyword": "data engineering certification"
     },
     {
@@ -316,7 +316,7 @@
       "title": "DataOps Pipeline Checks",
       "url": "/wiki/dataops-checks-for-data-pipelines/",
       "count": 1,
-      "search": "DataOps Pipeline Checks Checklist for DataOps pipeline checks: freshness, volume, schema, distribution, business rules, CI/CD, runbooks, and recovery.",
+      "search": "DataOps Pipeline Checks Procedure for adding pipeline checks: data agreements, freshness, volume, schema, business rules, lineage, CI/CD, and recovery.",
       "keyword": "dataops checks for data pipelines"
     },
     {
@@ -9946,7 +9946,7 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms How DataOps platforms provide a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery.",
+      "search": "DataOps Platforms How shared DataOps platform layers make pipeline changes reviewable, observable, governed, and recoverable across teams.",
       "keyword": "data ops platform"
     },
     {
@@ -45584,6 +45584,12 @@
       "target": "wiki:data-observability-for-data-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",

@@ -22,11 +22,10 @@ related_wiki:
 
 A data science recruiter helps a company turn a vague talent need into a real
 candidate search. A data science headhunter does the active-search version of
-that work. They map the market, contact people who aren't applying, and help
-both sides decide whether the role is a fit. Candidates may hear the same work
-called data scientist recruiter or data scientist headhunter. Ask whether this
-person can explain the role, the market, and the evidence the hiring team will
-trust.
+that work. They map the market and contact people who aren't applying. They
+also prepare candidates, gather feedback, and support the offer. Candidates may
+hear the same work called data scientist recruiter or data scientist
+headhunter.
 
 Recruiting is more than keyword matching, so recruiters help hiring managers
 with job specs and sourcing. Then they stay involved through screening,
@@ -35,15 +34,10 @@ interviews, salary conversations, and offer communication
 Headhunters do the active-search version of that same work
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 
-The recruiter defines the role, guides the company on the market, and builds a
-shortlist. They prepare candidates, gather feedback, and support the offer.
-
-The best data science recruiter translates between
-[[hiring]], the
-[[job search]], and the actual
-[[data scientist role]]. The
-recruiter can't make an unclear role clear alone. They can expose the confusion
-early and help the company decide what it's hiring for.
+A useful data science recruiter translates between [[hiring]], the [[job
+search]], and the actual [[data scientist role]]. The recruiter can't make an
+unclear role clear alone, but they can expose the confusion early and help the
+company decide what it's hiring for.
 
 ## Recruiter Screening
 
@@ -61,10 +55,9 @@ impact
 A recruiter can find a candidate through a keyword, but the profile still has to
 explain what the person has done.
 
-For candidates, this is where
-[[CV Screening]] becomes practical:
-don't describe yourself only as "Python, SQL, machine learning." Show the
-problem and data, then add the method, your contribution, and the outcome.
+[[CV Screening]] becomes practical here: don't describe yourself only as
+"Python, SQL, machine learning." Show the problem and data, then add the method,
+your contribution, and the outcome.
 
 If a project used a model, explain why that model made sense. If a role was
 analytics-heavy, show the metric or decision your analysis changed.
@@ -81,10 +74,9 @@ Portfolio work helps when it proves judgment, not when it only displays tools.
 Project walkthroughs should lead with impact, then support that claim with
 detail, and mention only models and methods the candidate can defend
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
-Recruiter-facing portfolio material should follow the same standard:
-[[Machine Learning Portfolio Projects]]
-and the
-[[Data Scientist Interview Roadmap]].
+Recruiter-facing portfolio material should follow the same standard as
+[[Machine Learning Portfolio Projects]] and the [[Data Scientist Interview
+Roadmap]].
 
 Recruiters and hiring teams look for different levels of proof by role. A
 product data scientist should show SQL, metrics, and experiments. They should
@@ -137,11 +129,9 @@ without support
 [[person:terezaiofciu=>Tereza Iofciu]]
 [[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]].
 
-In
-[[Job Descriptions]], a
-useful job description names the team and objectives. It should also explain
-responsibilities, data maturity, and surrounding roles. A weak one lists
-fashionable tools and leaves candidates guessing.
+[[Job Descriptions]] should name the team and objectives. They should also
+explain responsibilities, data maturity, and surrounding roles. Weak job
+descriptions list fashionable tools and leave candidates guessing.
 
 Long tech lists and vague responsibilities give candidates a way to evaluate the
 employer. Team-context questions matter as much as the employer's evaluation of
@@ -204,8 +194,7 @@ personal details.
 CV clarity, clear responsibilities, scannable dates, and buzzword avoidance all
 matter here
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]].
-The candidate-side rule: make the CV a focused page about why someone should
-interview you
+A candidate CV should make the interview case directly
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 During the call, ask for the details that reveal role clarity.

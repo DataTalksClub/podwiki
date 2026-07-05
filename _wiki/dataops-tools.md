@@ -18,42 +18,28 @@ related_wiki:
 DataOps tools help data teams change pipelines with review, tests, alerts, and
 recovery paths instead of memory and manual checks.
 
-For tool-category questions, start here. Use [[DataOps]] for the operating
-model and [[dataops-engineer-role=>DataOps Engineer Role]] for ownership. Use
-[[DataOps Platforms]] when the team needs a shared path rather than a list of
-components.
+DataOps tool selection sits below the operating model. It covers change review
+and CI/CD, orchestration and tests, observability and lineage, plus deployment
+and recovery. The broader operating model lives in [[DataOps]], while the
+[[dataops-engineer-role=>DataOps Engineer Role]] page covers ownership and
+[[DataOps Platforms]] covers shared services and paved paths.
 
-DataOps is an operating model for reviewed changes and tested releases through
-CI/CD, observability, and recovery playbooks[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Teams can use the same practice for infrastructure by reviewing Terraform and
+DataOps connects reviewed changes and tested releases through CI/CD, then uses
+observability and recovery playbooks to keep the release path operational[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Teams can apply the same practice to infrastructure by reviewing Terraform and
 Terragrunt plans through Atlantis[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+Those tools sit inside [[data engineering]] and
+[[data-engineering-platforms=>data platform]] work. Scalable platform
+components are part of that model[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
+The [[modern data stack]] connects ingestion and orchestration with warehouses,
+dbt, and reverse flows[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and Modern Data Stack]].
 
-For tool selection, treat DataOps as an operating model for
-[[data engineering]] and
-[[data-engineering-platforms=>data platforms]].
+DataOps tool decisions also touch [[data-quality-and-observability=>data quality]],
+[[DataOps vs Data Engineering]] boundaries, and [[MLOps vs DataOps]]
+boundaries. The broader [[Data Engineering Tools]] map covers ingestion and
+orchestration, storage and transformation, plus activation and analytics.
 
-Scalable platform components are part of that model.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
-The [[modern data stack]] connects ingestion and orchestration with
-warehouses and dbt. It also covers reverse flows inside that stack.[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and Modern Data Stack]]
-That operating model connects DataOps to
-[[data-quality-and-observability=>data quality]]
-and production analytics. Teams use DataOps tools to shorten the distance
-from change review to tests, deployments, alerts, and fixes.
-
-For the concept layer, start with [[DataOps]]
-and
-[[DataOps vs Data Engineering]]
-when the question is operating practice versus engineering work. Use
-[[MLOps vs DataOps]]
-when the boundary is model lifecycle versus data delivery.
-
-Use [[DataOps Platforms]] when
-the tool categories need to become a shared platform layer.
-Use [[Data Engineering Tools]]
-for the broader tool map across ingestion, orchestration, storage, and
-transformation. That broader map also covers activation and analytics.
-
-## DataOps Tool Coverage
+## Tool Categories Across a Change Lifecycle
 
 A practical DataOps stack covers the lifecycle of a data change. It doesn't
 have to be one platform. Most teams connect several tools through Git and
@@ -73,20 +59,19 @@ At minimum, the stack should help the team do these jobs:
 - recover through runbooks, playbooks, reruns, rollbacks, and postmortems
 
 Teams usually anchor this stack around version control and tests, then add
-CI/CD, observability, and recovery. The practical steps for healthier pipelines move
-from manual checklists toward automated playbooks, and versioning extends beyond
-code to models, visualizations, and governance.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+CI/CD, observability, and recovery. The practical steps for healthier pipelines
+move from manual checklists toward automated playbooks, and versioning extends
+beyond code to models, visualizations, and governance.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-That's why this page treats DataOps tools as connected categories. A test
-framework without version control is weak. An orchestrator without ownership
-still leaves people guessing. An observability tool without runbooks can create
-alerts that nobody acts on.
+DataOps categories matter together because a test framework without version
+control is weak. An orchestrator without ownership leaves people guessing, and
+observability without runbooks can create alerts that nobody acts on.
 
-If a team standardizes templates and managed services, use [[DataOps Platforms]]
-instead of a tool list. Use [[DataOps Platforms]] for access flows and support
-paths too.
+A team that standardizes templates and managed services is no longer comparing
+isolated tools. When it also needs access flows and support paths,
+[[DataOps Platforms]] becomes the stronger frame.
 
-## Tool Boundary Differences
+## Tool Boundaries Depend on the Operating Problem
 
 The tool boundary changes with the operating problem:
 
@@ -99,11 +84,11 @@ The tool boundary changes with the operating problem:
 - Platform teams may add storage, compute, workflow engines, and
   batch-versus-streaming tradeoffs.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Use those boundaries when buying or standardizing tools. A small analytics team
-may standardize Git, dbt checks, a scheduler, and basic monitors. A data
-platform team may need shared templates and orchestration. It may also need
-observability, lineage, and governance hooks because many domains depend on the
-same release path.
+Those boundaries matter when a team buys or standardizes tools. A small
+analytics team may standardize Git, dbt checks, a scheduler, and basic
+monitors. A data platform team may need shared templates and orchestration. It
+may also need observability, lineage, and governance hooks because many domains
+depend on the same release path.
 
 ## Version Control and Review
 
@@ -189,8 +174,7 @@ A platform can use Luigi as a data build system, with storage, compute, and
 workflow engines as core platform components. Batch, micro-batch, and streaming
 choices have different tradeoffs.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Use [[Orchestration]] when the
-decision is specifically about scheduler choice. DataOps needs orchestration,
+Scheduler choice belongs with [[Orchestration]]. DataOps needs orchestration,
 but an orchestrator alone isn't a complete operating model.
 
 ## Testing and Data Quality
@@ -219,10 +203,8 @@ reconciliation.[[cite:data-engineering-leadership-and-modern-data-platforms=>Dat
 That pushes testing beyond "does the job run?" into "did the right data arrive
 in the right place?"
 
-Use [[Data Quality and Observability]]
-for the reference page and
-[[Data Observability for Data Engineering]]
-for the article version of the same reliability problem.
+The reliability layer connects to [[Data Quality and Observability]] and
+[[Data Observability for Data Engineering]].
 
 ## Observability
 
@@ -269,7 +251,7 @@ Catalogs and governance connect to end-to-end versioning.[[cite:dataops-automati
 Catalogs help only when they reflect real ownership and usage. A stale catalog
 can make incidents worse by pointing responders at the wrong team.
 
-Start with metadata that helps people recover:
+Recovery depends on metadata that helps people answer the alert:
 
 - owner
 - freshness expectation
@@ -278,8 +260,8 @@ Start with metadata that helps people recover:
 - downstream dependencies
 - runbook
 
-Use [[Data Governance]] when the tool decision includes access control,
-privacy, lineage, and policy.
+Tool decisions that include access control, privacy, lineage, and policy
+overlap with [[Data Governance]].
 
 ## Runtime and Platform Choices
 
@@ -327,7 +309,7 @@ You don't need a full DataOps platform on day one. Simple tools are enough
 when the team has few pipelines, few dependencies, low data downtime cost, and
 clear manual recovery paths.
 
-Start with this stack:
+The lightweight stack covers the first recovery path:
 
 1. Git for pipeline code, SQL, configuration, and documentation.
 2. A small CI workflow that runs code tests and SQL or dbt checks.
