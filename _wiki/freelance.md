@@ -1,5 +1,6 @@
 ---
-layout: wiki
+layout: article
+tags: ["guide"]
 title: "Freelance Data Consulting"
 keyword: "data engineering consulting"
 secondary_keywords:
@@ -11,7 +12,8 @@ secondary_keywords:
   - "freelance data engineers"
   - "data engineer freelance"
 summary: "How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products."
-related:
+search_intent: "People searching for data engineering consulting, freelance data engineering, or data engineer consultant usually want practical guidance on client work, scope, pricing, and portfolio evidence rather than a generic definition of freelancing."
+related_wiki:
   - Solopreneur Data Scientist
   - Career Transitions in Data
   - Business Skills for Data Professionals

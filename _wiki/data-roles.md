@@ -436,10 +436,17 @@ and [[Data Products]]. Then use
 and
 [[Data Product Manager]].
 
-The practical sequence is the same across roles. Choose one target, build one
-project that proves the target responsibility, and write the case study in the
+The practical sequence is the same across roles. Choose one target and build one
+project that proves the target responsibility. Then write the case study in the
 language of that role. Recruiters and hiring managers shouldn't have to infer
 whether you want analytics, data science, or data engineering.
+
+Danny Ma grounds the role-targeting logic in the ABC framework
+([[cite:data-science-career-abc-framework=>ABC Framework]]).
+Misra Turp grounds the job-search version
+([[cite:get-data-scientist-job=>Get a Data Scientist Job]]).
+Nicolas Rassam grounds the data-engineering hiring version
+([[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]).
 
 For data science applications, [[data-science-recruiter=>data science recruiter]]
 explains how that role targeting becomes a sourcing, screening, and offer

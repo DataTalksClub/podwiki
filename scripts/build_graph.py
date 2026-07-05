@@ -27,10 +27,6 @@ ARTICLE_COLLECTIONS = ["guide", "comparison", "roadmap", "transition", "how_to"]
 
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/", "wiki"),
-    "_guides": ("article", "/guides/", "guide"),
-    "_comparisons": ("article", "/comparisons/", "comparison"),
-    "_roadmaps": ("article", "/roadmaps/", "roadmap"),
-    "_how_tos": ("article", "/how-tos/", "how_to"),
     "_podcast_summaries": ("podcast", "/podcasts/", "podcast"),
     "_books": ("book", "/books/", "book"),
     "_people": ("person", "/people/", "person"),

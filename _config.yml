@@ -46,7 +46,7 @@ collections:
   # books/podcast_summaries/people are node registries, not published pages.
   # They duplicate the main datatalks.club site, so we do not emit HTML for them
   # (output: false). Their front matter still feeds the graph, search, and the
-  # /podcasts/, /people/, /books-page/ listings; every human-facing link resolves
+  # canonical DataTalks.Club entity URLs; every human-facing entity link resolves
   # to the canonical `source_url` on the main site.
   books:
     output: false

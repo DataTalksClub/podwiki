@@ -34,10 +34,6 @@ TAGGED_WIKI_LEVELS = {
 }
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/"),
-    "_guides": ("guide", "/guides/"),
-    "_comparisons": ("comparison", "/comparisons/"),
-    "_roadmaps": ("roadmap", "/roadmaps/"),
-    "_how_tos": ("how_to", "/how-tos/"),
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
     "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),

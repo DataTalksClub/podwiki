@@ -3,10 +3,10 @@
 
 Two jobs:
 
-1. Internal wiki dedup: near-duplicate pages *within* podwiki collections
-   (`_wiki`, `_guides`, `_comparisons`, `_roadmaps`, `_how_tos`). These compete
-   with each other for the same query (keyword cannibalization) and should be
-   merged into one focused page.
+1. Internal wiki dedup: near-duplicate public pages in `_wiki`. Tagged guide,
+   comparison, roadmap, transition, and how-to pages still live in `_wiki`, so
+   this catches both concept hubs and editorial pages that compete for the same
+   query.
 
 2. Cross-site cannibalization: podwiki pages that overlap main-site articles in
    `../datatalksclub.github.io/_posts` (and `_tools`). The main site should own
@@ -58,13 +58,9 @@ from build_search_index import plain_text, split_frontmatter  # noqa: E402
 
 MAIN_SITE = ROOT.parent / "datatalksclub.github.io"
 
-# Collections whose pages compete with each other in podwiki.
+# Public podwiki content. Editorial page types are represented by `_wiki` tags.
 PODWIKI_COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/"),
-    "_guides": ("guide", "/guides/"),
-    "_comparisons": ("comparison", "/comparisons/"),
-    "_roadmaps": ("roadmap", "/roadmaps/"),
-    "_how_tos": ("how_to", "/how-tos/"),
 }
 
 

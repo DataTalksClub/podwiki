@@ -3,6 +3,8 @@ layout: wiki
 title: "Analytics Engineering"
 summary: "Analytics engineering turns raw data into tested models, shared metric definitions, documented transformations, and BI-ready data products."
 secondary_keywords:
+  - analytics engineer
+  - analytics engineer role
   - analytics engineering bootcamp
 related:
   - Data Engineering Platforms

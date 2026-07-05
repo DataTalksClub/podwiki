@@ -43,7 +43,7 @@ Use [[DataOps Checks for Data Pipelines]] for the concrete checks that protect a
 pipeline change. Use [[Data Engineering Platforms]] for shared infrastructure
 around many pipelines.
 
-## Definition
+## Movement, Transformation, and Publication
 
 A useful data pipeline has three responsibilities.
 

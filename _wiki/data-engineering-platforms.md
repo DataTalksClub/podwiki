@@ -2,6 +2,10 @@
 layout: wiki
 title: "Data Engineering Platforms"
 keyword: "data intensive applications"
+secondary_keywords:
+  - "data-intensive applications"
+  - "designing data-intensive applications"
+  - "data engineering platforms"
 summary: "How guests define data engineering platforms: shared ingestion, storage, orchestration, governance, reliability, self-service, adoption, and cost control."
 related:
   - Data Engineering

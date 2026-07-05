@@ -7,7 +7,7 @@ permalink: /search.html
 # Search
 
 <div class="search-panel">
-  <input id="search-input" type="search" placeholder="Search wiki, guides, comparisons, roadmaps, how-tos, people, and podcasts" autocomplete="off" />
+  <input id="search-input" type="search" placeholder="Search wiki, guides, comparisons, roadmaps, transitions, how-tos, podcasts, people, and books" autocomplete="off" />
   <button id="search-button" type="button">Search</button>
 </div>
 

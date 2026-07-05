@@ -1,6 +1,12 @@
 ---
 layout: wiki
 title: "Apache Airflow"
+keyword: "airflow"
+secondary_keywords:
+  - "apache airflow"
+  - "airflow docker compose"
+  - "airflow standalone docker"
+  - "lightweight airflow"
 summary: "How podcast guests use Apache Airflow for DAG-based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
 related:
   - Orchestration

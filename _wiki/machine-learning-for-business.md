@@ -63,7 +63,7 @@ That work sits close to [[business skills for data professionals]],
 [[data products]]. It also depends on [[data product adoption]],
 [[data strategy]], and [[machine learning system design]].
 
-## Business Definition
+## Model-Backed Business Capability
 
 Business ML means a model-backed capability that changes a decision and can be
 measured in business terms. [[person:vinvashishta=>Vin Vashishta]]
@@ -82,7 +82,7 @@ That makes business ML a product and operating discipline. The team names the
 decision and compares ML with a simpler baseline. It checks data, defines
 metrics, designs adoption, and assigns ownership after release.
 
-## Boundary Differences
+## Business ML Failure Modes
 
 The boundary differs by use case instead of following one universal ML business
 model.

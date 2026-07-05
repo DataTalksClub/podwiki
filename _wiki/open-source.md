@@ -1,6 +1,10 @@
 ---
 layout: wiki
 title: "Open Source"
+secondary_keywords:
+  - "what is open source"
+  - "open source data engineering projects"
+  - "open source entity resolution"
 summary: "How open source connects ML and data tools, contributions, maintainership, licensing, portfolio evidence, community, and startup distribution."
 related:
   - Open Source and Developer Relations

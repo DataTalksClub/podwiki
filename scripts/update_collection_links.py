@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Rewrite internal links from /guides/, /comparisons/, /roadmaps/, /how-tos/
-to /wiki/ for migrated content."""
+"""Rewrite old split-collection URLs to /wiki/ for migrated content."""
 
 from __future__ import annotations
 
@@ -8,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIRS = ["_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos", "_podcast_summaries", "_people", "_books"]
+CONTENT_DIRS = ["_wiki", "_podcast_summaries", "_people", "_books"]
 
 MAPPING = {
     "/guides/": "/wiki/",

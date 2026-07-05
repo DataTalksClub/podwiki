@@ -1,8 +1,11 @@
 ---
-layout: wiki
+layout: article
+tags: ["guide"]
 title: "Data Science for Managers"
+keyword: "data science for managers"
 summary: "How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions."
-related:
+search_intent: "People searching for data science for managers usually want practical guidance on hiring, scoping, supporting, and evaluating data science teams without becoming the strongest modeler on the team."
+related_wiki:
   - Data Science
   - Data Teams
   - Team Building
@@ -207,6 +210,13 @@ specialist in the room:
 - Define the smallest milestone that would justify continuing.
 - Measure business impact, adoption, maintainability, and model or data health
   after release.
+
+Dan Becker grounds the decision and baseline checks
+([[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]).
+Vin Vashishta grounds the business impact checks
+([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
+Sobkowiak grounds the role and hiring checks
+([[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]).
 
 ## Related Pages
 

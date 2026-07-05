@@ -7,7 +7,7 @@ title: Podcast Wiki
 
 {%- comment -%} Count total + tagged topics for the format tiles {%- endcomment -%}
 {% assign c_total = 0 %}
-{% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_howto = 0 %}
+{% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_transition = 0 %}{% assign c_howto = 0 %}
 {%- for item in pages -%}
   {%- unless item.redirect_to -%}
     {% assign c_total = c_total | plus: 1 %}
@@ -16,6 +16,7 @@ title: Podcast Wiki
         {%- if t == "guide" -%}{% assign c_guide = c_guide | plus: 1 %}{%- endif -%}
         {%- if t == "comparison" -%}{% assign c_comparison = c_comparison | plus: 1 %}{%- endif -%}
         {%- if t == "roadmap" -%}{% assign c_roadmap = c_roadmap | plus: 1 %}{%- endif -%}
+        {%- if t == "transition" -%}{% assign c_transition = c_transition | plus: 1 %}{%- endif -%}
         {%- if t == "how-to" -%}{% assign c_howto = c_howto | plus: 1 %}{%- endif -%}
       {%- endfor -%}
     {%- endif -%}
@@ -53,6 +54,13 @@ title: Podcast Wiki
     <span class="wiki-format-count">{{ c_roadmap }}</span>
     <span class="wiki-format-name">Roadmaps</span>
     <span class="wiki-format-desc">Step-by-step paths to learn or level up a skill.</span>
+  </a>
+  {% endif %}
+  {% if c_transition > 0 %}
+  <a class="wiki-format" href="{{ '/transitions-page/' | relative_url }}">
+    <span class="wiki-format-count">{{ c_transition }}</span>
+    <span class="wiki-format-name">Transitions</span>
+    <span class="wiki-format-desc">Career moves from one role or background into another.</span>
   </a>
   {% endif %}
   {% if c_howto > 0 %}

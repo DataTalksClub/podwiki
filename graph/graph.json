@@ -1,9 +1,9 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 204,
-    "articles": 77,
-    "guides": 23,
+    "wikis": 202,
+    "articles": 79,
+    "guides": 25,
     "comparisons": 24,
     "roadmaps": 11,
     "transitions": 15,
@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11872
+    "links": 11876
   },
   "nodes": [
     {
@@ -257,6 +257,17 @@
       "keyword": "data roles"
     },
     {
+      "id": "wiki:data-science-for-managers",
+      "type": "article",
+      "collection": "guide",
+      "label": "Data Science for Managers",
+      "title": "Data Science for Managers",
+      "url": "/wiki/data-science-for-managers/",
+      "count": 1,
+      "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions.",
+      "keyword": "data science for managers"
+    },
+    {
       "id": "wiki:data-science-project-management",
       "type": "article",
       "collection": "guide",
@@ -383,6 +394,17 @@
       "count": 1,
       "search": "ETL vs ELT Focused comparison for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
+    },
+    {
+      "id": "wiki:freelance",
+      "type": "article",
+      "collection": "guide",
+      "label": "Freelance Data Consulting",
+      "title": "Freelance Data Consulting",
+      "url": "/wiki/freelance/",
+      "count": 1,
+      "search": "Freelance Data Consulting How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products.",
+      "keyword": "data engineering consulting"
     },
     {
       "id": "wiki:game-ai-to-llm-agents",
@@ -8877,7 +8899,8 @@
       "title": "Apache Airflow",
       "url": "/wiki/apache-airflow/",
       "count": 1,
-      "search": "Apache Airflow How podcast guests use Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
+      "search": "Apache Airflow How podcast guests use Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments.",
+      "keyword": "airflow"
     },
     {
       "id": "wiki:apache-iceberg",
@@ -8937,7 +8960,7 @@
       "title": "Business Intelligence",
       "url": "/wiki/business-intelligence/",
       "count": 1,
-      "search": "Business Intelligence How podcast discussions connect business intelligence to metrics, dashboards, data products, governance, product analytics, and AI assisted analysis."
+      "search": "Business Intelligence How business intelligence connects metrics, dashboards, data products, governance, product analytics, and AI assisted analysis."
     },
     {
       "id": "wiki:business-skills-for-data-professionals",
@@ -9362,16 +9385,6 @@
       "search": "Data Science Careers Career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
     },
     {
-      "id": "wiki:data-science-for-managers",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Science for Managers",
-      "title": "Data Science for Managers",
-      "url": "/wiki/data-science-for-managers/",
-      "count": 1,
-      "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions."
-    },
-    {
       "id": "wiki:data-scientist-cv-and-portfolio",
       "type": "wiki",
       "collection": "wiki",
@@ -9721,17 +9734,6 @@
       "url": "/wiki/freelance-data-and-ml-careers/",
       "count": 1,
       "search": "Freelance Data and ML Careers How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
-    },
-    {
-      "id": "wiki:freelance",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Freelance Data Consulting",
-      "title": "Freelance Data Consulting",
-      "url": "/wiki/freelance/",
-      "count": 1,
-      "search": "Freelance Data Consulting How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products.",
-      "keyword": "data engineering consulting"
     },
     {
       "id": "wiki:generative-ai",
@@ -10471,7 +10473,8 @@
       "title": "RFM Analysis",
       "url": "/wiki/rfm-analysis/",
       "count": 1,
-      "search": "RFM Analysis How podcast discussions ground RFM analysis in customer segmentation, retention decisions, analytics engineering, and warehouse modeled product data."
+      "search": "RFM Analysis How podcast discussions ground RFM analysis in customer segmentation, retention decisions, analytics engineering, and warehouse modeled product data.",
+      "keyword": "rfm analysis"
     },
     {
       "id": "wiki:salary-negotiation",
@@ -41248,7 +41251,19 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "podcast:get-data-scientist-job",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "podcast:hiring-data-scientists-and-analysts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "article-chip",
       "weight": 1
     },
@@ -42155,284 +42170,296 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:building-data-team",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:data-leadership-coaching",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:data-science-career-abc-framework",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:data-science-management-and-agile-machine-learning",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:data-science-manager-vs-expert-hiring-guide",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:hiring-data-scientists-and-analysts",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:machine-learning-decision-optimization",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:machine-learning-engineering-production-best-practices",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:make-money-with-machine-learning-roles-skills",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:a-b-testing",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:business-skills-for-data-professionals",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:business-skills-for-data-professionals",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:communication",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:cv-screening",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-product-intake-and-prioritization",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-product-management",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-science",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-science",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-science-project-management",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-science-project-management",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-science-recruiter",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-scientist-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-team-lead-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-teams",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:data-teams",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:evaluation",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:evaluation",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:hiring",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:hiring",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:job-descriptions",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:kpis",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:leadership",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:machine-learning",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:machine-learning-engineer-vs-data-scientist",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:machine-learning-for-business",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:metrics",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:metrics",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:mlops",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:model-monitoring",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:product-analyst-vs-data-analyst",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:production-ml-project-checklist",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:production-ml-project-checklist",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:team-building",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:team-building",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-project-management",
@@ -52193,229 +52220,229 @@
     {
       "source": "wiki:freelance",
       "target": "person:adrianbrudaru",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "person:aleksanderkruszelnicki",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "person:dimitrivisnadi",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "person:mikiobraun",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "person:orellgarten",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "person:sonalgoyal",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:becoming-data-freelancer",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:freelancing-in-machine-learning",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:from-academic-research-to-data-engineering-freelancing",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "podcast:open-source-turned-into-career-and-startup-creation",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:apache-airflow",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:business-skills-for-data-professionals",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:business-skills-for-data-professionals",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:communication",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-freelancing-strategy",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:freelance-data-and-ml-careers",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:machine-learning",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:ml-consulting-proposals",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:open-source",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:solopreneur",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:solopreneur-data-scientist",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:solopreneur-data-scientist",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:freelance",
       "target": "wiki:startups",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {

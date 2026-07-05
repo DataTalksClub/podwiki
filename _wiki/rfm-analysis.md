@@ -1,6 +1,10 @@
 ---
 layout: wiki
 title: "RFM Analysis"
+keyword: "rfm analysis"
+secondary_keywords:
+  - "rfm segmentation"
+  - "rfm analysis for customer segmentation"
 summary: "How podcast discussions ground RFM analysis in customer segmentation, retention decisions, analytics engineering, and warehouse-modeled product data."
 related:
   - Product Analytics

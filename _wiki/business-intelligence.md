@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Business Intelligence"
-summary: "How podcast discussions connect business intelligence to metrics, dashboards, data products, governance, product analytics, and AI-assisted analysis."
+summary: "How business intelligence connects metrics, dashboards, data products, governance, product analytics, and AI-assisted analysis."
 related:
   - Analytics Engineering
   - Data Warehouse
@@ -19,17 +19,14 @@ related:
 ---
 
 Business intelligence turns modeled data into dashboards, metrics, reports, and
-decision routines. In DataTalks.Club podcast discussions, BI sits between
-[[analytics engineering]]
-and [[data-warehouse=>data warehouses]]. It also
-sits between [[metrics]] and the business
-meetings where people act on the numbers.
+decision routines. BI sits between [[analytics engineering]] and
+[[data-warehouse=>data warehouses]]. It also sits between [[metrics]] and the
+business meetings where people act on the numbers.
 
-The newer BI interface can use AI, but the podcast discussions treat that as an
-interface change rather than a replacement for analytics fundamentals. Natural
-language can help people ask better questions and find governed data. It can
-also draft first-pass analysis. [[text-to-sql=>Text-to-SQL]] is the structured
-query version of that interface.
+The newer BI interface can use AI, but AI changes the interface more than it
+replaces analytics fundamentals. Natural language can help people ask better
+questions and find governed data. It can also draft first-pass analysis.
+[[text-to-sql=>Text-to-SQL]] is the structured query version of that interface.
 [[ai-powered-business-intelligence=>AI in Business Intelligence]] covers the
 narrower AI-assisted BI design, including governed metrics, source display, and
 human review.
