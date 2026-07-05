@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11931
+    "links": 11946
   },
   "nodes": [
     {
@@ -36,28 +36,6 @@
       "url": "/wiki/ai-tools-for-personal-productivity/",
       "count": 1,
       "search": "AI Tools Workflow Guide How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks."
-    },
-    {
-      "id": "wiki:data-analyst-to-analytics-engineer",
-      "type": "article",
-      "collection": "transition",
-      "label": "Analyst to Analytics Engineer",
-      "title": "Analyst to Analytics Engineer",
-      "url": "/wiki/data-analyst-to-analytics-engineer/",
-      "count": 1,
-      "search": "Analyst to Analytics Engineer A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof.",
-      "keyword": "data analyst to analytics engineer"
-    },
-    {
-      "id": "wiki:data-analyst-vs-analytics-engineer",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Analyst vs Analytics Engineer",
-      "title": "Analyst vs Analytics Engineer",
-      "url": "/wiki/data-analyst-vs-analytics-engineer/",
-      "count": 1,
-      "search": "Analyst vs Analytics Engineer A role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
-      "keyword": "data analyst vs analytics engineer"
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -115,6 +93,17 @@
       "keyword": "data analysis"
     },
     {
+      "id": "wiki:data-analyst-to-analytics-engineer",
+      "type": "article",
+      "collection": "transition",
+      "label": "Data Analyst to Analytics Engineer",
+      "title": "Data Analyst to Analytics Engineer",
+      "url": "/wiki/data-analyst-to-analytics-engineer/",
+      "count": 1,
+      "search": "Data Analyst to Analytics Engineer A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof.",
+      "keyword": "data analyst to analytics engineer"
+    },
+    {
       "id": "wiki:data-analyst-to-data-engineer",
       "type": "article",
       "collection": "transition",
@@ -124,6 +113,17 @@
       "count": 1,
       "search": "Data Analyst to Data Engineer Convert analyst work into data engineering evidence: source ownership, reusable SQL, pipeline automation, quality checks, and an interview story.",
       "keyword": "data analyst to data engineer"
+    },
+    {
+      "id": "wiki:data-analyst-vs-analytics-engineer",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Analyst vs Analytics Engineer",
+      "title": "Data Analyst vs Analytics Engineer",
+      "url": "/wiki/data-analyst-vs-analytics-engineer/",
+      "count": 1,
+      "search": "Data Analyst vs Analytics Engineer A role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
+      "keyword": "data analyst vs analytics engineer"
     },
     {
       "id": "wiki:data-engineer-roadmap",
@@ -33566,6 +33566,12 @@
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "wiki:data-analysis",
       "kind": "article-chip",
       "weight": 1
@@ -33575,6 +33581,12 @@
       "target": "wiki:data-analyst-careers",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -33593,6 +33605,12 @@
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -33632,6 +33650,12 @@
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "wiki:dbt",
       "kind": "article-chip",
       "weight": 1
@@ -33662,6 +33686,12 @@
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "wiki:metrics",
       "kind": "article-chip",
       "weight": 1
@@ -33677,6 +33707,12 @@
       "target": "wiki:modern-data-stack",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-analytics-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -34118,6 +34154,12 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-activation",
       "kind": "article-chip",
       "weight": 1
@@ -34154,9 +34196,21 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-to-analytics-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-led-growth",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-led-growth",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -34169,6 +34223,12 @@
       "target": "wiki:data-products",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -34208,6 +34268,12 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:event-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:experimentation",
       "kind": "article-chip",
       "weight": 1
@@ -34232,6 +34298,12 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:product-analyst",
       "kind": "article-chip",
       "weight": 1
@@ -34241,6 +34313,12 @@
       "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -34256,9 +34334,21 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:rfm-analysis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:tracking-plans",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:tracking-plans",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-architect-role",

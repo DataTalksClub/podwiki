@@ -59,7 +59,7 @@ def main() -> None:
         raw = path.read_text(encoding="utf-8")
         meta = frontmatter(raw)
         name = path.name
-        title = meta.get("title", "")
+        title = meta.get("seo_title") or meta.get("title", "")
         full_title_len = len(title) + len(TITLE_SUFFIX)
         if full_title_len > TITLE_MAX:
             long_titles.append((name, full_title_len))

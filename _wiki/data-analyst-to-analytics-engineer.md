@@ -1,15 +1,19 @@
 ---
 layout: article
-tags: [transition, "roadmap"]
-title: "Analyst to Analytics Engineer"
+tags: [transition]
+title: "Data Analyst to Analytics Engineer"
+seo_title: "Analyst to Analytics Eng"
 keyword: "data analyst to analytics engineer"
 summary: "A practical transition path from analyst work to analytics engineering, covering SQL modeling, dbt workflows, metric ownership, tests, and portfolio proof."
 search_intent: "People searching for data analyst to analytics engineer usually want a practical transition path: which analyst skills transfer, what modeling and dbt skills to add, and what project evidence proves readiness."
 related_wiki:
   - Data Analyst Role
+  - Data Analyst Careers
+  - Data Analyst vs Analytics Engineer
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Analytics Engineering Portfolio Projects
+  - Marketing to Analytics Engineering
   - dbt
   - Metrics
   - Data Products
@@ -17,7 +21,10 @@ related_wiki:
   - Data Quality and Observability
   - Event Tracking
   - Tracking Plans
+  - Modern Data Stack
   - Business Intelligence
+  - Dashboard and Metric Layer Project Checklist
+  - DataOps
 ---
 
 Keep analyst judgment over questions, dashboards, KPIs, and experiments as you
@@ -29,7 +36,7 @@ explanations become stronger when they live in tested models.
 roles, then worked at Amazon in a BI and data engineering team. That path
 connects the transition to SQL, portfolio proof, networking, and communication.
 It also clarifies the boundary between analyst, BI engineer, and analytics engineer
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
 
 The practical boundary is ownership. A
 [[data-analyst-role=>data analyst]] usually owns the
@@ -39,16 +46,11 @@ the reusable model layer that makes those answers safer to repeat. The role
 boundary is covered in
 [[Data Analyst vs Analytics Engineer]].
 
-The transition plan moves from analyst work into model ownership.
-The current role definition is [[Data Analyst Role]]. Entry routes and broad
-career moves belong in [[Data Analyst Careers]]. [[Data Analyst vs Analytics Engineer]]
-compares the titles when a team needs a comparison rather than a roadmap.
-
-The broader skill sequence lives in
-[[Analytics Engineering Roadmap]].
-For the wider role map, compare
-[[Data Analysis]] and
-[[Data Roles]].
+The transition plan moves from analyst work into model ownership. The current
+role definition is [[Data Analyst Role]]. Entry routes and broad career moves
+belong in [[Data Analyst Careers]]. Use [[Analytics Engineering Roadmap]] for
+the general skill sequence and [[Data Analyst vs Analytics Engineer]] when the
+question is a role comparison.
 
 ## Move From Answering Questions to Owning Reusable Data
 
@@ -97,14 +99,14 @@ Choose the target from the work you already do:
   [[analytics engineering roadmap]]
   as the skills map.
 - If the current work comes from campaign reporting or funnel analysis, the
-  [[marketing-to-analytics-engineering=>marketing-to-analytics-engineering]]
+  [[marketing-to-analytics-engineering=>Marketing to Analytics Engineering]]
   path is the closest archive example.
 
 The marketing path moved through reporting and BI-team collaboration, then added
 SQL and Looker. It later included a dbt migration, product analytics, and A/B
 testing. The title mattered less than the growing ownership of modeled tables,
 dashboard definitions, and product metrics.
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@25:17=>Marketing to Analytics Engineering]]
 
 ## Analyst Skills That Transfer
 
@@ -120,7 +122,7 @@ dashboards. It exposed missing skills, but it didn't give him a job. The search
 took nine months, so the transition needed both skills and visibility
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
 
-The [[marketing-to-analytics-engineering=>marketing-to-analytics-engineering transition]]
+The [[marketing-to-analytics-engineering=>Marketing to Analytics Engineering]]
 shows the same transfer from another business role. Business and BI experience
 moved toward analytics engineering and expanded into product support and
 [[a-b-testing=>A/B testing]]. Data modeling, a dbt migration, Looker, and LookML
@@ -174,7 +176,7 @@ analysis and continues into downstream growth tools.
 
 [[Event tracking]] and
 [[tracking plans]] matter when the
-roadmap involves user behavior.
+transition involves user behavior.
 [[Product Analytics]] sits next
 to that work. A good analytics-engineering transition project doesn't only show
 a funnel chart. It shows the event grain, identity rules, metric definition,
@@ -197,17 +199,15 @@ better than waiting for a perfect one
 For analytics engineering, the strongest project starts with analyst work and
 turns it into a trusted model layer.
 
-Good project choices include:
+Use two or three projects that translate analyst work into analytics-engineering
+proof:
 
-- a dashboard query refactored into dbt-style staging, intermediate, and mart
+- refactor a dashboard query into dbt-style staging, intermediate, and mart
   models
-- a governed metric definition with grain, tests, documentation, and a dashboard
-- a funnel, retention, or [[a-b-testing=>A/B testing]]
-  mart built from event data and a tracking plan
-- a data quality improvement that explains user impact and the test that catches
-  the failure
-- a small semantic layer or [[data-products=>data product]]
-  for one stakeholder decision
+- turn a repeated KPI caveat into a governed metric definition with grain,
+  tests, documentation, and a dashboard
+- build a funnel, retention, or [[a-b-testing=>A/B testing]] mart from event data
+  and a tracking plan
 
 The reliability side includes version control, automated tests, CI/CD, and
 runbooks. Documentation and end-to-end versioning are part of that work too.
@@ -218,7 +218,7 @@ data and checks matter, not repeat a course project.
 [[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]
 
 The scope should match
-[[Analytics Engineering Portfolio Projects]]
+[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
 and the
 [[Dashboard and Metric Layer Project Checklist]].
 Make the project easy to look at. GitHub and GitHub Pages can work. RPubs,
@@ -233,12 +233,12 @@ Juan Pablo's Amazon team consumed and ingested upstream data, built pipelines,
 added business logic, and created dashboards for troubleshooting consultants.
 Amazon called that work Business Intelligence Engineer, while other companies
 call similar work Analytics Engineer
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
 
 His first job also separates analyst work from analytics-engineering work. The
 title was data scientist, but the work was mostly SQL and dashboards. Without
 pipelines, it was data analyst or data analyst consultant work
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+[[cite:from-math-graduate-to-data-analytics@54:01=>How to Break into Data Analytics]].
 
 That supports a pragmatic job search. Look for analytics engineer, BI engineer,
 or data analyst roles with dbt ownership. Product analytics engineer and data
@@ -261,19 +261,23 @@ reverse-engineering the code. A clean README and organized repository matter
 These pages cover the adjacent roles, skills, and portfolio patterns.
 
 - [[Data Analyst Role]]
+- [[Data Analyst Careers]]
 - [[Data Analyst vs Analytics Engineer]]
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]
-- [[Analytics Engineering Portfolio Projects]]
+- [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
 - [[Marketing to Analytics Engineering]]
+- [[Business Intelligence]]
 - [[Data Analysis]]
 - [[Data Roles]]
 - [[dbt]]
 - [[Metrics]]
+- [[Modern Data Stack]]
 - [[Product Analytics]]
 - [[a-b-testing=>A/B Testing]]
 - [[Data Products]]
 - [[Event Tracking]]
 - [[Tracking Plans]]
-- [[Business Intelligence]]
+- [[Dashboard and Metric Layer Project Checklist]]
+- [[DataOps]]
 - [[Data Quality and Observability]]

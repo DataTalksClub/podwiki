@@ -191,7 +191,7 @@ For analysts who want to move toward analytics engineering, add reusable data
 models, tests, and documentation. That direction ties to SQL transformations and
 version control. It also ties to tests and dependency graphs[[cite:analytics-engineer-skills-tools=>Analytics Engineering]].
 The
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 turns that move into a learning and project sequence.
 For analysts who want to own ingestion, orchestration, and pipeline reliability,
 use [[data-analyst-to-data-engineer=>data analyst to data engineer]] instead.

@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Analyst vs Analytics Engineer"
+title: "Data Analyst vs Analytics Engineer"
+seo_title: "Analyst vs Analytics Eng"
 keyword: "data analyst vs analytics engineer"
 secondary_keywords:
   - analytics engineer vs data analyst
@@ -10,13 +11,21 @@ summary: "A role comparison for deciding whether a team needs analyst ownership,
 related_wiki:
   - Data Analyst Role
   - Data Analyst Careers
+  - Data Analyst to Analytics Engineer
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Analytics Engineering Portfolio Projects
+  - Product Analyst vs Data Analyst
   - Product Analytics
   - Metrics
   - dbt
   - Data Quality and Observability
+  - Event Tracking
+  - Tracking Plans
+  - Data Products
+  - Data-Led Growth
+  - Modern Data Stack
+  - Dashboard and Metric Layer Project Checklist
 ---
 
 Data analysts and analytics engineers both work near SQL, dashboards, metrics,
@@ -37,7 +46,7 @@ For the two role hubs, use
 [[Data Analyst Role]] and
 [[Analytics Engineering]].
 If you're moving from analyst work toward model ownership, use the
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
 For entry routes and portfolio evidence before that transition, use
 [[Data Analyst Careers]].
 
@@ -116,7 +125,7 @@ also includes product problem sizing and post-launch experiment evaluation
 For product-facing work, the analyst often owns the question and the
 interpretation. [[person:nikolamaksimovic=>Nikola Maksimovic]] describes work
 with product managers on experiments and new features. The same work
-includes A/B testing, cohort sizing, and RFM analysis. Dashboards and
+includes A/B testing, cohort sizing, and [[rfm-analysis=>RFM analysis]]. Dashboards and
 presentations of insights sit in the same analyst mode, even when the title
 includes analytics engineering
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's product analytics discussion]].
@@ -185,7 +194,7 @@ work over business-specific models
 ([[cite:analytics-engineer-skills-tools=>Perez Mola's role comparison]]).
 
 Nikola's
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>small analytics engineering and BI team story]]
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@25:17=>small analytics engineering and BI team story]]
 shows the same blur from inside the job. He says he worked as both an analytics
 engineer and a data analyst on a four-person team. His work included KPI
 reassessment, dashboards, product-team support, and A/B testing. It also
@@ -194,7 +203,7 @@ describes the `dbt` migration and transformation layers that turned that work
 into a reusable model.
 
 Nikola returns to the title question in
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's title discussion]].
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@26:45=>Maksimovic's title discussion]].
 His official role combined analytics engineer and data analyst because the BI
 team was small. He says small and medium-sized teams shouldn't get stuck on the
 title split. The work still needs analytical skill, KPI fluency, and domain
@@ -226,10 +235,10 @@ Use work mode instead of title when one person covers both sides:
 
 The [[Analytics Engineering Roadmap]]
 and
-[[Analytics Engineering Portfolio Projects]]
+[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
 pages are useful when an analyst wants to move toward the engineered side of
 the boundary. For a step-by-step transition path, use
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
 
 ## Dashboards, Metrics, and Models
 
@@ -323,21 +332,20 @@ reusable. Perez Mola names data modeling and SQL transformations. Perafan adds
 robustness and testability as the role boundary
 ([[cite:analytics-engineer-skills-tools@42:05=>Perez Mola's analytics engineering skill discussion]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]],
-[[Analytics Engineering Portfolio Projects]]).
+[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]).
 
 The useful signal isn't "knows `dbt`." The stronger signal is "made trusted
-analytical data easier to reuse and safer to change." [[Analytics Engineering
-Portfolio Projects]] owns the project evidence for that signal.
+analytical data easier to reuse and safer to change."
+[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
+owns the project evidence for that signal.
 
-People often move from BI and domain work into analytics engineering.
-Maksimovic moved from marketing reporting into BI and SQL before he worked with
-Looker and `dbt`. Data modeling and product analytics came next, followed by
-A/B testing.
-
-Marketing funnels gave the modeling work a business target. KPIs and user
-journeys did too
+People often move from BI and domain work into analytics engineering. This
+comparison only uses that path as a role signal. Maksimovic's marketing
+reporting, SQL, Looker, and `dbt` work shows why one title can contain both
+analyst and analytics-engineering modes. Product analytics and A/B testing
+show the same overlap
 ([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's marketing-to-analytics engineering path]],
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]).
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]).
 
 [[person:alicjanotowska=>Alicja Notowska]] gives the
 hiring-screen version.
@@ -373,15 +381,20 @@ These role definitions, adjacent workflows, and learning paths go deeper:
 
 - [[Data Analyst Role]]
 - [[Data Analyst Careers]]
-- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 - [[Analytics Engineering]]
 - [[data-roles=>Data Roles Guide]]
 - [[Analytics Engineering Roadmap]]
-- [[Analytics Engineering Portfolio Projects]]
+- [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
 - [[product-analyst=>Product Analyst article]]
+- [[Product Analyst vs Data Analyst]]
 - [[Product Analytics]]
 - [[Metrics]]
 - [[dbt]]
 - [[Modern Data Stack]]
 - [[Data Quality and Observability]]
 - [[Data Products]]
+- [[data-led-growth=>Data-Led Growth]]
+- [[Event Tracking]]
+- [[Tracking Plans]]
+- [[Dashboard and Metric Layer Project Checklist]]

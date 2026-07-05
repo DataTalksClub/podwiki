@@ -77,7 +77,7 @@ That supports portfolios that turn domain knowledge into modeled metrics
 instead of treating domain context as background.
 
 Analysts can use the
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 to turn dashboard and KPI work into this kind of portfolio.
 
 [[person:arpitchoudhury=>Arpit Choudhury]] widens the
@@ -303,7 +303,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]
-- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 - [[Data Analysis]]
 - [[Data Analyst vs Analytics Engineer]]
 - [[Marketing to Analytics Engineering]]

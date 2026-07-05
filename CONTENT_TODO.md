@@ -693,12 +693,13 @@ Source hints:
   podcast evidence appears.
 - Improve `_wiki/data-analyst-to-analytics-engineer.md` as new evidence
   appears.
-- Next transition cleanup from the 2026-07-05 subagent boundary audit:
-  make `_wiki/data-analyst-to-analytics-engineer.md` transition-only, retitle
-  it and `_wiki/data-analyst-vs-analytics-engineer.md` with the full "Data
-  Analyst" label, shorten duplicated roadmap/comparison material, and align
-  related links with the body. Timestamp Nikola's blurred analyst/analytics
-  engineer role evidence and Juan Pablo's BI/analytics-engineering evidence.
+- The 2026-07-05 analytics-engineering transition cleanup made
+  `_wiki/data-analyst-to-analytics-engineer.md` transition-only, retitled it
+  and `_wiki/data-analyst-vs-analytics-engineer.md` with the full "Data
+  Analyst" label, shortened duplicated roadmap/comparison material, aligned
+  related links with the body, and timestamped Nikola's blurred
+  analyst/analytics-engineer role evidence plus Juan Pablo's
+  BI/analytics-engineering evidence.
 - Next data-engineering transition link cleanup from the same audit: add
   `DevOps to Data Engineering` and `Career Transitions in Data` to the
   data-engineer roadmap graph, add missing transition links to
@@ -707,6 +708,16 @@ Source hints:
   `how-to-become-a-data-engineer-with-no-experience`, and retitle
   `_wiki/data-scientist-to-data-engineer.md` from "Data Eng" to "Data
   Engineer" while keeping it transition-focused.
+- Next community boundary cleanup: trim conference/hackathon operations from
+  `_wiki/community.md`, keep organizer execution on `_wiki/community-building.md`,
+  and keep venue, CFP, sponsor, timetable, and networking details on
+  `_wiki/data-ai-conference-building.md`. Add precise Data Makers Fest anchors
+  while doing that cleanup.
+- Next weak-node graph cleanup: add low-risk body links for LLM deployment from
+  RAG, entity resolution from data-engineering portfolio projects, model
+  monitoring vs data observability from MLOps vs DevOps, and sensor ML personal
+  baselines from nontraditional AI paths. The RFM link from Data Analyst vs
+  Analytics Engineer was added in the analytics transition cleanup.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
