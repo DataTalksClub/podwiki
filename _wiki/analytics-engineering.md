@@ -59,7 +59,7 @@ joins and reconciling dashboards. Data engineers often own ingestion,
 orchestration, cloud infrastructure, and platform reliability. Analytics
 engineers work between those groups by making business-facing data reusable
 ([[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]],
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]]).
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]).
 
 The Spotify-origin story names the bottleneck directly. Analysts were spending
 too much time cleaning and quality-checking data. They also had to model data
@@ -101,10 +101,10 @@ quality checks become the product
 
 Kwong's ELT framing puts source loading before warehouse-side transformations
 for analytical users
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]].
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 When source data is already loaded, an analytics engineer can build warehouse
 transformations with SQL and dbt
-[[cite:data-engineering-tools-modern-data-stack@12:39=>Modern Data Stack episode]].
+[[cite:data-engineering-tools-modern-data-stack@12:39=>Modern Data Stack]].
 The team doesn't have to wait for engineering to change an upstream pipeline.
 The same handoff connects [[Data Engineering Platforms]], [[dbt]], and
 [[ETL vs ELT]].
@@ -131,7 +131,7 @@ belongs there. That puts the role close to [[metrics]],
 [[documentation]], and
 [[data-quality-and-observability=>data quality]]
 rather than only dashboard production
-([[cite:data-engineering-tools-modern-data-stack@31:31=>Modern Data Stack episode]],
+([[cite:data-engineering-tools-modern-data-stack@31:31=>Modern Data Stack]],
 [[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
 
 Team size can move the placement. In Tammy Liang's small-team story, early
@@ -260,7 +260,7 @@ schema evolution remain part of the same stack.
 
 Analytics engineering inherits source-system and warehouse-cost constraints from
 the full platform. Freshness plus orchestration reliability also matter
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]],
+([[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
 [[Modern Data Stack]]).
 
 Tuli's build-versus-buy discussion adds another constraint. Teams choose tools

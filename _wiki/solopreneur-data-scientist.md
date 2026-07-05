@@ -2,7 +2,7 @@
 layout: article
 tags: ["guide"]
 title: "Solopreneur Data Scientist"
-keyword: "solopreneur"
+keyword: "solopreneur data scientist"
 summary: "A guide to solo data and AI work: offers, income streams, risks, and when solopreneurship differs from freelancing."
 search_intent: "People searching for solopreneur data scientist or data AI solopreneur want a practical independent-career path: freelance and consulting offers, solo data work, teaching, writing, products, risk, and positioning."
 related_wiki:

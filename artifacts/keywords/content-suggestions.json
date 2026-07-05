@@ -6,7 +6,7 @@
       "Keyword",
       "Page URL:"
     ],
-    "rows": 0
+    "rows": []
   },
   {
     "sheet": "Competitor Gaps",
@@ -14,13 +14,13 @@
       "Opportunity",
       "Keyword"
     ],
-    "rows": 0
+    "rows": []
   },
   {
     "sheet": "Code Fix",
     "headers": [
       "Opportunity"
     ],
-    "rows": 0
+    "rows": []
   }
 ]

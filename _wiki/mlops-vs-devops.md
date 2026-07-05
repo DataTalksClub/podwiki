@@ -2,7 +2,7 @@
 layout: article
 tags: ["comparison"]
 title: "MLOps vs DevOps Practices"
-keyword: "mlops vs devops"
+keyword: "mlops devops practices"
 summary: "Which DevOps practices transfer to ML, where model lifecycle risks begin, and how teams split delivery, monitoring, and ownership."
 related_wiki:
   - MLOps

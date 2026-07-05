@@ -40,7 +40,7 @@ Intake is a decision system, not a ticket queue where every dashboard or model
 automatically becomes delivery work. In Mesionis's easyJet model, the data team
 works weekly with Digital, Customer, and Marketing stakeholders. That contact
 gives the team business, channel, and metric context before work enters the
-formal product funnel[[cite:building-data-products-lead-data-scientist]].
+formal product funnel[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 [[person:boyanangelov=>Boyan Angelov]] gives the
 strategy-side version of the same funnel.
@@ -57,7 +57,7 @@ feasibility path.
 
 Business problems and ideas enter through one formal route. Business analysts,
 finance, data science, and engineering join the kickoff. The group checks for a
-real opportunity and compares the request with other ideas[[cite:building-data-products-lead-data-scientist]].
+real opportunity and compares the request with other ideas[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 That makes intake a prioritization mechanism for
 [[data science project management]],
 not only a form.
@@ -94,7 +94,7 @@ decision, or operations review.
 The guests agree that intake needs business context, but they focus on
 different failure modes. Mesionis focuses on lifecycle control. His intake
 model protects the team from moving into technical work before the problem,
-benefits, baseline, and production meaning are agreed[[cite:building-data-products-lead-data-scientist]].
+benefits, baseline, and production meaning are agreed[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 Moorman focuses on whether the request will produce adoption. She warns that
 technical availability is only table stakes, because users still need to find,
@@ -102,7 +102,7 @@ understand, and trust the product. They also need to use it in their decision
 process.
 
 Users won't adopt a data product when its cost exceeds its perceived
-benefit[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+benefit[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]].
 That shifts prioritization toward high-value decisions and low-friction
 interfaces.
 
@@ -113,21 +113,21 @@ resistant owner first can turn intake into change management before the team has
 proof that the product helps.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
 
-Lior Barak focuses on translation and proof[[cite:data-translator-role-and-data-strategy]].
-Data people should sit with business users and see their workflow[[cite:data-translator-role-and-data-strategy]].
-Small automations or prototypes can come before heavier development[[cite:data-translator-role-and-data-strategy]].
+Lior Barak focuses on translation and proof[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
+Data people should sit with business users and see their workflow[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
+Small automations or prototypes can come before heavier development[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
 A quick MVP can prove the problem and create business
-ownership[[cite:data-translator-role-and-data-strategy]].
+ownership[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
 His version gives teams more room to validate a request with temporary work
 before it becomes a formal product commitment.
 
 ## Single-Front-Door Intake
 
-A single-front-door intake route gives data teams one path for new ideas[[cite:building-data-products-lead-data-scientist]].
+A single-front-door intake route gives data teams one path for new ideas[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 In Mesionis's operating model, the team first clarifies the problem
-statement[[cite:building-data-products-lead-data-scientist]].
+statement[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 A cross-functional group then reviews the request against other candidate
-work[[cite:building-data-products-lead-data-scientist]].
+work[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 The front door reduces random priority changes because stakeholders see how
 finance, business analysis, data science, and engineering evaluate the same
 request.
@@ -135,11 +135,11 @@ request.
 The front door also works only if the team has regular contact with the
 business before the request is written. Mesionis joins weekly stakeholder
 meetings and learns departmental goals. He also observes how people make
-decisions[[cite:building-data-products-lead-data-scientist]].
+decisions[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 Barak makes the same point from the translator role. Data engineers can sit
 with business teams for a day or two and find operational friction that a
-ticket may hide. Analysts and data scientists can do the same[[cite:data-translator-role-and-data-strategy]].
+ticket may hide. Analysts and data scientists can do the same[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
 The strongest intake systems combine a clear formal route with embedded
 discovery.
 
@@ -154,7 +154,7 @@ testable product idea instead of a vague request.
 The team needs a Definition of Done before it chooses a solution. Mesionis
 describes a short template that captures the product and production meaning. The
 template names which business KPIs should move. It also defines how benefits
-will be measured[[cite:building-data-products-lead-data-scientist]].
+will be measured[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 At this stage, the team captures the "what" of the product, not the "how."
 
 This distinction keeps [[evaluation]]
@@ -163,11 +163,11 @@ or model needs the same test. The team must know how to judge whether the
 output is good.
 
 Mesionis puts KPI work in the Definition of Done before data science begins. The
-team also records success criteria and fail-fast checks there[[cite:building-data-products-lead-data-scientist]].
+team also records success criteria and fail-fast checks there[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 For product-facing work, Moorman adds that the KPI framing should match the
 decision. In her A/B testing example, the reporting product should help a
 product manager decide whether to roll out a feature. The report should also
-show business impact instead of only statistical output[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+show business impact instead of only statistical output[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]].
 
 Decision-first KPI framing should include the unit the decision-maker needs.
 For an experiment result, dollars or rollout confidence may matter more than a
@@ -180,11 +180,11 @@ transformation work, and the final interface from the beginning.
 After stakeholders sign off on the Definition of Done, Mesionis moves the work
 into inception. This is where exploratory data analysis starts. The team checks
 data access, data presence, and distributions. It also reviews GDPR concerns,
-constraints, and feasibility[[cite:building-data-products-lead-data-scientist]].
+constraints, and feasibility[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 The team can still stop the work if the data isn't available or the request
 isn't feasible. Mesionis calls this a fail-fast scenario, where the team doesn't
-continue and moves to the next prioritized idea[[cite:building-data-products-lead-data-scientist]].
+continue and moves to the next prioritized idea[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 Boyan's scope-creep example shows why the feasibility gate has to include target
 architecture. Adding text data to a churn use case can require new storage,
@@ -206,7 +206,7 @@ defined production state. Those checks place intake next to
 Moorman gives the adoption-side version of saying no. The team should treat
 unused products as user research because users may not know they exist or how to
 use them.
-They may also find that it doesn't solve their real problem[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+They may also find that it doesn't solve their real problem[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]].
 That feedback can send a request back to discovery instead of pushing more
 engineering into the wrong interface.
 
@@ -217,7 +217,7 @@ hybrid team, or a lightweight prototype. Mesionis says the inception phase is
 where analysts and data scientists discuss the "how." They confirm whether the
 work is a data science project, an analytics project, or a hybrid. Even when
 the technical lead changes from data scientist to analyst, he keeps
-end-to-end accountability for delivery[[cite:building-data-products-lead-data-scientist]].
+end-to-end accountability for delivery[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 Some intake systems also need a lane for ideas that are too large or uncertain
 for the normal quarterly queue. Three-month OKRs are useful for incremental data
@@ -243,7 +243,7 @@ spreadsheet to prove value. They can also use rough code before transferring
 the work to a production owner.
 
 The prototype isn't the final product. It proves the use case and creates
-ownership for later rebuilds or improvements[[cite:data-translator-role-and-data-strategy]].
+ownership for later rebuilds or improvements[[cite:data-translator-role-and-data-strategy=>Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth]].
 This keeps prioritization from treating every useful idea as a six-month build.
 
 Barak adds a timebox rule to that choice: prove value in roughly one or two
@@ -258,11 +258,11 @@ Mesionis's pilot phase tests the new product against the baseline defined
 earlier. The team compares the current "as-is" process with the future "to-be"
 process. It often uses [[a-b-testing=>A/B testing]]
 to check whether the product improves the KPI of interest. Stakeholder feedback
-can trigger another pilot iteration[[cite:building-data-products-lead-data-scientist]].
+can trigger another pilot iteration[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 
 Production can mean Tableau insights or external-tool predictions. It can also
-mean a fuller [[MLOps]] path with monitoring[[cite:building-data-products-lead-data-scientist]].
-Mesionis rolls out more broadly only after the pilot beats the baseline[[cite:building-data-products-lead-data-scientist]].
+mean a fuller [[MLOps]] path with monitoring[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
+Mesionis rolls out more broadly only after the pilot beats the baseline[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale: Intake, A/B Testing, and MLOps in a Marketing Organization]].
 That handoff links intake to [[model monitoring]],
 [[business intelligence]],
 and [[analytics engineering]],
@@ -271,7 +271,7 @@ depending on the product form.
 Moorman's last-mile advice adds a second rollout test. The product must enter
 the actual decision meeting or workflow. She recommends low-fidelity sketches,
 whiteboards, and fast feedback. Stakeholders give better input before the team
-over-invests in a polished interface[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+over-invests in a polished interface[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]].
 
 For intake, that means a pilot isn't only a technical validation. It's also a
 behavioral validation of whether the product changes a decision.

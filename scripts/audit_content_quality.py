@@ -70,9 +70,10 @@ STRICT_PAGE_META_RE = re.compile(
 GENERIC_CITATION_LABEL_RE = re.compile(
     r"\[\[cite:[^\]]*=>"
     r"(?:role episode|foundations episode|marketing transition episode|modern stack episode|"
-    r"episode|podcast episode|interview|conversation)\]\]",
+    r"episode|podcast episode|interview|conversation|[^]]+\s+episode)\]\]",
     re.IGNORECASE,
 )
+MISSING_CITATION_LABEL_RE = re.compile(r"\[\[cite:[^\]=>]+\]\]", re.IGNORECASE)
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
 RAW_RELATIVE_URL_RE = re.compile(r"relative_url")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
@@ -177,6 +178,7 @@ def audit_file(
         source_scaffolding.extend(STRICT_SOURCE_SCAFFOLDING_RE.findall(source_text))
         source_scaffolding.extend(STRICT_PAGE_META_RE.findall(source_text))
     generic_citation_labels = GENERIC_CITATION_LABEL_RE.findall(body)
+    missing_citation_labels = MISSING_CITATION_LABEL_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
     old_timestamped_podcast = len(OLD_TIMESTAMPED_PODCAST_RE.findall(body))
     visible_timestamp_prose = len(VISIBLE_TIMESTAMP_PROSE_RE.findall(body))
@@ -208,6 +210,7 @@ def audit_file(
     )
     score += len(source_scaffolding) * 2
     score += len(generic_citation_labels) * 3
+    score += len(missing_citation_labels) * 3
     if is_public_content and links["podcasts"] == 0:
         score += 5
     return {
@@ -217,6 +220,7 @@ def audit_file(
         "archive_scaffolding": len(archive_scaffolding),
         "source_scaffolding": len(source_scaffolding),
         "generic_citation_labels": len(generic_citation_labels),
+        "missing_citation_labels": len(missing_citation_labels),
         "old_timestamped_podcast": old_timestamped_podcast,
         "visible_timestamp_prose": visible_timestamp_prose,
         "podcast_label_timestamps": podcast_label_timestamps,
@@ -262,6 +266,7 @@ def main() -> None:
             or row["archive_scaffolding"]
             or row["source_scaffolding"]
             or row["generic_citation_labels"]
+            or row["missing_citation_labels"]
             or row["old_timestamped_podcast"]
             or row["visible_timestamp_prose"]
             or row["podcast_label_timestamps"]
@@ -279,6 +284,7 @@ def main() -> None:
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
     print(f"source_scaffolding: {sum(int(row['source_scaffolding']) for row in rows)}")
     print(f"generic_citation_labels: {sum(int(row['generic_citation_labels']) for row in rows)}")
+    print(f"missing_citation_labels: {sum(int(row['missing_citation_labels']) for row in rows)}")
     print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
     print(f"visible_timestamp_prose: {sum(int(row['visible_timestamp_prose']) for row in rows)}")
     print(f"podcast_label_timestamps: {sum(int(row['podcast_label_timestamps']) for row in rows)}")
@@ -295,6 +301,7 @@ def main() -> None:
             f"archive_scaffolding={row['archive_scaffolding']} "
             f"source_scaffolding={row['source_scaffolding']} "
             f"generic_citation_labels={row['generic_citation_labels']} "
+            f"missing_citation_labels={row['missing_citation_labels']} "
             f"old_podcast_ts={row['old_timestamped_podcast']} "
             f"visible_ts={row['visible_timestamp_prose']} "
             f"podcast_label_ts={row['podcast_label_timestamps']} "

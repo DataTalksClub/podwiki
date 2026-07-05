@@ -36,7 +36,7 @@
       "url": "/wiki/ai-tools-for-personal-productivity/",
       "count": 1,
       "search": "AI Tools Workflow Guide How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks.",
-      "keyword": "ai tools for personal productivity"
+      "keyword": "ai tools workflow guide"
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -355,7 +355,7 @@
       "url": "/wiki/dataops-tools/",
       "count": 1,
       "search": "DataOps Tools Guide A guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, and recovery.",
-      "keyword": "dataops tools"
+      "keyword": "dataops tool categories"
     },
     {
       "id": "wiki:dataops-vs-data-engineering",
@@ -366,7 +366,7 @@
       "url": "/wiki/dataops-vs-data-engineering/",
       "count": 1,
       "search": "DataOps vs Data Engineering Comparison of day to day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover.",
-      "keyword": "dataops vs data engineering"
+      "keyword": "dataops ownership vs data engineering"
     },
     {
       "id": "wiki:delta-lake-vs-apache-iceberg",
@@ -652,7 +652,7 @@
       "url": "/wiki/mlops-vs-devops/",
       "count": 1,
       "search": "MLOps vs DevOps Practices Which DevOps practices transfer to ML, where model lifecycle risks begin, and how teams split delivery, monitoring, and ownership.",
-      "keyword": "mlops vs devops"
+      "keyword": "mlops devops practices"
     },
     {
       "id": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -839,7 +839,7 @@
       "url": "/wiki/solopreneur-data-scientist/",
       "count": 1,
       "search": "Solopreneur Data Scientist A guide to solo data and AI work: offers, income streams, risks, and when solopreneurship differs from freelancing.",
-      "keyword": "solopreneur"
+      "keyword": "solopreneur data scientist"
     },
     {
       "id": "wiki:vector-database-vs-search-engine",

@@ -97,7 +97,7 @@ and [[vector databases]].
 That view extends from models to shipped products. It links deep learning and
 autonomous driving to a full-stack AI engineering skill stack. It also connects
 RAG, knowledge management, shipping pillars, and portfolio work
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Paul's AI engineering episode]]).
+([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Paul's AI engineering]]).
 Neural-network skill gains value when it comes with software delivery, product
 ownership, and measurable behavior.
 

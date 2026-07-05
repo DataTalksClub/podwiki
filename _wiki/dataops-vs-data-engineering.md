@@ -2,7 +2,7 @@
 layout: article
 tags: ["comparison"]
 title: "DataOps vs Data Engineering"
-keyword: "dataops vs data engineering"
+keyword: "dataops ownership vs data engineering"
 summary: "Comparison of day-to-day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover."
 related_wiki:
   - DataOps
@@ -20,7 +20,7 @@ related_wiki:
 ---
 
 Compare the roles by splitting data-path building from data-change operations.
-For the broader plain-language definition, see the DataTalks.Club article
+For the broader plain-language definition, see the DataTalks.Club page
 [DataOps Compared with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
 The narrow split is practical. Data engineering changes the data path, while
 DataOps makes those changes safer to review and run. DataOps also makes them

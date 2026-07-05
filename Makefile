@@ -1,7 +1,7 @@
 RUSTKYLL_PYPI_VERSION ?= 0.5.1
 RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
 
-.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap clean check
+.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -67,3 +67,6 @@ clean: ## Remove generated build artifacts
 
 keyword-gap: ## Cluster an Ubersuggest CSV and find groundable, non-overlapping gaps
 	python scripts/keyword_gap.py $(CSV)
+
+keyword-artifacts: ## Refresh machine-readable keyword and suggestion artifacts
+	python scripts/build_keyword_artifacts.py

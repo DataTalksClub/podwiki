@@ -2,7 +2,7 @@
 layout: article
 tags: ["guide"]
 title: "DataOps Tools Guide"
-keyword: "dataops tools"
+keyword: "dataops tool categories"
 summary: "A guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, and recovery."
 related_wiki:
   - DataOps

@@ -201,7 +201,7 @@ Use distribution checks where bad values can silently change a metric:
    definition.
 
 Uncommon data can be intentional
-[[cite:data-quality-data-observability-data-reliability]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained: 5 Pillars to Prevent Downtime, Drift & False Positives]].
 Context still matters before a model or customer workflow uses it.
 Treat distribution checks as review triggers when business context matters and
 as hard failures when the value is impossible.

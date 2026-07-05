@@ -498,7 +498,7 @@ as the review bar.
 Weeks 5-6 cover storage in a warehouse, lake, or local analytical database.
 Create raw, staging, modeled, and serving layers. Add a data dictionary and
 document table grain. Natalie Kwong's
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT episode]]
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT]]
 is the stack vocabulary for this stage.
 
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,

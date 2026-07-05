@@ -204,7 +204,7 @@ define success metrics, then choose a baseline before explaining labels and
 features. Add validation, monitoring, and fallback behavior. For that branch,
 use the more focused
 [[Machine Learning System Design Interview]]
-article and the
+page and the
 [[Machine Learning System Design]]
 wiki page.
 

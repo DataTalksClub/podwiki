@@ -199,7 +199,7 @@ incident signals.
 
 Career episodes connect SQL reporting and Docker to data engineering practice.
 They also include Airflow, AWS, and data quality checks. A BI platform rebuild
-saved money. It also created a centralized source of truth.[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job episode]]
+saved money. It also created a centralized source of truth.[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job]]
 This ties warehouse work to practical reliability, not only architecture
 diagrams.
 

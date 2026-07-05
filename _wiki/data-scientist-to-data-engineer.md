@@ -244,13 +244,13 @@ analytics engineering episode is useful for the middle path because it covers
 data modeling and pipelines. It also covers data quality, Looker, and dbt.
 Version control, tests, DAGs, and cross-functional work round out the
 discussion
-([[cite:analytics-engineer-skills-tools=>analytics engineering episode]]).
+([[cite:analytics-engineer-skills-tools=>analytics engineering]]).
 [[person:mehdiouazza=>Mehdi OUAZZA]]'s
 scaling data engineering episode is useful for the platform path because it
 covers self-service conventions, schemas, and playbooks. It also covers
 onboarding, monitoring, and the balance between platform work and use-case
 pipelines
-([[cite:scaling-data-engineering-teams-self-service-platforms=>scaling data engineering episode]]).
+([[cite:scaling-data-engineering-teams-self-service-platforms=>scaling data engineering]]).
 
 ## Interview Story
 

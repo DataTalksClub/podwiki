@@ -83,7 +83,7 @@ incremental strategies.[[cite:from-marketing-to-analytics-engineering-sql-dbt-ca
 At platform scale, fixed target models can become too tightly coupled as use
 cases grow. Teams may keep traditional and flat models alongside lineage, a
 data lake, and consumer-facing exposure paths.
-[[cite:data-engineering-leadership-and-modern-data-platforms=>data engineering leadership episode]]
+[[cite:data-engineering-leadership-and-modern-data-platforms=>data engineering leadership]]
 
 ## Tool Boundaries
 
@@ -105,7 +105,7 @@ Airflow can run Airbyte jobs, but it isn't the transformation layer.
 
 Airflow, Prefect, or another orchestrator may coordinate the work. Ingestion
 engines, warehouses, dbt, and modeling tools still own the work they run.
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture episode]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture]]
 
 The tool boundary widens when dbt sits next to newer workflow options and open
 table formats. It also sits next to catalogs, metadata, and lineage.
@@ -137,24 +137,24 @@ and downstream marts.
 
 Quality checks belong both before and after loading. Ingestion tools may
 deduplicate, enforce ordering, and apply PII masking before data reaches
-Snowflake or another destination.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture episode]]
+Snowflake or another destination.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture]]
 
 Teams separate ingestion hygiene from business transformation. Deduplication
 and ordering guarantees can happen near ingestion, and masking can happen there
 too. Business modeling happens later with warehouse entities and use cases.
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture episode]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture]]
 
 Warehouse-side dbt tests can query for nulls and duplicate records. They can
 also check ranges before dependent models build. The same test layer can catch
 bad source data.
-[[cite:analytics-engineer-skills-tools=>analytics engineering episode]]
+[[cite:analytics-engineer-skills-tools=>analytics engineering]]
 Analytics engineering work also has to handle bad data, schema changes, and
-raw-input limits.[[cite:analytics-engineer-skills-tools=>analytics engineering episode]]
+raw-input limits.[[cite:analytics-engineer-skills-tools=>analytics engineering]]
 
 Platform teams may track data quality metrics, reconcile source counts against
 warehouse or lake targets, and use dynamic data masking with role-based access.
 They also maintain lineage when raw and modeled data changes.
-[[cite:data-engineering-leadership-and-modern-data-platforms=>data engineering leadership episode]]
+[[cite:data-engineering-leadership-and-modern-data-platforms=>data engineering leadership]]
 
 These controls put ELT close to [[DataOps]]
 because teams need versioned code, tests, lineage, and observability. They also
@@ -170,13 +170,13 @@ transformations can be written in SQL after data is already in the warehouse.
 Daily analytics engineering work still requires data modeling and pipeline
 awareness. It also requires data quality work and Looker modeling. dbt tests
 and collaboration with backend and data engineering teams matter too.
-[[cite:analytics-engineer-skills-tools=>analytics engineering episode]]
+[[cite:analytics-engineer-skills-tools=>analytics engineering]]
 
 dbt influenced analytics engineering, but the role extends beyond tool work.
 Analytics engineers also need to understand data model architecture and
 business domains. They need to connect the models to KPIs. Table design and
 incrementalization choices matter too.
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>marketing-to-analytics episode]]
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>marketing-to-analytics]]
 
 Whether teams use dbt or a homegrown SQL runner, the same modeling questions
 still apply. Another warehouse modeling layer faces those questions too.
@@ -194,4 +194,4 @@ and data mart boundaries.[[cite:data-engineering-tools-modern-data-stack=>Modern
 Teams make a load-first stack useful through daily [[analytics engineering]]
 work. They maintain models and tests, and they coordinate DAGs and
 collaboration. The acronym alone doesn't make it useful.
-[[cite:analytics-engineer-skills-tools=>analytics engineering episode]]
+[[cite:analytics-engineer-skills-tools=>analytics engineering]]

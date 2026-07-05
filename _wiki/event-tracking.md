@@ -114,7 +114,7 @@ matters for event-heavy teams.
 Jakob's A/B testing discussion adds a stricter measurement standard through
 randomization and assignment tracking. He also covers monitoring, stable
 metrics, power analysis, and distribution checks
-([[cite:ab-testing-and-product-experimentation=>A/B testing episode]]).
+([[cite:ab-testing-and-product-experimentation=>A/B testing]]).
 Ordinary event tracking can tell a team what users did. Experimentation adds
 runtime requirements for assignment, exposure, outcome, and segment events that
 stay stable enough to support causal claims. For the broader measurement topic,
