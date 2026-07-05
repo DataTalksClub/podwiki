@@ -331,7 +331,8 @@ responsibilities across several people.
 
 For career changers, prior work should become role evidence.
 [[person:ksenialegostay=>Ksenia Legostay]]
-turned project management and KPI work into data science evidence in
+turned project management and KPI work into
+[[project-manager-to-data-science=>project manager to data science]] evidence in
 [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 Nikola Maksimovic turned marketing funnels and reporting into analytics
 engineering evidence. [[person:svpino=>Santiago Valdarrama]]

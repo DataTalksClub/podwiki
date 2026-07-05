@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12257
+    "links": 12269
   },
   "nodes": [
     {
@@ -41630,6 +41630,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -42495,6 +42501,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:product-analytics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -44054,6 +44066,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
       "kind": "wiki-chip",
       "weight": 1
@@ -44207,6 +44225,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-interview",
@@ -44961,6 +44985,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:salary-negotiation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51710,6 +51740,18 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "wiki:reinforcement-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -53709,6 +53751,12 @@
     {
       "source": "wiki:freelance-data-and-ml-careers",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:salary-negotiation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66494,6 +66542,12 @@
     },
     {
       "source": "wiki:ml-product-manager-role",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -75356,6 +75410,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -75693,6 +75753,12 @@
     {
       "source": "wiki:production-search-evaluation",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:rag-evaluation-workflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77135,6 +77201,12 @@
       "target": "wiki:prompt-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:rag-vs-fine-tuning",

@@ -71,6 +71,9 @@ responsibilities. They should also ask about infrastructure, analytics support,
 and data engineering support [[cite:data-science-job-red-flags-and-mismatched-roles=>DS Job Red Flags]].
 A data scientist title can hide analytics work, platform work, a first-data-hire
 job, or an undefined mix.
+That ambiguity also affects [[salary-negotiation=>salary negotiation]], because
+the candidate has to compare compensation against the actual scope, not the
+title alone.
 
 In B2B SaaS the same broad data function may split into product analysts,
 analytics engineers, marketing scientists, and data scientists. The exact
@@ -194,6 +197,8 @@ candidates who can explain projects through a use case and industry context.
 Clear business impact matters too [[cite:get-data-scientist-job=>DS Roles]].
 That's why [[data-science-recruiter=>data science recruiter]] belongs near
 portfolio proof rather than only near offer negotiation.
+When the role expectation is clear, that same proof can support
+[[salary-negotiation=>salary negotiation]] at the offer stage.
 
 Data scientists also need to explain data science value to stakeholders. That
 matters especially when the audience doesn't care about model details until the

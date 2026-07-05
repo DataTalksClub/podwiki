@@ -96,6 +96,11 @@ LLM evaluation depends on the task. Classification-like use cases can still use
 labels and accuracy-style metrics. Generative use cases need examples plus
 rubric checks and human review. They need failure analysis too because the
 output can be fluent and wrong at the same time.
+
+For chatbots, that failure analysis extends into
+[[prompt-injection-and-chatbot-risk-management=>prompt injection and chatbot risk management]]
+when users can steer the model. It also applies when the model can trigger
+unsafe answers or expose retrieved content.
 Teams may add generated examples through [[Synthetic Data]]. Evaluation also has
 to show that the augmented data helps the real task rather than only the
 training set.[[cite:data-centric-ai=>Data-Centric AI]]
@@ -112,7 +117,9 @@ RAG evaluation adds retrieval to the problem because the system combines
 retrieval, augmentation, and generation. Prompt design and citations become part
 of the quality check too. Teams evaluate RAG with offline tests and human
 review[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Evaluation connects RAG to
+The [[rag-evaluation-workflow=>RAG evaluation workflow]] separates those checks
+so teams can debug retrieval, context, answer quality, and review loops before
+changing the model. Evaluation connects RAG to
 [[retrieval-augmented-generation=>retrieval-augmented generation]], [[search]],
 [[embeddings]], and [[vector databases]].
 

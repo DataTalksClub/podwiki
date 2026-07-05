@@ -224,7 +224,8 @@ generative AI chatbot work. She covers chatbot attacks, hallucinations, data
 exfiltration. She also covers output validation, query analysis, and layered
 defenses.
 Production readiness for a chatbot includes
-[[AI red teaming]] and human review.
+[[AI red teaming]], human review, and
+[[prompt-injection-and-chatbot-risk-management=>prompt injection and chatbot risk management]].
 [[Responsible AI and governance]]
 also belongs here when the system can influence customer, employee, or
 compliance outcomes

@@ -98,12 +98,16 @@ keeps new-technology experiments on his own time. He uses tutorials and small
 rebuilds to learn tools such as DuckDB. He also prefers something that works
 over a perfect solution that may never arrive.
 
-Antonis adds a side-project version of the same tradeoff. He used Upwork while
-holding a startup job, so he selected shorter projects and priced against the
-value of his non-client time. He treated low-paid work differently when it
-offered useful new skills. Freelancing was a learning channel, but the startup
-salary and time limits still shaped his project choices
+Antonis adds a side-project version of the same tradeoff through Upwork while
+holding a startup job. He chose shorter projects and priced them against
+non-client time. He treated low-paid work differently when it offered useful new
+skills. Freelancing was a learning channel but the startup salary and time
+limits still shaped his project choices
 ([[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]).
+
+That comparison makes [[salary-negotiation=>salary negotiation]] relevant even
+when the work is freelance. Opportunity cost from paid employment sets the
+baseline rather than just an hourly rate.
 
 In [[career growth]], that means
 keeping a broad view of possible tools without making the client pay for

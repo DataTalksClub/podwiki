@@ -38,6 +38,9 @@ governance approvals, and user trust affect measurement and adoption.[[cite:ml-p
 Use
 [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
 when those data and adoption constraints change ordinary PM work.
+Use [[product-owner-vs-product-manager=>product owner vs product manager]]
+when the question is whether the team needs product direction or release
+authority.
 
 The strategic version turns business planning into researchable ML use cases.
 The PM translates problems across users, executives, researchers, and

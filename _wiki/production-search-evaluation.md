@@ -96,6 +96,8 @@ hide the fix when retrieval and ranking failures are mixed together.
 A RAG chatbot may answer badly for the same layered reasons. The retriever may
 find the wrong chunks, the prompt may use them poorly, or the model may invent
 unsupported text. Offline tests and human review keep those checks separate.
+The [[rag-evaluation-workflow=>RAG evaluation workflow]] turns that split into a
+repeatable review path for retrieval, prompt context, citations, and answers.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 ## Segment and Hybrid Checks
@@ -126,6 +128,8 @@ and human review complete the evaluation.
 The same evaluation boundary appears in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[LLM
 Evaluation Workflows]].
+The [[rag-evaluation-workflow=>RAG evaluation workflow]] is the more specific
+page for that boundary when the product depends on retrieved evidence.
 The retrieval layer should be judged on evidence coverage and citation
 usefulness. The answer layer should be judged on correctness, support from the
 retrieved context, and refusal behavior. Formatting and user feedback belong in

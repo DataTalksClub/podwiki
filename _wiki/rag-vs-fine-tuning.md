@@ -161,6 +161,9 @@ An evaluation workflow uses representative gold tests, logs, and traces. Failure
 analysis then sorts errors into retrieval, generation, formatting, or data
 preparation. If the wrong chunks were retrieved, model fine-tuning isn't the
 first fix[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Use the [[rag-evaluation-workflow=>RAG evaluation workflow]] when that failure
+analysis needs a repeatable check across retrieval, context, citations, and
+answer quality.
 
 Noisy context, metadata limits, and chunk choices affect retrieval quality, so
 context design belongs in retrieval

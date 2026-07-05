@@ -76,9 +76,13 @@ Candidates should only present models and methods they can defend. Side projects
 can show impact through technical gains or user value, but they shouldn't
 pretend to have corporate revenue impact.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
-For career transitions, public work can prove practice over time. Kaggle
-notebooks, GitHub, and public projects give stronger evidence than a CV claim
-such as knowing Python.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]]
+Public work can prove practice over time during career transitions. Kaggle
+notebooks and GitHub give stronger evidence than a CV claim such as knowing
+Python. Public projects show applied practice outside a course.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
+The [[project-manager-to-data-science=>project manager to data science]] route
+also needs evidence from stakeholder work. KPI ownership and analysis practice
+matter before the candidate presents a data scientist title. That transition
+should make the project-management evidence visible on the CV.[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]]
 
 ## Screening Fit
 

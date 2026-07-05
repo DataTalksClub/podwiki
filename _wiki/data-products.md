@@ -108,7 +108,10 @@ Data Delivery]].
 science. In her framing, product owners and product managers make different
 tradeoffs. ML-heavy products such as recommender systems or markdown models
 need domain ownership and portfolio decisions, plus model-quality and
-operating-cost judgment.
+operating-cost judgment. Use
+[[product-owner-vs-product-manager=>product owner vs product manager]] when
+the team needs to separate delivery-owner authority from data-product
+ownership.
 
 That same ownership question shows up in
 [[machine-learning-personalization=>machine learning personalization]]. The
@@ -174,9 +177,12 @@ protect delivery and make tactical release tradeoffs. A product manager may own
 broader strategy and problem selection. A domain owner may coordinate data
 science work across product and business areas
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
-Products at Scale]]. The broader [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
+Products at Scale]].
+
+The broader [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
 comparison separates that strategic product judgment from general product
-management.
+management. [[product-owner-vs-product-manager=>product owner vs product manager]]
+keeps the release-authority split explicit.
 
 ## Platform Implications
 
