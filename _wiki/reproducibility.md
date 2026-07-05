@@ -139,12 +139,14 @@ project-management choices. Those choices matter before they enter industry
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 The research-to-production bridge matters too. Researchers use notebooks,
-benchmarks, and tools such as Weights & Biases to validate hypotheses. That
-contrasts with the ML engineer's responsibility for deployment, uptime, and
+benchmarks, and tools such as Weights & Biases to validate hypotheses. Use the
+[[notebook-to-production-workflow=>notebook-to-production workflow]]
+to turn that handoff into reusable code, deployment boundaries, and monitoring.
+
+That contrasts with the ML engineer's responsibility for deployment, uptime, and
 monitoring. It also includes Docker, cloud infrastructure, and web services.
-Reproducibility
-improves when researchers learn engineering fundamentals and engineers learn how
-to reproduce models and track experiments
+Reproducibility improves when researchers learn engineering fundamentals and
+engineers learn how to reproduce models and track experiments
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
 
 [[Metaflow]] gives a workflow-tooling example for this bridge. Its sandboxes and
@@ -187,6 +189,9 @@ application to fail after it fetched a newer API. Pinning versions isn't
 ceremony there because it prevents a future run from silently becoming a
 different run
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+
+For the reviewable infrastructure side of that work, see
+[[gitops-for-data-teams=>GitOps for data teams]].
 
 ## MLOps and Platforms
 

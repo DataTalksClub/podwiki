@@ -91,12 +91,20 @@ job finished.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Testing becomes more useful when it runs automatically. DataOps ties safe
 change to regression tests and automated deployment. It also relies on realistic
-test data, monitoring, infrastructure as code, and test environments. Git alone
-isn't enough when a team needs end-to-end confidence before production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+test data, monitoring, infrastructure as code, and test environments.
+
+Git alone isn't enough when a team needs end-to-end confidence before production.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+When the tested change includes infrastructure or access,
+[[gitops-for-data-teams=>GitOps for data teams]] adds the branch-plan-review
+path around those checks.
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]]
 
 Teams can use dbt tests, Great Expectations, SQL checks, and other strategies
 that fit the pipeline. The exact tool matters less than proving a change with
-data before relying on it downstream.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+data before relying on it downstream. Use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]] for the
+pipeline-specific version of those gates.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 Testing belongs beside [[ci-cd=>CI/CD]] and [[reproducibility]] because a data
 or ML release has to preserve code, data, artifacts, and tests. It also has to

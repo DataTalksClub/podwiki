@@ -19,12 +19,16 @@ losing reproducibility, ownership, or observability. It should show the problem
 framing and baseline from
 [[Machine Learning Portfolio Projects]].
 
-Use [[Notebook to Production Workflow]] for the broader handoff sequence. This
-checklist adds the [[MLOps]] evidence that
+Use
+[[notebook-to-production-workflow=>notebook-to-production workflow]]
+for the broader handoff sequence. This checklist adds the [[MLOps]] evidence that
 matters for [[ML platforms]] and
 [[machine-learning-engineer-role=>machine learning engineering]].
 That evidence includes tracked runs and artifact promotion. It also includes
 deployment, monitoring, and a rollback or retraining rule.
+For data scientists using a production project to cross into that role, pair
+this checklist with
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 
 This checklist fits the broader
 [[Portfolio Projects]] hub when the project is meant to prove production

@@ -139,7 +139,8 @@ connects that choice to indexing documents and grounding answers.
 A vector database stores and retrieves the embedded candidates, but the
 application still chooses sources and applies metadata filters. It also reranks
 results, writes citations, and evaluates the answer with
-[[LLM evaluation workflows]].
+[[LLM evaluation workflows]] and a
+[[rag-evaluation-workflow=>RAG evaluation workflow]].
 
 In [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 retrieval fits changing facts and source-backed answers while fine-tuning fits

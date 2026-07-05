@@ -141,6 +141,11 @@ examples. Search systems, recommenders, and model-backed features fit the same
 path. You need Python, ML fundamentals, data work, and evaluation. You also
 need deployment, monitoring, and system design.
 
+Data scientists aiming at the same target role can use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+for the adjacent transition. That path moves from modeling ownership into
+serving and runtime ownership.
+
 Target [[MLOps]] or ML platform engineering
 if you prefer shared infrastructure and reproducibility. You also work with
 CI/CD, experiment tracking, model registries, and deployment paths. Developer

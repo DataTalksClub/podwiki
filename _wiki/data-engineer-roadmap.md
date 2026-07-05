@@ -306,7 +306,9 @@ structure, and reviewer signals.
 If your main problem is missing commercial experience, use
 [[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
 for outside review and volunteer work. It also covers open-source evidence and
-CV language.
+CV language. [[volunteer-data-engineering-projects=>Volunteer data engineering projects]]
+cover the version where a nonprofit or open-source task becomes reviewable
+engineering evidence.
 For documentation and screening context, use [[Documentation]] and
 [[CV Screening]].
 

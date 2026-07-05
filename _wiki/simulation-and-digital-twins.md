@@ -30,6 +30,10 @@ designs, measurements, and releases. That puts the topic near [[Synthetic Data]]
 [[Graph Data Science]], [[Knowledge Graph vs Vector Search]], and [[Machine
 Learning System Design]].
 
+It also makes simulation part of
+[[industrial-ml-applications=>industrial ML applications]] when the simulated
+record has to stay tied to sensors, hardware, and operating decisions.
+
 ## Simulation Basics
 
 Finite element analysis divides systems into elements and uses material models
@@ -189,8 +193,10 @@ safety cases, and production rollout.
 
 Industrial machine data shows the consulting version. The useful representation
 starts with sensor meaning and machine interactions. Logs have to connect to the
-client's problem. Automation makes sense after the team understands what the
-machine data means and which decision the analysis supports.
+client's problem. This is the same
+[[industrial-ml-applications=>industrial ML applications]] boundary as other
+physical-system projects. Automation makes sense after the team understands what
+the machine data means and which decision the analysis supports.
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
 That same data-first boundary appears in

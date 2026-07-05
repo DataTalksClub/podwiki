@@ -129,6 +129,7 @@ The exact tools can vary, but infrastructure should stay declarative and
 reviewable. It should also stay reproducible and auditable.
 
 For data teams, that GitOps way of working belongs with
+[[gitops-for-data-teams=>GitOps for data teams]],
 [[ci-cd=>CI/CD]] and
 [[platform engineering]].
 Data teams need a paved path for changes, not a private script on someone's
@@ -211,7 +212,8 @@ dbt tests, Great Expectations, and SQL tests all appear as options.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 The durable point isn't that every team needs the same framework. Tests should
 be automated, version controlled, close to the code, and meaningful for the
-consumer.
+consumer. [[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]]
+owns the concrete check categories behind that tool choice.
 
 Data engineering management also puts data culture and consumer needs into the
 testing conversation. It adds data quality metrics and source-to-target

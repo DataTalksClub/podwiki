@@ -85,9 +85,11 @@ Analysts sit close to product managers because they know company data. They can
 also quantify whether the team should solve a problem
 ([[cite:data-team-roles=>Data Team Roles Explained]]).
 Product analytics adds experiments to that definition. It also adds funnels,
-cohorts, and dashboard communication
-([[Data Analyst Role]],
-[[Product Analytics]]).
+cohorts, and dashboard communication.
+
+Use [[Data Analyst Role]] and [[Product Analytics]] for the role hubs. Use
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] for the
+title boundary.
 
 The data scientist role is broader and less stable. A data scientist may work
 on prediction, experimentation, or decision science. The same title can also

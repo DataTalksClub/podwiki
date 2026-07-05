@@ -203,6 +203,8 @@ overload and knowledge-base retrieval. The defenses include output validation,
 query analysis, layered defenses, and non-LLM classifiers where they're harder
 to manipulate than generative models
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+Use [[prompt-injection-and-chatbot-risk-management=>prompt injection and chatbot risk management]]
+for the narrower chatbot control model.
 
 GPT-3 risks include concerns around cost, control, bias, and privacy
 [[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].

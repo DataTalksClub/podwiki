@@ -136,7 +136,7 @@ ingredients, recipes, spectra, and material properties. It also has to preserve
 application tests, batches, sensor placement, and traceability. If the real
 process contains hidden variables or tacit domain knowledge, domain experts must
 review the synthetic data. This is why industrial synthetic data belongs near
-[[Industrial ML Applications]] and
+[[industrial-ml-applications=>industrial ML applications]] and
 [[manufacturing-predictive-maintenance-yield-analytics=>Manufacturing Predictive Maintenance and Yield Analytics]], not only generic
 [[Machine Learning]].
 [[cite:industrial-data-small-data-production-machine-learning=>Industrial Data]]

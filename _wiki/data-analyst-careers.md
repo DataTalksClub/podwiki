@@ -188,11 +188,15 @@ Data analyst postings make that distinction especially important because
 analyst titles vary by company. Notowska warns candidates to read the job
 description and responsibilities rather than trust the title alone
 [[cite:hiring-data-scientists-and-analysts@54:09=>Hiring Data Scientists and Analysts]].
+
 If the posting emphasizes KPI definitions, dashboards, and stakeholder
 questions, align the resume and take-home examples with [[KPIs]] and
-[[Product Analytics]]. If it asks for production models or deployment, it may
-be closer to [[Data Science Careers]] than an analyst role. MLOps requirements
-point in the same direction.
+[[Product Analytics]]. When the posting centers product managers, user
+behavior, and experiment readouts,
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] helps
+separate product-facing analysis from broader reporting. If it asks for
+production models or deployment, it may be closer to [[Data Science Careers]]
+than an analyst role. MLOps requirements point in the same direction.
 
 For CVs, concrete responsibilities matter because recruiters check experience
 and education in the same screen. They also check responsibilities and dates, so
@@ -202,13 +206,16 @@ Courses help when they show usable work, but they're weaker when they replace
 examples of analysis or dashboards. SQL and business impact matter too.
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
-The recruiting side is covered in more detail in
-[[CV Screening]] and
-[[Job Search]]. For an analyst
-candidate, those pages matter because the resume has to show the same work that
-the interview will test. The resume needs SQL and stakeholder context. It also
-needs dashboard or analysis examples, plus enough business detail for the hiring
-team to evaluate scope.
+Use [[CV Screening]] and [[Job Search]] to connect analyst evidence with the
+hiring process. For an analyst candidate, the resume has to show the same work
+that the interview will test. The resume needs SQL and stakeholder context.
+Dashboard examples need enough business detail for the hiring team to evaluate
+impact.
+
+When the posting points toward modeling, use the
+[[data-scientist-interview=>data scientist interview]] path. It helps translate
+analyst evidence into case preparation, SQL practice, coding practice, and
+project defense.
 
 ## Next Moves
 

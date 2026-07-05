@@ -261,8 +261,9 @@ quality practices
 adds the delivery loop of tests, CI/CD, and observability. He also links
 DataOps to deployment confidence and recovery
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
-[[DataOps]] covers that
-delivery discipline in more detail.
+[[DataOps]] covers that delivery discipline in more detail, while
+[[gitops-for-data-teams=>GitOps for data teams]] covers the reviewable
+infrastructure and access-change path inside platform work.
 
 [[person:16rahuljain=>Rahul Jain]] shows what reliability
 looks like from platform leadership. His platform work includes quality

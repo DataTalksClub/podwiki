@@ -173,7 +173,8 @@ For PMs, the strongest application story has a clear chain:
 - a target role whose job description matches the evidence
 
 That chain connects this transition to [[CV Screening]],
-[[Data Science Careers]], and [[Data Scientist Interview Roadmap]].
+[[Data Science Careers]], [[Data Scientist Interview Roadmap]], and the
+[[data-scientist-interview=>data scientist interview]] guide.
 
 ## Related Pages
 

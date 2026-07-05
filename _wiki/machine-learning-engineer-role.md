@@ -223,9 +223,10 @@ and runtime behavior. ML practitioners need to be involved before the production
 handoff, not only after modeling is done.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 A machine learning engineer often owns a product-facing model system. An MLOps
-or platform engineer builds shared paths for experiment tracking, registries,
-CI/CD, and deployment templates. Monitoring, governance, and self-service
-infrastructure can sit in the same platform layer.
+engineer or [[ml-platform-engineer-role=>ML platform engineer role]] builds
+shared paths for experiment tracking, registries, CI/CD, and deployment
+templates. Monitoring, governance, and self-service infrastructure can sit in
+the same platform layer.
 
 Teams need platform pieces when multiple model-building teams need
 standardization, not because every team needs a large platform on day one. See

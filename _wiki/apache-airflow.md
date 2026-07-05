@@ -142,7 +142,9 @@ For a build sequence, use [[How to Build Data Pipelines]].
 An Airflow task can succeed while the output is wrong. Teams can run row-count,
 freshness, and schema checks as Airflow tasks. They can run null checks,
 accepted-value checks, uniqueness checks, and business-rule checks there too.
-Those checks still belong to [[data quality and observability]].
+Those checks still belong to [[data quality and observability]]. Use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]] when
+the Airflow run needs explicit pipeline gates before publication.
 
 Tomasz Hinc gives the Airflow version of that boundary: jobs can be green while
 zero records are inserted. The Airflow UI can show a successful task while the

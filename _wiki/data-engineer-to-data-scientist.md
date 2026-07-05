@@ -150,8 +150,13 @@ business context instead of replacing them.
 
 Data science interviews may test different signals depending on the role.
 Product data science and machine-learning-heavy roles don't ask for the same
-evidence. Technical screens can include ML knowledge, SQL, and coding, while
-case studies test the path from business goals to evaluation metrics.[[cite:data-science-interview-and-cv-guide@15:29=>Role Spectrum]][[cite:data-science-interview-and-cv-guide@36:38=>Technical Assessments]]
+evidence. Technical screens can include ML knowledge, SQL, and coding.
+
+Case studies connect business goals with evaluation metrics.
+[[cite:data-science-interview-and-cv-guide@15:29=>Role Spectrum]][[cite:data-science-interview-and-cv-guide@36:38=>Technical Assessments]]
+Use the [[data-scientist-interview=>data scientist interview]] guide to turn
+that transition story into role targeting, project defense, and technical-round
+preparation.
 
 ## Choose the Target Carefully
 

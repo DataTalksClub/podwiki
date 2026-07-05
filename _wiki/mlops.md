@@ -73,7 +73,8 @@ ownership choices around the model.
 Pipeline automation sits inside this boundary when it moves models from data
 ingestion and validation into training, deployment, and monitoring. Theofilos
 Papapanagiotou separates MLOps from DevOps through model lifecycle concerns such
-as drift, fairness, and retraining triggers
+as drift, fairness, and retraining triggers. The same lifecycle concerns
+separate the disciplines in [[mlops-vs-devops=>MLOps vs DevOps]]
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
 
 ## Lifecycle Decisions

@@ -93,6 +93,9 @@ changes, secrets, and Infrastructure as Code belong in the review path.
 Terraform, Terragrunt, and Atlantis make environment and access changes
 reviewable through merge requests and dry runs
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+That makes [[gitops-for-data-teams=>GitOps for data teams]] one concrete
+DataOps adoption route when platform changes need the same review discipline as
+pipeline code.
 
 These are adoption paths, not competing definitions. A small team may need
 Git-based release habits first, while an infrastructure-heavy team may need

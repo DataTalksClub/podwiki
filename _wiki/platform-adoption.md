@@ -126,10 +126,19 @@ Spotify's DataOps work followed a similar sequence. The core team embedded
 with early adopters, then worked on infrastructure and tools. Other teams could
 then build and deploy their own data flows.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
+Hinc's GitOps discussion adds a concrete enablement path. Data workers can
+propose infrastructure or access changes through branches, plans, and review
+instead of waiting on opaque tickets. That makes
+[[gitops-for-data-teams=>GitOps for data teams]] part of platform adoption when
+the standard path includes Terraform, Terragrunt, Atlantis, and reviewer support.
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]]
+
 Enablement still needs staffing and operating ownership. Simon ties ML platform
 work to cloud infrastructure, with Kubernetes and Terraform in that skill set.
 He also includes on-call and support capacity. He warns against a heavy platform
-before there's business value and repeated need.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+before there's business value and repeated need. That operating surface is part
+of the [[ml-platform-engineer-role=>ML platform engineer role]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Fast-growing data platforms need senior people. Mehdi also warns that they need
 niche technology experience to establish practices that can survive scale.[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Data Platforms]]

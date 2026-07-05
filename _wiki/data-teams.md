@@ -244,6 +244,10 @@ people depend on it. Dehghani's data mesh discussion grounds that answer in
 [[self-service-data-platforms=>self-service data platforms]],
 and [[data engineering platforms]].
 
+For product-title boundaries, separate that data-product ownership question
+from the delivery and discovery split in
+[[product-owner-vs-product-manager=>product owner vs product manager]].
+
 Cloud governance adds a more operational role map. Data stewards, producers,
 and decision makers all participate in governance. Ownership isn't just a label
 on a dataset. It's a set of review and access responsibilities inside the team

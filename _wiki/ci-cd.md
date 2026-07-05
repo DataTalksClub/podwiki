@@ -92,6 +92,8 @@ development, and keep running in production. CI/CD is therefore part of
 [[Testing]] and [[Data Quality and Observability]], not only a deployment-speed
 concern.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+For a data-pipeline checklist view of those gates, use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]].
 
 ML CI/CD also has to preserve traceability. That means proper CI, a clear ML
 repository structure, standardized parameter handling, and test coverage around
@@ -137,8 +139,9 @@ path when they affect the same production change.
 
 ML CI/CD adds model artifacts and serving code. It also includes feature or
 preprocessing code, with containers and registries on the same release path.
-Monitoring and rollback belong there too. CI/CD therefore sits near [[GitOps for
-Data Teams]], [[MLOps Tools]], and [[Data Engineering Platforms]].
+Monitoring and rollback belong there too. CI/CD therefore sits near
+[[gitops-for-data-teams=>GitOps for data teams]], [[MLOps Tools]], and
+[[Data Engineering Platforms]].
 
 The deployment target depends on the team, and Docker is the first container
 skill to learn. Kubernetes helps when a team runs many services, but smaller

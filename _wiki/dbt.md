@@ -130,7 +130,9 @@ changes reach consumers, not only after a stakeholder reports a broken metric.
 same testing habit inside a broader DataOps operating model in
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 He names version control and automated tests among the ways data teams reduce
-fragile releases. CI/CD, SQL tests, and dbt belong in that same toolkit.
+fragile releases. CI/CD, SQL tests, and dbt belong in that same toolkit. Use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]] when
+dbt checks need to sit beside freshness, schema, volume, and recovery checks.
 
 ## Documentation and Lineage
 

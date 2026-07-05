@@ -118,7 +118,9 @@ Production monitoring also feeds the next release path. Real incidents expose
 missing tests, weak deployment automation, and unclear ownership
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]. A platform
 connects those findings back to templates, checks, rollout rules, and runbooks
-so the same issue is less likely to return.
+so the same issue is less likely to return. Use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]] for the
+pipeline-level checks that a shared platform can standardize.
 
 ## Self-Service With Governance
 

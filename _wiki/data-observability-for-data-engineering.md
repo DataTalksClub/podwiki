@@ -145,7 +145,8 @@ A useful observability runbook should tell a data engineer how to:
 discussions. For data engineering teams, tests cover expected assumptions. SLAs
 capture consumer expectations, and observability handles runtime behavior and
 diagnosis. Those three layers should cover different failure modes without
-overlap.
+overlap. [[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]]
+turns that boundary into concrete pre-release and post-release checks.
 
 SLAs also tell engineers which incidents deserve attention first, and Barr
 Moses uses freshness as the example. A table with a five-minute promise should

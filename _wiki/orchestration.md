@@ -302,6 +302,10 @@ retries, failures, and successes. It can also preserve run history and
 dependency state. It can't prove freshness, volume, or schema validity. It also
 can't prove distribution, lineage impact, or business correctness.
 
+Use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]] for the
+checks that need to surround an orchestrated run.
+
 Those checks need to run inside the workflow or in adjacent observability
 systems. The team needs owners who respond when checks fail.
 

@@ -122,10 +122,16 @@ infrastructure without turning notebooks into the production system
 
 CJ Jenkins describes the career-transition version of the same gap. An academic
 researcher may understand statistics and modeling. They may still need Python
-and API practice before the work can become a production artifact. Docker and
-deployment practice matter too, especially when a notebook result has to become
-a service another team can run
-[[cite:postdoc-to-data-science-lead-career-transition@6:10=>Postdoc to Data Science Lead]].
+and API practice before the work can become a production artifact.
+
+Docker and deployment practice matter too. That matters when a notebook result
+has to become a service another team can run.
+[[cite:postdoc-to-data-science-lead-career-transition@6:10=>Postdoc to Data Science Lead]]
+
+For a role-change version of that handoff, the
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+path narrows this workflow to packaging and serving. It also adds monitoring and
+runtime ownership.
 
 The learner-to-practitioner version is practical. Learners move from exploratory
 analysis toward reusable code, project structure, and production habits

@@ -26,6 +26,10 @@ personal baseline, and explain the product action. The topic sits near
 has to preserve history, handle context changes, and make alerts useful to an
 owner or vet.
 
+That makes it a small, product-shaped
+[[industrial-ml-applications=>industrial ML application]]. The model depends on
+physical sensors, deployment conditions, and a decision that someone can act on.
+
 ## Personal Baselines Before Alerts
 
 Early health signals can appear as behavior changes over time. Useful signals
@@ -151,8 +155,9 @@ capture useful signals and understand the data.
 For a sensor-ML project, the product feedback loop includes hardware comfort
 and sampling reliability. It also includes owner behavior and whether derived
 features help interpret an anomaly. The work sits near
-[[Startups]] as well as ML systems. A small team has to learn from prototypes
-before scaling the device or the model.
+[[Startups]] as well as [[industrial-ml-applications=>industrial ML applications]].
+A small team has to learn from prototypes before scaling the device or the
+model.
 
 ## Portfolio Project Version
 

@@ -156,7 +156,12 @@ Industrial deployment adds organizational ownership. Proof-of-concept work
 leads into centralized tooling, embedded teams, and a hub-and-spoke model
 ([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]).
 Computer vision teams need standards, shared infrastructure, and local trust,
-not only a trained model. Those shared annotation services are one reason
+not only a trained model. That puts production vision inside
+[[industrial-ml-applications=>industrial ML applications]], where local process
+knowledge and operating ownership decide whether the model is useful.
+
+Those
+shared annotation services are one reason
 [[annotation-quality-workflows=>annotation quality workflows]] belongs near
 industrial vision MLOps. The manufacturing-specific neighbor is
 [[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield ML]],

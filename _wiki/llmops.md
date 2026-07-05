@@ -160,8 +160,8 @@ systems may move toward open-source or self-hosted models for control, privacy,
 and predictable model versions. Latency and cost can push the same choice
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-These tradeoffs connect [[LLM Deployment]], [[LLM Cost Optimization]],
-[[Caching]], and [[AI Infrastructure]].
+These tradeoffs connect [[llm-deployment=>LLM deployment]],
+[[LLM Cost Optimization]], [[Caching]], and [[AI Infrastructure]].
 
 ## Operating Ownership
 

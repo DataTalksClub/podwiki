@@ -87,8 +87,9 @@ Different learners can enter the same sequence from different strengths:
 ## Stage 1: Build Normal Software
 
 Start with ordinary application engineering by building a small service and one
-interface or API. Finish this stage with persistence, tests, and deployment. Add
-a basic monitoring path before complex AI architecture. Paul's
+interface or API. Finish this stage with persistence, tests, and
+[[llm-deployment=>LLM deployment]]. Add a basic monitoring path before complex
+AI architecture. Paul's
 roadmap keeps product shipping, application layers, databases, and deployment
 inside the AI engineering stack. Monitoring belongs there too
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]).

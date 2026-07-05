@@ -54,6 +54,10 @@ project.
 If you use a project to prove machine learning engineering readiness, follow
 the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] sequence from
 baseline to deployment, monitoring, and operations evidence.
+For a data scientist, the same project can become transition proof when it
+shows the move from analysis and modeling into
+[[data-scientist-to-machine-learning-engineer=>machine learning engineering]]
+ownership.
 
 ## Reviewable ML Project
 
