@@ -54,6 +54,14 @@ Delta Lake fits that platform story only when the team can operate the
 ingestion and transformation paths around the tables. It also needs testing,
 access, and recovery paths.
 
+The lakehouse discussion in the analytics engineering episode adds a useful
+boundary. A lakehouse can keep files in a data lake while exposing a modeled
+business layer. The hard work is still reconciling source systems into tables
+people understand.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:05:37=>Analytics Engineering Foundations]].
+Delta Lake can hold the table state for that layer. It doesn't replace
+[[analytics-engineering=>analytics engineering]], or the ownership work around
+consumer-facing datasets.
+
 ## Delta Lake, Hudi, and Iceberg
 
 Delta Lake isn't a default choice. Buying a packaged
@@ -64,6 +72,13 @@ requirements-led.[[cite:trends-in-modern-data-engineering=>Modern Data Engineeri
 That logic also applies to the Delta/Hudi/Iceberg comparison. Choose the table
 format after the team names its storage and compute constraints. Catalog,
 governance, and cost constraints belong in the same decision.
+
+Adrian Brudaru places Delta, Hudi, and Iceberg in the same family, but not in
+the same niche. In that comparison, Delta is the mature option. Hudi is more
+specialized, and Iceberg gets more attention for vendor lock-in and catalog
+work.[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
+That keeps [[Delta Lake vs Apache Iceberg]] focused on requirements instead of
+format branding.
 
 The DataTalks.Club material gives deeper coverage to
 [[Apache Iceberg]] than to Delta
@@ -90,9 +105,15 @@ The example places Delta Lake near
 [[data quality and observability]],
 [[data engineering tools]],
 and [[data engineering platforms]].
-The practical requirement isn't the name of the format. It's the ability to
-recover from bad data, audit changes, rerun historical batches, and keep table
-state understandable to engineers who operate Spark-based jobs.
+The practical requirement is recovery from bad data, auditability, historical
+reruns, and table state that Spark engineers can understand.
+
+The older DataOps discussion makes the tradeoff sharper. Lars Albertsson
+describes a data platform as raw storage plus processing and workflow engines.
+He also warns that warehouse-style mutability in a lakehouse can break the
+immutability that makes batch platforms easier to operate.[[cite:dataops-principles-and-scalable-data-platforms@30:34=>DataOps 101]][[cite:dataops-principles-and-scalable-data-platforms@1:08:06=>DataOps 101]].
+Delta Lake's versioning is most useful as a controlled recovery mechanism inside
+[[DataOps]]. It isn't permission to rewrite tables without tests or lineage.
 
 ## Portable and Smaller Lakehouse Work
 
@@ -102,6 +123,12 @@ both Delta Lake and
 Iceberg.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 That sequence puts Delta Lake beside large lakehouse platforms and smaller
 portable experiments where teams still want table semantics on files.
+
+The same episode links DuckDB to a local access layer and says DLT already
+serves headless Delta Lake.[[cite:trends-in-modern-data-engineering@29:33=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]].
+That makes Delta relevant to [[data engineering tools]] even when the team
+isn't buying a full Databricks-style platform.
 
 Table formats also link to
 [[orchestration]]. Modern engineering discussions compare Airflow, Prefect,

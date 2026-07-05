@@ -34,6 +34,14 @@ covers the transformation boundary. [[DataOps]]
 and [[Data Engineering Platforms]]
 cover the reliability work around the feed.
 
+Santona Tuli puts CDC in the same complex-ingestion bucket as Kafka and Kinesis.
+Once a team moves beyond scheduled Airflow batches, it has to handle ordering
+and mixed batch-stream inputs. It also has to handle nested records and large
+files
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@11:57=>Modern Data Pipelines]].
+That makes CDC part of [[data engineering]]
+and [[orchestration]] design, not only a connector setting.
+
 ## Captured Rows
 
 CDC is row-level movement that captures inserts, updates, and deletions. Sellers
@@ -47,6 +55,16 @@ events, database change tables, and Kafka. In that platform view, CDC translates
 a database transaction log into a Kafka stream. Downstream systems then receive
 detailed change events instead of periodic snapshots
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+
+When CDC emits events into shared streams, the event interface becomes part of
+the product. Mehdi Ouazza's Kafka example shows why teams need typed schemas,
+schema registries, and allowed-change rules. They need written guidelines before
+one or two topics turn into hundreds
+[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Scale Data Engineering Teams]].
+
+The same discipline applies to CDC topics because consumers need stable keys,
+delete semantics, and schema-change rules. That lets downstream
+[[data pipelines]] evolve without guessing what changed.
 
 The two views converge on the same boundary, but their emphasis differs.
 [[person:nataliekwong=>Kwong]] emphasizes analytics connectors in the
@@ -66,10 +84,19 @@ A full reload may still be simpler for small or low-value tables, one-off
 backfills, or sources that don't expose reliable change signals.
 
 CDC isn't a blanket "stream everything" recommendation. Many analytics and
-reporting cases can wait for batch, including short micro-batches, and batch
+reporting cases can wait for batch, including short micro-batches. Batch
 orchestration gives engineers explicit dependencies and easier recovery.
 Streaming helps in middle-latency cases such as fraud detection. It costs more
 to operate [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+
+Slawomir Chodnicki makes the same caution from a modern data-engineering
+career lens. Kafka is useful when a product genuinely needs real time, but many
+analytics teams should prove the low-latency need first
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@37:38=>Data Engineer Career in 2026]].
+For CDC, that means separating freshness from immediacy. A warehouse may need
+incremental changes every few minutes. Fraud checks, dynamic pricing, or online
+recommendations may justify a full [[streaming]]
+or [[batch-vs-streaming=>batch vs streaming]] design.
 
 CDC is a middle choice rather than a default. A team can capture database
 changes continuously and still land them into batch-oriented tables or warehouse
@@ -99,6 +126,13 @@ CDC feeds need the same platform controls that fall under [[DataOps]].
 The first controls are lag monitoring and alerts for stopped connectors.
 Row-count tests and deleted-record checks cover data quality. Backfill runbooks
 cover recovery.
+
+The practical checks start with source freshness and complete windows. They add
+delete reconciliation, schema compatibility, and replay behavior. These checks
+connect CDC to [[dataops-checks-for-data-pipelines=>DataOps pipeline checks]]
+and [[data-quality-and-observability=>data quality and observability]].
+The team needs to know whether the feed stopped or delivered duplicate changes.
+It also needs to catch missed deletes and tables that no longer match the source.
 
 Platform maturity adds schema management automation and data quality
 measurements [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].

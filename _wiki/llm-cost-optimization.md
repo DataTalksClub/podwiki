@@ -42,6 +42,16 @@ relevance[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and
 The same principle applies to cost: excess context wastes tokens and
 money while degrading output quality.
 
+RAG cost is mostly a context-budget problem. In the agent-engineering
+discussion, Ranjitha Kulkarni argues that large context windows don't remove the
+need to reduce noisy retrieval results. Latency, cost, and
+garbage-in/garbage-out all worsen when the system sends too much irrelevant
+context to the model[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@30:27=>Agentic AI Engineering]].
+That connects [[retrieval-augmented-generation=>RAG]] and
+[[context-engineering=>context engineering]] directly to cost optimization.
+Retrieve enough evidence to answer well, but not so much that every request pays
+to process a bloated prompt.
+
 ## Prompt Caching and Model Efficiency
 
 Prompt caching reuses previously computed attention states for repeated prompt
@@ -68,6 +78,14 @@ models reduces both cost and latency. The migration requires more engineering
 effort, but tools like TitanML's Takeoff server and other inference servers make
 it easier.
 
+The self-hosting decision should be staged, not ideological. Meryem Arik frames
+APIs as the fastest path to an MVP. Open-source deployment becomes more
+attractive once teams care about long-term scalability, privacy, and
+performance[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@52:57=>Deploying LLMs in Production]].
+That makes [[llm-deployment=>LLM deployment]] a cost decision about maturity.
+Avoid operating inference infrastructure before the workload proves it needs
+control over price, latency, or data.
+
 High-volume enterprises can fine-tune smaller models[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 They trade ML
 staffing and infrastructure for lower cost, lower latency, and better task fit.
@@ -91,13 +109,23 @@ and storage are cheap, then learn they aren't as cheap as expected[[cite:s23e06-
 
 The opposite failure is overengineering, where companies build "behemoth
 platforms" before they need them. Teams in that example prepare for real time,
-batch, and a lakehouse, then use the platform only to ingest CSVs. For LLM cost
-optimization, teams should match the model and infrastructure to the actual need,
-not the aspirational one.
+batch, and a lakehouse. Then they use the platform only to ingest CSVs. For LLM
+cost optimization, teams should match the model and infrastructure to the actual
+need, not the aspirational one.
 
 Cost awareness also affects hiring, where candidates who proactively built
 something to reduce cost stand out. Cost-awareness isn't just a technical skill
 but a signal of engineering judgment.
+
+Cost optimization also needs ownership mechanics. In the FinOps discussion, Eddy
+Zulkifly ties cloud cost control to team accountability and regular reviews. He
+also recommends tagging and usage-based architectures instead of fixed
+assets[[cite:finops-for-data-engineers@40:22=>FinOps for Data Engineers]].
+
+For LLM systems, the same habit connects [[finops-for-data-engineers=>FinOps]]
+with [[ai-infrastructure-cost-and-ownership=>AI infrastructure ownership]]. Track
+product and team spend first. Then separate prompt, retrieval, and evaluation
+costs before optimizing the model layer.
 
 ## Cost Considerations in Product Patterns
 

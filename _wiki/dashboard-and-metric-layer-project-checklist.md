@@ -50,6 +50,15 @@ and
 [[Data Product Management]]
 when the project needs stronger stakeholder framing.
 
+Make the meeting concrete in the project writeup. Name the attendee who owns
+the decision, the review cadence, and the action that follows a metric change.
+The last-mile discussion treats dashboard adoption as a behavior change. A good
+project should show the metric inside the recurring workflow rather than only on
+a standalone BI page.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@38:15=>Last-Mile Data Delivery]]
+This connects the checklist to [[Business Intelligence]] and
+[[data-product-adoption=>data product adoption]].
+
 ## Metric Specification and Guardrails
 
 The metric layer needs a written specification with these fields:
@@ -64,6 +73,12 @@ business health.
 
 Metric definitions need ownership, derived-KPI rules, dashboard visibility, and
 explicit attention to gaming risk.
+[[cite:ml-engineering-kpis-and-metrics-strategy=>ML Engineering KPIs and Metrics Strategy]]
+Treat the metric layer as a small operating vocabulary, not a wall of numbers.
+For a portfolio project, include one primary [[kpis=>KPI]], a few diagnostics,
+and a review rule for retiring metrics that no longer change decisions. That
+matches the podcast guidance that KPIs need visibility, ownership, review
+cadence, and a short enough list for teams to use.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>ML Engineering KPIs and Metrics Strategy]]
 
 For experimentation-heavy projects, guardrails start with randomization,
@@ -88,6 +103,15 @@ Tracking plans and anomaly investigation belong in the same growth system as
 warehouse work, BI work, and activation.
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 That makes event ownership part of the dashboard project.
+
+For event-backed dashboards, the project should say where each event fires and
+which event marks the completed business action. A signup chart built from a
+button click answers a different question than one built from a verified
+account. The tracking-plan episode uses this distinction to explain why
+capture location and property definitions matter before the data reaches
+product analytics. The same definitions also feed BI and reverse ETL.
+[[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>Data-Led Growth Stack]]
+Use [[Tracking Plans]] and [[Event Tracking]] to document that boundary.
 
 A portfolio-scale version can connect product support, A/B testing, and data
 modeling. Snowplow, dbt, Looker, and product analytics can become one project
@@ -132,6 +156,17 @@ dbt tests, and workshops.
 [[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
 The team defines the metric, tests the data, documents the dashboard, and
 teaches people how to use it.
+
+Add a visible trust state when the dashboard supports executive or operational
+decisions. The data strategy discussion uses a traffic-light status for core
+KPI dashboards. Green means users can rely on the data. Yellow means the team is
+investigating known issues. Red means the metric is broken.
+
+That status makes
+the project stronger because it shows [[data-trust-and-strategy=>data trust]],
+incident communication, and [[data-quality-and-observability=>data quality]]
+instead of assuming every dashboard number is safe.
+[[cite:mindful-data-strategy-for-business-impact@30:47=>Mindful Data Strategy]]
 
 ## Related Pages
 

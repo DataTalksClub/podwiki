@@ -47,6 +47,14 @@ Those examples put Metaflow near
 and [[ML platforms]], rather than
 treating it as only a Python library.
 
+The adjacent ML-platform discussion explains why this matters. Simon Stiebellehner
+starts the ML path in an exploratory notebook, then moves it through training
+and evaluation. After that, teams need experiment tracking, a persistent
+[[model registry]], and a consumption path for batch or online serving
+[[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]].
+Metaflow fits that path as a workflow layer for data scientists, not as a
+replacement for every platform component.
+
 ## Sandboxes and Demonstrations
 
 Metaflow also appears as a demo vehicle. An open-source demo of Metaflow and
@@ -87,6 +95,15 @@ That puts Metaflow beside [[experiment tracking]].
 It also belongs beside
 [[data-engineering-platforms=>data platforms]].
 Its value comes partly from fitting into the surrounding stack.
+
+This boundary is similar to the broader podcast distinction between a workflow
+engine and the work it coordinates. Lars Albertsson describes a workflow
+orchestrator as the component that tracks dependencies, retries failed work, and
+keeps processing outside the orchestrator
+[[cite:dataops-principles-and-scalable-data-platforms@31:18=>DataOps Principles]].
+For Metaflow, that means the useful comparison isn't "Metaflow versus all
+infrastructure". It's how Metaflow coordinates ML steps while still relying on
+cloud compute, storage, schedulers, and downstream serving systems.
 
 ## Developer Experience
 
@@ -131,3 +148,14 @@ problem of hiding routine cloud setup without hiding real operating choices.
 For [[developer relations]],
 it shows how a complex ML stack becomes something practitioners can learn, try
 and trust.
+
+The same platform conversation also sharpens the
+[[reproducibility]] question. A production ML platform should keep metadata about
+container images, data inputs, outputs, and pipeline runs. Reproducing a model
+years later requires more than one stored artifact
+[[cite:building-production-ml-platform-and-mlops-team@44:56=>Building Production ML Platforms]].
+
+Metaflow's role in this page is therefore the workflow and developer-experience
+side of reproducible production ML. It helps teams move from scripts and
+notebooks toward repeatable runs. The surrounding platform still handles storage
+and registry work. It also handles serving, governance, and monitoring.

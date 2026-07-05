@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11859
+    "links": 11880
   },
   "nodes": [
     {
@@ -30016,6 +30016,30 @@
     },
     {
       "source": "wiki:cdc",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cdc",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -30064,6 +30088,12 @@
     },
     {
       "source": "wiki:cdc",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cdc",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -30073,6 +30103,12 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:cdc",
@@ -30103,6 +30139,12 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:orchestration",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:cdc",
@@ -32374,6 +32416,12 @@
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -32428,6 +32476,12 @@
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "wiki:data-activation",
       "kind": "wiki-chip",
       "weight": 1
@@ -32464,6 +32518,12 @@
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-trust-and-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "wiki:dbt",
       "kind": "wiki-chip",
       "weight": 1
@@ -32483,6 +32543,12 @@
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:kpis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48004,6 +48070,12 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -48085,6 +48157,12 @@
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "wiki:dataops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -57136,7 +57214,19 @@
     },
     {
       "source": "wiki:llm-cost-optimization",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57214,6 +57304,12 @@
     },
     {
       "source": "wiki:llm-cost-optimization",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
       "target": "wiki:llm-deployment",
       "kind": "wiki-chip",
       "weight": 1
@@ -57253,6 +57349,12 @@
       "target": "wiki:prompt-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-deployment",
@@ -63538,6 +63640,18 @@
     },
     {
       "source": "wiki:metaflow",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metaflow",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metaflow",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -63634,6 +63748,12 @@
     },
     {
       "source": "wiki:metaflow",
+      "target": "wiki:model-registry",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metaflow",
       "target": "wiki:open-source",
       "kind": "wiki-chip",
       "weight": 1
@@ -63667,6 +63787,12 @@
       "target": "wiki:platform-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:metaflow",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:metaflow",
