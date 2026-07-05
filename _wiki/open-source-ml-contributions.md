@@ -299,7 +299,8 @@ The signal is strongest when the contribution shows judgment:
 
 Elle adds the visibility path for data science DevRel. When the work helps real
 users, public content and tutorials can lead to speaking invites and career
-opportunities. Learning in public can open the same path
+opportunities. [[learning-in-public-ai-career-switch=>Public learning for AI careers]]
+can open the same path
 ([[cite:devrel-data-science-open-source-tools@34:28=>DevRel career visibility]]).
 
 Her own path started with a visible StyleGAN project that opened the door to a

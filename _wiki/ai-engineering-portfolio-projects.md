@@ -271,6 +271,7 @@ blog post can create more opportunities than the competition result alone.
 Publication or presentation work can help too
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 For the public-work standard, use
+[[learning-in-public-ai-career-switch=>public learning for AI careers]] and
 [[Open Source Portfolio Evidence]].
 
 ## Competition Submissions

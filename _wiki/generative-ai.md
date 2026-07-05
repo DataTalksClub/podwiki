@@ -209,7 +209,7 @@ Coding assistants compare Cursor, GitHub Copilot, and alternatives, alongside
 search-focused assistants and tool
 selection.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-These examples connect generative AI to [[LLM tools]]. The choice is often less
+These examples connect generative AI to [[llm-tools=>LLM tools]]. The choice is often less
 about the model and more about where the tool fits in the developer's work.
 
 On the agent side, embedded Slack agents and actions beyond chat appear in

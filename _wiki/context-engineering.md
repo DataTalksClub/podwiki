@@ -22,7 +22,9 @@ model instead of "stuffing everything in."[[cite:building-agentic-ai-engineering
 The topic connects [[retrieval-augmented-generation=>RAG]], [[Embeddings]],
 [[Agent Engineering]], and [[LLM Production Patterns]]. Retrieval pipelines
 engineer context by selecting passages. Agents engineer context by exposing
-tools, memory, examples, and state only when the task needs them.
+tools, memory, examples, and state only when the task needs them. Use
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] when those
+context choices become rollout milestones.
 
 ## Reducing Noise
 
@@ -139,11 +141,13 @@ metadata, a knowledge graph, or another retrieval layer can provide that context
 
 Tool calls fit when the simpler RAG path can't answer the user's question.
 Tools increase both power and system complexity.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-Hugo's sequence is conservative. Get a useful RAG path first. Add tools only
-when the question requires current state, an external API, or an action. That
-keeps [[Agent Engineering]] from becoming the default answer for every retrieval
-problem
+
+Hugo recommends starting with a useful RAG path before adding tools for current
+state, external APIs, or actions. That keeps [[Agent Engineering]] from becoming
+the default answer for every retrieval problem
 [[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Tool Calls]].
+The same RAG-to-tools ordering appears in
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 ## Related Pages
 

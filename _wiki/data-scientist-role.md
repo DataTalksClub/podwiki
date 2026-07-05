@@ -261,6 +261,9 @@ The boundary with an [[ai-engineer-role=>AI engineer]]
 is newer. A data scientist brings data, metrics, experiments, and evaluation
 habits. AI engineering adds LLM application design, retrieval, agents, and
 context management. It also adds tool calling and production UX [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Skill Stack]].
+
+For the production-ML learning sequence between data science and deployment,
+use the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]].
 The overlap is strongest when LLM features need evaluation sets, product
 metrics, and failure analysis [[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]].
 

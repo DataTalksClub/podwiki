@@ -49,6 +49,9 @@ owns the baseline, validation, evaluation, and serving story.
 [[Production ML Project Checklist]] covers a production-aware implementation
 pass. [[ML System Design Documents]] covers the architecture narrative behind a
 project.
+If you use a project to prove machine learning engineering readiness, follow
+the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] sequence from
+baseline to deployment, monitoring, and operations evidence.
 
 ## Reviewable ML Project
 

@@ -112,6 +112,8 @@ puts SQL or statistics before deep learning
 ([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
 That makes the role less about model novelty and more about shipping the simplest
 reliable system.
+Use the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] when the
+next question is learning sequence rather than role boundary.
 
 System design starts with goals, constraints, and a design document. It then
 names baselines, metrics, and pipeline components. It also records the data

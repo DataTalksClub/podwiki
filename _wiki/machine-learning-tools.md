@@ -247,8 +247,8 @@ evaluation sit there too, along with LLMOps
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
 LangChain utilities and Prefect or Dagster are AI product tools. So are tracing
-and observability tools such as LangSmith, Braintrust, and LangFuse. They aren't
-replacements for modeling, data, and MLOps basics
+and observability tools such as LangSmith, Braintrust, and LangFuse. Those
+[[llm-tools=>LLM tools]] aren't replacements for modeling, data, and MLOps basics
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
 The boundary gets sharper with prompts, SDKs, and tool wrappers. Code agents and

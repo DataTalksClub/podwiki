@@ -195,10 +195,9 @@ headless table formats belong in the same decision.[[cite:trends-in-modern-data-
 
 Those tools matter when a team wants open storage, multiple compute engines,
 better cost control, or less vendor lock-in. They also add platform complexity,
-so compare them with
-[[Data Warehouse vs Data Lakehouse]],
-[[Apache Iceberg]], and
-[[Delta Lake]].
+so compare them with [[Data Warehouse vs Data Lakehouse]] for architecture. Use
+[[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] for the table-format
+tradeoff.
 
 ## Transformation And Analytics Engineering
 

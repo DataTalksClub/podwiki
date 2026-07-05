@@ -97,7 +97,9 @@ destination close to the consumer. Orchestration and activation stay close too
 A lakehouse exposes storage, compute, metadata, and workflow choices as
 architecture decisions. Open table formats and catalogs can appear inside that
 architecture, but the architecture decision comes first. Compare formats only
-after the workload needs warehouse-like behavior on lake storage
+after the workload needs warehouse-like behavior on lake storage. Use
+[[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] for that
+table-format choice
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 Pipeline design still matters because staging and lakehouse choices connect to

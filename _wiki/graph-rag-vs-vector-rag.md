@@ -125,8 +125,11 @@ datastores.
 [[retrieval-augmented-generation=>RAG]] and [[Search]] cover the wider retrieval
 architecture. [[Vector Databases]], [[embeddings]], and
 [[Knowledge Graph vs Vector Search]] cover the storage and retrieval layers
-behind the RAG choice. The [[Search and RAG Project Checklist]] turns the prompt
-requirement into retrieval, citation, and evaluation checks.
+behind the RAG choice. The
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers rollout
+sequencing, while the [[Search and RAG Project Checklist]] turns the prompt
+requirement into retrieval checks. The checklist also covers citation and
+evaluation checks.
 
 ## Evaluate the Prompt Failure
 

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12029
+    "links": 12038
   },
   "nodes": [
     {
@@ -22316,6 +22316,12 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:llmops",
       "kind": "wiki-chip",
       "weight": 1
@@ -23699,6 +23705,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
@@ -31898,6 +31910,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "wiki:llms",
       "kind": "wiki-related",
       "weight": 3
@@ -37646,12 +37664,6 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "wiki:apache-iceberg",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-tools",
       "target": "wiki:customer-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -37760,7 +37772,7 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "wiki:delta-lake",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44360,6 +44372,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -46493,6 +46511,12 @@
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse",
@@ -53870,6 +53894,12 @@
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
       "target": "wiki:production-search-evaluation",
       "kind": "article-chip",
       "weight": 1
@@ -60818,6 +60848,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-vs-data-scientist",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -63621,6 +63657,12 @@
     {
       "source": "wiki:machine-learning-tools",
       "target": "wiki:interpretability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70844,6 +70886,12 @@
     },
     {
       "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
       "target": "wiki:machine-learning-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -74729,6 +74777,12 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:project-manager-to-data-science",

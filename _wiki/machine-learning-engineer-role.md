@@ -128,9 +128,11 @@ model selection, but it needs enough understanding of features and labels. It
 also needs training, evaluation, metrics, and baselines. Error analysis helps
 challenge a fragile design.
 
-Iterative delivery connects feature engineering with testing, while system
-design work needs baselines and metrics before diagrams become
+Iterative delivery connects feature engineering with testing. System design
+work needs baselines and metrics before diagrams become
 credible.[[cite:machine-learning-engineering-production-best-practices=>Production ML Engineering]][[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
+Use the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] to sequence
+those production responsibilities.
 
 Infrastructure skill depends on the team. The stack may include Docker and cloud
 services alongside Kubernetes and orchestration. It can also include model

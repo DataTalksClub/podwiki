@@ -111,13 +111,16 @@ problem and apply the method to the available data
 
 After the first work-based analysis, public practice can make the technical
 growth visible. Ksenia recommends joining communities such as DataTalks.Club or
-OpenDataScience and learning from other practitioners. Kaggle notebooks can
-help a beginner study how people analyze data, repeat techniques, and learn
-from collaborative competitions
+OpenDataScience and learning from other practitioners.
+
+Kaggle notebooks can help a beginner study how people analyze data and repeat
+techniques. They also help beginners learn from collaborative competitions
 [[cite:project-manager-to-data-scientist@36:47=>Community Learning]]
 [[cite:project-manager-to-data-scientist@38:54=>Kaggle Practice]].
-That evidence belongs with [[Machine Learning Portfolio Projects]] and
-[[Job Search]] because the project has to be reviewable by another person.
+That evidence belongs with [[Machine Learning Portfolio Projects]] because the
+project has to be reviewable by another person. It also connects to
+[[learning-in-public-ai-career-switch=>public learning for AI careers]] and
+[[Job Search]].
 
 ## Move From Analytics To ML And Production Awareness
 
