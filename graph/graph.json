@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12288
+    "links": 12293
   },
   "nodes": [
     {
@@ -54884,6 +54884,12 @@
     },
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
@@ -56985,6 +56991,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65966,6 +65978,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "wiki:machine-learning-for-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -73034,6 +73052,12 @@
     },
     {
       "source": "wiki:platform-engineering",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
       "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -73577,6 +73601,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:portfolio-projects",

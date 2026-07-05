@@ -78,8 +78,10 @@ teams need local validation before transferring a model between settings.[[cite:
 
 In digital clinic work, teams validate adoption and product discovery. Cold
 outreach and accelerators test market assumptions. Clinical meetings test
-whether patients, clinicians, and partners can use the workflow that the model
-enables.
+whether patients and clinicians can use the workflow. They also test whether
+partners can support what the model enables.
+That makes SQIN a high-risk version of
+[[machine-learning-for-startups=>machine learning for startups]].
 Product-market fit means aligning AI capabilities with a business case, not
 only improving model accuracy.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 

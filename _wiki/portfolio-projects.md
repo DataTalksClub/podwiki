@@ -155,9 +155,11 @@ resume evidence in
 walkthroughs as interview evidence in
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
-Portfolio work becomes part of [[job search]]
-and [[CV screening]] when it gives
-hiring teams concrete evidence to review.
+Portfolio work gives hiring teams concrete evidence to review. That makes it
+part of [[job search]] and [[CV screening]].
+For career switchers, that same public trail supports
+[[learning-in-public-ai-career-switch=>learning in public for AI career switches]]
+when course notes, posts, and projects show target-role practice.
 
 End-to-end proof beats notebook-only proof. [[person:santonatuli=>Santona Tuli]]
 shows how a pipeline moves from ingestion to transformation, modeled outputs,

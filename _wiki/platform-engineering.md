@@ -124,10 +124,11 @@ Platform design starts from data science workflows, including how data
 scientists work with notebooks. Thin abstraction layers over cloud providers
 remove unnecessary friction while preserving the cloud choices that matter.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-Public-tool adoption follows the same logic. Metaflow's integrations with AWS,
-Kubernetes, and Argo need education and documentation. They also need feedback,
-dogfooding, and reproducible workflows. Internal platforms need the same
-structure: examples, docs, and feedback loops are part of the platform.[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
+Public-tool adoption follows the same logic. In the
+[[metaflow=>Metaflow]] discussion, AWS, Kubernetes, and Argo integrations need
+education and documentation. They also need feedback, dogfooding, and
+reproducible workflows. Internal platforms need the same structure because
+examples, docs, and feedback loops are part of the platform.[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 Developer experience also explains why [[documentation]],
 [[technical writing]], and [[developer relations]] are nearby topics. A platform

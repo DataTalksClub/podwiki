@@ -57,6 +57,10 @@ the search anchored in modeling, evaluation, and decision evidence.
 Data roles make this boundary important. Product data science and machine
 learning engineering have different hiring signals
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+For candidates choosing between those role shapes,
+[[machine-learning-engineer-vs-data-scientist=>ML engineer vs data scientist]]
+separates evidence ownership from deployment ownership.
+
 For candidates moving between those two signals, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
 to focus the search around production ML evidence.

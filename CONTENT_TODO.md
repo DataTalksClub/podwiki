@@ -826,6 +826,13 @@ Source hints:
   `_wiki/lean-mlops-for-startups.md`. All five now have at least 12 inbound
   links. `python scripts/audit_graph.py --min-inbound 12` now reports 13
   wiki/content nodes below 12 inbound links.
+- The following 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/learning-in-public-ai-career-switch.md`,
+  `_wiki/machine-learning-engineer-vs-data-scientist.md`,
+  `_wiki/machine-learning-for-business.md`,
+  `_wiki/machine-learning-for-startups.md`, and `_wiki/metaflow.md`. All five
+  now have at least 12 inbound links. `python scripts/audit_graph.py
+  --min-inbound 12` now reports 8 wiki/content nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

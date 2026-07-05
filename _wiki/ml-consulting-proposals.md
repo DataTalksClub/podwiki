@@ -55,6 +55,11 @@ The same proposal has to stay legible to research, architecture, and funding
 stakeholders. For outside consultants, the proposal should frame the problem
 before it names the model.
 
+That makes proposal writing the services version of
+[[machine-learning-for-business=>machine learning for business]]. The buyer and
+consultant first name the decision, metric, and data constraints. Only then can
+they agree that a model is the right intervention.
+
 Consultants should also define what evidence would justify moving forward.
 Teams should ask how they'll measure whether a solution works before the work
 begins. They can use silent-mode or A/B-style rollout before exposing all users
