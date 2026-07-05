@@ -31,9 +31,9 @@ Product and operations systems use those interfaces too. Natalie Kwong connects
 ETL and ELT with orchestration, CDC, and warehouse patterns
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-[[DataOps]] owns the operating path around that work. That includes version
-control, tests, and CI/CD, plus deployment automation and observability.
-Onboarding belongs there too. Support and recovery complete the operating path.
+[[DataOps]] owns the operating path around that work, starting with version
+control, tests, and CI/CD. It extends to deployment automation, observability,
+support, and recovery.
 Christopher Bergh frames DataOps through version control, tests, CI/CD, and
 observability
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
@@ -129,7 +129,7 @@ cross-team education
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 Tool categories sit in [[DataOps Tools]], while [[DataOps Platforms]] covers
-shared infrastructure. The staffing question belongs in the
+shared infrastructure and self-service. The staffing question belongs in the
 [[dataops-engineer-role=>DataOps engineer role]] when one person or team owns
 the enablement path.
 
@@ -175,7 +175,7 @@ A team that only hires another data engineer may build more pipelines without
 fixing release and recovery. A team that only buys a DataOps tool may still
 lack the engineering owner who can redesign a broken data path.
 
-## Team Design
+## Overlapping Responsibilities
 
 Small teams often combine both responsibilities in one person. That can work
 when pull requests, tests, and ownership stay visible. Lineage, alert routing,
@@ -190,6 +190,11 @@ agreements and onboarding habits make the path usable
 
 Tulski's 2026 career episode adds the role pressure. Platform data engineers
 build standards and shared infrastructure, while product data engineers stay
-closer to use cases. DataOps practices should support both paths. Either path
-can break consumers when changes aren't tested, observable, or recoverable
+closer to use cases. DataOps practices should support both paths because either
+path can break consumers when changes aren't tested, observable, or recoverable
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+
+[[dataops-engineer-role=>DataOps engineer role]] owns dedicated-role signals,
+and [[DataOps Platforms]] owns shared service design. The comparison boundary
+stays narrower: data engineering changes the data path, and DataOps makes those
+changes safer to run repeatedly.

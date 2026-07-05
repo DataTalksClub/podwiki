@@ -48,12 +48,12 @@ Open source is practical rather than only ideological.
 Public code isn't enough because useful projects also need docs and examples.
 They also need issue handling, tests, releases, and community norms.
 
-The bare open-source concept across data and ML includes public software and
-project stewardship. It also includes governance, licensing, contribution
-surfaces, and company distribution.
+For data and ML, open source includes public software plus project stewardship.
+Governance, licensing, contribution surfaces, and company distribution also
+matter.
 [[open-source-ml-contributions=>open-source ML contributions]] is the narrower
 contribution guide. [[Open Source and Developer Relations]] covers adoption,
-education, demos, and feedback loops around an open-source tool.
+education, demos, and feedback channels around an open-source tool.
 
 Those pieces connect open source to
 [[contributing]] and
@@ -68,10 +68,9 @@ Open source also creates public evidence. A contribution can support
 support [[machine learning portfolio projects]].
 
 At the concept level, open source means public software plus the stewardship
-practices around it. Use [[Open Source Contributor Roadmap]] for the
-step-by-step path and [[Open Source Portfolio Evidence]] for hiring evidence.
-Use [[Open Source and Developer Relations]] for adoption work around public
-projects.
+practices around it. [[Open Source Contributor Roadmap]] covers the step-by-step
+path. [[Open Source Portfolio Evidence]] covers hiring evidence, and [[Open
+Source and Developer Relations]] covers adoption work around public projects.
 
 ## Reusable Project Work
 
@@ -260,11 +259,10 @@ work can expose those habits in a real project
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
 Treat this as hub-level context, not a checklist. [[Contributing]] covers useful
-contribution types, while [[open-source-ml-contributions=>open-source ML
-contributions]] covers ML-tool specifics. The [[Open Source Contributor
+contribution types, [[open-source-ml-contributions=>open-source ML
+contributions]] covers ML-tool specifics, and the [[Open Source Contributor
 Roadmap]] covers sequence. [[Open Source Portfolio Evidence]] covers how to
-package issue links, PRs, maintainer feedback, and CI. It also covers results
-and role signal for hiring.
+package public work for hiring.
 
 ## Community Norms and Maintainer Load
 
@@ -409,13 +407,14 @@ Open-source distribution often turns into
 [[developer relations]] work, though the two topics stay distinct. Open source
 supplies public software and project norms, plus contribution, governance, and
 sustainability constraints. DevRel helps developers understand and trust that
-project through education, docs, advocacy, and feedback loops
+project through education, docs, advocacy, and feedback channels
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
-Use [[Open Source and Developer Relations]] for the bridge between adoption work
-and open-source stewardship. It covers docs, demos, contributor onboarding, and
-maintainer feedback when those practices support a public project.
+[[Open Source and Developer Relations]] covers the bridge between adoption work
+and open-source stewardship. That bridge includes docs, demos, contributor
+onboarding, and maintainer feedback when those practices support a public
+project.
 
 ## Limits
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search/RAG Project Checklist"
-summary: "Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
+summary: "Review checklist for one chosen search or RAG implementation: corpus, chunking, baselines, citations, evaluation artifacts, traces, and production constraints."
 related:
   - Portfolio Projects
   - RAG Portfolio Projects
@@ -14,10 +14,10 @@ related:
   - Graph RAG vs Vector RAG
 ---
 
-Use this search or RAG checklist after choosing the project idea. It turns one
-specific system into a reviewable README, notebook, or project page. Use
-[[RAG Portfolio Projects]] first when the decision is still about project type,
-and use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the evaluation
+After choosing a search or RAG project idea, this checklist turns one specific
+system into a reviewable README, notebook, or project page. [[RAG Portfolio Projects]]
+covers project categories and role signals, while
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers the evaluation
 procedure.
 
 For the chosen project, prove retrieval before generation. A reviewer should see
@@ -30,11 +30,9 @@ Show these parts on the project page:
 - retrieval baselines and citations
 - evaluation, traces, and production tradeoffs
 
-Use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-for the base concept and
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-for the detailed eval workflow.
+Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
+base concept and [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the
+detailed eval workflow.
 For sequencing retrieval work inside a larger product plan, use the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
@@ -51,9 +49,10 @@ failure categories, and MVP logs and traces
 
 ## Corpus Evidence and Chunking
 
-Choose the corpus named by the project idea. Podcast transcripts, support docs,
-and policy documents work when the answer needs source grounding. Research
-papers, product manuals, and internal wiki exports can work too.
+Choose the corpus named by the project idea, such as podcast transcripts or
+support docs. Policy documents, research papers, product manuals, and wiki
+exports can also work. The corpus only works when the answer needs source
+grounding and the project can cite those sources.
 
 Show why that corpus needs retrieval and what a citation references. For
 transcript data, cite the episode and guest. For documents, cite the title and
@@ -64,7 +63,7 @@ by speaker turn or question. It can also be chunked by chapter or time window.
 Documents can be chunked by heading, section, or a sliding token window.
 
 Atita's transcript example uses chunking and overlap with embeddings and
-retrieval. It also covers prompt design and citations
+retrieval. The answer path then includes prompt design and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Chunking, Overlap, and Embeddings]].
 The same project evidence belongs with
@@ -75,7 +74,7 @@ Large context windows don't remove chunking decisions.
 [[person:lavanyagupta=>Lavanya Gupta]] discusses
 long-context evaluation and degradation
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
-A project can use that evidence to justify testing chunk size, overlap, and
+A project can cite that evidence when it tests chunk size, overlap, and
 retrieval count instead of stuffing every source into one prompt.
 
 ## Retrieval Baselines
@@ -91,12 +90,9 @@ order by separating candidate retrieval from ranking, explaining embeddings,
 and covering hybrid search with filters and recency
 [[cite:building-production-search-systems=>Building Search Systems]].
 
-Use
-[[Vector Database vs Search Engine]]
-when the project compares a standalone vector store with an existing search
-stack. Use
-[[Production Search Evaluation]]
-and [[search-relevance=>search relevance]]
+Link to [[Vector Database vs Search Engine]] when the project compares a
+standalone vector store with an existing search stack. Link to
+[[Production Search Evaluation]] and [[search-relevance=>search relevance]]
 when relevance metrics or business outcomes matter.
 
 [[person:meryemarik=>Meryem Arik]] gives the RAG reason
@@ -119,8 +115,8 @@ source chunk a reviewer can open.
 
 Atita's RAG discussion places prompt design and citations after retrieval
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Preserve that order in the review page: first prove the retriever found useful
-context, then prove the prompt used it correctly.
+In the review, first prove the retriever found useful context. Then prove the
+prompt used it correctly.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] draws the
 boundary between RAG and agents
@@ -135,10 +131,10 @@ the task requires API calls, multi-step coordination, or external actions.
 
 ## Evaluation Artifacts
 
-Show enough evaluation evidence for a reviewer to trust the project, but keep
-the full procedure on [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In
-this checklist, verify that reviewers can see the tests, traces, and failure
-labels that support the project claim.
+Show enough evaluation evidence for a reviewer to trust the project. Keep the
+full procedure on [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In this
+checklist, verify that reviewers can see the tests, traces, and failure labels
+that support the project claim.
 
 At minimum, link each eval run to:
 
@@ -157,8 +153,8 @@ Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for gold examples,
 retrieved-context checks, and answer scoring. It also covers human review and
 production feedback.
 
-Ranjitha extends the same idea to tool and agent workflows with custom
-datasets, mocked tools, integration tests, and outcome assertions
+Ranjitha extends the same idea to tool and agent workflows with custom datasets,
+mocked tools, integration tests, and outcome assertions
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 That agent-evaluation evidence belongs with [[LLM Evaluation Workflows]] and
 [[Testing]].
@@ -173,11 +169,9 @@ She contrasts text chunking and embeddings with graph semantics. She also
 discusses prompt templates that use Cypher-style graph queries for retrieval
 context.
 
-Use [[Graph RAG vs Vector RAG]]
-or
-[[Knowledge Graph vs Vector Search]]
-when questions depend on explicit relationships, provenance paths, entities, or
-domain semantics.
+Link to [[Graph RAG vs Vector RAG]] or [[Knowledge Graph vs Vector Search]] when
+questions depend on explicit relationships, provenance paths, entities, or domain
+semantics.
 
 Graph or structured retrieval changes the checklist fields too. A vector RAG
 project should show chunks, embeddings, similarity scores, and citation

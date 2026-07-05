@@ -20,11 +20,13 @@ related_wiki:
 DataOps tools help data teams change pipelines with review, tests, alerts, and
 recovery paths instead of memory and manual checks.
 
-DataOps tool selection sits below the operating model. It covers change review
-and CI/CD, orchestration and tests, observability and lineage, plus deployment
-and recovery. [[DataOps]] owns the operating model, [[dataops-engineer-role=>DataOps Engineer Role]]
-owns staffing and responsibilities, and [[DataOps Platforms]] owns shared
-services and paved paths.
+DataOps tool selection sits below the operating model. It covers the categories
+a team needs for change review and CI/CD. It also covers orchestration, tests,
+observability, and lineage. Deployment and recovery belong in the same tool
+map. [[DataOps]] owns the operating discipline,
+[[dataops-engineer-role=>DataOps Engineer Role]] owns staffing and
+responsibilities, and [[DataOps Platforms]] owns shared services and
+self-service paths.
 
 DataOps connects reviewed changes and tested releases through CI/CD, then uses
 observability and recovery playbooks to keep the release path operational
@@ -34,7 +36,7 @@ Terragrunt plans through Atlantis
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 Those tools sit inside [[data engineering]] and
 [[data-engineering-platforms=>data platform]] work. Scalable platform
-components are part of that model
+components set the tool boundary
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 The [[modern data stack]] connects ingestion and orchestration with warehouses,
 dbt, and reverse flows
@@ -48,8 +50,8 @@ orchestration, storage and transformation, plus activation and analytics.
 ## Categories Across a Change Lifecycle
 
 A practical DataOps stack supports the lifecycle of a data change. It doesn't
-have to be one platform. Most teams connect several tools through Git and
-CI/CD, plus an orchestrator, observability, and incident response.
+have to be one platform. Most teams connect Git and CI/CD. They add an
+orchestrator, observability, and incident response.
 
 At minimum, the stack should help the team do these jobs:
 
@@ -74,9 +76,8 @@ The categories work together because a test framework without version control is
 weak. An orchestrator without ownership leaves people guessing, and observability
 without runbooks can create alerts that nobody acts on.
 
-A team that standardizes templates and managed services is no longer comparing
-isolated tools. When it also needs access flows and support paths,
-[[DataOps Platforms]] becomes the stronger frame.
+A team that standardizes templates, managed services, access flows, and support
+paths has moved from tool choice into [[DataOps Platforms]].
 
 ## Match Tools to the Operating Problem
 
@@ -160,9 +161,8 @@ data:
 
 Small teams can start with GitHub Actions, GitLab CI, or a managed build tool.
 Larger platform teams may standardize templates so every data project doesn't
-invent its own release path. That standardization matters when a company moves
-from individual pipelines to a shared
-[[data-engineering-platforms=>data engineering platform]].
+invent its own release path. [[DataOps Platforms]] owns that shared-service
+operating model.
 
 ## Orchestration
 
@@ -185,8 +185,8 @@ The orchestrator coordinates the work. Ingestion tools, SQL engines,
 warehouses, and transformation tools do the domain work.
 
 A platform can use Luigi as a data build system, with storage, compute, and
-workflow engines as core platform components. Batch, micro-batch, and streaming
-choices have different tradeoffs.
+workflow engines as core components. Batch, micro-batch, and streaming choices
+have different tradeoffs.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Scheduler choice belongs with [[Orchestration]]. DataOps needs orchestration,
@@ -283,7 +283,7 @@ Recovery depends on metadata that helps people answer the alert:
 Tool decisions that include access control, privacy, lineage, and policy
 overlap with [[Data Governance]].
 
-## Runtime and Platform Choices
+## Runtime Tools
 
 Deployment tools turn reviewed changes into running data systems. Teams may use
 containers, serverless jobs, Kubernetes, or cloud batch services.
@@ -301,9 +301,8 @@ version drift can break data work
 Choose the runtime that fits the operating need, and learn Docker before
 jumping into Kubernetes. Don't add a cluster when a managed job is enough.
 
-ML systems inherit this data reliability layer. Production ML platforms still
-need workflow orchestration, metadata, lineage, and reproducible upstream data
-paths
+ML systems inherit this data reliability layer. Production ML tools still need
+workflow orchestration, metadata, lineage, and reproducible upstream data paths
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 When the discussion moves to model artifacts, serving, or model monitoring, use
 [[MLOps Tools]] and [[MLOps vs DataOps]]. Model monitoring often exposes ETL,
@@ -383,8 +382,8 @@ Choose DataOps tools by failure mode.
   and consumer maps.
 - If incidents repeat, add runbooks, backfill automation, rollback paths, and
   postmortems.
-- If every team rebuilds the same setup, add platform templates and
-  self-service defaults.
+- If every team rebuilds the same setup, move the question to platform
+  templates and self-service defaults.
 
 A small analytics team may need only Git, dbt tests, scheduled jobs, and basic
 monitors. A platform team supporting many domains may need standardized CI/CD.

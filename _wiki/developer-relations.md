@@ -26,9 +26,9 @@ building the product
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 DevRel is the role and operating practice. [[Open Source and Developer Relations]]
-owns the version where DevRel has to work through maintainers, governance,
+covers the version where DevRel has to work through maintainers, governance,
 contribution paths, or open-source business models. [[Community Building]] and
-[[Community]] own member participation, moderation, events, and peer-to-peer
+[[Community]] cover member participation, moderation, events, and peer-to-peer
 support.
 
 Hugo Bowne-Anderson's freelance path keeps DevRel connected to consulting,
@@ -136,7 +136,7 @@ surrounding work, not only the main product
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
 
 In Adrian Brudaru's data-tool startup version, the team used `dlt` workshops as
-a product feedback loop because teaching showed where users got stuck.
+a product feedback channel because teaching showed where users got stuck.
 Checkpoints, live support, and CodeSpaces made that friction visible enough to
 improve the developer path
 ([[cite:from-data-freelancer-to-startup-open-source-products@36:00=>Workshop validation]],
@@ -168,12 +168,13 @@ Open-source DevRel has an extra constraint because the project community must
 keep its own credibility. Airbyte's open-source-plus-cloud model raises
 competition and licensing questions
 ([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]).
-The scikit-learn discussion adds governance pressure through project history
-and maintainer transition
+The scikit-learn discussion adds governance pressure through project history and
+maintainer transition
 ([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
-Use [[Open Source and Developer Relations]] for that bridge. Use [[Open Source]]
-for stewardship and licensing, and [[Contributing]] for issue, docs, and pull
-request mechanics.
+
+[[Open Source and Developer Relations]] covers that bridge. [[Open Source]]
+covers stewardship and licensing, while [[Contributing]] covers issue, docs, and
+pull-request mechanics.
 
 ## Adoption Metrics and Product Feedback
 
@@ -213,7 +214,8 @@ demo, look at the code, and connect what they learned to real work.
 The evangelism side covers AI evangelism, positioning, and messaging strategy,
 recommending one to three clear takeaways and calls to action
 ([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
-DevRel can use that skill, but it doesn't replace the technical feedback loop.
+DevRel can use that skill, but it doesn't replace technical feedback from
+developers who try the tool.
 
 DevRel teams should treat conference work as part of that overlap when it
 creates useful developer education rather than only awareness. Ben Taylor
@@ -222,9 +224,9 @@ novelty and enough ambition to stretch the speaker. Speakers can then build a
 speaker resume from smaller venues toward keynotes
 ([[cite:public-speaking-for-data-scientists@50:20=>Conference proposals]],
 [[cite:public-speaking-for-data-scientists@53:48=>Speaker resume]]).
-Use [[data-ai-conference-building=>data and AI conference building]] for full
-event work around speaker selection, sponsor fit, pricing, and networking.
-A technical event stays credible for practitioners when organizers handle those
+[[data-ai-conference-building=>Data and AI conference building]] covers full
+event work around speaker selection, sponsor fit, pricing, and networking. A
+technical event stays credible for practitioners when organizers handle those
 choices carefully
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 

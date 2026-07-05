@@ -23,9 +23,10 @@ instead of being scattered across data engineers, platform engineers, and
 on-call support.
 
 [[DataOps]] covers the operating discipline, while [[DataOps Platforms]] covers
-the shared platform and self-service layer. [[DataOps vs Data Engineering]]
-covers the build-versus-operate boundary. The role boundary covers
-responsibilities. It also covers nearby roles and staffing signals.
+the shared platform and self-service layer. [[DataOps Tools]] covers tool
+categories. [[DataOps vs Data Engineering]] covers the build-versus-operate
+boundary. The role boundary is responsibility, nearby-role overlap, and
+staffing signals.
 
 The DataOps engineer role isn't just another name for a
 [[data-engineer-role=>data engineer]].
@@ -52,11 +53,11 @@ private knowledge
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps]]
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 
-The DataOps engineer owns review and release gates, test paths, and deployment
-automation. They also own monitoring signals, lineage, runbooks, and recovery
-paths. [[DataOps Tools]] names the tool categories. [[DataOps Platforms]] covers
-the shared service layer. The role is accountable for whether people can follow
-those paths consistently.
+The DataOps engineer owns whether people can follow the operating path
+consistently. They keep review gates and release gates usable. They also keep
+test paths and deployment automation connected to monitoring signals. Lineage,
+runbooks, and recovery paths stay in that route. [[DataOps Tools]] names the
+tool categories, and [[DataOps Platforms]] covers the shared service layer.
 
 This role also includes support and communication work. Hinc puts DataOps close
 to onboarding, proactive support, and troubleshooting. Monitoring education and
@@ -130,9 +131,9 @@ has to own that practice across teams.
 ## Boundaries With Nearby Roles
 
 The boundary with a data engineer is build versus operate-at-scale. Data
-engineers build ingestion jobs, transformations, schemas, and orchestrated
-workflows. They also build data models. The DataOps engineer standardizes tests,
-deployment, monitoring, and recovery around those pipelines.
+engineers build ingestion jobs and transformations. They also build schemas,
+orchestrated workflows, and data models. The DataOps engineer standardizes
+tests, deployment, monitoring, and recovery around those pipelines.
 
 [[person:santonatuli=>Santona Tuli]] maps the pipeline surface through
 ingestion, orchestration, and modeling. Marts, dashboards, and metrics complete
@@ -149,17 +150,16 @@ data delivery.
 
 Data delivery includes source changes, dataset publication, and orchestration.
 Quality signals, lineage, backfills, and recovery stay in the same operating
-path. Those responsibilities often meet inside [[Data Engineering Platforms]] and
-[[DataOps Platforms]]
+path. Those responsibilities often meet inside [[Data Engineering Platforms]]
+and [[DataOps Platforms]]
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 During production ML incidents, teams split ownership with the [[MLOps
 engineer]]. MLOps owns model artifacts and serving. It also owns model
 monitoring, retraining, and registry handoff.
 
-DataOps owns upstream ingestion, transformations, and data recovery.
-[[person:dannyleybzon=>Danny Leybzon]] makes the overlap explicit when model
-monitoring traces failures back into ETL, data pipelines, and upstream root
+DataOps owns upstream ingestion, transformations, and data recovery. Model
+monitoring can trace failures back into ETL, data pipelines, and upstream root
 causes
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 [[MLOps vs DataOps]] covers the model-incident ownership split.

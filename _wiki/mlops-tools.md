@@ -22,18 +22,18 @@ deployed, monitored, explained, and changed safely. The useful stack isn't the
 longest vendor list. It's the smallest set of tools and conventions that makes
 the model lifecycle repeatable for the team running it.
 
-Use [[MLOps Architecture]] for the component boundaries before choosing tools.
-Use [[MLOps Roadmap]] for the order to learn or roll them out, and use
-[[MLOps Engineer]] for shared-path ownership. Choose tools by category and
+[[MLOps Architecture]] should define component boundaries before tool
+selection. [[MLOps Roadmap]] covers the order to learn or roll tools out, and
+[[MLOps Engineer]] covers shared-path ownership. Choose tools by category and
 tradeoff, starting from the team's operating constraints. New tools don't solve
-organizational problems by themselves. Large companies often
-already have Kubernetes plus existing version control, CI/CD, orchestration,
-and deployment infrastructure
+organizational problems by themselves. Large companies often already have
+Kubernetes plus existing version control, CI/CD, orchestration, and deployment
+infrastructure
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 
 ## Stack Jobs
 
-Teams use a practical MLOps stack to cover seven jobs:
+Production MLOps stacks usually cover seven jobs:
 
 1. Track the code, data reference, parameters, metrics, environment, and
    artifact behind each meaningful model run.
@@ -194,9 +194,10 @@ also start in feature pipelines or real-world distribution changes. That's the
 reason to keep MLOps separate from DataOps while still connecting the two
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
-Use [[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
-when tool selection turns into an ownership question. It separates
-model-specific prediction logging from upstream data observability and lineage
+[[model-monitoring-vs-data-observability=>Model monitoring vs data observability]]
+separates model-specific prediction logging from upstream data observability
+and lineage. That split matters when tool selection turns into an ownership
+question
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 For tool selection, prefer products that connect to data observability and

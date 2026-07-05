@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11918
+    "links": 11893
   },
   "nodes": [
     {
@@ -425,7 +425,7 @@
       "title": "Graph RAG vs Vector RAG",
       "url": "/wiki/graph-rag-vs-vector-rag/",
       "count": 1,
-      "search": "Graph RAG vs Vector RAG How graph driven retrieval compares with vector driven retrieval for grounded LLM systems.",
+      "search": "Graph RAG vs Vector RAG How relationship retrieval compares with vector retrieval inside RAG prompt context.",
       "keyword": "graph rag vs vector rag"
     },
     {
@@ -611,7 +611,7 @@
       "title": "MLOps Architecture",
       "url": "/wiki/mlops-architecture/",
       "count": 1,
-      "search": "MLOps Architecture Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback paths.",
+      "search": "MLOps Architecture MLOps architecture as a component map for data, training, registries, CI/CD, serving, monitoring, and ownership boundaries.",
       "keyword": "mlops architecture"
     },
     {
@@ -622,7 +622,7 @@
       "title": "MLOps Roadmap",
       "url": "/wiki/mlops-roadmap/",
       "count": 1,
-      "search": "MLOps Roadmap A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and project milestones."
+      "search": "MLOps Roadmap MLOps learning and rollout order from reproducible experiments to deployment, monitoring, retraining decisions, and shared platform adoption."
     },
     {
       "id": "wiki:mlops-vs-dataops",
@@ -10404,7 +10404,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects RAG portfolio project ideas organized around retrieval quality, citations, evaluation, and production tradeoffs."
+      "search": "RAG Portfolio Projects RAG portfolio project categories and the hiring signals each category can show."
     },
     {
       "id": "wiki:recommendation-systems",
@@ -10454,7 +10454,7 @@
       "title": "Retrieval-Augmented Generation",
       "url": "/wiki/retrieval-augmented-generation/",
       "count": 1,
-      "search": "Retrieval Augmented Generation RAG across retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
+      "search": "Retrieval Augmented Generation RAG architecture across retrieval, context design, generation, citation, and system boundaries."
     },
     {
       "id": "wiki:reverse-etl",
@@ -10525,7 +10525,7 @@
       "title": "Search/RAG Project Checklist",
       "url": "/wiki/search-and-rag-project-checklist/",
       "count": 1,
-      "search": "Search/RAG Project Checklist Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
+      "search": "Search/RAG Project Checklist Review checklist for one chosen search or RAG implementation: corpus, chunking, baselines, citations, evaluation artifacts, traces, and production constraints."
     },
     {
       "id": "wiki:security",
@@ -30698,12 +30698,6 @@
     },
     {
       "source": "wiki:community",
-      "target": "person:elleobrien",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:community",
       "target": "person:saraelateif",
       "kind": "wiki-chip",
       "weight": 1
@@ -46814,12 +46808,6 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
       "target": "person:santonatuli",
       "kind": "wiki-chip",
       "weight": 1
@@ -53477,6 +53465,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
@@ -65180,12 +65174,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "book:20210607-building-machine-learning-pipelines",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "book:20210705-engineering-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -65199,12 +65187,6 @@
     {
       "source": "wiki:mlops",
       "target": "podcast:data-science-failures-and-mlops-lessons",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65240,12 +65222,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
       "kind": "wiki-chip",
       "weight": 1
@@ -65253,24 +65229,6 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:agent-ops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:ai-for-finance-decision-support",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:annotation-quality-workflows",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65318,12 +65276,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "wiki:governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "wiki:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -65337,12 +65289,6 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:machine-learning-infrastructure",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -65361,20 +65307,8 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:mlops-adoption-at-scale",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -65481,20 +65415,8 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:production",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "wiki:reproducibility",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -65726,12 +65648,6 @@
     },
     {
       "source": "wiki:mlops-architecture",
-      "target": "person:geojolly",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
       "target": "person:linaweichbrodt",
       "kind": "article-chip",
       "weight": 1
@@ -65739,12 +65655,6 @@
     {
       "source": "wiki:mlops-architecture",
       "target": "person:mariavechtomova",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
-      "target": "person:nemanjaradojkovic",
       "kind": "article-chip",
       "weight": 1
     },
@@ -65888,12 +65798,6 @@
     },
     {
       "source": "wiki:mlops-architecture",
-      "target": "wiki:developer-experience",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
       "target": "wiki:experiment-tracking",
       "kind": "article-chip",
       "weight": 1
@@ -66021,12 +65925,6 @@
     {
       "source": "wiki:mlops-architecture",
       "target": "wiki:orchestration",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
-      "target": "wiki:platform-adoption",
       "kind": "article-chip",
       "weight": 1
     },
@@ -66327,54 +66225,6 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "person:benwilson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:dannyleybzon",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:jeffkatz",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:linaweichbrodt",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:mariavechtomova",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:simonstiebellehner",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "person:valeriybabushkin",
       "kind": "article-chip",
       "weight": 1
     },

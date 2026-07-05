@@ -23,11 +23,10 @@ stage. The role sits inside [[MLOps]] and often overlaps with [[ML platforms]],
 [[machine-learning-engineer-role=>machine learning engineering]],
 [[data-engineer-role=>data engineering]], and [[platform engineering]].
 
-Use [[MLOps Architecture]] for the component map and [[MLOps Roadmap]] for the
-learning sequence. Use [[MLOps Tools]] for stack categories and selection. In
-practice, an MLOps engineer turns the architecture into repositories and
-pipelines. They also establish registries, serving paths, monitoring, and
-support habits
+[[MLOps Architecture]] maps the components. [[MLOps Roadmap]] orders the
+learning sequence, and [[MLOps Tools]] covers stack categories. The MLOps
+engineer owns repositories, pipelines, and registries. They also own serving
+paths, monitoring hooks, and support habits that make those pieces usable
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
@@ -155,19 +154,6 @@ role prevents:
   ([[Governance]],
   [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
-Start from a concrete failure. If a team can't reproduce old experiments, start
-with tracking and artifact discipline. Experiment tracking can be a low-hanging
-platform win
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-
-When models can't be deployed safely, use one release path and CI/CD.
-Deployment pain and CI/CD are tangible starting points for shared MLOps work
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-For invisible production behavior, start with logging and monitoring. Add
-response ownership
-([[Model Monitoring]],
-[[MLOps Tools]]).
-
 ## Skills
 
 An MLOps engineer needs enough software engineering to make ML work testable and
@@ -211,9 +197,10 @@ Debugging and user feedback belong there too. Post-mortems and incident
 response are part of the same work
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 
-Tooling advice is part of that communication work. Teams need help navigating
-build-versus-buy, integration burden, and platform fit. They don't only need
-help installing another monitoring library
+Tooling advice is part of that communication work when role ownership includes
+architecture support. Teams need help navigating build-versus-buy, integration
+burden, and platform fit. They don't only need help installing another
+monitoring library
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
 
 At senior level, MLOps engineers add architecture judgment, but Danny Leybzon's
@@ -287,7 +274,7 @@ Serving and model monitoring are too
 
 ## Growth Signals
 
-Use [[MLOps Roadmap]] for the step-by-step build sequence. For the role, focus
+[[MLOps Roadmap]] covers the step-by-step build sequence. Role growth depends
 on which responsibilities the engineer can own.
 
 At the first level, an MLOps engineer can make one model reproducible. They can

@@ -97,9 +97,9 @@ show what changed, why it matters, and which decision should follow
 That connects the role to [[Communication]], [[Metrics]], and
 [[Experimentation]], not only to BI tooling.
 
-## Skill Stack
+## Role Skill Stack
 
-The skill stack is practical and communication-heavy.
+Analysts need a practical, communication-heavy skill stack.
 
 SQL is the central technical skill for joins, aggregation, and window functions.
 Analysts also use it for dates, funnels, and cohorts. They need enough data
@@ -108,17 +108,17 @@ fundamentals, alongside soft skills and product understanding. Cohort analysis
 and retention metrics are examples of product analytics work.[[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Data Analytics Curriculum]]
 
 BI and visualization matter because analysts communicate through dashboards,
-charts, and recurring views. A practical path starts with Excel and SQL. It then
-adds dashboard practice and small projects. Later work adds Looker and LookML
-plus reporting and dashboard building.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
+charts, and recurring views. Analyst work can include Excel, SQL, and dashboard
+practice. It can also include Looker and LookML. Some teams add reporting and
+dashboard building to the same role.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
-That path connects the analyst role with [[analytics engineering]] when modeled
-tables and metric definitions become reusable team assets.
+Analysts move toward [[analytics engineering]] when modeled tables and metric
+definitions become reusable team assets.
 
-The analyst toolkit can start with SQL, Excel, Tableau, and visualization. It can
-extend into Python or R plus statistics, ML theory, and experiment design.
-Storytelling and visualization stay central, while the broader stack creates a
-base for light data science work.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+The analyst toolkit can include SQL, Excel, Tableau, and visualization. It can
+also include Python or R, statistics, ML theory, and experiment design.
+Storytelling and visualization stay central when the role stretches toward
+light data science work.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 Statistics matter when the decision depends on uncertainty, but analysts don't
 need every model family. They need descriptive statistics, sampling basics, and

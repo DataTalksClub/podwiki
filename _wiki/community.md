@@ -12,14 +12,16 @@ related:
 ## Community as Shared Participation
 
 Community means shared participation around data and ML practice. Members ask
-questions and share work while they mentor each other, join events, and turn
+questions, share work, and mentor each other while they join events and turn
 learning into public contribution. In DataTalks.Club course and community
-episodes, courses, meetups, and Slack become more than one-way publishing.
-Projects and podcasts add more places to participate.
+episodes, courses and meetups give people scheduled ways to take part. Slack,
+projects, and podcasts keep participation visible between those events
+[[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]].
 
 Events and courses give people scheduled places to participate. Slack channels,
-forums, and podcasts
-keep that participation visible between events.
+forums, podcasts, and project showcases keep that participation visible between
+events
+[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary=>Building a Sustainable Data Community]].
 
 Community participation connects to several narrower pages. [[Community
 Building]] covers the organizer practice of launching, running, moderating, and
@@ -29,8 +31,8 @@ the bridge where community participation affects maintainers, contribution
 paths, or open-source trust.
 
 Forums and homepage work can start the surface area. Programs, live coding, and
-office hours keep participation active when members have places to ask questions
-and help each other learn
+office hours keep participation active when members can ask questions and help
+each other learn
 [[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]].
 
 The MLOps Community discussion keeps the same boundary
@@ -78,19 +80,17 @@ reach[[cite:building-ml-communities-diversity-and-career-growth=>How to Build an
 [[person:daniameira=>Dânia Meira]] places community inside [[data science]]
 career support, not only event programming.
 
-Developer relations places community closer to product feedback and technical
-education, while DevRel work ties to documentation and pull requests. It extends
-into video production, support, community management, and feedback as product
-signal[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
-[[person:elleobrien=>Elle O'Brien]]'s account links community to
-[[developer relations]] and
-[[technical writing]].
+Developer relations places community channels closer to product feedback and
+technical education. Elle O'Brien describes DevRel work that includes support,
+community management, and repeated user questions as product signal
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
+[[Developer Relations]] covers that role-specific practice.
 
 ## Participation Formats
 
 Community appears through formats that let members see, join, and extend the
-work. Live events and office hours handle scheduled discussion. Courses and
-competitions add guided practice.
+work. Live events and office hours handle scheduled discussion. Courses,
+competitions, hackathons, and project showcases add guided practice.
 
 Slack, podcasts, and project showcases keep participation visible between
 events. Open Source Spotlight and Minis fill out the format mix. Book of the
@@ -105,14 +105,10 @@ participate. [[Community Building]] covers cadence and automation. It also
 covers surveys, retention, and other operating choices.
 
 Hackathons and conferences give members a compressed version of the same
-practice. Hackathons teach Git, teamwork, and project building. Judging matrices
-make the work reviewable, and categories clarify what teams build
+practice. Hackathons teach Git, teamwork, and project building
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
-
-[[Data AI Conference Building]] owns venue, sponsor, and speaker decisions for
-larger events. It also owns student access and networking. On this page,
-conferences matter because they give members a dense way to meet peers and turn
-attendance into contribution
+Conferences give members a dense way to meet peers and turn attendance into
+contribution
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 
 ## Trust Makes Participation Possible
@@ -125,10 +121,9 @@ in [[Community Building]].
 Moderation protects members from vendor spam, scams, and unsafe participation
 patterns
 [[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]].
-Use [[Community Building]] for organizer practice around code of conduct,
-reporting paths, and moderation process. Use [[Developer Relations]] when the
-same trust problem appears inside public product support or open technical
-forums
+[[Community Building]] covers organizer practice around code of conduct,
+reporting paths, and moderation process. [[Developer Relations]] covers the same
+trust problem inside public product support or open technical forums
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 Team community has the same safety requirement at smaller scale. CJ Jenkins
@@ -142,7 +137,7 @@ from each other
 
 Members get more value when they can move from attendance to contribution.
 
-The community concept covers the visible participation paths:
+Visible participation paths include:
 
 - Answer questions in Slack or another forum.
 - Mentor course participants or project teams.
@@ -168,11 +163,11 @@ version of this route.
 
 Open-source communities add a maintainer perspective. Channels such as
 Discourse and Discord connect to GitHub projects. Pull request review and
-releases turn participation into project
-maintenance[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
-For individual contribution sequence and hiring evidence, use
-[[Open Source Contributor Roadmap]] and
-[[open-source-portfolio-evidence=>open-source portfolio evidence]].
+releases turn participation into project maintenance
+[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+[[Open Source Contributor Roadmap]] covers the individual contribution sequence.
+[[open-source-portfolio-evidence=>Open-source portfolio evidence]] covers the
+hiring-evidence question.
 
 ## Learning Communities
 
@@ -195,10 +190,10 @@ learning in public. Project notes, READMEs, and GitHub make that learning
 visible[[cite:datatalksclub-building-scaling-data-community=>DataTalks.Club Behind the Scenes]].
 
 The career-entry version is applying to volunteer projects with relevant-skill
-pitches, then turning community work into practical experience and
-referrals[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
-[[Open Source Contributor Roadmap]] owns the step-by-step path from first issue
-to reviewable contribution.
+pitches, then turning community work into practical experience and referrals
+[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
+The step-by-step path from first issue to reviewable contribution lives in
+[[Open Source Contributor Roadmap]].
 
 These examples connect community with
 [[data-engineer-roadmap=>data engineering learning paths]],
@@ -221,5 +216,7 @@ Community connects to adjacent pages.
   for using public contribution as career proof.
 - [[Technical Writing]] for
   tutorials, notes, talks, and project explanations.
+- [[Data AI Conference Building]]
+  for event formats, speaker work, sponsorship, and community operations.
 - [[Career Growth]] for visibility,
   mentorship, referrals, and public proof of skill.

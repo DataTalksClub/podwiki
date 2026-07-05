@@ -81,7 +81,7 @@ or
 [[Machine Learning Portfolio Projects]]. Docker, deployment, and clean code
 matter too.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 
-## Skill Stack
+## Career Skill Sequence
 
 For the full role skill stack, use [[Data Analyst Role]]. In a career plan, the
 order matters more than a long tool list.
@@ -126,8 +126,8 @@ work, and hosting choices. Clear READMEs, documentation, and organized repos
 make the work easier to review.
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
-The same evidence helps with data analyst take-home assignments. Treat the
-assignment as a small decision memo, not only a notebook. Katz describes
+Candidates can use the same evidence in data analyst take-home assignments.
+Treat the assignment as a small decision memo, not only a notebook. Katz describes
 technical take-homes as raw-data exercises. Candidates load a CSV and query it.
 Then they show findings and present them clearly
 [[cite:get-data-engineering-job-prep-and-interview@08:05=>Data Engineering Job Prep]].
@@ -148,7 +148,7 @@ excluded, the metric that changed, the caveats that remain, and the decision
 the analysis supports.
 
 Project impact and version control help a hiring manager understand the work.
-The same evidence supports
+That evidence also supports
 [[Open Source Portfolio Evidence]]
 and
 [[Analytics Engineering Portfolio Projects]].[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]

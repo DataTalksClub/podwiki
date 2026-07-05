@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Retrieval-Augmented Generation"
-summary: "RAG across retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
+summary: "RAG architecture across retrieval, context design, generation, citation, and system boundaries."
 related:
   - LLM Production Patterns
   - Search
@@ -31,11 +31,11 @@ RAG is more than one tool: search quality
 and chunk design affect answer quality. Embeddings, prompt construction,
 citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-RAG architecture connects to several applied pages. Use
-[[RAG Portfolio Projects]] for project choice and the
-[[Search and RAG Project Checklist]] for implementation review. Use
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]] for evaluation and the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the learning
+For applied RAG work, [[RAG Portfolio Projects]] covers project categories and
+portfolio signals. The [[Search and RAG Project Checklist]] reviews one
+implementation, while [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+covers eval runs, labels, and traces. The
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers learning
 and rollout sequence.
 For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
 adjacent design where retrieval supplies schema or metric context before SQL
@@ -117,9 +117,8 @@ then use transcript structure, speaker turns, and context rot to decide whether
 the chunking rule should change
 [[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
 
-Failure analysis should separate retrieval failures from prompt or formatting
-failures. Teams can then fix missing or noisy context before polishing the
-prompt.[[cite:practical-llm-engineering-and-rag=>Practical RAG]]
+Failure analysis separates missing or noisy retrieval from prompt and formatting
+problems before a team changes the generator.[[cite:practical-llm-engineering-and-rag=>Practical RAG]]
 
 Long-document systems should add another separation. First test whether raw
 long context still works for the domain. Then decide whether chunking,
@@ -129,9 +128,9 @@ instead of treating retrieval as only a workaround for small context windows
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 RAG also belongs to the broader [[llm-production-patterns=>LLM production]]
-skill stack. Engineers have to choose what knowledge to capture and how to
-organize it for retrieval. They also have to preserve provenance as retrieved
-context reaches the model.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+skill stack. Engineers have to choose what knowledge to capture, organize it for
+retrieval, and preserve provenance as context reaches the
+model.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 ## Embeddings, Search, and Knowledge Graphs
 
@@ -158,34 +157,29 @@ domains that need graph semantics.
 Those tradeoffs belong with [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
 and [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]].
 
-## Evaluation Boundaries
+## Evaluation Boundary
 
-RAG evaluation has at least two layers: retrieval quality and answer quality.
-The system can fail because retrieved chunks are wrong, stale, too broad, or
-missing source metadata. It can also fail because the prompt uses the evidence
-badly or because the answer overstates what the sources support.
+RAG evaluation splits the architecture into retrieval quality and answer quality.
+A retriever can return chunks that are wrong, stale, too broad, or missing source
+metadata. The generator can also misuse good evidence or overstate what the
+sources support.
+Multi-level evaluation keeps those failure sources separate
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-Multi-level RAG evaluation includes retrieval checks and answer
-checks.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
-Offline tests and human review are part of the same evaluation work. Gold tests
-and failure categories keep retrieval quality separate from prompting,
-formatting, and data-preparation problems.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-
-Agentic RAG needs custom datasets and system benchmarks because public model
-benchmarks don't test tool use or integration behavior. They also don't test
-the outcome of a retrieval step inside a larger agent workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-
-Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the run sequence,
-gold examples, review labels, and traces. It also covers production feedback.
-The boundary matters because one score can hide whether a failure came from
-retrieval, generation, or review.
+Agentic RAG adds another boundary. Public model benchmarks don't test tool use
+or integration behavior. They also don't test retrieval inside a larger agent
+workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+For the run sequence and gold examples, see
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]. It also covers review
+labels, traces, and production feedback.
 
 ## Production Constraints
 
-Production RAG adds latency, cost, reliability, and maintenance work. Retrieval
-requires indexing jobs, embedding computation, metadata schemas, and query-time
-latency. Reranking and reindexing may be needed when sources, ranking rules, or
-embedding models change.
+Production RAG adds latency, cost, reliability, and maintenance work around
+retrieval. Teams still need indexing jobs, embedding computation, and metadata
+schemas. They also need query-time latency budgets and reindexing plans when
+sources, ranking rules, or embedding models change.
 
 These choices sit inside broader [[LLM Deployment]] tradeoffs. For prototypes,
 teams can use hosted APIs, while production cases may need open-source models
@@ -195,9 +189,8 @@ optimization decisions.[[cite:deploying-llms-in-production-fine-tuning-retrieval
 
 Long context and agents don't remove retrieval's production constraints. They
 still leave latency, cost, source-quality, and context-noise problems to solve.
-Agentic systems add tool integration and evaluation work on top of
-retrieval. Use the agentic path when retrieval alone can't complete the task.
-In those cases, the system must choose tools, act on changing state, or
+Agentic systems add tool integration and evaluation work when retrieval alone
+can't complete the task. The system must choose tools, act on changing state, or
 coordinate multiple sources.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
 
 Use the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the

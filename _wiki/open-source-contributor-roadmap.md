@@ -31,11 +31,11 @@ For ML-library examples and maintainer expectations, use
 [[open-source-ml-contributions=>open-source ML contributions]].
 
 The broad concept lives in [[Open Source]], and
-[[Open Source Portfolio Evidence]] covers the hiring evidence. Use
-[[Open Source and Developer Relations]] when the contribution path is part of a
-company-backed DevRel program, maintainer onboarding effort, or adoption fix.
-Use [[Documentation]] and [[Technical Writing]] when the contribution is a guide,
-quickstart, or tutorial.
+[[Open Source Portfolio Evidence]] covers the hiring evidence.
+[[Open Source and Developer Relations]] covers contribution paths that are part
+of a company-backed DevRel program, maintainer onboarding effort, or adoption
+fix. [[Documentation]] and [[Technical Writing]] cover guides, quickstarts, and
+tutorials.
 
 ## Start With Reviewable Work
 
@@ -148,31 +148,27 @@ Demo-first technical content adds a simple standard. Define the goal, build a
 working walkthrough, and keep enough pace for viewers to finish the task
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
-## Portfolio Proof from Public Work
+## Package the Contribution Trail
 
 Open-source work becomes portfolio evidence when an evaluator can see the
-context, review pressure, and result. A merged PR is useful. A clear issue can
-also be useful. So can a well-tested rejected PR or a tutorial that maintainers
-share.
+context, review pressure, and result. A merged PR is useful. A clear issue, a
+well-tested rejected PR, or a tutorial that maintainers share can also help.
 
-The evidence should point back to
-[[Portfolio Projects]] instead
-of sitting as an unexplained GitHub link. For pipeline work, connect it to
-[[Data Engineering Portfolio Projects]].
-For model or ML-tool work, connect it to
-[[Machine Learning Portfolio Projects]].
+The contribution trail should point back to
+[[Portfolio Projects]] instead of sitting as an unexplained GitHub link. For
+pipeline work, connect it to [[Data Engineering Portfolio Projects]]. For model
+or ML-tool work, connect it to [[Machine Learning Portfolio Projects]].
 
-Public progress, corrections, and an owned blog make work discoverable.
-Collaborative docs and cheat sheets help others evaluate the contribution
-context. Demos and brag documents support the same public evidence for reviewers
+Public progress and corrections make work discoverable. A blog gives those
+updates a stable home
 ([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]).
 
-Public collaboration and referrals can be practical experience for career
-switchers. Beginner-friendly roles can serve the same purpose. Social-impact AI
-work helps when artifacts are visible. Hugging Face computer-vision
-contributions can do the same
-([[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering in AI]],
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>Biology to Machine Learning]]).
+Social-impact AI work helps when the public artifact shows the contributor's
+role
+([[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering in AI]]).
+Hugging Face computer-vision contributions can show the same role signal
+([[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>Biology to Machine Learning]]).
+[[Open Source Portfolio Evidence]] covers the detailed hiring package.
 
 ## Maintainer-Aware Contributions
 

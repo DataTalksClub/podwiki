@@ -10,7 +10,6 @@ secondary_keywords:
   - "llm rag evaluation"
   - "retrieval augmented generation evaluation"
 summary: "A practical workflow for RAG eval: user tasks, gold examples, retrieval checks, answer checks, citations, review, traces, and feedback."
-search_intent: "Help readers who search for a RAG evaluation workflow understand how to test retrieval, answer grounding, citations, human review, logs, and production feedback using DataTalks.Club podcast evidence."
 related_wiki:
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
@@ -38,10 +37,10 @@ answer came from retrieval, prompting, formatting, or another part of the
 system.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
-concept boundary, [[RAG Portfolio Projects]] for project-type choice, and the
-[[Search and RAG Project Checklist]] for implementation review fields. Use the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the wider
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers the
+concept boundary, [[RAG Portfolio Projects]] covers project-type choice, and the
+[[Search and RAG Project Checklist]] covers implementation review fields. The
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers the wider
 learning and rollout sequence.
 
 Search evaluation starts before answer scoring because chunking and embeddings
@@ -51,9 +50,9 @@ RAG evaluation a [[context-engineering=>context engineering]] workflow, not only
 an answer-scoring workflow.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@50:52=>Human-in-the-Loop RAG Evaluation]]
-RAG evaluation therefore sits inside
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
-[[Production Search Evaluation]], not only answer scoring.
+RAG evaluation therefore connects
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] with
+[[Production Search Evaluation]] instead of reducing the work to answer scoring.
 
 ## Start With User Tasks
 
@@ -77,7 +76,7 @@ For each task, record:
 5. The evidence that must be retrieved.
 6. The refusal or escalation behavior when evidence is missing.
 
-Use these task records in the [[Search and RAG Project Checklist]] when the
+Put these task records in the [[Search and RAG Project Checklist]] when the
 evaluation backs a portfolio project or project README.
 
 ## Build Gold Examples
@@ -100,9 +99,8 @@ Create examples that include:
 Changing knowledge makes retrieval a better fit than continuous retraining.
 Gold-standard examples and human evaluation still belong in the quality loop.
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-Use
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-when the failure might belong to retrieval, model behavior, or both.
+Link to [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the failure might belong
+to retrieval, model behavior, or both.
 
 ## Check Retrieval First
 
@@ -143,7 +141,7 @@ This is the retrieval side of
 [[Information Retrieval]].
 It also gives the team concrete [[context-engineering=>context engineering]]
 inputs to look at before rewriting the prompt.
-Use [[Vector Database vs Search Engine]] when the evaluation shows a storage or
+Link to [[Vector Database vs Search Engine]] when the evaluation shows a storage or
 search-stack decision.
 
 ## Check Answers And Citations
@@ -184,8 +182,8 @@ from becoming one undifferentiated score.
 Use human review to discover the failure taxonomy and label the failure source.
 
 The problem may be missing documents, poor chunking, or weak ranking. It may
-also be bad prompt context or model behavior. Stale data and missing citations
-can be separate labels. Product policy can be its own label.
+also be bad prompt context or model behavior. Stale data, missing citations, and
+product policy can each get separate labels.
 
 Custom datasets and system benchmarks belong in the same evaluation workflow.
 When retrieval is part of an agentic workflow, add mocked tools, integration
@@ -210,7 +208,7 @@ Store review labels as structured fields:
 9. `refusal_failed`
 10. `format_failed`
 
-Use [[Agent Engineering]] only when the workflow needs planning, tools, or
+Link to [[Agent Engineering]] only when the workflow needs planning, tools, or
 action. Some products only need RAG. Others need an agentic system that uses
 retrieval as one tool among several.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
@@ -241,7 +239,7 @@ These logs connect RAG evaluation to
 [[Model Monitoring]],
 [[MLOps]], and
 [[Production Search Evaluation]].
-Use [[LLM Production Patterns]] when traces become a monitoring and operations
+Link to [[LLM Production Patterns]] when traces become a monitoring and operations
 design question.
 
 ## Feed Production Back Into The Eval Set

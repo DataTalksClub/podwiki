@@ -138,9 +138,9 @@ Demetrios Brinkmann's version is deliberately operational. Recruit speakers with
 persistence, meet members where they already consume content, and run periodic
 surveys with an incentive instead of guessing what the community wants.
 
-Individual writers use a lighter version of the same growth loop. They publish
-consistently through social channels such as Twitter and LinkedIn. Over time,
-like-minded readers find the work
+Individual writers use a lighter version of the same growth practice. They
+publish consistently through social channels such as Twitter and LinkedIn. Over
+time, like-minded readers find the work
 ([[cite:technical-writing-for-data-scientists@48:30=>Audience growth through distribution]]).
 
 Ruslan Shchuchkin gives the lean local-AI version. Start with a simple meetup
@@ -172,21 +172,17 @@ members it's supposed to help.
 Community building overlaps with
 [[open-source-and-developer-relations=>open-source and developer relations]]
 when a group organizes around tools, contributions, demos, and technical
-education.
+education. The community-building work is still narrower: organizers make
+participation repeatable and safe. DevRel helps developers adopt a tool and
+routes feedback back to the builders. Open-source maintainers still need
+reviewable issues, docs, and pull requests.
 
-The organizer's job is to make participation repeatable and safe. The DevRel
-job is to help developers adopt a tool and route feedback back to the builders.
-The open-source bridge adds maintainer capacity, public trust, and reviewable
-contribution paths. Keeping those jobs separate prevents a community calendar
-from becoming a substitute for documentation, product support, or maintainer
-work.
-
-Open-source education programs form a path to full-time developer advocacy.
-That path depends on pull-request quality, Git skills, and contributor
-onboarding. It also connects to documentation, demos, and outreach
+Open-source education programs matter here when organizers design the setting.
+They choose mentorship and Git practice. They also choose setup help, office
+hours, and review expectations
 ([[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]).
-For the individual contributor sequence, use the
-[[Open Source Contributor Roadmap]].
+[[Open Source Contributor Roadmap]] covers the individual sequence after the
+program points someone toward an issue or pull request.
 
 DataTalks.Club formats can support this boundary. Open Source Spotlight gives
 maintainers a place to explain their work. It also gives members a low-pressure
@@ -199,8 +195,8 @@ Events work operationally when they lead to the next useful action. A talk can
 lead to a Slack thread or office hours. It can also lead to a project
 submission, a teaching assistant role, or a new event organized by a member.
 When the next step is a pull request, issue, or demo repository,
-[[Contributing]] and the [[Open Source Contributor Roadmap]] own the individual
-path.
+[[Contributing]] and the [[Open Source Contributor Roadmap]] cover the
+individual path.
 
 The MLOps community began with meetups and a podcast-like event format. It then
 shifted focus to core contributors and advisory groups. That created paths for
@@ -215,8 +211,8 @@ Organizing hackathons is leadership and coordination practice. Will Russell
 describes online hackathon formats, office hours, judging matrices, and
 sponsor-driven categories
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
-A good event gives participants a bounded challenge, feedback, and a public
-reason to finish.
+Those organizer choices give participants a bounded challenge, feedback, and a
+public reason to finish.
 
 DataTalks.Club uses similar contributor paths. Project of the Week,
 competitions, and portfolios give members concrete ways to contribute
@@ -259,9 +255,9 @@ sponsor relationships become part of the community operating system. Student
 access, speaker work, and practitioner exchange do too
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Data Makers Fest]].
 
-Use [[Data AI Conference Building]] for conference-specific work because
-conference organizers own venue and speaker curation there. They also own
-sponsorship, pricing, timetable design, and networking.
+[[Data AI Conference Building]] covers conference-specific work such as venue
+and speaker curation. It also covers sponsorship, pricing, timetable design, and
+networking.
 
 ## Related Pages
 

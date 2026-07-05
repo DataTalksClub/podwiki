@@ -27,12 +27,13 @@ They also use it to release, observe, and recover those changes. For the
 authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
 
-The discipline sits beside [[Data Engineering]] and [[MLOps]], but it doesn't
-replace either one. [[DataOps vs Data Engineering]] owns the build-versus-operate
-comparison, while [[MLOps vs DataOps]] owns the model-incident boundary.
-[[DataOps Platforms]] owns the shared platform and self-service layer.
-[[dataops-engineer-role=>DataOps engineer role]] covers the job-shaped version
-of the same operating work.
+DataOps sits beside [[Data Engineering]] and [[MLOps]], but it doesn't replace
+either one. Teams use it across the operating lifecycle. They review and release
+data changes, then observe, recover, and improve them. [[DataOps vs Data
+Engineering]] covers the build-versus-operate comparison, while [[MLOps vs
+DataOps]] covers the model-incident boundary. [[DataOps Platforms]] covers the
+shared service layer, [[DataOps Tools]] covers tool categories, and the
+[[dataops-engineer-role=>DataOps engineer role]] covers staffing.
 
 Fragile data changes create errors, and Bergh frames DataOps as the response
 [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps]].
@@ -70,8 +71,8 @@ Ownership, SLAs, and runbooks connect [[Data Quality and Observability]] to
 operational recovery.
 
 [[DataOps Checks for Data Pipelines]] owns concrete pre-release and post-release
-checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also owns
-lineage, runbooks, and deployment paths.
+checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also
+covers lineage, deployment, and runbook tooling rather than the discipline.
 
 ## Adoption Patterns
 
@@ -159,16 +160,17 @@ reacting to incidents one by one.
 [[data-quality-and-observability=>Data Observability]] own the monitoring layer.
 [[DataOps Tools]] owns checks, alerts, lineage, and runbook categories.
 
-## Platforms, Roles, and Boundaries
+## Platform, Role, and Model Boundaries
 
-DataOps becomes platform work when many teams need one reliable path for
-pipeline changes. Warehouse changes, access, and recovery use that path too.
-Self-service needs workflows and tooling. It also needs continuous deployment
-and support
+DataOps becomes platform work when many teams need one reliable path for data
+changes. The shared path includes workflows and self-service. It also includes
+continuous deployment and support
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-[[DataOps Platforms]] owns platform components and release paths. It also owns
-observability integrations, governance, access, and platform packaging choices.
+[[DataOps Platforms]] owns that service layer, covering shared release paths
+and observability integrations. It also covers governance, access, and platform
+packaging choices.
+The concept boundary stays separate from the platform operating model.
 
 DataOps becomes a role when one person or team owns the operating path across
 other data teams. Hinc puts that work near support, communication, onboarding,
@@ -179,16 +181,17 @@ boundaries, and hiring signals.
 
 The boundary with data engineering shows up during incidents. A data engineer
 may fix a bad transformation, source schema, or orchestration dependency.
-DataOps practice asks why the team learned about the problem late. It also asks
-whether monitors detected it and who owned the dataset. The same review checks
-which consumers were affected and which runbook should prevent a repeat
+DataOps practice asks why the team learned about the problem late. It checks
+whether monitors detected it and who owned the dataset. It also checks which
+consumers were affected and which runbook should prevent a repeat
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 DataOps and MLOps overlap because production ML depends on production data.
-DataOps covers upstream ingestion, transformations, datasets, and metadata. It
-also covers quality checks and recovery paths. MLOps owns model artifacts,
+DataOps covers upstream ingestion, transformations, datasets, and metadata.
+Quality checks and recovery paths stay there too. MLOps owns model artifacts,
 training jobs, model registries, and serving paths.
 
-Retraining decisions and model behavior stay on the MLOps side. Model monitoring
-can still trace an alert back to ETL, data pipelines, and upstream root causes
+Retraining decisions and model behavior stay on the MLOps side. Model
+monitoring can still trace an alert back to ETL, data pipelines, and upstream
+root causes
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].

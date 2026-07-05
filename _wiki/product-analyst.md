@@ -24,10 +24,11 @@ related_wiki:
 ---
 
 A product analyst helps product teams turn user behavior into product decisions.
-The role sits inside [[Product Analytics]]. It depends on [[Event Tracking]] and
-[[Tracking Plans]]. It also uses [[Metrics]], [[a-b-testing=>A/B Testing]], and
-[[Experimentation]]. Before teams can trust funnels or activation metrics, they
-need event names and properties, plus owners and capture locations.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+Product analysts work inside [[Product Analytics]]. They depend on
+[[Event Tracking]] and [[Tracking Plans]]. They also use [[Metrics]],
+[[a-b-testing=>A/B Testing]], and [[Experimentation]]. Before teams can trust
+funnels or activation metrics, they need event names and properties, plus owners
+and capture locations.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Product analysts go beyond dashboard production. They define the product
 question, check whether the data can answer it, and explain what uncertainty
@@ -42,8 +43,8 @@ defines the broader analyst base this role builds on.
 ## Role Scope
 
 A product analyst turns product behavior into decision evidence through SQL and
-product metrics. The role also includes dashboarding and stakeholder
-communication, plus launch and experiment analysis.[[cite:data-team-roles=>Data Team Roles Explained]]
+product metrics. They also build dashboards, communicate with stakeholders, and
+analyze launches and experiments.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 The broader [[Data Analyst Role]] covers more business contexts. A product
 analyst spends more time on user journeys and event semantics. Product analyst
@@ -77,43 +78,15 @@ applies to fragile metrics and inconsistent dashboard definitions. [[Data Analys
 covers the `dbt` and Looker side of that boundary. It also covers tests and
 reusable models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
-## Product Analyst Responsibilities
-
-A product analyst turns product behavior into decisions. Teams need a defined
-event set before they can trust funnels or activation workflows. That event set
-needs names, properties, owners, and capture locations.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
-Instrumentation review belongs in the product analyst's work even when
-engineers implement the events.
-
-Typical responsibilities include:
-
-- Define product metrics, funnels, cohorts, segments, and user journeys.
-- Partner with product managers on problem sizing, prioritization, and launch
-  analysis.
-- Review tracking plans and check that events match the product behavior they
-  claim to measure.
-- Build dashboards and recurring reports for activation, retention, engagement,
-  conversion, and monetization.
-- Investigate metric changes, anomalies, drop-offs, and inconsistent results.
-- Analyze A/B tests, feature launches, onboarding flows, pricing changes, and
-  lifecycle experiments.
-- Explain findings in plain language so product, design, engineering, growth,
-  and leadership teams can act on them.
-
-For experiments, that work extends to assignment, metric stability, and power
-analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
-
-This overlaps with the broader [[Data Analyst Role]], but the product analyst
-spends more time with product surfaces. The role also puts more emphasis on
-event semantics, experiments, and product-management tradeoffs.
-
 ## Product Analyst Job Description
 
 A product analyst job description should describe product decisions, not only
-reporting. The role partners with cross-functional teams to measure user
-behavior, define product metrics, analyze experiments, and turn product data
-into recommendations. Analysts also handle KPI dashboards, problem
-sizing, and A/B-test evaluation.[[cite:data-team-roles=>Data Team Roles Explained]]
+reporting. Describe how the analyst partners with cross-functional teams to
+measure user behavior and define product metrics. The job description should
+also cover experiment analysis and product-data recommendations. KPI dashboards
+and problem sizing belong in the same role. So does A/B-test evaluation.[[cite:data-team-roles=>Data Team Roles Explained]]
+The product-specific responsibilities come from event semantics, experiments,
+and product-management tradeoffs.
 
 Responsibilities in the job description:
 
@@ -131,18 +104,6 @@ Responsibilities in the job description:
 - Present insights, caveats, and recommendations to product stakeholders.
 - Collaborate with analytics engineers on modeled tables, metric definitions,
   and BI-ready datasets.
-
-A grounded skills list includes:
-
-- SQL for joins, aggregation, windows, funnel queries, cohorts, and metric
-  debugging.
-- Product sense: understanding user journeys, friction, activation moments,
-  retention loops, and business goals.
-- Statistics for experimentation, metric variance, confidence intervals, and
-  practical uncertainty.
-- Data skepticism: knowing when a dashboard number may be wrong because of
-  missing events, duplicate definitions, timing issues, or tracking drift.
-- Communication: writing clear recommendations, not just reporting numbers.
 
 A product analyst must care about the source of a number. A signup event can
 mean a button click, a submitted form, email verification, or account creation.

@@ -16,18 +16,18 @@ related:
 Open source and developer relations meet when a public technical project needs
 developers to trust the tool and understand the project boundary. Developers
 also need a way to send useful feedback back to maintainers. [[Open Source]]
-owns licensing, governance, maintainership, and company distribution.
-[[Developer Relations]] owns the broader role and practice.
+covers licensing, governance, maintainership, and company distribution.
+[[Developer Relations]] covers the broader role and practice.
 
 The overlap stays narrow because each practice has a project effect. Docs and
 demos affect adoption, community support protects maintainer capacity, and
 contributor onboarding turns interest into reviewable issues or pull requests.
 
-Use [[Contributing]] for contribution types, the
-[[Open Source Contributor Roadmap]] for sequence, and
-[[open-source-ml-contributions=>open-source ML contributions]] for ML-tool
-mechanics. Use [[Open Source Portfolio Evidence]] when the question is how a
-public issue, pull request, demo, or discussion becomes hiring evidence.
+[[Contributing]] covers contribution types, the
+[[Open Source Contributor Roadmap]] covers sequence, and
+[[open-source-ml-contributions=>open-source ML contributions]] covers ML-tool
+mechanics. [[Open Source Portfolio Evidence]] covers the hiring-evidence side of
+public issues, pull requests, demos, and discussions.
 
 Companies can support open-source projects such as Dask and Metaflow with
 DevRel programs. Those programs add education, documentation, and a "wisdom
@@ -67,7 +67,7 @@ communication
 
 Maintainer load is a program constraint, not an afterthought. Useful DevRel
 sends maintainers clearer issues and smaller pull requests. It also sends them
-better docs feedback and fewer repeated setup questions. [[Contributing]] owns
+better docs feedback and fewer repeated setup questions. [[Contributing]] covers
 the mechanics, while education and community support help contributors avoid
 creating avoidable review work.
 
@@ -122,8 +122,8 @@ Open-source DevRel should optimize for the right public feedback. That includes
 questions from real users and bug reports maintainers can act on.
 
 It also includes examples that clarify the audience and demos that show where
-the tool helps. [[Open Source Portfolio Evidence]] owns the hiring side of those
-same public artifacts.
+the tool helps. [[Open Source Portfolio Evidence]] covers the hiring side of
+those same public artifacts.
 
 ## Company and Project Boundary
 
@@ -142,7 +142,7 @@ developer use.
 
 ## Related Pages
 
-Use these pages for the adjacent topics this bridge page leaves out:
+Adjacent pages own the topics this bridge page leaves out:
 
 - [[Open Source]] for stewardship, licensing, distribution, and governance.
 - [[Developer Relations]] for the broader DevRel role.

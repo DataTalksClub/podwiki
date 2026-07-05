@@ -50,7 +50,7 @@ If you're moving from analyst work toward model ownership, use the
 For entry routes and broad career options before that transition, use
 [[Data Analyst Careers]].
 
-## Short Comparison
+## Decision Surface
 
 Use a data analyst when the missing owner has to answer a question, interpret a
 metric, and help stakeholders decide what to do next. That person may write SQL
@@ -88,15 +88,8 @@ tested, reusable data
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
-The role comparison is about who owns the decision and who owns the reusable
+Compare the roles by asking who owns the decision and who owns the reusable
 analytical data.
-
-Because the boundary sits inside the same stack, the adjacent concepts matter:
-
-- [[Product Analytics]]
-- [[Metrics]]
-- [[dbt]]
-- [[Data Quality and Observability]]
 
 ## Data Analyst Fit
 
@@ -134,15 +127,9 @@ The analyst should still understand where numbers come from.
 [[person:arpitchoudhury=>Arpit Choudhury]] explains why
 teams need documented events and properties
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's event tracking discussion]].
-Without that source context, people can't trust funnels, activation workflows,
-or signup spikes.
-
-Analysts and product managers see unexpected registration spikes. They need
-event origins to trace those spikes
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's registration-spike example]].
-The same source-awareness connects the analyst role to
-[[Event Tracking]] and
-[[Tracking Plans]].
+Without that source context, analysts can misread funnels, activation workflows,
+or signup spikes. The same source awareness connects the analyst role to
+[[Event Tracking]] and [[Tracking Plans]].
 
 ## Analytics Engineer Fit
 
@@ -157,11 +144,11 @@ logic. Perez Mola ties that work to tables, views, and Looker exposure. She also
 ties it to failure handling and reusable data for analytical users
 ([[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]).
 
-The boundary is especially clear around canonical metrics. Analysts can define a
-KPI for a decision and explain the movement. Analytics engineers should encode
-the reusable definition when a metric appears across many dashboards. Revenue,
-retention, and active users can all create that pressure. Sessions and listings
-can do the same.
+Canonical metrics make the boundary clear. Analysts can define a KPI for a
+decision and explain the movement. Analytics engineers should encode the
+reusable definition when a metric appears across many dashboards. Revenue and
+retention can create that pressure. Active users, sessions, and listings can do
+the same.
 
 Perafan's modeling discussion asks whether tables and columns match the business
 concepts stakeholders use. Perez Mola puts data modeling and quality checks
@@ -173,7 +160,7 @@ behind the BI surface
 Use [[dbt]] for tool-level context and [[Analytics Engineering]] for the broader
 role definition.
 
-## Boundary Blurs
+## Title Blur
 
 The title split depends on company size. In
 [[cite:analytics-engineer-skills-tools=>Perez Mola's comparison of analytics engineers, analysts, and data engineers]],
@@ -193,22 +180,14 @@ time cleaning and modeling data. Data engineers often prefer infrastructure
 work over business-specific models
 ([[cite:analytics-engineer-skills-tools=>Perez Mola's role comparison]]).
 
-Nikola's
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@25:17=>small analytics engineering and BI team story]]
-shows the same blur from inside the job. He says he worked as both an analytics
-engineer and a data analyst on a four-person team. His work included KPI
-reassessment, dashboards, product-team support, and A/B testing. It also
-included ad hoc analysis, RFM analysis, and data model changes. Later, he
-describes the `dbt` migration and transformation layers that turned that work
-into a reusable model.
-
-Nikola returns to the title question in
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@26:45=>Maksimovic's title discussion]].
-His official role combined analytics engineer and data analyst because the BI
-team was small. He says small and medium-sized teams shouldn't get stuck on the
-title split. The work still needs analytical skill, KPI fluency, and domain
-modeling. In a larger data department, though, separating analysts and
-analytics engineers can make structural sense because people can focus.
+Nikola Maksimovic's small analytics engineering and BI team shows the same blur
+from inside the job. His role combined KPI reassessment, dashboards, and
+product-team support. It also included A/B testing and ad hoc analysis. RFM
+analysis, data model changes, and a later `dbt` migration were part of the same
+role. He says small and
+medium-sized teams shouldn't get stuck on the title split. Larger data
+departments can separate analysts and analytics engineers so people can
+focus.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@25:17=>Maksimovic's team story]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@26:45=>Maksimovic's title discussion]]
 
 Perafan agrees that the role sits near the analyst-engineer gap. But he pushes
 against defining analytics engineering only by what analysts and data engineers
@@ -233,11 +212,7 @@ Use work mode instead of title when one person covers both sides:
 - Split the role when the same person can't both answer urgent questions and
   maintain the modeled analytical layer.
 
-The [[Analytics Engineering Roadmap]]
-and
-[[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
-pages are useful when an analyst wants to move toward the engineered side of
-the boundary. For a step-by-step transition path, use
+For the transition path from analyst work into model ownership, see
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
 
 ## Dashboards, Metrics, and Models
@@ -301,15 +276,13 @@ advertising, support, or product tools
 In that flow, analysts own interpretation and decisions. Analytics engineers
 own modeled data that can survive reuse in BI and activation. Data engineers
 and product engineers still matter because events need instrumentation,
-warehouses need pipelines, and downstream tools need reliable delivery. Use
-[[data-led-growth=>Data-Led Growth]],
-[[Data Activation]], and
-[[Data Product Adoption]]
-for the broader adoption surface.
+warehouses need pipelines, and downstream tools need reliable delivery. The
+broader adoption surface belongs to [[data-led-growth=>Data-Led Growth]],
+[[Data Activation]], and [[Data Product Adoption]].
 
-The same project can switch modes because a one-off funnel readout can stay
-analyst-owned. Reusable funnel logic belongs with analytics engineering when
-dashboards and experiment analysis depend on it. Reverse ETL audiences and
+A team can switch modes inside one project because a one-off funnel readout can
+stay analyst-owned. Reusable funnel logic belongs with analytics engineering
+when dashboards and experiment analysis depend on it. Reverse ETL audiences and
 executive reporting create the same pressure
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's activation and reverse ETL discussion]],
 [[Modern Data Stack]]).

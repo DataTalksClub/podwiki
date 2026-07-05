@@ -32,9 +32,8 @@ upstream into reusable analytical data. SQL, stakeholder context, and metric
 explanations become stronger when they live in tested models.
 
 [[person:juanpablo=>Juan Pablo]] moved from teaching mathematics into analytics
-roles, then worked at Amazon in a BI and data engineering team. That path
-connects the transition to SQL, portfolio proof, networking, and communication.
-It also clarifies the boundary between analyst, BI engineer, and analytics engineer
+roles, then worked at Amazon in a BI and data engineering team. His BI
+engineering work clarifies the boundary between analyst, BI engineer, and analytics engineer
 [[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
 
 The practical boundary is ownership. A
@@ -45,19 +44,19 @@ the reusable model layer that makes those answers safer to repeat. The role
 boundary is covered in
 [[Data Analyst vs Analytics Engineer]].
 
-The transition plan moves from analyst work into model ownership. The current
-role definition is [[Data Analyst Role]]. Entry routes and broad career moves
-belong in [[Data Analyst Careers]]. Use [[Analytics Engineering Roadmap]] for
-the general skill sequence and [[Data Analyst vs Analytics Engineer]] when the
-question is a role comparison.
+Move from analyst work into model ownership, with [[Data Analyst Role]] as the
+current role definition. Entry routes and broad career moves belong in
+[[Data Analyst Careers]]. Use [[Analytics Engineering Roadmap]] for the general
+skill sequence and [[Data Analyst vs Analytics Engineer]] when the question is a
+role comparison.
 
 ## Move From Answering Questions to Owning Reusable Data
 
-The transition takes analyst work that used to live inside one query or
-dashboard and makes it reusable. The analyst already knows the business
+In this transition, analysts take work that used to live inside one query or
+dashboard and make it reusable. The analyst already knows the business
 question. The new work is to define grain, model entities, add tests, and
-document metric logic. Other people can then trust and reuse the model. That
-puts the transition between the
+document metric logic. Other people can then trust and reuse the model. The work
+sits between the
 [[data analyst role]],
 [[analytics engineering]],
 and BI-facing [[data products]].
@@ -66,7 +65,7 @@ The analyst role sits close to company data and KPIs through dashboards, reports
 and product evaluation. Analysts size product problems and evaluate whether a
 shipped change improved behavior
 [[cite:data-team-roles=>Data Team Roles Explained]].
-That context transfers directly into
+Analysts can apply that context to
 [[metrics]],
 [[product analytics]], and
 [[a-b-testing=>A/B testing]].
@@ -117,8 +116,8 @@ analytics engineer needs before modeling a trusted table.
 Juan Pablo's path started with statistics and hypothesis testing, then moved
 through SAS, R, and portfolio work. SQL turned out to be the core skill he used
 most often. A bootcamp gave him a practical map of SQL, Tableau, Power BI, and
-dashboards. It exposed missing skills, but it didn't give him a job. The search
-took nine months, so the transition needed both skills and visibility
+dashboards. That made the analytics-engineering transition start from analyst
+work rather than from a pure software-engineering path
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
 
 The [[marketing-to-analytics-engineering=>Marketing to Analytics Engineering]]
@@ -128,7 +127,7 @@ moved toward analytics engineering and expanded into product support and
 became part of the path
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
-Those examples show the same rule: keep the analyst context, but move the
+Both examples show the same rule: keep the analyst context, but move the
 logic upstream. A dashboard query becomes a model. A repeated KPI becomes a
 tested metric definition. A stakeholder explanation becomes reusable
 documentation.
@@ -218,9 +217,9 @@ and the
 grain and lineage. It should also show tests, metric definitions, and the
 analyst decision the model supports.
 
-## Get the First Role
+## Target Transition Roles
 
-The first target role doesn't have to use the exact title "analytics engineer."
+The target role doesn't have to use the exact title "analytics engineer."
 Juan Pablo's Amazon team consumed and ingested upstream data, built pipelines,
 added business logic, and created dashboards for troubleshooting consultants.
 Amazon called that work Business Intelligence Engineer, while other companies
@@ -232,21 +231,13 @@ title was data scientist, but the work was mostly SQL and dashboards. Without
 pipelines, it was data analyst or data analyst consultant work
 [[cite:from-math-graduate-to-data-analytics@54:01=>How to Break into Data Analytics]].
 
-That supports a pragmatic job search. Look for analytics engineer, BI engineer,
-or data analyst roles with dbt ownership. Product analytics engineer and data
-modeler roles can fit the same path.
+Look for analytics engineer, BI engineer, or data analyst roles with dbt
+ownership. Product analytics engineer and data modeler roles can fit the same
+path.
 
-Visibility matters when the candidate lacks the exact title. Juan Pablo's first
-offer came through repeated meetup attendance and a resume that reached the
-hiring founder twice. Active LinkedIn use, an obvious portfolio link, and a
-resume link ready to send all help. Short-term roles, nonprofit projects, and
-small-company trial work can create the first credible experience
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
-
-Communication is part of the hiring signal. Concise project communication, STAR
-framing, and repo hygiene help reviewers understand the work without
-reverse-engineering the code. A clean README and organized repository matter
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+For hiring and portfolio basics before this transition, use
+[[Data Analyst Careers]]. For the comparison question, use
+[[Data Analyst vs Analytics Engineer]].
 
 ## Related Pages
 
