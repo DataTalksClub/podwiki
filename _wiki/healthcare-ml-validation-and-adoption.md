@@ -14,6 +14,7 @@ related:
   - Evaluation
   - MLOps
   - Sensor ML Personal Baselines
+  - Bioinformatics Data Science
 ---
 
 In healthcare, teams validate and adopt [[machine learning]] by matching models
@@ -177,6 +178,9 @@ and domain expertise constrain what a model can learn
 [[cite:building-healthcare-machine-learning-systems@7:34=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@11:03=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
+For lab-derived biomarkers, sequencing, and other biological features,
+[[bioinformatics-data-science=>Bioinformatics Data Science]] covers the
+neighboring workflow before a clinical outcome becomes a validation target.
 
 An adjacent [[computer vision]] discussion covers multimodal learning for
 COVID-19 and medical imaging plus cervical spine segmentation. It also covers

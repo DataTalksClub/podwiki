@@ -6,6 +6,7 @@ related:
   - Governance
   - Data Mesh
   - Data Quality and Observability
+  - Data Trust and Strategy
   - DataOps
   - Business Intelligence
   - Security
@@ -30,6 +31,8 @@ work inside a wider data strategy. Marco De Sa describes governance as one CDO
 pillar. It sits beside infrastructure and analytics. It also sits beside
 accessibility, machine learning, and future product data needs
 [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+That executive framing connects governance directly to
+[[data-trust-and-strategy=>data trust and strategy]].
 
 The access-management framing adds that governance creates trust in data for
 analysts, data scientists, and customers.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]

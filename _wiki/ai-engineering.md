@@ -10,6 +10,7 @@ related:
   - Agent Engineering
   - LLM Evaluation Workflows
   - Notebook to Production AI Systems
+  - Multimodal LLMs
   - AI Infrastructure
   - MLOps
 ---
@@ -100,6 +101,10 @@ Notebook-to-production discussions add product and deployment concerns.[[cite:s2
 - Product-driven AI and end-to-end ownership.
 - Business-to-ML requirements and feedback loops.
 - Image description architecture and a serving stack with FastAPI, UV, and Arize.
+
+Image-description systems bring [[multimodal-llms=>multimodal LLMs]] into
+production AI engineering. Model behavior matters alongside serving,
+monitoring, and user-facing product design.
 
 For the handoff path, see [[Notebook to Production Workflow]].
 For the broader system view, see [[Notebook to Production AI Systems]],

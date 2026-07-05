@@ -11,6 +11,7 @@ related:
   - LLM Evaluation Workflows
   - Agent Engineering
   - Generative AI
+  - Multimodal LLMs
   - NLP
 ---
 
@@ -92,6 +93,8 @@ Practical language work includes summaries, translation, and CSV handling.
 Transcript automation uses tools such as Gemini, Descript, and Loom. Developer
 assistants include GitHub Copilot, Cursor, and IDE agents
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Screenshots, diagrams, audio, and video move the same product boundary toward
+[[multimodal-llms=>multimodal LLMs]].
 
 LLMs also appear as product interfaces for chatbots, controlled machine
 translation, and moderation support. In high-risk workflows, people review the
@@ -219,6 +222,7 @@ These pages cover the surrounding techniques, roles, and production concerns.
 - [[Prompt Engineering]]
 - [[Vector Databases]]
 - [[Generative AI]]
+- [[multimodal-llms=>Multimodal LLMs]]
 - [[NLP]]
 - [[Security]]
 - [[AI Red Teaming]]

@@ -63,6 +63,30 @@ CANONICAL_TYPES = {
 # Collections that resolve to the canonical main-site URL instead of a local page.
 CANONICAL_NODE_TYPES = {"podcast", "person", "book"}
 
+TOPIC_ALIASES = {
+    "ai engineer": "ai-engineer-role",
+    "analytics": "data-analysis",
+    "bioinformatics": "bioinformatics-data-science",
+    "career switch": "career-transitions-in-data",
+    "career transition": "career-transitions-in-data",
+    "career transitions": "career-transitions-in-data",
+    "consulting": "freelance",
+    "data analytics": "data-analysis",
+    "data observability": "data-observability-for-data-engineering",
+    "data privacy": "privacy-engineering-for-ml",
+    "data quality": "data-quality-and-observability",
+    "data strategy": "data-strategy",
+    "healthcare": "healthcare-ml-validation-and-adoption",
+    "llm": "llms",
+    "portfolio": "portfolio-projects",
+    "product management": "data-product-management",
+    "project management": "data-science-project-management",
+    "rag": "retrieval-augmented-generation",
+    "startup": "startups",
+    "strategy": "data-strategy",
+    "system design": "machine-learning-system-design",
+}
+
 
 def slugify(value: str) -> str:
     value = value.lower()
@@ -298,10 +322,10 @@ def build_graph() -> dict[str, object]:
         title_to_pages.setdefault(str(page["title"]).lower(), []).append(page)
         slug_to_pages.setdefault(str(page["slug"]).lower(), []).append(page)
     wiki_title_to_page = {
-        str(page["title"]).lower(): page for page in pages if str(page["collection"]) == "wiki"
+        str(page["title"]).lower(): page for page in pages if str(page["id"]).startswith("wiki:")
     }
     wiki_slug_to_page = {
-        str(page["slug"]).lower(): page for page in pages if str(page["collection"]) == "wiki"
+        str(page["slug"]).lower(): page for page in pages if str(page["id"]).startswith("wiki:")
     }
     topic_labels: dict[str, str] = {}
     topic_counts: Counter[str] = Counter()
@@ -314,6 +338,11 @@ def build_graph() -> dict[str, object]:
 
     def wiki_page_for_label(label: str) -> dict[str, object] | None:
         normalized = re.sub(r"\s+", " ", label).strip()
+        alias_slug = TOPIC_ALIASES.get(normalized.lower())
+        if alias_slug:
+            alias_page = wiki_slug_to_page.get(alias_slug)
+            if alias_page:
+                return alias_page
         return wiki_title_to_page.get(normalized.lower()) or wiki_slug_to_page.get(slugify(normalized))
 
     def topic_id(label: str) -> str:

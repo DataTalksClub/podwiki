@@ -17,6 +17,7 @@ related:
   - Tracking Plans
   - Analytics Engineering Portfolio Projects
   - AI Powered Business Intelligence
+  - Text-to-SQL
 ---
 
 Analytics engineering builds reliable analytical data models and transformations,
@@ -249,7 +250,8 @@ The same semantic layer becomes the grounding layer for
 [[ai-powered-business-intelligence=>AI in Business Intelligence]]. If an
 assistant writes SQL or summarizes a dashboard, analytics engineering still has
 to provide tested models and metric definitions. It also has to keep
-documentation and ownership clear.
+documentation and ownership clear. That's the analytics-engineering side of
+[[text-to-sql=>Text-to-SQL]].
 
 ## Metric and Event Definitions
 

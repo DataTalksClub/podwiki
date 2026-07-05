@@ -6,6 +6,7 @@ related:
   - Vector Databases
   - Search
   - Retrieval-Augmented Generation
+  - Multimodal LLMs
   - NLP
 ---
 
@@ -120,6 +121,8 @@ matching and CLIP-style representations. The vector can also extend beyond raw
 text or image content by adding metadata, behavior, and popularity, as in
 e-commerce personalization
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
+That shared image-text space helps
+[[multimodal-llms=>multimodal LLMs]] retrieve across modalities.
 
 Vector databases serve ML systems beyond RAG, including session-based
 recommendations and re-ranking

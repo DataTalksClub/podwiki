@@ -7,10 +7,12 @@ related:
   - Search
   - Vector Databases
   - Embeddings
+  - Multimodal LLMs
   - LLM Evaluation Workflows
   - RAG Evaluation Workflow
   - Search and RAG Project Checklist
   - RAG Portfolio Projects
+  - Text-to-SQL
 ---
 
 RAG, short for retrieval-augmented generation, is an LLM application design
@@ -32,6 +34,9 @@ RAG mechanics and boundaries sit upstream of several practical pages.
 checks retrieval and answers, while
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
 orders the production sequence.
+For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
+adjacent design where retrieval supplies schema or metric context before SQL
+generation.
 
 ## RAG Mechanics
 
@@ -129,14 +134,18 @@ context reaches the model.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops
 RAG often uses vector search, but it isn't the same thing as a
 [[vector-databases=>vector database]]. Vector databases such as Qdrant provide
 plug-and-play vector search infrastructure. Teams can also put vectors into an
-existing search stack. That choice fits when migration risk, filters, ranking
-requirements, or operations favor the current system.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+existing search stack. That choice fits when migration risk matters. Filters,
+ranking requirements, or operations can also favor the current system.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-[[embeddings=>Embeddings]] give vector search a shared representation for
-queries and content. Hybrid search adds filters and recency to similarity. It
-can also encode popularity and business constraints, which connects RAG
-retrieval to the broader tradeoffs in
+Vector search uses [[embeddings=>embeddings]] to map queries and content into
+comparable vectors. Hybrid search can then add filters, recency, popularity, and
+business constraints to similarity. Those choices connect RAG retrieval to the
+broader tradeoffs in
 [[vector-search-vs-keyword-search=>Vector Search vs Keyword Search]].[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
+
+When those representations include both images and text, retrieval becomes an
+input layer for [[multimodal-llms=>multimodal LLMs]] rather than only a
+text-document pipeline.
 
 Knowledge graphs can ground answers through explicit
 relationships.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>KG and LLMs]]
@@ -188,6 +197,7 @@ These pages cover the main design boundaries around RAG:
 
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[context-engineering=>Context Engineering]]
+- [[multimodal-llms=>Multimodal LLMs]]
 - [[vector-databases=>Vector Databases]]
 - [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
 - [[llm-evaluation-workflows=>LLM Evaluation Workflows]]

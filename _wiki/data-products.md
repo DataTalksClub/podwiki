@@ -10,8 +10,10 @@ related:
   - Analytics Engineering
   - Business Intelligence
   - Data Quality and Observability
+  - Data Trust and Strategy
   - A/B Testing
   - AI Powered Business Intelligence
+  - Text-to-SQL
 ---
 
 A data product is a maintained data output that helps someone make a decision
@@ -49,8 +51,9 @@ it, understand it, trust it, and connect it to a decision
 Data Delivery]]. This is why [[Data Product Adoption]] belongs inside the
 definition rather than after launch.
 
-When the interface adds natural-language questions or LLM summaries, the data
-product boundary becomes stricter.
+When the interface adds natural-language questions,
+[[text-to-sql=>Text-to-SQL]], or LLM summaries, the data product boundary
+becomes stricter.
 [[ai-powered-business-intelligence=>AI in Business Intelligence]] keeps that
 case tied to governed metrics and permissions. It also keeps source visibility
 and analyst review in the product boundary.
@@ -218,7 +221,8 @@ That discipline protects trust because a product can have users and a strong
 business case, then lose credibility when pipelines fail silently. Stale
 dashboards and unclear remediation ownership create the same risk. Data products
 therefore sit close to [[DataOps]], [[data-quality-and-observability=>Data
-Quality and Observability]], and [[Model Monitoring]].
+Quality and Observability]], [[data-trust-and-strategy=>data trust and
+strategy]], and [[Model Monitoring]].
 
 ## Related Pages
 

@@ -218,6 +218,13 @@ The clearest constraint-driven example is edge and mobile ML. It forces teams to
 account for latency, frames per second, and energy use. Teams also have to
 account for model size, offline behavior, and runtime choices
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+
+Autonomous-driving perception adds the same system-design pressure in a physical
+vehicle. A team choosing
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] has to
+connect sensor cost with redundancy. It also has to plan labeling, validation,
+and on-vehicle inference together
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]].
 In those systems,
 [[machine learning infrastructure]]
 includes more than cloud deployment. It also includes the runtime where the

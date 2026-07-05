@@ -9,6 +9,7 @@ related:
   - Metrics
   - Communication
   - Data Teams
+  - Data Trust and Strategy
   - A/B Testing
   - Recommendation Systems
   - Streaming
@@ -154,6 +155,8 @@ judgment or spreadsheets. Teams respond with a data accuracy and governance
 playbook, open error communication, dbt tests, and regular dashboard checks.
 [[cite:building-and-scaling-data-team@35:38=>Building and Scaling a Data Team]]
 [[cite:building-and-scaling-data-team@40:09=>Building and Scaling a Data Team]]
+That repair work belongs to
+[[data-trust-and-strategy=>data trust and strategy]] as much as adoption.
 
 For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents.

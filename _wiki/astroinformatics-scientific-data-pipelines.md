@@ -9,6 +9,7 @@ related:
   - Data Engineering
   - Computer Vision
   - Academic Researcher to Data Science
+  - Bioinformatics Data Science
 ---
 
 Astroinformatics applies data work to astronomy observations from many
@@ -21,6 +22,10 @@ the MEERKAT workflow
 The MEERKAT example puts astroinformatics inside
 [[data-pipelines=>data pipeline]] work. The pipeline doesn't start with a CSV or
 end with a dashboard.
+
+It's adjacent to [[bioinformatics-data-science=>Bioinformatics Data Science]]:
+both scientific domains keep the measurement context attached to the features
+before treating the work as generic data science.
 
 It starts with telescope observations and turns images into candidate sources.
 It then compares those candidates against optical and infrared catalogs.

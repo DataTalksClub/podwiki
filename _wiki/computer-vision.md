@@ -13,6 +13,7 @@ related:
   - Production
   - Notebook to Production AI Systems
   - Embeddings
+  - Multimodal LLMs
   - Vector Databases
   - Career Transitions in Data
 ---
@@ -73,7 +74,7 @@ there spans sensors, camera-first perception, and gesture recognition for
 police and construction signals. It then extends into on-vehicle inference,
 sensor data management, and labeling. Release staging and sensitive-case testing
 belong to the same system. The
-[[camera-first-vs-lidar-autonomous-driving=>camera-first versus LiDAR]]
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison is the narrow sensor-choice view of that broader computer vision
 system
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
@@ -171,6 +172,8 @@ Multimodal embeddings let images and text share a representation space, which
 lets a search system retrieve images from text queries. It can also join visual
 similarity with product metadata
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
+That text-image boundary is where computer vision search connects to
+[[multimodal-llms=>multimodal LLMs]].
 
 The same discussion keeps image retrieval grounded in production architecture,
 moving from vector search basics to embedding generation and ingestion. It then
@@ -235,7 +238,9 @@ use [[MLOps]],
 [[machine learning system design]]
 and [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 For retrieval, use [[embeddings]] and
-[[vector databases]]. For field and safety-heavy examples, use
+[[vector databases]], plus
+[[multimodal-llms=>multimodal LLMs]] when vision systems combine image and
+language inputs. For field and safety-heavy examples, use
 [[ai-for-social-good=>AI for Social Good]],
 [[autonomous-driving-ai=>Autonomous Driving AI]], and
 [[simulation-and-digital-twins=>Simulation and Digital Twins]].

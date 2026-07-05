@@ -13,6 +13,7 @@ related:
   - Machine Learning System Design
   - Responsible AI and Governance
   - AI
+  - Bioinformatics Data Science
 ---
 
 Data science turns business questions into evidence someone can use. It also
@@ -56,6 +57,10 @@ analysts quantify what happened, while data scientists build predictive
 services. Data science work connects to Python, SQL, and machine learning. It
 also connects to Flask, Docker, and simple model services
 ([[cite:data-team-roles=>Data Team Roles Explained]]).
+Domain-heavy versions such as
+[[bioinformatics-data-science=>Bioinformatics Data Science]] keep the same
+decision-and-evidence work, but the features stay tied to lab or sequencing
+context.
 
 Product data scientist and machine-learning-engineer expectations differ. Case
 studies start with business goals and evaluation metrics before they test

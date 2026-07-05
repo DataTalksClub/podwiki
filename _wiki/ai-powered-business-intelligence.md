@@ -13,6 +13,7 @@ related:
   - AI Engineering
   - DataOps
   - Data Activation
+  - Text-to-SQL
 ---
 
 AI in business intelligence adds AI assistance to
@@ -71,8 +72,10 @@ ownership. It also needs anomaly investigation, warehouse transformation, BI
 analysis, and activation
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 An AI assistant that summarizes a funnel or drafts a SQL query needs those event
-definitions as grounding. Without them, it may count the wrong user action with
-polished language.
+definitions as grounding. That same dependency shows up in
+[[text-to-sql=>Text-to-SQL]], where the assistant has to map a question to the
+right modeled data. Without those definitions, it may count the wrong user
+action with polished language.
 
 An analytics-product operating model uses a single intake path and Definition of
 Done. It also uses KPIs, success criteria, and fail-fast checks. Pilots, A/B
@@ -193,7 +196,7 @@ The common failure modes are predictable:
 
 - Ambiguous metric names such as revenue, churn, active account, or conversion
   can produce different valid answers.
-- Text-to-SQL can join the wrong grain, skip a filter, or return a correct
+- [[text-to-sql=>Text-to-SQL]] can join the wrong grain, skip a filter, or return a correct
   query for the wrong business question.
 - A summary can sound certain even when the dashboard is stale, incomplete, or
   under investigation.

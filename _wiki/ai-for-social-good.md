@@ -13,6 +13,7 @@ related:
   - Production
   - Model Monitoring
   - Data Teams
+  - Bioinformatics Data Science
 ---
 
 AI for social good uses [[AI]], [[machine-learning=>machine learning]], and
@@ -173,6 +174,9 @@ ML validation and adoption]], but the boundary is different. For clinical
 validation and adoption, follow the healthcare ML page. The social-good
 examples here focus on resource placement, field feedback, and whether local
 teams can act on the recommendation.
+For lab-centered biological data,
+[[bioinformatics-data-science=>Bioinformatics Data Science]] is the adjacent
+science-data path rather than the field deployment path.
 
 ## Production Constraints and Long-Term Adoption
 

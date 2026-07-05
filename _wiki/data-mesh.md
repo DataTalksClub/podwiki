@@ -6,6 +6,7 @@ related:
   - Data Engineering Platforms
   - Data Products
   - Data Governance
+  - Data Trust and Strategy
   - DataOps
 ---
 
@@ -26,10 +27,12 @@ That makes Data Mesh a close neighbor of
 
 ## Operating Definition
 
-Data Mesh moves ownership closer to the people who understand the business
-domain while keeping interoperability central. A domain doesn't merely expose a
-table, topic, or dashboard. It publishes an interface that other teams can
-discover, trust, and build on.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+Data Mesh moves ownership toward business domains while keeping
+interoperability central. A domain doesn't merely expose a table, topic, or
+dashboard. It publishes an interface that other teams can discover and build on.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+That trust requirement links the operating model to
+[[data-trust-and-strategy=>data trust and strategy]].
 
 The Data Mesh operating model has four parts:
 

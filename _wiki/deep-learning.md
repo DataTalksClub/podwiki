@@ -54,7 +54,9 @@ Deep learning becomes concrete in autonomous driving. The discussion moves
 through sensor choices, camera-first perception, and gesture recognition for
 traffic control
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]).
-The deep learning model isn't isolated from the vehicle system.
+For the narrower sensor tradeoff, use
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]. The deep
+learning model isn't isolated from the vehicle system.
 
 On-vehicle inference, quantization and compression, validation in simulation and
 closed tracks, and staged releases follow in sequence.

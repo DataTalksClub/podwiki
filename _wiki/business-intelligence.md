@@ -13,6 +13,7 @@ related:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - Data Governance
+  - Data Trust and Strategy
   - AI Powered Business Intelligence
 ---
 
@@ -35,8 +36,10 @@ human review.
 It can also turn unclear definitions and fragile pipelines into
 confident-sounding answers. Useful BI still depends on owned
 [[data products]] and trusted
-metrics. It also needs access controls, user research, and clear decision
-context.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
+metrics. It also needs access controls and user research. The decision context
+has to be clear.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
+That makes BI a visible surface for
+[[data-trust-and-strategy=>data trust and strategy]].
 
 ## Business Questions to Governed Answers
 

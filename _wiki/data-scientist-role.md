@@ -12,6 +12,7 @@ related:
   - Career Transitions in Data
   - Project Manager to Data Science
   - Communication
+  - Bioinformatics Data Science
 ---
 
 A data scientist turns a business, product, or operational question into
@@ -163,6 +164,11 @@ errors. They can also explain why the result matters. Interviews test this
 through business case studies, ML fundamentals, SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 Domain knowledge adds the missing piece: it can be an advantage when it helps the
 scientist ask better questions [[cite:how-to-stand-out-in-data-science=>DS Career Playbook]].
+
+For a concrete domain-heavy version of that role,
+[[bioinformatics-data-science=>Bioinformatics Data Science]] shows how
+biological samples, sequencing, and biomarkers change the question and the
+features.
 
 Project managers moving into the role can use planning, stakeholder
 communication, and KPI ownership as starting evidence. They then add analysis,

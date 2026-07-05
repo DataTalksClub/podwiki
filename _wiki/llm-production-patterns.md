@@ -12,6 +12,7 @@ related:
   - Business Intelligence
   - Notebook to Production AI Systems
   - Notebook to Production Workflow
+  - Text-to-SQL
 ---
 
 LLM production patterns are the design choices teams use when a
@@ -25,8 +26,9 @@ review stay part of the same production question.
 An LLM is a product component rather than the whole system. In production it
 ties deployment and model ownership to fine-tuning and retrieval. Evaluation
 and operability stay in the same boundary.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-In [[business intelligence]], the model can help with questions and summaries.
-The product still depends on governed metrics, access controls, and review.
+In [[business intelligence]], the model can help with questions, summaries, and
+[[text-to-sql=>Text-to-SQL]] query drafting. The product still depends on
+governed metrics, access controls, and review.
 
 The production problem starts with prompts, RAG, and gold tests. It also needs
 failure analysis, logs, traces, and tool use.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]

@@ -12,6 +12,7 @@ related:
   - Communication
   - Data Science for Managers
   - Data Strategy
+  - Data Trust and Strategy
   - Data Science
   - Machine Learning
   - Machine Learning System Design
@@ -656,6 +657,8 @@ literacy upward into strategy. De Sa works backward from goals, governance,
 platforms, and AI investment. Geo does the same at product scope by turning ML
 platform work into roadmaps, adoption, and release quality. Sobkowiak does it at
 team scope by separating management, expert depth, and project prioritization.
+This is also where leadership connects to
+[[data-trust-and-strategy=>data trust and strategy]].
 
 Leadership works through visibility, tradeoffs, and ownership. Sobkowiak ties
 management to strategy, stakeholder communication, personal development, and

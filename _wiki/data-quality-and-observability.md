@@ -7,6 +7,7 @@ related:
   - DataOps Checks for Data Pipelines
   - Data Engineering Platforms
   - Data Governance
+  - Data Trust and Strategy
   - Model Monitoring
   - MLOps
   - Data Product Management
@@ -182,11 +183,15 @@ report, or ML model can break anyway.
 Lior Barak adds the stakeholder-facing layer. When quality is uncertain, teams
 should proactively alert users before they discover the issue themselves. They
 can also expose uncertainty through confidence intervals or QA dashboards. That
-preserves decision confidence while the system is being repaired. This is
-observability as communication, not only alert routing: the affected user learns
-whether the number is safe before using it in a meeting.
+preserves decision confidence while the system is being repaired.
+
+This is observability as communication, not only alert routing: the affected
+user learns whether the number is safe before using it in a meeting.
 [[cite:data-translator-role-and-data-strategy@07:46=>Data Translator Role]]
 [[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role]]
+That communication layer is part of
+[[data-trust-and-strategy=>data trust and strategy]], not only incident
+response.
 
 For ML systems, distribution monitoring sits next to model monitoring. Model
 monitoring links to upstream ETL and data-pipeline causes. A model incident may

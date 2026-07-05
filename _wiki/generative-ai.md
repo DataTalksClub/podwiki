@@ -7,6 +7,7 @@ related:
   - LLM Production Patterns
   - NLP
   - Agent Engineering
+  - Multimodal LLMs
   - Business Intelligence
   - Responsible AI and Governance
 ---
@@ -90,6 +91,8 @@ capability. The same API-versus-self-hosted boundary appears in larger
 [[LLM Production Patterns]] pages
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>Indie Hacking Side Projects]]
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@25:48=>Indie Hacking Side Projects]].
+That image-generation example is also where generative AI connects to
+[[multimodal-llms=>multimodal LLMs]].
 
 Other bounded use cases include summaries, translation, and CSV workflows.
 Transcript processing can use automation tools such as Gemini, Descript, and
@@ -209,6 +212,7 @@ often.
 - [[LLMs]]
 - [[NLP]]
 - [[Prompt Engineering]]
+- [[multimodal-llms=>Multimodal LLMs]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[LLM Production Patterns]]

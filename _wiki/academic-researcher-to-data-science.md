@@ -18,6 +18,7 @@ related_wiki:
   - CV Screening
   - Job Descriptions
   - Communication
+  - Bioinformatics Data Science
 ---
 
 Academic researcher to data science covers thesis and postdoc work moving into
@@ -54,6 +55,10 @@ The transition starts with translation rather than reinvention. Genomics text
 files and Bash processing can become evidence for large-file handling. Data
 cleaning, statistics, and generalized linear models become the industry-facing
 story.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
+
+That genomics route is one bridge into
+[[bioinformatics-data-science=>Bioinformatics Data Science]], where biological
+questions set the data structures, features, and validation work.
 
 Collider physics translates the same way because large event datasets and
 statistical analysis become data-science signals. Version control and CI/CD
