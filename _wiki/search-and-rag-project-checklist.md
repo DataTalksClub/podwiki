@@ -134,8 +134,8 @@ the task requires API calls, multi-step coordination, or external actions.
 ## Evaluation and Traces
 
 Create a small gold set. For each question, store expected evidence and
-acceptable answers, then add failure labels and notes about retrieval quality.
-The trace should make it possible to separate retrieval failures from generation
+acceptable answers, then add failure labels and notes about retrieval quality. The
+trace should make it possible to separate retrieval failures from generation
 failures before adding agents, fine-tuning, or prompt complexity.
 
 Store these trace fields with each run:
@@ -151,9 +151,8 @@ Store these trace fields with each run:
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
 the core evaluation structure
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-Representative gold tests make the system measurable. Failure categories tell
-the team whether the next fix belongs in retrieval, prompting, formatting, or
-data preparation. Logs and traces make those decisions reviewable.
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the workflow
+sequence that turns those fields into repeatable reviews.
 
 Ranjitha extends the same idea to tool and agent workflows with custom
 datasets, mocked tools, integration tests, and outcome assertions

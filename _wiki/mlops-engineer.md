@@ -91,21 +91,26 @@ handoff, the release path, and the support model before choosing a platform.
 
 ## Different Starting Points
 
-MLOps teams share an enablement goal, but they start from different pain points.
-A centralized MLOps team can begin with product-team pain, quick wins, and
-adoption signals such as deployment frequency.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+MLOps teams share an enablement goal, but the role output changes by context. A
+centralized platform team owns templates, adoption support, and quick wins tied
+to product-team pain
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-After Git and CI/CD, teams add the deployment, registry, and monitoring pieces
-their context requires
+A pragmatic enterprise MLOps role owns Git, CI/CD, registry, and deployment
+standards. Monitoring standards join when the team has enough repeated work to
+standardize
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
-Production observability and customer architecture pull the role toward
-deployment and operations work.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+An observability-led role owns prediction logging, root-cause paths, customer
+architecture, and production support
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 
-MLOps work also includes incident preparation and stakeholder trust. Debugging
-and feedback channels belong there too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
-Finance and startup environments create different constraints. Finance adds
-governance and release-control pressure. Startups push toward leaner MLOps
-automation.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
+Finance and startup environments split the role differently. Finance pulls the
+engineer toward governance controls, release approvals, and auditability.
+Startups push the engineer toward lean automation and careful build-versus-buy
+boundaries
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Early-stage MLOps roles often require broader coverage because one person may
 touch infrastructure and customer architecture. They may also cover monitoring

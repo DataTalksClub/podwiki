@@ -201,9 +201,9 @@ also be bad prompt context or model behavior. Stale data and missing citations
 can be separate labels. Product policy can be its own label.
 
 Custom datasets and system benchmarks belong in the same evaluation workflow.
-Use mocked tools, integration tests, and regression tests there too. Outcome
-assertions matter more than exact path matching because multiple traces can
-still produce the same correct result.
+When retrieval is part of an agentic workflow, add mocked tools, integration
+tests, and regression tests. Outcome assertions matter more than exact path
+matching because multiple traces can still produce the same correct result.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 For a plain RAG assistant, the same idea applies because a correct answer can
@@ -285,9 +285,9 @@ covers relevance, freshness, and latency. It also covers business metrics, A/B
 tests, and monitoring. The same discipline applies when the search result is
 fed to a model instead of shown directly to a user.
 
-## Workflow Checklist
+## Eval Run Sequence
 
-Use this sequence when building or reviewing a RAG evaluation workflow:
+Use this sequence for a RAG evaluation run:
 
 1. Define the user tasks, source collections, answer format, and refusal behavior that the product needs before you write the first gold example. [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 2. Build a small gold set that covers common and hard questions, missing-answer cases, citation-sensitive cases, and permission cases. [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]

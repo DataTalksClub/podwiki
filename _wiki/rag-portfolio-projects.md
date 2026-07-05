@@ -191,9 +191,9 @@ integrations push the project into
 
 For a portfolio, this boundary should be visible in the design. A support-docs
 assistant can stay as RAG when it only answers with citations. An operations
-assistant that searches logs and calls monitoring APIs needs more evidence. If
-it proposes remediation steps, it needs mocked tools, integration tests, and
-outcome assertions
+assistant that searches logs, calls monitoring APIs, or proposes remediation
+steps needs agent evidence instead. Put that evaluation detail on
+[[Agent Engineering]] and [[LLM Evaluation Workflows]]
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 ## Graph or Domain RAG Project
@@ -254,8 +254,8 @@ and the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 Long context, agents, and vector databases mark another production boundary.
-They don't remove the need to manage source quality and noisy context. Teams
-still need to manage chunk metadata, latency, and cost
+The portfolio evidence stays the same. Source quality and chunk metadata must
+be explicit. Latency, cost, and re-indexing choices must be explicit too
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 ## Related Pages

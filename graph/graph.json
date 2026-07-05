@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11932
+    "links": 11931
   },
   "nodes": [
     {
@@ -66374,12 +66374,6 @@
     },
     {
       "source": "wiki:mlops-roadmap",
-      "target": "person:slawomirtulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
       "target": "person:valeriybabushkin",
       "kind": "article-chip",
       "weight": 1
@@ -66464,12 +66458,6 @@
     },
     {
       "source": "wiki:mlops-roadmap",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
       "target": "wiki:dataops",
       "kind": "article-chip",
       "weight": 1
@@ -66491,12 +66479,6 @@
       "target": "wiki:experiment-tracking",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "wiki:lean-mlops-for-startups",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66590,6 +66572,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-vs-dataops",
       "kind": "article-chip",
       "weight": 1
@@ -66647,6 +66635,12 @@
       "target": "wiki:production-ml-project-checklist",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",

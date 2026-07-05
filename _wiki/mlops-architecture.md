@@ -397,37 +397,17 @@ mixed teams can need different support from a centralized deployment path
 [[ML Platforms]] covers the internal-product side of that
 decision.
 
-Simon and Raphaël are consistent on this tradeoff. Simon warns against heavy
-platform investment before model value exists. He favors building minimal
-platform pieces alongside real use
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-
-Raphaël frames a centralized MLOps team as an enabling layer in
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-In that discussion, adoption depends on feedback loops and quick wins. Developer
-experience matters because adoption is part of the architecture.
-
-Nemanja adds the startup constraint in
-[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
-Use managed tools when they buy speed. Keep an eye on lock-in, technical debt,
-security, and future portability. [[MLOps Tools]] owns the detailed stack
-selection question.
-
-Use [[Platform Adoption]] and [[Developer Experience]] when the main risk is
-whether teams will use the architecture.
-
-Teams should change the component design by company stage. In a startup,
-Nemanja Radojkovic argues for cloud and SaaS-first choices when they help a
-small team move quickly. The same team still has to watch portability and
-technical debt
-([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
-
-In a regulated finance setting, the same architecture needs dev/test/prod
-separation and release controls earlier. It also needs monitoring, model
-registry, data versioning, and reproducible pipelines
+Keep this section about which interfaces are local and which become shared.
+Simon warns against heavy platform investment before model value exists. Raphaël
+frames a centralized MLOps team as an enabling layer
+([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]])
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+Use [[ML Platforms]] for adoption and internal-product strategy,
+[[MLOps Roadmap]] for rollout timing, and [[MLOps Tools]] for stack selection.
+The architecture should expose when startup speed, regulated controls, or
+repeated team work changes the component boundary
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]])
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
-The architecture should expose that context instead of pretending one component
-map fits every organization.
 
 ## Design Checks by Failure Mode
 

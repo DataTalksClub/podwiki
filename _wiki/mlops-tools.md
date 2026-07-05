@@ -120,7 +120,7 @@ path.[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Gui
 Choose tools based on the flow the team needs to operate. Don't choose them
 just because the product says it's an end-to-end MLOps platform.
 
-Startup stacks can stay minimal.[[cite:lean-mlops-for-startups=>MLOps]]
+Startup stacks can stay minimal.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 Python can cover scripts and training while CI/CD handles basic orchestration.
 
 Dagster can handle orchestration when workflow tooling is justified, and MLflow
@@ -221,25 +221,28 @@ Start with the failure mode that blocks the team.
 - If the organization is regulated, prioritize metadata, lineage, approvals,
   access controls, retention rules, auditability, and reproducible pipelines.
 
-Teams choose different stacks by context: enterprise-scale MLOps focuses on
-adoption and pain-point discovery, plus deployment frequency and shared platform
-capabilities. Large organizations should use existing infrastructure before
-buying more tools.
-When teams repeat the same work, a managed platform layer can make sense.
-Finance and startup examples show the two ends of the constraint spectrum.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
+For each candidate tool, record the lifecycle job it owns. Check Git and CI/CD
+integration first. Check orchestration, artifact storage, and metadata support
+too. Make batch-versus-online fit and monitoring export paths explicit.
+
+Name the governance controls and migration cost. Name the lock-in risk and
+adoption burden too
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Build-versus-buy is an early architecture decision because engineering time and
 vendor spend both matter. KPIs, business risk, and manager-facing justification
 also matter. Teams comparing open-source components with commercial
 [[model-monitoring=>monitoring]] or platform products should make that case in
-business terms. The choice isn't only a tool preference.[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]
+business terms. The choice isn't only a tool preference
+[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
 
 That connects MLOps tool selection to [[Machine Learning Infrastructure]] and
 [[MLOps Architecture]]. Ownership, cost, integration burden, and lock-in define
 the stack.
-
-In regulated teams, governance and auditability matter most. In startups, speed,
-portability, and controlled technical debt matter more.
 
 ## Related Pages
 
@@ -251,10 +254,17 @@ and [[Model Registry]] for the training-to-handoff layer. Use
 internal product view.
 
 Read tool choices through the team's operating context because enterprise-scale
-work starts with reproducibility and adoption [[cite:mlops-at-scale-reproducibility-adoption]].
+work starts with reproducibility and adoption
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 Existing platform defaults and shared deployment paths guide the same
-choice [[cite:building-production-ml-platform-and-mlops-team]][[cite:pragmatic-and-standardized-mlops]].
+choice
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 Monitoring-heavy stacks need model observability and infrastructure monitoring
-as distinct capabilities [[cite:mlops-model-monitoring-data-observability]][[cite:mlops-kubeflow-model-monitoring]].
+as distinct capabilities
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+[[cite:mlops-kubeflow-model-monitoring=>Kubeflow Model Monitoring]].
 Finance teams in regulated environments and startups narrow the stack in
-different directions [[cite:mlops-and-ml-engineering-in-finance]][[cite:lean-mlops-for-startups]].
+different directions
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].

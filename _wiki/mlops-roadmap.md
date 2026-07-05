@@ -7,9 +7,11 @@ related_wiki:
   - MLOps
   - MLOps Architecture
   - MLOps Engineer
+  - MLOps Tools
   - ML Platforms
   - Machine Learning Infrastructure
   - Machine Learning Portfolio Projects
+  - Production ML Project Checklist
   - Machine Learning Engineer Role
   - Model Registry
   - Experiment Tracking
@@ -79,21 +81,15 @@ The main roadmap tradeoff is how much shared platform work to add.
 [[person:mariavechtomova=>Maria Vechtomova]]
 argues for pragmatic standardization in
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
-She recommends using existing infrastructure such as Kubernetes and Git before
-adding more tools. She still names CI/CD and registries as useful foundations.
-
-Developer experience makes that standardization usable because templates and
-service principals reduce repeated setup work. Databricks conventions, DevOps
-buy-in, and reusable standards support the same goal.
+Add shared templates, CI/CD, and registries when repeated setup pain appears.
+Deployment paths and monitoring can follow the same signal. Existing
+infrastructure such as Kubernetes and Git can come before new tools.
 
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]] draws a leaner early-stage
 boundary in
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
-cloud credits, managed services, and fast MVP stacks. The tradeoff is migration
-friction, lock-in, and future flexibility. Use
-[[lean-mlops-for-startups=>lean MLOps for startups]] for early-company stack
-choices and [[MLOps Tools]] for category-level selection.
+cloud credits, managed services, and fast MVP stacks.
 
 In a regulated finance setting, he moves earlier toward release governance and
 approvals. Dev/test/prod separation, monitoring, and interim registry patterns
@@ -110,6 +106,11 @@ response habits. Service levels and post-mortems connect monitoring to
 decisions, as do live test sets, small A/B tests, and feature drift.
 Logging and reproducibility make it a response system, not just a dashboard
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+
+Use [[MLOps Architecture]] for component boundaries and [[MLOps Tools]] for
+stack selection. This roadmap owns the timing. Add platform breadth when the
+lifecycle repeats, regulation demands it, or production response work is no
+longer optional.
 
 ## Reproduce Experiments First
 
@@ -360,50 +361,17 @@ The strongest project starts from a clear product decision. It explains the
 data and label, establishes a baseline, and records training. It packages
 inference and shows what will be monitored after deployment.
 
-A course, certification, or bootcamp project should include:
+A course or bootcamp project should map to one visible lifecycle artifact. It
+should show tracked training and a serving path. It should also show a registry
+or release record, monitoring evidence, and operating notes.
 
-- versioned training code with dependency setup and configuration
-- a documented data reference
-- parameters and metrics, plus environment details and model artifacts captured
-  in an experiment tracker or reproducibility note
-- a batch inference job, API, managed endpoint, or clearly documented serving
-  simulation
-- tests for code, input schemas, and at least one data assumption
-- a registry entry or release table with model version, owner, and artifact
-  location
-- release metadata for evaluation result, approval state, and deployment target
-- logs for model version, inputs, predictions, and request or run IDs
-- service logs for errors and latency
-- monitoring notes for service health, input quality, and prediction behavior
-- monitoring notes for drift, feedback, and one business or proxy signal
-- operating notes for ownership, failure modes, fallback behavior, and rollback
-- operating notes for retraining criteria, known limits, and future work
+Use
+[[Production ML Project Checklist]] for the full deliverable standard. The
+roadmap decision is the order. Add each piece when the previous piece exposes a
+real lifecycle gap.
 
-Portfolio and hiring discussions set a similar bar.
-[[person:slawomirtulski=>Slawomir Tulski]] points toward end-to-end platform
-projects as stronger proof in
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
-For MLOps, a working training-to-monitoring path is stronger proof than a list
-of tools.
-
-Ben gives the engineering bar. Refactor hard-to-follow data science code into
-smaller pieces that teams can maintain. Timebox experiments and weigh
-cost-benefit tradeoffs. Use simpler methods such as SQL or statistics before
-deep learning when they solve the problem
-[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-A roadmap project should show that same judgment: simple, runnable, observable
-work before a heavy platform.
-
-The project should also be easy to discuss in an interview. Tie features,
-labels, and baselines to metrics, then add monitoring and fallbacks
-[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]].
-
-Git, CI/CD, registries, and deployment belong in the same portfolio story.
-Monitoring, code quality, and testing belong there too
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
-When projects repeat the same problems, they can justify shared standards,
-developer experience, and adoption work. The portfolio standard is to finish one lifecycle, explain the
-tradeoffs, then use the gaps to choose the next roadmap step.
+For hiring and interview framing of these projects, use [[MLOps Engineer]]. This
+roadmap keeps the build order and capability gaps.
 
 ## Capability Milestones
 
@@ -413,7 +381,7 @@ behavior, and debug a failed run. That aligns with Maria's minimum maturity
 base in
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 and Nemanja's beginner stack advice in
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 The next milestone is operating the model path, so add CI/CD and registry
 usage. Add monitoring and a retraining decision too. Then practice the
