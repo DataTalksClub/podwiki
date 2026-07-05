@@ -9,6 +9,7 @@ related:
   - CV Screening
   - Salary Negotiation
   - Career Transitions in Data
+  - Project Manager to Data Science
 ---
 
 ## Definition and Scope
@@ -49,6 +50,9 @@ leadership exposure. The alternative may be a move into management.[[cite:hiring
 
 Candidates need practical evidence, but they start from different material. [[person:ksenialegostay=>Ksenia Legostay]] moved gradually from project management into analytics and then machine learning. She began with a skills gap assessment and kept planning, stakeholder communication, and KPI work as transferable strengths. Analysis work then became portfolio evidence before she moved deeper into machine learning.[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 
+Use [[Project Manager to Data Science]] for the focused PM-to-data-science
+transition path.
+
 For project managers, the first credible data-science step is often data
 analysis inside the current job. Ksenia recommends using existing project data
 to improve decisions before chasing a data scientist title. The tool progression
@@ -60,7 +64,8 @@ Cleaner collaborative code belongs in the same path with Git, tests, and Docker
 [[cite:project-manager-to-data-scientist@34:48=>Tool progression]]
 [[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
 
-That route connects [[Career Transitions in Data]] with
+That route connects [[Career Transitions in Data]] and
+[[Project Manager to Data Science]]. It also connects to
 [[Machine Learning Portfolio Projects]] because the candidate has to show both
 business framing and technical learning.
 

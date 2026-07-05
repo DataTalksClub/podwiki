@@ -14,6 +14,7 @@ related:
   - Data Engineering Tools
   - Open Source
   - Open Source Portfolio Evidence
+  - Volunteer Data Engineering Projects
 ---
 
 A data engineering portfolio project turns messy source data into a reliable
@@ -361,6 +362,10 @@ The strongest contribution names the user problem, shows the changed behavior,
 links a pull request or issue, and explains the test path. That's the practical
 bridge to
 [[Open Source Portfolio Evidence]].
+For nonprofit or volunteer work, use
+[[Volunteer Data Engineering Projects]]
+to check whether the project leaves reviewed evidence rather than only a role
+label.
 
 Airbyte-style connector work can show extraction boundaries and long-tail source
 behavior. It can also show schema handling and maintainer review. Kwong

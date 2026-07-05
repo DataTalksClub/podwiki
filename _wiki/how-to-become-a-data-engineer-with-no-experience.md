@@ -11,6 +11,7 @@ related_wiki:
   - Data Engineering Portfolio Projects
   - End-to-End Data Pipeline Project
   - Open Source Portfolio Evidence
+  - Volunteer Data Engineering Projects
   - Career Transitions in Data
   - Job Search
 ---
@@ -243,8 +244,10 @@ describe the impact. A volunteer listing without a finished artifact is weaker
 than a smaller project with code, documentation, and feedback.
 
 For volunteer and open-source options, use [[Open Source Portfolio Evidence]]
-as the quality bar. Don't add a vague community line to the CV. Show that
-another person reviewed the work, used the output, or accepted the contribution
+as the quality bar and [[Volunteer Data Engineering Projects]] for the
+data-engineering version. Don't add a vague community line to the CV. Show
+that another person reviewed the work, used the output, or accepted the
+contribution
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 ## Choose Your Transition Path

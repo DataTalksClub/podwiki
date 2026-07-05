@@ -33,6 +33,16 @@ gives the build sequence. Guests mention Airflow most often around
 [[data engineering platforms]],
 and the [[modern data stack]].
 
+DataTalks.Club's
+[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
+remains canonical for Docker Compose setup. For wiki coverage, use local
+Airflow to discuss orchestration boundaries and thin DAG design. It also
+supports reproducible portfolio work and the point where a local stack becomes
+a platform to operate.
+[[cite:data-engineering-tools-modern-data-stack@31:12=>Modern Data Engineering Tools]]
+[[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
+[[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
+
 Guests usually treat Airflow as coordination infrastructure, not as the whole
 pipeline. The ingestion tool or warehouse job should still own the
 transformation logic. So should the Spark job, dbt project, feature pipeline,
@@ -94,8 +104,9 @@ onboarding help many teams use the shared DAG surface consistently.
 
 Simple workflows may not need always-on orchestration. Airflow sits in the same
 workflow-options conversation as GitHub Actions, Prefect, and Dagster. GitHub
-Actions can be enough when the team only needs a small scheduled workflow.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+Actions can be enough when the team only needs a small scheduled workflow, and
+it avoids the cost of running an always-on orchestrator.
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 
 AWS workflows can start with CloudWatch scheduling, Lambda, or containers before
 the team takes on Airflow or Kubernetes. ECS, AWS Batch, and SageMaker are part
@@ -103,6 +114,14 @@ of the same simple-first path. Move toward the heavier orchestrator when
 logging, insight, and control justify the extra platform surface.
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
+
+Operating cost also includes the human side of a shared platform. A team that
+turns Airflow into a self-service surface needs conventions, templates,
+playbooks, and onboarding. Otherwise similar DAGs get copied by hand and
+become hard to control. That puts shared Airflow close to
+[[self-service-data-platforms=>self-service data platforms]] and
+[[platform-engineering=>platform engineering]], not only scheduling.
+[[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
 ## DAG Design
 
@@ -115,22 +134,17 @@ Keep most Airflow logic in normal Python modules. In a project, the DAG can call
 Python or SQL code. It can also trigger dbt, Spark, or containerized steps.
 Tests stay close to the code that owns the logic.
 
-Jeff Katz makes that boundary explicit: useful Airflow practice still leans on
-Python and SQL. Docker plus cloud skills support the run environment instead of
-replacing the pipeline code.
+Useful Airflow practice still leans on Python and SQL. Docker plus cloud skills
+support the run environment instead of replacing the pipeline code.
 [[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
 
 Thin DAGs also make review easier. A reviewer can read the DAG to understand
-the order of steps, then look at the actual transformation code in the
-repository. That links Airflow to
+the order of steps, then look at the processing code that owns the real logic.
+That links Airflow to
 [[data engineering portfolio projects]]
 and [[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].
 For a build sequence, use [[How to Build Data Pipelines]].
-
-DataTalks.Club's
-[lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-is the canonical local setup guide. Use this wiki page for the concept and
-operating boundary.
+[[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
 
 ## Data Quality Boundary
 
@@ -182,10 +196,9 @@ show why one task waits for another. It should also show what happens when an
 input is late. A bad input should fail visibly, and the project should show how
 a rerun or backfill works after the issue is fixed.
 
-Course-style projects can combine Airflow with MinIO, Spark, and MySQL. Daniel
-Egbo describes an end-to-end path from a source through local object storage,
-Spark, and a warehouse-style destination, after earlier orchestration work with
-Kestra. That's the right level of evidence for Airflow in a portfolio: a DAG
+A course-style project can combine Airflow with MinIO, Spark, and MySQL. The
+portfolio value comes from the path from source data to local object storage,
+Spark processing, and a warehouse-style destination. In that project, Airflow
 coordinates handoffs between real steps instead of standing alone.
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to Data Engineering]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to Data Engineering]]
@@ -195,14 +208,22 @@ Use DataTalks.Club's
 for local development or portfolio work. Use the tutorial to set up Airflow.
 Keep the portfolio about the pipeline.
 
-Keep Compose small with a minimal DAG and real pipeline steps. Mount the DAG and
-supporting code. Keep logs visible, set fixed dependency versions, and add one
-data check that can fail.
-
-Docker evidence matters when it proves another person can run the same code.
-Gloria Quiceno's team found that local scripts needed containers before they
-could run reliably on AWS.
+Local Docker evidence matters when it proves another person can run the same
+code and see the same handoffs. One portfolio example used separate containers
+to fetch data, clean it, and publish results on a schedule. Another work
+handoff needed scripts rebuilt as Docker images before they could run reliably
+on AWS.
 [[cite:get-data-analytics-and-data-engineering-job@21:25=>Get a Data Analytics and Data Engineering Job]]
+[[cite:get-data-analytics-and-data-engineering-job@50:30=>Get a Data Analytics and Data Engineering Job]]
+
+The distinct Airflow signal isn't the Docker Compose file because it comes from
+visible orchestration behavior. The project shows task order, logs, failure
+handling, and rerun or backfill evidence attached to a real pipeline. Course
+projects are less convincing than a customized project with a specific purpose
+and candidate-owned choices.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
+[[cite:get-data-analytics-and-data-engineering-job@51:42=>Get a Data Analytics and Data Engineering Job]]
 
 Move to a shared Airflow deployment only when more people need it. Secrets and
 worker isolation can justify the platform work. Log retention, alerts, and
@@ -211,6 +232,7 @@ simpler scheduler first. GitHub Actions or a cloud scheduler can fit before
 Airflow is worth the operating surface.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 ## Related Pages
 

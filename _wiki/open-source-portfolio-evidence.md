@@ -12,6 +12,7 @@ related:
   - Developer Experience
   - Job Search
   - Data Engineering Portfolio Projects
+  - Volunteer Data Engineering Projects
   - Data Engineering Tools
   - Machine Learning Portfolio Projects
 ---
@@ -222,6 +223,9 @@ it
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
 Certificates and team membership are weaker than artifacts that show what the
 candidate made easier for the rest of the project.
+Use [[Volunteer Data Engineering Projects]] when the question is how a
+volunteer, nonprofit, or open-source data task becomes reviewed data
+engineering portfolio evidence.
 
 A small code fix becomes credible when reviewers can look at it quickly. That
 means learning the repo's ecosystem basics. These include Git and GitHub workflow,

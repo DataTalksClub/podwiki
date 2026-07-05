@@ -382,6 +382,7 @@ Existing pages:
 - `_wiki/software-engineer-to-machine-learning.md`
 - `_wiki/data-analyst-to-analytics-engineer.md`
 - `_wiki/consultant-or-freelancer-to-data-product-founder.md`
+- `_wiki/project-manager-to-data-science.md`
 
 Candidate pages:
 
@@ -417,6 +418,7 @@ Existing pages:
 - `_wiki/production-ml-project-checklist.md`
 - `_wiki/search-and-rag-project-checklist.md`
 - `_wiki/dashboard-and-metric-layer-project-checklist.md`
+- `_wiki/volunteer-data-engineering-projects.md`
 
 Candidate pages:
 
@@ -548,13 +550,14 @@ Source hints:
 - The 2026-07-04 five-agent enrichment pass has been handled through the three
   `report_pod_10.md` batches above. Future work should use a fresh mining
   report or new source evidence rather than reopening the same pending list.
-- The same 2026-07-04 keyword pass has been mostly handled through existing-page
-  enrichment. Remaining candidates need a fresh evidence check before action:
-  tighten `_wiki/apache-airflow.md` for Docker/local workflow intent only if
-  transcript evidence supports a distinct angle from the main-site article;
-  consider a comparison page for machine learning vs software engineering;
-  consider a project-manager-to-data-science transition page; and consider a
-  volunteer/open-source data engineering guide.
+- The remaining 2026-07-04 keyword candidates were handled on 2026-07-05:
+  `_wiki/apache-airflow.md` was tightened for Docker/local workflow intent while
+  keeping the main-site Docker Compose article canonical; existing
+  `_wiki/machine-learning-vs-software-engineering.md` was enriched as the
+  comparison page; `_wiki/project-manager-to-data-science.md` was created as a
+  transition page; and `_wiki/volunteer-data-engineering-projects.md` was
+  created as a narrow guide for reviewed volunteer/nonprofit/open-source data
+  engineering portfolio evidence.
 - The 2026-07-03 recent-topic gap audit verified and quality-audited the v1
   recent-topic gap pages: `_wiki/context-engineering.md`,
   `_wiki/ai-coding-tools.md`, `_wiki/llmops.md`, `_wiki/agent-ops.md`,

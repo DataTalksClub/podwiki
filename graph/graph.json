@@ -2,17 +2,17 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 204,
-    "articles": 74,
-    "guides": 22,
+    "articles": 76,
+    "guides": 23,
     "comparisons": 24,
     "roadmaps": 11,
-    "transitions": 13,
+    "transitions": 14,
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
     "topics": 99,
-    "nodes": 1116,
-    "links": 11258
+    "nodes": 1118,
+    "links": 11323
   },
   "nodes": [
     {
@@ -654,6 +654,17 @@
       "keyword": "open source contributor roadmap"
     },
     {
+      "id": "wiki:project-manager-to-data-science",
+      "type": "article",
+      "collection": "transition",
+      "label": "PM to Data Science",
+      "title": "PM to Data Science",
+      "url": "/wiki/project-manager-to-data-science/",
+      "count": 1,
+      "search": "PM to Data Science How project managers can move into data science through stakeholder work, KPIs, analytics projects, Python practice, and portfolio evidence.",
+      "keyword": "project manager to data science"
+    },
+    {
       "id": "wiki:product-analyst",
       "type": "article",
       "collection": "guide",
@@ -801,6 +812,17 @@
       "count": 1,
       "search": "Vector vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
+    },
+    {
+      "id": "wiki:volunteer-data-engineering-projects",
+      "type": "article",
+      "collection": "guide",
+      "label": "Volunteer Data Projects",
+      "title": "Volunteer Data Projects",
+      "url": "/wiki/volunteer-data-engineering-projects/",
+      "count": 1,
+      "search": "Volunteer Data Projects How volunteer, nonprofit, and open source data work becomes reviewed portfolio evidence for data engineering roles.",
+      "keyword": "volunteer data engineering projects"
     },
     {
       "id": "wiki:data-warehouse-vs-data-lakehouse",
@@ -27264,6 +27286,18 @@
       "weight": 3
     },
     {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:apache-iceberg",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
@@ -29722,6 +29756,18 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -36618,6 +36664,18 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-engineering-tools",
       "target": "book:20211025-data-analysis-with-python-and-pyspark",
       "kind": "wiki-chip",
@@ -40795,6 +40853,18 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -41044,6 +41114,18 @@
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-science-careers",
@@ -41714,6 +41796,18 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -42722,6 +42816,18 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -52698,6 +52804,18 @@
       "weight": 1
     },
     {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "wiki:how-to-build-data-pipelines",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-chip",
@@ -60751,6 +60869,18 @@
     },
     {
       "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
+      "target": "wiki:experimentation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-vs-software-engineering",
       "target": "wiki:machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -67902,6 +68032,18 @@
       "weight": 1
     },
     {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:orchestration",
       "target": "person:adrianbrudaru",
       "kind": "wiki-chip",
@@ -71253,6 +71395,132 @@
       "source": "wiki:production-search-evaluation",
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "podcast:project-manager-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:cv-screening",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:cv-screening",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-science-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-science-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-science-project-management",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-science-project-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:job-search",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:product-analytics",
+      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -78686,6 +78954,150 @@
     {
       "source": "wiki:vector-search-vs-keyword-search",
       "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:job-search",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:open-source",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
     }

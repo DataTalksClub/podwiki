@@ -10,6 +10,7 @@ related:
   - Data Engineer vs Data Scientist
   - Data Scientist Interview Roadmap
   - Career Transitions in Data
+  - Project Manager to Data Science
   - Communication
 ---
 
@@ -162,6 +163,12 @@ errors. They can also explain why the result matters. Interviews test this
 through business case studies, ML fundamentals, SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 Domain knowledge adds the missing piece: it can be an advantage when it helps the
 scientist ask better questions [[cite:how-to-stand-out-in-data-science=>DS Career Playbook]].
+
+Project managers moving into the role can use planning, stakeholder
+communication, and KPI ownership as starting evidence. They then add analysis,
+statistics, programming, and ML practice. The transition path is covered in
+[[Project Manager to Data Science]]
+[[cite:project-manager-to-data-scientist@22:32=>Project Manager to Data Scientist]].
 
 Product-facing jobs need statistics and experimentation, including
 randomization, metric pitfalls, and A/A tests. They also need to account for

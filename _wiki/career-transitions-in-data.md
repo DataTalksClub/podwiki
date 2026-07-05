@@ -9,6 +9,7 @@ related:
   - Data Analyst Role
   - Data Engineer Role
   - Analytics Engineering
+  - Project Manager to Data Science
   - Software Engineer to Machine Learning
   - Academic Researcher to Data Science
   - Staff AI Engineer
@@ -77,17 +78,17 @@ That path connects the transition to [[data-scientist-role=>data scientist work]
 and [[job search]] because the candidate must show both analytical
 judgment and production awareness.
 
-The project-manager bridge is distinct because the starting asset isn't code.
-Ksenia Legostay describes planning, stakeholder communication, business KPIs,
-and problem framing as the transferable base. The technical path then moves from
-analysis inside an existing work project into Tableau or Trifacta-style tools.
-It then adds Python, Pandas, Kaggle notebooks, and production collaboration
-habits
+The [[Project Manager to Data Science]] route is distinct because the starting
+asset isn't code. Ksenia Legostay describes planning, stakeholder
+communication, business KPIs, and problem framing as the transferable base.
+The technical path then moves from analysis inside an existing work project into
+Tableau or Trifacta-style tools. It then adds Python, Pandas, Kaggle notebooks,
+and production collaboration habits
 [[cite:project-manager-to-data-scientist@22:32=>PM skills for data science]]
 [[cite:project-manager-to-data-scientist@32:43=>PM to analyst bridge]]
 [[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
-That makes it a specialization inside [[Career Transitions in Data]], rather
-than a separate transition page.
+Use the dedicated transition page for PM-specific sequencing, portfolio proof,
+and job-search positioning.
 
 Engineering-heavy moves translate existing skills into new work. Software-to-ML
 adds machine learning to an engineering skillset instead of discarding software

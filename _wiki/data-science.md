@@ -5,6 +5,7 @@ summary: "Data science as DataTalks.Club guests frame it: decision-first analysi
 related:
   - Data Scientist Role
   - Data Science Careers
+  - Project Manager to Data Science
   - Machine Learning
   - Data Engineering
   - Data Engineer vs Data Scientist
@@ -126,6 +127,7 @@ Transitions add another view because project management experience transfers
 through planning, stakeholder communication, and business KPIs. Applying
 analysis at work builds portfolio evidence
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
+Use [[Project Manager to Data Science]] for that transition path.
 
 Production readiness adds Git, testing, and Docker. It also adds deployment and
 clean code to the learning path

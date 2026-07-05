@@ -12,6 +12,7 @@ secondary_keywords:
   - "machine learning project management"
 related_wiki:
   - Data Science
+  - Project Manager to Data Science
   - Business Skills for Data Professionals
   - Data Product Management
   - Data Product Manager
@@ -67,6 +68,7 @@ work.
 Planning and stakeholder communication stay useful after the work moves from
 classic project management into analytics and machine learning. So does KPI work
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
+For the career transition path, use [[Project Manager to Data Science]].
 
 ## Planning the Lifecycle
 
