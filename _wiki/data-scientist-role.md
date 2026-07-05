@@ -224,7 +224,10 @@ side [[cite:big-data-engineer-vs-data-scientist=>DE vs DS]].
 
 Features, models, and deployment awareness sit on the science side. The two
 roles meet around feature pipelines, batch scoring, monitoring, and
-reproducibility.
+reproducibility. The
+[[data-engineering-and-data-science=>data engineering and data science]]
+comparison follows that shared project lifecycle across handoffs, project
+choices, and career decisions.
 
 The boundary with a
 [[machine-learning-engineer-role=>machine learning engineer]]

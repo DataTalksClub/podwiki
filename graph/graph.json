@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1118,
-    "links": 11342
+    "links": 11363
   },
   "nodes": [
     {
@@ -23285,6 +23285,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -24318,6 +24324,12 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:multi-agent-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -25604,6 +25616,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-tooling",
@@ -27479,6 +27497,12 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "person:verenaweber",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "person:vinvashishta",
       "kind": "wiki-chip",
       "weight": 1
@@ -27510,6 +27534,12 @@
     {
       "source": "wiki:applied-research",
       "target": "podcast:make-money-with-machine-learning-roles-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -27812,6 +27842,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:autonomous-driving-ai",
@@ -31331,6 +31367,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -33455,6 +33497,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "person:angelaramirez",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "person:eddyzulkifly",
       "kind": "article-chip",
       "weight": 1
@@ -33480,6 +33528,12 @@
     {
       "source": "wiki:data-analyst-to-data-engineer",
       "target": "person:slawomirtulski",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "article-chip",
       "weight": 1
     },
@@ -34736,6 +34790,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineer-role",
@@ -39383,6 +39443,12 @@
     },
     {
       "source": "wiki:data-product-manager-roadmap",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager-roadmap",
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -40226,6 +40292,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-roles",
@@ -42779,6 +42851,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -44705,6 +44783,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -44935,6 +45019,12 @@
       "source": "wiki:data-warehouse",
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -53921,6 +54011,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
       "kind": "wiki-chip",
       "weight": 1
@@ -54090,6 +54186,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60041,6 +60143,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:computer-vision",
       "kind": "wiki-chip",
       "weight": 1
@@ -64920,6 +65028,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "wiki:mlops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75731,6 +75845,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -75798,6 +75918,12 @@
     {
       "source": "wiki:software-engineering",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
     },

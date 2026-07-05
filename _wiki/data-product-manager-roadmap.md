@@ -31,6 +31,10 @@ customer discovery and hypothesis formation. She also includes data quality,
 PII, SQL, and data engineering literacy [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 She describes courses, mentoring, and on-the-job learning as inputs to the
 transition rather than substitutes for product proof [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+For designers specifically,
+[Product Designer to Data PM](/wiki/product-designer-to-data-product-manager/)
+is the focused transition path that turns discovery, prototyping, and usability
+judgment into data-product evidence.
 
 [[person:gregcoquillo=>Greg Coquillo]] gives
 the roadmap version with Five Whys for business partners. He treats

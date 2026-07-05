@@ -25,6 +25,11 @@ Coding assistants are daily development tools, but they're also examples of
 agents embedded in IDEs and terminals. Some also run in Slack, pull requests,
 and notebook-adjacent work.
 
+For broader daily work, use
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+alongside this page. Coding assistants are one case where the prompt and output
+have to stay visible. The same applies to review and tests.
+
 ## Cursor and Copilot in Daily Coding
 
 In Production AI Engineering, [[person:bartoszmikulski=>Bartosz Mikulski]]

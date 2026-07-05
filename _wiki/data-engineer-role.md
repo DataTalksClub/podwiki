@@ -271,6 +271,9 @@ engineering
 
 ETL, storage, and Spark performance stay on the engineering side
 ([[Data Engineer vs Data Scientist]]) [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+For the project-lifecycle view, use
+[[data-engineering-and-data-science=>data engineering and data science]]. It
+traces how pipelines and feature work meet deployment, monitoring, and handoffs.
 
 The boundary with
 [[analytics engineering]]

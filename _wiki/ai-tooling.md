@@ -19,6 +19,10 @@ whole product.
 
 Production AI systems need data and context around the model. They also need
 controlled actions, tests, traces, and clear ownership[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
+For individual workflows, the same tooling questions show up in
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
+The tool needs a named task and visible inputs. It also needs a review step
+before it becomes part of daily work.
 
 For the whole role, use the
 [[AI Engineer Role]]. Use
@@ -79,7 +83,9 @@ Production data workflows create another boundary. Open-source model tools and
 assistant tools can help alongside coding-assistant workflows. Teams still need
 data trust, pipeline tests, preprocessing, and fine-tuning data practices around
 them[[cite:production-ready-ai-engineering=>Production AI Engineering]]. Those
-assistant workflows are covered in depth as [[AI Coding Tools]].
+assistant workflows are covered in depth as [[AI Coding Tools]], while
+[[ai-tools-for-personal-productivity=>personal productivity workflows]] cover
+the lighter-weight version of the same review discipline.
 
 Agent frameworks create a third boundary across prompt-level implementations,
 SDKs, and tool wrappers. Other options include LangChain, the OpenAI Agents SDK,

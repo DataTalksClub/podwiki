@@ -91,9 +91,12 @@ constraint
 
 [[person:revathyramalingam=>Revathy Ramalingam]]
 shows a career-break path where learning in public and a telecom ML capstone
-become evidence of readiness. She also used AI-assisted prototypes, interview
-practice, and a PDF Q&A assistant
+become evidence of readiness. She used AI-assisted prototypes and interview
+practice. Her take-home also included a PDF Q&A assistant
 ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]]).
+Use [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+when the learner has to translate older work into AI product proof. That
+includes career breaks and prior domain experience.
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts
 from practical LLM engineering. His path covers prompts, structured outputs,

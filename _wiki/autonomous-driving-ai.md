@@ -43,6 +43,10 @@ Teams choose different autonomous-driving architectures. Camera-first systems
 reduce hardware cost and depend heavily on visual perception. Sensor-fusion
 stacks add LiDAR, radar, and richer spatial signals at higher hardware and
 data-management cost.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+The focused comparison is
+[[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR]]. It
+separates driver-assistance products from driverless services and ties sensor
+choice to validation, cost, and production scope.
 
 Another boundary separates perception from behavior. Perception helps the system
 understand the world, while reinforcement learning and related behavior-learning
@@ -60,6 +64,8 @@ latency and safety constraints.[[cite:from-computer-vision-research-to-autonomou
 The first architectural decision in autonomous driving is the sensor stack, and
 it drives downstream model, data, and deployment choices. Companies split
 between camera-first and sensor-fusion approaches.
+For a narrower sensor tradeoff, see
+[[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR]].
 
 Cost-sensitive vision products may avoid LiDAR and use phone cameras instead.
 For the AI Guide Dog app, the team chose mobile hardware because LiDAR was too

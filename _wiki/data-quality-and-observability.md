@@ -189,11 +189,16 @@ whether the number is safe before using it in a meeting.
 [[cite:data-translator-role-and-data-strategy@10:48=>Data Translator Role]]
 
 For ML systems, distribution monitoring sits next to model monitoring. Model
-monitoring links to upstream ETL and data-pipeline causes, so a model incident
-may begin with feature data or delayed labels rather than model code. Data
+monitoring links to upstream ETL and data-pipeline causes. A model incident may
+begin with feature data or delayed labels rather than model code. Data
 profiles summarize behavior over time. WhyLogs and WhyLabs separate
 open-source profiling from managed
 observability.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+
+Use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+to assign ownership across MLOps and DataOps. It separates drift signals,
+profiling, lineage, and incident response.
 
 In Weichbrodt's fraud example, a unit change from kilometers to meters moves a
 key feature distribution while the service stays technically healthy. Input

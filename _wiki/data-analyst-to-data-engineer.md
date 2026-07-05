@@ -60,6 +60,16 @@ engineering easier because he already understood reporting needs. He then moved
 toward pipelines, databases, backend jobs, and job automation
 [[cite:finops-for-data-engineers=>Eddy Zulkifly analyst-to-DE path]].
 
+[[person:angelaramirez=>Angela Ramirez]] shows a second bridge. She started in
+continuous process improvement, where she mapped business processes, found tool
+pain points, and proposed changes. She then worked as a data analyst and
+consolidated datasets and databases for Tableau metrics. She moved internally
+into data engineering because she wanted more ownership of the tech stack
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@16:15=>process improvement to data engineering]].
+That path turns process analysis and dashboard ownership into pipeline
+documentation, stakeholder timing, and architecture habits for [[Data Pipelines]]
+and [[Data Engineering]].
+
 Turn current analyst work into engineering evidence:
 
 - Dashboard work: define the source tables, grain, joins, and validation checks

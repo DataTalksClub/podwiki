@@ -288,8 +288,12 @@ implementation [[cite:from-biology-to-machine-learning-data-science-portfolio-op
 
 ## Kaggle and Notebook Projects
 
-Kaggle projects can work as portfolio evidence when they show understanding.
-Rank alone isn't enough.
+Kaggle projects can work as portfolio evidence when they show understanding,
+because rank alone isn't enough.
+The same rule applies to
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]]. The useful signal
+comes from code, reports, evaluation notes, and reproducible runs. Public
+leaderboard position matters less.
 
 [[person:andradaolteanu=>Andrada Olteanu]] describes Kaggle notebooks and
 GitHub as public proof. That proof helped a hiring conversation
@@ -326,11 +330,16 @@ disconnected tool names [[cite:get-data-scientist-job=>Land Data Scientist Roles
 [[person:tatianagabruseva=>Tatiana Gabruseva]]'s
 computer vision transition sets the boundary [[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]].
 Kaggle is useful for learning because the data, task, and metric are already
-chosen. It doesn't show how to collect data, define a business metric, deploy a
-model, or package the work.
+chosen. It doesn't show how to collect data or define a business metric. It
+also doesn't show deployment or packaging work.
+
 For a machine learning engineer portfolio, pair a Kaggle-style experiment with
 an end-to-end pet project or convert the notebook into a small reproducible
 service.
+For non-Kaggle options, use
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]] when a hosted
+evaluation can show stronger evidence than a notebook alone. A Docker-based
+run, conference challenge, or domain challenge may be a better fit.
 
 ## Open Source ML Projects
 

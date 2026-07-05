@@ -190,6 +190,14 @@ reflect production risks.[[cite:dataops-for-data-engineering=>DataOps for Data E
 Data teams use CI/CD pipelines, regression tests, and test data for analytics.
 They connect version control and tests to end-to-end deployment automation.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
+Angela Ramirez makes the data-engineering version concrete with PySpark and
+Scala Spark work. Data engineers still need readable code structure and unit
+tests. They also test pipeline data with null checks, type checks, schema
+expectations, and other quality checks
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@41:09=>Angela Ramirez on PySpark testing]].
+That puts [[Testing]] and [[Data Quality and Observability]] in the same
+engineering loop rather than separate cleanup work.
+
 ML-system testing starts before release. Requirements, operations, open-source
 ML product analysis, and practitioner involvement through testing all affect
 whether the system can be trusted after handoff.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]

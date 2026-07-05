@@ -20,8 +20,10 @@ well after deployment and whether the right team knows when to investigate.
 Model monitoring is part of [[MLOps]], not a dashboard bolted onto the
 end of a project. Production monitoring connects to upstream
 [[data pipelines]] because a model can degrade even when the model artifact
-is unchanged. The data, features, labels, or serving path may have changed
-instead.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+is unchanged. The data or serving path may have changed instead. Feature values
+and labels may have changed too.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+For the boundary with pipeline reliability, see
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]].
 
 ## Production Signals
 
@@ -172,10 +174,14 @@ A model can be good at release and still become the wrong model later.
 ## Observability
 
 Monitoring detects that something may be wrong, and observability helps a team
-explain why. Barr Moses makes the same split for data systems. Monitoring can
+explain why. Barr Moses makes the same split for data systems: monitoring can
 show a freshness problem, while observability traces the root cause. It also
 shows downstream impact and recovery priority
 [[cite:data-quality-data-observability-data-reliability@24:31=>Data Observability Explained]].
+For that boundary, use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+to separate model-specific drift signals from upstream data freshness and
+lineage work.
 
 The profiling side of [[MLOps Tools]] can use WhyLogs and a backend for storing
 profiles. Platform-agnostic integrations matter because production models run

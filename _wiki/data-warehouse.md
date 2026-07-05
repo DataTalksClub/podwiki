@@ -64,6 +64,14 @@ transformations without asking engineers to rebuild extraction code. Warehouses
 and marts differ in scope. Warehouses hold the broader analytical layer, while
 data marts serve narrower consumption needs.[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]]
 
+Tammy Liang's e-commerce team needed a warehouse for demand forecasting.
+Historical sales had to be stored before the team could build and deliver
+models. Forecasting still required business teams to
+provide product details, promotions, and plans. Here the team joined warehouse
+history with [[machine-learning-for-business=>forecasting models]] and business
+inputs.[[cite:building-and-scaling-data-team@12:10=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@17:11=>Building and Scaling a Data Team]]
+
 Kwong describes this as layers inside or around the warehouse. A raw ingestion
 database receives source data. A shared layer can feed several teams. Marts
 serve marketing, sales, finance, or product consumers. Teams use the mart as

@@ -72,7 +72,10 @@ Autonomous driving makes the boundary visible. The computer vision problem
 there spans sensors, camera-first perception, and gesture recognition for
 police and construction signals. It then extends into on-vehicle inference,
 sensor data management, and labeling. Release staging and sensitive-case testing
-belong to the same system
+belong to the same system. The
+[[camera-first-vs-lidar-autonomous-driving=>camera-first versus LiDAR]]
+comparison is the narrow sensor-choice view of that broader computer vision
+system
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
 
 Conservation changes the input data and stakeholders, but the system structure

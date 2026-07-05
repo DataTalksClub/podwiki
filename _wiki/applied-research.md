@@ -95,6 +95,18 @@ Reinforcement learning or other advanced methods still need a practical problem
 and a way into the product [[cite:data-professionals-business-skills-in-saas=>Business
 Skills for Data Professionals in SaaS]].
 
+[[person:verenaweber=>Verena Weber]] describes the same boundary for an
+industry research role in generative AI. Some teams can hire research
+scientists without a PhD when relevant work experience fits the role
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@6:56=>Generative
+AI Consulting and Applied Research]].
+
+Because the work isn't pure academic research, the project has to start from a
+customer problem. The team then compares possible solutions and estimates
+impact. It also checks the effort needed to bring the result into production
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@10:41=>Customer-Focused
+Research at Amazon]].
+
 This is why applied research belongs near [[Machine Learning for Business]] and
 [[Data Product Management]]. A useful research output is more than a higher
 score. It tells the product or engineering team what to build, what not to
@@ -130,6 +142,13 @@ from long-context LLM benchmarking. The work happened on top of regular product
 work, so manager support and a clear underexplored contribution mattered
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
+
+Verena adds a stronger priority order from Alexa AI. Publications helped with
+reputation, talent attraction, personal motivation, and peer exchange. Still,
+the main KPI was solving the customer problem. Research projects could become
+industry-track papers after the product work, yet business impact came before
+publication count [[cite:practical-generative-ai-consulting-from-expertise-to-impact@16:26=>Business
+Impact Before Publications]].
 
 Lavanya describes why manager support and community channels matter. The team
 had to decide that the result should be shared outside the company. Then the
