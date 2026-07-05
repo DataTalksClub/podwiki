@@ -187,6 +187,7 @@ tradeoffs, metrics, ownership, and business context.
 Useful role-specific project pages:
 
 - [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]]
+- [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 - [[Open Source Portfolio Evidence]]
 - [[Data Engineering Portfolio Projects]]
 - [[Machine Learning Portfolio Projects]]

@@ -87,7 +87,8 @@ also quantify whether the team should solve a problem
 Product analytics adds experiments to that definition. It also adds funnels,
 cohorts, and dashboard communication.
 
-Use [[Data Analyst Role]] and [[Product Analytics]] for the role hubs. Use
+Use [[Data Analyst Role]], [[Product Analytics]], and
+[[product-analyst=>Product Analyst]] for the role hubs. Use
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]] for the
 title boundary.
 
@@ -178,6 +179,9 @@ describes the role through customer discovery and hypothesis formation.
 Data literacy and launch work also belong in the role. Quality and
 documentation appear there too in
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+That makes
+[[product-designer-to-data-product-manager=>product designer to data product manager]]
+a transition path into this role, not a separate data title.
 [[person:gregcoquillo=>Greg Coquillo]] adds roadmaps
 and customer journey mapping. He also adds success metrics and problem-first AI
 product work in

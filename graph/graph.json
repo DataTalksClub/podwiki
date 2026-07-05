@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12293
+    "links": 12299
   },
   "nodes": [
     {
@@ -42548,6 +42548,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:product-analyst",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "article-chip",
       "weight": 1
@@ -42555,6 +42561,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:product-analytics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "article-chip",
       "weight": 1
     },
@@ -55448,6 +55460,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
       "target": "wiki:salary-negotiation",
       "kind": "wiki-chip",
       "weight": 1
@@ -57017,6 +57035,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -66974,6 +66998,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
@@ -75719,6 +75749,12 @@
       "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-ml-project-checklist",

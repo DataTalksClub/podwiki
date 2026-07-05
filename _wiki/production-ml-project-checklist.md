@@ -18,6 +18,10 @@ A production ML project proves that a model can leave the notebook without
 losing reproducibility, ownership, or observability. It should show the problem
 framing and baseline from
 [[Machine Learning Portfolio Projects]].
+For ML-heavy projects, a compact
+[[ml-system-design-documents=>ML system design document]] can hold the decision,
+non-goals, and baseline. It can also name the evaluation plan, serving mode,
+monitoring signals, and owner before the implementation checklist starts.
 
 Use
 [[notebook-to-production-workflow=>notebook-to-production workflow]]

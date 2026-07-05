@@ -286,10 +286,11 @@ and guide development, while experts bring deep algorithmic, technical, and
 domain knowledge to hard problems
 ([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
-An operating model for data teams in B2B SaaS may combine product analysts and
-analytics engineers. Marketing scientists and data scientists can fit there
-too. In a matrix organization, a data leader owns craft quality and career
-growth. Product, marketing, or engineering partners guide day-to-day priorities
+An operating model for data teams in B2B SaaS may combine
+[[product-analyst=>product analysts]] and analytics engineers. Marketing
+scientists and data scientists can fit there too. In a matrix organization, a
+data leader owns craft quality and career growth. Product, marketing, or
+engineering partners guide day-to-day priorities
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]).
 
 This structure means hiring can't stop at technical skill. The team must also
