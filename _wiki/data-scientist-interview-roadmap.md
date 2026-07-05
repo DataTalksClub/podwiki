@@ -93,7 +93,9 @@ adds goal clarification, assumptions, and brainstorming. It also adds metric
 identification and company context. That branch connects to
 [[Product Analytics]].
 
-ML-heavy data scientists should put system design earlier in the sequence.
+ML-heavy data scientists should put
+[[machine-learning-system-design-interview=>ML system design interview]]
+practice earlier in the sequence.
 Valerii's
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 tests whether the candidate can state assumptions and get alignment. It also

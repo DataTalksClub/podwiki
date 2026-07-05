@@ -117,7 +117,9 @@ domain and stakeholder surface around the new team
 [[cite:from-software-engineering-to-leading-data-science-teams@52:52=>Software Engineer to Data Science Manager]].
 
 Software-to-ML transitions therefore connect to [[MLOps]],
-[[machine learning infrastructure]], [[Machine Learning Portfolio Projects]],
+[[machine learning infrastructure]], and [[Machine Learning Portfolio Projects]].
+They also connect to
+[[machine-learning-for-software-engineers=>machine learning for software engineers]]
 and [[Data Team Lead Role]].
 
 Transition evidence changes by role. In data engineering, real work is

@@ -98,7 +98,7 @@ an application structure and context-management behavior, not only a model call
 For this stage, use
 [[Notebook to Production AI Systems]],
 [[AI Infrastructure]], and
-[[Machine Learning for Software Engineers]].
+[[machine-learning-for-software-engineers=>machine learning for software engineers]].
 
 ## Stage 2: Add LLM Calls and Structured Outputs
 

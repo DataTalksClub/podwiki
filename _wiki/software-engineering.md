@@ -85,10 +85,11 @@ algorithms, and serialization details
 The episodes converge on software engineering as risk reduction, but they put
 the first intervention in different places.
 
-The ML-software boundary starts with requirements and team participation. Weak
-requirements and unrealistic expectations can undermine ML systems before
-implementation starts. Data-access problems, vocabulary gaps, and missing
-documentation create the same risk.
+The [[machine-learning-vs-software-engineering=>ML vs Software Engineering]]
+boundary starts with requirements and team participation. Weak requirements
+and unrealistic expectations can undermine ML systems before implementation
+starts. Data-access problems, vocabulary gaps, and missing documentation create
+the same risk.
 ML practitioners need to stay involved from requirements through testing.[[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]
 
 Nadia Nahar ties this to hidden technical debt. The model may be the visible
@@ -136,7 +137,10 @@ them to make changes safer, so they're software engineering concerns too.
 ML systems need normal software engineering plus lifecycle controls for data and
 features. Experiments, metrics, model artifacts, and serving behavior need
 tracking too. Readable code, dependency management, tests, and releases still
-matter. The system also needs traceability across the model lifecycle.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+matter. The system also needs traceability across the model lifecycle. For the
+transition path from software skills into ML systems, use
+[[machine-learning-for-software-engineers=>machine learning for software engineers]].
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 MLOps standardization favors existing infrastructure such as Kubernetes, Git, and
 CI/CD over adding tools for their own sake. Cookie-cutter repositories and

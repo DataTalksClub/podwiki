@@ -105,6 +105,11 @@ team a way to test hypotheses before over-investing, and a metric lets reviewers
 judge whether the system is useful.
 [[cite:ml-system-design=>ML System Design Playbook]]
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]]
+The same review logic appears in
+[[machine-learning-system-design-interview=>ML system design interview]]
+prompts. Candidates first check data availability, choose a baseline, and
+define metrics. Then they plan validation and rollout before defending model
+choice.
 
 Teams should cover the offline metric, business metric, validation data, and
 cohort or slice checks. The error-analysis plan and rollout method belong there

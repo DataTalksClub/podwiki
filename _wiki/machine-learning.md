@@ -208,8 +208,9 @@ improve decision quality.
 
 ## Production Engineering and Operations
 
-Production ML is software engineering with changing data and uncertain
-requirements. In
+Production ML is
+[[machine-learning-vs-software-engineering=>software engineering with changing data and uncertain requirements]].
+In
 [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],
 Nadia traces ML product failures to unclear requirements and data access gaps.
 Monitoring needs, weak documentation, and delivery gaps add more failure modes.

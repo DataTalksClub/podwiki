@@ -292,7 +292,8 @@ Because feature stores add shared machinery, they usually make sense once a team
 has several use cases or data scientists. Multiple teams strengthen the case
 when they need sharing and collaboration. [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 A small startup with one model and a few features usually doesn't need one at
-the beginning.
+the beginning. That early-stage constraint belongs with
+[[machine-learning-for-startups=>Machine Learning for Startups]].
 
 The tool becomes more valuable when ML becomes central and model iteration
 accelerates. It also helps when use cases multiply and teams start working

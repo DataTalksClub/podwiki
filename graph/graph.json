@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12038
+    "links": 12051
   },
   "nodes": [
     {
@@ -24728,6 +24728,12 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -29817,6 +29823,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:machine-learning-for-software-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41984,6 +41996,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "article-chip",
       "weight": 1
@@ -42579,6 +42597,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43667,6 +43691,12 @@
       "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
@@ -44955,6 +44985,12 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-vs-software-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -52035,6 +52071,12 @@
     {
       "source": "wiki:feature-stores",
       "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:machine-learning-for-startups",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62906,6 +62948,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:ml-system-design-documents",
       "kind": "wiki-chip",
       "weight": 1
@@ -63677,6 +63725,12 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-tools",
@@ -65774,6 +65828,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -67637,6 +67697,12 @@
       "target": "wiki:machine-learning-infrastructure",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-devops",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -79400,6 +79466,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -80205,6 +80277,12 @@
     {
       "source": "wiki:startups",
       "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:machine-learning-for-startups",
       "kind": "wiki-chip",
       "weight": 1
     },

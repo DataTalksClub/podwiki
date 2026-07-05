@@ -246,6 +246,8 @@ marts
 Data scientist versus machine learning engineer is a split between model
 reasoning and production ownership. Data scientists usually own the problem,
 data, features, and model choice. They also own evaluation and interpretation.
+The focused [[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist]]
+comparison follows that boundary through evidence, deployment, and handoff work.
 
 ML engineers own packaging and serving, plus scalability and maintainability.
 They also own deployment and runtime behavior. The split moves in small teams.

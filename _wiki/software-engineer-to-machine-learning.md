@@ -38,7 +38,7 @@ For them, [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI e
 keeps the bridge focused on prior engineering judgment and current AI product
 proof [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 Software-heavy candidates can use
-[[machine-learning-for-software-engineers=>ML for Software Engineers]].
+[[machine-learning-for-software-engineers=>machine learning for software engineers]].
 For the same target role from a data-science starting point, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 

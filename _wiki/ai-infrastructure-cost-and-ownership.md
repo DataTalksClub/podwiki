@@ -257,6 +257,10 @@ The startup rule is to buy speed while preserving a way out. Prefer boring,
 portable components when they're good enough. Use richer managed services when
 the product needs speed more than future flexibility
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+That tradeoff belongs with
+[[machine-learning-for-startups=>Machine Learning for Startups]] when the team
+is still proving whether ML should be part of the product.
+
 Fast infrastructure work can also leave open ports, security holes, and unclear
 technical debt. If a startup's value is mostly in its data, a leak can destroy
 the company

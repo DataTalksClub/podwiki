@@ -131,7 +131,9 @@ risk limits, and a review path
 
 For limited-budget or small-team machine learning, the decision list is the
 first budget filter. The company may not need a platform or research program
-yet. It may not need a custom model either.
+yet. It may not need a custom model either. The narrower
+[[machine-learning-for-startups=>Machine Learning for Startups]] path uses that
+filter for startup product validation.
 
 [[person:elenasamuylova=>Elena Samuylova]] starts from a painful workflow and
 asks whether ML is needed at all

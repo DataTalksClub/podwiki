@@ -112,6 +112,9 @@ modular Python and package structure. Tests matter too. Configuration, code
 review, and collaboration habits matter as well. Refactoring turns
 maintainability into the first production requirement
 [[cite:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Production Best Practices]].
+The [[machine-learning-vs-software-engineering=>ML vs Software Engineering]]
+comparison explains why those habits are necessary but not sufficient once data,
+models, and runtime behavior enter the system.
 
 The same career-focused transition advice names Git, Docker, and cloud
 platforms. Mentors and mini-projects help too

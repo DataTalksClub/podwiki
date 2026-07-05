@@ -102,7 +102,9 @@ recipes include regression, classification, and neural networks.
 by Gant Laborde brings the same framework to browser and JavaScript
 environments. For software engineers entering ML,
 [[book:20210412-ai-and-machine-learning-for-coders=>AI and Machine Learning for Coders]]
-by Laurence Moroney is an accessible entry point using TensorFlow.
+by Laurence Moroney is an accessible entry point using TensorFlow. The broader
+[[machine-learning-for-software-engineers=>machine learning for software engineers]]
+path keeps that tooling choice tied to projects and production habits.
 
 The same ecosystem structure shows up in fairness and interpretability work.
 That includes scikit-learn inspection tools, partial dependence, Fairlearn

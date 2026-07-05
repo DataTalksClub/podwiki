@@ -29,8 +29,8 @@ For workflow and monitoring across both disciplines, use
 DataTalks.Club's
 [overview of DevOps and MLOps](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
 as the starting point. For team models and maturity models, start there too.
-The comparison hinges on where software-delivery risk ends and model-behavior
-risk begins.
+The comparison hinges on where
+[[machine-learning-vs-software-engineering=>software-delivery risk ends and model-behavior risk begins]].
 
 MLOps and DevOps share a production goal: teams need to version code and
 automate delivery while they observe running systems and recover without

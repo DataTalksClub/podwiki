@@ -49,7 +49,8 @@ constraints, and stage-aware engineering choices matter too.[[cite:lean-mlops-fo
 Data and AI startups learn inside a business setting. A team that starts from a
 generic machine learning idea may miss the operational constraint that blocks
 the product. The safer order is to find a painful workflow. Then the team can
-decide whether ML is needed.[[cite:building-mlops-startup=>ML]] An obvious
+decide whether ML is needed. [[machine-learning-for-startups=>Machine Learning for Startups]]
+covers that startup-specific scope check.[[cite:building-mlops-startup=>ML]] An obvious
 grocery forecasting idea can fail if the store can't collect basic inventory
 data.
 

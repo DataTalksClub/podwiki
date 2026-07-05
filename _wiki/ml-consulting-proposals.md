@@ -34,7 +34,9 @@ mechanics [[cite:freelancing-in-machine-learning=>Freelancing in Machine Learnin
 gates [[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]].
 
 [[person:mariannadiachuk=>Marianna Diachuk]] adds startup readiness and prototype
-discipline [[cite:solopreneur-data-scientist=>Introducing Data Science in Startups]].
+discipline. That helps consultants decide whether a client's
+[[machine-learning-for-startups=>startup ML work]] is ready for a model
+[[cite:solopreneur-data-scientist=>Introducing Data Science in Startups]].
 [[person:verenaweber=>Verena Weber]] adds the GenAI consulting version. She uses
 workshops, use-case discovery, and pitch decks. Rates and client-finding through
 network conversations are part of the same proposal work [[cite:practical-generative-ai-consulting-from-expertise-to-impact@39:03=>Generative AI Consulting]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>GenAI deck]].

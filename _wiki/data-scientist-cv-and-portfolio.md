@@ -93,6 +93,8 @@ screen needs.[[cite:data-science-interview-and-cv-guide=>Data Science Interview 
 Role targeting changes which proof belongs near the top. Junior candidates can
 pick an industry and show purpose.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 Product data science and machine learning engineering expect different evidence.
+The [[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist]]
+comparison separates business-evidence proof from deployment-ownership proof.
 Use [[Data Science Careers]] and [[Job Descriptions]] to decide which proof
 should lead.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 

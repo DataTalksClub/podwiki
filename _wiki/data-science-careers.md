@@ -236,7 +236,13 @@ compress the whole field into a few weeks. Research alumni outcomes and treat
 the program as a forcing function for projects and feedback, not a guaranteed
 job path.[[cite:data-science-career-abc-framework@1:12:26=>Data Science Career ABC Framework]]
 
-Adjacent roles can be better fits at different points. Candidates who like dashboards, stakeholder questions, and exploratory analysis may fit [[Data Analyst Careers]] before a modeling-heavy data scientist role. Pipeline, orchestration, and reliability work may fit [[Data Engineering]]. For model deployment and platform work, compare the target data scientist role with [[MLOps]] and machine learning engineering expectations.
+Adjacent roles can be better fits at different points. Candidates who like
+dashboards, stakeholder questions, and exploratory analysis may fit
+[[Data Analyst Careers]] before a modeling-heavy data scientist role. Pipeline,
+orchestration, and reliability work may fit [[Data Engineering]]. For model
+deployment and platform work, compare the target data scientist role with
+[[MLOps]] and
+[[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist]].
 
 The principal data scientist path is another adjacent endpoint. Principal work
 can mean internal consulting, architecture review, and mentoring rather than

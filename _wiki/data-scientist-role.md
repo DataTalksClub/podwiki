@@ -250,7 +250,10 @@ The boundary with a
 often shows up in production work. A data scientist usually owns problem
 framing, modeling logic, and evaluation. The ML engineer usually owns packaging,
 serving, and CI/CD. They also own scalability and production reliability. The
-interview split separates product data scientist expectations from
+[[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist]]
+comparison expands that split for teams assigning model and runtime ownership.
+
+The interview split separates product data scientist expectations from
 ML-engineering-heavy expectations [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 
 Use [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
