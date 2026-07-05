@@ -16,7 +16,7 @@ related:
   - MLOps
 ---
 
-DataTalks.Club guests use scikit-learn as the default reference point for
+Scikit-learn is the default reference point for
 classic machine learning in Python. It covers tabular data, preprocessing,
 estimators, and pipelines. It also covers baselines and model inspection. It appears alongside
 [[Machine Learning Tools]],
@@ -24,7 +24,7 @@ estimators, and pipelines. It also covers baselines and model inspection. It app
 [[Data Science]] rather than as a
 standalone career plan.
 
-Scikit-learn is useful in these episodes when the work needs a clear baseline
+Scikit-learn is useful when the work needs a clear baseline
 or reviewable features. It also helps when the team needs controlled experiments
 or a model that can sit inside a broader
 [[MLOps]] path. The library is less central
@@ -99,7 +99,7 @@ features
 
 ## Interpretability and Fairness
 
-Scikit-learn appears in responsible-AI discussions as an integration layer for
+Scikit-learn appears in responsible-AI work as an integration layer for
 inspection and fairness tools. Fairlearn compares model performance across
 sensitive groups and visualizes disparities. A credit-scoring example keeps
 the technical tool tied to concrete harms and group definitions. It also keeps
@@ -127,7 +127,7 @@ when components fail inside their pipeline
 [[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]).
 
 Use [[Interpretability]] for the
-broader DataTalks.Club treatment of SHAP and partial dependence. It also covers
+broader treatment of SHAP and partial dependence. It also covers
 uncertainty, debugging, and stakeholder explanations. Use
 [[Responsible AI and Governance]]
 when the question moves from model inspection to accountability, fairness goals,
@@ -135,7 +135,7 @@ review, and human oversight.
 
 ## Production Boundaries and Model Safety
 
-DataTalks.Club discussions don't treat scikit-learn as a complete production
+Scikit-learn isn't a complete production
 platform. Teams still need data pipelines and experiment records when a model
 becomes operational. They also need deployment practices, monitoring, and
 governance. Use

@@ -13,8 +13,8 @@ related:
 ---
 
 A machine learning engineer turns a model into a working software system.
-DataTalks.Club discussions place the role where [[machine learning]] meets
-[[software engineering]]. Models need production code and stable interfaces.
+The role sits where [[machine learning]] meets [[software engineering]]. Models
+need production code and stable interfaces.
 They also need deployment paths, monitoring, rollback plans, and enough data
 awareness to fail predictably.[[cite:data-team-roles=>Data Team Roles]]
 
@@ -43,8 +43,7 @@ design]] and [[machine learning infrastructure]].[[cite:building-scalable-and-re
 
 ## Production Emphases
 
-DataTalks.Club guests draw the same role boundary from different production
-surfaces.
+The role boundary changes with the production surface.
 
 The product-service framing emphasizes prediction delivery. The machine learning
 engineer turns a model into a service, endpoint, batch job, or application
@@ -130,8 +129,8 @@ Iterative delivery connects feature engineering with testing, while system
 design work needs baselines and metrics before diagrams become
 credible.[[cite:machine-learning-engineering-production-best-practices=>Production ML Engineering]][[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
-Infrastructure skill depends on the team. Guests mention Docker and cloud
-services alongside Kubernetes and orchestration. They also bring up model
+Infrastructure skill depends on the team. The stack may include Docker and cloud
+services alongside Kubernetes and orchestration. It can also include model
 registries, experiment tracking, artifact storage, and monitoring.
 
 Danny Ma's builder profile adds career framing because builder work isn't only
@@ -222,10 +221,10 @@ Teams need platform pieces when multiple model-building teams need
 standardization, not because every team needs a large platform on day one. See
 also the [[MLOps roadmap]].[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-Newer episodes make the [[ai-engineer-role=>AI engineer]] boundary more
-visible. Machine learning engineers work across classic ML and custom models.
-They also work with features, training pipelines, and model serving. AI
-engineers often start from foundation models.
+The [[ai-engineer-role=>AI engineer]] boundary is increasingly visible. Machine
+learning engineers work across classic ML and custom models. They also work
+with features, training pipelines, and model serving. AI engineers often start
+from foundation models.
 
 They build applications around prompts, retrieval, and agents. Tool use,
 context management, and LLM evaluation belong to the same application layer. The

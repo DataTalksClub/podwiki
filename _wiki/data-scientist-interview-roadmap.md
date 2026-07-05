@@ -74,8 +74,8 @@ and validation. Serving, monitoring, and fallbacks matter too
 
 ## Recruiter, Candidate, and ML-Heavy Prep
 
-Guests agree that interview prep should be evidence-driven, but they put weight
-on different interview stages. Luke emphasizes market segmentation,
+Interview prep should be evidence-driven, with different stages requiring
+different emphasis. Luke emphasizes market segmentation,
 tailored applications, and direct outreach in
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 In
@@ -271,8 +271,8 @@ contribution and result. Luke's STAR guidance in
 also connects behaviorals to intro interviews. The first screen often tests
 whether your story is clear enough to pass forward.
 
-Include closing in the roadmap because guests treat rejection and offers as
-part of the hiring loop. Salary and etiquette matter too. Oleg covers
+Include closing in the roadmap because rejection and offers are part of the
+hiring loop. Salary and etiquette matter too. Oleg covers
 rejection follow-up, offer components, market comparison, and negotiation in
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 

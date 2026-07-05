@@ -13,8 +13,8 @@ related:
 Reverse ETL moves modeled warehouse data into operational tools. Sales,
 marketing, and support teams can act on it without opening a dashboard.
 Product and engagement teams can use the same synced data when customer
-behavior should guide onboarding or lifecycle messages. DataTalks.Club guests
-describe it as a warehouse-centered form of [[data activation]]. Useful syncs
+behavior should guide onboarding or lifecycle messages. It's a
+warehouse-centered form of [[data activation]]. Useful syncs
 depend on [[analytics engineering]], [[event tracking]], and [[tracking plans]].
 
 ## Warehouse-to-Tool Activation
@@ -23,7 +23,7 @@ Reverse ETL reverses the usual [[ELT]] direction. Teams first collect and model
 data, then send selected customer or account fields back to the systems where
 people act.
 
-In the podcast archive, reverse ETL sits inside
+Reverse ETL sits inside
 [[data activation]] and the
 [[modern data stack]]. It sits
 close to [[analytics engineering]],
@@ -50,11 +50,10 @@ instead of leaving it in a dashboard
 
 ## Stack Placement
 
-The DataTalks.Club discussions converge on a warehouse-first sequence where
-teams collect source events or application records. They store the data and
-transform it into trusted models. Then they sync a chosen subset into business
-tools. In Arpit's growth-stack walkthrough, this path runs from collection and
-storage to warehousing and transformation.
+The usual sequence is warehouse-first. Teams collect source events or
+application records and store the data. Then they transform it into trusted
+models before syncing a chosen subset into business tools. In Arpit's growth-stack walkthrough,
+this path runs through collection, storage, and warehousing before transformation.
 
 It then moves to activation and warehouse-first analytics, and reverse ETL
 comes after those steps [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth episode]].

@@ -18,8 +18,8 @@ related:
 ---
 
 Open-source ML contributions are public improvements to machine-learning and
-data tools that other practitioners can use, review, or maintain. DataTalks.Club
-guests describe the strongest examples as small and practical. They include
+data tools that other practitioners can use, review, or maintain. The strongest
+examples are small and practical. They include
 reproducible issues, documentation fixes, tests, and examples. CI improvements,
 community feedback, and scikit-learn-compatible components count too
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
@@ -45,7 +45,7 @@ interaction
 
 ## Contribution Scope
 
-DataTalks.Club guests treat an open-source ML contribution as work that lowers
+An open-source ML contribution is work that lowers
 the cost of using, understanding, or maintaining a real tool. Vincent's
 contribution episode starts from reciprocity, then shows how `clumper` and
 `memo` grew from repeated needs. He also uses `whatlies` and scikit-lego as
@@ -73,10 +73,10 @@ Each path makes the project easier for the next user or maintainer
 
 ## Contribution Tradeoffs
 
-Guests mostly agree that contribution is useful public work, but they stress
-different constraints. Vincent starts from maintainer load. He recommends small
-repositories when large projects have heavy traffic and formal governance.
-Heavy review requirements matter too
+Contribution is useful public work, but the constraints differ, and Vincent
+starts from maintainer load. He recommends small
+repositories when large projects have heavy traffic, formal governance, and
+heavy review requirements
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
 In his later scikit-learn episode, he adds governance and sustainability.
@@ -122,7 +122,7 @@ page explains how mature project governance shapes plugin boundaries, and
 [[Machine Learning Tools]]
 covers the tool ecosystem around those choices.
 
-DevRel episodes add a user-facing test for project choice. Elle puts docs, PRs,
+Developer-relations work adds a user-facing test for project choice. Elle puts docs, PRs,
 support, and content near product work when the tool serves data scientists
 ([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo's Metaflow discussion shows the infrastructure version. A contributor has
@@ -159,9 +159,8 @@ what users need next
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 Community courses can turn docs and examples into open-source ML contributions.
-Platform work can count too. In the DataTalks.Club scaling discussion,
-open-source Python projects and the Django course-management platform keep
-coding skills connected to free courses
+Platform work can count too when open-source Python projects and the Django
+course-management platform keep free course operations running
 [[cite:datatalksclub-scaling-and-free-courses=>Scaling Free Courses]].
 
 The Hugging Face [[computer vision]] community course shows the review version.

@@ -14,8 +14,7 @@ related:
 
 Long-context LLM evaluation asks whether a model can use a large input
 reliably. It doesn't stop at whether the provider advertises a large context
-window. In DataTalks.Club discussions, the topic sits near
-[[LLMs]] and [[evaluation]].
+window. The topic sits near [[LLMs]] and [[evaluation]].
 It also belongs with [[prompt engineering]]
 and [[retrieval-augmented-generation=>retrieval-augmented generation]].
 
@@ -33,10 +32,9 @@ before downstream processing, even when larger advertised windows are available
 
 ## Long Context Scope
 
-The shared meaning across these discussions is operational. A long-context
-model is useful only if it can find and use the relevant evidence inside a large
-input. It also has to meet product constraints for quality, latency,
-throughput, and cost.
+Long context is an operational capability. A long-context model is useful only
+if it can find and use the relevant evidence inside a large input. It also has
+to meet product constraints for quality, latency, throughput, and cost.
 
 Lavanya's team benchmarks provider models on internal datasets before a model
 can be adopted in a financial institution. They also measure deployment aspects
@@ -70,10 +68,10 @@ the test set should represent real product questions and known failure modes.
 
 ## Starting Constraints
 
-The guests differ less on whether long context is useful and more on where they
-put the first constraint. Lavanya starts from empirical capability. In her
-financial-document work, shorter inputs below the team's operating range behave
-better. Pushing toward large windows exposes capability drops
+The main split isn't whether long context is useful, but which constraint comes
+first. Lavanya starts from empirical capability. In her financial-document work,
+shorter inputs below the team's operating range behave better. Pushing toward
+large windows exposes capability drops
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 Her answer isn't to reject long context but to test where it works. The team
@@ -245,9 +243,9 @@ model.
 If the answer is correct but too slow or expensive, the fix may be caching or
 compression. It may also be summarization or preprocessing.
 
-The podcast discussions support this layered debugging style. Atita's
-RAG evaluation breaks failures into model, ingestion, chunking, and retrieval
-issues. It also checks end-to-end response quality
+This layered debugging style appears in RAG evaluation. Atita's evaluation
+breaks failures into model, ingestion, chunking, and retrieval issues. It also
+checks end-to-end response quality
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Ranjitha says custom datasets should represent real users because public
 benchmarks test model capability rather than the deployed system

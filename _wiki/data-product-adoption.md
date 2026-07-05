@@ -86,10 +86,10 @@ each group's next attraction
 
 ## Adoption Levers Across Roles
 
-The podcast discussions converge on adoption as behavior change, but they put
-weight on different levers. A product-design approach starts with the intended
-decision and works backward to data sources, transformations, dashboard design,
-and meeting rituals.
+Adoption is behavior change, but different roles influence it through different
+levers. A product-design approach starts with the intended decision and works
+backward to data sources, transformations, dashboard design, and meeting
+rituals.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Organizational translation starts with data people sitting beside business users

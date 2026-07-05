@@ -14,7 +14,7 @@ Production is the point where a data system, ML system, or AI system becomes
 part of normal work. People depend on it. Other systems call it. Failures have
 a cost.
 
-In DataTalks.Club discussions, production is less a deployment label than an
+Production is less a deployment label than an
 operating commitment. The team can release the system and observe its behavior.
 It can change the system, recover from failures, and explain outcomes.
 
@@ -133,8 +133,8 @@ output quality can't know whether an AI system is fit for production
 ## Reliability and Change Control
 
 Reliability is the ability to keep serving the intended decision when data,
-traffic, or dependencies change. Models and users change too. Guests treat
-reliability as a system property, not as a property of a model alone.
+traffic, or dependencies change. Models and users change too. It's a system
+property, not a property of a model alone.
 
 [[person:arsenykravchenko=>Arseny Kravchenko]] anchors
 reliability in design constraints by emphasizing goals, non-goals, and

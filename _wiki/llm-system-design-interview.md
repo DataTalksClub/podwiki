@@ -16,7 +16,7 @@ related_wiki:
 An LLM system design interview tests whether you can turn a language model into
 a bounded product system. It doesn't test whether you can name the newest
 framework.
-DataTalks.Club guests keep returning to that boundary: [[person:atitaarora=>Atita Arora]]
+The recurring boundary is concrete: [[person:atitaarora=>Atita Arora]]
 frames [[retrieval-augmented-generation=>RAG]] around retrieval, chunking,
 citations, and review [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] turns LLM applications into
@@ -178,9 +178,8 @@ auditability
 
 ## Treat Safety As System Design
 
-Prompt wording isn't the security layer. The security discussions point toward
-layered controls around retrieval and tools. They also cover outputs, logging,
-and human review.
+Prompt wording isn't the security layer. Security depends on layered controls
+around retrieval and tools, plus checks on outputs, logging, and human review.
 [[person:mariasukhareva=>Maria Sukhareva]] grounds this in a chatbot hacking
 exercise where overloaded prompts and knowledge-base retrieval expose hidden
 content risks

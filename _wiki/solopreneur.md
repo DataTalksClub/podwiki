@@ -14,7 +14,7 @@ related:
 ---
 
 A solopreneur is an [[entrepreneurship=>entrepreneur]]
-who chooses an intentionally small business. In the DataTalks.Club podcast,
+who chooses an intentionally small business. For data and AI workers,
 solopreneurship usually means independent [[data science]],
 [[AI]], or software work. It can also mean
 consulting, teaching, writing, or product work without trying to become a large
@@ -33,7 +33,7 @@ For client work, use [[Freelance]].
 
 ## Intentional Smallness
 
-Podcast guests treat solopreneurship as ownership plus constraint. The
+Solopreneurship is ownership plus constraint. The
 solopreneur owns the business, keeps it small enough to preserve independence,
 and tries not to depend only on billable hours. Noah treats consulting as
 business funding, not the whole business

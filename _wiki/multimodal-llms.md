@@ -14,8 +14,8 @@ related:
 
 Multimodal LLMs are large language models that process more than one input
 modality. They take text alongside images, video, or audio and produce outputs
-that reason across those modalities. DataTalks.Club guests discuss multimodal
-LLMs in autonomous driving perception, cross-modal search and retrieval, and the
+that reason across those modalities. They appear in autonomous driving
+perception, cross-modal search and retrieval, and the
 future trajectory of AI agents.
 
 Different data types can share a representation space. [[Embeddings]] map text
@@ -81,7 +81,7 @@ This connects multimodal LLMs to [[Autonomous Driving AI]] and [[Model Optimizat
 
 ## Visual Language Models and Agent Infrastructure
 
-AI agent discussions treat multimodality as part of the move beyond text-only
+AI agent infrastructure treats multimodality as part of the move beyond text-only
 interfaces. Visual language models and related multimodal components are getting
 better while infrastructure tooling, reliability services, and AI governance
 mature around them.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]

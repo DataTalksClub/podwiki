@@ -12,12 +12,12 @@ related_wiki:
 ---
 
 Nontraditional AI engineering paths start outside the standard
-computer-science-to-software route. DataTalks.Club guests show that the useful
-move is translation. They turn prior domain judgment, stakeholder work,
-production experience, and freelance delivery into evidence that they can build
-useful AI systems. Public learning can make that evidence visible.
+computer-science-to-software route. The useful
+move is translation. Prior domain judgment, stakeholder work, production
+experience, and freelance delivery become evidence that someone can build useful
+AI systems. Public learning can make that evidence visible.
 
-The target role still matters. [[AI Engineer Role]] discussions describe AI
+The target role still matters. [[AI Engineer Role]] describes AI
 engineers as people who build applications around users and model behavior.
 They manage context, retrieval, and evaluation. AI engineers work across
 end-to-end product work, fast product discovery, and enough full-stack range to
@@ -68,7 +68,7 @@ ownership of the end-to-end product, not a claim that AI filled every skill gap
 
 ## Proof Beats Biography
 
-The episodes are sympathetic to unusual biographies, but hiring proof comes
+Unusual biographies can matter, but hiring proof comes
 from artifacts. Revathy's job process started when a startup saw her GitHub
 portfolio. In the interview she showed an obesity prediction project and ran it
 locally. She explained the dataset and showed a REST service output.
@@ -109,7 +109,7 @@ unusual paths need concrete stories and working systems.
 ## Public Learning Turns Private Progress Into Market Signal
 
 Posting work in public makes hidden progress observable in these transitions.
-DataTalks.Club homework structure and posting in public helped Revathy
+Homework structure and posting in public helped Revathy
 understand the material. Public posts also brought comments from people
 outside the course, including feedback on her telecom project.[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Public Learning After a Career Break]]
 

@@ -16,8 +16,8 @@ related_wiki:
 
 An AI engineering roadmap gives learners a sequence for building software
 around models and proving that the software behaves well enough for real users.
-DataTalks.Club guests start with product and software ownership, then add
-[[LLMs]] and
+A practical path starts with product and software ownership, then adds [[LLMs]]
+and
 [[retrieval-augmented-generation=>retrieval-augmented generation]].
 Later stages add
 [[LLM evaluation workflows]],
@@ -68,8 +68,10 @@ discipline.
 
 ## Roadmap Emphasis
 
-Guests mostly differ on how wide the roadmap should be and where learners
-should start.
+The roadmap can start from different operating constraints. Some paths begin
+with full-stack product shipping or product discovery, while others start from
+statistical rigor and career translation. Practical LLM engineering and agentic
+systems define the later scope.
 
 Paul starts from the full-stack builder path. In his version, product shipping
 includes backend and frontend work. It also includes database design and data

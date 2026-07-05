@@ -230,8 +230,8 @@ context
 
 ## Choose the Right Target Role
 
-"Data engineer" isn't one job, and DataTalks.Club guests separate several targets. They
-include platform data engineering and product-facing data engineering.
+"Data engineer" isn't one job. The transition can target platform data
+engineering or product-facing data engineering.
 Analytics engineering, streaming, governance, and ML-adjacent pipeline work are
 other targets
 ([[Data Engineer Role]]).

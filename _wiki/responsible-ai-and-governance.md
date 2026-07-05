@@ -16,7 +16,7 @@ related:
 
 Responsible AI makes AI systems accountable for the data they use and the
 decisions they support. It also asks who can approve, contest, or override a
-system when it creates risk. In DataTalks.Club discussions, responsible AI sits
+system when it creates risk. Responsible AI sits
 inside [[governance]] rather than in a
 separate ethics checklist. Teams need
 [[data governance]] and
@@ -201,7 +201,7 @@ monitoring show whether model behavior differs across important groups, so
 governance work has evidence for review and mitigation
 [[cite:mlops-model-monitoring-data-observability@41:00=>MLOps Architect Guide]].
 
-Public-policy discussions extend responsible AI into ethics as the gap between
+Public-policy work extends responsible AI into ethics as the gap between
 what's legal and what's right. Printer e-waste can contaminate communities
 without being a crime. It remains an ethical failure data science can help
 expose.

@@ -20,11 +20,9 @@ related_wiki:
 ---
 
 A data product manager roadmap starts with user problems, not tool lists.
-DataTalks.Club guests describe the role as owning discovery, roadmaps,
-adoption, and success metrics. The capability may be a
-[[data-products=>data product]] or a metric layer.
-It may also be an internal ML platform, a recommender, a dashboard, or an AI
-feature.
+The role owns discovery, roadmaps, adoption, and success metrics. The
+capability may be a [[data-products=>data product]] or a metric layer. It may
+also be an internal ML platform, a recommender, a dashboard, or an AI feature.
 
 [[person:saramenefee=>Sara Menefee]] gives the transition version through
 customer discovery and hypothesis formation. She also includes data quality,

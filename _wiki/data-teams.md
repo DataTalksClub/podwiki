@@ -21,8 +21,7 @@ Data teams are the organizational design around data work. They decide who owns
 pipelines and analytical models, who maintains ML systems and metrics, and
 who's accountable for stakeholder and quality commitments.
 
-DataTalks.Club guests don't treat a data team as one job family. They describe
-a coordination model that spans
+Data teams don't map to one job family. The coordination model spans
 [[analytics engineering]],
 [[data engineering platforms]],
 [[data product management]].
@@ -227,8 +226,8 @@ the data team's calendar
 
 ## Platforms and Product Ownership
 
-Guests repeatedly separate platform ownership from product ownership. A shared
-platform team should give other teams paved paths for orchestration, data
+Platform ownership and product ownership stay separate. A shared platform team
+should give other teams paved paths for orchestration, data
 movement, and testing. It should also cover deployment, observability,
 permissions, and documentation.
 

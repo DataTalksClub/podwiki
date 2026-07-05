@@ -39,8 +39,8 @@ related_wiki:
 ---
 
 Machine learning for business starts with a decision, not a model. A company
-gets value when [[machine learning]] changes a repeated action. Podcast guests
-ground that value in revenue, cost savings, decision quality, and task time
+gets value when [[machine learning]] changes a repeated action. That value shows
+up in revenue, cost savings, decision quality, and task time
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
 
 Common actions include ranking recommendations and pricing decisions. They also

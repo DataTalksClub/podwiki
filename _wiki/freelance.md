@@ -96,7 +96,7 @@ vague promise to "modernize the data stack" gives the client less to evaluate.
 
 ## Finding Clients
 
-Guests treat client acquisition as relationship work before it becomes a sales
+Client acquisition starts as relationship work before it becomes a sales
 tactic. Adrian's first freelance contracts came through a recruiter. He compares
 large staffing agencies with direct work. Agencies can find projects for a new
 freelancer, but they take margin and may not negotiate the best rate for the
@@ -294,8 +294,8 @@ collaborates when the opportunity fits
 
 ## Productized Consulting and Reusable Assets
 
-Freelance work can stay a services business. Several guests also show how
-repeated client pain can become reusable assets. Adrian recommends building a
+Freelance work can stay a services business, and repeated client pain can also
+become reusable assets. Adrian recommends building a
 portfolio of products that can be reused for other customers. A normal project
 portfolio may help with agencies and technical screening. Direct business
 clients often care more about trust, the problem you can solve, and whether you

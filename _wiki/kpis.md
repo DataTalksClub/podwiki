@@ -14,15 +14,15 @@ related:
 
 Key performance indicators are the small set of [[metrics]]
 that a team uses to steer decisions, communicate tradeoffs, and judge whether
-work changed the business. In the DataTalks.Club discussions, KPIs aren't just
-dashboard numbers. They're decision metrics with an owner, a time window, a
-known audience, and a behavior they're meant to influence.
+work changed the business. KPIs aren't just dashboard numbers. They're decision
+metrics with an owner, a time window, a known audience, and a behavior they're
+meant to influence.
 
 In [[person:adamsroka=>Adam Sroka]]'s [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
 he gives the most direct KPI treatment.
 He starts from merit functions and comparable units, then defines KPIs as
-top-down executive decision metrics. Other
-episodes show where KPI work meets [[data strategy]],
+top-down executive decision metrics. The same KPI questions connect to
+[[data strategy]],
 [[product analytics]],
 [[model monitoring]], and
 [[a-b-testing=>A/B testing]].

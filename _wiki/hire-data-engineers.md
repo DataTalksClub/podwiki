@@ -24,8 +24,8 @@ warehouse tables. They may also manage orchestration, set up data quality
 checks, support analytics engineers, or turn repeated data work into a
 platform. Those are different hiring problems.
 
-DataTalks.Club guests repeatedly treat data engineering hiring as role
-design instead of keyword matching. [[person:nicolasrassam=>Nicolas Rassam]]
+Data engineering hiring works better as role design than keyword matching.
+[[person:nicolasrassam=>Nicolas Rassam]]
 explains that candidates can come from software engineering or BI. They can
 also come from analytics or data science. Look for evidence that they have built
 data systems and can explain the problem they solved

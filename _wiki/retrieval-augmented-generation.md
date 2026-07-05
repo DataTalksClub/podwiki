@@ -25,7 +25,7 @@ It starts with [[search=>Search]] and
 [[llm-evaluation-workflows=>LLM evaluation]] turn that material into a
 verifiable answer.
 
-Across DataTalks.Club discussions, RAG is more than one tool: search quality
+RAG is more than one tool: search quality
 and chunk design affect answer quality. Embeddings, prompt construction,
 citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 

@@ -12,15 +12,14 @@ related:
 ---
 
 Causal inference is the part of analytics and machine learning that estimates
-what would change if a team intervened. DataTalks.Club guests connect it to
+what would change if a team intervened. It connects to
 [[experimentation and causal inference]], [[a-b-testing=>A/B testing]], and
 [[product analytics]]. Causal claims also depend on [[metrics]] and
 [[machine learning]] because the decision and the evidence have to match.
 
-Across the podcast discussions, causal inference is most useful for teams that
-need a counterfactual answer. Product, marketing, and ML teams may need to
-reason about a launch or campaign. The same logic applies to recommendations,
-treatments, and policy changes.
+Causal inference is most useful when teams need a counterfactual answer.
+Product, marketing, and ML teams may need to reason about a launch or campaign.
+The same logic applies to recommendations, treatments, and policy changes.
 
 [[person:aleksandermolak=>Aleksander Molak]] frames this as the difference
 between association and causation. [[person:jakobgraff=>Jakob Graff]] grounds it
@@ -92,8 +91,8 @@ causality in a noisy product environment
 
 ## Practice Boundaries
 
-The guests mostly agree that causal inference should support a decision, but
-they start from different operating constraints.
+Causal inference should support a decision, but the operating constraint changes
+the practice.
 
 Molak starts from causal structure. In the causal ML episode, he explains that
 unconfoundedness can come from randomized treatment assignment or from careful

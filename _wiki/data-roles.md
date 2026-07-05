@@ -17,8 +17,8 @@ related_wiki:
 ---
 
 Data roles are easier to compare by ownership than by title. In
-DataTalks.Club role discussions, an analyst explains what happened. A data
-scientist turns ambiguous questions into evidence, experiments, and models.
+practice, an analyst explains what happened. A data scientist turns ambiguous
+questions into evidence, experiments, and models.
 
 A data engineer makes data reliable enough for other people to use. An
 analytics engineer turns raw data into trusted business models. A machine
@@ -81,12 +81,11 @@ SQL. It also fits people who enjoy dashboards and stakeholder questions.
 Analysts help teams understand what happened, why a metric moved, and what
 decision should follow.
 
-The role definition episode puts analysts close to product managers because
-analysts know company data. They can also quantify whether the team should
-solve a problem
+Analysts sit close to product managers because they know company data. They can
+also quantify whether the team should solve a problem
 ([[cite:data-team-roles=>Data Team Roles Explained]]).
-Podcast discussions on product analytics add experiments to that definition.
-They also add funnels, cohorts, and dashboard communication
+Product analytics adds experiments to that definition. It also adds funnels,
+cohorts, and dashboard communication
 ([[Data Analyst Role]],
 [[Product Analytics]]).
 
@@ -106,8 +105,7 @@ The data engineer role owns dependable data movement: engineers ingest and store
 data. They transform and orchestrate datasets, then test, document, and operate
 them for downstream teams.
 
-The role definition episode describes data engineers as the people who make
-user-generated data available in usable form. In
+Data engineers make user-generated data available in usable form. In
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]],
 [[person:roksolanadiachuk=>Roksolana Diachuk]] grounds
 the engineering side in ETL and storage. Spark performance, monitoring, and
@@ -319,8 +317,8 @@ That means a first data hire may do analyst, engineer, scientist, and product
 work in the same month. A mature platform team may split those same
 responsibilities across several people.
 
-For career changers, DataTalks.Club guests repeatedly advise translating prior
-work into role evidence. [[person:ksenialegostay=>Ksenia Legostay]]
+For career changers, prior work should become role evidence.
+[[person:ksenialegostay=>Ksenia Legostay]]
 turned project management and KPI work into data science evidence in
 [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 Nikola Maksimovic turned marketing funnels and reporting into analytics

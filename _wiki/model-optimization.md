@@ -14,7 +14,7 @@ related:
 Model optimization makes machine learning models smaller, faster, and cheaper
 to serve in production. It includes quantization, distillation, and pruning. It
 also includes fine-tuning, specialized serving, and on-device inference.
-DataTalks.Club discussions place the topic where model quality has to meet hard
+Model optimization sits where model quality has to meet hard
 constraints from [[LLM Deployment]], [[AI Infrastructure]], [[Production]], and
 [[Machine Learning System Design]].
 
@@ -73,7 +73,7 @@ not the first thing a beginner needs to master. They become important when a
 prototype has to run faster or fit constrained hardware. They also help when the
 model must become cheaper or better adapted to a task.[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
 
-Two optimization moves recur in these episodes: fine-tuning specializes a model,
+Two optimization moves recur across these production systems: fine-tuning specializes a model,
 while distillation and related compression techniques reduce serving cost or
 latency. Both are most useful after the team knows what the system has to do in
 production.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]

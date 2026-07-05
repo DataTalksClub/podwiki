@@ -16,10 +16,10 @@ related:
 
 Data engineering platforms are the shared systems and team practices that move
 data from source systems into reliable analytical uses. They also support
-machine learning and operational workflows. DataTalks.Club guests describe the
-platform as broader than a warehouse or scheduler. It combines ingestion,
-storage, compute, and workflow coordination. Access, monitoring, governance,
-and support practices belong there too.
+machine learning and operational workflows. A platform is broader than a
+warehouse or scheduler. It combines ingestion, storage, compute, and workflow
+coordination. Access, monitoring, governance, and support practices belong
+there too.
 
 [[person:larsalbertsson=>Lars Albertsson]] starts from
 storage, compute, and workflow engines, then connects those primitives to
@@ -218,8 +218,8 @@ support better decisions
 
 ## Reliability, Observability, and DataOps
 
-Guests treat reliability as a platform responsibility because many data
-failures are silent. [[person:barrmoses=>Barr Moses]]
+Reliability is a platform responsibility because many data failures are silent.
+[[person:barrmoses=>Barr Moses]]
 distinguishes data observability from application monitoring and names the
 signals a data platform should expose. Those signals include freshness, volume,
 distribution, and schema. She also covers lineage and ownership. SLAs,

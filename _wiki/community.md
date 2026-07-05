@@ -12,9 +12,9 @@ related:
 ## Definition
 
 A community brings practitioners together to learn, ask questions, share work,
-and help each other improve. DataTalks.Club podcast guests use the term for a
-working system of feedback and teaching. They also connect community to
-contribution, visibility, and trust, not only to events or content.
+and help each other improve. Practitioner communities work as feedback and
+teaching systems. They also create contribution paths, visibility, and trust,
+not only events or content.
 
 Forums and homepage work count as community work. Programs count too, as do live
 coding and office hours[[cite:datatalksclub-building-scaling-data-community]].
@@ -37,12 +37,11 @@ Community is defined by participation. Members join events and ask questions in
 Slack, while others write notes, submit pull requests, and mentor newcomers.
 Some present projects or reuse what they learn at work.
 
-Anniversary episodes connect Slack engagement, teaching assistants, and webinar
-contributions to practical community work. Project of the Week and competitions
-become portfolio
+Slack engagement, teaching assistants, and webinar contributions all count as
+practical community work. Project of the Week and competitions become portfolio
 work[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary=>Building a Sustainable Data Community]].
 Longevity links to active engagement and self-organization, with members
-becoming podcast guests, mentoring in Slack, or joining Project of the
+sharing their work publicly, mentoring in Slack, or joining Project of the
 Week[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]].
 
 A newsletter list or video channel can bring people in, but the community work
@@ -111,15 +110,14 @@ Datalift Summit do the same[[cite:building-ml-communities-diversity-and-career-g
 
 ## Moderation, Safety, and Trust
 
-Community work includes boundaries, and guests don't treat moderation as
-cleanup after growth. They describe moderation as a condition that lets
-members participate.
+Moderation lets members participate, so community teams need boundaries before
+growth creates cleanup work.
 
 Moderation covers code-of-conduct work, vendor-spam handling, niche choice, and
 scam awareness. It also protects members from unsolicited
 messages[[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]].
-The DataTalks.Club anniversary and scaling discussions add practical safeguards
-for community safety and trust[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary]][[cite:datatalksclub-scaling-and-free-courses]].
+Practical safeguards for community safety and trust include sustained engagement
+loops and clear participation paths[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary]][[cite:datatalksclub-scaling-and-free-courses]].
 
 The inclusion lens makes the code of conduct operational. Rules need reporting
 paths, case-by-case handling, and
@@ -149,8 +147,8 @@ Members can move through several contribution paths:
 - Join competitions, hackathons, or Project of the Week.
 - Help with moderation, event operations, or speaker sourcing.
 
-Guest appearances and Slack mentoring show the DataTalks.Club version of this
-ladder. Project of the Week adds a project-based contribution
+Public project sharing and Slack mentoring make this ladder visible. Project of
+the Week adds a project-based contribution
 route[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]].
 The MLOps version moves community work from core contributors to autonomous
 sprints. Members can take organizer-led activity into member-owned
@@ -163,7 +161,7 @@ skills[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open 
 [[person:saraelateif=>Sara EL-ATEIF]]'s account is the clearest career-entry
 version of this route.
 
-Open-source guests add a maintainer perspective. Community channels such as
+Open-source communities add a maintainer perspective. Channels such as
 Discourse and Discord connect to GitHub projects. Pull request review and
 releases turn that contribution into project
 maintenance[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].

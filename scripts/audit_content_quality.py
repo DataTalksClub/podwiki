@@ -129,11 +129,7 @@ def link_counts(text: str) -> dict[str, int]:
     return counts
 
 
-def audit_file(
-    path: Path,
-    strict_scaffold_headings: bool = False,
-    strict_source_language: bool = False,
-) -> dict[str, object]:
+def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
     meta = frontmatter(text)
     body = visible_body(text)
@@ -171,9 +167,8 @@ def audit_file(
         + raw_relative_url * 4
         + tagged_shape_errors * 8
     )
-    if strict_source_language:
-        score += len(source_scaffolding) * 2
-        score += len(generic_citation_labels) * 3
+    score += len(source_scaffolding) * 2
+    score += len(generic_citation_labels) * 3
     if is_public_content and links["podcasts"] == 0:
         score += 5
     return {
@@ -206,18 +201,10 @@ def main() -> None:
         action="store_true",
         help="Also flag older scaffold headings such as Common Definition and Guest Differences.",
     )
-    parser.add_argument(
-        "--strict-source-language",
-        action="store_true",
-        help="Also fail generic source-scaffolding prose and low-information citation labels.",
-    )
     args = parser.parse_args()
 
     paths = selected_page_paths(args.paths) if args.paths else page_paths(args.folders)
-    rows = [
-        audit_file(path, args.strict_scaffold_headings, args.strict_source_language)
-        for path in paths
-    ]
+    rows = [audit_file(path, args.strict_scaffold_headings) for path in paths]
     problem_rows = [
         row
         for row in rows
@@ -225,8 +212,8 @@ def main() -> None:
             row["generic_podcast_links"]
             or row["forbidden_headings"]
             or row["archive_scaffolding"]
-            or (args.strict_source_language and row["source_scaffolding"])
-            or (args.strict_source_language and row["generic_citation_labels"])
+            or row["source_scaffolding"]
+            or row["generic_citation_labels"]
             or row["old_timestamped_podcast"]
             or row["visible_timestamp_prose"]
             or row["podcast_label_timestamps"]

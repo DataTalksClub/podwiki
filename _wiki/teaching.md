@@ -17,9 +17,9 @@ related:
   - Job Search
 ---
 
-DataTalks.Club guests describe teaching as practical education for people trying
-to do real data, ML, and AI work. Guests rarely describe it as lecture delivery.
-They tie it to curriculum design, [[mentoring-in-tech=>mentoring]], and project
+Teaching is practical education for people trying
+to do real data, ML, and AI work. It's rarely just lecture delivery.
+The strongest examples tie it to curriculum design, [[mentoring-in-tech=>mentoring]], and project
 work. Feedback, documentation, community support, and public explanation also do
 real teaching work.
 
@@ -32,7 +32,7 @@ and [[Machine Learning Portfolio Projects]].
 
 ## Teach Through Real Work
 
-DataTalks.Club guests tend to make projects the center of technical education.
+Projects tend to sit at the center of technical education.
 [[person:jeffkatz=>Jeff Katz]] explains a bootcamp model
 that uses employer research, active learning, and repeated labs. Students also
 give feedback during the course. He names Python, SQL, and cloud fundamentals
@@ -83,7 +83,7 @@ and practical engineering. It isn't only a set of lectures
 
 ## Build Curriculum From Constraints
 
-The strongest curriculum discussions begin with constraints. Teachers
+Strong curricula begin with constraints. Teachers
 need to know the target role, learner background, and employer expectations.
 They also need to account for data access, tools, and available time.
 
@@ -133,7 +133,7 @@ students
 
 ## Use Feedback and Mentoring as Teaching Infrastructure
 
-Teaching in these episodes depends on feedback. Jeff says teachers should
+Teaching depends on feedback, and Jeff says teachers should
 constantly check what students actually learned, not assume a clear lecture
 became understanding. He contrasts passive and active learning. Students learn
 more when they do the work, ask questions, and expose misunderstandings
@@ -143,7 +143,7 @@ Irina's mentoring discussion shows the same idea at one-to-one scale. She
 describes adapting explanations to the learner, including visual explanations
 for tables and databases. She also discusses finding technical reviewers and
 asking for feedback from engineering, domain, and community peers. Mentoring
-isn't only encouragement here. It's a feedback channel that helps a learner
+also gives learners a feedback channel that helps them
 correct SQL, modeling, product logic, and career direction
 [[cite:teaching-mentoring-data-analytics-fintech=>Teaching and Mentoring in Data Analytics]].
 
@@ -152,7 +152,7 @@ live sessions, selection, and graduation. She also connects communities to skill
 discovery and faster learning
 [[cite:community-building-and-teaching-in-ai-tech=>Community Building and Teaching in AI & Tech]].
 
-DataTalks.Club's own community episode adds the same structure. Events, office
+The community-building account adds the same structure. Events, office
 hours, answered questions, and mentors make learning more durable than a course
 watched alone. Community also accelerates software-to-ML learning because peer
 groups give learners a place to test ideas and get feedback
@@ -165,7 +165,7 @@ they understand. That work can become
 [[career-transitions-in-data=>career transition]] signal
 [[cite:from-software-engineer-to-machine-learning@20:38=>Software to ML]].
 
-Teaching in those episodes is community work, so it belongs with
+Teaching is community work, so it belongs with
 [[Community]] and
 [[Community Building]].
 When that teaching moves into a larger event, the organizer questions belong
@@ -236,7 +236,7 @@ starts, and repo tours, then connects practical writing habits with learning by
 teaching
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
 
-Public explanation also appears in learn-in-public discussions.
+Public explanation also supports learn-in-public practice.
 [[person:swyx=>Shawn Swyx Wang]] frames public learning
 as honest progress, correction, and earned expertise. He references open
 knowledge projects such as collaborative docs and cheat sheets. Learners can
@@ -247,7 +247,7 @@ public explanations can also turn study into
 
 ## Teach for Access and Career Mobility
 
-Several guests connect teaching to access. Jeff's bootcamp discussion includes
+Teaching also works as access infrastructure. Jeff's bootcamp discussion includes
 part-time models, affordability, career services, and internships with employer
 projects. Irina teaches through NGOs and bootcamps, including FrauenLoop and AI
 Guild.
@@ -293,8 +293,8 @@ university teaching with [[technical writing]], [[developer relations]], and
 [[cite:solopreneur-developer-and-data-professional@16:27=>Solopreneur teaching mix]]
 [[cite:solopreneur-developer-and-data-professional@58:24=>Solopreneur teaching path]].
 
-Guests don't tell learners to take more courses. They ask learners to study a
-focused concept and apply it in a realistic project. Then learners explain the
+Learners shouldn't default to more courses. They study a focused concept and
+apply it in a realistic project. Then they explain the
 work clearly, ask for feedback, and publish enough for another person to evaluate.
 
 ## Related Pages

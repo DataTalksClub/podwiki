@@ -12,7 +12,7 @@ related:
 
 Information retrieval finds the right pieces of information from a larger
 collection. It has to satisfy time, quality, and system constraints. In
-DataTalks.Club podcast discussions, retrieval sits behind
+practice, retrieval sits behind
 [[search]] and
 [[vector databases]]. It also
 shapes
@@ -104,8 +104,8 @@ affect what the generator can see.
 
 ## Retrieval Boundaries Across Systems
 
-Podcast guests draw the retrieval boundary differently depending on the system
-they're building. Search discussions center on lexical indexes, ranking,
+The retrieval boundary shifts depending on the system being built. Search
+systems center on lexical indexes, ranking,
 business metrics, and product constraints
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 Vector-search and RAG discussions focus on embeddings, chunking,

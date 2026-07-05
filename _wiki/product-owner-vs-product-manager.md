@@ -21,7 +21,7 @@ related_wiki:
 ---
 
 Product owner and product manager aren't stable titles across companies.
-DataTalks.Club guests draw a practical split. First ask who owns the product
+A practical split starts by asking who owns the product
 decision. Then ask who protects delivery, manages the roadmap, and aligns data
 or ML specialists across teams.
 
@@ -93,7 +93,7 @@ managers streamline delivery and coordination, while product owners have
 stronger product ownership
 [[cite:building-data-products-product-owner-vs-product-manager=>Anna on PM boundaries]].
 
-Other DataTalks.Club episodes use product manager in a broader way.
+Product manager can also be broader than Anna's split.
 
 [[person:saramenefee=>Sara Menefee]] starts data product management from
 customer discovery and hypothesis formation in
@@ -105,7 +105,7 @@ describes a technical PM in
 That PM owns roadmap direction, specifications, feedback, and stakeholder
 communication for an internal ML platform.[[cite:ml-product-manager-and-mlops-platform-strategy=>Geo on ML platform PM]]
 
-In these episodes, product managers often run the product-management work around
+In that broader use, product managers often run the product-management work around
 the team. They handle discovery and roadmap work. They also manage
 prioritization, rollout, feedback, and metrics.
 

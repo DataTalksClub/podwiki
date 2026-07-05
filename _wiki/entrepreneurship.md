@@ -13,11 +13,11 @@ related:
 ---
 
 Entrepreneurship in this wiki means turning technical or consulting expertise
-into an owned business. The business still centers on data or AI. Guests discuss
-[[startups=>startup]] companies and [[solopreneur]] businesses
+into an owned business. The business still centers on data or AI. The business
+paths include [[startups=>startup]] companies and [[solopreneur]] businesses
 [[cite:building-mlops-startup=>ML startup]]
 [[cite:solopreneur-developer-and-data-professional=>Solopreneurship]].
-They also discuss [[freelance]] consulting and [[open source]] product companies
+They also include [[freelance]] consulting and [[open source]] product companies
 [[cite:building-open-source-data-product-for-identity-resolution=>Open-source product company]].
 
 Across these paths, [[founder]] work connects product and distribution while
@@ -72,10 +72,11 @@ keeps appearing across clients.
 
 ## Scale and Business Model Tradeoffs
 
-Guests differ most on scale and funding. They also differ on how much service
-work should remain inside the business. For Samuylova, building a company around
-model monitoring includes venture funding and investor conversations. It also
-includes open-source adoption plus cloud and on-premise delivery
+Scale and funding create the largest business-model differences. Service work
+can also remain inside the business to different degrees. For Samuylova,
+building a company around model monitoring includes venture funding and
+investor conversations. It also includes open-source adoption plus cloud and
+on-premise delivery
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]].
 Noah treats smallness as an intentional design choice: he wants income streams
 that compound without requiring a larger team
@@ -96,9 +97,9 @@ evidence into open-source tools and product-led distribution
 
 ## Evidence Before Building
 
-Guests are skeptical of tool-first building. Samuylova's Evidently story turns
-customer discovery into a founder discipline. The team talked to about 50 people
-before building
+Tool-first building is a weak starting point. Samuylova's Evidently story turns
+customer discovery into a founder discipline. The team talked to about 50
+people before building
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]].
 
 During early development, they talked to more than 100 people. Users described
@@ -159,8 +160,8 @@ client or one delivery calendar controls all income.
 
 For data workers, the practical bridge is narrow packaging. A useful freelance
 offer names the buyer, workflow, failure mode, and outcome. A consulting
-project, workshop, course, or open-source example needs the same structure. The
-guests treat that packaging as business design, not as a late marketing task
+project, workshop, course, or open-source example needs the same structure. That
+packaging is business design, not a late marketing task
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
 
@@ -183,8 +184,8 @@ Samuylova's Evidently story gives the MLOps version. She discusses open core
 and cloud, on-premise deployments, bottom-up adoption by engineers, and
 data-safety concerns
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]].
-The guests don't treat open source as generosity alone. It's a trust and
-distribution mechanism for technical buyers.
+Open source isn't generosity alone. It's a trust and distribution mechanism
+for technical buyers.
 
 Textualize adds a hosted developer-tool model. A broadly useful terminal-app
 framework can stay free to use while the company monetizes hosted deployment

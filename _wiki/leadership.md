@@ -25,19 +25,20 @@ related:
   - Data Product Management
 ---
 
-DataTalks.Club guests describe leaders as people who increase other people's
-ability to do useful data and AI work. The episodes place that work in formal
-management, senior IC [[mentoring-in-tech=>mentoring]], and platform ownership.
+Leadership increases other people's ability to do useful data and AI work. That
+work appears in formal management, senior IC
+[[mentoring-in-tech=>mentoring]], and platform ownership.
 First data hires show leadership when they build business trust. Executives show
 it when they turn data work into strategy. [[person:terezaiofciu=>Tereza Iofciu]]
 makes that boundary explicit in
 [[cite:data-leadership-coaching=>Data Leadership Coaching]]:
 people don't need a leadership title to develop leadership skills.
 
-Across the podcast episodes, guests keep data and AI leadership close to
-operating work. They talk about manager and expert paths. They also cover team
-design, hiring, coaching, and stakeholder translation. Portfolio judgment,
-platform ownership, and scale appear throughout these episodes.
+Data and AI leadership stays close to operating work through manager and expert
+paths. It also covers team design, hiring, coaching, and stakeholder
+translation.
+Portfolio judgment, platform ownership, and scale belong in the same leadership
+surface.
 
 For [[data-engineering-manager-role=>Data Engineering Manager]] roles, that means aligning people with
 priorities and connecting platform work to reliability. The manager still needs
@@ -250,8 +251,8 @@ business context.
 
 ## Mentorship and Feedback
 
-Several guests describe leadership as creating growth conditions for other
-people. [[person:marianosemelman=>Mariano Semelman]]
+Leadership includes creating growth conditions for other people.
+[[person:marianosemelman=>Mariano Semelman]]
 describes his data science manager work as meetings, mentoring, and coaching.
 Planning and people development sit in the same job in
 [[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
@@ -349,7 +350,7 @@ dopamine loop of coding is part of the role change. The manager needs new
 feedback loops around team momentum, influence, and business value
 ([[cite:from-software-engineering-to-leading-data-science-teams=>Software Engineer to Data Science Manager]]).
 
-Managers can learn from several episodes:
+Managers can learn from these examples:
 
 - Sobkowiak for role boundaries and project discovery
 - Cohen for team-structure tradeoffs
@@ -599,10 +600,10 @@ Inclusive leadership adds another scaling constraint because Iofciu frames
 inclusion as an operating practice. Leaders need to notice who's excluded by
 default norms, not only who already speaks loudly in the room.[[cite:data-leadership-coaching@54:24=>Data Leadership Coaching]]
 
-Liang's episode shows the adoption side of scaling. Her team moved from
-dashboards to forecasting and data products. Business teams still needed trust,
-workshops, and Q&A. They also needed data culture work before the outputs
-changed daily decisions
+Scaling also depends on adoption. Liang's team moved from dashboards to
+forecasting and data products. Business teams still needed trust, workshops, and
+Q&A. They also needed data culture work before the outputs changed daily
+decisions
 ([[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]).
 
 Her leadership motto is to give project ownership to the people doing the work.

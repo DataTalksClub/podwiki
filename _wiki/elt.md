@@ -46,13 +46,13 @@ The modern stack splits `E-L` from `T`, with Airbyte handling extraction and
 loading. Transformations happen after data arrives in the warehouse. They range
 from simple type casting to final business models that join AdWords and
 Salesforce data.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 ELT is still a [[data pipelines]]
 topic because the pipeline has to move and transform data. It also has to
 publish data and keep runs reliable.
 
 ELT isn't "load everything and forget about it." Raw ingestion and data marts
-are separate layers.[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+are separate layers.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 At platform scale, teams can move from tightly coupled ETL models to ELT. They
 can load data first, transform it later, and keep the model resilient as use
 cases grow.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
@@ -65,7 +65,7 @@ common layer that several groups can reuse, followed by data marts for business
 consumers. Those marts may serve marketing, sales, finance, or product teams.
 After transformation, business users can pull metrics from a mart because the
 team has added guardrails and consistent definitions.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Staging gives the pipeline a holding area between source systems and the
 warehouse or lakehouse. Some tools hide that stage, but the boundary still
@@ -90,7 +90,7 @@ data lake, and consumer-facing exposure paths.
 
 In ELT, Airbyte, dbt, and Airflow do different jobs. Airbyte sits at the
 extract-load step and connects with dbt after warehouse load.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 Airbyte is an ingestion tool in this page's vocabulary, while the warehouse
 transformation layer belongs to SQL, dbt, or another modeling system.
 
@@ -102,7 +102,7 @@ result. This connects ELT directly to [[analytics engineering]].
 
 [[apache-airflow=>Airflow]] belongs at the scheduling and dependency boundary.
 Airflow can run Airbyte jobs, but it isn't the transformation layer.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Airflow, Prefect, or another orchestrator may coordinate the work. Ingestion
 engines, warehouses, dbt, and modeling tools still own the work they run.
@@ -122,7 +122,7 @@ ELT is a durable workflow structure, not a fixed vendor list.
 ELT preserves source detail, but it also creates governance work. A Salesforce
 checkbox or picklist field can be ingested and modeled later without a full
 extraction redesign.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 The same flexibility can create unused raw data, unclear ownership, and
 inconsistent definitions when teams don't maintain the warehouse layers.
 
@@ -130,7 +130,7 @@ inconsistent definitions when teams don't maintain the warehouse layers.
 ELT. Change data capture syncs only changed records after an initial load.
 Those records include changed or deleted rows instead of a fresh copy of the
 whole source table.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 CDC keeps the loaded layer fresh. The team still has to decide how changes
 affect staged tables. It also has to decide how they affect modeled dimensions
@@ -166,7 +166,7 @@ need repeatable runs, not only a load-first diagram.
 ELT shifts some work from data engineers to analytics engineers and analysts.
 It doesn't remove engineering work. Analytics teams gain autonomy because many
 transformations can be written in SQL after data is already in the warehouse.
-[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Daily analytics engineering work still requires data modeling and pipeline
 awareness. It also requires data quality work and Looker modeling. dbt tests
@@ -190,7 +190,7 @@ useful to business analysts.[[cite:get-data-analytics-and-data-engineering-job=>
 
 Modern analytics teams load source detail and keep the warehouse flexible.
 They can transform with SQL and dbt, but they still need governance, cleanup,
-and data mart boundaries.[[cite:data-engineering-tools-modern-data-stack=>modern stack episode]]
+and data mart boundaries.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Teams make a load-first stack useful through daily [[analytics engineering]]
 work. They maintain models and tests, and they coordinate DAGs and

@@ -21,14 +21,15 @@ decisions or systems. The role connects [[data science]] and
 [[data science project management]] with [[data teams]], [[team building]], and
 [[hiring]].
 
-The DataTalks.Club discussions on management don't treat the manager's job as
-choosing the most advanced model. Managers clarify the business problem and hire
-for the team's stage. They also protect learning time, create feedback routines,
-and judge whether the work changed a real decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]][[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
+The manager's job isn't choosing the most advanced model. Managers clarify the
+business problem and hire for the team's stage. They also protect learning time,
+create feedback routines, and judge whether the work changed a real
+decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]][[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
 
-For episode navigation, start with
-[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]],
-[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]],
+For manager hiring, start with
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
+For operating models, add
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
 and
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]].
 

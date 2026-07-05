@@ -19,10 +19,9 @@ related:
 
 Machine learning turns data into predictions and classifications. It also
 powers rankings and recommendations that a product or team can use.
-DataTalks.Club guests usually describe it as applied modeling inside a larger
-decision. Teams choose the problem and check the data. They define labels and
-metrics, compare against a baseline, and decide whether the model belongs in a
-production system.
+Machine learning is applied modeling inside a larger decision. Teams choose the
+problem and check the data. They define labels and metrics, compare against a
+baseline, and decide whether the model belongs in a production system.
 
 This topic centers on classic applied ML. The broader work around analysis,
 experiments, and stakeholder decisions belongs with
@@ -37,18 +36,17 @@ When models already need release or ownership paths, connect the work to
 [[MLOps vs DataOps]].
 
 Trackers and platforms are covered in
-[[Machine Learning Tools]], while [[AI]] and
-[[LLM Production Patterns]] cover LLM applications such as RAG and agents.
+[[Machine Learning Tools]]. [[AI]] and [[LLM Production Patterns]] cover LLM
+applications such as RAG and agents.
 Mark Ryan and Luca Massaron's
 [[book:20250505-machine-learning-for-tabular-data=>Machine Learning for Tabular Data]]
-covers the classical modeling workflow that anchors much of this discussion.
-It includes feature engineering, gradient-boosted trees, and cross-validation
-for structured business data.
+covers feature engineering for structured business data alongside
+gradient-boosted trees and cross-validation.
 
 ## Applied Modeling, Not Model Selection
 
-The podcast archive treats ML as a decision discipline before it treats ML as
-algorithm choice. Data team role discussions separate data science, data
+ML is a decision discipline before it's algorithm choice. Data team role
+boundaries separate data science, data
 engineering, and ML engineering work. The machine learning engineer helps turn
 models into services and production systems. Prediction quality stays tied to a
 shared product goal rather than to a notebook metric
@@ -89,9 +87,9 @@ efficient ML feature engineering and retrieval at scale.
 [[book:20210208-ml-design-patterns=>Machine Learning Design Patterns]] by
 Valliappa Lakshmanan and coauthors catalogues reusable patterns for data
 representation, model training, and serving. Those patterns recur across
-production ML episodes.
+production ML systems.
 
-DataTalks.Club guests start ML with the decision instead of the model. In
+ML starts with the decision instead of the model. In
 [[cite:crisp-dm=>CRISP-DM Methodology for Data Science Projects]],
 business understanding asks whether the problem is important, measurable, and
 connected to a clear objective before modeling starts.
@@ -180,9 +178,9 @@ when the team needs causal evidence rather than offline accuracy alone.
 ## Roles and Ownership
 
 ML ownership changes as work moves from exploration to production.
-Data team role discussions draw the first boundary. Data engineers make data
-usable. Data scientists frame and evaluate predictive work. ML engineers bring
-models into software systems [[cite:data-team-roles=>Data Team Roles Explained]].
+Data engineers make data usable. Data scientists frame and evaluate predictive
+work. ML engineers bring models into software systems
+[[cite:data-team-roles=>Data Team Roles Explained]].
 
 The
 [[Machine Learning Engineer Role]]
@@ -255,10 +253,9 @@ and labels. They also watch business outcomes, incidents, and response paths.
 
 ## Tools, Platforms, and Build-or-Buy
 
-Podcast guests treat ML tools as support for real work, not as a ranked
-shopping list. A tool may help with exploration, reproducibility, feature
-computation, and serving. It may also help with monitoring, governance, or
-collaboration. The
+ML tools support real work rather than a ranked shopping list. A tool may help
+with exploration, reproducibility, feature computation, and serving. It may also
+help with monitoring, governance, or collaboration. The
 [[Machine Learning Tools]]
 page covers that tool-selection layer.
 
@@ -283,8 +280,7 @@ decision. In
 [[person:christophmolnar=>Christoph Molnar]] presents
 interpretability as a way to debug models and understand feature effects. The
 episode also covers uncertainty communication, transparent models, and post-hoc
-explanations. SHAP and conformal prediction give the discussion concrete
-methods.
+explanations. SHAP and conformal prediction provide concrete methods.
 
 Governance extends that trust work beyond a single explanation. In
 [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],

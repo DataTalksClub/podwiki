@@ -11,14 +11,14 @@ related:
 ---
 
 Search is the part of a product or knowledge system that retrieves and ranks
-relevant information for a query or task. DataTalks.Club guests discuss search
-through [[information retrieval]]
-and lexical matching. They then add semantic retrieval and vector search.
+relevant information for a query or task. Search work starts with
+[[information retrieval]]
+and lexical matching, then adds semantic retrieval and vector search.
 Hybrid search, [[machine-learning-personalization=>personalization]], and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
 appear as product patterns.
 
-Search is the broad product-system layer. The search discussions treat search as
+Search is the broad product-system layer. The useful framing treats search as
 an application system rather than a single database feature.
 The system needs indexes and candidate generation. It also needs ranking and
 filters. Freshness rules, evaluation, and product metrics determine quality.
@@ -129,7 +129,7 @@ starts with searchable source material before adding answer generation.
 ## Vector Databases
 
 Vector databases store embeddings and support nearest-neighbor retrieval, but
-the search episodes treat them as one component in a larger system.
+they're one component in a larger search system.
 
 Vector databases such as Qdrant store embeddings. Adding vectors to an existing
 search stack differs from introducing a standalone vector database. Teams make

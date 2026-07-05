@@ -22,7 +22,7 @@ related_wiki:
 An MLOps roadmap turns model training into a repeatable production lifecycle.
 The lifecycle starts with tracked experiments and artifact handoff. It then
 moves into deployment, monitoring, retraining decisions, and eventually shared
-platform support. DataTalks.Club discussions anchor that path in
+platform support. That path runs through
 [[MLOps]], [[MLOps Architecture]], and
 [[ML Platforms]]. For infrastructure
 and data boundaries, use
