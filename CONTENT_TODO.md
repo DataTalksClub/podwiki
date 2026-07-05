@@ -719,14 +719,18 @@ Source hints:
   roadmap pages, and `_wiki/sensor-ml-personal-baselines.md` from
   nontraditional AI paths. The RFM link from Data Analyst vs Analytics Engineer
   was added in the analytics transition cleanup.
-- Next weak-node graph cleanup candidates from the 2026-07-05 triage: link
-  data architect from `_wiki/data-freelancing-strategy.md`, data roles from
+- The second 2026-07-05 weak-node graph cleanup linked data architect from
+  `_wiki/data-freelancing-strategy.md`, data roles from
   `_wiki/analytics-engineering.md`, data engineering/data science from
   `_wiki/data-engineer-vs-data-scientist.md`, data product manager roadmap from
   `_wiki/data-product-owner-vs-data-product-manager.md`, reinforcement learning
   and evolutionary algorithms from `_wiki/ai.md`, synthetic data from
   `_wiki/llm-evaluation-workflows.md`, and volunteer data projects from
   `_wiki/career-transitions-in-data.md`.
+- The same audit still reports 17 nodes below 8 inbound links. The nodes from
+  the second cleanup moved from 6 to 7 inbound links, so the next graph pass
+  should add one more grounded body link to each of those pages and then address
+  the remaining 7-inbound nodes from `scripts/audit_graph.py --min-inbound 8`.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

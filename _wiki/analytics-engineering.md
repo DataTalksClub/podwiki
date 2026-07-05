@@ -91,10 +91,11 @@ The platform handoff stays stable because data engineers often own ingestion,
 orchestration and raw storage, with reliability beside them. Analytics engineers
 depend on that platform, then add domain models and metrics. Semantic layers and
 BI-ready marts sit with the same work.
-The role taxonomy behind that split says data engineers make data available in a
-usable form for analysts and data scientists. Analytics engineering starts after
-that handoff, where reusable business definitions and quality checks become the
-product [[cite:data-team-roles@13:58=>Data Team Roles Explained]].
+The [[data-roles=>role taxonomy]] behind that split says data engineers make
+data available in a usable form for analysts and data scientists. Analytics
+engineering starts after that handoff, where reusable business definitions and
+quality checks become the product
+[[cite:data-team-roles@13:58=>Data Team Roles Explained]].
 
 Kwong's ELT framing puts source loading before warehouse-side transformations
 for analytical users

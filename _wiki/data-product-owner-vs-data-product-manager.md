@@ -128,10 +128,11 @@ to build and who it serves. They also own how success will be measured. That
 work links directly to [[Data Product Management]], [[Product Analytics]], and
 [[Metrics]].
 
-Greg Coquillo's roadmap version starts from customer needs and pain points,
-then works backward to strategy, solutions, and a roadmap. The roadmap template
-captures the problem and possible solutions. It also names affected
-stakeholders and priority. Impact, effort, and SMART goals belong there too
+Greg Coquillo's [[data-product-manager-roadmap=>roadmap version]] starts from
+customer needs and pain points, then works backward to strategy, solutions, and
+a roadmap. The roadmap template captures the problem and possible solutions. It
+also names affected stakeholders and priority. Impact, effort, and SMART goals
+belong there too
 ([[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]).
 
 In the internal-platform version, a technical PM for an internal ML platform

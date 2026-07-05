@@ -23,9 +23,10 @@ They don't own the same risk. A data engineer owns the path that makes data
 available, dependable, documented, and reusable. A data scientist owns the path
 from question to evidence, model, experiment, or decision.
 
-The two roles work inside the same data product lifecycle. Data engineering
-keeps the data path dependable, while data science turns that data into a
-decision rule, experiment, or model. It can also turn data into product
+The two roles work inside the
+[[data-engineering-and-data-science=>same data product lifecycle]]. Data
+engineering keeps the data path dependable, while data science turns that data
+into a decision rule, experiment, or model. It can also turn data into product
 behavior. The handoff matters most when a model, metric, or data product needs
 both reliable inputs and clear interpretation.
 

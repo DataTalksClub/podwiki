@@ -116,8 +116,9 @@ also show budgets, rates, and common skills. Freelancers can start with the
 market and work backward from demand.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
 That doesn't mean chasing every trend. Recognizable umbrella roles include data
-analyst, data engineer, and data architect. AI specialist and web analyst also
-appear in the same market view.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
+analyst, data engineer, and [[data-architect-role=>data architect]]. AI
+specialist and web analyst also appear in the same market
+view.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
 A freelancer who wants to move from analytics into [[data engineering]]
 or [[AI]] still has to consider current skill,

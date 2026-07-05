@@ -133,10 +133,11 @@ Agentic systems use objectives, tools, memory, and stores. They also depend on
 context design, custom evaluations, and mocked tools. Checks focus on outcomes
 rather than exact paths.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Agent design can borrow from reinforcement learning, evolutionary algorithms,
-early NLP, and prompt optimization. Minimal task decomposition can come before
-manager-agent orchestration. Tool integration and monitoring wrap the agent
-system.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Agent design can borrow from
+[[reinforcement-learning=>reinforcement learning]],
+[[evolutionary-algorithms=>evolutionary algorithms]], early NLP, and prompt
+optimization. Minimal task decomposition can come before manager-agent
+orchestration. Tool integration and monitoring wrap the agent system.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 For design details, use
 [[agent engineering]] and
 [[multi-agent-systems=>multi-agent systems]].

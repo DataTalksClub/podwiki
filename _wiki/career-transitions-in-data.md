@@ -365,9 +365,10 @@ certificate. She also names international collaboration, presentation practice,
 and impact
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@51:21=>Volunteer outcomes]].
 
-For aspiring data engineers, the strongest volunteer lane isn't "help with AI"
-in the abstract. It means preparing messy data and building pipelines. The work
-also makes data usable for dashboards and data scientists
+For aspiring data engineers, the
+[[volunteer-data-engineering-projects=>strongest volunteer lane]] isn't "help
+with AI" in the abstract. It means preparing messy data and building pipelines.
+The work also makes data usable for dashboards and data scientists
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@56:05=>Volunteer data engineering roles]].
 
 That route belongs with [[Open Source Portfolio Evidence]] and

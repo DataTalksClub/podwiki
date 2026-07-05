@@ -182,8 +182,9 @@ Production behavior keeps offline eval sets fresh through explicit and implicit
 feedback. Explicit feedback can be thumbs up or down. Implicit feedback can be a
 repeated or reframed query after a bad answer
 ([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]). Those signals
-can become synthetic data, human labeling work, or new gold cases. They can
-also lead to updated prompts, fine-tuning examples, or new guardrail tests.
+can become [[synthetic-data=>synthetic data]], human labeling work, or new gold
+cases. They can also lead to updated prompts, fine-tuning examples, or new
+guardrail tests.
 
 Production feedback also needs traces. Logs and traces let the team reconstruct
 whether the wrong output came from retrieval,
