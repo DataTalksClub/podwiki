@@ -171,6 +171,9 @@ Real response paths include live test sets and small [[a-b-testing=>A/B tests]].
 They also include user feedback channels and internal bug reports. Widespread
 user complaints can serve as signals too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 Those signals matter when labels are late or incomplete.
+When labels come from people or model-assisted review,
+[[annotation-quality-workflows=>annotation quality workflows]] determines
+whether the performance signal is trustworthy enough to trigger action.
 
 A live test set works only if the team can later reconstruct what the model saw.
 Locking and logging the arrived features connects monitoring to
@@ -253,6 +256,9 @@ monitoring has to watch for drift and trigger maintenance alerts. The response
 path still needs human review because the served population may change after
 release. Source data and operational workflows can change too
 [[cite:building-domestic-risk-assessment-tool@42:20=>Building a Domestic Risk Assessment Tool]].
+That review path needs the same label discipline as
+[[annotation-quality-workflows=>annotation quality workflows]] when monitoring
+findings become future evaluation data.
 
 Model alerts have the same problem. If every distribution shift pages a team,
 people stop trusting the monitoring system. The incident-response view adds a

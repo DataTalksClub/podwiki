@@ -135,10 +135,13 @@ They included prohibited outputs, hidden-data extraction, hallucinated
 commitments, and filter bypasses. Those categories are easier to test again than
 a vague "be safe" requirement.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
 
-Agent evaluation work uses golden datasets, LLM judges, and human labels. It
-also uses multi-tenancy checks and scale tests. Red-team cases need the same
-discipline because a judge can miss the risk if it only scores helpfulness or
-semantic similarity.[[cite:s23e03-future-of-ai-agents=>Future of AI Agents]]
+Agent evaluation combines golden datasets and LLM judges with human labels.
+Scale tests and tenant checks add more evidence.[[cite:s23e03-future-of-ai-agents=>AI Agents]]
+Red-team cases need the same discipline because a narrow judge can miss the
+risk.
+When those human labels become reusable test evidence,
+[[annotation-quality-workflows=>annotation quality workflows]] helps keep the
+review criteria and disagreement checks explicit.
 
 Red-team work therefore depends on [[LLM Evaluation Workflows]] and
 [[Evaluation]]. The evaluation should verify whether the system refuses, routes
@@ -161,7 +164,9 @@ The production version of a red-team finding should be concrete. If the system
 leaked a retrieved paragraph, tighten retrieval and output checks. If it made an
 unsafe recommendation, add refusal criteria and human review. If an agent called
 the wrong tool, add permission checks, tool mocks in tests, and traces that make
-the failure reviewable.
+the failure reviewable. Human review should still produce labels or decisions
+that can be audited later through
+[[annotation-quality-workflows=>annotation quality workflows]].
 
 ## Risk Acceptance and Human Oversight
 

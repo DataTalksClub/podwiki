@@ -78,11 +78,16 @@ delivery practices, tests, and automation. ML platform work focuses on
 reproducibility, feature health, metadata, and deployed model
 behavior.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-The boundary also shifts by consumer. A BI dashboard can fail because a table is
-late or malformed. A model can fail because feature distributions move or labels
-arrive late. An AI product can fail when tests, prompt inputs, retrieved data,
-or evaluation checks don't catch bad behavior before
-release.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Governance]][[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]]
+The consumer changes the quality boundary for each downstream system. Dashboards
+fail when tables arrive late or
+malformed.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Governance]]
+
+Models fail when feature distributions move or labels arrive late.
+AI products can fail when tests miss bad behavior before release.[[cite:production-ready-ai-engineering=>Production AI]]
+
+Human or model-assisted review makes
+[[annotation-quality-workflows=>annotation quality workflows]] part of the same
+quality boundary.
 
 ## Failure Modes
 
@@ -287,7 +292,9 @@ sensitive-feature handling, demographic drift, and feedback loops.
 [[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]]
 
 For AI systems, those checks sit next to prompt evaluation, caching, and cost
-controls. The data pipeline is still the reliability base.
+controls. The data pipeline is still the reliability base, and
+[[annotation-quality-workflows=>annotation quality workflows]] covers the
+labeled-data side when evaluation examples or training labels drive the system.
 
 ## Platform Boundaries
 

@@ -276,6 +276,7 @@ still need to manage chunk metadata, latency, and cost
 These pages cover the concepts and project standards around RAG portfolio work.
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the core RAG architecture.
+- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] for the broader AI product evidence standard.
 - [[Search and RAG Project Checklist]] for execution fields once the project type is chosen.
 - [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for retrieval checks, answer checks, traces, and feedback.
 - [[LLM Evaluation Workflows]] for broader LLM gold sets, traces, and failure analysis.

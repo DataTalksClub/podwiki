@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11733
+    "links": 11770
   },
   "nodes": [
     {
@@ -21460,6 +21460,12 @@
     },
     {
       "source": "wiki:academia",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-chip",
       "weight": 1
@@ -21479,6 +21485,12 @@
     {
       "source": "wiki:academia",
       "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -22246,6 +22258,12 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -22990,6 +23008,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:ai-engineering-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -23245,6 +23269,12 @@
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering",
@@ -23839,6 +23869,12 @@
       "target": "wiki:ai-engineering",
       "kind": "article-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -25126,6 +25162,12 @@
     },
     {
       "source": "wiki:ai-red-teaming",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-red-teaming",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -25489,6 +25531,12 @@
       "target": "wiki:agent-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:ai-tools-for-personal-productivity",
+      "target": "wiki:ai-coding-tools",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
@@ -27238,6 +27286,12 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "podcast:make-money-with-machine-learning-roles-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -27271,6 +27325,12 @@
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:applied-research",
@@ -27910,7 +27970,19 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31192,6 +31264,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -31570,6 +31648,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -31585,6 +31669,12 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:context-engineering",
@@ -35416,6 +35506,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -35503,6 +35599,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering",
@@ -38650,6 +38752,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -40619,6 +40727,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:annotation-quality-workflows",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42737,6 +42851,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:ai-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48022,6 +48142,18 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -50173,6 +50305,12 @@
       "target": "wiki:algorithmic-trading",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:evaluation",
@@ -57484,6 +57622,12 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:ai-engineering-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -58786,6 +58930,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "podcast:interpretable-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -58837,6 +58987,12 @@
       "target": "wiki:ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning",
@@ -59057,6 +59213,12 @@
     {
       "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:a-b-testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
       "kind": "article-chip",
       "weight": 1
     },
@@ -60316,7 +60478,19 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:ai-coding-tools",
       "kind": "article-chip",
       "weight": 1
     },
@@ -63598,6 +63772,12 @@
     },
     {
       "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
       "target": "wiki:developer-experience",
       "kind": "wiki-chip",
       "weight": 1
@@ -64420,6 +64600,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
@@ -64667,6 +64853,12 @@
     {
       "source": "wiki:mlops-adoption-at-scale",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66403,6 +66595,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:model-monitoring",
@@ -73408,6 +73606,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -77140,6 +77344,18 @@
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:machine-learning-for-asteroid-mining-and-water-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
       "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -77161,6 +77377,12 @@
       "target": "wiki:ai-product-feedback-loops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",

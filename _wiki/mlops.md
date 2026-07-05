@@ -184,6 +184,9 @@ as a data incident
 A model can degrade because features shifted or labels arrived late. It can
 also degrade because a schema changed, an upstream job broke, or the serving
 path stopped matching the training path.
+For supervised systems, those labels may depend on
+[[annotation-quality-workflows=>annotation quality workflows]] before they
+become monitoring signals or retraining data.
 
 Lina Weichbrodt adds the product operations side. Service levels and
 post-mortems help the team respond to incidents. Live test sets and user bug

@@ -100,6 +100,10 @@ data collection and privacy. They also tie to annotation and automated labeling
 A model can't learn uncommon road situations if the team can't find, label,
 review, and feed those cases back into training and testing.
 
+That's the same operating problem covered by
+[[annotation-quality-workflows=>annotation quality workflows]]. Guidebooks,
+reviewer agreement, and feedback loops keep labels useful after the first batch.
+
 Conservation examples add class imbalance and sparse observations. Rare species
 appear infrequently, and individual animals may reappear across years. Labels
 may come from scientists, citizen-science contributors, or local communities.
@@ -142,7 +146,9 @@ Industrial deployment adds organizational ownership. Proof-of-concept work
 leads into centralized tooling, embedded teams, and a hub-and-spoke model
 ([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]).
 Computer vision teams need standards, shared infrastructure, and local trust,
-not only a trained model.
+not only a trained model. Those shared annotation services are one reason
+[[annotation-quality-workflows=>annotation quality workflows]] belongs near
+industrial vision MLOps.
 
 ## Robustness and Ethics
 

@@ -135,6 +135,13 @@ designs that other researchers or industry teams can evaluate
 [[cite:big-data-analytics-and-postdoc-research=>Big Data Analytics and Postdoc
 Research]].
 
+Scientific data work adds another output shape. Daniel Egbo's
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]
+produce candidate sources, cross-catalog matches, and uncertainty-aware evidence
+for the research team. That evidence has to exist before any future model can
+learn from the dataset
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]].
+
 Industry applied-research teams can also publish benchmarks when managers
 support external sharing. Lavanya describes an industry-track publication path:
 the team couldn't release bank data, but it could publish a reusable finding
@@ -201,5 +208,6 @@ These pages cover adjacent roles, systems, and practices:
 - [[Production]]
 - [[Machine Learning System Design]]
 - [[Academic Researcher to Data Science]]
+- [[astroinformatics-scientific-data-pipelines=>Astroinformatics Scientific Data Pipelines]]
 - [[Computer Vision]]
 - [[Open Source]]

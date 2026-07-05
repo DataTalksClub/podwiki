@@ -48,10 +48,15 @@ a higher-level product surface for reusable agents. Operations teams still have
 to decide which tools and agents are trusted in each workflow.
 
 Infrastructure can look familiar because an agent may be a service that talks
-to an LLM inference service. CPU and GPU workloads may run as separate services,
-and customer replicas can be configured independently. Kubernetes is discussed
-as a reasonable deployment layer when the organization already uses it. Agents
-still need service management, replication, and machine coordination. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+to an LLM inference service. CPU and GPU workloads may run as separate services.
+Customer replicas can be configured independently. Kubernetes is discussed as a
+reasonable deployment layer when the organization already uses it. Agents still
+need service management, replication, and machine coordination. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+
+When teams split CPU services from GPU inference and manage customer-specific
+capacity, Agent Ops also needs
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
+discipline.
 
 ## Guardrails and Data Lineage
 

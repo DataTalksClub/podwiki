@@ -25,6 +25,12 @@ to [[reproducibility]], [[graph data science]], and [[data pipelines]].
 [[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
+A useful non-biological comparison is
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]:
+both fields keep instrument or experiment context attached to features before a
+model or analysis claim. That context is part of what makes the claim credible
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@15:30=>From Radio Astronomy to Applied ML]].
+
 ## Bioinformatics Data Science in Practice
 
 In the bioinformatics episodes, bioinformatics takes biological information
@@ -215,3 +221,6 @@ that recur in the bioinformatics discussions.
   networks, graph algorithms, and knowledge-graph enrichment.
 - [[Data Pipelines]] for movement,
   transformation, publication, and rerun patterns behind biological analysis.
+- [[astroinformatics-scientific-data-pipelines=>Astroinformatics Scientific Data Pipelines]]
+  for astronomy data pipelines where source matching also depends on scientific
+  measurement context.

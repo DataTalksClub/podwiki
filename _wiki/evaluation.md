@@ -165,6 +165,9 @@ RAG evaluation includes human-in-the-loop review[[cite:modern-search-systems-vec
 Generative evaluation includes human judgment because automatic metrics alone
 don't prove answer quality[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 Reviewers still need to judge whether the answer is useful, grounded, and safe.
+For labeled examples, rubric checks, and reviewer agreement,
+[[annotation-quality-workflows=>annotation quality workflows]] covers the data
+work that makes those judgments usable.
 
 ## Related Pages
 

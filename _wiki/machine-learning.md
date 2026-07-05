@@ -146,6 +146,13 @@ Feature freshness and label quality belong in the model design.
 Privacy constraints and pipeline ownership belong there too because they change
 what the model can learn and what it can serve.
 
+Scientific data can delay the modeling step. Daniel Egbo describes
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]
+where source detection and cross-matching come before supervised ML. The team
+first needs trustworthy candidates and labels
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]].
+
 ## Evaluation and Product Validation
 
 Offline metrics matter, but they don't settle whether an ML system helps the

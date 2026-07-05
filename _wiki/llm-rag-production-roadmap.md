@@ -90,9 +90,9 @@ The first milestone should include:
 - a failure analysis table
 - a decision about whether the problem needs retrieval
 
-For a portfolio or capstone version, turn this milestone into a small project
-with [[RAG Portfolio Projects]]
-and the
+For a portfolio or capstone version, turn this milestone into a small project.
+Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
+[[RAG Portfolio Projects]], and the
 [[Search and RAG Project Checklist]].
 
 ## Add RAG For Changing Knowledge
@@ -187,6 +187,7 @@ Adjacent production-system topics:
 - [[Agent Engineering]]
 - [[AI Engineer Role]]
 - [[AI Engineering Roadmap]]
+- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 - [[RAG Portfolio Projects]]
 - [[Search and RAG Project Checklist]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]

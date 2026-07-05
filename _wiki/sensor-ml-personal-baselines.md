@@ -89,6 +89,14 @@ comparison shows how camera, LiDAR, and radar choices affect validation and
 system boundaries
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]].
 
+Astronomy gives another measured-signal boundary. In
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]],
+observations across radio through X-ray wavelengths have to stay attached to
+their instrument context. That context matters before a team can make a source
+or water-detection claim
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@6:45=>From Radio Astronomy to Applied ML]]
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]].
+
 The modeling decision depends on signal strength. Respiration can be estimated
 with filters and Fourier methods when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
@@ -185,6 +193,7 @@ contexts.
 - [[Machine Learning Portfolio Projects]]
 - [[Machine Learning System Design]]
 - [[Data Pipelines]]
+- [[astroinformatics-scientific-data-pipelines=>Astroinformatics Scientific Data Pipelines]]
 - [[Model Monitoring]]
 - [[AI Product Feedback Loops]]
 - [[Startups]]

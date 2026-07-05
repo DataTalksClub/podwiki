@@ -150,9 +150,11 @@ the CV. A project that only names a library is weaker than one with a clear
 beneficiary. The beneficiary can be a team or customer. It can also be a
 decision.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 For ML-heavy examples, use
-[[Machine Learning Portfolio Projects]],
-[[Evaluation]], and
-[[Machine Learning System Design]].
+[[Machine Learning Portfolio Projects]]
+and [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]].
+Use [[Evaluation]]
+and [[Machine Learning System Design]]
+for method and system framing.
 
 ## Kaggle, Notebooks, and Public Proof
 

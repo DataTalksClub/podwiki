@@ -197,11 +197,13 @@ proof of ability[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How 
 Companies can take side projects seriously when the project solves a real
 problem. The candidate also needs to explain the
 choices[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
-Project planning links naturally to the
-[[AI Engineering Roadmap]],
-[[ai-engineering-roadmap=>AI Engineer Roadmap]],
-[[RAG Portfolio Projects]],
-and [[machine learning portfolio projects]].
+For project planning, start with the
+[[AI Engineering Roadmap]]
+and [[ai-engineering-roadmap=>AI Engineer Roadmap]].
+Then compare the result with
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
+[[RAG Portfolio Projects]], and
+[[machine learning portfolio projects]].
 
 ## Boundaries With Adjacent Roles
 

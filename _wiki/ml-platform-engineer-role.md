@@ -40,10 +40,15 @@ software engineering discipline because the platform is production software
 ## Platform Scope
 
 ML platform engineering owns the shared system around model work. That system
-covers compute access and reproducibility while also reaching deployment,
-monitoring, serving and governance. MLOps can describe the operating discipline
-around one model or one team. ML platform engineering turns repeated MLOps
-needs into reusable services for many teams.[[cite:building-production-ml-platform-and-mlops-team]][[cite:mlops-at-scale-reproducibility-adoption]]
+covers compute access and reproducibility. It also reaches deployment,
+monitoring, serving, and governance. MLOps can describe the operating
+discipline around one model or one team. ML platform engineering turns repeated
+MLOps needs into reusable services for many teams.[[cite:building-production-ml-platform-and-mlops-team]][[cite:mlops-at-scale-reproducibility-adoption]]
+
+The role also needs
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
+discipline when platform teams support GPU capacity or managed endpoints on
+on-prem platforms.
 
 The platform engineer is therefore partly an infrastructure engineer, partly an
 internal product engineer, and partly an enablement partner. The role works only

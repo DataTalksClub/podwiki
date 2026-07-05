@@ -85,6 +85,13 @@ detector systems came first. So did statistical analysis and large
 collaborations, before the language changed to machine learning and industry
 roles.[[cite:from-large-hadron-collider-to-data-science-research-software-engineering=>From Collider Physics to Data Science]]
 
+Radio astronomy adds a smaller but useful bridge. Daniel Egbo's
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]
+work turns telescope observations into source detection and catalog matching.
+He then connects that work to Python-based analysis and industry data
+engineering
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Applied ML]].
+
 This matters for [[job search]] because
 the transition doesn't start from zero. Candidates have to rename the evidence.
 
@@ -226,6 +233,7 @@ Continue through these pages for narrower podcast-backed views:
 - [[Data Science]]
 - [[Machine Learning]]
 - [[Data Engineering]]
+- [[astroinformatics-scientific-data-pipelines=>Astroinformatics Scientific Data Pipelines]]
 - [[MLOps]]
 - [[Production]]
 - [[Software Engineering]]

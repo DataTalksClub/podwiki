@@ -81,6 +81,14 @@ masking.
 Ordering guarantees and entity modeling affect the marts that consumers
 use [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
+Scientific domains expose the same engineering pressure with different source
+systems. Daniel Egbo's
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]
+move from radio astronomy images to catalog matching. He then connects that work
+to Python tooling, cloud resources, and orchestration practice
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@21:31=>From Radio Astronomy to Applied ML]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>From Radio Astronomy to Applied ML]].
+
 Tools are choices, not badges. For beginners, SQL, Python, and modeling come
 before distributed systems [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
 Python and SQL depth sit alongside Docker, Airflow, and warehouses. Code quality

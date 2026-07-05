@@ -275,6 +275,9 @@ instead of a generic demo
 ([[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]).
 Revathy's telecom capstone supports the same standard
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
+when this sequence needs concrete project shapes, review signals, and README
+evidence.
 
 ## Study-Build Boundary
 
@@ -342,6 +345,7 @@ Continue with these roadmap and reference pages:
 
 - [[AI Engineering]]
 - [[AI Engineer Role]]
+- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 - [[LLMs]]
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]

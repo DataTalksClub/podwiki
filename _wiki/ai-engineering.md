@@ -204,6 +204,7 @@ and feedback are useful additions. Latency, cost, data quality, and model choice
 are useful tradeoffs.
 
 Use [[AI Engineering Roadmap]],
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
 [[RAG Portfolio Projects]],
 and [[Open Source Portfolio Evidence]]
 for project sequencing. The

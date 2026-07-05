@@ -115,6 +115,9 @@ Review the finished project against
 [[ML System Design Documents]],
 and
 [[Machine Learning Portfolio Projects]].
+If the project uses LLMs, retrieval, or agents around a user-facing workflow,
+compare the evidence with
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] too.
 
 ## Stage 3: Explain Labels, Serving, and Rollout
 
@@ -197,6 +200,7 @@ Adjacent role, project, and production topics:
 - [[Machine Learning Engineer vs Data Scientist]]
 - [[Machine Learning System Design]]
 - [[Machine Learning Portfolio Projects]]
+- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 - [[Production ML Project Checklist]]
 - [[MLOps Roadmap]]
 - [[Data Scientist to Machine Learning Engineer]]

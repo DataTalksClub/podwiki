@@ -150,6 +150,13 @@ training, and serving
 That progression matters because the same upstream data can feed different
 publication paths.
 
+Scientific catalogs show the same pipeline step with different keys. In
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]],
+Daniel Egbo matches radio detections against optical and infrared catalogs. The
+"join key" is a measured sky position with uncertainty rather than a stable
+business identifier
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]].
+
 A dashboard may need one freshness target. A feature store or model-training
 job may need a different structure and auditability level.
 

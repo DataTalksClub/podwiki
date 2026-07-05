@@ -256,10 +256,15 @@ safer [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 ## Regulated Constraints and Tactical Solutions
 
 Large finance organizations often adopt MLOps through existing constraints.
-Finance environments may include on-premises core systems, OpenShift clusters,
-and firewall questions. Internal package registries, approval chains, and
-established DevOps governance sit in the same environment
+Finance environments may include on-premises core systems and OpenShift
+clusters, plus firewall questions. Internal package registries, approval
+chains, and established DevOps governance sit in the same environment
 [[cite:mlops-and-ml-engineering-in-finance@18:52=>MLOps in Finance]].
+
+That constraint makes
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
+part of adoption work. Teams have to fit cost and control into the rollout
+path. They also have to name who owns the platform.
 Release approval gets faster after repeated successful deployments because
 governance stakeholders learn to trust the people, code, and process
 [[cite:mlops-and-ml-engineering-in-finance@22:25=>MLOps in Finance]].
