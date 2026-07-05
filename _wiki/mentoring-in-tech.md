@@ -74,7 +74,7 @@ Community episodes put mentoring inside larger networks. Those networks include
 open mentoring, Women in Data Science, DataBuzz, and course communities. They
 make advice easier to find because people can see each other's participation
 before a direct ask.
-[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]]
+[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Mentoring also differs from management. A manager can mentor, but the reporting
@@ -96,7 +96,7 @@ Communities make outreach less anonymous. Meetups, Slack groups, and course
 channels give a potential mentor a reason to recognize the person asking for
 help. Public talks and volunteer work can do the same. Women in Data Science
 and open mentoring show one path. DataBuzz shows another path by joining
-responsible-AI education, resources, and networking.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]]
+responsible-AI education, resources, and networking.[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Cold outreach still works when the message is specific. The first message
@@ -148,7 +148,7 @@ then helps the mentee name the problem before offering options.[[cite:mentoring-
 Community mentoring scales that habit. Open mentoring, DataBuzz resources, and
 public career support create more entry points than a private one-to-one
 relationship. Community support works best when the request is still specific.
-Broad encouragement can't replace context, questions, and review.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]]
+Broad encouragement can't replace context, questions, and review.[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 ## Boundaries and Paid Mentoring

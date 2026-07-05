@@ -96,7 +96,10 @@ matter and full reloads are too slow or too expensive.[[cite:data-engineering-to
 Library-first ingestion tools cover a different edge of the category. Adrian
 Brudaru describes dlt for Python users. In the 2025 trends discussion, he calls
 dlt a Python-based ingestion standard and connects it to a broader DLT Plus
-platform direction.
+platform direction. He also frames reusable data-product packaging as the next
+step beyond one-off extraction jobs.
+[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering]]
+[[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering]]
 
 In an earlier dlt conversation, he explains the practical need: dlt turns nested
 JSON into relational tables declaratively. Without that step, teams dump raw

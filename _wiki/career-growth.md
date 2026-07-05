@@ -289,6 +289,12 @@ and [[community building]].
 It also connects to role-specific project pages such as
 [[machine learning portfolio projects]].
 
+Community organizing adds another external signal. In the Data Makers Fest
+episode, Leonid Kholkine connects conference and peer-community work to meeting
+more people. Practitioners build a broader professional network, not only event
+logistics
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@19:19=>Data Makers Fest]].
+
 LinkedIn and public posting work best when they include field-specific value
 rather than only announcements. Information and concrete lessons travel farther
 than repeated self-promotion. Comments can expose the work to people outside the

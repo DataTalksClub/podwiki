@@ -128,6 +128,14 @@ choices beside differential privacy. Consent and data minimization move from
 policy slogans into data science work
 [[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 
+In regulated ML platforms, teams face the same tradeoff in logs and metadata.
+They need lineage and debugging context for monitoring. They also need to avoid
+turning every run record into another copy of governed source data. In Simon
+Stiebellehner's fintech platform discussion, the team had to consider GDPR when
+deciding what to store. That covered metadata, logs, lineage, and run artifacts
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+
 ## Fairness Decisions
 
 Fairness work begins with evidence, but it doesn't end with a metric.

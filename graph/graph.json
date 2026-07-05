@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11230
+    "links": 11235
   },
   "nodes": [
     {
@@ -29116,6 +29116,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-chip",
       "weight": 1
@@ -44338,6 +44344,12 @@
     },
     {
       "source": "wiki:data-trust-and-strategy",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
       "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -53386,6 +53398,12 @@
     },
     {
       "source": "wiki:job-descriptions",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-descriptions",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -57665,6 +57683,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -72833,6 +72857,12 @@
     {
       "source": "wiki:responsible-ai-and-governance",
       "target": "podcast:building-domestic-risk-assessment-tool",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
     },

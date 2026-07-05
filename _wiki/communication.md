@@ -85,7 +85,8 @@ validate the problem. Service messaging and value-based pricing turn technical
 ability into a scoped offer.[[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting Business]].
 Data professionals need domain knowledge, data-driven arguments, and personal
 presence when they explain sensitive findings or challenge hierarchy.
-[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@19:12=>Sensitive Findings]]
+[[cite:how-to-stand-out-in-data-science@23:25=>Constructive Pushback]]
 
 They also need to translate effort. Lior Barak's data strategist advice is to
 explain dependencies, blockers, and tradeoffs in plain language. Show enough of
@@ -93,7 +94,7 @@ the code or workflow for a non-technical stakeholder to understand the work.
 Then name the blocker early when a two-week commitment is at risk. The
 stakeholder may not read code, but they can still help remove a dependency or
 reset the business expectation
-[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]].
+[[cite:data-translator-role-and-data-strategy@36:33=>Plain-Language Effort]].
 
 Public speaking uses the same translation rule at a larger scale. Ben Taylor
 frames strong data talks around a few memorable takeaways and attention hooks.
@@ -134,10 +135,15 @@ data project around what the stakeholder already cares about. That keeps
 [[leadership]] and [[communication]] connected even when the data person has no
 formal reporting line.[[cite:data-leadership-coaching@46:00=>Data Leadership Coaching]][[cite:data-leadership-coaching@49:20=>Data Leadership Coaching]]
 
+Data teams can build cross-team empathy by changing where conversations happen.
+Lior Barak uses co-working and informal lunches as ways to break silos before a
+data request becomes a ticket with missing context
+[[cite:data-translator-role-and-data-strategy@39:44=>Cross-Team Empathy]].
+
 [[mentoring-in-tech=>Mentoring]] uses the same listening skill in a career
 setting. The mentor has to understand context before giving advice. They also
 avoid jumping straight to solutions and turn a vague concern into a more
-specific problem.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+specific problem.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@30:40=>Mentoring People Skills]]
 
 In [[data product management]], data product managers discover user problems and
 define success metrics. They also keep adoption in view. The same skill matters

@@ -143,6 +143,14 @@ also adds practical ingestion concerns. Deduplication, ordering guarantees, and
 PII masking determine whether a simple connector is enough. Some teams need a
 stronger pipeline engine.[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
 
+Teams draw the same stack boundary when they choose library-first ingestion.
+Adrian Brudaru frames dlt as a Python-based ingestion standard, then extends
+the idea toward DLT Plus and reusable data-product packaging. Teams can put
+code-native loading beside managed extract-load tools when they want reusable
+pipeline components rather than only connector coverage.
+[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering Trends]]
+
 ## Warehouses and Lakehouses
 
 Older modern-stack interviews put the warehouse at the center. Warehouses and

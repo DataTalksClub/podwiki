@@ -207,6 +207,17 @@ Without that consistent structure, fairness reviews, product analytics, and
 incident response have to reconstruct what the serving path failed to record
 [[cite:building-production-ml-platform-and-mlops-team@54:15=>Building Production ML Platforms]].
 
+Teams also have to use the schema to say what not to log. In regulated settings,
+platform teams need request and prediction data for debugging. They also need
+response data, model version, and owner context. They still need to avoid
+copying governed source data into every log stream or run artifact.
+
+Simon Stiebellehner describes fintech platform work where GDPR and compliance
+constraints shaped metadata and lineage. The team used the same constraints for
+logging and artifact storage
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+
 This is where [[machine learning infrastructure]]
 and [[ML platforms]] matter. A model
 service needs to log the right inputs and outputs before a team can diagnose

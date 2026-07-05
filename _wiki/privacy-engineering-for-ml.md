@@ -255,11 +255,16 @@ That's why privacy engineering stays linked to
 [[Model Monitoring]] and [[Data Quality and Observability]] after deployment
 [[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
 
-Production ML platforms add a storage boundary between metadata and governed
-source data. Simon Stiebellehner warns that copying full datasets into
-artifacts for every model run can make GDPR deletion and storage cost much
-harder. Privacy engineering therefore applies to lineage, model-debugging
-datasets, and experiment artifacts, not only to fields used by the model
+In production ML platforms, teams need a storage boundary between metadata and
+governed source data. Simon Stiebellehner describes a fintech platform where the
+team had to consider GDPR when designing logs and metadata. The same review
+covered lineage and artifacts. Copying full datasets into artifacts for every
+model run can make deletion and storage cost much harder.
+
+Privacy engineering therefore applies to prediction logs and lineage. It also
+applies to model-debugging datasets and experiment artifacts, not only to fields
+used by the model
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
 
 ## LLM Privacy and Security Tradeoffs

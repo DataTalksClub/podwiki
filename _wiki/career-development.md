@@ -243,6 +243,11 @@ with a specific decision. They may also need ongoing development support
 [[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@6:10=>Mentoring Scope]]
 [[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]].
 
+Common mentee questions include imposter feelings and whether to stay technical
+or move toward management. A mentor helps when they turn that uncertainty into
+a choice about the next experiment, not only reassurance
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@36:40=>Common Mentee Challenges]].
+
 A mentee gets more from cold outreach when they include background and goals.
 They should give enough context for the mentor to decide whether they can help
 [[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@16:30=>Mentor Outreach]].

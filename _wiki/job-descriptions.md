@@ -69,6 +69,13 @@ persuasion, business framing, and leadership examples
 Those requirements describe the work behind the title, so candidates can decide
 which evidence to show.
 
+Hiring teams should be just as specific with newer client-facing titles. A
+forward deployed engineer posting shouldn't read like a generic AI engineer or
+machine learning engineer role. Hiring managers should name customer deployment
+work, product adaptation, and the expectation that repeated client needs become
+reusable product enablers
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]].
+
 ## Requirements and Level
 
 Requirements should describe the work before the technology stack. For data

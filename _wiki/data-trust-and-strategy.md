@@ -139,6 +139,16 @@ incorrect data every day or changing structures upstream
 lineage. It doesn't restore trust unless those controls change how teams detect,
 explain, and fix recurring failures.
 
+Small teams face the same trust problem when dashboard values are wrong or
+operational inputs arrive in inconsistent formats. A data accuracy playbook,
+dbt tests, regular dashboard checks, and open error communication turn quality
+repair into a visible trust practice. The work spans warehouse checks and
+source-team habits, so users see that the data team is preventing repeat errors
+rather than silently patching each report.
+[[cite:building-and-scaling-data-team@35:38=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@40:09=>Building and Scaling a Data Team]]
+[[cite:building-and-scaling-data-team@40:24=>Building and Scaling a Data Team]]
+
 ## Spreadsheet Dependence and Hidden Knowledge
 
 Finance examples show a different route to lost trust because some systems store

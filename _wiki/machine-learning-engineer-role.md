@@ -228,6 +228,17 @@ Batch scoring shows why the two roles need a clear handoff. The model can
 produce predictions, but a data path still has to move those predictions into a
 product or operational system.[[cite:data-team-roles=>Data Team Roles]]
 
+Forward deployed engineering is another adjacent boundary for productized AI and
+data systems. It's more client-facing than the usual machine learning
+engineering role. The engineer adapts a product to a specific customer and
+learns the deployment pain. The engineer then turns repeated customer needs
+into reusable product enablers.
+
+Machine learning engineers may own the model serving, monitoring, and data
+dependencies inside that work. The forward deployed engineer owns the
+client-specific implementation path and feedback path into the product
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]].
+
 ## Related Pages
 
 These pages cover the role, adjacent responsibilities, and learning paths.
