@@ -102,7 +102,10 @@ Teams can combine open storage with warehouse-like behavior and reduce
 lock-in.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 For the architecture boundary, start with [[Data Warehouse vs Data Lakehouse]].
 For the table-format choice, use
-[[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]].
+[[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]]. For the broader
+shift toward open formats and catalogs, use
+[[modern-data-engineering-trends=>modern data engineering trends]]. Use the same
+trend frame for multiple engines and cost-aware platform choices.
 
 Storage engine internals sit beneath both warehouses and lakehouses. Alex
 Petrov's [[book:20210315-database-internals=>Database Internals]] Book of the Week

@@ -224,10 +224,15 @@ deployment readiness [[cite:project-manager-to-data-scientist=>PM to DS]].
 
 The boundary with a
 [[data-analyst-role=>data analyst]] is fuzzy. A data
-scientist usually does more predictive modeling, experiment design, and product
-integration. Analyst and scientist hiring processes can look similar
-[[cite:hiring-data-scientists-and-analysts=>DS Hiring]],
-so the actual responsibilities matter more than the title.
+scientist usually does more predictive modeling and experiment design. Product
+integration may also be part of the job. Analyst and scientist hiring processes
+can look similar [[cite:hiring-data-scientists-and-analysts=>DS Hiring]].
+The actual responsibilities matter more than the title.
+
+For funnel-heavy jobs, check whether the team wants product analysis or general
+analysis. Use
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] before
+treating the title as a modeling job.
 
 The boundary with a
 [[data-engineer-role=>data engineer]] depends on

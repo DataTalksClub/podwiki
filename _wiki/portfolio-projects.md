@@ -229,6 +229,8 @@ can work too.
 path in reproducible issues and small fixes. He also covers tests and CI.
 Packaging and maintainer discussion matter too
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+For ML-specific contribution mechanics, use
+[[open-source-ml-contributions=>open source ML contributions]].
 [[Open Source Portfolio Evidence]]
 and the
 [[Open Source Contributor Roadmap]]

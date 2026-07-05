@@ -192,8 +192,9 @@ Data trust and pipeline tests sit inside AI tooling when the system has to run
 in production. Great Expectations, Soda, preprocessing, and fine-tuning data
 belong in the same operational layer[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
-Serving work adds training and optimization. Serving stacks also have to account
-for model size, compression, and inference optimization[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+Serving work adds training and [[model-optimization=>model optimization]].
+Serving stacks also have to account for model size, compression, and inference
+optimization[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 These episodes place AI tooling next to [[Machine Learning System Design]]
 and [[MLOps Tools]], especially when
 teams move past demos.

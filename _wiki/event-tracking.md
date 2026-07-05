@@ -107,7 +107,9 @@ Product analysts often work at that boundary. The [[Product Analyst]] guide
 links event data with funnels, experiments, and product behavior. A product
 analyst may review whether a funnel step reflects what the product actually
 emitted. The analyst can then explain a metric change as user behavior,
-instrumentation change, or both.
+instrumentation change, or both. That responsibility is one reason
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]]
+matters for event-heavy teams.
 
 Jakob's A/B testing discussion adds a stricter measurement standard through
 randomization and assignment tracking. He also covers monitoring, stable

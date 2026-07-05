@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12246
+    "links": 12257
   },
   "nodes": [
     {
@@ -25664,6 +25664,12 @@
     },
     {
       "source": "wiki:ai-tooling",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tooling",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -29211,6 +29217,12 @@
     {
       "source": "wiki:career-development",
       "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44918,6 +44930,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -47084,6 +47102,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -49022,6 +49046,12 @@
     },
     {
       "source": "wiki:deep-learning",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -50235,6 +50265,12 @@
     {
       "source": "wiki:duckdb",
       "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:duckdb",
+      "target": "wiki:modern-data-engineering-trends",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51819,6 +51855,12 @@
     {
       "source": "wiki:event-tracking",
       "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61430,6 +61472,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
@@ -66881,6 +66929,12 @@
       "target": "wiki:model-registry",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -72470,6 +72524,12 @@
     },
     {
       "source": "wiki:orchestration",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -73407,6 +73467,12 @@
     {
       "source": "wiki:portfolio-projects",
       "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },

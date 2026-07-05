@@ -69,7 +69,9 @@ Parquet, and ProtoBuf as formats for that boundary
 DuckDB makes that file boundary easier to query with SQL.
 
 For a broader tool-category overview, [[Data Engineering Tools]] places DuckDB
-in the newer lakehouse and cost-aware tooling landscape.
+in the newer lakehouse and cost-aware tooling landscape. The same placement
+belongs in [[modern-data-engineering-trends=>modern data engineering trends]]
+when the discussion turns to open formats, local engines, and cheaper runners.
 
 ## Cost-Aware Pipelines
 

@@ -30,7 +30,9 @@ For a role-change path, use
 
 A team may start with a notebook, prototype, or modeling experiment. The
 machine learning engineer turns it into software that users or internal systems
-can call.[[cite:data-team-roles=>Data Team Roles]]
+can call. Teams use the
+[[notebook-to-production-workflow=>notebook to production workflow]] to give that
+handoff a concrete production path.[[cite:data-team-roles=>Data Team Roles]]
 
 Production ML engineering favors testable components over monolithic data
 science code. A simpler SQL, statistics, or rules-based solution may serve the

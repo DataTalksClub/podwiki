@@ -790,6 +790,13 @@ Source hints:
   `_wiki/model-monitoring-vs-data-observability.md`. All five now have at least
   12 inbound links. `python scripts/audit_graph.py --min-inbound 12` now reports
   38 wiki/content nodes below 12 inbound links.
+- The next 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/model-optimization.md`, `_wiki/modern-data-engineering-trends.md`,
+  `_wiki/notebook-to-production-workflow.md`,
+  `_wiki/open-source-ml-contributions.md`, and
+  `_wiki/product-analyst-vs-data-analyst.md`. All five now have at least 12
+  inbound links. `python scripts/audit_graph.py --min-inbound 12` now reports
+  33 wiki/content nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

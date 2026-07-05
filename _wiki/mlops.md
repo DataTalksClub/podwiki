@@ -62,8 +62,10 @@ lineage, and governance join that path too
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
 A notebook metric doesn't end the lifecycle. A team still has to reproduce the
-run, approve the artifact, and deploy it. The team also has to monitor behavior
-and decide whether to roll back, retrain, or retire the model.
+run, approve the artifact, and deploy it. Teams use the
+[[notebook-to-production-workflow=>notebook to production workflow]] to make that
+handoff explicit before monitoring, rollback, retraining, or retirement
+decisions start.
 
 [[Experiment Tracking]] and [[Model Registry]] cover the training-to-production
 handoff, while [[Model Monitoring]] covers the post-release signal layer.

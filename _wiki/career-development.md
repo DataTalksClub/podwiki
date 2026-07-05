@@ -92,7 +92,9 @@ Portfolio work isn't "build any project" because the project should make a
 target capability reviewable. That capability can show up through
 [[machine learning portfolio projects]] or
 [[data engineering portfolio projects]]. Public contributions with real review
-can serve the same role.[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]][[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
+can serve the same role. For ML libraries and tools, that path runs through
+[[open-source-ml-contributions=>open source ML contributions]].
+[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]][[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
 
 ## Public Proof and Personal Brand
 
