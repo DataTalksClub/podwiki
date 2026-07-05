@@ -9,6 +9,7 @@ related:
   - CDC
   - Orchestration
   - DataOps
+  - DataOps Checks for Data Pipelines
   - Data Quality and Observability
   - Data Engineering Platforms
   - MLOps
@@ -36,11 +37,10 @@ This topic covers pipeline design. Use
 boundary between [[ETL]] and [[ELT]],
 while [[Orchestration]]
 and [[Apache Airflow]] cover
-scheduling and dependencies. Use
-[[DataOps]] for reliable delivery
-practice, and
-[[Data Engineering Platforms]]
-for shared infrastructure around many pipelines.
+scheduling and dependencies. Use [[DataOps]] for reliable delivery practice.
+Use [[DataOps Checks for Data Pipelines]] for the concrete checks that protect a
+pipeline change. Use [[Data Engineering Platforms]] for shared infrastructure
+around many pipelines.
 
 ## Definition
 
@@ -388,8 +388,11 @@ when the source data changes incrementally and full reloads are wasteful. Use
 problem is scheduling, dependencies, retries, or backfills.
 
 Use [[DataOps]] when the concern is
-version control and tests. It also covers CI/CD and observability. Recovery
-belongs there too. Use
+version control and tests. It also covers CI/CD, observability, and recovery.
+
+Use [[DataOps Checks for Data Pipelines]] when the concern is pipeline-level
+check design. It covers freshness, volume, schema, and distribution checks. It
+also covers uniqueness, lineage, and runbooks. Use
 [[Data Quality and Observability]]
 when the concern is freshness, volume, or distribution. It also covers schema,
 lineage, SLAs, and runbooks.

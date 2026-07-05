@@ -40,10 +40,10 @@ sourcing, and long-term talent pipelines all come first
 The employer has to name the role well enough for recruiters and candidates to
 recognize relevant evidence.
 
-The recruiter view runs from role definition and market guidance through
-shortlists, interview preparation, feedback, and offer negotiation. Industry
-alignment, projects, and business impact make the same point from the candidate
-side: evidence needs to map to the work
+The [[Data Science Recruiter]] view runs from role definition and market guidance
+through shortlists, interview preparation, feedback, and offer negotiation.
+Industry alignment, projects, and business impact make the same point from the
+candidate side: evidence needs to map to the work
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
 
 Teams should hire for the work, not for the title. "Data scientist" can mean

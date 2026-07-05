@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1118,
-    "links": 11323
+    "links": 11342
   },
   "nodes": [
     {
@@ -23825,6 +23825,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -32519,6 +32525,18 @@
     },
     {
       "source": "wiki:data-ai-conference-building",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
       "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -32555,6 +32573,18 @@
     },
     {
       "source": "wiki:data-ai-conference-building",
+      "target": "wiki:data-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:data-analysis",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
       "target": "wiki:data-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -32576,6 +32606,12 @@
       "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analysis",
@@ -38309,6 +38345,18 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -40116,6 +40164,18 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -42095,6 +42155,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "wiki:data-scientist-interview-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -42240,6 +42306,12 @@
     {
       "source": "wiki:data-scientist-interview",
       "target": "wiki:data-science-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
+      "target": "wiki:data-science-recruiter",
       "kind": "article-chip",
       "weight": 1
     },
@@ -45239,6 +45311,18 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:dataops-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -45336,6 +45420,12 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "article-chip",
       "weight": 1
     },
@@ -52523,6 +52613,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
       "target": "wiki:data-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -53934,6 +54030,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:data-science-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-science-recruiter",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66407,6 +66509,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -71216,6 +71324,12 @@
       "target": "wiki:model-registry",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-ml-project-checklist",

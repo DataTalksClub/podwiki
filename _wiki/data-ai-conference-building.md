@@ -7,18 +7,28 @@ related:
   - Community
   - Leadership
   - Career Growth
+  - Data Analysis
+  - Analytics Engineering
   - Data Teams
 ---
 
-Data and AI conference building is the operating work behind technical events.
-Practitioners keep a [[community]] active by meeting peers between talks. Data
-Makers Fest grew from earlier Portuguese data meetups. DSPT Day, World Data
-League, and Data Lead Club were part of that path
+Data and AI conference building is the operating work behind data events. That
+includes data analytics events, AI gatherings, and technical community days.
+Practitioners keep a [[community]] active by meeting peers between sessions.
+Talks and workshops support that contact. Booths, competitions, and dinners do
+too.
+
+Data Makers Fest grew from earlier Portuguese data meetups. DSPT Day, World
+Data League, and Data Lead Club were part of that path
 [[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
 
-The conference works as more than a stage program for practitioners and
-managers. Students, sponsors, and speakers also use it as a
-[[community-building=>community-building]] system.
+A good data event is more than a stage program for practitioners and managers.
+It has to serve several groups without flattening their needs into one generic
+agenda. Analysts, data scientists, data engineers, and AI engineers all need a
+reason to be there. Students, sponsors, and speakers need one too. The Data
+Makers Fest discussion treats that as a
+[[community-building=>community-building]] system, not only as a conference
+brand.
 
 Organizers handle venue deposits, calendar timing, and audio-visual vendors.
 They also treat speaker tooling, sponsor outreach, and networking formats as
@@ -26,6 +36,31 @@ one event product
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 Attendees experience the result as a smooth day, but the quality comes from
 many small design choices before the event.
+
+## Event Formats and Audience Fit
+
+Data analytics events can take different shapes depending on the audience and
+the job to be done. The earlier Data Science Portugal meetups helped people
+find peers when data science roles were still emerging in Portugal. DSPT Day
+scaled that meetup energy into 400- to 600-person gatherings. The online DSPT
+conference reached around a thousand participants because remote attendees
+didn't need to travel
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@21:49=>Data Makers Fest]].
+
+World Data League used a team competition format around urban-impact data
+problems. During COVID, people had time for multi-week collaboration. The
+format became harder once people could meet in person again
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@6:13=>Data Makers Fest]].
+Data Lead Club uses a smaller retreat format for senior data leaders. They need
+a trusted room for management topics they can't easily discuss with their own
+teams
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]].
+
+Data Makers Fest sits in the larger conference category. It has to connect
+[[data analysis]], [[analytics engineering]], [[machine learning]], and AI
+engineering audiences. It also has to give sponsors, students, and speakers
+clear reasons to participate. That audience fit is why event design belongs
+near [[community building]] and [[leadership]].
 
 ## Venue and Calendar Constraints
 
@@ -124,12 +159,15 @@ a talk. The networking dinner adds an informal relationship-building side to the
 conference
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Starting a Data Conference]]).
 
-For data and AI events, the hallway track, booths, and dinners aren't
-secondary to the agenda. They're where attendees compare practices, ask about
-tools, meet hiring teams, and find peers outside their company. The earlier Data
-Lead Club example uses a smaller retreat format for a similar purpose. Leaders
-need trusted peers because many management questions can't be discussed
-comfortably inside their own
+For data and AI events, the hallway track isn't secondary to the agenda.
+Booths and dinners matter too. They're where attendees compare practices, ask
+about tools, meet hiring teams, and find peers outside their company.
+
+This is especially important for data analytics events. The audience often
+spans analysts, engineers, managers, and AI builders who use different
+vocabulary for related problems. The earlier Data Lead Club example uses a
+smaller retreat format for a similar purpose. Leaders need trusted peers
+because many management questions can't be discussed comfortably inside their own
 [[data teams]]
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
 
@@ -144,7 +182,8 @@ It also shows the kind of person who wants to make things happen
 The smaller Data Lead Club format shows the professional-growth side at a
 different scale. A trusted retreat gives data leaders time to discuss management
 problems with peers outside their company. That outcome differs from a large
-conference hallway track.[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]]
+conference hallway track
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]].
 
 The economics stay realistic because conference work can still feel like
 volunteering, but sustained organizing needs time and budget. It also needs

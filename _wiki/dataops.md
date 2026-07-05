@@ -5,6 +5,7 @@ summary: "How podcast guests describe DataOps: testable, observable, recoverable
 related:
   - DataOps Platforms
   - DataOps Engineer Role
+  - DataOps Checks for Data Pipelines
   - Data Engineering Platforms
   - Data Engineering Tools
   - Data Quality and Observability
@@ -41,13 +42,15 @@ Use [[DataOps Tools]] when the question is which categories of tools support
 the practice. Use [[DataOps Platforms]] when those practices become shared
 infrastructure. Use the [[dataops-engineer-role=>DataOps engineer role]] page
 when one person or team owns the operating path across other data teams.
+Use [[DataOps Checks for Data Pipelines]] when the question is which checks
+should run before and after a pipeline change.
 
 Teams use DataOps to reduce errors, shorten deployment cycles, and improve
 team productivity
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 The platform version aligns people and platform design so data teams can scale
 without losing reproducibility
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 DataOps is the practice layer, not a new job title or a synonym for
 [[Data Engineering]]. Version control, tests, and CI/CD guide release work.
@@ -71,22 +74,22 @@ monitor the resulting outputs. Those outputs include tables and dashboards.
 They may also include features or data products.
 
 Version control and tests connect DataOps directly to [[ci-cd=>CI/CD]]
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Automation playbooks and runbook thinking extend the same operating model
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 The same idea extends to regression tests and realistic test data, framed
 around modern pipeline releases
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 Deployment automation and production monitoring are part of the definition too
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 DataOps also covers the data-specific failure modes that normal application
 uptime checks miss. The "good pipeline, bad data" problem is a core example
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Freshness, volume, and distribution are core observability signals, while schema
 and lineage explain where the failure came from
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Ownership, SLAs, and runbooks connect [[Data Quality and Observability]]
 to operational recovery work.
 
@@ -97,16 +100,16 @@ failure modes.
 
 [[person:larsalbertsson=>Lars Albertsson]] starts from platform architecture,
 emphasizing immutable pipeline design and reproducibility
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Storage and compute become platform concerns. Workflow engines, quality
 automation, and schema handling matter in the same platform view
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 [[person:christopherbergh=>Christopher Bergh]] starts from fragile delivery
 practice, connecting observability to production errors
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Replaceability ties to handoffs and documentation, and to lower on-call burden
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 This framing begins with Git and tests, while CI/CD, monitors, and playbooks
 complete the delivery view.
@@ -114,7 +117,7 @@ complete the delivery view.
 [[person:tomaszhinc=>Tomasz Hinc]] starts from infrastructure enablement,
 covering SQL, secrets, and Infrastructure as Code. Terraform, Terragrunt,
 and Atlantis complete the GitOps example
-[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 This version of DataOps makes access, infrastructure, and environment changes
 reviewable through merge requests and dry runs.
 
@@ -139,11 +142,11 @@ DataOps applies to ingestion, transformation, orchestration, and analytics
 delivery.
 
 ETL contrasts with ELT, and teams move transformation work into the warehouse
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 Airflow, dbt, and orchestration cover the scheduling surface
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 CDC and schema evolution show why data teams need repeatable change handling
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 The DataOps layer makes those engineering choices operable. Teams review SQL
 models and ingestion jobs, plus scheduler definitions and infrastructure
@@ -153,7 +156,7 @@ Teams run tests with realistic data, deploy through repeatable release paths,
 and keep a rerun or rollback plan for failed jobs. CI/CD and regression tests
 appear together, and test data and deployment automation belong in the same
 release path
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 For [[Data Strategy]] work, the same delivery layer turns planned
 [[Data Products]] and AI-powered use cases into managed releases instead of a
@@ -194,6 +197,8 @@ notebook-turned-job, or infrastructure definition to pass four gates:
 The supported path works only when the whole team uses it. Then newer members can
 change production without relying on private knowledge
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+For a concrete checklist of data-specific gates, see
+[[DataOps Checks for Data Pipelines]].
 
 ## Observability and Recovery
 
@@ -204,16 +209,16 @@ runbook to follow, and how to prevent the same failure from returning.
 
 Freshness, volume, and distribution reveal failures that a successful job run
 may hide, and schema and lineage reveal structural changes
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Detection is separate from diagnosis, and root-cause analysis connects to
 ownership
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 SLAs and runbooks make observability actionable
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 Production monitoring becomes a starting point for operational improvement,
 connecting those signals back to delivery practice
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 Monitoring without tests, release controls, owners, and recovery paths leaves
 teams reacting to incidents one by one.
 
@@ -227,10 +232,10 @@ For the tooling layer across checks, alerts, and runbooks, see
 
 DataOps becomes shared platform infrastructure when many teams change or
 consume data. It connects to self-service analytics
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 Offline processing and storage are platform foundations. Compute and workflow
 engines sit beside them, and embedded engineering support completes the picture
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Self-service only helps when the supported path preserves ownership,
 reproducibility, and quality. An Airflow cluster alone doesn't create a
@@ -254,7 +259,7 @@ changes easier to observe and recover.
 The modern-stack discussion shows the [[Data Engineering]] side through ETL,
 ELT, and dbt-style warehouse modeling alongside Airflow orchestration. It also
 covers CDC and schema evolution
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 Those choices define how data moves, where business logic lives, and how
 consumers receive the output.
 
@@ -262,7 +267,7 @@ DataOps adds the operating layer. Teams use version control, tests, and CI/CD
 to review and release pipeline changes, while deployment automation and
 production monitoring help them recover from failures. Runbooks and on-call
 readiness matter too
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 The boundary shows up during incidents. A data engineer may fix a bad
 transformation, source schema, or orchestration dependency. DataOps practice
@@ -280,13 +285,13 @@ artifacts, training jobs, model registries, and serving paths. Retraining
 decisions and model behavior belong on the MLOps side.
 
 DataOps and MLOps share a DevOps inheritance
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 They separate shared principles from ML-specific requirements
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The incident overlap shows up when model monitoring includes ETL, data
 pipelines, and upstream root causes
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 A model alert may come from model drift. It may also come from a late table, a
 changed schema, a broken feature pipeline, or a missing label. DataOps responders
 investigate data delivery, while MLOps responders investigate the model
@@ -301,6 +306,7 @@ Adjacent practices, platform topics, and comparison boundaries:
 
 - [[DataOps Platforms]]
 - [[DataOps Tools]]
+- [[DataOps Checks for Data Pipelines]]
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]
 - [[Data Engineering Tools]]

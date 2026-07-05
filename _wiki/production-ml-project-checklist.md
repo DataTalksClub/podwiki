@@ -18,7 +18,9 @@ A production ML project proves that a model can leave the notebook without
 losing reproducibility, ownership, or observability. It should show the problem
 framing and baseline from
 [[Machine Learning Portfolio Projects]].
-It should add the [[MLOps]] evidence that
+
+Use [[Notebook to Production Workflow]] for the broader handoff sequence. This
+checklist adds the [[MLOps]] evidence that
 matters for [[ML platforms]] and
 [[machine-learning-engineer-role=>machine learning engineering]].
 That evidence includes tracked runs and artifact promotion. It also includes
@@ -84,7 +86,8 @@ artifact with a registry record.
 The handoff from experimentation to deployment should be explicit. Link
 [[experiment tracking]] to the
 [[model registry]] so the registry
-becomes a release boundary rather than a storage folder
+becomes a release boundary rather than a storage folder. That release boundary
+is one concrete checkpoint in the [[Notebook to Production Workflow]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 A simple interim registry is an acceptable lightweight version

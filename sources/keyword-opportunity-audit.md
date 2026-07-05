@@ -214,8 +214,11 @@ been published and tightened:
    not trading advice.
 
 Improve existing pages rather than creating new ones for data events,
-podcast-discovery queries, Tavily, and Relevant Search. Keep ignoring book/PDF,
-free-download, Slack, DataQuest, and generic navigation rows.
+podcast-discovery queries, and Relevant Search. Keep ignoring book/PDF,
+free-download, Slack, DataQuest, and generic navigation rows. Tavily appears in
+the local archive only as an affiliation mention, not as a substantive podcast
+discussion of the tool, so it should remain excluded until stronger source
+evidence exists.
 
 The newsletter cluster (`machine-learning-newsletter` / `dtc-newsletter`)
 remains conditional and is not recommended for podwiki unless it becomes
@@ -231,6 +234,9 @@ software engineering comparison intent; `_wiki/project-manager-to-data-science.m
 covers the PM-to-data-science transition intent; and
 `_wiki/volunteer-data-engineering-projects.md` covers volunteer, nonprofit, and
 open-source data engineering portfolio intent.
+
+`_wiki/data-ai-conference-building.md` was tightened for `data analytics events`
+and `data events` intent without creating a duplicate page.
 
 Residual CSV intent is now maintenance for canonical pages, not a new-page
 queue. Enrich the relevant existing page when new evidence appears: use the

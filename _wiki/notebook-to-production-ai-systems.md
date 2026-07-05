@@ -19,10 +19,12 @@ repeatable, evaluate behavior, and monitor the system after launch.
 
 Notebook-to-production work depends on [[Production]],
 [[Machine Learning System Design]], and [[MLOps]]. It also depends on
-[[Data Products]] and [[AI Engineering]]. Classic ML production work adds
-experiment tracking, feature pipelines, and serving paths. LLM and agent work
-adds prompts, retrieval, guardrails, and tool calls. It also adds
-[[LLM evaluation workflows]].
+[[Data Products]] and [[AI Engineering]]. Use
+[[Notebook to Production Workflow]] for the step-by-step handoff sequence.
+
+Classic ML production work adds experiment tracking, feature pipelines, and
+serving paths. LLM and agent work adds prompts, retrieval, guardrails, and tool
+calls. It also adds [[LLM evaluation workflows]].
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 [[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
@@ -46,9 +48,10 @@ components, and stakeholder buy-in, not just a stronger model.
 The shared definition is end-to-end ownership of the decision a model or AI
 application supports. The team needs to know which data and code produced an
 output. It also needs to know which assumptions are still valid and which
-signals will show that the system has stopped helping. That connects
-notebook-to-production work with [[software engineering]], [[testing]],
-[[reproducibility]], and [[model monitoring]].
+signals will show that the system has stopped helping. Teams connect
+notebook-to-production work with [[software engineering]] and [[testing]].
+They also connect it to [[reproducibility]], [[model monitoring]], and
+[[Notebook to Production Workflow]].
 
 ## Production Boundaries
 

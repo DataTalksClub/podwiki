@@ -16,9 +16,10 @@ also show project ownership and support interview follow-up. For a specific
 [[data scientist role]], the proof system combines resume evidence with public
 projects, take-home work, and interview stories.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
-Start with [[CV Screening]] for the recruiter-side first pass. Use
-[[Job Search]] and the [[Data Scientist Interview Roadmap]] for the full
-candidate path. Use [[Machine Learning Portfolio Projects]] and
+Start with [[CV Screening]] and [[Data Science Recruiter]] for the
+recruiter-side first pass. Use [[Job Search]] and the
+[[Data Scientist Interview Roadmap]] for the full candidate path. Use
+[[Machine Learning Portfolio Projects]] and
 [[Portfolio Projects]] when the project needs deeper technical framing.
 
 ## CV as Proof of Fit

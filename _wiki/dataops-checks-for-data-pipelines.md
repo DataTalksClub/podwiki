@@ -130,6 +130,12 @@ Start with these volume checks:
 6. Deletes, late-arriving records, and CDC updates reconcile against the source
    window.
 
+Source-target reconciliation is the platform-scale version of the same volume
+check. After a batch or real-time load, compare source-system records with the
+warehouse or lake target. That comparison catches ETL downtime, leakage,
+filters, or exception handling gaps so they don't silently drop data
+[[cite:data-engineering-leadership-and-modern-data-platforms@28:09=>Data Engineering Leadership and Modern Data Platforms]].
+
 Use hard thresholds for safety checks and historical baselines for anomaly
 checks. Volume expectations can often be inferred from history, then overridden
 when a consumer needs a stricter SLA

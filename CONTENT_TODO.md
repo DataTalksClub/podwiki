@@ -217,10 +217,12 @@ The `docs/mining/report_pod_09.md` high-value graph edges were integrated on
 - the Kaggle portfolio and mentoring-in-tech edges now strengthen career,
   portfolio, interview, and leadership pages
 
-Use `docs/mining/report_pod_10.md` as the next audit source for missing
-high-value graph edges. These are page-enrichment tasks, not new-page requests.
-Keep using `data-team-roles` as foundational role-taxonomy evidence when
-tightening role-boundary pages.
+`docs/mining/report_pod_10.md` was the last broad missing-edge audit source and
+is now fully integrated. Future missing-edge work should start from a fresh
+mining report or a new graph/link audit, not by reopening `report_pod_10.md`.
+These are page-enrichment tasks, not new-page requests. Keep using
+`data-team-roles` as foundational role-taxonomy evidence when tightening
+role-boundary pages.
 
 The first `docs/mining/report_pod_10.md` enrichment batch was integrated on
 2026-07-04:

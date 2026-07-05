@@ -31,7 +31,8 @@ component of the product.
 Production AI connects data pipeline tests and prompt evaluation with compression
 and caching.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 End-to-end ownership spans product-driven AI, requirements, and feedback loops.
-It also includes the move away from notebooks.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>Notebook to Production]]
+It also includes the move away from notebooks. Use
+[[Notebook to Production Workflow]] for the practical handoff path.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>Notebook to Production]]
 
 ## Application Ownership
 
@@ -100,10 +101,10 @@ Notebook-to-production discussions add product and deployment concerns.[[cite:s2
 - Business-to-ML requirements and feedback loops.
 - Image description architecture and a serving stack with FastAPI, UV, and Arize.
 
-For those topics, see
-[[Notebook to Production AI Systems]],
-[[machine learning system design]],
-and [[machine learning for software engineers]].
+For the handoff path, see [[Notebook to Production Workflow]].
+For the broader system view, see [[Notebook to Production AI Systems]],
+[[machine learning system design]], and
+[[machine learning for software engineers]].
 
 ## Context, RAG, and Knowledge Systems
 
@@ -169,9 +170,10 @@ For adjacent data work, see [[Data Pipelines]],
 [[Data Engineering]], and
 [[How to Build Data Pipelines]].
 
-Teams handle deployment through end-to-end AI systems, where ownership and
+Teams handle deployment through end-to-end AI systems where ownership and
 requirements define the work. System architecture connects production code with
-serving and monitoring.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>Notebook to Production]]
+serving and monitoring. Use [[Notebook to Production Workflow]] for the release
+sequence.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>Notebook to Production]]
 The same operational work runs through [[MLOps]],
 [[MLOps Engineer]], and
 [[AI Infrastructure]].

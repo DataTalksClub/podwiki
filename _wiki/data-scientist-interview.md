@@ -39,8 +39,9 @@ role spectrum helps you decide whether the interview is closer to product data
 science or ML engineering
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
-Ask the recruiter what the next technical stage will test. Use the answer to
-focus preparation and turn a vague "technical interview" into a concrete plan
+Ask the [[Data Science Recruiter]] what the next technical stage will test. Use
+the answer to focus preparation and turn a vague "technical interview" into a
+concrete plan
 [[cite:machine-learning-data-science-interview-prep=>Machine Learning and Data Science Interview Prep]].
 
 If the role is analytics-heavy, connect your preparation to

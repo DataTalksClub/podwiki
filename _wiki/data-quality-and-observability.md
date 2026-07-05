@@ -4,6 +4,7 @@ title: "Data Quality and Observability"
 summary: "How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
 related:
   - DataOps
+  - DataOps Checks for Data Pipelines
   - Data Engineering Platforms
   - Data Governance
   - Model Monitoring
@@ -37,7 +38,10 @@ The same failures connect to tests and CI/CD. Reliability also ties to version
 control, observability, runbooks, and automated
 playbooks.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-For narrower operating views, [[DataOps]] covers data pipeline delivery and
+For narrower operating views, [[DataOps]] covers data pipeline delivery.
+[[DataOps Checks for Data Pipelines]] turns those delivery concerns into
+freshness, volume, schema, and distribution checks. It also covers lineage and
+recovery checks.
 [[MLOps]] covers deployed model failures. [[Data Observability for Data Engineering]]
 covers stack placement, ownership metadata, and rollout steps.
 
@@ -117,7 +121,9 @@ operational decisions use it
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]].
 
 Those practices sit beside [[Analytics Engineering]] and [[DataOps]] because
-transformations, models, and reports share the same reliability problem.
+transformations, models, and reports share the same reliability problem. Use
+[[DataOps Checks for Data Pipelines]] for the operational checklist version of
+those quality gates.
 
 Tests and dbt checks help teams encode known assumptions. They don't catch every
 late, missing, shifted, or unexpected
@@ -294,6 +300,7 @@ to debug.
 These pages cover narrower operating disciplines and platform areas:
 
 - [[DataOps]]
+- [[DataOps Checks for Data Pipelines]]
 - [[Data Engineering Platforms]]
 - [[Data Governance]]
 - [[Model Monitoring]]

@@ -22,12 +22,13 @@ role and proving fit. It links
 search also tests whether the company has the team, data, and hiring path to
 use the candidate well.
 
-Job search is narrower than "apply to many jobs." It starts with goals,
-strategy, networking, and CV work
+Job search is narrower than "apply to many jobs." It starts with goals and
+strategy before networking and CV work
 [[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
-The recruiter view adds company targeting and role fit
-[[cite:get-data-scientist-job=>Land Data Scientist Roles]], while interview
-preparation treats success as a communication problem
+
+The [[Data Science Recruiter]] view adds company targeting and role fit
+[[cite:get-data-scientist-job=>Land Data Scientist Roles]].
+Interview preparation treats success as a communication problem
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 Together, these views frame job search as a matching problem. Candidates
 choose a role, build proof, explain that proof, and then evaluate the company.
