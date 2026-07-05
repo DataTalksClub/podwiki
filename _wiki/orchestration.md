@@ -176,14 +176,18 @@ modern pipelines
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 The same workflow may run as a DAG or CI job. It may also run as a managed
-scheduler, batch job, or ML pipeline. [[person:adrianbrudaru=>Adrian Brudaru]]
-says GitHub Actions can be enough for simple workflows because it avoids the
-cost of always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+scheduler, batch job, or ML pipeline.
+
+[[person:adrianbrudaru=>Adrian Brudaru]] says GitHub Actions can be enough for
+simple workflows.
+It avoids the cost of always-on orchestrators
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 That lightweight-runner choice belongs in
 [[modern-data-engineering-trends=>modern data engineering trends]] when
 orchestration is part of a broader platform-cost decision.
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]] keeps orchestration in CI/CD
-where possible and chooses Dagster when the workflow needs a real orchestrator
+The [[lean-mlops-for-startups=>lean MLOps for startups]] example keeps
+orchestration in CI/CD where possible. [[person:nemanjaradojkovic=>Nemanja
+Radojkovic]] chooses Dagster when the workflow needs a real orchestrator
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Kretz gives the AWS version with CloudWatch, Lambda, containers, and ECS. He

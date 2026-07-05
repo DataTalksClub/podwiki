@@ -182,7 +182,9 @@ Products at Scale]].
 The broader [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
 comparison separates that strategic product judgment from general product
 management. [[product-owner-vs-product-manager=>product owner vs product manager]]
-keeps the release-authority split explicit.
+keeps the release-authority split explicit. Use
+[[data-product-owner-vs-data-product-manager=>data product owner vs data product manager]]
+when the ownership split is specifically about a data product.
 
 ## Platform Implications
 

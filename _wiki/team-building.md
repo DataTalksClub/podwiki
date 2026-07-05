@@ -183,7 +183,8 @@ role-design choices. For team building, the interview should test whether the
 candidate can build review habits, stakeholder loops, and career support around
 the team. It shouldn't only test whether they can list tools
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]].
-The accountability side of those manager choices belongs with [[leadership]].
+The accountability side of those manager choices belongs with [[leadership]]
+and [[data-science-for-managers=>data science for managers]].
 
 ## Onboarding and Growth
 

@@ -202,11 +202,15 @@ you model tables. Add repeatable runs, checks, and recovery notes. Use
 
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the project version of this
 transition. Interviewers valued that she recognized clean data and data quality
-checks as essential for reporting. She also described a capstone that collected,
-cleaned, and delivered Twitter data with Docker containers. She says
-personalized projects stand out because the candidate can explain why the
-project exists and why the design choices matter
+checks as essential for reporting. She also described a Dockerized capstone.
+It collected, cleaned, and delivered Twitter data. She says personalized
+projects stand out because the candidate can explain why the project exists and
+why the design choices matter
 [[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno project evidence]].
+
+When a course or bootcamp credential is part of that story, connect it to the
+capstone. [[data-engineering-certification=>Data engineering certification]]
+should reference project evidence rather than replace it.
 
 If you already own dashboards at work, a stronger project may be internal. Add
 a source audit, transform logic, validation checks, and documentation around an

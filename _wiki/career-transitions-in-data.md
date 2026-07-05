@@ -74,7 +74,7 @@ open-source contributions help too.
 
 Freelancers need client-facing offers and trust signals. Because proof changes
 by role, candidates need the broad framing from [[job search]] alongside
-target-specific role and portfolio evidence.
+[[data-roles=>data roles]] and target-specific portfolio evidence.
 
 ## Reframing Prior Work as Data Evidence
 

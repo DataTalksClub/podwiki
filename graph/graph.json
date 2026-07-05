@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12283
+    "links": 12288
   },
   "nodes": [
     {
@@ -34316,6 +34316,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -41559,6 +41565,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -55355,6 +55367,12 @@
       "target": "wiki:data-product-management",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:hiring",
+      "target": "wiki:data-roles",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:hiring",
@@ -72614,6 +72632,12 @@
     },
     {
       "source": "wiki:orchestration",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -82617,6 +82641,12 @@
     {
       "source": "wiki:team-building",
       "target": "wiki:data-product-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
     },
