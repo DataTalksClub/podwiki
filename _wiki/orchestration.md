@@ -273,8 +273,8 @@ also need to name things and decide when generic YAML or templates should
 generate repeated workflows
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
-He says a scale-up may spend about half its data-engineering effort on platform
-work. The other half may go to use-case pipelines, because repeated requests
+A scale-up may spend about half its data-engineering effort on platform work.
+The other half may go to use-case pipelines, because repeated requests
 should turn into reusable frameworks [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
 Those conventions keep orchestration tied to

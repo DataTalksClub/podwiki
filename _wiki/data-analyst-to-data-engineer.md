@@ -198,9 +198,9 @@ need more project types.
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the project version of this
 transition. Interviewers valued that she recognized clean data and data quality
 checks as essential for reporting. She also described a Dockerized capstone.
-It collected, cleaned, and delivered Twitter data. She says personalized
-projects stand out because the candidate can explain why the project exists and
-why the design choices matter
+It collected, cleaned, and delivered Twitter data. Those personalized projects stand
+out because the candidate can explain why the project exists and why the design
+choices matter
 [[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno project evidence]].
 
 When a course or bootcamp credential is part of that story, connect it to the
@@ -310,6 +310,8 @@ actual hire often has gaps. Your job is to make the strongest relevant evidence
 visible [[cite:get-data-engineering-job-prep-and-interview=>job description gaps]].
 
 ## Related Pages
+
+The transition connects to neighboring roles and project pages.
 
 - [[Data Analyst Role]]
 - [[Data Analyst Careers]]

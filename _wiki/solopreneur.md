@@ -96,7 +96,7 @@ predictable income and flexibility.
 [[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]]
 shows the data-consulting version
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
-He says customer validation should focus on what people actually do. He asks
+Customer validation should focus on what people actually do. He asks
 when the problem last happened, how often it happens, and what the consequence
 was. His consulting value shifts from "data stack as a service" toward mapping
 the business into useful data models. A solo consultant therefore sells

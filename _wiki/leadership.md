@@ -68,8 +68,8 @@ That path connects leadership directly to the [[Data Team Lead Role]].
 cleanest manager-versus-expert distinction in
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
-She says a data science manager needs broad technical literacy and strategy.
-The manager also needs stakeholder communication and team development. They
+Barbara's distinction requires broad technical literacy and strategy from a data
+science manager. The manager also needs stakeholder communication and team development. They
 need the judgment to redirect a modeling effort when "good enough" is enough.
 The expert role is different. The expert brings deep technical and domain
 knowledge for hard modeling or domain-specific problems.
@@ -611,8 +611,8 @@ He separates strategy from
 tactics by breaking a broad direction into goals and KPIs. Teams can then
 execute smaller strategy blocks.
 
-De Sa's org-design comments keep strategy grounded in delegation. He says data
-leaders need the right teams and people who know the details better than the
+De Sa's org-design comments keep strategy grounded in delegation. Data leaders
+need the right teams and people who know the details better than the
 executive. The leader then articulates a single vision across those teams. Later, he frames the CDO as closer to executive strategy. The VP
 of data is more attached to specific strategy components, though the exact split
 depends on the organization.

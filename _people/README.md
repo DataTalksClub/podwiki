@@ -2,25 +2,28 @@
 published: false
 ---
 
-# People Exploration Pages
+# People Node Registry
 
-This directory contains LLM-curated exploration pages for DataTalks.Club podcast
-guests and contributors.
+This directory contains source-derived node records for DataTalks.Club podcast
+guests and contributors. The collection is not published as local public pages;
+public links should resolve to canonical `https://datatalks.club/people/<slug>.html`
+URLs.
 
 ## Source Policy
 
-Use these source rules for every people page:
+Use these source rules for every people record:
 
 - The source person record lives in `../datatalksclub.github.io/_people/<person_id>.md`.
 - Podcast participation comes from `../datatalksclub.github.io/_podcast/<episode_slug>.md` frontmatter.
-- Don't copy full transcripts into these pages.
-- Use podcast frontmatter and transcript snippets only for compact synthesis and source-grounded links.
+- Don't copy full transcripts into these records.
+- Use podcast frontmatter and transcript snippets only for compact synthesis and
+  source-grounded links.
 - Public podcast links should use canonical DataTalks.Club episode pages, such
   as `https://datatalks.club/podcast/<episode_slug>.html`.
 
-## Page Format
+## Record Format
 
-Each page uses this frontmatter:
+Each record uses this frontmatter:
 
 ```yaml
 ---
@@ -34,17 +37,9 @@ podcast_episodes: ["episode-slug"]
 ---
 ```
 
-People pages are primarily about podcast content, not biographies. Include just
+People records are primarily about podcast content, not biographies. Include just
 enough background to explain why the guest's claims matter. Then focus on what
-they argued, explained, contrasted, or demonstrated in the archive.
+they argued, explained, contrasted, or demonstrated in the podcast source files.
 
-Use these body sections:
-
-- `## Podcast Context`: short bio/context tied to the podcast appearance.
-- `## Podcast Contributions`: episode-level contribution summary with links to
-  local podcast summary pages when useful.
-- `## Reusable Claims and Examples`: claims, distinctions, examples, or
-  decision rules future agents can reuse.
-- `## Concepts Connected`: concept links using `/wiki/<slug>/` paths when the
-  topic exists.
-- `## Source Links`: local source person and podcast files for verification.
+Keep the body compact. These records exist so graph/search can connect guests,
+episodes, and wiki topics; durable public synthesis belongs in `_wiki/`.

@@ -1,7 +1,9 @@
-RUSTKYLL_PYPI_VERSION ?= 0.5.1
-RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
+RUSTKYLL_PYPI_VERSION ?= 0.5.0
+RUSTKYLL ?= uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll
+STEMMER ?= porter
+BASEURL ?=
 
-.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check
+.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -21,15 +23,18 @@ graph: sources ## Build the static graph data used by the site
 graph-audit: ## Report weakly linked wiki nodes in generated graph data
 	python scripts/audit_graph.py
 
-index: graph ## Build the zerosearch artifact used by Lambda (STEMMER=porter to stem)
-	python scripts/build_search_index.py $(if $(STEMMER),--stemmer $(STEMMER))
+index: graph ## Build the zerosearch artifact used by Lambda
+	python scripts/build_search_index.py --stemmer $(STEMMER)
 
 lambda-package: index ## Prepare the minimal SAM CodeUri directory
 	python scripts/prepare_lambda_package.py
 
 build: ## Build the static site (uses committed graph/search data; run 'make graph' after source/content changes)
-	$(RUSTKYLL) build
-	python scripts/prune_sitemap.py
+	$(RUSTKYLL) build $(if $(BASEURL),--baseurl "$(BASEURL)")
+	@if [ -n "$(BASEURL)" ]; then \
+		python scripts/fix_absolute_urls.py --baseurl "$(BASEURL)"; \
+	fi
+	python scripts/prune_sitemap.py $(if $(BASEURL),--baseurl "$(BASEURL)")
 
 serve: ## Serve the static site locally (uses committed graph/search data; run 'make graph' after source/content changes)
 	$(RUSTKYLL) serve --no-watch
@@ -52,7 +57,7 @@ duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
 
 links: build ## Check generated internal links
 	python scripts/check_html_chips.py
-	python scripts/check_links.py
+	python scripts/check_links.py $(if $(BASEURL),--baseurl "$(BASEURL)")
 
 content-audit: ## Report wiki/article pages that need citation and link cleanup
 	python scripts/audit_content_quality.py --strict-scaffold-headings --strict-source-scaffolding
@@ -61,6 +66,21 @@ seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 	python scripts/audit_seo.py
 
 check: lambda-package podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, and link check
+
+ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expects checked-in source-derived records)
+	python scripts/build_graph.py
+	python scripts/build_search_index.py --stemmer $(STEMMER)
+	$(RUSTKYLL) build $(if $(BASEURL),--baseurl "$(BASEURL)")
+	@if [ -n "$(BASEURL)" ]; then \
+		python scripts/fix_absolute_urls.py --baseurl "$(BASEURL)"; \
+	fi
+	python scripts/prune_sitemap.py $(if $(BASEURL),--baseurl "$(BASEURL)")
+	python scripts/check_html_chips.py
+	python scripts/check_links.py $(if $(BASEURL),--baseurl "$(BASEURL)")
+
+ci-lambda-package: ## CI build path for Lambda search package
+	python scripts/build_search_index.py --stemmer $(STEMMER)
+	python scripts/prepare_lambda_package.py
 
 clean: ## Remove generated build artifacts
 	rm -rf _site .rustkyll-manifest.json artifacts lambda_package

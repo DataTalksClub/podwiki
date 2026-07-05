@@ -161,8 +161,8 @@ broader role definition.
 
 The title split depends on company size. In
 [[cite:analytics-engineer-skills-tools=>Perez Mola's comparison of analytics engineers, analysts, and data engineers]],
-the analytics engineer sits between data analyst and data engineer. She says
-the lines are blurry across companies and even within one team.
+the analytics engineer sits between data analyst and data engineer. The lines
+are blurry across companies and even within one team.
 The Spotify-origin story makes the boundary practical. Analysts needed to spend
 less time cleaning and preparing data, while data engineers stayed closer to
 infrastructure and pipelines
@@ -181,8 +181,8 @@ Nikola Maksimovic's small analytics engineering and BI team shows the same blur
 from inside the job. His role combined KPI reassessment, dashboards, and
 product-team support. It also included A/B testing and ad hoc analysis. RFM
 analysis, data model changes, and a later `dbt` migration were part of the same
-role. He says small and
-medium-sized teams shouldn't get stuck on the title split. Larger data
+role. Small and medium-sized teams shouldn't get stuck on the title split.
+Larger data
 departments can separate analysts and analytics engineers so people can
 focus.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@25:17=>Maksimovic's team story]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@26:45=>Maksimovic's title discussion]]
 

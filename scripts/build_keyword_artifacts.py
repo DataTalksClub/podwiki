@@ -140,6 +140,38 @@ def classify_rows(csv_path: Path, covered: float, ground: float) -> list[dict[st
             records.append(rec)
             continue
 
+        alias_status, alias_id = keyword_gap.alias_route(kw)
+        if alias_status:
+            rec["status"] = alias_status
+            rec.update(
+                wiki_score=0.0,
+                main_score=0.0,
+                ground_score=0.0,
+                ground_file="",
+            )
+            if alias_status == "COVERED":
+                page = wiki_meta.get(alias_id, {})
+                rec.update(
+                    covered_by_wiki=True,
+                    wiki_file=page.get("file") or file_from_doc_id(alias_id),
+                    wiki_title=page.get("title") or "",
+                    wiki_tag=page.get("tag") or "",
+                    covered_by_editorial=bool(page.get("tag")),
+                    editorial_file=page.get("file") if page.get("tag") else "",
+                )
+            elif alias_status == "MAIN":
+                rec.update(
+                    covered_by_wiki=False,
+                    wiki_file="",
+                    wiki_title="",
+                    wiki_tag="",
+                    covered_by_editorial=False,
+                    editorial_file="",
+                    main_file=file_from_doc_id(alias_id),
+                )
+            records.append(rec)
+            continue
+
         w_score, w_id = keyword_gap.top_score(wiki_idx, kw)
         m_score, m_id = keyword_gap.top_score(main_idx, kw)
         g_score, g_id = keyword_gap.top_score(ground_idx, kw)

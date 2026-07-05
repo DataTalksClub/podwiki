@@ -26,10 +26,15 @@ LOC_RE = re.compile(r"<loc>([^<]+)</loc>")
 WIKI_PATH_RE = re.compile(r"/wiki/([^/]+)/?$")
 
 
-def loc_exists(loc: str, site: Path, baseurl: str) -> bool:
+def loc_path(loc: str, baseurl: str) -> str:
     path = urlsplit(loc).path
     if baseurl and path.startswith(baseurl):
         path = path[len(baseurl):]
+    return path
+
+
+def loc_exists(loc: str, site: Path, baseurl: str) -> bool:
+    path = loc_path(loc, baseurl)
     path = path.lstrip("/")
     if path == "" or path.endswith("/"):
         target = site / path / "index.html"
@@ -58,7 +63,7 @@ def prune(sitemap: Path, site: Path, baseurl: str) -> tuple[int, int, int]:
         kept += 1
         # Add <lastmod> for wiki pages from git history, if not already present.
         if loc and "<lastmod>" not in block:
-            wiki = WIKI_PATH_RE.search(urlsplit(loc.group(1)).path)
+            wiki = WIKI_PATH_RE.search(loc_path(loc.group(1), baseurl))
             if wiki:
                 dates = wiki_dates.get(wiki.group(1))
                 if dates:

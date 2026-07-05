@@ -84,7 +84,7 @@ watermarks, windows, and backpressure without tying them to a single framework.
 [[person:adrianbrudaru=>Adrian Brudaru]] adds the modern
 data-stack warning in
 [[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
-He says many systems described as streaming are micro-batches unless strict
+Many systems described as streaming are micro-batches unless strict
 service-level agreements justify Kafka, Flink, or
 similar infrastructure. Short batches or micro-batches can reduce latency while
 keeping bounded windows that engineers can test and rerun.

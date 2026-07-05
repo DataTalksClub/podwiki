@@ -53,11 +53,12 @@ Build with Rustkyll:
 make build
 ```
 
-The Makefile prefers `.bin/rustkyll` when present, matching the pinned binary
-used by the GitHub Pages deploy. If that file is absent, it falls back to
-`uvx --no-config --from rustkyll==0.5.1 rustkyll`; the `--no-config` matters
-because a global uv `exclude-newer` setting can hide fresh Rustkyll releases and
-silently run an older binary without WASM extension support.
+The Makefile runs Rustkyll through
+`uvx --no-config --from rustkyll==0.5.0 rustkyll`. The GitHub Pages workflow uses
+the same make target, so local and deployed builds use the same Rustkyll version.
+The `--no-config` flag matters because a global uv `exclude-newer` setting can
+hide fresh Rustkyll releases and silently run an older binary without WASM
+extension support.
 
 Serve locally:
 

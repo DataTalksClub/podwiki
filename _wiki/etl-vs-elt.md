@@ -142,9 +142,9 @@ Prefect, Dagster, or another scheduler and still be ETL or ELT. The team still
 has to decide where business meaning becomes durable and who owns the change
 path.
 
-Adrian Brudaru adds another boundary for developer libraries. He explains that
-`dlt` doesn't try to become an Airbyte- or Fivetran-style platform. It stays
-library-first for builders who want pipeline code inside their own workflow.
+Adrian Brudaru adds another boundary for developer libraries. The `dlt` project
+doesn't try to become an Airbyte- or Fivetran-style platform. It stays library-first
+for builders who want pipeline code inside their own workflow.
 Teams should connect the ETL/ELT choice to [[data engineering tools]] and
 [[modern data stack]] positioning. The choice isn't only about where SQL
 transforms run
@@ -218,6 +218,7 @@ Don't use ETL as a reason to hide source detail that future teams will need.
 
 ## Related Pages
 
+The acronym boundary connects to these nearby architecture pages.
 
 - [[ETL]]
 - [[ELT]]

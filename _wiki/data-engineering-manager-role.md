@@ -134,7 +134,7 @@ also includes required delivery and code-quality expectations. Stretch goals
 still have room [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 [[person:loicmagnien=>Loïc Magnien]] gives the adjacent
-architecture view. He says data architecture creates team alignment among data
+architecture view. Data architecture creates team alignment among data
 producers, processors, and consumers. His stakeholder discussions turn business
 questions into shared models with metrics, dimensions, and facts [[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]].
 A data engineering manager may not personally own every model, but they need
@@ -151,9 +151,9 @@ buzzwords. Real use cases matter too [[cite:data-engineering-leadership-and-mode
 [[person:nicolasrassam=>Nicolas Rassam]] adds the talent
 market lens in his European data engineering hiring discussion
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
-He says titles hide relevant experience. Software engineers and BI engineers
-may already have pipeline or modeling experience. Analysts and data scientists
-may have it too.
+Titles can hide relevant experience. Software engineers and BI engineers may
+already have pipeline or modeling experience. Analysts and data scientists may
+have it too.
 
 He separates junior, intermediate, and senior expectations by
 responsibility. Juniors are more task-oriented, intermediate engineers take on
@@ -258,6 +258,7 @@ self-driven team rather than becoming the bottleneck for every technical choice
 
 ## Related Pages
 
+The manager role connects to platform, DataOps, and leadership pages.
 
 - [[Data Engineering]]
 - [[Data Engineer Role]]

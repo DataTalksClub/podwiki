@@ -11,10 +11,10 @@ Input files:
 ## Extraction Result
 
 - Ubersuggest CSV rows extracted: 1000
-- Existing tagged wiki/editorial pages checked: 76
+- Existing tagged wiki/editorial pages checked: 79
   (`_wiki/` pages with `guide`, `comparison`, `roadmap`, `transition`, or
   `how-to` tags)
-- Existing wiki pages checked: 280
+- Existing wiki pages checked: 281
 - Excel workbook tabs checked in the local file:
   `Quick-wins`, `Competitor Gaps`, `Code Fix`
 - Excel rows beyond headers in the local file: 0
@@ -238,11 +238,11 @@ open-source data engineering portfolio intent.
 `_wiki/data-ai-conference-building.md` was tightened for `data analytics events`
 and `data events` intent without creating a duplicate page.
 
-The 2026-07-05 `scripts/keyword_gap.py` rerun against the current
+The 2026-07-06 `scripts/keyword_gap.py` rerun against the current
 `.tmp/ubersuggest_Current_Queries.csv` found 0 `GAP_GROUNDED` clusters:
-127 keywords were already covered by podwiki, 315 belonged to the main website,
+127 keywords were already covered by podwiki, 318 belonged to the main website,
 113 were branded/navigation, 204 were book-download/book-intent queries, and
-223 were ungrounded gaps. This means the current CSV supports maintenance of
+220 were ungrounded gaps. This means the current CSV supports maintenance of
 canonical pages rather than new page creation.
 
 Residual CSV intent is now maintenance for canonical pages, not a new-page

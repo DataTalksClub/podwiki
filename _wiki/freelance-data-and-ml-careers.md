@@ -65,8 +65,8 @@ The adjacent solo-business path is
 
 Orell's first freelance signal came through a contact from his startup period.
 In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
-he says a previous contact returned with a small paid consulting request. The
-project mattered because it proved that his startup and data-platform skills had
+a previous contact returned with a small paid consulting request. The project
+mattered because it proved that his startup and data-platform skills had
 market value even after the company didn't work out. He then focused on quality
 delivery. Networking, LinkedIn sharing, and referrals became part of the same
 practice ([[person:orellgarten=>Orell Garten]]).
@@ -85,8 +85,8 @@ deadline and deliver something useful
 ## Learning by Doing Has Different Risk Profiles
 
 Pastor frames early freelancing as a high-pressure learning environment. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
-he says people often asked him to take projects he didn't yet know how to do.
-He learned quickly on the job. That worked for him because the projects created
+people often asked him to take projects he didn't yet know how to do. He learned
+quickly on the job. That worked for him because the projects created
 motivating deadlines. He was able to succeed in most of them.
 
 The same passage also shows the intensity through early mornings and late
@@ -145,7 +145,7 @@ profile where clients search. Make public work strong enough that a networking
 lead can become a paid project.
 
 Pastor's acquisition path moves from a marketplace to public reputation. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
-he says Upwork became harder after the pandemic. He opened LinkedIn and began
+Upwork became harder after the pandemic. He opened LinkedIn and began
 posting course notes about ML. Community participation and [[mentoring-in-tech=>mentoring]]
 helped create new opportunities. Posts about concrete problems led people to ask
 for help on freelance and full-time projects.
@@ -215,15 +215,15 @@ decisions keep the client close to the work.
 ## Specialization Makes the Offer Legible
 
 Orell's offer is legible because it names the kind of data work he does. In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
-he says he focuses on software-side data engineering rather than dashboarding or
-Power BI. Many of his clients work in industrial settings where machines,
+he focuses on software-side data engineering rather than dashboarding or Power
+BI. Many of his clients work in industrial settings where machines,
 formats, and vendor variants require custom integration. Data cleaning in those
 environments depends on domain knowledge and hours of client conversation.
 Changing data requires understanding what values mean for the business.
 
 Pastor's specialization is more identity-and-portfolio driven. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
-he explains that healthcare ML capstones helped make sense of his combined
-medical and data background. The examples used skin cancer and pneumonia data.
+healthcare ML capstones helped make sense of his combined medical and data
+background. The examples used skin cancer and pneumonia data.
 The projects were dockerized and deployed on AWS. They were also reusable as
 proof when recruiters or project leads asked what he could do.
 
@@ -249,7 +249,7 @@ productivity opportunities. That makes the career path closer to
 ## Public Learning Turns Work Into Market Memory
 
 Pastor's public-learning system is practical rather than decorative. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
-he says leaderboard participation pushed him to post weekly. It also pushed him
+leaderboard participation pushed him to post weekly. It also pushed him
 to frame posts as explanations, not just "I'm learning" updates. Explaining
 topics such as ROC curves helped him appear as someone with professional
 insight. Recruiters reached out based on LinkedIn posts even though he wasn't
@@ -276,6 +276,7 @@ the profile more credible than a list of tools alone
 
 ## Related Pages
 
+The career path connects to freelance strategy and broader transition pages.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
 - [[data-freelancing-strategy=>Data Freelancing Strategy]]

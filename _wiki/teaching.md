@@ -102,7 +102,7 @@ because a roadmap should sequence skills, not collect every current tool.
 For a FinTech analytics program, she collected market practices, datasets, and
 exercises. She then found teachers for modules such as fraud, chargebacks,
 BigQuery, and data storytelling. The program also included business skills.
-She explains hands-on cloud teaching with BigQuery access and shared datasets
+Hands-on cloud teaching meant BigQuery access and shared datasets
 [[cite:teaching-mentoring-data-analytics-fintech=>Teaching and Mentoring in Data Analytics]].
 
 Irina returns to analyst fundamentals by naming SQL, visualization, and product
@@ -303,6 +303,7 @@ work clearly, ask for feedback, and publish enough for another person to evaluat
 
 ## Related Pages
 
+The learning loop connects to community, documentation, and portfolio pages.
 
 - [[Community Building]] and
   [[Community]] for peer support,

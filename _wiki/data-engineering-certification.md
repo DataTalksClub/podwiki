@@ -85,9 +85,9 @@ Use a certificate when it helps you close a concrete gap:
 - You can turn the coursework into a public portfolio project.
 
 [[person:andreaskretz=>Andreas Kretz]] gives the same rule from the project
-side. He says learners shouldn't stop at an AWS certification. They should
-publish a GitHub track record with what they learned and build a professional
-profile around it
+side. Learners shouldn't stop at an AWS certification. They should publish a
+GitHub track record with what they learned and build a professional profile
+around it
 [[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]].
 
 Treat the certificate as weak when it hides missing fundamentals. If the
@@ -165,7 +165,7 @@ from the program became useful in her work, along with Docker and Airflow
 [[cite:get-data-analytics-and-data-engineering-job@36:20=>Get a Data Analytics and Data Engineering Job]].
 
 Gloria's portfolio advice starts with a Twitter data capstone that used Docker
-containers and a Slack bot. She says custom projects stand out because
+containers and a Slack bot. Custom projects stand out because
 employers may see the same course projects repeatedly. She then discusses data
 quality through bot detection, Twitter data cleaning, and sentiment bias.
 [[cite:get-data-analytics-and-data-engineering-job@50:15=>Get a Data Analytics and Data Engineering Job]]
@@ -208,8 +208,8 @@ You still need to understand the categories behind those platforms:
 [[person:nataliekwong=>Natalie Kwong]] gives that vocabulary in practical
 terms. She breaks ETL into source extraction, business-specific
 transformation, and loading data for use. She describes transformations from
-type casting to joins across sources. She explains that warehouse and lake
-choices depend on team and business needs, and positions Airflow as a tool for
+type casting to joins across sources. Warehouse and lake choices depend on team
+and business needs, and she positions Airflow as a tool for
 scheduling and running pipelines.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
@@ -352,6 +352,8 @@ when it fills a specific gap.
 
 ## Related Pages
 
+The certificate question connects to projects, job search, and learning
+sequences.
 
 - [[Data Engineer Roadmap]]
 - [[Data Engineering Portfolio Projects]]

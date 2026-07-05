@@ -1,9 +1,5 @@
 name: Deploy site to Pages
 
-env:
-  RUSTKYLL_VERSION: v0.5.0
-  RUSTKYLL_LINUX_AMD64_SHA256: 11e9d9b7c415befcb53d60f2b9b4db1d0e24c88d4d3fd0f3f741c497a3e158c6
-
 on:
   push:
     branches: ["main"]
@@ -29,36 +25,14 @@ jobs:
         with:
           python-version: '3.14'
       - name: Install Python dependencies
-        run: python -m pip install -r requirements.txt
-      - name: Install Rustkyll
-        run: |
-          mkdir -p .bin
-          curl -fsSL \
-            "https://github.com/alexeygrigorev/rustkyll/releases/download/${RUSTKYLL_VERSION}/rustkyll-linux-amd64" \
-            -o .bin/rustkyll
-          echo "${RUSTKYLL_LINUX_AMD64_SHA256}  .bin/rustkyll" | sha256sum -c -
-          chmod +x .bin/rustkyll
+        run: python -m pip install uv -r requirements.txt
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
-      - name: Build graph data
-        run: python scripts/build_graph.py
-      - name: Build browser search corpus
-        run: python scripts/build_search_index.py
-      - name: Audit content quality
-        run: python scripts/audit_content_quality.py --strict-scaffold-headings --strict-source-scaffolding
-      - name: Audit SEO metadata
-        run: python scripts/audit_seo.py
-      - name: Build with Rustkyll
-        run: .bin/rustkyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - name: Build and check site
+        run: make ci-site BASEURL="${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Fix sitemap and feed URLs
-        run: python scripts/fix_absolute_urls.py --baseurl "${{ steps.pages.outputs.base_path }}"
-      - name: Check generated chip HTML
-        run: python scripts/check_html_chips.py
-      - name: Check internal links
-        run: python scripts/check_links.py --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

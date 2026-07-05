@@ -70,6 +70,11 @@ SOURCE_SCAFFOLDING_RE = re.compile(
     r"podcast guests|Podcast guests|guests treat|Guests treat|episodes show|"
     r"discussions converge)\b"
 )
+INDIRECT_ATTRIBUTION_RE = re.compile(
+    r"\b(?:she says|he says|she explains|he explains|guest argues|guest explains|"
+    r"in her episode|in his episode|podcast guests|guests treat)\b",
+    re.IGNORECASE,
+)
 STRICT_SOURCE_SCAFFOLDING_RE = re.compile(
     r"\b(?:DataTalks\.Club episodes|DataTalks\.Club podcast discussions|"
     r"Podcast discussions|podcast discussions|episodes cover|Episodes cover|"
@@ -200,6 +205,7 @@ def audit_file(
         source_text = f"{body}\n{meta.get('summary', '')}"
     archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(source_text)
     source_scaffolding = SOURCE_SCAFFOLDING_RE.findall(source_text)
+    indirect_attribution = INDIRECT_ATTRIBUTION_RE.findall(source_text)
     if strict_source_scaffolding:
         archive_scaffolding.extend(STRICT_ARCHIVE_SCAFFOLDING_RE.findall(source_text))
         source_scaffolding.extend(STRICT_SOURCE_SCAFFOLDING_RE.findall(source_text))
@@ -244,6 +250,7 @@ def audit_file(
         + tagged_keyword_errors * 8
     )
     score += len(source_scaffolding) * 2
+    score += len(indirect_attribution) * 2
     score += len(generic_citation_labels) * 3
     score += len(missing_citation_labels) * 3
     if is_public_content and links["podcasts"] == 0:
@@ -254,6 +261,7 @@ def audit_file(
         "forbidden_headings": len(forbidden) + len(archive_headings),
         "archive_scaffolding": len(archive_scaffolding),
         "source_scaffolding": len(source_scaffolding),
+        "indirect_attribution": len(indirect_attribution),
         "generic_citation_labels": len(generic_citation_labels),
         "missing_citation_labels": len(missing_citation_labels),
         "old_timestamped_podcast": old_timestamped_podcast,
@@ -304,6 +312,7 @@ def main() -> None:
             or row["forbidden_headings"]
             or row["archive_scaffolding"]
             or row["source_scaffolding"]
+            or row["indirect_attribution"]
             or row["generic_citation_labels"]
             or row["missing_citation_labels"]
             or row["old_timestamped_podcast"]
@@ -326,6 +335,7 @@ def main() -> None:
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
     print(f"source_scaffolding: {sum(int(row['source_scaffolding']) for row in rows)}")
+    print(f"indirect_attribution: {sum(int(row['indirect_attribution']) for row in rows)}")
     print(f"generic_citation_labels: {sum(int(row['generic_citation_labels']) for row in rows)}")
     print(f"missing_citation_labels: {sum(int(row['missing_citation_labels']) for row in rows)}")
     print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
@@ -347,6 +357,7 @@ def main() -> None:
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
             f"archive_scaffolding={row['archive_scaffolding']} "
             f"source_scaffolding={row['source_scaffolding']} "
+            f"indirect_attribution={row['indirect_attribution']} "
             f"generic_citation_labels={row['generic_citation_labels']} "
             f"missing_citation_labels={row['missing_citation_labels']} "
             f"old_podcast_ts={row['old_timestamped_podcast']} "

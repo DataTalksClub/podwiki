@@ -84,7 +84,7 @@ reliably
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts
-from production context design. She says
+from production context design.
 [[context-engineering=>context engineering]] means choosing information
 deliberately instead of
 stuffing everything into the model input. She names latency, cost, and noisy

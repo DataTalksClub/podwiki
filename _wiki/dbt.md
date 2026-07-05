@@ -209,7 +209,7 @@ can also use the
 
 Perafan is more careful about tool identity
 ([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
-He says dbt helps teams practice analytics engineering. dbt alone doesn't make
+dbt helps teams practice analytics engineering. dbt alone doesn't make
 someone an analytics engineer. Tuli separates dbt from ingestion and
 execution-engine concerns. Kwong situates it inside ELT and the modern stack.
 

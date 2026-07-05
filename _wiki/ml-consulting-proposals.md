@@ -234,8 +234,8 @@ The summary covers:
 - the work he's offering
 - the fees
 
-He says the act of writing is insightful because it lets the client check
-whether both sides share the same understanding. He may use a Google doc so the
+The act of writing is insightful because it lets the client check whether both
+sides share the same understanding. He may use a Google doc so the
 client can comment and discuss the scope.
 
 For ML work, that written scope should include:
@@ -288,8 +288,8 @@ and teams need a strategy for revenue, cost savings, or product value
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]).
 
 Aleksander Kruszelnicki gives the data-consulting version in [[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]].
-He says the price should come from the value the service creates, not only from
-the consultant's delivery cost
+The price should come from the value the service creates, not only from the
+consultant's delivery cost
 ([[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]]).
 He also describes competitor and community benchmarking as a way to find the
 market rate before enough client data exists. Consultants can use that benchmark
@@ -459,6 +459,7 @@ and stakeholder alignment before larger ML commitments.
 
 ## Related Pages
 
+The proposal structure connects to freelance strategy, metrics, and product framing.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
 - [[data-freelancing-strategy=>Data Freelancing Strategy]]

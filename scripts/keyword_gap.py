@@ -50,6 +50,12 @@ STOP = set(
     "the a an to of and or in for with vs is are how what your you this that "
     "on at by from into can do does using use it its as be best top".split()
 )
+ALIAS_ROUTES = {
+    "data ops": ("COVERED", "_wiki:dataops"),
+    "data scientist": ("COVERED", "_wiki:data-scientist-role"),
+    "ml ops": ("COVERED", "_wiki:mlops"),
+    "tech startups": ("COVERED", "_wiki:startups"),
+}
 
 
 def toks(s: str) -> list[str]:
@@ -66,6 +72,10 @@ def query_variants(query: str) -> set[str]:
     if re.search(r"\bml\b", normalized):
         variants.add(re.sub(r"\bml\b", "machine learning", normalized))
     return {v for v in variants if v}
+
+
+def alias_route(query: str) -> tuple[str, str]:
+    return ALIAS_ROUTES.get(norm_phrase(query), ("", ""))
 
 
 def phrase_match(query: str, value: str) -> bool:
@@ -183,6 +193,14 @@ def main() -> int:
             continue
         if BRAND_RE.search(kw):
             buckets["BRAND"].append(rec); continue
+        alias_status, alias_id = alias_route(kw)
+        if alias_status:
+            if alias_status == "COVERED":
+                rec["w_id"] = alias_id
+            elif alias_status == "MAIN":
+                rec["m_id"] = alias_id
+            buckets[alias_status].append(rec)
+            continue
         w_score, w_id = top_score(wiki_idx, kw)
         m_score, m_id = top_score(main_idx, kw)
         g_score, g_id = top_score(ground_idx, kw)

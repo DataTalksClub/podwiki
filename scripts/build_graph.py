@@ -472,10 +472,18 @@ def build_graph() -> dict[str, object]:
         )
         node_ids.add(f"topic:{slug}")
 
+    dropped_links = [
+        (source, target, kind)
+        for (source, target, kind), _weight in sorted(link_weights.items())
+        if source not in node_ids or target not in node_ids
+    ]
+    if dropped_links:
+        examples = ", ".join(f"{source}->{target} ({kind})" for source, target, kind in dropped_links[:10])
+        raise ValueError(f"graph has {len(dropped_links)} links with missing nodes: {examples}")
+
     links = [
         {"source": source, "target": target, "kind": kind, "weight": weight}
         for (source, target, kind), weight in sorted(link_weights.items())
-        if source in node_ids and target in node_ids
     ]
 
     counts = Counter(str(node["type"]) for node in nodes)

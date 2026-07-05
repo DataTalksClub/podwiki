@@ -117,8 +117,8 @@ and remember it later
 
 Dimitri uses a more market-research-heavy path. In
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
-he says recruiters had already contacted him about freelance projects before he
-quit. That helped him see freelancing as possible. He also built a data
+recruiters had already contacted him about freelance projects before he quit.
+That helped him see freelancing as possible. He also built a data
 freelancer job board. He used job titles and rate signals to understand the
 market.
 
@@ -169,8 +169,8 @@ Higher rates can come from seniority, direct relationships, or scarce skills.
 On-site work and urgent client needs can also support higher rates
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
-Aleksander frames consulting prices around value and market comparison. He says
-a service shouldn't be priced only from the cost of producing it. Clients pay
+Aleksander frames consulting prices around value and market comparison. A service
+shouldn't be priced only from the cost of producing it. Clients pay
 external consultants because they have seen similar situations before and can
 navigate uncertainty the client hasn't seen. They also pay a premium because an
 external contractor can be released more easily than a full-time employee
@@ -287,8 +287,8 @@ outside that group is broader. Start a local BI or data group, meet people, and
 build personal relationships before creating a narrow freelance-only channel
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
-Dimitri tried the agency path and chose not to continue it. He says he
-subcontracted four freelancers for one project and nine for another. Team
+Dimitri tried the agency path and chose not to continue it. He subcontracted
+four freelancers for one project and nine for another. Team
 management, follow-up, and maintenance were painful for him. He now prefers a
 one-person lifestyle business with a handful of good clients. He still
 collaborates when the opportunity fits
@@ -327,9 +327,7 @@ than one client
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 
 Aleksander's failed data-stack product warns against treating one early customer
-as proof of a market.
-
-He says the team got excited after selling the first version. They then spent
+as proof of a market. The team got excited after selling the first version. They then spent
 months trying to acquire more customers before returning to validation
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
 A reusable service or product is strongest when several clients show the same
@@ -419,11 +417,11 @@ understanding, scope, and handoff still sit at the center.
 ## Fit Conditions
 
 Freelancing fits people who can tolerate uncertain demand. They also need to
-talk to clients before everything is clear and price the risk honestly. Adrian
-says people fail when they don't put themselves out there. They also fail when
-they ask for rates too close to salary while taking freelance risk. He says
-proactive people who care about outcomes get access to better clients and
-better rates
+talk to clients before everything is clear and price the risk honestly. Adrian's
+warning is that people fail when they don't put themselves out there. They also
+fail when they ask for rates too close to salary while taking freelance risk.
+Proactive people who care about outcomes get access to better clients and better
+rates
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
 Freelancing also fits clients only under certain conditions. A freelance data or
@@ -443,6 +441,8 @@ the problem is vague. Price the uncertainty, communicate early, and leave the
 client with something they can operate.
 
 ## Related Pages
+
+The consulting path connects to these adjacent skills and roles.
 
 - [[Business Skills for Data Professionals]]
 - [[Communication]]

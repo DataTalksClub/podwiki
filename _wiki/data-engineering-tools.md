@@ -113,8 +113,8 @@ step beyond one-off extraction jobs.
 [[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering]]
 [[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering]]
 
-In an earlier dlt conversation, he explains the practical need: dlt turns nested
-JSON into relational tables declaratively. Without that step, teams dump raw
+An earlier dlt conversation gives the practical need: dlt turns nested JSON into
+relational tables declaratively. Without that step, teams dump raw
 JSON into a warehouse. Downstream users then have to untangle the structure
 later
 [[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering]]

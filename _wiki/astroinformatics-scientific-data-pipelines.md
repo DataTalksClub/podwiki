@@ -91,9 +91,9 @@ but the join key isn't a customer ID or database primary key. It's a measured
 position on the sky with instrument-specific uncertainty.
 
 Daniel gives the strongest pipeline warning: a positional match is only a
-candidate. He explains that the sky image is a two-dimensional projection,
-so foreground and background objects can overlap from the observer's point of
-view. Two detections can appear aligned without being the same physical source
+candidate. Sky images project three-dimensional objects into two dimensions, so
+foreground and background objects can overlap from the observer's point of view.
+Two detections can appear aligned without being the same physical source
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>From Radio Astronomy to Applied ML]].
 Scientific pipelines therefore need uncertainty-aware matching and reviewable
 intermediate outputs. A silent nearest-neighbor join would hide the main risk in
@@ -130,7 +130,7 @@ single notebook analysis
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@24:33=>Applied ML]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@25:47=>Applied ML]].
 
-Daniel describes the transfer explicitly. He says ML ZoomCamp shifted him from
+Daniel describes the transfer explicitly. ML ZoomCamp shifted him from
 notebook-only work toward reusable Python scripts and project structure. The
 course also introduced virtual environments and cloud computing
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@26:58=>From Radio Astronomy to Applied ML]].
@@ -191,6 +191,7 @@ linking and synthetic-tracking pipelines
 
 ## Related Pages
 
+These adjacent topics cover the engineering and research context.
 
 - [[Data Pipelines]] for ingestion,
   transformation, publication, orchestration, and reliability patterns.

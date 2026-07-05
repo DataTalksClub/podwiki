@@ -20,7 +20,11 @@ def main() -> None:
     if PACKAGE.exists():
         shutil.rmtree(PACKAGE)
 
-    shutil.copytree(ROOT / "search_lambda", PACKAGE / "search_lambda")
+    shutil.copytree(
+        ROOT / "search_lambda",
+        PACKAGE / "search_lambda",
+        ignore=shutil.ignore_patterns("__pycache__", "*.pyc"),
+    )
     copy_file(ROOT / "requirements.txt", PACKAGE / "requirements.txt")
     copy_file(
         ROOT / "artifacts" / "search" / "search-index.zsx",

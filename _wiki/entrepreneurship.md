@@ -261,8 +261,7 @@ the go-to-market requires it
 
 Goyal gives the solo-founder pressure from the product side by covering coding,
 product work, integrations, and community support. Hiring, incorporation,
-taxation, and funding appear too. She says she would look for a co-founder
-earlier
+taxation, and funding appear too. She would look for a co-founder earlier
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]].
 
 This doesn't mean every entrepreneur needs the same team. Business model,
@@ -280,6 +279,7 @@ Noah's diversified income mix.
 
 ## Related Pages
 
+Business-model choices connect these adjacent pages.
 
 - [[Startups]] for startup constraints, stages, pilots, and operating context.
 - [[Founder]] for the operating role inside a company.
