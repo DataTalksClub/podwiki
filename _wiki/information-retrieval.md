@@ -21,9 +21,9 @@ recommendations, and agent tools.
 
 Information retrieval covers candidate generation, indexing, ranking
 boundaries, and retrieval inside RAG or agents.
-[[Search]] covers the product-system hub, [[Search Relevance]] covers ranking
-quality and product fit, and [[Production Search Evaluation]] covers
-measurement.
+[[Search]] covers the product-system hub,
+[[search-relevance=>search relevance]] covers ranking quality and product fit,
+and [[Production Search Evaluation]] covers measurement.
 
 ## Retrieval Scope
 
@@ -132,8 +132,8 @@ After decoupling search from the monolith, the team could change search
 independently. The team could propose, implement, and test changes without tying
 them to the whole application
 [[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
-That makes [[Search Relevance]] an engineering and operations topic, not only a
-matching algorithm.
+That makes [[search-relevance=>search relevance]] an engineering and operations
+topic, not only a matching algorithm.
 
 Semantic retrieval compares representations rather than only matching terms,
 connecting bag-of-words search to dense vectors

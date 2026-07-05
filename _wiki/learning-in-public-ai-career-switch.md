@@ -28,14 +28,14 @@ The strongest examples pair public visibility with concrete artifacts.
 moving from medicine and freelance statistics into machine learning.
 His capstones and community mentoring made the switch easier to evaluate ([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to ML]]).
 
-[[person:revathyramalingam=>Revathy Ramalingam]] used
-community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
-after a seven-year career break. Her GitHub evidence then became part of the
-hiring conversation ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After Break]]).
-That makes her path part of
-[[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]],
-where public work turns older domain experience and a career break into AI
-product proof.
+[[person:revathyramalingam=>Revathy Ramalingam]] restarted after a seven-year
+career break with community engagement and ML Zoomcamp projects. AI Dev Tools
+projects helped too. Her GitHub evidence then became part of the hiring
+conversation ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After Break]]).
+Her path belongs with
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]].
+Public work turns older domain experience and a career break into AI product
+proof.
 
 This belongs with [[career-transitions-in-data=>career transition]] and [[job search]].
 It also draws on [[open-source-portfolio-evidence=>open-source portfolio evidence]], so it's not a separate social-media habit. Public posts, tutorials, and project writeups can prove that the learner can explain technical work to other people. That evidence connects the topic to [[developer relations]] and [[teaching]].
@@ -141,9 +141,13 @@ This is where learning in public overlaps with
 [[AI Engineering Portfolio Projects]]
 and [[Open Source Portfolio Evidence]].
 A switcher doesn't need a perfect flagship project. The episodes support a
-sequence of visible artifacts. A switcher can show a deployed capstone and a
-domain-relevant project. They can add a small AI utility, a runnable GitHub
-repo, and a specific explanation of what was learned.
+sequence of visible artifacts. That sequence also supports
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+when the project explains the older domain context instead of hiding it.
+
+A switcher can show a deployed capstone and a domain-relevant project. They can
+add a small AI utility, a runnable GitHub repo, and a specific explanation of
+what was learned.
 
 ## Community Creates Feedback and Opportunity
 

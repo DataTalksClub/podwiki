@@ -50,7 +50,7 @@ A credible implementation records:
 That's the full lifecycle scaled down to a reviewable portfolio repository
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 For an industrial project,
-[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]]
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]]
 shows the same checklist in domain form. It connects telemetry with a baseline
 qualification schedule. It also names the forecasted risk window and the
 engineer-facing action

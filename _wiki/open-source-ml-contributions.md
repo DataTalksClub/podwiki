@@ -323,13 +323,26 @@ That creates a hiring story that ML teams can look at
 [[cite:fairness-in-ai-ml-engineering@52:10=>Fairness in AI/ML Engineering]]).
 
 For a portfolio, don't present the contribution as a detached badge. Link the
-issue and pull request. Add the docs page, tutorial, CI result, and maintainer
-discussion when they exist. Then explain the tool, user problem, tradeoff, and
-follow-up. Use
+issue and pull request.
+
+Add supporting evidence when it exists:
+
+- docs page
+- tutorial
+- CI result
+- maintainer discussion
+
+Then explain the tool and user problem together with the tradeoff and follow-up.
+
+Use
 [[open-source-portfolio-evidence=>the portfolio proof page]]
 for the hiring lens and
-[[Developer Relations]] when
-the proof comes through demos, support, docs, or community feedback.
+[[Developer Relations]]
+for proof that comes through demos or community support.
+The same review trail can support
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+for career switchers. It works when the contribution connects prior domain
+judgment with a working ML or AI tool.
 
 ## Related Pages
 

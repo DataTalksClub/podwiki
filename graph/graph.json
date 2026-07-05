@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11818
+    "links": 11859
   },
   "nodes": [
     {
@@ -22948,6 +22948,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -23195,6 +23201,12 @@
     {
       "source": "wiki:ai-engineer-role",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23794,6 +23806,12 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
       "kind": "article-chip",
       "weight": 1
@@ -24053,6 +24071,12 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:staff-ai-engineer",
       "kind": "article-chip",
       "weight": 1
     },
@@ -28947,6 +28971,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:career-development",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:career-growth",
       "target": "person:krzysztofszafanek",
       "kind": "wiki-chip",
@@ -28979,6 +29009,12 @@
     {
       "source": "wiki:career-growth",
       "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29237,6 +29273,18 @@
     {
       "source": "wiki:career-growth",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40780,6 +40828,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -40913,6 +40967,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:kpis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41459,6 +41519,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:product-analytics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:salary-negotiation",
       "kind": "article-chip",
       "weight": 1
     },
@@ -42877,6 +42943,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-science-recruiter",
+      "target": "wiki:salary-negotiation",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
@@ -46798,6 +46870,12 @@
     },
     {
       "source": "wiki:dataops-platforms",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -46961,6 +47039,12 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:how-to-build-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48322,6 +48406,12 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -49363,6 +49453,12 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:embeddings",
@@ -51388,6 +51484,12 @@
     },
     {
       "source": "wiki:feature-stores",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -51511,6 +51613,12 @@
       "target": "wiki:machine-learning-tools",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:feature-stores",
@@ -53992,6 +54100,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
       "target": "wiki:team-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -54191,6 +54305,12 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:modern-data-stack",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -56134,6 +56254,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
       "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -56477,6 +56603,12 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59614,6 +59746,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -59837,6 +59975,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61330,6 +61474,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -61601,6 +61751,12 @@
     {
       "source": "wiki:machine-learning-personalization",
       "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "wiki:search-relevance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63982,6 +64138,12 @@
     },
     {
       "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -64139,6 +64301,12 @@
     {
       "source": "wiki:ml-platform-engineer-role",
       "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65086,6 +65254,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-chip",
       "weight": 1
@@ -65185,6 +65359,12 @@
       "target": "wiki:industrial-ml-applications",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
@@ -65717,6 +65897,12 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67120,6 +67306,12 @@
     },
     {
       "source": "wiki:model-optimization",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
       "target": "wiki:llm-cost-optimization",
       "kind": "wiki-chip",
       "weight": 1
@@ -67921,6 +68113,12 @@
       "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:multimodal-llms",
@@ -69856,6 +70054,12 @@
     },
     {
       "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
       "target": "wiki:open-source",
       "kind": "wiki-chip",
       "weight": 1
@@ -70837,6 +71041,12 @@
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:platform-engineering",
@@ -76042,6 +76252,12 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:text-to-sql",
       "kind": "wiki-chip",
       "weight": 1
@@ -77098,6 +77314,12 @@
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -77788,6 +78010,12 @@
     },
     {
       "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
       "target": "wiki:computer-vision",
       "kind": "wiki-related",
       "weight": 3
@@ -77914,6 +78142,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -78017,6 +78251,12 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -81385,6 +81625,12 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:vector-databases",

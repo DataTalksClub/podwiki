@@ -19,9 +19,10 @@ related:
 RAG, short for retrieval-augmented generation, is an LLM application design
 where the system searches external knowledge before asking the model to answer.
 It starts with [[search=>Search]] and
-[[information-retrieval=>information retrieval]]. It also needs
-[[context-engineering=>context engineering]], generation, citation, and
-[[llm-evaluation-workflows=>LLM evaluation]] to turn retrieved material into a
+[[information-retrieval=>information retrieval]]. Teams use
+[[search-relevance=>search relevance]] to keep retrieved material useful.
+[[context-engineering=>Context engineering]], generation, citation, and
+[[llm-evaluation-workflows=>LLM evaluation]] turn that material into a
 verifiable answer.
 
 Across DataTalks.Club discussions, RAG is more than one tool: search quality

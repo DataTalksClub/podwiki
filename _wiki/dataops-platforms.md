@@ -208,10 +208,13 @@ The boundary with [[MLOps vs DataOps]] matters because DataOps platforms operate
 upstream data delivery. That includes ingestion, transformations, datasets, and
 schemas. It also includes lineage, access, and pipeline recovery.
 
-MLOps platforms add model artifacts and training runs, plus inference, model
-monitoring, and retraining workflows.
+MLOps platforms add model artifacts and training runs, then extend into
+inference, model monitoring, and retraining workflows.
 Production ML depends on data reliability, but DataOps platforms stay focused
-on the data platform layer.
+on the data platform layer. For model-side platform ownership, use the
+[[ml-platform-engineer-role=>ML platform engineer role]] page. It centers the
+role on registries, serving paths, and model operations
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 ## Related Pages
 

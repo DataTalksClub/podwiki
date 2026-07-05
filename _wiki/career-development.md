@@ -289,7 +289,8 @@ persuasion.
 Transitions also need market research. Weak ties and referrals become a weekly
 career practice rather than a one-time favor, and a top-five company list keeps
 the search concrete. A related job-search approach uses tailored applications
-and market segmentation.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]][[cite:get-data-scientist-job=>Land Data Scientist Roles]].
+and market segmentation. The same market evidence later shapes
+[[salary-negotiation=>salary negotiation]].[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]][[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 
 A transition can skip a simple junior reset when the evidence is strong enough.
 Strong transition evidence can include applied projects, industry

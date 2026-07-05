@@ -29,7 +29,7 @@ headhunter.
 
 Recruiting is more than keyword matching, so recruiters help hiring managers
 with job specs and sourcing. Then they stay involved through screening,
-interviews, salary conversations, and offer communication
+interviews, [[salary-negotiation=>salary negotiation]], and offer communication
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]].
 Headhunters do the active-search version of that same work
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
@@ -232,7 +232,8 @@ high salary requests, and offer communication
 Salary signals, transparency with recruiters, and trust go together
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 A recruiter can help with negotiation, but the candidate still needs to know
-their market, priorities, and alternatives.
+their market, priorities, and alternatives. Use
+[[salary-negotiation=>salary negotiation]] for that offer-stage view.
 
 ## Choosing a Data Science Recruiter or Headhunter
 

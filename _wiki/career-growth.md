@@ -99,6 +99,10 @@ for the current work before moving on
 Individual-contributor growth stays separate from management growth.
 Troubleshooting, platform breadth, and mentoring sit inside the senior IC path
 ([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+For AI work, the [[staff-ai-engineer=>staff AI engineer]] path keeps that senior
+IC branch technical. Architecture, influence, mentoring, and production
+judgment can expand scope without requiring a manager move
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 Bauer's framework ties junior-to-senior growth to abstraction, delegation, and
 broader leadership exposure.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@15:12=>B2B SaaS]].
@@ -168,7 +172,9 @@ test what they can handle, not only what they already know.[[cite:how-to-stand-o
 That ownership doesn't mean taking random extra work. Marijn Markus frames it
 as choosing tasks that matter and expose the next skill gap. A person can use
 the result in a performance conversation or portfolio story. They can also use
-it in a next-role discussion because the work changed a real decision
+it in a next-role discussion because the work changed a real decision. The same
+evidence can support [[salary-negotiation=>salary negotiation]] at the offer
+stage
 [[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]].
 
 Sadat Anwar's engineering-manager transition gives a second version of the same

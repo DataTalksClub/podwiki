@@ -445,6 +445,8 @@ whether you want analytics, data science, or data engineering.
 
 For data science applications, [[data-science-recruiter=>data science recruiter]]
 explains how that role targeting becomes a sourcing, screening, and offer
-conversation. Recruiters and hiring managers also shouldn't have to infer
+conversation. That clarity also matters for
+[[salary-negotiation=>salary negotiation]] because compensation depends on the
+actual role level. Recruiters and hiring managers also shouldn't have to infer
 whether you want ML engineering or data product work. Your project, resume, and
 interview story should make that choice visible.

@@ -18,10 +18,10 @@ The system has to retrieve relevant candidates and rank them well. It also has
 to meet latency, freshness, permission, and business constraints.
 
 Production search evaluation measures search with offline checks, online
-experiments, monitoring, and failure diagnosis. [[Search Relevance]] defines
-ranking quality and product fit, [[Vector Search vs Keyword Search]] compares
-matching-method tradeoffs, and [[Vector Database vs Search Engine]] covers
-infrastructure placement.
+experiments, monitoring, and failure diagnosis.
+[[search-relevance=>search relevance]] defines ranking quality and product fit,
+[[Vector Search vs Keyword Search]] compares matching-method tradeoffs, and
+[[Vector Database vs Search Engine]] covers infrastructure placement.
 
 Teams use the same retrieval discipline for
 [[vector databases]] and
@@ -239,7 +239,8 @@ evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>
 ## Related Topics
 
 [[Search]] and [[Information Retrieval]] define the retrieval foundations.
-[[Search Relevance]] covers relevance objectives and ranking quality, while
+[[search-relevance=>search relevance]] covers relevance objectives and ranking
+quality, while
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 places search evaluation inside the wider knowledge-system map.
 

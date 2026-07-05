@@ -94,7 +94,7 @@ shows a career-break path where learning in public and a telecom ML capstone
 become evidence of readiness. She used AI-assisted prototypes and interview
 practice. Her take-home also included a PDF Q&A assistant
 ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]]).
-Use [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+Use [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 when the learner has to translate older work into AI product proof. That
 includes career breaks and prior domain experience.
 
@@ -333,8 +333,11 @@ Nasser's domain-knowledge framing adds the domain side
 ([[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]).
 
 Senior readiness means you can design the AI product architecture and set
-evaluation standards. You can manage security and governance tradeoffs. You can
-also guide model choices and connect AI systems to data and MLOps platforms.
+evaluation standards. You can also manage security and governance tradeoffs.
+Model choices, data dependencies, and MLOps platforms become part of the same
+work. A [[staff-ai-engineer=>staff AI engineer]] operates at that level when the
+work crosses teams and standards without requiring a manager title
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 Bartosz's
 production discipline defines the reliability side of this stage
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).

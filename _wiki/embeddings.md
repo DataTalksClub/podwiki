@@ -68,7 +68,7 @@ Vector search matches queries and documents through shared representations,
 which keeps embeddings inside the larger
 [[information retrieval]]
 system. Vector search changes candidate generation, but it doesn't replace
-ranking.
+[[search-relevance=>search relevance]] work or ranking.
 
 Candidate generation is separate from ML ranking
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).

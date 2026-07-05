@@ -22,7 +22,8 @@ orchestration, serving, and monitoring. It's the technical base for
 Platforms turn that base into a usable path for data scientists and ML
 engineers. The infrastructure layer supplies cloud resources, containers, and
 GPUs. It also supplies schedulers, registries, runtimes, and observability
-controls.
+controls. The [[ml-platform-engineer-role=>ML platform engineer role]] sits at
+that handoff from infrastructure pieces to a supported user path.
 
 The skill set spans cloud infrastructure, notebooks, Kubernetes, and Terraform.
 It also covers managed compute, batch inference, online serving, and

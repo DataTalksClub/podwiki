@@ -33,6 +33,10 @@ too [[cite:software-engineering-for-machine-learning=>Software Engineering for M
 For adjacent transition context, see
 [[career-transitions-in-data=>Career Transition]] and
 [[Machine Learning Engineer Role]].
+Some software engineers target LLM applications rather than classical ML roles.
+For them, [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+keeps the bridge focused on prior engineering judgment and current AI product
+proof [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 For the same target role from a data-science starting point, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 

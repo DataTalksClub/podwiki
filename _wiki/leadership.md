@@ -93,6 +93,10 @@ stakeholders, tradeoffs, and growth.
 Senior IC leadership still exists. Staff-style roles and delegation give people
 more scope without people management. So do cross-functional influence and
 technical leadership.
+For AI systems, the [[staff-ai-engineer=>staff AI engineer]] page shows the same
+leadership path. Architecture, evaluation standards, and cross-team influence
+can replace direct reports
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 For data engineering, the same boundary separates a manager from the deepest
 platform specialist. That specialist may focus on streaming, transformation,

@@ -466,7 +466,10 @@ Target-role choice changes the learning plan:
 - AI engineering returners may need current LLM application projects and
   RAG-style assignments, while Python refreshers help when interviews expose
   that gap. Docker or Kubernetes refreshers can help too. The story still has
-  to connect old engineering experience to new AI product work [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+  to connect old engineering experience to new AI product work. Use
+  [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+  when that bridge depends on career breaks, prior domain context, or public
+  portfolio proof [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
 
 ## Freelance and Consulting Transitions
 

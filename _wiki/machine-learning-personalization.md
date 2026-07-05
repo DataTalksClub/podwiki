@@ -61,9 +61,9 @@ when the session is represented as searchable context
 ## Domain Boundaries
 
 Personalization changes meaning by domain. In ecommerce or search, teams may
-optimize relevance and conversion. They may also optimize contact rate or
-revenue. Ranking needs filters and recency. It also needs popularity and
-product constraints, not only vector similarity.[[cite:building-production-search-systems=>Building Search Systems]]
+optimize [[search-relevance=>search relevance]] and conversion. They may also
+optimize contact rate or revenue. Ranking needs filters and recency. It also
+needs popularity and product constraints, not only vector similarity.[[cite:building-production-search-systems=>Building Search Systems]]
 
 Healthcare personalization uses a stricter boundary. Digital therapeutics nudge
 people toward healthier behavior, not just more engagement. Agenda-driven

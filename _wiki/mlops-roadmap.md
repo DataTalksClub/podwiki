@@ -200,7 +200,7 @@ prediction schemas, access patterns, and support channels when they remove real
 friction for product teams. The adjacent reference pages are
 [[ML Platforms]],
 [[Platform Adoption]], and
-[[ML Platform Engineer Role]].
+[[ml-platform-engineer-role=>ML platform engineer role]].
 
 A central team supports product teams, gathers pain points, delivers quick
 wins, and measures value through deployment frequency and impact

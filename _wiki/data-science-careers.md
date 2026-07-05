@@ -203,9 +203,12 @@ to evaluation metrics.[[cite:data-science-interview-and-cv-guide=>Data Science I
 Use that advice with [[CV Screening]] and behavioral stories. SQL and ML
 fundamentals belong in the same preparation plan. Take-home tasks do too.
 
-Candidates should also evaluate the company while the company evaluates them. They should weigh take-home burden, role clarity, and salary transparency.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
+Candidates should also evaluate the company while the company evaluates them.
+They should weigh take-home burden, role clarity, and salary transparency.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 
-They should also assess offer components and negotiation.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]] For the offer stage, [[Salary Negotiation]] helps separate market evidence from wishful thinking.
+They should also assess offer components and negotiation.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+For the offer stage, [[salary-negotiation=>salary negotiation]] helps separate
+market evidence from wishful thinking.
 
 ## Career Progression and Adjacent Paths
 

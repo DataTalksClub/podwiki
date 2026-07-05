@@ -49,7 +49,8 @@ The platform surface starts with self-service compute. It then covers
 [[experiment tracking]], [[model-registry=>model registries]], and batch
 inference. Online serving follows. Orchestration, metadata, and lineage sit
 beside prediction logging. Developer experience and governance round out the
-same surface.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+same surface. When that surface becomes a shared internal product, it overlaps
+with the [[ml-platform-engineer-role=>ML platform engineer role]].[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 The job is broader than deployment, but narrower than owning all ML. Data
 scientists may still own problem framing and model evaluation. Machine learning

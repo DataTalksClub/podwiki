@@ -28,7 +28,11 @@ Autonomous vehicles can't route sensor signals through slow agents or wait
 seconds before reacting. Latency is the constraint.[[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]]
 
 In self-driving systems, in-car models run many times per second on vehicle
-hardware. The deployed networks may differ from the training-time networks.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving]]
+hardware. The deployed networks may differ from the training-time networks.
+That makes
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+a runtime optimization question too, because each sensor strategy changes the
+signals that must fit onboard compute.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving]]
 
 For production LLMs, hardware cost and privacy matter alongside version control
 and user-facing latency. API models are useful for fast prototyping, but
@@ -48,10 +52,13 @@ when the search process needs reproducible pipelines.
 
 ## Compression and Quantization
 
-Quantization is one public example of model compression in autonomous driving:
-it makes models smaller and faster, alongside other internal optimizations.
+Autonomous-driving teams use quantization as model compression. It makes models
+smaller and faster, alongside other internal optimizations.
 That matters because the vehicle has to understand the world in real time using
-limited onboard compute.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+limited onboard compute. In the
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+comparison, that compute budget sits beside sensor cost, redundancy, and
+release validation.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 Compression is also a serving concern for language models. TitanML started from
 deep-learning compression, and its deployment value comes from reducing the GPU
@@ -114,3 +121,4 @@ More deployment and infrastructure context:
 - [[LLMs]]
 - [[Machine Learning System Design]]
 - [[LLM Cost Optimization]]
+- [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]

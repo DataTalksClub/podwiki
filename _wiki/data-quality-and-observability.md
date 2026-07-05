@@ -99,11 +99,17 @@ Delivery failures show up as production errors, slow deployments, and team toil.
 Teams reduce them with version control, tests, CI/CD, and a shift from runbooks
 to automated playbooks.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
-ML failures add feature and model context. Platform work brings in metadata and
-lineage, along with data governance.
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+ML failures add feature and model context. Platform work adds lineage metadata
+and governance context to the response path
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Feature design and clean data sit beside drift monitoring and business
-explanation.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Governance]]
+explanation.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Governance]].
+
+Semiconductor teams make the quality question concrete in
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+Fab telemetry and yield records have to match tool context and the production
+decision, so passing a table-level check isn't enough
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 Modern data platforms add another boundary. Data engineering has split into
 specialties such as governance, quality, and streaming. Catalogs connect access

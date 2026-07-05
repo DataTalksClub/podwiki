@@ -61,7 +61,10 @@ Autonomous-driving work uses simulation inside a safety validation path. Teams
 recreate real-world scenarios in simulation, then move to closed tracks and
 on-road testing with safety drivers. Driverless deployment comes only after
 extensive testing. Real sensor data, labeling, release checks, and staged
-rollout remain necessary.
+rollout remain necessary. The
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+comparison shows why sensor choice changes the validation burden, not only the
+model architecture.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
 
 Synthetic medical-imaging work shows a product boundary. Simulating MRI and
@@ -110,7 +113,9 @@ design tool. Teams recreate large sets of real-world scenarios before moving to
 closed tracks and road testing. The same release path still depends on camera,
 LiDAR, radar, and GPS data. It also depends on metadata, human and automated
 labeling, and safety checks. Perception, data, and simulation teams also need
-to coordinate changes.
+to coordinate changes, especially when a
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] decision
+changes which failures must be reproduced in simulation.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
 
 Simulation also clarifies the boundary between perception and behavior
@@ -193,6 +198,8 @@ These pages cover the adjacent systems and data work:
 
 - [[Autonomous Driving AI]] covers sensor choices, simulation validation, and
   safety release stages.
+- [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] covers
+  how sensor choices affect validation, cost, and production scope.
 - [[Synthetic Data]] covers generated examples for scarcity, privacy, and
   validation limits, especially simulated medical imaging.
 - [[Graph Data Science]] covers simulation similarity, load paths, and graph

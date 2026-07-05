@@ -18,8 +18,9 @@ infrastructure in every project. Its closest neighbors are [[ML platforms]],
 [[MLOps]], [[developer experience]], and [[data engineering platforms]].
 
 The platform team isn't only an infrastructure team. It owns paved paths and
-templates along with tooling integrations and documentation. It also owns
-support models and operating standards.
+templates along with tooling integrations and documentation. In ML settings, the
+[[ml-platform-engineer-role=>ML platform engineer role]] is the specialized
+version of that ownership. It also owns support models and operating standards.
 
 Platform work spans cloud infrastructure, Kubernetes, and Terraform. It starts
 from data science workflows before moving into self-service compute and

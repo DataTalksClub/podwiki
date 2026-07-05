@@ -39,11 +39,15 @@ practice. Teams earn trust by solving visible pain points first
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 As platform product design, developer experience starts from the data science
-workflow. It covers self-service compute,
-[[experiment tracking]], deployment paths, and thin cloud abstractions. A
+workflow. It covers self-service compute and
+[[experiment tracking]]. It also covers deployment paths and thin cloud abstractions. A
 platform is best avoided before there's repeated need. Minimal pieces are built
 in parallel with real use
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+
+For the [[ml-platform-engineer-role=>ML platform engineer role]], that's the
+adoption lens. The role is useful when it turns repeated ML infrastructure work
+into a path model builders can use.
 
 Platform teams should hide repeated provider setup, not the whole cloud. For
 example, a wrapper can apply the required encryption around a managed training

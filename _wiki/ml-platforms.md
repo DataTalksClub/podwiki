@@ -28,7 +28,8 @@ That connects ML platforms to
 MLOps gives the operating discipline for production machine learning.
 Infrastructure supplies compute and orchestration, along with the storage or
 networking behind the platform. The platform turns those capabilities into a
-user-facing system.
+user-facing system. The [[ml-platform-engineer-role=>ML platform engineer role]]
+describes who owns that user-facing path when the work becomes a dedicated role.
 
 Adoption has to reach beyond data scientists and ML engineers. Product teams and
 governance stakeholders need to use it too[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager]].
@@ -137,7 +138,9 @@ infrastructure work without hiding every detail[[cite:building-production-ml-pla
 
 With self-service, a model builder can provision the compute they need without
 cloning Terraform, waiting on manual approval, or learning every cloud setting.
-The platform team still owns the infrastructure design behind the button
+The platform team still owns the infrastructure design behind the button. That's
+where the [[ml-platform-engineer-role=>ML platform engineer role]] meets
+self-service product design
 [[cite:building-production-ml-platform-and-mlops-team@28:20=>Production ML Platforms]].
 
 Self-service is a product problem. The users are internal data scientists and

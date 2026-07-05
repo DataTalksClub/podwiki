@@ -190,15 +190,20 @@ engineering[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-shi
 Other paths pass through business roles, data science and side projects. They
 can also pass through software engineering, social science and applied
 ML[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]][[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
-Use [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
-when prior domain context, career breaks, or side projects have to become AI
-product proof.
+
+Use [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+when prior domain context has to become AI product proof. Use it for career
+breaks and side projects too.
 
 A career-break path can use
-[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]],
-a telecom ML capstone, AI-assisted prototypes and interview preparation. It can
-also use a PDF Q&A assistant as
-proof of ability[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]].
+[[learning-in-public-ai-career-switch=>learning in public for an AI career switch]]
+and a telecom ML capstone. Revathy also used AI-assisted prototypes and
+interview preparation. Her PDF Q&A assistant gave another proof of ability
+[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]].
+At senior scope, the [[staff-ai-engineer=>staff AI engineer]] version adds
+cross-team architecture and evaluation standards. It also adds influence without
+turning the role into people management
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]].
 
 Companies can take side projects seriously when the project solves a real
 problem. The candidate also needs to explain the

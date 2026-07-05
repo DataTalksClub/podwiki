@@ -42,7 +42,7 @@ recognize relevant evidence.
 
 The [[data-science-recruiter=>data science recruiter]] view runs from role
 definition and market guidance through shortlists, interview preparation,
-feedback, and offer negotiation.
+feedback, and [[salary-negotiation=>salary negotiation]].
 Industry alignment, projects, and business impact make the same point from the
 candidate side: evidence needs to map to the work
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
@@ -306,7 +306,9 @@ Salary conversations, offer communication, contracts, and onboarding are
 recruiter work after final interviews
 ([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
 Offer negotiation and salary signals belong to the same recruiting flow that
-starts with role definition
+starts with role definition. That makes
+[[salary-negotiation=>salary negotiation]] part of hiring, not only candidate
+advice
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
 
 Managers determine whether the hire can use their skills during onboarding. New

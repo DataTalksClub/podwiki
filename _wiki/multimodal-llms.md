@@ -63,9 +63,13 @@ workflow and let teams iterate quickly.[[cite:production-ml-search-vector-search
 ## Multimodal LLMs in Autonomous Driving
 
 Autonomous driving is the most safety-critical multimodal setting covered here.
-Some companies are exploring multimodal LLMs for end-to-end self-driving because
-pretrained models may contain world knowledge that curated driving datasets
+Some companies are exploring multimodal LLMs for end-to-end self-driving.
+Those models may contain world knowledge that curated driving datasets
 miss.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+That discussion sits near the
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+tradeoff. Both questions ask how much perception evidence the vehicle needs
+before it can act safely.
 
 The core production issue is latency. A self-driving system can't wait seconds
 for a model to understand a scene. Multimodal LLMs need optimization and careful
@@ -133,4 +137,5 @@ Adjacent model, retrieval, and production topics:
 - [[Vector Databases]]
 - [[Computer Vision]]
 - [[Autonomous Driving AI]]
+- [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 - [[AI Engineering]]

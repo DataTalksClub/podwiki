@@ -174,10 +174,16 @@ map.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platfor
 
 Debugging and communication are part of the skill set, not add-ons. ML platform
 work includes pipeline architecture and onboarding. It also includes training
-and support. SQL and Git remain durable. Shell skills, troubleshooting,
-divide-and-conquer debugging, and T-shaped expertise keep their value across
-specific
+and support. SQL and Git remain durable. Shell skills and troubleshooting keep
+their value across specific
 tools.[[cite:how-to-grow-your-ml-engineering-career=>Grow Your ML Engineering Career]]
+So do divide-and-conquer debugging and T-shaped expertise.
+
+When AI systems become the senior IC scope, the
+[[staff-ai-engineer=>staff AI engineer]] role adds broader technical leadership
+and architecture review. It also adds production judgment around model-backed
+products
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 ## Boundaries With Nearby Roles
 

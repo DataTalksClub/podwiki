@@ -382,7 +382,7 @@ that claim testable. Connect the claim to
 [[data-product-intake-and-prioritization=>data product intake]] instead of
 treating "automation" as the benefit.
 
-In [[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]],
+In [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]],
 teams track fewer wafers at risk and better-timed tool checks. A standalone
 accuracy score isn't enough
 [[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].

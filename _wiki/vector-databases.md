@@ -131,7 +131,8 @@ knowledge is often better handled with retrieval than with repeated
 fine-tuning. She then connects that choice to indexing documents and grounding
 answers [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 A vector database can retrieve context, but the application still needs source
-selection and permissions. It also needs citations and
+selection, [[search-relevance=>search relevance]], and permissions. It also
+needs citations and
 [[LLM evaluation workflows]].
 
 In [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],

@@ -115,6 +115,11 @@ In those cases, teams first have to make the physical process measurable enough
 for [[industrial-ml-applications=>industrial ML applications]]
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
+The semiconductor version is
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+The adoption path starts with tool logs, yield data, and production contacts
+before it becomes an MLOps rollout
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 Those starting points change the first move. CI/CD can come first when
 deployment takes too long, while [[model monitoring]] can come first when

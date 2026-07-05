@@ -139,8 +139,9 @@ problem solved and the outcome
 That makes [[CV Screening]] part of job search, not only an employer-side
 topic.
 For data science roles, [[data-science-recruiter=>data science recruiter]]
-adds the recruiter-side view of industry fit, project fit, and offer-stage
-communication.
+adds the recruiter-side view of industry fit and project fit. It also covers
+offer-stage communication, including
+[[salary-negotiation=>salary negotiation]].
 
 For data engineering candidates, a certificate belongs in the CV only when it
 links to evidence. Jeff Katz says a cloud certificate can help with recruiter
@@ -354,4 +355,4 @@ Salary signals, recruiter trust, and transparency about other interviews also
 belong in the offer-stage conversation
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 For the compensation side of the same conversation, see
-[[Salary Negotiation]].
+[[salary-negotiation=>salary negotiation]].

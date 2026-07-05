@@ -234,6 +234,12 @@ definitions. Incident reviews can then reason from known inputs instead of
 reconstructing them from scattered
 services. [[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]]
 
+That same need appears in
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+Fab logs, yield records, and tool state have to be reviewable when an engineer
+decides whether to change a qualification schedule
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+
 After launch, teams can see data drift and concept drift. They also need to keep
 challenging whether a production model remains the right
 model. [[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering]]

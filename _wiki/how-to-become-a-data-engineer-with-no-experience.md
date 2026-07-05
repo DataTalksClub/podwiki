@@ -249,6 +249,9 @@ data-engineering version. Don't add a vague community line to the CV. Show
 that another person reviewed the work, used the output, or accepted the
 contribution
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+The same proof structure appears in
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]:
+reviewed artifacts and domain context make an unusual route easier to evaluate.
 
 ## Choose Your Transition Path
 
@@ -443,3 +446,4 @@ The beginner path connects to these roadmap, portfolio, and job-search topics:
 - [[Data Engineer vs Data Scientist]]
 - [[Analytics Engineering]]
 - [[Data Engineer Roadmap]]
+- [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]

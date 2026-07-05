@@ -86,8 +86,12 @@ the needed team size. They also change the specialist and generalist mix
 [[cite:building-production-ml-platform-and-mlops-team@15:34=>Production ML Platforms]].
 
 Operational ownership keeps the role close to the
-[[MLOps engineer]] role, while
-platform scope pushes it toward shared services used by many teams.
+[[MLOps engineer]] role. Platform scope pushes it toward shared services used
+by many teams.
+At senior AI scope, a [[staff-ai-engineer=>staff AI engineer]] may sit beside the
+platform team to set architecture and reliability standards. The role can also
+set evaluation standards across product and infrastructure boundaries
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 ## Self-Service Compute and Lifecycle Services
 

@@ -92,6 +92,7 @@ Use
 when the project compares a standalone vector store with an existing search
 stack. Use
 [[Production Search Evaluation]]
+and [[search-relevance=>search relevance]]
 when relevance metrics or business outcomes matter.
 
 [[person:meryemarik=>Meryem Arik]] gives the RAG reason

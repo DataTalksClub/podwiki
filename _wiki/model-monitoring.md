@@ -44,10 +44,10 @@ distributions, unit changes, and feature drift. Logging, feature stores, and
 reproducibility support the response path.[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps and Model Monitoring]][[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps and Model Monitoring]].
 Monitoring is useful only when teams can debug and respond.
 
-In [[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield analytics]],
-the monitored production signal is tied to tool state, wafer exposure, and qual
-timing rather than only prediction drift. The useful alert tells engineers
-whether to run a check earlier or keep watching the tool
+Semiconductor teams use a different monitoring signal in
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+They tie tool state, wafer exposure, and qual timing to the engineer's decision
+to run a check earlier or keep watching the tool
 [[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 
 ## Monitoring Priorities
