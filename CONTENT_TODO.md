@@ -775,6 +775,14 @@ Source hints:
   `_wiki/llm-tools.md`. All five now have at least 12 inbound links.
   `python scripts/audit_graph.py --min-inbound 12` now reports 48 wiki/content
   nodes below 12 inbound links.
+- The next 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/machine-learning-engineer-roadmap.md`,
+  `_wiki/machine-learning-for-software-engineers.md`,
+  `_wiki/machine-learning-personalization.md`,
+  `_wiki/machine-learning-vs-software-engineering.md`, and
+  `_wiki/manufacturing-predictive-maintenance-yield-analytics.md`. All five now
+  have at least 12 inbound links. `python scripts/audit_graph.py --min-inbound
+  12` now reports 43 wiki/content nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

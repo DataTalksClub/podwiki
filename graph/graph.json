@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12225
+    "links": 12236
   },
   "nodes": [
     {
@@ -22964,6 +22964,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "wiki:model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -23529,6 +23535,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:machine-learning-for-software-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30009,6 +30021,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:machine-learning-vs-software-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41535,6 +41553,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67748,6 +67772,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -74420,6 +74450,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -75044,6 +75080,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -75161,6 +75203,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production",
@@ -75309,6 +75357,12 @@
     {
       "source": "wiki:production-ml-project-checklist",
       "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75507,6 +75561,12 @@
     {
       "source": "wiki:production-search-evaluation",
       "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -80217,6 +80277,12 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-system-design",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:machine-learning-vs-software-engineering",
       "kind": "article-chip",
       "weight": 1
     },

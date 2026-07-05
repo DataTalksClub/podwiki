@@ -62,8 +62,11 @@ and analyst review in the product boundary.
 
 For IoT products, teams start even earlier. Raw sensor streams become useful
 only after the team understands why the business collects them and which process
-they support. The team also needs to know which pipeline or platform output
-should expose the data
+they support. The same product question appears in
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+Fab teams have to connect tool telemetry, yield workflows, and the people who
+can act on a risk signal. The team also needs to know which pipeline or platform
+output should expose the data
 [[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>Remote Data Engineering and IoT Platforms]].
 
 Data product management adds the product operating model. Customer discovery,

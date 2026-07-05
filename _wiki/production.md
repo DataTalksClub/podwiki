@@ -23,12 +23,13 @@ path, observable behavior, and a failure plan. It doesn't have to be large,
 real-time, or deep-learning-heavy. It has to be dependable enough for the
 decision it supports.
 
-Field teams face the same dependence test in
-[[ai-for-social-good=>AI for social good]]
-projects. Accessibility, healthcare-access, and conservation systems have to
-leave the demo stage before people depend on their outputs. For physical-world
-systems, [[Simulation and Digital Twins]] can be part of that validation path
-before release.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applied CV]][[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]]
+Field work in [[ai-for-social-good=>AI for social good]] has the same dependence
+test. Accessibility and conservation systems have to leave the demo stage before
+people depend on their outputs. For physical-world systems,
+[[Simulation and Digital Twins]] can be part of that validation path before
+release. Fab maintenance and yield work shows the same production boundary in
+[[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
+Engineers need a usable signal before a tool or wafer lot changes course.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applied CV]][[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]][[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 That boundary applies to [[MLOps]],
 [[DataOps]], [[machine-learning-system-design=>machine learning system

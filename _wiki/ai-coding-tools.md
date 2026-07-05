@@ -182,6 +182,10 @@ how code should look and scale [[cite:s23e01-ai-engineering-skill-stack-agents-l
 Used this way, coding assistants become review targets and learning surfaces,
 not just code printers.
 
+For software developers adding ML, that review habit belongs with
+[[machine-learning-for-software-engineers=>machine learning for software engineers]]
+rather than replacing the modeling and evaluation work.
+
 ## Related Pages
 
 These pages cover the surrounding engineering, tooling, and production topics.

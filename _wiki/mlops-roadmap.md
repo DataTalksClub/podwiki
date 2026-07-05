@@ -43,6 +43,9 @@ MLOps readiness grows in stages. First, a learner or team proves
 [[Experiment Tracking]] and [[Reproducibility]]. Next, they add artifact
 handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
+For an individual role path, the
+[[machine-learning-engineer-roadmap=>ML engineer roadmap]] places those same
+steps inside a broader sequence from applied modeling to production ownership.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging

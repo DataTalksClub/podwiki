@@ -211,9 +211,13 @@ for those daily workflows.
 
 For a learner, a strong AI engineering portfolio should show more than a chatbot
 demo. It should show a product problem and a user interface or API. It should
-also show context strategy, evaluation cases, and deployment notes. Monitoring
-and feedback are useful additions. Latency, cost, data quality, and model choice
-are useful tradeoffs.
+also show context strategy with evaluation cases and deployment notes.
+Monitoring and feedback are useful additions. The portfolio should explain
+latency and cost tradeoffs alongside data quality and model choice.
+
+Software engineers moving into this path can use
+[[machine-learning-for-software-engineers=>machine learning for software engineers]]
+to separate reusable strengths from missing ML data and evaluation habits.
 
 Use [[AI Engineering Roadmap]],
 [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],

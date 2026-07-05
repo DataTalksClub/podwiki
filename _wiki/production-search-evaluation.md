@@ -71,7 +71,9 @@ model output.
 Production ML search adds constraints that semantic similarity alone misses.
 Recency, popularity, and metadata can change the result set. Filters, feature
 fusion, and query-time weights can do the same. The best result can depend on
-freshness, constraints, personalization, and the current task.
+freshness, constraints,
+[[machine-learning-personalization=>machine learning personalization]], and the
+current task.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 ## Retrieval Before Ranking

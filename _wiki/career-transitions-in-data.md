@@ -106,9 +106,15 @@ and job-search positioning.
 Engineering-heavy moves translate existing skills into new work. Software-to-ML
 adds machine learning to an engineering skillset instead of discarding software
 engineering. Coding is already a core ML skill, but candidates still need
-projects plus data pipelines. Modeling and deployment come next. Monitoring,
-APIs, Docker and cloud work matter too
+projects plus data pipelines.
+
+Modeling and deployment come next. Monitoring, APIs, Docker and cloud work
+matter too
 [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
+The boundary isn't only a career label. It's the operating difference between
+shipping deterministic software and maintaining model behavior. Use
+[[machine-learning-vs-software-engineering=>ML vs software engineering]]
+for that comparison.
 
 Engineering managers take a different route. They can move into data science
 management by reusing people-management experience. They then learn the ML/NLP

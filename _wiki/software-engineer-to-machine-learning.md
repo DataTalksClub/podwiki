@@ -29,6 +29,9 @@ has to make reliable. Software engineering for ML integrates models into a
 larger product system with requirements and data workflows. Monitoring,
 documentation, testing, and team alignment belong in that system
 too [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+Use [[machine-learning-vs-software-engineering=>ML vs software engineering]]
+when the question is the boundary between deterministic software delivery and
+model behavior under changing data.
 
 For adjacent transition context, see
 [[career-transitions-in-data=>Career Transition]] and
