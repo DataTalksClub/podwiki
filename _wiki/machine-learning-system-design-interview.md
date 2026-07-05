@@ -22,12 +22,11 @@ A machine learning system design interview tests whether you can turn a model
 idea into a product system. The round starts with assumptions and baselines.
 It connects labels and metrics to A/B tests and monitoring. It also connects
 them to fallbacks and MLOps ownership.[[cite:machine-learning-system-design-interview=>MLSD]]
-The maintained
-[[Machine Learning System Design]]
-page covers the same interview structure in more detail.
 
-Start with the decision, then work through data and evaluation. Serving,
-operations, and ownership come next.
+In this interview round, prepare the timed answer plan first. Then practice
+common prompts and project examples. [[Machine Learning System Design]] covers
+data paths and serving. It also covers evaluation, monitoring, fallbacks, and
+ownership.
 
 If you're preparing for this round, keep the answer close to the job. Clarify
 the decision and choose a defensible baseline. Then explain the data path and
@@ -36,10 +35,37 @@ discipline, read
 [[Machine Learning System Design]]
 and [[ML System Design Documents]].
 
-For language-model systems, use
-[[llm-system-design-interview=>LLM system design interview]] because the answer
-also has to cover context construction and retrieval quality. Tool boundaries
-and LLM evaluation matter too.
+Language-model systems need the
+[[llm-system-design-interview=>LLM system design interview]] path because the
+answer also has to cover context construction and retrieval quality. Tool
+boundaries and LLM evaluation matter too.
+
+## Plan a 45-Minute Answer
+
+Spend the first minutes turning the prompt into a product decision. The product
+can block a transaction, warn a customer, or route a case to review. Each action
+changes the cost of false positives, latency, and the human-review path
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+
+A practical 45-minute answer can follow this pace:
+
+1. Minutes 0-5: clarify the user, decision, action, scale, latency, data, and
+   success metric.
+2. Minutes 5-12: define labels, data sources, leakage risks, feature freshness,
+   and the first baseline.
+3. Minutes 12-20: choose offline metrics, guardrails, validation slices, and the
+   first model path.
+4. Minutes 20-30: sketch batch, online, streaming, edge, or hybrid serving.
+5. Minutes 30-38: cover A/B tests, shadow mode, manual review, monitoring, and
+   fallback behavior.
+6. Minutes 38-45: name tradeoffs, owners, launch risks, and what you would do
+   next if the interviewer changed a constraint.
+
+That timing keeps the interview answer from becoming a generic architecture
+essay. For the architecture details behind each step, follow the linked concept
+sections in
+[[Machine Learning System Design]]
+and [[ML System Design Documents]].
 
 ## Start With the Decision
 
@@ -77,7 +103,8 @@ ML system design.
 
 ## Build the Answer Path
 
-After the opening, move through the system in a predictable order.
+After the opening, move through the system in the same order each time. This is
+the expanded checklist behind the timed plan.
 
 Use this order:
 

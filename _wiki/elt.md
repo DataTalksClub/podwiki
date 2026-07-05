@@ -27,19 +27,19 @@ available and analysts can write new SQL transformations. Data engineers don't
 need to re-extract a source every time a new field or question appears.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 
-Start here for load-first ELT. Use [[ETL]] for transform-before-load work and
-the [[etl-vs-elt=>ETL vs ELT comparison]] when choosing between ETL and ELT.
-For the full data flow and operating lifecycle, use [[Data Pipelines]].
+ELT covers load-first data movement and warehouse-side transformation after data
+is loaded. [[ETL]] covers transform-before-load work, and the
+[[etl-vs-elt=>ETL vs ELT comparison]] owns the choice between the two patterns.
+[[Data Pipelines]] covers the full data flow and operating lifecycle.
 
 ## Load-First Model
 
-ELT changes where business meaning gets created. In ETL, the pipeline applies
-business logic before it writes to the destination. In ELT, the destination
+ELT changes where business meaning gets created because the destination
 receives raw or lightly prepared data first. The team then builds typed,
 joined, cleaned, and documented tables from that stored data. Aggregations come
 from the same stored layer.
 
-Use [[ETL vs ELT]] for the tradeoff with transform-before-load. This hub follows
+[[ETL vs ELT]] covers the tradeoff with transform-before-load. This hub follows
 the load-first model after that choice is made.
 
 The modern stack splits `E-L` from `T`, with Airbyte handling extraction and
@@ -47,9 +47,8 @@ loading. Transformations happen after data arrives in the warehouse. They range
 from simple type casting to final business models that join AdWords and
 Salesforce data.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
-ELT is still a [[data pipelines]]
-topic because the pipeline has to move and transform data. It also has to
-publish data and keep runs reliable.
+ELT is still a [[data pipelines]] topic because the pipeline has to move,
+transform, publish, and operate data reliably.
 
 ELT isn't "load everything and forget about it." Raw ingestion and data marts
 are separate layers.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]

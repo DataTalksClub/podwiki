@@ -18,18 +18,24 @@ related:
 An ML platform is the shared internal product that helps teams move models from
 experiments into reliable production systems. It's more than a cluster or a
 notebook service. It's also more than a catalog of MLOps tools. The platform
-gives teams a reusable path for training and tracking. It then extends that path
-to registering, deploying, monitoring, and governing models across teams.
+owns the supported operating surface for self-service workflows and lifecycle
+services. It also owns guardrails, adoption, and governance across teams.
+
+The platform gives teams a reusable path for training and tracking. The same
+path then extends to registering, deploying, monitoring, and governing models
+across teams.
 
 That connects ML platforms to
 [[MLOps]], [[MLOps Architecture]], and
 [[Machine Learning Infrastructure]].
 
 MLOps gives the operating discipline for production machine learning.
-Infrastructure supplies compute and orchestration, along with the storage or
-networking behind the platform. The platform turns those capabilities into a
-user-facing system. The [[ml-platform-engineer-role=>ML platform engineer role]]
-describes who owns that user-facing path when the work becomes a dedicated role.
+[[Machine Learning Infrastructure]] supplies compute and storage behind the
+platform. It also supplies orchestration, networking, runtimes, and
+observability controls. The platform turns those capabilities into a
+user-facing system. The
+[[ml-platform-engineer-role=>ML platform engineer role]] describes who owns that
+user-facing path when the work becomes a dedicated role.
 
 Adoption has to reach beyond data scientists and ML engineers. Product teams and
 governance stakeholders need to use it too[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager]].
@@ -120,6 +126,12 @@ For large-model teams, the ML platform overlaps heavily with
 [[AI Infrastructure]]. For
 smaller product ML teams, deployment paths and registries can be the center.
 Monitoring and reproducibility stay close.
+
+Data-side shared platforms have a different center of gravity. When the work is
+ingestion, warehouse and lake choices, or CDC, the owning concept is
+[[data-engineering-platforms=>Data Engineering Platforms]]. Data interfaces and
+analytical self-service belong there too. ML platforms depend on that data-side
+foundation, but they own the model lifecycle and release path.
 
 ## Self-Service Workflows
 
@@ -254,9 +266,15 @@ path[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager]].
 ## Compute and Orchestration
 
 The platform boundary expands when workloads put pressure on compute and
-orchestration. The ML platform skill set includes cloud infrastructure,
-Kubernetes, Terraform, and managed compute. It also includes notebooks and batch
-jobs. Online serving and pipeline orchestration belong there too[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+orchestration. The platform team owns the user-facing interface rather than the
+lower-level component inventory. The ML platform skill set includes cloud
+infrastructure, Kubernetes, and Terraform.
+
+The same supported path includes managed compute and notebooks. It also includes
+batch jobs, online serving, and pipeline orchestration because those
+services have to be available through a supported path[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+For the infrastructure detail behind those services, use
+[[Machine Learning Infrastructure]].
 
 On the reproducibility side, dependency compatibility, package registries, and
 Docker images affect whether teams can deploy models. Kubernetes and Databricks

@@ -18,9 +18,10 @@ related:
 
 Product analytics studies how people use a product. Teams use it to improve
 activation, retention, and feature quality. They also track engagement and
-monetization. Across the cited discussions, the topic starts with
-[[event tracking]] and [[tracking plans]]. It then moves into [[Metrics]],
-[[a-b-testing=>A/B testing]], [[Analytics Engineering]], and [[Data Activation]].
+monetization. Across the cited discussions, product analytics consumes the
+signals captured by [[event tracking]] and governed by [[tracking plans]]. It
+then moves into [[Metrics]], [[a-b-testing=>A/B testing]],
+[[Analytics Engineering]], and [[Data Activation]].
 
 Product event collection starts with activation rather than reporting alone.
 Teams define events and route them through the warehouse. The same events then
@@ -77,20 +78,22 @@ product-support work, growth analysis, retention analysis, and RFM work.[[cite:f
 AI product design adds another boundary: teams need interfaces that collect
 useful signals before they can rely on model-driven product behavior.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
 
-## Instrumentation Before Analysis
+## Instrumentation Boundaries
 
 Product analytics depends on event definitions before it depends on charting
-tools. A tracking plan records event names, properties, and owners. It also
-records source context, data types, and capture locations. SaaS events such as
-signup and project creation become trustworthy metrics only when teams can trace
-where each event came from. The same applies to invites and invoices.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+tools. [[Tracking plans]] record event names, properties, and owners. They
+also record source context, data types, and capture locations. [[Event
+tracking]] verifies that the running product emits those events. SaaS events
+such as signup and project creation become trustworthy metrics only when teams
+can trace both the plan and the emitted signal. The same applies to invites and
+invoices.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Source context matters because a funnel drop, signup spike, or activation
 metric can reflect product behavior or collection problems. Fake signups and
 missing event properties can change the interpretation of a product metric.
 Client-side timing and server-side capture can change it too.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
-That places product analytics directly next to [[Event Tracking]] and
-[[Tracking Plans]].
+Product analytics therefore sits next to [[Event Tracking]] and
+[[Tracking Plans]]. It doesn't own the instrumentation rules.
 
 For AI and ML products, instrumentation is part of product design. Interfaces
 need to collect signals that the model can use. Product teams also need to test
@@ -162,23 +165,21 @@ help when product analytics changes how other teams make decisions.[[cite:last-m
 
 ## Boundaries
 
-Use product analytics for product behavior. That includes events and funnels,
-cohorts and retention, feature use, and user quality. It also includes
-activation and product experiments. Use
-[[data-led-growth=>Data-Led Growth]] when the main question is the broader
-growth stack. That stack spans collection and storage. It also spans analysis,
-activation, and customer data infrastructure.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+Product analytics focuses on product behavior. That includes events and
+funnels, cohorts and retention, feature use, and user quality. It also includes
+activation and product experiments. [[data-led-growth=>Data-Led Growth]] covers
+the broader growth stack across collection, storage, and analysis. It also
+covers activation and customer data infrastructure.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
-Use [[a-b-testing=>A/B Testing]] or [[Experimentation and Causal Inference]]
-when the main question is causal design, randomization, or power analysis. They
-also fit statistical testing and experiment interpretation.[[cite:ab-testing-and-product-experimentation=>A/B Testing]]
-Use [[Analytics Engineering]] when the main question is modeling,
-transformations, or semantic layers. It also fits dbt, warehouses, and governed
-metrics.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
+[[a-b-testing=>A/B Testing]] and [[Experimentation and Causal Inference]] cover
+causal design, randomization, and power analysis. They also cover statistical
+testing and experiment interpretation.[[cite:ab-testing-and-product-experimentation=>A/B Testing]]
+[[Analytics Engineering]] covers modeling, transformations, and semantic layers.
+It also covers dbt, warehouses, and governed metrics.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
-Use [[Data Product Management]] and [[Data Product Adoption]] when the main
-question is ownership, discovery, or lifecycle planning. They also fit decision
-design and whether teams actually use the analytics.[[cite:product-designer-to-data-product-manager=>Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+[[Data Product Management]] and [[Data Product Adoption]] cover ownership,
+discovery, lifecycle planning, and decision design. They also cover whether
+teams actually use the analytics.[[cite:product-designer-to-data-product-manager=>Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Related Pages
 

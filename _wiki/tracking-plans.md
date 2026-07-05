@@ -10,13 +10,13 @@ related:
   - Data Quality and Observability
 ---
 
-A tracking plan is the schema agreement for product instrumentation. It records
-which events a product should collect and which properties belong on each
-event. It also records event meanings, required capture semantics, data types,
-and owners. Review expectations, naming conventions, and change rules belong in
-the same artifact. Teams use it before engineers implement [[event tracking]]
-so product actions have a shared meaning before they reach analytics,
-dashboards, experiments, and activation tools.
+A tracking plan is the specification artifact for product instrumentation. It
+records which events a product should collect and which properties belong on
+each event. It also records owners, downstream analytics dependencies, event
+meanings, and capture semantics. Data types, review expectations, naming
+conventions, and change rules belong there too. Teams use it before engineers
+implement [[event tracking]] so product actions have a shared meaning before
+they reach analytics, dashboards, experiments, and activation tools.
 
 The data-led growth stack starts with this plan before collection begins. Teams
 document each event and event property before the data flows into the warehouse
@@ -24,11 +24,14 @@ or analytics stack. They also record user and account properties, data types,
 semantic meaning, and ownership
 [[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>How to Build a Data-Led Growth Stack]].
 
-Use tracking plans for the schema agreement and governance record. For captured
-events moving through client-side and server-side instrumentation, see
-[[event tracking]]. The plan matters because analytics and experiments can
-depend on the same event definition. Warehouse models, support views, sales
-workflows, and reverse ETL can depend on it too.
+Use tracking plans for names and properties, owners and review paths, plus
+shared rules. Those rules coordinate product and engineering work. They also
+coordinate analytics and downstream tools.
+
+For captured events moving through client-side and server-side
+instrumentation, see [[event tracking]]. The plan matters because analytics
+and experiments can depend on the same event definition. Warehouse models,
+support views, sales workflows, and reverse ETL can depend on it too.
 
 ## Specification Before Instrumentation
 
@@ -58,8 +61,10 @@ clients, and invoices
 The event name should tell analysts which product action happened, while the
 properties explain the context. A `signup` event can mean a clicked button, a
 submitted form, an email verification, or a completed server record. The plan
-should choose the intended meaning, required properties, and allowed source
-before analysts have to infer those details later.
+should choose the intended meaning, required properties, allowed source, and
+downstream dependencies before analysts have to infer those details later.
+Runtime debugging for whether the product emitted the right signal belongs in
+[[event tracking]].
 
 Teams also need property names and types. Event, user, and account properties
 let analysts segment a funnel by acquisition channel or plan type. They can
@@ -76,9 +81,9 @@ from the client, the server, or both. It should also state whether the event
 marks an attempted action or a completed business action
 [[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>Client-side and server-side tracking]].
 
-That distinction matters when events feed [[metrics]]. A team investigating a
-spike needs to know which event was supposed to fire and where. It also needs
-properties that explain the source. A vague specification can make failed form
+That distinction matters when events feed [[metrics]]. The plan should tell a
+team which event was supposed to fire, where it should fire, and which
+properties explain the source. A vague specification can make failed form
 submissions, low-quality traffic, and completed accounts look like the same
 product behavior
 [[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Data-led growth anomaly investigation]].
@@ -102,15 +107,15 @@ the events
 Governance starts with a small set of decisions. The team needs to decide who
 can add an event, who reviews the name and properties, and which engineer owns
 implementation. It also needs a product or analytics owner who confirms the
-meaning. When an event changes, the team needs a notification path. Without
-those answers, a tracking plan can drift into stale documentation while the
-product keeps changing
+meaning and downstream dependencies. When an event changes, the team needs a
+notification path. Without those answers, a tracking plan can drift into stale
+documentation while the product keeps changing
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan ownership]].
 
 Before implementation, the plan should say who reviews the event name and who
 checks required properties and types. It should also say who approves a
 breaking change and who confirms that a deprecated event can be removed. Those
-review steps keep naming and ownership decisions visible before
+review steps keep naming, ownership, and analytics dependencies visible before
 [[event tracking]] turns them into emitted data.
 
 ## Naming and Change Control
@@ -125,9 +130,10 @@ That platform analogy connects tracking plans to [[Streaming]].
 
 Naming conventions turn the review into visible checks. A plan should prevent
 duplicate names, inconsistent casing, vague verbs, and properties that repeat
-the same idea under several labels. Change control needs the same discipline. A
-renamed event, removed property, or changed capture rule should have an owner
-and a review path before the product release changes the signal.
+the same idea under several labels. Change control needs the same discipline.
+Before a product release changes the signal, the plan should name the owner
+and affected consumers. It should also define the review path for a renamed
+event, removed property, or changed capture rule.
 
 Tracking plans are therefore a front-door [[data governance]] and
 [[data quality and observability]] control. They don't replace downstream

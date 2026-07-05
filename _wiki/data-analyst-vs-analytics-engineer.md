@@ -93,35 +93,34 @@ analytical data.
 
 ## Data Analyst Fit
 
-Choose a data analyst when the team has to understand what happened and what
-decision should follow. In
+Choose a data analyst when the team has to understand what happened, why it
+changed, and what decision should follow. In
 [[cite:data-team-roles=>Data Team Roles]],
 the analyst tracks business metrics such as profit, listings, and buyer-seller
 contacts. The analyst builds executive reports, uses SQL and dashboards, and
-helps quantify whether a product problem deserves team time.
-
-Analyst work also includes experiment evaluation: the analyst checks whether a
-model-backed product change reduces posting-flow drop-off or wrong-category
-listings [[cite:data-team-roles=>Data Team Roles]]. That makes
-[[a-b-testing=>A/B Testing]] and
-[[Experimentation]] analyst-facing
-skills, not only data-science skills.
+helps quantify whether a product problem deserves team time. [[Data Analyst
+Role]] owns the broader role definition. Here, the boundary question is whether
+the work should stay with an analyst or move into modeled data ownership.
 
 Analysts usually own metric interpretation and the recommendation that follows.
-They decide how to size the question and which KPI answers it. They also decide
-which segment or cohort matters and how to explain the caveats to a stakeholder.
+They decide how to size the question and which KPI answers it. They also choose
+the segment or cohort that matters and explain caveats to a stakeholder.
 Grigorev's analyst example includes KPI definition and executive reporting. It
 also includes product problem sizing and post-launch experiment evaluation
 ([[cite:data-team-roles=>Data Team Roles]],
 [[Data Analyst Careers]]).
 
-For product-facing work, the analyst often owns the question and the
-interpretation. [[person:nikolamaksimovic=>Nikola Maksimovic]] describes work
-with product managers on experiments and new features. The same work
-includes A/B testing, cohort sizing, and [[rfm-analysis=>RFM analysis]]. Dashboards and
-presentations of insights sit in the same analyst mode, even when the title
-includes analytics engineering
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's product analytics discussion]].
+Experiment evaluation can still be analyst-owned. The analyst checks whether a
+model-backed product change reduces posting-flow drop-off or wrong-category
+listings [[cite:data-team-roles=>Data Team Roles]]. That makes
+[[a-b-testing=>A/B Testing]] and
+[[Experimentation]] analyst-facing skills, while reusable exposure tables,
+metric definitions, and dashboard models can move to analytics engineering.
+
+For the product-analyst boundary, use
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]]. Use the
+comparison here when the question is whether the work is still analysis or has
+become reusable analytics-engineering work.
 
 The analyst should still understand where numbers come from.
 [[person:arpitchoudhury=>Arpit Choudhury]] explains why
@@ -157,8 +156,8 @@ behind the BI surface
 [[cite:analytics-engineer-skills-tools=>Perez Mola's role discussion]],
 [[Data Products]]).
 
-Use [[dbt]] for tool-level context and [[Analytics Engineering]] for the broader
-role definition.
+[[dbt]] provides tool-level context, and [[Analytics Engineering]] covers the
+broader role definition.
 
 ## Title Blur
 
@@ -255,29 +254,25 @@ For the broader metric topic, use
 
 ## Product and Growth Data
 
-Product analytics shows why analysts and analytics engineers need each other.
-An analyst can interpret funnels, cohorts, retention, and experiment results.
-The same analyst needs event meaning, assignment logic, and trusted modeled
-tables before the interpretation is defensible.
+Product and growth data create shared surfaces, but the comparison still has one
+boundary. Analysts interpret funnels, cohorts, retention, and experiment
+results. Analytics engineers make the repeated event logic, assignment logic,
+and modeled tables safe to reuse. Use
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] for the
+separate product-title question.
 
-Arpit's data-led growth episode traces the full flow. Teams start with a
-tracking plan, engineers instrument events, and the data flows into
-analytics tools and warehouses
+Arpit's data-led growth episode starts with a tracking plan. Engineers then
+instrument events before data flows into analytics tools and warehouses
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's event tracking and warehouse flow discussion]]).
-He describes the warehouse as the place where teams store and transform
-structured data. Teams also clean and model that data before analyzing it in BI
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's warehouse discussion]].
-
-He adds reverse ETL and operational analytics. Teams can then move modeled data
-into sales and marketing tools. The same modeled data can also reach
-advertising, support, or product tools
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's reverse ETL discussion]].
+Teams store and transform structured data in the warehouse before analyzing it
+in BI. Choudhury also connects modeled data to reverse ETL. Sales and marketing
+systems, advertising platforms, support tools, and product tools consume the
+same definitions
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's warehouse and reverse ETL discussion]].
 
 In that flow, analysts own interpretation and decisions. Analytics engineers
-own modeled data that can survive reuse in BI and activation. Data engineers
-and product engineers still matter because events need instrumentation,
-warehouses need pipelines, and downstream tools need reliable delivery. The
-broader adoption surface belongs to [[data-led-growth=>Data-Led Growth]],
+own modeled data that can survive reuse in BI and activation. The broader
+adoption surface belongs to [[data-led-growth=>Data-Led Growth]],
 [[Data Activation]], and [[Data Product Adoption]].
 
 A team can switch modes inside one project because a one-off funnel readout can

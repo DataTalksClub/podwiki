@@ -11,6 +11,8 @@ related:
   - Data Engineering
   - DataOps Platforms
   - Self-Service Data Platforms
+  - ML Platforms
+  - Machine Learning Infrastructure
   - DataOps
   - Modern Data Stack
   - Data Products
@@ -33,9 +35,13 @@ reproducibility and self-service
 stack version through extraction, loading, transformation, and orchestration.
 She also brings CDC and reverse data flows into the same discussion
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+
 In that framing, teams use the platform as one place where
 [[data-engineering-and-data-science=>data engineering and data science]] meet.
 Reliable data movement has to serve analytics, ML, and operational consumers.
+The model lifecycle belongs with [[ML Platforms]], while the compute, serving,
+and monitoring components behind ML workloads belong with
+[[Machine Learning Infrastructure]].
 
 The platform question is which capabilities belong in the shared foundation,
 where teams draw ownership boundaries, and how adoption changes the

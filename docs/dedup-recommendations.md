@@ -95,6 +95,15 @@ automatic merges:
 - **`rag-evaluation-workflow` vs `rag-portfolio-projects`** — evaluation
   procedure versus portfolio proof.
 
+Fourth pass (2026-07-05) tightened another five duplicate-report clusters:
+machine-learning infrastructure versus ML platforms, machine-learning system
+design versus the interview guide, ETL versus ELT and the comparison, event
+tracking versus tracking plans, and analyst-role comparisons. The system-design
+interview, ETL/ELT, and tracking-plan pairs dropped out of the current duplicate
+tails after the pass. The remaining ML infrastructure versus ML platforms hit is
+still a distinct-intent pair: infrastructure owns workload components and
+constraints, while platforms own the shared internal product surface.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

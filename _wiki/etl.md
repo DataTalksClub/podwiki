@@ -21,12 +21,11 @@ Matt Palmer's
 expands on that same lifecycle across batch and event-driven pipelines, from
 source extraction and staging to transformation logic, then loading.
 
-Start here for ETL flow, fit, operations, and role boundaries. Use
-[[ELT]] for load-first warehouse modeling and
-[[ETL vs ELT]] to compare ETL with ELT. Use [[data pipelines]] for the broader
-ingestion-to-publication lifecycle and [[modern data stack]] for the
-warehouse-centered tool ecosystem. ETL also sits close to
-[[data engineering platforms]].
+ETL owns the flow, fit, operations, and role boundaries around the
+transform-before-load concept. [[ELT]] covers load-first warehouse modeling, and
+[[ETL vs ELT]] covers the decision between them. [[data pipelines]] covers the
+broader ingestion-to-publication lifecycle, while [[modern data stack]] covers the
+warehouse-centered tool ecosystem. ETL also sits close to [[data engineering platforms]].
 ETL also connects to [[DataOps]]
 and [[data quality and observability]]
 because teams have to operate ETL jobs, not only define the acronym.
@@ -139,27 +138,21 @@ receiving system doesn't transform it
 That keeps ETL centered on the position of transformation: before the receiving
 system consumes the data.
 
-## Relationship to ELT
+## Boundary With ELT
 
-Many analytics stacks moved toward ELT, but ETL isn't obsolete.
-Transform-before-load can be inflexible when business questions change. Teams
-may need to re-extract source data if a new field or model becomes
-important
+Many analytics stacks moved toward [[ELT]], but ETL remains part of pipeline
+design. Transform-before-load can be inflexible when business questions change.
+Teams may need to re-extract source data if a new field or model becomes important
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
-
-The same scaling pressure appears at platform scale. A fixed ETL target model
-became tightly coupled as use cases grew. Teams moved toward loading data first
-and transforming it later in the warehouse
+At platform scale, fixed ETL target models can also become tightly coupled as
+use cases grow. Teams may then load data first and transform it later in the warehouse
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
-ETL still belongs in the design vocabulary. Ingestion keeps some safety and
-quality work before human-facing storage
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
-Enterprise staging and fan-out remain valid ETL cases
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
+[[ETL vs ELT]] covers the choice between the two designs. Keep the ETL boundary
+narrower. Transform before load for curated, constrained, or compliant targets.
 
-The transform goes where it reduces the actual risk. It goes before load when
-the target must be curated, constrained, or compliant. It goes after load when
-preserving raw source detail makes future modeling safer.
-For decision criteria, use [[ETL vs ELT]] rather than treating this concept hub
-as the comparison.
+Ingestion can keep safety and quality work before storage.
+Analysts and applications then use a constrained target
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+Enterprise staging can still fan out curated outputs to multiple targets
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].

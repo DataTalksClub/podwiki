@@ -19,12 +19,13 @@ tracking is the runtime capture layer behind [[product analytics]],
 [[data-led-growth=>data-led growth]], [[data activation]], and
 [[a-b-testing=>A/B testing]].
 
-[[Tracking plans]] define event names and properties before implementation,
-then record owners, review rules, and schema expectations. Event tracking
-starts when those definitions become running code. It covers where the product
-emits events, how identity and properties travel with them, and whether the
-events reach downstream systems. It also covers what breaks when
-instrumentation drifts.
+[[Tracking plans]] own the specification for event names and properties. They
+also record review owners and downstream analytics dependencies.
+
+Event tracking starts when that specification becomes running instrumentation.
+It covers where the product emits events, how identity and properties travel
+with them, and whether the events reach downstream systems. It also covers
+what breaks when instrumentation drifts from the plan.
 
 [[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest product-growth
 framing in
@@ -54,9 +55,10 @@ Those events become useful only when the runtime signal matches the behavior
 the team intended to capture.
 
 A `signup` event changes meaning with the code path that emits it. It can
-represent a clicked button or a submitted form. It can also represent
-validation success, email verification, or a durable account record. The
-[[tracking plans=>tracking plan]] should choose the intended meaning.
+represent a clicked button, a submitted form, email verification, or a durable
+account record. The [[tracking plans=>tracking plan]] owns the intended
+meaning. Event tracking verifies that the running product emits that meaning,
+not a nearby proxy.
 
 Runtime instrumentation still has to fire in the right place and attach the
 expected user or account identity. It also has to include the properties that
@@ -66,8 +68,8 @@ In Arpit's framing, product and growth teams decide what behavior they need to
 measure before engineers instrument the events. The team then uses those events
 in analytics and activation systems
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>tracking-plan discussion]]).
-See [[tracking plans]] for naming rules, required properties, review owners, and
-change control.
+See [[tracking plans]] for naming rules, required properties, review owners,
+and change control.
 
 ## Client-Side and Server-Side Events
 
@@ -85,16 +87,20 @@ team also needs to know whether the signal reflects real users, automated
 accounts, a front-end attempt, or a completed account record
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>anomaly investigation]]).
 Without source context, product, growth, and engineering teams can argue about
-the dashboard while looking at different meanings of the same event name.
+the dashboard. Meanwhile, the running product may emit a different signal from
+the one the plan describes.
 
 ## Product Analytics and Experiments
 
-[[Product analytics]] depends on event tracking because funnels and cohorts
-start from behavior data. Retention curves, activation metrics, engagement
-analysis, and product-qualified signals do too. Arpit places product analytics
-after collection and storage. Events flow into warehouses, product analytics
-tools, and BI tools. Teams then analyze acquisition, activation, retention, and
-engagement
+[[Product analytics]] consumes event tracking rather than owning it. Funnels
+and cohorts start from captured behavior data, as do retention curves and
+activation metrics. Engagement analysis and product-qualified signals use the
+same captured behavior data. [[RFM Analysis]] needs the same event reliability
+when teams segment customers by recency, frequency, and value.
+
+Arpit places product analytics after collection and storage. Events flow into
+warehouses, product analytics tools, and BI tools. Teams then analyze
+acquisition, activation, retention, and engagement
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@22:50=>collection-to-analysis flow]]).
 
 Product analysts often work at that boundary. The [[Product Analyst]] guide
@@ -181,9 +187,9 @@ represented real users or automated accounts
 Event edits rarely stay in one dashboard. A renamed event or moved firing point
 can affect experiments, lifecycle messages, product-qualified-account lists,
 and customer-facing product experiences. The governance rules for approving
-those edits belong in [[tracking plans]]. The runtime owner still has to verify
-that the emitted event arrives, includes the expected properties, and represents
-the behavior downstream teams use.
+those edits belong in [[tracking plans]]. Event tracking owns the runtime
+check. The emitted event should arrive, include the expected properties, and
+represent the behavior downstream teams use.
 
 The practical boundary between guests is useful. Arpit starts from product and
 growth teams that need behavior data they can act on. Natalie starts from

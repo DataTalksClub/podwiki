@@ -77,11 +77,15 @@ The practical split is:
 ## Product Analyst Fit
 
 A product analyst title is strongest when the analyst spends most days with a
-product manager or growth partner. Analysts start before the dashboard by
-defining the event and metric. They also define the assignment unit, guardrails,
-and decision rule. Assignment tracking and A/A tests matter. Stable metrics and
-[[power analysis]] determine whether the test can support the decision the team
-wants to make.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+product manager or growth partner. [[Product Analyst]] owns the fuller job
+description. In this comparison, the product analyst side means the analyst is
+judged by product decisions. Those decisions usually involve user behavior,
+funnel movement, launch metrics, and experiment readouts.
+
+Analysts start before the dashboard by defining the event and metric. They also
+define the assignment unit, guardrails, and decision rule. Assignment tracking
+and A/A tests matter. Stable metrics and [[power analysis]] determine whether
+the test can support the decision the team wants to make.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Hiring can make this product-facing scope explicit. Data people in embedded
 roles may report to a data leader while product managers, engineering managers,
@@ -91,21 +95,27 @@ that model when product teams need close analytic support.[[cite:hiring-and-mana
 ## Data Analyst Fit
 
 A data analyst title is strongest when the analyst supports many teams with
-company metrics. The work may still include product data, but it isn't anchored
-to one product surface or user journey. Analysts know what data exists and
-retrieve it. They interpret the data, build dashboards, and define KPIs. They
-also write executive reports and make recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
+company metrics. [[Data Analyst Role]] owns the broader role definition. In
+this comparison, the data analyst side means the analyst is judged by
+cross-functional decision support. That work includes KPIs and recurring
+reports. It also includes executive dashboards, operations questions, and
+recommendations beyond one product surface.
+
+The work may still include product data, but it isn't anchored to one product
+surface or user journey. Analysts know what data exists and retrieve it. They
+interpret the data, build dashboards, and define KPIs. They also write
+executive reports and make recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 A broad data analyst role can still include product work. In a posting-flow
 example, analysts help a product manager quantify how many users struggle with
 category selection. After the team ships a categorization feature, analysts
 evaluate drop-off and wrong-category listings.[[cite:data-team-roles=>Data Team Roles Explained]]
 
-Outside product, the same role can focus on finance or operations. It can also
+Outside product, the same role can focus on finance and operations. It can also
 focus on sales, support, or leadership reporting. Last-mile data delivery
-separates getting data into the warehouse from getting teams to change decisions
-with it. Adoption depends on discoverability, interpretability, data quality,
-and trust.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+separates getting data into the warehouse from getting teams to change
+decisions with it. Teams adopt data products when they can discover, interpret,
+and trust them.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The data analyst title also often covers early-career or generalist work. Use
 [[Data Analyst Careers]] for career entry, portfolio evidence, and next moves.
@@ -129,7 +139,8 @@ reporting. Product data then moves from collection to activation through that
 broader data stack.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 When repeated definitions and transformations become the main problem, the
-neighboring role is [[analytics engineering]], not a new analyst title.
+neighboring role is [[analytics engineering]], not a new analyst title. For
+that boundary, use [[Data Analyst vs Analytics Engineer]].
 
 ## Title Choice
 

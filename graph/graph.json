@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11893
+    "links": 11897
   },
   "nodes": [
     {
@@ -34016,12 +34016,6 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:nikolamaksimovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-chip",
       "weight": 1
@@ -34289,12 +34283,6 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:rfm-analysis",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -36995,6 +36983,30 @@
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -50831,6 +50843,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:event-tracking",
@@ -64677,6 +64695,12 @@
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:ai-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
     },

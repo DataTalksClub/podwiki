@@ -62,10 +62,15 @@ data versioning, and containers. It also means adoption work
 
 ## Interview, Delivery, and Platform Angles
 
-System design is both an interview skill and a production habit. As an interview
-skill, it centers on communication, assumptions, and baselines. It also covers
-metrics and A/B testing. Interviewers need to see how a candidate reasons
-through ambiguity
+System design is both an architecture discipline and an interview skill. For the
+architecture side, reason through product decisions and data paths. Serving and
+evaluation come next. Monitoring, fallbacks, and ownership follow. The
+[[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]]
+owns the 45-minute answer plan, prompt walkthroughs, and candidate examples.
+
+The interview version still rests on the same decisions. Candidates have to
+communicate assumptions, compare baselines, choose metrics, and reason through
+ambiguity
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
 For language-model prompts, the same interview structure extends into
@@ -331,6 +336,10 @@ ownership belong in the same operating plan.
 The review also covers mobile and edge constraints. These include latency,
 battery, frame rate, and runtime limits
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+
+For interview practice, turn the same review questions into a timed answer plan.
+Then move to the prompt-specific examples in the
+[[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]].
 
 ## Platform and Ownership
 

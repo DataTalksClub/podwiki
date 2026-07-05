@@ -12,18 +12,21 @@ related:
   - Orchestration
 ---
 
-Machine learning infrastructure gives teams the systems they need to train
-models and run predictions. Those systems cover compute and storage, plus
-orchestration, serving, and monitoring. It's the technical base for
+Machine learning infrastructure gives teams the components they need to train
+models and run predictions. Those components cover compute and storage, plus
+the runtime controls around orchestration and serving. They also cover
+monitoring and networking.
+It's the technical base for
 [[ML Platforms]],
 [[MLOps]], and
 [[Machine Learning System Design]].
 
-Platforms turn that base into a usable path for data scientists and ML
-engineers. The infrastructure layer supplies cloud resources, containers, and
-GPUs. It also supplies schedulers, registries, runtimes, and observability
-controls. The [[ml-platform-engineer-role=>ML platform engineer role]] sits at
-that handoff from infrastructure pieces to a supported user path.
+Machine-learning infrastructure work asks what has to exist under ML workloads.
+It also asks where those components fail under scale, regulation, latency, or
+cost pressure. [[ML Platforms]] owns the shared internal product surface that
+turns those components into a supported path for data scientists and ML
+engineers. The [[ml-platform-engineer-role=>ML platform engineer role]] sits at
+that handoff from infrastructure pieces to a user-facing platform.
 
 The skill set spans cloud infrastructure, notebooks, Kubernetes, and Terraform.
 It also covers managed compute, batch inference, online serving, and
@@ -64,12 +67,14 @@ layout, utilization, and scheduler choice.
 
 ## Platform Timing and Scale
 
-The disagreement is less about components than about timing. Platform investment
-pays off when teams repeat deployment, serving, governance, and registry work
-across projects. Building heavy platform pieces too early is a mistake because
-real models and business needs come first
+The disagreement is less about components than about timing and scale.
+Infrastructure work starts when a workload needs reliable compute, storage,
+release paths, or runtime ownership. Platform investment pays off later when
+teams repeat deployment, serving, governance, and registry work across projects.
+Building heavy platform pieces too early is a mistake because real models and
+business needs come first
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-Infrastructure is a response to repeated friction, not an up-front shopping list.
+For the platform-product side of that decision, see [[ML Platforms]].
 
 A centralized MLOps team reframes adoption by gathering pain points, supporting
 product teams, and measuring value before standardizing too much
@@ -94,11 +99,11 @@ model. SLURM-like scheduling and bare-metal provisioning enter the infrastructur
 picture
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 
-Vashishta adds a roadmap lens to the same timing question. A platform purchase
-may look too expensive for one project but become justified when it supports
-several products over one to three years. The architect's job is to compare
-existing infrastructure and cloud options. They also compare on-prem constraints
-and product roadmap reuse before the team commits to a path
+Vashishta adds a roadmap lens to the same infrastructure decision. A platform
+purchase may look too expensive for one project but become justified when it
+supports several products over one to three years. The architect's job is to
+compare existing infrastructure and cloud options. They also compare on-prem
+constraints and product roadmap reuse before the team commits to a path
 ([[cite:make-money-with-machine-learning-roles-skills@58:04=>ML architecture buy vs build]]).
 
 ## Compute and GPU Infrastructure
@@ -239,26 +244,31 @@ cloud-versus-on-prem tradeoff makes compute ownership an operating concern
 GPU clusters can fail as business infrastructure if teams can't see usage,
 contention, and idle cost.
 
-## Platform Ownership and Developer Experience
+## Infrastructure Handoff to Platform Teams
 
 Infrastructure becomes valuable when teams can use it without becoming
 infrastructure specialists. A user-centric platform starts from data science
 workflows and notebooks, then adds thin abstraction layers over cloud providers
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-Platform teams use those layers to expose enough control for real work while
-hiding repeated setup.
+The lower layer has to make cloud resources, runtimes, and schedulers reliable.
+Images and observability controls have to work too before the platform can
+expose them.
 
 The team model behind that experience is a centralized MLOps team supporting
 product teams and ML engineers. It starts with CI/CD and tangible pain points
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
-Infrastructure ownership becomes a service model, not only a
-cluster-maintenance job.
+Infrastructure ownership becomes a service model, not only a cluster-maintenance
+job. [[ML Platforms]] covers the product roadmap, self-service workflow, and
+adoption side of that service model.
 
 Metaflow shows the open-source developer experience version. Its flow
 abstraction sits across AWS, Kubernetes, and Argo
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
-The infrastructure still exists, but the user works through a tool that fits ML
-workflows.
+
+AWS, Kubernetes, and Argo still have to work before the abstraction can feel
+simple. Storage and execution environments matter too. The user works through a
+tool that fits ML workflows. The infrastructure layer keeps the underlying
+execution path dependable.
 
 ## Related Pages
 
