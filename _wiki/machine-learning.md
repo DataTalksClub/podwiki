@@ -69,7 +69,8 @@ system diagrams serve the same purpose.
 
 [[person:robzinkov=>Rob Zinkov]] pushes in a different
 direction: probabilistic and [[a-b-testing=>Bayesian modeling]]
-as a composable alternative to the scikit-learn model-selection mindset. In
+as a composable alternative to the [[scikit-learn=>scikit-learn]]
+model-selection mindset. In
 [[cite:bayesian-modeling-workflows-and-tools=>Bayesian Modeling Workflows and Tools]],
 he argues that the distribution-in/distribution-out structure of Bayesian
 inference makes analysis incrementally extensible. Teams can add data and

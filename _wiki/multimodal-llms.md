@@ -14,8 +14,9 @@ related:
 
 Multimodal LLMs are large language models that process more than one input
 modality. They take text alongside images, video, or audio and produce outputs
-that reason across those modalities. They appear in autonomous driving
-perception, cross-modal search and retrieval, and the
+that reason across those modalities. They appear in
+[[autonomous-driving-ai=>autonomous driving AI]] perception, cross-modal search
+and retrieval, and the
 future trajectory of AI agents.
 
 Different data types can share a representation space. [[Embeddings]] map text
@@ -62,9 +63,10 @@ workflow and let teams iterate quickly.[[cite:production-ml-search-vector-search
 
 ## Multimodal LLMs in Autonomous Driving
 
-Autonomous driving is the most safety-critical multimodal setting covered here.
-Some companies are exploring multimodal LLMs for end-to-end self-driving.
-Those models may contain world knowledge that curated driving datasets
+[[autonomous-driving-ai=>Autonomous driving AI]] is the most safety-critical
+multimodal setting covered here. Some companies are exploring multimodal LLMs
+for end-to-end self-driving. Those models may contain world knowledge that
+curated driving datasets
 miss.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 That discussion sits near the
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
@@ -77,7 +79,8 @@ tradeoffs before they fit real-time vehicle inference.[[cite:from-computer-visio
 
 Broad training data may help with geographic variation. The idea remains
 tentative.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
-This connects multimodal LLMs to [[Autonomous Driving AI]] and [[Model Optimization]].
+This connects multimodal LLMs to
+[[autonomous-driving-ai=>Autonomous Driving AI]] and [[Model Optimization]].
 
 ## Visual Language Models and Agent Infrastructure
 
@@ -117,9 +120,10 @@ user query quickly at query time. Ingestion can be batched. Query handling must
 be fast. Both paths must stay consistent because they land in the same vector
 space.[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-Autonomous driving adds the hard real-time version of the same constraint. A
-vehicle can't wait seconds for a multimodal model to process a scene. The model
-must be optimized to run on vehicle hardware within tight latency budgets.
+[[autonomous-driving-ai=>Autonomous driving AI]] adds the hard real-time version
+of the same constraint. A vehicle can't wait seconds for a multimodal model to
+process a scene. The model must be optimized to run on vehicle hardware within
+tight latency budgets.
 These are [[Model Optimization]] and [[Production]] challenges.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 For search and retrieval, hybrid search combines vector similarity with business

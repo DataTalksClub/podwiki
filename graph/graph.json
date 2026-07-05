@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12082
+    "links": 12105
   },
   "nodes": [
     {
@@ -23048,6 +23048,18 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:ai-coding-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -23943,6 +23955,18 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:agent-ops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:agent-ops",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -31472,6 +31496,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -31665,6 +31695,12 @@
     {
       "source": "wiki:computer-vision",
       "target": "wiki:production-search-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53234,6 +53270,18 @@
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:agent-ops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:agent-ops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:evolutionary-algorithms",
       "kind": "article-chip",
       "weight": 1
@@ -58790,6 +58838,18 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:agent-ops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:agent-ops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:ai-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -60397,6 +60457,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:machine-learning",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:machine-learning-engineer-roadmap",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-chip",
@@ -60885,6 +60951,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:scikit-learn",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63176,6 +63248,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:search-and-rag-project-checklist",
       "kind": "wiki-chip",
       "weight": 1
@@ -63305,6 +63383,12 @@
       "target": "wiki:algorithmic-trading",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -64217,6 +64301,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -68354,6 +68444,12 @@
     },
     {
       "source": "wiki:model-optimization",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
       "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
@@ -69068,6 +69164,12 @@
     },
     {
       "source": "wiki:multi-agent-systems",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multi-agent-systems",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -69747,6 +69849,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75734,6 +75842,18 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:agent-ops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:agent-ops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:context-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -80816,6 +80936,12 @@
     },
     {
       "source": "wiki:synthetic-data",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
       "target": "podcast:human-centered-ai-automatic-speech-recognition",
       "kind": "wiki-chip",
       "weight": 1
@@ -80829,6 +80955,12 @@
     {
       "source": "wiki:synthetic-data",
       "target": "podcast:urban-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81843,6 +81975,12 @@
     {
       "source": "wiki:testing",
       "target": "wiki:agent-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:ai-coding-tools",
       "kind": "wiki-chip",
       "weight": 1
     },

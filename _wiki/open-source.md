@@ -32,7 +32,7 @@ improve. In data and ML work, it includes libraries, connector ecosystems, and
 model hubs. It also includes documentation and contribution surfaces.
 Governance, licensing, community norms, and company distribution matter too.
 
-ML examples include scikit-learn ecosystem libraries
+ML examples include [[scikit-learn=>Scikit-Learn]] ecosystem libraries
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]] and Hugging
 Face work
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]].
@@ -103,9 +103,10 @@ Learning by building also means accepting abandoned projects as part of the
 work before one tool finds a wider audience.
 
 For data and ML tools, usefulness also depends on ecosystem fit. Not every useful
-idea should enter core scikit-learn. Plugins such as UMAP and scikit-lego are a
-healthier path because a method can follow scikit-learn conventions without
-adding maintenance burden to the main project. That links open source to
+idea should enter core [[scikit-learn=>scikit-learn]]. Plugins such as UMAP and
+scikit-lego are a healthier path because a method can follow scikit-learn
+conventions without adding maintenance burden to the main project. That links
+open source to
 [[machine learning tools]]
 and [[software engineering]],
 not only to public repositories
@@ -181,7 +182,7 @@ exposes APIs and examples. A connector exposes source coverage and
 configuration. A model hub exposes models, datasets, demos, and community
 support.
 
-scikit-learn shows the library route: scikit-lego demonstrates
+[[scikit-learn=>Scikit-Learn]] shows the library route: scikit-lego demonstrates
 ecosystem-compatible components and low-maintenance APIs for
 [[open-source-ml-contributions=>open-source ML contributions]]
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]], while

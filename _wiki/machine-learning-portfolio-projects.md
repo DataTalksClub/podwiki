@@ -364,8 +364,8 @@ the work makes a project easier to use, run, test, or maintain. In Contribute
 to Open Source ML, [[person:vincentwarmerdam=>Vincent Warmerdam]] treats
 documentation, examples, and contribution guides as part of project stewardship.
 He also includes packaging, tests, and CI. His scikit-lego and Rasa discussion
-shows why small, ecosystem-compatible tools can be stronger evidence than
-unfinished large projects [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+shows why small, [[scikit-learn=>Scikit-Learn]]-compatible tools can be stronger
+evidence than unfinished large projects [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 [[open-source-ml-contributions=>Open-source ML contributions]] covers the issue,
 docs, tests, and maintainer-etiquette mechanics behind that route.
 

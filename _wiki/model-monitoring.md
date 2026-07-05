@@ -161,8 +161,9 @@ system reduces false positives by learning which deviations are expected and
 which ones need investigation
 [[cite:data-quality-data-observability-data-reliability@1:00:27=>Data Observability Explained]].
 For baseline-heavy sensor products, the same rule applies inside the model.
-[[Sensor ML Personal Baselines]] shows why an alert can be wrong when a system
-ignores routine changes, device placement, aging, or missing sensor history.
+[[sensor-ml-personal-baselines=>Sensor ML personal baselines]] shows why an
+alert can be wrong when a system ignores routine changes, device placement,
+aging, or missing sensor history.
 
 ## Model Performance
 

@@ -17,8 +17,8 @@ related:
 
 Simulation and digital-twin work connects physical systems with [[Machine
 Learning]], [[Data Engineering]], and [[Applied Research]]. Automotive crash
-analysis, RF wave propagation, synthetic medical imaging, and [[Autonomous
-Driving AI]] validation show the main uses.
+analysis, RF wave propagation, synthetic medical imaging, and
+[[autonomous-driving-ai=>autonomous driving AI]] validation show the main uses.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
@@ -57,11 +57,11 @@ models. Graph analytics and graph ML work on selected representations of the
 simulation results.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-Autonomous-driving work uses simulation inside a safety validation path. Teams
-recreate real-world scenarios in simulation, then move to closed tracks and
-on-road testing with safety drivers. Driverless deployment comes only after
-extensive testing. Real sensor data, labeling, release checks, and staged
-rollout remain necessary. The
+[[autonomous-driving-ai=>Autonomous driving AI]] work uses simulation inside a
+safety validation path. Teams recreate real-world scenarios in simulation, then
+move to closed tracks and on-road testing with safety drivers. Driverless
+deployment comes only after extensive testing. Real sensor data, labeling,
+release checks, and staged rollout remain necessary. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison shows why sensor choice changes the validation burden, not only the
 model architecture.
@@ -108,12 +108,13 @@ designs.
 
 ## Validation Environments
 
-In autonomous driving, simulation is a validation environment rather than only a
-design tool. Teams recreate large sets of real-world scenarios before moving to
-closed tracks and road testing. The same release path still depends on camera,
-LiDAR, radar, and GPS data. It also depends on metadata, human and automated
-labeling, and safety checks. Perception, data, and simulation teams also need
-to coordinate changes, especially when a
+In [[autonomous-driving-ai=>autonomous driving AI]], simulation is a validation
+environment rather than only a design tool. Teams recreate large sets of
+real-world scenarios before moving to closed tracks and road testing. The same
+release path still depends on camera, LiDAR, radar, and GPS data. It also
+depends on metadata, human and automated labeling, and safety checks.
+Perception, data, and simulation teams also need to coordinate changes,
+especially when a
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] decision
 changes which failures must be reproduced in simulation.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
@@ -136,10 +137,10 @@ capability still needed a validated clinical or business problem before it
 could become a sustainable product.
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
-Autonomous-driving simulation creates another kind of simulated data through
-recreated scenarios for model testing. These cases help cover dangerous,
-expensive, or rare situations, but they sit beside real sensor collection and
-labeling rather than replacing them.
+[[autonomous-driving-ai=>Autonomous driving AI]] simulation creates another
+kind of simulated data through recreated scenarios for model testing. These
+cases help cover dangerous, expensive, or rare situations, but they sit beside
+real sensor collection and labeling rather than replacing them.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
 
 ## Data Engineering Needs
@@ -179,11 +180,11 @@ and reason about how design changes affect the physical behavior being
 modeled.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-Autonomous driving shows the validation version. The system collects sensor
-data and metadata from real driving, manages labels, recreates scenarios in
-simulation, and then uses staged tests before release. The simulated environment
-is useful because it ties back to real scenarios, safety cases, and production
-rollout.
+[[autonomous-driving-ai=>Autonomous driving AI]] shows the validation version.
+The system collects sensor data and metadata from real driving, manages labels,
+recreates scenarios in simulation, and then uses staged tests before release.
+The simulated environment is useful because it ties back to real scenarios,
+safety cases, and production rollout.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
 
 Industrial machine data shows the consulting version. The useful representation

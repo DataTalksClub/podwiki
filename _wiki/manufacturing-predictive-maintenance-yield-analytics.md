@@ -78,6 +78,11 @@ to know that a tool might have a probable issue within a window. If
 measurements stayed in range, they could monitor the tool and plan a check
 between roughly three and twelve days.[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
+That makes the fab case a tool-level cousin of
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]]. The baseline is
+not an individual dog or patient history. It's the tool's qualification
+schedule, wafer exposure, and recent telemetry.
+
 Use [[model monitoring]] for the
 broader production work where teams keep watching model inputs, predictions,
 and business outcomes after deployment.

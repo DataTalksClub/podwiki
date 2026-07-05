@@ -66,11 +66,11 @@ experiments to the full ML engineering lifecycle.
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 
 Failure cost changes the validation burden. A generated description or support
-assistant shouldn't share a release path with an autonomous-driving perception
-stack. Fraud models and recommenders sit between those extremes. Safety-critical
-systems need inherited tests, simulation, and staged validation. Lower-risk
-systems can lean more on evaluation sets, live tests, monitoring, and review
-loops.
+assistant shouldn't share a release path with an
+[[autonomous-driving-ai=>autonomous driving perception]] stack. Fraud models
+and recommenders sit between those extremes. Safety-critical systems need
+inherited tests, simulation, and staged validation. Lower-risk systems can lean
+more on evaluation sets, live tests, monitoring, and review loops.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 
@@ -188,9 +188,10 @@ and [[LLM production patterns]] still need explicit control points.
 
 ## Validation Scales With Failure Cost
 
-The release path depends on what happens when the system fails. Autonomous
-driving work validates perception models through simulation and closed tracks
-before on-road testing with large-scale sensor data and labeling. The
+The release path depends on what happens when the system fails.
+[[autonomous-driving-ai=>Autonomous driving AI]] validates perception models
+through simulation and closed tracks before on-road testing with large-scale
+sensor data and labeling. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] tradeoff is
 part of that production boundary because sensor design changes what perception
 tests have to prove. Sensitive pedestrian and gesture cases become inherited
@@ -198,10 +199,10 @@ tests that new models must pass.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 
 A generated ad description or support assistant shouldn't use the same release
-path as an autonomous-driving perception stack. Fraud models and recommenders
-sit between those extremes. Lower-risk systems can use explicit and implicit
-feedback through [[AI Product Feedback Loops]]. They can also use live test
-sets, small A/B tests, review loops, and monitoring.
+path as an [[autonomous-driving-ai=>autonomous driving perception]] stack. Fraud
+models and recommenders sit between those extremes. Lower-risk systems can use
+explicit and implicit feedback through [[AI Product Feedback Loops]]. They can
+also use live test sets, small A/B tests, review loops, and monitoring.
 
 Higher-risk systems need staged validation and inherited safety tests. The
 shared rule is stable: the deployment environment exposes failures the notebook

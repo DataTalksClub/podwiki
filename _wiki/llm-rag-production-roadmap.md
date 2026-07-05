@@ -13,6 +13,7 @@ related_wiki:
   - Long-Context LLM Evaluation
   - Production Search Evaluation
   - Agent Engineering
+  - Agent Ops
   - AI Engineer Role
   - AI Red Teaming
   - RAG Portfolio Projects
@@ -141,6 +142,8 @@ At enterprise scale, the rollout milestone adds governance and feedback. It also
 adds guardrails and lineage. Multi-tenant evaluation, LLM judges, and human
 labels belong in the same gate
 ([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
+Use [[agent-ops=>Agent Ops]] when the agent can call tools, move user data, or
+route work to human review.
 
 ## Harden Serving, Cost, and Security
 

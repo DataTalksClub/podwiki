@@ -104,6 +104,13 @@ preserve metadata and deployment behavior. Without that relationship, a team may
 know a pipeline passed once but still not know what changed after a failure.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
+When teams use [[ai-coding-tools=>AI coding tools]] inside pull requests or CI,
+the same rule applies. The generated changes need runnable tests and a readable
+diff. Reviewers still need to check them before they become production code.
+
+Coding assistants can speed up scaffolding and refactoring. The release still
+depends on the team's existing test and review loop.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
+
 ## Evaluation for ML, Search, and LLM Systems
 
 Some systems need evaluation sets rather than pass/fail data checks. ML and

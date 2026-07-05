@@ -32,12 +32,13 @@ risk[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML
 The focused manufacturing case is
 [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]],
 where tool logs, yield data, and qual timing become one operating decision.
-Pet-health ML uses sensor-based anomaly detection around each dog's long-term
-baseline[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
 
-The personal-baseline version is covered in
-[[Sensor ML Personal Baselines]]. Teams look for a persistent change from one
-subject's normal behavior rather than a population average.
+Pet-health ML uses
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]] for anomaly
+detection around each dog's long-term
+baseline[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+Teams look for a persistent change from one subject's normal behavior rather
+than a population average.
 
 Theme-park crowd routing depends on queue prediction and capacity modeling.
 Next-best-action recommendations depend on app adoption and live
@@ -113,7 +114,8 @@ Pet-health failure can come from false confidence in shallow consumer metrics.
 Existing pet devices collected basic activity data. Early health signals live in
 sleep fragmentation, restlessness, movement quality, and changes over time
 [[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
-Anomaly detection needs a personal baseline before it becomes useful.
+Anomaly detection needs a
+[[sensor-ml-personal-baselines=>personal baseline]] before it becomes useful.
 
 Theme-park crowd routing puts adoption and intervention design ahead of model
 sophistication. A recommendation can only redistribute crowds if visitors use
@@ -192,8 +194,9 @@ Sofya's baseline is individual, and a dog needs two or three weeks of observatio
 before the system can know what's normal. Weather, people, and routines affect
 behavior. Age and household changes matter too
 [[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
-That makes validation a question of useful deviations, not a one-time classifier
-score.
+That makes validation a question of
+[[sensor-ml-personal-baselines=>personal-baseline]] deviations, not a one-time
+classifier score.
 
 Abouzar validates recommendations through behavior and experiments, including
 employee swiping experiments and [[a-b-testing=>A/B testing]].

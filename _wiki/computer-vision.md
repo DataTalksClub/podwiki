@@ -27,8 +27,8 @@ It's less a model family than applied perception. A team collects and labels
 visual data, trains a [[deep learning]] model,
 validates edge cases, and ships the result where someone acts on it.
 
-[[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the clearest
-autonomous-driving version in
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the clearest version of
+[[autonomous-driving-ai=>autonomous driving AI]] in
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]].
 That discussion moves from sensor tradeoffs into on-vehicle inference and sensor
 data management. It also covers labeling, simulation, closed-track testing, and
@@ -39,6 +39,12 @@ frame to camera traps and drone imagery. Remote sensing is part of the same
 system in
 [[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]].
 That discussion adds citizen science, sparse labels, and field deployment.
+
+Wearable health signals are the adjacent non-visual sensor case. Fit Tails uses
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]] so a pet-health
+alert reflects the animal's own sleep and movement history. The product isn't
+only assigning a generic activity class
+([[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]).
 
 ## Visual Decision Systems
 
@@ -69,11 +75,11 @@ A useful vision system also needs the right data source and labeling path. The
 team has to plan validation, runtime targets, privacy constraints, and
 ownership.
 
-Autonomous driving makes the boundary visible. The computer vision problem
-there spans sensors, camera-first perception, and gesture recognition for
-police and construction signals. It then extends into on-vehicle inference,
-sensor data management, and labeling. Release staging and sensitive-case testing
-belong to the same system. The
+[[autonomous-driving-ai=>Autonomous driving AI]] makes the boundary visible.
+The computer vision problem there spans sensors, camera-first perception, and
+gesture recognition for police and construction signals. It then extends into
+on-vehicle inference, sensor data management, and labeling. Release staging and
+sensitive-case testing belong to the same system. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison is the narrow sensor-choice view of that broader computer vision
 system
@@ -94,8 +100,9 @@ decisions, not only model accuracy.
 ## Data and Labeling
 
 Computer vision exposes data work because missing labels and wrong labels show
-up in the output. In autonomous driving, rare edge cases tie directly to sensor
-data collection and privacy. They also tie to annotation and automated labeling
+up in the output. In [[autonomous-driving-ai=>autonomous driving AI]], rare edge
+cases tie directly to sensor data collection and privacy. They also tie to
+annotation and automated labeling
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
 A model can't learn uncommon road situations if the team can't find, label,
 review, and feed those cases back into training and testing.
@@ -123,10 +130,13 @@ one modeler.
 
 ## Deployment Constraints
 
-Computer vision deployment depends on where the decision happens. A vehicle
-needs low-latency perception, compression, safety tests, and release controls.
-On-vehicle inference and model compression pair with simulation and
-closed-track validation, staged releases, and geography or edge-case complexity
+Computer vision deployment depends on where the decision happens. In
+[[autonomous-driving-ai=>autonomous driving AI]], a vehicle needs low-latency
+perception and compression. It also needs safety tests and release controls.
+
+On-vehicle inference and model compression pair with simulation and closed-track
+validation. Release planning also has to account for geography and edge-case
+complexity
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
 The [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison keeps that vehicle deployment tradeoff tied to sensor choice.
@@ -159,8 +169,8 @@ The same risks recur across domains. A model trained in one city may fail in
 another. A new camera setup or factory line can create the same risk. A new
 habitat can do that too.
 
-Geography and unusual traffic signals create real-world complexity in autonomous
-driving
+Geography and unusual traffic signals create real-world complexity in
+[[autonomous-driving-ai=>autonomous driving AI]]
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
 Conservation has the same problem through domain shift, transfer learning, and
 generalization

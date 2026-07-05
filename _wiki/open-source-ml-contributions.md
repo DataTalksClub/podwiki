@@ -21,7 +21,8 @@ Open-source ML contributions are public improvements to machine-learning and
 data tools that other practitioners can use, review, or maintain. The strongest
 examples are small and practical. They include
 reproducible issues, documentation fixes, tests, and examples. CI improvements,
-community feedback, and scikit-learn-compatible components count too
+community feedback, and [[scikit-learn=>Scikit-Learn]]-compatible components
+count too
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 The broader [[Open Source]] page covers licensing and community context.

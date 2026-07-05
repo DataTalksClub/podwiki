@@ -50,8 +50,9 @@ AI engineering therefore sits near
 [[machine-learning-engineer-role=>machine learning engineering]],
 and [[data-engineer-role=>data engineering]].
 
-AI engineers increasingly build with [[AI Coding Tools]]. Cursor and Claude Code
-change product code maintenance.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>AI Engineer Role]]
+AI engineers increasingly build with
+[[ai-coding-tools=>AI coding tools]]. Cursor and Claude Code change product code
+maintenance.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>AI Engineer Role]]
 
 AI engineering is broader than [[LLM tools]]
 or a framework choice. Engineers choose where to put knowledge, which model

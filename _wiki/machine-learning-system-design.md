@@ -237,8 +237,8 @@ account for latency, frames per second, and energy use. Teams also have to
 account for model size, offline behavior, and runtime choices
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 
-Autonomous-driving perception adds the same system-design pressure in a physical
-vehicle. A team choosing
+[[autonomous-driving-ai=>Autonomous driving AI]] perception adds the same
+system-design pressure in a physical vehicle. A team choosing
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] has to
 connect sensor cost with redundancy. It also has to plan labeling, validation,
 and on-vehicle inference together

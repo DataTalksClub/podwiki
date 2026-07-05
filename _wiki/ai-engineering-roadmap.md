@@ -11,6 +11,7 @@ related_wiki:
   - Retrieval-Augmented Generation
   - Agent Engineering
   - LLM Evaluation Workflows
+  - Agent Ops
   - AI Infrastructure
   - MLOps
 ---
@@ -197,6 +198,9 @@ monitoring and feedback [[cite:s24e03-from-notebook-to-production-building-end-t
 [[person:adityagautam=>Aditya Gautam]]
 adds agent guardrails and data lineage. He also covers feedback iteration and
 LLM judge alignment [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
+
+For deployed agents, that operating layer is
+[[agent-ops=>Agent Ops]].
 For this stage, use
 [[AI Red Teaming]],
 [[Security]], and

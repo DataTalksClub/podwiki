@@ -184,6 +184,11 @@ In industrial tabular work, generated rows need review against physical
 constraints, quality measurements, and domain assumptions.
 [[cite:industrial-data-small-data-production-machine-learning=>Industrial Data]]
 
+In [[autonomous-driving-ai=>autonomous driving AI]], simulated scenarios are a
+validation tool rather than a shortcut around real sensor collection, labeling,
+and staged testing.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+
 Urban data needs journey flows and fare logic to survive generation and
 publication. Sensor reliability and planning questions must survive too.
 [[cite:urban-data-science=>Urban Data]]

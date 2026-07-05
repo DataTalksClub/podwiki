@@ -9,6 +9,7 @@ related:
   - Retrieval-Augmented Generation
   - Agent Engineering
   - LLM Evaluation Workflows
+  - Agent Ops
   - AI Infrastructure
   - Data Engineer Role
   - Machine Learning Engineer Role
@@ -152,6 +153,9 @@ Agent-specific testing mocks tools and runs integration tests. It asserts
 whether the agent achieved the right outcome without requiring the same
 reasoning path every
 time[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+When those tests govern a tool-using agent after launch, the work connects to
+[[agent-ops=>Agent Ops]]. The operating surface includes traces, permissions,
+escalation, and feedback.
 The work overlaps with [[MLOps]],
 [[AI Infrastructure]], and
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].

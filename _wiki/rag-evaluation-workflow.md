@@ -18,6 +18,7 @@ related_wiki:
   - Search and RAG Project Checklist
   - LLM Production Patterns
   - Agent Engineering
+  - Agent Ops
 ---
 
 When you run a RAG evaluation workflow, separate retrieval from generation:
@@ -190,8 +191,10 @@ product policy can each get separate labels.
 
 Custom datasets and system benchmarks belong in the same evaluation workflow.
 When retrieval is part of an agentic workflow, add mocked tools, integration
-tests, and regression tests. Outcome assertions matter more than exact path
-matching because multiple traces can still produce the same correct result.
+tests, and regression tests. The production version of that workflow also needs
+[[agent-ops=>Agent Ops]] practices for tool-call traces, permissions, and
+feedback. Outcome assertions matter more than exact path matching because
+multiple traces can still produce the same correct result.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 For a plain RAG assistant, a correct answer can come from different retrieved

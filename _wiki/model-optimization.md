@@ -24,12 +24,13 @@ enterprise servers and private GPUs.
 
 ## Deployment Constraints
 
-Autonomous vehicles can't route sensor signals through slow agents or wait
-seconds before reacting. Latency is the constraint.[[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]]
+[[autonomous-driving-ai=>Autonomous driving systems]] can't route sensor signals
+through slow agents or wait seconds before reacting. Latency is the
+constraint.[[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]]
 
-In self-driving systems, in-car models run many times per second on vehicle
-hardware. The deployed networks may differ from the training-time networks.
-That makes
+In [[autonomous-driving-ai=>self-driving systems]], in-car models run many times
+per second on vehicle hardware. The deployed networks may differ from the
+training-time networks. That makes
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 a runtime optimization question too, because each sensor strategy changes the
 signals that must fit onboard compute.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving]]
@@ -52,8 +53,9 @@ when the search process needs reproducible pipelines.
 
 ## Compression and Quantization
 
-Autonomous-driving teams use quantization as model compression. It makes models
-smaller and faster, alongside other internal optimizations.
+[[autonomous-driving-ai=>Autonomous driving AI]] teams use quantization as model
+compression. It makes models smaller and faster, alongside other internal
+optimizations.
 That matters because the vehicle has to understand the world in real time using
 limited onboard compute. In the
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]

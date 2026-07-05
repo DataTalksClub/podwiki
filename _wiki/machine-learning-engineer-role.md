@@ -114,7 +114,8 @@ to dependency management, code review, and debugging.
 
 When that skill is demonstrated publicly,
 [[open-source-ml-contributions=>open-source ML contributions]] can show the
-same habits. Useful proof includes reproducible examples and docs. Tests,
+same habits, especially in [[scikit-learn=>Scikit-Learn]]-compatible libraries
+and examples. Useful proof includes reproducible examples and docs. Tests,
 packaging, and maintainer review matter too
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 

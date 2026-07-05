@@ -9,6 +9,7 @@ related_wiki:
   - Reinforcement Learning
   - Evolutionary Algorithms
   - Prompt Engineering
+  - Agent Ops
 ---
 
 Game AI to LLM agents connects older game and simulation techniques to modern
@@ -123,10 +124,13 @@ run, coordinate state, and feel playable.
 
 ## Evaluation Keeps the Bridge Honest
 
-Agent systems need feedback mechanisms to assess performance consistency and
-understand output variance. Production applications also need evaluation
-pipelines, variable control, behavior explanation, and monitoring tools such as
-Arize Phoenix.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Agent systems need feedback mechanisms for performance consistency and output
+variance. Production applications add evaluation pipelines and variable control.
+They also add behavior explanation and monitoring tools such as Arize Phoenix.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+
+Those monitoring and feedback concerns connect the design bridge to
+[[agent-ops=>Agent Ops]] once LLM agents call tools or coordinate support
+workflows.
 
 Games and RL supply mental models for action and feedback. Evolutionary
 algorithms add a search lens. Modern [[agent-engineering=>LLM agents]] add

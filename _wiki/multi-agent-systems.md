@@ -6,6 +6,7 @@ related:
   - Agent Engineering
   - LLM Production Patterns
   - LLM Evaluation Workflows
+  - Agent Ops
   - Responsible AI and Governance
   - Evolutionary Algorithms
 ---
@@ -162,6 +163,8 @@ know what each agent did and how user data was processed. They also need to
 track where data went and which offline workflows touched it. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 That visibility connects to retention, data lineage, auditability, and
 compliance.
+It also connects multi-agent design to [[agent-ops=>Agent Ops]] when teams need
+to operate traces, handoffs, and action permissions across several agents.
 
 Guardrails should sit near the tool boundary. A refund workflow can keep
 high-value Stripe actions behind human review. The agent can still handle
@@ -210,5 +213,6 @@ topics:
 - [[agent-engineering=>Agent Engineering]]
 - [[llm-production-patterns=>LLM Production Patterns]]
 - [[llm-evaluation-workflows=>LLM Evaluation Workflows]]
+- [[agent-ops=>Agent Ops]]
 - [[responsible-ai-and-governance=>Responsible AI and Governance]]
 - [[evolutionary-algorithms=>Evolutionary Algorithms]]
