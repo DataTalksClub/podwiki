@@ -383,7 +383,9 @@ to the work so trust doesn't depend on demos alone
 organizational models behind these decisions. [[Hiring]]
 goes deeper into role definition, interview design, and recruiter-manager
 alignment. [[Leadership]] expands the
-manager, senior IC, coaching, and stakeholder side of team building.
+manager, senior IC, coaching, and stakeholder side of team building
+[[cite:data-team-roles=>Data Team Roles]]
+[[cite:building-data-team=>Building a Data Team]].
 
 For platform-heavy teams, use [[DataOps]],
 [[MLOps]], and the

@@ -180,4 +180,6 @@ The strongest portfolio version links CDC to the rest of the data platform. It
 stores raw changes and models current-state tables. It adds quality checks, runs
 through orchestration, and serves a small dashboard or downstream consumer. That
 makes the project about reliable data movement, not only about running a
-connector.
+connector
+[[cite:data-engineering-tools-modern-data-stack@45:59=>ETL vs ELT and Modern Data Engineering]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@11:57=>Modern Data Pipelines]].

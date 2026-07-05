@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12302
+    "links": 12308
   },
   "nodes": [
     {
@@ -29657,6 +29657,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -30540,6 +30546,12 @@
     {
       "source": "wiki:chief-data-officer-role",
       "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32597,6 +32609,12 @@
     },
     {
       "source": "wiki:cv-screening",
+      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cv-screening",
       "target": "podcast:get-data-scientist-job",
       "kind": "wiki-chip",
       "weight": 1
@@ -32610,6 +32628,12 @@
     {
       "source": "wiki:cv-screening",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "podcast:how-to-stand-out-in-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39648,6 +39672,12 @@
     {
       "source": "wiki:data-pipelines",
       "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -82620,6 +82650,12 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-team-roles",
       "kind": "wiki-chip",
       "weight": 1
     },

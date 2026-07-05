@@ -250,6 +250,30 @@ html.dark .theme-toggle:focus,
   display: inline-block;
 }
 
+.podwiki-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0.2rem auto 0.8rem;
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+
+.podwiki-subnav a {
+  padding: 0.25rem 0.45rem;
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.2em;
+}
+
+.podwiki-subnav a:hover,
+.podwiki-subnav a:focus {
+  color: var(--link-hover);
+  text-decoration-color: currentColor;
+}
+
 .page {
   width: min(100% - 2rem, 1040px);
   margin: 0 auto;
@@ -615,13 +639,17 @@ html.dark body > .container > .row hr,
 .knowledge-page li a,
 .knowledge-page table a {
   color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 55%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
 }
 
 .knowledge-page p a:hover,
 .knowledge-page li a:hover,
 .knowledge-page table a:hover {
   color: var(--link-hover);
-  text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
 .eyebrow {

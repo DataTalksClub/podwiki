@@ -519,8 +519,12 @@ reach the same result with less risk. Operating changes may be enough too.
 The practical question isn't "Can we use machine learning in this business?"
 It's "Which decision improves enough to justify the data, product, and
 operations work?"
+[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Baseline before ML]].
 
 ## Related Pages
+
+The investment decision connects to these business, product, and ML pages.
 
 - [[Machine Learning]]
 - [[Business Skills for Data Professionals]]

@@ -150,6 +150,12 @@ and `sources/podcast-archive-summary.md`. Agents should read the archive
 summary and source-derived records as their first pass before opening a full
 episode transcript.
 
+`make sources` also runs `scripts/check_source_records.py`. That check compares
+`_podcast_summaries/`, `_people/`, and `_books/` against the sibling source repo
+and fails if a generated registry file no longer has a source record. Remove or
+migrate stale records before rebuilding graph/search so old entity nodes do not
+remain discoverable.
+
 For large topic discovery work, keep five subagents running in parallel. Split
 the source episodes into non-overlapping batches. Each subagent should return
 candidate topics, canonical podcast links, optional guest references, and
@@ -266,6 +272,8 @@ title against real pages without a build. `make links` builds the static site an
 checks all rendered links (nav, generated pages, anchors). Run
 `make wiki-links` before committing and `make links` before finishing structural
 changes. Rebuild search after content changes: `python scripts/build_search_index.py`.
+Run `python scripts/check_source_records.py` when source-derived registries may
+have changed.
 
 ## Evidence Rules
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Transitions
-permalink: /transitions-page/
+permalink: /special-pages/transitions/
 ---
 
 # Transitions
@@ -11,7 +11,7 @@ Career-change pages for moving from one background into another data or AI role.
 {% assign items = site.wiki | sort: "title" %}
 <div class="grid">
 {% for item in items %}
-  {% if item.tags contains "transition" %}
+  {% if item.tags contains "transition" and item.redirect_to == nil %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}

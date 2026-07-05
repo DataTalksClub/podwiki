@@ -169,6 +169,12 @@ Strong projects include negative examples:
 - high latency
 - plausible answers that aren't grounded
 
+Those fields come from review work across transcript RAG, production search, and
+agent traces. A reviewer needs to see retrieval choices and failure points
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:building-production-search-systems=>Building Search Systems]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+
 When the project is also hiring evidence, link the finished checklist back to
 [[RAG Portfolio Projects]]. Use that page for the project story and this
 checklist for review evidence. If it's mainly a search system, connect the checklist to

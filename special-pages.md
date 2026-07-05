@@ -6,15 +6,15 @@ permalink: /special-pages/
 
 <h1>Special Pages</h1>
 
-<p class="lede">Guides, comparisons, roadmaps, how-tos, and career transitions — all grounded in DataTalks.Club podcast episodes.</p>
+<p class="lede">Guides, comparisons, roadmaps, how-tos, and career transitions, all grounded in DataTalks.Club podcast episodes.</p>
 
-<div class="tag-filter" id="tag-filter">
-  <button class="tag-btn active" data-tag="all">All</button>
-  <button class="tag-btn" data-tag="guide">Guides</button>
-  <button class="tag-btn" data-tag="comparison">Comparisons</button>
-  <button class="tag-btn" data-tag="roadmap">Roadmaps</button>
-  <button class="tag-btn" data-tag="transition">Transitions</button>
-  <button class="tag-btn" data-tag="how-to">How-Tos</button>
+<div class="tag-filter" id="tag-filter" aria-label="Special page type">
+  <button type="button" class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
+  <button type="button" class="tag-btn" data-tag="guide" aria-pressed="false">Guides</button>
+  <button type="button" class="tag-btn" data-tag="comparison" aria-pressed="false">Comparisons</button>
+  <button type="button" class="tag-btn" data-tag="roadmap" aria-pressed="false">Roadmaps</button>
+  <button type="button" class="tag-btn" data-tag="transition" aria-pressed="false">Transitions</button>
+  <button type="button" class="tag-btn" data-tag="how-to" aria-pressed="false">How-Tos</button>
 </div>
 
 <p class="filter-count" id="filter-count"></p>
@@ -44,6 +44,11 @@ permalink: /special-pages/
 
   function apply(tag) {
     var shown = 0;
+    buttons.forEach(function(btn) {
+      var active = btn.getAttribute('data-tag') === tag;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
     cards.forEach(function(card) {
       var tags = card.getAttribute('data-tags');
       var match = tag === 'all' || (tags && tags.split(',').map(function(t){return t.trim();}).indexOf(tag) !== -1);
@@ -55,12 +60,18 @@ permalink: /special-pages/
 
   buttons.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      buttons.forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      apply(btn.getAttribute('data-tag'));
+      var tag = btn.getAttribute('data-tag');
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState(null, '', tag === 'all' ? window.location.pathname : '#' + tag);
+      }
+      apply(tag);
     });
   });
 
-  apply('all');
+  var initial = window.location.hash ? window.location.hash.slice(1) : 'all';
+  var valid = Array.prototype.some.call(buttons, function(btn) {
+    return btn.getAttribute('data-tag') === initial;
+  });
+  apply(valid ? initial : 'all');
 })();
 </script>

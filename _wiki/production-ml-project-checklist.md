@@ -192,6 +192,13 @@ A production ML portfolio project is ready for review when it includes:
   business outcomes, and upstream data causes
 - a rollback or retraining rule with the owner action that follows an incident
 
+The list condenses lifecycle checkpoints from production ML discussions. Guests
+connect those checkpoints to reproducibility, deployment handoff, monitoring,
+and rollback
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+
 The surrounding topic pages cover each piece of the project:
 
 - [[Machine Learning Portfolio Projects]]

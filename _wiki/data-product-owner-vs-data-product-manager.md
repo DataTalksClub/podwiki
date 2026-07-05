@@ -56,9 +56,11 @@ release governance.
 - Shared surface: both roles need enough data literacy to connect technical
   quality with business impact.
 
-The practical question isn't which title sounds more senior. Ask whether the
-missing work is consumer trust in a supported data product or product judgment
-about where data work should go next.
+The practical question isn't which title sounds more senior. First ask whether a
+supported data product is missing consumer trust. If trust isn't the gap, ask
+where data work should go next
+[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 
 ## Owner Accountability
 
@@ -135,10 +137,13 @@ Use data product manager when the missing work is product direction:
 - adoption problems need user research and rollout work
 
 If one person owns both, name both surfaces explicitly. Otherwise the role can
-collapse into ticket intake for data requests.
+collapse into ticket intake for data requests
+[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 
 ## Related Pages
 
+The comparison connects to these role and product pages.
 
 - [[Product Owner vs Product Manager]]
 - [[Data Product Manager]]

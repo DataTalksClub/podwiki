@@ -138,7 +138,7 @@ Optional repository variable:
 1. Add or update the source episode Markdown in
    `../datatalksclub.github.io/_podcast`.
 2. Run `make sources` to regenerate `_podcast_summaries/`, `_people/`,
-   `artifacts/podcast/source-index.json`, and
+   `_books/`, `artifacts/podcast/source-index.json`, and
    `sources/podcast-archive-summary.md`.
 3. Link the new evidence from relevant `_wiki/` pages when it adds useful
    support.

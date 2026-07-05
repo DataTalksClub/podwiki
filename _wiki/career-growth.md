@@ -324,17 +324,17 @@ signal before someone exits into solopreneurship
 
 Career growth usually follows a
 [[career-transitions-in-data=>career transition]] or broader
-[[career development]] question,
-then turns into concrete evidence for
+[[career development]] question. It then turns into concrete evidence for
 [[job search]] and
-[[hiring]]. Role-specific growth depends on
-the expectations around the
-[[machine learning engineer role]],
-[[MLOps]], and
+[[hiring]]. Role-specific growth depends on expectations around the
+[[machine learning engineer role]] and
+[[MLOps]]. It also connects to
 [[machine learning system design]].
+
 Public proof connects this topic to
-[[technical writing]],
-[[developer relations]],
-[[open source and developer relations]],
-and
-[[open source portfolio evidence]].
+[[technical writing]] and
+[[developer relations]]. It also connects to
+[[open source and developer relations]] and
+[[open source portfolio evidence]]
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
+[[cite:open-source-ml-contributions=>Open Source ML Contributions]].

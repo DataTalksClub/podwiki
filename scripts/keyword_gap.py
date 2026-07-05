@@ -51,9 +51,21 @@ STOP = set(
     "on at by from into can do does using use it its as be best top".split()
 )
 ALIAS_ROUTES = {
+    "build a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "build data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "building data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "create a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "creating data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "data analysis events": ("COVERED", "_wiki:data-ai-conference-building"),
+    "data analytics event": ("COVERED", "_wiki:data-ai-conference-building"),
+    "data analytics events": ("COVERED", "_wiki:data-ai-conference-building"),
+    "data engineering freelancing": ("COVERED", "_wiki:freelance"),
+    "data events": ("COVERED", "_wiki:data-ai-conference-building"),
     "data ops": ("COVERED", "_wiki:dataops"),
+    "data ops engineer": ("COVERED", "_wiki:dataops-engineer-role"),
     "data scientist": ("COVERED", "_wiki:data-scientist-role"),
     "ml ops": ("COVERED", "_wiki:mlops"),
+    "soloprenuer": ("COVERED", "_wiki:solopreneur"),
     "tech startups": ("COVERED", "_wiki:startups"),
 }
 

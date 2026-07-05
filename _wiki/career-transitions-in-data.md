@@ -535,7 +535,9 @@ Career transitions in data connect role choice, hiring proof, and portfolio
 evidence. The broad transition and hiring hubs are
 [[Job Search]],
 [[Career Growth]], and
-[[Hiring]].
+[[Hiring]]
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
 
 Candidates then need target-role proof:
 

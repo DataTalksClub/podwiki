@@ -8,7 +8,7 @@ BASEURL ?=
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
 
-sources: ## Sync source-derived podcast and people pages for graph/search
+sources: ## Sync source-derived registries and archive indexes for graph/search
 	python scripts/sync_podcast_pages.py
 	python scripts/sync_people_pages.py
 	python scripts/sync_book_pages.py
@@ -16,6 +16,7 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 	python scripts/stamp_wiki_dates.py
 	python scripts/extract_podcast_sources.py
 	python scripts/build_podcast_archive_summary.py
+	python scripts/check_source_records.py
 
 graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
@@ -68,6 +69,7 @@ seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 check: lambda-package podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, and link check
 
 ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expects checked-in source-derived records)
+	python scripts/check_source_records.py
 	python scripts/build_graph.py
 	python scripts/build_search_index.py --stemmer $(STEMMER)
 	$(RUSTKYLL) build $(if $(BASEURL),--baseurl "$(BASEURL)")
@@ -79,6 +81,7 @@ ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expect
 	python scripts/check_links.py $(if $(BASEURL),--baseurl "$(BASEURL)")
 
 ci-lambda-package: ## CI build path for Lambda search package
+	python scripts/check_source_records.py
 	python scripts/build_search_index.py --stemmer $(STEMMER)
 	python scripts/prepare_lambda_package.py
 

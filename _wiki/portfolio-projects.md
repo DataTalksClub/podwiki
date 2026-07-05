@@ -341,7 +341,9 @@ came first. They should also explain which parts failed and what they would
 change with more time. For data scientist candidates, the
 [[data-scientist-interview=>data scientist interview]] path turns that project
 story into case practice. It also connects it to SQL, coding, and behavioral
-preparation.
+preparation
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
 
 The hiring context connects to [[Job Search]]
 and the longer arc connects to [[Career Development]].
@@ -397,6 +399,7 @@ tradeoffs.
 
 ## Related Pages
 
+Portfolio evidence connects to these role-specific project pages.
 
 - [[Data Engineering Portfolio Projects]]
 - [[Analytics Engineering Portfolio Projects]]

@@ -24,7 +24,7 @@ and keep exploring.
 
 <section class="graph-shell">
   <div class="graph-stage">
-    <canvas id="podcast-graph-canvas" width="1100" height="720"></canvas>
+    <canvas id="podcast-graph-canvas" width="1100" height="720" role="img" aria-label="Interactive graph of podcast wiki topics, content pages, episodes, people, and books. Use the search field and side panel links to explore with a keyboard."></canvas>
   </div>
   <aside class="graph-panel" id="graph-panel">
     <p class="muted">Loading the graph…</p>

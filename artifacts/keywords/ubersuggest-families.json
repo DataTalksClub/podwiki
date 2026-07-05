@@ -158,7 +158,7 @@
         "cpc": "$11.84",
         "paid_difficulty": 11,
         "seo_difficulty": 50,
-        "wiki_score": 9.0,
+        "wiki_score": 8.9,
         "main_score": 7.1,
         "ground_score": 6.0,
         "ground_file": "_podcast/data-science-management-and-agile-machine-learning.md",
@@ -760,7 +760,7 @@
         "cpc": "$0.00",
         "paid_difficulty": 67,
         "seo_difficulty": 26,
-        "wiki_score": 9.0,
+        "wiki_score": 8.9,
         "main_score": 7.1,
         "ground_score": 6.0,
         "ground_file": "_podcast/data-science-management-and-agile-machine-learning.md",
@@ -1064,7 +1064,7 @@
   },
   {
     "family": "data engineering",
-    "total_volume": 26860,
+    "total_volume": 26850,
     "min_seo_difficulty": 4,
     "statuses": [
       "BOOK_INTENT",
@@ -1663,26 +1663,6 @@
         "status": "BRAND"
       },
       {
-        "no": 247,
-        "keyword": "data engineering freelancing",
-        "keyword_slug": "data-engineering-freelancing",
-        "search_volume": 10,
-        "cpc": "$0.00",
-        "paid_difficulty": 48,
-        "seo_difficulty": 28,
-        "wiki_score": 6.1,
-        "main_score": 11.1,
-        "ground_score": 7.4,
-        "ground_file": "_podcast/freelancing-in-machine-learning.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
         "no": 501,
         "keyword": "free data engineering courses with certificates",
         "keyword_slug": "free-data-engineering-courses-with-certificates",
@@ -1850,7 +1830,7 @@
         "cpc": "$0.00",
         "paid_difficulty": 1,
         "seo_difficulty": 4,
-        "wiki_score": 7.7,
+        "wiki_score": 7.8,
         "main_score": 6.9,
         "ground_score": 5.9,
         "ground_file": "_podcast/data-consulting-business-pricing-and-client-acquisition.md",
@@ -2979,6 +2959,58 @@
         "covered_by_wiki": false,
         "wiki_file": "",
         "wiki_title": "",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      }
+    ]
+  },
+  {
+    "family": "solopreneur",
+    "total_volume": 8800,
+    "min_seo_difficulty": 37,
+    "statuses": [
+      "COVERED"
+    ],
+    "covered_by_wiki": true,
+    "covered_by_editorial": false,
+    "keywords": [
+      {
+        "no": 911,
+        "keyword": "soloprenuer",
+        "keyword_slug": "soloprenuer",
+        "search_volume": 4400,
+        "cpc": "$6.62",
+        "paid_difficulty": 14,
+        "seo_difficulty": 37,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/solopreneur.md",
+        "wiki_title": "Solopreneur",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      },
+      {
+        "no": 910,
+        "keyword": "solopreneur",
+        "keyword_slug": "solopreneur",
+        "search_volume": 4400,
+        "cpc": "$7.48",
+        "paid_difficulty": 21,
+        "seo_difficulty": 45,
+        "wiki_score": 11.7,
+        "main_score": 12.9,
+        "ground_score": 10.2,
+        "ground_file": "_podcast/solopreneur-developer-and-data-professional.md",
+        "status": "COVERED",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/solopreneur.md",
+        "wiki_title": "Solopreneur",
         "wiki_tag": "",
         "covered_by_editorial": false,
         "editorial_file": ""
@@ -4413,70 +4445,6 @@
     ]
   },
   {
-    "family": "solopreneur",
-    "total_volume": 4400,
-    "min_seo_difficulty": 45,
-    "statuses": [
-      "COVERED"
-    ],
-    "covered_by_wiki": true,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 910,
-        "keyword": "solopreneur",
-        "keyword_slug": "solopreneur",
-        "search_volume": 4400,
-        "cpc": "$7.48",
-        "paid_difficulty": 21,
-        "seo_difficulty": 45,
-        "wiki_score": 11.7,
-        "main_score": 12.9,
-        "ground_score": 10.2,
-        "ground_file": "_podcast/solopreneur-developer-and-data-professional.md",
-        "status": "COVERED",
-        "covered_by_wiki": true,
-        "wiki_file": "_wiki/solopreneur.md",
-        "wiki_title": "Solopreneur",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
-    "family": "soloprenuer",
-    "total_volume": 4400,
-    "min_seo_difficulty": 37,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 911,
-        "keyword": "soloprenuer",
-        "keyword_slug": "soloprenuer",
-        "search_volume": 4400,
-        "cpc": "$6.62",
-        "paid_difficulty": 14,
-        "seo_difficulty": 37,
-        "wiki_score": 0.0,
-        "main_score": 0.0,
-        "ground_score": 0.0,
-        "ground_file": "",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "slack careers",
     "total_volume": 3600,
     "min_seo_difficulty": 37,
@@ -4927,7 +4895,7 @@
         "cpc": "$6.20",
         "paid_difficulty": 86,
         "seo_difficulty": 31,
-        "wiki_score": 5.7,
+        "wiki_score": 5.8,
         "main_score": 15.3,
         "ground_score": 6.1,
         "ground_file": "_podcast/datatalksclub-scaling-and-free-courses.md",
@@ -4986,7 +4954,7 @@
   },
   {
     "family": "freelance data consulting",
-    "total_volume": 2540,
+    "total_volume": 2550,
     "min_seo_difficulty": 5,
     "statuses": [
       "COVERED"
@@ -5042,7 +5010,7 @@
         "cpc": "$32.30",
         "paid_difficulty": 25,
         "seo_difficulty": 18,
-        "wiki_score": 7.7,
+        "wiki_score": 7.8,
         "main_score": 6.9,
         "ground_score": 5.9,
         "ground_file": "_podcast/data-consulting-business-pricing-and-client-acquisition.md",
@@ -5187,6 +5155,26 @@
         "ground_score": 7.0,
         "ground_file": "_podcast/freelance-data-engineering-pricing-and-clients.md",
         "status": "COVERED",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/freelance.md",
+        "wiki_title": "Freelance Data Consulting",
+        "wiki_tag": "guide",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/freelance.md"
+      },
+      {
+        "no": 247,
+        "keyword": "data engineering freelancing",
+        "keyword_slug": "data-engineering-freelancing",
+        "search_volume": 10,
+        "cpc": "$0.00",
+        "paid_difficulty": 48,
+        "seo_difficulty": 28,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
         "covered_by_wiki": true,
         "wiki_file": "_wiki/freelance.md",
         "wiki_title": "Freelance Data Consulting",
@@ -6426,6 +6414,178 @@
         "wiki_tag": "",
         "covered_by_editorial": false,
         "editorial_file": ""
+      }
+    ]
+  },
+  {
+    "family": "how to build data pipelines",
+    "total_volume": 1280,
+    "min_seo_difficulty": 13,
+    "statuses": [
+      "COVERED"
+    ],
+    "covered_by_wiki": true,
+    "covered_by_editorial": true,
+    "keywords": [
+      {
+        "no": 142,
+        "keyword": "building data pipelines",
+        "keyword_slug": "building-data-pipelines",
+        "search_volume": 260,
+        "cpc": "$8.24",
+        "paid_difficulty": 39,
+        "seo_difficulty": 25,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 134,
+        "keyword": "build data pipelines",
+        "keyword_slug": "build-data-pipelines",
+        "search_volume": 260,
+        "cpc": "$6.97",
+        "paid_difficulty": 56,
+        "seo_difficulty": 31,
+        "wiki_score": 4.2,
+        "main_score": 8.0,
+        "ground_score": 7.0,
+        "ground_file": "_podcast/production-ml-pipelines-with-aws-and-kafka.md",
+        "status": "COVERED",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 82,
+        "keyword": "build a data pipeline",
+        "keyword_slug": "build-a-data-pipeline",
+        "search_volume": 210,
+        "cpc": "$5.77",
+        "paid_difficulty": 49,
+        "seo_difficulty": 20,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 133,
+        "keyword": "build data pipeline",
+        "keyword_slug": "build-data-pipeline",
+        "search_volume": 210,
+        "cpc": "$19.45",
+        "paid_difficulty": 14,
+        "seo_difficulty": 54,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 571,
+        "keyword": "how to build data pipelines",
+        "keyword_slug": "how-to-build-data-pipelines",
+        "search_volume": 170,
+        "cpc": "$12.68",
+        "paid_difficulty": 15,
+        "seo_difficulty": 45,
+        "wiki_score": 4.2,
+        "main_score": 8.0,
+        "ground_score": 7.0,
+        "ground_file": "_podcast/production-ml-pipelines-with-aws-and-kafka.md",
+        "status": "COVERED",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 166,
+        "keyword": "create a data pipeline",
+        "keyword_slug": "create-a-data-pipeline",
+        "search_volume": 90,
+        "cpc": "$6.96",
+        "paid_difficulty": 26,
+        "seo_difficulty": 13,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 167,
+        "keyword": "creating data pipelines",
+        "keyword_slug": "creating-data-pipelines",
+        "search_volume": 70,
+        "cpc": "$10.09",
+        "paid_difficulty": 44,
+        "seo_difficulty": 43,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
+      },
+      {
+        "no": 292,
+        "keyword": "data pipeline training",
+        "keyword_slug": "data-pipeline-training",
+        "search_volume": 10,
+        "cpc": "$7.12",
+        "paid_difficulty": 20,
+        "seo_difficulty": 20,
+        "wiki_score": 2.7,
+        "main_score": 5.1,
+        "ground_score": 4.6,
+        "ground_file": "_podcast_summaries/modern-data-pipelines-orchestration-ingestion-modeling.md",
+        "status": "COVERED",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
+        "wiki_title": "How to Build Data Pipelines",
+        "wiki_tag": "how-to",
+        "covered_by_editorial": true,
+        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
       }
     ]
   },
@@ -8383,98 +8543,6 @@
     ]
   },
   {
-    "family": "build data pipeline",
-    "total_volume": 760,
-    "min_seo_difficulty": 20,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 82,
-        "keyword": "build a data pipeline",
-        "keyword_slug": "build-a-data-pipeline",
-        "search_volume": 210,
-        "cpc": "$5.77",
-        "paid_difficulty": 49,
-        "seo_difficulty": 20,
-        "wiki_score": 3.2,
-        "main_score": 5.1,
-        "ground_score": 4.7,
-        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
-        "no": 133,
-        "keyword": "build data pipeline",
-        "keyword_slug": "build-data-pipeline",
-        "search_volume": 210,
-        "cpc": "$19.45",
-        "paid_difficulty": 14,
-        "seo_difficulty": 54,
-        "wiki_score": 3.2,
-        "main_score": 5.1,
-        "ground_score": 4.7,
-        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
-        "no": 567,
-        "keyword": "how to build a data pipeline",
-        "keyword_slug": "how-to-build-a-data-pipeline",
-        "search_volume": 170,
-        "cpc": "$5.60",
-        "paid_difficulty": 27,
-        "seo_difficulty": 49,
-        "wiki_score": 3.2,
-        "main_score": 5.1,
-        "ground_score": 4.7,
-        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
-        "no": 570,
-        "keyword": "how to build data pipeline",
-        "keyword_slug": "how-to-build-data-pipeline",
-        "search_volume": 170,
-        "cpc": "$6.96",
-        "paid_difficulty": 41,
-        "seo_difficulty": 55,
-        "wiki_score": 3.2,
-        "main_score": 5.1,
-        "ground_score": 4.7,
-        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "data product management",
     "total_volume": 750,
     "min_seo_difficulty": 4,
@@ -9306,6 +9374,98 @@
     ]
   },
   {
+    "family": "data ai conference building",
+    "total_volume": 500,
+    "min_seo_difficulty": 16,
+    "statuses": [
+      "COVERED"
+    ],
+    "covered_by_wiki": true,
+    "covered_by_editorial": false,
+    "keywords": [
+      {
+        "no": 181,
+        "keyword": "data analytics events",
+        "keyword_slug": "data-analytics-events",
+        "search_volume": 170,
+        "cpc": "$8.65",
+        "paid_difficulty": 7,
+        "seo_difficulty": 16,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/data-ai-conference-building.md",
+        "wiki_title": "Data AI Conference Building",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      },
+      {
+        "no": 180,
+        "keyword": "data analytics event",
+        "keyword_slug": "data-analytics-event",
+        "search_volume": 170,
+        "cpc": "$2.47",
+        "paid_difficulty": 1,
+        "seo_difficulty": 43,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/data-ai-conference-building.md",
+        "wiki_title": "Data AI Conference Building",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      },
+      {
+        "no": 278,
+        "keyword": "data events",
+        "keyword_slug": "data-events",
+        "search_volume": 140,
+        "cpc": "$6.86",
+        "paid_difficulty": 17,
+        "seo_difficulty": 39,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/data-ai-conference-building.md",
+        "wiki_title": "Data AI Conference Building",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      },
+      {
+        "no": 175,
+        "keyword": "data analysis events",
+        "keyword_slug": "data-analysis-events",
+        "search_volume": 20,
+        "cpc": "$6.96",
+        "paid_difficulty": 30,
+        "seo_difficulty": 23,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/data-ai-conference-building.md",
+        "wiki_title": "Data AI Conference Building",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      }
+    ]
+  },
+  {
     "family": "2025 04 10 ai tools for personal productivity",
     "total_volume": 480,
     "min_seo_difficulty": 4,
@@ -9568,78 +9728,6 @@
         "covered_by_editorial": false,
         "editorial_file": "",
         "main_file": "_posts/2022-06-11-what-dataops-exactly.md"
-      }
-    ]
-  },
-  {
-    "family": "how to build data pipelines",
-    "total_volume": 440,
-    "min_seo_difficulty": 20,
-    "statuses": [
-      "COVERED"
-    ],
-    "covered_by_wiki": true,
-    "covered_by_editorial": true,
-    "keywords": [
-      {
-        "no": 134,
-        "keyword": "build data pipelines",
-        "keyword_slug": "build-data-pipelines",
-        "search_volume": 260,
-        "cpc": "$6.97",
-        "paid_difficulty": 56,
-        "seo_difficulty": 31,
-        "wiki_score": 4.2,
-        "main_score": 8.0,
-        "ground_score": 7.0,
-        "ground_file": "_podcast/production-ml-pipelines-with-aws-and-kafka.md",
-        "status": "COVERED",
-        "covered_by_wiki": true,
-        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
-        "wiki_title": "How to Build Data Pipelines",
-        "wiki_tag": "how-to",
-        "covered_by_editorial": true,
-        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
-      },
-      {
-        "no": 571,
-        "keyword": "how to build data pipelines",
-        "keyword_slug": "how-to-build-data-pipelines",
-        "search_volume": 170,
-        "cpc": "$12.68",
-        "paid_difficulty": 15,
-        "seo_difficulty": 45,
-        "wiki_score": 4.2,
-        "main_score": 8.0,
-        "ground_score": 7.0,
-        "ground_file": "_podcast/production-ml-pipelines-with-aws-and-kafka.md",
-        "status": "COVERED",
-        "covered_by_wiki": true,
-        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
-        "wiki_title": "How to Build Data Pipelines",
-        "wiki_tag": "how-to",
-        "covered_by_editorial": true,
-        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
-      },
-      {
-        "no": 292,
-        "keyword": "data pipeline training",
-        "keyword_slug": "data-pipeline-training",
-        "search_volume": 10,
-        "cpc": "$7.12",
-        "paid_difficulty": 20,
-        "seo_difficulty": 20,
-        "wiki_score": 2.7,
-        "main_score": 5.1,
-        "ground_score": 4.6,
-        "ground_file": "_podcast_summaries/modern-data-pipelines-orchestration-ingestion-modeling.md",
-        "status": "COVERED",
-        "covered_by_wiki": true,
-        "wiki_file": "_wiki/how-to-build-data-pipelines.md",
-        "wiki_title": "How to Build Data Pipelines",
-        "wiki_tag": "how-to",
-        "covered_by_editorial": true,
-        "editorial_file": "_wiki/how-to-build-data-pipelines.md"
       }
     ]
   },
@@ -10025,6 +10113,58 @@
     ]
   },
   {
+    "family": "build data pipeline",
+    "total_volume": 340,
+    "min_seo_difficulty": 49,
+    "statuses": [
+      "GAP_UNGROUNDED"
+    ],
+    "covered_by_wiki": false,
+    "covered_by_editorial": false,
+    "keywords": [
+      {
+        "no": 567,
+        "keyword": "how to build a data pipeline",
+        "keyword_slug": "how-to-build-a-data-pipeline",
+        "search_volume": 170,
+        "cpc": "$5.60",
+        "paid_difficulty": 27,
+        "seo_difficulty": 49,
+        "wiki_score": 3.2,
+        "main_score": 5.1,
+        "ground_score": 4.7,
+        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
+        "status": "GAP_UNGROUNDED",
+        "covered_by_wiki": false,
+        "wiki_file": "",
+        "wiki_title": "",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      },
+      {
+        "no": 570,
+        "keyword": "how to build data pipeline",
+        "keyword_slug": "how-to-build-data-pipeline",
+        "search_volume": 170,
+        "cpc": "$6.96",
+        "paid_difficulty": 41,
+        "seo_difficulty": 55,
+        "wiki_score": 3.2,
+        "main_score": 5.1,
+        "ground_score": 4.7,
+        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
+        "status": "GAP_UNGROUNDED",
+        "covered_by_wiki": false,
+        "wiki_file": "",
+        "wiki_title": "",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      }
+    ]
+  },
+  {
     "family": "data engineering manager",
     "total_volume": 320,
     "min_seo_difficulty": 43,
@@ -10266,7 +10406,7 @@
         "cpc": "$11.84",
         "paid_difficulty": 11,
         "seo_difficulty": 51,
-        "wiki_score": 9.0,
+        "wiki_score": 8.9,
         "main_score": 7.1,
         "ground_score": 6.0,
         "ground_file": "_podcast/data-science-management-and-agile-machine-learning.md",
@@ -10286,7 +10426,7 @@
         "cpc": "$11.84",
         "paid_difficulty": 11,
         "seo_difficulty": 52,
-        "wiki_score": 9.0,
+        "wiki_score": 8.9,
         "main_score": 7.1,
         "ground_score": 6.0,
         "ground_file": "_podcast/data-science-management-and-agile-machine-learning.md",
@@ -10334,38 +10474,6 @@
     ]
   },
   {
-    "family": "building data pipelines",
-    "total_volume": 260,
-    "min_seo_difficulty": 25,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 142,
-        "keyword": "building data pipelines",
-        "keyword_slug": "building-data-pipelines",
-        "search_volume": 260,
-        "cpc": "$8.24",
-        "paid_difficulty": 39,
-        "seo_difficulty": 25,
-        "wiki_score": 3.4,
-        "main_score": 9.0,
-        "ground_score": 7.5,
-        "ground_file": "_books/20210607-building-machine-learning-pipelines.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "nicksingh",
     "total_volume": 260,
     "min_seo_difficulty": 30,
@@ -10395,58 +10503,6 @@
         "covered_by_editorial": false,
         "editorial_file": "",
         "main_file": "_people/nicksingh.md"
-      }
-    ]
-  },
-  {
-    "family": "data analytics events",
-    "total_volume": 240,
-    "min_seo_difficulty": 16,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 181,
-        "keyword": "data analytics events",
-        "keyword_slug": "data-analytics-events",
-        "search_volume": 170,
-        "cpc": "$8.65",
-        "paid_difficulty": 7,
-        "seo_difficulty": 16,
-        "wiki_score": 4.2,
-        "main_score": 6.4,
-        "ground_score": 5.6,
-        "ground_file": "_books/20220801-data-analytics-initiatives.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
-        "no": 186,
-        "keyword": "data and analytics events",
-        "keyword_slug": "data-and-analytics-events",
-        "search_volume": 70,
-        "cpc": "$9.36",
-        "paid_difficulty": 8,
-        "seo_difficulty": 58,
-        "wiki_score": 4.2,
-        "main_score": 6.4,
-        "ground_score": 5.6,
-        "ground_file": "_books/20220801-data-analytics-initiatives.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
       }
     ]
   },
@@ -10520,7 +10576,7 @@
         "cpc": "$13.39",
         "paid_difficulty": 50,
         "seo_difficulty": 36,
-        "wiki_score": 3.4,
+        "wiki_score": 3.3,
         "main_score": 5.1,
         "ground_score": 4.4,
         "ground_file": "_podcast_summaries/modern-data-pipelines-orchestration-ingestion-modeling.md",
@@ -11034,38 +11090,6 @@
     ]
   },
   {
-    "family": "data analytics event",
-    "total_volume": 170,
-    "min_seo_difficulty": 43,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 180,
-        "keyword": "data analytics event",
-        "keyword_slug": "data-analytics-event",
-        "search_volume": 170,
-        "cpc": "$2.47",
-        "paid_difficulty": 1,
-        "seo_difficulty": 43,
-        "wiki_score": 4.9,
-        "main_score": 8.6,
-        "ground_score": 6.6,
-        "ground_file": "_podcast/data-led-growth-event-tracking-and-reverse-etl.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "data ops",
     "total_volume": 170,
     "min_seo_difficulty": 59,
@@ -11544,38 +11568,6 @@
     ]
   },
   {
-    "family": "data events",
-    "total_volume": 140,
-    "min_seo_difficulty": 39,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 278,
-        "keyword": "data events",
-        "keyword_slug": "data-events",
-        "search_volume": 140,
-        "cpc": "$6.86",
-        "paid_difficulty": 17,
-        "seo_difficulty": 39,
-        "wiki_score": 0.8,
-        "main_score": 2.2,
-        "ground_score": 2.2,
-        "ground_file": "_podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "shubhamsaboo",
     "total_volume": 140,
     "min_seo_difficulty": 49,
@@ -11642,90 +11634,6 @@
     ]
   },
   {
-    "family": "create data pipeline",
-    "total_volume": 120,
-    "min_seo_difficulty": 13,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 166,
-        "keyword": "create a data pipeline",
-        "keyword_slug": "create-a-data-pipeline",
-        "search_volume": 90,
-        "cpc": "$6.96",
-        "paid_difficulty": 26,
-        "seo_difficulty": 13,
-        "wiki_score": 2.4,
-        "main_score": 5.1,
-        "ground_score": 5.5,
-        "ground_file": "_podcast/devrel-data-science-open-source-tools.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      },
-      {
-        "no": 572,
-        "keyword": "how to create a data pipeline",
-        "keyword_slug": "how-to-create-a-data-pipeline",
-        "search_volume": 30,
-        "cpc": "$12.66",
-        "paid_difficulty": 62,
-        "seo_difficulty": 55,
-        "wiki_score": 2.4,
-        "main_score": 5.1,
-        "ground_score": 5.5,
-        "ground_file": "_podcast/devrel-data-science-open-source-tools.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
-    "family": "data ops engineer",
-    "total_volume": 110,
-    "min_seo_difficulty": 26,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 290,
-        "keyword": "data ops engineer",
-        "keyword_slug": "data-ops-engineer",
-        "search_volume": 110,
-        "cpc": "$9.06",
-        "paid_difficulty": 9,
-        "seo_difficulty": 26,
-        "wiki_score": 9.1,
-        "main_score": 4.1,
-        "ground_score": 5.4,
-        "ground_file": "_books/20241104-llm-engineer-s-handbook.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "data po vs data pm",
     "total_volume": 110,
     "min_seo_difficulty": 33,
@@ -11754,6 +11662,38 @@
         "wiki_tag": "comparison",
         "covered_by_editorial": true,
         "editorial_file": "_wiki/data-product-owner-vs-data-product-manager.md"
+      }
+    ]
+  },
+  {
+    "family": "dataops engineer role",
+    "total_volume": 110,
+    "min_seo_difficulty": 26,
+    "statuses": [
+      "COVERED"
+    ],
+    "covered_by_wiki": true,
+    "covered_by_editorial": false,
+    "keywords": [
+      {
+        "no": 290,
+        "keyword": "data ops engineer",
+        "keyword_slug": "data-ops-engineer",
+        "search_volume": 110,
+        "cpc": "$9.06",
+        "paid_difficulty": 9,
+        "seo_difficulty": 26,
+        "status": "COVERED",
+        "wiki_score": 0.0,
+        "main_score": 0.0,
+        "ground_score": 0.0,
+        "ground_file": "",
+        "covered_by_wiki": true,
+        "wiki_file": "_wiki/dataops-engineer-role.md",
+        "wiki_title": "DataOps Engineer Role",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
       }
     ]
   },
@@ -11817,7 +11757,7 @@
         "cpc": "$17.31",
         "paid_difficulty": 25,
         "seo_difficulty": 41,
-        "wiki_score": 5.2,
+        "wiki_score": 5.1,
         "main_score": 7.6,
         "ground_score": 5.6,
         "ground_file": "_books/20220801-data-analytics-initiatives.md",
@@ -11837,7 +11777,7 @@
         "cpc": "$0.00",
         "paid_difficulty": 36,
         "seo_difficulty": 16,
-        "wiki_score": 5.2,
+        "wiki_score": 5.1,
         "main_score": 7.6,
         "ground_score": 5.6,
         "ground_file": "_books/20220801-data-analytics-initiatives.md",
@@ -12723,9 +12663,9 @@
     ]
   },
   {
-    "family": "creating data pipelines",
+    "family": "data analytics events",
     "total_volume": 70,
-    "min_seo_difficulty": 43,
+    "min_seo_difficulty": 58,
     "statuses": [
       "GAP_UNGROUNDED"
     ],
@@ -12733,17 +12673,17 @@
     "covered_by_editorial": false,
     "keywords": [
       {
-        "no": 167,
-        "keyword": "creating data pipelines",
-        "keyword_slug": "creating-data-pipelines",
+        "no": 186,
+        "keyword": "data and analytics events",
+        "keyword_slug": "data-and-analytics-events",
         "search_volume": 70,
-        "cpc": "$10.09",
-        "paid_difficulty": 44,
-        "seo_difficulty": 43,
-        "wiki_score": 2.4,
-        "main_score": 7.8,
-        "ground_score": 9.2,
-        "ground_file": "_books/20240205-creating-intelligent-products.md",
+        "cpc": "$9.36",
+        "paid_difficulty": 8,
+        "seo_difficulty": 58,
+        "wiki_score": 4.2,
+        "main_score": 6.4,
+        "ground_score": 5.6,
+        "ground_file": "_books/20220801-data-analytics-initiatives.md",
         "status": "GAP_UNGROUNDED",
         "covered_by_wiki": false,
         "wiki_file": "",
@@ -15533,6 +15473,38 @@
     ]
   },
   {
+    "family": "create data pipeline",
+    "total_volume": 30,
+    "min_seo_difficulty": 55,
+    "statuses": [
+      "GAP_UNGROUNDED"
+    ],
+    "covered_by_wiki": false,
+    "covered_by_editorial": false,
+    "keywords": [
+      {
+        "no": 572,
+        "keyword": "how to create a data pipeline",
+        "keyword_slug": "how-to-create-a-data-pipeline",
+        "search_volume": 30,
+        "cpc": "$12.66",
+        "paid_difficulty": 62,
+        "seo_difficulty": 55,
+        "wiki_score": 2.4,
+        "main_score": 5.1,
+        "ground_score": 5.5,
+        "ground_file": "_podcast/devrel-data-science-open-source-tools.md",
+        "status": "GAP_UNGROUNDED",
+        "covered_by_wiki": false,
+        "wiki_file": "",
+        "wiki_title": "",
+        "wiki_tag": "",
+        "covered_by_editorial": false,
+        "editorial_file": ""
+      }
+    ]
+  },
+  {
     "family": "data analytics networking",
     "total_volume": 30,
     "min_seo_difficulty": 60,
@@ -16441,38 +16413,6 @@
     ]
   },
   {
-    "family": "data analysis events",
-    "total_volume": 20,
-    "min_seo_difficulty": 23,
-    "statuses": [
-      "GAP_UNGROUNDED"
-    ],
-    "covered_by_wiki": false,
-    "covered_by_editorial": false,
-    "keywords": [
-      {
-        "no": 175,
-        "keyword": "data analysis events",
-        "keyword_slug": "data-analysis-events",
-        "search_volume": 20,
-        "cpc": "$6.96",
-        "paid_difficulty": 30,
-        "seo_difficulty": 23,
-        "wiki_score": 3.4,
-        "main_score": 7.7,
-        "ground_score": 6.9,
-        "ground_file": "_books/20211025-data-analysis-with-python-and-pyspark.md",
-        "status": "GAP_UNGROUNDED",
-        "covered_by_wiki": false,
-        "wiki_file": "",
-        "wiki_title": "",
-        "wiki_tag": "",
-        "covered_by_editorial": false,
-        "editorial_file": ""
-      }
-    ]
-  },
-  {
     "family": "data analytics project",
     "total_volume": 20,
     "min_seo_difficulty": 5,
@@ -16490,7 +16430,7 @@
         "cpc": "$0.00",
         "paid_difficulty": 1,
         "seo_difficulty": 5,
-        "wiki_score": 5.2,
+        "wiki_score": 5.1,
         "main_score": 7.6,
         "ground_score": 5.6,
         "ground_file": "_books/20220801-data-analytics-initiatives.md",
@@ -16542,7 +16482,7 @@
         "cpc": "$0.00",
         "paid_difficulty": 14,
         "seo_difficulty": 10,
-        "wiki_score": 4.0,
+        "wiki_score": 4.1,
         "main_score": 15.0,
         "ground_score": 10.9,
         "ground_file": "_books/20240429-fundamentals-of-data-observability.md",

@@ -15,5 +15,7 @@ Each source file is a Markdown episode page with YAML-like frontmatter containin
 - transcript lines with speaker and timestamp
 
 This directory intentionally does not copy those files. The source scripts read
-them in place and generate local podcast summaries, people pages, JSON source
-indexes, and the compact archive summary used by agents.
+them in place and generate local podcast summaries, people records, book
+records, JSON source indexes, and the compact archive summary used by agents.
+Run `make sources` to sync `_podcast_summaries/`, `_people/`, `_books/`,
+`artifacts/podcast/source-index.json`, and `sources/podcast-archive-summary.md`.

@@ -223,7 +223,9 @@ secrets live there too.
 A simpler scheduler can fit when a cloud scheduler can start a container or
 function. It can also fit when no backfill workflow exists yet or the data
 product hasn't proven enough value to justify platform work. A workflow engine
-fits when dependencies become hard to track informally.
+fits when dependencies become hard to track informally
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 
 ## ML Pipelines and Batch Inference
 

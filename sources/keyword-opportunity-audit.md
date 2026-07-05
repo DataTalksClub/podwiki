@@ -240,9 +240,9 @@ and `data events` intent without creating a duplicate page.
 
 The 2026-07-06 `scripts/keyword_gap.py` rerun against the current
 `.tmp/ubersuggest_Current_Queries.csv` found 0 `GAP_GROUNDED` clusters:
-127 keywords were already covered by podwiki, 318 belonged to the main website,
+139 keywords were already covered by podwiki, 318 belonged to the main website,
 113 were branded/navigation, 204 were book-download/book-intent queries, and
-220 were ungrounded gaps. This means the current CSV supports maintenance of
+208 were ungrounded gaps. This means the current CSV supports maintenance of
 canonical pages rather than new page creation.
 
 Residual CSV intent is now maintenance for canonical pages, not a new-page

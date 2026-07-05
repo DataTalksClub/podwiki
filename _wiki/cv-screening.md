@@ -213,7 +213,9 @@ The screen depends on
 requirements define the keywords, responsibilities, seniority signals, and
 domain evidence the recruiter checks. After the screen, the candidate enters the
 interview path described in the
-[[Data Scientist Interview Roadmap]].
+[[Data Scientist Interview Roadmap]]
+[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]
+[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 Role pages such as
 [[Data Science Careers]] and
 [[Data Analyst Careers]] give

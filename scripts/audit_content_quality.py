@@ -106,6 +106,9 @@ GENERIC_CITATION_LABEL_RE = re.compile(
     re.IGNORECASE,
 )
 MISSING_CITATION_LABEL_RE = re.compile(r"\[\[cite:[^\]=>]+\]\]", re.IGNORECASE)
+SECTION_HEADING_RE = re.compile(r"^## .+$", re.MULTILINE)
+SECTION_CITATION_RE = re.compile(r"\[\[cite:|https://datatalks\.club/podcast/", re.IGNORECASE)
+SECTION_CITATION_EXEMPT_HEADINGS = {"## Related Pages", "## Related Topics"}
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
 RAW_RELATIVE_URL_RE = re.compile(r"relative_url")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
@@ -185,6 +188,31 @@ def link_counts(text: str) -> dict[str, int]:
     return counts
 
 
+def uncited_substantive_sections(body: str) -> int:
+    lines = body.splitlines()
+    headings = [
+        (index, line.strip())
+        for index, line in enumerate(lines)
+        if line.startswith("## ")
+    ]
+    total = 0
+    for pos, (start, heading) in enumerate(headings):
+        if heading in SECTION_CITATION_EXEMPT_HEADINGS:
+            continue
+        end = headings[pos + 1][0] if pos + 1 < len(headings) else len(lines)
+        section = lines[start + 1 : end]
+        substantive = sum(
+            1
+            for line in section
+            if line.strip()
+            and not line.strip().startswith(("-", "*"))
+            and not line.strip().startswith("[[cite:")
+        )
+        if substantive >= 3 and not SECTION_CITATION_RE.search("\n".join(section)):
+            total += 1
+    return total
+
+
 def audit_file(
     path: Path,
     strict_scaffold_headings: bool = False,
@@ -212,6 +240,7 @@ def audit_file(
         source_scaffolding.extend(STRICT_PAGE_META_RE.findall(source_text))
     generic_citation_labels = GENERIC_CITATION_LABEL_RE.findall(body)
     missing_citation_labels = MISSING_CITATION_LABEL_RE.findall(body)
+    uncited_sections = uncited_substantive_sections(body)
     generic = body.count(GENERIC_PODCAST_URL)
     old_timestamped_podcast = len(OLD_TIMESTAMPED_PODCAST_RE.findall(body))
     visible_timestamp_prose = len(VISIBLE_TIMESTAMP_PROSE_RE.findall(body))
@@ -253,6 +282,7 @@ def audit_file(
     score += len(indirect_attribution) * 2
     score += len(generic_citation_labels) * 3
     score += len(missing_citation_labels) * 3
+    score += uncited_sections * 4
     if is_public_content and links["podcasts"] == 0:
         score += 5
     return {
@@ -264,6 +294,7 @@ def audit_file(
         "indirect_attribution": len(indirect_attribution),
         "generic_citation_labels": len(generic_citation_labels),
         "missing_citation_labels": len(missing_citation_labels),
+        "uncited_sections": uncited_sections,
         "old_timestamped_podcast": old_timestamped_podcast,
         "hour_format_citations": hour_format_citations,
         "short_minute_citations": short_minute_citations,
@@ -282,7 +313,7 @@ def audit_file(
     }
 
 
-def main() -> None:
+def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("folders", nargs="*", default=list(DEFAULT_FOLDERS))
     parser.add_argument("--limit", type=int, default=40)
@@ -315,6 +346,7 @@ def main() -> None:
             or row["indirect_attribution"]
             or row["generic_citation_labels"]
             or row["missing_citation_labels"]
+            or row["uncited_sections"]
             or row["old_timestamped_podcast"]
             or row["hour_format_citations"]
             or row["short_minute_citations"]
@@ -338,6 +370,7 @@ def main() -> None:
     print(f"indirect_attribution: {sum(int(row['indirect_attribution']) for row in rows)}")
     print(f"generic_citation_labels: {sum(int(row['generic_citation_labels']) for row in rows)}")
     print(f"missing_citation_labels: {sum(int(row['missing_citation_labels']) for row in rows)}")
+    print(f"uncited_sections: {sum(int(row['uncited_sections']) for row in rows)}")
     print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
     print(f"hour_format_citations: {sum(int(row['hour_format_citations']) for row in rows)}")
     print(f"short_minute_citations: {sum(int(row['short_minute_citations']) for row in rows)}")
@@ -360,6 +393,7 @@ def main() -> None:
             f"indirect_attribution={row['indirect_attribution']} "
             f"generic_citation_labels={row['generic_citation_labels']} "
             f"missing_citation_labels={row['missing_citation_labels']} "
+            f"uncited_sections={row['uncited_sections']} "
             f"old_podcast_ts={row['old_timestamped_podcast']} "
             f"hour_format_citations={row['hour_format_citations']} "
             f"short_minute_citations={row['short_minute_citations']} "
@@ -373,7 +407,8 @@ def main() -> None:
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} book_links={row['book_links']}"
         )
+    return 1 if problem_rows else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

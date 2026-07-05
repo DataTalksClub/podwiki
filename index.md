@@ -5,9 +5,12 @@ title: Podcast Wiki
 
 {% assign pages = site.wiki | sort_natural: "title" %}
 
-{%- comment -%} Count total + tagged topics for the format tiles {%- endcomment -%}
 {% assign c_total = 0 %}
-{% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_transition = 0 %}{% assign c_howto = 0 %}
+{% assign c_guide = 0 %}
+{% assign c_comparison = 0 %}
+{% assign c_roadmap = 0 %}
+{% assign c_transition = 0 %}
+{% assign c_howto = 0 %}
 {%- for item in pages -%}
   {%- unless item.redirect_to -%}
     {% assign c_total = c_total | plus: 1 %}
@@ -47,39 +50,38 @@ title: Podcast Wiki
 
 {% if c_total > 0 %}
 
-{%- comment -%} ---------- Explore by format ---------- {%- endcomment -%}
 <h2 class="wiki-section-head">Explore by format</h2>
 <div class="wiki-formats">
   {% if c_guide > 0 %}
-  <a class="wiki-format" href="{{ '/guides-page/' | relative_url }}">
+  <a class="wiki-format" href="{{ '/special-pages/guides/' | relative_url }}">
     <span class="wiki-format-count">{{ c_guide }}</span>
     <span class="wiki-format-name">Guides</span>
     <span class="wiki-format-desc">Practical, keyword-driven walkthroughs of a topic.</span>
   </a>
   {% endif %}
   {% if c_comparison > 0 %}
-  <a class="wiki-format" href="{{ '/comparisons-page/' | relative_url }}">
+  <a class="wiki-format" href="{{ '/special-pages/comparisons/' | relative_url }}">
     <span class="wiki-format-count">{{ c_comparison }}</span>
     <span class="wiki-format-name">Comparisons</span>
     <span class="wiki-format-desc">Head-to-head breakdowns to help you choose.</span>
   </a>
   {% endif %}
   {% if c_roadmap > 0 %}
-  <a class="wiki-format" href="{{ '/roadmaps-page/' | relative_url }}">
+  <a class="wiki-format" href="{{ '/special-pages/roadmaps/' | relative_url }}">
     <span class="wiki-format-count">{{ c_roadmap }}</span>
     <span class="wiki-format-name">Roadmaps</span>
     <span class="wiki-format-desc">Step-by-step paths to learn or level up a skill.</span>
   </a>
   {% endif %}
   {% if c_transition > 0 %}
-  <a class="wiki-format" href="{{ '/transitions-page/' | relative_url }}">
+  <a class="wiki-format" href="{{ '/special-pages/transitions/' | relative_url }}">
     <span class="wiki-format-count">{{ c_transition }}</span>
     <span class="wiki-format-name">Transitions</span>
     <span class="wiki-format-desc">Career moves from one role or background into another.</span>
   </a>
   {% endif %}
   {% if c_howto > 0 %}
-  <a class="wiki-format" href="{{ '/how-tos-page/' | relative_url }}">
+  <a class="wiki-format" href="{{ '/special-pages/how-tos/' | relative_url }}">
     <span class="wiki-format-count">{{ c_howto }}</span>
     <span class="wiki-format-name">How-tos</span>
     <span class="wiki-format-desc">Task-focused checklists and project recipes.</span>
@@ -87,7 +89,6 @@ title: Podcast Wiki
   {% endif %}
 </div>
 
-{%- comment -%} ---------- Start here: curated foundational hubs ---------- {%- endcomment -%}
 {% assign featured_slugs = "retrieval-augmented-generation,llms,mlops,machine-learning,data-engineering,feature-stores,experimentation,vector-databases" | split: "," %}
 {%- capture featured_cards -%}
 {%- for slug in featured_slugs -%}

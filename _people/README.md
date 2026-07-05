@@ -29,11 +29,13 @@ Each record uses this frontmatter:
 ---
 layout: person
 title: "Full Name"
-source_person: "../datatalksclub.github.io/_people/<id>.md"
-person_id: id
-summary: "one sentence"
-expertise: ["concept name"]
+summary: "Full Name's DataTalks.Club person index record."
+source_url: "https://datatalks.club/people/<slug>.html"
 podcast_episodes: ["episode-slug"]
+github: "optional"
+twitter: "optional"
+linkedin: "optional"
+web: "optional"
 ---
 ```
 

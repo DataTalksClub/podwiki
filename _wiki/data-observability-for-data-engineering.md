@@ -39,7 +39,7 @@ the stack. They also connect alerts to ownership and SLAs, protect downstream
 consumers, and roll out observability without alert fatigue. For ML-facing data
 products, [[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
 separates upstream pipeline reliability from model-specific drift and response
-ownership.
+ownership [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
 ## Core Signals
 

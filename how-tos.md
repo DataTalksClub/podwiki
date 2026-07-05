@@ -1,23 +1,23 @@
 ---
 layout: default
-title: How-Tos
-permalink: /how-tos-page/
+title: How-to Pages
+permalink: /special-pages/how-tos/
 ---
 
-# How-Tos
+# How-to Pages
 
 Procedural guides for building, setting up, and operating data and AI systems.
 
-{% assign items = site.wiki | where_exp: "item", "item.tags contains 'how-to'" | sort: "title" %}
+{% assign items = site.wiki | sort: "title" %}
 {% if items.size > 0 %}
 <div class="grid">
 {% for item in items %}
-  {% unless item.redirect_to %}
+  {% if item.tags contains 'how-to' and item.redirect_to == nil %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 </div>
 {% else %}

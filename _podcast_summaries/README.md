@@ -15,5 +15,6 @@ Scope rules:
 - Treat the source podcast markdown files as the source of truth.
 - Keep summaries compact and chapter-oriented.
 - Prefer stable concept names that can be reused for wiki links.
-- Use `summary_status: draft` until a human or later agent verifies the page
-  against the full transcript.
+- Generated records use `summary_status: source-index`. If a human or later
+  agent adds compact source-derived notes, keep them short and preserve the
+  canonical `source_url`.

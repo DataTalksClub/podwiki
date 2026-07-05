@@ -264,4 +264,6 @@ comparing role levels can use the
 [[team building]], and
 [[communication]] to turn executive
 strategy into operating habits. Their future data strategy also connects to
-[[AI]].
+[[AI]]
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
+[[cite:chief-data-officer-data-strategy-and-org-design=>Chief Data Officer Strategy and Org Design]].

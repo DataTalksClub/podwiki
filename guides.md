@@ -1,23 +1,23 @@
 ---
 layout: default
 title: Guides
-permalink: /guides-page/
+permalink: /special-pages/guides/
 ---
 
 # Guides
 
 Practical, keyword-driven guides grounded in DataTalks.Club podcast episodes.
 
-{% assign items = site.wiki | where_exp: "item", "item.tags contains 'guide'" | sort: "title" %}
+{% assign items = site.wiki | sort: "title" %}
 {% if items.size > 0 %}
 <div class="grid">
 {% for item in items %}
-  {% unless item.redirect_to %}
+  {% if item.tags contains 'guide' and item.redirect_to == nil %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 </div>
 {% else %}

@@ -414,10 +414,13 @@ one lifecycle rather than the comparison. Use [[CDC]]
 when the source data changes incrementally and full reloads are wasteful. Use
 [[Orchestration]] and
 [[Apache Airflow]] when the
-problem is scheduling, dependencies, retries, or backfills.
+problem is scheduling, dependencies, retries, or backfills
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 Use [[DataOps]] when the concern is
-version control and tests. It also covers CI/CD, observability, and recovery.
+version control and tests. It also covers CI/CD, observability, and recovery
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Use [[DataOps Checks for Data Pipelines]] when the concern is pipeline-level
 check design. It covers freshness, volume, schema, and distribution checks. It

@@ -62,7 +62,7 @@ def rewrite_text(text: str, maps: dict[str, dict[str, str]]) -> tuple[str, int]:
     prefixes = "|".join(REGISTRY)
     # A local reference is a prefix + a slug segment; the bare `/podcasts/`
     # listing (no slug) must not match, so require at least one slug char.
-    slug = r"([a-z0-9][a-z0-9-]*)"
+    slug = r"([^/#?\"'\s]+)"
 
     def resolve(prefix: str, slug_value: str) -> str:
         nonlocal count
@@ -83,6 +83,15 @@ def rewrite_text(text: str, maps: dict[str, dict[str, str]]) -> tuple[str, int]:
         r"\]\(/(?P<prefix>" + prefixes + r")/" + slug + r"/?(?:#[^)]*)?\)"
     )
     text = plain.sub(lambda m: "](" + resolve(m.group("prefix"), m.group(2)) + ")", text)
+
+    # Raw HTML href form: href="/people/<slug>/" (optional #fragment)
+    html_href = re.compile(
+        r"href=[\"']/(?P<prefix>" + prefixes + r")/" + slug + r"/?(?:#[^\"']*)?[\"']"
+    )
+    text = html_href.sub(
+        lambda m: 'href="' + resolve(m.group("prefix"), m.group(2)) + '"',
+        text,
+    )
 
     return text, count
 
