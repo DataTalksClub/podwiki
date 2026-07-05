@@ -114,7 +114,8 @@ FreshFlow adds the infrastructure decision. Moving away from Kubeflow complexity
 toward managed cloud services kept the team closer to pilots and retailer
 learning. For retail AI founders, platform work can delay forecasting quality
 and product-market fit. [[startups=>Startups]] covers this as a company-stage
-constraint.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+constraint, and [[Lean MLOps for Startups]] covers stage-aware infrastructure
+sequencing.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 Elena Samuylova adds a service-to-product boundary. A founder can start with
 manual delivery behind an interface. The startup becomes scalable only when the
@@ -255,3 +256,20 @@ Across these discussions, founder work isn't a title. Founders choose the
 problem, validate with real users, and narrow the product. They also pick
 distribution, hire when demand justifies it, and build a revenue model that
 matches how customers adopt the product.
+
+## Related Pages
+
+These pages cover company context, routes, distribution, and adjacent founder
+paths:
+
+- [[startups=>Startups]] for company-stage constraints, startup routes, and
+  startup career environments.
+- [[Machine Learning for Startups]] for ML-specific startup scope and
+  technical sequencing.
+- [[Consultant or Freelancer to Data Product Founder]] for service work that
+  becomes a product company.
+- [[Entrepreneurship]] for independent-work paths across products and
+  consulting.
+- [[open-source-and-developer-relations=>Open Source and Developer Relations]]
+  for developer trust, community, and distribution.
+- [[Lean MLOps for Startups]] for stage-aware infrastructure choices.

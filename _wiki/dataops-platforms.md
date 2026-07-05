@@ -42,6 +42,10 @@ Platform teams turn those expectations into shared infrastructure for pipeline
 and warehouse changes. They also support access, observability, and recovery
 changes.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
+[[Data Engineering Platforms]] owns the shared storage, compute, workflow, and
+self-service foundation. DataOps platforms own release gates and observability.
+They also own access workflows, recovery paths, and runbooks.
+
 Individual tool categories belong in [[DataOps Tools]]. Enablement for
 analysts, data scientists, software engineers, and domain teams belongs in
 [[self-service-data-platforms=>Self-Service Data Platforms]]. Cross-team
@@ -105,24 +109,21 @@ path is usable across teams
 
 A DataOps platform gives recurring pipeline changes a common release and
 recovery layer. It covers ingestion, transformations, and orchestration. It
-also covers dependencies, schema changes, and trusted outputs. Modern data
-stack tooling puts raw ingestion and guardrails in that delivery path.
-Warehouse transformations and Airbyte belong there. So do dbt, CDC, and schema
-evolution.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
+also covers dependencies, schema changes, and trusted outputs. Modern-stack
+tools such as ingestion and warehouse transformation fit inside that delivery
+path. CDC and orchestration can sit there too.
+
+DataOps platforms connect those tool categories through a shared release and
+recovery route
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 
 [[ETL]], [[ELT]], and [[ETL vs ELT]] explain where transformation happens.
 [[DataOps Tools]] explains the tool categories. DataOps platforms give teams
 the supported path for repeating those changes across many pipelines.
 
-Storage and compute belong in the platform because downstream consumers depend
-on stable data contracts. Raw data lakes and warehouses sit in the same
-platform architecture discussion. Object storage, governance, and self-service
-SQL sit there too.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
-
-Modern table formats and the storage-compute split extend that architecture
-question. Iceberg changes how teams think about durable data layout and compute
-choices. Airflow, Prefect, and Dagster sit above that layer, as do CI-based
-workflows.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+Storage, compute, table formats, and scheduler choices belong mostly in
+[[Data Engineering Platforms]] and [[DataOps Tools]]. DataOps platforms connect
+those choices to review, rollout, ownership, and recovery across teams.
 
 A practical pipeline sequence in [[How to Build Data Pipelines]] becomes
 platform work once many pipelines need the same delivery and recovery path.
@@ -188,10 +189,11 @@ checks, lineage, and recovery accountability.
 ## Integrated Platform or Assembled Stack
 
 Teams don't need a dedicated vendor before they can practice DataOps. They can
-assemble DataOps capabilities from Git and CI. dbt tests, Great Expectations,
-and SQL tests can cover validation. A scheduler, monitoring, and runbooks can
-complete the early stack. They can also adopt a platform
-that integrates those capabilities.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+assemble DataOps capabilities from existing release, testing, monitoring, and
+recovery tools. [[DataOps Tools]] owns the starter-stack checklist. Platform
+work begins when those tools need shared templates, access workflows, and
+environment orchestration. Teams also need platform structure when observability
+and support paths become cross-team work.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 Bergh's DataKitchen example shows one integrated data ops platform structure.
 It includes orchestration across environments, automated tests, observability,

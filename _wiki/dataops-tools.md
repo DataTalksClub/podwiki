@@ -274,6 +274,12 @@ or managed pipeline jobs may belong there too.
 Kubernetes and other runtimes may fit larger operating needs
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
+Hinc's batch-workload version treats ECS and AWS Batch as runtime choices
+alongside Kubernetes. Reproducible Docker dependencies matter when silent
+version drift can break data work
+[[cite:dataops-and-gitops-best-practices-for-data-teams@56:44=>DataOps and GitOps for Data Teams]]
+[[cite:dataops-and-gitops-best-practices-for-data-teams@1:01:27=>DataOps and GitOps for Data Teams]].
+
 Choose the runtime that fits the operating need, and learn Docker before
 jumping into Kubernetes. Don't add a cluster when a managed job is enough.
 

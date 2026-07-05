@@ -47000,12 +47000,6 @@
     },
     {
       "source": "wiki:dataops-platforms",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
       "target": "wiki:apache-airflow",
       "kind": "wiki-chip",
       "weight": 1
@@ -52175,6 +52169,12 @@
       "target": "wiki:entrepreneurship",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:founder",

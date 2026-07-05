@@ -238,7 +238,10 @@ path for analysts, data scientists, software engineers, and domain teams.
 [[DataOps vs Data Engineering]]
 covers the full boundary. Data engineering builds the data path, and DataOps
 makes changes to that path safer to review and run. It also makes those
-changes easier to observe and recover.
+changes easier to observe and recover. Hinc's DataOps/GitOps discussion puts
+that boundary in support, communication, onboarding, and operational education.
+It isn't only pipeline coding
+[[cite:dataops-and-gitops-best-practices-for-data-teams@40:44=>DataOps and GitOps for Data Teams]].
 
 The modern-stack discussion shows the [[Data Engineering]] side through ETL,
 ELT, and dbt-style warehouse modeling alongside Airflow orchestration. It also

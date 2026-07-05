@@ -211,7 +211,7 @@ decide how much the product costs to run and how users find it.
 
 People also use startups as career environments. A four-person team can offer
 topic fit and variety, but it requires communication, business learning, and
-self-organization.
+self-organization.[[cite:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist]]
 
 Open-source and freelance work can broaden data careers.[[cite:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist]]
 The solo-business version of that broad data role is
