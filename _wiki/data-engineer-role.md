@@ -105,18 +105,12 @@ It overlaps with
 [[machine learning infrastructure]]
 when pipelines feed models at scale.
 
-The entry-level hiring version centers Python, SQL, and cloud fundamentals
+The entry-level version still belongs to the same role. It centers Python, SQL,
+and cloud fundamentals before distributed systems or platform tools
 [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
-Junior programs can delay Spark, Kafka, and Kubernetes until the core is solid
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
-Docker, Airflow, and warehouses are visible hiring signals
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
-That version of the role is close to
-[[data-engineer-roadmap=>data engineering learning paths]]
-and [[data engineering portfolio projects]].
-For candidates without a data title,
-[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
-turns these entry-level signals into a first portfolio and job-search path.
+Use [[data-engineer-roadmap=>Data Engineer Roadmap]] for the learning order and
+[[how-to-become-a-data-engineer-with-no-experience=>No-Experience Data Engineer]]
+for the first portfolio and job-search path.
 
 Recruiters and hiring managers separate junior execution, mid-level ownership,
 and senior influence. Nicolas Rassam describes junior data engineers as
@@ -125,18 +119,9 @@ decisions under ambiguity. Senior engineers influence technical choices and less
 senior engineers
 [[cite:hiring-for-data-engineering-jobs-in-europe@22:55=>Hiring DE Europe]].
 
-Candidates should use that progression when they choose
-[[data-engineer-roadmap=>roadmaps]],
-[[data engineering portfolio projects=>portfolio projects]],
-[[Job Search]], and [[CV Screening]].
-They should show scoped fundamentals first, then ownership and influence.
-
-Candidates should prepare interview evidence that matches the level. Nicolas
-describes a common process with a recruiter intro and a discussion with the data
-engineering team about the candidate's current project. It also includes
-data-oriented coding and a practical analytical exercise. For senior candidates,
-interviewers should ask how a design handles time and money. They should also
-probe performance, drawbacks, and bottlenecks
+That progression changes the evidence for the role. Junior interviews can focus
+on scoped fundamentals and current project discussion. Senior interviews should
+probe cost, performance, drawbacks, and bottlenecks
 [[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring DE Europe]].
 
 Those senior interviews connect to [[data engineering platforms]] and
@@ -246,17 +231,15 @@ schema changes, and alerts affect whether downstream users can trust a dataset.
 Schema descriptions and governance support the same trust
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
-The experienced-hiring baseline includes SQL, ETL concepts, and data
-warehousing. Candidates also need a scripting language such as Python, CI/CD,
-cloud experience, and ownership.
-Student advice points back to DBMS, SQL, and fundamentals rather than chasing
-every named tool
+The experienced-hiring baseline includes SQL, ETL concepts, data warehousing,
+and Python. It also includes CI/CD and cloud ownership. Student advice points
+back to DBMS and fundamentals rather than chasing every named tool
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 The product-data version adds tracking plans, data literacy, and self-serve
 analytics [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
-Career switchers can demonstrate these skills with reproducible collaborative
+Career switchers can demonstrate role readiness with reproducible collaborative
 scripts, Docker, AWS, and Python. Airflow, networking, and a portfolio pipeline
 can show the same readiness
 [[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno Career Transition]].

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11893
+    "links": 11889
   },
   "nodes": [
     {
@@ -23726,18 +23726,6 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
-      "target": "person:bartoszmikulski",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "person:hugobowneanderson",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
       "target": "person:marianosemelman",
       "kind": "article-chip",
       "weight": 1
@@ -23763,18 +23751,6 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:pauliusztin",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "person:ranjithakulkarni",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "person:revathyramalingam",
       "kind": "article-chip",
       "weight": 1
     },
@@ -35025,12 +35001,6 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:cv-screening",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "wiki:cv-screening",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35201,12 +35171,6 @@
       "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "wiki:job-search",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-engineer-role",
@@ -54266,12 +54230,6 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-chip",
       "weight": 1
@@ -54297,6 +54255,12 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:cv-screening",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-analyst-to-data-engineer",
       "kind": "article-chip",
       "weight": 1
     },
@@ -54333,6 +54297,12 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-certification",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -54362,6 +54332,12 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:devops-to-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -54377,6 +54353,12 @@
       "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:hire-data-engineers",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -54413,12 +54395,6 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:software-engineering",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",

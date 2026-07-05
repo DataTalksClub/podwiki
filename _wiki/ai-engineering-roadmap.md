@@ -37,93 +37,59 @@ For the role boundary, use
 [[AI Engineer Role]]. For the
 broader discipline, use [[AI Engineering]].
 
-## Roadmap Boundary
+## From Product App To AI System
 
-Learners enter AI engineering when model use becomes product engineering. AI
-engineers build product software around model behavior by calling models,
-managing context, evaluating outputs, and operating the resulting product.
-
-Paul describes this as a full-stack AI engineer skill stack. His stack spans
-frontend, backend, and database work. It then adds RAG and agents. Deployment,
-evaluation, and LLMOps come next
+The first learning step is still product software. Paul describes the starting
+point as a full-stack AI engineer skill stack. It starts with frontend, backend,
+and database work. Then it adds RAG, agents, deployment, and evaluation. LLMOps
+comes after that
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
-The shared sequence treats AI engineering as applied product work, not only
-prompt writing. Ruslan's BranchGPT example combines a web application, context
-management, and user behavior in
+Ruslan's BranchGPT example keeps the same sequence grounded in a concrete
+application. The product starts as a web application, then adds context
+management and user behavior in
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 [[person:nasserqadri=>Nasser Qadri]] keeps
 precision, recall, and accuracy in view when generative AI systems replace older
 ML workflows [[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
-Learners need more than a list of tools. You learn
-[[software engineering]]
-because AI products still need services, storage, tests, and deployment. You
-also learn [[prompt engineering]]
-and [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-Then add [[LLM Production Patterns]]
-and [[MLOps]].
+That makes the order clear. Learn [[software engineering]] first, then
+[[prompt engineering]] and
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]. After that,
+add [[LLM Production Patterns]], evaluation, and [[MLOps]].
 
-Model behavior depends on context and examples, plus traces, data, and release
-discipline.
+## Entry Paths Into The Roadmap
 
-## Roadmap Emphasis
+Different learners can enter the same sequence from different strengths:
 
-The roadmap can start from different operating constraints. Some paths begin
-with full-stack product shipping or product discovery, while others start from
-statistical rigor and career translation. Practical LLM engineering and agentic
-systems define the later scope.
-
-Paul starts from the full-stack builder path. In his version, product shipping
-includes backend and frontend work. It also includes database design and data
-work. RAG, agents, and evaluation belong in the shipping skill set too.
-Monitoring belongs there too
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
-
-Ruslan starts from product discovery and context management. His version rewards
-people who translate business needs into usable AI features. It also rewards
-people who watch the tooling landscape without confusing tools for product
-judgment
-([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]).
-
-Nasser keeps the role close to data science and statistical rigor. He also
-emphasizes domain knowledge. He uses healthcare and finance examples to make
-that point. National-security examples show the same domain-specific evaluation
-constraint
-([[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]).
-
-[[person:revathyramalingam=>Revathy Ramalingam]]
-shows a career-break path where learning in public and a telecom ML capstone
-become evidence of readiness. She used AI-assisted prototypes and interview
-practice. Her take-home also included a PDF Q&A assistant
-([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]]).
-Use [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
-when the learner has to translate older work into AI product proof. That
-includes career breaks and prior domain experience.
-
-[[person:hugobowneanderson=>Hugo Bowne-Anderson]] starts
-from practical LLM engineering. His path covers prompts, structured outputs,
-gold tests, and traces. The same discussion later covers RAG and failure
-analysis
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]]
-starts from agentic systems. Tools and memory define that work, while context
-engineering and outcome-based tests matter too
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-
-[[person:bartoszmikulski=>Bartosz Mikulski]]
-starts from production AI. His version combines data trust, pipeline tests, and
-prompt evaluation. It also covers caching, compression, and latency control
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+- Full-stack builders can start at Stage 1, then add RAG, agents, evaluation,
+  and monitoring as product features
+  ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+- Product and domain switchers can start with Stage 1 and Stage 2. Then use
+  [[AI Engineer Role]] and
+  [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+  for AI product proof
+  ([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]])
+  ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]]).
+- Data-science learners should keep Nasser's metric and domain-evaluation
+  discipline visible while moving through the LLM, RAG, and evaluation stages
+  ([[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]).
+- Agent-focused learners shouldn't skip prompts, structured outputs, gold
+  tests, traces, and RAG before adding tools and memory
+  ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]])
+  ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+- Production-focused learners should deepen the later stages with data trust,
+  pipeline tests, and prompt evaluation. Caching, compression, and latency
+  control belong there too
+  ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 
 ## Stage 1: Build Normal Software
 
 Start with ordinary application engineering by building a small service and one
-interface or API. Add persistence, logs, and tests before you add complex AI
-architecture. Paul's roadmap places product shipping and frontend work inside
-the AI engineering stack. Backend work and databases belong there too. So do
-deployment and monitoring
+interface or API. Finish this stage with persistence, tests, and deployment. Add
+a basic monitoring path before complex AI architecture. Paul's
+roadmap keeps product shipping, application layers, databases, and deployment
+inside the AI engineering stack. Monitoring belongs there too
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]).
 
 Ruslan's BranchGPT example shows why this stage comes first. The project needed

@@ -52,11 +52,11 @@ organize study. Jeff Katz treats certificates as supporting evidence rather
 than a replacement for code, SQL, and projects
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
 
-## Start With The Work
+## Start With Provable Work
 
-Start by naming the data engineering work you can prove now. A data engineer
-moves data from source systems into usable datasets through ingestion, raw
-storage, and transformation.
+Start by naming the data engineering work you can prove now. Use
+[[Data Engineer Role]] for the full scope. Here, prove one narrow data path from
+source data to raw storage, transformation, and a usable output.
 
 Add orchestration and quality checks to that path. Include documentation,
 access, and recovery before you treat the project as finished. For a candidate
@@ -74,11 +74,11 @@ Here, translate that order into proof a reviewer can check:
 - test for missing fields, duplicate rows, late data, or schema changes
 - document setup, table meaning, consumer needs, tradeoffs, and recovery steps
 
-A junior curriculum can postpone Spark, Kafka, or Kubernetes while the learner
-builds Python and SQL first. Cloud basics follow with a smaller layer of tools
+Jeff Katz's junior curriculum keeps the same proof bar narrow. Python and SQL
+come before distributed systems or platform tools
 [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
-That focus keeps your portfolio centered on reviewable beginner work instead
-of tool-name sprawl.
+That keeps the portfolio centered on reviewable beginner work instead of
+tool-name sprawl.
 
 ## Turn The Roadmap Into Proof
 
@@ -93,17 +93,10 @@ The evidence should answer four questions:
 - Has anyone reviewed, used, or accepted the work?
 - Can you explain your choices under interview pressure?
 
-Jeff Katz starts with Python and SQL before adding cloud computing or
-orchestration. He says junior programs should spend most time on Python and
-SQL. He also names SQL tests and Python exercises as likely interview material.
-[[cite:data-engineering-career-path-and-skills@23:35=>Build a Data Engineering Career]]
-[[cite:data-engineering-career-path-and-skills@44:33=>Build a Data Engineering Career]]
-[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]]
-[[cite:data-engineering-career-path-and-skills@57:36=>Build a Data Engineering Career]].
-
-Jeff's job-prep episode says projects should show visible Python and SQL.
-Reviewers need enough evidence to judge the work. Gloria Quiceno's
-beginner-sized capstone used Twitter data with Docker containers and a Slack bot.
+Jeff's job-prep episode says projects should show visible Python and SQL, not
+only a certificate or tool list. Reviewers need enough evidence to judge the
+work. Gloria Quiceno's beginner-sized capstone used Twitter data with Docker
+containers and a Slack bot.
 [[cite:get-data-engineering-job-prep-and-interview@1:49=>Data Engineering Job Prep and Interview Guide]]
 [[cite:get-data-analytics-and-data-engineering-job@50:15=>Gloria Quiceno's data engineering job story]].
 
@@ -199,96 +192,57 @@ The same proof structure appears in
 [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]:
 reviewed artifacts and domain context make an unusual route easier to evaluate.
 
-## Choose Your Transition Path
+## Use Your Starting Point As Evidence
 
-Different backgrounds create different advantages. The mistake is to pretend
-everyone starts from zero in the same way. Use your previous work as a bridge,
-then close the specific data engineering gap.
-
-If you come from analytics or BI, your advantage is SQL and stakeholder
-context. You may also know metrics and reporting. Your gap is usually
-engineering depth. Build projects that move upstream from dashboards into
-ingestion and raw storage. Add orchestration, testing, and recovery.
-
-BI-to-data engineering upskilling depends on the boundary between analyst work
-and engineer work
+Different backgrounds create different proof advantages. Analytics and BI
+experience can become upstream pipeline proof when the project moves from
+dashboards into ingestion and raw storage. Orchestration, testing, and recovery
+make the proof stronger
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
-If you come from software engineering or data science, your advantage is
-coding, debugging, and tests. System thinking helps too. Your gap may be SQL
-depth and data modeling. It may also be warehouse design or consumer trust.
-
-Collaborative coding and CI/CD belong in the same foundation as testing, CLI,
-and clean code. DevOps practices, Git, and Docker also matter
+Software engineering and data-science experience can become data-engineering
+proof through collaborative coding, CI/CD, CLI work, and clean code. ETL
+pipelines, schedulers, and domain-focused automation can show the same proof
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
 
-Scrapers, ETL pipelines, schedulers, and domain-focused pipelines with
-automation give software engineers practical portfolio directions
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
-
-If you come from DevOps or cloud engineering, your advantage is automation and
-infrastructure. You may also know deployment and monitoring. Your gap may be
-SQL, transformations, and business semantics.
-The DevOps transition leans on automation, transferable problem-solving,
-precision, and persistence
+DevOps or cloud experience can become data-engineering proof when automation
+connects to SQL and transformations. Business semantics have to be visible too
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+For background-specific paths, use
 
-If you're new to tech, slow down on fundamentals by starting with SQL and
-Python. Add Git, the command line, and debugging. Then build one pipeline. Avoid
-a plan that starts with distributed systems before you can write and explain the
-transformations. The junior path stays centered on fundamentals before advanced
-platforms
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
+- [[Career Transitions in Data]]
+- [[DevOps to Data Engineering]]
+- [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]]
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]]
 
-If you use a certificate or course as the first structure, pick one that
-matches your starting point. Juan Luis Cano recommends warehouse or lakehouse
-courses for beginners and orchestration courses when you need scheduling. He
-also recommends cloud-provider data engineering courses when you want a platform
-target. Pick one path instead of trying to learn every platform at the same time
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:11:31=>Analytics Engineering Foundations]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:12:24=>Analytics Engineering Foundations]].
+If you're new to tech, use [[data-engineer-roadmap=>Data Engineer Roadmap]] for
+the learning order and [[Data Engineering Certification]] when a course is the
+study structure. The no-experience proof layer starts when that study becomes a
+pipeline another person can look at.
 
-Use
-[[Career Transitions in Data]],
-[[DevOps to Data Engineering]],
-[[Software Engineering]], and
-[[Analytics Engineering]] to
-compare adjacent routes.
+## Pick A Role Direction For The Portfolio
 
-## Pick Product Or Platform Direction
-
-"Data engineer" can mean different work in different companies. Choosing a
-direction makes your learning less scattered and your portfolio easier to
-explain.
-
-Platform data engineering and product-facing data engineering lead to different
-portfolio choices. Beginners weaken that portfolio when they over-engineer the
-platform or copy modern-data-stack theater. End-to-end platform thinking and
-clear project framing make the work easier to evaluate
+"Data engineer" can mean different work in different companies. The full split
+belongs on [[Data Engineer Role]] and [[Data Engineering Platforms]]. On this
+page, the direction matters because it changes what your first project should
+prove. Platform and product-facing data engineering lead to different portfolio
+choices. Beginners weaken that portfolio when they over-engineer the platform or
+copy modern-data-stack theater
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
-For product-facing data engineering, build closer to analysts and data
-scientists. Product managers, metrics, and business logic matter too. Your
-beginner portfolio should show modeled datasets and marts. It should also show
-documented metrics, stakeholder needs, and quality checks.
+For a product-facing direction, show modeled datasets and documented metrics.
+Stakeholder needs and quality checks should be visible too.
 
-For platform data engineering, build closer to ingestion and warehouses. Lakes
-and orchestration matter too. Access, cost, monitoring, and self-service
-infrastructure also belong in that direction. Your beginner portfolio can be a
-small platform with ingestion and transformations. Add orchestration, docs, and
-a query or dashboard layer.
-
-For the role boundary, read
-[[Data Engineer Role]],
-[[Data Engineering Platforms]],
-and [[Data Products]].
+For a platform direction, show ingestion and transformations first, then add
+orchestration and docs. Add a query layer when it helps another person
+understand the output. Use [[Data Products]] when the proof is closer to a
+maintained data output.
 
 ## Prepare For Interviews Early
 
-Interview preparation should start before the first recruiter call. Data
-engineering interviews often combine SQL screens and Python exercises. They can
-also include project walkthroughs and take-home data tasks. Behavioral
-questions often cover debugging, ownership, ambiguity, and tradeoffs.
+Interview preparation should start before the first recruiter call, but the
+no-experience version is mainly evidence packaging. The project walkthrough has
+to make missing job history less important.
 
 Hiring discussions for career switchers connect internships, projects, and role
 focus. Resumes need to show SQL, Python, problems, and outcomes
@@ -311,11 +265,9 @@ Prepare three stories:
 - a transition story: how your previous background helps you do data
   engineering work
 
-The technical side should cover SQL joins, aggregations, windows, and table
-grain. It should also cover Python functions, file handling, APIs, and tests.
-
-Take-home tasks belong in the same interview practice, and the explanation side
-should cover tradeoffs. For broader candidate tactics, use
+Use [[data-engineer-roadmap=>Data Engineer Roadmap]] for the technical practice
+sequence. Use [[hire-data-engineers=>Hiring Data Engineers]] when you need to
+understand how companies test the role. For broader candidate tactics, use
 [[Job Search]],
 [[CV Screening]], and
 [[Job Descriptions]].
@@ -391,5 +343,4 @@ The beginner path connects to these roadmap, portfolio, and job-search topics:
 - [[Job Search]]
 - [[Data Engineer vs Data Scientist]]
 - [[Analytics Engineering]]
-- [[Data Engineer Roadmap]]
 - [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
