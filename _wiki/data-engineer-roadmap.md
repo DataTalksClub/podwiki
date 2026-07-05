@@ -502,7 +502,7 @@ is the stack vocabulary for this stage.
 
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
 retries, logs, and rerun behavior. Connect the work to
-[[orchestration=>Apache Airflow: Workflow Orchestration for Data Pipelines]]
+[[Orchestration]] and [[Apache Airflow]]
 and Lars Albertsson's DataOps discussion of workflow engines in
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 

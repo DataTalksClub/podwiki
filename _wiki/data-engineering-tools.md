@@ -139,7 +139,7 @@ selection question is whether the team needs a control plane for dependencies,
 retries, and backfills. The same decision covers visibility and ownership.
 Lighter automation is enough for some schedules.
 
-Airflow, Prefect, and Dagster represent different data-native orchestration
+[[Apache Airflow]], Prefect, and Dagster represent different data-native orchestration
 choices. GitHub Actions can cover simpler schedules.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]][[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 In a warehouse-centered stack, the architectural role of orchestration belongs

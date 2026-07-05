@@ -21,7 +21,7 @@ The data-led growth stack starts with this plan before collection begins. Teams
 document each event and event property before the data flows into the warehouse
 or analytics stack. They also record user and account properties, data types,
 semantic meaning, and ownership
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>How to Build a Data-Led Growth Stack]].
 
 Use tracking plans for the schema agreement and governance record. For captured
 events moving through client-side and server-side instrumentation, see
@@ -45,7 +45,7 @@ verified email, or a completed account record. Teams follow up differently on
 fake accounts and real users. The plan needs enough context to say which
 meaning is valid for the metric. [[Event tracking]] verifies what the running
 product actually emitted
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan definition]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>Data-led growth tracking-plan definition]].
 
 ## Plan Fields
 
@@ -53,7 +53,7 @@ Event names and properties are the first visible parts of a tracking plan. The
 data-led growth episode uses signup and email verification as SaaS examples.
 Creation events cover projects and teammate invitations. They also cover tasks,
 clients, and invoices
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth SaaS event examples]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@24:43=>Data-led growth SaaS event examples]].
 
 The event name should tell analysts which product action happened, while the
 properties explain the context. A `signup` event can mean a clicked button, a
@@ -65,7 +65,7 @@ Teams also need property names and types. Event, user, and account properties
 let analysts segment a funnel by acquisition channel or plan type. They can
 also use account size, device, or source without reverse-engineering the event
 later
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan definition]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>Data-led growth tracking-plan definition]].
 
 ## Required Capture Semantics
 
@@ -74,21 +74,21 @@ browser event can represent intent, while a server event can represent
 completion. The plan should state whether an event is required from the client,
 the server, or both. It should also state whether the event marks an attempted
 action or a completed business action
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Client-side and server-side tracking]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>Client-side and server-side tracking]].
 
 That distinction matters when events feed [[metrics]]. A team investigating a
 spike needs to know which event was supposed to fire and where. It also needs
 properties that explain the source. A vague specification can make failed form
 submissions, low-quality traffic, and completed accounts look like the same
 product behavior
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth anomaly investigation]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Data-led growth anomaly investigation]].
 
 Teams can start with a spreadsheet or document when the event set is small. The
 plan still comes before instrumentation. Avo, Iteratively, and TrackPlan are
 collaborative tracking-plan tools for taxonomy and event-quality discussion.
 Engineers still need to implement the events, but the plan should make the
 expected capture rule reviewable before implementation
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan tools]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl@20:47=>Data-led growth tracking-plan tools]].
 
 ## Governance and Ownership
 
@@ -113,6 +113,7 @@ Product tracking plans do the same kind of work for analytics events. They make
 change review explicit before downstream models, funnels, experiments, or
 reverse ETL syncs depend on the event
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+That platform analogy connects tracking plans to [[Streaming]].
 
 ## Front-Door Data Quality
 

@@ -160,14 +160,14 @@ dependencies, retry failures, and support backfills.
 
 Teams often choose among these options:
 
-- Airflow
+- [[Apache Airflow]]
 - Dagster
 - Prefect
 - cloud schedulers
 - managed pipeline services
 - CI workflows
 
-In the modern data stack, Airflow schedules and runs pipelines. Airbyte
+In the modern data stack, [[Apache Airflow]] schedules and runs pipelines. Airbyte
 extract-load jobs connect to dbt and downstream transformations.[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and Modern Data Stack]]
 The orchestrator coordinates the work. Ingestion tools, SQL engines,
 warehouses, and transformation tools do the domain work.

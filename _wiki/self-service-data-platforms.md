@@ -41,7 +41,7 @@ build their own data flows. That shift ties workflow engines to immutable data,
 storage, compute, and repeatable pipeline definitions.[[cite:dataops-principles-and-scalable-data-platforms]]
 
 Self-service is technical and organizational because a data platform isn't a
-single tool. It can include Airflow and Kafka as well as warehouses, lakes, and
+single tool. It can include [[Apache Airflow]] and Kafka as well as warehouses, lakes, and
 catalogs. Reusable platform primitives need documented conventions and
 contracts. They also need support channels, access controls, and operating
 metrics. Those pieces let more people use data without turning the platform

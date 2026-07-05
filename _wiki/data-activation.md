@@ -9,6 +9,7 @@ related:
   - Product Analytics
   - Event Tracking
   - Data Products
+  - Data Product Adoption
   - Modern Data Stack
 ---
 
@@ -22,11 +23,14 @@ a product-qualified account in a CRM. A growth team sends a segment into an
 onboarding or lifecycle tool
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
-Activation sits between [[event tracking]], [[product analytics]],
-[[data products]], and [[data-led-growth=>data-led growth]]. [[Reverse ETL]]
-is one common delivery mechanism. Activation owns the business question of
-which signal should reach a person, tool, or decision point. It also defines
-what should change when the signal arrives.
+Activation sits between [[event tracking]] and [[product analytics]], and it
+also sits between [[data products]] and [[data-led-growth=>data-led growth]].
+
+[[Reverse ETL]] is one common delivery mechanism. Activation can also happen
+through [[customer data platforms]] or embedded product behavior. Dashboards,
+meetings, and reviewed workflows can activate data too. Activation owns the
+business question of which signal should reach a person, tool, or decision
+point. It also defines what should change when the signal arrives.
 
 ## From Data To Business Action
 
@@ -116,6 +120,7 @@ The adoption test is to start from the decision the data should enable, then wor
 backward into the product or report. That matters for activation because a sync
 or dashboard isn't useful unless a real user changes a decision or action
 ([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+That consumer-side test connects activation to [[Data Product Adoption]].
 
 ## Customer Data Platforms As A Bundled Path
 
@@ -170,5 +175,7 @@ These pages cover the adjacent concepts that activation depends on or feeds.
   definitions and ownership.
 - [[Data Products]] for productized
   analytics and last-mile adoption.
+- [[Data Product Adoption]] for
+  the consumer-side test that activation changed a real decision.
 - [[Modern Data Stack]] for the
   data stack around warehouse-centered activation.

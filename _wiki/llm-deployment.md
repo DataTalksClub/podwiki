@@ -5,6 +5,7 @@ summary: "Deploying LLMs in production: open-source vs API models, serving chall
 related:
   - AI Infrastructure
   - LLM Production Patterns
+  - Caching
   - LLMs
   - Generative AI
   - RAG vs Fine-Tuning
@@ -56,6 +57,9 @@ Serving LLMs in production requires managing model size, compute resources, and
 latency. Compression, inference optimization, and serving software reduce the
 cost of running models without treating quality as separate from infrastructure
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+For repeated request prefixes and stable context blocks, [[Caching]] is another
+serving-path optimization. The team still needs to know which prompt or
+retrieval context should be reused.
 
 Teams can run competitive self-hosted models on smaller GPUs or CPUs when the
 serving path is optimized. That matters because many businesses deploy on ordinary
@@ -122,6 +126,7 @@ These pages cover the adjacent production and model-operation topics:
 
 - [[AI Infrastructure]]
 - [[LLM Production Patterns]]
+- [[Caching]]
 - [[LLMs]]
 - [[Generative AI]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]

@@ -186,7 +186,7 @@ dashboard or experiment readout. That source-semantics work follows
 plans with events, properties, and ownership
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
-## Reverse ETL or Activation Project
+## Reverse ETL Project As An Activation Example
 
 A reverse ETL or activation project is useful when the portfolio needs to show
 operational consequences. Model a customer or account segment in the warehouse.

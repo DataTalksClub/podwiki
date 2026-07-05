@@ -96,7 +96,7 @@ reviewable through merge requests and dry runs
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 The self-service surface covers onboarding and team conventions alongside
-scheduler usage, schemas, and data contracts. An Airflow cluster alone doesn't
+scheduler usage, schemas, and data contracts. An [[Apache Airflow]] cluster alone doesn't
 give teams a platform. Teams need conventions and playbooks so the supported
 path is usable across teams
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].

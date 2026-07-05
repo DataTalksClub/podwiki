@@ -7,6 +7,8 @@ related:
   - Data-Led Growth
   - Product Analytics
   - Data Activation
+  - Reverse ETL
+  - Customer Data Platforms
   - Experimentation
 ---
 
@@ -47,7 +49,7 @@ Event tracking starts when product code emits events for defined product
 moments. Arpit's SaaS examples include signup, email verification, project
 creation, and teammate invitations. He also names task creation, client
 creation, and invoice creation
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>data-led growth]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@24:43=>data-led growth]]).
 Those events become useful only when the runtime signal matches the behavior
 the team intended to capture.
 
@@ -64,7 +66,7 @@ dashboards look precise while mixing several behaviors under one name.
 In Arpit's framing, product and growth teams define the behavior they need to
 measure before engineers implement the events. The captured data then flows
 into analytics and activation systems
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>tracking-plan discussion]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>tracking-plan discussion]]).
 For schema rules, required properties, and ownership, see [[tracking plans]].
 
 ## Client-Side and Server-Side Events
@@ -73,7 +75,7 @@ Arpit compares client-side and server-side events because capture location
 changes the meaning of an event. Client-side events fit attempts, clicks, page
 interactions, and user-interface behavior. Server-side events fit completed
 business actions such as successful signup or project creation
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>data-led growth]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>data-led growth]]).
 Many teams need both, but they shouldn't treat both as the same source of
 truth.
 
@@ -81,7 +83,7 @@ Arpit's fake-signup example shows the debugging value of that distinction. When
 a signup metric spikes, the team needs to trace which event source fired. The
 team also needs to know whether the signal reflects real users, automated
 accounts, a front-end attempt, or a completed account record
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>anomaly investigation]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>anomaly investigation]]).
 Without source context, product, growth, and engineering teams can argue about
 the dashboard while looking at different meanings of the same event name.
 
@@ -92,7 +94,7 @@ start from behavior data. Retention curves, activation metrics, and engagement
 analysis do too. Arpit places product analytics after collection and storage.
 Events flow into warehouses, product analytics tools, and BI tools. Teams then
 analyze acquisition, activation, retention, and engagement
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>collection-to-analysis flow]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@22:50=>collection-to-analysis flow]]).
 
 Product analysts often work at that boundary. The [[Product Analyst]] guide
 links event data with funnels, experiments, and product behavior. A product
@@ -144,13 +146,14 @@ tools. Arpit describes activation as making product and customer data available
 in support, sales, engagement, and product experiences. A support agent can see
 customer usage. A sales team can prioritize product-qualified accounts. A
 growth team can personalize onboarding or lifecycle messages
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>data-led growth]]).
+([[cite:data-led-growth-event-tracking-and-reverse-etl@30:03=>data-led growth]]).
 
-[[Reverse ETL]] is one activation route. Arpit places reverse ETL after
-warehouse storage and transformation, with Census, Hightouch, and Grouparoo as
-examples. Natalie gives the engineering version in the modern-stack episode.
-Teams push modeled warehouse tables back into source systems or business tools
-instead of writing custom scripts for each destination
+Arpit places [[Reverse ETL]] after warehouse storage and transformation. He
+names Census and Hightouch as examples plus Grouparoo in the same category
+([[cite:data-led-growth-event-tracking-and-reverse-etl@37:25=>reverse ETL tools]]).
+Natalie gives the engineering version in the modern-stack episode. Teams push
+modeled warehouse tables back into source systems or business tools instead of
+writing custom scripts for each destination
 ([[cite:data-engineering-tools-modern-data-stack=>warehouse reverse flows]]).
 
 [[Customer data platforms]] are another route. Arpit frames CDPs as bundled

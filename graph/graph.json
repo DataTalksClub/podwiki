@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11887
+    "links": 11909
   },
   "nodes": [
     {
@@ -10508,16 +10508,6 @@
       "search": "Search Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
     },
     {
-      "id": "wiki:search-and-rag-project-checklist",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Search and RAG Checklist",
-      "title": "Search and RAG Checklist",
-      "url": "/wiki/search-and-rag-project-checklist/",
-      "count": 1,
-      "search": "Search and RAG Checklist Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
-    },
-    {
       "id": "wiki:search-relevance",
       "type": "wiki",
       "collection": "wiki",
@@ -10526,6 +10516,16 @@
       "url": "/wiki/search-relevance/",
       "count": 1,
       "search": "Search Relevance How production search teams combine retrieval, ranking, filters, evaluation, experiments, and business goals into useful results."
+    },
+    {
+      "id": "wiki:search-and-rag-project-checklist",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Search/RAG Project Checklist",
+      "title": "Search/RAG Project Checklist",
+      "url": "/wiki/search-and-rag-project-checklist/",
+      "count": 1,
+      "search": "Search/RAG Project Checklist Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
     },
     {
       "id": "wiki:security",
@@ -32636,6 +32636,18 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -34593,6 +34605,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:analytics-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:apache-airflow",
       "kind": "article-chip",
       "weight": 1
     },
@@ -37397,6 +37415,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-tools",
@@ -40736,6 +40760,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "wiki:governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -40811,6 +40841,12 @@
       "target": "wiki:text-to-sql",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -46940,6 +46976,12 @@
     },
     {
       "source": "wiki:dataops-platforms",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
       "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
@@ -47151,6 +47193,12 @@
     {
       "source": "wiki:dataops-tools",
       "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:apache-airflow",
       "kind": "article-chip",
       "weight": 1
     },
@@ -50708,6 +50756,12 @@
     },
     {
       "source": "wiki:event-tracking",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:event-tracking",
       "target": "wiki:data-activation",
       "kind": "wiki-chip",
       "weight": 1
@@ -50783,6 +50837,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:event-tracking",
@@ -57351,6 +57411,18 @@
     {
       "source": "wiki:llm-deployment",
       "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:caching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:caching",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -65768,6 +65840,18 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "wiki:feature-stores",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:feature-stores",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "wiki:governance",
       "kind": "article-chip",
       "weight": 1
@@ -65825,6 +65909,12 @@
       "target": "wiki:mlops-tools",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-architecture",
@@ -66080,6 +66170,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:mlops-architecture",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -66095,6 +66191,12 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-engineer",
@@ -66572,6 +66674,12 @@
     },
     {
       "source": "wiki:mlops-tools",
+      "target": "wiki:feature-stores",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
       "target": "wiki:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -66635,6 +66743,12 @@
       "target": "wiki:mlops-engineer",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-tools",
@@ -77396,9 +77510,21 @@
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:rag-evaluation-workflow",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
@@ -77823,6 +77949,12 @@
     {
       "source": "wiki:self-service-data-platforms",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:apache-airflow",
       "kind": "wiki-chip",
       "weight": 1
     },

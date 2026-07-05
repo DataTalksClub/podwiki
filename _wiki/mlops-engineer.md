@@ -5,6 +5,8 @@ summary: "The MLOps engineer role across model delivery and production ownership
 related:
   - MLOps
   - MLOps Roadmap
+  - MLOps Architecture
+  - MLOps Tools
   - ML Platforms
   - Machine Learning Engineer Role
   - Data Engineer Role

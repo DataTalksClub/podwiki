@@ -150,6 +150,10 @@ A search-first project is strongest when the README compares retrieval
 approaches on the same questions. Search quality ties to business metrics and
 A/B tests, as well as to offline evaluation and fast iteration
 ([[cite:building-production-search-systems=>Building Search Systems]]).
+It remains a RAG portfolio project only when retrieval feeds generated answers
+with visible source citations. If the project stops at candidate retrieval,
+ranking, or search-quality metrics, route it to [[Information Retrieval]] or
+[[Production Search Evaluation]] instead.
 
 A portfolio project can use keyword baselines and vector retrieval as the main
 story. It can compare hybrid search, filters, ranks, and failure cases before
@@ -219,8 +223,8 @@ AI developer tools. The interview task centers on a PDF Q&A assistant
 ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]]).
 
 That path connects portfolio work to visible project evidence during a restart.
-The project story should explain why the builder's previous domain makes the
-corpus, users, and failure cases more credible. Pair this project type with
+The project story can explain why the builder's previous domain makes the
+corpus, users, and failure cases easier to define. Pair this project type with
 [[career-transitions-in-data=>Career Transition]] and
 [[Job Search]] when the page is used
 for hiring preparation.

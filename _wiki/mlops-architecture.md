@@ -7,10 +7,12 @@ summary: "Guide to MLOps architecture across data, pipelines, registries, CI/CD,
 related_wiki:
   - MLOps
   - MLOps Roadmap
+  - MLOps Tools
   - ML Platforms
   - Experiment Tracking
   - Model Registry
   - Model Monitoring
+  - Feature Stores
   - Reproducibility
   - DataOps
   - MLOps vs DataOps
@@ -346,6 +348,7 @@ Feature platforms manage the data used by models. A feature store can provide
 offline training data and online low-latency feature serving. It can also
 provide point-in-time correctness, feature reuse, feature definitions, and
 monitoring around feature freshness or distributions.
+Feature-store selection and examples belong with [[Feature Stores]].
 
 [[person:willempienaar=>Willem Pienaar]] frames feature platforms around
 reusable feature definitions and separates transformation systems from feature

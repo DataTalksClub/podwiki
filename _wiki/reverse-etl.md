@@ -21,8 +21,13 @@ It's a warehouse-centered form of [[data activation]], but it doesn't own the
 whole activation workflow. Reverse ETL explains how trusted warehouse data gets
 from a model to a downstream tool. [[data-activation=>Data activation]] asks why
 that signal belongs in sales, support, or marketing work. It also covers
-onboarding and product workflows. Useful syncs depend on
-[[analytics engineering]], [[event tracking]], and [[tracking plans]].
+onboarding and product workflows.
+
+Useful syncs depend on [[analytics engineering]], [[event tracking]], and
+[[tracking plans]].
+Reverse ETL work stops at sync, delivery, monitoring, and change control. The
+behavior change around the delivered signal belongs to
+[[data-activation=>Data Activation]].
 
 ## Warehouse-to-Tool Sync
 
@@ -91,7 +96,8 @@ Those examples make reverse ETL narrower than [[data activation]]. Activation
 can also happen through embedded product experiences and dashboards used in
 meetings. Customer data platforms, direct integrations, and reviewed workflows
 can activate data too. Reverse ETL is the warehouse-centered path: the warehouse
-holds the selected model, and a sync tool distributes it to downstream systems.
+holds the selected model, and a sync tool distributes it to downstream systems
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 
 Reverse ETL also sits near [[product analytics]]. Product analytics helps a team
 find activation, retention, and segmentation signals. Reverse ETL moves the

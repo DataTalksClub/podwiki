@@ -1,12 +1,14 @@
 ---
 layout: wiki
-title: "Search and RAG Checklist"
+title: "Search/RAG Project Checklist"
 summary: "Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
 related:
   - Portfolio Projects
   - RAG Portfolio Projects
   - Retrieval-Augmented Generation
+  - RAG Evaluation Workflow
   - LLM Evaluation Workflows
+  - Production Search Evaluation
   - LLM Production Patterns
   - Vector Databases
   - Graph RAG vs Vector RAG

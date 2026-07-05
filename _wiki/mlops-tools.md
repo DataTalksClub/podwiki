@@ -6,7 +6,9 @@ related:
   - MLOps
   - MLOps Architecture
   - MLOps Roadmap
+  - MLOps Engineer
   - ML Platforms
+  - Feature Stores
   - Experiment Tracking
   - Model Registry
   - Model Monitoring

@@ -276,9 +276,8 @@ and lineage. He also covers artifact logging, tracking, and GDPR
 concerns [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
 This is where [[Production]], [[Reproducibility]], and [[Governance]] connect to
-MLOps. As agents enter production, MLOps practices also extend into
-[[Agent Ops]]. In agent systems, teams apply monitoring, drift detection, and
-governance to autonomous tool-using systems.
+MLOps. Tool-using LLM systems have adjacent production practices in
+[[Agent Ops]].
 
 ## Related Pages
 
