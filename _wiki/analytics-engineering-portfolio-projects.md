@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Analytics Engineer Portfolio"
+title: "Analytics Engineering Projects"
 summary: "Project ideas for showing SQL modeling, metric ownership, dbt tests, documentation, BI readiness, and stakeholder judgment."
 related:
   - Portfolio Projects
@@ -54,7 +54,7 @@ That favors projects that show source assumptions and warehouse-side
 transformations, even when the portfolio isn't a full data-engineering
 project.
 
-## Reviewable Evidence
+## Reviewer Signals
 
 Reviewers should be able to see the model, the business reason for it, and the
 handoff. [[person:victoriaperezmola=>Victoria Perez Mola]]
@@ -89,6 +89,9 @@ and engagement tools
 For portfolio builders, this makes activation projects legitimate
 analytics-engineering evidence when the work documents event ownership, data
 meaning, and downstream consequences.
+
+Use [[Analytics Engineering Roadmap]] for the learning order, and choose
+proof-of-work projects that reviewers can look at.
 
 ## Metric Mart and Dashboard Project
 

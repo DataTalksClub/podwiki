@@ -144,10 +144,10 @@ stays true as Iceberg and DuckDB evolve. It also stays true as orchestration
 systems and AI-assisted pipelines evolve
 ([[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]).
 
-Start with pipeline design by ingesting from an API or file
-drop. A database export, event log, or CDC simulation also works. It should
-preserve raw records, then transform them into staged and modeled tables. The
-last step is one output for a named consumer
+Start with pipeline design by choosing one data science workflow that already
+depends on fragile inputs. Ingest from an API or file drop. A database export,
+event log, or CDC simulation also works. Then preserve raw records and
+transform them into staged and modeled tables for a named consumer
 ([[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]).
 
 Add data modeling with [[person:nataliekwong=>Natalie Kwong]]'s episode. She
@@ -176,41 +176,33 @@ same episode stresses cost-aware choices and end-to-end judgment
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
 [[Data Engineering Platforms]]).
 
-## A Transition Portfolio That Works
+## Transition Proof From Data Science Work
 
-The strongest portfolio starts from a data science use case and rebuilds the
-upstream path properly. That makes the story credible. You aren't abandoning
-data science. You're moving toward the infrastructure that made your previous
-work succeed or fail
+The strongest transition proof starts from a data science use case and rebuilds
+the upstream path properly. You aren't leaving data science behind. You're
+showing that you can own the infrastructure that made previous analysis or
+modeling work succeed or fail
 ([[Career Transitions in Data]]).
 
-Good project choices include:
+Choose one project type that makes the data-science origin visible:
 
 - a training-data pipeline that ingests raw events or public records, builds
   feature tables, tests leakage risks, and documents refresh behavior
   ([[Machine Learning Portfolio Projects]],
   [[Data Engineering Portfolio Projects]])
-- a batch scoring pipeline that writes predictions to a warehouse table, adds
-  freshness and schema checks, and names the analyst or product workflow that
-  consumes the scores
+- a batch scoring or monitoring data path that writes predictions, labels,
+  slices, and quality checks into modeled tables for analysts or product teams
   ([[Machine Learning System Design]],
-  [[MLOps]])
-- an analytics mart for model monitoring, with raw predictions, labels,
-  slices, drift checks, and documented table grain
-  ([[Data Quality and Observability]],
-  [[data-quality-and-observability=>Data Observability]])
+  [[MLOps]],
+  [[Data Quality and Observability]])
 - a backfill and schema-change project that starts with a working pipeline,
-  breaks it with late data, and shows detection plus recovery
+  breaks it with late data or changed fields, and shows detection plus recovery
   ([[DataOps]])
-- a warehouse-centered ELT project that uses SQL transformations, tests, docs,
-  a BI-ready mart, and a clear consumer
-  ([[Analytics Engineering]],
-  [[Analytics Engineering Portfolio Projects]])
 
-The project should include a README and setup steps. Add an architecture
-sketch and data dictionary, plus tests and orchestration notes. Include a small
-runbook
-([[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]).
+Use [[Data Engineering Portfolio Projects]] for the full repository checklist.
+For this transition, the project should explain which modeling or analysis
+failure pushed you upstream. It should also explain the data path you rebuilt
+and how a consumer can trust the result.
 
 Ellen gives transition-specific project advice by recommending scrapers, ETL
 pipelines, and schedulers such as Airflow. She also recommends domain-focused
@@ -297,9 +289,13 @@ Then ask how pipelines are deployed and whether the role is platform-heavy,
 analytics-heavy, streaming-heavy, or ML-adjacent
 ([[Job Descriptions]]).
 
-## A Practical Learning Order
+## Role-Specific Learning Order
 
-Build in this order:
+Use the [[data-engineer-roadmap=>Data Engineering Roadmap]] for the full
+sequence.
+
+For this transition, apply that sequence to existing data science work in this
+order:
 
 1. Strengthen SQL around table grain, window functions, date logic,
    incremental models, validation queries, and marts

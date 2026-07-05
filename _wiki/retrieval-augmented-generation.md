@@ -31,12 +31,12 @@ RAG is more than one tool: search quality
 and chunk design affect answer quality. Embeddings, prompt construction,
 citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-RAG architecture and production boundaries connect to several applied pages.
-[[RAG Portfolio Projects]] helps choose a project type, while the
-[[Search and RAG Project Checklist]] helps review a scoped implementation.
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]] checks retrieval and
-answers, while the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-orders the production sequence.
+RAG architecture connects to several applied pages. Use
+[[RAG Portfolio Projects]] for project choice and the
+[[Search and RAG Project Checklist]] for implementation review. Use
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] for evaluation and the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the learning
+and rollout sequence.
 For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
 adjacent design where retrieval supplies schema or metric context before SQL
 generation.
@@ -158,7 +158,7 @@ domains that need graph semantics.
 Those tradeoffs belong with [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
 and [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]].
 
-## Evaluation and Failure Analysis
+## Evaluation Boundaries
 
 RAG evaluation has at least two layers: retrieval quality and answer quality.
 The system can fail because retrieved chunks are wrong, stale, too broad, or
@@ -174,6 +174,11 @@ formatting, and data-preparation problems.[[cite:practical-llm-engineering-and-r
 Agentic RAG needs custom datasets and system benchmarks because public model
 benchmarks don't test tool use or integration behavior. They also don't test
 the outcome of a retrieval step inside a larger agent workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the run sequence,
+gold examples, review labels, and traces. It also covers production feedback.
+The boundary matters because one score can hide whether a failure came from
+retrieval, generation, or review.
 
 ## Production Constraints
 
@@ -194,6 +199,9 @@ Agentic systems add tool integration and evaluation work on top of
 retrieval. Use the agentic path when retrieval alone can't complete the task.
 In those cases, the system must choose tools, act on changing state, or
 coordinate multiple sources.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
+
+Use the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the
+sequence from assistant to RAG, evaluation, agents, and production readiness.
 
 ## Related Pages
 

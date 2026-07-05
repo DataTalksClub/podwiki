@@ -10,6 +10,7 @@ related:
   - Data Engineering Platforms
   - MLOps
   - DataOps
+  - Data Teams
   - Data Product Management
   - Career Transitions in Data
   - dbt
@@ -297,7 +298,7 @@ environments
 ([[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
 [[DataOps]]).
 
-## Business Context and Career Paths
+## Business Context and Role Transitions
 
 Business context is an advantage, not a distraction.
 Maksimovic's path from marketing into analytics engineering worked because
@@ -323,29 +324,13 @@ or cloud specialization. Streaming and ML platforms are later paths
 [[Career Transitions in Data]],
 [[Analytics Engineering Roadmap]]).
 
-For a learning sequence, Perez Mola and Perafan put SQL before tool collecting.
-A candidate should be able to explain table grain and model one source-to-mart
-path. They should add tests and documentation, then expose the model through BI.
-After that, the harder work is handling source changes, metric disputes, and
-event definition disputes.
-
-Python helps with APIs, orchestration, testing, and glue code. Perez Mola and
-Perafan still frame the analytics-engineering path as SQL-first
-([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
-[[Analytics Engineering Roadmap]]).
-
-Bootcamp-style analytics engineering training should produce role-ready
-workflow evidence, not only course completion. A useful sequence starts with SQL
-and data modeling. It turns a raw source into a BI-ready mart. Then it adds
-dbt-style tests, documentation, and a named business user
+Perez Mola and Perafan put SQL before tool collecting. Candidates should be
+able to explain table grain and model one source-to-mart path. They should add
+tests and documentation, then expose the result through BI
 ([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
-
-The portfolio story should also cover source quality and the deployment path.
-Bootcamp projects stand out more when they're customized for a real interest
-and connected to hiring conversations. Repeating the same class exercise is a
-weaker signal
-([[cite:get-data-analytics-and-data-engineering-job=>From Academia to Data Analytics and Engineering]]).
+Use [[Analytics Engineering Roadmap]] for the staged learning path and
+[[Analytics Engineering Portfolio Projects]] for proof-of-work examples.
 
 Katie Bauer's team-building episode adds a seniority signal for analytics work.
 Maintainability, documentation, and peer review turn modeling from personal SQL
@@ -360,23 +345,7 @@ product analysis and marketing science. The modeled data layer has to support
 multiple business surfaces without turning every request into bespoke analysis
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]].
 
-## Learning and Portfolio Signals
-
-Learning analytics engineering means practicing the full source-to-model path,
-not only learning a tool name. A useful project turns raw source data into a
-BI-ready mart, explains grain and source semantics, and names the consumer. It
-also adds tests and documentation
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
-
-The detailed project examples belong in
-[[Analytics Engineering Portfolio Projects]]. The concept signal stays the
-same. The work should make analytical data safe enough for repeated decisions
-and dashboards. Experiments and activation workflows need the same reliability
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
-[[Dashboard and Metric Layer Project Checklist]]).
-
-## Team Design and Adoption
+## Adoption Surfaces
 
 Analytics engineering succeeds when modeled data changes how teams work. Liang's
 team-building episode starts with dashboards and business-health monitoring. It
@@ -400,8 +369,10 @@ analysts, analytics engineers, and marketing scientists as separate roles
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]]).
 Peer review and maintainable work still make analytics usable after one
 stakeholder request becomes repeated team work. Documentation does the same
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Data Team]],
-[[Data Teams]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Data Team]]).
+
+For the broader org model, use [[Data Teams]]. For hiring order, adoption
+rituals, and management practice, use [[Team Building]].
 
 ## Related Pages
 

@@ -99,7 +99,7 @@ This ownership model connects the roadmap to
 The specific analyst transition path is
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]].
 
-## Role Boundaries and Tool Choices
+## Tool Choices During the Sequence
 
 Role and tool boundaries are contested.
 
@@ -206,35 +206,20 @@ connect to warehouse transforms and BI.
 [[reverse ETL]] returns modeled data to sales, support, marketing, or
 engagement tools.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth and Reverse ETL]]
 
-## Portfolio Project Sequence
+## Build Proof as You Learn
 
-Build projects in the order the work becomes more durable.
+At each stage, build reviewable proof by starting with one source-to-mart
+model. Then add tests, documentation, and a BI or semantic surface. Perez Mola
+ties that proof to reusable models and dbt tests. Perafan ties it to business
+definitions that survive review
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]].
 
-1. Model one metric from raw data to mart. Pick one domain, define the entities
-   and grain, write the SQL, and document the metric definition. This matches
-   building tables or views so analysts and data scientists can use the data.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
-2. Turn repeated dashboard SQL into a dbt-style project. Add staging and
-   intermediate layers, then publish marts. Document the project, add tests, and
-   expose a dependency graph. Data modeling is best learned through a dbt
-   migration rather than by studying the tool in isolation.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
-3. Prove dashboard trust. Break an upstream assumption, then show which test,
-   warning, or documentation note catches it. Use non-null checks, source
-   checks, warning-versus-error behavior, and blocked downstream models when
-   source data is wrong.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
-4. Resolve a metric conflict. Model two competing definitions first, then
-   explain the stakeholder tradeoff and publish one governed version. Analytics
-   engineering translates business reality into data, so the model has to encode
-   the business decision, not only the join logic.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]]
-5. Activate modeled data outside BI. Send a segment, lifecycle metric, or
-   product event state to a sales, support, marketing, or engagement tool. Event
-   tracking, warehouse transformations, BI analysis, and reverse ETL form one
-   growth stack.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth and Reverse ETL]]
-
-These projects should produce
-[[analytics-engineering-portfolio-projects=>portfolio evidence]]
-a hiring manager can look at. Show the model, tests, docs, and lineage. Include
-a dashboard or semantic surface and a short explanation of the business
-question.
+For metric marts or dbt refactors, use
+[[analytics-engineering-portfolio-projects=>Analytics Engineering Portfolio Projects]].
+It also covers event models and activation examples. Keep this learning
+sequence on SQL and grain before modeling. Then add tests, documentation,
+review, and stack context.
 
 ## Role Milestones
 

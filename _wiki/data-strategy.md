@@ -7,6 +7,9 @@ related:
   - Data Product Management
   - Data Governance
   - Data Products
+  - Data Product Adoption
+  - Data Mesh
+  - Data Mesh vs Centralized Data Platform
   - Data Teams
   - AI for Social Good
   - Data Translator Role
@@ -24,7 +27,7 @@ event tracking, DataOps, vendor selection, and adoption. The strategy matters
 only when teams ship trusted
 [[data products]], dependable
 [[data engineering platforms]],
-and useful business workflows.
+and useful business workflows.[[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]]
 
 ## Business-First Choices
 
@@ -213,8 +216,9 @@ organization
 [[Data Mesh vs Centralized Data Platform]] covers the ownership tradeoff between
 domain autonomy and central platform control.
 
-Self-service platform abstractions reduce the burden on domain teams, but domain
-ownership and shared standards still have to exist together.
+Self-service platform abstractions reduce the burden on domain teams. The
+organization may be ready to pair domain ownership with shared standards. When
+it isn't, the central platform should keep more operating responsibility.
 
 Mehdi OUAZZA gives the scale-up platform version. The platform enables
 onboarding and scale, with work split between platform engineering and use-case
@@ -242,13 +246,13 @@ next. Policies cover retention, freshness, and purpose-based access
 Those policies keep
 governance tied to decisions the team can explain.
 
-The distributed version uses federated governance. That means shared policy has
-automated enforcement across domain-owned data products, where retention,
-metadata, and validation become governance primitives
+A federated model automates shared policy enforcement across domain-owned data
+products
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-In [[Data Mesh]], governance and
-[[data quality and observability]]
-serve the same consumer need: guarantees people can look at and trust.
+Data Mesh treats retention, metadata, validation, and contracts as operating
+controls. Strategy decides whether those controls can move closer to domains. It
+can also keep them centralized until the organization can operate them
+consistently.
 
 Alexander Hendorf extends risk into AI and ML. Production systems in that frame
 need retraining, feedback loops, and MLOps automation. Standardization and CI/CD
@@ -290,11 +294,10 @@ to lock-in, cost, maturity, and team capability.
 
 ## Adoption and Value
 
-Data strategy succeeds when people use the data to make better decisions or run
-better workflows. Tables, dashboards, models, and catalogs aren't enough.
-Last-mile strategy starts from the decision and works backward through
-stakeholders, meeting rituals, and the data product interface. The modern stack
-is only valuable when that last step changes behavior.
+Data strategy succeeds when people use data to make better decisions or run
+better workflows. Tables, dashboards, models, and catalogs aren't enough. At
+strategy level, leaders decide which decisions matter, which teams own the
+workflow change, and which measures prove value.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@08:48=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]]
 
@@ -308,14 +311,8 @@ rather than a bespoke ticket queue
 [[cite:cloud-data-governance@47:02=>Cloud Data Governance]]. Early
 releases and customer iteration beat heroic delivery
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-Users need to find the data, trust it, understand its limits, and act on it.
-
-Data Mesh makes adoption a product concern. Data as a product means
-consumer-first guarantees and KPIs, and contracts cover quality, service levels,
-and ownership
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
-The strategy has to describe the consumer and the guarantee, not just the
-pipeline that produces the dataset.
+[[Data Product Adoption]] covers the user research, enablement, and behavior
+measurement that follow from those strategy choices.
 
 The discussion around Data is Like a Plate of Hummus uses the same
 foundation-first logic. Teams need stable ground, shared understanding, and

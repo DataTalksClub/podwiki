@@ -26,11 +26,9 @@ When you run a RAG evaluation workflow, separate retrieval from generation:
 1. The retriever found the evidence the user needed.
 2. The model used that evidence to produce a correct, useful, and cited answer.
 
-This is the practical core of RAG eval. Start with user tasks and gold
-examples, then test retrieval and answers. Review failures, add traces, and
-feed production behavior back into the next eval set. The same sequence applies
-whether the team calls it RAG evaluation, retrieval-augmented generation
-evaluation, or search evaluation for an LLM product.
+Start with user tasks and gold examples, then test retrieval and answers.
+Review failures, add traces, and feed production behavior back into the next
+eval set.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
@@ -40,14 +38,11 @@ answer came from retrieval, prompting, formatting, or another part of the
 system.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-RAG evaluation starts after the concept boundary is clear in
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-[[RAG Portfolio Projects]]
-helps with project-type choice. The
-[[Search and RAG Project Checklist]]
-contains implementation review fields. Use the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-for the wider learning and rollout sequence.
+Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
+concept boundary, [[RAG Portfolio Projects]] for project-type choice, and the
+[[Search and RAG Project Checklist]] for implementation review fields. Use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for the wider
+learning and rollout sequence.
 
 Search evaluation starts before answer scoring because chunking and embeddings
 affect the evidence the model sees. Prompt context, citations, offline tests,
@@ -57,12 +52,8 @@ an answer-scoring workflow.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@50:52=>Human-in-the-Loop RAG Evaluation]]
 RAG evaluation therefore sits inside
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-and
-[[Production Search Evaluation]],
-not only an answer-scoring exercise. Use the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-when this workflow sits inside a broader production plan.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
+[[Production Search Evaluation]], not only answer scoring.
 
 ## Start With User Tasks
 
@@ -86,9 +77,8 @@ For each task, record:
 5. The evidence that must be retrieved.
 6. The refusal or escalation behavior when evidence is missing.
 
-Use these task records in the
-[[Search and RAG Project Checklist]]
-when the evaluation backs a portfolio project or project README.
+Use these task records in the [[Search and RAG Project Checklist]] when the
+evaluation backs a portfolio project or project README.
 
 ## Build Gold Examples
 
@@ -133,11 +123,10 @@ Human review belongs in the loop because retrieval metrics can
 miss whether a passage actually answers the user's task or supports the final
 claim.
 
-The search-side evaluation stack is layered. Start with embedding and chunking
+The search-side evaluation is layered. Start with embedding and chunking
 choices, then test retrieval strategy, answer quality, and citations together.
-That makes a failed answer actionable because the team can decide where the fix
-belongs. The next change may be corpus preparation, retrieval, prompting, or
-review policy
+That makes a failed answer actionable because the team can decide whether to
+change corpus preparation, retrieval, prompting, or review policy
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]].
 
 For each gold example, record:
@@ -154,9 +143,8 @@ This is the retrieval side of
 [[Information Retrieval]].
 It also gives the team concrete [[context-engineering=>context engineering]]
 inputs to look at before rewriting the prompt.
-Use
-[[Vector Database vs Search Engine]]
-when the evaluation shows a storage or search-stack decision.
+Use [[Vector Database vs Search Engine]] when the evaluation shows a storage or
+search-stack decision.
 
 ## Check Answers And Citations
 
@@ -205,10 +193,9 @@ tests, and regression tests. Outcome assertions matter more than exact path
 matching because multiple traces can still produce the same correct result.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-For a plain RAG assistant, the same idea applies because a correct answer can
-come from different retrieved chunks. A bad answer can look fluent while hiding
-a retrieval miss. Reviewers should look at both the answer and the evidence the
-model saw.
+For a plain RAG assistant, a correct answer can come from different retrieved
+chunks. A bad answer can look fluent while hiding a retrieval miss. Reviewers
+should look at both the answer and the evidence the model saw.
 
 Store review labels as structured fields:
 
@@ -223,10 +210,9 @@ Store review labels as structured fields:
 9. `refusal_failed`
 10. `format_failed`
 
-Use
-[[Agent Engineering]] only when
-the workflow needs planning, tools, or action. Some products only need RAG.
-Others need an agentic system that uses retrieval as one tool among several.
+Use [[Agent Engineering]] only when the workflow needs planning, tools, or
+action. Some products only need RAG. Others need an agentic system that uses
+retrieval as one tool among several.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 ## Add Logs And Traces
@@ -281,10 +267,10 @@ production observations into failure categories and traces for the next eval run
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 For product search and RAG systems, connect feedback to the task outcome, not
-only to answer prettiness. [[Production Search Evaluation]]
-covers relevance, freshness, and latency. It also covers business metrics, A/B
-tests, and monitoring. The same discipline applies when the search result is
-fed to a model instead of shown directly to a user.
+only to answer style. [[Production Search Evaluation]] covers relevance,
+freshness, latency, and business metrics. It also covers A/B tests and
+monitoring. The same discipline applies when the search result is fed to a
+model instead of shown directly to a user.
 
 ## Eval Run Sequence
 
@@ -314,9 +300,7 @@ If the workflow needs structured relationships instead of similar text, compare
 [[Graph RAG vs Vector RAG]]
 and
 [[Knowledge Graph vs Vector Search]].
-Pair this workflow with
-[[RAG Portfolio Projects]]
-when the project is still being scoped. Once implementation is ready, use the
-[[Search and RAG Project Checklist]].
-For the broader production sequence, use the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
+Pair this workflow with [[RAG Portfolio Projects]] when the project is still
+being scoped. Once implementation is ready, use the
+[[Search and RAG Project Checklist]]. For the broader production sequence, use
+the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].

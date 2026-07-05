@@ -20,11 +20,10 @@ related_wiki:
   - Platform Adoption
 ---
 
-Use the [[Data Mesh]] concept page for domain and product mechanics. The hub
-covers ownership, contracts, federated governance, and adoption. This comparison
-asks a narrower question. Product meaning, quality commitments, and consumer
-support can move to domain teams, or more responsibility can stay with a shared
-data or platform team.
+In [[Data Mesh]], domain ownership, contracts, and federated governance are the
+mechanics. The comparison asks where product meaning and consumer support should
+sit. Domain teams can own quality commitments, or a shared data or platform
+team can keep more responsibility.
 
 A centralized [[data-engineering-platforms=>Data Engineering Platform]] can
 still offer self-service and product-like interfaces. The decision isn't
@@ -37,37 +36,24 @@ depend on the same outputs. The difference is where the organization puts the
 main operating responsibility.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
-## Ownership Assignment
+## Ownership Boundary
 
 Choose Data Mesh when the main bottleneck is ownership of meaning. Domain teams
-own the product commitments because they understand how the data changes and
-what consumers need. Platform capabilities and governance still keep those
+own product commitments because they understand how the data changes and what
+consumers need. Product meaning and freshness expectations stay close to those
+teams. Quality limits and prioritization stay there too. Service levels and
+support stay there as well, while platform capabilities and governance keep
 products interoperable.
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+[[cite:data-mesh-architecture-decentralized-data-products@16:34=>Data Mesh Implementation]]
 
 Choose a centralized platform when the main bottleneck is shared execution. One
 team can keep storage, compute, workflow engines, and self-service SQL on a
-common path. The same team can keep reproducible pipelines, lineage, and
-versioning there too. Domain teams may still explain business meaning, but the
-central team owns more implementation work and operating responsibility.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
-
-In both models, consumers still need a reliable [[Data Products]] interface.
-The choice changes who makes the promise: a domain team that owns the product,
-or a central team that coordinates meaning with the domain.
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-
-## Ownership Boundary
-
-Data Mesh is strongest when the bottleneck is domain meaning. Product meaning,
-freshness expectations, quality limits, and prioritization stay close to the
-teams that know how the data changes. Service levels and support stay close to
-the teams that know what consumers need.[[cite:data-mesh-architecture-decentralized-data-products@16:34=>Data Mesh Implementation]]
-
-A centralized platform is strongest when the bottleneck is shared execution.
-Common storage, compute, workflow orchestration, and self-service SQL stay
-visible in the same foundation. Lineage and versioning stay there too.
+common path. Lineage and versioning stay there too. Domain teams may still
+explain business meaning, but the central team owns more implementation work
+and operating responsibility.
 Decentralization becomes risky when teams lack enough [[DataOps]] maturity,
-governance practice, or sharing culture.[[cite:dataops-principles-and-scalable-data-platforms@30:34=>DataOps 101 for Scaling Data Platforms]]
+governance practice, or sharing culture.
+[[cite:dataops-principles-and-scalable-data-platforms@30:34=>DataOps 101 for Scaling Data Platforms]]
 
 Both models fail when ownership is unclear. A domain can publish raw events
 without support expectations, and a central team can publish tables without
@@ -76,9 +62,9 @@ and interpretation before consumers can apply it.[[cite:data-mesh-architecture-d
 
 ## Platform Boundary
 
-Data Mesh doesn't remove the platform, so domains shouldn't rebuild identity
-and authorization. They also shouldn't rebuild metadata, validation, or
-deployment paths. That keeps
+Data Mesh doesn't remove the platform, so domains shouldn't rebuild identity and
+authorization. They also shouldn't rebuild metadata, validation, or deployment
+paths. That keeps
 [[self-service-data-platforms=>Self-Service Data Platforms]] and
 [[Platform Engineering]] inside the Data Mesh decision rather than outside it.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
@@ -90,11 +76,10 @@ schemas define the interface. Schema registries and data contracts make it
 explicit.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 
 The practical boundary is repeatability. Keep capabilities shared when every
-team needs the same safe path. That includes orchestration templates and schema
-practices. It also includes access controls, lineage, monitoring, and deployment
-conventions. Move product ownership to domains when the hard part is semantic
-context, consumer
-commitments, prioritization, and support.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+team needs the same safe path. That includes orchestration templates, schema
+practices, access controls, and lineage. It also includes monitoring and
+deployment conventions. Move product ownership to domains when the hard part is
+semantic context, consumer commitments, prioritization, and support.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 ## Governance Boundary
 
@@ -153,9 +138,9 @@ ownership to move outward.[[cite:dataops-principles-and-scalable-data-platforms=
 [[Platform Adoption]] is the practical test. A Data Mesh pilot should prove that
 domain teams can publish and support useful data products. A centralized
 platform pilot should prove that the shared team can reduce waiting time
-without hiding business context from consumers. In both cases, people need to
-find and trust the data before the platform or mesh has created value. They
-also need to interpret and use it.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+without hiding business context from consumers. For [[Data Product Adoption]],
+people first need to find and trust the output. They then need to interpret it
+and use it in decisions.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Related Pages
 

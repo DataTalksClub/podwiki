@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLM Production Patterns"
-summary: "Durable LLM production patterns for serving boundaries, RAG, agents, evaluation, observability, security, cost, and operations."
+summary: "Durable serving, reliability, context, cost, and guardrail patterns for production LLM systems."
 related:
   - LLMs
   - Retrieval-Augmented Generation
@@ -16,13 +16,16 @@ related:
   - Text-to-SQL
 ---
 
-LLM production patterns are the design choices teams use when a
+LLM production patterns are the service and reliability choices teams use when a
 [[llms=>large language model]] becomes a product
 feature instead of a demo. Those choices include [[LLM Deployment]], model
 serving, and [[retrieval-augmented-generation=>retrieval-augmented generation]].
-They also connect production work to [[rag-vs-fine-tuning=>RAG vs fine-tuning]],
-[[agent engineering]], evaluation, and security. Cost, latency, ownership, and
-review stay part of the same production question.
+They also connect production work to [[rag-vs-fine-tuning=>RAG vs fine-tuning]]
+and [[LLMOps]].
+
+Agent operations, evaluation, and security stay nearby. Cost,
+latency, and ownership stay part of the same production question. So do
+rollback and human review.
 
 An LLM is a product component rather than the whole system. In production it
 ties deployment and model ownership to fine-tuning and retrieval. Evaluation
@@ -32,11 +35,11 @@ In [[business intelligence]], the model can help with questions, summaries, and
 governed metrics, access controls, and review.
 
 For the learning and rollout sequence, use
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. The durable
-production choices are model boundaries and context paths. They also include
-failure measurement and operations after launch.
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. Teams still have
+to choose model boundaries and serving constraints. They also need context
+paths, reliability controls, and operating signals after launch.
 
-## Production Boundary
+## Service Boundary
 
 Production LLM work starts at the system boundary around measurable product
 behavior.
@@ -48,8 +51,10 @@ That makes [[LLM evaluation workflows]] part of production design rather than a
 final audit.
 
 RAG and agents fit inside the same AI engineering skill stack as LLMOps and
-product shipping. Queues, retries, traces, and monitoring are part of that same
-shipping problem.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+product shipping. Queues and retries are part of that shipping problem. So are
+traces and monitoring.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+[[LLMOps]] owns the lifecycle discipline around traces, eval datasets, releases,
+and feedback loops.
 
 The product boundary also includes requirements and data. Deployment,
 monitoring, and feedback loops matter too.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
@@ -58,8 +63,8 @@ Production LLM systems therefore sit next to [[software engineering]] and
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 
 [[Notebook to Production Workflow]] covers the prototype-to-service handoff.
-The durable boundary decisions are serving ownership and context packaging.
-Evaluation, observability, and rollback stay in that same boundary.
+The durable boundary decisions are serving ownership, context packaging,
+operability, and rollback paths.
 
 ## Production Constraints
 
@@ -128,14 +133,12 @@ Long-context models don't remove the evaluation problem.
 [[long-context-llm-evaluation=>long-context LLM evaluation]] still needs
 task-specific checks, and retrieval or summarization can still matter.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
-## Tool Use and Agents
+## Agent Production Surface
 
-Agents fit cases where the LLM must plan or call tools. They also fit cases
-where the system must use memory or take action beyond retrieving context.
-Agentic systems combine autonomy, objectives, and orchestration. They also
-combine tools, memory, and knowledge stores. Retrieval is one tool, while
-planning and action require
-additional control surfaces.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+Agents fit cases where the LLM must plan, call tools, use memory, or take action
+beyond retrieving context. Retrieval is one tool, but planning and action require
+additional control surfaces such as permissions, tool wrappers, and outcome
+checks.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Tool use becomes production work when teams constrain and test the callable
 interfaces. SDKs, tool wrappers, and integration abstractions define what the
@@ -146,21 +149,25 @@ Minimal agent designs still need task decomposition, sequential workflows, and
 manager-agent orchestration. Agent SDKs and MCP-style integrations matter
 too.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 These designs keep [[agent engineering]] close to [[tools]], [[orchestration]],
-and [[testing]]. A production agent is a bounded workflow with permissions and
-callable interfaces. State, retrieval, evaluation, and rollback paths also
-belong in that boundary.
+and [[testing]]. [[Agent Ops]] owns the deeper operating questions around
+lineage, human escalation, tenant-specific guardrails, and production feedback
+for autonomous actions.
 
-## Evaluation and Feedback Loops
+## Reliability Gates
 
-Production LLM systems need evaluation before launch and feedback after launch.
-Generator-evaluator checks, structured checks, gold tests, and failure
-categories show whether the next fix belongs in retrieval or prompting. Logs
-and traces can also point toward data preparation, formatting, or product
+Production LLM systems need reliability gates before launch and feedback after
+launch. Generator-evaluator checks, structured checks, gold tests, and failure
+categories show whether the next fix belongs in retrieval or prompting. They can
+also show whether teams need to change data preparation, formatting, or product
 boundaries.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-Agent systems extend evaluation into software behavior. Custom datasets, system
-benchmarks, mocked tools, and integration tests check the workflow. Regression
-tests and outcome-based assertions test whether it behaves as intended.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+Agent systems extend reliability gates into software behavior. Custom datasets,
+system benchmarks, mocked tools, and integration tests check the workflow.
+Regression tests and outcome-based assertions test whether it behaves as
+intended.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+[[LLM Evaluation Workflows]] covers evaluation design and review loops. For
+production teams, the remaining question is where those gates sit in the
+service.
 
 Enterprise evaluation uses golden datasets, thresholds, and LLM judges aligned
 with human labels. Feedback loops, multi-tenancy, and scale become operating
@@ -175,7 +182,8 @@ development time in endless prompt tuning. That work can fail after a model
 update or across nondeterministic responses.[[cite:generative-ai-chatbots-in-production-security@20:39=>Chatbot Adoption Risk]]
 [[cite:generative-ai-chatbots-in-production-security@23:19=>Prompt Tuning Risk]]
 
-That links LLM production to [[model monitoring]] and [[data products]].
+That links LLM production to [[model monitoring]], [[data products]], and
+[[LLMOps]].
 
 ## Guardrails, Security, and Human Review
 

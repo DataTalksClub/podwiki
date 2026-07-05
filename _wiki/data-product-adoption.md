@@ -28,6 +28,9 @@ and connect it to a decision.
 Adoption sits beside [[data-products=>data products]] and
 [[data-product-management=>data product management]], and it also depends on
 [[platform-adoption=>platform adoption]], [[metrics]], and [[communication]].
+The maintained asset and ownership boundary sit in [[Data Products]]. Adoption
+focuses on enablement, workflow fit, trust-building, and measurement after the
+asset exists.
 
 ## Decision Use, Not Delivery
 

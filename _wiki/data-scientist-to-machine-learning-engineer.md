@@ -29,8 +29,9 @@ modular, testable components instead of monolithic data science code. It also
 puts simple, maintainable solutions ahead of model complexity.[[cite:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Production Best Practices]]
 
 This transition sits between the [[Data Scientist Role]] and
-[[Machine Learning Engineer Role]].
-It also draws on
+[[Machine Learning Engineer Role]]. Use the role page for definitions and
+boundaries. Use this page when you need the steps from analysis and modeling
+into production ownership. It also draws on
 [[Machine Learning System Design]]
 and [[MLOps]]. For a side-by-side boundary
 view, use
@@ -60,14 +61,15 @@ software practice aimed at production.[[cite:from-software-engineering-data-scie
 
 For machine learning engineering specifically, data scientists turn these
 foundations into model delivery. Rapid prototypes, timeboxed experiments, and
-cost-benefit tradeoffs guide the early work. Iterative sprints, MVPs, feature
-engineering, and testing belong in the same path from experiment to production
+cost-benefit tradeoffs guide the early transition work. Iterative sprints,
+MVPs, feature engineering, and testing belong in the same path from experiment
+to production
 [[cite:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Production Best Practices]].
 
-## Moving Role Boundaries
+## Pick The Boundary You Want To Cross
 
-Guests agree that the transition requires more engineering ownership, although
-they put the boundary in different places. Ben's version points toward product
+Guests put the DS-to-MLE boundary in different places, so the transition should
+target a specific missing responsibility. Ben's version points toward product
 ML, where the model-backed system has to be maintainable and testable. It also
 has to be explainable to the people who depend on it
 [[cite:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Production Best Practices]].
@@ -77,12 +79,12 @@ data scientist, along with model-cycle work. Some deployment can sit there too.
 MLflow and Kubeflow move toward ML engineering and MLOps. Kubernetes and
 pipeline infrastructure move there too.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
-That boundary also connects to
-[[Data Engineer vs Data Scientist]]
-when the transition is about pipelines and infrastructure rather than
-model serving. Use
+When the missing responsibility is pipelines and infrastructure rather than
+model serving, use [[Data Scientist to Data Engineer]] and
+[[Data Engineer vs Data Scientist]] instead. Use
 [[data-engineering-and-data-science=>data engineering and data science]]
-for the shared lifecycle across pipelines, features, deployment, and monitoring.
+for the shared lifecycle across pipelines, features, deployment, and
+monitoring.
 
 Data scientists moving toward platform work add cloud infrastructure,
 Kubernetes, and Terraform. They also add data science workflows and experiment

@@ -3,7 +3,7 @@ layout: article
 tags: ["roadmap"]
 title: "Data Engineer Roadmap"
 keyword: "data engineer roadmap"
-summary: "A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews."
+summary: "A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, reviewable work, and interviews."
 related_wiki:
  - Modern Data Engineering Trends
  - Data Engineer Role
@@ -60,9 +60,9 @@ connects that roadmap advice to current tool caution
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 
 His beginner path adds one detail that tool lists often miss. Learners need to
-capture business requirements. A portfolio should choose tools around the
-consumer and show how SQL, Python, ingestion, and modeling solve a real data
-problem
+capture business requirements. The learning sequence should therefore put SQL,
+Python, ingestion, and modeling around a real consumer problem before it adds
+more tools
 ([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
 That project requirement applies to every learner.
 
@@ -185,9 +185,9 @@ marts and dashboards in
 That episode also covers production ML handoffs and shows how source modeling,
 declarative transformations, and serving layers connect in one pipeline story.
 
-Portfolio work connects back to Python and SQL, alongside Docker, Airflow, and
-warehouse fundamentals. Personal projects and open-source contributions help
-create credible proof
+Portfolio work later turns this stage into hiring evidence, but this stage has
+a narrower goal. One pipeline should connect Python and SQL with orchestration.
+It should also include warehouse fundamentals and either Docker or a simple run command
 ([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
 Use
 [[Data Engineering Portfolio Projects]]
@@ -285,8 +285,8 @@ deeper version.
 
 By this point, you should have one complete pipeline and one smaller exercise
 that proves a specific skill. Stop adding tools until another engineer can run
-the work. They should also be able to read the SQL and Python, look at the
-tests, and ask why you made each tradeoff.
+the work. They should be able to read the SQL and Python, see the tests, and
+ask why each tradeoff fits the consumer.
 
 Jeff Katz's
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
@@ -299,12 +299,14 @@ writing and open-source work in
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 because public explanations can create feedback and make work visible.
 
-Use [[Data Engineering Portfolio Projects]] for project selection and repository
-structure. It also covers review signals. If your main problem is missing
-commercial experience, use
+At this stage, check reviewability before choosing more projects. Use
+[[Data Engineering Portfolio Projects]] for project selection and repository
+structure. It also covers reviewer signals.
+
+If your main problem is missing commercial experience, use
 [[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
-to add outside review and CV language. It also covers volunteer work and
-open-source evidence.
+for outside review and volunteer work. It also covers open-source evidence and
+CV language.
 For documentation and screening context, use [[Documentation]] and
 [[CV Screening]].
 
@@ -446,7 +448,7 @@ covers pipeline architecture at this level
 Senior readiness means you can set platform conventions and define ownership
 boundaries. You can decide whether governance or self-service work is worth the
 operational burden. Slawomir Tulski links senior value to cost-aware
-engineering and portfolio framing
+engineering and outcome framing
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
 Adrian Brudaru adds that senior backend engineers can move into senior data
@@ -464,7 +466,7 @@ Use this as a pacing guide, not a promise. Move faster if you already know SQL,
 Python, or backend engineering, and move slower if you're learning programming
 from scratch. The sequence follows the podcast evidence above. Fundamentals
 come before tool breadth, one finished pipeline comes before specialization,
-and portfolio proof comes before tool collecting.
+and reviewable proof comes before tool collecting.
 
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
@@ -575,7 +577,7 @@ and tests.
 small end-to-end platform in
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
-Use that portfolio evidence to check that you can:
+Use that evidence to check that you can:
 
 - walk through a portfolio project under interview questioning
 - explain the consumer, source, architecture, setup, and tradeoffs

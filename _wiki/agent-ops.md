@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Agent Ops"
-summary: "AgentOps: orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
+summary: "Agent Ops covers orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
 related:
   - Agent Engineering
   - Multi-Agent Systems
@@ -15,15 +15,17 @@ related:
   - AI Red Teaming
 ---
 
-Agent Ops is the operating discipline for deploying, monitoring, evaluating,
-and governing AI agents in production. It applies [[MLOps]] habits to
-LLM-backed systems that plan, call tools, route work to other agents, and take
-actions in user or business workflows.
+Agent Ops covers monitoring and evaluation for deployed AI agents. It also
+covers governance and operations. It applies [[MLOps]] habits to LLM-backed
+systems that plan and call tools. Those systems can route work to other agents
+or take actions in user and business workflows
+[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
 
 The topic sits inside [[Agent Engineering]] and next to [[LLMOps]]. LLMOps
 covers the broader production layer for LLM systems. Agent Ops narrows the
 focus to autonomous tool use and orchestration. It also covers data lineage,
-human escalation, and production feedback for agents.
+human escalation, tenant-specific guardrails, and production feedback for
+actions.
 
 ## Orchestration and Services
 
@@ -100,22 +102,29 @@ production. [[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]
 
 ## Monitoring and Feedback
 
-Agent monitoring needs traces, prompts, tool calls, and outcome feedback. Arize
-Phoenix appears as one example for monitoring LLM communication
-and prompts. Other LLMOps discussions mention Braintrust, Logfire, LangSmith,
-and LangFuse as evaluation or trace tools. The feedback-and-evaluation bridge
-from games to agent workflows is covered in
-[[game-ai-to-llm-agents=>Game AI to LLM Agents]]. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]] [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+Agent monitoring needs traces, prompts, tool calls, and outcome feedback. The
+agent-specific question is whether the system chose allowed tools, passed valid
+parameters, respected permissions, and completed the task. Arize Phoenix appears
+as one example for monitoring LLM communication and prompts. Braintrust,
+Logfire, LangSmith, and LangFuse appear in nearby LLMOps trace and evaluation
+discussions. The feedback-and-evaluation bridge from games to agent workflows is
+covered in [[game-ai-to-llm-agents=>Game AI to LLM Agents]].
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 Production agent feedback includes explicit signals such as thumbs up or down.
 It also includes implicit signals when users repeat queries or reframe
 questions. Frustration and "why did it do that?" messages identify missing
-cases too. Those gaps can become evaluation examples, synthetic data,
-human-labeled data, or fine-tuning inputs. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
+cases too.
+
+Those gaps can become evaluation examples, synthetic data, human-labeled data,
+or fine-tuning inputs. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
 Debuggable MVPs matter because agent failures are hard to infer from final
-answers alone. Logging traces and function calls early gives teams a way to see
-what happened before they add more tools or autonomy. [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+answers alone. Early traces and function-call logs show what happened before
+teams add more tools or autonomy
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+[[LLMOps]] owns the broader trace and release discipline around those records.
 
 Conference and R&D work around AI observability reinforces the same operating
 point. Teams need visibility into AI behavior before they can improve or trust
@@ -133,9 +142,9 @@ deployment
 ## Operating Decisions, Not Only Prompts
 
 General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.
-Agent Ops has to operate decisions. The production surface includes tool choice
-and data-source access. It also includes escalation behavior and whether the
-final outcome satisfied the task
+Agent Ops has to operate decisions. The production surface includes tool choice,
+data-source access, escalation behavior, and whether the final outcome satisfied
+the task
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]].
 
 That changes the reliability model. Tests need to cover tool availability,

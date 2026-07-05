@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLMOps"
-summary: "LLMOps covers operating LLM systems in production, from deployment and tracing to evaluation, guardrails, cost control, and feedback loops."
+summary: "LLMOps covers the lifecycle discipline for LLM applications: traces, evaluation sets, releases, guardrails, cost control, and feedback loops."
 related:
   - MLOps
   - LLM Production Patterns
@@ -19,21 +19,22 @@ related:
   - MLOps vs DevOps
 ---
 
-LLMOps is the operating discipline for production systems built with
-[[llms=>large language models]]. It extends [[MLOps]] into prompts and
-retrieval. It also covers agent traces and evaluation datasets. Provider choice,
-cost controls, guardrails, and human feedback belong in the same operating
-layer.
+LLMOps is the lifecycle discipline for production systems built with
+[[llms=>large language models]]. It extends [[MLOps]] into prompts, retrieval,
+and traces. It also covers evaluation datasets and releases. Guardrails, cost
+controls, and human feedback belong in the same operating layer.
 
-The topic sits between
-[[LLM Production Patterns]], [[AI Engineering]], and [[Agent Engineering]].
-It also connects to [[Model Monitoring]] and [[Evaluation]].
+The topic sits between [[LLM Production Patterns]], [[AI Engineering]], and
+[[Agent Engineering]]. It also connects to [[Model Monitoring]] and
+[[Evaluation]]. Use [[LLM Production Patterns]] for serving and reliability
+design, [[Agent Ops]] for autonomous tool-use operations, and
+[[LLM Evaluation Workflows]] for evaluation design.
 
 The operating boundary is wider than model deployment because LLM systems need
 ingestion pipelines for [[retrieval-augmented-generation=>RAG]]. They also need
-durable workflows for agent or retrieval steps, observability for
-multi-call responses, and evaluation loops. Those loops must survive changing
-prompts, tools, and model versions
+durable workflows for agent or retrieval steps, observability for multi-call
+responses, and evaluation loops. Those loops must survive changing prompts,
+tools, model versions, and releases
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 
 ## Shipping Boundary
@@ -42,10 +43,9 @@ Production LLM work combines product code, data pipelines, and model behavior.
 The AI engineering stack includes creating and evaluating agents, ingesting data
 for RAG, and making knowledge accessible to those agents
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
-Teams can use the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] to decide when
-retrieval, evaluation, workflow orchestration, and monitoring should harden
-together.
+Teams can use the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
+to decide when retrieval, evaluation, workflow orchestration, and monitoring
+should harden together.
 
 Durable workflow tools such as Prefect or Dagster appear in this operating
 layer because ingestion and retrieval need queues, retries, and resilient
@@ -93,9 +93,9 @@ integration checks from regression tests, and assert successful outcomes rather
 than one exact tool-call sequence
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-That makes [[LLM Evaluation Workflows]] a core LLMOps dependency. The
-evaluation set, trace logs, and production feedback need to evolve together as
-the product changes.
+That makes [[LLM Evaluation Workflows]] a core LLMOps dependency. Teams keep
+the evaluation set, trace logs, release changes, and production feedback
+evolving together as the product changes.
 
 ## Guardrails, Lineage, and Human Review
 
@@ -138,7 +138,13 @@ This is where [[Agent Ops]] overlaps with LLMOps. Agents take actions, so
 feedback must cover answer quality and tool use. It must also cover
 permissions, lineage, and human escalation.
 
-## Cost and Model Ownership
+## Release and Cost Controls
+
+LLMOps treats prompt, retrieval, model, and tool changes as release changes
+because any of them can alter product behavior. Hidden provider-side model
+changes are an operational risk because product behavior can shift without the
+application team changing its own code
+([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 Cost control includes both prompt efficiency and serving choices. Prompt
 compression creates a shorter prompt intended to preserve behavior while
@@ -151,30 +157,18 @@ Teams choose a model-ownership boundary when they deploy. Teams can use
 API-based models for fast prototypes because they can produce a demo quickly.
 Longer-term production
 systems may move toward open-source or self-hosted models for control, privacy,
-and predictable model versions. Latency and cost can push the same choice.
-Hidden provider-side model changes are an operational risk because product
-behavior can shift without the application team changing its own code
+and predictable model versions. Latency and cost can push the same choice
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 These tradeoffs connect [[LLM Deployment]], [[LLM Cost Optimization]],
 [[Caching]], and [[AI Infrastructure]].
 
-## Ownership, Traces, and Feedback
+## Operating Ownership
 
-LLMOps starts from different failure modes. One starting point is the serving
-boundary, where teams compare API speed with self-hosting control
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-Another starting point is debugging, where traces and evaluation tools come
-before the system grows
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
-A third is governance, where guardrails and lineage control agents that touch
-sensitive workflows
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
-
-The shared operating requirement is ownership. Production LLM teams need to
-know what context was supplied and which tools or models were called. They also
-need cost data, output evaluations, and feedback that can change the next
-version
+The shared operating requirement is ownership over changes and evidence.
+Production LLM teams need to know what context was supplied and which tools or
+models were called. They also need the release diff and cost data. Evaluation
+and feedback signals should change the next version
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]]
 [[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
 

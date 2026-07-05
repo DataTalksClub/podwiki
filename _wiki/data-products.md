@@ -21,6 +21,7 @@ or run an operational workflow. It can be a table or event stream. It can also
 be a dashboard, API, or model. Identity-resolution tools and activation flows
 can also be data products. The output becomes a product only when someone owns
 the consumer problem, quality expectations, release path, and adoption work.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The concept sits between [[Data Product Management]], [[Data Engineering
 Platforms]], [[Analytics Engineering]], and [[Business Intelligence]]. When the
@@ -112,17 +113,17 @@ and ML work into a managed product lifecycle
 [[cite:building-data-products-lead-data-scientist=>Building
 Data Products at Scale]].
 
-## Data Products in Data Mesh
+## Mesh-Owned Data Products
 
-In [[Data Mesh]], the data product is the unit of ownership. Producers publish
-data with explicit schemas and guarantees. Consumers build on those interfaces
-instead of reverse-engineering raw operational systems
+In [[Data Mesh]], the data product is the unit of domain ownership. Producers
+publish explicit schemas and guarantees so consumers don't have to
+reverse-engineer raw operational systems
 [[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh
 Implementation]].
 
-The interface includes more than schema. Metadata, discoverability, identity,
-and authentication belong in the shared platform layer. Retention, validation,
-quality signals, and automated governance belong there too
+Consumers see the schema and guarantee. The wider mesh operating model adds
+shared metadata, discovery, identity, and authentication. It also adds
+retention, validation, quality signals, and automated governance
 [[cite:data-mesh-architecture-decentralized-data-products@39:36=>Data
 Mesh Implementation]]. Those requirements tie data products to [[Data
 Governance]], [[Data Quality and Observability]], and [[Data Engineering
@@ -192,7 +193,7 @@ registration as much as storage. Real-time processing and internal stakeholders
 matter too
 [[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>Remote Data Engineering and IoT Platforms]].
 
-## Activation and Adoption
+## Activation Surfaces
 
 Some data products are operational rather than analytical. Event tracking,
 tracking plans, warehouses, and transformations can push customer and product
@@ -201,18 +202,17 @@ engagement and marketing tools
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 That places data products near [[Data Activation]] and [[Reverse ETL]].
 
-Activation alone doesn't prove adoption. Teams need personas, low-fidelity
-prototypes, meeting rituals, and narrow wins. They also need impact measures
-that show whether people changed behavior
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile
-Data Delivery]].
-
 ML and analytics products need validation before rollout. Intake, KPIs, and
 Definition of Done set the early gate. Pilots, A/B tests, stakeholder demos, and
 monitoring plans help teams decide whether a product is ready to operate
 [[cite:building-data-products-lead-data-scientist=>Building Data Products at
 Scale]]. For ML products, this overlaps with [[Model Monitoring]], [[MLOps]],
 and [[Production]].
+
+Activation alone doesn't prove adoption. Personas, prototypes, and meeting
+rituals belong in [[Data Product Adoption]]. Narrow wins and behavior-change
+measures belong there too.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Reliability and Operations
 

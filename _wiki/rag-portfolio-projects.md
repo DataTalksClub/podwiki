@@ -13,14 +13,10 @@ related:
 ---
 
 RAG portfolio projects turn a real document corpus into hiring evidence for
-retrieval-backed LLM work. Choose the RAG project type, name the role signal it
-sends, and ground the project story in retrieval quality and citations. The
-writeup should make the evidence inspectable enough for a reviewer to check the
-claim.
-
-Project choice comes first, while [[Search and RAG Project Checklist]] covers
-the build sequence and README review. [[rag-evaluation-workflow=>RAG Evaluation
-Workflow]] covers repeatable evaluation.
+retrieval-backed LLM work. Choose the project type and the role signal it sends
+here. Use the [[Search and RAG Project Checklist]] for implementation review
+fields and [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the
+evaluation procedure.
 
 The strongest portfolio ideas make the source evidence inspectable instead of
 showing only a polished chat UI. Atita Arora's transcript example starts with
@@ -31,24 +27,26 @@ Hugo Bowne-Anderson's practical RAG discussion adds representative gold tests,
 failure analysis, and logs or traces
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-Read these RAG project ideas with
+Read these project ideas with
 [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
 [[Portfolio Projects]], and the broader
-[[Machine Learning Portfolio Projects]]
-standard. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-defines the base concept,
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-covers the evaluation procedure. The
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-covers the staged path from scoped assistant to retrieval, evaluation, serving,
-and operations controls.
+[[Machine Learning Portfolio Projects]] standard. Use
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the base
+architecture and the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] for sequencing.
 
 ## Choosing the Project Type
 
-A RAG portfolio project should make the retrieval problem visible. A transcript
-assistant and a support-docs assistant show source-grounded answering. A
-search-first benchmark, graph RAG comparison, or production-minded demo proves a
-different skill.
+A RAG portfolio project should make one retrieval problem visible.
+
+Several project types send different role signals:
+
+- a transcript assistant
+- a support-docs assistant
+- a search-first benchmark
+- a graph RAG comparison
+- an evaluation report
+- a production-minded demo
 
 Podcast transcripts are a concrete example because long transcripts need
 chunking and overlap before vectorization. The answer path then needs retrieval
@@ -62,24 +60,21 @@ specific than a generic chat wrapper. The builder can explain the
 audio-to-transcript path and chunk metadata. They can also explain retrieval
 choices, prompt context, and citations.
 
-Retrieval is preferable when a company's knowledge base changes, because the
-system can re-index documents instead of repeatedly retraining the model. This
-makes grounding part of the project definition, not an optional README flourish
+Retrieval is preferable when a company's knowledge base changes because the
+system can re-index documents instead of repeatedly retraining the model. That
+boundary makes grounding part of the project choice
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 An evaluation report can be the portfolio hook when it shows debugging judgment
 rather than only a working chatbot
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the test data,
-retrieved-context checks, answer checks, and iteration loop.
+retrieved-context checks, answer checks, and iteration.
 
 ## Portfolio Signals by Project Type
 
 Project ideas require different proof. A search-engineering project puts weight
-on
-[[information retrieval]],
-chunking, and metadata. It also covers vector search choices, prompt context,
-citations, and multi-level evaluation
+on [[information retrieval]], chunking, metadata, and vector search choices
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 That view treats a
 [[vector-databases=>vector database]] as one
@@ -105,10 +100,9 @@ fine-tuning. Production readiness depends on model drift and hosting choices. It
 also depends on latency, cost, and privacy
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-RAG portfolio work should therefore cover
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-and
-[[LLM Production Patterns]].
+RAG portfolio work should therefore link to
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] and [[LLM Production Patterns]]
+without restating those pages.
 
 A domain-modeling boundary applies too when relationship-heavy domains need
 knowledge-graph retrieval and Cypher queries. They may also need graph semantics
@@ -133,11 +127,10 @@ answer citations as visible proof. Add unsupported-question refusals and missed
 evidence too. Atita's discussion treats evaluation as layered across the RAG
 pipeline
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-Failures should be labeled as retrieval, generation, formatting, or source
+Failures can then be labeled as retrieval, generation, formatting, or source
 preparation problems
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-The [[Search and RAG Project Checklist]] turns the visible evidence into a
-concrete review rubric.
+Use the [[Search and RAG Project Checklist]] for the review rubric.
 
 ## Search-First RAG System
 
@@ -149,22 +142,13 @@ retrieval design
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
 A search-first project is strongest when the README compares retrieval
-approaches on the same questions. Search quality ties to business metrics and
-A/B tests, as well as to offline evaluation and fast iteration
+approaches on the same questions. Search quality ties to business metrics,
+A/B tests, offline evaluation, and fast iteration
 ([[cite:building-production-search-systems=>Building Search Systems]]).
-It remains a RAG portfolio project only when retrieval feeds generated answers
-with visible source citations. If the project stops at candidate retrieval,
-ranking, or search-quality metrics, route it to [[Information Retrieval]] or
-[[Production Search Evaluation]] instead.
-
-A portfolio project can use keyword baselines and vector retrieval as the main
-story. It can compare hybrid search, filters, ranks, and failure cases before
-generated answers. This is especially relevant for
-[[embeddings]],
-[[information retrieval]],
-and
-[[Production Search Evaluation]]
-work.
+It remains a RAG portfolio project when retrieval feeds generated answers with
+visible source citations. If the project stops at candidate retrieval, ranking,
+or search-quality metrics, route it to [[Information Retrieval]] or
+[[Production Search Evaluation]].
 
 ## Evaluation and Failure Analysis Project
 
@@ -175,8 +159,7 @@ and traces give reviewers something concrete to look at
 
 The portfolio version can center the writeup on a compact evaluation report
 rather than on another chat interface. Make a few representative failures
-visible, then show the tested fix. Keep the full setup, retrieved-context
-checks, answer checks, and iteration loop on
+visible, then show the tested fix. Keep the full setup on
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]] and link the project to
 [[LLM Evaluation Workflows]].
 
@@ -194,7 +177,7 @@ integrations push the project into
 For a portfolio, make this boundary visible in the design. A support-docs
 assistant can stay as RAG when it only answers with citations. An operations
 assistant that searches logs, calls monitoring APIs, or proposes remediation
-steps needs agent evidence instead. Put that evaluation detail on
+steps needs agent evidence instead. Put the agent details on
 [[Agent Engineering]] and [[LLM Evaluation Workflows]]
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
@@ -206,16 +189,11 @@ RAG. They contrast text chunking and embeddings with graph semantics, vector
 databases, and Cypher-driven retrieval
 ([[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]).
 
-Trust, hallucination, and verification limits matter here too. So do paper
-parsing, graph visualization, PageRank, and references
-([[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]).
-
 A strong
 [[Graph RAG vs Vector RAG]]
 portfolio project can test both retrieval paths against the same questions. It
-can show text similarity for passages. It can show graph traversal for
-relationships.
-It should also show when the evidence is insufficient.
+can show text similarity for passages, graph traversal for relationships, and
+insufficient-evidence cases.
 
 ## Career-Transition RAG Project
 
@@ -246,18 +224,12 @@ with open-source serving. It should also name latency, cost, and hardware. Hidde
 API changes and model drift belong in the same story
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-For portfolio evidence, frame the demo around re-indexing and version choices.
-Name latency, cost, privacy limits, and hosted API risk too. Keep the maturity
-sequence on
+For portfolio evidence, frame the demo around source quality and chunk
+metadata. Add re-indexing and version choices. Also name latency, cost, and
+privacy limits. Include hosted API risk. Keep the maturity sequence on
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]], and connect the
-project to
-[[LLM Production Patterns]],
+project to [[LLM Production Patterns]] and
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
-
-Long context, agents, and vector databases mark another production boundary.
-The portfolio evidence stays the same. Source quality and chunk metadata must
-be explicit. Latency, cost, and re-indexing choices must be explicit too
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 ## Related Pages
 

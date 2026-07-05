@@ -21,9 +21,9 @@ keeps that decentralization usable through self-service infrastructure and
 identity. It also provides access controls, observability, and common standards.
 That makes Data Mesh a close neighbor of
 [[self-service-data-platforms=>self-service data platforms]],
-[[data governance]], and [[DataOps]]. For the architecture and operating-model
-choice between domain ownership and a more centralized platform organization,
-use
+[[data governance]], and [[DataOps]]. The mesh mechanics are domain ownership,
+federation, contracts, and the platform layer. The architecture choice between
+domain ownership and a more centralized platform organization belongs in
 [[Data Mesh vs Centralized Data Platform]].
 
 ## Operating Definition
@@ -58,7 +58,7 @@ Platform teams make domain ownership practical by giving teams shared tooling.
 Conventions, schemas, and playbooks keep domains from rebuilding their own
 infrastructure paths.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
-## Support for Decentralization
+## Federated Responsibilities
 
 Data Mesh decentralizes ownership, but it doesn't decentralize every decision.
 Domains can own meaning, prioritization, quality expectations, and consumer
@@ -90,9 +90,8 @@ should move into domains, see
 
 Domain ownership also changes the role of central data teams. They become
 platform and enablement teams, not ticket queues for every dataset. The central
-team still matters. Its value comes from onboarding paths, playbooks, shared
-conventions, and reusable capabilities instead of hand-built pipelines for each
-request.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
+team still matters because onboarding paths, playbooks, shared conventions, and
+reusable capabilities make the domain path usable.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 ## Product Interfaces and Contracts
 
@@ -152,7 +151,7 @@ privacy, retention, and interoperability.
 Catalogs and dictionaries support product discovery, while lineage and
 ownership support access requests. Review processes and revocation keep
 sensitive data governed after ownership moves toward domains. Masking and
-filtering do the same.[[cite:data-governance-data-access-management]]
+filtering do the same.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 Those controls connect the mesh to [[security]] as well as [[data governance]].
 
 In that governance model, catalogs and metadata are operational infrastructure
@@ -168,11 +167,12 @@ matters because the model changes who owns data, how consumers request changes,
 and how platform and governance teams support domains.[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
 
 The [[DataOps]] reliability criteria still apply. Responsibilities shouldn't
-spread across domains until teams have reproducible pipelines. They also need
-immutable data practices. Lineage, versioning, and quality automation belong in
-the same baseline.[[cite:dataops-principles-and-scalable-data-platforms]]
-Those practices keep the mesh from creating extra handoffs around every
-product change or incident.
+spread across domains until teams have reproducible pipelines and immutable
+data practices. Lineage, versioning, and quality automation belong in the same
+baseline.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+Those practices keep the mesh from creating extra handoffs around every product
+change or incident.
 
 Smaller teams can still borrow useful parts without reorganizing around a full
 mesh. They can name owners for important datasets and define product
@@ -181,8 +181,8 @@ rules and self-service paths help where demand repeats.
 
 The full Data Mesh model becomes more compelling when many domains need autonomy
 and a shared team can no longer provide the context and support. The
-architecture and operating-model comparison is covered in
-[[Data Mesh vs Centralized Data Platform]].
+architecture comparison belongs in [[Data Mesh vs Centralized Data Platform]],
+and the internal enablement work belongs in [[Data Product Adoption]].
 
 ## Related Pages
 

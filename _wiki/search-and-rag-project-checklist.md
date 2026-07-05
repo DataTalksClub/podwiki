@@ -16,10 +16,9 @@ related:
 
 Use this search or RAG checklist after choosing the project idea. It turns one
 specific system into a reviewable README, notebook, or project page. Use
-[[RAG Portfolio Projects]] first when the decision is still about project type.
-Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the evaluation
-setup and test data. It also covers retrieved-context checks, answer checks, and
-iteration.
+[[RAG Portfolio Projects]] first when the decision is still about project type,
+and use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the evaluation
+procedure.
 
 For the chosen project, prove retrieval before generation. A reviewer should see
 the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
@@ -50,16 +49,15 @@ the debugging standard. He recommends representative gold test sets, ranked
 failure categories, and MVP logs and traces
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-## Corpus and Chunking
+## Corpus Evidence and Chunking
 
 Choose the corpus named by the project idea. Podcast transcripts, support docs,
 and policy documents work when the answer needs source grounding. Research
 papers, product manuals, and internal wiki exports can work too.
 
 Show why that corpus needs retrieval and what a citation references. For
-transcript data, cite the episode and guest. Add timestamped speaker context
-nearby. For documents, cite the title and section. Add version plus source owner
-when that metadata exists.
+transcript data, cite the episode and guest. For documents, cite the title and
+section. Add the version and source owner when that metadata exists.
 
 Chunking is a design choice, not a cleanup detail. Podcast data can be chunked
 by speaker turn or question. It can also be chunked by chapter or time window.
@@ -111,7 +109,7 @@ That boundary belongs with
 and
 [[LLM Production Patterns]].
 
-## Context, Citations, and Boundaries
+## Context, Citations, and System Boundary
 
 The generated answer should be inspectable. Show the query and retrieved
 chunks, then include scores and source metadata. The trace should also include
@@ -135,13 +133,12 @@ answering. Move toward
 [[Agent Engineering]] only when
 the task requires API calls, multi-step coordination, or external actions.
 
-## Evaluation Evidence
+## Evaluation Artifacts
 
 Show enough evaluation evidence for a reviewer to trust the project, but keep
-the full evaluation workflow on
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In the checklist, verify
-that reviewers can see the tests, traces, and failure labels that support the
-project claim.
+the full procedure on [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In
+this checklist, verify that reviewers can see the tests, traces, and failure
+labels that support the project claim.
 
 At minimum, link each eval run to:
 
@@ -156,16 +153,15 @@ At minimum, link each eval run to:
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
 the core evaluation structure
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] when the project needs
-gold examples, retrieved-context checks, and answer scoring. It also covers
-human review and production feedback.
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for gold examples,
+retrieved-context checks, and answer scoring. It also covers human review and
+production feedback.
 
 Ranjitha extends the same idea to tool and agent workflows with custom
 datasets, mocked tools, integration tests, and outcome assertions
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-That agent-evaluation evidence belongs with
-[[LLM Evaluation Workflows]]
-and [[Testing]].
+That agent-evaluation evidence belongs with [[LLM Evaluation Workflows]] and
+[[Testing]].
 
 ## Graph or Structured Retrieval
 
@@ -190,7 +186,7 @@ query results, graph paths, and provenance. Hybrid retrieval should show whether
 each answer part came from semantic search, structured lookup, filters, or
 reranking.
 
-## Strong Search and RAG Project Evidence
+## Review-Ready Evidence
 
 A search or RAG project is ready to review when the page, notebook, or README
 shows the corpus and chunking strategy. It should also show the metadata schema

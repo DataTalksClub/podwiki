@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11913
+    "links": 11921
   },
   "nodes": [
     {
@@ -133,7 +133,7 @@
       "title": "Data Engineer Roadmap",
       "url": "/wiki/data-engineer-roadmap/",
       "count": 1,
-      "search": "Data Engineer Roadmap A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews.",
+      "search": "Data Engineer Roadmap A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, reviewable work, and interviews.",
       "keyword": "data engineer roadmap"
     },
     {
@@ -8730,7 +8730,7 @@
       "title": "Agent Ops",
       "url": "/wiki/agent-ops/",
       "count": 1,
-      "search": "Agent Ops AgentOps: orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
+      "search": "Agent Ops Agent Ops covers orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
     },
     {
       "id": "wiki:ai",
@@ -8863,16 +8863,6 @@
       "search": "AI Tooling How teams choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, and deployment."
     },
     {
-      "id": "wiki:analytics-engineering-portfolio-projects",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Analytics Engineer Portfolio",
-      "title": "Analytics Engineer Portfolio",
-      "url": "/wiki/analytics-engineering-portfolio-projects/",
-      "count": 1,
-      "search": "Analytics Engineer Portfolio Project ideas for showing SQL modeling, metric ownership, dbt tests, documentation, BI readiness, and stakeholder judgment."
-    },
-    {
       "id": "wiki:analytics-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -8881,6 +8871,16 @@
       "url": "/wiki/analytics-engineering/",
       "count": 1,
       "search": "Analytics Engineering Analytics engineering turns raw data into tested models, shared metric definitions, documented transformations, and BI ready data products."
+    },
+    {
+      "id": "wiki:analytics-engineering-portfolio-projects",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Analytics Engineering Projects",
+      "title": "Analytics Engineering Projects",
+      "url": "/wiki/analytics-engineering-portfolio-projects/",
+      "count": 1,
+      "search": "Analytics Engineering Projects Project ideas for showing SQL modeling, metric ownership, dbt tests, documentation, BI readiness, and stakeholder judgment."
     },
     {
       "id": "wiki:annotation-quality-workflows",
@@ -9904,7 +9904,7 @@
       "title": "LLM Production Patterns",
       "url": "/wiki/llm-production-patterns/",
       "count": 1,
-      "search": "LLM Production Patterns Durable LLM production patterns for serving boundaries, RAG, agents, evaluation, observability, security, cost, and operations."
+      "search": "LLM Production Patterns Durable serving, reliability, context, cost, and guardrail patterns for production LLM systems."
     },
     {
       "id": "wiki:llmops",
@@ -9914,7 +9914,7 @@
       "title": "LLMOps",
       "url": "/wiki/llmops/",
       "count": 1,
-      "search": "LLMOps LLMOps covers operating LLM systems in production, from deployment and tracing to evaluation, guardrails, cost control, and feedback loops."
+      "search": "LLMOps LLMOps covers the lifecycle discipline for LLM applications: traces, evaluation sets, releases, guardrails, cost control, and feedback loops."
     },
     {
       "id": "wiki:llms",
@@ -9924,7 +9924,7 @@
       "title": "LLMs",
       "url": "/wiki/llms/",
       "count": 1,
-      "search": "LLMs How large language models work as language, retrieval, agent, evaluation, production, and security components."
+      "search": "LLMs Large language models with links to retrieval, agents, evaluation, production, and security pages."
     },
     {
       "id": "wiki:long-context-llm-evaluation",
@@ -25988,12 +25988,6 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-chip",
       "weight": 1
@@ -26066,12 +26060,6 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "wiki:dashboard-and-metric-layer-project-checklist",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "wiki:data-analyst-to-analytics-engineer",
       "kind": "wiki-chip",
       "weight": 1
@@ -26123,6 +26111,12 @@
       "target": "wiki:data-teams",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering",
@@ -26217,6 +26211,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:team-building",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37220,12 +37220,6 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:data-engineer-roadmap",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -38534,6 +38528,12 @@
     },
     {
       "source": "wiki:data-mesh",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -38669,6 +38669,12 @@
       "target": "wiki:data-mesh",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-mesh-vs-centralized-data-platform",
@@ -44228,12 +44234,6 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
-      "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:apache-airflow",
       "kind": "article-chip",
       "weight": 1
@@ -44888,9 +44888,33 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-strategy",
@@ -44921,12 +44945,6 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-strategy",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-strategy",
@@ -57602,6 +57620,12 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -57627,6 +57651,18 @@
     {
       "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:llmops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:llmops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -57891,6 +57927,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llmops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59073,6 +59115,12 @@
     {
       "source": "wiki:llms",
       "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:llmops",
       "kind": "wiki-chip",
       "weight": 1
     },

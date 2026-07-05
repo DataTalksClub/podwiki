@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLMs"
-summary: "How large language models work as language, retrieval, agent, evaluation, production, and security components."
+summary: "Large language models with links to retrieval, agents, evaluation, production, and security pages."
 related:
   - AI
   - AI Engineering
@@ -22,8 +22,10 @@ translation, and information extraction. They also show up in retrieval-backed
 question answering, agents, and developer tools.
 
 An LLM is rarely a finished product on its own. The model sits inside a larger
-system with prompts, retrieval, data pipelines, and evaluation. Deployment
-controls, security checks, and human review sit around that system.
+system with prompts, retrieval, data pipelines, and evaluation
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Neighboring pages cover serving, release, monitoring, and guardrails. Start
+with [[LLM Production Patterns]], [[LLMOps]], and [[LLM Evaluation Workflows]].
 
 That places LLMs near [[AI]]
 and [[NLP]]. It also links them to
@@ -58,7 +60,7 @@ Everyday uses include summaries, translation, and CSV workflows. Prompting
 practice adds role prompts, structured output, and timestamps
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-## Deployment Boundaries
+## Model Boundaries
 
 LLMs are useful, but different failure modes call for drawing different
 boundaries first.
@@ -67,11 +69,10 @@ For deployment, open-source and API models differ in control, privacy, and
 fine-tuning. Model-drift risk appears when an API provider changes behavior
 behind the scenes
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-That makes LLM adoption an
-[[AI infrastructure]] and
-[[production]] decision. Making models
-smaller and faster for deployment is the practice of
-[[Model Optimization]].
+That makes LLM adoption an [[AI infrastructure]] and [[production]] decision.
+Making models smaller and faster for deployment is the practice of
+[[Model Optimization]]. The serving and reliability patterns live in
+[[LLM Production Patterns]].
 
 For NLP team design, GPT-3 has limits around cost and control plus bias and
 privacy risks. It's useful for MVPs, but it doesn't replace in-house pipelines
@@ -137,7 +138,7 @@ reason to prefer retrieval in many long-document settings, given long-context
 performance limits
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
-## Evaluation
+## Quality Questions
 
 LLM evaluation is task-specific because a model's general benchmark score
 doesn't prove its workflow.
@@ -147,10 +148,9 @@ questions of cost, representativeness, and test-set size. Failure analysis
 decides whether retrieval, prompts, or data should change
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
-For agents, evaluation extends to custom datasets and system benchmarks. It also
-uses mocked tools, integration tests, and regression tests. Outcome assertions
-fit better than exact path matching because valid agent runs may take different
-tool-call paths
+For agents, quality checks extend to custom datasets and mocked tools. They also
+use integration tests and regression tests. Outcome assertions fit better than
+exact path matching because valid agent runs may take different tool-call paths
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 Long-context models need tests that match the document task. In one financial
@@ -160,33 +160,33 @@ context-window size alone
 That makes [[long-context-llm-evaluation=>long-context LLM evaluation]] part of
 the evaluation path for document-heavy systems.
 
-Use [[LLM Evaluation Workflows]]
-for evaluation patterns and
-[[Production Search Evaluation]]
-for retrieval quality when RAG depends on search.
+Use [[LLM Evaluation Workflows]] for the evaluation workflow and
+[[Production Search Evaluation]] for retrieval quality when RAG depends on
+search.
 
-## Serving, Cost, and Operations
+## Production Neighbors
 
-Production LLM systems need normal software and ML operations. Teams have to
-plan deployment, latency control, and cost control. They also need monitoring,
-observability, rollback plans, and ownership.
+Production LLM systems need normal software and ML operations around the model.
+Teams have to plan deployment, latency, and cost. They also need monitoring,
+rollback, and ownership. Serving and reliability concerns belong on
+[[LLM Production Patterns]]. Release discipline, traces, evaluation sets, and
+feedback loops belong on [[LLMOps]].
 
-Serving covers model size, compression, and inference optimization. Teams may
-prototype with GPT-3.5 or GPT-4 APIs before choosing open-source LLMs for
-production. That choice brings latency, cost, self-hosting, and hardware
-questions
+Teams may prototype with hosted APIs before choosing open-source LLMs for
+production. That choice brings latency and cost questions. It also brings
+self-hosting, hardware, and provider-drift questions because hidden model
+changes can shift product behavior
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
-Production LLM work treats context engineering as a core design task. RAG also
-brings latency, cost, and noisy inputs. The retrieval backend also needs
-chunking, metadata, and wrappers so the system gives the LLM useful context
+Context engineering is the concept bridge from this page into production. RAG
+brings latency, cost, and noisy inputs. Chunking, metadata, and wrappers decide
+what useful context reaches the model
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 Operational feedback loops rest on logging, traces, and debuggable MVPs
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-Those practices connect LLM work to [[MLOps]],
-[[software engineering]],
-and [[AI engineering]].
+Those practices connect LLM work to [[MLOps]], [[software engineering]], and
+[[AI engineering]].
 
 ## Security and Trust
 

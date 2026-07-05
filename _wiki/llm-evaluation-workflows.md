@@ -6,22 +6,26 @@ related:
   - Evaluation
   - Retrieval-Augmented Generation
   - LLM Production Patterns
+  - LLMOps
+  - Agent Ops
 ---
 
-LLM evaluation workflows are the repeatable checks teams use before shipping
-prompts, [[retrieval-augmented-generation=>RAG]] pipelines,
-[[agent-engineering=>agents]], and AI product behavior. Evaluation is
-engineering work where teams collect examples, define pass criteria, and review
-failures, then feed production behavior back into the next test set.
+Teams use LLM evaluation workflows before shipping prompts,
+[[retrieval-augmented-generation=>RAG]] pipelines, [[agent-engineering=>agents]],
+and AI product behavior. Evaluation is engineering work where teams collect
+examples, define pass criteria, and review failures. They then feed production
+behavior back into the next test set
+([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 LLM evaluation connects [[Evaluation]]
 with [[LLM Production Patterns]],
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
-and [[Model Monitoring]]. A good
-workflow tells the team what failed and where the next fix belongs. The fix may
-belong in prompting or retrieval. It may also belong in data preparation, tool
-use, guardrails, or the product boundary. New production failures then become
-future evaluation cases.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]], and
+[[Model Monitoring]]. It also connects to [[LLMOps]] and [[agent-ops=>Agent Ops]].
+
+A good workflow tells the team what failed and where the next fix belongs. The
+fix may belong in prompting or retrieval. It may also belong in data preparation,
+tool use, guardrails, or the product boundary. New production failures then
+become future evaluation cases.
 
 ## Evaluation Sets and Pass Criteria
 
@@ -100,9 +104,10 @@ than one global benchmark.[[cite:s23e03-future-of-ai-agents@43:30=>The Future of
 ## Human Review and Failure Analysis
 
 Human review is most useful when the team is learning the failure taxonomy.
-Common failure types include unsupported answers, missing citations, and wrong
-tone. Unsafe advice, stale knowledge, broken formatting, and tool misuse also
-belong in the taxonomy.
+Common failure types include unsupported answers and missing citations. Wrong
+tone and unsafe advice also belong in the same review. So do stale knowledge,
+broken formatting, and tool misuse
+([[cite:practical-llm-engineering-and-rag@26:43=>LLM Failure Analysis]]).
 
 Spreadsheet-style failure analysis lets teams categorize failures and rank the
 largest error classes. That helps them avoid spending engineering time on minor

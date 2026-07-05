@@ -24,13 +24,14 @@ not with model selection. The model matters, but the team first learns how to
 define a task and measure behavior. Retrieval comes only when the task needs it,
 followed by controlled rollout.
 
-Use this roadmap for sequence. Start with a small assistant, then add RAG and
-test retrieval before generation. Add agents only when the workflow needs
-actions. Treat serving, cost, security, and monitoring as readiness gates before
-broader rollout. For interview preparation, the same sequence becomes a
+Use this roadmap for sequence by starting with a small assistant. Add RAG when
+the task needs changing or inspectable knowledge, test retrieval before
+generation, and add agents only when the workflow needs actions. Treat serving,
+cost, security, and monitoring as readiness gates before broader rollout. For
+interview preparation, the same sequence becomes a
 [[llm-system-design-interview=>LLM system design interview]] answer structure.
 
-Use the related pages this way:
+Use the related pages for the details behind each step:
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] defines the concept.
 - [[RAG Portfolio Projects]] frames project types.
@@ -38,9 +39,9 @@ Use the related pages this way:
 - [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers eval setup, test
   data, retrieved-context checks, answer checks, and iteration.
 
-The full-stack AI engineer skill set starts with normal engineering work. It
-then adds RAG and knowledge management to the build path. Teams use those
-skills to ship AI products rather than only build demos
+The full-stack AI engineer skill set starts with normal engineering work, then
+adds RAG and knowledge management. Teams use those skills to ship AI products
+rather than only build demos
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 
 Use [[LLM Production Patterns]] for the durable production design patterns
@@ -75,7 +76,7 @@ make behavior measurable. It then uses failure analysis, logs, and traces to
 show where to improve
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-At this stage, keep the evidence small:
+At this stage, keep the milestone small:
 
 - a small set of representative test cases
 - a decision about whether the problem needs retrieval
@@ -90,7 +91,7 @@ Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
 
 Add [[retrieval-augmented-generation=>RAG]] when the first assistant fails
 because the answer depends on external, changing, or inspectable knowledge. The
-rollout milestone isn't adding a vector database. It's showing that the system
+roadmap milestone isn't adding a vector database. It's showing that the system
 retrieves useful evidence before asking the model to answer.
 
 Fine-tuning adapts model behavior, while changing knowledge pushes the solution
@@ -115,7 +116,7 @@ when the failure could belong to retrieval, model behavior, or both.
 Before broader rollout, check retrieval before generation. [[Search]] may fail
 because documents are missing, chunks are weak, or ranking returns the wrong
 evidence. Generation may fail because prompt formatting is unclear or the model
-ignores context. Keep the detailed workflow on
+ignores context. Keep the detailed run sequence on
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 
 On the search-engineering side, build a retrieval test set. It should cover
@@ -123,10 +124,8 @@ queries and expected evidence, plus ranking checks and retrieval failures that
 appear before generation begins
 ([[cite:building-production-search-systems=>Building Production Search Systems]]).
 
-[[Production Search Evaluation]],
-[[Vector Databases]], and
-[[Search and RAG Project Checklist]]
-keep retrieval work testable.
+Use [[Production Search Evaluation]], [[Vector Databases]], and the
+[[Search and RAG Project Checklist]] for the retrieval checks themselves.
 
 ## Use Agents For Actions
 
@@ -138,9 +137,9 @@ At the agent milestone, the team controls the workflow. It can mock tools,
 replay runs, and check outcomes before giving the system broader permissions
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-At enterprise scale, the rollout milestone adds governance and feedback. It
-adds guardrails and lineage. It also adds multi-tenant evaluation, LLM judges,
-and human labels
+At enterprise scale, the rollout milestone adds governance and feedback. It also
+adds guardrails and lineage. Multi-tenant evaluation, LLM judges, and human
+labels belong in the same gate
 ([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
 
 ## Harden Serving, Cost, and Security

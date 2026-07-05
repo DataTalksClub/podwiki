@@ -274,7 +274,7 @@ tracking, and annotation services. That keeps procurement and platform decisions
 from splintering while embedded teams stay accountable for product outcomes.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@50:14=>Industrial AI shared services]]
 
-## Scaling Risks
+## Interfaces That Break Under Scale
 
 Small data teams usually start with generalists. [[person:dattran=>Dat Tran]]
 argues for T-shaped engineers in early startups, then a shift toward specialists
@@ -288,22 +288,20 @@ the core team while using external researchers for specialized modeling,
 evaluation, or domain work.
 [[cite:data-science-and-analytics-for-nonprofits-tech-for-good@54:07=>Nonprofit data science]]
 
-As a data team grows, the risks change. Liang describes spreadsheet culture,
-dashboard distrust, production ML gaps, and governance repairs in her team
-buildout. She hires for adoption and communication, not only technical skill,
-and she uses workshops and Q&A sessions to help people use the work. Bauer adds
-the career-system risk. Junior data people need mentorship, practice, exposure,
-and clear expectations before they specialize too narrowly.
+As a data team grows, the interfaces fail in different places. Liang describes
+spreadsheet culture, dashboard distrust, production ML gaps, and governance
+repairs in her team buildout. She hires for adoption and communication because
+the team needs an owner for the handoff between tools and decisions. Bauer adds
+a career-system risk. Managers have to preserve mentorship, practice, exposure,
+and clear expectations as the role mix expands.
 [[cite:building-and-scaling-data-team@10:06=>Liang]]
 [[cite:building-and-scaling-data-team@49:00=>Liang]]
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Bauer]]
 
-Role order should change when the bottleneck changes, so a dashboard-heavy team
-can start with an analyst. Source integration, historical data, forecasting, and
-multiple data sources make a data engineer foundational. Stakeholder-heavy
-businesses may need a business analyst or data researcher alongside engineering.
-That gives adoption work an owner.
-[[cite:building-and-scaling-data-team@23:11=>Liang]]
+For hiring sequence decisions, use [[Team Building]], but Liang's story still
+matters for team design. Reporting, engineering foundations, adoption, and
+governance need separate owners once they stop fitting inside one generalist
+role [[cite:building-and-scaling-data-team@23:11=>Liang]].
 
 Hypergrowth creates a different failure mode. Mehdi describes speed versus
 quality pressure, hiring surges, and onboarding strain. He also talks about
@@ -370,7 +368,7 @@ healthy just because its stack works. People have to use its outputs in real
 decisions.
 [[cite:building-and-scaling-data-team=>Liang]]
 
-## Neighboring Work
+## Related Pages
 
 Data team design overlaps with
 [[data product management]].

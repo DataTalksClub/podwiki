@@ -5,7 +5,6 @@ summary: "Build portfolio projects that show useful pipelines, SQL and Python de
 related:
   - Portfolio Projects
   - Data Engineering
-  - Data Engineer Roadmap
   - How to Become a Data Engineer With No Experience
   - Data Engineering Certification
   - End-to-End Data Pipeline Project
@@ -400,7 +399,6 @@ Use these pages to follow the role, architecture, and portfolio routes:
 
 - [[Portfolio Projects]]
 - [[Data Engineering]]
-- [[Data Engineer Roadmap]]
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]
 - [[Data Engineering Certification]]
 - [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]

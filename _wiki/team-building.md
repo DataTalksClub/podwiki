@@ -222,36 +222,21 @@ Onboarding is a team design problem. People need technical support, business
 context, ownership, and predictable ways to ask for help.
 For the manager-feedback practice behind those rituals, see [[leadership]].
 
-## Org Design and Cross-Functional Work
+## Cross-Functional Management Habits
 
-Data teams can use centralized, embedded, or hybrid models, with different
-team-building tradeoffs. In centralized teams, data scientists report to data science
-managers while aligning to business partners. In decentralized teams, data
-scientists report directly into product or engineering groups. A hybrid model
-centralizes data science at a division or area level while keeping daily work
-close to product teams
-[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
-
-When teams embed data scientists, those data scientists gain domain context and
-faster decision paths. They can lose peer learning, mentorship, and career
-clarity if the organization doesn't protect data craft. When leaders centralize
-data science, teams gain knowledge sharing and consistency. They must work harder
-to build product context and avoid looking academic or detached
-[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
+For centralized, embedded, and hybrid reporting models, use [[Data Teams]].
+After leaders choose that model, managers still need peer review,
+documentation, and career support. They also need regular planning across
+product and engineering. Design, research, and business partners need the same
+connection.
+[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]
 
 In matrix organizations, a data scientist may report to a data leader. The same
 person may work day to day with a product manager, engineering manager, or
-marketing lead. The data manager then protects craft quality, documentation,
-peer review, and career growth when the dotted-line stakeholder shapes daily
-priorities
+marketing lead. The manager protects craft quality, documentation, peer review,
+and career growth when the dotted-line stakeholder shapes daily priorities
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]].
-
-Cross-functional planning has to happen at multiple levels. Data science leaders
-need product, engineering, design, and research partners. Managers need their
-counterparts, and individual contributors need regular alignment with the people
-building or using the product. Teams can use shared OKRs and planning rhythms to
-move toward the same goals
-[[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]].
 
 ML teams inherit uncertainty from data quality, model behavior, software
 systems, and business requirements. Alignment can't depend only on handoffs
@@ -264,7 +249,7 @@ discuss requirements, failure modes, and ownership. Explicit expectations make
 those agreements usable during planning and review. They also support onboarding
 and growth because new teammates can learn how the team defines artifacts,
 responsibilities, and engineering quality.
-This is the org-design side of [[data teams]]
+That management habit connects [[data teams]]
 and [[communication]].[[cite:software-engineering-for-machine-learning@13:52=>Software Engineering for Machine Learning]]
 
 ## Platform and DataOps Enablement

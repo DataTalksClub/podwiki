@@ -23,6 +23,9 @@ interfaces, tests, and data dependencies. It also includes deployment and
 observability. Online prediction, batch scoring, and shared [[MLOps]] platforms
 each put different work in the role.[[cite:data-team-roles=>Data Team Roles]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
+For a role-change path, use
+[[data-scientist-to-machine-learning-engineer=>Data Scientist to Machine Learning Engineer]].
+
 ## Role Definition
 
 A team may start with a notebook, prototype, or modeling experiment. The
@@ -152,19 +155,18 @@ Danny Ma frames technical debt as systemic risk. That framing puts
 [[Machine Learning Infrastructure]] inside the role rather than after-the-fact cleanup
 [[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]].
 
-Portfolio proof for this role should make the same production thinking visible.
-When that proof starts from a leaderboard, use
-[[competitions-beyond-kaggle=>competitions beyond Kaggle]] to connect the score
-to validation, packaging, and limits
+Production proof for this role should make the same thinking visible in the
+running system. When a team starts from
+[[competitions-beyond-kaggle=>leaderboard-style model work]], validation,
+packaging, and limits have to become part of production work
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
-For software engineers moving into machine learning, DevOps skills transfer
-directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
-containers for the application or inference API. Enough AWS, Google Cloud,
-Azure, or serverless experience helps expose the system to clients. Those skills
-move software engineers from [[software engineering]] toward [[machine learning
-infrastructure]]. Teams can add specialized platform engineering
-later.[[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]]
+Software engineering and DevOps skills sit inside this stack. APIs with Flask
+or FastAPI matter, and so do Docker-style containers for the application or
+inference API. AWS, Google Cloud, Azure, or serverless experience can expose
+the system to clients. Those skills connect [[software engineering]] to
+[[machine learning infrastructure]]. Teams can add specialized platform
+engineering later.[[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]]
 
 Platform teams add cloud infrastructure and experiment tracking when deployment
 tooling becomes shared infrastructure. Model registries, MLflow, Kubeflow, and
@@ -191,9 +193,8 @@ ownership. Data scientists usually own problem framing, exploratory analysis,
 and evaluation, while feature reasoning and model selection often sit with them
 too. Machine learning engineers own packaging, serving, and runtime behavior.
 They also own scalability, maintainability, and deployment.
-For data scientists who want to move across that boundary, use
-[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
-as the role-change path.
+For the role-change path across that boundary, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 
 In small teams, this boundary moves. Data cleaning, feature engineering, and the
 model cycle can sit with data scientists. Deployment tooling often moves toward
