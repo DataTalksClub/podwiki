@@ -130,7 +130,8 @@ That connection puts model monitoring close to
 [[data-quality-and-observability=>data observability]].
 The model team needs model-specific signals, but many failures start in
 upstream freshness or schema changes. Volume and distribution changes can
-break the model too.
+break the model too. That's the operating boundary covered by
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]].
 
 Deployment population is part of the monitored distribution. A healthcare model
 developed on European patients may not generalize to African clinical settings.

@@ -55,7 +55,7 @@ a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes
 ([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
 [[cite:data-engineering-career-path-and-skills@56:46=>Build a Data Engineering Career]]).
 
-Brudaru puts SQL/Python before vendor checklists. [[Modern Data Engineering Trends]]
+Brudaru puts SQL/Python before vendor checklists. [[modern-data-engineering-trends=>Modern Data Engineering Trends]]
 connects that roadmap advice to current tool caution
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 
@@ -368,8 +368,11 @@ Add advanced tools only when the constraint is real:
 
 Tool-first roadmaps draw repeated warnings. Adrian Brudaru's
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
-covers Iceberg, DuckDB, orchestration choices, and streaming patterns. He keeps
-returning to requirements, portfolio work, and vendor caution.
+covers Iceberg and DuckDB, plus orchestration and streaming patterns. He keeps
+returning to requirements and vendor caution.
+Use [[modern-data-engineering-trends=>modern data engineering trends]] at this
+stage as a filter for advanced tools. Add them for storage or latency problems,
+metadata work, AI readiness, or cost control.
 
 Jeff Katz gives the junior-curriculum version of the same warning. Spark,
 Kafka, and Kubernetes appeared more often in senior job descriptions than in
@@ -459,6 +462,9 @@ specialized paths such as deep Spark expertise take separate practice
 At that level,
 [[FinOps for Data Engineers]]
 begins to matter because cloud spend becomes a shared responsibility.
+The same senior filter connects cost awareness back to
+[[modern-data-engineering-trends=>modern data engineering trends]] rather than
+to tool collection.
 
 ## A Practical 12-Week Roadmap
 

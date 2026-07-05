@@ -148,7 +148,10 @@ leads into centralized tooling, embedded teams, and a hub-and-spoke model
 Computer vision teams need standards, shared infrastructure, and local trust,
 not only a trained model. Those shared annotation services are one reason
 [[annotation-quality-workflows=>annotation quality workflows]] belongs near
-industrial vision MLOps.
+industrial vision MLOps. The manufacturing-specific neighbor is
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield ML]],
+where tool signals, quality decisions, and operator trust define whether an
+industrial model is useful.
 
 ## Robustness and Ethics
 

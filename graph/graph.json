@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12051
+    "links": 12062
   },
   "nodes": [
     {
@@ -27320,6 +27320,12 @@
     },
     {
       "source": "wiki:apache-iceberg",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-iceberg",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
@@ -31562,6 +31568,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -31779,6 +31791,12 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "article-chip",
       "weight": 1
     },
@@ -37148,6 +37166,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -39147,6 +39171,12 @@
     {
       "source": "wiki:data-observability-for-data-engineering",
       "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47393,6 +47423,12 @@
       "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-engineer-role",
@@ -67106,6 +67142,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-architecture",
       "kind": "article-chip",
       "weight": 1
@@ -76706,6 +76748,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "wiki:model-registry",
       "kind": "wiki-chip",
       "weight": 1
@@ -78992,6 +79040,12 @@
     },
     {
       "source": "wiki:simulation-and-digital-twins",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
       "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "wiki-chip",
       "weight": 1
@@ -79103,6 +79157,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:simulation-and-digital-twins",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:simulation-and-digital-twins",
@@ -79905,6 +79965,12 @@
     {
       "source": "wiki:solopreneur-data-scientist",
       "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "article-chip",
       "weight": 1
     },

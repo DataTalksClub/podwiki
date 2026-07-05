@@ -28,7 +28,7 @@ to use the platform. Analysts and product teams also need a clear reason to
 change their work.
 
 For ML-specific adoption, use
-[[mlops-adoption-at-scale=>MLOps Adoption at Scale]] as the deeper path.
+[[mlops-adoption-at-scale=>MLOps adoption at scale]] as the deeper path.
 There, adoption turns on product-team support and shared deployment practices.
 It also turns on reproducibility and governance.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
@@ -96,6 +96,9 @@ Users meet the platform through examples and guidelines. Templates, repo
 conventions, tests, and documentation are part of the same surface. Raphaël's MLOps team
 standardizes CI, repository layout, parameterization, and testing. It also
 standardizes data versioning, traceability, package registries, and containers.
+For ML teams, those templates become part of
+[[mlops-adoption-at-scale=>MLOps adoption at scale]] when they help multiple
+product teams follow the same supported path.
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 Mehdi's "driving license" metaphor points in the same direction. Airflow alone

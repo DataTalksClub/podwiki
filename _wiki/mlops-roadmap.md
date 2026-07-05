@@ -181,7 +181,8 @@ release governance, approvals, and trust-building guide release decisions
 
 Build platform pieces after multiple projects repeat the same work. The roadmap
 decision is timing: add platform scope after repeated pain is visible. The
-adjacent reference pages are [[ML Platforms]], [[Platform Adoption]], and
+adjacent reference pages are [[ML Platforms]], [[Platform Adoption]],
+[[mlops-adoption-at-scale=>MLOps adoption at scale]], and
 [[ml-platform-engineer-role=>ML platform engineer role]].
 
 A central team supports product teams, gathers pain points, delivers quick

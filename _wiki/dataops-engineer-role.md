@@ -163,7 +163,9 @@ DataOps owns upstream ingestion, transformations, and data recovery. Model
 monitoring can trace failures back into ETL, data pipelines, and upstream root
 causes
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
-[[MLOps vs DataOps]] covers the model-incident ownership split.
+[[MLOps vs DataOps]] covers the broader ownership split, while
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+narrows it to data observability versus model behavior.
 
 ## Hiring Signals
 

@@ -125,7 +125,9 @@ The freelance interviews add another guardrail: selling skills differs from
 selling expertise. When the buyer purchases a skill, the buyer already knows the
 task and needs capacity. When the buyer purchases expertise, the buyer expects
 the independent worker to define the problem. A solopreneur can sell either, but
-the offer has to make that boundary clear.
+the offer has to make that boundary clear. The same boundary has to be explicit
+in [[ml-consulting-proposals=>ML consulting proposals]] before discovery turns
+into delivery.
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]]
 
 ## Income Streams Beyond Client Work

@@ -30,7 +30,7 @@ and [[Data Pipelines]]. They separate
 [[Analytics Engineering]]
 from [[DataOps]]
 and add AI-ready infrastructure [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
-[[Modern Data Engineering Trends]]
+[[modern-data-engineering-trends=>Modern Data Engineering Trends]]
 tracks AI-ready data as a distinct thread in the broader role
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[book:20220815-fundamentals-of-data-engineering=>Fundamentals of Data Engineering]]
@@ -105,7 +105,7 @@ Python and SQL depth sit alongside Docker, Airflow, and warehouses. Code quality
 and interview practice act as proof points [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 Senior teams choose platforms and compute tools from actual requirements [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-Use [[Modern Data Engineering Trends]] when the question is specifically about
+Use [[modern-data-engineering-trends=>modern data engineering trends]] when the question is specifically about
 Iceberg and DuckDB. It also covers AI-ready data, metadata, cost, and which
 stack changes deserve adoption now.
 
@@ -189,6 +189,9 @@ Data engineering connects to [[AI]]
 and [[AI Infrastructure]], but LLMs don't remove pipeline work. AI integration
 is a data engineering trend likely to converge further with AI agents, while
 metadata and quality stay central [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+The [[modern-data-engineering-trends=>modern data engineering trends]]
+discussion keeps that AI-ready data thread tied to platform, metadata, and
+quality work.
 
 Production AI depends on preprocessing and testing, and AI systems also need
 retrieval corpora and governance [[cite:production-ready-ai-engineering@18:38=>Production-Ready AI Engineering]].

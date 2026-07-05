@@ -112,6 +112,9 @@ from a newer open-source and cost-aware view. He discusses Iceberg and DuckDB.
 He also discusses catalogs and SQLMesh. Simpler orchestration can fit when the
 requirements support it
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+That connects [[modern-data-engineering-trends=>modern data engineering trends]]
+to a platform-side question: whether a current tool shift solves a real
+operating constraint.
 
 [[person:slawomirtulski=>Slawomir Tulski]]
 adds the career and hiring version of the same warning. Teams should avoid
@@ -164,9 +167,13 @@ to observability, governance controls, and recovery paths rather than to one
 isolated storage choice.
 
 [[person:adrianbrudaru=>Adrian Brudaru]]
-updates that discussion with Iceberg and [[Delta Lake]]. He also covers
-catalogs, metadata, and lineage. Headless table formats are part of the same update
+updates that discussion with Iceberg and [[Delta Lake]]. He also covers catalogs
+and lineage. Headless table formats are part of the same metadata update
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+
+The lakehouse and table-format part of
+[[modern-data-engineering-trends=>modern data engineering trends]] is therefore
+best read as a storage and metadata platform choice. It isn't only a tool list.
 [[Data Warehouse vs Data Lakehouse]]
 and [[Apache Iceberg]] cover those storage patterns.
 
@@ -316,6 +323,9 @@ requirements-led architecture in
 [[person:slawomirtulski=>Slawomir Tulski]]
 makes the same point in
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+Use [[modern-data-engineering-trends=>modern data engineering trends]] when the
+platform question is whether Iceberg, DuckDB, catalogs, or lighter
+orchestration reduce cost and lock-in for the actual workload.
 
 Iceberg and DuckDB can be right in context, and cloud warehouses can be right
 too. Kafka and Spark can also be right when the requirements call for them.

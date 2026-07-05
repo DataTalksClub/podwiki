@@ -36,7 +36,10 @@ asks whether the output still satisfies the consumer expectation.
 [[Data Quality and Observability]] covers the concept, signals, and ownership
 theory. Data engineering teams use those ideas to decide where checks belong in
 the stack. They also connect alerts to ownership and SLAs, protect downstream
-consumers, and roll out observability without alert fatigue.
+consumers, and roll out observability without alert fatigue. For ML-facing data
+products, [[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+separates upstream pipeline reliability from model-specific drift and response
+ownership.
 
 ## Core Signals
 
@@ -165,13 +168,19 @@ look authoritative. They can also hide an untested metric
 The same risk shows up as silent failures and good-pipeline/bad-data cases
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 
-ML systems break differently because a model may look worse when features
-arrive late, a join drops rows, labels change, or a source category shifts.
+ML systems break in their own way. A model may look worse when feature inputs
+arrive late. It may also break when a join drops rows, labels change, or a
+source category shifts.
 Those failure modes make data observability part of
 [[MLOps]],
 [[model monitoring]], and
 [[production]]. Monitoring model
 outputs without monitoring upstream data leaves many root causes hidden.
+
+The comparison in
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+is useful when the symptom appears in predictions. The fix may still belong in
+ETL, lineage, or data ownership.
 The ML handoff is explicit here: diagnosis can move upstream into ETL and data
 pipelines
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].

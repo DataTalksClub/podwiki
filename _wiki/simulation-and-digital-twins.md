@@ -187,10 +187,16 @@ rollout.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Lessons from Applied AI]]
 
 Industrial machine data shows the consulting version. The useful representation
-starts with sensor meaning, machine interactions, logs, and the client's
-problem. Automation makes sense after the team understands what the machine data
-means and which decision the analysis supports.
+starts with sensor meaning and machine interactions. Logs have to connect to the
+client's problem. Automation makes sense after the team understands what the
+machine data means and which decision the analysis supports.
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
+
+That same data-first boundary appears in
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield ML]].
+Tool logs, sensor values, and qualification timing have to stay tied to the
+maintenance or yield decision before prediction can help a fab.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 ## Related Pages
 

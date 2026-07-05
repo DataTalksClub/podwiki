@@ -42,7 +42,9 @@ between model teams, platform teams, and production owners
 [[DataOps]] owns the operating path for data pipelines and analytical delivery.
 MLOps adds model artifacts and experiment capture. It also adds drift,
 retraining, deployment approval, and model governance. [[MLOps vs DataOps]]
-covers that boundary in detail.
+covers that boundary in detail. For the narrower incident boundary between
+upstream data reliability and deployed-model behavior, use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]].
 
 [[MLOps Architecture]] owns the component map, and [[MLOps Roadmap]] owns
 rollout order. [[MLOps Engineer]] owns role responsibilities, while

@@ -93,8 +93,10 @@ turning them into software:
 - publish docs, demos, or an open-source core when adoption needs trust
 - measure paid demand, activation, retention, and support load
 
-For consulting offers, Weber starts with workshops and use-case discovery.
-A pitch deck sets the offer with evidence and rates.
+For consulting offers, Weber starts with workshops and use-case discovery, which
+puts the early service pitch close to
+[[ml-consulting-proposals=>ML consulting proposals]]. A pitch deck sets the offer
+with evidence and rates.
 Network conversations, events, LinkedIn, and referrals support client
 acquisition. Content can help too.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Practical Generative AI Consulting]]
 Weber makes the product fork explicit. Short client or mentoring engagements

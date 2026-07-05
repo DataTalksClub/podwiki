@@ -68,7 +68,7 @@ use-case discovery can be the first paid product when a company has GenAI
 urgency but not yet a scoped project. The offer still has to explain who
 benefits, what evidence supports the consultant's claim, and how the rate maps
 to client value. That puts GenAI freelance work next to
-[[ml consulting proposals]], not only next to model building.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Practical Generative AI Consulting]]
+[[ml-consulting-proposals=>ML consulting proposals]], not only next to model building.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Practical Generative AI Consulting]]
 
 ## Solo and Agency Forks
 
@@ -247,7 +247,7 @@ For data consulting, Aleksander Kruszelnicki ties price to value and benchmarked
 alternatives. Delivery cost alone is too narrow. He describes day rates as
 payment for having seen similar data situations before. The rate also covers the
 flexibility risk of being an external consultant instead of an employee.[[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]].
-That connects pricing to [[ml consulting proposals]]: the quote should explain
+That connects pricing to [[ml-consulting-proposals=>ML consulting proposals]]: the quote should explain
 which uncertainty the consultant is absorbing and which discovery still needs
 iterations.
 

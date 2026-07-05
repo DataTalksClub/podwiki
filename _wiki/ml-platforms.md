@@ -40,7 +40,7 @@ user-facing path when the work becomes a dedicated role.
 Adoption has to reach beyond data scientists and ML engineers. Product teams and
 governance stakeholders need to use it too[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager]].
 When the question shifts from shared platform services to organization-wide use,
-it belongs with [[MLOps Adoption at Scale]]. That adoption topic covers rollout,
+it belongs with [[mlops-adoption-at-scale=>MLOps adoption at scale]]. That adoption topic covers rollout,
 enablement, support, and governance across the organization[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Reusable Path from Experiment to Production
@@ -207,7 +207,9 @@ logic are part of the same standardized path[[cite:pragmatic-and-standardized-ml
 
 The same warning holds from the adoption side: standards land better after a
 team has found tangible pain and delivered quick wins. Deployment frequency and
-impact measures help show value[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+impact measures help show value. That's the organization-scale side of
+[[mlops-adoption-at-scale=>MLOps adoption at scale]]
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 The platform should therefore standardize where teams repeatedly struggle. That
 can include repository layout, release paths, and artifact storage. Dependency

@@ -29,7 +29,7 @@ CDC, and reverse ETL as different jobs rather than one product category
 
 Newer tool choices include open table formats plus catalogs, with [[DuckDB]] in
 the same category. AI pipeline tools and streaming affect vendor selection. Use
-[[Modern Data Engineering Trends]]
+[[modern-data-engineering-trends=>modern data engineering trends]]
 for the current open-format, local-first, AI, and streaming tool shifts
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 
@@ -65,7 +65,7 @@ Most teams evaluate tools across these engineering surfaces:
 
 Tool choice should follow the business requirement, team skills, and operating
 cost instead of vendor-led collection. That requirements-led rule also anchors
-[[Modern Data Engineering Trends]]
+[[modern-data-engineering-trends=>modern data engineering trends]]
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 For manager-facing choices, a
 [[data-engineering-manager-role=>data engineering manager]] turns requirements
@@ -198,6 +198,9 @@ better cost control, or less vendor lock-in. They also add platform complexity,
 so compare them with [[Data Warehouse vs Data Lakehouse]] for architecture. Use
 [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] for the table-format
 tradeoff.
+The broader [[modern-data-engineering-trends=>modern data engineering trends]]
+discussion tracks why these open-format and local-first choices are becoming
+more visible now.
 
 ## Transformation And Analytics Engineering
 
@@ -322,7 +325,9 @@ pieces. Kretz warns against starting with many tools. A Python script in a
 Docker container or a managed batch job can prove the pipeline first
 [[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines with AWS and Kafka]].
 Also check [[DataOps]] and
-[[data-quality-and-observability=>data observability]].[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+[[data-quality-and-observability=>data observability]], then use
+[[modern-data-engineering-trends=>modern data engineering trends]] for the
+cost, lock-in, and tool-caution version of the same decision.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 ## Related Pages
 

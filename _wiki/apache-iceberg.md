@@ -72,8 +72,9 @@ The same episode links open table formats to smaller cost-aware designs. Those
 designs include [[DuckDB]], GitHub Actions, headless tables, and DLT support for
 Iceberg
 [[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]].
-That puts Iceberg in two settings. Teams can use it in large governed
-lakehouses and in portable pipelines that still need open table semantics.
+That puts Iceberg inside [[modern-data-engineering-trends=>modern data engineering trends]]
+in two settings: large governed lakehouses and portable pipelines that still
+need open table semantics.
 
 ## Iceberg Scope
 

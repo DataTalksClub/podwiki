@@ -41,7 +41,8 @@ platform work. The engineering side includes
 [[Testing]]. The operating side includes
 [[Data Quality and Observability]],
 [[Data Governance]], and
-[[ML Platforms]].
+[[ML Platforms]]. When the same records have to work across many product teams,
+they become part of [[mlops-adoption-at-scale=>MLOps adoption at scale]].
 
 The exact capture mechanism changes by domain, but the standard converges. A
 reproducible team can explain how a result was produced. It can also identify
