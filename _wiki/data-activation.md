@@ -112,9 +112,12 @@ signals become support context or product-qualified account lists. They can
 also become lifecycle messages, onboarding nudges, or personalized product paths
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
-This is where [[product analytics]] and activation meet. Product analytics helps
-teams understand funnels, retention, segmentation, and user behavior. Activation
-turns a selected signal into work a team can do next.
+This is where [[product analytics]] and activation meet because product
+analytics covers funnels, retention, segmentation, and user behavior. Activation
+turns a selected signal into work a team can do next. [[rfm-analysis=>RFM analysis]] can
+route recent or high-value behavior to lifecycle messaging or account review
+([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]],
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
 Teams test adoption by starting from the decision the data should enable, then
 working backward into the product or report. That matters for activation because

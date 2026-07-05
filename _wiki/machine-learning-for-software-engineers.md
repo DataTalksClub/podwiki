@@ -209,10 +209,10 @@ Your README should answer:
 - Which errors matter most?
 - Which data would you collect next?
 
-Use scikit-learn, Pandas, and a simple model. Logistic regression, a decision
-tree, random forest, or gradient boosting model is enough. The project should
-force baselines, metric choice, leakage checks, and error analysis into the
-open.
+Use [[scikit-learn=>Scikit-Learn]], Pandas, and a simple model. Logistic
+regression, a decision tree, random forest, or gradient boosting model is
+enough. The project should force baselines, metric choice, leakage checks, and
+error analysis into the open.
 
 This favors maintainable ML work over novelty, with examples like refactoring
 hard-to-follow data science code and timeboxing experiments. A cost-benefit

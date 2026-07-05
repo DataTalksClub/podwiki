@@ -841,6 +841,11 @@ Source hints:
   `_wiki/product-designer-to-data-product-manager.md`. All five now have at
   least 12 inbound links. `python scripts/audit_graph.py --min-inbound 12` now
   reports 3 wiki/content nodes below 12 inbound links.
+- The final 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/rfm-analysis.md`, `_wiki/scikit-learn.md`, and
+  `_wiki/staff-ai-engineer.md`. All three now have at least 12 inbound links.
+  `python scripts/audit_graph.py --min-inbound 12` now reports 0 wiki/content
+  nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

@@ -146,9 +146,9 @@ before writing the model. Marketing funnels, conversion funnels, and web
 acquisition funnels all transfer into product analytics support. So do user
 journeys, touch points, optimization, and growth.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
-The analytics-engineering work can then extend into growth, retention, and RFM
-analysis. NLP experiments, dashboards, and A/B testing support can be part of
-the same work.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
+The analytics-engineering work can then extend into growth, retention, and
+[[rfm-analysis=>RFM analysis]]. NLP experiments, dashboards, and A/B testing
+support can be part of the same work.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 That makes [[a-b-testing=>A/B Testing]] and
 [[Experiment Tracking]]

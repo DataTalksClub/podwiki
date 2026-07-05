@@ -82,9 +82,14 @@ AI engineering crosses role boundaries and overlaps older
 [[machine-learning-engineer-role=>ML engineer]] responsibilities.
 Paul Iusztin frames the distinction as a shift from analysis or modeling alone
 to end-to-end product ownership. The AI engineer builds the surrounding
-software and data path, while evaluation, deployment, and user-facing product
+software and data path. Evaluation, deployment, and user-facing product
 behavior belong there too
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@15:13=>AI Engineering Skill Stack]]).
+
+At senior scope, that boundary becomes a
+[[staff-ai-engineer=>staff AI engineer]] problem. Roadmap and architecture
+decisions have to stay connected to cross-team production AI delivery
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
 
 ## Core System Pieces
 

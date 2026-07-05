@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12299
+    "links": 12305
   },
   "nodes": [
     {
@@ -23336,6 +23336,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
       "kind": "wiki-chip",
       "weight": 1
@@ -23679,6 +23685,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32984,6 +32996,12 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -33095,6 +33113,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-activation",
@@ -62798,6 +62822,12 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:scikit-learn",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -65259,6 +65289,12 @@
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:reverse-etl",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:rfm-analysis",
       "kind": "article-chip",
       "weight": 1
     },
