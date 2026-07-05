@@ -146,7 +146,7 @@ Cohorts help teams compare users who started in different weeks, plans,
 channels, or onboarding flows. That makes the analysis useful for activation and
 retention work instead of only giving aggregate usage counts.
 
-Teams can use [[RFM Analysis]] for a nearby behavior-analysis question. It
+Teams can use [[rfm-analysis=>RFM analysis]] for a nearby behavior-analysis question. It
 groups customers by recency, frequency, and value before the team sends those
 segments into lifecycle or growth workflows[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
@@ -162,7 +162,7 @@ steps. Sales teams can prioritize accounts that reached meaningful product
 milestones. Marketing teams can avoid sending onboarding emails for features a
 user already used.
 
-After teams model [[RFM Analysis]] in the warehouse, marketers or customer teams
+After teams model [[rfm-analysis=>RFM analysis]] in the warehouse, marketers or customer teams
 can use the same activation path. They can send different actions to recent,
 frequent, or high-value customers[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 

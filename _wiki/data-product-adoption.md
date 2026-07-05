@@ -225,11 +225,16 @@ active users or revenue. Reputation risk and cost avoided can matter too.
 ## User Research and Prototyping
 
 Low adoption is a user-research signal. Ask whether users know the product
-exists, know how to use it, and believe it solves their real problem. Sit in the
-meetings where decisions happen, and before building the polished system, sketch
-reports or workflows on paper.
+exists and know how to use it. Then ask whether it solves their real problem.
+
+Sit in the meetings where decisions happen. Before building the polished system,
+sketch reports or workflows on paper.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+That same research and prototyping habit is the bridge in the
+[[product-designer-to-data-product-manager=>product designer to data product manager]]
+transition. Discovery has to reach data quality, SQL, and lifecycle decisions
+too.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 That research should include the user's incentive, not only their stated
 requirement. If a manager is rewarded for spending an existing budget or checking

@@ -45,9 +45,9 @@ makes product analytics adjacent to [[Business Intelligence]],
 than a standalone reporting category.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Product analytics also depends on role design.[[cite:data-team-roles=>Data Team Roles]]
-The product-facing role hub is [[Product Analyst]]. The title boundary is covered in
-[[product-analyst-vs-data-analyst=>product analyst vs data analyst]]. The same
-analysis can be product-facing or broader.
+The product-facing role hub is [[product-analyst=>product analyst]]. The title
+boundary is covered in [[product-analyst-vs-data-analyst=>product analyst vs
+data analyst]]. The same analysis can be product-facing or broader.
 
 - Product managers keep teams close to user needs.
 - Analysts quantify the problem and evaluate shipped changes.
@@ -73,7 +73,8 @@ lifecycle context.[[cite:product-designer-to-data-product-manager=>Data Product 
 In analytics engineering, teams put modeling and BI tooling closer to product
 questions, and dbt often supports that work. One analytics engineering path
 connects Looker, Redshift, and Snowplow to product questions. It also connects
-product-support work, growth analysis, retention analysis, and RFM work.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
+product-support work, growth analysis, retention analysis, and
+[[rfm-analysis=>RFM analysis]].[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
 AI product design adds another boundary. Interfaces collect model-behavior
 signals.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
@@ -121,7 +122,7 @@ In analytics engineering work, the same product questions often become modeled
 tables, dashboards, and governed metrics. SQL and dbt can support product
 support and growth analysis. Snowplow, Looker, and Redshift can support them
 too. The same toolkit can also support retention analysis and
-[[RFM Analysis]]. It can support NLP experiments, dashboards, and A/B
+[[rfm-analysis=>RFM analysis]]. It can support NLP experiments, dashboards, and A/B
 testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
 ## Product Roles And Ownership

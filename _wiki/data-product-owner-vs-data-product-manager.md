@@ -84,7 +84,8 @@ The manager side matters when product direction is unresolved. The team has to
 choose which data product to build, who it serves, and how success will be
 measured.
 Data product management starts with customer discovery and hypothesis formation,
-as the [[Product Designer to Data Product Manager]] transition shows.
+as the [[product-designer-to-data-product-manager=>product designer to data product manager]]
+transition shows.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 Roadmap choices still need business-first evidence, so the team starts from

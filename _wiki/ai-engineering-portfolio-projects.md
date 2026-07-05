@@ -62,10 +62,15 @@ The AI engineer skill stack includes data ingestion, agent evaluation, and
 durable workflows. It also includes traces and deployment
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
-[[person:revathyramalingam=>Revathy Ramalingam]] had interviewers check her GitHub
-profile and run her projects. They asked about dataset choices and REST output.
-They also asked about chunking, retrieval accuracy, and efficiency
+Interviewers checked Revathy Ramalingam's GitHub profile and ran her projects.
+They asked about dataset choices and REST output. They also asked about
+chunking, retrieval accuracy, and efficiency
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+
+That makes her path a useful case for
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]].
+Prior context becomes credible when a reviewer can run the project and look at
+the AI product choices.
 
 ## Different Proof Standards
 

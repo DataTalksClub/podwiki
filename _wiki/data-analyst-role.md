@@ -19,7 +19,9 @@ The analyst knows what company data exists and how to retrieve it. They build
 dashboards and define KPIs. They quantify product problems and check whether a
 shipped feature improved user behavior.[[cite:data-team-roles=>Data Team Roles Explained]]
 That makes the role broader than report production. The analyst connects data to
-a product, operational, or business decision.
+a product, operational, or business decision. When that decision surface is
+mostly product behavior, the adjacent [[product-analyst=>product analyst]] role
+narrows the same analyst craft to launches, funnels, and experiments.
 
 The role definition belongs here. [[Data Analyst Careers]] covers entry routes,
 portfolios, hiring signals, and next moves.

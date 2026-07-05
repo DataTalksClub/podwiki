@@ -239,11 +239,18 @@ recommendation systems become
 [[machine learning system design]]
 problems rather than only modeling problems.
 
-The staged-experimentation version warns teams not to jump directly into
-collaborative filtering or deep learning for recommenders. Teams start with A/B
-tests and variant availability. They then use segments and accumulated data to
-move toward clustering or collaborative filtering. Analytics and good
-data remain prerequisites for machine learning.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+The staged-experimentation episode warns against starting with recommender
+models. Teams shouldn't jump directly into collaborative filtering, and deep
+learning has the same risk. They start with A/B tests and variant availability.
+Segments and accumulated data come next.
+
+That evidence can support clustering and collaborative filtering. Later machine
+learning work still depends on analytics and good data.
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+
+For lifecycle segmentation, [[rfm-analysis=>RFM analysis]] can be a simpler
+analytics baseline before the team has enough evidence for recommendation
+models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 Search and recommender teams get more support when metrics connect to business
 performance. Offline tests and A/B tests speed up iteration. Engineer-facing

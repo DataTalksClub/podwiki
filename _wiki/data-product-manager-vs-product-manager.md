@@ -23,7 +23,10 @@ related_wiki:
 
 Product managers and data product managers share the same product craft. They
 understand users and choose the problem. They also define success, coordinate
-delivery, and learn after launch.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+delivery, and learn after launch.
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+The [[product-designer-to-data-product-manager=>product designer to data product manager]]
+transition shows that shared craft before the data-specific constraints enter.
 
 Compare the product surface first. A product manager may own a feature,
 workflow, marketplace, or customer-facing experience. A data product manager
@@ -66,6 +69,8 @@ boundary is the manager's ability to connect data work to user-facing product
 decisions. That work may involve [[Data Engineering]],
 [[Analytics Engineering]], and [[Product Analytics]]. It may also involve
 [[Metrics]], [[Data Governance]], or [[MLOps]].
+For designers, that boundary becomes a concrete career move in
+[[product-designer-to-data-product-manager=>product designer to data product manager]].
 
 ## Trust Changes the Success Criteria
 

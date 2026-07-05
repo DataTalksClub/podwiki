@@ -59,7 +59,7 @@ sends warehouse-modeled data back to operational tools. A CDP can include parts
 of all three, but the bundle is the product.
 
 Teams can also model audiences in the warehouse first. In that path,
-[[RFM Analysis]] is one customer-segmentation method they can move into a CDP
+[[rfm-analysis=>RFM analysis]] is one customer-segmentation method they can move into a CDP
 or reverse ETL destination for activation[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
 ## Growth Speed Versus Identity Depth

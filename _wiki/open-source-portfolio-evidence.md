@@ -128,8 +128,10 @@ integrations, licensing judgment, and community support
 ([[person:sonalgoyal=>Sonal Goyal]] in
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 
-For machine learning, the strongest evidence shows maintainable ML work. Useful
-examples include reproducible examples and evaluation helpers.
+For machine learning, the strongest evidence from
+[[open-source-ml-contributions=>open-source ML contributions]] shows
+maintainable ML work. Useful examples include reproducible examples and
+evaluation helpers.
 Scikit-learn-compatible components and model-serving demos can clarify data or
 metric behavior. Documentation can do the same. The scikit-lego examples matter
 because they fit an existing ecosystem instead of inventing a one-off interface

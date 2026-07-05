@@ -217,7 +217,7 @@ Common product analyst outputs include:
   onboarding, lifecycle messaging, support, or sales workflows.[[cite:data-led-growth-event-tracking-and-reverse-etl@24:43=>SaaS Event Examples]][[cite:data-led-growth-event-tracking-and-reverse-etl@56:08=>Activation Events]]
 - Retention or cohort analysis: define the user, account, cohort date, and
   return behavior before charting retention. Nikola Maksimovic's product
-  analytics work connects growth, retention, RFM analysis, and domain
+  analytics work connects growth, retention, [[rfm-analysis=>RFM analysis]], and domain
   knowledge. Explain the product behavior behind the metric rather than only
   plotting a cohort table.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@38:27=>Product Analytics Focus]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@39:36=>Domain Knowledge]]
 - Experiment readout: state the hypothesis, assignment unit, primary metric,

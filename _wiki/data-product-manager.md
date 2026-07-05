@@ -76,10 +76,14 @@ That connects the role to [[Product Analytics]] and
 
 ## Data Skills and Constraints
 
-Data quality, SQL, and documentation literacy sit inside the role's working
-context. PII and compliance sit there too. They constrain what the team can
-responsibly ship, so they belong in discovery and planning rather than late
-polish.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+Data quality and SQL sit inside the role's working context. Documentation
+literacy sits there too.
+
+PII and compliance constrain what the team can ship, so handle them during
+discovery and planning.
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+For a role path that starts from product design, see
+[[product-designer-to-data-product-manager=>product designer to data product manager]].
 
 The manager doesn't replace the technical team. Engineers, data scientists, and
 technical leads own solution design and implementation. The data product

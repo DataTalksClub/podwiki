@@ -31,8 +31,8 @@ behavior. Internal technical products put the role near [[MLOps]],
 product management. In that role, regular product discovery combines with SQL,
 data quality judgment, and documentation habits. The role also needs PII
 awareness and compliance literacy.
-[[Product Designer to Data Product Manager]] uses that path as a role
-transition example.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+The [[product-designer-to-data-product-manager=>product designer to data product manager]]
+path uses that move as a role transition example.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 ## Working Definition
 
@@ -166,6 +166,11 @@ understand the data lifecycle. They should use SQL well enough to check expected
 outputs and reason about PII, compliance, and data quality. Those skills don't
 replace engineers. They let the PM ask better questions and spot product risk
 earlier.
+
+That makes the
+[[product-designer-to-data-product-manager=>product designer to data product manager]]
+transition useful for readers coming from discovery and UX work rather than
+data engineering first.
 [[cite:product-designer-to-data-product-manager@19:38=>Product Designer to Data Product Manager]]
 [[cite:product-designer-to-data-product-manager@26:33=>Product Designer to Data Product Manager]]
 

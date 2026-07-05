@@ -182,7 +182,8 @@ configuration. A model hub exposes models, datasets, demos, and community
 support.
 
 scikit-learn shows the library route: scikit-lego demonstrates
-ecosystem-compatible components and low-maintenance APIs
+ecosystem-compatible components and low-maintenance APIs for
+[[open-source-ml-contributions=>open-source ML contributions]]
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]], while
 :probabl. stays separate from scikit-learn and governance sits with the project
 and NumFOCUS, keeping company support separate from project ownership

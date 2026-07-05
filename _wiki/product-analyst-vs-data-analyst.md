@@ -38,7 +38,7 @@ executive dashboards. Business operations and ad hoc questions can also sit
 under the broader title.
 
 In small teams, one person often does both. Compare the titles by the decision
-surface each one owns. [[Product Analyst]] covers product-facing
+surface each one owns. [[product-analyst=>Product Analyst]] covers product-facing
 responsibilities in more detail. [[Data Analyst Role]] covers the general role
 definition, and [[Data Analyst Careers]] covers entry routes and next moves.
 
@@ -88,8 +88,8 @@ Assignment tracking and A/A tests check whether the test system behaves as
 expected. Metric stability and [[power analysis]] determine whether the test
 can support the decision.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
-[[Product Analyst]] expands this into role skills plus tracking-plan work and
-example outputs.
+[[product-analyst=>Product Analyst]] expands this into role skills plus
+tracking-plan work and example outputs.
 
 Hiring can make this product-facing scope explicit. Data people in embedded
 roles may report to a data leader while product managers, engineering managers,

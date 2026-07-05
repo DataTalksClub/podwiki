@@ -108,9 +108,15 @@ system.[[cite:machine-learning-engineering-production-best-practices=>Production
 
 ## Skills
 
-Software engineering is the durable base. Machine learning engineers need
-Python, tests, modular code, and configuration. They also need packaging, APIs,
-dependency management, and code review. Debugging is part of the same base.
+Machine learning engineers need production code habits. The durable base starts
+with Python, tests, modular code, and configuration. Packaging and APIs sit next
+to dependency management, code review, and debugging.
+
+When that skill is demonstrated publicly,
+[[open-source-ml-contributions=>open-source ML contributions]] can show the
+same habits. Useful proof includes reproducible examples and docs. Tests,
+packaging, and maintainer review matter too
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 [[book:20220117-machine-learning-engineering-with-python=>Machine Learning Engineering with Python]]
 by Andrew McMahon builds on the same production ML engineering practices in

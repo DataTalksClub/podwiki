@@ -59,7 +59,10 @@ model-quality release decisions.
 
 A product manager owns the product-management system around the team. They start
 with customer discovery and problem framing. Then they turn that work into a
-roadmap, rollout plan, feedback path, and success metrics.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+roadmap, rollout plan, feedback path, and success metrics
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+The [[product-designer-to-data-product-manager=>product designer to data product manager]]
+path is one grounded example of that discovery-to-lifecycle move.
 
 Beyond delivery coordination, product managers decide which problem deserves
 attention. They define how the team will know the work changed a user decision,

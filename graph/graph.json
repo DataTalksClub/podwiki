@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12062
+    "links": 12082
   },
   "nodes": [
     {
@@ -23294,6 +23294,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
       "kind": "wiki-chip",
       "weight": 1
@@ -23528,6 +23534,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -23747,6 +23759,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
@@ -26294,6 +26312,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -26625,6 +26649,12 @@
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:rfm-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30878,6 +30908,12 @@
     },
     {
       "source": "wiki:community",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
       "target": "podcast:open-source-turned-into-career-and-startup-creation",
       "kind": "wiki-chip",
       "weight": 1
@@ -30981,6 +31017,12 @@
     {
       "source": "wiki:community",
       "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33539,6 +33581,12 @@
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analyst-role",
@@ -39554,6 +39602,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -39689,6 +39743,12 @@
       "target": "wiki:platform-adoption",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-adoption",
@@ -40721,6 +40781,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager-vs-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-manager-vs-product-manager",
@@ -51800,6 +51866,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
@@ -60608,6 +60680,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -60789,6 +60867,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61706,6 +61790,12 @@
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
       "kind": "article-chip",
       "weight": 1
@@ -61911,6 +62001,12 @@
     {
       "source": "wiki:machine-learning-for-software-engineers",
       "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -73244,6 +73340,12 @@
     },
     {
       "source": "wiki:product-analyst",
+      "target": "wiki:rfm-analysis",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst",
       "target": "wiki:tracking-plans",
       "kind": "article-chip",
       "weight": 1
@@ -74099,6 +74201,12 @@
       "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production",
@@ -76160,6 +76268,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -76379,6 +76493,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:recommendation-systems",

@@ -191,9 +191,16 @@ The same operational work runs through [[MLOps]],
 
 Hiring discussions value project evidence more than credentials alone. Project
 work shows AI engineering learning.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
-The same argument runs through side projects and local community work. It also
-covers daily-life project ideas and hiring signals. It also covers using AI to
-learn.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+The same argument runs through side projects and local community work.
+Daily-life project ideas count too. The episode also covers hiring signals and
+using AI to learn
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+
+Career-break and domain-first candidates need the same proof standard.
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+connects older context and side projects. Current AI product artifacts matter
+more than biography alone
+[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After a Career Break]].
 Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
 for those daily workflows.
 

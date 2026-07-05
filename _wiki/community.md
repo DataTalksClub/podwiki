@@ -110,6 +110,11 @@ Open-source communities add a maintainer perspective. Discourse and Discord
 connect to GitHub projects, while pull request review and releases turn
 participation into project maintenance
 [[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
+For ML-tool communities,
+[[open-source-ml-contributions=>open-source ML contributions]] add another
+path through reproducible issues and documentation. Tests, CI, and small
+maintainer-friendly fixes give maintainers something reviewable
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 [[Open Source Contributor Roadmap]] covers the individual contribution sequence,
 and [[Open Source Portfolio Evidence]] covers the hiring-evidence question.
 

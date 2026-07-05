@@ -153,8 +153,8 @@ in-house experimentation platforms both need traffic splitting and stable
 assignment. They also need exposure logging, monitoring, and debuggable metrics
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
-The product analyst's work isn't only the final p-value. It also includes the
-setup that makes the test credible. For that role split,
+A [[product-analyst=>product analyst]]'s work isn't only the final p-value. It
+also includes the setup that makes the test credible. For that role split,
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]] connects
 experiment ownership to broader analyst responsibilities.
 

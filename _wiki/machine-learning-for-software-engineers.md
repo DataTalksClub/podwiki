@@ -165,6 +165,12 @@ you want LLM application work. RAG systems fit there too. So do agent workflows,
 prompt workflows, and AI product features. Your software background helps.
 Retrieval, evaluation, and production monitoring remain central.
 
+The starting point may be a career break or domain role. Use
+[[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
+to keep the AI-engineering proof centered on runnable artifacts. The same advice
+applies to self-taught paths that need product context
+[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After a Career Break]].
+
 [[ai-coding-tools=>AI coding tools]] can support that transition when you use
 them to look at code and write tests. Ask them to explain tradeoffs instead of
 outsourcing the learning step

@@ -119,8 +119,8 @@ The project should answer these review questions:
 
 - Business question: name the decision and metric owner. This follows
   [[person:nikolamaksimovic=>Nikola Maksimovic]] from
-  performance marketing into BI and product analytics. Funnels, retention, RFM
-  analysis, and A/B testing gave modeling work a target
+  performance marketing into BI and product analytics. Funnels, retention,
+  [[rfm-analysis=>RFM analysis]], and A/B testing gave modeling work a target
   [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 - Row grain: state what one row represents and which joins preserve or change
   that grain, because [[person:juanmanuelperafan=>Juan Manuel Perafan]]
@@ -174,8 +174,8 @@ events fit there too. He then connects collection and storage with
 transformation, analysis, and activation
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 [[person:nikolamaksimovic=>Nikola Maksimovic]] shows why
-marketing and product domain knowledge matter for funnels, retention, RFM, and
-A/B testing
+marketing and product domain knowledge matter for funnels, retention,
+[[rfm-analysis=>RFM analysis]], and A/B testing
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
 This project should connect
