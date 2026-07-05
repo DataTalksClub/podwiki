@@ -193,6 +193,8 @@ product, publishing a dashboard with experiment data isn't enough. The product
 manager needs to decide whether to roll out a feature, understand business
 impact, and check guardrail metrics. That decision determines what data must be
 joined, how results should be shown, and what language the interface should use.
+Teams use [[data-product-intake-and-prioritization=>data product intake]] to
+bring that decision definition before they commit a dashboard or model build.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]]
 
 Decision-first adoption work links data product adoption to [[metrics]]. KPIs

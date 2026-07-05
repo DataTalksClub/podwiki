@@ -122,6 +122,12 @@ teams choose use cases and a target architecture
 Data product intake belongs in the same operating path. Teams need the same
 use-case list to survive delivery, measurement, and reprioritization
 [[cite:data-strategy-and-dataops-for-ai-powered-products@18:56=>Strategy delivery]].
+For [[ai-powered-business-intelligence=>AI-powered BI]], teams also have to
+release metric-layer changes and dashboard trust states through DataOps.
+Generated-query checks matter because AI answers depend on tested tables and
+visible reliability signals
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
+
 Once a strategy reaches delivery, failed handoffs and waiting become operating
 problems. Unclear requirements and unmeasured pilots do too
 [[cite:data-strategy-and-dataops-for-ai-powered-products@25:03=>Lean and Agile DataOps]].

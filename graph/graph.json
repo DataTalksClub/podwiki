@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11849
+    "links": 11893
   },
   "nodes": [
     {
@@ -22376,6 +22376,12 @@
     },
     {
       "source": "wiki:ai",
+      "target": "podcast:ai-for-ecology-biodiversity-and-conservation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "wiki-chip",
       "weight": 1
@@ -22389,6 +22395,18 @@
     {
       "source": "wiki:ai",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -22485,6 +22503,12 @@
     {
       "source": "wiki:ai",
       "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-for-social-good",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28352,6 +28376,12 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
@@ -32300,6 +32330,12 @@
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-chip",
       "weight": 1
@@ -32315,6 +32351,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
@@ -37844,6 +37886,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:ai-for-ecology-biodiversity-and-conservation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -37892,7 +37940,19 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:responsible-explainable-ai-bias-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:ai-for-social-good",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38708,6 +38768,12 @@
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "article-chip",
       "weight": 1
@@ -38720,7 +38786,19 @@
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
       "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "article-chip",
       "weight": 1
     },
@@ -39206,6 +39284,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -39647,6 +39731,12 @@
       "target": "wiki:data-product-adoption",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-management",
@@ -40916,6 +41006,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:industrial-data-small-data-production-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -41091,6 +41187,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:synthetic-data",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46310,7 +46412,25 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
       "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -50354,6 +50474,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "podcast:data-centric-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-chip",
       "weight": 1
@@ -50541,6 +50667,12 @@
     {
       "source": "wiki:evaluation",
       "target": "wiki:search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:synthetic-data",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52610,6 +52742,18 @@
     },
     {
       "source": "wiki:generative-ai",
+      "target": "podcast:human-centered-ai-automatic-speech-recognition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:industrial-data-small-data-production-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -52761,6 +52905,12 @@
     {
       "source": "wiki:generative-ai",
       "target": "wiki:security",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:synthetic-data",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53234,6 +53384,12 @@
     },
     {
       "source": "wiki:graph-data-science",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
       "target": "wiki:tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -53385,6 +53541,12 @@
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53555,6 +53717,12 @@
       "target": "wiki:sensor-ml-personal-baselines",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:hire-data-engineers",
@@ -54734,6 +54902,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "wiki:streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -55707,6 +55881,12 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:search-relevance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "article-chip",
       "weight": 1
     },
@@ -57548,6 +57728,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-chip",
       "weight": 1
@@ -57638,6 +57824,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -57647,12 +57839,6 @@
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "wiki:business-intelligence",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -59300,6 +59486,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -59369,6 +59561,12 @@
       "target": "wiki:ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning",
@@ -61442,6 +61640,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:make-money-with-machine-learning-roles-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -61611,6 +61815,12 @@
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63854,6 +64064,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -63881,6 +64097,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:metrics",
@@ -71900,6 +72122,12 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
+      "target": "podcast:urban-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -72473,6 +72701,12 @@
       "target": "wiki:data-product-adoption",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analytics",
@@ -73088,6 +73322,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "podcast:ai-for-ecology-biodiversity-and-conservation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -73130,6 +73370,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -73155,6 +73401,12 @@
     {
       "source": "wiki:production",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
+      "target": "wiki:ai-for-social-good",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73275,6 +73527,12 @@
     {
       "source": "wiki:production",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -80085,6 +80343,12 @@
     {
       "source": "wiki:team-building",
       "target": "wiki:data-led-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
     },

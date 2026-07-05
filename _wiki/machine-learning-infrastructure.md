@@ -184,6 +184,14 @@ At the opposite scale, Lambda and queues or simpler schedulers fit when the
 workload doesn't justify heavier orchestration
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
 
+Simulation-heavy work adds a pre-ML boundary. Teams need infrastructure that
+moves data to high-performance clusters and retrieves results. They also need to
+keep competing client datasets separate before models or pipelines use the
+outputs. For those workloads, engineers treat
+[[simulation-and-digital-twins=>simulation and digital-twin]] systems as
+orchestration work rather than model serving alone
+([[cite:from-academic-research-to-data-engineering-freelancing=>Lean Data Consulting]]).
+
 ## Serving and Deployment
 
 Serving infrastructure turns trained models into predictions through two

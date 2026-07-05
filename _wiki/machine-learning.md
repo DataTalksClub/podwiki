@@ -174,6 +174,10 @@ analysis, and test duration.
 Those topics connect ML evaluation to
 [[Experimentation and Causal Inference]]
 when the team needs causal evidence rather than offline accuracy alone.
+Teams use the same validation frame in
+[[ai-for-social-good=>AI for social good]].
+Nonprofit optimization and healthcare-access examples judge ML by resource
+placement rather than model novelty.[[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofit Analytics]]
 
 ## Roles and Ownership
 

@@ -157,6 +157,11 @@ optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
 right. That consumer-facing pressure is the same adoption problem covered in
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+
+When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they extend
+the same downstream risk. AI summaries and SQL drafts can make a stale dashboard
+look authoritative. They can also hide an untested metric
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
 The same risk shows up as silent failures and good-pipeline/bad-data cases
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 

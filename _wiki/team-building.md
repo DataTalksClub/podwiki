@@ -40,9 +40,14 @@ models.
 A useful data team building plan starts by naming the bottleneck that blocks
 decisions today. If business teams need trustworthy reporting, start with an
 analyst and visible dashboards. If historical data, forecasting, or source
-integration slows the team, add data engineering. If dashboards exist but people
-don't use them, add a business-facing analyst or data researcher. That person
-can teach, listen, and adapt the data product to real decisions.[[cite:building-and-scaling-data-team@07:22=>Business Health Dashboards]][[cite:building-and-scaling-data-team@15:04=>First Analyst Then Data Engineer]][[cite:building-and-scaling-data-team@18:41=>Adoption Role]]
+integration slows the team, add data engineering.
+
+When dashboards exist but people don't use them, add a business-facing analyst
+or data researcher. That person can teach users and adapt the data product to
+real decisions. Leaders use the same bottleneck test in
+[[data-product-intake-and-prioritization=>data product intake]]. They decide
+whether a request needs analysis first, engineering support, or adoption
+work.[[cite:building-and-scaling-data-team@07:22=>Business Health Dashboards]][[cite:building-and-scaling-data-team@15:04=>First Analyst Then Data Engineer]][[cite:building-and-scaling-data-team@18:41=>Adoption Role]]
 
 Tammy Liang's sequence shows why generic hiring plans fail: she started with
 dashboards and cross-team trust. She then moved toward a warehouse, forecasting,

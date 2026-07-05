@@ -16,7 +16,8 @@ Graph data science applies data science and
 [[machine-learning=>machine learning]]
 methods to data represented as nodes and edges. It fits data where relationships
 are part of the signal, not only metadata. Automotive R&D connects vehicle
-parts, crash simulations, sibling vehicle designs, and design changes.
+parts, [[simulation-and-digital-twins=>crash simulation records]], sibling
+vehicle designs, and design changes.
 Wastewater microbiome work connects microorganisms and samples. It also links
 metabolites, biomes, and biological processes in
 [[bioinformatics-data-science=>bioinformatics data science]].
@@ -40,7 +41,9 @@ Graph data science begins when graph-shaped data becomes an analytical object.
 In automotive R&D, the full knowledge graph can hold simulations and market
 vehicles. It can also link parts, sensors, and engineering context. A smaller
 NetworkX-style graph can then be extracted for similarity analysis, load-path
-analysis, visualization, and graph machine learning.
+analysis, visualization, and graph machine learning. That split keeps
+[[simulation-and-digital-twins=>physics simulation records]] separate from the
+graph algorithms that compare them.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 In wastewater microbiome research, abundance tables become microbial association

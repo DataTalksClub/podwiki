@@ -182,6 +182,11 @@ and domain expertise constrain what a model can learn
 [[cite:building-healthcare-machine-learning-systems@7:34=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@11:03=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
+
+[[Synthetic Data]] becomes adjacent to healthcare ML at that scarcity boundary.
+Medical-imaging simulation can help model development, but it still needs
+clinical workflow validation before adoption.
+[[cite:from-academic-research-to-data-engineering-freelancing=>Medical Imaging]]
 For lab-derived biomarkers, sequencing, and other biological features,
 [[bioinformatics-data-science=>Bioinformatics Data Science]] covers the
 neighboring workflow before a clinical outcome becomes a validation target.

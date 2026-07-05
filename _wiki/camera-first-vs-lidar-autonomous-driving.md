@@ -126,7 +126,10 @@ improvements for these uncommon cases.[[cite:from-computer-vision-research-to-au
 Sensor strategy changes the validation burden. Updates move from simulation to
 closed tracks and on-road testing with safety drivers before they reach
 driverless deployment. Releases depend on safety checks, validation results,
-and real-world behavior.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+and real-world behavior. This ties camera-first and multi-sensor stacks to
+[[simulation-and-digital-twins=>simulation and digital-twin]] work because each
+sensor choice changes which failures teams need to recreate before release.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 Camera-first products have to prove that visual perception is reliable enough
 for the product scope. Multi-sensor driverless services also have to validate

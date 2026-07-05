@@ -154,10 +154,14 @@ also personalize onboarding and give support teams product context.[[cite:data-l
 
 Technically correct analytics can still fail when teams don't trust or use the
 result. Adoption depends on discoverability and interpretability. It also
-depends on data quality and decision context. Teams improve adoption by treating
-analytics as a product. They start from the decision and run user research. They
-design for personas, prototype low-fidelity interfaces, and embed metrics in
-meetings.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+depends on data quality and decision context.
+
+Teams improve adoption by treating analytics as a product, starting from the
+decision, and running user research. They design for personas, prototype
+low-fidelity interfaces, and embed metrics in meetings. Teams should apply the
+same decision-first test upstream in
+[[data-product-intake-and-prioritization=>data product intake]] when teams choose
+which analytics request deserves product work.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Adoption also depends on organizational behavior. Narrow slices, internal
 advocates, and measurable wins help teams prove impact. Practical proxy metrics

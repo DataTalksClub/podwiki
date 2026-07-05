@@ -88,9 +88,12 @@ score. The strategy check includes ROI, precision on selected buys, and fees
 ## LLM and RAG Evaluation
 
 LLM evaluation depends on the task. Classification-like use cases can still use
-labels and accuracy-style metrics. Generative use cases need examples, rubric
-checks, human review, and failure analysis because the output can be fluent and
-wrong at the same time.
+labels and accuracy-style metrics. Generative use cases need examples plus
+rubric checks and human review. They need failure analysis too because the
+output can be fluent and wrong at the same time.
+Teams may add generated examples through [[Synthetic Data]]. Evaluation also has
+to show that the augmented data helps the real task rather than only the
+training set.[[cite:data-centric-ai=>Data-Centric AI]]
 
 Production LLM choices depend on data quality, gold-standard examples, and
 human evaluation. Model drift and hidden API changes mean evaluation needs to

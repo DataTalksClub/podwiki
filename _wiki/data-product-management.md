@@ -180,7 +180,9 @@ That platform version sits close to [[Model Monitoring]] and
 The same product boundary appears inside a lead data scientist role. Intake,
 Definition of Done, KPIs, and feasibility checks structure the work. Pilots,
 demos, and stakeholder communication turn data science work into a managed
-product lifecycle.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
+product lifecycle. Mesionis puts that lifecycle inside
+[[data-product-intake-and-prioritization=>data product intake]] before the team
+commits delivery work.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 ## Roadmaps and Tradeoffs
 

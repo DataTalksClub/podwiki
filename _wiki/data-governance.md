@@ -245,10 +245,15 @@ Fingerprinting and re-identification risk show why a permission rule may not be
 enough. Privacy-enhancing technologies can require a different
 architecture.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
-Model governance adds another boundary. When teams use governed data to make or
-automate decisions about people, they need feature-necessity review and PII
+Model governance adds another boundary. Teams may use governed data to make or
+automate decisions about people. They then need feature-necessity review and PII
 handling. They also need fairness checks and human oversight. [[Responsible AI and Governance]]
 covers that overlap in more detail.[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
+
+In [[ai-for-social-good=>AI for social good]]
+cases, conservation teams need responsible data sharing and local governance.
+Nonprofit teams need resource-allocation controls before field teams can act on
+model outputs.[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]][[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofit Analytics]]
 
 ## Related Pages
 

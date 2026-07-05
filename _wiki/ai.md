@@ -190,6 +190,11 @@ and [[MLOps]].
 AI needs [[governance]] when it affects
 people, regulated decisions, or private data. Safety-critical workflows need the
 same discipline. Material business outcomes do too.
+Teams hit the same boundary in
+[[ai-for-social-good=>AI for social good]]
+work. Conservation monitoring, nonprofit optimization, accessibility support,
+and policy systems can turn model outputs into field work or access to
+resources.[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]][[cite:data-science-and-analytics-for-nonprofits-tech-for-good=>Nonprofit Analytics]][[cite:data-science-for-public-policy-ethical-ai-social-impact=>Policy]]
 
 Responsible AI work centers trust and fairness, plus explainability,
 stakeholder collaboration, and compliance. The work runs from data-level

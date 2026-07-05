@@ -30,9 +30,10 @@ rollback and human review.
 An LLM is a product component rather than the whole system. In production it
 ties deployment and model ownership to fine-tuning and retrieval. Evaluation
 and operability stay in the same boundary.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-In [[business intelligence]], the model can help with questions, summaries, and
-[[text-to-sql=>Text-to-SQL]] query drafting. The product still depends on
-governed metrics, access controls, and review.
+In [[ai-powered-business-intelligence=>AI-powered BI]], the model can help with
+questions, summaries, and [[text-to-sql=>Text-to-SQL]] query drafting. The
+team still needs governed metrics, access controls, and review
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
 
 For the learning and rollout sequence, use
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. Teams still have

@@ -187,10 +187,16 @@ Privacy-aware architecture and differential privacy give teams ways to reason
 about sensitive data use and privacy loss.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering]]
 
 Not every team should begin with advanced PETs. Teams first need to clarify
-what data is sensitive, what the product needs, and who owns the risk.
-Teams use federated learning or encrypted computation when the use case still
-requires learning from sensitive patterns. Differential privacy and localized
-deployment fit similar cases.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering]]
+which data is sensitive and what the product needs. They also need to know who
+owns the risk.
+Teams use federated learning or encrypted computation when they still need
+sensitive patterns. Differential privacy and localized deployment fit similar
+cases.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering]]
+
+Sensitive dataset sharing can use [[Synthetic Data]] as part of the privacy
+design. The generated data still has to mask confidential details while
+retaining the structure needed for analysis.
+[[cite:urban-data-science=>Urban Data]]
 
 Privacy-enhancing technologies still need governance around them. A
 federated-learning design still needs participant consent and update controls.

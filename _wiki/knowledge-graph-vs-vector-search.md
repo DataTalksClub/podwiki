@@ -31,10 +31,10 @@ Choose the retrieval substrate by deciding what the system represents and what
 it indexes. Then decide how it queries or validates results before search
 ranking or LLM prompt packaging takes over.
 
-Automotive R&D graph systems preserve relationships for simulation comparison,
-semantic reporting, and Cypher-driven retrieval. Vector systems retrieve
-semantically similar transcript chunks, products, images, or sessions for search
-and RAG.
+Automotive R&D graph systems preserve relationships for
+[[simulation-and-digital-twins=>simulation comparison]], semantic reporting, and
+Cypher-driven retrieval. Vector systems retrieve semantically similar transcript
+chunks, products, images, or sessions for search and RAG.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:building-production-search-systems=>Building Search Systems]]
@@ -71,6 +71,11 @@ R&D, graph structure supports semantic reporting and simulation comparison. It
 also preserves chapters, sections, engineering concepts, and relations that can
 be queried directly. Semantic relations and Cypher queries become retrieval
 inputs instead of staying as metadata around a text chunk.
+
+The same physical system boundary appears in
+[[simulation-and-digital-twins=>simulation and digital-twin]] records.
+Engineers use those records to compare vehicle structures, requirements,
+sensors, and outcomes.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Automotive Knowledge Graphs]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 

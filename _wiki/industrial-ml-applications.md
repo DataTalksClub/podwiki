@@ -43,8 +43,9 @@ Theme-park crowd routing depends on queue prediction and capacity modeling.
 Next-best-action recommendations depend on app adoption and live
 measurement[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
 Autonomous-driving work is the safety-critical version. Sensor data,
-simulation, closed-track tests, and labeling define production. Release staging
-belongs to that same boundary[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+[[simulation-and-digital-twins=>simulation]], closed-track tests, and labeling
+define production. Release staging belongs to that same
+boundary[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
 
 Andrey Shtylenko's industrial AI discussion adds the organization boundary.
 Traditional industrial companies may need sensorization and cloud processing

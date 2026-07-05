@@ -53,10 +53,14 @@ data quickly and make the recovery path obvious. Monitoring detects that
 something changed. Observability helps the team find the
 cause.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
-DataOps adds the delivery version of this reliability work. Teams use
-automation, observability, and productivity practices alongside CI/CD pipelines.
+DataOps adds the delivery version of this reliability work through automated
+checks and CI/CD. Teams also use observability and productivity practices.
 Regression tests and test data make data quality part of delivery, not a manual
 check after a dashboard or model fails.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+
+Teams may use generated rows or examples, and [[Synthetic Data]] adds a quality
+check. The generated data still has to preserve the process signal and
+the label or user variation that downstream systems rely on.[[cite:industrial-data-small-data-production-machine-learning=>Industrial Data]]
 
 ML systems add another layer. Production model maintenance connects to data
 drift and concept drift.

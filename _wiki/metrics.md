@@ -24,6 +24,11 @@ Experiment metrics have to match the rollout decision[[cite:ab-testing-and-produ
 Operational metrics connect KPIs, service levels, feedback, and feature
 drift[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
 
+When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they put the
+same pressure on metric ownership. AI answers and dashboard summaries need
+governed KPI definitions and visible trust states, not just fluent text
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+
 ## Metrics as Decision Rules
 
 A metric should connect a measurable signal to a decision. The same metric name

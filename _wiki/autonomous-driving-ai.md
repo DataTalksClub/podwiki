@@ -119,9 +119,13 @@ discipline.
 Teams validate autonomous-driving models in stages, so no model goes directly
 from training to public roads.
 
-Validation starts in simulation, where models are tested in virtual
-environments. It then moves to closed-track testing on private facilities and
-on-road testing with safety drivers before full deployment.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+Teams first test models in virtual environments, then move to closed-track
+testing on private facilities. On-road testing with safety drivers comes before
+full deployment.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+Autonomous-driving teams use simulation as a validation case for
+[[simulation-and-digital-twins=>simulation and digital-twin]] work. The
+simulated scenario has to stay tied to real sensor data, release checks, and
+staged deployment.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 Sensitive-case validation starts with past-event tests before broader real-world
 scenarios. Rollout is staged.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving]]

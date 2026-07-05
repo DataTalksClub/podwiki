@@ -28,6 +28,8 @@ Most examples sit close to [[LLMs]], chatbots,
 production AI systems. Use [[LLM Production Patterns]] when the question is
 how teams operate the model, context, evaluation, and guardrails around a
 generated output.
+When teams generate training, sharing, or augmentation datasets instead of
+answers shown to users, that data-generation work connects to [[Synthetic Data]].
 
 The model-level distinction matters because generative and non-generative models
 fit different tasks. Some products need a bounded decision rather than a new
@@ -116,9 +118,13 @@ and a person's existing work.[[cite:practical-llm-engineering-and-rag=>Practical
 
 Language support is another product category. Translation products connect
 generative AI to [[NLP]] and data quality through AI augmentation and prompt
-customization. Low-resource language work makes that connection especially visible
-when spelling, scripts, or domain language are
-inconsistent.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+customization. Low-resource language work makes that connection especially
+visible. Spelling and scripts can be inconsistent. Domain language can be
+inconsistent too.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+Teams also generate examples to cover scarce speech cases. Imaging and
+industrial cases use the same augmentation boundary rather than only generating
+text for a user-facing workflow.[[cite:human-centered-ai-automatic-speech-recognition=>Speech Recognition]]
+[[cite:industrial-data-small-data-production-machine-learning=>Industrial Data]]
 
 ## RAG and Grounding
 

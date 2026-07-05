@@ -97,7 +97,10 @@ Business skill also means matching the method to the decision. Even alongside
 production ML and marketing automation, data professionals still diagnose the
 business problem first. They use the smallest tool that answers it[[cite:data-professionals-business-skills-in-saas=>Business Skills in SaaS]].
 For some decisions, a conversation or pivot table may matter more than a model,
-and exploratory analysis or storytelling may matter more too.
+and exploratory analysis or storytelling may matter more too. Data professionals
+make the same choice in
+[[data-product-intake-and-prioritization=>data product intake]]: clarify the
+decision, then choose the lightest credible work[[cite:data-professionals-business-skills-in-saas=>Business Skills in SaaS]].
 
 A boundary for [[Data Teams]] names maintainability, documentation, and peer
 review as part of analytics craft[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Teams]].
