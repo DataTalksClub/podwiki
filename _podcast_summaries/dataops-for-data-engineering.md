@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-observability-and-the-
 - production
 - practices
 
+## Agent Summary
+
+- Why it matters: DataOps, Observability, and The Cure for Data Team Blues
+- Useful for: Future agents triaging DataOps, MLOps, data engineering, production and Guest Introduction: Christopher Bergh & DataKitchen; Career Journey: From Software Engineering to Data Entrepreneurship; Pre-cloud Data Engineering Challenges (SQL Server, scaling).
+- Probably skip if: you do not need material from Christopher Bergh or you are not working on DataOps, MLOps, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=0)

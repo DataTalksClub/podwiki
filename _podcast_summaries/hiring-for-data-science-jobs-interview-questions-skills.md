@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olg
 - hiring
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Hiring Data Science Talent
+- Useful for: Future agents triaging data science, career growth, hiring, MLOps and Episode Introduction; Career Beginnings: Applied mathematics, forecasting, and consulting; PhD Research: Air pollution modeling and conformal prediction.
+- Probably skip if: you do not need material from Olga Ivina or you are not working on data science, career growth, hiring.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=0)

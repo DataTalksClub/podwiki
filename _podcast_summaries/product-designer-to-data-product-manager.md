@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-product-manage
 - product design
 - product management
 
+## Agent Summary
+
+- Why it matters: Becoming a Data Product Manager
+- Useful for: Future agents triaging career transition, product design, product management and Career Path: From Technical Support to Product Design; Product Design: User Research, Prototyping & UX; Data Product Management: Customer Discovery & Hypothesis Formation.
+- Probably skip if: you do not need material from Sara Menefee or you are not working on career transition, product design, product management.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=nt__pVuuC-k&t=0)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/feature-stores-cutting-through
 - feature stores
 - tools
 
+## Agent Summary
+
+- Why it matters: Feature Stores in MLOps Explained
+- Useful for: Future agents triaging machine learning, MLOps, feature stores, tools and Episode Introduction: Feature Stores in MLOps; Background: From Mechatronic Engineering to ML Platform Builder; Feature Store Definition and Core ML Problems Addressed.
+- Probably skip if: you do not need material from Willem Pienaar or you are not working on machine learning, MLOps, feature stores.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Feature Stores in MLOps](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=0)

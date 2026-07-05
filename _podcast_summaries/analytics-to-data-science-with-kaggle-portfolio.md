@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/shifting-career-from-analytics
 - analytics
 - data science
 
+## Agent Summary
+
+- Why it matters: Shifting Career from Analytics to Data Science
+- Useful for: Future agents triaging career transition, analytics, data science and Episode Overview: Transitioning from Analytics to Data Science; Career Path: Statistics Degree → Avon Data Analyst → Master's → Data Scientist; Recommended Course: Python for Data Science & Machine Learning (Jose Portilla,.
+- Probably skip if: you do not need material from Andrada Olteanu or you are not working on career transition, analytics, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ixmTewD5Waw&t=0)

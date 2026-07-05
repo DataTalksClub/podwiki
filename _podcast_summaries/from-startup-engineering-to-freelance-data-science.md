@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-from-freelanci
 - remote work
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Lessons Learned from Freelancing and Working in a Start-up
+- Useful for: Future agents triaging freelance, startups, career growth, remote work and Early Education: applied mathematics, physics and nanotechnology; Professional Doctorate: industry projects and consultancy in the Netherlands; Nanometrisis Focus: nanoscale inspection for chips, razors and cosmetics.
+- Probably skip if: you do not need material from Antonis Stellas or you are not working on freelance, startups, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction: guest Antonis and episode themes](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=0)

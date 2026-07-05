@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/se4ml-software-engineering-for
 - machine learning
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Software Engineering for ML
+- Useful for: Future agents triaging software engineering, machine learning, MLOps and Guest Background: Nadia Nahar (PhD, software engineering); Academia-Industry Collaboration in Software Engineering; Defining Software Engineering for Machine Learning Systems.
+- Probably skip if: you do not need material from Nadia Nahar or you are not working on software engineering, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=35Ch8xL2SA8&t=0)

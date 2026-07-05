@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquad
 
 - career growth
 
+## Agent Summary
+
+- Why it matters: Career Coaching
+- Useful for: Future agents triaging career growth and Guest Introduction & Career Journey; Spiced Academy Programs Overview (Full-Stack & Data Science); Career Coaching Services: CVs, Interview Prep, Negotiation.
+- Probably skip if: you do not need material from Lindsay McQuade or you are not working on career growth.
+
 ## Chapter Headers
 
 - 1:08 - [Guest Introduction & Career Journey](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=68)

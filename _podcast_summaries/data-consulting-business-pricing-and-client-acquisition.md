@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-
 - career growth
 - startups
 
+## Agent Summary
+
+- Why it matters: Starting a Consultancy in the Data Space
+- Useful for: Future agents triaging consulting, entrepreneurship, freelance, data strategy and Career Journey & Archaeology Origin Story; Data Stack as a Service: Market and Technical Limits; Transition to Consulting: Early Projects and First Customer.
+- Probably skip if: you do not need material from Aleksander Kruszelnicki or you are not working on consulting, entrepreneurship, freelance.
+
 ## Chapter Headers
 
 - 1:10 - [Podcast Introduction](https://www.youtube.com/watch?v=rh_pE35m3vE&t=70)

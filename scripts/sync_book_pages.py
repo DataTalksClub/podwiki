@@ -8,6 +8,7 @@ following the same pattern as podcast summary pages.
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 from podcast_source_data import read_people, split_frontmatter
 
@@ -40,6 +41,12 @@ def slug_from_filename(path: Path) -> str:
     return path.stem
 
 
+def slugify_person(value: str) -> str:
+    value = value.strip().lower()
+    value = re.sub(r"[^a-z0-9]+", "", value)
+    return value
+
+
 def book_url(slug: str) -> str:
     return f"https://datatalks.club/books/{slug}.html"
 
@@ -49,6 +56,16 @@ def person_label(slug: str, people: dict[str, str]) -> str:
     if slug in people:
         return people[slug]
     return slug.replace("-", " ").replace("_", " ").title()
+
+
+def normalize_author_slug(value: str, people: dict[str, str]) -> str:
+    raw = value.strip()
+    if raw in people:
+        return raw
+    slug = slugify_person(raw)
+    if slug in people:
+        return slug
+    return slug or raw
 
 
 def link_items(meta: dict[str, object]) -> list[dict[str, str]]:
@@ -106,12 +123,16 @@ def render_page(
     title = str(meta.get("title") or slug.replace("-", " ").title())
     description = str(meta.get("description") or "")
     authors = meta.get("authors")
-    author_slugs: list[str] = []
+    raw_authors: list[str] = []
     if isinstance(authors, list):
-        author_slugs = [str(a).strip() for a in authors if str(a).strip()]
+        raw_authors = [str(a).strip() for a in authors if str(a).strip()]
     elif isinstance(authors, str):
-        author_slugs = [authors.strip()]
-    author_names = [person_label(a, people) for a in author_slugs]
+        raw_authors = [authors.strip()]
+    author_slugs = [normalize_author_slug(author, people) for author in raw_authors]
+    author_names = [
+        person_label(slug, people) if slug in people else raw
+        for slug, raw in zip(author_slugs, raw_authors, strict=False)
+    ]
 
     source_url = book_url(slug)
     book_links = link_items(meta)
@@ -159,11 +180,13 @@ def render_page(
         lines.append("## Author")
         lines.append("")
         author_links = []
-        for aslug in author_slugs:
-            label = person_label(aslug, people)
-            author_links.append(
-                f"[{label}](https://datatalks.club/people/{aslug}.html)"
-            )
+        for aslug, label in zip(author_slugs, author_names, strict=False):
+            if aslug in people:
+                author_links.append(
+                    f"[{label}](https://datatalks.club/people/{aslug}.html)"
+                )
+            else:
+                author_links.append(label)
         lines.append(", ".join(author_links) + ".")
         lines.append("")
 

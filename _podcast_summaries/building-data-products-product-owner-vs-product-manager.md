@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-owners-in-data-science
 - machine learning
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Product Owners in Data Science
+- Useful for: Future agents triaging data products, product owners, product managers, data science and Episode Introduction; Guest & METRO overview and customer data completeness; Anna's academic and career background (PhD, web science, logistics).
+- Probably skip if: you do not need material from Anna Hannemann or you are not working on data products, product owners, product managers.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=rTRTjB6cGng&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/business-skills-for-data-profe
 - tools
 - career transition
 
+## Agent Summary
+
+- Why it matters: Practical Skills for Data Professionals in SaaS
+- Useful for: Future agents triaging data science, MLOps, communication, tools and Guest Background: From Physics to Data Science; Early Data Role: Research Skills Applied in a Startup; Production Challenges: Deploying Models in a SaaS.
+- Probably skip if: you do not need material from Loris Marini or you are not working on data science, MLOps, communication.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xMYRUiTu960&t=0)

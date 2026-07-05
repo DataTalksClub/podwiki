@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-h
 - tools
 - data governance
 
+## Agent Summary
+
+- Why it matters: MLOps as a Team
+- Useful for: Future agents triaging MLOps, data science, machine learning, tools and Guest Overview: Raphaël Hoogvliets and Eneco role; Career Path: From agriculture to data science and MLOps; Agriculture technology, scale, and sustainability trade-offs.
+- Probably skip if: you do not need material from Raphaël Hoogvliets or you are not working on MLOps, data science, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://youtube.com/watch?v=rMq63r3zi4c&t=0)

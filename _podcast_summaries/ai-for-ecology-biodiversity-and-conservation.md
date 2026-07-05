@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-an
 - MLOps
 - data engineering
 
+## Agent Summary
+
+- Why it matters: AI for Ecology, Biodiversity, and Conservation
+- Useful for: Future agents triaging AI, computer vision, remote sensing, MLOps and Episode Overview: AI for Ecology, Biodiversity, and Conservation; Guest Introduction: Tanya Berger-Wolf - Computational Ecology & Wildbook; Framing the Crisis: Biodiversity Loss and Data Gaps.
+- Probably skip if: you do not need material from Tanya Berger-Wolf or you are not working on AI, computer vision, remote sensing.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=30tTrozbAkg&t=0)

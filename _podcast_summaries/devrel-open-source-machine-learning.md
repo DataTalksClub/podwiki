@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-
 - machine learning
 - open-source
 
+## Agent Summary
+
+- Why it matters: DevRel Role for Machine Learning
+- Useful for: Future agents triaging developer relations, machine learning, open-source and Guest Introduction: Hugo Bowne-Anderson, Outerbounds & Metaflow; Metaflow Sandbox Demo & Full-Stack Machine Learning Spotlight; Career Path: From Biophysics Research to Data Science Education.
+- Probably skip if: you do not need material from Hugo Bowne-Anderson or you are not working on developer relations, machine learning, open-source.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=0)

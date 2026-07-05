@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id
 - data engineering
 - MLOps
 
+## Agent Summary
+
+- Why it matters: DataOps 101
+- Useful for: Future agents triaging DataOps, data engineering, MLOps and Episode Opening & Guest Introduction; Career Journey: Google, Spotify, Consulting and Scling; Scaling Data Teams: Building Self-Service at Spotify.
+- Probably skip if: you do not need material from Lars Albertsson or you are not working on DataOps, data engineering, MLOps.
+
 ## Chapter Headers
 
 - 2:39 - [Episode Opening & Guest Introduction](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=159)

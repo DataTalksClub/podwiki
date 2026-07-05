@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-data-engi
 - MLOps
 - tools
 
+## Agent Summary
+
+- Why it matters: From Data Science to Data Engineering
+- Useful for: Future agents triaging data science, data engineering, career transition, MLOps and Episode Introduction & Guest Overview; Career Narrative: From Backend Developer to Data Engineering Lead; Motivation to Switch: Blackbox Models, Code Quality, and Professional Fit.
+- Probably skip if: you do not need material from Ellen König or you are not working on data science, data engineering, career transition.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=0)

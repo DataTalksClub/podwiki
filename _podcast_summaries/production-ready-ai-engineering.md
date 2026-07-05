@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-miku
 - MLOps
 - tools
 
+## Agent Summary
+
+- Why it matters: Data Intensive AI
+- Useful for: Future agents triaging data engineering, AI, LLMs, MLOps and Episode Opening & Guest Overview (Data Intensive AI); Book Contribution Clarified & Testing Focus; Career Path: Java → Data Engineering → AI Engineering.
+- Probably skip if: you do not need material from Bartosz Mikulski or you are not working on data engineering, AI, LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Overview (Data Intensive AI)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=0)

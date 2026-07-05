@@ -29,6 +29,12 @@ youtube_url: "https://www.youtube.com/watch?v=SesVTDklFYQ"
 - machine learning
 - project management
 
+## Agent Summary
+
+- Why it matters: Processes in a Data Science Project
+- Useful for: Future agents triaging data science, machine learning, project management and I will start with an introduction. Thank you much for coming to this; Thanks again for joining. Today we will talk about processes in a machine; Back then data science was called data mining and things were different, but.
+- Probably skip if: you do not need material from Alexey Grigorev or you are not working on data science, machine learning, project management.
+
 ## Chapter Headers
 
 - 0:00 - [Event intro and format](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)

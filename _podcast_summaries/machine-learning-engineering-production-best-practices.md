@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wi
 - career growth
 - production
 
+## Agent Summary
+
+- Why it matters: Running from Complexity
+- Useful for: Future agents triaging machine learning, career growth, production and Guest Introduction: Ben Wilson, Databricks and ML engineering focus; Career Path: Navy nuclear tech to process engineering and data science; Consulting Approach: Prioritizing maintainability over novelty.
+- Probably skip if: you do not need material from Ben Wilson or you are not working on machine learning, career growth, production.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction: Running from Complexity](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=0)

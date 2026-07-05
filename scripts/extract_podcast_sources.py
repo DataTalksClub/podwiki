@@ -164,8 +164,12 @@ def searchable_episode_text(episode: dict[str, object]) -> str:
         for chapter in chapters:
             if not isinstance(chapter, dict):
                 continue
+            if chapter.get("fallback"):
+                continue
             title = str(chapter.get("title") or "")
             if title.lower().startswith("transcript checkpoint"):
+                title = title.split(":", 1)[-1]
+            if title.lower().startswith("transcript excerpt"):
                 title = title.split(":", 1)[-1]
             parts.append(title)
     return normalize_topic(" ".join(parts))
@@ -185,8 +189,10 @@ def candidate_topics(episode: dict[str, object]) -> list[str]:
     for chapter in episode.get("chapters", []):
         if not isinstance(chapter, dict):
             continue
+        if chapter.get("fallback"):
+            continue
         title = str(chapter.get("title") or "").lower()
-        if title.startswith("transcript checkpoint"):
+        if title.startswith(("transcript checkpoint", "transcript excerpt")):
             continue
         title = re.sub(r"[^a-z0-9+.#/ -]+", " ", title)
         tokens = [token for token in re.split(r"\s+", title) if token and token not in STOPWORDS]

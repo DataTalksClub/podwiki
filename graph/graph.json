@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12308
+    "links": 12310
   },
   "nodes": [
     {
@@ -10787,6 +10787,12 @@
     },
     {
       "source": "book:20210208-ml-design-patterns",
+      "target": "person:sararobinson",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210208-ml-design-patterns",
       "target": "wiki:machine-learning",
       "kind": "book-topic",
       "weight": 2
@@ -10890,6 +10896,18 @@
     {
       "source": "book:20210503-machine-learning-using-tensorflow-cookbook",
       "target": "person:alexiaaudevart",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210503-machine-learning-using-tensorflow-cookbook",
+      "target": "person:konradbanachewicz",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210503-machine-learning-using-tensorflow-cookbook",
+      "target": "person:lucamassaron",
       "kind": "book-link",
       "weight": 1
     },
@@ -20150,12 +20168,6 @@
       "target": "person:xiahebleinagel",
       "kind": "podcast-person",
       "weight": 4
-    },
-    {
-      "source": "podcast:s22e07-reinventing-career-in-tech",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "podcast-topic",
-      "weight": 2
     },
     {
       "source": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",

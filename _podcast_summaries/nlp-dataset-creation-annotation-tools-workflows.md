@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataset-creation-and-curation-
 - NLP
 - data
 
+## Agent Summary
+
+- Why it matters: Dataset Creation and Curation
+- Useful for: Future agents triaging NLP, data and Episode Overview: Dataset creation, curation, and annotation; Guest Background & Career in NLP and bio-NLP; Comtura Origin: Sales call transcription and CRM integration.
+- Probably skip if: you do not need material from Christiaan Swart or you are not working on NLP, data.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=QggWydGrWoo&t=0)

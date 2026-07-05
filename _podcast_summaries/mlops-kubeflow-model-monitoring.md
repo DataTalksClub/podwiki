@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-rise-of-mlops-theofilos-pa
 - production
 - tools
 
+## Agent Summary
+
+- Why it matters: The Rise of MLOps
+- Useful for: Future agents triaging MLOps, machine learning, production, tools and Episode Kickoff & Guest Overview; Guest Background: From Unix Engineer to ML Engineering; Defining MLOps: Culture, Process, and Technology.
+- Probably skip if: you do not need material from Theofilos Papapanagiotou or you are not working on MLOps, machine learning, production.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=0)

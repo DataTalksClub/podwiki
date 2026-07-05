@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-buil
 - LLMs
 - data science
 
+## Agent Summary
+
+- Why it matters: From Theme Parks to Tesla: Building Data Products That Work
+- Useful for: Future agents triaging machine learning, MLOps, data engineering, LLMs and Early Career: Software Engineering to Data Science; Academic Path: Professional Doctorate & TU Berlin; Research Partnerships: Industry Projects and Applied Research.
+- Probably skip if: you do not need material from Abouzarabbaspour or you are not working on machine learning, MLOps, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Event Info](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-and-leading-data-team
 - data analytics
 - leadership
 
+## Agent Summary
+
+- Why it matters: Building and Leading Data Teams
+- Useful for: Future agents triaging team building, data teams, data engineering, data analytics and Guest Background: Tammy Liang's career path into data; Chief of Data Responsibilities: Marketing, e-commerce, and operations; Data Challenges for Sensitive Products: Social media restrictions & creative.
+- Probably skip if: you do not need material from Tammy Liang or you are not working on team building, data teams, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/
 - production
 - retrieval-augmented generation
 
+## Agent Summary
+
+- Why it matters: LLMs for Everyone
+- Useful for: Future agents triaging LLMs, MLOps, open-source, production and Episode Introduction: LLMs for Everyone; Guest Introduction: Meryem Arik and TitanML; Career Journey: Theoretical Physics → Banking → Tech.
+- Probably skip if: you do not need material from Meryem Arik or you are not working on LLMs, MLOps, open-source.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: LLMs for Everyone](https://www.youtube.com/watch?v=6dn6uZFkk04&t=0)

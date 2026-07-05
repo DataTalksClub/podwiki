@@ -20,14 +20,20 @@ layout: default
   {% assign content_label = "Guide" %}
   {% if content_kind == "comparison" %}
     {% assign content_label = "Comparison" %}
+    {% assign content_url = "/special-pages/comparisons/" %}
   {% elsif content_kind == "roadmap" %}
     {% assign content_label = "Roadmap" %}
+    {% assign content_url = "/special-pages/roadmaps/" %}
   {% elsif content_kind == "transition" %}
     {% assign content_label = "Career Transition" %}
+    {% assign content_url = "/special-pages/transitions/" %}
   {% elsif content_kind == "how-to" %}
     {% assign content_label = "How-To" %}
+    {% assign content_url = "/special-pages/how-tos/" %}
+  {% else %}
+    {% assign content_url = "/special-pages/guides/" %}
   {% endif %}
-  <p class="eyebrow">{{ content_label }}</p>
+  <p class="eyebrow"><a href="{{ content_url | relative_url }}">{{ content_label }}</a></p>
   <h1>{{ page.title }}</h1>
   {% if page.summary %}
     <p class="lede">{{ page.summary }}</p>

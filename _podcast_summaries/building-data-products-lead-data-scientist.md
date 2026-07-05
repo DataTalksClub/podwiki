@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/collaborative-data-science-in-
 - tools
 - product management
 
+## Agent Summary
+
+- Why it matters: Collaborative Data Science in Business
+- Useful for: Future agents triaging MLOps, machine learning, data science, tools and Episode introduction & guest Ioannis Mesionis (EasyJet lead data scientist); Career origin & early projects (mathematics degree, master's, internship model); Lead Data Scientist role: partnering with Digital Customer & Marketing.
+- Probably skip if: you do not need material from Ioannis Mesionis or you are not working on MLOps, machine learning, data science.
+
 ## Chapter Headers
 
 - 1:40 - [Episode introduction & guest Ioannis Mesionis (EasyJet lead data scientist)](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=100)

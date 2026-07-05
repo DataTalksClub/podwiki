@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-engineering-i
 - production
 - career transition
 
+## Agent Summary
+
+- Why it matters: Machine Learning Engineering in Finance
+- Useful for: Future agents triaging MLOps, machine learning, data engineering, production and Episode Introduction; Guest Introduction: Nemanja's journey from Belgrade to ML Ops in Europe; Guest Background: Electrical engineering, PhD experience, and early career.
+- Probably skip if: you do not need material from Nemanja Radojkovic or you are not working on MLOps, machine learning, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=0)

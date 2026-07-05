@@ -31,6 +31,12 @@ youtube_url: "https://www.youtube.com/watch?v=LQvwTNQbPg4"
 - leadership
 - data engineering
 
+## Agent Summary
+
+- Why it matters: Mentoring
+- Useful for: Future agents triaging mentoring, career development, career transition, leadership and Episode Introduction; Career Journey: From Mining Engineering to Data Engineering & Leadership; Defining Mentoring: Purpose, Scope, and Types.
+- Probably skip if: you do not need material from Rahul Jain or you are not working on mentoring, career development, career transition.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/innovation-and-design-for-mach
 - ai
 - practices
 
+## Agent Summary
+
+- Why it matters: Innovation and Design for Machine Learning
+- Useful for: Future agents triaging machine learning, design thinking, strategy, ai and Episode Introduction & Guest Overview; Guest Background: Strategy, Product and AI Trajectory; Interdisciplinary Perspective: Physics Meets Humanities.
+- Probably skip if: you do not need material from Liesbeth Dingemans or you are not working on machine learning, design thinking, strategy.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=tcqBfZw41FM&t=0)

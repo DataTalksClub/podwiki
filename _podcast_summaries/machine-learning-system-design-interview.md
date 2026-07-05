@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-system-design
 - machine learning
 - career growth
 
+## Agent Summary
+
+- Why it matters: Machine Learning System Design Interview
+- Useful for: Future agents triaging machine learning, career growth and Valerii Background: Career Snapshot and Kaggle Achievements; Blockchain.com Role: Scope, Responsibilities, and Data Ownership; Transition to Meta: User Privacy Work and Large-Scale ML Experience.
+- Probably skip if: you do not need material from Valerii Babushkin or you are not working on machine learning, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=0RsmRjar66E&t=0)

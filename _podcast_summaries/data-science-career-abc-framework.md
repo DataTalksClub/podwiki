@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny
 - machine learning
 - data analysis
 
+## Agent Summary
+
+- Why it matters: The ABC's of Data Science
+- Useful for: Future agents triaging career transition, data science, machine learning, data analysis and LinkedIn Memes & Creative Editing for Data Audiences; Career Journey: Analytics to Data Science; Transition to Python, Kaggle & Self-Directed Learning.
+- Probably skip if: you do not need material from Danny Ma or you are not working on career transition, data science, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=0)

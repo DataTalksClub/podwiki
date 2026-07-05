@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 - career growth
 - entrepreneurship
 
+## Agent Summary
+
+- Why it matters: From Open-Source Maintainer to Founder
+- Useful for: Future agents triaging open-source, startups, career growth, entrepreneurship and Guest Introduction: Will McGugan, Python Open Source Maintainer; Career Path: From Video Games to Textualize Founder; Early Open Source Tools: BBCode Parser & Chess Libraries.
+- Probably skip if: you do not need material from Will McGugan or you are not working on open-source, startups, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=0)

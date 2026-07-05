@@ -38,6 +38,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-nlp-teams-ivan-bilan/i
 - career growth
 - production
 
+## Agent Summary
+
+- Why it matters: Leading NLP Teams
+- Useful for: Future agents triaging NLP, machine learning, MLOps, data teams and Episode Overview: Leading NLP Teams & Ivan''s Current Role; Personio Role: Identity and Access Management Responsibilities; Career Origins: From Linguistics to Computational NLP.
+- Probably skip if: you do not need material from Ivan Bilan or you are not working on NLP, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=0)

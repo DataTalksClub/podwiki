@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai
 - MLOps
 - software engineering
 
+## Agent Summary
+
+- Why it matters: Lessons from Two Decades of AI
+- Useful for: Future agents triaging LLMs, AI, machine learning, MLOps and Career Snapshot: Two Decades from Game AI to AI Agents; Early Research: Games for Cognitive Testing & Neural Networks; Industry Experience: Consulting, Product Development, Leadership.
+- Probably skip if: you do not need material from Micheal Lanham or you are not working on LLMs, AI, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DSxqUlumM3A&t=0)

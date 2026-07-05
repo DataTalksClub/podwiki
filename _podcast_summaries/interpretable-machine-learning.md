@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/cracking-the-code-machine-lear
 - career transition
 - interpretability
 
+## Agent Summary
+
+- Why it matters: Connects machine learning, data science, practices to a DataTalks.Club podcast discussion.
+- Useful for: Future agents triaging machine learning, data science, practices, tools and Guest Intro: Christoph Molnar, Interpretable ML Author; Career Journey: From Statistics to Tech Writing; Becoming a Full-Time Technical Writer.
+- Probably skip if: you do not need material from Christoph Molnar or you are not working on machine learning, data science, practices.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=0)

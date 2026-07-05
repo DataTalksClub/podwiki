@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/pragmatic-and-standardized-mlo
 
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Pragmatic and Standardized MLOps
+- Useful for: Future agents triaging MLOps and Episode Overview: Pragmatic and Standardized MLOps with Maria Vechtomova; Background: Early career in data, econometrics, R to Python, and early MLOps; Early MLOps stacks: Teradata Aster, custom metadata, and orchestration.
+- Probably skip if: you do not need material from Maria Vechtomova or you are not working on MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=0)

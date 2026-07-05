@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/essentials-public-speaking-for
 - public speaking
 - career growth
 
+## Agent Summary
+
+- Why it matters: The Essentials of Public Speaking for Career in Data Science
+- Useful for: Future agents triaging developer relations, public speaking, career growth and Guest Overview: Ben Taylor, AI Evangelist at DataRobot; Mindset for Improvement: Practice and Public Speaking Growth; Career Path: Engineering, Quant, HireVue, Startup, Acquisition.
+- Probably skip if: you do not need material from Ben Taylor or you are not working on developer relations, public speaking, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=0)

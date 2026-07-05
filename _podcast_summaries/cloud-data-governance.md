@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-
 - data compliance
 - cloud
 
+## Agent Summary
+
+- Why it matters: Data Governance
+- Useful for: Future agents triaging data governance, data compliance, cloud and Guest Background - Jessi: UX Researcher & Data Governance at Google Cloud; Guest Background - Uri: Product Management & Data Governance Experience; Defining Data Governance: Beyond Security and PII.
+- Probably skip if: you do not need material from Jessi Ashdown, Uri Gilad or you are not working on data governance, data compliance, cloud.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=0)

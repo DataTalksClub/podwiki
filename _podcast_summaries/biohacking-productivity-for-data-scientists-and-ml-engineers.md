@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/biohacking-for-data-scientists
 - biohacking
 - productivity
 
+## Agent Summary
+
+- Why it matters: Biohacking for Data Scientists and ML Engineers
+- Useful for: Future agents triaging biohacking, productivity and Episode Overview & Guest Introduction; Career Journey: From Business/Marketing to Data Science; Procrastination & Perfectionism: Acceptance and Deadline Effects.
+- Probably skip if: you do not need material from Ruslan Shchuchkin or you are not working on biohacking, productivity.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uyxUBADZYpU&t=0)

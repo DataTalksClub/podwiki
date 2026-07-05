@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-for-machine
 - leadership
 - career growth
 
+## Agent Summary
+
+- Why it matters: Product Management for Machine Learning
+- Useful for: Future agents triaging product management, machine learning, MLOps, leadership and Episode Introduction: Product Management for Machine Learning; Guest Overview: Geo and episode focus on AI Product Manager role; Career Journey: From web/dev to data science to product management.
+- Probably skip if: you do not need material from Geo Jolly or you are not working on product management, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Product Management for Machine Learning](https://www.youtube.com/watch?v=PjqjPvHliqg&t=0)

@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-a
 - production
 - career transition
 
+## Agent Summary
+
+- Why it matters: From a Research Scientist at Amazon to a Machine Learning/AI Consultant
+- Useful for: Future agents triaging AI, LLMs, NLP, freelance and Episode Introduction; Early Education: From Economics & Chinese to Statistics; Discovering Data Science During Master's Studies.
+- Probably skip if: you do not need material from Verena Weber or you are not working on AI, LLMs, NLP.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=4RargY8iOaE&t=0)

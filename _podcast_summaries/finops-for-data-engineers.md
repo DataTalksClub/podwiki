@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-supply-chain-management-t
 - tools
 - career growth
 
+## Agent Summary
+
+- Why it matters: From Supply Chain Management to Digital Warehousing and FinOps
+- Useful for: Future agents triaging data engineering, finops, modern data stack, tools and Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis; Career Origins: Industrial Engineering, Supply Chain & Excel Macros; Career Pivot: From Business Analyst to Data Engineering.
+- Probably skip if: you do not need material from Eddy Zulkifly or you are not working on data engineering, finops, modern data stack.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=0)

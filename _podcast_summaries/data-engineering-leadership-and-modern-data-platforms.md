@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-ma
 - career growth
 - career switch
 
+## Agent Summary
+
+- Why it matters: Becoming a Data Engineering Manager
+- Useful for: Future agents triaging data engineering, career growth, career switch and Rahul''s Career Path: From ETL Developer to IoT Data Platform Lead; ETL Foundations to Big Data and Open Source Tooling; Data Engineering Leadership: Stakeholder Management & Prioritization.
+- Probably skip if: you do not need material from Rahul Jain or you are not working on data engineering, career growth, career switch.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=FljnbUQ796w&t=0)

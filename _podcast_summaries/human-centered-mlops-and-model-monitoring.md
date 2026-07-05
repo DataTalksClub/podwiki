@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/humans-in-the-loop-lina-weichb
 - tools
 - communication
 
+## Agent Summary
+
+- Why it matters: Humans in the Loop
+- Useful for: Future agents triaging MLOps, machine learning, production, tools and Episode Introduction: Humans in the Loop - MLOps & human-centered ML; Guest Career Path: Lina Weichbrodt - business to ML engineering; Project Intake Checklist: business case, KPIs, and alternative solutions.
+- Probably skip if: you do not need material from Lina Weichbrodt or you are not working on MLOps, machine learning, production.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Humans in the Loop - MLOps & human-centered ML](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=0)

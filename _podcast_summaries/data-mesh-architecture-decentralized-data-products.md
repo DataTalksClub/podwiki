@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-mesh-101-zhamak-dehghani/
 - data mesh
 - data engineering
 
+## Agent Summary
+
+- Why it matters: Data Mesh 101
+- Useful for: Future agents triaging data mesh, data engineering and Guest background & career path; From firmware to distributed systems: career highlights; Consulting practice: building data platforms and products.
+- Probably skip if: you do not need material from Zhamak Dehghani or you are not working on data mesh, data engineering.
+
 ## Chapter Headers
 
 - 2:24 - [Podcast Introduction](https://www.youtube.com/watch?v=346N_pCtYZU&t=144)

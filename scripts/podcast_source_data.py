@@ -202,14 +202,14 @@ def transcript_fallback_chapters(
         if not excerpt:
             continue
         start = clean_value(item.get("sec"))
-        title = f"Transcript checkpoint {index}: {excerpt}"
         chapters.append(
             {
-                "title": title,
+                "title": excerpt,
                 "start": start,
                 "end": "",
                 "time": clean_value(item.get("time")) or seconds_to_stamp(start),
                 "url": timestamp_url(youtube_url, start),
+                "fallback": "transcript",
             }
         )
     return chapters

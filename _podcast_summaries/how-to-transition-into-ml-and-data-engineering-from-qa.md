@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-testing-phones-to-managin
 - career transition
 - job search
 
+## Agent Summary
+
+- Why it matters: From Testing Phones to Managing NLP Projects
+- Useful for: Future agents triaging QA, machine learning, data engineering, career transition and Early Life & Informatics Engineering; phone industry beginnings; Phone prototyping and field testing: QA checklists, CTS & RF testing; Career pivot: quitting QA, gap year, and discovering machine learning.
+- Probably skip if: you do not need material from Alvaro Navas Peire or you are not working on QA, machine learning, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-xumbiXOlA8&t=0)

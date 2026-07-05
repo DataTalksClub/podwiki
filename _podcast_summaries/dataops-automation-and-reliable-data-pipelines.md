@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/storytime-for-dataops-christop
 - dataops
 - practices
 
+## Agent Summary
+
+- Why it matters: Storytime for DataOps
+- Useful for: Future agents triaging dataops, practices and Opening banter: "Father of DataOps" anecdote; Chris Bergh background and career pivot to data leadership; Transition: from software engineer to managing data teams; factory metaphor.
+- Probably skip if: you do not need material from Christopher Bergh or you are not working on dataops, practices.
+
 ## Chapter Headers
 
 - 0:01 - [Opening banter: "Father of DataOps" anecdote](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=1)

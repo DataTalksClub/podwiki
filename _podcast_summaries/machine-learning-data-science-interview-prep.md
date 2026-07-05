@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-i
 - hiring
 - data science
 
+## Agent Summary
+
+- Why it matters: Master Machine Learning & Data Science Interviews
+- Useful for: Future agents triaging job search, career growth, hiring, data science and Episode Introduction; Guest Introduction: Luke Whipps & Neural AI; Recruitment Career Overview: ML focus, startups, Germany.
+- Probably skip if: you do not need material from Luke Whipps or you are not working on job search, career growth, hiring.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=NnZjlMowkWA&t=0)

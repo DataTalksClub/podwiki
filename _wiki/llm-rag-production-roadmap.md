@@ -25,14 +25,14 @@ not with model selection. The model matters, but the team first learns how to
 define a task and measure behavior. Retrieval comes only when the task needs it,
 followed by controlled rollout.
 
-Use this roadmap for sequence by starting with a small assistant. Add RAG when
-the task needs changing or inspectable knowledge, test retrieval before
-generation, and add agents only when the workflow needs actions. Treat serving,
-cost, security, and monitoring as readiness gates before broader rollout. For
-interview preparation, the same sequence becomes a
+Start the sequence with a small assistant. Add RAG when the task needs changing
+or inspectable knowledge, test retrieval before generation, and add agents only
+when the workflow needs actions. Treat serving, cost, security, and monitoring
+as readiness gates before broader rollout. For interview preparation, the same
+sequence becomes a
 [[llm-system-design-interview=>LLM system design interview]] answer structure.
 
-Use the related pages for the details behind each step:
+The details behind each step live in the adjacent production pages:
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] defines the concept.
 - [[RAG Portfolio Projects]] frames project types.
@@ -170,7 +170,7 @@ controls, plus evaluation and operations. These same readiness gates belong in a
 candidate has to connect retrieval and generation with tools, safety, and
 operations.
 
-## Related Production Paths
+## Related Pages
 
 Adjacent production-system topics:
 

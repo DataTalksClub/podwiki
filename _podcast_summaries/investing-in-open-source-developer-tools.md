@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/investing-in-open-source-data-
 - fundraising
 - early-stage startups
 
+## Agent Summary
+
+- Why it matters: Investing in Open-Source Data Tools
+- Useful for: Future agents triaging open source, tools, investing, fundraising and Episode Start & Welcome; Guest Overview: Bela's Role at a Family Office; Career Path: From Business Studies to Open Source Investing.
+- Probably skip if: you do not need material from Bela Wiertz or you are not working on open source, tools, investing.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Start & Welcome](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=0)

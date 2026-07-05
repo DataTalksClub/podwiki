@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-business-acumen-for-d
 - ai
 - data engineering
 
+## Agent Summary
+
+- Why it matters: Building Business Acumen for Data Professionals
+- Useful for: Future agents triaging data science, machine learning, ai, data engineering and Episode Introduction & Guest Thom Ives; Concept-focused learning vs. detail specialization; Career journey: naval nuclear program, grad school, early AI.
+- Probably skip if: you do not need material from Thom Ives or you are not working on data science, machine learning, ai.
+
 ## Chapter Headers
 
 - 1:15 - [Episode Introduction & Guest Thom Ives](https://www.youtube.com/watch?v=pImYf9ML95Q&t=75)

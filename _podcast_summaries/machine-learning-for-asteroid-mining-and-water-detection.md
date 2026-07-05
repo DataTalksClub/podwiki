@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 - machine learning
 - astronomy
 
+## Agent Summary
+
+- Why it matters: Using Data for Asteroid Mining
+- Useful for: Future agents triaging machine learning, astronomy and Career & Data Science Pivot: From Astronomy to Asteroid Mining; Cosmology vs. Astronomy: Timescales, Theory & Observation; Machine Learning in Astronomy: Tasks, Signal Processing & Scaling.
+- Probably skip if: you do not need material from Daynan Crull or you are not working on machine learning, astronomy.
+
 ## Chapter Headers
 
 - 1:23 - [Podcast Introduction](https://www.youtube.com/watch?v=YxijEUoDCfw&t=83)

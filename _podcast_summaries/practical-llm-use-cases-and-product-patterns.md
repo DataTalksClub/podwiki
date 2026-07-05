@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-good-the-bad-and-the-ugly-
 
 - LLMs
 
+## Agent Summary
+
+- Why it matters: The Good, the Bad and the Ugly of GPT
+- Useful for: Future agents triaging LLMs and Guest Introduction: Sandra Kublik, AI entrepreneur and GPT-3 author; LLM Landscape: Why GPT and large language models are everywhere; Career Journey: Nextgrid, Lablab.AI and YouTube entry into AI.
+- Probably skip if: you do not need material from Sandra Kublik or you are not working on LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bM6AR4A-f98&t=0)

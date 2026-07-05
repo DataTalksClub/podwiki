@@ -43,11 +43,9 @@ cloud services when serving needs them
 Keep the software engineering strengths, then add the ML habits that change
 system design.
 
-When you practice machine learning in software engineering, you move from
-deterministic services to data-shaped behavior. The same path also covers
-machine learning in software development. In later projects, you connect model
-work to APIs and batch jobs. You also add data pipelines, monitoring, and
-product tradeoffs.
+When you add ML to software systems, you move from deterministic services to
+data-shaped behavior. Later projects connect model work to APIs and batch jobs.
+They also add data pipelines, monitoring, and product tradeoffs.
 
 Use [[Software Engineer to Machine Learning]]
 for the transition path. For role expectations, use
@@ -76,8 +74,8 @@ ordinary software discipline has to adapt to ML systems
 [[cite:software-engineering-for-machine-learning@07:42=>Software Engineering for Machine Learning]]
 [[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]].
 
-In ML software development, familiar engineering habits become data-aware
-habits. Code quality still matters, and the code now has to make data
+In production ML, familiar engineering habits become data-aware habits. Code
+quality still matters, and the code now has to make data
 transformations reviewable. API or service boundaries need explicit contracts,
 while tests cover feature logic and inference behavior.
 
@@ -528,6 +526,8 @@ MLOps starts from reproducible operations before shared platform tooling grows
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps]].
 
 ## Related Topics
+
+Adjacent transition, role, project, and production topics:
 
 - [[Software Engineer to Machine Learning]]
 - [[Machine Learning vs Software Engineering]]

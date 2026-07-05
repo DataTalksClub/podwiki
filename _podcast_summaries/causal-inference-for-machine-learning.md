@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/democratizing-causality-aleksa
 - LLMs
 - machine learning
 
+## Agent Summary
+
+- Why it matters: Democratizing Causality
+- Useful for: Future agents triaging causal inference, LLMs, machine learning and Episode Introduction; Guest Intro: Aleksander Molak & book overview; Career highlights and dyslexia prediction project.
+- Probably skip if: you do not need material from Aleksander Molak or you are not working on causal inference, LLMs, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=0)

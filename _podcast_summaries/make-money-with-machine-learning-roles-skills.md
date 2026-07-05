@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/new-roles-key-skills-to-moneti
 - product management
 - strategy
 
+## Agent Summary
+
+- Why it matters: New Roles and Key Skills to Monetize Machine Learning
+- Useful for: Future agents triaging machine learning, monetization, product management, strategy and Career & technical background: Vin Vashishta''s journey in ML and strategy; Monetize machine learning: why revenue focus drives ML strategy; ARR & MRR: translating models into C-suite revenue metrics.
+- Probably skip if: you do not need material from Vin Vashishta or you are not working on machine learning, monetization, product management.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xCjzA_8S4kI&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-about-data-ai-
 - data engineering
 - open-source
 
+## Agent Summary
+
+- Why it matters: Lessons Learned About Data & AI at Enterprises
+- Useful for: Future agents triaging MLOps, AI, machine learning, data engineering and Guest Overview: Alexander Hendorf - Königsweg partner & PyData chair; Career Path: from law and DJing to programming and machine learning; Partner Role: team leadership, strategy, and client selection.
+- Probably skip if: you do not need material from Alexander Hendorf or you are not working on MLOps, AI, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Vms29u9xC3k&t=0)

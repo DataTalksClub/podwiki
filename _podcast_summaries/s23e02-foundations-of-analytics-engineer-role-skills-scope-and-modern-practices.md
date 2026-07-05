@@ -36,9 +36,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/foundations-of-analytics-engin
 
 ## Agent Summary
 
-- Why it matters: Juan defines analytics engineering beyond a bridge role: modeling business reality into reliable warehouse tables with software engineering rigor, testing, CI/CD, and stakeholder mediation.
-- Useful for: Future agents researching analytics engineer scope, data modeling, dbt and SQLmesh context, SQL/Python skills, data warehouse or lakehouse choices, or the role split with data engineering.
-- Probably skip if: You need ML/AI topics or hands-on dbt code. This is a role and practice conversation rather than a tutorial or implementation walkthrough.
+- Why it matters: Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices
+- Useful for: Future agents triaging data engineering, analytics engineering, software engineering, search and Juan's psychological research and transition to data; Riding the wave: The early days of analytics engineering; Breaking down the gap between analysts and engineers.
+- Probably skip if: you do not need material from Juan Manuel Perafan or you are not working on data engineering, analytics engineering, software engineering.
 
 ## Chapter Headers
 

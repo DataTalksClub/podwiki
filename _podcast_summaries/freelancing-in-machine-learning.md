@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-in-machine-learnin
 - entrepreneurship
 - strategy
 
+## Agent Summary
+
+- Why it matters: Freelancing in Machine Learning
+- Useful for: Future agents triaging freelance, consulting, machine learning, career growth and Episode Introduction & Topic Overview (Freelancing in Machine Learning); Guest Background - Academic Research to Industry Roles (TU Berlin → Zalando; Consulting Scope - Advising on ML Production, Infrastructure, and Teams.
+- Probably skip if: you do not need material from Mikio Braun or you are not working on freelance, consulting, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview (Freelancing in Machine Learning)](https://www.youtube.com/watch?v=HfF791e0HR8&t=0)

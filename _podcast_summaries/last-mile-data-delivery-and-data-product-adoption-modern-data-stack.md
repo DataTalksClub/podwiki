@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/conquering-the-last-mile-in-da
 - product management
 - leadership
 
+## Agent Summary
+
+- Why it matters: Conquering the Last Mile in Data
+- Useful for: Future agents triaging data analytics, tools, product management, leadership and Episode introduction & Locally Optimistic community; Career journey: private equity to modern data stacks; Defining the "last mile" in data delivery.
+- Probably skip if: you do not need material from Caitlin Moorman or you are not working on data analytics, tools, product management.
+
 ## Chapter Headers
 
 - 0:00 - [Episode introduction & Locally Optimistic community](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=0)

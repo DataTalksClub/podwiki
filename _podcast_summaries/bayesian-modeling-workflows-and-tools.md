@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabil
 - machine learning
 - tools
 
+## Agent Summary
+
+- Why it matters: Bayesian Modeling and Probabilistic Programming
+- Useful for: Future agents triaging probabilistic programming, bayesian statistics, machine learning, tools and Episode Introduction & Topic Overview; Guest Introduction: Rob Zinkov and the Hakaru probabilistic programming project; Career Journey: From software engineering to machine learning research.
+- Probably skip if: you do not need material from Rob Zinkov or you are not working on probabilistic programming, bayesian statistics, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=kcKvUSInm-M&t=0)

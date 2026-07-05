@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/making-sense-of-data-engineeri
 - data engineering
 - tools
 
+## Agent Summary
+
+- Why it matters: Making Sense of Data Engineering Acronyms and Buzzwords
+- Useful for: Future agents triaging data engineering, tools and Episode Overview: Decoding Data Engineering Acronyms; Guest Career Journey: From Marketing Ops to Analytics & Growth; Airbyte Overview: ELT Focus and Connector Purpose.
+- Probably skip if: you do not need material from Natalie Kwong or you are not working on data engineering, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=0)

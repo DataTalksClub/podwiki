@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-physics-to-machine-learni
 - academia
 - mentorship
 
+## Agent Summary
+
+- Why it matters: From Physics to Machine Learning
+- Useful for: Future agents triaging career transition, physics, deep learning, machine learning and Career origin: physics PhD to computer vision deep learning; Transition catalyst: maternity leave, online courses and internship; Career-change summary: sharing a Twitter thread of practical lessons.
+- Probably skip if: you do not need material from Tatiana Gabruseva or you are not working on career transition, physics, deep learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=0)

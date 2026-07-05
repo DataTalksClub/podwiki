@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-hadron-collider-and-ment
 - career transition
 - academia
 
+## Agent Summary
+
+- Why it matters: Large Hadron Collider and Mentorship
+- Useful for: Future agents triaging machine learning, data science, MLOps, software engineering and Episode Opening & Guest Introduction; Guest Background Snapshot; Origins: From Novokuznetsk, Siberia.
+- Probably skip if: you do not need material from Anastasia Karavdina or you are not working on machine learning, data science, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Introduction](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=0)

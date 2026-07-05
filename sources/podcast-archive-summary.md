@@ -18,21 +18,21 @@ Use it before opening full podcast source files.
 - Source file: `datatalksclub.github.io/_podcast/data-team-roles.md`
 - Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: team building, data teams, data science, machine learning, data analysis, data engineering, MLOps, product management, leadership
-- Topic candidates: machine learning, team building, data teams, data science, data analysis, data engineering, mlops, product management, leadership
-- Short summary: Chapter-derived summary: Transcript checkpoint 1: Thank you for joining. I will start with the introduction, and maybe more; Transcript checkpoint 2: A product manager is responsible for the product and for making sure the team; Transcript checkpoint 3: The product manager exists to keep the team close to the user. They speak; Transcript checkpoint 4: Together with the product manager they decide if the problem is worth solving..
+- Topic candidates: team building, data teams, data science, machine learning, data analysis, data engineering, mlops, product management, leadership
+- Short summary: Chapter-derived summary: Thank you for joining. I will start with the introduction, and maybe more; A product manager is responsible for the product and for making sure the team; The product manager exists to keep the team close to the user. They speak; Together with the product manager they decide if the problem is worth solving..
 - Chapter summary:
-  - 0:00 - [Transcript checkpoint 1: Thank you for joining. I will start with the introduction, and maybe more](https://www.youtube.com/watch?v=UukjwSIAnpw&t=0)
-  - 3:38 - [Transcript checkpoint 2: A product manager is responsible for the product and for making sure the team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=218)
-  - 6:13 - [Transcript checkpoint 3: The product manager exists to keep the team close to the user. They speak](https://www.youtube.com/watch?v=UukjwSIAnpw&t=373)
-  - 10:21 - [Transcript checkpoint 4: Together with the product manager they decide if the problem is worth solving.](https://www.youtube.com/watch?v=UukjwSIAnpw&t=621)
-  - 13:58 - [Transcript checkpoint 5: Data engineers ensure all necessary data appears in a usable form. They make](https://www.youtube.com/watch?v=UukjwSIAnpw&t=838)
-  - 17:04 - [Transcript checkpoint 6: One of them is the machine learning engineer. A machine learning engineer](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1024)
-  - 20:54 - [Transcript checkpoint 7: Their skills are similar to those of other engineers, so they must know cloud](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1254)
-  - 24:55 - [Transcript checkpoint 8: If we are building a service that predicts categories correctly, everyone](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1495)
-  - 30:01 - [Transcript checkpoint 9: One way to separate the roles is to say that data engineers prepare data before](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1801)
-  - 34:35 - [Transcript checkpoint 10: What roles depend on the size of the team? For example, would you see a machine](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2075)
-  - 38:52 - [Transcript checkpoint 11: The nature of the work is different. A full stack web engineer focuses on](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2332)
-  - 43:24 - [Transcript checkpoint 12: We are wrapping up for today. Thank you for attending the session. I look](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2604)
+  - 0:00 - [Thank you for joining. I will start with the introduction, and maybe more](https://www.youtube.com/watch?v=UukjwSIAnpw&t=0)
+  - 3:38 - [A product manager is responsible for the product and for making sure the team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=218)
+  - 6:13 - [The product manager exists to keep the team close to the user. They speak](https://www.youtube.com/watch?v=UukjwSIAnpw&t=373)
+  - 10:21 - [Together with the product manager they decide if the problem is worth solving.](https://www.youtube.com/watch?v=UukjwSIAnpw&t=621)
+  - 13:58 - [Data engineers ensure all necessary data appears in a usable form. They make](https://www.youtube.com/watch?v=UukjwSIAnpw&t=838)
+  - 17:04 - [One of them is the machine learning engineer. A machine learning engineer](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1024)
+  - 20:54 - [Their skills are similar to those of other engineers, so they must know cloud](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1254)
+  - 24:55 - [If we are building a service that predicts categories correctly, everyone](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1495)
+  - 30:01 - [One way to separate the roles is to say that data engineers prepare data before](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1801)
+  - 34:35 - [What roles depend on the size of the team? For example, would you see a machine](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2075)
+  - 38:52 - [The nature of the work is different. A full stack web engineer focuses on](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2332)
+  - 43:24 - [We are wrapping up for today. Thank you for attending the session. I look](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2604)
 
 ### CRISP-DM Methodology for Data Science Projects: Business Understanding, Data Preparation, Modeling, Evaluation & Deployment
 
@@ -44,18 +44,18 @@ Use it before opening full podcast source files.
 - Topic candidates: data science, machine learning, project management
 - Short summary: Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering business understanding, data preparation, modeling, evaluation, and deployment
 - Chapter summary:
-  - 0:00 - [Transcript checkpoint 1: I will start with an introduction. Thank you very much for coming to this](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
-  - 2:34 - [Transcript checkpoint 2: Thanks again for joining. Today we will talk about processes in a machine](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
-  - 5:34 - [Transcript checkpoint 3: Back then data science was called data mining and things were different, but](https://www.youtube.com/watch?v=SesVTDklFYQ&t=334)
-  - 7:55 - [Transcript checkpoint 4: Imagine we have an online classified website where people sell items they](https://www.youtube.com/watch?v=SesVTDklFYQ&t=475)
-  - 10:58 - [Transcript checkpoint 5: Measuring how many users cannot finish posting can be tricky. It is not always](https://www.youtube.com/watch?v=SesVTDklFYQ&t=658)
-  - 13:25 - [Transcript checkpoint 6: The problem is important, we can measure its size, and we have a way to measure](https://www.youtube.com/watch?v=SesVTDklFYQ&t=805)
-  - 15:46 - [Transcript checkpoint 7: If all the needed data is already in the data lake then data engineers do](https://www.youtube.com/watch?v=SesVTDklFYQ&t=946)
-  - 17:05 - [Transcript checkpoint 8: If the baseline accuracy is sufficient we can move to the evaluation step.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
-  - 18:23 - [Transcript checkpoint 9: When making these decisions we always keep the business objective in mind.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1103)
-  - 19:25 - [Transcript checkpoint 10: Crisp DM may not explicitly highlight data collection, but it is part of the](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1165)
-  - 33:04 - [Transcript checkpoint 11: If you want to ask a question, go to Slido.com or use the QR code and enter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1984)
-  - 36:03 - [Transcript checkpoint 12: See you, and thanks for attending. Goodbye.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=2163)
+  - 0:00 - [I will start with an introduction. Thank you very much for coming to this](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
+  - 2:34 - [Thanks again for joining. Today we will talk about processes in a machine](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
+  - 5:34 - [Back then data science was called data mining and things were different, but](https://www.youtube.com/watch?v=SesVTDklFYQ&t=334)
+  - 7:55 - [Imagine we have an online classified website where people sell items they](https://www.youtube.com/watch?v=SesVTDklFYQ&t=475)
+  - 10:58 - [Measuring how many users cannot finish posting can be tricky. It is not always](https://www.youtube.com/watch?v=SesVTDklFYQ&t=658)
+  - 13:25 - [The problem is important, we can measure its size, and we have a way to measure](https://www.youtube.com/watch?v=SesVTDklFYQ&t=805)
+  - 15:46 - [If all the needed data is already in the data lake then data engineers do](https://www.youtube.com/watch?v=SesVTDklFYQ&t=946)
+  - 17:05 - [If the baseline accuracy is sufficient we can move to the evaluation step.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
+  - 18:23 - [When making these decisions we always keep the business objective in mind.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1103)
+  - 19:25 - [Crisp DM may not explicitly highlight data collection, but it is part of the](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1165)
+  - 33:04 - [If you want to ask a question, go to Slido.com or use the QR code and enter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1984)
+  - 36:03 - [See you, and thanks for attending. Goodbye.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=2163)
 
 ### How to Build and Scale ML Teams: Hiring, MLOps & Product-Driven AI for Startups
 
@@ -4950,21 +4950,21 @@ Use it before opening full podcast source files.
 - Source file: `datatalksclub.github.io/_podcast/s22e07-reinventing-career-in-tech.md`
 - Guests: [Xia He-Bleinagel](https://datatalks.club/people/xiahebleinagel.html)
 - Source topics: No source topics.
-- Topic candidates: career transition
-- Short summary: Chapter-derived summary: Transcript checkpoint 1: Hi everyone, welcome to our event. This event is brought to you by Data Dogs; Transcript checkpoint 2: It was very difficult to find a good job in the automotive industry in Berlin.; Transcript checkpoint 3: I also started with Andrew Ng’s courses. They have grown into a specialization; Transcript checkpoint 4: I bought and exported German goods to China via online platforms and imported.
+- Topic candidates: No chapter-derived candidates.
+- Short summary: Chapter-derived summary: Hi everyone, welcome to our event. This event is brought to you by Data Dogs; It was very difficult to find a good job in the automotive industry in Berlin.; I also started with Andrew Ng’s courses. They have grown into a specialization; I bought and exported German goods to China via online platforms and imported.
 - Chapter summary:
-  - 0:00 - [Transcript checkpoint 1: Hi everyone, welcome to our event. This event is brought to you by Data Dogs](https://www.youtube.com/watch?v=D2rw52SOFfM&t=0)
-  - 3:39 - [Transcript checkpoint 2: It was very difficult to find a good job in the automotive industry in Berlin.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=219)
-  - 8:15 - [Transcript checkpoint 3: I also started with Andrew Ng’s courses. They have grown into a specialization](https://www.youtube.com/watch?v=D2rw52SOFfM&t=495)
-  - 12:21 - [Transcript checkpoint 4: I bought and exported German goods to China via online platforms and imported](https://www.youtube.com/watch?v=D2rw52SOFfM&t=741)
-  - 14:35 - [Transcript checkpoint 5: I built an automatic end-to-end data pipeline with a nice CO2 dashboard. These](https://www.youtube.com/watch?v=D2rw52SOFfM&t=875)
-  - 21:16 - [Transcript checkpoint 6: You started at NOW as a data engineer. Now you are head of data and cloud.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=1276)
-  - 29:30 - [Transcript checkpoint 7: I learned a lot from my previous team and team lead. Observing how they worked](https://www.youtube.com/watch?v=D2rw52SOFfM&t=1770)
-  - 37:16 - [Transcript checkpoint 8: Career transitions depend on the company. If the structure is clear, it’s](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2236)
-  - 43:06 - [Transcript checkpoint 9: I started with intensive courses. After seven or eight years, I spoke German](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2586)
-  - 49:52 - [Transcript checkpoint 10: Next time, we could do a podcast in German.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2992)
-  - 57:01 - [Transcript checkpoint 11: Pi Ladies is a good general group for women. I’ve also engaged with Women](https://www.youtube.com/watch?v=D2rw52SOFfM&t=3421)
-  - 1:01:59 - [Transcript checkpoint 12: Yes, I’ll try. Have a nice day, and goodbye everyone.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=3719)
+  - 0:00 - [Hi everyone, welcome to our event. This event is brought to you by Data Dogs](https://www.youtube.com/watch?v=D2rw52SOFfM&t=0)
+  - 3:39 - [It was very difficult to find a good job in the automotive industry in Berlin.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=219)
+  - 8:15 - [I also started with Andrew Ng’s courses. They have grown into a specialization](https://www.youtube.com/watch?v=D2rw52SOFfM&t=495)
+  - 12:21 - [I bought and exported German goods to China via online platforms and imported](https://www.youtube.com/watch?v=D2rw52SOFfM&t=741)
+  - 14:35 - [I built an automatic end-to-end data pipeline with a nice CO2 dashboard. These](https://www.youtube.com/watch?v=D2rw52SOFfM&t=875)
+  - 21:16 - [You started at NOW as a data engineer. Now you are head of data and cloud.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=1276)
+  - 29:30 - [I learned a lot from my previous team and team lead. Observing how they worked](https://www.youtube.com/watch?v=D2rw52SOFfM&t=1770)
+  - 37:16 - [Career transitions depend on the company. If the structure is clear, it’s](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2236)
+  - 43:06 - [I started with intensive courses. After seven or eight years, I spoke German](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2586)
+  - 49:52 - [Next time, we could do a podcast in German.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=2992)
+  - 57:01 - [Pi Ladies is a good general group for women. I’ve also engaged with Women](https://www.youtube.com/watch?v=D2rw52SOFfM&t=3421)
+  - 1:01:59 - [Yes, I’ll try. Have a nice day, and goodbye everyone.](https://www.youtube.com/watch?v=D2rw52SOFfM&t=3719)
 
 ### Building Pet Health Tech: ML, Sensors, and Dog Behavior Data
 
@@ -5672,8 +5672,8 @@ Use it before opening full podcast source files.
 - `data-engineering` (69): data engineering. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html), [https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 - `hiring` (58): hiring. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
 - `career-growth` (55): career growth. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/personal-brand-for-data-professionals.html](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
-- `career-transition` (54): career transition. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - `rag` (54): rag. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- `career-transition` (53): career transition. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - `leadership` (48): leadership. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
 - `tools` (45): tools. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/open-source-ml-contributions.html](https://datatalks.club/podcast/open-source-ml-contributions.html), [https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html), [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - `portfolio` (42): portfolio. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/devrel-data-science-open-source-tools.html](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html)

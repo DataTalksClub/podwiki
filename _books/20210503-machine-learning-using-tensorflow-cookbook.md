@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Machine Learning Using TensorFlow Cookbook"
 source_book: "../datatalksclub.github.io/_books/20210503-machine-learning-using-tensorflow-cookbook.md"
 source_url: "https://datatalks.club/books/20210503-machine-learning-using-tensorflow-cookbook.html"
-authors: ['alexiaaudevart', 'Konrad Banachewicz', 'Luca Massaron']
+authors: ['alexiaaudevart', 'konradbanachewicz', 'lucamassaron']
 author_names: ['Alexia Audevart', 'Konrad Banachewicz', 'Luca Massaron']
 qa_count: 37
 topics: ['machine learning']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Alexia Audevart](https://datatalks.club/people/alexiaaudevart.html), [Konrad Banachewicz](https://datatalks.club/people/Konrad Banachewicz.html), [Luca Massaron](https://datatalks.club/people/Luca Massaron.html).
+[Alexia Audevart](https://datatalks.club/people/alexiaaudevart.html), [Konrad Banachewicz](https://datatalks.club/people/konradbanachewicz.html), [Luca Massaron](https://datatalks.club/people/lucamassaron.html).
 
 ## Discussion Archive
 

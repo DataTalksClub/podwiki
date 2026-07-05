@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/ace-non-technical-data-science
 - product management
 - job search
 
+## Agent Summary
+
+- Why it matters: Ace Non-Technical Data Science Interviews
+- Useful for: Future agents triaging data science, machine learning, MLOps, product management and Guest Overview: Nick Singh's career and book; Career Coaching Focus: Helping candidates break into data roles; Hiring Process Breakdown: Screens, assessments, and panel interviews.
+- Probably skip if: you do not need material from Nick Singh or you are not working on data science, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=0)

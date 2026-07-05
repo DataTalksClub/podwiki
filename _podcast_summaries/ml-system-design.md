@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/why-machine-learning-design-is
 - machine learning
 - system design
 
+## Agent Summary
+
+- Why it matters: Why Machine Learning Design is Broken
+- Useful for: Future agents triaging machine learning, system design and Guest Introduction: Valerii Babushkin background; Book Announcement: Machine Learning System Design; Design Document Purpose: Fail-Fast Principle.
+- Probably skip if: you do not need material from Valerii Babushkin or you are not working on machine learning, system design.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=6YBMU6475KQ&t=0)

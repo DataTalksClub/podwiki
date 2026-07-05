@@ -34,9 +34,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-a
 
 ## Agent Summary
 
-- Why it matters: Concrete return-to-tech story where a former telecom software architect uses ML Zoomcamp, AI Dev Tools, and project work to move from a seven-year career break into an AI engineer role at a healthcare startup.
-- Useful for: Career-break transitions, AI engineer entry paths, learning-in-public examples, portfolio/interview evidence, and practical RAG/PDF Q&A take-home assignment details.
-- Probably skip if: You need senior AI engineering architecture, deep LangChain/RAG implementation details, or a broad market analysis rather than one learner's restart journey.
+- Why it matters: How to Become an AI Engineer After a Career Break
+- Useful for: Future agents triaging ai engineer, career break and Why Move to AI? Using ChatGPT to Plan a Career Pivot; Learning in Public: The Power of Community Support; Telecom Capstone: Predicting Network Slices with ML.
+- Probably skip if: you do not need material from Revathy Ramalingam or you are not working on ai engineer, career break.
 
 ## Chapter Headers
 

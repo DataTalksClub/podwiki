@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/interpretable-ai-and-ml-polina
 - explainable AI
 - interpretability
 
+## Agent Summary
+
+- Why it matters: Build Explainable and Actionable AI/ML Systems
+- Useful for: Future agents triaging machine learning, AI, MLOps, explainable AI and Episode Introduction & Overview; Guest Introduction: Polina Mosolova - Industrial PhD and Churn Prediction; Career Journey: Industrial PhD to Full-Stack Data Scientist at SAP.
+- Probably skip if: you do not need material from Polina Mosolova or you are not working on machine learning, AI, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Overview](https://www.youtube.com/watch?v=EQcY83VA0Us&t=0)

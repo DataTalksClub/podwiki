@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/hacking-your-data-career-marij
 - data science
 - career growth
 
+## Agent Summary
+
+- Why it matters: Hacking Your Data Career
+- Useful for: Future agents triaging data science, career growth and Episode Introduction & Guest Welcome; From Sociology to Data Science: Election Models, Social Media & Crime Research; Diverse Backgrounds as a Competitive Advantage in Data Science.
+- Probably skip if: you do not need material from Marijn Markus or you are not working on data science, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Welcome](https://www.youtube.com/watch?v=RhSg8ill1So&t=0)

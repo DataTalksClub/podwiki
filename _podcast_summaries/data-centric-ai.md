@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkel
 - tools
 - data governance
 
+## Agent Summary
+
+- Why it matters: Data-Centric AI
+- Useful for: Future agents triaging machine learning, data science, MLOps, tools and AI education & geometric deep learning in medical imaging; Data science education and course development; Building a community of practice and improving product maturity.
+- Probably skip if: you do not need material from Marysia Winkels or you are not working on machine learning, data science, MLOps.
+
 ## Chapter Headers
 
 - 1:26 - [Podcast Introduction](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=86)

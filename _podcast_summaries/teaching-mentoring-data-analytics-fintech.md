@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-and-mentoring-in-data
 - teaching
 - data science
 
+## Agent Summary
+
+- Why it matters: Teaching and Mentoring in Data Analytics
+- Useful for: Future agents triaging data analytics, fintech, mentoring, teaching and Guest Overview: Irina Brudaru - teacher, curriculum developer, mentor in; Career Origins: early computing, Romania education, Max Planck research; Industry Transition: data consulting, BI, Google and product analytics experience.
+- Probably skip if: you do not need material from Irina Brudaru or you are not working on data analytics, fintech, mentoring.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=saaRRzgHsmE&t=0)

@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-career-developmen
 - team building
 - mentorship
 
+## Agent Summary
+
+- Why it matters: How to Hire, Manage, and Grow a Data Science Team in B2B SaaS
+- Useful for: Future agents triaging data science, career development, career growth, hiring and Career trajectory: linguistics to data science; Reddit and Twitter experience; GlossGenius product and head of data responsibilities (B2B SaaS); Current hiring needs: product analysts, analytics engineers, marketing scientists.
+- Probably skip if: you do not need material from Katie Bauer or you are not working on data science, career development, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=i1NHRroQClQ&t=0)

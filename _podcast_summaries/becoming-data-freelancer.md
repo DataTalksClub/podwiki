@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimit
 - career growth
 - data science
 
+## Agent Summary
+
+- Why it matters: Become a Data Freelancer
+- Useful for: Future agents triaging freelance, consulting, data analytics, career transition and Career Path: From Marketing to Data; Startup Experience: Translation, SQL & User Analysis; Corporate Analytics: Hewlett Packard Sales BI & KPIs.
+- Probably skip if: you do not need material from Dimitri Visnadi or you are not working on freelance, consulting, data analytics.
+
 ## Chapter Headers
 
 - 1:31 - [Podcast Introduction](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=91)

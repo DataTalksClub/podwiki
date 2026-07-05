@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-a
 - MLOps
 - software engineering
 
+## Agent Summary
+
+- Why it matters: Developer Advocacy Through Community Impact
+- Useful for: Future agents triaging open-source, computer vision, tools, MLOps and Episode Opening & Guest Overview; Video Production Setup: Camera, Lens & Webcam Workflow; Audio Setup: Microphone, Preamp & Pop Filtering.
+- Probably skip if: you do not need material from Will Russell or you are not working on open-source, computer vision, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Overview](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=0)

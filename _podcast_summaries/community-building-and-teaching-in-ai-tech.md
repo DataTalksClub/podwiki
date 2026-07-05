@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/community-building-and-teachin
 - community building
 - teaching
 
+## Agent Summary
+
+- Why it matters: Community Building and Teaching in AI & Tech
+- Useful for: Future agents triaging AI, NLP, data science, career growth and Guest Introduction: Erum Afzal - AI for education & Omdena Academy; Background: Journey from Pakistan to PhD & community teaching; Omdena Academy: Evolution from projects to structured courses.
+- Probably skip if: you do not need material from Erum Afzal or you are not working on AI, NLP, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=0)

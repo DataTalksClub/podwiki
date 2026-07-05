@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-access-management-bart-va
 
 - data governance
 
+## Agent Summary
+
+- Why it matters: Data Governance & Data Access Management
+- Useful for: Future agents triaging data governance and Episode Overview: Data Access Management & Guest Summary; Guest Introduction & Career Path; Consulting Background: Banks, BCBS 239 and data trauma.
+- Probably skip if: you do not need material from Bart Vandekerckhove or you are not working on data governance.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=0)

@@ -38,6 +38,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-
 - career growth
 - career transition
 
+## Agent Summary
+
+- Why it matters: Lessons from Applied AI: Tesla, Waymo, and Beyond
+- Useful for: Future agents triaging computer vision, academia, autonomous driving, MLOps and Guest Bio & Career Overview: Finance to Self-Driving AI; Morgan Stanley: Big Data Engineering & Transition to ML; Carnegie Mellon: Research Focus & Computer Vision Projects.
+- Probably skip if: you do not need material from Aishwarya Jadhav or you are not working on computer vision, academia, autonomous driving.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=0)

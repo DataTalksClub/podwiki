@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-data-scientists-dont-ment
 - career growth
 - communication
 
+## Agent Summary
+
+- Why it matters: What Data Scientists Don't Mention in Their LinkedIn Profiles
+- Useful for: Future agents triaging machine learning, MLOps, career growth, communication and Episode Introduction; Episode Theme: Failures and LinkedIn Omissions; Guest Opening: Background Snapshot.
+- Probably skip if: you do not need material from Yury Kashnitsky or you are not working on machine learning, MLOps, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=0)

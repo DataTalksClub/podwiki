@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/can-you-quit-your-job-and-stil
 - Remote Work
 - Business Development
 
+## Agent Summary
+
+- Why it matters: Taking your Freelance Career to the Next Level
+- Useful for: Future agents triaging Freelance, Career Growth, Consulting, Personal Branding and Episode Opening & Dimitri's Data Journey; Job Tenure Trends & Freelancer Types; Expertise vs Problem-Solving in Freelance Work.
+- Probably skip if: you do not need material from Dimitri Visnadi or you are not working on Freelance, Career Growth, Consulting.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & Dimitri's Data Journey](https://www.youtube.com/watch?v=S93V8RgwBig&t=0)

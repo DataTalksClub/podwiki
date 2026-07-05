@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Relevant Search"
 source_book: "../datatalksclub.github.io/_books/20210712-relevant-search.md"
 source_url: "https://datatalks.club/books/20210712-relevant-search.html"
-authors: ['dougturnbull', 'John Berryman']
+authors: ['dougturnbull', 'johnberryman']
 author_names: ['Doug Turnbull', 'John Berryman']
 qa_count: 81
 topics: ['search']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Doug Turnbull](https://datatalks.club/people/dougturnbull.html), [John Berryman](https://datatalks.club/people/John Berryman.html).
+[Doug Turnbull](https://datatalks.club/people/dougturnbull.html), John Berryman.
 
 ## Discussion Archive
 

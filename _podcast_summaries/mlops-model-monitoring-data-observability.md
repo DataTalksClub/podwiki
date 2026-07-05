@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/
 - tools
 - data engineering
 
+## Agent Summary
+
+- Why it matters: MLOps Architect
+- Useful for: Future agents triaging MLOps, tools, data engineering and Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs; Career Journey: From paralegal ambitions to statistics and machine learning; Prior Role: Field Engineer / Solutions Engineer experience.
+- Probably skip if: you do not need material from Danny Leybzon or you are not working on MLOps, tools, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=0)

@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-digital-health-maria-br
 - startups
 - healthcare
 
+## Agent Summary
+
+- Why it matters: AI for Digital Health
+- Useful for: Future agents triaging AI, computer vision, data strategy, product management and Career Journey: From Electrical Engineering to Founding SQIN; Founder Approach: Industry Immersion, MVP Development; Why Healthcare: Digitization Opportunity in Medical Systems.
+- Probably skip if: you do not need material from Maria Bruckert or you are not working on AI, computer vision, data strategy.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=whpkDmVVGUE&t=0)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-data-engineering-as-
 - personal brand
 - career growth
 
+## Agent Summary
+
+- Why it matters: Mastering Data Engineering as a Remote Worker
+- Useful for: Future agents triaging data engineering, remote work, personal brand, career growth and Episode Overview & Guest Introduction; Background: Spain to Norway and Career Transition; Relocation Story: Moving for Partner's Job.
+- Probably skip if: you do not need material from José María Sánchez Salas or you are not working on data engineering, remote work, personal brand.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=UX7UShEioKc&t=0)

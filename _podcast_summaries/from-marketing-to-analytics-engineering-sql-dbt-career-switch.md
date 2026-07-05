@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-digital-marketing-to-anal
 - career transition
 - tools
 
+## Agent Summary
+
+- Why it matters: From Digital Marketing to Analytics Engineering
+- Useful for: Future agents triaging data science, analytics engineering, career transition, tools and Episode Overview: Switching from Marketing to Analytics Engineering; Early Career & Startup Experience: London, Berlin, Movinga; Marketing Role at Ecosia: Generalist Tasks and Responsibility Growth.
+- Probably skip if: you do not need material from Nikola Maksimovic or you are not working on data science, analytics engineering, career transition.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Overview: Switching from Marketing to Analytics Engineering](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=0)

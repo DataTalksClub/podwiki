@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/working-in-open-source-probabl
 - tools
 - developer relations
 
+## Agent Summary
+
+- Why it matters: Working in Open Source - Probabl.ai and sklearn
+- Useful for: Future agents triaging open-source, machine learning, data science, tools and Episode Overview - Open Source Focus; Guest Reintroduction & Vincent's Open Source Profile; Early Community Work & PyLadies Code Sprint.
+- Probably skip if: you do not need material from Vincent Warmerdam or you are not working on open-source, machine learning, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Overview - Open Source Focus](https://www.youtube.com/watch?v=UPlIETGwTg8&t=0)

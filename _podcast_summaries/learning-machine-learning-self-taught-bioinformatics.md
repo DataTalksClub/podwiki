@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-self-learning-in-mac
 - machine learning
 - self-learning
 
+## Agent Summary
+
+- Why it matters: Mastering Self-Learning in Machine Learning
+- Useful for: Future agents triaging bioinformatics, machine learning, self-learning and Guest Overview: Aaisha - self-taught bioinformatician, ML engineer, scientific; Early Learning & Homeschooling: Python, web development, and flexible study; Choosing What to Learn: prioritization, filtering, and avoiding FOMO.
+- Probably skip if: you do not need material from Aaisha Muhammad or you are not working on bioinformatics, machine learning, self-learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=0)

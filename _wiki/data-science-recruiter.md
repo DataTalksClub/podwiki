@@ -21,11 +21,9 @@ related_wiki:
 ---
 
 A data science recruiter helps a company turn a vague talent need into a real
-candidate search. A data science headhunter does the active-search version of
-that work. They map the market and contact people who aren't applying. They
-also prepare candidates, gather feedback, and support the offer. Candidates may
-hear the same work called data scientist recruiter or data scientist
-headhunter.
+candidate search. In active-search roles, recruiters map the market and contact
+people who aren't applying. They also prepare candidates, gather feedback, and
+support the offer.
 
 Recruiting is more than keyword matching, so recruiters help hiring managers
 with job specs and sourcing. Then they stay involved through screening,

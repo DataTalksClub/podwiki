@@ -36,9 +36,9 @@ youtube_url: "https://www.youtube.com/watch?v=UukjwSIAnpw"
 
 ## Agent Summary
 
-- Why it matters: Maps the responsibilities and handoffs across product managers, analysts, data scientists, data engineers, ML engineers, and SRE/MLOps roles using an item-categorization product example.
-- Useful for: Future agents comparing data-team roles, explaining how data products move from user need to data access, modeling, productionization, and operations, or grounding pages about team structure.
-- Probably skip if: You need a deep transcript on one specialty role, modern tooling details, or a guest interview rather than Alexey's broad introductory role overview.
+- Why it matters: Roles in a Data Team
+- Useful for: Future agents triaging team building, data teams, data science, machine learning and Thank you for joining. I will start with the introduction, and maybe more; A product manager is responsible for the product and for making sure the team; The product manager exists to keep the team close to the user. They speak.
+- Probably skip if: you do not need material from Alexey Grigorev or you are not working on team building, data teams, data science.
 
 ## Chapter Headers
 

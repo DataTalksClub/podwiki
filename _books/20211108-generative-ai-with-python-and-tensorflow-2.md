@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Generative AI with Python and TensorFlow 2"
 source_book: "../datatalksclub.github.io/_books/20211108-generative-ai-with-python-and-tensorflow-2.md"
 source_url: "https://datatalks.club/books/20211108-generative-ai-with-python-and-tensorflow-2.html"
-authors: ['Joseph Babcock', 'raghavbali']
+authors: ['josephbabcock', 'raghavbali']
 author_names: ['Joseph Babcock', 'Raghav Bali']
 qa_count: 33
 topics: ['python', 'ai', 'rag']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Joseph Babcock](https://datatalks.club/people/Joseph Babcock.html), [Raghav Bali](https://datatalks.club/people/raghavbali.html).
+Joseph Babcock, [Raghav Bali](https://datatalks.club/people/raghavbali.html).
 
 ## Discussion Archive
 

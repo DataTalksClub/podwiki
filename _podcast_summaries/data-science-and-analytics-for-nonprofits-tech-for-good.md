@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-for-a-better-world-p
 - data science
 - analytics
 
+## Agent Summary
+
+- Why it matters: Analytics for a Better World
+- Useful for: Future agents triaging nonprofit, data maturity, data science, analytics and Overview: Analytics for a Better World mission and guest intro; Career Path: From renewable energy to data science and CTO role; CTO Responsibilities: Connecting nonprofits with research and tech capacity.
+- Probably skip if: you do not need material from Parvathy Krishnan or you are not working on nonprofit, data maturity, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=0)

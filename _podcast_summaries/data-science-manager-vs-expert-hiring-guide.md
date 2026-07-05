@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-manager-vs-data-s
 - leadership
 - team building
 
+## Agent Summary
+
+- Why it matters: Data Science Manager vs Data Science Expert
+- Useful for: Future agents triaging data science, machine learning, leadership, team building and Episode Topic: Data Science Manager vs Data Science Expert; Career Journey: GIS → SQL → BI → Data Science Manager; ML Use Cases: Mental Health Monitoring & Demand Forecasting.
+- Probably skip if: you do not need material from Barbara Sobkowiak or you are not working on data science, machine learning, leadership.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=0)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-a
 - production
 - tools
 
+## Agent Summary
+
+- Why it matters: Build Your Own Data Pipeline
+- Useful for: Future agents triaging data engineering, machine learning, production, tools and Episode Introduction & Andreas Kretz - "Plumber of Data Science; Guest Bio: Andreas's path from software to big data and data engineering; Market Trend: Why data engineering demand is rising.
+- Probably skip if: you do not need material from Andreas Kretz or you are not working on data engineering, machine learning, production.
+
 ## Chapter Headers
 
 - 1:56 - [Episode Introduction & Andreas Kretz - "Plumber of Data Science](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=116)

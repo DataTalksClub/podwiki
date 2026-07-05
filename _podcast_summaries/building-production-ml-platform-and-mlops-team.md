@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-scratch-to-success-buildi
 - leadership
 - career growth
 
+## Agent Summary
+
+- Why it matters: From Scratch to Success: Building an MLOps Team and ML Platform
+- Useful for: Future agents triaging MLOps, machine learning, leadership, career growth and Episode Introduction: MLOps & ML platform conversation with Simon; Career & Transition: Research to industry, early platform work and management; MLOps Definition: People, processes, and technology.
+- Probably skip if: you do not need material from Simon Stiebellehner or you are not working on MLOps, machine learning, leadership.
+
 ## Chapter Headers
 
 - 1:14 - [Episode Introduction: MLOps & ML platform conversation with Simon](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=74)

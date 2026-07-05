@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineering-to-m
 - career transition
 - tools
 
+## Agent Summary
+
+- Why it matters: From Software Engineering to Machine Learning
+- Useful for: Future agents triaging machine learning, MLOps, software engineering, career transition and Guest Overview: Santiago - Director of Computer Vision; Adding Machine Learning to a Software Engineering Skillset; Personal & Academic Background: Cuba, Bachelor's, Georgia Tech MS.
+- Probably skip if: you do not need material from Santiago Valdarrama or you are not working on machine learning, MLOps, software engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=0)

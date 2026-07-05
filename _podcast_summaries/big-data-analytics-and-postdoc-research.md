@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/advancing-big-data-analytics-p
 - tools
 - data engineering
 
+## Agent Summary
+
+- Why it matters: Advancing Big Data Analytics: Post-Doctoral Research
+- Useful for: Future agents triaging academia, big data analytics, tools, data engineering and Guest Introduction: Eleni Tzirita-Zacharatou, postdoctoral researcher at; Academic Journey: Athens undergrad → EPFL PhD → Berlin postdoc; Spatial Big Data Analytics: Definitions, examples (GPS, trajectories, satellite.
+- Probably skip if: you do not need material from Eleni Tzirita Zacharatou or you are not working on academia, big data analytics, tools.
+
 ## Chapter Headers
 
 - 1:13 - [Guest Introduction: Eleni Tzirita-Zacharatou, postdoctoral researcher at](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=73)

@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitive-machine-leaning-an
 - teaching
 - career transition
 
+## Agent Summary
+
+- Why it matters: Competitive Machine Learning and Teaching
+- Useful for: Future agents triaging machine learning, MLOps, data science, open-source and Episode Start; Guest Introduction & Kaggle Grandmaster Credentials; Early Industry Roles & Open-Source Contributions.
+- Probably skip if: you do not need material from Alexander Guschin or you are not working on machine learning, MLOps, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Start](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=0)

@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on
 - AI red teaming
 - security
 
+## Agent Summary
+
+- Why it matters: AI in Industry: Trust, Return on Investment and Future
+- Useful for: Future agents triaging AI, LLMs, NLP, MLOps and Episode Introduction & Guest Overview; Career Path: From Linguist to Computational Linguistics and Industry; Role Definition: Principal Key Expert in AI - Advising on Technology and.
+- Probably skip if: you do not need material from Maria Sukhareva or you are not working on AI, LLMs, NLP.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=bT7-HRNCltk&t=0)

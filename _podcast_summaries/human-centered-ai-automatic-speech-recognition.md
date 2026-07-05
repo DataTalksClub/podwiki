@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/human-centered-ai-for-disorder
 - machine learning
 - data governance
 
+## Agent Summary
+
+- Why it matters: Human-Centered AI for Disordered Speech Recognition
+- Useful for: Future agents triaging AI, NLP, LLMs, machine learning and Episode Introduction: Human-Centered AI for Disordered Speech; Guest Introduction & Career Highlights (Katarzyna Foremniak); From Linguistics to Computational Linguistics: Transition & Skills.
+- Probably skip if: you do not need material from Katarzyna Foremniak or you are not working on AI, NLP, LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Human-Centered AI for Disordered Speech](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=0)

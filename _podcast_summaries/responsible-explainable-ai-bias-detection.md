@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai
 - governance
 - tools
 
+## Agent Summary
+
+- Why it matters: Responsible and Explainable AI
+- Useful for: Future agents triaging responsible AI, explainable AI, bias detection, fairness and Episode Introduction: Responsible and Explainable AI; Career Journey: Master''s, Consulting, and Founding DataBuzz; Data Strategy Role: Building AI Products at Morgan Stanley.
+- Probably skip if: you do not need material from Supreet Kaur or you are not working on responsible AI, explainable AI, bias detection.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Responsible and Explainable AI](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=0)

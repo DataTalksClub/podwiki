@@ -31,6 +31,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-engineer-new-role-in
 
 - analytics engineering
 
+## Agent Summary
+
+- Why it matters: Analytics Engineer: New Role in a Data Team
+- Useful for: Future agents triaging analytics engineering and Guest Introduction: Victoria Perez Mola overview; Career Journey: Systems engineering, ERP & finance reporting; Daily Responsibilities: Data modeling, pipelines, data quality, Looker.
+- Probably skip if: you do not need material from Victoria Perez Mola or you are not working on analytics engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=0)

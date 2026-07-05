@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-data-research-david-ba
 - data analytics
 - tools
 
+## Agent Summary
+
+- Why it matters: Leading Data Research
+- Useful for: Future agents triaging data science, data analytics, tools and Guest Intro: David Bader - NJIT Institute for Data Science, research focus; Career Journey & Academic Appointments; Daily Responsibilities: Research, Teaching, and Institute Leadership.
+- Probably skip if: you do not need material from David Bader or you are not working on data science, data analytics, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=0)

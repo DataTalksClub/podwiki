@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-observability-barr-moses/
 - MLOps
 - data observability
 
+## Agent Summary
+
+- Why it matters: Data Observability: The Next Frontier of Data Engineering
+- Useful for: Future agents triaging MLOps, data observability and Guest Profile: Barr Moses - career, GainSight, Monte Carlo; Market Gap: Data downtime impact on analytics teams; Observability Origins: DevOps pillars (metrics, logs, traces).
+- Probably skip if: you do not need material from Barr Moses or you are not working on MLOps, data observability.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=0)

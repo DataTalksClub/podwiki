@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scie
 - data engineering
 - data science
 
+## Agent Summary
+
+- Why it matters: Big Data Engineer vs Data Scientist
+- Useful for: Future agents triaging career transition, software engineering, data engineering, data science and Episode Overview & Guest Introduction; Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify); Core Responsibilities: Building ETL Data Pipelines, HDFS/S3, Impala.
+- Probably skip if: you do not need material from Roksolana Diachuk or you are not working on career transition, software engineering, data engineering.
+
 ## Chapter Headers
 
 - 1:52 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=112)

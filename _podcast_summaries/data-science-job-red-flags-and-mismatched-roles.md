@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/decoding-data-science-job-desc
 - team building
 - job search
 
+## Agent Summary
+
+- Why it matters: How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams
+- Useful for: Future agents triaging data science, data engineering, career growth, hiring and Guest Bio: Tereza's multidisciplinary data roles & community work; Academic Background: PhD, information retrieval, recommender systems; Industry Transition: XING to mytaxi/FREE NOW and evolving responsibilities.
+- Probably skip if: you do not need material from Tereza Iofciu or you are not working on data science, data engineering, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=0)

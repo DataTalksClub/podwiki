@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-o
 - open-source
 - tools
 
+## Agent Summary
+
+- Why it matters: Trends in AI Infrastructure
+- Useful for: Future agents triaging AI infrastructure, MLOps, LLMs, open-source and Episode Kickoff & Guest Introduction; Career Background: JetBrains, DataSpell, and Move into AI; Origins of DStack: Reducing AI Infrastructure Cost of Ownership.
+- Probably skip if: you do not need material from Andrey Cheptsov or you are not working on AI infrastructure, MLOps, LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Kickoff & Guest Introduction](https://www.youtube.com/watch?v=1aMuynlLM3o&t=0)

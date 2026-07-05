@@ -34,9 +34,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-notebook-to-production-bu
 
 ## Agent Summary
 
-- Why it matters: Shows what end-to-end AI ownership means in product settings: requirements, data, evaluation, deployment, monitoring, feedback loops, and choosing code or rules when LLMs are the wrong tool.
-- Useful for: Notebook-to-production pages, product-oriented data science, GenAI system architecture, evaluation and observability, feedback-loop design, and modern AI tooling examples.
-- Probably skip if: You need research-model training details or generic LLM theory. The episode focuses on applied product systems and production workflow tradeoffs.
+- Why it matters: From Notebook to Production: Building End-to-End AI Systems
+- Useful for: Future agents triaging data science, llms and Community Introduction and Slack Engagement; Career Journey: From Argentina to Barcelona; Product-Driven AI vs. Traditional Reporting.
+- Probably skip if: you do not need material from Mariano Semelman or you are not working on data science, llms.
 
 ## Chapter Headers
 

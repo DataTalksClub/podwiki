@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-strategy-key-principles-a
 - dataops
 - AI
 
+## Agent Summary
+
+- Why it matters: Data Strategy: Key Principles and Best Practices
+- Useful for: Future agents triaging data strategy, dataops, AI and Guest Introduction & Current Role; Guest Background & Career Path; Becoming a Data Strategist: Accidental Transition.
+- Probably skip if: you do not need material from Boyan Angelov or you are not working on data strategy, dataops, AI.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=0)

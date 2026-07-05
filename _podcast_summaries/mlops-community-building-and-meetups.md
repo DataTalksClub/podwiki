@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-online-tech-communiti
 - MLOps
 - community building
 
+## Agent Summary
+
+- Why it matters: Building Online Tech Communities
+- Useful for: Future agents triaging MLOps, community building and Origin Story: Launching the MLOps community; Pivot to meetups and turning events into a podcast; Early hosting lessons and interview craft.
+- Probably skip if: you do not need material from Demetrios Brinkmann or you are not working on MLOps, community building.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=0)

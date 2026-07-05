@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-science-manage
 - team building
 - hiring
 
+## Agent Summary
+
+- Why it matters: Becoming a Data Science Manager
+- Useful for: Future agents triaging data science, machine learning, MLOps, leadership and Guest Intro: Mariano Semelman, Head of Data Science at OLX; Passion for Product Applications in Data Science; Career Journey: Software Dev to Data Science Leadership.
+- Probably skip if: you do not need material from Mariano Semelman or you are not working on data science, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qOLR84-KHoY&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/effective-communication-busine
 - leadership
 - data teams
 
+## Agent Summary
+
+- Why it matters: Data Strategist Guide to Driving Growth: Prototypes, MVPs & Building Data Trust
+- Useful for: Future agents triaging data strategy, communication, project management, leadership and Episode Theme: Bridging Data & Management; Guest Background: Lior''s data and product journey; Role Defined: Data strategist as translator between business and tech.
+- Probably skip if: you do not need material from Lior Barak or you are not working on data strategy, communication, project management.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gqroEsTyLD0&t=0)

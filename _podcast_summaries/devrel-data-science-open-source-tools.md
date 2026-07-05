@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-for-data-sc
 - machine learning
 - open-source
 
+## Agent Summary
+
+- Why it matters: Developer Advocacy for Data Science
+- Useful for: Future agents triaging developer relations, data science, machine learning, open-source and Background: Neuroscience research, PhD, and computational modeling; Teaching focus: Applied Data Science curriculum & research reproducibility; Career pivot: Viral StyleGAN project to DevRel role at Iterative.
+- Probably skip if: you do not need material from Elle O'Brien or you are not working on developer relations, data science, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=0)

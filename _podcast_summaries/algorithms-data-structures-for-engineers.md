@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-
 - data structures
 - software engineering
 
+## Agent Summary
+
+- Why it matters: Mastering Algorithms and Data Structures
+- Useful for: Future agents triaging algorithms, data structures, software engineering and Guest Intro: Marcello La Rocca and book announcement; Career Path: web development to Twitter, Microsoft, Apple, Tundra; Learning Philosophy: focus on applications over formal proofs.
+- Probably skip if: you do not need material from Marcello La Rocca or you are not working on algorithms, data structures, software engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=RiQa-9LguW8&t=0)

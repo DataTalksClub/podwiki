@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-scalable-and-reliable
 - data engineering
 - system design
 
+## Agent Summary
+
+- Why it matters: Building Scalable and Reliable Machine Learning Systems
+- Useful for: Future agents triaging machine learning, MLOps, data strategy, data engineering and Episode Overview: Building Scalable & Reliable Machine Learning Systems; Guest Bio & Startup Experience (deep learning, MLOps, Ntropy, AR, Lyft); Startups: ML Productionization Trade-offs and Decision Ownership.
+- Probably skip if: you do not need material from Arseny Kravchenko or you are not working on machine learning, MLOps, data strategy.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Overview: Building Scalable & Reliable Machine Learning Systems](https://www.youtube.com/watch?v=i-pIdekjUow&t=0)

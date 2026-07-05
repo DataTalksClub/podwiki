@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/transitioning-from-project-man
 - tools
 - production
 
+## Agent Summary
+
+- Why it matters: Transitioning from Project Management to Data Science
+- Useful for: Future agents triaging career transition, project management, data science, career growth and Guest Overview: Ksenia and episode focus (project management → data science); Career Foundations: math degree, management, and early PM roles; Motivation for Analytics: customer-centric, data-driven decision making.
+- Probably skip if: you do not need material from Ksenia Legostay or you are not working on career transition, project management, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=rBKezdb9jEc&t=0)

@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-astronomy-to-applied-ml-d
 - academia
 - career transition
 
+## Agent Summary
+
+- Why it matters: From Astronomy to Applied ML
+- Useful for: Future agents triaging astroinformatics, MLOps, LLMs, data engineering and Career Overview: From Nigeria to PhD in Cape Town; MEERKAT and SKA: Radio Telescope Project Overview; Electromagnetic Spectrum: Radio to Gamma Explained.
+- Probably skip if: you do not need material from Daniel Egbo or you are not working on astroinformatics, MLOps, LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Lunar Eclipse Anecdote](https://www.youtube.com/watch?v=b92gwrsVQtg&t=0)

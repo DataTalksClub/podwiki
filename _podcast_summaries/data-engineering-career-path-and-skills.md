@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-k
 - education
 - career growth
 
+## Agent Summary
+
+- Why it matters: Teaching Data Engineers
+- Useful for: Future agents triaging data engineering, education, career growth and Episode Overview & Guest Introduction; Guest Background: Lawyer → Developer → Educator; Active Learning & Continuous Student Feedback (teaching methods).
+- Probably skip if: you do not need material from Jeff Katz or you are not working on data engineering, education, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=dFo10l8B6Go&t=0)

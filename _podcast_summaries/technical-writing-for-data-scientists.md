@@ -31,6 +31,12 @@ youtube_url: "https://www.youtube.com/watch?v=vXWGd7olv3c"
 - communication
 - career transition
 
+## Agent Summary
+
+- Why it matters: Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career
+- Useful for: Future agents triaging software engineering, tools, practices, communication and Career Transition: Psychology to Applied Scientist; First Public Writing: Early Blog Posts and Meetups; Writing Motivations: Share, Learn, Be a Beacon.
+- Probably skip if: you do not need material from Eugene Yan or you are not working on software engineering, tools, practices.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vXWGd7olv3c&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 - MLOps
 - career transition
 
+## Agent Summary
+
+- Why it matters: From Medicine to Machine Learning: How Public Learning Turned into a Career
+- Useful for: Future agents triaging machine learning, data science, data engineering, MLOps and Guest Overview: Transition from Medicine and Criminology to Machine Learning; Career Trajectory: Statistician → Data Analyst → Data Engineer; Skill Progression: SPSS, Excel, R, and Transition to Python.
+- Probably skip if: you do not need material from Pastor Soto or you are not working on machine learning, data science, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Event Announcements](https://www.youtube.com/watch?v=5km62e4nDaw&t=0)

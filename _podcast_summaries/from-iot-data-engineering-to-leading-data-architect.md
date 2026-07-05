@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-manager-to-data-arch
 - career transition
 - MLOps
 
+## Agent Summary
+
+- Why it matters: From Data Manager to Data Architect
+- Useful for: Future agents triaging data engineering, career transition, MLOps and Career overview: From data manager to data lead; Early role: Sensor data aggregation & structural health monitoring; Data management vs analyst: responsibilities and data discovery.
+- Probably skip if: you do not need material from Loïc Magnien or you are not working on data engineering, career transition, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qWG--iYO2uc&t=0)

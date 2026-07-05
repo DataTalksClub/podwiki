@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-and-personali
 - machine learning
 - healthcare
 
+## Agent Summary
+
+- Why it matters: Machine Learning and Personalization in Healthcare
+- Useful for: Future agents triaging machine learning, healthcare and Career Snapshot: Developer to AI & Data Leader; Building AI Teams at King and H&M; Machine Learning in Healthcare: Diagnosis, Drug Discovery & AlphaFold.
+- Probably skip if: you do not need material from Stefan Gudmundsson or you are not working on machine learning, healthcare.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=0)

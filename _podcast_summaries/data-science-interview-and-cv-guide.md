@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-i-learned-after-interview
 - career transition
 - job search
 
+## Agent Summary
+
+- Why it matters: Data Science Interview Guide: CV Optimization, Take-Home Projects, Mock Interviews & Negotiation
+- Useful for: Future agents triaging data science, software engineering, machine learning, career growth and Career Path: Engineer → Recommenders → Data Science Management; Differentiating Application: Building a Project to Showcase Skills; Product Data Science at Uber: Forecasting & LTV Work.
+- Probably skip if: you do not need material from Oleg Novikov or you are not working on data science, software engineering, machine learning.
+
 ## Chapter Headers
 
 - 1:16 - [Introduction & Episode Overview](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=76)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 - leadership
 - machine learning
 
+## Agent Summary
+
+- Why it matters: Designing a Data Science Team
+- Useful for: Future agents triaging data science, data teams, leadership, machine learning and Guest Introduction: Lisa Cohen, Director of Data Science at Twitter; Career Background: Applied Math, Microsoft telemetry, Azure to Twitter; Org Models Overview: Centralized vs decentralized data science organization.
+- Probably skip if: you do not need material from Lisa Cohen or you are not working on data science, data teams, leadership.
+
 ## Chapter Headers
 
 - 1:17 - [Guest Introduction: Lisa Cohen, Director of Data Science at Twitter](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=77)

@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-fo
 - NLP
 - open-source
 
+## Agent Summary
+
+- Why it matters: Developer Advocacy Engineer for Open-Source
+- Useful for: Future agents triaging machine learning, NLP, open-source and Guest Welcome & Episode Overview; Early Career: Industrial Engineering to NLP; Transition to NLP: First Projects & Sentiment Analysis.
+- Probably skip if: you do not need material from Merve Noyan or you are not working on machine learning, NLP, open-source.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=0)

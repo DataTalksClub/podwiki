@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/growing-data-engineering-team-
 - open-source
 - career development
 
+## Agent Summary
+
+- Why it matters: Growing Data Engineering Team in a Scale-Up
+- Useful for: Future agents triaging data engineering, data governance, tools, open-source and Episode Introduction: Growing Data Engineering Team & Guest Mehdi; Guest background: BI, on-prem Big Data to staff data engineer (career highlights); Defining scale-up: hypergrowth, funding, hiring surge, speed vs quality.
+- Probably skip if: you do not need material from Mehdi OUAZZA or you are not working on data engineering, data governance, tools.
+
 ## Chapter Headers
 
 - 1:57 - [Episode Introduction: Growing Data Engineering Team & Guest Mehdi](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=117)

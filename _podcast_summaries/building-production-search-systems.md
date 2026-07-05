@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-production-search-sys
 - production
 - search
 
+## Agent Summary
+
+- Why it matters: Building Production Search Systems
+- Useful for: Future agents triaging information retrieval, vector databases, embeddings, MLOps and Guest Introduction: Daniel Svonava, Superlinked & VectorHub; Career Highlights: Internships, YouTube Ads, and Startups; Competitive Programming Influence on Engineering.
+- Probably skip if: you do not need material from Daniel Svonava or you are not working on information retrieval, vector databases, embeddings.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gEmSrknGKDE&t=0)

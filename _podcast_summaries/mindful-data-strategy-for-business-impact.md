@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 - product management
 - career transition
 
+## Agent Summary
+
+- Why it matters: Mindful Data Strategy: From Pipelines to Business Impact
+- Useful for: Future agents triaging data strategy, data governance, data engineering, product management and Lior Barak: Background and shift from engineering to product; Startup and platform experience: automating data infrastructure; Product management learning paths for engineers and data scientists.
+- Probably skip if: you do not need material from Lior Barak or you are not working on data strategy, data governance, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction and Episode Overview (mindful data strategy)](https://www.youtube.com/watch?v=B76J4QkZPWs&t=0)

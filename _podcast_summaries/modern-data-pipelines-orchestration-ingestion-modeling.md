@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-
 - MLOps
 - tools
 
+## Agent Summary
+
+- Why it matters: Modern Data Pipelines
+- Useful for: Future agents triaging data engineering, MLOps, tools and Episode Introduction; Career journey: CERN researcher → NLP, ML engineering, Python, Astronomer,; Transition to workflow authoring and orchestration (Airflow, Astronomer).
+- Probably skip if: you do not need material from Santona Tuli or you are not working on data engineering, MLOps, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=0)

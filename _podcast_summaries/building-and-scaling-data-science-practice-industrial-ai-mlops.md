@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-data-science-practice
 - ai
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Building and Scaling Data Science Practice in Industrial Enterprises
+- Useful for: Future agents triaging data science, industrial AI, ai adoption, ai and Guest Introduction: Andrey Shtylenko, Honeywell; Career Journey: Startups, Organizational Development, and Honeywell; Honeywell Use Cases: Smart Sensors, Computer Vision, and Robotics.
+- Probably skip if: you do not need material from Andrey Shtylenko or you are not working on data science, industrial AI, ai adoption.
+
 ## Chapter Headers
 
 - 0:00 - [Introduction & Live Chat Poll Results](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=0)

@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-led-profession
 - data engineering
 - tools
 
+## Agent Summary
+
+- Why it matters: Becoming a Data-led Professional
+- Useful for: Future agents triaging data engineering, tools and DataLed Academy: free learning, repository & podcast; Career trajectory: integrations, Integromat & community growth; Growth marketing: A/B testing, personalization & product data.
+- Probably skip if: you do not need material from Arpit Choudhury or you are not working on data engineering, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=0)

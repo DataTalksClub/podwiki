@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/stock-market-analysis-with-pyt
 - algorithmic trading
 - tools
 
+## Agent Summary
+
+- Why it matters: Stock Market Analysis with Python and Machine Learning
+- Useful for: Future agents triaging machine learning, data science, MLOps, algorithmic trading and Guest Introduction: Ivan Brigida - Analytics Lead & PythonInvest; Disclaimer: Financial discussion, not investment advice; Background & career trajectory from finance to analytics.
+- Probably skip if: you do not need material from Ivan Brigida or you are not working on machine learning, data science, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=NThHAEIazFk&t=0)

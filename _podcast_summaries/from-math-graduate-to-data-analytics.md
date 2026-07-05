@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-math-teacher-to-analytics
 - data analytics
 - career growth
 
+## Agent Summary
+
+- Why it matters: From Math Teacher to Analytics Engineer
+- Useful for: Future agents triaging career transition, data analytics, career growth and Background & Motivation: Math Graduate to Data Analytics; Early Roles & Mentoring: Consulting, T-Mobile, Amazon Path; Community & Resources: Amplifying Learning Platforms.
+- Probably skip if: you do not need material from Juan Pablo or you are not working on career transition, data analytics, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=0)

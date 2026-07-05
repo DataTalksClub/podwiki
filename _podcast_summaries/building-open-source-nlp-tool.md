@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-an-open-source-nlp-to
 - entrepreneurship
 - founder
 
+## Agent Summary
+
+- Why it matters: Build Open-Source NLP Tools
+- Useful for: Future agents triaging NLP, machine learning, strategy, entrepreneurship and Background & early AI curiosity; Open-source demos overview: Refinery and Bricks; Refinery features: weak supervision & labeling workflows.
+- Probably skip if: you do not need material from Johannes Hötter or you are not working on NLP, machine learning, strategy.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=0)

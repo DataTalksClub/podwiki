@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/bridging-data-science-and-heal
 - data governance
 - healthcare
 
+## Agent Summary
+
+- Why it matters: Bridging Data Science and Healthcare
+- Useful for: Future agents triaging machine learning, data science, MLOps, data engineering and Guest Overview: Elena Stamatelou - ML researcher focused on healthcare; Education & Early Career: University of Patras, Erasmus, VUB/ULB; Moving to the Netherlands: Philips Healthcare internship and doctorate in.
+- Probably skip if: you do not need material from Eleni Stamatelou or you are not working on machine learning, data science, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=pDOwlulDh0c&t=0)

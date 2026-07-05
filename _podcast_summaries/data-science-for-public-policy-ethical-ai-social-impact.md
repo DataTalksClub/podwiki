@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-for-social-impact
 - ethical AI
 - social impact
 
+## Agent Summary
+
+- Why it matters: Data Science for Social Impact
+- Useful for: Future agents triaging data science, public policy, ethical AI, social impact and Episode Intro & Guest Christine Cepelak; Career Journey: Program Management to Data Science for Public Policy; Private vs Public Sector: Differences for Data Work.
+- Probably skip if: you do not need material from Christine Cepelak or you are not working on data science, public policy, ethical AI.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Intro & Guest Christine Cepelak](https://www.youtube.com/watch?v=xWC1HAfekRk&t=0)

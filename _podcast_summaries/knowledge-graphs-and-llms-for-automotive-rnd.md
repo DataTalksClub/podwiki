@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/knowledge-graphs-and-llms-acro
 - embeddings
 - vector databases
 
+## Agent Summary
+
+- Why it matters: Knowledge Graphs and LLMs Across Academia and Industry
+- Useful for: Future agents triaging LLMs, knowledge graphs, graph ML, retrieval-augmented generation and Episode Introduction; Guest Bio: career path from mechanical engineering to applied AI; Guest Background & Career Transition.
+- Probably skip if: you do not need material from Anahita Pakiman or you are not working on LLMs, knowledge graphs, graph ML.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=YncdlUscUOo&t=0)

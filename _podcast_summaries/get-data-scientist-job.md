@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/standing-out-as-a-data-scienti
 - career growth
 - job search
 
+## Agent Summary
+
+- Why it matters: Standing out as a Data Scientist
+- Useful for: Future agents triaging data science, career growth, job search and Guest Introduction: Luke Whipps, recruiter and podcast host; Recruiting background: a decade in data, analytics and AI; Neural AI origin: founding principles and non-transactional recruiting.
+- Probably skip if: you do not need material from Luke Whipps or you are not working on data science, career growth, job search.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=0)

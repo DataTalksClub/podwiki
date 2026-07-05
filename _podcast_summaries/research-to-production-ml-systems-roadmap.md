@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-researchers-and-engineers
 - production
 - career growth
 
+## Agent Summary
+
+- Why it matters: What Researchers and Engineers Can Learn from Each Other
+- Useful for: Future agents triaging machine learning, MLOps, academia, production and Guest Overview: Mihail's Roles and Work; Guest Background: Stanford NLP and Early Research; From NLP to Self-Driving: Shared Long-Tail Challenges.
+- Probably skip if: you do not need material from Mihail Eric or you are not working on machine learning, MLOps, academia.
+
 ## Chapter Headers
 
 - 1:17 - [Podcast Introduction](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=77)

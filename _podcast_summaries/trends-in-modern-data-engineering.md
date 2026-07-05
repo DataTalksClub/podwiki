@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adr
 - AI
 - open-source
 
+## Agent Summary
+
+- Why it matters: Trends in Data Engineering
+- Useful for: Future agents triaging data engineering, data governance, AI, open-source and Episode opening & guest introduction; Perspective on evolving data engineering challenges; Career journey: startups, freelancing, founding DLT.
+- Probably skip if: you do not need material from Adrian Brudaru or you are not working on data engineering, data governance, AI.
+
 ## Chapter Headers
 
 - 0:01 - [Episode opening & guest introduction](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1)

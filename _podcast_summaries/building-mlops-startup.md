@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-lear
 - entrepreneurship
 - founder
 
+## Agent Summary
+
+- Why it matters: I Want to Build a Machine Learning Startup!
+- Useful for: Future agents triaging startup, machine learning, MLOps, open-source and Guest Background: Elena Samuylova's ML & Startup Journey; Career Highlights: Yandex, Data Factory, and Industrial AI; Motivations: Startup vs. Employee Trade-offs.
+- Probably skip if: you do not need material from Elena Samuylova or you are not working on startup, machine learning, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-
 - applied research
 - career growth
 
+## Agent Summary
+
+- Why it matters: Build a Strong Career in Data
+- Useful for: Future agents triaging LLMs, NLP, MLOps, applied research and Episode Introduction & Topic Overview; Career Overview: From Software Engineering to ML & Master''s; Origin of ML Interest: Hackathons and Computer Vision.
+- Probably skip if: you do not need material from Lavanya Gupta or you are not working on LLMs, NLP, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=ekG5zJioyFs&t=0)

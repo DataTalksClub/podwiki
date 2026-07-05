@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineer-to-data
 - leadership
 - team building
 
+## Agent Summary
+
+- Why it matters: From Software Engineer to Data Science Manager
+- Useful for: Future agents triaging career transition, software engineering, data science, machine learning and Episode Overview: From Software Engineer to Data Science Manager; Early Career & Education: Aspiring Doctor, Electronics Bachelor, Informatics; Fraunhofer Research Assistant: Computer Vision and Car Dent Detection.
+- Probably skip if: you do not need material from Sadat Anwar or you are not working on career transition, software engineering, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xyTfqIWeKf8&t=0)

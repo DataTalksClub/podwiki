@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-reliable-ai-products-
 - MLOps
 - tools
 
+## Agent Summary
+
+- Why it matters: Building reliable AI products in the era of Gen AI and Agents
+- Useful for: Future agents triaging LLMs, AI, agent engineering, retrieval-augmented generation and Event Introduction & Community Links; Early ML Projects: Image Search with OpenCV; Speech Recognition & Language Modeling Experience.
+- Probably skip if: you do not need material from Ranjitha Kulkarni or you are not working on LLMs, AI, agent engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Event Introduction & Community Links](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=0)

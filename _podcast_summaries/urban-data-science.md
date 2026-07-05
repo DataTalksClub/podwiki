@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-
 - computer vision
 - data science
 
+## Agent Summary
+
+- Why it matters: Using Data to Create Liveable Cities
+- Useful for: Future agents triaging data engineering, LLMs, computer vision, data science and Episode Introduction; Guest Introduction: Rachel Lim, urban data scientist; Career Path: Geography to urban informatics and data engineering.
+- Probably skip if: you do not need material from Rachel Lim or you are not working on data engineering, LLMs, computer vision.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=0)

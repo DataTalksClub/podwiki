@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Applied Natural Language Processing in the Enterprise"
 source_book: "../datatalksclub.github.io/_books/20210726-applied-natural-language-processing-in-the-enterprise.md"
 source_url: "https://datatalks.club/books/20210726-applied-natural-language-processing-in-the-enterprise.html"
-authors: ['ankurapatel', 'Ajay Uppili Arasanipalai']
+authors: ['ankurapatel', 'ajayuppiliarasanipalai']
 author_names: ['Ankur A. Patel', 'Ajay Uppili Arasanipalai']
 qa_count: 123
 topics: ['ai']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ankur A. Patel](https://datatalks.club/people/ankurapatel.html), [Ajay Uppili Arasanipalai](https://datatalks.club/people/Ajay Uppili Arasanipalai.html).
+[Ankur A. Patel](https://datatalks.club/people/ankurapatel.html), Ajay Uppili Arasanipalai.
 
 ## Discussion Archive
 

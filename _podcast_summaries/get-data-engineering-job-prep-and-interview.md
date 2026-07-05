@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job
 - job search
 - tools
 
+## Agent Summary
+
+- Why it matters: Getting a Data Engineering Job (Summary and Q&A)
+- Useful for: Future agents triaging data engineering, job search, tools and Webinar Recap: Hiring Demand and Skill Gaps; Core Skills & Tools: Python, SQL, Docker, Airflow, Data Warehouses; Python & SQL Depth: Project Volume and Emphasis.
+- Probably skip if: you do not need material from Jeff Katz or you are not working on data engineering, job search, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=0)

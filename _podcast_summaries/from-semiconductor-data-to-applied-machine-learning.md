@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine
 - tools
 - career transition
 
+## Agent Summary
+
+- Why it matters: From Semiconductors to Machine Learning: A Career in Data and Teaching
+- Useful for: Future agents triaging machine learning, MLOps, data science, tools and Guest Overview: Multidisciplinary Career Snapshot; Career Pivot: From Classical Guitarist to Tech in Portland; Semiconductor Onboarding: Expediter Role and Fab Floor Experience.
+- Probably skip if: you do not need material from Dashel Ruiz Perez or you are not working on machine learning, MLOps, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & DataTalksClub](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=0)

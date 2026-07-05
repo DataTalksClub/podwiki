@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data
 - career transition
 - consulting
 
+## Agent Summary
+
+- Why it matters: Solopreneur Guide: Diversify Income with Courses, Consulting, Books & Side-Gigs
+- Useful for: Future agents triaging solopreneurship, entrepreneurship, career growth, career transition and Episode Topic & Guest Overview: Becoming a Solopreneur with Noah Gift; Early Career: TV, Caltech, Disney and Film Pipeline Experience; Transition to Independent Work: Solopreneur Since 2017.
+- Probably skip if: you do not need material from Noah Gift or you are not working on solopreneurship, entrepreneurship, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gCLUY37HGtw&t=0)

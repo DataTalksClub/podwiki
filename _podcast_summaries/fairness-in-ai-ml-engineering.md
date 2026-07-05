@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamar
 - data governance
 - fairness
 
+## Agent Summary
+
+- Why it matters: Linguistics and Fairness
+- Useful for: Future agents triaging machine learning, LLMs, open-source, tools and Guest Introduction: Tamara's Open-Source Roles (Fairlearn, scikit-learn,; Career Overview: Software Engineering to Computational Linguistics; Music Tech Experience: Ableton and Push 2 Instrument Design.
+- Probably skip if: you do not need material from Tamara Atanasoska or you are not working on machine learning, LLMs, open-source.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=0)

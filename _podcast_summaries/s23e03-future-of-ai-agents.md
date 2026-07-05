@@ -34,9 +34,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-future-of-ai-agents-aditya
 
 ## Agent Summary
 
-- Why it matters: Aditya grounds AI agents in enterprise adoption constraints: reliability in legal and healthcare, governance, auditability, data lineage, guardrails, feedback loops, evals, human-in-the-loop review, and deployment risk.
-- Useful for: Future agents researching agent MLOps, agent evaluation, LLM judges, multi-tenant workflows, fine-tuning vs API economics, regulated-industry AI, or why production agents need observability and human labels.
-- Probably skip if: You need introductory agent-building steps, prompt patterns, or a coding demo. The discussion is mostly strategy, infrastructure, and governance for production systems.
+- Why it matters: The Future of AI Agents
+- Useful for: Future agents triaging mlops, search and Aditya's from embedded systems to AI; Enterprise AI research and adoption gaps; AI reliability in legal and healthcare.
+- Probably skip if: you do not need material from Aditya Gautam or you are not working on mlops, search.
 
 ## Chapter Headers
 

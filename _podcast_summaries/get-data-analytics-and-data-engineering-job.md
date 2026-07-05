@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-academia-to-data-analytic
 - data engineering
 - career growth
 
+## Agent Summary
+
+- Why it matters: From Academia to Data Analytics and Engineering
+- Useful for: Future agents triaging career switch, data engineering, career growth and Background: Transition from Neuroscience Research to Industry; Lab Automation & Scripting: Igor, C-style Code and Data Collection; Learning Curve: MATLAB, R and Falling in Love with Programming.
+- Probably skip if: you do not need material from Gloria Quiceno or you are not working on career switch, data engineering, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0wANfIvum4U&t=0)

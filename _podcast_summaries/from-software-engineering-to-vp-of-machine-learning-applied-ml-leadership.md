@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-succes
 - leadership
 - software engineering
 
+## Agent Summary
+
+- Why it matters: The Unwritten Rules for Success in Machine Learning
+- Useful for: Future agents triaging machine learning, MLOps, tools, career transition and Guest Overview: Jack's career arc from software engineer to VP of ML; Career Pivot: Transition from full-stack engineering to data science; Early Leadership: Informal management and promotion at GoHealth.
+- Probably skip if: you do not need material from Jack Blandin or you are not working on machine learning, MLOps, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=su2M058m3Lw&t=0)

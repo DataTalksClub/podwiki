@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 from podcast_source_data import (
@@ -20,6 +21,9 @@ DEFAULT_BOOK_SOURCE = ROOT.parent / "datatalksclub.github.io" / "_books"
 DEFAULT_PODCAST_TARGET = ROOT / "_podcast_summaries"
 DEFAULT_PEOPLE_TARGET = ROOT / "_people"
 DEFAULT_BOOK_TARGET = ROOT / "_books"
+CANONICAL_ENTITY_URL_RE = re.compile(
+    r"https://datatalks\.club/(?:people|books|podcast)/[^\s\)\"'<]*[ \t][^\n\)\"'<]*?\.html"
+)
 
 
 def markdown_stems(path: Path) -> set[str]:
@@ -54,15 +58,34 @@ def book_source_stems(source: Path) -> set[str]:
     return expected
 
 
-def report_stale(label: str, expected: set[str], actual: set[str]) -> list[str]:
+def report_records(label: str, expected: set[str], actual: set[str]) -> list[str]:
+    missing = sorted(expected - actual)
     stale = sorted(actual - expected)
-    if not stale:
-        print(f"{label}: {len(actual)} records, 0 stale")
-        return []
-    print(f"{label}: {len(actual)} records, {len(stale)} stale")
+    print(f"{label}: {len(actual)} records, {len(missing)} missing, {len(stale)} stale")
+    problems: list[str] = []
+    for slug in missing:
+        print(f"  missing - {slug}.md")
+        problems.append(f"{label}/{slug}.md")
     for slug in stale:
-        print(f"  - {slug}.md")
-    return [f"{label}/{slug}.md" for slug in stale]
+        print(f"  stale - {slug}.md")
+        problems.append(f"{label}/{slug}.md")
+    return problems
+
+
+def report_malformed_canonical_urls(paths: list[Path]) -> list[str]:
+    problems: list[str] = []
+    for directory in paths:
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("*.md")):
+            if path.name == "README.md":
+                continue
+            text = path.read_text(encoding="utf-8")
+            for match in CANONICAL_ENTITY_URL_RE.finditer(text):
+                rel = path.relative_to(ROOT)
+                print(f"malformed canonical URL - {rel}: {match.group(0)}")
+                problems.append(f"{rel}: {match.group(0)}")
+    return problems
 
 
 def main() -> int:
@@ -75,32 +98,37 @@ def main() -> int:
     parser.add_argument("--book-target", type=Path, default=DEFAULT_BOOK_TARGET)
     args = parser.parse_args()
 
-    stale: list[str] = []
-    stale.extend(
-        report_stale(
+    problems: list[str] = []
+    problems.extend(
+        report_records(
             "_podcast_summaries",
             podcast_source_stems(args.podcast_source),
             markdown_stems(args.podcast_target),
         )
     )
-    stale.extend(
-        report_stale(
+    problems.extend(
+        report_records(
             "_people",
             people_source_stems(args.people_source, args.podcast_source),
             markdown_stems(args.people_target),
         )
     )
-    stale.extend(
-        report_stale(
+    problems.extend(
+        report_records(
             "_books",
             book_source_stems(args.book_source),
             markdown_stems(args.book_target),
         )
     )
+    problems.extend(
+        report_malformed_canonical_urls(
+            [args.podcast_target, args.people_target, args.book_target]
+        )
+    )
 
-    if stale:
+    if problems:
         print("")
-        print("Remove or migrate stale source-derived records before building graph/search.")
+        print("Run source sync or remove stale source-derived records before building graph/search.")
         return 1
     return 0
 

@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-scien
 - management
 - machine learning
 
+## Agent Summary
+
+- Why it matters: The Secret Sauce of Data Science Management
+- Useful for: Future agents triaging management, machine learning and Episode Introduction: The Secret Sauce of Data Science Management; Career Background: Electrical Engineering to Document Intelligence at Intuit; Military Leadership Lessons: Pilot Training & Debrief Culture Origins.
+- Probably skip if: you do not need material from Shir Meir Lador or you are not working on management, machine learning.
+
 ## Chapter Headers
 
 - 1:40 - [Episode Introduction: The Secret Sauce of Data Science Management](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=100)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-essentials-
 - data engineering
 - data science
 
+## Agent Summary
+
+- Why it matters: Product Management Essentials for Data Professionals
+- Useful for: Future agents triaging product management, MLOps, data engineering, data science and Episode Introduction & Guest Overview; Career Background & Transition to AI Products; Role & Responsibilities of Data Product Managers (Internal vs External).
+- Probably skip if: you do not need material from Greg Coquillo or you are not working on product management, MLOps, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=0)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-roasting-coffee-to-backen
 - job search
 - career growth
 
+## Agent Summary
+
+- Why it matters: From Roasting Coffee to Backend Development
+- Useful for: Future agents triaging career switch, machine learning, job search, career growth and Career Origin: From Film & Coffee Roasting to Tech; Community Support & Early Conference Exposure (PyLadies, meetups); Learning Path: Codecademy, Andrew Ng Course & FreeCodeCamp.
+- Probably skip if: you do not need material from Jessica Greene or you are not working on career switch, machine learning, job search.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=BKqmNdxsBko&t=0)

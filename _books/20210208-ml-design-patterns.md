@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Machine Learning Design Patterns"
 source_book: "../datatalksclub.github.io/_books/20210208-ml-design-patterns.md"
 source_url: "https://datatalks.club/books/20210208-ml-design-patterns.html"
-authors: ['Valliappa Lakshmanan', 'Sara Robinson', 'michaelmunn']
+authors: ['valliappalakshmanan', 'sararobinson', 'michaelmunn']
 author_names: ['Valliappa Lakshmanan', 'Sara Robinson', 'Michael Munn']
 qa_count: 49
 topics: ['machine learning']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Valliappa Lakshmanan](https://datatalks.club/people/Valliappa Lakshmanan.html), [Sara Robinson](https://datatalks.club/people/Sara Robinson.html), [Michael Munn](https://datatalks.club/people/michaelmunn.html).
+Valliappa Lakshmanan, [Sara Robinson](https://datatalks.club/people/sararobinson.html), [Michael Munn](https://datatalks.club/people/michaelmunn.html).
 
 ## Discussion Archive
 

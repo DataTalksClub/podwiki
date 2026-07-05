@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/staff-ai-engineer-tatiana-gabr
 - staff AI engineer
 - career growth
 
+## Agent Summary
+
+- Why it matters: Transitioning from Academia to Industry as a Staff AI Engineer
+- Useful for: Future agents triaging machine learning, career transition, MLOps, staff AI engineer and Episode kickoff and guest reintroduction; Guest background: physics → healthcare → machine learning; Onboarding shock at LinkedIn and industry mindset shift.
+- Probably skip if: you do not need material from Tatiana Gabruseva or you are not working on machine learning, career transition, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=_xr1_xb736E&t=0)

@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-industrial-data-cha
 - synthetic tabular data
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Navigating Industrial Data Challenges
+- Useful for: Future agents triaging industrial data, synthetic tabular data, MLOps and Episode Intro: Guest Overview & Synthetic Tabular Data Focus; Career Pivot: From PhD Algebraic Topology to Industry; Academic Roots: 3D Topological Models and Research Background.
+- Probably skip if: you do not need material from Rosona Eldred or you are not working on industrial data, synthetic tabular data, MLOps.
+
 ## Chapter Headers
 
 - 1:23 - [Episode Intro: Guest Overview & Synthetic Tabular Data Focus](https://www.youtube.com/watch?v=rwuud5wr3J4&t=83)

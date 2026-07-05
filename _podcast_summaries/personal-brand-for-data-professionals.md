@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/personal-branding-admond-lee-k
 - career growth
 - monetization
 
+## Agent Summary
+
+- Why it matters: Personal Branding
+- Useful for: Future agents triaging personal brand, career growth, monetization and Guest Introduction and Career Journey; Personal Brand Defined: Purpose and Positioning; Starting an Online Presence: First Steps and Mindset.
+- Probably skip if: you do not need material from Admond Lee Kin Lim or you are not working on personal brand, career growth, monetization.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=0)

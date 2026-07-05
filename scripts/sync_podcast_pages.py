@@ -92,10 +92,65 @@ def chapter_labels(podcast: dict[str, object], limit: int = 5) -> list[str]:
             continue
         if label.lower().startswith("transcript checkpoint"):
             label = label.split(":", 1)[-1].strip()
+        if label.lower().startswith("transcript excerpt"):
+            label = label.split(":", 1)[-1].strip()
         labels.append(label)
         if len(labels) >= limit:
             break
     return labels
+
+
+def agent_summary_section(podcast: dict[str, object], people: dict[str, dict[str, object]]) -> str:
+    title = clean_text(podcast.get("title") or podcast.get("slug") or "this episode")
+    source_summary = sentence(
+        podcast.get("short") or podcast.get("intro") or podcast.get("description"),
+        max_chars=340,
+    )
+    concepts = concept_labels(podcast)
+    chapters = chapter_labels(podcast, limit=4)
+    guest_slugs = podcast.get("guests")
+    guest_names = []
+    if isinstance(guest_slugs, list):
+        guest_names = [person_label(str(slug), people) for slug in guest_slugs if str(slug).strip()]
+
+    if source_summary:
+        why = source_summary
+    elif concepts:
+        why = f"Connects {', '.join(concepts[:3])} to a DataTalks.Club podcast discussion."
+    else:
+        why = f"Source-derived record for {title}."
+
+    useful_bits = []
+    if concepts:
+        useful_bits.append(", ".join(concepts[:4]))
+    if chapters:
+        useful_bits.append("; ".join(chapters[:3]))
+    useful_for = "Future agents triaging " + " and ".join(useful_bits) + "."
+    if not useful_bits:
+        useful_for = "Future agents deciding whether to open the source episode for transcript-level evidence."
+
+    skip_bits = []
+    if guest_names:
+        skip_bits.append(f"you do not need material from {', '.join(guest_names[:2])}")
+    if concepts:
+        skip_bits.append(f"you are not working on {', '.join(concepts[:3])}")
+    if skip_bits:
+        probably_skip = "Probably skip if: " + " or ".join(skip_bits) + "."
+    else:
+        probably_skip = (
+            "Probably skip if: you need a different domain or a transcript-verified quote "
+            "rather than source-index triage."
+        )
+
+    return "\n".join(
+        [
+            "## Agent Summary",
+            "",
+            f"- Why it matters: {why}",
+            f"- Useful for: {useful_for}",
+            f"- {probably_skip}",
+        ]
+    )
 
 
 def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) -> str:
@@ -136,6 +191,8 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
             lines.append(f"- {concept}")
     else:
         lines.append("- No explicit topic metadata is available. Use the chapter summary before relying on this episode.")
+
+    lines.extend(["", agent_summary_section(podcast, people)])
 
     chapters = podcast.get("chapters")
     lines.extend(["", "## Chapter Headers", ""])
@@ -194,18 +251,19 @@ def replace_section(text: str, heading: str, section: str) -> str:
     return text[:start] + section.strip() + "\n" + text[next_start:]
 
 
-def preserve_curated_sections(rendered: str, existing: str) -> str:
+def preserve_curated_sections(rendered: str, existing: str, generated_has_fallback: bool = False) -> str:
     agent_summary = markdown_section(existing, "Agent Summary")
     if agent_summary:
-        rendered = insert_before_heading(rendered, "Chapter Headers", agent_summary)
+        rendered = replace_section(rendered, "Agent Summary", agent_summary)
 
     existing_chapters = markdown_section(existing, "Chapter Headers")
     generated_chapters = markdown_section(rendered, "Chapter Headers")
-    if (
-        existing_chapters
-        and "Transcript checkpoint" not in existing_chapters
-        and "Transcript checkpoint" in generated_chapters
-    ):
+    generated_is_fallback = (
+        generated_has_fallback
+        or "Transcript checkpoint" in generated_chapters
+        or "Transcript excerpt" in generated_chapters
+    )
+    if existing_chapters and "Transcript checkpoint" not in existing_chapters and generated_is_fallback:
         rendered = replace_section(rendered, "Chapter Headers", existing_chapters)
 
     return rendered
@@ -238,7 +296,16 @@ def render_page(source: Path, target: Path, people: dict[str, dict[str, object]]
 
     rendered = "\n".join(frontmatter) + page_body(podcast, people)
     if target.exists():
-        rendered = preserve_curated_sections(rendered, target.read_text(encoding="utf-8"))
+        chapters = podcast.get("chapters")
+        generated_has_fallback = any(
+            isinstance(chapter, dict) and bool(chapter.get("fallback"))
+            for chapter in chapters
+        ) if isinstance(chapters, list) else False
+        rendered = preserve_curated_sections(
+            rendered,
+            target.read_text(encoding="utf-8"),
+            generated_has_fallback=generated_has_fallback,
+        )
     if target.exists() and target.read_text(encoding="utf-8") == rendered:
         return False
     target.write_text(rendered, encoding="utf-8")

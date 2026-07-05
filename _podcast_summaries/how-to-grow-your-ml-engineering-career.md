@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-career-changes-in-m
 - hiring
 - career strategy
 
+## Agent Summary
+
+- Why it matters: How to Grow Your ML Engineering Career
+- Useful for: Future agents triaging machine learning, career transitions, LLMs, hiring and Career Overview: Web, Game Development, and Python; Mobile & Game Development: HTML5, Objective-C, Swift, and Unity; Career Transitions: Adapting Between Stacks and Roles.
+- Probably skip if: you do not need material from Krzysztof Szafanek or you are not working on machine learning, career transitions, LLMs.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=0)

@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/doing-software-engineering-in-
 - academia
 - teaching
 
+## Agent Summary
+
+- Why it matters: Teaching Open Science & Reproducible Research
+- Useful for: Future agents triaging open science, software engineering, academia, teaching and Guest Background: Johanna Bayer - Psychology to Machine Learning in Neuroimaging; Academic Journey: Studies in Germany, Zurich and Move to Melbourne; Teaching Open Science: Intro to Git, Homework Support and Course Structure.
+- Probably skip if: you do not need material from Johanna Bayer or you are not working on open science, software engineering, academia.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineering-for-fraud-pre
 - graph databases
 - software engineering
 
+## Agent Summary
+
+- Why it matters: Data Engineering for Fraud Prevention
+- Useful for: Future agents triaging data engineering, MLOps, fraud detection, graph databases and Career Journey: Sephora to Sam''s Club; Fraud Detection in Retail: Stolen Cards & Return Abuse; Data Engineering for Fraud: Pipelines, Features, Dashboards.
+- Probably skip if: you do not need material from Angela Ramirez or you are not working on data engineering, MLOps, fraud detection.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction & Guest Overview (Angela Ramirez)](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=0)

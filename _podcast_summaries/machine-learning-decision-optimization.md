@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/translating-ml-predictions-int
 - machine learning
 - decision optimization
 
+## Agent Summary
+
+- Why it matters: Decision Optimization
+- Useful for: Future agents triaging machine learning, decision optimization and Gap: Machine Learning Predictions vs. Real-World Decisions; Prescriptive Analytics: Role in ML Pipelines; Formulating Optimization Problems: Objectives and Constraints.
+- Probably skip if: you do not need material from Dan Becker or you are not working on machine learning, decision optimization.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=0)

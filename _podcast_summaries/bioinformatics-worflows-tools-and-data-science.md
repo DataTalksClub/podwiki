@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinfor
 - open-source
 - tools
 
+## Agent Summary
+
+- Why it matters: Applying Data Science Concepts, Tools, and Workflows to Accelerate Biological Research
+- Useful for: Future agents triaging bioinformatics, LLMs, MLOps, open-source and Career Transition: Biotechnology to Bioinformatics Software; Master's Thesis Overview: Wastewater Microbiome Knowledge Graph; Bioinformatics Role: Reducing Lab Experiments with Computational Analysis.
+- Probably skip if: you do not need material from Sebastian Ayala Ruano or you are not working on bioinformatics, LLMs, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=0)

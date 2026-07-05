@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-and-consulting-wit
 - career growth
 - tools
 
+## Agent Summary
+
+- Why it matters: Freelancing and Consulting with Data Engineering
+- Useful for: Future agents triaging data engineering, freelance, career growth, tools and Episode Introduction; Guest Overview: Adrian's Move to Freelancing; Career Journey: Economics & Marketing to Data Engineering.
+- Probably skip if: you do not need material from Adrian Brudaru or you are not working on data engineering, freelance, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=9DTTrN-khCk&t=0)

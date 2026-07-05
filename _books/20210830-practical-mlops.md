@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Practical MLOps"
 source_book: "../datatalksclub.github.io/_books/20210830-practical-mlops.md"
 source_url: "https://datatalks.club/books/20210830-practical-mlops.html"
-authors: ['noahgift', 'Alfredo Deza']
+authors: ['noahgift', 'alfredodeza']
 author_names: ['Noah Gift', 'Alfredo Deza']
 qa_count: 73
 topics: ['mlops']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Noah Gift](https://datatalks.club/people/noahgift.html), [Alfredo Deza](https://datatalks.club/people/Alfredo Deza.html).
+[Noah Gift](https://datatalks.club/people/noahgift.html), Alfredo Deza.
 
 ## Discussion Archive
 

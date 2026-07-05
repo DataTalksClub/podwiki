@@ -38,6 +38,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/indie-hacking-pauline-clavello
 - entrepreneurship
 - freelance
 
+## Agent Summary
+
+- Why it matters: Indie Hacking and Bootstrapping Side Projects for Data Scientists
+- Useful for: Future agents triaging indie hacking, bootstrapping, side projects, data science and Episode Introduction; Career Journey: Engineering Student to IBM Data Scientist; Consulting Work: Project Types and Client Engagement.
+- Probably skip if: you do not need material from Pauline Clavelloux or you are not working on indie hacking, bootstrapping, side projects.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=0)

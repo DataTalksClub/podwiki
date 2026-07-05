@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/defining-success-metrics-and-k
 - metrics
 - communication
 
+## Agent Summary
+
+- Why it matters: Defining Success: Metrics and KPIs
+- Useful for: Future agents triaging machine learning, leadership, data science, product management and Guest Introduction & Career Path; From Physics PhD to Data Science and Reinforcement Learning; Moving into Consultancy: BI, Dashboards, and Client Workshops.
+- Probably skip if: you do not need material from Adam Sroka or you are not working on machine learning, leadership, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=0)

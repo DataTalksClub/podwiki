@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-t
 - data teams
 - tools
 
+## Agent Summary
+
+- Why it matters: From Data Science to DataOps
+- Useful for: Future agents triaging DataOps, GitOps, data teams, tools and Guest Introduction & Episode Overview; Career Journey: Econometrics → ML Trainee → Data Roles; Early Experience: OLX, Government Statistics, Academia.
+- Probably skip if: you do not need material from Tomasz Hinc or you are not working on DataOps, GitOps, data teams.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lem7knxqNzg&t=0)

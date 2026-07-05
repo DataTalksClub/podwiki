@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-machine-learning-prod
 - MLOps
 - data engineering
 
+## Agent Summary
+
+- Why it matters: Building Machine Learning Products
+- Useful for: Future agents triaging LLMs, NLP, machine learning, MLOps and Guest Introduction: Daniel, Superlinked, and VectorHub; Career Journey: Competitive programming, startups, and YouTube Ads; Competitive Programming to Infrastructure: relevance of algorithms.
+- Probably skip if: you do not need material from Reem Mahmoud or you are not working on LLMs, NLP, machine learning.
+
 ## Chapter Headers
 
 - 1:47 - [Guest Introduction: Daniel, Superlinked, and VectorHub](https://www.youtube.com/watch?v=m45tNY-8gY8&t=107)

@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Graph Databases in Action"
 source_book: "../datatalksclub.github.io/_books/20210614-graph-databases-in-action.md"
 source_url: "https://datatalks.club/books/20210614-graph-databases-in-action.html"
-authors: ['davebechberger', 'Josh Perryman']
+authors: ['davebechberger', 'joshperryman']
 author_names: ['Dave Bechberger', 'Josh Perryman']
 qa_count: 75
 topics: ['graph databases']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Dave Bechberger](https://datatalks.club/people/davebechberger.html), [Josh Perryman](https://datatalks.club/people/Josh Perryman.html).
+[Dave Bechberger](https://datatalks.club/people/davebechberger.html), Josh Perryman.
 
 ## Discussion Archive
 

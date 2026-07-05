@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-star
 - career transition
 - startups
 
+## Agent Summary
+
+- Why it matters: MLOps in Corporations and Startups
+- Useful for: Future agents triaging MLOps, data engineering, tools, production and Episode Introduction & Topic Overview; Career Journey: Academia → Consulting → Finance Machine Learning Engineering; Startup Pace: Agility, Speed, and Managerial Insights.
+- Probably skip if: you do not need material from Nemanja Radojkovic or you are not working on MLOps, data engineering, tools.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=DX9c__a4jzg&t=0)

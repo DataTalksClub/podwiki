@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541
 - data science
 - practices
 
+## Agent Summary
+
+- Why it matters: A/B Testing
+- Useful for: Future agents triaging data science, practices and Guest Background & Career Transition to Data Science; Econometrics to Product Analytics: Causality Emphasis; A/B Testing Explained: Clinical Trials Analogy & Randomization.
+- Probably skip if: you do not need material from Jakob Graff or you are not working on data science, practices.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=0)

@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-anniversary-int
 - data engineering
 - MLOps
 
+## Agent Summary
+
+- Why it matters: DataTalks.Club Anniversary Interview
+- Useful for: Future agents triaging community building, machine learning, data science, data engineering and Episode Opening & DataTalks.Club 3rd Anniversary; Career Shift: From Java Developer to Machine Learning & Python; Transition: Full-time on DataTalks.Club; engineering-heavy roles.
+- Probably skip if: you do not need material from Alexey Grigorev, Johanna Bayer or you are not working on community building, machine learning, data science.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & DataTalks.Club 3rd Anniversary](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=0)

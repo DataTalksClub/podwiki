@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-f
 - career growth
 - consulting
 
+## Agent Summary
+
+- Why it matters: The Entrepreneurship Journey: From Freelancing to Starting a Company
+- Useful for: Future agents triaging entrepreneurship, freelance, startups, business development and Episode Overview: Building an Open-Source Data Company; Career Origins: 2012 Berlin Startups and Corporate Exit; Freelancing Experience: Autonomy, Savings, Diverse Projects.
+- Probably skip if: you do not need material from Adrian Brudaru or you are not working on entrepreneurship, freelance, startups.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=0)

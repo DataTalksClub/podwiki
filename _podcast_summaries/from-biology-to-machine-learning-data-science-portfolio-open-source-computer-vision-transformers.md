@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-advice-learning-and-fea
 - bioinformatics
 - career transition
 
+## Agent Summary
+
+- Why it matters: Career advice, learning, and featuring women in ML and AI
+- Useful for: Future agents triaging machine learning, computer vision, open-source, bioinformatics and Episode Introduction: Continuous Learning in Data Science (guest Isabella; Career Overview: Transition from Biology to Machine Learning; Statistics as Gateway to Machine Learning; Progression to Transformers.
+- Probably skip if: you do not need material from Isabella Bicalho or you are not working on machine learning, computer vision, open-source.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction: Continuous Learning in Data Science (guest Isabella](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=0)

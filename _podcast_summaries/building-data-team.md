@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-data-science-team-d
 - MLOps
 - startup
 
+## Agent Summary
+
+- Why it matters: Building a Data Science Team
+- Useful for: Future agents triaging leadership, team building, machine learning, MLOps and Guest Overview & Career Snapshot; Early Background: Economics, Investment Banking & Early Coding; From VBA Automation to Machine Learning Interest.
+- Probably skip if: you do not need material from Dat Tran or you are not working on leadership, team building, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ScDIB-3O77A&t=0)

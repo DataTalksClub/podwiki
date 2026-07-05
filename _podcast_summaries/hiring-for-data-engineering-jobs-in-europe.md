@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nico
 - career transition
 - career growth
 
+## Agent Summary
+
+- Why it matters: Recruiting Data Engineers
+- Useful for: Future agents triaging data engineering, career transition, career growth and Episode Opening & Guest Welcome; Guest Background and Career Path; Onfido Role & European Hiring Footprint.
+- Probably skip if: you do not need material from Nicolas Rassam or you are not working on data engineering, career transition, career growth.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Opening & Guest Welcome](https://www.youtube.com/watch?v=hylxiu4VGTo&t=0)

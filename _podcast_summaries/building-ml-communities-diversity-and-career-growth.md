@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-adoption-of-a
 - diversity
 - career growth
 
+## Agent Summary
+
+- Why it matters: Accelerating the Adoption of AI through Diversity
+- Useful for: Future agents triaging data science, machine learning, community building, diversity and Guest Introduction: Dania - AI Guild co-founder, machine learning background; Early Career: Applied math, Spark vs Hadoop thesis and marketing analytics; Move to Berlin: Startup roles and building end-to-end data skills.
+- Probably skip if: you do not need material from Dânia Meira or you are not working on data science, machine learning, community building.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=0)

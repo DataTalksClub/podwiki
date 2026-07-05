@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa
 - communication
 - team building
 
+## Agent Summary
+
+- Why it matters: Chief Data Officer
+- Useful for: Future agents triaging data strategy, data governance, AI, leadership and Guest Overview: Marco''s Career & Roles; Industry Experience: Yahoo, Facebook, Twitter, Spotify; Transition to OLX Group and CDO Appointment.
+- Probably skip if: you do not need material from Marco De Sa or you are not working on data strategy, data governance, AI.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IdaZOD46FEw&t=0)

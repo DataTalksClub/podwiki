@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/practical-data-privacy-kathari
 - machine learning
 - federated learning
 
+## Agent Summary
+
+- Why it matters: Practical Data Privacy
+- Useful for: Future agents triaging data governance, data privacy, machine learning, federated learning and Episode Introduction; Guest Introduction: Katharine Jarmul - privacy activist, ML engineer, ThoughtWorks,; Career Journey: data journalism, NLP, consulting, and machine learning.
+- Probably skip if: you do not need material from Katharine Jarmul or you are not working on data governance, data privacy, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=0)

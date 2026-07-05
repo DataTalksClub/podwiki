@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-job-hunt-for-
 - career transition
 - job search
 
+## Agent Summary
+
+- Why it matters: Accelerating The Job Hunt for The Perfect Job in Tech
+- Useful for: Future agents triaging MLOps, data engineering, machine learning, career transition and Guest Introduction & Coaching Mission; Career Path: Computer Science, Full-Stack to Data Science; AdTech Experience & Thriving Career Moms Project.
+- Probably skip if: you do not need material from Sarah Mestiri or you are not working on MLOps, data engineering, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=PchwbIs0tOg&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-domestic-risk-asses
 - data governance
 - MLOps
 
+## Agent Summary
+
+- Why it matters: Building a Domestic Risk Assessment Tool
+- Useful for: Future agents triaging data science, machine learning, data engineering, data governance and Episode Overview: Building a Domestic Risk Assessment Tool; Problem Framing: Identifying Risk in Domestic Contexts; Project Scope: Objectives, Users, and Impact Goals.
+- Probably skip if: you do not need material from Sabina Firtala or you are not working on data science, machine learning, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=0)

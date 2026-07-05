@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-professionals-
 - career transition
 - hiring
 
+## Agent Summary
+
+- Why it matters: Recruiting Data Professionals
+- Useful for: Future agents triaging data science, data analytics, job search, career transition and Guest Background & Recruiting Experience; Current Role: Embedded Talent Agency & Client Lead; Typical Interview Funnel for Data Roles.
+- Probably skip if: you do not need material from Alicja Notowska or you are not working on data science, data analytics, job search.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=0)

@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-started-with-open-sour
 - machine learning
 - tools
 
+## Agent Summary
+
+- Why it matters: Getting Started with Open Source
+- Useful for: Future agents triaging open-source, data science, career development, contributing and Guest Background: From Design Student to Data Scientist; Career Pivot: Teaching, Consulting, and Early AI Courses; Role Explained: Research Advocate Responsibilities.
+- Probably skip if: you do not need material from Vincent Warmerdam or you are not working on open-source, data science, career development.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction and Episode Overview](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=0)

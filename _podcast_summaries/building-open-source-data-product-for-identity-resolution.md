@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-
 - open-source
 - product management
 
+## Agent Summary
+
+- Why it matters: Building an Open-Source ML-Powered Identity Resolution Tool
+- Useful for: Future agents triaging machine learning, MLOps, data engineering, open-source and Guest Overview: Sonal Goyal and Zingg identity resolution; Career Overview: 24 years in tech, data consulting background; Origin Story: Consulting projects reveal recurring identity gaps.
+- Probably skip if: you do not need material from Sonal Goyal or you are not working on machine learning, MLOps, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lpjffCOPxlY&t=0)

@@ -35,6 +35,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/inclusive-data-leadership-coac
 - team building
 - data strategy
 
+## Agent Summary
+
+- Why it matters: Inclusive Data Leadership Coaching
+- Useful for: Future agents triaging leadership, career transition, communication, team building and Episode Introduction & Guest Re-introduction (Inclusive Data Leadership Coaching); Career Journey: From Computer Science PhD to Data Lead and Coach; Transition to Coaching: Stepping back from product responsibility.
+- Probably skip if: you do not need material from Tereza Iofciu or you are not working on leadership, career transition, communication.
+
 ## Chapter Headers
 
 - 1:26 - [Episode Introduction & Guest Re-introduction (Inclusive Data Leadership Coaching)](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=86)

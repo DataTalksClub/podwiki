@@ -38,6 +38,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/similarities-and-differences-b
 - leadership
 - career growth
 
+## Agent Summary
+
+- Why it matters: Similarities and Differences between ML and Analytics
+- Useful for: Future agents triaging machine learning, production, data analytics, MLOps and Episode Introduction & Guest Overview; Career Path: Data Infrastructure and Stanford ML Background; Sales Engineering: Demos, POCs and Data Integration.
+- Probably skip if: you do not need material from Rishabh Bhargava or you are not working on machine learning, production, data analytics.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=0)

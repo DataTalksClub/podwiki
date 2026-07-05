@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Transfer Learning in Action"
 source_book: "../datatalksclub.github.io/_books/20211004-transfer-learning-in-action.md"
 source_url: "https://datatalks.club/books/20211004-transfer-learning-in-action.html"
-authors: ['Dipanjan Sarkar', 'raghavbali']
+authors: ['dipanjansarkar', 'raghavbali']
 author_names: ['Dipanjan Sarkar', 'Raghav Bali']
 qa_count: 37
 topics: ['rag']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Dipanjan Sarkar](https://datatalks.club/people/Dipanjan Sarkar.html), [Raghav Bali](https://datatalks.club/people/raghavbali.html).
+Dipanjan Sarkar, [Raghav Bali](https://datatalks.club/people/raghavbali.html).
 
 ## Discussion Archive
 

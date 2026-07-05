@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/moving-from-academia-to-indust
 - academia
 - career growth
 
+## Agent Summary
+
+- Why it matters: Moving from Academia to Industry
+- Useful for: Future agents triaging career transition, machine learning, academia, career growth and Career Journey: Postdoc to Data Science Lead; Evolutionary Biology: Statistics & Population Dynamics; Academic Research as Data Science Practice: Genomics & Bash.
+- Probably skip if: you do not need material from CJ Jenkins or you are not working on career transition, machine learning, academia.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=m4F651BpUFk&t=0)

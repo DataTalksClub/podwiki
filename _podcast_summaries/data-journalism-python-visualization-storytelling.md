@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/technical-writing-and-data-jou
 - data visualization
 - tools
 
+## Agent Summary
+
+- Why it matters: Technical Writing and Data Journalism
+- Useful for: Future agents triaging data journalism, data science, data visualization, tools and Guest Introduction: Angelica Lo Duca, researcher & professor; Career Journey: Cryptography to Web Applications and Data Science; Data Engineering Research Interests: security and data integrity.
+- Probably skip if: you do not need material from Angelica Lo Duca or you are not working on data journalism, data science, data visualization.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uO_lk12q02A&t=0)

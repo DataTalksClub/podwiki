@@ -37,6 +37,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/make-an-impact-through-volunte
 - mentorship
 - career growth
 
+## Agent Summary
+
+- Why it matters: Make an Impact Through Volunteering Open Source Work
+- Useful for: Future agents triaging computer vision, machine learning, data engineering, open-source and Episode Overview: Volunteering, Open Source & Community Impact; Career Origins: Early AI Interest and Education Path; Academic Focus: Big Data Specialization and Computer Vision.
+- Probably skip if: you do not need material from Sara EL-ATEIF or you are not working on computer vision, machine learning, data engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=0)

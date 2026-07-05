@@ -36,9 +36,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/inside-the-ai-engineer-role-to
 
 ## Agent Summary
 
-- Why it matters: Maps the emerging AI engineer role through Ruslan's move from business roles and data science into GenAI work, emphasizing side projects, product discovery, fast prototyping, and applied LLM system skills.
-- Useful for: AI engineer role definitions, DS-to-AI-engineer transitions, hiring signals beyond degrees, side-project strategy, local AI community building, and using AI tools to learn rather than only vibe code.
-- Probably skip if: You need beginner career-break guidance, detailed RAG code walkthroughs, or a narrowly technical comparison of model frameworks and vector databases.
+- Why it matters: Inside the AI Engineer Role: Tools, Skills, and Career Path
+- Useful for: Future agents triaging data science, ai engineering, ai engineer, hiring and From Account Management to Data Science; Building Branch GPT and Side Project Philosophy; Transitioning to AI Engineering Full-Time.
+- Probably skip if: you do not need material from Ruslan Shchuchkin or you are not working on data science, ai engineering, ai engineer.
 
 ## Chapter Headers
 

@@ -35,9 +35,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle
 
 ## Agent Summary
 
-- Why it matters: Reframes competitions as learning loops and career artifacts, not just leaderboard rank, with concrete discussion of GitHub repos, writeups, research challenges, and specialized platforms beyond Kaggle.
-- Useful for: Portfolio guidance, career-transition advice, Kaggle alternatives, beginner competition roadmaps, technical-marketing pages, and research-publication paths from competition work.
-- Probably skip if: You only need production ML deployment practices or a narrow Kaggle medal strategy. The strongest value is in learning, artifacts, and opportunity creation.
+- Why it matters: Competitions: Beyond the Kaggle Leaderboard
+- Useful for: Future agents triaging machine learning, portfolio, search and Tatiana's journey from academia to staff software engineer; Machine learning applications in physics and signal processing; Skill development and domain diversification on Kaggle.
+- Probably skip if: you do not need material from Tatiana Gabruseva or you are not working on machine learning, portfolio, search.
 
 ## Chapter Headers
 

@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-scientists-at-work-m%C4%B
 - career growth
 - job search
 
+## Agent Summary
+
+- Why it matters: Data Scientists at Work
+- Useful for: Future agents triaging data science, career growth, job search and Episode Introduction; Misra Career Path: From Big Data Engineering to Content Creator; Transition to Developer Advocate and Content Work.
+- Probably skip if: you do not need material from Mısra Turp or you are not working on data science, career growth, job search.
+
 ## Chapter Headers
 
 - 1:07 - [Episode Introduction](https://www.youtube.com/watch?v=oUycqtMoYr8&t=67)

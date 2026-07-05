@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-choices-transitions-and
 - career transition
 - DevOps
 
+## Agent Summary
+
+- Why it matters: Career choices, transitions and promotions in and out of tech
+- Useful for: Future agents triaging open-source, data engineering, software engineering, practices and Guest Welcome & Interview Agenda; Career Beginnings: Trade School, Web Design, First Programming; Education & Bootcamp: Computer Science, Accenture, C++.
+- Probably skip if: you do not need material from Agita Jaunzeme or you are not working on open-source, data engineering, software engineering.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=0)

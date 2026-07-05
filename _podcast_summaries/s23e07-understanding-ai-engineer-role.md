@@ -38,9 +38,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-
 
 ## Agent Summary
 
-- Why it matters: Defines AI engineering as a hybrid of software rigor, experimentation, domain knowledge, evaluation, orchestration, and emerging agent-ops concerns.
-- Useful for: Career-transition pages, AI engineer role definitions, agentic system evaluation, framework-selection advice, and discussions of when LLM prototypes should become lower-latency ML systems.
-- Probably skip if: You only need hands-on prompt recipes or model-tuning mechanics rather than role boundaries, operating principles, and career-path framing.
+- Why it matters: Understanding the AI Engineer Role
+- Useful for: Future agents triaging software engineering, generative ai, ai engineer, llms and Transitioning from Social Science to Software Engineering; Applying Statistical Rigor to Generative AI Evaluation; Balancing Research Mindsets with Engineering Speed.
+- Probably skip if: you do not need material from Nasser Qadri or you are not working on software engineering, generative ai, ai engineer.
 
 ## Chapter Headers
 

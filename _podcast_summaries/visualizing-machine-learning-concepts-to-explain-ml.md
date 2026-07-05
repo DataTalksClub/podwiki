@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/visualising-machine-learning-m
 - machine learning
 - education
 
+## Agent Summary
+
+- Why it matters: Using Visualizations to Explain Machine Learning
+- Useful for: Future agents triaging machine learning, education and Episode Introduction & Visual ML Overview; Posting Cadence & Visuals on LinkedIn; Career Journey: Bioengineering → Telecom Analytics → Self-employment.
+- Probably skip if: you do not need material from Meor Amer or you are not working on machine learning, education.
+
 ## Chapter Headers
 
 - 0:00 - [Episode Introduction & Visual ML Overview](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=0)

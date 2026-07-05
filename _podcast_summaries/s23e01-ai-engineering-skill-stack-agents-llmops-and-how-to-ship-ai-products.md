@@ -38,9 +38,9 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-engineering-skill-stack-age
 
 ## Agent Summary
 
-- Why it matters: Paul frames AI engineering as end-to-end product work: frontend, backend, agents, RAG, data pipelines, evaluations, observability, deployment, and using AI assistants without losing architectural ownership.
-- Useful for: Future agents researching AI engineer skill stacks, data scientist-to-AI engineer transitions, RAG and knowledge management, LLMOps tooling, portfolio project ideas, or agentic course/book positioning.
-- Probably skip if: You only need deep model-training research, fine-tuning internals, or a narrow framework comparison. The episode emphasizes practical product shipping over algorithm details.
+- Why it matters: AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products
+- Useful for: Future agents triaging ai engineering, ai engineer, data science, llmops and From code to cars: Paul's journey to AI; Deep learning and the autonomous driving challenge; The transition to global product engineering.
+- Probably skip if: you do not need material from Paul Iusztin or you are not working on ai engineering, ai engineer, data science.
 
 ## Chapter Headers
 

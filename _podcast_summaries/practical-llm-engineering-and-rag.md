@@ -34,6 +34,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-s
 - MLOps
 - tools
 
+## Agent Summary
+
+- Why it matters: How to Build and Evaluate AI systems in the Age of LLMs
+- Useful for: Future agents triaging LLMs, NLP, MLOps, tools and Podcast Kickoff & Hugo Bowne-Anderson Background; Vanishing Gradients vs High Signal: Podcast Formats & Audiences; From Academia to Industry: Biology Research, Python, and PyData.
+- Probably skip if: you do not need material from Hugo Bowne-Anderson or you are not working on LLMs, NLP, MLOps.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Kickoff & Hugo Bowne-Anderson Background](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=0)

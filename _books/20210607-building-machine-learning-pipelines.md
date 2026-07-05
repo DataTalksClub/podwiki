@@ -3,7 +3,7 @@ layout: "book_summary"
 title: "Building Machine Learning Pipelines"
 source_book: "../datatalksclub.github.io/_books/20210607-building-machine-learning-pipelines.md"
 source_url: "https://datatalks.club/books/20210607-building-machine-learning-pipelines.html"
-authors: ['hanneshapke', 'Catherine Nelson']
+authors: ['hanneshapke', 'catherinenelson']
 author_names: ['Hannes Hapke', 'Catherine Nelson']
 qa_count: 97
 topics: ['machine learning']
@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Hannes Hapke](https://datatalks.club/people/hanneshapke.html), [Catherine Nelson](https://datatalks.club/people/Catherine Nelson.html).
+[Hannes Hapke](https://datatalks.club/people/hanneshapke.html), Catherine Nelson.
 
 ## Discussion Archive
 

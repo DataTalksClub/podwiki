@@ -32,6 +32,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 - marketing
 - machine learning
 
+## Agent Summary
+
+- Why it matters: Machine Learning in Marketing
+- Useful for: Future agents triaging marketing, machine learning and Career Path: From geometric analysis to industry data science; Geometric Analysis Overview & connections to Bayesian sampling; Machine Learning in Marketing: Key use cases (acquisition, retention, NLP).
+- Probably skip if: you do not need material from Juan Orduz or you are not working on marketing, machine learning.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=0)

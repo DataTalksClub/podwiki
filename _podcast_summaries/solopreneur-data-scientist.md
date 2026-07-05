@@ -36,6 +36,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/introducing-data-science-in-st
 - communication
 - career growth
 
+## Agent Summary
+
+- Why it matters: Introducing Data Science in Startups
+- Useful for: Future agents triaging data science, startups, career transition, software engineering and Guest Background & Career Path in Data Science; Solo Data Scientist: Freedom, Influence & Responsibility; Company Prerequisites: Data Pipelines, Engineers & Analytics.
+- Probably skip if: you do not need material from Marianna Diachuk or you are not working on data science, startups, career transition.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://youtube.com/watch?v=KMSE9GkU2mE&t=0)

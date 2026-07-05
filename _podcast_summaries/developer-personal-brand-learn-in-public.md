@@ -33,6 +33,12 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-market-yourself-without
 - career growth
 - career transition
 
+## Agent Summary
+
+- Why it matters: Learn in Public: Personal Branding & Career Marketing for Developers
+- Useful for: Future agents triaging personal brand, career growth, career transition and Guest Overview: Swyx and the learn in public movement; Career Journey: finance to coding, Netlify, AWS, Temporal; Why Self-Marketing Matters: recognition, promotions, opportunities.
+- Probably skip if: you do not need material from Shawn Swyx Wang or you are not working on personal brand, career growth, career transition.
+
 ## Chapter Headers
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=0)
