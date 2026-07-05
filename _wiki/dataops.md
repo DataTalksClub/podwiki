@@ -171,14 +171,15 @@ continuous deployment and support
 [[DataOps Platforms]] owns that service layer, including shared release paths
 and observability integrations. It also covers governance, access, and platform
 packaging choices.
-The concept boundary only names when the discipline becomes platform work.
+At the concept level, DataOps only marks when the discipline becomes platform
+work. Platform design belongs in [[DataOps Platforms]].
 
 DataOps becomes a role when one person or team owns the operating path across
 other data teams. Hinc puts that work near support, communication, onboarding,
 and operational education. It isn't only pipeline coding
 [[cite:dataops-and-gitops-best-practices-for-data-teams@40:44=>DataOps and GitOps for Data Teams]].
 [[dataops-engineer-role=>DataOps engineer role]] owns responsibilities,
-boundaries, and hiring signals.
+boundaries, and hiring signals, not the shared-service design.
 
 The boundary with data engineering shows up during incidents. A data engineer
 may fix a bad transformation, source schema, or orchestration dependency.

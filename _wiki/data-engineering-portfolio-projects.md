@@ -30,22 +30,29 @@ For cold-start candidates,
 [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
 connects this portfolio standard to first-role evidence.
 
-For data engineering portfolio work, start with
+Data engineering portfolio work starts with
 [[Portfolio Projects]] and
-[[Data Engineering]]. Add [[Data Pipelines]] for project structure, then use
+[[Data Engineering]]. [[Data Pipelines]] covers project structure, while
 [[DataOps]] and
-[[Data Quality and Observability]] for operations.
+[[Data Quality and Observability]] cover operations.
 
-For a build blueprint, use
-[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]], and for
-learning order, use [[data-engineer-roadmap=>Data Engineering Roadmap]].
-If a certificate is part of the learning path, use
-[[Data Engineering Certification]] for credential tradeoffs. For portfolio
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] gives a
+build blueprint, and [[data-engineer-roadmap=>Data Engineering Roadmap]] gives
+the learning order. If a certificate is part of the learning path,
+[[Data Engineering Certification]] covers credential tradeoffs. For portfolio
 review, check whether the resulting project is reviewable.
 
 The boundary with analytics engineering is consumer-facing modeling. If the
 project is mainly metric definitions, BI tables, and dashboard semantics, use
 [[Analytics Engineering Portfolio Projects]].
+
+The boundary with machine learning is model proof. Use
+[[Machine Learning Portfolio Projects]] when the project is mainly about a
+model baseline, labels, and validation. Use it for evaluation, serving, and
+monitoring too. If the data pipeline produces features or training data, keep
+the source behavior and modeling story here. Keep the orchestration, quality
+checks, and recovery story here too.
+
 If the project is mainly public contribution proof, pair this page with
 [[Open Source Portfolio Evidence]]
 and the
@@ -211,7 +218,7 @@ Andreas Kretz warns learners not to stop at an AWS certification. He asks for a
 GitHub track record and documentation of what they learned
 [[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]].
 
-Use [[Data Engineering Certification]] for the credential decision. For the
+[[Data Engineering Certification]] covers the credential decision. For the
 portfolio, judge whether the certificate produced code and configuration. Also
 check for run instructions and explainable cloud or orchestration choices.
 
@@ -309,7 +316,7 @@ rerun behavior. The local setup can follow DataTalks.Club's
 once the pipeline is already meaningful.
 Use the same threshold for certificate projects. Add Docker and Airflow when
 they make the project reproducible and operable, not when they're only course
-keywords. Use [[Data Engineering Certification]] for the credential-specific
+keywords. [[Data Engineering Certification]] covers the credential-specific
 resume and payment decision.
 
 The interview story should explain one or two tradeoffs. Katz describes the
@@ -363,10 +370,8 @@ The strongest contribution names the user problem, shows the changed behavior,
 links a pull request or issue, and explains the test path. That's the practical
 bridge to
 [[Open Source Portfolio Evidence]].
-For nonprofit or volunteer work, use
-[[Volunteer Data Engineering Projects]]
-to check whether the project leaves reviewed evidence rather than only a role
-label.
+[[Volunteer Data Engineering Projects]] covers nonprofit or volunteer work where
+the project should leave reviewed evidence rather than only a role label.
 
 Airbyte-style connector work can show extraction boundaries and long-tail source
 behavior. It can also show schema handling and maintainer review. Kwong

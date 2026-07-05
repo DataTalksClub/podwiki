@@ -85,8 +85,9 @@ Many analytics engineering tasks existed before teams gave them a separate title
 [[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
-For the analyst-versus-engineer boundary, use
-[[Data Analyst vs Analytics Engineer]].
+[[Data Analyst vs Analytics Engineer]] defines the analyst-versus-engineer
+boundary. [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics
+Engineer]] covers the career sequence from analyst work into this practice.
 
 The platform handoff stays stable because data engineers often own ingestion,
 orchestration and raw storage, with reliability beside them. Analytics engineers
@@ -329,8 +330,8 @@ able to explain table grain and model one source-to-mart path. They should add
 tests and documentation, then expose the result through BI
 ([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
-Use [[Analytics Engineering Roadmap]] for the staged learning path and
-[[Analytics Engineering Portfolio Projects]] for proof-of-work examples.
+[[Analytics Engineering Roadmap]] gives the staged learning path.
+[[Analytics Engineering Portfolio Projects]] gives proof-of-work examples.
 
 Katie Bauer's team-building episode adds a seniority signal for analytics work.
 Maintainability, documentation, and peer review turn modeling from personal SQL
@@ -371,8 +372,8 @@ Peer review and maintainable work still make analytics usable after one
 stakeholder request becomes repeated team work. Documentation does the same
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Data Team]]).
 
-For the broader org model, use [[Data Teams]]. For hiring order, adoption
-rituals, and management practice, use [[Team Building]].
+[[Data Teams]] covers the broader org model. [[Team Building]] covers hiring
+order, adoption rituals, and management practice.
 
 ## Related Pages
 

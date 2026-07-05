@@ -53,15 +53,12 @@ and a data protection officer may each ask for different evidence.
 
 ## LLM Abuse and Retrieval Leakage
 
-LLM security adds risks that ordinary data access controls don't catch. Chatbot
-abuse includes prompt injection, hidden-instruction leakage, private
-knowledge-base extraction, and unsafe answers. Attackers can use overloaded
-prompts and [[retrieval-augmented-generation=>retrieval-augmented generation]] as
-exfiltration paths.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
-
-Chatbots, copilots, and RAG systems need query analysis before retrieval.
-After the model responds, output validation and non-LLM classifiers add another
-layer. Logging and human review add one more.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
+LLM security adds risks that ordinary data access controls don't catch.
+Attackers can use overloaded prompts and
+[[retrieval-augmented-generation=>retrieval-augmented generation]] as
+exfiltration paths. Chatbot abuse also includes hidden-instruction leakage,
+private knowledge-base extraction, unsafe answers, and hallucinated commitments.
+[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
 
 Security controls can't rely on the model as the only enforcement point. User
 input and retrieved passages sit inside the attack surface. Tool calls and the
@@ -70,12 +67,6 @@ answer renderer do too. For adjacent production patterns, see
 model, see [[Prompt Injection and Chatbot Risk Management]]. It covers prompt
 injection and retrieval leakage along with hallucinated commitments and layered
 defenses.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
-
-The classifier point is practical security design. Maria Sukhareva contrasted
-generative models with simpler non-LLM classifiers because a narrower classifier
-has less open-ended behavior for an attacker to manipulate. Teams can use those
-classifiers for sensitive-content flags and extraction checks while keeping the
-LLM focused on conversation.[[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]]
 
 ## Privacy Risk Beyond Access Control
 
@@ -145,18 +136,16 @@ For broader deployment design, see [[Production]] and [[MLOps]].
 ## Red Teaming and Human Review
 
 [[AI red teaming]] tests an AI system before real users trigger the same
-failures. Chatbot hacking found prompt injection, hidden-instruction leakage, and
-knowledge-base exfiltration. It also found unsafe answers and hallucinated
-commitments.[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
-A model can create business risk by promising something the company didn't intend
-to offer.
+failures. Chatbot hacking found prompt injection and hidden-instruction leakage.
+It also found knowledge-base exfiltration, unsafe answers, and hallucinated
+commitments.
+[[cite:generative-ai-chatbots-in-production-security=>Chatbot Security]]
 
-Red-team findings should become classifier rules and retrieval filters. They
-should also feed query checks, output checks, and monitoring signals.
-Human review covers residual risk.[[cite:generative-ai-chatbots-in-production-security=>Chatbot]]
-Automation alone can't cover every case.
-Human review keeps red teaming connected to [[responsible AI and governance]]
-rather than leaving it as a one-time exercise.
+Security owns the accountability boundary after those findings appear, including
+approvals, monitoring, and access review. Incident routes and human review cover
+residual risk. The detailed chatbot controls belong in
+[[Prompt Injection and Chatbot Risk Management]], while [[AI Red Teaming]] owns
+the adversarial test design and regression-test workflow.
 
 ## Related Pages
 

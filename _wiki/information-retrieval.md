@@ -22,7 +22,8 @@ recommendations, and agent tools.
 Information retrieval covers retrieval modeling. [[Search]] covers the
 product-system hub, [[search-relevance=>search relevance]] covers ranking
 quality and product fit, and [[Production Search Evaluation]] covers
-measurement.
+measurement. Infrastructure and representation choices belong to their own
+comparison pages.
 
 ## Retrieval Scope
 
@@ -31,19 +32,19 @@ from a larger pile. Information retrieval is the common field behind both search
 and personalized search, and it borders recommender systems and RAG
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
-For product search systems and user-facing relevance, start with
-[[Search]]. For generation, citations, and
-answer quality after retrieval, use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
-For lexical-versus-semantic matching choices, use
-[[Vector Search vs Keyword Search]].
+[[Search]] covers product search systems and user-facing relevance.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers
+generation, citations, and answer quality after retrieval.
+[[Vector Search vs Keyword Search]] covers lexical-versus-semantic matching
+choices.
 
 Atita Arora keeps the classical learning path in view before vector databases
 and RAG tooling. She names Introduction to Information Retrieval and Relevant
 Search as useful starting points
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@57:50=>IR Learning Resources]]).
 Those resources fit this page because they teach retrieval and ranking before a
-team chooses Qdrant, LangChain, or an LLM wrapper. They also teach evaluation.
+team chooses a particular database, framework, or LLM wrapper. They also teach
+evaluation.
 
 The tooling changes, but the retrieval decision stays the same. The system has
 to surface the evidence or candidate item that fits the query.
@@ -107,8 +108,8 @@ The retrieval boundary shifts depending on the system being built. Search
 systems center on lexical indexes, ranking,
 business metrics, and product constraints
 ([[cite:building-production-search-systems=>Building Search Systems]]).
-Vector-search and RAG discussions focus on embeddings, chunking,
-[[context-engineering=>context engineering]], and answer evaluation
+RAG discussions focus on chunking, [[context-engineering=>context engineering]],
+and answer evaluation
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Agent discussions treat retrieval as one tool among table queries, APIs,
 MongoDB, and other live systems
@@ -140,21 +141,15 @@ Embedding models can turn documents and queries into vectors, and can also
 encode images and user behavior. The system can then match items by proximity in
 a shared representation space.
 
-Semantic retrieval belongs with
-[[Embeddings]] as much as with
-[[Vector Databases]].
-Vector storage and vector compute are separate concerns. Teams compute vectors
-during ingestion and at query time, and both paths must land in the same vector
-space. When documents change or embedding models change, teams may need to
-recompute vectors or rebuild indexes.
+Semantic retrieval belongs with [[Embeddings]]. Storage and service ownership
+belong with [[Vector Databases]] and [[Vector Database vs Search Engine]].
 
-When teams add vectors, they don't always need to dump an existing Solr,
-Elasticsearch, or OpenSearch stack
+When teams add semantic retrieval, they don't always need to replace the
+existing search stack
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]).
-A standalone vector database can sit beside the current search system when
-reindexing the production stack is risky.
+The infrastructure decision belongs in [[Vector Database vs Search Engine]].
 
-## Hybrid Retrieval Boundaries
+## Hybrid Retrieval Signals
 
 Hybrid retrieval combines semantic similarity with filters, recency, and
 popularity. It can also include personalization and business rules. A news
@@ -167,17 +162,18 @@ signals instead of treating every condition as an all-or-nothing filter.
 
 That balancing act is where retrieval and ranking meet. Lucene-style `must` and
 `should` constraints contrast with vector-query approaches that encode or weight
-recency and popularity, along with user behavior and semantic relevance.
+recency and popularity, along with user behavior and semantic relevance. The
+retrieval-theory question is which signals narrow the candidate set before a
+ranker sees it.
 
 Signal weights are best postponed until query time when possible. A landing page
 and a category page may need different weights over the same indexed data. A
 personalized page may need different weights again.
 
-The comparison with [[Vector Database vs Search Engine]] comes from the same
-boundary. A vector database can return nearest neighbors. An information
-retrieval system still has to choose mandatory filters, soft retrieval
-features, and the handoff to ranking. [[Vector Search vs Keyword Search]]
-covers the matching-method comparison.
+Infrastructure pages own the service boundary. The information-retrieval design
+still has to choose mandatory filters, soft retrieval features, and the handoff
+to ranking. [[Vector Search vs Keyword Search]] covers the matching-method
+comparison.
 
 ## RAG and Context Boundaries
 
@@ -185,10 +181,10 @@ RAG is retrieval plus context packaging plus generation, built from two core
 pieces, retrieval and generation
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
-In the retrieval step, the system converts the query to a vector query and sends
-it to a vector search engine. It retrieves a chosen number of chunks and places
-those chunks in the prompt, and it can also return references so the response is
-explainable.
+In the retrieval step, the system converts the query to a vector query and
+retrieves a chosen number of chunks. It can also return references so the
+response is explainable. [[Vector Database vs Search Engine]] covers the
+infrastructure choice for storing or searching those vectors.
 
 The same design has a deployment rationale: indexing a changing knowledge base
 and retrieving relevant sections
@@ -249,9 +245,9 @@ wrong context. Teams can use mocked tools and assertions over retrieved objects
 too
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-[[Production Search Evaluation]] covers ranking metrics, A/B tests,
-monitoring, and business outcomes. [[Search Relevance]] covers the question of
-which candidates deserve top positions.
+[[Production Search Evaluation]] owns the measurement workflow across ranking
+metrics, A/B tests, monitoring, and business outcomes. [[Search Relevance]]
+covers the question of which candidates deserve top positions.
 
 ## System Boundaries
 

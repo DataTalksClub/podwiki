@@ -21,19 +21,25 @@ A portfolio project is public evidence of judgment, not a tool demo. It
 connects a real problem to data, code, and evaluation. It also shows operation
 and a defensible interview story.
 
-Project choices split by role.
-[[Data Engineering Portfolio Projects]]
-focuses on pipelines and platform data work.
-[[Analytics Engineering Portfolio Projects]]
-covers modeled metrics and BI-ready marts.
-[[Machine Learning Portfolio Projects]]
-covers modeling, baselines, evaluation, and production awareness.
+Choose a project by evidence type. A strong project is reviewable, grounded in a
+decision, and easy to discuss.
 
-[[RAG Portfolio Projects]]
-covers retrieval-backed LLM systems with citations and evaluation.
-[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
-cover the broader AI application version. They add product software and RAG.
-They also add agents, evaluation, and deployment as one reviewable artifact.
+[[Data Engineering Portfolio Projects]] covers pipeline and platform proof.
+That evidence should show source behavior and table modeling, with orchestration
+and recovery visible in the same project.
+[[Analytics Engineering Portfolio Projects]] covers modeled metrics, business
+definitions, and BI-ready marts.
+
+[[Machine Learning Portfolio Projects]] covers model proof because those
+projects show problem framing, baselines, and labels. They also show
+validation, evaluation, serving boundaries, and production awareness.
+
+[[RAG Portfolio Projects]] covers retrieval-backed LLM proof because those
+projects show corpus choice, chunking, and retrieval evidence. They also show
+citations and evaluation.
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] covers
+the broader artifact that combines product software and agents with evaluation
+and deployment.
 
 [[person:jeffkatz=>Jeff Katz]] and
 [[person:ellenkonig=>Ellen König]] ground the data
@@ -226,16 +232,21 @@ and the
 [[Open Source Contributor Roadmap]]
 cover that path.
 
-## Role-Specific Project Evidence
+## Project Boundaries
 
 A project becomes credible when the repository and writeup expose the tradeoffs.
-Data projects should show source behavior, table grain, and orchestration. They
-should also show quality checks and recovery. Analytics projects should show
-metric ownership and a consumption surface.
+Data projects should show source behavior and table grain. They should also
+show orchestration, quality checks, and recovery. [[Data Engineering Portfolio
+Projects]] gives the detailed pipeline checklist.
+
+Analytics projects should show metric ownership and a consumption surface.
+[[Analytics Engineering Portfolio Projects]] gives those proof patterns.
 
 ML projects should show a baseline, validation, serving boundary, and monitoring
-plan. RAG projects should show retrieval examples, citations, and failure
-labels.
+plan. [[Machine Learning Portfolio Projects]] gives the detailed model-proof
+standard. RAG projects should show retrieval examples, citations, and failure
+labels. [[RAG Portfolio Projects]] and
+[[Search and RAG Project Checklist]] give retrieval-specific review points.
 
 Role fit matters here because an analyst-style project should make exploration,
 visualization, and the final decision clear. A builder-style project should add
@@ -258,20 +269,15 @@ and
 [[Graph RAG vs Vector RAG]]
 cover those design choices.
 
-Production awareness is stronger than model novelty. [[person:benwilson=>Ben Wilson]]
-connects maintainable code, tests, and production engineering in
+Production awareness is stronger than model novelty, and [[Machine Learning
+Portfolio Projects]] covers that evidence.
+[[person:benwilson=>Ben Wilson]] connects maintainable code, tests, and
+production engineering in
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
-[[person:marianosemelman=>Mariano Semelman]] shows the
-notebook-to-production path in
+[[person:marianosemelman=>Mariano Semelman]] shows the notebook-to-production path in
 [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
-[[Production ML Project Checklist]]
-keeps production-readiness claims tied to reviewable evidence.
-
-RAG and AI projects need evidence, not only a chat UI. Strong RAG portfolios
-expose corpus choice, chunking, metadata, and retrieval baselines. They also
-show citations, logs, and failure analysis.
-[[Search and RAG Project Checklist]]
-covers those review points.
+[[Production ML Project Checklist]] covers project claims about production
+readiness.
 
 ## Public Proof and Open Source
 
@@ -316,8 +322,8 @@ Kaggle work to an analytics-to-data-science transition in
 competition work beyond leaderboard chasing in
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
-Use [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] when the
-portfolio item starts from a leaderboard or hosted challenge. Decomposition and
+[[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] covers portfolio
+items that start from a leaderboard or hosted challenge. Decomposition and
 reproducible code create the public proof, while README quality and domain
 explanation matter too.
 

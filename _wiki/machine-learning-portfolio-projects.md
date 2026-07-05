@@ -18,8 +18,10 @@ related:
   - Data Scientist Interview Roadmap
 ---
 
-Use a machine learning portfolio project to prove candidate judgment. It should
+Use a machine learning portfolio project to prove model judgment. It should
 turn a decision problem into a working [[machine learning]] system or analysis.
+ML-specific proof should show why ML is needed. Name the first baseline, the
+label source, the evaluation method, and where the model runs.
 
 The strongest projects aren't model demos alone because they explain the
 decision, data, baseline, and [[evaluation]]. They also show the operating
@@ -30,19 +32,23 @@ to metrics, labels, validation, and operating limits [[cite:machine-learning-sys
 
 Start with the broader
 [[Portfolio Projects]] hub when
-you're choosing between role-specific project types. For applied
+you're choosing between role-specific project types or shaping the general
+reviewable evidence. For applied
 [[data science]],
 [[machine-learning-engineer-role=>machine learning engineer]],
 and [[job search]] use cases, start
-here. For architecture interview practice, use
+here. Architecture interview practice belongs with
 [[Machine Learning System Design]].
 
-For deployment and monitoring context, use
-[[MLOps vs DataOps]]. For a
-production-aware implementation pass, use
-[[Production ML Project Checklist]].
-For the architecture narrative behind a project, use
-[[ML System Design Documents]].
+[[Data Engineering Portfolio Projects]] covers cases where the main artifact is
+a data pipeline, platform, or modeled data product. If that pipeline produces
+features for a model, keep the pipeline evidence there. ML portfolio evidence
+owns the baseline, validation, evaluation, and serving story.
+
+[[MLOps vs DataOps]] covers deployment and monitoring context, while
+[[Production ML Project Checklist]] covers a production-aware implementation
+pass. [[ML System Design Documents]] covers the architecture narrative behind a
+project.
 
 ## Reviewable ML Project
 
@@ -339,10 +345,10 @@ also doesn't show deployment or packaging work.
 For a machine learning engineer portfolio, pair a Kaggle-style experiment with
 an end-to-end pet project or convert the notebook into a small reproducible
 service.
-For non-Kaggle options, use
-[[competitions-beyond-kaggle=>competitions beyond Kaggle]] when a hosted
-evaluation can show stronger evidence than a notebook alone. A Docker-based
-run, conference challenge, or domain challenge may be a better fit.
+[[competitions-beyond-kaggle=>Competitions beyond Kaggle]] covers non-Kaggle
+options where a hosted evaluation can show stronger evidence than a notebook
+alone. A Docker-based run, conference challenge, or domain challenge may be a
+better fit.
 
 ## Open Source ML Projects
 
@@ -353,8 +359,8 @@ documentation, examples, and contribution guides as part of project stewardship.
 He also includes packaging, tests, and CI. His scikit-lego and Rasa discussion
 shows why small, ecosystem-compatible tools can be stronger evidence than
 unfinished large projects [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
-Use [[open-source-ml-contributions=>open-source ML contributions]] for the
-issue, docs, tests, and maintainer-etiquette mechanics behind that route.
+[[open-source-ml-contributions=>Open-source ML contributions]] covers the issue,
+docs, tests, and maintainer-etiquette mechanics behind that route.
 
 This route fits candidates who want public collaboration evidence. Link issues,
 pull requests, examples, or docs work to a clear user problem. For more detail

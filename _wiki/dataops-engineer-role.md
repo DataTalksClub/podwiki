@@ -55,12 +55,13 @@ private knowledge
 
 The DataOps engineer owns whether people can follow the operating path
 consistently. They keep review gates and release gates usable. They also keep
-test paths and deployment automation connected to monitoring signals. Lineage,
-runbooks, and recovery paths stay in that route. [[DataOps Tools]] names the
-tool categories, and [[DataOps Platforms]] covers the shared service layer.
+test paths and deployment automation connected to monitoring signals. They make
+sure lineage, runbooks, and recovery paths have owners. [[DataOps Tools]] names
+the tool categories, and [[DataOps Platforms]] covers the shared service layer
+that packages those capabilities for many teams.
 
-The role stays at accountability for that route, while platform design belongs
-with [[DataOps Platforms]].
+The role stays at accountability for the operating route, while platform design
+and shared-service packaging belong with [[DataOps Platforms]].
 
 This role also includes support and communication work. Hinc puts DataOps close
 to onboarding, proactive support, and troubleshooting. Monitoring education and
@@ -93,8 +94,8 @@ quality at scale sit in the same path
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The role may involve building platform pieces, but the hiring signal isn't a
-tool inventory. The team needs a supported route to review, release, observe,
-and recover data changes.
+tool inventory or a platform architecture. The team needs someone accountable
+for the supported route to review, release, observe, and recover data changes.
 
 ## Dedicated Role or Shared Practice
 
@@ -124,11 +125,10 @@ when many people need to deploy or fix pipelines. He treats embedded support as
 part of that shared-platform model
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-The DataOps engineer can look like a platform engineer in that environment, but
-the operating surface stays tied to data flow and datasets. Transformations and
-dependencies stay in scope. Quality checks, lineage, and recovery do too.
-[[DataOps Platforms]] owns how those capabilities are packaged as shared
-services.
+In that environment, the DataOps engineer can look like a platform engineer.
+The role still centers on who keeps teams able to release, observe, and recover
+data changes. [[DataOps Platforms]] owns how those capabilities are packaged as
+shared services.
 
 DataOps starts as a practice. The title earns its keep when one person or team
 has to own that practice across teams.
@@ -153,10 +153,11 @@ engineer builds reusable internal infrastructure and developer experience. A
 DataOps engineer may build platform pieces too, but their main user workflow is
 data delivery.
 
-Data delivery includes source changes, dataset publication, and orchestration.
-Quality signals, lineage, backfills, and recovery stay in the same operating
-path. Those responsibilities often meet inside [[Data Engineering Platforms]]
-and [[DataOps Platforms]]
+Data delivery includes source changes, dataset publication, orchestration, and
+the signals and recovery work around those pipelines. The DataOps engineer owns
+whether that route has clear support, review, and recovery responsibilities.
+Those responsibilities often meet inside [[Data Engineering Platforms]] and
+[[DataOps Platforms]]
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 During production ML incidents, teams split ownership with the [[MLOps

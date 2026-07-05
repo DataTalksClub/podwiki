@@ -32,52 +32,40 @@ upstream into reusable analytical data. SQL, stakeholder context, and metric
 explanations become stronger when they live in tested models.
 
 [[person:juanpablo=>Juan Pablo]] moved from teaching mathematics into analytics
-roles, then worked at Amazon in a BI and data engineering team. His BI
-engineering work clarifies the boundary between analyst, BI engineer, and analytics engineer
+roles. He later worked at Amazon in a BI and data engineering team. His BI
+engineering work shows why a transition can pass through several responsibility
+sets before the title catches up
 [[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
 
-The practical boundary is ownership. A
-[[data-analyst-role=>data analyst]] usually owns the
-question, interpretation, dashboard, and recommendation. An
-[[analytics-engineering=>analytics engineer]] owns
-the reusable model layer that makes those answers safer to repeat. The role
-boundary is covered in
-[[Data Analyst vs Analytics Engineer]].
-
-Move from analyst work into model ownership, with [[Data Analyst Role]] as the
-current role definition. Entry routes and broad career moves belong in
-[[Data Analyst Careers]]. Use [[Analytics Engineering Roadmap]] for the general
-skill sequence and [[Data Analyst vs Analytics Engineer]] when the question is a
-role comparison.
+The career sequence starts with analyst work and adds model ownership.
+[[Data Analyst Role]] defines the current role, while [[Data Analyst Careers]]
+covers entry routes and broad career moves. [[Data Analyst vs Analytics
+Engineer]] covers role comparison rather than transition sequence.
 
 ## Move From Answering Questions to Owning Reusable Data
 
 In this transition, analysts take work that used to live inside one query or
-dashboard and make it reusable. The analyst already knows the business
-question. The new work is to define grain, model entities, add tests, and
-document metric logic. Other people can then trust and reuse the model. The work
-sits between the
-[[data analyst role]],
-[[analytics engineering]],
-and BI-facing [[data products]].
+dashboard and make it reusable. The analyst already knows the business question.
+The new work is to define grain, model entities, add tests, and document metric
+logic. Other people can then trust and reuse the model.
 
-The analyst role sits close to company data and KPIs through dashboards, reports,
-and product evaluation. Analysts size product problems and evaluate whether a
+[[Data Analyst vs Analytics Engineer]] gives the full role boundary.
+[[analytics engineering]] covers the broader practice.
+
+Analysts already sit close to company data and KPIs through dashboards, reports,
+and product evaluation. They size product problems and evaluate whether a
 shipped change improved behavior
 [[cite:data-team-roles=>Data Team Roles Explained]].
-Analysts can apply that context to
-[[metrics]],
-[[product analytics]], and
-[[a-b-testing=>A/B testing]].
+That context transfers into [[metrics]], [[product analytics]], and
+[[a-b-testing=>A/B testing]] when the analyst starts modeling reusable data.
 
-Analytics engineering models data for analysts and data scientists, maintains
-pipelines, checks quality, and builds Looker-facing models. In the dbt workflow,
-SQL files and YAML docs sit with GitHub version control and tests in a visible
-model DAG.[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
-
-Analytics engineering turns business reality into data models. It then applies
-software-engineering habits so the work becomes reproducible and robust.
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
+Analytics engineering then adds software-engineering habits to analytical work.
+Those habits include SQL files, YAML docs, and GitHub version control. They also
+include tests and a visible model DAG
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+Perafan describes the same move as translating business reality into data models
+with reproducible, robust practice
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
 ## Choose the Right Transition Target
 
@@ -91,7 +79,7 @@ Choose the target from the work you already do:
 - If the current work is mostly dashboard interpretation, start with the
   [[data analyst role]] and the
   [[Data Analyst vs Analytics Engineer]]
-  boundary.
+  boundary before planning the move.
 - If the current work already includes shared SQL, Looker, dbt, or metric
   cleanup, use the
   [[analytics engineering roadmap]]
@@ -219,25 +207,24 @@ analyst decision the model supports.
 
 ## Target Transition Roles
 
-The target role doesn't have to use the exact title "analytics engineer."
-Juan Pablo's Amazon team consumed and ingested upstream data, built pipelines,
-added business logic, and created dashboards for troubleshooting consultants.
-Amazon called that work Business Intelligence Engineer, while other companies
-call similar work Analytics Engineer
+The target role doesn't have to use the exact title "analytics engineer." Juan
+Pablo's Amazon team consumed and ingested upstream data, built pipelines, added
+business logic, and created dashboards for troubleshooting consultants. Amazon
+called that work Business Intelligence Engineer, while other companies call
+similar work Analytics Engineer
 [[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
 
-His first job also separates analyst work from analytics-engineering work. The
-title was data scientist, but the work was mostly SQL and dashboards. Without
-pipelines, it was data analyst or data analyst consultant work
+His first job shows why responsibilities matter more than title during the
+transition. The title was data scientist, but the work was mostly SQL and
+dashboards. Without pipelines, it was data analyst or data analyst consultant
+work
 [[cite:from-math-graduate-to-data-analytics@54:01=>How to Break into Data Analytics]].
 
-Look for analytics engineer, BI engineer, or data analyst roles with dbt
-ownership. Product analytics engineer and data modeler roles can fit the same
-path.
-
-For hiring and portfolio basics before this transition, use
-[[Data Analyst Careers]]. For the comparison question, use
-[[Data Analyst vs Analytics Engineer]].
+Look for analytics engineer or BI engineer roles. Data analyst with dbt
+ownership, product analytics engineer, and data modeler roles can fit too. The
+title fits this path when the job description gives you model ownership. Use
+[[Data Analyst vs Analytics Engineer]] to classify the role boundary, and use
+[[Data Analyst Careers]] for hiring and portfolio basics before this transition.
 
 ## Related Pages
 

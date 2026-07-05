@@ -113,6 +113,16 @@ comparison, round expectations versus preparation sequence, representation
 concept versus retrieval-method comparison, and concept/community hub versus
 staged contribution path.
 
+Sixth pass (2026-07-05) tightened AI red teaming versus chatbot risk, portfolio
+hub versus role-specific portfolio pages, analyst-to-analytics-engineer
+transition versus role comparison, information retrieval versus vector-search
+infrastructure, and DataOps engineer versus platform pages. The pass preserved
+separate intents by moving generic overlap into cross-links: adversarial testing
+process versus chatbot control design, general portfolio evidence versus
+role-specific proof, career sequence versus responsibility comparison, retrieval
+modeling versus infrastructure ownership, and staffing accountability versus
+shared platform packaging.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

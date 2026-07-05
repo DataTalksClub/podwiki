@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11896
+    "links": 11897
   },
   "nodes": [
     {
@@ -25232,12 +25232,6 @@
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:embeddings",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-red-teaming",
       "target": "wiki:evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -37353,6 +37347,12 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:job-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62217,6 +62217,12 @@
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:computer-vision",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },

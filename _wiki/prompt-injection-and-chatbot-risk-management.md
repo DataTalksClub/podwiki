@@ -28,6 +28,13 @@ said roughly 30 people found a way to reveal it
 That turns chatbot risk into a system problem, not only a wording problem inside
 the prompt.
 
+Prompt injection and chatbot risk management owns the concrete LLM application
+risk model. It covers instruction conflicts, retrieval leakage, unsafe or
+binding answers, and the controls around a customer-facing chatbot. [[AI red
+teaming]] owns the adversarial testing process that finds and preserves those
+failures as reusable cases. [[Security]] owns the broader access-control,
+privacy, artifact, and deployment boundary.
+
 ## Production Boundary
 
 Prompt injection attacks the instruction boundary of an [[llms=>LLM]]
@@ -162,11 +169,13 @@ review. The same approach matters in health, safety, and legal contexts
 
 ## Evaluation and Red Teaming
 
-Red teaming finds failures that normal product demos miss. In one challenge,
-many people attacked the bot and produced clear failure categories. The
-failures included prohibited outputs, hidden-data extraction, hallucinated
-commitments, and filter bypasses
+Red teaming supplies the adversarial inputs for this control page. In one
+challenge, many people attacked the bot and produced clear failure categories.
+They found prohibited outputs, hidden-data extraction, hallucinated commitments,
+and filter bypasses
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+The testing method and process live in [[AI Red Teaming]]. The chatbot-risk
+discussion stays focused on chatbot-specific risks and mitigations.
 
 Teams should turn those failures into regression cases in
 [[LLM evaluation workflows]].

@@ -35,20 +35,20 @@ path from repeated analytical logic to a trusted model other people can reuse.
 
 Analyst work centers KPI definition, dashboards, problem sizing, and experiment
 evaluation [[cite:data-team-roles=>Data Team Roles Explained]].
-For the product-facing subset of that analyst work, use
-[[product-analyst-vs-data-analyst=>product analyst vs data analyst]].
+Product-facing analyst work is a separate boundary from analytics engineering.
 
 Analytics engineering centers reusable models, pipelines, and data quality. The
 full concept hub is [[Analytics Engineering]]
 [[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]].
 
-For the two role hubs, use
+The two role hubs are
 [[Data Analyst Role]] and
 [[Analytics Engineering]].
-If you're moving from analyst work toward model ownership, use the
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
-For entry routes and broad career options before that transition, use
-[[Data Analyst Careers]].
+Movement from analyst work toward model ownership belongs to the
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+transition path.
+[[Data Analyst Careers]] covers entry routes and broad career options before
+that transition.
 
 ## Decision Surface
 
@@ -117,10 +117,8 @@ listings [[cite:data-team-roles=>Data Team Roles]]. That makes
 [[Experimentation]] analyst-facing skills, while reusable exposure tables,
 metric definitions, and dashboard models can move to analytics engineering.
 
-For the product-analyst boundary, use
-[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]]. Use the
-comparison here when the question is whether the work is still analysis or has
-become reusable analytics-engineering work.
+This comparison answers whether the work is still analysis or has become
+reusable analytics-engineering work.
 
 The analyst should still understand where numbers come from.
 [[person:arpitchoudhury=>Arpit Choudhury]] explains why
@@ -211,8 +209,9 @@ Use work mode instead of title when one person covers both sides:
 - Split the role when the same person can't both answer urgent questions and
   maintain the modeled analytical layer.
 
-For the transition path from analyst work into model ownership, see
-[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
+After the role boundary is clear, the career path depends on skill order,
+projects, and job targets. [[data-analyst-to-analytics-engineer=>Data Analyst to
+Analytics Engineer]] covers that analyst-to-analytics-engineer move.
 
 ## Dashboards, Metrics, and Models
 
@@ -248,18 +247,16 @@ transformation layer came later
 ([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's dbt migration discussion]],
 [[Dashboard and Metric Layer Project Checklist]]).
 
-For the broader metric topic, use
 [[Metrics]] and
-[[Data Products]].
+[[Data Products]] cover the broader metric topic.
 
 ## Product and Growth Data
 
 Product and growth data create shared surfaces, but the comparison still has one
 boundary. Analysts interpret funnels, cohorts, retention, and experiment
 results. Analytics engineers make the repeated event logic, assignment logic,
-and modeled tables safe to reuse. Use
-[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] for the
-separate product-title question.
+and modeled tables safe to reuse. The separate product-title question belongs
+to [[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]].
 
 Arpit's data-led growth episode starts with a tracking plan. Engineers then
 instrument events before data flows into analytics tools and warehouses
@@ -301,7 +298,8 @@ Titles and job ads still need responsibility checks. Notowska describes checking
 job descriptions, responsibilities, and concrete work rather than buzzwords.
 Iofciu recommends job ads that name the team and its responsibilities. The
 objectives should be visible too.[[cite:hiring-data-scientists-and-analysts=>Notowska's hiring-screen discussion]][[cite:data-science-job-red-flags-and-mismatched-roles=>Iofciu's job-ad mismatch discussion]]
-For transition advice, use [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]].
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+covers the career move after this responsibility check.
 
 ## Related Pages
 

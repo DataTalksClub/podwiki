@@ -39,7 +39,8 @@ infrastructure and adds vector support beside it
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Production search adds the operating constraint. Teams separate candidate
 services from ranking and vector storage from vector compute before deciding
-where hybrid retrieval belongs [[cite:building-production-search-systems=>Building Search Systems]].
+which service boundary should own hybrid retrieval
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 [[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]]
 cover explicit relationships. Those comparisons fit cases where similar
@@ -72,9 +73,11 @@ combination is common. Vector similarity is only one signal beside constraints,
 recency, normalization, and query-time weights. [[cite:building-production-search-systems@45:11=>Query-Time Weights]]
 
 In [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
-[[information retrieval]], vectors don't simply supersede classical search.
-Teams have to improve retrieval and ranking together, which connects the choice
-to [[Production Search Evaluation]] and business metrics
+[[Information Retrieval]], vectors don't simply supersede classical search.
+This comparison owns the service boundary, while those pages own the retrieval
+model and answer behavior. Teams still have to validate retrieval and ranking
+together, which connects the choice to [[Production Search Evaluation]] and
+business metrics
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 ## Migration Tradeoffs
@@ -86,8 +89,8 @@ vector databases. Existing search systems may store vectors too
 
 Production search gives another path. Teams separate retrieval from ranking,
 then decide whether dense-vector retrieval should live inside the serving
-engine or beside it. Filters, recency, constraints, and weights stay in scope
-because they affect the service boundary
+engine or beside it. Filters, recency, constraints, and weights matter here
+only when they change which service owns retrieval or ranking
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 Lucene, Elasticsearch, and specialized vector databases belong in one
@@ -124,16 +127,18 @@ constraints, business rules, and metadata filters.
 Hybrid search adds filters and recency. It also adds constraints,
 normalization, and query-time weights to the relevance decision
 [[cite:building-production-search-systems=>Building Search Systems]].
-[[Vector Search vs Keyword Search]] covers the lexical and semantic matching
-tradeoffs. For infrastructure, the question is whether those hybrid signals
-live in one search engine or across a search engine plus vector database.
+[[Information Retrieval]] covers why those signals belong in candidate
+generation or ranking. [[Vector Search vs Keyword Search]] covers the lexical
+and semantic matching tradeoffs. For infrastructure, the question is whether
+those hybrid signals live in one search engine or across a search engine plus
+vector database.
 
 ## LLM Retrieval Boundaries
 
 For [[retrieval-augmented-generation=>retrieval-augmented generation]],
 a vector database can own the passage-similarity lookup. A transcript chatbot
-still needs ingestion or transcription. It also needs chunk size and overlap
-choices, embedding creation, prompt packaging, and citations
+still needs ingestion or transcription, chunk and embedding choices, prompt
+packaging, and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 That flow leaves an ownership boundary. The vector database may only return
@@ -199,7 +204,8 @@ can combine lexical matches, vector neighbors, metadata filters, and rankers.
 Latency targets and reindexing jobs belong in that check too. Search teams
 should validate that ownership choice through retrieval and ranking tests, not
 infrastructure preference alone [[cite:building-production-search-systems=>Building Search Systems]].
-[[Production Search Evaluation]] covers the broader measurement workflow.
+[[Production Search Evaluation]] owns the broader measurement workflow after the
+infrastructure boundary is chosen.
 
 ## Related Pages
 

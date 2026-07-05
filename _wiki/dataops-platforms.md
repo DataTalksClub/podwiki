@@ -23,8 +23,8 @@ there too.
 
 [[DataOps]] covers the operating discipline. The platform layer gives many teams
 the same self-service path for that discipline. [[DataOps Engineer Role]] owns
-who's accountable for the path. The platform question is which shared services
-make the path repeatable.
+who's accountable for the path. DataOps platforms own the shared services,
+integrations, and guardrails that make the path repeatable.
 
 Lars Albertsson describes a data platform as the technology enabler for
 [[DataOps]]. Teams need workflows and tooling. They also need continuous
@@ -44,14 +44,16 @@ runbooks, and recovery paths
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 
 Individual tool categories belong in [[DataOps Tools]], while cross-team
-ownership belongs in the [[dataops-engineer-role=>DataOps engineer role]].
+accountability and staffing signals belong in the
+[[dataops-engineer-role=>DataOps engineer role]].
 
 ## Shared Platform Surface
 
 A DataOps platform standardizes the route from source change to trusted output.
-That route usually includes orchestration and CI/CD. It also includes test
-suites and catalogs. Lineage, access workflows, and runbooks complete the route.
-Warehouse or lakehouse storage sits in the broader [[Data Engineering
+That route usually includes orchestration, CI/CD, test suites, and catalogs.
+Lineage, access workflows, and runbook integrations complete the shared surface.
+Who owns those paths belongs in [[dataops-engineer-role=>DataOps engineer
+role]]. Warehouse or lakehouse storage sits in the broader [[Data Engineering
 Platforms]] foundation
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
@@ -66,8 +68,9 @@ pipeline changes into a supported service.
 
 A tool helps with one category of work. A platform connects several categories
 so many teams can use the same supported path. Tests and lineage become
-platform capabilities when they connect to owners and runbooks. Alerting,
-catalogs, deployment automation, and access workflows follow the same rule.
+platform capabilities when the shared layer connects them to owners and
+runbooks. Alerting, catalogs, deployment automation, and access workflows follow
+the same rule.
 
 [[DataOps Tools]] covers the categories themselves. The platform boundary is
 their integration into one supported path.
@@ -157,13 +160,13 @@ The useful question is whether the stack makes change review, deployment,
 monitoring, and recovery repeatable for the team.
 
 Coordination cost determines how much platform structure a team needs. A small
-team may start with a lighter stack. A larger platform team may need templates
-and environment orchestration. It may also need centralized observability,
-lineage, access workflows, and support paths.
+team may start with a lighter stack. A larger platform surface may need
+templates and environment orchestration. It may also need centralized
+observability, lineage, access workflows, and support paths.
 
 Either path works when teams get a supported way to operate data changes across
-many pipelines and users. Staffing signals for that support model belong in
-[[dataops-engineer-role=>DataOps engineer role]].
+many pipelines for many users. Staffing signals and responsibility boundaries
+belong in [[dataops-engineer-role=>DataOps engineer role]].
 
 The boundary with [[MLOps vs DataOps]] matters because DataOps platforms operate
 upstream data delivery. That includes ingestion, transformations, datasets, and
@@ -172,6 +175,6 @@ MLOps platforms add model artifacts, training runs, and registries.
 
 Serving paths, model monitoring, and retraining workflows stay on the model
 side.
-For model-side platform ownership, use the [[ml-platform-engineer-role=>ML
-platform engineer role]]
+Model-side platform ownership belongs with the
+[[ml-platform-engineer-role=>ML platform engineer role]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
