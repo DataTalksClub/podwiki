@@ -123,10 +123,12 @@ pressure on open infrastructure companies
 
 ## Open Formats and Local-First Tools Reduce Lock-In
 
-Open table formats are central to the current lakehouse direction. The landscape
-includes [[Apache Iceberg]], Delta Lake, and Hudi. Iceberg is a table format over
-files such as Parquet. It can support updates without rewriting whole files and
-reduce database or warehouse lock-in.[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
+Open table formats are central to the current lakehouse direction. The
+landscape includes [[Apache Iceberg]], [[delta-lake=>Delta Lake]], and Hudi, so
+the practical comparison belongs in
+[[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]]. Iceberg is a
+table format over files such as Parquet. It can support updates without
+rewriting whole files and reduce database or warehouse lock-in.[[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
 
 Catalogs separate storage and compute from access, metadata, and lineage.
 DuckDB adds a practical local-first layer because it can run as an embeddable
@@ -135,7 +137,7 @@ query engine across file systems, data lakes, and SQL databases.
 [[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]]
 
 Cost-efficient setups can pair DuckDB with GitHub Actions for small data stacks.
-Headless Delta Lake and Iceberg support in DLT fit the same direction. That puts
+Headless [[delta-lake=>Delta Lake]] and Iceberg support in DLT fit the same direction. That puts
 [[Open Source]] beside lakehouse architecture and cost control rather than only
 community licensing.[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]]

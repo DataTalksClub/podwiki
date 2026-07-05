@@ -93,11 +93,17 @@ model is chosen for latency, reliability, and maintainability, not for novelty.
 
 ## Local and Specialized LLMs
 
-Local serving is another optimization path. Teams may find hosted model calls
-and bandwidth expensive, while private GPUs make local models more plausible.
-The same discussion points toward smaller task-focused models. They can replace
-some general-purpose calls when the narrower model does the same work more
+Local serving becomes useful when remote APIs are expensive because hosted calls
+and bandwidth dominate cost. Private GPUs can make local models plausible in
+that setting.
+The same discussion also points toward smaller task-focused models. They can
+replace general-purpose calls when the narrower model does the same work
 efficiently.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to Modern AI Agents]]
+
+The same episode keeps this separate from
+[[evolutionary-algorithms=>evolutionary algorithms]]. There, optimization means
+searching over candidate prompts and behaviors rather than making a served model
+cheaper.
 
 A separate agent discussion frames specialization as enterprise economics.
 High-volume finance, marketing, and legal use cases may justify fine-tuned or

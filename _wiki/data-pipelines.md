@@ -44,6 +44,11 @@ pipeline change. Use [[Data Engineering Platforms]] for shared infrastructure
 around many pipelines.
 
 Use
+[[dataops-vs-data-engineering=>dataops vs data engineering]] when the question
+is whether the team needs pipeline design work or stronger release, monitoring,
+and recovery practice.
+
+Use
 [[how-to-build-data-pipelines=>how to build data pipelines]]
 when teams need to connect consumer needs to delivery through ingestion,
 modeling, orchestration, and checks.

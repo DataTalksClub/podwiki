@@ -166,7 +166,10 @@ deeper agent-specific work.
 
 Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] when the design question is
 how older state, action, feedback, and simulation ideas transfer into LLM
-agents. Running agents in production adds monitoring, governance, and
+agents. The same bridge keeps
+[[evolutionary-algorithms=>evolutionary algorithms]] nearby when the system tests
+candidate prompts, actions, or designs against feedback. Running agents in
+production adds monitoring, governance, and
 evaluation concerns covered under [[Agent Ops]].
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 

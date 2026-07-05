@@ -174,6 +174,9 @@ outcome-based tests in
 minimal engineering rule. Decompose the task and avoid unnecessary complexity
 when a simpler workflow works
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to Modern AI Agents]]).
+His game-AI path also points to
+[[evolutionary-algorithms=>evolutionary algorithms]] as adjacent background for
+search, feedback, and agent behavior, not as a required first step.
 For this stage, use
 [[Agent Engineering]],
 [[agent-engineering=>AI Agents]], and

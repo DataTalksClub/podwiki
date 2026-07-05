@@ -762,6 +762,13 @@ Source hints:
   `_wiki/data-translator-role.md`. All five now have at least 12 inbound links.
   `python scripts/audit_graph.py --min-inbound 12` now reports 58 wiki/content
   nodes below 12 inbound links.
+- The next 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/dataops-vs-data-engineering.md`, `_wiki/delta-lake.md`,
+  `_wiki/delta-lake-vs-apache-iceberg.md`,
+  `_wiki/evolutionary-algorithms.md`, and
+  `_wiki/freelance-data-and-ml-careers.md`. All five now have at least 12
+  inbound links. `python scripts/audit_graph.py --min-inbound 12` now reports
+  53 wiki/content nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

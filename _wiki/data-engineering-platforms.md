@@ -48,7 +48,9 @@ where teams draw ownership boundaries, and how adoption changes the
 architecture. [[Data Engineering]] covers the
 broader discipline. [[DataOps]] and
 [[DataOps Platforms]] cover the
-operating model.
+operating model. [[dataops-vs-data-engineering=>dataops vs data engineering]]
+separates pipeline-building work from release, observability, and recovery
+practice.
 [[self-service-data-platforms=>Self-Service Data Platforms]]
 covers the enablement subset.
 

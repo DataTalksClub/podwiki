@@ -163,6 +163,8 @@ producers, more consumers, and more ways for teams to break each other.[[cite:sc
 [[DataOps]] is the operating layer around those tools.
 Reliable delivery depends on error reduction, deployment cycle time, and team
 productivity. Version control, tests, and CI/CD support that delivery work.
+The boundary with the engineering tool stack is covered in
+[[dataops-vs-data-engineering=>dataops vs data engineering]].
 
 Runbooks, automation, and end-to-end versioning give data tools release and
 recovery routines. dbt, Great Expectations, and SQL tests add checks inside

@@ -95,7 +95,7 @@ Governance still matters because unused data, unclear ownership, and weak
 cleanup habits can turn storage into a swamp.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 
 Some teams push toward lakehouse architecture. [[apache-iceberg=>Apache
-Iceberg]] and Delta Lake are more than storage buzzwords. Table formats sit on
+Iceberg]] and [[delta-lake=>Delta Lake]] are more than storage buzzwords. Table formats sit on
 Parquet. Catalogs handle metadata, access, and lineage in that split.
 
 Teams can combine open storage with warehouse-like behavior and reduce

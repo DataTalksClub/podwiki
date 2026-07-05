@@ -89,7 +89,9 @@ That connects AI coding tools to [[LLM Evaluation Workflows]] and
 [[cite:practical-llm-engineering-and-rag@27:38=>Vibe Coding and Monitoring]].
 
 In [[game-ai-to-llm-agents=>Game AI to LLM Agents]], generated game code has to
-run and coordinate state. It also has to survive debugging passes
+run and coordinate state. It also has to survive debugging passes. That keeps AI
+coding close to [[evolutionary-algorithms=>evolutionary algorithms]] when code
+variants are generated and tested against feedback
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 
 Ask the coding assistant to build the debugging surface too. Show traces,

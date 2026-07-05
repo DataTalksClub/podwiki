@@ -77,20 +77,22 @@ segmentation, and focused outreach
 
 The disagreement isn't between mass applications and applying to five jobs.
 Early candidates may need volume to learn the market. Guests still warn that
-unfocused volume weakens CV tailoring, interview preparation, and networking.
+unfocused volume weakens CV tailoring. It also weakens interview preparation
+and networking.
 
 Candidates can apply before ready and return to the roadmap fundamentals. The
 next application should improve the same fundamentals rather than trigger a
 random tool detour. [[cite:data-engineering-career-path-and-skills@33:05=>Apply early]].
 
-Juniors need enough applications to get market signal and enough tailoring to
-learn from each attempt
+Juniors need enough applications to get market signal
 [[cite:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
+They also need tailoring for each attempt.
 That balance sits between [[career-transitions-in-data=>career transition]]
-and [[hiring]], because the candidate has
+and [[hiring]] because the candidate has
 to learn how recruiters and teams describe fit.
-For candidates considering independent work, the same market-signal loop shows
-up in [[data-freelancing-strategy=>data freelancing strategy]]
+Candidates considering independent work run the same market-signal loop. That
+loop appears in [[data-freelancing-strategy=>data freelancing strategy]]
+and [[freelance-data-and-ml-careers=>freelance data and ML careers]]
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 
 For entry-level data science candidates, a smart broad search means applying

@@ -52,7 +52,10 @@ and storytelling. It also covers programming theory and experiment design.
 
 The Builder path emphasizes ML engineering and MLOps. It also covers production
 systems, Git, Docker, and cloud platforms. The Consultant path adds stakeholder
-persuasion and strategy.[[cite:data-science-career-abc-framework=>Data Science Career Guide]].
+persuasion and strategy. This branch connects role direction to
+[[freelance-data-and-ml-careers=>freelance data and ML careers]]
+when the career path depends on market demand and client trust. It also depends
+on project positioning.[[cite:data-science-career-abc-framework=>Data Science Career Guide]].
 
 "What should I learn next?" becomes sharper when the next skill is tied to a
 specific responsibility. It may support a more credible analyst story or a

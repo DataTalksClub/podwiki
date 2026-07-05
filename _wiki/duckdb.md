@@ -140,8 +140,10 @@ validation, local exploration, and cost-sensitive batch jobs
 DuckDB also connects to headless table formats. It provides a local access layer
 for data pipelines, alongside DLT work on headless Delta Lake and Iceberg
 ([[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]]).
-In that design, storage and table metadata stay open while compute can move
-between local jobs, GitHub Actions, and larger engines.
+Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] when that
+local-first design becomes a table-format choice rather than only a compute
+choice. In that design, storage and table metadata stay open while compute can
+move between local jobs, GitHub Actions, and larger engines.
 
 ## Lean Discovery Before Infrastructure
 
