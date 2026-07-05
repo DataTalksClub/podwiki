@@ -7,7 +7,7 @@ secondary_keywords:
   - knowledge graph versus vector search
   - vector search vs knowledge graph
   - knowledge graph vs vector database
-summary: "Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design."
+summary: "Compare explicit graph representations with vector similarity search for retrieval, provenance, and hybrid search design."
 related_wiki:
   - Search
   - Retrieval-Augmented Generation
@@ -22,31 +22,30 @@ related_wiki:
   - LLM Evaluation Workflows
 ---
 
-Knowledge graphs and vector search answer different storage and query questions.
-A knowledge graph stores entities, relation types, and properties. It also
-stores paths and neighborhoods. Vector search stores [[embeddings]] and
+Knowledge graphs and vector search answer different representation and retrieval
+questions. A knowledge graph stores entities, relation types, and properties. It
+also stores paths and neighborhoods. Vector search stores [[embeddings]] and
 retrieves nearby items by similarity.
 
 At this layer, teams choose what the system represents and indexes. They also
-choose how it queries, validates, and returns results before any LLM prompt is
-assembled.
+choose how it queries, validates, and returns results before search ranking or
+LLM prompt packaging takes over.
 
 Automotive R&D graph systems preserve relationships for simulation comparison,
-semantic reporting, clustering, and load-path detection. They also support
-Cypher-driven retrieval. Vector systems retrieve semantically similar transcript
-chunks, products, images, or sessions for search and RAG.
+semantic reporting, and Cypher-driven retrieval. Vector systems retrieve
+semantically similar transcript chunks, products, images, or sessions for search
+and RAG.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 The comparison isn't "graph database or vector database." It's the stored
 representation, query unit, and trust work each system makes easier. Vector
-search helps when wording differs across queries and content. Knowledge graphs
-help when the system must preserve typed relations, paths, and provenance. They
-also help with constraints or lineage.
+search helps when wording differs across queries and content.
 
-Hybrid systems use vector retrieval for recall and graph structure for
-relationship-aware lookup.
+Knowledge graphs help when the system must preserve typed relations, paths, and
+provenance. They also help with constraints or lineage. Hybrid systems use
+vector retrieval for recall and graph structure for relationship-aware lookup.
 
 Use vector search when the retrieval substrate must find semantically related
 passages, products, or images. It also fits users or sessions. Use a knowledge
@@ -54,11 +53,10 @@ graph when queries depend on relationships, paths, or hierarchy. It also fits
 constraints, provenance, and lineage. Use hybrid retrieval when semantic recall
 should find candidates and graph queries should add structure or validation.
 
-[[Graph RAG vs Vector RAG]] covers the next layer: how these retrieval choices
-become LLM context. [[Vector Database vs Search Engine]] covers whether vector
-retrieval belongs in a dedicated vector store or an existing [[search]] stack.
-[[retrieval-augmented-generation=>RAG]] covers the broader answer-generation
-design.
+For the next layer, use [[Graph RAG vs Vector RAG]] to compare how retrieved
+results become LLM context. Use [[Vector Database vs Search Engine]] for the
+vector-store versus [[search]] stack decision. Use [[Graph Data Science]] for
+graph algorithms and ML over graph-shaped data.
 
 ## Representation and Retrieval Unit
 
@@ -74,9 +72,9 @@ quality.
 
 A knowledge graph makes relationships explicit before retrieval. In automotive
 R&D, graph structure supports semantic reporting and simulation comparison. It
-also supports clustering and load-path detection. In graph-backed RAG, chapters
-and sections become retrieval inputs. Semantic relations and Cypher queries do
-too, instead of staying as metadata around a text chunk.[[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Automotive Knowledge Graphs]][[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
+also preserves chapters, sections, engineering concepts, and relations that can
+be queried directly. Semantic relations and Cypher queries become retrieval
+inputs instead of staying as metadata around a text chunk.[[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Automotive Knowledge Graphs]][[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
 Angela Ramirez gives a graph-database example outside RAG: Wikidata stores
 entity relationships, and SPARQL queries retrieve entities plus direct and
@@ -107,17 +105,17 @@ similar text isn't enough.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 Fraud detection gives the same graph-side lesson outside RAG. In retail fraud,
-members, transactions, and products become connected nodes. Suspicious
-member-transaction-product neighborhoods can become additional model features,
-blocking rules, or analyst signals.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Detection Graphs]]
+members, transactions, and products become connected nodes. Those connections
+can support model features, blocking rules, and analyst signals when a plain
+table hides the suspicious relationship signal.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Detection Graphs]]
 
 That connects this comparison to
 [[entity-resolution]],
 [[Graph Data Science]], and
 [[Feature Stores]].
 The value isn't a nearby text chunk. It's the relationship structure around an
-entity and the ability to turn that structure into a model input or a human
-review signal.
+entity and the ability to retrieve that structure for a model, rule, or human
+review workflow.
 
 The practical split is failure-driven. Choose vector search when the system
 misses semantically related material. Choose a knowledge graph when the system
@@ -168,14 +166,9 @@ feed graph queries into prompts, and validate extracted nodes and relations
 before trusting them.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 Graph production work can also include human investigation interfaces. Neo4j fit
-the fraud use case because end users could visualize the network instead of
-only reading tables. Fraud specialists can traverse connected users,
-transactions, and products when they decide whether something looks suspicious.
-Tabular snippets can include the same data, but they make the workflow slower and
-harder for domain users.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
-
-This adds a product requirement beyond vector search latency or nearest
-neighbors. The graph has to make relationships inspectable.
+the fraud use case because fraud specialists could visualize connected users,
+transactions, and products instead of reading the same relationships as table
+rows. The graph has to make relationships inspectable, not only retrievable.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
 
 RAG and search have latency, cost, metadata, and data-quality constraints.
 Retrieval is enough when it reduces a large search space to useful context. Use
@@ -183,7 +176,7 @@ Retrieval is enough when it reduces a large search space to useful context. Use
 state, or actions beyond retrieval
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
 
-## Hybrid Retrieval Patterns
+## Hybrid Retrieval
 
 Production systems often combine vector search and lexical search with metadata
 and structured context. Vector search can retrieve candidate passages or
@@ -199,16 +192,10 @@ can find candidates, but filters, recency, and metadata still influence the
 served result. Behavior, popularity, and query-time weights also affect the result
 [[cite:building-production-search-systems=>Building Search Systems]].
 
-For changing knowledge versus repeated model retraining, use
+For RAG prompt packaging, use [[Graph RAG vs Vector RAG]]. For changing
+knowledge versus repeated model retraining, use
 [[retrieval-augmented-generation=>RAG]] and
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
-
-Chunking and RAG help only when the retrieved context can support the
-answer.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-
-These episodes put vector search and graph lookup inside the same retrieval
-design space rather than treating them as competing slogans.
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 ## Evaluation and Failure Modes
 
@@ -220,8 +207,8 @@ overlap. It also has to check retrieval count, citations, and human review
 
 Graph systems fail when they encode wrong relations, miss important relations,
 or become stale as the domain changes. Brittle schemas and unverified LLM
-extraction create graph failures too. A graph can expose provenance, relation
-types, and paths, but incorrect nodes or edges still corrupt downstream RAG and
+extraction create graph failures too. A graph can expose provenance and relation
+types, but incorrect nodes or edges still corrupt downstream search, RAG, and
 analysis.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 For a graph, check entity extraction, relation correctness, and traversal

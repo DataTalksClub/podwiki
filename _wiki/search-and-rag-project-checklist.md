@@ -17,6 +17,9 @@ related:
 Use this search or RAG checklist after choosing the project idea. It turns one
 specific system into a reviewable README, notebook, or project page. Use
 [[RAG Portfolio Projects]] first when the decision is still about project type.
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the evaluation
+setup and test data. It also covers retrieved-context checks, answer checks, and
+iteration.
 
 For the chosen project, prove retrieval before generation. A reviewer should see
 the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
@@ -31,7 +34,8 @@ Show these parts on the project page:
 Use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 for the base concept and
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+for the detailed eval workflow.
 For sequencing retrieval work inside a larger product plan, use the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
@@ -131,28 +135,30 @@ answering. Move toward
 [[Agent Engineering]] only when
 the task requires API calls, multi-step coordination, or external actions.
 
-## Evaluation and Traces
+## Evaluation Evidence
 
-Create a small gold set. For each question, store expected evidence and
-acceptable answers, then add failure labels and notes about retrieval quality. The
-trace should make it possible to separate retrieval failures from generation
-failures before adding agents, fine-tuning, or prompt complexity.
+Show enough evaluation evidence for a reviewer to trust the project, but keep
+the full evaluation workflow on
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In the checklist, verify
+that reviewers can see the tests, traces, and failure labels that support the
+project claim.
 
-Store these trace fields with each run:
+At minimum, link each eval run to:
 
-- scores
+- the question and expected evidence
+- retrieved sources and scores
 - prompt version
 - model version
 - answer
-- latency
-- cost
-- feedback
+- citations
+- latency, cost, and review labels
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] gives
 the core evaluation structure
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the workflow
-sequence that turns those fields into repeatable reviews.
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] when the project needs
+gold examples, retrieved-context checks, and answer scoring. It also covers
+human review and production feedback.
 
 Ranjitha extends the same idea to tool and agent workflows with custom
 datasets, mocked tools, integration tests, and outcome assertions

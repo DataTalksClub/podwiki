@@ -177,8 +177,8 @@ forecasts into inventory, pricing, bidding, or resource-allocation choices under
 objectives and constraints
 [[cite:machine-learning-decision-optimization@22:00=>Machine Learning Decision Optimization]].
 
-On the ecosystem and education side, Metaflow appears with AWS, Kubernetes, and
-Argo. ML interoperability appears there too, and DevRel work connects to
+On the ecosystem and education side, [[metaflow=>Metaflow]] appears with AWS,
+Kubernetes, and Argo. ML interoperability appears there too, and DevRel work connects to
 documentation, dogfooding, and user feedback
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 

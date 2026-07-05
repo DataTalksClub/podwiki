@@ -30,26 +30,23 @@ actions. Treat serving, cost, security, and monitoring as readiness gates before
 broader rollout. For interview preparation, the same sequence becomes a
 [[llm-system-design-interview=>LLM system design interview]] answer structure.
 
-Use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-for the concept definition and
-[[RAG Portfolio Projects]]
-for project-type framing. Use the
-[[Search and RAG Project Checklist]]
-for reviewable implementation evidence. Use
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-for the eval procedure.
+Use the related pages this way:
+
+- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] defines the concept.
+- [[RAG Portfolio Projects]] frames project types.
+- The [[Search and RAG Project Checklist]] covers reviewable implementation evidence.
+- [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers eval setup, test
+  data, retrieved-context checks, answer checks, and iteration.
 
 The full-stack AI engineer skill set starts with normal engineering work. It
-then adds RAG and knowledge management to the build path. That path ends with
-shipping AI products rather than only building demos
+then adds RAG and knowledge management to the build path. Teams use those
+skills to ship AI products rather than only build demos
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 
 Use [[LLM Production Patterns]] for the durable production design patterns
 behind each milestone and [[AI Engineer Role]] for the role boundary. Use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for
-retrieval architecture. [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-covers retrieval checks, answer checks, traces, and feedback.
+retrieval architecture.
 
 ## Own The Production Boundary
 
@@ -78,13 +75,11 @@ make behavior measurable. It then uses failure analysis, logs, and traces to
 show where to improve
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-The first milestone should include:
+At this stage, keep the evidence small:
 
 - a small set of representative test cases
-- expected outputs or grading criteria
-- logs and traces for each run
-- a failure analysis table
 - a decision about whether the problem needs retrieval
+- logs that show how the assistant behaved
 
 For a portfolio or capstone version, turn this milestone into a small project.
 Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
@@ -115,12 +110,13 @@ among a larger window, chunking, retrieval, and summarization
 Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 when the failure could belong to retrieval, model behavior, or both.
 
-## Test Retrieval Before Generation
+## Add The Evaluation Gate
 
-Debug RAG by separating retrieval failures from generation failures.
-[[Search]] may fail because documents are
-missing, chunks are weak, or ranking returns the wrong evidence. Generation may
-fail because prompt formatting is unclear or the model ignores context.
+Before broader rollout, check retrieval before generation. [[Search]] may fail
+because documents are missing, chunks are weak, or ranking returns the wrong
+evidence. Generation may fail because prompt formatting is unclear or the model
+ignores context. Keep the detailed workflow on
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 
 On the search-engineering side, build a retrieval test set. It should cover
 queries and expected evidence, plus ranking checks and retrieval failures that

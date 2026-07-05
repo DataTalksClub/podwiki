@@ -15,11 +15,12 @@ related:
 RAG portfolio projects turn a real document corpus into hiring evidence for
 retrieval-backed LLM work. Choose the RAG project type, name the role signal it
 sends, and ground the project story in retrieval quality and citations. The
-writeup should also make evaluation and production tradeoffs visible.
+writeup should make the evidence inspectable enough for a reviewer to check the
+claim.
 
-Use the [[Search and RAG Project Checklist]] after choosing one project idea.
-After that, review the finished README, notebook, or project page against its
-criteria.
+Project choice comes first, while [[Search and RAG Project Checklist]] covers
+the build sequence and README review. [[rag-evaluation-workflow=>RAG Evaluation
+Workflow]] covers repeatable evaluation.
 
 The strongest portfolio ideas make the source evidence inspectable instead of
 showing only a polished chat UI. Atita Arora's transcript example starts with
@@ -37,10 +38,10 @@ Read these RAG project ideas with
 standard. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 defines the base concept,
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-defines the evaluation procedure. The
+covers the evaluation procedure. The
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-adds a staged path from scoped assistant to retrieval, evaluation, serving, and
-operations controls.
+covers the staged path from scoped assistant to retrieval, evaluation, serving,
+and operations controls.
 
 ## Choosing the Project Type
 
@@ -66,10 +67,11 @@ system can re-index documents instead of repeatedly retraining the model. This
 makes grounding part of the project definition, not an optional README flourish
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-Representative gold tests and failure categories can be the portfolio hook.
-They show debugging judgment rather than only a working chatbot
+An evaluation report can be the portfolio hook when it shows debugging judgment
+rather than only a working chatbot
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-Use the [[Search and RAG Project Checklist]] for the field-by-field review.
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the test data,
+retrieved-context checks, answer checks, and iteration loop.
 
 ## Portfolio Signals by Project Type
 
@@ -128,14 +130,14 @@ Simple RAG bots with good chunking and embeddings are practical wins
 
 The portfolio version should use example questions, retrieved passages, and
 answer citations as visible proof. Add unsupported-question refusals and missed
-evidence too.
-Each layer of the RAG pipeline warrants evaluation
+evidence too. Atita's discussion treats evaluation as layered across the RAG
+pipeline
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Failures should be labeled as retrieval, generation, formatting, or source
 preparation problems
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-The [[Search and RAG Project Checklist]] turns those signals into a concrete
-review rubric.
+The [[Search and RAG Project Checklist]] turns the visible evidence into a
+concrete review rubric.
 
 ## Search-First RAG System
 
@@ -166,17 +168,17 @@ work.
 
 ## Evaluation and Failure Analysis Project
 
-An evaluation-focused RAG project can start from an ordinary demo and make it
-measurable. Representative gold tests give this structure. So do failure
-categories that route the next fix to retrieval or prompting, with formatting
-and data preparation as separate classes. Logs and traces make the MVP debuggable
+An evaluation-focused RAG project can start from an ordinary demo and make the
+measuring work the main story. Representative gold tests, failure categories,
+and traces give reviewers something concrete to look at
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 The portfolio version can center the writeup on a compact evaluation report
 rather than on another chat interface. Make a few representative failures
-visible, then show whether the next fix belongs in retrieval or prompting. Link
-the work to [[LLM Evaluation Workflows]] instead of claiming evaluation in the
-abstract.
+visible, then show the tested fix. Keep the full setup, retrieved-context
+checks, answer checks, and iteration loop on
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] and link the project to
+[[LLM Evaluation Workflows]].
 
 ## Agentic RAG Boundary
 
@@ -189,7 +191,7 @@ integrations push the project into
 [[Agent Engineering]]
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-For a portfolio, this boundary should be visible in the design. A support-docs
+For a portfolio, make this boundary visible in the design. A support-docs
 assistant can stay as RAG when it only answers with citations. An operations
 assistant that searches logs, calls monitoring APIs, or proposes remediation
 steps needs agent evidence instead. Put that evaluation detail on
@@ -238,20 +240,19 @@ software quality, evaluation, and knowledge-management judgment.
 
 ## Production-Minded RAG Demo
 
-A production-minded demo should name the constraints a real team would face,
-even without production scale. That checklist includes hidden API changes and
-model drift. It compares hosted APIs with open-source serving across latency,
-cost, and hardware. It also places changing knowledge in retrieval and grounding
-rather than repeated retraining
+A production-minded demo should name the constraints a real team would face
+even without production scale. The project story should compare hosted APIs
+with open-source serving. It should also name latency, cost, and hardware. Hidden
+API changes and model drift belong in the same story
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 For portfolio evidence, frame the demo around re-indexing and version choices.
-Name latency, cost, privacy limits, and hosted API risk too. These constraints
-connect the project to
+Name latency, cost, privacy limits, and hosted API risk too. Keep the maturity
+sequence on
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]], and connect the
+project to
 [[LLM Production Patterns]],
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
-and the
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
 
 Long context, agents, and vector databases mark another production boundary.
 The portfolio evidence stays the same. Source quality and chunk metadata must

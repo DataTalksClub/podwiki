@@ -290,10 +290,9 @@ dependencies. They also save the data reference. Experiment tracking or a
 structured logging convention lets another person look at the run
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-At the next level, they own release and operation. They package inference as a
-batch job or API and add CI/CD. They define a registry convention and monitor
-service health. They also monitor input quality and prediction behavior. One
-business or proxy signal belongs in that view too.
+At the next level, they own release and operation. They define the registry
+convention, add CI/CD, connect the serving path to monitoring, and make support
+ownership visible.
 
 Maria's standardization discussion ties that work to version control and CI/CD.
 It also includes registries, deployment, and monitoring
@@ -317,11 +316,9 @@ It also explains what happens when something fails
 ([[Machine Learning Portfolio Projects]],
 [[MLOps Roadmap]]).
 
-Good projects include a tracked training run, a batch scoring pipeline, and an
-online service. A registry convention and a monitoring dashboard make the
-operating path clearer. Add a short operations note that names the model owner,
-data owner, and alert owner. The same note should cover rollback, known failure
-modes, and retraining criteria
+Good projects make ownership visible. Add a short operations note that names
+the model owner, data owner, and alert owner. The same note should cover
+rollback, known failure modes, and retraining criteria
 ([[Model Registry]],
 [[Model Monitoring]]).
 

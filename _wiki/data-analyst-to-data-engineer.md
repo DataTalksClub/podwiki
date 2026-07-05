@@ -24,11 +24,10 @@ Moving from [[Data Analyst Role=>data analyst]] to
 to the path that makes data usable. Analysts already bring SQL, business
 context, dashboard experience, and metric judgment.
 
-Keep the learning sequence separate from the transition proof because the
-[[data-engineer-roadmap=>Data Engineer Roadmap]] already covers the general
-order. It starts with SQL and Python, then moves through pipelines and
-orchestration before quality and cloud. [[Data Engineering Portfolio Projects]]
-covers broader project patterns.
+Keep the learning sequence separate from the transition proof. Use the
+[[data-engineer-roadmap=>Data Engineer Roadmap]] for the general order from
+SQL and Python through pipelines, orchestration, quality, and cloud. Use
+[[Data Engineering Portfolio Projects]] for broader project selection.
 
 An analyst-to-engineer story should show narrower evidence:
 
@@ -193,23 +192,13 @@ let the tool list replace code depth.
 
 ## Move Upstream From Dashboard To Pipeline
 
-Begin the central portfolio project where analyst work usually starts. Choose a
-reporting question, stakeholder need, or metric. Then move upstream until you
+Begin the central transition project where analyst work usually starts. Choose
+a reporting question, stakeholder need, or metric. Then move upstream until you
 own the data path that supports that output.
 
-A good analyst-to-engineer project includes:
-
-- One realistic source: API, files, database export, event log, or permitted
-  public dataset.
-- Raw storage that preserves source records.
-- Staging tables that clean types, standardize names, deduplicate, and keep load
-  metadata.
-- Modeled tables with grain, keys, joins, business rules, and windows.
-- A serving table, dashboard, ML table, alert, or reverse ETL output for a named
-  consumer.
-- A repeatable run path with a script, scheduler, or orchestrator.
-- Quality checks and a short recovery note for late, missing, or malformed
-  data.
+Name the source behavior, preserve raw records, and write staging logic before
+you model tables. Add repeatable runs, checks, and recovery notes. Use
+[[Data Engineering Portfolio Projects]] when you need more project types.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the project version of this
 transition. Interviewers valued that she recognized clean data and data quality
@@ -260,22 +249,13 @@ reporting pain first, then turning the automation into pipeline evidence
 For reliability context, use [[DataOps]],
 [[data-quality-and-observability=>Data Observability]], and [[Orchestration]].
 
-## Package The Portfolio For Hiring
+## Package The Transition For Hiring
 
 The portfolio should make the transition legible in a few minutes. A hiring
 manager should see analyst judgment and engineering ownership in the same
-project.
-
-In the README, answer these questions:
-
-- What business or analytical question does this pipeline support?
-- What source data arrives, and what can go wrong with it?
-- What raw, staging, and serving layers exist?
-- What SQL and Python did you write?
-- How does someone run the pipeline?
-- What checks protect the consumer?
-- What happens when a run fails or needs a backfill?
-- What would you simplify, scale, or change next?
+project. In the README, tie the business question to source behavior and the
+raw and modeled layers. Then show the SQL, Python, and checks. Add the run
+steps and one failure or backfill story.
 
 Jeff Katz sets this portfolio standard by asking for real Python and real SQL.
 He also wants clean code, tests, personal projects, and open-source contribution
@@ -296,8 +276,9 @@ For analyst candidates, the strongest framing is specific:
 - You already built and run a complete small pipeline while you keep improving
   backend and cloud depth.
 
-Use [[Data Engineering Portfolio Projects]], [[Open Source Portfolio Evidence]],
-and [[Career Transitions in Data]] to refine the proof.
+Use [[Data Engineering Portfolio Projects]] for the full review checklist. Use
+[[Open Source Portfolio Evidence]] and [[Career Transitions in Data]] to refine
+the transition proof.
 
 ## Prepare The Interview Story
 

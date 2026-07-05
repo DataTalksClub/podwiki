@@ -56,10 +56,9 @@ also needs package registries, model registry, deployment, and monitoring before
 the team chases a larger platform
 ([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
-For an MLOps architect, those boundaries become design checks. The architect
-checks whether the team can reproduce training and whether an artifact can
-reach deployment. They also check whether serving is observable and whether
-every feedback signal has an owner.
+For an MLOps architect, those boundaries become four design checks. The team
+needs reproducible training, an approved artifact path to deployment,
+observable serving, and named owners for feedback signals.
 
 Danny Leybzon describes the architect role as a bridge between customer
 constraints, business priorities, and technical tradeoffs. Monitoring and data
@@ -166,13 +165,10 @@ A [[model registry]] is the handoff
 point between training and production. It stores the artifact and the context
 needed to deploy it safely.
 
-A useful registry record includes:
-
-- model version and owner
-- artifact location and code version
-- training-data reference and evaluation result
-- approval state and deployment target
-- rollback note
+At the architecture level, the registry interface should expose model version,
+owner, and artifact location. It should also expose training evidence, approval
+state, deployment target, and rollback context. [[Model Registry]] owns the full
+record structure.
 
 The registry doesn't have to be a large platform product on day one. Early teams
 can choose artifact stores or MLflow-style alternatives. Maria describes
@@ -222,12 +218,9 @@ That matters for [[MLOps]]: the simplest repeatable release path usually beats a
 broad platform that the team can't yet operate.
 
 For an MLOps architect, this section maps the release path. It should show
-predeployment checks and package or container locations. It should also show
-how the model version reaches serving and how the team rolls back. Maria's
-minimum stack starts with version control and CI/CD. It also
-includes Docker or package registries, model registry, deployment, and
-monitoring
-([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
+predeployment checks and package or container locations. It should also show how
+the model version reaches serving and how the team rolls back. Use
+[[MLOps Tools]] for the CI/CD, registry, and deployment-product choices.
 
 ## Orchestration and Serving
 
@@ -384,18 +377,16 @@ production. It can also fit a team with one important model. It still needs
 explicit interfaces between data and training. It also needs interfaces between
 registry, serving, monitoring, and repair.
 
-A shared platform makes sense when several teams repeat the same components.
-Templates and self-service compute become shared assets. Standard tracking,
-registry integration, deployment paths, and logging schemas do too. Monitoring
-hooks, documentation, and support routes become part of the shared platform.
+A shared platform makes sense when several teams repeat the same interfaces.
+Templates, self-service compute, tracking, and registry integration can then
+become shared services. Deployment paths, logging schemas, monitoring hooks,
+and support routes can become shared services too. [[ML Platforms]] owns the
+internal-product and adoption side of that decision.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
 mixed teams can need different support from a centralized deployment path
 ([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
-
-[[ML Platforms]] covers the internal-product side of that
-decision.
 
 Keep this section about which interfaces are local and which become shared.
 Simon warns against heavy platform investment before model value exists. Raphaël

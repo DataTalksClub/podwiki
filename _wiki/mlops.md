@@ -96,11 +96,6 @@ Hannes Hapke and Catherine Nelson's
 [[book:20210607-building-machine-learning-pipelines=>Building Machine Learning Pipelines]]
 conversation covers the pipeline automation layer behind that lifecycle. It
 covers data ingestion and validation, plus continuous training and deployment.
-
-In that layer, [[metaflow=>Metaflow]] is another workflow-tooling example. It
-helps data scientists move from prototype work toward production without owning
-all of the cloud and scheduler plumbing
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Theofilos Papapanagiotou draws the boundary with DevOps through model
 lifecycle, drift, and fairness. He also links monitoring to retraining triggers
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
@@ -135,15 +130,9 @@ Monitoring and incident response matter because people need to debug model behav
 
 Both views point away from tool collecting. The team needs enough platform to
 make production ML repeatable.
-
-Useful platform work responds to real failure modes:
-
-- irreproducible runs
-- unclear model ownership
-- slow deployment
-- weak monitoring
-- missing rollback
-- a business stakeholder who can't trust the model's behavior
+Use [[MLOps Tools]] for stack selection and [[MLOps Architecture]] for the
+component map. MLOps exists when model work needs shared operating habits for
+ownership, release, monitoring, and recovery.
 
 ## Model Lifecycle
 
@@ -225,19 +214,12 @@ immediate pain. It then standardizes repositories, packages, serving patterns,
 and monitoring
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-A shared platform helps several teams share tracking and registry paths.
-
-It can standardize serving and orchestration.
-
-Metadata and governance stay visible
-[[cite:building-production-ml-platform-and-mlops-team=>ML Platform]].
-
 Experiment tracking often comes first because it moves run history out of
 private spreadsheets. Even a small model team gets a shared record.
 
 Registries and serving paths can follow as the handoff to production becomes
 real. Monitoring and governance can follow too
-[[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]]
+[[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]].
 That connects MLOps to [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[CI/CD]]. It also connects MLOps to [[Model Registry]] and
 [[Reproducibility]].
@@ -247,8 +229,8 @@ Radojkovic's startup advice favors managed services and SaaS. He also favors
 CI/CD-first orchestration and only enough custom automation to keep the product
 maintainable [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]. That
 startup-specific tradeoff is covered in
-[[lean-mlops-for-startups=>lean MLOps for startups]]. It's why [[MLOps Tools]]
-should be read as a set of operating choices, not a checklist.
+[[lean-mlops-for-startups=>lean MLOps for startups]]. Use [[MLOps Roadmap]] for
+rollout order and [[MLOps Tools]] for the stack tradeoffs.
 
 ## Governance and Risk
 

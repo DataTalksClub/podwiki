@@ -59,36 +59,24 @@ than a replacement for code, SQL, and projects
 ## Start With Provable Work
 
 Start by naming the data engineering work you can prove now. Use
-[[Data Engineer Role]] for the full scope. Here, prove one narrow data path from
-source data to raw storage, transformation, and a usable output.
+[[Data Engineer Role]] for the full scope and
+[[data-engineer-roadmap=>Data Engineering Roadmap]] for the learning order.
+Here, prove one narrow data path from source data to raw storage,
+transformation, and a usable output.
 
-Add orchestration and quality checks to that path. Include documentation,
-access, and recovery before you treat the project as finished. For a candidate
-without job history, don't start with a huge tool list. Aim first for a small
-data path you can build, explain, rerun, and defend.
-
-The general roadmap explains the order of study.
-
-Here, translate that order into proof a reviewer can check:
-
-- pull data from an API, files, database export, or simulated event source
-- store raw records before transforming them
-- clean and model data with SQL
-- run the work without manual notebook clicks
-- test for missing fields, duplicate rows, late data, or schema changes
-- document setup, table meaning, consumer needs, tradeoffs, and recovery steps
-
-Jeff Katz's junior curriculum keeps the same proof bar narrow. Python and SQL
-come before distributed systems or platform tools
+For a candidate without job history, don't start with a huge tool list. Build a
+small data path you can explain, rerun, test, and defend. Jeff Katz's junior
+curriculum keeps the same proof bar narrow. Python and SQL come before
+distributed systems or platform tools
 [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
 That keeps the portfolio centered on reviewable beginner work instead of
 tool-name sprawl.
 
 ## Turn The Roadmap Into Proof
 
-Use [[data-engineer-roadmap=>Data Engineering Roadmap]] to learn the sequence,
-then turn each stage into visible evidence. Hiring managers still need to see
-the work and ask follow-up questions.
+Use the roadmap to learn the sequence, then turn the first finished pipeline
+into evidence. Hiring managers still need to see the work and ask follow-up
+questions.
 
 The evidence should answer four questions:
 
@@ -105,9 +93,10 @@ containers and a Slack bot.
 [[cite:get-data-analytics-and-data-engineering-job@50:15=>Gloria Quiceno's data engineering job story]].
 
 Use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for
-the technical blueprint and [[Data Engineering Portfolio Projects]] for the
-review standard. After that, add the missing-experience layer: make the project
-harder to dismiss as coursework.
+the technical blueprint and [[Data Engineering Portfolio Projects]] for project
+selection. To handle the missing-experience problem, make the project harder to
+dismiss as coursework. Add review, use, feedback, or a clearer connection to a
+real consumer.
 
 ## Get Reviewed Experience Before The Title
 
@@ -137,16 +126,13 @@ to care about the output, the code, or the documentation. Connect that work to
 
 ## Make Coursework Harder To Dismiss
 
-When you have no commercial data engineering experience, portfolio proof has to
-do more work. A copied repository from a course is weak if it looks the same as
-every other graduate's project. It becomes stronger when you change the source
-or consumer. It also becomes stronger when you change the failure mode, data
-model, tests, or operational story.
+When you have no commercial data engineering experience, copied coursework is
+easy to discount. A course project becomes stronger when you customize the
+source, consumer, or failure mode. It also becomes stronger when you customize
+the data model, tests, or operating story.
 
-When a posting asks for commercial experience, don't answer only with a course
-certificate.
-
-Answer with the closest reviewed work you have:
+If a job posting asks for commercial experience, answer with the closest
+reviewed work you have:
 
 - a nonprofit pipeline
 - an open-source pull request
@@ -157,18 +143,6 @@ Jeff says some companies will still insist on two or three years of experience.
 Other companies interview candidates when the skills are visible
 [[cite:get-data-engineering-job-prep-and-interview@40:45=>Data Engineering Job Prep and Interview Guide]]
 [[cite:get-data-engineering-job-prep-and-interview@42:23=>Data Engineering Job Prep and Interview Guide]].
-
-Strengthen beginner evidence by changing the project, the reviewer, or the
-operational story:
-
-- turn a class pipeline into a different domain dataset
-- replace a static CSV with API ingestion
-- add schema-change handling that the tutorial skipped
-- add tests, logs, and a runbook
-- compare a simple batch design with a more complex alternative
-- explain why you didn't need streaming, Spark, or Kubernetes
-- contribute a fix, doc improvement, example, or integration to an open-source
-  data tool
 
 You can build adjacent experience through automation, open-source
 participation, and volunteering. Work that other people review, community work,
@@ -181,10 +155,10 @@ build experience when employers ask for commercial proof
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 Use volunteer data engineering work only when it creates reviewable evidence.
-A nonprofit dashboard can help. So can a cleanup script for a community project
-or a small pipeline for an organizer. Another person should use the output and
-describe the impact. A volunteer listing without a finished artifact is weaker
-than a smaller project with code, documentation, and feedback.
+A nonprofit dashboard, cleanup script, or small organizer pipeline can help
+when another person uses the output or reviews the work. A volunteer listing
+without a finished artifact is weaker than a smaller project with code,
+documentation, and feedback.
 
 For volunteer and open-source options, use [[Open Source Portfolio Evidence]]
 as the quality bar and [[Volunteer Data Engineering Projects]] for the
@@ -225,14 +199,17 @@ the learning order and [[Data Engineering Certification]] when a course is the
 study structure. The no-experience proof layer starts when that study becomes a
 pipeline another person can look at.
 
-## Pick A Role Direction For The Portfolio
+## Pick A Role Direction For Your First Proof
 
 "Data engineer" can mean different work in different companies. The full split
 belongs on [[Data Engineer Role]] and [[Data Engineering Platforms]]. On this
-page, the direction matters because it changes what your first project should
-prove. Platform and product-facing data engineering lead to different portfolio
-choices. Beginners weaken that portfolio when they over-engineer the platform or
-copy modern-data-stack theater
+page, the direction matters because it changes the first proof you should
+package. Platform and product-facing data engineering lead to different
+projects. Use [[Data Engineering Portfolio Projects]] for the broader project
+menu.
+
+Beginners weaken their proof when they over-engineer the platform or copy
+modern-data-stack theater
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 For a product-facing direction, show modeled datasets and documented metrics.

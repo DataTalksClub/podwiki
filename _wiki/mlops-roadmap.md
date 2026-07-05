@@ -46,8 +46,8 @@ MLOps readiness grows in stages. First, a learner or team proves
 handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
 
-[[MLOps Architecture]] shows how those pieces connect in the operating flow.
-[[MLOps Tools]] covers the stack categories for each stage.
+Use [[MLOps Architecture]] for how those pieces connect in the operating flow
+and [[MLOps Tools]] for the stack categories at each stage.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging
@@ -238,15 +238,14 @@ It then adds support models, adoption metrics, and governance
 and
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Monitoring and observability work starts with drift, data quality, and feature
-logging. It then adds incident response and upstream root causes
+Monitoring and observability work starts with drift, data quality, and
+prediction logging. It then adds incident response and upstream root causes
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 and
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
-Feature-platform MLOps focuses on online features, training-serving skew,
-materialization, and serving. It also needs validation, registry, and
-monitoring. [[person:willempienaar=>Willem Pienaar]]
+Feature-platform MLOps comes later when online features, training-serving skew,
+materialization, and serving become the constraint. [[person:willempienaar=>Willem Pienaar]]
 explains where feature stores matter in
 [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
 
@@ -256,8 +255,8 @@ limits, and hype
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 The same roadmap still needs reproducible configuration, deployment,
-evaluation, and monitoring. Ownership, cost control, and rollback paths still
-matter.
+evaluation, and monitoring. It also needs ownership, cost control, and rollback
+paths.
 
 ## Learning Programs
 
@@ -336,10 +335,11 @@ Build projects in the order that exposes the lifecycle:
   path before online serving
   [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 - Online service: include API serving, schema validation, and model artifact
-  lookup, then add request and response logging plus latency checks. Write
-  deployment notes that combine package-and-CI/CD work
-  [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
-  with Simon's unified prediction schema.
+  lookup, then add request and response logging plus latency checks. Keep the
+  deployment notes tied to package-and-CI/CD work
+  [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+  Connect that release path with Simon's unified prediction schema
+  [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 - Monitoring dashboard and response path: track input quality and prediction
   distribution together with errors and latency. Then add one business or proxy
   metric and production framing
@@ -364,9 +364,9 @@ The strongest project starts from a clear product decision. It explains the
 data and label, establishes a baseline, and records training. It packages
 inference and shows what will be monitored after deployment.
 
-A course or bootcamp project should map to one visible lifecycle artifact. It
-should show tracked training and a serving path. It should also show a registry
-or release record, monitoring evidence, and operating notes.
+A course or bootcamp project should map to one visible lifecycle artifact. Use
+[[MLOps Architecture]] for the component map and [[MLOps Engineer]] for the
+ownership story behind the same project.
 
 Use
 [[Production ML Project Checklist]] for the full deliverable standard. The
@@ -378,10 +378,10 @@ roadmap keeps the build order and capability gaps.
 
 ## Capability Milestones
 
-Early roadmap proof means you can reproduce runs and package inference code.
-You can log predictions, explain training metrics, compare them with production
-behavior, and debug a failed run. That aligns with Maria's minimum maturity
-base in
+Early roadmap proof means you can reproduce runs and package inference code. You
+can log predictions, explain training metrics, compare them with production
+behavior, and debug a failed run. That aligns with Maria's minimum maturity base
+in
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 and Nemanja's beginner stack advice in
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
@@ -401,8 +401,7 @@ stage. Metadata, lineage, and governance matter too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Use [[MLOps Engineer]] for the role and responsibility boundary behind these
-milestones.
+Use [[MLOps Engineer]] for the responsibility boundary behind these milestones.
 
 ## Study-Build Boundary
 

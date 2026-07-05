@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11984
+    "links": 11963
   },
   "nodes": [
     {
@@ -458,7 +458,7 @@
       "title": "KG vs Vector Search",
       "url": "/wiki/knowledge-graph-vs-vector-search/",
       "count": 1,
-      "search": "KG vs Vector Search Compare graphs and vector search for RAG, semantic retrieval, domain systems, evaluation, and hybrid search design.",
+      "search": "KG vs Vector Search Compare explicit graph representations with vector similarity search for retrieval, provenance, and hybrid search design.",
       "keyword": "knowledge graph vs vector search"
     },
     {
@@ -9774,7 +9774,7 @@
       "title": "Graph Data Science",
       "url": "/wiki/graph-data-science/",
       "count": 1,
-      "search": "Graph Data Science Graph data science applies graph algorithms and ML to crash simulation, microbiome networks, knowledge graph automation, and Graph RAG."
+      "search": "Graph Data Science Graph data science applies graph algorithms and ML to nodes, edges, paths, centrality, similarity, and domain workflows."
     },
     {
       "id": "wiki:healthcare-ml-validation-and-adoption",
@@ -39962,6 +39962,12 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -39981,12 +39987,6 @@
     {
       "source": "wiki:data-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager",
-      "target": "wiki:a-b-testing",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40058,7 +40058,7 @@
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "wiki:ml-platforms",
+      "target": "wiki:ml-product-manager-role",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40334,12 +40334,6 @@
     },
     {
       "source": "wiki:data-product-manager-vs-product-manager",
-      "target": "podcast:building-data-products-product-owner-vs-product-manager",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-manager-vs-product-manager",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "article-chip",
       "weight": 1
@@ -40371,6 +40365,12 @@
     {
       "source": "wiki:data-product-manager-vs-product-manager",
       "target": "wiki:data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager-vs-product-manager",
+      "target": "wiki:data-governance",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40507,30 +40507,6 @@
       "weight": 5
     },
     {
-      "source": "wiki:data-product-manager-vs-product-manager",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "person:annahannemann",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "person:gregcoquillo",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "person:saramenefee",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
       "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
@@ -40563,12 +40539,6 @@
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40628,7 +40598,7 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "wiki:data-product-manager-roadmap",
+      "target": "wiki:data-product-manager",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40664,12 +40634,6 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "wiki:feature-stores",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "wiki:metrics",
       "kind": "article-chip",
       "weight": 1
@@ -40718,6 +40682,12 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -40727,12 +40697,6 @@
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-products",
@@ -41691,6 +41655,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:data-product-manager-roadmap",
       "kind": "article-chip",
       "weight": 1
     },
@@ -56048,12 +56018,6 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:practical-llm-engineering-and-rag",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:agent-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -63350,6 +63314,12 @@
     },
     {
       "source": "wiki:machine-learning-tools",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -65126,24 +65096,6 @@
     },
     {
       "source": "wiki:ml-product-manager-role",
-      "target": "podcast:product-designer-to-data-product-manager",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:data-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:data-product-adoption",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
       "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
@@ -65181,20 +65133,14 @@
     {
       "source": "wiki:ml-product-manager-role",
       "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:data-products",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -65207,12 +65153,6 @@
       "target": "wiki:data-teams",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:experimentation",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -65223,12 +65163,6 @@
     {
       "source": "wiki:ml-product-manager-role",
       "target": "wiki:machine-learning-infrastructure",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65279,24 +65213,6 @@
       "target": "wiki:platform-adoption",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:product-analytics",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:product-owner-vs-product-manager",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ml-product-manager-role",
-      "target": "wiki:production",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -65504,12 +65420,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "podcast:devrel-open-source-machine-learning",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -65666,12 +65576,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "wiki:metaflow",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -65711,6 +65615,12 @@
       "target": "wiki:mlops-engineer",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -73586,30 +73496,6 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
-      "target": "person:annahannemann",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "person:geojolly",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "person:gregcoquillo",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "person:saramenefee",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
@@ -73634,12 +73520,6 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-mesh",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:data-product-management",
       "kind": "article-chip",
       "weight": 1
@@ -73649,6 +73529,12 @@
       "target": "wiki:data-product-management",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
@@ -73721,12 +73607,6 @@
       "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:product-designer-to-data-product-manager",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:production",
@@ -75185,12 +75065,6 @@
       "target": "wiki:agent-engineering",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "wiki:ai-engineer-role",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:rag-evaluation-workflow",

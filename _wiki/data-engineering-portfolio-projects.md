@@ -38,15 +38,11 @@ For data engineering portfolio work, start with
 [[Data Quality and Observability]] for operations.
 
 For a build blueprint, use
-[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
-For learning order, use
-[[data-engineer-roadmap=>Data Engineering Roadmap]]
-or the broader
-[[Data Engineer Roadmap]].
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]], and for
+learning order, use [[data-engineer-roadmap=>Data Engineering Roadmap]].
 If a certificate is part of the learning path, use
-[[Data Engineering Certification]].
-Turn the coursework into project evidence instead of listing the credential
-alone.
+[[Data Engineering Certification]] for credential tradeoffs. For portfolio
+review, check whether the resulting project is reviewable.
 
 The boundary with analytics engineering is consumer-facing modeling. If the
 project is mainly metric definitions, BI tables, and dashboard semantics, use
@@ -211,13 +207,14 @@ backend ETL, testing, and interview practice matter too. The portfolio should
 therefore make transformations and validation queries easy to review. Reusable
 functions, tests, and database concepts should be easy to review too.
 
-Certificate study can feed this section when it leaves reviewable artifacts.
+Certificate study can feed the portfolio when it leaves reviewable work.
 Andreas Kretz warns learners not to stop at an AWS certification. He asks for a
 GitHub track record and documentation of what they learned
 [[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]].
-For a portfolio, that means the certificate project should include code,
-configuration, and run instructions. It should also explain the cloud or
-orchestration choices.
+
+Use [[Data Engineering Certification]] for the credential decision. For the
+portfolio, judge whether the certificate produced code and configuration. Also
+check for run instructions and explainable cloud or orchestration choices.
 
 ## Project Types
 
@@ -312,8 +309,9 @@ rerun behavior. The local setup can follow DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
 once the pipeline is already meaningful.
 Use the same threshold for certificate projects. Add Docker and Airflow when
-they make the project reproducible and operable, not when they're
-only course keywords.
+they make the project reproducible and operable, not when they're only course
+keywords. Use [[Data Engineering Certification]] for the credential-specific
+resume and payment decision.
 
 The interview story should explain one or two tradeoffs. Katz describes the
 application funnel and behavioral interviews in

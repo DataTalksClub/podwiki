@@ -281,56 +281,31 @@ Use [[Data Quality and Observability]],
 [[data-quality-and-observability=>Data Observability]] for the
 deeper version.
 
-## Stage 5: Make The Portfolio Interview-Ready
+## Stage 5: Make The Work Reviewable
 
-By this point, you should have one complete pipeline and one smaller project
-that proves a specific skill. The next step isn't adding another tool. It's
-making the work reviewable as part of the general learning path.
+By this point, you should have one complete pipeline and one smaller exercise
+that proves a specific skill. Stop adding tools until another engineer can run
+the work. They should also be able to read the SQL and Python, look at the
+tests, and ask why you made each tradeoff.
 
-If your main problem is missing commercial experience, keep the technical
-checklist here. Then use
+Jeff Katz's
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+asks for readable code, visible SQL and Python depth, and tests. Slawomir
+Tulski's
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
+pushes outcome framing and a small end-to-end platform, even when the
+implementation is simple. [[person:mehdiouazza=>Mehdi OUAZZA]] recommends
+writing and open-source work in
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
+because public explanations can create feedback and make work visible.
+
+Use [[Data Engineering Portfolio Projects]] for project selection and repository
+structure. It also covers review signals. If your main problem is missing
+commercial experience, use
 [[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
 to add outside review and CV language. It also covers volunteer work and
 open-source evidence.
-
-An interview-ready data engineering portfolio should include:
-
-- a README that explains the consumer, source, architecture, setup, and
-  tradeoffs
-- a command or documented path to run the pipeline
-- visible SQL and Python depth
-- tests for code and data
-- logs, run metadata, or screenshots from successful runs
-- table descriptions and table grain
-- one documented failure scenario
-- one backfill or rerun story
-- a short explanation of what you would simplify or change next
-
-This matches the hiring advice across these episodes. Jeff Katz's
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
-asks for readable code and tests. Slawomir Tulski's
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
-pushes portfolio framing and suggests a small end-to-end platform, even if the
-implementation is simple. [[person:mehdiouazza=>Mehdi OUAZZA]] recommends writing
-and open-source work in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
-and blogs and videos can also create feedback and make work visible.
-
-Build projects in this order:
-
-1. Reliable analytical model: raw data, cleaned staging tables, modeled marts,
-   and tests.
-2. Scheduled ingestion pipeline: API or file ingestion, raw storage,
-   transformations, checks, and a runbook.
-3. Backfill exercise: replay older data and document what downstream users see.
-4. Schema-change exercise: handle a renamed, missing, or newly added field.
-5. Capstone pipeline: ingestion, transformation, orchestration, quality,
-   documentation, and a named consumer.
-
-Keep one project small enough to finish and one project deep enough to defend.
-For project review, use
-[[Data Engineering Portfolio Projects]],
-[[Documentation]], and
+For documentation and screening context, use [[Documentation]] and
 [[CV Screening]].
 
 ## Stage 6: Prepare For Interviews While You Build
@@ -419,35 +394,39 @@ This keeps the roadmap connected to
 [[self-service-data-platforms=>Self-Service Data Platforms]],
 and [[Platform Engineering]].
 
-## Courses, Bootcamps, and Training Projects
+## Use Courses As Roadmap Structure
 
-Courses, bootcamps, and company training are roadmap inputs. They help when
-they create deadlines, feedback, reviewable labs, and a project another
-engineer can run. They're weak when they replace the roadmap with a tool list
-or certificate signaling. Use [[Data Engineering Certification]] to choose
-between course, bootcamp, cloud, and vendor credentials.
+Courses, bootcamps, and company training can give the roadmap deadlines and
+feedback. They also help when they include labs and a project another engineer
+can run.
 
-In a useful course, learners start with SQL, Python, and data modeling. They
-then ingest data, keep raw records, and transform into modeled tables before
-scheduling and testing the work. The first useful project should include a real
-failure mode, not only a happy-path demo.
+They work best when they keep fundamentals and operations in the same learning
+path:
+
+- SQL
+- Python
+- data modeling
+- ingestion
+- orchestration
+- testing
+
+They work poorly when they replace the roadmap with a tool list or a credential
+line.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side in
 [[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
-Her path included a bootcamp, a four-month search, volunteer practice, and
-tracked applications. Her Twitter data pipeline capstone used Docker containers
-and a Slack bot. Custom projects stand out more than repeated course projects.
-
-Jeff Katz says cloud certificates may help with recruiter filters. Hiring
+Her path included a bootcamp, volunteer practice, tracked applications, and a
+custom Twitter data pipeline capstone with Docker containers and a Slack bot.
+Jeff Katz adds that cloud certificates may help with recruiter filters. Hiring
 managers still check whether the candidate knows the topics and can code
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
 
-The same rule applies to course catalogs such as
+Use [[Data Engineering Certification]] to compare course, bootcamp, cloud, and
+vendor credentials. The same project rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
 which the DataTalks.Club podcast frames as free project-based learning
 ([[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]).
-A learner should finish with a pipeline they can explain instead of only a
-completed syllabus.
+Finish with a pipeline you can explain, not only a completed syllabus.
 
 ## Entry, Mid-Level, and Senior Signals
 

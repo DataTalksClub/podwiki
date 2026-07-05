@@ -46,19 +46,11 @@ GitHub. He then asks whether the candidate has enough ETL knowledge to help a
 team organize and clean data.
 [[cite:get-data-engineering-job-prep-and-interview@21:56=>Data Engineering Job Prep and Interview Guide]]
 
-For a resume, use that standard as a filter.
-
-A certification line helps only when the next lines show the work behind it:
-
-- You built an ingestion pipeline from an API, file drop, database export, or
-  event stream.
-- You wrote SQL models with clear table grain, joins, window functions, and
-  validation queries.
-- You wrote Python for extraction, loading, configuration, logging, error
-  handling, and tests.
-- You scheduled the workflow with dependencies, retries, reruns, and backfill
-  notes.
-- You documented setup, ownership, known failures, and the downstream consumer.
+For a resume, use that standard as a filter. A certification line helps only
+when the next lines show the work behind it. Name the ingestion path, SQL
+models, Python code, and repeatable runs. Then name the checks, documentation,
+and downstream consumer. Use [[Data Engineering Portfolio Projects]] for the
+full project checklist.
 
 Jeff warns that many portfolio projects name the expected tools but show too
 little Python and SQL. He asks for small functions, descriptive names, targeted
@@ -181,9 +173,10 @@ quality through bot detection, Twitter data cleaning, and sentiment bias.
 [[cite:get-data-analytics-and-data-engineering-job@53:34=>Get a Data Analytics and Data Engineering Job]].
 
 Judge a certification project by whether it gives the certificate line concrete
-evidence. It should name a source and a consumer. The pipeline should include
-SQL and Python. Add quality checks, a repeatable run path, and documentation. The
-detailed project checklist lives in [[Data Engineering Portfolio Projects]].
+evidence. It should name a source and a consumer. It should also include SQL,
+Python, and setup. Add checks and run notes that let a reviewer look at the
+work.
+Use [[Data Engineering Portfolio Projects]] for the detailed project checklist.
 
 Turn certificate study into evidence as you go. If the course teaches cloud
 storage, add a raw landing zone and explain permissions. If it teaches Docker,

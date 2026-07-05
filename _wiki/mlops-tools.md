@@ -120,13 +120,12 @@ path.[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Gui
 Choose tools based on the flow the team needs to operate. Don't choose them
 just because the product says it's an end-to-end MLOps platform.
 
-Startup stacks can stay minimal.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
-Python can cover scripts and training while CI/CD handles basic orchestration.
+[[lean-mlops-for-startups=>Lean MLOps for startups]] keeps the startup stack
+minimal. Python can cover scripts and training while CI/CD handles basic
+orchestration.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Dagster can handle orchestration when workflow tooling is justified, and MLflow
 can cover tracking.
-Use [[lean-mlops-for-startups=>lean MLOps for startups]] when the tool question
-is how much stack an early team needs before a full platform.
 
 That advice contrasts with heavier platforms such as Kubeflow, Vertex AI, and
 SageMaker. They bring setup cost, operational complexity, and lock-in questions
@@ -148,7 +147,8 @@ That connects MLOps tools to [[ML Platforms]]. The platform is useful only if it
 reduces repeated work while still teaching data scientists and ML engineers how
 to operate within production constraints.
 
-A practical minimum includes these tools:[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+Maria's practical minimum starts with tools the team can actually adopt
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]:
 
 - version control
 - CI/CD
@@ -253,18 +253,10 @@ and [[Model Registry]] for the training-to-handoff layer. Use
 [[Model Monitoring]] for production behavior and [[ML Platforms]] for the
 internal product view.
 
-Read tool choices through the team's operating context because enterprise-scale
-work starts with reproducibility and adoption
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-Existing platform defaults and shared deployment paths guide the same
-choice
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
-Monitoring-heavy stacks need model observability and infrastructure monitoring
-as distinct capabilities
+Read tool choices through the team's operating context. Enterprise teams and
+monitoring-heavy teams narrow the stack in different directions. Finance teams
+and startups do too
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
-[[cite:mlops-kubeflow-model-monitoring=>Kubeflow Model Monitoring]].
-Finance teams in regulated environments and startups narrow the stack in
-different directions
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].

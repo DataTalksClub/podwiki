@@ -432,6 +432,7 @@ and [[MLOps Roadmap]].
 For product paths, start with
 [[Data Product Management]]
 and [[Data Products]]. Then use
+[[data-product-manager-roadmap=>Data Product Manager Roadmap]],
 [[Data Product Adoption]]
 and
 [[Data Product Manager]].

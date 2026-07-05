@@ -45,9 +45,9 @@ RAG evaluation starts after the concept boundary is clear in
 [[RAG Portfolio Projects]]
 helps with project-type choice. The
 [[Search and RAG Project Checklist]]
-contains implementation review fields, and the
+contains implementation review fields. Use the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-for the wider production sequence.
+for the wider learning and rollout sequence.
 
 Search evaluation starts before answer scoring because chunking and embeddings
 affect the evidence the model sees. Prompt context, citations, offline tests,
@@ -86,10 +86,9 @@ For each task, record:
 5. The evidence that must be retrieved.
 6. The refusal or escalation behavior when evidence is missing.
 
-This first step connects RAG evaluation to
-[[LLM Production Patterns]],
-[[AI Engineer Role]], and the
-[[Search and RAG Project Checklist]].
+Use these task records in the
+[[Search and RAG Project Checklist]]
+when the evaluation backs a portfolio project or project README.
 
 ## Build Gold Examples
 
@@ -256,6 +255,8 @@ These logs connect RAG evaluation to
 [[Model Monitoring]],
 [[MLOps]], and
 [[Production Search Evaluation]].
+Use [[LLM Production Patterns]] when traces become a monitoring and operations
+design question.
 
 ## Feed Production Back Into The Eval Set
 
