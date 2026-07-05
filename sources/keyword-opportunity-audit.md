@@ -11,10 +11,10 @@ Input files:
 ## Extraction Result
 
 - Ubersuggest CSV rows extracted: 1000
-- Existing tagged wiki/editorial pages checked: 49
+- Existing tagged wiki/editorial pages checked: 76
   (`_wiki/` pages with `guide`, `comparison`, `roadmap`, `transition`, or
   `how-to` tags)
-- Existing wiki pages checked: 183
+- Existing wiki pages checked: 280
 - Excel workbook tabs checked in the local file:
   `Quick-wins`, `Competitor Gaps`, `Code Fix`
 - Excel rows beyond headers in the local file: 0
@@ -67,19 +67,20 @@ These keyword groups already have editorial coverage:
 | Data pipeline projects | `_wiki/end-to-end-data-pipeline-project.md`, `_wiki/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_wiki/freelance.md` | data engineering consulting, data engineering consultant, data engineer consulting, data engineer consultant |
 | Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
-| Portfolio projects | `_wiki/portfolio-projects.md`, `_wiki/data-engineering-portfolio-projects.md`, `_wiki/machine-learning-portfolio-projects.md`, `_wiki/analytics-engineering-portfolio-projects.md`, `_wiki/rag-portfolio-projects.md`, `_wiki/open-source-portfolio-evidence.md` | portfolio projects, data engineering portfolio projects, machine learning portfolio projects, analytics engineering portfolio projects, rag portfolio projects |
+| Portfolio projects | `_wiki/portfolio-projects.md`, `_wiki/data-engineering-portfolio-projects.md`, `_wiki/machine-learning-portfolio-projects.md`, `_wiki/analytics-engineering-portfolio-projects.md`, `_wiki/rag-portfolio-projects.md`, `_wiki/open-source-portfolio-evidence.md`, `_wiki/volunteer-data-engineering-projects.md` | portfolio projects, data engineering portfolio projects, machine learning portfolio projects, analytics engineering portfolio projects, rag portfolio projects, volunteer data engineering projects, open source data engineering portfolio, nonprofit data engineering projects, data engineering volunteer work |
 | MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_wiki/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
 | DataOps core terms | `_wiki/dataops.md`, `_wiki/dataops-tools.md`, `_wiki/mlops-vs-dataops.md`, `_wiki/dataops-vs-data-engineering.md` | dataops, data ops, dataops tools, mlops vs dataops, dataops vs data engineering |
 | Machine learning system design | `_wiki/machine-learning-system-design.md`, `_wiki/machine-learning-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
 | LLM system design | `_wiki/llm-system-design-interview.md` | llm system design interview |
 | Business Intelligence | `_wiki/business-intelligence.md` | ai powered business intelligence, business intelligence |
-| Machine learning for software engineers | `_wiki/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
+| Machine learning for software engineers | `_wiki/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md`, `_wiki/machine-learning-vs-software-engineering.md` | machine learning for software engineers, software engineering machine learning, machine learning vs software engineering, software engineering vs machine learning, machine learning and software engineering, software engineer vs machine learning engineer |
 | Machine learning startups | `_wiki/machine-learning-for-startups.md` | machine learning for startups |
 | Data scientist interview | `_wiki/data-scientist-interview.md` | data scientist interview |
+| Data science project management and PM transitions | `_wiki/data-science-project-management.md`, `_wiki/project-manager-to-data-science.md` | data science project management, project management for data science, data science project manager, project manager to data science, project manager to data scientist, project management to data science |
 | Data product roles | `_wiki/data-product-manager.md`, `_wiki/data-product-management.md`, `_wiki/product-analyst.md` | data product manager, data product management, product analyst |
 | Product owner vs product manager | `_wiki/product-owner-vs-product-manager.md`, `_wiki/data-product-owner-vs-data-product-manager.md` | data product owner, data science product owner, data product owner vs data product manager |
 | Data engineering management | `_wiki/data-engineering-manager-role.md`, `_wiki/leadership.md` | data engineering manager, data engineer manager, data engineering manager job description, data engineering manager roles and responsibilities |
-| Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md` | airflow, apache airflow |
+| Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md` | airflow, apache airflow, airflow docker compose, airflow lite, airflow standalone docker, install airflow docker compose, lightweight airflow |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
 | Machine Learning Zoomcamp | main DataTalks.Club course page | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
@@ -158,6 +159,13 @@ main DataTalks.Club site owns those course queries.
 21. `_wiki/rfm-analysis.md`
 22. `_wiki/chief-data-officer-role.md`
 23. `_wiki/dataops-engineer-role.md`
+24. `_wiki/machine-learning-vs-software-engineering.md`
+25. `_wiki/project-manager-to-data-science.md`
+26. `_wiki/volunteer-data-engineering-projects.md`
+
+`_wiki/apache-airflow.md` was also enriched on 2026-07-05 for Airflow
+Docker/local workflow intent while keeping the main DataTalks.Club Docker
+Compose article canonical for setup instructions.
 
 The duplicate data engineering course, courses, bootcamp, and training guide
 variants were later removed. Their useful guidance belongs in
@@ -215,11 +223,20 @@ community-content or owned-channel content with real DataTalks.Club asset links.
 The broad Tech Startups keyword belongs to the startup wiki cluster rather than
 a separate generic guide.
 
-The 2026-07-05 five-agent follow-up found no new standalone page targets in the
-current local files. It confirmed that the Excel workbook still contains only
-headers and that residual CSV intent should enrich existing canonical pages:
-MLOps architecture and engineer role pages for framework, architect, and diagram
-queries; DataOps platforms and pipeline how-to pages for platform/software and
-pipeline-training variants; hiring, no-experience, analyst-career,
-certification, data-engineering-manager, and product-analyst pages for career
-and role variants. Do not create duplicate pages for those terms.
+The 2026-07-05 five-agent follow-up confirmed that the Excel workbook still
+contains only headers. The remaining 2026-07-04 CSV-backed candidates have now
+been handled: `_wiki/apache-airflow.md` was tightened for Docker/local workflow
+intent; `_wiki/machine-learning-vs-software-engineering.md` covers the ML vs
+software engineering comparison intent; `_wiki/project-manager-to-data-science.md`
+covers the PM-to-data-science transition intent; and
+`_wiki/volunteer-data-engineering-projects.md` covers volunteer, nonprofit, and
+open-source data engineering portfolio intent.
+
+Residual CSV intent is now maintenance for canonical pages, not a new-page
+queue. Enrich the relevant existing page when new evidence appears: use the
+newer pages above for their covered intents; MLOps architecture and engineer
+role pages for framework, architect, and diagram queries; DataOps platforms and
+pipeline how-to pages for platform/software and pipeline-training variants; and
+hiring, no-experience, analyst-career, certification, data-engineering-manager,
+and product-analyst pages for career and role variants. Do not create duplicate
+pages for those terms.

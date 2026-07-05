@@ -23,6 +23,18 @@ Keep the original audit below as the historical decision record. Future work
 should focus on the borderline items and on shortening overlong titles and
 descriptions flagged by `python scripts/audit_seo.py`.
 
+## 2026-07-05 Status
+
+The remaining Airflow local-setup risk was handled without creating a competing
+podwiki how-to. `_wiki/apache-airflow.md` now keeps the main-site
+`/blog/how-to-setup-lightweight-local-version-for-airflow.html` article as the
+canonical Docker Compose setup guide, while the wiki page covers the Airflow
+orchestration boundary, thin DAGs, local portfolio evidence, and platform
+operating cost.
+
+`python scripts/audit_seo.py` currently reports no title, description, missing
+description, or duplicate-H1 flags.
+
 ## 1. Method + the score-vs-verdict caveat
 
 I ran `scripts/find_duplicates.py` and worked its "CROSS-SITE overlap" ranking (BM25 of each of the 275 wiki pages vs its nearest main-site `_posts` article). I evaluated the full defensible set: all 63 pages carrying a `keyword:` field plus every non-keyword page scoring above ~45, and batch-judged the tail. For each I opened the podwiki front matter (title / keyword / summary / search_intent / tags) and the top main-site match's front matter + intro, then judged shared **query/intent**, not shared vocabulary.
