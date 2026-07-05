@@ -99,6 +99,12 @@ and open mentoring show one path. DataBuzz shows another path by joining
 responsible-AI education, resources, and networking.[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
+Data and AI events add another mentoring context. Talks, sponsor booths, and
+dinners create places where weak ties can form
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]].
+That makes [[data-ai-conference-building=>data and AI conference building]]
+relevant to mentoring through community networking, not only formal programs.
+
 Cold outreach still works when the message is specific. The first message
 should give background and one concrete question. It should also name the
 current struggle and prior attempts. Vague help requests give the mentor too

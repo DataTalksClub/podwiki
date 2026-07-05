@@ -358,9 +358,17 @@ team-building episode starts with dashboards and business-health monitoring. It
 then moves into a warehouse, Stitch, GCP, and dbt. Data Studio and Notion docs
 make the work usable.
 
-Tests, monitoring, forecasting, and workshops help rebuild trust outside the
-data team
+Tests and monitoring help rebuild trust outside the data team. Forecasting and
+workshops can do the same
 ([[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]).
+
+Those workshops can also become public practitioner sessions. Data Makers Fest
+organizers use speaker curation and timetable design to keep analytics
+engineering talks useful for a mixed audience. The same program also has to
+serve data science and AI audiences
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@34:54=>Data Makers Fest keynote fit]].
+That connects analytics engineering adoption work to
+[[data-ai-conference-building=>data and AI conference building]].
 
 Choudhury's data-led growth stack shows a similar adoption surface for product
 and go-to-market teams. Event tracking and tracking plans create demand for

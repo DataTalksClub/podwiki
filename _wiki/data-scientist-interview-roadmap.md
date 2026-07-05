@@ -49,9 +49,9 @@ stories and offer conversations.
 ## Preparation Layers
 
 Data scientist interview preparation has three ordered layers. First, define the
-target role through the recruiter workflow because recruiters start from role
-definition and market guidance. They then move through shortlists, interview
-preparation, feedback, and offer negotiation
+target role through the [[data-science-recruiter=>data science recruiter]]
+workflow because recruiters start from role definition and market guidance. They
+then move through shortlists, interview preparation, feedback, and offer negotiation
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
 The candidate-side funnel narrows into recruiter screen, take-home work, and
 interview rounds

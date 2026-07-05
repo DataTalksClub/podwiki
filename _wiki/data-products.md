@@ -18,9 +18,10 @@ related:
 
 A data product is a maintained data output that helps someone make a decision
 or run an operational workflow. It can be a table or event stream. It can also
-be a dashboard, API, or model. Identity-resolution tools and activation flows
-can also be data products. The output becomes a product only when someone owns
-the consumer problem, quality expectations, release path, and adoption work.
+be a dashboard, API, or model. [[entity-resolution=>Identity-resolution]] tools
+and activation flows can also be data products. The output becomes a product
+only when someone owns the consumer problem, quality expectations, release path,
+and adoption work.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 The concept sits between [[Data Product Management]], [[Data Engineering

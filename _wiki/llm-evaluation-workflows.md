@@ -15,6 +15,10 @@ Teams use LLM evaluation workflows before shipping prompts,
 engineering work where teams collect examples, define pass criteria, and review
 failures. They then feed production behavior back into the next test set
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+The same habit scales down for
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]]:
+keep a few known examples and review the output before trusting repeated AI
+workflows.
 
 LLM evaluation connects [[Evaluation]]
 with [[LLM Production Patterns]],

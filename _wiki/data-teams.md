@@ -368,6 +368,13 @@ healthy just because its stack works. People have to use its outputs in real
 decisions.
 [[cite:building-and-scaling-data-team=>Liang]]
 
+Data leaders also learn from peers outside their company. Data Lead Club uses a
+smaller retreat format for management topics that are hard to discuss inside
+one's own team
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Lead Club]].
+That peer-learning format connects data-team design to
+[[data-ai-conference-building=>data and AI conference building]].
+
 ## Related Pages
 
 Data team design overlaps with

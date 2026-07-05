@@ -148,8 +148,9 @@ model-specific signals.
 ## Feature Reliability
 
 Feature-heavy projects should address training-serving consistency, feature
-validation, and ownership, and review drift and served-feature logs. Feature
-responsibilities, validation, ownership, and governance ground that work
+validation, and ownership, and review drift and served-feature logs.
+[[Feature Stores]] frame that online-offline feature path when a project needs
+one. Feature responsibilities, validation, ownership, and governance ground that work
 [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]].
 
 If the project uses a feature table, the README should state who owns each

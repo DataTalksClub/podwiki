@@ -170,6 +170,7 @@ Features matter more than model architecture. Many production systems fail when
 the team can't compute the right features at prediction time
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 That concern connects ML system design to
+[[feature-stores=>feature stores]],
 [[data engineering platforms]],
 [[data quality and observability]],
 and [[batch-vs-streaming=>batch versus streaming]].

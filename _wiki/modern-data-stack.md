@@ -130,6 +130,9 @@ changes later. That's the central [[ETL vs ELT]] tradeoff. ETL can still fit
 large enterprises or complex staging needs, but modern-stack conversations
 often put raw loading and warehouse-side modeling next to each other
 [[cite:data-engineering-tools-modern-data-stack]].
+When central storage contains repeated customer, supplier, or product records,
+teams have another warehouse-side modeling problem: [[Entity Resolution]]
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
 
 The pipeline-engineering view draws the same boundary by separating
 ingestion-focused pipeline authoring from transformation-focused modeling.

@@ -106,8 +106,8 @@ request-time enrichment. A fraud workflow can use daily batch jobs for feature
 values. The purchase flow still needs a live decision that can block a
 transaction.[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@08:24=>Fraud Prevention]]
 
-Feature stores make the latency split explicit because offline stores support
-training. Online stores serve low-latency features for fraud checks and
+[[Feature Stores]] make the latency split explicit because offline stores
+support training. Online stores serve low-latency features for fraud checks and
 recommendations. They also support risk, pricing, and ranking
 features.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 

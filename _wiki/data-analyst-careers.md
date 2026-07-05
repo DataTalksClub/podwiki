@@ -98,11 +98,12 @@ changes a decision. Product analytics projects should explain collection and
 storage. They should also explain activation and event definitions before
 trusting a funnel or cohort.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
-For a hiring screen, name responsibilities directly. Recruiters and hiring
-managers look for dates, tools, examples, and the work behind the title. A
-resume should say which dashboards and reports the candidate owned. It should
-also name SQL analyses, stakeholder questions, and recommendations, not only
-which tools they used.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+For a hiring screen, name responsibilities directly. A
+[[data-science-recruiter=>data science recruiter]] or hiring manager looks for
+dates, tools, examples, and the work behind the title. A resume should say which
+dashboards and reports the candidate owned. It should also name SQL analyses,
+stakeholder questions, and recommendations, not only which tools they
+used.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
 For the next move, extend the same base in the direction of the target role.
 Analysts can move toward the [[Analytics Engineering Roadmap]] when one-off

@@ -133,6 +133,10 @@ usually needs to know whether the result can ship. [[cite:practical-llm-engineer
 Teams can start with manual review, but reliable software eventually needs
 examples that represent real user interactions. The test set should avoid
 overfitting to a few cases without wasting time and money. [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+For individual
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
+habits, teams can keep a smaller prompt-review set. Keep examples for the work
+you repeat, then compare new prompts against them before trusting the result.
 
 Teams use failure analysis to decide whether more prompt work is worthwhile.
 Categorizing and ranking errors shows where the next fix belongs. If most

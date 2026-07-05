@@ -102,6 +102,11 @@ make the same choice in
 [[data-product-intake-and-prioritization=>data product intake]]: clarify the
 decision, then choose the lightest credible work[[cite:data-professionals-business-skills-in-saas=>Business Skills in SaaS]].
 
+The same business judgment applies when data professionals use
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
+They should use AI on repeated drafting, analysis, or review tasks only after
+the decision and review path are clear.
+
 A boundary for [[Data Teams]] names maintainability, documentation, and peer
 review as part of analytics craft[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Teams]].
 One-off analysis can stay lightweight, but shared assets need enough quality for

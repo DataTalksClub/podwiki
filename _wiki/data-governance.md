@@ -172,11 +172,17 @@ trust the output.
 
 ## Metrics, Contracts, and Data Consumers
 
-Metric definitions are governed data assets when dashboards, experiments, and
-business decisions reuse them. Teams need shared definitions for entities such
-as customers, revenue, activation, and retention before a dashboard or BI layer
-can be trusted. Semantic alignment keeps the data product from hiding a business
-definition inside one analyst's query.[[cite:data-professionals-business-skills-in-saas@12:19=>Semantic Alignment]]
+Metric definitions are governed data assets when teams reuse them in dashboards
+and business decisions. Teams need shared definitions for customers and
+revenue before a dashboard or BI layer can be trusted. Activation and retention
+need the same semantic alignment
+[[cite:data-professionals-business-skills-in-saas@12:19=>Semantic Alignment]].
+Otherwise, the data product can hide a business definition inside one analyst's
+query.
+
+When linked records define business entities, teams have to govern
+[[Entity Resolution]] as part of the definition too
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
 
 Data contracts make ownership testable. A producer and consumer agree on schema,
 quality expectations, and change responsibilities before downstream jobs depend

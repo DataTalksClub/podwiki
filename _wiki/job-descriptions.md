@@ -20,8 +20,9 @@ description also separates noisy titles such as
 [[data-analyst-role=>Data Analyst]] from the actual
 work.
 
-The posting works as both a hiring spec and a candidate diagnostic. Recruiters
-build the spec with hiring managers. They then adjust requirements against market
+The posting works as both a hiring spec and a candidate diagnostic.
+[[data-science-recruiter=>Data science recruiters]] build the spec with hiring
+managers. They then adjust requirements against market
 reality.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 Candidates can treat a mismatch between title, responsibilities, and team
 context as a warning. The company may not have named the data problem it needs

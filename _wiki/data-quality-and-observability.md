@@ -148,6 +148,10 @@ dataset.
 
 Quality checks reduce known failure modes, while observability watches running
 data products for unexpected ones.
+For [[Entity Resolution]] outputs, those checks have to protect the matched
+entity view that downstream tools trust. That view may describe customers,
+suppliers, or products
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
 
 Internal data platforms can measure quality work with operational outcomes, not
 only test counts. Greg Coquillo suggests tracking whether pipeline failures

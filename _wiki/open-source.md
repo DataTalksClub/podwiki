@@ -222,11 +222,11 @@ This is why open source sits next to
 [[ELT]], and
 [[CDC]].
 
-Entity and identity resolution show the data product route, where the open-source
-decision affects adoption and licensing. It also affects integrations and
-growth. For complex matching systems, public software helps buyers evaluate the
-logic before they commit to a tool. That matters when the product touches
-customer identity, fraud, or data quality
+Zingg's [[Entity Resolution]] story shows the data product route, where the
+open-source decision affects adoption and licensing. It also affects
+integrations and growth. For complex matching systems, public software helps
+buyers evaluate the logic before they commit to a tool. That matters when the
+product touches customer identity, fraud, or data quality
 [[cite:building-open-source-data-product-for-identity-resolution@24:14=>Building an Open-Source ML-Powered Identity Resolution Tool]]
 [[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution for Fraud]].
 

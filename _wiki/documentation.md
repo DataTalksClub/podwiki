@@ -123,6 +123,11 @@ public writing. The same habits can also support design docs, rationales, and
 decision logs at work
 [[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
 [[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
+For repeated docs work, use
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]] to
+keep the same boundary. Name the source material, expected output, and review
+step before automating a draft or summary
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 Good team documentation says what changed and why. It also says what the team
 decided not to do. That matters for [[practices]] such as versioning, tests,

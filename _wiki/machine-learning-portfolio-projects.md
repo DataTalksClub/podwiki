@@ -100,8 +100,10 @@ taught about users, data, deployment, or operations
 
 Recruiting and interview guidance applies the same standard to presentation. In
 Land Data Scientist Roles, [[person:lukewhipps=>Luke Whipps]] says projects
-should back up the skills claimed on a resume. He includes Python, SQL,
-TensorFlow, and PyTorch as examples [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
+should back up the skills claimed on a resume. That's also the
+[[data-science-recruiter=>data science recruiter]] screen: visible projects
+need to support the candidate's stated tools and role fit. He includes Python,
+SQL, TensorFlow, and PyTorch as examples [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 
 In Ace Data Interviews, [[person:nicksingh=>Nick Singh]] treats project
 walkthroughs as a way to test model choice and metrics. He also uses them to

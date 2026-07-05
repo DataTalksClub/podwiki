@@ -147,6 +147,13 @@ speaking, confidence to publish, and monetization extend that public presence.
 Public work is useful when it clarifies what the person wants to be known for.
 [[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
 
+Conference organizing adds another form of visibility. Data Makers Fest connects
+conference work to visible operating style, peer recognition, and career growth
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Starting a Data Conference]].
+That puts career visibility near
+[[data-ai-conference-building=>data and AI conference building]], not only
+personal-brand publishing.
+
 Learning in public works better when posts help readers, and timing or format
 can increase LinkedIn reach. Comments help too, but the durable signal still
 comes from useful field notes and examples rather than personal brags.

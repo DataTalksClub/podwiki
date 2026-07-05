@@ -204,7 +204,7 @@ transaction-payload information must be handled almost immediately.
 feature-store version in
 [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
 He places feature stores between source systems and the production ML
-environment. Those sources can include raw streams, warehouses, and lakes.
+environment. [[Feature Stores]] can use raw streams, warehouses, and lakes.
 He separates streaming ingestion, batch transforms, and training-set
 construction.
 

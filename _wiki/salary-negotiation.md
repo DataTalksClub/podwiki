@@ -26,9 +26,11 @@ taxes, and gaps between projects.
 ## Role Fit and Market Baselines
 
 Salary negotiation is the conversation that aligns compensation with the role,
-the level, and the candidate's alternatives. Recruiter screens often cover
-notice period, availability, current interview activity, and salary
-expectations so both sides can avoid a late-stage mismatch.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
+the level, and the candidate's alternatives. A
+[[data-science-recruiter=>data science recruiter]] screen often covers notice
+period, availability, current interview activity, and salary expectations.
+Recruiters use that early check to avoid late-stage mismatch on either
+side.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 
 Candidates compare the salary number with offer components, market baselines,
 and the option to stay or decline. Recruiters and hiring managers compare the

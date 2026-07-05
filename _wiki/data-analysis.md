@@ -151,6 +151,14 @@ journalism is distinct from broader data science. It moves through data
 sourcing, storytelling, and visualization. In that episode, the advice is to keep
 one concept per chart and use tables when they're clearer[[cite:data-journalism-python-visualization-storytelling=>Data Journalism]].
 
+Conference talks and workshops use the same standard. Data Makers Fest
+organizers curate programs and networking spaces so practitioners can compare
+concrete practices outside their own teams
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]].
+That puts analysis communication near
+[[data-ai-conference-building=>data and AI conference building]] when analysts
+turn their work into public sessions.
+
 The same communication standard appears in hiring and team discussions.
 Candidates should show clear responsibilities, dates, and practical examples.
 Data analyst titles are ambiguous[[cite:hiring-data-scientists-and-analysts=>Hiring Analysts]].

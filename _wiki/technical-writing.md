@@ -128,6 +128,11 @@ still edits the result back into their style. For free drafting, a plain editor
 can be better than autocomplete when the writer needs imperfect but intentional
 text
 [[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]].
+
+That boundary also makes technical writing part of
+[[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
+Use the assistant for drafts and rewrites, then keep human review on voice,
+argument, and evidence.
 For consultants, that makes AI a drafting aid rather than a substitute for the
 discoverable expertise that writing is supposed to prove.
 

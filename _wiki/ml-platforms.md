@@ -186,7 +186,7 @@ A fuller lifecycle list adds CI, repository structure, parameterization, and
 testing. It also adds data versioning, serving, monitoring, and package
 registries. Docker, Kubernetes, and Databricks tradeoffs affect deployment[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Feature stores are a specialized lifecycle service when teams need reliable
+[[Feature Stores]] are a specialized lifecycle service when teams need reliable
 real-time features. They reduce duplicated feature logic and training-serving
 skew. They also reduce slow production handoffs.
 
