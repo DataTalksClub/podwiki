@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Founder"
-summary: "How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open-source, consulting, indie, and digital health startups."
+summary: "How founders choose problems, validate demand, set product boundaries, hire, distribute products, and make revenue decisions."
 related:
   - Startups
   - Entrepreneurship
@@ -14,24 +14,31 @@ related:
   - Team Building
 ---
 
-Founder work in DataTalks.Club podcast discussions means turning uncertainty
-into company decisions. These discussions don't use founder as a biography
-label. They connect founder work to choosing a problem and validating demand.
-They also cover product boundaries, distribution, hiring timing, and revenue.
+Founder work in DataTalks.Club podcast discussions means taking responsibility
+for decisions the company can't delegate yet. Guests describe founders choosing
+which problem deserves attention and proving demand before the product gets
+heavy. They also set product boundaries and decide how users find the product.
+They hire under uncertainty and turn value into revenue too.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
-Founder work appears across [[startups=>startups]] and [[Machine Learning for Startups]].
-It also connects to [[Entrepreneurship]], [[Open Source]], and [[Solopreneur]].
-The [[Consultant or Freelancer to Data Product Founder]] path covers service
-work becoming a product company.
+For company stage and startup constraints, read [[startups=>Startups]]. Use the
+same page for vertical use cases, MLOps scope, and startup career environments.
+Founder work also appears in [[Machine Learning for Startups]],
+[[Entrepreneurship]], [[Open Source]], and [[Solopreneur]]. The
+[[Consultant or Freelancer to Data Product Founder]] path covers service work
+becoming a product company.
 
 Open-source founders spend more time on community and developer trust.
-Healthcare founders spend more time on safety and partners. Indie founders
-spend more time on cost, scope, and personal runway.
+[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+Healthcare founders spend more time on safety and partners.
+[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
+Indie founders spend more time on cost, scope, and personal runway.
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
 
-## Problem Selection
+## Choosing the Problem
 
-Technical founders should start with a painful workflow, not with the wish to
-build a machine learning startup. The useful founder question is whether
+Technical founders start by choosing a painful workflow, not by declaring that
+they want to build a machine learning startup. The founder question is whether
 [[machine learning]] solves the problem better than a simpler tool.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
 A grocery-store team may think the problem is forecasting. Customer
@@ -52,11 +59,11 @@ and doctors then helped the product settle into a digital clinic flow.[[cite:bui
 A healthcare founder has to pick a useful and ethical problem. It also has to be
 data-feasible and safe enough to put in front of patients.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
-## Validation Before Build
+## Owning Validation Before Build
 
-Founder work includes proving that the problem is real before the product gets
-heavy. Evidently talked to roughly 50 people before starting and more than 100
-during early development. Those interviews surfaced broken models, abandoned
+Founders own the decision to delay product weight until the problem is real.
+Evidently talked to roughly 50 people before starting and more than 100 during
+early development. Those interviews surfaced broken models, abandoned
 monitoring, and production failures that no one noticed. Evidently validated
 [[model monitoring]] as a business problem because practitioners kept naming the
 same operational pain.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
@@ -87,7 +94,7 @@ attendees. For [[community-building]] and [[teaching]], early product-market fit
 can look like understanding the audience well enough for the format to pull
 people in.[[cite:datatalksclub-scaling-and-free-courses@33:40=>Inside Scaling DataTalks.Club]]
 
-## Product Boundaries
+## Drawing Product Boundaries
 
 Founders decide what the product is and what it refuses to become. DLT was a
 developer-focused library rather than a platform. That choice kept
@@ -103,10 +110,11 @@ connections to pharmacies and prescriptions.[[cite:building-ai-digital-health-st
 For AI founders, the product boundary includes what the system should route to a
 human or a safer path.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
-FreshFlow adds the infrastructure lesson. Moving away from Kubeflow complexity
+FreshFlow adds the infrastructure decision. Moving away from Kubeflow complexity
 toward managed cloud services kept the team closer to pilots and retailer
 learning. For retail AI founders, platform work can delay forecasting quality
-and product-market fit.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+and product-market fit. [[startups=>Startups]] covers this as a company-stage
+constraint.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 Elena Samuylova adds a service-to-product boundary. A founder can start with
 manual delivery behind an interface. The startup becomes scalable only when the
@@ -114,7 +122,7 @@ work is standardized enough to automate. Some offerings still need custom
 expert handling for every client. Those remain closer to services businesses
 than repeatable SaaS products.[[cite:building-mlops-startup@39:25=>How to Build a Successful ML Startup]]
 
-## Distribution and Open Source
+## Choosing Distribution Channels
 
 Several founders use [[Open Source]] as distribution, not only as a license.
 Evidently's model-monitoring tool let engineers and data scientists try the
@@ -150,7 +158,9 @@ care.[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in O
 For a developer library, founder-led distribution means finding personas and
 learning where data engineers spend time. Founders also identify adjacent tool
 communities and build ecosystem partnerships. A library needs a path into
-notebooks, demos, docs, and communities before enterprise buyers will care.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+notebooks, demos, docs, and communities before enterprise buyers will care. The
+[[open-source-and-developer-relations=>Open Source and Developer Relations]]
+page covers the developer-relations craft behind that channel.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 DataTalks.Club adds the free-course version of founder-led distribution. A
 course such as Data Engineering Zoomcamp can spread outside the cohort.
@@ -221,7 +231,7 @@ That makes the Textualize path a useful counterexample to waiting for a
 finished product before talking to investors. Public work, community response,
 and founder learning were already part of the evidence.
 
-## Indie and Small-Business Paths
+## Founder Paths Outside Venture
 
 Venture funding isn't the only founder path here.
 The indie version can start as bootstrapping while keeping a day job. A

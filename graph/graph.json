@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11886
+    "links": 11877
   },
   "nodes": [
     {
@@ -213,6 +213,17 @@
       "keyword": "data product manager vs product manager"
     },
     {
+      "id": "wiki:data-product-owner-vs-data-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data PO vs Data PM",
+      "title": "Data PO vs Data PM",
+      "url": "/wiki/data-product-owner-vs-data-product-manager/",
+      "count": 1,
+      "search": "Data PO vs Data PM Compare data product owner and data product manager responsibilities for data products, ML products, platforms, guarantees, roadmaps, and adoption.",
+      "keyword": "data product owner vs data product manager"
+    },
+    {
       "id": "wiki:data-product-manager",
       "type": "article",
       "collection": "guide",
@@ -233,17 +244,6 @@
       "count": 1,
       "search": "Data Product Manager Roadmap A podcast backed roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
       "keyword": "data product manager roadmap"
-    },
-    {
-      "id": "wiki:data-product-owner-vs-data-product-manager",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Data Product Owner vs Manager",
-      "title": "Data Product Owner vs Manager",
-      "url": "/wiki/data-product-owner-vs-data-product-manager/",
-      "count": 1,
-      "search": "Data Product Owner vs Manager Compare data product owner and data product manager responsibilities, decision rights, guarantees, roadmaps, technical literacy, and adoption work.",
-      "keyword": "data product owner vs data product manager"
     },
     {
       "id": "wiki:data-roles",
@@ -630,7 +630,7 @@
       "title": "No-Experience Data Engineer",
       "url": "/wiki/how-to-become-a-data-engineer-with-no-experience/",
       "count": 1,
-      "search": "No Experience Data Engineer Learn the first SQL and Python skills, portfolio pipeline, transition story, interview prep, and CV proof for an entry data engineer path.",
+      "search": "No Experience Data Engineer Build a no experience data engineer transition strategy around reviewed projects, credibility signals, interview stories, and CV proof.",
       "keyword": "how to become a data engineer with no experience"
     },
     {
@@ -677,6 +677,17 @@
       "keyword": "project manager to data science"
     },
     {
+      "id": "wiki:product-owner-vs-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "PO vs PM",
+      "title": "PO vs PM",
+      "url": "/wiki/product-owner-vs-product-manager/",
+      "count": 1,
+      "search": "PO vs PM Compare product owner, product manager, and domain owner decision rights, with links to the data product specific comparison.",
+      "keyword": "product owner vs product manager"
+    },
+    {
       "id": "wiki:product-analyst",
       "type": "article",
       "collection": "guide",
@@ -696,17 +707,6 @@
       "url": "/wiki/product-designer-to-data-product-manager/",
       "count": 1,
       "search": "Product Designer to Data PM How product designers can move into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
-    },
-    {
-      "id": "wiki:product-owner-vs-product-manager",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Product Owner vs PM",
-      "title": "Product Owner vs PM",
-      "url": "/wiki/product-owner-vs-product-manager/",
-      "count": 1,
-      "search": "Product Owner vs PM Compare product owner, product manager, and domain owner roles in data product and ML teams, grounded in podcast discussions.",
-      "keyword": "data product owner"
     },
     {
       "id": "wiki:product-analyst-vs-data-analyst",
@@ -9047,7 +9047,7 @@
       "title": "Community",
       "url": "/wiki/community/",
       "count": 1,
-      "search": "Community How DataTalks.Club podcast guests use community as a practical layer for learning, feedback, contribution, visibility, safety, and technical adoption."
+      "search": "Community How DataTalks.Club podcast guests use community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
     },
     {
       "id": "wiki:community-building",
@@ -9057,7 +9057,7 @@
       "title": "Community Building",
       "url": "/wiki/community-building/",
       "count": 1,
-      "search": "Community Building Podcast backed patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
+      "search": "Community Building Podcast backed operating patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
     },
     {
       "id": "wiki:computer-vision",
@@ -9469,7 +9469,7 @@
       "title": "DataOps",
       "url": "/wiki/dataops/",
       "count": 1,
-      "search": "DataOps DataOps makes changes to data pipelines, analytics workflows, and data platforms testable, observable, and recoverable."
+      "search": "DataOps DataOps is the practice of making data delivery reviewable, testable, observable, and recoverable."
     },
     {
       "id": "wiki:dataops-engineer-role",
@@ -9489,7 +9489,7 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms How shared DataOps platform layers make pipeline changes reviewable, observable, governed, and recoverable across teams.",
+      "search": "DataOps Platforms Shared DataOps platform surfaces for pipeline release paths, observability, governance, access, and recovery across teams.",
       "keyword": "data ops platform"
     },
     {
@@ -9710,7 +9710,7 @@
       "title": "Founder",
       "url": "/wiki/founder/",
       "count": 1,
-      "search": "Founder How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open source, consulting, indie, and digital health startups."
+      "search": "Founder How founders choose problems, validate demand, set product boundaries, hire, distribute products, and make revenue decisions."
     },
     {
       "id": "wiki:freelance-data-and-ml-careers",
@@ -10601,7 +10601,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Startup lessons from DataTalks.Club guests on discovery, product scope, MLOps, open source distribution, funding, and career tradeoffs."
+      "search": "Startups Startup company context from DataTalks.Club guests: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
     },
     {
       "id": "wiki:streaming",
@@ -40318,6 +40318,24 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "person:annahannemann",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
@@ -40492,15 +40510,15 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
-      "target": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "wiki:product-owner-vs-product-manager",
-      "kind": "article-chip",
-      "weight": 1
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
@@ -46996,12 +47014,6 @@
     },
     {
       "source": "wiki:dataops-platforms",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-platforms",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -52120,6 +52132,12 @@
     },
     {
       "source": "wiki:founder",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
       "target": "wiki:solopreneur",
       "kind": "wiki-chip",
       "weight": 1
@@ -54257,12 +54275,6 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:data-engineering-certification",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineering-certification",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -54283,12 +54295,6 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -54331,12 +54337,6 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -73150,12 +73150,6 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
-      "target": "person:zhamakdehghani",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
@@ -73163,12 +73157,6 @@
     {
       "source": "wiki:product-owner-vs-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "article-chip",
       "weight": 1
     },
@@ -73186,45 +73174,9 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:data-mesh",
       "kind": "article-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-mesh",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-product-adoption",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-product-adoption",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
@@ -73237,12 +73189,6 @@
       "target": "wiki:data-product-management",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:data-product-manager",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
@@ -73252,12 +73198,24 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:data-products",
       "kind": "article-chip",
       "weight": 1
@@ -73301,18 +73259,6 @@
     {
       "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:product-analytics",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-owner-vs-product-manager",
-      "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
     },

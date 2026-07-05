@@ -26,11 +26,16 @@ related_wiki:
 
 A useful data engineer roadmap starts with the work a data engineer owns. Data
 engineers move data from source systems into trusted datasets that other people
-can use. That means SQL and Python first. After that, learn ingestion and
-storage.
+can use. Use this roadmap to learn SQL and Python first. Then add ingestion,
+storage, modeling, and orchestration. After that, add quality checks and
+documentation, then cloud basics and interview-ready projects.
 
-The next layer is modeling and orchestration. The final layer is quality
-checks, documentation, cloud basics, and interview-ready projects.
+Use this roadmap when you want to decide what to learn next and how the pieces
+fit together. If you need to look credible without a data engineer title yet,
+use
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+for the transition strategy. Use that guide for reviewed projects, CV framing,
+and interview stories.
 
 The guidance is consistent across two episodes. [[person:jeffkatz=>Jeff Katz]]
 names the junior core as Python and SQL, plus cloud fundamentals and
@@ -47,13 +52,17 @@ experienced backend engineers can reuse software design and requirements work.
 They still need data modeling, ingestion, and governance practice
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 
-His beginner path adds one detail that tool lists often miss: learn to capture
-business requirements. A portfolio should choose tools around the consumer and
-show how SQL, Python, ingestion, and modeling solve a real data problem
+His beginner path adds one detail that tool lists often miss. Learners need to
+capture business requirements. A portfolio should choose tools around the
+consumer and show how SQL, Python, ingestion, and modeling solve a real data
+problem
 ([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
-For candidates without data job history,
-[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
-keeps this roadmap tied to project evidence instead of tool collection.
+That project requirement applies to every learner.
+
+Candidates without data job history need a second layer as well. Another person
+has to be able to review, use, or validate the proof. That credibility path
+belongs in
+[[how-to-become-a-data-engineer-with-no-experience=>the no-experience transition guide]].
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the
@@ -65,7 +74,10 @@ role.
 
 This roadmap gives the practical learning sequence. For the role scope, start
 with [[Data Engineer Role]] and
-[[Data Engineering]].
+[[Data Engineering]]. For job-search evidence when you don't yet have the
+title, use
+[[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
+after you understand the sequence.
 
 If you already work in analytics, use the
 [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer Roadmap]].
@@ -95,7 +107,9 @@ roles. He recommends reusing existing domain experience rather than applying
 blindly to every data title
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
-That role split gives the roadmap a practical target.
+That role split gives the roadmap a practical target. The same skill order
+applies to learners from several backgrounds. The no-experience page handles
+how to turn that background into a hiring story.
 
 Match the path to your starting point:
 
@@ -292,7 +306,13 @@ deeper version.
 
 By this point, you should have one complete pipeline and one smaller project
 that proves a specific skill. The next step isn't adding another tool. It's
-making the work reviewable.
+making the work reviewable as part of the general learning path.
+
+If your main problem is missing commercial experience, keep the technical
+checklist here. Then use
+[[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
+to add outside review and CV language. It also covers volunteer work and
+open-source evidence.
 
 An interview-ready data engineering portfolio should include:
 

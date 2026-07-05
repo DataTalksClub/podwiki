@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DataOps"
-summary: "DataOps makes changes to data pipelines, analytics workflows, and data platforms testable, observable, and recoverable."
+summary: "DataOps is the practice of making data delivery reviewable, testable, observable, and recoverable."
 related:
   - DataOps Platforms
   - DataOps Engineer Role
@@ -19,12 +19,11 @@ related:
   - MLOps vs DevOps
 ---
 
-For the authoritative plain-language definition, see the
+DataOps is the operating practice for reliable data delivery. Teams use it to
+review and test changes to data pipelines, analytics workflows, and data
+products before release. They also keep those changes observable and
+recoverable. For the authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
-DataOps is the operating discipline for safer changes to data pipelines,
-analytics workflows, and shared data platforms. Teams use it to make those
-changes reviewable and testable. They also keep changes observable and
-recoverable before they deploy, monitor, and repair them.
 
 The term sits beside [[Data Engineering]]
 and [[MLOps]], but it doesn't replace
@@ -33,22 +32,23 @@ that path safer to run and recover. MLOps operates the model lifecycle, while
 DataOps operates upstream datasets, transformations, and feature pipelines. The
 boundary matters most when a model incident may have started in data delivery.
 
-See
-[[MLOps vs DataOps]] and
-[[DataOps vs Data Engineering]]
-when the boundary question is ownership, not tool choice.
-Use [[DataOps Tools]] when the question is which categories of tools support
-the practice. Use [[DataOps Platforms]] when those practices become shared
-infrastructure. Use the [[dataops-engineer-role=>DataOps engineer role]] page
-when one person or team owns the operating path across other data teams.
-Use [[DataOps Checks for Data Pipelines]] when the question is which checks
-should run before and after a pipeline change.
+See [[MLOps vs DataOps]] and [[DataOps vs Data Engineering]] when the boundary
+question is ownership, not tool choice. Use [[DataOps Tools]] when the question
+is which tool categories support the practice. Use [[DataOps Platforms]] when
+review and release paths become shared system surfaces. When observability,
+access, and recovery become shared surfaces, [[DataOps Platforms]] is the
+better target.
 
-Teams use DataOps to reduce errors, shorten deployment cycles, and improve
-team productivity
+Use the [[dataops-engineer-role=>DataOps engineer role]] page when one person
+or team owns the operating path across other data teams. Use
+[[DataOps Checks for Data Pipelines]] when the question is which checks should
+run before and after a pipeline change.
+
+Teams use DataOps to reduce errors and shorten deployment cycles. Bergh also
+ties it to team productivity
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-The platform version aligns people and platform design so data teams can scale
-without losing reproducibility
+Platform design discussions add the scale concern. When more teams change or
+consume data, they need reproducible paths
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 DataOps is the practice layer, not a new job title or a synonym for
@@ -56,7 +56,8 @@ DataOps is the practice layer, not a new job title or a synonym for
 Observability, ownership, and recovery keep pipelines and data products reliable
 after release. When one person has to own that practice across teams, it becomes
 the [[dataops-engineer-role=>DataOps engineer role]]. When the same practice is
-packaged into shared infrastructure, it becomes a [[DataOps Platforms=>DataOps platform]].
+packaged into shared infrastructure, it becomes a
+[[DataOps Platforms=>DataOps platform]].
 
 [[book:20210913-dataops-for-dummies=>DataOps for Dummies]]
 by Justin Mullen and Guy Adams gives a short overview of the same operating
@@ -92,16 +93,17 @@ and lineage explain where the failure came from
 Ownership, SLAs, and runbooks connect [[Data Quality and Observability]]
 to operational recovery work.
 
-## Platform, Delivery, and GitOps Entry Points
+## Adoption Paths for Reliable Delivery
 
-The reliability goal stays consistent, while different entry points start from
-different failure modes.
+The reliability goal stays consistent, but teams often adopt DataOps after
+different kinds of delivery pain.
 
 [[person:larsalbertsson=>Lars Albertsson]] starts from platform architecture,
 emphasizing immutable pipeline design and reproducibility
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Storage and compute become platform concerns. Workflow engines, quality
-automation, and schema handling matter in the same platform view
+In that path, teams check whether they can rerun the same pipeline when data
+arrives late or a bug appears. The dependencies and data assumptions have to
+stay reproducible too
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 [[person:christopherbergh=>Christopher Bergh]] starts from fragile delivery
@@ -109,9 +111,8 @@ practice, connecting observability to production errors
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 Replaceability ties to handoffs and documentation, and to lower on-call burden
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
-
-This framing begins with Git and tests, while CI/CD, monitors, and playbooks
-complete the delivery view.
+This path begins with Git and tests. CI/CD, monitors, and playbooks then make
+the release and repair path repeatable.
 
 [[person:tomaszhinc=>Tomasz Hinc]] starts from infrastructure enablement,
 covering SQL, secrets, and Infrastructure as Code. Terraform, Terragrunt,
@@ -120,20 +121,15 @@ and Atlantis complete the GitOps example
 This version of DataOps makes access, infrastructure, and environment changes
 reviewable through merge requests and dry runs.
 
-Those differences are useful rather than contradictory because teams enter
-DataOps through different problems. A small team may need Git-based release
-habits first. A growing platform team may start with workflow engines and
-self-service conventions, while an infrastructure-heavy team may need GitOps
-for data access and environments. Across all three versions, teams still check
-whether data changes can be reviewed and tested, then observed and recovered.
-For stack choices behind those entry points, see
-[[DataOps Tools]] and
-[[DataOps Platforms]].
+These paths aren't competing definitions, so a small team may need Git-based
+release habits first. An infrastructure-heavy team may need reviewable access
+and environment changes. A growing platform team may need the same practice
+encoded in shared workflow engines, templates, and support paths.
 
-That split keeps the concept separate from the catalog. DataOps names the
-operating discipline, while tools are the components teams connect to practice
-it. Platforms are the shared paths that make the same discipline available
-across teams.
+Across those cases, DataOps still asks whether a data change can be reviewed
+and tested, then observed and recovered. For the system surfaces behind those
+paths, see [[DataOps Platforms]]. For individual categories, see
+[[DataOps Tools]].
 
 ## Pipeline Delivery and CI/CD
 
@@ -227,26 +223,24 @@ and [[data-quality-and-observability=>Data Observability]].
 For the tooling layer across checks, alerts, and runbooks, see
 [[DataOps Tools]].
 
-## Platform and Self-Service
+## Shared Infrastructure Boundary
 
-DataOps becomes shared platform infrastructure when many teams change or
-consume data. It connects to self-service analytics
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Offline processing and storage are platform foundations. Compute and workflow
-engines sit beside them, and embedded engineering support completes the picture
+DataOps becomes platform work when many teams need the same reliable path for
+pipeline, warehouse, access, and recovery changes. Albertsson connects DataOps
+to self-service through workflows and tooling. He also includes continuous
+deployment and platform support
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-Self-service only helps when the supported path preserves ownership,
-reproducibility, and quality. An Airflow cluster alone doesn't create a
-platform. Teams also need naming conventions and sequencing rules, and schema
-contracts. Onboarding habits and playbooks make the supported path clearer
+Self-service still has to preserve ownership, reproducibility, and quality. An
+Airflow cluster alone doesn't give teams a reliable operating path. Teams also
+need naming conventions and sequencing rules. Schema contracts, onboarding
+habits, and playbooks make the path clearer
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 
-[[DataOps Platforms]] covers the
-shared infrastructure version of these practices.
-[[self-service-data-platforms=>Self-Service Data Platforms]]
-covers the safer path for analysts, data scientists, software engineers, and
-domain teams.
+Use [[DataOps Platforms]] for the shared infrastructure question. It covers
+release paths, observability, governance, and recovery across teams.
+[[self-service-data-platforms=>Self-Service Data Platforms]] covers the safer
+path for analysts, data scientists, software engineers, and domain teams.
 
 ## DataOps vs Data Engineering
 
