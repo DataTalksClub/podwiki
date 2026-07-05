@@ -161,6 +161,12 @@ work, and hosting choices. Clear READMEs, documentation, and organized repos
 make the work easier to review.
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
+The same evidence helps with a data analyst take-home assignment. Treat the
+assignment as a small decision memo, not only a notebook. State the question,
+show the data checks, explain the metric choice, and separate observations from
+recommendations. Hiring teams can then see SQL or Python ability together with
+business reasoning.
+
 Project impact and version control help a hiring manager understand the work.
 The same evidence supports
 [[Open Source Portfolio Evidence]]

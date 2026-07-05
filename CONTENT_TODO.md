@@ -556,12 +556,12 @@ Start with this batch when expanding the content set.
 - The 2026-07-01 five-agent audit reconfirmed that the local workbook has only
   header rows. Keep using the CSV-backed audit until the populated workbook is
   available.
-- The strongest remaining CSV-backed content candidates are:
-  `_wiki/machine-learning-for-business.md`,
+- The strongest CSV-backed content candidates from the earlier audit are now
+  covered by `_wiki/machine-learning-for-business.md`,
   `_wiki/data-science-project-management.md`, and
-  `_wiki/algorithmic-trading.md`. Create them only with podcast-grounded
-  evidence and internal links; do not create pages for book/PDF/download,
-  Slack, or generic navigation queries.
+  `_wiki/algorithmic-trading.md`. Future work should extend those pages only
+  when new podcast evidence or a distinct keyword cluster appears; do not create
+  pages for book/PDF/download, Slack, or generic navigation queries.
 - The 2026-07-01 five-agent keyword-gap batch strengthened
   `_wiki/data-engineer-roadmap.md`,
   `_wiki/freelance.md`,
@@ -598,6 +598,28 @@ Start with this batch when expanding the content set.
   evaluation workflows were strengthened on 2026-07-01; future how-tos should
   cover distinct procedures or add new podcast evidence to those canonical
   pages.
+- The 2026-07-05 five-agent keyword audit found no new standalone page targets
+  from the current local files. It recommended existing-page enrichment for
+  `_wiki/mlops-architecture.md`, `_wiki/mlops-engineer.md`,
+  `_wiki/hire-data-engineers.md`,
+  `_wiki/how-to-become-a-data-engineer-with-no-experience.md`,
+  `_wiki/data-analyst-careers.md`, `_wiki/dataops-platforms.md`,
+  `_wiki/how-to-build-data-pipelines.md`,
+  `_wiki/data-engineering-certification.md`,
+  `_wiki/data-engineering-manager-role.md`, and `_wiki/product-analyst.md`.
+  Residual keyword variants such as `mlops frameworks`, `data ops platform`,
+  `data pipeline training`, `data engineer recruiter`, volunteer data
+  engineering, analyst take-home assignments, manager job descriptions, and
+  product analyst projects should strengthen those canonical pages, not create
+  duplicates.
+- The same 2026-07-05 graph audit found no dropped graph links and no dangling
+  endpoints, but seven zero-inbound wiki nodes needed inbound links from
+  adjacent hubs: `_wiki/ai-for-finance-decision-support.md`,
+  `_wiki/data-ai-conference-building.md`,
+  `_wiki/data-engineering-manager-role.md`,
+  `_wiki/modern-data-engineering-trends.md`,
+  `_wiki/prompt-injection-and-chatbot-risk-management.md`,
+  `_wiki/rfm-analysis.md`, and `_wiki/sensor-ml-personal-baselines.md`.
 - Do not prioritize people-page cleanup. People documents are node records for
   canonical main-site profiles, not public content targets. When a
   guest contribution matters, add it to the relevant wiki, guide, comparison,

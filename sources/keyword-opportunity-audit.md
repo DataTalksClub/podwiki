@@ -78,7 +78,7 @@ These keyword groups already have editorial coverage:
 | Data scientist interview | `_wiki/data-scientist-interview.md` | data scientist interview |
 | Data product roles | `_wiki/data-product-manager.md`, `_wiki/data-product-management.md`, `_wiki/product-analyst.md` | data product manager, data product management, product analyst |
 | Product owner vs product manager | `_wiki/product-owner-vs-product-manager.md`, `_wiki/data-product-owner-vs-data-product-manager.md` | data product owner, data science product owner, data product owner vs data product manager |
-| Data engineering management | `_wiki/leadership.md` | data engineering manager, data engineer manager |
+| Data engineering management | `_wiki/data-engineering-manager-role.md`, `_wiki/leadership.md` | data engineering manager, data engineer manager, data engineering manager job description, data engineering manager roles and responsibilities |
 | Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md` | airflow, apache airflow |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
@@ -214,3 +214,12 @@ remains conditional and is not recommended for podwiki unless it becomes
 community-content or owned-channel content with real DataTalks.Club asset links.
 The broad Tech Startups keyword belongs to the startup wiki cluster rather than
 a separate generic guide.
+
+The 2026-07-05 five-agent follow-up found no new standalone page targets in the
+current local files. It confirmed that the Excel workbook still contains only
+headers and that residual CSV intent should enrich existing canonical pages:
+MLOps architecture and engineer role pages for framework, architect, and diagram
+queries; DataOps platforms and pipeline how-to pages for platform/software and
+pipeline-training variants; hiring, no-experience, analyst-career,
+certification, data-engineering-manager, and product-analyst pages for career
+and role variants. Do not create duplicate pages for those terms.

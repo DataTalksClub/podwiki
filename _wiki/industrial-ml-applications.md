@@ -26,10 +26,15 @@ only one part of the system. Teams still have to turn messy signals into
 decisions that operators, customers, or embedded systems can trust.
 
 Semiconductor yield work depends on fab tools that produce millisecond-level
-logs. In that setting, predictive maintenance is measured by fewer wafers at
+logs. In that setting, predictive maintenance isn't just a model score. The
+business measure is fewer wafers at
 risk[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
 Pet-health ML uses sensor-based anomaly detection around each dog's long-term
 baseline[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+
+The personal-baseline version is covered in
+[[Sensor ML Personal Baselines]]. Teams look for a persistent change from one
+subject's normal behavior rather than a population average.
 
 Theme-park crowd routing depends on queue prediction and capacity modeling.
 Next-best-action recommendations depend on app adoption and live

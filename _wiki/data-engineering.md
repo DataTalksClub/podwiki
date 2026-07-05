@@ -84,6 +84,9 @@ Python and SQL depth sit alongside Docker, Airflow, and warehouses. Code quality
 and interview practice act as proof points [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
 Senior teams choose platforms and compute tools from actual requirements [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Use [[Modern Data Engineering Trends]] when the question is specifically about
+Iceberg and DuckDB. It also covers AI-ready data, metadata, cost, and which
+stack changes deserve adoption now.
 
 ## Platforms and Self-Service
 

@@ -30,6 +30,11 @@ as a substitute for the project. For the broader learning sequence, use the
 use [[Data Engineering Portfolio Projects]] and the
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
 
+That rule applies even more strongly to free data engineering certificates. A
+free certificate can be useful when it structures practice, but the employer
+signal comes from the project that follows it. Show code, tests, and an
+explanation of the tradeoffs.
+
 ## Employer Evidence
 
 [[person:jeffkatz=>Jeff Katz]] gives the clearest hiring standard in a direct

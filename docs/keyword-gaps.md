@@ -8,7 +8,7 @@ How to act on this (see CONTENT_GUIDE.md):
 - BOOK_INTENT (pdf/download) queries: link the intent to the main site's book page. On the wiki, fold a book author's podcast points into the relevant TOPIC hub instead of making a competing book page.
 - BM25 has no stemming, so singular/plural variants cluster separately; prefer merging doorway pages over creating new ones.
 
-## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 1
+## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 0
 
 ## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 232
 
@@ -229,4 +229,3 @@ How to act on this (see CONTENT_GUIDE.md):
   - & wall street pdf"  (vol 0) -> _books:20210322-street-coder
 
 ## GAP clusters (min volume 20) — 0 keywords
-

@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11222
+    "links": 11230
   },
   "nodes": [
     {
@@ -25072,6 +25072,12 @@
     },
     {
       "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -25457,6 +25463,12 @@
     {
       "source": "wiki:ai-red-teaming",
       "target": "wiki:llms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30874,6 +30886,12 @@
     },
     {
       "source": "wiki:community-building",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community-building",
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -35207,6 +35225,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:mlops-vs-dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:modern-data-engineering-trends",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53002,6 +53026,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "wiki:streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -54463,6 +54493,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:leadership",
@@ -63124,6 +63160,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "wiki:mlops-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -69923,6 +69965,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:rfm-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },

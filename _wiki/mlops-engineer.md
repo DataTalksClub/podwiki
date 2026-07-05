@@ -67,6 +67,9 @@ between technical tooling, production constraints, and
 [[mlops-architecture=>architecture choices]] that fit their context
 [[cite:mlops-model-monitoring-data-observability@8:11=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]].
+That makes "MLOps architect" a senior MLOps-engineering version rather than a
+separate discipline. The architect names the monitoring boundary, the data
+handoff, the release path, and the support model before choosing a platform.
 
 ## Different Starting Points
 

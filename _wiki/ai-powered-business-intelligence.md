@@ -102,6 +102,12 @@ It can also help analysts ideate on data strategy
 That matters in BI because analysts often need to turn a metric change into an
 executive explanation or a prioritized next step.
 
+Finance decision support is a stricter version of the same workflow. In
+spreadsheet-heavy finance workflows, the AI feature has to augment planning and
+explanation rather than hide business logic in a black box. See
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] for that
+decision-support boundary.
+
 The production AI boundary starts with data trust and pipeline testing. Prompt
 evaluation, compression, and caching come after that
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).

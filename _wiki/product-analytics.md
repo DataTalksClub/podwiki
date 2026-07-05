@@ -110,8 +110,9 @@ checks matter too.[[cite:ab-testing-and-product-experimentation=>A/B Testing]]
 In analytics engineering work, the same product questions often become modeled
 tables, dashboards, and governed metrics. SQL and dbt can support product
 support and growth analysis. Snowplow, Looker, and Redshift can support them
-too. The same toolkit can also support retention analysis and RFM work. It can
-support NLP experiments, dashboards, and A/B testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
+too. The same toolkit can also support retention analysis and
+[[RFM Analysis]]. It can support NLP experiments, dashboards, and A/B
+testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
 ## Product Roles And Ownership
 

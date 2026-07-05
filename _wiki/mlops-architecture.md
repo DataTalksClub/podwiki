@@ -30,6 +30,13 @@ to batch inference, online serving, and orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
+When people ask for MLOps frameworks or an MLOps architecture diagram, the useful
+answer is this operating map. The diagram should show the forward path from data
+to serving and the return path from monitoring to repair. The
+[[MLOps Engineer]] page covers who keeps that path usable, while
+[[MLOps Tools]] covers tool categories after the ownership and feedback loops
+are clear.
+
 In practice, useful teams start with version control and CI/CD. Registries, a
 model registry, and monitoring follow before the work becomes a large platform
 program

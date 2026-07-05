@@ -77,9 +77,13 @@ advice.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]
 Prompt injection is one failure mode. A user can add instructions that compete
 with the system prompt or ask the model to ignore the product rules. Documents
 retrieved by the system can also include hostile text. That's why the problem
-belongs near [[retrieval-augmented-generation=>RAG]] and [[embeddings]], not
-only near prompt writing. Attackers can use overloaded prompts and
-knowledge-base retrieval to turn retrieved context into an extraction path.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
+belongs near [[retrieval-augmented-generation=>RAG]] and [[embeddings]]. It's
+not only a prompt-writing problem.
+
+Attackers can use overloaded prompts. Knowledge-base retrieval can also turn
+retrieved context into an extraction path.[[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
+For a narrower product-risk page, see
+[[Prompt Injection and Chatbot Risk Management]].
 
 ## Unsafe Outputs
 

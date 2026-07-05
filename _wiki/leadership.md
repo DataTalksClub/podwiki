@@ -38,9 +38,9 @@ operating work. They talk about manager and expert paths. They also cover team
 design, hiring, coaching, and stakeholder translation. Portfolio judgment,
 platform ownership, and scale appear throughout these episodes.
 
-For data engineering managers, that means aligning people with priorities and
-connecting platform work to reliability. The manager still needs technical
-judgment, but the job is no longer to personally own every pipeline.
+For [[data-engineering-manager-role=>Data Engineering Manager]] roles, that means aligning people with
+priorities and connecting platform work to reliability. The manager still needs
+technical judgment, but the job is no longer to personally own every pipeline.
 
 For data science managers, the same leadership work requires working knowledge
 of [[data science]],

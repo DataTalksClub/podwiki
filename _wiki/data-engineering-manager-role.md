@@ -23,6 +23,13 @@ management with platform prioritization and stakeholder negotiation. Hiring and
 quality standards also sit with the manager. They need technical judgment about
 the systems that move data into analytical and operational use.
 
+For job-description and roles-and-responsibilities queries, the practical
+definition starts with ownership. The manager sequences platform work, protects
+reliability, hires for the missing capability, and keeps stakeholders aligned on
+what the data team can safely deliver. The role is managerial, but the decisions
+remain technical enough that weak architecture or ownership choices show up as
+team problems.
+
 [[person:16rahuljain=>Rahul Jain]] gives the clearest
 example in
 [[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].

@@ -52,6 +52,12 @@ one category of work. A platform defines the supported route through several
 categories so many teams can use the same review, release, observability, and
 recovery path.
 
+That distinction also applies to searches for DataOps software or a DataOps
+observability platform. Software can provide tests and lineage. It can also
+provide alerting, catalogs, or deployment automation. The platform only works
+when those capabilities connect to owners, runbooks, and the release path. Use [[DataOps Tools]] for
+individual categories and keep this page focused on the operating layer.
+
 A console beside a warehouse or scheduler isn't enough if it only exposes
 existing systems. DataOps platform work improves review and testing. It also
 improves deployment, ownership, observability, or recovery. Teams can then ship

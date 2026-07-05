@@ -161,6 +161,12 @@ and process ownership also count. It doesn't have to come only from a previous
 data engineer title
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
 
+Use volunteer data engineering work only when it creates reviewable evidence.
+A nonprofit dashboard can help. So can a cleanup script for a community project
+or a small pipeline for an organizer. Another person should use the output and
+describe the impact. A volunteer listing without a finished artifact is weaker
+than a smaller project with code, documentation, and feedback.
+
 ## Choose Your Transition Path
 
 Different backgrounds create different advantages. The mistake is to pretend

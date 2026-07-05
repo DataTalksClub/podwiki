@@ -36,6 +36,14 @@ For related background, see
 [[Data Engineering Platforms]]
 and [[Data Pipelines]].
 
+For data pipeline training, use this page as the build sequence and then turn
+the sequence into one small project. Build a pipeline that another person can
+run and repair. They should also be able to look at the design and break it in
+predictable ways. The course or tutorial label matters less than the evidence.
+
+Show ingestion and modeling first, then show that orchestration, checks, and
+delivery fit together.
+
 ## Start With The Consumer
 
 A pipeline should answer a real question or power a real workflow. After data

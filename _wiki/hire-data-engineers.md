@@ -37,6 +37,13 @@ judgment. Those criteria connect the hiring decision to
 [[data engineering]], and the
 [[data engineer role]].
 
+Recruiting data engineers is therefore not only a sourcing problem. A data
+engineer recruiter or hiring manager needs a brief. It should say which data
+system failure the hire will own. Rassam's level split helps with seniority.
+Katz's project evidence gives the recruiter a better screen than a tool list
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+
 ## Start With the Work
 
 Before you hire data engineers, write down the data work that keeps blocking

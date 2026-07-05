@@ -38,6 +38,17 @@ The product analyst page covers the job description and responsibilities.
 [[Data Analyst Careers]] covers entry routes, portfolio evidence, and broader
 analyst growth.
 
+Product analyst projects should prove that the analyst can move from product
+question to decision.
+
+Good examples include:
+
+- a tracking-plan review
+- a funnel or cohort analysis
+- an experiment readout
+- a metric-debugging memo
+- an activation or retention analysis tied to a product change
+
 ## Role Scope
 
 A product analyst turns product behavior into decision evidence through SQL and
