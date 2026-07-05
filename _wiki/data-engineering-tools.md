@@ -13,14 +13,19 @@ related:
   - Reverse ETL
 ---
 
-Data engineering tools help teams move data from source systems into trusted
-analytics, operations, and machine learning work. Instead of asking "which
-modern data stack tools should we buy?", ask which data flow you need to make
-reliable and who depends on it.
+Teams use data engineering tools to move data from source systems into trusted
+analytics and operations. They also use them for machine learning work.
+Engineers evaluate movement, scheduling, storage, and transformation choices.
+They also evaluate quality, governance, activation, and operational cost. Use
+[[Modern Data Stack]] for the architecture and how those pieces compose into a
+warehouse-centered or lakehouse-centered stack.
 
-The basic stack starts with ingestion and warehouse loading, then adds
-dbt-style transformation. Orchestration and lake storage extend it. Change data
-capture and reverse data flows extend it too.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+Instead of asking "which modern data stack tools should we buy?", ask which
+data flow must become reliable, who depends on it, and which operating surface
+the team can actually support. Natalie Kwong's stack discussion separates
+extract-load tooling from warehouse-side modeling. She treats orchestration,
+CDC, and reverse ETL as different jobs rather than one product category
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 
 Newer tool choices include open table formats plus catalogs, with DuckDB in the
 same category. AI pipeline tools and streaming affect vendor selection. Use
@@ -28,10 +33,10 @@ same category. AI pipeline tools and streaming affect vendor selection. Use
 for the current open-format, local-first, AI, and streaming tool shifts
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 
-They connect to [[Data Engineering]], [[Modern Data Stack]], and
+These tool surfaces connect to [[Data Engineering]], [[Modern Data Stack]], and
 [[Data Engineering Platforms]].
 
-## Stack Map
+## Selection Surfaces
 
 For Spark-based processing in particular,
 [[book:20211025-data-analysis-with-python-and-pyspark=>Data Analysis with Python and PySpark]]
@@ -41,26 +46,22 @@ For everyday pandas-based analysis work, [[book:20220131-effective-pandas=>Effec
 by Matt Harrison is a practitioner reference for the idioms and practices that
 keep data analysis code maintainable.
 
-Most teams combine tools from these categories:
+Most teams evaluate tools across these engineering surfaces:
 
 - ingestion and connectors for SaaS apps, databases, APIs, events, files, and
   logs
-- orchestration for schedules, dependencies, retries, backfills, and alerts
-- warehouses, lakes, or lakehouses for storage and query access
-- transformation tools such as dbt-style SQL projects
+- orchestration control planes for schedules, dependencies, retries, backfills,
+  alerts, and ownership
+- storage and query engines for governed SQL analytics, raw files, open tables,
+  marts, and feature workloads
+- transformation tools for versioned business logic, data modeling, tests, and
+  reusable definitions
 - data quality, testing, lineage, and observability tools
 - catalogs, metadata, governance, and access-control layers
 - reverse ETL and activation tools that send modeled data back into business
   systems
-- BI, product analytics, notebooks, ML platforms, and AI systems that consume
-  the outputs
-
-Teams often build the stack in this order:
-
-1. Start with extraction and loading.
-2. Add warehouse-side transformations when the category fits the use case.
-3. Add orchestration and modeling discipline as needs grow.
-4. Add reverse data flows for operational syncs.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+- consumption surfaces such as BI, product analytics, notebooks, ML platforms,
+  and AI systems
 
 Tool choice should follow the business requirement, team skills, and operating
 cost instead of vendor-led collection. That requirements-led rule also anchors
@@ -75,9 +76,9 @@ AWS are the cautionary example
 [[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
 
 Production ML pipelines add the production version of the same warning. Every
-extra queue, processor, cloud service, or scheduler becomes another operational
-surface. Tool breadth only helps when the team can monitor, debug, secure, and
-hand off the whole path under failure.[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines]]
+extra queue, processor, or cloud service becomes another operating surface. The
+same is true for each scheduler or feature store. Tool breadth only helps when
+the team can monitor, debug, secure, and hand off the whole path under failure.[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines]]
 
 Hiring data engineers applies the same rule to cloud and BI tools. Platform
 experience transfers better when candidates understand how a category is used
@@ -133,17 +134,22 @@ exist, what each property means, and who owns changes to the event schema.[[cite
 ## Orchestration And DataOps
 
 Orchestration tools coordinate jobs by scheduling ingestion and triggering
-transformations. They manage dependencies and retries, and they support
-backfills and alerts.
-Airflow, Prefect, and Dagster represent different data-native orchestration
-choices. GitHub Actions can cover lighter automation.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]][[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+transformations. They also run checks and recover failed workflows. The
+selection question is whether the team needs a control plane for dependencies,
+retries, and backfills. The same decision covers visibility and ownership.
+Lighter automation is enough for some schedules.
 
-In warehouse-centered stacks, Airflow schedules jobs around the extractor and
-transformer. Natalie Kwong places Airbyte in the extract-load layer and dbt in
-the warehouse transformation layer
+Airflow, Prefect, and Dagster represent different data-native orchestration
+choices. GitHub Actions can cover simpler schedules.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]][[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+
+In a warehouse-centered stack, the architectural role of orchestration belongs
+on [[Modern Data Stack]]. Here the tool decision is operational. It asks how
+much state the orchestrator owns, how failures are retried, and who gets
+alerted when an upstream source or downstream model breaks. Natalie
+Kwong's discussion separates Airbyte's extract-load work from dbt's
+warehouse-side transformations, with Airflow coordinating jobs around both
+[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]]
 [[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]].
-Airflow coordinates jobs around both
-[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]].
 
 Orchestration becomes more important as team size and failure cost grow.
 A scale-up data platform needs self-service onboarding and Airflow. It also
@@ -161,14 +167,16 @@ that path.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataO
 The [[DataOps Tools]] page covers the practical stack categories behind that
 operating layer.
 
-## Warehouses, Lakes, And Lakehouses
+## Storage And Query Engines
 
-Warehouses fit teams that need governed SQL analytics, BI, marts, and
-warehouse-side transformation. Many analytics-heavy teams load raw data,
-transform it into documented models, and serve BI or operational syncs from
-trusted tables.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+Storage tools are the biggest selection surface because they set the cost,
+governance, query, and interoperability constraints for everything downstream.
+Warehouses fit governed SQL analytics, BI, marts, and warehouse-side
+transformation. Many analytics-heavy teams load raw data, transform it into
+documented models, and serve BI or operational syncs from trusted
+tables.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
-Data lakes fit raw files, logs, media, and semi-structured data. If teams skip
+Lakes fit raw files, logs, media, and semi-structured data. If teams skip
 governance, the same storage design can become a data swamp. To prevent that,
 teams assign ownership and run quality checks. They clean up stale data and
 document where data came from.[[cite:data-engineering-tools-modern-data-stack@21:22=>Modern Data Stack]]
@@ -177,10 +185,10 @@ Use the
 [[Data Warehouse]] pages for the
 basic split.
 
-Lakehouses add table behavior and transaction semantics on top of open storage.
-That layer includes Apache Iceberg, Parquet storage, and catalogs. Metadata and
-lineage sit with those table-management choices. It also includes DuckDB, Delta
-Lake, Hudi, and headless table formats.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+Lakehouse tools add table behavior and transaction semantics on top of open
+storage. That selection surface includes Apache Iceberg and Parquet storage. It
+also includes catalogs, metadata, and lineage. Delta Lake, Hudi, DuckDB, and
+headless table formats belong in the same decision.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 Those tools matter when a team wants open storage, multiple compute engines,
 better cost control, or less vendor lock-in. They also add platform complexity,
@@ -194,6 +202,11 @@ so compare them with
 Transformation tools turn raw or staged data into models that analysts,
 product teams, executives, and ML systems can use. In an ELT stack, that often
 means SQL transformations in the warehouse or lakehouse.
+
+The [[Modern Data Stack]] page covers how transformation fits into the
+warehouse-centered architecture. Engineers should treat transformation as a tool
+surface. The selection questions are ownership and review. They also include
+model tests and reuse across BI, activation, and ML consumers.
 
 ELT connects dbt to the rise of the analytics engineer.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 Analytics engineering work includes data modeling and pipelines. It also covers

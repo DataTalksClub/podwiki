@@ -135,7 +135,7 @@ reviewer something to run.
 Choose a certification by asking whether it teaches the work behind
 [[data engineering]].
 
-A useful program should connect several parts of the job:
+A useful program should connect the credential to several parts of the job:
 
 - ingestion, storage, and transformation
 - orchestration and data quality checks
@@ -147,37 +147,18 @@ product teams.
 
 [[person:jeffkatz=>Jeff Katz]] gives a practical curriculum benchmark when he
 describes junior data engineering as a more defined path than many data science
-paths. He names Python and SQL, plus cloud basics and orchestration
+paths. He names Python and SQL as the core. Cloud basics and orchestration come
+beside them
 [[cite:data-engineering-career-path-and-skills@23:35=>Build a Data Engineering Career]].
 
-He starts the learning sequence with Python and SQL, then adds analytics
-engineering, warehouses, and BI. Later steps add backend engineering, ETL,
-testing, and Airflow
-[[cite:data-engineering-career-path-and-skills@36:18=>Build a Data Engineering Career]].
-
-Apply that sequence when you judge certification programs. A beginner
-certificate shouldn't rush past SQL and Python to advertise a large tool list.
-Jeff explains why a junior-focused curriculum removed Spark, Kafka, and
-Kubernetes: Spark and Kafka appeared more often in senior job descriptions.
-Kubernetes took weeks away from coding
+Use that benchmark to reject credentials that rush past fundamentals into a
+large tool list. Jeff explains why a junior-focused curriculum removed Spark,
+Kafka, and Kubernetes. Spark and Kafka appeared more often in senior job
+descriptions. Kubernetes took weeks away from coding
 [[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]].
 
-He returns to the same balance: most of the beginner path should focus on SQL
-and Python. Treat tools plus cloud basics as a smaller share
-[[cite:data-engineering-career-path-and-skills@57:36=>Build a Data Engineering Career]].
-
-Evaluate a certification program by this order:
-
-1. SQL and data modeling.
-2. Python for data work.
-3. End-to-end batch pipelines.
-4. Tests, documentation, and reproducible runs.
-5. Orchestration, reruns, and backfills.
-6. Cloud and warehouse basics.
-7. Advanced tools only when the project creates a real need.
-
-For the longer learning path, compare this page with the
-[[data-engineer-roadmap=>Data Engineering Roadmap]].
+For the full order of what to learn, use the
+[[data-engineer-roadmap=>Data Engineer Roadmap]].
 
 ## Prefer Project-Based Certificates
 
@@ -199,20 +180,10 @@ quality through bot detection, Twitter data cleaning, and sentiment bias.
 [[cite:get-data-analytics-and-data-engineering-job@52:31=>Get a Data Analytics and Data Engineering Job]]
 [[cite:get-data-analytics-and-data-engineering-job@53:34=>Get a Data Analytics and Data Engineering Job]].
 
-Judge a certification project by whether it shows:
-
-- a real or realistic source such as an API, file drop, database export, event
-  log, or change data capture simulation
-- raw data saved before transformation
-- staged, cleaned, modeled, and serving tables
-- SQL with clear table grain and validation checks
-- Python extraction, loading, configuration, logging, and error handling
-- orchestration outside manual notebook execution
-- tests for freshness, row counts, nulls, uniqueness, schemas, and business
-  rules
-- a named consumer such as a dashboard, analyst, ML training job, product
-  feature, or operations workflow
-- documentation for setup, failures, backfills, ownership, and tradeoffs
+Judge a certification project by whether it gives the certificate line concrete
+evidence. It should name a source and a consumer. The pipeline should include
+SQL and Python. Add quality checks, a repeatable run path, and documentation. The
+detailed project checklist lives in [[Data Engineering Portfolio Projects]].
 
 Turn certificate study into evidence as you go. If the course teaches cloud
 storage, add a raw landing zone and explain permissions. If it teaches Docker,
@@ -278,9 +249,8 @@ scheduler proves the idea and keeps the learner focused on the pipeline.
 Different certificates solve different problems.
 
 A course certificate helps when it proves that you finished assignments and
-built a project. It helps less when it only marks attendance. Use the
-[[data-engineer-roadmap=>Data Engineering Roadmap]]
-to check whether the course sequence starts with fundamentals before tools.
+built a project. It helps less when it only marks attendance. Check whether the
+course starts with fundamentals before tools.
 
 A cloud or vendor certificate helps when your target jobs mention that
 platform. It can teach services, permissions, and storage. It can also teach
@@ -298,17 +268,14 @@ the simpler scheduler couldn't show
 
 A bootcamp or cohort certificate helps when the program gives structure and
 feedback. It should also give peer review, interview practice, and a capstone
-you can customize.
-It's weaker when every student leaves with the same template project. Use
-[[data-engineer-roadmap=>Data Engineering Roadmap]]
-for the bootcamp version of this decision.
+you can customize. It's weaker when every student leaves with the same template
+project.
 
 For a data-engineering-focused bootcamp, check whether the curriculum lines up
 with junior hiring rather than with an impressive tool list. Jeff describes a
-junior program that starts with Python and SQL, then adds analytics
-engineering. Learners then study backend engineering, ETL, and testing.
-Students also practice cloud work with Docker, AWS, and Airflow. He describes
-adding interview questions before the program ends
+junior program that starts with Python and SQL. Later work adds ETL, testing,
+and cloud practice. Docker, AWS, Airflow, and interview questions appear before
+the program ends
 [[cite:data-engineering-career-path-and-skills@36:18=>Build a Data Engineering Career]].
 
 A strong program should make you write SQL, Python, tests, and pipeline code
@@ -374,21 +341,17 @@ Choose a data engineering certification if it creates a stronger project,
 better feedback, and clearer interview preparation. Skip or postpone it when
 it delays the work employers look at.
 
-Follow the roadmap order by starting with fundamentals and one complete
-pipeline. Then add operations, portfolio work, interviews, and specialization.
-A certificate should accelerate that sequence, not send you into tool collecting
+A certificate should accelerate learning and evidence, not send you into tool
+collecting. Jeff's interview guidance keeps the hiring check concrete. The
+candidate still needs to know the topics, code, and explain the work
 [[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
 
 Before enrolling, check whether the program will make you:
 
-1. Write substantial SQL and Python.
-2. Build one pipeline another person can run.
-3. Use orchestration for schedules, dependencies, retries, and reruns.
-4. Add data quality checks and explain the assumptions behind them.
-5. Document setup, ownership, failures, and backfills.
-6. Customize the project so it doesn't look like every other course project.
-7. Practice SQL screens, Python exercises, and project walkthroughs.
-8. Publish evidence that supports the certification line on your resume.
+1. Build or customize a project another person can review.
+2. Get feedback on SQL, Python, pipeline design, and documentation.
+3. Practice explaining one bug, tradeoff, failure mode, and next improvement.
+4. Publish evidence that supports the certification line on your resume.
 
 If the answer is yes, the certification can be useful. If the answer is no,
 start with a smaller project, get feedback, and use the certificate later only

@@ -22,12 +22,12 @@ the rest of [[information retrieval]]. Search systems still need ranking,
 filters, latency work, and [[production search evaluation]]
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
-For the concept and indexing layer, use [[Vector Databases]]. For the
-infrastructure question of whether a standalone vector database or an existing
-search engine should own vectors, use [[Vector Database vs Search Engine]].
-Production search systems often separate candidate generation from ranking. They
-then combine bag-of-words retrieval, inverted indexes, and dense
-representations. Hybrid search and query-time weights stay in the same measured
+Use [[Vector Databases]] for concepts and indexing. Read
+[[Vector Database vs Search Engine]] when choosing whether a standalone vector
+database or an existing search engine should own vectors. Here, compare how
+exact terms, dense representations, and hybrid retrieval match results.
+Production search systems often separate candidate generation from ranking.
+Teams then measure hybrid search and query-time weights in the same relevance
 system
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
@@ -38,13 +38,15 @@ normalized terms to the documents or positions where they appear. Existing
 engines such as Lucene usually make more sense than a hand-rolled reverse
 keyword lookup. [[cite:building-production-search-systems=>Building Search Systems]]
 
-Classical search systems such as Solr, Lucene, Elasticsearch, and OpenSearch
-support full-text search and query-content matching. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Solr, Lucene, Elasticsearch, and OpenSearch show the classical search lineage
+behind full-text query-content matching
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Vector search starts with representations. [[cite:building-production-search-systems=>Building Search Systems]]
 An embedding model can turn documents and queries into vectors. The same model
-can represent products, images, users, or sessions. Vector databases store
-those embeddings and run nearest-neighbor search. [[cite:building-production-search-systems=>Building Search Systems]]
+can represent products, images, users, or sessions. Nearest-neighbor retrieval
+then searches by representation similarity
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 The embedding pipeline creates vectors at ingestion and query time. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 Vector search is a retrieval method rather than the whole search product.
@@ -64,8 +66,6 @@ index is still a practical candidate-generation tool. [[cite:building-production
 It narrows a large corpus quickly before ranking decides what the user should
 see.
 
-Lucene and Elasticsearch-style systems also make filters and query constraints
-first-class. [[cite:building-production-search-systems=>Building Search Systems]]
 Lucene-style `must` and `should` clauses give teams explicit control over
 strict and weighted constraints. [[cite:building-production-search-systems=>Building Search Systems]]
 A strict keyword or metadata filter can enforce a business rule. A soft clause
@@ -90,8 +90,8 @@ cross-language queries. It also helps with synonym-heavy queries and
 multimodal retrieval. Personalization can use the same mechanism.
 
 RAG systems can chunk podcast transcripts and create embeddings. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-They can store vectors, then retrieve relevant chunks for a generated answer
-with citations. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+They can then retrieve relevant chunks for a generated answer with citations
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 In that workflow, vector search helps because the question may not share exact
 words with the passage that contains the answer. The surrounding
 [[Search]] and
@@ -122,9 +122,8 @@ query-time weighting belong there too. That makes hybrid search a ranking and
 operations problem, not just an index choice. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 Teams can migrate search incrementally [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Teams can run hybrid matching inside one search stack or split vector retrieval
-into a separate service. That ownership choice belongs in
-[[Vector Database vs Search Engine]].
+Teams can tune hybrid matching before settling the system boundary. That
+ownership choice belongs in [[Vector Database vs Search Engine]].
 
 ## Ranking and Filters
 
@@ -153,21 +152,6 @@ segments separately too. A single aggregate relevance metric can hide whether
 keyword retrieval, vector retrieval, filtering, or reranking caused the
 failure.
 
-## Runtime Layout
-
-Keyword and vector matching can run in different infrastructure layouts. A
-search engine can run lexical search and vector search in one system. A
-standalone vector database can run semantic candidate retrieval beside an
-existing search engine.
-
-Vector storage and vector compute are separate concerns, so model changes can
-force teams to recompute embeddings or rebuild indexes [[cite:building-production-search-systems=>Building Search Systems]].
-
-Choose keyword, vector, or hybrid retrieval based on the query behavior. After
-that, [[Vector Database vs Search Engine]] decides where vectors live and how
-they're indexed. It also covers which system owns filters, ranking, and
-production reliability.
-
 ## Evaluation Tradeoffs
 
 Evaluate keyword search with exact-match coverage, synonym behavior, field
@@ -182,7 +166,7 @@ separates embedding choice and chunking strategy. It also separates retrieval
 count and answer quality. Citations, offline tests, and human review belong in
 the same evaluation process. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-A vector database can return similar chunks while the answer remains unsupported
+Vector retrieval can return similar chunks while the answer remains unsupported
 or incomplete.
 
 Evaluate hybrid search through both offline relevance tests and product
@@ -196,7 +180,8 @@ measurable results for the product.
 
 Choose keyword search when exact terms and filters dominate the task. Metadata
 fields, auditability, and predictable behavior support the same choice.
-Those needs fit Lucene, Solr, and inverted-index candidate generation. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:building-production-search-systems=>Building Search Systems]]
+Those needs fit inverted-index candidate generation
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:building-production-search-systems=>Building Search Systems]].
 
 Choose vector search when semantic recall or paraphrases are the main problem.
 Multimodal matching and session similarity support the same choice. RAG context
@@ -207,7 +192,7 @@ retrieval support that choice. [[cite:building-production-search-systems=>Buildi
 
 Choose hybrid retrieval when the product needs lexical matching and
 freshness-sensitive semantic search. [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-They also keep metadata filters and recency in the same decision. Permissions,
+Hybrid approaches also keep metadata filters and recency in the same decision. Permissions,
 popularity, ranking, and business metrics stay there too.
 
 For a broader retrieval map, continue with

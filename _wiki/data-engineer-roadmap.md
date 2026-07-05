@@ -31,11 +31,17 @@ storage, modeling, and orchestration. After that, add quality checks and
 documentation, then cloud basics and interview-ready projects.
 
 Use this roadmap when you want to decide what to learn next and how the pieces
-fit together. If you need to look credible without a data engineer title yet,
-use
-[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
-for the transition strategy. Use that guide for reviewed projects, CV framing,
-and interview stories.
+fit together.
+
+If you need to turn an existing background into hiring evidence, use the
+relevant transition page after this sequence:
+
+- [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] for analysts
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]] for data
+  scientists
+- [[QA to ML and Data Engineering]] for QA backgrounds
+- [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+  when you need first-role evidence
 
 The guidance is consistent across two episodes. [[person:jeffkatz=>Jeff Katz]]
 names the junior core as Python and SQL, plus cloud fundamentals and
@@ -47,10 +53,6 @@ a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes
 Brudaru puts SQL/Python before vendor checklists. [[Modern Data Engineering Trends]]
 connects that roadmap advice to current tool caution
 ([[cite:trends-in-modern-data-engineering=>DE]]).
-He also separates beginner fundamentals from senior-backend transitions, where
-experienced backend engineers can reuse software design and requirements work.
-They still need data modeling, ingestion, and governance practice
-([[cite:trends-in-modern-data-engineering=>DE]]).
 
 His beginner path adds one detail that tool lists often miss. Learners need to
 capture business requirements. A portfolio should choose tools around the
@@ -58,11 +60,6 @@ consumer and show how SQL, Python, ingestion, and modeling solve a real data
 problem
 ([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
 That project requirement applies to every learner.
-
-Candidates without data job history need a second layer as well. Another person
-has to be able to review, use, or validate the proof. That credibility path
-belongs in
-[[how-to-become-a-data-engineer-with-no-experience=>the no-experience transition guide]].
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the
@@ -73,20 +70,8 @@ The manager-side expectations behind that filter live in the
 role.
 
 This roadmap gives the practical learning sequence. For the role scope, start
-with [[Data Engineer Role]] and
-[[Data Engineering]]. For job-search evidence when you don't yet have the
-title, use
-[[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
-after you understand the sequence.
-
-If you already work in analytics, use the
-[[data-analyst-to-data-engineer=>Data Analyst to Data Engineer Roadmap]].
-If you already work in data science, use the
-[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
-Both translate existing skills into the data engineering path.
-If the target is data science instead,
-[[data-engineer-to-data-scientist=>data engineer to data science]] turns the
-same pipeline background toward modeling, evaluation, and decision evidence.
+with [[Data Engineer Role]] and [[Data Engineering]]. For credential choices,
+use [[Data Engineering Certification]].
 
 ## Start With The Role
 
@@ -107,24 +92,13 @@ roles. He recommends reusing existing domain experience rather than applying
 blindly to every data title
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
-That role split gives the roadmap a practical target. The same skill order
-applies to learners from several backgrounds. The no-experience page handles
-how to turn that background into a hiring story.
-
-Match the path to your starting point:
-
-- If you're closer to analytics, build toward modeled tables, marts, data
-  quality, and stakeholder trust.
-- If you're closer to software or DevOps, build toward ingestion,
-  orchestration, testing, cloud deployment, and platform operations.
-- If you're coming from QA, use [[QA to ML and Data Engineering]] to translate
-  checklists, field testing, and reports into a data-engineering portfolio
-  path. Cloud exercises and GitHub notes make that path easier to review
-  ([[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]).
-
-[[Career Transitions in Data]]
-and [[Job Search]] connect the roadmap
-to your background.
+That role split gives the roadmap a practical target. It also lets the same
+skill order support different starting points. For background-specific framing,
+use the transition pages above. The QA route shows how checks and reports can
+turn into reviewable data-engineering proof
+([[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]).
+[[Career Transitions in Data]] and [[Job Search]] connect the roadmap to
+applications.
 
 ## Stage 1: SQL, Python, And Modeling
 
@@ -445,7 +419,8 @@ and [[Platform Engineering]].
 Courses, bootcamps, and company training are roadmap inputs. They help when
 they create deadlines, feedback, reviewable labs, and a project another
 engineer can run. They're weak when they replace the roadmap with a tool list
-or certificate signaling.
+or certificate signaling. Use [[Data Engineering Certification]] to choose
+between course, bootcamp, cloud, and vendor credentials.
 
 In a useful course, learners start with SQL, Python, and data modeling. They
 then ingest data, keep raw records, and transform into modeled tables before
@@ -458,14 +433,9 @@ Her path included a bootcamp, a four-month search, volunteer practice, and
 tracked applications. Her Twitter data pipeline capstone used Docker containers
 and a Slack bot. Custom projects stand out more than repeated course projects.
 
-Use a certificate only when it reinforces this roadmap. [[person:jeffkatz=>Jeff Katz]]
-says cloud certificates may help with recruiter filters. Hiring managers still
-check whether the candidate knows the topics and can code
+Jeff Katz says cloud certificates may help with recruiter filters. Hiring
+managers still check whether the candidate knows the topics and can code
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
-The certificate route should therefore lead to
-[[Data Engineering Certification]]
-and then back to a reviewable
-[[data-engineering-portfolio-projects=>portfolio project]].
 
 The same rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
@@ -510,7 +480,7 @@ Use this as a pacing guide, not a promise. Move faster if you already know SQL,
 Python, or backend engineering, and move slower if you're learning programming
 from scratch. The sequence follows the podcast evidence above. Fundamentals
 come before tool breadth, one finished pipeline comes before specialization,
-and portfolio proof comes before certificate collecting.
+and portfolio proof comes before tool collecting.
 
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
@@ -550,9 +520,9 @@ Link your project story to the
 targeting, then use [[Job Search]] to
 turn the project into applications.
 
-If you add a certificate to the same period, treat it as a label for the study
-path. Link it to the project evidence, following
-[[Data Engineering Certification]].
+If you add a certificate to the same period, use
+[[Data Engineering Certification]] to keep the credential tied to project
+evidence.
 
 After that, choose one specialization based on your target role:
 

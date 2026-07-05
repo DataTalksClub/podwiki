@@ -12,10 +12,10 @@ related:
 
 A tracking plan is the schema agreement for product instrumentation. It records
 which events a product should collect and which properties belong on each
-event. It also records event meanings, capture points, and change owners. Teams
-use it before engineers implement [[event tracking]] so that product actions
-have a shared meaning before they reach analytics, dashboards, experiments, and
-activation tools.
+event. It also records event meanings, required capture semantics, data types,
+and change owners. Teams use it before engineers implement [[event tracking]]
+so that product actions have a shared meaning before they reach analytics,
+dashboards, experiments, and activation tools.
 
 The data-led growth stack starts with this plan before collection begins. Teams
 document each event and event property before the data flows into the warehouse
@@ -27,21 +27,24 @@ Use tracking plans for the schema agreement and governance record. For captured
 events moving through client-side and server-side instrumentation, see
 [[event tracking]]. The downstream path includes analytics and experiments. It
 also includes warehouse models, support views, sales workflows, and reverse
-ETL.
+ETL. The plan needs to define what each event is allowed to mean before those
+systems depend on it.
 
-## Shared Event Rules
+## Event Specifications
 
 A tracking plan gives product, growth, analytics, and engineering teams shared
 rules for event instrumentation. The team decides which product moments matter,
-names those events, defines the properties, and records where each event should
-fire. Engineers then instrument the product. Analysts use the same definitions
-in funnels, experiments, [[data activation]], and recurring reports.
+names those events, defines the properties, and records the required capture
+semantics. Engineers then instrument the product. Analysts use the same
+definitions in funnels, experiments, [[data activation]], and recurring
+reports.
 
 When a metric changes, the tracking plan gives teams context for checking event
 data. A signup spike can come from a clicked button, a submitted form, a
-verified email, or a completed server record. Teams follow up differently on
-fake accounts and real users. The plan needs enough context to separate intent
-signals from completed product behavior
+verified email, or a completed account record. Teams follow up differently on
+fake accounts and real users. The plan needs enough context to say which
+meaning is valid for the metric. [[Event tracking]] verifies what the running
+product actually emitted
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan discussion]].
 
 ## Plan Fields
@@ -55,8 +58,8 @@ clients, and invoices
 The event name should tell analysts which product action happened, while the
 properties explain the context. A `signup` event can mean a clicked button, a
 submitted form, an email verification, or a completed server record. The plan
-should choose the intended meaning instead of leaving analysts to infer it
-later.
+should choose the intended meaning, required properties, and allowed source
+before analysts have to infer those details later.
 
 Teams also need property names and types. Event, user, and account properties
 let analysts segment a funnel by acquisition channel or plan type. They can
@@ -64,26 +67,27 @@ also use account size, device, or source without reverse-engineering the event
 later
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan definition]].
 
-## Capture Rules
+## Required Capture Semantics
 
-Capture location is part of the rule, not an implementation footnote. A
+Capture location is part of the specification, not an implementation footnote. A
 browser event can represent intent, while a server event can represent
-completion. Client-side events fit clicks, page interactions, and other
-user-interface behavior. Server-side events fit completed actions such as
-successful signup or project creation
+completion. The plan should state whether an event is required from the client,
+the server, or both. It should also state whether the event marks an attempted
+action or a completed business action
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Client-side and server-side tracking]].
 
 That distinction matters when events feed [[metrics]]. A team investigating a
-spike needs to know which event fired, where it fired, and which properties can
-explain the source. A vague event name can make failed form submissions,
-low-quality traffic, and completed accounts look like the same product behavior
+spike needs to know which event was supposed to fire and where. It also needs
+properties that explain the source. A vague specification can make failed form
+submissions, low-quality traffic, and completed accounts look like the same
+product behavior
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth anomaly investigation]].
 
 Teams can start with a spreadsheet or document when the event set is small. The
 plan still comes before instrumentation. Avo, Iteratively, and TrackPlan are
 collaborative tracking-plan tools for taxonomy and event-quality discussion.
-Engineers still need to implement the events and confirm where each event
-should fire
+Engineers still need to implement the events, but the plan should make the
+expected capture rule reviewable before implementation
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan tools]].
 
 ## Governance and Ownership
@@ -110,7 +114,7 @@ change review explicit before downstream models, funnels, experiments, or
 reverse ETL syncs depend on the event
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
-## Data Quality Boundary
+## Front-Door Data Quality
 
 A tracking plan is a front-door data-quality control. It reduces duplicate
 event names, inconsistent casing, and vague meanings. It also reduces missing
@@ -138,7 +142,7 @@ The tracking plan doesn't replace those practices. It gives product events
 clear rules before the rest of the stack has to clean, model, or activate
 them.
 
-## Analytics and Activation Use The Rules
+## Downstream Obligations
 
 Tracking plans support [[product analytics]] because product analytics tools
 need consistent event names and properties. The data-led growth stack moves
@@ -151,12 +155,13 @@ activation metric, the event definition is still too vague.
 Tracking plans also sit behind experimentation. Experiments need
 randomization, assignment tracking, stable metrics, and power analysis
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-The plan doesn't replace experiment design, but it clarifies which events mark
-assignment, exposure, and outcomes. The related measurement pages are
+The plan doesn't replace experiment design, but it should make assignment,
+exposure, and outcome events explicit enough for implementation and review. The
+related measurement pages are
 [[a-b-testing=>A/B Testing]] and
 [[Experimentation and Causal Inference]].
 
-The same rule set matters when product events leave dashboards. Activation
+The same specification matters when product events leave dashboards. Activation
 makes product data available in support, sales, engagement, and product
 experiences
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth activation discussion]].
@@ -166,7 +171,8 @@ experiences
 segmentation, and activation
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth CDP tradeoff discussion]].
 Bad event definitions can become bad customer-facing actions, so the
-tracking-plan rules still matter after capture.
+tracking-plan specification should say which events and properties are safe to
+reuse outside analytics.
 
 ## Related Pages
 

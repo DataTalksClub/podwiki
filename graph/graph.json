@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11877
+    "links": 11876
   },
   "nodes": [
     {
@@ -121,7 +121,7 @@
       "title": "Data Analyst to Data Engineer",
       "url": "/wiki/data-analyst-to-data-engineer/",
       "count": 1,
-      "search": "Data Analyst to Data Engineer A focused path from data analyst to data engineer: transferable SQL and business skills, Python and cloud gaps, portfolio projects, and interviews.",
+      "search": "Data Analyst to Data Engineer Convert analyst work into data engineering evidence: source ownership, reusable SQL, pipeline automation, quality checks, and an interview story.",
       "keyword": "data analyst to data engineer"
     },
     {
@@ -10171,7 +10171,7 @@
       "title": "Modern Data Stack",
       "url": "/wiki/modern-data-stack/",
       "count": 1,
-      "search": "Modern Data Stack How podcast guests map the modern data stack across ELT, warehouses, dbt style modeling, orchestration, activation, observability, and cost."
+      "search": "Modern Data Stack How podcast guests describe the modern data stack as an ELT centered architecture for loading, modeling, serving, operating, and activating data."
     },
     {
       "id": "wiki:multi-agent-systems",
@@ -10461,7 +10461,7 @@
       "title": "Reverse ETL",
       "url": "/wiki/reverse-etl/",
       "count": 1,
-      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as the warehouse to operational tools sync pattern for modeled customer, account, and product data."
+      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as the warehouse to operational tools sync layer for modeled customer, account, and product data."
     },
     {
       "id": "wiki:rfm-analysis",
@@ -34651,12 +34651,6 @@
       "target": "wiki:data-engineer-role",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-engineer-roadmap",
-      "target": "wiki:data-engineer-to-data-scientist",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-engineer-roadmap",

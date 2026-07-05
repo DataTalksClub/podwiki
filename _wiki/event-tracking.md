@@ -19,10 +19,9 @@ tools. Event tracking is the capture layer behind
 
 [[Tracking plans]] define which events should exist and record meaning and
 ownership. Event tracking covers what happens when those definitions become
-running instrumentation. It covers where events fire and how teams interpret
-captured behavior. The same signals can move into dashboards and experiments.
-They can also move into sales workflows, support views, and product
-experiences.
+running instrumentation. It covers where code emits events and how the event
+source changes the signal. It also follows captured behavior through
+pipelines, dashboards, experiments, and operational tools.
 
 [[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest product-growth
 framing in
@@ -44,27 +43,29 @@ tests, and power analysis.
 
 ## Instrumented Behavior
 
-Event tracking starts when engineers turn defined product moments into emitted
-events. Arpit's SaaS examples include signup, email verification, project
+Event tracking starts when product code emits events for defined product
+moments. Arpit's SaaS examples include signup, email verification, project
 creation, and teammate invitations. He also names task creation, client
 creation, and invoice creation
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>data-led growth]]).
-Those events become useful only when the captured signal matches the behavior
-the team thinks it's measuring.
+Those events become useful only when the runtime signal matches the behavior
+the team intended to capture.
 
-That's why `signup` can't stay vague in production instrumentation. It can
-mean a button click, a submitted form, an email verification, or a completed
-user record. The tracking plan should define the intended event, but the
-running product still has to fire it in the right place with the right
-properties. Otherwise a dashboard, funnel, segment, or customer workflow can
-look precise while mixing several behaviors under one name.
+That's why `signup` can't stay vague once it's implemented. A `signup` event
+changes meaning with the code path that emits it. It can represent front-end
+intent or validation success. It can also represent email verification or a
+durable account record.
+
+The [[tracking plans=>tracking plan]] should define the intended meaning.
+Runtime instrumentation still has to fire in the right place and include the
+right properties. It also has to avoid duplicate or partial signals that make
+dashboards look precise while mixing several behaviors under one name.
 
 In Arpit's framing, product and growth teams define the behavior they need to
 measure before engineers implement the events. The captured data then flows
 into analytics and activation systems
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>tracking-plan discussion]]).
-For schema and property rules behind that work, see [[tracking plans]]. Use the
-same plan for ownership and review.
+For schema rules, required properties, and ownership, see [[tracking plans]].
 
 ## Client-Side and Server-Side Events
 
@@ -94,19 +95,19 @@ analyze acquisition, activation, retention, and engagement
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>collection-to-analysis flow]]).
 
 Product analysts often work at that boundary. The [[Product Analyst]] guide
-links event definitions with funnels, experiments, and product behavior. A
-product analyst may review whether a funnel step reflects the intended
-behavior, then explain a metric change as user behavior, instrumentation
-change, or both.
+links event data with funnels, experiments, and product behavior. A product
+analyst may review whether a funnel step reflects what the product actually
+emitted. The analyst can then explain a metric change as user behavior,
+instrumentation change, or both.
 
 Jakob's A/B testing discussion adds a stricter measurement standard through
 randomization and assignment tracking. He also covers monitoring, stable
 metrics, power analysis, and distribution checks
 ([[cite:ab-testing-and-product-experimentation=>A/B testing episode]]).
-Ordinary event tracking can tell a team what users did, but experimentation
-needs assignment events and exposure events. It also needs outcome events and
-segment definitions that stay stable enough to support causal claims. For the
-broader measurement topic, see [[experimentation and causal inference]].
+Ordinary event tracking can tell a team what users did. Experimentation adds
+runtime requirements for assignment, exposure, outcome, and segment events that
+stay stable enough to support causal claims. For the broader measurement topic,
+see [[experimentation and causal inference]].
 
 ## Warehouse Modeling and Data Quality
 
@@ -118,20 +119,20 @@ from warehouse layers, data marts, and transformations
 
 Those layers matter because product events often become modeled tables, funnel
 marts, BI datasets, and activation inputs. Arpit makes the event-quality problem
-concrete before the data reaches those layers. He recommends trimming the first
-event list instead of tracking everything in one batch. The first
-implementation should cover the journey points needed for acquisition,
-activation, and retention
+concrete at implementation time. He recommends trimming the first event list
+instead of tracking everything in one batch. The first implementation should
+cover the journey points needed for acquisition, activation, and retention
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>data-led growth]]).
 
-Too many loosely named events create duplicate meanings, missing owners, and
-unused data. Too few events leave analysts unable to explain where users drop
-off.
+Too many emitted events create noisy pipelines and unused data. Too few emitted
+events leave analysts unable to explain where users drop off. The runtime
+question is whether each event still reaches storage, transformations, and
+downstream tools with the fields the tracking plan expects.
 
 Natalie's governance and cleanup discussion extends that quality work after
-ingestion. Teams need guardrails around definitions and freshness. They also
-need clear structure and ownership before they trust event data in recurring
-analysis ([[cite:data-engineering-tools-modern-data-stack=>modern data stack]]).
+ingestion. Teams need guardrails around freshness, structure, and cleanup before
+they trust event data in recurring analysis
+([[cite:data-engineering-tools-modern-data-stack=>modern data stack]]).
 That puts event tracking near [[data quality and observability]],
 [[data-quality-and-observability=>data observability]], [[data governance]],
 and [[modern data stack]] work.
@@ -160,25 +161,24 @@ control over transformations and definitions. The bundled route can be faster
 for marketing and growth teams, but it can hide modeling and governance
 decisions that still affect customer-facing actions.
 
-## Operational Change Control
-
-Event owners need change paths because bad events rarely stay in one
-dashboard. They can reach experiments and sales workflows. They can also reach
-support tools, lifecycle messaging, and product experiences.
+## Runtime Changes
 
 Arpit names data engineers and analysts in the data-led growth stack. He also
 names analytics engineers and product operations. He emphasizes documentation
 and data literacy because event definitions have to survive handoffs
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>team structure and literacy]]).
 
-Teams start governance with [[tracking plans]] and continue it through storage
-and modeling. Activation keeps the same change path. Event-tracking owners need
-to know who receives a notification when instrumentation changes. They also
-need to know which downstream tables or segments depend on the event and
-whether the event now means something different.
+Runtime changes matter because event edits rarely stay in one dashboard. A
+renamed event or moved firing point can reach experiments and operational
+tools. Missing properties and changed sources can affect support views,
+lifecycle messaging, and product experiences. Event-tracking owners need to
+know which downstream tables or segments depend on the emitted signal and
+whether a release changed what the event now captures.
 
-Without that change path, a team can instrument quickly while breaking funnels
-and experiments. It can also break support views or reverse ETL destinations.
+The governance rules for approving those changes belong in [[tracking plans]].
+Event-tracking owners still need to check the implementation. The emitted event
+has to arrive, include the expected properties, and represent the behavior
+downstream teams are using.
 
 The practical boundary between guests is useful. Arpit starts from product and
 growth teams that need behavior data they can act on. Natalie starts from
