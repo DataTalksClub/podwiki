@@ -9,6 +9,9 @@ related:
   - Data Analyst Role
   - Data Engineer Role
   - How to Become a Data Engineer With No Experience
+  - Data Analyst to Data Engineer
+  - Data Scientist to Data Engineer
+  - DevOps to Data Engineering
   - Analytics Engineering
   - Project Manager to Data Science
   - QA to ML and Data Engineering
@@ -38,7 +41,7 @@ operability, and platform work into data-platform evidence
 
 Data science becomes data engineering when the person turns analysis cleanup and
 modeling-adjacent data work into shared pipelines. See
-[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
+[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]].
 When the same starting point aims at model serving, tests, and production
 reliability, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
@@ -341,7 +344,7 @@ It narrows the transition into one beginner pipeline, CV proof, and interview
 story.
 
 For data scientists moving into that work, the
-[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]]
+[[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]]
 turns notebook cleanup and feature work into a pipeline portfolio path.
 
 Open-source portfolios can grow through contribution sprints, datasets, and CI
@@ -532,10 +535,13 @@ Candidates then need target-role proof:
 For named source-to-target moves, start from the transition that matches the
 candidate's previous identity:
 
-- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
+- [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+- [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]]
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]]
 - [[Academic Researcher to Data Science]]
 - [[Software Engineer to Machine Learning]]
 - [[DevOps to Data Engineering]]
+- [[QA to ML and Data Engineering]]
 - [[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 - [[Data Scientist to Machine Learning Engineer]]
 - [[Consultant or Freelancer to Data Product Founder]]

@@ -700,12 +700,12 @@ Source hints:
   related links with the body, and timestamped Nikola's blurred
   analyst/analytics-engineer role evidence plus Juan Pablo's
   BI/analytics-engineering evidence.
-- Next data-engineering transition link cleanup from the same audit: add
-  `DevOps to Data Engineering` and `Career Transitions in Data` to the
-  data-engineer roadmap graph, add missing transition links to
+- The 2026-07-05 data-engineering transition link cleanup added `DevOps to
+  Data Engineering` and `Career Transitions in Data` to the data-engineer
+  roadmap graph, added missing transition links to
   `career-transitions-in-data`, `devops-to-data-engineering`,
   `qa-to-ml-and-data-engineering`, and
-  `how-to-become-a-data-engineer-with-no-experience`, and retitle
+  `how-to-become-a-data-engineer-with-no-experience`, and retitled
   `_wiki/data-scientist-to-data-engineer.md` from "Data Eng" to "Data
   Engineer" while keeping it transition-focused.
 - Next community boundary cleanup: trim conference/hackathon operations from

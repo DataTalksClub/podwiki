@@ -5,6 +5,7 @@ title: "Data Analyst to Data Engineer"
 keyword: "data analyst to data engineer"
 summary: "Convert analyst work into data engineering evidence: source ownership, reusable SQL, pipeline automation, quality checks, and an interview story."
 related_wiki:
+  - Career Transitions in Data
   - Data Analyst Role
   - Data Analyst Careers
   - Data Engineer Role

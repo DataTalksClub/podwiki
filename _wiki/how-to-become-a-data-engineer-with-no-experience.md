@@ -13,6 +13,10 @@ related_wiki:
   - Open Source Portfolio Evidence
   - Volunteer Data Engineering Projects
   - Career Transitions in Data
+  - DevOps to Data Engineering
+  - Data Analyst to Data Engineer
+  - Data Scientist to Data Engineer
+  - QA to ML and Data Engineering
   - Job Search
 ---
 
@@ -213,7 +217,8 @@ For background-specific paths, use
 - [[Career Transitions in Data]]
 - [[DevOps to Data Engineering]]
 - [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]]
-- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]]
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]]
+- [[QA to ML and Data Engineering]]
 
 If you're new to tech, use [[data-engineer-roadmap=>Data Engineer Roadmap]] for
 the learning order and [[Data Engineering Certification]] when a course is the
@@ -340,6 +345,10 @@ The beginner path connects to these roadmap, portfolio, and job-search topics:
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]
 - [[Data Engineering Portfolio Projects]]
 - [[Career Transitions in Data]]
+- [[DevOps to Data Engineering]]
+- [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]]
+- [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]]
+- [[QA to ML and Data Engineering]]
 - [[Job Search]]
 - [[Data Engineer vs Data Scientist]]
 - [[Analytics Engineering]]

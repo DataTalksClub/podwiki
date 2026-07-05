@@ -10,9 +10,17 @@ related_wiki:
   - Machine Learning Engineer Role
   - Data Engineering
   - Data Engineer Role
+  - Data Engineer Roadmap
+  - How to Become a Data Engineer With No Experience
+  - DevOps to Data Engineering
+  - Data Analyst to Data Engineer
+  - Data Scientist to Data Engineer
   - Portfolio Projects
   - Production ML Project Checklist
   - End-to-End Data Pipeline Project
+  - Data Engineering Portfolio Projects
+  - Data Quality and Observability
+  - DataOps
   - Job Search
 ---
 
@@ -296,3 +304,23 @@ The candidate should present QA work as evidence of validation and
 communication. They can then present ML or data engineering projects as
 evidence of the target role. Use [[Job Search]] for hiring context and
 [[Data Roles]] for role selection.
+
+## Related Pages
+
+Use these pages to compare adjacent routes and project proof:
+
+- [[Career Transitions in Data]]
+- [[Testing]]
+- [[Machine Learning Engineer Role]]
+- [[Data Engineer Role]]
+- [[Data Engineer Roadmap]]
+- [[How to Become a Data Engineer With No Experience]]
+- [[DevOps to Data Engineering]]
+- [[Data Analyst to Data Engineer]]
+- [[Data Scientist to Data Engineer]]
+- [[Production ML Project Checklist]]
+- [[End-to-End Data Pipeline Project]]
+- [[Data Engineering Portfolio Projects]]
+- [[Data Quality and Observability]]
+- [[DataOps]]
+- [[Job Search]]

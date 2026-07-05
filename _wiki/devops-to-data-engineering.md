@@ -6,8 +6,12 @@ summary: "How DevOps, SRE, and platform engineers can turn automation, DataOps, 
 related_wiki:
   - Career Transitions in Data
   - Data Engineering
+  - Data Engineer Roadmap
+  - Data Analyst to Data Engineer
+  - Data Scientist to Data Engineer
   - DataOps
   - Data Engineering Platforms
+  - Data Engineering Portfolio Projects
   - How to Become a Data Engineer With No Experience
   - Data Quality and Observability
   - Open Source Portfolio Evidence
@@ -263,8 +267,9 @@ consumer-facing data products
 The transition is easiest to compare against nearby role, stack, portfolio, and
 reliability topics.
 
-- [[career-transitions-in-data=>Career Transition]]
 - [[Career Transitions in Data]]
+- [[Data Analyst to Data Engineer]]
+- [[Data Scientist to Data Engineer]]
 - [[Data Engineering]]
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]
 - [[Data Engineering Platforms]]

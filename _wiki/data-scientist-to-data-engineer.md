@@ -1,7 +1,8 @@
 ---
 layout: article
-tags: [transition, "roadmap"]
-title: "Data Scientist to Data Eng"
+tags: [transition]
+title: "Data Scientist to Data Engineer"
+seo_title: "DS to Data Engineer"
 keyword: "data scientist to data engineer"
 secondary_keywords:
   - "from data scientist to data engineer"

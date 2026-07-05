@@ -16,10 +16,12 @@ related_wiki:
  - DataOps
  - Modern Data Stack
  - Job Search
+ - Career Transitions in Data
  - FinOps for Data Engineers
  - Data Analyst to Data Engineer
  - Data Scientist to Data Engineer
  - QA to ML and Data Engineering
+ - DevOps to Data Engineering
  - Hire Data Engineers
  - Teaching
 ---
@@ -40,6 +42,9 @@ relevant transition page after this sequence:
 - [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]] for data
   scientists
 - [[QA to ML and Data Engineering]] for QA backgrounds
+- [[DevOps to Data Engineering]] for DevOps, SRE, and platform backgrounds
+  moving toward data-platform automation
+  [[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]]
 - [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
   when you need first-role evidence
 

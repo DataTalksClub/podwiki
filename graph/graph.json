@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11946
+    "links": 11977
   },
   "nodes": [
     {
@@ -315,11 +315,11 @@
       "id": "wiki:data-scientist-to-data-engineer",
       "type": "article",
       "collection": "transition",
-      "label": "Data Scientist to Data Eng",
-      "title": "Data Scientist to Data Eng",
+      "label": "Data Scientist to Data Engineer",
+      "title": "Data Scientist to Data Engineer",
       "url": "/wiki/data-scientist-to-data-engineer/",
       "count": 1,
-      "search": "Data Scientist to Data Eng How data scientists can move into data engineering: role shift, transferable skills, engineering gaps, portfolio projects, and interviews.",
+      "search": "Data Scientist to Data Engineer How data scientists can move into data engineering: role shift, transferable skills, engineering gaps, portfolio projects, and interviews.",
       "keyword": "data scientist to data engineer"
     },
     {
@@ -29546,6 +29546,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -29594,6 +29600,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-scientist-to-machine-learning-engineer",
       "kind": "wiki-chip",
       "weight": 1
@@ -29615,6 +29627,12 @@
       "target": "wiki:devops-to-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -33848,6 +33866,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:data-analyst-careers",
       "kind": "article-chip",
       "weight": 1
@@ -34646,6 +34670,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "article-chip",
       "weight": 1
@@ -34715,6 +34745,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineer-roadmap",
@@ -34863,6 +34899,18 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:devops-to-data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -48974,6 +49022,18 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-chip",
       "weight": 1
@@ -48983,6 +49043,12 @@
       "target": "wiki:data-engineer-roadmap",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -49016,6 +49082,12 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -49023,6 +49095,18 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:data-scientist-to-data-engineer",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -54416,6 +54500,12 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:data-engineer-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -54488,9 +54578,21 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:devops-to-data-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -54543,6 +54645,18 @@
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -74750,9 +74864,27 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineer-roadmap",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74786,9 +74918,21 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74798,9 +74942,27 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-scientist-to-data-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:dataops",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74810,6 +74972,18 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-chip",
       "weight": 1
@@ -74817,6 +74991,18 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "kind": "article-wiki",
       "weight": 5
     },
