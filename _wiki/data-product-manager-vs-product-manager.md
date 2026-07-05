@@ -11,6 +11,8 @@ related_wiki:
   - Data Product Management
   - Data Products
   - Data Product Adoption
+  - Product Owner vs Product Manager
+  - Data Product Owner vs Data Product Manager
   - Product Analytics
   - Metrics
   - ML Product Manager Role
@@ -113,10 +115,13 @@ build every pipeline, but they still need context to check outputs and
 trust.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 A production ML example shows the extra product boundary. At METRO, recommender
-work moved from manual newsletter support toward API-first recommenders, MLflow,
-and Datadog monitoring. Country-level scaling was part of the product problem
-too. The team had to decide where to expose an endpoint, separate recommendation
-IDs from customer-facing content, and support A/B tests.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+work moved from manual newsletter support toward API-first recommenders. The
+product problem included MLflow and Datadog monitoring. Country-level scaling
+also mattered. The team had to expose an endpoint and separate recommendation
+IDs from customer-facing content. A/B tests were part of the release path too.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+
+That example also crosses into product-owner release judgment. Use
+[[Data Product Owner vs Data Product Manager]] for the owner/manager split.
 
 Data product management isn't only "PM plus SQL." The product may be a table,
 API, model, or dashboard. It may also be a metric, platform, or decision
@@ -190,10 +195,14 @@ curiosity about how data works and enough documentation literacy to understand
 data tooling.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 ML platform PMs face a higher bar. A PM who works close to ML should understand
-the model lifecycle and model architectures. They also need enough knowledge of
-cloud concepts, event streaming, and big data to communicate and prioritize.
-Databases and infrastructure tools matter too. For platform-specific work,
-Kubernetes and cloud tooling affect prioritization.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+the model lifecycle and model architectures. Cloud concepts, event streaming,
+and big data systems can affect planning. Databases and infrastructure tools
+matter too.
+
+For platform-specific work, Kubernetes and cloud tooling affect
+prioritization.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+Use [[ML Product Manager Role]] for deeper model lifecycle work. It also owns
+release governance and platform adoption.
 
 A product owner or PM doesn't need to know every algorithmic detail. They need
 enough data science literacy to ask whether a technical improvement changes the

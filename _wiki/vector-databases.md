@@ -6,6 +6,11 @@ related:
   - Embeddings
   - Search
   - Retrieval-Augmented Generation
+  - Vector Database vs Search Engine
+  - Vector Search vs Keyword Search
+  - Knowledge Graph vs Vector Search
+  - Graph RAG vs Vector RAG
+  - Production Search Evaluation
   - LLMs
 ---
 
@@ -25,7 +30,7 @@ the matching-method comparison, use [[Vector Search vs Keyword Search]]. For the
 infrastructure ownership decision, use [[Vector Database vs Search Engine]].
 
 A vector database can retrieve candidates while the surrounding product still
-handles chunking, filters, and reranking. It may also handle permissions,
+handles chunking, filters, and reranking. It may also handle source constraints,
 citations, and evaluation.
 
 [[person:atitaarora=>Atita Arora]] gives the clearest
@@ -120,14 +125,18 @@ and [[Information Retrieval]] cover that ownership tradeoff.
 case in these episodes, but the guests don't reduce RAG to vector storage.
 Atita's podcast-transcript example starts with chunking, overlap, embedding
 models, and vectorization before connecting retrieval and augmentation to
-generation. She also covers prompt design and citations [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+generation
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]].
+She also covers prompt design, citations, and RAG evaluation
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation]].
 
 Meryem gives the production LLM reason for retrieval. She argues that changing
 knowledge is often better handled with retrieval than with repeated
 fine-tuning. She then connects that choice to indexing documents and grounding
 answers [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 A vector database can retrieve context, but the application still needs source
-selection, [[search-relevance=>search relevance]], and permissions. It also
+selection, [[search-relevance=>search relevance]], and metadata filters. It also
 needs citations and
 [[LLM evaluation workflows]].
 
@@ -195,6 +204,8 @@ For the underlying graph database technology, Dave Bechberger and Josh
 Perryman's [[book:20210614-graph-databases-in-action=>graph database book]]
 covers property graph models and query patterns. It also covers when graph
 storage fits a domain better than relational or vector stores.
+That graph-storage question belongs with [[Knowledge Graph vs Vector Search]]
+and [[Graph Data Science]], not with vector database operations.
 
 ## Evaluation and Operations
 

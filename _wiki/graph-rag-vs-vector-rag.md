@@ -49,7 +49,8 @@ Vector RAG gives the answer generator nearby chunks or records. In the
 transcript-chatbot example, the system chunks transcripts and chooses overlap.
 It embeds each chunk, retrieves relevant pieces, and asks the LLM to answer with
 prompt instructions and citations.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]]
 
 Teams then treat chunk boundaries and source metadata as part of the RAG design.
 They also tune retrieval count and references. The LLM needs readable context,
@@ -59,7 +60,8 @@ Graph RAG gives the answer generator structured context, and a graph can
 preserve chapters and containment. It can also preserve parent-child links,
 entities, and domain relations. Cypher-style graph queries can become prompt
 context instead of remaining only a retrieval step.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Knowledge Graph Relations]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
 Compare the evidence the model sees. Vector RAG sends matching passages or
 records, while graph RAG sends explicit relations and paths. It can also send
@@ -141,11 +143,11 @@ for the storage and retrieval layers behind the RAG choice.
 
 ## Prompt Contents Set the Boundary
 
-In vector RAG, teams package passages and records. They can package objects too,
-and they often retrieve a text chunk with source metadata. Vectors can represent
-products, users, images, or sessions when the embedding model captures useful
-signals. For LLM answers, teams still need to package readable evidence and
-citations.
+In vector RAG, teams package passages and records with source metadata. The
+lower retrieval layer can also represent products, images, or sessions when the
+embedding model captures useful signals. [[Vector Database vs Search Engine]]
+owns that infrastructure choice. For LLM answers, teams still need readable
+evidence and citations.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 Graph RAG packages relationships as retrieval context. Teams retrieve nodes and
@@ -155,7 +157,7 @@ neighborhoods or query results too.
 Cypher-driven examples use graph queries for structured context, not only
 nearest text chunks. That makes graph RAG useful when the answer depends on
 hierarchy or dependency. It also helps with containment and explainable paths.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
 The LLM doesn't care which datastore produced the context. It cares whether
 the prompt contains enough relevant, inspectable evidence. The

@@ -4,6 +4,8 @@ title: "DataOps"
 summary: "DataOps is the practice of making data delivery reviewable, testable, observable, and recoverable."
 related:
   - DataOps Platforms
+  - DataOps Tools
+  - DataOps vs Data Engineering
   - DataOps Engineer Role
   - DataOps Checks for Data Pipelines
   - Data Engineering Platforms

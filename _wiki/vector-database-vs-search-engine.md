@@ -52,11 +52,11 @@ own rankers and the served result set.
 The dedicated-vector-database path fits teams that want semantic search around
 embeddings. Existing search infrastructure still stays in scope because search
 teams may already run Solr, Lucene, Elasticsearch, or OpenSearch inside the
-same stack. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+same stack. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]
 
 The same split is operational: inverted indexes and ranking stay central while
 vector databases store embeddings and support nearest-neighbor search. They
-don't replace the rest of the relevance system. [[cite:building-production-search-systems=>Building Search Systems]]
+don't replace the rest of the relevance system. [[cite:building-production-search-systems@55:53=>Dedicated Vector Databases]]
 
 Use a dedicated vector database when semantic nearest-neighbor retrieval needs a
 separate service boundary or independent scaling. It can also help when the
@@ -67,7 +67,7 @@ ranking, freshness, and production traffic too.
 Combine them when semantic recall matters but results still need lexical
 matching, metadata constraints, or business rules. Hybrid search shows why this
 combination is common. Vector similarity is only one signal beside constraints,
-recency, normalization, and query-time weights. [[cite:building-production-search-systems=>Building Search Systems]]
+recency, normalization, and query-time weights. [[cite:building-production-search-systems@45:11=>Query-Time Weights]]
 
 In [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
 [[information retrieval]], vectors don't simply supersede classical search.
@@ -124,8 +124,8 @@ classical search infrastructure with specialized vector databases
 Vector databases are strongest when a separate nearest-neighbor service
 improves recall or iteration speed. Search engines are strongest when one
 system already combines many relevance signals into a served result set. A
-standalone vector path can add another place to enforce dates, permissions,
-source requirements, and metadata filters.
+standalone vector path can add another place to enforce dates, source
+constraints, business rules, and metadata filters.
 
 Hybrid search adds filters and recency. It also adds constraints,
 normalization, and query-time weights to the relevance decision. [[cite:building-production-search-systems=>Building Search Systems]]

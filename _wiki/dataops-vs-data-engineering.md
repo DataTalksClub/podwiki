@@ -5,6 +5,8 @@ title: "DataOps vs Data Engineering"
 summary: "Comparison of day-to-day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover."
 related_wiki:
   - DataOps
+  - DataOps Tools
+  - DataOps Checks for Data Pipelines
   - Data Engineering
   - Data Engineer Role
   - DataOps Engineer Role

@@ -32,11 +32,14 @@ accountability from discovery and roadmap work. Others put both in one role
 For data products, the split becomes more specific. A data product owner is
 closest to accountability for one data product, model-backed product, platform
 capability, or domain data product. They decide what quality, guarantees, and
-release tradeoffs are acceptable.
+release tradeoffs are acceptable
+([[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]).
 
 The data product manager owns product direction around data work. They decide
 who the product serves and which problem matters. They also decide how the
 roadmap is prioritized, how success is measured, and how adoption is repaired.
+([[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]],
+[[cite:building-and-scaling-ai-data-products-with-mlops=>AI Data Products]]).
 
 The practical question isn't which title sounds more senior. It's whether the
 missing work is consumer trust in a supported data product or product judgment
@@ -45,9 +48,11 @@ about where data work should go next.
 ## Data-Specific Boundary
 
 Use the general page when the comparison is only about owner authority versus
-manager roadmaps. Use this page for metric layers and feature stores. It also
-covers recommendation APIs, governed datasets, ML platforms, and domain data
-products.
+manager roadmaps. Use this page for metric layers and governed datasets. It
+also covers recommendation APIs, ML platforms, and domain data products.
+Feature stores sit
+closer to [[Feature Stores]] and [[ML Product Manager Role]] unless the team
+treats the feature platform as a supported data product.
 
 - Data product owner: owns accountability for a specific data product or domain
   data product, negotiates consumer expectations, and makes release-quality

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11909
+    "links": 11932
   },
   "nodes": [
     {
@@ -841,11 +841,11 @@
       "id": "wiki:vector-search-vs-keyword-search",
       "type": "article",
       "collection": "comparison",
-      "label": "Vector vs Keyword Search",
-      "title": "Vector vs Keyword Search",
+      "label": "Vector/Keyword Search",
+      "title": "Vector/Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
+      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
     },
     {
@@ -40232,6 +40232,12 @@
     },
     {
       "source": "wiki:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager-vs-product-manager",
       "target": "wiki:data-products",
       "kind": "article-chip",
       "weight": 1
@@ -40313,6 +40319,12 @@
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager-vs-product-manager",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-product-manager-vs-product-manager",
@@ -40463,6 +40475,12 @@
       "target": "wiki:data-teams",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "wiki:feature-stores",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
@@ -46472,9 +46490,21 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:dataops-vs-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:dataops",
@@ -47558,6 +47588,12 @@
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-vs-data-engineering",
       "target": "wiki:dataops-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -47585,6 +47621,12 @@
       "target": "wiki:dataops-tools",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-vs-data-engineering",
+      "target": "wiki:dataops-tools",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
@@ -55841,6 +55883,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -64817,6 +64865,18 @@
       "target": "wiki:data-product-manager-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -76364,6 +76424,12 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:information-retrieval",
       "kind": "wiki-chip",
       "weight": 1
@@ -76373,6 +76439,12 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:retrieval-augmented-generation",
@@ -77240,6 +77312,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -77300,6 +77378,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
@@ -77324,9 +77408,21 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:search-relevance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search",
@@ -77345,6 +77441,12 @@
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
@@ -81812,9 +81914,21 @@
     },
     {
       "source": "wiki:vector-databases",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:vector-databases",
@@ -81827,6 +81941,12 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:vector-databases",
@@ -81863,6 +81983,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:vector-databases",
@@ -81914,9 +82040,21 @@
     },
     {
       "source": "wiki:vector-databases",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",

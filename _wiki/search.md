@@ -3,7 +3,12 @@ layout: wiki
 title: "Search"
 summary: "Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
 related:
+  - Information Retrieval
+  - Search Relevance
   - Retrieval-Augmented Generation
+  - Vector Search vs Keyword Search
+  - Vector Database vs Search Engine
+  - Production Search Evaluation
   - Vector Databases
   - Embeddings
   - NLP
@@ -97,8 +102,8 @@ and query-time weights
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
 Production search rarely optimizes only semantic similarity, because it also
-ranks against inventory, permissions, and freshness. Popularity and business
-rules may become ranking inputs too.
+ranks against freshness, metadata, and business constraints. Popularity and
+business rules may become ranking inputs too.
 
 [[Vector Database vs Search Engine]]
 compares where vector retrieval belongs in a search stack.
@@ -115,7 +120,7 @@ Retrieval plus generation reduces unsupported LLM answers. In a chatbot over
 podcast transcripts, the build starts with chunking, overlap, and embedding
 model choices before vectorization. It then links retrieval to prompt design and
 citations
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]]).
 
 RAG fails at retrieval time when chunks are wrong, missing, too broad, or
 missing source metadata. It fails at generation time when the model ignores the
@@ -125,26 +130,23 @@ and [[LLM Evaluation Workflows]]
 need to be read together. The practical build path in
 [[Search and RAG Project Checklist]]
 starts with searchable source material before adding answer generation.
+Atita Arora's evaluation discussion treats retrieval and generated answers as
+separate checks
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation]]).
 
 ## Vector Databases
 
 Vector databases store embeddings and support nearest-neighbor retrieval, but
 they're one component in a larger search system.
 
-Vector databases such as Qdrant store embeddings. Adding vectors to an existing
-search stack differs from introducing a standalone vector database. Teams make
-that decision against their current retrieval system and migration risk
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-
-The production version of the same distinction separates embedding computation
-from ingestion. It also covers model versioning, multimodal retrieval, and
-vendor selection against Lucene or Elasticsearch instead of a dedicated vector
-database
-([[cite:building-production-search-systems=>Building Search Systems]]).
+Vector databases such as Qdrant store embeddings, but they're one component in
+a larger retrieval system. Adding vectors to an existing search stack differs
+from introducing a standalone vector database
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]).
 
 [[Vector Databases]] covers
-storage and nearest-neighbor retrieval, but a vector database isn't the whole
-search system. A team still has to choose indexes and filters. It also needs
+storage and nearest-neighbor retrieval. [[Vector Database vs Search Engine]]
+covers vendor and placement decisions. A team still has to choose filters,
 ranking signals, evaluation metrics, and reindexing jobs.
 
 When retrieval feeds an LLM,

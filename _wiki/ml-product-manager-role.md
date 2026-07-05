@@ -4,6 +4,8 @@ title: "ML Product Manager Role"
 summary: "The technical product manager role for ML platforms and ML-enabled data products."
 related:
   - Data Product Management
+  - Data Product Manager vs Product Manager
+  - Data Product Owner vs Data Product Manager
   - ML Platforms
   - MLOps
   - Platform Adoption
@@ -67,8 +69,10 @@ effort, and cost help choose what comes next.[[cite:building-and-scaling-ai-data
 
 ML product management therefore sits close to
 [[Data Product Management]]
-because the product may be a model or dashboard. It may also be a workflow,
-platform capability, or data-quality improvement.
+because the product may be an ML-backed dashboard, model-delivery workflow, or
+ML platform capability. Ordinary dashboards, metric layers, and non-ML
+decision-support products belong with [[Data Product Manager]] or
+[[Data Product Manager vs Product Manager]].
 
 A data-focused PM still does customer discovery, forms hypotheses, plans with
 engineering, and launches. Data quality, PII, and compliance make those steps
@@ -92,7 +96,7 @@ also matter. SMART goals and SLAs matter too. Data quality and pipeline
 failures are part of the same metric set.[[cite:building-and-scaling-ai-data-products-with-mlops=>AI product metrics]]
 
 In that version, the ML product manager may look like a
-[[data product manager]]
+[[Data Product Manager]]
 who works on AI capabilities.
 
 In the transition-skills variant, product craft matters more than platform

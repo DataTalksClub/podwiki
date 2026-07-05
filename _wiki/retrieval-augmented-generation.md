@@ -7,6 +7,8 @@ related:
   - Search
   - Vector Databases
   - Embeddings
+  - Graph RAG vs Vector RAG
+  - Knowledge Graph vs Vector Search
   - Multimodal LLMs
   - LLM Evaluation Workflows
   - Long-Context LLM Evaluation
@@ -202,6 +204,7 @@ These pages cover the main design boundaries around RAG:
 - [[multimodal-llms=>Multimodal LLMs]]
 - [[vector-databases=>Vector Databases]]
 - [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
+- [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]]
 - [[llm-evaluation-workflows=>LLM Evaluation Workflows]]
 - [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
 - [[Search and RAG Project Checklist]]

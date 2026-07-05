@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Vector vs Keyword Search"
+title: "Vector/Keyword Search"
 keyword: "vector search vs keyword search"
 summary: "A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation."
 related_wiki:
@@ -14,12 +14,15 @@ related_wiki:
   - Vector Database vs Search Engine
 ---
 
-[[search=>Keyword search]] matches query terms against indexed text.
-[[vector-databases=>Vector search]] matches a query embedding against nearby
-item embeddings in a learned representation space. This comparison focuses on
-exact terms, semantic neighbors, and hybrid retrieval. Neither method replaces
-the rest of [[information retrieval]]. Search systems still need ranking,
-filters, latency work, and [[production search evaluation]]
+Keyword search matches query terms against indexed text. Vector search matches
+a query embedding against nearby item embeddings in a learned representation
+space. This comparison focuses on exact terms, semantic neighbors, and hybrid
+retrieval. Neither method replaces the rest of [[information retrieval]].
+Search systems still need ranking, filters, latency work, and
+[[production search evaluation]].
+
+Use [[Search]] for the broad product layer, and use [[Vector Databases]] for
+storage and indexing infrastructure. The [[Embeddings]] page covers learned representations
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 Use [[Vector Databases]] for concepts and indexing. Read
@@ -53,16 +56,15 @@ Vector search is a retrieval method rather than the whole search product.
 
 In practice, the two methods fail differently. Keyword search can miss relevant
 items when the query wording differs from the indexed wording. Vector search
-can retrieve plausible semantic neighbors that ignore exact terms, permissions,
-freshness, or product constraints. Hybrid retrieval exists because teams often
-need both matching behaviors.
+can retrieve plausible semantic neighbors that ignore exact terms, freshness,
+metadata filters, or product constraints. Hybrid retrieval exists because teams
+often need both matching behaviors.
 
 ## Keyword Strengths
 
-Keyword search is strong when exact language matters. Product SKUs and legal
-terms often need predictable matching, and so do error codes or names. Domain
-vocabulary and compliance filters need the same predictability. An inverted
-index is still a practical candidate-generation tool. [[cite:building-production-search-systems=>Building Search Systems]]
+Keyword search is strong when exact language matters. Exact terms, domain
+vocabulary, and metadata filters need predictable matching. An inverted index
+is still a practical candidate-generation tool. [[cite:building-production-search-systems=>Building Search Systems]]
 It narrows a large corpus quickly before ranking decides what the user should
 see.
 
@@ -132,9 +134,8 @@ deserve the top positions. [[cite:building-production-search-systems=>Building S
 After retrieval narrows the search space, ranking estimates relevance and
 product objectives such as click or purchase
 probability. [[cite:building-production-search-systems=>Building Search Systems]]
-A vector
-nearest-neighbor result can still rank poorly if it ignores freshness,
-inventory, or permissions. Business priorities can push it down too.
+A vector nearest-neighbor result can still rank poorly if it ignores freshness,
+source constraints, or business rules. Business priorities can push it down too.
 
 Filters are easier to reason about in mature keyword search systems, but they
 still create tradeoffs. A product rule can be strict or weighted through
@@ -146,9 +147,9 @@ query time. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>
 
 Those choices leave the matching method as part of
 [[production search evaluation]].
-Evaluate exact-match queries separately from semantic queries. Evaluate
-permissioned content, stale content, long-tail queries, and high-value product
-segments separately too. A single aggregate relevance metric can hide whether
+Evaluate exact-match queries separately from semantic queries. Evaluate stale
+content, metadata filters, long-tail queries, and high-value product segments
+separately too. A single aggregate relevance metric can hide whether
 keyword retrieval, vector retrieval, filtering, or reranking caused the
 failure.
 

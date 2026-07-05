@@ -70,13 +70,13 @@ For transcript RAG, chunks are the retrieval unit. Teams split transcripts and
 choose overlap before embedding each chunk. Because the index retrieves chunks,
 teams tune chunk size and metadata. They also tune retrieval count and citation
 quality.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]]
 
 A knowledge graph makes relationships explicit before retrieval. In automotive
 R&D, graph structure supports semantic reporting and simulation comparison. It
 also supports clustering and load-path detection. In graph-backed RAG, chapters
 and sections become retrieval inputs. Semantic relations and Cypher queries do
-too, instead of staying as metadata around a text chunk.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
+too, instead of staying as metadata around a text chunk.[[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Automotive Knowledge Graphs]][[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
 Angela Ramirez gives a graph-database example outside RAG: Wikidata stores
 entity relationships, and SPARQL queries retrieve entities plus direct and
@@ -190,13 +190,11 @@ harder for domain users.[[cite:building-and-scaling-data-engineering-systems-for
 This adds a product requirement beyond vector search latency or nearest
 neighbors. The graph has to make relationships inspectable.
 
-RAG and search behave like tools with latency, cost, metadata, and data-quality
-constraints. Retrieval is enough when it reduces a large search space to useful
-context.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]]
-
-[[Agent Engineering]]
-enters when the product also needs planning, multiple tools, dynamic state, or
-actions beyond retrieval.
+RAG and search have latency, cost, metadata, and data-quality constraints.
+Retrieval is enough when it reduces a large search space to useful context. Use
+[[Agent Engineering]] when the product needs planning, multiple tools, dynamic
+state, or actions beyond retrieval
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
 
 ## Hybrid Retrieval Patterns
 
@@ -213,8 +211,10 @@ Ranking systems make a parallel point from the vector side. Vector similarity
 works with filters and recency. Behavior, popularity, metadata, and query-time
 weights influence the served result.[[cite:building-production-search-systems=>Building Search Systems]]
 
-Teams can index and retrieve current documents when knowledge changes. That can
-replace repeated model retraining.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+For changing knowledge versus repeated model retraining, use
+[[retrieval-augmented-generation=>RAG]] and
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 Chunking and RAG help only when the retrieved context can support the
 answer.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
