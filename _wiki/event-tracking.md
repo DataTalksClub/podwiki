@@ -13,37 +13,37 @@ related:
 ---
 
 Event tracking records product and customer behavior as named events. Teams
-instrument those events in the product and attach properties. They route the
-data into analytics and warehouses, then reuse it in experiments and operational
-tools. Event tracking is the capture layer behind
-[[product analytics]], [[data-led-growth=>data-led growth]],
-[[data activation]], and [[a-b-testing=>A/B testing]].
+instrument those events in product code and attach properties. They route the
+result into analytics, warehouses, experiments, and operational tools. Event
+tracking is the runtime capture layer behind [[product analytics]],
+[[data-led-growth=>data-led growth]], [[data activation]], and
+[[a-b-testing=>A/B testing]].
 
-[[Tracking plans]] define which events should exist and record meaning and
-ownership. Event tracking covers what happens when those definitions become
-running instrumentation. It covers where code emits events and how the event
-source changes the signal. It also follows captured behavior through
-pipelines, dashboards, experiments, and operational tools.
+[[Tracking plans]] define event names and properties before implementation,
+then record owners, review rules, and schema expectations. Event tracking
+starts when those definitions become running code. It covers where the product
+emits events, how identity and properties travel with them, and whether the
+events reach downstream systems. It also covers what breaks when
+instrumentation drifts.
 
 [[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest product-growth
 framing in
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
-He places event tracking after the tracking plan and before storage, analysis,
-and activation.
+He places event tracking after the tracking plan and before warehouse storage,
+analysis, and activation.
 
-[[person:nataliekwong=>Natalie Kwong]] adds the warehouse-centered view.
-In
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]],
-raw storage and transformations decide whether captured events stay usable.
-Governance and reverse data flows matter too.
+[[person:nataliekwong=>Natalie Kwong]] adds the warehouse-centered view in
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+Raw storage, transformations, and cleanup decide whether captured events stay
+usable.
 
 [[person:jakobgraff=>Jakob Graff]] adds the experiment boundary in
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Behavior events can describe what users did, but causal product decisions need
-randomization and assignment tracking. They also need stable metrics, A/A
+Behavior events can describe what users did. Causal product decisions also need
+randomization and assignment tracking. Teams also need stable metrics, A/A
 tests, and power analysis.
 
-## Instrumented Behavior
+## Running Instrumentation
 
 Event tracking starts when product code emits events for defined product
 moments. Arpit's SaaS examples include signup, email verification, project
@@ -53,21 +53,21 @@ creation, and invoice creation
 Those events become useful only when the runtime signal matches the behavior
 the team intended to capture.
 
-That's why `signup` can't stay vague once it's implemented. A `signup` event
-changes meaning with the code path that emits it. It can represent front-end
-intent or validation success. It can also represent email verification or a
-durable account record.
+A `signup` event changes meaning with the code path that emits it. It can
+represent a clicked button or a submitted form. It can also represent
+validation success, email verification, or a durable account record. The
+[[tracking plans=>tracking plan]] should choose the intended meaning.
 
-The [[tracking plans=>tracking plan]] should define the intended meaning.
-Runtime instrumentation still has to fire in the right place and include the
-right properties. It also has to avoid duplicate or partial signals that make
-dashboards look precise while mixing several behaviors under one name.
+Runtime instrumentation still has to fire in the right place and attach the
+expected user or account identity. It also has to include the properties that
+downstream teams use.
 
-In Arpit's framing, product and growth teams define the behavior they need to
-measure before engineers implement the events. The captured data then flows
-into analytics and activation systems
+In Arpit's framing, product and growth teams decide what behavior they need to
+measure before engineers instrument the events. The team then uses those events
+in analytics and activation systems
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>tracking-plan discussion]]).
-For schema rules, required properties, and ownership, see [[tracking plans]].
+See [[tracking plans]] for naming rules, required properties, review owners, and
+change control.
 
 ## Client-Side and Server-Side Events
 
@@ -76,8 +76,8 @@ changes the meaning of an event. Client-side events fit attempts, clicks, page
 interactions, and user-interface behavior. Server-side events fit completed
 business actions such as successful signup or project creation
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>data-led growth]]).
-Many teams need both, but they shouldn't treat both as the same source of
-truth.
+Many teams need both, but a click event and a completed-account event should
+not stand in for each other.
 
 Arpit's fake-signup example shows the debugging value of that distinction. When
 a signup metric spikes, the team needs to trace which event source fired. The
@@ -90,10 +90,11 @@ the dashboard while looking at different meanings of the same event name.
 ## Product Analytics and Experiments
 
 [[Product analytics]] depends on event tracking because funnels and cohorts
-start from behavior data. Retention curves, activation metrics, and engagement
-analysis do too. Arpit places product analytics after collection and storage.
-Events flow into warehouses, product analytics tools, and BI tools. Teams then
-analyze acquisition, activation, retention, and engagement
+start from behavior data. Retention curves, activation metrics, engagement
+analysis, and product-qualified signals do too. Arpit places product analytics
+after collection and storage. Events flow into warehouses, product analytics
+tools, and BI tools. Teams then analyze acquisition, activation, retention, and
+engagement
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@22:50=>collection-to-analysis flow]]).
 
 Product analysts often work at that boundary. The [[Product Analyst]] guide
@@ -111,7 +112,7 @@ runtime requirements for assignment, exposure, outcome, and segment events that
 stay stable enough to support causal claims. For the broader measurement topic,
 see [[experimentation and causal inference]].
 
-## Warehouse Modeling and Data Quality
+## Pipelines and Data Quality
 
 Event tracking doesn't end at collection. Natalie explains the downstream side
 of the stack in the modern-data-stack episode. She covers raw storage,
@@ -129,7 +130,8 @@ cover the journey points needed for acquisition, activation, and retention
 Too many emitted events create noisy pipelines and unused data. Too few emitted
 events leave analysts unable to explain where users drop off. The runtime
 question is whether each event still reaches storage, transformations, and
-downstream tools with the fields the tracking plan expects.
+downstream tools with the identity and fields the
+[[tracking plans=>tracking plan]] expects.
 
 Natalie's governance and cleanup discussion extends that quality work after
 ingestion. Teams need guardrails around freshness, structure, and cleanup before
@@ -142,10 +144,10 @@ and [[modern data stack]] work.
 ## Activation and Reverse ETL
 
 Event tracking becomes more valuable when teams use events outside analytics
-tools. Arpit describes activation as making product and customer data available
-in support, sales, engagement, and product experiences. A support agent can see
-customer usage. A sales team can prioritize product-qualified accounts. A
-growth team can personalize onboarding or lifecycle messages
+tools. Arpit describes activation as making product and customer behavior
+available in support, sales, engagement, and product experiences. A support
+agent can see customer usage. A sales team can prioritize product-qualified
+accounts. A growth team can personalize onboarding or lifecycle messages
 ([[cite:data-led-growth-event-tracking-and-reverse-etl@30:03=>data-led growth]]).
 
 Arpit places [[Reverse ETL]] after warehouse storage and transformation. He
@@ -164,24 +166,24 @@ control over transformations and definitions. The bundled route can be faster
 for marketing and growth teams, but it can hide modeling and governance
 decisions that still affect customer-facing actions.
 
-## Runtime Changes
+## Runtime Failures and Changes
 
-Arpit names data engineers and analysts in the data-led growth stack. He also
-names analytics engineers and product operations. He emphasizes documentation
-and data literacy because event definitions have to survive handoffs
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>team structure and literacy]]).
+A runtime failure often looks like a business change until someone traces the
+emitted signal. A release can move a firing point, and a front-end event can
+count failed attempts as completed actions. A property can disappear before a
+funnel, segment, or support view uses it.
 
-Runtime changes matter because event edits rarely stay in one dashboard. A
-renamed event or moved firing point can reach experiments and operational
-tools. Missing properties and changed sources can affect support views,
-lifecycle messaging, and product experiences. Event-tracking owners need to
-know which downstream tables or segments depend on the emitted signal and
-whether a release changed what the event now captures.
+Arpit's signup-spike example is the practical case. The team has to ask which
+event fired and where it fired. It also has to ask whether the event
+represented real users or automated accounts
+([[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>anomaly investigation]]).
 
-The governance rules for approving those changes belong in [[tracking plans]].
-Event-tracking owners still need to check the implementation. The emitted event
-has to arrive, include the expected properties, and represent the behavior
-downstream teams are using.
+Event edits rarely stay in one dashboard. A renamed event or moved firing point
+can affect experiments, lifecycle messages, product-qualified-account lists,
+and customer-facing product experiences. The governance rules for approving
+those edits belong in [[tracking plans]]. The runtime owner still has to verify
+that the emitted event arrives, includes the expected properties, and represents
+the behavior downstream teams use.
 
 The practical boundary between guests is useful. Arpit starts from product and
 growth teams that need behavior data they can act on. Natalie starts from
@@ -191,3 +193,16 @@ Together, those discussions put event tracking at the junction of
 [[tracking plans]] and [[product analytics]]. They also tie it to
 [[data activation]], [[reverse ETL]], and
 [[experimentation-and-causal-inference=>experimentation]].
+
+## Related Pages
+
+Event tracking connects the runtime signal to these adjacent topics:
+
+- [[Tracking Plans]]
+- [[Data-Led Growth]]
+- [[Product Analytics]]
+- [[Data Activation]]
+- [[Reverse ETL]]
+- [[Customer Data Platforms]]
+- [[A/B Testing]]
+- [[Experimentation and Causal Inference]]

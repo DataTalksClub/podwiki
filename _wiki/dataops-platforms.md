@@ -17,9 +17,9 @@ related:
 ---
 
 A DataOps platform is the shared system surface for operating data changes
-across teams. It gives teams a supported path for pipeline releases and
-orchestration changes. It also covers tests and observability. Lineage,
-ownership, access, and recovery stay in the same path.
+across teams. It connects pipeline releases and orchestration changes. It also
+keeps tests, observability, lineage, and ownership in the same path as access
+and recovery.
 
 For the practice layer, start with [[DataOps]]. For shared systems, use the
 platform and tooling surfaces here.
@@ -30,34 +30,33 @@ continuous deployment and self-service. With those pieces in place, other teams
 can build pipelines without routing each change through the central platform team
 [[cite:dataops-principles-and-scalable-data-platforms@11:50=>DataOps 101 for Scaling Data Platforms]].
 
-Christopher Bergh starts from the reliability side. Platform capabilities
-matter when they help teams automate and test data work. Teams then monitor and
-improve that work so they reduce errors, shorten deployment cycles, and keep
-productivity high
+Christopher Bergh starts from the reliability side. Platform capabilities matter
+when they automate tests, monitoring, and improvement paths so teams can reduce
+errors and shorten deployment cycles
 [[cite:dataops-automation-and-reliable-data-pipelines@06:42=>Mastering DataOps]].
 
 Data teams meet this platform question at the overlap between [[DataOps]] and
-[[Data Engineering Platforms]]. DataOps defines the operating expectations.
-Platform teams turn those expectations into shared infrastructure for pipeline
-and warehouse changes. They also support access, observability, and recovery
-changes.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[Data Engineering Platforms]]. Platform teams turn reliable-delivery practice
+into shared infrastructure for pipeline and warehouse changes. They also
+support access, observability, and recovery changes.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 [[Data Engineering Platforms]] owns the shared storage, compute, workflow, and
-self-service foundation. DataOps platforms own release gates and observability.
-They also own access workflows, recovery paths, and runbooks.
+self-service foundation. DataOps platforms own release gates and observability
+integrations. They also own access workflows, recovery paths, and runbooks that
+make those systems operable.
 
 Individual tool categories belong in [[DataOps Tools]]. Enablement for
 analysts, data scientists, software engineers, and domain teams belongs in
 [[self-service-data-platforms=>Self-Service Data Platforms]]. Cross-team
 ownership belongs in [[dataops-engineer-role=>DataOps Engineer Role]].
 
-## Shared Platform Boundary
+## Platform Components
 
 DataOps platform teams standardize the route from source change to trusted
-output. They include systems for review and testing. They also include
-deployment, observation, and repair paths. Warehouse or lakehouse storage sits
-beside orchestration and CI/CD. Test suites and catalogs extend the same route.
-Lineage, access workflows, and runbooks do too.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+output. The shared surface usually includes orchestration, CI/CD, and test
+suites. It also includes catalogs, lineage, access workflows, and runbooks.
+Warehouse or lakehouse storage sits next to that route through the broader
+[[Data Engineering Platforms]] foundation.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 The platform boundary is broader than a scheduler and narrower than all data
 infrastructure. Albertsson reduces the core technical platform to storage plus
@@ -66,7 +65,7 @@ because it records dependencies. It also reruns steps when data is late or a bug
 appears, keeping transformations reproducible
 [[cite:dataops-principles-and-scalable-data-platforms@30:34=>DataOps 101 for Scaling Data Platforms]].
 Metadata, quality checks, ownership, and recovery paths make those recurring
-changes operable.
+pipeline changes operable.
 
 A tool helps with one category of work. A platform connects several categories
 so many teams can use the same release and recovery path. DataOps software can

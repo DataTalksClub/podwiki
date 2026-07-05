@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11987
+    "links": 11984
   },
   "nodes": [
     {
@@ -9724,7 +9724,7 @@
       "title": "Founder",
       "url": "/wiki/founder/",
       "count": 1,
-      "search": "Founder How founders choose problems, validate demand, set product boundaries, hire, distribute products, and make revenue decisions."
+      "search": "Founder How founders make operator decisions: choosing problems, validating demand, selling, hiring, funding, bootstrapping, and taking responsibility."
     },
     {
       "id": "wiki:freelance-data-and-ml-careers",
@@ -10605,7 +10605,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Startup company context for data and AI work: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
+      "search": "Startups Startup context for data and AI work: stages, constraints, team shape, product market fit, MLOps choices, and open source boundaries."
     },
     {
       "id": "wiki:streaming",
@@ -71030,12 +71030,6 @@
     },
     {
       "source": "wiki:orchestration",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:orchestration",
       "target": "person:nataliekwong",
       "kind": "wiki-chip",
       "weight": 1
@@ -81890,12 +81884,6 @@
     },
     {
       "source": "wiki:tracking-plans",
-      "target": "podcast:ab-testing-and-product-experimentation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:tracking-plans",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -81965,12 +81953,6 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:tracking-plans",
-      "target": "wiki:dataops",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:tracking-plans",

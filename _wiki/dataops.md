@@ -35,11 +35,9 @@ DataOps operates upstream datasets, transformations, and feature pipelines. The
 boundary matters most when a model incident may have started in data delivery.
 
 See [[MLOps vs DataOps]] and [[DataOps vs Data Engineering]] when the boundary
-question is ownership, not tool choice. Use [[DataOps Tools]] when the question
-is which tool categories support the practice. Use [[DataOps Platforms]] when
-review and release paths become shared system surfaces. When observability,
-access, and recovery become shared surfaces, [[DataOps Platforms]] is the
-better target.
+question is ownership, not tool choice. Use [[DataOps Tools]] for tool
+categories and [[DataOps Platforms]] when teams need shared release,
+observability, access, and recovery surfaces.
 
 Use the [[dataops-engineer-role=>DataOps engineer role]] page when one person
 or team owns the operating path across other data teams. Use
@@ -56,10 +54,10 @@ consume data, they need reproducible paths
 DataOps is the practice layer, not a new job title or a synonym for
 [[Data Engineering]]. Version control, tests, and CI/CD guide release work.
 Observability, ownership, and recovery keep pipelines and data products reliable
-after release. When one person has to own that practice across teams, it becomes
-the [[dataops-engineer-role=>DataOps engineer role]]. When the same practice is
-packaged into shared infrastructure, it becomes a
-[[DataOps Platforms=>DataOps platform]].
+after release. When one person owns that practice across teams, it becomes the
+[[dataops-engineer-role=>DataOps engineer role]]. When teams package the
+practice into shared infrastructure, the tooling discussion moves to
+[[DataOps Platforms]].
 
 [[book:20210913-dataops-for-dummies=>DataOps for Dummies]]
 by Justin Mullen and Guy Adams gives a short overview of the same operating
@@ -134,18 +132,15 @@ paths, see [[DataOps Platforms]]. For individual categories, see
 ## Pipeline Delivery and CI/CD
 
 DataOps applies to ingestion, transformation, orchestration, and analytics
-delivery.
-
-ETL contrasts with ELT, and teams move transformation work into the warehouse
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-Airflow, dbt, and orchestration cover the scheduling surface
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-CDC and schema evolution show why data teams need repeatable change handling
+delivery because ETL and ELT decisions determine where transformations run.
+Warehouse modeling, CDC, and schema evolution add more changes that teams have
+to review and recover
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 The DataOps layer makes those engineering choices operable. Teams review SQL
 models and ingestion jobs, plus scheduler definitions and infrastructure
-changes that affect consumers.
+changes that affect consumers. For the tool taxonomy behind those choices, use
+[[DataOps Tools]] and [[Data Engineering Tools]].
 
 Teams run tests with realistic data, deploy through repeatable release paths,
 and keep a rerun or rollback plan for failed jobs. CI/CD and regression tests
@@ -172,12 +167,10 @@ because the same use-case list has to survive delivery, measurement, and
 reprioritization
 [[cite:data-strategy-and-dataops-for-ai-powered-products@18:56=>Strategy delivery]].
 
-This is where [[Orchestration]],
-[[ci-cd=>CI/CD]], and
-[[Data Engineering Platforms]]
-connect to DataOps. Another person should be able to review a data change,
-test it, and deploy it. They should also be able to observe its outputs and
-rerun it after failure without reverse-engineering the whole pipeline.
+This is where [[Orchestration]] and [[ci-cd=>CI/CD]] connect to DataOps.
+Another person should be able to review a data change, test it, and deploy it.
+They should also be able to observe its outputs and rerun it after failure
+without reverse-engineering the whole pipeline.
 
 The supported path works only when the whole team can review and test changes.
 They should also be able to deploy, observe, and rerun production jobs without
@@ -218,18 +211,19 @@ For the tooling layer across checks, alerts, and runbooks, see
 
 DataOps becomes platform work when many teams need the same reliable path for
 pipeline, warehouse, access, and recovery changes. Albertsson connects DataOps
-to self-service through workflows and tooling. He also includes continuous
-deployment and platform support
+to self-service through workflows, tooling, continuous deployment, and platform
+support
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 Self-service still has to preserve ownership, reproducibility, and quality. An
 Airflow cluster alone doesn't give teams a reliable operating path. Teams also
 need naming conventions and sequencing rules. Schema contracts, onboarding
-habits, and playbooks make the path clearer
+habits, and playbooks make the path usable across teams
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 
-Use [[DataOps Platforms]] for the shared infrastructure question. It covers
-release paths, observability, governance, and recovery across teams.
+Use [[DataOps Platforms]] for platform components, release paths, and
+observability integrations. Use it too for governance, access, self-service,
+and managed-versus-built platform choices.
 [[self-service-data-platforms=>Self-Service Data Platforms]] covers the safer
 path for analysts, data scientists, software engineers, and domain teams.
 

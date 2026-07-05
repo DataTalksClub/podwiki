@@ -26,14 +26,13 @@ related:
 
 Apache Airflow is the concrete orchestrator for recurring data and
 machine-learning work that needs DAGs and job schedules. Teams use it when they
-need dependency state, retries, logs, and backfills. Use this page for Airflow
-details such as DAG design, job scheduling, local Docker setups, and shared
-Airflow infrastructure.
+need dependency state, retries, logs, and backfills. Airflow-specific questions
+usually involve DAG design and scheduler/executor behavior. They also involve
+local Docker setups, backfills, and shared Airflow infrastructure.
 
 [[Orchestration]] covers the broader control-plane concept. Use it when the
-question is whether a workflow needs a real orchestrator or a lighter
-scheduler. It also compares Airflow with workflow engines, CI/CD, cloud
-schedulers, and ML pipeline services.
+question is how teams coordinate dependencies, schedules, and recovery across
+tools.
 [[Data Pipelines]] describes the source-to-output system Airflow coordinates,
 and [[How to Build Data Pipelines]] gives the build sequence. Guests mention
 Airflow most often around
@@ -90,40 +89,37 @@ In that framing, Airflow stays inside
 because a green DAG run proves that tasks finished. It doesn't prove the data
 is fresh, complete, valid, or useful.
 
-## Airflow Operating Surface
+## Airflow Fit
 
-Airflow is the common reference point for orchestration, but the interviews do
-not treat it as the default answer for every scheduled job. If the question is
-whether a workflow needs any orchestrator, start with [[Orchestration]]. If the
-question is how Airflow should coordinate, operate, or expose an existing
-pipeline, stay here.
-
-Airflow can be the scheduler around a modern analytics stack without owning
-ingestion or transformation. Separating Airflow from Airbyte and dbt keeps
-orchestration distinct from extract-load and warehouse transformation work.
+Airflow fits when a team wants a shared scheduler and run-history surface
+around existing data work. In a modern analytics stack, Airflow can schedule
+Airbyte and dbt without taking over extract-load or warehouse transformation.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-Platform reliability discussions put Airflow and Luigi in the workflow-engine
-category. Inside Airflow, that means the team owns the scheduler, executor, and
-workers. The team also owns the metadata database, web UI, connections, and
-logs. Python dependencies, secrets, and deployment process need owners too. The
-important point is dependency control, recovery, and reproducible operations,
-not the brand of the orchestrator.
+Platform reliability discussions place Airflow and Luigi in the workflow-engine
+category. In Airflow, the team runs the scheduler and executor. It also runs
+workers and the metadata database.
+
+The team also owns the web UI and connections. Logs need owners too, along with
+Python dependencies and secrets. Deployment steps need the same ownership.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Operating cost also includes the human side of a shared platform. A team that
-turns Airflow into a self-service surface needs conventions, templates,
-playbooks, and onboarding. Otherwise similar DAGs get copied by hand and
-become hard to control. That puts shared Airflow close to
+Airflow can also become a self-service surface. Then the platform team needs
+conventions, templates, playbooks, and onboarding so similar DAGs don't get
+copied by hand. That puts shared Airflow close to
 [[self-service-data-platforms=>self-service data platforms]] and
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Simple workflows may not need Airflow. Use Airflow when the team needs shared
-logging, dependency state, reruns, and recovery. Those needs should justify
-Airflow's scheduler and executor. They should also justify the metadata
-database, workers, connections, and deployment process. Use [[Orchestration]]
-for the broader tool-choice comparison.
+Airflow alternatives matter when the operating surface is heavier than the
+workflow. A one-script project may start with GitHub Actions or a cloud
+scheduler. On AWS, CloudWatch and Lambda can be enough.
+
+Prefect, Dagster, and Luigi can fit adjacent orchestration needs. For ML
+workflows, SageMaker Pipelines or Kubeflow Pipelines may fit. Kubernetes can be
+the runtime under a heavier setup. Use Airflow when shared logging, dependency
+state, reruns, and recovery justify its services and deployment work. Use
+[[Orchestration]] for the broader scheduling comparison.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]

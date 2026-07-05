@@ -12,20 +12,21 @@ related:
   - Data Quality and Observability
 ---
 
-Orchestration is the control-plane practice for recurring data and ML work
-across tools. It decides when jobs run and which upstream work must finish
-first. It also decides what should retry after a transient failure and which
-run history the team can look at later.
+Teams use orchestration as the control plane for recurring data and ML work
+across tools. An orchestrator decides when jobs run and which upstream work
+must finish first. It also records what should retry after a transient failure
+and which run history the team can look at later.
 
-The broader orchestration concept spans workflow engines and CI/CD systems. It
-also covers cloud schedulers and ML pipeline services. The control-plane work
-includes schedules and dependencies. It also includes run state, recovery,
-backfills, and tool choice.
+The broader concept spans workflow engines, CI/CD systems, cloud schedulers,
+and ML pipeline services. Across those tools, teams coordinate schedules and
+dependencies while tracking run state and recovery. They also track backfills
+and ownership.
 
-[[Apache Airflow]] covers tool-specific DAG files and local Docker setup. It
-also covers scheduler and executor behavior, metadata, logs, and shared
-Airflow deployments. [[Data Pipelines]] describes the source-to-output system,
-and [[How to Build Data Pipelines]] gives the procedural build order.
+For the Airflow-specific version, use [[Apache Airflow]] for DAG files and local
+Docker setup. It also covers scheduler/executor behavior and metadata. Logs and
+shared deployments stay there too. [[Data Pipelines]] describes the
+source-to-output system, and [[How to Build Data Pipelines]] gives the
+procedural build order.
 
 [[person:larsalbertsson=>Lars Albertsson]] gives the
 clearest platform definition. He places storage and compute next to a workflow
@@ -33,11 +34,10 @@ engine at the center of a data platform. The workflow engine defines
 dependencies and schedules work when data arrives or on a timer. It retries
 when late data, transient infrastructure, or bugs break a run [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-That makes orchestration broader than [[Apache Airflow]]. Airflow is a common
-orchestrator, alongside Luigi, Prefect, and Dagster. Mage appears in the same
-tool family. GitHub Actions and
-cloud schedulers can serve the control-plane role for narrower workflows. AWS
-Batch, SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines can too.
+That makes orchestration broader than [[Apache Airflow]]. Airflow and Luigi are
+workflow engines, and Prefect, Dagster, and Mage sit in the same family. GitHub
+Actions and cloud schedulers can coordinate narrower workflows. AWS Batch,
+SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines can too.
 
 The tool choice belongs with [[data engineering platforms]], [[DataOps]], and
 [[data pipelines]]. It also belongs with [[data quality and observability]], not
@@ -98,11 +98,11 @@ teams need alerts and named owners. Data checks before publication, batch ML
 jobs, and conventions for many similar pipelines also push teams toward
 orchestration.
 
-[[person:andreaskretz=>Andreas Kretz]] compares Airflow with CloudWatch
-scheduling and Lambda, and he names containers, ECS, and AWS Batch. He
-recommends starting with simple
-infrastructure and moving toward Airflow or Kubernetes when the team needs more
-logging, insight, and control [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+[[person:andreaskretz=>Andreas Kretz]] gives the lightweight end of that choice
+by comparing workflow engines with CloudWatch scheduling and Lambda. He also
+names containers, ECS, and AWS Batch. Teams can start with simpler
+infrastructure and move to heavier workflow control when they need more logging,
+insight, and control [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 
 ## Schedules, Dependencies, and Retries
 
@@ -154,49 +154,34 @@ the sequence and run state. That's why orchestration belongs next to
 A backfill should tell the team which inputs, code, outputs, and downstream
 consumers changed.
 
-## Tool Choices
+## Scheduling Choices Across Tools
 
-Airflow remains the common reference point. Kwong uses it as an
-orchestrator around Airbyte and dbt [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-Albertsson compares Luigi and Airflow as workflow orchestrators
-inside a broader data platform [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+Guests describe orchestration as a spectrum rather than a single product
+choice. Natalie Kwong shows a workflow engine around Airbyte and dbt
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+Albertsson compares Luigi and Airflow inside a broader platform
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+[[person:santonatuli=>Santona Tuli]] groups Airflow, Prefect, Dagster, and Mage
+as orchestration engines for modern pipelines
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
-[[person:mehdiouazza=>Mehdi OUAZZA]] adds the platform
-operating view. He treats a workflow engine as one platform component, not as
-the whole data platform [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+The same workflow may run as a DAG or CI job. It may also run as a managed
+scheduler, batch job, or ML pipeline. [[person:adrianbrudaru=>Adrian Brudaru]]
+says GitHub Actions can be enough for simple workflows because it avoids the
+cost of always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+[[person:nemanjaradojkovic=>Nemanja Radojkovic]] keeps orchestration in CI/CD
+where possible and chooses Dagster when the workflow needs a real orchestrator
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
-Teams also need naming rules and sequencing conventions. Playbooks and
-templates keep repeated pipelines from becoming copied workflow definitions.
+Kretz gives the AWS version with CloudWatch, Lambda, containers, and ECS. He
+also names AWS Batch, SageMaker, Airflow, and Kubernetes
+[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
+[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]].
 
-Teams have more orchestration options than Airflow. [[person:adrianbrudaru=>Adrian Brudaru]]
-says Airflow is common, with Prefect and Dagster also popular. GitHub Actions
-can be enough for simple workflows because it's serverless and cheaper than
-always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
-
-That tool landscape makes orchestration a cost and complexity choice. The same
-workflow may be a DAG, CI job, or managed scheduler. The choice depends on
-backfills, ownership, and failure recovery needs.
-
-In the 2025 tool landscape, the practical question isn't which orchestrator is
-newest. Airflow, Prefect, Dagster, and GitHub Actions sit on a spectrum. Some
-teams need shared workflow history, while others need cheap serverless
-automation. Small pipelines can use GitHub Actions when failure recovery is
-simple. Teams should pay for heavier orchestration when dependencies, retries,
-and backfills need shared state
-[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
-
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]] gives a
-similar small-team rule. He keeps the stack minimal and uses Python for scripts
-and training. He handles orchestration through CI/CD where possible. He chooses
-Dagster when the workflow needs a real orchestrator [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
-
-[[person:andreaskretz=>Andreas Kretz]] gives the AWS
-version by comparing Airflow with CloudWatch scheduling and Lambda. He also
-names containers, ECS, AWS Batch, and SageMaker in the same comparison [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]].
-
-He recommends starting with simple infrastructure for early projects. Teams can
-move toward Airflow or Kubernetes when they need more logging. Heavier systems
-can wait until the team needs more insight and control [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]].
+The decision turns on shared state. A small pipeline can use serverless
+automation when failure recovery is simple. A team should pay for heavier
+orchestration when dependencies, retries, owners, and backfills need shared
+history.
 
 ## Operating Cost and Alternatives
 
@@ -209,23 +194,13 @@ orchestration decision, not cleanup work after deployment.
 Teams should pay that cost when they share tables, dashboards, features, or
 batch predictions and need central run state. Heavier
 orchestration becomes ceremony when the workflow is one small script, failures
-are easy to rerun manually, and no one needs shared task history. For the
-Airflow-specific version of this cost, use [[Apache Airflow]].
-
-[[person:adrianbrudaru=>Adrian Brudaru]] gives the
-lighter-weight option by naming Airflow alongside Prefect, Dagster, and GitHub
-Actions. GitHub Actions can be enough for simple workflows because it avoids
-the cost of always-on orchestrators [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
-
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]] makes a
-similar startup argument. He keeps orchestration in CI/CD where possible and
-chooses Dagster when the workflow needs a real orchestrator [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+are easy to rerun manually, and no one needs shared task history. [[Apache Airflow]]
+covers the Airflow-specific operating surface.
 
 Use a simpler scheduler when a cloud scheduler can start a container or
 function. It also fits when no backfill workflow exists yet or when the data
-product hasn't proven enough value to justify platform work. Use Airflow or a
-peer orchestrator when dependencies become hard to track informally. Dagster or
-Prefect can fit that heavier role too.
+product hasn't proven enough value to justify platform work. Use a workflow
+engine when dependencies become hard to track informally.
 
 ## ML Pipelines and Batch Inference
 
@@ -326,8 +301,8 @@ orchestrator hides weak ownership
 Then add orchestration when schedules, dependencies, retries, or run history
 become part of the problem. Backfills belong in the same decision. A learner
 can prove the concept with any tool that shows the sequence, failure mode,
-recovery path, and data checks. Use [[Apache Airflow]] for the local Docker
-Compose and DAG-specific learning path.
+recovery path, and data checks. Use [[Apache Airflow]] for DAG-specific learning
+and local Docker Compose.
 
 Pin container dependencies when they prove reproducibility
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].
@@ -346,14 +321,13 @@ shared:
 Mehdi's platform point applies here too. The workflow engine is only one
 platform component [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
-A useful orchestration project therefore shows more than a workflow screenshot.
-It shows why one step waits for another and what happens when an input is late.
-It also shows how a failed partition reruns and how a historical window
-backfills. The project should show which data checks guard publication and who
-owns the alert.
+A useful orchestration project shows more than a workflow screenshot. It shows
+why one step waits for another and what happens when an input is late. It also
+shows how a failed partition reruns and how a historical window backfills. The
+project should show which data checks guard publication and who owns the alert.
 
 The work may still be one script with one simple schedule. In that case,
-Brudaru's GitHub Actions example may fit better than a full Airflow deployment [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+Brudaru's GitHub Actions example may fit better than a full workflow engine [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
 
 Kretz's CloudWatch and Lambda path may fit too [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 Nemanja's CI/CD-first startup path is another small-team option [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].

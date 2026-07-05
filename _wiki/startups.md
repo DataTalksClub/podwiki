@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Startups"
-summary: "Startup company context for data and AI work: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
+summary: "Startup context for data and AI work: stages, constraints, team shape, product-market fit, MLOps choices, and open-source boundaries."
 related:
   - Founder
   - Entrepreneurship
@@ -22,10 +22,12 @@ teams appear too.[[cite:building-mlops-startup=>ML Startup]]
 [[cite:launch-and-build-retail-startup=>FreshFlow]]
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking]]
 
-Startup context includes stage, constraints, use cases, and operating
-environments. For role-level decisions behind the company, read
-[[founder=>Founder]]. Founder covers problem choice and validation. It also
-covers hiring, distribution, and revenue. Adjacent paths include
+Startup context includes stage constraints, use cases, and team structure. It
+also covers operating environments.
+
+For role-level decisions behind the company, read [[founder=>Founder]] instead
+of this page. It covers problem choice and validation. It also covers hiring
+and distribution, plus fundraising, bootstrapping, and revenue. Adjacent paths include
 [[entrepreneurship]], [[freelance]], [[data product management]], and
 [[open-source-and-developer-relations=>open-source developer relations]].
 
@@ -34,16 +36,15 @@ covers hiring, distribution, and revenue. Adjacent paths include
 Startup companies in these episodes learn around a user workflow and the limits
 of their stage. Some sell infrastructure or vertical AI products. Others
 package open-source developer tools, consulting, or bootstrapped side products.
-Teams turn repeated pain into a small product boundary and then test whether
-users will change behavior or pay for it.[[cite:building-mlops-startup=>ML]]
+The company question is whether repeated pain can support a focused product,
+team, and go-to-market motion.[[cite:building-mlops-startup=>ML]]
 
-Technical strength is necessary but not sufficient, so startup teams still need
-customer interviews and domain immersion. They also need distribution and
-pricing. Data access, regulatory fit, and stage-aware engineering choices matter
-too.[[cite:lean-mlops-for-startups=>Lean MLOps]]
+Technical strength is necessary but not sufficient. Startup teams also work
+inside data-access limits and regulatory fit. Pricing pressure, distribution
+constraints, and stage-aware engineering choices matter too.[[cite:lean-mlops-for-startups=>Lean MLOps]]
 [[cite:building-ai-digital-health-startups=>Digital Health]]
 
-## Discovery Sets Company Scope
+## Workflows Set Company Scope
 
 Data and AI startups learn inside a business setting. A team that starts from a
 generic machine learning idea may miss the operational constraint that blocks
@@ -65,20 +66,14 @@ Customer evidence should still be able to change the company boundary, not only
 the feature list.
 
 Product discovery matters because data products fail when the team automates the
-wrong decision. Evidently consulted roughly 50 people before building and more
-than 100 during early development. Those conversations surfaced repeated pain
-around broken models, abandoned monitoring, and production systems nobody
-watched.[[cite:building-mlops-startup=>ML Startup]] The [[founder=>Founder]] page
-covers validation as a founder responsibility. For the startup, the same
-evidence controls scope.
+wrong decision. Evidently's customer conversations surfaced repeated pain around
+broken models, abandoned monitoring, and production systems nobody watched.
+[[founder=>Founder]] covers those interviews as a founder responsibility. For
+the startup, the same evidence controls scope and product-market fit.[[cite:building-mlops-startup=>ML Startup]]
 
-A reusable interview routine asks about the customer's current workflow and
-recent incidents. It also asks about consequences and problem frequency. Those
-questions move the conversation away from "would you buy this?" and toward
-observable evidence.[[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting]]
 Startup discovery is part of [[data product management]]. The team has to
 understand the user, the decision, and the cost of the current workflow before
-it builds a roadmap.
+it treats a roadmap as company direction.[[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting]]
 
 In a DLT workshop, participants built an incremental pipeline with checkpoints,
 live support, and a shared development environment. Their questions showed where
@@ -154,9 +149,9 @@ monitoring and deployment skill. A freelance data science course project using
 MLflow, Prefect, and Grafana shows how that skill can grow through a small
 monitoring system[[cite:from-startup-engineering-to-freelance-data-science=>Freelance DS]].
 
-## Distribution Depends on Trust
+## Open-Source Boundaries and Trust
 
-For open-source and developer-tool startups, distribution belongs inside product
+For open-source and developer-tool startups, distribution belongs inside company
 strategy. Open source helped Evidently reach engineers and data scientists who
 needed to try monitoring pieces before buying a managed product. It also fit
 teams with sensitive data or on-premise constraints[[cite:building-mlops-startup=>ML Startup]].
@@ -171,24 +166,21 @@ repository adoption and documentation become part of the sales path. Examples
 and community feedback matter too.
 
 The investor view treats open source as community-driven distribution and
-bottom-up adoption. Investors still weigh the team and market need. They also
-weigh commercialization, user interviews, and real engagement[[cite:investing-in-open-source-developer-tools=>OSS Investing]].
+bottom-up adoption. Investors still weigh team quality and market need. They
+also weigh commercialization, user interviews, and real engagement[[cite:investing-in-open-source-developer-tools=>OSS Investing]].
 
 GitHub stars can help discovery, but they don't replace proof that developers
-use the tool or prove that a business can capture value. Rich and Textualize
-show the company-level version of that path. Visible open-source traction can
-start investor conversations when the tool has a developer audience and a
-credible product direction. [[founder=>Founder]] covers the founder credibility
-and public-work decisions in that path.[[cite:open-source-turned-into-career-and-startup-creation@28:08=>Textualize]]
+use the tool. They also don't prove that a business can capture value. Rich and
+Textualize show the company-level version of that path. Visible open-source
+traction can start investor conversations when the tool has a developer
+audience and a credible product direction.
 
-That route depended on public explanation as much as repository activity. Rich
-and Textual were easy to show, so build-in-public updates could include screenshots,
-videos, and explanations. Those updates made the startup legible to developers,
-contributors, and investors before the company had a long enterprise sales
-history[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Textualize building in public]].
-Viral reach still needed interpretation: stars and retweets helped discovery
-only when they reached the right developer niche and produced feedback or usage
-signals[[cite:open-source-turned-into-career-and-startup-creation@50:05=>Textualize reach]].
+Screenshots and videos made the company legible to developers and contributors.
+Explanations helped investors understand it before it had a long enterprise
+sales history.
+[[founder=>Founder]] covers the founder credibility and public-work decisions in
+that path.[[cite:open-source-turned-into-career-and-startup-creation@28:08=>Textualize]]
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>Textualize building in public]]
 
 ## Non-Venture Paths and Startup Careers
 
@@ -197,17 +189,20 @@ from freelance data engineering work where warehouse and JSON ingestion
 problems kept appearing. Stakeholder alignment problems kept appearing too.
 Early funding came from savings, consulting revenue, and design-partner
 work[[cite:from-data-freelancer-to-startup-open-source-products=>DLT Startup]].
-Freelancers can treat [[freelance]] work as startup evidence, not just a
-separate career path.
 
-A smaller bootstrapped route covers company setup and landing pages. It also
-covers legal work, payments, and Python/Flask architecture. Marketing channels
-and operating costs matter too[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie]].
+Freelancers can treat [[freelance]] work as startup evidence, not just a
+separate career path. [[founder=>Founder]] covers the operator decision to turn
+that evidence into a product company.
+
+A smaller bootstrapped route changes company constraints. Legal setup and
+payments matter alongside Python/Flask architecture and marketing channels.
+Operating costs and pricing matter before a side product can behave like a
+company[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie]].
 
 UnrealMe compares API fine-tuning with self-hosted GPUs and shows pricing
 constraints for generative AI products[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking]].
-At that scale, builders still decide what to build and how to ship. They also
-decide how much the product costs to run and how users find it.
+At that scale, running cost and niche marketing constrain what the company can
+offer.
 
 People also use startups as career environments. A four-person team can offer
 topic fit and variety, but it requires communication, business learning, and
@@ -217,11 +212,10 @@ Open-source and freelance work can broaden data careers.[[cite:from-startup-engi
 The solo-business version of that broad data role is
 [[solopreneur-data-scientist=>solopreneur data scientist]].
 
-Textualize shows the opposite direction too. Public open-source work can become
-the hiring surface for the startup. Contributions and public code aren't
-mandatory for every hire. They let a founder look at real work and real
-collaboration before the interview loop becomes abstract
-[[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signals]].
+Textualize adds a hiring route. Public open-source work can become the hiring
+surface for the startup. Contributions and public code aren't mandatory for
+every hire. They give the team real work and collaboration to evaluate before
+interviews become abstract[[cite:open-source-turned-into-career-and-startup-creation@44:38=>Textualize hiring signals]].
 
 ## Related Pages
 
