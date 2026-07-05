@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Software Engineer to ML"
+keyword: "software engineer to machine learning"
 summary: "A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
 related_wiki:
   - Career Transitions in Data

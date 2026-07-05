@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Marketer to Analytics Engineer"
+keyword: "marketing to analytics engineering"
 summary: "How marketers can move into analytics engineering with SQL, BI, dbt, product analytics, dashboards, and metric ownership."
 related_wiki:
   - Career Transitions in Data

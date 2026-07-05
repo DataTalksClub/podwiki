@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Researcher to Data Science"
+keyword: "academic researcher to data science"
 summary: "How researchers and PhDs translate academic data work into data science, applied ML, data engineering, and research software roles."
 related_wiki:
   - Academia

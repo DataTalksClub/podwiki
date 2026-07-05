@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Nontraditional AI Engineering"
+keyword: "nontraditional paths to ai engineering"
 summary: "How career breaks, medicine, freelancing, semiconductors, and startups can become credible AI engineering proof."
 related_wiki:
   - Career Transitions in Data

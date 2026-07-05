@@ -2,6 +2,7 @@
 layout: article
 tags: ["roadmap"]
 title: "Data Scientist Interview Plan"
+keyword: "data scientist interview"
 summary: "Prepare for data scientist interviews by targeting the right role, proving CV and project impact, and practicing screens, cases, stories, and offers."
 related_wiki:
   - Data Scientist Role

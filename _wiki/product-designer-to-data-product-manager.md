@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Product Designer to Data PM"
+keyword: "product designer to data product manager"
 summary: "How product designers can move into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
 related_wiki:
   - Career Transitions in Data

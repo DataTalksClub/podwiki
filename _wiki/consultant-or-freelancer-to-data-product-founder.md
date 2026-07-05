@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Services to Product Founder"
+keyword: "consultant to product founder"
 summary: "How consultants and freelancers turn repeated data problems into reusable products, open-source tools, or startup paths."
 related_wiki:
   - Freelance

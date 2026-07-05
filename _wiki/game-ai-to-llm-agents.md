@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Game AI to LLM Agents"
+keyword: "game ai to llm agents"
 summary: "How Micheal Lanham connects game AI, reinforcement learning, multi-agent workflows, support assistants, and modern LLM agents."
 related_wiki:
   - Agent Engineering

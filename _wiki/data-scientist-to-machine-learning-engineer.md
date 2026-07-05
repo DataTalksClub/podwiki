@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "Data Scientist to ML Engineer"
+keyword: "data scientist to machine learning engineer"
 summary: "How data scientists move into ML engineering with reviewable code, shipped artifacts, production-minded projects, and stronger interview stories."
 related_wiki:
   - Career Transitions in Data

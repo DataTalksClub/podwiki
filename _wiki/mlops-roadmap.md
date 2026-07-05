@@ -2,6 +2,7 @@
 layout: article
 tags: ["roadmap"]
 title: "MLOps Roadmap"
+keyword: "mlops roadmap"
 summary: "MLOps learning and rollout order from reproducible experiments to deployment, monitoring, retraining decisions, and shared platform adoption."
 related_wiki:
   - MLOps

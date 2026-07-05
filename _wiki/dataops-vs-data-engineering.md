@@ -2,6 +2,7 @@
 layout: article
 tags: ["comparison"]
 title: "DataOps vs Data Engineering"
+keyword: "dataops vs data engineering"
 summary: "Comparison of day-to-day ownership: data engineering builds pipelines; DataOps makes changes safe to review, run, observe, and recover."
 related_wiki:
   - DataOps
