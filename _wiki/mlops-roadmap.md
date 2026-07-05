@@ -177,7 +177,10 @@ Start monitoring with input quality, prediction distributions, service errors,
 and latency. Then add one business or proxy outcome.
 
 Production model monitoring should trace failures back to upstream data jobs
-and pipelines
+and pipelines. Use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+when that trace needs an ownership split between model drift and pipeline
+reliability
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 Live test sets, small A/B tests, and stakeholder impact make the response path
 operational. Post-mortems, feature drift, and logging keep the team focused on

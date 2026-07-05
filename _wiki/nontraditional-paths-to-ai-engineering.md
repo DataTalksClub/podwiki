@@ -154,7 +154,9 @@ detection.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-dat
 The AI-relevant skill is problem framing. Dog health monitoring is anomaly
 detection rather than simple classification. Sofya's design uses IMU, activity,
 and sleep signals. It also uses population models for coarse labels. Each dog
-also needs a learned baseline before deviations become meaningful.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Dog Health as Anomaly Detection]]
+also needs a learned
+[[Sensor ML Personal Baselines=>personal baseline]]
+before deviations become meaningful.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Dog Health as Anomaly Detection]]
 
 AI engineers can reuse that move when they choose the task, collect the right
 signals, define "normal," and design for messy real-world variation.

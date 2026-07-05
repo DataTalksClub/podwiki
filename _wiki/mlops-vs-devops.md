@@ -199,8 +199,10 @@ Keep two monitoring views separate:
 
 The boundary matters during incidents. If a model API is down, the team starts
 with DevOps-style service checks. If the API is healthy but prediction quality
-falls, the team needs model monitoring and data observability. The investigation
-then follows model failures upstream into ETL and data pipelines
+falls, use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+to split model-specific alerts from upstream data reliability. The
+investigation then follows model failures upstream into ETL and data pipelines
 ([[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
 The model alert may start in MLOps, but the root cause may sit in a feature job

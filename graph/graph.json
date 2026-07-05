@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11976
+    "links": 11985
   },
   "nodes": [
     {
@@ -37358,6 +37358,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -37665,6 +37671,12 @@
     {
       "source": "wiki:data-engineering-tools",
       "target": "wiki:delta-lake",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:entity-resolution",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58064,6 +58076,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -58343,6 +58361,12 @@
       "target": "wiki:ai-red-teaming",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:llm-deployment",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -66794,6 +66818,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:model-registry",
       "kind": "article-chip",
       "weight": 1
@@ -67385,6 +67415,12 @@
       "target": "wiki:model-monitoring",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-devops",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69087,6 +69123,12 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "article-chip",
       "weight": 1
     },
@@ -70877,6 +70919,12 @@
       "target": "wiki:documentation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
@@ -76709,6 +76757,12 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:retrieval-augmented-generation",

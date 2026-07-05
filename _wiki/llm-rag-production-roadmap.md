@@ -150,8 +150,9 @@ and human labels
 ## Harden Serving, Cost, and Security
 
 The final roadmap stage is readiness for real users. Before expanding access,
-the team should choose a serving path, expose cost and latency, and define the
-security review and incident path. Open-source and API choices define that gate
+the team should use [[LLM Deployment]] to choose a serving path. The team
+should also make cost and latency visible before defining the security review
+and incident path. Open-source and API choices define that gate
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 Cost readiness should show which prompts, retrieval calls, judge calls, and

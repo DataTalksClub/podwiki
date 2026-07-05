@@ -280,7 +280,8 @@ product-qualified accounts, or customer context. Use
 [[Customer Data Platforms]]
 for the broader topic.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
-Reverse ETL adds operational risk. If identity resolution breaks or a sync
+Reverse ETL adds operational risk. If [[entity-resolution=>identity resolution]]
+breaks or a sync
 becomes stale, customers and internal teams may see the wrong action. A model
 definition can cause the same problem when it changes without review. Reverse
 ETL should inherit upstream ownership, tests, and permissions. It also needs

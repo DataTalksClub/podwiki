@@ -82,8 +82,8 @@ Airbyte's connector ecosystem covers the long tail of business tools
 DLT used workshops and documentation to validate a Python-first pipeline library
 ([[person:adrianbrudaru=>Adrian Brudaru]] in
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
-Zingg made identity resolution, licensing, community feedback, and integrations
-visible
+Zingg made [[Entity Resolution]], licensing, community feedback, and
+integrations visible
 ([[person:sonalgoyal=>Sonal Goyal]] in
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 

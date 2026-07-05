@@ -712,11 +712,21 @@ Source hints:
   `_wiki/community.md`, kept organizer execution on `_wiki/community-building.md`,
   and kept venue, CFP, sponsor, timetable, and networking details on
   `_wiki/data-ai-conference-building.md` with precise Data Makers Fest anchors.
-- Next weak-node graph cleanup: add low-risk body links for LLM deployment from
-  RAG, entity resolution from data-engineering portfolio projects, model
-  monitoring vs data observability from MLOps vs DevOps, and sensor ML personal
-  baselines from nontraditional AI paths. The RFM link from Data Analyst vs
-  Analytics Engineer was added in the analytics transition cleanup.
+- The 2026-07-05 weak-node graph cleanup added grounded body links for
+  `_wiki/llm-deployment.md` from RAG/LLM production pages,
+  `_wiki/entity-resolution.md` from data-engineering portfolio/tool pages,
+  `_wiki/model-monitoring-vs-data-observability.md` from MLOps comparison and
+  roadmap pages, and `_wiki/sensor-ml-personal-baselines.md` from
+  nontraditional AI paths. The RFM link from Data Analyst vs Analytics Engineer
+  was added in the analytics transition cleanup.
+- Next weak-node graph cleanup candidates from the 2026-07-05 triage: link
+  data architect from `_wiki/data-freelancing-strategy.md`, data roles from
+  `_wiki/analytics-engineering.md`, data engineering/data science from
+  `_wiki/data-engineer-vs-data-scientist.md`, data product manager roadmap from
+  `_wiki/data-product-owner-vs-data-product-manager.md`, reinforcement learning
+  and evolutionary algorithms from `_wiki/ai.md`, synthetic data from
+  `_wiki/llm-evaluation-workflows.md`, and volunteer data projects from
+  `_wiki/career-transitions-in-data.md`.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

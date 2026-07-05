@@ -182,9 +182,9 @@ requires indexing jobs, embedding computation, metadata schemas, and query-time
 latency. Reranking and reindexing may be needed when sources, ranking rules, or
 embedding models change.
 
-These choices sit inside broader LLM deployment tradeoffs. For prototypes, teams
-can use hosted APIs, while production cases may need open-source models for
-control.
+These choices sit inside broader [[LLM Deployment]] tradeoffs. For prototypes,
+teams can use hosted APIs, while production cases may need open-source models
+for control.
 Latency and cost then move into serving, hardware, and model
 optimization decisions.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 

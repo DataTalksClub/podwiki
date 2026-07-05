@@ -162,7 +162,7 @@ those surfaces to bottom-up adoption
 ([[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 
 [[person:sonalgoyal=>Sonal Goyal]] uses Zingg to discuss
-entity resolution and open-source distribution. She also covers Spark,
+[[Entity Resolution]] and open-source distribution. She also covers Spark,
 Snowflake, Python APIs, and dbt interfaces
 ([[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]]).
 

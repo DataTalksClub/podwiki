@@ -18,8 +18,8 @@ related:
 
 LLM production patterns are the design choices teams use when a
 [[llms=>large language model]] becomes a product
-feature instead of a demo. Those choices include model serving and
-[[retrieval-augmented-generation=>retrieval-augmented generation]].
+feature instead of a demo. Those choices include [[LLM Deployment]], model
+serving, and [[retrieval-augmented-generation=>retrieval-augmented generation]].
 They also connect production work to [[rag-vs-fine-tuning=>RAG vs fine-tuning]],
 [[agent engineering]], evaluation, and security. Cost, latency, ownership, and
 review stay part of the same production question.
