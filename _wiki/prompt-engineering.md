@@ -227,8 +227,9 @@ tests, not only better instructions. [[cite:building-agentic-ai-engineering-tool
 This links prompt engineering to [[Agent Engineering]] without turning every
 prompt problem into an agent problem.
 
-Evolutionary algorithms can find useful prompt variations, but they're
-computationally expensive. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+[[evolutionary-algorithms=>Evolutionary algorithms]] can find useful prompt
+variations, but they're computationally expensive.
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 Prompt iteration is useful, but teams should measure whether more iteration
 beats retrieval or fine-tuning. They should also compare it with tool design,

@@ -433,6 +433,8 @@ role [[cite:s22e07-reinventing-career-in-tech=>Reinventing a Career in Tech]].
 "Data" is too broad for a transition plan. Analytics and ML have different
 goals and outputs, and their infrastructure differs too. Analysts build
 dashboards and reports. They run ad hoc queries and make recommendations.
+Use [[data-roles=>Data Roles]] as the broad map before choosing a transition
+page for one source-to-target move.
 
 ML work moves toward models and APIs. It also includes predictions, SLAs,
 experiments, and production feedback loops

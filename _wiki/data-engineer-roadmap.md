@@ -361,8 +361,8 @@ Add advanced tools only when the constraint is real:
   [[Batch vs Streaming]]
   to decide whether the latency need justifies streaming.
 - Add Kubernetes when deployment and platform ownership are part of the role.
-- Add Iceberg, Delta Lake, or a catalog when lakehouse metadata and schema
-  evolution become the problem.
+- Add Iceberg, [[delta-lake=>Delta Lake]], or a catalog when lakehouse metadata
+  and schema evolution become the problem.
 - Add catalog and lineage tooling when discovery, ownership, and governance
   become the problem.
 

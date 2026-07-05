@@ -26,9 +26,11 @@ product feature. The role sits between
 
 As a baseline, analysts explain what happened. Data scientists predict and help
 integrate predictions into products [[cite:data-team-roles=>Data Team Roles Explained]].
-Data scientists do more
-than train models. They must connect the question and data. They must also
-connect the method, evaluation, and product use.
+Use [[data-roles=>Data Roles]] for the broader role map before narrowing the
+question to data scientist responsibilities.
+
+Data scientists do more than train models because they must connect the question
+and data. They must also connect the method, evaluation, and product use.
 
 ## From Questions To Evidence
 

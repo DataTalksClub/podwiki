@@ -106,9 +106,12 @@ model output
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
 
 Agents are a separate use case because the model does more than answer once.
-Agents combine LLM autonomy with objectives and tool use. They may also use
-memory and knowledge stores
+Agents combine LLM autonomy with objectives and tool use.
+They may also use memory and knowledge stores
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Micheal Lanham connects game AI state, actions, and feedback to LLM agent
+workflows in [[game-ai-to-llm-agents=>Game AI to LLM Agents]]
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 The
 [[agent-engineering=>AI agents]] page separates agent
 workflow design from ordinary prompting.

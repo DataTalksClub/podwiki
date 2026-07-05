@@ -198,6 +198,11 @@ The useful project isn't "an agent that can do anything." A better artifact is
 a constrained workflow with a clear objective and allowed tools. It should also
 show typed inputs, timeouts, logs, and a small test set.
 
+For the agent-history bridge, [[game-ai-to-llm-agents=>Game AI to LLM Agents]]
+shows why state, actions, and feedback still matter. Debugging still matters
+when the agent workflow uses LLMs instead of game-specific logic
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
+
 Agentic course examples include a professional-content workflow that uses
 evaluator-optimizers. They also include a deep research agent that gathers data
 from the internet, GitHub, and YouTube. The examples center on context

@@ -172,8 +172,8 @@ serving, registry, and monitoring layers. [[cite:mlops-feature-stores-feature-st
 
 The storage split matters because online storage is typically low-latency
 key-value storage. Redis or DynamoDB are examples. Offline storage is usually a
-data lake or warehouse, such as Hive or BigQuery. Redshift, Snowflake, and Delta
-can play that role. [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
+data lake or warehouse, such as Hive or BigQuery. Redshift, Snowflake, and
+[[Delta Lake]] can play that role. [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 
 ## Request-Time Features
 

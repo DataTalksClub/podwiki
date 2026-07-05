@@ -76,8 +76,9 @@ monitoring can follow the same signal. Existing infrastructure such as
 Kubernetes and Git can come before new tools
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
-Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
-cloud credits, managed services, and fast MVP stacks
+Startup teams can use [[lean-mlops-for-startups=>lean MLOps for startups]] as
+a shoestring strategy. They can start with SaaS-first choices, cloud credits,
+managed services, and fast MVP stacks
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 In a regulated finance setting, release governance and approvals arrive earlier.

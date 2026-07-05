@@ -100,8 +100,9 @@ architecture, and production support
 
 Finance and startup environments split the role differently. Finance pulls the
 engineer toward governance controls, release approvals, and auditability.
-Startups push the engineer toward lean automation and careful build-versus-buy
-boundaries
+For startups, the engineer uses
+[[lean-mlops-for-startups=>lean MLOps for startups]] to keep automation lean
+and build-versus-buy boundaries explicit
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 

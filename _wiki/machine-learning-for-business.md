@@ -188,6 +188,11 @@ allocation can use the same approach. The formulation has to name the objective
 and constraints before the solver or model matters
 ([[cite:machine-learning-decision-optimization@09:00=>Machine Learning Decision Optimization]]).
 
+If the candidate solver is a genetic or evolutionary search method, the same
+business test applies. See
+[[evolutionary-algorithms=>evolutionary algorithms]] for that narrower search
+family.
+
 Becker folds decision optimization into business value instead of treating it as
 a separate technical niche. His fraud example shows why. Two transactions can
 have the same fraud probability but different expected value because the amount
@@ -497,6 +502,10 @@ a scheduled batch job, a simple monitoring report, and a documented manual
 fallback. The ownership still has to be explicit. Without it, a business team
 can keep trusting a model after inputs change or labels drift. Costs may rise,
 or the workflow may stop matching the training data.
+
+For constrained startup teams, use
+[[lean-mlops-for-startups=>lean MLOps for startups]] to keep that ownership
+boundary tied to the smallest production path that can still be observed.
 
 ## Decide Whether ML Is the Right Business Investment
 

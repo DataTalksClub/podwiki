@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12014
+    "links": 12029
   },
   "nodes": [
     {
@@ -23606,6 +23606,12 @@
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -23673,6 +23679,12 @@
     {
       "source": "wiki:ai-engineering-portfolio-projects",
       "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29678,6 +29690,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -34886,6 +34904,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:delta-lake",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:devops-to-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -37043,6 +37067,12 @@
       "target": "wiki:dataops-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -44255,6 +44285,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:data-roles",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-role",
@@ -51950,6 +51986,12 @@
     },
     {
       "source": "wiki:feature-stores",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
       "target": "wiki:graph-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -59402,6 +59444,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -59475,6 +59523,12 @@
     {
       "source": "wiki:llms",
       "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61286,7 +61340,19 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:lean-mlops-for-startups",
       "kind": "article-chip",
       "weight": 1
     },
@@ -66608,6 +66674,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -66863,6 +66935,12 @@
       "target": "wiki:experiment-tracking",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -73826,6 +73904,12 @@
     },
     {
       "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:data-roles",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-owner-vs-product-manager",
       "target": "wiki:data-teams",
       "kind": "article-chip",
       "weight": 1
@@ -74781,6 +74865,12 @@
     {
       "source": "wiki:prompt-engineering",
       "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "wiki:evolutionary-algorithms",
       "kind": "wiki-chip",
       "weight": 1
     },

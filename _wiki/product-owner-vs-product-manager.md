@@ -44,10 +44,12 @@ indefinitely. A data scientist may want more time to improve a model, while the
 business may need the current version in production. The product owner makes the
 tradeoff visible and explains the quality bar to stakeholders.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
-Product-owner work also includes team advocacy. When stakeholders ask whether
-one person can cover several data science use cases, the owner has to explain
+Product-owner work also includes team advocacy. Stakeholders may ask whether
+one person can cover several data science use cases. The owner has to explain
 the staffing gap. The work may need a data scientist, ML engineer, MLOps
-support, or data engineering help.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+support, or data engineering help. Use [[data-roles=>Data Roles]] when the
+missing decision is a staffing or responsibility boundary, not only a PO or PM
+title question.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
 [[Data Product Owner vs Data Product Manager]] adds the data-specific owner
 role. It separates consumer guarantees, data quality, Data Mesh ownership, and

@@ -57,6 +57,12 @@ transition from games and simulation into modern LLM agent workflows belongs in
 the boundary around agents, rewards, environments, and simulators.
 [[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
 
+Reinforcement learning sits next to
+[[evolutionary-algorithms=>evolutionary algorithms]] in Lanham's discussion.
+The search mechanism differs: evolutionary methods score candidate variation
+with a fitness function rather than training a policy from environment rewards.
+[[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
+
 ## Practical Boundaries
 
 The definition stays mostly stable, but the boundary changes by problem type.

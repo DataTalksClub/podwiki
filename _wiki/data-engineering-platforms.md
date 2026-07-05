@@ -164,8 +164,8 @@ to observability, governance controls, and recovery paths rather than to one
 isolated storage choice.
 
 [[person:adrianbrudaru=>Adrian Brudaru]]
-updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
-metadata, and lineage. Headless table formats are part of the same update
+updates that discussion with Iceberg and [[Delta Lake]]. He also covers
+catalogs, metadata, and lineage. Headless table formats are part of the same update
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[Data Warehouse vs Data Lakehouse]]
 and [[Apache Iceberg]] cover those storage patterns.

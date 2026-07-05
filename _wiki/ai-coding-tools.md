@@ -156,6 +156,10 @@ sequence starts with copy-pasting between ChatGPT and the IDE. It then moves
 through code completion and agents in IDEs or terminals. Background agents now
 do code reviews and continuous integration [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 
+The [[game-ai-to-llm-agents=>Game AI to LLM Agents]] game-building examples keep
+generated code tied to runtime behavior. The code has to coordinate state and
+survive debugging passes [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
+
 A GitHub issue can be assigned to Copilot and come back as a pull request within
 half an hour. Proactive agents extend this by flagging production events or
 organizing a schedule. Multiplayer agents remain a problem. When multiple people

@@ -149,8 +149,9 @@ callable.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Bu
 These are [[Tools]] questions, but the agent page keeps the workflow-specific
 part. Tools should match the decisions the agent is allowed to make.
 
-The OpenAI Agent SDK and MCP integration appear alongside scratchpads.[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
-Internal reasoning servers appear too.[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
+The [[game-ai-to-llm-agents=>Game AI to LLM Agents]] discussion places the
+OpenAI Agent SDK and MCP integration alongside scratchpads.
+It also mentions internal reasoning servers.[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
 The agent may need private reasoning state. It may also need task state that
 isn't shown directly to the user. Engineers still need enough observability to
 debug the system. Hidden state shouldn't replace tests.
