@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11999
+    "links": 12011
   },
   "nodes": [
     {
@@ -22094,6 +22094,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
@@ -22143,6 +22149,12 @@
     {
       "source": "wiki:agent-engineering",
       "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "wiki:reinforcement-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24105,6 +24117,12 @@
     {
       "source": "wiki:ai-for-finance-decision-support",
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36938,6 +36956,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-architect-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -36947,6 +36971,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -42273,6 +42303,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-roles",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56007,6 +56043,18 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:volunteer-data-engineering-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73304,6 +73352,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -73353,6 +73407,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78956,6 +79016,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -78965,6 +79031,12 @@
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",

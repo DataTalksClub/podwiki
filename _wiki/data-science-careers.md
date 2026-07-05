@@ -29,6 +29,9 @@ search mechanics, use [[Job Search]], [[CV Screening]], and
 
 Candidates first choose a target role and find the missing skills. Then they build evidence and use applications to test fit. Recruiters see stronger CVs when candidates show industry alignment, real projects, and concrete business problems. The [[data-science-recruiter=>data science recruiter]] view turns that into a role-fit screen before interview loops start. Candidates tailor applications because they need to map their skills to the company's problem.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
+Use [[data-roles=>data roles]] for the broader role choice. Compare analyst,
+engineer, architect, and product-facing paths before narrowing the portfolio.
+
 Candidates set goals and network before tuning the CV and search strategy. They define the target role before collecting more courses or tools.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]] Use that advice with [[Career Transitions in Data]]. Without a target role, every portfolio project and CV bullet targets a different job.
 
 Danny Ma's ABC framework separates the broad data scientist title into three

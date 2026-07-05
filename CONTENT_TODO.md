@@ -736,6 +736,9 @@ Source hints:
   AI tools workflow guide, Scikit-Learn, and machine learning for startups.
   The graph audit dropped from 17 to 12 weak nodes afterward. AI-powered BI
   still needs a grounded link from a page that does not already link to it.
+- The fourth 2026-07-05 weak-node graph cleanup added grounded body links for
+  the remaining 12 weak nodes. `python scripts/audit_graph.py --min-inbound 8`
+  now reports 0 weak wiki nodes below 8 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

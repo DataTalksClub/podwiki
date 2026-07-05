@@ -33,6 +33,9 @@ reproducibility and self-service
 stack version through extraction, loading, transformation, and orchestration.
 She also brings CDC and reverse data flows into the same discussion
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+In that framing, teams use the platform as one place where
+[[data-engineering-and-data-science=>data engineering and data science]] meet.
+Reliable data movement has to serve analytics, ML, and operational consumers.
 
 The platform question is which capabilities belong in the shared foundation,
 where teams draw ownership boundaries, and how adoption changes the
@@ -179,6 +182,9 @@ same ingestion, transformation, or datamart structure. Loïc Magnien frames
 reusable templates against project-specific solutions. The platform should
 reduce repeated decisions without hiding unusual requirements
 [[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+Use Magnien's discussion for the [[data-architect-role=>data architect]]
+boundary because architecture work turns repeated project patterns into
+reusable platform decisions.
 
 That template logic is concrete. An API ingestion template can land data in
 bronze, and a merge template can refine it into silver. A shared dimension can

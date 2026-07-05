@@ -37,6 +37,8 @@ Some software engineers target LLM applications rather than classical ML roles.
 For them, [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 keeps the bridge focused on prior engineering judgment and current AI product
 proof [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+Software-heavy candidates can use
+[[machine-learning-for-software-engineers=>ML for Software Engineers]].
 For the same target role from a data-science starting point, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 
@@ -71,6 +73,8 @@ a model.
 A practical roadmap starts with Python data tooling and then moves through
 pipelines, modeling, deployment, and monitoring. APIs, Docker, and cloud
 providers come after that [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+For the role-shaped version of that sequence, use the
+[[machine-learning-engineer-roadmap=>ML Engineer Roadmap]].
 
 Project-first learning is the common starting point. Engineers don't need to
 wait until every mathematical detail is mastered. They can start projects, share

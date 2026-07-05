@@ -87,8 +87,10 @@ Without those four pieces, an agent can look impressive in chat while
 remaining hard to test or improve
 [[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
 
-Multi-agent systems start from decomposition because each coordination style
-changes debugging and evaluation [[cite:from-game-ai-to-modern-ai-agents=>Game AI]].
+Coordination style affects debugging, so teams decompose agents.
+Lanham ties the same lineage to [[reinforcement-learning=>reinforcement learning]]
+and [[evolutionary-algorithms=>evolutionary algorithms]].
+[[cite:from-game-ai-to-modern-ai-agents=>Game AI]]
 Sequential flows are easier to review than manager-agent orchestration or
 direct collaboration.
 The game-AI lineage behind that taxonomy is covered in

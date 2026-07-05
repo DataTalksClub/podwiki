@@ -75,9 +75,10 @@ flexible analysis
 ([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
 
 That's why finance decision support has to preserve KPI context and business
-meaning, not only query transaction tables. It belongs close to
-[[Data Strategy]] rather than tool
-selection alone.
+meaning, not only query transaction tables. It also overlaps with
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] when the
+assistant summarizes governed metrics or explains a dashboard-backed finance
+signal. It belongs close to [[Data Strategy]] rather than tool selection alone.
 
 ## Spreadsheet Risk and Knowledge Loss
 

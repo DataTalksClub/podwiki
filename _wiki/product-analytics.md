@@ -130,12 +130,16 @@ ownership. Customer discovery, hypothesis formation, and compliance affect
 whether a product analytics question can be answered responsibly. So do
 documentation and SQL literacy. Data sources, warehouses, and applications
 matter too.[[cite:product-designer-to-data-product-manager=>Data Product Manager]]
+For a transition path from design into that ownership model, see
+[[product-designer-to-data-product-manager=>Product Designer to Data PM]].
 
-AI and ML product work needs early collaboration between product managers, data
-scientists, designers, and engineers. If teams wait too long, they may discover
-that the interface, signals, or product idea can't support the model. Scoping
-documents, rapid experiments, and data-backed pitches help decide which ideas
-deserve investment.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+AI and ML product work needs early cross-functional collaboration. Teams need to
+define the interface and signals before they trust model behavior. When teams
+wait too long, they may discover that the product idea can't support the model.
+Scoping documents and rapid experiments help decide which ideas deserve
+investment. Teams use data-backed pitches too.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+For the roadmap-shaped version of that ownership, use the
+[[data-product-manager-roadmap=>Data Product Manager Roadmap]].
 
 ## Adoption And Activation
 
