@@ -85,13 +85,13 @@
     return labels[typeKey(node)] || node.type;
   }
   function nodeUrl(node) {
-    return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
+    return siteUrl(node.url || `/graph/#${encodeURIComponent(node.id)}`);
   }
   function pageActionLabel(node) {
     return typeKey(node) === "topic" ? "Search topic" : "Open page";
   }
   function graphUrl(node) {
-    return siteUrl(`/graph.html#${encodeURIComponent(node.id)}`);
+    return siteUrl(`/graph/#${encodeURIComponent(node.id)}`);
   }
   function hasPageUrl(node) {
     return Boolean(node && node.url);

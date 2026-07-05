@@ -36,7 +36,7 @@ thematic "Insight Hub" pages.
 - `_wiki/` contains all public content. Some pages use `tags:` such as `guide`,
   `comparison`, `roadmap`, `transition`, or `how-to`.
 - `search/` contains the browser fallback corpus copied into the static site.
-- `graph/graph.json` contains generated static graph data used by `/graph.html`.
+- `graph/graph.json` contains generated static graph data used by `/graph/`.
 - `artifacts/search/` contains build artifacts for the Zerosearch Lambda.
 - `sources/podcast-archive-summary.md` contains the generated agent-first map
   of all synced episodes, people, chapter summaries, and topic candidates.
@@ -66,17 +66,17 @@ Serve locally:
 make serve
 ```
 
-The search page is available at `/search.html`. Set `search_api_url` in
+The search page is available at `/search/`. Set `search_api_url` in
 `_config.yml` to the deployed Lambda Function URL to use server-side Zerosearch.
 When `search_api_url` is empty, the page falls back to a simple client-side search
 over `/search/search-corpus.json` for local development. Search indexes the
 exploration collections, not full podcast transcripts.
 
-The graph page is available at `/graph.html`. It visualizes topics, tagged wiki
+The graph page is available at `/graph/`. It visualizes topics, tagged wiki
 pages, source-derived episode records, people, and source-episode relationships
 from `graph/graph.json`. Clicking a node opens a side panel with canonical page
 links, search links, related nodes, and a copyable graph URL such as
-`/graph.html#topic%3Allms`.
+`/graph/#topic%3Allms`.
 
 Rebuild graph data after content changes:
 

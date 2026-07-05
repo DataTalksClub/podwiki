@@ -28,17 +28,17 @@ title: Podcast Wiki
 
 <h1 class="sr-only">DataTalks.Club Podcast Wiki</h1>
 
-<form class="home-search" action="{{ '/search.html' | relative_url }}" method="get" role="search">
+<form class="home-search" action="{{ '/search/' | relative_url }}" method="get" role="search">
   <input name="q" type="search" aria-label="Search the wiki" placeholder="Search RAG, career transitions, feature stores..." />
   <button class="home-search-button" type="submit">Search</button>
 </form>
 
 <nav class="wiki-entrypoints" aria-label="Wiki exploration">
-  <a class="wiki-entrypoint" href="{{ '/graph.html' | relative_url }}">
+  <a class="wiki-entrypoint" href="{{ '/graph/' | relative_url }}">
     <span class="wiki-entrypoint-name">Graph</span>
     <span class="wiki-entrypoint-desc">Explore topic, episode, people, and book connections.</span>
   </a>
-  <a class="wiki-entrypoint" href="{{ '/search.html' | relative_url }}">
+  <a class="wiki-entrypoint" href="{{ '/search/' | relative_url }}">
     <span class="wiki-entrypoint-name">Search</span>
     <span class="wiki-entrypoint-desc">Find wiki pages, guides, summaries, people, and books.</span>
   </a>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Podcast Graph
-permalink: /graph.html
+permalink: /graph/
 ---
 
 # Podcast Graph

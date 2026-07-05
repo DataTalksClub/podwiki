@@ -88,7 +88,7 @@
           "publisher": { "@id": "https://datatalks.club/#organization" },
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "{{ site.url }}{{ site.baseurl }}/search.html?q={search_term_string}",
+            "target": "{{ site.url }}{{ site.baseurl }}/search/?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         },
@@ -176,8 +176,8 @@
         <a href="{{ '/special-pages/comparisons/' | relative_url }}">Comparisons</a>
         <a href="{{ '/special-pages/roadmaps/' | relative_url }}">Roadmaps</a>
         <a href="{{ '/special-pages/' | relative_url }}">All Formats</a>
-        <a href="{{ '/search.html' | relative_url }}">Search</a>
-        <a href="{{ '/graph.html' | relative_url }}">Graph</a>
+        <a href="{{ '/search/' | relative_url }}">Search</a>
+        <a href="{{ '/graph/' | relative_url }}">Graph</a>
       </nav>
     </div>
 

@@ -83,7 +83,7 @@
     return path;
   }
   function nodeUrl(node) {
-    return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
+    return siteUrl(node.url || `/graph/#${encodeURIComponent(node.id)}`);
   }
   function pageActionLabel(node) {
     const key = typeKey(node);
@@ -612,7 +612,7 @@
       .join("");
     const searchQuery = encodeURIComponent(focus.label || focus.title || "");
     const pageHref = nodeUrl(focus);
-    const searchHref = siteUrl(`/search.html?q=${searchQuery}`);
+    const searchHref = siteUrl(`/search/?q=${searchQuery}`);
     const secondarySearch =
       pageHref === searchHref
         ? ""
