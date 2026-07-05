@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Experiments and Causality"
-summary: "How experiments and causal reasoning connect metrics, uplift modeling, and product decisions in DataTalks.Club interviews."
+summary: "How teams choose evidence standards for product experiments and causal decisions."
 related:
   - Experimentation
   - Causal Inference
@@ -11,76 +11,70 @@ related:
   - Evaluation
 ---
 
-Experimentation and causal inference help teams decide whether an action changed
-an outcome. A randomized experiment splits comparable users or sessions and
-exposes one group to a change. Another group stays as control, and the team
-compares a launch metric chosen in advance
+Experimentation and causal inference meet when a team has to choose evidence for
+an applied product or ML decision. The decision might be a feature rollout,
+pricing change, or marketing budget. It might also be a recommender policy or
+model release. The team needs more than a metric movement. It needs evidence
+that the action caused enough change to justify what happens next.
+
+Use [[causal inference]] for treatment and counterfactual vocabulary, including
+confounding and identification. It also covers CATE and causal ML. For
+standalone experimentation mechanics, use [[experimentation]] and
+[[a-b-testing=>A/B testing]]. The combined frame asks which evidence standard fits
+the product decision.
+
+[[person:jakobgraff=>Jakob Graff]] explains the randomized product experiment
+path through traffic splitting, metric choice, A/A checks, and power
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Causal inference separates association from causation, then asks what would have
-happened under a different intervention
+[[person:aleksandermolak=>Aleksander Molak]] explains when teams need a
+counterfactual intervention answer instead of ordinary prediction
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-
-Teams use [[experimentation]] when they can test a live product change or
-direction through an [[a-b-testing=>A/B test]], an A/A check, or a prototype.
-Teams use [[causal inference]] when they need to name the intervention, outcome,
-population, and counterfactual comparison. Both practices turn a
-[[metrics=>metric]] into evidence for rolling out a feature, targeting a
-campaign, changing a recommender, or validating a model policy.
-
-## Intervention Questions
-
-Experiments and observational causal inference both ask whether a treatment
-changes an outcome for a defined population. In a randomized experiment, the
-team creates the comparison through assignment. In observational causal
-inference, the team estimates the counterfactual from existing data or from
-settings where it didn't control assignment.
-
-On the experimental side, experiments establish causality in noisy product
-conditions through traffic splitting, assignment tracking, and monitoring.
-[[a-a-testing=>A/A testing]] checks whether the system can split traffic and
-measure outcomes before an A/B result is trusted
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-
-On the causal side, marketing and recommendation examples show why prediction
-alone may not answer an intervention question. The conditional average treatment
-effect, or CATE, estimates how the effect changes by person or segment
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-CATE puts causal inference close to
-[[product analytics]] when a team
-decides who should receive a discount, message, recommendation, or churn
-intervention.
-
-Both paths require the same practical definitions:
-
-- define the intervention or treatment
-- define the outcome metric
-- define the population and assignment unit
-- define the comparison group or counterfactual
-- decide what action the evidence will support
-
-## Evidence Standards Across Episodes
-
-The podcast discussions draw different boundaries around useful experimental
-evidence. Product experimentation emphasizes live assignment and metric choice.
-It also treats power and system checks as prerequisites before rollout
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
-Causal inference puts more weight on confounders, counterfactual assumptions,
-and policy evaluation when the team can't rely on randomized traffic
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
-
-Design experimentation treats prototypes and parallel proofs of concept as
-earlier evidence for product direction. That evidence comes before an A/B test
-or causal model is available
+[[person:liesbethdingemans=>Liesbeth Dingemans]] covers earlier design
+experiments that reduce uncertainty before a team is ready for a causal estimate
 [[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
-The disagreement is practical: each evidence standard fits a different decision
-point.
+
+## Decision Frame for Product Teams
+
+The shared frame is practical. Before choosing a method, the team defines the
+action and metric. It also names the affected population. Then it names the comparison
+and decision threshold. That turns [[metrics]] and [[product analytics]] into
+decision evidence instead of a dashboard review.
+
+Use an [[a-b-testing=>A/B test]] when the product can assign comparable users or
+sessions and log exposure. Use [[causal inference]] when the decision is still an
+intervention question but the team can't rely on clean randomized assignment.
+Use design or discovery experiments when the team isn't yet sure what to build.
+Graff, Molak, and Dingemans describe those as different points in the decision
+path. They aren't interchangeable labels
+([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
+[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]],
+[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]).
+
+## Matching Evidence to the Decision Stage
+
+The podcast discussions draw different boundaries around useful evidence.
+Product experimentation emphasizes live assignment, metric design, sample size,
+and platform checks before rollout
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+Causal inference weighs confounders, counterfactual assumptions, and policy
+evaluation when randomized traffic is unavailable or incomplete
+[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+Design experimentation uses prototypes and parallel proofs of concept before an
+A/B test or causal model is available
+[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]].
+
+The product question should choose the evidence standard. A button copy change,
+recommendation policy, media budget, and AI product concept can all involve
+causal reasoning. They don't need the same experiment.
 
 ## Randomized Experiments
 
-The randomized experiment is where experimentation and causal inference work
-together most clearly. A clinical-trial analogy shows why randomization matters.
-Randomization makes the treatment group and control group comparable enough to
-attribute a metric difference to the tested change
+Teams use randomized product experiments for the cleanest applied overlap. They
+split traffic, expose treatment users or sessions to a change, keep a control
+group, and compare a launch metric chosen in advance. Graff uses a
+clinical-trial analogy to explain why randomization matters. It makes treatment
+and control comparable enough to attribute a metric difference to the tested
+change
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 Teams need stable assignment, exposure logging, monitoring, and debuggable
 metrics.
@@ -100,19 +94,18 @@ Those details connect randomized experiments to [[metrics]]
 and [[power analysis]], not only to
 statistics.
 
-## Observational Causal Inference
+## Missing Randomization
 
-Observational causal inference enters when the team can't run a clean
-experiment. Confounders show why a predictive relationship can mislead a
-decision. Unconfoundedness can come from randomization or careful causal feature
-selection. Partial identification and sensitivity apply when the available data
-can't identify one clean answer
+Some decisions still ask whether an intervention changed an outcome even when a
+clean traffic split is unavailable. In the causal ML episode, Molak covers
+confounders and unconfoundedness. He also covers causal feature selection,
+partial identification, and sensitivity. Refutation tests and policy metrics
+also matter
 [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
 
-Teams need different checks for observational causal work than for ordinary
-predictive modeling. Refutation tests and policy metrics matter. A causal model
-must survive questions about hidden assumptions, not only predict held-out labels
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+Those method details belong on [[causal inference]]. In an applied product frame,
+they matter because the team still has to decide whether to launch or stop. The
+team also has to decide whether to target or allocate.
 
 Marketing is the clearest setting. Attribution gets ambiguous when customers see
 several channels before conversion. Privacy and cookieless tracking push the
@@ -174,10 +167,10 @@ That connects the topic to
 ## Choosing the Evidence Standard
 
 Choose a randomized experiment when the product can assign comparable users or
-sessions and log exposure. The team also needs enough time for the metric to
-stabilize. The [[a-b-testing=>A/B testing]] path starts with a simple two-group
-design. The team validates the system with [[a-a-testing=>A/A testing]] and plans
-sample size before launch
+sessions, log exposure, and wait long enough for the metric to stabilize. The
+[[a-b-testing=>A/B testing]] path starts with a simple two-group design. The team
+validates the system with [[a-a-testing=>A/A testing]] and plans sample size
+before launch
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
 Use causal inference when the decision is about an intervention but the team

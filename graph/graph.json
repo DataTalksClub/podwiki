@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11885
+    "links": 11886
   },
   "nodes": [
     {
@@ -8997,7 +8997,7 @@
       "title": "Causal Inference",
       "url": "/wiki/causal-inference/",
       "count": 1,
-      "search": "Causal Inference How podcast guests explain causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
+      "search": "Causal Inference How podcast guests explain causal inference as reasoning about interventions, counterfactuals, and treatment effects."
     },
     {
       "id": "wiki:cdc",
@@ -9670,7 +9670,7 @@
       "title": "Experiments and Causality",
       "url": "/wiki/experimentation-and-causal-inference/",
       "count": 1,
-      "search": "Experiments and Causality How experiments and causal reasoning connect metrics, uplift modeling, and product decisions in DataTalks.Club interviews."
+      "search": "Experiments and Causality How teams choose evidence standards for product experiments and causal decisions."
     },
     {
       "id": "wiki:manufacturing-predictive-maintenance-yield-analytics",
@@ -29812,12 +29812,6 @@
     },
     {
       "source": "wiki:causal-inference",
-      "target": "person:liesbethdingemans",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
       "target": "person:lorismarini",
       "kind": "wiki-chip",
       "weight": 1
@@ -29831,12 +29825,6 @@
     {
       "source": "wiki:causal-inference",
       "target": "podcast:ab-testing-and-product-experimentation",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:causal-inference",
-      "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29861,6 +29849,12 @@
     {
       "source": "wiki:causal-inference",
       "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:a-a-testing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51304,6 +51298,24 @@
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
+      "target": "person:aleksandermolak",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation-and-causal-inference",
+      "target": "person:jakobgraff",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation-and-causal-inference",
+      "target": "person:liesbethdingemans",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation-and-causal-inference",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -66325,12 +66337,6 @@
       "target": "wiki:ml-platforms",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "wiki:mlops",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:mlops-roadmap",

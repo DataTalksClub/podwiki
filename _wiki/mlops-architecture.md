@@ -16,45 +16,33 @@ related_wiki:
   - Governance
 ---
 
-MLOps architecture maps how teams move from data and training to deployment,
-monitoring, and model improvement. It should show how a model moves from raw
-inputs to predictions. It should also show how teams reproduce and approve the
-model. After release, it should show how teams monitor production evidence and
-route that evidence back into the next decision.
+MLOps architecture is the system map for machine learning in production. It
+shows the data inputs and feature or training pipelines. It also shows
+experiment tracking, artifact storage, and registry handoff. Deployment
+targets, monitoring signals, and feedback paths connect the same model
+lifecycle.
 
-Use the architecture as a working MLOps framework, not as a vendor diagram.
-That framework should name the operating flow and owners. It should also name
-release gates, monitoring signals, and build-versus-buy boundaries. MLOps rests
-on people, process, and technology. Experiment tracking and registries connect
-to batch inference, online serving, and orchestration
+Use the architecture as a component-and-boundary design, not as a vendor
+diagram. The design should name how artifacts move, where approvals happen,
+which runtime serves predictions, and how production evidence reaches the next
+model decision. MLOps rests on people, process, and technology. Experiment
+tracking and registries connect to batch inference, online serving, and
+orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
-When people ask for MLOps frameworks or an MLOps architecture diagram, the useful
-answer is this operating map. The diagram should show the forward path from data
-to serving and the return path from monitoring to repair. The
-[[MLOps Engineer]] page covers who keeps that path usable, while
-[[MLOps Tools]] covers tool categories after the ownership and feedback loops
-are clear.
+When people ask for MLOps frameworks or an MLOps architecture diagram, answer
+with this operating map. The diagram should show the forward path from data to
+serving and the return path from monitoring to investigation, rollback, or
+retraining. Use [[MLOps Engineer]] for role ownership and [[MLOps Roadmap]] for
+the learning and rollout sequence. Use [[ML Platforms]] for the shared platform
+layer and [[MLOps Tools]] for stack selection after the boundaries are clear.
 
-In practice, useful teams start with version control and CI/CD. Registries, a
-model registry, and monitoring follow before the work becomes a large platform
-program
-([[person:mariavechtomova=>Maria Vechtomova]],
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
-
-For the broader discipline, start with
-[[MLOps]]. Use
-[[MLOps Roadmap]] for build order,
-[[ML Platforms]] for the shared
-platform layer, and [[MLOps Tools]]
-for stack selection.
-
-## MLOps Frameworks in Practice
+## Reference Architecture Boundaries
 
 Across these interviews, an MLOps framework is less a named methodology and
-more a repeatable operating model. It combines lifecycle stages, shared
-platform capabilities, and adoption work.
+more a set of connected boundaries. It has to connect lifecycle stages, shared
+platform capabilities, and adoption work without hiding who owns each handoff.
 
 Simon's platform discussion follows the data scientist workflow. Around that
 workflow, teams add experiment tracking and a model registry. They also connect
@@ -66,20 +54,19 @@ also needs package registries, model registry, deployment, and monitoring before
 the team chases a larger platform
 ([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
-For an MLOps architect, those frameworks become decision filters because the
-architect checks whether the team can reproduce training. They also check
-whether an artifact can reach deployment, whether serving is observable, and
-who owns each feedback signal. Danny Leybzon describes the architect role as a
-bridge between customer constraints, business priorities, and technical
-tradeoffs. Monitoring and data observability still have to fit the existing
-inference architecture
+For an MLOps architect, those boundaries become design checks. The architect
+checks whether the team can reproduce training and whether an artifact can
+reach deployment. They also check whether serving is observable and whether
+every feedback signal has an owner.
+
+Danny Leybzon describes the architect role as a bridge between customer
+constraints, business priorities, and technical tradeoffs. Monitoring and data
+observability still have to fit the existing inference architecture
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
 
-Use this page as a reference architecture. Then use
-[[MLOps Roadmap]] to decide sequence and
-[[ML Platforms]] to decide what should become shared infrastructure. Use
-[[MLOps Engineer]] to decide who operates the framework day to day.
+Use [[MLOps Roadmap]] for sequence, [[ML Platforms]] for shared infrastructure
+choices, and [[MLOps Engineer]] for day-to-day ownership of each boundary.
 
 ## Architecture Flow
 
@@ -380,25 +367,28 @@ and validation checks already solve the problem. Willem makes that boundary
 explicit by distinguishing online tabular use cases from overkill scenarios
 ([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
 
-## Simple Stack or Shared Platform
+## Local Stack or Shared Platform
 
-Start with a reproducible path for one model. A small architecture can use Git
-and a scheduled training job. Add an experiment tracker, object storage, and a
-registry convention. One deployment path and prediction logs come next. Add a
-basic monitoring view after that.
+A small MLOps architecture can keep components local to one model. Git covers
+code while a scheduled job handles training. An experiment tracker records
+runs, and object storage can stay local too. A registry convention, one
+deployment target, prediction logs, and a basic monitoring view can stay local
+as well.
 
-This sequence matches the practical
-architecture in [[MLOps Roadmap]]: prove the lifecycle, then add shared platform
-work when repetition or risk justifies it.
+For the order to add those pieces, use [[MLOps Roadmap]]. For architecture
+design, decide which components are local to one model and which become shared
+services.
 
-That's often enough for a startup or a prototype moving into production. It can
-also be enough for a team with one important model.
+A local stack is often enough for a startup or a prototype moving into
+production. It can also be enough for a team with one important model. It still
+needs explicit interfaces between data and training. It also needs interfaces
+between registry, serving, monitoring, and repair.
 
-A shared platform makes sense when several teams repeat the same work. Then the
-organization benefits from shared templates and self-service compute. Standard
-tracking and registry integration become shared assets. Deployment paths,
-logging schemas, and monitoring hooks do too. Documentation and support become
-part of the platform.
+A shared platform makes sense when several teams repeat the same components.
+Then templates and self-service compute become shared assets. Standard tracking
+and registry integration become shared too. Deployment paths, logging schemas,
+and monitoring hooks do the same. Documentation and support routes become part
+of the shared platform too.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
@@ -423,54 +413,56 @@ Nemanja adds the startup constraint in
 Use managed tools when they buy speed. Keep an eye on lock-in, technical debt,
 security, and future portability.
 
-Use [[Platform Adoption]],
-[[Developer Experience]], and
-[[MLOps Architecture]] when the
-main risk is whether teams will use the architecture.
+Use [[Platform Adoption]] and [[Developer Experience]] when the main risk is
+whether teams will use the architecture.
 
-Teams should change the MLOps framework by company stage. In a startup, Nemanja
-Radojkovic argues for cloud and SaaS-first choices when they help a small team
-move quickly. The same team still has to watch portability and technical debt
+Teams should change the component design by company stage. In a startup,
+Nemanja Radojkovic argues for cloud and SaaS-first choices when they help a
+small team move quickly. The same team still has to watch portability and
+technical debt
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
-In a regulated finance setting, the same framework needs dev/test/prod
+In a regulated finance setting, the same architecture needs dev/test/prod
 separation and release controls earlier. It also needs monitoring, model
 registry, data versioning, and reproducible pipelines
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
-The architecture should expose that context instead of pretending one framework
-fits every organization.
+The architecture should expose that context instead of pretending one component
+map fits every organization.
 
-## Choosing a Framework Sequence
+## Design Checks by Failure Mode
 
-Start from the failure mode instead of the framework name.
+Use failure modes to test the architecture. For the order to learn or roll out
+fixes, use [[MLOps Roadmap]]. In the architecture, each failure shows a missing
+component or boundary.
 
-1. If experiments can't be recovered, add tracking, artifact storage, data
-   references, and dependency discipline
+1. Experiments can't be recovered: the architecture needs tracking, artifact
+   storage, data references, and dependency discipline
    [[cite:building-production-ml-platform-and-mlops-team@29:41=>Production ML Platforms]].
-2. If models can't be handed off, add a [[model registry]] convention and one
+2. Models can't be handed off: it needs a [[model registry]] convention and one
    deployment path
    [[cite:building-production-ml-platform-and-mlops-team@30:32=>Production ML Platforms]].
-3. If training or batch inference is hard to coordinate, add orchestration
+3. Training or batch inference is hard to coordinate: it needs orchestration
+   with visible dependencies
    [[cite:building-production-ml-platform-and-mlops-team@31:51=>Production ML Platforms]].
-4. If serving is fragile, standardize packaging, validation, logging, and
-   rollback
+4. Serving is fragile: it needs packaging, validation, logging, and rollback
+   boundaries
    [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
-5. If production behavior is invisible, add [[Model Monitoring]] and connect it
-   to data observability
+5. Production behavior is invisible: it needs [[Model Monitoring]] connected to
+   data observability
    [[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]].
-6. If features are duplicated or inconsistent, evaluate a feature platform
+6. Features are duplicated or inconsistent: it may need a feature platform
    [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
-7. If every project repeats the same setup, create templates and CI/CD
+7. Every project repeats the same setup: it may need shared templates and CI/CD
    workflows
    [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
-8. If the organization is regulated or high-risk, add governance metadata,
+8. The organization is regulated or high-risk: it needs governance metadata,
    approvals, lineage, and audit trails early
    [[cite:building-production-ml-platform-and-mlops-team@40:57=>Production ML Platforms]].
 
 [[person:geojolly=>Geo Jolly]] adds the product lens in
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 The episode connects in-house platform strategy and vendor evaluation to
-observability and KPIs. Use that as the standard for framework selection.
+observability and KPIs. Use that as the standard for component selection.
 Choose tools and conventions that make teams faster, safer, and more
 measurable.
 
@@ -478,8 +470,8 @@ Build toward a platform only after repeated work or operational risk justifies
 it. Simon's build-versus-buy discussion puts the burden on integration and
 workflow fit, even when the team buys an end-to-end platform
 ([[cite:building-production-ml-platform-and-mlops-team@17:14=>Build vs Buy ML Platforms]]).
-Use the smallest framework the team can apply consistently while still shipping
-and maintaining reliable models.
+Use the smallest component map the team can apply consistently while still
+shipping and maintaining reliable models.
 
 ## Architecture Checklist
 
@@ -512,5 +504,5 @@ covers these points:
 
 Good MLOps architecture isn't the largest diagram. It's the smallest production
 map that lets a team reproduce a model, deploy it safely, and observe what
-changes after release. It also gives the team a practical framework for
+changes after release. It also gives the team a practical structure for
 improving, rolling back, or retiring the model when the evidence demands it.

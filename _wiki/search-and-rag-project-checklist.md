@@ -12,23 +12,27 @@ related:
   - Graph RAG vs Vector RAG
 ---
 
-A search or RAG project proves retrieval before generation. A reviewer should
-see the corpus, chunking plan, metadata, and retrieved chunks. The same review
-should show prompt context, citations, evaluation results, and failure labels.
-Those review signals make the project a retrieval system, not only a chat UI.
+Use this search or RAG checklist after choosing the project idea. It turns one
+specific project into a reviewable README or notebook. It can also structure a
+project page. Use [[RAG Portfolio Projects]] first when the decision is still
+about project type.
 
-After the project scope is clear, use this checklist to decide what a README,
-notebook, or review page needs to show:
+Go there for source-cited assistants and search-first benchmarks. It also covers
+graph RAG comparisons, career-transition projects, and production-minded demos.
+
+For the chosen project, prove retrieval before generation. A reviewer should see
+the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
+fields make the work reviewable as a retrieval system, not only as a chat UI.
+
+Use this checklist to decide what the project page needs to show:
 
 - corpus choice and chunking
 - retrieval baselines and citations
 - evaluation, traces, and production tradeoffs
 
 Use
-[[RAG Portfolio Projects]]
-for project-type ideas and
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-for the base concept. For the detailed eval procedure, use
+for the base concept and
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 For sequencing retrieval work inside a larger product plan, use the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
@@ -46,14 +50,14 @@ failure categories, and MVP logs and traces
 
 ## Corpus and Chunking
 
-Choose a corpus where grounding matters. Podcast transcripts, support docs,
-policy documents, and research papers work well. Product manuals and internal
-wiki exports also work.
+Choose the corpus named by the project idea. Podcast transcripts, support docs,
+and policy documents work when the answer needs source grounding. Research
+papers, product manuals, and internal wiki exports can work too.
 
-The project should show why the corpus needs retrieval and what a citation
-references. For transcript data, cite the episode and guest plus the timestamp
-and nearby speaker context. For documents, cite the title and section plus the
-version and source owner when that metadata exists.
+Show why that corpus needs retrieval and what a citation references. For
+transcript data, cite the episode and guest. Add timestamped speaker context
+nearby. For documents, cite the title and section. Add version plus source owner
+when that metadata exists.
 
 Chunking is a design choice, not a cleanup detail. Podcast data can be chunked
 by speaker turn or question. It can also be chunked by chapter or time window.
@@ -79,8 +83,10 @@ retrieval count instead of stuffing every source into one prompt.
 Build retrieval before generation by starting with keyword search or another
 simple baseline. Compare vector retrieval, filters, reranking, and hybrid
 search on the same questions before asking the LLM to write final answers. A
-search-first README can show where keyword search wins, where embeddings win,
-and where metadata filters are required.
+search-first project can show where keyword search wins, where embeddings win,
+and where metadata filters are required. If the project type is still unclear,
+use the search-first option on [[RAG Portfolio Projects]] before filling in this
+checklist.
 
 [[person:danielsvonava=>Daniel Svonava]] supports that
 order by separating candidate retrieval from ranking, explaining embeddings,
@@ -115,7 +121,7 @@ source chunk a reviewer can open.
 
 Atita's RAG discussion places prompt design and citations after retrieval
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-The project should preserve that order: first prove the retriever found useful
+Preserve that order in the review page: first prove the retriever found useful
 context, then prove the prompt used it correctly.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] draws the
@@ -176,13 +182,14 @@ or
 when questions depend on explicit relationships, provenance paths, entities, or
 domain semantics.
 
-Graph or structured retrieval changes the portfolio evidence too. A vector RAG
-project should show chunks, embeddings, similarity scores, and citation metadata. A
-graph RAG project should show entity and relationship definitions, query
-results, graph paths, and provenance. Hybrid retrieval should show whether each
-answer part came from semantic search, structured lookup, filters, or reranking.
+Graph or structured retrieval changes the checklist fields too. A vector RAG
+project should show chunks, embeddings, similarity scores, and citation
+metadata. A graph RAG project should show entity and relationship definitions,
+query results, graph paths, and provenance. Hybrid retrieval should show whether
+each answer part came from semantic search, structured lookup, filters, or
+reranking.
 
-## Portfolio Review Checklist
+## Ready to Review
 
 A search or RAG project is ready to review when the page, notebook, or README
 shows the corpus and chunking strategy. It should also show the metadata schema

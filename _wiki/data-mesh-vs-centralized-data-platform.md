@@ -20,35 +20,33 @@ related_wiki:
   - Platform Adoption
 ---
 
-Data Mesh and a centralized data platform assign ownership differently. Data
-Mesh moves data meaning and quality expectations toward domain teams. It moves
-consumer support there too.
+The decision is where ownership should sit, and the [[Data Mesh]] concept page
+covers the operating model. This comparison focuses on whether product meaning,
+quality commitments, and consumer support should move to domain teams or remain
+closer to a shared data/platform team.
 
-A centralized [[data-engineering-platforms=>Data Engineering Platform]]
-keeps more implementation and governance in a shared team. It also keeps more
-reliability and support there. Compare them as ownership models, not as a
-modern-versus-old ranking.
+A centralized [[data-engineering-platforms=>Data Engineering Platform]] can
+still offer self-service and product-like interfaces. The decision isn't
+modern versus old. It's whether shared execution or domain ownership is the
+constraint that most needs relief.
 
-Both models still need [[Data Products]] and [[Data Governance]] when many teams
-depend on the same outputs. They also need [[DataOps]] and
-[[self-service-data-platforms=>Self-Service Data Platforms]].
+Both models still need [[Data Products]], [[Data Governance]], [[DataOps]], and
+[[self-service-data-platforms=>Self-Service Data Platforms]] when many teams
+depend on the same outputs.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 ## Ownership Assignment
 
-[[Data Mesh]] decentralizes data-product ownership while keeping shared
-standards. The model starts from enterprise data friction: centralized queues
-slow down value when business meaning has to travel through one data team.
-Domain teams publish data products with producer and consumer commitments, while
-self-serve platform capabilities and federated governance keep those products
+Choose Data Mesh when the main bottleneck is ownership of meaning. Domain teams
+publish data products with producer and consumer commitments, while self-serve
+platform capabilities and federated governance keep those products
 interoperable.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-A centralized data platform assigns more of the common path to a shared data or
-platform team. Storage, compute, workflow engines, and self-service SQL stay in
-one platform model. Reproducible pipelines, lineage, and versioning stay there
-too.
-Domain teams may still explain business meaning, but the central team owns more
-implementation work and operating responsibility.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+Choose a centralized platform when the main bottleneck is shared execution. One
+team can keep storage, compute, workflow engines, and self-service SQL on a
+common path. The same team can keep reproducible pipelines, lineage, and
+versioning there too. Domain teams may still explain business meaning, but the
+central team owns more implementation work and operating responsibility.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Both models need a reliable [[Data Products]] interface. Metadata, quality
 expectations, service levels, and ownership decisions define the producer side.
@@ -57,13 +55,10 @@ Discoverability and trust determine whether consumers can use the output.
 
 ## Competing Boundaries
 
-The Data Mesh view puts the center of gravity in domain ownership. Teams close
-to a business domain own the data products they publish. That includes
-contracts and metadata. It also includes quality signals, service levels, and
-consumer support.
-
-The same model still keeps identity and authorization in a shared layer.
-Platform federation and automated governance stay shared too.
+In Data Mesh, product accountability moves into the domain through meaning,
+contracts, and metadata. It also includes quality signals, service levels, and
+consumer support. Identity, authorization, platform federation, and automated
+governance still need a shared layer.
 [[cite:data-mesh-architecture-decentralized-data-products@13:20=>Data Mesh Implementation]]
 
 The DataOps view is more cautious about splitting responsibility. Teams need
@@ -72,7 +67,7 @@ many domains. They also need workflow discipline, governance, and quality
 automation.
 [[cite:dataops-principles-and-scalable-data-platforms@57:46=>DataOps 101 for Scaling Data Platforms]]
 
-The self-service platform view supports domain autonomy only when the shared
+The self-service platform view supports either model only when the shared
 platform gives teams a reliable way to build. Onboarding, Airflow conventions,
 and playbooks turn shared tools into a supported surface. Kafka schemas, schema
 registries, and data contracts make that surface explicit.
@@ -119,9 +114,8 @@ explicit.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for 
 The practical boundary is repeatability. Keep capabilities shared when every
 team needs the same safe path. That includes orchestration templates and schema
 practices. It also includes access controls, lineage, monitoring, and deployment
-conventions.
-Move product
-ownership to domains when the hard part is semantic context, consumer
+conventions. Move product ownership to domains when the hard part is semantic
+context, consumer
 commitments, prioritization, and support.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 ## Governance Boundary

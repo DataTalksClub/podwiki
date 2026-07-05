@@ -10,12 +10,10 @@ related:
   - DataOps
 ---
 
-Data Mesh is a data platform and organization model where business domains own
-the data they publish for others. Instead of routing every analytical need
-through one central data team, a mesh asks domains to publish trustworthy
-[[data products]]. Those products
-need owners, metadata, quality expectations, and consumer-facing contracts.
-The core DataTalks.Club episode is
+Data Mesh is an operating model for domain-owned analytical data. Business
+domains publish trustworthy [[data products]] for other teams to use. Each
+product has an owner, metadata, quality expectations, and consumer-facing
+contracts. The core DataTalks.Club episode is
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 
 A shared [[data-engineering-platforms=>data engineering platform]]
@@ -23,13 +21,16 @@ keeps that decentralization usable through self-service infrastructure and
 identity. It also provides access controls, observability, and common standards.
 That makes Data Mesh a close neighbor of
 [[self-service-data-platforms=>self-service data platforms]],
-[[data governance]], and [[DataOps]].
+[[data governance]], and [[DataOps]]. For the architecture choice between this
+operating model and a more centralized platform organization, use
+[[Data Mesh vs Centralized Data Platform]].
 
 ## Operating Definition
 
 Data Mesh moves ownership toward business domains while keeping
 interoperability central. A domain doesn't merely expose a table, topic, or
-dashboard. It publishes an interface that other teams can discover and build on.
+dashboard. It publishes an interface that other teams can discover, trust, and
+build on.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 That trust requirement links the operating model to
 [[data-trust-and-strategy=>data trust and strategy]].
@@ -52,17 +53,17 @@ Dehghani grounds that operating model in four principles
 
 The same episode ties those pieces together through metadata. It also covers
 self-service platform abstractions and federated governance.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
-The platform side matters because domain ownership is only practical when teams
-share tooling. Teams also need conventions, schemas, and playbooks instead of
-rebuilding their own infrastructure paths.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
+Platform teams make domain ownership practical by giving teams shared tooling.
+Conventions, schemas, and playbooks keep domains from rebuilding their own
+infrastructure paths.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 ## Boundaries of Decentralization
 
-The main boundary question is whether decentralization removes more delay than
-it adds coordination cost. Data Mesh fits organizations where centralized
-architecture creates slow paths to value and one team can't absorb all domain
-context. It's weaker as a single tooling rollout because the model changes
-ownership, product commitments, platform support, and governance
+The main boundary question is whether domain ownership removes more delay than
+it adds coordination cost. Data Mesh fits organizations where one shared data
+team can't absorb all domain context. It's weaker as a single tooling rollout
+because the model changes ownership, product commitments, platform support, and
+governance
 responsibilities.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 The [[DataOps]] view adds a maturity test. Responsibility can move to domains
@@ -82,12 +83,10 @@ operational meaning becomes accountable for the data product it publishes. That
 accountability includes producer work, consumer communication, quality
 expectations, and change management.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-This is why [[Data Mesh vs Centralized Data Platform]]
-is a real architecture and organization tradeoff. A centralized platform can
-still own storage, compute, workflow engines, and access primitives. It can
-also own shared standards. Data Mesh moves product meaning, prioritization, and
-consumer commitments toward domains. The split works only when the platform
-makes the domain path easier than informal one-off pipelines.
+The operating split works only when the platform makes the domain path easier
+than informal one-off pipelines. For the decision between domain-owned products
+and centralized platform ownership, see
+[[Data Mesh vs Centralized Data Platform]].
 
 Domain ownership also changes the role of central data teams. They become
 platform and enablement teams, not ticket queues for every dataset. The central
@@ -176,10 +175,13 @@ model it replaces.
 
 Smaller teams can still borrow useful parts without reorganizing around a full
 mesh. They can name owners for important datasets and define product
-interfaces. They can also write contracts, expose quality signals, document
-access rules, and add self-service paths where repeated demand exists. The full
-Data Mesh model becomes more compelling when many domains need autonomy and the
-central data team has become a bottleneck.
+interfaces. They can also write contracts and expose quality signals. Access
+rules and self-service paths help where demand repeats.
+
+The full Data Mesh model becomes more compelling when many domains need autonomy
+and a shared team can no longer provide the context and support. The decision
+boundary is covered in
+[[Data Mesh vs Centralized Data Platform]].
 
 ## Related Pages
 
@@ -195,7 +197,7 @@ data product ownership, platform enablement, governance, and operations.
 - [[Data Quality and Observability]]
 - [[Platform Engineering]]
 
-For related episode navigation, use
+For episode context, use
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 and

@@ -12,60 +12,55 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-In a RAG portfolio project, the builder turns a real document corpus into a
-retrieval-backed LLM system whose answers can be checked against source
-evidence. The project is stronger when the demo shows retrieved passages and
-answer citations. It should also show metadata, evaluation runs, and failure
-labels instead of only a polished chat UI.
+RAG portfolio projects turn a real document corpus into hiring evidence for
+retrieval-backed LLM work. Choose the project idea here by naming the RAG
+project type and the role signal it sends. Link the idea to the podcast
+discussions that make it defensible.
 
-RAG portfolio work starts with project type and framing. The examples cover
-source-cited assistants, search-first systems, and evaluation reports. They also
-cover agentic boundaries, graph RAG, career-transition projects, and
-production-minded demos. The [[Search and RAG Project Checklist]]
-names the execution fields a reviewer should look at.
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-defines the base concept, and
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-defines the evaluation procedure.
+Use the
+[[Search and RAG Project Checklist]] after choosing one project idea. After that,
+use the checklist for corpus fields and chunking notes. It also covers retrieval
+baselines, citation behavior, traces, and evaluation fields.
 
-A clear project structure moves from retrieval-augmented generation to
-transcript chunking and vectorization, then adds prompt context, citations, and
-multi-level RAG evaluation
+The strongest portfolio ideas make the source evidence inspectable instead of
+showing only a polished chat UI. Atita Arora's transcript example starts with
+RAG, chunking, and vectorization. It then adds prompt context, citations, and
+multi-level evaluation
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-
-The portfolio review standard pairs representative gold tests with failure
-analysis and ties the review to logs or traces
+Hugo Bowne-Anderson's practical RAG discussion adds representative gold tests,
+failure analysis, and logs or traces
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-Read RAG portfolio examples with
+Read these RAG project ideas with
 [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
-[[Portfolio Projects]] and the broader
+[[Portfolio Projects]], and the broader
 [[Machine Learning Portfolio Projects]]
-standard. The
+standard. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+defines the base concept,
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
+defines the evaluation procedure. The
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
-adds a staged path from scoped assistant to
-retrieval, evaluation, serving, and operations controls.
+adds a staged path from scoped assistant to retrieval, evaluation, serving, and
+operations controls.
 
-## Reviewable RAG Project
+## Choosing the Project Type
 
-A strong RAG portfolio project is the full retrieval loop. The project ingests
-source documents and splits them into useful chunks. It keeps metadata,
-retrieves evidence for a question, passes that evidence to the model, and cites
-sources a reviewer can open.
+A RAG portfolio project should make the retrieval problem visible. A transcript
+assistant and a support-docs assistant show source-grounded answering. A
+search-first benchmark, graph RAG comparison, or production-minded demo proves a
+different skill.
 
 Podcast transcripts are a concrete example because long transcripts need
-chunking, overlap, and vectorization. The answer path then needs retrieval and
-augmentation before generation and citations
+chunking and overlap before vectorization. The answer path then needs retrieval
+and augmentation before generation. Citations come after that
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Podcast Transcript Chatbot]],
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking and Vectors]]).
-If the source audio starts outside the text corpus, a transcript step such as
-Whisper becomes part of the project scope before chunking and evaluation.
-The project should test embedding choices and chunking strategy. It should also
-test retrieval quality and final answer quality.
 
-A transcript-RAG build is stronger than a generic chat wrapper when reviewers
-can look at the audio-to-transcript path and chunk metadata. Reviewers should
-also see vector retrieval, prompt context, citations, and failure labels.
+If the source audio starts outside the text corpus, add a transcript step such as
+Whisper before chunking and evaluation. That story makes the project more
+specific than a generic chat wrapper. The builder can explain the
+audio-to-transcript path and chunk metadata. They can also explain retrieval
+choices, prompt context, and citations.
 
 Retrieval is preferable when a company's knowledge base changes, because the
 system can re-index documents instead of repeatedly retraining the model. This
@@ -75,14 +70,13 @@ makes grounding part of the project definition, not an optional README flourish
 Representative gold tests and failure categories turn a RAG demo into a
 debuggable system. Logs and traces make that review practical
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-A portfolio reviewer should be able to see which questions failed because of
-retrieval or chunking. Other failures may come from prompting, formatting, or
-source preparation.
+For the field-by-field version of that evidence, use the
+[[Search and RAG Project Checklist]].
 
-## Review Signals
+## Portfolio Signals by Project Type
 
-Approaches differ on which part of the project needs the strongest proof. A
-search-engineering standard emphasizes
+Project ideas require different proof. A search-engineering project puts weight
+on
 [[information retrieval]],
 chunking, and metadata. It also covers vector search choices, prompt context,
 citations, and multi-level evaluation
@@ -91,7 +85,7 @@ That view treats a
 [[vector-databases=>vector database]] as one
 retrieval component, not the whole project.
 
-A practical-shipping standard treats RAG as a quick business win when the
+A practical-shipping project treats RAG as a quick business win when the
 knowledge base and chunking strategy fit the task. It adds tools or
 [[agent-engineering=>agents]] only when lookup is
 not enough. The examples move from RAG into tool calls, memory, and agentic
@@ -105,8 +99,8 @@ when the problem needs dynamic planning, multiple data sources, or API
 integrations
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-The same project can be framed against fine-tuning and serving choices. Changing
-knowledge belongs in retrieval, while style and domain adaptation fit
+The same portfolio idea can be framed against fine-tuning and serving choices.
+Changing knowledge belongs in retrieval, while style and domain adaptation fit
 fine-tuning. Production readiness depends on model drift and hosting choices. It
 also depends on latency, cost, and privacy
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
@@ -134,13 +128,16 @@ and citations
 Simple RAG bots with good chunking and embeddings are practical wins
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-The portfolio version should therefore show example questions, retrieved
-passages, answer citations, and unsupported-question refusals. It should also
-expose missed evidence. Each layer of the RAG pipeline warrants evaluation
+The portfolio version should use example questions, retrieved passages, and
+answer citations as visible proof. Add unsupported-question refusals and missed
+evidence too.
+Each layer of the RAG pipeline warrants evaluation
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Failures should be labeled as retrieval, generation, formatting, or source
 preparation problems
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+The [[Search and RAG Project Checklist]] turns those signals into a concrete
+review rubric.
 
 ## Search-First RAG System
 
@@ -151,14 +148,14 @@ ingestion encoding, query-time encoding, and hybrid search all connect to
 retrieval design
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
-This project is strongest when the README compares retrieval approaches on the
-same questions. Search quality ties to business metrics and A/B tests, as well
-as to offline evaluation and fast iteration
+A search-first project is strongest when the README compares retrieval
+approaches on the same questions. Search quality ties to business metrics and
+A/B tests, as well as to offline evaluation and fast iteration
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
-A portfolio project can show keyword baselines and vector retrieval. It can
-compare hybrid search, filters, ranks, and failure cases before generated
-answers. This is especially relevant for
+A portfolio project can use keyword baselines and vector retrieval as the main
+story. It can compare hybrid search, filters, ranks, and failure cases before
+generated answers. This is especially relevant for
 [[embeddings]],
 [[information retrieval]],
 and
@@ -173,20 +170,12 @@ categories that route the next fix to retrieval or prompting, with formatting
 and data preparation as separate classes. Logs and traces make the MVP debuggable
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-A portfolio version can show a small evaluation table with the question and
-expected evidence. Add retrieved chunks and scores. Record prompt version,
-model version, and answer. Include latency and cost.
-Feedback, failure class, and next fix turn
+The portfolio version can center the writeup on a compact evaluation report.
+Include questions, expected evidence, retrieved evidence, and scores. Also
+record prompt and model versions, the answer, latency, and cost. Feedback,
+failure class, and next fix turn
 [[LLM Evaluation Workflows]]
 into visible project evidence rather than a claim in the README.
-
-The same idea extends when retrieval becomes one tool inside a larger
-[[agent-engineering=>AI agent]] workflow. Agent evaluation uses custom datasets,
-mocked tools, integration tests, and outcome assertions
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-A portfolio project can show this with a compact evaluation report that includes
-the query and expected evidence. It should also include retrieved evidence, the
-answer, a failure class, and the next retrieval fix.
 
 ## Agentic RAG Boundary
 
@@ -257,10 +246,9 @@ cost, and hardware. It also places changing knowledge in retrieval and grounding
 rather than repeated retraining
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-For portfolio evidence, document how the system re-indexes sources, which
-embedding and model versions it uses, and how latency and cost would be
-handled. Name privacy limits and hosted API risks too. These constraints connect
-the project to
+For portfolio evidence, frame the demo around re-indexing and version choices.
+Name latency, cost, privacy limits, and hosted API risk too. These constraints
+connect the project to
 [[LLM Production Patterns]],
 [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]],
 and the

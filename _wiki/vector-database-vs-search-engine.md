@@ -20,36 +20,34 @@ related_wiki:
   - Production Search Evaluation
 ---
 
-A [[vector-databases=>vector database]] stores [[embeddings]] and retrieves
-nearby vectors. A [[search=>search engine]] indexes text and fields while also
-handling filters, metadata, and ranking signals. Modern search engines may
-also store vectors. The practical comparison is less "vector database or
-search engine" and more "which part of the retrieval stack should own semantic
-matching?"
+A [[vector-databases=>vector database]] can own vector storage and nearest-neighbor
+retrieval. A [[search=>search engine]] can own text analysis, inverted indexes,
+and fielded queries. It can also own filters, ranking signals, and serving.
+Modern search engines may store vectors, so the infrastructure question isn't
+whether semantic search is useful. It's which system should own vectors,
+filters, ranking, and operations.
 
-This comparison draws the infrastructure boundary around vector storage and
-indexing. Filtering, ranking, and serving stay in the same infrastructure
-decision. For the matching-method question, use
-[[Vector Search vs Keyword Search]]
-on lexical retrieval, vector retrieval, and hybrid retrieval.
+This comparison focuses on infrastructure ownership. [[Vector Databases]]
+covers storage and approximate-nearest-neighbor indexing, while
+[[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
+retrieval methods.
 
 Modern search migration often starts in classical information retrieval and
-then adds NLP query matching. Vector search can sit beside existing search
-infrastructure. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-Production search adds another frame. It separates candidate retrieval from
-ranking and vector storage from vector compute before deciding where hybrid
-retrieval belongs. [[cite:building-production-search-systems=>Building Search Systems]]
+adds NLP query matching or vector search beside existing search infrastructure
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+Production search adds the operating constraint. Teams separate candidate
+retrieval from ranking and vector storage from vector compute before deciding
+where hybrid retrieval belongs [[cite:building-production-search-systems=>Building Search Systems]].
 
 [[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]]
 cover explicit relationships. Those comparisons fit cases where similar
 documents, products, images, or chunks aren't enough.
 
-## Retrieval Ownership
+## Infrastructure Ownership
 
-A vector database stores learned representations and retrieves nearest
-neighbors. A search engine is a broader relevance system for indexing text and
-fields. It also filters results, ranks candidates, and serves the final result
-set.
+A vector database can own the vector index and nearest-neighbor lookup. A search
+engine can own text indexes, fielded queries, and metadata filters. It can also
+own rankers and the served result set.
 
 The dedicated-vector-database path fits teams that want semantic search around
 embeddings. Existing search infrastructure still stays in scope because search
@@ -60,23 +58,22 @@ The same split is operational: inverted indexes and ranking stay central while
 vector databases store embeddings and support nearest-neighbor search. They
 don't replace the rest of the relevance system. [[cite:building-production-search-systems=>Building Search Systems]]
 
-Use a dedicated vector database when semantic nearest-neighbor retrieval needs
-a separate retrieval path or fast iteration. Keep the existing search engine
-central when it already owns exact matching and filters. It may also own
-metadata, ranking, and freshness.
+Use a dedicated vector database when semantic nearest-neighbor retrieval needs a
+separate service boundary or independent scaling. It can also help when the
+existing search stack slows iteration. Keep the existing search engine central
+when it already owns exact matching, filters, and metadata. It may already own
+ranking, freshness, and production traffic too.
 
 Combine them when semantic recall matters but results still need lexical
 matching, metadata constraints, or business rules. Hybrid search shows why this
 combination is common. Vector similarity is only one signal beside constraints,
 recency, normalization, and query-time weights. [[cite:building-production-search-systems=>Building Search Systems]]
 
-This comparison belongs inside
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
-not a replacement story where vector search simply supersedes classical
-[[information retrieval]]. The architecture should improve retrieval and
-ranking together. It also has to improve production outcomes, which connects
-the choice to [[Production Search Evaluation]] and business
-metrics. [[cite:building-production-search-systems=>Building Search Systems]]
+In [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
+[[information retrieval]], vectors don't simply supersede classical search.
+Teams have to improve retrieval and ranking together, which connects the choice
+to [[Production Search Evaluation]] and business metrics
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 ## Search Migration Tradeoffs
 
@@ -108,14 +105,13 @@ A third boundary contrasts chunks in a vector database with graph semantics.
 Relationship-heavy retrieval may need a [[knowledge-graph-vs-vector-search=>knowledge graph]]
 instead of only nearest-neighbor chunks. [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
-## Retrieval and Ranking
+## Ranking Ownership
 
-A vector database retrieves by embedding similarity across text and images. It
-can also retrieve product, user, or other model-produced records.
-That makes the database useful for semantic recall and multimodal
-retrieval. [[cite:building-production-search-systems=>Building Search Systems]]
+A vector database retrieves candidates by embedding similarity across text and
+images. It can also retrieve products, users, sessions, or other model-produced
+records [[cite:building-production-search-systems=>Building Search Systems]].
 A recommendation example adds session-based retrieval and reranking to the same
-vector-search family. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+vector-search family [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 A search engine retrieves through inverted indexes and analyzed text. It also
 uses fields, filters, and rankers. The inverted index supports candidate
@@ -126,25 +122,24 @@ Solr and Lucene make the same point from the classical search side. [[cite:moder
 Vector databases are strong at finding semantically near candidates. Search
 engines are strong at combining many relevance signals into a served result
 set. A pure vector path can return plausible neighbors that miss constraints,
-dates, metadata filters, or source requirements.
+dates, or metadata filters. It can also miss permissions or source
+requirements.
 
 Hybrid search adds filters and recency. It also adds constraints,
 normalization, and query-time weights to the relevance decision. [[cite:building-production-search-systems=>Building Search Systems]]
-A pure lexical path can miss semantic recall when the query's wording differs
-from the indexed text. That weakness sits next to synonym and configuration
-debt in the same episode.
+The lexical-versus-semantic failure modes belong in [[Vector Search vs Keyword Search]].
+For this page, the ownership issue is whether those hybrid signals live in one
+search engine or across a search engine plus vector database.
 
-## RAG and Semantic Search
+## RAG Infrastructure
 
 For [[retrieval-augmented-generation=>retrieval-augmented generation]],
-a vector database is useful when the system must retrieve passages whose
-wording may not match the user's question. A transcript chatbot starts by
-ingesting or transcribing documents. The system then chooses chunk size and
-overlap, creates embeddings, and retrieves relevant chunks. It passes those
-chunks into the prompt and returns citations. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-
-In that flow, the vector database is the
-retrieval component, not the whole RAG product.
+a vector database can own the passage-similarity lookup. A transcript chatbot
+still needs ingestion or transcription, chunk size and overlap choices, and
+embedding creation. It also needs prompt packaging and citations
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+In that flow, the vector database owns one retrieval component, not the whole
+RAG product.
 
 A search engine remains relevant in RAG when retrieval needs exact source
 selection and metadata filters. It also handles freshness and hybrid ranking.
@@ -156,18 +151,19 @@ but teams still need source controls. They also need deliberate indexing
 design. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Taken together, these accounts treat RAG as search infrastructure plus context
-packaging. A RAG evaluation section separates ingestion choices, retrieval
-strategy, and answer quality. It also adds citation quality, offline tests, and
-human review. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+packaging. RAG evaluation separates ingestion choices and retrieval strategy
+from answer quality. It also checks citation quality, offline tests, and human
+review
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 That puts vector-store selection inside a broader retrieval and evaluation
-loop.
+process.
 
 ## Product Search and Recommendations
 
-For product search, hybrid retrieval is more useful than a single vector
-lookup. The retrieval path can move from inverted indexes and candidate
-generation to dense representations and vector databases. Hybrid filters then
-add recency and other constraints. [[cite:building-production-search-systems=>Building Search Systems]]
+For product search, the infrastructure decision often starts with an existing
+search engine that already serves traffic. Teams can add dense representations
+and vector databases beside inverted indexes and candidate generation. Hybrid
+filters then add recency and other constraints [[cite:building-production-search-systems=>Building Search Systems]].
 Ecommerce prototyping can use embeddings and CLIP-style retrieval to find
 candidates, while ranking, constraints, and production measurement remain
 search work.
@@ -196,9 +192,9 @@ infrastructure with a standalone vector database. [[cite:modern-search-systems-v
 Lucene and Elasticsearch sit next to specialized vector databases in the same
 choice set. [[cite:building-production-search-systems=>Building Search Systems]]
 
-The operational question isn't which label is newer. It's which component
-should own semantic retrieval without breaking ranking, filters, monitoring, or
-iteration speed.
+Teams shouldn't choose the newer label by default. They should choose the
+component that can own semantic retrieval without breaking ranking, filters,
+monitoring, or iteration speed.
 
 ## Evaluation Criteria
 

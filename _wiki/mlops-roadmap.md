@@ -19,32 +19,28 @@ related_wiki:
   - DataOps
 ---
 
-An MLOps roadmap turns model training into a repeatable production lifecycle.
-The lifecycle starts with tracked experiments and artifact handoff. It then
-moves into deployment, monitoring, retraining decisions, and eventually shared
-platform support. That path runs through
-[[MLOps]], [[MLOps Architecture]], and
-[[ML Platforms]]. For infrastructure
-and data boundaries, use
-[[Machine Learning Infrastructure]]
-and [[DataOps]].
+An MLOps roadmap gives the order for learning and rolling out production ML
+work. Start by making one training run reproducible. Then package one model,
+add a handoff path, and observe production behavior. After that, decide when
+retraining is allowed and turn repeated work into shared platform support.
+
+Use [[MLOps Architecture]] for the system design and component boundaries. Use
+[[MLOps Engineer]] for role ownership and responsibility evidence. The roadmap
+sequence names what to learn, build, and standardize first. For infrastructure
+and data boundaries, use [[Machine Learning Infrastructure]] and [[DataOps]].
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 describes MLOps as a mix of people, operating habits, and technology in
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 A practical roadmap starts with a reproducible run and a shipped model. It then
-grows toward production observation, failure response, and a deliberate choice
-about when shared platform work is worth the cost.
+adds production observation, failure response, and a deliberate choice about
+when shared platform work is worth the cost.
 
-## Roadmap Structure
+## Roadmap Stages
 
-MLOps readiness means a team can move a model through a repeatable lifecycle.
-The first layer is
-[[Experiment Tracking]] and
-[[Reproducibility]]. The next
-layer is artifact handoff and deployment.
-[[Model Registry]],
-[[Model Monitoring]], and
+MLOps readiness grows in stages. First, a learner or team proves
+[[Experiment Tracking]] and [[Reproducibility]]. Next, they add artifact
+handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
 [[MLOps Architecture]] shows how those pieces connect in the operating flow.
 
@@ -72,8 +68,8 @@ same across teams
 
 The roadmap is both technical and organizational. A junior practitioner learns
 to make one model reproducible and deployable. A senior practitioner makes the
-lifecycle useful to other teams. They measure adoption and keep production
-models observable.
+lifecycle useful to other teams. [[MLOps Engineer]] covers that role boundary in
+more detail. Use this roadmap for the milestones in learning order.
 
 For senior work, developer experience and team pain points drive the platform
 agenda. Quick wins and impact tracking show whether platform work helps teams

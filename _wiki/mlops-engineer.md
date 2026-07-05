@@ -15,24 +15,20 @@ related:
   - Experiment Tracking
 ---
 
-An MLOps engineer makes machine learning deliverable after the notebook stage.
-The role gives model builders a repeatable path from experiment to artifact and
-from release to repair. It sits inside
-[[MLOps]] and often overlaps with
-[[ML platforms]],
+An MLOps engineer owns the engineering practices that make machine learning
+models reproducible, deployable, observable, and supportable after the notebook
+stage. The role sits inside [[MLOps]] and often overlaps with [[ML platforms]],
 [[machine-learning-engineer-role=>machine learning engineering]],
-[[data-engineer-role=>data engineering]], and
-[[platform engineering]].
+[[data-engineer-role=>data engineering]], and [[platform engineering]].
 
 MLOps spans people, workflow, and technology. It gives data scientists
 reproducible practices and teaching while adding reusable infrastructure with
 clear standards.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
-The role has two practical sides. One side describes the job, and the other
-assigns ownership of an MLOps framework after the architecture is drawn. In
-both cases, the engineer operates the shared model lifecycle. They turn
-[[MLOps Architecture]] into repositories, pipelines, and registries. They also
-maintain serving paths, monitoring, documentation, and support habits
+Use [[MLOps Architecture]] for the component map and [[MLOps Roadmap]] for the
+learning sequence. The MLOps engineer turns the architecture into repositories,
+pipelines, and registries. They also maintain serving paths and monitoring.
+Documentation and support habits help teams avoid a new handoff every time
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
@@ -277,15 +273,15 @@ Serving and model monitoring are too
 ([[ML Platforms]],
 [[Developer Experience]]).
 
-## Tools and Platform Coverage
+## Responsibility Coverage
 
-Treat tools as coverage areas before treating them as a shopping list. Standard
-engineering habits and adopted workflows matter more than broad tool
+Treat tools as responsibility coverage before treating them as a shopping list.
+Standard engineering habits and adopted workflows matter more than broad tool
 collections
 ([[MLOps Tools]],
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
 
-A practical MLOps engineer stack should cover:
+An MLOps engineer is usually accountable for these coverage areas:
 
 - version control, code review, CI/CD, tests, and release automation
   ([[ci-cd=>CI/CD]]).
@@ -320,31 +316,32 @@ many teams need similar model-serving paths
 In startups, SaaS-first choices and a leaner stack can still keep enough
 automation to avoid unmaintainable MVPs.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
-## Learning Sequence
+## Growth Signals
 
-Use the [[MLOps Roadmap]] as a build
-sequence, not a course catalog:
+Use [[MLOps Roadmap]] for the step-by-step build sequence. For the role, focus
+on which responsibilities the engineer can own.
 
-1. Train one model and save the artifact, metric, code, dependencies, and data
-   reference.
-2. Make the run reproducible with experiment tracking or a structured logging
-   convention.
-3. Package inference as a batch job or API with input validation, prediction
-   logging, error handling, and a clear runtime environment.
-4. Add CI/CD for tests, packaging, container builds, deployment checks, and
-   configuration changes.
-5. Add a registry convention with owner, version, evaluation result, approval
-   state, deployment target, and rollback notes.
-6. Monitor input quality, prediction distributions, latency, errors, service
-   health, and one business or proxy metric.
-7. Turn repeated work into platform templates, shared logging, deployment
-   guides, and self-service paths only after several projects repeat the same
-   steps.
+At the first level, an MLOps engineer can make one model reproducible. They can
+also make it deployable. They save the artifact, metric, code, and
+dependencies. They also save the data reference. Experiment tracking or a
+structured logging convention lets another person look at the run
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Experiment tracking and registries work as early platform wins. Version control
-and CI/CD make the engineering base, with registries and monitoring alongside
-them. Team pain comes first, and adoption and quick wins come before broad
-standardization.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+At the next level, they own release and operation. They package inference as a
+batch job or API and add CI/CD. They define a registry convention and monitor
+service health. They also monitor input quality and prediction behavior. One
+business or proxy signal belongs in that view too.
+
+Maria's standardization discussion ties that work to version control and CI/CD.
+It also includes registries, deployment, and monitoring
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+
+At senior level, the engineer makes repeated work usable for other teams. They
+turn templates, shared logging, and deployment guides into adopted practices.
+Support paths and platform feedback become part of the same work. Raphaël
+Hoogvliets ties that senior work to team pain, quick wins, adoption feedback,
+and measurable impact
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Portfolio and Interview Signals
 

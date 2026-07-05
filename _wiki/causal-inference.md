@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Causal Inference"
-summary: "How podcast guests explain causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
+summary: "How podcast guests explain causal inference as reasoning about interventions, counterfactuals, and treatment effects."
 related:
   - Experimentation and Causal Inference
   - A/B Testing
@@ -11,32 +11,41 @@ related:
   - Machine Learning
 ---
 
-Causal inference is the part of analytics and machine learning that estimates
-what would change if a team intervened. It connects to
-[[experimentation and causal inference]], [[a-b-testing=>A/B testing]], and
-[[product analytics]]. Causal claims also depend on [[metrics]] and
-[[machine learning]] because the decision and the evidence have to match.
+Causal inference is the reasoning discipline for estimating what would change
+if a team intervened. It asks for the treatment and outcome first. It also asks
+which population and counterfactual comparison turn a data signal into evidence
+of cause. That makes it the concept page for causal structure and treatment
+effects. It also covers confounding, identification, and treatment-aware machine
+learning.
 
-Causal inference is most useful when teams need a counterfactual answer.
-Product, marketing, and ML teams may need to reason about a launch or campaign.
-The same logic applies to recommendations, treatments, and policy changes.
+The applied product question lives in
+[[experimentation and causal inference]], where teams choose evidence standards.
+That applied frame covers A/B tests and discovery experiments. It also covers
+marketing models and production rollout checks.
 
-[[person:aleksandermolak=>Aleksander Molak]] frames this as the difference
-between association and causation. [[person:jakobgraff=>Jakob Graff]] grounds it
-in randomized product experiments. [[person:juanorduz=>Juan Orduz]] applies it
-to marketing attribution and media mix modeling
+Causal inference keeps the underlying vocabulary and method boundaries,
+including treatments and counterfactuals. It also covers identification,
+confounding, and policy effects.
+
+The methods become operating decisions in [[a-b-testing=>A/B testing]],
+[[product analytics]], [[metrics]], and [[machine learning]].
+
+[[person:aleksandermolak=>Aleksander Molak]] frames causal inference as the
+difference between association and causation. [[person:jakobgraff=>Jakob Graff]]
+shows why randomized assignment can identify a product effect. [[person:juanorduz=>Juan Orduz]]
+applies causal thinking to marketing attribution and media mix modeling
 ([[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]],
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
 [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]]).
 
-## Interventions and Counterfactuals
+## Causal Questions and Counterfactuals
 
-Causal inference estimates what would change if a team intervened. The
-intervention can be a product launch, a marketing campaign, or a pricing
-change. It can also be a recommender update, a churn treatment, or a policy
-change. That makes causal inference different from ordinary
-[[machine learning]] prediction:
-the model result can change the behavior that creates the next data point.
+Causal inference starts with an intervention question. A team may change a
+product launch, marketing campaign, or pricing policy. It may also change a
+recommender or churn treatment. The method asks what would have happened under a
+different action. Ordinary [[machine learning]] prediction can miss that question
+because the model output may change the behavior that creates the next data
+point.
 
 [[person:aleksandermolak=>Aleksander Molak]] starts from this difference in
 the causal ML episode. He separates association from causation, then uses
@@ -45,18 +54,16 @@ needs a counterfactual answer. The team needs to know what would have happened
 under another action
 ([[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]).
 
-Causal inference therefore sits next to
-[[experimentation and causal inference]],
-[[a-b-testing=>A/B testing]], and
-[[product analytics]]. Each
-field has to separate a change caused by the team from the baseline that would
-have happened anyway.
+That counterfactual vocabulary is what connects causal inference to
+[[experimentation and causal inference]] and [[product analytics]]. Product
+teams still have to choose an evidence standard for the decision. Causal
+reasoning checks whether the comparison isolates the effect of the
+intervention.
 
-## Treatment Effects and Decision Support
+## Treatment Effects and Comparisons
 
-Molak, Graff, and Orduz describe causal inference as decision support under
-intervention. They use different vocabulary, but they keep returning to the
-same structure.
+Molak, Graff, and Orduz use different settings, but each causal problem keeps
+the same structure.
 
 A causal inference problem needs these pieces:
 
@@ -81,18 +88,22 @@ higher lifetime value. Teams then turn a [[metrics=>metric]] discussion into a
 causal story about customer behavior
 [[cite:data-professionals-business-skills-in-saas@15:46=>SaaS Business Skills]].
 
-[[person:jakobgraff=>Jakob Graff]] gives the randomized
-version of the same idea in
-the product experimentation episode. He explains A/B testing through the
-clinical-trial setup. Teams randomly assign people, expose one group to the
-change, keep another as control, and compare outcomes. He frames the goal as
-causality in a noisy product environment
+[[person:jakobgraff=>Jakob Graff]] gives the randomized version of the same
+idea in the product experimentation episode. He explains A/B testing through the
+clinical-trial setup. Teams randomly assign people. One group gets the change,
+another stays as control, and the team compares outcomes.
+
+The method is experimental, but the causal structure still names treatment and
+control. It also names outcome and comparison
 ([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
 
-## Practice Boundaries
+## Identification and Confounding
 
-Causal inference should support a decision, but the operating constraint changes
-the practice.
+Causal claims need an identification strategy. The team has to explain why the
+observed comparison can stand in for the missing counterfactual. Randomization
+is one strategy, and observational data needs other checks. Teams may use causal
+feature selection, causal graphs, sensitivity analysis, or partial
+identification.
 
 Molak starts from causal structure. In the causal ML episode, he explains that
 unconfoundedness can come from randomized treatment assignment or from careful
@@ -100,74 +111,27 @@ causal feature selection. He adds refutation tests and estimator checks because
 standard validation doesn't prove that a causal structure is correct
 ([[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]).
 
-Graff starts from the experimentation system. In the A/B testing episode, he
-focuses on assignment and tracking. He also covers metric choice, sample size,
-and trust in the platform. He recommends A/A tests to check whether the
-machinery can split traffic and measure outcomes without inventing a difference
-([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
-
-[[person:juanorduz=>Juan Orduz]] starts from marketing
-measurement in
-the marketing data science episode. He describes media mix modeling and
-time-series counterfactuals for estimating campaign impact, then connects
-uplift modeling with treatment/control design and data pitfalls
-([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]]).
-
-[[person:liesbethdingemans=>Liesbeth Dingemans]] uses a
-broader product-design lens in
-the AI product design episode. She discusses parallel experiments, proofs of
-concept, and design sprints. These aren't always causal estimates, but they
-reduce uncertainty before a team invests in a full AI or ML product
-([[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]).
-
-## Observational Data and Confounding
-
-Observational data is useful when a randomized experiment is unavailable. It's
-also useful when randomization would be expensive, unethical, or too slow. It
-creates the main risk in causal inference because the data may mix the treatment
-effect with confounders.
-
-Molak illustrates the problem early in the causal ML episode. He uses
-confounder examples to show how a relationship can look predictive without
-being causal. He then explains why teams need either randomized treatment data
-or a defensible way to choose causal features. He also discusses partial
-identification and sensitivity. For cases where the data can't identify one
-clean answer, he uses causal graphs and minimal observables
+Observational data creates the main risk because the data may mix the treatment
+effect with confounders. Molak uses confounder examples to show how a
+relationship can look predictive without being causal. He then explains why
+teams need either randomized treatment data or a defensible way to choose causal
+features. When the data can't identify one clean answer, he uses causal graphs
+and minimal observables
 ([[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]).
 
-Marketing measurement often lives in this observational setting. In Orduz's
-episode, attribution becomes ambiguous because customers see several channels
-before converting. He describes multi-channel journeys and discusses privacy
-changes and cookieless tracking, which reduce the quality of user-level
-tracking data. That pushes teams toward aggregate models, stronger assumptions,
-and clearer communication with stakeholders
-([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]]).
+## Randomization as an Identification Strategy
 
-## Randomized Product Experiments
+Teams use randomized experiments in causal inference because assignment can make
+treatment independent of user characteristics. The team can then attribute a
+measured difference to the intervention with fewer assumptions.
 
-Teams get cleaner causal evidence from randomized experimentation when the
-product and ethics allow it. Randomization makes treatment independent of user
-characteristics, so the
-team can attribute a measured difference to the intervention with fewer
-assumptions.
-
-Graff's A/B testing episode gives the practical structure. The
-subscription-versus-points example shows that the primary metric changes the
-meaning of the experiment. He also discusses noisy metrics and stability, along
-with seasonality and business cycles
+Graff's A/B testing episode covers assignment, tracking, metric choice, and
+sample size. He also focuses on trust in the platform. He recommends
+[[a-a-testing=>A/A tests]] to check whether the machinery can split traffic and
+measure outcomes without inventing a difference
 ([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
-
-Power analysis turns effect size and variance into a test duration. It also
-uses the baseline rate and traffic
-([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
-
-These concerns connect causal inference to
-[[experimentation]] and
-[[a-b-testing=>A/B testing]]. A causal answer is
-only useful if the experiment answers the decision the team actually faces. A
-test with broken assignment or unclear triggering can still produce a p-value.
-The same is true for a test with a proxy metric that nobody trusts, but it
-won't settle the rollout decision.
+Those operating questions belong in more detail on
+[[experimentation and causal inference]] and [[a-b-testing=>A/B testing]].
 
 ## Treatment-Aware Machine Learning
 
@@ -193,32 +157,21 @@ through A/B tests, causality, and human labels. This is where
 [[machine learning system design]]
 meet causal thinking [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
-## Product Decisions Under Uncertainty
+## Observational Measurement Settings
 
-Product teams use causal inference when they need to know whether a feature or
-policy caused an outcome. Pricing changes, onboarding steps, and AI behaviors
-raise the same question. Product teams also need
-[[product analytics]] because
-causal claims depend on event tracking and metric definitions. Teams also need
-cohorts, guardrails, and stakeholder decisions.
+Marketing measurement often shows causal inference outside a clean product
+experiment. In Orduz's episode, attribution becomes ambiguous because customers
+see several channels before converting. Privacy changes and cookieless tracking
+reduce user-level tracking quality. That pushes teams toward aggregate models,
+stronger assumptions, and clearer communication with stakeholders
+([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]]).
 
-Graff's episode shows the controlled product experiment path. Teams define the
-decision, pick the metric, randomize, and validate the platform. Then they wait
-long enough to learn.
-
-Dingemans' product design episode covers earlier product uncertainty through
-interfaces that collect useful signals. She also uses scoping documents and
-"why" questions to challenge assumptions before a team commits to a solution.
-She connects experimentation culture with measurable product decisions. Teams
-can then avoid treating the first AI or ML idea as the committed plan
-([[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]).
-
-For product managers and analysts, the practical question isn't whether a
-method is labeled causal. The question is whether the evidence supports the
-decision. Use randomized tests when possible. Use observational causal methods
-when randomization is unavailable and the assumptions can be defended. Use
-prototypes and discovery experiments when the team still needs to learn what to
-build.
+Orduz describes media mix modeling and time-series counterfactuals for
+estimating campaign impact. He also connects uplift modeling with
+treatment/control design and data pitfalls
+([[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]]).
+The applied choice between these methods, A/B tests, and discovery experiments
+belongs on [[experimentation and causal inference]].
 
 ## Related Pages
 
