@@ -9,6 +9,7 @@ related:
   - Embeddings
   - Multimodal LLMs
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - RAG Evaluation Workflow
   - Search and RAG Project Checklist
   - RAG Portfolio Projects
@@ -120,8 +121,8 @@ prompt.[[cite:practical-llm-engineering-and-rag=>Practical RAG]]
 Long-document systems should add another separation. First test whether raw
 long context still works for the domain. Then decide whether chunking,
 retrieval, or summarization gives a more reliable path. That keeps RAG
-connected to [[long-context-llm-evaluation=>long-context evaluation]] instead
-of treating retrieval as only a workaround for small context windows
+connected to [[long-context-llm-evaluation=>long-context LLM evaluation]]
+instead of treating retrieval as only a workaround for small context windows
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 RAG also belongs to the broader [[llm-production-patterns=>LLM production]]

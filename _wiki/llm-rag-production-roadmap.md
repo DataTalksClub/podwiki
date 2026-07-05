@@ -10,6 +10,7 @@ related_wiki:
   - Retrieval-Augmented Generation
   - Search
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - Production Search Evaluation
   - Agent Engineering
   - AI Engineer Role
@@ -105,10 +106,15 @@ toward retrieval. Grounding and retrieval patterns then become production
 concerns
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-RAG combines search with generation. Chunking and embeddings make the system
-inspectable, prompt context and citations matter, and evaluation must cover both
-retrieval and answer quality
+RAG combines search with generation through chunking and embeddings. Prompt
+context and citations make the path inspectable enough to evaluate retrieval
+and answer quality
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+
+For long-document systems use
+[[long-context-llm-evaluation=>long-context LLM evaluation]] before choosing
+among a larger window, chunking, retrieval, and summarization
+([[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]).
 
 Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 when the failure could belong to retrieval, model behavior, or both.

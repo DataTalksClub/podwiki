@@ -115,9 +115,13 @@ path.[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Gui
 Choose tools based on the workflow the team needs to operate. Don't choose them
 just because the product says it's an end-to-end MLOps platform.
 
-Startup stacks can stay minimal. Python can cover scripts and training, and
-CI/CD can handle orchestration when possible. Dagster fits workflows that need a
-real orchestrator, MLflow covers tracking, and mature tools beat novelty.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
+Startup stacks can stay minimal.[[cite:lean-mlops-for-startups=>MLOps]]
+Python can cover scripts and training while CI/CD handles basic orchestration.
+
+Dagster can handle orchestration when workflow tooling is justified, and MLflow
+can cover tracking.
+Use [[lean-mlops-for-startups=>lean MLOps for startups]] when the tool question
+is how much stack an early team needs before a full platform.
 
 That advice contrasts with heavier platforms such as Kubeflow, Vertex AI, and
 SageMaker. They also bring setup cost, operational complexity, and lock-in

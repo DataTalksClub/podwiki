@@ -6,6 +6,7 @@ related:
   - Startups
   - Founder
   - Solopreneur
+  - Solopreneur Data Scientist
   - Freelance
   - Open Source
   - Consultant or Freelancer to Data Product Founder
@@ -45,8 +46,10 @@ He frames solopreneurship as staying intentionally small instead of chasing
 venture-backed scale. His business mix includes teaching, courses, and books.
 It also includes apps, consulting, and investments
 [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]].
+
 That's still entrepreneurship, but it optimizes for independence and durable
-income rather than headcount or funding rounds.
+income rather than headcount or funding rounds. The data-career version is
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 
 [[person:dimitrivisnadi=>Dimitri Visnadi]] makes the freelance business path
 explicit by separating selling skills from problem-solving expertise. He

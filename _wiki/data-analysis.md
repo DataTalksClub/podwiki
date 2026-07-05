@@ -191,6 +191,8 @@ version control. It also ties to tests and dependency graphs[[cite:analytics-eng
 The
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 turns that move into a learning and project sequence.
+For analysts who want to own ingestion, orchestration, and pipeline reliability,
+use [[data-analyst-to-data-engineer=>data analyst to data engineer]] instead.
 
 For analysts who want to move toward data science, add prediction, evaluation,
 and experiment interpretation. Then

@@ -47,7 +47,9 @@ foundations. Demand forecasting follows that base ([[cite:building-and-scaling-d
 
 The lead has to choose people as well as projects. Early analytics-heavy teams
 can start with an analyst. A data engineer follows when data foundations become
-the bottleneck.
+the bottleneck. Pipeline reliability or warehouse foundations can block the
+team. The lead can use [[hire-data-engineers=>hiring data engineers]] to turn
+that order into a hiring brief.
 [[cite:building-and-scaling-data-team@15:04=>How to Build & Scale a Data Team]]
 
 Senior hires can matter earlier because early decisions create long-lived

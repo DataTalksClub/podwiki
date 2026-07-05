@@ -93,9 +93,12 @@ compute belong there too.[[cite:building-production-ml-platform-and-mlops-team=>
 Docker, Kubernetes, and Databricks add more deployment tradeoffs and operations
 tradeoffs.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-Small and standardized workloads can often live on managed platforms. GPU-heavy
-training and serving push teams toward scheduling and utilization. They also
-raise hardware ownership questions.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+Small and standardized workloads can often live on managed platforms.
+GPU-heavy training and serving push teams toward scheduling and utilization.
+They also raise hardware ownership questions.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+Startup-scale managed-service choices need a narrower default. Use
+[[lean-mlops-for-startups=>lean MLOps for startups]] before treating platform
+ownership as the default.
 
 In edge deployment, hardware fit can matter more than cloud platform choice.
 Daniel Egbo's internship example tested models on Intel hardware

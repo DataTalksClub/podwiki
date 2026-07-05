@@ -12,6 +12,7 @@ secondary_keywords:
   - "data engineer freelance"
 summary: "How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products."
 related:
+  - Solopreneur Data Scientist
   - Career Transitions in Data
   - Business Skills for Data Professionals
   - Data Engineering
@@ -36,12 +37,16 @@ discipline. He emphasizes market research, outreach, rate benchmarking, and
 client retention
 [[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
+
 [[person:orellgarten=>Orell Garten]] shows the engineering-transition version:
 research and simulation experience led to startup work. A later LinkedIn lead
 helped him move into freelance data engineering
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]].
 For cross-role examples that include data engineering, ML marketplace work, and
-GenAI consulting, use [[freelance-data-and-ml-careers=>freelance data and ML careers]].
+GenAI consulting, use
+[[freelance-data-and-ml-careers=>freelance data and ML careers]].
+For the solo data and AI business version, use
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 
 ## Client Buying Fit
 

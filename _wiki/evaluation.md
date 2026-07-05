@@ -8,6 +8,7 @@ related:
   - Causal Inference
   - Model Monitoring
   - Retrieval-Augmented Generation
+  - Long-Context LLM Evaluation
   - Algorithmic Trading
 ---
 
@@ -94,6 +95,10 @@ wrong at the same time.
 Production LLM choices depend on data quality, gold-standard examples, and
 human evaluation. Model drift and hidden API changes mean evaluation needs to
 keep running after launch[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+For large-document workflows,
+[[long-context-llm-evaluation=>long-context LLM evaluation]] checks whether the
+model actually uses the advertised window before teams choose retrieval,
+chunking, or summarization[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 RAG evaluation adds retrieval to the problem because the system combines
 retrieval, augmentation, and generation. Prompt design and citations become part

@@ -130,7 +130,8 @@ model score.
 ## Keep the Early Stack Boring
 
 Lean startup ML still needs [[MLOps]]. It needs the amount that protects
-learning without slowing it down.
+learning without slowing it down. The detailed operating sequence lives in
+[[lean-mlops-for-startups=>lean MLOps for startups]].
 
 A SaaS-first MVP stack can use cloud credits.
 The team still needs to account for migration friction and vendor lock-in

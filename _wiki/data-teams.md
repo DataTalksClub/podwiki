@@ -67,7 +67,9 @@ It also matches [[person:tammyliang=>Tammy Liang]]'s early buildout, where she
 starts with business health dashboards. As the team matures, she adds a
 warehouse and forecasting. She also adds quality checks and adoption work.
 The hiring path moves from analyst capacity to engineering foundations and then
-to business-facing adoption work as the bottleneck changes.
+to business-facing adoption work as the bottleneck changes. When leaders see
+engineering foundations blocking the team, they can treat
+[[hire-data-engineers=>hiring data engineers]] as part of team design.
 [[cite:building-and-scaling-data-team@15:04=>Liang]]
 
 That path isn't a universal order. It depends on whether the team already has

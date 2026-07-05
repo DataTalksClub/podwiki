@@ -14,6 +14,7 @@ search_intent: "Help readers who search for a RAG evaluation workflow understand
 related_wiki:
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - Production Search Evaluation
   - Search and RAG Project Checklist
   - LLM Production Patterns
@@ -119,6 +120,10 @@ in the candidate set, the model can't reliably answer from it. If the right
 evidence is present but buried or poorly formatted, the fix may belong in
 ranking or filtering. It may also belong in chunking, metadata, or context
 packaging.
+For large-document tasks, add
+[[long-context-llm-evaluation=>long-context LLM evaluation]] before treating
+retrieval as the only possible fix
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 Evaluate the full RAG path
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]].

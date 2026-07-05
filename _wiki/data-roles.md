@@ -116,7 +116,9 @@ schema work also sit on that side
 The management path branches into a
 [[data-engineering-manager-role=>data engineering manager]]
 role when platform priorities, hiring, and stakeholder tradeoffs become the
-weekly work.
+weekly work. Hiring managers can use
+[[hire-data-engineers=>hiring data engineers]] to write the employer-side brief
+for the individual-contributor role.
 
 The analytics engineer role sits between analyst and data engineer. The useful
 definition is more precise than "half analyst, half engineer." Analytics
@@ -276,7 +278,9 @@ Choose the role by the work you want to own every week:
   [[data science careers]] with
   the [[data scientist role]].
 - If you like systems, data movement, and reliability, use the
-  [[data-engineer-roadmap=>data engineering roadmap]].
+  [[data-engineer-roadmap=>data engineering roadmap]], and analysts comparing
+  those two directions can use
+  [[data-analyst-to-data-engineer=>data analyst to data engineer]].
 
 If you like SQL and business meaning, analytics engineering is a strong target
 when you want more software rigor than dashboard work usually offers. The

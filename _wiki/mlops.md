@@ -237,8 +237,9 @@ For startups and small teams, the same discipline should stay lighter. Nemanja
 Radojkovic's startup advice favors managed services and SaaS. He also favors
 CI/CD-first orchestration and only enough custom automation to keep the product
 maintainable [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]. That
-tradeoff is why [[MLOps Tools]] should be read as a set of operating choices,
-not a checklist.
+startup-specific tradeoff is covered in
+[[lean-mlops-for-startups=>lean MLOps for startups]]. It's why [[MLOps Tools]]
+should be read as a set of operating choices, not a checklist.
 
 ## Governance and Risk
 

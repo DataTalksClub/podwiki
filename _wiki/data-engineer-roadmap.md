@@ -356,6 +356,8 @@ They also include screening calls, SQL tests, and on-site expectations
 Jain advises managers to ask follow-up questions that separate real platform
 understanding from tool-name fluency
 ([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+Managers can use [[hire-data-engineers=>hiring data engineers]] when they turn
+that roadmap into an employer-side screen.
 
 End the roadmap with practice under constraints. Explain your pipeline out loud
 and redesign one part on a whiteboard. Solve SQL without searching for every

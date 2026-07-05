@@ -5,6 +5,7 @@ title: "Services to Product Founder"
 summary: "How consultants and freelancers turn repeated data problems into reusable products, open-source tools, or startup paths."
 related_wiki:
   - Freelance
+  - Solopreneur Data Scientist
   - Entrepreneurship
   - Founder
   - Startups
@@ -25,6 +26,8 @@ that transition possible, and workshops can help too.[[cite:from-data-freelancer
 
 For the service-career stage before the product fork, see
 [[freelance-data-and-ml-careers=>freelance data and ML careers]].
+For the solo data and AI practice before that fork, see
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 
 Use [[Freelance]] for the service
 business side and [[Data Products]]

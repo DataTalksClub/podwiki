@@ -222,9 +222,12 @@ engineering version concrete in
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
 He warns that titles hide relevant experience. Software engineers, BI
 engineers, analysts, and data scientists may have built pipelines or modeled
-data. They may also have handled scale or fixed quality problems. A
+data. They may also have handled scale or fixed quality problems.
+
+A
 [[data-engineering-manager-role=>data engineering manager]] should therefore hire for the missing
-capability rather than a vague title.
+capability rather than a vague title. Managers do the same role-design work
+when they use [[hire-data-engineers=>hiring data engineers]].
 
 The hiring brief should name the actual gap. Platform-heavy teams need storage
 and orchestration while access, cloud infrastructure,

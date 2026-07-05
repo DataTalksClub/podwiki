@@ -81,7 +81,7 @@ steps are necessary before the role goes live
 [[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
 For this role, say whether the manager will lead platform standards,
 product-facing pipelines, or analytics engineering support. If the team is
-hybrid, say that too. The [[hire-data-engineers=>How to Hire Data Engineers]]
+hybrid, say that too. The [[hire-data-engineers=>hiring data engineers]]
 guide covers the candidate brief for the individual-contributor roles reporting
 into that manager.
 

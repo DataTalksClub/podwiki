@@ -33,6 +33,7 @@ related_wiki:
   - Production
   - Data Strategy
   - ML Consulting Proposals
+  - Solopreneur Data Scientist
   - Open Source
   - Startups
 ---
@@ -398,7 +399,8 @@ if it proves which data, workflow, and metric deserve automation later.
 For client-facing work, [[ml-consulting-proposals=>ML consulting proposals]] help
 test whether the request is a product opportunity or a custom service. The same
 choice shapes [[freelance-data-and-ml-careers=>freelance data and ML careers]]
-when independent practitioners turn ML work into scoped offers.
+and [[solopreneur-data-scientist=>solopreneur data scientist]] paths when
+independent practitioners turn ML work into scoped offers.
 
 ## Design for Adoption Before Launch
 

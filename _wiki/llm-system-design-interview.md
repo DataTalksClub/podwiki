@@ -8,6 +8,7 @@ related_wiki:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - Agent Engineering
   - AI Red Teaming
 ---
@@ -109,10 +110,14 @@ Make the retriever easy to debug:
 7. Log retrieved chunks, scores, prompt version, model, answer, latency, token
    count, and feedback.
 
-That debugging path follows Atita's RAG discussion and Hugo's logs-and-traces
-view of LLM engineering
+That debugging path follows Atita's RAG discussion. It also follows Hugo's
+logs-and-traces view of LLM engineering
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Large-document designs need
+[[long-context-llm-evaluation=>long-context LLM evaluation]] as a separate test
+before the team assumes a larger context window replaces retrieval
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 ## Choose RAG, Fine-Tuning, Tools, Or Agents
 

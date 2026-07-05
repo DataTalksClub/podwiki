@@ -3,6 +3,7 @@ layout: wiki
 title: "Solopreneur"
 summary: "How DataTalks.Club podcast guests describe solopreneurship as intentionally small data, AI, software, consulting, teaching, and product work."
 related:
+  - Solopreneur Data Scientist
   - Freelance
   - Entrepreneurship
   - Startups
@@ -27,7 +28,7 @@ client or one failed product doesn't own the whole business
 ([[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]]).
 
 For a practical data and AI career path, use
-[[Solopreneur Data Scientist]].
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 For client work, use [[Freelance]].
 
 ## Intentional Smallness

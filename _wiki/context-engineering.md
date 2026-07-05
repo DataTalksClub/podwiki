@@ -8,6 +8,7 @@ related:
   - LLM Production Patterns
   - Prompt Engineering
   - Embeddings
+  - Long-Context LLM Evaluation
   - AI Engineering
   - LLMs
 ---
@@ -61,7 +62,7 @@ hard to verify.
 Lavanya explicitly names chunking, retrieval, and summarization as fallbacks
 instead of sending the whole document blindly. The team needs evidence for when
 each path is reliable. That puts long-context work next to
-[[long-context-llm-evaluation=>Long-Context LLM Evaluation]] and
+[[long-context-llm-evaluation=>long-context LLM evaluation]] and
 [[LLM Evaluation Workflows]]
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Large-Document LLM Strategy]].
 
@@ -146,4 +147,4 @@ These pages cover the surrounding LLM engineering topics.
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]
 - [[Embeddings]]
-- [[long-context-llm-evaluation=>Long-Context LLM Evaluation]]
+- [[long-context-llm-evaluation=>long-context LLM evaluation]]

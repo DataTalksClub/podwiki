@@ -6,6 +6,7 @@ related:
   - LLMs
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - Agent Engineering
   - AI Engineer Role
   - AI Red Teaming
@@ -117,9 +118,9 @@ traces with LLMOps tools. That combination matters more than a single framework
 choice
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]].
 
-Long-context models don't remove the evaluation problem. Financial
-long-context evaluation still needs task-specific checks, and retrieval or
-summarization can still matter.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
+Long-context models don't remove the evaluation problem.
+[[long-context-llm-evaluation=>long-context LLM evaluation]] still needs
+task-specific checks, and retrieval or summarization can still matter.[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
 ## Tool Use and Agents
 

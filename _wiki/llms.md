@@ -9,6 +9,7 @@ related:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
+  - Long-Context LLM Evaluation
   - Agent Engineering
   - Generative AI
   - Multimodal LLMs
@@ -156,6 +157,8 @@ Long-context models need tests that match the document task. In one financial
 setting, evaluation checks long-context behavior instead of relying on
 context-window size alone
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
+That makes [[long-context-llm-evaluation=>long-context LLM evaluation]] part of
+the evaluation path for document-heavy systems.
 
 Use [[LLM Evaluation Workflows]]
 for evaluation patterns and

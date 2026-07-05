@@ -212,6 +212,9 @@ formats. Assessment depth varies by level
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 [[cite:hiring-for-data-engineering-jobs-in-europe@26:38=>Hiring Data Engineers in Europe]].
 
+Hiring teams can use [[hire-data-engineers=>hiring data engineers]] for the
+employer-side version of that screen.
+
 Another data engineering funnel can start with screening calls, then move to SQL
 tests and on-site discussion. Interview preparation should include both
 technical drills and project explanation, with medium SQL questions as a useful
@@ -258,6 +261,11 @@ PhD and cold-start candidates can use projects, synthetic data, and blogging as 
 For QA candidates, [[QA to ML and Data Engineering]] is the concrete bridge
 from testing discipline to model or pipeline evidence.
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+
+Analysts aiming at pipeline roles can use
+[[data-analyst-to-data-engineer=>data analyst to data engineer]] to turn SQL,
+source-data familiarity, and stakeholder context into a data-engineering search
+story.
 
 [[AI Tooling]] doesn't block starting in [[Data Science Careers]] now. It can
 help beginners get started faster. Junior hiring creates the harder constraint

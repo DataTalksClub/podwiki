@@ -4,6 +4,7 @@ title: "Data Freelancing Strategy"
 summary: "How podcast guests turn data freelancing into strategy: validate demand, choose a market, win clients, price risk, and pick a growth path."
 related:
   - Freelance
+  - Solopreneur Data Scientist
   - Entrepreneurship
   - Career Growth
   - Data Products
@@ -102,8 +103,8 @@ and freelancer conversations can test whether buyers already pay for the work.
 For [[career growth]], the next move needs market evidence, not just personal
 preference.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
-In [[Solopreneur Data Scientist]], client services are one possible independent
-income stream. Freelancing can
+In [[solopreneur-data-scientist=>solopreneur data scientist]], client services
+are one possible independent income stream. Freelancing can
 be a staged transition through weekend work, part-time work, recruiter channels,
 or an employer-to-client conversion rather than a dramatic resignation.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 
@@ -339,7 +340,7 @@ These pages cover the adjacent business models and career paths:
 - [[freelance=>Freelance Data Engineering and Consulting]]
   for the broader client-work playbook.
 - [[Solopreneur]] and
-  [[Solopreneur Data Scientist]]
+  [[solopreneur-data-scientist=>solopreneur data scientist]]
   for intentionally small independent data businesses.
 - [[Entrepreneurship]] and
   [[startups=>Startup]] for the service, product, and

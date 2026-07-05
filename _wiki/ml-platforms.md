@@ -76,7 +76,8 @@ Single teams may still need platform pieces before the company needs a full
 platform. An experiment tracker, a managed registry, or a thin cloud wrapper can
 create value before a company-wide ML platform exists. Teams should invest in
 heavier platform work when they need repeated standardization across teams, not
-only because one model reached production.
+only because one model reached production. For the startup version of that
+boundary, use [[lean-mlops-for-startups=>lean MLOps for startups]].
 
 Buying SageMaker, Vertex AI, or another managed platform still leaves
 integration work. The team has to fit the tool to its data-science workflow.

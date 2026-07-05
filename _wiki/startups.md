@@ -5,6 +5,7 @@ summary: "Startup lessons from DataTalks.Club guests on discovery, product scope
 related:
   - Founder
   - Entrepreneurship
+  - Solopreneur Data Scientist
   - Open Source
   - Open Source and Developer Relations
   - Freelance
@@ -135,8 +136,10 @@ instead, but stage-aware [[MLOps]] still matters[[cite:launch-and-build-retail-s
 Startup teams need enough deployment,
 observability, and data reliability to learn safely.
 
-Teams should match platform work to the startup stage, and the [[MLOps roadmap]]
-gives that stage-aware context. Before a formal platform team exists, teams need
+Teams should match platform work to the startup stage. The
+[[lean-mlops-for-startups=>lean MLOps for startups]] path covers that early
+operating boundary, and the [[MLOps roadmap]] gives the broader stage-aware
+context. Before a formal platform team exists, teams need
 monitoring and deployment skill. A freelance data science course project using
 MLflow, Prefect, and Grafana shows how that skill can grow through a small
 monitoring system[[cite:from-startup-engineering-to-freelance-data-science=>Freelance DS]].
@@ -194,10 +197,13 @@ constraints for generative AI products[[cite:data-scientist-and-indie-hacker-boo
 At that scale, builders still decide what to build and how to ship. They also
 decide how much the product costs to run and how users find it.
 
-People also use startups as career environments. A four-person team can
-offer topic fit and variety, but it also requires communication, business
-learning, and self-organization. Open-source contribution and freelance projects
-can broaden data work beyond the startup.[[cite:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist]]
+People also use startups as career environments. A four-person team can offer
+topic fit and variety, but it requires communication, business learning, and
+self-organization.
+
+Open-source and freelance work can broaden data careers.[[cite:from-startup-engineering-to-freelance-data-science=>Freelance Data Scientist]]
+The solo-business version of that broad data role is
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 
 Textualize shows the opposite direction too. Public open-source work can become
 the hiring surface for the startup. Contributions and public code aren't

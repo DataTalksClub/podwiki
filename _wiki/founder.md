@@ -7,6 +7,7 @@ related:
   - Entrepreneurship
   - Open Source
   - Solopreneur
+  - Solopreneur Data Scientist
   - Consultant or Freelancer to Data Product Founder
   - Data Product Management
   - MLOps
@@ -234,9 +235,11 @@ questions.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>In
 
 Indie founders can check ideas through competitor scans, skills fit, and the
 ability to build a useful first version. That path sits closer to
-[[Solopreneur]] than to a large startup. It still asks founder questions.
-Someone has to name the buyer, channel, running cost, and builder's capacity to
-keep going.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
+[[Solopreneur]] than to a large startup. A data-science version of that
+small-business path is
+[[solopreneur-data-scientist=>solopreneur data scientist]]. It still asks
+founder questions. Someone has to name the buyer, channel, running cost, and
+builder's capacity to keep going.[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
 
 Across these discussions, founder work isn't a title. Founders choose the
 problem, validate with real users, and narrow the product. They also pick

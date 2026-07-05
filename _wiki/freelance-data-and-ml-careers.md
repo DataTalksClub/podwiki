@@ -3,6 +3,7 @@ layout: wiki
 title: "Freelance Data and ML Careers"
 summary: "How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
 related:
+  - Solopreneur Data Scientist
   - Freelance
   - Career Transitions in Data
   - Career Growth
@@ -57,6 +58,8 @@ That path matters for freelancers because the offer can be delivery,
 organizational advice, or developer education. The same person may write code
 with a client and advise leaders on adoption. They may also teach teams how to
 evaluate AI systems and use DevRel skills to explain the work publicly.
+The adjacent solo-business path is
+[[solopreneur-data-scientist=>solopreneur data scientist]].
 
 ## Practice-Building Starts With Proof
 

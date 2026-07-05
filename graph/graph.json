@@ -10,9 +10,9 @@
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
-    "topics": 56,
-    "nodes": 1076,
-    "links": 11618
+    "topics": 51,
+    "nodes": 1071,
+    "links": 11671
   },
   "nodes": [
     {
@@ -8300,15 +8300,6 @@
       "search": "bootstrapping"
     },
     {
-      "id": "topic:business-development",
-      "type": "topic",
-      "label": "business development",
-      "title": "business development",
-      "url": "/search.html?q=business%20development",
-      "count": 3,
-      "search": "business development"
-    },
-    {
       "id": "topic:career-break",
       "type": "topic",
       "label": "career break",
@@ -8507,15 +8498,6 @@
       "search": "GitOps"
     },
     {
-      "id": "topic:graph-ml",
-      "type": "topic",
-      "label": "graph ML",
-      "title": "graph ML",
-      "url": "/search.html?q=graph%20ML",
-      "count": 1,
-      "search": "graph ML"
-    },
-    {
       "id": "topic:indie-hacking",
       "type": "topic",
       "label": "indie hacking",
@@ -8541,24 +8523,6 @@
       "url": "/search.html?q=investing",
       "count": 1,
       "search": "investing"
-    },
-    {
-      "id": "topic:knowledge-graphs",
-      "type": "topic",
-      "label": "knowledge graphs",
-      "title": "knowledge graphs",
-      "url": "/search.html?q=knowledge%20graphs",
-      "count": 1,
-      "search": "knowledge graphs"
-    },
-    {
-      "id": "topic:marketing",
-      "type": "topic",
-      "label": "marketing",
-      "title": "marketing",
-      "url": "/search.html?q=marketing",
-      "count": 1,
-      "search": "marketing"
     },
     {
       "id": "topic:monetization",
@@ -8694,15 +8658,6 @@
       "url": "/search.html?q=side%20projects",
       "count": 1,
       "search": "side projects"
-    },
-    {
-      "id": "topic:social-impact",
-      "type": "topic",
-      "label": "social impact",
-      "title": "social impact",
-      "url": "/search.html?q=social%20impact",
-      "count": 1,
-      "search": "social impact"
     },
     {
       "id": "topic:spark",
@@ -14977,7 +14932,7 @@
     },
     {
       "source": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "target": "topic:business-development",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -15109,12 +15064,6 @@
     },
     {
       "source": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
-      "target": "topic:business-development",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "target": "topic:personal-branding",
       "kind": "podcast-topic",
       "weight": 2
@@ -15122,6 +15071,12 @@
     {
       "source": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "target": "topic:remote-work",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -15559,7 +15514,7 @@
     },
     {
       "source": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
-      "target": "topic:social-impact",
+      "target": "wiki:ai-for-social-good",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -16873,7 +16828,7 @@
     },
     {
       "source": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "target": "topic:business-development",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -18355,19 +18310,19 @@
     },
     {
       "source": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "target": "topic:graph-ml",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "target": "topic:knowledge-graphs",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "target": "wiki:embeddings",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "target": "wiki:graph-data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -18679,13 +18634,13 @@
     },
     {
       "source": "podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling",
-      "target": "topic:marketing",
+      "target": "wiki:machine-learning",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling",
-      "target": "wiki:machine-learning",
+      "target": "wiki:marketing-to-analytics-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -24445,6 +24400,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -29449,6 +29410,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -31525,6 +31492,18 @@
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:startups",
       "kind": "article-chip",
       "weight": 1
@@ -31630,6 +31609,12 @@
       "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:context-engineering",
@@ -32665,6 +32650,12 @@
     },
     {
       "source": "wiki:data-analysis",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-chip",
       "weight": 1
@@ -33068,6 +33059,12 @@
     {
       "source": "wiki:data-analyst-role",
       "target": "wiki:data-analyst-to-analytics-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "wiki:data-analyst-to-data-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34496,6 +34493,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:hire-data-engineers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:hire-data-engineers",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -34705,6 +34708,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -34838,6 +34847,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37402,6 +37417,12 @@
       "target": "wiki:solopreneur-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-freelancing-strategy",
@@ -40927,6 +40948,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-chip",
       "weight": 1
@@ -41036,6 +41063,12 @@
     {
       "source": "wiki:data-roles",
       "target": "wiki:experimentation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:hire-data-engineers",
       "kind": "article-chip",
       "weight": 1
     },
@@ -44563,6 +44596,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "wiki:hire-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "wiki:leadership",
       "kind": "wiki-chip",
       "weight": 1
@@ -44882,6 +44921,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -49519,6 +49564,18 @@
     },
     {
       "source": "wiki:entrepreneurship",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
       "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -49861,6 +49918,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -49972,6 +50035,18 @@
       "target": "wiki:experimentation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:evaluation",
@@ -51457,6 +51532,18 @@
     },
     {
       "source": "wiki:founder",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
       "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -51697,6 +51784,18 @@
     },
     {
       "source": "wiki:freelance",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
       "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -51904,6 +52003,18 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
@@ -54733,6 +54844,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "wiki:data-analyst-to-data-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -54794,6 +54911,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:data-scientist-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -55742,6 +55865,12 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56911,6 +57040,18 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -57027,6 +57168,12 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:tools",
       "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -57152,6 +57299,18 @@
     {
       "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:long-context-llm-evaluation",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -57301,6 +57460,12 @@
     },
     {
       "source": "wiki:llm-system-design-interview",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-system-design-interview",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "article-chip",
       "weight": 1
@@ -57404,6 +57569,18 @@
     {
       "source": "wiki:llm-system-design-interview",
       "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-system-design-interview",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-system-design-interview",
+      "target": "wiki:long-context-llm-evaluation",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -57994,6 +58171,18 @@
       "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llms",
@@ -59792,6 +59981,18 @@
     {
       "source": "wiki:machine-learning-for-business",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:solopreneur-data-scientist",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -63355,6 +63556,12 @@
     },
     {
       "source": "wiki:ml-platforms",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -63980,6 +64187,12 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65071,6 +65284,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -65296,6 +65515,12 @@
       "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",
@@ -73327,6 +73552,12 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "article-chip",
       "weight": 1
@@ -73420,6 +73651,18 @@
       "target": "wiki:llm-rag-production-roadmap",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:rag-evaluation-workflow",
@@ -74920,6 +75163,12 @@
       "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:retrieval-augmented-generation",
@@ -77389,6 +77638,12 @@
     },
     {
       "source": "wiki:solopreneur",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:solopreneur",
       "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -77875,6 +78130,12 @@
     },
     {
       "source": "wiki:startups",
+      "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:startups",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -77918,6 +78179,18 @@
     {
       "source": "wiki:startups",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:solopreneur-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:solopreneur-data-scientist",
       "kind": "wiki-related",
       "weight": 3
     },

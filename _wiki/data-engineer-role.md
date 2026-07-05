@@ -137,13 +137,18 @@ probe performance, drawbacks, and bottlenecks
 
 Those senior interviews connect to [[data engineering platforms]] and
 [[DataOps]] when the work involves operational tradeoffs rather than one
-isolated pipeline.
+isolated pipeline. Use [[hire-data-engineers=>hiring data engineers]] when the
+interview has to test the version of the role the team actually needs.
 
 For data scientists, the transition version of this entry path is the
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
 Feature work and data intuition can transfer into the role. Collaborative
 coding, CI/CD, and pipeline projects can transfer too
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+For analysts, the
+[[data-analyst-to-data-engineer=>data analyst to data engineer]] path translates
+SQL, metric context, and dashboard-adjacent data cleanup into engineering
+portfolio work.
 
 In scale-ups, the role can sit between platform engineering and use-case
 delivery. Work may split roughly between platform capabilities and user

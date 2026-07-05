@@ -98,7 +98,10 @@ boundary in
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
 cloud credits, managed services, and fast MVP stacks. The tradeoff is migration
-friction, lock-in, and future flexibility.
+friction, lock-in, and future flexibility. Use
+[[lean-mlops-for-startups=>lean MLOps for startups]] when the roadmap question
+is the early-company stack order.
+
 In a regulated finance setting, he moves earlier toward release governance and
 approvals. Dev/test/prod separation, monitoring, and interim registry patterns
 also arrive earlier in

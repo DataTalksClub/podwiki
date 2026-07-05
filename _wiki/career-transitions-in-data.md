@@ -38,6 +38,8 @@ operability, and platform work into data-platform evidence
 Data science becomes data engineering when the person turns analysis cleanup and
 modeling-adjacent data work into shared pipelines. See
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
+For analysts making the same upstream move, use
+[[data-analyst-to-data-engineer=>data analyst to data engineer]].
 QA becomes testing and project discipline through
 [[QA to ML and Data Engineering]]
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].

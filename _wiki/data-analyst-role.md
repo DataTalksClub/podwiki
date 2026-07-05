@@ -170,6 +170,11 @@ Data engineers build ingestion and storage systems. They also own orchestration
 and platform work. Analysts use those systems to interpret the business. Data
 engineers make the needed data usable.[[cite:data-team-roles=>Data Team Roles Explained]]
 
+An analyst may want to own those upstream paths. The
+[[data-analyst-to-data-engineer=>data analyst to data engineer]] transition
+turns source-aware SQL work into pipeline evidence while keeping business
+context visible.
+
 The operating version of the same boundary appears when teams split tracking,
 warehousing, analysis, and activation work.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
