@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12278
+    "links": 12283
   },
   "nodes": [
     {
@@ -21704,6 +21704,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:bioinformatics-data-science",
       "kind": "article-chip",
       "weight": 1
@@ -42350,6 +42356,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-engineering-manager-role",
       "kind": "article-chip",
       "weight": 1
@@ -59918,6 +59930,12 @@
     },
     {
       "source": "wiki:llm-tools",
+      "target": "wiki:context-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-tools",
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
@@ -70592,6 +70610,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:applied-research",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -75357,6 +75381,12 @@
     {
       "source": "wiki:production",
       "target": "wiki:caching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
     },

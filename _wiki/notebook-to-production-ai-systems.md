@@ -111,8 +111,9 @@ system without reconstructing the original experiment from memory.
 [[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 
 LLM prototypes can use demos as an intermediate feedback surface. A Streamlit
-demo can turn a fresh applied-research result into something leadership and
-stakeholders can react to before a full engineering handoff. Lavanya Gupta's
+demo can turn a fresh [[applied-research=>applied research]] result into
+something leadership and stakeholders can react to before a full engineering
+handoff. Lavanya Gupta's
 team used Streamlit to avoid waiting for engineering before sharing what they
 had built and gathering feedback. That doesn't make the demo production-ready,
 but it helps the team learn which behavior deserves ownership, evaluation, and

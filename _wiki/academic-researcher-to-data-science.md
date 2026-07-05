@@ -81,7 +81,8 @@ industry signal. CJ's path fits the
 her research background maps to statistics, experiments, and credit-risk
 modeling.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
 
-A radio-astronomy path can point toward applied ML and data engineering.
+A radio-astronomy path can point toward applied ML and data engineering through
+[[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]].
 
 MEERKAT work depends on curated datasets for source detection and catalog
 cross-matching. Later project work adds cloud notebooks, Spark, and warehouse

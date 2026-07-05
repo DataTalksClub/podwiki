@@ -33,7 +33,7 @@ Builders can start from prompts and gold tests. They can add failure
 analysis, logs, and traces before moving from RAG to agents.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 When teams move to agents, they add tools, memory, and knowledge stores. They
-also need context engineering and agent tests.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+also need [[context-engineering=>context engineering]] and agent tests.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 For the broader production patterns, use
 [[LLM Production Patterns]].
 

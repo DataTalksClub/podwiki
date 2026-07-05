@@ -218,6 +218,9 @@ Roksolana Diachuk places data cleaning and feature engineering near data
 science. Model cycles sit there too. ETL and storage stay closer to data
 engineering, along with Spark optimization, monitoring, and schema changes
 ([[Data Engineer vs Data Scientist]]).
+Use [[data-engineering-and-data-science=>data engineering and data science]]
+for the shared lifecycle when a project needs both reliable inputs and modeling
+judgment.
 When that boundary becomes a career decision,
 [[data-engineer-to-data-scientist=>data engineer to data science]] reframes
 pipeline experience as feature, evaluation, and product-decision evidence.
