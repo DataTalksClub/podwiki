@@ -150,11 +150,14 @@ and latency before a system can be trusted at product scale.
 
 ## Feedback, Monitoring, and Incidents
 
-Production AI improves when teams turn real behavior into labels, evaluation
-cases, bug reports, or retraining decisions. Explicit feedback lets users mark
-an answer wrong directly. Implicit feedback uses behavior to infer whether a
+Teams improve production AI with labels and bug reports from real use. Some
+signals trigger retraining decisions. Explicit feedback lets users mark an
+answer wrong directly. Implicit feedback uses behavior to infer whether a
 recommendation or generated output helped.
 [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+
+AI product teams use [[AI Product Feedback Loops]] so user behavior guides
+interface changes. Monitoring and staged release signals guide model changes.
 
 MLOps broadens feedback into operations. Service levels, incident response, and
 postmortems belong in the same operating loop. So do live test sets, small A/B
@@ -194,8 +197,8 @@ pedestrian and gesture cases become inherited tests that new models must pass.
 A generated ad description or support assistant shouldn't use the same release
 path as an autonomous-driving perception stack. Fraud models and recommenders
 sit between those extremes. Lower-risk systems can use explicit and implicit
-feedback. They can also use live test sets, small A/B tests, review loops, and
-monitoring.
+feedback through [[AI Product Feedback Loops]]. They can also use live test
+sets, small A/B tests, review loops, and monitoring.
 
 Higher-risk systems need staged validation and inherited safety tests. The
 shared rule is stable: the deployment environment exposes failures the notebook

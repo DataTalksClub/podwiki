@@ -43,6 +43,9 @@ academic CV toward a skills-first resume. She also mentions LinkedIn keywords,
 recruiter feedback, and [[cv-screening=>ATS-aware]] iterations
 [[cite:postdoc-to-data-science-lead-career-transition@17:14=>Postdoc to Data Science Lead]]
 [[cite:postdoc-to-data-science-lead-career-transition@20:40=>Postdoc to Data Science Lead]].
+Use [[academic-researcher-to-data-science=>Researcher to Data Science]] when
+the CV has to translate publications, lab code, or research software into
+data-science evidence.
 
 Candidates face the same rule in interviews because hiring teams use project
 walkthroughs to test ownership, impact, and business context. A portfolio item

@@ -6,6 +6,7 @@ related:
   - ML Platforms
   - Platform Engineering
   - AI Infrastructure
+  - ai-infrastructure-cost-and-ownership
   - MLOps
   - Model Monitoring
   - Model Registry
@@ -58,8 +59,9 @@ Docker, Kubernetes, and Databricks matter here because a model artifact isn't
 enough if runtime images and dependencies drift.
 
 Large-model workloads push the same topic toward
-[[AI Infrastructure]], especially when cloud-versus-on-prem cost and GPU
-requirements dominate.
+[[AI Infrastructure]], especially when
+[[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem cost and GPU
+requirements]] dominate.
 Distributed-training bottlenecks and Kubernetes limits also matter
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 Machine learning infrastructure at that scale includes hardware access, network
@@ -93,7 +95,8 @@ become part of the infrastructure skill set. SSH/SCP, firewall requests, and
 internal platform behavior matter too
 ([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
 
-Large-model work points the other way. Once GPU cost and distributed training
+Large-model work points the other way. Once
+[[ai-infrastructure-cost-and-ownership=>GPU cost and distributed training]]
 dominate, normal cloud-managed ML services may no longer be the right operating
 model. SLURM-like scheduling and bare-metal provisioning enter the infrastructure
 picture
@@ -128,7 +131,9 @@ PyTorch and NCCL, communication bottlenecks, optimization strategies, and
 DeepSpeed
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 Teams design for network layout, coordinate GPUs, and weigh training
-efficiency against the cost tradeoff between cloud and on-prem hardware.
+efficiency against the
+[[ai-infrastructure-cost-and-ownership=>cost tradeoff between cloud and on-prem
+hardware]].
 
 This is where [[machine learning system design]]
 becomes more than an API and database exercise. A design has to say whether the
@@ -247,7 +252,8 @@ Prediction logs should support monitoring and analytics, but they also need
 security and data-governance controls.
 
 For large AI workloads, monitoring also includes utilization and cost. The
-cloud-versus-on-prem tradeoff makes compute ownership an operating concern
+[[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem tradeoff]]
+makes compute ownership an operating concern
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 GPU clusters can fail as business infrastructure if teams can't see usage,
 contention, and idle cost.
@@ -265,9 +271,9 @@ expose them.
 The team model behind that experience is a centralized MLOps team supporting
 product teams and ML engineers. It starts with CI/CD and tangible pain points
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
-Infrastructure ownership becomes a service model, not only a cluster-maintenance
-job. [[ML Platforms]] covers the product roadmap, self-service workflow, and
-adoption side of that service model.
+[[ai-infrastructure-cost-and-ownership=>Infrastructure ownership]] becomes a
+service model, not only a cluster-maintenance job. [[ML Platforms]] covers the
+product roadmap, self-service workflow, and adoption side of that service model.
 
 Metaflow shows the open-source developer experience version. Its flow
 abstraction sits across AWS, Kubernetes, and Argo

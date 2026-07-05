@@ -96,8 +96,11 @@ The same monitoring problem links feature work, ETL reliability, and
 In production operations, observability connects model symptoms to ETL,
 [[data pipelines]], and upstream root causes.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
-Monitoring is also a retraining input. Drift signals can trigger retraining
-decisions, and fairness, anomaly, and robustness signals can too.
+Monitoring is also a retraining input because drift, fairness, anomaly, and
+robustness signals can trigger retraining. AI product teams feed live
+monitoring into [[AI Product Feedback Loops]]. They use those signals to change
+the product, prompt, model, or rollout plan
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 
 Theofilos Papapanagiotou separates this from ordinary service monitoring
 because latency and request counts are only part of the picture. An
@@ -168,8 +171,10 @@ others, teams watch proxy metrics and human review. Customer complaints,
 business KPIs, or small experiments may provide earlier signals.
 
 Real response paths include live test sets and small [[a-b-testing=>A/B tests]].
-They also include user feedback channels and internal bug reports. Widespread
-user complaints can serve as signals too.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+Teams also watch user feedback, internal bug reports, and
+complaints.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+Those product-facing signals feed [[AI Product Feedback Loops]]. Teams turn
+complaints into evaluation data.
 Those signals matter when labels are late or incomplete.
 When labels come from people or model-assisted review,
 [[annotation-quality-workflows=>annotation quality workflows]] determines

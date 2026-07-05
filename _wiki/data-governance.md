@@ -160,6 +160,11 @@ not only as a catalog field.
 Data Mesh makes that boundary explicit. It ties data product ownership to
 business domains, quality expectations, and service levels.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
+[[data-architect-role=>Data architects]] work near this boundary when lineage
+and access rules have to fit the whole source-to-consumption path. Quality
+guarantees have to fit that path too
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+
 This is where governance connects to [[Data Products]] and [[Business
 Intelligence]]. Dashboards, metrics, and AI-assisted answers can expose governed
 data to many more users, so ownership and lineage must be clear before people

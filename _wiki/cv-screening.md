@@ -55,9 +55,13 @@ formatting, and automated parsing. The shared goal is role fit, but each hiring
 context weights the signals differently.
 
 Data-science and analyst screening puts more weight on education when a team asks
-for research depth. In research-heavy teams, a PhD and papers may matter. In
-other teams, a bachelor's or master's degree can be enough if the candidate shows
-the right work[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+for research depth. A PhD and papers may matter in research-heavy teams. Other
+teams may accept a bachelor's or master's degree if the candidate shows the
+right work[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+Academic candidates can use
+[[academic-researcher-to-data-science=>Researcher to Data Science]] to keep the
+screen focused on translated research work and visible software practice. Role
+fit matters more than degree prestige alone.
 
 For [[Data Engineering]], titles and degrees matter less. The screen weighs SQL
 and Python alongside real projects and outcomes. It also checks specific skills

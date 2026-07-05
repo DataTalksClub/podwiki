@@ -272,15 +272,20 @@ current skills, explain the context clearly, and point the conversation back to
 role fit and readiness
 [[cite:hiring-for-data-science-jobs-interview-questions-skills@56:31=>How to Hire Data Scientists]].
 
-Candidates without commercial experience can use internships,
+Candidates without commercial experience can prove data engineering skills
+through internships,
 [[volunteer-data-engineering-projects=>Volunteer Data Projects]], or paid
-projects to prove data engineering skills.
+projects
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 For the data-engineering version of that evidence path, use
 [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]].
+
 PhD and cold-start candidates can use projects,
-[[synthetic-data=>synthetic data]], and blogging as proof.
+[[synthetic-data=>synthetic data]], and blogging as proof
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+Academic candidates can use
+[[academic-researcher-to-data-science=>Researcher to Data Science]] to connect
+that proof to CV translation, role targeting, and research software evidence.
 
 For QA candidates, [[QA to ML and Data Engineering]] is the concrete bridge
 from testing discipline to model or pipeline evidence.

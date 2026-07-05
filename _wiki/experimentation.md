@@ -56,6 +56,8 @@ In product discovery, parallel experiments and proofs of concept remove weak
 solution paths before an AI roadmap becomes expensive. Teams use Double Diamond
 problem framing to test the problem, not only the proposed model or feature
 [[cite:ai-ml-product-design-and-experimentation@16:02=>AI Product Design]].
+When those signals keep shaping the model or interface after launch, the work
+continues as [[AI Product Feedback Loops]] rather than a one-time experiment.
 
 ## Questions Experiments Answer
 
@@ -199,8 +201,14 @@ outcomes inconsistently
 
 In ML systems, shadow mode is a related guardrail. Shadow mode and A/B tests
 validate a model before full rollout. This lowers risk when model errors can
-affect customers, revenue, fraud decisions, or operational load
+affect customers or revenue. It also lowers risk for fraud decisions and
+operational load
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+
+For AI products, staged release evidence can also feed
+[[AI Product Feedback Loops]]. Complaint paths and behavior labels can drive
+rollback. They can also drive prompt changes or retraining
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 
 For production-search and recommendation experiments, Sadat Anwar describes
 using feature flags, backups, and monitoring. He combines them with controlled

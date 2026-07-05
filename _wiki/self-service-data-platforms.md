@@ -75,7 +75,10 @@ path.[[cite:dataops-principles-and-scalable-data-platforms]]
 
 Enterprise platform leadership frames the same boundary as consumer groups grow:
 the team has to prioritize stakeholders and improve data culture. It also needs
-to expose useful data formats, measure quality, and count consumers served.[[cite:data-engineering-leadership-and-modern-data-platforms]]
+to expose useful data formats, measure quality, and count consumers served.
+For data engineering teams, that puts the prioritization and quality-standard
+side of self-service in the
+[[data-engineering-manager-role=>data engineering manager]] role.[[cite:data-engineering-leadership-and-modern-data-platforms]]
 
 The product-management view treats internal platform users as customers. That
 makes roadmap discipline and adoption planning part of the same product loop.

@@ -110,10 +110,16 @@ every extra must-have narrows the candidate pool. Problems matter more than
 perks
 ([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
 
-A useful description names the team and work area, then states objectives and
-responsibilities. It also states the company's data maturity, including whether
+A useful description names the team and work area before it states objectives
+and responsibilities. It also states the company's data maturity, including whether
 analytics and data engineering already exist. Platform support and management
-belong in the same context. A weak description lists fashionable tools and
+belong in the same context. For data engineering leadership hiring, say whether
+a [[data-engineering-manager-role=>data engineering manager]] will lead platform
+standards. Also say whether the manager will own product-facing pipelines or
+analytics engineering support
+([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+
+A weak description lists fashionable tools and
 leaves candidates guessing about the real work
 ([[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]).
 

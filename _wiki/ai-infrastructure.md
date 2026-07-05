@@ -3,6 +3,7 @@ layout: wiki
 title: "AI Infrastructure"
 summary: "Compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
 related:
+  - ai-infrastructure-cost-and-ownership
   - Machine Learning Infrastructure
   - MLOps
   - MLOps Tools
@@ -64,10 +65,11 @@ optimization and prompt caching belong there too.[[cite:deploying-llms-in-produc
 ## Priorities and Tradeoffs
 
 Teams differ on which bottleneck to optimize first. A cost-first view starts
-with infrastructure ownership, cloud costs, GPU availability, and orchestration
-limits. It then moves into PyTorch, NCCL, communication bottlenecks, and
-DeepSpeed. Scheduling and hardware work add Kubernetes, SLURM-like scheduling,
-GPU coordination, and bare-metal provisioning.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
+with [[ai-infrastructure-cost-and-ownership=>infrastructure ownership]],
+cloud costs, GPU availability, and orchestration limits. It then moves into
+PyTorch, NCCL, communication bottlenecks, and DeepSpeed. Scheduling and hardware
+work add Kubernetes, SLURM-like scheduling, GPU coordination, and bare-metal
+provisioning.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 A platform-first view starts with the platform product. Teams need to understand
 data science workflows and notebooks before they standardize too much
@@ -89,9 +91,10 @@ those choices. Hardware constraints and hosted API risk matter too.[[cite:deploy
 ## Compute, GPUs, and Cloud Boundaries
 
 AI infrastructure compute work starts with where jobs run and how much they cost
-to keep running. Ownership cost and cloud-versus-on-prem tradeoffs become
-concrete when GPU-heavy training and serving expose distributed-training
-bottlenecks, GPU coordination problems, and bare-metal provisioning needs.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
+to keep running. [[ai-infrastructure-cost-and-ownership=>Ownership cost]]
+and cloud-versus-on-prem tradeoffs become concrete when GPU-heavy training and
+serving expose distributed-training bottlenecks, GPU coordination problems, and
+bare-metal provisioning needs.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 Platform teams keep the compute boundary broader because cloud infrastructure
 and Kubernetes belong in the platform skill set. Terraform and self-service
@@ -101,7 +104,8 @@ tradeoffs.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 Small and standardized workloads can often live on managed platforms.
 GPU-heavy training and serving push teams toward scheduling and utilization.
-They also raise hardware ownership questions.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+They also raise
+[[ai-infrastructure-cost-and-ownership=>hardware ownership questions]].[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Startup-scale managed-service choices need a narrower default. Use
 [[lean-mlops-for-startups=>lean MLOps for startups]] before treating platform
 ownership as the default.

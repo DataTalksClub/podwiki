@@ -143,6 +143,10 @@ chain can matter too.
 [[cite:make-money-with-machine-learning-roles-skills@15:59=>ML business metrics]]
 [[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
 
+For AI-backed products, usage, override, and task-time signals can feed
+[[AI Product Feedback Loops]]. Teams use them to change interfaces, add
+evaluation cases, or retrain models.
+
 ## Trust Before Usage
 
 Adoption breaks when trust breaks, so small operational signals are
@@ -339,6 +343,8 @@ Teams that measure adoption connect [[data-teams=>data teams]]
 to [[data-quality-and-observability=>data observability]] and
 [[model-monitoring=>model monitoring]]. The product
 has to work, stay trusted, and leave evidence that it changed behavior.
+For AI products, the same evidence should flow back into
+[[AI Product Feedback Loops]] instead of stopping at adoption reporting.
 
 ## Related Pages
 

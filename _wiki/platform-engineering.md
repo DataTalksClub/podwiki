@@ -6,6 +6,7 @@ related:
   - ML Platforms
   - Developer Experience
   - Machine Learning Infrastructure
+  - ai-infrastructure-cost-and-ownership
   - MLOps
   - Platform Adoption
   - Self-Service Data Platforms
@@ -96,10 +97,14 @@ centralized MLOps team supports product teams, collects pain points, and
 improves the path to production. Product teams still own their ML use
 cases.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-Ownership also depends on workload and operational burden. Specialist versus
-generalist skill balance, team size, and on-call capacity influence how much a
-platform team can own. A service that teams rely on in production needs owners
-who can maintain it.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+Platform teams own only what their workload allows and what their staffing can
+support. Specialist skills and on-call capacity also set that ceiling when a
+service needs production maintainers.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+
+GPU-heavy AI work makes that
+[[ai-infrastructure-cost-and-ownership=>cost and ownership boundary]]
+more explicit when teams weigh cloud, on-prem, and bare-metal capacity
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
 
 Ownership also needs roadmap discipline. Internal platform teams balance
 stakeholders and backlog, while compliance and rollout governance sit with

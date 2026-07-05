@@ -199,6 +199,10 @@ language. CVs make that translation visible on the page
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 Project walkthroughs make it visible in conversation
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+For researchers,
+[[academic-researcher-to-data-science=>Researcher to Data Science]] is the
+version of that communication work that turns thesis, lab, and research
+software experience into stakeholder-readable data evidence.
 
 ## Writing and Documentation
 

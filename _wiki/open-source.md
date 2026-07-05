@@ -8,6 +8,7 @@ secondary_keywords:
 summary: "Open source as public data and ML software, including stewardship, governance, licensing, contribution surfaces, ecosystems, and company distribution."
 related:
   - Open Source and Developer Relations
+  - ai-infrastructure-cost-and-ownership
   - Open Source Portfolio Evidence
   - Contributing
   - Developer Relations
@@ -327,8 +328,9 @@ and data scientists can try a
 [[model-monitoring=>model monitoring]] tool before
 the company sells hosting, scaling, security, or support.
 
-The model also supports bottom-up adoption and on-prem use when teams don't want
-to send data away.
+The model also supports bottom-up adoption and
+[[ai-infrastructure-cost-and-ownership=>on-prem use when teams don't want
+to send data away]].
 
 For identity resolution, the product took about 18 months from proof of concept
 to public release. Open source was both a way to give back and a way for Zingg

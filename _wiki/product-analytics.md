@@ -75,8 +75,10 @@ questions, and dbt often supports that work. One analytics engineering path
 connects Looker, Redshift, and Snowplow to product questions. It also connects
 product-support work, growth analysis, retention analysis, and RFM work.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
-AI product design adds another boundary: teams need interfaces that collect
-useful signals before they can rely on model-driven product behavior.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+AI product design adds another boundary. Interfaces collect model-behavior
+signals.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+Accepts or edits then feed [[AI Product Feedback Loops]] for later product and
+model decisions.
 
 ## Instrumentation Boundaries
 
@@ -95,10 +97,11 @@ Client-side timing and server-side capture can change it too.[[cite:data-led-gro
 Product analytics therefore sits next to [[Event Tracking]] and
 [[Tracking Plans]]. It doesn't own the instrumentation rules.
 
-For AI and ML products, instrumentation is part of product design. Interfaces
-need to collect signals that the model can use. Product teams also need to test
-problem framing and scoping documents before they scale the product idea.
-Parallel experiments and roadmap decisions depend on that signal design.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+For AI and ML products, instrumentation is product design because interfaces
+collect model signals. Product teams also test problem framing before they
+scale the product idea. Roadmap decisions depend on that signal design.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+Live behavior then feeds [[AI Product Feedback Loops]] as evaluation cases or
+retraining evidence.
 
 ## Metrics and Experiments
 

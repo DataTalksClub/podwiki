@@ -65,6 +65,9 @@ Domains can own meaning, prioritization, quality expectations, and consumer
 support. Platform and governance teams still need to keep products
 discoverable, interoperable, secure, and operable.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+[[data-architect-role=>Data architects]] can keep shared architecture coherent
+while domains own the data products
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
 
 The [[DataOps]] view adds an operating baseline. Domains need reproducible
 pipelines, versioning, lineage, and operations before they can own supported

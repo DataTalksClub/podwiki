@@ -171,6 +171,10 @@ enabler for workflows and tooling. He also includes continuous deployment,
 support, and self-service
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 [[DataOps Platforms]] owns that service design.
+For data engineering teams, the
+[[data-engineering-manager-role=>data engineering manager]] owns whether that
+service path has staffing, quality standards, and stakeholder promises behind it
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 DataOps becomes a role when one person or team is accountable for the operating
 path across other data teams. Hinc puts that work near support, communication,

@@ -118,6 +118,11 @@ and documented columns. The model also needs tested assumptions and named
 consumers
 [[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
+Reusable models may have to serve Finance, Supply Chain, Sales, and other
+departments from the same underlying data. In that setting, teams need the
+[[data-architect-role=>data architect role]] to connect model grain and shared
+definitions across consumers
+[[cite:from-iot-data-engineering-to-leading-data-architect@36:00=>From IoT Data Engineering to Data Architecture]].
 
 Common responsibilities include SQL transformations and dbt projects, with
 dimensional or BI modeling nearby. Tests plus documentation belong in the same

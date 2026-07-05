@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11893
+    "links": 11935
   },
   "nodes": [
     {
@@ -24452,6 +24452,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
@@ -25988,6 +25994,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-chip",
       "weight": 1
@@ -26073,6 +26085,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30560,6 +30578,12 @@
     },
     {
       "source": "wiki:communication",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -32163,6 +32187,12 @@
     {
       "source": "wiki:cv-screening",
       "target": "podcast:responsible-explainable-ai-bias-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -35666,6 +35696,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -35781,6 +35817,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:data-analyst-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37388,6 +37430,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -37493,6 +37541,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-tools",
@@ -37946,6 +38000,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-chip",
       "weight": 1
@@ -37971,6 +38031,12 @@
     {
       "source": "wiki:data-governance",
       "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38450,7 +38516,19 @@
     },
     {
       "source": "wiki:data-mesh",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39269,6 +39347,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-adoption",
@@ -40994,6 +41078,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -41043,6 +41133,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42087,6 +42183,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43233,6 +43335,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46370,6 +46478,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -46463,6 +46577,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -51188,6 +51308,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:a-a-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -51209,6 +51335,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:experimentation",
@@ -54008,6 +54140,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
       "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
       "kind": "wiki-chip",
       "weight": 1
@@ -54105,6 +54243,12 @@
     {
       "source": "wiki:hiring",
       "target": "wiki:data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
+      "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -55499,6 +55643,12 @@
       "target": "wiki:academia",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -61688,6 +61838,18 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:batch-vs-streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -67220,6 +67382,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -67229,6 +67397,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:model-monitoring",
@@ -68876,6 +69050,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:batch-vs-streaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -69389,6 +69569,18 @@
       "target": "podcast:practical-devrel-demofirst-education-and-open-source",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:open-source",
@@ -71000,6 +71192,12 @@
     },
     {
       "source": "wiki:platform-engineering",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -71039,6 +71237,18 @@
       "target": "podcast:remote-data-engineering-work-and-building-iot-platforms",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:platform-engineering",
@@ -72641,6 +72851,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analytics",
@@ -77624,6 +77840,12 @@
     },
     {
       "source": "wiki:security",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:security",
       "target": "podcast:data-governance-data-access-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -77651,6 +77873,18 @@
       "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:security",
@@ -77819,6 +78053,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:self-service-data-platforms",
@@ -80234,6 +80474,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
@@ -80325,6 +80571,12 @@
     {
       "source": "wiki:team-building",
       "target": "wiki:data-activation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },

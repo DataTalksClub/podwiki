@@ -245,6 +245,10 @@ context.
 [[Data Governance]] and [[Data Product Management]] meet quality here. Teams
 need ownership, meaning, usage, and priority before they can decide whether an
 anomaly is urgent.
+[[data-architect-role=>Data architects]] add the durable design layer. Quality
+expectations may need to span source systems, warehouse layers, models, and
+consumer-facing data products
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
 
 Runbooks are a step toward automation. Moving from manual checklists to automated
 playbooks means a useful alert names an owner, a diagnosis path, and a

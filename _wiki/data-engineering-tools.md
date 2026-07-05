@@ -67,6 +67,10 @@ Tool choice should follow the business requirement, team skills, and operating
 cost instead of vendor-led collection. That requirements-led rule also anchors
 [[Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+For manager-facing choices, a
+[[data-engineering-manager-role=>data engineering manager]] turns requirements
+into platform priorities, quality standards, and staffing tradeoffs
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 Open-source tools add another selection risk. Airbyte's connector model uses
 open source to cover the long tail of APIs. The same episode treats licensing

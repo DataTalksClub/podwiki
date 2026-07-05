@@ -148,6 +148,10 @@ Graduate degrees can help for research-heavy or specialized roles. Practical
 experience and portfolio evidence still matter for many applied data science
 paths. Treat a master's or PhD as one signal, not a substitute for proof
 [[cite:how-to-break-into-data-science@1:01:42=>Data Science Career Playbook]].
+Researchers can use
+[[academic-researcher-to-data-science=>Researcher to Data Science]] to keep
+thesis work, lab work, and research software tied to role targeting. Visible
+code and project evidence still have to support the degree signal.
 
 Olteanu compares a master's with independent study because the degree gave
 structure in a broad field. Kaggle, online courses, and YouTube provided much

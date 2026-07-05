@@ -56,6 +56,12 @@ Data engineering overlaps with
 when product-facing engineers help teams publish owned data products with clear
 interfaces.
 
+When teams repeat those choices across pipelines, they need the
+[[data-architect-role=>data architect role]] version of the work. That role
+joins source-system understanding and staging layers with warehouse models and
+stakeholder alignment across teams
+[[cite:from-iot-data-engineering-to-leading-data-architect@23:21=>From IoT Data Engineering to Data Architecture]].
+
 Warehouse transformation work creates another boundary with
 [[Analytics Engineering]].
 In an ELT flow, dbt-style transformation comes after

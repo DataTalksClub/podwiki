@@ -7,6 +7,7 @@ related:
   - Responsible AI and Governance
   - Data Governance
   - LLM Production Patterns
+  - ai-infrastructure-cost-and-ownership
   - Production
 ---
 
@@ -117,9 +118,15 @@ if the serialized artifact can run untrusted code.
 
 Production controls must survive deployment and model updates in regulated
 finance.[[cite:mlops-and-ml-engineering-in-finance=>MLOps]]
-Teams use release management, approvals, and DevOps work to build trust.
-Finance and other regulated settings need auditable controls, change review, and
-rollback paths before a model reaches users.
+Teams use release management and approvals to build trust. DevOps work supports
+the same trust.
+Finance and other regulated settings need auditable controls and change review.
+They also need rollback paths before a model reaches users.
+
+Security or privacy constraints can affect where AI systems run. In those cases,
+[[ai-infrastructure-cost-and-ownership=>infrastructure ownership]] becomes part
+of the control model rather than only a cost decision
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
 
 Production controls need monitoring and incident routes. Temporary debugging
 access helps during urgent investigations.[[cite:data-governance-data-access-management=>Data Access Management]]

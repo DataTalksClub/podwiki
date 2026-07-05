@@ -287,7 +287,10 @@ even more when the team needs niche technology such as streaming.
 As the organization grows, general data engineering work may split into platform
 and warehouse roles. Streaming and services may become separate roles too
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
-Those team splits affect the operating model for [[DataOps]],
+A [[data-engineering-manager-role=>data engineering manager]] then has to
+sequence platform standards, reliability, and staffing across those splits
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+They affect the operating model for [[DataOps]],
 [[self-service-data-platforms=>self-service data platforms]],
 and [[platform adoption]].
 
