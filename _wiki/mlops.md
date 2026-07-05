@@ -53,10 +53,11 @@ model operations matters. The MLOps side adds model artifacts and experiment
 capture. It also adds drift, retraining, deployment approval, and model
 governance.
 
-Good entry points are
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]], and
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
+That operating frame runs through conversations about production platforms,
+MLOps adoption, and human-centered monitoring
+[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 
 ## MLOps Scope
 
@@ -209,13 +210,15 @@ A shared platform helps several teams share tracking and registry paths.
 
 It can standardize serving and orchestration.
 
-Metadata and governance stay visible.[[cite:building-production-ml-platform-and-mlops-team=>ML Platform]].
+Metadata and governance stay visible
+[[cite:building-production-ml-platform-and-mlops-team=>ML Platform]].
 
 Experiment tracking often comes first because it moves run history out of
 private spreadsheets. Even a small model team gets a shared record.
 
 Registries and serving paths can follow as the handoff to production becomes
-real. Monitoring and governance can follow too.[[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]]
+real. Monitoring and governance can follow too
+[[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]]
 That connects MLOps to [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[CI/CD]]. It also connects MLOps to [[Model Registry]] and
 [[Reproducibility]].

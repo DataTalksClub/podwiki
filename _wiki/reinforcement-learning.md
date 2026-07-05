@@ -33,11 +33,13 @@ Week by Phil Winder and
 [[book:20210517-grokking-deep-reinforcement-learning=>Grokking Deep Reinforcement Learning]]
 by Miguel Morales.
 
-For episode navigation, use these starting points:
-
-- [[podcast:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]] for game AI and agent history
-- [[podcast:machine-learning-decision-optimization=>Optimize Decisions with ML]] for decision optimization
-- [[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]] for robotics and autonomous driving
+Game AI discussions connect reinforcement learning to agent history, while
+decision-optimization episodes connect it to objective-driven policy search.
+Computer-vision research shows why robotics and autonomous driving need
+perception, simulation, and staged validation.
+[[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
+[[cite:machine-learning-decision-optimization=>Decision Optimization]]
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Computer Vision Research]]
 
 ## Agent Goals and Modern Agent Language
 

@@ -31,8 +31,8 @@ remain technical enough that weak architecture or ownership choices show up as
 team problems.
 
 [[person:16rahuljain=>Rahul Jain]] gives the clearest
-example in
-[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+example in the Data Engineering Leadership and Modern Data Platforms discussion
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
 He describes the role through stakeholder management, prioritization,
 hands-on technical credibility, and quality metrics. Data culture sits in the
 same discussion. GDPR controls, lineage, and hiring do too. His episode makes the
@@ -99,8 +99,8 @@ That makes the role a practical owner of
 [[Data Governance]].
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] shows the scale-up
-version in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+version in his self-service platform discussion
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 The data platform helps analysts and data scientists build or use data
 workflows without bespoke support each time. Software engineers can use the same
 path. Mehdi doesn't reduce that platform to an Airflow cluster. He names
@@ -149,8 +149,8 @@ managers should ask for context and alternatives before they accept tool
 buzzwords. Real use cases matter too [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 [[person:nicolasrassam=>Nicolas Rassam]] adds the talent
-market lens in
-[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+market lens in his European data engineering hiring discussion
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
 He says titles hide relevant experience. Software engineers and BI engineers
 may already have pipeline or modeling experience. Analysts and data scientists
 may have it too.
@@ -198,8 +198,9 @@ and [[DataOps]].
 
 [[person:christopherbergh=>Christopher Bergh]] gives the
 operating model for that reliability. His
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
-discussion frames automation, observability, CI/CD, and regression tests as
+DataOps for Data Engineering discussion
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+frames automation, observability, CI/CD, and regression tests as
 ways to reduce fear and rework. Test data, version control, and monitoring
 support the same goal. He also links weak delivery habits to burnout and
 turnover. That makes reliability a leadership concern, not only a tooling

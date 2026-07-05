@@ -26,7 +26,7 @@ decision. Then ask who protects delivery, manages the roadmap, and aligns data
 or ML specialists across teams.
 
 [[person:annahannemann=>Anna Hannemann]] gives the clearest comparison in
-[[podcast:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]].
+[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]].
 She says the distinction depends on the company. Some teams use only product
 owners. Some use only product managers. When only one title exists, that person
 often has to wear both hats.[[cite:building-data-products-product-owner-vs-product-manager=>Anna on PO vs PM]]
@@ -101,7 +101,7 @@ customer discovery and hypothesis formation in
 and documentation.[[cite:product-designer-to-data-product-manager=>Sara on data PM work]]
 [[person:geojolly=>Geo Jolly]]
 describes a technical PM in
-[[podcast:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
+[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
 That PM owns roadmap direction, specifications, feedback, and stakeholder
 communication for an internal ML platform.[[cite:ml-product-manager-and-mlops-platform-strategy=>Geo on ML platform PM]]
 
@@ -114,7 +114,7 @@ Use [[Data Product Management]] for the broader role and
 system.
 
 [[person:gregcoquillo=>Greg Coquillo]] gives another data-product version in
-[[podcast:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]].
+[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]].
 He treats data product management as customer discovery and strategy. It also
 covers solution design, roadmap work, and value creation for data products. His
 examples start from internal customers such as sales and marketing. He also
@@ -148,7 +148,7 @@ In [[Data Mesh]], teams use owner titles differently.
 [[person:zhamakdehghani=>Zhamak Dehghani]] uses "data product owner" and
 "data product manager" for one role. That role manages a domain's data as a
 product for other domains in
-[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 In that role, the owner talks with consumer domains and decides which data
 product or access path is needed. They also manage guarantees such as quality,
 timeliness, integrity, and completeness.[[cite:data-mesh-architecture-decentralized-data-products=>Zhamak on data product ownership]]

@@ -252,8 +252,10 @@ For infrastructure choices, compare
 with
 [[Knowledge Graph vs Vector Search]].
 
-For episode navigation, use
-[[podcast:building-production-search-systems=>Building Search Systems]],
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
-and
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
+Guests connect production search evaluation to search architecture, RAG
+retrieval, and hybrid signals. In those episodes, they discuss candidate
+generation and ranking. They also discuss answer grounding and product
+constraints.
+[[cite:building-production-search-systems=>Building Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
