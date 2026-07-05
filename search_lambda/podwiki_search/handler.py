@@ -143,12 +143,16 @@ def lambda_handler(event: dict, context: object) -> dict:
         "guide",
         "comparison",
         "roadmap",
+        "transition",
         "how_to",
         "podcast_summary",
         "person",
-        "section",
+        "book",
     }
-    filters = {"level": level} if level in allowed_levels else {}
+    if level == "section":
+        filters = {"document_type": "section"}
+    else:
+        filters = {"level": level} if level in allowed_levels else {}
     results = index().search(
         query,
         filter_dict=filters,

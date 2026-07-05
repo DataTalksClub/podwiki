@@ -3,10 +3,25 @@
   const button = document.getElementById("search-button");
   const status = document.getElementById("search-status");
   const results = document.getElementById("search-results");
+  const filterButtons = Array.from(document.querySelectorAll("[data-search-filter]"));
   const apiUrl = (window.PODWIKI_SEARCH_API || "").trim();
   const baseUrl = (window.PODWIKI_BASE_URL || "").replace(/\/$/, "");
   let localDocs = null;
   let lastTerms = [];
+  let activeFilter = "all";
+  const filterLabels = {
+    all: "All",
+    wiki: "Wiki",
+    guide: "Guides",
+    comparison: "Comparisons",
+    roadmap: "Roadmaps",
+    transition: "Transitions",
+    how_to: "How-tos",
+    podcast_summary: "Podcasts",
+    person: "People",
+    book: "Books",
+    section: "Sections",
+  };
 
   function siteUrl(path) {
     if (!path || /^https?:\/\//i.test(path)) return path;
@@ -26,6 +41,15 @@
     status.textContent = text;
     if (state) status.setAttribute("data-state", state);
     else status.removeAttribute("data-state");
+  }
+
+  function setActiveFilter(value) {
+    activeFilter = filterLabels[value] ? value : "all";
+    for (const btn of filterButtons) {
+      const active = btn.dataset.searchFilter === activeFilter;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    }
   }
 
   function highlight(escaped, terms) {
@@ -53,6 +77,14 @@
     if (item.level === "segment") return "Segment";
     if (item.document_type === "section" || item.level === "section") return "Section";
     return labels[item.level] || String(item.level || "page").replaceAll("_", " ");
+  }
+
+  function matchesFilter(item) {
+    if (activeFilter === "all") return true;
+    if (activeFilter === "section") {
+      return item.document_type === "section" || item.level === "section";
+    }
+    return item.level === activeFilter;
   }
 
   function metaFor(item) {
@@ -103,7 +135,8 @@
       showEmpty(query);
       return;
     }
-    setStatus(`${items.length} result${items.length === 1 ? "" : "s"}`, "ok");
+    const filterText = activeFilter === "all" ? "" : ` · ${filterLabels[activeFilter]}`;
+    setStatus(`${items.length} result${items.length === 1 ? "" : "s"}${filterText}`, "ok");
     const frag = document.createDocumentFragment();
     for (const item of items) {
       const title = highlight(escapeHtml(titleFor(item)), lastTerms);
@@ -148,6 +181,7 @@
     return localDocs
       .map((doc) => ({ ...doc, score: scoreDoc(doc, terms) }))
       .filter((doc) => doc.score > 0)
+      .filter(matchesFilter)
       .sort((a, b) => b.score - a.score)
       .slice(0, 20);
   }
@@ -155,6 +189,7 @@
   async function remoteSearch(query) {
     const url = new URL(apiUrl);
     url.searchParams.set("q", query);
+    if (activeFilter !== "all") url.searchParams.set("level", activeFilter);
     const response = await fetch(url.toString());
     if (!response.ok) throw new Error(`Search API returned ${response.status}`);
     const payload = await response.json();
@@ -176,6 +211,8 @@
     showSkeletons(4);
     const params = new URLSearchParams(window.location.search);
     params.set("q", query);
+    if (activeFilter === "all") params.delete("level");
+    else params.set("level", activeFilter);
     history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
     try {
       if (!apiUrl) {
@@ -189,7 +226,8 @@
         const items = await localSearch(query);
         render(items, query);
         if (items.length) {
-          setStatus(`${items.length} result${items.length === 1 ? "" : "s"} (offline index)`, "ok");
+          const filterText = activeFilter === "all" ? "" : ` · ${filterLabels[activeFilter]}`;
+          setStatus(`${items.length} result${items.length === 1 ? "" : "s"}${filterText} (offline index)`, "ok");
         }
       }
     } catch (err) {
@@ -202,8 +240,16 @@
   input.addEventListener("keydown", (event) => {
     if (event.key === "Enter") runSearch();
   });
+  for (const btn of filterButtons) {
+    btn.addEventListener("click", () => {
+      setActiveFilter(btn.dataset.searchFilter);
+      if (input.value.trim()) runSearch();
+    });
+  }
 
-  const initial = new URLSearchParams(window.location.search).get("q");
+  const initialParams = new URLSearchParams(window.location.search);
+  setActiveFilter(initialParams.get("level") || "all");
+  const initial = initialParams.get("q");
   if (initial) {
     input.value = initial;
     runSearch();

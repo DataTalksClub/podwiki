@@ -209,6 +209,40 @@ html.dark .tag-btn.active {
   min-height: 3rem;
 }
 
+.search-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  width: min(100%, 860px);
+  margin: 0.75rem auto 1.2rem;
+}
+
+.search-filter {
+  min-height: 2rem;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.search-filter:hover,
+.search-filter:focus {
+  border-color: var(--accent);
+  color: var(--link-hover);
+}
+
+.search-filter.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
 #search-status {
   min-height: 1.25rem;
   margin-top: 1.25rem;
