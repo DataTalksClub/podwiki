@@ -708,11 +708,10 @@ Source hints:
   `how-to-become-a-data-engineer-with-no-experience`, and retitled
   `_wiki/data-scientist-to-data-engineer.md` from "Data Eng" to "Data
   Engineer" while keeping it transition-focused.
-- Next community boundary cleanup: trim conference/hackathon operations from
-  `_wiki/community.md`, keep organizer execution on `_wiki/community-building.md`,
-  and keep venue, CFP, sponsor, timetable, and networking details on
-  `_wiki/data-ai-conference-building.md`. Add precise Data Makers Fest anchors
-  while doing that cleanup.
+- The 2026-07-05 community boundary cleanup trimmed conference operations from
+  `_wiki/community.md`, kept organizer execution on `_wiki/community-building.md`,
+  and kept venue, CFP, sponsor, timetable, and networking details on
+  `_wiki/data-ai-conference-building.md` with precise Data Makers Fest anchors.
 - Next weak-node graph cleanup: add low-risk body links for LLM deployment from
   RAG, entity resolution from data-engineering portfolio projects, model
   monitoring vs data observability from MLOps vs DevOps, and sensor ML personal

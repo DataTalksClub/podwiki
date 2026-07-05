@@ -242,26 +242,22 @@ Open mentoring can also become a two-way community contribution. Women in Data
 Science and local chapters use open sessions for interview preparation, resume
 review, LinkedIn review, and stage-specific career questions. Mentors can learn
 from those conversations too. Community sessions expose different interview
-processes, backgrounds, and constraints.[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
-[[cite:applied-llm-research-and-career-growth-in-practice@48:28=>Applied LLM Research and Career Growth]]
+processes, backgrounds, and constraints
+[[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]].
+[[cite:applied-llm-research-and-career-growth-in-practice@48:28=>Applied LLM Research and Career Growth]].
 
-In-person communities add a different operating structure. Data Lead Club uses
-a small retreat format for data leaders. They need trusted peers and enough
-safety to discuss management problems they can't easily raise with their own
-teams. The retreat turns community building into peer support for senior roles.
-It's not only event attendance.[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]]
+In-person communities add a different operating structure. Data Lead Club uses a
+small retreat format where data leaders can discuss management problems with
+trusted peers
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]].
+Data Makers Fest shows the larger conference version. Organizer networks and
+sponsor relationships become part of the community operating system. Student
+access, speaker work, and practitioner exchange do too
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Data Makers Fest]].
 
-Larger conference organizing adds another path. Running Data Makers Fest made
-the organizer's network and operating style visible. The conference gives
-practitioners and sponsors a practical place to meet. Students and speakers use
-the same space for learning and exchange
-[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
-That keeps community building connected to [[career growth]] without reducing
-it to personal branding.
-
-The conference-specific version is covered in
-[[data-ai-conference-building=>data AI conference building]]. Use it for
-speaker curation, retreat format, sponsorship, and technical trust.
+Use [[Data AI Conference Building]] for conference-specific work because
+conference organizers own venue and speaker curation there. They also own
+sponsorship, pricing, timetable design, and networking.
 
 ## Related Pages
 

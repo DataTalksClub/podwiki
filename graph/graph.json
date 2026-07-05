@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11977
+    "links": 11976
   },
   "nodes": [
     {
@@ -32733,12 +32733,6 @@
     {
       "source": "wiki:data-activation",
       "target": "wiki:tracking-plans",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-ai-conference-building",
-      "target": "person:leonidkholkine",
       "kind": "wiki-chip",
       "weight": 1
     },

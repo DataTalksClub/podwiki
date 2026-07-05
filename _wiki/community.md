@@ -35,7 +35,7 @@ and help each other learn
 The MLOps Community discussion keeps the same boundary
 ([[person:demetriosbrinkmann=>Demetrios Brinkmann]]). Members strengthen
 community by talking to each other, instead of only hearing organizer
-broadcasts[[cite:mlops-community-building-and-meetups]].
+broadcasts[[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]].
 
 ## Participation Over Audience
 
@@ -73,7 +73,7 @@ on member-to-member exchange.
 Community work focused on inclusion centers safety and career support, and
 meetups focused on women can become broader support networks. Diversity connects
 to leadership, product fit, and market
-reach[[cite:building-ml-communities-diversity-and-career-growth]].
+reach[[cite:building-ml-communities-diversity-and-career-growth=>How to Build and Scale a Data Science Community]].
 [[person:daniameira=>Dânia Meira]] places community inside [[data science]]
 career support, not only event programming.
 
@@ -107,14 +107,11 @@ make the work reviewable, and categories clarify what teams build
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 For the organizer-side version of larger data events, use
-[[data-ai-conference-building=>data and AI conference building]]. Organizers
-also need speaker programs, sponsors, student access, and networking spaces as
-community infrastructure
+[[Data AI Conference Building]]. Keep venue, sponsor, and speaker decisions
+there. Keep student-access and networking decisions there too. On this page,
+conferences matter because they give members a dense way to meet peers and turn
+attendance into contribution
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]).
-
-[[person:willrussell=>Will Russell]] uses these formats as part of developer
-advocacy. Dinners and panels add more compressed formats. Workshops and the
-Datalift Summit do the same[[cite:building-ml-communities-diversity-and-career-growth=>How to Build and Scale a Data Science Community]].
 
 ## Trust Makes Participation Possible
 
@@ -123,18 +120,14 @@ ask questions, admit mistakes, and share work in public. Moderation is the
 organizer practice that protects that trust. The operational version is covered
 in [[Community Building]].
 
-Moderation covers code-of-conduct work, vendor-spam handling, niche choice, and
-scam awareness. It also protects members from unsolicited
-messages[[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]].
-Practical safeguards for community safety and trust include sustained engagement
-habits and clear participation paths[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary]][[cite:datatalksclub-scaling-and-free-courses]].
-
-The inclusion lens makes the code of conduct operational. Rules need reporting
-paths, case-by-case handling, and
-consequences[[cite:building-ml-communities-diversity-and-career-growth=>How to Build and Scale a Data Science Community]].
-The DevRel version adds toxic-space avoidance and anonymity. It also covers
-moderation and peer support for public technical
-work[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
+Moderation protects members from vendor spam, scams, and unsafe participation
+patterns
+[[cite:mlops-community-building-and-meetups=>MLOps Community Playbook]].
+Use [[Community Building]] for organizer practice around code of conduct,
+reporting paths, and moderation process. Use [[Developer Relations]] when the
+same trust problem appears inside public product support or open technical
+forums
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
 Team community has the same safety requirement at smaller scale. CJ Jenkins
 describes rituals for sharing failures and building trust during a
@@ -188,14 +181,14 @@ In open source, community work becomes visible through
 ## Learning Communities and Public Work
 
 Courses turn community into repeatable skill building. They link free education
-to student stories and platform work[[cite:datatalksclub-scaling-and-free-courses]].
+to student stories and platform work[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]].
 That access-to-practice focus makes community part of
 [[ai-for-social-good=>AI for social good]] when education, mentoring, and project
 work help people enter data and ML.
 
 Teaching assistants and webinars turn participation into a support system.
 Project of the Week and competitions turn coursework into portfolio
-work[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary]].
+work[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary=>Building a Sustainable Data Community]].
 
 DevRel connects teaching to applied tutorials. Reusable video content and open
 educational resources extend that work beyond one
