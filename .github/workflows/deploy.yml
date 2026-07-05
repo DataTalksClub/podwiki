@@ -45,6 +45,10 @@ jobs:
         run: python scripts/build_graph.py
       - name: Build browser search corpus
         run: python scripts/build_search_index.py
+      - name: Audit content quality
+        run: python scripts/audit_content_quality.py --strict-scaffold-headings --strict-source-scaffolding
+      - name: Audit SEO metadata
+        run: python scripts/audit_seo.py
       - name: Build with Rustkyll
         run: .bin/rustkyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
