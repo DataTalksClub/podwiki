@@ -60,24 +60,10 @@ consumer-facing datasets.
 ## Adjacent Table Formats
 
 Adrian Brudaru places Delta Lake, Hudi, and Iceberg in the same lakehouse
-table-format family. In that comparison, Delta is the mature option. Hudi is
-more specialized, and Iceberg gets more attention for vendor lock-in and catalog
-work.
+table-format family and treats Delta as the mature option in that group.
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
-For side-by-side selection, compare Delta Lake with Iceberg in
-[[Delta Lake vs Apache Iceberg]].
-
-The [[Apache Iceberg]] page has the deeper table-format evidence because
-Iceberg adoption is named as a 2025 trend. The same discussion describes
-Iceberg over Parquet and ties it to reduced vendor lock-in.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
-
-Delta Lake appears beside Iceberg through DLT support and the
-Delta/Hudi/Iceberg comparison, where Delta is the mature option. Claims about
-open storage, catalogs, metadata, and lock-in usually belong on the
-[[apache-iceberg=>Iceberg page]] or [[Delta Lake vs Apache Iceberg]]. Delta
-Lake claims here should stay tied to tool support, Spark-oriented versioning,
-and existing Delta-oriented lakehouse environments.
+Delta Lake also appears beside [[Apache Iceberg]] through DLT support. For
+side-by-side selection, use [[Delta Lake vs Apache Iceberg]].
 
 ## Spark Versioning and Historical Reruns
 
@@ -135,18 +121,12 @@ modern-data-stack discussion covers ingestion and dbt-style transformation. It
 also covers orchestration, documentation, and reverse data
 flows.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-Before changing a lake table format, teams should ask where the bottleneck
-sits:
-
-- ingestion reliability
-- [[dbt]] modeling
-- [[analytics engineering]]
-- documentation
-- consumer access
-
-Those checks keep Delta Lake inside the lakehouse platform discussion instead
-of turning it into a generic data architecture label. The side-by-side
-selection checks belong in [[Delta Lake vs Apache Iceberg]].
+Before changing a lake table format, teams should check the common platform
+bottlenecks first. The problem may sit in ingestion reliability or consumer
+access. It may also sit in [[dbt]] modeling, [[analytics engineering]], or
+documentation. Those checks keep Delta Lake inside the lakehouse platform
+discussion instead of turning it into a generic data architecture label. The
+side-by-side selection checks belong in [[Delta Lake vs Apache Iceberg]].
 
 ## Related Pages
 

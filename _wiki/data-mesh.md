@@ -21,8 +21,9 @@ keeps that decentralization usable through self-service infrastructure and
 identity. It also provides access controls, observability, and common standards.
 That makes Data Mesh a close neighbor of
 [[self-service-data-platforms=>self-service data platforms]],
-[[data governance]], and [[DataOps]]. For the architecture choice between this
-operating model and a more centralized platform organization, use
+[[data governance]], and [[DataOps]]. For the architecture and operating-model
+choice between domain ownership and a more centralized platform organization,
+use
 [[Data Mesh vs Centralized Data Platform]].
 
 ## Operating Definition
@@ -57,19 +58,18 @@ Platform teams make domain ownership practical by giving teams shared tooling.
 Conventions, schemas, and playbooks keep domains from rebuilding their own
 infrastructure paths.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
-## Boundaries of Decentralization
+## Support for Decentralization
 
-The main boundary question is whether domain ownership removes more delay than
-it adds coordination cost. Data Mesh fits organizations where one shared data
-team can't absorb all domain context. It's weaker as a single tooling rollout
-because the model changes ownership, product commitments, platform support, and
-governance
-responsibilities.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+Data Mesh decentralizes ownership, but it doesn't decentralize every decision.
+Domains can own meaning, prioritization, quality expectations, and consumer
+support. Platform and governance teams still need to keep products
+discoverable, interoperable, secure, and operable.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
-The [[DataOps]] view adds a maturity test. Responsibility can move to domains
-only when pipelines, versioning, lineage, and operations can support that split.
-Otherwise, decentralization can create more handoffs than the centralized model
-it replaces.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+The [[DataOps]] view adds an operating baseline. Domains need reproducible
+pipelines, versioning, lineage, and operations before they can own supported
+data products without creating fragile handoffs.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Sensitive data is another hard boundary. A mesh can distribute ownership, but
 access controls still need shared request and approval processes. They also
@@ -84,8 +84,8 @@ accountability includes producer work, consumer communication, quality
 expectations, and change management.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 The operating split works only when the platform makes the domain path easier
-than informal one-off pipelines. For the decision between domain-owned products
-and centralized platform ownership, see
+than informal one-off pipelines. For the decision about how far ownership
+should move into domains, see
 [[Data Mesh vs Centralized Data Platform]].
 
 Domain ownership also changes the role of central data teams. They become
@@ -133,9 +133,10 @@ This makes Data Mesh closely related to
 [[Platform Engineering]] and
 [[developer experience]].
 The platform should hide repeated infrastructure work while leaving domain
-teams enough autonomy to structure their products. The [[DataOps]] tradeoff is
-where platform responsibility should split and where it should remain
-centralized.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
+teams enough autonomy to structure their products. The [[DataOps]] baseline
+keeps platform responsibility explicit through reproducible pipelines,
+versioning, lineage, and operations.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 ## Federated Governance
 
@@ -170,8 +171,8 @@ The [[DataOps]] reliability criteria still apply. Responsibilities shouldn't
 spread across domains until teams have reproducible pipelines. They also need
 immutable data practices. Lineage, versioning, and quality automation belong in
 the same baseline.[[cite:dataops-principles-and-scalable-data-platforms]]
-Those practices keep the mesh from creating more handoffs than the centralized
-model it replaces.
+Those practices keep the mesh from creating extra handoffs around every
+product change or incident.
 
 Smaller teams can still borrow useful parts without reorganizing around a full
 mesh. They can name owners for important datasets and define product
@@ -179,8 +180,8 @@ interfaces. They can also write contracts and expose quality signals. Access
 rules and self-service paths help where demand repeats.
 
 The full Data Mesh model becomes more compelling when many domains need autonomy
-and a shared team can no longer provide the context and support. The decision
-boundary is covered in
+and a shared team can no longer provide the context and support. The
+architecture and operating-model comparison is covered in
 [[Data Mesh vs Centralized Data Platform]].
 
 ## Related Pages

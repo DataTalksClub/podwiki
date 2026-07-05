@@ -29,12 +29,11 @@ RAG is more than one tool: search quality
 and chunk design affect answer quality. Embeddings, prompt construction,
 citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-RAG mechanics and boundaries sit upstream of several practical pages.
-[[RAG Portfolio Projects]] helps choose a project type, and the
+RAG architecture and production boundaries connect to several applied pages.
+[[RAG Portfolio Projects]] helps choose a project type, while the
 [[Search and RAG Project Checklist]] helps review a scoped implementation.
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-checks retrieval and answers, while
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] checks retrieval and
+answers, while the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]
 orders the production sequence.
 For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
 adjacent design where retrieval supplies schema or metric context before SQL
@@ -167,8 +166,8 @@ badly or because the answer overstates what the sources support.
 Multi-level RAG evaluation includes retrieval checks and answer
 checks.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
 Offline tests and human review are part of the same evaluation work. Gold tests
-and failure categories show whether to fix retrieval, prompting, formatting, or
-data preparation.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+and failure categories keep retrieval quality separate from prompting,
+formatting, and data-preparation problems.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 Agentic RAG needs custom datasets and system benchmarks because public model
 benchmarks don't test tool use or integration behavior. They also don't test

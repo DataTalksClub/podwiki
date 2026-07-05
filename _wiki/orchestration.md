@@ -22,10 +22,10 @@ systems. It also covers cloud schedulers and ML pipeline services. The
 control-plane work includes schedules and dependencies. It also includes run
 state, recovery, backfills, and tool choice.
 
-[[Apache Airflow]] covers concrete Airflow use cases such as DAG files and local
-Docker setup. It also covers job scheduling, metadata, logs, and Airflow
-platform work. [[Data Pipelines]] describes the source-to-output system, and
-[[How to Build Data Pipelines]] gives the procedural build order.
+[[Apache Airflow]] covers tool-specific DAG files and local Docker setup. It
+also covers scheduler and executor behavior, metadata, logs, and shared
+Airflow deployments. [[Data Pipelines]] describes the source-to-output system,
+and [[How to Build Data Pipelines]] gives the procedural build order.
 
 [[person:larsalbertsson=>Lars Albertsson]] gives the
 clearest platform definition. He places storage and compute next to a workflow
@@ -50,11 +50,11 @@ use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
 
 ## Orchestration Scope
 
-An orchestrator owns order and run state. It doesn't own every piece of work
-inside the pipeline. [[person:nataliekwong=>Natalie Kwong]]
-draws that boundary by placing Airflow at the scheduling and orchestration
-layer. Airbyte handles extract-load work, while dbt handles warehouse-side SQL
-transformations once the data is present [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+An orchestrator owns order and run state, not every pipeline step.
+
+[[person:nataliekwong=>Natalie Kwong]]
+shows scheduling around extract-load work and warehouse-side transformations
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 That boundary connects orchestration to [[ETL]],
 [[ETL vs ELT]], [[dbt]],
 and the [[modern data stack]].
@@ -74,9 +74,10 @@ pipeline version by grouping Airflow, Prefect, Dagster, and Mage as
 orchestration engines. Which one fits depends on how the team breaks up the
 workflow and what transformations the pipeline runs [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
-She gives a staging example where data is written to object storage. A later
-Airflow DAG or dbt model picks it up. The orchestrator coordinates the handoff.
-The storage and transformation layers still do their own jobs [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+She gives a staging example where data is written to object storage before a
+later workflow or transformation step picks it up. The orchestrator coordinates
+the handoff. The storage and transformation layers still do their own jobs
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 ## Tool Fit
 
@@ -90,11 +91,6 @@ In each case, the orchestrator owns the schedule and dependency graph. It also
 owns run state and recovery path. The ingestion tool or SQL model owns its own
 work. Spark jobs and feature platforms do too. Warehouses and model services
 keep their own responsibilities.
-
-Natalie Kwong separates Airbyte-style extract-load work from dbt-style
-transformation and puts Airflow around that flow [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-Use [[Apache Airflow]] when the question is how that boundary becomes an
-Airflow DAG, Airflow deployment, or Airflow portfolio project.
 
 The need for orchestration increases when the workflow has several ordered
 jobs, partition reruns, shared run history, or retries. It also increases when
@@ -170,7 +166,7 @@ operating view. He treats a workflow engine as one platform component, not as
 the whole data platform [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
 Teams also need naming rules and sequencing conventions. Playbooks and
-templates keep repeated pipelines from becoming copy-pasted DAGs.
+templates keep repeated pipelines from becoming copied workflow definitions.
 
 Teams have more orchestration options than Airflow. [[person:adrianbrudaru=>Adrian Brudaru]]
 says Airflow is common, with Prefect and Dagster also popular. GitHub Actions
@@ -273,10 +269,11 @@ backfill work.
 ## Platform Conventions
 
 An orchestrator becomes useful at team scale only when people know how to use
-it. Mehdi OUAZZA treats Airflow as one platform component and then adds
-conventions. Teams need to structure pipelines and handle sequence. They also
-need to name things and decide when generic YAML or templates should generate
-repeated DAGs [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+it. Mehdi OUAZZA treats the workflow engine as one platform component and then
+adds conventions. Teams need to structure pipelines and handle sequence. They
+also need to name things and decide when generic YAML or templates should
+generate repeated workflows
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
 He says a scale-up may spend about half its data-engineering effort on platform
 work. The other half may go to use-case pipelines, because repeated requests
@@ -317,18 +314,20 @@ systems. The team needs owners who respond when checks fail.
 
 For learners, orchestration should come after the pipeline has real steps to
 coordinate. [[person:jeffkatz=>Jeff Katz]] places Docker
-and AWS after Python and SQL. Airflow also comes after data-warehouse
-fundamentals in [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
+and AWS after Python and SQL, and puts workflow tooling after
+data-warehouse fundamentals in
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
 
-He says good Airflow code keeps most logic in normal Python and doesn't rely on
-Airflow for everything. Write the extraction and transformation clearly first.
-Add checks and publication paths before the orchestrator hides weak ownership [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
+The same learning boundary applies regardless of tool, so write the extraction
+and transformation clearly first. Add checks and publication paths before an
+orchestrator hides weak ownership
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
 
 Then add orchestration when schedules, dependencies, retries, or run history
 become part of the problem. Backfills belong in the same decision. A learner
-can prove the concept with any tool that shows the sequence and failure mode.
-The project should also show the recovery path and data checks. Use
-[[Apache Airflow]] for the local Docker Compose and DAG-specific learning path.
+can prove the concept with any tool that shows the sequence, failure mode,
+recovery path, and data checks. Use [[Apache Airflow]] for the local Docker
+Compose and DAG-specific learning path.
 
 Pin container dependencies when they prove reproducibility
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].
@@ -347,8 +346,8 @@ shared:
 Mehdi's platform point applies here too. The workflow engine is only one
 platform component [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
-A useful orchestration project therefore shows more than a DAG screenshot. It
-shows why one step waits for another and what happens when an input is late.
+A useful orchestration project therefore shows more than a workflow screenshot.
+It shows why one step waits for another and what happens when an input is late.
 It also shows how a failed partition reruns and how a historical window
 backfills. The project should show which data checks guard publication and who
 owns the alert.

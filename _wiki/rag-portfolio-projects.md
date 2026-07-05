@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "RAG Portfolio Projects"
-summary: "DataTalks.Club guests frame RAG portfolio projects around retrieval quality, citations, evaluation, and production tradeoffs."
+summary: "DataTalks.Club guests frame RAG portfolio project ideas around retrieval quality, citations, evaluation, and production tradeoffs."
 related:
   - Portfolio Projects
   - Retrieval-Augmented Generation
@@ -13,14 +13,12 @@ related:
 ---
 
 RAG portfolio projects turn a real document corpus into hiring evidence for
-retrieval-backed LLM work. Choose the project idea here by naming the RAG
-project type and the role signal it sends. Link the idea to the podcast
-discussions that make it defensible.
+retrieval-backed LLM work. Choose the RAG project type, name the role signal it
+sends, and link that idea to the podcast discussions that make it defensible.
 
-Use the
-[[Search and RAG Project Checklist]] after choosing one project idea. After that,
-use the checklist for corpus fields and chunking notes. It also covers retrieval
-baselines, citation behavior, traces, and evaluation fields.
+Use the [[Search and RAG Project Checklist]] after choosing one project idea.
+After that, review the finished README, notebook, or project page against its
+criteria.
 
 The strongest portfolio ideas make the source evidence inspectable instead of
 showing only a polished chat UI. Atita Arora's transcript example starts with
@@ -67,11 +65,10 @@ system can re-index documents instead of repeatedly retraining the model. This
 makes grounding part of the project definition, not an optional README flourish
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-Representative gold tests and failure categories turn a RAG demo into a
-debuggable system. Logs and traces make that review practical
+Representative gold tests and failure categories can be the portfolio hook.
+They show debugging judgment rather than only a working chatbot
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-For the field-by-field version of that evidence, use the
-[[Search and RAG Project Checklist]].
+Use the [[Search and RAG Project Checklist]] for the field-by-field review.
 
 ## Portfolio Signals by Project Type
 
@@ -170,12 +167,11 @@ categories that route the next fix to retrieval or prompting, with formatting
 and data preparation as separate classes. Logs and traces make the MVP debuggable
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-The portfolio version can center the writeup on a compact evaluation report.
-Include questions, expected evidence, retrieved evidence, and scores. Also
-record prompt and model versions, the answer, latency, and cost. Feedback,
-failure class, and next fix turn
-[[LLM Evaluation Workflows]]
-into visible project evidence rather than a claim in the README.
+The portfolio version can center the writeup on a compact evaluation report
+rather than on another chat interface. Make a few representative failures
+visible, then show whether the next fix belongs in retrieval or prompting. Link
+the work to [[LLM Evaluation Workflows]] instead of claiming evaluation in the
+abstract.
 
 ## Agentic RAG Boundary
 
@@ -222,10 +218,8 @@ AI developer tools. The interview task centers on a PDF Q&A assistant
 ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]]).
 
 That path connects portfolio work to visible project evidence during a restart.
-The RAG project still needs the same evidence bar as the search and LLM
-engineering material. Show corpus choice, chunking plan, retrieval baselines,
-and citations. Show tests, logs, and deployment boundaries too. Pair this
-project type with
+The project story should explain why the builder's previous domain makes the
+corpus, users, and failure cases more credible. Pair this project type with
 [[career-transitions-in-data=>Career Transition]] and
 [[Job Search]] when the page is used
 for hiring preparation.

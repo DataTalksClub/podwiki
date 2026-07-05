@@ -46,6 +46,7 @@
   let links = [];
   let nodeById = new Map();
   let neighborById = new Map();
+  let relationByPair = new Map();
   let focus = null;
   let trail = []; // visited ids, excluding current
   let scene = []; // render items with animation state
@@ -86,6 +87,50 @@
   }
   function degree(node) {
     return (neighborById.get(node.id) || new Set()).size;
+  }
+  function pairKey(a, b) {
+    return String(a) < String(b) ? `${a}\u0000${b}` : `${b}\u0000${a}`;
+  }
+  const RELATION_PRIORITY = [
+    "article-chip",
+    "wiki-chip",
+    "article-wiki",
+    "wiki-related",
+    "podcast-person",
+    "person-podcast",
+    "podcast-topic",
+    "book-topic",
+    "book-link",
+    "article-link",
+    "wiki-link",
+  ];
+  function relationLabel(kind) {
+    if (!kind) return "Connected";
+    if (kind.endsWith("-chip")) return "Citation";
+    if (kind.endsWith("-wiki")) return "Related wiki";
+    if (kind.endsWith("-related")) return "Related page";
+    if (kind.endsWith("-topic")) return "Topic";
+    if (kind === "podcast-person" || kind === "person-podcast") return "Podcast guest";
+    if (kind === "book-link") return "Book author";
+    if (kind.endsWith("-link")) return "Body link";
+    return kind.replaceAll("-", " ");
+  }
+  function relationBetween(a, b) {
+    const relations = relationByPair.get(pairKey(a.id, b.id)) || [];
+    if (!relations.length) return "Connected";
+    const best = relations
+      .slice()
+      .sort(
+        (left, right) =>
+          (RELATION_PRIORITY.indexOf(left.kind) === -1
+            ? RELATION_PRIORITY.length
+            : RELATION_PRIORITY.indexOf(left.kind)) -
+            (RELATION_PRIORITY.indexOf(right.kind) === -1
+              ? RELATION_PRIORITY.length
+              : RELATION_PRIORITY.indexOf(right.kind)) ||
+          (right.weight || 1) - (left.weight || 1)
+      )[0];
+    return relationLabel(best.kind);
   }
   function nodeRadius(node) {
     return 6 + Math.min(Math.sqrt(degree(node)), 7);
@@ -512,7 +557,7 @@
         const rows = arr
           .map(
             (item, i) => `
-          <button class="related-node${i >= PER_TYPE ? " is-extra" : ""}" type="button" data-node-id="${escapeHtml(item.id)}"><span class="rn-label">${escapeHtml(item.label)}</span></button>`
+          <button class="related-node${i >= PER_TYPE ? " is-extra" : ""}" type="button" data-node-id="${escapeHtml(item.id)}"><span class="rn-text"><span class="rn-label">${escapeHtml(item.label)}</span><span class="rn-meta">${escapeHtml(relationBetween(focus, item))}</span></span></button>`
           )
           .join("");
         const more =
@@ -730,10 +775,14 @@
       links = payload.links || [];
       nodeById = new Map(nodes.map((node) => [node.id, node]));
       neighborById = new Map(nodes.map((node) => [node.id, new Set()]));
+      relationByPair = new Map();
       for (const link of links) {
         if (!neighborById.has(link.source) || !neighborById.has(link.target)) continue;
         neighborById.get(link.source).add(link.target);
         neighborById.get(link.target).add(link.source);
+        const key = pairKey(link.source, link.target);
+        if (!relationByPair.has(key)) relationByPair.set(key, []);
+        relationByPair.get(key).push({ kind: link.kind || "", weight: link.weight || 1 });
       }
       const initial = nodeById.get(hashId());
       if (initial) setFocus(initial, { push: false, animate: false, history: "replace" });

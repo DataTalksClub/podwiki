@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search and RAG Checklist"
-summary: "Checklist for search or RAG projects: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs from podcasts."
+summary: "Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
 related:
   - Portfolio Projects
   - RAG Portfolio Projects
@@ -13,12 +13,8 @@ related:
 ---
 
 Use this search or RAG checklist after choosing the project idea. It turns one
-specific project into a reviewable README or notebook. It can also structure a
-project page. Use [[RAG Portfolio Projects]] first when the decision is still
-about project type.
-
-Go there for source-cited assistants and search-first benchmarks. It also covers
-graph RAG comparisons, career-transition projects, and production-minded demos.
+specific system into a reviewable README, notebook, or project page. Use
+[[RAG Portfolio Projects]] first when the decision is still about project type.
 
 For the chosen project, prove retrieval before generation. A reviewer should see
 the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
@@ -84,9 +80,7 @@ Build retrieval before generation by starting with keyword search or another
 simple baseline. Compare vector retrieval, filters, reranking, and hybrid
 search on the same questions before asking the LLM to write final answers. A
 search-first project can show where keyword search wins, where embeddings win,
-and where metadata filters are required. If the project type is still unclear,
-use the search-first option on [[RAG Portfolio Projects]] before filling in this
-checklist.
+and where metadata filters are required.
 
 [[person:danielsvonava=>Daniel Svonava]] supports that
 order by separating candidate retrieval from ranking, explaining embeddings,

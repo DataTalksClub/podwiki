@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11876
+    "links": 11877
   },
   "nodes": [
     {
@@ -8877,7 +8877,7 @@
       "title": "Apache Airflow",
       "url": "/wiki/apache-airflow/",
       "count": 1,
-      "search": "Apache Airflow How podcast guests use Apache Airflow for scheduled data workflows, DAGs, dependencies, retries, backfills, and the platform work around orchestration."
+      "search": "Apache Airflow How podcast guests use Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
     },
     {
       "id": "wiki:apache-iceberg",
@@ -10401,7 +10401,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects DataTalks.Club guests frame RAG portfolio projects around retrieval quality, citations, evaluation, and production tradeoffs."
+      "search": "RAG Portfolio Projects DataTalks.Club guests frame RAG portfolio project ideas around retrieval quality, citations, evaluation, and production tradeoffs."
     },
     {
       "id": "wiki:recommendation-systems",
@@ -10511,7 +10511,7 @@
       "title": "Search and RAG Checklist",
       "url": "/wiki/search-and-rag-project-checklist/",
       "count": 1,
-      "search": "Search and RAG Checklist Checklist for search or RAG projects: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs from podcasts."
+      "search": "Search and RAG Checklist Review checklist for a chosen search or RAG project: corpus, chunking, retrieval baselines, citations, evaluation, traces, and production tradeoffs."
     },
     {
       "id": "wiki:search-relevance",
@@ -66565,6 +66565,12 @@
       "target": "wiki:mlops-architecture",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",

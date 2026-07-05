@@ -18,10 +18,10 @@ related_wiki:
   - Modern Data Stack
 ---
 
-Delta Lake and Apache Iceberg are both lakehouse table-format choices. The
-team should start with platform constraints instead of asking "which one is
-better?" Compare storage and compute, catalog and governance, and the engines
-that read and write the data.
+Use this comparison after the team has already chosen a lakehouse-style table
+layer. Start with platform constraints instead of asking "which one is better?"
+Compare storage and compute, catalog and governance, and the engines that read
+and write the data.
 
 [[Apache Iceberg]] has the stronger direct treatment. It appears as a table
 format above Parquet storage, with storage and compute separated from access,
@@ -35,37 +35,24 @@ auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data S
 Use [[Data Warehouse vs Data Lakehouse]] when the real decision is
 warehouse-centered analytics versus open lakehouse storage.
 
-Compare the formats after a team has chosen a lakehouse-style table layer. Use
-[[Delta Lake]] and [[Apache Iceberg]] for format-specific context, and use
+Use [[Delta Lake]] and [[Apache Iceberg]] for format-specific context, and use
 [[Data Lake]] for the raw-storage boundary.
 
-## Choice Boundary
+## Comparison Boundary
 
-Both formats try to make [[Data Lake]] storage behave more like reliable
-tables. That means the team wants more than loose files. It wants table
-metadata, version-aware writes, engine access, and governance hooks.
+Compare Delta Lake and Iceberg when table metadata, version-aware writes,
+engine access, and governance hooks are already part of the requirement. If the
+team still needs to choose between warehouse-centered analytics and
+lakehouse-style storage, start with [[Data Warehouse vs Data Lakehouse]].
 
-Iceberg gets more detail than Delta Lake. Iceberg adoption is tied to
-vendor-lock-in reduction, catalogs, metadata, and lineage
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-
-Delta Lake appears as the adjacent lakehouse table format in the same episode.
-It comes up in the DLT support discussion and in the Delta/Hudi/Iceberg
-comparison. That comparison treats Delta as the most mature of the three options
+The podcast evidence supports an operating-fit comparison, not a deep feature
+matrix. Adrian Brudaru treats Delta as the mature lakehouse table-format option.
+He describes Hudi as more specialized and gives Iceberg the stronger
+open-catalog and lock-in-reduction story
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
-
-The same comparison keeps Hudi in view as a third lakehouse table-format
-option. Adrian Brudaru describes Hudi as more specialized, while Iceberg gets
-the strongest treatment around catalogs, open storage, and lock-in. The
-practical evidence is strongest for Iceberg and Delta.
-The concrete Delta-side use case is version-aware data for reprocessing and
-auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
-Those episodes support a practical comparison, but not a deep feature matrix.
-
-Across these podcast discussions, the safest Delta/Hudi/Iceberg distinction is
-operating fit. Delta is treated as the mature option, Hudi as more specialized,
-and Iceberg as the stronger open-catalog and lock-in-reduction story
-[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
+The Delta-side operating example is version-aware data for reprocessing and
+auditing
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
 ## Iceberg Fit
 

@@ -20,27 +20,30 @@ related_wiki:
   - Platform Adoption
 ---
 
-The decision is where ownership should sit, and the [[Data Mesh]] concept page
-covers the operating model. This comparison focuses on whether product meaning,
-quality commitments, and consumer support should move to domain teams or remain
-closer to a shared data/platform team.
+Use the [[Data Mesh]] concept page for domain and product mechanics. The hub
+covers ownership, contracts, federated governance, and adoption. This comparison
+asks a narrower question. Product meaning, quality commitments, and consumer
+support can move to domain teams, or more responsibility can stay with a shared
+data or platform team.
 
 A centralized [[data-engineering-platforms=>Data Engineering Platform]] can
 still offer self-service and product-like interfaces. The decision isn't
 modern versus old. It's whether shared execution or domain ownership is the
 constraint that most needs relief.
 
-Both models still need [[Data Products]], [[Data Governance]], [[DataOps]], and
+Both choices still need [[Data Products]], [[Data Governance]], [[DataOps]], and
 [[self-service-data-platforms=>Self-Service Data Platforms]] when many teams
-depend on the same outputs.
+depend on the same outputs. The difference is where the organization puts the
+main operating responsibility.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 ## Ownership Assignment
 
 Choose Data Mesh when the main bottleneck is ownership of meaning. Domain teams
-publish data products with producer and consumer commitments, while self-serve
-platform capabilities and federated governance keep those products
-interoperable.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+own the product commitments because they understand how the data changes and
+what consumers need. Platform capabilities and governance still keep those
+products interoperable.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 Choose a centralized platform when the main bottleneck is shared execution. One
 team can keep storage, compute, workflow engines, and self-service SQL on a
@@ -48,35 +51,10 @@ common path. The same team can keep reproducible pipelines, lineage, and
 versioning there too. Domain teams may still explain business meaning, but the
 central team owns more implementation work and operating responsibility.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
-Both models need a reliable [[Data Products]] interface. Metadata, quality
-expectations, service levels, and ownership decisions define the producer side.
-Discoverability and trust determine whether consumers can use the output.
+In both models, consumers still need a reliable [[Data Products]] interface.
+The choice changes who makes the promise: a domain team that owns the product,
+or a central team that coordinates meaning with the domain.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-
-## Competing Boundaries
-
-In Data Mesh, product accountability moves into the domain through meaning,
-contracts, and metadata. It also includes quality signals, service levels, and
-consumer support. Identity, authorization, platform federation, and automated
-governance still need a shared layer.
-[[cite:data-mesh-architecture-decentralized-data-products@13:20=>Data Mesh Implementation]]
-
-The DataOps view is more cautious about splitting responsibility. Teams need
-lineage and versioning before they distribute platform responsibility across
-many domains. They also need workflow discipline, governance, and quality
-automation.
-[[cite:dataops-principles-and-scalable-data-platforms@57:46=>DataOps 101 for Scaling Data Platforms]]
-
-The self-service platform view supports either model only when the shared
-platform gives teams a reliable way to build. Onboarding, Airflow conventions,
-and playbooks turn shared tools into a supported surface. Kafka schemas, schema
-registries, and data contracts make that surface explicit.
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
-
-The governance view limits how far ownership can move. Catalogs, dictionaries,
-and lineage define what data exists and how it moves. Access requests, approval,
-and review remain shared controls when sensitive data crosses domains.
-Revocation, masking, and filtering stay shared too.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 ## Ownership Boundary
 
@@ -98,9 +76,9 @@ and interpretation before consumers can apply it.[[cite:data-mesh-architecture-d
 
 ## Platform Boundary
 
-Data Mesh doesn't remove the platform, so domains shouldn't rebuild identity and
-authorization. They also shouldn't rebuild metadata, validation, or deployment
-paths. That keeps
+Data Mesh doesn't remove the platform, so domains shouldn't rebuild identity
+and authorization. They also shouldn't rebuild metadata, validation, or
+deployment paths. That keeps
 [[self-service-data-platforms=>Self-Service Data Platforms]] and
 [[Platform Engineering]] inside the Data Mesh decision rather than outside it.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
@@ -109,7 +87,7 @@ A centralized platform can also be self-service. A central team can offer
 shared platform primitives and embedded support as the standard build path.
 Onboarding and Airflow conventions make that path usable. Playbooks and Kafka
 schemas define the interface. Schema registries and data contracts make it
-explicit.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
+explicit.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 
 The practical boundary is repeatability. Keep capabilities shared when every
 team needs the same safe path. That includes orchestration templates and schema
@@ -120,9 +98,10 @@ commitments, prioritization, and support.[[cite:data-engineering-leadership-and-
 
 ## Governance Boundary
 
-Data Mesh uses federated governance rather than absent governance. Retention,
-metadata, and validation apply across independently owned data products.
-Enforcement and policy automation apply there too.
+Data Mesh moves some governance work closer to product owners, but shared
+policies still set the rules. Retention, metadata, and validation have to work
+across independently owned products. Enforcement and policy automation have to
+work there too.
 [[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]
 
 [[Data Governance]] determines how much ownership can move. When teams still

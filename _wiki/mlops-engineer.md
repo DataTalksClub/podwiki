@@ -21,51 +21,49 @@ stage. The role sits inside [[MLOps]] and often overlaps with [[ML platforms]],
 [[machine-learning-engineer-role=>machine learning engineering]],
 [[data-engineer-role=>data engineering]], and [[platform engineering]].
 
-MLOps spans people, workflow, and technology. It gives data scientists
-reproducible practices and teaching while adding reusable infrastructure with
-clear standards.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
-
 Use [[MLOps Architecture]] for the component map and [[MLOps Roadmap]] for the
-learning sequence. The MLOps engineer turns the architecture into repositories,
-pipelines, and registries. They also maintain serving paths and monitoring.
-Documentation and support habits help teams avoid a new handoff every time
+learning sequence. Use [[MLOps Tools]] for stack categories and selection. For
+role boundaries, focus on how the MLOps engineer turns the architecture into
+repositories, pipelines, and registries. The role also turns serving paths,
+monitoring, and support habits into shared practice
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
 ## Role Scope
 
-An MLOps engineer owns the shared operating path around models. That includes
-reproducible experiments and tracked artifacts. It also includes release
-automation. Serving and monitoring belong in the same path. Rollback and
-retraining decisions do too
+An MLOps engineer owns the shared operating path around models. That path
+covers reproducible experiments, tracked artifacts, and release automation. It
+also covers serving, monitoring, and rollback. Retraining decisions belong in
+the same path too
 ([[MLOps Roadmap]],
 [[Production]]).
 
-The platform surface starts with self-service compute. It then covers
-[[experiment tracking]], [[model-registry=>model registries]], and batch
-inference. Online serving follows. Orchestration, metadata, and lineage sit
-beside prediction logging. Developer experience and governance round out the
-same surface. When that surface becomes a shared internal product, it overlaps
-with the [[ml-platform-engineer-role=>ML platform engineer role]].[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+The platform surface can include self-service compute, [[experiment tracking]],
+and [[model-registry=>model registries]]. Batch inference, online serving,
+orchestration, and metadata may sit there too. Lineage and prediction logging
+belong near the same handoffs.
+Developer experience and governance complete the shared surface. When that
+surface becomes a shared internal product, it overlaps with the
+[[ml-platform-engineer-role=>ML platform engineer role]]
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 The job is broader than deployment, but narrower than owning all ML. Data
 scientists may still own problem framing and model evaluation. Machine learning
 engineers may own a product-facing inference service. Data engineers may own
 ingestion, transformation, freshness, and data quality.
 
-The MLOps engineer keeps the shared route to reproduction and promotion usable
-across those roles. The same route covers serving and monitoring. Repair belongs
-there too
-([[Machine Learning Engineer Role]],
-[[Data Engineer Role]],
+The MLOps engineer keeps reproduction and promotion usable across those roles.
+The same shared route covers serving, monitoring, and repair
+([[Machine Learning Engineer Role]]
+[[Data Engineer Role]]
 [[MLOps]]).
 
-The visible outputs are usually mundane on purpose. The team gets a repository
-template and a CI/CD path. It also gets a registry convention, deployment
-template, logging standard, and support route. Maria Vechtomova describes
-cookie-cutter repositories and service principals as standardization work. That
-work gives data scientists a working project and deployment pipeline instead of
-another handoff
+The visible outputs are mundane on purpose because teams need repository and
+deployment templates. They also need CI/CD paths, registry conventions, logging
+standards, and support routes. Maria Vechtomova describes cookie-cutter
+repositories and service principals as standardization work. That work gives
+data scientists a working project and deployment pipeline instead of another
+handoff
 ([[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
 Raphaël Hoogvliets frames the centralized team as an enabling team. That team
@@ -95,8 +93,9 @@ MLOps teams share an enablement goal, but they start from different pain points.
 A centralized MLOps team can begin with product-team pain, quick wins, and
 adoption signals such as deployment frequency.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
-After Git and CI/CD, teams add registries and Kubernetes. Repository standards
-and monitoring follow too.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
+After Git and CI/CD, teams add the deployment, registry, and monitoring pieces
+their context requires
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 Production observability and customer architecture pull the role toward
 deployment and operations work.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
@@ -272,49 +271,6 @@ workflows. Experiment tracking and registries are part of that specialization.
 Serving and model monitoring are too
 ([[ML Platforms]],
 [[Developer Experience]]).
-
-## Responsibility Coverage
-
-Treat tools as responsibility coverage before treating them as a shopping list.
-Standard engineering habits and adopted workflows matter more than broad tool
-collections
-([[MLOps Tools]],
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]).
-
-An MLOps engineer is usually accountable for these coverage areas:
-
-- version control, code review, CI/CD, tests, and release automation
-  ([[ci-cd=>CI/CD]]).
-- Python packaging, containers, dependency locks, registries, and environment
-  management
-  ([[Reproducibility]]).
-- experiment tracking for runs, metrics, parameters, artifacts, code versions,
-  and data references
-  ([[Experiment Tracking]]).
-- model registry or registry-like metadata for artifact promotion, ownership,
-  approval, deployment target, and rollback
-  ([[Model Registry]]).
-- batch inference, online serving, scheduled jobs, APIs, managed endpoints, or
-  orchestration, depending on product needs
-  ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-- service, data, and model monitoring with prediction logging and alert routing
-  ([[Model Monitoring]]).
-- platform templates, shared libraries, self-service compute, documentation,
-  and support workflows when several teams repeat the same work
-  ([[ML Platforms]]).
-
-The stack changes by context. In finance, the minimum expands toward
-dev/test/prod environments and monitoring. CI/CD, model versioning, and data
-versioning matter too. Governance and release controls join release management.
-Exact builds, approvals, rollback procedures, and knowing what's in production
-also belong in that stack.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
-
-Internal libraries and FastAPI-style reuse can reduce repeated handoffs when
-many teams need similar model-serving paths
-[[cite:mlops-and-ml-engineering-in-finance@43:39=>MLOps in Finance]].
-
-In startups, SaaS-first choices and a leaner stack can still keep enough
-automation to avoid unmaintainable MVPs.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 ## Growth Signals
 

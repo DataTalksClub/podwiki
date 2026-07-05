@@ -25,9 +25,8 @@ lifecycle.
 Use the architecture as a component-and-boundary design, not as a vendor
 diagram. The design should name how artifacts move, where approvals happen,
 which runtime serves predictions, and how production evidence reaches the next
-model decision. MLOps rests on people, process, and technology. Experiment
-tracking and registries connect to batch inference, online serving, and
-orchestration
+model decision. Experiment tracking and registries connect to batch inference,
+online serving, and orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
@@ -212,9 +211,8 @@ packages and CI/CD
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]]
 [[cite:pragmatic-and-standardized-mlops@33:24=>Pragmatic MLOps]]).
 
-Startups can begin with Python, CI/CD orchestration, and Dagster as a minimal
-stack. Teams can use managed services to move faster, while still accounting for
-migration and lock-in tradeoffs
+Early teams can keep the release path small and managed while still accounting
+for migration and lock-in tradeoffs
 ([[person:nemanjaradojkovic=>Nemanja Radojkovic]],
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 That matters for [[MLOps]]: the simplest repeatable release path usually beats a
@@ -261,8 +259,9 @@ That makes [[Platform Adoption]] and [[Developer Experience]] part of the
 serving architecture. A reusable API convention, logging library, or deployment
 template only matters when teams actually adopt it.
 
-In a Kubernetes-native view, Kubeflow Pipelines and KFServing appear as
-production options. Feast, Katib, and TFX-style orchestration can sit beside them
+In a Kubernetes-native view, pipeline automation and model serving can sit
+beside feature serving. Tuning and metadata components may join that platform
+boundary too
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
 Treat those as architecture options, not default requirements. Use them when the
@@ -369,26 +368,24 @@ explicit by distinguishing online tabular use cases from overkill scenarios
 
 ## Local Stack or Shared Platform
 
-A small MLOps architecture can keep components local to one model. Git covers
-code while a scheduled job handles training. An experiment tracker records
-runs, and object storage can stay local too. A registry convention, one
-deployment target, prediction logs, and a basic monitoring view can stay local
-as well.
+A small MLOps architecture can keep components local to one model. Code
+versioning, scheduled training, run tracking, and object storage can stay local
+at first. One deployment target, prediction logs, and a basic monitoring view
+can stay local too.
 
 For the order to add those pieces, use [[MLOps Roadmap]]. For architecture
 design, decide which components are local to one model and which become shared
 services.
 
 A local stack is often enough for a startup or a prototype moving into
-production. It can also be enough for a team with one important model. It still
-needs explicit interfaces between data and training. It also needs interfaces
-between registry, serving, monitoring, and repair.
+production. It can also fit a team with one important model. It still needs
+explicit interfaces between data and training. It also needs interfaces between
+registry, serving, monitoring, and repair.
 
 A shared platform makes sense when several teams repeat the same components.
-Then templates and self-service compute become shared assets. Standard tracking
-and registry integration become shared too. Deployment paths, logging schemas,
-and monitoring hooks do the same. Documentation and support routes become part
-of the shared platform too.
+Templates and self-service compute become shared assets. Standard tracking,
+registry integration, deployment paths, and logging schemas do too. Monitoring
+hooks, documentation, and support routes become part of the shared platform.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
@@ -411,7 +408,8 @@ experience matters because adoption is part of the architecture.
 Nemanja adds the startup constraint in
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 Use managed tools when they buy speed. Keep an eye on lock-in, technical debt,
-security, and future portability.
+security, and future portability. [[MLOps Tools]] owns the detailed stack
+selection question.
 
 Use [[Platform Adoption]] and [[Developer Experience]] when the main risk is
 whether teams will use the architecture.

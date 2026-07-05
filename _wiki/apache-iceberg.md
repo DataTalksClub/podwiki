@@ -52,16 +52,12 @@ self-service SQL, and workflow engines.
 ## Platform Boundaries
 
 Iceberg isn't a universal replacement for warehouses or the modern data stack.
-Open, decomposed platforms still need requirements-led tool choices, not trend
-labels alone.
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
-
 A warehouse-centered ELT path can still be enough. Teams can load data,
 transform it with SQL and dbt-style workflows, then expose marts or BI before
 they need a separate lakehouse table-format layer.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-That keeps Iceberg as a requirement-led choice, especially when one warehouse
-already serves the workload.
+That keeps Iceberg as a requirement-led table-format choice, especially when
+one warehouse already serves the workload.
 
 A table format doesn't replace reproducible pipelines or workflow engines.
 Teams still need versioning plus lineage and governance.
@@ -96,15 +92,6 @@ Data lakes can become data swamps when ownership and governance are weak.
 Iceberg can make files behave like tables. The team still has to own quality,
 access, and discoverability around those tables.
 
-## Adjacent Table Formats
-
-Iceberg appears beside [[Delta Lake]] and Hudi in Adrian Brudaru's
-table-format discussion.
-[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
-For Iceberg, the distinct issue is the open-storage and catalog boundary. When
-the work requires side-by-side format selection, compare it with Delta Lake in
-[[Delta Lake vs Apache Iceberg]].
-
 ## DLT, DuckDB, and Headless Tables
 
 Iceberg also appears in smaller, cost-aware pipeline designs. [[DuckDB]], GitHub
@@ -113,6 +100,11 @@ belong to that thread.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 That makes Iceberg relevant beyond large cloud lakehouse migrations when a team
 still needs open table semantics.
+
+Iceberg appears beside [[Delta Lake]] and Hudi in Adrian Brudaru's
+table-format discussion.
+[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
+For side-by-side selection, use [[Delta Lake vs Apache Iceberg]].
 
 Orchestration stays close to the table-format choice because portable tables
 need repeatable jobs. The options include Airflow, Prefect, Dagster, and GitHub

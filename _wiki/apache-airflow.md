@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Apache Airflow"
-summary: "How podcast guests use Apache Airflow for scheduled data workflows, DAGs, dependencies, retries, backfills, and the platform work around orchestration."
+summary: "How podcast guests use Apache Airflow for DAG-based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
 related:
   - Orchestration
   - Data Pipelines
@@ -24,10 +24,10 @@ need dependency state, retries, logs, and backfills. Use this page for Airflow
 details such as DAG design, job scheduling, local Docker setups, and shared
 Airflow infrastructure.
 
-[[Orchestration]] covers the broader control-plane concept across tools and
-compares Airflow with Luigi, Prefect, and Dagster. It also covers GitHub
-Actions and cloud schedulers. AWS Batch, SageMaker Pipelines, and CI/CD
-pipelines belong in that broader comparison too.
+[[Orchestration]] covers the broader control-plane concept. Use it when the
+question is whether a workflow needs a real orchestrator or a lighter
+scheduler. It also compares Airflow with workflow engines, CI/CD, cloud
+schedulers, and ML pipeline services.
 [[Data Pipelines]] describes the source-to-output system Airflow coordinates,
 and [[How to Build Data Pipelines]] gives the build sequence. Guests mention
 Airflow most often around
@@ -72,10 +72,10 @@ The metadata database stores DAG runs and task state alongside schedule, retry,
 connection, and log records. The web UI gives engineers a place to look at
 failures.
 
-Data platform designs often place storage, compute, and a workflow engine at
-the center of the operating model. The workflow engine tracks dependencies,
-schedules work when data arrives, runs timer-based jobs, and retries after late
-data or transient failures.
+This is where Lars Albertsson's workflow-engine framing maps onto Airflow. The
+scheduler tracks which work is ready. The metadata database stores task state.
+The executor gives the team a recoverable way to run work after late data or
+transient failures.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 In that framing, Airflow stays inside
@@ -89,7 +89,8 @@ is fresh, complete, valid, or useful.
 Airflow is the common reference point for orchestration, but the interviews do
 not treat it as the default answer for every scheduled job. If the question is
 whether a workflow needs any orchestrator, start with [[Orchestration]]. If the
-question is how Airflow should coordinate an existing pipeline, stay here.
+question is how Airflow should coordinate, operate, or expose an existing
+pipeline, stay here.
 
 Airflow can be the scheduler around a modern analytics stack without owning
 ingestion or transformation. Separating Airflow from Airbyte and dbt keeps
@@ -104,11 +105,6 @@ important point is dependency control, recovery, and reproducible operations,
 not the brand of the orchestrator.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-An Airflow cluster isn't the whole data platform. Self-service data platforms
-also need naming conventions and sequencing rules. Playbooks, templates, and
-onboarding help many teams use the shared DAG surface consistently.
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
-
 Operating cost also includes the human side of a shared platform. A team that
 turns Airflow into a self-service surface needs conventions, templates,
 playbooks, and onboarding. Otherwise similar DAGs get copied by hand and
@@ -117,12 +113,11 @@ become hard to control. That puts shared Airflow close to
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Simple workflows may not need Airflow. GitHub Actions, cloud schedulers,
-CloudWatch scheduling, or Lambda can fit first. A container job, ECS, AWS Batch,
-or SageMaker can also fit before Airflow is worth the operating surface. Use
-Airflow when logging, dependency state, shared visibility, and recovery justify
-the extra platform pieces. Use [[Orchestration]] for the broader tool-choice
-comparison.
+Simple workflows may not need Airflow. Use Airflow when the team needs shared
+logging, dependency state, reruns, and recovery. Those needs should justify
+Airflow's scheduler and executor. They should also justify the metadata
+database, workers, connections, and deployment process. Use [[Orchestration]]
+for the broader tool-choice comparison.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]

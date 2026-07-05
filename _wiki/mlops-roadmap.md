@@ -24,17 +24,18 @@ work. Start by making one training run reproducible. Then package one model,
 add a handoff path, and observe production behavior. After that, decide when
 retraining is allowed and turn repeated work into shared platform support.
 
-Use [[MLOps Architecture]] for the system design and component boundaries. Use
-[[MLOps Engineer]] for role ownership and responsibility evidence. The roadmap
-sequence names what to learn, build, and standardize first. For infrastructure
-and data boundaries, use [[Machine Learning Infrastructure]] and [[DataOps]].
+Use [[MLOps Architecture]] for system design and component boundaries, and
+[[MLOps Engineer]] for role ownership and responsibility boundaries. Use
+[[MLOps Tools]] when choosing a tracking, registry, serving, or monitoring
+product. For infrastructure and data boundaries, use
+[[Machine Learning Infrastructure]] and [[DataOps]].
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 describes MLOps as a mix of people, operating habits, and technology in
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
-A practical roadmap starts with a reproducible run and a shipped model. It then
-adds production observation, failure response, and a deliberate choice about
-when shared platform work is worth the cost.
+The roadmap starts with a reproducible run and a shipped model. It then adds
+production observation, failure response, and a deliberate choice about when
+shared platform work is worth the cost.
 
 ## Roadmap Stages
 
@@ -42,7 +43,9 @@ MLOps readiness grows in stages. First, a learner or team proves
 [[Experiment Tracking]] and [[Reproducibility]]. Next, they add artifact
 handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
+
 [[MLOps Architecture]] shows how those pieces connect in the operating flow.
+[[MLOps Tools]] covers the stack categories for each stage.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging
@@ -59,17 +62,11 @@ level
 That progression links [[Model Monitoring]], [[orchestration]], and retraining
 decisions instead of treating them as separate roadmap boxes.
 
-At team scale, [[person:raphaelhoogvliets=>Raphael Hoogvliets]] frames the
-central MLOps team as an enabling platform team. CI and repository structure
-make the work repeatable. Parameterization and testing keep runs
-understandable. Data versioning, traceability, and experiment capture do the
-same across teams
+At team scale, [[person:raphaelhoogvliets=>Raphael Hoogvliets]] frames shared
+MLOps work as an enabling platform. CI and repository structure make the work
+repeatable. Parameterization and testing make the same practices usable across
+teams. Data versioning, traceability, and experiment capture support that reuse
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-
-The roadmap is both technical and organizational. A junior practitioner learns
-to make one model reproducible and deployable. A senior practitioner makes the
-lifecycle useful to other teams. [[MLOps Engineer]] covers that role boundary in
-more detail. Use this roadmap for the milestones in learning order.
 
 For senior work, developer experience and team pain points drive the platform
 agenda. Quick wins and impact tracking show whether platform work helps teams
@@ -85,9 +82,9 @@ argues for pragmatic standardization in
 She recommends using existing infrastructure such as Kubernetes and Git before
 adding more tools. She still names CI/CD and registries as useful foundations.
 
-Developer experience makes that standardization usable because cookie-cutter
-repositories and service principals reduce repeated setup work. Databricks
-conventions, DevOps buy-in, and reusable standards serve the same goal.
+Developer experience makes that standardization usable because templates and
+service principals reduce repeated setup work. Databricks conventions, DevOps
+buy-in, and reusable standards support the same goal.
 
 [[person:nemanjaradojkovic=>Nemanja Radojkovic]] draws a leaner early-stage
 boundary in
@@ -95,8 +92,8 @@ boundary in
 Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
 cloud credits, managed services, and fast MVP stacks. The tradeoff is migration
 friction, lock-in, and future flexibility. Use
-[[lean-mlops-for-startups=>lean MLOps for startups]] when the roadmap question
-is the early-company stack order.
+[[lean-mlops-for-startups=>lean MLOps for startups]] for early-company stack
+choices and [[MLOps Tools]] for category-level selection.
 
 In a regulated finance setting, he moves earlier toward release governance and
 approvals. Dev/test/prod separation, monitoring, and interim registry patterns
@@ -145,6 +142,10 @@ validation and prediction logging. Add error handling, a repeatable release
 path, and a rollback note. Use this stage to learn the handoff from training
 code to prediction code before designing a full platform.
 
+The exact serving path belongs on the architecture page. The roadmap milestone
+is proving that a model can leave training and run under a repeatable release
+path.
+
 Batch inference and online serving create different handoff problems
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 Orchestration and unified prediction schemas help keep those paths coherent.
@@ -167,9 +168,9 @@ track approval status, deployment target, and rollback path. Model persistence
 should make downstream consumption possible
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Teams can keep the registry light. Artifactory, S3, MLflow, or another
-artifact store can work when the team keeps traceability
+Teams can keep the registry light when the team keeps traceability
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+Tool-specific registry options belong in [[MLOps Tools]].
 
 Start monitoring with input quality, prediction distributions, service errors,
 and latency. Then add one business or proxy outcome.
@@ -205,10 +206,9 @@ Standardization becomes compelling when repeated deployment, tracking, serving,
 or governance problems appear across teams
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Developer experience is part of the platform skill set. Cookie-cutter
-repositories and service principals make the platform easier to adopt.
-Databricks conventions, DevOps buy-in, and reusable standards support the same
-adoption work
+Developer experience is part of the platform skill set. Templates and service
+principals make the platform easier to adopt. Databricks conventions, DevOps
+buy-in, and reusable standards support the same adoption work
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 The platform should help teams ship and operate models. If it only ships tools
 that teams don't adopt, it hasn't solved the platform adoption problem
@@ -259,11 +259,9 @@ matter.
 
 Learning programs are inputs to the roadmap rather than proof that the roadmap
 has been completed. Use them to close one concrete gap at a time. Common gaps
-include Git and CI/CD, reproducible experiments, and model handoff.
-
-Other gaps include deployment, monitoring, and platform adoption. The finished
-proof should still be a working model lifecycle that another person can run
-and question.
+include Git and CI/CD, reproducible experiments, and model handoff. Deployment,
+monitoring, and platform adoption are common gaps too. The proof is still a
+working model lifecycle that another person can run and question.
 
 Hands-on projects and pairing with engineers matter more than a long tool
 catalog. ML fundamentals, software engineering, system design, and data
@@ -407,9 +405,9 @@ When projects repeat the same problems, they can justify shared standards,
 developer experience, and adoption work. The portfolio standard is to finish one lifecycle, explain the
 tradeoffs, then use the gaps to choose the next roadmap step.
 
-## Role Milestones
+## Capability Milestones
 
-Entry-level readiness means you can reproduce runs and package inference code.
+Early roadmap proof means you can reproduce runs and package inference code.
 You can log predictions, explain training metrics, compare them with production
 behavior, and debug a failed run. That aligns with Maria's minimum maturity
 base in
@@ -417,24 +415,23 @@ base in
 and Nemanja's beginner stack advice in
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
-Mid-level readiness means you can own deployment, monitoring, and registry
-usage. You can also own CI/CD and retraining decisions. You can communicate
-with data scientists, product teams, and business stakeholders. The MLOps
-architect role bridges technical and business work
+The next milestone is operating the model path, so add CI/CD and registry
+usage. Add monitoring and a retraining decision too. Then practice the
+communication loop through service levels, post-mortems, stakeholder feedback,
+and production tradeoffs
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
-Stakeholder engagement, service levels, post-mortems, and feedback channels
-belong in production ML work
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
-Senior readiness means you can design adoption paths and choose build-versus-buy
-boundaries. You can create platform standards, support regulated or high-risk
-systems, and measure whether MLOps work improves deployment speed. Adoption
-strategy, quick wins, deployment frequency, and impact tracking matter here
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-
-Build-versus-buy decisions and platform triggers sit at the same senior
-boundary. Metadata, lineage, and governance belong there too
+The advanced milestone is shared adoption. Design platform standards only after
+you can explain the repeated pain and the build-versus-buy boundary. Also name
+the deployment or reliability metric the platform should improve. Adoption
+strategy, quick wins, deployment frequency, and impact tracking matter at this
+stage. Metadata, lineage, and governance matter too
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+
+Use [[MLOps Engineer]] for the role and responsibility boundary behind these
+milestones.
 
 ## Study-Build Boundary
 
