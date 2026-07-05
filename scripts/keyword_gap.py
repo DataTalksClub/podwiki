@@ -288,6 +288,9 @@ def main() -> int:
         lines.append(fmt(recs))
         lines.append("")
 
+    while lines and lines[-1] == "":
+        lines.pop()
+
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

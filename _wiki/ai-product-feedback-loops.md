@@ -207,7 +207,8 @@ data point. In pet health, long-term baselines mean the team needs enough
 observation to separate genuine anomaly from normal variation. In finance, the
 augmented-decision framing means user trust and workflow fit matter before the
 team optimizes a model score. Both cases need ownership across [[MLOps]],
-[[Product Analytics]], and [[Data Product Adoption]].[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]][[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>Augmented Decision-Making]]
+[[Product Analytics]], [[Data Product Adoption]], and
+[[data-science-for-managers=>data science for managers]].[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]][[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>Augmented Decision-Making]]
 
 ## Product Adoption
 
@@ -223,7 +224,10 @@ box.[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>Augmented
 
 Useful product feedback includes questions users ask, explanations they need,
 and decisions they make. It also includes places where they keep the old
-spreadsheet because the AI system isn't yet trustworthy.
+spreadsheet because the AI system isn't yet trustworthy. In
+[[machine-learning-personalization=>machine learning personalization]], those
+signals also decide whether a ranking or recommendation should change for a
+segment, session, or individual user.
 
 For sensor and perception products, adoption also depends on hardware and
 environment. The pet-health tracker needs enough real-world data from a

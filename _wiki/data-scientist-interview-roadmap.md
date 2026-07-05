@@ -30,7 +30,9 @@ business impact, and career narrative
 Use this roadmap with
 [[Data Scientist Role]] and
 [[Data Science Careers]].
-It also connects to [[Job Search]] and
+It expands the narrower
+[[data-scientist-interview=>data scientist interview]]
+guide and connects to [[Job Search]] and
 [[CV Screening]]. Start by deciding which role you're interviewing for, then
 turn your CV and projects into evidence.
 

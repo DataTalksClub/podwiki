@@ -27,7 +27,8 @@ Job search is narrower than "apply to many jobs." It starts with goals and
 strategy before networking and CV work
 [[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
 
-The [[Data Science Recruiter]] view adds company targeting and role fit
+The [[data-science-recruiter=>data science recruiter]] view adds company
+targeting and role fit
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
 Interview preparation treats success as a communication problem
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
@@ -137,6 +138,9 @@ problem solved and the outcome
 [[cite:hiring-for-data-engineering-jobs-in-europe@31:16=>Hiring Data Engineers in Europe]].
 That makes [[CV Screening]] part of job search, not only an employer-side
 topic.
+For data science roles, [[data-science-recruiter=>data science recruiter]]
+adds the recruiter-side view of industry fit, project fit, and offer-stage
+communication.
 
 For data engineering candidates, a certificate belongs in the CV only when it
 links to evidence. Jeff Katz says a cloud certificate can help with recruiter
@@ -219,6 +223,9 @@ Interview preparation starts with the hiring path. A common data science funnel
 starts with a recruiter screen. It then moves to take-home work and later
 interview rounds
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+Use the [[data-scientist-interview=>data scientist interview]] guide for that
+data-science-specific path before comparing it with engineering assessments.
+
 Data engineering interviews often test SQL and Python through take-home project
 formats. Assessment depth varies by level
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]

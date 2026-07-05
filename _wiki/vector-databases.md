@@ -154,7 +154,10 @@ behavioral embeddings, and recency or time bias in vector space [[cite:building-
 
 Those examples connect vector databases to
 [[machine learning]] products
-that retrieve products, images, sessions, or recommendation candidates.
+that retrieve products, images, sessions, or recommendation candidates. They
+also connect vector infrastructure to
+[[machine-learning-personalization=>machine learning personalization]], where
+retrieval is only the candidate step before ranking and product constraints.
 
 Atita reaches a similar conclusion from search practice. Her session-based
 recommendation example includes reranking and a comparison with collaborative

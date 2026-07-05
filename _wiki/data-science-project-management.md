@@ -39,10 +39,11 @@ A data science project manager or data lead names the decision and defines a
 measurable target. They keep the smallest useful version explicit, plan the
 shipping path, and name the handoff owner.
 
-The role boundary depends on the team. [[Data Science for Managers]] covers
-people and strategy ownership, while [[Data Team Lead Role]] covers team
-execution. [[Data Product Manager]] owns discovery and adoption when the project
-becomes a reusable product, not only an analysis task.
+The role boundary depends on the team.
+[[data-science-for-managers=>Data science for managers]] covers people and
+strategy ownership, while [[Data Team Lead Role]] covers team execution.
+[[Data Product Manager]] owns discovery and adoption when the project becomes a
+reusable product, not only an analysis task.
 
 The practice draws from [[Data Science]],
 [[Business Skills for Data Professionals]],
@@ -305,8 +306,8 @@ should include resource allocation and buffers. Data science tasks can expand
 when discovery exposes missing data, unclear ownership, or a modeling gap larger
 than the original request implied
 ([[cite:data-science-manager-vs-expert-hiring-guide@40:47=>Manager vs Expert]]).
-That keeps [[Data Science for Managers]] and [[Leadership]] tied to project
-planning rather than only people management.
+That keeps [[data-science-for-managers=>data science for managers]] and
+[[Leadership]] tied to project planning rather than only people management.
 
 Barbara also describes a practical boundary between project managers and data
 science managers. Project managers may ask whether two weeks is realistic. The

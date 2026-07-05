@@ -27,6 +27,8 @@ monitoring, and a failure response path come next.
 Use this roadmap for sequence. Start with a small assistant, then add RAG and
 test retrieval before generation. Add agents only when the workflow needs
 actions. Harden serving, cost, and security after the product boundary is clear.
+For interview preparation, the same sequence becomes a
+[[llm-system-design-interview=>LLM system design interview]] answer structure.
 
 Use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
@@ -173,6 +175,10 @@ Use [[AI Red Teaming]] for
 adversarial testing and
 [[LLM Production Patterns]]
 for monitoring controls.
+These same controls belong in a
+[[llm-system-design-interview=>LLM system design interview]] answer because the
+candidate has to connect retrieval and generation with tools, safety, and
+operations.
 
 ## Related Production Paths
 
@@ -190,5 +196,6 @@ Adjacent production-system topics:
 - [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 - [[RAG Portfolio Projects]]
 - [[Search and RAG Project Checklist]]
+- [[llm-system-design-interview=>LLM system design interview]]
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[AI Red Teaming]]

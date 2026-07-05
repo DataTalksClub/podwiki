@@ -124,11 +124,14 @@ e-commerce personalization
 That shared image-text space helps
 [[multimodal-llms=>multimodal LLMs]] retrieve across modalities.
 
-Vector databases serve ML systems beyond RAG, including session-based
-recommendations and re-ranking
+Vector databases also serve session-based recommendations and re-ranking outside
+RAG
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-That separation means embeddings retrieve candidates. Ranking, constraints, and
-product goals decide what users actually see.
+Embeddings retrieve candidates for the next stage. Ranking, constraints, and
+product goals decide what users actually see. This boundary is central to
+[[machine-learning-personalization=>machine learning personalization]]. A nearby
+vector match is only useful if the product can rank it for the current user or
+session.
 
 In the OLX recommender example, users and items are fixed-length vectors. The
 system can search for item vectors close to a user's vector. Similar-image

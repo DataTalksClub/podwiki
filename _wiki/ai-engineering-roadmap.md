@@ -143,6 +143,11 @@ task, the prompt or message format, the expected output format, and the failure
 cases. Ruslan's daily-life project advice and hiring
 signals support that project-first standard
 ([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]).
+
+The same project boundary shows up in
+[[llm-system-design-interview=>LLM system design interview]] practice. Candidates
+need to explain the user task, source of truth, and context. They also need
+failure modes and operating constraints.
 For tool choices, connect this stage to
 [[LLM Tools]] and
 [[Prompt Engineering]].
@@ -317,6 +322,8 @@ can choose models and retrieval strategies, debug bad outputs, and track cost
 and latency. You can also work with domain experts. Meryem's deployment choices
 cover the model, retrieval, and serving decisions behind this stage
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+Candidates use the same model, retrieval, and serving choices in
+[[llm-system-design-interview=>LLM system design interview]] preparation.
 
 Atita's retrieval-quality discussion adds search-system judgment
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
@@ -348,6 +355,7 @@ Continue with these roadmap and reference pages:
 - [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 - [[LLMs]]
 - [[LLM Production Patterns]]
+- [[llm-system-design-interview=>LLM system design interview]]
 - [[Prompt Engineering]]
 - [[LLM Evaluation Workflows]]
 - [[Evaluation]]

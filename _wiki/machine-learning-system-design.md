@@ -68,6 +68,11 @@ metrics and A/B testing. Interviewers need to see how a candidate reasons
 through ambiguity
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 
+For language-model prompts, the same interview structure extends into
+[[llm-system-design-interview=>LLM system design interview]] topics. Candidates
+also need to explain retrieval and tool use. Evaluation, safety, latency, and
+cost matter too.
+
 On the delivery side, design documents help projects fail early and align
 stakeholders. Teams should keep the document current as the system changes
 [[cite:ml-system-design=>ML System Design Playbook]].
@@ -367,3 +372,4 @@ These pages expand the system-design decisions above.
 - [[a-b-testing=>A/B Testing]]
 - [[Data Engineering Platforms]]
 - [[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]]
+- [[llm-system-design-interview=>LLM system design interview]]

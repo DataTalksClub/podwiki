@@ -49,6 +49,8 @@ Product-facing work defines the role through decisions rather than only models.
 Case-study preparation starts from business goals and evaluation metrics [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 Product teams use randomized experiments to turn product questions into causal
 evidence. Metric design, A/A tests, and power analysis make that evidence usable [[cite:ab-testing-and-product-experimentation=>A/B Testing]].
+The [[data-scientist-interview=>data scientist interview]] path turns those
+role boundaries into case, SQL, coding, and project-defense preparation.
 
 ## Team-Dependent Role Versions
 
@@ -78,8 +80,9 @@ data products, or stakeholder translation. Candidates should therefore ask what
 the team calls "data science" before assuming the role is model-first
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@7:08=>B2B SaaS Hiring]].
 
-Recruiting emphasizes industry fit, concrete projects, and business
-impact [[cite:get-data-scientist-job=>DS Roles]].
+The [[data-science-recruiter=>data science recruiter]] lens emphasizes industry
+fit, concrete projects, and business impact
+[[cite:get-data-scientist-job=>DS Roles]].
 Fraud and marketing roles reward different evidence from forecasting, search, or
 recommendations roles.
 
@@ -186,6 +189,8 @@ teams need evidence they can act on.
 Communication is a first-class skill, not a soft add-on. Recruiting rewards
 candidates who can explain projects through a use case and industry context.
 Clear business impact matters too [[cite:get-data-scientist-job=>DS Roles]].
+That's why [[data-science-recruiter=>data science recruiter]] belongs near
+portfolio proof rather than only near offer negotiation.
 
 Data scientists also need to explain data science value to stakeholders. That
 matters especially when the audience doesn't care about model details until the

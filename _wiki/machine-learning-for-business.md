@@ -42,8 +42,12 @@ Machine learning for business starts with a decision, not a model. A company
 gets value when [[machine learning]] changes a repeated action. Podcast guests
 ground that value in revenue, cost savings, decision quality, and task time
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
-Common actions include pricing, ranking, and forecasting. They also include
-routing, approval, scheduling, and recommendation.
+
+Common actions include ranking recommendations and pricing decisions. They also
+include demand forecasts, routed approvals, and schedule changes. When the
+repeated action is a user-facing ranking or recommendation, the business case
+belongs close to
+[[machine-learning-personalization=>machine learning personalization]].
 
 The business question is whether that action improves enough to justify the data
 and product work. It also has to justify the operations work.
@@ -54,7 +58,8 @@ under severe time and funding constraints. Larger companies compare ML with
 dashboards, rules, and vendor tools. They also compare it with operating changes
 and automation.
 
-That work sits close to [[business skills for data professionals]] and
+That work sits close to [[business skills for data professionals]],
+[[data-science-for-managers=>data science for managers]], and
 [[data products]]. It also depends on [[data product adoption]],
 [[data strategy]], and [[machine learning system design]].
 

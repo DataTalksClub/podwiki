@@ -103,9 +103,13 @@ Production models often need the same feature semantics in different
 situations. During training, the team needs historical
 feature values aligned with labels. During serving, the model needs the latest
 allowed feature values for an entity such as a user or merchant. Orders and
-devices can play the same role. A feature store makes that interface explicit
-instead of leaving every project to rebuild the path from warehouse tables to
-online serving.
+devices can play the same role.
+
+The same online-feature boundary appears in
+[[machine-learning-personalization=>machine learning personalization]], where
+fresh user and product context can change a ranking decision. A feature store
+makes that interface explicit instead of leaving every project to rebuild the
+path from warehouse tables to online serving.
 
 A fraud system can precompute feature values in daily batch jobs. At inference
 time the service combines those values with live payload features. It returns a

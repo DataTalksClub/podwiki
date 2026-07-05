@@ -40,8 +40,9 @@ sourcing, and long-term talent pipelines all come first
 The employer has to name the role well enough for recruiters and candidates to
 recognize relevant evidence.
 
-The [[Data Science Recruiter]] view runs from role definition and market guidance
-through shortlists, interview preparation, feedback, and offer negotiation.
+The [[data-science-recruiter=>data science recruiter]] view runs from role
+definition and market guidance through shortlists, interview preparation,
+feedback, and offer negotiation.
 Industry alignment, projects, and business impact make the same point from the
 candidate side: evidence needs to map to the work
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
@@ -151,6 +152,9 @@ data engineers
 Recruiter matching depends on industry and use case. Projects, business impact,
 and the target role matter too
 ([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
+For the data-science version of that match, use
+[[data-science-recruiter=>data science recruiter]] alongside
+[[cv-screening=>CV screening]].
 Employment gaps should be evaluated through context, current skill evidence,
 and role fit instead of treated as an automatic rejection
 ([[cite:hiring-for-data-science-jobs-interview-questions-skills@56:31=>How to Hire Data Scientists]]).

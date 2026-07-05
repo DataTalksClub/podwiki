@@ -298,7 +298,8 @@ stakeholder feedback.[[cite:building-data-products-lead-data-scientist=>Building
 This operating ownership puts data product management near
 [[Data Quality and Observability]],
 [[data-quality-and-observability=>Data Observability]], [[Model Monitoring]],
-and [[Production]]. It also puts the role near [[Leadership]]. As teams grow,
+and [[Production]]. It also puts the role near [[Leadership]] and
+[[data-science-for-managers=>data science for managers]]. As teams grow,
 ownership has to be delegated.[[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
 
 The product manager doesn't replace the people who build those systems. They

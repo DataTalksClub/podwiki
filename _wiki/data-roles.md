@@ -199,6 +199,8 @@ ambiguity as a hiring reality. The actual responsibilities matter more than the
 label
 ([[Data Analyst Role]],
 [[Data Scientist Role]]).
+For recruiter-side role fit in that ambiguous market, use
+[[data-science-recruiter=>data science recruiter]].
 
 Data scientist versus data engineer is a split between decision logic and data
 systems. Data scientists own framing and feature reasoning. They also own
@@ -439,6 +441,10 @@ and
 The practical sequence is the same across roles. Choose one target, build one
 project that proves the target responsibility, and write the case study in the
 language of that role. Recruiters and hiring managers shouldn't have to infer
-whether you want analytics, data science, or data engineering. They also
-shouldn't have to infer whether you want ML engineering or data product work.
-Your project, resume, and interview story should make that choice visible.
+whether you want analytics, data science, or data engineering.
+
+For data science applications, [[data-science-recruiter=>data science recruiter]]
+explains how that role targeting becomes a sourcing, screening, and offer
+conversation. Recruiters and hiring managers also shouldn't have to infer
+whether you want ML engineering or data product work. Your project, resume, and
+interview story should make that choice visible.

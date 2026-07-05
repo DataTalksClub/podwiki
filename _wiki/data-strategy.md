@@ -135,9 +135,11 @@ architecture, and governance needs. Teams have to catch scope creep before
 delivery starts
 [[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps]].
 
-That connects data strategy to [[Data Product Intake and Prioritization]] and
-[[machine learning for business]]. Ideas need feasibility, priority, and a
-business result before they become roadmap commitments.
+That connects data strategy to [[Data Product Intake and Prioritization]],
+[[machine learning for business]], and
+[[data-science-for-managers=>data science for managers]]. Ideas need
+feasibility, priority, and a business result before they become roadmap
+commitments.
 
 The growth stack makes this visible at the event level. A tracking plan forces
 product and data teams to agree on the important events, the properties that

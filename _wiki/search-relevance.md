@@ -78,8 +78,8 @@ quality, conversion quality, and business outcomes.
 
 Candidate generation may use lexical indexes, vector indexes, graph lookups, or
 metadata filters. Ranking may use term scores, freshness, popularity, and
-personalization. It may also use behavioral signals, learned-to-rank models, or
-business rules. Use
+[[machine-learning-personalization=>machine learning personalization]]. It may
+also use behavioral signals, learned-to-rank models, or business rules. Use
 [[Production Search Evaluation]]
 when the question is how to measure each stage without collapsing the whole
 search product into one score.

@@ -230,7 +230,9 @@ also avoid holding too tightly to the solution.
 Technical depth helps when CDOs discuss applied ML and data engineering. The
 same breadth applies to analytics and insights. CDOs don't need to be the
 deepest expert in each area. They need to find touchpoints across the strategy
-and organization.
+and organization. That makes
+[[data-science-for-managers=>data science for managers]] part of the leadership
+ladder before the role becomes fully executive.
 [[cite:chief-data-officer-data-strategy-and-org-design=>Technical breadth]]
 
 Business education can help, but it isn't mandatory. An MBA may prepare someone

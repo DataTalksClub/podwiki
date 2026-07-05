@@ -93,10 +93,15 @@ also works back to the meeting rituals where people will use the data
 Data Delivery]].
 
 [[person:annahannemann=>Anna Hannemann]] starts from product ownership in data
-science. Product owners and product managers make different tradeoffs, and
-ML-heavy products such as recommender systems or markdown models need domain
-ownership and portfolio decisions. They also need model-quality and operating
-cost judgment
+science. In her framing, product owners and product managers make different
+tradeoffs. ML-heavy products such as recommender systems or markdown models
+need domain ownership and portfolio decisions, plus model-quality and
+operating-cost judgment.
+
+That same ownership question shows up in
+[[machine-learning-personalization=>machine learning personalization]]. The
+team has to decide which user action the model is allowed to change. It also
+has to decide which ranking or recommendation can change
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
 Products at Scale]].
 

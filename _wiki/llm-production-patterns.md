@@ -31,8 +31,10 @@ In [[business intelligence]], the model can help with questions, summaries, and
 [[text-to-sql=>Text-to-SQL]] query drafting. The product still depends on
 governed metrics, access controls, and review.
 
-The production problem starts with prompts, RAG, and gold tests. It also needs
-failure analysis, logs, traces, and tool use.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+LLM teams start with prompts and RAG, then add gold tests and failure analysis.
+They also use logs, traces, and tool calls.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Candidates use those production choices in a
+[[llm-system-design-interview=>LLM system design interview]] answer.
 
 ## Production Boundary
 
@@ -68,9 +70,14 @@ hosted APIs. Control, privacy, and provider drift affect that choice.
 Fine-tuning, compression, and inference optimization matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Builder iteration starts with prompts and structured outputs. RAG, tools, and
-gold tests turn those pieces into one testable system.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-Agentic workflows start with context engineering and tools. Memory belongs in
-that same design. Teams use mocked tool tests, integration tests, and outcome
+gold tests make those pieces testable.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Candidates need the same reasoning for a
+[[llm-system-design-interview=>LLM system design interview]]. Choose the
+smallest reliable path first, then add retrieval, tools, and evaluation when the
+product boundary requires them.
+
+Agentic workflows start with context engineering and tools, and memory belongs
+in that same design. Teams use mocked tool tests, integration tests, and outcome
 assertions to check the workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Enterprise reliability starts with guardrails, lineage, feedback, and
@@ -246,5 +253,5 @@ They also cover evaluation, agents, governance, and project ideas:
 - [[AI Red Teaming]]
 - [[Responsible AI and Governance]]
 - [[RAG Portfolio Projects]]
-- [[LLM System Design Interview]]
+- [[llm-system-design-interview=>LLM system design interview]]
 - [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]

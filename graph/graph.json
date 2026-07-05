@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11793
+    "links": 11818
   },
   "nodes": [
     {
@@ -23128,6 +23128,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -23935,6 +23941,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "article-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -25069,6 +25081,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-product-feedback-loops",
@@ -28372,6 +28390,12 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -30143,6 +30167,12 @@
     {
       "source": "wiki:chief-data-officer-role",
       "target": "wiki:data-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32185,6 +32215,12 @@
       "target": "wiki:data-science-careers",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:cv-screening",
@@ -39562,6 +39598,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -40600,6 +40642,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -41302,6 +41350,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-science-recruiter",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-scientist-interview-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -41843,6 +41897,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-science-recruiter",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42940,6 +43000,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:data-scientist-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "wiki:data-scientist-interview-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -43619,6 +43685,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:data-science-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:data-science-recruiter",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44633,6 +44705,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -49216,6 +49294,12 @@
     },
     {
       "source": "wiki:embeddings",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:embeddings",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -51403,6 +51487,12 @@
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:feature-stores",
@@ -55312,6 +55402,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "wiki:data-scientist-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -57100,6 +57196,12 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:llms",
       "kind": "wiki-chip",
       "weight": 1
@@ -57757,6 +57859,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -60322,6 +60430,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "wiki:data-science-for-managers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "wiki:data-science-project-management",
       "kind": "article-chip",
       "weight": 1
@@ -60379,6 +60493,12 @@
       "target": "wiki:machine-learning-for-startups",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -62092,6 +62212,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -62291,6 +62417,12 @@
     {
       "source": "wiki:machine-learning-system-design-interview",
       "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design-interview",
+      "target": "wiki:data-scientist-interview",
       "kind": "article-chip",
       "weight": 1
     },
@@ -71200,6 +71332,12 @@
     },
     {
       "source": "wiki:portfolio-projects",
+      "target": "wiki:data-scientist-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:portfolio-projects",
       "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "wiki-chip",
       "weight": 1
@@ -77074,6 +77212,12 @@
     },
     {
       "source": "wiki:search-relevance",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-relevance",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -81191,6 +81335,12 @@
     {
       "source": "wiki:vector-databases",
       "target": "wiki:machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -326,7 +326,10 @@ explanation matter too.
 A portfolio project should be easy to discuss under interview pressure. The
 candidate should explain why the project matters and which simpler baseline
 came first. They should also explain which parts failed and what they would
-change with more time.
+change with more time. For data scientist candidates, the
+[[data-scientist-interview=>data scientist interview]] path turns that project
+story into case practice. It also connects it to SQL, coding, and behavioral
+preparation.
 
 The hiring context connects to [[Job Search]]
 and the longer arc connects to [[Career Development]].

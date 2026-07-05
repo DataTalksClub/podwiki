@@ -35,8 +35,11 @@ how the team would operate the system after launch. For the broader production
 discipline, read
 [[Machine Learning System Design]]
 and [[ML System Design Documents]].
+
 For language-model systems, use
-[[LLM System Design Interview]].
+[[llm-system-design-interview=>LLM system design interview]] because the answer
+also has to cover context construction and retrieval quality. Tool boundaries
+and LLM evaluation matter too.
 
 ## Start With the Decision
 
@@ -67,6 +70,10 @@ This structure also matches the
 where interview preparation starts from the actual role. An ML-heavy data
 scientist or machine learning engineer interview needs more production design,
 serving, and monitoring discussion than an analytics-heavy role.
+Use
+[[data-scientist-interview=>data scientist interview]] preparation for the
+shared case, SQL, coding, and project-defense layer before specializing into
+ML system design.
 
 ## Build the Answer Path
 

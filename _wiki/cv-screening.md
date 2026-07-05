@@ -45,6 +45,8 @@ hiding the match[[cite:data-science-interview-and-cv-guide=>Data Science CV Guid
 The market-map version starts with role definition and candidate longlists. The
 CV screen then checks industry and use-case fit, projects, business impact, and
 the candidate's career story[[cite:get-data-scientist-job=>Land DS Roles]].
+For data scientist searches, that market map is the recruiter workflow covered
+in [[data-science-recruiter=>data science recruiter]].
 
 ## Role and Market Signals
 
@@ -198,6 +200,9 @@ Employers handle the same screen through
 [[hiring]]. Recruiters and hiring managers
 decide which signals move someone from an application or sourced profile into
 interviews.
+For data science roles, [[data-science-recruiter=>data science recruiter]]
+connects that screen to sourcing and role fit. It also covers candidate
+preparation and offers.
 
 The screen depends on
 [[job descriptions]] because those

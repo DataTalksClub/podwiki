@@ -121,8 +121,9 @@ leaving that skill to chance.
 
 For managers, business skill belongs with
 [[Leadership]] and
-[[Data Teams]]. A manager has to
-balance stakeholder alignment with durable analytics craft. Weak handover,
+[[Data Teams]]. It also belongs with
+[[data-science-for-managers=>data science for managers]] because managers have
+to balance stakeholder alignment with durable analytics craft. Weak handover,
 missing documentation, and unreviewed recurring assets become business risks
 because they slow down the next teammate and weaken trust in the team's output.
 

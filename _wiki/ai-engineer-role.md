@@ -52,6 +52,12 @@ AI engineers often rely on models from providers or open-source projects. They
 then add context, retrieval and tool use. They also add user experience, tests
 and measurement.
 
+A
+[[llm-system-design-interview=>LLM system design interview]]
+tests that same role boundary by asking the candidate to turn a model call into
+a product system. The answer needs context and evaluation. It also needs cost,
+latency, and fallback plans.
+
 Measurement ties the role to data-science practice because precision, recall
 and accuracy still matter when agents replace older ML
 components[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
@@ -197,6 +203,9 @@ proof of ability[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How 
 Companies can take side projects seriously when the project solves a real
 problem. The candidate also needs to explain the
 choices[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+That explanation should be close to an
+[[llm-system-design-interview=>LLM system design interview]] walkthrough when
+the project uses RAG, agents, or model-backed product flows.
 For project planning, start with the
 [[AI Engineering Roadmap]]
 and [[ai-engineering-roadmap=>AI Engineer Roadmap]].
@@ -250,6 +259,7 @@ The nearby role, systems, and production topics are:
 - [[AI Engineering]]
 - [[AI Engineering Roadmap]]
 - [[LLM Production Patterns]]
+- [[llm-system-design-interview=>LLM system design interview]]
 - [[LLM Evaluation Workflows]]
 - [[retrieval-augmented-generation=>RAG]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]

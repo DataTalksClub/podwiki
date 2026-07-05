@@ -16,9 +16,12 @@ also show project ownership and support interview follow-up. For a specific
 [[data scientist role]], the proof system combines resume evidence with public
 projects, take-home work, and interview stories.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
-Start with [[CV Screening]] and [[Data Science Recruiter]] for the
-recruiter-side first pass. Use [[Job Search]] and the
-[[Data Scientist Interview Roadmap]] for the full candidate path. Use
+Start with [[CV Screening]] and
+[[data-science-recruiter=>data science recruiter]] for the recruiter-side first
+pass. Use [[Job Search]] and the
+[[Data Scientist Interview Roadmap]] for the full candidate path. Use the
+[[data-scientist-interview=>data scientist interview]] guide when CV evidence
+has to become case, SQL, coding, and project-defense preparation. Use
 [[Machine Learning Portfolio Projects]] and
 [[Portfolio Projects]] when the project needs deeper technical framing.
 
@@ -56,9 +59,14 @@ Approaches differ on which screen should drive the portfolio. A recruiter-side
 screen puts the most weight on market and company match. Strong skills can look
 less relevant when the projects don't resemble the target business.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
-The first human screen pushes the CV toward the job description. Relevant
-experience should be easy to find, and applicant tracking systems matter mainly
-as parsing tools rather than automatic rejection engines.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+The first human screen pushes the CV toward the job description.
+
+Relevant experience should be easy to find because applicant tracking systems
+mainly parse the CV. They aren't automatic rejection engines.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+
+Use [[data-science-recruiter=>data science recruiter]] for the market-fit layer
+in data science roles. The application has to show industry alignment and use
+case. It also needs business impact and a career story.
 
 The interview screen puts more weight on delivery after the CV passes.
 Candidates should only present models and methods they can defend. Side projects

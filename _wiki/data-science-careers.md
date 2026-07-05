@@ -20,11 +20,14 @@ The title can mean product analytics or applied [[machine learning]]. It can als
 
 When the responsibilities are mostly pipelines or reporting, the better comparison may be [[Data Engineering]] or the [[Data Analyst Role]]. Ruslan Shchuchkin adds a boundary for newer AI-product work. He argues that data science can stay relevant when practitioners connect data judgment to [[AI engineering]] and product discovery. They also need full-stack delivery to avoid treating the title as a fixed tool list.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@52:28=>Future of data science]]
 
-For the interview path, use the [[Data Scientist Interview Roadmap]] and the [[Data Scientist Interview]] guide. For broader search mechanics, use [[Job Search]], [[CV Screening]], and [[Salary Negotiation]].
+For the interview path, use the [[Data Scientist Interview Roadmap]] and the
+[[data-scientist-interview=>data scientist interview]] guide. For broader
+search mechanics, use [[Job Search]], [[CV Screening]], and
+[[Salary Negotiation]].
 
 ## Role Targeting Before Applications
 
-Candidates first choose a target role and find the missing skills. Then they build evidence and use applications to test fit. Recruiters see stronger CVs when candidates show industry alignment, real projects, and concrete business problems. Candidates tailor applications because they need to map their skills to the company's problem.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
+Candidates first choose a target role and find the missing skills. Then they build evidence and use applications to test fit. Recruiters see stronger CVs when candidates show industry alignment, real projects, and concrete business problems. The [[data-science-recruiter=>data science recruiter]] view turns that into a role-fit screen before interview loops start. Candidates tailor applications because they need to map their skills to the company's problem.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
 Candidates set goals and network before tuning the CV and search strategy. They define the target role before collecting more courses or tools.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]] Use that advice with [[Career Transitions in Data]]. Without a target role, every portfolio project and CV bullet targets a different job.
 
@@ -187,11 +190,18 @@ Portfolio choice therefore connects to [[Communication]] and
 
 ## CVs, Interviews, and Offers
 
-Recruiters and hiring managers screen for clarity first by weighing profile screening, education signals, and CV clarity. Buzzword-heavy CVs make it harder to understand what the candidate did.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+Recruiters and hiring managers screen for clarity before they go deeper into
+skills. They weigh profile screening as well as education signals and CV
+clarity. Buzzword-heavy CVs hide what the candidate did.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+For data-science-specific recruiter expectations, use
+[[data-science-recruiter=>data science recruiter]] with this CV screen.
 
-The CV works like a landing page for the role. It emphasizes personal contribution, removes noise, and moves from business goals to evaluation metrics in case studies.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+The CV works like a landing page for the role. It emphasizes personal
+contribution and removes noise. Case studies should move from business goals
+to evaluation metrics.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
-Use that advice with [[CV Screening]], behavioral stories, SQL, and ML fundamentals. Take-home tasks belong in the same preparation plan.
+Use that advice with [[CV Screening]] and behavioral stories. SQL and ML
+fundamentals belong in the same preparation plan. Take-home tasks do too.
 
 Candidates should also evaluate the company while the company evaluates them. They should weigh take-home burden, role clarity, and salary transparency.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 
