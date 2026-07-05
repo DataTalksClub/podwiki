@@ -223,6 +223,8 @@ they expose the parts that fail or slow down. They also expose data leaks,
 costly calls, and behavior the team can't evaluate.
 
 For the specific techniques that reduce LLM spend, see [[LLM Cost Optimization]].
+For ownership tradeoffs behind that spend, use
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]].
 
 ## Related Pages
 

@@ -8,6 +8,7 @@ related:
   - Data Engineering
   - DataOps
   - Data Engineering Platforms
+  - How to Become a Data Engineer With No Experience
   - Data Quality and Observability
   - Open Source Portfolio Evidence
   - Open Source and Developer Relations
@@ -209,6 +210,9 @@ should also include the candidate's own extensions around a specific problem
 That makes [[Data Engineering Portfolio Projects]]
 and the [[data-engineer-roadmap=>Data Engineering Roadmap]]
 natural next pages.
+If the DevOps candidate lacks a data-engineer title,
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+gives the no-experience packaging for the same platform proof.
 
 Add DataOps evidence before adding exotic tooling. A DevOps-to-data project
 should show Git-based changes, tests, scheduled runs, and environment setup. It

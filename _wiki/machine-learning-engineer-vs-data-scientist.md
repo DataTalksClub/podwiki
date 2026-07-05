@@ -33,6 +33,9 @@ Hiring separates product data scientist expectations from
 machine-learning-engineering-heavy expectations. The title is meaningful only
 after the team names the work the role must own
 ([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
+When the comparison becomes a transition plan, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+for the data-science-to-production-ML route.
 
 For full role definitions, use
 [[Machine Learning Engineer Role]]

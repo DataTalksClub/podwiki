@@ -23,6 +23,8 @@ documentation are valid contribution work. Tests, packaging, and maintainer
 etiquette count too
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
 [[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
+For the ML-tool version of those mechanics, use
+[[open-source-ml-contributions=>open-source ML contributions]].
 Open-source projects also serve as hiring proof because review pressure exposes
 Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in

@@ -103,6 +103,11 @@ When design problems repeat, teams need platform capabilities. They need
 experiment tracking and model registries, plus batch inference and online
 serving. They also need orchestration, metadata, and lineage
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+
+At that design boundary, [[metaflow=>Metaflow]] gives one concrete
+workflow-tooling example. It connects local model development to reproducible
+cloud runs and scheduler infrastructure
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Adoption, developer experience, model serving, and monitoring matter too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 

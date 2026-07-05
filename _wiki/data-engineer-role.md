@@ -10,6 +10,7 @@ related:
   - DataOps
   - DataOps Engineer Role
   - Data Engineer Roadmap
+  - How to Become a Data Engineer With No Experience
   - Self-Service Data Platforms
   - Data Engineering Portfolio Projects
   - Job Search
@@ -113,6 +114,9 @@ Docker, Airflow, and warehouses are visible hiring signals
 That version of the role is close to
 [[data-engineer-roadmap=>data engineering learning paths]]
 and [[data engineering portfolio projects]].
+For candidates without a data title,
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+turns these entry-level signals into a first portfolio and job-search path.
 
 Recruiters and hiring managers separate junior execution, mid-level ownership,
 and senior influence. Nicolas Rassam describes junior data engineers as

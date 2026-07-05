@@ -7,6 +7,7 @@ summary: "A practical data engineer roadmap from SQL and Python fundamentals to 
 related_wiki:
  - Modern Data Engineering Trends
  - Data Engineer Role
+ - How to Become a Data Engineer With No Experience
  - Data Engineering Portfolio Projects
  - Data Engineering Certification
  - Data Engineering
@@ -50,6 +51,9 @@ His beginner path adds one detail that tool lists often miss: learn to capture
 business requirements. A portfolio should choose tools around the consumer and
 show how SQL, Python, ingestion, and modeling solve a real data problem
 ([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
+For candidates without data job history,
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+keeps this roadmap tied to project evidence instead of tool collection.
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the

@@ -96,6 +96,9 @@ model, and writes predictions to a table.[[cite:building-production-ml-platform-
 
 Airflow, SageMaker Pipelines, Spark, or a similar workflow orchestrator can run
 that flow.
+For that workflow decision, [[metaflow=>Metaflow]] gives teams a path from
+local model development into cloud-backed runs and scheduler infrastructure
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
 Online serving has different constraints around latency and request schemas.
 API design, logging, and availability matter there too.

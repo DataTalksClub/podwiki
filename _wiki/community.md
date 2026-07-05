@@ -169,6 +169,10 @@ releases turn that contribution into project
 maintenance[[cite:open-source-turned-into-career-and-startup-creation=>From Developer to Startup Founder]].
 [[person:willmcgugan=>Will McGugan]] links that social surface to maintainable
 project contribution.
+
+For ML tools, [[open-source-ml-contributions=>open-source ML contributions]]
+shows how issues and docs make that community work reviewable. Tests and CI add
+the maintenance side.
 In open source, community work becomes visible through
 [[contributing]] and
 [[open-source-portfolio-evidence=>open-source portfolio evidence]].

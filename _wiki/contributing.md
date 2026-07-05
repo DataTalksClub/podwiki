@@ -20,6 +20,8 @@ A clear, reproducible issue is a real contribution. First code pull requests
 connect to tests, CI, packaging, and pre-commit. Contribution is part of
 [[open source]] and [[software engineering]], not a separate prestige activity
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+For the ML-tool contribution version, use
+[[open-source-ml-contributions=>open-source ML contributions]].
 
 ## Small Work That Reduces Maintainer Load
 

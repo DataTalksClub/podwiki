@@ -95,6 +95,11 @@ Hannes Hapke and Catherine Nelson's
 [[book:20210607-building-machine-learning-pipelines=>Building Machine Learning Pipelines]]
 conversation covers the pipeline automation layer behind that lifecycle. It
 covers data ingestion and validation, plus continuous training and deployment.
+
+In that layer, [[metaflow=>Metaflow]] is another workflow-tooling example. It
+helps data scientists move from prototype work toward production without owning
+all of the cloud and scheduler plumbing
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Theofilos Papapanagiotou draws the boundary with DevOps through model
 lifecycle, drift, and fairness. He also links monitoring to retraining triggers
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].

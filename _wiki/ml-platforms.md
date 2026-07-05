@@ -127,6 +127,11 @@ platform starts with self-service notebooks and compute, then managed cloud
 resources. Experiment tracking, model registries, batch jobs, and online
 serving form the path from exploration to production. Orchestration ties that
 path together[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
+
+At the same self-service boundary, [[metaflow=>Metaflow]] helps practitioners
+move from local experiments to cloud-backed runs. They don't need to own every
+infrastructure detail
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Thin abstractions over cloud providers help when they reduce repetitive
 infrastructure work without hiding every detail[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 

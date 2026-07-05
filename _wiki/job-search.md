@@ -7,6 +7,7 @@ related:
   - Career Growth
   - Hiring
   - Data Engineer Roadmap
+  - How to Become a Data Engineer With No Experience
   - Data Engineering Certification
   - Data Engineering Portfolio Projects
   - Academia
@@ -52,6 +53,9 @@ when the title alone is too broad.
 Data roles make this boundary important. Product data science and machine
 learning engineering have different hiring signals
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+For candidates moving between those two signals, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+to focus the search around production ML evidence.
 Titles can also hide the real work and team maturity
 [[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]].
 Candidates should read [[Job Descriptions]] as evidence about responsibilities,
@@ -149,6 +153,8 @@ The expected project changes by role. Personal projects and open-source
 contributions can show data engineering skill. Clean code, useful names, and
 tests are part of the signal
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+For ML-tool examples, use
+[[open-source-ml-contributions=>open-source ML contributions]].
 Standout projects should also be shareable and explainable
 [[cite:hiring-for-data-engineering-jobs-in-europe@55:53=>Hiring Data Engineers in Europe]].
 
@@ -255,6 +261,8 @@ role fit and readiness
 Candidates without commercial experience can use internships or nonprofit and
 paid projects to prove data engineering skills.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+For the data-engineering version of that evidence path, use
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]].
 PhD and cold-start candidates can use projects, synthetic data, and blogging as proof.
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 

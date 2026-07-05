@@ -33,6 +33,8 @@ too [[cite:software-engineering-for-machine-learning=>Software Engineering for M
 For adjacent transition context, see
 [[career-transitions-in-data=>Career Transition]] and
 [[Machine Learning Engineer Role]].
+For the same target role from a data-science starting point, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 
 For testing-heavy engineering backgrounds, use
 [[QA to ML and Data Engineering]].

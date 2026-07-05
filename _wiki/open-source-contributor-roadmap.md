@@ -29,6 +29,8 @@ maintainer work. CI keeps contributions reviewable by checking packaging and
 pre-commit
 ([[cite:open-source-ml-contributions@25:50=>Contribute to Open Source ML]]
 [[cite:open-source-ml-contributions@27:40=>Contribute to Open Source ML]]).
+For ML-library examples and maintainer expectations, use
+[[open-source-ml-contributions=>open-source ML contributions]].
 
 The broad concept lives in [[Open Source]],
 and

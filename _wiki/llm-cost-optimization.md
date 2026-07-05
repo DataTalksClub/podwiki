@@ -21,10 +21,8 @@ standard parts of production AI engineering. They sit alongside prompt testing a
 model-efficiency tools[[cite:production-ready-ai-engineering@30:00=>Production AI Engineering]][[cite:production-ready-ai-engineering@31:45=>Prompt caching]].
 
 This topic connects to
-[AI Infrastructure Cost and
-Ownership]({{ '/wiki/ai-infrastructure-cost-and-ownership/' | relative_url }}),
-[[LLM Production Patterns]],
-and [[LLM Deployment]].
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]],
+[[LLM Production Patterns]], and [[LLM Deployment]].
 
 ## Prompt Compression: Token Optimization
 
@@ -113,7 +111,7 @@ optimization a product-level concern rather than only an engineering detail.
 These pages connect LLM cost optimization to infrastructure, deployment, and
 prompt-level engineering choices:
 
-- [[AI Infrastructure Cost and Ownership]]
+- [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
 - [[LLM Production Patterns]]
 - [[LLM Deployment]]
 - [[Prompt Engineering]]

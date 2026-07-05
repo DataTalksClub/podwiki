@@ -78,10 +78,11 @@ where cloud and on-prem GPUs become architecture choices. Teams have to account
 for distributed training and total cost of ownership
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>AI Infrastructure]]).
 Those episodes put FinOps near
-[[AI Infrastructure]],
-[[Machine Learning Infrastructure]],
-and [[data-engineer-roadmap=>Data Engineering Roadmap]]
-when cost decisions move from warehouses into compute-heavy platforms.
+[[AI Infrastructure]] and
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]].
+They also connect it to [[Machine Learning Infrastructure]] and
+[[data-engineer-roadmap=>Data Engineering Roadmap]]
+when cost decisions move into compute-heavy platforms.
 
 ## Warehouse usage and metric trees
 

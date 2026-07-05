@@ -18,6 +18,9 @@ You should be able to test it, monitor it, and change it when source data or
 serving constraints change. Model work is separate from online and batch
 serving paths.[[cite:data-team-roles=>Data Team Roles Explained]]
 That split makes this path different from a data science study plan.
+For data scientists moving into that production side, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+alongside this roadmap.
 
 You still need modeling, metrics, and data understanding. You also need
 [[software engineering]],

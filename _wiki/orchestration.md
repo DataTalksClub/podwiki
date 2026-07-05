@@ -297,6 +297,11 @@ need to design the end-to-end workflow.
 Simon says SageMaker can store metadata such as images, inputs, and outputs. It
 can also store pipeline-run connections. A team still has to think through
 reproducibility across code and data. Model versions need the same care [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+
+[[metaflow=>Metaflow]] sits near that ML workflow boundary. It connects modeling
+code to cloud and scheduler infrastructure while keeping the practitioner
+workflow central
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Those concerns connect orchestration to
 [[MLOps]] and
 [[MLOps Tools]].

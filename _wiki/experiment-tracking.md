@@ -95,8 +95,8 @@ clinical data can't simply be pushed to a repository. Metadata, parameters, and
 project structure may be shareable even when raw data isn't
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching Open Science and Reproducible Research]].
 
-Metaflow interoperates with experiment trackers such as Weights & Biases and
-Comet
+[[metaflow=>Metaflow]] interoperates with experiment trackers such as Weights &
+Biases and Comet
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 Naming a tracker isn't the hard part. The hard work is fitting the tracker
 into the data science workflow and the surrounding platform
@@ -175,9 +175,10 @@ also has to decide which artifacts to persist and how the tracker connects to
 the handoff into deployment
 [[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
 
-Metaflow gives the same ML ecosystem lesson. Workflow tools, compute backends,
-and experiment trackers need to interoperate. Practitioners can then move from
-local work to reproducible runs without changing every habit in one step
+[[metaflow=>Metaflow]] gives the same ML ecosystem lesson. Workflow tools,
+compute backends, and experiment trackers need to interoperate. Practitioners
+can then move from local work to reproducible runs without changing every habit
+in one step
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
 Teams therefore need to ask what record they need, not which tracker is

@@ -8,6 +8,7 @@ related:
   - Data Scientist Role
   - Data Analyst Role
   - Data Engineer Role
+  - How to Become a Data Engineer With No Experience
   - Analytics Engineering
   - Project Manager to Data Science
   - QA to ML and Data Engineering
@@ -38,6 +39,10 @@ operability, and platform work into data-platform evidence
 Data science becomes data engineering when the person turns analysis cleanup and
 modeling-adjacent data work into shared pipelines. See
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
+When the same starting point aims at model serving, tests, and production
+reliability, use
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
+
 For analysts making the same upstream move, use
 [[data-analyst-to-data-engineer=>data analyst to data engineer]].
 QA becomes testing and project discipline through
@@ -325,9 +330,16 @@ For the public trail behind that transition, use
 [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 
 Data-engineering portfolios benefit from end-to-end projects that include
-ingestion and storage. They should also include modeling, serving and a useful
-personal or analytical consumer
+ingestion and storage. They should also include modeling and serving.
+A useful personal or analytical consumer makes the work reviewable
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+
+Some candidates have no prior data job history. For them,
+use
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]].
+It narrows the transition into one beginner pipeline, CV proof, and interview
+story.
+
 For data scientists moving into that work, the
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]]
 turns notebook cleanup and feature work into a pipeline portfolio path.

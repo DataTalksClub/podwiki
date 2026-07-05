@@ -243,6 +243,10 @@ serving, and CI/CD. They also own scalability and production reliability. The
 interview split separates product data scientist expectations from
 ML-engineering-heavy expectations [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
 
+Use [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+when that boundary becomes a career move toward model serving, testing, and
+runtime ownership.
+
 The boundary with an [[ai-engineer-role=>AI engineer]]
 is newer. A data scientist brings data, metrics, experiments, and evaluation
 habits. AI engineering adds LLM application design, retrieval, agents, and

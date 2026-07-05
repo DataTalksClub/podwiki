@@ -9,6 +9,7 @@ related_wiki:
   - Data Analyst Role
   - Data Scientist Role
   - Data Engineer Role
+  - How to Become a Data Engineer With No Experience
   - Analytics Engineering
   - Machine Learning Engineer Role
   - Data Product Management
@@ -357,6 +358,9 @@ Docker and Airflow also appear there, along with warehouses
 ([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 [[Data Engineering Portfolio Projects]]).
+For cold-start candidates choosing this role,
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+translates that portfolio standard into first-job proof.
 
 An analytics engineering portfolio should prove reusable modeling. Show raw
 source assumptions and staging models, then show marts, tests, and

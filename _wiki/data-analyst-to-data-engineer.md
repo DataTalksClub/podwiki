@@ -9,6 +9,7 @@ related_wiki:
   - Data Analyst Careers
   - Data Engineer Role
   - Data Engineer Roadmap
+  - How to Become a Data Engineer With No Experience
   - Data Engineering Portfolio Projects
   - Analytics Engineering
   - Data Pipelines
@@ -49,6 +50,9 @@ Show that proof through:
 Use the broader
 [[data-engineer-roadmap=>Data Engineering Roadmap]] for the full learning
 sequence and [[Data Engineering Portfolio Projects]] for project examples.
+Some analyst moves are also no-experience data-engineering searches. Use
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+to package the first portfolio and job evidence.
 
 ## Translate The Analyst Advantage
 
@@ -345,7 +349,7 @@ Use these pages to go deeper on roles, projects, and adjacent transitions:
 - [[Data Engineer Role]]
 - [[Data Engineering]]
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]
-- [[How to Become a Data Engineer With No Experience]]
+- [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
 - [[Data Engineering Portfolio Projects]]
 - [[Analytics Engineering]]
 - [[Analytics Engineering Portfolio Projects]]

@@ -6,6 +6,7 @@ related:
   - Portfolio Projects
   - Data Engineering
   - Data Engineer Roadmap
+  - How to Become a Data Engineer With No Experience
   - Data Engineering Certification
   - End-to-End Data Pipeline Project
   - Data Pipelines
@@ -26,6 +27,9 @@ tests, and a believable operating story.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 where he asks for Python and SQL depth. He also asks for clean code, tests, and
 public project evidence.
+For cold-start candidates,
+[[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
+connects this portfolio standard to first-role evidence.
 
 For data engineering portfolio work, start with
 [[Portfolio Projects]] and

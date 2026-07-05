@@ -10,9 +10,9 @@
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
-    "topics": 51,
-    "nodes": 1071,
-    "links": 11671
+    "topics": 49,
+    "nodes": 1069,
+    "links": 11711
   },
   "nodes": [
     {
@@ -8435,15 +8435,6 @@
       "search": "education"
     },
     {
-      "id": "topic:evaluation-metrics",
-      "type": "topic",
-      "label": "evaluation metrics",
-      "title": "evaluation metrics",
-      "url": "/search.html?q=evaluation%20metrics",
-      "count": 1,
-      "search": "evaluation metrics"
-    },
-    {
       "id": "topic:feature-engineering",
       "type": "topic",
       "label": "feature engineering",
@@ -8487,15 +8478,6 @@
       "url": "/search.html?q=fundraising",
       "count": 1,
       "search": "fundraising"
-    },
-    {
-      "id": "topic:gitops",
-      "type": "topic",
-      "label": "GitOps",
-      "title": "GitOps",
-      "url": "/search.html?q=GitOps",
-      "count": 1,
-      "search": "GitOps"
     },
     {
       "id": "topic:indie-hacking",
@@ -14584,13 +14566,13 @@
     },
     {
       "source": "podcast:building-production-search-systems",
-      "target": "topic:evaluation-metrics",
+      "target": "wiki:embeddings",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
       "source": "podcast:building-production-search-systems",
-      "target": "wiki:embeddings",
+      "target": "wiki:evaluation",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -15994,12 +15976,6 @@
     },
     {
       "source": "podcast:dataops-and-gitops-best-practices-for-data-teams",
-      "target": "topic:gitops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "target": "wiki:data-teams",
       "kind": "podcast-topic",
       "weight": 2
@@ -16007,6 +15983,12 @@
     {
       "source": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "target": "wiki:dataops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "target": "wiki:gitops-for-data-teams",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -24370,6 +24352,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
@@ -29506,6 +29494,18 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -30658,6 +30658,12 @@
     },
     {
       "source": "wiki:community",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -31789,6 +31795,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:contributing",
@@ -33646,6 +33658,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:job-search",
       "kind": "article-chip",
       "weight": 1
@@ -34504,6 +34522,18 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:job-search",
       "kind": "article-chip",
       "weight": 1
@@ -34855,6 +34885,18 @@
       "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineer-role",
@@ -36871,6 +36913,18 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
@@ -41074,6 +41128,18 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -43345,6 +43411,12 @@
       "target": "wiki:data-scientist-interview-roadmap",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-role",
@@ -48340,6 +48412,18 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:mlops-vs-devops",
       "kind": "article-chip",
       "weight": 1
@@ -50494,6 +50578,12 @@
     },
     {
       "source": "wiki:experiment-tracking",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experiment-tracking",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -51167,6 +51257,12 @@
     {
       "source": "wiki:finops-for-data-engineers",
       "target": "wiki:ai-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54916,6 +55012,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
@@ -54929,6 +55031,18 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54961,6 +55075,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -56531,12 +56651,6 @@
     {
       "source": "wiki:llm-cost-optimization",
       "target": "wiki:ai-infrastructure-cost-and-ownership",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-cost-optimization",
-      "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -56945,6 +57059,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59116,6 +59236,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -59305,6 +59431,12 @@
       "target": "wiki:data-scientist-role",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-engineer-vs-data-scientist",
@@ -61228,6 +61360,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
@@ -61319,6 +61457,12 @@
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61427,6 +61571,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -61583,6 +61733,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63478,6 +63634,12 @@
     },
     {
       "source": "wiki:ml-platforms",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -63575,6 +63737,12 @@
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64078,6 +64246,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -64225,6 +64399,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -65464,6 +65644,12 @@
     },
     {
       "source": "wiki:mlops-tools",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-tools",
       "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
       "kind": "wiki-chip",
       "weight": 1
@@ -65533,6 +65719,12 @@
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",
@@ -68914,6 +69106,12 @@
     },
     {
       "source": "wiki:open-source-contributor-roadmap",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-contributor-roadmap",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-chip",
       "weight": 1
@@ -69460,6 +69658,12 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -69587,6 +69791,12 @@
     {
       "source": "wiki:orchestration",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -69737,6 +69947,12 @@
     {
       "source": "wiki:orchestration",
       "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77095,6 +77311,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",

@@ -17,7 +17,9 @@ AI infrastructure covers compute and orchestration as well as serving and
 operations for production AI. It overlaps with
 [[Machine Learning Infrastructure]] and [[MLOps]]. AI workloads add GPU pressure
 and large-model serving. They also add distributed training, retrieval-heavy
-applications, and cost-sensitive inference.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+applications, and cost-sensitive inference.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+Use [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
+for ownership tradeoffs across cloud, on-prem systems, and GPU capacity.
 
 Large AI systems stretch the same platform boundary in several directions.
 Training across nodes brings data parallelism and model parallelism into the

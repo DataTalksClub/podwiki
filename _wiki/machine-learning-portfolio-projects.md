@@ -229,6 +229,9 @@ job. Add a Docker setup, CI check, and monitoring sketch. Link that version to
 Also link it to the
 [[Machine Learning Engineer Roadmap]]
 when the project is meant to prove readiness for engineering-heavy roles.
+For data scientists using a production pipeline project as transition evidence,
+connect it to
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 
 ## Recommendation and Ranking Projects
 
@@ -350,6 +353,8 @@ documentation, examples, and contribution guides as part of project stewardship.
 He also includes packaging, tests, and CI. His scikit-lego and Rasa discussion
 shows why small, ecosystem-compatible tools can be stronger evidence than
 unfinished large projects [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+Use [[open-source-ml-contributions=>open-source ML contributions]] for the
+issue, docs, tests, and maintainer-etiquette mechanics behind that route.
 
 This route fits candidates who want public collaboration evidence. Link issues,
 pull requests, examples, or docs work to a clear user problem. For more detail
