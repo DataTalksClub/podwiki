@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11890
+    "links": 11885
   },
   "nodes": [
     {
@@ -8887,7 +8887,7 @@
       "title": "Apache Iceberg",
       "url": "/wiki/apache-iceberg/",
       "count": 1,
-      "search": "Apache Iceberg How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and Delta Lake comparisons."
+      "search": "Apache Iceberg How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and platform operations."
     },
     {
       "id": "wiki:applied-research",
@@ -9127,7 +9127,7 @@
       "title": "Data Activation",
       "url": "/wiki/data-activation/",
       "count": 1,
-      "search": "Data Activation How podcast discussions describe data activation as moving trusted product and customer data into operational tools and decision workflows."
+      "search": "Data Activation Data activation as the business work of turning trusted product and customer data into operational workflows."
     },
     {
       "id": "wiki:data-ai-conference-building",
@@ -9520,7 +9520,7 @@
       "title": "Delta Lake",
       "url": "/wiki/delta-lake/",
       "count": 1,
-      "search": "Delta Lake How podcast discussions place Delta Lake in lakehouse table format choices beside Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
+      "search": "Delta Lake How podcast discussions place Delta Lake in lakehouse table format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
     },
     {
       "id": "wiki:developer-experience",
@@ -9630,7 +9630,7 @@
       "title": "Event Tracking",
       "url": "/wiki/event-tracking/",
       "count": 1,
-      "search": "Event Tracking How DataTalks.Club guests describe product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
+      "search": "Event Tracking Product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
     },
     {
       "id": "wiki:evolutionary-algorithms",
@@ -10461,7 +10461,7 @@
       "title": "Reverse ETL",
       "url": "/wiki/reverse-etl/",
       "count": 1,
-      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
+      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as the warehouse to operational tools sync pattern for modeled customer, account, and product data."
     },
     {
       "id": "wiki:rfm-analysis",
@@ -10692,7 +10692,7 @@
       "title": "Tracking Plans",
       "url": "/wiki/tracking-plans/",
       "count": 1,
-      "search": "Tracking Plans How the podcast archive frames tracking plans as shared event instrumentation rules for product, growth, analytics, and engineering teams."
+      "search": "Tracking Plans How the podcast archive frames tracking plans as the schema, contract, and governance artifact for product event instrumentation."
     },
     {
       "id": "wiki:vector-databases",
@@ -27136,12 +27136,6 @@
     },
     {
       "source": "wiki:apache-iceberg",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-iceberg",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -27205,12 +27199,6 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:dbt",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:apache-iceberg",
@@ -48181,12 +48169,6 @@
       "target": "wiki:duckdb",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -70720,12 +70702,6 @@
     },
     {
       "source": "wiki:orchestration",
-      "target": "wiki:data-engineering-tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:orchestration",
       "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -70763,12 +70739,6 @@
     {
       "source": "wiki:orchestration",
       "target": "wiki:dbt",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:orchestration",
-      "target": "wiki:elt",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Delta Lake"
-summary: "How podcast discussions place Delta Lake in lakehouse table-format choices beside Iceberg, Hudi, DuckDB, DataOps, data lakes, and governance."
+summary: "How podcast discussions place Delta Lake in lakehouse table-format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
 related:
   - Apache Iceberg
   - Delta Lake vs Apache Iceberg
@@ -14,23 +14,18 @@ related:
   - Data Governance
 ---
 
-Delta Lake appears in DataTalks.Club podcast discussions as an open lakehouse
-table format, not as a complete architecture. It sits above files in a
-[[data lake]] and gives teams table
-behavior on open storage. The surrounding
-[[data-engineering-platforms=>data engineering platform]]
-still owns compute and catalogs. It also owns access, lineage, orchestration,
-and cost.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Delta Lake is a lakehouse table format. In the podcast discussions, Delta
+appears as a table layer above files in a [[data lake]]. Its clearest operating
+example covers Spark versioning and recovery.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
-[[Apache Iceberg]] is a table format over Parquet storage, and storage and
-compute separate from access, metadata, and lineage. DLT already serves headless
-Delta Lake and is working on similar Iceberg support. Delta Lake, Hudi, and
-Iceberg appear as related table-format
-options.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+A [[data-engineering-platforms=>platform]] around Delta Lake still owns compute
+and catalogs. It also owns access, lineage, orchestration, and cost.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
-Architecture decisions belong in [[Data Warehouse vs Data Lakehouse]]. The
-direct format comparison is [[Delta Lake vs Apache Iceberg]]. Delta Lake
-evidence stays here, while [[Data Lake]] covers the broader storage definition.
+Use [[Data Warehouse vs Data Lakehouse]] for the architecture question and
+[[Delta Lake vs Apache Iceberg]] for the direct table-format comparison with
+[[Apache Iceberg]].
 
 ## Lakehouse Table Layer
 
@@ -62,37 +57,27 @@ Delta Lake can hold the table state for that layer. It doesn't replace
 [[analytics-engineering=>analytics engineering]], or the ownership work around
 consumer-facing datasets.
 
-## Delta Lake, Hudi, and Iceberg
+## Adjacent Table Formats
 
-Delta Lake isn't a default choice. Buying a packaged
-[[modern data stack]] without
-decomposing its layers is a mistake, and tool selection should be
-requirements-led.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Adrian Brudaru places Delta Lake, Hudi, and Iceberg in the same lakehouse
+table-format family. In that comparison, Delta is the mature option. Hudi is
+more specialized, and Iceberg gets more attention for vendor lock-in and catalog
+work.
+[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
+For side-by-side selection, compare Delta Lake with Iceberg in
+[[Delta Lake vs Apache Iceberg]].
 
-That logic also applies to the Delta/Hudi/Iceberg comparison. Choose the table
-format after the team names its storage and compute constraints. Catalog,
-governance, and cost constraints belong in the same decision.
+The [[Apache Iceberg]] page has the deeper table-format evidence because
+Iceberg adoption is named as a 2025 trend. The same discussion describes
+Iceberg over Parquet and ties it to reduced vendor lock-in.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
-Adrian Brudaru places Delta, Hudi, and Iceberg in the same family, but not in
-the same niche. In that comparison, Delta is the mature option. Hudi is more
-specialized, and Iceberg gets more attention for vendor lock-in and catalog
-work.[[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
-That keeps [[Delta Lake vs Apache Iceberg]] focused on requirements instead of
-format branding.
-
-The DataTalks.Club material gives deeper coverage to
-[[Apache Iceberg]] than to Delta
-Lake. Iceberg adoption is named as a 2025 trend. The same discussion describes
-Iceberg over Parquet and ties it to reduced vendor
-lock-in.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-Delta Lake appears beside Iceberg through DLT support and the Delta/Hudi/Iceberg
-comparison, where Delta is the most mature of the three options.
-
-That distinction matters for reuse across the wiki. Claims about open storage,
-catalogs, metadata, and lock-in should usually point readers to the
-[[apache-iceberg=>Iceberg page]]. Claims about
-Delta Lake should stay tied to tool support, Spark-oriented versioning, and
-existing Delta-oriented lakehouse environments.
+Delta Lake appears beside Iceberg through DLT support and the
+Delta/Hudi/Iceberg comparison, where Delta is the mature option. Claims about
+open storage, catalogs, metadata, and lock-in usually belong on the
+[[apache-iceberg=>Iceberg page]] or [[Delta Lake vs Apache Iceberg]]. Delta
+Lake claims here should stay tied to tool support, Spark-oriented versioning,
+and existing Delta-oriented lakehouse environments.
 
 ## Spark Versioning and Historical Reruns
 
@@ -159,13 +144,18 @@ sits:
 - documentation
 - consumer access
 
-For Delta Lake specifically, the grounded checks are concrete:
-
-- Name the engines that need to read and write the same tables.
-- Choose the catalog that will hold metadata and lineage.
-- Confirm whether ingestion or platform tooling already expects Delta tables.
-- Compare the requirement with Iceberg's open-storage and lock-in story.
-- Assign ownership for governance, tests, documentation, and table operation.
-
 Those checks keep Delta Lake inside the lakehouse platform discussion instead
-of turning it into a generic data architecture label.
+of turning it into a generic data architecture label. The side-by-side
+selection checks belong in [[Delta Lake vs Apache Iceberg]].
+
+## Related Pages
+
+Continue with these adjacent topics:
+
+- [[Delta Lake vs Apache Iceberg]]
+- [[Apache Iceberg]]
+- [[Data Lake]]
+- [[Data Warehouse vs Data Lakehouse]]
+- [[Data Engineering Platforms]]
+- [[DataOps]]
+- [[DuckDB]]

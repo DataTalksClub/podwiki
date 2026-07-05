@@ -17,107 +17,52 @@ related_wiki:
   - Search and RAG Project Checklist
 ---
 
-Graph RAG and vector RAG choose grounding context for an LLM in different ways.
-Choose between them after the system already needs
-[[retrieval-augmented-generation=>retrieval-augmented generation]]. The prompt
-can receive semantically similar passages, graph relationships, or both.
+Graph RAG and vector RAG make different context-packaging choices for an LLM.
+Use this comparison after the system already needs
+[[retrieval-augmented-generation=>retrieval-augmented generation]] and you have
+to decide what evidence the prompt should receive. The prompt may need
+semantically matched passages or modeled relationships. It may also need graph
+paths, validated facts, or a bundle that combines them.
 
-Vector RAG retrieves semantically similar text or records with [[embeddings]]
-and often a [[vector-databases=>vector database]]. Graph RAG retrieves entities
-and typed relationships before the model writes an answer. It can also retrieve
-paths, neighborhoods, or structured facts.
-
-Compare graph RAG and vector RAG inside the broader [[Search]] stack.
-
-Use [[retrieval-augmented-generation=>RAG]] for implementation mechanics and
-[[Knowledge Graph vs Vector Search]] for the lower-level storage and retrieval
-comparison. At the lower layer, compare how graphs and vectors retrieve
-information before generation. Here, compare how that retrieved information
-becomes LLM context.
-Choose whether the LLM receives matching passages, modeled relationships, or
-both.
+Vector RAG usually packages text chunks or records retrieved through
+[[embeddings]] and, often, a [[vector-databases=>vector database]]. Graph RAG
+packages entities and typed relationships. It can also package neighborhoods,
+paths, or query results before the model writes an answer.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
-Vector RAG shows up in transcript chunking and embedding retrieval. Prompt
-instructions and citations keep answers tied to those chunks
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+For storage, indexing, and query design, use [[Knowledge Graph vs Vector Search]].
+The lower layer asks whether the retrieval substrate should store vectors, graph
+relations, or both. Here, compare what retrieved material enters the prompt and
+which answer failure that context prevents.
 
-Graph RAG centers entities and relationships. It can also preserve containment
-and Cypher-style graph context
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
+Use vector RAG when the LLM mainly needs the right passage, record, and citation.
+Use graph RAG when the answer depends on relationships, paths, or traceable
+facts. It also fits hierarchy and constraints. Use hybrid RAG when semantic
+candidate search and structured context both have to reach the prompt.
 
-In production search, teams also have to account for filters and recency.
-Ranking and vector similarity push retrieval toward hybrid search
-[[cite:building-production-search-systems=>Building Search Systems]].
+## Context Unit Drives the Prompt
 
-Use vector RAG when the missing context is usually the right passage or record.
-Use graph RAG when the missing context is a relationship, path, hierarchy, or
-validated fact. Use hybrid retrieval when the answer needs both semantic
-candidate search and structured context.
-
-## Retrieval Unit Drives the Difference
-
-The practical contrast starts with the retrieval unit. Vector RAG embeds a query
-and places nearby chunks or records into the prompt. That makes [[embeddings]]
-and [[vector databases]] central to the implementation. Teams still need
-chunking, metadata, citations, and evaluation.
+Vector RAG gives the answer generator nearby chunks or records. In the
+transcript-chatbot example, the system chunks transcripts and chooses overlap.
+It embeds each chunk, retrieves relevant pieces, and asks the LLM to answer with
+prompt instructions and citations.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-In a transcript-chatbot pipeline, the system chunks transcripts and chooses
-overlap. It embeds the chunks, retrieves relevant pieces, and asks the LLM to
-answer with prompt instructions and citations.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+Teams then treat chunk boundaries and source metadata as part of the RAG design.
+They also tune retrieval count and references. The LLM needs readable context,
+and people checking citations need inspectable evidence.
 
-Graph RAG starts from modeled relationships. Teams can retrieve entities and
-edges, then expand to paths, neighborhoods, or query results. The LLM receives
-that structured context.
-
-A graph can preserve chapters and containment. It can also preserve
-parent-child links, entities, and domain relations. Cypher-style graph queries
-can become part of the prompt context.
+Graph RAG gives the answer generator structured context, and a graph can
+preserve chapters and containment. It can also preserve parent-child links,
+entities, and domain relations. Cypher-style graph queries can become prompt
+context instead of remaining only a retrieval step.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
-Both approaches retrieve evidence before generation to reduce unsupported
-answers. Vector RAG retrieves semantically similar chunks or objects. Graph RAG
-retrieves explicit entities and relations. It can also retrieve paths,
-neighborhoods, and facts.
-
-## Text Similarity, Relationships, or Both
-
-The vector-RAG framing starts from user-facing retrieval quality. Chunk size,
-overlap, embedding models, and retrieval count all affect whether the answer is
-useful and grounded. Prompt context, references, offline checks, and
-human-in-the-loop evaluation matter too.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-
-That view fits transcript search, support knowledge bases, and documentation
-assistants. In those text-heavy systems, choose vector RAG first when the
-system misses the right passage or ranks a weak passage too highly. It also
-fits when the retriever loses enough nearby text that the LLM can't cite the
-answer.
-
-The graph-RAG framing starts from semantics and trust, so automotive R&D examples
-need relationships between simulations and chapters. They also need links across
-reports, parts, and engineering concepts. Knowledge graphs support semantic
-reporting, simulation comparison, clustering, and load-path detection. Teams
-still need to verify graph content extracted by an LLM, so graph RAG adds
-modeling and validation work instead of removing trust problems.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
-
-Choose graph RAG when the answer fails because the system loses relationships,
-order, constraints, or traceable facts.
-
-Production-search discussions add a third pressure: relevance in a product.
-Vector similarity often has to work with filters, recency, and popularity.
-Metadata, behavior, and query-time weights matter too. That doesn't make the
-system graph RAG, but it pushes teams away from a single nearest-neighbor lookup
-and toward hybrid retrieval.
-[[cite:building-production-search-systems=>Building Search Systems]]
-Use the
-[[Search and RAG Project Checklist]]
-when this boundary becomes an implementation decision rather than a concept
-choice.
+Compare the evidence the model sees. Vector RAG sends matching passages or
+records, while graph RAG sends explicit relations and paths. It can also send
+neighborhoods or facts. Both still retrieve evidence before generation to reduce
+unsupported answers.
 
 ## Vector RAG Fits Fuzzy Text Retrieval
 
@@ -128,13 +73,14 @@ The transcript-chatbot example retrieves by semantic similarity and then asks
 the LLM to answer from those chunks.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-Embeddings alone aren't enough because vector RAG quality depends on chunk
-boundaries and overlap. It also depends on source metadata, citation behavior,
-and retrieval evaluation. Prompt design and references matter because the answer
-has to stay attached to the retrieved evidence. Evaluation spans embedding
-choice and ingestion, and it also spans retrieval strategy, answer quality, and
-user feedback. That makes [[LLM evaluation workflows]] as important as vector
-storage.
+Embeddings alone aren't enough because the prompt can only cite and explain the
+evidence it receives. Vector RAG quality depends on chunk boundaries, overlap,
+and source metadata. It also depends on citation behavior and retrieval
+evaluation.
+
+Evaluation spans embedding choice and ingestion. It also spans
+retrieval strategy, answer quality, and user feedback. That makes
+[[LLM evaluation workflows]] as important as vector storage.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 The failure mode is usually passage quality. Broad chunks can make the answer
@@ -163,17 +109,19 @@ retrieval context.
 
 ## Hybrid Retrieval Fits Mixed Failure Modes
 
-Start with the failure mode. If the system misses semantically related
+Start with the answer failure. If the prompt lacks semantically related
 passages, improve vector retrieval and chunking. Then check embeddings,
-reranking, and metadata filters. If it loses entity relationships or order, add
-graph modeling or graph lookup. Do the same when it loses constraints, lineage,
-or provenance.
+reranking, and metadata filters. If the prompt lacks relationships or order, add
+graph lookup or graph-derived context. Do the same when it lacks constraints,
+lineage, or provenance.
 
-If it returns plausible but irrelevant results, add filters and ranking
-weights. Recency and popularity can become retrieval signals too.
+Sometimes the system returns context that looks plausible but irrelevant. In
+that case, add ranking weights or filters. Recency can become a retrieval signal
+too.
 [[cite:building-production-search-systems=>Building Search Systems]]
 [[Vector Database vs Search Engine]]
-covers that lower-level retrieval-stack boundary.
+covers that lower-level retrieval-stack boundary. [[Knowledge Graph vs Vector Search]]
+compares vector and graph retrieval substrates directly.
 
 A hybrid RAG system uses both for different jobs. Vector search finds candidate
 documents or records, and graph traversal adds related entities. It can also add
@@ -189,13 +137,13 @@ for the wider retrieval architecture. Use
 [[Knowledge Graph vs Vector Search]]
 for the storage and retrieval layers behind the RAG choice.
 
-## Context Packaging Changes the Prompt
+## Prompt Contents Set the Boundary
 
-In vector RAG, teams package passages and records. They can package objects
-too, and they often retrieve a text chunk with source metadata. Vectors can
-represent products, users, images, or sessions when the embedding model captures
-useful signals. For LLM answers, teams still need to package readable evidence
-and citations.
+In vector RAG, teams package passages and records. They can package objects too,
+and they often retrieve a text chunk with source metadata. Vectors can represent
+products, users, images, or sessions when the embedding model captures useful
+signals. For LLM answers, teams still need to package readable evidence and
+citations.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 Graph RAG packages relationships as retrieval context. Teams retrieve nodes and
@@ -212,13 +160,13 @@ the prompt contains enough relevant, inspectable evidence. The
 [[Search and RAG Project Checklist]]
 turns that requirement into retrieval, citation, and evaluation checks.
 
-## Evaluate the Retrieval Failure
+## Evaluate the Prompt Failure
 
-Graph RAG and vector RAG should be evaluated against different mistakes. For
-vector RAG, look at whether the retrieved chunks contain enough evidence and
+Graph RAG and vector RAG should be evaluated against different prompt failures.
+For vector RAG, check whether the retrieved chunks contain enough evidence and
 useful overlap. Also check whether they cite the right source and answer
-representative questions. Vector-RAG evaluation separates embedding choice,
-ingestion, and retrieval strategy. It also separates answer quality and
+representative questions. Vector-RAG evaluation separates embedding choice and
+ingestion from retrieval strategy. It also separates answer quality from
 end-to-end user feedback.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
@@ -229,7 +177,7 @@ retrieval layer.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
 Production search adds product-level evaluation. Candidate generation,
-hybrid-search design, and filters affect whether retrieval works in a product.
+hybrid-search design, and filters affect which context reaches the prompt.
 Ranking quality, latency, and user behavior matter too. A plausible
 nearest-neighbor result isn't enough.
 [[cite:building-production-search-systems=>Building Search Systems]]

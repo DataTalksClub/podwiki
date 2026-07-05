@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Apache Iceberg"
-summary: "How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and Delta Lake comparisons."
+summary: "How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and platform operations."
 related:
   - Data Engineering Platforms
   - Data Lake
@@ -14,19 +14,19 @@ related:
   - Data Governance
 ---
 
-Apache Iceberg is an open table format for lakehouse-style storage. It sits
-above Parquet files and below query engines. That separates storage and compute
-from access, metadata, and lineage.
+Apache Iceberg is an open table format for lakehouse-style storage. In the
+podcast discussions, Iceberg sits above Parquet files and below query engines.
+That puts table metadata between raw lake storage and the systems that read or
+write the data.
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
 
-That makes Iceberg a [[data-engineering-platforms=>data engineering platform]]
-choice, not only a storage choice. Use [[Data Lake]] for the broader storage
-model and [[Data Warehouse vs Data Lakehouse]] for the architecture tradeoff.
-Use [[Delta Lake]] for the adjacent table format and [[Modern Data Stack]] for
-the warehouse-centered ELT stack Iceberg is often compared against. Use
-[[Delta Lake vs Apache Iceberg]] when the question is table-format selection
-rather than the Iceberg concept.
+Iceberg belongs in [[data-engineering-platforms=>data engineering platform]]
+design because catalogs, access rules, metadata, and lineage sit around the
+table format. Use [[Data Lake]] for the storage model and
+[[Data Warehouse vs Data Lakehouse]] for the architecture tradeoff. When the
+question is whether Iceberg or [[Delta Lake]] fits a platform requirement
+better, use [[Delta Lake vs Apache Iceberg]].
 
 ## Table Format Role
 
@@ -96,19 +96,14 @@ Data lakes can become data swamps when ownership and governance are weak.
 Iceberg can make files behave like tables. The team still has to own quality,
 access, and discoverability around those tables.
 
-## Delta Lake, Hudi, and Requirements
+## Adjacent Table Formats
 
-Iceberg appears beside [[Delta Lake]] and Hudi in the table-format comparison.
-The useful comparison isn't a file-layout checklist. Teams compare the engines
-that need table access. They also compare metadata placement, catalog design,
-and lock-in tolerance.
+Iceberg appears beside [[Delta Lake]] and Hudi in Adrian Brudaru's
+table-format discussion.
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]]
-
-Iceberg is the option with the clearest open-storage and lock-in-sensitive
-treatment in the podcast discussions. Delta Lake remains the adjacent
-table-format topic, and [[Delta Lake vs Apache Iceberg]] covers that comparison
-directly. Keep the choice tied to the platform requirement rather than the name
-of the format.
+For Iceberg, the distinct issue is the open-storage and catalog boundary. When
+the work requires side-by-side format selection, compare it with Delta Lake in
+[[Delta Lake vs Apache Iceberg]].
 
 ## DLT, DuckDB, and Headless Tables
 
@@ -126,20 +121,15 @@ Actions. Workflow engines also belong inside scalable platform architecture.
 Iceberg can keep tables open, but [[orchestration]] still has to cover loading
 and transformation plus testing and recovery.
 
-## Platform Fit
+## Operating Fit
 
-Iceberg is easiest to justify when open storage is an explicit requirement. It
-also fits when teams need shared engine access or lock-in reduction. It's harder
-to justify when [[analytics engineering]], [[dbt]], and warehouse-side
-[[ETL vs ELT]] work may solve the actual bottleneck.
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-
-Weak governance raises Iceberg risk because data lakes still need ownership and
-cleanup. Scalable platforms need storage and compute plus workflow engines with
-lineage and versioning.
+Iceberg works best when the team can operate the platform around it. Weak
+governance raises the risk because data lakes still need ownership and cleanup.
+Scalable platforms need storage and compute plus workflow engines with lineage
+and versioning.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Teams should move the table-format decision with those operating choices instead
-of ahead of them.
+Teams should plan those operating choices with the table format instead of
+treating Iceberg as a storage-only change.
 
 Iceberg belongs beside [[DataOps]] and [[Modern Data Stack]], and it also belongs
 beside [[Data Engineering Platforms]]. It changes where table metadata lives and

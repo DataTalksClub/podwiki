@@ -19,10 +19,9 @@ related_wiki:
 ---
 
 Delta Lake and Apache Iceberg are both lakehouse table-format choices. The
-useful question isn't "which one is better?" It's which table format fits the
-team's platform constraints. Those constraints include storage and compute.
-They also include catalog design, governance, and the engines that read and
-write the data.
+team should start with platform constraints instead of asking "which one is
+better?" Compare storage and compute, catalog and governance, and the engines
+that read and write the data.
 
 [[Apache Iceberg]] has the stronger direct treatment. It appears as a table
 format above Parquet storage, with storage and compute separated from access,
@@ -36,11 +35,11 @@ auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data S
 Use [[Data Warehouse vs Data Lakehouse]] when the real decision is
 warehouse-centered analytics versus open lakehouse storage.
 
-Use this comparison after a team has chosen a lakehouse-style table layer. Use
-the Delta Lake and Iceberg concept pages for format-specific evidence, and use
+Compare the formats after a team has chosen a lakehouse-style table layer. Use
+[[Delta Lake]] and [[Apache Iceberg]] for format-specific context, and use
 [[Data Lake]] for the raw-storage boundary.
 
-## Short Comparison
+## Choice Boundary
 
 Both formats try to make [[Data Lake]] storage behave more like reliable
 tables. That means the team wants more than loose files. It wants table
@@ -57,15 +56,15 @@ comparison. That comparison treats Delta as the most mature of the three options
 
 The same comparison keeps Hudi in view as a third lakehouse table-format
 option. Adrian Brudaru describes Hudi as more specialized, while Iceberg gets
-the strongest treatment around catalogs, open storage, and lock-in. The page's
+the strongest treatment around catalogs, open storage, and lock-in. The
 practical evidence is strongest for Iceberg and Delta.
 The concrete Delta-side use case is version-aware data for reprocessing and
 auditing [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 Those episodes support a practical comparison, but not a deep feature matrix.
 
-For this archive, the safest Delta/Hudi/Iceberg distinction is operating fit.
-Delta is treated as the most mature option, Hudi as more specialized, and
-Iceberg as the stronger open-catalog and lock-in-reduction story
+Across these podcast discussions, the safest Delta/Hudi/Iceberg distinction is
+operating fit. Delta is treated as the mature option, Hudi as more specialized,
+and Iceberg as the stronger open-catalog and lock-in-reduction story
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
 
 ## Iceberg Fit
@@ -159,7 +158,7 @@ choice. Workflow engines also belong inside scalable platform architecture
 A table format is easier to justify when the workflow and compute layers can
 support it repeatedly.
 
-## Decision Checklist
+## Decision Checks
 
 Start with the platform requirement, not the table-format name.
 
