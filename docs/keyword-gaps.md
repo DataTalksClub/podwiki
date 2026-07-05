@@ -12,9 +12,9 @@ How to act on this (see CONTENT_GUIDE.md):
 
 ## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 224
 
-## COVERED — Already covered by a podwiki wiki page: 127
+## COVERED — Already covered by a podwiki wiki page: 128
 
-## MAIN — Owned by the main website — do NOT duplicate here: 314
+## MAIN — Owned by the main website — do NOT duplicate here: 313
 
 ## BRAND — Branded/navigational — main site owns: 113
 
