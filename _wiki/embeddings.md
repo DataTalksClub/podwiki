@@ -13,6 +13,9 @@ related:
 Embeddings are numerical representations of text and images, users and products,
 or other objects. They let a system compare meaning or behavior by distance in a
 shared vector space instead of comparing only exact words or hand-written rules.
+The representation concept includes what gets embedded and how systems use the
+resulting vector. It also includes what can go wrong when the representation
+doesn't preserve the distinctions the task needs.
 
 Embeddings sit behind
 [[search]] and
@@ -26,7 +29,9 @@ weak-supervision workflows and production
 [[machine-learning-system-design=>ML systems]],
 they're a representation layer, not the whole product. Embedding generation
 stays separate from storage and ranking, and from evaluation, citations, and
-business logic.
+business logic. For the retrieval-method choice, use
+[[Vector Search vs Keyword Search]]. For the infrastructure boundary, use
+[[Vector Database vs Search Engine]].
 
 ## Representation Space
 
@@ -62,13 +67,12 @@ style, a boundary expanded in
 ## Semantic Search
 
 Keyword matching can be too brittle when users express the same intent with
-different language
+different language. Search teams may then use vector search as a semantic
+candidate-generation method
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
-Vector search matches queries and documents through shared representations,
-which keeps embeddings inside the larger
-[[information retrieval]]
-system. Vector search changes candidate generation, but it doesn't replace
-[[search-relevance=>search relevance]] work or ranking.
+Embeddings provide the shared representation that makes that method possible,
+while [[Vector Search vs Keyword Search]] owns the lexical-versus-semantic
+retrieval comparison.
 
 Candidate generation is separate from ML ranking
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
@@ -76,14 +80,14 @@ A vector match finds plausible candidates, but the product still decides which
 result belongs first and trades semantic similarity against freshness and
 popularity.
 
-Metadata, behavior, query-time weights, and business rules also matter. Filters
+Metadata, behavior, query-time weights, and business rules still matter. Filters
 and recency make embeddings one signal inside
 [[production search evaluation]],
 not a substitute for product ranking
 ([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
 
-The architecture choice is explicit: plug-and-play vector search versus vector
-support inside existing search systems
+The architecture choice is separate from the representation choice:
+plug-and-play vector search versus vector support inside existing search systems
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 That decision is the same boundary covered in
 [[Vector Database vs Search Engine]].

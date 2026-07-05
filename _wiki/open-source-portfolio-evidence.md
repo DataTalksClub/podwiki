@@ -30,10 +30,12 @@ Jeff Katz connects open-source projects to hiring because review pressure can
 expose Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
-Use [[Contributing]] for the contribution taxonomy, the
-[[Open Source Contributor Roadmap]] for sequence, and
-[[open-source-ml-contributions=>open-source ML contributions]] for ML-tool
-mechanics.
+
+Start after the contribution exists. [[Contributing]] covers the contribution
+taxonomy, [[Open Source Contributor Roadmap]] covers sequence, and
+[[open-source-ml-contributions=>open-source ML contributions]] covers ML-tool
+mechanics. Portfolio evidence focuses on what a reviewer can click, verify, and
+map to a role. [[Open Source]] covers the broader community and tooling concept.
 
 ## Evaluator Trail
 
@@ -152,8 +154,8 @@ El-Ateif describes teams that sourced data, built prototypes, prepared
 dashboards, and used mentor feedback to structure deliverables
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@16:05=>Volunteer data sourcing]]
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth@31:11=>Hackathon deliverables]].
-Use [[Volunteer Data Engineering Projects]] when the portfolio question centers
-on volunteer, nonprofit, or open-source data work.
+[[Volunteer Data Engineering Projects]] covers portfolios centered on volunteer,
+nonprofit, or open-source data work.
 
 ## Presenting the Work
 

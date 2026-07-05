@@ -17,8 +17,8 @@ Teams use data engineering tools to move data from source systems into trusted
 analytics and operations. They also use them for machine learning work.
 Engineers evaluate movement, scheduling, storage, and transformation choices.
 They also evaluate quality, governance, activation, and operational cost. Use
-[[Modern Data Stack]] for the architecture and how those pieces compose into a
-warehouse-centered or lakehouse-centered stack.
+[[Modern Data Stack]] for the architecture and how those categories compose
+around warehouse-centered analytics.
 
 Instead of asking "which modern data stack tools should we buy?", ask which
 data flow must become reliable, who depends on it, and which operating surface
@@ -119,12 +119,10 @@ later
 Teams can compare dlt with managed connectors in [[ETL vs ELT]] decisions,
 while developers can adopt it as a library.
 
-The [[ETL vs ELT]] choice shapes the
-rest of the stack. ETL transforms before loading, which can fit compliance,
-source constraints, or large enterprise staging needs. ELT loads first and
-transforms later, which gives analysts and analytics engineers more room to
-model in SQL. ELT also supports flexibility, warehouse-side transformations,
-and faster iteration.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+The [[ETL vs ELT]] choice shapes which ingestion and transformation tools a
+team selects. [[Modern Data Stack]] covers the architecture that puts raw
+loading, warehouse-side modeling, and orchestration into one stack.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Product event ingestion adds a tracking plan. Event naming, properties,
 ownership, and collection come before storage and activation. For product data,
@@ -172,9 +170,10 @@ operating layer.
 Storage tools are the biggest selection surface because they set the cost,
 governance, query, and interoperability constraints for everything downstream.
 Warehouses fit governed SQL analytics, BI, marts, and warehouse-side
-transformation. Many analytics-heavy teams load raw data, transform it into
-documented models, and serve BI or operational syncs from trusted
-tables.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+transformation. [[Modern Data Stack]] covers the warehouse-centered
+architecture. Tool selection still depends on whether the storage engine,
+catalog, and compute model fit the team and workload.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Lakes fit raw files, logs, media, and semi-structured data. If teams skip
 governance, the same storage design can become a data swamp. To prevent that,
@@ -205,8 +204,8 @@ means SQL transformations in the warehouse or lakehouse.
 
 The [[Modern Data Stack]] page covers how transformation fits into the
 warehouse-centered architecture. Engineers should treat transformation as a tool
-surface. The selection questions are ownership and review. They also include
-model tests and reuse across BI, activation, and ML consumers.
+surface here. The selection questions are ownership and review. They also
+include model tests and reuse across BI, activation, and ML consumers.
 
 ELT connects dbt to the rise of the analytics engineer.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 Analytics engineering work includes data modeling and pipelines. It also covers
@@ -264,13 +263,11 @@ support systems. They also feed marketing, engagement, and product tools. This
 category turns analysis into action, but it also turns analytics definitions
 into operational dependencies.
 
-Activation stacks often connect warehouses and dbt to BI, product analytics,
-and reverse ETL.
-They also connect modeled data to reverse ETL products such as Census,
-Hightouch, and Grouparoo.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
-
-Customer data platforms, warehouse-first stacks, buy-vs-build tradeoffs, and
-the team roles around data-led growth sit in the same tool decision.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+[[Modern Data Stack]] covers the activation layer in a warehouse-centered
+architecture. For tool selection, compare ownership and latency needs first.
+Then check identity and permission constraints before choosing a reverse ETL
+product, customer data platform, or custom sync.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Teams add reverse ETL when sales, support, marketing, or product teams need
 trusted segments inside their tools. They may also need lifecycle signals,
@@ -313,7 +310,7 @@ Start with the business use case, then choose the tools.
    before adding specialized tools.
 
 The sequence starts with SQL and Python, then adds cloud basics and
-orchestration. Use [[ETL vs ELT]] to map the data movement clearly.
+orchestration. [[ETL vs ELT]] maps the data movement boundary.
 [[cite:data-engineering-career-path-and-skills=>Data Engineering Career]]
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 

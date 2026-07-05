@@ -31,7 +31,8 @@ Choose the infrastructure boundary by deciding which service stores vectors,
 applies filters, serves candidates, and passes results to ranking. [[Vector
 Databases]] covers storage and approximate-nearest-neighbor indexing, while
 [[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
-retrieval methods.
+retrieval methods. [[Embeddings]] covers the representation layer that creates
+the vectors before either infrastructure path stores or searches them.
 
 Modern search migration often starts with existing information retrieval
 infrastructure and adds vector support beside it

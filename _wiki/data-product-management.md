@@ -204,7 +204,9 @@ resistant stakeholder first.
 The [[Data Product Manager Roadmap]] uses these responsibilities as a learning
 path. The [[Data Product Manager]] guide focuses on the role, including
 discovery and metrics. It also covers technical literacy, roadmaps, adoption,
-and portfolio evidence.
+and portfolio evidence. The [[Data Product Owner vs Data Product Manager]]
+comparison owns the title boundary between release-quality accountability and
+product direction.
 
 ## Metrics and Experiments
 

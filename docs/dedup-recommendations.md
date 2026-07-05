@@ -104,6 +104,15 @@ tails after the pass. The remaining ML infrastructure versus ML platforms hit is
 still a distinct-intent pair: infrastructure owns workload components and
 constraints, while platforms own the shared internal product surface.
 
+Fifth pass (2026-07-05) tightened data-engineering tools versus modern data
+stack, data-product-manager versus owner comparison, data-scientist interview
+prep versus roadmap, embeddings versus vector-search comparison, and open-source
+concept versus contributor roadmap. The pass kept these as distinct intents:
+tool selection versus architecture composition, role hub versus title-boundary
+comparison, round expectations versus preparation sequence, representation
+concept versus retrieval-method comparison, and concept/community hub versus
+staged contribution path.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

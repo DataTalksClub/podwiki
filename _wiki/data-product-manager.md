@@ -19,13 +19,15 @@ will use the product and which decision it supports. They also ask what trust
 guarantees it needs and how the team will know it worked.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
-The role belongs inside [[Data Product Management]]. Work starts with customer
-discovery and problem framing, then continues through delivery, adoption, and
+For the data product manager role definition, start with this role hub.
+[[Data Product Management]] covers the broader practice across teams, from
+customer discovery and problem framing through delivery, adoption, and
 measurement. [[Data Products]] explains the product concept, and
 [[Data Product Adoption]] explains the post-launch adoption problem. For title
 boundaries, use [[Data Product Manager vs Product Manager]] for the general-PM
-comparison and [[Data Product Owner vs Data Product Manager]] for
-owner-versus-manager accountability.
+comparison and
+[[Data Product Owner vs Data Product Manager]] for owner-versus-manager
+accountability.
 
 ## Role Responsibilities
 
@@ -61,7 +63,7 @@ Internal platform work follows the same product sequence. An ML platform PM
 owns roadmap direction, specifications, and user feedback. They also prioritize
 backlog work for data scientists, analysts, engineers, or business users.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
-Use [[ML Product Manager Role]] when the product depends on model lifecycle,
+[[ML Product Manager Role]] covers products that depend on model lifecycle,
 observability, or release-governance decisions.
 
 Metrics need to prove a changed decision or workflow, not only a shipped data
@@ -99,8 +101,10 @@ Titles vary by company.[[cite:building-data-products-product-owner-vs-product-ma
 [[Data Product Manager vs Product Manager]] compares that role with general
 product management.
 [[Data Product Owner vs Data Product Manager]] separates product direction from
-consumer guarantees and release accountability. Use
-[[Product Owner vs Product Manager]] for the generic title split.
+consumer guarantees and release accountability. Keep owner release calls in that
+comparison. Keep the data product manager's discovery, roadmap, metrics, and
+adoption work in this role hub. [[Product Owner vs Product Manager]] covers the
+generic title split.
 
 ## Missing Role Signals
 

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11897
+    "links": 11896
   },
   "nodes": [
     {
@@ -43484,6 +43484,12 @@
     },
     {
       "source": "wiki:data-scientist-interview",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
       "target": "wiki:hiring",
       "kind": "article-chip",
       "weight": 1
@@ -43574,12 +43580,6 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
-      "target": "podcast:hiring-for-data-science-jobs-interview-questions-skills",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-interview-roadmap",
       "target": "podcast:machine-learning-data-science-interview-prep",
       "kind": "article-chip",
       "weight": 1
@@ -43616,12 +43616,6 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
-      "target": "wiki:data-analyst-role",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-science",
       "kind": "article-chip",
       "weight": 1
@@ -43635,6 +43629,12 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-science-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:data-scientist-cv-and-portfolio",
       "kind": "article-chip",
       "weight": 1
     },
@@ -49454,12 +49454,6 @@
     },
     {
       "source": "wiki:embeddings",
-      "target": "wiki:information-retrieval",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:embeddings",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -49538,12 +49532,6 @@
     },
     {
       "source": "wiki:embeddings",
-      "target": "wiki:search-relevance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:embeddings",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
@@ -49559,6 +49547,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",

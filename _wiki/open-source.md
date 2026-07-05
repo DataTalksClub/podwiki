@@ -67,10 +67,12 @@ Open source also creates public evidence. A contribution can support
 [[data-engineering-portfolio-projects=>data engineering portfolio]]. It can also
 support [[machine learning portfolio projects]].
 
-At the concept level, open source means public software plus the stewardship
-practices around it. [[Open Source Contributor Roadmap]] covers the step-by-step
-path. [[Open Source Portfolio Evidence]] covers hiring evidence, and [[Open
-Source and Developer Relations]] covers adoption work around public projects.
+In this cluster, open source is the concept and community practice around
+public tooling. It also covers company distribution through public projects.
+[[Open Source Contributor Roadmap]] covers the staged contributor path.
+[[Open Source Portfolio Evidence]] covers hiring proof and signaling, and
+[[Open Source and Developer Relations]] covers adoption work around public
+projects.
 
 ## Reusable Project Work
 

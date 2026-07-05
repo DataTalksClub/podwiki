@@ -21,6 +21,12 @@ An open-source contributor roadmap should start with useful work that a
 maintainer can review. That work may be code, docs, or tests. It can also be a
 reproducible issue, a demo, a forum answer, or a tutorial.
 
+The staged path runs from first contribution to maintainer-aware work. For the
+broader concept, community, and tooling lenses, start with [[Open Source]].
+That hub also covers governance and company distribution. Once a contribution
+trail exists, use [[Open Source Portfolio Evidence]] for hiring proof and
+signaling.
+
 Good contribution quality includes documentation, contribution guides, and
 polite interaction with maintainers. Reproducible issues and tests reduce
 maintainer work. CI keeps contributions reviewable by checking packaging and
@@ -39,11 +45,10 @@ tutorials.
 
 ## Start With Reviewable Work
 
-An open-source contributor is someone who helps a public
-project become easier to use and trust. Contributors can also make the project
-easier to explain or maintain. That definition is wider than code commits. It
-includes documentation, examples, onboarding, and support. Demos and community
-feedback count too.
+The first stage is to make one public project easier to use, explain, or
+maintain. Keep the contribution small enough that maintainers can review the
+context and outcome. [[Open Source]] covers the broader community and tooling
+definition. This path focuses on what to do next.
 
 Good-first issues, docs, and non-code work are valid entry points. Spaces demos
 and GitHub work become portfolio signals. Large codebases and PR workflow become
@@ -148,16 +153,19 @@ Demo-first technical content adds a simple standard. Define the goal, build a
 working walkthrough, and keep enough pace for viewers to finish the task
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
-## Package the Contribution Trail
+## Point the Trail to the Right Evidence Page
 
-Open-source work becomes portfolio evidence when an evaluator can see the
-context, review pressure, and result. A merged PR is useful. A clear issue, a
-well-tested rejected PR, or a tutorial that maintainers share can also help.
+This stage ends when the contribution has a clear public trail. An issue, pull
+request, docs page, or demo can provide that trail. A test result, maintainer
+discussion, or support thread can do the same. [[Open Source Portfolio
+Evidence]] covers the detailed hiring package. It explains context, review
+pressure, quality checks, and role signal.
 
-The contribution trail should point back to
-[[Portfolio Projects]] instead of sitting as an unexplained GitHub link. For
-pipeline work, connect it to [[Data Engineering Portfolio Projects]]. For model
-or ML-tool work, connect it to [[Machine Learning Portfolio Projects]].
+The trail should still connect to a broader project story instead of sitting as
+an unexplained GitHub link. For pipeline work, connect it to
+[[Data Engineering Portfolio Projects]]. For model or ML-tool work, connect it
+to [[Machine Learning Portfolio Projects]]. [[Portfolio Projects]] provides the
+general project frame.
 
 Public progress and corrections make work discoverable. A blog gives those
 updates a stable home

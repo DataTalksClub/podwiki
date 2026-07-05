@@ -19,14 +19,18 @@ related:
 Teams use the modern data stack as an architecture for collecting data and
 loading it into analytical storage. They model it for consumers and keep the
 flow running after the business depends on it. A warehouse-centered [[ELT]]
-stack usually composes ingestion, SQL transformations, [[orchestration]], and
-BI. It may also send modeled data back into business tools.[[cite:data-engineering-tools-modern-data-stack]]
+stack usually composes ingestion and SQL transformations. It also needs
+[[orchestration]] and BI. It may send modeled data back into business tools
+too.[[cite:data-engineering-tools-modern-data-stack]]
 
-Start here for stack composition. Use [[Data Engineering Tools]] for the
-engineer's category-by-category selection surface. Use [[ETL vs ELT]] for the
-transform-before-load versus load-first decision. Use [[ETL]] and [[ELT]] for
-the underlying concepts. Use [[Data Pipelines]] for the broader movement,
-publication, recovery, and reliability lifecycle.
+Stack composition asks which layers exist and how data moves between them. It
+also asks where warehouse-centered analytics changes the operating model.
+
+[[Data Engineering Tools]] covers category-by-category tool selection, while
+[[ETL vs ELT]] covers the transform-before-load versus load-first decision.
+[[ETL]] and [[ELT]] cover the underlying concepts, while
+[[Data Pipelines]] covers movement and publication. It also covers recovery and
+reliability.
 
 This architecture reaches [[data-warehouse=>data warehouses]], [[Data Engineering Tools]],
 and [[DataOps]]. It also reaches [[reverse ETL]] and [[data activation]].
@@ -96,16 +100,12 @@ inside that design.[[cite:modern-data-pipelines-orchestration-ingestion-modeling
 A more skeptical view critiques vendor-packaged modern data stacks and argues
 for requirements-led composition. A team may need a warehouse-first stack, an
 open lakehouse stack, a streaming-heavy stack, or a smaller local-first stack.
-Use [[Modern Data Engineering Trends]] for the current version of that
-requirements-led critique
-[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]].
-
-Open source isn't automatically safer. Airbyte's connector strategy shows an
-upside because community connectors cover long-tail APIs
-[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]].
-Licensing stays a risk when larger cloud providers can host open projects
+[[Modern Data Engineering Trends]] covers the current version of that critique.
+[[Data Engineering Tools]] covers licensing, lock-in, and connector coverage as
+selection risks
+[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
+[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]]
 [[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
-Use [[Data Engineering Tools]] for licensing and lock-in as selection risks.
 
 The same caution applies to enterprise-grade platforms. Teams should move to
 Snowflake or Databricks only when the use case justifies it. Scale and analyst
@@ -164,16 +164,17 @@ warehouse-first modeling, lakehouse table formats, and mixed architectures.
 
 Orchestration coordinates ingestion and transformations when modern stack
 layers operate together. It runs checks, refreshes, backfills, and downstream
-syncs for recovery.
-In warehouse-centered stacks, orchestrators schedule jobs around loading and
-modeling layers. They don't replace those layers
+syncs for recovery. In warehouse-centered stacks, orchestrators schedule jobs
+around loading and modeling layers. They don't replace those layers
 [[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]]
 [[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]].
 
-Workflow authoring isn't the whole data problem. Orchestration sits next to
-Spark and streaming tools such as Kafka and Kinesis. It also sits next to
-feature stores and vector databases. Checks, ownership, and recovery paths sit
-in the broader system too.[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
+Workflow authoring isn't the whole data problem. Modern stacks may also include
+Spark and streaming systems such as Kafka and Kinesis. Some designs add feature
+stores or vector databases. Teams still have to define checks and ownership
+across the layers the use case requires. They also need recovery paths.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling]]
+
 The specific orchestrator selection details belong on [[Data Engineering Tools]]
 and [[Apache Airflow]]. The architectural boundary stays here.
 
@@ -189,12 +190,12 @@ through collection, storage, analysis, and activation. Event data can flow to
 support, sales, and engagement tools. Reverse ETL and operational analytics
 tools such as Census, Hightouch, and Grouparoo handle the sync.[[cite:data-led-growth-event-tracking-and-reverse-etl]]
 
-This is where [[Reverse ETL]] and
-[[Data Activation]] become part
-of the stack rather than an afterthought. The same warehouse model that powers
-a dashboard can also power lifecycle messaging, sales routing, onboarding, or
-support context. That makes ownership and quality more important because a bad
-sync can change a customer-facing workflow.
+This is where [[Reverse ETL]] and [[Data Activation]] become part of the stack
+rather than an afterthought. The same warehouse model that powers a dashboard
+can also power lifecycle messaging, sales routing, onboarding, or support
+context. [[Data Engineering Tools]] covers the product-selection side of that
+decision. A bad sync can change a customer-facing workflow, so activation
+belongs in the stack design.
 
 ## Observability and Cost
 
