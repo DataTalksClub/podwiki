@@ -11,6 +11,7 @@ related:
   - Evaluation
   - A/B Testing
   - Production ML Project Checklist
+  - Notebook to Production Workflow
   - Recommendation Systems
   - Search
 ---
@@ -220,6 +221,12 @@ compared as alternatives
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 Platform pieces are justified only when repeated use cases warrant them
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+
+After teams choose the architecture, they still have to move notebook
+exploration into reusable code and data paths. They also need evaluation gates,
+serving, and monitoring. The
+[[notebook-to-production-workflow=>Notebook to Production Workflow]] sequence
+focuses on that handoff.
 
 ## Evaluation and Product Validation
 

@@ -4,6 +4,7 @@ title: "ML Platforms"
 summary: "Reference page for shared ML platform systems, internal product strategy, and team enablement."
 related:
   - MLOps
+  - MLOps Adoption at Scale
   - MLOps Architecture
   - Platform Engineering
   - Machine Learning Infrastructure
@@ -31,6 +32,9 @@ user-facing system.
 
 Adoption has to reach beyond data scientists and ML engineers. Product teams and
 governance stakeholders need to use it too[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager]].
+When the question shifts from shared platform services to organization-wide use,
+it belongs with [[MLOps Adoption at Scale]]. That adoption topic covers rollout,
+enablement, support, and governance across the organization[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Reusable Path from Experiment to Production
 
@@ -263,6 +267,7 @@ That's where ML platforms meet
 Use these pages for narrower lifecycle, product, and infrastructure details.
 
 - [[MLOps]]
+- [[MLOps Adoption at Scale]]
 - [[ML Platform Engineer Role]]
 - [[Platform Adoption]]
 - [[Platform Engineering]]

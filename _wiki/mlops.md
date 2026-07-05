@@ -6,6 +6,7 @@ related:
   - ML Platforms
   - MLOps Architecture
   - MLOps Roadmap
+  - MLOps Adoption at Scale
   - MLOps Tools
   - MLOps Engineer
   - Machine Learning System Design
@@ -200,6 +201,10 @@ as both continuity with DataOps and a split from it
 ## Platform Timing and Team Adoption
 
 MLOps platforms matter most when many teams need the same route to production.
+At that point, teams face [[MLOps Adoption at Scale]]. The supported path has to
+be useful enough for product teams to choose it over local workarounds
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+
 Raphael Hoogvliets describes a centralized MLOps team as an enabling group that
 supports product teams and ML engineers. The team earns adoption by solving
 immediate pain. It then standardizes repositories, packages, serving patterns,

@@ -13,6 +13,7 @@ related:
   - Data Quality and Observability
   - Data Engineering Platforms
   - MLOps
+  - Notebook to Production Workflow
 ---
 
 Data pipelines move data from source systems into forms that people, products,
@@ -184,6 +185,13 @@ anatomy. Airflow or simpler schedulers and model-serving options do too
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
 The practical advice is to start simple and add Airflow, Kubernetes, or heavier
 infrastructure when the dependencies justify it.
+
+When an ML notebook becomes the starting point, the data-pipeline boundary is
+still the repeatable path from inputs to published outputs and recovery.
+[[Notebook to Production Workflow]] covers the surrounding handoff sequence. It
+starts with the decision and reusable code. Then it builds the data and feature
+path before evaluation, serving, monitoring, and feedback
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 
 Publication closes the pipeline with a warehouse table, mart, or dashboard. It
 can also be a model artifact, feature set, prediction API, or reverse data flow

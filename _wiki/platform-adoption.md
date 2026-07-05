@@ -8,6 +8,7 @@ related:
   - Developer Experience
   - Data Product Adoption
   - MLOps
+  - MLOps Adoption at Scale
   - DataOps
 ---
 
@@ -24,7 +25,13 @@ cover the architecture around adoption, but adoption is behavioral. A team can
 expose compute and orchestration, then add a model registry or data contracts.
 The rollout still fails when data scientists and data engineers don't know when
 to use the platform. Analysts and product teams also need a clear reason to
-change their work.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+change their work.
+
+For ML-specific adoption, use
+[[mlops-adoption-at-scale=>MLOps Adoption at Scale]] as the deeper path.
+There, adoption turns on product-team support and shared deployment practices.
+It also turns on reproducibility and governance.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 ## Adoption in Practice
 

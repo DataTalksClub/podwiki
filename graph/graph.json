@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1118,
-    "links": 11363
+    "links": 11375
   },
   "nodes": [
     {
@@ -38465,6 +38465,18 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -56237,6 +56249,18 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -60581,6 +60605,18 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:power-analysis",
       "kind": "wiki-chip",
       "weight": 1
@@ -62507,6 +62543,18 @@
     },
     {
       "source": "wiki:ml-platforms",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platforms",
       "target": "wiki:mlops-architecture",
       "kind": "wiki-chip",
       "weight": 1
@@ -63108,6 +63156,18 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-adoption-at-scale",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -68670,6 +68730,18 @@
     {
       "source": "wiki:platform-adoption",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:platform-adoption",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
+      "target": "wiki:mlops-adoption-at-scale",
       "kind": "wiki-related",
       "weight": 3
     },

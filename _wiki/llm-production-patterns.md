@@ -11,6 +11,7 @@ related:
   - AI Red Teaming
   - Business Intelligence
   - Notebook to Production AI Systems
+  - Notebook to Production Workflow
 ---
 
 LLM production patterns are the design choices teams use when a
@@ -50,9 +51,11 @@ monitoring, and feedback loops matter too.[[cite:s24e03-from-notebook-to-product
 Production LLM systems therefore sit next to [[software engineering]] and
 [[MLOps]]. They also sit next to [[evaluation]] and
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
-Teams choose the model boundary and package the context. They test the behavior,
-watch the system in use, and change the design when failures show where the
-next fix belongs.
+
+[[Notebook to Production Workflow]] gives the practical handoff sequence when
+that demo starts as a notebook or prototype. Teams choose the model boundary and
+package the context. They test the behavior, watch the system in use, and
+change the design when failures show where the next fix belongs.
 
 ## Starting Constraints
 
@@ -231,6 +234,7 @@ They also cover evaluation, agents, governance, and project ideas:
 - [[AI Engineer Role]]
 - [[AI Engineering]]
 - [[Notebook to Production AI Systems]]
+- [[Notebook to Production Workflow]]
 - [[AI Red Teaming]]
 - [[Responsible AI and Governance]]
 - [[RAG Portfolio Projects]]
