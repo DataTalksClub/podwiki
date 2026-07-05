@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Orchestration"
-summary: "Orchestration as a control-plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
+summary: "Orchestration as a control-plane practice across workflow engines, CI, cloud schedulers, managed jobs, and ML pipelines."
 related:
   - Apache Airflow
   - Data Pipelines
@@ -12,24 +12,23 @@ related:
   - Data Quality and Observability
 ---
 
-Teams use orchestration as the control plane for recurring data work. They also
-use it for analytics and ML work. An orchestrator decides when jobs run. It
-records which upstream work must finish first. It records what should retry after
-a transient failure and which run history the team can look at later
+Teams use orchestration as the control plane for recurring data, analytics, and
+ML work. The control plane decides when jobs run and which upstream work must
+finish first. It records what should retry after a transient failure. It keeps
+run history that the team can look at later
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The broader concept spans workflow engines, CI/CD systems, and cloud schedulers.
-It also includes analytics refresh jobs, batch-processing services, and ML
-pipeline services. Across those tools, teams coordinate schedules and
-dependencies. They also track run state, recovery, backfills, and ownership.
+It also includes analytics refresh jobs and batch-processing services. ML
+pipeline services fit too. Across those tools, teams coordinate schedules and
+dependency state. They also track recovery, backfills, and ownership.
 
-[[Apache Airflow]] covers DAG authoring, task instances, scheduler behavior, and
-executor behavior. It also covers local Docker Compose setup and shared Airflow
-deployments.
-
-The broader control-plane question appears when schedules and dependencies span a
-workflow engine, CI/CD system, cloud scheduler, or ML pipeline service. Recovery,
-backfills, ownership, and run history belong in the same decision.
+The control-plane question appears when schedules and dependencies span a
+workflow engine or CI/CD system. It also appears across cloud schedulers, managed
+jobs, and ML pipeline services. Recovery, backfills, ownership, and run history
+belong in the same decision. [[Apache Airflow]] owns the concrete DAG-engine
+version of that discussion, including local Docker Compose setup and shared
+Airflow deployments.
 [[Data Pipelines]] describes the source-to-output system, and
 [[How to Build Data Pipelines]] gives the procedural build order.
 
@@ -49,8 +48,8 @@ recovery needs.
 The tool choice belongs with [[data engineering platforms]], [[DataOps]], and
 [[data pipelines]]. It also belongs with [[data quality and observability]], not
 with tool branding alone. A team pays for heavier orchestration when shared run
-history, dependency state, retries, and backfills matter more than the cost of
-operating the tool.
+history matters. Dependency state, retries, and backfills need to matter more
+than the cost of operating the chosen control plane.
 
 [[How to Build Data Pipelines]] owns build order, while
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] owns
@@ -87,18 +86,18 @@ later workflow or transformation step picks it up. The orchestrator coordinates
 the handoff. The storage and transformation layers still do their own jobs
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
-## Control Plane Fit Across Tools
+## Control Plane Fit Across Schedulers
 
 Orchestration fits recurring work where several jobs need ordering, recovery,
-and shared visibility. In an analytics pipeline, a workflow engine may start an
-ingestion job and trigger transformations. It may then run a warehouse check and
+and shared visibility. In an analytics pipeline, the control plane may start
+ingestion and trigger transformations. It may then run a warehouse check and
 alert an owner. In a machine-learning pipeline, it may coordinate batch feature
 generation and training. It may then run scoring and publication.
 
-In each case, the team uses the orchestrator for the schedule and dependency
-graph. It tracks run state and the recovery path. The ingestion tool or SQL
-model still performs its own work. Spark jobs and feature platforms do too.
-Warehouses and model services keep their own responsibilities.
+In each case, the scheduler coordinates the schedule and dependency graph. It
+tracks run state and the recovery path. The ingestion tool or SQL model still
+performs its own work. Spark jobs and feature platforms do too. Warehouses and
+model services keep their own responsibilities.
 
 The need for orchestration increases when the workflow has several ordered
 jobs, partition reruns, shared run history, or retries. It also increases when
@@ -164,7 +163,7 @@ tracks the sequence and run state. That's why orchestration belongs next to
 A backfill should tell the team which inputs, code, outputs, and downstream
 consumers changed.
 
-## Scheduling Choices Across Tools
+## Scheduling Choices Across Tool Families
 
 Orchestration choices form a spectrum rather than a single product choice. One
 modern-stack example puts a workflow engine around Airbyte and dbt
@@ -176,7 +175,9 @@ modern pipelines
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 The same workflow may run as a DAG or CI job. It may also run as a managed
-scheduler, batch job, or ML pipeline.
+scheduler, batch job, or ML pipeline. Use [[Apache Airflow]] for Airflow-specific
+DAG and deployment tradeoffs. Use this section to compare the broader tool
+families.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] says GitHub Actions can be enough for
 simple workflows.
@@ -214,10 +215,10 @@ orchestration becomes ceremony when the workflow is one small script. It also
 adds ceremony when failures are easy to rerun manually and no one needs shared
 task history.
 
-[[Apache Airflow]] covers the Airflow-specific version of this operating
-surface. In Airflow, that surface includes scheduler behavior and executors. It
-also includes workers, metadata state, logs, and connections. Teams also manage
-dependencies and secrets.
+[[Apache Airflow]] covers the Airflow-specific version of this operating surface.
+That includes DAG authoring and scheduler behavior. It also includes executor
+behavior, workers, metadata state, and logs. Connections, dependencies, and
+secrets live there too.
 
 A simpler scheduler can fit when a cloud scheduler can start a container or
 function. It can also fit when no backfill workflow exists yet or the data
@@ -253,11 +254,6 @@ Those concerns connect orchestration to
 
 It also connects orchestration to experiment tracking, model registries, and
 lineage rather than replacing them.
-
-[[Metaflow]] gives a concrete open-source ML workflow example here. It connects
-modeling code to cloud resources and scheduler infrastructure while keeping
-workflow concerns close to data scientists
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
 Feature stores create another ML boundary. Pienaar says Feast consumes
 transformed features from existing batch or streaming pipelines. Tecton can own

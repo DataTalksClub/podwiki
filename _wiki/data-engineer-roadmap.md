@@ -27,13 +27,16 @@ related_wiki:
 ---
 
 A useful data engineer roadmap starts with the work a data engineer owns. Data
-engineers move data from source systems into trusted datasets that other people
-can use. Use this roadmap to learn SQL and Python first. Then add ingestion,
-storage, modeling, and orchestration. After that, add quality checks and
-documentation, then cloud basics and interview-ready projects.
+engineers move source data into trusted datasets that other people can use. Use
+this roadmap to learn the sequence.
+
+Start with SQL and Python, then learn ingestion, storage, and modeling. After
+that, add orchestration and quality before documentation, cloud basics, and
+interview-ready projects.
 
 Use this roadmap when you want to decide what to learn next and how the pieces
-fit together.
+fit together. The same sequence can support analytics and software backgrounds.
+It also supports operations, QA, or a first technical role.
 
 If you need to turn an existing background into hiring evidence, use the
 relevant transition page after this sequence:
@@ -60,11 +63,13 @@ connects that roadmap advice to current tool caution
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 
 His beginner path adds one detail that tool lists often miss. Learners need to
-capture business requirements. The learning sequence should therefore put SQL,
-Python, ingestion, and modeling around a real consumer problem before it adds
-more tools
+capture business requirements. The learning sequence should therefore put the
+early project around a real consumer problem before it adds more tools
 ([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
-That project requirement applies to every learner.
+That project requirement applies to every learner. Analysts who already have
+consumer and metric context should use
+[[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] to translate
+that context into transition evidence.
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the
@@ -171,8 +176,8 @@ The first pipeline should include:
 - staging tables that clean types, rename fields, deduplicate records, and keep
   load metadata
 - modeled tables with joins, grain, business rules, aggregations, and windows
-- a serving output for a named consumer such as an analyst, dashboard, ML
-  training job, product workflow, or operational alert
+- a serving output for a named consumer such as a BI report, ML training job,
+  product workflow, or operational alert
 - a command, script, scheduler, or simple orchestrator so the pipeline doesn't
   depend on notebook clicks
 - documentation for setup, tables, quality checks, failure modes, and recovery
@@ -307,12 +312,12 @@ structure, and reviewer signals.
 
 If your main problem is missing commercial experience, use
 [[how-to-become-a-data-engineer-with-no-experience=>the no-experience guide]]
-for outside review and volunteer work. It also covers open-source evidence and
-CV language. [[volunteer-data-engineering-projects=>Volunteer data engineering projects]]
-cover the version where a nonprofit or open-source task becomes reviewable
-engineering evidence.
-For documentation and screening context, use [[Documentation]] and
-[[CV Screening]].
+for outside review and volunteer work. Use
+[[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] when the
+project must explain how reporting, metric, or stakeholder work transfers.
+[[volunteer-data-engineering-projects=>Volunteer data engineering projects]]
+cover the nonprofit or open-source version. For documentation and screening
+context, use [[Documentation]] and [[CV Screening]].
 
 ## Stage 6: Prepare For Interviews While You Build
 
@@ -552,5 +557,6 @@ repeatable operations
 
 Turn the learning path into reviewable proof through
 [[Data Engineering Portfolio Projects]], then use [[Job Search]] for
-applications. If you come from another role, map that experience into the
-same roadmap through the analyst, data-science, QA and DevOps transition pages.
+applications. If you come from another role, keep this sequence as the
+technical path. Use the analyst, data-science, QA, and DevOps transition pages
+for role-specific evidence.

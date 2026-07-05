@@ -7,7 +7,7 @@ secondary_keywords:
   - "airflow docker compose"
   - "airflow standalone docker"
   - "lightweight airflow"
-summary: "Apache Airflow for DAG-based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
+summary: "Apache Airflow for DAG authoring, task-instance state, scheduler and executor operations, local Docker setup, and shared deployments."
 related:
   - Orchestration
   - Data Pipelines
@@ -24,17 +24,16 @@ related:
   - Modern Data Stack
 ---
 
-Apache Airflow is the concrete workflow engine for recurring data and
-machine-learning work that teams choose to express as DAGs. Its Airflow-specific
-surface includes DAG structure, task instances, retries, and backfills. It also
-covers scheduler and executor behavior, local Docker Compose setup, and shared
-Airflow operations.
+Apache Airflow is the DAG-based workflow engine for data and machine-learning work
+that teams choose to express as DAGs. Use this page for Airflow-specific
+practice. It covers DAG files and operators. It also covers task-instance state
+plus scheduler and executor behavior. Metadata state, local Docker Compose setup,
+and shared deployment work belong here too.
 
-[[Orchestration]] covers the broader control-plane concept across workflow
-engines, CI/CD systems, cloud schedulers, and ML pipeline services. Cross-tool
-scheduling choices belong there. [[Data Pipelines]] describes the source-to-output
-system Airflow coordinates, and [[How to Build Data Pipelines]] gives the build
-sequence. Airflow appears most often around [[data pipelines]], [[DataOps]],
+Use [[Orchestration]] for scheduler decisions that aren't specifically about
+Airflow. [[Data Pipelines]] describes the source-to-output system Airflow
+coordinates, and [[How to Build Data Pipelines]] gives the build sequence.
+Airflow appears most often around [[data pipelines]], [[DataOps]],
 [[data engineering platforms]], and the [[modern data stack]].
 
 DataTalks.Club's
@@ -47,27 +46,23 @@ surface around a data pipeline.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
 In an Airflow stack, DAG tasks call the work owned elsewhere. Airbyte can own
-extract-load work, [[dbt]] can own warehouse-side SQL transformations, and
-Spark or Python code can own heavier processing. Airflow records when those
-steps run, which dependencies they wait on, and what state each task instance
-reached.
+extract-load work, [[dbt]] can own warehouse-side SQL transformations, and Spark
+or Python code can own heavier processing. Airflow wraps those tools with
+operators, task-instance state, logs, and metadata database records.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
 ## Airflow Runtime Surface
 
 Inside Airflow, the useful unit is a DAG run. Task instances, retries, logs, and
-the web UI show what happened in that run. [[Orchestration]] owns the general
-decision about whether a workflow engine, CI job, cloud scheduler, or ML
-pipeline service is the right control plane.
-
-The DAG describes the order, schedule, retry behavior, and owners. It also
+the web UI show what happened in that run. The DAG file names the tasks and
 calls into the real work. The scheduler decides which task instances can run.
 The executor sends work to local processes, queued workers, containers, or
 Kubernetes pods.
 
 The metadata database stores DAG runs and task state alongside schedule, retry,
 connection, and log records. The web UI gives engineers a place to look at
-failures.
+failures. Use [[Orchestration]] when the answer may be a runner other than
+Airflow.
 
 Lars Albertsson's workflow-engine framing maps onto these Airflow pieces. The
 scheduler tracks which work is ready, and the metadata database stores task
@@ -105,21 +100,24 @@ copied by hand. A shared Airflow deployment sits close to
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
 Airflow is a poor fit when its operating surface is heavier than the workflow.
-That surface includes scheduler and executor behavior, worker capacity, metadata
-state, and shared operations. For one-script or early-stage workflows,
-[[Orchestration]] compares Airflow with GitHub Actions, cloud schedulers, and AWS
-CloudWatch with Lambda. It also covers ML pipeline services and cloud-native
-schedulers.
+That surface includes scheduler tuning and executor choice. It also includes
+worker capacity, metadata database care, Python dependency isolation, and
+secrets. Team-level operations add another cost.
+
+For one-script or early-stage workflows, use [[Orchestration]] for lighter
+runners and managed services.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 ## DAG Design
 
-Airflow workflows are written as directed acyclic graphs. A DAG should describe
-the sequence of work, schedule, retry behavior, and owners. Parameters belong
-there too. The DAG should call into real processing code. It shouldn't become a
-pile of business logic that's hard to test outside Airflow.
+Airflow workflows are written as directed acyclic graphs. A DAG should expose
+task names, operators, and upstream or downstream edges. It should also set
+parameters, schedules, retries, and owners.
+
+The DAG should call into real processing code. It shouldn't become a pile of
+business logic that's hard to test outside Airflow.
 
 Keep most Airflow logic in normal Python modules. In a project, the DAG can call
 Python or SQL code. It can also trigger dbt, Spark, or containerized steps.
@@ -157,24 +155,17 @@ freshness, volume, schema, or downstream consumers failed.
 
 ## Backfills and Batch ML
 
-Airflow becomes more valuable when DAG runs need reruns and backfills. A daily
-job can fail because late data arrived or a source schema changed. A bug can
-also create bad output. The team may need to rerun old partitions in the correct
-order. Then it may need to republish downstream tables, dashboards, features, or
-predictions.
-
-Batch workflows are easier to rerun when the team can name the inputs and
-dependencies. In Airflow, that means the DAG should make partition boundaries,
-upstream data, and downstream publication steps visible. [[Orchestration]] owns
-the cross-tool recovery model, while [[Batch vs Streaming]] covers the broader
-processing tradeoff.
+Airflow becomes more valuable when DAG runs need reruns and backfills. In
+Airflow, the DAG should make partition boundaries and upstream datasets visible.
+It should show catchup behavior and downstream publication steps too. The
+cross-tool recovery model belongs in [[Orchestration]], while
+[[Batch vs Streaming]] covers the broader processing tradeoff.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Machine learning pipelines can use Airflow for the same batch structure. Simon
-Stiebellehner separates batch inference from online serving and names Airflow or
-SageMaker Pipelines as common orchestrators. Those jobs load data, preprocess it,
-run the model, and write predictions. Teams using Airflow this way also connect
-it to [[MLOps]], [[ML platforms]], and [[machine learning infrastructure]].
+Machine learning pipelines can use Airflow when the batch job fits an Airflow
+DAG. If the real question is whether that job belongs in Airflow or a managed ML
+pipeline service, use [[Orchestration]], [[ML platforms]], and
+[[machine learning infrastructure]].
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 ## Local Learning and Portfolio Use
@@ -214,7 +205,7 @@ a specific purpose and candidate-owned choices.
 Move from local Airflow to a shared Airflow deployment only when more people
 need the same scheduler, secrets, worker isolation, or log retention. Alerts and
 backfill capacity can justify it too. For a one-script project,
-[[orchestration]] may favor GitHub Actions or a cloud scheduler before Airflow
+[[orchestration]] may make a lighter scheduler the better choice before Airflow
 is worth the operating surface.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]

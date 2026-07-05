@@ -16,34 +16,30 @@ related_wiki:
   - MLOps
 ---
 
-An AI engineering roadmap gives learners a sequence for building software
-around models and proving that the software behaves well enough for real users.
-A practical path starts with product and software ownership, then adds [[LLMs]]
-and
-[[retrieval-augmented-generation=>retrieval-augmented generation]].
-Later stages add
-[[LLM evaluation workflows]],
-[[agent engineering]], and
-production operation.
+An AI engineering roadmap gives learners a sequence for building software around
+models. It also helps them prove that the software behaves well enough for real
+users. Use [[AI Engineering]] for the discipline map and [[AI Engineer Role]] for
+title boundaries. The roadmap owns the order of study, project progression, and
+career transition path.
 
-[[person:pauliusztin=>Paul Iusztin]] puts full-stack
-product work and [[retrieval-augmented-generation=>RAG]] in one skill stack.
-He also includes agents, evaluation, and LLMOps in
+The sequence starts with product software before it adds [[LLMs]] and
+[[retrieval-augmented-generation=>retrieval-augmented generation]]. Later stages
+add [[LLM evaluation workflows]], [[agent engineering]], and production
+operation.
+
+[[person:pauliusztin=>Paul Iusztin]] grounds that order by putting product work
+and RAG in one shipping path. He also adds agents, evaluation, and LLMOps
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
-
-[[person:ruslanshchuchkin=>Ruslan Shchuchkin]]
-frames the same role around product discovery, context management, and usable
-applications [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
-For the role boundary, use
-[[AI Engineer Role]]. For the
-broader discipline, use [[AI Engineering]].
+[[person:ruslanshchuchkin=>Ruslan Shchuchkin]] adds the project signal: usable
+applications need product discovery and context management, not only model calls
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 
 ## From Product App To AI System
 
-The first learning step is still product software. Paul describes the starting
-point as a full-stack AI engineer skill stack. It starts with frontend, backend,
-and database work. Then it adds RAG, agents, deployment, and evaluation. LLMOps
-comes after that
+The first learning step is still product software. Ship a small interface or API
+before adding retrieval, agents, deployment, and evaluation. Paul's skill-stack
+discussion supports that order because application work comes before the later
+AI-specific layers
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
 Ruslan's BranchGPT example keeps the same sequence grounded in a concrete
@@ -57,7 +53,7 @@ ML workflows [[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI 
 That makes the order clear. Learn [[software engineering]] first, then
 [[prompt engineering]] and
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]. After that,
-add [[LLM Production Patterns]], evaluation, and [[MLOps]].
+add [[LLM Evaluation Workflows]], [[LLM Production Patterns]], and [[MLOps]].
 
 ## Entry Paths Into The Roadmap
 

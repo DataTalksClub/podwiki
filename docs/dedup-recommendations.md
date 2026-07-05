@@ -148,6 +148,15 @@ boundaries, and kept citations in the relevant body sections. At the same
 thresholds, content-overlap findings fell from 33 to 26 while internal
 near-duplicate findings stayed at 69.
 
+Tenth pass (2026-07-05) used five parallel workers on the highest remaining
+content-overlap pairs: Airflow versus orchestration, analyst-to-data-engineer
+transition versus the data engineer roadmap, DataOps versus DataOps platforms,
+data mesh concept versus mesh/central-platform comparison, and AI engineering
+concept versus roadmap. The pass kept each page pair separate by making concept
+pages own definitions and durable boundaries while comparison, roadmap, and
+transition pages own decisions, sequence, or career reframing. At the same
+thresholds, content-overlap findings fell from 12 to 7.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

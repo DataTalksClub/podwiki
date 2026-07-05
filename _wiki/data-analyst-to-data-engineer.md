@@ -20,14 +20,17 @@ related_wiki:
 ---
 
 Moving from [[Data Analyst Role=>data analyst]] to
-[[Data Engineer Role=>data engineer]] means moving upstream from prepared data
-to the path that makes data usable. Analysts already bring SQL, business
-context, dashboard experience, and metric judgment.
+[[Data Engineer Role=>data engineer]] means reframing familiar reporting work
+as ownership of the path that makes data usable. Analysts already bring SQL,
+business context, dashboard experience, and metric judgment.
 
 Keep the learning sequence separate from the transition proof. Use the
 [[data-engineer-roadmap=>Data Engineer Roadmap]] for the general order from
 SQL and Python through pipelines, orchestration, quality, and cloud. Use
 [[Data Engineering Portfolio Projects]] for broader project selection.
+
+Use the transition story for analyst evidence transfer, portfolio proof, and
+hiring conversations.
 
 An analyst-to-engineer story should show narrower evidence:
 
@@ -120,29 +123,23 @@ Choose a direction early so you don't collect random tools. Slawomir recommends
 projects that match the specialization you want, not random tutorials
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>project specialization advice]].
 
-## Make Analyst SQL Reusable
+## Reframe Analyst SQL As Modeled Data
 
-Analyst SQL is a strong base, but data engineering SQL has to be reusable. It
-should expose table grain, preserve business rules, support validation, and run
-inside repeatable transformations. The first stage is therefore not "learn SQL."
-It's "make your SQL reviewable, modular, and model-aware."
+The [[data-engineer-roadmap=>Data Engineer Roadmap]] covers the general SQL
+sequence. In this transition, turn analyst SQL into modeled data another
+engineer can review. A dashboard query becomes stronger evidence when it names
+the source tables and declares table grain. It should also separate staging
+from marts and preserve the business rules that made the metric credible.
 
 [[person:jeffkatz=>Jeff Katz]] treats Python and SQL as the center of the data
-engineering skill set. In his career-path discussion, he says candidates can
-learn enough dbt for interviews quickly. The harder on-the-job work is staging,
-integration, and marts. Candidates also need common table expressions, modular
-SQL, window functions, and modeling fundamentals such as OLTP versus OLAP
+engineering skill set. He connects on-the-job work to staging and integration.
+He also names marts, common table expressions, and modular SQL. Window
+functions and modeling fundamentals such as OLTP versus OLAP matter too
 [[cite:data-engineering-career-path-and-skills@44:21=>SQL and modeling fundamentals]].
 
-Practice with analyst-friendly material:
-
-- Take one dashboard query and split it into staging, intermediate, and mart
-  layers.
-- Write the table grain and primary key for every model.
-- Add validation queries for row counts, nulls, uniqueness, accepted values, and
-  referential integrity.
-- Compare a normalized source schema with an analytical star or wide table.
-- Document which stakeholder question each final table answers.
+For an analyst candidate, that advice turns into a transfer exercise. Use one
+work query as evidence by naming its grain, primary key, validation queries, and
+stakeholder question.
 
 [[person:nikolamaksimovic=>Nikola Maksimovic]] gives the internal-mobility
 version of this path. Her BI team named SQL, pipeline understanding, and Python
@@ -151,16 +148,16 @@ recommends practicing SQL against real team queries when possible. Local style,
 data models, and business context matter more than isolated exercises
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>BI-to-analytics-engineering skills]].
 
+For the broader learning order, use [[data-engineer-roadmap=>Data Engineer Roadmap]].
 For adjacent role context, use [[Data Analyst vs Analytics Engineer]] and
 [[Analytics Engineering Portfolio Projects]]. For modeling context, use
 [[dbt]] and [[Data Warehouse]].
 
-## Close The Python Gap With Analyst Work
+## Close The Python Gap Through Reporting Pain
 
-Analysts often need Python as engineering code, not Python in a notebook. A data
-engineer has to read files and call APIs. They also handle pagination and bad
-records. They load data, configure jobs, log runs, and write tests. That code
-should be small enough for another engineer to review.
+The [[data-engineer-roadmap=>Data Engineer Roadmap]] covers Python fundamentals.
+For analysts, the transition proof is more specific: replace manual reporting
+steps with small, reviewable ingestion or validation code.
 
 Jeff Katz names backend engineering, cloud computing, and pipelines as core
 gaps for candidates moving into data engineering from analytics
@@ -171,20 +168,16 @@ He asks for substantial code and tests. Functions should be small, names should
 be descriptive, and classes should appear where useful
 [[cite:get-data-engineering-job-prep-and-interview=>portfolio code signals]].
 
-Convert familiar analyst tasks into engineering code:
+Examples include a CSV cleanup that validates columns and row counts. You can
+also write an API ingestion command that logs what arrived, or rewrite a
+notebook transformation as small functions with tests. A dashboard refresh
+checklist can become a run command plus a failure note. Those examples keep the
+evidence close to the
+analyst's actual work instead of becoming another generic tool list.
 
-- Replace a manual CSV cleanup with a script that validates columns, types, and
-  row counts.
-- Replace a recurring export with an API or file ingestion command that logs
-  what arrived.
-- Replace notebook-only transformation steps with small functions and tests.
-- Replace a dashboard refresh checklist with a repeatable run command and a
-  failure note.
-
-This stage is where the transition starts feeling less like analytics and more
-like engineering. Eddy Zulkifly describes the same discomfort when he moved
-from low-code and UI tools into the command line, Docker, and Terraform. Those
-tools became manageable once the concepts clicked
+Eddy Zulkifly describes the same discomfort when he moved from low-code and UI
+tools into the command line, Docker, and Terraform. Those tools became
+manageable once the concepts clicked
 [[cite:finops-for-data-engineers=>low-code to engineering tools]].
 
 [[Data Engineering Tools]] and [[Modern Data Stack]] provide context, but the
@@ -198,7 +191,9 @@ own the data path that supports that output.
 
 Name the source behavior, preserve raw records, and write staging logic before
 you model tables. Add repeatable runs, checks, and recovery notes. Use
-[[Data Engineering Portfolio Projects]] when you need more project types.
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for the
+general build blueprint and [[Data Engineering Portfolio Projects]] when you
+need more project types.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the project version of this
 transition. Interviewers valued that she recognized clean data and data quality
@@ -218,17 +213,15 @@ existing reporting process. If you need a public project, adapt the same
 structure with open data. Show a consumer-driven data path, not a generic stack
 diagram.
 
-[[Data Pipelines]], [[ETL vs ELT]], and
-[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] provide
-implementation examples.
+[[Data Pipelines]] and [[ETL vs ELT]] provide implementation context.
 
 ## Turn Operations Into Transition Evidence
 
-After SQL, Python, and one pipeline, add enough infrastructure to show that the
-pipeline can run outside your laptop. For an analyst moving into data
-engineering, this doesn't mean mastering every platform. It means showing a
-repeatable environment, a scheduled or triggerable job, logs, and basic
-recovery.
+Make the operating layer reviewable after one analyst-to-pipeline project. The
+broader orchestration and DataOps sequence belongs in the
+[[data-engineer-roadmap=>Data Engineer Roadmap]].
+Analyst candidates should use the operating layer to prove the project can run
+outside a notebook and fail in an understandable way.
 
 Jeff Katz keeps this stage focused. Most of the skill set should remain Python
 and SQL. For adjacent infrastructure, he names cloud computing, Docker, and AWS.
@@ -236,13 +229,9 @@ Airflow code should still depend mainly on Python rather than hiding weak
 programming behind an orchestrator
 [[cite:data-engineering-career-path-and-skills@56:46=>Python SQL cloud Docker focus]].
 
-For transition evidence, the operating layer only needs to make the analyst
-project reviewable:
-
-- A reproducible environment or setup command.
-- A scheduled, triggerable, or documented run path.
-- Logs for source counts, loaded rows, validation failures, and run time.
-- A rerun or backfill note for the most likely failure.
+For transition evidence, show a reproducible setup and a scheduled or
+documented run path. Add logs for source counts and validation failures, plus a
+rerun or backfill note for the most likely failure.
 
 Gloria Quiceno's work example is useful here. Her business reporting work became
 more engineering-heavy when SQL scripts moved into R or Python, Docker, AWS,
@@ -250,7 +239,7 @@ and automated reports. Analysts can take the same route by automating recurring
 reporting pain first, then turning the automation into pipeline evidence
 [[cite:get-data-analytics-and-data-engineering-job=>report automation path]].
 
-For reliability context, use [[DataOps]],
+For the broader reliability sequence, use [[DataOps]],
 [[data-quality-and-observability=>Data Observability]], and [[Orchestration]].
 
 ## Package The Transition For Hiring
@@ -304,13 +293,16 @@ Prepare the story around conversion evidence:
 - The SQL, Python, validation, or run automation you added.
 - The remaining engineering gap you're closing next.
 
-Jeff Katz outlines likely interview checks. Screening may ask about data
-engineering concepts, OLTP versus OLAP, pipelines, and tools. A later stage
-often includes SQL. He also warns candidates not to let one failed interview
-derail the learning path. Keep building the pipeline, improving SQL, and
-practicing Python
+Jeff Katz outlines likely interview checks. Expect data-engineering concepts,
+OLTP versus OLAP, and pipeline design, with tool and SQL checks too. He also
+warns candidates not to let one failed interview derail the learning path
 [[cite:data-engineering-career-path-and-skills@48:00=>interview checks]]
 [[cite:data-engineering-career-path-and-skills@33:05=>persistence through rejection]].
+
+Use the [[data-engineer-roadmap=>Data Engineer Roadmap]] for general interview
+practice, and keep this transition story anchored in what changed. The same
+metric or dashboard now has source ownership. It also has modeled tables,
+validation, and a repeatable run path.
 
 Don't self-filter too aggressively because Jeff says hiring teams often accept
 candidates with gaps. Job descriptions describe an ideal candidate, while the

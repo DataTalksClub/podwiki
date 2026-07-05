@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12305
+    "links": 12304
   },
   "nodes": [
     {
@@ -8900,7 +8900,7 @@
       "title": "Apache Airflow",
       "url": "/wiki/apache-airflow/",
       "count": 1,
-      "search": "Apache Airflow Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments.",
+      "search": "Apache Airflow Apache Airflow for DAG authoring, task instance state, scheduler and executor operations, local Docker setup, and shared deployments.",
       "keyword": "airflow"
     },
     {
@@ -10264,7 +10264,7 @@
       "title": "Orchestration",
       "url": "/wiki/orchestration/",
       "count": 1,
-      "search": "Orchestration Orchestration as a control plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
+      "search": "Orchestration Orchestration as a control plane practice across workflow engines, CI, cloud schedulers, managed jobs, and ML pipelines."
     },
     {
       "id": "wiki:platform-adoption",
@@ -27333,12 +27333,6 @@
     {
       "source": "wiki:apache-airflow",
       "target": "wiki:ml-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -16,10 +16,10 @@ related:
 ---
 
 AI engineering turns foundation models into usable software. It's product
-engineering around models rather than prompt writing alone. One skill stack
-covers full-stack product work and
-[[retrieval-augmented-generation=>RAG]]. It also covers agents, evaluation, and
-LLMOps.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
+engineering around models rather than prompt writing alone. The discipline owns
+the application layer and model behavior. It also owns context, evaluation, and
+operations around AI products.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
+For the learning sequence, use [[AI Engineering Roadmap]].
 
 Prompting lets more people act as new AI experts. They can explore, prototype,
 and contribute without first training a model. Maria Sukhareva treats that
@@ -62,8 +62,7 @@ covers a similar production stack, from RAG ingestion to LLMOps and deployment.
 For related production work, see [[LLM Production Patterns]],
 [[AI Infrastructure]], and [[MLOps Architecture]].
 
-For role boundaries, see [[AI Engineer Role]] and
-[[AI Engineering Roadmap]].
+For the title-specific role boundary, see [[AI Engineer Role]].
 
 ## Role Boundaries
 
@@ -197,10 +196,10 @@ The same operational work runs through [[MLOps]],
 [[MLOps Engineer]], and
 [[AI Infrastructure]].
 
-## Career and Learning Signals
+## Career and Project Signals
 
 Hiring discussions value project evidence more than credentials alone. Project
-work shows AI engineering learning.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
+work shows AI engineering judgment.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
 The same argument runs through side projects and local community work.
 Daily-life project ideas count too. The episode also covers hiring signals and
 using AI to learn
@@ -214,11 +213,11 @@ more than biography alone
 Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
 for those daily workflows.
 
-For a learner, a strong AI engineering portfolio should show more than a chatbot
-demo. It should show a product problem and a user interface or API. It should
-also show context strategy with evaluation cases and deployment notes.
-Monitoring and feedback are useful additions. The portfolio should explain
-latency and cost tradeoffs alongside data quality and model choice.
+At the concept level, the useful signal is ownership across product surface and
+context strategy. A reviewer should also see evaluation cases, deployment notes,
+monitoring, and cost or latency tradeoffs. Use
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] for
+concrete project shapes and review criteria.
 
 Software engineers moving into this path can use
 [[software-engineer-to-machine-learning=>software engineer to machine learning]]
@@ -226,10 +225,7 @@ for the named transition. Use
 [[machine-learning-for-software-engineers=>machine learning for software engineers]]
 to separate reusable strengths from missing ML data and evaluation habits.
 
-Use [[AI Engineering Roadmap]],
-[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
-[[RAG Portfolio Projects]],
-and [[Open Source Portfolio Evidence]]
-for project sequencing. The
-[[ai-engineering-roadmap=>AI Engineer Roadmap]]
-turns that sequencing into concrete build stages with portfolio milestones.
+Use [[AI Engineering Roadmap]] for the staged learning path. Use
+[[RAG Portfolio Projects]] for retrieval-heavy examples and
+[[Open Source Portfolio Evidence]] for public proof outside a dedicated AI
+product.

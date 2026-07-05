@@ -28,13 +28,14 @@ authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
 
 DataOps sits beside [[Data Engineering]] and [[MLOps]], but it doesn't replace
-either one. Use the term when teams review and release data changes. Teams also
-observe, recover, and improve those changes.
+either one. Use DataOps to name the team habits for reviewing and releasing
+changes. It also covers observing outcomes, recovering failures, and improving
+the next change.
 
 [[DataOps vs Data Engineering]] covers responsibility boundaries, while
 [[MLOps vs DataOps]] covers the model-incident boundary. [[DataOps Platforms]]
-covers the shared service layer. [[DataOps Tools]] covers tool categories, and the
-[[dataops-engineer-role=>DataOps engineer role]] covers staffing.
+covers shared platform packaging, [[DataOps Tools]] covers tool categories, and
+the [[dataops-engineer-role=>DataOps engineer role]] covers staffing.
 
 Fragile data changes create errors, and Bergh frames DataOps as the response
 [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps]].
@@ -169,14 +170,20 @@ reacting to incidents one by one.
 [[data-quality-and-observability=>Data Observability]] own the monitoring layer.
 [[DataOps Tools]] owns checks, alerts, lineage, and runbook categories.
 
-## Shared Services, Staffing, and ML Boundaries
+## Staffing and ML Boundaries
 
-When many teams need the same operating path, platform teams may package
-DataOps as shared services. Albertsson describes the platform as the technology
-enabler for workflows and tooling. He also includes continuous deployment,
-support, and self-service
+When many teams need the same operating path, use [[DataOps Platforms]] for
+shared packaging. That includes workflow services and release templates.
+Observability integrations, access workflows, and support paths belong there
+too.
+
+DataOps stays on the operating question by naming who reviews and releases
+changes and who restores failed data. Teams also decide who improves the next
+change.
+
+Albertsson frames the platform as the technology enabler for workflows,
+continuous deployment, support, and self-service
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-[[DataOps Platforms]] owns that service design.
 For data engineering teams, the
 [[data-engineering-manager-role=>data engineering manager]] owns whether that
 service path has staffing, quality standards, and stakeholder promises behind it
